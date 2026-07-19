@@ -32,6 +32,16 @@ export interface Flashcard {
   herkunft?: Herkunft;      // Kennzeichnung (Default: 'selbst')
   /** true = zugehöriges Material fehlt → aus Pools ausschließen. */
   flagged?: boolean;
+  /**
+   * Optionaler Aufgaben-Typ – nur für die Probeprüfungs-Feinlogik
+   * (Bauform 4). Erlaubt die typgenaue Seminar-Auswahl bei pkb002:
+   *  - 'erklaeren'  → Theorie erläutern
+   *  - 'vergleich'  → Theorienvergleich
+   *  - 'anwendung'  → Theorieanwendung auf einen Fall
+   * Karten ohne subtype (z.B. reine Definitions-/Kontextkarten)
+   * werden von typgenauen Auswahlen übersprungen.
+   */
+  subtype?: 'erklaeren' | 'vergleich' | 'anwendung';
 }
 
 /** Eine Multiple-Choice-Quizfrage. */
@@ -74,7 +84,98 @@ export interface Track {
   exam: ExamTask[];
   /** Prüfungsdauer in Minuten (Default 90). */
   examDurationMin?: number;
+  /**
+   * Wählt die Prüfungs-Bauform + Parameter für diesen Track.
+   * Fehlt sie, nutzt die App Bauform 1 (Zufallspool) über alle
+   * Karteikarten – so hat jeder Track automatisch eine funktionierende
+   * Probeprüfung, ohne dass etwas bricht.
+   */
+  examConfig?: ExamConfig;
 }
+
+// ---- Probeprüfungs-Bauformen ------------------------------------
+//
+// Leitprinzip (siehe SPEC_Probepruefung.md): Die Logik lebt EINMAL
+// zentral in der App (components/Exam.tsx). Ein Modul wählt über
+// diese Konfiguration NUR aus, welche Bauform es nutzt und mit
+// welchen Parametern. Inhalte kommen aus den Karteikarten/dem Quiz.
+
+/** Feste Anzahl (z.B. 8) oder zufällige Spanne (z.B. [7, 10]). */
+export type ExamCount = number | [number, number];
+
+/** Bauform 1 – Zufallspool: N zufällige offene Aufgaben. */
+export interface ZufallspoolConfig {
+  bauform: 'zufallspool';
+  durationMin?: number;
+  /** Nur aus diesen Sitzungen ziehen (Default: alle). */
+  sessions?: string[];
+  /** Anzahl offener Aufgaben – fest oder Spanne. */
+  count: ExamCount;
+  /** Aufgaben möglichst aus verschiedenen Sitzungen streuen. */
+  spreadSessions?: boolean;
+  /** Zusätzliche MC-Aufgaben am Ende (aus dem Quiz-Pool). */
+  plusMc?: number;
+}
+
+/** Bauform 2 – Reine MC-Klausur: N Multiple-Choice-Fragen. */
+export interface McConfig {
+  bauform: 'mc';
+  durationMin?: number;
+  sessions?: string[];
+  count: ExamCount;
+}
+
+/** Bauform 3 – Feste Aufgaben: festes Set in fester Reihenfolge (aus track.exam). */
+export interface FesteConfig {
+  bauform: 'feste';
+  durationMin?: number;
+  /** Konkrete Aufgaben-IDs in gewünschter Reihenfolge (leer = alle aus track.exam). */
+  taskIds?: string[];
+}
+
+/** Eine typgenaue Einzel-Auswahl innerhalb einer Verteilungs-Quelle. */
+export interface ExamPick {
+  /** Nur Karten mit diesem subtype. */
+  subtype?: 'erklaeren' | 'vergleich' | 'anwendung';
+  /** Auswahl auf diese Sitzungen einschränken. */
+  fromSessions?: string[];
+}
+
+/** Eine Quelle innerhalb von Bauform 4. */
+export interface VerteilungQuelle {
+  /** Trennüberschrift, z.B. "Vorlesungsteil". */
+  label: string;
+  /** Aus welchen Sitzungen diese Quelle zieht. */
+  sessions: string[];
+  /** Wie viele Aufgaben aus dieser Quelle. */
+  count: number;
+  /** Je Ziehung eine andere Sitzung bevorzugen. */
+  distinctSessions?: boolean;
+  /**
+   * Optionale Feinlogik: statt zufällig `count` Karten zu ziehen,
+   * exakt diese (typgenauen) Auswahlen der Reihe nach. Ist `picks`
+   * gesetzt, bestimmt seine Länge die Aufgabenzahl.
+   */
+  picks?: ExamPick[];
+}
+
+/** Bauform 4 – Verteilung "X aus A + Y aus B" (ggf. mit Feinlogik). */
+export interface VerteilungConfig {
+  bauform: 'verteilung';
+  durationMin?: number;
+  quellen: VerteilungQuelle[];
+  /**
+   * Erlaubt vor dem Start die Wahl einzelner Quellen statt aller
+   * (z.B. pkb002: nur Vorlesung / nur Seminar / beide).
+   */
+  modes?: boolean;
+}
+
+export type ExamConfig =
+  | ZufallspoolConfig
+  | McConfig
+  | FesteConfig
+  | VerteilungConfig;
 
 /** Ein Modul, z.B. "mab002 – Mathematikdidaktik". */
 export interface Module {

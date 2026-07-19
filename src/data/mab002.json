@@ -3109,7 +3109,17 @@
         }
       ],
       "exam": [],
-      "examDurationMin": 90
+      "examDurationMin": 90,
+      "examConfig": {
+        "bauform": "zufallspool",
+        "durationMin": 90,
+        "count": [
+          7,
+          10
+        ],
+        "spreadSessions": true,
+        "plusMc": 1
+      }
     },
     {
       "id": "seminar",

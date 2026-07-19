@@ -226,12 +226,7 @@ export default function App() {
           sessions={track.sessions}
         />
       )}
-      {tab === 'probe' && (
-        <Exam
-          tasks={track.exam.filter((t) => !hidden.has(t.id))}
-          durationMin={track.examDurationMin ?? 90}
-        />
-      )}
+      {tab === 'probe' && <Exam track={track} hidden={hidden} />}
     </div>
   );
 }

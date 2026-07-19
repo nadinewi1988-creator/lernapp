@@ -191,7 +191,8 @@
           "q": "Was sind die wesentlichen Eigenschaften der IB nach Auffassung des Realismus?",
           "a": "Tradition: Machiavelli, Hobbes. Ziel: Durchsetzung nationaler Interessen. Anarchie, Selbsthilfesystem, Macht als zentrale Kategorie, Staaten als einheitliche Akteure. Sicherheitsdilemma (dynamisch). Balancing/Bandwagoning gegenüber Hegemon (dynamisch). Innenpolitik irrelevant — anarchische Struktur zwingt alle Staaten gleich (Black Box).",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "subtype": "erklaeren"
         },
         {
           "id": "c1oki6mn",
@@ -199,7 +200,8 @@
           "q": "Was sind die wesentlichen Eigenschaften der IB nach Auffassung des Liberalismus?",
           "a": "Staat kein einheitlicher Akteur, Ergebnis innenpolitischer Prozesse. Kooperation durch Interdependenzen, abgesichert durch Institutionen (UNO). Kant: innenpolitisch friedliche Staaten sind auch außenpolitisch friedlich. Innenpolitische Akteure bestimmen Konfliktregelung. Republikanischer Liberalismus: Demokratie gezielt verbreiten.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "subtype": "erklaeren"
         },
         {
           "id": "cl90q0w",
@@ -207,7 +209,8 @@
           "q": "Was sind die wesentlichen Eigenschaften der IB nach Auffassung des Konstruktivismus?",
           "a": "Metatheorie statt inhaltlicher Ansatz. Ideen, Normen, Identität zentral. IB werden konstruiert. Staaten schaffen Rollen statt objektiver Interessen. Wendt: „Anarchy is what states make of it“. Wissen und Lernen prägen angemessenes Verhalten.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "subtype": "erklaeren"
         },
         {
           "id": "cv22q7l",
@@ -215,7 +218,8 @@
           "q": "Vergleichen Sie Realismus und Liberalismus hinsichtlich ihrer Grundannahmen!",
           "a": "Akteursebene: Realismus = einheitlicher Staat; Liberalismus = Staat als Ergebnis innenpolitischer Präferenzbildung. Ordnungsprinzip: Realismus = Anarchie zwingt zu Selbsthilfe; Liberalismus = Interdependenzen führen zu institutionell abgesicherter Kooperation. Innenpolitik: für Realismus irrelevant, für Liberalismus entscheidend.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "subtype": "vergleich"
         },
         {
           "id": "c1jnpd0k",
@@ -223,7 +227,8 @@
           "q": "Vergleichen Sie Realismus und Konstruktivismus hinsichtlich ihrer Grundannahmen!",
           "a": "Ontologie: Realismus = Macht/Interessen materiell &amp; stabil gegeben; Konstruktivismus = Interessen &amp; selbst Anarchie erst durch geteilte Ideen/Identität konstituiert. Kooperation: Realismus nur im Schatten eines Hegemons oder aus Bedrohung; Konstruktivismus über gemeinsame Identität/Rollenverständnisse.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "subtype": "vergleich"
         },
         {
           "id": "cm42et9",
@@ -231,7 +236,8 @@
           "q": "Vergleichen Sie Liberalismus und Konstruktivismus hinsichtlich ihrer Grundannahmen!",
           "a": "Herkunft der Interessen: Liberalismus = innergesellschaftliche, oft wirtschaftliche Präferenzen konkreter Akteure; Konstruktivismus = geteilte Ideen &amp; gemeinsame Identität, unabhängig von materiellen Vorteilen. Beide relativieren die realistische Staatsfixierung, aber auf unterschiedliche Weise.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "subtype": "vergleich"
         },
         {
           "id": "c1c22pn",
@@ -263,7 +269,8 @@
           "q": "Wie würde der Realismus die Entstehung des Mercosur erklären?",
           "a": "Erklärungsversuch: Gegenmachtbildung gegen Hegemon USA (Balance-of-Power). Scheitert empirisch: Argentinien suchte seit den 1980ern aktiv die Nähe zu den USA statt Opposition; ökonomischer Neorealismus (Gilpin) liefert nur eine Ex-post-Erklärung.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "subtype": "anwendung"
         },
         {
           "id": "c1gnyume",
@@ -271,7 +278,8 @@
           "q": "Wie würde der Liberalismus die Entstehung des Mercosur erklären?",
           "a": "Kleine, organisierte Wirtschaftsakteure sollen treiben (Zwei-Ebenen-Theorie). Exportquote Brasiliens stieg 1990–94 von 1/3 auf 2/3 — stützt liberale Erwartung; Gründung war aber faktisch bürokratisch, nicht gesellschaftlich getragen.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "subtype": "anwendung"
         },
         {
           "id": "c18p3mmz",
@@ -279,7 +287,8 @@
           "q": "Wie würde der Konstruktivismus die Entstehung des Mercosur erklären?",
           "a": "Identitätswandel durch Demokratisierung Argentiniens/Brasiliens in den 1980ern; Caputo-Zitat (1986) zeigt geteilte Weltsicht vor den Verhandlungen. Kultureller „Rucksack“ erklärt unterschiedliche Kooperationsgrenzen (Uruguay vs. Argentinien 2002).",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "subtype": "anwendung"
         },
         {
           "id": "c1i7vcci",
@@ -287,7 +296,8 @@
           "q": "Wie würde der Realismus die unterschiedliche Haltung Deutschlands und der USA/Großbritanniens zum Irak-Krieg (2003) erklären?",
           "a": "Nicht primär Balancing gegen den Hegemon USA (passt nicht zur deutschen UN-Orientierung), sondern Kosten-Nutzen-Kalkül (defensiver Realismus) und Instrumentalisierung der UN zur Legitimation des Bruchs mit den USA.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "subtype": "anwendung"
         },
         {
           "id": "c9vybbf",
@@ -295,7 +305,8 @@
           "q": "Wie würde der Liberalismus die unterschiedliche Haltung Deutschlands und der USA/Großbritanniens zum Irak-Krieg (2003) erklären?",
           "a": "Vetospieler-Theorie (Tsebelis): mehr Vetospieler (Bundestag) → geringere Kriegsbereitschaft. Downs’ Wählerkalkül: Schröders Ablehnung als Reaktion auf klare Mehrheitsmeinung (79 % gegen Intervention) im Bundestagswahlkampf 2002.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "subtype": "anwendung"
         },
         {
           "id": "cblqtfi",
@@ -303,7 +314,8 @@
           "q": "Wie würde der Konstruktivismus die unterschiedliche Haltung Deutschlands und der USA/Großbritanniens zum Irak-Krieg (2003) erklären?",
           "a": "Unterschiedliche historisch gewachsene Werte: deutscher Multilateralismus/Antimilitarismus vs. amerikanischer Exzeptionalismus. Kagan: USA in „Hobbesscher“, Europa in „Kantianischer“ Welt. Deutung der Kriegshandlung als legitim (GB) bzw. illegitim (D).",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "subtype": "anwendung"
         },
         {
           "id": "c1so92qp",
@@ -311,7 +323,8 @@
           "q": "Wie würde der Realismus das unterschiedliche Verhalten Deutschlands und der USA in der Klimapolitik erklären?",
           "a": "Ökonomischer Neorealismus: Deutschland als „pusher state“ stärkt Machtposition durch Umwelttechnologie-Export; USA nutzen hegemoniale Stellung, um laxere Ziele durchzusetzen — blendet aber den entscheidenden Kongress-Widerstand aus.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "subtype": "anwendung"
         },
         {
           "id": "c66zqk0",
@@ -319,7 +332,8 @@
           "q": "Wie würde der Liberalismus das unterschiedliche Verhalten Deutschlands und der USA in der Klimapolitik erklären?",
           "a": "Putnams Two-Level-Games: Win-Set = auf nationaler Ebene ratifizierbare Verhandlungsergebnisse. Deutschland hatte ein großes (theoretisch schwächendes) Win-Set, trat aber unnachgiebig auf; die USA hatten ein kleines (theoretisch stärkendes) Win-Set, machten aber dennoch Zugeständnisse — ein Widerspruch zur theoretischen Erwartung.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "subtype": "anwendung"
         },
         {
           "id": "c1jpvugv",
@@ -335,7 +349,8 @@
           "q": "Wie würde der Konstruktivismus das unterschiedliche Verhalten Deutschlands und der USA in der Klimapolitik erklären?",
           "a": "Wissen über den Klimawandel ist sozial konstruiert. Deutschlands Klima-Enquete-Kommission fungierte als glaubwürdiger „honest broker“; in den USA fehlte ein vergleichbarer Akteur — daher unterschiedliche gesellschaftliche Deutung desselben Problems.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "subtype": "anwendung"
         }
       ],
       "quiz": [
@@ -1349,7 +1364,57 @@
         }
       ],
       "exam": [],
-      "examDurationMin": 90
+      "examDurationMin": 90,
+      "examConfig": {
+        "bauform": "verteilung",
+        "durationMin": 90,
+        "modes": true,
+        "quellen": [
+          {
+            "label": "Vorlesungsteil",
+            "sessions": [
+              "Vorlesung 1",
+              "Vorlesung 2",
+              "Vorlesung 3",
+              "Vorlesung 4"
+            ],
+            "count": 3,
+            "distinctSessions": true
+          },
+          {
+            "label": "Seminarteil",
+            "sessions": [
+              "Theorie-Grundlagen",
+              "Mercosur",
+              "Irak-Krieg",
+              "Klimapolitik"
+            ],
+            "count": 3,
+            "picks": [
+              {
+                "subtype": "erklaeren",
+                "fromSessions": [
+                  "Theorie-Grundlagen"
+                ]
+              },
+              {
+                "subtype": "vergleich",
+                "fromSessions": [
+                  "Theorie-Grundlagen"
+                ]
+              },
+              {
+                "subtype": "anwendung",
+                "fromSessions": [
+                  "Mercosur",
+                  "Irak-Krieg",
+                  "Klimapolitik"
+                ]
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }

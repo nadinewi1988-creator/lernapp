@@ -120,3 +120,15 @@ textarea { width: 100%; border: 1px solid var(--line); border-radius: 8px; paddi
 .modal-overlay { position: fixed; inset: 0; background: rgba(31, 46, 61, 0.4); display: grid; place-items: center; z-index: 60; }
 .modal-title { margin: 0 0 10px; }
 .modal-actions { display: flex; gap: 8px; justify-content: center; margin-top: 16px; }
+
+/* Modul-Übersicht: Gesamtfortschritt über alle Tracks */
+.module-overview { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; margin-bottom: 18px; box-shadow: var(--shadow); }
+.mo-head { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.mo-title { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink); }
+.mo-total { font-size: 0.9rem; color: var(--sage-dark); font-weight: 700; }
+.mo-rows { display: flex; flex-direction: column; gap: 8px; }
+.mo-row { display: grid; grid-template-columns: 1.2fr 2fr auto auto; gap: 10px; align-items: center; font-size: 0.84rem; }
+.mo-name { font-weight: 600; }
+.mo-bar { height: 8px; background: var(--paper); border-radius: 5px; overflow: hidden; }
+.mo-fill { height: 100%; border-radius: 5px; transition: width 0.3s; }
+.mo-note { color: var(--ink-soft); white-space: nowrap; }

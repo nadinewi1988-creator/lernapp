@@ -3,6 +3,7 @@ import type { AppData, ProgressMap } from './types';
 import { appData } from './data';
 import { useUser, AuthBar } from './components/Auth';
 import { Flashcards } from './components/Flashcards';
+import { ModuleOverview } from './components/ModuleOverview';
 import { Quiz } from './components/Quiz';
 import { Exam } from './components/Exam';
 import {
@@ -125,7 +126,7 @@ export default function App() {
 
         {tracks.length > 1 && (
           <label>
-            Teil
+            Bereich
             <select
               value={trackId}
               onChange={(e) => setTrackId(e.target.value as typeof trackId)}
@@ -139,6 +140,8 @@ export default function App() {
           </label>
         )}
       </div>
+
+      <ModuleOverview module={module} refreshKey={progress} />
 
       <nav className="tabs">
         <button

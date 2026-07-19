@@ -66,7 +66,7 @@ export interface ExamTask {
  * (Projektanweisung), leben aber im selben Modul.
  */
 export interface Track {
-  id: 'vorlesung' | 'seminar';
+  id: 'vorlesung' | 'seminar' | 'tutorium';
   label: string;            // "Vorlesung" | "Seminare"
   sessions: string[];       // Reihenfolge der Sitzungen/Seminare
   flashcards: Flashcard[];

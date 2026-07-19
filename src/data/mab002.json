@@ -3110,6 +3110,1878 @@
       ],
       "exam": [],
       "examDurationMin": 90
+    },
+    {
+      "id": "seminar",
+      "label": "Seminare",
+      "sessions": [
+        "Seminar 1",
+        "Seminar 2",
+        "Seminar 3",
+        "Seminar 4",
+        "Seminar 5",
+        "Seminar 6",
+        "Seminar 7",
+        "Seminar 8",
+        "Seminar 9",
+        "Seminar 10",
+        "Seminar 11",
+        "Seminar 12",
+        "Seminar 13"
+      ],
+      "flashcards": [
+        {
+          "id": "cfn7v7j",
+          "session": "Seminar 1",
+          "q": "Vergleichen Sie in den Bildungsstandards für Primarstufe und Sekundarstufe I das Kapitel 'Der Beitrag des Faches Mathematik zur Bildung'. Welche Gemeinsamkeiten sehen Sie?",
+          "a": "Beide Fassungen begründen den Beitrag des Mathematikunterrichts zur Allgemeinbildung inhaltlich sehr ähnlich: Mathematik wird als eigenständige Denk- und Kulturleistung sowie als Werkzeug zur Erschließung von Umwelt und Gesellschaft dargestellt – eine Argumentationslinie, die sich eng an die Winter'schen Grunderfahrungen (Sitzung 2) anlehnt. Beide Fassungen betonen zudem den kumulativen, aufeinander aufbauenden Charakter des Kompetenzerwerbs über die Schulstufen hinweg (KMK, 2003/2022). Der Hauptunterschied liegt im Anspruchsniveau und Abstraktionsgrad der Beispiele, nicht in der grundsätzlichen Begründungsstruktur. (Zusatzhinweis: Für eine wortwörtliche Gegenüberstellung der beiden Kapitel empfiehlt sich ein Blick in die Originaldokumente; diese Antwort fasst die inhaltliche Grundstruktur zusammen, wie sie auch in Sitzung 2 der Vorlesung behandelt wurde.)",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c7zrq9e",
+          "session": "Seminar 1",
+          "q": "Welche Anforderungsbereiche gibt es in den Bildungsstandards, und gibt es Unterschiede zwischen Grundschule und Sekundarstufe I?",
+          "a": "In beiden Schulstufen werden dieselben drei Anforderungsbereiche unterschieden: Anforderungsbereich I (Reproduzieren – Wiedergabe von Grundwissen, Ausführen von Routineverfahren), Anforderungsbereich II (Zusammenhänge herstellen – Verknüpfen bekannter Kenntnisse und Fertigkeiten) und Anforderungsbereich III (Verallgemeinern und Reflektieren – eigenständiges Bearbeiten komplexer oder unbekannter Sachverhalte, eigene Begründungen und Bewertungen). Der Unterschied liegt vor allem im konkreten Anspruchsniveau der Beispiele: In der Primarstufe bleiben auch Aufgaben des Anforderungsbereichs III handlungsnah und anschaulich, während sie in der Sekundarstufe I zunehmend formalere Verfahren und Begründungen verlangen.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cskpc3m",
+          "session": "Seminar 1",
+          "q": "Listen Sie die prozessbezogenen Kompetenzen sowohl der Grundschule als auch der Sekundarstufe I auf.",
+          "a": "In beiden Schulstufen werden dieselben sechs prozessbezogenen (allgemeinen) mathematischen Kompetenzen unterschieden: Mathematisch argumentieren Probleme mathematisch lösen Mathematisch modellieren Mathematische Darstellungen verwenden Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen Mathematisch kommunizieren Diese sechs Kompetenzen ziehen sich als 'roter Faden' durch alle Inhaltsbereiche und Schulstufen; sie unterscheiden sich nicht in der Bezeichnung, sondern im erwarteten Anspruchsniveau (vgl. Anforderungsbereiche) und im Grad der Formalisierung.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cj4n3c6",
+          "session": "Seminar 1",
+          "q": "Welche inhaltsbezogenen Kompetenzen (Leitideen) gibt es in der Grundschule und welche in der Sekundarstufe I?",
+          "a": "Die Bildungsstandards 2022 unterscheiden fünf Leitideen, die über die Schulstufen hinweg im Kern erhalten bleiben, sich aber teils in der Bezeichnung leicht verändern: Zahl und Operation – in beiden Stufen gleich benannt Größen und Messen – in beiden Stufen gleich benannt Primarstufe: 'Muster, Strukturen und funktionaler Zusammenhang' → Sekundarstufe I: 'Strukturen und funktionaler Zusammenhang' (später in der Oberstufe: 'Funktionaler Zusammenhang') Raum und Form – in beiden Stufen gleich benannt Daten und Zufall – in beiden Stufen gleich benannt Die Umbenennung bei der dritten Leitidee spiegelt den didaktischen Übergang wider: In der Primarstufe steht das Erkunden konkreter Muster im Vordergrund, in der Sekundarstufe I der zunehmend formalere Umgang mit Variablen und Funktionen (vgl. Sitzung 10).",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c18sg4wi",
+          "session": "Seminar 1",
+          "q": "Vergleichen Sie in beiden Kerncurricula das Kapitel 1 'Bildungsbeitrag des Faches'. Notieren Sie die zentralen Aussagen.",
+          "a": "Beide Kerncurricula (GS 2025, RS 2020) formulieren den Bildungsbeitrag fast wortgleich: Mathematikunterricht ermöglicht drei zusammenhängende Grunderfahrungen - Mathematik als Werkzeug zum Verstehen der Welt (Natur, Gesellschaft, Kultur, Beruf), als geistige Schöpfung und deduktiv geordnete eigene Welt, und als Mittel zum Erwerb heuristischer, über die Mathematik hinausgehender Fähigkeiten (Winter'sche Grunderfahrungen). Beide betonen den spiralförmigen Aufbau entlang der Leitideen und den Beitrag zu fachübergreifenden Bildungsbereichen (Demokratiebildung, Medienbildung, Sprachbildung u.a.). Die Grundschule ergänzt, dass sie an frühe kindliche Erfahrungen anknüpft und die Basis für weiterführendes Lernen legt.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1pilamn",
+          "session": "Seminar 1",
+          "q": "Vergleichen Sie in beiden Kerncurricula das Kapitel 2 'Kompetenzorientierter Unterricht'.",
+          "a": "Beide KC definieren Kompetenzen nahezu wortgleich: Sie zielen auf die Bewältigung von Aufgaben ab, verknüpfen Wissen/Können zu Handeln, stellen eine langfristige Zielperspektive dar und ermöglichen anschlussfähiges Lernen. Prozess- und inhaltsbezogene Kompetenzen werden im Verbund erworben, orientiert an den 5 Leitideen. Unterschiede: Die GS nennt eigens Basiskompetenzen und Individualisierung als Unterkapitel; die RS gliedert Lernprozesse, Unterrichtsgestaltung, Üben und Innere Differenzierung. Beide betonen Handlungsorientierung, offene Aufgaben und konstruktiven Umgang mit Fehlern.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cucdlw3",
+          "session": "Seminar 1",
+          "q": "Vergleichen Sie in beiden Kerncurricula das Kapitel 3 'Erwartete Kompetenzen' inklusive der Unterkapitel 3.1 bis 3.3.",
+          "a": "Kapitel 3 stellt in beiden Fassungen die Kompetenzen tabellarisch dar (3.1 Prozessbezogen, 3.2 Inhaltsbezogen), mit Spiegelpunkten, die die Progression zwischen Doppeljahrgängen zeigen; gleiche Formulierungen in beiden Spalten bedeuten durchgehenden Kompetenzaufbau. Unterschied in der Zahl der Doppeljahrgänge (GS: bis Kl.2/4; RS: bis Kl.6/8/10) und: Nur die RS hat zusätzlich Kapitel 3.3 Lernbereiche, das die Kompetenzen in konkrete, nach Doppeljahrgängen gegliederte Unterrichtsthemen überführt - diese Konkretisierungsebene fehlt in der GS-Fassung.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1wxiu36",
+          "session": "Seminar 1",
+          "q": "Vergleichen Sie in beiden Kerncurricula das Kapitel 4 'Leistungsfeststellung und Leistungsbewertung'.",
+          "a": "Beide unterscheiden Lernsituationen (Fehler als Erkenntnismittel, keine Bewertung) von Leistungssituationen (Kompetenznachweis). Die Zeugnisnote setzt sich in beiden je etwa zur Hälfte aus schriftlichen und mündlichen/anderen Leistungen zusammen; schriftliche Lernkontrollen sollen alle 3 Anforderungsbereiche abdecken, Anzahl legt die Fachkonferenz fest. Unterschiede: Die GS schreibt vor, dass AB I ca. 50% der Punkte ausmachen soll, und betont reine Beobachtung in Kl.1-2 vor den ersten Lernkontrollen ab Kl.2; die RS setzt den Schwerpunkt eher auf AB I/II und verlangt einen hilfsmittelfreien Aufgabenteil.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cz4dm5e",
+          "session": "Seminar 1",
+          "q": "Vergleichen Sie in den Kerncurricula für Grundschule und Realschule das Kapitel 'Aufgaben der Fachkonferenz'. Welche Unterschiede und Gemeinsamkeiten gibt es?",
+          "a": "Beide Kerncurricula (KC Grundschule 2025, Kap. 5; KC Realschule 2020, Kap. 5) beschreiben die Aufgaben der Fachkonferenz nahezu deckungsgleich. Grundauftrag ist in beiden Fällen, dass die Fachkonferenz unter Beachtung der rechtlichen Grundlagen und der Vorgaben des Kerncurriculums den fachbezogenen schuleigenen Arbeitsplan (das Fachcurriculum) erarbeitet und kontinuierlich weiterentwickelt und damit zur Qualitätsentwicklung und Qualitätssicherung des Faches beiträgt. Gemeinsamkeiten (in beiden Stufen fast wortgleich): Festlegen von Themen und Struktur der Unterrichtseinheiten samt zeitlicher Zuordnung zu den Doppelschuljahrgängen, Absprachen zu Differenzierung und Individualisierung, Herausarbeiten fachübergreifender Anteile, Entscheidung über Schulbücher und Materialien, Absprachen zu Fachsprache und Hilfsmitteln, Regelung von Anzahl/Verteilung/Bewertung der Leistungsüberprüfungen und ihres Anteils an der Note, Mitwirkung am Förderkonzept, außerschulische Lernorte und Wettbewerbe, Beiträge zum Schulleben, Fortbildungskonzepte, Abstimmung mit benachbarten Grund- und weiterführenden Schulen, Medienkonzept sowie Sicherung der Basiskompetenzen. Unterschiede sind schulstufenspezifisch: Nur die Grundschule nennt das einheitliche Verfahren der schriftlichen Subtraktion, den Einsatz von Diagnoseinstrumenten und den Übergang vom Kindergarten in die Grundschule; nur die Realschule (Sek I) nennt Wahlpflichtkurse und Profile, die Berufliche Orientierung und den Hinweis, dass die Erstellung des Fachcurriculums ein Prozess ist. Fazit: Die Struktur des Kapitels ist in beiden Kerncurricula identisch; die wenigen Abweichungen ergeben sich aus den Anforderungen der jeweiligen Schulstufe.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cc2ea17",
+          "session": "Seminar 2",
+          "q": "Erstellen Sie eine Sammlung von Kriterien für 'guten' Mathematikunterricht auf Basis eigener Erfahrungen und ordnen Sie diese anschließend fachlich ein.",
+          "a": "Da diese Aufgabe zunächst auf einer persönlichen Erfahrungssammlung basiert, gibt es keine 'einzig richtige' Musterlösung – wichtig für die Klausur ist aber, eine solche Sammlung anschließend mit dem theoretischen Instrumentarium der Vorlesung einordnen zu können. Typische, aus Erfahrung genannte Kriterien lassen sich in aller Regel den Merkmalen nach Meyer, Helmke oder dem PIKAS-Plakat zuordnen (Sitzung 1), zum Beispiel: 'Der Unterricht war klar aufgebaut' → Meyer: klare Strukturierung 'Ich habe verstanden, wozu ich das brauche' → Weltorientierung (Heymann) bzw. ergiebige Aufgaben (PIKAS) 'Die Lehrkraft ist auf einzelne Kinder eingegangen' → individuelles Fördern (Meyer) bzw. Passung an Heterogenität (Helmke) 'Wir haben oft in Gruppen gearbeitet' → Methodenvielfalt (Meyer) bzw. strukturierte Partner-/Gruppenarbeit (PIKAS) Für die Klausur ist relevant: Man sollte in der Lage sein, eigene, alltagssprachlich formulierte Kriterien mit den Fachbegriffen aus Sitzung 1 zu verknüpfen.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1buv0wp",
+          "session": "Seminar 2",
+          "q": "Entscheiden Sie bei Ihrer Kriteriensammlung, welche Eigenschaften sich konkret auf Mathematikunterricht beziehen und welche fächerübergreifend gültig sind.",
+          "a": "Fächerübergreifend gültige Kriterien entsprechen meist den allgemeinen Merkmalen guten Unterrichts nach Meyer bzw. Helmke (z. B. lernförderliches Klima, klare Strukturierung, transparente Leistungserwartungen) – sie gelten unabhängig vom Fach. Fachspezifisch für den Mathematikunterricht sind dagegen die mathematikdidaktischen Ausschärfungen, wie sie im PIKAS-Plakat formuliert sind, etwa 'ergiebige Aufgaben' (mit mathematischer Substanz), 'Anforderungsniveau passt zum Leistungsvermögen' (bezogen auf mathematische Inhalte) oder die Nutzung fachspezifischer Arbeitsmittel wie Rechenstrich oder Hunderterfeld (adäquate Medien). Die Unterscheidung macht deutlich, dass gute Mathematikdidaktik allgemeine Unterrichtsprinzipien mit fachspezifischen Anforderungen verbindet.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1mjyj9v",
+          "session": "Seminar 2",
+          "q": "Markieren Sie, welche der Leitideen (Inhaltsbereiche) sich in Ihrer Übersicht von gutem Mathematikunterricht wiederfinden. Wo gibt es Unterschiede, woran könnte das liegen?",
+          "a": "Persönliche Erinnerungen an 'guten' Mathematikunterricht beziehen sich erfahrungsgemäß häufig auf die Leitideen Zahl und Operation sowie Raum und Form, da diese im Unterricht zeitlich den größten Raum einnehmen und besonders handlungsorientiert (Legen, Zeichnen, Rechnen) vermittelt werden. Die Leitidee Daten und Zufall wird dagegen oft seltener erinnert, was daran liegen könnte, dass sie im Unterricht zeitlich einen geringeren Anteil einnimmt und traditionell erst spät im Curriculum auftaucht. Diese Schieflage in der subjektiven Wahrnehmung ist selbst ein interessanter Reflexionspunkt: Sie kann eigene, später zu hinterfragende Klischees über 'typischen' Mathematikunterricht befördern (vgl. Krauthausen, 2018, Sitzung 1: Klischees über das Berufsbild einer Grundschullehrkraft).",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c194ag4b",
+          "session": "Seminar 2",
+          "q": "Über welche Kompetenzen sollte eine gute Mathematiklehrkraft verfügen? Welche Rolle spielen dabei fachmathematische Kompetenzen?",
+          "a": "Nach dem etablierten Modell von Shulman (1986), aufgegriffen bei Reiss und Hammer (2021), braucht eine gute Mathematiklehrkraft drei zusammenwirkende Wissensbereiche: fachmathematisches Wissen (Content Knowledge), fachdidaktisches Wissen (Pedagogical Content Knowledge - Wissen um typische Fehlvorstellungen, geeignete Aufgaben und Darstellungen) und allgemeines pädagogisches Wissen (Klassenführung, Diagnostik, Förderung). Fachmathematische Kompetenzen sind dabei notwendig, aber nicht hinreichend: Sie erlauben korrekte Erklärungen und fundierte Fehlereinordnung, werden aber erst durch fachdidaktisches Wissen in vermittelbare, altersgerechte Erklärungen übersetzt. Die COACTIV-Studie zeigt, dass vor allem das fachdidaktische Wissen eng mit dem Lernerfolg der Schülerinnen und Schüler zusammenhängt, reines Fachwissen allein einen deutlich schwächeren Zusammenhang aufweist.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c14vtqdj",
+          "session": "Seminar 3",
+          "q": "Betrachten Sie die Bildungsstandards für den Primarbereich und die Sek. I (ESA und MSA). a) Wann wurden sie aktualisiert? b) Wo gelten die Bildungsstandards, wo die Kerncurricula?",
+          "a": "a) Die Bildungsstandards für den Primarbereich sowie für ESA und MSA der Sekundarstufe I wurden zuletzt 2022 von der Kultusministerkonferenz (KMK) aktualisiert. b) Die Bildungsstandards gelten bundesweit einheitlich für alle Bundesländer. Die Kerncurricula (KCs) gelten dagegen nur landesspezifisch - hier für Niedersachsen - und konkretisieren die bundesweiten Bildungsstandards für den jeweiligen Bundeslandkontext.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1yi4fqp",
+          "session": "Seminar 3",
+          "q": "Legen Sie die Bildungsstandards nebeneinander. Betrachten Sie insbesondere die Kapitel 2 (Anforderungsbereiche), 3 (Prozessbezogene Kompetenzen) und 4 (Inhaltsbezogene Kompetenzen). An welchen Stellen unterscheiden sich diese?",
+          "a": "Die grundsätzliche Struktur ist in beiden Fassungen identisch (drei Anforderungsbereiche, sechs prozessbezogene Kompetenzen, fünf Leitideen, vgl. Seminar 1). Unterschiede zeigen sich vor allem in drei Punkten: Erstens im Anspruchsniveau der Regelstandards (z. B. Zahlenraum bis 1 000 000 in der Primarstufe vs. reelle Zahlen und algebraische Termumformungen in der Sek I). Zweitens in der Bezeichnung der dritten Leitidee ('Muster, Strukturen und funktionaler Zusammenhang' vs. 'Strukturen und funktionaler Zusammenhang', vgl. Seminar 1). Drittens im Formalisierungsgrad der prozessbezogenen Kompetenzen: Argumentieren bleibt in der Primarstufe beispielgebunden-anschaulich, während in der Sek I zunehmend deduktive Argumentationsketten erwartet werden (vgl. Sitzung 4).",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c69rao8",
+          "session": "Seminar 3",
+          "q": "Analysieren Sie eine Aufgabe für den Primarbereich mithilfe der Bildungsstandards: (a) Lösen Sie die Aufgabe. (b) Welche inhaltsbezogene Kompetenz wird gefördert? (c) Welche prozessbezogenen Kompetenzen werden gefördert? (d) Ordnen Sie die Teilaufgaben den Anforderungsbereichen zu. (e) Wie kann die Lehrkraft Unterstützung anbieten?",
+          "a": "Diese Analyse wird im Seminar exemplarisch an einer IQB-Lernaufgabe durchgeführt, die in etwa folgender Struktur folgt: (1) 'Wie geht es weiter? Rechne und setze fort.' (2) 'Vergleiche die Ergebnisse. Was fällt dir auf? Erkläre.' (3) 'Warum ist das so? Begründe.' mit dem Tipp, die Aufgabe auch mit Material zu legen. Allgemeines Analyseraster, unabhängig von der konkreten Zahlenfolge: (b) Inhaltsbezogene Kompetenz: meist die Leitidee Zahl und Operation (Erkennen von Rechenmustern/Gesetzmäßigkeiten) – bei geometrischen Mustern auch Raum und Form bzw. Muster/Strukturen. (c) Prozessbezogene Kompetenzen: vor allem Mathematisch argumentieren (Teilaufgabe 3: 'Begründe') und Mathematische Darstellungen verwenden (Material legen). (d) Anforderungsbereiche: Teilaufgabe 1 ('Rechne und setze fort') liegt meist in AB I (Routineverfahren anwenden); Teilaufgabe 2 ('Was fällt dir auf? Erkläre') liegt in AB II (Zusammenhänge herstellen); Teilaufgabe 3 ('Warum ist das so? Begründe') liegt in AB III (eigene Begründung eines allgemeinen Zusammenhangs). (e) Unterstützung: Bereitstellung von Forschermitteln (Rechensteine, Hunderterfeld) zum Legen der Muster (natürliche Differenzierung, vgl. Sitzung 11/12), gestufte Impulsfragen für leistungsschwächere Kinder, Möglichkeit zur Verallgemeinerung (eigene Zahlenfolge erfinden) für leistungsstärkere Kinder. (Zusatzhinweis: Die genauen Zahlen der konkreten IQB-Aufgabe liegen mir nicht als Bild vor; die Antwort beschreibt daher das allgemeine, übertragbare Analyseraster. Mit der konkreten Zahlenfolge könnte Teil (a) exakt gelöst werden.)",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cprg0b0",
+          "session": "Seminar 3",
+          "q": "Analysieren Sie eine Aufgabe für die Sekundarstufe I mithilfe der Bildungsstandards ('Rätselquadrat', IQB).",
+          "a": "Bei dieser Aufgabe (IQB Sek I) wird ein Zahlenraster so in Rechtecke zerlegt, dass jedes Rechteck genau ein Zahlenfeld enthält und seine Fläche dem Zahlenwert entspricht, ohne Überlappung und ohne übrige Felder. Hinweis: Die genauen Zahlenwerte der drei Rätsel sind auf dem Foto nicht sicher lesbar, daher folgt die kompetenzbezogene Einordnung unabhängig von der konkreten Lösung.<br><br><b>Inhaltsbezogene Kompetenz:</b> Leitidee Raum und Form, mit Bezug zu Zahl und Operation (Flächenwert muss stimmen).<br><b>Prozessbezogene Kompetenzen:</b> vor allem Probleme mathematisch lösen (systematisches Probieren, Rückwärtsarbeiten von eindeutig bestimmten Zahlen) und mathematisch Argumentieren.<br><b>Anforderungsbereiche:</b> Ausprobieren = AB I; Strategie entwickeln = AB II; Eindeutigkeit der Lösung begründen = AB III.<br><b>Unterstützung:</b> kleinere Rätsel oder Hinweis auf eindeutig bestimmte Zahlen (z.B. Primzahlen) für Schwächere; eigene Rätsel konstruieren oder Eindeutigkeit beweisen für Stärkere.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1tya2b9",
+          "session": "Seminar 4",
+          "q": "Begriffsklärung Fläche und Flächeninhalt: Diese Begriffe werden oft synonym verwendet. Betrachten Sie eine Schulbuchseite dazu (Figuren und Flächen, Geobrett) und nehmen Sie Stellung.",
+          "a": "Fläche und Flächeninhalt werden oft synonym verwendet, bezeichnen aber Unterschiedliches. Die Fläche ist das geometrische Objekt selbst - die zweidimensionale Region, die von den Kanten einer Figur begrenzt wird. Der Flächeninhalt dagegen ist eine Größe: die einer Fläche zugeordnete Maßzahl mit Einheit (z.B. 12 cm²), die angibt, wie viele Einheitsquadrate hineinpassen. Eine Fläche 'hat' einen Flächeninhalt, 'ist' aber kein Flächeninhalt. Diese Unschärfe ist didaktisch relevant: Unreflektiertes Sprechen von 'der Fläche berechnen' statt 'dem Flächeninhalt berechnen' kann bei Kindern die Vorstellung verfestigen, Fläche und Zahl seien dasselbe - ein möglicher Nährboden für spätere Fehlvorstellungen, etwa bei der Unterscheidung von Flächeninhalt und Umfang (beide 'gehören zur Fläche', sind aber verschiedene Größen). Für den Unterricht empfiehlt sich eine bewusste, konsistente Begriffsverwendung.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1l354mh",
+          "session": "Seminar 4",
+          "q": "Betrachten Sie den Begriff 'Flächeninhalt' in den Kerncurricula für Grundschule und Realschule und ordnen Sie mindestens fünf Schulbuchaufgaben zum Flächeninhalt in eine Darstellung des Spiralprinzips ein.",
+          "a": "<b>a) „Flächeninhalt“ in den Kerncurricula.</b> Grundschule (Größen und Messen): Flächeninhalte vergleichen/ordnen und durch Auslegen mit Einheitsquadraten messen (Grundprinzip des Messens), noch ohne Formeln. Realschule: schrittweise Formalisierung – Kl. 6 Schätzen/Messen und Formeln für Quadrat und Rechteck, Kl. 8 Dreieck/Trapez/zusammengesetzte Figuren, Kl. 10 Kreis und Körperoberflächen (u. a. Kugel). Dieselbe Idee „Flächeninhalt als messbare Größe“ wird auf immer höherem Niveau aufgegriffen (Spiralprinzip).<br><br><b>b) Einordnung der Beispiele in die Spirale (Klasse 1 → 10):</b><br>• Beispiel 1 (Welt der Zahl 1, Kl. 1): enaktives Auslegen mit Legeplättchen und Abzählen – Flächeninhalt als Anzahl von Einheitsflächen, ohne Einheiten/Formeln.<br>• Beispiel 2 (Welt der Zahl 2, Kl. 2): Geobrett-Figuren durch Auszählen gleich großer Maßquadrate vergleichen – direkter Vergleich über Einheitsquadrate.<br>• Beispiel 3 (Zahlenbuch 3, Kl. 3): Fläche mit Gummimatten (50×50 cm) auslegen – standardisierte Einheiten, erste multiplikative Struktur.<br>• Beispiel 4 (Zahlenbuch 4, Kl. 4): „Meterquadrate zerlegen“ – Flächeneinheiten und ihre Beziehung (1 m² = 100 dm²).<br>• Beispiel 5 (Sekundo 6, Kl. 6): Flächeninhalte den passenden Einheiten (mm² bis m²) zuordnen – Größenvorstellung.<br>• Beispiel 6 (Sekundo 6, Kl. 6): Flächeninhalt und Umfang des Rechtecks berechnen – formale Formel A = a · b, Einheitenumwandlung.<br>• Beispiel 7 (Sekundo 10, Kl. 10): Oberfläche der Kugel (O = 4·π·r²) – Erweiterung auf gekrümmte Körperoberflächen, Übergang zur Sek II.<br><br><b>c) Sek II:</b> Der Flächeninhalt wird über die Integralrechnung als Grenzwert von Ober-/Untersummen neu gefasst; die bekannten Formeln sind Spezialfälle (vgl. Aufgabe 3).<br><br><b>Tipp:</b> Die Bilder oben kannst du im Reiter „Zuordnen“ interaktiv in die vier Spiralstufen einordnen und dich bewerten lassen.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c15cfbbn",
+          "session": "Seminar 4",
+          "q": "Betrachten Sie den Begriff 'Flächeninhalt' aus der Perspektive der Sekundarstufe II. Wie setzt sich das Spiralprinzip hier fort?",
+          "a": "In der Sekundarstufe II wird der Flächeninhaltsbegriff im Rahmen der Integralrechnung noch einmal grundlegend neu und allgemeiner gefasst: Der Flächeninhalt unter einer (auch krummlinig begrenzten) Funktionsgraphen wird als Grenzwert von Ober- und Untersummen (Riemann-Summen) definiert, wodurch die aus der Grundschule und Sekundarstufe I bekannten Flächeninhaltsformeln für Vielecke als Spezialfälle bzw. Vorstufen erscheinen. Dies ist ein Paradebeispiel für das Spiralprinzip nach Bruner (Sitzung 3): Die fundamentale Idee 'Flächeninhalt als messbare Größe' wird auf einem deutlich höheren, formaleren Niveau erneut aufgegriffen und strukturell angereichert, ohne dass die früher gelernten Inhalte (Flächeninhalt von Rechteck, Dreieck etc.) dabei revidiert werden müssen – sie bleiben als Sonderfälle gültig.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1wqjke6",
+          "session": "Seminar 4",
+          "q": "Operatives Prinzip: Analysieren Sie die Schulbuchaufgaben zum Flächeninhalt für Primarstufe (Form verändern, Flächeninhalt verdoppeln/halbieren) und Sekundarstufe I (Kreisfläche über Kästchenzählen) anhand der Leitfragen von Büchter und Leuders (2016).",
+          "a": "Das operative Prinzip fordert, Eigenschaften durch aktives Operieren mit Objekten erfahrbar zu machen (Leitfragen: geübter Begriff, erwartete Operationen, Auswirkung der Operationen).<br><br><b>Primarstufe:</b> Form einer Figur verändern und dabei den Flächeninhalt verdoppeln/halbieren, mehrere Lösungen zeichnen. Geübter Begriff: Flächeninhalt als formunabhängige Größe. Operation: Umformen/Zerlegen bei fester bzw. gezielt veränderter Fläche. Auswirkung: Kinder erleben enaktiv, dass verschiedene Formen denselben Flächeninhalt haben können.<br><br><b>Sekundarstufe I:</b> Flächeninhalt eines Kreises durch Kästchenzählen für mehrere Radien schätzen, Werte mit dem Radiusquadrat tabellarisch vergleichen, Formel ableiten. Geübter Begriff: funktionaler Zusammenhang Radius(-quadrat) und Flächeninhalt (Vorstufe A=π·r²). Operation: systematisches Variieren, Auszählen, Verallgemeinern. Auswirkung: Lernende entdecken den (quadratischen) Zusammenhang selbst.<br><br><b>Fazit:</b> Beide Aufgaben setzen das Prinzip unterschiedlich stark um; die Sek-I-Aufgabe ließe sich noch operativer gestalten, wenn Radien systematisch selbst gewählt und die Formel eigenständig verallgemeinert würden.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c19krj74",
+          "session": "Seminar 5",
+          "q": "Recherchieren Sie in den Kerncurricula für Primarbereich und Realschule zur prozessbezogenen Kompetenz 'Mathematisch Argumentieren'. Welche Kernkompetenzen werden beschrieben, welche Gemeinsamkeiten und Unterschiede gibt es zwischen den Schulstufen?",
+          "a": "Nach den Bildungsstandards für den Primarbereich (KMK, 2022, S. 10) hinterfragen und prüfen Schülerinnen und Schüler mathematische Aussagen auf Korrektheit, stellen Vermutungen zu mathematischen Zusammenhängen auf und formulieren Begründungen bzw. vollziehen Begründungen anderer nach – das Spektrum reicht vom beispielgebundenen Prüfen und Widerlegen von Vermutungen bis zum Nachvollziehen und Entwickeln verallgemeinernder, inhaltlich-anschaulicher Überlegungen. In der Sekundarstufe I (Realschule) steigt der Formalisierungsgrad: Es werden zunehmend deduktive Argumentationsketten und mathematisch strengere Begründungen erwartet, die über das beispielgebundene Prüfen hinausgehen, ohne bereits vollständig formal-deduktiv (im Sinne eines axiomatischen Beweises) zu sein. Gemeinsam ist beiden Stufen die Grundstruktur des Kontinuums von alltagsbezogenem Argumentieren bis zu formalerem Begründen (vgl. Sitzung 4). (Zusatzhinweis: Der genaue Wortlaut des Kerncurriculums Realschule liegt mir nicht in gleicher Ausführlichkeit vor wie der Text der Bildungsstandards Primarbereich; für eine wortwörtliche Gegenüberstellung empfiehlt sich ein Blick ins Original.)",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c146ydll",
+          "session": "Seminar 5",
+          "q": "Bearbeiten Sie die Aufgaben 6 bis 9 auf Seite 109 im Schulbuch 'Das Zahlenbuch' (Klasse 4). Welche Argumentierens-Aspekte werden angesprochen, welche Antworten erwarten Sie von einem Kind im vierten Schuljahr?",
+          "a": "Die Aufgaben 6-9 sind entdeckend und beispielgebunden - rechnen und vergleichen (11·9, 111·9 ...; Stufenzahlen : 9), Muster fortsetzen, beim Teilen durch 9 den Rest bestimmen und mit der Quersumme vergleichen, Zahlen mit bestimmter Quersumme suchen; erst 9d 'Erklärt' die Regel. Die Regel wird induktiv-anschaulich entdeckt, das Argumentieren bleibt beispielgebunden (überwiegend AB I/II).<br><br>Ein Kind im vierten Schuljahr würde die Muster meist korrekt erkennen und die Regel konkret formulieren ('wenn die Quersumme durch 9 geht, geht die Zahl auch'), ohne allgemeinen Beweis - das wird auf dieser Stufe auch nicht erwartet.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1dik39y",
+          "session": "Seminar 5",
+          "q": "Vergleichen Sie diese Schulbuchseite mit Seite 15 aus 'Schnittpunkt' (Klasse 6). Welche Gemeinsamkeiten und Unterschiede stellen Sie fest?",
+          "a": "Schnittpunkt (Kl. 6), S. 15: anschaulicher Einstieg (Plättchen/Stellentafel), dann symbolische Summenzerlegung 786 = 7·99 + 8·9 + (7+8+6) → deduktive Begründung, allgemeine Merkregel (für 3 und 9) und Anwendung. Höheres Niveau (AB II/III): von der Anschauung zur formal-symbolischen Begründung und Verallgemeinerung.<br><br><b>Unterschied:</b> der Grad der Formalisierung des Begründens - GS: Regel entdecken und verbalisieren; Kl. 6: symbolisch-deduktiv begründen und verallgemeinern. Das zeigt die Entwicklung des Argumentierens aus Sitzung 5 (de Villiers; Padberg & Büchter 2015).",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cirqne7",
+          "session": "Seminar 5",
+          "q": "In der 'Einführung Mathematik Primarstufe – Arithmetik' (Padberg & Büchter, 2015) finden sich zwei Begründungen zur Teilbarkeitsregel für 9 im Dezimalsystem. Eine davon lautet: Verschiebt man alle Plättchen einer Zahl in der Stellentafel ohne Beachtung ihres Stellenwertes in die Einerspalte, erhält man die Quersumme. Jede Verschiebung eines Plättchens um eine Stelle verkleinert die Zahl um ein Vielfaches von 9 (900 bzw. 90 bzw. 9), sodass gilt: Ausgangszahl = (Vielfaches von 9) + Quersumme. Handelt es sich um einen Beweis? Welche Funktionen nach de Villiers (1990) lassen sich zuordnen?",
+          "a": "Ja, es handelt sich um einen Beweis – konkret um einen inhaltlich-anschaulichen bzw. operativen Beweis (Sitzung 4): Die Argumentation stützt sich auf eine nachvollziehbare Konstruktion (das Verschieben von Plättchen zwischen Stellenwerten), von der intuitiv erkennbar ist, dass sie für jede beliebige natürliche Zahl gilt, und sie leistet bereits eine echte Verallgemeinerung, nicht nur eine Bestätigung an Einzelbeispielen. Sie ist damit klar von einem rein experimentellen Beweis (Prüfung an einzelnen Zahlen) abzugrenzen, erreicht aber auch nicht die Stufe eines rein formal-deduktiven, symbolischen Beweises. Funktionen nach de Villiers: Verifikationsfunktion (die Regel wird als wahr bestätigt), vor allem Erklärungsfunktion (es wird verstehbar, warum die Regel gilt), sowie eine Systematisierungsfunktion (Verknüpfung mit dem Aufbau des dezimalen Stellenwertsystems, Sitzung 9). Eine Entdeckungsfunktion tritt hier in den Hintergrund, da die Regel bereits bekannt ist und nachträglich begründet wird.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1l2d8gi",
+          "session": "Seminar 6",
+          "q": "Notieren Sie unter Verwendung des Textes 'Modellierungskreisläufe' (Kaiser, 2013) jeweils den Modellierungskreislauf für direktes, zweischrittiges und dreischrittiges Mathematisieren. Benennen Sie Einsatzbereiche und ordnen Sie zu, welche Kreislaufart für welchen Bereich passt.",
+          "a": "<b>Direktes Mathematisieren:</b> Realsituation → mathematisches Modell, ohne Zwischenschritt.<br><br><b>Zweischrittiges Mathematisieren (Standard):</b> Realsituation → reales Modell (Vereinfachen) → mathematisches Modell (Mathematisieren) → mathematische Resultate (Rechnen) → reale Resultate (Interpretieren) → zurück zur Realsituation (Validieren).<br><br><b>Dreischrittiges Mathematisieren (Blum & Leiß, 2005):</b> zusätzlich davor ein Situationsmodell (mentale Repräsentation im Kopf, durch Verstehen), danach wie beim zweischrittigen Kreislauf weiter.<br><br><b>Einsatzbereiche:</b> (1) Unterrichtsplanung - Prozess transparent machen und fördern; (2) Diagnostik - rekonstruieren, wo Schwierigkeiten auftreten; (3) Analyse/Bewertung von Lösungswegen; (4) Konstruktion und Bewertung von Aufgaben.<br><br><b>Zuordnung:</b> Direkter Kreislauf → einfache Alltagssituationen im Unterricht (wenig Diagnosepotential). Zweischrittiger Kreislauf → didaktischer Standard für Unterricht und Lösungswegeanalyse. Dreischrittiger Kreislauf → Forschung/Diagnostik individueller kognitiver Prozesse, da er explizit zwischen Situationsverständnis und Modellbildung unterscheidet.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cbtiwmt",
+          "session": "Seminar 6",
+          "q": "Formulieren Sie auf Basis der 'Mülltonnenaufgabe' (Familie Knut überlegt, ob sie eine 80l oder eine 120l Biomülltonne anschaffen soll. Was würdest du der Familie empfehlen?) verschiedene Aufgaben, mit denen die Teilkompetenzen Interpretieren und Validieren des Modellierens gefördert werden können.",
+          "a": "Die ursprüngliche Mülltonnenaufgabe ist stark unterbestimmt und offen (zu viele unbeantwortete Fragen: Familiengröße, Garten, anfallende Gartenabfälle, alternative Entsorgungsmöglichkeiten, Gebühren), was insbesondere jüngere Schüler*innen überfordern kann. Um gezielt Interpretieren und Validieren zu fördern, können folgende fokussierende Teilaufgaben formuliert werden: Interpretieren fördern: 'Familie Meyer hat pro Woche etwa 60 Liter Gartenabfälle. Die 80l-Tonne wird wöchentlich geleert. Reicht die 80l-Tonne für Familie Meyer? Begründe dein Ergebnis in Bezug auf die Ausgangsfrage.' – hier muss das Rechenergebnis (Vergleich von Volumina) explizit auf die reale Empfehlungsfrage zurückbezogen werden. Validieren fördern: 'Ein Mitschüler sagt: Wenn eine Familie mehr Personen hat, sollte sie automatisch die größere Tonne nehmen. Prüfe diese Aussage anhand von zwei Beispielfamilien mit unterschiedlich großem Garten. Stimmt die Aussage immer?' – hier wird explizit dazu aufgefordert, ein vorläufiges Modell (Personenzahl als alleiniger Faktor) kritisch zu hinterfragen und ggf. zu verwerfen bzw. zu verfeinern. (Quelle: Die 'Mülltonnenaufgabe' stammt aus Seminar 6 (Modellierung), Aufgabe 2, mit Bezug auf die Kernkompetenzen zum mathematischen Modellieren im KC der Grundschule; die konkreten Beispielaufgaben oben sind eigene, fachlich übliche Ausformulierungen zur gezielten Förderung der genannten Teilkompetenzen.)",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "clmncu8",
+          "session": "Seminar 6",
+          "q": "Betrachten Sie die 'Tanken'-Aufgabe (Herr Stein fährt von Trier nach Luxemburg, um günstiger zu tanken). Skizzieren Sie Lösungsansätze und ordnen Sie sie den Phasen des zweischrittigen Modellierungskreislaufs zu.",
+          "a": "Vereinfachen (Annahmen: volle Tankfüllung 50l, 40km Umweg, 6l/100km Verbrauch) → Mathematisieren (Ersparnis 0,25€/l, also 12,50€ bei 50l; Mehrkosten für 2,4l Umwegverbrauch ≈ 2,64€) → Rechnen (Nettoersparnis ≈ 9,86€) → Interpretieren (die Fahrt lohnt sich bei voller Tankfüllung) → Validieren (Prüfung der Annahmen wie Tankmenge, Verbrauch, Zeitaufwand des Umwegs).",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c153z1ao",
+          "session": "Seminar 6",
+          "q": "Begründen Sie, inwieweit die Tanken-Aufgabe die Kriterien für Modellierungsaufgaben aus der Vorlesung erfüllt.",
+          "a": "Kriterien nach Maaß (2007): offen (Klarheit über Anfangszustand, Prozess, Zielzustand), komplex, realistisch, authentisch, problemhaltig, bearbeitbar durch Ausführen eines Modellierungsprozesses.<br><br>Die Tanken-Aufgabe ist realistisch und authentisch (plausibler Alltagssachverhalt). Sie ist problemhaltig und bearbeitbar durch einen vollständigen Modellierungsprozess, keine Routineberechnung. Sie ist offen im Sinne von unterbestimmt: Tankmenge und Verbrauch fehlen und müssen selbst angenommen werden. Komplex ist sie nur begrenzt - mehrere Größen müssen abgewogen werden, die Rechnung bleibt aber überschaubar.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cqjsje",
+          "session": "Seminar 7",
+          "q": "Recherchieren Sie in den Kerncurricula für den Primarbereich und für die Realschule zum 'Mathematischen Problemlösen'. Welche Kernkompetenzen werden beschrieben, welche Gemeinsamkeiten/Unterschiede gibt es?",
+          "a": "Beide KC beschreiben Probleme mathematisch lösen als eigene Kompetenz: Bearbeiten von Aufgaben ohne bekannte Lösungsroutine, vom Erkennen des Problems über Heurismenauswahl bis zum Reflektieren des Lösungswegs.<br><br><b>Grundschule:</b> bis Kl.2 Lösungsideen entwickeln, Verständnisfragen stellen; bis Kl.4 Strategien wählen, systematisch probieren, Heurismen nutzen (Rückwärtsarbeiten, Analogien, Tabellen/Skizzen), Vorgehen überdenken.<br><br><b>Realschule:</b> bis Kl.6 Problem erkennen/präzisieren, schätzen, systematisch probieren; bis Kl.8 zusätzlich Planfiguren/Variablen/Terme/Gleichungen, Zerlegen/Ergänzen, Teilprobleme; bis Kl.10 Parametervariation, Fallunterscheidung, Invarianzprinzip, Analogien.<br><br><b>Gemeinsamkeiten:</b> gleiche Grundheurismen und Grobstruktur (entdecken→strategisch lösen→reflektieren), passend zu den 3 Anforderungsbereichen. <b>Unterschied:</b> zunehmender Formalisierungsgrad, RS ergänzt algebraische Hilfsmittel.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1g2vxbb",
+          "session": "Seminar 7",
+          "q": "Machen Sie sich mit heuristischen Hilfsmitteln, Strategien und Prinzipien vertraut (Padlet-Zusammenstellung) und vergleichen Sie diese mit den Angaben in den Kerncurricula.",
+          "a": "<b>Die MatheWelt (Heft 196, „Geo-Tricks“) gliedert Heurismen in drei Kategorien (nach Bruder & Collet 2011):</b><br>• <b>Hilfsmittel:</b> Skizzen/informative Figuren, Tabellen, Lösungsgraphen.<br>• <b>Strategien:</b> systematisches Probieren, Vorwärts-/Rückwärtsarbeiten, Analogien, Vereinfachen.<br>• <b>Prinzipien:</b> Symmetrie-, Extremal-, Invarianzprinzip, Zerlegen und Ergänzen, Fallunterscheidung.<br><br><b>Vergleich mit den KC:</b> Die Kerncurricula sprechen nur von „heuristischen Strategien und Hilfsmitteln“. Grundschule: systematisches Probieren, Analogien, Rückwärtsarbeiten, Skizzen, Tabellen. Sek I: zusätzlich Zerlegen und Ergänzen, Teilprobleme, kombiniertes Vor-/Rückwärtsarbeiten; bis Kl. 10 auch Fallunterscheidung und Invarianzprinzip. Ein eigener Begriff „Prinzipien“ fehlt. Die Padlet-Systematik ist also feiner und expliziter; viele Heurismen überlappen. Die KC ordnen zusätzlich nach Anforderungsbereich (angeben → auswählen → reflektieren) und Schulstufe.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cri5x42",
+          "session": "Seminar 7",
+          "q": "Lösen Sie die Aufgaben 'Optimale Parkeinteilung', 'Papierquadrate' (beide Mathe-Welt, Heft 196) und 'Apfelernte' (Mathematik differenziert 4/2019) und identifizieren Sie jeweils die genutzten heuristischen Hilfsmittel, Strategien und Prinzipien.",
+          "a": "<b>Optimale Parkeinteilung:</b> a) nächste Bank per Abstandsvergleich auf der Karte (Hilfsmittel Skizze). b) Park in fünf Gebiete teilen → Voronoi-Zerlegung; die Grenzen sind die Mittelsenkrechten zwischen benachbarten Bänken (gleich weit entfernte Punkte, vgl. Seminar 8). „Einfacheres Problem“ → Strategie Vereinfachen/Spezialfall.<br>Heurismen: Skizze; Vereinfachen; Mittelsenkrechte/Symmetrie.<br><br><b>Papierquadrate:</b> Mit 12 Streichhölzern (festem Umfang) Figuren legen, die 5/6/7/8 bzw. max. Papierquadrate einschließen. d) Maximum ist die kompakte 3×3-Figur (9 Quadrate). Heurismen: systematisches Probieren/Variieren, informative Figur/Material, Fallunterscheidung, Symmetrie (gedreht/gespiegelt), Extremalprinzip (max. Fläche) und Invarianz (Umfang = 12) → isoperimetrische Idee.<br><br>Beide Aufgaben verknüpfen Problemlösen mit Geometrie.<br><br><b>c) Apfelernte:</b> <b>Lösung durch Rückwärtsarbeiten.</b> An jedem Tor bleibt (Hälfte − 1); umgekehrt gilt: vorher = 2·(nachher + 1). Vom Ende (1 Apfel) rückwärts: nach Tor 7 = 1 → 4 → 10 → 22 → 46 → 94 → 190 → vor Tor 1 = <b>382</b>. Probe: 382 → 190 → 94 → 46 → 22 → 10 → 4 → 1.<br><br><b>Heurismus:</b> Rückwärtsarbeiten (heuristische Strategie) – vom bekannten Endzustand schrittweise zum Anfangswert; alternativ algebraisch über eine Gleichung. Echte Problemaufgabe, da der Lösungsweg nicht unmittelbar bekannt ist.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1lhsigq",
+          "session": "Seminar 8",
+          "q": "Recherchieren Sie in den Kerncurricula für den Primarbereich und für die Realschule zu 'Raum und Form' (S. 10 im KC). Welche Erläuterungen, Kernkompetenzen und Gemeinsamkeiten/Unterschiede zwischen den Schulstufen finden Sie?",
+          "a": "<b>Erläuterungen (S. 10):</b> 'Raum und Form' umfasst Orientierung im Raum, Erkennen/Benennen/Darstellen geometrischer Figuren und Körper sowie gedankliches Operieren mit geometrischen Objekten.<br><br><b>Kernkompetenzen:</b> Orientierung im Raum (Wege, Pläne, Ansichten), Erkennen/Beschreiben von Figuren und Körpern, Darstellen/Konstruieren, gedankliches Operieren (zerlegen, drehen, spiegeln, falten, bauen). In der Realschule kommt formalerer Umgang mit Definitionen, Sätzen (Kongruenz-/Ähnlichkeitssätze) und ersten Beweisen hinzu.<br><br><b>Gemeinsamkeiten/Unterschiede:</b> Gemeinsam: Orientierung, Erkennen/Benennen, operatives Handeln. Unterschied: Formalisierungsgrad (GS: Van-Hiele 1-2, anschaulich-handelnd; RS: Van-Hiele 3/4, Definitionen/Sätze/Beweise).",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1jxroae",
+          "session": "Seminar 8",
+          "q": "Bearbeiten Sie die Aufgaben 'Spiegelungen' und 'Konstruktion Mittelsenkrechte'. Welche Kompetenzen werden in welchem Schuljahr gefördert? Auf welche Inhalte bereiten die Aufgaben vor? Wie lautet der fachmathematische Hintergrund?",
+          "a": "<b>Kompetenzen je Schuljahr:</b> Spiegelungen: bereits Grundschule Kl. 3/4 (Symmetrien erkennen/erzeugen, Van-Hiele 1-2). Konstruktion Mittelsenkrechte: Realschule Kl. 7/8 (begründete Konstruktion, Van-Hiele 3).<br><br><b>Vorbereitung auf:</b> Spiegelung → Kongruenzabbildungen, Symmetrieeigenschaften (schulisch: Kongruenzsätze; außerschulisch: Mustererkennung in Kunst/Architektur). Mittelsenkrechte → weiterführende Konstruktionen (Winkelhalbierende, In-/Umkreis), geometrische Örter.<br><br><b>Fachmathematischer Hintergrund</b> (vgl. 'Leitfaden der Geometrie', Benölken et al.): Mittelsenkrechte = Menge aller Punkte, die von A und B gleich weit entfernt sind (geometrischer Ort); Konstruktion über zwei gleich große Kreise um A und B. Achsenspiegelung = längen-, winkel- und flächentreue, aber orientierungsumkehrende Kongruenzabbildung; Spiegelachse = Mittelsenkrechte von Punkt und Bildpunkt; Fixpunkte sind nur die Achsenpunkte selbst.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1xu0rhf",
+          "session": "Seminar 8",
+          "q": "Betrachten Sie die Umsetzungen in GeoGebra (Spiegelung, Konstruktion Mittelsenkrechte, Raumdiagonale im Prisma). Welches Potential sehen Sie? Wie würden Sie sie im Unterricht einsetzen? Formulieren Sie einen Arbeitsauftrag.",
+          "a": "<b>Potential</b> (Vorlesungs-Aspekte): Franke (2007), 5 Aspekte für Geometrieunterricht: Sammeln geometrischer Erfahrungen, Entwickeln der Raumvorstellung, Erwerben geometrischer Begriffe, Ausbilden von Problemlösefähigkeiten, Bezüge zu anderen Gebieten/Fächern. Hattermann et al. (2015): Raumvorstellung/räumliches Strukturieren, Begriffsbildung, Verwendung von Darstellungen, Problemlösen, Argumentieren/Beweisen, sowie - wegen DGS - bewegliches Denken.<br><br>Der dynamische Zugmodus macht Invarianzen unmittelbar sichtbar (z. B. bleibt die Gleichabständigkeit bei der Mittelsenkrechten-Konstruktion erhalten, egal wie A/B verschoben werden) - fördert v. a. bewegliches Denken, Raumvorstellung und erste anschauliche Argumentationen.<br><br><b>Einsatz:</b> Entdeckend-forschende Erarbeitung oder Sicherung nach händischer Konstruktion.<br><br><b>Arbeitsauftrag (Mittelsenkrechte):</b> 'Verschiebe die Punkte A und B. Miss den Abstand eines Punktes auf der Konstruktionsgeraden zu A und B. Formuliere eine Vermutung (Bezug: geometrischer Ort gleich weit entfernter Punkte) und begründe sie mithilfe der Kreiskonstruktion.'",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1vgjz64",
+          "session": "Seminar 9",
+          "q": "Recherchieren Sie in den Kerncurricula für Primarbereich und Realschule zur Leitidee 'Daten und Zufall'. Welche Erläuterungen finden Sie, welche Kernkompetenzen werden beschrieben, wie bauen sie aufeinander auf?",
+          "a": "<b>Erläuterungen:</b> 'Daten und Zufall' umfasst den Umgang mit Daten (erheben, darstellen, auswerten) sowie das Untersuchen von Ereignissen bei Zufallsexperimenten.<br><br><b>Kernkompetenzen (Primarstufe):</b> 'Mit Daten umgehen' (Befragungen planen, Daten erfassen/darstellen, auch digital, kritisch reflektieren) und 'Ereignisse bei Zufallsexperimenten untersuchen' (Begriffe sicher/möglich/unmöglich, Chancen datenbasiert schätzen, Baumdiagramme).<br><br><b>Aufbau:</b> Die Realschule baut auf den informellen Primarstufen-Zugängen auf, indem klassische, frequentistische und axiomatische Wahrscheinlichkeit systematisch eingeführt und formal berechnet werden.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1mvojal",
+          "session": "Seminar 9",
+          "q": "Betrachten Sie eine Einstiegsaufgabe, die den klassischen mit dem frequentistischen/statistischen Wahrscheinlichkeitsbegriff verbindet (nach Eichler & Vogel, 2013). Erläutern Sie Möglichkeiten, den Modellcharakter beider Wahrscheinlichkeitsbegriffe in der Aufgabenbearbeitung aufzugreifen.",
+          "a": "Eine typische Einstiegsaufgabe dieser Art lässt Schülerinnen und Schüler zunächst ein Zufallsexperiment (z. B. Würfeln, Ziehen aus einer Urne) mehrfach real durchführen und die relativen Häufigkeiten protokollieren (frequentistischer Zugang), um anschließend die beobachteten Häufigkeiten mit der über Laplace-Annahmen berechneten theoretischen (klassischen) Wahrscheinlichkeit zu vergleichen. Der Modellcharakter beider Begriffe lässt sich aufgreifen, indem explizit reflektiert wird, dass die klassische Wahrscheinlichkeit ein idealisiertes Modell darstellt (Annahme der Gleichwahrscheinlichkeit), während die relative Häufigkeit eine empirische Annäherung ist, die bei wenigen Versuchen noch stark vom Modellwert abweichen kann, sich diesem aber bei zunehmender Versuchsanzahl annähert (Gesetz der großen Zahlen). Diese Gegenüberstellung schärft das Bewusstsein, dass beide Wahrscheinlichkeitsbegriffe unterschiedliche, aber verträgliche Modellvorstellungen sind, keine konkurrierenden 'Wahrheiten' (vgl. Sitzung 8).<br><br><b>Mögliche Schülerlösungen:</b> Beim normalen Würfel wird meist korrekt eine Gleichverteilung geschätzt (Symmetrie einleuchtend). Beim Quaderwürfel ist reine Schätzung nicht möglich - Lernende müssen werfen und auszählen. Bearbeitungen reichen von der fehlerhaften Übertragung der Gleichverteilung bis zum korrekten Erkennen, dass größere Seitenflächen häufiger oben liegen.<br><br><b>Fehlvorstellungen:</b> Gleichverteilungs-Fehlschluss (Symmetrieannahme unreflektiert übertragen); Vernachlässigung des Gesetzes der großen Zahlen (wenige Würfe für verlässlich gehalten).<br><br><b>Modellcharakter:</b> Die klassische Wahrscheinlichkeit ist beim normalen Würfel ein idealisiertes Modell (Symmetrieannahme), das sich durch Werfen prüfen lässt. Beim Quaderwürfel entfällt diese Annahme, nur der frequentistische Zugang funktioniert; die relative Häufigkeit nähert sich dem unbekannten wahren Wert erst mit steigender Wurfzahl (Gesetz der großen Zahlen).",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c10xv5n1",
+          "session": "Seminar 9",
+          "q": "Betrachten Sie die Aufgaben aus der Grundschule in der Datei Schulbuchaufgaben. Welche Seiten behandeln Inhalte aus der Wahrscheinlichkeitsrechnung, welche aus der deskriptiven Statistik?",
+          "a": "<b>Wahrscheinlichkeitsrechnung:</b> Primo 2, S.97 (Kombinatorik - alle Möglichkeiten beim Ziehen von 2 Würfeln finden) und Nussknacker 3 (Chancenvergleich - welcher Beutel bietet bessere Trefferchance).<br><br><b>Deskriptive Statistik:</b> Primo 3, S.76 (Diagramme zum Hausmüll lesen, vergleichen, in eine Tabelle übertragen und eigene Daten erheben und darstellen) - hier geht es nicht um Zufall, sondern um das Erheben, Ordnen, Darstellen und Interpretieren von Daten.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1t9gjsn",
+          "session": "Seminar 10",
+          "q": "Betrachten Sie die Aufgaben 'Natürliche Zahlen Klasse 2'. Welche Kompetenzen werden gefördert, welche Darstellungen werden genutzt, und wie lassen sich diese dem EIS-Prinzip zuordnen?",
+          "a": "<b>Kompetenzen:</b> Stellenwertverständnis (Hunderter/Zehner/Einer), Rechenstrategien beim Subtrahieren (schrittweise am Rechenrahmen), Zahlvorstellung/Orientierung (Vorgänger, Nachfolger, Nachbarzehner, Zahlenstrahl), Vergleichen und Ordnen von Zahlen. Prozessbezogen: Kommunizieren (Partnerarbeit) und Darstellen (Zahlenstrahl, Geheimschrift).<br><br><b>Darstellungen:</b> Rechenrahmen, Dienes-Material (Hunderter-Platte/Zehner-Stange/Einer-Würfel), Zahlenstrahl, symbolische Rechenaufgaben.<br><br><b>EIS-Zuordnung:</b> enaktiv = Schieben am Rechenrahmen, Legen mit Dienes-Material; ikonisch = bildliche Darstellung dieses Materials, Zahlenstrahl; symbolisch = Rechenaufgaben, Vergleichszeichen, Zahlzeichen. Die Aufgaben verlangen bewusst den Wechsel zwischen den Ebenen.<br><br><b>Kompetenzen aus dem KC (je Schulbuchseite):</b> Subtraktions-Rechenstrategien → 'Rechenoperationen verstehen und beherrschen'; Stellenwert-Aufgaben → 'Zahlvorstellungen entwickeln' (Stellenwertverständnis); Zahlenstrahl-Aufgabe → ebenfalls 'Zahlvorstellungen entwickeln'.<br><br><b>Nötiges Vorwissen</b> (Hefendehl-Hebeker & Schwank, 2015, S. 101): Zählkompetenz mit Bewusstsein unbegrenzter Fortsetzbarkeit, Wissen um Zahlen im Alltag (Zähl-/Anzahl-/Ordnungs-/Maßzahl-Aspekt), Bewusstsein von Zahlen als gegenstandsunabhängigen Objekten, Fähigkeit zum flexiblen Rechnen.<br><br><b>Weitere mögliche Darstellungen:</b> Hundertertafel, Rechenstrich (ikonisch), digitale Hundertertafel-App.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c91ot0y",
+          "session": "Seminar 10",
+          "q": "Betrachten Sie die Aufgaben 'Brüche Klasse 7'. Welche Kompetenzen werden gefördert, welche Erscheinungsformen von Brüchen werden angesprochen?",
+          "a": "<b>Kompetenzen:</b> Wechsel zwischen Bruch–Dezimalzahl–Prozent, Rechenwege bei Addition/Subtraktion/Multiplikation/Division mit Brüchen und Dezimalzahlen erklären, Schätzen/Verorten von Brüchen auf der Zahlengeraden, Vernetzen verschiedener Zahldarstellungen im „Zahlenlexikon“. Der Zahlbegriff wird erweitert: positive und negative Brüche = rationale Zahlen.<br><br><b>Erscheinungsformen von Brüchen:</b> Teil eines Ganzen (Pizza-Aufteilung 6/5), Quotient/Verhältniszahl, Operator (Prozentangabe), Maßzahl/Punkt auf der Zahlengeraden. Die Aufgaben machen bewusst, dass dieselbe rationale Zahl in unterschiedlichen Erscheinungsformen auftreten kann.<br><br><b>Kompetenzen aus dem KC:</b> Wechsel Bruch-Dezimalzahl-Prozent → 'mit rationalen Zahlen rechnen/Darstellungen umwandeln'; Verorten auf der Zahlengeraden → 'Zahlvorstellungen zu rationalen Zahlen aufbauen'; Rechenwege-Dokumentation → 'mathematisch kommunizieren/argumentieren'.<br><br><b>Korrekte Erscheinungsformen</b> (Hefendehl-Hebeker & Schwank, 2015, S. 101): Bruch als Anteil (Bestände gerecht in gleich große Stücke gebrochen, z. B. 6 Pizzen/5 Personen), Bruch als Vergleichsinstrument (Größenvergleich wie '5/6 mal so lang' - Wurzel von 'rationale Zahl' über lat. 'ratio'), Bruch als Operator (z. B. Prozentangabe auf eine Größe angewendet), Bruch als Größe (z. B. 1/2 m, 3/4 h, oder Punkt auf der Zahlengeraden).<br><br><b>Darstellungen/EIS</b> (S. 103): symbolische Notation, Zahlengerade (ikonisch), Zahlenlexikon (symbolisch-strukturierend). Weitere: Bruchstreifen (enaktiv/ikonisch), Kreisausschnitt (ikonisch). EIS: enaktiv = im Motorischen verankert (Bruchstreifen falten), ikonisch = im Visuellen verankert (Zahlengerade), symbolisch = im Formal-Symbolischen verankert (Notation).",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cncsjs1",
+          "session": "Seminar 10",
+          "q": "Betrachten Sie das Zahlenrätsel S.24 Aufgabe 1 in 'Natürliche Zahlen Klasse 2'. Formulieren Sie analoge Rätsel für Brüche, und formulieren Sie Gemeinsamkeiten/Unterschiede von natürlichen Zahlen und Bruchzahlen.",
+          "a": "<b>Analoge Rätsel für Brüche:</b> Das Zahlenrätsel (S.24) nutzt Hinweise wie 'hat den Vorgänger 55' oder 'ist um 8 größer als 70'. Analog für Brüche: 'größer als 1/2 und kleiner als 1', 'liegt zwischen 1/3 und 2/3', 'hat denselben Wert wie 2/4, aber anderen Nenner'. Wichtiger Unterschied: Vorgänger/Nachfolger-Hinweise funktionieren bei natürlichen Zahlen (diskret), aber NICHT bei Brüchen (Dichtheit - zwischen zwei Brüchen liegen unendlich viele weitere). Rätsel für Brüche müssen daher auf Vergleiche/Eigenschaften ausweichen.<br><br><b>Gemeinsamkeiten und Unterschiede:</b> Gemeinsamkeiten: Für beide Zahlbereiche gelten die Kommutativ- und Assoziativgesetze der Addition und Multiplikation sowie das Distributivgesetz; beide Zahlbereiche sind bezüglich Addition und Multiplikation abgeschlossen (die Summe/das Produkt zweier natürlicher bzw. zweier Bruchzahlen ist wieder eine natürliche bzw. eine Bruchzahl). Unterschiede: Natürliche Zahlen haben einen eindeutigen Nachfolger (diskrete Anordnung: Zwischen 3 und 4 liegt keine weitere natürliche Zahl), während zwischen zwei beliebigen Bruchzahlen stets unendlich viele weitere Bruchzahlen liegen (Dichtheit). Bei natürlichen Zahlen macht das Produkt zweier Zahlen (außer bei Multiplikation mit 1) das Ergebnis stets größer, bei echten Brüchen kann die Multiplikation zweier Zahlen kleiner als beide Faktoren machen (z. B. 1/2 · 1/3 = 1/6) – ein Widerspruch zur intuitiven, von natürlichen Zahlen geprägten Erwartung 'Multiplizieren macht größer', der eine typische Hürde beim Erwerb des Bruchzahlbegriffs darstellt (Sitzung 9).",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1mb3rma",
+          "session": "Seminar 10",
+          "q": "Betrachten Sie eine Aufgabe zu Zahlbereichen ('Brüche Klasse 4', S. 136) und ergänzen Sie die Zahlbereiche im Bild. Nehmen Sie Stellung zu den Aussagen der abgebildeten Kinder und recherchieren Sie, ob es weitere Zahlbereiche gibt.",
+          "a": "<b>Ergänzung der Zahlbereiche/Beispiele:</b> Das Diagramm zeigt eine Verschachtelung: äußere Ellipse = rationale Zahlen (ℚ), darin ganze Zahlen (ℤ), darin negative ganze Zahlen. Der Bereich zwischen 'rationale Zahlen' und 'ganze Zahlen' ist mit 'negative Brüche (auch als Dezimalzahl oder Prozent geschrieben)' beschriftet. Zuordnung: −3,4 → negative Brüche (negative Dezimalzahl); 20 % → ebenfalls Bruch-/Prozentbereich; 42 → ganze Zahlen (positiv, außerhalb der negativen ganzen Zahlen).<br><br><b>Stellungnahme zu den Kinderaussagen:</b> Die Sprechblasen sind auf dem Foto nicht in jedem Wort scharf lesbar; die Kernaussage - Dezimalzahlen/Prozentzahlen sind Brüche in anderer Schreibweise, negative Brüche sind rational, aber nicht ganzzahlig - lässt sich klar rekonstruieren. Typische Fehlvorstellung: Dezimal-/Prozentzahlen werden fälschlich als 'kein Bruch' angesehen, statt als andere Darstellung derselben rationalen Zahl.<br><br><b>Erweiterung:</b> Vollständige Hierarchie: ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ. Das Diagramm ließe sich um einen äußeren Ring für reelle Zahlen (inkl. irrationaler Zahlen wie √2) und optional komplexe Zahlen erweitern. In der Grundschule: natürliche Zahlen und positive Brüche; negative Zahlen und irrationale Zahlen folgen in der Sek I; komplexe Zahlen erst in Oberstufe/Studium.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1jnq7sw",
+          "session": "Seminar 11",
+          "q": "Recherchieren Sie in den Kerncurricula, in welchen Kompetenzbereichen sich Kompetenzen finden, die man dem Bereich Algebra zuordnen kann. Welche Gemeinsamkeiten/Unterschiede gibt es?",
+          "a": "Beide KC verorten Algebra-Kompetenzen in der Leitidee Muster, Strukturen und funktionaler Zusammenhang (GS) bzw. Funktionaler Zusammenhang (RS). GS: Strukturen in Darstellungen nutzen, Muster erkennen (Zahlenfolgen, Pentominos), Gleichheit von Ausdrücken darstellen (Terme vergleichen) - ohne formale Variablen. RS: formales Arbeiten mit Variablen, Termen, Gleichungen, Funktionen (Proportionalität, lineare/quadratische Zusammenhänge). Gemeinsamer Grundgedanke: Muster erkennen/nutzen; Unterschied: Formalisierungsgrad.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c59s9lu",
+          "session": "Seminar 11",
+          "q": "Problem Gleichheitszeichen: Winter (1982) kritisiert die 'Aufgabe-Ergebnis-Deutung' im traditionellen Rechenunterricht. Wie könnte man dem in der Grundschule entgegenwirken? Welche Aufgaben/Hilfsmittel?",
+          "a": "Winter (1982) kritisiert, dass das Gleichheitszeichen meist nur operational ('ergibt') statt relational verstanden wird, was spätere algebraische Umformungen erschwert (Hefendehl-Hebeker & Rezat, 2014). Gegenmittel: Wahr/Falsch-Aufgaben mit Summen beidseitig (5+3=4+4), Lückenaufgaben mit der Unbekannten an verschiedenen Positionen (6+__=9 statt nur 6+3=__), Vergleichsaufgaben ohne auszurechnen, und Waage-Modelle (auch digital, z.B. GeoGebra-Applet): zwei Terme als gleich schwere Gewichte im Gleichgewicht - anschauliche Vorstufe zum späteren Äquivalenzumformen. Weitere Hilfsmittel: Rechenketten, Zahlenmauern, Tabellenkalkulation mit Formeln.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cz9tnb6",
+          "session": "Seminar 11",
+          "q": "1. Betrachten Sie die Aufgaben aus 'Zahlenbuch 2 Terme': Welche Darstellungen werden zur Visualisierung eines Sachverhalts genutzt, welche Terme resultieren daraus, und welche 'Bausteine' werden verwendet? (inkl. rekursiver Termdefinition, siehe nächste Folie)",
+          "a": "<b>Darstellungen:</b> Ben zählt additiv auf (4+4+4+4+2+2), Murat nutzt eine Zahlenfolge (schrittweises Weiterzählen), Finn eine strukturierte Tabelle (Vierbeiner/Beine, Zweibeiner/Beine).<br><br><b>Resultierender Term:</b> 4·a + 2·b für a Vierbeiner und b Zweibeiner (z. B. 5·4+2·2=24).<br><br><b>Bausteine:</b> Der Term setzt sich aus „4·a“ und „2·b“ zusammen, die durch Addition verknüpft werden – Beispiel der rekursiven Termdefinition (Terme, verknüpft zu neuen Termen).<br><br><b>Rekursive Termdefinition</b> (Hefendehl-Hebeker & Rezat, 2014, S. 130): Jeder Zahlname und jede Variable ist ein Term; sind T1 und T2 Terme, sind auch (T1+T2), (T1−T2), (T1·T2), (T1:T2) Terme; ist f ein n-stelliges Funktionssymbol, ist f(T1,...,Tn) ein Term; Einsetzen von Termen in Variablen ergibt erneut einen Term. Mit diesen Zeichenreihen operiert man nach Regeln: den arithmetischen Grundgesetzen (Assoziativ-, Kommutativgesetz, Distributivgesetz) sowie speziellen Konventionen (z. B. 2·a wird als 2a geschrieben; Klammern haben Vorrang).",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1hgaj61",
+          "session": "Seminar 11",
+          "q": "2. Betrachten Sie Aufgabe 11: Wie können Schüler*innen der 2. Klasse diese Aufgabe lösen, und wie könnte ein allgemeiner Term in Klasse 7/8 formuliert werden?",
+          "a": "<b>Klasse 2:</b> Lösung durch systematisches Probieren/Rechnen mit Einzelbeispielen, unterstützt durch Skizzen oder eine Tabelle (Vierbeiner-Anzahl → Beinzahl), bis der Zielwert (24 bzw. 18 bei 6 Tieren) erreicht ist.<br><br><b>Klasse 7/8:</b> Mit x = Vierbeiner, y = Zweibeiner: a) 4x+2y=24 (mehrere Lösungen); b) zusätzlich x+y=6 → Gleichungssystem, durch Einsetzen (y=6−x) löst sich 4x+2(6−x)=18 zu x=3, y=3.<br><br>Zeigt das Spiralprinzip: vom Probieren (Kl. 2) zur formalen Gleichung (Kl. 7/8).",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cyzgnlo",
+          "session": "Seminar 11",
+          "q": "Bearbeiten Sie die Aufgaben auf S. 202 aus 'mathewerkstatt 7 Terme' mit einer Tabellenkalkulation und anschließend Aufgabe 30 auf S. 216.",
+          "a": "<b>S. 202:</b> Pias Term berechnet den CO₂-Ausstoß der S-Bahn pro Kopf (Gesamt-CO₂ pro km ÷ Personenzahl x). In der Tabellenkalkulation: Spalte mit mehreren x-Werten, Nachbarspalte mit Formel „=CO2_gesamt/x“ – Pro-Kopf-Ausstoß sinkt mit steigender Auslastung.<br><br><b>Aufgabe 30, S. 216:</b> a) Für Pias Klassenausflugs-Term (Busmiete + Kosten je Fahrt) sinnvolle Zahlen einsetzen, Ergebnisse und Annahmen vergleichen. b) CO₂ pro Kopf bei Fahrgemeinschaften: abhängig von Verkehrsmittel (Fahrrad 0 g, Kleinwagen Hybrid 96 g/km, …) und Personenzahl – wieder als Term (Ausstoß pro km ÷ Personenzahl).<br><br>Beide Aufgaben zeigen, wie Terme reale Situationen modellieren und Tabellenkalkulationen sie für viele Werte zugleich auswerten.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cnrgqrs",
+          "session": "Seminar 12",
+          "q": "Aufgabe 2: Bearbeitung einer der beiden Lernumgebungen: Pentominos auf der Hundertertafel (3.-5. Schuljahr) oder Triff die 50 (3.-6. Schuljahr). Machen Sie sich mit den Aufgabenstellungen vertraut.",
+          "a": "<b>Pentominos auf der Hundertertafel:</b> Auf einer Hundertertafel sollen Pentomino-Formen (5 zusammenhängende Kästchen) so platziert werden, dass die Summe der überdeckten Zahlen einer Zielzahl entspricht bzw. möglichst nah an diese herankommt.<br><br><b>Triff die 50:</b> Schülerinnen und Schüler wählen eine Startzahl und eine Pluszahl und addieren wiederholt die Pluszahl zur jeweiligen Summe, mit dem Ziel, möglichst nah an die Zahl 50 heranzukommen bzw. sie exakt zu treffen.<br><br>Quelle: Hirt, U. & Wälti, B. (2008). Lernumgebungen im Mathematikunterricht. Natürliche Differenzierung für Rechenschwache bis Hochbegabte. Hannover: Kallmeyer.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1vikvw4",
+          "session": "Seminar 12",
+          "q": "Aufgabe 3: Überprüfen Sie die gewählte Lernumgebung daraufhin, inwieweit sie die geforderten Kriterien für eine natürliche Differenzierung erfüllt.",
+          "a": "<b>Merkmale nach Krauthausen (2018, S. 300f.):</b><br>(1) Gleichheit des Angebots trotz Ganzheitlichkeit/Komplexität: Alle Kinder erhalten dasselbe Lernangebot statt separatem Material je Niveau; das Angebot muss ganzheitlich und hinreichend komplex sein.<br>(2) Freie Wahl des Bearbeitungsniveaus: Nicht die Lehrkraft, sondern das Kind entscheidet, welches Niveau aus dem Spektrum unterschiedlich schwieriger Problemstellungen bearbeitet wird.<br>(3) Soziales Mit-/Voneinander-Lernen: Der interaktive Austausch unterschiedlicher Zugangsweisen (z. B. Rechenkonferenzen) wird durch das gemeinsame Angebot natürlich ermöglicht.<br>(4) Motivationaler Nutzen: Individuelle Lösungswege lassen kognitive Spielräume, die über die Erfahrung von Autonomie zu Motivation beitragen (Neubrand & Neubrand, 1999).<br><br><b>Prüfung am Beispiel Triff die 50:</b> Alle vier Kriterien sind erfüllt - gleiches Spielprinzip (1), freie Wahl von Vorgehen/Niveau (2), Vergleich der Lösungswege in der Klasse (3), freie Zahlwahl fördert Motivation (4).",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cjji57k",
+          "session": "Seminar 12",
+          "q": "Aufgabe 4: Der Titel des Buches 'Lernumgebungen für Rechenschwache bis Hochbegabte' spricht zunächst die Mathematikleistung als Heterogenitätsdimension an. Welche Heterogenitätsdimensionen können darüber hinaus berücksichtigt werden?",
+          "a": "Berücksichtigt werden können insbesondere Leistungsfähigkeit und Vorwissen (unterschiedlich komplexe Rechenstrategien möglich), Lerntempo (unterschiedlich viele Runden/Durchgänge möglich), Interesse und Motivation (freie Wahl der Start-/Pluszahl erlaubt eigene Schwerpunktsetzung) sowie Sprachkompetenz (die Aufgabe ist auch mit geringem sprachlichem Anspruch bearbeitbar, da sie im Kern eine Rechen- bzw. Legetätigkeit ist) – vgl. die allgemeinen Heterogenitätsdimensionen aus Sitzung 11.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cmkf0vb",
+          "session": "Seminar 12",
+          "q": "Aufgabe 5: Analysieren Sie die vorgelegten Lösungsbeispiele beider Lernumgebungen. Schätzen Sie das Anforderungsniveau der verschiedenen Bearbeitungen ein.",
+          "a": "<b>Pentominos (Delilah, Andrin, Jennifer, je Klasse 3):</b> Delilah berechnet mehrere Summen ohne übergeordnete Struktur zu formulieren (AB I). Andrin erkennt eine erste Beobachtung zum Zusammenhang benachbarter Positionen ('immer fünfzehn mehr', AB II). Jennifer verallgemeinert über mehrere Beispiele zu einer eigenen Regel (AB II/III).<br><br><b>Sarah (Kl.4, AB I):</b> probiert viele Start-/Pluszahl-Kombinationen durch, formuliert keine Regel - rechnendes, sicheres Ausführen ohne Struktur-Reflexion.<br><br><b>Simon (Kl.6, AB II):</b> probiert mehrere Ketten, erkennt und benennt ein Muster: 'in der Mitte muss immer eine 10 stehen, sonst stimmt die Rechnung nicht' - Zusammenhänge herstellen.<br><br><b>Alina (Kl.5, AB II/III):</b> nutzt eine Paarungsstruktur: 'erste und letzte Zahl geben 20, zweite und vierte geben 20, plus die 10 = 50' - erkennt eine verallgemeinerbare Struktur und konstruiert damit gezielt Lösungen.<br><br><b>Fazit:</b> Die drei echten Bearbeitungen zeigen die Bandbreite natürlicher Differenzierung: rechnendes Probieren (AB I) über Mustererkennung (AB II) bis zur strukturellen Einsicht (AB II/III) - alle bearbeiten dieselbe Aufgabe auf ihrem jeweiligen Niveau.<br><br><b>Zum Vergleich (KC-Anforderungsbereiche):</b> KC Grundschule (2025, S. 9): AB I = Reproduzieren (Grundwissen, Routinetätigkeiten), AB II = Zusammenhänge herstellen (Kenntnisse verknüpfen), AB III = Verallgemeinern und Reflektieren (auf unbekannte Fragestellungen übertragen). KC Realschule (2020, S. 12): analog, mit stärkerer Betonung auf eigenen Problemformulierungen und Interpretationen in AB III.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1gm3ls5",
+          "session": "Seminar 12",
+          "q": "Aufgabe 1: Lesen Sie die Abschnitte zur Individualisierung bzw. Inneren Differenzierung in den Kerncurricula für Grundschule und Realschule. Was wird dort beschrieben?",
+          "a": "Das Kerncurriculum für die Realschule (2020, S. 15) führt aus, dass aufgrund unterschiedlicher Lernvoraussetzungen, individueller Begabungen, Fähigkeiten und Neigungen sowie unterschiedlichen Lernverhaltens differenzierende Lernangebote und -anforderungen für den Kompetenzerwerb unverzichtbar sind; innere Differenzierung wird dort als Grundprinzip jeden Unterrichts bezeichnet. Berücksichtigt werden dabei u. a. Begabungen, motivationale Orientierung, Geschlecht, Alter, sozialer, ökonomischer und kultureller Hintergrund, Leistungsfähigkeit und Sprachkompetenz. Das Kerncurriculum der Grundschule führt unter dem Stichwort 'Individualisierung' ähnliche Grundgedanken aus (Sitzung 11).",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1gn0s4l",
+          "session": "Seminar 13",
+          "q": "Aufgabe 1: Theoretischer Input - Definition Mathematikaufgabe und Kriterien guter Aufgaben.",
+          "a": "<b>Definition Mathematikaufgabe</b> (Büchter & Leuders, 2016): Eine Mathematikaufgabe umreißt eine mathematikhaltige Situation, die Lernende zur mathematischen Auseinandersetzung mit dieser Situation anregt. Aufgabenkonstruktion ist ein Handwerk - Schulbuchaufgaben passen nicht immer zum spezifischen Lernziel, weshalb die individuelle Erstellung eine zentrale Tätigkeit von Lehrenden ist.<br><br><b>Kriterien 'guter' Aufgaben:</b> Fordert eine Begründung ein, ermöglicht aktives Problemlösen, beinhaltet unterschiedliche mathematische Tätigkeiten, fokussiert auf das Wesentliche, entlastet (z. B. von Rechentätigkeiten), fordert zur Kommunikation zur sprachlichen Präzisierung auf, ermöglicht handelnden Zugang, ist offen, und kann zu unerwarteten Antworten und Fragen führen.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1uur9zn",
+          "session": "Seminar 13",
+          "q": "Aufgabe 2: Bearbeiten Sie die Aufgabe zum Thema Addition von Brüchen (Padberg, 2009): Kreisausschnitte falten und Brüche legen. Können Sie auch Kreisausschnitte für 1/6 oder 1/3 erstellen?",
+          "a": "<b>Vorbereitung:</b> Aus Papier werden Kreise ausgeschnitten und durch wiederholtes Falten in Hälften, Viertel, Achtel und Sechzehntel geteilt und beschriftet.<br><br><b>Können Sie auch Kreisausschnitte für 1/6 oder 1/3 erstellen?</b> Nein, nicht mit derselben Faltmethode: wiederholtes Halbieren liefert immer Nenner, die Zweierpotenzen sind (2,4,8,16). Für Drittel/Sechstel braucht man ein anderes Verfahren, z.B. Winkel abtragen (360°:3=120°, 360°:6=60°).<br><br><b>Forschungsaufträge:</b> Mit den Kreisausschnitten wird ein ganzer bzw. halber Kreis auf verschiedene Arten zusammengesetzt; beim Legen von Additionsaufgaben sind gleichnamige Brüche direkt ablesbar, ungleichnamige nicht. Danach werden dieselben Aufgaben ohne Material symbolisch gelöst - ein Übergang von der enaktiven zur symbolischen Ebene.<br><br><b>Erfüllte Kriterien guter Aufgaben:</b> handelnder Zugang, aktives Problemlösen, Offenheit (viele mögliche Zerlegungen), implizite Begründungsforderung.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c594r09",
+          "session": "Seminar 13",
+          "q": "Theoretischer Input: Aufgaben zum Lernen und Aufgaben zum Leisten (vor Aufgabe 4).",
+          "a": "Aufgaben erfüllen unterschiedliche Funktionen (Büchter & Leuders, 2016): Aufgaben für das Lernen (inkl. Üben) und Aufgaben für das Leisten (inkl. Üben für den Test). Gemeinsame Eignungsaspekte für beide Bereiche: Authentizität, Offenheit der Aufgabe, Grad der Differenzierung.<br><br>Problem: Es ist schwer zu unterscheiden, ob ein Zusammenhang wirklich verstanden oder nur auswendig gelernt wurde. Begründung fordern könnte helfen - noch besser: Begründung so fordern, dass verschiedene Strategien möglich sind. Weitere Leitfrage: Kann das Gelernte auf andere Fragestellungen übertragen werden?",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cmq5kbb",
+          "session": "Seminar 13",
+          "q": "Aufgabe 4: Betrachten Sie drei Aufgaben zur Darstellung und Addition von Brüchen. Welche Kriterien guter Aufgaben und welche Aspekte von 'Aufgaben zum Lernen/Leisten' (Büchter & Leuders, 2016) finden Sie wieder?",
+          "a": "<b>Beispiel 1:</b> '1/4+1/8=3/8, begründe mit Zeichnung' - fordert Begründung, nicht durch Auswendiglernen lösbar (Gleichnamigmachung 1/4=2/8 nötig).<br><br><b>Beispiel 2:</b> 'Jan behauptet, zwei beliebige Brüche ergäben 1/2 - widerlege' - Begründung mit mehreren möglichen Strategien (Gegenbeispiele wie 1/3+1/5=8/15≠1/2).<br><br><b>Beispiel 3:</b> 'Zerschneide Streifen/Rechtecke und beschrifte mit Brüchen. Geht das auch mit Rechtecken?' - besonders offen (viele Zerlegungen), prüft Übertragbarkeit auf neue Form.<br><br><b>Fazit:</b> Alle drei fordern Begründungen, lassen verschiedene Strategien zu und prüfen echtes Verständnis statt reinen Regel-Abrufs - geeignet zum Lernen und (enger geführt) zur Leistungsüberprüfung.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1qrw14w",
+          "session": "Seminar 13",
+          "q": "Definition: Flächenfunktion und Flächenmaß (mathematischer Exkurs vor Aufgabe 3).",
+          "a": "Die Flächenfunktion F ordnet jedem Polygon (n-Eck) einen reellen Zahlenwert als Flächenmaßzahl zu und muss folgende Forderungen erfüllen:<br><br>1. <b>Nichtnegativität:</b> Für jedes Polygon A gilt F(A) ≥ 0.<br>2. <b>Verträglichkeit mit der Kongruenz:</b> Für alle Polygone A, B gilt: Wenn A kongruent zu B ist, dann F(A) = F(B).<br>3. <b>Additivität:</b> Für alle Polygone A, B mit höchstens gemeinsamen Randpunkten gilt F(A∪B) = F(A) + F(B).<br>4. <b>Normierung:</b> Für das Einheitsquadrat E mit Kantenlänge 1 gilt F(E) = 1.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1va6hh",
+          "session": "Seminar 13",
+          "q": "Aufgabe 3: Bearbeiten Sie die Aufgabe zum Thema Flächeninhalt eines Kreises (Klasse 4): 'Der Durchmesser eines Kreises beträgt 4 cm. Beschreibe eine oder mehrere Möglichkeiten, seinen Flächeninhalt zu bestimmen, und führe diese durch. Welche Flächeninhalte ermittelst du?' Skizzieren Sie erwartbare Schüler*innenlösungen für leistungsschwächere und leistungsstärkere Kinder.",
+          "a": "Da die formale Kreisflächenformel (A = π·r²) in Klasse 4 noch nicht bekannt ist, handelt es sich um eine vorwegnehmende Problemaufgabe (vgl. Sitzung 6: Aufgaben können je nach Schulstufe Routine- oder Problemaufgabe sein): Kinder müssen eigene, angenäherte Lösungswege entwickeln. Erwartbare Lösung leistungsschwächerer Kinder: Auslegen des Kreises mit Einheitsquadraten (z. B. Zentimeterpapier) und Auszählen der ganz oder teilweise abgedeckten Kästchen; grobe Schätzung des Flächeninhalts, z. B. rund 12–13 cm². Erwartbare Lösung leistungsstärkerer Kinder: Einbeschreiben eines Quadrats bzw. Sechsecks in den Kreis zur Abschätzung einer unteren Grenze, kombiniert mit einem umschriebenen Quadrat als obere Grenze, und Mittelung dieser beiden Werte; manche Kinder kommen so bereits nahe an den exakten Wert von ca. 12,57 cm² (π·2²) heran, ohne die Formel formal zu kennen. Da unterschiedlich anspruchsvolle Lösungswege möglich sind, eignet sich die Aufgabe zugleich als Beispiel für natürliche Differenzierung (Sitzung 11).<br><br><b>Bezug zur Flächenfunktion:</b> Beim Auslegen mit Einheitsquadraten werden Normierung und Additivität sichtbar (Gesamtfläche = Summe der Kästchenflächen); beim Ein-/Umschreiben von Quadraten ebenfalls Additivität (Grenzflächen als Summe von Teilflächen) sowie implizit die Nichtnegativität.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c12x80lc",
+          "session": "Seminar 13",
+          "q": "Aufgabe 5: Entwickeln Sie auf Basis der Flächeninhalts-Aufgabe (Kreis, Klasse 4) sowohl eine Aufgabe zum Üben als auch eine Aufgabe zur Leistungsüberprüfung. Orientieren Sie sich dabei an den Aufgaben zur Addition von Brüchen und beachten Sie die Kriterien guter Aufgaben.",
+          "a": "Übungsaufgabe (offen, differenzierend, mehrere Lösungswege möglich): 'Zeichne drei verschiedene Kreise mit unterschiedlichem Durchmesser. Bestimme jeweils den Flächeninhalt mit einer Methode deiner Wahl (Auslegen, Einbeschreiben/Umschreiben, Schätzen). Vergleiche deine Ergebnisse mit einem Partner: Wer hat welche Methode gewählt, und wie genau waren die Schätzungen?' – Diese Aufgabe fordert Begründung, ermöglicht handelnden Zugang, ist offen im Vorgehen und regt zur Kommunikation über Lösungswege an (Kriterien guter Aufgaben, Sitzung 12). Aufgabe zur Leistungsüberprüfung (enger geführt, einheitlich bewertbar): 'Ein Kreis hat einen Durchmesser von 6 cm. Bestimme seinen Flächeninhalt näherungsweise durch Auslegen mit Zentimeterquadraten auf beiliegendem Karopapier. Gib deinen ermittelten Flächeninhalt in cm² an und beschreibe dein Vorgehen in zwei bis drei Sätzen.' – Hier ist die Methode (Auslegen) vorgegeben, damit alle Schüler*innen unter vergleichbaren Bedingungen bewertet werden können, während trotzdem noch eine eigene Handlung und ein kurzer Begründungssatz gefordert werden.",
+          "hint": null,
+          "herkunft": "direkt",
+          "flagged": false
+        }
+      ],
+      "quiz": [
+        {
+          "id": "csga3dd",
+          "session": "Seminar 1",
+          "q": "Wie viele prozessbezogene Kompetenzen unterscheiden die Bildungsstandards in Primarstufe und Sekundarstufe I?",
+          "options": [
+            "3",
+            "6",
+            "5",
+            "10"
+          ],
+          "correct": 1,
+          "expl": "Es sind sechs: Argumentieren, Probleme lösen, Modellieren, Darstellungen verwenden, mit symbolischen Elementen umgehen, Kommunizieren.",
+          "flagged": false
+        },
+        {
+          "id": "c16r2u78",
+          "session": "Seminar 1",
+          "q": "Wie heißt die dritte Leitidee in der Primarstufe, und wie in der Sekundarstufe I?",
+          "options": [
+            "Beide 'Funktionaler Zusammenhang'",
+            "Primar: 'Muster, Strukturen und funktionaler Zusammenhang'; SekI: 'Strukturen und funktionaler Zusammenhang'",
+            "Primar: 'Algebra'; SekI: 'Variablen'",
+            "Es gibt nur vier Leitideen"
+          ],
+          "correct": 1,
+          "expl": "Die Umbenennung spiegelt den Übergang vom Mustererkennen zum formaleren Variablenumgang wider.",
+          "flagged": false
+        },
+        {
+          "id": "c18buoow",
+          "session": "Seminar 2",
+          "q": "Ist 'lernförderliches Klima' ein fachspezifisches oder ein fächerübergreifendes Kriterium?",
+          "options": [
+            "Fachspezifisch für Mathematik",
+            "Fächerübergreifend gültig",
+            "Nur für die Sekundarstufe relevant",
+            "Kein anerkanntes Kriterium"
+          ],
+          "correct": 1,
+          "expl": "Lernförderliches Klima ist ein allgemeines Unterrichtsmerkmal (Meyer/Helmke), nicht spezifisch für Mathematik.",
+          "flagged": false
+        },
+        {
+          "id": "cq5wt2y",
+          "session": "Seminar 3",
+          "q": "Welchem Anforderungsbereich entspricht die Teilaufgabe 'Warum ist das so? Begründe.'?",
+          "options": [
+            "Anforderungsbereich I",
+            "Anforderungsbereich II",
+            "Anforderungsbereich III",
+            "Keinem, das ist keine Kompetenz"
+          ],
+          "correct": 2,
+          "expl": "Eine eigene Begründung eines allgemeinen Zusammenhangs entspricht dem Verallgemeinern und Reflektieren (AB III).",
+          "flagged": false
+        },
+        {
+          "id": "ck3qu7f",
+          "session": "Seminar 4",
+          "q": "Wie wird der Flächeninhaltsbegriff in der Sekundarstufe II im Sinne des Spiralprinzips neu gefasst?",
+          "options": [
+            "Er wird nicht mehr behandelt",
+            "Als Grenzwert von Ober- und Untersummen (Integralrechnung)",
+            "Nur noch über Näherungsverfahren",
+            "Identisch wie in der Grundschule"
+          ],
+          "correct": 1,
+          "expl": "Die Integralrechnung fasst Flächeninhalt allgemeiner, die Grundschulformeln bleiben als Spezialfälle gültig.",
+          "flagged": false
+        },
+        {
+          "id": "c1tt2doz",
+          "session": "Seminar 5",
+          "q": "Welchem Beweistyp entspricht die Begründung der Teilbarkeitsregel für 9 über das Verschieben von Plättchen?",
+          "options": [
+            "Formal-deduktiver Beweis",
+            "Experimenteller Beweis",
+            "Inhaltlich-anschaulicher/operativer Beweis",
+            "Kein Beweis, nur eine Vermutung"
+          ],
+          "correct": 2,
+          "expl": "Die Konstruktion ist nachvollziehbar und gilt für jede Zahl - das ist die Definition des inhaltlich-anschaulichen Beweises.",
+          "flagged": false
+        },
+        {
+          "id": "c1qn4fd7",
+          "session": "Seminar 6",
+          "q": "Welche Modellierungskreislauf-Phase entspricht dem Aufstellen der Ersparnis-Rechnung bei der Tanken-Aufgabe?",
+          "options": [
+            "Vereinfachen",
+            "Mathematisieren",
+            "Validieren",
+            "Realsituation verstehen"
+          ],
+          "correct": 1,
+          "expl": "Die Übersetzung der Annahmen in eine konkrete Rechnung ist der Schritt des Mathematisierens.",
+          "flagged": false
+        },
+        {
+          "id": "c70vx6n",
+          "session": "Seminar 6",
+          "q": "Warum ist die Mülltonnenaufgabe in ihrer ursprünglichen Form für Grundschulkinder problematisch?",
+          "options": [
+            "Sie ist zu einfach",
+            "Sie ist stark unterbestimmt mit zu vielen offenen Fragen",
+            "Sie hat keinen Sachbezug",
+            "Sie erfordert Integralrechnung"
+          ],
+          "correct": 1,
+          "expl": "Zu viele Fragen (Familiengröße, Garten, Gebühren) bleiben offen, was besonders jüngere Kinder überfordert.",
+          "flagged": false
+        },
+        {
+          "id": "c1tqda5h",
+          "session": "Seminar 7",
+          "q": "Was ist bei der Optimalen Parkeinteilung die Grenze zwischen den Einzugsgebieten zweier benachbarter Bänke?",
+          "options": [
+            "Eine beliebige Gerade",
+            "Die Mittelsenkrechte ihrer Verbindungsstrecke",
+            "Ein Kreisbogen",
+            "Es gibt keine klare Grenze"
+          ],
+          "correct": 1,
+          "expl": "Die Grenze bilden die Punkte, die von beiden Bänken gleich weit entfernt sind - das ist die Mittelsenkrechte (vgl. Seminar 8).",
+          "flagged": false
+        },
+        {
+          "id": "c171zd2q",
+          "session": "Seminar 8",
+          "q": "Was ist die Mittelsenkrechte einer Strecke AB fachmathematisch?",
+          "options": [
+            "Die Verlängerung der Strecke AB",
+            "Die Menge aller Punkte, die von A und B gleich weit entfernt sind",
+            "Eine Parallele zu AB",
+            "Der Mittelpunkt der Strecke AB"
+          ],
+          "correct": 1,
+          "expl": "Die Mittelsenkrechte ist der geometrische Ort aller zu A und B gleich weit entfernten Punkte.",
+          "flagged": false
+        },
+        {
+          "id": "c5wlpbm",
+          "session": "Seminar 8",
+          "q": "Welche zentrale Fähigkeit steht laut Bildungsstandards Primarstufe im Mittelpunkt der Leitidee 'Raum und Form'?",
+          "options": [
+            "Das schnelle Kopfrechnen",
+            "Räumliches Vorstellungsvermögen: sich orientieren und gedanklich mit Objekten operieren",
+            "Das Auswendiglernen von Flächenformeln",
+            "Die Wahrscheinlichkeitsrechnung"
+          ],
+          "correct": 1,
+          "expl": "Kern ist das räumliche Vorstellungsvermögen: sich im Raum orientieren, räumliche Beziehungen nutzen (Bauplan und Bauwerk, Körper und Netz) und gedanklich operieren (drehen, falten, spiegeln).",
+          "flagged": false
+        },
+        {
+          "id": "ci05krw",
+          "session": "Seminar 9",
+          "q": "Wie lassen sich klassischer und frequentistischer Wahrscheinlichkeitsbegriff in einer Aufgabe verbinden?",
+          "options": [
+            "Gar nicht, sie schließen sich aus",
+            "Durch Vergleich von realen Häufigkeiten mit der berechneten Laplace-Wahrscheinlichkeit",
+            "Nur durch reine Theorie ohne Experiment",
+            "Durch Verzicht auf Experimente"
+          ],
+          "correct": 1,
+          "expl": "Ein reales Experiment mit Häufigkeitsprotokoll, verglichen mit der klassischen Berechnung, macht beide Modellcharaktere erfahrbar.",
+          "flagged": false
+        },
+        {
+          "id": "cdmo60z",
+          "session": "Seminar 10",
+          "q": "Welche Eigenschaft unterscheidet natürliche Zahlen von Bruchzahlen bezüglich ihrer Anordnung?",
+          "options": [
+            "Kein Unterschied",
+            "Natürliche Zahlen haben einen eindeutigen Nachfolger, zwischen Bruchzahlen liegen unendlich viele weitere (Dichtheit)",
+            "Bruchzahlen haben einen eindeutigen Nachfolger",
+            "Natürliche Zahlen sind dicht angeordnet"
+          ],
+          "correct": 1,
+          "expl": "Zwischen zwei natürlichen Zahlen wie 3 und 4 liegt keine weitere natürliche Zahl, zwischen zwei Bruchzahlen aber immer unendlich viele.",
+          "flagged": false
+        },
+        {
+          "id": "cfufj4z",
+          "session": "Seminar 11",
+          "q": "Was besagt Regel (3) der rekursiven Termdefinition?",
+          "options": [
+            "Jede Zahl ist ein Term",
+            "Sind t1 und t2 Terme, sind auch ihre Verknüpfungen wie (t1+t2) wieder Terme",
+            "Nur Variablen sind Terme",
+            "Terme dürfen keine Klammern enthalten"
+          ],
+          "correct": 1,
+          "expl": "Regel 3 erlaubt die Verknüpfung von bereits bekannten Termen zu neuen, komplexeren Termen.",
+          "flagged": false
+        },
+        {
+          "id": "c2thw82",
+          "session": "Seminar 12",
+          "q": "Erfüllt die Lernumgebung 'Triff die 50' die Kriterien natürlicher Differenzierung?",
+          "options": [
+            "Nein, da unterschiedliches Material nötig ist",
+            "Ja, alle vier konstituierenden Merkmale sind erfüllt",
+            "Nur teilweise, da kein sozialer Austausch möglich ist",
+            "Nein, da nicht ganzheitlich"
+          ],
+          "correct": 1,
+          "expl": "Gleiches Angebot, ganzheitlich und komplex, freies Bearbeitungsniveau, sozialer Austausch möglich - alle vier Merkmale treffen zu.",
+          "flagged": false
+        },
+        {
+          "id": "c50lyx9",
+          "session": "Seminar 13",
+          "q": "Wie lässt sich Jans Behauptung widerlegen, dass zwei beliebige Brüche als Summe immer 1/2 ergeben können?",
+          "options": [
+            "Gar nicht, die Behauptung stimmt",
+            "Durch ein Gegenbeispiel wie 1/3 + 1/5 = 8/15",
+            "Durch reine Wiederholung der Behauptung",
+            "Nur durch eine Zeichnung ohne Rechnung"
+          ],
+          "correct": 1,
+          "expl": "Ein konkretes Gegenbeispiel, bei dem die Summe ungleich 1/2 ist, widerlegt die pauschale Behauptung.",
+          "flagged": false
+        },
+        {
+          "id": "c9v3u0",
+          "session": "Seminar 13",
+          "q": "Warum wird bei einer Aufgabe zur Leistungsüberprüfung die Lösungsmethode oft vorgegeben, anders als bei einer Übungsaufgabe?",
+          "options": [
+            "Aus Zeitgründen",
+            "Um Vergleichbarkeit und faire Bewertung für alle Schülerinnen und Schüler sicherzustellen",
+            "Weil offene Aufgaben verboten sind",
+            "Das ist nicht der Fall, beide sind identisch"
+          ],
+          "correct": 1,
+          "expl": "Leistungsüberprüfungen benötigen ein einheitliches, transparentes Bewertungsraster, weshalb die Methode oft enger geführt wird.",
+          "flagged": false
+        },
+        {
+          "id": "cqv0hb6",
+          "session": "Seminar 1",
+          "q": "Wie viele Anforderungsbereiche unterscheiden die Bildungsstandards?",
+          "options": [
+            "Zwei",
+            "Drei",
+            "Fünf",
+            "Sechs"
+          ],
+          "correct": 1,
+          "expl": "Es sind drei: AB I (Reproduzieren), AB II (Zusammenhänge herstellen), AB III (Verallgemeinern und Reflektieren).",
+          "flagged": false
+        },
+        {
+          "id": "c7llt4x",
+          "session": "Seminar 1",
+          "q": "Welche Aussage zu den fünf Leitideen (2022) trifft zu?",
+          "options": [
+            "Es gibt sechs Leitideen",
+            "Fünf Leitideen, die über die Schulstufen im Kern erhalten bleiben",
+            "Grundschule und SekI haben völlig verschiedene Leitideen",
+            "Leitideen sind dasselbe wie prozessbezogene Kompetenzen"
+          ],
+          "correct": 1,
+          "expl": "Zahl und Operation, Größen und Messen, Muster/Strukturen, Raum und Form, Daten und Zufall – im Kern über die Stufen gleich.",
+          "flagged": false
+        },
+        {
+          "id": "c1fwjnsx",
+          "session": "Seminar 2",
+          "q": "Welches Kriterium guten Unterrichts ist eher fachspezifisch für Mathematik?",
+          "options": [
+            "Lernförderliches Klima",
+            "Klare Strukturierung",
+            "Ergiebige Aufgaben mit mathematischer Substanz (PIKAS)",
+            "Transparente Leistungserwartungen"
+          ],
+          "correct": 2,
+          "expl": "Die mathematikdidaktischen Ausschärfungen des PIKAS-Plakats sind fachspezifisch; die übrigen sind allgemeine Merkmale nach Meyer/Helmke.",
+          "flagged": false
+        },
+        {
+          "id": "cobfmgo",
+          "session": "Seminar 2",
+          "q": "Warum wird die Leitidee 'Daten und Zufall' in Erinnerungen an guten MU oft seltener genannt?",
+          "options": [
+            "Sie ist unwichtig",
+            "Sie nimmt zeitlich einen geringeren Anteil ein und taucht traditionell spät auf",
+            "Sie gehört nicht zu den Leitideen",
+            "Sie ist besonders einprägsam"
+          ],
+          "correct": 1,
+          "expl": "Der geringere Zeitanteil und die späte curriculare Verortung führen dazu, dass sie subjektiv weniger präsent ist.",
+          "flagged": false
+        },
+        {
+          "id": "c1urgm10",
+          "session": "Seminar 3",
+          "q": "Welchem Anforderungsbereich entspricht die Teilaufgabe 'Rechne und setze fort'?",
+          "options": [
+            "Anforderungsbereich I",
+            "Anforderungsbereich II",
+            "Anforderungsbereich III",
+            "Keinem"
+          ],
+          "correct": 0,
+          "expl": "Das Anwenden eines Routineverfahrens entspricht dem Reproduzieren (AB I).",
+          "flagged": false
+        },
+        {
+          "id": "ccq3qvd",
+          "session": "Seminar 3",
+          "q": "Welche Grundstruktur teilen sich die Bildungsstandards von Primar- und Sekundarstufe I?",
+          "options": [
+            "Sie sind völlig unterschiedlich aufgebaut",
+            "Drei Anforderungsbereiche, sechs prozessbezogene Kompetenzen, fünf Leitideen",
+            "Nur die Leitideen stimmen überein",
+            "Fünf Anforderungsbereiche"
+          ],
+          "correct": 1,
+          "expl": "Die Grundstruktur ist in beiden Fassungen identisch; Unterschiede liegen vor allem im Anspruchsniveau.",
+          "flagged": false
+        },
+        {
+          "id": "cksvy06",
+          "session": "Seminar 4",
+          "q": "Was ist ein 'didaktisches Prinzip'?",
+          "options": [
+            "Eine Regel für einen einzelnen Inhalt",
+            "Eine übergeordnete, theoretisch begründete Leitlinie zur Gestaltung von Lehr-Lern-Prozessen",
+            "Ein Lehrplan",
+            "Eine Prüfungsform"
+          ],
+          "correct": 1,
+          "expl": "Didaktische Prinzipien wie Spiral-, EIS- oder operatives Prinzip begründen das WIE der Aufbereitung, unabhängig vom konkreten Inhalt.",
+          "flagged": false
+        },
+        {
+          "id": "cjdm7e0",
+          "session": "Seminar 4",
+          "q": "Welches Prinzip beschreibt das erneute Aufgreifen einer fundamentalen Idee auf höherem Niveau?",
+          "options": [
+            "Operatives Prinzip",
+            "EIS-Prinzip",
+            "Spiralprinzip (Bruner)",
+            "Prinzip der Isolierung der Schwierigkeiten"
+          ],
+          "correct": 2,
+          "expl": "Beim Spiralprinzip wird z. B. 'Flächeninhalt' von Grundschulformeln bis zur Integralrechnung immer wieder aufgegriffen.",
+          "flagged": false
+        },
+        {
+          "id": "c8ohxvu",
+          "session": "Seminar 4",
+          "q": "Was fordert das operative Prinzip nach Aebli vor allem?",
+          "options": [
+            "Regeln fertig vorzugeben",
+            "Eigenschaften durch aktives Operieren mit Material erfahrbar zu machen",
+            "Formeln auswendig zu lernen",
+            "Auf Material zu verzichten"
+          ],
+          "correct": 1,
+          "expl": "Z. B. Assoziativität durch Umgruppieren von Plättchen selbst entdecken statt als abstrakte Regel zu lernen.",
+          "flagged": false
+        },
+        {
+          "id": "cvle6rl",
+          "session": "Seminar 5",
+          "q": "Welche Funktion nach de Villiers steht beim Plättchen-Beweis der 9er-Regel im Vordergrund?",
+          "options": [
+            "Nur Verifikation",
+            "Vor allem die Erklärungsfunktion",
+            "Nur die Entdeckungsfunktion",
+            "Keine Funktion, es ist kein Beweis"
+          ],
+          "correct": 1,
+          "expl": "Zusätzlich zur Verifikation macht er vor allem verstehbar, WARUM die Regel gilt (Erklärungsfunktion).",
+          "flagged": false
+        },
+        {
+          "id": "c1evhz9l",
+          "session": "Seminar 5",
+          "q": "Wodurch unterscheidet sich ein inhaltlich-anschaulicher Beweis von einem experimentellen Beweis?",
+          "options": [
+            "Gar nicht",
+            "Er leistet eine echte Verallgemeinerung statt nur Einzelfälle zu prüfen",
+            "Er ist immer formal-deduktiv",
+            "Er verzichtet ganz auf Anschauung"
+          ],
+          "correct": 1,
+          "expl": "Der experimentelle Beweis prüft nur Einzelbeispiele; der inhaltlich-anschauliche zeigt, dass es für jede Zahl gilt.",
+          "flagged": false
+        },
+        {
+          "id": "c1cza3dq",
+          "session": "Seminar 6",
+          "q": "Welcher Modellierungskreislauf eignet sich besonders für die Diagnose individueller kognitiver Prozesse?",
+          "options": [
+            "Direktes Mathematisieren",
+            "Zweischrittiges Mathematisieren",
+            "Dreischrittiges Mathematisieren (Blum & Leiß) mit Situationsmodell",
+            "Keiner davon"
+          ],
+          "correct": 2,
+          "expl": "Der dreischrittige Kreislauf trennt explizit das Situationsmodell (Verstehen) von der Modellbildung – ideal für Forschung/Diagnose.",
+          "flagged": false
+        },
+        {
+          "id": "ce318v0",
+          "session": "Seminar 6",
+          "q": "Welche Teilkompetenz wird gefördert, wenn ein Rechenergebnis explizit auf die reale Ausgangsfrage zurückbezogen wird?",
+          "options": [
+            "Vereinfachen",
+            "Mathematisieren",
+            "Interpretieren",
+            "Rechnen"
+          ],
+          "correct": 2,
+          "expl": "Das Zurückübersetzen des mathematischen Ergebnisses in den Sachkontext ist das Interpretieren.",
+          "flagged": false
+        },
+        {
+          "id": "c18u6rgp",
+          "session": "Seminar 7",
+          "q": "Zu welcher Kategorie von Heurismen zählt eine Skizze oder Tabelle?",
+          "options": [
+            "Heuristische Strategie",
+            "Heuristisches Hilfsmittel",
+            "Heuristisches Prinzip",
+            "Routineverfahren"
+          ],
+          "correct": 1,
+          "expl": "Skizzen, Tabellen und Lösungsgraphen sind heuristische Hilfsmittel.",
+          "flagged": false
+        },
+        {
+          "id": "c1x95or4",
+          "session": "Seminar 7",
+          "q": "Das Symmetrie-, Extremal- oder Invarianzprinzip zählt zu den ...",
+          "options": [
+            "heuristischen Hilfsmitteln",
+            "heuristischen Strategien",
+            "heuristischen Prinzipien",
+            "Anforderungsbereichen"
+          ],
+          "correct": 2,
+          "expl": "Diese übergeordneten Prinzipien sind heuristische Prinzipien (im Unterschied zu Hilfsmitteln und Strategien).",
+          "flagged": false
+        },
+        {
+          "id": "cqomjo9",
+          "session": "Seminar 8",
+          "q": "Wie konstruiert man die Mittelsenkrechte einer Strecke AB mit Zirkel und Lineal?",
+          "options": [
+            "Kreis um den Mittelpunkt zeichnen",
+            "Zwei gleich große Kreise um A und um B, Verbindung der Schnittpunkte",
+            "Eine Parallele zu AB zeichnen",
+            "Den Winkel bei A halbieren"
+          ],
+          "correct": 1,
+          "expl": "Die beiden Schnittpunkte sind per Konstruktion von A und B gleich weit entfernt und legen die Mittelsenkrechte fest.",
+          "flagged": false
+        },
+        {
+          "id": "cvldibj",
+          "session": "Seminar 9",
+          "q": "Was besagt das Gesetz der großen Zahlen im Kontext der Wahrscheinlichkeit?",
+          "options": [
+            "Häufigkeiten weichen immer stark ab",
+            "Die relative Häufigkeit nähert sich mit zunehmender Versuchszahl dem theoretischen Wert an",
+            "Die klassische Wahrscheinlichkeit ist immer falsch",
+            "Experimente sind überflüssig"
+          ],
+          "correct": 1,
+          "expl": "Bei wenigen Versuchen kann die relative Häufigkeit stark abweichen, nähert sich aber mit steigender Versuchszahl dem Laplace-Wert.",
+          "flagged": false
+        },
+        {
+          "id": "czgm1pu",
+          "session": "Seminar 9",
+          "q": "In welche zwei Teilkompetenzen gliedert sich 'Daten und Zufall' in der Primarstufe?",
+          "options": [
+            "'Rechnen' und 'Messen'",
+            "'Mit Daten umgehen' und 'Ereignisse bei Zufallsexperimenten untersuchen'",
+            "'Addieren' und 'Subtrahieren'",
+            "'Geometrie' und 'Algebra'"
+          ],
+          "correct": 1,
+          "expl": "Daten erfassen/darstellen einerseits, Chancen und Zufall untersuchen andererseits.",
+          "flagged": false
+        },
+        {
+          "id": "c15cpwfm",
+          "session": "Seminar 10",
+          "q": "Welche der folgenden ist KEINE typische Grundvorstellung von Brüchen?",
+          "options": [
+            "Bruch als Teil eines Ganzen",
+            "Bruch als Operator",
+            "Bruch als Primzahl",
+            "Bruch als Verhältniszahl"
+          ],
+          "correct": 2,
+          "expl": "Erscheinungsformen sind u. a. Teil eines Ganzen, Verhältniszahl, Operator, Maßzahl, Quotient – 'Primzahl' gehört nicht dazu.",
+          "flagged": false
+        },
+        {
+          "id": "c1y33ptt",
+          "session": "Seminar 10",
+          "q": "Wie lautet die klassische Hierarchie der Zahlbereiche?",
+          "options": [
+            "ℝ ⊂ ℚ ⊂ ℤ ⊂ ℕ",
+            "ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ",
+            "ℕ ⊂ ℚ ⊂ ℤ ⊂ ℝ",
+            "ℂ ⊂ ℝ ⊂ ℚ ⊂ ℕ"
+          ],
+          "correct": 1,
+          "expl": "Natürliche ⊂ ganze ⊂ rationale ⊂ reelle ⊂ komplexe Zahlen.",
+          "flagged": false
+        },
+        {
+          "id": "c1lfvbwz",
+          "session": "Seminar 11",
+          "q": "Was besagt die rekursive Termdefinition über einzelne Zahlen und Variablen?",
+          "options": [
+            "Nur Zahlen sind Terme",
+            "Jeder Zahlname und jede Variable ist bereits ein Term",
+            "Terme dürfen keine Variablen enthalten",
+            "Ein Term ist immer eine Gleichung"
+          ],
+          "correct": 1,
+          "expl": "Die Basis der Rekursion: Zahlnamen und Variablen sind Terme; daraus werden durch Verknüpfung komplexere Terme aufgebaut.",
+          "flagged": false
+        },
+        {
+          "id": "c4ce5do",
+          "session": "Seminar 11",
+          "q": "Wer definiert im Seminar den Term-Begriff rekursiv?",
+          "options": [
+            "Aebli",
+            "Bruner",
+            "Hefendehl-Hebeker & Rezat",
+            "Winter"
+          ],
+          "correct": 2,
+          "expl": "Die rekursive Termdefinition wird nach Hefendehl-Hebeker & Rezat (2023) angeführt.",
+          "flagged": false
+        },
+        {
+          "id": "c1dyngal",
+          "session": "Seminar 12",
+          "q": "Wie viele konstituierende Merkmale hat die natürliche Differenzierung?",
+          "options": [
+            "Zwei",
+            "Drei",
+            "Vier",
+            "Sechs"
+          ],
+          "correct": 2,
+          "expl": "Gleiches Angebot, ganzheitlich/komplex, freies Bearbeitungsniveau, sozialer Austausch – vier Merkmale.",
+          "flagged": false
+        },
+        {
+          "id": "c19baydq",
+          "session": "Seminar 12",
+          "q": "Welches ist KEIN Merkmal natürlicher Differenzierung?",
+          "options": [
+            "Gleiches Angebot für alle",
+            "Ganzheitliches, komplexes Angebot",
+            "Getrenntes Material je nach Leistungsniveau",
+            "Freies Bearbeitungsniveau und sozialer Austausch"
+          ],
+          "correct": 2,
+          "expl": "Gerade das Gegenteil ist gemeint: alle erhalten dasselbe Angebot, ohne nach Niveau getrenntes Material.",
+          "flagged": false
+        },
+        {
+          "id": "c11241ez",
+          "session": "Seminar 13",
+          "q": "Warum ist die Kreisflächen-Aufgabe (Ø 4 cm) in Klasse 4 eine vorwegnehmende Problemaufgabe?",
+          "options": [
+            "Weil die Formel A=π·r² bereits bekannt ist",
+            "Weil die Kreisflächenformel noch nicht bekannt ist und eigene Näherungswege nötig sind",
+            "Weil sie unlösbar ist",
+            "Weil sie zu leicht ist"
+          ],
+          "correct": 1,
+          "expl": "Ohne bekannte Formel müssen Kinder eigene Wege (Auslegen, Ein-/Umschreiben) entwickeln – typisch für eine Problemaufgabe.",
+          "flagged": false
+        },
+        {
+          "id": "cn50b7x",
+          "session": "Seminar 1",
+          "q": "Was kennzeichnet Anforderungsbereich II?",
+          "options": [
+            "Reproduzieren von Grundwissen",
+            "Zusammenhänge herstellen (Verknüpfen bekannter Kenntnisse und Fertigkeiten)",
+            "Verallgemeinern und Reflektieren",
+            "Bloßes Auswendiglernen"
+          ],
+          "correct": 1,
+          "expl": "AB II = Zusammenhänge herstellen; AB I ist Reproduzieren, AB III ist Verallgemeinern und Reflektieren.",
+          "flagged": false
+        },
+        {
+          "id": "c18y34sv",
+          "session": "Seminar 1",
+          "q": "An welche fachdidaktische Grundlage lehnt sich die Begründung des Mathematik-Beitrags zur Bildung in beiden Schulstufen an?",
+          "options": [
+            "Van-Hiele-Stufen",
+            "Winter'sche Grunderfahrungen",
+            "de Villiers' Beweisfunktionen",
+            "Bloomsche Taxonomie"
+          ],
+          "correct": 1,
+          "expl": "Beide Fassungen argumentieren mit den Winter'schen Grunderfahrungen (Mathematik als Denk-/Kulturleistung und Werkzeug).",
+          "flagged": false
+        },
+        {
+          "id": "c1sc0sjt",
+          "session": "Seminar 1",
+          "q": "Worin liegt der Hauptunterschied der Bildungsstandards zwischen Primar- und Sekundarstufe I?",
+          "options": [
+            "In der grundsätzlichen Begründungsstruktur",
+            "Im Anspruchsniveau und Abstraktionsgrad der Beispiele",
+            "In der Anzahl der Leitideen",
+            "Es gibt keine Unterschiede"
+          ],
+          "correct": 1,
+          "expl": "Die Grundstruktur ist gleich; Unterschiede betreffen vor allem Anspruchsniveau und Formalisierungsgrad.",
+          "flagged": false
+        },
+        {
+          "id": "cl6v2mq",
+          "session": "Seminar 2",
+          "q": "Welchem Autor werden die allgemeinen Merkmale guten Unterrichts (z. B. klare Strukturierung) zugeordnet?",
+          "options": [
+            "Aebli",
+            "Meyer bzw. Helmke",
+            "de Villiers",
+            "Bruner"
+          ],
+          "correct": 1,
+          "expl": "Die fächerübergreifenden Merkmale stammen von Meyer bzw. Helmke.",
+          "flagged": false
+        },
+        {
+          "id": "c1o5rptn",
+          "session": "Seminar 2",
+          "q": "Was liefert das PIKAS-Plakat vor allem?",
+          "options": [
+            "Fächerübergreifende Merkmale",
+            "Mathematikdidaktische, fachspezifische Ausschärfungen",
+            "Eine Notenskala",
+            "Einen Stundenplan"
+          ],
+          "correct": 1,
+          "expl": "PIKAS konkretisiert guten Unterricht fachspezifisch (z. B. ergiebige Aufgaben, adäquate Medien).",
+          "flagged": false
+        },
+        {
+          "id": "c15cgr9n",
+          "session": "Seminar 2",
+          "q": "Aus welcher Quelle stammt das Kriterium 'ergiebige Aufgaben mit mathematischer Substanz'?",
+          "options": [
+            "Meyers allgemeinen Merkmalen",
+            "Dem PIKAS-Plakat",
+            "Dem Kerncurriculum Sport",
+            "Der Van-Hiele-Theorie"
+          ],
+          "correct": 1,
+          "expl": "Ergiebige Aufgaben sind ein fachspezifisches PIKAS-Kriterium.",
+          "flagged": false
+        },
+        {
+          "id": "c1xhxqx",
+          "session": "Seminar 2",
+          "q": "Worauf verweist Krauthausen (2018) im Zusammenhang mit dem Bild vom Mathematikunterricht?",
+          "options": [
+            "Auf Klischees über das Berufsbild der Grundschullehrkraft",
+            "Auf die Integralrechnung",
+            "Auf Beweisfunktionen",
+            "Auf die Zahlbereiche"
+          ],
+          "correct": 0,
+          "expl": "Krauthausen thematisiert Klischees über das Berufsbild, die die subjektive Wahrnehmung von MU prägen.",
+          "flagged": false
+        },
+        {
+          "id": "cg98b24",
+          "session": "Seminar 3",
+          "q": "Welchem Anforderungsbereich entspricht 'Vergleiche die Ergebnisse. Was fällt dir auf? Erkläre.'?",
+          "options": [
+            "AB I",
+            "AB II",
+            "AB III",
+            "Keinem"
+          ],
+          "correct": 1,
+          "expl": "Das Herstellen von Zusammenhängen und erste Erklärungen liegen in AB II.",
+          "flagged": false
+        },
+        {
+          "id": "c1975a6j",
+          "session": "Seminar 3",
+          "q": "Welche prozessbezogene Kompetenz fördert die Teilaufgabe 'Warum ist das so? Begründe.' besonders?",
+          "options": [
+            "Mathematisch modellieren",
+            "Mathematisch argumentieren",
+            "Mathematisch kommunizieren",
+            "Probleme lösen"
+          ],
+          "correct": 1,
+          "expl": "Das Begründen eines allgemeinen Zusammenhangs ist Kern des mathematischen Argumentierens.",
+          "flagged": false
+        },
+        {
+          "id": "ce6s5cj",
+          "session": "Seminar 3",
+          "q": "Wie kann die Lehrkraft leistungsschwächere Kinder bei der Musteranalyse unterstützen?",
+          "options": [
+            "Durch Wegnahme aller Hilfen",
+            "Durch Forschermittel wie Rechensteine oder das Hunderterfeld zum Legen der Muster",
+            "Durch sofortige Formelvorgabe",
+            "Durch mehr reine Textaufgaben"
+          ],
+          "correct": 1,
+          "expl": "Anschauungs-/Forschermittel ermöglichen einen handelnden Zugang (natürliche Differenzierung).",
+          "flagged": false
+        },
+        {
+          "id": "c10tqe0j",
+          "session": "Seminar 3",
+          "q": "Welche inhaltsbezogene Kompetenz wird beim Erkennen von Rechenmustern meist gefördert?",
+          "options": [
+            "Raum und Form",
+            "Zahl und Operation",
+            "Daten und Zufall",
+            "Größen und Messen"
+          ],
+          "correct": 1,
+          "expl": "Rechenmuster/Gesetzmäßigkeiten gehören zur Leitidee Zahl und Operation.",
+          "flagged": false
+        },
+        {
+          "id": "c7ws3ja",
+          "session": "Seminar 4",
+          "q": "Welches Prinzip meint die drei Repräsentationsebenen enaktiv – ikonisch – symbolisch?",
+          "options": [
+            "Spiralprinzip",
+            "EIS-Prinzip",
+            "Operatives Prinzip",
+            "Distributivprinzip"
+          ],
+          "correct": 1,
+          "expl": "E-I-S steht für enaktiv (handelnd), ikonisch (bildlich), symbolisch (Zeichen).",
+          "flagged": false
+        },
+        {
+          "id": "ccwkfgc",
+          "session": "Seminar 4",
+          "q": "Auf welchen Autor geht das Spiralprinzip zurück?",
+          "options": [
+            "Aebli",
+            "Bruner",
+            "Winter",
+            "Padberg"
+          ],
+          "correct": 1,
+          "expl": "Das Spiralprinzip wird Bruner zugeschrieben.",
+          "flagged": false
+        },
+        {
+          "id": "c132cquv",
+          "session": "Seminar 4",
+          "q": "Wie wird 'Flächeninhalt' in der Grundschule im Sinne des Spiralprinzips zuerst erarbeitet?",
+          "options": [
+            "Über die Integralrechnung",
+            "Enaktiv über das Auslegen mit Einheitsquadraten",
+            "Über Flächenformeln für Vielecke",
+            "Über Ober- und Untersummen"
+          ],
+          "correct": 1,
+          "expl": "Zuerst enaktives Auslegen; Formeln und später die Integralrechnung greifen dies auf höherem Niveau auf.",
+          "flagged": false
+        },
+        {
+          "id": "c17ojrom",
+          "session": "Seminar 5",
+          "q": "In welchem Werk finden sich die zwei Begründungen zur 9er-Teilbarkeitsregel?",
+          "options": [
+            "Bruner (1960)",
+            "Padberg & Büchter (2015), Arithmetik",
+            "Blum & Leiß (2005)",
+            "Hirt & Wälti (2008)"
+          ],
+          "correct": 1,
+          "expl": "Die Begründungen stammen aus 'Einführung Mathematik Primarstufe – Arithmetik' (Padberg & Büchter, 2015).",
+          "flagged": false
+        },
+        {
+          "id": "c128z3u8",
+          "session": "Seminar 5",
+          "q": "Welche zusätzliche Funktion nach de Villiers greift, weil die 9er-Regel mit dem Stellenwertsystem verknüpft wird?",
+          "options": [
+            "Entdeckungsfunktion",
+            "Systematisierungsfunktion",
+            "Überzeugungsfunktion allein",
+            "Keine"
+          ],
+          "correct": 1,
+          "expl": "Die Verknüpfung mit dem dezimalen Stellenwertsystem ist die Systematisierungsfunktion.",
+          "flagged": false
+        },
+        {
+          "id": "c1inlba9",
+          "session": "Seminar 5",
+          "q": "Warum tritt beim 9er-Beweis die Entdeckungsfunktion in den Hintergrund?",
+          "options": [
+            "Weil die Regel bereits bekannt ist und nachträglich begründet wird",
+            "Weil kein Material genutzt wird",
+            "Weil er formal-deduktiv ist",
+            "Weil er falsch ist"
+          ],
+          "correct": 0,
+          "expl": "Es wird eine schon bekannte Regel begründet, nicht neu entdeckt.",
+          "flagged": false
+        },
+        {
+          "id": "c15xnqsb",
+          "session": "Seminar 5",
+          "q": "Was erhält man, wenn man alle Plättchen einer Zahl ohne Beachtung des Stellenwerts in die Einerspalte verschiebt?",
+          "options": [
+            "Die Zahl selbst",
+            "Die Quersumme",
+            "Das Doppelte der Zahl",
+            "Eine Primzahl"
+          ],
+          "correct": 1,
+          "expl": "Man erhält die Quersumme; jede Verschiebung verkleinert die Zahl um ein Vielfaches von 9.",
+          "flagged": false
+        },
+        {
+          "id": "cwdwgsm",
+          "session": "Seminar 6",
+          "q": "Welcher Modellierungskreislauf gilt als didaktischer Standardkreislauf für den Unterricht?",
+          "options": [
+            "Direktes Mathematisieren",
+            "Zweischrittiges Mathematisieren",
+            "Dreischrittiges Mathematisieren",
+            "Keiner"
+          ],
+          "correct": 1,
+          "expl": "Der zweischrittige Kreislauf macht die Vereinfachungsschritte transparent und eignet sich gut für den Unterricht.",
+          "flagged": false
+        },
+        {
+          "id": "cj3fu1n",
+          "session": "Seminar 6",
+          "q": "Welches Kriterium erfüllt die Tanken-Aufgabe, weil Tankmenge und Verbrauch selbst angenommen werden müssen?",
+          "options": [
+            "Sie ist überbestimmt",
+            "Sie ist unterbestimmt",
+            "Sie ist geschlossen",
+            "Sie hat keinen Sachbezug"
+          ],
+          "correct": 1,
+          "expl": "Fehlende, selbst zu setzende Größen machen die Aufgabe unterbestimmt – ein Kriterium guter Modellierungsaufgaben.",
+          "flagged": false
+        },
+        {
+          "id": "c17meg2c",
+          "session": "Seminar 6",
+          "q": "Welche Teilkompetenz wird gefördert, wenn eine vorläufige Modellannahme kritisch geprüft und ggf. verworfen wird?",
+          "options": [
+            "Vereinfachen",
+            "Validieren",
+            "Mathematisieren",
+            "Rechnen"
+          ],
+          "correct": 1,
+          "expl": "Das kritische Prüfen und Verwerfen/Verfeinern eines Modells ist das Validieren.",
+          "flagged": false
+        },
+        {
+          "id": "c31x3o7",
+          "session": "Seminar 7",
+          "q": "Zu welcher Kategorie gehört das 'Vorwärts- und Rückwärtsarbeiten'?",
+          "options": [
+            "Heuristische Hilfsmittel",
+            "Heuristische Strategien",
+            "Heuristische Prinzipien",
+            "Routineverfahren"
+          ],
+          "correct": 1,
+          "expl": "Vorwärts-/Rückwärtsarbeiten und Probieren sind heuristische Strategien.",
+          "flagged": false
+        },
+        {
+          "id": "cl6xsq1",
+          "session": "Seminar 7",
+          "q": "Wovon hängt wesentlich ab, ob eine Aufgabe ein Problem oder eine Routineaufgabe ist?",
+          "options": [
+            "Nur von der Aufgabe selbst",
+            "Von der Kompetenz und Lerngeschichte der bearbeitenden Person",
+            "Von der Uhrzeit",
+            "Vom Schulbuchverlag"
+          ],
+          "correct": 1,
+          "expl": "Dieselbe Aufgabe kann je nach Vorwissen Routine oder Problem sein.",
+          "flagged": false
+        },
+        {
+          "id": "c19uwt09",
+          "session": "Seminar 7",
+          "q": "Wie viele Papierquadrate schließt die kompakte 3x3-Figur bei den Papierquadraten (12 Streichhölzer) ein?",
+          "options": [
+            "5",
+            "7",
+            "9",
+            "12"
+          ],
+          "correct": 2,
+          "expl": "Die 3x3-Figur schließt 9 Papierquadrate ein - die maximale Anzahl bei festem Umfang von 12 (Extremalprinzip).",
+          "flagged": false
+        },
+        {
+          "id": "cn3i1t",
+          "session": "Seminar 7",
+          "q": "Wie ist das systematische Ausprobieren einzuordnen?",
+          "options": [
+            "Als heuristische Strategie",
+            "Als heuristisches Prinzip",
+            "Als heuristisches Hilfsmittel",
+            "Als gar kein Heurismus"
+          ],
+          "correct": 0,
+          "expl": "Probieren zählt zu den heuristischen Strategien.",
+          "flagged": false
+        },
+        {
+          "id": "cvbh8f6",
+          "session": "Seminar 8",
+          "q": "Welche Eigenschaften hat eine Achsenspiegelung?",
+          "options": [
+            "Längen-, winkel- und flächentreu, aber orientierungsumkehrend",
+            "Orientierungserhaltend",
+            "Weder längen- noch winkeltreu",
+            "Nur flächentreu"
+          ],
+          "correct": 0,
+          "expl": "Sie ist eine Kongruenzabbildung: längen-, winkel- und flächentreu, jedoch orientierungsumkehrend.",
+          "flagged": false
+        },
+        {
+          "id": "c1qc1qws",
+          "session": "Seminar 8",
+          "q": "Was macht der dynamische Zugmodus in GeoGebra besonders wertvoll?",
+          "options": [
+            "Er berechnet Noten",
+            "Er zeigt, welche Eigenschaften bei Veränderung invariant bleiben",
+            "Er ersetzt jeden Beweis",
+            "Er verhindert Fehler automatisch"
+          ],
+          "correct": 1,
+          "expl": "Durch Ziehen werden Invarianzen sichtbar – das fördert Raumvorstellung und anschauliches Argumentieren.",
+          "flagged": false
+        },
+        {
+          "id": "coua6mg",
+          "session": "Seminar 8",
+          "q": "Zu welcher Art Abbildung zählt die Achsenspiegelung fachmathematisch?",
+          "options": [
+            "Ähnlichkeitsabbildung",
+            "Kongruenzabbildung",
+            "Zentrische Streckung",
+            "Projektion"
+          ],
+          "correct": 1,
+          "expl": "Sie erhält Längen und Winkel und ist damit eine Kongruenzabbildung.",
+          "flagged": false
+        },
+        {
+          "id": "cuwfdmf",
+          "session": "Seminar 8",
+          "q": "Auf welche Theorie bezieht sich der Übergang von anschaulichem zu formalerem geometrischem Arbeiten?",
+          "options": [
+            "Van-Hiele-Stufen",
+            "de Villiers' Funktionen",
+            "Winters Grunderfahrungen",
+            "Bloomsche Taxonomie"
+          ],
+          "correct": 0,
+          "expl": "Der Übergang (z. B. Stufe 2 zu 3/4) wird über die Van-Hiele-Stufen beschrieben.",
+          "flagged": false
+        },
+        {
+          "id": "csgaz55",
+          "session": "Seminar 9",
+          "q": "Als was ist die klassische (Laplace-)Wahrscheinlichkeit didaktisch einzuordnen?",
+          "options": [
+            "Als empirische Messung",
+            "Als idealisiertes Modell mit Gleichwahrscheinlichkeits-Annahme",
+            "Als frequentistischer Begriff",
+            "Als grundsätzlich falscher Ansatz"
+          ],
+          "correct": 1,
+          "expl": "Sie ist ein idealisiertes Modell, das Gleichwahrscheinlichkeit annimmt.",
+          "flagged": false
+        },
+        {
+          "id": "cit2n7a",
+          "session": "Seminar 9",
+          "q": "Wie verhalten sich klassischer und frequentistischer Wahrscheinlichkeitsbegriff zueinander?",
+          "options": [
+            "Als konkurrierende Wahrheiten",
+            "Als unterschiedliche, aber verträgliche Modellvorstellungen",
+            "Sie schließen sich aus",
+            "Sie sind identisch"
+          ],
+          "correct": 1,
+          "expl": "Beide sind verträgliche Modellvorstellungen, keine konkurrierenden Wahrheiten.",
+          "flagged": false
+        },
+        {
+          "id": "cv0r4dz",
+          "session": "Seminar 9",
+          "q": "Auf welche Autoren geht die verbindende Einstiegsaufgabe (klassisch/frequentistisch) zurück?",
+          "options": [
+            "Blum & Leiß",
+            "Eichler & Vogel (2013)",
+            "Hirt & Wälti",
+            "Padberg"
+          ],
+          "correct": 1,
+          "expl": "Die Aufgabe wird nach Eichler & Vogel (2013) angeführt.",
+          "flagged": false
+        },
+        {
+          "id": "c1k3irw0",
+          "session": "Seminar 9",
+          "q": "Wie wird der Wahrscheinlichkeitsbegriff in der Realschule gegenüber der Primarstufe behandelt?",
+          "options": [
+            "Gar nicht",
+            "Systematisch und formal (klassisch, frequentistisch, axiomatisch)",
+            "Nur rein experimentell",
+            "Nur mit Baumdiagrammen"
+          ],
+          "correct": 1,
+          "expl": "In der Sek I wird Wahrscheinlichkeit systematisch eingeführt und formal berechnet.",
+          "flagged": false
+        },
+        {
+          "id": "c11h5550",
+          "session": "Seminar 10",
+          "q": "Welche Rechengesetze gelten sowohl für natürliche Zahlen als auch für Bruchzahlen?",
+          "options": [
+            "Keine gemeinsamen",
+            "Kommutativ-, Assoziativ- und Distributivgesetz",
+            "Nur das Kommutativgesetz",
+            "Nur bei ganzen Zahlen"
+          ],
+          "correct": 1,
+          "expl": "Kommutativ-, Assoziativ- und Distributivgesetz gelten in beiden Zahlbereichen.",
+          "flagged": false
+        },
+        {
+          "id": "c1e7mwfr",
+          "session": "Seminar 10",
+          "q": "Welche von natürlichen Zahlen geprägte Erwartung wird bei der Bruchmultiplikation verletzt?",
+          "options": [
+            "'Multiplizieren macht größer'",
+            "'Addieren macht größer'",
+            "'Teilen macht kleiner'",
+            "Keine"
+          ],
+          "correct": 0,
+          "expl": "Z. B. 1/2 · 1/3 = 1/6 – das Produkt ist kleiner als beide Faktoren; eine typische Lernhürde.",
+          "flagged": false
+        },
+        {
+          "id": "cijtv5x",
+          "session": "Seminar 10",
+          "q": "Was gilt für die Anordnung der natürlichen Zahlen (Diskretheit)?",
+          "options": [
+            "Zwischen 3 und 4 liegen unendlich viele natürliche Zahlen",
+            "Zwischen 3 und 4 liegt keine weitere natürliche Zahl",
+            "Jede natürliche Zahl hat mehrere Nachfolger",
+            "Sie sind dicht angeordnet"
+          ],
+          "correct": 1,
+          "expl": "Natürliche Zahlen sind diskret: jede hat genau einen Nachfolger, dazwischen liegt keine weitere.",
+          "flagged": false
+        },
+        {
+          "id": "c1fjn9ms",
+          "session": "Seminar 10",
+          "q": "Bezüglich Addition und Multiplikation sind ℕ und die Bruchzahlen ...",
+          "options": [
+            "Nicht definiert",
+            "Abgeschlossen",
+            "Offen",
+            "Unvollständig"
+          ],
+          "correct": 1,
+          "expl": "Summe und Produkt bleiben jeweils im selben Zahlbereich – beide sind abgeschlossen.",
+          "flagged": false
+        },
+        {
+          "id": "cddyfdy",
+          "session": "Seminar 11",
+          "q": "Was besagt Regel (4) der rekursiven Termdefinition?",
+          "options": [
+            "Nur Zahlen sind Terme",
+            "Aus Termen und einem n-stelligen Funktionssymbol entsteht wieder ein Term",
+            "Terme dürfen keine Klammern haben",
+            "Variablen sind keine Terme"
+          ],
+          "correct": 1,
+          "expl": "f(t1,...,tn) ist ein Term, wenn t1..tn Terme und f ein n-stelliges Funktionssymbol ist.",
+          "flagged": false
+        },
+        {
+          "id": "cfvu3zb",
+          "session": "Seminar 11",
+          "q": "Wozu liefert die rekursive Struktur eines Terms die formale Grundlage?",
+          "options": [
+            "Zur Notengebung",
+            "Dazu, jeden Term algorithmisch auf Struktur und Gültigkeit zu prüfen",
+            "Zum Auswendiglernen",
+            "Zum Zeichnen"
+          ],
+          "correct": 1,
+          "expl": "Aus einfachen Bausteinen aufgebaute Terme lassen sich systematisch/algorithmisch prüfen.",
+          "flagged": false
+        },
+        {
+          "id": "cn1sh2x",
+          "session": "Seminar 11",
+          "q": "Wie lösen Zweitklässler Term-Aufgaben typischerweise?",
+          "options": [
+            "Mit allgemeinen Variablen-Termen",
+            "Durch konkretes Rechnen mit Einzelbeispielen bzw. Fortsetzen eines Musters",
+            "Durch Integralrechnung",
+            "Gar nicht"
+          ],
+          "correct": 1,
+          "expl": "In Klasse 2 dominiert konkretes Rechnen/Mustererkennen; der allgemeine Term folgt in Klasse 7/8.",
+          "flagged": false
+        },
+        {
+          "id": "ch98ny2",
+          "session": "Seminar 11",
+          "q": "Wie unterscheidet Sitzung 10 zwei Arten der Musterstrukturierung?",
+          "options": [
+            "Additiv vs. multiplikativ",
+            "Statisch-explizit vs. dynamisch-rekursiv",
+            "Enaktiv vs. symbolisch",
+            "Klassisch vs. frequentistisch"
+          ],
+          "correct": 1,
+          "expl": "Muster können statisch-explizit (Position → Wert) oder dynamisch-rekursiv (Fortsetzen) beschrieben werden.",
+          "flagged": false
+        },
+        {
+          "id": "cebrsik",
+          "session": "Seminar 12",
+          "q": "Auf welche Autoren geht die Lernumgebung 'Triff die 50' zurück?",
+          "options": [
+            "Blum & Leiß",
+            "Hirt & Wälti (2008)",
+            "Eichler & Vogel",
+            "de Villiers"
+          ],
+          "correct": 1,
+          "expl": "'Triff die 50' wird nach Hirt & Wälti (2008) angeführt.",
+          "flagged": false
+        },
+        {
+          "id": "c1kjs7c8",
+          "session": "Seminar 12",
+          "q": "Wie bezeichnet das Kerncurriculum der Realschule die innere Differenzierung?",
+          "options": [
+            "Als Ausnahmefall",
+            "Als Grundprinzip jeden Unterrichts",
+            "Als optionale Zusatzmaßnahme",
+            "Als reine Förderschulmaßnahme"
+          ],
+          "correct": 1,
+          "expl": "Innere Differenzierung gilt laut KC als Grundprinzip jeden Unterrichts.",
+          "flagged": false
+        },
+        {
+          "id": "c9zmac4",
+          "session": "Seminar 12",
+          "q": "Welche der folgenden ist eine Heterogenitätsdimension bei offenen Lernumgebungen?",
+          "options": [
+            "Schuhgröße",
+            "Lerntempo",
+            "Haarfarbe",
+            "Wohnort"
+          ],
+          "correct": 1,
+          "expl": "Relevante Dimensionen sind u. a. Leistungsfähigkeit, Lerntempo, Interesse/Motivation und Sprachkompetenz.",
+          "flagged": false
+        },
+        {
+          "id": "c6t8imp",
+          "session": "Seminar 12",
+          "q": "Warum ist 'Triff die 50' auch mit geringem sprachlichem Anspruch bearbeitbar?",
+          "options": [
+            "Weil sie nur aus Text besteht",
+            "Weil sie im Kern eine Rechen- bzw. Legetätigkeit ist",
+            "Weil sie keine Mathematik enthält",
+            "Weil sie vorgelesen wird"
+          ],
+          "correct": 1,
+          "expl": "Der Kern ist eine Rechen-/Handlungstätigkeit, daher sprachlich niedrigschwellig.",
+          "flagged": false
+        },
+        {
+          "id": "c34hypb",
+          "session": "Seminar 13",
+          "q": "Wie lässt sich 1/4 + 1/8 = 3/8 zeichnerisch begründen?",
+          "options": [
+            "Indem ein Ganzes in 8 Teile geteilt wird, wobei 1/4 zu 2/8 wird",
+            "Indem man die Nenner multipliziert",
+            "Gar nicht",
+            "Indem man das Ergebnis kürzt"
+          ],
+          "correct": 0,
+          "expl": "1/4 entspricht 2/8, also 2/8 + 1/8 = 3/8 – anschaulich am in 8 Teile geteilten Ganzen.",
+          "flagged": false
+        },
+        {
+          "id": "c1xprt7d",
+          "session": "Seminar 13",
+          "q": "Welche Voraussetzung ist für die Addition von 1/4 und 1/8 zentral?",
+          "options": [
+            "Das Erweitern des Zählers",
+            "Das Gleichnamigmachen (gemeinsamer Nenner)",
+            "Das Kürzen des Ergebnisses",
+            "Die Multiplikation der Brüche"
+          ],
+          "correct": 1,
+          "expl": "Brüche müssen vor der Addition gleichnamig gemacht werden.",
+          "flagged": false
+        },
+        {
+          "id": "cpz7rvj",
+          "session": "Seminar 13",
+          "q": "Welchen ungefähren Flächeninhalt hat ein Kreis mit Durchmesser 4 cm?",
+          "options": [
+            "Ca. 4 cm²",
+            "Ca. 12,57 cm²",
+            "Ca. 25 cm²",
+            "Ca. 50 cm²"
+          ],
+          "correct": 1,
+          "expl": "A = π·r² = π·2² ≈ 12,57 cm².",
+          "flagged": false
+        },
+        {
+          "id": "cy4tqyi",
+          "session": "Seminar 13",
+          "q": "Wie würde ein leistungsstärkeres Kind den Kreisflächeninhalt in Klasse 4 abschätzen?",
+          "options": [
+            "Mit der Formel A=π·r²",
+            "Durch Ein- und Umschreiben von Quadraten und Mitteln der Werte",
+            "Durch reines Raten",
+            "Durch Wiegen des Papiers"
+          ],
+          "correct": 1,
+          "expl": "Ein- und umschriebene Quadrate liefern untere/obere Grenzen; deren Mittel kommt nahe an ~12,57 cm².",
+          "flagged": false
+        },
+        {
+          "id": "cqpcomv",
+          "session": "Seminar 7",
+          "q": "Welches heuristische Vorgehen eignet sich für die „Apfelernte“ (7 Tore, je Hälfte + 1 abgeben, am Ende bleibt 1 Apfel)?",
+          "options": [
+            "Vorwärtsarbeiten",
+            "Rückwärtsarbeiten",
+            "Symmetrieprinzip",
+            "Zerlegen und Ergänzen"
+          ],
+          "correct": 1,
+          "expl": "Vom bekannten Endzustand (1 Apfel) rekonstruiert man rückwärts den Anfangswert (382 Äpfel) – klassisches Rückwärtsarbeiten.",
+          "flagged": false
+        },
+        {
+          "id": "c1m418y6",
+          "session": "Seminar 7",
+          "q": "Welche heuristischen Strategien nennt das Kerncurriculum Realschule zusätzlich zur Grundschule (bis Klasse 10)?",
+          "options": [
+            "Nur systematisches Probieren",
+            "Parametervariation, Fallunterscheidung und Invarianzprinzip",
+            "Nur Skizzen und Tabellen",
+            "Nur Rückwärtsarbeiten"
+          ],
+          "correct": 1,
+          "expl": "Die Realschule ergänzt bis Klasse 10 komplexere Strategien wie Parametervariation, Fallunterscheidung und das Invarianzprinzip, die in der Grundschule noch nicht vorkommen.",
+          "flagged": false
+        },
+        {
+          "id": "c1pnzxro",
+          "session": "Seminar 11",
+          "q": "Was empfiehlt sich gegen die reine 'Aufgabe-Ergebnis-Deutung' des Gleichheitszeichens (Winter, 1982)?",
+          "options": [
+            "Nur noch Aufgaben der Form a+b=___ stellen",
+            "Lückenaufgaben mit der Unbekannten an verschiedenen Positionen und Waage-Modelle nutzen",
+            "Das Gleichheitszeichen erst in der Sekundarstufe einführen",
+            "Nur mündliches Rechnen ohne Gleichheitszeichen"
+          ],
+          "correct": 1,
+          "expl": "Ein relationales Verständnis wird u.a. durch Lückenaufgaben an unterschiedlichen Positionen und Waage-Modelle gefördert, die die Gleichheit zweier Seiten in den Mittelpunkt stellen.",
+          "flagged": false
+        }
+      ],
+      "exam": [],
+      "examDurationMin": 90
     }
   ]
 }

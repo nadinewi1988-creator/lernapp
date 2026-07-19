@@ -1,0 +1,1355 @@
+{
+  "id": "globalisierung",
+  "name": "Globalisierung",
+  "tracks": [
+    {
+      "id": "vorlesung",
+      "label": "Vorlesung",
+      "sessions": [
+        "Vorlesung 1",
+        "Vorlesung 2",
+        "Vorlesung 3",
+        "Vorlesung 4",
+        "Theorie-Grundlagen",
+        "Global Governance",
+        "Mercosur",
+        "Irak-Krieg",
+        "Klimapolitik"
+      ],
+      "flashcards": [
+        {
+          "id": "cehs26z",
+          "session": "Vorlesung 1",
+          "q": "Was versteht Gramsci unter „Hegemonie“?",
+          "a": "Antonio Gramsci (1891–1937): Herrschaft, die nicht nur auf Zwang (Polizei, Gerichte, Behörden) beruht, sondern maßgeblich auf Konsens, erzeugt über kulturelle Apparate (Medien, Schulen, Universitäten). Partikulare Interessen erscheinen als allgemeine, alternativlose Ordnung.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cow1fbq",
+          "session": "Vorlesung 1",
+          "q": "Was versteht Gramsci unter „Interregnum“?",
+          "a": "Krisenhafte Übergangsphase: „Das Alte stirbt, das Neue kann nicht zur Welt kommen“ — es treten „die unterschiedlichsten Krankheitserscheinungen“ auf (Instabilität, Autoritarismus, Orientierungslosigkeit).",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1ucfaxr",
+          "session": "Vorlesung 1",
+          "q": "Was ist ein „master narrative“?",
+          "a": "Eine Meistererzählung: stiftet Sinn, orientiert Handeln, rechtfertigt Entscheidungen, bezieht sich auf signifikante historische Prozesse, überbrückt Erfahrungsraum und Erwartungshorizont. Hegemonial, mit Dramaturgie (good guys/bad guys). Seit den 1970ern in Geschichtswissenschaft & postmoderner Philosophie (Kritik der „großen Erzählungen“).",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cne7t8j",
+          "session": "Vorlesung 1",
+          "q": "Was beschreibt Koselleck mit „Erfahrungsraum und Erwartungshorizont“?",
+          "a": "Erfahrungsraum = gegenwärtige Vergangenheit; Erwartungshorizont = gegenwärtige Zukunft. In der Moderne driften beide zunehmend auseinander — master narratives überbrücken diese Kluft.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cm7pn5c",
+          "session": "Vorlesung 1",
+          "q": "Ist die Idee der Globalisierung noch hegemonial? Nehmen Sie begründet Stellung!",
+          "a": "These: Nicht mehr im ursprünglichen Sinn — statt Dramaturgie und Fortschrittsversprechen dominieren Zweifel/„Deglobalisierung“. Aber: kein alternatives master narrative ist bislang etabliert → offene Übergangsphase.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1i0eqvl",
+          "session": "Vorlesung 2",
+          "q": "Nennen Sie drei Strukturprinzipien der Modernisierung.",
+          "a": "1) Funktionale Differenzierung, 2) das autonome Subjekt (gleiche Freiheit aller Individuen), 3) dynamischer Wandel (radikale Innerweltlichkeit statt Statik).",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1hpfhux",
+          "session": "Vorlesung 2",
+          "q": "Was ist funktionale Differenzierung?",
+          "a": "Unterscheidung gesellschaftlicher Bereiche (Politik, Wissenschaft, Wirtschaft) nach Leitwerten (Macht, Wahrheit, Profit) mit eigener „Eigenlogik“. Steigert Komplexität/Leistung; Primat des Politischen bleibt bestehen.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cnq8zat",
+          "session": "Vorlesung 2",
+          "q": "Was versteht Constant unter der „Freiheit der Modernen“?",
+          "a": "Entfaltung der Persönlichkeit, private Unabhängigkeit, individuelles Glücksstreben — im Gegensatz zur antiken Freiheit (Aufopferung für die Gemeinschaft). Politisch: Repräsentativsystem, Abwehrrechte; ökonomisch: Freihandel/Markt. Gefahr: „moderner Despotismus“.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1dego9z",
+          "session": "Vorlesung 2",
+          "q": "Was sind die Merkmale des „Wegs in die Moderne“?",
+          "a": "Säkularisierung (statt Sakralisierung), Rationalisierung (Lebensführung, Verwaltung, Betrieb), Emanzipation &amp; Partizipation (statt Tradition/Autorität). Ursprünglich europäisch → Eurozentrismus der Moderne.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c363bcw",
+          "session": "Vorlesung 2",
+          "q": "Leben wir in einer Weltgesellschaft? Nehmen Sie begründet Stellung!",
+          "a": "These: Nein, jedenfalls keine vollständige — treffender „gesellschaftliche Denationalisierung“. Kommunikation ist zwar prinzipiell grenzenlos, aber Handel/Kommunikation bleiben stark auf Blöcke (EU/EFTA, NAFTA, ASEAN+3) konzentriert.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c4f6bkp",
+          "session": "Vorlesung 3",
+          "q": "Welche vier Ansätze der IB werden unterschieden?",
+          "a": "Realismus, Liberalismus, Marxismus, Konstruktivismus.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cptrcvd",
+          "session": "Vorlesung 3",
+          "q": "Grundannahmen des Realismus?",
+          "a": "Staaten als einheitliche Akteure in anarchischem System (keine Sanktionsinstanz) → Selbsthilfe, Sicherheitsdilemma, Macht als zentrale Kategorie. Balancing/Bandwagoning gegenüber Hegemon; Kooperation schwierig wegen relative gains/cheating (Waltz 1979).",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cw8ezmy",
+          "session": "Vorlesung 3",
+          "q": "Grundannahmen des Liberalismus?",
+          "a": "Staat kein einheitlicher Akteur, sondern Ergebnis gesellschaftlicher Präferenzen (Vorrang der Gesellschaft, „bottom-up“, Moravcsik 1997). Kooperation auch ohne Hegemon möglich (win-win, tit-for-tat). Demokratie &amp; Freihandel fördern Frieden/Wohlstand.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1u2o55p",
+          "session": "Vorlesung 3",
+          "q": "Grundannahmen des Marxismus?",
+          "a": "Entscheidend sind Klassenverhältnisse &amp; kapitalistische Ausbeutung, nicht der Staat allein; primäre Akteure sind (nationale) Klassen. Imperialismus als „höchstes Stadium des Kapitalismus“ (Lenin); strukturelle Gewalt/Neo-Imperialismus (Galtung); Zentrum-Peripherie-Abhängigkeit.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cqqnmr5",
+          "session": "Vorlesung 3",
+          "q": "Grundannahmen des Konstruktivismus?",
+          "a": "Internationale Realität ist sozial konstruiert; Ideen, Normen, Identität zentral. Nationale Identität entsteht in Interaktion, nicht exogen gegeben. Wendt: „Anarchy is what states make of it“. Normen wirken konstitutiv; „logic of appropriateness“ statt nur „logic of consequences“.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c8n9d75",
+          "session": "Vorlesung 3",
+          "q": "Wie deutet der Realismus die Globalisierung?",
+          "a": "Ergebnis der US-Hegemonie nach 1945, verstärkt seit dem „unipolar moment“ (Krauthammer). Aktuelle Deglobalisierung: Aufstieg Chinas &amp; Multipolarität.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1lrmxvi",
+          "session": "Vorlesung 3",
+          "q": "Wie deutet der Liberalismus die Globalisierung?",
+          "a": "Kollektiver Lernprozess nach 1945 aus der Erfahrung der Zwischenkriegskrise (Protektionismus, Weltwirtschaftskrise). Institutionalisierte Zusammenarbeit (Bretton Woods, GATT, WTO) gilt als wirtschaftlich vorteilhaft &amp; friedensstiftend. Aktuelle Krise erscheint „rätselhaft“, da sie dem unterstellten Lernfortschritt widerspricht; erklärbar über ungleich verteilte Globalisierungsgewinne.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cv49esl",
+          "session": "Vorlesung 3",
+          "q": "Wie deutet der Marxismus die Globalisierung?",
+          "a": "Klassenpolitisches Regulationsprojekt (Regulationstheorie). Krise des Fordismus in den 1970ern (Ölpreisschocks, sinkende Profitraten) führte zur neoliberalen Wende und einem neuen, post-fordistischen Regime (IWF, Weltbank, WTO, Washington Consensus). Aktuelle Krise = Erschöpfung dieses Regimes, nicht Ende des Kapitalismus; Entstehung eines neuen Regimes.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cgwn7w7",
+          "session": "Vorlesung 3",
+          "q": "Wie deutet der Konstruktivismus die Globalisierung?",
+          "a": "Ergebnis eines Diskurses (TINA-Logik: „there is no alternative“), der globalistische Normen (offene Märkte, Wettbewerbsfähigkeit) etabliert hat. Aktuelle Krise = Ergebnis eines globalisierungskritischen Gegendiskurses seit 2008 (Populismus, „America First“), der diese Normen delegitimiert. Da Interessen diskursiv konstituiert werden, ist eine Neuausrichtung der Globalisierung denkbar.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1y85e2c",
+          "session": "Vorlesung 4",
+          "q": "Was ist der zentrale Fokus des Postkolonialismus?",
+          "a": "Kein systematischer Ansatz, sondern eine Perspektive: Nachleben des Kolonialismus in der internationalen Politik &amp; Kritik an „westlichem Wissen“ als vermeintlich neutralem Maßstab.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1e3zjcr",
+          "session": "Vorlesung 4",
+          "q": "Erläutern Sie die Konzepte Orientalismus, Othering und die These „Macht = Wissen“ im Postkolonialismus!",
+          "a": "Orientalismus (Said): diskursive Konstruktion „des Orients“ als exotisches Gegenbild zum Westen, legitimiert westliche Herrschaft. Othering: allgemeiner der Prozess, das Nicht-Westliche als „das Andere“ zu konstruieren und westliche Normen so zum universellen Maßstab zu erheben. Macht = Wissen: Wissen ist nie neutral, sondern konstruiert &amp; hierarchisiert Identität; es ist mit Machtbeziehungen verwoben, die es zugleich konstituiert und verändert.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cbncvsu",
+          "session": "Theorie-Grundlagen",
+          "q": "Was sind die wesentlichen Eigenschaften der IB nach Auffassung des Realismus?",
+          "a": "Tradition: Machiavelli, Hobbes. Ziel: Durchsetzung nationaler Interessen. Anarchie, Selbsthilfesystem, Macht als zentrale Kategorie, Staaten als einheitliche Akteure. Sicherheitsdilemma (dynamisch). Balancing/Bandwagoning gegenüber Hegemon (dynamisch). Innenpolitik irrelevant — anarchische Struktur zwingt alle Staaten gleich (Black Box).",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1oki6mn",
+          "session": "Theorie-Grundlagen",
+          "q": "Was sind die wesentlichen Eigenschaften der IB nach Auffassung des Liberalismus?",
+          "a": "Staat kein einheitlicher Akteur, Ergebnis innenpolitischer Prozesse. Kooperation durch Interdependenzen, abgesichert durch Institutionen (UNO). Kant: innenpolitisch friedliche Staaten sind auch außenpolitisch friedlich. Innenpolitische Akteure bestimmen Konfliktregelung. Republikanischer Liberalismus: Demokratie gezielt verbreiten.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cl90q0w",
+          "session": "Theorie-Grundlagen",
+          "q": "Was sind die wesentlichen Eigenschaften der IB nach Auffassung des Konstruktivismus?",
+          "a": "Metatheorie statt inhaltlicher Ansatz. Ideen, Normen, Identität zentral. IB werden konstruiert. Staaten schaffen Rollen statt objektiver Interessen. Wendt: „Anarchy is what states make of it“. Wissen und Lernen prägen angemessenes Verhalten.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cv22q7l",
+          "session": "Theorie-Grundlagen",
+          "q": "Vergleichen Sie Realismus und Liberalismus hinsichtlich ihrer Grundannahmen!",
+          "a": "Akteursebene: Realismus = einheitlicher Staat; Liberalismus = Staat als Ergebnis innenpolitischer Präferenzbildung. Ordnungsprinzip: Realismus = Anarchie zwingt zu Selbsthilfe; Liberalismus = Interdependenzen führen zu institutionell abgesicherter Kooperation. Innenpolitik: für Realismus irrelevant, für Liberalismus entscheidend.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1jnpd0k",
+          "session": "Theorie-Grundlagen",
+          "q": "Vergleichen Sie Realismus und Konstruktivismus hinsichtlich ihrer Grundannahmen!",
+          "a": "Ontologie: Realismus = Macht/Interessen materiell &amp; stabil gegeben; Konstruktivismus = Interessen &amp; selbst Anarchie erst durch geteilte Ideen/Identität konstituiert. Kooperation: Realismus nur im Schatten eines Hegemons oder aus Bedrohung; Konstruktivismus über gemeinsame Identität/Rollenverständnisse.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cm42et9",
+          "session": "Theorie-Grundlagen",
+          "q": "Vergleichen Sie Liberalismus und Konstruktivismus hinsichtlich ihrer Grundannahmen!",
+          "a": "Herkunft der Interessen: Liberalismus = innergesellschaftliche, oft wirtschaftliche Präferenzen konkreter Akteure; Konstruktivismus = geteilte Ideen &amp; gemeinsame Identität, unabhängig von materiellen Vorteilen. Beide relativieren die realistische Staatsfixierung, aber auf unterschiedliche Weise.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1c22pn",
+          "session": "Global Governance",
+          "q": "Was unterscheidet Governance von Government?",
+          "a": "Government meint einen konkreten Akteur, der regiert; Governance beschreibt die Tätigkeit des Regierens unabhängig vom Akteur — kann auch ohne zentrale Zwangsgewalt erfolgen (jenseits des Nationalstaates).",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1w73pr8",
+          "session": "Global Governance",
+          "q": "Nennen Sie Bedingungen, unter denen Global Governance möglich ist.",
+          "a": "1) Nachfrage durch gesellschaftliche Denationalisierung, 2) politische Verarbeitung dieser Nachfrage (kein Automatismus), 3) Anerkennung normativer Verbindlichkeit, 4) institutionelle/prozedurale Absicherung, 5) Begrenzung struktureller Defizite.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c8nqeig",
+          "session": "Mercosur",
+          "q": "Was ist der Mercosur?",
+          "a": "1991 mit dem Vertrag von Asunción gegründetes Freihandelsabkommen südamerikanischer Staaten (Argentinien, Brasilien, Paraguay, Uruguay); Ziel: Freihandelszone, Zollunion, langfristig gemeinsamer Markt.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "clrqcgj",
+          "session": "Mercosur",
+          "q": "Wie würde der Realismus die Entstehung des Mercosur erklären?",
+          "a": "Erklärungsversuch: Gegenmachtbildung gegen Hegemon USA (Balance-of-Power). Scheitert empirisch: Argentinien suchte seit den 1980ern aktiv die Nähe zu den USA statt Opposition; ökonomischer Neorealismus (Gilpin) liefert nur eine Ex-post-Erklärung.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1gnyume",
+          "session": "Mercosur",
+          "q": "Wie würde der Liberalismus die Entstehung des Mercosur erklären?",
+          "a": "Kleine, organisierte Wirtschaftsakteure sollen treiben (Zwei-Ebenen-Theorie). Exportquote Brasiliens stieg 1990–94 von 1/3 auf 2/3 — stützt liberale Erwartung; Gründung war aber faktisch bürokratisch, nicht gesellschaftlich getragen.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c18p3mmz",
+          "session": "Mercosur",
+          "q": "Wie würde der Konstruktivismus die Entstehung des Mercosur erklären?",
+          "a": "Identitätswandel durch Demokratisierung Argentiniens/Brasiliens in den 1980ern; Caputo-Zitat (1986) zeigt geteilte Weltsicht vor den Verhandlungen. Kultureller „Rucksack“ erklärt unterschiedliche Kooperationsgrenzen (Uruguay vs. Argentinien 2002).",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1i7vcci",
+          "session": "Irak-Krieg",
+          "q": "Wie würde der Realismus die unterschiedliche Haltung Deutschlands und der USA/Großbritanniens zum Irak-Krieg (2003) erklären?",
+          "a": "Nicht primär Balancing gegen den Hegemon USA (passt nicht zur deutschen UN-Orientierung), sondern Kosten-Nutzen-Kalkül (defensiver Realismus) und Instrumentalisierung der UN zur Legitimation des Bruchs mit den USA.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c9vybbf",
+          "session": "Irak-Krieg",
+          "q": "Wie würde der Liberalismus die unterschiedliche Haltung Deutschlands und der USA/Großbritanniens zum Irak-Krieg (2003) erklären?",
+          "a": "Vetospieler-Theorie (Tsebelis): mehr Vetospieler (Bundestag) → geringere Kriegsbereitschaft. Downs’ Wählerkalkül: Schröders Ablehnung als Reaktion auf klare Mehrheitsmeinung (79 % gegen Intervention) im Bundestagswahlkampf 2002.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cblqtfi",
+          "session": "Irak-Krieg",
+          "q": "Wie würde der Konstruktivismus die unterschiedliche Haltung Deutschlands und der USA/Großbritanniens zum Irak-Krieg (2003) erklären?",
+          "a": "Unterschiedliche historisch gewachsene Werte: deutscher Multilateralismus/Antimilitarismus vs. amerikanischer Exzeptionalismus. Kagan: USA in „Hobbesscher“, Europa in „Kantianischer“ Welt. Deutung der Kriegshandlung als legitim (GB) bzw. illegitim (D).",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1so92qp",
+          "session": "Klimapolitik",
+          "q": "Wie würde der Realismus das unterschiedliche Verhalten Deutschlands und der USA in der Klimapolitik erklären?",
+          "a": "Ökonomischer Neorealismus: Deutschland als „pusher state“ stärkt Machtposition durch Umwelttechnologie-Export; USA nutzen hegemoniale Stellung, um laxere Ziele durchzusetzen — blendet aber den entscheidenden Kongress-Widerstand aus.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c66zqk0",
+          "session": "Klimapolitik",
+          "q": "Wie würde der Liberalismus das unterschiedliche Verhalten Deutschlands und der USA in der Klimapolitik erklären?",
+          "a": "Putnams Two-Level-Games: Win-Set = auf nationaler Ebene ratifizierbare Verhandlungsergebnisse. Deutschland hatte ein großes (theoretisch schwächendes) Win-Set, trat aber unnachgiebig auf; die USA hatten ein kleines (theoretisch stärkendes) Win-Set, machten aber dennoch Zugeständnisse — ein Widerspruch zur theoretischen Erwartung.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1jpvugv",
+          "session": "Klimapolitik",
+          "q": "Was ist ein „Win-Set“ (Putnam, Two-Level-Games)?",
+          "a": "Die Menge der auf nationaler Ebene (Level II, z. B. Parlament) ratifizierbaren Verhandlungsergebnisse. Ein kleines Win-Set kann Verhandlungsmacht erhöhen, da glaubhaft auf innenpolitische Zwänge verwiesen werden kann.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cso1fz9",
+          "session": "Klimapolitik",
+          "q": "Wie würde der Konstruktivismus das unterschiedliche Verhalten Deutschlands und der USA in der Klimapolitik erklären?",
+          "a": "Wissen über den Klimawandel ist sozial konstruiert. Deutschlands Klima-Enquete-Kommission fungierte als glaubwürdiger „honest broker“; in den USA fehlte ein vergleichbarer Akteur — daher unterschiedliche gesellschaftliche Deutung desselben Problems.",
+          "herkunft": "direkt",
+          "flagged": false
+        }
+      ],
+      "quiz": [
+        {
+          "id": "c109u5hg",
+          "session": "Vorlesung 1",
+          "q": "Wer prägte die Konzepte „Hegemonie“ und „Interregnum“?",
+          "options": [
+            "Antonio Gramsci",
+            "Reinhart Koselleck",
+            "Alexander Wendt",
+            "Edward Said"
+          ],
+          "correct": 0,
+          "expl": "Antonio Gramsci (1891–1937) entwickelte beide Konzepte im Kontext seiner Analyse kultureller Herrschaft. Hinweis: Der Begriff „Interregnum“ selbst ist laut Rückmeldung des Professors nicht klausurrelevant, „Hegemonie“ bleibt es.",
+          "flagged": false
+        },
+        {
+          "id": "c1j0peox",
+          "session": "Vorlesung 1",
+          "q": "Worauf beruht Hegemonie laut Gramsci – neben Zwang?",
+          "options": [
+            "Militärische Überlegenheit",
+            "Konsens, erzeugt über kulturelle Apparate",
+            "Wirtschaftswachstum",
+            "Bevölkerungsgröße"
+          ],
+          "correct": 1,
+          "expl": "Zwang wirkt über staatliche Apparate, Konsens über kulturelle Apparate wie Medien, Schulen und Universitäten.",
+          "flagged": false
+        },
+        {
+          "id": "c127bi6q",
+          "session": "Vorlesung 1",
+          "q": "Wer prägte das Begriffspaar „Erfahrungsraum und Erwartungshorizont“?",
+          "options": [
+            "Jean-François Lyotard",
+            "Reinhart Koselleck",
+            "Benjamin Constant",
+            "Antonio Gramsci"
+          ],
+          "correct": 1,
+          "expl": "Reinhart Koselleck (1979) unterscheidet diese beiden historischen Kategorien.",
+          "flagged": false
+        },
+        {
+          "id": "c1s391bx",
+          "session": "Vorlesung 1",
+          "q": "Welche Kritik übt die postmoderne Philosophie am Begriff „master narrative“?",
+          "options": [
+            "Master narratives seien zu kurz",
+            "Kritik an den „großen Erzählungen“ (u. a. Lyotard)",
+            "Master narratives seien nicht hegemonial genug",
+            "Master narratives existierten nur in der Wirtschaft"
+          ],
+          "correct": 1,
+          "expl": "Die postmoderne Philosophie kritisiert seit den 1970ern die „großen Erzählungen“, die Sinn stiften und Herrschaft legitimieren. Diese Kritik wird meist auf Jean-François Lyotard (1924–1998) zurückgeführt; sein Name steht nicht wörtlich auf der Vorlesungsfolie, ist aber die fachlich übliche Zuordnung.",
+          "flagged": false
+        },
+        {
+          "id": "c1hoioam",
+          "session": "Vorlesung 1",
+          "q": "Welches Merkmal gehört NICHT zu einer Meistererzählung?",
+          "options": [
+            "Sie stiftet Sinn und orientiert Handeln",
+            "Sie hat eine Dramaturgie mit good guys und bad guys",
+            "Sie ist grundsätzlich falsifizierbar wie eine naturwissenschaftliche Theorie",
+            "Sie überbrückt Erfahrungsraum und Erwartungshorizont"
+          ],
+          "correct": 2,
+          "expl": "Meistererzählungen sind hegemonial und dramaturgisch angelegt, aber gerade nicht im strengen Sinn empirisch-wissenschaftlich falsifizierbar.",
+          "flagged": false
+        },
+        {
+          "id": "cxs8pzv",
+          "session": "Vorlesung 1",
+          "q": "Auf welche historischen Prozesse bezog sich die Globalisierung als master narrative laut Vorlesung 1?",
+          "options": [
+            "Industrielle Revolution und Kolonialismus",
+            "Ende des Kalten Krieges, Europäisierung, ökonomische Liberalisierung, Ausbreitung liberaler Demokratien",
+            "Erster und Zweiter Weltkrieg",
+            "Dekolonisierung Afrikas in den 1960ern"
+          ],
+          "correct": 1,
+          "expl": "Diese vier Prozesse verliehen dem Globalisierungsnarrativ seine Sinnstiftungskraft und Dramaturgie.",
+          "flagged": false
+        },
+        {
+          "id": "c11oqnht",
+          "session": "Vorlesung 1",
+          "q": "Womit verglich Tony Blair 2005 sinngemäß eine Debatte über die Globalisierung?",
+          "options": [
+            "Mit einer Debatte über Steuersätze",
+            "Mit der Frage, ob dem Sommer der Herbst folgen solle",
+            "Mit einer wissenschaftlichen Kontroverse",
+            "Mit einem Gerichtsverfahren"
+          ],
+          "correct": 1,
+          "expl": "Blairs Diktum illustriert die Vorstellung von der Unausweichlichkeit der (neoliberalen) Globalisierung als hegemonialem master narrative.",
+          "flagged": false
+        },
+        {
+          "id": "cbvwwmz",
+          "session": "Vorlesung 1",
+          "q": "Was beschreibt laut Koselleck der „Erwartungshorizont“?",
+          "options": [
+            "Die gegenwärtige Vergangenheit",
+            "Die gegenwärtige Zukunft",
+            "Eine geographische Grenze",
+            "Ein internationales Regime"
+          ],
+          "correct": 1,
+          "expl": "Der Erwartungshorizont bezeichnet die im Jetzt vorweggenommene Zukunft — im Gegensatz zum Erfahrungsraum als gegenwärtiger Vergangenheit.",
+          "flagged": false
+        },
+        {
+          "id": "c1pedmzi",
+          "session": "Vorlesung 1",
+          "q": "Welches Jahr markiert das „Ende des Kalten Krieges“, auf das sich das master narrative der Globalisierung u. a. bezog?",
+          "options": [
+            "1989",
+            "1945",
+            "2001",
+            "1979"
+          ],
+          "correct": 0,
+          "expl": "Der Fall der Berliner Mauer 1989 gilt als zentraler Bezugspunkt des Globalisierungsnarrativs.",
+          "flagged": false
+        },
+        {
+          "id": "c1jw49r5",
+          "session": "Vorlesung 1",
+          "q": "Was meint Koselleck mit der wachsenden „Asymmetrie“ zwischen Erfahrungsraum und Erwartungshorizont?",
+          "options": [
+            "Beide Kategorien driften durch beschleunigten gesellschaftlichen Wandel zunehmend auseinander",
+            "Beide Kategorien sind in der Moderne identisch",
+            "Die Zukunft wird zunehmend unwichtiger",
+            "Die Vergangenheit spielt in der Moderne keine Rolle mehr"
+          ],
+          "correct": 0,
+          "expl": "Die vergangene Erfahrung wird als Orientierung für die Zukunft zunehmend entwertet — master narratives überbrücken diese Kluft.",
+          "flagged": false
+        },
+        {
+          "id": "c15fqqa2",
+          "session": "Vorlesung 2",
+          "q": "Wer schrieb „Über die Freiheit des Altertums, verglichen mit der Freiheit der Gegenwart“ (1819)?",
+          "options": [
+            "Benjamin Constant",
+            "John Locke",
+            "Immanuel Kant",
+            "John Stuart Mill"
+          ],
+          "correct": 0,
+          "expl": "Ein Schlüsseltext des modernen Liberalismus, der die antike und die moderne Freiheit gegenüberstellt.",
+          "flagged": false
+        },
+        {
+          "id": "crzxu6g",
+          "session": "Vorlesung 2",
+          "q": "Welches ist KEIN Strukturprinzip der Modernisierung laut Vorlesung 2?",
+          "options": [
+            "Funktionale Differenzierung",
+            "Das autonome Subjekt",
+            "Dynamischer Wandel",
+            "Zentralisierung der Weltregierung"
+          ],
+          "correct": 3,
+          "expl": "Die drei Prinzipien sind funktionale Differenzierung, autonomes Subjekt und dynamischer Wandel — eine Weltregierung ist kein Bestandteil davon.",
+          "flagged": false
+        },
+        {
+          "id": "cffoie4",
+          "session": "Vorlesung 2",
+          "q": "Welcher Leitwert orientiert typischerweise das politische Teilsystem in der funktionalen Differenzierung?",
+          "options": [
+            "Wahrheit",
+            "Profit",
+            "Macht",
+            "Schönheit"
+          ],
+          "correct": 2,
+          "expl": "Politik orientiert sich am Leitwert Macht, Wissenschaft an Wahrheit, Wirtschaft an Profit.",
+          "flagged": false
+        },
+        {
+          "id": "c1g896mt",
+          "session": "Vorlesung 2",
+          "q": "Welcher Begriff beschreibt treffender als „Weltgesellschaft“ den tatsächlichen Verflechtungsgrad laut Global-Governance-Literatur?",
+          "options": [
+            "Globalismus",
+            "Gesellschaftliche Denationalisierung",
+            "Interregnum",
+            "Governance by Government"
+          ],
+          "correct": 1,
+          "expl": "Da Handel und Kommunikation stark auf Wirtschaftsblöcke konzentriert bleiben, wird „gesellschaftliche Denationalisierung“ als präziserer Begriff vorgeschlagen.",
+          "flagged": false
+        },
+        {
+          "id": "c5fcsf7",
+          "session": "Vorlesung 2",
+          "q": "Was bezeichnet das Strukturprinzip „dynamischer Wandel“?",
+          "options": [
+            "Die Zentralisierung politischer Macht",
+            "Die Auflösung metaphysischer Fundamente zugunsten radikaler Innerweltlichkeit und permanenter Neuerung",
+            "Die Rückkehr zu traditionellen Autoritäten",
+            "Die Angleichung aller Weltregionen an ein Modell"
+          ],
+          "correct": 1,
+          "expl": "An die Stelle statischer, religiös/metaphysisch begründeter Ordnungen tritt in der Moderne die Erfahrung von fortwährendem Wandel.",
+          "flagged": false
+        },
+        {
+          "id": "c12ndqaw",
+          "session": "Vorlesung 2",
+          "q": "Welche Gefahr sieht Constant, wenn sich Bürger zu stark aus der politischen Sphäre in ihr Privatleben zurückziehen?",
+          "options": [
+            "Wirtschaftlichen Niedergang",
+            "Einen „modernen Despotismus“",
+            "Eine Rückkehr zur antiken Freiheit",
+            "Den Zerfall der funktionalen Differenzierung"
+          ],
+          "correct": 1,
+          "expl": "Wird die politische Teilhabe vernachlässigt, droht laut Constant eine übermächtige, kaum kontrollierte Staatsgewalt.",
+          "flagged": false
+        },
+        {
+          "id": "c1sga3he",
+          "session": "Vorlesung 2",
+          "q": "In welchen drei großen Wirtschaftsblöcken konzentriert sich laut dem Global-Governance-Kapitel der grenzüberschreitende Handel nach wie vor primär?",
+          "options": [
+            "EU/EFTA, NAFTA, ASEAN+3",
+            "G7, BRICS, OPEC",
+            "NATO, Mercosur, Warschauer Pakt",
+            "Weltbank, IWF, WTO"
+          ],
+          "correct": 0,
+          "expl": "Trotz Globalisierungsrhetorik bleibt der Handel überwiegend innerhalb bzw. zwischen diesen drei Blöcken konzentriert.",
+          "flagged": false
+        },
+        {
+          "id": "c1qfzzlx",
+          "session": "Vorlesung 2",
+          "q": "Was unterscheidet politischen von ökonomischem Liberalismus bei Constant?",
+          "options": [
+            "Politischer Liberalismus meint Repräsentativsystem und Abwehrrechte, ökonomischer Liberalismus Freihandel und Markt",
+            "Beide Begriffe sind bei Constant identisch",
+            "Politischer Liberalismus betrifft nur die Antike",
+            "Ökonomischer Liberalismus lehnt den Markt ab"
+          ],
+          "correct": 0,
+          "expl": "Constant unterscheidet die Begrenzung staatlicher Macht (politisch) von der wirtschaftlichen Handlungsfreiheit (ökonomisch).",
+          "flagged": false
+        },
+        {
+          "id": "cxzs0r0",
+          "session": "Vorlesung 2",
+          "q": "In welchem Jahr veröffentlichte Benjamin Constant seine Schrift über die Freiheit der Alten und der Modernen?",
+          "options": [
+            "1819",
+            "1789",
+            "1848",
+            "1900"
+          ],
+          "correct": 0,
+          "expl": "„Über die Freiheit des Altertums, verglichen mit der Freiheit der Gegenwart“ erschien 1819.",
+          "flagged": false
+        },
+        {
+          "id": "cx5bsiu",
+          "session": "Vorlesung 3",
+          "q": "Wie viele Ansätze der Internationalen Beziehungen werden in Vorlesung 3 unterschieden?",
+          "options": [
+            "Zwei",
+            "Drei",
+            "Vier",
+            "Fünf"
+          ],
+          "correct": 2,
+          "expl": "Realismus, Liberalismus, Marxismus und Konstruktivismus.",
+          "flagged": false
+        },
+        {
+          "id": "c1e5jqi2",
+          "session": "Vorlesung 3",
+          "q": "Wer ist der zentrale Referenztheoretiker des Neorealismus („Theory of International Politics“, 1979)?",
+          "options": [
+            "Kenneth Waltz",
+            "Andrew Moravcsik",
+            "Alexander Wendt",
+            "Robert Gilpin"
+          ],
+          "correct": 0,
+          "expl": "Kenneth Waltz begründete mit seinem 1979 erschienenen Werk den strukturellen Realismus (Neorealismus).",
+          "flagged": false
+        },
+        {
+          "id": "c1cqfjwx",
+          "session": "Vorlesung 3",
+          "q": "Was besagt das Sicherheitsdilemma?",
+          "options": [
+            "Staaten kooperieren automatisch bei gemeinsamer Bedrohung",
+            "Aufrüstung eines Staates kann von anderen als Bedrohung wahrgenommen werden und erhöht so die Unsicherheit aller",
+            "Sicherheit ist im internationalen System kein relevantes Gut",
+            "Nur Hegemonialstaaten unterliegen dem Sicherheitsdilemma"
+          ],
+          "correct": 1,
+          "expl": "Die eigene Sicherheitsvorsorge eines Staates kann die (wahrgenommene) Sicherheit anderer Staaten verringern und einen Rüstungswettlauf auslösen.",
+          "flagged": false
+        },
+        {
+          "id": "cf87bf8",
+          "session": "Vorlesung 3",
+          "q": "Wer entwickelte den präferenzorientierten Liberalismus („Taking Preferences Seriously“, 1997)?",
+          "options": [
+            "Andrew Moravcsik",
+            "Robert Keohane",
+            "John Mearsheimer",
+            "Rosa Luxemburg"
+          ],
+          "correct": 0,
+          "expl": "Moravcsik reduzierte den Liberalismus auf wenige überprüfbare Grundannahmen, u. a. den Vorrang der Gesellschaft vor dem Staat.",
+          "flagged": false
+        },
+        {
+          "id": "ckvpyj0",
+          "session": "Vorlesung 3",
+          "q": "Welche These ist mit Alexander Wendt verbunden?",
+          "options": [
+            "„The end of history“",
+            "„Anarchy is what states make of it“",
+            "„Clash of civilizations“",
+            "„Taking preferences seriously“"
+          ],
+          "correct": 1,
+          "expl": "Wendts programmatischer Aufsatztitel (1992) fasst die konstruktivistische Kritik am Neorealismus zusammen.",
+          "flagged": false
+        },
+        {
+          "id": "c1ieq8jb",
+          "session": "Vorlesung 3",
+          "q": "Welcher Ansatz erklärt Imperialismus als „höchstes Stadium des Kapitalismus“?",
+          "options": [
+            "Liberalismus",
+            "Konstruktivismus",
+            "Marxismus (Lenin)",
+            "Realismus"
+          ],
+          "correct": 2,
+          "expl": "Lenins Imperialismustheorie erklärt Imperialismus aus sinkenden Profitraten und der Konzentration von Kapital zu Monopolen.",
+          "flagged": false
+        },
+        {
+          "id": "c1odkde1",
+          "session": "Vorlesung 3",
+          "q": "Wer prägte den Begriff der „strukturellen Gewalt“, der in der marxistischen Deutung von Neo-Imperialismus aufgegriffen wird?",
+          "options": [
+            "Johan Galtung",
+            "Immanuel Wallerstein",
+            "Karl Marx",
+            "Antonio Gramsci"
+          ],
+          "correct": 0,
+          "expl": "Johan Galtung unterscheidet ökonomische, politische, militärische, kulturelle und kommunikative Formen struktureller Gewalt.",
+          "flagged": false
+        },
+        {
+          "id": "c17ja8xz",
+          "session": "Vorlesung 3",
+          "q": "Wie deutet der Realismus laut Vorlesung 3 die Globalisierung?",
+          "options": [
+            "Als Ergebnis eines globalisierungskritischen Diskurses",
+            "Als Ergebnis der US-Hegemonie nach 1945 und des „unipolar moment“",
+            "Als klassenpolitisches Regulationsprojekt",
+            "Als kollektiven Lernprozess"
+          ],
+          "correct": 1,
+          "expl": "Die realistische Deutung verortet die Globalisierung in der amerikanischen Nachkriegshegemonie und dem „unipolar moment“ (Krauthammer).",
+          "flagged": false
+        },
+        {
+          "id": "c1ocylo0",
+          "session": "Vorlesung 3",
+          "q": "Was unterscheidet Balancing von Bandwagoning gegenüber einem mächtigen Staat?",
+          "options": [
+            "Balancing bedeutet Anschluss an den Stärkeren, Bandwagoning Gegenmachtbildung",
+            "Balancing bedeutet Gegenmachtbildung (Aufrüstung/Bündnisse), Bandwagoning den Anschluss an den Stärkeren",
+            "Beide Begriffe sind Synonyme",
+            "Nur Bandwagoning ist im Neorealismus vorgesehen"
+          ],
+          "correct": 1,
+          "expl": "Balancing = Gegengewicht schaffen; Bandwagoning = sich dem stärkeren Akteur anschließen — zwei gegensätzliche Reaktionsmuster auf Machtungleichgewichte.",
+          "flagged": false
+        },
+        {
+          "id": "c8nv4d4",
+          "session": "Vorlesung 3",
+          "q": "Wer prägte die Formel „for the world economy to be stable, it needs a stabilizer“ im Kontext der Theorie hegemonialer Stabilität?",
+          "options": [
+            "Charles Kindleberger",
+            "Kenneth Waltz",
+            "Robert Keohane",
+            "John Mearsheimer"
+          ],
+          "correct": 0,
+          "expl": "Der Wirtschaftshistoriker Charles Kindleberger begründete damit die realistische Theorie hegemonialer Stabilität.",
+          "flagged": false
+        },
+        {
+          "id": "ck4csga",
+          "session": "Vorlesung 3",
+          "q": "Was besagt der „Vorrang der Gesellschaft vor dem Staat“ im präferenzorientierten Liberalismus nach Moravcsik?",
+          "options": [
+            "Der Staat bestimmt die gesellschaftlichen Präferenzen top-down",
+            "Individuelle und kollektive Akteure der subnationalen Ebene sind das eigentlich bestimmende Subjekt internationaler Politik (bottom-up)",
+            "Nur internationale Organisationen zählen als Akteure",
+            "Gesellschaft und Staat sind stets identisch"
+          ],
+          "correct": 1,
+          "expl": "Moravcsik kehrt die realistische Sichtweise um: nicht der Staat, sondern die Gesellschaft ist der eigentliche Ausgangspunkt der Analyse.",
+          "flagged": false
+        },
+        {
+          "id": "cafrs79",
+          "session": "Vorlesung 3",
+          "q": "Was besagt die „logic of appropriateness“ im Konstruktivismus im Unterschied zur „logic of consequences“?",
+          "options": [
+            "Staaten handeln ausschließlich nach reinem Kosten-Nutzen-Kalkül",
+            "Staaten orientieren sich an normgeleitetem, als angemessen geltendem Verhalten statt nur an Konsequenzenkalkül",
+            "Beide Logiken sind im Konstruktivismus identisch",
+            "Die logic of appropriateness gilt nur für Marxisten"
+          ],
+          "correct": 1,
+          "expl": "March/Olsens Unterscheidung wird im Konstruktivismus genutzt, um normgeleitetes von rein konsequenzialistischem Handeln abzugrenzen.",
+          "flagged": false
+        },
+        {
+          "id": "c1w9ux5s",
+          "session": "Vorlesung 3",
+          "q": "Wodurch unterscheidet sich der Neorealismus (Waltz) vom klassischen Realismus?",
+          "options": [
+            "Neorealismus erklärt Staatenverhalten aus der Systemstruktur (Anarchie, Machtverteilung), klassischer Realismus aus der menschlichen Natur",
+            "Neorealismus lehnt den Begriff Macht ab",
+            "Klassischer Realismus ignoriert Macht völlig",
+            "Beide Ansätze sind identisch"
+          ],
+          "correct": 0,
+          "expl": "Waltz verlagert die Erklärung vom individuellen Machtstreben (klassischer Realismus) auf die Struktur des internationalen Systems.",
+          "flagged": false
+        },
+        {
+          "id": "ccmtf0v",
+          "session": "Vorlesung 3",
+          "q": "Was versteht man unter „relative gains“ im Realismus?",
+          "options": [
+            "Die Sorge, dass andere Staaten von Kooperation stärker profitieren könnten als man selbst",
+            "Den absoluten wirtschaftlichen Gewinn eines Staates",
+            "Ein Synonym für Bandwagoning",
+            "Ein Konzept aus dem Konstruktivismus"
+          ],
+          "correct": 0,
+          "expl": "Die Furcht vor relative gains erschwert aus realistischer Sicht weitreichende Kooperation, da relative Machtverschiebungen zugunsten anderer Staaten befürchtet werden.",
+          "flagged": false
+        },
+        {
+          "id": "cukab2m",
+          "session": "Vorlesung 3",
+          "q": "Was besagt der „demokratische Frieden“ im Liberalismus?",
+          "options": [
+            "Demokratien führen untereinander keine Kriege",
+            "Demokratien sind grundsätzlich friedlicher als jede andere Staatsform gegenüber allen Staaten",
+            "Nur autoritäre Staaten können Frieden stiften",
+            "Der Begriff stammt aus dem Realismus"
+          ],
+          "correct": 0,
+          "expl": "Die These bezieht sich spezifisch auf das Ausbleiben von Kriegen zwischen Demokratien untereinander, nicht auf generelle Friedfertigkeit.",
+          "flagged": false
+        },
+        {
+          "id": "c1g4jc9o",
+          "session": "Vorlesung 4",
+          "q": "Wer schrieb „Orientalism“ (1978)?",
+          "options": [
+            "Edward Said",
+            "Gayatri Chakravorty Spivak",
+            "Aníbal Quijano",
+            "Frantz Fanon"
+          ],
+          "correct": 0,
+          "expl": "Said analysiert, wie „der Orient“ diskursiv als Gegenbild zum „aufgeklärten Westen“ konstruiert wird. Klausurrelevant.",
+          "flagged": false
+        },
+        {
+          "id": "c8c38oh",
+          "session": "Vorlesung 4",
+          "q": "Wer verfasste „Can the Subaltern Speak?“ (1988)?",
+          "options": [
+            "Edward Said",
+            "Gayatri Chakravorty Spivak",
+            "Homi Bhabha",
+            "Aníbal Quijano"
+          ],
+          "correct": 1,
+          "expl": "Spivak prägt den Begriff der Subalternität und der „epistemischen Gewalt“. Laut Prof. nicht mehr klausurrelevant, hier nur als Hintergrundwissen.",
+          "flagged": false
+        },
+        {
+          "id": "ceqt48t",
+          "session": "Vorlesung 4",
+          "q": "Wer prägte den Begriff der „Kolonialität der Moderne“?",
+          "options": [
+            "Aníbal Quijano",
+            "Edward Said",
+            "Antonio Gramsci",
+            "Kenneth Waltz"
+          ],
+          "correct": 0,
+          "expl": "Quijano verbindet die europäische Moderne untrennbar mit rassistischer Klassifizierung und Arbeitsteilung. Laut Prof. nicht mehr klausurrelevant, hier nur als Hintergrundwissen.",
+          "flagged": false
+        },
+        {
+          "id": "c1ci6j8j",
+          "session": "Vorlesung 4",
+          "q": "Was bezeichnet „Othering“ im Postkolonialismus?",
+          "options": [
+            "Die Übernahme westlicher Normen durch den globalen Süden",
+            "Die diskursive Konstruktion des Nicht-Westlichen als „das Andere“",
+            "Ein Synonym für Global Governance",
+            "Ein Konzept aus dem Neorealismus"
+          ],
+          "correct": 1,
+          "expl": "Othering bezeichnet die diskursive Abgrenzung und Abwertung des Nicht-Westlichen zur Konstruktion westlicher Identität. Klausurrelevant.",
+          "flagged": false
+        },
+        {
+          "id": "c1igf1aw",
+          "session": "Vorlesung 4",
+          "q": "Was meint „epistemische Gewalt“ bei Spivak?",
+          "options": [
+            "Militärische Gewalt gegen Wissenschaftler:innen",
+            "Die systematische Abwertung des Wissens Subalterner",
+            "Zensur akademischer Publikationen",
+            "Gewalt in der Wissenschaftsgeschichte Europas"
+          ],
+          "correct": 1,
+          "expl": "Epistemische Gewalt bezeichnet die Abwertung und Nicht-Anerkennung des Wissens marginalisierter, „subalterner“ Gruppen im herrschenden Diskurs. Laut Prof. nicht mehr klausurrelevant, hier nur als Hintergrundwissen.",
+          "flagged": false
+        },
+        {
+          "id": "c8t96g7",
+          "session": "Vorlesung 4",
+          "q": "Was kritisiert der Postkolonialismus konkret an der „Entwicklungshilfe“?",
+          "options": [
+            "Sie sei zu teuer für Geberländer",
+            "Sie fungiere als Instrument neokolonialer Abhängigkeit und Bevormundung",
+            "Sie werde ausschließlich von NGOs organisiert",
+            "Sie sei ein rein militärisches Instrument"
+          ],
+          "correct": 1,
+          "expl": "Der Entwicklungsdiskurs misst nicht-westliche Gesellschaften implizit an einem westlichen Fortschrittsmodell und reproduziert so Abhängigkeit.",
+          "flagged": false
+        },
+        {
+          "id": "c19229ru",
+          "session": "Vorlesung 4",
+          "q": "Was wird dem Postkolonialismus in der Kritik an ihm selbst vorgeworfen?",
+          "options": [
+            "Er sei zu unpolitisch",
+            "Er sei selbst ein Produkt westlicher (poststrukturalistischer) Theoriebildung",
+            "Er ignoriere den Kolonialismus vollständig",
+            "Er stamme ausschließlich aus der Ökonomie"
+          ],
+          "correct": 1,
+          "expl": "Dieser Einwand steht in Spannung zum eigenen Anspruch des Postkolonialismus, eine Gegenposition zu westlichem Wissen zu formulieren.",
+          "flagged": false
+        },
+        {
+          "id": "cweg5n0",
+          "session": "Vorlesung 4",
+          "q": "Was bezeichnet „Hybridisierung“ im postkolonialen Kontext?",
+          "options": [
+            "Die vollständige Trennung von Ost und West",
+            "Kulturelle Vermischungen jenseits binärer Ost-West-Schemata",
+            "Eine Form militärischer Kooperation",
+            "Ein Synonym für Eurozentrismus"
+          ],
+          "correct": 1,
+          "expl": "Hybridisierung betont, dass kulturelle Identitäten nicht in reine, binäre Kategorien fallen, sondern sich vermischen und neu konfigurieren. Laut Prof. nicht mehr klausurrelevant, hier nur als Hintergrundwissen.",
+          "flagged": false
+        },
+        {
+          "id": "cddzajy",
+          "session": "Vorlesung 4",
+          "q": "Was ist die Kernaussage der These „Macht = Wissen“?",
+          "options": [
+            "Wissen ist nie neutral, sondern mit Machtbeziehungen verwoben, die es konstituiert und verändert",
+            "Wissen und Macht stehen in keinem Zusammenhang",
+            "Nur militärische Macht erzeugt Wissen",
+            "Wissen entsteht unabhängig von gesellschaftlichen Kontexten"
+          ],
+          "correct": 0,
+          "expl": "Wer klassifiziert, übt Macht aus; wer Macht hat, bestimmt zugleich, welches Wissen als gültig anerkannt wird.",
+          "flagged": false
+        },
+        {
+          "id": "c1mp9fxe",
+          "session": "Vorlesung 4",
+          "q": "Warum gilt Orientalismus als historisches Paradebeispiel für Othering?",
+          "options": [
+            "Weil er zeigt, wie der Westen seine Identität durch Abgrenzung vom „Orient“ als Anderem konstruierte",
+            "Weil er das erste postkoloniale Konzept überhaupt war",
+            "Weil er nur auf den Nahen Osten beschränkt ist",
+            "Weil er von Marx geprägt wurde"
+          ],
+          "correct": 0,
+          "expl": "Orientalismus ist eine konkrete, historisch besonders einflussreiche Ausprägung des allgemeineren Othering-Prozesses.",
+          "flagged": false
+        },
+        {
+          "id": "c1dz706",
+          "session": "Vorlesung 4",
+          "q": "Wessen Herrschaft wird laut Said durch den Orientalismus-Diskurs legitimiert?",
+          "options": [
+            "Westliche Herrschaft über „den Orient“",
+            "Osmanische Herrschaft",
+            "Sowjetische Herrschaft",
+            "Kirchliche Herrschaft im Mittelalter"
+          ],
+          "correct": 0,
+          "expl": "Die abwertende Darstellung des Orients lässt westliche Überlegenheit und einen daraus abgeleiteten Führungsanspruch selbstverständlich erscheinen.",
+          "flagged": false
+        },
+        {
+          "id": "c1isgwvr",
+          "session": "Theorie-Grundlagen",
+          "q": "Was besagt die realistische Sicht auf die Rolle der Innenpolitik?",
+          "options": [
+            "Sie spielt keine Rolle, da die anarchische Struktur des Systems alle Staaten gleich zwingt",
+            "Sie ist der einzige Erklärungsfaktor internationaler Politik",
+            "Nur Innenpolitik erklärt Kriege",
+            "Der Realismus ignoriert den Staat als Akteur komplett"
+          ],
+          "correct": 0,
+          "expl": "Nach der strukturellen (neorealistischen) Lesart wird der Staat zur „Black Box“, deren Verhalten aus der Systemstruktur, nicht aus innenpolitischen Faktoren erklärt wird.",
+          "flagged": false
+        },
+        {
+          "id": "crxflnw",
+          "session": "Theorie-Grundlagen",
+          "q": "Was ist laut dem präferenzorientierten Liberalismus die Quelle staatlicher Präferenzen?",
+          "options": [
+            "Innenpolitische, gesellschaftliche Prozesse",
+            "Die internationale Machtverteilung",
+            "Militärische Stärke",
+            "Der Internationale Währungsfonds"
+          ],
+          "correct": 0,
+          "expl": "Moravcsiks Liberalismus kehrt die realistische Sichtweise um: Nicht der Staat, sondern die Gesellschaft ist Ausgangspunkt der Analyse.",
+          "flagged": false
+        },
+        {
+          "id": "cnluvui",
+          "session": "Theorie-Grundlagen",
+          "q": "Warum gilt der Konstruktivismus eher als Metatheorie denn als inhaltlicher Ansatz wie Realismus oder Liberalismus?",
+          "options": [
+            "Weil er fragt, wie soziale Wirklichkeit zustande kommt, statt festzulegen, was Staaten wollen",
+            "Weil er ausschließlich Wirtschaftstheorien nutzt",
+            "Weil er älter ist als der Realismus",
+            "Weil er keine eigenen Vertreter hat"
+          ],
+          "correct": 0,
+          "expl": "Der Konstruktivismus trifft keine Aussage über staatliche Ziele, sondern über die soziale Konstruktion von Interessen und Identität selbst.",
+          "flagged": false
+        },
+        {
+          "id": "cxvtu7m",
+          "session": "Theorie-Grundlagen",
+          "q": "Worin liegt der zentrale Unterschied zwischen Realismus und Liberalismus auf der Akteursebene?",
+          "options": [
+            "Realismus: Staat als einheitlicher Akteur; Liberalismus: Staat als Ergebnis innenpolitischer Präferenzbildung",
+            "Beide sehen den Staat identisch",
+            "Nur der Liberalismus kennt Staaten als Akteure",
+            "Der Realismus kennt nur nichtstaatliche Akteure"
+          ],
+          "correct": 0,
+          "expl": "Diese unterschiedliche Akteurskonzeption ist der Ausgangspunkt für fast alle weiteren Differenzen zwischen beiden Theorien.",
+          "flagged": false
+        },
+        {
+          "id": "c14zxhi5",
+          "session": "Theorie-Grundlagen",
+          "q": "Was ist der zentrale ontologische Unterschied zwischen Realismus und Konstruktivismus?",
+          "options": [
+            "Für den Realismus sind Macht und Interessen materiell gegeben, für den Konstruktivismus werden sie durch Ideen konstruiert",
+            "Beide teilen dieselbe Ontologie",
+            "Der Konstruktivismus lehnt das Konzept Macht grundsätzlich ab",
+            "Der Realismus kennt keine Interessen"
+          ],
+          "correct": 0,
+          "expl": "Diese Ontologie-Frage erklärt, warum beide Theorien Kooperation völlig unterschiedlich begründen.",
+          "flagged": false
+        },
+        {
+          "id": "c8zhywe",
+          "session": "Theorie-Grundlagen",
+          "q": "Worin liegt der Hauptunterschied zwischen Liberalismus und Konstruktivismus?",
+          "options": [
+            "In der Herkunft der Interessen: gesellschaftliche Präferenzen vs. geteilte Ideen und Identität",
+            "Beide lehnen den Staat als Akteur vollständig ab",
+            "Nur der Konstruktivismus kennt internationale Kooperation",
+            "Nur der Liberalismus verwendet den Normbegriff"
+          ],
+          "correct": 0,
+          "expl": "Beide Ansätze relativieren die realistische Staatsfixierung, tun dies aber auf unterschiedliche Weise — materiell-interessengeleitet versus ideell-konstruiert.",
+          "flagged": false
+        },
+        {
+          "id": "c1c22pn",
+          "session": "Global Governance",
+          "q": "Was unterscheidet Governance von Government?",
+          "options": [
+            "Beide Begriffe sind identisch",
+            "Government meint einen konkreten regierenden Akteur, Governance die Tätigkeit des Regierens unabhängig vom Akteur",
+            "Governance existiert nur auf nationaler Ebene",
+            "Government kann auch ohne Staat existieren"
+          ],
+          "correct": 1,
+          "expl": "Governance kann, muss aber nicht hierarchisch durch eine übergeordnete Zwangsgewalt erfolgen — zentral ist die Anerkennung normativer Verbindlichkeit.",
+          "flagged": false
+        },
+        {
+          "id": "c5m0a0w",
+          "session": "Global Governance",
+          "q": "Was ist KEINE hinreichende Bedingung für die Entstehung von Global Governance?",
+          "options": [
+            "Die bloße Existenz denationalisierter Problemlagen",
+            "Politische Verarbeitung der Nachfrage durch Verhandlungen",
+            "Anerkennung normativer Verbindlichkeit durch die Akteure",
+            "Institutionelle und prozedurale Absicherung"
+          ],
+          "correct": 0,
+          "expl": "Aus denationalisierten Problemlagen folgt kein Automatismus zur Institutionenbildung — es braucht die politische Verarbeitung, wie das Beispiel der Klimapolitik zeigt.",
+          "flagged": false
+        },
+        {
+          "id": "cvqd25w",
+          "session": "Global Governance",
+          "q": "Welches strukturelle Defizit meint das „Legitimationsproblem“ von Global Governance?",
+          "options": [
+            "Zu hohe Kosten internationaler Organisationen",
+            "Die fehlende direkte demokratische Rückbindung internationaler Entscheidungen",
+            "Zu viele konkurrierende internationale Organisationen",
+            "Mangelnde Digitalisierung internationaler Institutionen"
+          ],
+          "correct": 1,
+          "expl": "Mit wachsender Autorität internationaler Institutionen steigt der Bedarf nach direkter demokratischer Legitimierung, der bisher unzureichend erfüllt wird.",
+          "flagged": false
+        },
+        {
+          "id": "c1oedok7",
+          "session": "Global Governance",
+          "q": "Welches Beispiel wird für das Fehlen eines ausreichenden internationalen Regimes trotz klarer Problemlage genannt?",
+          "options": [
+            "Die globale Klimapolitik",
+            "Der Welthandel",
+            "Die Weltgesundheitsorganisation",
+            "Die Vereinten Nationen allgemein"
+          ],
+          "correct": 0,
+          "expl": "Trotz eindeutiger Problemlage wurde die Klimapolitik lange nicht durch ein hinreichendes internationales Regime bearbeitet — ein Beleg dafür, dass Problemdruck allein keine Governance erzeugt.",
+          "flagged": false
+        },
+        {
+          "id": "c1i1de6o",
+          "session": "Global Governance",
+          "q": "Was bedeutet das „Koordinationsproblem“ bei Global Governance?",
+          "options": [
+            "Es fehlt eine Gesamtkoordination zwischen den zahlreichen internationalen Institutionen",
+            "Es gibt zu wenige internationale Organisationen",
+            "Staaten kooperieren nie miteinander",
+            "Das Problem betrifft nur Entwicklungsländer"
+          ],
+          "correct": 0,
+          "expl": "Die Vielzahl internationaler Institutionen agiert oft nebeneinander statt abgestimmt, was die Wirksamkeit von Global Governance begrenzt.",
+          "flagged": false
+        },
+        {
+          "id": "cfekq9o",
+          "session": "Mercosur",
+          "q": "In welchem Jahr und mit welchem Vertrag wurde der Mercosur gegründet?",
+          "options": [
+            "1991, Vertrag von Asunción",
+            "1989, Vertrag von Maastricht",
+            "1995, Vertrag von Rom",
+            "2001, Vertrag von Buenos Aires"
+          ],
+          "correct": 0,
+          "expl": "Der Vertrag von Asunción (1991) begründete das Freihandelsabkommen zwischen Argentinien, Brasilien, Paraguay und Uruguay.",
+          "flagged": false
+        },
+        {
+          "id": "c1vxeg8z",
+          "session": "Mercosur",
+          "q": "Warum überzeugt die realistische Balance-of-Power-Erklärung für die Mercosur-Gründung nicht?",
+          "options": [
+            "Weil Argentinien aktiv die Nähe zu den USA suchte statt Opposition",
+            "Weil der Mercosur nie tatsächlich gegründet wurde",
+            "Weil die USA am Mercosur beteiligt waren",
+            "Weil es in Lateinamerika keine Machtungleichgewichte gab"
+          ],
+          "correct": 0,
+          "expl": "Argentiniens Außenpolitik der 1980er widerspricht der Balancing-These — ebenso wie die gleichzeitige Abrüstung des Landes.",
+          "flagged": false
+        },
+        {
+          "id": "ccnvzjz",
+          "session": "Mercosur",
+          "q": "Welcher argentinische Außenminister äußerte sich 1986 sinngemäß, man teile mit Brasilien bereits eine ähnliche Weltsicht?",
+          "options": [
+            "Dante Caputo",
+            "Carlos Menem",
+            "Raúl Alfonsín",
+            "Domingo Cavallo"
+          ],
+          "correct": 0,
+          "expl": "Caputos Aussage von 1986 gilt als konstruktivistischer Beleg für eine bereits geteilte Identität vor den eigentlichen Wirtschaftsverhandlungen.",
+          "flagged": false
+        },
+        {
+          "id": "calg882",
+          "session": "Mercosur",
+          "q": "Was zeigt der Anstieg von Brasiliens Anteil an Mercosur-internen Exporten (1990: ca. 1/3 → 1994: ca. 2/3)?",
+          "options": [
+            "Das Scheitern der Integration",
+            "Eine liberale Bestätigung wachsender wirtschaftlicher Interdependenz",
+            "Eine rein militärische Kooperation",
+            "Den Rückzug Brasiliens aus dem Bündnis"
+          ],
+          "correct": 1,
+          "expl": "Aus liberalistischer Sicht stützt die stark wachsende Handelsverflechtung die These, dass Interdependenz Kooperation absichert.",
+          "flagged": false
+        },
+        {
+          "id": "c125cxy3",
+          "session": "Mercosur",
+          "q": "Welche vier Staaten gehören zu den Gründungsmitgliedern des Mercosur?",
+          "options": [
+            "Argentinien, Brasilien, Paraguay, Uruguay",
+            "Argentinien, Chile, Peru, Bolivien",
+            "Brasilien, Mexiko, Kolumbien, Venezuela",
+            "Uruguay, Paraguay, Ecuador, Chile"
+          ],
+          "correct": 0,
+          "expl": "Der Vertrag von Asunción (1991) wurde von diesen vier Staaten unterzeichnet.",
+          "flagged": false
+        },
+        {
+          "id": "clqo9y3",
+          "session": "Mercosur",
+          "q": "Was zeigt das Beispiel Paraguays im Mercosur besonders deutlich?",
+          "options": [
+            "Dass Staaten trotz geringen wirtschaftlichen Nutzens aus identitätsbezogenen Gründen im Bündnis bleiben können",
+            "Dass kleine Staaten in Bündnissen immer austreten",
+            "Dass Paraguay der wirtschaftlich stärkste Mercosur-Staat ist",
+            "Dass der Mercosur nur aus zwei Staaten besteht"
+          ],
+          "correct": 0,
+          "expl": "Paraguay blieb trotz vergleichsweise geringen wirtschaftlichen Nutzens im Bündnis — ein Rätsel für rein rationalistische Erklärungen, das der Konstruktivismus über geteilte Identität löst.",
+          "flagged": false
+        },
+        {
+          "id": "ck9x7g3",
+          "session": "Irak-Krieg",
+          "q": "Welches Land beteiligte sich 2003 militärisch am Irak-Krieg, welches nicht?",
+          "options": [
+            "Großbritannien beteiligte sich, Deutschland nicht",
+            "Deutschland beteiligte sich, Großbritannien nicht",
+            "Beide beteiligten sich",
+            "Keines der beiden Länder beteiligte sich"
+          ],
+          "correct": 0,
+          "expl": "Großbritannien entsandte Truppen, Deutschland lehnte jede Beteiligung kategorisch ab — auch bei einem möglichen UN-Mandat.",
+          "flagged": false
+        },
+        {
+          "id": "c117mxm5",
+          "session": "Irak-Krieg",
+          "q": "Wie hoch war laut Umfragen der Anteil der Deutschen, die im Wahlkampfmonat 2002 eine Irak-Intervention ablehnten?",
+          "options": [
+            "Etwa 30 %",
+            "Etwa 50 %",
+            "Etwa 79 %",
+            "Etwa 95 %"
+          ],
+          "correct": 2,
+          "expl": "Diese hohe Ablehnung stützt die liberale Erklärung über Downs’ Wählerkalkül: Schröder folgte der klaren Mehrheitsmeinung.",
+          "flagged": false
+        },
+        {
+          "id": "c1la76o4",
+          "session": "Irak-Krieg",
+          "q": "Wie fasst Robert Kagan den Gegensatz zwischen US-amerikanischer und europäischer Weltsicht zusammen?",
+          "options": [
+            "USA in einer „Hobbesschen“, Europa in einer „Kantianischen“ Welt",
+            "USA in einer „Kantianischen“, Europa in einer „Hobbesschen“ Welt",
+            "Beide Seiten teilen dieselbe Weltsicht",
+            "Kagan bezieht sich nicht auf Philosophen"
+          ],
+          "correct": 0,
+          "expl": "Diese Zuspitzung veranschaulicht konstruktivistisch die unterschiedlichen Werte von Machtpolitik (USA) und Multilateralismus (Europa).",
+          "flagged": false
+        },
+        {
+          "id": "c1twb7pd",
+          "session": "Irak-Krieg",
+          "q": "Welche Rolle spielte der UN-Sicherheitsrat in der deutschen Position zum Irak-Krieg?",
+          "options": [
+            "Deutschland machte einen Sicherheitsratsbeschluss zur Voraussetzung einer möglichen Beteiligung",
+            "Deutschland lehnte die UN grundsätzlich ab",
+            "Der Sicherheitsrat befürwortete einstimmig den Krieg",
+            "Deutschland war nicht Mitglied der UN"
+          ],
+          "correct": 0,
+          "expl": "Diese Betonung der UN passt schlecht zu einer rein realistischen Balancing-Erklärung und wird eher als Legitimationsstrategie gedeutet.",
+          "flagged": false
+        },
+        {
+          "id": "c1e6j2r",
+          "session": "Irak-Krieg",
+          "q": "Was besagt die Vetospieler-Theorie in diesem Kontext?",
+          "options": [
+            "Je mehr Akteure ein Veto gegen eine Entscheidung einlegen können, desto geringer die Kriegsbereitschaft",
+            "Vetospieler sind ausschließlich internationale Organisationen",
+            "Die Theorie stammt aus dem Realismus",
+            "Vetospieler existieren nur in Diktaturen"
+          ],
+          "correct": 0,
+          "expl": "Ein starker Bundestag als zusätzlicher Vetospieler senkt die Kriegsbereitschaft im Vergleich zu Systemen mit weniger Vetospielern.",
+          "flagged": false
+        },
+        {
+          "id": "c1tnn8es",
+          "session": "Klimapolitik",
+          "q": "Wer entwickelte das Konzept der „Two-Level-Games“?",
+          "options": [
+            "Robert Putnam",
+            "Kenneth Waltz",
+            "Alexander Wendt",
+            "Andrew Moravcsik"
+          ],
+          "correct": 0,
+          "expl": "Putnam verband 1988 die internationale Verhandlungsebene (Level I) mit der innenpolitischen Ratifizierungsebene (Level II).",
+          "flagged": false
+        },
+        {
+          "id": "cejrehm",
+          "session": "Klimapolitik",
+          "q": "Ratifizierten die USA das Kyoto-Protokoll?",
+          "options": [
+            "Ja, unter Clinton",
+            "Ja, unter Bush",
+            "Nein, trotz Unterzeichnung unter Clinton",
+            "Nein, sie unterzeichneten es nicht einmal"
+          ],
+          "correct": 2,
+          "expl": "Die USA unterzeichneten das Protokoll unter Clinton, ratifizierten es aber nie — Bush setzte den Ratifizierungsprozess 2001 aus.",
+          "flagged": false
+        },
+        {
+          "id": "cetx2mp",
+          "session": "Klimapolitik",
+          "q": "Welche deutsche Institution fungierte laut konstruktivistischer Analyse als glaubwürdiger „honest broker“ in der Klimadebatte?",
+          "options": [
+            "Die Klima-Enquete-Kommission des Bundestags",
+            "Das Bundesumweltministerium allein",
+            "Der Bundesrechnungshof",
+            "Die Deutsche Bundesbank"
+          ],
+          "correct": 0,
+          "expl": "Ihre gesellschaftliche Glaubwürdigkeit erlaubte es ihr, den wissenschaftlichen Konsens gesellschaftsübergreifend zu vermitteln — ein Pendant fehlte in den USA.",
+          "flagged": false
+        },
+        {
+          "id": "ciew5mz",
+          "session": "Klimapolitik",
+          "q": "Was ist ein „Win-Set“ im Sinne von Putnam?",
+          "options": [
+            "Die Menge der auf nationaler Ebene ratifizierbaren Verhandlungsergebnisse",
+            "Ein Synonym für Emissionsziele",
+            "Ein rein realistisches Konzept",
+            "Die Anzahl gewonnener Klimakonferenzen"
+          ],
+          "correct": 0,
+          "expl": "Ein kleines Win-Set kann paradoxerweise die internationale Verhandlungsmacht stärken, da glaubhaft auf innenpolitische Zwänge verwiesen werden kann.",
+          "flagged": false
+        },
+        {
+          "id": "c100asie",
+          "session": "Klimapolitik",
+          "q": "Warum ratifizierten die USA das Kyoto-Protokoll nie?",
+          "options": [
+            "U. a. wegen der Byrd-Hagel-Resolution und der Zwei-Drittel-Hürde im Senat",
+            "Weil die USA es nie unterzeichnet hatten",
+            "Weil Deutschland dagegen war",
+            "Weil das Protokoll erst 2015 verabschiedet wurde"
+          ],
+          "correct": 0,
+          "expl": "Die Byrd-Hagel-Resolution sprach sich gegen Verpflichtungen ohne Entwicklungsländer aus; unter Bush wurde der Ratifizierungsprozess 2001 ganz ausgesetzt.",
+          "flagged": false
+        }
+      ],
+      "exam": [],
+      "examDurationMin": 90
+    }
+  ]
+}

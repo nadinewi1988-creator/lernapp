@@ -1,0 +1,471 @@
+{
+  "id": "ewb002",
+  "name": "ewb002",
+  "tracks": [
+    {
+      "id": "vorlesung",
+      "label": "Vorlesung",
+      "sessions": [
+        "Sitzung 1",
+        "Sitzung 3"
+      ],
+      "flashcards": [
+        {
+          "id": "c3zjala",
+          "session": "Sitzung 1",
+          "q": "Erläutern Sie, warum die empirische Bildungsforschung eine Methodenlehre benötigt.",
+          "a": "Eine Methodenlehre stellt sicher, dass Aussagen über die Bildungswirklichkeit nicht auf Alltagsintuition, Einzelmeinungen oder Zufallsbeobachtungen beruhen, sondern systematisch, nachvollziehbar und überprüfbar gewonnen werden. Sie liefert das „Handwerkszeug“, um eine wissenschaftliche Fragestellung so zu bearbeiten, dass die Ergebnisse begründet, intersubjektiv nachprüfbar und gegen Fehlschlüsse abgesichert sind. Ohne methodisches Vorgehen ließe sich z. B. nicht entscheiden, ob ein beobachteter Zusammenhang tatsächlich besteht oder nur durch Verzerrungen bzw. Zufall entsteht. (Hinweis: Ein konkretes Alltagsbeispiel wurde in der Vorlesung mündlich gegeben; der Beispiel-Slide selbst ist leer.)",
+          "hint": "nachvollziehbar · überprüfbar · nicht Alltagsmeinung · „Handwerkszeug“ · Absicherung gegen Fehlschlüsse.",
+          "herkunft": "selbst",
+          "flagged": false
+        },
+        {
+          "id": "c1p2nk2t",
+          "session": "Sitzung 1",
+          "q": "Stellen Sie die Zielsetzung des Moduls ewb002 dar.",
+          "a": "Das Modul verschafft einen Überblick über verschiedene Ansätze und Methoden der empirischen Bildungsforschung. Es ist ein grundlegendes Pflichtmodul, das wichtige Techniken und Vorgehensweisen vermittelt; diese sollen sowohl theoretisch kennengelernt als auch praktisch angewendet werden. Das Modul ist nützlich für das weitere Studium und die spätere berufliche Arbeit (z. B. in der Schule) und ist Voraussetzung für die weitere Methodenausbildung in EW und SW sowie für den M.Ed.",
+          "hint": "Überblick Ansätze/Methoden · Pflichtmodul · theoretisch + praktisch · Voraussetzung M.Ed.",
+          "herkunft": "selbst",
+          "flagged": false
+        },
+        {
+          "id": "cn6ofjc",
+          "session": "Sitzung 1",
+          "q": "Beschreiben Sie das Zusammenspiel von Vorlesung, Literatur (Selbststudium) und Seminar im Modul ewb002.",
+          "a": "Die Vorlesung führt wöchentlich die neuen Konzepte und Methoden ein. Ergänzend wird zu jedem Thema kurze, essenzielle Literatur empfohlen, die mithilfe von Leitfragen eigenständig durchgearbeitet wird, um das Wichtigste zu vertiefen; beides bereitet das Seminar vor. Im Seminar werden die Inhalte – zeitlich um eine Woche versetzt – durch Übungsaufgaben in Einzel- und Kleingruppenarbeit angewendet, vertieft und gefestigt. Die Zeitversetzung gibt Gelegenheit, die Vorlesungsinhalte zuerst zu erarbeiten und danach anzuwenden. Zentral sind damit Vorbereitung (Vorlesung + Texte) sowie Austausch und aktive Mitarbeit im Seminar.",
+          "hint": "VL führt ein · Texte mit Leitfragen · Seminar wendet an · 1 Woche versetzt · Anwendung/Festigung.",
+          "herkunft": "selbst",
+          "flagged": false
+        },
+        {
+          "id": "c1ughqwg",
+          "session": "Sitzung 1",
+          "q": "Nennen Sie zentrale Leitfragen bzw. Themen, die das Modul auf dem Weg von der Fragestellung zur wissenschaftlichen Erkenntnis behandelt.",
+          "a": "Das Modul bildet den Forschungsprozess als roten Faden ab (Auswahl, exemplarisch): Wie verschaffe ich mir einen Überblick über vorhandene Erkenntnisse? → Literaturrecherche. Wozu/wie wird empirisch geforscht und wie plane ich eine Untersuchung? → Untersuchungsplanung. Wie misst bzw. operationalisiere ich etwas wissenschaftlich? → Messen/Skalenniveaus. Wie komme ich zu Daten und welche Daten braucht eine Fragestellung? → Datenerhebung. Wie schätze ich die Qualität einer Untersuchung ein? → Gütekriterien. Wie bereite ich quantitative Daten auf und werte sie aus? → deskriptive und inferenzielle Statistik. Als Wrap-up: Wie gelange ich insgesamt zu neuer wissenschaftlicher Erkenntnis?",
+          "hint": "roter Faden: Recherche → planen → messen → Daten erheben → Güte → auswerten → neue Erkenntnis.",
+          "herkunft": "selbst",
+          "flagged": false
+        },
+        {
+          "id": "c14zrrom",
+          "session": "Sitzung 3",
+          "q": "Erläutern Sie, was in der empirischen Sozialforschung unter einer (empirisch bedeutsamen) Theorie verstanden wird.",
+          "a": "In der Wissenschaft ist eine Theorie ein System wissenschaftlich begründeter Aussagen zur Erklärung bestimmter Tatsachen oder Erscheinungen und der ihnen zugrunde liegenden Gesetzmäßigkeiten. Empirisch bedeutsam ist sie, wenn sie sich zumindest teilweise auf empirisch prüfbare Zusammenhänge zwischen Variablen bezieht: Im weiteren Sinn ist sie eine Menge miteinander verknüpfter Aussagen, von denen sich eine nichtleere Teilmenge auf solche prüfbaren Zusammenhänge bezieht. Im engeren Sinn besteht sie aus Grundannahmen (Definitionen grundlegender Begriffe und zentrale, meist schwer prüfbare Hypothesen; sind sie mathematisch formuliert, spricht man von einer axiomatischen Theorie bzw. einem Modell) sowie aus daraus abgeleiteten, empirisch prüfbaren Hypothesen samt Regeln zur Messung der Variablen. Davon abzugrenzen ist der umgangssprachliche Gebrauch („bloße Vermutung“, „wirklichkeitsfremd“).",
+          "hint": "System begründeter Aussagen · Erklärung + Gesetzmäßigkeiten · Grundannahmen → abgeleitete prüfbare Hypothesen · nicht „bloße Vermutung“.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c7j1ea8",
+          "session": "Sitzung 3",
+          "q": "Nennen Sie Kriterien, anhand derer sich Theorien vergleichen bzw. als „gut“ bewerten lassen (2–4 exemplarisch erläutert).",
+          "a": "Kriterien sind: widerspruchsfrei, präzise, einfach/sparsam (Ockhams Rasiermesser), objektivierbar, empirisch gehaltvoll und falsifizierbar (überprüf- und kritisierbar). Exemplarisch drei davon: Falsifizierbarkeit bedeutet, dass eine Theorie so formuliert ist, dass sie an der Realität scheitern kann – nur prüfbare Theorien sind wissenschaftlich gehaltvoll. Sparsamkeit (Ockham) verlangt, bei gleicher Leistungsfähigkeit die einfachere Theorie mit weniger Annahmen zu bevorzugen. Empirischer Gehalt meint, dass eine Theorie möglichst viele, präzise und riskante Vorhersagen erlaubt. Merkhilfe: „Gute Theorien sind wie gute Karikaturen – sie verzerren die Realität, aber so, dass das Wesentliche klarer hervortritt.“ (Man muss nicht alle sechs Kriterien auswendig ausformulieren – zwei bis vier gut erläuterbare genügen.)",
+          "hint": "widerspruchsfrei · präzise · sparsam (Ockham) · objektivierbar · empirisch gehaltvoll · falsifizierbar.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cnsm41s",
+          "session": "Sitzung 3",
+          "q": "Skizzieren Sie, wie eine Theorie in einem Pfaddiagramm dargestellt wird und wie darin Theorie, Hypothesen und Daten zusammenhängen.",
+          "a": "Im Pfaddiagramm steht die Theorie an oberster Stelle. Aus ihr werden Hypothesen (H1, H2, H3 …) über Zusammenhänge abgeleitet. Diese Hypothesen werden auf der Datenebene über messbare Variablen bzw. Indikatoren (D1, D2, D3 …) empirisch geprüft. Pfeile zeigen die vermuteten (Wirkungs-)Beziehungen an. Beispiel Statuszuweisungstheorie (Diekmann 2008): Sie erklärt Berufsstatus und Einkommen einer Person durch Ausbildungs- und Status-„Vererbungsprozesse“, also durch Zusammenhänge zwischen Herkunft, Bildung und späterem Status.",
+          "hint": "oben Theorie → abgeleitete Hypothesen (H) → messbare Daten/Variablen (D) · Pfeile = Beziehungen · Bsp. Statuszuweisung.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "ce2vxor",
+          "session": "Sitzung 3",
+          "q": "Erläutern Sie, was eine Hypothese ist, und unterscheiden Sie deterministische und probabilistische Hypothesen.",
+          "a": "Eine Hypothese ist im allgemeinen Sinn eine Vermutung über einen bestehenden Sachverhalt; in den Sozialwissenschaften meist eine Aussage über einen Zusammenhang zwischen Merkmalen (Variablen). Eine deterministische Hypothese behauptet, dass der Zusammenhang immer auftritt – gilt sie, dann zu jeder Zeit und in jedem Fall. Eine probabilistische Hypothese (Wahrscheinlichkeitshypothese) behauptet dagegen nur ein Auftreten mit einer gewissen Wahrscheinlichkeit. In der Sozialforschung sind die meisten Hypothesen probabilistisch.",
+          "hint": "Vermutung über Merkmalszusammenhang · deterministisch = immer · probabilistisch = mit Wahrscheinlichkeit (Regelfall).",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1mzbsav",
+          "session": "Sitzung 3",
+          "q": "Nennen Sie in der Sozialforschung verbreitete Typen von Hypothesen und erläutern Sie sie kurz.",
+          "a": "Verbreitet sind: Wenn-dann-Hypothesen (bei Vorliegen einer Bedingung tritt eine Folge ein) und Je-desto-Hypothesen (je mehr/höher das eine, desto mehr/höher das andere); Zusammenhangshypothesen (Assoziation/Relation ohne Richtungsbehauptung), Kausalhypothesen (Ursache–Wirkung) sowie Trend- bzw. Entwicklungshypothesen (Aussagen über Veränderungen im Zeitverlauf). Eine wichtige Sonderform, die später im Modul folgt, sind statistische Hypothesen.",
+          "hint": "Wenn-dann · Je-desto · Zusammenhang · Kausal · Trend/Entwicklung · (später: statistische).",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cchqx2p",
+          "session": "Sitzung 3",
+          "q": "Erläutern Sie den ökologischen Fehlschluss und veranschaulichen Sie ihn an einem Beispiel.",
+          "a": "Der ökologische Fehlschluss ist der unzulässige Schluss von einer Kollektiv- auf eine Individualhypothese (genauer: Kollektiv-Individual-Fehlschluss). Beispiel: Bestätigt ist die Kollektivhypothese „Je größer der Anteil praktizierender Katholik:innen in einer Region, desto höher der Anteil an CDU/CSU-Wählenden.“ Daraus wird die Individualhypothese abgeleitet „Praktizierende Katholik:innen wählen bevorzugt CDU/CSU.“ Diese kann zutreffen – muss aber nicht: Aus Aggregat-/Kollektivdaten lässt sich das individuelle Verhalten nicht sicher erschließen (im Extremfall könnten gerade die Nicht-Katholik:innen in katholisch geprägten Regionen CDU/CSU wählen). Für Aussagen über konkretes Wählerverhalten braucht es daher Individualdaten.",
+          "hint": "falscher Schluss Kollektiv → Individuum · Bsp. Katholik:innen-Anteil ↔ CDU/CSU · Aggregatdaten ≠ Individualverhalten · Individualdaten nötig.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cmel4pp",
+          "session": "Sitzung 3",
+          "q": "Unterscheiden Sie Individual-, Kollektiv- und Kontexthypothese.",
+          "a": "Eine Individualhypothese formuliert einen Zusammenhang, bei dem sowohl die unabhängige als auch die abhängige Variable auf der Individualebene liegen. Eine Kollektivhypothese bezieht sich auf Zusammenhänge zwischen Kollektivmerkmalen (Merkmalen von Gruppen/Regionen). Eine Kontexthypothese verbindet beide Ebenen: Die unabhängige Variable ist ein Kollektivmerkmal, die abhängige ein Individualmerkmal (der Kontext wirkt auf das Individuum).",
+          "hint": "Individual: UV+AV individuell · Kollektiv: beide Gruppenmerkmale · Kontext: UV Kollektiv → AV Individuum.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cslpo18",
+          "session": "Sitzung 3",
+          "q": "Definieren Sie den Begriff „Variable“ und grenzen Sie Variable, Variablenausprägung und Merkmalsträger an einem Beispiel voneinander ab.",
+          "a": "Eine Variable ist ein Merkmal bzw. eine Eigenschaft von Personen, Gruppen, Organisationen oder anderen Merkmalsträgern (z. B. Geschlecht, Bildungsgrad, Einkommen). Zu unterscheiden sind: die Variable (das Merkmal selbst), ihre Ausprägungen (die konkreten Werte, die das Merkmal annehmen kann) und der Merkmalsträger (die Einheit, an der das Merkmal erhoben wird). Beispiel Geschlecht: Variable = Geschlecht; Ausprägungen = z. B. weiblich, männlich, divers; Merkmalsträger = die konkrete Person, deren Geschlecht erfasst wird.",
+          "hint": "Variable = Merkmal · Ausprägung = konkrete Werte · Merkmalsträger = Einheit (Person) · Bsp. Geschlecht.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cs2k84n",
+          "session": "Sitzung 3",
+          "q": "Erläutern Sie die Unterscheidung von unabhängiger, abhängiger und Störvariable und bestimmen Sie sie an einem Beispiel.",
+          "a": "Die unabhängige Variable (UV) wird (z. B. im Experiment) von der Versuchsleitung manipuliert; die abhängige Variable (AV) ist das, was daraufhin gemessen bzw. beobachtet wird – man beobachtet, welchen Einfluss die UV auf die AV hat. Störvariablen sind alle weiteren Einflüsse, die nicht zur Fragestellung gehören, die AV aber ebenfalls beeinflussen können (z. B. Versuchspersonenvariablen wie Alter, Geschlecht, Erfahrung oder externe Bedingungen wie Tageszeit, Umgebung). Beispiel Mauseingabe: Untersucht wird die Wirkung des Eingabegeräts; UV = Eingabegerät (Maus vs. Tablett + Stift); AV = Reaktionszeit (ms), Befinden und Muskelanspannung (EMG); mögliche Störvariablen = Alter oder Vorerfahrung der Versuchspersonen.",
+          "hint": "UV = manipuliert · AV = gemessen · Störvariable = ungewollter Einfluss (Alter, Umgebung …) · Bsp. Maus vs. Stift.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1p9vrco",
+          "session": "Sitzung 3",
+          "q": "Erläutern Sie, wie sich Variablen nach der Anzahl ihrer Ausprägungen unterscheiden lassen, und was „disjunkt“ und „erschöpfend“ bedeuten.",
+          "a": "Nach der Anzahl der Ausprägungen unterscheidet man kontinuierliche/stetige Variablen (theoretisch „unendlich viele“ mögliche Ausprägungen, z. B. Einkommen) von diskreten Variablen (abzählbar viele Ausprägungen/Kategorien). Diskrete Variablen sind entweder dichotom (genau 2 Ausprägungen) oder polytom (mehr als 2). Bei kategorialen Ausprägungen müssen die Kategorien disjunkt (nicht überlappend – jeder Fall passt in höchstens eine Kategorie) und erschöpfend/exhaustiv (jeder Merkmalsträger kann einer Kategorie zugeordnet werden) sein.",
+          "hint": "stetig vs. diskret · dichotom (2) / polytom (>2) · disjunkt = nicht überlappend · erschöpfend = jeder Fall zuordenbar.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1h1fuqb",
+          "session": "Sitzung 3",
+          "q": "Unterscheiden Sie Individual- und Kollektivmerkmal an einem Beispiel.",
+          "a": "Ein Individualmerkmal ist die Ausprägung eines Merkmals bei einer einzelnen Einheit/Person, ein Kollektivmerkmal die Ausprägung bei einer Gruppe/einem Kollektiv. Beispiel Bildungssystem: Individualmerkmal = die Mathematiknote einer einzelnen Schülerin in der 9. Jahrgangsstufe; Kollektivmerkmal = z. B. der Notendurchschnitt dieser Klasse oder der Anteil der Schüler:innen mit mindestens „gut“. Dasselbe inhaltliche Konstrukt kann also auf Individual- oder Kollektivebene erfasst werden.",
+          "hint": "Individuum vs. Gruppe · Bsp. Schülerin-Note vs. Klassendurchschnitt.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "clk64c3",
+          "session": "Sitzung 3",
+          "q": "Formulieren Sie zu folgender Aussage eine entsprechende, potenziell empirisch überprüfbare Hypothese: „In Kulturen, in denen Frauen größerer Unterdrückung ausgesetzt sind, ist deren Stimmlage höher; in weniger repressiven Gesellschaften ist sie tiefer.“",
+          "a": "Mögliche Hypothese (Je-desto-/Zusammenhangshypothese auf Kollektivebene): „Je stärker die gesellschaftliche Unterdrückung von Frauen in einer Kultur ist, desto höher ist im Mittel die Stimmlage der Frauen dieser Kultur.“ Für eine empirische Prüfung müssten beide Konstrukte operationalisiert werden – „Unterdrückung“ z. B. über einen Gleichstellungsindex, „Stimmlage“ über die mittlere Grundfrequenz (Hz) – und an einer Stichprobe von Kulturen bzw. Personen erhoben werden. Da es sich um einen Zusammenhang auf Kollektivebene handelt, ist beim Rückschluss auf einzelne Frauen der ökologische Fehlschluss zu beachten. Das „Handwerkszeug“ zur Prüfung (Operationalisierung, Datenerhebung, Auswertung) folgt in den nächsten Sitzungen.",
+          "hint": "Je-desto-Hypothese · Kollektivebene · beide Begriffe operationalisieren (Index / Hz) · Achtung ökolog. Fehlschluss.",
+          "herkunft": "direkt",
+          "flagged": false
+        }
+      ],
+      "quiz": [
+        {
+          "id": "cm5qlo2",
+          "session": "Sitzung 1",
+          "q": "Welche Aussage beschreibt die Zielsetzung des Moduls ewb002 am besten?",
+          "options": [
+            "Es vermittelt vertieftes Fachwissen zu einer einzelnen pädagogischen Theorie.",
+            "Es verschafft einen Überblick über Ansätze und Methoden der empirischen Bildungsforschung und lässt sie theoretisch wie praktisch erproben.",
+            "Es bereitet ausschließlich auf das Verfassen der Bachelorarbeit vor.",
+            "Es behandelt vor allem die Geschichte der Erziehungswissenschaft."
+          ],
+          "correct": 1,
+          "expl": "Ein grundlegendes Überblicks- und Methodenmodul: Methoden werden theoretisch kennengelernt und praktisch angewendet.",
+          "flagged": false
+        },
+        {
+          "id": "c11nhyh6",
+          "session": "Sitzung 1",
+          "q": "Warum steht in einem bildungswissenschaftlichen Studium eine Methodenlehre am Anfang?",
+          "options": [
+            "Weil Statistik das einzige Studienziel ist.",
+            "Damit Erkenntnisse systematisch, nachvollziehbar und überprüfbar statt nur alltagsintuitiv gewonnen werden.",
+            "Weil ohne sie keine Hausarbeiten geschrieben werden dürfen.",
+            "Weil sie die Literaturrecherche ersetzt."
+          ],
+          "correct": 1,
+          "expl": "Methodik sichert nachvollziehbares, überprüfbares Vorgehen und schützt vor Fehlschlüssen.",
+          "flagged": false
+        },
+        {
+          "id": "c1tsj97i",
+          "session": "Sitzung 1",
+          "q": "Wie ist das wöchentliche Zusammenspiel von Vorlesung und Seminar organisiert?",
+          "options": [
+            "Seminar und Vorlesung behandeln in derselben Woche dasselbe Thema.",
+            "Das Seminar läuft der Vorlesung eine Woche voraus.",
+            "Das Seminar ist gegenüber der Vorlesung um eine Woche versetzt und wendet die Inhalte an.",
+            "Vorlesung und Seminar sind inhaltlich voneinander unabhängig."
+          ],
+          "correct": 2,
+          "expl": "Seminarthemen sind um eine Woche versetzt – erst VL erarbeiten, dann im Seminar anwenden.",
+          "flagged": false
+        },
+        {
+          "id": "c1titpa1",
+          "session": "Sitzung 1",
+          "q": "Welche Rolle hat die empfohlene Literatur (Selbststudium) im Modul?",
+          "options": [
+            "Sie ersetzt die Vorlesung vollständig.",
+            "Sie ist optionaler Zusatzstoff ohne Prüfungsrelevanz.",
+            "Kurze, essenzielle Texte werden mit Leitfragen bearbeitet, um zu vertiefen und das Seminar vorzubereiten.",
+            "Sie besteht aus umfangreichen Monografien, die auswendig zu lernen sind."
+          ],
+          "correct": 2,
+          "expl": "„Very short, and essential“ – Texte mit Leitfragen zur Vertiefung und Seminarvorbereitung.",
+          "flagged": false
+        },
+        {
+          "id": "c108zpf6",
+          "session": "Sitzung 1",
+          "q": "Eine Studentin hat die Vorlesung gehört und die empfohlenen Texte mit den Leitfragen bearbeitet. Was ist laut Modulkonzept der vorgesehene nächste Schritt?",
+          "options": [
+            "Direkt die Klausur schreiben.",
+            "Im Seminar die Inhalte durch Übungsaufgaben (oft in Kleingruppen) anwenden.",
+            "Das Thema überspringen.",
+            "Die Vorlesung derselben Woche erneut hören."
+          ],
+          "correct": 1,
+          "expl": "Vorbereitung durch VL + Texte, danach Anwendung und Festigung im Seminar.",
+          "flagged": false
+        },
+        {
+          "id": "c16u8l7",
+          "session": "Sitzung 1",
+          "q": "Welche Aussage zur Modulabschlussprüfung von ewb002 trifft zu?",
+          "options": [
+            "Sie ist eine mündliche Prüfung.",
+            "Präsenzklausur mit überwiegend offenem Frage-/Antwort-Format; bestanden ab 50 % der Punkte.",
+            "Sie besteht ausschließlich aus Multiple-Choice.",
+            "Bestanden ist man erst ab 70 %."
+          ],
+          "correct": 1,
+          "expl": "Präsenzklausur, überwiegend offenes Format (ergänzt um geschlossene Aufgaben), Bestehensgrenze 50 %.",
+          "flagged": false
+        },
+        {
+          "id": "c1c09lce",
+          "session": "Sitzung 1",
+          "q": "„Wie kann ich mir einen Überblick über schon vorhandene wissenschaftliche Erkenntnisse verschaffen?“ – auf welche Modul-Etappe zielt diese Leitfrage?",
+          "options": [
+            "Datenerhebung",
+            "Wissenschaftliche Literaturrecherche",
+            "Deskriptive Statistik",
+            "Gütekriterien"
+          ],
+          "correct": 1,
+          "expl": "Der Überblick über vorhandene Erkenntnisse = Literaturrecherche; sie steht am Anfang des Moduls.",
+          "flagged": false
+        },
+        {
+          "id": "cp58ivj",
+          "session": "Sitzung 1",
+          "q": "„Wie kann ich die Qualität einer empirischen Untersuchung einschätzen?“ – welchem späteren Modulthema entspricht diese Leitfrage?",
+          "options": [
+            "Gütekriterien der Sozialforschung",
+            "Stichprobenziehung",
+            "Operationalisierung",
+            "z-Transformation"
+          ],
+          "correct": 0,
+          "expl": "Qualität/Güte einer Untersuchung wird über die Gütekriterien beurteilt.",
+          "flagged": false
+        },
+        {
+          "id": "c1vqgukt",
+          "session": "Sitzung 3",
+          "q": "Welche Beschreibung trifft auf eine empirisch bedeutsame Theorie (im weiteren Sinn) am besten zu?",
+          "options": [
+            "Eine bloße Vermutung, die sich nicht überprüfen lässt.",
+            "Eine Menge verknüpfter Aussagen, von denen sich zumindest ein Teil auf empirisch prüfbare Zusammenhänge zwischen Variablen bezieht.",
+            "Eine einzelne, bereits endgültig bewiesene Aussage.",
+            "Eine mathematische Formel ohne Bezug zur Realität."
+          ],
+          "correct": 1,
+          "expl": "Empirisch bedeutsam heißt: mindestens eine nichtleere Teilmenge der Aussagen bezieht sich auf prüfbare Zusammenhänge zwischen Variablen.",
+          "flagged": false
+        },
+        {
+          "id": "c1yxwqi3",
+          "session": "Sitzung 3",
+          "q": "Eine Theorie ist so formuliert, dass sie durch Beobachtungen widerlegt werden könnte. Welches Gütekriterium ist damit erfüllt?",
+          "options": [
+            "Falsifizierbarkeit",
+            "Widerspruchsfreiheit",
+            "Objektivierbarkeit",
+            "Sparsamkeit"
+          ],
+          "correct": 0,
+          "expl": "Falsifizierbarkeit: Eine wissenschaftliche Theorie muss an der Realität scheitern können.",
+          "flagged": false
+        },
+        {
+          "id": "cmn39bh",
+          "session": "Sitzung 3",
+          "q": "„Bei gleicher Leistungsfähigkeit ist die Theorie mit weniger Annahmen vorzuziehen.“ Welches Kriterium ist gemeint?",
+          "options": [
+            "Empirischer Gehalt",
+            "Präzision",
+            "Einfachheit/Sparsamkeit (Ockhams Rasiermesser)",
+            "Falsifizierbarkeit"
+          ],
+          "correct": 2,
+          "expl": "Sparsamkeit bzw. Ockhams Rasiermesser: möglichst wenige Annahmen bei gleicher Erklärungsleistung.",
+          "flagged": false
+        },
+        {
+          "id": "c1d4r1bj",
+          "session": "Sitzung 3",
+          "q": "Wie hängen im Pfaddiagramm Theorie, Hypothesen und Daten zusammen?",
+          "options": [
+            "Aus der Theorie werden Hypothesen abgeleitet, die auf der Datenebene über messbare Variablen geprüft werden.",
+            "Aus einzelnen Daten wird ohne Hypothesen direkt die Theorie bewiesen.",
+            "Hypothesen und Theorie sind von den Daten unabhängig.",
+            "Die Daten ersetzen die Theorie vollständig."
+          ],
+          "correct": 0,
+          "expl": "Theorie → abgeleitete Hypothesen → Prüfung über messbare Variablen (Daten).",
+          "flagged": false
+        },
+        {
+          "id": "c1kcvbnz",
+          "session": "Sitzung 3",
+          "q": "Eine Hypothese behauptet, ein Zusammenhang trete mit einer gewissen Wahrscheinlichkeit auf. Welcher Typ ist das?",
+          "options": [
+            "Deterministische Hypothese",
+            "Probabilistische Hypothese",
+            "Kausalhypothese",
+            "Trendhypothese"
+          ],
+          "correct": 1,
+          "expl": "Probabilistische (Wahrscheinlichkeits-)Hypothese: Auftreten nur mit gewisser Wahrscheinlichkeit – in der Sozialforschung der Regelfall.",
+          "flagged": false
+        },
+        {
+          "id": "c52v78m",
+          "session": "Sitzung 3",
+          "q": "„Je höher die investierte Lernzeit, desto besser die Klausurnote.“ Welcher Hypothesentyp liegt vor?",
+          "options": [
+            "Wenn-dann-Hypothese",
+            "Je-desto-Hypothese",
+            "Trendhypothese",
+            "Kontexthypothese"
+          ],
+          "correct": 1,
+          "expl": "„Je … desto …“ kennzeichnet eine Je-desto-Hypothese (Stärke-Zusammenhang zweier Merkmale).",
+          "flagged": false
+        },
+        {
+          "id": "c1r5xghy",
+          "session": "Sitzung 3",
+          "q": "„Wenn Schüler:innen regelmäßiges Feedback erhalten, dann steigt ihre Motivation.“ Welcher Hypothesentyp?",
+          "options": [
+            "Je-desto-Hypothese",
+            "Wenn-dann-Hypothese",
+            "Trend-/Entwicklungshypothese",
+            "Kollektivhypothese"
+          ],
+          "correct": 1,
+          "expl": "„Wenn … dann …“ verknüpft eine Bedingung mit einer Folge = Wenn-dann-Hypothese.",
+          "flagged": false
+        },
+        {
+          "id": "cjtlzok",
+          "session": "Sitzung 3",
+          "q": "In Regionen mit höherem Anteil praktizierender Katholik:innen ist der CDU/CSU-Stimmenanteil höher. Daraus wird gefolgert: „Praktizierende Katholik:innen wählen bevorzugt CDU/CSU.“ Welcher Fehler droht?",
+          "options": [
+            "Ökologischer Fehlschluss (Schluss von Kollektiv- auf Individualebene)",
+            "Ein Trendfehler über die Zeit",
+            "Eine Störvariable",
+            "Ein Messfehler bei der abhängigen Variable"
+          ],
+          "correct": 0,
+          "expl": "Aus Aggregat-/Kollektivdaten lässt sich nicht sicher auf individuelles Verhalten schließen = ökologischer Fehlschluss.",
+          "flagged": false
+        },
+        {
+          "id": "c11qybcm",
+          "session": "Sitzung 3",
+          "q": "Bei welchem Hypothesentyp ist die unabhängige Variable ein Kollektivmerkmal und die abhängige ein Individualmerkmal?",
+          "options": [
+            "Individualhypothese",
+            "Kollektivhypothese",
+            "Kontexthypothese",
+            "Trendhypothese"
+          ],
+          "correct": 2,
+          "expl": "Kontexthypothese: UV = Kollektivmerkmal, AV = Individualmerkmal (der Kontext wirkt auf das Individuum).",
+          "flagged": false
+        },
+        {
+          "id": "c1uw08pl",
+          "session": "Sitzung 3",
+          "q": "Im Maus-Experiment wird gemessen, wie schnell Versuchspersonen reagieren, während das Eingabegerät (Maus vs. Tablett+Stift) variiert wird. Was ist die abhängige Variable?",
+          "options": [
+            "Das Eingabegerät",
+            "Die Reaktionszeit",
+            "Die Versuchsperson",
+            "Die Tageszeit"
+          ],
+          "correct": 1,
+          "expl": "Manipuliert wird das Eingabegerät (UV); gemessen wird u. a. die Reaktionszeit (AV).",
+          "flagged": false
+        },
+        {
+          "id": "c2q047z",
+          "session": "Sitzung 3",
+          "q": "In einem Experiment beeinflusst zusätzlich das unterschiedliche Alter der Versuchspersonen das Ergebnis, obwohl Alter nicht zur Fragestellung gehört. Wie nennt man eine solche Variable?",
+          "options": [
+            "Abhängige Variable",
+            "Unabhängige Variable",
+            "Störvariable",
+            "Kollektivmerkmal"
+          ],
+          "correct": 2,
+          "expl": "Ein ungewollter, nicht zur Fragestellung gehörender Einfluss auf die AV ist eine Störvariable.",
+          "flagged": false
+        },
+        {
+          "id": "c1k9gwaf",
+          "session": "Sitzung 3",
+          "q": "Die Variable „Geschlecht“ mit den Kategorien weiblich/männlich/divers ist …",
+          "options": [
+            "stetig/kontinuierlich",
+            "diskret und dichotom",
+            "diskret und polytom",
+            "nicht kategorisierbar"
+          ],
+          "correct": 2,
+          "expl": "Abzählbare Kategorien → diskret; mehr als zwei Ausprägungen → polytom.",
+          "flagged": false
+        },
+        {
+          "id": "c3g792d",
+          "session": "Sitzung 3",
+          "q": "Eine Kategorisierung ist so gestaltet, dass sich die Kategorien nicht überlappen und jeder Fall genau einer Kategorie zugeordnet werden kann. Welche Eigenschaften sind erfüllt?",
+          "options": [
+            "Nur disjunkt",
+            "Nur erschöpfend",
+            "Disjunkt und erschöpfend (exhaustiv)",
+            "Dichotom"
+          ],
+          "correct": 2,
+          "expl": "Nicht überlappend = disjunkt; jeder Fall zuordenbar = erschöpfend/exhaustiv.",
+          "flagged": false
+        },
+        {
+          "id": "capy68y",
+          "session": "Sitzung 3",
+          "q": "„Die durchschnittliche Mathematiknote einer Schulklasse“ ist ein …",
+          "options": [
+            "Individualmerkmal",
+            "Kollektivmerkmal",
+            "Störvariable",
+            "latentes Merkmal"
+          ],
+          "correct": 1,
+          "expl": "Ein auf die Gruppe (Klasse) bezogenes Merkmal ist ein Kollektivmerkmal.",
+          "flagged": false
+        }
+      ],
+      "exam": []
+    }
+  ]
+}

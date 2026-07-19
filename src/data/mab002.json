@@ -1,0 +1,3115 @@
+{
+  "id": "mab002",
+  "name": "mab002",
+  "tracks": [
+    {
+      "id": "vorlesung",
+      "label": "Vorlesung",
+      "sessions": [
+        "Sitzung 1",
+        "Sitzung 2",
+        "Sitzung 3",
+        "Sitzung 4",
+        "Sitzung 5",
+        "Sitzung 6",
+        "Sitzung 7",
+        "Sitzung 8",
+        "Sitzung 9",
+        "Sitzung 10",
+        "Sitzung 11",
+        "Sitzung 12",
+        "Probeklausur"
+      ],
+      "flashcards": [
+        {
+          "id": "c17u4n2p",
+          "session": "Sitzung 1",
+          "q": "Nennen Sie einige Merkmale guten Unterrichts nach Meyer und erläutern Sie exemplarisch zwei bis drei davon.",
+          "a": "Meyer (2024) nennt insgesamt zehn Merkmale guten Unterrichts, von denen in einer Prüfung realistischerweise nur ein Ausschnitt gefragt wird - es reicht, zwei bis drei sicher mit Beispiel erläutern zu können. Klare Strukturierung bedeutet, dass der Unterricht einem erkennbaren roten Faden aus Einstieg, Erarbeitung und Sicherung folgt, etwa wenn bei der Bruchrechnung zunächst ein Alltagsbezug hergestellt wird, bevor die fachliche Notation folgt. Inhaltliche Klarheit zeigt sich in verständlichen Aufgabenstellungen und einer verbindlichen Ergebnissicherung, zum Beispiel einem gemeinsam erarbeiteten Merkplakat. Intelligentes Üben meint bewusst ausgewählte Übungsaufgaben, die Lernstrategien fördern, etwa operative Päckchen, in denen Zusammenhänge zwischen Aufgaben entdeckt werden, statt Inhalte nur mechanisch zu wiederholen.",
+          "hint": "Denk an 10 Stichpunkte, u.a. Struktur, Lernzeit, Klima, Üben.",
+          "herkunft": "selbst",
+          "flagged": false
+        },
+        {
+          "id": "c5jxv2f",
+          "session": "Sitzung 1",
+          "q": "Vergleichen Sie Meyer und Helmke und erläutern Sie den typischen wissenschaftlichen Umgang mit solchen Modellen.",
+          "a": "Neben Meyer nennt auch Helmke (2008) zehn Merkmale der Unterrichtsqualität, etwa Strukturiertheit und Verständlichkeit, effiziente Klassenführung, lernförderliches Klima, Ziel- und Kompetenzorientierung, Schülerorientierung, Methodenvariation, Aktivierung, intelligentes Üben, Motivierung und Passung an heterogene Lernvoraussetzungen. Beide Modelle überschneiden sich stark, etwa bei Klarheit, Klima und intelligentem Üben, setzen aber unterschiedliche Akzente: Helmke betont Zielorientierung und Aktivierung stärker, Meyer die vorbereitete Umgebung. Typisch für die Fachdidaktik ist es, verschiedene Modelle gegenüberzustellen und zu vergleichen statt ein einzelnes als allein gültig zu setzen. Genau das leistet das PIKAS-Plakat, das als mathematikdidaktische Ausschärfung unter Rückgriff auf Helmke, Meyer und Selter entstand.",
+          "hint": "Zwei Modelle mit 10 ähnlichen, aber unterschiedlich akzentuierten Merkmalen.",
+          "herkunft": "selbst",
+          "flagged": false
+        },
+        {
+          "id": "c13r34h6",
+          "session": "Sitzung 1",
+          "q": "Erläutern Sie das Merkmal 'Ergiebige Aufgaben' aus dem PIKAS-Plakat mit zwei Teilaspekten.",
+          "a": "Das PIKAS-Plakat übersetzt allgemeine Gütekriterien in acht fachspezifische Kategorien, darunter 'Ergiebige Aufgaben'. Gemeint ist, dass Aufgaben nicht nur der Reproduktion dienen, sondern fachlich substanziell und motivierend sind. Zwei Teilaspekte sind rahmende, sinnstiftend-motivierende Aufgabenstellungen mit tragfähigem Alltagsbezug oder innermathematischer Substanz sowie problembezogenes Denken und entdeckendes, beziehungsreiches Üben, bei dem Zusammenhänge zwischen Aufgaben erkundet statt nur ein Verfahren wiederholt wird.",
+          "hint": "PIKAS-Kategorie: Alltagsbezug + entdeckendes Lernen.",
+          "herkunft": "selbst",
+          "flagged": false
+        },
+        {
+          "id": "c1e3yfve",
+          "session": "Sitzung 2",
+          "q": "Erläutern Sie die drei Grunderfahrungen nach Winter (1995) mit je einem Beispiel.",
+          "a": "Winter (1995) nennt drei Grunderfahrungen, die der Mathematikunterricht ermöglichen soll. Erstens sollen Schülerinnen und Schüler Erscheinungen der Welt aus Natur, Gesellschaft und Kultur mit mathematischen Mitteln wahrnehmen und verstehen, zum Beispiel Wachstumsprozesse wie Zinsen mathematisch modellieren. Zweitens sollen mathematische Gegenstände als geistige Schöpfungen, als deduktiv geordnete Welt eigener Art kennengelernt werden, etwa der Aufbau eines Beweises als in sich schlüssiges System. Drittens sollen in der Auseinandersetzung mit Aufgaben heuristische Fähigkeiten erworben werden, die über die Mathematik hinausgehen, beispielsweise systematisches Probieren. Die Grunderfahrungen sind sehr einflussreich und wurden unter anderem in den Bildungsstandards aufgegriffen.",
+          "hint": "3 Punkte: Welt, Mathematik als eigene Welt, Heurismen.",
+          "herkunft": "selbst",
+          "flagged": false
+        },
+        {
+          "id": "c1b5f5y8",
+          "session": "Sitzung 2",
+          "q": "Stellen Sie das Allgemeinbildungskonzept nach Heymann dar und vertiefen Sie Weltorientierung.",
+          "a": "Heymann (1996) nennt sieben Aufgabenbereiche von Allgemeinbildung: Lebensvorbereitung, Stiftung kultureller Kohärenz, Weltorientierung, Anleitung zum kritischen Vernunftgebrauch, Entfaltung von Verantwortungsbereitschaft, Einübung in Verständigung und Kooperation sowie Stärkung des Schüler-Ichs. Weltorientierung meint die Vermittlung von Basiswissen für die Teilhabe an gesellschaftlichen Prozessen: Schülerinnen und Schüler sollen erfahren, wie mathematisches Wissen zur Deutung und Modellierung alltäglicher Phänomene beiträgt, etwa beim Einordnen von Statistiken. Dieser Aspekt gewinnt laut Reiss und Hammer (2021) in einer zunehmend digitalen Welt weiter an Bedeutung.",
+          "hint": "7 Aufgabenbereiche, einer betrifft die Teilhabe an der Gesellschaft.",
+          "herkunft": "selbst",
+          "flagged": false
+        },
+        {
+          "id": "cum6ths",
+          "session": "Sitzung 2",
+          "q": "Nennen und erläutern Sie die drei Anforderungsbereiche der Bildungsstandards.",
+          "a": "Anforderungsbereich I, Reproduzieren, umfasst die Wiedergabe von Grundwissen und die direkte Anwendung grundlegender Begriffe und Verfahren. Anforderungsbereich II, Zusammenhänge herstellen, verlangt das selbstständige Auswählen und Verknüpfen bekannter Kenntnisse und Fähigkeiten aus verschiedenen Gebieten. Anforderungsbereich III, Verallgemeinern und Reflektieren, betrifft das Bearbeiten komplexer oder unbekannter Sachverhalte mit dem Ziel eigener Problemformulierungen, Begründungen oder Folgerungen. Die Anforderungsbereiche gelten für Primarstufe und Sekundarstufe I gleichermaßen und bilden eine der drei Dimensionen des Kompetenzmodells.",
+          "hint": "Reproduzieren – Zusammenhänge – Verallgemeinern.",
+          "herkunft": "selbst",
+          "flagged": false
+        },
+        {
+          "id": "cawwmlm",
+          "session": "Sitzung 2",
+          "q": "Beschreiben Sie das dreidimensionale Kompetenzmodell der Bildungsstandards für ESA und MSA mit Beispielen.",
+          "a": "Das Kompetenzmodell besteht aus drei Dimensionen. Die Anforderungsbereiche unterscheiden Reproduzieren, Zusammenhänge herstellen und Verallgemeinern und Reflektieren, etwa ist das schriftliche Lösen einer geübten Gleichung Anforderungsbereich I, die Übertragung auf eine neue Textaufgabe Anforderungsbereich III. Die inhaltsbezogenen Kompetenzen, die Leitideen, umfassen fachliche Bereiche wie Zahl, Messen, Raum und Form, funktionaler Zusammenhang sowie Daten und Zufall, etwa die Berechnung von Flächeninhalten in der Leitidee Raum und Form. Die prozessbezogenen Kompetenzen umfassen übergreifende Fähigkeiten wie Argumentieren, Probleme lösen, Modellieren, Darstellungen verwenden, mit symbolischen Elementen umgehen und Kommunizieren, etwa wird beim Lösen einer Modellierungsaufgabe zu Handyverträgen die Kompetenz Modellieren angesprochen. Die drei Dimensionen sind unabhängig voneinander, jede Aufgabe lässt sich zugleich allen dreien zuordnen; für ESA und MSA gilt dieselbe Struktur, unterschieden nur im Anspruchsniveau.",
+          "hint": "Piaget: Wechselwirkung zwischen Individuum und Umwelt, 3 Begriffe.",
+          "herkunft": "selbst",
+          "flagged": false
+        },
+        {
+          "id": "c1soorlf",
+          "session": "Sitzung 3",
+          "q": "Erläutern Sie die Entwicklung des mathematischen Denkens nach Piaget (Assimilation, Akkommodation, Äquilibration).",
+          "a": "Piaget und Inhelder verstehen Lernen als Wechselwirkung zwischen Individuum und Umwelt. Das Kind versucht, neue Erfahrungen so einzupassen, dass es mit der Welt im Gleichgewicht steht, der Äquilibration. Dafür kann es neue Erfahrungen in ein vorhandenes Schema einfügen, die Assimilation, oder, wenn das nicht möglich ist, ein Schema anpassen beziehungsweise neu aufbauen, die Akkommodation. Begegnet ein Kind, das nur die Addition natürlicher Zahlen kennt, erstmals negativen Zahlen, reicht Assimilation nicht mehr aus; das Schema muss akkommodiert werden, um zu einem neuen Gleichgewicht zu gelangen.",
+          "hint": "Bruner: früh grundlegen, später wieder aufgreifen.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cedh4fy",
+          "session": "Sitzung 3",
+          "q": "Erläutern Sie das Spiralprinzip nach Bruner mit einem Beispiel.",
+          "a": "Bruner fordert, fundamentale Ideen bereits im Anfangsunterricht kindgerecht, aber intellektuell redlich zu vermitteln und sie auf späteren Lernstufen erneut aufzugreifen, dabei strukturell angereichert. Intellektuell redlich heißt, dass später nichts zurückgenommen werden muss, was zuvor gelernt wurde; kindertümelnde Scheinvereinfachungen führen sonst zu Brüchen im Lernprozess. Bildlich wird das als Schraubenlinie dargestellt, die sich auf ein höheres Niveau windet und zunehmend mehr Konzepte integriert. Beispiel: Flächeninhalt wird in der Grundschule enaktiv durch Auslegen mit Einheitsquadraten erarbeitet, in der Sekundarstufe I über Formeln vertieft und in der Sekundarstufe II in der Integralrechnung neu gefasst.",
+          "hint": "3 Ebenen: handelnd – bildlich – symbolisch.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1jv1igx",
+          "session": "Sitzung 3",
+          "q": "Erläutern Sie das EIS-Prinzip mit einem Beispiel.",
+          "a": "Das EIS-Prinzip unterscheidet drei Repräsentationsebenen: enaktiv, also handelnd über konkretes Tun; ikonisch, also bildhaft; und symbolisch, über Zahlen- und Formelsprache. Zentral ist der intermodale Transfer, also der flexible Wechsel zwischen den Ebenen, da erst er Verständnis absichert. Beispiel: Der Bruch drei Viertel wird enaktiv durch Teilen eines Kuchens, ikonisch als Kreisdiagramm mit markierten Feldern und symbolisch als 3/4 dargestellt; erst der sichere Wechsel zwischen diesen Ebenen zeigt ein tragfähiges Verständnis.",
+          "hint": "Aebli: Handeln allein reicht nicht, was ist entscheidend?",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cna0qgn",
+          "session": "Sitzung 3",
+          "q": "Erläutern Sie das operative Prinzip nach Aebli und konkretisieren Sie es an einem Beispiel.",
+          "a": "Aebli, Schüler Piagets, sieht im Handeln der Schülerinnen und Schüler, real wie gedanklich, die Basis allen Wissenserwerbs; er folgt dabei Piaget wie Bruner. Entscheidend ist seine Warnung vor rein mechanischer Handhabung von Material: Konkretes Handeln allein reicht nicht für Verständnis. Wird die Struktur der Handlung nicht durchschaut, nützt auch deren bloße Vorstellung nichts; entscheidend ist das Bewusstsein der beteiligten Beziehungen. Beispiel: Beim operativen Üben der Subtraktion legen Kinder Plättchen, nehmen eine Teilmenge weg und benennen die Beziehung zwischen Gesamtmenge, weggenommener und verbleibender Menge; schüttet ein Kind die Plättchen dagegen nur mechanisch um, ohne diese Beziehung zu reflektieren, findet kein operatives Lernen statt.",
+          "hint": "Zusammenhänge zwischen Aufgaben entdecken, z.B. Zahlenpäckchen.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1s42km0",
+          "session": "Sitzung 3",
+          "q": "Erläutern Sie produktives Üben und konkretisieren Sie es an einem Beispiel.",
+          "a": "Produktives Üben zielt darauf, beim Wiederholen nicht nur ein Verfahren einzuschleifen, sondern Zusammenhänge zwischen Aufgaben zu entdecken. Statt unverbundener Einzelaufgaben werden operative Päckchen eingesetzt, bei denen die Veränderung einer Zahl das Ergebnis systematisch verändert, sodass Struktur und Gesetzmäßigkeiten erkannt werden. Beispiel: Im Päckchen 4+3, 14+3, 24+3 untersuchen Schülerinnen und Schüler, was sich am Ergebnis ändert, wenn ein Summand um 10 erhöht wird, und festigen dabei zugleich die Struktur des Stellenwertsystems. So verbindet produktives Üben Übung und Entdeckung und steht im Gegensatz zum mechanischen Abarbeiten gleichartiger, unverbundener Aufgaben.",
+          "hint": "Schüler*innen untersuchen selbst, statt Regel vorgegeben zu bekommen.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cwesp2q",
+          "session": "Sitzung 3",
+          "q": "Erläutern Sie entdeckendes Lernen mit einem Beispiel.",
+          "a": "Entdeckendes Lernen bedeutet, dass Zusammenhänge nicht vorgegeben, sondern durch aktive Auseinandersetzung mit gut gewählten Aufgaben selbst erkundet werden; es hängt eng mit dem operativen Prinzip und ergiebigen Aufgaben zusammen. Statt die Regel gerade plus gerade ist gerade vorzugeben, untersuchen Schülerinnen und Schüler selbst mehrere Beispiele, stellen eine Vermutung auf und versuchen, diese zu begründen.",
+          "hint": "Ein Kontinuum von alltäglich bis formal.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1qrywzo",
+          "session": "Sitzung 4",
+          "q": "Erläutern Sie, warum Beweisen und Argumentieren als konzeptuell verbundene Begriffe verstanden werden.",
+          "a": "Argumentieren und Beweisen bilden ein Kontinuum statt zweier getrennter Kategorien: Auf der einen Seite steht alltagsbezogenes Argumentieren, an Beispiele gebunden und auf enaktiv-ikonischer Ebene, auf der anderen formal-deduktives Beweisen auf formalsymbolischer Ebene. Dazwischen liegt logisches Argumentieren mit mathematischen Mitteln. Beweisen ist somit eine besonders formalisierte Form des Argumentierens; beide dienen demselben Ziel, Behauptungen abzusichern, unterscheiden sich aber im Formalisierungsgrad.",
+          "hint": "Nur 2 Funktionen: überzeugen und ...?",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1tzbjpc",
+          "session": "Sitzung 4",
+          "q": "Erklären Sie die Funktionen von Beweisen nach Hersh (1993).",
+          "a": "Hersh unterscheidet zwei Funktionen: die überzeugende Funktion, bei der es um die Überzeugungskraft der Argumente geht, um eine Aussage als wahr abzusichern, und die erklärende Funktion, bei der die Argumentation als sicheres Wissen interpretiert wird, das erklärt, warum eine Behauptung wahr ist, nicht nur dass sie wahr ist.",
+          "hint": "5 Funktionen, u.a. Kommunikation und Systematisierung.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1gxfyva",
+          "session": "Sitzung 4",
+          "q": "Erklären Sie die fünf Funktionen von Beweisen nach de Villiers (1990).",
+          "a": "De Villiers nennt fünf Funktionen: Verifikation, also das Überzeugen, dass eine Behauptung wahr ist; Erklärung, das Verstehbarmachen, warum sie gilt; Kommunikation, das Vermitteln von Wissen und Lösungswegen; Entdecken, das Erzeugen neuer Ergebnisse im Beweisprozess; und Systematisierung, das Vernetzen von Begriffen und Sätzen einer Theorie. Anders als Hersh zeigt de Villiers damit auch, dass Beweisen Erkenntnisgewinn und Theorieeinbettung leistet, nicht nur Absicherung.",
+          "hint": "3 Typen: experimentell, ..., formal-deduktiv.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c141twpy",
+          "session": "Sitzung 4",
+          "q": "Erläutern Sie die Beweistypen nach Wittmann und Müller, mit Fokus auf inhaltlich-anschaulich und formal-deduktiv.",
+          "a": "Wittmann und Müller unterscheiden den experimentellen Beweis, der eine Aussage nur an einzelnen Beispielen absichert, den inhaltlich-anschaulichen beziehungsweise operativen Beweis, der sich auf Konstruktionen stützt, von denen intuitiv erkennbar ist, dass sie für eine ganze Klasse von Beispielen gelten, und der bereits eine Verallgemeinerung leistet, sowie den formal-deduktiven Beweis, der als streng logische Beweiskette in formaler Sprache dargestellt wird. Für die Primarstufe ist besonders der inhaltlich-anschauliche Beweis bedeutsam, da er an konkrete Handlungen anschlussfähig ist, etwa Beweisen mit Rechensteinen.",
+          "hint": "Primarstufe: Aussagen hinterfragen, Vermutungen, Begründungen.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "csvg8wd",
+          "session": "Sitzung 4",
+          "q": "Beschreiben Sie die Anforderungen der Bildungsstandards zum Argumentieren für Primarstufe und Sekundarstufe I.",
+          "a": "Nach den Bildungsstandards für die Primarstufe entwickeln Kinder ein Bewusstsein für strittige Fragen zu mathematischen Gegenständen und ein Bedürfnis, diese überzeugend aufzuklären: Sie hinterfragen Aussagen und prüfen sie auf Korrektheit, stellen Vermutungen auf und formulieren Begründungen bzw. vollziehen fremde Begründungen nach, vom beispielgebundenen Prüfen bis zu verallgemeinernden, inhaltlich-anschaulichen Überlegungen. In der Sekundarstufe I steigen die Anforderungen: Zunehmend formalere Begründungen und einfache deduktive Argumentationsketten sollen nachvollzogen und selbst entwickelt werden, wodurch der Übergang zum formal-deduktiven Beweisen vorbereitet wird.",
+          "hint": "Werkzeuge wie Rechensteine als Brücke zum Beweis.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1o0jove",
+          "session": "Sitzung 4",
+          "q": "Erläutern Sie Argumentieren in der Primarstufe und die Rolle von Forschermitteln.",
+          "a": "In der Primarstufe setzt Argumentieren an konkreten, anschaulichen Zugängen an: Kinder erkunden Vermutungen zunächst an Beispielen und begründen sie mit Anschauungsmitteln. Forschermittel wie Rechensteine oder das Hunderterfeld helfen dabei, Zusammenhänge handelnd zu erkunden und nachvollziehbar zu machen; sie bilden eine Brücke zwischen Handeln und ersten inhaltlich-anschaulichen Beweisen, etwa wenn die Kommutativität der Addition an einer Steinmusterlegung gezeigt wird.",
+          "hint": "Plättchen verschieben in der Stellentafel – welche Zahl entsteht?",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1iwfnjo",
+          "session": "Sitzung 4",
+          "q": "Analysieren Sie die Begründung zur Teilbarkeitsregel für 9 (Verschieben von Plättchen in der Stellentafel in die Einerspalte ergibt die Quersumme; jede Verschiebung um eine Stelle verkleinert die Zahl um ein Vielfaches von 9). Ist das ein Beweis? Welche Funktionen nach de Villiers treffen zu?",
+          "a": "Es handelt sich um einen inhaltlich-anschaulichen bzw. operativen Beweis: Die Konstruktion mit den Stellenwert-Plättchen ist intuitiv nachvollziehbar, gilt erkennbar für jede beliebige Zahl und leistet damit bereits eine echte Verallgemeinerung, auch ohne rein formal-symbolische Sprache. Nach de Villiers erfüllt die Begründung die Verifikationsfunktion, überzeugend die Regel zu bestätigen, vor allem aber die Erklärungsfunktion, da sichtbar wird, warum jede Verschiebung ein Vielfaches von 9 abzieht. Zusätzlich erfüllt sie eine Systematisierungsfunktion, da sie den Zusammenhang mit dem Stellenwertsystem vernetzt.",
+          "hint": "6 Schritte: lösen, Kompetenz, AB zuordnen, Beweistyp, Unterstützung.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c14731hq",
+          "session": "Sitzung 4",
+          "q": "Erläutern Sie allgemein, wie Sie eine Aufgabe hinsichtlich ihrer Anforderungen zum Argumentieren theoriebasiert analysieren würden.",
+          "a": "Zunächst löst man die Aufgabe selbst, um die erwartete Begründung nachzuvollziehen. Dann klärt man, welche inhaltsbezogene Kompetenz und welche prozessbezogene Kompetenz, hier Argumentieren, gefördert wird, ordnet die Teilaufgaben den Anforderungsbereichen eins bis drei zu und bestimmt, welcher Beweistyp erwartet wird, experimentell, inhaltlich-anschaulich oder formal-deduktiv, passend zur Schulstufe. Abschließend überlegt man, wie die Lehrkraft Unterstützung anbieten kann, etwa durch Forschermittel oder Differenzierung.",
+          "hint": "Primar vs. Sek I, unter-/überbestimmte Situationen.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c39sa64",
+          "session": "Sitzung 5",
+          "q": "Beschreiben Sie die Anforderungen der Bildungsstandards zum Modellieren für Primarstufe und Sekundarstufe I.",
+          "a": "In der Primarstufe sollen Kinder einfachen Sachsituationen relevante Informationen entnehmen, sie in ein mathematisches Modell übersetzen, innermathematisch lösen und das Ergebnis auf die Ausgangssituation zurückbeziehen. In der Sekundarstufe I steigen die Anforderungen: Auch unter- oder überbestimmte Situationen werden erfasst, ein Modell selbstständig entwickelt, bearbeitet und die Ergebnisse kritisch reflektiert und das Modell bei Bedarf verbessert.",
+          "hint": "Vereinfachte Repräsentation, real vs. mathematisch.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c19lymzp",
+          "session": "Sitzung 5",
+          "q": "Erläutern Sie den Begriff Modell.",
+          "a": "Ein Modell ist eine vereinfachte, auf das Wesentliche reduzierte Repräsentation eines Ausschnitts der Realität, die erlaubt, ein reales Problem mit mathematischen Mitteln zu bearbeiten. Unterschieden werden das reale Modell, eine vereinfachte Fassung der Situation, und das mathematische Modell, dessen Übersetzung in mathematische Sprache. Modelle sind Vereinfachungen und daher revisionsbedürftig, wenn Ergebnisse der Realität widersprechen.",
+          "hint": "3 Varianten je nach Anzahl der Zwischenschritte.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c12gj6dv",
+          "session": "Sitzung 5",
+          "q": "Beschreiben Sie direktes, zweischrittiges und dreischrittiges Mathematisieren mit Einsatzbereichen.",
+          "a": "Beim direkten Mathematisieren führt der Weg ohne ausgewiesene Zwischenschritte von der Realsituation zum mathematischen Modell, geeignet für einfache Situationen. Beim zweischrittigen Mathematisieren wird ein reales Modell als Zwischenschritt eingeführt; es gilt als didaktischer Standardkreislauf für den Unterricht. Beim dreischrittigen Mathematisieren nach Blum und Leiß wird zusätzlich ein Situationsmodell als mentale Repräsentation ausgewiesen; dieser Kreislauf eignet sich besonders zur Analyse individueller kognitiver Bearbeitungsprozesse.",
+          "hint": "Herr Stein, Trier, Luxemburg – welche 5 Phasen?",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1jvv996",
+          "session": "Sitzung 5",
+          "q": "Ordnen Sie die Schritte eines Lösungswegs zur 'Tanken'-Aufgabe (Herr Stein fährt von Trier nach Luxemburg zum günstigeren Tanken) den Phasen des zweischrittigen Modellierungskreislaufs zu.",
+          "a": "Vereinfachen: Annahme einer vollen Tankfüllung von 50 Litern, 40 km Umweg, Verbrauch 6 Liter pro 100 km, Zeitkosten unberücksichtigt. Mathematisieren: Ersparnis pro Liter 0,25 Euro, bei 50 Litern 12,50 Euro; Mehrverbrauch für den Umweg 2,4 Liter, Mehrkosten etwa 2,64 Euro. Innermathematisches Rechnen: Nettoersparnis 12,50 minus 2,64 gleich 9,86 Euro. Interpretieren: Die Fahrt lohnt sich bei einer vollen Tankfüllung finanziell. Validieren: Prüfung der Annahmen, etwa ob eine kleinere Tankmenge oder Zeitkosten das Ergebnis ändern würden.",
+          "hint": "Vereinfachen, Mathematisieren, Rechnen, Interpretieren, Validieren.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1a75wj0",
+          "session": "Sitzung 5",
+          "q": "Erläutern Sie allgemein, wie Sie Phasen eines Lösungswegs den Schritten eines Modellierungskreislaufs zuordnen würden.",
+          "a": "Schritte eines Lösungswegs, die die Realsituation vereinfachen und strukturieren, entsprechen dem Übergang zum realen Modell. Schritte, die die Situation in eine Rechnung oder Formel übersetzen, entsprechen dem Mathematisieren. Das innermathematische Rechnen entspricht dem Arbeiten im mathematischen Modell. Schritte, die das Ergebnis wieder auf die Ausgangssituation beziehen und bewerten, entsprechen dem Interpretieren und Validieren; bei Unstimmigkeit wird der Kreislauf erneut durchlaufen.",
+          "hint": "Gesamtprozess vs. einzelne Kreislaufschritte.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "czchc1x",
+          "session": "Sitzung 5",
+          "q": "Erläutern Sie globale Modellierungskompetenzen und Teilkompetenzen.",
+          "a": "Modellierungskompetenz meint die Fähigkeit und Bereitschaft, reale Probleme mit mathematischen Mitteln zu bearbeiten. Globale Modellierungskompetenzen bezeichnen die Kompetenz, den gesamten Modellierungsprozess selbstständig durchzuführen und zu reflektieren. Teilkompetenzen sind die für die einzelnen Kreislaufschritte nötigen Kompetenzen, etwa ein reales Modell aufzustellen. Die Aufteilung reduziert Komplexität, erleichtert Aufgabenkonstruktion und ermöglicht gezielte Förderung als Baustein der globalen Kompetenz.",
+          "hint": "4 Kategorien: inhaltsorientiert, prozessbezogen, ...",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c4utqbn",
+          "session": "Sitzung 5",
+          "q": "Diskutieren Sie die Ziele des Modellierens im Mathematikunterricht.",
+          "a": "Inhaltsorientierte Ziele betreffen die Erschließung der Umwelt mit mathematischen Mitteln, entsprechend der ersten Winter'schen Grunderfahrung. Prozessbezogene Ziele fördern Problemlösen, Kommunizieren und Argumentieren, entsprechend der dritten Grunderfahrung. Lernpsychologische Ziele betreffen Verstehen und Behalten mathematischer Inhalte durch Anwendungsbezug, und schließlich sollen Motivation und Interesse durch realitätsnahe Kontexte gefördert werden.",
+          "hint": "3 Kategorien: Sachkontext, Offenheit, Über-/Unterbestimmtheit.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1nc99bc",
+          "session": "Sitzung 5",
+          "q": "Analysieren Sie Modellierungsaufgaben nach Rolle des Sachkontextes, Offenheit und Über-/Unterbestimmtheit.",
+          "a": "Der Sachkontext kann illustrativ sein, die Aufgabe wäre auch ohne ihn lösbar, oder konstitutiv, also für die Lösung notwendig. Offenheit beschreibt, wie klar Anfangszustand, Lösungsweg und Zielzustand vorgegeben sind. Überbestimmte Aufgaben enthalten mehr Informationen als nötig, wodurch relevante Daten ausgewählt werden müssen; unterbestimmte Aufgaben lassen Angaben fehlen, die selbst beschafft oder geschätzt werden müssen. Diese Kategorien sind unabhängig kombinierbar.",
+          "hint": "Unterbestimmt, Schätzen im Vordergrund, Klavierstimmer-Beispiel.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c13n9oir",
+          "session": "Sitzung 5",
+          "q": "Erläutern Sie den Begriff Fermi-Aufgaben.",
+          "a": "Fermi-Aufgaben sind unterbestimmte, offene Aufgaben mit klarem Endzustand, bei denen Anfangszustand oder Transformation zunächst unklar sind. Sie eignen sich für erste Modellierungstätigkeiten, da die Datenbeschaffung über mehrfaches, begründetes Schätzen im Vordergrund steht und der Umgang mit Ungenauigkeit thematisiert werden kann; weniger das Rechnen als die übrigen Kreislaufschritte wie Vereinfachen und Validieren stehen im Fokus. Beispiel: Wie viele Klavierstimmer gibt es in Deutschland?",
+          "hint": "Anfangs-/Endzustand, Barriere – wonach unterscheidet sich das?",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1ll8y6s",
+          "session": "Sitzung 6",
+          "q": "Grenzen Sie Problemlöseaufgaben von Routineaufgaben ab.",
+          "a": "Nach Pólya liegt ein Problem vor, wenn Anfangs- und Endzustand gegeben sind, ein Lösungsweg aber nicht unmittelbar bekannt ist und eine Barriere überwunden werden muss. Büchter und Leuders definieren entsprechend, eine Problemlöseaufgabe verlange eine Lösung zu finden, ohne dass ein passendes Verfahren auf der Hand liegt; der Prozess setzt ein, wenn aus mehreren Verfahren gewählt oder neue Ansätze entwickelt werden müssen. Bei Routineaufgaben dagegen kann ein bekanntes Verfahren unmittelbar angewendet werden, die Barriere fehlt. Modellhaft gilt: Anfangs- und Endzustand sind gegeben, alle möglichen Zwischenschritte bilden den Problemsuchraum, dessen Kenntnis von der individuellen Kompetenz abhängt. Ob eine Aufgabe Routine oder Problem ist, hängt somit vom individuellen Vorwissen ab.",
+          "hint": "Pólya: 2 Typen, einer sucht einen Gegenstand.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1llqd0r",
+          "session": "Sitzung 6",
+          "q": "Beschreiben Sie verschiedene Problemtypen im Mathematikunterricht.",
+          "a": "Problemtypisierungen beziehen sich auf unterschiedliche mathematische Tätigkeiten und Lernziele und helfen bei einer für das Lernziel passenden Problemauswahl. Eine zentrale Unterscheidung nach Pólya ist die zwischen Bestimmungsaufgaben, deren Ziel das Finden oder Konstruieren eines gesuchten Gegenstandes ist, etwa wie viele Möglichkeiten es gibt, einen Betrag aus Münzen zusammenzustellen, und Beweisaufgaben, deren Ziel ist zu entscheiden, ob eine Behauptung wahr oder falsch ist, und dies zu beweisen oder zu widerlegen, etwa ob die Summe zweier ungerader Zahlen stets gerade ist.",
+          "hint": "Ziel = Kompetenz selbst; Methode = ... wofür?",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cn52mg8",
+          "session": "Sitzung 6",
+          "q": "Erläutern Sie Zielaspekt und Methodenaspekt des Problemlösens.",
+          "a": "Der Zielaspekt versteht Problemlösen als eigenständig zu erlernende Kompetenz zur Befähigung selbstständigen Problemlösens, ein fächerübergreifendes Ziel gemäß den Bildungsstandards. Der Methodenaspekt versteht Problemlösen als Lernmethode, mit der andere fachliche Lernziele erreicht werden sollen, etwa wenn ein neuer Inhalt über eine Problemlöseaufgabe eingeführt wird. Beide Aspekte sind eng verbunden: Problemlösen ist zugleich Ziel und Methode des Unterrichts.",
+          "hint": "Prinzipien (Bruder/Collet) + Strategien (Vorwärts/Rückwärts).",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1ih98b4",
+          "session": "Sitzung 6",
+          "q": "Erläutern Sie Heurismen zum Problemlösen, wenden Sie sie an und erläutern Sie, wie Sie diese in Schülerlösungen identifizieren.",
+          "a": "Zu unterscheiden sind heuristische Prinzipien, etwa Symmetrieprinzip, Extremalprinzip, Invarianzprinzip, Zerlegen und Ergänzen sowie Fallunterscheidung, und heuristische Strategien wie systematisches Probieren, Vorwärts- und Rückwärtsarbeiten, Beispiele betrachten und Veranschaulichen. Beim Zerlegen und Ergänzen wird etwa eine unregelmäßige Fläche in Rechtecke und Dreiecke zerlegt und deren Inhalte summiert; beim Rückwärtsarbeiten wird vom gesuchten Endzustand her überlegt, welcher Schritt unmittelbar davor liegen müsste. In Schülerlösungen erkennt man solche Heurismen daran, dass gezielt strukturiert statt zufällig ausprobiert wird, etwa durch systematisches Durchprobieren aller Fälle oder erkennbares Rückwärtsargumentieren.",
+          "hint": "5 Aspekte nach Franke, einer betrifft die Raumvorstellung.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cnlr36z",
+          "session": "Sitzung 7",
+          "q": "Erläutern Sie die Bedeutung des Geometrieunterrichts anhand von fünf Aspekten.",
+          "a": "Nach Franke sollen fünf Aspekte den Geometrieunterricht prägen: das Sammeln geometrischer Erfahrungen zur Erschließung des Raumes, die Entwicklung der Raumvorstellung und räumlichen Orientierung, der Erwerb von Wissen über geometrische Begriffe, die Ausbildung von Problemlösefähigkeiten sowie das Herstellen von Bezügen zu anderen Bereichen wie der Arithmetik und zu anderen Fächern wie Sachunterricht oder Kunst. Geometrie leistet damit einen eigenständigen Beitrag zur Weltorientierung und ist zugleich fachlich vernetzend.",
+          "hint": "KMK 2022: räumliches Vorstellungsvermögen, was noch?",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1r9z3oy",
+          "session": "Sitzung 7",
+          "q": "Stellen Sie zentrale Charakteristika des Inhaltsbereichs Raum und Form in den Bildungsstandards dar.",
+          "a": "Für die Primarstufe wird gefordert, dass Kinder über räumliches Vorstellungsvermögen verfügen: Sie orientieren sich im Raum anhand von Wegen und Plänen, erkennen und nutzen räumliche Beziehungen, etwa zwischen Bauplan und Bauwerk oder Körper und Netz, und operieren gedanklich mit geometrischen Objekten durch Zerlegen, Falten, Drehen oder Spiegeln. Weitere Teilkompetenzen sind das Erkennen, Benennen und Darstellen geometrischer Figuren sowie geometrischer Abbildungen. Schulbuchaufgaben lassen sich entsprechend diesen Teilkompetenzen einordnen, etwa zur räumlichen Orientierung oder zu Abbildungen wie Spiegelungen.",
+          "hint": "6 Aspekte, einer betrifft dynamische Software (DGS).",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1r30jqq",
+          "session": "Sitzung 7",
+          "q": "Erläutern Sie die Aspekte des geometrischen Denkens.",
+          "a": "Geometrisches Denken umfasst nach Hattermann et al. Raumvorstellung und räumliches Strukturieren, Begriffsbildung, die Verwendung von Darstellungen, Problemlösen, Argumentieren und Beweisen sowie, im Kontext dynamischer Geometriesoftware, bewegliches Denken.",
+          "hint": "Mentale Vorstellung von Objekten und ... ?",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1ycnvei",
+          "session": "Sitzung 7",
+          "q": "Erläutern Sie den Begriff Raumvorstellung.",
+          "a": "Raumvorstellung bezeichnet die Fähigkeit, sich räumliche Objekte, deren Lagebeziehungen und Veränderungen wie Drehungen oder Spiegelungen mental vorzustellen, ohne dass die Objekte wahrnehmbar sein müssen. Sie ist eng mit räumlichem Strukturieren verbunden, etwa dem Erschließen von Würfelbauten aus Bauplänen, und gilt als zentrales Ziel des Geometrieunterrichts, gefördert durch Handlungserfahrungen mit Material.",
+          "hint": "Psychische vs. formale Struktur, Beispiel Rechteck.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cl1s77l",
+          "session": "Sitzung 7",
+          "q": "Stellen Sie zwei Arten der Begriffsbildung gegenüber, mit Beispiel.",
+          "a": "Ein Begriff lässt sich als Teil der psychischen Struktur des Individuums verstehen, geprägt durch Merkmale, Prototypen und Assoziationen, vieldeutig und konkret, oder als Teil der formalen Struktur der Mathematik, geprägt durch Definition und logische Zusammenhänge, eindeutig und abstrakt. Beim Rechteck denken Kinder individuell zunächst an einen länglichen Prototyp und grenzen davon Quadrate ab, während formal ein Rechteck über vier rechte Winkel definiert ist, wonach ein Quadrat ein Rechteck ist, eine Klasseninklusion, die auf der prototypgebundenen Stufe schwer zugänglich ist.",
+          "hint": "Bezeichner, Merkmale/Prototypen, Definition.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c10kus22",
+          "session": "Sitzung 7",
+          "q": "Erklären Sie die Elemente des Begriffsverständnisses.",
+          "a": "Vollständiges Begriffsverständnis integriert den Begriff als Bezeichner, also das Fachwort selbst, die inhaltliche Seite mit Merkmalen, Prototypen und Assoziationen sowie die formale Seite mit Definition und Einbettung in logische Zusammenhänge. Tragfähiges Verständnis entsteht erst, wenn Prototyp, Merkmale und Fachbegriff aufeinander bezogen werden.",
+          "hint": "5 Stufen von visuell bis abstrakt-metamathematisch.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cpeya90",
+          "session": "Sitzung 7",
+          "q": "Erläutern Sie das Van-Hiele-Modell mit seinen Niveaustufen.",
+          "a": "Das Modell beschreibt die Entwicklung geometrischen Denkens in Stufen, die an Erfahrungen anknüpfen und sich zu abstrakten Vorstellungen weiterentwickeln. Stufe 1, visuelles Denken: Figuren werden ganzheitlich ohne explizite Eigenschaften erfasst, erste Klassifizierung nach Prototypen. Stufe 2, analysierend-beschreibendes Denken: Eigenschaften wie parallel oder senkrecht werden durch Handlungen wie Falten erkannt. Stufe 3, abstrahierend-relationales Denken: Beziehungen und Klasseninklusionen werden verstanden, verbale Definitionen gewinnen Bedeutung. Stufe 4, schlussfolgerndes Denken: Axiome, Definitionen und Beweise werden bedeutsam. Stufe 5, strenges abstrakt-metamathematisches Denken: Arbeiten in Axiomensystemen losgelöst von Repräsentanten. Die Stufen 4 und 5 spielen im Primarbereich kaum eine Rolle.",
+          "hint": "Prototyp-Orientierung erschwert welche Erkenntnis?",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1gp48mv",
+          "session": "Sitzung 7",
+          "q": "Stellen Sie Herausforderungen des geometrischen Begriffserwerbs bei jüngeren Kindern dar.",
+          "a": "Jüngere Kinder befinden sich meist auf der visuellen Van-Hiele-Stufe und orientieren sich an Prototypen statt an definierenden Eigenschaften. Figuren, die stark von einem gewohnten Prototyp abweichen, etwa ein sehr spitzes Dreieck, werden dadurch oft nicht erkannt, während ähnliche Figuren fälschlich zugeordnet werden. Klasseninklusionen wie Quadrat als Rechteck sind schwer nachvollziehbar, da Kategorien als sich ausschließend wahrgenommen werden; der Erwerb erfordert daher gezielte Erfahrungen mit untypischen Beispielen und Gegenbeispielen.",
+          "hint": "Achsen- vs. Rotationssymmetrie werden oft verwechselt.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1tyx6qa",
+          "session": "Sitzung 7",
+          "q": "Beschreiben Sie Schwierigkeiten bei der Entwicklung des Symmetrieverständnisses.",
+          "a": "Symmetrie ist formal über eine Kongruenzabbildung definiert, die eine Figur auf sich selbst abbildet. Kinder orientieren sich zunächst visuell-ganzheitlich statt an der Abbildungsvorschrift, verwechseln oft Rotations- mit Achsensymmetrie und erkennen schräge Achsen schwerer als waagerechte. Zudem fällt die gedankliche Trennung von Erzeugen einer symmetrischen Figur, etwa Spiegelgerade wählen und spiegeln, vom bloßen Erkennen von Symmetrie schwer, weshalb enaktives Handeln mit der formalen Definition verknüpft werden muss.",
+          "hint": "Primar vs. Sek I + Inhalts- vs. Prozessziele.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1156crv",
+          "session": "Sitzung 7",
+          "q": "Erläutern Sie Merkmale des Geometrieunterrichts in Primar- und Sekundarstufe I und stellen Sie Inhalts- und Prozessziele gegenüber.",
+          "a": "In der Primarstufe steht der handlungsorientierte, anschauliche Zugang im Vordergrund, in der Sekundarstufe I nimmt die Formalisierung mit Definitionen und ersten Beweisen zu. Inhaltsziele betreffen konkretes fachliches Wissen im Bereich Raum und Form, etwa Eigenschaften von Figuren oder Flächenberechnung. Prozessziele betreffen übergreifende Fähigkeiten wie Argumentieren, Problemlösen oder Kommunizieren, die im geometrischen Kontext erworben werden, also nicht das Was, sondern das Wie des Arbeitens.",
+          "hint": "3 Begriffe: Oberbegriff, Teildisziplinen darunter.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1f4m6gu",
+          "session": "Sitzung 8",
+          "q": "Erläutern Sie die Begriffe Stochastik, Zufall und Wahrscheinlichkeit.",
+          "a": "Stochastik ist der Oberbegriff für die Teildisziplinen, die sich mit zufälligen Phänomenen befassen, insbesondere Wahrscheinlichkeitsrechnung und Statistik. Zufall bezeichnet Vorgänge, deren Ausgang trotz bekannter Randbedingungen nicht sicher vorhersagbar ist, etwa ein Würfelwurf. Wahrscheinlichkeit ist das Maß, mit dem das Eintreten eines zufälligen Ereignisses quantifiziert wird; wie diese Zuordnung zu verstehen ist, fassen verschiedene Wahrscheinlichkeitsbegriffe unterschiedlich.",
+          "hint": "2 Teilkompetenzen: Umgang mit Daten + ...",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cvliumu",
+          "session": "Sitzung 8",
+          "q": "Stellen Sie zentrale Charakteristika des Inhaltsbereichs Daten und Zufall in den Bildungsstandards für die Primarstufe dar.",
+          "a": "Die Leitidee umfasst die Erfassung, Ermittlung und Interpretation von Daten sowie die datenbasierte Erkundung von Zufallserscheinungen; die Ermittlung von Häufigkeiten steht dabei in engem Zusammenhang mit kombinatorischen Überlegungen und der Einschätzung von Eintrittswahrscheinlichkeiten. Für die Primarstufe gliedert sich dies in zwei Teilkompetenzen: Beim Umgang mit Daten planen Kinder Befragungen, erfassen und stellen Daten in Tabellen und Diagrammen dar und reflektieren diese kritisch. Beim Untersuchen von Ereignissen bei Zufallsexperimenten nutzen sie Begriffe wie sicher, möglich und unmöglich, schätzen und vergleichen Chancen datenbasiert und lösen einfache kombinatorische Fragestellungen systematisch oder mit heuristischen Hilfsmitteln wie Baumdiagrammen.",
+          "hint": "3 Begriffe: Laplace, relative Häufigkeit, Axiome.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "co26szd",
+          "session": "Sitzung 8",
+          "q": "Stellen Sie klassischen, frequentistischen und axiomatischen Wahrscheinlichkeitsbegriff gegenüber.",
+          "a": "Der klassische Wahrscheinlichkeitsbegriff nach Laplace bestimmt die Wahrscheinlichkeit als relativen Anteil der zu einem Ereignis gehörenden, als gleichwahrscheinlich angesehenen Ergebnisse an allen möglichen Ausfällen. Der frequentistische Begriff nutzt die relative Häufigkeit in einer langen Versuchsserie als Annäherung an die Wahrscheinlichkeit. Der axiomatische Begriff nach Kolmogorow lässt Wahrscheinlichkeit selbst undefiniert und regelt ihren Gebrauch durch Axiome, verträglich mit den anderen Begriffen. Wichtig: Die klassische Wahrscheinlichkeit ist nicht mit der relativen Häufigkeit gleichzusetzen, das entspräche dem frequentistischen Begriff.",
+          "hint": "Fischbein: Alltagswissen vs. durch Unterricht erworbenes Wissen.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1ey3e77",
+          "session": "Sitzung 8",
+          "q": "Erklären Sie Primärintuition, Sekundärintuition und die zweifache Funktion von Unterricht.",
+          "a": "Fischbein unterscheidet Primärintuition, intuitives Wissen aus Alltagserfahrung, das mit formaler Wahrscheinlichkeitsrechnung im Widerspruch stehen kann, und Sekundärintuition, in intuitives Wissen umgewandeltes formales Wissen, etwa durch Unterricht erworben. Daraus folgt eine zweifache Funktion von Unterricht: erstens Bewusstsein für Konflikte zwischen Primärintuition und formaler Logik zu schaffen, zweitens einen Erfahrungsraum für die Entwicklung tragfähiger Sekundärintuitionen zu bieten.",
+          "hint": "Bedingte Wahrscheinlichkeit + Gambler's Fallacy.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "co4kypg",
+          "session": "Sitzung 8",
+          "q": "Beschreiben Sie zwei Fehlvorstellungen zum Wahrscheinlichkeitsbegriff mit Beispiel.",
+          "a": "Bei Fehlvorstellungen zu bedingten Wahrscheinlichkeiten werden bedingendes und bedingtes Ereignis verwechselt, etwa wenn die Wahrscheinlichkeit eines positiven Tests bei Infektion nicht von der Wahrscheinlichkeit einer Infektion bei positivem Test unterschieden wird. Bei der Gambler's Fallacy wird nach mehrfach gleichem Ergebnis in Folge, etwa fünfmal Rot beim Roulette, die Wahrscheinlichkeit eines anderen Ergebnisses fälschlich als erhöht eingeschätzt, obwohl die Ereignisse unabhängig sind.",
+          "hint": "Alltagsbezug motiviert + informelle Erfahrungen schon in der GS.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c10eyzbm",
+          "session": "Sitzung 8",
+          "q": "Verdeutlichen Sie die Relevanz von Daten und Zufall und Merkmale des Stochastikunterrichts in der Primarstufe.",
+          "a": "Der Bereich ist relevant, weil stochastisches Denken für gesellschaftliche Teilhabe wichtig ist, etwa beim Einordnen von Statistiken, und weil der Alltagsbezug viele Schülerinnen und Schüler motiviert; zugleich treten hier gut erforschte, hartnäckige Fehlvorstellungen auf. In der Primarstufe stehen informelle Zugänge im Vordergrund: Bereits hier werden Experimente durchgeführt, in denen der statistische Wahrscheinlichkeitsbegriff eine Rolle spielt, während die formale Berechnungsvorschrift der klassischen Wahrscheinlichkeit erst in der Sekundarstufe eingeführt wird.",
+          "hint": "Vom Zählen zum eigenen Denkobjekt zum operativen Umgang.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cxnwas7",
+          "session": "Sitzung 9",
+          "q": "Skizzieren Sie die Ursprünge des Zahlbegriffs vom Zählen bis zum operativen Umgang.",
+          "a": "Ausgangspunkt ist die Zählhandlung mit ihren gleichförmigen Zählschritten, der ordinale Aspekt. Darauf aufbauend wird die Zahl zu einem eigenen Denkobjekt, dem kardinalen Aspekt: Sie repräsentiert die Mächtigkeit einer Menge unabhängig von der Zählhandlung. Schließlich wird ein operativer Umgang möglich, bei dem Zahlen selbst zu Objekten von Operationen und Beweisen werden, etwa wenn Kommutativität mit Rechensteinen an einer Musterlegung gezeigt wird.",
+          "hint": "2 Aspekte: Zählhandlung vs. Mächtigkeit einer Menge.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "clo1t2k",
+          "session": "Sitzung 9",
+          "q": "Beschreiben Sie den ordinalen und den kardinalen Zahlaspekt.",
+          "a": "Der ordinale Aspekt beruht auf der Zählhandlung mit gleichförmigen Schritten, motorisch verankert und in der Zahlwortreihe sowie fortlaufender Addition von eins ausgedrückt. Der kardinale Aspekt fokussiert den Anzahlaspekt: Das Zahlwort gibt die Mächtigkeit der erfassten Menge an.",
+          "hint": "Bündelung, Stellenwert – wofür nützlich?",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c18mhht8",
+          "session": "Sitzung 9",
+          "q": "Erläutern Sie die Vorteile des dezimalen Stellenwertsystems.",
+          "a": "Frühere additive Darstellungssysteme wie römische Zahlen eigneten sich nicht für schriftliche Rechenverfahren. Das indisch-arabische dezimale Stellenwertsystem dient zugleich als Darstellungsmittel und Rechenwerkzeug, stützt durch Bündelungs- und Stellenwertprinzip die Zahlvorstellung und ermöglicht die Ausdehnung arithmetischer Berechnungen sowie die Entwicklung der Algebra.",
+          "hint": "Distanz-Effekt, Größen-Effekt, SNARC-Effekt.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c7jm3uv",
+          "session": "Sitzung 9",
+          "q": "Erläutern Sie die Idee eines mentalen Zahlenstrahls mit stützenden Experimenten.",
+          "a": "Es wird angenommen, dass Menschen über eine räumlich-lineare Zahlrepräsentation verfügen. Der Distanz-Effekt zeigt, dass weiter auseinanderliegende Zahlen schneller verglichen werden; der Größen-Effekt, dass bei gleicher Distanz größere Zahlenpaare mehr Zeit und Fehler verursachen. Der SNARC-Effekt zeigt, dass bei kleinen Zahlen die linke Hand, bei größeren Zahlen die rechte Hand schnellere Reaktionen liefert, was auf eine räumliche links-klein-rechts-groß-Verankerung hindeutet. Zusätzlich werden größere Zahlen als auf engerem Raum zusammengedrängt angenommen.",
+          "hint": "Zählkompetenz, Kardinalzahlprinzip, Stellenwertsystem.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1s6o7qp",
+          "session": "Sitzung 9",
+          "q": "Stellen Sie zentrale Aspekte des Erwerbs natürlicher Zahlen im Vor- und Grundschulalter dar.",
+          "a": "Der Erwerb beginnt im Vorschulalter mit dem Aufbau der Zählkompetenz, Zahlwortreihe, Eins-zu-eins-Zuordnung und Kardinalzahlprinzip, und entwickelt sich über die Verknüpfung von ordinalem und kardinalem Aspekt zu einem flexiblen Zahlbegriff. Im Grundschulalter erfolgt die Einbettung in das Stellenwertsystem, wodurch der Zahlenraum erweitert werden kann; durchgängig zentral ist der Aufbau tragfähiger Grundvorstellungen.",
+          "hint": "Mehrere Grundvorstellungen nötig, z.B. Teil eines Ganzen.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "ce3h6ai",
+          "session": "Sitzung 9",
+          "q": "Stellen Sie zentrale Aspekte des Erwerbs des Bruchzahlbegriffs dar.",
+          "a": "Der Bruchzahlbegriff ist eine besondere Hürde, da er teils im Widerspruch zum natürlichen Zahlbegriff steht, etwa wird ein Produkt zweier echter Brüche kleiner als die Faktoren. Der Erwerb erfordert mehrere Grundvorstellungen wie Teil eines Ganzen, Verhältniszahl, Operator oder Quotient, die über enaktive, ikonische und symbolische Darstellungen vernetzt werden müssen, da kein einzelner Zugang den Begriff vollständig abdeckt.",
+          "hint": "EIS-Prinzip macht abstrakte Beziehungen zugänglich.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cfjvnvx",
+          "session": "Sitzung 9",
+          "q": "Erklären Sie die Bedeutung von Darstellungen für das arithmetische Denken.",
+          "a": "Darstellungen nach dem EIS-Prinzip machen abstrakte Zahlbeziehungen und Operationen erst zugänglich, da unterschiedliche Darstellungen wie Rechenstrich oder Stellenwerttafel verschiedene strukturelle Aspekte sichtbar machen. Der flexible Wechsel zwischen Darstellungen gilt als Indikator und Förderansatz für tragfähiges arithmetisches Verständnis.",
+          "hint": "vom Hofe: normative Komponente, mehrere nötig.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "caxcj7i",
+          "session": "Sitzung 9",
+          "q": "Erläutern Sie den Begriff Grundvorstellungen.",
+          "a": "Grundvorstellungen nach vom Hofe sind Vorstellungen, die für einen umfassenden Begriffsaufbau als wesentlich gelten und daher im Unterricht gezielt aktiviert werden sollten; der Begriff hat eine normative Komponente. Ein Konzept wird selten durch eine einzelne Grundvorstellung erfasst, meist müssen mehrere aufgebaut und vernetzt werden, etwa bei der Addition Vereinigen, Verändern, Vergleichen und Ausgleichen.",
+          "hint": "Zahldarstellung, Stellenwertsystem, Zahlenraum bis 1 Mio.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c10xmyth",
+          "session": "Sitzung 9",
+          "q": "Stellen Sie zentrale Charakteristika des Inhaltsbereichs Zahl in den Bildungsstandards für die Primarstufe dar.",
+          "a": "Im Rahmen der Leitidee Zahl und Operation sollen Kinder Zahldarstellungen und Zahlbeziehungen verstehen: Sie erkennen und nutzen den Aufbau des dezimalen Stellenwertsystems, etwa Bündelungs- und Stellenwertprinzip, stellen Zahlen bis eine Million auf verschiedene Weise dar, etwa mit Anschauungsmitteln, Stufenschrift oder Stellenwerttabelle, und setzen diese zueinander in Beziehung, und orientieren sich im Zahlenraum bis eine Million, indem sie Zahlen ordnen oder Nachbarzahlen bestimmen. Schulbuchaufgaben lassen sich entsprechend als Aufgaben zum Stellenwertverständnis, zu Zahldarstellungen oder zur Zahlenraumorientierung einordnen.",
+          "hint": "Variable ermöglicht Verallgemeinerung, spart Zeit.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cw9esxa",
+          "session": "Sitzung 10",
+          "q": "Skizzieren Sie die Bedeutung der Entwicklung der Formelsprache.",
+          "a": "Maßgeblich für das Potenzial der Formelsprache ist die Variable, die mathematische Zusammenhänge unabhängig von Einzelzahlen allgemein formulierbar macht. Sie ermöglicht Abstraktion und Verallgemeinerung sowie eine ökonomische, algorithmisierbare Darstellung von Rechenwegen, da Formeln Zeit sparen und die Nutzung von Rechnern erlauben. Die Formelsprache ermöglicht damit den Übergang von einzelfallgebundenem zu allgemeingültigem, strukturellem Denken.",
+          "hint": "3 Rollen: gesuchte Zahl, allgemeine Zahl, Funktionswert.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c4vru5u",
+          "session": "Sitzung 10",
+          "q": "Erläutern Sie die Variable als Unbekannte, Unbestimmte und Veränderliche.",
+          "a": "Als Unbekannte bezeichnet die Variable eine gesuchte Zahl, die eine Gleichung erfüllt, etwa x in 3x plus 2 gleich 11. Als Unbestimmte oder allgemeine Zahl dient sie der Darstellung allgemeiner Muster, etwa in der binomischen Formel. Als Veränderliche stellt sie funktionale Zusammenhänge dar, etwa y gleich 2x als proportionale Zuordnung. Der Begriff Term wird rekursiv definiert: Zahlen und Variablen sind Terme, ihre Verknüpfung durch Operationen ergibt wieder einen Term.",
+          "hint": "Relational vs. operational verstehen.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c3xi2yg",
+          "session": "Sitzung 10",
+          "q": "Erläutern Sie den Begriff Gleichung und die Problematik des Gleichungsverständnisses von Anfang an.",
+          "a": "Eine Gleichung stellt die Gleichheit zweier Terme dar und drückt eine Beziehung aus, die allgemeingültig oder nur für bestimmte Werte erfüllt ist. Ein tragfähiges Verständnis erfordert, das Gleichheitszeichen relational statt operational zu verstehen. Die Problematik liegt darin, dass Kinder es im Anfangsunterricht meist nur operational als Rechenaufforderung erfahren, was spätere algebraische Umformungen erschwert; ein relationales Verständnis muss daher von Beginn an angelegt werden.",
+          "hint": "Rechenschema UND Bauplan.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c13efo5b",
+          "session": "Sitzung 10",
+          "q": "Beschreiben Sie den Doppelcharakter der Formel als Lösungsschema und Explorationsgegenstand.",
+          "a": "Als Rechenschema dient ein Term der allgemeinen Beschreibung von Rechengängen und ermöglicht ökonomisches, algorithmisches Arbeiten. Als Bauplan gibt er selbst Auskunft über Beziehungen zwischen Größen und kann eigenständig exploriert werden, etwa liefert der Term 2n plus 1 als Bauplan die Information, dass es sich um eine ungerade Zahl handelt.",
+          "hint": "Abstrahieren, Variablenbegriff, relationale Sicht, Struktursinn.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cdwq2ea",
+          "session": "Sitzung 10",
+          "q": "Erläutern Sie vier Aspekte algebraischen Denkens an Beispielen.",
+          "a": "Abstrahieren und Verallgemeinern lösen sich vom Einzelfall, etwa ist die binomische Formel allgemein und abstrakt zugleich. Die Ausbildung des Variablenbegriffs meint das Rechnen mit unbekannten Größen, etwa beim Beschreiben von Musterfolgen. Eine relationale Sichtweise verschiebt den Blick vom Rechnen zur Struktur, etwa eine Gleichung als Beziehung statt Rechenaufforderung. Struktur- und Symbolsinn bezeichnet die Fähigkeit, Teilterme zu Einheiten zu bündeln, etwa erkennt man in a²b² plus 2abc plus c² die Form (ab plus c) im Quadrat, wenn ab als Einheit gesehen wird.",
+          "hint": "Statisch-explizit vs. dynamisch-rekursiv, Quadratmuster.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1fcnua1",
+          "session": "Sitzung 10",
+          "q": "(Vertiefende Ergänzung, kein eigenständiges Lernziel) Erläutern Sie statisch-explizite und dynamisch-rekursive Strukturierung an einer geometrischen Musterfolge.",
+          "a": "Bei statisch-expliziter Strukturierung wird jede Figur direkt zur Figurennummer in Beziehung gesetzt, etwa: Jede Figur hat zweimal so viele Quadrate wie die Figurennummer angibt, und eins mehr, was zum Term 2n plus 1 führt. Bei dynamisch-rekursiver Strukturierung steht die Veränderung von Figur zu Figur im Vordergrund, etwa: Die erste Figur hat drei Quadrate, in jeder neuen Figur kommen zwei hinzu. Beide Strukturierungen sind Vorläufer der Ausbildung des Variablenbegriffs.",
+          "hint": "Name des Inhaltsbereichs ändert sich je Schulstufe.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c5weokt",
+          "session": "Sitzung 10",
+          "q": "Stellen Sie zentrale Charakteristika des Inhaltsbereichs Symbol und Formalisierung/Algebra in den Bildungsstandards dar.",
+          "a": "Der Inhaltsbereich heißt je nach Schulstufe unterschiedlich, bezeichnet aber ein zusammenhängendes Kompetenzfeld: in der Primarstufe Muster, Strukturen und funktionaler Zusammenhang, in der Sekundarstufe I Strukturen und funktionaler Zusammenhang, in der Oberstufe Funktionaler Zusammenhang. Damit entwickelt sich der Bereich über die Schulstufen hinweg vom Erkunden konkreter Muster hin zu einem zunehmend formalisierten Umgang mit Variablen, Termen und Funktionen. Schulbuchaufgaben lassen sich entsprechend einordnen, je nachdem ob sie auf Mustererkennung oder auf formalen Variablenumgang zielen.",
+          "hint": "Primarstufe ohne formale Algebra – wie wird vorbereitet?",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "ctgekuh",
+          "session": "Sitzung 10",
+          "q": "Erläutern Sie die besondere Stellung von Muster, Strukturen, funktionaler Zusammenhang in der Primarstufe.",
+          "a": "In der Primarstufe existiert noch keine formale Algebra; algebraisches Denken wird über Muster, Strukturen und funktionale Zusammenhänge vorbereitet. Kinder erkunden Zahlen- und geometrische Musterfolgen, entdecken Gesetzmäßigkeiten und beschreiben sie zunächst verbal, bevor eine Variablenschreibweise folgt. Der Bereich hat somit eine Brückenfunktion und legt bereits im Primarbereich den Grundstein für Verallgemeinern und Struktursinn, ohne formale Variablen zu benötigen.",
+          "hint": "Gleicher Stoff wie Sitzung 1, hier im Kontext Unterrichtsplanung.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1qq4dgg",
+          "session": "Sitzung 11",
+          "q": "Erläutern Sie die Merkmale guten Unterrichts nach Meyer, nach Helmke und nach PIKAS und konkretisieren Sie einzelne Merkmale an Beispielen.",
+          "a": "Meyer nennt zehn Merkmale wie klare Strukturierung, hohen Anteil echter Lernzeit, lernförderliches Klima, Methodenvielfalt und intelligentes Üben. Helmke benennt in ähnlicher, aber anders akzentuierter Form zehn Merkmale wie Strukturiertheit, Klassenführung, Ziel- und Kompetenzorientierung und Aktivierung. Das PIKAS-Plakat bündelt beide Modelle mathematikdidaktisch in acht Kategorien wie ergiebige Aufgaben und Förderung der Selbstständigkeit. Beispiel: Intelligentes Üben zeigt sich in operativen Päckchen, bei denen Zusammenhänge entdeckt statt Aufgaben nur mechanisch abgearbeitet werden.",
+          "hint": "Sachanalyse vs. Motivationsfrage.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1j99ht6",
+          "session": "Sitzung 11",
+          "q": "Stellen Sie 'die Sache' und 'die Kernidee' als Grundlage der Unterrichtsplanung dar.",
+          "a": "Reiss und Hammer stellen Sache und Kernidee ins Zentrum der Unterrichtsplanung. Die Sache meint die fachlich fundierte Sachanalyse: Die Lehrkraft arbeitet die Struktur des Themas heraus, stellt Beziehungen her und macht sich selbst sachkompetent; sie bildet die Grundlage aller weiteren Entscheidungen. Die Kernidee klärt, warum Schülerinnen und Schüler den Gegenstand lernen sollen und was daran für die Lehrkraft selbst interessant ist; sie kann aus Fachliteratur, Austausch oder Schülerbeobachtungen gewonnen werden. Fertiges Material sollte nur genutzt werden, wenn es der eigenen Kernidee folgt.",
+          "hint": "Wechselspiel, kein Entweder-Oder.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c1ajurxn",
+          "session": "Sitzung 11",
+          "q": "Stellen Sie lehrkraftzentrierten und schülerzentrierten Unterricht gegenüber.",
+          "a": "Bei der Planung ist zu überlegen, welche Informationen die Lehrkraft geben muss, lehrkraftzentrierte Phasen wie Instruktion, und welche Inhalte selbst erarbeitet werden können, schülerzentrierte Phasen wie entdeckendes Lernen. Guter Unterricht besteht aus einem bewussten Wechselspiel beider Phasen, orientiert an Sache und Kernidee.",
+          "hint": "Äußere vs. innere vs. natürliche Differenzierung.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cci1aob",
+          "session": "Sitzung 11",
+          "q": "Erläutern Sie Differenzierung, innere/äußere Differenzierung und natürliche Differenzierung.",
+          "a": "Differenzierung umfasst alle organisatorischen, inhaltlichen und didaktischen Vorkehrungen, die auf unterschiedliche Lernvoraussetzungen eingehen. Äußere Differenzierung reduziert Heterogenität organisatorisch durch möglichst homogene Gruppen, etwa Förderkurse. Innere Differenzierung wird innerhalb einer Lerngruppe durch didaktisch-methodische Ansätze erreicht. Natürliche Differenzierung nach Wittmann bedeutet, dass alle Kinder dasselbe, ganzheitliche Lernangebot erhalten, wobei Bearbeitungslevel, Lösungswege und Darstellungen freigestellt sind und sozialer Austausch über unterschiedliche Zugänge möglich ist.",
+          "hint": "Leistung, Tempo, Interesse, Sprache, Herkunft, Begabung.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cswtpjd",
+          "session": "Sitzung 11",
+          "q": "Stellen Sie verschiedene Heterogenitätsdimensionen dar.",
+          "a": "Nach Leuders und Prediger zählen dazu Leistungsfähigkeit und Vorwissen, Lerntempo, Interessen und Motivation, Sprachkompetenz, sozialer, ökonomischer und kultureller Hintergrund, Geschlecht und Alter sowie besondere Begabungen oder Förderbedarfe. Diese Dimensionen können einzeln oder kombiniert Ausgangspunkt für Differenzierungsentscheidungen sein.",
+          "hint": "Wonach, wie, wodurch, wann?",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c13ojc1x",
+          "session": "Sitzung 11",
+          "q": "Erläutern Sie verschiedene Entscheidungsfelder für Differenzierungsansätze.",
+          "a": "Lehrkräfte müssen entscheiden, wonach differenziert wird, also welche Heterogenitätsdimension im Fokus steht, wie differenziert wird, etwa äußere versus natürliche Differenzierung, wodurch differenziert wird, etwa durch unterschiedliche Aufgaben, Hilfen oder Sozialformen, und wann differenziert wird, zeitweise oder durchgehend. Natürliche Differenzierung verlagert dabei die Entscheidung über das Anspruchsniveau stärker zu den Lernenden selbst.",
+          "hint": "4 konstituierende Merkmale nach Krauthausen.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cnxtspl",
+          "session": "Sitzung 11",
+          "q": "Analysieren Sie, welche Merkmale eine natürlich differenzierende Lernumgebung erfüllen muss.",
+          "a": "Nach Krauthausen erhalten alle Kinder dasselbe Lernangebot ohne separates Material; das Angebot ist inhaltlich ganzheitlich und hinreichend komplex, sodass es naturgemäß unterschiedlich anspruchsvolle Fragestellungen enthält; Bearbeitungslevel, Lösungswege und Darstellungen sind freigestellt; und der soziale Austausch über unterschiedliche Zugänge und Lösungen wird ermöglicht. Eine Aufgabe erfüllt natürliche Differenzierung nur, wenn alle vier Merkmale zugleich erfüllt sind.",
+          "hint": "Authentizität, Offenheit, Differenzierungsvermögen.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cis6a5t",
+          "session": "Sitzung 12",
+          "q": "Stellen Sie die drei Aufgabenmerkmale nach Büchter und Leuders (2005) dar.",
+          "a": "Büchter und Leuders nennen drei übergreifende Merkmale zur Einordnung von Aufgaben: Authentizität, also der Bezug zu bedeutsamen Kontexten, Offenheit, also die Klarheit von Anfangszustand, Lösungsweg und Zielzustand, und Differenzierungsvermögen, also die Fähigkeit, Bearbeitungen auf unterschiedlichem Niveau zu ermöglichen. Nicht jede Aufgabe muss alle drei Merkmale gleichermaßen tragen, je nach Unterrichtsziel kann eine Aufgabe bewusst wenig offen sein.",
+          "hint": "9 mögliche Kriterien, z.B. Begründung einfordern.",
+          "herkunft": "selbst",
+          "flagged": false
+        },
+        {
+          "id": "cmqr5d6",
+          "session": "Sitzung 12",
+          "q": "Nennen Sie Kriterien 'guter' Aufgaben und erläutern Sie zwei davon.",
+          "a": "Kriterien sind unter anderem: fordert eine Begründung ein, ermöglicht aktives Problemlösen, beinhaltet unterschiedliche Tätigkeiten, fokussiert das Wesentliche, entlastet, fordert zur Kommunikation auf, ermöglicht handelnden Zugang, ist offen, kann zu unerwarteten Antworten führen. 'Ermöglicht aktives Problemlösen' bedeutet, dass eigenständiges Erkunden statt bloßer Anwendung eines Verfahrens verlangt wird. 'Fordert zur Kommunikation auf' meint, dass der Austausch über Lösungswege eine sprachliche Präzisierung eigener Gedanken erfordert.",
+          "hint": "Übung: offen möglich; Prüfung: einheitlich bewertbar.",
+          "herkunft": "selbst",
+          "flagged": false
+        },
+        {
+          "id": "c1jx6e54",
+          "session": "Sitzung 12",
+          "q": "Unterscheiden Sie Aufgaben zur Leistungsüberprüfung von Aufgaben zum Üben.",
+          "a": "Übungsaufgaben dienen der Festigung, sollten produktivem, beziehungsreichem Üben folgen und können unterschiedlich anspruchsvoll und natürlich differenzierend gestaltet sein, da keine Benotung erfolgt. Leistungsüberprüfungsaufgaben müssen eine faire, nachvollziehbare Bewertung ermöglichen, mit transparentem, einheitlichem Anforderungsniveau und Erwartungshorizont; sie sind daher meist enger geführt als Übungsaufgaben.",
+          "hint": "Notwendig, aber nicht automatisch hinreichend.",
+          "herkunft": "selbst",
+          "flagged": false
+        },
+        {
+          "id": "cbqw5sw",
+          "session": "Sitzung 12",
+          "q": "Prüfen Sie, ob eine natürlich differenzierende Aufgabe automatisch alle Kriterien einer guten Aufgabe erfüllt.",
+          "a": "Natürliche Differenzierung und die Kriterien guter Aufgaben überschneiden sich, sind aber nicht deckungsgleich: Eine natürlich differenzierende Aufgabe ist meist offen und ermöglicht handelnden Zugang, ob sie aber auch Begründungen einfordert oder zur sprachlichen Präzisierung auffordert, hängt von der konkreten unterrichtlichen Umsetzung ab, etwa einer eingeplanten Austauschphase. Natürliche Differenzierung ist somit eine notwendige, aber nicht hinreichende Bedingung für eine in jeder Hinsicht gute Aufgabe.",
+          "hint": "3 Dimensionen: AB, Leitideen, prozessbezogene Kompetenzen.",
+          "herkunft": "selbst",
+          "flagged": false
+        },
+        {
+          "id": "c1pj9vsh",
+          "session": "Probeklausur",
+          "q": "Aufgabe 1 (6 Punkte): Dreidimensionales Kompetenzmodell der Bildungsstandards für ESA und MSA mit Beispielen.",
+          "a": "Das Kompetenzmodell der Bildungsstandards besteht aus drei Dimensionen. Die Anforderungsbereiche unterscheiden Reproduzieren, Zusammenhänge herstellen und Verallgemeinern und Reflektieren, etwa ist das schriftliche Lösen einer geübten Gleichung Anforderungsbereich I, die Übertragung auf eine neue Textaufgabe Anforderungsbereich III. Die inhaltsbezogenen Kompetenzen, die Leitideen, umfassen fachliche Bereiche wie Zahl, Messen, Raum und Form, funktionaler Zusammenhang sowie Daten und Zufall, etwa die Berechnung von Flächeninhalten in der Leitidee Raum und Form. Die prozessbezogenen Kompetenzen umfassen übergreifende Fähigkeiten wie Argumentieren, Probleme lösen, Modellieren, Darstellungen verwenden, mit symbolischen Elementen umgehen und Kommunizieren, etwa wird beim Lösen einer Modellierungsaufgabe zu Handyverträgen die Kompetenz Modellieren angesprochen. Die drei Dimensionen sind unabhängig voneinander, jede Aufgabe lässt sich zugleich allen dreien zuordnen; für ESA und MSA gilt dieselbe Struktur, unterschieden nur im Anspruchsniveau.",
+          "hint": "Enaktiv-ikonisch-symbolisch am Beispiel Bruch.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c19mq6ce",
+          "session": "Probeklausur",
+          "q": "Aufgabe 2 (3 Punkte): EIS-Prinzip am Beispiel Brüche, je eine Darstellung pro Bereich, begründet.",
+          "a": "Enaktiv wird ein Kuchen real in vier gleiche Teile geteilt und drei Stücke entnommen; das Handeln macht den Teil-Ganzes-Aspekt unmittelbar erfahrbar. Ikonisch wird der Bruch als Kreisdiagramm mit drei von vier markierten Feldern dargestellt; die bildliche Darstellung löst sich vom Material, bleibt aber anschaulich. Symbolisch wird der Bruch als 3/4 notiert, etwa in der Rechnung 3/4 plus 1/4; erst diese Notation ermöglicht formales Rechnen mit Brüchen unabhängig vom Kontext.",
+          "hint": "Mittelsenkrechte – geometrischer Ort gleich weit entfernter Punkte.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c4ugoqd",
+          "session": "Probeklausur",
+          "q": "Aufgabe 3 (4 Punkte): GeoGebra-Aufgabe, fachmathematischer Zusammenhang und Potential für geometrisches Denken.",
+          "a": "Die Aufgabe bezieht sich vermutlich auf die Konstruktion der Mittelsenkrechten aus dem Seminar. Fachmathematischer Zusammenhang: Die Mittelsenkrechte einer Strecke AB ist die Menge aller Punkte, die von A und B gleich weit entfernt sind; konstruiert wird sie durch zwei gleich große Kreise um A und B, deren Schnittpunkte die Mittelsenkrechte festlegen, da beide Schnittpunkte per Konstruktion von A und B gleich weit entfernt sind. Zum Potential für geometrisches Denken: Der Zugmodus in GeoGebra macht durch Verschieben von A oder B unmittelbar sichtbar, wie sich die Mittelsenkrechte mitverändert, was die Raumvorstellung fördert; zudem können Schülerinnen und Schüler durch Ausprobieren mehrerer Punktlagen die Vermutung der Gleichabständigkeit experimentell erhärten und so zu einer ersten inhaltlich-anschaulichen Begründung gelangen. Bitte gleichen Sie ab, ob Ihre Abbildung tatsächlich die Mittelsenkrechte zeigt, da mir die genaue Abbildung nicht vorliegt.",
+          "hint": "Bruner: früh grundlegen + später wieder aufgreifen.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "cf7vilx",
+          "session": "Probeklausur",
+          "q": "Aufgabe 4 (2 Punkte): Zwei Kerngedanken des Spiralprinzips nach Bruner.",
+          "a": "Erstens: Fundamentale Ideen werden bereits im Anfangsunterricht kindgerecht, aber intellektuell redlich grundgelegt, sodass später nichts zurückgenommen werden muss. Zweitens: Diese Ideen werden auf späteren Lernstufen erneut aufgegriffen, dabei auf höherem Niveau und strukturell angereichert weiterentwickelt.",
+          "hint": "3 von 6 Aussagen sind richtig – Alltagsbezug, Geometrie, Grundschule.",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "c19iaz5z",
+          "session": "Probeklausur",
+          "q": "Aufgabe 5 (3 Punkte): Multiple Choice zu Wahrscheinlichkeit, maximal drei Kreuze.",
+          "a": "Richtig sind: Stochastische Probleme sind für Jugendliche wegen des Alltagsbezugs interessant, das ist ein Grund für die Behandlung im Unterricht. Berechnungen der klassischen Wahrscheinlichkeit können aus geometrischen Überlegungen abgeleitet werden. Schon in der Grundschule werden Experimente durchgeführt, in denen der statistische Wahrscheinlichkeitsbegriff eine Rolle spielt. Falsch sind dagegen die Gleichsetzung von Wahrscheinlichkeit und relativer Häufigkeit, da dies nur der frequentistische Begriff wäre, die ausschließliche Ableitung der Würfelwahrscheinlichkeit aus Flächenverhältnissen bei einem Quader, da physikalische Faktoren ebenfalls wirken, sowie die Aussage, Wahrscheinlichkeiten könnten in der Grundschule nicht thematisiert werden, da dort bereits informell mit Zufall gearbeitet wird.",
+          "herkunft": "direkt",
+          "flagged": false
+        }
+      ],
+      "quiz": [
+        {
+          "id": "cjh3wfv",
+          "session": "Sitzung 1",
+          "q": "Wie viele Merkmale guten Unterrichts nennt Hilbert Meyer (2024)?",
+          "options": [
+            "5",
+            "10",
+            "7",
+            "12"
+          ],
+          "correct": 1,
+          "expl": "Meyer nennt 10 Merkmale, u.a. klare Strukturierung, lernförderliches Klima und intelligentes Üben.",
+          "flagged": false
+        },
+        {
+          "id": "c14a5mrt",
+          "session": "Sitzung 1",
+          "q": "Worauf stützt sich das PIKAS-Plakat 'Merkmale guten Mathematik-Unterrichts'?",
+          "options": [
+            "Ausschließlich auf Meyer (2004)",
+            "Auf einen Abgleich von Helmke (2007), Meyer (2004) und Selter (2011)",
+            "Auf die KMK-Bildungsstandards 2022",
+            "Auf Piaget und Bruner"
+          ],
+          "correct": 1,
+          "expl": "Das Plakat entstand als mathematikdidaktische Ausschärfung der Qualitätsanalyse NRW, abgeglichen mit Helmke, Meyer und Selter.",
+          "flagged": false
+        },
+        {
+          "id": "ch31y69",
+          "session": "Sitzung 2",
+          "q": "Welche der folgenden ist KEINE Grunderfahrung nach Winter (1995)?",
+          "options": [
+            "Erscheinungen der Welt wahrnehmen und verstehen",
+            "Mathematik als deduktiv geordnete Welt kennenlernen",
+            "Heuristische Fähigkeiten erwerben",
+            "Lehrkraftzentrierten Unterricht reflektieren"
+          ],
+          "correct": 3,
+          "expl": "Winter nennt drei Grunderfahrungen; 'lehrkraftzentrierten Unterricht reflektieren' stammt aus Sitzung 11, nicht von Winter.",
+          "flagged": false
+        },
+        {
+          "id": "c1io6a2y",
+          "session": "Sitzung 2",
+          "q": "Welcher Anforderungsbereich umfasst 'Verallgemeinern und Reflektieren'?",
+          "options": [
+            "Anforderungsbereich I",
+            "Anforderungsbereich II",
+            "Anforderungsbereich III",
+            "keiner, das ist eine prozessbezogene Kompetenz"
+          ],
+          "correct": 2,
+          "expl": "Anforderungsbereich III betrifft das Bearbeiten komplexer/unbekannter Sachverhalte inkl. eigener Begründungen.",
+          "flagged": false
+        },
+        {
+          "id": "c7hhyso",
+          "session": "Sitzung 3",
+          "q": "Welcher Begriff bezeichnet bei Piaget das Anpassen eines bestehenden Schemas an neue Erfahrungen?",
+          "options": [
+            "Assimilation",
+            "Akkommodation",
+            "Äquilibration",
+            "Konservation"
+          ],
+          "correct": 1,
+          "expl": "Akkommodation meint das Anpassen bzw. Neuaufbauen eines Schemas, wenn Assimilation nicht ausreicht.",
+          "flagged": false
+        },
+        {
+          "id": "ccp732f",
+          "session": "Sitzung 3",
+          "q": "Was bedeutet 'intellektuell redlich' im Sinne von Bruners Spiralprinzip?",
+          "options": [
+            "Inhalte werden vereinfacht kindgerecht dargestellt, auch wenn dies später revidiert werden muss",
+            "Später muss nichts zurückgenommen werden, was vorher gelehrt wurde",
+            "Nur formale Sprache wird verwendet",
+            "Schüler*innen entdecken alles komplett selbstständig"
+          ],
+          "correct": 1,
+          "expl": "Intellektuelle Redlichkeit bedeutet, dass frühe Vereinfachungen später nicht revidiert werden müssen – sonst drohen Brüche im Lernprozess.",
+          "flagged": false
+        },
+        {
+          "id": "cuesnps",
+          "session": "Sitzung 3",
+          "q": "Welches Prinzip warnt explizit vor rein mechanischer Handhabung von Arbeitsmitteln?",
+          "options": [
+            "EIS-Prinzip",
+            "Spiralprinzip",
+            "Operatives Prinzip (Aebli)",
+            "Produktives Üben"
+          ],
+          "correct": 2,
+          "expl": "Aebli betont, dass konkretes Handeln allein nicht hinreichend für Verstehen ist, wenn die Struktur der Handlung nicht durchschaut wird.",
+          "flagged": false
+        },
+        {
+          "id": "c7qlnb",
+          "session": "Sitzung 4",
+          "q": "Welche zwei Funktionen von Beweisen unterscheidet Hersh (1993)?",
+          "options": [
+            "Verifikation und Entdecken",
+            "Überzeugende und erklärende Funktion",
+            "Kommunikation und Systematisierung",
+            "Experimentell und formal-deduktiv"
+          ],
+          "correct": 1,
+          "expl": "Hersh unterscheidet die überzeugende Funktion (Wahrheit absichern) und die erklärende Funktion (warum etwas wahr ist).",
+          "flagged": false
+        },
+        {
+          "id": "c1u8g25s",
+          "session": "Sitzung 4",
+          "q": "Welcher Beweistyp ist für die Primarstufe besonders bedeutsam, da er an Handlungen anschlussfähig ist?",
+          "options": [
+            "Formal-deduktiver Beweis",
+            "Experimenteller Beweis",
+            "Inhaltlich-anschaulicher/operativer Beweis",
+            "Axiomatischer Beweis"
+          ],
+          "correct": 2,
+          "expl": "Der inhaltlich-anschauliche bzw. operative Beweis stützt sich auf nachvollziehbare Konstruktionen und leistet bereits Verallgemeinerung, z.B. 'Beweisen mit Rechensteinen'.",
+          "flagged": false
+        },
+        {
+          "id": "c1ko8w8x",
+          "session": "Sitzung 4",
+          "q": "Wie viele Funktionen des Begründens nennt de Villiers (1990)?",
+          "options": [
+            "2",
+            "3",
+            "5",
+            "7"
+          ],
+          "correct": 2,
+          "expl": "De Villiers nennt fünf Funktionen: Verifikation, Erklärung, Kommunikation, Entdecken, Systematisierung.",
+          "flagged": false
+        },
+        {
+          "id": "crhzv23",
+          "session": "Sitzung 5",
+          "q": "Welcher Modellierungskreislauf führt einen Zwischenschritt 'Situationsmodell/mentale Repräsentation' ein?",
+          "options": [
+            "Direktes Mathematisieren",
+            "Zweischrittiges Mathematisieren",
+            "Dreischrittiges Mathematisieren (Blum & Leiß)",
+            "Es gibt keinen solchen Kreislauf"
+          ],
+          "correct": 2,
+          "expl": "Das dreischrittige Mathematisieren nach Blum & Leiß (2005) fügt unter kognitiven Aspekten ein Situationsmodell als eigenen Schritt ein.",
+          "flagged": false
+        },
+        {
+          "id": "c84vuxb",
+          "session": "Sitzung 5",
+          "q": "Was zeichnet eine Fermi-Aufgabe aus?",
+          "options": [
+            "Sie ist überbestimmt mit zu vielen Angaben",
+            "Sie ist unterbestimmt mit klarem Endzustand, Datenbeschaffung durch Schätzen steht im Vordergrund",
+            "Sie hat immer genau eine richtige Lösung ohne Schätzung",
+            "Sie ist nur innermathematisch, ohne Sachkontext"
+          ],
+          "correct": 1,
+          "expl": "Fermi-Aufgaben sind unterbestimmte, offene Aufgaben, bei denen mehrfaches Schätzen im Vordergrund steht, z.B. 'Wie viele Klavierstimmer gibt es in Deutschland?'",
+          "flagged": false
+        },
+        {
+          "id": "c43lqah",
+          "session": "Sitzung 5",
+          "q": "Was unterscheidet globale Modellierungskompetenz von Teilkompetenzen?",
+          "options": [
+            "Es gibt keinen Unterschied",
+            "Teilkompetenzen betreffen einzelne Kreislaufschritte, globale den gesamten Prozess inkl. Reflexion",
+            "Globale Kompetenz gilt nur für die Sekundarstufe",
+            "Teilkompetenzen sind nur für Fermi-Aufgaben relevant"
+          ],
+          "correct": 1,
+          "expl": "Teilkompetenzen betreffen einzelne Schritte des Modellierungskreislaufs, globale Modellierungskompetenz den gesamten Prozess samt Reflexion darüber.",
+          "flagged": false
+        },
+        {
+          "id": "c1tjbltb",
+          "session": "Sitzung 6",
+          "q": "Was unterscheidet nach Pólya eine Bestimmungsaufgabe von einer Beweisaufgabe?",
+          "options": [
+            "Bestimmungsaufgaben haben kein Ziel",
+            "Bestimmungsaufgabe: Gegenstand finden; Beweisaufgabe: Wahrheit einer Behauptung entscheiden/beweisen",
+            "Beide sind identisch definiert",
+            "Beweisaufgaben kommen nur in der Geometrie vor"
+          ],
+          "correct": 1,
+          "expl": "Bestimmungsaufgaben zielen auf das Finden/Konstruieren einer Unbekannten, Beweisaufgaben auf das Entscheiden und Beweisen/Widerlegen einer Behauptung.",
+          "flagged": false
+        },
+        {
+          "id": "c1t81f5b",
+          "session": "Sitzung 6",
+          "q": "Welches heuristische Prinzip liegt vor, wenn eine unregelmäßige Fläche in Rechtecke und Dreiecke geteilt wird?",
+          "options": [
+            "Symmetrieprinzip",
+            "Zerlegen und Ergänzen",
+            "Invarianzprinzip",
+            "Fallunterscheidung"
+          ],
+          "correct": 1,
+          "expl": "Das Zerlegen und Ergänzen teilt ein komplexes Problem in einfachere, bekannte Teilprobleme auf.",
+          "flagged": false
+        },
+        {
+          "id": "c1jxvnb8",
+          "session": "Sitzung 6",
+          "q": "Was fehlt bei einer Routineaufgabe im Vergleich zu einem echten Problem?",
+          "options": [
+            "Ein Anfangszustand",
+            "Ein Endzustand",
+            "Die Barriere / das unbekannte Lösungsverfahren",
+            "Ein mathematischer Inhalt"
+          ],
+          "correct": 2,
+          "expl": "Bei Routineaufgaben ist das Lösungsverfahren bereits bekannt und unmittelbar anwendbar – die für ein Problem konstitutive Barriere fehlt.",
+          "flagged": false
+        },
+        {
+          "id": "c6urafz",
+          "session": "Sitzung 7",
+          "q": "Auf welcher Van-Hiele-Stufe befinden sich die meisten jüngeren Grundschulkinder beim geometrischen Denken?",
+          "options": [
+            "Stufe 1: visuelles/anschauungsgebundenes Denken",
+            "Stufe 3: abstrahierend-relationales Denken",
+            "Stufe 4: schlussfolgerndes Denken",
+            "Stufe 5: abstrakt-metamathematisches Denken"
+          ],
+          "correct": 0,
+          "expl": "Jüngere Kinder denken meist visuell-prototypgebunden (Stufe 1), Figuren werden ganzheitlich statt über Eigenschaften erfasst.",
+          "flagged": false
+        },
+        {
+          "id": "cced7qx",
+          "session": "Sitzung 7",
+          "q": "Warum ist die Erkenntnis 'ein Quadrat ist ein Rechteck' für viele Kinder schwer?",
+          "options": [
+            "Weil sie den Begriff Rechteck noch nicht kennen",
+            "Weil sie Klasseninklusionen auf der prototypgebundenen Stufe schwer nachvollziehen können",
+            "Weil das mathematisch falsch ist",
+            "Weil dies erst in der Sekundarstufe II behandelt wird"
+          ],
+          "correct": 1,
+          "expl": "Auf der visuellen Van-Hiele-Stufe werden Kategorien eher als sich ausschließend wahrgenommen, Klasseninklusionen sind daher schwer zugänglich.",
+          "flagged": false
+        },
+        {
+          "id": "cvyefvx",
+          "session": "Sitzung 7",
+          "q": "Welche Aussage zur Begriffsbildung nach Büchter & Leuders (2019) ist korrekt?",
+          "options": [
+            "Der Begriff als formale Struktur ist vieldeutig und emotional",
+            "Der Begriff als psychische Struktur ist eindeutig und abstrakt",
+            "Die formale Struktur ist objektiv und abstrakt, die psychische Struktur individuell und konkret",
+            "Beide Perspektiven sind identisch"
+          ],
+          "correct": 2,
+          "expl": "Die formale (mathematische) Struktur ist objektiv/abstrakt (Definition), die psychische Struktur individuell/konkret (Prototypen, Assoziationen).",
+          "flagged": false
+        },
+        {
+          "id": "civrjkm",
+          "session": "Sitzung 8",
+          "q": "Welcher Wahrscheinlichkeitsbegriff setzt Wahrscheinlichkeit mit relativer Häufigkeit in einer langen Versuchsserie gleich?",
+          "options": [
+            "Klassischer Wahrscheinlichkeitsbegriff",
+            "Frequentistischer Wahrscheinlichkeitsbegriff",
+            "Axiomatischer Wahrscheinlichkeitsbegriff",
+            "Subjektiver Wahrscheinlichkeitsbegriff"
+          ],
+          "correct": 1,
+          "expl": "Der frequentistische Wahrscheinlichkeitsbegriff nutzt die relative Häufigkeit in einer langen Versuchsserie als Annäherung.",
+          "flagged": false
+        },
+        {
+          "id": "c1vdb95q",
+          "session": "Sitzung 8",
+          "q": "Was beschreibt die Gambler's Fallacy?",
+          "options": [
+            "Verwechslung von P(A|B) und P(B|A)",
+            "Die fälschliche Annahme, nach mehrfach gleichem Zufallsergebnis sei ein anderes Ergebnis wahrscheinlicher",
+            "Die korrekte Berechnung klassischer Wahrscheinlichkeiten",
+            "Ein Fehler beim Umgang mit Diagrammen"
+          ],
+          "correct": 1,
+          "expl": "Die Gambler's Fallacy bezeichnet den Trugschluss, ein Ergebnis sei nach mehrfachem Ausbleiben 'überfällig', obwohl die Ereignisse unabhängig sind.",
+          "flagged": false
+        },
+        {
+          "id": "chowf6",
+          "session": "Sitzung 8",
+          "q": "Ein Kind hält beim Würfeln '6 mal hintereinander die 3' für ausgeschlossen, weil das 'unfair' wäre. Welche Intuition liegt hier vor?",
+          "options": [
+            "Eine tragfähige Sekundärintuition",
+            "Eine Primärintuition, die im Widerspruch zur stochastischen Unabhängigkeit steht",
+            "Der axiomatische Wahrscheinlichkeitsbegriff",
+            "Die korrekte Anwendung der Gambler's Fallacy"
+          ],
+          "correct": 1,
+          "expl": "Diese Alltagsintuition widerspricht der stochastischen Unabhängigkeit der Würfe und muss durch Unterricht in eine Sekundärintuition überführt werden.",
+          "flagged": false
+        },
+        {
+          "id": "c1ww3u4n",
+          "session": "Sitzung 9",
+          "q": "Welcher Effekt beschreibt, dass Zahlenvergleiche bei größerem Abstand schneller gelingen?",
+          "options": [
+            "SNARC-Effekt",
+            "Distanz-Effekt",
+            "Größen-Effekt",
+            "Primäreffekt"
+          ],
+          "correct": 1,
+          "expl": "Der Distanz-Effekt: je weiter zwei Zahlen auseinanderliegen, desto schneller und fehlerfreier der Vergleich.",
+          "flagged": false
+        },
+        {
+          "id": "c1rs764t",
+          "session": "Sitzung 9",
+          "q": "Was besagt der kardinale Zahlaspekt?",
+          "options": [
+            "Zahlen als Abfolge von Zählschritten",
+            "Das Zahlwort gibt die Mächtigkeit einer Menge an",
+            "Zahlen als Symbol für Operationen",
+            "Zahlen als Platzhalter in Gleichungen"
+          ],
+          "correct": 1,
+          "expl": "Der kardinale Aspekt fokussiert den Anzahlaspekt: Das Zahlwort entspricht der Mächtigkeit der erfassten Menge.",
+          "flagged": false
+        },
+        {
+          "id": "c1bux7a2",
+          "session": "Sitzung 9",
+          "q": "Warum gilt der Begriff 'Grundvorstellungen' (vom Hofe) als normativ?",
+          "options": [
+            "Weil er nur für Lehrkräfte gilt",
+            "Weil er beschreibt, welche Vorstellungen aufgebaut werden SOLLEN, nicht nur welche vorhanden sind",
+            "Weil er gesetzlich vorgeschrieben ist",
+            "Weil er nur eine einzige Vorstellung pro Begriff zulässt"
+          ],
+          "correct": 1,
+          "expl": "Grundvorstellungen haben eine normative Komponente: Sie legen fest, welche Vorstellungen für einen tragfähigen Begriffsaufbau gezielt aktiviert werden sollten.",
+          "flagged": false
+        },
+        {
+          "id": "cjwqx3r",
+          "session": "Sitzung 10",
+          "q": "Als was fungiert die Variable in der Gleichung 3x + 2 = 11?",
+          "options": [
+            "Unbestimmte",
+            "Veränderliche",
+            "Unbekannte",
+            "Konstante"
+          ],
+          "correct": 2,
+          "expl": "Hier ist x eine Unbekannte: ein Name für die gesuchte Zahl, die die Gleichung erfüllt.",
+          "flagged": false
+        },
+        {
+          "id": "c1twlywp",
+          "session": "Sitzung 10",
+          "q": "Was bezeichnet der 'Doppelcharakter der Formel'?",
+          "options": [
+            "Formeln gelten nur in zwei Zahlenbereichen",
+            "Term als Rechenschema UND als Bauplan/Explorationsgegenstand",
+            "Formeln haben immer zwei Variablen",
+            "Formeln sind entweder wahr oder falsch"
+          ],
+          "correct": 1,
+          "expl": "Ein Term dient sowohl als Rechenschema (Lösungsweg) als auch als Bauplan, der selbst Auskunft über Beziehungen gibt (Explorationsgegenstand).",
+          "flagged": false
+        },
+        {
+          "id": "c108ni1i",
+          "session": "Sitzung 10",
+          "q": "Was bedeutet 'Struktur- und Symbolsinn' (structure sense)?",
+          "options": [
+            "Nur Formeln auswendig lernen",
+            "Teilterme so zu Einheiten bündeln, dass eine nutzbare Struktur erkennbar wird",
+            "Symbole immer durch Zahlen ersetzen",
+            "Nur geometrische Muster erkennen"
+          ],
+          "correct": 1,
+          "expl": "Structure sense (Linchevski & Livneh) meint die Fähigkeit, in einem Term Teilstrukturen zu erkennen und sinnvoll zu bündeln, z.B. bei binomischen Formeln.",
+          "flagged": false
+        },
+        {
+          "id": "c1wrdtf1",
+          "session": "Sitzung 11",
+          "q": "Was ist laut Reiss & Hammer (2021) 'die Kernidee' einer Unterrichtsstunde?",
+          "options": [
+            "Die fachliche Sachanalyse des Themas",
+            "Die Antwort auf die Frage, warum Schüler*innen das Thema lernen sollen",
+            "Eine Liste von Übungsaufgaben",
+            "Der Name der verwendeten Lernumgebung"
+          ],
+          "correct": 1,
+          "expl": "Die Kernidee klärt, warum der Gegenstand gelernt werden soll und was die Lehrkraft daran selbst interessant findet - im Unterschied zur Sachanalyse ('die Sache').",
+          "flagged": false
+        },
+        {
+          "id": "c1px8dqw",
+          "session": "Sitzung 11",
+          "q": "Was ist 'natürliche Differenzierung' nach Wittmann (2001)?",
+          "options": [
+            "Unterschiedliche Arbeitsblätter je nach Leistungsniveau",
+            "Alle Kinder erhalten dasselbe ganzheitliche Angebot mit freigestelltem Bearbeitungsniveau",
+            "Homogene Lerngruppen durch Förderkurse",
+            "Differenzierung nur für besonders begabte Kinder"
+          ],
+          "correct": 1,
+          "expl": "Bei natürlicher Differenzierung erhalten alle Kinder dasselbe, hinreichend komplexe Lernangebot; Bearbeitungslevel und Lösungswege sind freigestellt.",
+          "flagged": false
+        },
+        {
+          "id": "c4u2994",
+          "session": "Sitzung 11",
+          "q": "Was ist der Unterschied zwischen äußerer und innerer Differenzierung?",
+          "options": [
+            "Es gibt keinen Unterschied",
+            "Äußere Differenzierung bildet homogene Gruppen, innere differenziert innerhalb der Gruppe didaktisch-methodisch",
+            "Innere Differenzierung gibt es nur in der Sekundarstufe",
+            "Äußere Differenzierung ist dasselbe wie natürliche Differenzierung"
+          ],
+          "correct": 1,
+          "expl": "Äußere Differenzierung reduziert Heterogenität organisatorisch (z.B. Förderkurse), innere/Binnendifferenzierung erfolgt didaktisch-methodisch innerhalb einer Gruppe.",
+          "flagged": false
+        },
+        {
+          "id": "c1h0l6ko",
+          "session": "Sitzung 12",
+          "q": "Welche drei übergreifenden Aufgabenmerkmale nennen Büchter & Leuders (2005)?",
+          "options": [
+            "Offenheit, Authentizität, Differenzierungsvermögen",
+            "Länge, Schwierigkeit, Kontext",
+            "Reproduktion, Transfer, Reflexion",
+            "Enaktiv, ikonisch, symbolisch"
+          ],
+          "correct": 0,
+          "expl": "Büchter & Leuders nennen Authentizität, Offenheit und Differenzierungsvermögen als übergreifende Aufgabenmerkmale.",
+          "flagged": false
+        },
+        {
+          "id": "c4154jg",
+          "session": "Sitzung 12",
+          "q": "Ist eine natürlich differenzierende Aufgabe automatisch auch eine 'gute Aufgabe' im vollen Sinne?",
+          "options": [
+            "Ja, immer",
+            "Nein, natürliche Differenzierung ist notwendig, aber nicht automatisch hinreichend für alle Gütekriterien",
+            "Nein, beide Konzepte schließen sich aus",
+            "Das hängt nur vom Fach ab"
+          ],
+          "correct": 1,
+          "expl": "Ob z.B. auch Begründungen eingefordert oder sprachliche Präzisierung angeregt werden, hängt von der konkreten unterrichtlichen Umsetzung ab.",
+          "flagged": false
+        },
+        {
+          "id": "ci8bbh9",
+          "session": "Probeklausur",
+          "q": "Aus wie vielen Dimensionen besteht das Kompetenzmodell der Bildungsstandards?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correct": 1,
+          "expl": "Drei Dimensionen: Anforderungsbereiche, inhaltsbezogene Kompetenzen (Leitideen), prozessbezogene Kompetenzen.",
+          "flagged": false
+        },
+        {
+          "id": "c1sbjrhp",
+          "session": "Probeklausur",
+          "q": "Welche Aussage zur Wahrscheinlichkeit bei einem quaderförmigen Würfel ist laut Vorlesung richtig?",
+          "options": [
+            "Sie ist ausschließlich aus dem Flächenverhältnis der Außenflächen ableitbar",
+            "Physikalische Faktoren wie Schwerpunkt spielen ebenfalls eine Rolle, rein geometrische Ableitung greift zu kurz",
+            "Sie ist identisch mit einem normalen Würfel",
+            "Sie kann nicht bestimmt werden"
+          ],
+          "correct": 1,
+          "expl": "Bei einem unregelmäßigen Körper ist die Wahrscheinlichkeit nicht ausschließlich geometrisch, sondern auch von physikalischen Faktoren abhängig.",
+          "flagged": false
+        },
+        {
+          "id": "c1qqpb1n",
+          "session": "Sitzung 1",
+          "q": "Welche drei Grunddimensionen der Unterrichtsqualität nennen Klieme, Schümer & Knoll (2001)?",
+          "options": [
+            "Klassenführung, Schülerorientierung, kognitive Aktivierung",
+            "Struktur, Klima, Medien",
+            "Lernzeit, Motivation, Differenzierung",
+            "Sache, Kernidee, Reflexion"
+          ],
+          "correct": 0,
+          "expl": "Diese drei Grunddimensionen bündeln die Einzelmerkmale von Meyer und Helmke.",
+          "flagged": false
+        },
+        {
+          "id": "c2uiy3r",
+          "session": "Sitzung 1",
+          "q": "Welches Merkmal nach Meyer bezieht sich auf transparente Bewertungsmaßstäbe?",
+          "options": [
+            "Intelligentes Üben",
+            "Transparente Leistungserwartungen",
+            "Methodenvielfalt",
+            "Vorbereitete Umgebung"
+          ],
+          "correct": 1,
+          "expl": "Transparente Leistungserwartungen bedeuten, dass Schüler*innen wissen, woran sie gemessen werden.",
+          "flagged": false
+        },
+        {
+          "id": "c6yo2zc",
+          "session": "Sitzung 2",
+          "q": "Welcher Aufgabenbereich nach Heymann betrifft die Vermittlung von Basiswissen für gesellschaftliche Teilhabe?",
+          "options": [
+            "Stärkung des Schüler-Ichs",
+            "Weltorientierung",
+            "Lebensvorbereitung",
+            "Verantwortungsbereitschaft"
+          ],
+          "correct": 1,
+          "expl": "Weltorientierung meint die Vermittlung von Wissen zur Deutung und Modellierung alltäglicher Phänomene.",
+          "flagged": false
+        },
+        {
+          "id": "cw6pap9",
+          "session": "Sitzung 2",
+          "q": "Welche Winter'sche Grunderfahrung betrifft heuristische Fähigkeiten?",
+          "options": [
+            "Die erste",
+            "Die zweite",
+            "Die dritte",
+            "Keine, das ist ein Anforderungsbereich"
+          ],
+          "correct": 2,
+          "expl": "Die dritte Grunderfahrung bezieht sich auf den Erwerb heuristischer Fähigkeiten beim Bearbeiten von Aufgaben.",
+          "flagged": false
+        },
+        {
+          "id": "c1weo237",
+          "session": "Sitzung 3",
+          "q": "Ein Kind schüttet Plättchen nur mechanisch um, ohne die zugrunde liegende Zerlegung zu reflektieren. Welches Prinzip ist hier NICHT erfüllt?",
+          "options": [
+            "Spiralprinzip",
+            "Operatives Prinzip",
+            "EIS-Prinzip",
+            "Produktives Üben"
+          ],
+          "correct": 1,
+          "expl": "Das operative Prinzip verlangt Einsicht in die Struktur der Handlung, nicht nur mechanisches Handeln.",
+          "flagged": false
+        },
+        {
+          "id": "ckirnr1",
+          "session": "Sitzung 3",
+          "q": "Welche drei Ebenen unterscheidet das EIS-Prinzip?",
+          "options": [
+            "Anfang, Mitte, Ende",
+            "Enaktiv, ikonisch, symbolisch",
+            "Einfach, individuell, systematisch",
+            "Erklären, Interpretieren, Systematisieren"
+          ],
+          "correct": 1,
+          "expl": "EIS steht für enaktiv, ikonisch und symbolisch - die drei Repräsentationsebenen.",
+          "flagged": false
+        },
+        {
+          "id": "c13n717y",
+          "session": "Sitzung 4",
+          "q": "Was unterscheidet den experimentellen vom inhaltlich-anschaulichen Beweis?",
+          "options": [
+            "Es gibt keinen Unterschied",
+            "Der experimentelle Beweis prüft nur Einzelbeispiele, der inhaltlich-anschauliche leistet eine echte Verallgemeinerung",
+            "Der inhaltlich-anschauliche Beweis ist immer falsch",
+            "Der experimentelle Beweis ist formaler"
+          ],
+          "correct": 1,
+          "expl": "Der experimentelle Beweis bleibt bei Einzelfällen, der inhaltlich-anschauliche Beweis verallgemeinert bereits.",
+          "flagged": false
+        },
+        {
+          "id": "cvicvaf",
+          "session": "Sitzung 4",
+          "q": "Was bezeichnet man in der Primarstufe als 'Forschermittel'?",
+          "options": [
+            "Digitale Tafeln",
+            "Werkzeuge wie Rechensteine, die Handeln und Beweisen verbinden",
+            "Nur Taschenrechner",
+            "Bewertungsbögen der Lehrkraft"
+          ],
+          "correct": 1,
+          "expl": "Forschermittel wie Rechensteine oder das Hunderterfeld helfen, Zusammenhänge handelnd zu erkunden und nachvollziehbar zu machen.",
+          "flagged": false
+        },
+        {
+          "id": "c1yxye54",
+          "session": "Sitzung 5",
+          "q": "Was unterscheidet reales Modell und mathematisches Modell?",
+          "options": [
+            "Es gibt keinen Unterschied",
+            "Das reale Modell ist eine vereinfachte Fassung der Situation, das mathematische Modell dessen Übersetzung in mathematische Sprache",
+            "Das mathematische Modell kommt vor dem realen Modell",
+            "Nur das mathematische Modell ist real"
+          ],
+          "correct": 1,
+          "expl": "Das reale Modell vereinfacht die Situation, das mathematische Modell übersetzt dies in Formeln/Rechnungen.",
+          "flagged": false
+        },
+        {
+          "id": "c1h21mlv",
+          "session": "Sitzung 5",
+          "q": "Welche Kategorie beschreibt, dass eine Aufgabe mehr Angaben enthält als zur Lösung nötig?",
+          "options": [
+            "Unterbestimmtheit",
+            "Überbestimmtheit",
+            "Offenheit",
+            "Authentizität"
+          ],
+          "correct": 1,
+          "expl": "Überbestimmte Aufgaben enthalten Angaben, die nicht alle für die Lösung gebraucht werden.",
+          "flagged": false
+        },
+        {
+          "id": "chbyqnn",
+          "session": "Sitzung 6",
+          "q": "Welches heuristische Hilfsmittel wird explizit von heuristischen Strategien unterschieden?",
+          "options": [
+            "Symmetrieprinzip",
+            "Lösungsgraphen/Tabellen/Skizzen",
+            "Rückwärtsarbeiten",
+            "Extremalprinzip"
+          ],
+          "correct": 1,
+          "expl": "Heuristische Hilfsmittel wie Skizzen, Tabellen und Lösungsgraphen sind eine eigene Kategorie neben Strategien und Prinzipien.",
+          "flagged": false
+        },
+        {
+          "id": "c1l2f4qe",
+          "session": "Sitzung 6",
+          "q": "Wovon hängt es ab, ob eine Aufgabe für eine Person ein Problem darstellt?",
+          "options": [
+            "Nur von der Aufgabe selbst",
+            "Von der Aufgabe UND der individuellen Kompetenz der Person",
+            "Nur vom Alter der Person",
+            "Von der Klassenstufe allein"
+          ],
+          "correct": 1,
+          "expl": "Ob eine Aufgabe ein Problem ist, hängt von der Aufgabe und vom individuellen Vorwissen der bearbeitenden Person ab.",
+          "flagged": false
+        },
+        {
+          "id": "ctdioqr",
+          "session": "Sitzung 7",
+          "q": "Welche Aussage zu Van-Hiele-Stufe 3 (abstrahierend-relationales Denken) trifft zu?",
+          "options": [
+            "Figuren werden nur ganzheitlich wahrgenommen",
+            "Klasseninklusionen werden verstanden, verbale Definitionen gewinnen an Bedeutung",
+            "Nur formale Axiomensysteme werden genutzt",
+            "Diese Stufe betrifft nur die Sekundarstufe II"
+          ],
+          "correct": 1,
+          "expl": "Auf Stufe 3 werden Beziehungsgefüge zwischen Eigenschaften verstanden, z.B. dass ein Quadrat ein Rechteck ist.",
+          "flagged": false
+        },
+        {
+          "id": "cx6ze0y",
+          "session": "Sitzung 7",
+          "q": "Was gehört NICHT zu den Aspekten geometrischen Denkens?",
+          "options": [
+            "Raumvorstellung",
+            "Begriffsbildung",
+            "Bewegliches Denken",
+            "Stellenwertverständnis"
+          ],
+          "correct": 3,
+          "expl": "Stellenwertverständnis gehört zur Leitidee Zahl (Sitzung 9), nicht zu den Aspekten geometrischen Denkens.",
+          "flagged": false
+        },
+        {
+          "id": "cb4v5rn",
+          "session": "Sitzung 8",
+          "q": "Wodurch unterscheidet sich der axiomatische vom klassischen Wahrscheinlichkeitsbegriff?",
+          "options": [
+            "Kein Unterschied",
+            "Der axiomatische Begriff lässt Wahrscheinlichkeit undefiniert und regelt den Gebrauch durch Axiome",
+            "Der axiomatische Begriff gilt nur für die Grundschule",
+            "Der klassische Begriff basiert auf Axiomen"
+          ],
+          "correct": 1,
+          "expl": "Kolmogorows axiomatischer Zugang definiert Wahrscheinlichkeit nicht inhaltlich, sondern regelt sie formal durch Axiome.",
+          "flagged": false
+        },
+        {
+          "id": "c1iv8cj8",
+          "session": "Sitzung 8",
+          "q": "Was umfasst die Teilkompetenz 'Mit Daten umgehen' in der Primarstufe?",
+          "options": [
+            "Nur Kopfrechnen",
+            "Befragungen planen, Daten erfassen, darstellen und kritisch reflektieren",
+            "Nur das Berechnen von Wahrscheinlichkeiten",
+            "Ausschließlich digitale Datenverarbeitung"
+          ],
+          "correct": 1,
+          "expl": "Diese Teilkompetenz umfasst den gesamten Prozess von der Datenerhebung bis zur kritischen Reflexion von Darstellungen.",
+          "flagged": false
+        },
+        {
+          "id": "c1ryo6jb",
+          "session": "Sitzung 9",
+          "q": "Was zeigt der SNARC-Effekt?",
+          "options": [
+            "Größere Zahlen werden immer schneller verglichen",
+            "Eine räumliche links-klein/rechts-groß-Assoziation von Zahlen",
+            "Zahlen haben keine räumliche Repräsentation",
+            "Nur Erwachsene zeigen diesen Effekt"
+          ],
+          "correct": 1,
+          "expl": "Der SNARC-Effekt zeigt eine Reaktionszeit-Präferenz je nach Zahlengröße und genutzter Hand, was auf einen mentalen Zahlenstrahl hindeutet.",
+          "flagged": false
+        },
+        {
+          "id": "ceenfrj",
+          "session": "Sitzung 9",
+          "q": "Welche Grundvorstellung gehört NICHT zur Addition?",
+          "options": [
+            "Vereinigen",
+            "Verändern",
+            "Abziehen",
+            "Ausgleichen"
+          ],
+          "correct": 2,
+          "expl": "Abziehen ist eine Grundvorstellung der Subtraktion, nicht der Addition.",
+          "flagged": false
+        },
+        {
+          "id": "cbgg1bl",
+          "session": "Sitzung 10",
+          "q": "Welche Grundvorstellung der Variable liegt bei y=2x vor?",
+          "options": [
+            "Unbekannte",
+            "Unbestimmte",
+            "Veränderliche",
+            "Konstante"
+          ],
+          "correct": 2,
+          "expl": "Bei funktionalen Zusammenhängen wie y=2x fungiert die Variable als Veränderliche.",
+          "flagged": false
+        },
+        {
+          "id": "c4pgqwy",
+          "session": "Sitzung 10",
+          "q": "Was zeigt eine dynamisch-rekursive Strukturierung bei Musterfolgen?",
+          "options": [
+            "Den direkten Bezug jeder Figur zur Figurennummer",
+            "Die Veränderung von einer Figur zur nächsten",
+            "Nur das Endergebnis der Folge",
+            "Ausschließlich geometrische Eigenschaften"
+          ],
+          "correct": 1,
+          "expl": "Dynamisch-rekursiv beschreibt, wie sich eine Figur aus der vorherigen durch Hinzufügen entwickelt.",
+          "flagged": false
+        },
+        {
+          "id": "c1l7cdr4",
+          "session": "Sitzung 11",
+          "q": "Was unterscheidet äußere von natürlicher Differenzierung?",
+          "options": [
+            "Kein Unterschied",
+            "Äußere Differenzierung bildet homogene Gruppen, natürliche Differenzierung nutzt ein gemeinsames, ganzheitliches Angebot",
+            "Natürliche Differenzierung ist nur für starke Schüler*innen",
+            "Äußere Differenzierung ist immer besser"
+          ],
+          "correct": 1,
+          "expl": "Äußere Differenzierung trennt Gruppen organisatorisch, natürliche Differenzierung belässt alle in einem gemeinsamen Angebot mit freigestelltem Niveau.",
+          "flagged": false
+        },
+        {
+          "id": "c2ba4vh",
+          "session": "Sitzung 11",
+          "q": "Alle Kinder bearbeiten dieselbe Lernumgebung 'Zahlenmauern', Bearbeitungsniveau und Lösungswege sind frei, ein Austausch über Strategien ist vorgesehen. Um welche Form der Differenzierung handelt es sich?",
+          "options": [
+            "Äußere Differenzierung",
+            "Natürliche Differenzierung",
+            "Gar keine Differenzierung",
+            "Fremddifferenzierung"
+          ],
+          "correct": 1,
+          "expl": "Gleiches Angebot für alle, freies Niveau und sozialer Austausch sind die Kennzeichen natürlicher Differenzierung.",
+          "flagged": false
+        },
+        {
+          "id": "c1vqqqlw",
+          "session": "Sitzung 12",
+          "q": "Welches Aufgabenmerkmal beschreibt, ob eine Aufgabe Bearbeitungen auf unterschiedlichem Niveau ermöglicht?",
+          "options": [
+            "Authentizität",
+            "Offenheit",
+            "Differenzierungsvermögen",
+            "Reproduktion"
+          ],
+          "correct": 2,
+          "expl": "Differenzierungsvermögen bezeichnet die Fähigkeit einer Aufgabe, unterschiedliche Anspruchsniveaus zu ermöglichen.",
+          "flagged": false
+        },
+        {
+          "id": "cz55tb4",
+          "session": "Sitzung 12",
+          "q": "Muss jede Aufgabe im Mathematikunterricht alle drei Merkmale nach Büchter & Leuders gleichermaßen erfüllen?",
+          "options": [
+            "Ja, immer alle drei",
+            "Nein, je nach Unterrichtsziel kann eine Aufgabe bewusst weniger offen oder authentisch sein",
+            "Nein, nur Übungsaufgaben brauchen diese Merkmale",
+            "Nein, die Merkmale gelten nur für Prüfungen"
+          ],
+          "correct": 1,
+          "expl": "Nicht jede Aufgabe muss alle Merkmale gleichermaßen tragen - das hängt vom didaktischen Ziel ab.",
+          "flagged": false
+        },
+        {
+          "id": "c1olnkal",
+          "session": "Sitzung 1",
+          "q": "Auf welchen drei Quellen basiert das PIKAS-Plakat 'Merkmale guten Mathematik-Unterrichts'?",
+          "options": [
+            "Nur auf der Qualitätsanalyse NRW",
+            "Helmke (2007), Meyer (2004) und Selter (2011)",
+            "Piaget, Bruner und Aebli",
+            "Den KMK-Bildungsstandards 2022"
+          ],
+          "correct": 1,
+          "expl": "Das Plakat entstand als Abgleich der Qualitätsanalyse NRW mit diesen drei Autor*innen.",
+          "flagged": false
+        },
+        {
+          "id": "c1i12x0k",
+          "session": "Sitzung 1",
+          "q": "Welches Meyer-Merkmal bezieht sich auf eine gut vorbereitete Lernumgebung?",
+          "options": [
+            "Inhaltliche Klarheit",
+            "Vorbereitete Umgebung",
+            "Sinnstiftendes Kommunizieren",
+            "Hoher Anteil echter Lernzeit"
+          ],
+          "correct": 1,
+          "expl": "Vorbereitete Umgebung ist eines der zehn Merkmale nach Meyer (2024).",
+          "flagged": false
+        },
+        {
+          "id": "cqlu9j7",
+          "session": "Sitzung 1",
+          "q": "Was bündeln die Grunddimensionen nach Klieme, Schümer & Knoll (2001)?",
+          "options": [
+            "Nur mathematikspezifische Aspekte",
+            "Die fachübergreifenden Einzelmerkmale von Meyer und Helmke",
+            "Ausschließlich Prüfungsanforderungen",
+            "Die Bildungsstandards"
+          ],
+          "correct": 1,
+          "expl": "Klassenführung, Schülerorientierung und kognitive Aktivierung bündeln die ausführlicheren Merkmalslisten.",
+          "flagged": false
+        },
+        {
+          "id": "ch3cu99",
+          "session": "Sitzung 2",
+          "q": "Welcher Aufgabenbereich nach Heymann betrifft die Stärkung des Selbstvertrauens der Lernenden?",
+          "options": [
+            "Weltorientierung",
+            "Stärkung des Schüler-Ichs",
+            "Lebensvorbereitung",
+            "Kulturelle Kohärenz"
+          ],
+          "correct": 1,
+          "expl": "Die Stärkung des Schüler-Ichs zielt auf das Selbstvertrauen und die Persönlichkeitsentwicklung.",
+          "flagged": false
+        },
+        {
+          "id": "c1bxbod2",
+          "session": "Sitzung 2",
+          "q": "Welcher Anforderungsbereich verlangt die Wiedergabe von Grundwissen?",
+          "options": [
+            "Anforderungsbereich I",
+            "Anforderungsbereich II",
+            "Anforderungsbereich III",
+            "Keiner der drei"
+          ],
+          "correct": 0,
+          "expl": "Anforderungsbereich I (Reproduzieren) betrifft die Wiedergabe von Grundwissen und Routineverfahren.",
+          "flagged": false
+        },
+        {
+          "id": "c1g7bxfj",
+          "session": "Sitzung 2",
+          "q": "Was ist laut Winter (1995) NICHT Teil der ersten Grunderfahrung?",
+          "options": [
+            "Erscheinungen der Welt wahrnehmen",
+            "Mathematik als deduktiv geordnete Welt kennenlernen",
+            "Natur, Gesellschaft und Kultur verstehen",
+            "Beides, Wahrnehmen und Verstehen der Welt"
+          ],
+          "correct": 1,
+          "expl": "Das Kennenlernen der Mathematik als eigene deduktive Welt ist die zweite, nicht die erste Grunderfahrung.",
+          "flagged": false
+        },
+        {
+          "id": "c1addcve",
+          "session": "Sitzung 3",
+          "q": "Wie nennt Piaget den Prozess des relativen Gleichgewichts zwischen Individuum und Umwelt?",
+          "options": [
+            "Assimilation",
+            "Akkommodation",
+            "Äquilibration",
+            "Konservation"
+          ],
+          "correct": 2,
+          "expl": "Äquilibration bezeichnet das angestrebte relative Gleichgewicht.",
+          "flagged": false
+        },
+        {
+          "id": "c1f5vibi",
+          "session": "Sitzung 3",
+          "q": "Was fordert Bruner mit dem Begriff 'intellektuell redlich'?",
+          "options": [
+            "Nur formale Sprache zu verwenden",
+            "Dass später nichts zurückgenommen werden muss, was vorher gelehrt wurde",
+            "Kindgerechte Vereinfachung ohne Rücksicht auf Korrektheit",
+            "Ausschließlich entdeckendes Lernen"
+          ],
+          "correct": 1,
+          "expl": "Intellektuelle Redlichkeit vermeidet spätere Widersprüche zu früher Gelehrtem.",
+          "flagged": false
+        },
+        {
+          "id": "c1em7agk",
+          "session": "Sitzung 3",
+          "q": "Wovor warnt Aebli beim operativen Prinzip ausdrücklich?",
+          "options": [
+            "Vor zu viel Theorie",
+            "Vor rein mechanischer Handhabung von Material ohne Einsicht in die Struktur",
+            "Vor zu schnellem Fortschritt",
+            "Vor der Nutzung von Rechenmaterial generell"
+          ],
+          "correct": 1,
+          "expl": "Konkretes Handeln allein reicht nicht, wenn die Struktur der Handlung nicht durchschaut wird.",
+          "flagged": false
+        },
+        {
+          "id": "c1paqhxc",
+          "session": "Sitzung 3",
+          "q": "Welches Prinzip zielt darauf ab, dass Schüler*innen Zusammenhänge selbst erkunden, statt sie vorgesetzt zu bekommen?",
+          "options": [
+            "Produktives Üben",
+            "Entdeckendes Lernen",
+            "Spiralprinzip",
+            "EIS-Prinzip"
+          ],
+          "correct": 1,
+          "expl": "Entdeckendes Lernen fördert aktive Erkundung mathematischer Zusammenhänge durch die Lernenden selbst.",
+          "flagged": false
+        },
+        {
+          "id": "c13qeunq",
+          "session": "Sitzung 4",
+          "q": "Welche Ebene steht beim formal-deduktiven Beweis im Vordergrund?",
+          "options": [
+            "Enaktive Handlung",
+            "Formalsymbolische Sprache",
+            "Alltagsbegriffe",
+            "Bildhafte Darstellung"
+          ],
+          "correct": 1,
+          "expl": "Der formal-deduktive Beweis nutzt eine streng logische, formalsymbolische Sprache.",
+          "flagged": false
+        },
+        {
+          "id": "cgwdvb9",
+          "session": "Sitzung 4",
+          "q": "Welche Funktion nach de Villiers betrifft das Erzeugen neuer Ergebnisse im Beweisprozess?",
+          "options": [
+            "Verifikation",
+            "Kommunikation",
+            "Entdecken",
+            "Systematisierung"
+          ],
+          "correct": 2,
+          "expl": "Die Entdeckungsfunktion bezieht sich auf neue Erkenntnisse, die im Zuge des Beweisens entstehen.",
+          "flagged": false
+        },
+        {
+          "id": "c11tb3r1",
+          "session": "Sitzung 4",
+          "q": "Was unterscheidet die Anforderungen zum Argumentieren zwischen Primarstufe und Sekundarstufe I?",
+          "options": [
+            "Es gibt keinen Unterschied",
+            "In der Sek I werden zunehmend deduktive Argumentationsketten erwartet",
+            "In der Primarstufe wird nur formal argumentiert",
+            "Argumentieren ist nur in der Sek I relevant"
+          ],
+          "correct": 1,
+          "expl": "Der Formalisierungsgrad steigt von der Primarstufe zur Sekundarstufe I an.",
+          "flagged": false
+        },
+        {
+          "id": "c1oqw2ae",
+          "session": "Sitzung 4",
+          "q": "Welche Rolle spielen Forschermittel beim Argumentieren in der Primarstufe?",
+          "options": [
+            "Sie ersetzen jede Form von Begründung",
+            "Sie bilden eine Brücke zwischen Handeln und ersten inhaltlich-anschaulichen Beweisen",
+            "Sie sind nur für die Sekundarstufe gedacht",
+            "Sie werden nur bei Multiple-Choice-Aufgaben genutzt"
+          ],
+          "correct": 1,
+          "expl": "Forschermittel wie Rechensteine machen Zusammenhänge handelnd erkundbar und nachvollziehbar.",
+          "flagged": false
+        },
+        {
+          "id": "c15soshw",
+          "session": "Sitzung 5",
+          "q": "Welches Merkmal einer Modellierungsaufgabe beschreibt, ob der Sachkontext für die Lösung notwendig ist?",
+          "options": [
+            "Offenheit",
+            "Rolle des Sachkontextes",
+            "Über-/Unterbestimmtheit",
+            "Authentizität"
+          ],
+          "correct": 1,
+          "expl": "Diese Kategorie unterscheidet, ob der Kontext konstitutiv oder nur illustrativ ist.",
+          "flagged": false
+        },
+        {
+          "id": "c9vajmk",
+          "session": "Sitzung 5",
+          "q": "Welches Ziel des Modellierens bezieht sich auf die Erschließung der Umwelt mit mathematischen Mitteln?",
+          "options": [
+            "Prozessbezogene Ziele",
+            "Inhaltsorientierte Ziele",
+            "Lernpsychologische Ziele",
+            "Motivationale Ziele"
+          ],
+          "correct": 1,
+          "expl": "Inhaltsorientierte Ziele beziehen sich auf die erste Winter'sche Grunderfahrung: Erschließung der Umwelt.",
+          "flagged": false
+        },
+        {
+          "id": "cy0ieqp",
+          "session": "Sitzung 5",
+          "q": "Wofür eignet sich der dreischrittige Modellierungskreislauf nach Blum & Leiß besonders?",
+          "options": [
+            "Für den Alltagsunterricht ohne Reflexion",
+            "Zur Analyse individueller kognitiver Bearbeitungsprozesse",
+            "Nur für sehr einfache Aufgaben",
+            "Für die Bewertung von Multiple-Choice-Fragen"
+          ],
+          "correct": 1,
+          "expl": "Der zusätzliche Schritt des Situationsmodells macht ihn besonders für Diagnose und Forschung geeignet.",
+          "flagged": false
+        },
+        {
+          "id": "cjbb8iu",
+          "session": "Sitzung 5",
+          "q": "Was versteht man unter Teilkompetenzen des Modellierens?",
+          "options": [
+            "Die Fähigkeit, den gesamten Modellierungsprozess zu reflektieren",
+            "Kompetenzen für einzelne Schritte des Modellierungskreislaufs",
+            "Nur die mathematische Endlösung",
+            "Kompetenzen, die nur in der Oberstufe relevant sind"
+          ],
+          "correct": 1,
+          "expl": "Teilkompetenzen betreffen die einzelnen Schritte, im Unterschied zur globalen Modellierungskompetenz.",
+          "flagged": false
+        },
+        {
+          "id": "cq16mc0",
+          "session": "Sitzung 6",
+          "q": "Welcher Aspekt bestimmt laut Vorlesung mit, ob eine Aufgabe für eine Person ein Problem ist?",
+          "options": [
+            "Nur das Fach",
+            "Die individuelle Kompetenz und Lerngeschichte der Person",
+            "Ausschließlich die Klassenstufe",
+            "Die Tageszeit der Bearbeitung"
+          ],
+          "correct": 1,
+          "expl": "Ob eine Aufgabe ein Problem darstellt, hängt auch von individuellem Vorwissen und Lerngeschichte ab.",
+          "flagged": false
+        },
+        {
+          "id": "cbl9b4w",
+          "session": "Sitzung 6",
+          "q": "Welches Heurismus-Prinzip nutzt man, wenn man ein Problem in sich ausschließende Teilfälle aufteilt?",
+          "options": [
+            "Symmetrieprinzip",
+            "Fallunterscheidung",
+            "Extremalprinzip",
+            "Invarianzprinzip"
+          ],
+          "correct": 1,
+          "expl": "Die Fallunterscheidung teilt ein Problem in separat zu betrachtende Teilfälle.",
+          "flagged": false
+        },
+        {
+          "id": "c1wa9jp2",
+          "session": "Sitzung 6",
+          "q": "Was ist laut Büchter & Leuders eine Problemlöseaufgabe?",
+          "options": [
+            "Eine Aufgabe mit sofort erkennbarem Lösungsverfahren",
+            "Die Aufforderung, eine Lösung zu finden, ohne dass ein passendes Verfahren auf der Hand liegt",
+            "Nur eine Textaufgabe",
+            "Eine Aufgabe ohne Lösung"
+          ],
+          "correct": 1,
+          "expl": "Genau diese Definition unterscheidet Problemlöseaufgaben von Routineaufgaben.",
+          "flagged": false
+        },
+        {
+          "id": "c43uh30",
+          "session": "Sitzung 6",
+          "q": "Welcher Heurismus wird typischerweise beim Lösen vom Ziel her rückwärts genutzt?",
+          "options": [
+            "Vorwärtsarbeiten",
+            "Rückwärtsarbeiten",
+            "Systematisches Probieren",
+            "Veranschaulichen"
+          ],
+          "correct": 1,
+          "expl": "Rückwärtsarbeiten geht vom gesuchten Endzustand aus und arbeitet sich zum Anfang zurück.",
+          "flagged": false
+        },
+        {
+          "id": "cpbe4ip",
+          "session": "Sitzung 7",
+          "q": "Welcher Aspekt gehört zu den fünf Zielen des Geometrieunterrichts nach Franke?",
+          "options": [
+            "Erwerb von Wissen über geometrische Begriffe",
+            "Erwerb des Bruchzahlbegriffs",
+            "Kenntnis der Wahrscheinlichkeitsbegriffe",
+            "Verständnis des Gleichheitszeichens"
+          ],
+          "correct": 0,
+          "expl": "Der Erwerb geometrischer Begriffe ist einer der fünf Aspekte nach Franke (2007).",
+          "flagged": false
+        },
+        {
+          "id": "cm7k3qg",
+          "session": "Sitzung 7",
+          "q": "Was zeichnet Van-Hiele-Stufe 2 (analysierend-beschreibendes Denken) aus?",
+          "options": [
+            "Figuren werden nur ganzheitlich erfasst",
+            "Eigenschaften wie parallel oder senkrecht werden durch Handlungserfahrungen erkannt",
+            "Nur formale Axiome werden genutzt",
+            "Diese Stufe betrifft nur Erwachsene"
+          ],
+          "correct": 1,
+          "expl": "Auf Stufe 2 richten Handlungen wie Falten und Schneiden die Aufmerksamkeit auf konkrete Eigenschaften.",
+          "flagged": false
+        },
+        {
+          "id": "c14zckzt",
+          "session": "Sitzung 7",
+          "q": "Was versteht man unter 'bewegliches Denken' als Aspekt geometrischen Denkens?",
+          "options": [
+            "Die Fähigkeit, sich körperlich zu bewegen",
+            "Einen Aspekt, der besonders im Kontext dynamischer Geometriesoftware (DGS) relevant ist",
+            "Nur die Bewegung von Schulmöbeln",
+            "Ein veraltetes, nicht mehr genutztes Konzept"
+          ],
+          "correct": 1,
+          "expl": "Bewegliches Denken wird besonders durch dynamische Geometriesoftware wie GeoGebra gefördert.",
+          "flagged": false
+        },
+        {
+          "id": "c8516o2",
+          "session": "Sitzung 7",
+          "q": "Was ist eine typische Schwierigkeit beim Erwerb des Symmetrieverständnisses?",
+          "options": [
+            "Kinder verwechseln oft Rotations- mit Achsensymmetrie",
+            "Kinder verstehen Symmetrie sofort vollständig formal",
+            "Symmetrie wird nie in der Grundschule behandelt",
+            "Es gibt keine bekannten Schwierigkeiten"
+          ],
+          "correct": 0,
+          "expl": "Die Verwechslung von Rotations- und Achsensymmetrie ist eine dokumentierte typische Schwierigkeit.",
+          "flagged": false
+        },
+        {
+          "id": "c1tvizvf",
+          "session": "Sitzung 8",
+          "q": "Welcher Begriff beschreibt intuitives Wissen, das auf Alltagserfahrung basiert und mit formalem Wissen im Widerspruch stehen kann?",
+          "options": [
+            "Sekundärintuition",
+            "Primärintuition",
+            "Axiomatisches Wissen",
+            "Klassisches Wissen"
+          ],
+          "correct": 1,
+          "expl": "Primärintuition (Fischbein) basiert auf Alltagserfahrung und kann fehlerhaft sein.",
+          "flagged": false
+        },
+        {
+          "id": "ceo203q",
+          "session": "Sitzung 8",
+          "q": "Welche zweifache Funktion hat Unterricht bezüglich stochastischer Intuitionen?",
+          "options": [
+            "Nur Konflikte schaffen, ohne Lösung anzubieten",
+            "Bewusstsein für Konflikte schaffen UND Erfahrungsraum für Sekundärintuitionen bieten",
+            "Nur formale Berechnung lehren",
+            "Ausschließlich Fehlvorstellungen verstärken"
+          ],
+          "correct": 1,
+          "expl": "Beide Funktionen sind laut Biehler & Engel (2015) notwendig für tragfähiges stochastisches Denken.",
+          "flagged": false
+        },
+        {
+          "id": "cs4x6lw",
+          "session": "Sitzung 8",
+          "q": "Was zeichnet den klassischen Wahrscheinlichkeitsbegriff nach Laplace aus?",
+          "options": [
+            "Wahrscheinlichkeit als relative Häufigkeit in Versuchsserien",
+            "Wahrscheinlichkeit als relativer Anteil gleichwahrscheinlicher Ergebnisse",
+            "Wahrscheinlichkeit bleibt vollständig undefiniert",
+            "Wahrscheinlichkeit nur durch Axiome geregelt"
+          ],
+          "correct": 1,
+          "expl": "Der klassische (Laplace'sche) Wahrscheinlichkeitsbegriff setzt Gleichwahrscheinlichkeit der Ergebnisse voraus.",
+          "flagged": false
+        },
+        {
+          "id": "c1mt1xy1",
+          "session": "Sitzung 8",
+          "q": "Warum ist der Inhaltsbereich Daten und Zufall für Jugendliche oft besonders motivierend?",
+          "options": [
+            "Wegen des hohen Alltagsbezugs",
+            "Weil er keine Berechnungen erfordert",
+            "Weil er nur in der Oberstufe vorkommt",
+            "Weil er leichter ist als andere Bereiche"
+          ],
+          "correct": 0,
+          "expl": "Der Alltagsbezug stochastischer Probleme macht sie für viele Jugendliche besonders interessant.",
+          "flagged": false
+        },
+        {
+          "id": "c6ci6y0",
+          "session": "Sitzung 9",
+          "q": "Was beschreibt der Größen-Effekt beim mentalen Zahlenstrahl?",
+          "options": [
+            "Kleinere Zahlen werden schneller verglichen als größere bei gleicher Distanz",
+            "Alle Zahlen werden gleich schnell verglichen",
+            "Nur der Abstand zwischen Zahlen spielt eine Rolle",
+            "Größere Zahlen werden immer schneller verglichen"
+          ],
+          "correct": 0,
+          "expl": "Bei gleicher Distanz nehmen Zeit und Fehleranfälligkeit bei größeren Zahlenpaaren zu.",
+          "flagged": false
+        },
+        {
+          "id": "c1ds439r",
+          "session": "Sitzung 9",
+          "q": "Welchen Vorteil bietet das dezimale Stellenwertsystem laut Vorlesung?",
+          "options": [
+            "Es ist ausschließlich additiv wie römische Zahlen",
+            "Es dient zugleich als Darstellungsmittel und Rechenwerkzeug",
+            "Es funktioniert nur für kleine Zahlen",
+            "Es wurde erst im 20. Jahrhundert entwickelt"
+          ],
+          "correct": 1,
+          "expl": "Das Stellenwertsystem ermöglicht sowohl Darstellung als auch effizientes Rechnen.",
+          "flagged": false
+        },
+        {
+          "id": "c1xxmi4n",
+          "session": "Sitzung 9",
+          "q": "Welche Grundvorstellung gehört zur Subtraktion?",
+          "options": [
+            "Vereinigen",
+            "Ergänzen",
+            "Verändern (dazu)",
+            "Alle drei gehören zur Addition"
+          ],
+          "correct": 1,
+          "expl": "Ergänzen ist eine der Grundvorstellungen der Subtraktion, neben Abziehen und Vergleichen.",
+          "flagged": false
+        },
+        {
+          "id": "cr3b1py",
+          "session": "Sitzung 9",
+          "q": "Was erschwert typischerweise den Erwerb des Bruchzahlbegriffs?",
+          "options": [
+            "Brüche haben keinen Bezug zu natürlichen Zahlen",
+            "Die Multiplikation echter Brüche kann das Ergebnis verkleinern, im Widerspruch zu Erfahrungen mit natürlichen Zahlen",
+            "Brüche werden nie in der Grundschule behandelt",
+            "Es gibt keine besonderen Schwierigkeiten"
+          ],
+          "correct": 1,
+          "expl": "Dass Multiplizieren bei Brüchen das Ergebnis verkleinern kann, widerspricht der Intuition aus dem Bereich natürlicher Zahlen.",
+          "flagged": false
+        },
+        {
+          "id": "c1lqtkn0",
+          "session": "Sitzung 10",
+          "q": "Welchen Doppelcharakter hat eine Formel laut Vorlesung?",
+          "options": [
+            "Sie ist entweder wahr oder falsch",
+            "Sie dient als Rechenschema UND als Bauplan/Explorationsgegenstand",
+            "Sie hat nur eine Bedeutung als Rechenschema",
+            "Sie ist nur im Kontext von Gleichungen bedeutsam"
+          ],
+          "correct": 1,
+          "expl": "Der Doppelcharakter umfasst Rechenschema (Lösungsweg) und Bauplan (Informationsquelle über Struktur).",
+          "flagged": false
+        },
+        {
+          "id": "cmp75oa",
+          "session": "Sitzung 10",
+          "q": "Was beschreibt eine 'relationale Sichtweise' beim algebraischen Denken?",
+          "options": [
+            "Das reine Ausrechnen von Zahlenwerten",
+            "Den Übergang von einer rechnenden zu einer strukturellen Sichtweise auf Ausdrücke",
+            "Nur die Verwendung von Variablen als Unbekannte",
+            "Das Auswendiglernen von Formeln"
+          ],
+          "correct": 1,
+          "expl": "Eine relationale Sichtweise liest z.B. eine Gleichung als Beziehung statt als Rechenaufforderung.",
+          "flagged": false
+        },
+        {
+          "id": "ck9nugf",
+          "session": "Sitzung 10",
+          "q": "Wie wird der Begriff 'Term' in der Vorlesung definiert?",
+          "options": [
+            "Nur als Ergebnis einer Rechnung",
+            "Rekursiv: Zahlen und Variablen sind Terme, ihre Verknüpfung ergibt wieder einen Term",
+            "Ausschließlich als Gleichung",
+            "Nur als geometrischer Ausdruck"
+          ],
+          "correct": 1,
+          "expl": "Die rekursive Definition baut komplexe Terme aus einfachen Bausteinen auf.",
+          "flagged": false
+        },
+        {
+          "id": "cczqmv2",
+          "session": "Sitzung 10",
+          "q": "Welche besondere Funktion hat der Inhaltsbereich 'Muster, Strukturen, funktionaler Zusammenhang' in der Primarstufe?",
+          "options": [
+            "Er ersetzt vollständig die Algebra der Sekundarstufe",
+            "Er hat eine Brückenfunktion zum späteren algebraischen Denken, ohne formale Variablen zu benötigen",
+            "Er wird erst in der Oberstufe eingeführt",
+            "Er hat keinen Bezug zur Algebra"
+          ],
+          "correct": 1,
+          "expl": "Kinder erkunden Muster und Gesetzmäßigkeiten, was den Grundstein für späteres algebraisches Denken legt.",
+          "flagged": false
+        },
+        {
+          "id": "c16vexwt",
+          "session": "Sitzung 11",
+          "q": "Was klärt laut Reiss & Hammer 'die Sache' bei der Unterrichtsplanung?",
+          "options": [
+            "Warum Schüler*innen das Thema lernen sollen",
+            "Die fachliche Struktur und Zusammenhänge des Unterrichtsgegenstandes",
+            "Nur die verwendeten Medien",
+            "Die Bewertungskriterien der Prüfung"
+          ],
+          "correct": 1,
+          "expl": "Die Sachanalyse ('die Sache') betrifft die fachlich fundierte Durchdringung des Themas.",
+          "flagged": false
+        },
+        {
+          "id": "c1bgnuyi",
+          "session": "Sitzung 11",
+          "q": "Welche Heterogenitätsdimension wird in der Vorlesung explizit genannt?",
+          "options": [
+            "Augenfarbe",
+            "Sprachkompetenz",
+            "Lieblingsfach",
+            "Schuhgröße"
+          ],
+          "correct": 1,
+          "expl": "Sprachkompetenz ist eine der genannten Heterogenitätsdimensionen neben Leistungsfähigkeit, Tempo etc.",
+          "flagged": false
+        },
+        {
+          "id": "c19qbqvv",
+          "session": "Sitzung 11",
+          "q": "Was ist ein Entscheidungsfeld für Differenzierungsansätze?",
+          "options": [
+            "Nur die Wahl der Klassenzimmerfarbe",
+            "Wonach, wie, wodurch und wann differenziert wird",
+            "Ausschließlich die Sitzordnung",
+            "Die Anzahl der Fenster im Klassenraum"
+          ],
+          "correct": 1,
+          "expl": "Diese vier Fragen bilden die zentralen Entscheidungsfelder für Differenzierung.",
+          "flagged": false
+        },
+        {
+          "id": "c2rnhro",
+          "session": "Sitzung 11",
+          "q": "Was passiert bei äußerer Differenzierung mit der Lerngruppe?",
+          "options": [
+            "Sie bleibt komplett unverändert",
+            "Die Heterogenität wird organisatorisch reduziert, z.B. durch Förderkurse",
+            "Sie wird ausschließlich digital unterrichtet",
+            "Sie wird nach Zufallsprinzip neu gemischt"
+          ],
+          "correct": 1,
+          "expl": "Äußere Differenzierung bildet möglichst homogene Gruppen, um Heterogenität organisatorisch zu reduzieren.",
+          "flagged": false
+        },
+        {
+          "id": "cqrwx9a",
+          "session": "Sitzung 12",
+          "q": "Welches Kriterium 'guter' Aufgaben bezieht sich darauf, dass eine Aufgabe zu unerwarteten Antworten führen kann?",
+          "options": [
+            "Fokussiert auf das Wesentliche",
+            "Kann zu unerwarteten Antworten und Fragen führen",
+            "Entlastet",
+            "Ermöglicht handelnden Zugang"
+          ],
+          "correct": 1,
+          "expl": "Dieses Kriterium beschreibt die Offenheit einer Aufgabe für unerwartete, aber wertvolle Lernwege.",
+          "flagged": false
+        },
+        {
+          "id": "c3oreil",
+          "session": "Sitzung 12",
+          "q": "Was unterscheidet Aufgaben zum Üben von Aufgaben zur Leistungsüberprüfung?",
+          "options": [
+            "Es gibt keinen Unterschied",
+            "Übungsaufgaben können offener sein, Leistungsüberprüfungen brauchen einheitliche Bewertbarkeit",
+            "Leistungsüberprüfungen sind immer einfacher",
+            "Übungsaufgaben werden nie bewertet"
+          ],
+          "correct": 1,
+          "expl": "Leistungsüberprüfungen benötigen ein transparentes, für alle vergleichbares Bewertungsraster.",
+          "flagged": false
+        },
+        {
+          "id": "cktmh8m",
+          "session": "Sitzung 12",
+          "q": "Welches der folgenden ist KEIN Kriterium 'guter' Aufgaben aus dem Seminar?",
+          "options": [
+            "Fordert eine Begründung ein",
+            "Ist offen",
+            "Erfordert immer digitale Medien",
+            "Ermöglicht aktives Problemlösen"
+          ],
+          "correct": 2,
+          "expl": "Die Notwendigkeit digitaler Medien ist kein genanntes Kriterium guter Aufgaben.",
+          "flagged": false
+        },
+        {
+          "id": "cjej9du",
+          "session": "Sitzung 12",
+          "q": "Was bedeutet 'Differenzierungsvermögen' als Aufgabenmerkmal nach Büchter & Leuders?",
+          "options": [
+            "Die Aufgabe kann nur von starken Schüler*innen gelöst werden",
+            "Die Fähigkeit einer Aufgabe, Bearbeitungen auf unterschiedlichem Niveau zu ermöglichen",
+            "Die Aufgabe erfordert eine Gruppenarbeit",
+            "Die Aufgabe ist nur für eine Klassenstufe geeignet"
+          ],
+          "correct": 1,
+          "expl": "Differenzierungsvermögen beschreibt, ob eine Aufgabe unterschiedliche Anspruchsniveaus zulässt.",
+          "flagged": false
+        },
+        {
+          "id": "c1ue5jcu",
+          "session": "Probeklausur",
+          "q": "Welche Dimension gehört NICHT zum Kompetenzmodell der Bildungsstandards?",
+          "options": [
+            "Anforderungsbereiche",
+            "Inhaltsbezogene Kompetenzen (Leitideen)",
+            "Prozessbezogene Kompetenzen",
+            "Bewertungsschema der Lehrkraft"
+          ],
+          "correct": 3,
+          "expl": "Das Bewertungsschema der Lehrkraft ist keine der drei offiziellen Dimensionen des Kompetenzmodells.",
+          "flagged": false
+        },
+        {
+          "id": "c1qn8uhw",
+          "session": "Probeklausur",
+          "q": "Welche Darstellung entspricht der ikonischen Ebene beim EIS-Prinzip bei Brüchen?",
+          "options": [
+            "Das reale Teilen eines Kuchens",
+            "Ein Kreisdiagramm mit markierten Feldern",
+            "Die Notation 3/4",
+            "Eine gesprochene Erklärung ohne Bild"
+          ],
+          "correct": 1,
+          "expl": "Die ikonische Ebene ist bildhaft, z.B. ein Kreisdiagramm.",
+          "flagged": false
+        },
+        {
+          "id": "c19j9m9o",
+          "session": "Probeklausur",
+          "q": "Was ist laut Bruners Spiralprinzip beim Aufgreifen fundamentaler Ideen auf höherem Niveau wichtig?",
+          "options": [
+            "Frühere Inhalte werden komplett verworfen",
+            "Die Ideen werden strukturell angereichert, ohne frühere Inhalte zu widerlegen",
+            "Nur neue, unabhängige Themen werden eingeführt",
+            "Es gibt kein höheres Niveau, nur Wiederholung"
+          ],
+          "correct": 1,
+          "expl": "Das Spiralprinzip reichert frühere Inhalte an, statt sie zu revidieren.",
+          "flagged": false
+        },
+        {
+          "id": "cf20ayi",
+          "session": "Sitzung 1",
+          "q": "Eine Lehrkraft plant ihren Unterricht mit klarem Einstieg, Erarbeitung und Sicherung. Welches Meyer-Merkmal zeigt sich hier?",
+          "options": [
+            "Methodenvielfalt",
+            "Klare Strukturierung",
+            "Vorbereitete Umgebung",
+            "Transparente Leistungserwartungen"
+          ],
+          "correct": 1,
+          "expl": "Ein erkennbarer roter Faden im Unterrichtsverlauf ist das Kennzeichen klarer Strukturierung.",
+          "flagged": false
+        },
+        {
+          "id": "c1tq44j5",
+          "session": "Sitzung 1",
+          "q": "Schüler*innen bearbeiten dieselbe Aufgabe in Einzel-, Partner- und Gruppenarbeit im Wechsel. Welches Merkmal zeigt sich hier vor allem?",
+          "options": [
+            "Inhaltliche Klarheit",
+            "Methodenvielfalt",
+            "Intelligentes Üben",
+            "Vorbereitete Umgebung"
+          ],
+          "correct": 1,
+          "expl": "Der Wechsel unterschiedlicher Methoden und Sozialformen entspricht der Methodenvielfalt nach Meyer.",
+          "flagged": false
+        },
+        {
+          "id": "cdg5tza",
+          "session": "Sitzung 1",
+          "q": "Eine Aufgabe hat einen klaren Alltagsbezug und regt zu eigenständigem Entdecken an. Welchem PIKAS-Kriterium entspricht das?",
+          "options": [
+            "Adäquate Medien",
+            "Ergiebige Aufgaben",
+            "Strukturierte Arbeit im Plenum",
+            "Förderung der Selbstständigkeit"
+          ],
+          "correct": 1,
+          "expl": "Alltagsbezug und entdeckendes Lernen sind zentrale Kennzeichen ergiebiger Aufgaben.",
+          "flagged": false
+        },
+        {
+          "id": "c140xr0x",
+          "session": "Sitzung 1",
+          "q": "Eine Lehrkraft gibt am Ende der Stunde transparent an, welche Kriterien für die nächste Klassenarbeit gelten. Welches Merkmal zeigt sich?",
+          "options": [
+            "Transparente Leistungserwartungen",
+            "Sinnstiftendes Kommunizieren",
+            "Individuelles Fördern",
+            "Hoher Anteil echter Lernzeit"
+          ],
+          "correct": 0,
+          "expl": "Klar kommunizierte Bewertungsmaßstäbe entsprechen genau diesem Meyer-Merkmal.",
+          "flagged": false
+        },
+        {
+          "id": "c6z69eg",
+          "session": "Sitzung 2",
+          "q": "Schüler*innen lernen, wie man mit Statistiken in Nachrichtenmeldungen kritisch umgeht. Welcher Aufgabenbereich nach Heymann trifft am ehesten zu?",
+          "options": [
+            "Weltorientierung",
+            "Stärkung des Schüler-Ichs",
+            "Lebensvorbereitung",
+            "Kulturelle Kohärenz"
+          ],
+          "correct": 0,
+          "expl": "Der kritische Umgang mit Daten zur gesellschaftlichen Teilhabe ist Kern der Weltorientierung.",
+          "flagged": false
+        },
+        {
+          "id": "css3jzl",
+          "session": "Sitzung 2",
+          "q": "Eine Aufgabe verlangt, eine neu formulierte, unbekannte Problemstellung eigenständig zu lösen und zu begründen. Welcher Anforderungsbereich liegt vor?",
+          "options": [
+            "Anforderungsbereich I",
+            "Anforderungsbereich II",
+            "Anforderungsbereich III",
+            "Keiner der drei"
+          ],
+          "correct": 2,
+          "expl": "Eigenständige Lösungen bei unbekannten Sachverhalten mit Begründung entsprechen AB III.",
+          "flagged": false
+        },
+        {
+          "id": "c1yyinp8",
+          "session": "Sitzung 2",
+          "q": "Schüler*innen erkunden im Unterricht, wie ein mathematischer Beweis rein aus sich heraus logisch schlüssig ist. Welche Grunderfahrung nach Winter zeigt sich?",
+          "options": [
+            "Die erste (Welt wahrnehmen)",
+            "Die zweite (Mathematik als eigene Welt)",
+            "Die dritte (Heurismen)",
+            "Keine der drei"
+          ],
+          "correct": 1,
+          "expl": "Das Kennenlernen von Mathematik als deduktiv geordneter, eigenständiger Welt ist die zweite Grunderfahrung.",
+          "flagged": false
+        },
+        {
+          "id": "c19jn266",
+          "session": "Sitzung 3",
+          "q": "Ein Kind, das bereits die Addition natürlicher Zahlen kennt, wendet dieses Wissen erfolgreich auf eine neue Additionsaufgabe an. Welcher Piaget-Begriff beschreibt das?",
+          "options": [
+            "Akkommodation",
+            "Assimilation",
+            "Äquilibration",
+            "Konservation"
+          ],
+          "correct": 1,
+          "expl": "Die neue Aufgabe wird in ein bereits vorhandenes Schema eingepasst - das ist Assimilation.",
+          "flagged": false
+        },
+        {
+          "id": "ccdpszp",
+          "session": "Sitzung 3",
+          "q": "Flächeninhalt wird in der Grundschule mit Einheitsquadraten gelegt, in der Sek I über Formeln, in der Sek II über die Integralrechnung behandelt. Welches Prinzip zeigt sich hier?",
+          "options": [
+            "EIS-Prinzip",
+            "Spiralprinzip",
+            "Produktives Üben",
+            "Entdeckendes Lernen"
+          ],
+          "correct": 1,
+          "expl": "Das mehrfache Wiederaufgreifen auf höherem Niveau ist das Spiralprinzip.",
+          "flagged": false
+        },
+        {
+          "id": "c1cv1izg",
+          "session": "Sitzung 3",
+          "q": "Ein Bruch wird zuerst durch Kuchenteilen, dann als Kreisdiagramm und schließlich als '3/4' notiert. Welches Prinzip zeigt sich hier?",
+          "options": [
+            "EIS-Prinzip",
+            "Operatives Prinzip",
+            "Spiralprinzip",
+            "Produktives Üben"
+          ],
+          "correct": 0,
+          "expl": "Die drei Ebenen enaktiv, ikonisch und symbolisch entsprechen dem EIS-Prinzip.",
+          "flagged": false
+        },
+        {
+          "id": "c2f1lww",
+          "session": "Sitzung 3",
+          "q": "Schüler*innen bearbeiten das Päckchen 4+3, 14+3, 24+3 und untersuchen, was sich am Ergebnis ändert. Welches Prinzip zeigt sich hier?",
+          "options": [
+            "Produktives Üben",
+            "Entdeckendes Lernen",
+            "EIS-Prinzip",
+            "Spiralprinzip"
+          ],
+          "correct": 0,
+          "expl": "Das systematische Entdecken von Zusammenhängen beim Üben ist produktives Üben.",
+          "flagged": false
+        },
+        {
+          "id": "chabmjz",
+          "session": "Sitzung 4",
+          "q": "Ein Kind zeigt an einem einzigen Beispiel, dass 3+5=8 gerade ist, und schließt daraus, dass die Summe zweier ungerader Zahlen immer gerade ist. Um welchen Beweistyp handelt es sich?",
+          "options": [
+            "Formal-deduktiver Beweis",
+            "Inhaltlich-anschaulicher Beweis",
+            "Experimenteller Beweis",
+            "Gar kein Beweis"
+          ],
+          "correct": 2,
+          "expl": "Die Absicherung nur an einem Einzelbeispiel ohne Verallgemeinerungsanspruch ist ein experimenteller Beweis.",
+          "flagged": false
+        },
+        {
+          "id": "cvrfvkl",
+          "session": "Sitzung 4",
+          "q": "Ein Beweis erklärt anhand einer Legung mit Rechensteinen, warum die Kommutativität der Addition für ALLE Zahlen gilt. Um welchen Beweistyp handelt es sich?",
+          "options": [
+            "Experimenteller Beweis",
+            "Inhaltlich-anschaulicher/operativer Beweis",
+            "Formal-deduktiver Beweis",
+            "Keiner der drei Typen"
+          ],
+          "correct": 1,
+          "expl": "Die Konstruktion ist nachvollziehbar und gilt für eine ganze Klasse von Beispielen - das ist ein inhaltlich-anschaulicher Beweis.",
+          "flagged": false
+        },
+        {
+          "id": "cctp4id",
+          "session": "Sitzung 4",
+          "q": "Ein mathematischer Fachaufsatz beweist einen Satz ausschließlich mit formaler Symbolsprache und Schlussregeln. Um welchen Beweistyp handelt es sich?",
+          "options": [
+            "Experimenteller Beweis",
+            "Inhaltlich-anschaulicher Beweis",
+            "Formal-deduktiver Beweis",
+            "Alltagsargumentation"
+          ],
+          "correct": 2,
+          "expl": "Formale Symbolsprache und logische Schlussketten kennzeichnen den formal-deduktiven Beweis.",
+          "flagged": false
+        },
+        {
+          "id": "c17t0kos",
+          "session": "Sitzung 4",
+          "q": "Ein Kind erklärt einer Mitschülerin, warum eine Vermutung stimmt, und beide verstehen dadurch den Zusammenhang besser. Welche de-Villiers-Funktion zeigt sich hier vor allem?",
+          "options": [
+            "Verifikation",
+            "Kommunikation",
+            "Systematisierung",
+            "Entdecken"
+          ],
+          "correct": 1,
+          "expl": "Das Vermitteln von Wissen und Wegen an andere ist die Kommunikationsfunktion.",
+          "flagged": false
+        },
+        {
+          "id": "c1a2cvow",
+          "session": "Sitzung 5",
+          "q": "Bei der Tanken-Aufgabe wird angenommen, Herr Stein tanke genau 50 Liter. Welcher Phase des Modellierungskreislaufs entspricht diese Annahme?",
+          "options": [
+            "Mathematisieren",
+            "Vereinfachen/Strukturieren",
+            "Interpretieren",
+            "Validieren"
+          ],
+          "correct": 1,
+          "expl": "Das Treffen vereinfachender Annahmen gehört zur Phase des Vereinfachens/Strukturierens (Übergang zum realen Modell).",
+          "flagged": false
+        },
+        {
+          "id": "c1geh6jx",
+          "session": "Sitzung 5",
+          "q": "Nachdem die Ersparnis berechnet wurde, wird das Ergebnis wieder auf die Ausgangsfrage 'Lohnt sich die Fahrt?' bezogen. Welche Phase ist das?",
+          "options": [
+            "Mathematisieren",
+            "Vereinfachen",
+            "Interpretieren",
+            "Reales Modell aufstellen"
+          ],
+          "correct": 2,
+          "expl": "Das Rückbeziehen des Rechenergebnisses auf die Ausgangsfrage ist die Interpretationsphase.",
+          "flagged": false
+        },
+        {
+          "id": "c162t19y",
+          "session": "Sitzung 5",
+          "q": "Eine Aufgabe fragt: 'Wie viele Klavierstimmer gibt es in Deutschland?' Um welchen Aufgabentyp handelt es sich?",
+          "options": [
+            "Überbestimmte Aufgabe",
+            "Fermi-Aufgabe",
+            "Innermathematische Aufgabe",
+            "Geschlossene Aufgabe"
+          ],
+          "correct": 1,
+          "expl": "Unterbestimmt mit klarem Endzustand und Schätzen im Vordergrund - typisch für Fermi-Aufgaben.",
+          "flagged": false
+        },
+        {
+          "id": "c6n1hxz",
+          "session": "Sitzung 5",
+          "q": "Bei der Mülltonnenaufgabe fehlen Angaben zu Familiengröße, Garten und Gebühren. Welche Kategorie trifft zu?",
+          "options": [
+            "Überbestimmtheit",
+            "Unterbestimmtheit",
+            "Authentizität",
+            "Direktes Mathematisieren"
+          ],
+          "correct": 1,
+          "expl": "Zu viele offene, fehlende Angaben kennzeichnen eine unterbestimmte Aufgabe.",
+          "flagged": false
+        },
+        {
+          "id": "cundv6m",
+          "session": "Sitzung 6",
+          "q": "Eine Aufgabe fragt: 'Finde eine Zahl, deren Quersumme durch 3 teilbar ist.' Um welchen Aufgabentyp nach Pólya handelt es sich?",
+          "options": [
+            "Beweisaufgabe",
+            "Bestimmungsaufgabe",
+            "Routineaufgabe",
+            "Fermi-Aufgabe"
+          ],
+          "correct": 1,
+          "expl": "Das Ziel ist das Finden eines gesuchten Gegenstandes - eine Bestimmungsaufgabe.",
+          "flagged": false
+        },
+        {
+          "id": "c1eze46z",
+          "session": "Sitzung 6",
+          "q": "Eine Aufgabe fragt: 'Zeige, dass die Summe zweier gerader Zahlen stets gerade ist.' Um welchen Aufgabentyp nach Pólya handelt es sich?",
+          "options": [
+            "Bestimmungsaufgabe",
+            "Beweisaufgabe",
+            "Fermi-Aufgabe",
+            "Modellierungsaufgabe"
+          ],
+          "correct": 1,
+          "expl": "Es soll entschieden und bewiesen werden, ob eine Behauptung wahr ist - eine Beweisaufgabe.",
+          "flagged": false
+        },
+        {
+          "id": "cgdvp1h",
+          "session": "Sitzung 6",
+          "q": "Beim Berechnen des Flächeninhalts eines symmetrischen Vielecks wird nur eine Hälfte berechnet und verdoppelt. Welches Prinzip zeigt sich?",
+          "options": [
+            "Symmetrieprinzip",
+            "Fallunterscheidung",
+            "Invarianzprinzip",
+            "Extremalprinzip"
+          ],
+          "correct": 0,
+          "expl": "Das Ausnutzen von Symmetrie zur Vereinfachung ist das Symmetrieprinzip.",
+          "flagged": false
+        },
+        {
+          "id": "c1s5w2fw",
+          "session": "Sitzung 6",
+          "q": "Eine unregelmäßige Fläche wird in Rechtecke und Dreiecke zerlegt, deren Inhalte einzeln berechnet und summiert werden. Welcher Heurismus liegt vor?",
+          "options": [
+            "Rückwärtsarbeiten",
+            "Zerlegen und Ergänzen",
+            "Symmetrieprinzip",
+            "Systematisches Probieren"
+          ],
+          "correct": 1,
+          "expl": "Das Aufteilen in bekannte Teilprobleme ist Zerlegen und Ergänzen.",
+          "flagged": false
+        },
+        {
+          "id": "c1a9vlfo",
+          "session": "Sitzung 6",
+          "q": "In Klasse 10 ist der Bierdeckel-Flächenvergleich eine Standardaufgabe, in Klasse 4 eine Problemaufgabe. Warum?",
+          "options": [
+            "Weil Klasse 4 schwieriger ist als Klasse 10",
+            "Weil in Klasse 4 die Kreisflächenformel noch nicht bekannt ist",
+            "Weil es in Klasse 10 keine Bierdeckel gibt",
+            "Kein Unterschied, beides ist gleich schwer"
+          ],
+          "correct": 1,
+          "expl": "Fehlendes Vorwissen (Formel) macht dieselbe Aufgabe zur Problemaufgabe.",
+          "flagged": false
+        },
+        {
+          "id": "c4y9v1m",
+          "session": "Sitzung 7",
+          "q": "Ein Kind bezeichnet einen Würfel als 'Klotz' und ein Dreiecksprisma als 'Dach'. Auf welcher Van-Hiele-Stufe befindet es sich vermutlich?",
+          "options": [
+            "Stufe 1 (visuell)",
+            "Stufe 3 (abstrahierend-relational)",
+            "Stufe 4 (schlussfolgernd)",
+            "Stufe 5 (abstrakt-metamathematisch)"
+          ],
+          "correct": 0,
+          "expl": "Die alltagssprachliche, ganzheitliche Bezeichnung von Körpern ist typisch für Stufe 1.",
+          "flagged": false
+        },
+        {
+          "id": "c1ne99y1",
+          "session": "Sitzung 7",
+          "q": "Ein Kind erkennt, dass ein Quadrat auch ein Rechteck ist, weil es die definierenden Eigenschaften nutzt statt nur den Prototyp. Auf welcher Van-Hiele-Stufe ist das Kind?",
+          "options": [
+            "Stufe 1",
+            "Stufe 2",
+            "Stufe 3 oder höher",
+            "Keiner Stufe zuordenbar"
+          ],
+          "correct": 2,
+          "expl": "Das Verstehen von Klasseninklusionen ist kennzeichnend für Stufe 3 (abstrahierend-relational) oder höher.",
+          "flagged": false
+        },
+        {
+          "id": "cu176c9",
+          "session": "Sitzung 7",
+          "q": "Ein Kind faltet und schneidet Figuren, um Eigenschaften wie 'parallel' oder 'gleich lang' zu erkennen. Auf welcher Van-Hiele-Stufe befindet es sich?",
+          "options": [
+            "Stufe 1",
+            "Stufe 2 (analysierend-beschreibend)",
+            "Stufe 4",
+            "Stufe 5"
+          ],
+          "correct": 1,
+          "expl": "Handlungserfahrungen zum Erkennen von Eigenschaften kennzeichnen Stufe 2.",
+          "flagged": false
+        },
+        {
+          "id": "c1efn5a6",
+          "session": "Sitzung 7",
+          "q": "Ein Kind erkennt eine Achsenspiegelung, verwechselt sie aber häufig mit einer Drehung. Welches Konzept betrifft diese Schwierigkeit?",
+          "options": [
+            "Raumvorstellung allgemein",
+            "Symmetrieverständnis",
+            "Begriffsverständnis der Zahl",
+            "Van-Hiele-Stufe 5"
+          ],
+          "correct": 1,
+          "expl": "Die Verwechslung von Achsen- und Rotationssymmetrie ist eine typische Schwierigkeit des Symmetrieverständnisses.",
+          "flagged": false
+        },
+        {
+          "id": "c1hwg2rc",
+          "session": "Sitzung 8",
+          "q": "In 1000 Würfen einer Münze wird die relative Häufigkeit von 'Kopf' bestimmt und als Annäherung an die Wahrscheinlichkeit genutzt. Welcher Wahrscheinlichkeitsbegriff liegt vor?",
+          "options": [
+            "Klassischer Wahrscheinlichkeitsbegriff",
+            "Frequentistischer Wahrscheinlichkeitsbegriff",
+            "Axiomatischer Wahrscheinlichkeitsbegriff",
+            "Subjektiver Wahrscheinlichkeitsbegriff"
+          ],
+          "correct": 1,
+          "expl": "Die relative Häufigkeit in einer langen Versuchsserie kennzeichnet den frequentistischen Begriff.",
+          "flagged": false
+        },
+        {
+          "id": "c1drpbyt",
+          "session": "Sitzung 8",
+          "q": "Bei einem fairen Würfel wird die Wahrscheinlichkeit für 'gerade Zahl' als 3/6 berechnet, weil alle 6 Ergebnisse als gleichwahrscheinlich gelten. Welcher Wahrscheinlichkeitsbegriff liegt vor?",
+          "options": [
+            "Frequentistischer Begriff",
+            "Klassischer (Laplace'scher) Begriff",
+            "Axiomatischer Begriff",
+            "Keiner der genannten"
+          ],
+          "correct": 1,
+          "expl": "Die Annahme der Gleichwahrscheinlichkeit ist kennzeichnend für den klassischen (Laplace'schen) Wahrscheinlichkeitsbegriff.",
+          "flagged": false
+        },
+        {
+          "id": "c1mgkx5u",
+          "session": "Sitzung 8",
+          "q": "Jemand verwechselt 'Wahrscheinlichkeit positiv bei Infektion' mit 'Wahrscheinlichkeit infiziert bei positivem Test'. Welche Fehlvorstellung liegt vor?",
+          "options": [
+            "Gambler's Fallacy",
+            "Verwechslung bedingter Wahrscheinlichkeiten",
+            "Fehlvorstellung zum Stellenwertsystem",
+            "Keine bekannte Fehlvorstellung"
+          ],
+          "correct": 1,
+          "expl": "Das Verwechseln von P(A|B) und P(B|A) ist die typische Fehlvorstellung zu bedingten Wahrscheinlichkeiten.",
+          "flagged": false
+        },
+        {
+          "id": "c12ieg4d",
+          "session": "Sitzung 8",
+          "q": "Nach 5x Rot beim Roulette hält jemand 'Schwarz' beim nächsten Wurf für wahrscheinlicher. Welche Fehlvorstellung liegt vor?",
+          "options": [
+            "Gambler's Fallacy",
+            "Bedingte Wahrscheinlichkeit verwechselt",
+            "Korrekte Anwendung der Stochastik",
+            "Axiomatischer Fehler"
+          ],
+          "correct": 0,
+          "expl": "Das ist die klassische Gambler's Fallacy - die Ereignisse sind unabhängig, die Vorgeschichte ändert nichts.",
+          "flagged": false
+        },
+        {
+          "id": "c1oixw90",
+          "session": "Sitzung 9",
+          "q": "Ein Kind sagt beim Zählen 'eins, noch eins, noch eins...' und stützt sich auf die Zählhandlung. Welcher Zahlaspekt zeigt sich?",
+          "options": [
+            "Kardinaler Aspekt",
+            "Ordinaler Aspekt",
+            "Operativer Aspekt",
+            "Algebraischer Aspekt"
+          ],
+          "correct": 1,
+          "expl": "Die gleichförmigen Zählschritte entsprechen dem ordinalen Zahlaspekt.",
+          "flagged": false
+        },
+        {
+          "id": "c1g6my5a",
+          "session": "Sitzung 9",
+          "q": "Ein Kind zählt eine Menge ab und weiß: 'Die letzte Zahl, die ich gesagt habe, ist die Anzahl aller Dinge.' Welcher Zahlaspekt zeigt sich?",
+          "options": [
+            "Ordinaler Aspekt",
+            "Kardinaler Aspekt",
+            "Operativer Umgang",
+            "Symbolischer Aspekt"
+          ],
+          "correct": 1,
+          "expl": "Das Zahlwort als Mächtigkeit der Menge entspricht dem kardinalen Aspekt.",
+          "flagged": false
+        },
+        {
+          "id": "c1tmut0p",
+          "session": "Sitzung 9",
+          "q": "Bei einem Vergleich von 23 und 26 brauchen Versuchspersonen länger als bei 5 und 8, obwohl die Distanz gleich ist. Welcher Effekt zeigt sich?",
+          "options": [
+            "Distanz-Effekt",
+            "Größen-Effekt",
+            "SNARC-Effekt",
+            "Kein bekannter Effekt"
+          ],
+          "correct": 1,
+          "expl": "Bei gleicher Distanz sind größere Zahlenpaare langsamer zu vergleichen - das ist der Größen-Effekt.",
+          "flagged": false
+        },
+        {
+          "id": "c1etc07x",
+          "session": "Sitzung 9",
+          "q": "Eine Aufgabe verlangt, dass 1/2 mal 1/3 berechnet wird und das Ergebnis kleiner als beide Faktoren ist. Was zeigt sich hier exemplarisch?",
+          "options": [
+            "Ein Rechenfehler",
+            "Eine typische Hürde beim Bruchzahlbegriff, da Multiplizieren hier verkleinert",
+            "Die Kommutativität der Multiplikation",
+            "Der ordinale Zahlaspekt"
+          ],
+          "correct": 1,
+          "expl": "Dass Multiplizieren bei echten Brüchen verkleinern kann, widerspricht der Intuition aus natürlichen Zahlen.",
+          "flagged": false
+        },
+        {
+          "id": "c1hjd5sl",
+          "session": "Sitzung 10",
+          "q": "In der Gleichung 3x+2=11 wird x gesucht. Welche Grundvorstellung der Variable liegt vor?",
+          "options": [
+            "Unbestimmte",
+            "Veränderliche",
+            "Unbekannte",
+            "Konstante"
+          ],
+          "correct": 2,
+          "expl": "Eine gesuchte Zahl, die eine Gleichung erfüllt, ist die Grundvorstellung der Unbekannten.",
+          "flagged": false
+        },
+        {
+          "id": "cy6ep9i",
+          "session": "Sitzung 10",
+          "q": "In der binomischen Formel (a+b)²=a²+2ab+b² wird a als beliebige Zahl verwendet, um ein allgemeines Muster darzustellen. Welche Grundvorstellung der Variable liegt vor?",
+          "options": [
+            "Unbekannte",
+            "Unbestimmte (allgemeine Zahl)",
+            "Veränderliche",
+            "Keine der drei"
+          ],
+          "correct": 1,
+          "expl": "Die Darstellung allgemeiner Muster entspricht der Grundvorstellung der Unbestimmten.",
+          "flagged": false
+        },
+        {
+          "id": "c18ivnwg",
+          "session": "Sitzung 10",
+          "q": "In y=2x beschreibt x einen Wert, der sich ändert und y entsprechend verändert. Welche Grundvorstellung der Variable liegt vor?",
+          "options": [
+            "Unbekannte",
+            "Unbestimmte",
+            "Veränderliche",
+            "Konstante"
+          ],
+          "correct": 2,
+          "expl": "Die Darstellung funktionaler Zusammenhänge ist die Grundvorstellung der Veränderlichen.",
+          "flagged": false
+        },
+        {
+          "id": "c14v7nni",
+          "session": "Sitzung 10",
+          "q": "Der Term 2n+1 wird genutzt, um zu zeigen, dass ein Ausdruck stets eine ungerade Zahl ergibt. Welcher Charakter des Terms zeigt sich hier?",
+          "options": [
+            "Nur Rechenschema",
+            "Bauplan/Explorationsgegenstand",
+            "Weder noch",
+            "Nur symbolische Spielerei"
+          ],
+          "correct": 1,
+          "expl": "Der Term liefert selbst Information über die Struktur (ungerade Zahl) - das ist der Bauplan-Charakter.",
+          "flagged": false
+        },
+        {
+          "id": "c26irvl",
+          "session": "Sitzung 11",
+          "q": "Eine Lehrkraft überlegt zuerst, welche fachliche Struktur das Thema 'Brüche addieren' hat, bevor sie die Stunde plant. Was macht sie hier?",
+          "options": [
+            "Die Kernidee entwickeln",
+            "Die Sachanalyse ('die Sache') durchführen",
+            "Innere Differenzierung planen",
+            "Natürliche Differenzierung umsetzen"
+          ],
+          "correct": 1,
+          "expl": "Die fachliche Durchdringung des Themas vor der Planung ist die Sachanalyse.",
+          "flagged": false
+        },
+        {
+          "id": "c1a3d6gi",
+          "session": "Sitzung 11",
+          "q": "Eine Schule bildet einen separaten Förderkurs für rechenschwache Kinder. Um welche Differenzierungsform handelt es sich?",
+          "options": [
+            "Innere Differenzierung",
+            "Äußere Differenzierung",
+            "Natürliche Differenzierung",
+            "Keine Differenzierung"
+          ],
+          "correct": 1,
+          "expl": "Die organisatorische Trennung in eine homogenere Gruppe ist äußere Differenzierung.",
+          "flagged": false
+        },
+        {
+          "id": "c1964tji",
+          "session": "Sitzung 11",
+          "q": "Innerhalb einer Klasse erhalten leistungsstärkere Kinder anspruchsvollere Zusatzaufgaben zum gleichen Thema, ohne die Klasse zu trennen. Um welche Form handelt es sich?",
+          "options": [
+            "Äußere Differenzierung",
+            "Innere/Binnendifferenzierung",
+            "Keine Differenzierung",
+            "Fremddifferenzierung"
+          ],
+          "correct": 1,
+          "expl": "Differenzierung innerhalb der bestehenden Lerngruppe ist innere bzw. Binnendifferenzierung.",
+          "flagged": false
+        },
+        {
+          "id": "cio8541",
+          "session": "Sitzung 12",
+          "q": "Eine Übungsaufgabe erlaubt drei verschiedene Lösungswege und regt zum Vergleich mit einem Partner an. Welches Kriterium 'guter' Aufgaben ist hier vor allem erfüllt?",
+          "options": [
+            "Entlastet",
+            "Ist offen / fordert zur Kommunikation auf",
+            "Fokussiert nur auf Reproduktion",
+            "Erfordert digitale Medien"
+          ],
+          "correct": 1,
+          "expl": "Mehrere Lösungswege und Austausch entsprechen Offenheit und der Aufforderung zur Kommunikation.",
+          "flagged": false
+        },
+        {
+          "id": "c1s3ntmw",
+          "session": "Sitzung 12",
+          "q": "Bei einer Klassenarbeit wird die Lösungsmethode klar vorgegeben, damit alle Schüler*innen vergleichbar bewertet werden können. Um welchen Aufgabentyp handelt es sich?",
+          "options": [
+            "Natürlich differenzierende Übungsaufgabe",
+            "Aufgabe zur Leistungsüberprüfung",
+            "Fermi-Aufgabe",
+            "Entdeckendes Lernen"
+          ],
+          "correct": 1,
+          "expl": "Eine vorgegebene, einheitliche Methode für vergleichbare Bewertung kennzeichnet Leistungsüberprüfungsaufgaben.",
+          "flagged": false
+        },
+        {
+          "id": "cgdqk4g",
+          "session": "Sitzung 12",
+          "q": "Eine Aufgabe zum Flächeninhalt lässt Auslegen, Ein-/Umschreiben von Quadraten oder Schätzen zu, je nach Leistungsniveau. Welches Aufgabenmerkmal zeigt sich?",
+          "options": [
+            "Authentizität",
+            "Differenzierungsvermögen",
+            "Reproduktion",
+            "Geschlossenheit"
+          ],
+          "correct": 1,
+          "expl": "Unterschiedliche Anspruchsniveaus in derselben Aufgabe entsprechen dem Differenzierungsvermögen.",
+          "flagged": false
+        },
+        {
+          "id": "cj1ra5s",
+          "session": "Sitzung 1",
+          "q": "Welche zwei Autor*innen bildeten neben der Qualitätsanalyse NRW die Grundlage für Helmkes Merkmalsliste im Abgleich mit dem PIKAS-Plakat?",
+          "options": [
+            "Piaget und Bruner",
+            "Helmke selbst und Meyer, abgeglichen mit Selter",
+            "Pólya und Winter",
+            "Wittmann und Aebli"
+          ],
+          "correct": 1,
+          "expl": "Das PIKAS-Plakat gleicht die Qualitätsanalyse NRW mit Helmke (2007), Meyer (2004) und Selter (2011) ab.",
+          "flagged": false
+        },
+        {
+          "id": "czniy99",
+          "session": "Sitzung 2",
+          "q": "Welcher Heymann-Aufgabenbereich zielt auf Teamfähigkeit und den respektvollen Umgang miteinander?",
+          "options": [
+            "Einübung in Verständigung und Kooperation",
+            "Lebensvorbereitung",
+            "Kritischer Vernunftgebrauch",
+            "Kulturelle Kohärenz"
+          ],
+          "correct": 0,
+          "expl": "Einübung in Verständigung und Kooperation zielt auf gemeinsames, respektvolles Arbeiten.",
+          "flagged": false
+        },
+        {
+          "id": "cvwgutm",
+          "session": "Sitzung 4",
+          "q": "Ein Beweistext nutzt eine Kette streng logischer Schlüsse in rein formaler Sprache, losgelöst von konkreten Beispielen. Welcher Beweistyp liegt vor UND welche de-Villiers-Funktion steht dabei meist im Vordergrund?",
+          "options": [
+            "Experimentell / Entdecken",
+            "Formal-deduktiv / Verifikation und Systematisierung",
+            "Inhaltlich-anschaulich / Kommunikation",
+            "Keiner der Typen / keine Funktion"
+          ],
+          "correct": 1,
+          "expl": "Formal-deduktive Beweise sichern vor allem ab (Verifikation) und vernetzen Aussagen im Theoriegebäude (Systematisierung).",
+          "flagged": false
+        },
+        {
+          "id": "c1kcs0qw",
+          "session": "Sitzung 5",
+          "q": "Welche Anforderung an das Modellieren steigt beim Übergang von der Primarstufe zur Sekundarstufe I laut Bildungsstandards besonders an?",
+          "options": [
+            "Es wird gar nicht mehr gefordert",
+            "Zunehmend komplexe, auch unter-/überbestimmte Situationen werden selbstständig modelliert",
+            "Nur noch direktes Mathematisieren wird verlangt",
+            "Modellieren wird durch Beweisen ersetzt"
+          ],
+          "correct": 1,
+          "expl": "In der Sek I steigt die Selbstständigkeit beim Modellieren komplexerer, auch un-/überbestimmter Situationen.",
+          "flagged": false
+        },
+        {
+          "id": "c1x0r1x7",
+          "session": "Sitzung 7",
+          "q": "Ein Kind soll sich vorstellen, wie ein gefaltetes Papier nach dem Aufklappen aussieht, ohne es real zu falten. Welcher Aspekt geometrischen Denkens wird hier vor allem gefordert?",
+          "options": [
+            "Begriffsbildung",
+            "Raumvorstellung",
+            "Argumentieren und Beweisen",
+            "Verwendung von Darstellungen"
+          ],
+          "correct": 1,
+          "expl": "Das mentale Vorstellen räumlicher Veränderungen ohne reale Handlung ist Raumvorstellung.",
+          "flagged": false
+        },
+        {
+          "id": "c11e0pfv",
+          "session": "Sitzung 9",
+          "q": "Ein Kind zählt zunächst an den Fingern, später im Kopf mit Zehnerübergängen, bevor es formale schriftliche Verfahren nutzt. Welcher Entwicklungsschritt wird hier durchlaufen?",
+          "options": [
+            "Vom Zählen über die Zahl als Denkobjekt zum operativen Umgang mit Zahlen",
+            "Nur der kardinale Zahlaspekt",
+            "Ausschließlich das dezimale Stellenwertsystem",
+            "Der SNARC-Effekt"
+          ],
+          "correct": 0,
+          "expl": "Dies beschreibt den in der Vorlesung skizzierten Entwicklungsweg vom Zählen zum operativen Umgang mit Zahlen.",
+          "flagged": false
+        },
+        {
+          "id": "c924rrg",
+          "session": "Sitzung 10",
+          "q": "Ein Kind interpretiert '=' bei 3+4=7 ausschließlich als 'rechne aus und schreib das Ergebnis dahinter'. Welches Verständnis fehlt hier für spätere algebraische Umformungen?",
+          "options": [
+            "Das operationale Verständnis, das hier bereits vorhanden ist",
+            "Das relationale Verständnis des Gleichheitszeichens als Beziehung zwischen zwei Ausdrücken",
+            "Der kardinale Zahlaspekt",
+            "Das Verständnis von Fermi-Aufgaben"
+          ],
+          "correct": 1,
+          "expl": "Ein rein operationales Verständnis des Gleichheitszeichens erschwert später Äquivalenzumformungen; nötig ist ein relationales Verständnis.",
+          "flagged": false
+        },
+        {
+          "id": "c17lkuh7",
+          "session": "Sitzung 11",
+          "q": "Eine Lehrkraft erklärt zunächst einen neuen Fachbegriff im Plenum, lässt die Kinder anschließend aber eigenständig an Aufgaben dazu forschen. Was zeigt sich hier?",
+          "options": [
+            "Nur schülerzentrierter Unterricht",
+            "Ein Wechselspiel aus lehrkraft- und schülerzentrierten Phasen",
+            "Nur lehrkraftzentrierter Unterricht",
+            "Äußere Differenzierung"
+          ],
+          "correct": 1,
+          "expl": "Die bewusste Abfolge von Instruktion und eigenständigem Erkunden ist das beschriebene Wechselspiel.",
+          "flagged": false
+        },
+        {
+          "id": "c1b7tk2z",
+          "session": "Sitzung 12",
+          "q": "Eine Aufgabe entlastet Schüler*innen, indem sie sich auf das mathematisch Wesentliche konzentriert und Ablenkendes weglässt. Um welches Kriterium 'guter' Aufgaben handelt es sich?",
+          "options": [
+            "Fordert eine Begründung ein",
+            "Fokussiert auf das Wesentliche / Entlastet",
+            "Ist offen",
+            "Kann zu unerwarteten Antworten führen"
+          ],
+          "correct": 1,
+          "expl": "Das gezielte Weglassen von Unwesentlichem entlastet und fokussiert auf den Kern der Aufgabe.",
+          "flagged": false
+        },
+        {
+          "id": "c17k5n2b",
+          "session": "Probeklausur",
+          "q": "Probeklausur-Original: 'Die Wahrscheinlichkeit eines Ereignisses ist mit der relativen Häufigkeit des Eintretens gleichzusetzen.' Ist diese Aussage wahr?",
+          "options": [
+            "Wahr - das ist die klassische Definition",
+            "Falsch - das entspräche nur dem frequentistischen, nicht dem klassischen Wahrscheinlichkeitsbegriff",
+            "Wahr, aber nur in der Sekundarstufe",
+            "Falsch, weil Wahrscheinlichkeit nie berechenbar ist"
+          ],
+          "correct": 1,
+          "expl": "Diese Aussage ist eine der 6 Original-Aussagen der Probeklausur und laut Musterlösung FALSCH.",
+          "flagged": false
+        },
+        {
+          "id": "chzjlrk",
+          "session": "Probeklausur",
+          "q": "Probeklausur-Original: 'Berechnungen von Wahrscheinlichkeiten unter Verwendung der klassischen Wahrscheinlichkeit können u.a. aus geometrischen Überlegungen abgeleitet werden.' Ist diese Aussage wahr?",
+          "options": [
+            "Wahr, z.B. bei Flächenverhältnissen auf einem Glücksrad",
+            "Falsch, geometrische Überlegungen spielen nie eine Rolle",
+            "Wahr, aber nur beim frequentistischen Begriff",
+            "Falsch, das ist nur in der Sek II relevant"
+          ],
+          "correct": 0,
+          "expl": "Diese Original-Aussage der Probeklausur ist laut Musterlösung WAHR - geometrische Wahrscheinlichkeit ist ein Beispiel.",
+          "flagged": false
+        },
+        {
+          "id": "c674qkc",
+          "session": "Probeklausur",
+          "q": "Probeklausur-Original: 'Schon in der Grundschule werden Experimente durchgeführt, in denen Überlegungen zum statistischen Wahrscheinlichkeitsbegriff eine Rolle spielen.' Ist diese Aussage wahr?",
+          "options": [
+            "Falsch, das ist erst ab Klasse 7 Thema",
+            "Wahr - informelle Zufallsexperimente gehören bereits zur Grundschule",
+            "Wahr, aber nur mit Taschenrechner",
+            "Falsch, Wahrscheinlichkeiten sind in der GS verboten"
+          ],
+          "correct": 1,
+          "expl": "Diese Original-Aussage der Probeklausur ist laut Musterlösung WAHR.",
+          "flagged": false
+        },
+        {
+          "id": "c1fxtkrn",
+          "session": "Probeklausur",
+          "q": "Probeklausur-Original: 'Die Wahrscheinlichkeit einer bestimmten Augenzahl bei einem quaderförmigen Würfel ist ausschließlich vom Verhältnis der Flächeninhalte der Außenflächen abzuleiten.' Ist diese Aussage wahr?",
+          "options": [
+            "Wahr, Flächenverhältnis reicht immer aus",
+            "Falsch, physikalische Faktoren wie der Schwerpunkt spielen ebenfalls eine Rolle",
+            "Wahr, aber nur bei Würfen von Hand",
+            "Falsch, weil Quader gar nicht gewürfelt werden können"
+          ],
+          "correct": 1,
+          "expl": "Diese Original-Aussage der Probeklausur ist laut Musterlösung FALSCH - eine rein geometrische Ableitung greift zu kurz.",
+          "flagged": false
+        }
+      ],
+      "exam": [],
+      "examDurationMin": 90
+    }
+  ]
+}

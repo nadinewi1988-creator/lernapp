@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { supabase, syncEnabled } from '../supabase';
 import type { User } from '@supabase/supabase-js';
 
-// Passwortloses Login per Magic-Link (E-Mail).
+// Login per Google (ein Klick) ODER Magic-Link per E-Mail.
 // Reicht für den Studien-Alltag und braucht kein Passwort-Handling.
 
 export function useUser(): User | null {
@@ -51,6 +51,18 @@ export function AuthBar({ user }: { user: User | null }) {
 
   return (
     <div className="authbar">
+      <button
+        className="btn primary sm"
+        onClick={async () => {
+          await supabase.auth.signInWithOAuth({
+            provider: 'google',
+            options: { redirectTo: window.location.origin },
+          });
+        }}
+      >
+        Mit Google anmelden
+      </button>
+      <span className="muted" style={{ margin: '0 4px' }}>oder</span>
       <input
         className="input sm"
         type="email"
@@ -59,7 +71,7 @@ export function AuthBar({ user }: { user: User | null }) {
         onChange={(e) => setEmail(e.target.value)}
       />
       <button
-        className="btn primary sm"
+        className="btn ghost sm"
         onClick={async () => {
           if (!email) return;
           await supabase.auth.signInWithOtp({ email });

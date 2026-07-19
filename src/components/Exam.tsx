@@ -4,9 +4,19 @@ import type {
   Flashcard,
   ExamConfig,
   ExamCount,
+  ExamRun,
 } from '../types';
 import { noteFor } from '../lib/grading';
 import { gradeAnswer } from '../lib/api';
+import {
+  loadRunsLocal,
+  saveRunsLocal,
+  mergeRuns,
+  addRun,
+  newRunId,
+  pullRunsCloud,
+  pushRunsCloud,
+} from '../lib/examRuns';
 
 // ============================================================
 // Probeprüfungs-Reiter – zentrale Bauform-Engine.
@@ -23,11 +33,19 @@ import { gradeAnswer } from '../lib/api';
 // Timer: gelb ab letzten 30 Min, rot+blinkend ab letzten 10 Min;
 // bei Ablauf wird gesperrt und ruhig zur Auswertung geführt.
 // Jede Aufgabe einzeln bewertet, am Ende Gesamtdurchschnitt.
+//
+// Jeder abgeschlossene Durchlauf wird pro Modul + Bereich
+// gespeichert (Zeitpunkt, Ø, Zeit, Aufgabenzahl) – lokal und
+// geräteübergreifend (siehe lib/examRuns.ts). Vor dem Start
+// erscheint eine aufklappbare Liste der bisherigen Durchläufe.
 // ============================================================
 
 interface Props {
+  moduleId: string;
   track: Track;
   hidden: Set<string>;
+  /** Nur für Re-Sync bei Login-Wechsel (aus App durchgereicht). */
+  userId?: string;
 }
 
 /** Eine für einen Prüfungsdurchlauf konkret gezogene Aufgabe. */
@@ -238,7 +256,7 @@ const DEFAULT_CFG: ExamConfig = {
   spreadSessions: true,
 };
 
-export function Exam({ track, hidden }: Props) {
+export function Exam({ moduleId, track, hidden, userId }: Props) {
   const cfg: ExamConfig = track.examConfig ?? DEFAULT_CFG;
   const durationMin = cfg.durationMin ?? track.examDurationMin ?? 90;
 
@@ -263,6 +281,7 @@ export function Exam({ track, hidden }: Props) {
   const [grades, setGrades] = useState<Record<string, number>>({});
   const [finished, setFinished] = useState(false);
   const [grading, setGrading] = useState(false);
+  const [runs, setRuns] = useState<ExamRun[]>([]);
   const timer = useRef<ReturnType<typeof setInterval> | null>(null);
 
   const total = durationMin * 60;
@@ -294,6 +313,25 @@ export function Exam({ track, hidden }: Props) {
     setLeft(durationMin * 60);
   }, [track.id, durationMin]);
 
+  // Bisherige Durchläufe laden: lokal + Cloud mergen (pro Modul + Bereich).
+  // moduleId ist mit im Schlüssel, damit sich Module mit gleichem Track-Namen
+  // (z.B. beide "vorlesung") nicht überschneiden.
+  useEffect(() => {
+    const local = loadRunsLocal(moduleId, track.id);
+    setRuns(local);
+    let cancelled = false;
+    void pullRunsCloud(moduleId, track.id).then((cloud) => {
+      if (cancelled) return;
+      const merged = mergeRuns(local, cloud);
+      setRuns(merged);
+      saveRunsLocal(moduleId, track.id, merged);
+      void pushRunsCloud(moduleId, track.id, merged);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [moduleId, track.id, userId]);
+
   function startWith(quellen: number[] | null) {
     const built = build(cfg, cards, quiz, exam, quellen);
     setTasks(built);
@@ -307,6 +345,8 @@ export function Exam({ track, hidden }: Props) {
 
   async function gradeAll() {
     clearInterval(timer.current!);
+    // Benötigte Zeit im Moment der Abgabe festhalten (Timer steht jetzt).
+    const usedSec = total - left;
     setGrading(true);
     const g: Record<string, number> = {};
     for (const t of tasks) {
@@ -320,6 +360,24 @@ export function Exam({ track, hidden }: Props) {
     setGrades(g);
     setGrading(false);
     setFinished(true);
+
+    // Durchlauf speichern (gleiche Ø-Formel wie in der Anzeige).
+    const runAvg = tasks.length
+      ? Math.round(Object.values(g).reduce((a, b) => a + b, 0) / tasks.length)
+      : 0;
+    const run: ExamRun = {
+      id: newRunId(),
+      takenAt: new Date().toISOString(),
+      avg: runAvg,
+      durationSec: usedSec,
+      taskCount: tasks.length,
+    };
+    setRuns((prev) => {
+      const next = addRun(prev, run);
+      saveRunsLocal(moduleId, track.id, next);
+      void pushRunsCloud(moduleId, track.id, next);
+      return next;
+    });
   }
 
   const timerCls =
@@ -346,48 +404,92 @@ export function Exam({ track, hidden }: Props) {
     );
   }
 
+  // -- aufklappbare Liste bisheriger Durchläufe --------------------
+  const history =
+    runs.length > 0 ? (
+      <details className="card" style={{ marginTop: 16, textAlign: 'left' }}>
+        <summary style={{ cursor: 'pointer', fontWeight: 600 }}>
+          Bisherige Durchläufe ({runs.length})
+        </summary>
+        <div style={{ marginTop: 10 }}>
+          {[...runs]
+            .sort((a, b) => b.takenAt.localeCompare(a.takenAt))
+            .map((r, i) => {
+              const nr = runs.length - i; // neueste oben = höchste Nummer
+              const datum = new Date(r.takenAt).toLocaleDateString('de-DE', {
+                day: '2-digit',
+                month: '2-digit',
+                year: '2-digit',
+              });
+              return (
+                <div
+                  key={r.id}
+                  style={{
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    gap: 12,
+                    padding: '6px 0',
+                    borderTop: i === 0 ? 'none' : '1px solid rgba(0,0,0,0.08)',
+                  }}
+                >
+                  <span className="muted">
+                    #{nr} · {datum}
+                  </span>
+                  <span>
+                    Ø {r.avg}% · Note {noteFor(r.avg)} · {fmt(r.durationSec)}
+                  </span>
+                </div>
+              );
+            })}
+        </div>
+      </details>
+    ) : null;
+
   // -- Startbildschirm ---------------------------------------------
   if (!started) {
     // Bauform 4 mit Modus-Wahl: einzelne Quellen oder alle.
     if (cfg.bauform === 'verteilung' && cfg.modes) {
       return (
-        <div className="card center">
-          <h3>Probeprüfung</h3>
-          <p className="muted">
-            Wähle den Prüfungsteil. {durationMin} Minuten, Timer startet sofort.
-          </p>
-          <div className="options" style={{ marginTop: 12 }}>
-            {cfg.quellen.map((qs, i) => (
+        <>
+          <div className="card center">
+            <h3>Probeprüfung</h3>
+            <p className="muted">
+              Wähle den Prüfungsteil. {durationMin} Minuten, Timer startet
+              sofort.
+            </p>
+            <div className="options" style={{ marginTop: 12 }}>
+              {cfg.quellen.map((qs, i) => (
+                <button key={i} className="btn" onClick={() => startWith([i])}>
+                  Nur {qs.label}
+                </button>
+              ))}
               <button
-                key={i}
-                className="btn"
-                onClick={() => startWith([i])}
+                className="btn primary"
+                onClick={() => startWith(cfg.quellen.map((_, i) => i))}
               >
-                Nur {qs.label}
+                Beide Teile
               </button>
-            ))}
-            <button
-              className="btn primary"
-              onClick={() => startWith(cfg.quellen.map((_, i) => i))}
-            >
-              Beide Teile
-            </button>
+            </div>
           </div>
-        </div>
+          {history}
+        </>
       );
     }
     return (
-      <div className="card center">
-        <h3>Probeprüfung</h3>
-        <p className="muted">
-          {durationMin} Minuten. Der Timer startet sofort und sperrt die
-          Bearbeitung bei Ablauf. Die Aufgaben werden bei jedem Start neu
-          zusammengestellt.
-        </p>
-        <button className="btn primary" onClick={() => startWith(null)}>
-          Prüfung starten
-        </button>
-      </div>
+      <>
+        <div className="card center">
+          <h3>Probeprüfung</h3>
+          <p className="muted">
+            {durationMin} Minuten. Der Timer startet sofort und sperrt die
+            Bearbeitung bei Ablauf. Die Aufgaben werden bei jedem Start neu
+            zusammengestellt.
+          </p>
+          <button className="btn primary" onClick={() => startWith(null)}>
+            Prüfung starten
+          </button>
+        </div>
+        {history}
+      </>
     );
   }
 
@@ -416,9 +518,7 @@ export function Exam({ track, hidden }: Props) {
 
       {tasks.map((t, n) => (
         <div key={`${t.kind}:${t.id}`}>
-          {t.heading && (
-            <h3 style={{ margin: '20px 0 8px' }}>{t.heading}</h3>
-          )}
+          {t.heading && <h3 style={{ margin: '20px 0 8px' }}>{t.heading}</h3>}
           <div className="card">
             <div className="card-meta">
               <span className="tag">{t.session}</span>
@@ -484,7 +584,9 @@ export function Exam({ track, hidden }: Props) {
         </button>
       )}
       {grading && avg === null && (
-        <p className="muted">Die offenen Antworten werden von der KI bewertet …</p>
+        <p className="muted">
+          Die offenen Antworten werden von der KI bewertet …
+        </p>
       )}
 
       {avg !== null && (

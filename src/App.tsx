@@ -226,7 +226,14 @@ export default function App() {
           sessions={track.sessions}
         />
       )}
-      {tab === 'probe' && <Exam track={track} hidden={hidden} />}
+      {tab === 'probe' && (
+        <Exam
+          moduleId={module.id}
+          track={track}
+          hidden={hidden}
+          userId={user?.id}
+        />
+      )}
     </div>
   );
 }

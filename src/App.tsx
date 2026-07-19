@@ -20,7 +20,11 @@ export default function App() {
   const user = useUser();
 
   // Auswahl: Semester -> Modul -> Track
-  const [semId, setSemId] = useState(data.semesters[0]?.id ?? '');
+  // Starte mit dem ersten Semester, das tatsächlich Module enthält
+  // (leere Semester wie noch nicht belegte werden übersprungen).
+  const firstFilled =
+    data.semesters.find((s) => s.modules.length > 0) ?? data.semesters[0];
+  const [semId, setSemId] = useState(firstFilled?.id ?? '');
   const semester =
     data.semesters.find((s) => s.id === semId) ?? data.semesters[0];
 

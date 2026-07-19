@@ -89,6 +89,9 @@ export async function pullCloud(
   if (error || !data) return {};
   const map: ProgressMap = {};
   for (const row of data) {
+    // attempts = -1 markiert eine ausgeblendete Karte, kein echter
+    // Fortschritt – diese Einträge hier überspringen.
+    if (row.attempts === -1) continue;
     map[row.card_id] = { best: row.best, attempts: row.attempts };
   }
   return map;
@@ -137,4 +140,104 @@ export function pushCloudDebounced(
   timers[key] = setTimeout(() => {
     void pushCloud(moduleId, trackId, map);
   }, delay);
+}
+
+// ============================================================
+//  Ausgeblendete Karten ("Karten auswählen")
+//
+//  Einzelne Karten dauerhaft ausblenden – sie fallen dann aus
+//  Karteikarten, Quiz UND Probeprüfung heraus. Wird lokal
+//  gespeichert und geräteübergreifend synchronisiert.
+//
+//  Trick: Wir nutzen dieselbe progress-Tabelle. Ein versteckter
+//  Eintrag bekommt attempts = -1 (eindeutige Markierung, stört
+//  die Notenlogik nicht, da wir solche Einträge dort ignorieren).
+// ============================================================
+
+const HIDDEN_PREFIX = 'lernapp:hidden:';
+
+function hiddenKey(moduleId: string, trackId: string) {
+  return `${HIDDEN_PREFIX}${moduleId}:${trackId}`;
+}
+
+export function loadHiddenLocal(moduleId: string, trackId: string): Set<string> {
+  try {
+    const raw = localStorage.getItem(hiddenKey(moduleId, trackId));
+    return raw ? new Set(JSON.parse(raw) as string[]) : new Set();
+  } catch {
+    return new Set();
+  }
+}
+
+export function saveHiddenLocal(
+  moduleId: string,
+  trackId: string,
+  hidden: Set<string>
+) {
+  try {
+    localStorage.setItem(
+      hiddenKey(moduleId, trackId),
+      JSON.stringify(Array.from(hidden))
+    );
+  } catch {
+    /* ignore */
+  }
+}
+
+/** Ausgeblendete Karten aus der Cloud laden (attempts = -1). */
+export async function pullHiddenCloud(
+  moduleId: string,
+  trackId: string
+): Promise<Set<string>> {
+  if (!syncEnabled) return new Set();
+  const { data: userRes } = await supabase.auth.getUser();
+  if (!userRes.user) return new Set();
+
+  const { data, error } = await supabase
+    .from('progress')
+    .select('card_id,attempts')
+    .eq('module_id', moduleId)
+    .eq('track_id', trackId)
+    .eq('attempts', -1);
+
+  if (error || !data) return new Set();
+  return new Set(data.map((r) => r.card_id));
+}
+
+/** Eine Karte in der Cloud als versteckt / sichtbar markieren. */
+export async function setHiddenCloud(
+  moduleId: string,
+  trackId: string,
+  cardId: string,
+  hidden: boolean
+): Promise<void> {
+  if (!syncEnabled) return;
+  const { data: userRes } = await supabase.auth.getUser();
+  const user = userRes.user;
+  if (!user) return;
+
+  if (hidden) {
+    await supabase.from('progress').upsert(
+      {
+        user_id: user.id,
+        module_id: moduleId,
+        track_id: trackId,
+        card_id: cardId,
+        best: 0,
+        attempts: -1,
+        updated_at: new Date().toISOString(),
+      },
+      { onConflict: 'user_id,module_id,track_id,card_id' }
+    );
+  } else {
+    // Wieder sichtbar: den Versteck-Eintrag entfernen
+    await supabase
+      .from('progress')
+      .delete()
+      .eq('user_id', user.id)
+      .eq('module_id', moduleId)
+      .eq('track_id', trackId)
+      .eq('card_id', cardId)
+      .eq('attempts', -1);
+  }
 }

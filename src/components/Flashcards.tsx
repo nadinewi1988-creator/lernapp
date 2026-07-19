@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import type { ReactNode } from 'react';
 import type { Flashcard, ProgressMap } from '../types';
 import { noteFor } from '../lib/grading';
 import { recordResult } from '../lib/progress';
@@ -20,6 +21,7 @@ interface Props {
   sessions: string[];
   progress: ProgressMap;
   onProgress: (next: ProgressMap) => void;
+  selectorNode?: ReactNode;
 }
 
 export function Flashcards({
@@ -27,6 +29,7 @@ export function Flashcards({
   sessions,
   progress,
   onProgress,
+  selectorNode,
 }: Props) {
   const [selected, setSelected] = useState<Set<string>>(new Set(sessions));
   const [idx, setIdx] = useState(0);
@@ -91,6 +94,7 @@ export function Flashcards({
         progress={progress}
         onChange={onProgress}
       />
+      {selectorNode}
       <SessionFilter
         sessions={sessions}
         selected={selected}

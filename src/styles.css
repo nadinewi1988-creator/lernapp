@@ -132,3 +132,15 @@ textarea { width: 100%; border: 1px solid var(--line); border-radius: 8px; paddi
 .mo-bar { height: 8px; background: var(--paper); border-radius: 5px; overflow: hidden; }
 .mo-fill { height: 100%; border-radius: 5px; transition: width 0.3s; }
 .mo-note { color: var(--ink-soft); white-space: nowrap; }
+
+/* Karten-Auswahl-Panel */
+.card-selector { margin-bottom: 14px; }
+.cs-panel { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin-top: 10px; box-shadow: var(--shadow); }
+.cs-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+.cs-session { border-bottom: 1px solid var(--line); padding: 8px 0; }
+.cs-session:last-child { border-bottom: none; }
+.cs-session-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.cs-arrow { background: none; border: none; cursor: pointer; font-size: 0.9rem; font-weight: 600; color: var(--ink); text-align: left; padding: 4px 0; }
+.cs-cards { display: flex; flex-direction: column; gap: 6px; padding: 8px 0 4px 18px; }
+.cs-card-row { display: flex; gap: 8px; align-items: flex-start; font-size: 0.82rem; cursor: pointer; }
+.cs-card-row input { margin-top: 3px; accent-color: var(--sage); flex-shrink: 0; }

@@ -4,6 +4,7 @@ import { appData } from './data';
 import { useUser, AuthBar } from './components/Auth';
 import { Flashcards } from './components/Flashcards';
 import { ModuleOverview } from './components/ModuleOverview';
+import { CardSelector } from './components/CardSelector';
 import { Quiz } from './components/Quiz';
 import { Exam } from './components/Exam';
 import {
@@ -12,6 +13,10 @@ import {
   pullCloud,
   pushCloudDebounced,
   mergeProgress,
+  loadHiddenLocal,
+  saveHiddenLocal,
+  pullHiddenCloud,
+  setHiddenCloud,
 } from './lib/progress';
 
 type Tab = 'karten' | 'quiz' | 'probe';
@@ -39,12 +44,15 @@ export default function App() {
 
   const [tab, setTab] = useState<Tab>('karten');
   const [progress, setProgress] = useState<ProgressMap>({});
+  const [hidden, setHidden] = useState<Set<string>>(new Set());
 
   // Beim Wechsel von Modul/Track: lokalen Stand laden, dann Cloud mergen.
   useEffect(() => {
     if (!module || !track) return;
     const local = loadLocal(module.id, track.id);
     setProgress(local);
+    const localHidden = loadHiddenLocal(module.id, track.id);
+    setHidden(localHidden);
     let cancelled = false;
     void pullCloud(module.id, track.id).then((cloud) => {
       if (cancelled) return;
@@ -53,10 +61,39 @@ export default function App() {
       saveLocal(module.id, track.id, merged);
       pushCloudDebounced(module.id, track.id, merged);
     });
+    void pullHiddenCloud(module.id, track.id).then((cloudHidden) => {
+      if (cancelled) return;
+      // Vereinigung: was auf irgendeinem Gerät ausgeblendet ist, bleibt es.
+      const union = new Set([...localHidden, ...cloudHidden]);
+      setHidden(union);
+      saveHiddenLocal(module.id, track.id, union);
+    });
     return () => {
       cancelled = true;
     };
   }, [module?.id, track?.id, user?.id]);
+
+  function toggleHidden(cardId: string, hide: boolean) {
+    if (!module || !track) return;
+    setHidden((prev) => {
+      const next = new Set(prev);
+      hide ? next.add(cardId) : next.delete(cardId);
+      saveHiddenLocal(module.id, track.id, next);
+      return next;
+    });
+    void setHiddenCloud(module.id, track.id, cardId, hide);
+  }
+
+  function bulkHidden(cardIds: string[], hide: boolean) {
+    if (!module || !track) return;
+    setHidden((prev) => {
+      const next = new Set(prev);
+      for (const id of cardIds) hide ? next.add(id) : next.delete(id);
+      saveHiddenLocal(module.id, track.id, next);
+      return next;
+    });
+    for (const id of cardIds) void setHiddenCloud(module.id, track.id, id, hide);
+  }
 
   function updateProgress(next: ProgressMap) {
     if (!module || !track) return;
@@ -168,18 +205,30 @@ export default function App() {
         <Flashcards
           moduleId={module.id}
           trackId={track.id}
-          cards={track.flashcards}
+          cards={track.flashcards.filter((c) => !hidden.has(c.id))}
           sessions={track.sessions}
           progress={progress}
           onProgress={updateProgress}
+          selectorNode={
+            <CardSelector
+              cards={track.flashcards}
+              sessions={track.sessions}
+              hidden={hidden}
+              onToggle={toggleHidden}
+              onBulk={bulkHidden}
+            />
+          }
         />
       )}
       {tab === 'quiz' && (
-        <Quiz questions={track.quiz} sessions={track.sessions} />
+        <Quiz
+          questions={track.quiz.filter((q) => !hidden.has(q.id))}
+          sessions={track.sessions}
+        />
       )}
       {tab === 'probe' && (
         <Exam
-          tasks={track.exam}
+          tasks={track.exam.filter((t) => !hidden.has(t.id))}
           durationMin={track.examDurationMin ?? 90}
         />
       )}

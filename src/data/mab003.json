@@ -1,0 +1,550 @@
+{
+  "id": "mab003",
+  "name": "mab003 Geometrie",
+  "tracks": [
+    {
+      "id": "vorlesung",
+      "label": "Vorlesung",
+      "sessions": [
+        "Kapitel 1 – Inzidenzgeometrie"
+      ],
+      "examDurationMin": 90,
+      "flashcards": [
+        {
+          "id": "kap1_8b4ef3d150",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Erläutern Sie den Unterschied zwischen induktivem und deduktivem Vorgehen in der Geometrie und geben Sie zu jedem ein Beispiel.",
+          "a": "Induktives Vorgehen bedeutet, Gesetzmäßigkeiten empirisch zu entdecken oder zu bestätigen (aus Erfahrung/Beobachtung), z. B. die Innenwinkelsumme im Dreieck durch Messen mehrerer Dreiecke zu 180° zu vermuten. Problematisch sind Allgemeingültigkeit und Genauigkeit. Deduktives Vorgehen bedeutet, Aussagen aus bereits als wahr angenommenen Aussagen mittels logischer Schlüsse abzuleiten – es liefert nicht nur das Was, sondern auch das Warum, z. B. den Beweis der Innenwinkelsumme über Stufen-/Wechselwinkel an Parallelen. Problem: unendliche Regression von Begründungen, die durch Axiomatisierung (Grundkonsens) beendet wird. Die Veranstaltung betrachtet Geometrie deduktiv.",
+          "hint": "Was = induktiv (empirisch), Warum = deduktiv (logisch aus Axiomen). Beispiel Innenwinkelsumme.",
+          "herkunft": "direkt",
+          "flagged": false,
+          "keywords": [
+            "induktiv = empirisch entdecken/bestätigen",
+            "deduktiv = logisch aus Axiomen",
+            "Beispiel Innenwinkelsumme 180°",
+            "Vor-/Nachteile beider Wege"
+          ]
+        },
+        {
+          "id": "kap1_36ffcf3efe",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Erläutern Sie die Begriffe Axiom, Satz und Definition und nennen Sie die drei Forderungen an ein Axiomensystem.",
+          "a": "Ein Axiom ist eine konsensfähige Grundannahme, also eine unbewiesen als wahr angenommene Aussage. Ein Satz ist eine beweisbare (aus den Axiomen herleitbare) Aussage. Eine Definition ist eine Begriffsfestlegung, d. h. ein Name für einen Sachverhalt. An ein Axiomensystem stellt man drei Forderungen: widerspruchsfrei (es lässt sich nicht zugleich eine Aussage und ihre Negation beweisen), vollständig (jede im System formulierbare wahre Aussage ist beweisbar) und unabhängig (kein Axiom lässt sich aus den übrigen herleiten).",
+          "hint": "Axiom = unbewiesen angenommen, Satz = beweisbar, Definition = Begriffsfestlegung. 3 Forderungen: widerspruchsfrei / vollständig / unabhängig.",
+          "herkunft": "selbst",
+          "flagged": false,
+          "keywords": [
+            "Axiom = unbewiesen wahr",
+            "Satz = beweisbar",
+            "Definition = Begriffsfestlegung",
+            "widerspruchsfrei / vollständig / unabhängig"
+          ]
+        },
+        {
+          "id": "kap1_178d191dce",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Erläutern Sie, worin sich die Axiomatisierung nach Hilbert von der anschaulichen Geometrie unterscheidet.",
+          "a": "Historisch bedeutsam ist Euklids Axiomatisierung (Elemente, ca. 300 v. Chr.); die heute übliche Form geht auf Hilbert (Grundlagen der Geometrie) zurück. Hilberts Vorgehen ist rein axiomatisch: Die Grundbegriffe (z. B. Punkt und Gerade) werden von der Anschauung abgekoppelt und nur durch die Axiome charakterisiert. Es kommt allein auf die durch die Axiome festgelegten Beziehungen an, nicht auf die anschauliche Bedeutung – pointiert in Hilberts Aussage, man müsse statt Punkte, Geraden, Ebenen jederzeit auch Tische, Stühle, Bierseidel sagen können.",
+          "hint": "Hilbert: Begriffe von Anschauung abgekoppelt, nur Axiome zählen. Stichwort Bierseidel-Zitat.",
+          "herkunft": "selbst",
+          "flagged": false,
+          "keywords": [
+            "Euklid (Elemente)",
+            "Hilbert (Grundlagen)",
+            "Abkopplung von der Anschauung",
+            "Tische/Stühle/Bierseidel"
+          ]
+        },
+        {
+          "id": "kap1_f69daf121d",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Definieren Sie den Begriff der Inzidenzstruktur.",
+          "a": "Eine Inzidenzstruktur ist ein Tripel (P, B, I) bestehend aus zwei Mengen P und B sowie einer Relation I ⊆ P × B. Die Elemente von P heißen Punkte, die Elemente von B Blöcke; die Relation I heißt Inzidenzrelation. Ein Punkt P ∈ P inzidiert mit einem Block b ∈ B, wenn P in Relation zu b steht (P I b).",
+          "hint": "Tripel (P, B, I): Punkte, Blöcke, Inzidenzrelation I ⊆ P×B.",
+          "herkunft": "selbst",
+          "flagged": false,
+          "keywords": [
+            "Tripel (P, B, I)",
+            "Punkte P, Blöcke B",
+            "Inzidenzrelation I ⊆ P×B",
+            "P I b = inzidiert"
+          ]
+        },
+        {
+          "id": "kap1_d28cba3ccd",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Erläutern Sie, wann eine Inzidenzstruktur endlich bzw. unendlich und wann sie einfach heißt.",
+          "a": "Eine Inzidenzstruktur (P, B, I) heißt endlich, wenn sowohl P als auch B endliche Mengen sind, andernfalls unendlich (Def. 1.1.2). Sie heißt einfach, wenn jeder Block eindeutig durch die mit ihm inzidierenden Punkte bestimmt ist (Def. 1.1.3); formal gilt dann für alle Blöcke b₁, b₂: b₁ = b₂ ⇔ {P | P I b₁} = {P | P I b₂}. Bei einer einfachen Inzidenzstruktur kann man einen Block mit der Menge seiner Punkte identifizieren (B ⊆ Potenzmenge von P), und I entspricht der gewöhnlichen Element-Relation ∈.",
+          "hint": "endlich = P und B endlich. einfach = Block durch seine Punkte eindeutig bestimmt → Block als Punktmenge.",
+          "herkunft": "selbst",
+          "flagged": false,
+          "keywords": [
+            "endlich = P und B endlich",
+            "einfach = Block durch Punkte eindeutig",
+            "Block als Punktmenge",
+            "I entspricht ∈"
+          ]
+        },
+        {
+          "id": "kap1_e662fb62a3",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Geben Sie zwei Beispiele für Inzidenzstrukturen an und erläutern Sie jeweils, was Punktmenge P, Blockmenge B und Inzidenzrelation I sind.",
+          "a": "Beispiel 1 (euklidische Ebene E): P ist die Menge der Punkte der Ebene, B die Menge der Geraden, und P I g bedeutet 'der Punkt P liegt auf der Geraden g'. Beispiel 2 (Alltag, ÖPNV-Linienplan): P ist die Menge der Haltestellen, B die Menge der Linien, und I bedeutet 'die Haltestelle wird von der Linie bedient'. Weitere mögliche Beispiele: Tische und Stühle (welcher Stuhl steht an welchem Tisch), Buchstaben und Wörter (welcher Buchstabe kommt in welchem Wort vor), euklidischer Raum E³, Kugeloberfläche S, Bierdeckelgeometrie nach Klein.",
+          "hint": "Ein mathematisches und ein Alltagsbeispiel. Immer P, B und I benennen.",
+          "herkunft": "direkt",
+          "flagged": false,
+          "keywords": [
+            "euklidische Ebene: Punkte/Geraden",
+            "Alltag: ÖPNV Haltestellen/Linien",
+            "immer P, B, I benennen",
+            "Tische/Stühle, Buchstaben/Wörter"
+          ]
+        },
+        {
+          "id": "kap1_1be1502603",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Nennen und erläutern Sie die drei Inzidenzaxiome I1, I2 und I3.",
+          "a": "I1: Zu zwei verschiedenen Punkten gibt es genau einen Block, mit dem beide Punkte inzidieren (zwei Punkte legen einen Block eindeutig fest). I2: Mit jedem Block inzidieren mindestens zwei verschiedene Punkte. I3: Es gibt drei verschiedene Punkte, die nicht kollinear sind. Während I1 und I2 Allaussagen sind, ist I3 eine Existenzaussage; sie garantiert wenigstens drei verschiedene Punkte und – zusammen mit I1 – auch wenigstens drei verschiedene Blöcke. Erfüllt eine Inzidenzstruktur I1, I2, I3, sagt man kurz, sie erfüllt die Inzidenzaxiome I.",
+          "hint": "I1: 2 Punkte → genau 1 Block. I2: jeder Block ≥ 2 Punkte. I3: es gibt 3 nicht kollineare Punkte (Existenzaussage).",
+          "herkunft": "selbst",
+          "flagged": false,
+          "keywords": [
+            "I1: 2 Punkte → genau 1 Block",
+            "I2: Block ≥ 2 Punkte",
+            "I3: 3 nicht kollineare Punkte",
+            "I3 = Existenzaussage"
+          ]
+        },
+        {
+          "id": "kap1_849d5179d0",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Definieren Sie den Begriff der Kollinearität.",
+          "a": "Eine Menge M ⊆ P von Punkten heißt kollinear, wenn es einen Block b ∈ B gibt, so dass alle Punkte aus M mit b inzidieren. Im Falle einer einfachen Inzidenzstruktur bedeutet dies: M ist genau dann kollinear, wenn es einen Block b mit M ⊆ b gibt.",
+          "hint": "Kollinear = es gibt einen gemeinsamen Block, auf dem alle Punkte liegen.",
+          "herkunft": "selbst",
+          "flagged": false,
+          "keywords": [
+            "kollinear = gemeinsamer Block",
+            "alle Punkte inzidieren mit b",
+            "einfach: M ⊆ b"
+          ]
+        },
+        {
+          "id": "kap1_ac7bf66f5e",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Beweisen Sie: Jede Inzidenzstruktur, welche die Axiome I1 und I2 erfüllt, ist einfach (Satz 1.2.1).",
+          "a": "Zu zeigen ist, dass jeder Block eindeutig durch seine Punkte bestimmt ist. Seien b₁, b₂ Blöcke mit derselben Punktmenge, d. h. {P | P I b₁} = {P | P I b₂}. Nach I2 inzidieren mit b₁ mindestens zwei verschiedene Punkte A, B; diese inzidieren dann auch mit b₂. Nach I1 gibt es zu den zwei verschiedenen Punkten A, B aber genau einen Block, mit dem beide inzidieren. Also muss b₁ = b₂ gelten. Damit ist der Block durch seine Punktmenge eindeutig bestimmt, die Struktur also einfach.",
+          "hint": "I2 liefert 2 Punkte im Block, I1 macht den Block durch diese 2 Punkte eindeutig.",
+          "herkunft": "selbst",
+          "flagged": false,
+          "keywords": [
+            "Satz 1.2.1: I1 ∧ I2 ⇒ einfach",
+            "I2 liefert 2 Punkte",
+            "I1 macht Block eindeutig"
+          ]
+        },
+        {
+          "id": "kap1_71d2868d2f",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Beweisen Sie Satz 1.2.4: Zu je zwei verschiedenen Blöcken gibt es höchstens einen Punkt, der mit beiden Blöcken inzidiert (für Inzidenzstrukturen mit den Axiomen I).",
+          "a": "Widerspruchsbeweis. Angenommen, es gäbe zu zwei verschiedenen Blöcken b₁ ≠ b₂ zwei verschiedene Punkte A ≠ B, die jeweils mit beiden Blöcken inzidieren. Dann inzidieren die zwei verschiedenen Punkte A und B sowohl mit b₁ als auch mit b₂. Nach Axiom I1 gibt es zu zwei verschiedenen Punkten aber genau einen Block, mit dem beide inzidieren. Also müsste b₁ = b₂ gelten – im Widerspruch zur Annahme b₁ ≠ b₂. Somit kann es höchstens einen gemeinsamen Punkt geben.",
+          "hint": "Annahme: zwei gemeinsame Punkte. I1 erzwingt dann b₁ = b₂ → Widerspruch.",
+          "herkunft": "direkt",
+          "flagged": false,
+          "keywords": [
+            "höchstens 1 gemeinsamer Punkt",
+            "Widerspruchsbeweis",
+            "2 Punkte → I1 → b1=b2",
+            "Widerspruch zu b1≠b2"
+          ]
+        },
+        {
+          "id": "kap1_3ccf66a7e6",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Beweisen Sie Satz 1.2.5: Zu jedem Punkt gibt es mindestens zwei verschiedene Blöcke, mit denen er inzidiert (für Inzidenzstrukturen mit den Axiomen I).",
+          "a": "Sei P ein beliebiger Punkt. Annahme (Widerspruch): P inzidiert mit höchstens einem Block. Nach I3 gibt es drei verschiedene, nicht kollineare Punkte A, B, C. Nach I1 gibt es Blöcke a, b, c mit P,A ∈ a, P,B ∈ b, P,C ∈ c (stimmt P mit einem der Punkte überein, folgt die Existenz des Blocks aus Satz 1.2.3). Da P nach Annahme mit höchstens einem Block inzidiert, muss a = b = c gelten. Dann lägen aber A, B, C gemeinsam auf einem Block, wären also kollinear – im Widerspruch dazu, dass A, B, C nicht kollinear sind. Die Annahme ist falsch, also inzidiert P mit mindestens zwei verschiedenen Blöcken. ∎",
+          "hint": "Annahme: nur 1 Block durch P. I3 (3 nicht kollineare Punkte) + I1 erzwingen 3 Blöcke, die alle gleich wären → A,B,C kollinear → Widerspruch.",
+          "herkunft": "selbst",
+          "flagged": false,
+          "keywords": [
+            "≥ 2 Blöcke je Punkt",
+            "Annahme: nur 1 Block",
+            "I3 (3 nicht kollineare) + I1",
+            "a=b=c → kollinear → Widerspruch"
+          ]
+        },
+        {
+          "id": "kap1_33d11b56a5",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Konstruieren Sie ein Minimalmodell zu einem Axiomensystem (7 Punkte, 7 Blöcke) und erläutern Sie das Vorgehen.",
+          "a": "Ein Minimalmodell ist eine Inzidenzstruktur mit kleinstmöglicher Punkt- und Blockmenge, die das gegebene Axiomensystem erfüllt. Für das Axiomensystem aus Blatt 02 (je zwei Blöcke schneiden sich in genau einem Punkt; je zwei Punkte liegen auf genau einem Block; jeder Block trägt ≥ 3 Punkte; es gibt drei Blöcke ohne gemeinsamen Punkt) ergibt sich die Fano-Ebene mit genau 7 Punkten und 7 Blöcken, bei der jeder Block genau 3 Punkte und jeder Punkt genau 3 Blöcke trägt. Vorgehen: mit leeren Mengen starten und schrittweise nur diejenigen Punkte/Blöcke hinzufügen, deren Existenz oder Inzidenz die Axiome zwingend verlangen; dokumentieren, welches Axiom jeden Schritt erzwingt; abschließend die Inzidenztabelle (Blöcke in Spalten, Punkte in Zeilen, Eintrag 1 = inzidiert, 0 = inzidiert nicht) angeben.",
+          "hint": "7 Punkte, 7 Blöcke, je Block 3 Punkte → Fano-Ebene. Schrittweise nur Erzwungenes ergänzen und Inzidenztabelle aufstellen.",
+          "herkunft": "direkt",
+          "flagged": false,
+          "keywords": [
+            "kleinste Struktur zum Axiomensystem",
+            "7 Punkte / 7 Blöcke",
+            "Fano-Ebene",
+            "Inzidenztabelle",
+            "nur Erzwungenes ergänzen"
+          ]
+        },
+        {
+          "id": "kap1_646781d277",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Definieren Sie die Parallelität von Blöcken und formulieren Sie die Bedingung für einfache Inzidenzstrukturen.",
+          "a": "Zwei Blöcke a und b einer Inzidenzstruktur heißen parallel (a ∥ b), wenn sie gleich sind oder wenn es keinen Punkt gibt, der sowohl mit a als auch mit b inzidiert (Def. 1.3.1). Für einfache Inzidenzstrukturen lässt sich das schreiben als a ∥ b ⇔ a = b ∨ a ∩ b = ∅. Für nicht parallele Blöcke schreibt man a ∦ b; bei einfachen Strukturen bedeutet dies a ≠ b ∧ a ∩ b ≠ ∅.",
+          "hint": "Parallel = gleich ODER schnittpunktfrei. Einfach: a=b oder a∩b=∅.",
+          "herkunft": "selbst",
+          "flagged": false,
+          "keywords": [
+            "parallel = gleich oder schnittpunktfrei",
+            "a=b ∨ a∩b=∅",
+            "a ∦ b: a≠b ∧ a∩b≠∅"
+          ]
+        },
+        {
+          "id": "kap1_6da58e2edd",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Nennen Sie das Parallelenaxiom P.",
+          "a": "Parallelenaxiom P: Zu jedem Block gibt es zu jedem Punkt genau einen parallelen Block, mit dem der Punkt inzidiert. (Zu einem Block und einem Punkt existiert also genau eine Parallele durch diesen Punkt.)",
+          "hint": "Zu Block + Punkt genau EINE Parallele durch den Punkt.",
+          "herkunft": "selbst",
+          "flagged": false,
+          "keywords": [
+            "zu Block + Punkt genau 1 Parallele",
+            "durch den Punkt",
+            "Existenz + Eindeutigkeit"
+          ]
+        },
+        {
+          "id": "kap1_913be14804",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Zeigen Sie, dass die Parallelität in einer Inzidenzstruktur mit Parallelenaxiom P eine Äquivalenzrelation ist (Satz 1.3.2), und führen Sie Reflexivität und Symmetrie aus.",
+          "a": "Zu zeigen ist, dass ∥ reflexiv, symmetrisch und transitiv ist. Reflexiv: Da gleiche Blöcke definitionsgemäß parallel sind, gilt für jeden Block a: a ∥ a. Symmetrisch: Ist a ∥ b, so ist a = b oder a und b haben keinen gemeinsamen Punkt; beide Bedingungen sind symmetrisch in a und b, also folgt b ∥ a. Transitiv (Beweis in der Vorlesung als Übungsaufgabe): Aus a ∥ b und b ∥ c folgt a ∥ c – hier geht das Parallelenaxiom P ein, das die Eindeutigkeit der Parallelen sichert. Damit ist ∥ eine Äquivalenzrelation.",
+          "hint": "Reflexiv (a=a), symmetrisch (Definition ist symmetrisch), transitiv (nutzt Eindeutigkeit aus P). Beispielhaft 2 der 3 Eigenschaften ausführen.",
+          "herkunft": "selbst",
+          "flagged": false,
+          "keywords": [
+            "Satz 1.3.2: ∥ Äquivalenzrelation",
+            "reflexiv / symmetrisch / transitiv",
+            "Transitivität nutzt Axiom P"
+          ]
+        },
+        {
+          "id": "kap1_ca961fa780",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Definieren Sie den Begriff der (streng) linearen Ordnungsrelation und nennen Sie ihre drei Eigenschaften.",
+          "a": "Eine Relation R auf einer Menge M heißt (streng) lineare Ordnungsrelation, wenn für alle a, b, c ∈ M gilt: (1) Transitivität: aRb ∧ bRc ⇒ aRc; (2) Asymmetrie: aRb ⇒ ¬(bRa); (3) Linearität: aRb ∨ bRa ∨ a = b. Die Linearität sichert, dass je zwei verschiedene Elemente stets vergleichbar sind; die Asymmetrie sichert, dass höchstens eine der Beziehungen zutrifft (und kein Element zu sich selbst in Relation steht); die Transitivität erlaubt das Verketten von Relationsaussagen. Beispiel: die <-Relation auf ℝ.",
+          "hint": "Drei Eigenschaften: Transitivität, Asymmetrie, Linearität. Beispiel: < auf ℝ.",
+          "herkunft": "selbst",
+          "flagged": false,
+          "keywords": [
+            "Transitivität",
+            "Asymmetrie",
+            "Linearität",
+            "Beispiel: < auf ℝ"
+          ]
+        },
+        {
+          "id": "kap1_078ff28f34",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Nennen und erläutern Sie die drei Anordnungsaxiome A1, A2 und A3.",
+          "a": "A1: Für jeden Block gibt es auf der Menge der mit ihm inzidierenden Punkte eine streng lineare Ordnungsrelation ≺ (jeder Block hat seine eigene Ordnung, meist sogar mehrere sinnvolle). A2: Sind A, B Punkte eines Blocks b mit A ≺ B, so gibt es mindestens drei weitere Punkte C, D, E auf b mit C ≺ A ≺ D ≺ B ≺ E – zwischen und außerhalb liegen also stets weitere Punkte. A3: Jeder Block b zerlegt die nicht mit b inzidierenden Punkte in zwei disjunkte Teilmengen (zwei 'Seiten') derart, dass zwei Punkte genau dann einen Punkt von b zwischen sich haben, wenn sie in verschiedenen Teilmengen liegen. Aus A1 und A2 folgt insbesondere, dass eine solche Struktur nicht endlich sein kann.",
+          "hint": "A1: lineare Ordnung je Block. A2: immer weitere Punkte davor/dazwischen/dahinter (→ unendlich). A3: Block teilt Ebene in zwei Seiten.",
+          "herkunft": "selbst",
+          "flagged": false,
+          "keywords": [
+            "A1: lineare Ordnung je Block",
+            "A2: immer weitere Punkte → unendlich",
+            "A3: Block teilt in 2 Seiten"
+          ]
+        },
+        {
+          "id": "kap1_afbaf1eed5",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Definieren Sie mithilfe der Ordnungsrelation die Begriffe vor, zwischen und hinter (Definition 1.4.2).",
+          "a": "Seien A, B, C kollineare Punkte. Gilt A ≺ B, so liegt A vor B bzw. B hinter A. C liegt zwischen A und B, wenn A ≺ C ≺ B oder B ≺ C ≺ A gilt. (Die Zwischenrelation ist damit unabhängig von der gewählten Durchlaufrichtung des Blocks.)",
+          "hint": "A ≺ B: A vor B / B hinter A. Zwischen: A ≺ C ≺ B oder B ≺ C ≺ A.",
+          "herkunft": "selbst",
+          "flagged": false,
+          "keywords": [
+            "A ≺ B: A vor B / B hinter A",
+            "zwischen: A≺C≺B oder B≺C≺A",
+            "kollineare Punkte"
+          ]
+        },
+        {
+          "id": "kap1_40aa665f09",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Erläutern Sie das Pasch-Axiom (Satz 1.4.3) und seine Rolle im Verhältnis zu Axiom A3.",
+          "a": "In Hilberts Axiomatisierung wird anstelle von A3 das Pasch-Axiom verwendet; setzt man A3 voraus, wird das Pasch-Axiom zu einem beweisbaren Satz. Aussage (Satz 1.4.3): Für jede Inzidenzstruktur mit den Axiomen I und A gilt: Sind A, B, C drei nicht kollineare Punkte und ist b ein Block, mit dem keiner der drei Punkte inzidiert, und gibt es einen Punkt zwischen A und B, der mit b inzidiert, dann gibt es auch einen Punkt zwischen A und C oder zwischen B und C, der mit b inzidiert. Anschaulich: Eine Gerade, die in ein Dreieck 'eintritt' (eine Seite schneidet), muss es auch wieder 'verlassen' (eine der beiden anderen Seiten schneiden).",
+          "hint": "Gerade, die eine Dreiecksseite schneidet, schneidet auch eine der beiden anderen. Bei Hilbert Axiom, bei A3 beweisbarer Satz.",
+          "herkunft": "selbst",
+          "flagged": false,
+          "keywords": [
+            "Dreiecksseite geschnitten → weitere Seite",
+            "betreten = verlassen",
+            "bei Hilbert Axiom",
+            "unter A3 beweisbar"
+          ]
+        },
+        {
+          "id": "kap1_a00f0371a3",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Fassen Sie zusammen, welche Axiomengruppen die euklidische Ebene E erfüllt und was diese jeweils sicherstellen.",
+          "a": "Die euklidische Ebene E = (P, G, ∈) ist eine Inzidenzstruktur, die die Inzidenzaxiome I, das Parallelenaxiom P und die Anordnungsaxiome A erfüllt. Die Inzidenzaxiome I sichern, dass zwei Punkte eindeutig einen Block festlegen, Blöcke als Punktmengen aufgefasst werden können und es wenigstens drei Punkte und Blöcke gibt. Das Parallelenaxiom P sichert zu jedem Block durch jeden Punkt genau eine Parallele. Die Anordnungsaxiome A erlauben die lineare Anordnung der Punkte jedes Blocks, erzwingen unendlich viele Punkte und geben der Struktur einen 'ebenen' Charakter.",
+          "hint": "E erfüllt I, P und A. Merke, was jede Gruppe leistet: Eindeutigkeit/Existenz (I), Parallele (P), Anordnung + Unendlichkeit (A).",
+          "herkunft": "selbst",
+          "flagged": false,
+          "keywords": [
+            "E erfüllt I, P und A",
+            "I: Eindeutigkeit/Existenz",
+            "P: eindeutige Parallele",
+            "A: Anordnung + unendlich"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "kap1_adf46c61f4",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Ein Kind misst in mehreren gezeichneten Dreiecken die Innenwinkel und stellt fest, dass die Summe stets etwa 180° ergibt. Welches Vorgehen zeigt sich hier?",
+          "options": [
+            "Deduktives Vorgehen",
+            "Induktives Vorgehen",
+            "Ein axiomatischer Beweis",
+            "Ein Widerspruchsbeweis"
+          ],
+          "correct": 1,
+          "expl": "Aus Messungen/Beobachtungen wird eine Gesetzmäßigkeit vermutet bzw. bestätigt – das ist induktiv. Ein deduktiver Nachweis würde die 180° logisch aus Axiomen/Sätzen ableiten.",
+          "flagged": false
+        },
+        {
+          "id": "kap1_3757d64275",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Was ist der Kern einer Inzidenzstruktur (P, B, I)?",
+          "options": [
+            "Eine Menge von Zahlen mit einer Rechenoperation",
+            "Zwei Mengen (Punkte, Blöcke) und eine Relation zwischen ihnen",
+            "Eine Gerade mit ihren Punkten",
+            "Ein Dreieck mit drei Eckpunkten"
+          ],
+          "correct": 1,
+          "expl": "Eine Inzidenzstruktur ist ein Tripel aus der Punktmenge P, der Blockmenge B und der Inzidenzrelation I ⊆ P × B.",
+          "flagged": false
+        },
+        {
+          "id": "kap1_93af4f1170",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Warum lässt sich in einer einfachen Inzidenzstruktur ein Block mit einer Punktmenge identifizieren?",
+          "options": [
+            "Weil jeder Block genau zwei Punkte hat",
+            "Weil jeder Block eindeutig durch die mit ihm inzidierenden Punkte bestimmt ist",
+            "Weil alle Blöcke gleich sind",
+            "Weil die Inzidenzrelation leer ist"
+          ],
+          "correct": 1,
+          "expl": "Genau das ist die Definition der Einfachheit: der Block ist durch seine Punkte eindeutig festgelegt, daher B ⊆ Potenzmenge von P und I entspricht ∈.",
+          "flagged": false
+        },
+        {
+          "id": "kap1_92dee18169",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Welche Aussage gibt Axiom I1 korrekt wieder?",
+          "options": [
+            "Mit jedem Block inzidieren mindestens zwei Punkte",
+            "Zu zwei verschiedenen Punkten gibt es genau einen Block, mit dem beide inzidieren",
+            "Es gibt drei nicht kollineare Punkte",
+            "Zu jedem Punkt gibt es genau eine Parallele"
+          ],
+          "correct": 1,
+          "expl": "I1 ist die Aussage 'zwei Punkte legen genau einen Block fest'. Die anderen Optionen sind I2, I3 bzw. das Parallelenaxiom.",
+          "flagged": false
+        },
+        {
+          "id": "kap1_4fb75493ed",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Welches der Inzidenzaxiome ist als einziges eine Existenzaussage (statt einer Allaussage)?",
+          "options": [
+            "I1",
+            "I2",
+            "I3",
+            "Keines davon"
+          ],
+          "correct": 2,
+          "expl": "I3 ('es gibt drei nicht kollineare Punkte') ist eine Existenzaussage; I1 und I2 sind Allaussagen über alle Punkte bzw. Blöcke.",
+          "flagged": false
+        },
+        {
+          "id": "kap1_d428a108c7",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Drei Punkte A, B, C liegen alle auf ein und demselben Block. Wie bezeichnet man sie?",
+          "options": [
+            "parallel",
+            "kollinear",
+            "inzident",
+            "disjunkt"
+          ],
+          "correct": 1,
+          "expl": "Punkte, für die es einen gemeinsamen Block gibt, mit dem alle inzidieren, heißen kollinear.",
+          "flagged": false
+        },
+        {
+          "id": "kap1_ada4e9d256",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Im Beweis von Satz 1.2.4 (höchstens ein gemeinsamer Punkt zweier Blöcke) nimmt man zwei gemeinsame Punkte an. Welches Axiom liefert den Widerspruch?",
+          "options": [
+            "I1",
+            "I2",
+            "A2",
+            "Das Parallelenaxiom P"
+          ],
+          "correct": 0,
+          "expl": "Zwei verschiedene gemeinsame Punkte würden nach I1 (zwei Punkte → genau ein Block) erzwingen, dass die beiden Blöcke gleich sind – Widerspruch zur Annahme verschiedener Blöcke.",
+          "flagged": false
+        },
+        {
+          "id": "kap1_759826aef8",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Zwei Blöcke a und b einer einfachen Inzidenzstruktur sind genau dann parallel, wenn ...",
+          "options": [
+            "a und b mindestens einen gemeinsamen Punkt haben",
+            "a = b oder a ∩ b = ∅ gilt",
+            "a und b senkrecht aufeinander stehen",
+            "a und b gleich lang sind"
+          ],
+          "correct": 1,
+          "expl": "Parallelität heißt: gleich oder schnittpunktfrei, formal a = b ∨ a ∩ b = ∅. (Gleichheit von Blöcken zählt also als parallel.)",
+          "flagged": false
+        },
+        {
+          "id": "kap1_b0063eb2c4",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Was garantiert das Parallelenaxiom P?",
+          "options": [
+            "Dass es überhaupt keine Parallelen gibt",
+            "Dass es zu jedem Block durch jeden Punkt genau eine Parallele gibt",
+            "Dass alle Blöcke parallel sind",
+            "Dass jeder Block unendlich viele Parallelen hat"
+          ],
+          "correct": 1,
+          "expl": "P sichert die Existenz und Eindeutigkeit der Parallelen durch einen gegebenen Punkt zu einem gegebenen Block.",
+          "flagged": false
+        },
+        {
+          "id": "kap1_be1329a2ea",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Welche Eigenschaft gehört NICHT zu einer streng linearen Ordnungsrelation?",
+          "options": [
+            "Transitivität",
+            "Asymmetrie",
+            "Linearität",
+            "Reflexivität"
+          ],
+          "correct": 3,
+          "expl": "Eine streng lineare Ordnung ist gerade nicht reflexiv (kein Element steht zu sich selbst in Relation); gefordert sind Transitivität, Asymmetrie und Linearität.",
+          "flagged": false
+        },
+        {
+          "id": "kap1_58aa79f467",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Auf einem Block gilt A ≺ B. Ein Punkt C liegt zwischen A und B. Welche Bedingung beschreibt das korrekt?",
+          "options": [
+            "A ≺ C ≺ B oder B ≺ C ≺ A",
+            "C ≺ A ≺ B",
+            "A = C = B",
+            "C liegt auf einem anderen Block"
+          ],
+          "correct": 0,
+          "expl": "'Zwischen' ist über A ≺ C ≺ B oder B ≺ C ≺ A definiert – unabhängig von der Durchlaufrichtung des Blocks.",
+          "flagged": false
+        },
+        {
+          "id": "kap1_8da9716331",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Aus welchem Grund kann eine Inzidenzstruktur, die die Inzidenzaxiome I und die Anordnungsaxiome A erfüllt, nicht endlich sein?",
+          "options": [
+            "Weil I3 unendlich viele Punkte fordert",
+            "Weil A2 zu je zwei Punkten stets weitere davor, dazwischen und dahinter erzwingt",
+            "Weil das Parallelenaxiom unendlich viele Geraden liefert",
+            "Weil jeder Block genau drei Punkte hat"
+          ],
+          "correct": 1,
+          "expl": "A2 fordert zu A ≺ B stets weitere Punkte C ≺ A ≺ D ≺ B ≺ E; dieses Nachschieben lässt sich unbegrenzt fortsetzen, also gibt es unendlich viele Punkte.",
+          "flagged": false
+        },
+        {
+          "id": "kap1_1a99f0fe71",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Eine Gerade schneidet eine Seite eines Dreiecks (dessen Ecken nicht auf der Geraden liegen). Was folgt nach dem Pasch-Axiom?",
+          "options": [
+            "Die Gerade schneidet keine weitere Seite",
+            "Die Gerade schneidet auch mindestens eine der beiden anderen Seiten",
+            "Die Gerade verläuft parallel zu einer Seite",
+            "Das Dreieck ist gleichseitig"
+          ],
+          "correct": 1,
+          "expl": "Anschaulich: Wer in das Dreieck 'eintritt', muss es auch wieder 'verlassen' – die Gerade schneidet also eine der beiden übrigen Seiten (Satz 1.4.3).",
+          "flagged": false
+        },
+        {
+          "id": "kap1_692c8e9cbd",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Welche Axiomengruppen erfüllt die euklidische Ebene E?",
+          "options": [
+            "Nur die Inzidenzaxiome I",
+            "I und P, aber nicht A",
+            "Die Inzidenzaxiome I, das Parallelenaxiom P und die Anordnungsaxiome A",
+            "Nur die Anordnungsaxiome A"
+          ],
+          "correct": 2,
+          "expl": "E = (P, G, ∈) erfüllt I, P und A – das ist das Fazit der Zusammenfassung von Kapitel 1.",
+          "flagged": false
+        }
+      ],
+      "exam": [
+        {
+          "id": "kap1_83994e8b07",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Aufgabe (Inzidenzstrukturen). Gegeben sei die Inzidenzstruktur I = (P, B, I) mit Punktmenge P = {A, B, C, D, E, F, M} und Blockmenge B = {a, b, c, d, e, f, g, h, i, j, k, l, m, n}, deren Inzidenzrelation I ⊆ P × B durch eine Inzidenztafel festgelegt ist (siehe Probeklausur, Aufgabe 1). Entscheiden Sie jeweils, ob die Inzidenzaxiome I und das Parallelenaxiom P erfüllt sind, und begründen Sie Ihre Entscheidung kurz.\n\n(Hinweis: Original-Probeklausuraufgabe. Die konkrete Inzidenztafel ist in mab003_SoSe2026_Probeklausur.pdf (Aufgabe 1) enthalten.)",
+          "a": "Erwartet wird die getrennte Prüfung jedes Axioms anhand der Inzidenztafel: I1 (zu je zwei Punkten genau ein gemeinsamer Block), I2 (jeder Block trägt ≥ 2 Punkte), I3 (es existieren drei nicht kollineare Punkte) sowie P (zu Block + Punkt genau eine Parallele durch den Punkt). Für jedes erfüllte Axiom eine knappe Begründung, für jedes verletzte Axiom ein konkretes Gegenbeispiel aus der Tafel (z. B. zwei Punkte mit keinem/mehr als einem gemeinsamen Block, oder ein Block mit nur einem Punkt). Bewertung nach korrekter Zuordnung + tragfähiger, tafelgestützter Begründung.",
+          "points": 4,
+          "kind": "offen",
+          "herkunft": "original",
+          "flagged": false
+        },
+        {
+          "id": "kap1_36a997f4ad",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Aufgabe (Minimalmodell). Gegeben sei das Axiomensystem: (I) Zu je zwei verschiedenen Blöcken gibt es genau einen Punkt, der mit beiden inzidiert. (II) Zu je zwei verschiedenen Punkten gibt es genau einen Block, mit dem beide inzidieren. (III) Mit jedem Block inzidieren wenigstens drei verschiedene Punkte. (IV) Es gibt drei Blöcke, für die es keinen Punkt gibt, der mit allen drei inzidiert. Konstruieren Sie ein Minimalmodell (kleinstmögliche Punkt- und Blockmenge), dokumentieren Sie den Konstruktionsprozess und geben Sie die zugehörige Inzidenztabelle an.\n\n(Hinweis: Aus Blatt 02, P.1. Eine Skizze der Konstruktion unterstützt die Punktevergabe.)",
+          "a": "Erwartet: schrittweise Konstruktion, bei der nur durch die Axiome erzwungene Punkte/Blöcke ergänzt werden, mit Begründung je Schritt (welches Axiom erzwingt was). Ergebnis: 7 Punkte und 7 Blöcke, jeder Block mit genau 3 Punkten, jeder Punkt auf genau 3 Blöcken (Fano-Ebene). Vollständige Inzidenztabelle (Spalten = Blöcke, Zeilen = Punkte, 1 = inzident, 0 = nicht). Bewertung nach Nachvollziehbarkeit der Konstruktion und Korrektheit/Vollständigkeit der Tabelle.",
+          "points": 6,
+          "kind": "offen",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "kap1_c58709be1f",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Aufgabe (Beweis). Beweisen Sie Satz 1.2.4: Für jede Inzidenzstruktur, welche die Inzidenzaxiome I erfüllt, gibt es zu je zwei verschiedenen Blöcken höchstens einen Punkt, der mit beiden Blöcken inzidiert. Führen Sie einen Widerspruchsbeweis.\n\n(Hinweis: Aus Blatt 02, P.2.)",
+          "a": "Annahme zweier verschiedener gemeinsamer Punkte A ≠ B zweier verschiedener Blöcke b₁ ≠ b₂; Anwendung von I1 (zwei Punkte → genau ein Block) ⇒ b₁ = b₂; Widerspruch zur Annahme b₁ ≠ b₂; Schlussfolgerung: höchstens ein gemeinsamer Punkt. Bewertung nach korrekter Beweisstruktur (Annahme, korrekter Axiomeinsatz, Widerspruch, Schluss).",
+          "points": 5,
+          "kind": "offen",
+          "herkunft": "direkt",
+          "flagged": false
+        },
+        {
+          "id": "kap1_3914562b99",
+          "session": "Kapitel 1 – Inzidenzgeometrie",
+          "q": "Aufgabe (Beweis). Beweisen Sie Satz 1.2.5: Für jede Inzidenzstruktur mit den Inzidenzaxiomen I gilt: Zu jedem Punkt gibt es mindestens zwei verschiedene Blöcke, mit denen er inzidiert.\n\n(Hinweis: Selbst abgeleitete Prüfungsaufgabe (Beweis steht als Muster auf Folie 26 in Kapitel 1A).)",
+          "a": "Widerspruchsannahme: P inzidiert mit höchstens einem Block. Einsatz von I3 (drei nicht kollineare Punkte A, B, C) und I1 (bzw. Satz 1.2.3 im Sonderfall) zur Existenz von Blöcken a, b, c durch P. Aus der Annahme folgt a = b = c, also lägen A, B, C gemeinsam auf einem Block ⇒ kollinear ⇒ Widerspruch zu I3. Schluss: mindestens zwei Blöcke durch P. Bewertung nach korrekter Nutzung von I1/I3 und sauberem Widerspruch.",
+          "points": 5,
+          "kind": "offen",
+          "herkunft": "selbst",
+          "flagged": false
+        }
+      ]
+    }
+  ]
+}

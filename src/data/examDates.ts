@@ -1,16 +1,16 @@
 // ============================================================
-//  Prüfungstermine je Modul (für den Countdown über den Reitern).
+// Prüfungstermine je Modul – Grundlage für den Countdown
+// über den Reitern ("Noch X Tage bis zur Prüfung").
 //
-//  Format: 'YYYY-MM-DD' (Jahr-Monat-Tag), also z. B. der
-//  7. September 2026 = '2026-09-07'.
+// WICHTIG: Schlüssel ist die Modul-ID (Feld "id" der Modul-JSON),
+// NICHT der Anzeigename! (Beispiel: pkb002 hat die id "globalisierung".)
 //
-//  WICHTIG: Schlüssel ist die Modul-ID (Feld "id" in der Modul-
-//  Datei), NICHT der Anzeigename. Beispiel: pkb002 hat die ID
-//  "globalisierung". Für ein neues Modul einfach eine Zeile
-//  ergänzen. Fehlt ein Modul hier oder steht null, zeigt die
-//  App keinen Countdown ("offen").
+// Format: 'YYYY-MM-DD'. Fehlt ein Modul hier oder steht null,
+// wird für dieses Modul kein Countdown angezeigt.
 // ============================================================
+
 export const examDates: Record<string, string | null> = {
   mab002: '2026-09-07',
-  globalisierung: '2026-07-21', // Anzeigename: pkb002
+  globalisierung: '2026-07-21',
+  mab003: '2026-07-31', // Erstversuch; nach dem 31.07. ggf. auf '2026-09-25' (Zweitversuch) ändern
 };

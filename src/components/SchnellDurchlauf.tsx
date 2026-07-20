@@ -13,8 +13,7 @@ import { gradeAnswer } from '../lib/api';
 //
 // Die Stichwörter kommen aus dem optionalen Feld `keywords`
 // je Karte. types.ts bleibt unberührt (Typ nur lokal erweitert).
-// Der Fortschritt der Karteikarten wird hier NICHT verändert –
-// das ist ein reines Übungswerkzeug.
+// Der Fortschritt der Karteikarten wird hier NICHT verändert.
 // ============================================================
 
 type KwCard = Flashcard & { keywords?: string[] };
@@ -107,8 +106,7 @@ export function SchnellDurchlauf({ cards, sessions }: Props) {
     try {
       const r = await gradeAnswer(card.q, massstab, answer);
       setPct(r.pct);
-      const fb = (r as any).feedback as string | undefined;
-      if (fb) setFeedback(fb);
+      if (r.fb) setFeedback(r.fb);
     } catch {
       setFeedback('Bewertung gerade nicht möglich – Stichwörter siehe unten.');
     }

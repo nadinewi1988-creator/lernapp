@@ -222,6 +222,7 @@ export default function App() {
           sessions={track.sessions}
           progress={progress}
           onProgress={updateProgress}
+          userId={user?.id}
           selectorNode={
             <CardSelector
               cards={track.flashcards}
@@ -244,8 +245,11 @@ export default function App() {
       )}
       {activeTab === 'schnell' && (
         <SchnellDurchlauf
+          moduleId={module.id}
+          trackId={track.id}
           cards={track.flashcards.filter((c) => !hidden.has(c.id))}
           sessions={track.sessions}
+          userId={user?.id}
         />
       )}
     </div>

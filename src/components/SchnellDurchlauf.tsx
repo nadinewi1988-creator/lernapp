@@ -2,25 +2,35 @@ import { useEffect, useMemo, useState } from 'react';
 import type { Flashcard } from '../types';
 import { noteFor } from '../lib/grading';
 import { gradeAnswer } from '../lib/api';
+import {
+  type Attempt,
+  newAttemptId,
+  shortenQ,
+  loadAttemptsLocal,
+  saveAttemptsLocal,
+  mergeAttempts,
+  pullAttemptsCloud,
+  pushAttemptsCloud,
+} from '../lib/attempts';
 
 // ============================================================
 // Schnelldurchlauf – dieselben Fragen wie die Karteikarten,
 // aber bewertet wird gegen die STICHWÖRTER (nicht die lange
-// Musterlösung). Man tippt eine kurze Antwort, die KI prüft,
-// wie viele der Kernpunkte getroffen sind, und gibt Prozent +
-// Note + kurzes Feedback. Danach werden die Stichwörter zum
-// Selbstvergleich eingeblendet.
-//
-// Die Stichwörter kommen aus dem optionalen Feld `keywords`
-// je Karte. types.ts bleibt unberührt (Typ nur lokal erweitert).
-// Der Fortschritt der Karteikarten wird hier NICHT verändert.
+// Musterlösung). Kurzantwort tippen -> KI bewertet -> Prozent +
+// Note + Feedback, danach Stichwörter zum Selbstvergleich.
+// Zusätzlich ein aufklappbarer Verlauf der letzten 10 Abfragen
+// (geräteübergreifend, eigener Verlauf getrennt von den
+// Karteikarten). Karteikarten-Fortschritt wird NICHT verändert.
 // ============================================================
 
 type KwCard = Flashcard & { keywords?: string[] };
 
 interface Props {
+  moduleId: string;
+  trackId: string;
   cards: KwCard[];
   sessions: string[];
+  userId?: string;
 }
 
 function shuffle<T>(a: T[]): T[] {
@@ -32,7 +42,13 @@ function shuffle<T>(a: T[]): T[] {
   return r;
 }
 
-export function SchnellDurchlauf({ cards, sessions }: Props) {
+export function SchnellDurchlauf({
+  moduleId,
+  trackId,
+  cards,
+  sessions,
+  userId,
+}: Props) {
   const withKw = useMemo(
     () => cards.filter((c) => c.keywords && c.keywords.length > 0),
     [cards]
@@ -58,6 +74,7 @@ export function SchnellDurchlauf({ cards, sessions }: Props) {
   const [pct, setPct] = useState<number | null>(null);
   const [feedback, setFeedback] = useState<string>('');
   const [revealed, setRevealed] = useState(false);
+  const [history, setHistory] = useState<Attempt[]>([]);
 
   function resetCard() {
     setAnswer('');
@@ -72,6 +89,38 @@ export function SchnellDurchlauf({ cards, sessions }: Props) {
     setPos(0);
     resetCard();
   }, [pool]);
+
+  // Verlauf laden: lokal + Cloud mergen (eigener Modus 'schnell').
+  useEffect(() => {
+    const local = loadAttemptsLocal(moduleId, trackId, 'schnell');
+    setHistory(local);
+    let cancelled = false;
+    void pullAttemptsCloud(moduleId, trackId, 'schnell').then((cloud) => {
+      if (cancelled) return;
+      const merged = mergeAttempts(local, cloud);
+      setHistory(merged);
+      saveAttemptsLocal(moduleId, trackId, 'schnell', merged);
+      void pushAttemptsCloud(moduleId, trackId, 'schnell', merged);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [moduleId, trackId, userId]);
+
+  function recordAttempt(q: string, p: number) {
+    const entry: Attempt = {
+      id: newAttemptId(),
+      q: shortenQ(q),
+      pct: p,
+      takenAt: new Date().toISOString(),
+    };
+    setHistory((prev) => {
+      const merged = mergeAttempts([entry], prev);
+      saveAttemptsLocal(moduleId, trackId, 'schnell', merged);
+      void pushAttemptsCloud(moduleId, trackId, 'schnell', merged);
+      return merged;
+    });
+  }
 
   if (withKw.length === 0) {
     return (
@@ -101,12 +150,12 @@ export function SchnellDurchlauf({ cards, sessions }: Props) {
   async function bewerten() {
     if (!card) return;
     setGrading(true);
-    // Maßstab für die KI sind die Stichwörter, nicht die lange Musterlösung.
     const massstab = 'Erwartete Kernpunkte: ' + (card.keywords ?? []).join('; ');
     try {
       const r = await gradeAnswer(card.q, massstab, answer);
       setPct(r.pct);
       if (r.fb) setFeedback(r.fb);
+      recordAttempt(card.q, r.pct);
     } catch {
       setFeedback('Bewertung gerade nicht möglich – Stichwörter siehe unten.');
     }
@@ -238,6 +287,44 @@ export function SchnellDurchlauf({ cards, sessions }: Props) {
             </button>
           </div>
         </>
+      )}
+
+      {history.length > 0 && (
+        <details className="card" style={{ marginTop: 12, textAlign: 'left' }}>
+          <summary style={{ cursor: 'pointer', fontWeight: 600 }}>
+            Letzte {history.length} Abfragen
+          </summary>
+          <div style={{ marginTop: 10 }}>
+            {history.map((h, i) => (
+              <div
+                key={h.id}
+                style={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  gap: 12,
+                  padding: '6px 0',
+                  borderTop: i === 0 ? 'none' : '1px solid rgba(0,0,0,0.08)',
+                }}
+              >
+                <span
+                  className="muted"
+                  style={{
+                    flex: 1,
+                    minWidth: 0,
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis',
+                    whiteSpace: 'nowrap',
+                  }}
+                >
+                  {h.q}
+                </span>
+                <span style={{ whiteSpace: 'nowrap' }}>
+                  {h.pct}% · Note {noteFor(h.pct)}
+                </span>
+              </div>
+            ))}
+          </div>
+        </details>
       )}
     </div>
   );

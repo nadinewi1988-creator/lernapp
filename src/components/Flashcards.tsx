@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type { ReactNode } from 'react';
 import type { Flashcard, ProgressMap } from '../types';
 import { noteFor } from '../lib/grading';
@@ -7,12 +7,22 @@ import { gradeAnswer, helpFor } from '../lib/api';
 import { SessionFilter } from './SessionFilter';
 import { ProgressPanel } from './ProgressPanel';
 import { MicButton } from './MicButton';
+import {
+  type Attempt,
+  newAttemptId,
+  shortenQ,
+  loadAttemptsLocal,
+  saveAttemptsLocal,
+  mergeAttempts,
+  pullAttemptsCloud,
+  pushAttemptsCloud,
+} from '../lib/attempts';
 
 // Karteikarten-Reiter. Enthält die in der Projektanweisung
 // geforderten Funktionen: Musterantwort ein-/ausblenden, Tipp,
 // Freitext-Bewertung per API (Kreis + Prozent + Note), Hilfe-Button
-// bei < 60 %, Spracheingabe. Karten-An-/Abwahl ist über den
-// Fortschritts-/Filtermechanismus vorbereitet (flagged/Filter).
+// bei < 60 %, Spracheingabe. Zusätzlich ein aufklappbarer Verlauf
+// der letzten 10 bewerteten Antworten (geräteübergreifend).
 
 interface Props {
   moduleId: string;
@@ -22,14 +32,18 @@ interface Props {
   progress: ProgressMap;
   onProgress: (next: ProgressMap) => void;
   selectorNode?: ReactNode;
+  userId?: string;
 }
 
 export function Flashcards({
+  moduleId,
+  trackId,
   cards,
   sessions,
   progress,
   onProgress,
   selectorNode,
+  userId,
 }: Props) {
   const [selected, setSelected] = useState<Set<string>>(new Set(sessions));
   const [idx, setIdx] = useState(0);
@@ -41,6 +55,7 @@ export function Flashcards({
   );
   const [busy, setBusy] = useState(false);
   const [help, setHelp] = useState<string | null>(null);
+  const [history, setHistory] = useState<Attempt[]>([]);
 
   const pool = useMemo(
     () => cards.filter((c) => !c.flagged && selected.has(c.session)),
@@ -48,6 +63,38 @@ export function Flashcards({
   );
 
   const card = pool[idx];
+
+  // Verlauf laden: lokal + Cloud mergen (pro Modul + Bereich).
+  useEffect(() => {
+    const local = loadAttemptsLocal(moduleId, trackId, 'karten');
+    setHistory(local);
+    let cancelled = false;
+    void pullAttemptsCloud(moduleId, trackId, 'karten').then((cloud) => {
+      if (cancelled) return;
+      const merged = mergeAttempts(local, cloud);
+      setHistory(merged);
+      saveAttemptsLocal(moduleId, trackId, 'karten', merged);
+      void pushAttemptsCloud(moduleId, trackId, 'karten', merged);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [moduleId, trackId, userId]);
+
+  function recordAttempt(q: string, pct: number) {
+    const entry: Attempt = {
+      id: newAttemptId(),
+      q: shortenQ(q),
+      pct,
+      takenAt: new Date().toISOString(),
+    };
+    setHistory((prev) => {
+      const merged = mergeAttempts([entry], prev);
+      saveAttemptsLocal(moduleId, trackId, 'karten', merged);
+      void pushAttemptsCloud(moduleId, trackId, 'karten', merged);
+      return merged;
+    });
+  }
 
   function reset() {
     setShowAnswer(false);
@@ -71,6 +118,7 @@ export function Flashcards({
       const r = await gradeAnswer(card.q, card.a, userText);
       setResult(r);
       onProgress(recordResult(progress, card.id, r.pct));
+      recordAttempt(card.q, r.pct);
     } finally {
       setBusy(false);
     }
@@ -186,6 +234,44 @@ export function Flashcards({
             </button>
           </div>
         </div>
+      )}
+
+      {history.length > 0 && (
+        <details className="card" style={{ marginTop: 12, textAlign: 'left' }}>
+          <summary style={{ cursor: 'pointer', fontWeight: 600 }}>
+            Letzte {history.length} Abfragen
+          </summary>
+          <div style={{ marginTop: 10 }}>
+            {history.map((h, i) => (
+              <div
+                key={h.id}
+                style={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  gap: 12,
+                  padding: '6px 0',
+                  borderTop: i === 0 ? 'none' : '1px solid rgba(0,0,0,0.08)',
+                }}
+              >
+                <span
+                  className="muted"
+                  style={{
+                    flex: 1,
+                    minWidth: 0,
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis',
+                    whiteSpace: 'nowrap',
+                  }}
+                >
+                  {h.q}
+                </span>
+                <span style={{ whiteSpace: 'nowrap' }}>
+                  {h.pct}% · Note {noteFor(h.pct)}
+                </span>
+              </div>
+            ))}
+          </div>
+        </details>
       )}
     </div>
   );

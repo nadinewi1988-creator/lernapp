@@ -23,7 +23,14 @@
           "q": "Was versteht Gramsci unter „Hegemonie“?",
           "a": "Antonio Gramsci (1891–1937) versteht unter Hegemonie eine Herrschaftsform, die sich nicht allein auf Zwang stützt, sondern maßgeblich auf Konsens beruht. Während Zwang durch staatliche Apparate wie Polizei, Gerichte und Behörden ausgeübt wird, entsteht Konsens über kulturelle Apparate, insbesondere Medien, Schulen und Universitäten. Eine Ordnung ist demnach hegemonial, wenn es der herrschenden Gruppe gelingt, ihre partikularen Interessen als allgemeine, natürliche oder alternativlose Ordnung erscheinen zu lassen, sodass die Beherrschten ihr zustimmen, ohne dass dauerhaft offener Zwang notwendig wäre. Hegemonie begreift kulturelle und ideologische Führung damit als eigenständige Machtquelle neben physischer Zwangsgewalt.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Zwang (Polizei/Gerichte/Behörden)",
+            "Konsens",
+            "kulturelle Apparate: Medien, Schulen, Universitäten",
+            "partikulare Interessen als allgemeine/alternativlose Ordnung",
+            "kulturelle/ideologische Führung als Machtquelle"
+          ]
         },
         {
           "id": "cow1fbq",
@@ -31,7 +38,14 @@
           "q": "Was versteht Gramsci unter „Interregnum“?",
           "a": "Das Interregnum bezeichnet bei Gramsci eine krisenhafte Übergangsphase, in der eine alte hegemoniale Ordnung bereits zerfällt, eine neue jedoch noch nicht entstanden ist. Gramsci selbst spricht davon, dass in dieser Phase, in der das Alte stirbt und das Neue noch nicht zur Welt kommen kann, die unterschiedlichsten Krankheitserscheinungen auftreten, etwa politische Instabilität, der Aufstieg autoritärer Bewegungen und ideologische Fragmentierung. Ob sich die Gegenwart als ein solches Interregnum beschreiben lässt, ist umstritten. Für die These spricht, dass das neoliberale Globalisierungsnarrativ erkennbar an Überzeugungskraft verloren hat, ohne dass bislang ein neues, ähnlich konsensfähiges Ordnungsnarrativ an seine Stelle getreten ist. Dagegen ließe sich einwenden, dass zentrale Institutionen wie Demokratie und Marktwirtschaft trotz aller Krisensymptome fortbestehen, sodass sich allenfalls von einer Hegemoniekrise, nicht aber von einem vollwertigen Interregnum sprechen lässt.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "krisenhafte Übergangsphase",
+            "Altes stirbt, Neues noch nicht geboren",
+            "Krankheitserscheinungen: Instabilität, autoritäre Bewegungen",
+            "Globalisierungsnarrativ verliert Überzeugungskraft",
+            "Hegemoniekrise vs. echtes Interregnum (umstritten)"
+          ]
         },
         {
           "id": "c1ucfaxr",
@@ -39,7 +53,14 @@
           "q": "Was ist ein „master narrative“?",
           "a": "Ein master narrative, zu Deutsch Meistererzählung, ist ein seit den 1970er Jahren in der Geschichtswissenschaft und in der postmodernen Philosophie verwendeter Begriff, der Kritik an den großen Erzählungen übt. Diese Kritik wird meist auf den französischen Philosophen Jean-François Lyotard (1924–1998) zurückgeführt, der 1979 die Postmoderne als Skepsis gegenüber solchen großen Erzählungen definierte. Meistererzählungen stiften Sinn, orientieren Handeln und rechtfertigen mitunter folgenschwere Entscheidungen, indem sie sich auf signifikante historische Prozesse beziehen und die Kluft zwischen Erfahrungsraum und Erwartungshorizont überbrücken. Zudem sind sie hegemonial und besitzen eine Dramaturgie mit Gewinnern und Verlierern. Die Globalisierung fungierte lange als ein solches master narrative, indem sie sich auf das Ende des Kalten Krieges, die Europäisierung, die ökonomische Liberalisierung und die Ausbreitung liberaler Demokratien bezog und politische Entscheidungen nach der Logik rechtfertigte, man müsse sich an die Globalisierung anpassen.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Meistererzählung",
+            "Lyotard 1979 – Skepsis ggü. großen Erzählungen",
+            "stiftet Sinn, rechtfertigt Entscheidungen",
+            "hegemonial, Dramaturgie (Gewinner/Verlierer)",
+            "Globalisierung als master narrative"
+          ]
         },
         {
           "id": "cne7t8j",
@@ -47,7 +68,13 @@
           "q": "Was beschreibt Koselleck mit „Erfahrungsraum und Erwartungshorizont“?",
           "a": "Reinhart Koselleck unterscheidet zwei historische Kategorien: den Erfahrungsraum als gegenwärtige Vergangenheit, also die im Bewusstsein präsenten, aus vergangenem Erleben gespeisten Erfahrungen, und den Erwartungshorizont als gegenwärtige Zukunft, also die im Jetzt vorweggenommenen Hoffnungen und Pläne. Für die Moderne konstatiert Koselleck eine zunehmende Asymmetrie zwischen beiden Kategorien, da der beschleunigte gesellschaftliche Wandel die vergangene Erfahrung als Orientierung für die Zukunft zunehmend entwertet. Master narratives wie das der Globalisierung erfüllten die Funktion, diese wachsende Kluft diskursiv zu überbrücken und dadurch Handlungsorientierung zu ermöglichen.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Erfahrungsraum = gegenwärtige Vergangenheit",
+            "Erwartungshorizont = gegenwärtige Zukunft",
+            "Asymmetrie in der Moderne",
+            "master narratives überbrücken die Kluft"
+          ]
         },
         {
           "id": "cm7pn5c",
@@ -55,7 +82,14 @@
           "q": "Ist die Idee der Globalisierung noch hegemonial? Nehmen Sie begründet Stellung!",
           "a": "Meines Erachtens ist die Idee der Globalisierung in ihrer ursprünglichen, unangefochtenen Form nicht mehr hegemonial, sondern befindet sich in einer offenen Übergangsphase ohne etablierten Nachfolger. Die Rede von der neoliberalen Globalisierung als unvermeidlichem Prozess, wie sie Tony Blair 2005 pointiert formulierte, als er eine Debatte über Globalisierung mit der Frage verglich, ob dem Sommer der Herbst folge, hat ihre Selbstverständlichkeit verloren. Statt Fortschrittsversprechen dominieren heute Zweifel und vielfach die Rede von Deglobalisierung. Entscheidend ist jedoch, dass bislang kein alternatives master narrative zur Verfügung steht. Zugleich bestehen die materiellen Grundstrukturen globaler Verflechtung, etwa in Handel und Kommunikation, trotz der diskursiven Erosion des Narrativs fort. Die Globalisierung ist damit als Idee nicht mehr unangefochten hegemonial, ohne dass bereits eine neue Ordnung an ihre Stelle getreten wäre.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "nicht mehr unangefochten hegemonial",
+            "Übergangsphase ohne Nachfolger",
+            "Blair 2005 (Sommer/Herbst)",
+            "Deglobalisierung, aber kein alternatives Narrativ",
+            "materielle Verflechtung besteht fort"
+          ]
         },
         {
           "id": "c1i0eqvl",
@@ -63,7 +97,12 @@
           "q": "Nennen Sie drei Strukturprinzipien der Modernisierung.",
           "a": "Die Modernisierung folgt drei Strukturprinzipien: der funktionalen Differenzierung, dem autonomen Subjekt im Sinne gleicher Freiheit aller Individuen sowie dem dynamischen Wandel im Sinne radikaler Innerweltlichkeit anstelle metaphysischer Statik.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "funktionale Differenzierung",
+            "autonomes Subjekt (gleiche Freiheit)",
+            "dynamischer Wandel (radikale Innerweltlichkeit)"
+          ]
         },
         {
           "id": "c1hpfhux",
@@ -71,7 +110,14 @@
           "q": "Was ist funktionale Differenzierung?",
           "a": "Funktionale Differenzierung bezeichnet die Unterscheidung gesellschaftlicher Handlungs- und Kommunikationsbereiche wie Politik, Wissenschaft und Wirtschaft nach funktionalen Gesichtspunkten. Jeder Bereich orientiert sich an einem eigenen Leitwert, die Politik an der Macht, die Wissenschaft an der Wahrheit und die Wirtschaft am Profit, und entwickelt dadurch eine eigene Eigenlogik, die sich nicht mehr auf einen übergeordneten Ordnungsrahmen wie die Religion zurückführen lässt. Dieses Prinzip sorgt für eine erhebliche Komplexitäts- und Leistungssteigerung moderner Gesellschaften, wobei dennoch der Primat des Politischen bestehen bleibt, da die politische Sphäre eine besondere Steuerungsfunktion gegenüber den anderen Teilsystemen behält.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Trennung Politik/Wissenschaft/Wirtschaft",
+            "eigener Leitwert: Macht/Wahrheit/Profit",
+            "Eigenlogik der Teilbereiche",
+            "Komplexitäts-/Leistungssteigerung",
+            "Primat des Politischen"
+          ]
         },
         {
           "id": "cnq8zat",
@@ -79,7 +125,14 @@
           "q": "Was versteht Constant unter der „Freiheit der Modernen“?",
           "a": "Benjamin Constant entwickelt sein Verständnis der modernen Freiheit 1819 in Abgrenzung zur antiken Freiheit, die in der aktiven politischen Teilhabe an der Gemeinschaft bestand und die Aufopferung des Individuums für das Gemeinwesen voraussetzte. Die Freiheit der Modernen bedeutet demgegenüber vor allem die Entfaltung der eigenen Persönlichkeit, private Unabhängigkeit und das individuelle Streben nach Glück, was sich politisch in einem Repräsentativsystem und individuellen Abwehrrechten gegenüber dem Staat sowie ökonomisch in Freihandel und Markt äußert. Constant warnt zugleich davor, dass ein zu weitgehender Rückzug der Bürger aus der politischen Sphäre in einen modernen Despotismus münden kann, da die politische Freiheit als Kontrollinstanz gegenüber der Staatsmacht vernachlässigt würde.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Constant 1819",
+            "antike Freiheit = politische Teilhabe",
+            "moderne Freiheit = private Unabhängigkeit",
+            "Repräsentativsystem, Abwehrrechte, Freihandel",
+            "Warnung: moderner Despotismus"
+          ]
         },
         {
           "id": "c1dego9z",
@@ -87,7 +140,13 @@
           "q": "Was sind die Merkmale des „Wegs in die Moderne“?",
           "a": "Der Weg in die Moderne lässt sich durch drei Merkmale kennzeichnen: die Säkularisierung, bei der an die Stelle religiöser Sakralisierung eine innerweltliche Ordnung tritt, die Rationalisierung von Lebensführung, Verwaltung und Betrieb sowie Emanzipation und Partizipation anstelle von Tradition und Autorität. Da dieser Weg historisch ein spezifisch europäischer war, folgt daraus der Eurozentrismus der Moderne, also die Tendenz, den europäischen Entwicklungspfad als universellen Maßstab gesellschaftlichen Fortschritts zu setzen, ein Punkt, der später in der postkolonialen Kritik zentral aufgegriffen wird.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Säkularisierung",
+            "Rationalisierung",
+            "Emanzipation/Partizipation",
+            "Eurozentrismus der Moderne"
+          ]
         },
         {
           "id": "c363bcw",
@@ -95,7 +154,14 @@
           "q": "Leben wir in einer Weltgesellschaft? Nehmen Sie begründet Stellung!",
           "a": "Meines Erachtens existiert eine vollständige Weltgesellschaft bislang nicht, weshalb der Begriff der gesellschaftlichen Denationalisierung treffender ist, da er einen graduellen und regional sehr ungleichen Verflechtungsprozess beschreibt statt eines bereits erreichten Endzustands. Zwar ist eine weltumspannende, im Prinzip grenzenlose Kommunikation entstanden, deren Vermeidung für Staaten nur unter hohen Kosten möglich ist, doch bleibt das tatsächliche Ausmaß grenzüberschreitender Verflechtung stark regional konzentriert: Handel findet überwiegend innerhalb beziehungsweise zwischen den drei großen Wirtschaftsblöcken EU und EFTA, NAFTA sowie ASEAN plus drei statt. In einzelnen funktionalen Teilbereichen wie der globalen Kommunikation oder dem Klimawandel lassen sich zwar Ansätze einer echten Weltgesellschaft beobachten, diese sind jedoch ungleich verteilt und keineswegs vollständig entnationalisiert.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "keine vollständige Weltgesellschaft",
+            "besser: gesellschaftliche Denationalisierung",
+            "grenzenlose Kommunikation",
+            "Handel v.a. in Blöcken (EU/EFTA, NAFTA, ASEAN+3)",
+            "regional ungleich"
+          ]
         },
         {
           "id": "c4f6bkp",
@@ -103,7 +169,13 @@
           "q": "Welche vier Ansätze der IB werden unterschieden?",
           "a": "In den Internationalen Beziehungen werden vier zentrale Ansätze unterschieden: der Realismus, der Liberalismus, der Marxismus und der Konstruktivismus.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Realismus",
+            "Liberalismus",
+            "Marxismus",
+            "Konstruktivismus"
+          ]
         },
         {
           "id": "cptrcvd",
@@ -111,7 +183,16 @@
           "q": "Grundannahmen des Realismus?",
           "a": "Der Realismus steht in der Tradition von Machiavelli und Hobbes und geht davon aus, dass Staaten in der internationalen Politik in erster Linie ihre nationalen Interessen durchzusetzen versuchen. Da das internationale System als anarchisch gilt, existiert keine übergeordnete Instanz mit Sanktionsgewalt, weshalb Staaten in einem Selbsthilfesystem eigenständig für ihre Sicherheit sorgen müssen. Zentrale Kategorie ist dabei die Macht, die Überleben und Einfluss sichert, während Staaten als die zentralen, nach außen einheitlich handelnden Akteure gelten. Da jeder Staat für seine eigene Sicherheit sorgen muss, kann die Aufrüstung eines Staates von anderen als Bedrohung wahrgenommen werden, die daraufhin ebenfalls aufrüsten, sodass sich die Unsicherheit aller Beteiligten insgesamt erhöht, ein Prozess, der als Sicherheitsdilemma bezeichnet wird. Gegenüber einem Hegemon reagieren Staaten entweder mit Balancing durch Aufrüstung und Gegenbündnisse oder mit Bandwagoning durch Anschluss an den Stärkeren, wobei sich diese Konstellationen fortlaufend wandeln können. Schließlich geht der Realismus davon aus, dass die Innenpolitik eines Staates keine Rolle spielt, da die anarchische Struktur des internationalen Systems alle Staaten unabhängig von ihrer inneren Verfassung zu einem strukturell ähnlichen, sicherheitsorientierten Verhalten zwingt, wodurch der Staat gewissermaßen zur Black Box wird.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Machiavelli/Hobbes",
+            "nationale Interessen",
+            "Anarchie / Selbsthilfe",
+            "Macht; Staat = einheitlicher Akteur",
+            "Sicherheitsdilemma",
+            "Balancing / Bandwagoning",
+            "Innenpolitik irrelevant (Black Box)"
+          ]
         },
         {
           "id": "cw8ezmy",
@@ -119,7 +200,14 @@
           "q": "Grundannahmen des Liberalismus?",
           "a": "Der Liberalismus geht anders als der Realismus davon aus, dass der Staat kein einheitlicher Akteur ist, sondern das Ergebnis innenpolitischer, gesellschaftlicher Prozesse, in denen innenpolitische Akteure die außenpolitischen Präferenzen und die Konfliktregelung maßgeblich mitbestimmen. Zentral ist die Vorstellung von Kooperation und Zusammenarbeit anstelle von Konfrontation, da wachsende wechselseitige Abhängigkeiten zwischen Staaten Anreize zur Kooperation schaffen, die durch internationale Institutionen wie die Vereinten Nationen abgesichert wird. Ideengeschichtlich beruft sich der Liberalismus auf Immanuel Kant, dessen Schrift Zum ewigen Frieden die Grundlage für die These liefert, dass innenpolitisch friedlich verfasste, insbesondere demokratische Staaten auch nach außen friedlicher agieren, woraus der republikanische Liberalismus die Idee ableitet, Demokratie gezielt zu verbreiten, da eine demokratischere Welt zugleich als friedlichere Welt gilt.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Staat kein einheitlicher Akteur (Innenpolitik)",
+            "Kooperation statt Konfrontation",
+            "Interdependenz; Institutionen (UN)",
+            "Kant – Zum ewigen Frieden",
+            "demokratischer Frieden; republikanischer Liberalismus"
+          ]
         },
         {
           "id": "c1u2o55p",
@@ -127,7 +215,14 @@
           "q": "Grundannahmen des Marxismus?",
           "a": "Der Marxismus erkennt zwar an, dass Staaten wichtige Akteure sind, betont jedoch, dass die eigentlich entscheidenden Faktoren die inneren Klassenverhältnisse und die kapitalistischen Ausbeutungsstrukturen sind, sodass primäre Akteure die nationalen Klassen und nicht die Staaten selbst sind. Klassische Imperialismustheorien erklären Imperialismus als notwendige höchste Stufe des Kapitalismus, da sinkende Profitraten und die Konzentration von Kapital zu Monopolen die kapitalistischen Staaten dazu drängen, neue Absatzmärkte außerhalb des bereits durchkapitalisierten Gebiets zu erschließen, während sich die Konkurrenz der Kapitalisten nach vollständiger Aufteilung der Welt gegen die kapitalistischen Staaten selbst richtet. Zeitgenössische Ansätze sprechen zudem von struktureller Gewalt und Neo-Imperialismus, während Dependenz- und Weltsystemtheorien ein dauerhaftes Abhängigkeitsverhältnis zwischen einem industrialisierten Zentrum und einer rohstoffliefernden Peripherie beschreiben.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Klassenverhältnisse / kapitalistische Ausbeutung",
+            "Klassen als primäre Akteure",
+            "Imperialismus als höchste Stufe",
+            "sinkende Profitraten, Monopole",
+            "Dependenz-/Weltsystemtheorie (Zentrum/Peripherie)"
+          ]
         },
         {
           "id": "cqqnmr5",
@@ -135,7 +230,15 @@
           "q": "Grundannahmen des Konstruktivismus?",
           "a": "Der Konstruktivismus ist streng genommen kein inhaltlicher Ansatz, sondern eher eine Metatheorie, die keine Aussage darüber trifft, was Staaten wollen, sondern danach fragt, wie soziale Wirklichkeit überhaupt zustande kommt. Seine Kernthese lautet, dass internationale Beziehungen nicht einfach eine objektiv gegebene materielle Realität abbilden, sondern durch geteilte Ideen, Normen und Identitäten sozial konstruiert werden. Die nationale Identität eines Staates entsteht demnach erst in der Interaktion mit anderen Staaten, sodass sich mit ihr auch die Interessen des Staates verändern, da Staaten keine objektiven Interessen besitzen, sondern im Zuge ihrer Beziehungen bestimmte Rollen schaffen und übernehmen. Berühmt ist Wendts These, wonach Anarchie das sei, was die Staaten aus ihr machten, da sie ihre konkrete Bedeutung erst durch die geteilten Vorstellungen der Staaten voneinander erhält. Wissen und Lernprozesse spielen dabei eine zentrale Rolle, da sich Vorstellungen über angemessenes staatliches Verhalten durch Sozialisation verändern und Normen nicht nur regulativ, sondern konstitutiv wirken.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Metatheorie",
+            "soziale Konstruktion (Ideen/Normen/Identitäten)",
+            "Identität entsteht in Interaktion",
+            "keine objektiven Interessen",
+            "Wendt: Anarchie ist, was Staaten daraus machen",
+            "Normen wirken konstitutiv"
+          ]
         },
         {
           "id": "c8n9d75",
@@ -143,7 +246,14 @@
           "q": "Wie deutet der Realismus die Globalisierung?",
           "a": "Aus realistischer Sicht ist die Globalisierung das Ergebnis der Hegemonie der USA nach dem Zweiten Weltkrieg. Mit dem Bretton-Woods-System, dem GATT als Vorläufer der WTO sowie der militärischen Absicherung des westlichen Bündnissystems stellte der Hegemon USA eine liberale Wirtschaftsordnung samt der dafür nötigen öffentlichen Güter bereit und trug dafür die Kosten selbst, entsprechend der Theorie hegemonialer Stabilität. Dass sich diese Ordnung seit dem Ende des Kalten Krieges intensivierte, erklärt sich durch den von Krauthammer so bezeichneten unipolar moment, in dem die USA ihre Ordnung ohne Rücksicht auf einen gleichrangigen Rivalen ausdehnen konnten. Die gegenwärtigen Tendenzen zur Deglobalisierung erklärt der Realismus konsequent aus dem Aufstieg Chinas und der damit einhergehenden Verschiebung von einer unipolaren zu einer multipolaren Machtverteilung, die nach Waltz als strukturell instabiler gilt.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Hegemonie der USA",
+            "Bretton Woods / GATT",
+            "Theorie hegemonialer Stabilität",
+            "unipolar moment (Krauthammer)",
+            "Deglobalisierung: Aufstieg Chinas / Multipolarität (Waltz)"
+          ]
         },
         {
           "id": "c1lrmxvi",
@@ -151,7 +261,14 @@
           "q": "Wie deutet der Liberalismus die Globalisierung?",
           "a": "Der Liberalismus deutet die Globalisierung als Ergebnis eines kollektiven Lernprozesses nach dem Zweiten Weltkrieg. Aus der Erfahrung der Zwischenkriegszeit, in der wirtschaftlicher Nationalismus und die Weltwirtschaftskrise wesentlich zur internationalen Instabilität beigetragen hatten, zogen die politischen Eliten die Lehre, dass wirtschaftliche Öffnung und institutionalisierte Zusammenarbeit, verankert in den Bretton-Woods-Institutionen und im GATT, nicht nur wirtschaftlich vorteilhaft, sondern auch friedensstiftend seien, da wachsende Interdependenzen Kriege zwischen den beteiligten Staaten unattraktiv machen. Entscheidend ist, dass dieser Lernprozess kollektiv verstanden wird und nicht nur eine strategische Kalkulation einzelner Regierungen darstellt. Die gegenwärtige Krise der liberalen Globalisierung erscheint aus dieser Perspektive als rätselhaft, da sie dem unterstellten Lernfortschritt widerspricht; erklären lässt sie sich am ehesten damit, dass die materiellen Gewinne der Globalisierung ungleich verteilt waren und dadurch das Vertrauen in die liberale Ordnung untergraben haben.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "kollektiver Lernprozess nach 1945",
+            "Lehre aus der Zwischenkriegszeit",
+            "Bretton Woods / GATT",
+            "Interdependenz = Frieden",
+            "Krise durch ungleiche Verteilung der Gewinne"
+          ]
         },
         {
           "id": "cv49esl",
@@ -159,7 +276,14 @@
           "q": "Wie deutet der Marxismus die Globalisierung?",
           "a": "Der Marxismus deutet die Globalisierung in seiner regulationstheoretischen Variante als Ergebnis eines klassenpolitischen Regulationsprojekts. Da jede Phase des Kapitalismus ein Bündel wirtschaftlicher Institutionen und sozialer Kompromisse benötigt, das Produktion und Kapitalverwertung aufeinander abstimmt, geriet das fordistische Regulationsregime der Nachkriegszeit in den 1970er Jahren durch sinkende Profitraten und Ölpreisschocks in eine tiefe Krise. Aus dieser Krise heraus setzte sich im Zuge der neoliberalen Wende ein neues, post-fordistisches Akkumulationsregime durch, das Kapitalmobilität über nationalstaatliche Regulierung stellt und mithilfe internationaler Institutionen wie IWF, Weltbank und WTO auch gegenüber dem globalen Süden durchgesetzt wurde, etwa über Strukturanpassungsprogramme und den Washington Consensus. Die gegenwärtige Krise der Globalisierung deutet aus marxistischer Sicht nicht auf ein Ende des Kapitalismus hin, sondern auf die Erschöpfung dieses konkreten neoliberalen Regulationsregimes und die Entstehung eines neuen, dessen Gestalt sich derzeit erst herausbildet.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Regulationstheorie",
+            "Krise des Fordismus (1970er, Profitraten/Ölpreis)",
+            "post-fordistisches Regime",
+            "IWF/Weltbank/WTO, Washington Consensus",
+            "Erschöpfung des neoliberalen Regimes"
+          ]
         },
         {
           "id": "cgwn7w7",
@@ -167,7 +291,14 @@
           "q": "Wie deutet der Konstruktivismus die Globalisierung?",
           "a": "Der Konstruktivismus deutet die Globalisierung nicht als objektiven, sich naturwüchsig durchsetzenden Prozess, sondern als Ergebnis eines Diskurses. Die Art und Weise, wie über Globalisierung als unausweichlichen Sachzwang gesprochen wurde, dem sich Politik nur anzupassen habe, hat die politische Wirklichkeit erst hervorgebracht, in der Liberalisierungspolitik als alternativlos erschien, wobei dieser Diskurs spezifische Normen wie offene Märkte und internationale Wettbewerbsfähigkeit als gültig etablierte. Die gegenwärtige Krise der Globalisierung ist dieser Lesart zufolge das Ergebnis eines gegenläufigen, globalisierungskritischen Diskurses, der seit der Finanzkrise von 2008 Globalisierung zunehmend als Bedrohung nationaler Identität und demokratischer Souveränität framt und die zuvor hegemonialen globalistischen Normen delegitimiert. Da Identitäten und Interessen von Staaten für den Konstruktivismus nicht objektiv feststehen, sondern erst durch Diskurse konstituiert werden, ist auch eine Neuausrichtung der Globalisierung denkbar, sobald sich der dominante Diskurs verschiebt.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Globalisierung als Diskurs / Sachzwang",
+            "Liberalisierung als „alternativlos“",
+            "Gegendiskurs seit Finanzkrise 2008",
+            "Delegitimierung globalistischer Normen",
+            "Neuausrichtung denkbar"
+          ]
         },
         {
           "id": "c1y85e2c",
@@ -175,7 +306,12 @@
           "q": "Was ist der zentrale Fokus des Postkolonialismus?",
           "a": "Der Postkolonialismus ist kein systematischer Theorieansatz wie Realismus, Liberalismus oder Konstruktivismus, sondern eher eine kritische Perspektive, deren zentraler Fokus auf dem Nachleben des Kolonialismus in der gegenwärtigen internationalen Politik sowie auf der Kritik an westlichem Wissen als vermeintlich neutralem, universellem Maßstab liegt.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "kein systematischer Ansatz, sondern kritische Perspektive",
+            "Nachleben des Kolonialismus",
+            "Kritik an westlichem Wissen als universellem Maßstab"
+          ]
         },
         {
           "id": "c1e3zjcr",
@@ -183,7 +319,14 @@
           "q": "Erläutern Sie die Konzepte Orientalismus, Othering und die These „Macht = Wissen“ im Postkolonialismus!",
           "a": "Der Orientalismus, wie ihn Edward Said 1978 beschreibt, bezeichnet die diskursive Konstruktion des Orients als exotisches, rückständiges und in sich einheitliches Gegenbild zum vermeintlich aufgeklärten, rationalen Westen. Diese Konstruktion ist kein neutrales Beschreiben einer fremden Kultur, sondern legitimiert zugleich westliche Herrschaft, da die eigene Überlegenheit durch die Abwertung des Anderen selbstverständlich erscheint. Othering bezeichnet den dahinterliegenden allgemeineren Prozess, wonach eine Gruppe ihre eigene Identität nicht positiv aus sich selbst heraus, sondern in Abgrenzung zu einer als fremd markierten Gegengruppe definiert, wodurch westliche Normen implizit zum universellen Maßstab erhoben werden, an dem alles Nicht-Westliche gemessen wird. Orientalismus ist damit das historisch einflussreichste Beispiel für Othering. Beide Konzepte funktionieren nur, weil Wissen und Macht nach der These Macht gleich Wissen untrennbar miteinander verwoben sind: Wissen ist niemals neutral gegeben, sondern immer mit der Konstruktion und Hierarchisierung von Identität verbunden. Wer über andere spricht und sie klassifiziert, übt zugleich Macht über sie aus, während umgekehrt bestehende Machtverhältnisse bestimmen, welches Wissen als gültig anerkannt wird. Wissen konstituiert Machtbeziehungen also nicht nur, sondern verändert sie auch fortlaufend, etwa wenn neues Wissen über Entwicklung oder gutes Regieren bestehende Machtverhältnisse festigt oder infrage stellt.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Said 1978 – Orientalismus",
+            "Orient als rückständiges Gegenbild",
+            "legitimiert westliche Herrschaft",
+            "Othering (Identität durch Abgrenzung)",
+            "Macht = Wissen (Wissen nie neutral)"
+          ]
         },
         {
           "id": "cbncvsu",
@@ -192,7 +335,16 @@
           "a": "Der Realismus steht in der Tradition von Machiavelli und Hobbes und geht davon aus, dass Staaten in der internationalen Politik in erster Linie ihre nationalen Interessen durchzusetzen versuchen. Da das internationale System als anarchisch gilt, existiert keine übergeordnete Instanz mit Sanktionsgewalt, weshalb Staaten in einem Selbsthilfesystem eigenständig für ihre Sicherheit sorgen müssen. Zentrale Kategorie ist dabei die Macht, während Staaten als die zentralen, nach außen einheitlich handelnden Akteure gelten. Da jeder Staat für seine eigene Sicherheit sorgen muss, kann die Aufrüstung eines Staates von anderen als Bedrohung wahrgenommen werden, die daraufhin ebenfalls aufrüsten, sodass sich die Unsicherheit aller Beteiligten insgesamt erhöht, ein Prozess, der als Sicherheitsdilemma bezeichnet wird. Gegenüber einem Hegemon reagieren Staaten entweder mit Balancing oder mit Bandwagoning, wobei sich diese Konstellationen fortlaufend wandeln können. Schließlich geht der Realismus davon aus, dass die Innenpolitik eines Staates keine Rolle spielt, da die anarchische Struktur des internationalen Systems alle Staaten unabhängig von ihrer inneren Verfassung zu einem strukturell ähnlichen, sicherheitsorientierten Verhalten zwingt.",
           "herkunft": "direkt",
           "flagged": false,
-          "subtype": "erklaeren"
+          "subtype": "erklaeren",
+          "keywords": [
+            "Machiavelli/Hobbes",
+            "nationale Interessen",
+            "Anarchie / Selbsthilfe",
+            "Macht; einheitlicher Akteur",
+            "Sicherheitsdilemma",
+            "Balancing / Bandwagoning",
+            "Innenpolitik irrelevant"
+          ]
         },
         {
           "id": "c1oki6mn",
@@ -201,7 +353,14 @@
           "a": "Der Liberalismus geht anders als der Realismus davon aus, dass der Staat kein einheitlicher Akteur ist, sondern das Ergebnis innenpolitischer, gesellschaftlicher Prozesse, in denen innenpolitische Akteure die außenpolitischen Präferenzen und die Konfliktregelung maßgeblich mitbestimmen. Zentral ist die Vorstellung von Kooperation und Zusammenarbeit anstelle von Konfrontation, da wachsende wechselseitige Abhängigkeiten zwischen Staaten Anreize zur Kooperation schaffen, die durch internationale Institutionen wie die Vereinten Nationen abgesichert wird. Ideengeschichtlich beruft sich der Liberalismus auf Immanuel Kant, dessen Schrift Zum ewigen Frieden die Grundlage für die These liefert, dass innenpolitisch friedlich verfasste, insbesondere demokratische Staaten auch nach außen friedlicher agieren, woraus der republikanische Liberalismus die Idee ableitet, Demokratie gezielt zu verbreiten, da eine demokratischere Welt zugleich als friedlichere Welt gilt.",
           "herkunft": "direkt",
           "flagged": false,
-          "subtype": "erklaeren"
+          "subtype": "erklaeren",
+          "keywords": [
+            "kein einheitlicher Akteur (Innenpolitik)",
+            "Kooperation / Interdependenz",
+            "Institutionen (UN)",
+            "Kant – ewiger Friede",
+            "demokratischer Frieden"
+          ]
         },
         {
           "id": "cl90q0w",
@@ -210,7 +369,14 @@
           "a": "Der Konstruktivismus ist streng genommen kein inhaltlicher Ansatz, sondern eher eine Metatheorie, die keine Aussage darüber trifft, was Staaten wollen, sondern danach fragt, wie soziale Wirklichkeit überhaupt zustande kommt. Seine Kernthese lautet, dass internationale Beziehungen nicht einfach eine objektiv gegebene materielle Realität abbilden, sondern durch geteilte Ideen, Normen und Identitäten sozial konstruiert werden. Die nationale Identität eines Staates entsteht demnach erst in der Interaktion mit anderen Staaten, sodass sich mit ihr auch die Interessen des Staates verändern, da Staaten keine objektiven Interessen besitzen, sondern im Zuge ihrer Beziehungen bestimmte Rollen schaffen und übernehmen. Berühmt ist Wendts These, wonach Anarchie das sei, was die Staaten aus ihr machten. Wissen und Lernprozesse spielen dabei eine zentrale Rolle, da Normen nicht nur regulativ, sondern konstitutiv wirken.",
           "herkunft": "direkt",
           "flagged": false,
-          "subtype": "erklaeren"
+          "subtype": "erklaeren",
+          "keywords": [
+            "Metatheorie",
+            "soziale Konstruktion",
+            "Identität in Interaktion",
+            "keine objektiven Interessen",
+            "Wendt"
+          ]
         },
         {
           "id": "cv22q7l",
@@ -219,7 +385,13 @@
           "a": "Vergleicht man Realismus und Liberalismus, so zeigt sich der zentrale Unterschied bereits auf der Akteursebene: Während der Realismus den Staat als einheitlichen Akteur begreift, ist der Staat für den Liberalismus Ergebnis innenpolitischer Präferenzbildung, weshalb Innenpolitik für den Realismus keine, für den Liberalismus dagegen die entscheidende Rolle spielt.",
           "herkunft": "direkt",
           "flagged": false,
-          "subtype": "vergleich"
+          "subtype": "vergleich",
+          "keywords": [
+            "Ebene: Akteur",
+            "Realismus = einheitlicher Akteur",
+            "Liberalismus = innenpolitische Präferenzbildung",
+            "Innenpolitik: keine vs. entscheidende Rolle"
+          ]
         },
         {
           "id": "c1jnpd0k",
@@ -228,7 +400,12 @@
           "a": "Im Vergleich von Realismus und Konstruktivismus liegt der Unterschied in der Ontologie: Für den Realismus sind Macht und Interessen materiell gegeben, für den Konstruktivismus entstehen Interessen und selbst die Bedeutung von Anarchie erst durch geteilte Ideen und Identitäten.",
           "herkunft": "direkt",
           "flagged": false,
-          "subtype": "vergleich"
+          "subtype": "vergleich",
+          "keywords": [
+            "Ebene: Ontologie",
+            "Realismus = Macht/Interessen materiell gegeben",
+            "Konstruktivismus = Interessen/Anarchie durch geteilte Ideen/Identitäten"
+          ]
         },
         {
           "id": "cm42et9",
@@ -237,7 +414,13 @@
           "a": "Zwischen Liberalismus und Konstruktivismus schließlich besteht der Unterschied vor allem in der Herkunft der Interessen: Für den Liberalismus entstehen sie aus innergesellschaftlichen, oft wirtschaftlichen Präferenzen, für den Konstruktivismus aus geteilten Ideen und gemeinsamer Identität. Beide relativieren jedoch die realistische Fixierung auf den Staat als rein machtorientierten Akteur.",
           "herkunft": "direkt",
           "flagged": false,
-          "subtype": "vergleich"
+          "subtype": "vergleich",
+          "keywords": [
+            "Ebene: Herkunft der Interessen",
+            "Liberalismus = wirtschaftliche/innergesellschaftliche Präferenzen",
+            "Konstruktivismus = geteilte Ideen/Identität",
+            "beide relativieren Staat als reinen Machtakteur"
+          ]
         },
         {
           "id": "c1c22pn",
@@ -245,7 +428,13 @@
           "q": "Was unterscheidet Governance von Government?",
           "a": "Global Governance bezeichnet eine politische Ordnung jenseits des Nationalstaates, wobei sich Governance als Tätigkeit des Regierens von Government als konkretem regierenden Akteur unterscheidet und nicht zwingend hierarchisch durch eine übergeordnete Zwangsgewalt erfolgen muss.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Ordnung jenseits des Nationalstaats",
+            "Governance = Tätigkeit des Regierens",
+            "Government = konkreter regierender Akteur",
+            "nicht zwingend hierarchisch"
+          ]
         },
         {
           "id": "c1w73pr8",
@@ -253,7 +442,14 @@
           "q": "Nennen Sie Bedingungen, unter denen Global Governance möglich ist.",
           "a": "Damit Global Governance entstehen kann, müssen mehrere Bedingungen zusammenkommen. Zunächst bedarf es einer Nachfrage durch gesellschaftliche Denationalisierung, da erst grenzüberschreitende Problemlagen wie Handel, Finanzmärkte oder der Klimawandel, die nationale Politik allein nicht mehr bewältigen kann, einen Bedarf nach internationaler Regelung erzeugen. Aus dieser Nachfrage folgt jedoch kein Automatismus zur Institutionenbildung, denn entscheidend ist die politische Verarbeitung durch Verhandlungen der beteiligten Akteure, wie das Beispiel der Klimapolitik zeigt, die trotz eindeutiger Problemlage lange nicht durch ein hinreichendes internationales Regime bearbeitet wurde. Governance setzt zudem voraus, dass die beteiligten Akteure normative Verbindlichkeit anerkennen und ihr Handeln am globalen Gemeinwohl statt nur am eigenen Selbstinteresse ausrichten, sowie eine institutionelle und prozedurale Absicherung durch dauerhaft wirkende Regime und Organisationen. Selbst wenn diese Bedingungen erfüllt sind, bleibt die Qualität von Global Governance jedoch begrenzt, solange drei strukturelle Defizite bestehen: ein Legitimationsproblem durch die fehlende direkte demokratische Rückbindung internationaler Entscheidungen, ein Koordinationsproblem durch die fehlende Gesamtkoordination zwischen den zahlreichen internationalen Institutionen sowie eine zunehmende Politisierung internationaler Institutionen, die auf Ungleichheit und Exklusion Betroffener verweist.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Nachfrage durch Denationalisierung",
+            "politische Verarbeitung (Verhandlungen)",
+            "normative Verbindlichkeit / Gemeinwohl",
+            "institutionelle Absicherung (Regime)",
+            "Defizite: Legitimation, Koordination, Politisierung"
+          ]
         },
         {
           "id": "c8nqeig",
@@ -261,7 +457,12 @@
           "q": "Was ist der Mercosur?",
           "a": "Der Mercosur ist ein 1991 mit dem Vertrag von Asunción gegründetes Freihandelsabkommen südamerikanischer Staaten, dem Argentinien, Brasilien, Paraguay und Uruguay angehören, mit dem Ziel einer Freihandelszone und Zollunion.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "1991, Vertrag von Asunción",
+            "Argentinien, Brasilien, Paraguay, Uruguay",
+            "Freihandelszone / Zollunion"
+          ]
         },
         {
           "id": "clrqcgj",
@@ -270,7 +471,14 @@
           "a": "Der realistische Erklärungsversuch lautet, dass Staaten aus Eigeninteresse handeln und ihre Macht und Sicherheit steigern wollen, weshalb sich die Mercosur-Gründung als Stärkung von Macht und Sicherheit durch Bildung von Gegenmacht gegen den Hegemon USA deuten ließe. Diese Erklärung scheitert jedoch an der Empirie, da die argentinische Außenpolitik seit den frühen 1980er Jahren gerade eine konfliktvermeidende, an Abrüstung orientierte Strategie verfolgte und aktiv die Nähe zu den USA suchte, statt sich gegen sie zu positionieren. Auch die vorsichtigere Balance-of-Threat-Variante überzeugt nur bedingt, da sie bestenfalls erklärt, warum kein Gegenbündnis entstand, nicht jedoch die aktive Vertiefung der Kooperation. Der ökonomische Neorealismus schließlich unterstellt, Staaten gingen Kooperationen ein, wenn diese ihre relative Machtposition langfristig stärken, was jedoch in Widerspruch zu Argentiniens gleichzeitiger Abrüstung steht und zudem nur eine nachträgliche Erklärung ohne Prognosekraft liefert. Insgesamt kann der Realismus damit allenfalls die sicherheitspolitische Großwetterlage der Region beschreiben, nicht aber die konkrete Integrationsentscheidung erklären.",
           "herkunft": "direkt",
           "flagged": false,
-          "subtype": "anwendung"
+          "subtype": "anwendung",
+          "keywords": [
+            "Gegenmacht gegen USA",
+            "scheitert empirisch (Argentinien sucht Nähe zu USA)",
+            "Balance of Threat nur begrenzt",
+            "ökon. Neorealismus widersprüchlich",
+            "nur Großwetterlage, nicht die Entscheidung"
+          ]
         },
         {
           "id": "c1gnyume",
@@ -279,7 +487,13 @@
           "a": "Der Liberalismus erklärt die Mercosur-Gründung über eine Zwei-Ebenen-Theorie, nach der kleine, gut organisierte Wirtschaftsakteure wie Unternehmerverbände und Gewerkschaften die Integration vorantreiben, um durch transnationale Zusammenarbeit Wohlstand und Frieden zu sichern und dauerhafte Institutionen zu schaffen. Empirisch lässt sich der wirtschaftliche Erfolg durchaus belegen, da Brasiliens Anteil an den Mercosur-internen Exporten von einem Drittel im Jahr 1990 auf zwei Drittel im Jahr 1994 stieg und auch Paraguay und Uruguay einen wachsenden Anteil ihres Handels mit den Partnerstaaten abwickelten. Die Fallanalyse relativiert das Bild einer gesellschaftlich getriebenen Integration jedoch erheblich, da Gewerkschaften und Unternehmerverbände in Argentinien zum Zeitpunkt der Gründung strukturell geschwächt und aus dem politischen Entscheidungsprozess weitgehend ausgeschlossen waren, während sich sowohl der Rat als auch das exekutive Organ des Mercosur überwiegend aus Bürokraten und Ministerialvertretern zusammensetzten. Die wirtschaftlichen Kennzahlen bestätigen damit zwar die liberale Grundannahme, dass Interdependenz Wohlstand fördert, doch war die Gründungsentscheidung selbst stärker bürokratisch als gesellschaftlich getragen.",
           "herkunft": "direkt",
           "flagged": false,
-          "subtype": "anwendung"
+          "subtype": "anwendung",
+          "keywords": [
+            "Zwei-Ebenen-Theorie",
+            "Wirtschaftsakteure (Verbände/Gewerkschaften)",
+            "Handelsverflechtung (Brasilien 1/3→2/3, 1990–94)",
+            "aber: Gründung bürokratisch, nicht gesellschaftlich"
+          ]
         },
         {
           "id": "c18p3mmz",
@@ -288,7 +502,14 @@
           "a": "Der Konstruktivismus erklärt die Mercosur-Gründung nicht über materielle Vorteile, sondern über eine Veränderung der Wahrnehmung und Werte im Zuge der Demokratisierung Argentiniens und Brasiliens in den 1980er Jahren. Beide Länder verstanden sich zunehmend nicht mehr als rivalisierende Regionalmächte, sondern als Länder mit geteilter Problemlage und gemeinsamer Identität als Kooperationspartner, was sich in einer Aussage des argentinischen Außenministers Caputo von 1986 zeigt, wonach man mit Brasilien bereits eine ähnliche Weltsicht teile und nur noch über die konkreten Mechanismen der Zusammenarbeit verhandle. Empirisch zeigt sich diese gemeinsame Identität auch im gemeinsamen diplomatischen Auftritt der Mitgliedstaaten. Der Ansatz erklärt zudem, warum Paraguay und Uruguay trotz geringen wirtschaftlichen Nutzens nie aus dem Bündnis austraten: Jedes Land bringt einen kulturellen Rucksack an Souveränitätsvorstellungen mit, der bestimmt, wie viel Autonomieverlust akzeptabel ist, weshalb Uruguay mehr Autonomieverlust hinnahm, während Argentinien in der Wirtschaftskrise von 2002 rasch zu unilateralen Schutzmaßnahmen griff.",
           "herkunft": "direkt",
           "flagged": false,
-          "subtype": "anwendung"
+          "subtype": "anwendung",
+          "keywords": [
+            "Wandel von Wahrnehmung/Werten",
+            "Demokratisierung Argentinien/Brasilien",
+            "gemeinsame Identität (Caputo 1986)",
+            "kultureller Rucksack (Souveränität)",
+            "erklärt Verbleib von Paraguay/Uruguay"
+          ]
         },
         {
           "id": "c1i7vcci",
@@ -297,7 +518,13 @@
           "a": "Als die USA 2003 eine Koalition der Willigen gegen den Irak anführten, entsandte Großbritannien Truppen, während Deutschland unter Bundeskanzler Schröder jede Beteiligung ablehnte. Realistisch lässt sich dies weniger als Balancing gegen den Hegemon USA deuten, was schon deshalb wenig überzeugt, weil Deutschland gerade die Bedeutung der Vereinten Nationen betonte, sondern eher als Kosten-Nutzen-Kalkül im Sinne des defensiven Realismus sowie als Instrumentalisierung der UN zur Legitimation des Bruchs mit den USA.",
           "herkunft": "direkt",
           "flagged": false,
-          "subtype": "anwendung"
+          "subtype": "anwendung",
+          "keywords": [
+            "2003 Koalition der Willigen; D lehnt ab",
+            "nicht Balancing (D betont UN)",
+            "Kosten-Nutzen-Kalkül (defensiver Realismus)",
+            "UN zur Legitimation des Bruchs"
+          ]
         },
         {
           "id": "c9vybbf",
@@ -306,7 +533,13 @@
           "a": "Der Liberalismus erklärt das unterschiedliche Verhalten über die Vetospieler-Theorie, wonach mehr Vetospieler wie der einflussreiche Bundestag die Kriegsbereitschaft senken, sowie über Downs’ Wählerkalkül, demzufolge Schröders Ablehnung eine Reaktion auf die klare Mehrheitsmeinung von 79 Prozent gegen eine Intervention im Bundestagswahlkampf 2002 war.",
           "herkunft": "direkt",
           "flagged": false,
-          "subtype": "anwendung"
+          "subtype": "anwendung",
+          "keywords": [
+            "Vetospieler-Theorie (Bundestag)",
+            "Downs’ Wählerkalkül",
+            "79 % gegen Intervention",
+            "Wahlkampf 2002"
+          ]
         },
         {
           "id": "cblqtfi",
@@ -315,7 +548,13 @@
           "a": "Der Konstruktivismus schließlich führt das gegensätzliche Verhalten auf unterschiedliche historisch gewachsene Werte zurück, den deutschen Multilateralismus und Antimilitarismus einerseits und den amerikanischen Exzeptionalismus andererseits, den Robert Kagan mit dem Gegensatz einer hobbesschen und einer kantianischen Welt auf den Punkt bringt, wobei beide Länder dieselbe Kriegshandlung entsprechend als legitim beziehungsweise illegitim deuteten.",
           "herkunft": "direkt",
           "flagged": false,
-          "subtype": "anwendung"
+          "subtype": "anwendung",
+          "keywords": [
+            "historisch gewachsene Werte",
+            "D: Multilateralismus/Antimilitarismus",
+            "USA: Exzeptionalismus",
+            "Kagan: hobbessche vs. kantianische Welt"
+          ]
         },
         {
           "id": "c1so92qp",
@@ -324,7 +563,13 @@
           "a": "Das 1997 verabschiedete Kyoto-Protokoll verpflichtete Industriestaaten zu Emissionsreduktionen; Deutschland ratifizierte es, die USA hingegen nie. Realistisch lässt sich Deutschlands Vorreiterrolle als Strategie eines pusher state deuten, der durch den Export von Umwelttechnologie seine relative Machtposition bei geringen Kosten stärkt, während die USA ihre hegemoniale Stellung nutzten, um in den Verhandlungen laxere Ziele durchzusetzen, wobei dieser Ansatz den entscheidenden Widerstand des amerikanischen Kongresses unberücksichtigt lässt.",
           "herkunft": "direkt",
           "flagged": false,
-          "subtype": "anwendung"
+          "subtype": "anwendung",
+          "keywords": [
+            "Kyoto 1997 (D ja, USA nein)",
+            "pusher state (Umwelttechnologie-Export)",
+            "USA nutzen Hegemonie für laxe Ziele",
+            "Kongress-Widerstand ignoriert"
+          ]
         },
         {
           "id": "c66zqk0",
@@ -333,7 +578,13 @@
           "a": "Der Liberalismus erklärt das unterschiedliche Verhandlungsverhalten über Putnams Konzept der Two-Level-Games, wonach die Menge der innenpolitisch ratifizierbaren Ergebnisse als Win-Set die internationale Verhandlungsposition bestimmt; bemerkenswert ist dabei, dass Deutschland trotz eines großen, theoretisch schwächenden Win-Sets unnachgiebig auftrat, während die USA trotz eines kleinen, theoretisch stärkenden Win-Sets Zugeständnisse machten.",
           "herkunft": "direkt",
           "flagged": false,
-          "subtype": "anwendung"
+          "subtype": "anwendung",
+          "keywords": [
+            "Two-Level-Games (Putnam)",
+            "Win-Set = ratifizierbare Ergebnisse",
+            "D großes Win-Set, aber unnachgiebig",
+            "USA kleines Win-Set, aber nachgiebig"
+          ]
         },
         {
           "id": "c1jpvugv",
@@ -341,7 +592,12 @@
           "q": "Was ist ein „Win-Set“ (Putnam, Two-Level-Games)?",
           "a": "Die Menge der auf nationaler Ebene (Level II, z. B. Parlament) ratifizierbaren Verhandlungsergebnisse. Ein kleines Win-Set kann Verhandlungsmacht erhöhen, da glaubhaft auf innenpolitische Zwänge verwiesen werden kann.",
           "herkunft": "direkt",
-          "flagged": false
+          "flagged": false,
+          "keywords": [
+            "Putnam – Two-Level-Games",
+            "Menge national ratifizierbarer Ergebnisse (Level II)",
+            "kleines Win-Set = mehr Verhandlungsmacht"
+          ]
         },
         {
           "id": "cso1fz9",
@@ -350,7 +606,13 @@
           "a": "Der Konstruktivismus führt das unterschiedliche Verhalten schließlich auf die soziale Konstruktion von Wissen über den Klimawandel zurück, da in Deutschland mit der Klima-Enquete-Kommission ein glaubwürdiger Vermittler existierte, der den wissenschaftlichen Konsens gesellschaftsübergreifend vermittelte, während den USA ein vergleichbarer Akteur fehlte.",
           "herkunft": "direkt",
           "flagged": false,
-          "subtype": "anwendung"
+          "subtype": "anwendung",
+          "keywords": [
+            "soziale Konstruktion von Wissen",
+            "Klima-Enquete-Kommission (glaubwürdiger Vermittler)",
+            "wissenschaftlicher Konsens vermittelt",
+            "USA fehlt vergleichbarer Akteur"
+          ]
         }
       ],
       "quiz": [

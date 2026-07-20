@@ -4,12 +4,13 @@
 //  Format: 'YYYY-MM-DD' (Jahr-Monat-Tag), also z. B. der
 //  7. September 2026 = '2026-09-07'.
 //
-//  Für ein NEUES Modul einfach eine Zeile ergänzen (Modul-ID
-//  wie in data/index.ts). Ist ein Modul hier nicht eingetragen
-//  oder steht null, zeigt die App für dieses Modul keinen
-//  Countdown an ("offen").
+//  WICHTIG: Schlüssel ist die Modul-ID (Feld "id" in der Modul-
+//  Datei), NICHT der Anzeigename. Beispiel: pkb002 hat die ID
+//  "globalisierung". Für ein neues Modul einfach eine Zeile
+//  ergänzen. Fehlt ein Modul hier oder steht null, zeigt die
+//  App keinen Countdown ("offen").
 // ============================================================
 export const examDates: Record<string, string | null> = {
   mab002: '2026-09-07',
-  pkb002: '2026-07-21',
+  globalisierung: '2026-07-21', // Anzeigename: pkb002
 };

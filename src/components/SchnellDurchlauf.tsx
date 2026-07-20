@@ -1,15 +1,20 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { Flashcard } from '../types';
+import { noteFor } from '../lib/grading';
+import { gradeAnswer } from '../lib/api';
 
 // ============================================================
 // Schnelldurchlauf – dieselben Fragen wie die Karteikarten,
-// aber statt der ausformulierten Musterlösung nur die wichtigen
-// Schlüsselwörter. Für schnelle Wiederholungen ohne Tippen:
-// Frage lesen, im Kopf beantworten, antippen zum Aufdecken.
+// aber bewertet wird gegen die STICHWÖRTER (nicht die lange
+// Musterlösung). Man tippt eine kurze Antwort, die KI prüft,
+// wie viele der Kernpunkte getroffen sind, und gibt Prozent +
+// Note + kurzes Feedback. Danach werden die Stichwörter zum
+// Selbstvergleich eingeblendet.
 //
-// Die Schlüsselwörter kommen aus dem optionalen Feld `keywords`
-// je Karte (nur dort, wo hinterlegt). types.ts bleibt unberührt –
-// wir erweitern den Typ nur lokal.
+// Die Stichwörter kommen aus dem optionalen Feld `keywords`
+// je Karte. types.ts bleibt unberührt (Typ nur lokal erweitert).
+// Der Fortschritt der Karteikarten wird hier NICHT verändert –
+// das ist ein reines Übungswerkzeug.
 // ============================================================
 
 type KwCard = Flashcard & { keywords?: string[] };
@@ -49,12 +54,24 @@ export function SchnellDurchlauf({ cards, sessions }: Props) {
 
   const [seq, setSeq] = useState<KwCard[]>([]);
   const [pos, setPos] = useState(0);
+  const [answer, setAnswer] = useState('');
+  const [grading, setGrading] = useState(false);
+  const [pct, setPct] = useState<number | null>(null);
+  const [feedback, setFeedback] = useState<string>('');
   const [revealed, setRevealed] = useState(false);
+
+  function resetCard() {
+    setAnswer('');
+    setGrading(false);
+    setPct(null);
+    setFeedback('');
+    setRevealed(false);
+  }
 
   useEffect(() => {
     setSeq(shuffle(pool));
     setPos(0);
-    setRevealed(false);
+    resetCard();
   }, [pool]);
 
   if (withKw.length === 0) {
@@ -69,18 +86,35 @@ export function SchnellDurchlauf({ cards, sessions }: Props) {
   const card = !done ? seq[pos] : null;
 
   const next = () => {
-    setRevealed(false);
+    resetCard();
     setPos((p) => p + 1);
   };
   const prev = () => {
-    setRevealed(false);
+    resetCard();
     setPos((p) => Math.max(0, p - 1));
   };
   const restart = () => {
     setSeq(shuffle(pool));
     setPos(0);
-    setRevealed(false);
+    resetCard();
   };
+
+  async function bewerten() {
+    if (!card) return;
+    setGrading(true);
+    // Maßstab für die KI sind die Stichwörter, nicht die lange Musterlösung.
+    const massstab = 'Erwartete Kernpunkte: ' + (card.keywords ?? []).join('; ');
+    try {
+      const r = await gradeAnswer(card.q, massstab, answer);
+      setPct(r.pct);
+      const fb = (r as any).feedback as string | undefined;
+      if (fb) setFeedback(fb);
+    } catch {
+      setFeedback('Bewertung gerade nicht möglich – Stichwörter siehe unten.');
+    }
+    setGrading(false);
+    setRevealed(true);
+  }
 
   return (
     <div>
@@ -120,46 +154,80 @@ export function SchnellDurchlauf({ cards, sessions }: Props) {
             Karte {pos + 1} von {seq.length}
           </p>
 
-          <div
-            className="card"
-            onClick={() => !revealed && setRevealed(true)}
-            style={{ cursor: revealed ? 'default' : 'pointer' }}
-          >
+          <div className="card">
             <div className="card-meta">
               <span className="tag">{card!.session}</span>
+              <span className="muted">Kurzantwort – Bewertung nach Stichwörtern</span>
             </div>
             <p className="card-q">{card!.q}</p>
 
+            <textarea
+              rows={4}
+              disabled={revealed || grading}
+              value={answer}
+              onChange={(e) => setAnswer(e.target.value)}
+              placeholder="Kurz die wichtigsten Punkte notieren …"
+            />
+
             {!revealed ? (
-              <p className="muted" style={{ marginTop: 8 }}>
-                Erst selbst beantworten – dann tippen, um die Schlüsselwörter
-                aufzudecken.
-              </p>
-            ) : (
-              <div
-                style={{
-                  display: 'flex',
-                  flexWrap: 'wrap',
-                  gap: 8,
-                  marginTop: 10,
-                }}
-              >
-                {card!.keywords!.map((k, i) => (
-                  <span
-                    key={i}
-                    style={{
-                      background: 'rgba(120,150,120,0.16)',
-                      border: '1px solid rgba(0,0,0,0.06)',
-                      borderRadius: 8,
-                      padding: '4px 10px',
-                      fontSize: '0.95em',
-                      lineHeight: 1.4,
-                    }}
-                  >
-                    {k}
-                  </span>
-                ))}
+              <div className="options" style={{ display: 'flex', gap: 10, marginTop: 6 }}>
+                <button
+                  className="btn primary"
+                  disabled={grading}
+                  onClick={bewerten}
+                >
+                  {grading ? 'Wird bewertet …' : 'Abgeben & bewerten'}
+                </button>
+                <button
+                  className="btn"
+                  disabled={grading}
+                  onClick={() => setRevealed(true)}
+                >
+                  Nur Stichwörter zeigen
+                </button>
               </div>
+            ) : (
+              <>
+                {pct !== null && (
+                  <div className="card center" style={{ margin: '12px 0' }}>
+                    <h3 style={{ margin: 0 }}>
+                      {pct}% · Note {noteFor(pct)}
+                    </h3>
+                    {feedback && (
+                      <p className="muted" style={{ marginTop: 6 }}>
+                        {feedback}
+                      </p>
+                    )}
+                  </div>
+                )}
+                <p className="muted" style={{ marginTop: 4 }}>
+                  Erwartete Stichwörter:
+                </p>
+                <div
+                  style={{
+                    display: 'flex',
+                    flexWrap: 'wrap',
+                    gap: 8,
+                    marginTop: 6,
+                  }}
+                >
+                  {card!.keywords!.map((k, i) => (
+                    <span
+                      key={i}
+                      style={{
+                        background: 'rgba(120,150,120,0.16)',
+                        border: '1px solid rgba(0,0,0,0.06)',
+                        borderRadius: 8,
+                        padding: '4px 10px',
+                        fontSize: '0.95em',
+                        lineHeight: 1.4,
+                      }}
+                    >
+                      {k}
+                    </span>
+                  ))}
+                </div>
+              </>
             )}
           </div>
 
@@ -167,11 +235,6 @@ export function SchnellDurchlauf({ cards, sessions }: Props) {
             <button className="btn" disabled={pos === 0} onClick={prev}>
               Zurück
             </button>
-            {!revealed && (
-              <button className="btn" onClick={() => setRevealed(true)}>
-                Aufdecken
-              </button>
-            )}
             <button className="btn primary" onClick={next}>
               {pos + 1 >= seq.length ? 'Fertig' : 'Weiter'}
             </button>

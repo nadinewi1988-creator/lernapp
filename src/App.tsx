@@ -8,6 +8,7 @@ import { CardSelector } from './components/CardSelector';
 import { Quiz } from './components/Quiz';
 import { Exam } from './components/Exam';
 import { SchnellDurchlauf } from './components/SchnellDurchlauf';
+import { ExamCountdown } from './components/ExamCountdown';
 import {
   loadLocal,
   saveLocal,
@@ -179,6 +180,8 @@ export default function App() {
           </label>
         )}
       </div>
+
+      <ExamCountdown moduleId={module.id} />
 
       <ModuleOverview module={module} refreshKey={progress} />
 

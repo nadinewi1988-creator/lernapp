@@ -1,38 +1,49 @@
 import { supabase, syncEnabled } from '../supabase';
 
 // ============================================================
-//  Abfrage-Verlauf: die letzten 10 bewerteten Antworten je
-//  Modul + Bereich + Modus ('karten' oder 'schnell').
-//  Lokal (localStorage) + geräteübergreifend (Supabase).
+//  Abfrage-Verlauf PRO KARTE, je Modul + Bereich + Modus
+//  ('karten' oder 'schnell'). Lokal (localStorage) +
+//  geräteübergreifend (Supabase, eine Zeile pro Bucket mit
+//  einem JSON-Array in "entries").
 //
-//  Gespeichert wird pro Bucket EINE Zeile mit einem kleinen
-//  JSON-Array der letzten 10 Einträge (Frage-Kurzform, Prozent,
-//  Zeitpunkt). Gemergt wird die Vereinigung nach id, dann auf
-//  die 10 neuesten begrenzt – so geht zwischen Geräten nichts
-//  verloren und die Liste bleibt schlank.
+//  Jeder Eintrag trägt die Karten-ID (cardId). Angezeigt wird
+//  unter der jeweiligen Karte nur deren eigener Verlauf. Pro
+//  Karte werden die letzten 10 Versuche behalten; gemergt wird
+//  die Vereinigung nach id, damit zwischen Geräten nichts
+//  verloren geht.
 // ============================================================
 
 export interface Attempt {
   id: string;
-  q: string; // Kurzform der Frage
+  cardId: string; // zu welcher Karte der Versuch gehört
+  q: string; // Kurzform der Frage (nur informativ)
   pct: number; // 0–100
   takenAt: string; // ISO-Zeitstempel
 }
 
 export type AttemptMode = 'karten' | 'schnell';
 
-const MAX = 10;
+const MAX_PER_CARD = 10;
 const LS_PREFIX = 'lernapp:attempts:';
 
 function lsKey(moduleId: string, trackId: string, mode: AttemptMode) {
   return `${LS_PREFIX}${moduleId}:${trackId}:${mode}`;
 }
 
-/** Neueste zuerst, auf die letzten 10 begrenzt. */
+/** Neueste zuerst, je Karte auf die letzten 10 begrenzt. */
 function trim(list: Attempt[]): Attempt[] {
-  return [...list]
-    .sort((a, b) => b.takenAt.localeCompare(a.takenAt))
-    .slice(0, MAX);
+  const sorted = [...list].sort((a, b) => b.takenAt.localeCompare(a.takenAt));
+  const counts = new Map<string, number>();
+  const out: Attempt[] = [];
+  for (const a of sorted) {
+    const cid = a.cardId ?? '';
+    const n = counts.get(cid) ?? 0;
+    if (n < MAX_PER_CARD) {
+      out.push(a);
+      counts.set(cid, n + 1);
+    }
+  }
+  return out;
 }
 
 export function mergeAttempts(a: Attempt[], b: Attempt[]): Attempt[] {
@@ -40,6 +51,18 @@ export function mergeAttempts(a: Attempt[], b: Attempt[]): Attempt[] {
   for (const x of a) byId.set(x.id, x);
   for (const x of b) if (!byId.has(x.id)) byId.set(x.id, x);
   return trim([...byId.values()]);
+}
+
+/** Nur die Versuche einer bestimmten Karte (neueste zuerst). */
+export function attemptsForCard(
+  list: Attempt[],
+  cardId: string,
+  max = MAX_PER_CARD
+): Attempt[] {
+  return list
+    .filter((a) => a.cardId === cardId)
+    .sort((a, b) => b.takenAt.localeCompare(a.takenAt))
+    .slice(0, max);
 }
 
 export function newAttemptId(): string {
@@ -52,10 +75,20 @@ export function newAttemptId(): string {
   return `${Date.now()}-${Math.random().toString(36).slice(2)}`;
 }
 
-/** Frage auf eine kurze, einzeilige Form kürzen. */
 export function shortenQ(q: string, max = 70): string {
   const s = q.replace(/\s+/g, ' ').trim();
   return s.length > max ? s.slice(0, max - 1) + '…' : s;
+}
+
+/** Zeitpunkt kurz und lesbar (z. B. 20.07., 08:25). */
+export function formatWhen(iso: string): string {
+  const d = new Date(iso);
+  return d.toLocaleString('de-DE', {
+    day: '2-digit',
+    month: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+  });
 }
 
 export function loadAttemptsLocal(

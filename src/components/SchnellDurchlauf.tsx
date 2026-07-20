@@ -6,6 +6,8 @@ import {
   type Attempt,
   newAttemptId,
   shortenQ,
+  formatWhen,
+  attemptsForCard,
   loadAttemptsLocal,
   saveAttemptsLocal,
   mergeAttempts,
@@ -14,13 +16,11 @@ import {
 } from '../lib/attempts';
 
 // ============================================================
-// Schnelldurchlauf – dieselben Fragen wie die Karteikarten,
-// aber bewertet wird gegen die STICHWÖRTER (nicht die lange
-// Musterlösung). Kurzantwort tippen -> KI bewertet -> Prozent +
-// Note + Feedback, danach Stichwörter zum Selbstvergleich.
-// Zusätzlich ein aufklappbarer Verlauf der letzten 10 Abfragen
-// (geräteübergreifend, eigener Verlauf getrennt von den
-// Karteikarten). Karteikarten-Fortschritt wird NICHT verändert.
+// Schnelldurchlauf – Fragen wie die Karteikarten, aber bewertet
+// wird gegen die STICHWÖRTER. Kurzantwort tippen -> KI bewertet.
+// Unter jeder Karte der Verlauf der letzten Versuche DIESER Karte
+// (eigener Verlauf, getrennt von den Karteikarten und den anderen
+// Karten). Karteikarten-Fortschritt wird NICHT verändert.
 // ============================================================
 
 type KwCard = Flashcard & { keywords?: string[] };
@@ -90,7 +90,6 @@ export function SchnellDurchlauf({
     resetCard();
   }, [pool]);
 
-  // Verlauf laden: lokal + Cloud mergen (eigener Modus 'schnell').
   useEffect(() => {
     const local = loadAttemptsLocal(moduleId, trackId, 'schnell');
     setHistory(local);
@@ -107,9 +106,10 @@ export function SchnellDurchlauf({
     };
   }, [moduleId, trackId, userId]);
 
-  function recordAttempt(q: string, p: number) {
+  function recordAttempt(cardId: string, q: string, p: number) {
     const entry: Attempt = {
       id: newAttemptId(),
+      cardId,
       q: shortenQ(q),
       pct: p,
       takenAt: new Date().toISOString(),
@@ -132,6 +132,7 @@ export function SchnellDurchlauf({
 
   const done = pos >= seq.length;
   const card = !done ? seq[pos] : null;
+  const cardHistory = card ? attemptsForCard(history, card.id) : [];
 
   const next = () => {
     resetCard();
@@ -155,7 +156,7 @@ export function SchnellDurchlauf({
       const r = await gradeAnswer(card.q, massstab, answer);
       setPct(r.pct);
       if (r.fb) setFeedback(r.fb);
-      recordAttempt(card.q, r.pct);
+      recordAttempt(card.id, card.q, r.pct);
     } catch {
       setFeedback('Bewertung gerade nicht möglich – Stichwörter siehe unten.');
     }
@@ -276,6 +277,30 @@ export function SchnellDurchlauf({
                 </div>
               </>
             )}
+
+            {cardHistory.length > 0 && (
+              <div style={{ marginTop: 14 }}>
+                <p className="muted" style={{ fontWeight: 600, marginBottom: 4 }}>
+                  Letzte Versuche dieser Karte
+                </p>
+                {cardHistory.map((h) => (
+                  <div
+                    key={h.id}
+                    style={{
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      gap: 12,
+                      padding: '4px 0',
+                    }}
+                  >
+                    <span className="muted">{formatWhen(h.takenAt)}</span>
+                    <span style={{ whiteSpace: 'nowrap' }}>
+                      {h.pct}% · Note {noteFor(h.pct)}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
 
           <div className="options" style={{ display: 'flex', gap: 10 }}>
@@ -287,44 +312,6 @@ export function SchnellDurchlauf({
             </button>
           </div>
         </>
-      )}
-
-      {history.length > 0 && (
-        <details className="card" style={{ marginTop: 12, textAlign: 'left' }}>
-          <summary style={{ cursor: 'pointer', fontWeight: 600 }}>
-            Letzte {history.length} Abfragen
-          </summary>
-          <div style={{ marginTop: 10 }}>
-            {history.map((h, i) => (
-              <div
-                key={h.id}
-                style={{
-                  display: 'flex',
-                  justifyContent: 'space-between',
-                  gap: 12,
-                  padding: '6px 0',
-                  borderTop: i === 0 ? 'none' : '1px solid rgba(0,0,0,0.08)',
-                }}
-              >
-                <span
-                  className="muted"
-                  style={{
-                    flex: 1,
-                    minWidth: 0,
-                    overflow: 'hidden',
-                    textOverflow: 'ellipsis',
-                    whiteSpace: 'nowrap',
-                  }}
-                >
-                  {h.q}
-                </span>
-                <span style={{ whiteSpace: 'nowrap' }}>
-                  {h.pct}% · Note {noteFor(h.pct)}
-                </span>
-              </div>
-            ))}
-          </div>
-        </details>
       )}
     </div>
   );

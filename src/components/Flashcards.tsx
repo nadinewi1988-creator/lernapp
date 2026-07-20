@@ -11,6 +11,8 @@ import {
   type Attempt,
   newAttemptId,
   shortenQ,
+  formatWhen,
+  attemptsForCard,
   loadAttemptsLocal,
   saveAttemptsLocal,
   mergeAttempts,
@@ -18,11 +20,10 @@ import {
   pushAttemptsCloud,
 } from '../lib/attempts';
 
-// Karteikarten-Reiter. Enthält die in der Projektanweisung
-// geforderten Funktionen: Musterantwort ein-/ausblenden, Tipp,
-// Freitext-Bewertung per API (Kreis + Prozent + Note), Hilfe-Button
-// bei < 60 %, Spracheingabe. Zusätzlich ein aufklappbarer Verlauf
-// der letzten 10 bewerteten Antworten (geräteübergreifend).
+// Karteikarten-Reiter mit Musterantwort, Tipp, Freitext-Bewertung
+// (Kreis + Prozent + Note), Hilfe-Button bei < 60 %, Spracheingabe.
+// Unter jeder Karte steht der Verlauf der letzten Versuche DIESER
+// Karte (geräteübergreifend, getrennt von den anderen Karten).
 
 interface Props {
   moduleId: string;
@@ -63,6 +64,7 @@ export function Flashcards({
   );
 
   const card = pool[idx];
+  const cardHistory = card ? attemptsForCard(history, card.id) : [];
 
   // Verlauf laden: lokal + Cloud mergen (pro Modul + Bereich).
   useEffect(() => {
@@ -81,9 +83,10 @@ export function Flashcards({
     };
   }, [moduleId, trackId, userId]);
 
-  function recordAttempt(q: string, pct: number) {
+  function recordAttempt(cardId: string, q: string, pct: number) {
     const entry: Attempt = {
       id: newAttemptId(),
+      cardId,
       q: shortenQ(q),
       pct,
       takenAt: new Date().toISOString(),
@@ -118,7 +121,7 @@ export function Flashcards({
       const r = await gradeAnswer(card.q, card.a, userText);
       setResult(r);
       onProgress(recordResult(progress, card.id, r.pct));
-      recordAttempt(card.q, r.pct);
+      recordAttempt(card.id, card.q, r.pct);
     } finally {
       setBusy(false);
     }
@@ -225,6 +228,30 @@ export function Flashcards({
 
           {help && <div className="help-box">{help}</div>}
 
+          {cardHistory.length > 0 && (
+            <div style={{ marginTop: 14 }}>
+              <p className="muted" style={{ fontWeight: 600, marginBottom: 4 }}>
+                Letzte Versuche dieser Karte
+              </p>
+              {cardHistory.map((h) => (
+                <div
+                  key={h.id}
+                  style={{
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    gap: 12,
+                    padding: '4px 0',
+                  }}
+                >
+                  <span className="muted">{formatWhen(h.takenAt)}</span>
+                  <span style={{ whiteSpace: 'nowrap' }}>
+                    {h.pct}% · Note {noteFor(h.pct)}
+                  </span>
+                </div>
+              ))}
+            </div>
+          )}
+
           <div className="nav">
             <button className="btn ghost" onClick={() => go(-1)}>
               ← Zurück
@@ -234,44 +261,6 @@ export function Flashcards({
             </button>
           </div>
         </div>
-      )}
-
-      {history.length > 0 && (
-        <details className="card" style={{ marginTop: 12, textAlign: 'left' }}>
-          <summary style={{ cursor: 'pointer', fontWeight: 600 }}>
-            Letzte {history.length} Abfragen
-          </summary>
-          <div style={{ marginTop: 10 }}>
-            {history.map((h, i) => (
-              <div
-                key={h.id}
-                style={{
-                  display: 'flex',
-                  justifyContent: 'space-between',
-                  gap: 12,
-                  padding: '6px 0',
-                  borderTop: i === 0 ? 'none' : '1px solid rgba(0,0,0,0.08)',
-                }}
-              >
-                <span
-                  className="muted"
-                  style={{
-                    flex: 1,
-                    minWidth: 0,
-                    overflow: 'hidden',
-                    textOverflow: 'ellipsis',
-                    whiteSpace: 'nowrap',
-                  }}
-                >
-                  {h.q}
-                </span>
-                <span style={{ whiteSpace: 'nowrap' }}>
-                  {h.pct}% · Note {noteFor(h.pct)}
-                </span>
-              </div>
-            ))}
-          </div>
-        </details>
       )}
     </div>
   );

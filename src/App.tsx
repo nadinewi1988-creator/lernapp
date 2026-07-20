@@ -7,6 +7,7 @@ import { ModuleOverview } from './components/ModuleOverview';
 import { CardSelector } from './components/CardSelector';
 import { Quiz } from './components/Quiz';
 import { Exam } from './components/Exam';
+import { SchnellDurchlauf } from './components/SchnellDurchlauf';
 import {
   loadLocal,
   saveLocal,
@@ -19,15 +20,12 @@ import {
   setHiddenCloud,
 } from './lib/progress';
 
-type Tab = 'karten' | 'quiz' | 'probe';
+type Tab = 'karten' | 'quiz' | 'probe' | 'schnell';
 
 export default function App() {
   const data: AppData = appData;
   const user = useUser();
 
-  // Auswahl: Semester -> Modul -> Track
-  // Starte mit dem ersten Semester, das tatsächlich Module enthält
-  // (leere Semester wie noch nicht belegte werden übersprungen).
   const firstFilled =
     data.semesters.find((s) => s.modules.length > 0) ?? data.semesters[0];
   const [semId, setSemId] = useState(firstFilled?.id ?? '');
@@ -46,7 +44,6 @@ export default function App() {
   const [progress, setProgress] = useState<ProgressMap>({});
   const [hidden, setHidden] = useState<Set<string>>(new Set());
 
-  // Beim Wechsel von Modul/Track: lokalen Stand laden, dann Cloud mergen.
   useEffect(() => {
     if (!module || !track) return;
     const local = loadLocal(module.id, track.id);
@@ -63,7 +60,6 @@ export default function App() {
     });
     void pullHiddenCloud(module.id, track.id).then((cloudHidden) => {
       if (cancelled) return;
-      // Vereinigung: was auf irgendeinem Gerät ausgeblendet ist, bleibt es.
       const union = new Set([...localHidden, ...cloudHidden]);
       setHidden(union);
       saveHiddenLocal(module.id, track.id, union);
@@ -115,6 +111,13 @@ export default function App() {
     return <div className="wrap">Keine Daten vorhanden.</div>;
   }
 
+  // Schnelldurchlauf-Reiter nur anbieten, wenn dieser Bereich
+  // überhaupt Schlüsselwörter hinterlegt hat (z. B. pkb002).
+  const hasKeywords = track.flashcards.some(
+    (c: any) => Array.isArray(c.keywords) && c.keywords.length > 0
+  );
+  const activeTab: Tab = tab === 'schnell' && !hasKeywords ? 'karten' : tab;
+
   return (
     <div className="wrap">
       <header className="top">
@@ -122,7 +125,6 @@ export default function App() {
         <AuthBar user={user} />
       </header>
 
-      {/* Auswahl: Semester -> Modul -> Track */}
       <div className="pickers">
         <label>
           Semester
@@ -182,26 +184,34 @@ export default function App() {
 
       <nav className="tabs">
         <button
-          className={tab === 'karten' ? 'active' : ''}
+          className={activeTab === 'karten' ? 'active' : ''}
           onClick={() => setTab('karten')}
         >
           Karteikarten
         </button>
         <button
-          className={tab === 'quiz' ? 'active' : ''}
+          className={activeTab === 'quiz' ? 'active' : ''}
           onClick={() => setTab('quiz')}
         >
           Quiz
         </button>
         <button
-          className={tab === 'probe' ? 'active' : ''}
+          className={activeTab === 'probe' ? 'active' : ''}
           onClick={() => setTab('probe')}
         >
           Probeprüfung
         </button>
+        {hasKeywords && (
+          <button
+            className={activeTab === 'schnell' ? 'active' : ''}
+            onClick={() => setTab('schnell')}
+          >
+            Schnelldurchlauf
+          </button>
+        )}
       </nav>
 
-      {tab === 'karten' && (
+      {activeTab === 'karten' && (
         <Flashcards
           moduleId={module.id}
           trackId={track.id}
@@ -220,18 +230,19 @@ export default function App() {
           }
         />
       )}
-      {tab === 'quiz' && (
+      {activeTab === 'quiz' && (
         <Quiz
           questions={track.quiz.filter((q) => !hidden.has(q.id))}
           sessions={track.sessions}
         />
       )}
-      {tab === 'probe' && (
-        <Exam
-          moduleId={module.id}
-          track={track}
-          hidden={hidden}
-          userId={user?.id}
+      {activeTab === 'probe' && (
+        <Exam moduleId={module.id} track={track} hidden={hidden} userId={user?.id} />
+      )}
+      {activeTab === 'schnell' && (
+        <SchnellDurchlauf
+          cards={track.flashcards.filter((c) => !hidden.has(c.id))}
+          sessions={track.sessions}
         />
       )}
     </div>

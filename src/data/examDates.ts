@@ -1,5 +1,5 @@
 // ============================================================
-// Prüfungstermine je Modul – Grundlage für den Countdown
+// Prüfungstermine je Modul — Grundlage für den Countdown
 // über den Reitern ("Noch X Tage bis zur Prüfung").
 //
 // WICHTIG: Schlüssel ist die Modul-ID (Feld "id" der Modul-JSON),
@@ -11,6 +11,6 @@
 
 export const examDates: Record<string, string | null> = {
   mab002: '2026-09-07',
-  globalisierung: '2026-07-21',
+  globalisierung: '2026-09-28',
   mab003: '2026-07-31', // Erstversuch; nach dem 31.07. ggf. auf '2026-09-25' (Zweitversuch) ändern
 };

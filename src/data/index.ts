@@ -1,6 +1,7 @@
 import type { AppData } from '../types';
 import globalisierung from './globalisierung.json';
 import mab003 from './mab003.json';
+import ewb002 from './ewb002.json';
 
 // ============================================================
 // Daten-Index: hier werden Modul-JSONs zu Semestern gebündelt.
@@ -27,7 +28,13 @@ export const appData: AppData = {
         mab003 as unknown as Mod,
       ],
     },
-    { id: 'sem3', label: '3. Semester', modules: [] },
+    {
+      id: 'sem3',
+      label: '3. Semester',
+      modules: [
+        ewb002 as unknown as Mod,
+      ],
+    },
     { id: 'sem4', label: '4. Semester', modules: [] },
     { id: 'sem5', label: '5. Semester', modules: [] },
     { id: 'sem6', label: '6. Semester', modules: [] },

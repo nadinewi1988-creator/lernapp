@@ -1226,6 +1226,39 @@
           "id": "datenerhebung_ee5664734a"
         },
         {
+          "session": "Datenerhebung",
+          "q": "Bandura untersuchte in den 1960er Jahren, ob Lernprozesse zu sozialem Verhalten stattfinden können, ohne dass die lernende Person das Verhalten selbst ausführt und ohne dass sie selbst Konsequenzen trägt. Kindern zwischen dreieinhalb und sechs Jahren wurden Szenen über einen Fernseher gezeigt: Ein erwachsener Mann zeigte aggressive Verhaltensweisen gegenüber einer erwachsenengroßen Puppe, ein zweiter Schauspieler fungierte als „Verstärkungsagent“ und belohnte bzw. bestrafte dieses Verhalten. Drei Gruppen wurden gebildet: Gruppe 1 sah, dass das aggressive Modell bestraft wurde, Gruppe 2 sah, dass es belohnt wurde, Gruppe 3 sah denselben Film ohne den Teil mit den Verhaltenskonsequenzen. Jedes Kind verbrachte anschließend zehn Minuten in einem Testraum; sein Verhalten wurde alle fünf Sekunden nach vorher festgelegten Kategorien der Nachahmungsreaktionen von Beurteilern festgehalten, die die Sitzung durch einen Spionspiegel aus einem angrenzenden Raum verfolgten. Ergänzen Sie den Lückentext: Bei dem beschriebenen Design handelt es sich um ein ___. Die Daten zum Verhalten der Kinder im Testraum wurden mittels einer ___, einer ___ und einer ___ Beobachtung erhoben. Die Daten wurden als ___ erhoben.",
+          "a": "Bei dem Design handelt es sich um ein Experiment: Es gibt eine gezielt variierte unabhängige Variable (die Konsequenz für das Modell: Bestrafung, Belohnung, keine Konsequenz), eine randomisierte Aufteilung auf drei Gruppen und eine unter kontrollierten Bedingungen erfasste abhängige Variable (die Nachahmungsreaktionen). Die Beobachtung im Testraum ist erstens nicht-teilnehmend: Die Beurteiler greifen nicht in die Situation ein, sondern verfolgen sie von außen, ohne Teil des Geschehens zu sein. Sie ist zweitens verdeckt: Die Kinder sehen die Beobachtenden nicht, weil diese hinter einem Spionspiegel in einem angrenzenden Raum sitzen; die Kinder wissen also nicht, dass und wann sie beobachtet werden. Genau das macht die Beobachtung non-reaktiv, das heißt, das Verhalten wird durch die Beobachtungssituation kaum verzerrt (kein Hawthorne-Effekt, keine soziale Erwünschtheit). Sie ist drittens standardisiert: Es existiert ein vorab festgelegtes Kategoriensystem der Nachahmungsreaktionen, nach dem alle Beurteiler in gleicher Weise kodieren. Das erhöht Objektivität und Reliabilität und macht die Daten zwischen Kindern und Gruppen vergleichbar. Die Datenerhebung erfolgt schließlich als time-sample (Zeit-Stichprobe): Nicht jedes einzelne Ereignis wird protokolliert, sondern in einem festen Takt – hier alle fünf Sekunden – wird registriert, welches Verhalten gerade auftritt. Das eignet sich, weil das interessierende Verhalten häufig und kontinuierlich auftreten kann und so über die zehn Minuten hinweg systematisch und quantifizierbar erfasst wird.",
+          "hint": "Achten Sie auf drei Details: Wer sitzt wo (Spionspiegel), gibt es ein vorab festgelegtes Kategoriensystem, und in welchem Takt wird protokolliert?",
+          "keywords": [
+            "Experiment",
+            "nicht-teilnehmend",
+            "verdeckt",
+            "standardisiert",
+            "time-sample",
+            "Kategoriensystem",
+            "non-reaktiv"
+          ],
+          "herkunft": "direkt",
+          "id": "datenerhebung_2bafee4d10"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Im Verlauf einer Beobachtung kann der sogenannte Hawthorne-Effekt auftreten. Vervollständigen Sie den Text so, dass dieser Beobachtungsfehler korrekt erklärt wird: „Mit dem Hawthorne-Effekt wird das Phänomen beschrieben, dass die interessierenden Zielkonstrukte durch die erhobenen Messwerte nicht ___ abgebildet werden, da die ___ ändern, weil sie untersucht werden (unabhängig davon, ob das Treatment wirkt). Um einen solchen verzerrenden Effekt erkennen zu können, wird im Idealfall ein ___ Design gewählt.“",
+          "a": "Die Lücken lauten: (1) valide, (2) Untersuchungspersonen ihr Verhalten, (3) experimentelles. Der Hawthorne-Effekt bezeichnet also, dass die interessierenden Zielkonstrukte durch die erhobenen Messwerte nicht valide abgebildet werden, weil die Untersuchungspersonen ihr Verhalten allein deshalb ändern, weil sie sich beobachtet bzw. untersucht wissen – unabhängig davon, ob die eigentliche Maßnahme (das Treatment) überhaupt wirkt. Betroffen ist damit die Validität, nicht die Reliabilität: Die Messung kann durchaus präzise und wiederholbar sein, sie misst aber nicht mehr das gewünschte Konstrukt, sondern eine Reaktion auf die Untersuchungssituation. Man spricht deshalb von einem reaktiven Messverfahren. Der Name geht auf Untersuchungen in den Hawthorne-Werken zurück, in denen sich die Arbeitsleistung unabhängig von der konkret veränderten Arbeitsbedingung verbesserte, weil die Aufmerksamkeit der Forschenden selbst als Einflussgröße wirkte. Um einen solchen verzerrenden Effekt überhaupt erkennen zu können, wird im Idealfall ein experimentelles Design gewählt: Nur wenn es eine Kontrollgruppe gibt, die ebenfalls beobachtet wird, aber kein Treatment erhält, lässt sich der Effekt der Untersuchungssituation vom Effekt der Maßnahme trennen. Weitere Gegenmaßnahmen sind verdeckte oder non-reaktive Erhebungsverfahren sowie längere Erhebungszeiträume, in denen sich die Untersuchungspersonen an die Beobachtung gewöhnen (Habituation).",
+          "hint": "Überlegen Sie, welches Gütekriterium leidet, wenn Menschen sich anders verhalten, nur weil jemand zuschaut – und welches Design man braucht, um Treatment- und Beobachtungseffekt zu trennen.",
+          "keywords": [
+            "Hawthorne-Effekt",
+            "nicht valide",
+            "Verhaltensänderung",
+            "reaktives Verfahren",
+            "experimentelles Design",
+            "Kontrollgruppe"
+          ],
+          "herkunft": "direkt",
+          "id": "datenerhebung_d7c69fdaad"
+        },
+        {
           "session": "CIPO-Modell",
           "q": "Nennen Sie die vier Komponenten des CIPO-Modells und erläutern Sie, welche Funktion das Modell in der empirischen Bildungsforschung hat.",
           "a": "Das CIPO-Modell ist ein allgemeines Wirkmodell mit systemischer Betrachtungsweise; es dient als konzeptueller Rahmen, um Themen und Fragestellungen der empirischen Bildungsforschung zu ordnen und ein Untersuchungsdesign theoretisch zu begründen. Die vier Komponenten sind:\n• Context (C): die Rahmenbedingungen, etwa gesellschaftliche, rechtliche oder regionale Gegebenheiten, in die das Bildungsgeschehen eingebettet ist.\n• Input (I): die Ressourcen und Voraussetzungen, die in das System hineingegeben werden, z. B. Investitionen im Bildungssystem, Ausstattung, Qualifikation der Lehrkräfte, Vorwissen der Lernenden.\n• Process (P): alles, was zwischen Input und Output vermittelt, also die Prozesse des Lehrens und Lernens, z. B. Unterrichtsmethoden, Aufgabenstellung, Nutzung von Angeboten.\n• Output (O): die Wirkungen, insbesondere die Lernergebnisse von Schülerinnen und Schülern; längerfristige Wirkungen werden als Outcome bezeichnet.\nDie Funktion des Modells besteht darin, Wirkzusammenhänge sichtbar zu machen: Man kann für eine Fragestellung systematisch klären, was als Voraussetzung, was als vermittelnder Prozess, was als Ergebnis und was als Rahmenbedingung gilt. Zahlreiche pädagogische Modelle nutzen diese Struktur, etwa das Schuleffektivitätsmodell von Scheerens (2000), das Qualitätsmodell von Ditton (2000) und das Angebot-Nutzungs-Modell der Unterrichtsqualität von Helmke (2010). Ergänzend wird das Modell mit einer Mehrebenenbetrachtung des Bildungswesens verbunden.",
@@ -1381,6 +1414,23 @@
           ],
           "herkunft": "direkt",
           "id": "cipo_modell_4b70a093cb"
+        },
+        {
+          "session": "CIPO-Modell",
+          "q": "In Ihrer nächsten empirischen Untersuchung möchten Sie prüfen, ob sich die Leistung im Fach Sachkunde bei Schülerinnen und Schülern in der Grundschule verändert, wenn die Eltern über einen längeren Zeitraum im Home Office arbeiten. Ihren Überlegungen zum Untersuchungsdesign legen Sie ein CIPO-Modell zugrunde. Ordnen Sie zu: (1) die Leistung im Fach Sachkunde, (2) die Arbeit der Eltern im Home Office, (3) der regelmäßige schulische Besuch aller Grundschüler*innen im Heimat- und Naturkundemuseum, (4) das tägliche gemeinsame Lesen von spannenden Sachbüchern zu Hause. Benennen Sie zusätzlich, welche Variable die abhängige und welche die unabhängige ist.",
+          "a": "Das CIPO-Modell gliedert Bildungsprozesse in vier Komponenten: Context (Rahmenbedingungen), Input (Voraussetzungen und Ressourcen, die in das System hineingegeben werden), Process (das eigentliche Lehr-Lern-Geschehen) und Output (die Ergebnisse). Die offizielle Lösung lautet: (1) Die Leistung der Schülerinnen und Schüler im Fach Sachkunde ist die Output-Variable; sie ist zugleich die abhängige Variable dieses Untersuchungsdesigns, weil sie das zu erklärende Ergebnis darstellt. (2) Die Arbeit der Eltern im Home Office ist die Input-Variable und in diesem Beispiel die unabhängige Variable, also die vermutete Einflussgröße. (3) Der regelmäßige schulische Besuch im Heimat- und Naturkundemuseum ist eine Context-Variable, da er die äußeren Rahmenbedingungen des Lernens beschreibt. (4) Das tägliche gemeinsame Lesen von Sachbüchern zu Hause ist ein Beispiel für eine Process-Variable, weil es den laufenden Lern- und Interaktionsprozess selbst abbildet. Der Nutzen des Modells liegt darin, dass es dazu zwingt, Ergebnisse nicht isoliert zu betrachten: Ein Output lässt sich nur dann sinnvoll interpretieren, wenn Kontext, Eingangsvoraussetzungen und Prozessmerkmale mitgedacht und im Untersuchungsdesign berücksichtigt werden.",
+          "hint": "Frage dich bei jedem Element: Ist es Rahmenbedingung, Eingangsvoraussetzung, laufendes Geschehen oder Ergebnis?",
+          "keywords": [
+            "Context, Input, Process, Output",
+            "Leistung = Output",
+            "Home Office = Input",
+            "Museumsbesuch = Context",
+            "Vorlesen = Process",
+            "Output = abhängige Variable",
+            "Input = unabhängige Variable"
+          ],
+          "herkunft": "direkt",
+          "id": "cipo_modell_b39de566ed"
         },
         {
           "session": "Gütekriterien",
@@ -3202,6 +3252,118 @@
           "id": "untersuchungsplanung_a_9e3991b42d"
         },
         {
+          "session": "Untersuchungsplanung & Auswahlverfahren",
+          "q": "In einer Befragung zum Thema Schule richtet sich der Fokus auf die Sichtweisen von Jugendlichen aus den Oberstufen der Gymnasien in Berlin. Eine Vollerhebung wird nicht durchgeführt. An mehreren Tagen sollen vormittags, mittags und nachmittags mindestens 1000 Jugendliche an Haltestellen öffentlicher Verkehrsmittel mit standardisierten Fragebogen befragt werden; genutzt wird an jedem Gymnasium die nächstgelegene Haltestelle. Vor dem Interview wird geprüft, ob die Person die Oberstufe eines Gymnasiums besucht und noch nicht teilgenommen hat. Da alle Gymnasien abgedeckt werden, soll die Studie repräsentativ sein. Welcher Aussage stimmen Sie zu?",
+          "options": [
+            "Es wird Repräsentativität erreicht. Es werden nämlich viele Personen befragt. Zudem handelt es sich bei dem Auswahlverfahren um eine Zufallsauswahl.",
+            "Es wird Repräsentativität erreicht. Es werden nämlich viele Personen befragt. Zudem handelt es sich bei dem Auswahlverfahren um eine willkürliche Auswahl.",
+            "Die Repräsentativität bei diesem Vorhaben ist fraglich. Zwar werden viele Personen befragt, aber es haben nicht alle Personen der Grundgesamtheit dieselbe Chance in die Stichprobe zu gelangen. So handelt es sich hier nicht um eine Zufallsauswahl, sondern um eine willkürliche Auswahl.",
+            "Die Repräsentativität bei diesem Vorhaben ist fraglich. Zwar werden viele Personen befragt, aber es haben nicht alle Personen der Grundgesamtheit dieselbe Chance in die Stichprobe zu gelangen. Es sollten daher auch Jugendliche aus der Mittelstufe befragt werden."
+          ],
+          "correct": 2,
+          "expl": "Wer an einer Haltestelle angetroffen und angesprochen wird, hängt von Zufälligkeiten der Situation und von der Auswahl der Interviewenden ab – Jugendliche, die anders zur Schule kommen oder zu anderen Zeiten unterwegs sind, haben keine oder eine geringere Chance auf Auswahl. Damit ist die Auswahlwahrscheinlichkeit nicht für alle Personen der Grundgesamtheit gleich und bekannt: Es liegt eine willkürliche Auswahl vor, keine Zufallsauswahl, und eine große Fallzahl gleicht das nicht aus. Die letzte Option ist falsch, weil Mittelstufenschüler gar nicht zur definierten Grundgesamtheit gehören.",
+          "herkunft": "direkt",
+          "id": "untersuchungsplanung_a_6d795e5c81"
+        },
+        {
+          "session": "Untersuchungsplanung & Auswahlverfahren",
+          "q": "In einer Befragung zum Thema Studienzufriedenheit sollen an der Universität Vechta Personen befragt werden, die sich an dieser Universität im ersten Fachsemester eines Bachelorstudiums befinden. Ziel ist ein repräsentatives Ergebnis zur Zufriedenheit mit dem Studium in Bezug auf diese Personengruppe. Wie ist in diesem Beispiel die Grundgesamtheit zu definieren?",
+          "options": [
+            "Zur Grundgesamtheit gehören alle Personen, die sich im Bachelorstudium an der Universität Vechta befinden.",
+            "Zur Grundgesamtheit gehören alle Personen, die sich im ersten Fachsemester im Bachelorstudium an der Universität Vechta befinden.",
+            "Zur Grundgesamtheit gehören alle Personen, die sich im Bachelorstudium an einer Universität befinden.",
+            "Zur Grundgesamtheit gehören alle Personen, die sich im ersten Fachsemester im Bachelorstudium an einer Universität befinden."
+          ],
+          "correct": 1,
+          "expl": "Die Grundgesamtheit ist die Menge aller Personen, über die eine Aussage getroffen werden soll – hier exakt die Erstsemester im Bachelorstudium an der Universität Vechta. Die erste Option ist zu weit gefasst, weil sie alle Bachelorstudierenden dieser Universität einschließt und damit über die Zielgruppe hinausgeht; die beiden anderen Optionen weiten die Grundgesamtheit unzulässig auf alle Universitäten aus.",
+          "herkunft": "direkt",
+          "id": "untersuchungsplanung_a_add6034737"
+        },
+        {
+          "session": "Untersuchungsplanung & Auswahlverfahren",
+          "q": "Die Befragung zum Thema Studienzufriedenheit an der Universität Vechta wird durchgeführt: Alle Personen, die sich an dieser Universität im ersten Fachsemester eines Bachelorstudiums befinden, werden mit einem standardisierten Fragebogen online befragt. Von dieser Personengruppe nehmen alle Personen teil. Welche Aussage ist richtig?",
+          "options": [
+            "Bei diesem Beispiel handelt es sich um eine willkürliche Auswahl.",
+            "Bei diesem Beispiel handelt es sich um eine Zufallsauswahl.",
+            "Bei diesem Beispiel handelt es sich um eine Quotenauswahl.",
+            "Bei diesem Beispiel handelt es sich um eine Vollerhebung."
+          ],
+          "correct": 3,
+          "expl": "Es wird gar keine Stichprobe gezogen: Alle Elemente der Grundgesamtheit werden befragt und nehmen auch teil – das ist definitionsgemäß eine Vollerhebung. Eine Zufallsauswahl läge nur vor, wenn aus der Grundgesamtheit eine Teilmenge nach dem Zufallsprinzip gezogen würde; hier bleibt kein Element übrig, das nicht befragt wird.",
+          "herkunft": "direkt",
+          "id": "untersuchungsplanung_a_9786bf4abd"
+        },
+        {
+          "session": "Untersuchungsplanung & Auswahlverfahren",
+          "q": "An der Universität Vechta soll eine weitere Studie zum Thema Studienzufriedenheit durchgeführt werden. Diesmal zählen alle Personen, die an dieser Universität studieren, zur Grundgesamtheit. Die Daten sollen mit einem standardisierten Fragebogen persönlich erhoben werden, daher wird eine Stichprobe gezogen. Dafür wird eine Liste mit allen Personen der Grundgesamtheit erstellt. Die erste Position auf der Liste und somit die erste Person für die Studie wird mit einem Würfelwurf ausgewählt. Mit einem Abstand von je zehn Positionen werden die weiteren Personen ausgewählt. Um was für ein Auswahlverfahren handelt es sich hierbei?",
+          "options": [
+            "Vollerhebung",
+            "Zufallsauswahl",
+            "Willkürliche Auswahl",
+            "Bewusste Auswahl"
+          ],
+          "correct": 1,
+          "expl": "Die Auswahl beruht auf einer vollständigen Liste der Grundgesamtheit und einem Zufallsmechanismus (Würfelwurf für den Startpunkt), von dem aus systematisch jede zehnte Position gezogen wird – jede Person hat damit eine bekannte, gleiche Auswahlchance, es liegt also eine (systematische) Zufallsauswahl vor. Eine willkürliche Auswahl wäre es nur, wenn die Interviewenden nach Gutdünken auswählen würden; hier entscheidet der Zufall, nicht die befragende Person.",
+          "herkunft": "direkt",
+          "id": "untersuchungsplanung_a_95045c4363"
+        },
+        {
+          "session": "Untersuchungsplanung & Auswahlverfahren",
+          "q": "Welche Aussage zu Auswahlverfahren und Stichproben ist richtig?",
+          "options": [
+            "Unter einer Zufallsauswahl ist zu verstehen, dass jede Person der Grundgesamtheit dieselbe Chance hat in die Stichprobe zu gelangen.",
+            "Bei quantitativen Studien sind nur Vollerhebungen zulässig.",
+            "Um Repräsentativität zu erlangen, muss das Stichprobenverfahren dem Ideal der willkürlichen Auswahl entsprechen.",
+            "Die bewusste Auswahl ist sowohl in der quantitativen Forschung als auch in der qualitativen Forschung das einzige zulässige Verfahren zur Stichprobenziehung."
+          ],
+          "correct": 0,
+          "expl": "Die Zufallsauswahl ist genau dadurch definiert, dass jedes Element der Grundgesamtheit eine gleiche, von Null verschiedene Chance hat, in die Stichprobe zu gelangen – nur so lassen sich Ergebnisse auf die Grundgesamtheit verallgemeinern. Die dritte Option verwechselt die Begriffe: Ideal für Repräsentativität ist die Zufallsauswahl, während die willkürliche Auswahl gerade zu unkontrollierbaren Verzerrungen führt.",
+          "herkunft": "direkt",
+          "id": "untersuchungsplanung_a_a9ebae519b"
+        },
+        {
+          "session": "Untersuchungsplanung & Auswahlverfahren",
+          "q": "Was gehört nicht zu den Kriterien für die Feststellung von Kausalität nach John Stuart Mill?",
+          "options": [
+            "Die Ursache muss zeitlich vor der Wirkung stattfinden.",
+            "Die Ursache muss in einem Verhältnis zur Wirkung stehen.",
+            "Es darf keine plausible alternative Erklärung für die Wirkung existieren, als die Ursache.",
+            "Kausalität entsteht durch Objektivität und Reliabilität."
+          ],
+          "correct": 3,
+          "expl": "Mill nennt drei Bedingungen für einen Kausalschluss: zeitliche Vorgängigkeit der Ursache, ein Zusammenhang (Kovariation) zwischen Ursache und Wirkung sowie der Ausschluss plausibler Alternativerklärungen. Objektivität und Reliabilität sind dagegen Gütekriterien der Messung – sie sagen etwas über die Qualität der Datenerhebung aus, begründen aber für sich genommen keine Kausalität.",
+          "herkunft": "direkt",
+          "id": "untersuchungsplanung_a_fb3a0e1411"
+        },
+        {
+          "session": "Untersuchungsplanung & Auswahlverfahren",
+          "q": "Wundt nennt mehrere Merkmale, die eine Untersuchung als Experiment charakterisieren. Welche der folgenden Aussagen gehört nicht dazu?",
+          "options": [
+            "Ein Ereignis lässt sich absichtlich und planmäßig herbeiführen.",
+            "Sowohl die Ausgangsbedingungen als auch die Ergebnisse lassen sich wiederholt herstellen.",
+            "Die Einflussgrößen auf das Ergebnis lassen sich in verschiedenen Ausmaßen einsetzen.",
+            "Durch die Versuchsleitung können alle abhängigen Variablen manipuliert werden."
+          ],
+          "correct": 3,
+          "expl": "Nach Wundt zeichnet ein Experiment aus, dass das Ereignis planmäßig herbeigeführt, wiederholt hergestellt und die Einflussgrößen systematisch variiert werden können – das sind die ersten drei Aussagen. Manipuliert wird dabei aber immer die unabhängige Variable; die abhängige Variable ist das, was gemessen wird, und darf gerade nicht durch die Versuchsleitung verändert werden.",
+          "herkunft": "direkt",
+          "id": "untersuchungsplanung_a_c670ba0a9e"
+        },
+        {
+          "session": "Untersuchungsplanung & Auswahlverfahren",
+          "q": "Welche Aussage zum Quasi-Experiment bzw. zur korrelativen Forschung ist richtig?",
+          "options": [
+            "Bei einem Quasi-Experiment treten keine Störvariablen auf.",
+            "Bei einem Quasi-Experiment werden natürliche Gruppen ohne randomisierte Zuordnung von Versuchspersonen verglichen.",
+            "Bei der korrelativen Forschung können Kausalzusammenhänge zweifelsfrei hergestellt werden.",
+            "Bei der korrelativen Forschung wird nicht die unabhängige, sondern die abhängige Variable manipuliert."
+          ],
+          "correct": 1,
+          "expl": "Das Kennzeichen des Quasi-Experiments ist genau das Fehlen der Randomisierung: Man vergleicht bereits bestehende, natürliche Gruppen (z. B. Schulklassen, Geschlecht, Schulform). Gerade deshalb sind Störvariablen nicht ausgeschlossen, sondern besonders wahrscheinlich – die erste Option ist falsch. In der korrelativen Forschung wird zudem gar nichts manipuliert, sodass Kausalaussagen dort nicht zweifelsfrei möglich sind.",
+          "herkunft": "direkt",
+          "id": "untersuchungsplanung_a_0c12b84b63"
+        },
+        {
           "session": "Messtheorie & Skalenniveaus",
           "q": "Wie wird „Messen“ in den empirischen Gesellschaftswissenschaften definiert?",
           "options": [
@@ -3340,6 +3502,20 @@
           "expl": "Die offene Abfrage der Stundenzahl hat einen absoluten Nullpunkt und ist damit verhältnisskaliert; durch die Zusammenfassung in Kategorien geht Information verloren, sodass nur noch eine Rangordnung bleibt. Zusätzlich überschneiden sich die Kategorien an den Grenzen (1, 3 und 6 Stunden sind doppelt zugeordnet), sie sind also nicht disjunkt. Option C kehrt den Zusammenhang um: Kategorienbildung kann das Skalenniveau nur senken, nie erhöhen.",
           "herkunft": "direkt",
           "id": "messtheorie_skalennive_ae342f243e"
+        },
+        {
+          "session": "Messtheorie & Skalenniveaus",
+          "q": "Ab welchem Skalenniveau ist eine Rangordnung möglich?",
+          "options": [
+            "Intervallskala",
+            "Nominalskala",
+            "Ordinalskala",
+            "Ratioskala / Verhältnisskala"
+          ],
+          "correct": 2,
+          "expl": "Die Ordinalskala ist das niedrigste Niveau, auf dem sich Ausprägungen in eine sinnvolle Reihenfolge (größer/kleiner, mehr/weniger) bringen lassen; höhere Niveaus können das ebenfalls, sind aber nicht der frühestmögliche Punkt. Die Nominalskala erlaubt lediglich das Unterscheiden von Kategorien und damit noch keine Rangordnung.",
+          "herkunft": "direkt",
+          "id": "messtheorie_skalennive_b81eff4f3f"
         },
         {
           "session": "Datenerhebung",
@@ -3564,6 +3740,496 @@
           "expl": "Das Quasi-Experiment vergleicht bestehende, natürliche Gruppen – etwa nach Alter oder Geschlecht –, weil eine Manipulation nicht möglich oder ethisch nicht vertretbar ist; die randomisierte Zuordnung entfällt. Störvariablen treten dabei sehr wohl auf, sie lassen sich nur nicht durch Randomisierung neutralisieren. In der korrelativen Forschung wird gar nichts manipuliert; wegen Richtungs- und Drittvariablenproblem sind Kausalaussagen dort nicht möglich.",
           "herkunft": "direkt",
           "id": "datenerhebung_25919983a4"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Welche der folgenden Aussagen ist in Bezug auf die qualitative Forschung richtig?",
+          "options": [
+            "Qualitative Studien sind grundsätzlich qualitativ besser als quantitative Studien, weil nur in dieser Forschungsrichtung auf das Kernkriterium der intersubjektiven Nachvollziehbarkeit geachtet wird.",
+            "Qualitative Studien sind grundsätzlich qualitativ besser als quantitative Studien, weil nur in dieser Forschungsrichtung die Gütekriterien Objektivität, Reliabilität und Validität beachtet werden.",
+            "Im Vergleich zur quantitativen Forschung ist die qualitative Forschung als geringer standardisiert zu charakterisieren.",
+            "Im Vergleich zur quantitativen Forschung ist die qualitative Forschung als höher standardisiert zu charakterisieren."
+          ],
+          "correct": 2,
+          "expl": "Qualitative Forschung arbeitet bewusst mit offenen, wenig vorstrukturierten Erhebungsformen (z. B. offene Leitfadeninterviews), damit die Befragten eigene Relevanzsetzungen einbringen können – sie ist damit geringer standardisiert als quantitative Forschung mit festen Antwortvorgaben. Die Aussage, qualitative Forschung sei höher standardisiert, kehrt genau dieses Merkmal um und ist deshalb falsch. Auch die beiden Wertungsaussagen sind falsch: Kein Paradigma ist per se 'besser', und Gütekriterien bzw. intersubjektive Nachvollziehbarkeit gelten in beiden Forschungsrichtungen.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_f427598060"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "In einer Befragung an einer Universität soll der Aufwand für die Prüfungen im ersten Semester erfasst werden. In einem Sommersemester werden alle Personen befragt, die sich im zweiten Semester befinden. Der Fragebogen enthält u. a. Frage 1: 'An wie vielen Prüfungen haben Sie im Wintersemester teilgenommen?' mit den Antwortvorgaben 'Ich habe an keiner Prüfung teilgenommen', '1-3', '4-6', 'mehr als 6'; und Frage 2: 'Wie viele Stunden haben Sie in der Vorlesungszeit durchschnittlich pro Woche zum Lernen für die Prüfungen verbracht? ______ Stunden'. Welcher der folgenden Aussagen stimmen Sie zu?",
+          "options": [
+            "Es handelt sich hierbei um ein Beispiel für Mixed Methods. So entspricht Frage 1 dem quantitativen Forschungsparadigma und Frage 2 ist typisch für das qualitative Forschungsparadigma.",
+            "Es handelt sich bei den zwei Fragen um typische Fragen einer quantitativen Forschung. So gibt es bei Frage 1 Antwortvorgaben und bei Frage 2 muss lediglich eine Stundenzahl eingetragen werden.",
+            "Es handelt sich um ein typisches Beispiel für eine qualitative Forschung. Zwar müssen die Antwortvorgaben bei Frage 1 noch gestrichen werden, aber Frage 2 erfüllt die Anforderungen des Grundprinzips Offenheit.",
+            "Es handelt sich hierbei um ein typisches Beispiel für nicht zulässige Fragen. Zwar darf aus forschungsethischer Sicht der Prüfungsaufwand ein Thema sein, aber mit der Frage nach der Lernzeit ist die Anonymität der Befragten keinesfalls gegeben."
+          ],
+          "correct": 1,
+          "expl": "Beide Fragen sind hoch standardisiert und liefern Zahlenwerte: Frage 1 gibt feste Kategorien vor, Frage 2 verlangt eine einzelne Stundenzahl – das ist typisch quantitativ. Die naheliegende Mixed-Methods-Antwort ist falsch, weil eine offene Zahleneingabe keine qualitative Frage ist: Offenheit im qualitativen Sinn meint einen offenen Äußerungsraum (Erzählaufforderung), nicht ein leeres Eingabefeld für einen Zahlenwert.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_e69b130acb"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "In einer Studie geht es um den Umgang von Lehrkräften mit Störungen im Unterricht. In fünf verschiedenen Schulklassen mit unterschiedlichen Lehrkräften wird je eine Unterrichtsstunde gefilmt. Die Aufnahmen werden im Anschluss durch Experten gesichtet, um Muster und Strategien im Umgang mit Störungen zu identifizieren. Um welchen Forschungsansatz handelt es sich?",
+          "options": [
+            "Es handelt sich um einen qualitativen Forschungsansatz.",
+            "Es handelt sich um einen quantitativen Forschungsansatz.",
+            "Es handelt sich um einen quantitativen Forschungsansatz, weil mit fünf Klassen eine Stichprobe gezogen und damit gezählt wird.",
+            "Es handelt sich um einen quantitativen Forschungsansatz, weil Videoaufnahmen grundsätzlich standardisierte Daten liefern."
+          ],
+          "correct": 0,
+          "expl": "Es wird ohne vorab festgelegtes Kategoriensystem beobachtet: Die Expertinnen und Experten sichten das Material offen, um Muster und Strategien überhaupt erst zu identifizieren – das ist eine unstandardisierte, entdeckende und damit qualitative Vorgehensweise. Quantitativ wäre die Studie erst, wenn vorab definierte Merkmale systematisch gezählt würden; die bloße Anzahl von fünf Klassen oder das Medium Video macht eine Erhebung noch nicht standardisiert.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_62db2218bd"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Es geht um die Frage, ob die Schülerbeteiligung sich verändert in Abhängigkeit von der verwendeten Lehrmethode. In einer Schulklasse werden zwei Unterrichtsstunden mit verschiedenen Lehrmethoden gefilmt. Die Videos werden im Anschluss mit Hilfe eines Beobachtungsbogens ausgewertet, der Merkmale enthält, wie z. B. die Anzahl von freiwilligen Wortbeiträgen der Schülerinnen und Schüler. Um welchen Forschungsansatz handelt es sich?",
+          "options": [
+            "Es handelt sich um einen qualitativen Forschungsansatz.",
+            "Es handelt sich um einen quantitativen Forschungsansatz.",
+            "Es handelt sich um einen qualitativen Forschungsansatz, weil Videoaufnahmen immer offenes Material darstellen.",
+            "Es handelt sich um einen qualitativen Forschungsansatz, weil nur eine einzige Schulklasse untersucht wird."
+          ],
+          "correct": 1,
+          "expl": "Die Auswertung erfolgt mit einem Beobachtungsbogen, dessen Merkmale vorab festgelegt sind und der zählbare Werte liefert (z. B. Anzahl freiwilliger Wortbeiträge). Diese hohe Standardisierung und die Prüfung eines vermuteten Zusammenhangs zwischen Lehrmethode und Beteiligung kennzeichnen ein quantitatives Vorgehen. Die naheliegende qualitative Antwort ist falsch: Nicht das Medium Video oder die kleine Fallzahl entscheidet über den Ansatz, sondern der Standardisierungsgrad der Erhebung und Auswertung.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_5e79aa3f04"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "In einem qualitativen Forschungsprojekt zum Thema Studienzufriedenheit zählt der Studienort zu den Themen. Für Interviews soll ein Leitfaden erstellt werden, der mit dieser Thematik beginnt. Eine Person aus dem Forschungsteam schlägt vor: 'Fragen mit Antwortvorgaben sind in den Interviews nicht vorgesehen. Mit der folgenden Formulierung soll schon am Anfang der Interviews dem Anspruch des Grundprinzips Offenheit genügt werden: Erzähl mir bitte etwas über die Stadt, in der Du studierst.' Welcher der folgenden Aussagen stimmen Sie zu?",
+          "options": [
+            "Diese Formulierung wird dem Grundprinzip Offenheit gerecht. Auf diese Weise können die Befragten dazu das sagen, was ihnen zu diesem Thema wichtig ist. Zudem können sie sich so ausdrücken, wie sie sich ausdrücken möchten.",
+            "Diese Formulierung wird dem Grundprinzip Offenheit nicht gerecht. Auf diese Weise können die Befragten dazu nämlich nicht das sagen, was ihnen zu diesem Thema wichtig ist. Zudem können sie sich nicht so ausdrücken, wie sie sich ausdrücken möchten.",
+            "Diese Formulierung wird dem Grundprinzip Offenheit gerecht. So gibt es keine Antwortvorgaben. Auf diese Weise wird eine höhere Objektivität als in standardisierten Fragebogen erreicht.",
+            "Diese Formulierung wird dem Grundprinzip Offenheit nicht gerecht. So fehlen Antwortvorgaben. Auf diese Weise wird es nicht erreicht, eine höhere Objektivität als in standardisierten Fragebogen zu erzielen."
+          ],
+          "correct": 0,
+          "expl": "Die Erzählaufforderung schafft einen offenen Äußerungsraum: Die Befragten bestimmen selbst, welche Aspekte sie ansprechen, und formulieren in eigenen Worten – genau das meint das Grundprinzip Offenheit. Die naheliegende Alternative, die ebenfalls 'Offenheit gerecht' sagt, begründet dies falsch mit höherer Objektivität; Objektivität ist ein Gütekriterium standardisierter Verfahren und gerade kein Argument für offene Interviewfragen.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_af428e5c2c"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Linda und Thomas führen ein qualitatives Forschungsprojekt in der Jugendforschung durch und wollen Jugendliche einer Musikschule qualitativ interviewen. Linda schlägt vor: 'Lass uns fragen: Wie oft übst Du pro Woche? Und dann erhalten sie Antwortvorgaben: ein bis zweimal, dreimal bis viermal oder mehr als viermal pro Woche.' Thomas sagt: 'Die Frage ist hervorragend für qualitative Interviews. Aber es darf keine Antwortvorgaben geben.' Welche Einschätzung ist richtig?",
+          "options": [
+            "Es ist richtig auf die Antwortvorgaben zu verzichten. Aber auch die Frage bietet sich nicht für qualitative Interviews an, weil das Prinzip Offenheit so nicht erfüllt wird.",
+            "Thomas hat nicht recht. Es sollen qualitativ Antworten erhoben werden und deshalb sind Antwortvorgaben Pflicht.",
+            "Der Vorschlag von Linda ist sehr gut. Mit der für eine qualitative Befragung als exzellent zu betrachtenden Frage und den Antwortvorgaben wird das Prinzip Offenheit erfüllt.",
+            "Es dürfen keine Antworten vorgegeben werden. Ohne die Antwortvorgaben sollte die Frage verwendet werden, weil grundsätzlich mit Offenheit lediglich gemeint ist keine Antworten vorzugeben."
+          ],
+          "correct": 0,
+          "expl": "Offenheit betrifft nicht nur die Antwortvorgaben, sondern auch den Zuschnitt der Frage selbst: 'Wie oft übst Du pro Woche?' zielt auf eine einzelne Häufigkeitsangabe und lässt keinen Erzählraum – auch ohne Vorgaben bleibt sie eine geschlossene Faktenfrage. Die letzte Option verkürzt Offenheit genau darauf, keine Antworten vorzugeben, und übersieht, dass die Frageformulierung selbst einen offenen Äußerungsraum eröffnen muss.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_e50edb38c4"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Linda und Thomas möchten in ihren qualitativen Interviews auch die Bedeutung von Musik im Leben der Jugendlichen thematisieren. Mit dieser Formulierung möchten sie etwas von den Heranwachsenden erfahren: 'Erzähl mir doch etwas über die Bedeutung von Musik in Deinem Leben.' Eignet sich diese Formulierung für die qualitativen Interviews?",
+          "options": [
+            "Ja, denn so wird ein offener Äußerungsraum geschaffen. Mit einer solchen Erzählaufforderung können die Jugendlichen das sagen, was ihnen dazu wichtig ist. Außerdem können sie sich so ausdrücken, wie sie möchten.",
+            "Ja, denn eine solche Formulierung entspricht den Gedanken des Grundprinzips Offenheit. Aber es müssen Antworten vorgegeben werden. Typischerweise gibt es in qualitativen Interviews Antwortvorgaben zu allen Fragen und auch Erzählaufforderungen.",
+            "Nein, denn es handelt sich um eine Erzählaufforderung. In wissenschaftlichen Interviews gilt es grundsätzlich nur Fragen zu verwenden.",
+            "Nein, denn in einem offenen Äußerungsraum gibt es keine qualitativen Antworten. Außerdem ist es für die quantitative Forschung typisch den Befragten keine Antworten vorzugeben."
+          ],
+          "correct": 0,
+          "expl": "Die Erzählaufforderung eröffnet einen offenen Äußerungsraum: Die Jugendlichen setzen selbst die Relevanzen und wählen ihre eigene Sprache – damit erfüllt sie das Grundprinzip Offenheit. Die zweite Option ist falsch, weil Antwortvorgaben gerade das Kennzeichen standardisierter, quantitativer Erhebungen sind und in qualitativen Interviews die Offenheit zerstören würden.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_a4988cdb37"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Bei den Beobachtungsformen kann zwischen Feld- und Laborbeobachtungen unterschieden werden. Hierbei wird die jeweilige Beobachtungssituation unterschieden. Welche dieser Aussagen ist korrekt?",
+          "options": [
+            "Bei der Feldbeobachtung findet die Beobachtung draußen in der Natur statt.",
+            "Bei der Feldbeobachtung wird eine künstliche Beobachtungssituation erzeugt.",
+            "Bei der Laborbeobachtung findet die Beobachtung in einer natürlichen (Alltags-)Situation statt.",
+            "Bei der Laborbeobachtung wird eine künstliche Beobachtungssituation erzeugt."
+          ],
+          "correct": 3,
+          "expl": "Das Unterscheidungsmerkmal ist die Künstlichkeit der Situation: Die Laborbeobachtung findet in einer eigens hergestellten, kontrollierten und damit künstlichen Situation statt, die Feldbeobachtung dagegen in der natürlichen Alltagsumgebung der Beobachteten. Die naheliegende Fehloption „draußen in der Natur“ verwechselt „Feld“ mit einem geografischen Ort; gemeint ist aber jedes natürliche Handlungsfeld, also auch ein Klassenzimmer oder ein Pausenhof. Der Preis der Laborsituation ist geringere externe Validität, ihr Gewinn ist die bessere Kontrolle von Störvariablen.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_aa9501d476"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Ordnen Sie zu: Welches Adjektiv beschreibt die indirekte Beobachtung zutreffend?",
+          "options": [
+            "Diese Beobachtungsart ist valide.",
+            "Diese Beobachtungsart ist non-reaktiv.",
+            "Diese Beobachtungsart ist reaktiv.",
+            "Diese Beobachtungsart ist sozial erwünscht."
+          ],
+          "correct": 1,
+          "expl": "Bei der indirekten Beobachtung werden nicht die Personen selbst beobachtet, sondern die Spuren und Produkte ihres Verhaltens (z. B. abgenutzte Wege, Hefteinträge, Nutzungsdaten). Weil die Beobachteten davon nichts merken, können sie ihr Verhalten nicht anpassen – die Erhebung ist also non-reaktiv. „Reaktiv“ wäre das Gegenteil und beschreibt Situationen, in denen das Wissen um die Beobachtung das Verhalten verändert; „valide“ ist kein Adjektiv für die Beobachtungsart, sondern ein Gütekriterium der Messung.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_d95037a757"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Ordnen Sie zu: Welches Adjektiv beschreibt die verdeckte Beobachtung zutreffend?",
+          "options": [
+            "Diese Beobachtungsart ist valide.",
+            "Diese Beobachtungsart ist sozial erwünscht.",
+            "Diese Beobachtungsart ist non-reaktiv.",
+            "Diese Beobachtungsart ist reaktiv."
+          ],
+          "correct": 2,
+          "expl": "Bei der verdeckten Beobachtung wissen die Beobachteten nicht, dass sie beobachtet werden (z. B. Beobachtung hinter einem Spionspiegel). Deshalb reagieren sie nicht auf die Beobachtungssituation, die Erhebung ist non-reaktiv und weniger anfällig für Hawthorne-Effekt und soziale Erwünschtheit. „Reaktiv“ trifft dagegen auf die offene Beobachtung zu, bei der die Beobachtung bekannt ist und das Verhalten beeinflusst.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_a34708dc9c"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Ordnen Sie zu: Welches Adjektiv beschreibt die offene Beobachtung zutreffend?",
+          "options": [
+            "Diese Beobachtungsart ist reaktiv.",
+            "Diese Beobachtungsart ist non-reaktiv.",
+            "Diese Beobachtungsart ist valide.",
+            "Diese Beobachtungsart ist sozial erwünscht."
+          ],
+          "correct": 0,
+          "expl": "Bei der offenen Beobachtung ist den Beobachteten bekannt, dass sie beobachtet werden. Dadurch kann sich ihr Verhalten allein aufgrund der Beobachtungssituation verändern – die Erhebung ist reaktiv. „Non-reaktiv“ wäre die naheliegende Verwechslung, gilt aber gerade für verdeckte und indirekte Beobachtungen; soziale Erwünschtheit ist eine mögliche Folge der Reaktivität, aber kein Merkmal der Beobachtungsart selbst.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_ee1df84407"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Beobachtungsfehler: Welche Beschreibung passt zur „Tendenz zur Mitte“?",
+          "options": [
+            "Die Gesamtbeurteilung des beobachteten Verhaltens wird von einer einzelnen Handlung oder einem Persönlichkeitsmerkmal der beobachteten Person dominiert.",
+            "Die Gesamtbeurteilung des beobachteten Verhaltens fällt meistens wenig extrem aus.",
+            "Die Gesamtbeurteilung des beobachteten Verhaltens bezieht sich hauptsächlich auf das Ende der Beobachtungssituation.",
+            "Die Gesamtbeurteilung des beobachteten Verhaltens erfolgt stets wohlwollend und fehlerhaftes Verhalten wird bewusst übersehen."
+          ],
+          "correct": 1,
+          "expl": "Die Tendenz zur Mitte beschreibt, dass Beobachtende extreme Urteile meiden und ihre Bewertungen um den mittleren Skalenbereich herum abgeben. Dadurch wird die Varianz künstlich verkleinert und Unterschiede zwischen Personen verschwinden. Die naheliegende Verwechslung ist der Halo-Effekt (erste Option), bei dem nicht die Skalenmitte, sondern ein einzelnes hervorstechendes Merkmal das Gesamturteil verzerrt.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_20e4273499"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Beobachtungsfehler: Welche Beschreibung passt zum „Halo-Effekt“?",
+          "options": [
+            "Die Gesamtbeurteilung des beobachteten Verhaltens fällt meistens wenig extrem aus.",
+            "Die Gesamtbeurteilung des beobachteten Verhaltens bezieht sich hauptsächlich auf das Ende der Beobachtungssituation.",
+            "Die Gesamtbeurteilung des beobachteten Verhaltens wird von einer einzelnen Handlung oder einem Persönlichkeitsmerkmal der beobachteten Person dominiert.",
+            "Durch Vorabinformationen bilden sich die Beobachtenden bereits ein Urteil und verhalten sich unbewusst so, dass die Beobachtung dieses Urteil bestätigt."
+          ],
+          "correct": 2,
+          "expl": "Der Halo-Effekt („Heiligenschein-Effekt“) meint, dass ein einzelnes auffälliges Merkmal oder eine einzelne Handlung das gesamte Urteil überstrahlt – wer als sympathisch gilt, wird auch als leistungsstark eingeschätzt. Die letzte Option beschreibt dagegen den Pygmalion-Effekt, bei dem eine Vorabinformation zu einer sich selbst erfüllenden Prophezeiung wird; dort verändert sich das Verhalten der Beobachtenden, beim Halo-Effekt nur ihr Urteil.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_ec6fbe86b9"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Beobachtungsfehler: Welche Beschreibung passt zum „Pygmalion-Effekt“?",
+          "options": [
+            "Durch Vorabinformationen bilden sich die Beobachtenden bereits ein Urteil. Unbewusst verhalten sie sich im Anschluss so, dass die eigentliche Beobachtung zu einer Bestätigung ihres Urteils führt.",
+            "Die Gesamtbeurteilung des beobachteten Verhaltens wird von einer einzelnen Handlung oder einem Persönlichkeitsmerkmal der beobachteten Person dominiert.",
+            "Die Gesamtbeurteilung des beobachteten Verhaltens wird vor allem vom Sprachniveau der Beobachtenden beeinflusst.",
+            "Die Gesamtbeurteilung des beobachteten Verhaltens fällt meistens wenig extrem aus."
+          ],
+          "correct": 0,
+          "expl": "Der Pygmalion-Effekt ist eine sich selbst erfüllende Prophezeiung: Eine Vorabinformation (etwa „das ist eine leistungsstarke Klasse“) erzeugt eine Erwartung, die Beobachtenden verhalten sich unbewusst entsprechend und provozieren damit genau das Verhalten, das sie erwarten. Der Halo-Effekt (zweite Option) ist die naheliegende Verwechslung, betrifft aber nur die Urteilsbildung über ein dominierendes Merkmal und nicht das eigene, verhaltenswirksame Zutun der Beobachtenden.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_27a45201ad"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Beobachtungsfehler: Welche Beschreibung passt zum „Recency-Effekt“?",
+          "options": [
+            "Die Gesamtbeurteilung des beobachteten Verhaltens bezieht sich hauptsächlich auf die Mitte der Beobachtungssituation.",
+            "Die Gesamtbeurteilung des beobachteten Verhaltens fällt meistens wenig extrem aus.",
+            "Die Gesamtbeurteilung des beobachteten Verhaltens bezieht sich hauptsächlich auf das Ende der Beobachtungssituation.",
+            "Die Gesamtbeurteilung des beobachteten Verhaltens erfolgt stets wohlwollend und fehlerhaftes Verhalten wird bewusst übersehen."
+          ],
+          "correct": 2,
+          "expl": "„Recency“ heißt wörtlich „Neuheit“: Zuletzt Beobachtetes bleibt am besten im Gedächtnis und prägt deshalb das Gesamturteil überproportional. Die erste Option ist die naheliegende Falle, weil sie sprachlich fast identisch klingt, aber die Mitte statt das Ende der Situation nennt – dafür gibt es keinen entsprechenden Beobachtungsfehler; das Gegenstück zum Recency-Effekt ist vielmehr der Primacy-Effekt (Dominanz des zuerst Beobachteten).",
+          "herkunft": "direkt",
+          "id": "datenerhebung_2ec8afd961"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Formen der Datenerhebung lassen sich nach dem Grad ihrer Standardisierung unterscheiden. Welche der folgenden Erhebungsformen ist nicht bzw. kaum standardisiert?",
+          "options": [
+            "Quantitative Online-Befragung",
+            "Narratives Interview",
+            "Quasi-Experiment mit Prä- und Posterhebung",
+            "Standardisierter Schulleistungstest"
+          ],
+          "correct": 1,
+          "expl": "Das narrative Interview gibt lediglich einen Erzählimpuls vor; Reihenfolge, Wortlaut und Umfang der Antworten entstehen im Gespräch und sind nicht festgelegt – es ist damit nicht bzw. kaum standardisiert. Die quantitative Online-Befragung ist die naheliegende Fehlwahl für Personen, die „online“ mit „offen“ gleichsetzen; sie ist jedoch vollstandardisiert, weil alle Befragten dieselben Items im gleichen Wortlaut und in gleicher Reihenfolge erhalten.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_b156ef2fe1"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Wie ist ein informelles Gruppengespräch hinsichtlich des Grades der Standardisierung einzuordnen?",
+          "options": [
+            "nicht bzw. kaum standardisiert",
+            "teilstandardisiert mit festem Kategoriensystem",
+            "stark standardisiert",
+            "vollstandardisiert"
+          ],
+          "correct": 0,
+          "expl": "Ein informelles Gruppengespräch folgt keinem festen Frageplan: Themen, Reihenfolge und Formulierungen ergeben sich aus dem Gesprächsverlauf, deshalb ist es nicht bzw. kaum standardisiert. „Teilstandardisiert“ wäre die naheliegende Fehlwahl, setzt aber mindestens einen Leitfaden oder ein vorab festgelegtes Kategoriensystem voraus – genau das fehlt beim informellen Gespräch.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_f8a13da8ef"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Wie ist eine quantitative Online-Befragung hinsichtlich des Grades der Standardisierung einzuordnen?",
+          "options": [
+            "nicht bzw. kaum standardisiert",
+            "unstandardisiert, weil die Befragten allein am Bildschirm sitzen",
+            "stark bzw. vollstandardisiert",
+            "teilstandardisiert, weil ein Leitfaden verwendet wird"
+          ],
+          "correct": 2,
+          "expl": "Bei einer quantitativen Online-Befragung erhalten alle Teilnehmenden dieselben Items im identischen Wortlaut, in derselben Reihenfolge und mit denselben Antwortvorgaben – das ist der Kern der Vollstandardisierung. Dass die Befragten allein am Bildschirm sitzen, spricht nicht gegen, sondern eher für die Standardisierung, weil die Erhebungssituation für alle gleich abläuft und Interviewereffekte entfallen.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_37534b0e0d"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Wie ist ein Quasi-Experiment mit Prä- und Posterhebung hinsichtlich des Grades der Standardisierung einzuordnen?",
+          "options": [
+            "nicht bzw. kaum standardisiert",
+            "stark bzw. vollstandardisiert",
+            "unstandardisiert",
+            "teilstandardisiert, weil die Gruppen nicht randomisiert werden"
+          ],
+          "correct": 1,
+          "expl": "Ein Quasi-Experiment mit Prä- und Posterhebung erfordert identische Messinstrumente zu beiden Messzeitpunkten und für alle Gruppen sowie einen festgelegten Ablauf – es ist damit stark bzw. vollstandardisiert. Die fehlende Randomisierung (letzte Option) betrifft nur die Zuweisung zu den Gruppen und damit die interne Validität, nicht den Standardisierungsgrad der Erhebung.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_2feb59ebc1"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Sie möchten auf dem Pausenhof die Kommunikation zwischen Schüler*innen beobachten. Welches Vorgehen für die Beobachtung ist sinnvoll?",
+          "options": [
+            "Zeit-Stichprobe (time sampling)",
+            "Ereignis-Stichprobe (event sampling)",
+            "Vollerhebung aller Gespräche über die gesamte Pause hinweg",
+            "Indirekte Beobachtung anhand der Spuren auf dem Pausenhof"
+          ],
+          "correct": 0,
+          "expl": "Kommunikation zwischen Schüler*innen läuft während der gesamten Pause praktisch durchgehend ab; ein klar abgrenzbares, seltenes „Ereignis“ gibt es nicht. Deshalb wird in festen Zeitintervallen protokolliert, was gerade geschieht – eine Zeit-Stichprobe. Die Ereignis-Stichprobe ist die naheliegende Fehlwahl, eignet sich aber nur für seltene, klar identifizierbare Vorkommnisse; eine Vollerhebung wäre praktisch nicht auswertbar.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_3647c97124"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Sie möchten auf dem Pausenhof beobachten, ob es bei Konflikten auch zu körperlichen Auseinandersetzungen kommt. Welches Vorgehen für die Beobachtung ist sinnvoll?",
+          "options": [
+            "Zeit-Stichprobe (time sampling)",
+            "Ereignis-Stichprobe (event sampling)",
+            "Indirekte Beobachtung anhand von Verletzungsmeldungen",
+            "Beobachtung ohne Kategoriensystem, rein narrativ"
+          ],
+          "correct": 1,
+          "expl": "Körperliche Auseinandersetzungen sind seltene, aber klar abgrenzbare Ereignisse. Sie werden erfasst, sobald sie auftreten – das ist die Ereignis-Stichprobe. Eine Zeit-Stichprobe ist hier die naheliegende Fehlwahl: Bei festen Zeitintervallen würde man das seltene Ereignis mit hoher Wahrscheinlichkeit genau zwischen zwei Beobachtungszeitpunkten verpassen.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_d453e5a14c"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "In einem Forschungsprojekt soll die Perspektive von Lehrer*innen auf die bildungspolitischen Vorgaben zur digitalen Bildung untersucht werden. Welche Frage eignet sich für ein qualitatives Interview?",
+          "options": [
+            "Wann waren Sie das letzte Mal bei einer Fortbildung zum Thema „digitale Bildung“?",
+            "Stimmen Sie der Aussage zu, dass Ihre Schulleitung keine geeigneten Rahmenbedingungen zur Umsetzung der Vorgaben bereitstellt?",
+            "Wie begegnet Ihnen das Thema „Digitalisierung“ im Schulalltag?",
+            "Wie viele Tablets stehen an Ihrer Schule pro Klasse zur Verfügung?"
+          ],
+          "correct": 2,
+          "expl": "Qualitative Interviews zielen auf die subjektive Perspektive und brauchen deshalb offene, erzählgenerierende Fragen, die keine Antwortrichtung vorgeben – „Wie begegnet Ihnen das Thema Digitalisierung im Schulalltag?“ ist genau das. Die Zustimmungsfrage zur Schulleitung ist die naheliegende Fehlwahl: Sie ist geschlossen und zusätzlich suggestiv formuliert. Fragen nach Zeitpunkten oder Anzahlen liefern nur Faktenwerte und gehören in einen standardisierten Fragebogen.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_b357611111"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Welche der folgenden Interviewfragen ist eine offene, für ein qualitatives Interview zur Perspektive von Lehrer*innen auf digitale Bildung geeignete Frage?",
+          "options": [
+            "Wann waren Sie das letzte Mal bei einer Fortbildung zum Thema „digitale Bildung“?",
+            "Welche Strategien werden in Ihrer Schule verfolgt, um „digitale Bildung“ zu realisieren?",
+            "Stimmen Sie der Aussage zu, dass Ihre Schulleitung keine geeigneten Rahmenbedingungen zur Umsetzung der Vorgaben bereitstellt?",
+            "Nutzen Sie digitale Medien im Unterricht: ja oder nein?"
+          ],
+          "correct": 1,
+          "expl": "Die Frage nach den verfolgten Strategien ist offen formuliert, gibt keine Antwortkategorien vor und lädt zum Erzählen und Beschreiben ein – genau das, was qualitative Interviews leisten sollen. Die Ja/Nein-Frage und die Zustimmungsfrage sind geschlossen und erzeugen keine Erzählung; die Zustimmungsfrage enthält zusätzlich eine Wertung und wirkt damit suggestiv.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_1c1bbcf79d"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Welche Aussage über den Fragebogen als Erhebungsinstrument ist korrekt?",
+          "options": [
+            "Ein Fragebogen ist ein standardisiertes Verfahren zur Messung eines Konstrukts.",
+            "Aufgrund der hohen Standardisierung und der daraus resultierenden Objektivität ergeben sich automatisch eine gute Reliabilität und Validität.",
+            "Ein Fragebogen misst ein Konstrukt immer direkt und benötigt daher keine Operationalisierung über einzelne Items.",
+            "Ein Fragebogen ist ein nicht standardisiertes, offenes Verfahren, das vor allem der Exploration von Einzelfällen dient."
+          ],
+          "correct": 0,
+          "expl": "Ein Fragebogen ist definitionsgemäß ein standardisiertes Verfahren: Alle Befragten erhalten dieselben Items im gleichen Wortlaut und mit denselben Antwortvorgaben, um damit ein theoretisch definiertes Konstrukt zu messen. Die zweite Option ist der klassische Denkfehler: Objektivität ist nur eine notwendige, keine hinreichende Bedingung – Reliabilität und Validität müssen eigens empirisch geprüft werden und ergeben sich nicht automatisch aus der Standardisierung.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_b1995fb9ce"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Welche Aussage zur Standardisierung einer Befragung trifft NICHT zu?",
+          "options": [
+            "Sie soll gewährleisten, dass unterschiedliche Antworten auf variierende Bedingungen während der Befragung zurückzuführen sind.",
+            "Sie soll gewährleisten, dass unterschiedliche Antworten auf eine Frage auf unterschiedliche Merkmale, Einstellungen oder Verhaltensweisen der befragten Personen zurückzuführen sind.",
+            "Sie meint, dass die Rahmenbedingungen und die Durchführung der Befragung für alle Personen identisch sind.",
+            "Sie bedeutet, dass alle Befragten dieselben Fragen im gleichen Wortlaut und in derselben Reihenfolge erhalten."
+          ],
+          "correct": 0,
+          "expl": "Standardisierung verfolgt genau das Gegenteil der ersten Aussage: Sie hält die Bedingungen konstant, damit Antwortunterschiede eben nicht auf variierende Durchführungsbedingungen, sondern ausschließlich auf Merkmale, Einstellungen oder Verhaltensweisen der Befragten zurückgeführt werden können. Die zweite Option formuliert dieses Ziel korrekt und ist deshalb die naheliegendste Verwechslung; die dritte und vierte Option beschreiben die Mittel, mit denen es erreicht wird.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_71e1efa6f9"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Porst hat die Grundregeln der Frageformulierung in „zehn Geboten“ zusammengefasst. Gegen welche Regel verstößt die Frage: „Wie bewerten Sie die rezeptive phonologisch-prosodische Entwicklung bei den Kindern, die Sie betreuen?“",
+          "options": [
+            "Kurze Fragen",
+            "Einfache Begriffe",
+            "Keine Suggestivfragen",
+            "Klarer zeitlicher Bezug"
+          ],
+          "correct": 1,
+          "expl": "Die Frage verwendet Fachvokabular („rezeptiv“, „phonologisch-prosodisch“), das die Befragten in der Regel nicht kennen; sie verstößt damit gegen das Gebot einfacher, allgemein verständlicher Begriffe. „Kurze Fragen“ ist die naheliegende Fehlwahl, trifft hier aber nicht zu: Die Frage ist knapp formuliert, nur eben unverständlich – das Problem liegt im Wortschatz, nicht in der Satzlänge.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_4226d4f6e1"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Porsts „zehn Gebote“ der Frageformulierung: Gegen welche Regel verstößt die Frage: „Wie waren in der Grundschulzeit Ihre, rückblickend betrachteten, Erlebnisse oder vergleichbaren Erfahrungen, mit Möglichkeiten der demokratischen Beteiligung; dazu zählen sowohl selbst- als auch mitbestimmende Vorgänge, die aktiv von einer Lehrkraft, im besten Fall dem*der Klassenlehrer*in inszeniert wurden?“",
+          "options": [
+            "Einfache Begriffe",
+            "Keine hypothetischen Fragen",
+            "Kurze Fragen",
+            "Kontext beachten"
+          ],
+          "correct": 2,
+          "expl": "Der Satz ist so lang und verschachtelt, dass die Befragten den Anfang beim Lesen des Endes bereits vergessen haben – das verletzt das Gebot kurzer Fragen. „Einfache Begriffe“ ist die naheliegende Fehlwahl, denn die einzelnen Wörter sind durchaus verständlich; das Problem entsteht erst durch Länge und Satzkonstruktion mit mehreren Einschüben.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_0bf3c9f4c8"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Porsts „zehn Gebote“ der Frageformulierung: Gegen welche Regel verstößt die Frage: „Was wäre Ihre erste Amtshandlung, wenn Sie der erste Präsident des Mondes wären?“",
+          "options": [
+            "Keine hypothetischen Fragen",
+            "Keine doppelten Stimuli",
+            "Klare Antwortvorgaben",
+            "Keine Überfragung"
+          ],
+          "correct": 0,
+          "expl": "Die Frage bezieht sich auf eine reine Fiktion; die Befragten können keine auf Erfahrung gestützte Antwort geben, sondern müssen spekulieren – die Antworten sind entsprechend wenig valide. Deshalb greift das Gebot „Keine hypothetischen Fragen“. „Keine Überfragung“ ist die naheliegende Verwechslung, meint aber Fragen, deren Antwort die Befragten prinzipiell wissen könnten, sich aber nicht merken oder nicht kennen (etwa exakte Statistiken).",
+          "herkunft": "direkt",
+          "id": "datenerhebung_f831ee0b47"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Porsts „zehn Gebote“ der Frageformulierung: Gegen welche Regel verstößt die Frage: „Haben Sie in den letzten 5 Jahren eine Bundestags-, Landtags- oder Kommunalwahl versäumt?“",
+          "options": [
+            "Klarer zeitlicher Bezug",
+            "Keine doppelten Stimuli",
+            "Keine Suggestivfragen",
+            "Einfache Begriffe"
+          ],
+          "correct": 1,
+          "expl": "Die Frage enthält drei verschiedene Sachverhalte in einem Item (Bundestags-, Landtags- und Kommunalwahl). Eine einzige Antwort lässt sich nicht mehr eindeutig zuordnen – das ist ein doppelter bzw. mehrfacher Stimulus. „Klarer zeitlicher Bezug“ ist die naheliegende Fehlwahl, ist hier aber gerade erfüllt: Der Zeitraum „in den letzten 5 Jahren“ ist eindeutig benannt.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_f9823b18e5"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Porsts „zehn Gebote“ der Frageformulierung: Gegen welche Regel verstößt die Frage: „80% der Befragten sind gegen einen fleischlosen Tag in der Mensa. Sie sind sicher auch dagegen?“",
+          "options": [
+            "Kontext beachten",
+            "Keine Überfragung",
+            "Keine Suggestivfragen",
+            "Kurze Fragen"
+          ],
+          "correct": 2,
+          "expl": "Die vorangestellte Mehrheitsangabe und die Formulierung „Sie sind sicher auch dagegen“ legen den Befragten eine bestimmte Antwort in den Mund und erzeugen sozialen Konformitätsdruck – eine klassische Suggestivfrage. „Kontext beachten“ ist die naheliegende Fehlwahl, weil auch hier ein vorangehender Text wirkt; dieses Gebot bezieht sich jedoch auf ungewollte Ausstrahlungseffekte vorheriger Fragen, nicht auf eine bewusst wertende Formulierung.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_2f552173db"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Porsts „zehn Gebote“ der Frageformulierung: Gegen welche Regel verstößt die Frage: „Wie viele Unfälle mit Personenschaden haben sich 2019 in allen Kindertagesstätten der BRD ereignet?“",
+          "options": [
+            "Keine Überfragung",
+            "Keine hypothetischen Fragen",
+            "Unklare Begriffe definieren",
+            "Klare Antwortvorgaben"
+          ],
+          "correct": 0,
+          "expl": "Diese Information kennt praktisch niemand aus dem Gedächtnis; die Befragten werden überfordert und antworten geraten oder gar nicht – das verletzt das Gebot, die Befragten nicht zu überfragen. „Keine hypothetischen Fragen“ trifft nicht zu, denn nach einem realen, tatsächlich existierenden Sachverhalt wird durchaus gefragt; das Problem ist allein, dass die Befragten ihn nicht wissen können.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_7b5feb69a9"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Porsts „zehn Gebote“ der Frageformulierung: Gegen welche Regel verstößt die Frage: „Wie bewerten Sie die Kindheit in Deutschland?“",
+          "options": [
+            "Keine doppelten Stimuli",
+            "Klarer zeitlicher Bezug",
+            "Keine Suggestivfragen",
+            "Kurze Fragen"
+          ],
+          "correct": 1,
+          "expl": "Es bleibt offen, auf welchen Zeitraum sich die Bewertung beziehen soll – die eigene Kindheit, die Kindheit heute oder eine historische Epoche. Ohne eindeutigen zeitlichen Bezug beantworten die Befragten faktisch unterschiedliche Fragen, weshalb die Antworten nicht vergleichbar sind. Ein doppelter Stimulus liegt dagegen nicht vor, denn es wird nur ein einziger Sachverhalt abgefragt.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_b6c7ea7910"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Porsts „zehn Gebote“ der Frageformulierung: Gegen welche Regel verstößt die Frage: „Haben Sie ein oder zwei leibliche Kinder?“",
+          "options": [
+            "Keine doppelten Stimuli",
+            "Klare Antwortvorgaben",
+            "Keine Überfragung",
+            "Kontext beachten"
+          ],
+          "correct": 1,
+          "expl": "Laut Musterlösung verstößt die Frage gegen das Gebot klarer Antwortvorgaben: Ein „Ja“ bleibt uneindeutig (ein Kind oder zwei?), und für Befragte ohne Kinder oder mit drei und mehr Kindern existiert überhaupt keine passende Antwortmöglichkeit. „Keine doppelten Stimuli“ ist die naheliegendste Fehlwahl, weil die Frage zwei Zahlen nennt; gemeint ist mit dem Gebot aber, dass zwei verschiedene inhaltliche Sachverhalte in einem Item vermischt werden – hier geht es dagegen um ein und denselben Sachverhalt mit unbrauchbaren Antwortkategorien.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_395247a17f"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Porsts „zehn Gebote“ der Frageformulierung: Gegen welche Regel verstößt die Frage: „Wir haben bereits über pädagogische Konzepte in der Kita gesprochen. Welcher Lerntyp sind Sie?“",
+          "options": [
+            "Keine hypothetischen Fragen",
+            "Kurze Fragen",
+            "Kontext beachten",
+            "Klarer zeitlicher Bezug"
+          ],
+          "correct": 2,
+          "expl": "Der vorangehende Fragenblock über pädagogische Konzepte in der Kita strahlt auf die folgende Frage aus und lenkt die Antwort in eine bestimmte Richtung – ein Ausstrahlungs- bzw. Kontexteffekt. Deshalb greift das Gebot „Kontext beachten“. Um eine Suggestivfrage im engeren Sinne handelt es sich nicht, denn die Frage selbst enthält keine Wertung; problematisch ist ihre Platzierung im Fragebogen.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_d55d02feeb"
+        },
+        {
+          "session": "Datenerhebung",
+          "q": "Porsts „zehn Gebote“ der Frageformulierung: Gegen welche Regel verstößt die Frage: „Wie bewerten Sie die Konfliktfähigkeit Ihrer Vorgesetzten?“",
+          "options": [
+            "Unklare Begriffe definieren",
+            "Keine Suggestivfragen",
+            "Keine doppelten Stimuli",
+            "Keine Überfragung"
+          ],
+          "correct": 0,
+          "expl": "„Konfliktfähigkeit“ ist ein abstrakter, mehrdeutiger Begriff: Die einen verstehen darunter Durchsetzungsfähigkeit, die anderen Kompromissbereitschaft. Ohne Definition legt jede befragte Person eine eigene Bedeutung zugrunde, und die Antworten sind nicht mehr vergleichbar – das verletzt das Gebot, unklare Begriffe zu definieren. Eine Suggestivfrage liegt nicht vor, da keine Antwortrichtung nahegelegt wird.",
+          "herkunft": "direkt",
+          "id": "datenerhebung_26f2d34927"
         },
         {
           "session": "CIPO-Modell",
@@ -3816,6 +4482,48 @@
           "expl": "Externe Validität bezeichnet das Ausmaß der Generalisierbarkeit einschließlich der ökologischen Validität; sie ist durch spezifische Eigenschaften der Teilnehmenden und der Erhebungssituation gefährdet. Die interne Validität wird durch starke Kontrolle gerade erhöht, weil Alternativerklärungen ausgeschlossen werden – Option A kehrt den Zusammenhang um.",
           "herkunft": "selbst",
           "id": "gutekriterien_22e346f901"
+        },
+        {
+          "session": "Gütekriterien",
+          "q": "In einer Bachelorarbeit wird in einem Kapitel die Forschungsfrage begründet und ausführlich dargestellt. Dabei wird auf die für diese Arbeit recherchierten Studien hingewiesen, die allesamt einen bestimmten Aspekt außer Acht lassen. Auf diesen Aspekt richtet sich die Forschungsfrage dieser Bachelorarbeit. Auf welches Kernkriterium nach Steinke wird hier Bezug genommen?",
+          "options": [
+            "Indikation",
+            "Empirische Verankerung",
+            "Kohärenz",
+            "Relevanz"
+          ],
+          "correct": 3,
+          "expl": "Relevanz meint bei Steinke die Frage, welchen Beitrag eine Studie zum Erkenntnisstand leistet – hier wird sie genau darüber begründet, dass die bisherige Forschung eine Lücke lässt, die die Arbeit schließt. Die Indikation wäre gemeint, wenn die Angemessenheit des gewählten Verfahrens (Methode, Sample, Auswertung) begründet würde; das ist hier nicht das Thema.",
+          "herkunft": "direkt",
+          "id": "gutekriterien_72ecedd17b"
+        },
+        {
+          "session": "Gütekriterien",
+          "q": "An einer Schule soll die Beleuchtung in den Klassenzimmern gemessen werden. Dafür wird ein Luxmeter verwendet, das die Beleuchtungsstärke misst und den Wert auf einem digitalen Display anzeigt. Das Luxmeter zeigt aber immer denselben Wert an – auch dann, wenn spätabends in einem Raum das Licht ausgeschaltet wird. Welche Aussage ist richtig?",
+          "options": [
+            "Das Luxmeter ist objektiv, weil die Erfassung unabhängig von der Person ist, die das Gerät abliest. Aber es ist nicht reliabel, weil es nicht zuverlässig und nicht genau misst. Das Luxmeter ist daher auch nicht valide, weil so nicht das gemessen wird, was gemessen werden soll.",
+            "Das Luxmeter ist objektiv, weil die Erfassung unabhängig von der Person ist, die das Gerät abliest. Das Gerät ist aber nicht reliabel, weil es nicht zuverlässig und nicht genau misst. Das Luxmeter ist aber valide, weil das gemessen wird, was gemessen werden soll.",
+            "Das Luxmeter ist objektiv, weil die Erfassung unabhängig von der Person ist, die das Gerät abliest. Das Gerät ist zudem reliabel, weil es nicht zuverlässig und nicht genau misst. Das Luxmeter ist daher valide, weil das gemessen wird, was gemessen werden soll.",
+            "Das Luxmeter ist nicht objektiv, weil die Erfassung unabhängig von der Person ist, die das Gerät abliest. Das Gerät ist aber reliabel, weil es nicht zuverlässig und nicht genau misst. Das Luxmeter ist daher valide, weil das gemessen wird, was gemessen werden soll."
+          ],
+          "correct": 0,
+          "expl": "Das Ablesen des Displays ist personenunabhängig, also ist die Messung objektiv. Da das Gerät unabhängig von der tatsächlichen Beleuchtung immer denselben Wert liefert, misst es weder zuverlässig (nicht reliabel) noch das gemeinte Konstrukt (nicht valide). Die zweite Option ist deshalb falsch, weil Validität ohne Reliabilität nicht möglich ist: Ein unzuverlässiges Instrument kann das Zielkonstrukt nicht gültig erfassen.",
+          "herkunft": "direkt",
+          "id": "gutekriterien_17dbeaab86"
+        },
+        {
+          "session": "Gütekriterien",
+          "q": "Es gibt drei Hauptgütekriterien quantitativer Forschung: Objektivität, Reliabilität und Validität. Eine der folgenden Aussagen ist falsch. Welche ist es?",
+          "options": [
+            "Objektivität bedeutet die Unabhängigkeit der Datenerfassung von der untersuchenden Person.",
+            "Reliabilität bezieht sich auf die Genauigkeit der Erfassung.",
+            "Validität bezieht sich darauf, ob das Konzept erfasst wird, das erfasst werden soll.",
+            "Eine Datenerhebung kann valide sein, auch wenn Objektivität und Reliabilität mangelhaft sind."
+          ],
+          "correct": 3,
+          "expl": "Die drei Gütekriterien bauen hierarchisch aufeinander auf: Objektivität ist Voraussetzung für Reliabilität und Reliabilität Voraussetzung für Validität. Eine Messung, die nicht zuverlässig und nicht personenunabhängig ist, kann deshalb nicht valide sein – die vierte Aussage ist somit falsch. Die Definitionen in den ersten drei Optionen treffen dagegen zu.",
+          "herkunft": "direkt",
+          "id": "gutekriterien_77eb48e4bc"
         },
         {
           "session": "Deskriptive Statistik",
@@ -4863,6 +5571,38 @@
           "id": "boolesche_operatoren_82d0c1c121"
         },
         {
+          "session": "Boolesche Operatoren",
+          "q": "Ein Venn-Diagramm mit vier Kreisen (A oben links, B oben rechts, C unten links, D unten rechts) enthält folgende Trefferzahlen: nur A = 21; nur B = 30; nur C = 42; nur D = 29; nur A und B = 17; nur A und C = 19; nur B und D = 21; nur C und D = 27; nur A, B und C = 14; nur A, B und D = 15; nur A, C und D = 11; nur B, C und D = 5; alle vier Kreise gemeinsam = 9. Berechnen Sie die Anzahl der gefundenen Dokumente für die Suchanfrage A OR (B AND C).",
+          "a": "Die richtige Antwort lautet 111 Dokumente. Vorgehen: Zuerst wird die Klammer ausgewertet, denn AND bindet stärker und schränkt die Treffermenge ein. B AND C umfasst alle Felder, die gleichzeitig in B und in C liegen: 14 (A, B und C) + 5 (B, C und D) + 9 (alle vier) = 28. Danach wird A bestimmt, also alle Felder innerhalb des Kreises A: 21 + 17 + 19 + 14 + 15 + 11 + 9 = 106. Das ODER bildet die Vereinigungsmenge, und bei einer Vereinigung darf jedes Feld nur einmal gezählt werden. Von den 28 Dokumenten aus B AND C liegen die Felder mit 14 und mit 9 Dokumenten bereits innerhalb von A und sind in den 106 schon enthalten; neu hinzu kommt nur das Feld B, C und D mit 5 Dokumenten. Also 106 + 5 = 111. Wer stattdessen 106 + 28 rechnet, erhält fälschlich 134, weil die Überschneidung doppelt gezählt wird. Merksatz für die Literaturrecherche: AND verkleinert die Treffermenge, OR vergrößert sie – und bei OR werden gemeinsame Treffer nur einmal berücksichtigt.",
+          "hint": "Werte zuerst die Klammer mit AND aus und prüfe dann, welche dieser Felder schon in A enthalten sind.",
+          "keywords": [
+            "Klammer zuerst auswerten",
+            "Schnittmenge 28",
+            "Kreis A: 106",
+            "keine Doppelzählung",
+            "Ergebnis 111",
+            "OR vergrößert Treffermenge"
+          ],
+          "herkunft": "direkt",
+          "id": "boolesche_operatoren_ca94d3c552"
+        },
+        {
+          "session": "Boolesche Operatoren",
+          "q": "Ein Venn-Diagramm mit vier Kreisen (A oben links, B oben rechts, C unten links, D unten rechts) enthält folgende Trefferzahlen: nur A = 21; nur B = 30; nur C = 42; nur D = 29; nur A und B = 17; nur A und C = 19; nur B und D = 21; nur C und D = 27; nur A, B und C = 14; nur A, B und D = 15; nur A, C und D = 11; nur B, C und D = 5; alle vier Kreise gemeinsam = 9. Berechnen Sie die Anzahl der gefundenen Dokumente für die Suchanfrage (A AND D) OR (B AND C).",
+          "a": "Die richtige Antwort lautet 54 Dokumente. Zuerst werden beide Klammern getrennt ausgewertet. A AND D umfasst alle Felder, die sowohl im Kreis A als auch im Kreis D liegen: 15 (A, B und D) + 11 (A, C und D) + 9 (alle vier) = 35. B AND C umfasst 14 (A, B und C) + 5 (B, C und D) + 9 (alle vier) = 28. Beide Teilmengen werden anschließend mit OR vereinigt. Das mittlere Feld mit 9 Dokumenten gehört zu beiden Teilmengen, weil dort alle vier Kreise übereinanderliegen; es darf deshalb nur einmal gezählt werden. Damit gilt 35 + 28 − 9 = 54. Gleichwertig kann man die beteiligten Felder direkt addieren: 15 + 11 + 9 + 14 + 5 = 54. Die typische Fehlerquelle ist die einfache Addition der beiden Klammerergebnisse (35 + 28 = 63), bei der die gemeinsame Schnittmenge doppelt gezählt wird. Das Beispiel zeigt das Grundprinzip boolescher Suchanfragen: AND schneidet Mengen, OR vereinigt sie, und Klammern legen die Reihenfolge der Auswertung eindeutig fest.",
+          "hint": "Rechne beide Klammern einzeln aus und überlege, welches Feld in beiden Ergebnissen steckt.",
+          "keywords": [
+            "beide Klammern einzeln",
+            "A AND D",
+            "B AND C",
+            "Schnittmenge einmal zählen",
+            "Ergebnis 54",
+            "AND schneidet, OR vereinigt"
+          ],
+          "herkunft": "direkt",
+          "id": "boolesche_operatoren_4290a92248"
+        },
+        {
           "session": "Skalenniveaus & Variablen bestimmen",
           "q": "Bestimmen Sie für die folgenden Variablen jeweils das höchstmögliche Skalenniveau und begründen Sie Ihre Entscheidung: Studienfach, Temperatur in Grad Celsius, Lieblingsfarbe, Platzierung bei einem Wettbewerb, Geschlecht, Schulnoten, Einkommen in Euro.",
           "a": "1. Prüfschema anwenden: Lassen sich die Ausprägungen nur unterscheiden (nominal)? Lassen sie sich zusätzlich in eine Rangordnung bringen (ordinal)? Sind zusätzlich die Abstände gleich groß und interpretierbar (intervall)? Gibt es zusätzlich einen absoluten Nullpunkt, sodass Verhältnisse sinnvoll sind (Verhältnisskala)? Kommt eine natürliche Einheit hinzu (Absolutskala)?\n2. Studienfach — nominal. Die Ausprägungen (Sachunterricht, Mathematik, Germanistik) lassen sich nur unterscheiden, eine Rangordnung wäre willkürlich.\n3. Temperatur in Grad Celsius — intervallskaliert. Die Abstände sind gleich groß (von 10 auf 11 °C ist derselbe Zuwachs wie von 20 auf 21 °C), der Nullpunkt ist aber willkürlich gesetzt. Deshalb ist die Aussage „20 °C ist doppelt so warm wie 10 °C“ nicht empirisch bedeutsam; sie bliebe bei der zulässigen Transformation in Fahrenheit nicht wahr.\n4. Lieblingsfarbe — nominal, gleiche Begründung wie beim Studienfach.\n5. Platzierung bei einem Wettbewerb — ordinal. Die Rangfolge ist bedeutsam, die Abstände sind es nicht: Zwischen Platz 1 und 2 kann ein weit größerer Leistungsunterschied liegen als zwischen Platz 2 und 3.\n6. Geschlecht — nominal. Bei den Ausprägungen männlich/weiblich/divers ist die Zahlenzuordnung reine Kodierung; als dichotome Erfassung spricht man auch von einer Nominalskala mit zwei Kategorien.\n7. Schulnoten — ordinal. Eine 1 ist besser als eine 2, aber der Leistungsabstand zwischen 1 und 2 ist nicht nachweislich derselbe wie zwischen 4 und 5. In der Praxis werden Noten häufig quasi-metrisch behandelt; das höchstmögliche begründbare Niveau bleibt ordinal.\n8. Einkommen in Euro — Verhältnisskala. Es gibt einen absoluten Nullpunkt (kein Einkommen), deshalb ist die Aussage „3.000 Euro sind dreimal so viel wie 1.000 Euro“ bedeutsam.\n9. Merksatz: Das Skalenniveau entscheidet darüber, welche Kennwerte zulässig sind — Modus bei nominal, zusätzlich Median bei ordinal, zusätzlich arithmetisches Mittel und Standardabweichung ab intervall.",
@@ -5307,6 +6047,39 @@
           "id": "lage_streuungsmasse_f146bad4ee"
         },
         {
+          "session": "Lage- & Streuungsmaße",
+          "q": "Die Grundschule Kleinbonum nimmt an einem Eltern-Sport-Tag teil. Für das gemischte Basketball-Team haben sich elf Elternteile angemeldet. Die Körpergrößen betragen: Herr Becker 201 cm, Herr Fischer 196 cm, Herr Hoffmann 185 cm, Herr Richter 204 cm, Herr Meyer 183 cm, Frau Müller 177 cm, Frau Richter 192 cm, Frau Schäfer 194 cm, Herr Schmidt 205 cm, Frau Wagner 200 cm, Frau Weber 177 cm. a) Berechnen Sie den Modus der Körpergröße. b) Berechnen Sie den Median der Körpergröße. c) Berechnen Sie das arithmetische Mittel der Körpergröße.",
+          "a": "Der Modus ist 177 cm, der Median 194 cm und das arithmetische Mittel 192,2 cm.\n\nErster Schritt ist immer das Sortieren der Werte: 177, 177, 183, 185, 192, 194, 196, 200, 201, 204, 205.\n\na) Modus: Der Modus ist der am häufigsten vorkommende Wert. Nur 177 cm tritt zweimal auf (Frau Müller und Frau Weber), alle anderen Werte je einmal. Also Modus = 177 cm. Der Modus ist bereits ab dem Nominalskalenniveau bestimmbar und reagiert nicht auf Extremwerte – hier liegt er allerdings am unteren Rand der Verteilung und beschreibt die Gruppe schlecht.\n\nb) Median: Bei n = 11 (ungerade) ist der Median der Wert an der Position (n+1)/2 = 6. Der sechste Wert der sortierten Reihe ist 194 cm. Der Median teilt die Verteilung in zwei gleich große Hälften und setzt mindestens Ordinalskalenniveau voraus; er ist robust gegenüber Ausreißern.\n\nc) Arithmetisches Mittel: Summe aller Werte = 2114 cm, geteilt durch n = 11 ergibt 192,18 cm, gerundet 192,2 cm. Das arithmetische Mittel setzt metrisches Skalenniveau voraus und nutzt alle Werte, reagiert dafür aber empfindlich auf Extremwerte. Dass Mittelwert (192,2 cm) und Median (194 cm) hier dicht beieinanderliegen, spricht für eine annähernd symmetrische Verteilung.",
+          "hint": "Sortieren Sie die elf Werte zuerst der Größe nach – danach lassen sich zwei der drei Kennwerte direkt ablesen.",
+          "keywords": [
+            "Modus 177 cm",
+            "Median 194 cm",
+            "Mittel 192,2 cm",
+            "n = 11",
+            "Summe 2114 cm",
+            "Werte sortieren"
+          ],
+          "herkunft": "direkt",
+          "id": "lage_streuungsmasse_040314d164"
+        },
+        {
+          "session": "Lage- & Streuungsmaße",
+          "q": "In der Klasse 5c der Georg-Simon-Ohm-Realschule in Fürth wurde im Fach Englisch ein Vokabeltest geschrieben. 15 Schüler*innen (6 Mädchen, 9 Jungen) haben teilgenommen. Sie konnten die folgende Anzahl an Vokabeln fehlerfrei notieren: 24, 4, 9, 24, 21, 15, 2, 10, 22, 22, 10, 20, 25, 24, 15. Welche Maße der zentralen Tendenz können hier bestimmt werden? Bestimmen und berechnen Sie die möglichen Maße.",
+          "a": "Die Variable 'Anzahl fehlerfrei notierter Vokabeln' ist metrisch (Ratioskala: gleiche Abstände, absoluter Nullpunkt). Deshalb sind alle drei Maße der zentralen Tendenz zulässig – Modus, Median und arithmetisches Mittel.\n\nSortierte Werte: 2, 4, 9, 10, 10, 15, 15, 20, 21, 22, 22, 24, 24, 24, 25 (n = 15).\n\nModus: 24 Vokabeln kommen dreimal vor und damit am häufigsten (10, 15 und 22 nur je zweimal). Modus = 24 Vokabeln.\n\nMedian: Bei n = 15 (ungerade) liegt der Median an Position (15+1)/2 = 8. Der achte Wert ist 20. Median = 20 Vokabeln.\n\nArithmetisches Mittel: Summe = 247, geteilt durch 15 ergibt 16,47, gerundet 16,5 Vokabeln.\n\nInterpretation: Mittelwert (16,5) < Median (20) < Modus (24). Diese Reihenfolge ist typisch für eine linksschiefe (rechtssteile) Verteilung: Einige sehr niedrige Werte (2, 4, 9) ziehen das arithmetische Mittel nach unten, während sich die Mehrheit der Schüler*innen im oberen Bereich sammelt. Das zeigt, warum es sinnvoll ist, mehrere Lagemaße nebeneinander zu berichten: Das arithmetische Mittel allein würde das Leistungsniveau der Klasse zu pessimistisch darstellen.",
+          "hint": "Prüfen Sie zuerst das Skalenniveau – erst danach steht fest, welche Lagemaße überhaupt erlaubt sind.",
+          "keywords": [
+            "metrisch/Ratioskala",
+            "Modus 24",
+            "Median 20",
+            "Mittel 16,5",
+            "n = 15",
+            "Summe 247",
+            "linksschiefe Verteilung"
+          ],
+          "herkunft": "direkt",
+          "id": "lage_streuungsmasse_4c67de52c6"
+        },
+        {
           "session": "Perzentile & Boxplot",
           "q": "Bestimmen Sie für die Datenreihe 30, 45, 60, 40, 70, 60, 50, 45, 50, 40, 90, 35, 45, 30, 40 alle Kennwerte, die für einen Boxplot nötig sind, und beschreiben Sie, wie der Boxplot aussieht.",
           "a": "1. Sortieren: 30, 30, 35, 40, 40, 40, 45, 45, 45, 50, 50, 60, 60, 70, 90. n = 15.\n2. Minimum = 30, Maximum = 90, Spannweite = 90 − 30 = 60.\n3. Median (2. Quartil): n = 15 ist ungerade, Rang (15 + 1) / 2 = 8. Der Wert an 8. Stelle ist 45. Median = 45.\n4. Q1 (25. Perzentil): Rangplatz = n · p = 15 · 0,25 = 3,75. Nicht ganzzahlig, also aufrunden auf Rang 4. Der Wert an 4. Stelle ist 40. Q1 = 40.\n5. Q3 (75. Perzentil): Rangplatz = 15 · 0,75 = 11,25. Nicht ganzzahlig, also aufrunden auf Rang 12. Der Wert an 12. Stelle ist 60. Q3 = 60.\n6. Interquartilsabstand (Boxlänge): IQA = Q3 − Q1 = 60 − 40 = 20.\n7. Whiskergrenzen: oben Q3 + 1,5 · IQA = 60 + 30 = 90; unten Q1 − 1,5 · IQA = 40 − 30 = 10. Der Whisker wird nur bis zum tatsächlich vorkommenden Wert innerhalb dieser Grenzen gezeichnet: oben bis 90 (kommt vor), unten bis 30 (kleinster beobachteter Wert ≥ 10).\n8. Ausreißergrenzen: oben 90 + 1,5 · 20 = 120; unten 30 − 30 = 0. Es gibt weder Ausreißer noch Extremwerte.\n9. Aussehen: Die Box reicht von 40 bis 60 und ist 20 Einheiten lang. Der Medianstrich liegt bei 45, also deutlich links in der Box – der Abstand Median–Q1 beträgt nur 5, der Abstand Median–Q3 dagegen 15. Der untere Whisker reicht von 40 bis 30 (Länge 10), der obere von 60 bis 90 (Länge 30). Der Boxplot ist damit klar rechtsschief (linkssteil): Die Werte häufen sich unten, nach oben zieht sich die Verteilung lang aus.",
@@ -5471,6 +6244,39 @@
           ],
           "herkunft": "direkt",
           "id": "perzentile_boxplot_6173d5abe8"
+        },
+        {
+          "session": "Perzentile & Boxplot",
+          "q": "Ein Boxplot zeigt die Tageshöchsttemperaturen (in Grad Celsius) dreier Städte. Abgelesene Werte: MÜNCHEN – unteres Quartil ca. 0 °C, Median ca. 6,5 °C, oberes Quartil ca. 17,5 °C. KIEL – unteres Quartil ca. -1 °C, Median ca. 5,5 °C, oberes Quartil ca. 14 °C, kleinster Wert ca. -7 °C, größter Wert (Extremwert) ca. 43 °C. DRESDEN – unteres Quartil ca. 6 °C, Median ca. 12,5 °C, oberes Quartil ca. 21 °C, Whisker von ca. 2 °C bis ca. 32 °C, dazu Ausreißer bei ca. 38 °C und 45 °C. a) Wie groß ist der Median in München, Kiel und Dresden? b) Wie groß sind die Interquartilsabstände der drei Städte? c) Wie groß ist die Spannweite in Kiel? d) Wie lässt sich die Verteilung in Dresden charakterisieren?",
+          "a": "a) Der Median ist der Strich innerhalb der Box: München ca. 6,5 °C, Kiel ca. 5,5 °C, Dresden ca. 12,5 °C. Dresden hat damit die höchste zentrale Tendenz.\n\nb) Der Interquartilsabstand (IQR) ist die Höhe der Box, also Q3 − Q1. München: 17,5 − 0 = 17,5 °C. Kiel: 14 − (−1) = 15,0 °C. Dresden: 21 − 6 = 15,0 °C. Der IQR enthält die mittleren 50 % der Werte und ist ein robustes Streuungsmaß, weil Ausreißer ihn nicht beeinflussen. München streut im Mittelbereich am stärksten.\n\nc) Die Spannweite ist die Differenz aus größtem und kleinstem Wert – inklusive Ausreißern und Extremwerten. Für Kiel: 43 − (−7) = 50 °C. Die Spannweite nutzt nur zwei Werte und ist deshalb extrem anfällig für Ausreißer.\n\nd) In Dresden liegt der Median (12,5 °C) näher am unteren als am oberen Quartil, und der obere Whisker samt Ausreißern reicht deutlich weiter nach oben als der untere nach unten. Die Masse der Werte liegt also im unteren Bereich, der lange Schwanz zeigt nach rechts (zu hohen Werten). Die Verteilung ist damit linkssteil bzw. rechtsschief – zwei Bezeichnungen für dieselbe Form.",
+          "hint": "Box = mittlere 50 %; die Spannweite zählt dagegen auch Ausreißer mit, und die Schiefe erkennt man an der Länge des längeren Schwanzes.",
+          "keywords": [
+            "Median = Strich in Box",
+            "IQR = Q3 − Q1",
+            "Spannweite 50 °C",
+            "linkssteil/rechtsschief",
+            "IQR robust",
+            "Ausreißer zählen zur Spannweite"
+          ],
+          "herkunft": "direkt",
+          "id": "perzentile_boxplot_b7ec7b682c"
+        },
+        {
+          "session": "Perzentile & Boxplot",
+          "q": "Aus der Forschung zu Zeugenaussagen ist bekannt, dass die Altersschätzung umso besser ist, je näher Beobachtete und Beobachtende sich im Alter stehen. 13 Bankangestellten wird das Video eines Banküberfalls gezeigt; sie sollen das Alter des Bankräubers in Hoodie und Gesichtsmaske schätzen. Die Schätzungen (in Jahren) lauten: 20, 35, 45, 32, 56, 37, 40, 38, 40, 28, 40, 35, 33. Prüfen Sie: 1) Das Minimum beträgt 20 Jahre. 2) Das Maximum beträgt 33 Jahre. 3) Die Spannweite beträgt über 30 Jahre. 4) Der Median beträgt 37 Jahre. 5) Der Interquartilsabstand beträgt 7 Jahre. 6) Der Boxplot weist weder Ausreißer noch Extremwerte auf. 7) Die Variable 'Altersschätzung in Jahren' ist nominalskaliert.",
+          "a": "Sortierte Werte: 20, 28, 32, 33, 35, 35, 37, 38, 40, 40, 40, 45, 56 (n = 13).\n\n1) JA – das Minimum ist 20 Jahre.\n2) NEIN – das Maximum ist 56 Jahre, nicht 33.\n3) JA – die Spannweite beträgt 56 − 20 = 36 Jahre, also über 30 Jahre.\n4) JA – bei n = 13 liegt der Median an Position (13+1)/2 = 7; der siebte Wert ist 37 Jahre.\n5) NEIN – die Quartile werden als Mediane der beiden Hälften ohne den Medianwert bestimmt: untere Hälfte 20, 28, 32, 33, 35, 35 → Q1 = 32,5; obere Hälfte 38, 40, 40, 40, 45, 56 → Q3 = 40. Der Interquartilsabstand ist damit 40 − 32,5 = 7,5 Jahre, nicht 7.\n6) NEIN – die Ausreißergrenzen liegen bei Q1 − 1,5·IQR = 32,5 − 11,25 = 21,25 und Q3 + 1,5·IQR = 40 + 11,25 = 51,25. Sowohl 20 als auch 56 liegen außerhalb, sind also Ausreißer (Extremwerte erst außerhalb von 3·IQR, d. h. unter 10 bzw. über 62,5).\n7) NEIN – Alter in Jahren hat einen absoluten Nullpunkt und gleiche Abstände, ist also metrisch (Ratio-/Verhältnisskala), nicht nominalskaliert.",
+          "hint": "Erst sortieren, dann Median und Quartile bestimmen – die Ausreißerfrage lässt sich erst beantworten, wenn der Interquartilsabstand steht.",
+          "keywords": [
+            "Median 37",
+            "Spannweite 36",
+            "Q1 = 32,5; Q3 = 40",
+            "IQR 7,5",
+            "Ausreißer 20 und 56",
+            "1,5·IQR-Regel",
+            "Ratioskala"
+          ],
+          "herkunft": "direkt",
+          "id": "perzentile_boxplot_32115cbfcc"
         },
         {
           "session": "z-Transformation",
@@ -5910,6 +6716,118 @@
           "id": "boolesche_operatoren_4f6ac5347b"
         },
         {
+          "session": "Boolesche Operatoren",
+          "q": "In einem Venn-Diagramm liegen vier gleich große Kreise wie in einem Quadrat angeordnet: A oben links, B oben rechts, C unten links, D unten rechts. Benachbarte Kreise überlappen sich (A mit B, A mit C, B mit D, C mit D), in der Mitte überlappen sich alle vier. Farbig markiert ist der gesamte Kreis B sowie zusätzlich die Schnittfläche von A und C. Welcher logische Ausdruck beschreibt die markierte Fläche?",
+          "options": [
+            "(A AND C) OR B",
+            "(A OR C) AND B",
+            "(A AND B) OR C",
+            "A AND B AND C"
+          ],
+          "correct": 0,
+          "expl": "Markiert ist alles, was zu B gehört, plus alles, was gleichzeitig in A und in C liegt – das ist genau die Veroderung von B mit dem Schnitt von A und C, also (A AND C) OR B. Die naheliegende Alternative (A OR C) AND B wäre nur der Teil von B, der auch in A oder C liegt; dann bliebe der große Rest des Kreises B unmarkiert und der reine A-C-Schnitt außerhalb von B dürfte gar nicht gefärbt sein.",
+          "herkunft": "direkt",
+          "id": "boolesche_operatoren_5d5774a889"
+        },
+        {
+          "session": "Boolesche Operatoren",
+          "q": "In einem Venn-Diagramm liegen vier gleich große Kreise wie in einem Quadrat angeordnet: A oben links, B oben rechts, C unten links, D unten rechts. Benachbarte Kreise überlappen sich (A mit B, A mit C, B mit D, C mit D), in der Mitte überlappen sich alle vier. Farbig markiert sind ausschließlich die beiden mittigen Überschneidungen: die Fläche, in der A und D übereinanderliegen, und die Fläche, in der B und C übereinanderliegen. Sonst ist nichts gefärbt. Welcher logische Ausdruck beschreibt die markierte Fläche?",
+          "options": [
+            "(A OR D) AND (B OR C)",
+            "(A AND D) OR (B AND C)",
+            "(A AND B) OR (C AND D)",
+            "A AND B AND C AND D"
+          ],
+          "correct": 1,
+          "expl": "Es sind zwei UND-Verknüpfungen markiert – A mit D und B mit C –, die anschließend mit ODER zusammengefasst werden: (A AND D) OR (B AND C). A AND B AND C AND D wäre dagegen nur der winzige Bereich in der Mitte, in dem alle vier Kreise gleichzeitig liegen; hier sind aber beide Linsen vollständig gefärbt.",
+          "herkunft": "direkt",
+          "id": "boolesche_operatoren_a8daad2c36"
+        },
+        {
+          "session": "Boolesche Operatoren",
+          "q": "In einem Venn-Diagramm liegen drei Kreise, die sich paarweise und in der Mitte überlappen. Die Kreise heißen A (oben links), B (oben rechts) und C (unten in der Mitte). Farbig markiert ist der gesamte Kreis C sowie zusätzlich die Schnittfläche von A und B. Welcher logische Ausdruck beschreibt die markierte Fläche?",
+          "options": [
+            "(A OR B) AND C",
+            "A OR (B AND C)",
+            "(A AND B) OR C",
+            "(A AND C) OR B"
+          ],
+          "correct": 2,
+          "expl": "Der komplette Kreis C ist markiert – das ist der ODER-Anteil – und zusätzlich der Schnitt von A und B, also der UND-Anteil: (A AND B) OR C. Bei (A OR B) AND C wäre nur der Teil von C markiert, der auch in A oder B liegt; der äußere Bereich von C bliebe weiß und der Teil des A-B-Schnitts außerhalb von C wäre nicht gefärbt.",
+          "herkunft": "direkt",
+          "id": "boolesche_operatoren_adfda012a8"
+        },
+        {
+          "session": "Boolesche Operatoren",
+          "q": "In einem Venn-Diagramm liegen drei Kreise, die sich paarweise und in der Mitte überlappen. Die Kreise heißen A (links), B (rechts) und C (unten in der Mitte). Farbig markiert ist der gesamte Kreis A sowie zusätzlich die Schnittfläche von B und C. Welcher logische Ausdruck beschreibt die markierte Fläche?",
+          "options": [
+            "(A AND B) OR C",
+            "A OR (B AND C)",
+            "(A OR B) AND C",
+            "A AND B AND C"
+          ],
+          "correct": 1,
+          "expl": "Weil der ganze Kreis A gefärbt ist, muss A über ODER angebunden sein; zusätzlich ist nur der Überlappungsbereich von B und C markiert, also B AND C. Zusammen: A OR (B AND C). Der Ausdruck (A AND B) OR C würde dagegen den kompletten Kreis C färben – der ist hier aber überwiegend weiß.",
+          "herkunft": "direkt",
+          "id": "boolesche_operatoren_80ba9b1822"
+        },
+        {
+          "session": "Boolesche Operatoren",
+          "q": "In einem Venn-Diagramm liegen drei Kreise, die sich paarweise und in der Mitte überlappen. Die Kreise heißen A, B und C. Farbig markiert ist ausschließlich die zentrale Fläche, in der alle drei Kreise gleichzeitig übereinanderliegen. Welcher logische Ausdruck beschreibt die markierte Fläche?",
+          "options": [
+            "A AND B AND C",
+            "A OR B OR C",
+            "(A AND B) OR C",
+            "(A OR B) AND C"
+          ],
+          "correct": 0,
+          "expl": "Markiert ist nur der Bereich, der gleichzeitig zu A, zu B und zu C gehört – das ist die reine UND-Verknüpfung A AND B AND C, die in einer Suchanfrage die Treffermenge maximal einschränkt. (A OR B) AND C wäre größer: Dort wäre die gesamte Schnittfläche von A mit C und von B mit C gefärbt, nicht nur der gemeinsame Kern aller drei Kreise.",
+          "herkunft": "direkt",
+          "id": "boolesche_operatoren_b412fddffe"
+        },
+        {
+          "session": "Boolesche Operatoren",
+          "q": "In einem Venn-Diagramm liegen vier gleich große Kreise wie in einem Quadrat angeordnet: A oben links, B oben rechts, C unten links, D unten rechts. Benachbarte Kreise überlappen sich (A mit B, A mit C, B mit D, C mit D), in der Mitte überlappen sich alle vier. Farbig markiert ist der gesamte Kreis A sowie zusätzlich die Schnittfläche von B und D. Welcher logische Ausdruck beschreibt die markierte Fläche?",
+          "options": [
+            "(A OR B) AND (C AND D)",
+            "(A OR C) AND B",
+            "A OR (B AND D)",
+            "(A OR B) AND C"
+          ],
+          "correct": 2,
+          "expl": "Weil der komplette Kreis A gefärbt ist, muss A per ODER angehängt sein; zusätzlich ist nur der Überlappungsbereich von B und D markiert, also B AND D. Zusammen ergibt das A OR (B AND D). Bei (A OR C) AND B wäre lediglich ein Teil von B gefärbt und der Großteil von A bliebe weiß, was dem Diagramm widerspricht.",
+          "herkunft": "direkt",
+          "id": "boolesche_operatoren_f567b58fff"
+        },
+        {
+          "session": "Boolesche Operatoren",
+          "q": "In einem Venn-Diagramm liegen vier gleich große Kreise wie in einem Quadrat angeordnet: A oben links, B oben rechts, C unten links, D unten rechts. Benachbarte Kreise überlappen sich (A mit B, A mit C, B mit D, C mit D), in der Mitte überlappen sich alle vier. Farbig markiert sind ausschließlich zwei linsenförmige Flächen: die Überschneidung von A und C sowie die Überschneidung von B und D. Alle übrigen Bereiche sind weiß. Welcher logische Ausdruck beschreibt die markierte Fläche?",
+          "options": [
+            "(A AND C) OR (B AND D)",
+            "(A OR C) AND (B OR D)",
+            "A AND B AND C AND D",
+            "(A OR B) AND C"
+          ],
+          "correct": 0,
+          "expl": "Jede der beiden markierten Linsen ist eine UND-Verknüpfung zweier Kreise – A mit C bzw. B mit D –, und beide zusammen werden mit ODER verbunden: (A AND C) OR (B AND D). (A OR C) AND (B OR D) beschreibt dagegen alles, was in A oder C und gleichzeitig in B oder D liegt; das wäre ein anderer, mittiger Bereich und würde die äußeren Teile der beiden Linsen nicht erfassen.",
+          "herkunft": "direkt",
+          "id": "boolesche_operatoren_0346bc0fde"
+        },
+        {
+          "session": "Boolesche Operatoren",
+          "q": "In einem Venn-Diagramm liegen vier gleich große Kreise wie in einem Quadrat angeordnet: A oben links, B oben rechts, C unten links, D unten rechts. Benachbarte Kreise überlappen sich (A mit B, A mit C, B mit D, C mit D), in der Mitte überlappen sich alle vier. Farbig markiert sind der gesamte Kreis B und der gesamte Kreis C – allerdings ohne jeden Bereich, der zugleich zu D gehört: Die Überschneidung von B mit D und die Überschneidung von C mit D bleiben weiß. Welcher logische Ausdruck beschreibt die markierte Fläche?",
+          "options": [
+            "(B AND C) NOT D",
+            "(C OR B) NOT D",
+            "(C OR B) AND D",
+            "(A OR B) AND (C AND D)"
+          ],
+          "correct": 1,
+          "expl": "Markiert ist alles, was in C oder in B liegt – daher die ODER-Verknüpfung –, und anschließend wird alles wieder ausgeschlossen, was zu D gehört: (C OR B) NOT D. (B AND C) NOT D wäre viel kleiner, nämlich nur der gemeinsame Überlappungsbereich von B und C ohne D; hier sind aber beide Kreise nahezu vollständig gefärbt.",
+          "herkunft": "direkt",
+          "id": "boolesche_operatoren_be7b9ed866"
+        },
+        {
           "session": "Skalenniveaus & Variablen bestimmen",
           "q": "Welches ist das höchstmögliche Skalenniveau der Variable „Temperatur in Grad Celsius“?",
           "options": [
@@ -6022,6 +6940,314 @@
           "id": "skalenniveaus_variable_2ea157fd0d"
         },
         {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Bei einer Abfrage des monatlichen Gehalts stehen folgende Optionen zur Auswahl: weniger als 1000 € | 1000 € bis 2000 € | 2000 € bis 3000 € | über 3000 €. Sind die Antwortoptionen disjunkt und erschöpfend?",
+          "options": [
+            "Die Antwortoptionen sind disjunkt und erschöpfend.",
+            "Die Antwortoptionen sind disjunkt, aber nicht erschöpfend.",
+            "Die Antwortoptionen sind erschöpfend, aber nicht disjunkt.",
+            "Die Antwortoptionen sind weder disjunkt noch erschöpfend."
+          ],
+          "correct": 2,
+          "expl": "Erschöpfend sind die Kategorien, weil jeder denkbare Gehaltsbetrag – von „weniger als 1000 €“ bis „über 3000 €“ – irgendwo hineinfällt. Disjunkt sind sie aber nicht: Die Grenzwerte 1000, 2000 und 3000 € gehören jeweils zu zwei Kategorien gleichzeitig (2000 € passt sowohl in „1000 bis 2000“ als auch in „2000 bis 3000“). Die Option „disjunkt und erschöpfend“ wäre erst richtig, wenn die Intervalle eindeutig abgegrenzt wären, etwa „1000 bis unter 2000 €“.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_a3f9ef08e1"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Bestimmen Sie, ob mit der folgenden Frage eine kontinuierliche, eine diskret-dichotome oder eine diskret-polytome Variable abgefragt wird: „Wie groß sind Sie (in cm)?“",
+          "options": [
+            "kontinuierlich",
+            "diskret-dichotom",
+            "diskret-polytom",
+            "kontinuierlich-dichotom"
+          ],
+          "correct": 0,
+          "expl": "Körpergröße ist eine Messgröße, die innerhalb ihres Wertebereichs beliebig fein abgestuft werden kann (172,4 cm; 172,41 cm …) und damit kontinuierlich ist. Diskret-polytom wäre falsch, denn die Angabe in ganzen Zentimetern ist nur eine praktische Rundung, nicht die tatsächliche Struktur des Merkmals.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_8375bbd4e4"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Bestimmen Sie, ob mit der folgenden Frage eine kontinuierliche, eine diskret-dichotome oder eine diskret-polytome Variable abgefragt wird: „Haben Sie einen akademischen Titel?“",
+          "options": [
+            "kontinuierlich",
+            "diskret-dichotom",
+            "diskret-polytom",
+            "kontinuierlich-dichotom"
+          ],
+          "correct": 1,
+          "expl": "Die Frage lässt genau zwei Ausprägungen zu – ja oder nein – und ist damit diskret-dichotom. Diskret-polytom wäre sie erst, wenn nach der Art des Titels (Bachelor, Master, Dr. …) gefragt würde, also mehr als zwei Kategorien vorlägen.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_7c0a761fdd"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Bestimmen Sie, ob mit der folgenden Frage eine kontinuierliche, eine diskret-dichotome oder eine diskret-polytome Variable abgefragt wird: „Welches Sternzeichen haben Sie?“",
+          "options": [
+            "kontinuierlich",
+            "diskret-dichotom",
+            "diskret-polytom",
+            "kontinuierlich-dichotom"
+          ],
+          "correct": 2,
+          "expl": "Es gibt zwölf klar abgegrenzte, abzählbare Kategorien ohne Zwischenstufen – das ist diskret-polytom. Kontinuierlich wäre falsch, weil zwischen „Widder“ und „Stier“ keine Zwischenwerte existieren.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_76872bf49c"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Bestimmen Sie, ob mit der folgenden Frage eine kontinuierliche, eine diskret-dichotome oder eine diskret-polytome Variable abgefragt wird: „Welchen Adelstitel haben Sie?“",
+          "options": [
+            "kontinuierlich",
+            "diskret-dichotom",
+            "diskret-polytom",
+            "kontinuierlich-dichotom"
+          ],
+          "correct": 2,
+          "expl": "Adelstitel (Freiherr, Graf, Fürst … bzw. keiner) bilden mehrere abzählbare Kategorien, also diskret-polytom. Diskret-dichotom wäre es nur bei einer reinen Ja/Nein-Frage wie „Haben Sie einen Adelstitel?“.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_7acda3e093"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Bestimmen Sie, ob mit der folgenden Frage eine kontinuierliche, eine diskret-dichotome oder eine diskret-polytome Variable abgefragt wird: „Haben Sie einen Nebenjob?“",
+          "options": [
+            "kontinuierlich",
+            "diskret-dichotom",
+            "diskret-polytom",
+            "kontinuierlich-dichotom"
+          ],
+          "correct": 1,
+          "expl": "Auch hier sind nur zwei Ausprägungen möglich – ja oder nein –, also diskret-dichotom. Die Frage nach der Anzahl oder der Art der Nebenjobs wäre dagegen polytom, weil dann mehr als zwei Kategorien entstünden.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_f21cd1c369"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Bestimmen Sie, ob mit der folgenden Frage eine kontinuierliche, eine diskret-dichotome oder eine diskret-polytome Variable abgefragt wird: „Welchen Studiengang studieren Sie?“",
+          "options": [
+            "kontinuierlich",
+            "diskret-dichotom",
+            "diskret-polytom",
+            "kontinuierlich-dichotom"
+          ],
+          "correct": 2,
+          "expl": "Studiengänge sind viele abgrenzbare, nicht in eine Rangfolge zu bringende Kategorien – ein klassisch diskret-polytomes (nominales) Merkmal. Kontinuierlich ist es nicht, da es zwischen zwei Studiengängen keine Zwischenwerte gibt.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_c9a2de05cd"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Bestimmen Sie, ob mit der folgenden Frage eine kontinuierliche, eine diskret-dichotome oder eine diskret-polytome Variable abgefragt wird: „Ist Vechta Ihr Erstwohnsitz?“",
+          "options": [
+            "kontinuierlich",
+            "diskret-dichotom",
+            "diskret-polytom",
+            "kontinuierlich-dichotom"
+          ],
+          "correct": 1,
+          "expl": "Die Antwort kann nur ja oder nein lauten, also diskret-dichotom. Erst die Frage nach dem konkreten Wohnort wäre diskret-polytom, dann allerdings mit sehr vielen Ausprägungen.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_7354a84a7c"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Bestimmen Sie, ob mit der folgenden Frage eine kontinuierliche, eine diskret-dichotome oder eine diskret-polytome Variable abgefragt wird: „Was ist Ihre Lieblingszahl?“",
+          "options": [
+            "kontinuierlich",
+            "diskret-dichotom",
+            "diskret-polytom",
+            "kontinuierlich-dichotom"
+          ],
+          "correct": 0,
+          "expl": "Als offizielle Lösung ist hier „kontinuierlich“ ausgewiesen: Als Lieblingszahl kann grundsätzlich jede beliebige Zahl – auch mit Nachkommastellen – genannt werden, der Wertebereich ist also nicht auf abzählbar viele Kategorien beschränkt. Diskret-dichotom scheidet in jedem Fall aus, weil weit mehr als zwei Ausprägungen möglich sind.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_de720bcf44"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Bestimmen Sie, ob mit der folgenden Frage eine kontinuierliche, eine diskret-dichotome oder eine diskret-polytome Variable abgefragt wird: „Welche Schulnote geben Sie der Courseware?“",
+          "options": [
+            "kontinuierlich",
+            "diskret-dichotom",
+            "diskret-polytom",
+            "kontinuierlich-dichotom"
+          ],
+          "correct": 2,
+          "expl": "Schulnoten bilden endlich viele, abgestufte Kategorien (1 bis 6) ohne echte Zwischenwerte – also diskret-polytom, genauer ordinal skaliert. Kontinuierlich wäre falsch, weil die Notenskala nicht beliebig fein unterteilt werden kann.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_514e6ae6a8"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Bestimmen Sie, ob mit der folgenden Frage eine kontinuierliche, eine diskret-dichotome oder eine diskret-polytome Variable abgefragt wird: „Haben Sie Kinder?“",
+          "options": [
+            "kontinuierlich",
+            "diskret-dichotom",
+            "diskret-polytom",
+            "kontinuierlich-dichotom"
+          ],
+          "correct": 1,
+          "expl": "Zwei mögliche Ausprägungen – ja oder nein – machen das Merkmal diskret-dichotom. Die Frage „Wie viele Kinder haben Sie?“ wäre dagegen diskret-polytom, weil dann mehrere abzählbare Ausprägungen entstehen.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_0a98acda19"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Ordnen Sie das Merkmal „Zufriedenheit mit dem Sportunterricht in der Schulzeit“ den folgenden Kategorienpaaren zu: stetig oder diskret, dichotom oder polytom, manifest oder latent. Welche Kombination trifft zu?",
+          "options": [
+            "stetig, polytom, latent",
+            "diskret, polytom, latent",
+            "diskret, dichotom, manifest",
+            "stetig, dichotom, latent"
+          ],
+          "correct": 1,
+          "expl": "Zufriedenheit wird über abgestufte Antwortkategorien erhoben (z. B. eine fünfstufige Skala), ist also diskret und wegen der mehr als zwei Stufen polytom; da sie nicht direkt beobachtbar ist, sondern nur über Indikatoren erschlossen werden kann, ist sie latent. „diskret, dichotom, manifest“ ist falsch, weil Zufriedenheit weder auf ein bloßes Ja/Nein reduziert wird noch unmittelbar beobachtet werden kann.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_0410b6d4fa"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Ordnen Sie das Merkmal „Anzahl der besuchten Seminare in diesem Semester“ den folgenden Kategorienpaaren zu: stetig oder diskret, dichotom oder polytom, manifest oder latent. Welche Kombination trifft zu?",
+          "options": [
+            "diskret, polytom, manifest",
+            "stetig, polytom, manifest",
+            "diskret, polytom, latent",
+            "diskret, dichotom, manifest"
+          ],
+          "correct": 0,
+          "expl": "Die Seminaranzahl ist eine Zählgröße: Es gibt nur ganze Zahlen und keine Zwischenwerte, also diskret, und mit 0, 1, 2, 3 … deutlich mehr als zwei Ausprägungen, also polytom; sie ist unmittelbar abzählbar und damit manifest. „diskret, polytom, latent“ ist falsch, weil kein dahinterliegendes, nur indirekt messbares Konstrukt erschlossen werden muss.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_e177efcafd"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Zwei Studentinnen planen für ihre Bachelorarbeit eine empirische Untersuchung. Sie wollen erforschen, inwieweit das Sozialverhalten der Schüler*innen vom Bildungsgrad der Eltern bzw. Erziehungsberechtigten abhängt. Welche Rolle hat in dieser Fragestellung das Merkmal „Sozialverhalten“?",
+          "options": [
+            "abhängige Variable",
+            "unabhängige Variable",
+            "Störvariable",
+            "Moderatorvariable"
+          ],
+          "correct": 0,
+          "expl": "Das Sozialverhalten soll erklärt werden – es ist das Merkmal, dessen Ausprägung von etwas anderem abhängen soll, also die abhängige Variable. Als unabhängige Variable könnte es nur gelten, wenn es seinerseits als Ursache eingesetzt würde; im Untersuchungsdesign steht es aber auf der Wirkungsseite.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_e5d638f893"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Zwei Studentinnen planen für ihre Bachelorarbeit eine empirische Untersuchung. Sie wollen erforschen, inwieweit das Sozialverhalten der Schüler*innen vom Bildungsgrad der Eltern bzw. Erziehungsberechtigten abhängt. Welche Rolle hat in dieser Fragestellung das Merkmal „Bildungsgrad der Eltern bzw. Erziehungsberechtigten“?",
+          "options": [
+            "abhängige Variable",
+            "unabhängige Variable",
+            "Störvariable",
+            "Moderatorvariable"
+          ],
+          "correct": 1,
+          "expl": "Der Bildungsgrad der Eltern ist die vermutete Einflussgröße bzw. Ursache und damit die unabhängige Variable. Abhängig ist immer das Merkmal, das erklärt werden soll – hier das Sozialverhalten; eine Störvariable wäre dagegen ein zusätzlicher, nicht kontrollierter Einfluss außerhalb der Fragestellung.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_702f5161c0"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Welches Skalenniveau weist die Variable 'Blutgruppe' höchstens auf?",
+          "options": [
+            "Nominalskala",
+            "Ordinalskala",
+            "Intervallskala",
+            "Ratioskala / Verhältnisskala"
+          ],
+          "correct": 0,
+          "expl": "Blutgruppen (A, B, AB, 0) sind reine Kategorien, die sich nur unterscheiden lassen – eine sinnvolle Rangfolge gibt es nicht. Damit liegt Nominalskalenniveau vor. Ordinalskalenniveau wäre erst erreicht, wenn sich die Ausprägungen in eine natürliche Reihenfolge (mehr/weniger) bringen ließen.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_bd946a6f9e"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Welches Skalenniveau weist die Variable 'Matrikelnummer' höchstens auf?",
+          "options": [
+            "Nominalskala",
+            "Ordinalskala",
+            "Intervallskala",
+            "Ratioskala / Verhältnisskala"
+          ],
+          "correct": 0,
+          "expl": "Die Matrikelnummer besteht zwar aus Ziffern, dient aber nur der eindeutigen Kennzeichnung von Studierenden; Differenzen oder Verhältnisse zwischen Nummern sind bedeutungslos. Deshalb liegt trotz des Zahlenformats Nominalskalenniveau vor. Ratioskalenniveau wäre falsch, weil eine doppelt so große Matrikelnummer nichts 'Doppeltes' bedeutet.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_653b58f499"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Welches Skalenniveau weist die Variable 'Abstand zwischen zwei Gebäuden in Metern' höchstens auf?",
+          "options": [
+            "Nominalskala",
+            "Ordinalskala",
+            "Intervallskala",
+            "Ratioskala / Verhältnisskala"
+          ],
+          "correct": 3,
+          "expl": "Metrische Längenangaben haben gleich große Abstände und einen absoluten Nullpunkt (0 Meter = kein Abstand), sodass auch Verhältnisaussagen zulässig sind: 20 m sind doppelt so weit wie 10 m. Damit liegt Ratioskalenniveau vor. Eine Intervallskala wäre es nur ohne natürlichen Nullpunkt, wie etwa bei Temperatur in Grad Celsius.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_dcef3dd616"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Welches Skalenniveau weist die Variable 'Frauenanteil im Lehramtsstudium der Universität Vechta' höchstens auf?",
+          "options": [
+            "Nominalskala",
+            "Ordinalskala",
+            "Intervallskala",
+            "Ratioskala / Verhältnisskala"
+          ],
+          "correct": 3,
+          "expl": "Ein Anteil bzw. Prozentwert hat gleich große Abstände und einen absoluten Nullpunkt (0 % = keine Frauen), also Ratioskalenniveau; ein Anteil von 60 % ist doppelt so hoch wie einer von 30 %. Ordinalskalenniveau wäre zu niedrig angesetzt, weil dort nur die Rangfolge, nicht aber die Größe der Abstände interpretierbar wäre.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_64477a6125"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Welches Skalenniveau weist die Variable 'Pflegestufe eines Patienten' höchstens auf?",
+          "options": [
+            "Nominalskala",
+            "Ordinalskala",
+            "Intervallskala",
+            "Ratioskala / Verhältnisskala"
+          ],
+          "correct": 1,
+          "expl": "Pflegestufen bilden eine klare Rangfolge (höhere Stufe = größerer Pflegebedarf), die Abstände zwischen den Stufen sind aber nicht gleich groß und nicht interpretierbar. Damit liegt Ordinalskalenniveau vor. Intervallskalenniveau würde voraussetzen, dass der Unterschied zwischen Stufe 1 und 2 genauso groß ist wie zwischen Stufe 3 und 4 – das ist nicht der Fall.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_69cce4f6c2"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Welches Skalenniveau weist die Variable 'Höchster Bildungsabschluss im Haushalt' höchstens auf?",
+          "options": [
+            "Nominalskala",
+            "Ordinalskala",
+            "Intervallskala",
+            "Ratioskala / Verhältnisskala"
+          ],
+          "correct": 1,
+          "expl": "Bildungsabschlüsse lassen sich in eine sinnvolle Reihenfolge bringen (kein Abschluss < Hauptschule < Realschule < Abitur < Hochschulabschluss), die Abstände zwischen den Stufen sind aber nicht quantifizierbar – also Ordinalskalenniveau. Nominalskalenniveau wäre zu niedrig, weil die Kategorien hier eben nicht gleichrangig nebeneinanderstehen.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_e62719a579"
+        },
+        {
+          "session": "Skalenniveaus & Variablen bestimmen",
+          "q": "Was ist das höchstmögliche Skalenniveau für die Variable 'Anzahl der Hochschulsemester'?",
+          "options": [
+            "Nominalskala",
+            "Ordinalskala",
+            "Intervallskala",
+            "Ratioskala / Verhältnisskala"
+          ],
+          "correct": 3,
+          "expl": "Die Semesterzahl ist eine Zählvariable mit gleich großen Abständen und einem absoluten Nullpunkt (0 Semester = noch nicht studiert), deshalb sind auch Verhältnisse sinnvoll: 8 Semester sind doppelt so viele wie 4. Damit ist Ratioskalenniveau erreicht. Die Intervallskala greift zu kurz, weil sie den natürlichen Nullpunkt nicht voraussetzt.",
+          "herkunft": "direkt",
+          "id": "skalenniveaus_variable_86ea006657"
+        },
+        {
           "session": "Hypothesen formulieren",
           "q": "Wie lautet das statistische Hypothesenpaar zu der Frage „Unterscheiden sich Mädchen und Jungen in ihrer Lesekompetenz?“",
           "options": [
@@ -6132,6 +7358,90 @@
           "expl": "Beim einseitigen Test liegen die vollen 5 % in einem Verteilungsende, beim zweiseitigen Test nur je 2,5 %; der kritische Wert wird dadurch leichter überschritten. Der Beta-Fehler verschwindet dabei keineswegs, und die Richtung muss vorab inhaltlich begründet festgelegt werden — sie darf nicht nachträglich an den Daten gewählt werden.",
           "herkunft": "selbst",
           "id": "hypothesen_formulieren_48fe97ddf9"
+        },
+        {
+          "session": "Hypothesen formulieren",
+          "q": "Welche Art von Hypothese wurde hier formuliert? „Je größer eine Person ist, desto größer ist die Schuhgröße.“",
+          "options": [
+            "Individualhypothese",
+            "Kollektivhypothese",
+            "Deterministische Hypothese",
+            "Probabilistische Hypothese"
+          ],
+          "correct": 2,
+          "expl": "Die Aussage ist ohne jede Einschränkung formuliert („je … desto …“) und behauptet damit einen ausnahmslos geltenden Zusammenhang – das kennzeichnet eine deterministische Hypothese. Eine probabilistische Hypothese läge vor, wenn der Zusammenhang ausdrücklich als Wahrscheinlichkeit oder Tendenz formuliert wäre, etwa „mit höherer Wahrscheinlichkeit“.",
+          "herkunft": "direkt",
+          "id": "hypothesen_formulieren_ba2c9041b9"
+        },
+        {
+          "session": "Hypothesen formulieren",
+          "q": "Welche Art von Hypothese wurde hier formuliert? „Die Höhe der Frauenquote in der Führungsetage einer Firma hat einen Einfluss auf die durchschnittliche Aufenthaltsqualität des Pausenraums.“",
+          "options": [
+            "Individualhypothese",
+            "Kollektivhypothese",
+            "Deterministische Hypothese",
+            "Probabilistische Hypothese"
+          ],
+          "correct": 1,
+          "expl": "Untersuchungseinheit ist nicht die einzelne Person, sondern ein Kollektiv – die Firma bzw. ihre Führungsetage –, und auch die Merkmale (Quote, durchschnittliche Aufenthaltsqualität) sind Aggregatmerkmale; das macht die Aussage zu einer Kollektivhypothese. Eine Individualhypothese müsste sich auf Eigenschaften einzelner Personen beziehen.",
+          "herkunft": "direkt",
+          "id": "hypothesen_formulieren_b01c73aa1f"
+        },
+        {
+          "session": "Hypothesen formulieren",
+          "q": "Auf welche Untersuchungseinheit bezieht sich die folgende Hypothese? „Je älter eine Person ist, desto höher ist ihr Nettoeinkommen.“",
+          "options": [
+            "Individualhypothese",
+            "Kollektivhypothese",
+            "Deterministische Hypothese",
+            "Probabilistische Hypothese"
+          ],
+          "correct": 0,
+          "expl": "Die Aussage trifft eine Behauptung über einzelne Personen und deren Merkmale Alter und Nettoeinkommen; damit ist es eine Individualhypothese. Eine Kollektivhypothese läge vor, wenn über Gruppen oder Aggregate gesprochen würde, etwa „Je höher das Durchschnittsalter einer Belegschaft, desto höher das durchschnittliche Nettoeinkommen des Betriebs“.",
+          "herkunft": "direkt",
+          "id": "hypothesen_formulieren_ed83c21543"
+        },
+        {
+          "session": "Hypothesen formulieren",
+          "q": "Wie ist die folgende Hypothese hinsichtlich ihrer Sicherheitsaussage einzuordnen? „Je älter eine Person ist, desto höher ist ihr Nettoeinkommen.“",
+          "options": [
+            "Individualhypothese",
+            "Kollektivhypothese",
+            "Deterministische Hypothese",
+            "Probabilistische Hypothese"
+          ],
+          "correct": 2,
+          "expl": "Als offizielle Lösung ist hier die deterministische Hypothese ausgewiesen: Die „je … desto …“-Formulierung enthält keinerlei Einschränkung und behauptet den Zusammenhang damit als ausnahmslos geltend. Probabilistisch wäre die Aussage erst, wenn sie den Zusammenhang ausdrücklich als Wahrscheinlichkeit oder Tendenz kennzeichnen würde, wie es etwa bei „Die Wahrscheinlichkeit … steigt“ der Fall ist.",
+          "herkunft": "direkt",
+          "id": "hypothesen_formulieren_993608e4d1"
+        },
+        {
+          "session": "Hypothesen formulieren",
+          "q": "Welche Art von Hypothese wurde hier formuliert? „Die Wahrscheinlichkeit für einen Herzinfarkt steigt mit jeder gerauchten Zigarette.“",
+          "options": [
+            "Individualhypothese",
+            "Kollektivhypothese",
+            "Deterministische Hypothese",
+            "Probabilistische Hypothese"
+          ],
+          "correct": 3,
+          "expl": "Die Hypothese spricht ausdrücklich von einer Wahrscheinlichkeit und lässt damit Ausnahmen zu – genau das kennzeichnet eine probabilistische Hypothese. Deterministisch wäre sie nur, wenn sie behaupten würde, dass jede Zigarette zwangsläufig zu einem Herzinfarkt führt.",
+          "herkunft": "direkt",
+          "id": "hypothesen_formulieren_4fa1882a58"
+        },
+        {
+          "session": "Hypothesen formulieren",
+          "q": "Welche Art von Hypothese wurde hier formuliert? „Je höher die Wahlbeteiligung in einem Land ist, desto geringere Bevölkerungsanteile wählen extremistische Parteien.“",
+          "options": [
+            "Individualhypothese",
+            "Kollektivhypothese",
+            "Deterministische Hypothese",
+            "Probabilistische Hypothese"
+          ],
+          "correct": 1,
+          "expl": "Bezugseinheit ist ein Land, und beide Merkmale – Wahlbeteiligung und Bevölkerungsanteil – sind Kennwerte des Kollektivs, nicht einzelner Personen; es handelt sich also um eine Kollektivhypothese. Würde man daraus auf das Verhalten einzelner Wählerinnen und Wähler schließen, beginge man einen ökologischen Fehlschluss.",
+          "herkunft": "direkt",
+          "id": "hypothesen_formulieren_493bff7bf5"
         },
         {
           "session": "Lage- & Streuungsmaße",
@@ -6356,6 +7666,34 @@
           "expl": "Der Rangplatz 10 · 0,75 = 7,5 ist nicht ganzzahlig, also wird auf Rang 8 aufgerundet; dort steht der Wert 7. Der Rangplatz selbst ist nie das Ergebnis, er zeigt nur, an welcher Stelle der geordneten Reihe abzulesen ist. Gemittelt würde nur bei ganzzahligem Rangplatz.",
           "herkunft": "selbst",
           "id": "perzentile_boxplot_db20665cab"
+        },
+        {
+          "session": "Perzentile & Boxplot",
+          "q": "Ein Boxplot der Tageshöchsttemperaturen für Dresden zeigt: unteres Quartil ca. 6 °C, Median ca. 12,5 °C, oberes Quartil ca. 21 °C; der untere Whisker reicht bis ca. 2 °C, der obere bis ca. 32 °C, dazu kommen Ausreißer bei ca. 38 °C und 45 °C. Wie lässt sich diese Verteilung charakterisieren?",
+          "options": [
+            "Als rechtssteil und linksschief",
+            "Als linkssteil und rechtsschief",
+            "Als symmetrisch, weil der Median in der Box liegt",
+            "Als gleichverteilt, weil beide Whisker vorhanden sind"
+          ],
+          "correct": 1,
+          "expl": "Die Werte häufen sich im unteren Bereich (der Median liegt näher am unteren Quartil), während der obere Whisker samt Ausreißern weit nach oben reicht – der lange Schwanz zeigt also nach rechts. Eine solche Verteilung heißt linkssteil bzw. rechtsschief; beides beschreibt dieselbe Form. Symmetrisch wäre sie nur, wenn der Median mittig in der Box läge und beide Whisker gleich lang wären.",
+          "herkunft": "direkt",
+          "id": "perzentile_boxplot_12dadee880"
+        },
+        {
+          "session": "Perzentile & Boxplot",
+          "q": "13 Bankangestellte schätzen das Alter eines Bankräubers (in Jahren): 20, 35, 45, 32, 56, 37, 40, 38, 40, 28, 40, 35, 33. Was gilt für den zugehörigen Boxplot (Q1 = 32,5; Median = 37; Q3 = 40)?",
+          "options": [
+            "Er weist mindestens einen Ausreißer auf, weil Werte außerhalb von Q1 − 1,5·IQR bzw. Q3 + 1,5·IQR liegen.",
+            "Er weist weder Ausreißer noch Extremwerte auf.",
+            "Alle Werte oberhalb des Medians gelten automatisch als Ausreißer.",
+            "Ausreißer lassen sich aus einem Boxplot grundsätzlich nicht ablesen."
+          ],
+          "correct": 0,
+          "expl": "Der Interquartilsabstand beträgt 40 − 32,5 = 7,5; die Ausreißergrenzen liegen damit bei 32,5 − 11,25 = 21,25 und 40 + 11,25 = 51,25. Die Werte 20 und 56 liegen außerhalb dieser Grenzen und werden im Boxplot als Ausreißer eingezeichnet. Die Aussage 'weder Ausreißer noch Extremwerte' ist deshalb falsch – Extremwerte (außerhalb von 3·IQR) gäbe es hier allerdings tatsächlich keine.",
+          "herkunft": "direkt",
+          "id": "perzentile_boxplot_84256bd6f4"
         },
         {
           "session": "z-Transformation",

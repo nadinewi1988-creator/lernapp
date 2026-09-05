@@ -8,6 +8,8 @@ import { CardSelector } from './components/CardSelector';
 import { Quiz } from './components/Quiz';
 import { Exam } from './components/Exam';
 import { SchnellDurchlauf } from './components/SchnellDurchlauf';
+import { Lernen } from './components/Lernen';
+import type { Lesson } from './components/Lernen';
 import { ExamCountdown } from './components/ExamCountdown';
 import {
   loadLocal,
@@ -21,7 +23,7 @@ import {
   setHiddenCloud,
 } from './lib/progress';
 
-type Tab = 'karten' | 'quiz' | 'probe' | 'schnell';
+type Tab = 'lernen' | 'karten' | 'quiz' | 'probe' | 'schnell';
 
 export default function App() {
   const data: AppData = appData;
@@ -117,7 +119,14 @@ export default function App() {
   const hasKeywords = track.flashcards.some(
     (c: any) => Array.isArray(c.keywords) && c.keywords.length > 0
   );
-  const activeTab: Tab = tab === 'schnell' && !hasKeywords ? 'karten' : tab;
+  // Lernen-Reiter nur anbieten, wenn dieser Bereich Lerntexte
+  // hinterlegt hat (optionales Feld `lessons` in der Modul-JSON).
+  const lessons: Lesson[] = ((track as any).lessons ?? []) as Lesson[];
+  const hasLessons = lessons.length > 0;
+
+  let activeTab: Tab = tab;
+  if (activeTab === 'schnell' && !hasKeywords) activeTab = 'karten';
+  if (activeTab === 'lernen' && !hasLessons) activeTab = 'karten';
 
   return (
     <div className="wrap">
@@ -186,6 +195,14 @@ export default function App() {
       <ModuleOverview module={module} refreshKey={progress} />
 
       <nav className="tabs">
+        {hasLessons && (
+          <button
+            className={activeTab === 'lernen' ? 'active' : ''}
+            onClick={() => setTab('lernen')}
+          >
+            Lernen
+          </button>
+        )}
         <button
           className={activeTab === 'karten' ? 'active' : ''}
           onClick={() => setTab('karten')}
@@ -214,6 +231,14 @@ export default function App() {
         )}
       </nav>
 
+      {activeTab === 'lernen' && (
+        <Lernen
+          moduleId={module.id}
+          trackId={track.id}
+          lessons={lessons}
+          sessions={track.sessions}
+        />
+      )}
       {activeTab === 'karten' && (
         <Flashcards
           moduleId={module.id}

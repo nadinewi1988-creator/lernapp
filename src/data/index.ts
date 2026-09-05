@@ -1,5 +1,4 @@
 import type { AppData } from '../types';
-import mab002 from './mab002.json';
 import globalisierung from './globalisierung.json';
 import mab003 from './mab003.json';
 
@@ -24,7 +23,6 @@ export const appData: AppData = {
       id: 'sem2',
       label: '2. Semester',
       modules: [
-        mab002 as unknown as Mod,
         globalisierung as unknown as Mod,
         mab003 as unknown as Mod,
       ],

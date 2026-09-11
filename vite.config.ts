@@ -23,7 +23,12 @@ export default defineConfig({
       },
       workbox: {
         // App-Hülle offline verfügbar; Daten sind ohnehin im Bundle.
-        globPatterns: ['**/*.{js,css,html,json,png,svg}']
+        globPatterns: ['**/*.{js,css,html,json,png,svg}'],
+        // Die Modul-Daten liegen mit im JS-Bundle. Mit jedem neuen Modul
+        // wächst es; die Workbox-Voreinstellung von 2 MiB reicht seit
+        // ewb001 nicht mehr aus und ließ den Build fehlschlagen.
+        // 12 MiB geben Luft für weitere Module.
+        maximumFileSizeToCacheInBytes: 12 * 1024 * 1024
       }
     })
   ]

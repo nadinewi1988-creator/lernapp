@@ -65,6 +65,21 @@ nav.tabs button.active { color: var(--sage-dark); border-bottom-color: var(--sag
 .checks label.checked { background: var(--amber-soft); border-color: var(--amber); }
 .checks input { accent-color: var(--sage); }
 
+/* Einklappbarer MC-Filter */
+.fbtoggle { display: flex; align-items: center; gap: 10px; width: 100%; background: none; border: 0; padding: 0; cursor: pointer; text-align: left; font: inherit; color: inherit; }
+.fbtoggle strong { font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-soft); }
+.fbtoggle .muted { flex: 1; font-size: 0.85rem; }
+.fbcount { font-size: 0.82rem; font-weight: 700; color: var(--sage-dark); white-space: nowrap; }
+.fbchevron { font-size: 0.7rem; color: var(--ink-soft); }
+.fbbody { margin-top: 14px; border-top: 1px solid var(--line); padding-top: 12px; }
+.fbrow + .fbrow { margin-top: 14px; }
+.fbgroup { width: 100%; font-size: 0.76rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-soft); margin-top: 4px; }
+.fbnum { font-size: 0.74rem; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+.checks label.checked .fbnum { color: var(--ink); }
+.segmented { display: flex; flex-wrap: wrap; gap: 6px; }
+.segmented button { background: var(--paper); border: 1px solid var(--line); border-radius: 20px; font-size: 0.83rem; padding: 5px 13px; cursor: pointer; color: var(--ink-soft); }
+.segmented button.on { background: var(--sage); border-color: var(--sage); color: #fff; font-weight: 600; }
+
 .progress-panel { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; margin-bottom: 18px; box-shadow: var(--shadow); }
 .progress-panel-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; }
 .ppt-title { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }

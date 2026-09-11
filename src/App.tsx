@@ -49,6 +49,15 @@ export default function App() {
   // MC-Pool liegt am MODUL (nicht am Track) – er geht quer über alle Bereiche.
   const mcPool: McItem[] = ((module as any)?.mcPool ?? []) as McItem[];
   const hasMC = mcPool.length > 0;
+  // Reihenfolge der Themenblöcke je Bereich, ebenfalls am Modul.
+  const mcBloecke: Record<string, string[]> =
+    ((module as any)?.mcBloecke ?? {}) as Record<string, string[]>;
+  // Anzeigenamen der Bereiche aus den Track-Namen ("ewb001.1 Stein").
+  const mcLabels: Record<string, string> = {};
+  for (const t of module?.tracks ?? []) {
+    const m = /^(\S+\.\d)\b/.exec(t.label);
+    if (m) mcLabels[m[1]] = t.label;
+  }
 
   const [tab, setTab] = useState<Tab>('karten');
   const [progress, setProgress] = useState<ProgressMap>({});
@@ -292,7 +301,9 @@ export default function App() {
         ) : (
           <Exam moduleId={module.id} track={track} hidden={hidden} userId={user?.id} />
         ))}
-      {activeTab === 'mc' && <MCTraining pool={mcPool} />}
+      {activeTab === 'mc' && (
+        <MCTraining pool={mcPool} bloecke={mcBloecke} labels={mcLabels} />
+      )}
       {activeTab === 'schnell' && (
         <SchnellDurchlauf
           moduleId={module.id}

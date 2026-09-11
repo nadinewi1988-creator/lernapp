@@ -9,6 +9,8 @@ import { Quiz } from './components/Quiz';
 import { Exam } from './components/Exam';
 import { SchnellDurchlauf } from './components/SchnellDurchlauf';
 import { Lernen } from './components/Lernen';
+import { MCTraining } from './components/MCTraining';
+import type { McItem } from './components/MCTraining';
 import type { Lesson } from './components/Lernen';
 import { ExamCountdown } from './components/ExamCountdown';
 import {
@@ -23,7 +25,7 @@ import {
   setHiddenCloud,
 } from './lib/progress';
 
-type Tab = 'lernen' | 'karten' | 'quiz' | 'probe' | 'schnell';
+type Tab = 'lernen' | 'karten' | 'quiz' | 'probe' | 'schnell' | 'mc';
 
 export default function App() {
   const data: AppData = appData;
@@ -42,6 +44,10 @@ export default function App() {
   const [trackId, setTrackId] = useState(module?.tracks[0]?.id ?? 'vorlesung');
   const track =
     module?.tracks.find((t) => t.id === trackId) ?? module?.tracks[0];
+
+  // MC-Pool liegt am MODUL (nicht am Track) – er geht quer über alle Bereiche.
+  const mcPool: McItem[] = ((module as any)?.mcPool ?? []) as McItem[];
+  const hasMC = mcPool.length > 0;
 
   const [tab, setTab] = useState<Tab>('karten');
   const [progress, setProgress] = useState<ProgressMap>({});
@@ -127,6 +133,7 @@ export default function App() {
   let activeTab: Tab = tab;
   if (activeTab === 'schnell' && !hasKeywords) activeTab = 'karten';
   if (activeTab === 'lernen' && !hasLessons) activeTab = 'karten';
+  if (activeTab === 'mc' && !hasMC) activeTab = 'karten';
 
   return (
     <div className="wrap">
@@ -229,6 +236,14 @@ export default function App() {
             Schnelldurchlauf
           </button>
         )}
+        {hasMC && (
+          <button
+            className={activeTab === 'mc' ? 'active' : ''}
+            onClick={() => setTab('mc')}
+          >
+            MC-Training
+          </button>
+        )}
       </nav>
 
       {activeTab === 'lernen' && (
@@ -268,6 +283,7 @@ export default function App() {
       {activeTab === 'probe' && (
         <Exam moduleId={module.id} track={track} hidden={hidden} userId={user?.id} />
       )}
+      {activeTab === 'mc' && <MCTraining pool={mcPool} />}
       {activeTab === 'schnell' && (
         <SchnellDurchlauf
           moduleId={module.id}

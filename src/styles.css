@@ -107,6 +107,9 @@ textarea { width: 100%; border: 1px solid var(--line); border-radius: 8px; paddi
 .option { text-align: left; padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); cursor: pointer; font: inherit; }
 .option.correct { background: #e7f0ec; border-color: var(--sage); }
 .option.wrong { background: #f7e6e4; border-color: var(--danger); }
+.option.chosen { background: var(--amber-soft); border-color: var(--amber); }
+.option.missed { background: #fdf6e3; border-color: var(--amber); border-style: dashed; }
+.mc-box { font-size: 1.05rem; margin-right: 4px; }
 .expl { background: var(--paper); border-radius: 8px; padding: 12px; margin-bottom: 12px; font-size: 0.9rem; }
 
 .nav { display: flex; justify-content: space-between; margin-top: 14px; }

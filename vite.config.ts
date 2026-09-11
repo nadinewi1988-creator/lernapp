@@ -28,7 +28,15 @@ export default defineConfig({
         // wächst es; die Workbox-Voreinstellung von 2 MiB reicht seit
         // ewb001 nicht mehr aus und ließ den Build fehlschlagen.
         // 12 MiB geben Luft für weitere Module.
-        maximumFileSizeToCacheInBytes: 12 * 1024 * 1024
+        maximumFileSizeToCacheInBytes: 12 * 1024 * 1024,
+        // Zwischenspeicher ALTER Versionen aufräumen. Ohne das bleibt bei
+        // jedem Deploy eine weitere Kopie des Bundles liegen (inzwischen rund
+        // 4 MB pro Version). In Safari führte das dazu, dass die App nach
+        // einem Update nur noch eine weiße Seite zeigte.
+        cleanupOutdatedCaches: true,
+        // Unbekannte Pfade auf die App-Hülle zurückfallen lassen, statt den
+        // Ladevorgang scheitern zu lassen.
+        navigateFallback: 'index.html'
       }
     })
   ]

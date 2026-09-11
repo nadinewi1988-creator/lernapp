@@ -11,6 +11,7 @@ import { SchnellDurchlauf } from './components/SchnellDurchlauf';
 import { Lernen } from './components/Lernen';
 import { MCTraining } from './components/MCTraining';
 import { Probeklausur } from './components/Probeklausur';
+import { EigeneKarten } from './components/EigeneKarten';
 import type { McItem } from './components/MCTraining';
 import type { Lesson } from './components/Lernen';
 import { ExamCountdown } from './components/ExamCountdown';
@@ -26,7 +27,7 @@ import {
   setHiddenCloud,
 } from './lib/progress';
 
-type Tab = 'lernen' | 'karten' | 'quiz' | 'probe' | 'schnell' | 'mc';
+type Tab = 'lernen' | 'karten' | 'quiz' | 'probe' | 'schnell' | 'mc' | 'eigene';
 
 export default function App() {
   const data: AppData = appData;
@@ -254,6 +255,12 @@ export default function App() {
             MC-Training
           </button>
         )}
+        <button
+          className={activeTab === 'eigene' ? 'active' : ''}
+          onClick={() => setTab('eigene')}
+        >
+          Eigene Karten
+        </button>
       </nav>
 
       {activeTab === 'lernen' && (
@@ -303,6 +310,14 @@ export default function App() {
         ))}
       {activeTab === 'mc' && (
         <MCTraining pool={mcPool} bloecke={mcBloecke} labels={mcLabels} />
+      )}
+      {activeTab === 'eigene' && (
+        <EigeneKarten
+          moduleId={module.id}
+          trackId={track.id}
+          sessions={track.sessions}
+          userId={user?.id}
+        />
       )}
       {activeTab === 'schnell' && (
         <SchnellDurchlauf

@@ -78,3 +78,38 @@ create policy "own exam_runs - update"
 create policy "own exam_runs - delete"
   on public.exam_runs for delete
   using (auth.uid() = user_id);
+
+-- ============================================================
+--  Eigene Karteikarten
+--
+--  Karten, die in der App selbst angelegt werden (Reiter
+--  "Eigene Karten"). Eine Zeile je Person + Modul + Bereich,
+--  darin ein JSON-Array aller eigenen Karten dieses Bereichs.
+--  Geloeschte Karten bleiben mit "deleted": true im Array
+--  stehen, damit die Loeschung auf allen Geraeten ankommt.
+--
+--  Diesen Block einmal im SQL-Editor ausfuehren (Run). Ein
+--  zweiter Lauf meldet nur "policy already exists" – harmlos.
+-- ============================================================
+create table if not exists public.custom_cards (
+  user_id    uuid        not null references auth.users(id) on delete cascade,
+  module_id  text        not null,
+  track_id   text        not null,
+  cards      jsonb       not null default '[]'::jsonb,
+  updated_at timestamptz not null default now(),
+  primary key (user_id, module_id, track_id)
+);
+alter table public.custom_cards enable row level security;
+create policy "own custom_cards - select"
+  on public.custom_cards for select
+  using (auth.uid() = user_id);
+create policy "own custom_cards - insert"
+  on public.custom_cards for insert
+  with check (auth.uid() = user_id);
+create policy "own custom_cards - update"
+  on public.custom_cards for update
+  using (auth.uid() = user_id)
+  with check (auth.uid() = user_id);
+create policy "own custom_cards - delete"
+  on public.custom_cards for delete
+  using (auth.uid() = user_id);

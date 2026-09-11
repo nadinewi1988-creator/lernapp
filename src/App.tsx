@@ -10,6 +10,7 @@ import { Exam } from './components/Exam';
 import { SchnellDurchlauf } from './components/SchnellDurchlauf';
 import { Lernen } from './components/Lernen';
 import { MCTraining } from './components/MCTraining';
+import { Probeklausur } from './components/Probeklausur';
 import type { McItem } from './components/MCTraining';
 import type { Lesson } from './components/Lernen';
 import { ExamCountdown } from './components/ExamCountdown';
@@ -280,9 +281,17 @@ export default function App() {
           sessions={track.sessions}
         />
       )}
-      {activeTab === 'probe' && (
-        <Exam moduleId={module.id} track={track} hidden={hidden} userId={user?.id} />
-      )}
+      {activeTab === 'probe' &&
+        (hasMC ? (
+          <Probeklausur
+            moduleId={module.id}
+            module={module}
+            hidden={hidden}
+            userId={user?.id}
+          />
+        ) : (
+          <Exam moduleId={module.id} track={track} hidden={hidden} userId={user?.id} />
+        ))}
       {activeTab === 'mc' && <MCTraining pool={mcPool} />}
       {activeTab === 'schnell' && (
         <SchnellDurchlauf

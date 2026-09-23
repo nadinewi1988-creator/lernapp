@@ -12,6 +12,22 @@
 export const examDates: Record<string, string | null> = {
   mab002: '2026-09-07',
   globalisierung: '2026-09-28',
-  mab003: '2026-07-31', // Erstversuch; nach dem 31.07. ggf. auf '2026-09-25' (Zweitversuch) ändern
-  ewb001: '2027-02-02', // Erstversuch (QISPOS); Zweittermin waere '2027-03-31'
+  mab003: '2026-07-31',
+  ewb001: '2027-02-02',
+};
+
+// ============================================================
+// Zweittermine (Nachschreibtermine). Optional — nur eintragen,
+// wo ein zweiter Termin bekannt ist.
+//
+// Anzeige im Countdown:
+//   solange der Ersttermin in der Zukunft liegt, steht der
+//   Zweittermin in Klammern dahinter;
+//   ist der Ersttermin vorbei, zaehlt der Countdown automatisch
+//   auf den Zweittermin weiter.
+// ============================================================
+
+export const examDatesZweittermin: Record<string, string | null> = {
+  mab003: '2026-09-25',
+  ewb001: '2027-03-31',
 };

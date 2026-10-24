@@ -187,3 +187,10 @@ section[aria-label="Credit Points"] { container-type: inline-size; }
   .kar-kopf { flex-wrap: nowrap; align-items: center; }
   .kar-kopf .neu-knopf { min-height: 40px !important; padding: 0 14px !important; font-size: 13px !important; white-space: nowrap; }
 }
+
+/* Lerntexte aus content/ */
+.lt-md p { margin: 0 0 8px; }
+.lt-md p:last-child { margin-bottom: 0; }
+.lt-tab { border-collapse: collapse; margin: 4px 0 8px; font-size: 13px; }
+.lt-tab th, .lt-tab td { border: 1px solid var(--line); padding: 4px 12px; text-align: center; }
+.lt-tab th { background: var(--paper); }

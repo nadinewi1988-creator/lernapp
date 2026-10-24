@@ -98,7 +98,6 @@ a { color: inherit; }
   .kopf h1 { font-size: 22px; }
   .inhalt { gap: 12px; }
   .inhalt section.karte, .kacheln > .karte { padding: 12px; border-radius: 14px; }
-  .bereiche { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
   .karte { padding: 12px; }
   .termin-zeile { grid-template-columns: 1fr 1fr; }
   .termin-zeile > span:first-child { grid-column: 1 / -1; }
@@ -110,15 +109,19 @@ a { color: inherit; }
 }
 
 /* Prüfungszeilen wie im Entwurf – als Raster, damit nichts je nach Fensterbreite verrutscht */
-.pr-zeile { display: grid; grid-template-columns: 72px minmax(0, 1fr) 140px minmax(0, auto); grid-template-areas: "chip text schild knopf"; align-items: center; gap: 12px; padding: 14px 0; border-top: 1px solid var(--line-2); }
+.pr-liste { container-type: inline-size; }
+.pr-zeile { display: grid; grid-template-columns: 72px minmax(0, 1fr) 140px 236px; grid-template-areas: "chip text schild knopf"; align-items: center; gap: 12px; padding: 14px 0; border-top: 1px solid var(--line-2); }
 .pr-chip { grid-area: chip; }
 .pr-text { grid-area: text; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
 .pr-schilder { grid-area: schild; display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
 .pr-knoepfe { grid-area: knopf; display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; align-items: center; }
 .pr-mobil { display: none; color: var(--ink-3); font-weight: 700; }
-@media (max-width: 1150px) {
+/* schmaler Platz (z. B. kleines Fenster): Schilder und Knöpfe unter den Text, Kürzel oben bündig */
+@container (max-width: 780px) {
   .pr-zeile { grid-template-columns: 72px minmax(0, 1fr) auto; grid-template-areas: "chip text text" ". schild knopf"; row-gap: 8px; }
+  .pr-chip { align-self: start; margin-top: 1px; }
   .pr-schilder { flex-direction: row; flex-wrap: wrap; align-items: center; }
+  .pr-knoepfe:empty { display: none; }
 }
 @media (max-width: 700px) {
   .pr-zeile { grid-template-columns: 72px minmax(0, 1fr); grid-template-areas: "chip schild" "text text" "knopf knopf"; }
@@ -131,7 +134,9 @@ a { color: inherit; }
   .sem-info { margin-left: 22px !important; flex-basis: 100%; font-size: 12px !important; }
 }
 
+section[aria-label="Credit Points"] { container-type: inline-size; }
 .bereiche { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
 .b-kurz { display: none; }
-@media (max-width: 1150px) { .bereiche { grid-template-columns: repeat(3, minmax(0, 1fr)); } .b-lang { display: none; } .b-kurz { display: inline; } }
-@media (max-width: 700px) { .bereiche { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@container (max-width: 940px) { .b-lang { display: none; } .b-kurz { display: inline; } }
+@container (max-width: 560px) { .bereiche { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@container (max-width: 380px) { .bereiche { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

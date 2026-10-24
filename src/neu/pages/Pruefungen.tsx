@@ -104,7 +104,7 @@ export function Pruefungen({ stand, unter, gehe, neuLaden }: Props) {
                   <span className="klein-text sem-info" style={{ marginLeft: 'auto', fontWeight: 700 }}>{ps.aktuell ? 'aktuell · ' : ''}{zus}</span>
                 </button>
                 {auf && (
-                  <div style={{ padding: '0 20px 12px' }}>
+                  <div className="pr-liste" style={{ padding: '0 20px 12px' }}>
                     {ps.liste.map((e) => (
                       <Zeile key={e.pruefung.id + (e.imUrsprung ? 'u' : '')} e={e} aktuell={ps.aktuell} stand={stand}
                         note={(v) => setNoteD(v ? { e, nr: v.nr, wert: v.unbenotet ? 'unbenotet' : noteText(v.note ?? 1), datum: v.datum ?? '', id: v.id } : { e, nr: e.versuche.length + 1, wert: e.modul.kuerzel === 'opb001' || e.modul.kuerzel === 'pbb133' ? 'unbenotet' : '1,0', datum: e.naechster?.termin?.datum && e.naechster.termin.datum <= heuteIso() ? e.naechster.termin.datum : '' })}

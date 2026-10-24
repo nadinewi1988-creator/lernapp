@@ -1,0 +1,101 @@
+/* Lernapp – Neuaufbau. Design wie im Entwurf (Design-Canvas):
+   Nunito, helle Flächen, Modul-Pastellfarben, weiße Knöpfe mit hellem Rand. */
+:root {
+  --ink: #1f2328;
+  --ink-2: #4b5563;
+  --ink-3: #6b6f76;
+  --ink-4: #9a9ea5;
+  --paper: #f7f7f4;
+  --card: #ffffff;
+  --line: #e6e6e0;
+  --line-2: #f0f0eb;
+  --chip: #efefea;
+  --gruen: #2f7a4b;
+  --gruen-bg: #e3f2e8;
+  --rot: #c42b2b;
+  --rot-bg: #fde9e9;
+  --orange: #9a5b14;
+  --orange-bg: #fdf1e2;
+  --lila: #6a58a0;
+  --lila-bg: #f1edfa;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--paper); color: var(--ink); font-family: 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif; -webkit-font-smoothing: antialiased; }
+button, input, select, textarea { font-family: inherit; color: inherit; }
+a { color: inherit; }
+
+/* ---------- Rahmen ---------- */
+.app { display: flex; min-height: 100vh; }
+.seitenleiste { flex: 0 0 240px; padding: 24px 14px; display: flex; flex-direction: column; gap: 4px; position: sticky; top: 0; height: 100vh; box-sizing: border-box; }
+.logo { display: flex; gap: 12px; align-items: center; padding: 0 8px 20px; }
+.logo-symbol { width: 44px; height: 44px; border-radius: 12px; background: #fff; border: 1px solid var(--line); display: grid; place-items: center; }
+.logo b { display: block; font-size: 18px; font-weight: 800; }
+.logo span { display: block; font-size: 13px; color: var(--ink-3); line-height: 1.3; }
+.nav-link { display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: var(--ink-2); font-weight: 600; text-decoration: none; cursor: pointer; border: 0; background: none; font-size: 16px; text-align: left; }
+.nav-link.aktiv { background: #fff; box-shadow: 0 1px 2px rgba(0,0,0,.06); color: var(--ink); font-weight: 700; }
+.nav-unter { display: flex; flex-direction: column; gap: 2px; margin: 2px 0 6px 40px; }
+.nav-unter button { text-align: left; border: 0; background: none; padding: 6px 10px; border-radius: 10px; font-size: 14px; font-weight: 700; color: var(--ink-3); cursor: pointer; }
+.nav-unter button.aktiv { background: #fff; color: var(--ink); box-shadow: 0 1px 2px rgba(0,0,0,.06); }
+.inhalt { flex: 999 1 560px; min-width: 0; padding: 28px 32px 48px; display: flex; flex-direction: column; gap: 18px; max-width: 1180px; }
+.untennav { display: none; position: fixed; left: 0; right: 0; bottom: 0; height: 72px; background: #fff; border-top: 1px solid var(--line); grid-template-columns: repeat(5, minmax(0, 1fr)); padding-bottom: env(safe-area-inset-bottom); z-index: 15; }
+.untennav button { border: 0; background: none; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 600; color: var(--ink-3); cursor: pointer; }
+.untennav button.aktiv { color: var(--ink); font-weight: 800; }
+@media (max-width: 700px) {
+  .seitenleiste { display: none; }
+  .untennav { display: grid; }
+  .inhalt { padding: 16px 16px 100px; gap: 14px; }
+  .nur-gross { display: none !important; }
+}
+@media (min-width: 701px) { .nur-klein { display: none !important; } }
+
+/* ---------- Bausteine ---------- */
+.kopf { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 12px; }
+.kopf h1 { margin: 0; font-size: 30px; font-weight: 800; }
+.kopf .unter { font-size: 14px; color: var(--ink-3); font-weight: 600; margin-top: 2px; }
+@media (max-width: 700px) { .kopf h1 { font-size: 24px; } }
+.knopf { min-height: 40px; padding: 0 16px; border: 1px solid var(--line); border-radius: 999px; background: #fff; font-size: 14px; font-weight: 700; color: var(--ink); cursor: pointer; display: inline-flex; align-items: center; gap: 6px; text-decoration: none; }
+.knopf.gross { min-height: 44px; font-size: 15px; font-weight: 800; padding: 0 18px; }
+.knopf.klein { min-height: 32px; padding: 0 12px; font-size: 13px; }
+.knopf.rot { color: var(--rot); }
+.knopf:disabled { opacity: .45; cursor: default; }
+.link-knopf { border: 0; background: none; padding: 2px 0; font-size: 13px; font-weight: 700; color: var(--ink-2); text-decoration: underline; cursor: pointer; }
+.umschalter { align-self: flex-start; display: flex; flex-wrap: wrap; gap: 3px; padding: 3px; background: var(--chip); border-radius: 999px; }
+.umschalter button { min-height: 38px; padding: 0 16px; border: 0; border-radius: 999px; background: transparent; font-size: 14px; font-weight: 800; cursor: pointer; color: var(--ink); }
+.umschalter button.aktiv { background: #fff; box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+.karte { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px; }
+.kacheln { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.kachel-label { font-size: 13px; color: var(--ink-3); font-weight: 700; }
+.kachel-wert { font-size: 28px; font-weight: 800; line-height: 1.2; }
+.kachel-info { font-size: 13px; color: var(--ink-3); }
+.schild { display: inline-flex; align-items: center; padding: 2px 10px; border-radius: 999px; font-size: 12px; font-weight: 800; white-space: nowrap; }
+.klein-text { font-size: 13px; color: var(--ink-3); }
+.balken { height: 8px; border-radius: 999px; background: var(--line-2); overflow: hidden; }
+.balken > div { height: 100%; border-radius: 999px; }
+
+/* ---------- Dialog ---------- */
+.dialog-hg { position: fixed; inset: 0; background: rgba(31,35,40,.35); display: flex; align-items: center; justify-content: center; padding: 12px; z-index: 30; }
+.dialog { width: 100%; max-width: 520px; max-height: calc(100vh - 24px); overflow-y: auto; background: #fff; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 20px 50px rgba(0,0,0,.18); }
+.dialog h2 { margin: 0; font-size: 18px; font-weight: 800; }
+.feld { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--ink-3); font-weight: 800; }
+.feld input, .feld select, .feld textarea { border: 1px solid var(--line); background: var(--paper); border-radius: 10px; padding: 9px 10px; font-size: 15px; color: var(--ink); font-weight: 400; }
+.dialog-knoepfe { display: flex; justify-content: flex-end; gap: 8px; flex-wrap: wrap; }
+.fehler { font-size: 13px; color: var(--rot); }
+
+/* ---------- Anmeldung ---------- */
+.anmelden { min-height: 100vh; display: grid; place-items: center; padding: 20px; }
+.anmelden .karte { max-width: 420px; width: 100%; display: flex; flex-direction: column; gap: 14px; padding: 28px; text-align: center; align-items: center; }
+
+.einzug { margin-left: 84px; }
+.termin-zeile { display: grid; grid-template-columns: 1.2fr 1fr 1fr; }
+@media (max-width: 700px) {
+  .einzug { margin-left: 0; }
+  .kacheln { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .kachel-wert { font-size: 20px; }
+  .karte { padding: 12px; }
+  .termin-zeile { grid-template-columns: 1fr 1fr; }
+  .termin-zeile > span:first-child { grid-column: 1 / -1; }
+}
+@media (max-width: 700px) {
+  .umschalter { align-self: stretch; flex-wrap: nowrap; }
+  .umschalter button { flex: 1 1 0; padding: 0 6px; font-size: 13px; min-height: 36px; }
+}

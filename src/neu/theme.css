@@ -140,3 +140,23 @@ section[aria-label="Credit Points"] { container-type: inline-size; }
 @container (max-width: 940px) { .b-lang { display: none; } .b-kurz { display: inline; } }
 @container (max-width: 560px) { .bereiche { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @container (max-width: 380px) { .bereiche { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* Kalender (wie Entwurf) */
+.kal { display: contents; }
+.woche-klein { display: none; }
+.kal-kopf { flex-wrap: wrap !important; }
+.kal-nav { flex-wrap: nowrap !important; }
+.kal-textknopf { align-self: flex-start; border: 0; background: none; padding: 4px; font-size: 13px; color: var(--ink-3); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+@media (max-width: 900px) { .listen { grid-template-columns: 1fr !important; } }
+@media (max-width: 700px) {
+  .kal-kopf { align-items: flex-start !important; flex-wrap: wrap !important; }
+  .kal-nav { flex-wrap: nowrap !important; gap: 4px !important; }
+  .kal-nav button { min-height: 36px !important; font-size: 13px !important; }
+  .kal-nav button[aria-label] { width: 36px !important; height: 36px !important; }
+  .kal-nav .neu-knopf { padding: 0 10px !important; white-space: nowrap; }
+  .woche-gross { display: none !important; }
+  .woche-klein { display: flex !important; }
+  .zeilen { grid-template-columns: 1fr !important; gap: 4px !important; }
+  .zeilen > div { margin-bottom: 8px; }
+  .listen section { padding: 12px !important; }
+}

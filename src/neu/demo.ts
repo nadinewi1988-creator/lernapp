@@ -1,6 +1,8 @@
 // Nur für den lokalen Bildvergleich mit dem Entwurf (npm run dev, Adresse mit ?demo).
 // Baut den Studienstand aus den Startdaten, ohne Supabase. Im fertigen Build nicht aktiv.
 import { SEMESTER, MODULE, bereichVon } from './data/studienverlauf';
+import { KURSE, EXTRA_TEILMODULE, sitzungenVon, entfallGrund, VERPASST_VON, VERPASST_BIS } from './data/kalender';
+import { START_EINTRAEGE, START_MARKS } from './data/kalender_start';
 import type { Studienstand } from './db';
 
 export const DEMO = import.meta.env.DEV && new URLSearchParams(window.location.search).has('demo');
@@ -11,7 +13,16 @@ export function demoStand(): Studienstand {
   const pruefungen = MODULE.map((m, i) => ({ id: 'p' + i, modul_id: 'm' + i, form: m.form, semester_id: 's' + m.sem, verschoben_nach_semester_id: m.verschoben_nach ? 's' + m.verschoben_nach : null, verschoben_grund: null }));
   const termine = MODULE.flatMap((m, i) => (m.termine ?? []).map((t, j) => ({ id: 't' + i + '_' + j, pruefung_id: 'p' + i, art: t.art, datum: t.datum ?? null, zeit: t.zeit ?? null, anmeldung_ab: t.anmeldung_ab ?? null, anmeldung_bis: t.anmeldung_bis ?? null, abmeldung_bis: t.abmeldung_bis ?? null, quelle: 'studip', stand: '2026-10-24T00:00:00Z' })));
   const voraussetzungen = MODULE.flatMap((m, i) => (m.voraussetzungen ?? []).map((v, j) => ({ id: 'v' + i + '_' + j, pruefung_id: 'p' + i, text: v.text, erledigt: v.erledigt, reihenfolge: j })));
-  return { studiengangId: 'demo', semester, module, pruefungen, termine, versuche: demoVersuche(), voraussetzungen, einstellungen: { user_id: 'demo', bafoeg_grenze: 90 } };
+  const modId = (k: string) => module.find((m) => m.kuerzel === k.slice(0, 6))?.id ?? '';
+  const teilmodule = [...KURSE.map((k, i) => ({ id: 'tm' + i, modul_id: modId(k.modul), kuerzel: k.modul, name: k.titel, art: k.art, freiwillig: false })),
+    ...EXTRA_TEILMODULE.map((x, i) => ({ id: 'tx' + i, modul_id: modId(x.modul), kuerzel: x.modul, name: x.titel, art: x.art, freiwillig: true }))];
+  const veranstaltungen = KURSE.map((k, i) => ({ id: 'v' + i, teilmodul_id: 'tm' + i, titel: k.titel, kurz: k.kurz, wochentag: k.wd !== undefined ? k.wd + 1 : null, von: null, bis: null, raum: k.raum ?? null, rhythmus: 'woechentlich', studip_id: k.id }));
+  const sitzungen = KURSE.flatMap((k, i) => sitzungenVon(k).map((x, j) => { const m = START_MARKS[k.id + '_' + x.datum] ?? {}; const g = entfallGrund(x.datum);
+    return { id: 's' + i + '_' + j, veranstaltung_id: 'v' + i, nr: j + 1, datum: x.datum, von: x.von, bis: x.bis, raum: x.raum, thema: x.thema || null, status: g ? 'entfaellt' : m.ausgefallen ? 'ausgefallen' : 'findet_statt', entfall_grund: g || null,
+      anwesenheit: g || m.ausgefallen ? 'offen' : m.anwesend === true ? 'ja' : m.anwesend === false ? 'nein' : x.datum >= VERPASST_VON && x.datum <= VERPASST_BIS ? 'nein' : 'offen', nachgearbeitet: !!m.nachgearbeitet }; }));
+  const tmId = (k: string) => teilmodule.find((t) => t.kuerzel === k)?.id ?? null;
+  const eintraege = START_EINTRAEGE.map((e, i) => ({ id: 'e' + i, art: e.art, titel: e.titel, modul_id: e.modul ? modId(e.modul) || null : null, teilmodul_id: e.modul.includes('.') ? tmId(e.modul) : null, sitzung_id: null, datum: e.datum, zeit: e.zeit || null, ende: null, ganztaegig: false, bis_datum: null, wiederholung: null, notiz: e.notiz || null, erledigt: e.erledigt }));
+  return { studiengangId: 'demo', semester, module, pruefungen, termine, versuche: demoVersuche(), voraussetzungen, einstellungen: { user_id: 'demo', bafoeg_grenze: 90 }, teilmodule, veranstaltungen, sitzungen, eintraege };
 }
 
 // Beispielnoten nur für den Bildvergleich (wie auf Nadines Bildschirmfoto), nicht ihre echten Daten.

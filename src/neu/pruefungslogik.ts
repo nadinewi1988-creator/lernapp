@@ -87,6 +87,8 @@ export function auswerten(st: Studienstand) {
     mathe: schnitt((e) => e.modul.bereich === 'Mathe'),
     politik: schnitt((e) => e.modul.bereich === 'Politik'),
     profil: schnitt((e) => e.modul.bereich === 'Profil'),
+    praktika: schnitt((e) => e.modul.bereich === 'Praktika'),
+    ba: schnitt((e) => e.modul.bereich === 'BA-Arbeit'),
   };
 
   // Dieses Semester

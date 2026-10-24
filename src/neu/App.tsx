@@ -5,6 +5,7 @@ import { ersteinrichtung, ladeStudienstand, type Studienstand } from './db';
 import { aktuellesSemester } from './pruefungslogik';
 import { DEMO, demoStand } from './demo';
 import { Pruefungen } from './pages/Pruefungen';
+import { Kalender } from './pages/Kalender';
 import './theme.css';
 
 export type Seite = 'dashboard' | 'kalender' | 'module' | 'pruefungen' | 'karten';
@@ -82,7 +83,8 @@ export default function App() {
         {fehler && <div className="karte fehler">Fehler beim Laden: {fehler}</div>}
         {!stand && !fehler && <span className="klein-text">Lade deinen Studienverlauf …</span>}
         {stand && ort.seite === 'pruefungen' && <Pruefungen stand={stand} unter={ort.unter} gehe={(u) => gehe('pruefungen', u)} neuLaden={neuLaden} />}
-        {stand && ort.seite !== 'pruefungen' && <Baustelle name={SEITEN.find((s) => s.id === ort.seite)!.name} />}
+        {stand && ort.seite === 'kalender' && <Kalender stand={stand} neuLaden={neuLaden} />}
+        {stand && ort.seite !== 'pruefungen' && ort.seite !== 'kalender' && <Baustelle name={SEITEN.find((s) => s.id === ort.seite)!.name} />}
       </main>
       <nav className="untennav" aria-label="Navigation">
         {SEITEN.map((s) => <button key={s.id} className={ort.seite === s.id ? 'aktiv' : ''} onClick={() => gehe(s.id)}>{s.icon}{s.kurz}</button>)}

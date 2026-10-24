@@ -204,9 +204,9 @@ export function Karten({ stand, unter, gehe, neuLaden }: Props) {
     const zRichtig = k.format === 'zuordnung' ? k.elemente.filter((e, i) => U.zu[i] === e.kat).length : 0;
     const getippt = k.format === 'frage' && !!U.eingabe.trim(), frOk = getippt && norm(U.eingabe) === norm(k.hinten);
     const kiOk = k.format === 'offen' && ki?.id === k.id && !ki.lade && !ki.fehler && ki.pct !== undefined, kiLaedt = k.format === 'offen' && ki?.id === k.id && ki.lade;
-    const teilw = (k.format === 'luecke' && luOk > 0) || (k.format === 'zuordnung' && zRichtig > 0) || (k.format === 'mc' && U.wahl.some((w) => k.richtig.includes(w))) || (kiOk && ki!.pct! >= 40);
+    const teilw = (k.format === 'luecke' && luOk > 0) || (k.format === 'zuordnung' && zRichtig > 0) || (k.format === 'mc' && U.wahl.some((w) => k.richtig.includes(w))) || (kiOk && ki!.pct! >= 50);
     const objektiv = frOk || kiOk || k.format === 'mc' || k.format === 'luecke' || k.format === 'zuordnung';
-    const alles = kiOk ? ki!.pct! >= 80 : frOk ? true : k.format === 'mc' ? wahlOk : k.format === 'luecke' ? luOk === LU.length : k.format === 'zuordnung' ? zRichtig === k.elemente.length : false;
+    const alles = kiOk ? ki!.pct! >= 90 : frOk ? true : k.format === 'mc' ? wahlOk : k.format === 'luecke' ? luOk === LU.length : k.format === 'zuordnung' ? zRichtig === k.elemente.length : false;
     return { wahlOk, LU, luOk, zRichtig, getippt, frOk, teilw, objektiv, alles, kiLaedt };
   })();
   // KI-Rückmeldung bei offenen Aufgaben (Edge Function „grade“ im Supabase-Projekt)
@@ -626,7 +626,7 @@ export function Karten({ stand, unter, gehe, neuLaden }: Props) {
                     {k.format === 'offen' && U.eingabe.trim() && ki?.id === k.id && <div style={{ display: 'flex', flexDirection: 'column', gap: 4, borderTop: '1px solid #f0f0eb', paddingTop: 8 }}>
                       {ki.lade ? <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>KI prüft deine Antwort …</span>
                         : ki.fehler ? <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>Die KI-Rückmeldung hat gerade nicht geklappt – schätze dich bitte selbst ein. ({ki.fehler.slice(0, 120)})</span>
-                        : <><span style={{ display: 'flex', alignItems: 'baseline', gap: 8 }}><span style={{ fontSize: 12, fontWeight: 800, color: 'var(--ink-3)' }}>KI-Rückmeldung</span><span style={{ fontSize: 18, fontWeight: 800, color: ki.pct! >= 80 ? '#2f7a4b' : ki.pct! >= 40 ? '#a3580b' : '#c42b2b' }}>{ki.pct} %</span></span><span style={{ fontSize: 14, lineHeight: 1.45 }}>{ki.fb}</span></>}
+                        : <><span style={{ display: 'flex', alignItems: 'baseline', gap: 8 }}><span style={{ fontSize: 12, fontWeight: 800, color: 'var(--ink-3)' }}>KI-Rückmeldung</span><span style={{ fontSize: 18, fontWeight: 800, color: ki.pct! >= 90 ? '#2f7a4b' : ki.pct! >= 50 ? '#a3580b' : '#c42b2b' }}>{ki.pct} %</span></span><span style={{ fontSize: 14, lineHeight: 1.45 }}>{ki.fb}</span></>}
                     </div>}
                     {k.format === 'offen' && !U.eingabe.trim() && <span style={{ fontSize: 12, color: 'var(--ink-3)', borderTop: '1px solid #f0f0eb', paddingTop: 6 }}>Für eine KI-Rückmeldung vor dem Aufdecken eine Antwort schreiben.</span>}
                   </div>
@@ -638,7 +638,7 @@ export function Karten({ stand, unter, gehe, neuLaden }: Props) {
                   {bew.objektiv && bew.alles && <button type="button" onClick={() => weiter(k, 'sicher', 'r')} style={{ minHeight: 46, border: '1px solid var(--line)', borderRadius: 999, background: '#e3f2e8', fontSize: 15, fontWeight: 800, color: '#2f7a4b', cursor: 'pointer' }}>Richtig – weiter</button>}
                   {bew.objektiv && !bew.alles && <>
                     <button type="button" onClick={() => weiter(k, 'unsicher', bew.teilw ? 't' : 'f')} style={{ minHeight: 46, border: '1px solid var(--line)', borderRadius: 999, background: '#fff3e0', fontSize: 15, fontWeight: 800, color: '#a3580b', cursor: 'pointer' }}>Weiter <span style={{ fontWeight: 600 }}>(kommt wieder)</span></button>
-                    <button type="button" onClick={() => weiter(k, 'sicher')} style={{ alignSelf: 'center', border: 0, background: 'none', padding: '2px 0', fontSize: 13, fontWeight: 700, color: 'var(--ink-3)', textDecoration: 'underline', cursor: 'pointer' }}>War nur ein Tippfehler – als gewusst zählen</button>
+                    <button type="button" onClick={() => weiter(k, 'sicher')} style={{ alignSelf: 'center', border: 0, background: 'none', padding: '2px 0', fontSize: 13, fontWeight: 700, color: 'var(--ink-3)', textDecoration: 'underline', cursor: 'pointer' }}>{k.format === 'offen' ? 'Trotzdem als gewusst zählen' : 'War nur ein Tippfehler – als gewusst zählen'}</button>
                   </>}
                 </>}
               </>);

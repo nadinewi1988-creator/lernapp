@@ -160,3 +160,9 @@ section[aria-label="Credit Points"] { container-type: inline-size; }
   .zeilen > div { margin-bottom: 8px; }
   .listen section { padding: 12px !important; }
 }
+
+/* Dashboard */
+.db-stand { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.db-kachel { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 4px; text-decoration: none; color: var(--ink); min-width: 0; }
+.db-cp { grid-column: span 2; gap: 10px; }
+@media (max-width: 1000px) { .db-stand { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

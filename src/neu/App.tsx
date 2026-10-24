@@ -6,6 +6,7 @@ import { aktuellesSemester } from './pruefungslogik';
 import { DEMO, demoStand } from './demo';
 import { Pruefungen } from './pages/Pruefungen';
 import { Kalender } from './pages/Kalender';
+import { Dashboard } from './pages/Dashboard';
 import './theme.css';
 
 export type Seite = 'dashboard' | 'kalender' | 'module' | 'pruefungen' | 'karten';
@@ -35,7 +36,7 @@ function useUser() {
 
 function leseOrt(): { seite: Seite; unter: string } {
   const [s, u] = window.location.hash.replace(/^#\/?/, '').split('/');
-  const seite = (SEITEN.find((x) => x.id === s)?.id ?? 'pruefungen') as Seite;
+  const seite = (SEITEN.find((x) => x.id === s)?.id ?? 'dashboard') as Seite;
   return { seite, unter: u ?? UNTER[seite]?.[0]?.id ?? '' };
 }
 
@@ -83,8 +84,9 @@ export default function App() {
         {fehler && <div className="karte fehler">Fehler beim Laden: {fehler}</div>}
         {!stand && !fehler && <span className="klein-text">Lade deinen Studienverlauf …</span>}
         {stand && ort.seite === 'pruefungen' && <Pruefungen stand={stand} unter={ort.unter} gehe={(u) => gehe('pruefungen', u)} neuLaden={neuLaden} />}
+        {stand && ort.seite === 'dashboard' && <Dashboard stand={stand} neuLaden={neuLaden} gehe={(s, u) => gehe(s as Seite, u)} />}
         {stand && ort.seite === 'kalender' && <Kalender stand={stand} neuLaden={neuLaden} />}
-        {stand && ort.seite !== 'pruefungen' && ort.seite !== 'kalender' && <Baustelle name={SEITEN.find((s) => s.id === ort.seite)!.name} />}
+        {stand && ort.seite !== 'pruefungen' && ort.seite !== 'kalender' && ort.seite !== 'dashboard' && <Baustelle name={SEITEN.find((s) => s.id === ort.seite)!.name} />}
       </main>
       <nav className="untennav" aria-label="Navigation">
         {SEITEN.map((s) => <button key={s.id} className={ort.seite === s.id ? 'aktiv' : ''} onClick={() => gehe(s.id)}>{s.icon}{s.kurz}</button>)}
@@ -97,7 +99,7 @@ function Baustelle({ name }: { name: string }) {
   return (
     <>
       <header className="kopf"><div><h1>{name}</h1><div className="unter">Neuaufbau – diese Seite folgt als Nächstes</div></div></header>
-      <div className="karte klein-text">Diese Seite wird gerade nach dem Entwurf gebaut. Fertig ist bereits die Prüfungsseite.</div>
+      <div className="karte klein-text">Diese Seite wird gerade nach dem Entwurf gebaut. Fertig sind bereits Dashboard, Kalender und Prüfungen.</div>
     </>
   );
 }

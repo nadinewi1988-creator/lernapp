@@ -22,6 +22,8 @@ export function demoStand(): Studienstand {
       anwesenheit: g || m.ausgefallen ? 'offen' : m.anwesend === true ? 'ja' : m.anwesend === false ? 'nein' : x.datum >= VERPASST_VON && x.datum <= VERPASST_BIS ? 'nein' : 'offen', nachgearbeitet: !!m.nachgearbeitet }; }));
   const tmId = (k: string) => teilmodule.find((t) => t.kuerzel === k)?.id ?? null;
   const eintraege = START_EINTRAEGE.map((e, i) => ({ id: 'e' + i, art: e.art, titel: e.titel, modul_id: e.modul ? modId(e.modul) || null : null, teilmodul_id: e.modul.includes('.') ? tmId(e.modul) : null, sitzung_id: null, datum: e.datum, zeit: e.zeit || null, ende: null, ganztaegig: false, bis_datum: null, wiederholung: null, notiz: e.notiz || null, erledigt: e.erledigt }));
+  eintraege.push({ id: 'dp1', art: 'privat', titel: 'Experiment Großbritannien', modul_id: null, teilmodul_id: null, sitzung_id: null, datum: '2026-10-30', zeit: '10:00', ende: '10:45', ganztaegig: false, bis_datum: null, wiederholung: null, notiz: null, erledigt: false },
+    { id: 'dp2', art: 'privat', titel: 'Zahnarzt', modul_id: null, teilmodul_id: null, sitzung_id: null, datum: '2026-10-30', zeit: '08:00', ende: '08:30', ganztaegig: false, bis_datum: null, wiederholung: null, notiz: null, erledigt: false });
   return { studiengangId: 'demo', semester, module, pruefungen, termine, versuche: demoVersuche(), voraussetzungen, einstellungen: { user_id: 'demo', bafoeg_grenze: 90 }, teilmodule, veranstaltungen, sitzungen, eintraege, lernstand: [], lernzeit: [] };
 }
 

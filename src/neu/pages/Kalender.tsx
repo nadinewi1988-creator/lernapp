@@ -251,7 +251,13 @@ export function Kalender({ stand, neuLaden }: Props) {
   const toggle: CSSProperties = { display: 'flex', gap: 10, alignItems: 'center', padding: '10px 12px', borderRadius: 10, background: 'var(--paper)', fontSize: 14, color: 'var(--ink)', cursor: 'pointer' };
   const gruppenKopf: CSSProperties = { display: 'flex', justifyContent: 'space-between', alignItems: 'center', minHeight: 34, padding: '0 4px', border: 0, background: 'transparent', fontSize: 12, fontWeight: 800, letterSpacing: '0.06em', color: 'var(--ink-3)', cursor: 'pointer' };
 
-  const EvKnopf = ({ ev, gross }: { ev: Ev; gross?: boolean }) => (
+  const EvKnopf = ({ ev, gross }: { ev: Ev; gross?: boolean }) => ev.hoehe < 58 ? (
+    // Kurze Termine (unter einer Stunde): Kürzel und Titel in einer Zeile, darunter die Zeit – sonst würde der Text abgeschnitten
+    <button type="button" onClick={ev.oeffne} title={ev.titel} style={{ position: 'absolute', top: ev.top, height: ev.hoehe, left: ev.links, width: ev.breite, boxSizing: 'border-box', border: 0, borderRadius: 8, padding: ev.hoehe < 36 ? '2px 8px' : '4px 8px', textAlign: 'left', overflow: 'hidden', display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: 1, fontSize: gross ? 13 : 12, lineHeight: 1.2, cursor: 'pointer', color: 'var(--ink)', background: ev.bg, boxShadow: 'inset 3px 0 0 ' + ev.rand, opacity: ev.opazitaet }}>
+      <span style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', textDecoration: ev.deko }}>{ev.modul !== 'Privat' && <b style={{ fontSize: 11, color: ev.fg, marginRight: 5 }}>{ev.modul}</b>}<b>{ev.kurz}</b></span>
+      {ev.hoehe >= 36 && <span style={{ color: 'var(--ink-3)', fontSize: 11, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{gross ? ev.metaLang : ev.meta}</span>}
+    </button>
+  ) : (
     <button type="button" onClick={ev.oeffne} title={ev.titel} style={{ position: 'absolute', top: ev.top, height: ev.hoehe, left: ev.links, width: ev.breite, boxSizing: 'border-box', border: 0, borderRadius: 8, padding: '6px 8px', textAlign: 'left', overflow: 'hidden', display: 'flex', flexDirection: 'column', gap: 2, fontSize: gross ? 13 : 12, lineHeight: 1.25, cursor: 'pointer', color: 'var(--ink)', background: ev.bg, boxShadow: 'inset 3px 0 0 ' + ev.rand, opacity: ev.opazitaet }}>
       <span style={{ display: 'flex', alignItems: 'center', gap: 5, whiteSpace: 'nowrap', fontSize: 11, fontWeight: 800, color: ev.fg }}>{ev.modul}
         {ev.punkt && <span title="noch nachholen" style={{ width: 7, height: 7, borderRadius: '50%', background: '#e07a88', flex: 'none' }} />}

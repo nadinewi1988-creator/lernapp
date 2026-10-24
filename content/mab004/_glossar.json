@@ -183,6 +183,48 @@
       "erklaerung": "Analoges Rechengerät mit verschiebbaren Skalen; wurde an Schulen in den letzten Jahrzehnten des 20. Jahrhunderts vom Taschenrechner abgelöst.",
       "quelle": "mab004.2_2026-10-20 · Ausstellung.JPG",
       "abweichungen": []
+    },
+    {
+      "begriff": "Kommutativgesetz",
+      "wortlaut": "Ergänzung (nicht aus dem Material): a + b = b + a und a · b = b · a",
+      "erklaerung": "Bei Addition und Multiplikation darf man die Reihenfolge der Zahlen vertauschen. Beispiel: 345 + 78 + 55 = 345 + 55 + 78.",
+      "quelle": "mab004.2_2026-10-27 · Blatt 3, Ü1–Ü3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Assoziativgesetz",
+      "wortlaut": "Ergänzung (nicht aus dem Material): (a + b) + c = a + (b + c) und (a · b) · c = a · (b · c)",
+      "erklaerung": "Bei reiner Addition bzw. reiner Multiplikation darf man beliebig Klammern setzen. Beispiel: 37 · 25 · 4 = 37 · (25 · 4) = 3700. Am Taschenrechner gilt es wegen Rundung nur eingeschränkt.",
+      "quelle": "mab004.2_2026-10-27 · Blatt 3, Ü1–Ü3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Distributivgesetz",
+      "wortlaut": "Ergänzung (nicht aus dem Material): a · (b + c) = a · b + a · c",
+      "erklaerung": "Ein Faktor kann ausgeklammert bzw. ausmultipliziert werden. Beispiel: 3 · 89 + 89 · 7 = 89 · (3 + 7) = 890; 98 · 15 = (100 − 2) · 15 = 1470.",
+      "quelle": "mab004.2_2026-10-27 · Blatt 3, Ü2–Ü3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Neutrales Element",
+      "wortlaut": "Ergänzung (nicht aus dem Material): 0 ist neutral bezüglich der Addition (a + 0 = a), 1 ist neutral bezüglich der Multiplikation (a · 1 = a).",
+      "erklaerung": "Das neutrale Element ändert eine Zahl nicht. Beispiel: 9876 · (5 − 4) = 9876 · 1 = 9876.",
+      "quelle": "mab004.2_2026-10-27 · Blatt 3, Ü3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Inverses Element",
+      "wortlaut": "Ergänzung (nicht aus dem Material): −a ist invers zu a bezüglich der Addition (a + (−a) = 0), 1/a ist invers zu a ≠ 0 bezüglich der Multiplikation (a · 1/a = 1).",
+      "erklaerung": "Zusammen mit dem Inversen ergibt sich das neutrale Element. Beispiel: 8765 · 12 · 1/8765 = 12.",
+      "quelle": "mab004.2_2026-10-27 · Blatt 3, Ü3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Ab- und Aufrunden auf k Stellen",
+      "wortlaut": "Auf Blatt 3 verwendet: b₃ = ⌊z₁⌋₄ („abgerundeter Wert an der vierten Nachkommastelle“), b₂ = ⌈z₂⌉₈. In der Vorlesung nicht eigens definiert – analog zu Def. 2.3: b · 10ᵏ = ⌊a · 10ᵏ⌋ bzw. ⌈a · 10ᵏ⌉ (Annahme, offene Frage).",
+      "erklaerung": "Komma um k Stellen nach rechts, ab- bzw. aufrunden, Komma zurück. Beispiel: ⌊638,8937644476⌋₄ = 638,8937.",
+      "quelle": "mab004.2_2026-10-27 · Blatt 3, G2c / Ü6",
+      "abweichungen": []
     }
   ]
 }

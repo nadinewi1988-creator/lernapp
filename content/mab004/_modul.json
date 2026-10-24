@@ -39,7 +39,8 @@
     {
       "text": "Grundlagen der numerischen Berechnung in digitalen Medien sowie Codierung und Verarbeitung von Daten kennen (z. B. wie Taschenrechner und Tabellenkalkulation rechnen).",
       "abgedeckt_in": [
-        "mab004.1_2026-10-20"
+        "mab004.1_2026-10-20",
+        "mab004.2_2026-10-27"
       ]
     },
     {
@@ -60,7 +61,8 @@
       "text": "Digitale Werkzeuge (Taschenrechner ohne CAS, Tabellenkalkulation, Programmiersoftware) reflektiert für mathematische Problemstellungen und Lehr-Lern-Kontexte einsetzen, Näherungsverfahren bewerten.",
       "abgedeckt_in": [
         "mab004.1_2026-10-13",
-        "mab004.1_2026-10-20"
+        "mab004.1_2026-10-20",
+        "mab004.2_2026-10-27"
       ]
     },
     {
@@ -69,7 +71,8 @@
         "mab004.1_2026-10-13",
         "mab004.1_2026-10-20",
         "mab004.2_2026-10-13",
-        "mab004.2_2026-10-20"
+        "mab004.2_2026-10-20",
+        "mab004.2_2026-10-27"
       ]
     },
     {
@@ -95,7 +98,8 @@
     "mab004.1_2026-10-13",
     "mab004.2_2026-10-13",
     "mab004.1_2026-10-20",
-    "mab004.2_2026-10-20"
+    "mab004.2_2026-10-20",
+    "mab004.2_2026-10-27"
   ],
   "klausurstil": {
     "quellen": [],
@@ -178,7 +182,7 @@
       "pfad": "mab004.2/Seminar_3_-_Fließkommazahlen_I/Blatt_3.pdf",
       "geaendert": "2026-10-14",
       "art": "Übungsblatt",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "mab004.2_2026-10-27"
     },
     {

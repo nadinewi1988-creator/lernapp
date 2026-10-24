@@ -320,6 +320,36 @@
         "mab004"
       ],
       "erste_quelle": "mab004.2_2026-10-20 · Blatt 2, G1"
+    },
+    {
+      "zeichen": "⌊a⌋ₖ",
+      "latex": "\\lfloor a \\rfloor_k",
+      "bedeutung": "auf k Nachkommastellen abgerundeter Wert von a (analog zu Def. 2.3)",
+      "gelesen": "a abgerundet auf k Stellen",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.2_2026-10-27 · Blatt 3"
+    },
+    {
+      "zeichen": "⌈a⌉ₖ",
+      "latex": "\\lceil a \\rceil_k",
+      "bedeutung": "auf k Nachkommastellen aufgerundeter Wert von a (analog zu Def. 2.3)",
+      "gelesen": "a aufgerundet auf k Stellen",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.2_2026-10-27 · Blatt 3"
+    },
+    {
+      "zeichen": "ℱ₂(l, u)",
+      "latex": "\\mathcal{F}_2(l,u)",
+      "bedeutung": "Fließkommazahlen zur Basis 2 (Dualsystem)",
+      "gelesen": "F 2 von l und u",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.2_2026-10-27 · Blatt 3"
     }
   ]
 }

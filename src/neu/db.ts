@@ -15,6 +15,10 @@ export interface Sitzung { id: string; veranstaltung_id: string; nr: number | nu
 export interface KEintrag { id: string; art: string; titel: string; modul_id: string | null; teilmodul_id: string | null; sitzung_id: string | null; datum: string; zeit: string | null; ende: string | null; ganztaegig: boolean; bis_datum: string | null; wiederholung: { rhythmus: string; tage: number[]; bis?: string; ausnahmen?: string[] } | null; notiz: string | null; erledigt: boolean }
 export interface Lernstand { sitzung_id: string; gelesen: boolean; gelernt: boolean; gelernt_am: string | null }
 export interface Lernzeit { datum: string; teilmodul_id: string; art: string; sekunden: number }
+export interface KarteInhalt { vorne: string; hinten?: string; optionen?: string[]; richtig?: number[]; kategorien?: string[]; elemente?: { text: string; kat: number | null }[] }
+export interface Karte { id: string; modul_id: string | null; teilmodul_id: string | null; sitzung_id: string | null; format: string; inhalt: KarteInhalt; bild_pfad: string | null; geloescht: boolean; erstellt: string }
+export interface Wiederholung { frage_ref: string; stand: string; stufe: number; faellig: string | null }
+export interface Antwort { frage_ref: string; ergebnis: string; zeitpunkt: string; teilmodul_id: string | null }
 export interface Einstellungen { user_id: string; bafoeg_grenze: number }
 
 export interface Studienstand {
@@ -32,6 +36,9 @@ export interface Studienstand {
   eintraege: KEintrag[];
   lernstand: Lernstand[];
   lernzeit: Lernzeit[];
+  karten: Karte[];
+  wiederholung: Wiederholung[];
+  antworten: Antwort[];
 }
 
 function pruef<T>(r: { data: T | null; error: { message: string } | null }): T {
@@ -133,7 +140,7 @@ async function kalenderEinrichten(): Promise<void> {
 }
 
 export async function ladeStudienstand(): Promise<Studienstand> {
-  const [sg, sem, mod, pr, te, ve, vo, ei, tm, va, si, en, ls, lz] = await Promise.all([
+  const [sg, sem, mod, pr, te, ve, vo, ei, tm, va, si, en, ls, lz, ka, wd, an] = await Promise.all([
     supabase.from('studiengaenge').select('id').eq('aktiv', true).order('erstellt').limit(1),
     supabase.from('semester').select('*').order('fachsemester'),
     supabase.from('module').select('*').order('reihenfolge'),
@@ -148,6 +155,9 @@ export async function ladeStudienstand(): Promise<Studienstand> {
     supabase.from('eintraege').select('*').order('datum').range(0, 4999),
     supabase.from('lernstand').select('*').range(0, 9999),
     supabase.from('lernzeit').select('*').range(0, 9999),
+    supabase.from('karten').select('*').eq('geloescht', false).order('erstellt').range(0, 9999),
+    supabase.from('wiederholung').select('frage_ref, stand, stufe, faellig').range(0, 19999),
+    supabase.from('antworten').select('frage_ref, ergebnis, zeitpunkt, teilmodul_id').order('zeitpunkt').range(0, 49999),
   ]);
   const hhmm = (t: string | null) => (t ? t.slice(0, 5) : t);
   return {
@@ -165,6 +175,9 @@ export async function ladeStudienstand(): Promise<Studienstand> {
     eintraege: (pruef(en) as KEintrag[]).map((x) => ({ ...x, zeit: hhmm(x.zeit), ende: hhmm(x.ende) })),
     lernstand: pruef(ls) as Lernstand[],
     lernzeit: pruef(lz) as Lernzeit[],
+    karten: pruef(ka) as Karte[],
+    wiederholung: pruef(wd) as Wiederholung[],
+    antworten: pruef(an) as Antwort[],
   };
 }
 
@@ -221,4 +234,45 @@ export async function speichereLernzeit(z: Lernzeit) {
 /** „Lernzeit zurücksetzen“ in der Statistik eines Moduls – bewusst von Nadine ausgelöst. */
 export async function lernzeitZuruecksetzen(teilmodulIds: string[]) {
   if (teilmodulIds.length) pruef(await supabase.from('lernzeit').delete().in('teilmodul_id', teilmodulIds));
+}
+
+// ---------- Eigene Karten ----------
+export type KarteNeu = { id?: string; modul_id: string | null; teilmodul_id: string | null; sitzung_id: string | null; format: string; inhalt: KarteInhalt; bild_pfad?: string | null };
+export async function speichereKarte(k: KarteNeu) {
+  const daten = { ...k, geaendert: new Date().toISOString() };
+  if (k.id && !k.id.startsWith('neu-')) pruef(await supabase.from('karten').upsert(daten));
+  else { const { id: _w, ...rest } = daten; void _w; pruef(await supabase.from('karten').insert(rest)); }
+}
+export async function speichereKarten(liste: KarteNeu[]) {
+  if (liste.length) pruef(await supabase.from('karten').insert(liste.map(({ id: _w, ...rest }) => { void _w; return rest; })));
+}
+/** „Löschen“ in der App: Karte wird nur ausgeblendet (geloescht = true), nichts wird endgültig entfernt. */
+export async function karteAusblenden(ids: string[]) {
+  if (ids.length) pruef(await supabase.from('karten').update({ geloescht: true, geaendert: new Date().toISOString() }).in('id', ids));
+}
+export async function kartenVerschieben(ids: string[], ziel: { modul_id: string | null; teilmodul_id: string | null; sitzung_id: string | null }) {
+  if (ids.length) pruef(await supabase.from('karten').update({ ...ziel, geaendert: new Date().toISOString() }).in('id', ids));
+}
+export async function speichereAntwort(a: { frage_ref: string; modul_id: string | null; teilmodul_id: string | null; ergebnis: 'richtig' | 'teilweise' | 'falsch'; modus: string }, w: { stand: string; stufe: number; faellig: string }) {
+  pruef(await supabase.from('antworten').insert(a));
+  pruef(await supabase.from('wiederholung').upsert({ frage_ref: a.frage_ref, ...w, geaendert: new Date().toISOString() }, { onConflict: 'user_id,frage_ref' }));
+}
+/** „Karten-Ergebnisse zurücksetzen“ – bewusst von Nadine ausgelöst; der Stand (neu/unsicher/sicher) bleibt. */
+export async function antwortenZuruecksetzen(refs: string[]) {
+  for (let i = 0; i < refs.length; i += 200) pruef(await supabase.from('antworten').delete().in('frage_ref', refs.slice(i, i + 200)));
+}
+export async function bildHochladen(kartenId: string, blob: Blob): Promise<string> {
+  const { data } = await supabase.auth.getUser();
+  const pfad = (data.user?.id ?? 'ohne') + '/' + kartenId + '.jpg';
+  const r = await supabase.storage.from('kartenbilder').upload(pfad, blob, { upsert: true, contentType: 'image/jpeg' });
+  if (r.error) throw new Error(r.error.message);
+  return pfad;
+}
+const bildCache: Record<string, string> = {};
+export async function bildUrl(pfad: string): Promise<string> {
+  if (bildCache[pfad]) return bildCache[pfad];
+  const r = await supabase.storage.from('kartenbilder').createSignedUrl(pfad, 3600);
+  if (r.error || !r.data) return '';
+  bildCache[pfad] = r.data.signedUrl;
+  return r.data.signedUrl;
 }

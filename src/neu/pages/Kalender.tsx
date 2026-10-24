@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import type { Studienstand, Sitzung, KEintrag } from '../db';
 import { aendereSitzung, speichereEintrag, loescheEintrag } from '../db';
+import { kartenOeffnen } from './Karten';
 import { auswerten, heuteIso } from '../pruefungslogik';
 import { WOCHEN, FEIERTAGE, FERIEN, UNI, MODUL_NAMEN, parseIso, plusTage, isoVon } from '../data/kalender';
 
@@ -456,7 +457,7 @@ export function Kalender({ stand, neuLaden }: Props) {
             {a === 'weg' && <label style={toggle}><input type="checkbox" checked={isDone(ss)} onChange={() => setMark(ss, { nachgearbeitet: !isDone(ss) })} style={{ width: 18, height: 18, accentColor: '#4f8f80' }} />Nachgearbeitet (steht unter „Nachholen“)</label>}
             <div style={{ display: 'flex', justifyContent: 'flex-end', gap: 8, flexWrap: 'wrap' }}>
               <a href={'#/module/' + ss.modul.slice(0, 6)} style={{ ...knopf, marginRight: 'auto' }}>Lernstoff →</a>
-              <a href={'#/karten'} style={knopf}>+ Karte</a>
+              <button type="button" onClick={() => kartenOeffnen({ aktion: 'neu', modul: ss.modul.slice(0, 6), teil: ss.modul, sitzung: ss.roh.id })} style={knopf}>+ Karte</button>
               <button type="button" onClick={() => oeffneEintrag({ datum: ss.datum, art: 'hausaufgabe', modul: ss.modul })} style={knopf}>Hausaufgabe anlegen</button>
               <button type="button" onClick={() => setSitzung(null)} style={{ ...knopf, fontWeight: 800 }}>Schließen</button>
             </div>

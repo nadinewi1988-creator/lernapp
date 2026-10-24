@@ -1,6 +1,7 @@
 import { useMemo, useState, type CSSProperties } from 'react';
 import type { Studienstand, Sitzung, KEintrag } from '../db';
 import { aendereSitzung, speichereEintrag } from '../db';
+import { kartenAus, istFaellig, kartenOeffnen } from './Karten';
 import { auswerten, heuteIso, noteText, nachFach, BEREICH_ZIEL } from '../pruefungslogik';
 import { WOCHEN, FEIERTAGE, FERIEN, parseIso, plusTage } from '../data/kalender';
 
@@ -117,8 +118,14 @@ export function Dashboard({ stand, neuLaden }: Props) {
 
   // ---------- Woche ----------
   const wsIso = plusTage(HEUTE, -wdMo(HEUTE));
-  const nichtDran = aktMods; // Lernzeit wird erfasst, sobald die Lernseiten fertig sind
-  const wr = { titel: 'Deine Woche · ' + mitWt(wsIso) + ' bis heute', zeit: fmtZeit(0), karten: '0', nachholen: (nhGes - nhErl) + ' offen', meist: 'Diese Woche noch nichts gelernt.', wenig: nichtDran.length ? 'Noch gar nicht dran: ' + nichtDran.join(', ') : 'Alle Module waren diese Woche dran – stark!' };
+  const tmK = Object.fromEntries(stand.teilmodule.map((t) => [t.id, t.kuerzel.slice(0, 6)]));
+  const lzWoche = stand.lernzeit.filter((l) => l.datum >= wsIso), proM: Record<string, number> = {};
+  lzWoche.forEach((l) => { const m = tmK[l.teilmodul_id]; if (m) proM[m] = (proM[m] ?? 0) + l.sekunden; });
+  const lzGes = lzWoche.reduce((x, l) => x + l.sekunden, 0), lzHeute = stand.lernzeit.filter((l) => l.datum === HEUTE).reduce((x, l) => x + l.sekunden, 0);
+  const topM = Object.keys(proM).sort((x, y) => proM[y] - proM[x]);
+  const nichtDran = aktMods.filter((m) => !proM[m]);
+  const alleK = kartenAus(stand), faeK = alleK.filter((k) => aktMods.includes(k.mk) && istFaellig(k));
+  const wr = { titel: 'Deine Woche · ' + mitWt(wsIso) + ' bis heute', zeit: fmtZeit(lzGes), karten: String(alleK.filter((k) => k.stat.zuletzt && k.stat.zuletzt >= wsIso).length), nachholen: (nhGes - nhErl) + ' offen', meist: topM.length ? 'Am meisten gelernt: ' + topM.slice(0, 2).map((m) => m + ' (' + fmtZeit(proM[m]) + ')').join(', ') : 'Diese Woche noch nichts gelernt.', wenig: nichtDran.length ? 'Noch gar nicht dran: ' + nichtDran.join(', ') : 'Alle Module waren diese Woche dran – stark!' };
 
   // ---------- Heute lernen ----------
   let hl: { vorschlag: string; kopf: string; kurz: string; unter: string; titel: string; fg: string; bg: string; rand: string; btnBg: string; btnFg: string; knopf: string; altText: string; start: () => void; altStart: () => void };
@@ -185,7 +192,8 @@ export function Dashboard({ stand, neuLaden }: Props) {
       {Object.keys(NH).map((k) => { const f = farbe(k), l = NH[k]; return <button key={k} type="button" onClick={() => { setNhModul(k); setNhZeigeErl(false); }} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', minHeight: 32, padding: klein ? '6px 8px' : '5px 8px', border: 0, borderRadius: 10, background: f[1], fontSize: 12, cursor: 'pointer' }}><b style={{ color: f[0] }}>{k}</b><span style={{ color: 'var(--ink-2)' }}>{l.filter((n) => n.s.nachgearbeitet).length}/{l.length}</span></button>; })}
     </div>);
   const nhBreite = (nhGes ? Math.round(nhErl / nhGes * 100) : 0) + '%';
-  const klText = { faellig: 'Heute keine Karten fällig', zeit: 'Lernzeit diese Woche: ' + fmtZeit(0) + ' · heute ' + fmtZeit(0) };
+  const klText = { faellig: faeK.length ? faeK.length + (faeK.length === 1 ? ' Karte heute fällig' : ' Karten heute fällig') : 'Heute keine Karten fällig', zeit: 'Lernzeit diese Woche: ' + fmtZeit(lzGes) + ' · heute ' + fmtZeit(lzHeute) };
+  const klUeben = faeK.length > 0 && <button type="button" onClick={() => kartenOeffnen({ aktion: 'faellig' })} style={{ flex: '0 0 auto', minHeight: 32, padding: '0 12px', border: '1px solid var(--line)', borderRadius: 999, background: '#fff', fontSize: 13, fontWeight: 800, color: 'var(--ink)', cursor: 'pointer' }}>Üben</button>;
   const Wochenkarte = ({ klein }: { klein?: boolean }) => (
     <section style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: klein ? 14 : 18, padding: klein ? 12 : 16, display: 'flex', flexDirection: 'column', gap: 10 }}>
       <h2 style={{ margin: 0, fontSize: klein ? 15 : 17, fontWeight: 800 }}>{wr.titel}</h2>
@@ -263,7 +271,7 @@ export function Dashboard({ stand, neuLaden }: Props) {
             <button type="button" onClick={hl.start} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: 46, border: 0, borderRadius: 999, background: hl.btnBg, color: hl.btnFg, fontSize: 15, fontWeight: 800, cursor: 'pointer' }}>{hl.knopf}</button>
             {hl.altText && <button type="button" onClick={hl.altStart} style={{ alignSelf: 'center', padding: '6px 10px', borderRadius: 10, border: 0, background: 'none', color: 'var(--ink-2)', fontSize: 13, fontWeight: 700, cursor: 'pointer' }}>{hl.altText}</button>}
             <div style={{ borderTop: '1px solid var(--line-2)', paddingTop: 12, display: 'flex', flexDirection: 'column', gap: 6 }}>
-              <span style={{ display: 'flex', flexDirection: 'column', gap: 2 }}><span style={{ fontSize: 13, fontWeight: 800 }}>Eigene Karten</span><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{klText.faellig}</span></span>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8 }}><span style={{ display: 'flex', flexDirection: 'column', gap: 2 }}><span style={{ fontSize: 13, fontWeight: 800 }}>Eigene Karten</span><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{klText.faellig}</span></span>{klUeben}</div>
               <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{klText.zeit}</span>
             </div>
             <div style={{ borderTop: '1px solid var(--line-2)', paddingTop: 12, display: 'flex', flexDirection: 'column', gap: 8 }}>
@@ -319,6 +327,7 @@ export function Dashboard({ stand, neuLaden }: Props) {
         </button>
         <section style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 14, padding: 12, display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8 }}>
           <span style={{ display: 'flex', flexDirection: 'column', gap: 2, minWidth: 0 }}><span style={{ fontSize: 15, fontWeight: 800 }}>Eigene Karten</span><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{klText.faellig}</span><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{klText.zeit}</span></span>
+          {klUeben}
         </section>
         <section style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 14, padding: 12, display: 'flex', flexDirection: 'column', gap: 8 }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}><h2 style={{ margin: 0, fontSize: 15, fontWeight: 800 }}>Nachholen</h2><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{nhErl} von {nhGes} erledigt</span></div>

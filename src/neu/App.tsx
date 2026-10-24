@@ -8,6 +8,7 @@ import { Pruefungen } from './pages/Pruefungen';
 import { Kalender } from './pages/Kalender';
 import { Dashboard } from './pages/Dashboard';
 import { Module } from './pages/Module';
+import { Karten } from './pages/Karten';
 import './theme.css';
 
 export type Seite = 'dashboard' | 'kalender' | 'module' | 'pruefungen' | 'karten';
@@ -94,7 +95,8 @@ export default function App() {
         {stand && ort.seite === 'dashboard' && <Dashboard stand={stand} neuLaden={neuLaden} gehe={(s, u) => gehe(s as Seite, u)} />}
         {stand && ort.seite === 'module' && <Module stand={stand} unter={ort.unter} teil={ort.teil} gehe={(u, t) => gehe('module', u, t)} neuLaden={neuLaden} />}
         {stand && ort.seite === 'kalender' && <Kalender stand={stand} neuLaden={neuLaden} />}
-        {stand && ort.seite !== 'pruefungen' && ort.seite !== 'kalender' && ort.seite !== 'dashboard' && ort.seite !== 'module' && <Baustelle name={SEITEN.find((s) => s.id === ort.seite)!.name} />}
+        {stand && ort.seite === 'karten' && <Karten stand={stand} unter={ort.unter} gehe={(u) => gehe('karten', u)} neuLaden={neuLaden} />}
+        {stand && ort.seite !== 'pruefungen' && ort.seite !== 'kalender' && ort.seite !== 'dashboard' && ort.seite !== 'module' && ort.seite !== 'karten' && <Baustelle name={SEITEN.find((s) => s.id === ort.seite)!.name} />}
       </main>
       <nav className="untennav" aria-label="Navigation">
         {SEITEN.map((s) => <button key={s.id} className={ort.seite === s.id ? 'aktiv' : ''} onClick={() => gehe(s.id)}>{s.icon}{s.kurz}</button>)}

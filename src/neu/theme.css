@@ -178,3 +178,12 @@ section[aria-label="Credit Points"] { container-type: inline-size; }
   .mod-beschr { grid-template-columns: 1fr !important; gap: 2px !important; }
   .mod-titel { font-size: 22px !important; }
 }
+
+.umschalter.kar-tabs button { padding: 0 16px; }
+/* Eigene Karten – Handy wie im Entwurf */
+@media (max-width: 700px) {
+  .umschalter.kar-tabs button { font-size: 14px; padding: 0 8px; min-height: 40px; white-space: normal; line-height: 1.2; }
+  .kar-kacheln, .kar-karten, .kar-zuord { grid-template-columns: 1fr !important; }
+  .kar-kopf { flex-wrap: nowrap; align-items: center; }
+  .kar-kopf .neu-knopf { min-height: 40px !important; padding: 0 14px !important; font-size: 13px !important; white-space: nowrap; }
+}

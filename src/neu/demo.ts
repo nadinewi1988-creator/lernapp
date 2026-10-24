@@ -24,7 +24,7 @@ export function demoStand(): Studienstand {
   const eintraege: KEintrag[] = START_EINTRAEGE.map((e, i) => ({ id: 'e' + i, art: e.art, titel: e.titel, modul_id: e.modul ? modId(e.modul) || null : null, teilmodul_id: e.modul.includes('.') ? tmId(e.modul) : null, sitzung_id: null, datum: e.datum, zeit: e.zeit || null, ende: null, ganztaegig: false, bis_datum: null, wiederholung: null, notiz: e.notiz || null, erledigt: e.erledigt }));
   eintraege.push({ id: 'dp1', art: 'privat', titel: 'Experiment Großbritannien', modul_id: null, teilmodul_id: null, sitzung_id: null, datum: '2026-10-30', zeit: '10:00', ende: '10:45', ganztaegig: false, bis_datum: null, wiederholung: null, notiz: null, erledigt: false },
     { id: 'dp2', art: 'privat', titel: 'Zahnarzt', modul_id: null, teilmodul_id: null, sitzung_id: null, datum: '2026-10-30', zeit: '08:00', ende: '08:30', ganztaegig: false, bis_datum: null, wiederholung: null, notiz: null, erledigt: false });
-  return { studiengangId: 'demo', semester, module, pruefungen, termine, versuche: demoVersuche(), voraussetzungen, einstellungen: { user_id: 'demo', bafoeg_grenze: 90 }, teilmodule, veranstaltungen, sitzungen, eintraege, lernstand: [], lernzeit: [] };
+  return { studiengangId: 'demo', semester, module, pruefungen, termine, versuche: demoVersuche(), voraussetzungen, einstellungen: { user_id: 'demo', bafoeg_grenze: 90 }, teilmodule, veranstaltungen, sitzungen, eintraege, lernstand: [], lernzeit: [], karten: demoKarten(module, teilmodule), wiederholung: [], antworten: [] };
 }
 
 // Beispielnoten nur für den Bildvergleich (wie auf Nadines Bildschirmfoto), nicht ihre echten Daten.
@@ -35,5 +35,20 @@ function demoVersuche() {
     { id: 'x2', pruefung_id: id('mab001'), nr: 2, note: 2.3, unbenotet: false, datum: '2026-03-16' },
     { id: 'x3', pruefung_id: id('pkb001'), nr: 1, note: 2.3, unbenotet: false, datum: '2026-02-06' },
     { id: 'x4', pruefung_id: id('opb001'), nr: 1, note: null, unbenotet: true, datum: '2026-04-06' },
+  ];
+}
+
+// Beispielkarten (nur Demo), damit Üben und Statistik im Bildvergleich etwas zeigen.
+function demoKarten(module: { id: string; kuerzel: string }[], tms: { id: string; kuerzel: string; modul_id: string }[]) {
+  const t = (k: string) => tms.find((x) => x.kuerzel === k)!;
+  const mk = (id: string, k: string, format: string, inhalt: Record<string, unknown>) => ({ id, modul_id: t(k).modul_id, teilmodul_id: t(k).id, sitzung_id: null, format, inhalt: inhalt as never, bild_pfad: null, geloescht: false, erstellt: '2026-10-20T10:00:00Z' });
+  void module;
+  return [
+    mk('k1', 'ewb001.1', 'frage', { vorne: 'Beispielfrage: Was versteht man unter … ?', hinten: 'Beispielantwort: …' }),
+    mk('k2', 'ewb001.2', 'mc', { vorne: 'Beispielfrage mit Auswahl: Welche Aussagen treffen zu? (mehrere richtig)', optionen: ['Antwort A', 'Antwort B', 'Antwort C', 'Antwort D'], richtig: [1, 3] }),
+    mk('k3', 'ewb002.1', 'luecke', { vorne: 'Beispiel: Die [[Objektivität]] ist eines der drei Gütekriterien.' }),
+    mk('k4', 'pyb005.1', 'offen', { vorne: 'Beispielaufgabe: Erläutere in eigenen Worten …', hinten: 'Musterlösung: Punkt 1 … Punkt 2 … Punkt 3 …' }),
+    mk('k5', 'mab005.1', 'frage', { vorne: 'Beispielfrage: Wie lautet die Definition von … ?', hinten: 'Beispielantwort: …' }),
+    mk('k6', 'pkb003.1', 'frage', { vorne: 'Beispielfrage: Welche Rolle spielt … im politischen System?', hinten: 'Beispielantwort: …' }),
   ];
 }

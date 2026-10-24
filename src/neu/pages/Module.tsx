@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import type { Studienstand, Sitzung } from '../db';
-import { setzeGelernt, speichereLernzeit, lernzeitZuruecksetzen } from '../db';
+import { setzeGelernt, speichereLernzeit, lernzeitZuruecksetzen, antwortenZuruecksetzen } from '../db';
+import { kartenAus, istFaellig, kartenOeffnen } from './Karten';
 import { auswerten, heuteIso, nachFach, aktuellesSemester, type Eintrag } from '../pruefungslogik';
 import { parseIso, plusTage, entfallGrund } from '../data/kalender';
 import { BESCHREIBUNGEN } from '../data/modulbeschreibungen';
@@ -113,6 +114,11 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   const art = !semPlan || !akt ? 'geplant' : semPlan.id === akt.id ? 'aktuell' : semPlan.fachsemester < akt.fachsemester ? 'vorbei' : 'geplant';
   const istAkt = art === 'aktuell';
   const f: [string, string] = istAkt && C[kuerzel] ? C[kuerzel] : FACH[fachVon(kuerzel)];
+  const KK = kartenAus(stand).filter((k) => k.mk === kuerzel);
+  const kSich = KK.filter((k) => k.stand === 'sicher').length, kUns = KK.filter((k) => k.stand === 'unsicher').length, kFae = KK.filter(istFaellig).length, kPct = KK.length ? Math.round(kSich / KK.length * 100) : 0;
+  const ksm = { r: 0, t: 0, f: 0 }; KK.forEach((k) => { ksm.r += k.stat.r; ksm.t += k.stat.t; ksm.f += k.stat.f; }); const ksN = ksm.r + ksm.t + ksm.f;
+  const kfq = (k: (typeof KK)[number]) => { const n = k.stat.r + k.stat.t + k.stat.f; return n ? (k.stat.f + k.stat.t * 0.5) / n : -1; };
+  const kSchwer = KK.filter((k) => kfq(k) > 0).sort((a2, b2) => kfq(b2) - kfq(a2)).slice(0, 3);
 
   // ---------- Sitzungen des Moduls ----------
   const va = Object.fromEntries(stand.veranstaltungen.map((v) => [v.id, v]));
@@ -300,8 +306,9 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
         <div className="mod-kacheln" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 12 }}>
           <div style={{ background: '#fff', border: '1.5px solid ' + f[1], borderRadius: 16, padding: 16, display: 'flex', flexDirection: 'column', gap: 6 }}>
             <span style={{ fontSize: 15, fontWeight: 800 }}>Eigene Karten</span>
-            <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>Noch keine eigenen Karten zu diesem Modul.</span>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, marginTop: 'auto' }}><a href="#/karten" style={klein}>+ Karte</a></div>
+            <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>{KK.length ? KK.length + (KK.length === 1 ? ' Karte' : ' Karten') + ' · ' + kFae + ' heute fällig · ' + kSich + ' sicher · ' + kUns + ' unsicher' : 'Noch keine eigenen Karten zu diesem Modul.'}</span>
+            {KK.length > 0 && <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}><div style={{ flex: 1, height: 8, borderRadius: 4, background: '#f0f0eb', overflow: 'hidden' }}><div style={{ height: '100%', width: kPct + '%', background: f[0] }} /></div><span style={{ fontSize: 12, fontWeight: 800, color: f[0] }}>{kPct} %</span></div>}
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, marginTop: 'auto' }}>{KK.length > 0 && <button type="button" onClick={() => kartenOeffnen({ aktion: 'ueben', modul: kuerzel })} style={klein}>Üben</button>}<button type="button" onClick={() => kartenOeffnen({ aktion: 'neu', modul: kuerzel })} style={klein}>+ Karte</button></div>
           </div>
           <div style={{ background: '#fff', border: '1.5px solid ' + f[1], borderRadius: 16, padding: 16, display: 'flex', flexDirection: 'column', gap: 6 }}>
             <span style={{ fontSize: 15, fontWeight: 800 }}>Begriffe</span>
@@ -384,17 +391,27 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                 <span style={{ fontSize: 13, fontWeight: 700, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{t.kuerzel} · {t.name.replace(/ \((Gruppe [^)]*|freiwillig)\)/, '')}</span>
                 <span style={{ fontSize: 13, fontWeight: 800 }}>{fmtZeit(z)}</span>
                 <div style={{ gridColumn: '1 / -1', height: 6, borderRadius: 3, background: '#f0f0eb', overflow: 'hidden' }}><div style={{ height: '100%', width: Math.round(z / lzMax * 100) + '%', background: f[0] }} /></div>
-                <span style={{ gridColumn: '1 / -1', fontSize: 12, color: 'var(--ink-3)' }}>keine Karten</span>
+                <span style={{ gridColumn: '1 / -1', fontSize: 12, color: 'var(--ink-3)' }}>{(() => { const kt = KK.filter((k) => k.teilId === t.id), x = { r: 0, t: 0, f: 0 }; kt.forEach((k) => { x.r += k.stat.r; x.t += k.stat.t; x.f += k.stat.f; }); const n = x.r + x.t + x.f; return kt.length ? kt.length + (kt.length === 1 ? ' Karte' : ' Karten') + (n ? ' · ' + Math.round(x.r / n * 100) + ' % richtig (✓ ' + x.r + ' ◐ ' + x.t + ' ✗ ' + x.f + ')' : ' · noch nicht geübt') : 'keine Karten'; })()}</span>
               </div>); })}
           </>}
           <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>Gezählt wird nur aktives Lernen (Karten üben, Lerntexte lesen) – nicht Karten anlegen oder Herumklicken. Nach 1 Minute ohne Eingabe oder im Hintergrund stoppt die Uhr.</span>
         </section>
         <section style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 16, padding: 16, display: 'flex', flexDirection: 'column', gap: 10 }}>
-          <h2 style={{ margin: 0, fontSize: 16, fontWeight: 800 }}>Eigene Karten</h2>
-          <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>Noch keine eigenen Karten – sobald du übst, erscheinen hier Trefferquote und schwierigste Karten.</span>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
+            <h2 style={{ margin: 0, fontSize: 16, fontWeight: 800 }}>Eigene Karten</h2>
+            {KK.length > 0 && <span style={{ fontSize: 20, fontWeight: 800, color: '#2f7a4b' }}>{ksN ? Math.round(ksm.r / ksN * 100) + ' %' : '–'} <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>Trefferquote</span></span>}
+          </div>
+          {KK.length > 0 ? <>
+            <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>{KK.length + (KK.length === 1 ? ' Karte' : ' Karten') + ' · ' + ksN + ' Antworten · ' + kSich + ' sicher'}</span>
+            <div style={{ display: 'flex', height: 12, borderRadius: 6, overflow: 'hidden', background: '#f0f0eb' }}>{([[ksm.r, '#5aa36f'], [ksm.t, '#e3a548'], [ksm.f, '#d06a6a']] as const).map(([w, c]) => <div key={c} style={{ width: (ksN ? Math.round(w / ksN * 100) : 0) + '%', background: c }} />)}</div>
+            <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>✓ richtig {ksm.r} · ◐ teilweise {ksm.t} · ✗ falsch {ksm.f}</span>
+            {kSchwer.length > 0 && <><span style={{ fontSize: 13, fontWeight: 800, color: 'var(--ink-3)' }}>Am häufigsten falsch</span>
+              {kSchwer.map((k) => <div key={k.id} style={{ display: 'flex', flexDirection: 'column', gap: 2, borderTop: '1px solid #f0f0eb', paddingTop: 6 }}><span style={{ fontSize: 14, fontWeight: 700 }}><b style={{ fontSize: 12, color: f[0] }}>{k.teil}</b> · {k.vorne.replace(/\[\[(.+?)\]\]/g, '_____')}</span><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>✓ {k.stat.r} · ◐ {k.stat.t} · ✗ {k.stat.f}</span></div>)}</>}
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}><button type="button" onClick={() => kartenOeffnen({ aktion: 'ueben', modul: kuerzel })} style={{ ...klein, minHeight: 32 }}>Karten üben</button></div>
+          </> : <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>Noch keine eigenen Karten – sobald du übst, erscheinen hier Trefferquote und schwierigste Karten.</span>}
         </section>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, alignItems: 'center' }}>
-          <button type="button" onClick={() => setResetArm(resetArm === 'karten' ? null : 'karten')} style={{ ...klein, minHeight: 32, color: resetArm === 'karten' ? '#c42b2b' : 'var(--ink)' }}>{resetArm === 'karten' ? 'Wirklich zurücksetzen?' : 'Karten-Ergebnisse zurücksetzen'}</button>
+          <button type="button" onClick={() => { if (resetArm !== 'karten') { setResetArm('karten'); return; } setResetArm(null); antwortenZuruecksetzen(KK.map((k) => 'karte:' + k.id)).then(neuLaden).catch((e) => setFehler(String((e as Error).message || e))); }} style={{ ...klein, minHeight: 32, color: resetArm === 'karten' ? '#c42b2b' : 'var(--ink)' }}>{resetArm === 'karten' ? 'Wirklich zurücksetzen?' : 'Karten-Ergebnisse zurücksetzen'}</button>
           <button type="button" onClick={() => { if (resetArm !== 'zeit') { setResetArm('zeit'); return; } setResetArm(null); lernzeitZuruecksetzen(tmIds).then(neuLaden).catch((e) => setFehler(String((e as Error).message || e))); }} style={{ ...klein, minHeight: 32, color: resetArm === 'zeit' ? '#c42b2b' : 'var(--ink)' }}>{resetArm === 'zeit' ? 'Wirklich zurücksetzen?' : 'Lernzeit zurücksetzen'}</button>
           <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{resetArm ? 'Betrifft nur ' + kuerzel + '. Zum Bestätigen noch einmal tippen.' : 'Der Stand deiner Karten (neu/unsicher/sicher) bleibt erhalten.'}</span>
         </div>
@@ -451,8 +468,8 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
             </label>
             <div style={{ display: 'flex', justifyContent: 'flex-end', gap: 8, flexWrap: 'wrap' }}>
               <button type="button" onClick={() => setHinweis(true)} style={klein}>Lernfragen üben</button>
-              <span title="Noch keine Karten zu dieser Sitzung" style={{ ...klein, opacity: 0.45, cursor: 'default' }}>Karteikarten üben (0)</span>
-              <a href="#/karten" style={klein}>+ Karte zu dieser Sitzung</a>
+              {(() => { const n = KK.filter((k) => k.sitzungId === lt.sid).length; return n ? <button type="button" onClick={() => { setLt(null); kartenOeffnen({ aktion: 'ueben', modul: kuerzel, sitzung: lt.sid }); }} style={klein}>Karteikarten üben ({n})</button> : <span title="Noch keine Karten zu dieser Sitzung" style={{ ...klein, opacity: 0.45, cursor: 'default' }}>Karteikarten üben (0)</span>; })()}
+              <button type="button" onClick={() => { setLt(null); kartenOeffnen({ aktion: 'neu', modul: kuerzel, sitzung: lt.sid }); }} style={klein}>+ Karte zu dieser Sitzung</button>
               <button type="button" onClick={() => { setLt(null); setHinweis(false); }} style={klein}>Schließen</button>
             </div>
           </div>

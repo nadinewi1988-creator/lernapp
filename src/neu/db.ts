@@ -25,10 +25,21 @@ function pruef<T>(r: { data: T | null; error: { message: string } | null }): T {
   return r.data as T;
 }
 
-/** Legt beim allerersten Start den Studienverlauf an (nur wenn noch nichts da ist). */
-export async function ersteinrichtung(): Promise<void> {
-  const vorhanden = pruef(await supabase.from('studiengaenge').select('id').limit(1));
-  if ((vorhanden as unknown[]).length) return;
+let laeuft: Promise<void> | null = null;
+/** Legt beim allerersten Start den Studienverlauf an (nur wenn noch nichts da ist).
+ *  Läuft pro Seitenaufruf nur einmal, auch wenn die Anmeldung mehrfach gemeldet wird. */
+export function ersteinrichtung(): Promise<void> {
+  if (!laeuft) laeuft = einrichten().catch((e) => { laeuft = null; throw e; });
+  return laeuft;
+}
+async function einrichten(): Promise<void> {
+  const vorhanden = pruef(await supabase.from('studiengaenge').select('id, erstellt').order('erstellt')) as { id: string }[];
+  if (vorhanden.length > 1) {
+    // Doppelte Ersteinrichtung (Fehler vom 24.10.2026) bereinigen: den ältesten Studiengang behalten,
+    // die versehentlich doppelt angelegten (samt Semestern, Modulen, Prüfungen) entfernen.
+    for (const x of vorhanden.slice(1)) pruef(await supabase.from('studiengaenge').delete().eq('id', x.id));
+  }
+  if (vorhanden.length) return;
   const sg = pruef(await supabase.from('studiengaenge').insert(STUDIENGANG).select('id').single()) as { id: string };
   const sems = pruef(await supabase.from('semester').insert(SEMESTER.map((s) => ({ ...s, studiengang_id: sg.id }))).select('id, fachsemester')) as { id: string; fachsemester: number }[];
   const semId = (n: number) => sems.find((s) => s.fachsemester === n)?.id ?? null;

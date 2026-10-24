@@ -2,8 +2,15 @@ import { useState } from 'react';
 import type { Studienstand, Termin, Versuch } from '../db';
 import { speichereVersuch, entferneVersuch, speichereTermin, setzeVoraussetzung, verschiebePruefung, neuePruefung, setzeBafoegGrenze } from '../db';
 import { auswerten, STATUS_FARBE, BEREICH_ZIEL, fristHinweis, mitTag, datumLang, noteText, tageBis, heuteIso, type Eintrag } from '../pruefungslogik';
-import { farbe, REGELN, DOKUMENTE } from '../data/studienverlauf';
+import { farbe, REGELN, DOKUMENTE, MODULE } from '../data/studienverlauf';
 
+// Hinweise zur Anmeldung aus den Startdaten (z. B. „noch nicht bekannt“) – erscheinen, solange kein Zeitraum eingetragen ist.
+const HINWEIS_AN: Record<string, string> = Object.fromEntries(MODULE.flatMap((m) => (m.termine ?? []).filter((t) => t.hinweis_an).map((t) => [m.kuerzel + '|' + t.art, t.hinweis_an!])));
+
+const BEREICHE = [
+  { key: 'Mathe', name: 'Mathematik', farbe: '#5f80b5' }, { key: 'Politik', name: 'Politikwissenschaft', farbe: '#b46b80' },
+  { key: 'Profil', name: 'Profilierungsbereich', farbe: '#6d9156' }, { key: 'Praktika', name: 'Praktika', farbe: '#b5845a' }, { key: 'BA-Arbeit', name: 'Bachelorarbeit', farbe: '#8a77b5' },
+];
 const NOTEN = ['1,0', '1,3', '1,7', '2,0', '2,3', '2,7', '3,0', '3,3', '3,7', '4,0', '5,0'];
 const HRS_GRUND: Record<string, string> = { mab012: 'Wahlpflicht-Empfehlung für Haupt- und Realschule', asp001: 'Schulpraktikum für die Lehramtsoption', opb001: 'Orientierungspraktikum für die Lehramtsoption' };
 
@@ -32,15 +39,16 @@ export function Pruefungen({ stand, unter, gehe, neuLaden }: Props) {
   const puffer = a.bafoegMoeglich - grenze;
   const bafoeg = a.cpGesamt >= grenze ? { s: 'erreicht', bg: '#e3f2e8', fg: '#2f7a4b' } : puffer < 0 ? { s: 'gefährdet', bg: '#fde9e9', fg: '#c42b2b' } : puffer < 15 ? { s: 'knapp', bg: '#fdf1e2', fg: '#9a5b14' } : { s: 'auf Kurs', bg: '#e3f2e8', fg: '#2f7a4b' };
   const naechste = a.naechsteTermine[0];
+  const wartend = a.proSemester.flatMap((ps) => ps.liste).filter((e) => !e.imUrsprung && e.status === 'Ergebnis offen');
 
   return (
     <>
       <header className="kopf">
         <div>
-          <h1>Prüfungen</h1>
-          <div className="unter">Bachelor Combined Studies · Mathematik + Politikwissenschaft · Lehramtsoption Haupt- und Realschule</div>
+          <div className="nur-gross" style={{ fontSize: 14, color: 'var(--ink-3)', fontWeight: 600 }}>Bachelor Combined Studies · Mathematik + Politikwissenschaft · Lehramtsoption Haupt- und Realschule</div>
+          <h1 style={{ margin: '4px 0 0' }}>Prüfungen</h1>
         </div>
-        <button className="knopf gross" onClick={() => setNeuD({ kuerzel: '', name: '', cp: '', form: '', semester_id: a.akt?.id ?? '', datum: '' })}>+ Prüfung</button>
+        <button className="knopf gross" style={{ fontWeight: 700 }} onClick={() => setNeuD({ kuerzel: '', name: '', cp: '', form: '', semester_id: a.akt?.id ?? '', datum: '' })}>+ Prüfung</button>
       </header>
       <div className="umschalter">
         {[['meine', 'Meine Prüfungen'], ['bafoeg', 'BAföG'], ['regeln', 'Regeln & Ordnungen']].map(([id, n]) => <button key={id} className={tab === id ? 'aktiv' : ''} onClick={() => gehe(id)}>{n}</button>)}
@@ -49,30 +57,37 @@ export function Pruefungen({ stand, unter, gehe, neuLaden }: Props) {
       {tab === 'meine' && (
         <>
           {a.fristen.length > 0 && (
-            <section className="karte" style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 6 }}><span style={{ fontSize: 12, fontWeight: 800, letterSpacing: '.06em', color: 'var(--ink-3)' }}>NÄCHSTE FRISTEN</span><span className="klein-text">erscheinen automatisch auch im Dashboard</span></div>
-              {a.fristen.slice(0, 5).map((f, i) => (
-                <div key={i} style={{ display: 'flex', gap: 10, alignItems: 'baseline', flexWrap: 'wrap' }}>
-                  <b style={{ color: farbe(f.kuerzel)[0], fontSize: 13, minWidth: 60 }}>{f.kuerzel}</b><span style={{ fontSize: 14 }}>{f.text}</span>
-                  <span className="schild" style={{ background: f.tage <= 3 ? '#fde9e9' : '#eef0f3', color: f.tage <= 3 ? '#c42b2b' : '#4b5563' }}>{f.tage === 0 ? 'heute' : 'in ' + f.tage + (f.tage === 1 ? ' Tag' : ' Tagen')}</span>
-                </div>
-              ))}
+            <section aria-label="Nächste Fristen" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 8, padding: '12px 16px', background: '#fff', border: '1px solid var(--line)', borderRadius: 16 }}>
+              <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 12, fontWeight: 800, letterSpacing: '0.06em', color: 'var(--ink-3)', marginRight: 6 }}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0112 0c0 7 3 9 3 9H3s3-2 3-9" /><path d="M10.3 21a1.94 1.94 0 003.4 0" /></svg>
+                NÄCHSTE FRISTEN
+              </span>
+              {a.fristen.slice(0, 4).map((f, i) => { const [ffg, fbg] = farbe(f.kuerzel); return <span key={i} style={{ padding: '4px 10px', borderRadius: 999, fontSize: 13, background: f.tage <= 3 ? '#fde9e9' : fbg }}><b style={{ color: f.tage <= 3 ? '#c42b2b' : ffg }}>{f.kuerzel}</b> {f.text}</span>; })}
+              <span className="nur-gross" style={{ fontSize: 12, color: 'var(--ink-3)', marginLeft: 'auto' }}>erscheinen automatisch auch im Dashboard</span>
             </section>
           )}
           {(bafoeg.s === 'knapp' || bafoeg.s === 'gefährdet') && (
-            <button className="karte" onClick={() => gehe('bafoeg')} style={{ textAlign: 'left', background: bafoeg.bg, color: bafoeg.fg, fontWeight: 800, cursor: 'pointer' }}>BAföG-Check: {bafoeg.s} – {a.bafoegMoeglich} von {grenze} CP bis Ende 4. Semester möglich →</button>
+            <button onClick={() => gehe('bafoeg')} style={{ display: 'flex', alignItems: 'center', gap: 10, minHeight: 48, padding: '0 16px', border: 0, borderRadius: 14, background: bafoeg.bg, color: bafoeg.fg, fontSize: 14, fontWeight: 800, cursor: 'pointer', textAlign: 'left' }}>BAföG-Check: {bafoeg.s} – {a.bafoegMoeglich} von {grenze} CP bis Ende 4. Semester möglich →</button>
           )}
-          <div className="kacheln">
-            <div className="karte"><div className="kachel-label">Bestanden</div><div className="kachel-wert">{a.bestanden.length} {a.bestanden.length === 1 ? 'Modul' : 'Module'}</div><div className="kachel-info">{a.cpGesamt} CP</div></div>
+          <section className="kacheln" aria-label="Überblick">
+            <div className="karte"><div className="kachel-label">Bestanden</div><div className="kachel-wert">{a.bestanden.length} {a.bestanden.length === 1 ? 'Modul' : 'Module'}</div><div className="kachel-info">{a.cpGesamt} von 180 CP</div></div>
             <div className="karte"><div className="kachel-label">Notenschnitt</div><div className="kachel-wert">{a.noten.gesamt !== null ? noteText(a.noten.gesamt) : '–'}</div><div className="kachel-info">Mathe {a.noten.mathe !== null ? noteText(a.noten.mathe) : '–'} · Politik {a.noten.politik !== null ? noteText(a.noten.politik) : '–'} · Profil {a.noten.profil !== null ? noteText(a.noten.profil) : '–'}</div></div>
-            <div className="karte"><div className="kachel-label">Dieses Semester</div><div className="kachel-wert">{a.aktListe.length} Prüfungen</div><div className="kachel-info">{naechste ? 'nächste am ' + datumLang(naechste) : 'keine offenen Termine'}</div></div>
-            <div className="karte"><div className="kachel-label">Verschoben</div><div className="kachel-wert">{a.verschoben.length ? a.verschoben.length + (a.verschoben.length === 1 ? ' Modul' : ' Module') : 'Keine'}</div><div className="kachel-info">{a.verschoben.length ? a.verschoben.map((e) => e.modul.kuerzel).join(' · ') : 'alles nachgeholt'}</div></div>
-          </div>
-          <section className="karte" style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', flexWrap: 'wrap', gap: 8 }}><b style={{ fontSize: 15 }}>Credit Points</b><span><b style={{ fontSize: 18 }}>{a.cpGesamt} von 180 CP</b> <span className="klein-text">· noch {180 - a.cpGesamt} offen</span></span></div>
-            <div className="balken"><div style={{ width: Math.min(100, a.cpGesamt / 1.8) + '%', background: '#4f8f80' }} /></div>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(110px, 1fr))', gap: 8 }}>
-              {Object.keys(BEREICH_ZIEL).map((b) => <div key={b}><b style={{ fontSize: 14 }}>{b}</b><div className="klein-text">{a.cpBereich[b] ?? 0} / {BEREICH_ZIEL[b]}</div></div>)}
+            <div className="karte"><div className="kachel-label">Dieses Semester</div><div className="kachel-wert">{a.aktListe.length} {a.aktListe.length === 1 ? 'Prüfung' : 'Prüfungen'}</div><div className="kachel-info">{naechste ? 'erste am ' + datumLang(naechste) : 'keine offenen Termine'}</div></div>
+            <div className="karte"><div className="kachel-label">Verschoben</div><div className="kachel-wert">{a.verschoben.length ? a.verschoben.length + (a.verschoben.length === 1 ? ' Modul' : ' Module') : 'Keine'}</div><div className="kachel-info">{a.verschoben.length ? a.verschoben.map((e) => e.modul.kuerzel).join(', ') : 'alles nachgeholt'}</div></div>
+          </section>
+          <section aria-label="Credit Points" className="karte" style={{ borderRadius: 20, padding: 20, display: 'flex', flexDirection: 'column', gap: 12 }}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'baseline', gap: 8 }}>
+              <h2 style={{ margin: 0, fontSize: 17, fontWeight: 800 }}>Credit Points</h2>
+              <span style={{ fontSize: 15 }}><b>{a.cpGesamt} von 180 CP</b> <span style={{ color: 'var(--ink-3)' }}>· noch {180 - a.cpGesamt} offen{wartend.length === 1 ? ' · ' + wartend[0].modul.kuerzel + ' (' + wartend[0].modul.cp + ' CP) wartet auf Ergebnis' : wartend.length > 1 ? ' · ' + wartend.length + ' Prüfungen (' + wartend.reduce((x, e) => x + e.modul.cp, 0) + ' CP) warten auf Ergebnis' : ''}</span></span>
+            </div>
+            <div style={{ height: 10, borderRadius: 999, background: 'var(--line-2)', overflow: 'hidden' }}><div style={{ width: Math.min(100, a.cpGesamt / 1.8) + '%', height: '100%', background: '#4f8f80', borderRadius: 999 }} /></div>
+            <div className="bereiche">
+              {BEREICHE.map((b) => { const v = a.cpBereich[b.key] ?? 0; const z = BEREICH_ZIEL[b.key]; return (
+                <div key={b.key} style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 13 }}><b><span className="b-lang">{b.name}</span><span className="b-kurz">{b.key}</span></b><span style={{ color: 'var(--ink-3)' }}>{v} / {z}</span></div>
+                  <div style={{ height: 6, borderRadius: 999, background: 'var(--line-2)', overflow: 'hidden' }}><div style={{ height: '100%', borderRadius: 999, background: b.farbe, width: Math.min(100, Math.round(v / z * 100)) + '%' }} /></div>
+                </div>
+              ); })}
             </div>
           </section>
 
@@ -80,13 +95,13 @@ export function Pruefungen({ stand, unter, gehe, neuLaden }: Props) {
             const auf = istOffen(ps.semester.id, ps.aktuell);
             const zus = zusammenfassung(ps.liste);
             return (
-              <section key={ps.semester.id} className="karte" style={{ padding: 0, overflow: 'hidden' }}>
-                <button onClick={() => setOffen({ ...offen, [ps.semester.id]: !auf })} aria-expanded={auf} style={{ width: '100%', display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 12, minHeight: 60, padding: '12px 20px', border: 0, background: '#fff', cursor: 'pointer', textAlign: 'left' }}>
+              <section key={ps.semester.id} className="karte" style={{ padding: 0, borderRadius: 20, overflow: 'hidden' }}>
+                <button className="sem-kopf" onClick={() => setOffen({ ...offen, [ps.semester.id]: !auf })} aria-expanded={auf} style={{ width: '100%', display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 12, minHeight: 60, padding: '0 20px', border: 0, background: '#fff', cursor: 'pointer', textAlign: 'left' }}>
                   <span style={{ width: 14, color: 'var(--ink-3)' }}>{auf ? '▾' : '▸'}</span>
-                  <b style={{ fontSize: 17 }}>{ps.semester.fachsemester}. Semester</b>
-                  <span className="klein-text">{ps.semester.bezeichnung}</span>
-                  <span className="schild" style={{ background: 'var(--line-2)', color: ps.cpIst >= ps.cpSoll && ps.cpSoll ? '#2f7a4b' : 'var(--ink-2)' }}>{ps.cpIst} von {ps.cpSoll} CP</span>
-                  <span className="klein-text" style={{ marginLeft: 'auto', fontWeight: 700 }}>{ps.aktuell ? 'aktuell · ' : ''}{zus}</span>
+                  <span style={{ fontSize: 17, fontWeight: 800, whiteSpace: 'nowrap' }}>{ps.semester.fachsemester}. Semester</span>
+                  <span className="klein-text" style={{ whiteSpace: 'nowrap' }}>{ps.semester.bezeichnung}</span>
+                  <span className="schild" style={{ fontSize: 13, background: 'var(--line-2)', color: ps.cpIst >= ps.cpSoll && ps.cpSoll ? '#2f7a4b' : 'var(--ink-2)' }}>{ps.cpIst} von {ps.cpSoll} CP</span>
+                  <span className="klein-text sem-info" style={{ marginLeft: 'auto', fontWeight: 700 }}>{ps.aktuell ? 'aktuell · ' : ''}{zus}</span>
                 </button>
                 {auf && (
                   <div style={{ padding: '0 20px 12px' }}>
@@ -106,26 +121,41 @@ export function Pruefungen({ stand, unter, gehe, neuLaden }: Props) {
         </>
       )}
 
-      {tab === 'bafoeg' && (
-        <section className="karte" style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 8, alignItems: 'center' }}>
-            <div><b style={{ fontSize: 17 }}>BAföG-Check</b><div className="klein-text">Leistungsnachweis (Formblatt 5) zu Beginn des 5. Fachsemesters · WiSe 27/28</div></div>
-            <span className="schild" style={{ background: bafoeg.bg, color: bafoeg.fg, fontSize: 14, padding: '6px 12px' }}>{bafoeg.s}</span>
-          </div>
-          <label className="feld" style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>Grenze laut Prüfungsamt
-            <input type="number" min={0} max={180} defaultValue={grenze} style={{ width: 80 }} onBlur={(ev) => { const g = parseInt(ev.target.value, 10); if (g >= 0 && g !== grenze) los(() => setzeBafoegGrenze(g)); }} /> CP
-          </label>
-          <div style={{ position: 'relative', height: 14, borderRadius: 999, background: 'var(--line-2)' }}>
-            <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: Math.min(100, a.bafoegMoeglich / 1.8) + '%', borderRadius: 999, background: '#cfe6dd' }} />
-            <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: Math.min(100, a.cpGesamt / 1.8) + '%', borderRadius: 999, background: '#4f8f80' }} />
-            <div style={{ position: 'absolute', top: -5, bottom: -5, left: Math.min(100, grenze / 1.8) + '%', width: 3, borderRadius: 2, background: 'var(--ink)' }} />
-          </div>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 16, fontSize: 13 }}>
-            <span>erreicht <b>{a.cpGesamt} CP</b></span><span>bis Ende 4. Semester möglich <b>{a.bafoegMoeglich} CP</b></span><span>Grenze <b>{grenze} CP</b></span>
-          </div>
-          <div className="klein-text" style={{ lineHeight: 1.45 }}>„Möglich“ zählt alle noch offenen Prüfungen bis einschließlich 4. Semester mit. Die Grenze bitte beim Akademischen Prüfungsamt bestätigen lassen. Mit einem Kind unter 14 Jahren kann die Vorlage auf Antrag verschoben werden (§ 15 Abs. 3 BAföG).</div>
-        </section>
-      )}
+      {tab === 'bafoeg' && (() => {
+        const plan = a.bafoegMoeglich; const ist = a.cpGesamt;
+        const st = ist >= grenze ? { t: 'Grenze erreicht ✓', bg: '#e3f2e8', fg: '#2f7a4b', h: 'Du hast die Grenze schon erreicht.' }
+          : plan - grenze >= 15 ? { t: 'Auf Kurs · noch ' + (grenze - ist) + ' CP bis zur Grenze', bg: '#e3f2e8', fg: '#2f7a4b', h: 'Wenn alle geplanten Prüfungen bis Ende des 4. Semesters klappen, liegst du ' + (plan - grenze) + ' CP über der Grenze.' }
+          : plan >= grenze ? { t: 'Knapp · Puffer nur ' + (plan - grenze) + ' CP', bg: '#fdf1e2', fg: '#9a5b14', h: 'Jede weitere Verschiebung oder nicht bestandene Prüfung kann dich unter die Grenze bringen.' }
+          : { t: 'Gefährdet · es fehlen ' + (grenze - plan) + ' CP', bg: '#fde9e9', fg: '#c42b2b', h: 'Selbst wenn alles Geplante klappt, reicht es nicht – frühzeitig mit dem BAföG-Amt sprechen.' };
+        const pz = (x: number) => Math.min(100, Math.round(x / 180 * 100)) + '%';
+        return (
+          <section className="karte" style={{ borderRadius: 20, padding: 20, display: 'flex', flexDirection: 'column', gap: 14 }}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'baseline', gap: 8 }}>
+              <h2 style={{ margin: 0, fontSize: 17, fontWeight: 800 }}>BAföG-Check</h2>
+              <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>Leistungsnachweis (Formblatt 5) zu Beginn des 5. Fachsemesters · WiSe 27/28</span>
+            </div>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12, alignItems: 'center' }}>
+              <span style={{ padding: '6px 12px', borderRadius: 12, fontSize: 14, fontWeight: 800, background: st.bg, color: st.fg }}>{st.t}</span>
+              <label style={{ display: 'inline-flex', alignItems: 'center', gap: 8, fontSize: 13, color: 'var(--ink-2)', marginLeft: 'auto' }}>
+                Grenze laut Prüfungsamt
+                <input type="number" min={0} max={180} defaultValue={grenze} onBlur={(ev) => { const g = parseInt(ev.target.value, 10); if (g >= 0 && g !== grenze) los(() => setzeBafoegGrenze(g)); }} style={{ width: 72, minHeight: 40, border: '1px solid var(--line)', borderRadius: 10, padding: '0 10px', fontSize: 15, fontWeight: 700, background: '#fff' }} />
+                CP
+              </label>
+            </div>
+            <div style={{ position: 'relative', height: 14, borderRadius: 999, background: 'var(--line-2)' }}>
+              <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: pz(plan), borderRadius: 999, background: '#cfe6dd' }} />
+              <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: pz(ist), borderRadius: 999, background: '#4f8f80' }} />
+              <div style={{ position: 'absolute', top: -5, bottom: -5, left: pz(grenze), width: 3, borderRadius: 2, background: 'var(--ink)' }} />
+            </div>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 16, fontSize: 13, color: 'var(--ink-2)' }}>
+              <span><span style={{ display: 'inline-block', width: 10, height: 10, borderRadius: 3, background: '#4f8f80', marginRight: 6 }} />erreicht <b>{ist} CP</b></span>
+              <span><span style={{ display: 'inline-block', width: 10, height: 10, borderRadius: 3, background: '#cfe6dd', marginRight: 6 }} />bis Ende 4. Semester möglich <b>{plan} CP</b></span>
+              <span><span style={{ display: 'inline-block', width: 3, height: 12, background: 'var(--ink)', marginRight: 6, verticalAlign: -1 }} />Grenze <b>{grenze} CP</b></span>
+            </div>
+            <div style={{ fontSize: 13, color: 'var(--ink-3)', lineHeight: 1.45 }}>{st.h} Mit einem Kind unter 14 Jahren kann die Vorlage auf Antrag verschoben werden (§ 15 Abs. 3 BAföG).</div>
+          </section>
+        );
+      })()}
 
       {tab === 'regeln' && <RegelnSeite />}
 
@@ -204,11 +234,11 @@ export function Pruefungen({ stand, unter, gehe, neuLaden }: Props) {
 function zusammenfassung(liste: Eintrag[]) {
   const z: Record<string, number> = {};
   liste.forEach((e) => { z[e.status] = (z[e.status] ?? 0) + 1; });
-  return Object.entries(z).map(([s, n]) => n + ' ' + s.toLowerCase()).join(' · ');
+  return Object.entries(z).map(([s, n]) => n + ' ' + (s === 'Ergebnis offen' ? s : s.toLowerCase())).join(' · ');
 }
 
 function Zeile({ e, aktuell, note, termine, verschieben, haken, stand }: { e: Eintrag; aktuell: boolean; stand: Studienstand; note: (v?: Versuch) => void; termine: () => void; verschieben: () => void; haken: (id: string, v: boolean) => void }) {
-  const [fg, bg] = farbe(e.modul.kuerzel);
+  const [fg, bg] = aktuell ? farbe(e.modul.kuerzel) : ['#4b5563', '#eef0f3'];
   const [sbg, sfg] = STATUS_FARBE[e.status];
   const vor = stand.voraussetzungen.filter((v) => v.pruefung_id === e.pruefung.id);
   const zielSem = stand.semester.find((s) => s.id === e.pruefung.verschoben_nach_semester_id);
@@ -220,9 +250,9 @@ function Zeile({ e, aktuell, note, termine, verschieben, haken, stand }: { e: Ei
   const zeigTermine = aktuell && !e.imUrsprung && !e.bestanden;
   const knopf = { minHeight: 36, padding: '0 12px', border: '1px solid var(--line)', borderRadius: 10, background: '#fff', fontSize: 13, fontWeight: 700, color: 'var(--ink-2)', cursor: 'pointer' } as const;
   return (
-    <div className="pr-zeile" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 12, padding: '14px 0', borderTop: '1px solid var(--line-2)' }}>
-      <a href={'#/module/' + e.modul.kuerzel} title="Modul öffnen" style={{ flex: '0 0 72px', padding: '4px 0', borderRadius: 10, textAlign: 'center', fontWeight: 800, fontSize: 13, background: bg, color: fg, textDecoration: 'none' }}>{e.modul.kuerzel}</a>
-      <div className="pr-text" style={{ flex: '1 1 300px', minWidth: 0, display: 'flex', flexDirection: 'column', gap: 2 }}>
+    <div className="pr-zeile">
+      <a className="pr-chip" href={'#/module/' + e.modul.kuerzel} title="Modul öffnen" style={{ padding: '4px 0', borderRadius: 10, textAlign: 'center', fontWeight: 800, fontSize: 13, background: bg, color: fg, textDecoration: 'none' }}>{e.modul.kuerzel}</a>
+      <div className="pr-text">
         <div style={{ fontWeight: 700, fontSize: 15 }}>{e.modul.name}</div>
         <div className="klein-text">{details}</div>
         {vor.length > 0 && (
@@ -242,12 +272,12 @@ function Zeile({ e, aktuell, note, termine, verschieben, haken, stand }: { e: Ei
             </div>
             {e.termine.map((t) => {
               const h = fristHinweis(t);
-              const an = t.anmeldung_ab && t.anmeldung_bis ? datumLang(t.anmeldung_ab) + '–' + datumLang(t.anmeldung_bis) : t.anmeldung_ab ? 'ab ' + datumLang(t.anmeldung_ab) + ' (Ende noch offen)' : t.anmeldung_bis ? 'bis ' + datumLang(t.anmeldung_bis) : 'noch offen';
+              const an = t.anmeldung_ab && t.anmeldung_bis ? datumLang(t.anmeldung_ab) + '–' + datumLang(t.anmeldung_bis) : t.anmeldung_ab ? 'ab ' + datumLang(t.anmeldung_ab) + ' (Ende noch offen)' : t.anmeldung_bis ? 'bis ' + datumLang(t.anmeldung_bis) : (HINWEIS_AN[e.modul.kuerzel + '|' + t.art] ?? 'noch offen');
               const ab = t.abmeldung_bis ? 'bis ' + datumLang(t.abmeldung_bis) : 'noch offen';
               return (
                 <div key={t.id} className="pr-termin" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: 12, padding: '6px 0', borderTop: '1px solid #ecece6' }}>
                   <span><b>{t.art}</b><br />{t.datum ? mitTag(t.datum) : 'noch offen'}</span>
-                  <span style={{ color: an.includes('offen') ? '#9a5b14' : undefined, display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 4 }}>
+                  <span style={{ color: !t.anmeldung_ab && !t.anmeldung_bis || an.includes('offen') ? '#9a5b14' : undefined, display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 4 }}>
                     <span><span className="pr-mobil">Anmeldung: </span>{an}</span>
                     {h && <span style={{ padding: '2px 8px', borderRadius: 999, fontSize: 12, fontWeight: 800, background: h.bg, color: h.fg }}>{h.text}</span>}
                   </span>
@@ -262,12 +292,12 @@ function Zeile({ e, aktuell, note, termine, verschieben, haken, stand }: { e: Ei
           </div>
         )}
       </div>
-      <span className="pr-schilder" style={{ flex: '0 0 140px', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 6 }}>
+      <span className="pr-schilder">
         <span className="schild" style={{ background: sbg, color: sfg }}>{e.status}</span>
         {e.modul.lehramt_hrs && <span className="schild" title={HRS_GRUND[e.modul.kuerzel] ?? 'Empfohlen für den Zugang zum M.Ed. Haupt- und Realschule'} style={{ background: '#fff6d6', color: '#7a5a00' }}>Lehramt HRS</span>}
         {geschriebenVor !== null && geschriebenVor > 0 && <span style={{ padding: '4px 10px', borderRadius: 12, fontSize: 12, fontWeight: 700, lineHeight: 1.3, background: '#f0f0eb', color: 'var(--ink-2)' }}>geschrieben vor {geschriebenVor} {geschriebenVor === 1 ? 'Tag' : 'Tagen'} – Note fehlt</span>}
       </span>
-      <span className="pr-knoepfe" style={{ flex: '0 1 260px', display: 'flex', flexWrap: 'wrap', gap: 8, justifyContent: 'flex-end', alignItems: 'center' }}>
+      <span className="pr-knoepfe">
         {zeigTermine && e.status === 'Geplant' && <button type="button" style={knopf} onClick={verschieben}>Verschieben</button>}
         {kannNote && <button type="button" style={{ ...knopf, border: '1px dashed #c9ccd1' }} onClick={() => note()}>Note eintragen</button>}
         {e.bestanden && <button type="button" onClick={() => note()} title="Versuch hinzufügen oder ändern" style={{ ...knopf, border: 0, background: 'transparent', fontSize: 18, fontWeight: 800, color: 'var(--ink)' }}>{e.unbenotet ? 'bestanden' : e.note !== null ? noteText(e.note) : ''}</button>}

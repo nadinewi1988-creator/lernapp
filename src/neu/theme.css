@@ -26,18 +26,18 @@ a { color: inherit; }
 
 /* ---------- Rahmen ---------- */
 .app { display: flex; min-height: 100vh; }
-.seitenleiste { flex: 0 0 240px; padding: 24px 14px; display: flex; flex-direction: column; gap: 4px; position: sticky; top: 0; height: 100vh; box-sizing: border-box; }
-.logo { display: flex; gap: 12px; align-items: center; padding: 0 8px 20px; }
-.logo-symbol { flex: 0 0 44px; width: 44px; height: 44px; line-height: 0; border-radius: 12px; background: #fff; border: 1px solid var(--line); display: grid; place-items: center; }
-.logo b { display: block; font-size: 18px; font-weight: 800; }
-.logo span { display: block; font-size: 13px; color: var(--ink-3); line-height: 1.3; }
-.nav-link { display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: var(--ink-2); font-weight: 600; text-decoration: none; cursor: pointer; border: 0; background: none; font-size: 16px; text-align: left; }
+.seitenleiste { flex: 1 1 200px; max-width: 240px; padding: 28px 16px; display: flex; flex-direction: column; gap: 4px; position: sticky; top: 0; height: 100vh; box-sizing: border-box; }
+.logo { display: flex; gap: 10px; align-items: center; padding: 0 12px 24px; }
+.logo .logo-symbol, .logo-symbol { flex: 0 0 32px; width: 32px; height: 32px; border-radius: 10px; background: #fff; border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; }
+.logo b { display: block; font-size: 17px; font-weight: 800; }
+.logo .logo-text span { display: block; font-size: 12px; color: var(--ink-3); }
+.nav-link { width: 100%; display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: var(--ink-2); font-weight: 600; text-decoration: none; cursor: pointer; border: 0; background: none; font-size: 16px; text-align: left; }
 .nav-link.aktiv { background: #fff; box-shadow: 0 1px 2px rgba(0,0,0,.06); color: var(--ink); font-weight: 700; }
-.nav-unter { display: flex; flex-direction: column; gap: 2px; margin: 2px 0 6px 40px; }
-.nav-unter button { text-align: left; border: 0; background: none; padding: 6px 10px; border-radius: 10px; font-size: 14px; font-weight: 700; color: var(--ink-3); cursor: pointer; }
-.nav-unter button.aktiv { background: #fff; color: var(--ink); box-shadow: 0 1px 2px rgba(0,0,0,.06); }
-.inhalt { flex: 999 1 560px; min-width: 0; padding: 28px 32px 48px; display: flex; flex-direction: column; gap: 18px; max-width: 1180px; }
-.untennav { display: none; position: fixed; left: 0; right: 0; bottom: 0; height: 72px; background: #fff; border-top: 1px solid var(--line); grid-template-columns: repeat(5, minmax(0, 1fr)); padding-bottom: env(safe-area-inset-bottom); z-index: 15; }
+.nav-unter { display: flex; flex-direction: column; gap: 2px; padding-left: 30px; margin: 2px 0 4px; }
+.nav-unter button { text-align: left; border: 0; background: transparent; min-height: 40px; padding: 0 12px; border-radius: 10px; font-size: 14px; font-weight: 600; color: var(--ink); cursor: pointer; }
+.nav-unter button.aktiv { background: #ecece6; font-weight: 800; }
+.inhalt { flex: 999 1 560px; min-width: 0; padding: 28px 32px 48px; display: flex; flex-direction: column; gap: 20px; max-width: 1120px; }
+.untennav { display: none; position: fixed; left: 0; right: 0; bottom: 0; height: 76px; background: #fff; border-top: 1px solid var(--line); grid-template-columns: repeat(5, minmax(0, 1fr)); padding-bottom: env(safe-area-inset-bottom); z-index: 15; }
 .untennav button { border: 0; background: none; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 600; color: var(--ink-3); cursor: pointer; }
 .untennav button.aktiv { color: var(--ink); font-weight: 800; }
 @media (max-width: 700px) {
@@ -49,7 +49,9 @@ a { color: inherit; }
 @media (min-width: 701px) { .nur-klein { display: none !important; } }
 
 /* ---------- Bausteine ---------- */
-.kopf { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 12px; }
+.kopf { display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: flex-end; gap: 12px; }
+.kopf > div { min-width: 0; }
+.kopf > .knopf { flex: 0 0 auto; white-space: nowrap; }
 .kopf h1 { margin: 0; font-size: 30px; font-weight: 800; }
 .kopf .unter { font-size: 14px; color: var(--ink-3); font-weight: 600; margin-top: 2px; }
 @media (max-width: 700px) { .kopf h1 { font-size: 24px; } }
@@ -59,13 +61,15 @@ a { color: inherit; }
 .knopf.rot { color: var(--rot); }
 .knopf:disabled { opacity: .45; cursor: default; }
 .link-knopf { border: 0; background: none; padding: 2px 0; font-size: 13px; font-weight: 700; color: var(--ink-2); text-decoration: underline; cursor: pointer; }
-.umschalter { align-self: flex-start; display: flex; flex-wrap: wrap; gap: 3px; padding: 3px; background: var(--chip); border-radius: 999px; }
-.umschalter button { min-height: 38px; padding: 0 16px; border: 0; border-radius: 999px; background: transparent; font-size: 14px; font-weight: 800; cursor: pointer; color: var(--ink); }
+.umschalter { align-self: flex-start; display: flex; flex-wrap: wrap; gap: 6px; padding: 4px; background: #ecece6; border-radius: 999px; }
+.umschalter button { min-height: 40px; padding: 0 18px; border: 0; border-radius: 999px; background: transparent; font-size: 14px; font-weight: 800; cursor: pointer; color: var(--ink); }
 .umschalter button.aktiv { background: #fff; box-shadow: 0 1px 2px rgba(0,0,0,.08); }
 .karte { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px; }
-.kacheln { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.kacheln { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 1050px) { .kacheln { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.kacheln > .karte { display: flex; flex-direction: column; gap: 4px; }
 .kachel-label { font-size: 13px; color: var(--ink-3); font-weight: 700; }
-.kachel-wert { font-size: 22px; font-weight: 800; line-height: 1.25; }
+.kachel-wert { font-size: 26px; font-weight: 800; line-height: 1.2; }
 .kachel-info { font-size: 13px; color: var(--ink-3); }
 .schild { display: inline-flex; align-items: center; padding: 2px 10px; border-radius: 999px; font-size: 12px; font-weight: 800; white-space: nowrap; }
 .klein-text { font-size: 13px; color: var(--ink-3); }
@@ -91,22 +95,43 @@ a { color: inherit; }
   .einzug { margin-left: 0; }
   .kacheln { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
   .kachel-wert { font-size: 16px; }
+  .kopf h1 { font-size: 22px; }
+  .inhalt { gap: 12px; }
+  .inhalt section.karte, .kacheln > .karte { padding: 12px; border-radius: 14px; }
+  .bereiche { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
   .karte { padding: 12px; }
   .termin-zeile { grid-template-columns: 1fr 1fr; }
   .termin-zeile > span:first-child { grid-column: 1 / -1; }
 }
 @media (max-width: 700px) {
   .umschalter { align-self: stretch; flex-wrap: nowrap; }
-  .umschalter button { flex: 1 1 0; padding: 0 6px; font-size: 13px; min-height: 36px; }
+  .umschalter { padding: 3px; gap: 2px; }
+  .umschalter button { flex: 1 1 0; min-width: 0; padding: 0 4px; font-size: 12px; min-height: 36px; white-space: nowrap; }
 }
 
-/* Prüfungszeilen wie im Entwurf */
+/* Prüfungszeilen wie im Entwurf – als Raster, damit nichts je nach Fensterbreite verrutscht */
+.pr-zeile { display: grid; grid-template-columns: 72px minmax(0, 1fr) 140px minmax(0, auto); grid-template-areas: "chip text schild knopf"; align-items: center; gap: 12px; padding: 14px 0; border-top: 1px solid var(--line-2); }
+.pr-chip { grid-area: chip; }
+.pr-text { grid-area: text; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.pr-schilder { grid-area: schild; display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+.pr-knoepfe { grid-area: knopf; display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; align-items: center; }
 .pr-mobil { display: none; color: var(--ink-3); font-weight: 700; }
+@media (max-width: 1150px) {
+  .pr-zeile { grid-template-columns: 72px minmax(0, 1fr) auto; grid-template-areas: "chip text text" ". schild knopf"; row-gap: 8px; }
+  .pr-schilder { flex-direction: row; flex-wrap: wrap; align-items: center; }
+}
 @media (max-width: 700px) {
+  .pr-zeile { grid-template-columns: 72px minmax(0, 1fr); grid-template-areas: "chip schild" "text text" "knopf knopf"; }
+  .pr-knoepfe { justify-content: flex-start; }
+  .pr-knoepfe:empty { display: none; }
   .pr-termin-kopf { display: none !important; }
   .pr-termin { grid-template-columns: 1fr !important; gap: 4px !important; }
   .pr-mobil { display: inline; }
-  .pr-text { flex-basis: 100% !important; order: 2; }
-  .pr-schilder { flex-direction: row !important; flex-basis: auto !important; flex-wrap: wrap; }
-  .pr-knoepfe { flex: 1 1 100% !important; justify-content: flex-start !important; order: 3; }
+  .sem-kopf { gap: 4px 8px !important; padding: 10px 12px !important; min-height: 48px !important; }
+  .sem-info { margin-left: 22px !important; flex-basis: 100%; font-size: 12px !important; }
 }
+
+.bereiche { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.b-kurz { display: none; }
+@media (max-width: 1150px) { .bereiche { grid-template-columns: repeat(3, minmax(0, 1fr)); } .b-lang { display: none; } .b-kurz { display: inline; } }
+@media (max-width: 700px) { .bereiche { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

@@ -1,0 +1,685 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "mab004",
+  "teilmodul": "mab004.2",
+  "datum": "2026-10-20",
+  "sitzung_nr": 2,
+  "sitzung_id": "8e2a3ed9-4977-4165-84ef-6022d31df091",
+  "thema": "Seminar 2 Geschichte",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "quellen": [
+    {
+      "datei": "mab004.2/Seminar_2_Geschichte/Blatt_2.pdf",
+      "art": "Übungsblatt",
+      "seiten": "1–3"
+    },
+    {
+      "datei": "mab004.2/Seminar_2_Geschichte/Ausstellung.JPG",
+      "art": "Schulbuchseite (Klasse 5, „Rund um den Taschenrechner“)",
+      "seiten": "212"
+    },
+    {
+      "datei": "mab004.2/Seminar_2_Geschichte/2020-02-04_Anhoerfassung_-_KC_Mathematik_RS.pdf",
+      "art": "Kerncurriculum Realschule (Anhörfassung 04.02.2020)",
+      "seiten": "5, 24, 27"
+    },
+    {
+      "datei": "mab004.2/Seminar_1_Rechnen_auf_den_Linien/KC_MA_GS_Anhrfassung.pdf",
+      "art": "Kerncurriculum Grundschule (Anhörfassung 2024)",
+      "seiten": "10–12"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Definition und Satz unterscheiden und Formulierungen zuordnen.",
+      "art": "abgeleitet",
+      "quelle": "Grundlagenaufgabe 1",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03"
+      ],
+      "erklaerung_abschnitt": "Definition und Satz"
+    },
+    {
+      "text": "Potenzgesetze anwenden und Terme mit Potenzen vereinfachen.",
+      "art": "abgeleitet",
+      "quelle": "Grundlagenaufgaben 2–4",
+      "fragen": [
+        "f04",
+        "f05",
+        "f06",
+        "f07",
+        "f08"
+      ],
+      "erklaerung_abschnitt": "Potenzen und Zehnerpotenzen"
+    },
+    {
+      "text": "Mit Zahlen in wissenschaftlicher Schreibweise rechnen und Ergebnisse richtig runden.",
+      "art": "abgeleitet",
+      "quelle": "Grundlagenaufgabe 5",
+      "fragen": [
+        "f09"
+      ],
+      "erklaerung_abschnitt": "Potenzen und Zehnerpotenzen"
+    },
+    {
+      "text": "Die Funktionsweise von Schickards Rechenmaschine und ihre mathematischen Voraussetzungen erklären.",
+      "art": "abgeleitet",
+      "quelle": "Übungsaufgabe 1",
+      "fragen": [
+        "f10",
+        "f11",
+        "f12",
+        "f13"
+      ],
+      "erklaerung_abschnitt": "Schickards Rechenmaschine"
+    },
+    {
+      "text": "Historische Rechenhilfen einordnen und ihre Behandlung im Unterricht mit dem KC begründen.",
+      "art": "abgeleitet",
+      "quelle": "Übungsaufgaben 1d, 2",
+      "fragen": [
+        "f14",
+        "f15",
+        "f16",
+        "f17",
+        "f18"
+      ],
+      "erklaerung_abschnitt": "Rechenhilfen im Unterricht"
+    }
+  ],
+  "kurzfassung": [
+    "Eine Definition legt fest, was ein Begriff bedeutet; ein Satz ist eine beweisbare Aussage – Terme und Gleichungen sind keins von beidem (Ergänzung).",
+    "Die Potenzgesetze (z. B. a⁰ = 1, a⁻ⁿ = 1/aⁿ, a^(1/n) = ⁿ√a) sind Grundlage für das Rechnen mit Zehnerpotenzen und Fließkommazahlen.",
+    "Beim Rechnen in wissenschaftlicher Schreibweise müssen Mantisse und Zehnerpotenz getrennt richtig behandelt werden – Klammerfehler und falsches Runden führen zu falschen Ergebnissen.",
+    "Schickards Maschine beruht auf dem dezimalen Stellenwertsystem, dem Zerlegen in Teilprodukte (Distributivgesetz) und Walzen mit den Vielfachen jeder Ziffer.",
+    "Die Übungsaufgaben zu VL 1 dienen der Klausurvorbereitung: Rechenhilfen, mathematische Voraussetzungen des Computers und die Begründung mit dem Kerncurriculum.",
+    "Das KC Realschule sieht Werkzeuge gestuft vor: bis Klasse 6 Zeichengeräte und Tabellenkalkulation, bis 8 DGS und Standardfunktionen des Taschenrechners, bis 10 erweiterte Funktionen."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Definition und Satz",
+      "folien": "Blatt 2, Grundlagenaufgabe 1",
+      "text": "Ergänzung (nicht aus dem Material):\n\n- Eine **Definition** legt fest, was ein Begriff bedeutet. Sie ist eine Vereinbarung und kann nicht bewiesen werden. Typisch: „… heißt …“, „… ist ein …, das …“, a² := a · a.\n- Ein **Satz** ist eine Aussage über schon definierte Begriffe, die wahr ist und bewiesen werden kann. Typisch: „Für alle …“, „Wenn …, dann …“.\n- **Weder noch:** Terme (sagen nichts aus) und Gleichungen mit Variablen (je nach x wahr oder falsch).\n\nBeispiel aus VL 2: Definition 2.1 legt fest, was der absolute Fehler ist; Satz 2.1 behauptet, dass er beim kaufmännischen Runden höchstens ½ ist, und wird bewiesen.",
+      "beispiel": "Satz: In jedem Dreieck ist die Innenwinkelsumme 180°. Definition: Ein Parallelogramm ist ein Viereck, in dem gegenüberliegende Seiten parallel sind."
+    },
+    {
+      "titel": "Potenzen und Zehnerpotenzen",
+      "folien": "Blatt 2, Grundlagenaufgaben 2–5",
+      "text": "**Potenzgesetze** (a, b ≠ 0; Ergänzung):\n\n| Gesetz | Formel |\n|---|---|\n| P1 | aᵐ · aⁿ = aᵐ⁺ⁿ |\n| P2 | aᵐ : aⁿ = aᵐ⁻ⁿ |\n| P3 | (aᵐ)ⁿ = aᵐ·ⁿ |\n| P4 | (a · b)ⁿ = aⁿ · bⁿ |\n| P5 | a⁰ = 1 |\n| P6 | a⁻ⁿ = 1/aⁿ |\n| P7 | a^(1/n) = ⁿ√a |\n\nJede Dezimalzahl ist eine Summe von Zehnerpotenzen (Stellenwertsystem): 302,015 = 3·10² + 0·10¹ + 2·10⁰ + 0·10⁻¹ + 1·10⁻² + 5·10⁻³.\n\nIn **wissenschaftlicher Schreibweise** (z. B. 3,5 · 10⁷) rechnet man Mantissen und Zehnerpotenzen getrennt – das ist die Grundlage der Fließkommazahlen aus VL 2.",
+      "beispiel": "(3,5 · 10⁷)² = 3,5² · 10¹⁴ = 12,25 · 10¹⁴ – nicht 3,5 · 10¹⁴ (Klammer!)."
+    },
+    {
+      "titel": "Schickards Rechenmaschine",
+      "folien": "Blatt 2, Übungsaufgabe 1 · Ausstellung.JPG",
+      "text": "Das Schulbuchbild zeigt einen Nachbau der 1623 von Wilhelm Schickard (1592–1635) konstruierten Rechenmaschine mit Drehknöpfen des Rechenwerks und Merkrädern.\n\nOben ist **2427** eingestellt, in Zeile 7 stehen die Teilprodukte 14 | 28 | 14 | 49 (2·7, 4·7, 2·7, 7·7). Stellenverschoben addiert: 14 000 + 2 800 + 140 + 49 = **16 989 = 2427 · 7**.\n\nMathematische Voraussetzungen: dezimales Stellenwertsystem mit Null, Zehnerübertrag über Zahnräder, Zerlegung einer Multiplikation in Teilprodukte (Distributivgesetz), Walzen mit den Vielfachen jeder Ziffer (Prinzip der Rechenstäbchen von Napier – Ergänzung).",
+      "beispiel": "23 · 27: Zeile 7 → 23 · 7 = 161; Zeile 2 (eine Stelle verschoben) → 23 · 20 = 460; im Addierwerk 161 + 460 = 621."
+    },
+    {
+      "titel": "Rechenhilfen im Unterricht",
+      "folien": "Blatt 2, Übungsaufgaben 1d, 2 · KC RS S. 5, 24, 27",
+      "text": "**KC Realschule, Bildungsbeitrag (S. 5):** Mathematik als ein kultureller Zugang, die Welt zu verstehen; Beitrag zur Medienbildung; Orientierung in einer durch Technik und Fortschritt geprägten Welt; Förderung von Ordnen, Verallgemeinern, Abstrahieren, folgerichtigem Denken.\n\n**Inhaltsbezogen – Zahlen und Operationen (S. 27):** tragfähiges Verständnis des Stellenwertsystems (Kl. 6), Bedeutung und Zusammenhänge der Grundrechenarten, Zahlen in Zehnerpotenzschreibweise (Kl. 10).\n\n**Werkzeuge (3.1.5, S. 24):** bis Ende Klasse 6: Lineal, Geodreieck, Zirkel; Tabellenkalkulation zum Erstellen von Diagrammen · bis Ende Klasse 8: Dynamische Geometrie-Software, Standardfunktionen des Taschenrechners, Tabellenkalkulation · bis Ende Klasse 10: Parabelschablone, erweiterte Funktionen des Taschenrechners. Basiskompetenz: den Taschenrechner sinnvoll und verständig einsetzen.\n\n**Rechenstab:** analoges Rechengerät, an Schulen in den letzten Jahrzehnten des 20. Jahrhunderts vom Taschenrechner abgelöst (1,3 · 3,5 = 4,55 auf Skala D ablesbar).",
+      "beispiel": ""
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Definition (mathematisch)",
+      "wortlaut": "Ergänzung (nicht aus dem Material): Eine Definition legt fest, was ein Begriff bedeutet.",
+      "erklaerung": "Eine Vereinbarung – sie ist weder wahr noch falsch und wird nicht bewiesen. Typisch: „… heißt …“, „… ist ein …, das …“, a² := a · a. Beispiel: Ein Parallelogramm ist ein Viereck, in dem gegenüberliegende Seiten zueinander parallel sind.",
+      "folie": "Blatt 2, Grundlagenaufgabe 1"
+    },
+    {
+      "begriff": "Satz (mathematisch)",
+      "wortlaut": "Ergänzung (nicht aus dem Material): Ein Satz ist eine beweisbare, wahre Aussage über bereits definierte Begriffe.",
+      "erklaerung": "Typisch: „Für alle …“, „Wenn …, dann …“. Beispiel: In jedem Dreieck ist die Summe der Innenwinkel gleich 180°. Terme und Gleichungen mit Variablen sind weder Definition noch Satz.",
+      "folie": "Blatt 2, Grundlagenaufgabe 1"
+    },
+    {
+      "begriff": "Potenzgesetze",
+      "wortlaut": "Ergänzung (nicht aus dem Material): aᵐ · aⁿ = aᵐ⁺ⁿ · aᵐ : aⁿ = aᵐ⁻ⁿ · (aᵐ)ⁿ = aᵐ·ⁿ · (a · b)ⁿ = aⁿ · bⁿ · a⁰ = 1 · a⁻ⁿ = 1/aⁿ · a^(1/n) = ⁿ√a (a, b ≠ 0)",
+      "erklaerung": "Rechenregeln für Potenzen. Häufige Fehler: 10⁰ = 0 (richtig: 1), 100^½ = 50 (richtig: 10), 3 · 2² = 6² (richtig: 12).",
+      "folie": "Blatt 2, Grundlagenaufgabe 2"
+    },
+    {
+      "begriff": "Rechenstab",
+      "wortlaut": "Beim abgebildeten Rechenstab kann unter dem Strich des Läufers auf der Skala D das Ergebnis der Multiplikation 1,3 · 3,5, nämlich 4,55, abgelesen werden. (Schulbuch, Ausstellung.JPG)",
+      "erklaerung": "Analoges Rechengerät mit verschiebbaren Skalen; wurde an Schulen in den letzten Jahrzehnten des 20. Jahrhunderts vom Taschenrechner abgelöst.",
+      "folie": "Ausstellung.JPG"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Übungsaufgabe",
+      "text": "Grundlagenaufgabe 1: Erklären Sie die mathematischen Begriffe Definition und Satz. Bei welchen der folgenden Formulierungen könnte es sich um Sätze handeln (sofern sie beweisbar sind) und bei welchen Formulierungen handelt es sich vermutlich um Definitionen? a) In jedem Dreieck ist die Summe der Innenwinkel gleich 180°. b) Ein Parallelogramm ist ein Viereck, in dem gegenüberliegende Seiten zueinander parallel sind. c) Wechselwinkel an geschnittenen Parallelen sind stets gleich groß. d) (2a + 3b − 4c) · 5y e) 5x − 16 = 19 f) (a + b)² = a² + 2ab + b² g) a² = a · a h) Wenn die Quersumme einer natürlichen Zahl durch 3 teilbar ist, so ist die Zahl selbst durch 3 teilbar.",
+      "quelle": "Übungsblatt 2, Grundlagenaufgabe 1",
+      "loesung": "Sätze: a, c, f, h · Definitionen: b, g · weder noch: d (Term), e (Gleichung)",
+      "loesungsweg": "Definition: legt fest, was ein Begriff bedeutet (Vereinbarung, nicht beweisbar). Satz: beweisbare, wahre Aussage über definierte Begriffe (Ergänzung).\na) Aussage über alle Dreiecke, beweisbar → Satz (Innenwinkelsatz).\nb) „Ein Parallelogramm ist ein Viereck, in dem …“ legt den Begriff fest → Definition.\nc) Aussage über Wechselwinkel, beweisbar → Satz (Wechselwinkelsatz).\nd) Nur ein Term, keine Aussage → weder noch.\ne) Gleichung mit Variable, nur für x = 7 wahr → weder noch.\nf) Gilt für alle a, b, durch Ausmultiplizieren beweisbar → Satz (1. binomische Formel).\ng) Legt fest, was a² bedeutet → Definition.\nh) „Wenn …, dann …“, beweisbar → Satz (Quersummenregel).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Übungsaufgabe",
+      "text": "Grundlagenaufgabe 2: Entscheiden Sie begründet mithilfe der Potenzgesetze, ob die folgenden Aussagen wahr oder falsch sind. a) a²/a⁻¹ = a³ b) 10⁰ = 0 c) 100^(1/2) = 50 d) 3 · 2² = 6² e) 9⁻² = 3 f) (2x³)³ = 8x⁶",
+      "quelle": "Übungsblatt 2, Grundlagenaufgabe 2",
+      "loesung": "a) wahr · b) falsch (= 1) · c) falsch (= 10) · d) falsch (12 ≠ 36) · e) falsch (= 1/81) · f) falsch (= 8x⁹)",
+      "loesungsweg": "Potenzgesetze (a, b ≠ 0): P1 aᵐ·aⁿ = aᵐ⁺ⁿ · P2 aᵐ:aⁿ = aᵐ⁻ⁿ · P3 (aᵐ)ⁿ = aᵐ·ⁿ · P4 (a·b)ⁿ = aⁿ·bⁿ · P5 a⁰ = 1 · P6 a⁻ⁿ = 1/aⁿ · P7 a^(1/n) = ⁿ√a.\na) a²/a⁻¹ = a^(2−(−1)) = a³ (P2) → wahr.\nb) 10⁰ = 1 (P5) → falsch.\nc) 100^(1/2) = √100 = 10 (P7); 50 wäre 100 · ½ → falsch.\nd) 3 · 2² = 3 · 4 = 12, 6² = 36. P4 gilt nur für (3 · 2)² → falsch.\ne) 9⁻² = 1/9² = 1/81 (P6) → falsch.\nf) (2x³)³ = 2³ · (x³)³ = 8x⁹ (P4, P3) → falsch.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Übungsaufgabe",
+      "text": "Grundlagenaufgabe 3: Geben Sie 302,015 als Summe von Zehnerpotenzen an.",
+      "quelle": "Übungsblatt 2, Grundlagenaufgabe 3",
+      "loesung": "302,015 = 3·10² + 0·10¹ + 2·10⁰ + 0·10⁻¹ + 1·10⁻² + 5·10⁻³",
+      "loesungsweg": "Jede Ziffer mit ihrem Stellenwert: 3 Hunderter (10²), 0 Zehner (10¹), 2 Einer (10⁰), 0 Zehntel (10⁻¹), 1 Hundertstel (10⁻²), 5 Tausendstel (10⁻³). Kurz: 3·10² + 2·10⁰ + 1·10⁻² + 5·10⁻³.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a04",
+      "art": "Übungsaufgabe",
+      "text": "Grundlagenaufgabe 4: Vereinfachen Sie! a) (3 · 10⁻²)² · 4 · 10³ / 10⁻¹ b) (2a²)² · 1/(2a)³ · 1/a⁻¹ c) b^(1/2) (b^(1/2) − b^(5/2)) / b d) (x⁻¹ + 1/(3x)) · (x/3 + 1)⁻¹",
+      "quelle": "Übungsblatt 2, Grundlagenaufgabe 4",
+      "loesung": "a) 36 · b) a²/2 · c) 1 − b² · d) 4/(x² + 3x)",
+      "loesungsweg": "a) (3 · 10⁻²)² = 9 · 10⁻⁴ (P4, P3) · 9 · 10⁻⁴ · 4 · 10³ = 36 · 10⁻¹ (P1) · 36 · 10⁻¹ : 10⁻¹ = 36 · 10⁰ = 36 (P2, P5).\nb) (2a²)² = 4a⁴ · (2a)³ = 8a³ · 1/a⁻¹ = a (P6) → 4a⁴ · a / (8a³) = 4a⁵ / (8a³) = a²/2 (P1, P2).\nc) b^(1/2) · b^(1/2) = b¹, b^(1/2) · b^(5/2) = b³ (P1) → (b − b³)/b = 1 − b².\nd) x⁻¹ + 1/(3x) = 3/(3x) + 1/(3x) = 4/(3x) · (x/3 + 1)⁻¹ = ((x + 3)/3)⁻¹ = 3/(x + 3) (P6) → 4/(3x) · 3/(x + 3) = 4/(x(x + 3)) = 4/(x² + 3x).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a05",
+      "art": "Übungsaufgabe",
+      "text": "Grundlagenaufgabe 5: Drei Schüler berechnen den Wert des Terms a² · b / (c · √d) für a = 3,5 · 10⁷, b = 4 · 10⁵, c = 2300 und d = 1,44 · 10¹⁴ und erhalten folgende gerundete Ergebnisse: Michael: 1,77 · 10¹⁰ Sina: 1,78 · 10¹⁰ Beyda: 5,07 · 10⁹ Laura: 5,08 · 10⁹. Wer hat richtig gerechnet?",
+      "quelle": "Übungsblatt 2, Grundlagenaufgabe 5",
+      "loesung": "Exakt ≈ 1,7754 · 10¹⁰ → Sina hat richtig gerechnet (auf 2 Nachkommastellen der Mantisse gerundet).",
+      "loesungsweg": "a² = (3,5 · 10⁷)² = 12,25 · 10¹⁴. a² · b = 12,25 · 10¹⁴ · 4 · 10⁵ = 49 · 10¹⁹ = 4,9 · 10²⁰.\n√d = √(1,44 · 10¹⁴) = 1,2 · 10⁷. c · √d = 2300 · 1,2 · 10⁷ = 2760 · 10⁷ = 2,76 · 10¹⁰.\nErgebnis: 4,9 · 10²⁰ / (2,76 · 10¹⁰) = 1,77536… · 10¹⁰ → kaufmännisch 1,78 · 10¹⁰ (Sina).\nMichael: abgeschnitten (abgerundet) statt kaufmännisch gerundet.\nBeyda/Laura: nur 10⁷ quadriert, 3,5 vergessen (Klammer): 3,5 · 10¹⁴ · 4 · 10⁵ / 2,76 · 10¹⁰ = 5,0724… · 10⁹ → Beyda hat dann richtig gerundet, Laura falsch (5,08).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a06",
+      "art": "Übungsaufgabe",
+      "text": "Übungsaufgabe 1a: In einem Schulbuch der Klasse 5 ist eine Abbildung von Schickards Rechenmaschine zu sehen (Ausstellung.jpg). Schreiben Sie etwa eine halbe Seite zu den mathematischen Voraussetzungen, die es Schickard ermöglichten seine Rechenmaschine zu entwickeln.",
+      "quelle": "Übungsblatt 2, Übungsaufgabe 1a",
+      "loesung": "Dezimales Stellenwertsystem mit Null, Zehnerübertrag (Zahnräder), Distributivgesetz (Teilprodukte), Vielfache jeder Ziffer auf Walzen (Napier, Ergänzung).",
+      "loesungsweg": "Musterlösung (ca. eine halbe Seite): Schickard konnte seine Rechenmaschine 1623 nur bauen, weil mehrere mathematische Entwicklungen vorlagen. Grundlage ist das dezimale Stellenwertsystem mit der Null. Es stammt aus Indien, kam über die Araber nach Europa und wurde durch Fibonacci (1202) und Adam Ries verbreitet. Erst in einem Stellenwertsystem kann man stellenweise mit festen Regeln rechnen. Jede Stelle lässt sich durch ein Zahnrad mit zehn Zähnen darstellen, und der Zehnerübertrag wird mechanisch an das nächste Rad weitergegeben. Zweitens nutzt die Maschine das Distributivgesetz: Eine Multiplikation wie 837 · 231 wird in die Teilprodukte 837 · 200, 837 · 30 und 837 · 1 zerlegt, die dann stellenverschoben addiert werden. Drittens stellen die Walzen des Multiplikationswerks die Vielfachen jeder Ziffer bereit, also das kleine Einmaleins, nach dem Vorbild der Rechenstäbchen von Napier (Ergänzung). So kann man die Teilprodukte direkt ablesen und muss sie nicht im Kopf rechnen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a07",
+      "art": "Übungsaufgabe",
+      "text": "Übungsaufgabe 1b: Welche Aufgabe ist auf der abgebildeten Rechenmaschine dargestellt? Wie können Sie das Endergebnis ermitteln? Erläutern Sie Ihr Vorgehen.",
+      "quelle": "Übungsblatt 2, Übungsaufgabe 1b",
+      "loesung": "2427 · 7 = 16 989",
+      "loesungsweg": "Oben in den Fenstern ist 0 0 2 4 2 7 eingestellt, also 2427. In der Zeile 7 (Knopf 7 links) stehen die Teilprodukte der einzelnen Ziffern mit 7: 2·7 = 14, 4·7 = 28, 2·7 = 14, 7·7 = 49. Diese werden nach ihrem Stellenwert verschoben addiert: 14 · 1000 + 28 · 100 + 14 · 10 + 49 = 14 000 + 2 800 + 140 + 49 = 16 989. Auf der Maschine geschieht das Addieren im Addierwerk (unten).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a08",
+      "art": "Übungsaufgabe",
+      "text": "Übungsaufgabe 1c: Laden Sie sich die Datei 'Schickardsche Rechenmaschine' unter https://mathematikalpha.de/schickardsche-rechenmaschine herunter. Starten Sie das Programm und geben Sie die Aufgabe 23 · 27 unten rechts ein. Klicken Sie anschließend auf Multiplizieren und beobachten Sie die Animation. Verschriftlichen Sie das beobachtete Vorgehen detailliert. (Alternativ Video https://www.youtube.com/watch?v=kZTMLvf2SGU ab etwa Minute 19)",
+      "quelle": "Übungsblatt 2, Übungsaufgabe 1c",
+      "loesung": "23 · 27 = 621 (23 · 7 = 161 und 23 · 20 = 460, im Addierwerk addiert).",
+      "loesungsweg": "Aus dem Prinzip hergeleitet (Programm/Video konnte nicht ausgewertet werden – mit der Animation vergleichen!):\n1. Den ersten Faktor 23 an den Walzen einstellen.\n2. Einerstelle des zweiten Faktors (7): in Zeile 7 die Teilprodukte ablesen: 2·7 = 14 (Zehner), 3·7 = 21 → 140 + 21 = 161; ins Addierwerk übertragen.\n3. Zehnerstelle (2): in Zeile 2 ablesen: 2·2 = 4, 3·2 = 6 → 46; um eine Stelle verschoben (also 460) zum Addierwerk addieren.\n4. Das Addierwerk zeigt 161 + 460 = 621; Zehnerüberträge erledigen die Zahnräder.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a09",
+      "art": "Übungsaufgabe",
+      "text": "Übungsaufgabe 1d: Erläutern Sie, was dafür sprechen könnte Schickards Rechenmaschine im Unterricht zu behandeln? Welche Inhaltsbezogenen Kompetenzen (KC Realschule Nds. 2020) können hier gefördert werden? Wie kann hier mit dem Bildungsbeitrag (S.5 KC Realschule Nds. 2020) argumentiert werden? Wäre die Behandlung des Themas in der Grundschule mit dem entsprechenden KC zu begründen? Beantworten Sie die Fragen mit ausführlicher Begründung.",
+      "quelle": "Übungsblatt 2, Übungsaufgabe 1d",
+      "loesung": "Dafür sprechen: Verständnis des Stellenwertsystems und der schriftlichen Multiplikation, kulturgeschichtlicher Bezug, Medienbildung. Inhaltsbezogen: Zahlen und Operationen. Bildungsbeitrag: Mathematik als kultureller Zugang zur Welt, Orientierung in einer technisch geprägten Welt. Grundschule: ja, begründbar.",
+      "loesungsweg": "Was dafür spricht: Die Maschine macht sichtbar, wie Multiplikation in Teilprodukte zerlegt und stellenverschoben addiert wird – das ist genau das Prinzip der schriftlichen Multiplikation. Schüler sehen, dass Rechnen automatisierbar ist (Vorstufe zum Computer) und verstehen dadurch, was ein Taschenrechner tut.\nInhaltsbezogene Kompetenzen (KC RS, Zahlen und Operationen, S. 27): tragfähiges Verständnis des Stellenwertsystems (Ende Kl. 6); Bedeutung und Zusammenhänge der Grundrechenarten kennen und nutzen, multiplikative Struktur nutzen (Kl. 6); Zahlen in Zehnerpotenzschreibweise darstellen (Kl. 10).\nBildungsbeitrag (S. 5): „Unsere Kultur entwickelt unterschiedliche Zugänge, die Welt zu verstehen“ – die Geschichte der Rechenmaschinen zeigt Mathematik als Kulturleistung; Mathematik thematisiert kulturelle Phänomene und leistet einen Beitrag zur Medienbildung; sie „bietet Orientierung in einer durch Technik und Fortschritt geprägten Welt“; sie fördert Ordnen, Abstrahieren und folgerichtiges Denken (Algorithmus der Maschine nachvollziehen).\nGrundschule: Ja. Das KC GS verlangt ein tragfähiges Stellenwertverständnis (Bündelungs-/Stellenwertprinzip, S. 10), das Verständnis der schriftlichen Algorithmen inkl. Multiplikation (S. 11) und im Bereich Medienbildung ausdrücklich die „Anbahnung von Algorithmen (z. B. schriftliches Multiplikationsverfahren) mithilfe digitaler Medien“ (S. 12). Ein Nachbau oder die Animation der Schickard-Maschine passt dazu. (Seitenzahlen nach den Anhörfassungen.)",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a10",
+      "art": "Übungsaufgabe",
+      "text": "Übungsaufgabe 2a: Welche mathematischen Entdeckungen bzw. Erfindungen beeinflussten die Entwicklung der Rechenmaschinen, speziell des Computers?",
+      "quelle": "Übungsblatt 2, Übungsaufgabe 2a",
+      "loesung": "Stellenwertsystem mit Null, mechanische Rechenmaschinen, Lochkarten, boolesche Algebra, Schaltungen, Binärsystem.",
+      "loesungsweg": "• Stellenwertsystem mit der Null (Indien, 5. Jh.; über Fibonacci 1202 nach Europa): ermöglicht Rechnen nach festen Regeln.\n• Mechanische Rechenmaschinen (Schickard, Pascal, 17. Jh.): zeigen, dass Rechnen automatisierbar ist.\n• Lochkarten (Jacquard-Webstuhl 1805, Hollerith 1890): Daten speichern und Abläufe steuern mit Loch/kein Loch = 1/0.\n• Boolesche Algebra (Boole): Rechnen mit Wahrheitswerten 0/1 und Verknüpfungen UND/ODER.\n• Schaltungen: Strom fließt/fließt nicht = 0/1; UND als Reihen-, ODER als Parallelschaltung.\n• Binärsystem (Zuse, Z3 1941): verbindet alles zum programmgesteuerten Rechner.\n(Alles aus VL 1.)",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a11",
+      "art": "Übungsaufgabe",
+      "text": "Übungsaufgabe 2b: Schauen Sie sich die Datei Ausstellung.jpg an. Die Datei enthält die Kopie eines Arbeitsauftrags bei dem Schülerinnen und Schüler einer fünften Klasse unter anderem aufgefordert werden Rechenhilfen zu finden. Listen Sie alle in der Vorlesung genannten Rechenhilfen auf und beantworten Sie folgende Fragen: Wie alt ist das Gerät? Wofür kann es genutzt werden? Könnte man das Gerät auch heute noch nutzen? Was spricht dafür und was dagegen? Könnte man dieses Thema auch heute noch im Mathematikunterricht behandeln? Werfen Sie dazu ein Blick in das aktuelle Kerncurriculum (Mathematik, Niedersachsen, Realschule 2020).",
+      "quelle": "Übungsblatt 2, Übungsaufgabe 2b",
+      "loesung": "Tabelle siehe Lösungsweg. Ja, das Thema passt zum KC RS (Medienbildung, Stellenwertsystem, Werkzeuge, Bildungsbeitrag).",
+      "loesungsweg": "Rechenhilfe – Alter – Nutzung – heute?\n• Finger/Zehen – seit Urzeiten – Zählen, kleine Rechnungen – ja, immer verfügbar; aber nur kleine Zahlen.\n• Steine, Striche, Kerbholz – frühe Zeit (Kerbholz noch im Mittelalter) – Anzahlen festhalten (Mächtigkeit von Mengen, z. B. Schulden) – kaum; Strichlisten ja.\n• Abakus – Antike (Römer) – Rechnen mit (römischen) Zahlen – als Anschauungsmittel ja (KC GS nennt ihn als Darstellungsmittel), zum Rechnen zu langsam.\n• Rechenbrett/Linienrechnen – Mittelalter, Adam Ries 16. Jh. – Grundrechenarten mit Rechenpfennigen – im Unterricht zur Einsicht ins Stellenwertsystem ja, im Alltag nein.\n• Rechenmaschine von Schickard – 1623 – Addieren, Subtrahieren, Multiplizieren (Teilprodukte) – nur als Anschauung (Museum, Nachbau, Animation).\n• Pascaline (Blaise Pascal) – 17. Jh. – Addieren – nur Anschauung.\n• Lochkartenmaschinen (Jacquard 1805, Hollerith 1890) – Steuerung bzw. Auswertung der Volkszählung – nein, aber Prinzip 0/1 lebt im Computer weiter.\n• Z3 (Konrad Zuse) – 1941 – erster programmgesteuerter Rechner mit Binärsystem – nein (historisch).\n• Colossus – Zweiter Weltkrieg – Entschlüsselung – nein (historisch).\n• Taschenrechner – seit 1972 – alle Rechnungen – ja, im Unterricht vorgesehen.\n• Rechenstab (Bild im Schulbuch) – bis zum Taschenrechner üblich – Multiplizieren/Dividieren über Skalen – heute kaum; als Anschauung möglich.\nDafür: Verständnis, wie Rechnen funktioniert; kulturgeschichtlicher Bezug; Grenzen und Möglichkeiten von Werkzeugen. Dagegen: langsamer, ungenauer, nur begrenzte Zahlen.\nIm Unterricht heute: ja – KC RS: Bildungsbeitrag (Kultur, Technik, Medienbildung, S. 5), Stellenwertsystem und Grundrechenarten (S. 27), Werkzeuge verständig nutzen (S. 24). Altersangaben zu Abakus, Pascaline, Colossus und Rechenstab sind Ergänzungen (nicht aus der Vorlesung).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a12",
+      "art": "Übungsaufgabe",
+      "text": "Übungsaufgabe 2c: Mit welchen Werkzeugen (und in welcher Form) sollen sich Schülerinnen und Schüler laut Kerncurriculum (Mathematik, Niedersachsen, Realschule 2020) auseinandersetzen? – bis Ende Klasse 6 – bis Ende Klasse 8 – bis Ende Klasse 10",
+      "quelle": "Übungsblatt 2, Übungsaufgabe 2c",
+      "loesung": "Kl. 6: Lineal, Geodreieck, Zirkel; Tabellenkalkulation für Diagramme · Kl. 8: DGS, Standardfunktionen des TR, Tabellenkalkulation · Kl. 10: Parabelschablone, erweiterte Funktionen des TR.",
+      "loesungsweg": "KC RS 3.1.5 „Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen“, Kernkompetenz „verwenden Werkzeuge“ (S. 24):\n• Ende Klasse 6: arbeiten mit Lineal, Geodreieck und Zirkel; nutzen Tabellenkalkulationssoftware zum Erstellen von Diagrammen.\n• zusätzlich Ende Klasse 8: nutzen Dynamische Geometrie-Software (DGS); nutzen die Standardfunktionen des Taschenrechners; nutzen Tabellenkalkulationssoftware.\n• zusätzlich Ende Klasse 10: arbeiten mit der Parabelschablone; nutzen die erweiterten Funktionen des Taschenrechners.\nAußerdem Basiskompetenz: „setzen den Taschenrechner sinnvoll und verständig ein“; die Lernbereiche nennen jeweils „Hinweise zum Einsatz digitaler Medien und Werkzeuge“ (z. B. Lern- und Übungssoftware, Tabellenkalkulation, DGS).",
+      "frist": "",
+      "im_kalender": false
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was ist der Unterschied zwischen einer Definition und einem Satz in der Mathematik?",
+      "antwort": "Eine Definition legt fest, was ein Begriff bedeutet (Vereinbarung, nicht beweisbar). Ein Satz ist eine wahre Aussage über definierte Begriffe, die bewiesen werden kann.",
+      "erklaerung": "Ergänzung (nicht aus dem Material).",
+      "folie": "Blatt 2, G1",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f02",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu: Satz, Definition oder weder noch?",
+      "kategorien": [
+        "Satz",
+        "Definition",
+        "weder noch"
+      ],
+      "elemente": [
+        {
+          "text": "In jedem Dreieck ist die Summe der Innenwinkel gleich 180°.",
+          "kategorie": "Satz"
+        },
+        {
+          "text": "Ein Parallelogramm ist ein Viereck, in dem gegenüberliegende Seiten zueinander parallel sind.",
+          "kategorie": "Definition"
+        },
+        {
+          "text": "Wechselwinkel an geschnittenen Parallelen sind stets gleich groß.",
+          "kategorie": "Satz"
+        },
+        {
+          "text": "(2a + 3b − 4c) · 5y",
+          "kategorie": "weder noch"
+        },
+        {
+          "text": "5x − 16 = 19",
+          "kategorie": "weder noch"
+        },
+        {
+          "text": "(a + b)² = a² + 2ab + b²",
+          "kategorie": "Satz"
+        },
+        {
+          "text": "a² = a · a",
+          "kategorie": "Definition"
+        },
+        {
+          "text": "Wenn die Quersumme einer natürlichen Zahl durch 3 teilbar ist, so ist die Zahl selbst durch 3 teilbar.",
+          "kategorie": "Satz"
+        }
+      ],
+      "erklaerung": "Sätze sind beweisbare Aussagen; Definitionen legen Begriffe fest; Terme und Gleichungen sind keine Aussagen bzw. nicht allgemein wahr.",
+      "folie": "Blatt 2, G1",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f03",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Suche aus VL 2 je ein Beispiel für eine Definition und einen Satz und begründe die Einordnung.",
+      "musterloesung": "Definition 2.1 (absoluter Fehler ε_A(b; a) := |b − a|) legt fest, was ein Begriff bedeutet. Satz 2.1 (maximaler Rundungsfehler ≤ 1 bzw. ½) ist eine Aussage, die auf Folie 24 bewiesen wird.",
+      "bewertungspunkte": [
+        "Beispiel Definition",
+        "Beispiel Satz",
+        "Begründung (festlegen vs. beweisen)"
+      ],
+      "punkte": 3,
+      "erklaerung": "Bezug zu VL 2.",
+      "folie": "Blatt 2, G1 · VL 2",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f04",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Nenne die Potenzgesetze für gleiche Basis (mal, geteilt), Potenz einer Potenz, Exponent 0 und negativen Exponenten.",
+      "antwort": "aᵐ · aⁿ = aᵐ⁺ⁿ; aᵐ : aⁿ = aᵐ⁻ⁿ; (aᵐ)ⁿ = aᵐ·ⁿ; a⁰ = 1; a⁻ⁿ = 1/aⁿ (a ≠ 0).",
+      "erklaerung": "Ergänzung (nicht aus dem Material).",
+      "folie": "Blatt 2, G2",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f05",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen sind wahr?",
+      "optionen": [
+        "a²/a⁻¹ = a³",
+        "10⁰ = 0",
+        "100^(1/2) = 50",
+        "3 · 2² = 6²",
+        "9⁻² = 1/81",
+        "(2x³)³ = 8x⁹"
+      ],
+      "richtig": [
+        0,
+        4,
+        5
+      ],
+      "erklaerung": "a²/a⁻¹ = a³ ist wahr (P2). 10⁰ = 1, 100^½ = 10, 3·2² = 12, 9⁻² = 1/81, (2x³)³ = 8x⁹.",
+      "folie": "Blatt 2, G2",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f06",
+      "baustein": "aufgabe",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "10⁰ = [[1]] und 100^(1/2) = [[10]]",
+      "erklaerung": "P5 und P7.",
+      "folie": "Blatt 2, G2",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f07",
+      "baustein": "aufgabe",
+      "format": "frage",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Schreibe 302,015 als Summe von Zehnerpotenzen.",
+      "antwort": "3·10² + 0·10¹ + 2·10⁰ + 0·10⁻¹ + 1·10⁻² + 5·10⁻³",
+      "erklaerung": "Stellenwerte als Zehnerpotenzen.",
+      "folie": "Blatt 2, G3",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f08",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Vereinfache: a) (3 · 10⁻²)² · 4 · 10³ / 10⁻¹ und d) (x⁻¹ + 1/(3x)) · (x/3 + 1)⁻¹",
+      "musterloesung": "a) 9 · 10⁻⁴ · 4 · 10³ = 36 · 10⁻¹; : 10⁻¹ = 36. d) x⁻¹ + 1/(3x) = 4/(3x); (x/3 + 1)⁻¹ = 3/(x + 3); Produkt 4/(x(x + 3)) = 4/(x² + 3x).",
+      "bewertungspunkte": [
+        "a) Potenzgesetze korrekt",
+        "a) 36",
+        "d) erste Klammer 4/(3x)",
+        "d) Kehrwert 3/(x + 3)",
+        "d) Ergebnis"
+      ],
+      "punkte": 5,
+      "erklaerung": "Siehe Lösungswege a04.",
+      "folie": "Blatt 2, G4",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f09",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Berechne a² · b / (c · √d) für a = 3,5 · 10⁷, b = 4 · 10⁵, c = 2300, d = 1,44 · 10¹⁴ und erkläre, welche Fehler zu den Ergebnissen 1,77 · 10¹⁰ und 5,07 · 10⁹ führen.",
+      "musterloesung": "a² · b = 12,25 · 10¹⁴ · 4 · 10⁵ = 4,9 · 10²⁰; c · √d = 2300 · 1,2 · 10⁷ = 2,76 · 10¹⁰; Ergebnis ≈ 1,7754 · 10¹⁰ → 1,78 · 10¹⁰. 1,77 · 10¹⁰: abgeschnitten statt gerundet. 5,07 · 10⁹: nur 10⁷ quadriert, nicht 3,5 (Klammerfehler).",
+      "bewertungspunkte": [
+        "Zähler 4,9 · 10²⁰",
+        "Nenner 2,76 · 10¹⁰",
+        "Ergebnis 1,78 · 10¹⁰",
+        "Fehler Michael",
+        "Fehler Beyda/Laura"
+      ],
+      "punkte": 5,
+      "erklaerung": "Siehe a05.",
+      "folie": "Blatt 2, G5",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f10",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche mathematischen Voraussetzungen ermöglichten Schickard den Bau seiner Rechenmaschine?",
+      "musterloesung": "Dezimales Stellenwertsystem mit Null (Indien → Fibonacci → Ries); Zehnerübertrag mit Zahnrädern; Zerlegung der Multiplikation in Teilprodukte (Distributivgesetz) und stellenverschobene Addition; Walzen mit den Vielfachen jeder Ziffer (Prinzip der Napier-Stäbchen, Ergänzung).",
+      "bewertungspunkte": [
+        "Stellenwertsystem mit Null",
+        "Zehnerübertrag",
+        "Distributivgesetz/Teilprodukte",
+        "Vielfache auf Walzen"
+      ],
+      "punkte": 4,
+      "erklaerung": "Siehe Musterlösung a06.",
+      "folie": "Blatt 2, Ü1a",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "aufgabe",
+      "format": "frage",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Auf Schickards Maschine ist oben 2427 eingestellt, in Zeile 7 stehen 14 | 28 | 14 | 49. Welche Aufgabe ist das, und wie lautet das Ergebnis?",
+      "antwort": "2427 · 7 = 14 000 + 2 800 + 140 + 49 = 16 989.",
+      "erklaerung": "Teilprodukte 14 | 28 | 14 | 49 stellenverschoben addieren.",
+      "folie": "Ausstellung.JPG · Ü1b",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Beschreibe, wie Schickards Maschine 23 · 27 berechnet.",
+      "musterloesung": "23 an den Walzen einstellen. Zeile 7: 23 · 7 = 161 ablesen und ins Addierwerk übertragen. Zeile 2: 23 · 2 = 46 ablesen, um eine Stelle verschoben (460) addieren. Ergebnis im Addierwerk: 621.",
+      "bewertungspunkte": [
+        "Einstellen",
+        "Teilprodukt mit 7",
+        "Teilprodukt mit 2 verschoben",
+        "Addition 621"
+      ],
+      "punkte": 4,
+      "erklaerung": "Aus dem Prinzip hergeleitet.",
+      "folie": "Blatt 2, Ü1c",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Auf welchem Rechengesetz beruht das Multiplizieren mit Teilprodukten bei Schickard?",
+      "optionen": [
+        "Distributivgesetz",
+        "Kommutativgesetz der Addition",
+        "Binärsystem",
+        "Satz des Pythagoras"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Schickard: Walzen liefern Teilprodukte, Zahnräder addieren. Das Binärsystem kam erst mit Zuse.",
+      "folie": "Ü1 · VL 1 F. 29",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f14",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Begründe mit dem KC Realschule (Bildungsbeitrag und inhaltsbezogene Kompetenzen), warum Schickards Rechenmaschine im Unterricht behandelt werden kann. Wäre das auch in der Grundschule begründbar?",
+      "musterloesung": "Bildungsbeitrag: Mathematik als kultureller Zugang zur Welt, Beitrag zur Medienbildung, Orientierung in einer von Technik geprägten Welt, folgerichtiges Denken. Inhaltsbezogen (Zahlen und Operationen): Stellenwertsystem, Grundrechenarten/multiplikative Struktur, Zehnerpotenzen. Grundschule: ja – Stellenwertverständnis, schriftliche Multiplikation verstehen, Medienbildung „Anbahnung von Algorithmen (z. B. schriftliches Multiplikationsverfahren)“.",
+      "bewertungspunkte": [
+        "Bildungsbeitrag mit Zitat/Bezug",
+        "inhaltsbezogene Kompetenz",
+        "Begründung Grundschule mit KC GS",
+        "Bezug zur Maschine (Teilprodukte = schriftliche Multiplikation)"
+      ],
+      "punkte": 6,
+      "erklaerung": "Klausurnah: mit KC argumentieren.",
+      "folie": "Blatt 2, Ü1d · KC RS S. 5, 27 · KC GS S. 10–12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche mathematischen Entdeckungen bzw. Erfindungen beeinflussten die Entwicklung des Computers?",
+      "musterloesung": "Stellenwertsystem mit Null; mechanische Rechenmaschinen (Schickard, Pascal); Lochkarten (Jacquard, Hollerith: 0/1); boolesche Algebra (UND/ODER); Schaltungen (Strom/kein Strom); Binärsystem (Zuse, Z3 1941).",
+      "bewertungspunkte": [
+        "Stellenwertsystem/Null",
+        "Lochkarten",
+        "Boole",
+        "Schaltungen",
+        "Binärsystem/Zuse"
+      ],
+      "punkte": 5,
+      "erklaerung": "Alles aus VL 1.",
+      "folie": "Blatt 2, Ü2a · VL 1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Rechenhilfen ihrer Zeit zu.",
+      "kategorien": [
+        "Antike/Mittelalter",
+        "17. Jahrhundert",
+        "19. Jahrhundert",
+        "20. Jahrhundert"
+      ],
+      "elemente": [
+        {
+          "text": "Abakus",
+          "kategorie": "Antike/Mittelalter"
+        },
+        {
+          "text": "Rechenbrett (Linienrechnen)",
+          "kategorie": "Antike/Mittelalter"
+        },
+        {
+          "text": "Rechenmaschine von Schickard",
+          "kategorie": "17. Jahrhundert"
+        },
+        {
+          "text": "Pascaline",
+          "kategorie": "17. Jahrhundert"
+        },
+        {
+          "text": "Hollerith-Lochkartenmaschine",
+          "kategorie": "19. Jahrhundert"
+        },
+        {
+          "text": "Jacquard-Webstuhl mit Lochkarten",
+          "kategorie": "19. Jahrhundert"
+        },
+        {
+          "text": "Zuse Z3",
+          "kategorie": "20. Jahrhundert"
+        },
+        {
+          "text": "Taschenrechner",
+          "kategorie": "20. Jahrhundert"
+        }
+      ],
+      "erklaerung": "Daten aus VL 1 bzw. Bild; Abakus Antike (Ergänzung).",
+      "folie": "Blatt 2, Ü2b · VL 1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu: Bis zu welchem Schuljahrgang sollen die Schüler laut KC Realschule mit diesem Werkzeug arbeiten?",
+      "kategorien": [
+        "Ende Klasse 6",
+        "zusätzlich Ende Klasse 8",
+        "zusätzlich Ende Klasse 10"
+      ],
+      "elemente": [
+        {
+          "text": "Lineal, Geodreieck und Zirkel",
+          "kategorie": "Ende Klasse 6"
+        },
+        {
+          "text": "Tabellenkalkulation zum Erstellen von Diagrammen",
+          "kategorie": "Ende Klasse 6"
+        },
+        {
+          "text": "Dynamische Geometrie-Software (DGS)",
+          "kategorie": "zusätzlich Ende Klasse 8"
+        },
+        {
+          "text": "Standardfunktionen des Taschenrechners",
+          "kategorie": "zusätzlich Ende Klasse 8"
+        },
+        {
+          "text": "Parabelschablone",
+          "kategorie": "zusätzlich Ende Klasse 10"
+        },
+        {
+          "text": "erweiterte Funktionen des Taschenrechners",
+          "kategorie": "zusätzlich Ende Klasse 10"
+        }
+      ],
+      "erklaerung": "KC RS 3.1.5 „verwenden Werkzeuge“.",
+      "folie": "Blatt 2, Ü2c · KC RS S. 24",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Eine 5. Klasse plant eine Ausstellung „Rechenhilfen“. Wähle eine historische Rechenhilfe aus und beantworte: Wie alt ist sie, wofür wurde sie genutzt, könnte man sie heute noch nutzen (pro/contra) – und warum lohnt sich das Thema im Unterricht?",
+      "musterloesung": "Z. B. Abakus: Antike; Rechnen mit (römischen) Zahlen. Heute: als Anschauungsmittel für das Stellenwertsystem ja (KC GS nennt ihn als Darstellungsmittel), zum schnellen Rechnen nein (langsamer als Taschenrechner). Unterricht: Stellenwertverständnis, Kulturgeschichte (Bildungsbeitrag), Grenzen und Möglichkeiten von Werkzeugen.",
+      "bewertungspunkte": [
+        "Alter und Nutzung",
+        "Pro",
+        "Contra",
+        "Begründung für den Unterricht mit KC-Bezug"
+      ],
+      "punkte": 4,
+      "erklaerung": "Pro und Contra, KC-Bezug.",
+      "folie": "Ausstellung.JPG · Ü2b",
+      "pruefungsrelevant": false
+    }
+  ],
+  "pruefungshinweise": [
+    "Die Übungsaufgaben auf Blatt 2 dienen laut Blatt der Nachbereitung von Vorlesung 1 und der Vorbereitung auf die Klausur – die Klausur orientiert sich sehr nah an den Übungsaufgaben (VL 1, Folie 6)."
+  ],
+  "offene_fragen": [
+    "Übungsaufgabe 1c: Programm (mathematikalpha.de, vermutlich nur Windows) bzw. Video konnten nicht ausgewertet werden – stimmt die hergeleitete Beschreibung (23 · 7 = 161, 23 · 20 = 460, Summe 621) mit der Animation überein?",
+    "Grundlagenaufgabe 5: Im Text steht „Drei Schüler“, es werden aber vier Namen genannt.",
+    "Hinweis: Die verwendeten Kerncurricula (Realschule 2020, Grundschule) sind Anhörfassungen – Seitenzahlen können in der Endfassung abweichen."
+  ]
+}

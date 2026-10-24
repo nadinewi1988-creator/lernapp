@@ -106,6 +106,83 @@
       "erklaerung": "Merkhilfe: 2 × 5 = 10 (H1: zwei Fünfer → ein Zehner), 5 × 1 = 5 (H2: fünf Einer → ein Fünfer). T1 und T2 sind die Umkehrungen, T3 (aus Ries’ 2. Rechenbuch, fürs Subtrahieren) zerlegt 10 in 5 + 5 · 1.",
       "quelle": "mab004.2_2026-10-13 · Fothe S. 4 (Tabelle 1), S. 9 (Tabelle 2)",
       "abweichungen": []
+    },
+    {
+      "begriff": "Absoluter Fehler",
+      "wortlaut": "Definition 2.1. Sei a ∈ ℝ ∖ {0} und b ∈ ℝ eine Näherung von a, also b ≈ a. Dann heißt der Abstand ε_A(b; a) := |b − a| absoluter Fehler der Näherung b bezüglich a.",
+      "erklaerung": "Wie weit liegt die Näherung vom echten Wert weg – egal in welche Richtung. Beispiel: 0,67 für 2/3 → |0,67 − 2/3| = 1/300.",
+      "quelle": "mab004.1_2026-10-20 · Folie 16",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Relativer Fehler",
+      "wortlaut": "Definition 2.1. […] Und ε_R(b; a) := |b − a| / |a| heißt relativer Fehler der Näherung b bezüglich a.",
+      "erklaerung": "Der absolute Fehler im Verhältnis zur Größe des echten Werts. Damit kann man Näherungen verschieden großer Zahlen vergleichen: 0,67 für 2/3 hat ε_R = 0,005, 0,07 für 1/15 hat ε_R = 0,05 – obwohl beide den gleichen absoluten Fehler 1/300 haben.",
+      "quelle": "mab004.1_2026-10-20 · Folie 16–20",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Gerundete Werte (auf-, ab-, kaufmännisch gerundet)",
+      "wortlaut": "Definition 2.2. Sei a eine positive reelle Zahl. Sei a₀ ∈ ℕ der Ganzzahlanteil von a und sei (a_j)_{j=1}^∞, a_j ∈ {0,1,…,9} für j ∈ ℕ die Folge der Nachkommastellen in der Dezimaldarstellung von a ≙ a₀,a₁a₂a₃a₄… So heißt b der aufgerundete Wert b = ⌈a⌉, falls gilt b = a₀ + 1, der abgerundete Wert b = ⌊a⌋, falls gilt b = a₀. b = [a] ist der (kaufmännisch) gerundete Wert von a, falls b = a₀, wenn a₁ < 5 sonst b = a₀ + 1.",
+      "erklaerung": "Aufrunden: Ganzzahlanteil + 1. Abrunden: Nachkommastellen weglassen. Kaufmännisch: auf die erste Nachkommastelle schauen – unter 5 abrunden, ab 5 aufrunden. Beispiel 54,93773: ⌈a⌉ = 55, ⌊a⌋ = 54, [a] = 55.",
+      "quelle": "mab004.1_2026-10-20 · Folie 21–22",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Runden auf k Nachkommastellen",
+      "wortlaut": "Definition 2.3. […] Genau dann heißt b der auf k, k ∈ ℕ Stellen nach dem Komma (kaufmännisch) gerundete Wert von a, falls gilt b · 10^k = [a · 10^k]. Wir schreiben dann auch [a]_k = b.",
+      "erklaerung": "Komma um k Stellen nach rechts schieben, kaufmännisch auf eine ganze Zahl runden, Komma zurückschieben. Beispiel: [23,23456789]₅ → 2323456,789 → 2323457 → 23,23457.",
+      "quelle": "mab004.1_2026-10-20 · Folie 28–29",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Fließkommazahl",
+      "wortlaut": "Definition 2.4. (Fließkommazahl) Eine Fließkommazahl f zur Basis g ∈ ℕ mit Mantissenlänge l ∈ ℕ und Exponentenschranke u ∈ ℕ hat die Gestalt f = m · g^e. Dabei ist m ∈ ℝ die Mantisse und e ∈ ℤ der Exponent der Fließkommazahl und es gilt 1. 1,0 ≤ m < g, 2. m hat maximal l Stellen und 3. e < u. ℱ_g(l, u) sei die Menge aller Fließkommazahlen zur Basis g mit Mantissenlänge l und Exponentenschranke u.",
+      "erklaerung": "So speichern Rechner Zahlen: eine Mantisse mit genau einer Stelle vor dem Komma (nicht 0) mal Basis hoch Exponent. Beispiel: 6658,832 = 6,658832 · 10³ ∈ ℱ₁₀(7, 12). In den Beispielen der Vorlesung wird der Betrag des Exponenten begrenzt (|e| < u).",
+      "quelle": "mab004.1_2026-10-20 · Folie 34–37",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Fachdidaktische Potenziale digitaler Medien (PIKAS)",
+      "wortlaut": "Darstellungen vernetzen · Darstellungen strukturieren · Mentale Operationen virtuell darstellen · Denk- und Arbeitsprozesse umlagern · Informativ fachspezifisch zurückmelden (in Anlehnung an Walter, 2018; Schulz & Walter, 2018)",
+      "erklaerung": "Fünf Gründe, warum digitale Medien im Mathematikunterricht mehr können als nur rechnen – z. B. Rückmeldung geben oder Darstellungen verknüpfen.",
+      "quelle": "mab004.1_2026-10-20 · Folie 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kalkülhaftes Rechnen",
+      "wortlaut": "Neue Technologien „[…] entlasten von kalkülhaften Rechnen und erleichtern dadurch die Konzentration auf zentrale Aspekte des Unterrichts.“ (Weigand und Weth, 2002)",
+      "erklaerung": "Stures Abarbeiten von Rechenverfahren nach Schema. Der Taschenrechner nimmt das ab, dafür bleibt mehr Zeit fürs Verstehen, Entdecken und Problemlösen.",
+      "quelle": "mab004.1_2026-10-20 · Folie 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Definition (mathematisch)",
+      "wortlaut": "Ergänzung (nicht aus dem Material): Eine Definition legt fest, was ein Begriff bedeutet.",
+      "erklaerung": "Eine Vereinbarung – sie ist weder wahr noch falsch und wird nicht bewiesen. Typisch: „… heißt …“, „… ist ein …, das …“, a² := a · a. Beispiel: Ein Parallelogramm ist ein Viereck, in dem gegenüberliegende Seiten zueinander parallel sind.",
+      "quelle": "mab004.2_2026-10-20 · Blatt 2, Grundlagenaufgabe 1",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Satz (mathematisch)",
+      "wortlaut": "Ergänzung (nicht aus dem Material): Ein Satz ist eine beweisbare, wahre Aussage über bereits definierte Begriffe.",
+      "erklaerung": "Typisch: „Für alle …“, „Wenn …, dann …“. Beispiel: In jedem Dreieck ist die Summe der Innenwinkel gleich 180°. Terme und Gleichungen mit Variablen sind weder Definition noch Satz.",
+      "quelle": "mab004.2_2026-10-20 · Blatt 2, Grundlagenaufgabe 1",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Potenzgesetze",
+      "wortlaut": "Ergänzung (nicht aus dem Material): aᵐ · aⁿ = aᵐ⁺ⁿ · aᵐ : aⁿ = aᵐ⁻ⁿ · (aᵐ)ⁿ = aᵐ·ⁿ · (a · b)ⁿ = aⁿ · bⁿ · a⁰ = 1 · a⁻ⁿ = 1/aⁿ · a^(1/n) = ⁿ√a (a, b ≠ 0)",
+      "erklaerung": "Rechenregeln für Potenzen. Häufige Fehler: 10⁰ = 0 (richtig: 1), 100^½ = 50 (richtig: 10), 3 · 2² = 6² (richtig: 12).",
+      "quelle": "mab004.2_2026-10-20 · Blatt 2, Grundlagenaufgabe 2",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Rechenstab",
+      "wortlaut": "Beim abgebildeten Rechenstab kann unter dem Strich des Läufers auf der Skala D das Ergebnis der Multiplikation 1,3 · 3,5, nämlich 4,55, abgelesen werden. (Schulbuch, Ausstellung.JPG)",
+      "erklaerung": "Analoges Rechengerät mit verschiebbaren Skalen; wurde an Schulen in den letzten Jahrzehnten des 20. Jahrhunderts vom Taschenrechner abgelöst.",
+      "quelle": "mab004.2_2026-10-20 · Ausstellung.JPG",
+      "abweichungen": []
     }
   ]
 }

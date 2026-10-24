@@ -80,6 +80,246 @@
         "mab004"
       ],
       "erste_quelle": "Ergänzung"
+    },
+    {
+      "zeichen": "ε_A(b; a)",
+      "latex": "\\epsilon_A(b;a)",
+      "bedeutung": "absoluter Fehler der Näherung b bezüglich a",
+      "gelesen": "Epsilon A von b und a",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 16"
+    },
+    {
+      "zeichen": "ε_R(b; a)",
+      "latex": "\\epsilon_R(b;a)",
+      "bedeutung": "relativer Fehler der Näherung b bezüglich a",
+      "gelesen": "Epsilon R von b und a",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 16"
+    },
+    {
+      "zeichen": "|x|",
+      "latex": "|x|",
+      "bedeutung": "Betrag von x (Abstand zur 0)",
+      "gelesen": "Betrag von x",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 16"
+    },
+    {
+      "zeichen": "⌈a⌉",
+      "latex": "\\lceil a \\rceil",
+      "bedeutung": "aufgerundeter Wert von a",
+      "gelesen": "a aufgerundet",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 21"
+    },
+    {
+      "zeichen": "⌊a⌋",
+      "latex": "\\lfloor a \\rfloor",
+      "bedeutung": "abgerundeter Wert von a",
+      "gelesen": "a abgerundet",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 21"
+    },
+    {
+      "zeichen": "[a]",
+      "latex": "[a]",
+      "bedeutung": "kaufmännisch gerundeter Wert von a",
+      "gelesen": "a gerundet",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 21"
+    },
+    {
+      "zeichen": "[a]ₖ",
+      "latex": "[a]_k",
+      "bedeutung": "auf k Nachkommastellen gerundeter Wert von a",
+      "gelesen": "a gerundet auf k Stellen",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 28"
+    },
+    {
+      "zeichen": "≈",
+      "latex": "\\approx",
+      "bedeutung": "ungefähr gleich (Näherung)",
+      "gelesen": "ungefähr",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 15"
+    },
+    {
+      "zeichen": ":=",
+      "latex": ":=",
+      "bedeutung": "wird definiert als",
+      "gelesen": "ist definiert als",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 16"
+    },
+    {
+      "zeichen": "≙",
+      "latex": "\\widehat{=}",
+      "bedeutung": "entspricht",
+      "gelesen": "entspricht",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 21"
+    },
+    {
+      "zeichen": "∎",
+      "latex": "\\blacksquare",
+      "bedeutung": "Ende des Beweises",
+      "gelesen": "was zu beweisen war",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 24"
+    },
+    {
+      "zeichen": "ℕ",
+      "latex": "\\mathbb{N}",
+      "bedeutung": "natürliche Zahlen",
+      "gelesen": "N",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 21"
+    },
+    {
+      "zeichen": "ℤ",
+      "latex": "\\mathbb{Z}",
+      "bedeutung": "ganze Zahlen",
+      "gelesen": "Z",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 33"
+    },
+    {
+      "zeichen": "ℚ",
+      "latex": "\\mathbb{Q}",
+      "bedeutung": "rationale Zahlen",
+      "gelesen": "Q",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 33"
+    },
+    {
+      "zeichen": "ℝ",
+      "latex": "\\mathbb{R}",
+      "bedeutung": "reelle Zahlen",
+      "gelesen": "R",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 16"
+    },
+    {
+      "zeichen": "ℝ ∖ {0}",
+      "latex": "\\mathbb{R}\\setminus\\{0\\}",
+      "bedeutung": "reelle Zahlen ohne die 0",
+      "gelesen": "R ohne null",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 16"
+    },
+    {
+      "zeichen": "∈",
+      "latex": "\\in",
+      "bedeutung": "ist Element von",
+      "gelesen": "a Element von R",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 16"
+    },
+    {
+      "zeichen": "(aⱼ)ⱼ₌₁^∞",
+      "latex": "(a_j)_{j=1}^{\\infty}",
+      "bedeutung": "Folge a₁, a₂, a₃, … (z. B. der Nachkommastellen)",
+      "gelesen": "Folge a j",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 21"
+    },
+    {
+      "zeichen": "ℱ_g(l, u)",
+      "latex": "\\mathcal{F}_g(l,u)",
+      "bedeutung": "Menge der Fließkommazahlen zur Basis g mit Mantissenlänge l und Exponentenschranke u",
+      "gelesen": "F g von l und u",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 34"
+    },
+    {
+      "zeichen": "m · gᵉ",
+      "latex": "m \\cdot g^e",
+      "bedeutung": "Fließkommazahl: Mantisse mal Basis hoch Exponent",
+      "gelesen": "m mal g hoch e",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 34"
+    },
+    {
+      "zeichen": "√ / ⁿ√",
+      "latex": "\\sqrt{x},\\ \\sqrt[n]{x}",
+      "bedeutung": "Quadratwurzel / n-te Wurzel",
+      "gelesen": "Wurzel aus x",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-20 · Folie 13"
+    },
+    {
+      "zeichen": "a^(1/n)",
+      "latex": "a^{1/n}",
+      "bedeutung": "Potenz mit Bruch im Exponenten, = n-te Wurzel aus a",
+      "gelesen": "a hoch ein n-tel",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.2_2026-10-20 · Blatt 2, G2"
+    },
+    {
+      "zeichen": "a⁻ⁿ",
+      "latex": "a^{-n}",
+      "bedeutung": "Potenz mit negativem Exponenten, = 1/aⁿ",
+      "gelesen": "a hoch minus n",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.2_2026-10-20 · Blatt 2, G2"
+    },
+    {
+      "zeichen": "°",
+      "latex": "^\\circ",
+      "bedeutung": "Grad (Winkelmaß)",
+      "gelesen": "Grad",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.2_2026-10-20 · Blatt 2, G1"
     }
   ]
 }

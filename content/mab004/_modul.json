@@ -38,7 +38,9 @@
   "kompetenzziele": [
     {
       "text": "Grundlagen der numerischen Berechnung in digitalen Medien sowie Codierung und Verarbeitung von Daten kennen (z. B. wie Taschenrechner und Tabellenkalkulation rechnen).",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "mab004.1_2026-10-20"
+      ]
     },
     {
       "text": "Elementare Datentypen und Grundlagen der strukturierten Programmierung kennen.",
@@ -57,21 +59,25 @@
     {
       "text": "Digitale Werkzeuge (Taschenrechner ohne CAS, Tabellenkalkulation, Programmiersoftware) reflektiert für mathematische Problemstellungen und Lehr-Lern-Kontexte einsetzen, Näherungsverfahren bewerten.",
       "abgedeckt_in": [
-        "mab004.1_2026-10-13"
+        "mab004.1_2026-10-13",
+        "mab004.1_2026-10-20"
       ]
     },
     {
       "text": "Möglichkeiten und Grenzen digitaler Medien diskutieren.",
       "abgedeckt_in": [
         "mab004.1_2026-10-13",
-        "mab004.2_2026-10-13"
+        "mab004.1_2026-10-20",
+        "mab004.2_2026-10-13",
+        "mab004.2_2026-10-20"
       ]
     },
     {
       "text": "Den kulturgeschichtlichen Stellenwert der Mathematik für digitale Medien einordnen und den Einsatz digitaler Medien im Unterricht begründen.",
       "abgedeckt_in": [
         "mab004.1_2026-10-13",
-        "mab004.2_2026-10-13"
+        "mab004.2_2026-10-13",
+        "mab004.2_2026-10-20"
       ]
     }
   ],
@@ -87,7 +93,9 @@
   },
   "sitzungen": [
     "mab004.1_2026-10-13",
-    "mab004.2_2026-10-13"
+    "mab004.2_2026-10-13",
+    "mab004.1_2026-10-20",
+    "mab004.2_2026-10-20"
   ],
   "klausurstil": {
     "quellen": [],
@@ -108,7 +116,7 @@
       "pfad": "mab004.1/mab004-V2_Fließkomma_I_.pdf",
       "geaendert": "2026-10-20",
       "art": "Folien",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "mab004.1_2026-10-20"
     },
     {
@@ -156,14 +164,14 @@
       "pfad": "mab004.2/Seminar_2_Geschichte/Blatt_2.pdf",
       "geaendert": "2026-10-08",
       "art": "Übungsblatt",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "mab004.2_2026-10-20"
     },
     {
       "pfad": "mab004.2/Seminar_2_Geschichte/Ausstellung.JPG",
       "geaendert": "2026-10-16",
       "art": "Bild",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "mab004.2_2026-10-20"
     },
     {
@@ -262,6 +270,13 @@
       "geaendert": "2026-09-22",
       "art": "Übungsblatt (Studydrive, Vorjahr) – Kontrolle/Übung, kein Lehrinhalt",
       "status": "später"
+    },
+    {
+      "pfad": "mab004.2/Seminar_2_Geschichte/2020-02-04_Anhoerfassung_-_KC_Mathematik_RS.pdf",
+      "geaendert": "2026-10-24",
+      "art": "Kerncurriculum Realschule (Anhörfassung 2020)",
+      "status": "verarbeitet",
+      "sitzung": "mab004.2_2026-10-20"
     }
   ]
 }

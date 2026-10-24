@@ -9,11 +9,11 @@ export default defineConfig({
       registerType: 'autoUpdate',
       filename: 'sw.js',
       manifest: {
-        name: 'Klausur-Lern-App',
-        short_name: 'Lern-App',
+        name: 'Lernapp',
+        short_name: 'Lernapp',
         description: 'Karteikarten, Quiz & Probeprüfung für Uni-Module',
-        theme_color: '#3f6b5e',
-        background_color: '#f4f6f8',
+        theme_color: '#f7f7f4',
+        background_color: '#f7f7f4',
         display: 'standalone',
         start_url: '/',
         icons: [

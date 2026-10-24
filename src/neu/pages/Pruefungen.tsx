@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import type { Studienstand, Termin, Versuch } from '../db';
 import { speichereVersuch, entferneVersuch, speichereTermin, setzeVoraussetzung, verschiebePruefung, neuePruefung, setzeBafoegGrenze } from '../db';
-import { auswerten, STATUS_FARBE, BEREICH_ZIEL, fristHinweis, mitTag, datumLang, datumKurz, noteText, tageBis, heuteIso, type Eintrag } from '../pruefungslogik';
+import { auswerten, STATUS_FARBE, BEREICH_ZIEL, fristHinweis, mitTag, datumLang, noteText, tageBis, heuteIso, type Eintrag } from '../pruefungslogik';
 import { farbe, REGELN, DOKUMENTE } from '../data/studienverlauf';
 
 const NOTEN = ['1,0', '1,3', '1,7', '2,0', '2,3', '2,7', '3,0', '3,3', '3,7', '4,0', '5,0'];
@@ -218,55 +218,60 @@ function Zeile({ e, aktuell, note, termine, verschieben, haken, stand }: { e: Ei
   const geschriebenVor = !e.imUrsprung && !e.bestanden && letzterTermin && !e.versuche.some((v) => v.datum && v.datum >= letzterTermin.datum!) ? -tageBis(letzterTermin.datum!) : null;
   const kannNote = !e.imUrsprung && !e.bestanden && e.status !== 'Endgültig nicht bestanden' && e.status !== 'Verschoben' && (e.status !== 'Geplant' || !!letzterTermin);
   const zeigTermine = aktuell && !e.imUrsprung && !e.bestanden;
+  const knopf = { minHeight: 36, padding: '0 12px', border: '1px solid var(--line)', borderRadius: 10, background: '#fff', fontSize: 13, fontWeight: 700, color: 'var(--ink-2)', cursor: 'pointer' } as const;
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: 10, padding: '14px 0', borderTop: '1px solid var(--line-2)' }}>
-      <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 12 }}>
-        <a href={'#/module/' + e.modul.kuerzel} title="Modul öffnen" style={{ flex: '0 0 72px', padding: '4px 0', borderRadius: 10, textAlign: 'center', fontWeight: 800, fontSize: 13, background: bg, color: fg, textDecoration: 'none' }}>{e.modul.kuerzel}</a>
-        <div style={{ flex: '1 1 280px', minWidth: 0 }}>
-          <div style={{ fontWeight: 700, fontSize: 15 }}>{e.modul.name}</div>
-          <div className="klein-text">{details}</div>
-        </div>
-        <div style={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 6 }}>
-          <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', justifyContent: 'flex-end', alignItems: 'center' }}>
-            {e.modul.lehramt_hrs && <span className="schild" title={HRS_GRUND[e.modul.kuerzel] ?? 'Empfohlen für den Zugang zum M.Ed. Haupt- und Realschule'} style={{ background: '#fff', border: '1px solid var(--line)', color: 'var(--ink-3)' }}>Lehramt HRS</span>}
-            <span className="schild" style={{ background: sbg, color: sfg, minWidth: 128, justifyContent: 'center' }}>{e.status}</span>
+    <div className="pr-zeile" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 12, padding: '14px 0', borderTop: '1px solid var(--line-2)' }}>
+      <a href={'#/module/' + e.modul.kuerzel} title="Modul öffnen" style={{ flex: '0 0 72px', padding: '4px 0', borderRadius: 10, textAlign: 'center', fontWeight: 800, fontSize: 13, background: bg, color: fg, textDecoration: 'none' }}>{e.modul.kuerzel}</a>
+      <div className="pr-text" style={{ flex: '1 1 300px', minWidth: 0, display: 'flex', flexDirection: 'column', gap: 2 }}>
+        <div style={{ fontWeight: 700, fontSize: 15 }}>{e.modul.name}</div>
+        <div className="klein-text">{details}</div>
+        {vor.length > 0 && (
+          <div style={{ marginTop: 6, display: 'flex', flexDirection: 'column', gap: 4, fontSize: 13, color: 'var(--ink-2)' }}>
+            {vor.map((v) => <label key={v.id} style={{ display: 'flex', gap: 8, alignItems: 'center', cursor: 'pointer' }}><input type="checkbox" checked={v.erledigt} onChange={(ev) => haken(v.id, ev.target.checked)} style={{ width: 18, height: 18, margin: 0, accentColor: '#4f8f80' }} />{v.text}</label>)}
           </div>
-          {kannNote && <button className="knopf klein" style={{ minWidth: 128, justifyContent: 'center' }} onClick={() => note()}>Note eintragen</button>}
-        </div>
+        )}
+        {e.versuche.length > 0 && (
+          <div style={{ marginTop: 4, display: 'flex', flexDirection: 'column', gap: 2, fontSize: 13 }}>
+            {e.versuche.map((v) => <div key={v.id}><b>{v.nr}. Versuch</b>{v.datum ? ' · ' + datumLang(v.datum) : ''} · <button className="link-knopf" onClick={() => note(v)} title="Ändern" style={{ textDecoration: 'none', fontSize: 13, color: v.unbenotet || (v.note ?? 5) <= 4 ? '#2f7a4b' : '#c42b2b' }}>{v.unbenotet ? 'bestanden (unbenotet)' : noteText(v.note ?? 0)}</button></div>)}
+          </div>
+        )}
+        {zeigTermine && (
+          <div style={{ marginTop: 8, background: 'var(--paper)', borderRadius: 12, padding: '8px 12px', display: 'flex', flexDirection: 'column', gap: 4, fontSize: 13 }}>
+            <div className="pr-termin-kopf" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: 12, fontSize: 11, fontWeight: 800, letterSpacing: '0.05em', color: 'var(--ink-3)' }}>
+              <span>TERMIN</span><span>ANMELDUNG</span><span>ABMELDUNG / RÜCKTRITT</span>
+            </div>
+            {e.termine.map((t) => {
+              const h = fristHinweis(t);
+              const an = t.anmeldung_ab && t.anmeldung_bis ? datumLang(t.anmeldung_ab) + '–' + datumLang(t.anmeldung_bis) : t.anmeldung_ab ? 'ab ' + datumLang(t.anmeldung_ab) + ' (Ende noch offen)' : t.anmeldung_bis ? 'bis ' + datumLang(t.anmeldung_bis) : 'noch offen';
+              const ab = t.abmeldung_bis ? 'bis ' + datumLang(t.abmeldung_bis) : 'noch offen';
+              return (
+                <div key={t.id} className="pr-termin" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: 12, padding: '6px 0', borderTop: '1px solid #ecece6' }}>
+                  <span><b>{t.art}</b><br />{t.datum ? mitTag(t.datum) : 'noch offen'}</span>
+                  <span style={{ color: an.includes('offen') ? '#9a5b14' : undefined, display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 4 }}>
+                    <span><span className="pr-mobil">Anmeldung: </span>{an}</span>
+                    {h && <span style={{ padding: '2px 8px', borderRadius: 999, fontSize: 12, fontWeight: 800, background: h.bg, color: h.fg }}>{h.text}</span>}
+                  </span>
+                  <span style={{ color: ab === 'noch offen' ? '#9a5b14' : undefined }}><span className="pr-mobil">Abmeldung: </span>{ab}</span>
+                </div>
+              );
+            })}
+            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: 8, paddingTop: 6, borderTop: '1px solid #ecece6', fontSize: 12, color: 'var(--ink-3)' }}>
+              <span>{e.termine.some((t) => t.quelle === 'nadine') ? 'von dir geändert' : 'aus Stud.IP/QISPOS'}{e.termine[0] ? ' · Stand ' + datumLang(e.termine[0].stand.slice(0, 10)) : ''}</span>
+              <button type="button" onClick={termine} style={{ ...knopf, minHeight: 32, padding: '0 10px', borderRadius: 8, fontSize: 12 }}>Termine bearbeiten</button>
+            </div>
+          </div>
+        )}
       </div>
-      {e.versuche.length > 0 && (
-        <div className="einzug" style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-          {e.versuche.map((v) => <button key={v.id} className="schild" onClick={() => note(v)} title="Ändern" style={{ border: '1px solid var(--line)', background: '#fff', cursor: 'pointer', color: v.unbenotet || (v.note ?? 5) <= 4 ? '#2f7a4b' : '#c42b2b' }}>{v.nr}. Versuch: {v.unbenotet ? 'bestanden (unbenotet)' : noteText(v.note ?? 0)}{v.datum ? ' · ' + datumKurz(v.datum) : ''}</button>)}
-        </div>
-      )}
-      {vor.length > 0 && (
-        <div className="einzug" style={{ display: 'flex', flexDirection: 'column', gap: 4, fontSize: 13, color: 'var(--ink-2)' }}>
-          {vor.map((v) => <label key={v.id} style={{ display: 'flex', gap: 8, alignItems: 'center', cursor: 'pointer' }}><input type="checkbox" checked={v.erledigt} onChange={(ev) => haken(v.id, ev.target.checked)} style={{ width: 18, height: 18, margin: 0, accentColor: '#4f8f80' }} />{v.text}</label>)}
-        </div>
-      )}
-      {zeigTermine && (
-        <div className="einzug" style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-          {e.termine.map((t) => {
-            const h = fristHinweis(t);
-            const an = t.anmeldung_ab && t.anmeldung_bis ? datumLang(t.anmeldung_ab) + '–' + datumLang(t.anmeldung_bis) : t.anmeldung_ab ? 'ab ' + datumLang(t.anmeldung_ab) + ' (Ende noch offen)' : t.anmeldung_bis ? 'bis ' + datumLang(t.anmeldung_bis) : 'noch offen';
-            const ab = t.abmeldung_bis ? 'bis ' + datumLang(t.abmeldung_bis) : 'noch offen';
-            return (
-              <div key={t.id} className="termin-zeile" style={{ gap: '4px 12px', padding: '8px 10px', borderRadius: 10, background: 'var(--paper)', fontSize: 13 }}>
-                <span><span className="klein-text" style={{ fontWeight: 800 }}>{t.art.toUpperCase()}</span><br /><b>{t.datum ? mitTag(t.datum) : 'noch offen'}</b>{t.zeit ? ', ' + t.zeit : ''}</span>
-                <span><span className="klein-text" style={{ fontWeight: 800 }}>ANMELDUNG</span><br /><span style={{ color: an === 'noch offen' || an.includes('offen') ? '#9a5b14' : undefined }}>{an}</span></span>
-                <span><span className="klein-text" style={{ fontWeight: 800 }}>ABMELDUNG / RÜCKTRITT</span><br /><span style={{ color: ab === 'noch offen' ? '#9a5b14' : undefined }}>{ab}</span></span>
-                {h && <span style={{ gridColumn: '1 / -1' }}><span className="schild" style={{ background: h.bg, color: h.fg }}>{h.text}</span></span>}
-              </div>
-            );
-          })}
-          <div style={{ display: 'flex', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
-            <button className="link-knopf" onClick={termine}>Termine bearbeiten</button>
-            <span className="klein-text">{e.termine.some((t) => t.quelle === 'nadine') ? 'von dir geändert' : 'aus Stud.IP/QISPOS'}{e.termine[0] ? ' · Stand ' + datumLang(e.termine[0].stand.slice(0, 10)) : ''}</span>
-            {e.status === 'Geplant' && <button className="knopf klein" style={{ marginLeft: 'auto' }} onClick={verschieben}>Verschieben</button>}
-          </div>
-        </div>
-      )}
-      {geschriebenVor !== null && geschriebenVor > 0 && <div className="einzug"><span className="schild" style={{ background: '#fdf1e2', color: '#9a5b14' }}>geschrieben vor {geschriebenVor} {geschriebenVor === 1 ? 'Tag' : 'Tagen'} · Note fehlt</span></div>}
+      <span className="pr-schilder" style={{ flex: '0 0 140px', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 6 }}>
+        <span className="schild" style={{ background: sbg, color: sfg }}>{e.status}</span>
+        {e.modul.lehramt_hrs && <span className="schild" title={HRS_GRUND[e.modul.kuerzel] ?? 'Empfohlen für den Zugang zum M.Ed. Haupt- und Realschule'} style={{ background: '#fff6d6', color: '#7a5a00' }}>Lehramt HRS</span>}
+        {geschriebenVor !== null && geschriebenVor > 0 && <span style={{ padding: '4px 10px', borderRadius: 12, fontSize: 12, fontWeight: 700, lineHeight: 1.3, background: '#f0f0eb', color: 'var(--ink-2)' }}>geschrieben vor {geschriebenVor} {geschriebenVor === 1 ? 'Tag' : 'Tagen'} – Note fehlt</span>}
+      </span>
+      <span className="pr-knoepfe" style={{ flex: '0 1 260px', display: 'flex', flexWrap: 'wrap', gap: 8, justifyContent: 'flex-end', alignItems: 'center' }}>
+        {zeigTermine && e.status === 'Geplant' && <button type="button" style={knopf} onClick={verschieben}>Verschieben</button>}
+        {kannNote && <button type="button" style={{ ...knopf, border: '1px dashed #c9ccd1' }} onClick={() => note()}>Note eintragen</button>}
+        {e.bestanden && <button type="button" onClick={() => note()} title="Versuch hinzufügen oder ändern" style={{ ...knopf, border: 0, background: 'transparent', fontSize: 18, fontWeight: 800, color: 'var(--ink)' }}>{e.unbenotet ? 'bestanden' : e.note !== null ? noteText(e.note) : ''}</button>}
+      </span>
     </div>
   );
 }

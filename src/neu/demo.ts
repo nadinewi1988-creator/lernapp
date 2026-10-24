@@ -11,5 +11,16 @@ export function demoStand(): Studienstand {
   const pruefungen = MODULE.map((m, i) => ({ id: 'p' + i, modul_id: 'm' + i, form: m.form, semester_id: 's' + m.sem, verschoben_nach_semester_id: m.verschoben_nach ? 's' + m.verschoben_nach : null, verschoben_grund: null }));
   const termine = MODULE.flatMap((m, i) => (m.termine ?? []).map((t, j) => ({ id: 't' + i + '_' + j, pruefung_id: 'p' + i, art: t.art, datum: t.datum ?? null, zeit: t.zeit ?? null, anmeldung_ab: t.anmeldung_ab ?? null, anmeldung_bis: t.anmeldung_bis ?? null, abmeldung_bis: t.abmeldung_bis ?? null, quelle: 'studip', stand: '2026-10-24T00:00:00Z' })));
   const voraussetzungen = MODULE.flatMap((m, i) => (m.voraussetzungen ?? []).map((v, j) => ({ id: 'v' + i + '_' + j, pruefung_id: 'p' + i, text: v.text, erledigt: v.erledigt, reihenfolge: j })));
-  return { studiengangId: 'demo', semester, module, pruefungen, termine, versuche: [], voraussetzungen, einstellungen: { user_id: 'demo', bafoeg_grenze: 90 } };
+  return { studiengangId: 'demo', semester, module, pruefungen, termine, versuche: demoVersuche(), voraussetzungen, einstellungen: { user_id: 'demo', bafoeg_grenze: 90 } };
+}
+
+// Beispielnoten nur für den Bildvergleich (wie auf Nadines Bildschirmfoto), nicht ihre echten Daten.
+function demoVersuche() {
+  const id = (k: string) => 'p' + MODULE.findIndex((m) => m.kuerzel === k);
+  return [
+    { id: 'x1', pruefung_id: id('mab001'), nr: 1, note: 5, unbenotet: false, datum: '2026-02-09' },
+    { id: 'x2', pruefung_id: id('mab001'), nr: 2, note: 2.3, unbenotet: false, datum: '2026-03-16' },
+    { id: 'x3', pruefung_id: id('pkb001'), nr: 1, note: 2.3, unbenotet: false, datum: '2026-02-06' },
+    { id: 'x4', pruefung_id: id('opb001'), nr: 1, note: null, unbenotet: true, datum: '2026-04-06' },
+  ];
 }

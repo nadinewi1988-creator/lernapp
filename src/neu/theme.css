@@ -69,9 +69,9 @@ a { color: inherit; }
 @media (max-width: 1050px) { .kacheln { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .kacheln > .karte { display: flex; flex-direction: column; gap: 4px; }
 .kachel-label { font-size: 13px; color: var(--ink-3); font-weight: 700; }
-.kachel-wert { font-size: 26px; font-weight: 800; line-height: 1.2; }
+.kachel-wert { font-size: 24px; font-weight: 700; line-height: 1.2; }
 .kachel-info { font-size: 13px; color: var(--ink-3); }
-.schild { display: inline-flex; align-items: center; padding: 2px 10px; border-radius: 999px; font-size: 12px; font-weight: 800; white-space: nowrap; }
+.schild { display: inline-flex; align-items: center; padding: 2px 10px; border-radius: 999px; font-size: 12px; font-weight: 700; white-space: nowrap; }
 .klein-text { font-size: 13px; color: var(--ink-3); }
 .balken { height: 8px; border-radius: 999px; background: var(--line-2); overflow: hidden; }
 .balken > div { height: 100%; border-radius: 999px; }

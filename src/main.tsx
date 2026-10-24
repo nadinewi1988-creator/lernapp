@@ -1,6 +1,10 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 // Neuaufbau (Herbst 2026). Die bisherige App liegt unverändert unter src/App.tsx.
+import '@fontsource/nunito/400.css';
+import '@fontsource/nunito/600.css';
+import '@fontsource/nunito/700.css';
+import '@fontsource/nunito/800.css';
 import App from './neu/App';
 
 createRoot(document.getElementById('root')!).render(

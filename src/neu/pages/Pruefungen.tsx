@@ -300,7 +300,7 @@ function Zeile({ e, aktuell, note, termine, verschieben, haken, stand }: { e: Ei
       <span className="pr-knoepfe">
         {zeigTermine && e.status === 'Geplant' && <button type="button" style={knopf} onClick={verschieben}>Verschieben</button>}
         {kannNote && <button type="button" style={{ ...knopf, border: '1px dashed #c9ccd1' }} onClick={() => note()}>Note eintragen</button>}
-        {e.bestanden && <button type="button" onClick={() => note()} title="Versuch hinzufügen oder ändern" style={{ ...knopf, border: 0, background: 'transparent', fontSize: 18, fontWeight: 800, color: 'var(--ink)' }}>{e.unbenotet ? 'bestanden' : e.note !== null ? noteText(e.note) : ''}</button>}
+        {e.bestanden && <button type="button" onClick={() => note()} title="Versuch hinzufügen oder ändern" style={{ ...knopf, border: 0, background: 'transparent', fontSize: e.unbenotet ? 14 : 17, fontWeight: 700, color: e.unbenotet ? '#2f7a4b' : 'var(--ink)' }}>{e.unbenotet ? 'ohne Note' : e.note !== null ? noteText(e.note) : ''}</button>}
       </span>
     </div>
   );

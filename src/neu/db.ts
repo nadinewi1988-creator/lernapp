@@ -13,6 +13,8 @@ export interface Teilmodul { id: string; modul_id: string; kuerzel: string; name
 export interface Veranstaltung { id: string; teilmodul_id: string; titel: string; kurz: string | null; wochentag: number | null; von: string | null; bis: string | null; raum: string | null; rhythmus: string; studip_id: string | null }
 export interface Sitzung { id: string; veranstaltung_id: string; nr: number | null; datum: string; von: string | null; bis: string | null; raum: string | null; thema: string | null; status: string; entfall_grund: string | null; anwesenheit: string; nachgearbeitet: boolean }
 export interface KEintrag { id: string; art: string; titel: string; modul_id: string | null; teilmodul_id: string | null; sitzung_id: string | null; datum: string; zeit: string | null; ende: string | null; ganztaegig: boolean; bis_datum: string | null; wiederholung: { rhythmus: string; tage: number[]; bis?: string; ausnahmen?: string[] } | null; notiz: string | null; erledigt: boolean }
+export interface Lernstand { sitzung_id: string; gelesen: boolean; gelernt: boolean; gelernt_am: string | null }
+export interface Lernzeit { datum: string; teilmodul_id: string; art: string; sekunden: number }
 export interface Einstellungen { user_id: string; bafoeg_grenze: number }
 
 export interface Studienstand {
@@ -28,6 +30,8 @@ export interface Studienstand {
   veranstaltungen: Veranstaltung[];
   sitzungen: Sitzung[];
   eintraege: KEintrag[];
+  lernstand: Lernstand[];
+  lernzeit: Lernzeit[];
 }
 
 function pruef<T>(r: { data: T | null; error: { message: string } | null }): T {
@@ -129,7 +133,7 @@ async function kalenderEinrichten(): Promise<void> {
 }
 
 export async function ladeStudienstand(): Promise<Studienstand> {
-  const [sg, sem, mod, pr, te, ve, vo, ei, tm, va, si, en] = await Promise.all([
+  const [sg, sem, mod, pr, te, ve, vo, ei, tm, va, si, en, ls, lz] = await Promise.all([
     supabase.from('studiengaenge').select('id').eq('aktiv', true).order('erstellt').limit(1),
     supabase.from('semester').select('*').order('fachsemester'),
     supabase.from('module').select('*').order('reihenfolge'),
@@ -142,6 +146,8 @@ export async function ladeStudienstand(): Promise<Studienstand> {
     supabase.from('veranstaltungen').select('*'),
     supabase.from('sitzungen').select('*').order('datum').range(0, 4999),
     supabase.from('eintraege').select('*').order('datum').range(0, 4999),
+    supabase.from('lernstand').select('*').range(0, 9999),
+    supabase.from('lernzeit').select('*').range(0, 9999),
   ]);
   const hhmm = (t: string | null) => (t ? t.slice(0, 5) : t);
   return {
@@ -157,6 +163,8 @@ export async function ladeStudienstand(): Promise<Studienstand> {
     veranstaltungen: (pruef(va) as Veranstaltung[]).map((v) => ({ ...v, von: hhmm(v.von), bis: hhmm(v.bis) })),
     sitzungen: (pruef(si) as Sitzung[]).map((x) => ({ ...x, von: hhmm(x.von), bis: hhmm(x.bis) })),
     eintraege: (pruef(en) as KEintrag[]).map((x) => ({ ...x, zeit: hhmm(x.zeit), ende: hhmm(x.ende) })),
+    lernstand: pruef(ls) as Lernstand[],
+    lernzeit: pruef(lz) as Lernzeit[],
   };
 }
 
@@ -200,4 +208,17 @@ export async function speichereEintrag(e: Partial<KEintrag> & { art: string; tit
 }
 export async function loescheEintrag(id: string) {
   pruef(await supabase.from('eintraege').delete().eq('id', id));
+}
+
+// ---------- Lernen ----------
+export async function setzeGelernt(sitzungId: string, gelernt: boolean) {
+  pruef(await supabase.from('lernstand').upsert({ sitzung_id: sitzungId, gelernt, gelernt_am: gelernt ? new Date().toISOString() : null }, { onConflict: 'user_id,sitzung_id' }));
+}
+/** Setzt die Lernzeit eines Tages/Teilmoduls/Art auf den neuen Gesamtwert (Sekunden). */
+export async function speichereLernzeit(z: Lernzeit) {
+  pruef(await supabase.from('lernzeit').upsert(z, { onConflict: 'user_id,datum,teilmodul_id,art' }));
+}
+/** „Lernzeit zurücksetzen“ in der Statistik eines Moduls – bewusst von Nadine ausgelöst. */
+export async function lernzeitZuruecksetzen(teilmodulIds: string[]) {
+  if (teilmodulIds.length) pruef(await supabase.from('lernzeit').delete().in('teilmodul_id', teilmodulIds));
 }

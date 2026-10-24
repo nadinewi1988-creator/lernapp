@@ -7,6 +7,7 @@ import { DEMO, demoStand } from './demo';
 import { Pruefungen } from './pages/Pruefungen';
 import { Kalender } from './pages/Kalender';
 import { Dashboard } from './pages/Dashboard';
+import { Module } from './pages/Module';
 import './theme.css';
 
 export type Seite = 'dashboard' | 'kalender' | 'module' | 'pruefungen' | 'karten';
@@ -34,10 +35,10 @@ function useUser() {
   return user;
 }
 
-function leseOrt(): { seite: Seite; unter: string } {
-  const [s, u] = window.location.hash.replace(/^#\/?/, '').split('/');
+function leseOrt(): { seite: Seite; unter: string; teil: string } {
+  const [s, u, t] = window.location.hash.replace(/^#\/?/, '').split('/');
   const seite = (SEITEN.find((x) => x.id === s)?.id ?? 'dashboard') as Seite;
-  return { seite, unter: u ?? UNTER[seite]?.[0]?.id ?? '' };
+  return { seite, unter: u ?? (seite === 'module' ? '' : UNTER[seite]?.[0]?.id ?? ''), teil: t ?? '' };
 }
 
 export default function App() {
@@ -46,7 +47,7 @@ export default function App() {
   const [stand, setStand] = useState<Studienstand | null>(null);
   const [fehler, setFehler] = useState('');
   useEffect(() => { const f = () => setOrt(leseOrt()); window.addEventListener('hashchange', f); return () => window.removeEventListener('hashchange', f); }, []);
-  const gehe = (seite: Seite, unter?: string) => { window.location.hash = '/' + seite + (unter ? '/' + unter : ''); };
+  const gehe = (seite: Seite, unter?: string, teil?: string) => { window.location.hash = '/' + seite + (unter ? '/' + unter : '') + (unter && teil ? '/' + teil : ''); window.scrollTo(0, 0); };
 
   async function neuLaden() {
     if (DEMO) { setStand(demoStand()); return; }
@@ -71,6 +72,12 @@ export default function App() {
         {SEITEN.map((s) => (
           <div key={s.id}>
             <button className={'nav-link' + (ort.seite === s.id ? ' aktiv' : '')} onClick={() => gehe(s.id)}>{s.icon}{s.name}</button>
+            {ort.seite === s.id && s.id === 'module' && stand && (() => {
+              const akt = aktuellesSemester(stand.semester);
+              const m = stand.module.find((x) => x.kuerzel === ort.unter);
+              const aktivNr = /^s\d$/.test(ort.unter) ? +ort.unter.slice(1) : m ? stand.semester.find((x) => x.id === m.plan_semester_id)?.fachsemester : akt?.fachsemester;
+              return <div className="nav-unter nav-unter-weiss">{stand.semester.map((x) => <button key={x.id} className={aktivNr === x.fachsemester ? 'aktiv' : ''} onClick={() => gehe('module', 's' + x.fachsemester)}>{x.fachsemester}. Semester{x.id === akt?.id && <span title="aktuelles Semester" style={{ width: 6, height: 6, borderRadius: '50%', background: '#2f7a4b', display: 'inline-block', marginLeft: 8, verticalAlign: 'middle' }} />}</button>)}</div>;
+            })()}
             {ort.seite === s.id && UNTER[s.id] && (
               <div className="nav-unter">{UNTER[s.id]!.map((u) => <button key={u.id} className={ort.unter === u.id ? 'aktiv' : ''} onClick={() => gehe(s.id, u.id)}>{u.name}</button>)}</div>
             )}
@@ -85,8 +92,9 @@ export default function App() {
         {!stand && !fehler && <span className="klein-text">Lade deinen Studienverlauf …</span>}
         {stand && ort.seite === 'pruefungen' && <Pruefungen stand={stand} unter={ort.unter} gehe={(u) => gehe('pruefungen', u)} neuLaden={neuLaden} />}
         {stand && ort.seite === 'dashboard' && <Dashboard stand={stand} neuLaden={neuLaden} gehe={(s, u) => gehe(s as Seite, u)} />}
+        {stand && ort.seite === 'module' && <Module stand={stand} unter={ort.unter} teil={ort.teil} gehe={(u, t) => gehe('module', u, t)} neuLaden={neuLaden} />}
         {stand && ort.seite === 'kalender' && <Kalender stand={stand} neuLaden={neuLaden} />}
-        {stand && ort.seite !== 'pruefungen' && ort.seite !== 'kalender' && ort.seite !== 'dashboard' && <Baustelle name={SEITEN.find((s) => s.id === ort.seite)!.name} />}
+        {stand && ort.seite !== 'pruefungen' && ort.seite !== 'kalender' && ort.seite !== 'dashboard' && ort.seite !== 'module' && <Baustelle name={SEITEN.find((s) => s.id === ort.seite)!.name} />}
       </main>
       <nav className="untennav" aria-label="Navigation">
         {SEITEN.map((s) => <button key={s.id} className={ort.seite === s.id ? 'aktiv' : ''} onClick={() => gehe(s.id)}>{s.icon}{s.kurz}</button>)}
@@ -99,7 +107,7 @@ function Baustelle({ name }: { name: string }) {
   return (
     <>
       <header className="kopf"><div><h1>{name}</h1><div className="unter">Neuaufbau – diese Seite folgt als Nächstes</div></div></header>
-      <div className="karte klein-text">Diese Seite wird gerade nach dem Entwurf gebaut. Fertig sind bereits Dashboard, Kalender und Prüfungen.</div>
+      <div className="karte klein-text">Diese Seite wird gerade nach dem Entwurf gebaut. Fertig sind bereits Dashboard, Kalender, Module und Prüfungen.</div>
     </>
   );
 }

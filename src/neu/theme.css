@@ -166,3 +166,15 @@ section[aria-label="Credit Points"] { container-type: inline-size; }
 .db-kachel { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 4px; text-decoration: none; color: var(--ink); min-width: 0; }
 .db-cp { grid-column: span 2; gap: 10px; }
 @media (max-width: 1000px) { .db-stand { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* Module */
+.nav-unter-weiss button { min-height: 38px; padding: 0 12px; font-weight: 600; }
+.nav-unter-weiss button.aktiv { background: #fff; font-weight: 800; box-shadow: none; }
+@media (max-width: 700px) {
+  .mod-tabs { align-self: stretch !important; flex-wrap: nowrap; }
+  .mod-tabs button { flex: 1 1 0; min-width: 0; padding: 0 4px !important; font-size: 12px !important; white-space: nowrap; }
+  .mod-kacheln { grid-template-columns: 1fr !important; }
+  .mod-seminfo { margin-left: 0 !important; flex-basis: 100%; }
+  .mod-beschr { grid-template-columns: 1fr !important; gap: 2px !important; }
+  .mod-titel { font-size: 22px !important; }
+}

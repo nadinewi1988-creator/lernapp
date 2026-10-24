@@ -22,7 +22,7 @@ export function demoStand(): Studienstand {
       anwesenheit: g || m.ausgefallen ? 'offen' : m.anwesend === true ? 'ja' : m.anwesend === false ? 'nein' : x.datum >= VERPASST_VON && x.datum <= VERPASST_BIS ? 'nein' : 'offen', nachgearbeitet: !!m.nachgearbeitet }; }));
   const tmId = (k: string) => teilmodule.find((t) => t.kuerzel === k)?.id ?? null;
   const eintraege = START_EINTRAEGE.map((e, i) => ({ id: 'e' + i, art: e.art, titel: e.titel, modul_id: e.modul ? modId(e.modul) || null : null, teilmodul_id: e.modul.includes('.') ? tmId(e.modul) : null, sitzung_id: null, datum: e.datum, zeit: e.zeit || null, ende: null, ganztaegig: false, bis_datum: null, wiederholung: null, notiz: e.notiz || null, erledigt: e.erledigt }));
-  return { studiengangId: 'demo', semester, module, pruefungen, termine, versuche: demoVersuche(), voraussetzungen, einstellungen: { user_id: 'demo', bafoeg_grenze: 90 }, teilmodule, veranstaltungen, sitzungen, eintraege };
+  return { studiengangId: 'demo', semester, module, pruefungen, termine, versuche: demoVersuche(), voraussetzungen, einstellungen: { user_id: 'demo', bafoeg_grenze: 90 }, teilmodule, veranstaltungen, sitzungen, eintraege, lernstand: [], lernzeit: [] };
 }
 
 // Beispielnoten nur für den Bildvergleich (wie auf Nadines Bildschirmfoto), nicht ihre echten Daten.

@@ -1,0 +1,85 @@
+{
+  "schema": "lernapp-symbole/2",
+  "symbole": [
+    {
+      "zeichen": "·",
+      "latex": "\\cdot",
+      "bedeutung": "Multiplikation (mal)",
+      "gelesen": "a mal b",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-13 · Folie 21"
+    },
+    {
+      "zeichen": "×",
+      "latex": "\\times",
+      "bedeutung": "Multiplikation (mal); bei Fothe als „x“ geschrieben",
+      "gelesen": "a mal b",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.2_2026-10-13 · Fothe S. 6"
+    },
+    {
+      "zeichen": ":",
+      "latex": ":",
+      "bedeutung": "Division (geteilt durch)",
+      "gelesen": "a geteilt durch b",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.2_2026-10-13 · Fothe S. 10"
+    },
+    {
+      "zeichen": "I V X L C D M",
+      "latex": "\\mathrm{I}\\;\\mathrm{V}\\;\\mathrm{X}\\;\\mathrm{L}\\;\\mathrm{C}\\;\\mathrm{D}\\;\\mathrm{M}",
+      "bedeutung": "Römische Zahlzeichen: 1, 5, 10, 50, 100, 500, 1000",
+      "gelesen": "",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-13 · Folie 19"
+    },
+    {
+      "zeichen": "&",
+      "latex": "\\&",
+      "bedeutung": "UND-Gatter (Konjunktion): Ausgang 1 nur, wenn alle Eingänge 1 sind",
+      "gelesen": "x0 und x1",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-13 · Folie 34"
+    },
+    {
+      "zeichen": "≥1",
+      "latex": "\\geq 1",
+      "bedeutung": "ODER-Gatter (Disjunktion): Ausgang 1, wenn mindestens ein Eingang 1 ist",
+      "gelesen": "x0 oder x1",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-13 · Folie 34"
+    },
+    {
+      "zeichen": "∧",
+      "latex": "\\wedge",
+      "bedeutung": "Logisches UND (Konjunktion) – Ergänzung (nicht aus der Vorlesung), übliche Schreibweise",
+      "gelesen": "A und B",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "Ergänzung"
+    },
+    {
+      "zeichen": "∨",
+      "latex": "\\vee",
+      "bedeutung": "Logisches ODER (Disjunktion) – Ergänzung (nicht aus der Vorlesung), übliche Schreibweise",
+      "gelesen": "A oder B",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "Ergänzung"
+    }
+  ]
+}

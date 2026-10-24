@@ -1,0 +1,732 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "mab004",
+  "teilmodul": "mab004.1",
+  "datum": "2026-10-13",
+  "sitzung_nr": 1,
+  "sitzung_id": "4f0792ea-9fd7-4ee8-bc64-fd52f978f2a4",
+  "thema": "VL1 Geschichte der Rechenmaschinen · Informatische Grundbildung im Mathematikunterricht",
+  "thema_in_app": "eingetragen",
+  "stand": "geprueft",
+  "quellen": [
+    {
+      "datei": "mab004.1/mab004-V1_Organisatorisches_und_Geschichte.pdf",
+      "art": "Folien",
+      "seiten": "1–44"
+    },
+    {
+      "datei": "mab004.2/Seminar_1_Rechnen_auf_den_Linien/KC_MA_GS_Anhrfassung.pdf",
+      "art": "Kerncurriculum (Anhörfassung 2024) – zitiert auf Folie 13–14",
+      "seiten": "11–12"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Den kulturgeschichtlichen Weg von Zählhilfen über Zahlensysteme bis zu Rechenmaschinen und Computern beschreiben und den Beitrag der Mathematik einordnen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 16–38 · Kompetenz ‚kulturgeschichtlicher Stellenwert‘ (Modulbeschreibung)",
+      "fragen": [
+        "f03",
+        "f14",
+        "f15",
+        "f16",
+        "f17",
+        "f22",
+        "f23",
+        "f24",
+        "f25"
+      ],
+      "erklaerung_abschnitt": "Von Fingern zu Zahlensystemen; Rechenmaschinen; Nullen und Einsen"
+    },
+    {
+      "text": "Additive Zahlensysteme und Stellenwertsysteme unterscheiden.",
+      "art": "abgeleitet",
+      "quelle": "Folie 19–23",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03",
+        "f21"
+      ],
+      "erklaerung_abschnitt": "Von Fingern zu Zahlensystemen"
+    },
+    {
+      "text": "Die Verknüpfungen UND und ODER mit Wahrheitstafeln angeben.",
+      "art": "abgeleitet",
+      "quelle": "Folie 34",
+      "fragen": [
+        "f04",
+        "f05",
+        "f06",
+        "f07"
+      ],
+      "erklaerung_abschnitt": "Nullen und Einsen: Boole und Zuse"
+    },
+    {
+      "text": "Begründen, warum digitale Medien in Schule und Lehrerausbildung eine Rolle spielen (Medienkompetenz, KMK-Kompetenzbereiche, zwei Seiten, Dreiklang).",
+      "art": "abgeleitet",
+      "quelle": "Folie 9–15",
+      "fragen": [
+        "f08",
+        "f09",
+        "f10",
+        "f11",
+        "f12",
+        "f13",
+        "f19",
+        "f26"
+      ],
+      "erklaerung_abschnitt": "Digitale Medien in der Schule"
+    },
+    {
+      "text": "Den Einfluss des Taschenrechners auf den Mathematikunterricht diskutieren.",
+      "art": "abgeleitet",
+      "quelle": "Folie 39–42",
+      "fragen": [
+        "f18",
+        "f19",
+        "f27"
+      ],
+      "erklaerung_abschnitt": "Der Taschenrechner im Unterricht"
+    }
+  ],
+  "kurzfassung": [
+    "Die Klausur (02.02.2027 bzw. 16.03.2027, 8–10 Uhr) hat ihren Schwerpunkt auf Fragen zur Programmierung und orientiert sich sehr nah an den Übungsaufgaben.",
+    "Medienkompetenz entsteht durch Lernen mit, über und durch Medien; die KMK nennt sechs Kompetenzbereiche für die digitale Welt.",
+    "Digitale Medien haben in der Schule zwei Seiten – Werkzeug der Lehrkraft und Lerngegenstand der Schüler – und wirken im Dreiklang: als Werkzeug, zum Entdecken, zur Veränderung mentaler Repräsentation.",
+    "Trotz Medieneinsatz sollen Schüler grundlegende mathematische Verfahren auch ohne Hilfsmittel beherrschen.",
+    "In additiven Zahlensystemen (z. B. römisch) lässt sich kaum schriftlich rechnen; Stellenwertsysteme machen Rechnen nach Regeln möglich.",
+    "Das indische Dezimalsystem mit Null kam über die Araber und Fibonacci (1202) nach Europa; Adam Ries verbreitete das Rechnen damit.",
+    "Pascals Maschine half nur beim Addieren der Teilprodukte, Schickards Maschine lieferte auch die Teilprodukte einer Multiplikation.",
+    "Lochkarten, Schaltungen und Binärsystem arbeiten mit Nullen und Einsen – Zuse baute darauf mit dem Binärsystem statt dem Dezimalsystem auf.",
+    "Der Taschenrechner hatte laut Weigand & Weth (2002) nur geringen bis keinen Einfluss auf Ziele, Methoden und Prüfungsaufgaben des Unterrichts."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Organisatorisches und Prüfung",
+      "folien": "1–8",
+      "text": "Das Modul hat zwei Blickrichtungen: **Mathematik in den digitalen Medien** (wie viel Mathe steckt in Rechnern, was hat Mathe zu ihrer Entwicklung beigetragen, selbst programmieren) und **Digitale Medien in der Mathematik** (welche Medien helfen beim Lösen mathematischer Fragen – eher Thema von mab008).\n\nNebenbei übst du **Computational Thinking**: algorithmisches Denken, Abstraktion, Generalisierung, Automatisierung, Debugging.\n\n**Prüfung:** Klausur am 02.02.2027 oder 16.03.2027, jeweils 8–10 Uhr. ⚠️ Schwerpunkt: **Fragen zur Programmierung**. ⚠️ Die Klausuraufgaben orientieren sich **sehr nah an den Übungsaufgaben**; abgefragt werden die Kompetenzen der Modulbeschreibung.\n\n**Ablauf:** Jede Woche ein Übungsblatt mit *Grundlagenaufgaben* (im Seminar bearbeitet) und *Übungsaufgaben* (Klausurvorbereitung). Tutorium in Woche 5 und ab Woche 9, je zweimal pro Woche.",
+      "beispiel": ""
+    },
+    {
+      "titel": "Digitale Medien in der Schule",
+      "folien": "9–15",
+      "text": "Das KC Realschule nennt viele analoge und digitale **Medien und Werkzeuge** (Zeichengeräte, Stellenwerttafel, Geometriesoftware, Apps, interaktives Übungsmaterial mit Feedback …).\n\n**Medienkompetenz** entsteht durch Lernen **mit, über und durch** Medien. Die KMK nennt **sechs Kompetenzbereiche**: Suchen, Verarbeiten und Aufbewahren · Kommunizieren und Kooperieren · Produzieren und Präsentieren · Schützen und sicher Agieren · Problemlösen und Handeln · Analysieren und Reflektieren.\n\nWichtig: Schüler sollen grundlegende Verfahren **auch ohne Hilfsmittel** beherrschen.\n\nDas KC Grundschule fasst es so: „Fachliche Kompetenzen digital zu fördern und digitale Kompetenzen fachlich zu fördern“ – bis hin zur **Anbahnung von Algorithmen** (z. B. schriftliches Multiplizieren).\n\nDigitale Medien haben **zwei Seiten**: Werkzeug der Lehrkraft und Lerngegenstand der Schüler. Dazu der **Dreiklang**: als Werkzeug – zum Entdecken – zur Veränderung mentaler Repräsentation.",
+      "beispiel": "Ein Geometrieprogramm ist Werkzeug (schnell zeichnen), dient zum Entdecken (Punkt ziehen, beobachten, was gleich bleibt) und verändert die Vorstellung (ein Dreieck als ‚bewegliche‘ Figur statt als starres Bild). – Deutung von Punkt 3 als Ergänzung."
+    },
+    {
+      "titel": "Von Fingern zu Zahlensystemen",
+      "folien": "16–26",
+      "text": "Erste Zählhilfen: **Finger, Steine, Striche**; mit **Kerbhölzern** hielt man Anzahlen fest.\n\n**Additive Zahlensysteme** (römisch, ägyptisch): Zeichenwerte werden addiert, XVII = 17. Rechnen wie CCCXLV · MCCCXIX ist auf dem Papier kaum möglich – man brauchte den **Abakus**.\n\n**Stellenwertsysteme:** Der Wert einer Ziffer hängt von der Stelle ab. Die **Babylonier** hatten Basis 60 ohne Null (heute noch bei Winkeln und Uhrzeit). Im 5. Jh. wurde in **Indien** das Dezimalsystem mit der Null erfunden. **Fibonacci** brachte es 1202 mit den arabischen Ziffern nach Europa. **Adam Ries** verbreitete das Rechnen damit – auf den Linien und mit der Feder.",
+      "beispiel": "Basis 10: 4 + 6 = 10. Basis 2: 1 + 1 = 10. Basis 8: 4 + 6 = 12 (Ergänzung: die Folie nennt die Basis nicht)."
+    },
+    {
+      "titel": "Rechenmaschinen",
+      "folien": "27–33",
+      "text": "Im 17. Jh. entstanden Rechenmaschinen **auf Basis des Dezimalsystems**: **Schickard** (Zahnräder, Walzen) und **Pascal** (Pascaline).\n\nMultiplikation wie 837 · 231 = 837 · 200 + 837 · 30 + 837 · 1 (stellenverschoben addieren). **Pascals Maschine half nur beim Addieren** der Teilprodukte, **Schickards Maschine lieferte auch die Teilprodukte**. Leibniz: stupides Rechnen sei ‚eines Menschen unwürdig‘.\n\n**Jacquard** steuerte seinen Webstuhl (1805) mit **Lochkarten**: Loch oder kein Loch = 1 oder 0. **Hollerith** wertete die US-Volkszählung 1890 mit Lochkarten und Strom aus (Strom fließt oder nicht – zwei Möglichkeiten): 43 Maschinen, Ergebnis nach 4 Wochen statt Jahren.",
+      "beispiel": "Ergänzung (nicht aus der Vorlesung, Quelle Rechnerlexikon): Schickards Addierwerk hatte 6 Stellen; subtrahiert wurde durch Zurückdrehen der Räder; multipliziert mit Walzen (Teilprodukte ablesen) und anschließender Addition."
+    },
+    {
+      "titel": "Nullen und Einsen: Boole und Zuse",
+      "folien": "34–38",
+      "text": "**George Boole** entwickelte eine Algebra der Logik. **UND** (Konjunktion, &): Ausgang 1 nur, wenn beide Eingänge 1 (Reihenschaltung). **ODER** (Disjunktion, ≥1): Ausgang 1, sobald ein Eingang 1 (Parallelschaltung).\n\n| x0 | x1 | UND | ODER |\n|---|---|---|---|\n| 0 | 0 | 0 | 0 |\n| 0 | 1 | 0 | 1 |\n| 1 | 0 | 0 | 1 |\n| 1 | 1 | 1 | 1 |\n\nKernaussage: Schickard nutzte noch Zahnräder und das Dezimalsystem. Danach kamen **Lochkarten, Schaltungen und Binärsystem** zusammen – alles Nullen und Einsen. **Konrad Zuse** nutzte das **Binärsystem statt des Dezimalsystems**; seine **Z3 (1941)** hatte u. a. Eingabe-, Ausgabeeinheit, Speicher, Rechenwerk und Steuerwerk. Dazu: Colossus (Turing, ‚The Imitation Game‘).",
+      "beispiel": ""
+    },
+    {
+      "titel": "Der Taschenrechner im Unterricht",
+      "folien": "39–42",
+      "text": "**1972** kam der erste Taschenrechner auf den Markt. Laut **Weigand & Weth (2002)** hatte er hinsichtlich **Ziele, Methoden und Art der Prüfungsaufgaben nur einen geringen bis keinen Einfluss** auf den Unterricht.\n\nIn der Menti-Umfrage ging es um drei Behauptungen: Verlust des Kopfrechnens (kein Überschlag/keine Kontrolle mehr), fehlende Grundrechenfähigkeiten (erschwert komplexere Funktionen), fehlender Umgang mit Dezimalzahlen und Brüchen im Alltag.\n\nLeitfrage: Was müssen Schüler über **Grenzen und Möglichkeiten** digitaler Medien wissen – und welches Wissen brauchen dann Lehrkräfte?",
+      "beispiel": ""
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Additives Zahlensystem",
+      "wortlaut": "Additive Zahlensysteme (Beispiel: I=1, V=5, X=10, L=50, C=100, D=500, M=1000; MMLI = 2051; XVII = 17; XLIX = 49)",
+      "erklaerung": "Der Wert einer Zahl ergibt sich, indem man die Werte der Zeichen zusammenzählt – egal, an welcher Stelle sie stehen. Beispiel: XVII = 10 + 5 + 1 + 1 = 17. Schriftliches Rechnen ist damit kaum möglich (z. B. CCCXLV · MCCCXIX).",
+      "folie": "20"
+    },
+    {
+      "begriff": "Stellenwertsystem",
+      "wortlaut": "Stellenwertsysteme (Beispiel: 1 + 1 = 2, 4 + 6 = 10 bzw. 1 + 1 = 10, 4 + 6 = 12)",
+      "erklaerung": "Der Wert einer Ziffer hängt von ihrer Stelle ab. Die Basis gibt an, wann eine Stelle ‚voll‘ ist und übertragen wird: Basis 10 → 4 + 6 = 10; Basis 2 → 1 + 1 = 10; Basis 8 → 4 + 6 = 12. Beispiele: Babylonier (Basis 60, ohne Null), indisches Dezimalsystem (mit Null). Ergänzung zur Basis (nicht ausdrücklich auf der Folie).",
+      "folie": "20–23"
+    },
+    {
+      "begriff": "Boolesche Algebra",
+      "wortlaut": "George Boole: „The mathematical analysis of logic“ – Algebra zur systematischen Behandlung von Logik",
+      "erklaerung": "Rechnen mit den Wahrheitswerten 0 und 1 und Verknüpfungen wie UND und ODER. Grundlage für Schaltungen und Computer.",
+      "folie": "34"
+    },
+    {
+      "begriff": "UND (Konjunktion)",
+      "wortlaut": "AND (Konjunktion), Gatterzeichen &; Wahrheitstafel: 0 0 → 0 · 0 1 → 0 · 1 0 → 0 · 1 1 → 1",
+      "erklaerung": "Der Ausgang ist nur 1, wenn alle Eingänge 1 sind. Als Schaltung: zwei Schalter hintereinander (Reihenschaltung) – Strom fließt nur, wenn beide geschlossen sind.",
+      "folie": "34"
+    },
+    {
+      "begriff": "ODER (Disjunktion)",
+      "wortlaut": "OR (Disjunktion), Gatterzeichen ≥1; Wahrheitstafel: 0 0 → 0 · 0 1 → 1 · 1 0 → 1 · 1 1 → 1",
+      "erklaerung": "Der Ausgang ist 1, sobald mindestens ein Eingang 1 ist. Als Schaltung: zwei Schalter nebeneinander (Parallelschaltung).",
+      "folie": "34"
+    },
+    {
+      "begriff": "Medienkompetenz",
+      "wortlaut": "Medienkompetenz entsteht in der Verbindung von Vermittlung, Erwerb und Konstruktion – also durch Lernen mit, über und durch Medien. (KC Mathematik RS Nds. 2020)",
+      "erklaerung": "Schülerinnen und Schüler lernen MIT Medien (als Werkzeug), ÜBER Medien (wie sie funktionieren, ihre Grenzen) und DURCH Medien (indem sie selbst etwas erstellen).",
+      "folie": "11"
+    },
+    {
+      "begriff": "Kompetenzen in der digitalen Welt (KMK)",
+      "wortlaut": "Suchen, Verarbeiten und Aufbewahren · Kommunizieren und Kooperieren · Produzieren und Präsentieren · Schützen und sicher Agieren · Problemlösen und Handeln · Analysieren und Reflektieren",
+      "erklaerung": "Sechs Kompetenzbereiche, auf die sich die Länder in der KMK-Strategie geeinigt haben. Sie sollen den fachlichen Kompetenzen des Mathematikunterrichts zugeordnet werden, soweit sinnvoll.",
+      "folie": "11"
+    },
+    {
+      "begriff": "Zwei Seiten des Einsatzes digitaler Medien",
+      "wortlaut": "1. Als Werkzeug für die Unterrichtsgestaltung zur Vermittlung mathematischer Inhalte. 2. Als Lerngegenstand für die SuS um reflektiert über den Einsatz der Medien zu entscheiden.",
+      "erklaerung": "Die Lehrkraft nutzt Medien, um Mathe zu vermitteln – und die Schüler lernen über die Medien selbst, um sie bewusst einsetzen zu können.",
+      "folie": "15"
+    },
+    {
+      "begriff": "Dreiklang (digitale Medien)",
+      "wortlaut": "Als Werkzeug – Zum Entdecken – Zur Veränderung mentaler Repräsentation",
+      "erklaerung": "Digitale Medien können (1) Rechen-/Zeichenarbeit abnehmen, (2) Entdecken ermöglichen (z. B. Muster durch Ausprobieren finden) und (3) verändern, wie man sich mathematische Objekte vorstellt (z. B. dynamische Darstellungen). Punkt 3 wird auf der Folie nicht weiter erklärt – Deutung als Ergänzung.",
+      "folie": "15"
+    },
+    {
+      "begriff": "Computational Thinking",
+      "wortlaut": "Computational Thinking (Algorithmisches Denken, Abstraktion, Generalisierung, Automatisierung, Debugging)",
+      "erklaerung": "Denkweisen der Informatik, die man nebenbei im Modul übt: Abläufe als Schritte formulieren, Wesentliches herausziehen, verallgemeinern, automatisieren und Fehler finden.",
+      "folie": "3"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "Rechenmaschine von Wilhelm Schickard (1592–1635): 1. Wie viele Stellen standen für die Addition zur Verfügung? a) 8 b) 7 c) 6 – 2. Berechnungen konnten durchgeführt werden mit a) Walzen b) Lochkarten c) Zahnrädern d) Staffelwalzen – 3. Um eine Zahl mit Schickards Maschine zu subtrahieren … a) stellte man die Zahl im Stellwerk ein und drehte eine Kurbel b) drehte man die Zahnräder stellenweise um die der Ziffer entsprechenden Anzahl zurück c) wurden zusätzlich Walzen eingesetzt – 4. Die Multiplikation konnte mit Schickards Maschine … (1) durch mehrfache Addition erfolgen (2) durch Verstellen der Walzen erfolgen. Das Ergebnis konnte immer direkt abgelesen werden (3) durch Verstellen der Walzen und anschließender Addition der zuvor ermittelten Teilergebnisse erfolgen.",
+      "quelle": "Folie 28 (Quiz zum Video der Informatik-Sammlung Erlangen)",
+      "loesung": "1 c) 6 · 2 a) Walzen und c) Zahnräder · 3 b) · 4 (3)",
+      "loesungsweg": "Lösung nicht auf der Folie (Video). Erschlossen aus Folie 29/35 und ergänzt aus dem Rechnerlexikon (nicht aus der Vorlesung): Das Addierwerk hat 6 Fenster/Stellen; der Zehnerübertrag läuft über Zahnräder; das Multiplikationswerk besteht aus 6 Walzen, deren Teilprodukte man abliest und dann im Addierwerk addiert (vgl. Folie 29); Subtrahieren durch Zurückdrehen (Linksdrehen verkleinert). Lochkarten kamen erst später (Jacquard, Hollerith), die Staffelwalze stammt von Leibniz.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "An welche digitalen Medien denken Sie, wenn Sie an den Einsatz digitaler Medien im Mathematikunterricht denken?",
+      "quelle": "Folie 9",
+      "loesung": "Offene Reflexionsfrage – z. B. Taschenrechner, Tabellenkalkulation, dynamische Geometriesoftware, Apps als virtuelle Arbeitsmittel, interaktive Arbeitsblätter mit Feedback, Lernvideos, Programmierumgebungen (vgl. Folie 10).",
+      "loesungsweg": "Mit der Liste aus dem KC (Folie 10) vergleichen und nach den zwei Seiten (Werkzeug/Lerngegenstand) ordnen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "text": "Wollte der Benutzer multiplizieren, beispielsweise 837 · 231 so musste er die drei Teilprodukte 837 · 200, 837 · 30, 837 · 1 berechnen und jeweils um eine Stelle verschoben addieren.",
+      "quelle": "Folie 29",
+      "loesung": "837 · 231 = 193 347",
+      "loesungsweg": "837 · 200 = 167 400; 837 · 30 = 25 110; 837 · 1 = 837. Summe: 167 400 + 25 110 + 837 = 193 347. (Ausgerechnet als Übung – die Folie zeigt nur das Verfahren.)",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "text": "Einfluss des Einsatzes des Taschenrechners auf SuS? Stimmen Sie diesen Aussagen zu? (1) Die Fähigkeit des Kopfrechnens geht durch den Einsatz des Taschenrechners verloren. So ist ein Überschlag und somit eine Kontrolle nicht oder nur unzureichend möglich. (2) Durch den Einsatz des Taschenrechners mangelt es an Fähigkeiten in den Grundrechenarten, wodurch das Erlernen komplexerer Funktionen erschwert wird. (3) Durch den Einsatz des Taschenrechners mangelt es an Fähigkeiten beim Umgang mit (alltäglichen) Dezimalzahlen und Brüchen, dies erschwert den Umgang mit mathematischen Problemstellungen im Alltag.",
+      "quelle": "Folie 41 (Menti-Umfrage, Behauptungen aus Weigand und Weth 2002; Wortlaut von Nadine)",
+      "loesung": "Offene Stellungnahme. Einordnung laut Folie 40: Der Taschenrechner hatte kaum Einfluss auf Ziele, Methoden und Prüfungsaufgaben; entscheidend ist, was Schüler über Grenzen und Möglichkeiten wissen (Folie 42) und dass Grundverfahren auch ohne Hilfsmittel beherrscht werden (Folie 12).",
+      "loesungsweg": "Pro Behauptung: Zustimmung/Ablehnung begründen, mit Folie 12 (Verfahren ohne Hilfsmittel), Folie 40 (geringer Einfluss) und Folie 42 (Grenzen und Möglichkeiten kennen) argumentieren. Ergebnis der Umfrage ist unbekannt (offene Frage).",
+      "frist": "",
+      "im_kalender": false
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter einem additiven Zahlensystem?",
+      "antwort": "Ein Zahlensystem, in dem sich der Wert einer Zahl durch Addieren der Werte der einzelnen Zeichen ergibt, z. B. die römischen Zahlen (XVII = 17).",
+      "erklaerung": "Beispiel: XVII = 10 + 5 + 1 + 1.",
+      "folie": "20",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f02",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter einem Stellenwertsystem?",
+      "antwort": "Ein Zahlensystem, in dem der Wert einer Ziffer von ihrer Stelle abhängt; die Basis legt fest, wann übertragen wird (z. B. Dezimalsystem, babylonisches 60er-System).",
+      "erklaerung": "Darum kann man im Stellenwertsystem nach festen Regeln schriftlich rechnen.",
+      "folie": "20–22",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f03",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Die Babylonier hatten ein Stellenwertsystem ohne [[Null]]; Reste davon findet man heute noch bei Winkeln und der [[Uhrzeit]].",
+      "erklaerung": "Babylonier: Basis 60 ohne Null; Indien: Dezimalsystem mit Null.",
+      "folie": "22–23",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f04",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist die boolesche Algebra?",
+      "antwort": "Eine von George Boole entwickelte Algebra zur systematischen Behandlung von Logik – man rechnet mit den Werten 0 und 1 und Verknüpfungen wie UND und ODER.",
+      "erklaerung": "Grundlage für Schaltungen und später Computer.",
+      "folie": "34",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f05",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wann liefert die UND-Verknüpfung (Konjunktion) den Wert 1?",
+      "antwort": "Nur wenn alle Eingänge 1 sind (bei zwei Eingängen: nur bei 1 und 1).",
+      "erklaerung": "Reihenschaltung: Strom fließt nur, wenn beide Schalter geschlossen sind.",
+      "folie": "34",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wann liefert die ODER-Verknüpfung (Disjunktion) den Wert 1?",
+      "antwort": "Sobald mindestens ein Eingang 1 ist (0 nur bei 0 und 0).",
+      "erklaerung": "Parallelschaltung: Strom fließt, wenn mindestens ein Schalter geschlossen ist.",
+      "folie": "34",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu: Bei welcher Eingabe (x0, x1) ist das Ergebnis von UND bzw. ODER gleich 1?",
+      "kategorien": [
+        "UND = 1 und ODER = 1",
+        "nur ODER = 1",
+        "keins von beiden = 1"
+      ],
+      "elemente": [
+        {
+          "text": "x0 = 1, x1 = 1",
+          "kategorie": "UND = 1 und ODER = 1"
+        },
+        {
+          "text": "x0 = 0, x1 = 1",
+          "kategorie": "nur ODER = 1"
+        },
+        {
+          "text": "x0 = 1, x1 = 0",
+          "kategorie": "nur ODER = 1"
+        },
+        {
+          "text": "x0 = 0, x1 = 0",
+          "kategorie": "keins von beiden = 1"
+        }
+      ],
+      "erklaerung": "UND ist nur bei 1/1 wahr, ODER nur bei 0/0 falsch.",
+      "folie": "34",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Wodurch entsteht laut KC Medienkompetenz?",
+      "antwort": "In der Verbindung von Vermittlung, Erwerb und Konstruktion – durch Lernen mit, über und durch Medien.",
+      "erklaerung": "Mit = als Werkzeug, über = wie Medien funktionieren, durch = selbst produzieren.",
+      "folie": "11",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f09",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Medienkompetenz entsteht durch Lernen [[mit]], [[über]] und [[durch]] Medien.",
+      "erklaerung": "Lernen mit, über und durch Medien.",
+      "folie": "11",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f10",
+      "baustein": "definition",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche gehören zu den sechs KMK-Kompetenzbereichen „Kompetenzen in der digitalen Welt“?",
+      "optionen": [
+        "Suchen, Verarbeiten und Aufbewahren",
+        "Programmieren und Automatisieren",
+        "Schützen und sicher Agieren",
+        "Analysieren und Reflektieren",
+        "Rechnen und Schätzen",
+        "Produzieren und Präsentieren"
+      ],
+      "richtig": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "erklaerung": "Die sechs KMK-Bereiche: Suchen, Verarbeiten und Aufbewahren · Kommunizieren und Kooperieren · Produzieren und Präsentieren · Schützen und sicher Agieren · Problemlösen und Handeln · Analysieren und Reflektieren. ‚Programmieren und Automatisieren‘ und ‚Rechnen und Schätzen‘ gehören nicht dazu.",
+      "folie": "11",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f11",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche zwei Seiten des Einsatzes digitaler Medien in der Schule werden unterschieden?",
+      "antwort": "1. Als Werkzeug für die Unterrichtsgestaltung zur Vermittlung mathematischer Inhalte. 2. Als Lerngegenstand für die SuS, um reflektiert über den Einsatz der Medien zu entscheiden.",
+      "erklaerung": "Werkzeug der Lehrkraft und Lerngegenstand der Schüler.",
+      "folie": "15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Dreiklang: Als [[Werkzeug]] – Zum [[Entdecken]] – Zur Veränderung [[mentaler Repräsentation]]",
+      "erklaerung": "Dreiklang: Werkzeug – Entdecken – mentale Repräsentation.",
+      "folie": "15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Teilaspekte umfasst Computational Thinking laut Vorlesung?",
+      "antwort": "Algorithmisches Denken, Abstraktion, Generalisierung, Automatisierung, Debugging.",
+      "erklaerung": "Wird im Modul ‚nebenbei‘ geübt, vor allem beim Programmieren.",
+      "folie": "3",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f14",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wer führte 1202 das Dezimalsystem und die arabischen Ziffern in Europa ein?",
+      "optionen": [
+        "Adam Ries",
+        "Leonardo von Pisa (Fibonacci)",
+        "Wilhelm Schickard",
+        "Konrad Zuse"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Fibonacci (Leonardo von Pisa) brachte 1202 das Dezimalsystem und die arabischen Ziffern nach Europa. Adam Ries verbreitete später das Rechnen damit, Schickard baute Maschinen, Zuse nutzte das Binärsystem.",
+      "folie": "24",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f15",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was unterscheidet Schickards Rechenmaschine von Pascals Maschine beim Multiplizieren?",
+      "optionen": [
+        "Schickards Maschine lieferte auch die Teilprodukte, Pascals half nur beim Addieren der Teilprodukte.",
+        "Pascals Maschine konnte direkt multiplizieren, Schickards nur addieren.",
+        "Schickard nutzte das Binärsystem, Pascal das Dezimalsystem.",
+        "Pascals Maschine wurde mit Lochkarten gesteuert."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Pascal: nur Addition der Teilprodukte. Schickard: Teilprodukte mussten nicht im Kopf berechnet werden. Beide arbeiteten mit dem Dezimalsystem und Zahnrädern; Lochkarten kamen erst mit Jacquard/Hollerith.",
+      "folie": "29",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche drei Dinge kamen nach Schickard zusammen, und was haben sie gemeinsam?",
+      "antwort": "Lochkarten, Schaltungen und das Binärsystem – alle arbeiten mit Nullen und Einsen (Loch/kein Loch, Strom/kein Strom, 0/1). Zuse nutzte deshalb das Binärsystem statt des Dezimalsystems.",
+      "erklaerung": "Schickard: Zahnräder und Dezimalsystem. Danach: Lochkarten, Schaltungen, Binärsystem – Zuse nutzte das Binärsystem.",
+      "folie": "35–36",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Personen ihrem Beitrag zu.",
+      "kategorien": [
+        "Rechenmaschine mit Dezimalsystem (17. Jh.)",
+        "Lochkarten",
+        "Binärsystem / Z3"
+      ],
+      "elemente": [
+        {
+          "text": "Wilhelm Schickard",
+          "kategorie": "Rechenmaschine mit Dezimalsystem (17. Jh.)"
+        },
+        {
+          "text": "Blaise Pascal",
+          "kategorie": "Rechenmaschine mit Dezimalsystem (17. Jh.)"
+        },
+        {
+          "text": "Joseph-Marie Jacquard",
+          "kategorie": "Lochkarten"
+        },
+        {
+          "text": "Hermann Hollerith",
+          "kategorie": "Lochkarten"
+        },
+        {
+          "text": "Konrad Zuse",
+          "kategorie": "Binärsystem / Z3"
+        }
+      ],
+      "erklaerung": "Schickard und Pascal: 17. Jh., Dezimalsystem; Jacquard und Hollerith: Lochkarten; Zuse: Binärsystem, Z3.",
+      "folie": "27–37",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f18",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welchen Einfluss hatte der Taschenrechner laut Weigand & Weth (2002) auf Ziele, Methoden und Prüfungsaufgaben des Mathematikunterrichts?",
+      "optionen": [
+        "Einen grundlegenden – der Unterricht wurde völlig neu gestaltet.",
+        "Nur einen geringen bis keinen Einfluss.",
+        "Er führte zur Abschaffung des Kopfrechnens im Lehrplan.",
+        "Er wurde wegen fehlender Wirkung wieder verboten."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Weigand & Weth (2002): nur geringer bis kein Einfluss auf Ziele, Methoden und Art der Prüfungsaufgaben.",
+      "folie": "40",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Welche Aussage steht im KC zum Medieneinsatz?",
+      "optionen": [
+        "Schüler sollen grundlegende mathematische Verfahren auch ohne Hilfsmittel beherrschen und anwenden können.",
+        "Sobald digitale Werkzeuge verfügbar sind, kann auf schriftliche Verfahren verzichtet werden.",
+        "Digitale Medien sollen nur von der Lehrkraft eingesetzt werden.",
+        "Analoge Medien sollen durch digitale ersetzt werden."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Das KC betont: grundlegende Verfahren auch ohne Hilfsmittel beherrschen. Medien ersetzen das nicht.",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was gilt laut Dozentin für die Klausur mab004?",
+      "optionen": [
+        "Der Schwerpunkt liegt auf Fragen zur Programmierung.",
+        "Die Aufgaben orientieren sich sehr nah an den Übungsaufgaben.",
+        "Der Schwerpunkt liegt auf der Geschichte der Rechenmaschinen.",
+        "Die Klausur ist eine reine Multiple-Choice-Prüfung."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Schwerpunkt Programmierung; Aufgaben sehr nah an den Übungsaufgaben; Kompetenzen laut Modulbeschreibung.",
+      "folie": "4–6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Begründe, warum man CCCXLV · MCCCXIX kaum schriftlich berechnen kann, 345 · 1319 dagegen schon.",
+      "musterloesung": "Die römischen Zahlen sind ein additives System: Der Wert eines Zeichens hängt nicht von seiner Stelle ab, es gibt keine Ziffern für ‚Stellen‘ und keine Null. Schriftliche Verfahren arbeiten aber stellenweise (Einer, Zehner …) mit Übertrag. Im Dezimalsystem (Stellenwertsystem) geht das; mit römischen Zahlen brauchte man Hilfsmittel wie den Abakus oder das Rechenbrett.",
+      "bewertungspunkte": [
+        "additives System erkannt",
+        "Stellenwert/Ziffernposition als Voraussetzung schriftlicher Verfahren",
+        "fehlende Null bzw. fehlende Stellen",
+        "Hilfsmittel Abakus/Rechenbrett"
+      ],
+      "punkte": 4,
+      "erklaerung": "Im additiven System sind die Zeichen nicht nach Stellen geordnet – Teilprodukte kann man nicht stellenweise bilden.",
+      "folie": "20–21",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f22",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Schickard-Quiz (Folie 28): Wie viele Stellen standen für die Addition zur Verfügung?",
+      "optionen": [
+        "8",
+        "7",
+        "6"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Lösung nicht auf der Folie – Ergänzung (Rechnerlexikon): 6 Fenster/Stellen im Addierwerk. Offene Frage an die Dozentin.",
+      "folie": "28",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f23",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Berechne 837 · 231 so, wie man es mit Schickards Maschine getan hätte (Teilprodukte, verschoben addieren).",
+      "musterloesung": "837 · 200 = 167 400; 837 · 30 = 25 110; 837 · 1 = 837; Summe 193 347.",
+      "bewertungspunkte": [
+        "drei Teilprodukte richtig",
+        "stellenverschoben addiert",
+        "Ergebnis 193 347"
+      ],
+      "punkte": 3,
+      "erklaerung": "Stellenverschoben addieren wie bei der Maschine.",
+      "folie": "29",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f24",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Schickard-Quiz (Folie 28): Die Multiplikation konnte mit Schickards Maschine …",
+      "optionen": [
+        "… durch mehrfache Addition erfolgen.",
+        "… durch Verstellen der Walzen erfolgen. Das Ergebnis konnte immer direkt abgelesen werden.",
+        "… durch Verstellen der Walzen und anschließender Addition der zuvor ermittelten Teilergebnisse erfolgen."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Ergänzung (Rechnerlexikon): Teilprodukte mit den Walzen ablesen, dann im Addierwerk addieren – passt zu Folie 29.",
+      "folie": "28",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f25",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Schickard-Quiz (Folie 28): Um eine Zahl mit Schickards Maschine zu subtrahieren …",
+      "optionen": [
+        "… stellte man die Zahl im Stellwerk ein und drehte eine Kurbel.",
+        "… drehte man die Zahnräder stellenweise um die der Ziffer entsprechenden Anzahl zurück.",
+        "… wurden zusätzlich Walzen eingesetzt."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Ergänzung (Rechnerlexikon): Linksdrehen verkleinert die Ziffer. Offene Frage an die Dozentin.",
+      "folie": "28",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f26",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Wähle ein digitales Medium für den Mathematikunterricht (z. B. Taschenrechner, Geometriesoftware, ein virtuelles Rechenbrett). Erläutere daran die zwei Seiten des Medieneinsatzes und den Dreiklang.",
+      "musterloesung": "Beispiel virtuelles Rechenbrett: Werkzeug der Lehrkraft (Vorführen am Whiteboard) und Lerngegenstand (Schüler vergleichen mit dem analogen Brett, erkennen Grenzen, z. B. kein ‚Anfassen‘). Dreiklang: Werkzeug (Pfennige schneller legen), Entdecken (Regel ‚· 10 = eine Linie höher‘ selbst finden), Veränderung mentaler Repräsentation (Bündeln als sichtbares Höherlegen).",
+      "bewertungspunkte": [
+        "Medium sinnvoll gewählt",
+        "beide Seiten erläutert",
+        "alle drei Teile des Dreiklangs mit Beispiel"
+      ],
+      "punkte": 5,
+      "erklaerung": "Bezug auf zwei Seiten und Dreiklang nehmen.",
+      "folie": "9–15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f27",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Nimm Stellung zur Behauptung: „Die Fähigkeit des Kopfrechnens geht durch den Einsatz des Taschenrechners verloren. So ist ein Überschlag und somit eine Kontrolle nicht oder nur unzureichend möglich.“ Was folgt daraus für Lehrkräfte?",
+      "musterloesung": "Die Behauptung ist nicht zwingend: Laut Weigand & Weth hatte der Taschenrechner kaum Einfluss auf Ziele und Methoden. Das KC verlangt, dass Verfahren auch ohne Hilfsmittel beherrscht werden – Überschlagen bleibt also Unterrichtsziel. Lehrkräfte müssen Grenzen und Möglichkeiten des Taschenrechners kennen (z. B. Rundung, Eingabefehler) und gezielt einüben, wann man ihn einsetzt und wie man Ergebnisse überprüft.",
+      "bewertungspunkte": [
+        "begründete Position",
+        "Bezug auf KC (ohne Hilfsmittel)",
+        "Bezug auf Weigand & Weth",
+        "Folgerung für Lehrkräfte (Grenzen/Möglichkeiten)"
+      ],
+      "punkte": 4,
+      "erklaerung": "Mit Folie 12, 40 und 42 argumentieren.",
+      "folie": "40–42",
+      "pruefungsrelevant": false
+    }
+  ],
+  "pruefungshinweise": [
+    "Der Schwerpunkt der Klausur wird auf Fragen zur Programmierung liegen. (Folie 4)",
+    "Für die Klausuraufgaben werde ich mich sehr nah an den Übungsaufgaben orientieren. Die Abfrage der Kompetenzen erfolgt in Anlehnung an die Modulbeschreibung. (Folie 6)"
+  ],
+  "offene_fragen": [
+    "Folie 20: Welche Basis ist bei „1 + 1 = 10“ und „4 + 6 = 12“ gemeint? (Rechnerisch: Basis 2 bzw. Basis 8.)",
+    "Folie 21: „MCCCIXX“ ist keine gültige römische Zahl – ist MCCCXIX (1319) gemeint?",
+    "Folie 23: Wie lautet die Antwort auf „Stimmt die Behauptung?“ (Null in Indien erfunden) – die Maya hatten laut Folie 19 auch ein Zeichen für 0.",
+    "Folie 27: Pascal ist mit „1632–1662“ angegeben, geboren wurde er 1623 – Tippfehler?",
+    "Folie 28: Stimmen die Quiz-Lösungen 6 · Walzen + Zahnräder · Zurückdrehen · Walzen + Addition? Ist bei Frage 2 eine oder sind mehrere Antworten richtig? Bei Frage 4 sind die Antworten doppelt beschriftet (a, a, b).",
+    "Folie 41: Was kam bei der Menti-Umfrage heraus, und wie hat die Dozentin die Behauptungen eingeordnet?",
+    "Wie lange dauert die Klausur genau (Zeitfenster 8–10 Uhr – vermutlich 90 Minuten)?",
+    "Kleinigkeit: Literaturverzeichnis (Folie 44) nennt das KC Grundschule 2017, Folie 13–14 zitieren 2025."
+  ]
+}

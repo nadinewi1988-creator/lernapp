@@ -1,0 +1,111 @@
+{
+  "schema": "lernapp-glossar/2",
+  "modul": "mab004",
+  "eintraege": [
+    {
+      "begriff": "Additives Zahlensystem",
+      "wortlaut": "Additive Zahlensysteme (Beispiel: I=1, V=5, X=10, L=50, C=100, D=500, M=1000; MMLI = 2051; XVII = 17; XLIX = 49)",
+      "erklaerung": "Der Wert einer Zahl ergibt sich, indem man die Werte der Zeichen zusammenzählt – egal, an welcher Stelle sie stehen. Beispiel: XVII = 10 + 5 + 1 + 1 = 17. Schriftliches Rechnen ist damit kaum möglich (z. B. CCCXLV · MCCCXIX).",
+      "quelle": "mab004.1_2026-10-13 · Folie 20",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Stellenwertsystem",
+      "wortlaut": "Stellenwertsysteme (Beispiel: 1 + 1 = 2, 4 + 6 = 10 bzw. 1 + 1 = 10, 4 + 6 = 12)",
+      "erklaerung": "Der Wert einer Ziffer hängt von ihrer Stelle ab. Die Basis gibt an, wann eine Stelle ‚voll‘ ist und übertragen wird: Basis 10 → 4 + 6 = 10; Basis 2 → 1 + 1 = 10; Basis 8 → 4 + 6 = 12. Beispiele: Babylonier (Basis 60, ohne Null), indisches Dezimalsystem (mit Null). Ergänzung zur Basis (nicht ausdrücklich auf der Folie).",
+      "quelle": "mab004.1_2026-10-13 · Folie 20–23",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Boolesche Algebra",
+      "wortlaut": "George Boole: „The mathematical analysis of logic“ – Algebra zur systematischen Behandlung von Logik",
+      "erklaerung": "Rechnen mit den Wahrheitswerten 0 und 1 und Verknüpfungen wie UND und ODER. Grundlage für Schaltungen und Computer.",
+      "quelle": "mab004.1_2026-10-13 · Folie 34",
+      "abweichungen": []
+    },
+    {
+      "begriff": "UND (Konjunktion)",
+      "wortlaut": "AND (Konjunktion), Gatterzeichen &; Wahrheitstafel: 0 0 → 0 · 0 1 → 0 · 1 0 → 0 · 1 1 → 1",
+      "erklaerung": "Der Ausgang ist nur 1, wenn alle Eingänge 1 sind. Als Schaltung: zwei Schalter hintereinander (Reihenschaltung) – Strom fließt nur, wenn beide geschlossen sind.",
+      "quelle": "mab004.1_2026-10-13 · Folie 34",
+      "abweichungen": []
+    },
+    {
+      "begriff": "ODER (Disjunktion)",
+      "wortlaut": "OR (Disjunktion), Gatterzeichen ≥1; Wahrheitstafel: 0 0 → 0 · 0 1 → 1 · 1 0 → 1 · 1 1 → 1",
+      "erklaerung": "Der Ausgang ist 1, sobald mindestens ein Eingang 1 ist. Als Schaltung: zwei Schalter nebeneinander (Parallelschaltung).",
+      "quelle": "mab004.1_2026-10-13 · Folie 34",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Medienkompetenz",
+      "wortlaut": "Medienkompetenz entsteht in der Verbindung von Vermittlung, Erwerb und Konstruktion – also durch Lernen mit, über und durch Medien. (KC Mathematik RS Nds. 2020)",
+      "erklaerung": "Schülerinnen und Schüler lernen MIT Medien (als Werkzeug), ÜBER Medien (wie sie funktionieren, ihre Grenzen) und DURCH Medien (indem sie selbst etwas erstellen).",
+      "quelle": "mab004.1_2026-10-13 · Folie 11",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kompetenzen in der digitalen Welt (KMK)",
+      "wortlaut": "Suchen, Verarbeiten und Aufbewahren · Kommunizieren und Kooperieren · Produzieren und Präsentieren · Schützen und sicher Agieren · Problemlösen und Handeln · Analysieren und Reflektieren",
+      "erklaerung": "Sechs Kompetenzbereiche, auf die sich die Länder in der KMK-Strategie geeinigt haben. Sie sollen den fachlichen Kompetenzen des Mathematikunterrichts zugeordnet werden, soweit sinnvoll.",
+      "quelle": "mab004.1_2026-10-13 · Folie 11",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Zwei Seiten des Einsatzes digitaler Medien",
+      "wortlaut": "1. Als Werkzeug für die Unterrichtsgestaltung zur Vermittlung mathematischer Inhalte. 2. Als Lerngegenstand für die SuS um reflektiert über den Einsatz der Medien zu entscheiden.",
+      "erklaerung": "Die Lehrkraft nutzt Medien, um Mathe zu vermitteln – und die Schüler lernen über die Medien selbst, um sie bewusst einsetzen zu können.",
+      "quelle": "mab004.1_2026-10-13 · Folie 15",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Dreiklang (digitale Medien)",
+      "wortlaut": "Als Werkzeug – Zum Entdecken – Zur Veränderung mentaler Repräsentation",
+      "erklaerung": "Digitale Medien können (1) Rechen-/Zeichenarbeit abnehmen, (2) Entdecken ermöglichen (z. B. Muster durch Ausprobieren finden) und (3) verändern, wie man sich mathematische Objekte vorstellt (z. B. dynamische Darstellungen). Punkt 3 wird auf der Folie nicht weiter erklärt – Deutung als Ergänzung.",
+      "quelle": "mab004.1_2026-10-13 · Folie 15",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Computational Thinking",
+      "wortlaut": "Computational Thinking (Algorithmisches Denken, Abstraktion, Generalisierung, Automatisierung, Debugging)",
+      "erklaerung": "Denkweisen der Informatik, die man nebenbei im Modul übt: Abläufe als Schritte formulieren, Wesentliches herausziehen, verallgemeinern, automatisieren und Fehler finden.",
+      "quelle": "mab004.1_2026-10-13 · Folie 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Linienrechnen",
+      "wortlaut": "Im Mittelpunkt dieses Materials steht das Linienrechnen, die mittelalterliche Version des Abakusrechnens. Adam Ries […] setzte es als methodische Vorstufe zum Ziffernrechnen ein.",
+      "erklaerung": "Rechnen mit Rechenpfennigen auf einem Brett mit Linien und Zwischenräumen. Die Pfennige werden nach festen Regeln verschoben, ersetzt, weggenommen oder hingelegt – ‚ohne eigentliches Rechnen‘.",
+      "quelle": "mab004.2_2026-10-13 · Fothe S. 1",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Rechenbrett",
+      "wortlaut": "Das Linienrechnen erfolgt auf einem Rechenbrett, Rechentuch oder Rechentisch und mit Rechenpfennigen. Wir nehmen ein Rechenbrett mit vier Linien, vier Zwischenräumen und drei Feldern.",
+      "erklaerung": "Linien haben die Werte 1, 10, 100, 1000 (I, X, C, M), die Zwischenräume darüber 5, 50, 500 (V, L, D), 5000. Feld 1 und Feld 2 nehmen die beiden Zahlen auf, im Ergebnisfeld entsteht das Resultat.",
+      "quelle": "mab004.2_2026-10-13 · Fothe S. 3 · Rechenbrett-Vorlage",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Rechenpfennig",
+      "wortlaut": "In Klammern ist der jeweilige Wert eines Rechenpfennigs angegeben.",
+      "erklaerung": "Spielstein (heute z. B. Plättchen), dessen Wert davon abhängt, auf welcher Linie bzw. in welchem Zwischenraum er liegt.",
+      "quelle": "mab004.2_2026-10-13 · Fothe S. 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Höherlegen (Elevieren) / Tieferlegen (Resolvieren)",
+      "wortlaut": "Von grundlegender Bedeutung für das Rechnen auf den Linien sind die Ersetzungsregeln, die das Höherlegen (Elevieren) und Tieferlegen (Resolvieren) von Rechenpfennigen beschreiben. Höher- oder Tieferlegen verändern die Summe der Werte aller Rechenpfennige in einem Feld nicht.",
+      "erklaerung": "Höherlegen = bündeln (mehrere Pfennige gegen einen höherwertigen tauschen), Tieferlegen = entbündeln. Der Wert bleibt gleich, nur die Darstellung ändert sich.",
+      "quelle": "mab004.2_2026-10-13 · Fothe S. 4",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Ersetzungsregeln H1, H2, T1, T2, T3",
+      "wortlaut": "H1: Zwei Rechenpfennige, die in einem Zwischenraum liegen, können weggenommen werden. Dafür wird dann ein Rechenpfennig auf die nächsthöhere Linie gelegt. H2: Fünf Rechenpfennige, die auf einer Linie liegen, können weggenommen werden. Dafür wird dann ein Rechenpfennig in den nächsthöheren Zwischenraum gelegt. T1: Ein Rechenpfennig, der auf einer Linie liegt, kann weggenommen werden. Dafür werden dann zwei Rechenpfennige in den nächsttieferen Zwischenraum gelegt. T2: Ein Rechenpfennig, der in einem Zwischenraum liegt, kann weggenommen werden. Dafür werden dann fünf Rechenpfennige auf die nächsttiefere Linie gelegt. T3: Ein Rechenpfennig, der auf einer Linie liegt, kann weggenommen werden. Dafür werden dann ein Rechenpfennig in den nächsttieferen Zwischenraum und fünf Rechenpfennige auf die nächsttiefere Linie gelegt.",
+      "erklaerung": "Merkhilfe: 2 × 5 = 10 (H1: zwei Fünfer → ein Zehner), 5 × 1 = 5 (H2: fünf Einer → ein Fünfer). T1 und T2 sind die Umkehrungen, T3 (aus Ries’ 2. Rechenbuch, fürs Subtrahieren) zerlegt 10 in 5 + 5 · 1.",
+      "quelle": "mab004.2_2026-10-13 · Fothe S. 4 (Tabelle 1), S. 9 (Tabelle 2)",
+      "abweichungen": []
+    }
+  ]
+}

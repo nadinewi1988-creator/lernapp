@@ -1,0 +1,593 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "mab004",
+  "teilmodul": "mab004.2",
+  "datum": "2026-10-13",
+  "sitzung_nr": 1,
+  "sitzung_id": "a08f8ff9-b4d7-47d4-80d1-df04c7d6d2e9",
+  "thema": "Seminar 1 Rechnen auf den Linien",
+  "thema_in_app": "eingetragen",
+  "stand": "geprueft",
+  "quellen": [
+    {
+      "datei": "mab004.2/Seminar_1_Rechnen_auf_den_Linien/Blatt_1.pdf",
+      "art": "Übungsblatt",
+      "seiten": "1"
+    },
+    {
+      "datei": "mab004.2/Seminar_1_Rechnen_auf_den_Linien/Fothe-Linienrechnen.pdf",
+      "art": "Text (Fothe 2009, Jenaer Schriften)",
+      "seiten": "1–12"
+    },
+    {
+      "datei": "mab004.2/Seminar_1_Rechnen_auf_den_Linien/JoJo_Rechnen_auf_den_Linien_Klasse_3.pdf",
+      "art": "Schulbuch (Jo-Jo Mathematik 3, Cornelsen 2019)",
+      "seiten": "128–129"
+    },
+    {
+      "datei": "mab004.2/Seminar_1_Rechnen_auf_den_Linien/Rechenbrett.pdf",
+      "art": "Vorlage",
+      "seiten": "1"
+    },
+    {
+      "datei": "mab004.2/Seminar_1_Rechnen_auf_den_Linien/KC_MA_GS_Anhrfassung.pdf",
+      "art": "Kerncurriculum Grundschule (Anhörfassung 2024)",
+      "seiten": "8, 10–12, 18"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Zahlen auf dem Rechenbrett legen und ablesen.",
+      "art": "abgeleitet",
+      "quelle": "Fothe S. 3 · Jo-Jo Nr. 1",
+      "fragen": [
+        "f04",
+        "f05",
+        "f12"
+      ],
+      "erklaerung_abschnitt": "Das Rechenbrett"
+    },
+    {
+      "text": "Die Ersetzungsregeln (Höher- und Tieferlegen) anwenden und begründen, warum sie den Wert nicht ändern.",
+      "art": "abgeleitet",
+      "quelle": "Fothe S. 4",
+      "fragen": [
+        "f06",
+        "f07",
+        "f08",
+        "f09"
+      ],
+      "erklaerung_abschnitt": "Ersetzungsregeln"
+    },
+    {
+      "text": "Addieren, Subtrahieren und Multiplizieren auf den Linien ausführen.",
+      "art": "abgeleitet",
+      "quelle": "Blatt 1 Aufg. 2 · Fothe S. 5–9 · Jo-Jo",
+      "fragen": [
+        "f10",
+        "f11",
+        "f13",
+        "f14",
+        "f15",
+        "f16",
+        "f17"
+      ],
+      "erklaerung_abschnitt": "Rechnen auf den Linien"
+    },
+    {
+      "text": "Begründen, warum das Rechnen auf den Linien in Klasse 3 behandelt werden sollte (mit Bezug auf das KC).",
+      "art": "abgeleitet",
+      "quelle": "Blatt 1 Aufg. 3",
+      "fragen": [
+        "f18",
+        "f20"
+      ],
+      "erklaerung_abschnitt": "Warum in der Schule?"
+    }
+  ],
+  "kurzfassung": [
+    "Das Linienrechnen ist die mittelalterliche Form des Abakusrechnens; Adam Ries setzte es als methodische Vorstufe zum Ziffernrechnen ein.",
+    "Auf dem Rechenbrett haben Linien die Werte 1, 10, 100, 1000 und die Zwischenräume 5, 50, 500 – fertig ist eine Zahl, wenn auf jeder Linie höchstens 4 und in jedem Zwischenraum höchstens 1 Pfennig liegt.",
+    "Höher- und Tieferlegen (Ersetzungsregeln) ändern den Wert eines Feldes nicht, nur seine Darstellung.",
+    "Das Multiplizieren wird auf das Addieren zurückgeführt, das Dividieren auf das Subtrahieren.",
+    "Multiplizieren mit 10, 100, 1000 bedeutet auf dem Rechenbrett: jeden Pfennig um eine, zwei, drei Linien höher legen.",
+    "Für Multiplizieren und Dividieren auf den Linien muss man das Einmaleins nicht beherrschen.",
+    "Beim Linienrechnen kommt es oft nicht auf die Reihenfolge an; Umwege kosten Aufwand, führen aber nicht zu Rechenfehlern (Robustheit).",
+    "Mit römischen Zahlen kann nur mithilfe eines Abakus oder mit Linienrechnen produktiv gerechnet werden."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Adam Ries und das Linienrechnen",
+      "folien": "Fothe S. 1–2 · Jo-Jo S. 128",
+      "text": "Adam Ries (1492–1559) war der bedeutendste deutsche Rechenmeister. Er schrieb auf **Deutsch**, so konnten viele Menschen sein Buch verstehen. Das **Linienrechnen** ist die mittelalterliche Version des Abakusrechnens; Ries setzte es als **methodische Vorstufe zum Ziffernrechnen** ein. Seine Verdienste liegen in der weiten Verbreitung des Rechnens in allen Bildungsschichten.",
+      "beispiel": ""
+    },
+    {
+      "titel": "Das Rechenbrett",
+      "folien": "Fothe S. 3–4 · Rechenbrett-Vorlage",
+      "text": "Waagerechte **Linien** mit den Werten **1, 10, 100, 1000** (I, X, C, M) und **Zwischenräume** mit **5, 50, 500** (V, L, D), über der 1000er-Linie 5000. Senkrecht drei **Felder**: erste Zahl, zweite Zahl, Ergebnis.\n\nEine Zahl legen: Die Einerstelle bestimmt Linie 1 und Zwischenraum 1, die Zehnerstelle Linie 2 und Zwischenraum 2 usw. Korrekt gelegt ist eine Zahl, wenn auf jeder Linie **höchstens 4** und in jedem Zwischenraum **höchstens 1** Pfennig liegt.",
+      "beispiel": "879 = 1 Pfennig im 500er-Raum, 3 auf der 100er-Linie, 1 im 50er-Raum, 2 auf der 10er-Linie, 1 im 5er-Raum, 4 auf der 1er-Linie (Jo-Jo Nr. 1a, C)."
+    },
+    {
+      "titel": "Ersetzungsregeln",
+      "folien": "Fothe S. 4, 9",
+      "text": "**H1:** 2 Pfennige im Zwischenraum → 1 Pfennig auf der nächsthöheren Linie.\n**H2:** 5 Pfennige auf einer Linie → 1 Pfennig im nächsthöheren Zwischenraum.\n**T1:** 1 Pfennig auf einer Linie → 2 Pfennige im nächsttieferen Zwischenraum.\n**T2:** 1 Pfennig im Zwischenraum → 5 Pfennige auf der nächsttieferen Linie.\n**T3** (fürs Subtrahieren): 1 Pfennig auf einer Linie → 1 Pfennig im nächsttieferen Zwischenraum + 5 Pfennige auf der nächsttieferen Linie.\n\nHöherlegen = **Elevieren** (bündeln), Tieferlegen = **Resolvieren** (entbündeln). Der Wert des Feldes bleibt gleich.",
+      "beispiel": "8 Pfennige auf der 10er-Linie (= 80): H2 → 3 auf der Linie + 1 im 50er-Raum (= 30 + 50 = 80)."
+    },
+    {
+      "titel": "Rechnen auf den Linien",
+      "folien": "Fothe S. 5–11 · Jo-Jo S. 128–129",
+      "text": "**Addieren:** Alle Pfennige aus Feld 1 und 2 ins Ergebnisfeld schieben, jeder bleibt auf seiner Linie bzw. in seinem Zwischenraum; dann höherlegen.\n\n**Multiplizieren** wird auf das Addieren zurückgeführt: Feld 1 von oben nach unten abarbeiten; für jeden Pfennig die zweite Zahl ins Ergebnisfeld legen – liegt der Pfennig auf Linie 2, um eine Linie nach oben verschoben, auf Linie 3 um zwei usw. Drei Varianten (Fothe S. 6): Pfennige einzeln mehrfach legen (ohne Einmaleins), Anzahl im Kopf rechnen, oder Ergebnisziffer korrekt legen.\n\n**Subtrahieren:** Paarweise gleiche Pfennige aus Feld 1 und 2 wegnehmen; fehlt etwas, in Feld 1 tieferlegen (T1–T3). Jo-Jo: ‚auseinanderschieben‘, bis rechts die zweite Zahl liegt, links das Ergebnis ablesen.\n\n**Dividieren** wird auf das Subtrahieren zurückgeführt: die Anordnung der zweiten Zahl immer wieder aus Feld 1 wegnehmen und im Ergebnisfeld mitzählen; ein Rest bleibt in Feld 1.\n\nFothe beschreibt das Linienrechnen als **Musterverarbeitung**; die Reihenfolge ist oft beliebig, Umwege führen nicht zu Fehlern. Für Multiplizieren und Dividieren braucht man **kein Einmaleins**.",
+      "beispiel": "341 · 2: drei Pfennige der 100er-Linie → 6 Pfennige auf die 100er-Linie im Ergebnisfeld → H2: 1 auf der Linie + 1 im 500er-Raum; dann 10er- und 1er-Linie genauso → 682."
+    },
+    {
+      "titel": "Warum in der Schule?",
+      "folien": "Blatt 1 Aufg. 3 · KC S. 8, 10–12, 18",
+      "text": "Mögliche Gründe mit KC-Bezug:\n1. **Stellenwertverständnis:** Bündeln und Entbündeln werden handelnd erfahrbar (KC S. 10).\n2. **Verständnis vor Algorithmus:** Der Übertrag wird sichtbar und bereitet die schriftlichen Verfahren vor (KC S. 8, 11).\n3. **Anbahnung von Algorithmen / Medienbildung:** Rechnen nach festen Regeln (Musterverarbeitung) bereitet algorithmisches Denken vor (KC S. 11–12); der Abakus ist ausdrücklich ein Darstellungsmittel (KC S. 18).\nDazu: kulturgeschichtlicher Bezug (Adam Ries, Herkunft unseres Rechnens).",
+      "beispiel": ""
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Linienrechnen",
+      "wortlaut": "Im Mittelpunkt dieses Materials steht das Linienrechnen, die mittelalterliche Version des Abakusrechnens. Adam Ries […] setzte es als methodische Vorstufe zum Ziffernrechnen ein.",
+      "erklaerung": "Rechnen mit Rechenpfennigen auf einem Brett mit Linien und Zwischenräumen. Die Pfennige werden nach festen Regeln verschoben, ersetzt, weggenommen oder hingelegt – ‚ohne eigentliches Rechnen‘.",
+      "folie": "Fothe S. 1"
+    },
+    {
+      "begriff": "Rechenbrett",
+      "wortlaut": "Das Linienrechnen erfolgt auf einem Rechenbrett, Rechentuch oder Rechentisch und mit Rechenpfennigen. Wir nehmen ein Rechenbrett mit vier Linien, vier Zwischenräumen und drei Feldern.",
+      "erklaerung": "Linien haben die Werte 1, 10, 100, 1000 (I, X, C, M), die Zwischenräume darüber 5, 50, 500 (V, L, D), 5000. Feld 1 und Feld 2 nehmen die beiden Zahlen auf, im Ergebnisfeld entsteht das Resultat.",
+      "folie": "Fothe S. 3 · Rechenbrett-Vorlage"
+    },
+    {
+      "begriff": "Rechenpfennig",
+      "wortlaut": "In Klammern ist der jeweilige Wert eines Rechenpfennigs angegeben.",
+      "erklaerung": "Spielstein (heute z. B. Plättchen), dessen Wert davon abhängt, auf welcher Linie bzw. in welchem Zwischenraum er liegt.",
+      "folie": "Fothe S. 3"
+    },
+    {
+      "begriff": "Höherlegen (Elevieren) / Tieferlegen (Resolvieren)",
+      "wortlaut": "Von grundlegender Bedeutung für das Rechnen auf den Linien sind die Ersetzungsregeln, die das Höherlegen (Elevieren) und Tieferlegen (Resolvieren) von Rechenpfennigen beschreiben. Höher- oder Tieferlegen verändern die Summe der Werte aller Rechenpfennige in einem Feld nicht.",
+      "erklaerung": "Höherlegen = bündeln (mehrere Pfennige gegen einen höherwertigen tauschen), Tieferlegen = entbündeln. Der Wert bleibt gleich, nur die Darstellung ändert sich.",
+      "folie": "Fothe S. 4"
+    },
+    {
+      "begriff": "Ersetzungsregeln H1, H2, T1, T2, T3",
+      "wortlaut": "H1: Zwei Rechenpfennige, die in einem Zwischenraum liegen, können weggenommen werden. Dafür wird dann ein Rechenpfennig auf die nächsthöhere Linie gelegt. H2: Fünf Rechenpfennige, die auf einer Linie liegen, können weggenommen werden. Dafür wird dann ein Rechenpfennig in den nächsthöheren Zwischenraum gelegt. T1: Ein Rechenpfennig, der auf einer Linie liegt, kann weggenommen werden. Dafür werden dann zwei Rechenpfennige in den nächsttieferen Zwischenraum gelegt. T2: Ein Rechenpfennig, der in einem Zwischenraum liegt, kann weggenommen werden. Dafür werden dann fünf Rechenpfennige auf die nächsttiefere Linie gelegt. T3: Ein Rechenpfennig, der auf einer Linie liegt, kann weggenommen werden. Dafür werden dann ein Rechenpfennig in den nächsttieferen Zwischenraum und fünf Rechenpfennige auf die nächsttiefere Linie gelegt.",
+      "erklaerung": "Merkhilfe: 2 × 5 = 10 (H1: zwei Fünfer → ein Zehner), 5 × 1 = 5 (H2: fünf Einer → ein Fünfer). T1 und T2 sind die Umkehrungen, T3 (aus Ries’ 2. Rechenbuch, fürs Subtrahieren) zerlegt 10 in 5 + 5 · 1.",
+      "folie": "Fothe S. 4 (Tabelle 1), S. 9 (Tabelle 2)"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Übungsaufgabe",
+      "text": "1. Einstieg: Betrachten Sie die Aufgaben in Jo-Jo Klasse 3 und lesen Sie die Informationen im Kasten. Bearbeiten Sie anschließend alle Aufgaben in Jo-Jo Klasse 3 zu zweit. Aus den Aufgaben 3, 5, 7 und 9 genügt es je zwei Aufgaben zu bearbeiten.",
+      "quelle": "Übungsblatt 1, Aufgabe 1",
+      "loesung": "Nr. 1a: A = 113, B = 267, C = 879 · Nr. 2: 652 + 237 = 889 · Nr. 3: a) 243 b) 330 c) 365 d) 700 e) 944 · Nr. 4: 234 + 161 = 395 · Nr. 5: a) 235 b) 337 c) 457 d) 437 e) 914 · Nr. 7: a) 12 b) 111 c) 151 d) 155 e) 165 · Nr. 8: a) 87 − 23 = 64 b) 196 − 124 = 72 · Nr. 9: a) 20 / 200 b) 34 / 142 c) 137 / 150 d) 205 / 111 e) 181 / 231",
+      "loesungsweg": "Nr. 1a: Werte der Pfennige addieren, z. B. C: 500 + 3·100 + 50 + 2·10 + 5 + 4·1 = 879.\nNr. 4 (Besonderheit): Beim Zusammenschieben liegen 4 + 1 = 5 Pfennige auf der 1er-Linie → gegen 1 Pfennig im 5er-Raum tauschen (H2), dann 395 ablesen.\nNr. 8a (Besonderheit): 87 = 50 + 3·10 + 5 + 2·1; für 23 braucht man 3 Einer, es liegen nur 2 → den 5er-Pfennig gegen 5 Einer tauschen (T2), dann 2 Zehner und 3 Einer nach rechts schieben → links 64.\nNr. 8b: 196 = 100 + 50 + 4·10 + 5 + 1; für 124 fehlen Einer → 5er-Pfennig tauschen, dann 1 Hunderter, 2 Zehner, 4 Einer nach rechts → links 72.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Übungsaufgabe",
+      "text": "2. Multiplizieren: Berechnen Sie mithilfe des Rechenbretts nacheinander die in Abbildung 1 angegebenen Aufgaben. Tragen Sie die Ergebnisse in die Rechenbretter ein. Was fällt auf? Was bedeutet das für die Multiplikation mit 10, 100 oder 1000? (a) 341 · 2 = (b) 341 · 20 = (c) 341 · 22 =",
+      "quelle": "Übungsblatt 1, Aufgabe 2",
+      "loesung": "(a) 682 (b) 6820 (c) 7502. Bei · 20 entsteht das Bild von · 2, nur jeder Pfennig eine Linie höher. · 10 / · 100 / · 1000 heißt: jeden Pfennig um 1 / 2 / 3 Linien (bzw. Zwischenräume) höher legen. · 22 = · 20 + · 2.",
+      "loesungsweg": "341 legen: 3 Pfennige auf der 100er-Linie, 4 auf der 10er-Linie, 1 auf der 1er-Linie.\n(a) · 2: 100er-Linie 3 → 6 Pfennige, H2: 5 weg, 1 in den 500er-Raum → 1 auf Linie + 1 im 500er-Raum. 10er-Linie 4 → 8, H2 → 3 auf Linie + 1 im 50er-Raum. 1er-Linie 1 → 2. Ablesen: 500 + 100 + 50 + 30 + 2 = 682.\n(b) · 20: gleiches Muster eine Linie höher: 1 im 5000er-Raum, 1 auf der 1000er-Linie, 1 im 500er-Raum, 3 auf der 100er-Linie, 2 auf der 10er-Linie → 6820.\n(c) · 22: Bilder aus (a) und (b) ins Ergebnisfeld zusammenschieben: 1er-Linie 2 · 10er-Linie 2 + 3 = 5 → H2 → 50er-Raum hat 1 + 1 = 2 → H1 → +1 auf der 100er-Linie · 100er-Linie 3 + 1 + 1 = 5 → H2 → 500er-Raum hat 1 + 1 + 1 = 3 → H1 (zwei davon) → +1 auf der 1000er-Linie, 1 bleibt · 1000er-Linie 1 + 1 = 2 · 5000er-Raum 1. Ablesen: 5000 + 2000 + 500 + 2 = 7502.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Übungsaufgabe",
+      "text": "3. Diskussion: Finden Sie drei Gründe, die dafür sprechen dieses Thema in der Schule (hier Klasse 3) zu behandeln? Hier ist ein Blick ins entsprechende KC hilfreich.",
+      "quelle": "Übungsblatt 1, Aufgabe 3",
+      "loesung": "Mögliche Gründe: (1) Stellenwertverständnis – Bündeln/Entbündeln handelnd erfahren (KC S. 10). (2) Verständnis vor Algorithmus – Übertrag sichtbar, Vorbereitung der schriftlichen Verfahren (KC S. 8, 11). (3) Anbahnung von Algorithmen und Medienbildung, Abakus als Darstellungsmittel (KC S. 11–12, 18). Weitere: kulturgeschichtlicher Bezug, Entdecken und Begründen (Fothe S. 1).",
+      "loesungsweg": "Seitenangaben beziehen sich auf die Anhörfassung 2024 des KC (die Endfassung 2025 kann abweichen).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a04",
+      "art": "Übungsaufgabe",
+      "text": "Fothe-Entdeckerfragen: 1. Wie wird eine Zahl auf einfachste Art mit 10, 100, 1000,… multipliziert? 2. Funktioniert das auch bei der Multiplikation mit 5, 50, 500,…? 3. Darf man beim Multiplizieren mitten in der Berechnung die Belegungen des ersten und zweiten Feldes tauschen, ohne dass das Ergebnis falsch wird?",
+      "quelle": "Fothe S. 8",
+      "loesung": "1. Jeden Pfennig um 1, 2, 3 … Linien höher legen. 2. Ja, aber anders: ein Pfennig auf einer Linie wandert in den Zwischenraum direkt darüber; ein Pfennig im Zwischenraum wird zu 2 Pfennigen auf der nächsthöheren Linie + 1 Pfennig im selben Zwischenraum; bei · 50, · 500 alles 1 bzw. 2 Linien höher. 3. Ja (Fothe S. 12).",
+      "loesungsweg": "2: Linie mit Wert w: w · 5 = 5w = Wert des Zwischenraums darüber. Zwischenraum mit Wert 5w: 5w · 5 = 25w = 2 · 10w + 5w → 2 Pfennige auf der Linie 10w, 1 Pfennig im Zwischenraum 5w (Ergänzung – selbst hergeleitet).\n3: Nach dem Wegnehmen der bearbeiteten Pfennige gilt immer: Erstes Feld · Zweites Feld + Ergebnisfeld = Resultat. Deshalb dürfen die Felder 1 und 2 getauscht werden.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a05",
+      "art": "Übungsaufgabe",
+      "text": "Berechnung von 926 + 2581. Vor dem Ablesen des Resultates sind im Ergebnisfeld Rechenpfennige höherzulegen. Welche Wege sind dabei möglich?",
+      "quelle": "Fothe S. 5, Abbildung 7",
+      "loesung": "3507. Die Reihenfolge des Höherlegens ist beliebig.",
+      "loesungsweg": "Zusammengeschoben: 1000er-Linie 2; 500er-Raum 1 + 1 = 2; 100er-Linie 4; 50er-Raum 1; 10er-Linie 2 + 3 = 5; 5er-Raum 1; 1er-Linie 1 + 1 = 2. Höherlegen: 10er-Linie 5 → H2 → 50er-Raum 2 → H1 → 100er-Linie 5 → H2 → 500er-Raum 3 → H1 → 1000er-Linie 3, 500er-Raum 1. Ergebnis: 3·1000 + 500 + 0 + 0 + 5 + 2 = 3507. Man könnte auch zuerst den 500er-Raum (2 → H1) höherlegen – das Ergebnis bleibt gleich.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a06",
+      "art": "Übungsaufgabe",
+      "text": "Die zweite Aufgabe ist 8425 - 2546. Zuerst werden Rechenpfennige soweit als möglich weggenommen. Dann werden Rechenpfennige im ersten Feld gezielt tiefergelegt. Nach dem erneuten Wegnehmen ist das zweite Feld leer. […] Welche Wege sind bei der Berechnung möglich?",
+      "quelle": "Fothe S. 9, Abbildung 13",
+      "loesung": "5879",
+      "loesungsweg": "8425 = 5000 + 3·1000 + 4·100 + 2·10 + 5; 2546 = 2·1000 + 500 + 4·10 + 5 + 1. Direkt wegnehmen: 2 Tausender, 5er-Pfennig. Übrig in Feld 2: 500, 4 Zehner, 1 Einer. Tieferlegen in Feld 1 z. B.: 1 Tausender → 500er-Raum 2 (T1) → einen 500er wegnehmen; 1 Hunderter → 50er-Raum 2 (T1), 1 davon → 5 Zehner (T2) → 4 Zehner wegnehmen; 1 Zehner → 2 Fünfer (T1) bzw. mit T3 → 5er + 5 Einer → 1 Einer wegnehmen. Rest ins Ergebnisfeld schieben und höherlegen: 5879. Probe: 2546 + 5879 = 8425.",
+      "frist": "",
+      "im_kalender": false
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter Linienrechnen?",
+      "antwort": "Die mittelalterliche Version des Abakusrechnens: Rechnen mit Rechenpfennigen auf einem Rechenbrett mit Linien und Zwischenräumen nach festen Regeln. Adam Ries nutzte es als methodische Vorstufe zum Ziffernrechnen.",
+      "erklaerung": "Mittelalterliche Version des Abakusrechnens.",
+      "folie": "Fothe S. 1",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f02",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Adam Ries setzte das Linienrechnen als methodische [[Vorstufe]] zum [[Ziffernrechnen]] ein.",
+      "erklaerung": "Ries setzte das Linienrechnen vor dem Ziffernrechnen ein.",
+      "folie": "Fothe S. 1",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f03",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist ein Rechenpfennig, und wovon hängt sein Wert ab?",
+      "antwort": "Ein Spielstein zum Rechnen auf dem Rechenbrett; sein Wert hängt davon ab, auf welcher Linie bzw. in welchem Zwischenraum er liegt.",
+      "erklaerung": "Wert hängt von der Lage ab.",
+      "folie": "Fothe S. 3",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f04",
+      "baustein": "definition",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Werte zu: Liegt ein Pfennig mit diesem Wert auf einer Linie oder in einem Zwischenraum?",
+      "kategorien": [
+        "Linie",
+        "Zwischenraum"
+      ],
+      "elemente": [
+        {
+          "text": "1 (I)",
+          "kategorie": "Linie"
+        },
+        {
+          "text": "5 (V)",
+          "kategorie": "Zwischenraum"
+        },
+        {
+          "text": "10 (X)",
+          "kategorie": "Linie"
+        },
+        {
+          "text": "50 (L)",
+          "kategorie": "Zwischenraum"
+        },
+        {
+          "text": "100 (C)",
+          "kategorie": "Linie"
+        },
+        {
+          "text": "500 (D)",
+          "kategorie": "Zwischenraum"
+        },
+        {
+          "text": "1000 (M)",
+          "kategorie": "Linie"
+        }
+      ],
+      "erklaerung": "Linien: 1, 10, 100, 1000. Zwischenräume: 5, 50, 500.",
+      "folie": "Fothe S. 3 · Rechenbrett",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f05",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Fertig gerechnet ist, wenn auf jeder Linie höchstens [[4]] und in jedem Zwischenraum höchstens [[1]] Rechenpfennig liegt.",
+      "erklaerung": "Dann stimmen die Ziffern und man kann direkt ablesen.",
+      "folie": "Fothe S. 4 · Jo-Jo S. 128",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f06",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was bedeuten Höherlegen (Elevieren) und Tieferlegen (Resolvieren), und was passiert dabei mit dem Wert?",
+      "antwort": "Höherlegen: mehrere Pfennige gegen einen höherwertigen tauschen (bündeln). Tieferlegen: einen Pfennig gegen mehrere niedrigere tauschen (entbündeln). Der Gesamtwert des Feldes ändert sich dabei nicht.",
+      "erklaerung": "Elevieren = bündeln, Resolvieren = entbündeln.",
+      "folie": "Fothe S. 4",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f07",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie lauten die Höherlege-Regeln H1 und H2?",
+      "antwort": "H1: Zwei Pfennige in einem Zwischenraum → ein Pfennig auf der nächsthöheren Linie. H2: Fünf Pfennige auf einer Linie → ein Pfennig im nächsthöheren Zwischenraum.",
+      "erklaerung": "H1: 2 × 5 = 10; H2: 5 × 1 = 5.",
+      "folie": "Fothe S. 4",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f08",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie lauten die Tieferlege-Regeln T1, T2 und T3?",
+      "antwort": "T1: Ein Pfennig auf einer Linie → zwei Pfennige im nächsttieferen Zwischenraum. T2: Ein Pfennig im Zwischenraum → fünf Pfennige auf der nächsttieferen Linie. T3: Ein Pfennig auf einer Linie → ein Pfennig im nächsttieferen Zwischenraum und fünf auf der nächsttieferen Linie.",
+      "erklaerung": "T1 und T2 sind die Umkehrungen von H1 und H2; T3 kombiniert beide.",
+      "folie": "Fothe S. 4, 9",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f09",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Aktionen der richtigen Regel zu.",
+      "kategorien": [
+        "H1",
+        "H2",
+        "T1",
+        "T2"
+      ],
+      "elemente": [
+        {
+          "text": "2 Pfennige im 50er-Raum → 1 Pfennig auf der 100er-Linie",
+          "kategorie": "H1"
+        },
+        {
+          "text": "5 Pfennige auf der 10er-Linie → 1 Pfennig im 50er-Raum",
+          "kategorie": "H2"
+        },
+        {
+          "text": "1 Pfennig auf der 100er-Linie → 2 Pfennige im 50er-Raum",
+          "kategorie": "T1"
+        },
+        {
+          "text": "1 Pfennig im 5er-Raum → 5 Pfennige auf der 1er-Linie",
+          "kategorie": "T2"
+        }
+      ],
+      "erklaerung": "H = höherlegen (bündeln), T = tieferlegen (entbündeln).",
+      "folie": "Fothe S. 4, 9",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f10",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Worauf werden Multiplizieren und Dividieren auf den Linien zurückgeführt?",
+      "optionen": [
+        "Multiplizieren auf Addieren, Dividieren auf Subtrahieren",
+        "Multiplizieren auf das Einmaleins, Dividieren auf Brüche",
+        "Beide auf das Verdoppeln",
+        "Multiplizieren auf Subtrahieren, Dividieren auf Addieren"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Multiplizieren → Addieren, Dividieren → Subtrahieren.",
+      "folie": "Fothe S. 6, 10",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f11",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Wie multipliziert man auf dem Rechenbrett am einfachsten mit 100?",
+      "optionen": [
+        "Jeden Pfennig um zwei Linien bzw. Zwischenräume höher legen",
+        "Hundert Pfennige auf die 1er-Linie legen",
+        "Die Zahl zweimal verdoppeln",
+        "Jeden Pfennig in den Zwischenraum darüber legen"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Ein Pfennig eine Linie höher hat den zehnfachen Wert.",
+      "folie": "Blatt 1 Aufg. 2 · Fothe S. 8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "aufgabe",
+      "format": "frage",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Auf dem Rechenbrett liegen: 1 Pfennig im 500er-Raum, 3 auf der 100er-Linie, 1 im 50er-Raum, 2 auf der 10er-Linie, 1 im 5er-Raum, 4 auf der 1er-Linie. Welche Zahl ist gelegt?",
+      "antwort": "879",
+      "erklaerung": "Werte addieren: 500 + 300 + 50 + 20 + 5 + 4.",
+      "folie": "Jo-Jo S. 128, Nr. 1a",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f13",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Berechne 341 · 2, 341 · 20 und 341 · 22 auf dem Rechenbrett. Beschreibe die Pfennig-Bewegungen und was dir auffällt.",
+      "musterloesung": "682, 6820, 7502. 341 · 2: jeden Pfennig verdoppeln, dann höherlegen (H2 auf 100er- und 10er-Linie). 341 · 20: gleiches Bild eine Linie höher. 341 · 22: beide Bilder zusammenschieben und höherlegen. Auffällig: · 10 = eine Linie höher; · 100 zwei, · 1000 drei Linien; 341 · 22 = 341 · 20 + 341 · 2.",
+      "bewertungspunkte": [
+        "682 richtig mit H2",
+        "6820 als Verschiebung erkannt",
+        "7502 durch Zusammenschieben + Höherlegen",
+        "Regel für · 10/100/1000 formuliert"
+      ],
+      "punkte": 4,
+      "erklaerung": "Siehe Aufgabe a02.",
+      "folie": "Blatt 1 Aufg. 2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Berechne 234 + 161 auf dem Rechenbrett. Welche Besonderheit tritt auf, und wie löst du sie?",
+      "musterloesung": "395. Beim Zusammenschieben liegen 4 + 1 = 5 Pfennige auf der 1er-Linie; diese werden nach H2 gegen 1 Pfennig im 5er-Raum getauscht.",
+      "bewertungspunkte": [
+        "Ergebnis 395",
+        "5 Pfennige auf der 1er-Linie erkannt",
+        "Tausch nach H2"
+      ],
+      "punkte": 3,
+      "erklaerung": "Fünf Einer = ein Fünfer.",
+      "folie": "Jo-Jo S. 128, Nr. 4",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f15",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Berechne 87 − 23 auf dem Rechenbrett. Welche Besonderheit tritt auf?",
+      "musterloesung": "64. In 87 liegen nur 2 Pfennige auf der 1er-Linie, man braucht 3. Deshalb den Pfennig im 5er-Raum gegen 5 Pfennige auf der 1er-Linie tauschen (T2), dann 2 Zehner und 3 Einer wegnehmen bzw. nach rechts schieben.",
+      "bewertungspunkte": [
+        "Ergebnis 64",
+        "zu wenige Einer erkannt",
+        "Tausch 5er → 5 Einer"
+      ],
+      "punkte": 3,
+      "erklaerung": "Tieferlegen nach T2.",
+      "folie": "Jo-Jo S. 129, Nr. 8a",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f16",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Berechne 926 + 2581 auf den Linien und beschreibe, in welcher Reihenfolge du höherlegst.",
+      "musterloesung": "3507. Nach dem Zusammenschieben: 10er-Linie 5 → H2; 50er-Raum 2 → H1; 100er-Linie 5 → H2; 500er-Raum 3 → H1 (1 bleibt). Die Reihenfolge des Höherlegens ist beliebig.",
+      "bewertungspunkte": [
+        "Ergebnis 3507",
+        "korrekte Regeln genannt",
+        "Reihenfolge ist beliebig"
+      ],
+      "punkte": 3,
+      "erklaerung": "Siehe Aufgabe a05.",
+      "folie": "Fothe S. 5, Abb. 7",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f17",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen über das Linienrechnen stimmen laut Fothe?",
+      "optionen": [
+        "Für Multiplizieren und Dividieren muss man das Einmaleins nicht beherrschen.",
+        "Die Reihenfolge der Handlungen ist häufig unerheblich.",
+        "Umwege führen zu Rechenfehlern.",
+        "Mit römischen Zahlen kann man nur mithilfe von Abakus oder Linienrechnen produktiv rechnen.",
+        "Das Einmaleins ist überflüssig geworden."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Variante 1 und die Musterverarbeitung kommen ohne Einmaleins aus; Reihenfolge oft beliebig; Umwege führen nicht zu Fehlern.",
+      "folie": "Fothe S. 8, 11–12",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f18",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Nenne drei Gründe, warum das Rechnen auf den Linien in Klasse 3 behandelt werden sollte, und belege sie mit dem Kerncurriculum.",
+      "musterloesung": "(1) Stellenwertverständnis: Bündeln/Entbündeln wird handelnd erfahrbar (KC: Bündelungs- und Stellenwertprinzip). (2) Verständnis vor Algorithmus: Übertrag wird sichtbar, Vorbereitung schriftlicher Verfahren (KC: Verstehensorientierung, Rückbezug auf Strukturen). (3) Anbahnung von Algorithmen/Medienbildung; Abakus als Darstellungsmittel (KC 2.4 und Kompetenzbereich Darstellen). Auch: kulturgeschichtlicher Bezug, Entdecken und Begründen.",
+      "bewertungspunkte": [
+        "Grund 1 mit KC-Bezug",
+        "Grund 2 mit KC-Bezug",
+        "Grund 3 mit KC-Bezug"
+      ],
+      "punkte": 6,
+      "erklaerung": "Mindestens drei KC-gestützte Gründe.",
+      "folie": "Blatt 1 Aufg. 3 · KC",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Funktioniert der Trick ‚eine Linie höher legen‘ auch beim Multiplizieren mit 5? Beschreibe, was mit Pfennigen auf Linien und in Zwischenräumen passiert.",
+      "musterloesung": "Ja, aber anders: Ein Pfennig auf einer Linie (Wert w) wird zu einem Pfennig im Zwischenraum direkt darüber (5w). Ein Pfennig im Zwischenraum (5w) wird zu 25w = 2 Pfennige auf der nächsthöheren Linie + 1 Pfennig im selben Zwischenraum. Bei · 50, · 500 alles zusätzlich 1 bzw. 2 Linien höher.",
+      "bewertungspunkte": [
+        "Linie → Zwischenraum darüber",
+        "Zwischenraum → 2 auf nächster Linie + 1 im Zwischenraum",
+        "Übertrag auf 50/500"
+      ],
+      "punkte": 3,
+      "erklaerung": "Selbst hergeleitet – Ergänzung.",
+      "folie": "Fothe S. 8",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f20",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Vergleiche das analoge Rechenbrett mit einem virtuellen Rechenbrett am Tablet: Welche Vorteile und Grenzen haben beide im Unterricht der Klasse 3?",
+      "musterloesung": "Analog: handelndes Erfahren mit echten Plättchen, keine Technik nötig, Fehler werden selbst bemerkt. Virtuell: schnelles Legen, automatische Hilfe (z. B. Regel anzeigen), gut für Vorführung und Üben zu Hause; Grenzen: weniger ‚Anfassen‘, Gefahr, dass das Programm das Bündeln übernimmt. Bezug: Werkzeug/Lerngegenstand, Dreiklang.",
+      "bewertungspunkte": [
+        "Vorteile analog",
+        "Vorteile digital",
+        "Grenzen",
+        "Bezug zu VL 1 (zwei Seiten/Dreiklang)"
+      ],
+      "punkte": 4,
+      "erklaerung": "Bezug auf Dreiklang/zwei Seiten möglich.",
+      "folie": "Seminar 1 · VL 1 F. 15",
+      "pruefungsrelevant": false
+    }
+  ],
+  "pruefungshinweise": [],
+  "offene_fragen": []
+}

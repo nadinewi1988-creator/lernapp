@@ -1,0 +1,267 @@
+{
+  "schema": "lernapp-modul/2",
+  "modul": "mab004",
+  "name": "Mathematik in den digitalen Medien",
+  "semester": "WiSe 26/27",
+  "pruefung": {
+    "form": "Klausur",
+    "dauer_min": 90,
+    "termine": [
+      "2027-02-02",
+      "2027-03-16"
+    ],
+    "hinweise": [
+      "Jeweils 8–10 Uhr; Prüferin Jasmin Rosenwinkel. Dauer vermutlich 90 Minuten (Einschätzung Nadine, noch nicht bestätigt).",
+      "Schwerpunkt: Fragen zur Programmierung (VL 1, Folie 4).",
+      "Klausuraufgaben orientieren sich sehr nah an den Übungsaufgaben; Kompetenzen in Anlehnung an die Modulbeschreibung (VL 1, Folie 6).",
+      "QISPOS-Anmeldung ab 23.11.2026."
+    ]
+  },
+  "teilmodule": [
+    {
+      "id": "mab004.1",
+      "name": "Mathematik in den digitalen Medien I",
+      "art": "Vorlesung"
+    },
+    {
+      "id": "mab004.2",
+      "name": "Mathematik in den digitalen Medien II",
+      "art": "Seminar"
+    },
+    {
+      "id": "mab004",
+      "name": "Tutorium mab004",
+      "art": "Tutorium",
+      "freiwillig": true
+    }
+  ],
+  "kompetenzziele": [
+    {
+      "text": "Grundlagen der numerischen Berechnung in digitalen Medien sowie Codierung und Verarbeitung von Daten kennen (z. B. wie Taschenrechner und Tabellenkalkulation rechnen).",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "Elementare Datentypen und Grundlagen der strukturierten Programmierung kennen.",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "Algorithmen formulieren, als Programmablaufplan oder Struktogramm darstellen und einfache Algorithmen programmieren (z. B. VBA, Scratch).",
+      "abgedeckt_in": [
+        "mab004.2_2026-10-13"
+      ]
+    },
+    {
+      "text": "Klassische Such- und Sortieralgorithmen nachvollziehen und einfache Komplexitätsbetrachtungen durchführen.",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "Digitale Werkzeuge (Taschenrechner ohne CAS, Tabellenkalkulation, Programmiersoftware) reflektiert für mathematische Problemstellungen und Lehr-Lern-Kontexte einsetzen, Näherungsverfahren bewerten.",
+      "abgedeckt_in": [
+        "mab004.1_2026-10-13"
+      ]
+    },
+    {
+      "text": "Möglichkeiten und Grenzen digitaler Medien diskutieren.",
+      "abgedeckt_in": [
+        "mab004.1_2026-10-13",
+        "mab004.2_2026-10-13"
+      ]
+    },
+    {
+      "text": "Den kulturgeschichtlichen Stellenwert der Mathematik für digitale Medien einordnen und den Einsatz digitaler Medien im Unterricht begründen.",
+      "abgedeckt_in": [
+        "mab004.1_2026-10-13",
+        "mab004.2_2026-10-13"
+      ]
+    }
+  ],
+  "kompetenzziele_hinweis": "Zusammengefasst nach der Modulbeschreibung BACS Mathematik (Stand 07.06.2019); Wortlaut siehe Original-PDF der Uni Vechta.",
+  "probepruefung": {
+    "dauer_min": 90,
+    "aufgabentypen": [
+      "offen",
+      "mc",
+      "aufgabe"
+    ],
+    "hinweise": "Schwerpunkt Programmierung; Aufgaben nah an den Übungsaufgaben der Übungsblätter."
+  },
+  "sitzungen": [
+    "mab004.1_2026-10-13",
+    "mab004.2_2026-10-13"
+  ],
+  "klausurstil": {
+    "quellen": [],
+    "aufbau": "",
+    "aufgabentypen": [],
+    "formulierungen": [],
+    "haeufige_themen": []
+  },
+  "dateien": [
+    {
+      "pfad": "mab004.1/mab004-V1_Organisatorisches_und_Geschichte.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "mab004.1_2026-10-13"
+    },
+    {
+      "pfad": "mab004.1/mab004-V2_Fließkomma_I_.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Folien",
+      "status": "später",
+      "sitzung": "mab004.1_2026-10-20"
+    },
+    {
+      "pfad": "mab004.2/Seminar_1_Rechnen_auf_den_Linien/Blatt_1.pdf",
+      "geaendert": "2026-10-08",
+      "art": "Übungsblatt",
+      "status": "verarbeitet",
+      "sitzung": "mab004.2_2026-10-13"
+    },
+    {
+      "pfad": "mab004.2/Seminar_1_Rechnen_auf_den_Linien/Fothe-Linienrechnen.pdf",
+      "geaendert": "2026-10-08",
+      "art": "Text",
+      "status": "verarbeitet",
+      "sitzung": "mab004.2_2026-10-13"
+    },
+    {
+      "pfad": "mab004.2/Seminar_1_Rechnen_auf_den_Linien/JoJo_Rechnen_auf_den_Linien_Klasse_3.pdf",
+      "geaendert": "2026-10-08",
+      "art": "Schulbuch",
+      "status": "verarbeitet",
+      "sitzung": "mab004.2_2026-10-13"
+    },
+    {
+      "pfad": "mab004.2/Seminar_1_Rechnen_auf_den_Linien/Rechenbrett.pdf",
+      "geaendert": "2026-10-08",
+      "art": "Vorlage",
+      "status": "verarbeitet",
+      "sitzung": "mab004.2_2026-10-13"
+    },
+    {
+      "pfad": "mab004.2/Seminar_1_Rechnen_auf_den_Linien/KC_MA_GS_Anhrfassung.pdf",
+      "geaendert": "2026-10-24",
+      "art": "Kerncurriculum (Anhörfassung 2024)",
+      "status": "verarbeitet",
+      "sitzung": "mab004.2_2026-10-13"
+    },
+    {
+      "pfad": "mab004.2/Seminar_1_Rechnen_auf_den_Linien/Virtuelles_Rechenbrett.exe",
+      "geaendert": "2026-10-08",
+      "art": "Programm (Windows)",
+      "status": "übersprungen"
+    },
+    {
+      "pfad": "mab004.2/Seminar_2_Geschichte/Blatt_2.pdf",
+      "geaendert": "2026-10-08",
+      "art": "Übungsblatt",
+      "status": "später",
+      "sitzung": "mab004.2_2026-10-20"
+    },
+    {
+      "pfad": "mab004.2/Seminar_2_Geschichte/Ausstellung.JPG",
+      "geaendert": "2026-10-16",
+      "art": "Bild",
+      "status": "später",
+      "sitzung": "mab004.2_2026-10-20"
+    },
+    {
+      "pfad": "mab004.2/Seminar_3_-_Fließkommazahlen_I/Blatt_3.pdf",
+      "geaendert": "2026-10-14",
+      "art": "Übungsblatt",
+      "status": "später",
+      "sitzung": "mab004.2_2026-10-27"
+    },
+    {
+      "pfad": "mab004 - studydrive/Mab004 Übungsblatt 1.pdf",
+      "geaendert": "2026-09-22",
+      "art": "Übungsblatt (Studydrive, Vorjahr) – Kontrolle/Übung, kein Lehrinhalt",
+      "status": "später"
+    },
+    {
+      "pfad": "mab004 - studydrive/Mab004 Übungsblatt 2 Grundlagenaufgaben.pdf",
+      "geaendert": "2026-09-22",
+      "art": "Übungsblatt (Studydrive, Vorjahr) – Kontrolle/Übung, kein Lehrinhalt",
+      "status": "später"
+    },
+    {
+      "pfad": "mab004 - studydrive/Mab004 Übungsblatt 3 Grundlagenaufgaben.pdf",
+      "geaendert": "2026-09-22",
+      "art": "Übungsblatt (Studydrive, Vorjahr) – Kontrolle/Übung, kein Lehrinhalt",
+      "status": "später"
+    },
+    {
+      "pfad": "mab004 - studydrive/Mab004 Übungsblatt 3 Übungsaufgaben.pdf",
+      "geaendert": "2026-09-22",
+      "art": "Übungsblatt (Studydrive, Vorjahr) – Kontrolle/Übung, kein Lehrinhalt",
+      "status": "später"
+    },
+    {
+      "pfad": "mab004 - studydrive/Mab004 Übungsblatt 5 Übungsaufgaben.pdf",
+      "geaendert": "2026-09-22",
+      "art": "Übungsblatt (Studydrive, Vorjahr) – Kontrolle/Übung, kein Lehrinhalt",
+      "status": "später"
+    },
+    {
+      "pfad": "mab004 - studydrive/Mab004 Übungsblatt 6 Grundlagenaufgaben.pdf",
+      "geaendert": "2026-09-22",
+      "art": "Übungsblatt (Studydrive, Vorjahr) – Kontrolle/Übung, kein Lehrinhalt",
+      "status": "später"
+    },
+    {
+      "pfad": "mab004 - studydrive/Mab004 Übungsblatt 8 Grundlagenaufgaben.pdf",
+      "geaendert": "2026-09-22",
+      "art": "Übungsblatt (Studydrive, Vorjahr) – Kontrolle/Übung, kein Lehrinhalt",
+      "status": "später"
+    },
+    {
+      "pfad": "mab004 - studydrive/Mab004 Übungsblatt 8 Übungsaufgaben.pdf",
+      "geaendert": "2026-09-22",
+      "art": "Übungsblatt (Studydrive, Vorjahr) – Kontrolle/Übung, kein Lehrinhalt",
+      "status": "später"
+    },
+    {
+      "pfad": "mab004 - studydrive/Mab004 Übungsblatt 9 Übungsaufgaben.pdf",
+      "geaendert": "2026-09-22",
+      "art": "Übungsblatt (Studydrive, Vorjahr) – Kontrolle/Übung, kein Lehrinhalt",
+      "status": "später"
+    },
+    {
+      "pfad": "mab004 - studydrive/Mab004 Übungsblatt 10 Grundlagenaufgaben.pdf",
+      "geaendert": "2026-09-22",
+      "art": "Übungsblatt (Studydrive, Vorjahr) – Kontrolle/Übung, kein Lehrinhalt",
+      "status": "später"
+    },
+    {
+      "pfad": "mab004 - studydrive/Mab004 Übungsblatt 10 Übungsaufgaben.pdf",
+      "geaendert": "2026-09-22",
+      "art": "Übungsblatt (Studydrive, Vorjahr) – Kontrolle/Übung, kein Lehrinhalt",
+      "status": "später"
+    },
+    {
+      "pfad": "mab004 - studydrive/Mab004 Übungsblatt 11 Grundlagenaufgaben.pdf",
+      "geaendert": "2026-09-22",
+      "art": "Übungsblatt (Studydrive, Vorjahr) – Kontrolle/Übung, kein Lehrinhalt",
+      "status": "später"
+    },
+    {
+      "pfad": "mab004 - studydrive/Mab004 Übungsblatt 11 Übungsaufgaben.pdf",
+      "geaendert": "2026-09-22",
+      "art": "Übungsblatt (Studydrive, Vorjahr) – Kontrolle/Übung, kein Lehrinhalt",
+      "status": "später"
+    },
+    {
+      "pfad": "mab004 - studydrive/Mab004 Übungsblatt 12 Grundlagenaufgaben.pdf",
+      "geaendert": "2026-09-22",
+      "art": "Übungsblatt (Studydrive, Vorjahr) – Kontrolle/Übung, kein Lehrinhalt",
+      "status": "später"
+    },
+    {
+      "pfad": "mab004 - studydrive/Mab004 Übungsblatt 13 Übungsaufgaben.pdf",
+      "geaendert": "2026-09-22",
+      "art": "Übungsblatt (Studydrive, Vorjahr) – Kontrolle/Übung, kein Lehrinhalt",
+      "status": "später"
+    }
+  ]
+}

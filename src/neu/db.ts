@@ -39,7 +39,7 @@ async function einrichten(): Promise<void> {
     // die versehentlich doppelt angelegten (samt Semestern, Modulen, Prüfungen) entfernen.
     for (const x of vorhanden.slice(1)) pruef(await supabase.from('studiengaenge').delete().eq('id', x.id));
   }
-  if (vorhanden.length) return;
+  if (vorhanden.length) { await termineNachtragen(); return; }
   const sg = pruef(await supabase.from('studiengaenge').insert(STUDIENGANG).select('id').single()) as { id: string };
   const sems = pruef(await supabase.from('semester').insert(SEMESTER.map((s) => ({ ...s, studiengang_id: sg.id }))).select('id, fachsemester')) as { id: string; fachsemester: number }[];
   const semId = (n: number) => sems.find((s) => s.fachsemester === n)?.id ?? null;
@@ -61,6 +61,22 @@ async function einrichten(): Promise<void> {
   const vor = MODULE.flatMap((m) => (m.voraussetzungen ?? []).map((v, i) => ({ pruefung_id: prId(m.kuerzel), text: v.text, erledigt: v.erledigt, reihenfolge: i })));
   if (vor.length) pruef(await supabase.from('voraussetzungen').insert(vor));
   pruef(await supabase.from('einstellungen').upsert({ bafoeg_grenze: 90 }));
+}
+
+/** Ergänzt Prüfungstermine aus den Startdaten, die bei der Ersteinrichtung noch fehlten
+ *  (z. B. bereits geschriebene Klausuren). Vorhandene oder von Nadine geänderte Termine bleiben unberührt. */
+async function termineNachtragen(): Promise<void> {
+  const mods = pruef(await supabase.from('module').select('id, kuerzel')) as { id: string; kuerzel: string }[];
+  const prs = pruef(await supabase.from('pruefungen').select('id, modul_id')) as { id: string; modul_id: string }[];
+  const tes = pruef(await supabase.from('pruefungstermine').select('pruefung_id, art')) as { pruefung_id: string; art: string }[];
+  const neu = MODULE.flatMap((m) => {
+    const mod = mods.find((x) => x.kuerzel === m.kuerzel); const pr = mod && prs.find((x) => x.modul_id === mod.id);
+    if (!pr) return [];
+    return (m.termine ?? []).filter((t) => !tes.some((x) => x.pruefung_id === pr.id && x.art === t.art)).map((t) => ({
+      pruefung_id: pr.id, art: t.art, datum: t.datum ?? null, zeit: t.zeit ?? null, anmeldung_ab: t.anmeldung_ab ?? null, anmeldung_bis: t.anmeldung_bis ?? null, abmeldung_bis: t.abmeldung_bis ?? null, quelle: 'studip',
+    }));
+  });
+  if (neu.length) pruef(await supabase.from('pruefungstermine').insert(neu));
 }
 
 export async function ladeStudienstand(): Promise<Studienstand> {

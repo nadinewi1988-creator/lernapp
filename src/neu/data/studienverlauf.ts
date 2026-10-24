@@ -73,9 +73,9 @@ export const MODULE: StartModul[] = [
     ] },
   { kuerzel: 'opb001', name: 'Orientierungspraktikum (OP)', cp: 6, form: 'Portfolio (bestanden/nicht bestanden)', sem: 1, unbenotet: true },
   // 2. Semester
-  { kuerzel: 'mab002', name: 'Grundlagen des Lernens und Lehrens von Mathematik', cp: 6, form: 'Klausur', sem: 2 },
+  { kuerzel: 'mab002', name: 'Grundlagen des Lernens und Lehrens von Mathematik', cp: 6, form: 'Klausur', sem: 2, termine: [{ art: 'Ersttermin', datum: '2026-09-07' }] },
   { kuerzel: 'mab003', name: 'Geometrie', cp: 6, form: 'Klausur', sem: 2, verschoben_nach: 4 },
-  { kuerzel: 'pkb002', name: 'Globalisierung und Internationale Beziehungen', cp: 8, form: 'Klausur', sem: 2, hinweis: 'geschrieben am 28.09.2026 (zählt als Erstversuch)' },
+  { kuerzel: 'pkb002', name: 'Globalisierung und Internationale Beziehungen', cp: 8, form: 'Klausur', sem: 2, hinweis: 'Ersttermin 21.07. nicht genutzt → geschrieben am 28.09.2026 (zählt als Erstversuch)', termine: [{ art: 'Ersttermin', datum: '2026-09-28' }] },
   { kuerzel: 'ewb013', name: 'Allgemeine Didaktik und Unterrichtsforschung', cp: 8, form: 'Klausur (Sondergenehmigung statt Hausarbeit)', sem: 2 },
   { kuerzel: 'pbb133', name: 'Kaufmännische Grundlagen für die Unternehmenspraxis und Gründung', cp: 6, form: 'angerechnet aus der Ausbildung, ohne Note', sem: 2, unbenotet: true },
   // 3. Semester

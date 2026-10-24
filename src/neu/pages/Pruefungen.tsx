@@ -243,7 +243,8 @@ function Zeile({ e, aktuell, note, termine, verschieben, haken, stand }: { e: Ei
   const vor = stand.voraussetzungen.filter((v) => v.pruefung_id === e.pruefung.id);
   const zielSem = stand.semester.find((s) => s.id === e.pruefung.verschoben_nach_semester_id);
   const urSem = stand.semester.find((s) => s.id === e.pruefung.semester_id);
-  const details = [e.pruefung.form, e.imUrsprung && zielSem ? 'verschoben → ' + zielSem.fachsemester + '. Semester' : '', !e.imUrsprung && zielSem && urSem ? 'aus dem ' + urSem.fachsemester + '. Semester' + (e.pruefung.verschoben_grund ? ' · Grund: ' + e.pruefung.verschoben_grund : '') : '', e.modul.hinweis ?? '', e.modul.cp + ' CP'].filter(Boolean).join(' · ');
+  const vergangen = e.termine.filter((t) => t.datum && t.datum < heuteIso()).sort((a, b) => b.datum!.localeCompare(a.datum!))[0];
+  const details = [e.pruefung.form + (!aktuell && vergangen && !(e.modul.hinweis ?? '').includes('geschrieben am') ? ' am ' + datumLang(vergangen.datum!) : ''), e.imUrsprung && zielSem ? 'verschoben → ' + zielSem.fachsemester + '. Semester' : '', !e.imUrsprung && zielSem && urSem ? 'aus dem ' + urSem.fachsemester + '. Semester' + (e.pruefung.verschoben_grund ? ' · Grund: ' + e.pruefung.verschoben_grund : '') : '', e.modul.hinweis ?? '', e.modul.cp + ' CP'].filter(Boolean).join(' · ');
   const letzterTermin = e.termine.filter((t) => t.datum && t.datum < heuteIso()).sort((a, b) => b.datum!.localeCompare(a.datum!))[0];
   const geschriebenVor = !e.imUrsprung && !e.bestanden && letzterTermin && !e.versuche.some((v) => v.datum && v.datum >= letzterTermin.datum!) ? -tageBis(letzterTermin.datum!) : null;
   const kannNote = !e.imUrsprung && !e.bestanden && e.status !== 'Endgültig nicht bestanden' && e.status !== 'Verschoben' && (e.status !== 'Geplant' || !!letzterTermin);

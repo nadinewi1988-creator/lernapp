@@ -3,6 +3,7 @@ import type { Studienstand, Karte, KarteNeu } from '../db';
 import { speichereKarte, speichereKarten, karteAusblenden, kartenVerschieben, speichereAntwort, antwortenZuruecksetzen, bildHochladen, bildUrl, speichereLernzeit, lernzeitZuruecksetzen } from '../db';
 import { heuteIso, aktuellesSemester } from '../pruefungslogik';
 import { parseIso, plusTage } from '../data/kalender';
+import { gradeAnswer } from '../../lib/api';
 
 // ---------- Konstanten aus dem Entwurf ----------
 const C: Record<string, [string, string]> = { mab004: ['#5f80b5', '#eaf1fc'], mab005: ['#4f8f80', '#e6f5f0'], pkb003: ['#b46b80', '#fbebef'], ewb001: ['#6d9156', '#edf5e5'], ewb002: ['#b5845a', '#fcf0e4'], pyb005: ['#8a77b5', '#f1edfa'] };
@@ -83,6 +84,7 @@ export function Karten({ stand, unter, gehe, neuLaden }: Props) {
   const [lokalA, setLokalA] = useState<{ ref: string; erg: string }[]>([]);
   const [fehler, setFehler] = useState('');
   const [bilder, setBilder] = useState<Record<string, string>>({});
+  const [ki, setKi] = useState<null | { id: string; lade: boolean; pct?: number; fb?: string; fehler?: string }>(null);
   useEffect(() => { merke('modus', modus); }, [modus]);
   useEffect(() => { setLokalW({}); setLokalA([]); }, [stand]);
   async function los(f: () => Promise<void>) { setFehler(''); try { await f(); await neuLaden(); } catch (e) { setFehler('Speichern hat nicht geklappt: ' + String((e as Error).message || e)); } }
@@ -201,14 +203,26 @@ export function Karten({ stand, unter, gehe, neuLaden }: Props) {
     const luOk = LU.filter((g, i) => (U.luecken[i] || '').trim().toLowerCase() === g.trim().toLowerCase()).length;
     const zRichtig = k.format === 'zuordnung' ? k.elemente.filter((e, i) => U.zu[i] === e.kat).length : 0;
     const getippt = k.format === 'frage' && !!U.eingabe.trim(), frOk = getippt && norm(U.eingabe) === norm(k.hinten);
-    const teilw = (k.format === 'luecke' && luOk > 0) || (k.format === 'zuordnung' && zRichtig > 0) || (k.format === 'mc' && U.wahl.some((w) => k.richtig.includes(w)));
-    const objektiv = frOk || k.format === 'mc' || k.format === 'luecke' || k.format === 'zuordnung';
-    const alles = frOk ? true : k.format === 'mc' ? wahlOk : k.format === 'luecke' ? luOk === LU.length : k.format === 'zuordnung' ? zRichtig === k.elemente.length : false;
-    return { wahlOk, LU, luOk, zRichtig, getippt, frOk, teilw, objektiv, alles };
+    const kiOk = k.format === 'offen' && ki?.id === k.id && !ki.lade && !ki.fehler && ki.pct !== undefined, kiLaedt = k.format === 'offen' && ki?.id === k.id && ki.lade;
+    const teilw = (k.format === 'luecke' && luOk > 0) || (k.format === 'zuordnung' && zRichtig > 0) || (k.format === 'mc' && U.wahl.some((w) => k.richtig.includes(w))) || (kiOk && ki!.pct! >= 40);
+    const objektiv = frOk || kiOk || k.format === 'mc' || k.format === 'luecke' || k.format === 'zuordnung';
+    const alles = kiOk ? ki!.pct! >= 80 : frOk ? true : k.format === 'mc' ? wahlOk : k.format === 'luecke' ? luOk === LU.length : k.format === 'zuordnung' ? zRichtig === k.elemente.length : false;
+    return { wahlOk, LU, luOk, zRichtig, getippt, frOk, teilw, objektiv, alles, kiLaedt };
   })();
+  // KI-Rückmeldung bei offenen Aufgaben (Edge Function „grade“ im Supabase-Projekt)
+  useEffect(() => {
+    const k = aktKarte;
+    if (!ueben?.auf || !k || k.format !== 'offen' || !ueben.eingabe.trim() || ki?.id === k.id) return;
+    setKi({ id: k.id, lade: true });
+    gradeAnswer(offenT(k.vorne), k.hinten, ueben.eingabe).then((r) => {
+      const fehl = /^(fehler|bewertung nicht verfügbar|antwort konnte nicht)/i.test(r.fb.trim());
+      setKi({ id: k.id, lade: false, ...(fehl ? { fehler: r.fb } : { pct: r.pct, fb: r.fb }) });
+    }).catch((e) => setKi({ id: k.id, lade: false, fehler: String((e as Error).message || e) }));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [ueben?.auf, aktKarte?.id]);
   useEffect(() => {
     const h = (ev: KeyboardEvent) => {
-      if (!ueben || !aktKarte || !bew || ev.key !== 'Enter' || ev.shiftKey) return;
+      if (!ueben || !aktKarte || !bew || bew.kiLaedt || ev.key !== 'Enter' || ev.shiftKey) return;
       const t = ev.target as HTMLElement, tag = (t?.tagName || '').toUpperCase();
       if (tag === 'TEXTAREA' && aktKarte.format !== 'frage') return;
       ev.preventDefault();
@@ -483,7 +497,7 @@ export function Karten({ stand, unter, gehe, neuLaden }: Props) {
               {x.optionen.length < 6 && <button type="button" onClick={() => set({ optionen: [...x.optionen, ''] })} style={{ alignSelf: 'flex-start', border: 0, background: 'none', padding: '2px 0', fontSize: 13, fontWeight: 700, color: 'var(--ink-2)', textDecoration: 'underline', cursor: 'pointer' }}>+ Antwort (bis zu 6)</button>}
               <span style={{ fontSize: 12, fontWeight: 400 }}>Leere Felder werden beim Üben nicht angezeigt.</span>
             </div>}
-            {istO && <><label style={lab}>Musterlösung / Bewertungspunkte<textarea value={x.hinten} onFocus={() => x.feld !== 'hinten' && set({ feld: 'hinten' })} onChange={(ev) => set({ hinten: ev.target.value })} rows={4} style={{ ...feld, resize: 'vertical' }} /></label><div style={{ fontSize: 12, color: 'var(--ink-3)' }}>Beim Üben schreibst du deine Antwort frei und vergleichst sie mit der Musterlösung. Die KI-Rückmeldung kommt in einem späteren Schritt.</div></>}
+            {istO && <><label style={lab}>Musterlösung / Bewertungspunkte<textarea value={x.hinten} onFocus={() => x.feld !== 'hinten' && set({ feld: 'hinten' })} onChange={(ev) => set({ hinten: ev.target.value })} rows={4} style={{ ...feld, resize: 'vertical' }} /></label><div style={{ fontSize: 12, color: 'var(--ink-3)' }}>Beim Üben schreibst du deine Antwort frei – die KI vergleicht sie mit der Musterlösung und gibt dir Rückmeldung.</div></>}
             {istL && <div style={{ fontSize: 12, color: 'var(--ink-3)' }}>Lücken in eckige Doppelklammern setzen, z. B.: Die [[Reliabilität]] beschreibt die Zuverlässigkeit einer Messung.</div>}
             {istZ && <>
               <div style={lab}>Kategorien
@@ -609,12 +623,18 @@ export function Karten({ stand, unter, gehe, neuLaden }: Props) {
                     {(k.format === 'frage' || k.format === 'offen') && U.eingabe.trim() && <><span style={{ fontSize: 12, fontWeight: 800, color: 'var(--ink-3)' }}>Deine Antwort</span><span style={{ fontSize: 15, lineHeight: 1.45, paddingBottom: 6, borderBottom: '1px solid #f0f0eb', whiteSpace: 'pre-wrap' }}>{U.eingabe}</span></>}
                     <span style={{ fontSize: 12, fontWeight: 800, color: 'var(--ink-3)' }}>{loesungLabel}</span>
                     <span style={{ fontSize: 15, lineHeight: 1.45, whiteSpace: 'pre-wrap' }}>{loesung}</span>
+                    {k.format === 'offen' && U.eingabe.trim() && ki?.id === k.id && <div style={{ display: 'flex', flexDirection: 'column', gap: 4, borderTop: '1px solid #f0f0eb', paddingTop: 8 }}>
+                      {ki.lade ? <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>KI prüft deine Antwort …</span>
+                        : ki.fehler ? <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>Die KI-Rückmeldung hat gerade nicht geklappt – schätze dich bitte selbst ein. ({ki.fehler.slice(0, 120)})</span>
+                        : <><span style={{ display: 'flex', alignItems: 'baseline', gap: 8 }}><span style={{ fontSize: 12, fontWeight: 800, color: 'var(--ink-3)' }}>KI-Rückmeldung</span><span style={{ fontSize: 18, fontWeight: 800, color: ki.pct! >= 80 ? '#2f7a4b' : ki.pct! >= 40 ? '#a3580b' : '#c42b2b' }}>{ki.pct} %</span></span><span style={{ fontSize: 14, lineHeight: 1.45 }}>{ki.fb}</span></>}
+                    </div>}
+                    {k.format === 'offen' && !U.eingabe.trim() && <span style={{ fontSize: 12, color: 'var(--ink-3)', borderTop: '1px solid #f0f0eb', paddingTop: 6 }}>Für eine KI-Rückmeldung vor dem Aufdecken eine Antwort schreiben.</span>}
                   </div>
-                  {!bew.objektiv && <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 8 }}>
+                  {!bew.objektiv && !bew.kiLaedt && <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 8 }}>
                     <button type="button" onClick={() => weiter(k, 'unsicher')} style={{ minHeight: 46, border: '1px solid var(--line)', borderRadius: 999, background: '#fff3e0', fontSize: 15, fontWeight: 800, color: '#a3580b', cursor: 'pointer' }}>Noch unsicher</button>
                     <button type="button" onClick={() => weiter(k, 'sicher')} style={{ minHeight: 46, border: '1px solid var(--line)', borderRadius: 999, background: '#e3f2e8', fontSize: 15, fontWeight: 800, color: '#2f7a4b', cursor: 'pointer' }}>Wusste ich</button>
                   </div>}
-                  <span style={{ fontSize: 12, color: 'var(--ink-3)', textAlign: 'center' }}>{!bew.objektiv ? 'Nächste Wiederholung: „Wusste ich“ → ' + inT('r') + ' · „Noch unsicher“ → ' + inT('f') : bew.alles ? 'Kommt wieder ' + inT('r') + '.' : 'Kommt ' + inT(bew.teilw ? 't' : 'f') + ' wieder.'}</span>
+                  {!bew.kiLaedt && <span style={{ fontSize: 12, color: 'var(--ink-3)', textAlign: 'center' }}>{!bew.objektiv ? 'Nächste Wiederholung: „Wusste ich“ → ' + inT('r') + ' · „Noch unsicher“ → ' + inT('f') : bew.alles ? 'Kommt wieder ' + inT('r') + '.' : 'Kommt ' + inT(bew.teilw ? 't' : 'f') + ' wieder.'}</span>}
                   {bew.objektiv && bew.alles && <button type="button" onClick={() => weiter(k, 'sicher', 'r')} style={{ minHeight: 46, border: '1px solid var(--line)', borderRadius: 999, background: '#e3f2e8', fontSize: 15, fontWeight: 800, color: '#2f7a4b', cursor: 'pointer' }}>Richtig – weiter</button>}
                   {bew.objektiv && !bew.alles && <>
                     <button type="button" onClick={() => weiter(k, 'unsicher', bew.teilw ? 't' : 'f')} style={{ minHeight: 46, border: '1px solid var(--line)', borderRadius: 999, background: '#fff3e0', fontSize: 15, fontWeight: 800, color: '#a3580b', cursor: 'pointer' }}>Weiter <span style={{ fontWeight: 600 }}>(kommt wieder)</span></button>

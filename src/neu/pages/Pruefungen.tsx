@@ -127,19 +127,7 @@ export function Pruefungen({ stand, unter, gehe, neuLaden }: Props) {
         </section>
       )}
 
-      {tab === 'regeln' && (
-        <>
-          <section className="karte" style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-            <b style={{ fontSize: 17 }}>Regeln auf einen Blick</b><span className="klein-text">Rahmenprüfungsordnung 14/2026 + Prüfungsordnung BACS 15/2024</span>
-            {REGELN.map((r) => <div key={r.titel} style={{ borderTop: '1px solid var(--line-2)', paddingTop: 8 }}><b style={{ fontSize: 14 }}>{r.titel}</b><div style={{ fontSize: 14, lineHeight: 1.45 }}>{r.text}</div><div className="klein-text">{r.quelle}</div></div>)}
-          </section>
-          <section className="karte" style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-            <b style={{ fontSize: 17 }}>Ordnungen & Studienverlaufspläne</b>
-            {DOKUMENTE.map((d) => <a key={d.url} href={d.url} target="_blank" rel="noopener" style={{ display: 'flex', justifyContent: 'space-between', gap: 10, padding: '8px 0', borderTop: '1px solid var(--line-2)', textDecoration: 'none' }}><span style={{ fontWeight: 700 }}>{d.titel}</span><span className="klein-text">{d.info} ↗</span></a>)}
-            <span className="klein-text">Die Modulbeschreibungen liegen jeweils im Modul selbst. ewb001, ewb002, ewb013 und pyb005 gehören zum Profilierungsbereich.</span>
-          </section>
-        </>
-      )}
+      {tab === 'regeln' && <RegelnSeite />}
 
       {/* ---------- Dialoge ---------- */}
       {noteD && (
@@ -238,12 +226,12 @@ function Zeile({ e, aktuell, note, termine, verschieben, haken, stand }: { e: Ei
           <div style={{ fontWeight: 700, fontSize: 15 }}>{e.modul.name}</div>
           <div className="klein-text">{details}</div>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 6 }}>
-          <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
+        <div style={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 6 }}>
+          <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', justifyContent: 'flex-end', alignItems: 'center' }}>
             {e.modul.lehramt_hrs && <span className="schild" title={HRS_GRUND[e.modul.kuerzel] ?? 'Empfohlen für den Zugang zum M.Ed. Haupt- und Realschule'} style={{ background: '#fff', border: '1px solid var(--line)', color: 'var(--ink-3)' }}>Lehramt HRS</span>}
-            <span className="schild" style={{ background: sbg, color: sfg }}>{e.status}</span>
+            <span className="schild" style={{ background: sbg, color: sfg, minWidth: 128, justifyContent: 'center' }}>{e.status}</span>
           </div>
-          {kannNote && <button className="knopf klein" onClick={() => note()}>Note eintragen</button>}
+          {kannNote && <button className="knopf klein" style={{ minWidth: 128, justifyContent: 'center' }} onClick={() => note()}>Note eintragen</button>}
         </div>
       </div>
       {e.versuche.length > 0 && (
@@ -292,5 +280,42 @@ function Dialog({ titel, unter, zu, children }: { titel: string; unter?: string;
         {children}
       </div>
     </div>
+  );
+}
+
+function RegelnSeite() {
+  const [offen, setOffen] = useState(true);
+  return (
+    <>
+      <section className="karte" style={{ padding: 0, borderRadius: 20, overflow: 'hidden' }}>
+        <button type="button" onClick={() => setOffen(!offen)} style={{ width: '100%', display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '4px 12px', minHeight: 60, padding: '10px 20px', border: 0, background: '#fff', cursor: 'pointer', textAlign: 'left' }}>
+          <span style={{ fontSize: 14, color: 'var(--ink-3)', width: 14 }}>{offen ? '▾' : '▸'}</span>
+          <span style={{ fontSize: 17, fontWeight: 800 }}>Regeln auf einen Blick</span>
+          <span className="klein-text">Rahmenprüfungsordnung 14/2026 + Prüfungsordnung BACS 15/2024</span>
+        </button>
+        {offen && (
+          <div style={{ padding: '0 20px 18px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))', gap: 12 }}>
+            {REGELN.map((r) => (
+              <div key={r.titel} style={{ background: 'var(--paper)', borderRadius: 14, padding: 14, display: 'flex', flexDirection: 'column', gap: 4 }}>
+                <div style={{ fontWeight: 800, fontSize: 14 }}>{r.titel}</div>
+                <div style={{ fontSize: 13, color: 'var(--ink-2)', lineHeight: 1.45 }}>{r.text}</div>
+                <div style={{ fontSize: 11, color: 'var(--ink-3)', fontWeight: 700 }}>{r.quelle}</div>
+              </div>
+            ))}
+          </div>
+        )}
+      </section>
+      <section className="karte" style={{ borderRadius: 20, padding: 20, display: 'flex', flexDirection: 'column', gap: 10 }}>
+        <h2 style={{ margin: 0, fontSize: 17, fontWeight: 800 }}>Ordnungen &amp; Studienverlaufspläne</h2>
+        <div className="klein-text">Die Modulbeschreibungen liegen jeweils im Modul selbst. ewb001, ewb002, ewb013 und pyb005 gehören zum Profilierungsbereich.</div>
+        {DOKUMENTE.map((d) => (
+          <a key={d.url} href={d.url} target="_blank" rel="noopener" style={{ display: 'flex', alignItems: 'center', gap: 12, minHeight: 48, padding: '8px 14px', borderRadius: 12, background: 'var(--paper)', textDecoration: 'none' }}>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6b6f76" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z" /><path d="M14 3v6h6" /></svg>
+            <span style={{ flex: 1, fontWeight: 700, fontSize: 14 }}>{d.titel}</span>
+            <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{d.info}</span>
+          </a>
+        ))}
+      </section>
+    </>
   );
 }

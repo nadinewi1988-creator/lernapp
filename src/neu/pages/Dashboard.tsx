@@ -194,7 +194,7 @@ export function Dashboard({ stand, neuLaden }: Props) {
       </span>
     </label>); };
   const NachholKnoepfe = (_p: { klein?: boolean }) => (
-    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: 6 }}>
+    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(max(118px, calc((100% - 12px) / 3)), 1fr))', gap: 6 }}>
       {Object.keys(NH).map((k) => { const f = farbe(k), l = NH[k], d = l.filter((n) => n.s.nachgearbeitet).length, fertig = l.length > 0 && d === l.length; return <button key={k} type="button" onClick={() => { setNhModul(k); setNhZeigeErl(false); }} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 6, minHeight: 34, padding: '0 10px', border: 0, borderRadius: 10, background: f[1], fontSize: 12, lineHeight: 1, cursor: 'pointer', textAlign: 'left' }}><b style={{ color: f[0] }}>{k}</b><span style={{ fontWeight: 700, color: fertig ? '#2f7a4b' : 'var(--ink-2)', whiteSpace: 'nowrap' }}>{fertig ? '✓ ' : ''}{d}/{l.length}</span></button>; })}
     </div>);
   const nhBreite = (nhGes ? Math.round(nhErl / nhGes * 100) : 0) + '%';

@@ -244,7 +244,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
       </header>
 
       <div className="umschalter mod-tabs" role="tablist" style={{ gap: 3, padding: 3, background: '#efefea' }}>
-        {TABS.map(([id, n]) => <button key={id} type="button" className={tab === id ? 'aktiv' : ''} onClick={() => { gehe(kuerzel, id); setResetArm(null); }} style={{ minHeight: 38, padding: '0 16px' }}>{n}</button>)}
+        {TABS.map(([id, n]) => <button key={id} type="button" className={tab === id ? 'aktiv' : ''} onClick={() => { gehe(kuerzel, id); setResetArm(null); }} style={{ minHeight: 38, padding: '0 16px' }}>{id === 'beschreibung' ? <><span className="nur-gross">{n}</span><span className="nur-klein">Beschreibung</span></> : n}</button>)}
       </div>
 
       {tab === 'uebersicht' && <>

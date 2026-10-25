@@ -139,7 +139,8 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   const ss = istAkt ? SESS : [];
   const freiwillig = stand.teilmodule.filter((t) => t.freiwillig && t.kuerzel === kuerzel && !stand.veranstaltungen.some((v) => v.teilmodul_id === t.id));
   const gruppenIds = [...new Set(ss.map((x) => x.vid))].sort((x, y) => { const ax = ss.find((q) => q.vid === x)!, ay = ss.find((q) => q.vid === y)!; return (istTut(ax.titel) ? 1 : 0) - (istTut(ay.titel) ? 1 : 0) || ax.k.localeCompare(ay.k); });
-  const nrIn = (x: S) => ss.filter((y) => y.vid === x.vid && status(y) !== 'aus').indexOf(x) + 1;
+  // Ausgefallene Sitzungen zählen mit (Nummer wie im Kursplan); nur „entfällt“ (Feiertag, vorlesungsfrei) wird übersprungen.
+  const nrIn = (x: S) => ss.filter((y) => y.vid === x.vid && y.s.status !== 'entfaellt').indexOf(x) + 1;
   const ltOeffnen = (x: S) => setLt({ sid: x.s.id, kopf: x.k + ' · Sitzung ' + nrIn(x) + ' · ' + fmtD(x.s.datum), titel: themaTitel(x.s.thema, inhaltZu(x.s.id, x.k, x.s.datum)?.thema), ausf: false, begr: false, aufg: false });
 
   // ---------- Kopf ----------
@@ -290,7 +291,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
               </button>
               {offen && <div style={{ display: 'flex', flexDirection: 'column', padding: '0 16px 6px 20px' }}>
                 <div style={{ fontSize: 12, color: 'var(--ink-3)', padding: '8px 0 4px' }}>{zeit}</div>
-                {arr.map((x) => { const st = status(x), t = SF[st].slice() as string[], eg = entfallGrund(x.s.datum), lernbar = st !== 'aus'; if (eg) t[0] = 'entfällt – ' + eg;
+                {arr.map((x) => { const st = status(x), t = SF[st].slice() as string[], eg = entfallGrund(x.s.datum), lernbar = x.s.status !== 'entfaellt'; if (eg) t[0] = 'entfällt – ' + eg;
                   return (
                     <button key={x.s.id} type="button" onClick={() => { if (!lernbar) return; setLernOffen(Object.fromEntries(gruppenIds.map((g) => [g, g === vid]))); if (st === 'kommt') setLernZukunft({ ...lernZukunft, [vid]: true }); setLernFilter('alle'); gehe(kuerzel, 'lernen'); ltOeffnen(x); }} title={lernbar ? 'Zum Lernstoff dieser Sitzung' : ''} style={{ display: 'flex', gap: 12, alignItems: 'center', padding: '9px 0', border: 0, borderTop: '1px solid #f0f0eb', background: 'transparent', fontSize: 14, color: 'var(--ink)', textAlign: 'left', cursor: lernbar ? 'pointer' : 'default', opacity: st === 'kommt' ? 0.65 : 1 }}>
                       <span style={{ minWidth: '5.5em', color: 'var(--ink-3)' }}>{fmtD(x.s.datum)}</span>
@@ -344,9 +345,9 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
             </div>
           </div>
           {gruppenIds.map((vid) => {
-            const arr = ss.filter((x) => x.vid === vid && status(x) !== 'aus'), x0 = ss.find((x) => x.vid === vid)!;
+            const arr = ss.filter((x) => x.vid === vid && x.s.status !== 'entfaellt'), x0 = ss.find((x) => x.vid === vid)!;
             const rows = arr.map((x, i) => ({ x, i, st: status(x), g: gelernt(x.s.id) }));
-            const gel = rows.filter((r) => r.g).length, statt = rows.filter((r) => r.st !== 'kommt').length, nach = rows.filter((r) => r.st === 'weg' && !r.g).length;
+            const gel = rows.filter((r) => r.g && r.st !== 'aus').length, statt = rows.filter((r) => r.st !== 'kommt' && r.st !== 'aus').length, nach = rows.filter((r) => r.st === 'weg' && !r.g).length;
             const gef = rows.filter((r) => lernFilter === 'alle' || (lernFilter === 'nach' ? r.st === 'weg' && !r.g : !r.g && r.st !== 'kommt'));
             const verg = gef.filter((r) => r.st !== 'kommt'), zuk = gef.filter((r) => r.st === 'kommt'), zeigeZ = !!lernZukunft[vid], offen = lernOffen[vid] ?? true;
             const liste = [...verg, ...(zeigeZ ? zuk : [])];
@@ -360,7 +361,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                   <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{gel} von {statt} gelernt{statt ? ' · ' + Math.round(gel / statt * 100) + ' %' : ''}</span>
                 </button>
                 {offen && <div style={{ display: 'flex', flexDirection: 'column', padding: '0 14px 6px' }}>
-                  {liste.map((r) => { const t = r.g ? ['gelernt', '#e3f2e8', '#2f7a4b'] : r.st === 'weg' ? ['nachholen', '#fcecee', '#b4475a'] : r.st === 'kommt' ? ['kommt', '#f7f7f4', '#9a9ea5'] : ['offen', '#f0f0eb', '#6b6f76'];
+                  {liste.map((r) => { const t = r.g ? ['gelernt', '#e3f2e8', '#2f7a4b'] : r.st === 'aus' ? ['ausgefallen', '#f0f0eb', '#6b6f76'] : r.st === 'weg' ? ['nachholen', '#fcecee', '#b4475a'] : r.st === 'kommt' ? ['kommt', '#f7f7f4', '#9a9ea5'] : ['offen', '#f0f0eb', '#6b6f76'];
                     return (
                       <button key={r.x.s.id} type="button" onClick={() => ltOeffnen(r.x)} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '10px 0', border: 0, borderTop: '1px solid #f0f0eb', background: 'transparent', color: 'var(--ink)', textAlign: 'left', cursor: 'pointer', opacity: r.st === 'kommt' ? 0.6 : 1 }}>
                         <span style={{ width: 26, height: 26, flex: 'none', borderRadius: '50%', display: 'grid', placeItems: 'center', fontSize: 12, fontWeight: 800, background: r.g ? f[0] : r.st === 'weg' ? '#fcecee' : '#f0f0eb', color: r.g ? '#fff' : r.st === 'weg' ? '#b4475a' : 'var(--ink-3)' }}>{r.i + 1}</span>

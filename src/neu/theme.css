@@ -207,3 +207,5 @@ section[aria-label="Credit Points"] { container-type: inline-size; }
 .lt-tabwrap { overflow-x: auto; max-width: 100%; }
 .katex { font-size: 1.08em; }
 .katex-display { margin: 6px 0; overflow-x: auto; overflow-y: hidden; padding: 2px 0; }
+.lt-h.lt-h2 { font-size: 16px; margin-top: 18px; padding-bottom: 2px; border-bottom: 1px solid var(--line, #d6dce6); }
+.lt-h.lt-h4 { font-size: 13.5px; font-weight: 700; }

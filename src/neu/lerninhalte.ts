@@ -78,11 +78,23 @@ function bloecke(text: string): string {
       return '<div class="lt-tabwrap"><table class="lt-tab"><thead><tr>' + kopf.map((c) => '<th>' + inlineRoh(c) + '</th>').join('') + '</tr></thead><tbody>' + rest.map((r) => '<tr>' + r.map((c) => '<td>' + inlineRoh(c) + '</td>').join('') + '</tr>').join('') + '</tbody></table></div>';
     }
     if (zeilen.every((z) => z.startsWith('>'))) return '<div class="lt-regel">' + bloecke(zeilen.map((z) => z.replace(/^>\s?/, '')).join('\n')) + '</div>';
-    if (zeilen.every((z) => /^\s*[-•]\s/.test(z))) return '<ul>' + zeilen.map((z) => '<li>' + inlineRoh(z.replace(/^\s*[-•]\s/, '')) + '</li>').join('') + '</ul>';
-    if (zeilen.every((z) => /^\s*\d+\.\s/.test(z))) return '<ol start="' + parseInt(zeilen[0]) + '">' + zeilen.map((z) => '<li>' + inlineRoh(z.replace(/^\s*\d+\.\s/, '')) + '</li>').join('') + '</ol>';
-    if (zeilen.length === 1 && /^#{2,4}\s/.test(zeilen[0])) return '<h4 class="lt-h">' + inlineRoh(zeilen[0].replace(/^#+\s/, '')) + '</h4>';
-    return '<p>' + zeilen.map(inlineRoh).join('<br>') + '</p>';
+    return gruppen(zeilen);
   }).join('');
+}
+/** Zeilen eines Absatzes nach Art gruppieren: Liste (- / •), nummerierte Liste (1.), Überschrift (## / ### / ####), Text. */
+function gruppen(zeilen: string[]): string {
+  const art = (z: string) => /^\s*[-•]\s/.test(z) ? 'ul' : /^\s*\d+\.\s/.test(z) ? 'ol' : /^#{2,4}\s/.test(z) ? 'h' : 'p';
+  let html = '';
+  for (let i = 0; i < zeilen.length;) {
+    const a = art(zeilen[i]); let j = i; while (j < zeilen.length && art(zeilen[j]) === a && a !== 'h') j++; if (a === 'h') j = i + 1;
+    const g = zeilen.slice(i, j);
+    if (a === 'ul') html += '<ul>' + g.map((z) => '<li>' + inlineRoh(z.replace(/^\s*[-•]\s/, '')) + '</li>').join('') + '</ul>';
+    else if (a === 'ol') html += '<ol start="' + parseInt(g[0]) + '">' + g.map((z) => '<li>' + inlineRoh(z.replace(/^\s*\d+\.\s/, '')) + '</li>').join('') + '</ol>';
+    else if (a === 'h') { const n = g[0].match(/^#+/)![0].length; html += '<h4 class="lt-h lt-h' + n + '">' + inlineRoh(g[0].replace(/^#+\s/, '')) + '</h4>'; }
+    else html += '<p>' + g.map(inlineRoh).join('<br>') + '</p>';
+    i = j;
+  }
+  return html;
 }
 /** Markdown mit Formeln → HTML (Blöcke). */
 export function mdHtml(text: string): string { const { t, f } = formelnRaus(text || ''); return formelnRein(bloecke(t), f); }

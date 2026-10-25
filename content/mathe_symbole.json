@@ -624,6 +624,56 @@
         "mab005"
       ],
       "erste_quelle": "mab005.1_2026-10-19 · Folie 28"
+    },
+    {
+      "zeichen": "|A|",
+      "latex": "|A|",
+      "bedeutung": "Mächtigkeit: Anzahl der Elemente einer (endlichen) Menge A",
+      "gelesen": "Mächtigkeit von A",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.2_2026-10-12 · Blatt 01, B.2"
+    },
+    {
+      "zeichen": "{0, 1}ⁿ",
+      "latex": "\\{0, 1\\}^n",
+      "bedeutung": "Menge aller n-Tupel aus Nullen und Einsen, z. B. {0, 1}⁵ mit 2⁵ = 32 Elementen",
+      "gelesen": "0 1 hoch n",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.2_2026-10-12 · Blatt 01, B.2"
+    },
+    {
+      "zeichen": "(ω₁, …, ωₙ)",
+      "latex": "(\\omega_1, \\dots, \\omega_n)",
+      "bedeutung": "n-Tupel (geordnet): ωᵢ ist die i-te Komponente",
+      "gelesen": "Tupel omega 1 bis omega n",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.2_2026-10-12 · Blatt 01, B.2"
+    },
+    {
+      "zeichen": "Ω₁ × Ω₂",
+      "latex": "\\Omega_1 \\times \\Omega_2",
+      "bedeutung": "kartesisches Produkt zweier Ergebnisräume (alle Paare)",
+      "gelesen": "Omega 1 kreuz Omega 2",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.2_2026-10-12 · Blatt 01, A.1"
+    },
+    {
+      "zeichen": "[a; b]",
+      "latex": "[a; b]",
+      "bedeutung": "abgeschlossenes Intervall (a und b gehören dazu)",
+      "gelesen": "a bis b",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.2_2026-10-12 · Blatt 01, B.1"
     }
   ]
 }

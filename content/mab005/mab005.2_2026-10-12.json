@@ -1,0 +1,212 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "mab005",
+  "teilmodul": "mab005.2",
+  "datum": "2026-10-12",
+  "sitzung_nr": 1,
+  "sitzung_id": "",
+  "thema": "Aufgabenblatt 01",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "quellen": [
+    {
+      "datei": "mab005.2/Aufgabenblatt01_V1-2.pdf",
+      "art": "Übungsblatt",
+      "seiten": "1–2"
+    },
+    {
+      "datei": "mab005.2/Aufgabenblatt01_TeilA_Lösungen.pdf",
+      "art": "Kurzlösungen Teil A (Uni)",
+      "seiten": "1"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Ein kartesisches Produkt zweier Mengen vollständig angeben und begründen, warum $\\Omega_1 \\times \\Omega_2 \\neq \\Omega_2 \\times \\Omega_1$ sein kann.",
+      "art": "abgeleitet",
+      "quelle": "Blatt 01, A.1",
+      "fragen": [
+        "f01",
+        "f02"
+      ],
+      "erklaerung_abschnitt": "Worum es in Blatt 01 geht"
+    },
+    {
+      "text": "Aussagen über den Ergebnisraum beurteilen und erklären, warum die Wahl von $\\Omega$ davon abhängt, was beobachtet wird.",
+      "art": "abgeleitet",
+      "quelle": "Blatt 01, A.2, B.3",
+      "fragen": [
+        "f03",
+        "f06"
+      ],
+      "erklaerung_abschnitt": "Worum es in Blatt 01 geht"
+    },
+    {
+      "text": "Realitätsbezogene Zufallsexperimente durch einen Ergebnisraum modellieren, auch als $n$-Tupel ($\\{0, 1\\}^n$), und seine Mächtigkeit begründen.",
+      "art": "abgeleitet",
+      "quelle": "Blatt 01, B.1, B.2",
+      "fragen": [
+        "f04",
+        "f05"
+      ],
+      "erklaerung_abschnitt": "Worum es in Blatt 01 geht"
+    }
+  ],
+  "kurzfassung": [
+    "Im Seminar werden die Aufgaben von Blatt 01 bearbeitet: Teil A zur Selbstkontrolle (Kurzlösungen der Uni), Teil B gemeinsam.",
+    "Bei kartesischen Produkten zählt die Reihenfolge: $\\Omega_1 \\times \\Omega_2$ und $\\Omega_2 \\times \\Omega_1$ sind im Allgemeinen verschieden, auch wenn sie gleich viele Elemente haben.",
+    "Der Ergebnisraum muss nur nicht-leer sein; welcher passt, hängt davon ab, was genau beobachtet wird.",
+    "Unterscheidet man Einzelteile (z. B. 5 Leitungen), wird $\\Omega$ ein Produkt wie $\\{0, 1\\}^5$ mit $2^5 = 32$ Elementen; ohne Unterscheidung reicht die Anzahl, $\\{0, \\dots, 5\\}$.",
+    "Verschiedene Zufallsexperimente können denselben Ergebnisraum haben."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Worum es in Blatt 01 geht",
+      "folien": "Blatt 01",
+      "text": "Blatt 01 übt die ersten Begriffe aus Kapitel 1 (Zufalls-Experiment, Ergebnisraum) und das **kartesische Produkt** aus mab001. Alle Aufgaben mit vollständigen Lösungen stehen in der **Hausaufgabe „Übungsblatt 01“** (eigenes Fenster bzw. PDF).\n\nDie wichtigsten Punkte:\n\n- **A.1:** $\\Omega_1 \\times \\Omega_2$ systematisch aufschreiben; $|\\Omega_1 \\times \\Omega_2| = |\\Omega_1| \\cdot |\\Omega_2|$. Weil $(0, 1) \\neq (1, 0)$, ist $\\Omega_1 \\times \\Omega_2 \\neq \\Omega_2 \\times \\Omega_1$.\n- **A.2:** $\\Omega$ muss nur nicht-leer sein (nicht $\\subseteq \\mathbb{N}$). Beim zweimaligen Würfeln ist $\\{2, \\dots, 12\\}$ nur richtig, wenn man ausschließlich die Summe beobachtet.\n- **B.2:** 5 Leitungen – ohne Unterscheidung $\\{0, 1, 2, 3, 4, 5\\}$, mit Unterscheidung $\\{0, 1\\}^5$ mit $2^5 = 32$ Elementen.\n- **B.1/B.3:** eigene Beispiele; derselbe Ergebnisraum kann zu ganz verschiedenen Experimenten gehören.",
+      "beispiel": "$\\{0, 1\\}^2 = \\{(0,0), (0,1), (1,0), (1,1)\\}$, also $2^2 = 4$ Elemente."
+    }
+  ],
+  "definitionen": [],
+  "aufgaben": [
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Übungsblatt 01 (5 Aufgaben)",
+      "text": "Aufgabenblatt 01 (Bearbeitung in Woche 1: 12. bis 16. Oktober 2026) – alle Aufgaben im Wortlaut (Lösungen unter „Lösung / Ausarbeitung“ und als PDF):\n\n#### Teil A – zur Selbstkontrolle\n\n**A.1 Kartesisches Produkt:** *„Gegeben seien die beiden Mengen $\\Omega_1 = \\{0, 1\\}$ und $\\Omega_2 = \\{1, 2, 3, 4, 5, 6\\}$.*\n*(a) Geben Sie die Menge $\\Omega = \\Omega_1 \\times \\Omega_2$ durch Angabe aller Elemente an.*\n*(b) Entscheiden und begründen Sie, ob $\\Omega_1 \\times \\Omega_2 = \\Omega_2 \\times \\Omega_1$ gilt.“*\n\n**A.2 Grundbegriffe:** *„Entscheiden Sie, ob die folgenden Aussagen wahr oder falsch sind:*\n*(a) Der Ergebnisraum $\\Omega$ ist immer eine nichtleere Teilmenge von $\\mathbb{N}$.*\n*(b) Für das Zufallsexperiment Zweimaliges Würfeln eines Spielwürfels ist der Ergebnisraum $\\Omega = \\{2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\\}$.“*\n\n#### Teil B – zur gemeinsamen Besprechung\n\n**B.1 Beispiele für Zufallsexperimente:** *„Formulieren Sie drei verschiedene Zufallsexperimente zu verschiedenen realitätsbezogenen Kontexten. Formulieren Sie zu jedem Zufallsexperiment einen geeigneten Ergebnisraum $\\Omega$.“*\n\n**B.2 Modellierung Ergebnisraum:** *„Eine Firma hat 5 externe Telefonanschlüsse. Beschreiben Sie die mögliche Belegung durch einen Ergebnisraum (a) ohne Unterscheidung der einzelnen Leitungen, bzw. (b) mit Unterscheidung der einzelnen Leitungen. Geben Sie für den Aufgabenteil (b) zuerst einen möglichst kurzen Ausdruck für den Ergebnisraum an. Geben Sie anschließend die Mächtigkeit des Ergebnisraums an und begründen Sie Ihre Aussage. Geben Sie dann alle Elemente des Ergebnisraums an.“* (Fußnote: Hübner 2009, S. 30)\n\n**B.3 Zufallsexperimente mit gleichem Ergebnisraum:** *„Formulieren Sie zwei unterschiedliche Zufallsexperimente, die denselben Ergebnisraum haben.“*",
+      "quelle": "Aufgabenblatt 01 (Teil A und B)",
+      "loesung": "## Die Definitionen aus der Vorlesung, die du für Blatt 01 brauchst\n\n> **Definition 1.2.1 (Ergebnisraum, VL Kapitel 1, Folie 9):** Der Ergebnisraum $\\Omega$ (auch Grundmenge oder Grundgesamtheit) eines Zufalls-Experiments ist eine nicht-leere Menge mit Elementen $\\omega \\in \\Omega$. $\\Omega$ gibt die möglichen Ausgänge (Ergebnisse) des betrachteten Zufalls-Experiments an.\n\n> **Regel (kartesisches Produkt – Ergänzung aus mab001):** Für zwei Mengen $A$ und $B$ ist\n> $$A \\times B = \\{(a, b) \\mid a \\in A,\\ b \\in B\\}$$\n> die Menge aller **geordneten Paare** (2-Tupel): vorne steht immer ein Element aus $A$, hinten eines aus $B$. Entsprechend ist $A^n = A \\times A \\times \\dots \\times A$ ($n$-mal) die Menge aller $n$-Tupel $(a_1, \\dots, a_n)$ mit $a_i \\in A$.\n> Beispiel: $\\{0, 1\\} \\times \\{5, 7\\} = \\{(0, 5), (0, 7), (1, 5), (1, 7)\\}$.\n\n> **Regel (Gleichheit von Paaren – Ergänzung aus mab001):** $(a, b) = (c, d)$ gilt genau dann, wenn $a = c$ **und** $b = d$. Die Reihenfolge zählt: $(0, 1) \\neq (1, 0)$.\n\n> **Regel (Gleichheit von Mengen – Ergänzung aus mab001):** Zwei Mengen sind gleich, wenn sie genau dieselben Elemente haben. Um $A \\neq B$ zu zeigen, reicht **ein** Element, das in der einen Menge liegt, aber nicht in der anderen.\n\n> **Regel (Mächtigkeit und Produktregel – Ergänzung):** $|A|$ (sprich: „Mächtigkeit von $A$“) ist die Anzahl der Elemente einer endlichen Menge $A$. Es gilt\n> $$|A \\times B| = |A| \\cdot |B| \\qquad\\text{und}\\qquad |A^n| = |A|^n.$$\n> Beispiel: $|\\{0, 1\\} \\times \\{5, 7\\}| = 2 \\cdot 2 = 4$.\n\n---neue-seite---\n\n## Teil A – zur Selbstkontrolle\n\n### Aufgabe A.1 Kartesisches Produkt\n\n*„Gegeben seien die beiden Mengen $\\Omega_1 = \\{0, 1\\}$ und $\\Omega_2 = \\{1, 2, 3, 4, 5, 6\\}$.“*\n\n**Aufgabe A.1a:** *„Geben Sie die Menge $\\Omega = \\Omega_1 \\times \\Omega_2$ durch Angabe aller Elemente an.“*\n\n**Antwort:**\n\nNach der Regel zum kartesischen Produkt besteht $\\Omega_1 \\times \\Omega_2$ aus allen Paaren $(a, b)$ mit $a \\in \\{0, 1\\}$ **vorne** und $b \\in \\{1, 2, 3, 4, 5, 6\\}$ **hinten**. Am sichersten schreibt man sie systematisch auf: erst alle Paare mit $a = 0$, dann alle mit $a = 1$.\n\n$$\\begin{aligned}\n\\Omega = \\Omega_1 \\times \\Omega_2 = \\{&(0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6),\\\\\n&(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6)\\}\n\\end{aligned}$$\n\nProbe mit der Produktregel: $|\\Omega| = |\\Omega_1| \\cdot |\\Omega_2| = 2 \\cdot 6 = 12$ – es sind genau 12 Paare. ✓\n\n**Ergebnis:** $\\Omega$ besteht aus den **12 Paaren** oben.\n\n**Aufgabe A.1b:** *„Entscheiden und begründen Sie, ob $\\Omega_1 \\times \\Omega_2 = \\Omega_2 \\times \\Omega_1$ gilt.“*\n\n**Antwort:**\n\nBei $\\Omega_2 \\times \\Omega_1$ steht jetzt ein Element aus $\\Omega_2$ **vorne** und eines aus $\\Omega_1$ **hinten**:\n\n$$\\begin{aligned}\n\\Omega_2 \\times \\Omega_1 = \\{&(1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (6, 0),\\\\\n&(1, 1), (2, 1), (3, 1), (4, 1), (5, 1), (6, 1)\\}\n\\end{aligned}$$\n\nNach der Regel zur Gleichheit von Mengen reicht ein Gegenbeispiel: Das Paar $(0, 1)$ liegt in $\\Omega_1 \\times \\Omega_2$. In $\\Omega_2 \\times \\Omega_1$ liegt es **nicht**, denn dort müsste die vordere Zahl aus $\\Omega_2 = \\{1, \\dots, 6\\}$ stammen – und $0 \\notin \\Omega_2$. Weil bei Paaren die Reihenfolge zählt, ist $(0, 1) \\neq (1, 0)$.\n\n(Beide Mengen haben zwar 12 Elemente, und das Paar $(1, 1)$ liegt sogar in beiden – gleich viele Elemente heißt aber nicht gleiche Elemente.)\n\n**Ergebnis:** **Nein**, $\\Omega_1 \\times \\Omega_2 \\neq \\Omega_2 \\times \\Omega_1$, weil die Reihenfolge in Paaren eine Rolle spielt (z. B. $(0, 1) \\in \\Omega_1 \\times \\Omega_2$, aber $(0, 1) \\notin \\Omega_2 \\times \\Omega_1$).\n\n### Aufgabe A.2 Grundbegriffe\n\n*„Entscheiden Sie, ob die folgenden Aussagen wahr oder falsch sind:“*\n\n**Aufgabe A.2a:** *„Der Ergebnisraum $\\Omega$ ist immer eine nichtleere Teilmenge von $\\mathbb{N}$.“*\n\n**Antwort:**\n\nNach Definition 1.2.1 muss $\\Omega$ nur eine **nicht-leere Menge** sein. Von natürlichen Zahlen steht dort nichts. Gegenbeispiele aus der Vorlesung:\n\n- Skatkarte ziehen (Beispiel 1.2.4): $\\Omega = \\{\\text{Karo}, \\text{Herz}, \\text{Pik}, \\text{Kreuz}\\} \\times \\{7, 8, 9, 10, \\text{Bube}, \\text{Dame}, \\text{König}, \\text{Ass}\\}$ – die Elemente sind Karten, keine Zahlen.\n- Zweimal würfeln (Beispiel 1.2.5): $\\Omega = \\{1, \\dots, 6\\} \\times \\{1, \\dots, 6\\}$ – die Elemente sind Paare, keine Zahlen.\n- Entfernung und Zeit (Beispiel 1.2.7): $\\Omega = [0; \\infty[ \\times [0; \\infty[$ – Paare reeller Zahlen.\n\n**Ergebnis:** Die Aussage ist **falsch**. $\\Omega$ muss nur nicht-leer sein; seine Elemente können Zahlen, Paare, Karten, Wörter … sein.\n\n**Aufgabe A.2b:** *„Für das Zufallsexperiment Zweimaliges Würfeln eines Spielwürfels ist der Ergebnisraum $\\Omega = \\{2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\\}$.“*\n\n**Antwort:**\n\nDas kommt darauf an, **was als Ergebnis beobachtet wird** – und das legt die Aufgabe nicht fest.\n\n- Beobachtet man **beide Augenzahlen** (1. und 2. Wurf), ist $\\Omega = \\{1, 2, 3, 4, 5, 6\\} \\times \\{1, 2, 3, 4, 5, 6\\}$ mit 36 Paaren (Beispiel 1.2.5). Die angegebene Menge passt dann nicht: Aus der Summe $7$ erkennt man z. B. nicht mehr, ob $(1, 6)$, $(3, 4)$ oder $(6, 1)$ gefallen ist.\n- Interessiert **nur die Summe**, ist $\\{2, 3, \\dots, 12\\}$ ein sinnvoller Ergebnisraum (Beispiel 1.2.6).\n\n**Ergebnis:** Die Aussage ist **falsch** – „der“ Ergebnisraum des zweimaligen Würfelns ist zunächst $\\{1, \\dots, 6\\} \\times \\{1, \\dots, 6\\}$. Die Menge $\\{2, \\dots, 12\\}$ ist nur dann sinnvoll, wenn man ausschließlich die Augensumme beobachtet. Man muss also immer genau festlegen, was beobachtet wird.\n\n---neue-seite---\n\n## Teil B – zur gemeinsamen Besprechung\n\n*Für Teil B gibt es keine Musterlösung der Uni – die Lösungen sind selbst erarbeitet. B.1 und B.3 haben viele richtige Antworten; hier steht je eine mögliche.*\n\n### Aufgabe B.1 Beispiele für Zufallsexperimente\n\n**Aufgabe B.1:** *„Formulieren Sie drei verschiedene Zufallsexperimente zu verschiedenen realitätsbezogenen Kontexten. Formulieren Sie zu jedem Zufallsexperiment einen geeigneten Ergebnisraum $\\Omega$.“*\n\n**Antwort:**\n\nEin Zufalls-Experiment braucht nach Definition 1.1.1 ein **genau abzugrenzendes Ergebnis**, das vom Zufall beeinflusst ist. Damit die drei Beispiele wirklich verschieden sind, hat jedes eine andere Art von Ergebnisraum (endlich – abzählbar unendlich – überabzählbar), wie in den Beispielen der Vorlesung.\n\n1. **Schulhof:** Aus einer Klasse wird zufällig ein Kind ausgewählt; beobachtet wird, an welchem Wochentag es dieses Jahr Geburtstag hat.\n$$\\Omega = \\{\\text{Mo}, \\text{Di}, \\text{Mi}, \\text{Do}, \\text{Fr}, \\text{Sa}, \\text{So}\\} \\qquad (\\text{endlich, } |\\Omega| = 7)$$\n2. **Bäckerei:** Beobachtet wird, wie viele Kundinnen und Kunden zwischen 7 und 8 Uhr den Laden betreten.\n$$\\Omega = \\{0, 1, 2, 3, \\dots\\} \\qquad (\\text{abzählbar unendlich – eine feste Obergrenze gibt es nicht})$$\n3. **Bushaltestelle:** Der Bus fährt alle 20 Minuten. Du kommst zu einer zufälligen Zeit an; beobachtet wird die Wartezeit in Minuten bis zum nächsten Bus.\n$$\\Omega = [0; 20] \\qquad (\\text{überabzählbar – jede reelle Zahl von } 0 \\text{ bis } 20 \\text{ ist möglich})$$\n\n**Ergebnis:** drei Zufallsexperimente aus verschiedenen Alltagskontexten mit den Ergebnisräumen $\\{\\text{Mo}, \\dots, \\text{So}\\}$, $\\{0, 1, 2, \\dots\\}$ und $[0; 20]$.\n\n### Aufgabe B.2 Modellierung Ergebnisraum\n\n**Aufgabe B.2:** *„Eine Firma hat 5 externe Telefonanschlüsse. Beschreiben Sie die mögliche Belegung durch einen Ergebnisraum*\n*(a) ohne Unterscheidung der einzelnen Leitungen, bzw.*\n*(b) mit Unterscheidung der einzelnen Leitungen.*\n*Geben Sie für den Aufgabenteil (b) zuerst einen möglichst kurzen Ausdruck für den Ergebnisraum an. Geben Sie anschließend die Mächtigkeit des Ergebnisraums an und begründen Sie Ihre Aussage. Geben Sie dann alle Elemente des Ergebnisraums an.“* (Fußnote: Hübner 2009, S. 30)\n\n**Antwort:**\n\nJede der 5 Leitungen ist zu einem Zeitpunkt entweder **frei** oder **belegt**. Wir schreiben dafür $0$ = frei und $1$ = belegt.\n\n**Aufgabe B.2a:** *„… ohne Unterscheidung der einzelnen Leitungen“*\n\nUnterscheidet man die Leitungen nicht, interessiert nur, **wie viele** Leitungen belegt sind. Das können $0, 1, 2, 3, 4$ oder alle $5$ sein:\n\n$$\\Omega_a = \\{0, 1, 2, 3, 4, 5\\}$$\n\n**Ergebnis (a):** $\\Omega_a = \\{0, 1, 2, 3, 4, 5\\}$ (Anzahl der belegten Leitungen), $|\\Omega_a| = 6$.\n\n**Aufgabe B.2b:** *„… mit Unterscheidung der einzelnen Leitungen. Geben Sie für den Aufgabenteil (b) zuerst einen möglichst kurzen Ausdruck für den Ergebnisraum an. Geben Sie anschließend die Mächtigkeit des Ergebnisraums an und begründen Sie Ihre Aussage. Geben Sie dann alle Elemente des Ergebnisraums an.“*\n\n**Kurzer Ausdruck.** Jetzt wird für **jede** Leitung festgehalten, ob sie frei oder belegt ist. Ein Ergebnis ist also ein 5-Tupel $(\\omega_1, \\omega_2, \\omega_3, \\omega_4, \\omega_5)$; dabei gibt $\\omega_i \\in \\{0, 1\\}$ den Zustand von Leitung $i$ an. Nach der Regel zum kartesischen Produkt:\n\n$$\\Omega_b = \\{0, 1\\} \\times \\{0, 1\\} \\times \\{0, 1\\} \\times \\{0, 1\\} \\times \\{0, 1\\} = \\{0, 1\\}^5$$\n\nBeispiel: $(1, 0, 0, 1, 0)$ heißt „Leitung 1 und Leitung 4 sind belegt, die anderen frei“.\n\n**Mächtigkeit.** Nach der Produktregel:\n\n$$|\\Omega_b| = |\\{0, 1\\}|^5 = 2^5 = 32$$\n\nBegründung in Worten: Für Leitung 1 gibt es 2 Möglichkeiten (frei/belegt). Zu **jeder** davon gibt es für Leitung 2 wieder 2 Möglichkeiten, das sind $2 \\cdot 2 = 4$; mit Leitung 3 $4 \\cdot 2 = 8$, mit Leitung 4 $16$, mit Leitung 5 $32$.\n\n**Alle Elemente.** Systematisch geordnet nach der Anzahl der belegten Leitungen (also der Anzahl der Einsen) – so sieht man gleich den Zusammenhang zu (a):\n\n| belegt | Elemente von $\\Omega_b$ | Anzahl |\n|---|---|---|\n| 0 | $(0,0,0,0,0)$ | 1 |\n| 1 | $(1,0,0,0,0)$, $(0,1,0,0,0)$, $(0,0,1,0,0)$, $(0,0,0,1,0)$, $(0,0,0,0,1)$ | 5 |\n| 2 | $(1,1,0,0,0)$, $(1,0,1,0,0)$, $(1,0,0,1,0)$, $(1,0,0,0,1)$, $(0,1,1,0,0)$, $(0,1,0,1,0)$, $(0,1,0,0,1)$, $(0,0,1,1,0)$, $(0,0,1,0,1)$, $(0,0,0,1,1)$ | 10 |\n| 3 | $(1,1,1,0,0)$, $(1,1,0,1,0)$, $(1,1,0,0,1)$, $(1,0,1,1,0)$, $(1,0,1,0,1)$, $(1,0,0,1,1)$, $(0,1,1,1,0)$, $(0,1,1,0,1)$, $(0,1,0,1,1)$, $(0,0,1,1,1)$ | 10 |\n| 4 | $(0,1,1,1,1)$, $(1,0,1,1,1)$, $(1,1,0,1,1)$, $(1,1,1,0,1)$, $(1,1,1,1,0)$ | 5 |\n| 5 | $(1,1,1,1,1)$ | 1 |\n| | **zusammen** | **32** |\n\nProbe: $1 + 5 + 10 + 10 + 5 + 1 = 32 = 2^5$. ✓\n\n**Ergebnis (b):** $\\Omega_b = \\{0, 1\\}^5$ mit $|\\Omega_b| = 2^5 = 32$ Elementen (Tabelle). Jedes Ergebnis aus (a) fasst mehrere Ergebnisse aus (b) zusammen – z. B. gehören zu „2 Leitungen belegt“ 10 verschiedene Belegungen.\n\n### Aufgabe B.3 Zufallsexperimente mit gleichem Ergebnisraum\n\n**Aufgabe B.3:** *„Formulieren Sie zwei unterschiedliche Zufallsexperimente, die denselben Ergebnisraum haben.“*\n\n**Antwort:**\n\n1. **Münzwurf:** Eine Münze wird einmal geworfen; notiert wird $1$ für Wappen und $0$ für Zahl.\n2. **Qualitätskontrolle:** Aus einer Lieferung Glühbirnen wird eine zufällig herausgenommen und getestet; notiert wird $1$, wenn sie defekt ist, und $0$, wenn sie funktioniert.\n\nBeide Experimente haben den Ergebnisraum\n\n$$\\Omega = \\{0, 1\\}.$$\n\nEin zweites Beispielpaar: einmal würfeln und eine Kugel aus einer Urne mit den Kugeln $1$ bis $6$ ziehen – beide Male $\\Omega = \\{1, 2, 3, 4, 5, 6\\}$.\n\n**Ergebnis:** Verschiedene Experimente können **denselben** Ergebnisraum haben. Der Ergebnisraum allein beschreibt das Experiment also noch nicht vollständig. *Ergänzung (nicht aus der Vorlesung, kommt später im Kapitel):* Unterscheiden werden sich die Modelle erst durch das Wahrscheinlichkeitsmaß $P$ – eine Münze zeigt mit Wahrscheinlichkeit $\\frac{1}{2}$ Wappen, eine Glühbirne ist hoffentlich viel seltener defekt.\n",
+      "loesungsweg": "Jede Teilaufgabe der Reihe nach: Aufgabentext im Wortlaut, dann Schritt für Schritt mit Begründung; verwendete Definitionen und Regeln (Ergebnisraum, kartesisches Produkt, Gleichheit von Paaren und Mengen, Produktregel) stehen im Kasten. Teil A mit der Kurzlösung der Uni abgeglichen; Teil B selbst erarbeitet. Gleicher Inhalt als PDF.",
+      "frist": "2026-10-12",
+      "im_kalender": true,
+      "fuer_sitzung": "mab005.2_2026-10-12",
+      "kalender_id": "e9708d20-2c18-4759-a8bc-a562b12eca23",
+      "pdf": "/dateien/mab005/S01_2026-10-12_Hausaufgabe_Uebungsblatt-1_Loesungen.pdf"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Gib $\\Omega = \\{0, 1\\} \\times \\{1, 2, 3\\}$ durch Angabe aller Elemente an und bestimme $|\\Omega|$.",
+      "musterloesung": "$\\Omega = \\{(0, 1), (0, 2), (0, 3), (1, 1), (1, 2), (1, 3)\\}$, $|\\Omega| = 2 \\cdot 3 = 6$.",
+      "bewertungspunkte": [
+        "alle 6 Paare, vorne aus $\\{0, 1\\}$, hinten aus $\\{1, 2, 3\\}$",
+        "$|\\Omega| = 6$ (Produktregel)"
+      ],
+      "punkte": 2,
+      "erklaerung": "Wie Blatt 01, A.1a: systematisch erst alle Paare mit 0 vorne, dann mit 1.",
+      "folie": "Blatt 01, A.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Sei $\\Omega_1 = \\{0, 1\\}$ und $\\Omega_2 = \\{1, 2, 3, 4, 5, 6\\}$. Welche Aussagen stimmen?",
+      "optionen": [
+        "$\\Omega_1 \\times \\Omega_2 = \\Omega_2 \\times \\Omega_1$",
+        "$|\\Omega_1 \\times \\Omega_2| = |\\Omega_2 \\times \\Omega_1| = 12$",
+        "$(0, 1) \\in \\Omega_1 \\times \\Omega_2$, aber $(0, 1) \\notin \\Omega_2 \\times \\Omega_1$",
+        "$(1, 1)$ liegt in beiden Mengen"
+      ],
+      "richtig": [
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Bei Paaren zählt die Reihenfolge, deshalb sind die Mengen verschieden (Gegenbeispiel $(0, 1)$). Gleich viele Elemente heißt nicht gleiche Elemente; $(1, 1)$ liegt zufällig in beiden.",
+      "folie": "Blatt 01, A.1b",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen über den Ergebnisraum $\\Omega$ sind wahr?",
+      "optionen": [
+        "$\\Omega$ ist immer eine nichtleere Teilmenge von $\\mathbb{N}$.",
+        "$\\Omega$ muss nur eine nicht-leere Menge sein.",
+        "Beim zweimaligen Würfeln ist $\\Omega$ immer $\\{2, 3, \\dots, 12\\}$.",
+        "Welcher Ergebnisraum passt, hängt davon ab, was beobachtet wird.",
+        "Die Elemente von $\\Omega$ können auch Paare oder Karten sein."
+      ],
+      "richtig": [
+        1,
+        3,
+        4
+      ],
+      "erklaerung": "Definition 1.2.1 fordert nur „nicht-leer“ (Blatt 01, A.2a). $\\{2, \\dots, 12\\}$ passt nur, wenn ausschließlich die Augensumme beobachtet wird; sonst $\\{1, \\dots, 6\\} \\times \\{1, \\dots, 6\\}$ (A.2b).",
+      "folie": "Blatt 01, A.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Eine Firma hat 5 externe Telefonleitungen. Gib einen Ergebnisraum für die Belegung an (a) ohne Unterscheidung der Leitungen, (b) mit Unterscheidung der Leitungen, jeweils mit Mächtigkeit und Begründung.",
+      "musterloesung": "(a) $\\Omega_a = \\{0, 1, 2, 3, 4, 5\\}$ (Anzahl belegter Leitungen), $|\\Omega_a| = 6$. (b) $\\Omega_b = \\{0, 1\\}^5$ (0 = frei, 1 = belegt für jede Leitung), $|\\Omega_b| = 2^5 = 32$, weil jede der 5 Leitungen unabhängig 2 Zustände hat (Produktregel).",
+      "bewertungspunkte": [
+        "(a) $\\{0, \\dots, 5\\}$",
+        "(b) $\\{0, 1\\}^5$ als 5-Tupel",
+        "$2^5 = 32$",
+        "Begründung über 2 Möglichkeiten je Leitung"
+      ],
+      "punkte": 4,
+      "erklaerung": "Blatt 01, B.2 (aus Hübner 2009, S. 30).",
+      "folie": "Blatt 01, B.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ein Parkhaus hat 3 Etagen; jede Etage ist entweder voll (1) oder hat noch Plätze frei (0). Gib den Ergebnisraum mit Unterscheidung der Etagen als kurzen Ausdruck an, bestimme seine Mächtigkeit und gib alle Elemente an.",
+      "musterloesung": "$\\Omega = \\{0, 1\\}^3$, $|\\Omega| = 2^3 = 8$: $(0,0,0)$, $(1,0,0)$, $(0,1,0)$, $(0,0,1)$, $(1,1,0)$, $(1,0,1)$, $(0,1,1)$, $(1,1,1)$.",
+      "bewertungspunkte": [
+        "$\\{0, 1\\}^3$",
+        "$|\\Omega| = 8$ mit Begründung",
+        "alle 8 Tripel"
+      ],
+      "punkte": 3,
+      "erklaerung": "Neue Rechnung nach dem Muster von B.2b.",
+      "folie": "Blatt 01, B.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Nenne zwei verschiedene Zufallsexperimente mit demselben Ergebnisraum. Was folgt daraus für die Modellierung?",
+      "musterloesung": "Z. B. Münzwurf (1 = Wappen, 0 = Zahl) und Test einer zufällig gewählten Glühbirne (1 = defekt, 0 = funktioniert): beide $\\Omega = \\{0, 1\\}$. Der Ergebnisraum allein beschreibt ein Experiment nicht vollständig; unterscheiden wird es erst durch die Wahrscheinlichkeiten (Wahrscheinlichkeitsmaß $P$).",
+      "bewertungspunkte": [
+        "zwei wirklich verschiedene Experimente",
+        "gleicher Ergebnisraum korrekt angegeben",
+        "Folgerung: $\\Omega$ legt das Experiment nicht fest"
+      ],
+      "punkte": 3,
+      "erklaerung": "Blatt 01, B.3. Die Rolle von $P$ ist eine Ergänzung (kommt später in Kapitel 1).",
+      "folie": "Blatt 01, B.3",
+      "pruefungsrelevant": false
+    }
+  ],
+  "pruefungshinweise": [
+    "Die Klausuraufgaben sind ähnlich wie die Aufgaben auf den Übungszetteln (VL Kapitel 0, Folie 5)."
+  ],
+  "offene_fragen": [
+    "Sitzung verpasst – wurde im Seminar am 12.10. noch etwas über Blatt 01 hinaus besprochen?"
+  ]
+}

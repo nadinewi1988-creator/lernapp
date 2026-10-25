@@ -56,7 +56,8 @@
   ],
   "sitzungen": [
     "mab005.1_2026-10-12",
-    "mab005.1_2026-10-19"
+    "mab005.1_2026-10-19",
+    "mab005.2_2026-10-12"
   ],
   "literatur": [
     {
@@ -127,7 +128,7 @@
       "pfad": "mab005.2/Aufgabenblatt01_V1-2.pdf",
       "geaendert": "2026-10-22",
       "art": "Übungsblatt",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "mab005.2_2026-10-12",
       "hinweis": "Hausaufgabe h01"
     },
@@ -135,7 +136,7 @@
       "pfad": "mab005.2/Aufgabenblatt01_TeilA_Lösungen.pdf",
       "geaendert": "2026-10-22",
       "art": "Lösungen Teil A",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "mab005.2_2026-10-12",
       "hinweis": "Kontrolle"
     },

@@ -1,5 +1,146 @@
 {
   "schema": "lernapp-glossar/2",
   "modul": "ewb002",
-  "eintraege": []
+  "eintraege": [
+    {
+      "begriff": "Theorie (Wissenschaft)",
+      "wortlaut": "System wissenschaftlich begründeter Aussagen zur Erklärung bestimmter Tatsachen oder Erscheinungen und der ihnen zugrunde liegenden Gesetzlichkeiten; Lehre über die allgemeinen Begriffe, Gesetze, Prinzipien eines bestimmten Bereichs der Wissenschaft, Kunst, Technik",
+      "erklaerung": "In der Wissenschaft ist eine Theorie ein begründetes Erklärungssystem – keine bloße Vermutung.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Theorie (Umgangssprache)",
+      "wortlaut": "rein begriffliche, abstrakte [nicht praxisorientierte oder -bezogene] Betrachtung[sweise], Erfassung von etwas; wirklichkeitsfremde Vorstellung; bloße Vermutung",
+      "erklaerung": "Im Alltag meint „Theorie“ oft das Gegenteil von Praxis oder eine unbewiesene Idee.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Empirisch bedeutsame Theorie",
+      "wortlaut": "Im weiteren Sinn: Eine Menge miteinander verknüpfter Aussagen, von denen sich eine nichtleere Teilmenge auf empirisch prüfbare Zusammenhänge zwischen Variablen bezieht. Im engeren Sinn: Eine Theorie besteht aus Grundannahmen (Definitionen der grundlegenden Begriffe; zentrale Hypothesen über Zusammenhänge, die meist nur schwer empirisch prüfbar sind) sowie aus den Grundannahmen abgeleiteten empirisch prüfbaren Hypothesen sowie Regeln zur Messung der Variablen.",
+      "erklaerung": "Mindestens ein Teil der Theorie muss sich an Daten prüfen lassen; dafür leitet man aus den Grundannahmen Hypothesen ab und legt fest, wie die Variablen gemessen werden.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Hypothese",
+      "wortlaut": "Im allgemeinen Sinn: Vermutung über einen bestehenden Sachverhalt. In den Sozialwissenschaften oft Aussage über Merkmalszusammenhänge.",
+      "erklaerung": "Eine Hypothese behauptet einen Zusammenhang zwischen mindestens zwei Merkmalen, der geprüft werden kann.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 13",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Deterministische Hypothese",
+      "wortlaut": "behauptet wird, dass Zusammenhang immer auftritt – wenn sie gelten, gelten sie zu jeder Zeit und in jedem Fall",
+      "erklaerung": "Ein einziger Gegenfall widerlegt sie. In den Sozialwissenschaften selten.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 13",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Probabilistische Hypothese",
+      "wortlaut": "Probabilistische Hypothese / Wahrscheinlichkeitshypothese: behauptet wird ein Auftreten mit einer gewissen Wahrscheinlichkeit",
+      "erklaerung": "Der Zusammenhang gilt „meistens“ bzw. wahrscheinlicher – einzelne Gegenbeispiele widerlegen sie nicht.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 13",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Individualhypothese",
+      "wortlaut": "unabhängige und abhängige Variable auf Individualebene",
+      "erklaerung": "Beide Merkmale gehören zu einzelnen Personen, z. B. Bildung und Einkommen einer Person.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 16",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kollektivhypothese",
+      "wortlaut": "beziehen sich auf Zusammenhänge von Kollektivmerkmalen",
+      "erklaerung": "Beide Merkmale gehören zu Gruppen, Regionen, Schulen …, z. B. Arbeitslosenquote und Wahlbeteiligung einer Gemeinde.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 16",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kontexthypothese",
+      "wortlaut": "unabh. Variable=KollektivM, abh. Var.=IndividualM",
+      "erklaerung": "Ein Merkmal der Umgebung wirkt auf ein Merkmal der Person, z. B. Klassengröße → Leistung des einzelnen Kindes.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 16",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Ökologischer Fehlschluss",
+      "wortlaut": "ein falscher Schluss von einer Kollektiv- auf eine Individualhypothese (korrekt: Kollektiv-Individual-Fehlschluss)",
+      "erklaerung": "Was für Gruppen gilt, muss nicht für die Einzelnen darin gelten.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 16",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Variable",
+      "wortlaut": "Merkmal oder Eigenschaft von Personen, Gruppen, Organisationen oder anderen Merkmalsträgern",
+      "erklaerung": "Etwas, das sich zwischen Merkmalsträgern unterscheiden kann, z. B. Geschlecht, Bildungsgrad, Einkommen.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 20",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Unabhängige Variable",
+      "wortlaut": "vom Versuchsleiter/-in manipuliert",
+      "erklaerung": "Die (vermutete) Ursache, die im Experiment gezielt verändert wird.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 22",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Abhängige Variable",
+      "wortlaut": "Was daraufhin gemessen / beobachtet wird",
+      "erklaerung": "Die (vermutete) Wirkung, die man misst.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 22",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Störvariable",
+      "wortlaut": "alle anderen Einflüsse; diese gehören nicht zur Fragestellung, können aber die abhängige Variable ebenfalls beeinflussen; z.B. oft Versuchspersonenvariablen (Alter, Geschlecht, Erfahrung …), Externe Bedingungen (Tageszeit, Umgebung …)",
+      "erklaerung": "Alles außer der UV, was das Ergebnis verfälschen kann – muss kontrolliert werden.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 22",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kontinuierlich / stetig",
+      "wortlaut": "„unendlich viele“ Ausprägungen möglich",
+      "erklaerung": "Jeder Zwischenwert ist möglich, z. B. Zeit, Größe.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 26",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Diskret",
+      "wortlaut": "abzählbar viele Ausprägungen / Kategorien",
+      "erklaerung": "Man kann die Ausprägungen aufzählen.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 26",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Dichotom",
+      "wortlaut": "2 Ausprägungen",
+      "erklaerung": "Genau zwei Kategorien, z. B. ja/nein.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 26",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Polytom",
+      "wortlaut": "Mehr als 2 Ausprägungen",
+      "erklaerung": "Drei oder mehr Kategorien, z. B. Schulabschluss.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 26",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Disjunkt",
+      "wortlaut": "Kategorien disjunkt=nicht überlappend",
+      "erklaerung": "Jeder Merkmalsträger passt in höchstens eine Kategorie.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 26",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Erschöpfend (exhaustiv)",
+      "wortlaut": "Kategorien erschöpfend (exhaustiv) =jeder Merkmalsträger kann einer Kategorie zugewiesen werden",
+      "erklaerung": "Für jeden Merkmalsträger gibt es eine passende Kategorie.",
+      "quelle": "ewb002.1_2026-10-21 · Folie 26",
+      "abweichungen": []
+    }
+  ]
 }

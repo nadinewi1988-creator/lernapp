@@ -1,0 +1,896 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb002",
+  "teilmodul": "ewb002.1",
+  "datum": "2026-10-21",
+  "sitzung_nr": 2,
+  "sitzung_id": "",
+  "thema": "Theorien, Hypothesen und Daten",
+  "thema_in_app": "eingetragen",
+  "stand": "geprueft",
+  "hinweis": "Diese Vorlesung ist ausgefallen (Prof. Zimmer erkrankt, Mail vom 20.10.2026). Die Folien wurden zum Selbststudium in Stud.IP hochgeladen. Die Lerninhalte entstehen aus den Folien; die Seminarsitzung S03 am 27.10. baut darauf auf.",
+  "quellen": [
+    {
+      "datei": "ewb002.1/02_ewb002vor_Theo_Hypo_Data_wise_26_27.pdf",
+      "art": "Folien",
+      "seiten": "1–37"
+    },
+    {
+      "datei": "Literatur/Raithel_2008_Quantitative-Forschung.pdf",
+      "art": "Literaturempfehlung (Hausaufgabe h01)",
+      "seiten": "13–17, 37–38"
+    },
+    {
+      "datei": "Literatur/Tausendpfund_2018_Quantitative-Methoden-Politikwissenschaft.pdf",
+      "art": "Literaturempfehlung (Hausaufgabe h01)",
+      "seiten": "10–14, 91–106, 257–258"
+    },
+    {
+      "datei": "Literatur/Haeder_2019_Empirische-Sozialforschung.pdf",
+      "art": "Literaturempfehlung (Hausaufgabe h01)",
+      "seiten": "43–47"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Du kannst erklären, was eine (empirisch bedeutsame) Theorie ist, sie im Pfaddiagramm darstellen und Kriterien einer guten Theorie nennen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 4–11",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03",
+        "f04",
+        "f05",
+        "f06"
+      ],
+      "erklaerung_abschnitt": "Theorie"
+    },
+    {
+      "text": "Du kannst eine Hypothese definieren, Hypothesentypen unterscheiden und eine empirisch prüfbare Hypothese formulieren.",
+      "art": "abgeleitet",
+      "quelle": "Folien 13–14",
+      "fragen": [
+        "f07",
+        "f08",
+        "f09",
+        "f10",
+        "f24"
+      ],
+      "erklaerung_abschnitt": "Hypothesen"
+    },
+    {
+      "text": "Du kannst Individual-, Kollektiv- und Kontexthypothesen unterscheiden und den ökologischen Fehlschluss an einem Beispiel erklären.",
+      "art": "abgeleitet",
+      "quelle": "Folien 16–18",
+      "fragen": [
+        "f11",
+        "f12",
+        "f13"
+      ],
+      "erklaerung_abschnitt": "Ökologischer Fehlschluss"
+    },
+    {
+      "text": "Du kannst Variable, Ausprägung und Merkmalsträger unterscheiden und in einer Studie unabhängige, abhängige und Störvariablen bestimmen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 20–25",
+      "fragen": [
+        "f14",
+        "f15",
+        "f16",
+        "f17",
+        "f18",
+        "f24"
+      ],
+      "erklaerung_abschnitt": "Variablen · Unabhängige, abhängige und Störvariablen"
+    },
+    {
+      "text": "Du kannst Variablenausprägungen beschreiben (stetig/diskret, dichotom/polytom, disjunkt/erschöpfend, Individual-/Kollektivmerkmal) und Antwortkategorien korrekt bilden.",
+      "art": "abgeleitet",
+      "quelle": "Folien 26–27, 30",
+      "fragen": [
+        "f19",
+        "f20",
+        "f21",
+        "f22",
+        "f23",
+        "f25"
+      ],
+      "erklaerung_abschnitt": "Eigenschaften von Variablenausprägungen"
+    }
+  ],
+  "kurzfassung": [
+    "Empirische Forschung hat drei Ebenen: Aus einer Theorie werden Hypothesen abgeleitet, die mit Daten (Variablen) geprüft werden.",
+    "Eine wissenschaftliche Theorie ist ein System begründeter Aussagen zur Erklärung von Tatsachen – umgangssprachlich heißt „Theorie“ dagegen oft „bloße Vermutung“.",
+    "Eine gute Theorie ist widerspruchsfrei, präzise, einfach (sparsam), objektivierbar, empirisch gehaltvoll und falsifizierbar.",
+    "Hypothesen sind Aussagen über Merkmalszusammenhänge; deterministische gelten immer, probabilistische nur mit einer gewissen Wahrscheinlichkeit – in den Sozialwissenschaften fast immer probabilistisch.",
+    "Ökologischer Fehlschluss: Ein Zusammenhang auf Kollektivebene muss nicht für Individuen gelten – Individualverhalten braucht Individualdaten.",
+    "Die unabhängige Variable wird manipuliert (bzw. als Ursache angenommen), die abhängige gemessen; Störvariablen beeinflussen die abhängige Variable zusätzlich.",
+    "Variablenausprägungen sind stetig oder diskret (dichotom/polytom); Kategorien müssen disjunkt und erschöpfend sein."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Drei Ebenen: Theorie – Hypothesen – Daten",
+      "text": "Die ganze Sitzung folgt einem Baum (Folie 4):\n\n**THEORIE** → daraus abgeleitet **Hypothesen** H1, H2, H3 … → geprüft mit **Daten** D1, D2, D3 …\n\n| Ebene | Leitfrage |\n| --- | --- |\n| 1. Theorie | Was ist eine empirisch bedeutsame Theorie? Wie stellt man sie dar? Was macht eine gute Theorie aus? |\n| 2. Hypothesen | Was sind Hypothesen, welche Typen gibt es? Was ist der ökologische Fehlschluss? |\n| 3. Daten | Was sind Variablen, Ausprägungen, Merkmalsträger? Welche Eigenschaften haben Variablen? |\n\nDas Thema gehört im Forschungsprozess zu „Wozu wird geforscht? Wie geht empirisch forschen?“ (Folie 2).",
+      "folien": "2–4"
+    },
+    {
+      "titel": "Theorie",
+      "text": "**Zwei Bedeutungen von „Theorie“ (Folie 6):**\n\n| In der Wissenschaft | In der Umgangssprache |\n| --- | --- |\n| „System wissenschaftlich begründeter Aussagen zur Erklärung bestimmter Tatsachen oder Erscheinungen und der ihnen zugrunde liegenden Gesetzlichkeiten“ | „rein begriffliche, abstrakte [nicht praxisorientierte oder -bezogene] Betrachtung[sweise], Erfassung von etwas“ |\n| „Lehre über die allgemeinen Begriffe, Gesetze, Prinzipien eines bestimmten Bereichs der Wissenschaft, Kunst, Technik“ | „wirklichkeitsfremde Vorstellung; bloße Vermutung“ |\n\n**Empirisch bedeutsame Theorie (Folie 9):**\n• *im weiteren Sinn:* „Eine Menge miteinander verknüpfter Aussagen, von denen sich eine nichtleere Teilmenge auf empirisch prüfbare Zusammenhänge zwischen Variablen bezieht“\n• *im engeren Sinn:* Eine Theorie besteht aus **Grundannahmen** (Definitionen der grundlegenden Begriffe; zentrale Hypothesen über Zusammenhänge, die meist nur schwer empirisch prüfbar sind; mathematisch formuliert: axiomatische Theorie, Modell) und **aus den Grundannahmen abgeleiteten empirisch prüfbaren Hypothesen sowie Regeln zur Messung der Variablen**.\n\n**Pfaddiagramm (Folie 8, Diekmann 2008, S. 148):** Eine Theorie lässt sich als Pfeile zwischen Variablen darstellen; ein „+“ steht für einen positiven Zusammenhang. Beispiel *Statuszuweisungstheorie*:\n\n| von | nach | Zusammenhang |\n| --- | --- | --- |\n| Beruflicher Status des Elternhauses | Bildungsgrad der Person | + |\n| Bildungsstatus des Elternhauses | Bildungsgrad der Person | + |\n| Bildungsgrad der Person | Beruflicher Status der Person | + |\n| Beruflicher Status des Elternhauses | Beruflicher Status der Person | + (direkt) |\n| Bildungsstatus des Elternhauses | Beruflicher Status der Person | + (direkt) |\n\nJeder Pfeil ist eine prüfbare Hypothese. Die Herkunft wirkt also direkt und über die Bildung („Vererbungsprozesse“).\n\n**Was ist eine gute Theorie? (Folie 11)** Kriterien für den Vergleich von Theorien:\n• widerspruchsfrei\n• präzise\n• einfach (sparsam – *Ockhams Rasiermesser*)\n• objektivierbar\n• empirisch gehaltvoll\n• falsifizierbar (überprüfbar; kritisierbar)\n\n„Gute Theorien sind wie gute Karikaturen. Sie verzerren die Realität zwar, aber in einer Weise, dass das Wesentliche umso klarer hervortritt“ (Stephan, 1955; nach Diekmann, 2008).",
+      "beispiel": "„Je höher der Bildungsgrad, desto höher der berufliche Status“ ist eine Hypothese, die man aus dem Pfeil Bildungsgrad → Beruflicher Status ablesen kann.",
+      "folien": "5–11"
+    },
+    {
+      "titel": "Hypothesen",
+      "text": "**Hypothese – Definition (Folie 13):**\n• im allgemeinen Sinn: „Vermutung über einen bestehenden Sachverhalt“\n• in den Sozialwissenschaften oft „Aussage über Merkmalszusammenhänge“\n\n**Typen:**\n\n| Typ | Was wird behauptet? |\n| --- | --- |\n| **deterministisch** | „dass Zusammenhang immer auftritt – wenn sie gelten, gelten sie zu jeder Zeit und in jedem Fall“ |\n| **probabilistisch** (Wahrscheinlichkeitshypothese) | „ein Auftreten mit einer gewissen Wahrscheinlichkeit“ |\n| **Wenn-dann** | Wenn A, dann B (beide Merkmale dichotom) |\n| **Je-desto** | Je mehr A, desto mehr/weniger B (Ausprägungen als Rangfolge) |\n| **Zusammenhangshypothese** | Assoziation, Relation – keine Ursache behauptet |\n| **Kausalhypothese** | Ursache → Wirkung |\n| **Trend-/Entwicklungshypothese** | Veränderung über die Zeit |\n\nSpäter kommen **statistische Hypothesen** (Null- und Alternativhypothese) dazu.\n\n**Aufgabe Gianna Nannini (Folie 14):** Aus der Aussage „in anderen Kulturen, in denen Frauen größerer Unterdrückung ausgesetzt sind, [ist] auch deren Stimmlage höher“ soll eine empirisch prüfbare Hypothese werden – Lösung in Aufgabe a01. Das Handwerkszeug für die Prüfung kommt in den nächsten drei Sitzungen.",
+      "folien": "12–14"
+    },
+    {
+      "titel": "Ökologischer Fehlschluss",
+      "text": "**Hypothesen nach Ebene (Folie 16):**\n\n| Hypothese | unabhängige Variable | abhängige Variable |\n| --- | --- | --- |\n| **Individualhypothese** | Individualebene | Individualebene |\n| **Kollektivhypothese** | Kollektivmerkmal | Kollektivmerkmal |\n| **Kontexthypothese** | Kollektivmerkmal | Individualmerkmal |\n\n**Ökologischer Fehlschluss:** „ein falscher Schluss von einer Kollektiv- auf eine Individualhypothese (korrekt: Kollektiv-Individual-Fehlschluss)“.\n\n**Beispiel nach Diekmann (2008, S. 136), Folien 17–18:** In Stimmbezirk 1 sind 20 % katholisch und 20 % wählen CDU, in Stimmbezirk 2 je 40 %. Die **Kollektivhypothese** „Je größer der Anteil praktizierender Katholik:innen, desto höher der Anteil an CDU/CSU-Wählenden“ ist damit belegt. Was heißt das für Einzelne?\n\n| Stimmbezirk 1 (100 Wählende) | Folie 17: Kath. | Folie 17: Nichtkath. | Folie 18: Kath. | Folie 18: Nichtkath. |\n| --- | --- | --- | --- | --- |\n| CDU | 20 | 0 | 0 | 20 |\n| andere Parteien | 0 | 80 | 20 | 60 |\n\n• **Folie 17:** Alle Katholik:innen wählen CDU → die Individualhypothese „Praktizierende Katholik:innen wählen bevorzugt CDU/CSU“ stimmt (Extremfall).\n• **Folie 18:** Gleiche Prozentzahlen auf Bezirksebene – aber **keine** Katholikin und **kein** Katholik wählt CDU → der Schluss auf die Individualebene wäre ein **ökologischer Fehlschluss**.\n\n**Merksatz:** Die Untersuchung des konkreten Wählerverhaltens muss auf **Individualdaten** beruhen.",
+      "folien": "15–18"
+    },
+    {
+      "titel": "Variablen",
+      "text": "**Variable – Definition (Folie 20):** „Merkmal oder Eigenschaft von Personen, Gruppen, Organisationen oder anderen Merkmalsträgern“, z. B. Geschlecht, Bildungsgrad, Einkommen.\n\n**Unterscheide:**\n\n| Begriff | Beispiel Geschlecht |\n| --- | --- |\n| Variable | Geschlecht |\n| Ausprägung der Variable | z. B. weiblich, männlich, divers |\n| Merkmalsträger | die einzelne Person |\n\n(Auf der Folie bleiben Ausprägung und Merkmalsträger offen – Lösung in Aufgabe a02.)",
+      "folien": "19–20"
+    },
+    {
+      "titel": "Unabhängige, abhängige und Störvariablen",
+      "text": "**Folie 22** (z. B. im Experiment; die Unterscheidung wird auch in der Statistik gebraucht):\n• **Unabhängige Variable(n):** „vom Versuchsleiter/-in manipuliert“\n• **Abhängige Variable(n):** „Was daraufhin gemessen / beobachtet wird“\n• „Im Experiment wird beobachtet, welchen Einfluss die unabhängige Variable auf die abhängige Variable hat“\n• **Störvariable(n):** „alle anderen Einflüsse; diese gehören nicht zur Fragestellung, können aber die abhängige Variable ebenfalls beeinflussen“, z. B. Versuchspersonenvariablen (Alter, Geschlecht, Erfahrung …) und externe Bedingungen (Tageszeit, Umgebung …)\n\n**Zwei Übungsbeispiele (Folien 24–25):**\n\n| Beispiel | unabhängige Variable | abhängige Variable(n) |\n| --- | --- | --- |\n| Muskelschmerzen bei Mauseingabe (16 Versuchspersonen, „Tablett + Stift“ vs. „Maus“) | Eingabegerät | Reaktionszeit (ms), Befinden (grafische Skala), Anspannung der Unterarmmuskeln (EMG) |\n| Selbstregulation junger Universitätsdozent*innen | Fähigkeit zur Selbstregulation | Arbeitszufriedenheit |\n\n*Ergänzung (nicht aus der Vorlesung):* Im zweiten Beispiel wird die Selbstregulation nur per Fragebogen **gemessen**, nicht manipuliert – sie ist die vermutete Ursache, aber streng genommen ist das kein Experiment.",
+      "folien": "21–25"
+    },
+    {
+      "titel": "Eigenschaften von Variablenausprägungen",
+      "text": "**Anzahl der Ausprägungen (Folie 26):**\n\n| Art | Bedeutung | Beispiel |\n| --- | --- | --- |\n| **kontinuierlich / stetig** | „unendlich viele“ Ausprägungen möglich | Reaktionszeit, Körpergröße |\n| **diskret** | abzählbar viele Ausprägungen / Kategorien | – |\n| – **dichotom** | 2 Ausprägungen | ja/nein, Maus/Tablett |\n| – **polytom** | mehr als 2 Ausprägungen | Schulabschluss, Familienstand |\n\n**Wichtig bei kategorialen Ausprägungen:**\n• **disjunkt** = nicht überlappend\n• **erschöpfend (exhaustiv)** = jeder Merkmalsträger kann einer Kategorie zugewiesen werden\n\n**Ebene des Merkmals (Folie 27):**\n• **Individualmerkmal:** z. B. Schulnote einer/eines Schüler*in in Mathematik in der 9. Jahrgangsstufe\n• **Kollektivmerkmal:** z. B. Notendurchschnitt in Mathematik einer 9. Klasse (Lösung a05)\n\n**Skalenniveau** (ausführlich in der Messtheorie-Sitzung):\n• qualitativ: Nominal-, Ordinalskala\n• quantitativ: Intervall-, Verhältnis-, Absolutskala\n\n**Anregung für zuhause (Folie 30)** – ausgearbeitet als Hausaufgabe h02: Bildungsgrad und Einkommen beschreiben und auf beiden Ebenen operationalisieren.",
+      "beispiel": "„Wie viele Stunden lernst du pro Woche? 0–5 / 5–10 / 10–15“ ist weder disjunkt (5 und 10 passen in zwei Kategorien) noch erschöpfend (wer 20 Stunden lernt, findet keine Kategorie).",
+      "folien": "26–27, 30"
+    },
+    {
+      "titel": "Zusammenfassung und Vorbereitung aufs Seminar",
+      "text": "Das Pfaddiagramm der Statuszuweisungstheorie fasst alles zusammen (Folie 29): eine **Theorie**, deren Pfeile **Hypothesen** sind, die mit **Variablen** (Status und Bildung von Eltern und Person) als **Daten** geprüft werden.\n\nZur Vorbereitung des Seminars S03 am 27.10. empfiehlt die Vorlesung Häder (2019), Tausendpfund (2018) und Raithel (2008) mit **7 Leitfragen** (Folien 33–34) – ausgearbeitet als Hausaufgabe h01. Alle drei Bücher liegen im Ordner `Literatur/`.",
+      "folien": "28–34"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Theorie (Wissenschaft)",
+      "wortlaut": "System wissenschaftlich begründeter Aussagen zur Erklärung bestimmter Tatsachen oder Erscheinungen und der ihnen zugrunde liegenden Gesetzlichkeiten; Lehre über die allgemeinen Begriffe, Gesetze, Prinzipien eines bestimmten Bereichs der Wissenschaft, Kunst, Technik",
+      "erklaerung": "In der Wissenschaft ist eine Theorie ein begründetes Erklärungssystem – keine bloße Vermutung.",
+      "folie": "6"
+    },
+    {
+      "begriff": "Theorie (Umgangssprache)",
+      "wortlaut": "rein begriffliche, abstrakte [nicht praxisorientierte oder -bezogene] Betrachtung[sweise], Erfassung von etwas; wirklichkeitsfremde Vorstellung; bloße Vermutung",
+      "erklaerung": "Im Alltag meint „Theorie“ oft das Gegenteil von Praxis oder eine unbewiesene Idee.",
+      "folie": "6"
+    },
+    {
+      "begriff": "Empirisch bedeutsame Theorie",
+      "wortlaut": "Im weiteren Sinn: Eine Menge miteinander verknüpfter Aussagen, von denen sich eine nichtleere Teilmenge auf empirisch prüfbare Zusammenhänge zwischen Variablen bezieht. Im engeren Sinn: Eine Theorie besteht aus Grundannahmen (Definitionen der grundlegenden Begriffe; zentrale Hypothesen über Zusammenhänge, die meist nur schwer empirisch prüfbar sind) sowie aus den Grundannahmen abgeleiteten empirisch prüfbaren Hypothesen sowie Regeln zur Messung der Variablen.",
+      "erklaerung": "Mindestens ein Teil der Theorie muss sich an Daten prüfen lassen; dafür leitet man aus den Grundannahmen Hypothesen ab und legt fest, wie die Variablen gemessen werden.",
+      "folie": "9"
+    },
+    {
+      "begriff": "Hypothese",
+      "wortlaut": "Im allgemeinen Sinn: Vermutung über einen bestehenden Sachverhalt. In den Sozialwissenschaften oft Aussage über Merkmalszusammenhänge.",
+      "erklaerung": "Eine Hypothese behauptet einen Zusammenhang zwischen mindestens zwei Merkmalen, der geprüft werden kann.",
+      "folie": "13"
+    },
+    {
+      "begriff": "Deterministische Hypothese",
+      "wortlaut": "behauptet wird, dass Zusammenhang immer auftritt – wenn sie gelten, gelten sie zu jeder Zeit und in jedem Fall",
+      "erklaerung": "Ein einziger Gegenfall widerlegt sie. In den Sozialwissenschaften selten.",
+      "folie": "13"
+    },
+    {
+      "begriff": "Probabilistische Hypothese",
+      "wortlaut": "Probabilistische Hypothese / Wahrscheinlichkeitshypothese: behauptet wird ein Auftreten mit einer gewissen Wahrscheinlichkeit",
+      "erklaerung": "Der Zusammenhang gilt „meistens“ bzw. wahrscheinlicher – einzelne Gegenbeispiele widerlegen sie nicht.",
+      "folie": "13"
+    },
+    {
+      "begriff": "Individualhypothese",
+      "wortlaut": "unabhängige und abhängige Variable auf Individualebene",
+      "erklaerung": "Beide Merkmale gehören zu einzelnen Personen, z. B. Bildung und Einkommen einer Person.",
+      "folie": "16"
+    },
+    {
+      "begriff": "Kollektivhypothese",
+      "wortlaut": "beziehen sich auf Zusammenhänge von Kollektivmerkmalen",
+      "erklaerung": "Beide Merkmale gehören zu Gruppen, Regionen, Schulen …, z. B. Arbeitslosenquote und Wahlbeteiligung einer Gemeinde.",
+      "folie": "16"
+    },
+    {
+      "begriff": "Kontexthypothese",
+      "wortlaut": "unabh. Variable=KollektivM, abh. Var.=IndividualM",
+      "erklaerung": "Ein Merkmal der Umgebung wirkt auf ein Merkmal der Person, z. B. Klassengröße → Leistung des einzelnen Kindes.",
+      "folie": "16"
+    },
+    {
+      "begriff": "Ökologischer Fehlschluss",
+      "wortlaut": "ein falscher Schluss von einer Kollektiv- auf eine Individualhypothese (korrekt: Kollektiv-Individual-Fehlschluss)",
+      "erklaerung": "Was für Gruppen gilt, muss nicht für die Einzelnen darin gelten.",
+      "folie": "16"
+    },
+    {
+      "begriff": "Variable",
+      "wortlaut": "Merkmal oder Eigenschaft von Personen, Gruppen, Organisationen oder anderen Merkmalsträgern",
+      "erklaerung": "Etwas, das sich zwischen Merkmalsträgern unterscheiden kann, z. B. Geschlecht, Bildungsgrad, Einkommen.",
+      "folie": "20"
+    },
+    {
+      "begriff": "Unabhängige Variable",
+      "wortlaut": "vom Versuchsleiter/-in manipuliert",
+      "erklaerung": "Die (vermutete) Ursache, die im Experiment gezielt verändert wird.",
+      "folie": "22"
+    },
+    {
+      "begriff": "Abhängige Variable",
+      "wortlaut": "Was daraufhin gemessen / beobachtet wird",
+      "erklaerung": "Die (vermutete) Wirkung, die man misst.",
+      "folie": "22"
+    },
+    {
+      "begriff": "Störvariable",
+      "wortlaut": "alle anderen Einflüsse; diese gehören nicht zur Fragestellung, können aber die abhängige Variable ebenfalls beeinflussen; z.B. oft Versuchspersonenvariablen (Alter, Geschlecht, Erfahrung …), Externe Bedingungen (Tageszeit, Umgebung …)",
+      "erklaerung": "Alles außer der UV, was das Ergebnis verfälschen kann – muss kontrolliert werden.",
+      "folie": "22"
+    },
+    {
+      "begriff": "Kontinuierlich / stetig",
+      "wortlaut": "„unendlich viele“ Ausprägungen möglich",
+      "erklaerung": "Jeder Zwischenwert ist möglich, z. B. Zeit, Größe.",
+      "folie": "26"
+    },
+    {
+      "begriff": "Diskret",
+      "wortlaut": "abzählbar viele Ausprägungen / Kategorien",
+      "erklaerung": "Man kann die Ausprägungen aufzählen.",
+      "folie": "26"
+    },
+    {
+      "begriff": "Dichotom",
+      "wortlaut": "2 Ausprägungen",
+      "erklaerung": "Genau zwei Kategorien, z. B. ja/nein.",
+      "folie": "26"
+    },
+    {
+      "begriff": "Polytom",
+      "wortlaut": "Mehr als 2 Ausprägungen",
+      "erklaerung": "Drei oder mehr Kategorien, z. B. Schulabschluss.",
+      "folie": "26"
+    },
+    {
+      "begriff": "Disjunkt",
+      "wortlaut": "Kategorien disjunkt=nicht überlappend",
+      "erklaerung": "Jeder Merkmalsträger passt in höchstens eine Kategorie.",
+      "folie": "26"
+    },
+    {
+      "begriff": "Erschöpfend (exhaustiv)",
+      "wortlaut": "Kategorien erschöpfend (exhaustiv) =jeder Merkmalsträger kann einer Kategorie zugewiesen werden",
+      "erklaerung": "Für jeden Merkmalsträger gibt es eine passende Kategorie.",
+      "folie": "26"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe aus der Dissertation von Gianna Nannini (1993, nach Dieckmann, 2008, S. 128): „Ich habe herausgefunden, dass in anderen Kulturen, in denen Frauen größerer Unterdrückung ausgesetzt sind, auch deren Stimmlage höher ist. In weniger repressiven Gesellschaften ist sie tiefer.“ Bitte formulieren Sie eine dieser Aussage entsprechende (und potentiell empirisch überprüfbare) Hypothese. Weiterführende Frage: Wie kann diese Hypothese empirisch überprüft werden?",
+      "quelle": "Folie 14",
+      "loesung": "*Selbst erarbeitet.*\n\n**Hypothese:** „Je stärker Frauen in einer Gesellschaft unterdrückt werden, desto höher ist die durchschnittliche Stimmlage der Frauen dieser Gesellschaft.“\n\n• Typ: **Je-desto-Hypothese**, **probabilistisch** (nicht jede Frau, sondern im Durchschnitt), **Kollektivhypothese** (Merkmalsträger sind Gesellschaften)\n• unabhängige Variable: Ausmaß der Unterdrückung von Frauen\n• abhängige Variable: durchschnittliche Stimmlage der Frauen\n\n**Prüfung:** mehrere Gesellschaften auswählen; Unterdrückung über Indikatoren erfassen (z. B. Rechte, Bildungs- und Erwerbsbeteiligung von Frauen → Index); Stimmlage messen (Grundfrequenz in Hertz bei einer Stichprobe von Frauen, dann Mittelwert je Gesellschaft); Zusammenhang berechnen. Achtung: Ein Zusammenhang zwischen Gesellschaften erlaubt keinen Schluss auf einzelne Frauen (ökologischer Fehlschluss).",
+      "loesungsweg": "Aussage in Merkmale zerlegen (Unterdrückung, Stimmlage) → Richtung des Zusammenhangs festlegen → als Je-desto formulieren → Ebene bestimmen → überlegen, wie man beide Merkmale messen kann.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "Unterscheidung zwischen Variable - Ausprägung der Variable – Merkmalsträger. Beispiel Geschlecht: Variable: Geschlecht; Ausprägung der Variable: …. ?; Merkmalsträger: … ?",
+      "quelle": "Folie 20",
+      "loesung": "*Selbst erarbeitet.* Ausprägungen: z. B. weiblich, männlich, divers. Merkmalsträger: die einzelne Person.",
+      "loesungsweg": "Merkmalsträger = wer oder was das Merkmal hat; Ausprägungen = mögliche Werte der Variable.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 1: Muskelschmerzen bei Mauseingabe: Welche Wirkung hat das Eingabegerät? Es wurde untersucht, welche Wirkungen das verwendete Eingabegerät auf Befinden, Muskelverspannungen und Reaktionszeit in einer einfachen Aufgabe hat. 16 Versuchspersonen mussten so schnell wie möglich auf dem Bildschirm erscheinende ‚smileys‘ treffen. Die Hälfte wurde einer ‚Tablett + Stift‘, die andere einer ‚Maus‘-Gruppe zugeteilt. Gemessen wurde die Reaktionszeit in Millisekunden, das Befinden (auf einer graphischen Skala) und die Anspannung der Unterarmmuskeln (mit EMG). Aufgabe: Bestimmen Sie unabhängige und abhängige Variablen.",
+      "quelle": "Folie 24",
+      "loesung": "*Selbst erarbeitet.*\n• **Unabhängige Variable:** Eingabegerät mit den Ausprägungen „Tablett + Stift“ und „Maus“ (dichotom; durch Zuteilung der Gruppen manipuliert)\n• **Abhängige Variablen:** Reaktionszeit (in ms, stetig), Befinden (grafische Skala), Anspannung der Unterarmmuskeln (EMG)\n• mögliche Störvariablen: Erfahrung mit Tablett oder Maus, Händigkeit, Tageszeit",
+      "loesungsweg": "Was wird von den Forschenden festgelegt/zugeteilt? → UV. Was wird danach gemessen? → AV.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 2: Einfluss von Selbstregulation auf die Arbeitszufriedenheit. Bei jungen Universitätsdozent*innen wurde untersucht, ob die Fähigkeit zur Selbstregulation (d.h. Zielsetzung, Planung, Monitoring, Volition, Motivation, Reflexion) sich positiv auf die Arbeitszufriedenheit auswirkt. Selbstregulation und Arbeitszufriedenheit wurden mit Fragebögen gemessen. Aufgabe: Bestimmen Sie unabhängige und abhängige Variablen.",
+      "quelle": "Folie 25",
+      "loesung": "*Selbst erarbeitet.*\n• **Unabhängige Variable:** Fähigkeit zur Selbstregulation (vermutete Ursache)\n• **Abhängige Variable:** Arbeitszufriedenheit (vermutete Wirkung)\n• Hinweis: Die UV wird hier nur **gemessen**, nicht manipuliert – die Zuordnung ergibt sich aus der Fragestellung („wirkt sich … auf … aus“).",
+      "loesungsweg": "Fragestellung lesen: „ob X sich auf Y auswirkt“ → X = UV, Y = AV.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a05",
+      "art": "Aufgabe auf Folie",
+      "text": "Ebene des Merkmals / der Variable: Individualmerkmal, Kollektivmerkmal. Beispiel Bildungssystem: Individualmerkmal: Schulnote einer/eines Schüler*in in Mathematik in der 9. Jahrgangsstufe; Kollektivmerkmal: …?",
+      "quelle": "Folie 27",
+      "loesung": "*Selbst erarbeitet.* z. B. Notendurchschnitt in Mathematik einer 9. Klasse oder aller 9. Klassen einer Schule; Anteil der Schüler*innen mit Note 5 oder 6 in einem Jahrgang.",
+      "loesungsweg": "Merkmalsträger wechseln: statt der einzelnen Person eine Gruppe (Klasse, Schule) – das Merkmal wird über die Gruppe zusammengefasst.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Textvorbereitung S03: Raithel (2008), Tausendpfund (2018), Häder (2019) – 7 Leitfragen",
+      "text": "Vorbereitung für die Seminareinheit in der nächsten Woche. Literaturempfehlung:\n• Häder, M. (2019): Empirische Sozialforschung. Eine Einführung. Springer: Wiesbaden. – 3.4.1 Wenn-Dann-Hypothesen (S.43-44), 3.4.2 Je-Desto-Hypothesen (S.44-45), 3.4.4 Individual-, Kollektiv- und Kontexthypothesen (S.46-47)\n• Tausendpfund, M. (2018): Quantitative Methoden in der Politikwissenschaft. Eine Einführung. Springer: Wiesbaden. – 2.2 Variable und Konstante / 2.3 Abhängige und unabhängige Variable (S. 10-11), 2.3 Abhängige und abhängige Variable (S. 11-14), 6 Hypothesen (S. 91-106)\n• Raithel, J. (2008). Quantitative Forschung. Ein Praxiskurs. 2., durchgesehene Auflage. Wiesbaden: VS Verlag für Sozialwissenschaften. – 2.3 Theorie (S. 15-17)\n\nLeitfragen für die Literatur:\n1. Was ist in der empirischen Sozialforschung eine Theorie? Welche Kriterien muss eine gute Theorie erfüllen? (Raithel 2008, S. 15-17)\n2. In welchem Verhältnis stehen Theorie, Hypothese und Variable? (Raithel 2008, S. 16)\n3. Welche Formen von Variablen werden in der Literatur unterschieden und welche Unterscheidungsmerkmale werden genannt? In welchem Verhältnis stehen abhängige und unabhängige Variable? Was muss bei manifesten und latenten Variablen beachtet werden? (Tausendpfund 2018, S. 10-14)\n4. Welche Differenzierung gibt es bei der Anzahl der Merkmalsausprägungen? Was ist in diesem Zusammenhang eine Konstante? (Raithel 2008, S. 37-38; Tausendpfund 2018, S. 10-11)\n5. Wann sind Merkmalsausprägungen disjunkt und erschöpfend (exhaustiv)? (Tausendpfund 2018, S. 257-258)\n6. Welche Formen von Hypothesen werden in der Literatur unterschieden und welche Unterscheidungsmerkmale werden genannt? Was ist der Unterschied zwischen einer deterministischen und probabilistischen Hypothese? Was sind gerichtete und ungerichtete Hypothesen? Welche Aussagen werden mit einer je-desto-Hypothese und einer wenn-dann-Hypothese getroffen? (Häder 2019, S. 43-47)\n7. Was sind Individual- , was sind Kollektivmerkmale? (Häder 2019, S. 46)",
+      "quelle": "Folien 33–34",
+      "loesung": "**1. Theorie und Kriterien einer guten Theorie** (Raithel S. 15–17)\n• **Aufgabe** einer Theorie ist „die Erklärung einer Reihe von Sachverhalten unter übergeordneten Gesichtspunkten“ (S. 15 f.) – eine Lerntheorie z. B. muss das Lernen insgesamt erklären, nicht nur einen Aspekt oder eine Person.\n• Theorien sollen die Wirklichkeit nicht „verdoppeln“, sondern die **Hauptmerkmale** erfassen: „so einfach wie möglich, aber … so komplex wie nötig“ (Einstein).\n• **Formal:** „ein System logisch miteinander verbundener, widerspruchsfreier Aussagen oder Sätze …, das mehrere Hypothesen und Gesetze umfasst“ (S. 16). In der empirischen Sozialforschung nur **empirisch überprüfbare** Aussagen, die über Einzelfälle hinausweisen.\n• **Bestandteile:** 1) Grundannahmen – a) zentrale Hypothese (Axiom), b) Definitionen der grundlegenden Begriffe; 2) daraus abgeleitete Hypothesen sowie Regeln zur Messung der Variablen. **Axiome** sind nicht aus anderen Aussagen ableitbar, haben die höchste Allgemeinheit und gelten als „selbstevident“; daraus werden **Theoreme** abgeleitet.\n• **Kriterien** (Abel/Möller/Treumann 1998, nach Raithel S. 17): Eine Theorie muss 1) den Gesetzen der Logik entsprechen, 2) in sich **widerspruchsfrei** sein, 3) Aussagen enthalten, die nicht aus ihr selbst herleitbar sind (Axiome), 4) Aussagen enthalten, die sich durch erlaubte Ableitungsregeln aus den Axiomen ableiten lassen.\n• **Reichweite** (König 1973): reiner Empirismus → Ad-hoc-Theorien → Theorien mittlerer Reichweite (Merton; z. B. Homans) → Theorien höherer Komplexität (z. B. Parsons). Je abstrakter, desto schwerer empirisch prüfbar.\n• *Aus der Vorlesung (Folie 11):* widerspruchsfrei, präzise, einfach/sparsam, objektivierbar, empirisch gehaltvoll, falsifizierbar.\n\n**2. Theorie – Hypothese – Variable** (Raithel S. 14, 16)\nEine Theorie besteht aus Grundannahmen und den **daraus abgeleiteten Hypothesen sowie Regeln zur Messung der Variablen**. Hypothesen sind Aussagen über einen Zusammenhang zwischen **mindestens zwei Variablen** (S. 14). Also: Theorie (allgemein, abstrakt) → Hypothesen (konkret, prüfbar) → Variablen (messbare Bausteine der Hypothesen). Geprüft wird von unten: Daten zu den Variablen bestätigen oder widerlegen Hypothesen und damit die Theorie – genau der Baum THEORIE → H1, H2 … → D1, D2 … der Vorlesung.\n\n**3. Formen von Variablen** (Tausendpfund S. 10–14)\n• **Variable:** „ein sozialwissenschaftliches Merkmal mit mindestens zwei Ausprägungen“ (S. 11); der Inhalt hängt von der Forschungsfrage ab.\n• **manifest vs. latent:** manifest = direkt beobachtbar (Geschlecht, Größe, Haarfarbe); latent = entzieht sich der direkten Beobachtung (Intelligenz, Ausländerfeindlichkeit, soziales Vertrauen). **Latente Variablen müssen erst „beobachtbar“ gemacht werden → Operationalisierung**; Studien verwenden für denselben Begriff oft unterschiedliche Indikatoren – deren Angemessenheit muss man prüfen (S. 10).\n• **abhängig vs. unabhängig:** Die **aV** (auch bedingte, Ziel- oder Kriteriumsvariable) ist der Sachverhalt, der erklärt werden soll; die **uV** (erklärende bzw. Prädiktorvariable) ist das Merkmal mit (vermutetem) Einfluss auf die aV. Das Modell unterstellt einen (kausalen) Einfluss uV → aV (S. 12). Beispiele: Motivation → PISA-Ergebnis; politisches Interesse → Wahlteilnahme; Geschlecht → Gehalt.\n• Meist **eine aV, aber mehrere uVs** (S. 13). Ob ein Merkmal aV oder uV ist, ist **kontextabhängig**: politisches Interesse ist aV bei „Bildung → politisches Interesse“, aber uV bei „politisches Interesse → Wahlteilnahme“ (S. 13 f.). Die aV muss man im Blick behalten.\n\n**4. Anzahl der Merkmalsausprägungen; Konstante** (Raithel S. 37–38; Tausendpfund S. 10–11)\n• **stetig (kontinuierlich):** jeder beliebige Wert aus den reellen Zahlen; die Ausprägungen bilden ein Kontinuum, „überabzählbar viele“ (z. B. Geschwindigkeit).\n• **diskret (diskontinuierlich):** **dichotom** = zwei Kategorien (Geschlecht, Ja–Nein); **polytom** = endlich viele, abzählbare Werte (Familienstand, Bildungsstand, Konfession) (Raithel S. 38).\n• Ausprägungen müssen **eindeutig, ausschließlich (disjunkt) und vollständig** sein (Raithel S. 37).\n• **Konstante:** „Ein Merkmal mit nur einer Ausprägung“ (Tausendpfund S. 11) – es variiert nicht und ist daher keine Variable.\n\n**5. Disjunkt und erschöpfend** (Tausendpfund S. 257–258, „8. Gebot“ der Frageformulierung)\n• **disjunkt** (überschneidungsfrei): eine Person kann sich bei einer Frage ohne Mehrfachantworten **genau einer** Antwort zuordnen. Gegenbeispiel: „0 bis 5 Stunden“, „5 bis 10 Stunden“, „10 bis 15 Stunden“ … – wer 15 Stunden lernt, passt in zwei Kategorien.\n• **erschöpfend:** es gibt für **jede** Person eine passende Kategorie (bei Raithel: „vollständig“).\n• Außerdem sollen Kategorien **präzise** sein und ausreichend unterscheiden: Einkommen in nur drei Klassen ist für eine Auswertung zu grob – mit der Wahl der Kategorien entscheidet man schon über das Messniveau.\n\n**6. Formen von Hypothesen** (Häder S. 43–47; ergänzend Tausendpfund S. 91–98)\n• **Wenn-dann-Hypothese:** setzt voraus, dass **beide Variablen dichotom** sind (Häder S. 43). Zwei Typen: **Implikation** – das abhängige Merkmal kann auch ohne das unabhängige auftreten; nur „U liegt vor, W bleibt aus“ widerlegt sie (ein Falsifikator); **Äquivalenz** – das unabhängige Merkmal ist notwendig und hinreichend („nur wenn …, dann …“), auch „~U und W“ widerlegt sie (zwei Falsifikatoren) (S. 44).\n• **Je-desto-Hypothese:** die Kategorien der Variablen sind (mindestens) als **Rangfolge** interpretierbar (ordinal); der Zusammenhang kann positiv oder negativ sein (S. 44 f.). Beispiel: „Je hilfsbedürftiger ein Opfer ist, desto stärker wird Notwehrhilfe als gerechtfertigt angesehen.“\n• **deterministisch (nomologisch):** Geltung **unabhängig von Raum und Zeit** – „Allaussagen“ (S. 45). **probabilistisch:** gilt nur mit einer **bestimmten Wahrscheinlichkeit** – z. B. „Je höher der Bildungsstand, desto eher entspricht die Haltung der Rechtsprechung“; schon ein Verhältnis von 51 zu 49 würde die Hypothese stützen (S. 45 f.). Ein Einzelfall widerlegt sie nicht.\n• Weitere Einteilungen: nach **Bezugsebene** (Individual-, Kollektiv-, Kontexthypothese, S. 46 f.) und nach **Bearbeitungsstand** (schon geprüft oder nicht, S. 47). Untauglich sind Existenz- und „Kann“-Sätze, weil nicht falsifizierbar (S. 43).\n• **Gerichtet / ungerichtet** – *Ergänzung (steht nicht auf den angegebenen Seiten):* Eine **gerichtete** Hypothese gibt die **Richtung** an („je höher …, desto **höher** …“, „Gruppe A hat **höhere** Werte als B“); eine **ungerichtete** behauptet nur, **dass** ein Zusammenhang oder Unterschied besteht („Bildung und Einkommen hängen zusammen“).\n• **Aussagen:** Eine **Wenn-dann-Hypothese** sagt: Liegt A vor, tritt B auf (bzw. wahrscheinlicher auf) – für zwei dichotome Merkmale. Eine **Je-desto-Hypothese** sagt: Mit steigender Ausprägung von A steigt (positiv) oder sinkt (negativ) B – für rangfähige Merkmale; der Verlauf kann linear oder z. B. U-förmig sein (Tausendpfund S. 96 f.).\n\n**7. Individual- und Kollektivmerkmale** (Häder S. 46)\n• **Individualmerkmale** betreffen ein einzelnes Individuum – z. B. Ausbildungsdauer und Höhe des Einkommens einer Person.\n• **Kollektivmerkmale** werden Kollektiven (Gruppen, Gesellschaften) zugeschrieben – z. B. das „gesellschaftliche Sein“ und „Bewusstsein“ bei Marx oder die Ansichten der Allgemeinbevölkerung.\n• Daraus: Individualhypothese (beide Individualmerkmale), Kollektivhypothese (beide Kollektivmerkmale), Kontexthypothese (uV kollektiv, aV individuell). **Rückschlüsse von der Kollektiv- auf die Individualebene sind nicht zwingend logisch** (S. 47) – vgl. ökologischer Fehlschluss.",
+      "loesungsweg": "Die angegebenen Seiten in den drei Büchern lesen (alle im Ordner Literatur/), je Leitfrage die Kernbegriffe mit Seitenangabe herausschreiben und mit den Begriffen der Vorlesung (Folien 9–27) verbinden. Gerichtet/ungerichtet steht in keinem der drei Texte – im Seminar nachfragen.",
+      "frist": "2026-10-27",
+      "im_kalender": true,
+      "fuer_sitzung": "ewb002.2_2026-10-27",
+      "kalender_id": "24a4f0ba-4a77-41bf-a64d-223ea244bde9",
+      "pdf": "/dateien/ewb002/S03_2026-10-27_Hausaufgabe_Textvorbereitung_Raithel-Tausendpfund-Haeder_Leitfragen.pdf"
+    },
+    {
+      "id": "h02",
+      "art": "Hausaufgabe",
+      "titel": "Anregung VL S02: Bildungsgrad und Einkommen – Ausprägungen und Operationalisierung",
+      "text": "Anregung - Aufgabe für zuhause: Geben Sie Merkmalsträger und mögliche Ausprägungen der Variablen Bildungsgrad und Einkommen an. Welche Eigenschaften haben diese Ausprägungen? Benutzen Sie zur Beschreibung die Begriffe stetig / kontinuierlich; diskret / kategorial; dichotom; polytom; disjunkt; erschöpfend / exhaustiv.\n\nAnregung - Aufgabe für zuhause: Indem Sie mögliche Ausprägungen der Variablen Bildungsgrad und Einkommen angegeben haben, haben Sie die Variablen „operationalisiert“. Haben Sie sie als Individualmerkmal oder als Kollektivmerkmal operationalisiert? Wie könnte eine Operationalisierung auf der jeweils anderen Ebene der Merkmalsausprägung aussehen?",
+      "quelle": "Folie 30",
+      "loesung": "*Selbst erarbeitet – auf den Folien steht keine Lösung.*\n\n**Teil 1: Merkmalsträger, Ausprägungen, Eigenschaften**\n\n| | Bildungsgrad | Einkommen |\n| --- | --- | --- |\n| Merkmalsträger | einzelne Person | einzelne Person (oder Haushalt) |\n| mögliche Ausprägungen | höchster Abschluss: ohne Abschluss / Hauptschulabschluss / Realschulabschluss / Fachhochschulreife oder Abitur / Hochschulabschluss / anderer Abschluss | a) Betrag in € pro Monat (z. B. 2.347,50 €) oder b) Klassen: kein Einkommen / unter 1.000 € / 1.000 bis unter 2.000 € / 2.000 bis unter 3.000 € / 3.000 € und mehr |\n| stetig oder diskret? | diskret / kategorial (abzählbare Kategorien) | a) stetig / kontinuierlich (beliebige Zwischenwerte) · b) diskret / kategorial |\n| dichotom oder polytom? | polytom (mehr als 2 Ausprägungen) | b) polytom; dichotom wäre z. B. „hat eigenes Einkommen: ja / nein“ |\n| disjunkt? | ja – **wenn** nach dem **höchsten** Abschluss gefragt wird; sonst passt man mit Abitur *und* Realschulabschluss in zwei Kategorien | b) ja – **wenn** die Grenzen eindeutig sind („bis **unter** 2.000 €“); „1.000–2.000 / 2.000–3.000“ überlappt bei genau 2.000 € |\n| erschöpfend? | ja – durch „ohne Abschluss“ und „anderer Abschluss“ | b) ja – durch „kein Einkommen“ und die offene Klasse „3.000 € und mehr“ |\n\n**Teil 2: Operationalisierung und Ebene**\n\nAlle Ausprägungen oben sind **Individualmerkmale** – Merkmalsträger ist die einzelne Person.\n\nOperationalisierung auf der **Kollektivebene** (Merkmalsträger ist eine Gruppe, Gemeinde, Schule, Region):\n• **Bildungsgrad:** Anteil der Menschen mit Hochschulabschluss in einer Gemeinde (in %); Abiturquote einer Schule oder eines Landkreises\n• **Einkommen:** durchschnittliches Monatseinkommen in einem Landkreis; Anteil der Haushalte unter der Armutsgrenze in einem Stadtteil\n\nDiese Kollektivmerkmale sind meist **stetig** (Prozentwerte, Durchschnitte). Vorsicht: Ein Zusammenhang zwischen solchen Kollektivmerkmalen erlaubt keinen Schluss auf Einzelne (ökologischer Fehlschluss).",
+      "loesungsweg": "Für jede Variable fragen: Wer hat das Merkmal (Merkmalsträger)? Welche Werte sind möglich? Unendlich viele (stetig) oder abzählbar (diskret)? Zwei oder mehr (dichotom/polytom)? Überlappen sich Kategorien (disjunkt)? Passt jeder hinein (erschöpfend)? Dann den Merkmalsträger auf eine Gruppe wechseln (Kollektivebene).",
+      "frist": "2026-10-27",
+      "im_kalender": true,
+      "fuer_sitzung": "ewb002.2_2026-10-27",
+      "kalender_id": "c2d24f88-a416-4c37-a16a-e49b3de9c6e7",
+      "pdf": "/dateien/ewb002/S03_2026-10-27_Hausaufgabe_Variablen_Bildungsgrad-Einkommen.pdf"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man in der Wissenschaft unter einer Theorie?",
+      "antwort": "Ein System wissenschaftlich begründeter Aussagen zur Erklärung bestimmter Tatsachen oder Erscheinungen und der ihnen zugrunde liegenden Gesetzlichkeiten (bzw. die Lehre über die allgemeinen Begriffe, Gesetze und Prinzipien eines Bereichs).",
+      "erklaerung": "Folie 6 – im Gegensatz zur Umgangssprache keine bloße Vermutung.",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "text": "Im engeren Sinn besteht eine empirisch bedeutsame Theorie aus [[Grundannahmen]] sowie daraus abgeleiteten empirisch prüfbaren [[Hypothesen]] und Regeln zur [[Messung]] der Variablen.",
+      "erklaerung": "Folie 9.",
+      "folie": "9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Bedeutungen von „Theorie“ zu.",
+      "kategorien": [
+        "Wissenschaft",
+        "Umgangssprache"
+      ],
+      "elemente": [
+        {
+          "text": "System begründeter Aussagen zur Erklärung von Tatsachen",
+          "kategorie": "Wissenschaft"
+        },
+        {
+          "text": "Lehre über allgemeine Begriffe, Gesetze, Prinzipien eines Bereichs",
+          "kategorie": "Wissenschaft"
+        },
+        {
+          "text": "wirklichkeitsfremde Vorstellung",
+          "kategorie": "Umgangssprache"
+        },
+        {
+          "text": "bloße Vermutung",
+          "kategorie": "Umgangssprache"
+        }
+      ],
+      "erklaerung": "Folie 6.",
+      "folie": "6",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f04",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was ist eine empirisch bedeutsame Theorie im weiteren Sinn?",
+      "antwort": "Eine Menge miteinander verknüpfter Aussagen, von denen sich eine nichtleere Teilmenge auf empirisch prüfbare Zusammenhänge zwischen Variablen bezieht.",
+      "erklaerung": "Nicht alle Aussagen müssen prüfbar sein – aber mindestens ein Teil.",
+      "folie": "9",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f05",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Kriterien kennzeichnen laut Vorlesung eine gute Theorie? (mehrere richtig)",
+      "optionen": [
+        "widerspruchsfrei",
+        "möglichst kompliziert",
+        "präzise",
+        "falsifizierbar",
+        "empirisch gehaltvoll",
+        "nur theoretisch, nicht überprüfbar"
+      ],
+      "richtig": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Folie 11: widerspruchsfrei, präzise, einfach/sparsam (Ockhams Rasiermesser), objektivierbar, empirisch gehaltvoll, falsifizierbar. „Kompliziert“ widerspricht der Sparsamkeit, „nicht überprüfbar“ der Falsifizierbarkeit.",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was zeigt das Pfaddiagramm der Statuszuweisungstheorie (Diekmann 2008, S. 148)? (mehrere richtig)",
+      "optionen": [
+        "Der Bildungsgrad einer Person wirkt positiv auf ihren beruflichen Status.",
+        "Status und Bildung des Elternhauses wirken nur über die Bildung der Person.",
+        "Status und Bildung des Elternhauses wirken auch direkt auf den beruflichen Status der Person.",
+        "Jeder Pfeil lässt sich als prüfbare Hypothese lesen."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Es gibt direkte Pfeile vom Elternhaus zum beruflichen Status der Person – also nicht nur den Weg über die Bildung.",
+      "folie": "8, 29",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f07",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist eine Hypothese?",
+      "antwort": "Im allgemeinen Sinn eine Vermutung über einen bestehenden Sachverhalt; in den Sozialwissenschaften oft eine Aussage über Merkmalszusammenhänge.",
+      "erklaerung": "Folie 13.",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "vergleich",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "„Schülerinnen und Schüler mit hoher Lesemotivation erzielen meistens bessere Leseleistungen.“ Welche Aussagen treffen auf diese Hypothese zu? (mehrere richtig)",
+      "optionen": [
+        "Sie ist probabilistisch.",
+        "Sie ist deterministisch.",
+        "Ein einzelnes motiviertes Kind mit schwacher Leseleistung widerlegt sie nicht.",
+        "Sie gilt zu jeder Zeit und in jedem Fall."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "„meistens“ = mit einer gewissen Wahrscheinlichkeit → probabilistisch. Eine deterministische Hypothese würde „immer“ behaupten und schon durch einen Gegenfall widerlegt.",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Hypothesen dem passenden Typ zu.",
+      "kategorien": [
+        "Wenn-dann-Hypothese",
+        "Je-desto-Hypothese",
+        "Trend-/Entwicklungshypothese"
+      ],
+      "elemente": [
+        {
+          "text": "Wenn ein Kind eine Kita besucht hat, dann ist es bei der Einschulung sprachlich weiter.",
+          "kategorie": "Wenn-dann-Hypothese"
+        },
+        {
+          "text": "Je mehr Zeit Jugendliche am Smartphone verbringen, desto weniger schlafen sie.",
+          "kategorie": "Je-desto-Hypothese"
+        },
+        {
+          "text": "Der Anteil der Abiturient*innen eines Jahrgangs steigt über die Jahre.",
+          "kategorie": "Trend-/Entwicklungshypothese"
+        },
+        {
+          "text": "Je größer die Klasse, desto geringer die Lernzeit pro Kind.",
+          "kategorie": "Je-desto-Hypothese"
+        }
+      ],
+      "erklaerung": "Wenn-dann: zwei dichotome Merkmale; Je-desto: rangfähige Merkmale; Trend: Veränderung über die Zeit (Folie 13).",
+      "folie": "13",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f10",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Gianna Nannini: „Ich habe herausgefunden, dass in anderen Kulturen, in denen Frauen größerer Unterdrückung ausgesetzt sind, auch deren Stimmlage höher ist.“ Formuliere eine empirisch prüfbare Hypothese und bestimme Typ, unabhängige und abhängige Variable.",
+      "musterloesung": "„Je stärker Frauen in einer Gesellschaft unterdrückt werden, desto höher ist die durchschnittliche Stimmlage der Frauen dieser Gesellschaft.“ Je-desto-Hypothese, probabilistisch, Kollektivhypothese. UV: Ausmaß der Unterdrückung von Frauen; AV: durchschnittliche Stimmlage der Frauen.",
+      "bewertungspunkte": [
+        "prüfbare Hypothese mit zwei Merkmalen und Richtung",
+        "Typ (Je-desto, Kollektiv) korrekt",
+        "UV und AV korrekt benannt"
+      ],
+      "punkte": 3,
+      "erklaerung": "Aufgabe a01 (Folie 14).",
+      "folie": "14",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f11",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Hypothesen der passenden Ebene zu.",
+      "kategorien": [
+        "Individualhypothese",
+        "Kollektivhypothese",
+        "Kontexthypothese"
+      ],
+      "elemente": [
+        {
+          "text": "Je mehr Hausaufgabenzeit eine Schülerin investiert, desto besser ihre Note.",
+          "kategorie": "Individualhypothese"
+        },
+        {
+          "text": "Je höher die Arbeitslosenquote einer Gemeinde, desto geringer die Wahlbeteiligung in der Gemeinde.",
+          "kategorie": "Kollektivhypothese"
+        },
+        {
+          "text": "Je größer die Klasse, desto geringer die Leseleistung des einzelnen Kindes.",
+          "kategorie": "Kontexthypothese"
+        },
+        {
+          "text": "Je höher der Anteil an Katholik:innen in einer Region, desto höher der CDU-Anteil dort.",
+          "kategorie": "Kollektivhypothese"
+        }
+      ],
+      "erklaerung": "Individual: UV und AV individuell; Kollektiv: beide Kollektivmerkmale; Kontext: UV kollektiv, AV individuell (Folie 16).",
+      "folie": "16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist ein ökologischer Fehlschluss?",
+      "antwort": "Ein falscher Schluss von einer Kollektiv- auf eine Individualhypothese (korrekt: Kollektiv-Individual-Fehlschluss).",
+      "erklaerung": "Folie 16.",
+      "folie": "16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Eine Zeitung meldet: „In Stadtteilen mit hohem Anteil an Familien mit Migrationsgeschichte sind die Ergebnisse im Lesetest schlechter. Kinder mit Migrationsgeschichte lesen also schlechter.“ Beurteile diese Schlussfolgerung.",
+      "musterloesung": "Der Befund ist eine Kollektivhypothese (Merkmalsträger: Stadtteile). Der Schluss auf einzelne Kinder ist ein ökologischer Fehlschluss: Der Zusammenhang auf Stadtteilebene kann auch entstehen, wenn gerade die Kinder ohne Migrationsgeschichte in diesen Stadtteilen schlechter lesen oder andere Merkmale des Stadtteils (z. B. Schulausstattung) wirken. Für eine Aussage über einzelne Kinder braucht man Individualdaten (Migrationsgeschichte und Leseleistung je Kind).",
+      "bewertungspunkte": [
+        "als Kollektivbefund / Kollektivhypothese erkannt",
+        "ökologischen Fehlschluss benannt und erklärt",
+        "Individualdaten als Lösung genannt"
+      ],
+      "punkte": 3,
+      "erklaerung": "Transfer im offenen Klausurstil (eigene Ergänzung), angelehnt an Folien 16–18.",
+      "folie": "16–18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist eine Variable?",
+      "antwort": "Ein Merkmal oder eine Eigenschaft von Personen, Gruppen, Organisationen oder anderen Merkmalsträgern (z. B. Geschlecht, Bildungsgrad, Einkommen).",
+      "erklaerung": "Folie 20.",
+      "folie": "20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Beispiel Schulnote in Mathe: Ordne zu.",
+      "kategorien": [
+        "Variable",
+        "Ausprägung",
+        "Merkmalsträger"
+      ],
+      "elemente": [
+        {
+          "text": "Mathenote",
+          "kategorie": "Variable"
+        },
+        {
+          "text": "„gut (2)“",
+          "kategorie": "Ausprägung"
+        },
+        {
+          "text": "Schülerin Lea",
+          "kategorie": "Merkmalsträger"
+        },
+        {
+          "text": "„mangelhaft (5)“",
+          "kategorie": "Ausprägung"
+        }
+      ],
+      "erklaerung": "Variable = das Merkmal, Ausprägung = ein möglicher Wert, Merkmalsträger = wer das Merkmal hat (Folie 20).",
+      "folie": "20",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f16",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was sind unabhängige, abhängige und Störvariablen?",
+      "antwort": "Unabhängige Variable: vom Versuchsleiter manipuliert. Abhängige Variable: was daraufhin gemessen/beobachtet wird. Störvariablen: alle anderen Einflüsse, die nicht zur Fragestellung gehören, aber die abhängige Variable ebenfalls beeinflussen können (z. B. Alter, Erfahrung, Tageszeit, Umgebung).",
+      "erklaerung": "Folie 22.",
+      "folie": "22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "16 Versuchspersonen treffen am Bildschirm Smileys – die Hälfte mit „Tablett + Stift“, die andere mit „Maus“. Gemessen werden Reaktionszeit (ms), Befinden (grafische Skala) und Muskelanspannung (EMG). Bestimme unabhängige und abhängige Variablen und nenne eine mögliche Störvariable.",
+      "musterloesung": "UV: Eingabegerät (Tablett + Stift vs. Maus). AV: Reaktionszeit, Befinden, Anspannung der Unterarmmuskeln. Störvariable z. B.: Erfahrung mit dem Gerät, Händigkeit, Tageszeit.",
+      "bewertungspunkte": [
+        "UV korrekt",
+        "alle drei AV genannt",
+        "plausible Störvariable"
+      ],
+      "punkte": 3,
+      "erklaerung": "Aufgabe a03 (Folie 24).",
+      "folie": "24",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Bei jungen Universitätsdozent*innen wird untersucht, ob die Fähigkeit zur Selbstregulation sich positiv auf die Arbeitszufriedenheit auswirkt; beides wird per Fragebogen gemessen. Bestimme UV und AV. Was unterscheidet diese Studie vom Maus-Beispiel?",
+      "musterloesung": "UV: Fähigkeit zur Selbstregulation; AV: Arbeitszufriedenheit. Unterschied: Die UV wird nicht manipuliert, sondern nur gemessen – die Rollen ergeben sich aus der Fragestellung (vermutete Ursache → Wirkung); streng genommen ist es kein Experiment.",
+      "bewertungspunkte": [
+        "UV und AV korrekt",
+        "Unterschied gemessen vs. manipuliert erkannt"
+      ],
+      "punkte": 2,
+      "erklaerung": "Aufgabe a04 (Folie 25); der zweite Teil ist eine eigene Ergänzung.",
+      "folie": "25",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f19",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Variablen nach der Anzahl ihrer Ausprägungen zu.",
+      "kategorien": [
+        "stetig / kontinuierlich",
+        "diskret – dichotom",
+        "diskret – polytom"
+      ],
+      "elemente": [
+        {
+          "text": "Bearbeitungszeit eines Tests in Sekunden",
+          "kategorie": "stetig / kontinuierlich"
+        },
+        {
+          "text": "Körpergröße",
+          "kategorie": "stetig / kontinuierlich"
+        },
+        {
+          "text": "Abitur bestanden: ja / nein",
+          "kategorie": "diskret – dichotom"
+        },
+        {
+          "text": "Schulform (Grundschule, Oberschule, Gymnasium, Förderschule)",
+          "kategorie": "diskret – polytom"
+        },
+        {
+          "text": "Familienstand",
+          "kategorie": "diskret – polytom"
+        }
+      ],
+      "erklaerung": "Stetig: „unendlich viele“ Ausprägungen; diskret: abzählbar – dichotom (2) oder polytom (>2) (Folie 26).",
+      "folie": "26",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wann sind Kategorien disjunkt, wann erschöpfend (exhaustiv)?",
+      "antwort": "Disjunkt: Die Kategorien überlappen sich nicht. Erschöpfend: Jeder Merkmalsträger kann einer Kategorie zugewiesen werden.",
+      "erklaerung": "Folie 26.",
+      "folie": "26",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "In einem Fragebogen steht: „Wie viele Stunden lernst du pro Woche? 0–5 / 5–10 / 10–15“. Warum kann die Frage so nicht gestellt werden? Formuliere die Antwortkategorien so, dass die Variable polytom erfasst wird und die Frage aufgenommen werden kann.",
+      "musterloesung": "Die Kategorien sind nicht disjunkt (wer genau 5 oder 10 Stunden lernt, passt in zwei Kategorien) und nicht erschöpfend (wer mehr als 15 Stunden lernt, findet keine Kategorie). Verbesserung: „weniger als 5 Stunden / 5 bis unter 10 Stunden / 10 bis unter 15 Stunden / 15 Stunden und mehr“ – überschneidungsfrei, vollständig und mit mehr als zwei Ausprägungen (polytom).",
+      "bewertungspunkte": [
+        "fehlende Disjunktheit mit Beispiel begründet",
+        "fehlende Erschöpfung begründet",
+        "korrigierte, disjunkte und erschöpfende Kategorien",
+        "mehr als zwei Kategorien (polytom)"
+      ],
+      "punkte": 4,
+      "erklaerung": "Im Stil der Klausuraufgabe „Eigenschaften von Variablenausprägungen“ aus dem WS 25/26 (eigene Ergänzung).",
+      "folie": "26, 30",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f22",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Welche der folgenden Merkmale sind Kollektivmerkmale? (mehrere richtig)",
+      "optionen": [
+        "Notendurchschnitt in Mathematik einer 9. Klasse",
+        "Mathenote der Schülerin Lea",
+        "Abiturquote eines Landkreises",
+        "Alter eines Lehrers"
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Kollektivmerkmale haben Gruppen als Merkmalsträger (Klasse, Landkreis), Individualmerkmale einzelne Personen (Folie 27).",
+      "folie": "27",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f23",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Skalenniveaus zu.",
+      "kategorien": [
+        "qualitativ",
+        "quantitativ"
+      ],
+      "elemente": [
+        {
+          "text": "Nominalskala",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "Ordinalskala",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "Intervallskala",
+          "kategorie": "quantitativ"
+        },
+        {
+          "text": "Verhältnisskala",
+          "kategorie": "quantitativ"
+        },
+        {
+          "text": "Absolutskala",
+          "kategorie": "quantitativ"
+        }
+      ],
+      "erklaerung": "Folie 27 – ausführlich in der Sitzung Messtheorie.",
+      "folie": "27",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f24",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Eine Schule führt für die Hälfte der 5. Klassen ein tägliches 15-minütiges Lesetraining ein. Formuliere eine prüfbare Hypothese, bestimme Typ, unabhängige und abhängige Variable und nenne zwei Störvariablen.",
+      "musterloesung": "Hypothese z. B.: „Wenn Kinder am täglichen Lesetraining teilnehmen, dann ist ihre Leseleistung am Schuljahresende höher als ohne Training.“ Wenn-dann-Hypothese (Training ja/nein), probabilistisch, Individualhypothese (Kausalhypothese). UV: Teilnahme am Lesetraining (ja/nein); AV: Leseleistung (z. B. Punktzahl in einem Lesetest). Störvariablen: Leseförderung zu Hause, Vorwissen/Ausgangsleistung, Lehrkraft der Klasse, Deutsch als Zweitsprache.",
+      "bewertungspunkte": [
+        "prüfbare Hypothese mit Richtung",
+        "Typ korrekt bestimmt",
+        "UV und AV korrekt",
+        "zwei plausible Störvariablen"
+      ],
+      "punkte": 4,
+      "erklaerung": "Transferaufgabe (eigene Ergänzung) im Klausurstil.",
+      "folie": "13, 16, 22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f25",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Bei einer Abfrage des Taschengelds stehen zur Auswahl: unter 20 € | 20 € bis unter 40 € | 40 € bis unter 60 €. Welche Aussage trifft zu?",
+      "optionen": [
+        "Die Kategorien sind disjunkt und erschöpfend.",
+        "Die Kategorien sind disjunkt, aber nicht erschöpfend.",
+        "Die Kategorien sind erschöpfend, aber nicht disjunkt.",
+        "Die Kategorien sind weder disjunkt noch erschöpfend."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Die Grenzen „bis unter“ überlappen nicht → disjunkt. Wer 60 € oder mehr bekommt, findet keine Kategorie → nicht erschöpfend. (Format wie in den Weihnachtsübungen WS 25/26.)",
+      "folie": "26",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Klausur WS 25/26 (Gedächtnisprotokoll): Antwortkategorien auf Disjunktheit/Erschöpfung prüfen und polytom neu formulieren; H0/H1 zu einem Beispiel formulieren; im Experiment UV, AV und Störvariable bestimmen.",
+    "Weihnachtsübungen WS 25/26: „Merkmalsausprägungen“ (disjunkt/erschöpfend; kontinuierlich, dichotom, polytom) und „Arten von Hypothesen“, „Abhängige und unabhängige Variablen“."
+  ],
+  "offene_fragen": [
+    "Leitfrage 6 fragt nach gerichteten und ungerichteten Hypothesen – das steht auf keiner der angegebenen Seiten (Häder S. 43–47) und auch sonst in keinem der drei Bücher. Im Seminar am 27.10. nachfragen, welche Quelle gemeint ist.",
+    "Holt Herr Brodowy das Thema in der Online-VL am 29.10. nach oder geht es direkt mit Untersuchungsplanung weiter?"
+  ],
+  "auffaelligkeiten": [
+    "Folien 6 und 7 sind identisch (vermutlich Animationsschritt).",
+    "Folien 11 und 14: „Dieckmann“ statt „Diekmann“.",
+    "Folie 33: „2.3 Abhängige und abhängige Variable“ – gemeint ist „unabhängige“; außerdem zweimal Abschnitt „2.3“ mit unterschiedlichen Seiten.",
+    "Folie 3: VL-Plan mit KW 44 für dieses Thema – tatsächlich 21.10. (KW 43); der Plan ist der aus dem WS 25/26."
+  ]
+}

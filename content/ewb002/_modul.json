@@ -41,7 +41,9 @@
     },
     {
       "text": "breites und integriertes Wissen über die Struktur und den Ablauf wissenschaftlicher Untersuchungen",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "ewb002.1_2026-10-21"
+      ]
     },
     {
       "text": "breites und integriertes Wissen über Gütekriterien empirischer Forschung",
@@ -65,7 +67,9 @@
     },
     {
       "text": "empirischen Fragestellungen methodische Ansätze zuordnen und empirisch prüfbare Hypothesen formulieren",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "ewb002.1_2026-10-21"
+      ]
     },
     {
       "text": "bei konkreten Fragestellungen und Studien statistische Maßzahlen und die Ergebnisse univariater inferenzstatistischer Verfahren interpretieren",
@@ -93,7 +97,8 @@
     }
   ],
   "sitzungen": [
-    "ewb002.2_2026-10-13"
+    "ewb002.2_2026-10-13",
+    "ewb002.1_2026-10-21"
   ],
   "sitzungsplan": [
     {
@@ -321,7 +326,8 @@
   "fehlende_literatur": [],
   "auffaelligkeiten": [
     "Seminar S01: Folie 4 „erste Vorlesungswoche“ vs. Leitfaden „Vorlesungszeit hat bereits in der letzten Woche begonnen“",
-    "VL S02 (Theo_Hypo_Data): Leitfragen-Folie nennt „2.3 Abhängige und abhängige Variable“ (Tausendpfund) – gemeint vermutlich „unabhängige“ (prüfen bei Bearbeitung)"
+    "VL S02: Folien 6 und 7 identisch; Folien 11 und 14 „Dieckmann“ statt „Diekmann“; Folie 33 „2.3 Abhängige und abhängige Variable“ (gemeint: unabhängige)",
+    "VL S02, Leitfrage 6: „gerichtete und ungerichtete Hypothesen“ stehen in keinem der angegebenen Texte (Häder, Tausendpfund, Raithel) – im Seminar am 27.10. nachfragen"
   ],
   "besonderheiten": [
     "Im WS 26/27 fand die Moduleinführung nur in den Seminaren statt (Mail Prof. Zimmer, 13.10.2026); keine eigene VL-Einführung",
@@ -344,7 +350,7 @@
       "pfad": "ewb002.1/02_ewb002vor_Theo_Hypo_Data_wise_26_27.pdf",
       "geaendert": "2026-10-23",
       "art": "Folien",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "ewb002.1_2026-10-21",
       "hinweis": "gegenüber WS 25/26 nur Kleinigkeiten auf Folien 3, 21, 24, 36"
     },
@@ -382,6 +388,24 @@
       "art": "Mail",
       "status": "ausgewertet",
       "hinweis": "Mail Lehrteam: Erkrankung Prof. Zimmer, VL-Änderung, Seminarplätze"
+    }
+  ],
+  "hausaufgaben": [
+    {
+      "id": "h01",
+      "titel": "Textvorbereitung S03: Raithel (2008), Tausendpfund (2018), Häder (2019) – 7 Leitfragen",
+      "gestellt_in": "ewb002.1_2026-10-21",
+      "fuer_sitzung": "ewb002.2_2026-10-27",
+      "kalender_id": "24a4f0ba-4a77-41bf-a64d-223ea244bde9",
+      "pdf": "/dateien/ewb002/S03_2026-10-27_Hausaufgabe_Textvorbereitung_Raithel-Tausendpfund-Haeder_Leitfragen.pdf"
+    },
+    {
+      "id": "h02",
+      "titel": "Anregung VL S02: Bildungsgrad und Einkommen – Ausprägungen und Operationalisierung",
+      "gestellt_in": "ewb002.1_2026-10-21",
+      "fuer_sitzung": "ewb002.2_2026-10-27",
+      "kalender_id": "c2d24f88-a416-4c37-a16a-e49b3de9c6e7",
+      "pdf": "/dateien/ewb002/S03_2026-10-27_Hausaufgabe_Variablen_Bildungsgrad-Einkommen.pdf"
     }
   ]
 }

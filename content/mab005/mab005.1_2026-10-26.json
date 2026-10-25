@@ -1,0 +1,635 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "mab005",
+  "teilmodul": "mab005.1",
+  "datum": "2026-10-26",
+  "sitzung_nr": 3,
+  "sitzung_id": "",
+  "thema": "Kapitel 1 ab Folie 33: Wahrscheinlichkeitsmaß, Wahrscheinlichkeitsraum, Bernoulli- und Laplace-Experiment",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Vor der Vorlesung vorbereitet (Nadine, 25.10.2026): Folie 33–54 = Rest von Kapitel 1. Welche Folien am 26.10. tatsächlich drankamen, wird nach der Vorlesung bestätigt; was nicht geschafft wurde, wandert in die nächste Sitzung.",
+  "quellen": [
+    {
+      "datei": "mab005.1/VL_Kapitel1_mab005_Handout.pdf",
+      "art": "Folien",
+      "seiten": "33–54"
+    },
+    {
+      "datei": "Kütting/Sauer (2011): Elementare Stochastik, S. 88 und 91",
+      "art": "Literatur (Folie 34 und 37: „angelehnt an“)",
+      "seiten": "88, 91 – Buch fehlt im Ordner"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Erklären, warum Ergebnisraum und Ereignissystem allein ein Zufalls-Experiment nicht beschreiben, und absolute und relative Häufigkeit berechnen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 34–37",
+      "fragen": [
+        "f01",
+        "f02",
+        "f20"
+      ],
+      "erklaerung_abschnitt": "Warum ein Wahrscheinlichkeitsmaß?"
+    },
+    {
+      "text": "Das Empirische Gesetz der großen Zahlen wiedergeben und erklären, wie man daraus über Satz 1.4.4 zur axiomatischen Definition des W-Maßes kommt (frequentistische vs. axiomatische Sicht).",
+      "art": "abgeleitet",
+      "quelle": "Folie 38–41",
+      "fragen": [
+        "f03",
+        "f04",
+        "f05",
+        "f06",
+        "f22"
+      ],
+      "erklaerung_abschnitt": "Vom Gesetz der großen Zahlen zum W-Maß"
+    },
+    {
+      "text": "Die Definition des Wahrscheinlichkeitsmaßes wiedergeben und die Eigenschaften aus Satz 1.4.6 und 1.4.7 anwenden und begründen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 41–45",
+      "fragen": [
+        "f07",
+        "f08",
+        "f09",
+        "f10",
+        "f11",
+        "f12",
+        "f13"
+      ],
+      "erklaerung_abschnitt": "Wahrscheinlichkeitsmaß und seine Eigenschaften"
+    },
+    {
+      "text": "Ein Zufalls-Experiment vollständig durch einen Wahrscheinlichkeitsraum $(\\Omega, \\mathcal{A}, P)$ modellieren.",
+      "art": "abgeleitet",
+      "quelle": "Folie 47–48, 53",
+      "fragen": [
+        "f14",
+        "f15",
+        "f21",
+        "f23"
+      ],
+      "erklaerung_abschnitt": "Wahrscheinlichkeitsraum"
+    },
+    {
+      "text": "Bernoulli- und Laplace-Experimente erkennen, unterscheiden und ihre W-Maße angeben.",
+      "art": "abgeleitet",
+      "quelle": "Folie 49–51",
+      "fragen": [
+        "f16",
+        "f17",
+        "f18",
+        "f19"
+      ],
+      "erklaerung_abschnitt": "Bernoulli- und Laplace-Experiment"
+    }
+  ],
+  "kurzfassung": [
+    "Ergebnisraum und Ereignissystem allein beschreiben ein Experiment nicht – zwei Beutel mit verschiedener Kugelmischung haben dieselben; es fehlt das Wahrscheinlichkeitsmaß $P$.",
+    "Die relative Häufigkeit $h_n(A) = \\frac{H_n(A)}{n}$ ist der Anteil der $n$ Durchführungen, bei denen $A$ eingetreten ist.",
+    "Empirisches Gesetz der großen Zahlen: $h_n(A)$ nähert sich für $n \\to \\infty$ einem Grenzwert – eine Erfahrungstatsache, kein Satz.",
+    "Die zentralen Eigenschaften von $h_n$ (Satz 1.4.4: Werte 0 und 1 für $\\emptyset$ und $\\Omega$, Wertebereich $[0; 1]$, Additivität) werden zu den Axiomen des W-Maßes.",
+    "Ein W-Maß $P : \\mathcal{A} \\to \\mathbb{R}$ erfüllt Nichtnegativität, Normiertheit $P(\\Omega) = 1$ und σ-Additivität.",
+    "Daraus folgen u. a. $P(\\emptyset) = 0$, $P(A) \\le 1$, $P(\\bar{A}) = 1 - P(A)$ und der Additionssatz $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$.",
+    "Ein Wahrscheinlichkeitsraum ist das Tripel $(\\Omega, \\mathcal{A}, P)$; bei diskretem $\\Omega$ genügt es, $P$ für die Elementarereignisse anzugeben.",
+    "Bernoulli-Experiment: zwei Ausgänge, $\\Omega = \\{0, 1\\}$, $P(\\{1\\}) = p$, $P(\\{0\\}) = q = 1 - p$ – Bernoulli-Verteilung $B(p)$.",
+    "Laplace-Experiment: endlich viele gleichwertige Ausgänge, $P(A) = \\frac{|A|}{|\\Omega|}$ – Laplace-Verteilung $L(\\Omega)$."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Warum ein Wahrscheinlichkeitsmaß?",
+      "folien": "33–37",
+      "text": "**Beispiel 1.4.1** (Folie 34–35, Lösung selbst erarbeitet): Eine Kugel ziehen aus 3 roten + 3 blauen bzw. aus 3 roten + 1000 blauen Kugeln. Bei beiden ist $\\Omega = \\{\\text{rot}, \\text{blau}\\}$ und $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ – trotzdem sind die Experimente sehr verschieden: „rot“ ist einmal genauso wahrscheinlich wie „blau“, einmal fast unmöglich. Es fehlt der dritte Baustein, das **Wahrscheinlichkeitsmaß**.\n\n**Folie 36 – Ziel:** die Unsicherheit eines Ereignisses messbar machen. Eine Abbildung $P$ auf $\\mathcal{A}$ soll jedem Ereignis $A$ eine Zahl $P(A)$ zuordnen – eine **Maßfunktion** wie Längen-, Winkel- oder Flächenmaß in der Geometrie. Offene Fragen: Welche Zielmenge? Welche Abbildungsvorschrift? Welche Eigenschaften?\n\n> **Definition 1.4.2 (absolute Häufigkeit):** Wird ein Zufalls-Experiment mit Ergebnisraum $\\Omega$ und Ereignissystem $\\mathcal{A}$ $n$-fach durchgeführt und werden dabei die Ergebnisse $(\\omega_1, \\omega_2, \\dots, \\omega_n) \\in \\Omega^n$ beobachtet, so ist $H_n(A) = \\left|\\{i \\in \\{1, \\dots, n\\} \\mid \\omega_i \\in A\\}\\right|$ die absolute Häufigkeit des Eintretens des Ereignisses $A \\in \\mathcal{A}$.\n\n> **Definition 1.4.3 (relative Häufigkeit):** … so ist $h_n(A) = \\frac{H_n(A)}{n}$ die relative Häufigkeit des Eintretens des Ereignisses $A \\in \\mathcal{A}$.\n\n(beide angelehnt an Kütting/Sauer 2011, S. 88)",
+      "beispiel": "10 Würfe: 2, 6, 3, 6, 1, 4, 6, 5, 2, 3. $H_{10}(\\{6\\}) = 3$, $h_{10}(\\{6\\}) = \\frac{3}{10}$; $H_{10}(\\{2, 4, 6\\}) = 6$, $h_{10}(\\{2, 4, 6\\}) = \\frac{6}{10} = \\frac{3}{5}$."
+    },
+    {
+      "titel": "Vom Gesetz der großen Zahlen zum W-Maß",
+      "folien": "38–41",
+      "text": "> **Axiom (Empirisches Gesetz der großen Zahlen):** Bei $n$-facher Durchführung eines Zufalls-Experiments mit Ereignissystem $\\mathcal{A}$ konvergieren die relativen Häufigkeiten $h_n(A)$ jedes Ereignisses $A \\in \\mathcal{A}$ für $n \\to \\infty$ gegen einen Grenzwert.\n\n- Kein Grenzwert im strengen Sinn der Analysis (mab006) – wird hier nicht weiter unterschieden.\n- **Kein beweisbarer Satz, sondern eine Erfahrungstatsache!**\n- Idee: $P(A)$ ist der Grenzwert von $h_n(A)$ – als Definition aber unpraktisch. **Stattdessen:** $P$ über die zentralen Eigenschaften von $h_n$ definieren, die sich auf den Grenzwert übertragen.\n\n**Satz 1.4.4 (Zentrale Eigenschaften der relativen Häufigkeit):** Für Ereignisse $A, B \\in \\mathcal{A}$ gilt\n1. $h_n(\\emptyset) = 0$ und $h_n(\\Omega) = 1$ (Werte für unmögliches/sicheres Ereignis)\n2. $0 \\le h_n(A) \\le 1$ (Wertebereich)\n3. $h_n(A \\,\\dot\\cup\\, B) = h_n(A) + h_n(B)$ (Additivität)\n\n*Beweis (Folie 39–40):* Alles folgt aus Eigenschaften der absoluten Häufigkeit durch Division durch $n$: $H_n(\\emptyset) = |\\emptyset| = 0$ und $H_n(\\Omega) = |\\{1, \\dots, n\\}| = n$; wegen $\\emptyset \\subseteq \\{i \\mid \\omega_i \\in A\\} \\subseteq \\{1, \\dots, n\\}$ ist $0 \\le H_n(A) \\le n$; sind $A$, $B$ disjunkt, sind auch die Indexmengen disjunkt, also $H_n(A \\,\\dot\\cup\\, B) = H_n(A) + H_n(B)$. $\\blacksquare$\n\n> **Definition 1.4.5 (Wahrscheinlichkeitsmaß):** Eine Abbildung $P : \\mathcal{A} \\to \\mathbb{R}$, wobei $\\mathcal{A}$ eine σ-Algebra über $\\Omega$ ist, heißt Wahrscheinlichkeitsmaß (kurz: W-Maß) auf $\\mathcal{A}$, wenn für alle $A \\in \\mathcal{A}$ bzw. $A_i \\in \\mathcal{A}$, $i \\in \\mathbb{N}$, gilt:\n> (1) $P(A) \\ge 0$ (Nichtnegativität)\n> (2) $P(\\Omega) = 1$ (Normiertheit)\n> (3′) $P\\left(\\dot{\\bigcup}_{i=1}^{\\infty} A_i\\right) = \\sum_{i=1}^{\\infty} P(A_i)$ (σ-Additivität)\n\n**Zwei Sichtweisen:** *frequentistisch* – Wahrscheinlichkeit als Grenzwert relativer Häufigkeiten (Erfahrung); *axiomatisch* – Wahrscheinlichkeit als Funktion mit den Eigenschaften (1), (2), (3′). Die Axiome sind gerade so gewählt, dass sie zu den Eigenschaften der relativen Häufigkeit passen.",
+      "beispiel": "Münzwurf: Nach 10 Würfen kann $h_{10}(\\{\\text{Wappen}\\}) = 0{,}7$ sein, nach 10 000 Würfen liegt der Wert erfahrungsgemäß sehr nahe bei $0{,}5$."
+    },
+    {
+      "titel": "Wahrscheinlichkeitsmaß und seine Eigenschaften",
+      "folien": "42–45",
+      "text": "**Satz 1.4.6:** Für das W-Maß $P$ gilt für alle $A, B \\in \\mathcal{A}$ bzw. $A_i \\in \\mathcal{A}$:\n\n| Nr. | Eigenschaft | Nr. | Eigenschaft |\n|---|---|---|---|\n| (1) | $P(A) \\ge 0$ (Nichtnegativität) | (1′) | $P(A) \\le 1$ |\n| (2) | $P(\\Omega) = 1$ (Normiertheit) | (2′) | $P(\\emptyset) = 0$ (Nulltreue) |\n| (3) | $P(A \\,\\dot\\cup\\, B) = P(A) + P(B)$ (Additivität) | (3n) | $P\\left(\\dot{\\bigcup}_{i=1}^{n} A_i\\right) = \\sum_{i=1}^{n} P(A_i)$ (endliche Additivität) |\n| (3′) | σ-Additivität | | |\n\n*Beweis (Folie 43):* (1), (2), (3′) gelten nach Definition.\n- (2′): $A_1 = \\Omega$, $A_i = \\emptyset$ für $i \\ge 2$; dann $1 = P(\\Omega) = P\\left(\\dot{\\bigcup}_{i=1}^{\\infty} A_i\\right) = 1 + \\sum_{i=2}^{\\infty} P(\\emptyset)$, also $\\sum_{i=2}^{\\infty} P(\\emptyset) = 0$ – das geht nur mit $P(\\emptyset) = 0$.\n- (3): aus (2′) und (3′) mit $A_1 = A$, $A_2 = B$, $A_i = \\emptyset$ für $i \\ge 3$; (3n) ebenso mit $A_i = \\emptyset$ für $i > n$.\n- (1′): $1 = P(\\Omega) = P(A \\,\\dot\\cup\\, \\bar{A}) = P(A) + P(\\bar{A}) \\ge P(A)$. $\\blacksquare$\n\n**Satz 1.4.7:** Für alle $A, B \\in \\mathcal{A}$:\n- (4) $P(\\bar{A}) = 1 - P(A)$ (Wahrscheinlichkeit des Gegenereignisses)\n- (5) $P(A \\setminus B) = P(A) - P(A \\cap B)$\n- (6) $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$ (Additionssatz)\n- (7) $P(A \\cup B) \\le P(A) + P(B)$ (Subadditivität)\n- (8) $A \\subseteq B \\Rightarrow P(A) \\le P(B)$ (Monotonie)\n\n*Beweis* (Folie 45 ist leer – selbst erarbeitet): jeweils in **disjunkte** Teile zerlegen und (3) anwenden.\n- (4): $\\Omega = A \\,\\dot\\cup\\, \\bar{A}$ ⇒ $1 = P(A) + P(\\bar{A})$.\n- (5): $A = (A \\setminus B) \\,\\dot\\cup\\, (A \\cap B)$ ⇒ $P(A) = P(A \\setminus B) + P(A \\cap B)$.\n- (6): $A \\cup B = (A \\setminus B) \\,\\dot\\cup\\, B$ ⇒ $P(A \\cup B) = P(A \\setminus B) + P(B) \\overset{(5)}{=} P(A) - P(A \\cap B) + P(B)$.\n- (7): aus (6), weil $P(A \\cap B) \\ge 0$.\n- (8): $B = A \\,\\dot\\cup\\, (B \\setminus A)$ ⇒ $P(B) = P(A) + P(B \\setminus A) \\ge P(A)$. $\\blacksquare$\n\n> **Warum wird beim Additionssatz $P(A \\cap B)$ abgezogen?** In $P(A) + P(B)$ ist der gemeinsame Teil $A \\cap B$ doppelt gezählt – einmal in $A$, einmal in $B$.",
+      "beispiel": "Würfel, $A = \\{2, 4, 6\\}$, $B = \\{4, 5, 6\\}$: $P(A \\cup B) = \\frac{3}{6} + \\frac{3}{6} - \\frac{2}{6} = \\frac{4}{6}$; direkt $A \\cup B = \\{2, 4, 5, 6\\}$, also $\\frac{4}{6}$. ✓"
+    },
+    {
+      "titel": "Wahrscheinlichkeitsraum",
+      "folien": "46–48",
+      "text": "> **Definition 1.5.1 (Wahrscheinlichkeitsraum):** Ein Tripel $(\\Omega, \\mathcal{A}, P)$ aus Ergebnisraum $\\Omega$, Ereignis-System $\\mathcal{A}$ und Wahrscheinlichkeitsmaß $P : \\mathcal{A} \\to \\mathbb{R}$ heißt Wahrscheinlichkeitsraum (kurz: W-Raum) bzw. Wahrscheinlichkeitsmodell (kurz: W-Modell).\n\nDamit sind die drei Bausteine aus dem Schaubild auf Folie 7 vollständig.\n\n**Beispiel 1.5.2** (Folie 48, Lösung selbst erarbeitet): Einmaliges Werfen einer fairen Münze.\n- $\\Omega = \\{\\text{Wappen}, \\text{Zahl}\\}$\n- $\\mathcal{A} = \\mathfrak{P}(\\Omega) = \\{\\emptyset, \\{\\text{Wappen}\\}, \\{\\text{Zahl}\\}, \\Omega\\}$\n- $P(\\emptyset) = 0$, $P(\\{\\text{Wappen}\\}) = P(\\{\\text{Zahl}\\}) = \\frac{1}{2}$, $P(\\Omega) = 1$\n\n**Merke (Zusammenfassung, Folie 53):** Um $P$ vollständig anzugeben, genügen die Bilder der Elemente eines Erzeugers von $\\mathcal{A}$ – bei diskretem $\\Omega$ die Wahrscheinlichkeiten der **Elementarereignisse**, bei $\\Omega = \\mathbb{R}$ die der Intervalle $]a, b]$.",
+      "beispiel": "Altklausur Stochastik, Aufgabe 1: verbeulte Münze mit $P(\\text{Wappen}) = 0{,}3$ – $\\mathcal{A} = \\{\\emptyset, \\{\\text{W}\\}, \\{\\text{Z}\\}, \\{\\text{W}, \\text{Z}\\}\\}$ mit $P$-Werten $0$; $0{,}3$; $0{,}7$; $1$."
+    },
+    {
+      "titel": "Bernoulli- und Laplace-Experiment",
+      "folien": "49–51",
+      "text": "> **Definition 1.5.3 (Bernoulli-Experiment):** Ein Zufalls-Experiment mit zwei möglichen Ausgängen heißt Bernoulli-Experiment. Als Ergebnisraum nutzt man $\\Omega = \\{0, 1\\}$ und bezeichnet $\\omega = 1$ als „Erfolg“ und $\\omega = 0$ als „Misserfolg“. Das W-Modell $(\\Omega, \\mathcal{A}, P)$ mit $\\Omega = \\{0, 1\\}$, $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ und $P(\\{1\\}) = p$, $P(\\{0\\}) = 1 - p = q$ mit $0 \\le p \\le 1$ heißt Bernoulli-Modell; das W-Maß heißt Bernoulli-Verteilung mit Parameter $p$ (kurz: $B(p)$).\n\n> **Definition 1.5.4 (Laplace-Experiment):** Ein Zufalls-Experiment mit endlich vielen und gleichwertigen Ausgängen heißt Laplace-Experiment. Als Ergebnisraum wählt man etwa $\\Omega = \\{1, 2, \\dots, N\\}$. Das W-Maß $P$ auf $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ ist festgelegt durch $P(\\{\\omega\\}) = \\frac{1}{N}$ für alle $\\omega \\in \\Omega$ sowie $P(A) = \\frac{|A|}{|\\Omega|}$. Das W-Maß heißt Laplace-Verteilung oder diskrete Gleichverteilung über $\\Omega$ (kurz: $L(\\Omega)$).\n\n**Beispiel 1.5.5** (Folie 51, Lösung selbst erarbeitet):\n\n| | Bernoulli (2 Ausgänge)? | Laplace (gleichwertig)? | Beispiel |\n|---|---|---|---|\n| 1 | ja | ja | fairer Münzwurf |\n| 2 | ja | nein | würfeln, Erfolg = „6“ ($p = \\frac{1}{6}$) |\n| 3 | nein | ja | fairer Würfel, Augenzahl |\n| 4 | nein | nein | Augensumme zweier Würfe |",
+      "beispiel": "Laplace: Skatkarte ziehen, $A$ = „Dame“: $P(A) = \\frac{4}{32} = \\frac{1}{8}$."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Absolute Häufigkeit",
+      "wortlaut": "Definition 1.4.2 (absolute Häufigkeit) Wird ein Zufalls-Experiment mit Ergebnisraum $\\Omega$ und Ereignissystem $\\mathcal{A}$ $n$-fach durchgeführt und werden dabei die Ergebnisse $(\\omega_1, \\omega_2, \\dots, \\omega_n) \\in \\Omega^n$ beobachtet, so ist $H_n(A) = \\left|\\{i \\in \\{1, \\dots, n\\} \\mid \\omega_i \\in A\\}\\right|$ die absolute Häufigkeit des Eintretens des Ereignisses $A \\in \\mathcal{A}$.",
+      "erklaerung": "Wie oft ist $A$ bei $n$ Durchführungen eingetreten? Man zählt die Nummern $i$ der Durchführungen, bei denen das Ergebnis $\\omega_i$ in $A$ lag. Beispiel: 10-mal würfeln, 3-mal eine 6 → $H_{10}(\\{6\\}) = 3$.",
+      "folie": "37"
+    },
+    {
+      "begriff": "Relative Häufigkeit",
+      "wortlaut": "Definition 1.4.3 (relative Häufigkeit) Wird ein Zufalls-Experiment mit Ergebnisraum $\\Omega$ und Ereignissystem $\\mathcal{A}$ $n$-fach durchgeführt und werden dabei die Ergebnisse $(\\omega_1, \\omega_2, \\dots, \\omega_n) \\in \\Omega^n$ beobachtet, so ist $h_n(A) = \\frac{H_n(A)}{n}$ die relative Häufigkeit des Eintretens des Ereignisses $A \\in \\mathcal{A}$.",
+      "erklaerung": "Der Anteil der Durchführungen, bei denen $A$ eingetreten ist: absolute Häufigkeit geteilt durch die Anzahl der Versuche. Beispiel: 3-mal eine 6 bei 10 Würfen → $h_{10}(\\{6\\}) = \\frac{3}{10}$.",
+      "folie": "37"
+    },
+    {
+      "begriff": "Empirisches Gesetz der großen Zahlen",
+      "wortlaut": "Axiom (Empirisches Gesetz der großen Zahlen) Bei $n$-facher Durchführung eines Zufalls-Experiments mit Ereignissystem $\\mathcal{A}$ konvergieren die relativen Häufigkeiten $h_n(A)$ jedes Ereignisses $A \\in \\mathcal{A}$ für $n \\to \\infty$ gegen einen Grenzwert.",
+      "erklaerung": "Je öfter man ein Experiment wiederholt, desto mehr „pendelt sich“ die relative Häufigkeit auf einen festen Wert ein. Das ist **kein beweisbarer Satz, sondern eine Erfahrungstatsache**; „Grenzwert“ ist hier nicht im strengen Sinn der Analysis gemeint.",
+      "folie": "38"
+    },
+    {
+      "begriff": "Wahrscheinlichkeitsmaß",
+      "wortlaut": "Definition 1.4.5 (Wahrscheinlichkeitsmaß) Eine Abbildung $P : \\mathcal{A} \\to \\mathbb{R}$, wobei $\\mathcal{A}$ eine σ-Algebra über $\\Omega$ ist, heißt Wahrscheinlichkeitsmaß (kurz: W-Maß) auf $\\mathcal{A}$, wenn die folgenden drei Bedingungen für alle Ereignisse $A \\in \\mathcal{A}$ bzw. für alle Ereignisse $A_i \\in \\mathcal{A}$, $i \\in \\mathbb{N}$, erfüllt sind: (1) $P(A) \\ge 0$ (Nichtnegativität) (2) $P(\\Omega) = 1$ (Normiertheit) (3′) $P\\left(\\dot{\\bigcup}_{i=1}^{\\infty} A_i\\right) = \\sum_{i=1}^{\\infty} P(A_i)$ (σ-Additivität)",
+      "erklaerung": "Eine Funktion, die jedem Ereignis eine Zahl zuordnet – seine Wahrscheinlichkeit. Drei Regeln: nie negativ, das sichere Ereignis hat 1, und bei (paarweise) disjunkten Ereignissen addieren sich die Wahrscheinlichkeiten. Beispiel fairer Würfel: $P(\\{2, 4, 6\\}) = P(\\{2\\}) + P(\\{4\\}) + P(\\{6\\}) = \\frac{3}{6}$.",
+      "folie": "41"
+    },
+    {
+      "begriff": "Wahrscheinlichkeitsraum",
+      "wortlaut": "Definition 1.5.1 (Wahrscheinlichkeitsraum) Ein Tripel $(\\Omega, \\mathcal{A}, P)$ aus Ergebnisraum $\\Omega$, Ereignis-System $\\mathcal{A}$ und Wahrscheinlichkeitsmaß $P : \\mathcal{A} \\to \\mathbb{R}$ heißt Wahrscheinlichkeitsraum (kurz: W-Raum) bzw. Wahrscheinlichkeitsmodell (kurz: W-Modell).",
+      "erklaerung": "Das vollständige mathematische Modell eines Zufalls-Experiments: die drei Bausteine aus Folie 7 zusammen. Beispiel fairer Münzwurf: $(\\{\\text{W}, \\text{Z}\\}, \\mathfrak{P}(\\{\\text{W}, \\text{Z}\\}), P)$ mit $P(\\{\\text{W}\\}) = P(\\{\\text{Z}\\}) = \\frac{1}{2}$.",
+      "folie": "47"
+    },
+    {
+      "begriff": "Bernoulli-Experiment",
+      "wortlaut": "Definition 1.5.3 (Bernoulli-Experiment) Ein Zufalls-Experiment mit zwei möglichen Ausgängen heißt Bernoulli-Experiment. Als Ergebnisraum nutzt man $\\Omega = \\{0, 1\\}$ und bezeichnet $\\omega = 1$ als „Erfolg“ und $\\omega = 0$ als „Misserfolg“. Das W-Modell $(\\Omega, \\mathcal{A}, P)$, bestehend aus $\\Omega = \\{0, 1\\}$, $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ und dem W-Maß $P$, das durch $P(\\{1\\}) = p$, $P(\\{0\\}) = 1 - p = q$ mit $0 \\le p \\le 1$ festgelegt wird, heißt Bernoulli-Modell. Das W-Maß $P$ heißt entsprechend Bernoulli-Verteilung mit Parameter $p$ oder Bernoulli($p$)-Verteilung (kurz: $B(p)$).",
+      "erklaerung": "Ein Experiment mit nur zwei Ausgängen: Erfolg (1) mit Wahrscheinlichkeit $p$, Misserfolg (0) mit $q = 1 - p$. Beispiel: Würfeln, Erfolg = „6“ → $p = \\frac{1}{6}$, $q = \\frac{5}{6}$.",
+      "folie": "49"
+    },
+    {
+      "begriff": "Laplace-Experiment",
+      "wortlaut": "Definition 1.5.4 (Laplace-Experiment) Ein Zufalls-Experiment mit endlich vielen und gleichwertigen Ausgängen heißt Laplace-Experiment. Als Ergebnisraum wählt man etwa $\\Omega = \\{1, 2, \\dots, N\\}$. Das W-Maß $P$ auf $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ ist festgelegt durch $P(\\{1\\}) = P(\\{2\\}) = \\dots = P(\\{N\\})$, also $P(\\{\\omega\\}) = \\frac{1}{N}$ für alle $\\omega \\in \\Omega$, sowie für beliebige Ereignisse durch $P(A) = \\frac{|A|}{|\\Omega|}$. Das W-Maß heißt Laplace-Verteilung oder diskrete Gleichverteilung über $\\Omega$ (kurz: $L(\\Omega)$).",
+      "erklaerung": "Alle Ausgänge sind gleich wahrscheinlich – dann ist die Wahrscheinlichkeit „Anzahl günstige durch Anzahl mögliche Ergebnisse“. Beispiel fairer Würfel: $P(\\text{gerade}) = \\frac{3}{6} = \\frac{1}{2}$.",
+      "folie": "50"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 1.4.1: Es werden zwei verschiedene Zufalls-Experimente betrachtet: Zufalls-Experiment 1: Ziehen einer Kugel aus einem Beutel mit 3 roten und 3 blauen Kugeln. Zufalls-Experiment 2: Ziehen einer Kugel aus einem Beutel mit 3 roten und 1000 blauen Kugeln. Geben Sie zu beiden Zufalls-Experimenten jeweils den Ergebnisraum $\\Omega$ sowie das dazugehörige Ereignissystem $\\mathcal{A}$ an. Was ist der Unterschied zwischen den beiden Zufalls-Experimenten?",
+      "quelle": "Folie 34–35 (angelehnt an Kütting/Sauer 2011, S. 91)",
+      "loesung": "Beide Experimente: $\\Omega = \\{\\text{rot}, \\text{blau}\\}$ und $\\mathcal{A} = \\mathfrak{P}(\\Omega) = \\{\\emptyset, \\{\\text{rot}\\}, \\{\\text{blau}\\}, \\{\\text{rot}, \\text{blau}\\}\\}$ – **gleich**.\n\nDer Unterschied liegt in den **Wahrscheinlichkeiten**: In Experiment 1 ist „rot“ genauso wahrscheinlich wie „blau“ ($\\frac{3}{6} = \\frac{1}{2}$), in Experiment 2 ist „rot“ sehr unwahrscheinlich ($\\frac{3}{1003}$). Ergebnisraum und Ereignissystem reichen also nicht – man braucht den dritten Baustein, das Wahrscheinlichkeitsmaß $P$.",
+      "loesungsweg": "Selbst erarbeitet (Folie 35 ist leer). Ergebnis ist jeweils die Farbe der gezogenen Kugel, also zwei mögliche Ausgänge. $\\Omega$ endlich → $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ mit $2^2 = 4$ Ereignissen. Die Wahrscheinlichkeiten erhält man (Ergänzung, nach Definition 1.5.4), wenn man sich die Kugeln nummeriert denkt: jede einzelne Kugel ist gleich wahrscheinlich, also $P(\\{\\text{rot}\\}) = \\frac{\\text{Anzahl roter Kugeln}}{\\text{Anzahl aller Kugeln}}$.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "Satz 1.4.7: Für das W-Maß $P$ auf einem Ereignissystem $\\mathcal{A}$ über einem Ergebnisraum $\\Omega$ gilt für alle Ereignisse $A, B \\in \\mathcal{A}$: (4) $P(\\bar{A}) = 1 - P(A)$; (5) $P(A \\setminus B) = P(A) - P(A \\cap B)$; (6) $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$; (7) $P(A \\cup B) \\le P(A) + P(B)$; (8) $A \\subseteq B \\Rightarrow P(A) \\le P(B)$. Beweis.",
+      "quelle": "Folie 44–45",
+      "loesung": "Idee jedes Mal: das Ereignis in **disjunkte** Teile zerlegen und die Additivität (3) aus Satz 1.4.6 benutzen.\n\n**(4)** $\\Omega = A \\,\\dot\\cup\\, \\bar{A}$, also $1 \\overset{(2)}{=} P(\\Omega) \\overset{(3)}{=} P(A) + P(\\bar{A})$, umgestellt $P(\\bar{A}) = 1 - P(A)$.\n\n**(5)** $A = (A \\setminus B) \\,\\dot\\cup\\, (A \\cap B)$ (Teil von $A$ außerhalb bzw. innerhalb von $B$), also $P(A) \\overset{(3)}{=} P(A \\setminus B) + P(A \\cap B)$, umgestellt $P(A \\setminus B) = P(A) - P(A \\cap B)$.\n\n**(6)** $A \\cup B = (A \\setminus B) \\,\\dot\\cup\\, B$, also $P(A \\cup B) \\overset{(3)}{=} P(A \\setminus B) + P(B) \\overset{(5)}{=} P(A) - P(A \\cap B) + P(B)$.\n\n**(7)** Nach (6) und weil $P(A \\cap B) \\ge 0$ (Nichtnegativität): $P(A \\cup B) = P(A) + P(B) - P(A \\cap B) \\le P(A) + P(B)$.\n\n**(8)** Ist $A \\subseteq B$, dann $B = A \\,\\dot\\cup\\, (B \\setminus A)$, also $P(B) \\overset{(3)}{=} P(A) + P(B \\setminus A) \\overset{(1)}{\\ge} P(A)$. $\\blacksquare$",
+      "loesungsweg": "Selbst erarbeitet (Folie 45 ist leer). Benutzt werden nur die Eigenschaften aus Satz 1.4.6: (1) Nichtnegativität, (2) Normiertheit, (3) Additivität für disjunkte Ereignisse. Hilfreich: jede Zerlegung im Venn-Diagramm einzeichnen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 1.5.2: Es wird das Zufalls-Experiment „Einmaliges Werfen einer fairen Münze“ betrachtet. Modellieren Sie das Experiment vollständig durch einen entsprechenden Wahrscheinlichkeitsraum.",
+      "quelle": "Folie 48",
+      "loesung": "$(\\Omega, \\mathcal{A}, P)$ mit\n- $\\Omega = \\{\\text{Wappen}, \\text{Zahl}\\}$,\n- $\\mathcal{A} = \\mathfrak{P}(\\Omega) = \\{\\emptyset, \\{\\text{Wappen}\\}, \\{\\text{Zahl}\\}, \\Omega\\}$,\n- $P(\\emptyset) = 0$, $P(\\{\\text{Wappen}\\}) = \\frac{1}{2}$, $P(\\{\\text{Zahl}\\}) = \\frac{1}{2}$, $P(\\Omega) = 1$.",
+      "loesungsweg": "Selbst erarbeitet (Folie 48 ist leer). „Fair“ heißt: beide Seiten gleich wahrscheinlich, also Laplace mit $N = 2$: $P(A) = \\frac{|A|}{2}$. Für ein diskretes $\\Omega$ genügt es, die Wahrscheinlichkeiten der Elementarereignisse anzugeben (Zusammenfassung, Folie 53). Gleichwertig als Bernoulli-Modell: $\\Omega = \\{0, 1\\}$ mit $p = \\frac{1}{2}$.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 1.5.5: Geben Sie ein Zufalls-Experiment an, das 1. sowohl ein Bernoulli- als auch ein Laplace-Experiment ist; 2. ein Bernoulli-, aber kein Laplace-Experiment ist; 3. ein Laplace-, aber kein Bernoulli-Experiment ist; 4. weder ein Bernoulli- noch ein Laplace-Experiment ist.",
+      "quelle": "Folie 51",
+      "loesung": "1. **Fairer Münzwurf:** 2 Ausgänge (Bernoulli), beide gleich wahrscheinlich, $p = \\frac{1}{2}$ (Laplace).\n2. **Einmal würfeln, Erfolg = „6“:** 2 Ausgänge (6 / keine 6), aber $p = \\frac{1}{6} \\neq \\frac{5}{6}$ – nicht gleichwertig. (Ebenso: verbeulte Münze mit $P(\\text{Wappen}) = 0{,}3$.)\n3. **Fairer Würfel mit Augenzahl als Ergebnis:** 6 gleichwertige Ausgänge (Laplace), aber mehr als 2 (kein Bernoulli).\n4. **Augensumme zweier Würfe:** 11 Ausgänge $\\{2, \\dots, 12\\}$ (kein Bernoulli), nicht gleich wahrscheinlich – Summe 7 entsteht auf 6 Arten, Summe 2 nur als $(1, 1)$ (kein Laplace).",
+      "loesungsweg": "Selbst erarbeitet (Folie 51 ohne Lösung). Prüfen: Bernoulli = genau 2 Ausgänge (Def. 1.5.3); Laplace = endlich viele **gleichwertige** Ausgänge (Def. 1.5.4).",
+      "frist": "",
+      "im_kalender": false
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie sind die absolute Häufigkeit $H_n(A)$ und die relative Häufigkeit $h_n(A)$ definiert?",
+      "antwort": "Bei $n$-facher Durchführung mit Ergebnissen $(\\omega_1, \\dots, \\omega_n) \\in \\Omega^n$ ist $H_n(A) = |\\{i \\in \\{1, \\dots, n\\} \\mid \\omega_i \\in A\\}|$ (Anzahl der Durchführungen, bei denen $A$ eintritt) und $h_n(A) = \\frac{H_n(A)}{n}$.",
+      "erklaerung": "Definition 1.4.2 und 1.4.3.",
+      "folie": "37",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Ein Würfel wird 20-mal geworfen; dabei fällt 4-mal eine 6 und 9-mal eine gerade Zahl. Berechne $H_{20}(\\{6\\})$, $h_{20}(\\{6\\})$ und $h_{20}(\\{2, 4, 6\\})$.",
+      "musterloesung": "$H_{20}(\\{6\\}) = 4$, $h_{20}(\\{6\\}) = \\frac{4}{20} = \\frac{1}{5}$, $h_{20}(\\{2, 4, 6\\}) = \\frac{9}{20}$.",
+      "bewertungspunkte": [
+        "$H_{20} = 4$",
+        "$\\frac{4}{20} = \\frac{1}{5}$",
+        "$\\frac{9}{20}$"
+      ],
+      "punkte": 3,
+      "erklaerung": "Neue Rechnung zu Def. 1.4.2/1.4.3.",
+      "folie": "37",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Empirisches Gesetz der großen Zahlen: Bei n-facher Durchführung konvergieren die [[relativen Häufigkeiten]] jedes Ereignisses für n → ∞ gegen einen [[Grenzwert]].",
+      "erklaerung": "Axiom, Folie 38.",
+      "folie": "38",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum Empirischen Gesetz der großen Zahlen stimmen?",
+      "optionen": [
+        "Es ist eine Erfahrungstatsache, kein formal beweisbarer Satz.",
+        "Es ist ein Satz, der in der Vorlesung bewiesen wird.",
+        "Man definiert $P(A)$ direkt als Grenzwert von $h_n(A)$.",
+        "Man definiert $P$ über zentrale Eigenschaften von $h_n$, die sich auf den Grenzwert übertragen.",
+        "„Grenzwert“ ist hier nicht im strengen Sinn der Analysis gemeint."
+      ],
+      "richtig": [
+        0,
+        3,
+        4
+      ],
+      "erklaerung": "Folie 38: keine beweisbare Aussage; $P$ als Grenzwert zu definieren wäre unpraktisch – stattdessen über die Eigenschaften aus Satz 1.4.4.",
+      "folie": "38",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche drei zentralen Eigenschaften der relativen Häufigkeit nennt Satz 1.4.4?",
+      "antwort": "(1) $h_n(\\emptyset) = 0$ und $h_n(\\Omega) = 1$ (Werte für unmögliches/sicheres Ereignis); (2) $0 \\le h_n(A) \\le 1$ (Wertebereich); (3) $h_n(A \\,\\dot\\cup\\, B) = h_n(A) + h_n(B)$ (Additivität).",
+      "erklaerung": "Satz 1.4.4, Folie 39; Beweis über die absolute Häufigkeit und Division durch $n$.",
+      "folie": "39–40",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Beweise Satz 1.4.4 (3): Für disjunkte Ereignisse $A$, $B$ gilt $h_n(A \\,\\dot\\cup\\, B) = h_n(A) + h_n(B)$.",
+      "musterloesung": "Sind $A$, $B$ disjunkt, so sind auch $\\{i \\mid \\omega_i \\in A\\}$ und $\\{i \\mid \\omega_i \\in B\\}$ disjunkt (kein $\\omega_i$ liegt in beiden). Also $H_n(A \\,\\dot\\cup\\, B) = |\\{i \\mid \\omega_i \\in A\\} \\,\\dot\\cup\\, \\{i \\mid \\omega_i \\in B\\}| = H_n(A) + H_n(B)$. Division durch $n$ liefert $h_n(A \\,\\dot\\cup\\, B) = h_n(A) + h_n(B)$. $\\blacksquare$",
+      "bewertungspunkte": [
+        "Indexmengen disjunkt",
+        "Mächtigkeit addiert sich",
+        "Division durch $n$"
+      ],
+      "punkte": 3,
+      "erklaerung": "Beweis Folie 40.",
+      "folie": "40",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f07",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wann heißt eine Abbildung $P : \\mathcal{A} \\to \\mathbb{R}$ ein Wahrscheinlichkeitsmaß (Definition 1.4.5)?",
+      "antwort": "Wenn $\\mathcal{A}$ eine σ-Algebra über $\\Omega$ ist und für alle $A \\in \\mathcal{A}$ bzw. $A_i \\in \\mathcal{A}$ gilt: (1) $P(A) \\ge 0$ (Nichtnegativität), (2) $P(\\Omega) = 1$ (Normiertheit), (3′) $P\\left(\\dot{\\bigcup}_{i=1}^{\\infty} A_i\\right) = \\sum_{i=1}^{\\infty} P(A_i)$ (σ-Additivität).",
+      "erklaerung": "Definition 1.4.5, Folie 41.",
+      "folie": "41",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Die drei Bedingungen eines W-Maßes heißen [[Nichtnegativität]], [[Normiertheit]] und [[σ-Additivität]].",
+      "erklaerung": "Definition 1.4.5.",
+      "folie": "41",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Eigenschaften eines W-Maßes ihren Namen zu.",
+      "kategorien": [
+        "Nichtnegativität",
+        "Normiertheit",
+        "Nulltreue",
+        "Additivität",
+        "Monotonie",
+        "Additionssatz"
+      ],
+      "elemente": [
+        {
+          "text": "P(A) ≥ 0",
+          "kategorie": "Nichtnegativität"
+        },
+        {
+          "text": "P(Ω) = 1",
+          "kategorie": "Normiertheit"
+        },
+        {
+          "text": "P(∅) = 0",
+          "kategorie": "Nulltreue"
+        },
+        {
+          "text": "P(A ∪̇ B) = P(A) + P(B)",
+          "kategorie": "Additivität"
+        },
+        {
+          "text": "A ⊆ B ⇒ P(A) ≤ P(B)",
+          "kategorie": "Monotonie"
+        },
+        {
+          "text": "P(A ∪ B) = P(A) + P(B) − P(A ∩ B)",
+          "kategorie": "Additionssatz"
+        }
+      ],
+      "erklaerung": "Satz 1.4.6 und 1.4.7, Folie 42 und 44.",
+      "folie": "42, 44",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Zeige mit Satz 1.4.6: Für jedes Ereignis $A$ gilt $P(A) \\le 1$.",
+      "musterloesung": "Es ist $\\Omega = A \\,\\dot\\cup\\, \\bar{A}$. Mit (2), (3) und (1): $1 = P(\\Omega) = P(A \\,\\dot\\cup\\, \\bar{A}) = P(A) + P(\\bar{A}) \\ge P(A)$, da $P(\\bar{A}) \\ge 0$. $\\blacksquare$",
+      "bewertungspunkte": [
+        "Zerlegung $\\Omega = A \\,\\dot\\cup\\, \\bar{A}$",
+        "Normiertheit und Additivität",
+        "Nichtnegativität von $P(\\bar{A})$"
+      ],
+      "punkte": 3,
+      "erklaerung": "Beweis von (1′), Folie 43.",
+      "folie": "43",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Wie folgt die Nulltreue $P(\\emptyset) = 0$ aus der Definition des W-Maßes?",
+      "antwort": "Setze $A_1 = \\Omega$ und $A_i = \\emptyset$ für $i \\ge 2$ (paarweise disjunkt). Mit Normiertheit und σ-Additivität: $1 = P(\\Omega) = P\\left(\\dot{\\bigcup}_{i=1}^{\\infty} A_i\\right) = 1 + \\sum_{i=2}^{\\infty} P(\\emptyset)$, also $\\sum_{i=2}^{\\infty} P(\\emptyset) = 0$ – das geht nur mit $P(\\emptyset) = 0$.",
+      "erklaerung": "Beweis von (2′), Folie 43.",
+      "folie": "43",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f12",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Beweise Satz 1.4.7 (4) und (6): $P(\\bar{A}) = 1 - P(A)$ und $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$.",
+      "musterloesung": "(4): $\\Omega = A \\,\\dot\\cup\\, \\bar{A}$, also $1 = P(\\Omega) = P(A) + P(\\bar{A})$, umgestellt $P(\\bar{A}) = 1 - P(A)$. (6): $A = (A \\setminus B) \\,\\dot\\cup\\, (A \\cap B)$ liefert $P(A \\setminus B) = P(A) - P(A \\cap B)$; $A \\cup B = (A \\setminus B) \\,\\dot\\cup\\, B$ liefert $P(A \\cup B) = P(A \\setminus B) + P(B) = P(A) + P(B) - P(A \\cap B)$. $\\blacksquare$",
+      "bewertungspunkte": [
+        "(4) Zerlegung von $\\Omega$",
+        "(4) Umstellen",
+        "(6) Zerlegung von $A$ bzw. $A \\cup B$ in disjunkte Teile",
+        "(6) Additivität angewendet"
+      ],
+      "punkte": 4,
+      "erklaerung": "Satz 1.4.7, Folie 44 (Beweis Folie 45 leer, selbst erarbeitet).",
+      "folie": "44–45",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Es gilt $P(A) = 0{,}5$, $P(B) = 0{,}4$ und $P(A \\cap B) = 0{,}1$. Berechne $P(\\bar{A})$, $P(A \\setminus B)$ und $P(A \\cup B)$.",
+      "musterloesung": "$P(\\bar{A}) = 1 - 0{,}5 = 0{,}5$; $P(A \\setminus B) = 0{,}5 - 0{,}1 = 0{,}4$; $P(A \\cup B) = 0{,}5 + 0{,}4 - 0{,}1 = 0{,}8$.",
+      "bewertungspunkte": [
+        "$P(\\bar{A}) = 0{,}5$ mit (4)",
+        "$P(A \\setminus B) = 0{,}4$ mit (5)",
+        "$P(A \\cup B) = 0{,}8$ mit (6)"
+      ],
+      "punkte": 3,
+      "erklaerung": "Anwendung von Satz 1.4.7 (4)–(6).",
+      "folie": "44",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist ein Wahrscheinlichkeitsraum (Definition 1.5.1)?",
+      "antwort": "Ein Tripel $(\\Omega, \\mathcal{A}, P)$ aus Ergebnisraum $\\Omega$, Ereignis-System $\\mathcal{A}$ und Wahrscheinlichkeitsmaß $P : \\mathcal{A} \\to \\mathbb{R}$ (kurz W-Raum bzw. W-Modell).",
+      "erklaerung": "Definition 1.5.1, Folie 47.",
+      "folie": "47",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Modelliere das einmalige Werfen einer fairen Münze vollständig durch einen Wahrscheinlichkeitsraum.",
+      "musterloesung": "$\\Omega = \\{\\text{Wappen}, \\text{Zahl}\\}$, $\\mathcal{A} = \\mathfrak{P}(\\Omega) = \\{\\emptyset, \\{\\text{Wappen}\\}, \\{\\text{Zahl}\\}, \\Omega\\}$, $P(\\emptyset) = 0$, $P(\\{\\text{Wappen}\\}) = P(\\{\\text{Zahl}\\}) = \\frac{1}{2}$, $P(\\Omega) = 1$.",
+      "bewertungspunkte": [
+        "$\\Omega$",
+        "$\\mathcal{A}$ mit allen 4 Ereignissen",
+        "$P$ für alle Ereignisse"
+      ],
+      "punkte": 3,
+      "erklaerung": "Beispiel 1.5.2 – Klausurtyp (vgl. Altklausur Stochastik, Aufgabe 1).",
+      "folie": "48",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Was ist ein Bernoulli-Experiment, und wie sieht das Bernoulli-Modell aus?",
+      "antwort": "Ein Zufalls-Experiment mit zwei möglichen Ausgängen. Modell: $\\Omega = \\{0, 1\\}$ (1 = Erfolg, 0 = Misserfolg), $\\mathcal{A} = \\mathfrak{P}(\\Omega)$, $P(\\{1\\}) = p$, $P(\\{0\\}) = 1 - p = q$ mit $0 \\le p \\le 1$; das W-Maß heißt Bernoulli($p$)-Verteilung $B(p)$.",
+      "erklaerung": "Definition 1.5.3, Folie 49.",
+      "folie": "49",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist ein Laplace-Experiment, und wie berechnet man dort $P(A)$?",
+      "antwort": "Ein Zufalls-Experiment mit endlich vielen und gleichwertigen Ausgängen. Mit $\\Omega = \\{1, \\dots, N\\}$ und $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ gilt $P(\\{\\omega\\}) = \\frac{1}{N}$ und $P(A) = \\frac{|A|}{|\\Omega|}$ (Laplace-Verteilung $L(\\Omega)$).",
+      "erklaerung": "Definition 1.5.4, Folie 50.",
+      "folie": "50",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Ein Laplace-Experiment hat endlich viele und [[gleichwertige]] Ausgänge. Das W-Maß heißt Laplace-Verteilung oder diskrete [[Gleichverteilung]].",
+      "erklaerung": "Definition 1.5.4.",
+      "folie": "50",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Zufalls-Experimente zu (Beispiel 1.5.5).",
+      "kategorien": [
+        "Bernoulli und Laplace",
+        "nur Bernoulli",
+        "nur Laplace",
+        "weder noch"
+      ],
+      "elemente": [
+        {
+          "text": "fairer Münzwurf",
+          "kategorie": "Bernoulli und Laplace"
+        },
+        {
+          "text": "einmal würfeln, Erfolg = „6“",
+          "kategorie": "nur Bernoulli"
+        },
+        {
+          "text": "verbeulte Münze mit P(Wappen) = 0,3",
+          "kategorie": "nur Bernoulli"
+        },
+        {
+          "text": "fairer Würfel, Ergebnis = Augenzahl",
+          "kategorie": "nur Laplace"
+        },
+        {
+          "text": "zweimal würfeln, Ergebnis = Augensumme",
+          "kategorie": "weder noch"
+        }
+      ],
+      "erklaerung": "Bernoulli: genau 2 Ausgänge. Laplace: endlich viele gleichwertige Ausgänge. Die Augensumme hat 11 nicht gleich wahrscheinliche Ausgänge.",
+      "folie": "49–51",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ziehen einer Kugel: Experiment 1 aus 3 roten und 3 blauen, Experiment 2 aus 3 roten und 1000 blauen Kugeln. Gib jeweils $\\Omega$ und $\\mathcal{A}$ an. Worin unterscheiden sich die Experimente?",
+      "musterloesung": "Beide: $\\Omega = \\{\\text{rot}, \\text{blau}\\}$, $\\mathcal{A} = \\mathfrak{P}(\\Omega) = \\{\\emptyset, \\{\\text{rot}\\}, \\{\\text{blau}\\}, \\Omega\\}$. Unterschied nur in den Wahrscheinlichkeiten: $P(\\{\\text{rot}\\}) = \\frac{1}{2}$ bzw. $\\frac{3}{1003}$ – dafür braucht man das Wahrscheinlichkeitsmaß $P$.",
+      "bewertungspunkte": [
+        "gleiches $\\Omega$",
+        "gleiches $\\mathcal{A}$ mit 4 Ereignissen",
+        "Unterschied: Wahrscheinlichkeiten / W-Maß"
+      ],
+      "punkte": 3,
+      "erklaerung": "Beispiel 1.4.1 – Motivation für das W-Maß.",
+      "folie": "34–35",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Wie legt man ein W-Maß $P$ vollständig fest?",
+      "optionen": [
+        "Bei diskretem $\\Omega$ genügen die Wahrscheinlichkeiten der Elementarereignisse.",
+        "Für $\\Omega = \\mathbb{R}$ genügen die Wahrscheinlichkeiten der links-offenen halboffenen Intervalle.",
+        "Man muss immer jede Teilmenge von $\\Omega$ einzeln angeben.",
+        "Es genügt, die Bilder der Elemente eines Erzeugers von $\\mathcal{A}$ anzugeben."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Zusammenfassung, Folie 53: Wegen der Eigenschaften von $P$ reichen die Bilder eines Erzeugers – diskret die Elementarereignisse, für $\\mathbb{R}$ die Intervalle $]a, b]$.",
+      "folie": "53",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f22",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ein Kind hat fünfmal hintereinander keine 6 gewürfelt und sagt: „Nach dem Gesetz der großen Zahlen muss jetzt bald eine 6 kommen.“ Was ist an dieser Aussage falsch?",
+      "musterloesung": "Das Empirische Gesetz der großen Zahlen sagt nur, dass sich die relative Häufigkeit auf **lange Sicht** (für $n \\to \\infty$) einem festen Wert nähert. Es sagt nichts über den nächsten Wurf: Der Würfel hat kein Gedächtnis, die Wahrscheinlichkeit für eine 6 bleibt bei jedem Wurf $\\frac{1}{6}$. Eine Abweichung in wenigen Würfen wird nicht „ausgeglichen“, sondern nur durch sehr viele weitere Würfe bedeutungslos.",
+      "bewertungspunkte": [
+        "Gesetz betrifft relative Häufigkeit auf lange Sicht",
+        "kein Ausgleich bei einzelnen Würfen",
+        "Wahrscheinlichkeit bleibt $\\frac{1}{6}$ (Würfel ohne Gedächtnis)"
+      ],
+      "punkte": 3,
+      "erklaerung": "Transfer auf den Unterricht: typische Fehlvorstellung zum Zufall (Kompetenzziel der Modulbeschreibung). Die Unabhängigkeit der Würfe ist eine Ergänzung (kommt später im Modul).",
+      "folie": "38",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f23",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ein fairer Würfel wird einmal geworfen. $A$: „Augenzahl gerade“, $B$: „Augenzahl mindestens 4“. Gib den W-Raum an und berechne $P(A \\cup B)$ einmal direkt und einmal mit dem Additionssatz.",
+      "musterloesung": "$(\\{1, \\dots, 6\\}, \\mathfrak{P}(\\{1, \\dots, 6\\}), P)$ mit $P(A) = \\frac{|A|}{6}$. $A = \\{2, 4, 6\\}$, $B = \\{4, 5, 6\\}$, $A \\cup B = \\{2, 4, 5, 6\\}$: direkt $\\frac{4}{6} = \\frac{2}{3}$. Additionssatz: $\\frac{3}{6} + \\frac{3}{6} - \\frac{2}{6} = \\frac{4}{6} = \\frac{2}{3}$, da $A \\cap B = \\{4, 6\\}$.",
+      "bewertungspunkte": [
+        "W-Raum (Laplace)",
+        "$A$, $B$, $A \\cap B$ als Mengen",
+        "direkt $\\frac{2}{3}$",
+        "Additionssatz $\\frac{2}{3}$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Neue Rechnung zu Def. 1.5.4 und Satz 1.4.7 (6).",
+      "folie": "44, 50",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [],
+  "offene_fragen": [
+    "Nach der Vorlesung am 26.10. bestätigen: Welche Folien wurden bearbeitet (von – bis)? Vorbereitet sind Folie 33–54.",
+    "Die Lückenfolien (Folie 35, 45, 48, 51) sind selbst gelöst – bei Gelegenheit mit der Mitschrift aus der Vorlesung vergleichen."
+  ]
+}

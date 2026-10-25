@@ -764,6 +764,76 @@
         "mab005"
       ],
       "erste_quelle": "mab005.2_2026-10-26 · Blatt 03, B.2"
+    },
+    {
+      "zeichen": "P : 𝒜 → ℝ",
+      "latex": "P : \\mathcal{A} \\to \\mathbb{R}",
+      "bedeutung": "Wahrscheinlichkeitsmaß als Abbildung vom Ereignissystem in die reellen Zahlen",
+      "gelesen": "P von A nach R",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-26 · Folie 41"
+    },
+    {
+      "zeichen": "∑ᵢ₌₁^∞",
+      "latex": "\\sum_{i=1}^{\\infty}",
+      "bedeutung": "Summe über alle i von 1 bis unendlich",
+      "gelesen": "Summe i gleich 1 bis unendlich",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-26 · Folie 41"
+    },
+    {
+      "zeichen": "n → ∞",
+      "latex": "n \\to \\infty",
+      "bedeutung": "n strebt gegen unendlich (Grenzwert)",
+      "gelesen": "n gegen unendlich",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-26 · Folie 38"
+    },
+    {
+      "zeichen": "Ωⁿ",
+      "latex": "\\Omega^n",
+      "bedeutung": "Menge aller n-Tupel von Ergebnissen (n Durchführungen)",
+      "gelesen": "Omega hoch n",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-26 · Folie 37"
+    },
+    {
+      "zeichen": "B(p)",
+      "latex": "B(p)",
+      "bedeutung": "Bernoulli-Verteilung mit Erfolgswahrscheinlichkeit p",
+      "gelesen": "Bernoulli von p",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-26 · Folie 49"
+    },
+    {
+      "zeichen": "p, q = 1 − p",
+      "latex": "p,\\ q = 1 - p",
+      "bedeutung": "Erfolgs- bzw. Misserfolgswahrscheinlichkeit beim Bernoulli-Experiment",
+      "gelesen": "p und q",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-26 · Folie 49"
+    },
+    {
+      "zeichen": "⇒",
+      "latex": "\\Rightarrow",
+      "bedeutung": "daraus folgt (Implikation)",
+      "gelesen": "folgt",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-26 · Folie 44"
     }
   ]
 }

@@ -52,6 +52,55 @@
       "erklaerung": "Das Ereignissystem für $\\Omega = \\mathbb{R}$: Man startet mit allen Intervallen $]a, b]$ und erzeugt daraus alles Weitere. Darin liegen u. a. $\\emptyset$, jedes $\\{a\\}$, alle offenen, abgeschlossenen und unbeschränkten Intervalle (Satz 1.3.11).",
       "quelle": "mab005.1_2026-10-19 · Folie 28",
       "abweichungen": []
+    },
+    {
+      "begriff": "Absolute Häufigkeit",
+      "wortlaut": "Definition 1.4.2 (absolute Häufigkeit) Wird ein Zufalls-Experiment mit Ergebnisraum $\\Omega$ und Ereignissystem $\\mathcal{A}$ $n$-fach durchgeführt und werden dabei die Ergebnisse $(\\omega_1, \\omega_2, \\dots, \\omega_n) \\in \\Omega^n$ beobachtet, so ist $H_n(A) = \\left|\\{i \\in \\{1, \\dots, n\\} \\mid \\omega_i \\in A\\}\\right|$ die absolute Häufigkeit des Eintretens des Ereignisses $A \\in \\mathcal{A}$.",
+      "erklaerung": "Wie oft ist $A$ bei $n$ Durchführungen eingetreten? Man zählt die Nummern $i$ der Durchführungen, bei denen das Ergebnis $\\omega_i$ in $A$ lag. Beispiel: 10-mal würfeln, 3-mal eine 6 → $H_{10}(\\{6\\}) = 3$.",
+      "quelle": "mab005.1_2026-10-26 · Folie 37",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Relative Häufigkeit",
+      "wortlaut": "Definition 1.4.3 (relative Häufigkeit) Wird ein Zufalls-Experiment mit Ergebnisraum $\\Omega$ und Ereignissystem $\\mathcal{A}$ $n$-fach durchgeführt und werden dabei die Ergebnisse $(\\omega_1, \\omega_2, \\dots, \\omega_n) \\in \\Omega^n$ beobachtet, so ist $h_n(A) = \\frac{H_n(A)}{n}$ die relative Häufigkeit des Eintretens des Ereignisses $A \\in \\mathcal{A}$.",
+      "erklaerung": "Der Anteil der Durchführungen, bei denen $A$ eingetreten ist: absolute Häufigkeit geteilt durch die Anzahl der Versuche. Beispiel: 3-mal eine 6 bei 10 Würfen → $h_{10}(\\{6\\}) = \\frac{3}{10}$.",
+      "quelle": "mab005.1_2026-10-26 · Folie 37",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Empirisches Gesetz der großen Zahlen",
+      "wortlaut": "Axiom (Empirisches Gesetz der großen Zahlen) Bei $n$-facher Durchführung eines Zufalls-Experiments mit Ereignissystem $\\mathcal{A}$ konvergieren die relativen Häufigkeiten $h_n(A)$ jedes Ereignisses $A \\in \\mathcal{A}$ für $n \\to \\infty$ gegen einen Grenzwert.",
+      "erklaerung": "Je öfter man ein Experiment wiederholt, desto mehr „pendelt sich“ die relative Häufigkeit auf einen festen Wert ein. Das ist **kein beweisbarer Satz, sondern eine Erfahrungstatsache**; „Grenzwert“ ist hier nicht im strengen Sinn der Analysis gemeint.",
+      "quelle": "mab005.1_2026-10-26 · Folie 38",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Wahrscheinlichkeitsmaß",
+      "wortlaut": "Definition 1.4.5 (Wahrscheinlichkeitsmaß) Eine Abbildung $P : \\mathcal{A} \\to \\mathbb{R}$, wobei $\\mathcal{A}$ eine σ-Algebra über $\\Omega$ ist, heißt Wahrscheinlichkeitsmaß (kurz: W-Maß) auf $\\mathcal{A}$, wenn die folgenden drei Bedingungen für alle Ereignisse $A \\in \\mathcal{A}$ bzw. für alle Ereignisse $A_i \\in \\mathcal{A}$, $i \\in \\mathbb{N}$, erfüllt sind: (1) $P(A) \\ge 0$ (Nichtnegativität) (2) $P(\\Omega) = 1$ (Normiertheit) (3′) $P\\left(\\dot{\\bigcup}_{i=1}^{\\infty} A_i\\right) = \\sum_{i=1}^{\\infty} P(A_i)$ (σ-Additivität)",
+      "erklaerung": "Eine Funktion, die jedem Ereignis eine Zahl zuordnet – seine Wahrscheinlichkeit. Drei Regeln: nie negativ, das sichere Ereignis hat 1, und bei (paarweise) disjunkten Ereignissen addieren sich die Wahrscheinlichkeiten. Beispiel fairer Würfel: $P(\\{2, 4, 6\\}) = P(\\{2\\}) + P(\\{4\\}) + P(\\{6\\}) = \\frac{3}{6}$.",
+      "quelle": "mab005.1_2026-10-26 · Folie 41",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Wahrscheinlichkeitsraum",
+      "wortlaut": "Definition 1.5.1 (Wahrscheinlichkeitsraum) Ein Tripel $(\\Omega, \\mathcal{A}, P)$ aus Ergebnisraum $\\Omega$, Ereignis-System $\\mathcal{A}$ und Wahrscheinlichkeitsmaß $P : \\mathcal{A} \\to \\mathbb{R}$ heißt Wahrscheinlichkeitsraum (kurz: W-Raum) bzw. Wahrscheinlichkeitsmodell (kurz: W-Modell).",
+      "erklaerung": "Das vollständige mathematische Modell eines Zufalls-Experiments: die drei Bausteine aus Folie 7 zusammen. Beispiel fairer Münzwurf: $(\\{\\text{W}, \\text{Z}\\}, \\mathfrak{P}(\\{\\text{W}, \\text{Z}\\}), P)$ mit $P(\\{\\text{W}\\}) = P(\\{\\text{Z}\\}) = \\frac{1}{2}$.",
+      "quelle": "mab005.1_2026-10-26 · Folie 47",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Bernoulli-Experiment",
+      "wortlaut": "Definition 1.5.3 (Bernoulli-Experiment) Ein Zufalls-Experiment mit zwei möglichen Ausgängen heißt Bernoulli-Experiment. Als Ergebnisraum nutzt man $\\Omega = \\{0, 1\\}$ und bezeichnet $\\omega = 1$ als „Erfolg“ und $\\omega = 0$ als „Misserfolg“. Das W-Modell $(\\Omega, \\mathcal{A}, P)$, bestehend aus $\\Omega = \\{0, 1\\}$, $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ und dem W-Maß $P$, das durch $P(\\{1\\}) = p$, $P(\\{0\\}) = 1 - p = q$ mit $0 \\le p \\le 1$ festgelegt wird, heißt Bernoulli-Modell. Das W-Maß $P$ heißt entsprechend Bernoulli-Verteilung mit Parameter $p$ oder Bernoulli($p$)-Verteilung (kurz: $B(p)$).",
+      "erklaerung": "Ein Experiment mit nur zwei Ausgängen: Erfolg (1) mit Wahrscheinlichkeit $p$, Misserfolg (0) mit $q = 1 - p$. Beispiel: Würfeln, Erfolg = „6“ → $p = \\frac{1}{6}$, $q = \\frac{5}{6}$.",
+      "quelle": "mab005.1_2026-10-26 · Folie 49",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Laplace-Experiment",
+      "wortlaut": "Definition 1.5.4 (Laplace-Experiment) Ein Zufalls-Experiment mit endlich vielen und gleichwertigen Ausgängen heißt Laplace-Experiment. Als Ergebnisraum wählt man etwa $\\Omega = \\{1, 2, \\dots, N\\}$. Das W-Maß $P$ auf $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ ist festgelegt durch $P(\\{1\\}) = P(\\{2\\}) = \\dots = P(\\{N\\})$, also $P(\\{\\omega\\}) = \\frac{1}{N}$ für alle $\\omega \\in \\Omega$, sowie für beliebige Ereignisse durch $P(A) = \\frac{|A|}{|\\Omega|}$. Das W-Maß heißt Laplace-Verteilung oder diskrete Gleichverteilung über $\\Omega$ (kurz: $L(\\Omega)$).",
+      "erklaerung": "Alle Ausgänge sind gleich wahrscheinlich – dann ist die Wahrscheinlichkeit „Anzahl günstige durch Anzahl mögliche Ergebnisse“. Beispiel fairer Würfel: $P(\\text{gerade}) = \\frac{3}{6} = \\frac{1}{2}$.",
+      "quelle": "mab005.1_2026-10-26 · Folie 50",
+      "abweichungen": []
     }
   ]
 }

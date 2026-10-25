@@ -34,12 +34,15 @@
     {
       "text": "Ein- und mehrstufige Zufallsexperimente modellieren",
       "abgedeckt_in": [
-        "mab005.1_2026-10-19"
+        "mab005.1_2026-10-19",
+        "mab005.1_2026-10-26"
       ]
     },
     {
       "text": "Wahrscheinlichkeiten, Erwartungswerte und Streumaße berechnen",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "mab005.1_2026-10-26"
+      ]
     },
     {
       "text": "Diskrete und stetige Verteilungen anwenden",
@@ -47,16 +50,21 @@
     },
     {
       "text": "Frequentistische und axiomatische Sicht unterscheiden",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "mab005.1_2026-10-26"
+      ]
     },
     {
       "text": "Typische Fehlvorstellungen zum Zufall beschreiben",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "mab005.1_2026-10-26"
+      ]
     }
   ],
   "sitzungen": [
     "mab005.1_2026-10-12",
     "mab005.1_2026-10-19",
+    "mab005.1_2026-10-26",
     "mab005.2_2026-10-12",
     "mab005.2_2026-10-19",
     "mab005.2_2026-10-26"
@@ -81,6 +89,12 @@
       "sitzung": "mab005.1_2026-10-19",
       "quelle": "Kapitel 1, Folie 2",
       "vorhanden": false
+    },
+    {
+      "eintrag": "Kütting/Sauer (2011): Elementare Stochastik, S. 88 und 91",
+      "sitzung": "mab005.1_2026-10-26",
+      "quelle": "Kapitel 1, Folie 34 und 37 („angelehnt an“)",
+      "vorhanden": false
     }
   ],
   "besonderheiten": [
@@ -94,7 +108,8 @@
     "Blatt 03, A.1c: Ass wird zu den Bildkarten gezählt (Bube, Dame, König, Ass)"
   ],
   "offene_fragen": [
-    "Bis zu welcher Folie von Kapitel 1 kam die VL am 12.10.?"
+    "Bis zu welcher Folie von Kapitel 1 kam die VL am 12.10.?",
+    "Welche Folien von Kapitel 1 kamen am 26.10. dran? (vorbereitet: 33–54)"
   ],
   "dateien": [
     {
@@ -125,7 +140,7 @@
       "art": "Folien",
       "status": "verarbeitet",
       "sitzung": "mab005.1_2026-10-19",
-      "hinweis": "Folie 1–32 verarbeitet (Stand 19.10.); Folie 33–54 für Blatt 03 gelesen, VL-Aufbereitung folgt nach der Sitzung am 26.10."
+      "hinweis": "Folie 1–32 → Sitzung 19.10.; Folie 33–54 → Sitzung 26.10. (vor der VL vorbereitet, Folienbereich nach der VL bestätigen)"
     },
     {
       "pfad": "mab005.2/Aufgabenblatt01_V1-2.pdf",

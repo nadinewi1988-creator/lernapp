@@ -1,0 +1,41 @@
+{
+  "schema": "lernapp-glossar/2",
+  "modul": "pkb003",
+  "eintraege": [
+    {
+      "begriff": "Ordoliberalismus",
+      "wortlaut": "eine in den 1930er- und 1940er-Jahren aktive Denkschule, die um die Idee zentriert ist, dass eine freiheitliche Gesellschaftsordnung nur dann gut funktionieren kann, wenn die Wirtschaft – analog zur Politik – einer Verfassung („Ordo“) unterworfen ist",
+      "erklaerung": "Die Wirtschaft braucht feste, vom Staat gesetzte Spielregeln (wie eine Verfassung); innerhalb dieser Regeln entscheiden die Marktteilnehmer frei.",
+      "quelle": "pkb003.2_2026-10-26 · Pies (2021) S. 2",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Soziale Marktwirtschaft",
+      "wortlaut": "ein politischer Slogan, der unmittelbar nach dem Ende des Zweiten Weltkriegs wirkmächtig geworden ist und das Selbstverständnis der Bundesrepublik Deutschland nachhaltig geprägt hat",
+      "erklaerung": "Leitbild der Bundesrepublik: Wettbewerb in einem staatlichen Rahmen plus marktkonforme Sozialpolitik und Umverteilung.",
+      "quelle": "pkb003.2_2026-10-26 · Pies (2021) S. 2",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Wettbewerbsordnung",
+      "wortlaut": "[eine Ordnung,] die wirtschaftliches Verhalten über Marktpreise koordiniert und zu diesem Zweck Konkurrenzmärkte einrichtet",
+      "erklaerung": "Euckens Gegenmodell zur Planwirtschaft: Der Staat sorgt aktiv für funktionierenden Wettbewerb und verhindert Kartelle und Privilegien.",
+      "quelle": "pkb003.2_2026-10-26 · Pies (2021) S. 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Interdependenz der Ordnungen",
+      "wortlaut": "Die Interdependenz von Staatsordnung und Wirtschaftsordnung zwingt dazu, den Ordnungsaufbau von beiden in einem Zuge in Angriff zu nehmen.",
+      "erklaerung": "Wirtschafts- und Staatsordnung hängen zusammen: Machtkonzentration in der Wirtschaft verstärkt Machtkonzentration in der Politik und umgekehrt.",
+      "quelle": "pkb003.2_2026-10-26 · Pies (2021) S. 7 und 9 (Eucken 1952)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Marktkonformität",
+      "wortlaut": "Marktinkonform ist ein Mietstopp, der den Gesamtwohnungsmarkt ohne Rücksicht auf die Leistungsfähigkeit der Mieter erfasst, marktkonform ist ein System von Mietbeihilfen für bedürftige Schichten.",
+      "erklaerung": "Eine staatliche Maßnahme ist marktkonform, wenn sie hilft, ohne den Preismechanismus außer Kraft zu setzen (Müller-Armack).",
+      "quelle": "pkb003.2_2026-10-26 · Pies (2021) S. 13",
+      "abweichungen": []
+    }
+  ]
+}

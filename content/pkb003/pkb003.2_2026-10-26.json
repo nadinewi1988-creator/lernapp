@@ -1,0 +1,104 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pkb003",
+  "teilmodul": "pkb003.2",
+  "datum": "2026-10-26",
+  "sitzung_nr": 3,
+  "sitzung_id": "",
+  "thema": "Ordoliberalismus und soziale Marktwirtschaft in Deutschland",
+  "thema_in_app": "eingetragen",
+  "stand": "entwurf",
+  "art_inhalt": "Zusammenfassung der Seminarliteratur (Präsentation durch Mitstudierende)",
+  "quellen": [
+    {
+      "datei": "pkb003.2/S03_2026-10-26_Pies_Ordoliberalismus-SozMarktwirtschaft.pdf",
+      "art": "Literatur: Pies (2021), Handbuch Wirtschaftsphilosophie",
+      "seiten": "1–14"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Was ist der Unterschied zwischen den beiden in Deutschland vorherrschenden Konzeptionen des Verhältnisses von Staat und Wirtschaft?",
+      "art": "vorgegeben",
+      "quelle": "Leitfrage Kursplan",
+      "fragen": [],
+      "erklaerung_abschnitt": "Der Unterschied auf einen Blick"
+    }
+  ],
+  "kurzfassung": [
+    "Ordoliberalismus ist eine wissenschaftliche Denkschule (1930er/40er, „Freiburger Schule“, Walter Eucken); Soziale Marktwirtschaft ist ein politisches Leitbild bzw. Slogan nach 1945 (Begriff: Alfred Müller-Armack, Politik: Ludwig Erhard).",
+    "Kernidee des Ordoliberalismus: Die Wirtschaft braucht – wie die Politik – eine Verfassung („Ordo“). Der Staat gestaltet die Spielregeln, greift aber nicht in die Spielzüge ein.",
+    "Wettbewerb ist ein „Entmachtungsinstrument“ (Franz Böhm): Er verhindert wirtschaftliche Machtballung, die sonst auch den Staat vereinnahmt.",
+    "Eucken stellt sich gegen Laisser-faire-Altliberalismus und gegen Sozialismus – nicht als Kompromiss in der Mitte, sondern „orthogonal“: Es geht nicht um viel oder wenig Staat, sondern um die Art der Staatstätigkeit.",
+    "Die Soziale Marktwirtschaft übernimmt die ordoliberale Rahmenordnung, ergänzt aber Umverteilung und marktkonforme Sozialpolitik – das geht über Eucken hinaus."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Personen und Hintergrund",
+      "folien": "S. 2–3",
+      "text": "**Freiburger Schule:** die Ökonomen **Walter Eucken** und Leonhard Miksch, die Juristen **Franz Böhm** und Hans Großmann-Doerth; Zeitschrift „ORDO. Jahrbuch für die Ordnung von Wirtschaft und Gesellschaft“.\n• Im Umfeld (eher Begleiter): Rüstow, Röpke, Lutz, Welter.\n• **Hayek** ist *kein* Ordoliberaler: Er versteht „Ordnung“ als ungeplantes Ergebnis von Handlungen, Eucken als gestalteten Rahmen.\n• Mit Euckens Tod 1950 endet die Weiterentwicklung der Schule."
+    },
+    {
+      "titel": "Spielregeln vs. Spielzüge – das Vier-Felder-Schema",
+      "folien": "S. 5–6, Abb. 1",
+      "text": "| | Staat gestaltet keine Spielregeln | Staat gestaltet Spielregeln |\n|---|---|---|\n| Staat greift nicht in Spielzüge ein | **Altliberalismus** (Laisser-faire), neigt zu Kartellen | **Ordoliberalismus** (Wettbewerbsordnung) |\n| Staat greift in Spielzüge ein | (nicht besetzt) | **Sozialismus** (Planwirtschaft) |\n\nEucken (1949): *„Es handelt sich nicht um ein quantitatives, sondern um ein qualitatives Problem […] Staatliche Planung der Formen – ja; staatliche Planung und Lenkung des Wirtschaftsprozesses – nein.“*"
+    },
+    {
+      "titel": "Euckens Argument in vier Schritten",
+      "folien": "S. 6–9, Abb. 2",
+      "text": "**1. Alternativen:** Nur Planwirtschaft oder Wettbewerbsordnung sind ernst zu nehmen. Laisser-faire fällt weg: Kartelle nehmen politischen Einfluss, erzwingen immer mehr Eingriffe und zerstören am Ende Rechtsstaat und Marktwirtschaft (Kaiserreich → Weimar → NS). Stichwort **„Interdependenz der Ordnungen“**.\n**2. Kriterien:** Freiheit, soziale Gerechtigkeit und soziale Sicherheit konkurrieren. Eucken löst das historisch über drei Phasen der „sozialen Frage“: bis 1914 Gerechtigkeit (Arbeiterarmut), 1914 bis Mitte 1930er Sicherheit (Massenarbeitslosigkeit), ab 1936 Freiheit (totaler Wirtschaftsstaat). Pointe: Nach 1945 gibt es **ohne Freiheit weder Sicherheit noch Gerechtigkeit**.\n**3. Entscheidung:** Allein die Wettbewerbsordnung löst das Ordnungsproblem – entscheidend ist der Schutz von Rechtsstaat und Autonomie, nicht der Wohlstand.\n**4. Prinzipien:** staatspolitische (Machtgruppen entgegentreten, Staat beschränkt sich auf die Wirtschaftsverfassung), konstituierende (Wettbewerbsordnung einrichten), regulierende (sie erhalten).\n*„Ohne eine Wettbewerbsordnung kann kein aktionsfähiger Staat entstehen und ohne einen aktionsfähigen Staat keine Wettbewerbsordnung.“*"
+    },
+    {
+      "titel": "Wie Eucken argumentiert",
+      "folien": "S. 9–12",
+      "text": "• Er überzeugt gerade Anhänger eines starken Staates: Ein Interventions- oder Planstaat wird von Interessengruppen vereinnahmt – er ist ein **schwacher Staat**.\n• Analogie zum Rechtsstaat: Wie die Gewaltenteilung aus Erfahrungen mit Fürstenwillkür entstand, soll eine Wirtschaftsverfassung wirtschaftliche Macht begrenzen („Denken und Handeln in Ordnungen“).\n• Seine Prinzipien sind **keine Naturrechte**, sondern Zweckmäßigkeitsargumente; sie wirken nur zusammen und sind weiterentwickelbar."
+    },
+    {
+      "titel": "Soziale Marktwirtschaft",
+      "folien": "S. 12–14",
+      "text": "**Ludwig Erhard** nutzt den Slogan politisch, ist aber nicht ihr Theoretiker: *„»Wohlstand für alle« und »Wohlstand durch Wettbewerb« gehören untrennbar zusammen“* (1957).\n**Alfred Müller-Armack** macht daraus ein Leitbild. Übernommen vom Ordoliberalismus: Wettbewerb braucht eine Rahmenordnung; Position jenseits von Altliberalismus und Sozialismus; Wettbewerb ist selbst eine soziale Leistung.\n**Eigenständig** (für Entscheidungen innerhalb der Ordnung):\n• **Umverteilung** von Einkommen – damit kehrt der Wertestreit zurück, den Eucken überwunden hatte.\n• **Marktkonformität:** Sozialpolitik darf den Preismechanismus nicht außer Kraft setzen.\n\n| marktinkonform | marktkonform |\n|---|---|\n| Zinsfixierung für bestimmte Kreditnehmer | Zinssubvention, allgemeiner Zins bleibt frei |\n| Mietstopp für den ganzen Wohnungsmarkt | Mietbeihilfen für Bedürftige |\n\nPies hält Müller-Armacks Anspruch, das Leitbild sei in der frühen Bundesrepublik „vollkommen verwirklicht“ worden, für unhaltbar."
+    },
+    {
+      "titel": "Der Unterschied auf einen Blick",
+      "text": "| | Ordoliberalismus | Soziale Marktwirtschaft |\n|---|---|---|\n| Art | wissenschaftliche Denkschule | politisches Leitbild / Slogan |\n| Personen | Eucken, Böhm (Freiburg), 1930er–1950 | Müller-Armack, Erhard, nach 1945 |\n| Ebene | Grundsatzentscheidung über die Wirtschaftsverfassung | konkrete Politik innerhalb der Ordnung |\n| Sozialpolitik | am besten durch die Wettbewerbsordnung selbst | zusätzlich Umverteilung, aber marktkonform |\n| Gemeinsam | Rahmen für Wettbewerb, gegen Laisser-faire und Planwirtschaft, Freihandel | |"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Ordoliberalismus",
+      "wortlaut": "eine in den 1930er- und 1940er-Jahren aktive Denkschule, die um die Idee zentriert ist, dass eine freiheitliche Gesellschaftsordnung nur dann gut funktionieren kann, wenn die Wirtschaft – analog zur Politik – einer Verfassung („Ordo“) unterworfen ist",
+      "erklaerung": "Die Wirtschaft braucht feste, vom Staat gesetzte Spielregeln (wie eine Verfassung); innerhalb dieser Regeln entscheiden die Marktteilnehmer frei.",
+      "folie": "S. 2"
+    },
+    {
+      "begriff": "Soziale Marktwirtschaft",
+      "wortlaut": "ein politischer Slogan, der unmittelbar nach dem Ende des Zweiten Weltkriegs wirkmächtig geworden ist und das Selbstverständnis der Bundesrepublik Deutschland nachhaltig geprägt hat",
+      "erklaerung": "Leitbild der Bundesrepublik: Wettbewerb in einem staatlichen Rahmen plus marktkonforme Sozialpolitik und Umverteilung.",
+      "folie": "S. 2"
+    },
+    {
+      "begriff": "Wettbewerbsordnung",
+      "wortlaut": "[eine Ordnung,] die wirtschaftliches Verhalten über Marktpreise koordiniert und zu diesem Zweck Konkurrenzmärkte einrichtet",
+      "erklaerung": "Euckens Gegenmodell zur Planwirtschaft: Der Staat sorgt aktiv für funktionierenden Wettbewerb und verhindert Kartelle und Privilegien.",
+      "folie": "S. 9"
+    },
+    {
+      "begriff": "Interdependenz der Ordnungen",
+      "wortlaut": "Die Interdependenz von Staatsordnung und Wirtschaftsordnung zwingt dazu, den Ordnungsaufbau von beiden in einem Zuge in Angriff zu nehmen.",
+      "erklaerung": "Wirtschafts- und Staatsordnung hängen zusammen: Machtkonzentration in der Wirtschaft verstärkt Machtkonzentration in der Politik und umgekehrt.",
+      "folie": "S. 7 und 9 (Eucken 1952)"
+    },
+    {
+      "begriff": "Marktkonformität",
+      "wortlaut": "Marktinkonform ist ein Mietstopp, der den Gesamtwohnungsmarkt ohne Rücksicht auf die Leistungsfähigkeit der Mieter erfasst, marktkonform ist ein System von Mietbeihilfen für bedürftige Schichten.",
+      "erklaerung": "Eine staatliche Maßnahme ist marktkonform, wenn sie hilft, ohne den Preismechanismus außer Kraft zu setzen (Müller-Armack).",
+      "folie": "S. 13"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [],
+  "pruefungshinweise": [],
+  "offene_fragen": [
+    "Kursplan nennt Biebricher/Ptak (2021), Kap. 2 und 3 – im Ordner liegt Pies (2021). Wurde der Text ausgetauscht?"
+  ]
+}

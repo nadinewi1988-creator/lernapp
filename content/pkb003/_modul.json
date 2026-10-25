@@ -1,0 +1,557 @@
+{
+  "schema": "lernapp-modul/2",
+  "modul": "pkb003",
+  "name": "Systemanalyse",
+  "semester": "WiSe 26/27",
+  "pruefung": {
+    "form": "Hausarbeit",
+    "dauer_min": null,
+    "termine": [
+      "2027-03-15"
+    ],
+    "hinweise": [
+      "Hausarbeit wird in pkb003.3 (Dr.in Marion Rieken) geschrieben (Nadines Plan, Stand 25.10.2026).",
+      "Umfang i. d. R. 45.000–55.000 Zeichen inkl. Leerzeichen (ohne Deckblatt, Verzeichnisse, Anhänge); erreichte Zeichenzahl angeben (§ 4 StO Politikwissenschaft BACS).",
+      "Thema vorher in der Sprechstunde der Dozentin vereinbaren; Bewertung i. d. R. innerhalb von 6 Wochen.",
+      "pkb003.3: 10-Minuten-Präsentation (PPP/Poster) + 5 Minuten Austausch als Vorbereitung auf die Hausarbeit; Entwurf jeweils bis Dienstagabend vor der Sitzung an die Dozentin."
+    ]
+  },
+  "teilmodule": [
+    {
+      "id": "pkb003.1",
+      "name": "Politische Ordnung: Das politische System der Bundesrepublik Deutschland",
+      "art": "Seminar",
+      "lehrende": "Dr. Jörg Baudner",
+      "inhalt": "Zusammenfassungen der Seminarliteratur je Termin"
+    },
+    {
+      "id": "pkb003.2",
+      "name": "Wirtschaft und Soziales: Wirtschaft und Gesellschaft in Deutschland",
+      "art": "Seminar",
+      "lehrende": "Dr. Jörg Baudner",
+      "inhalt": "Zusammenfassungen der Seminarliteratur je Termin"
+    },
+    {
+      "id": "pkb003.3",
+      "name": "Verwaltung: Einführung in die öffentliche Verwaltung",
+      "art": "Seminar",
+      "lehrende": "Dr.in Marion Rieken",
+      "inhalt": "volle Aufbereitung nach Schema (Hausarbeit)"
+    }
+  ],
+  "kompetenzziele": [
+    {
+      "text": "Grundstrukturen politischer, wirtschaftlicher und verwaltender Ordnungen kritisch reflektieren",
+      "abgedeckt_in": [
+        "pkb003.2_2026-10-26"
+      ]
+    },
+    {
+      "text": "Informationen für die Systemanalyse auswählen, Thesen prüfen, Kontroversen erkennen",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "Fallbeispiele im Team strukturieren",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "Forschungsfragen zur Regierungslehre entwickeln",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "Berufsfelder in Politik und Verwaltung erkunden",
+      "abgedeckt_in": []
+    }
+  ],
+  "probepruefung": null,
+  "praesentationen": [
+    {
+      "teilmodul": "pkb003.3",
+      "datum": "2026-11-12",
+      "thema": "Max Webers Bürokratiemodell – eine kurze Skizze",
+      "entwurf_bis": "2026-11-10"
+    },
+    {
+      "teilmodul": "pkb003.1",
+      "datum": "2026-11-17",
+      "thema": "Die Rolle der Verwaltung im politischen Prozess (Döhler 2015)"
+    }
+  ],
+  "sitzungsplan": [
+    {
+      "teilmodul": "pkb003.1",
+      "datum": "2026-10-13",
+      "nr": 1,
+      "thema": "Einführung",
+      "literatur": "keine angegeben"
+    },
+    {
+      "teilmodul": "pkb003.1",
+      "datum": "2026-10-20",
+      "nr": 2,
+      "thema": "Zentrale Begriffe: Föderalismus, Korporatismus, Verhandlungsdemokratie",
+      "literatur": "keine angegeben"
+    },
+    {
+      "teilmodul": "pkb003.1",
+      "datum": "2026-10-27",
+      "nr": 3,
+      "thema": "Bundesregierung und Koalitionsmanagement",
+      "literatur": "S03_2026-10-27_Zohlnhoefer-Engler_Merkel-Jahre_Kap-Saalfeld-Seifert_ab-S131.pdf"
+    },
+    {
+      "teilmodul": "pkb003.1",
+      "datum": "2026-11-03",
+      "nr": 4,
+      "thema": "Gesetzgebung und Ausschüsse im Bundestag",
+      "literatur": "S04_2026-11-03_Dhungel-Linhart_Ausschuesse.pdf"
+    },
+    {
+      "teilmodul": "pkb003.1",
+      "datum": "2026-11-10",
+      "nr": 5,
+      "thema": "Zusammenwirken von Bundestag und Bundesrat",
+      "literatur": "S05_2026-11-10_Stecker_Foederalismusreform.pdf"
+    },
+    {
+      "teilmodul": "pkb003.1",
+      "datum": "2026-11-17",
+      "nr": 6,
+      "thema": "Die Rolle der Verwaltung im politischen Prozess",
+      "literatur": "fehlt"
+    },
+    {
+      "teilmodul": "pkb003.1",
+      "datum": "2026-11-24",
+      "nr": 7,
+      "thema": "Das Bundesverfassungsgericht",
+      "literatur": "S07_2026-11-24_Hoennige-Gschwend_BVerfG.pdf"
+    },
+    {
+      "teilmodul": "pkb003.1",
+      "datum": "2026-12-01",
+      "nr": 8,
+      "thema": "Parteien und Parteiensystem",
+      "literatur": "Buch_S08-S12_Grotz-Schroeder_PolSystem.pdf"
+    },
+    {
+      "teilmodul": "pkb003.1",
+      "datum": "2026-12-08",
+      "nr": 9,
+      "thema": "Verbände und Verbändesystem",
+      "literatur": "Buch_S08-S12_Grotz-Schroeder_PolSystem.pdf"
+    },
+    {
+      "teilmodul": "pkb003.1",
+      "datum": "2026-12-15",
+      "nr": 10,
+      "thema": "Medien und Mediensystem – die politische Öffentlichkeit",
+      "literatur": "Buch_S08-S12_Grotz-Schroeder_PolSystem.pdf"
+    },
+    {
+      "teilmodul": "pkb003.1",
+      "datum": "2027-01-05",
+      "nr": 11,
+      "thema": "Die Regierungssysteme der Länder",
+      "literatur": "Buch_S08-S12_Grotz-Schroeder_PolSystem.pdf"
+    },
+    {
+      "teilmodul": "pkb003.1",
+      "datum": "2027-01-12",
+      "nr": 12,
+      "thema": "Das politische System auf dem Prüfstand",
+      "literatur": "Buch_S08-S12_Grotz-Schroeder_PolSystem.pdf"
+    },
+    {
+      "teilmodul": "pkb003.1",
+      "datum": "2027-01-19",
+      "nr": 13,
+      "thema": "tba",
+      "literatur": "keine angegeben"
+    },
+    {
+      "teilmodul": "pkb003.1",
+      "datum": "2027-01-26",
+      "nr": 14,
+      "thema": "Abschlussdiskussion",
+      "literatur": "keine angegeben"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2026-10-12",
+      "nr": 1,
+      "thema": "Einführung – Zum Verhältnis von Staat und Gesellschaft",
+      "literatur": "keine angegeben"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2026-10-19",
+      "nr": 2,
+      "thema": "Eine kurze Geschichte der Bundesrepublik",
+      "literatur": "keine angegeben"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2026-10-26",
+      "nr": 3,
+      "thema": "Ordoliberalismus und soziale Marktwirtschaft in Deutschland",
+      "literatur": "S03_2026-10-26_Pies_Ordoliberalismus-SozMarktwirtschaft.pdf"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2026-11-02",
+      "nr": 4,
+      "thema": "Gewerkschaften in Deutschland",
+      "literatur": "S04_2026-11-02_Ruetters-Mielke_Gewerkschaften.pdf"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2026-11-09",
+      "nr": 5,
+      "thema": "Politik und Religion in Deutschland",
+      "literatur": "S05_2026-11-09_Schroeder_Islamkonferenz.pdf"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2026-11-16",
+      "nr": 6,
+      "thema": "Die Umweltbewegung(en) in Deutschland",
+      "literatur": "fehlt"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2026-11-23",
+      "nr": 7,
+      "thema": "Demographischer Wandel",
+      "literatur": "S07_2026-11-23_Brussig_Demografischer-Wandel.pdf"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2026-11-30",
+      "nr": 8,
+      "thema": "Die Wiedervereinigung",
+      "literatur": "S08_2026-11-30_IWH_Vereintes-Land.pdf"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2026-12-07",
+      "nr": 9,
+      "thema": "Spielarten der Marktwirtschaft/des Kapitalismus",
+      "literatur": "S09_2026-12-07_Hall_Spielarten-des-Kapitalismus.pdf"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2026-12-14",
+      "nr": 10,
+      "thema": "Deutschland und Frankreich in der Euro-Krise",
+      "literatur": "S10_2026-12-14_Flachmeyer-Paul_EZB-Euro-Rettung.pdf · S10_2026-12-14_Lehner-Wasserfallen_Euro-Reform.pdf"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2027-01-04",
+      "nr": 11,
+      "thema": "Polarisierung von Politik und Gesellschaft in Deutschland – Pro-Argumente",
+      "literatur": "fehlt"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2027-01-11",
+      "nr": 12,
+      "thema": "Gesellschaftliche Spaltung in Deutschland? – Contra-Argumente",
+      "literatur": "fehlt"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2027-01-18",
+      "nr": 13,
+      "thema": "tba",
+      "literatur": "keine angegeben"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2027-01-25",
+      "nr": 14,
+      "thema": "Abschlussdiskussion",
+      "literatur": "keine angegeben"
+    },
+    {
+      "teilmodul": "pkb003.3",
+      "datum": "2026-10-22",
+      "nr": 1,
+      "thema": "Einführung · Begriff und Gegenstand der öffentlichen Verwaltung I"
+    },
+    {
+      "teilmodul": "pkb003.3",
+      "datum": "2026-11-12",
+      "nr": 2,
+      "thema": "Öffentliche Verwaltung gestern und heute: Begriff und Gegenstand II · Entwicklungslinien und Reformprozesse I"
+    },
+    {
+      "teilmodul": "pkb003.3",
+      "datum": "2026-11-19",
+      "nr": 3,
+      "thema": "Zukunftsfähigkeit der öffentlichen Verwaltung: Reformprozesse II · Herausforderungen I"
+    },
+    {
+      "teilmodul": "pkb003.3",
+      "datum": "2026-12-03",
+      "nr": 4,
+      "thema": "Zukunftsfähigkeit der öffentlichen Verwaltung: Herausforderungen II – ein Paradigmenwechsel?"
+    },
+    {
+      "teilmodul": "pkb003.3",
+      "datum": "2026-12-17",
+      "nr": 5,
+      "thema": "Theorie und Praxis: Verwaltungswissenschaft(en) · Verwaltung ganz praktisch I"
+    },
+    {
+      "teilmodul": "pkb003.3",
+      "datum": "2027-01-14",
+      "nr": 6,
+      "thema": "Theorie und Praxis: Verwaltung ganz praktisch II (Elemente des Verwaltungsrechts)"
+    },
+    {
+      "teilmodul": "pkb003.3",
+      "datum": "2027-01-28",
+      "nr": 7,
+      "thema": "Abschluss der Lehrveranstaltung"
+    }
+  ],
+  "fehlende_literatur": [
+    {
+      "teilmodul": "pkb003.1",
+      "datum": "2026-11-17",
+      "text": "Döhler, Marian (2015): Das Verhältnis zwischen Politik und Verwaltung im Wandel. In: Döhler u. a. (Hg.): Der gut organisierte Staat. Baden-Baden – für Nadines Präsentation!"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2026-11-16",
+      "text": "Literatur tba (Umweltbewegung)"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2026-12-07",
+      "text": "Brunnermeier u. a. (2018): Euro – Kampf der Wirtschaftskulturen. C.H. Beck, S. 78–107"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2027-01-04",
+      "text": "Otteni/Weisskircher (2022): AfD gegen die Grünen? Forschungsjournal Soziale Bewegungen"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2027-01-11",
+      "text": "Mau (2022): Kamel oder Dromedar? Merkur"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2027-01-11",
+      "text": "Westhäuser (2022): This is not America. Forschungsjournal Soziale Bewegungen"
+    },
+    {
+      "teilmodul": "pkb003.2",
+      "datum": "2026-10-26",
+      "text": "Kursplan nennt Biebricher/Ptak (2021), Kap. 2+3 – vorhanden ist Pies (2021)"
+    },
+    {
+      "teilmodul": "pkb003.3",
+      "datum": "2026-11-12",
+      "text": "Möltgen-Sicking/Winter (2018), S. 57–65 (Exzerpt als Hausaufgabe)"
+    },
+    {
+      "teilmodul": "pkb003.3",
+      "datum": "2026-11-12",
+      "text": "Literatur zu Max Webers Bürokratiemodell (Nadines Präsentation)"
+    }
+  ],
+  "auffaelligkeiten": [
+    "Kurspläne pkb003.1/.2: teils falsche Jahreszahlen (z. B. 17.11.25, 12.10.25) – Tippfehler, gemeint 2026.",
+    "Kursplan pkb003.2 Kopf: „WiSe 2024/2025“; Abschlussdiskussion „23.1.27“ ist ein Samstag – vermutlich Mo 25.01.2027.",
+    "Seminarplan pkb003.3: 14.01.2026 und 28.01.2026 – gemeint 2027.",
+    "Kursplan pkb003.2 S08: „Leipzig Institut … (2021)“ – vorhanden ist IWH Halle „Vereintes Land“ (2019)."
+  ],
+  "kalender_nachtragen": [
+    {
+      "art": "frist",
+      "datum": "2026-11-10",
+      "teil": "pkb003.3",
+      "titel": "Präsentationsentwurf Max Weber an Dr.in Rieken"
+    },
+    {
+      "art": "hausaufgabe",
+      "datum": "2026-11-12",
+      "teil": "pkb003.3",
+      "titel": "Möltgen-Sicking/Winter (2018), S. 57–65 lesen + Kernaussagen exzerpieren"
+    },
+    {
+      "art": "termin",
+      "datum": "2026-11-17",
+      "teil": "pkb003.1",
+      "titel": "Eigene Präsentation: Die Rolle der Verwaltung im politischen Prozess"
+    }
+  ],
+  "sitzungen": [
+    "pkb003.2_2026-10-26"
+  ],
+  "klausurstil": null,
+  "dateien": [
+    {
+      "pfad": "pkb003.1/1. Kursplan_Das_politische_System_der_Bundesrepublik_Deutschland26.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Kursplan",
+      "status": "ausgewertet"
+    },
+    {
+      "pfad": "pkb003.1/1. Kursplan_Das_politische_System_der_Bundesrepublik_Deutschland26.docx",
+      "geaendert": "2026-10-20",
+      "art": "Kursplan",
+      "status": "ausgewertet"
+    },
+    {
+      "pfad": "pkb003.2/1. Kursplan_Wirtschaft_und_Gesellschaft_in_Deutschland26.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Kursplan",
+      "status": "ausgewertet"
+    },
+    {
+      "pfad": "pkb003.2/1. Kursplan_Wirtschaft_und_Gesellschaft_in_Deutschland26.docx",
+      "geaendert": "2026-10-20",
+      "art": "Kursplan",
+      "status": "ausgewertet"
+    },
+    {
+      "pfad": "pkb003.3/LV_Öffentliche_Verwaltung_WiSe_26_Sitzung1.pdf",
+      "geaendert": "2026-10-23",
+      "art": "Folien + Seminarplan",
+      "status": "später",
+      "sitzung": "pkb003.3_2026-10-22"
+    },
+    {
+      "pfad": "pkb003.2/S03_2026-10-26_Pies_Ordoliberalismus-SozMarktwirtschaft.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Literatur",
+      "status": "verarbeitet",
+      "sitzung": "pkb003.2_2026-10-26"
+    },
+    {
+      "pfad": "pkb003.1/S03_2026-10-27_Zohlnhoefer-Engler_Merkel-Jahre_Kap-Saalfeld-Seifert_ab-S131.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Literatur",
+      "status": "später",
+      "sitzung": "pkb003.1_2026-10-27"
+    },
+    {
+      "pfad": "pkb003.1/S04_2026-11-03_Dhungel-Linhart_Ausschuesse.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Literatur",
+      "status": "später",
+      "sitzung": "pkb003.1_2026-11-03"
+    },
+    {
+      "pfad": "pkb003.1/S05_2026-11-10_Stecker_Foederalismusreform.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Literatur",
+      "status": "später",
+      "sitzung": "pkb003.1_2026-11-10"
+    },
+    {
+      "pfad": "pkb003.1/S07_2026-11-24_Hoennige-Gschwend_BVerfG.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Literatur",
+      "status": "später",
+      "sitzung": "pkb003.1_2026-11-24"
+    },
+    {
+      "pfad": "pkb003.1/Buch_S08-S12_Grotz-Schroeder_PolSystem.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Literatur",
+      "status": "später",
+      "sitzung": "pkb003.1_2026-12-01"
+    },
+    {
+      "pfad": "pkb003.2/S04_2026-11-02_Ruetters-Mielke_Gewerkschaften.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Literatur",
+      "status": "später",
+      "sitzung": "pkb003.2_2026-11-02"
+    },
+    {
+      "pfad": "pkb003.2/S05_2026-11-09_Schroeder_Islamkonferenz.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Literatur",
+      "status": "später",
+      "sitzung": "pkb003.2_2026-11-09"
+    },
+    {
+      "pfad": "pkb003.2/S07_2026-11-23_Brussig_Demografischer-Wandel.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Literatur",
+      "status": "später",
+      "sitzung": "pkb003.2_2026-11-23"
+    },
+    {
+      "pfad": "pkb003.2/S08_2026-11-30_IWH_Vereintes-Land.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Literatur",
+      "status": "später",
+      "sitzung": "pkb003.2_2026-11-30"
+    },
+    {
+      "pfad": "pkb003.2/S09_2026-12-07_Hall_Spielarten-des-Kapitalismus.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Literatur",
+      "status": "später",
+      "sitzung": "pkb003.2_2026-12-07"
+    },
+    {
+      "pfad": "pkb003.2/S10_2026-12-14_Flachmeyer-Paul_EZB-Euro-Rettung.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Literatur",
+      "status": "später",
+      "sitzung": "pkb003.2_2026-12-14"
+    },
+    {
+      "pfad": "pkb003.2/S10_2026-12-14_Lehner-Wasserfallen_Euro-Reform.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Literatur",
+      "status": "später",
+      "sitzung": "pkb003.2_2026-12-14"
+    },
+    {
+      "pfad": "pkb003.1/Zusatz_Benz_Politik-in-Mehrebenensystemen.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Zusatzliteratur (nicht im Kursplan)",
+      "status": "übersprungen"
+    },
+    {
+      "pfad": "pkb003.1/Zusatz_Mannewitz-Rudzio_PolSystem_Fassung1.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Zusatzliteratur (nicht im Kursplan)",
+      "status": "übersprungen"
+    },
+    {
+      "pfad": "pkb003.1/Zusatz_Mannewitz-Rudzio_PolSystem_Fassung2.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Zusatzliteratur (nicht im Kursplan)",
+      "status": "übersprungen"
+    },
+    {
+      "pfad": "pkb003.1/Zusatz_Mannewitz-Rudzio_PolSystem_Fassung3.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Zusatzliteratur (nicht im Kursplan)",
+      "status": "übersprungen"
+    },
+    {
+      "pfad": "pkb003.2/Zusatz_Schmidt_Sozialpolitik.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Zusatzliteratur (nicht im Kursplan)",
+      "status": "übersprungen"
+    },
+    {
+      "pfad": "pkb003.2/Zusatz_Hansen-Olsen_AfD-2021.pdf",
+      "geaendert": "2026-10-20",
+      "art": "Zusatzliteratur (nicht im Kursplan)",
+      "status": "übersprungen"
+    }
+  ]
+}

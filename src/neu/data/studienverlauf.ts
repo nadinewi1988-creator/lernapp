@@ -127,12 +127,35 @@ export const REGELN = [
   { titel: 'Gesamtnote BACS', text: 'Mathematik 60 CP · Politikwissenschaft 60 CP · Profilierungsbereich 35 CP · Praktikumsbericht 6 CP · Bachelorarbeit 10 CP mit Faktor 1,5. Unbenotete Module zählen nicht.', quelle: 'PO BACS § 9, § 10' },
 ];
 
+/** Studium mit Familienverantwortung – Recherche 25.10.2026, Details im Projekt: ordnungen/studium_familienverantwortung.md */
+export const FAMILIE = [
+  { titel: '+50 % Bearbeitungszeit', text: 'Für schriftliche Arbeiten (Hausarbeiten, Bachelorarbeit) – nicht für Präsenzklausuren. Gilt nur mit gültiger Bescheinigung und pro Prüfung.', quelle: 'Richtlinie Familienverantwortung 46/2021, Ziff. 5.1 · RPO § 30 Abs. 4' },
+  { titel: 'Bescheinigung jedes Semester', text: 'Die Bescheinigung „Studium mit Familienverantwortung“ (Immatrikulationsamt) gilt höchstens 1 Semester – für jedes Semester neu beantragen (für das SoSe vor dem 15.02., für das WiSe vor dem 15.08.).', quelle: 'Richtlinie Ziff. 3' },
+  { titel: 'Rechtzeitig vorlegen', text: 'Vor der Prüfungsanmeldung beim Prüfungsausschuss, bei Studienleistungen vor Beginn bei der Lehrperson. Nach Beginn der Schreibzeit nur noch per begründetem Einzelantrag.', quelle: 'Richtlinie Ziff. 5' },
+  { titel: 'Kind krank / Betreuung fällt aus', text: 'Krankheit eines Kindes, das du allein betreust, zählt bei Fristen wie eigene Krankheit. Kurzfristiger Ausfall der Kinderbetreuung ist ein wichtiger Grund für Rücktritt – unverzüglich schriftlich melden und belegen (z. B. Kinderarzt, Kita).', quelle: 'RPO § 27, § 30 Abs. 3 · Richtlinie Ziff. 5.4' },
+  { titel: 'Anwesenheitspflicht', text: 'Mit Bescheinigung reichen 70 % Anwesenheit, wenn Ersatzleistungen angeboten werden.', quelle: 'Richtlinie Ziff. 5.2' },
+  { titel: 'Seminarplätze', text: 'Bevorzugte Platzvergabe bei teilnahmebeschränkten Veranstaltungen – nur im kurzen Antragsfenster (August bzw. Februar) und mit Bescheinigung des aktuellen Semesters.', quelle: 'Uni Vechta · Bevorzugte Platzvergabe' },
+  { titel: 'Keine Langzeitgebühren', text: 'Für Semester mit einem Kind unter 14 wird kein Studienguthaben verbraucht – nur auf Antrag bis Ende der Rückmeldefrist.', quelle: 'NHG § 12 Abs. 3 Nr. 2, § 13' },
+  { titel: 'BAföG', text: '160 € Kinderbetreuungszuschlag pro Kind unter 14 (Zuschuss). Förderungshöchstdauer verlängert sich je nach Alter des Kindes; Leistungsnachweis darf später kommen.', quelle: 'BAföG § 14b, § 15 Abs. 3 Nr. 5, § 48 Abs. 2' },
+  { titel: 'Ansprechperson', text: 'Susanne Donnerbauer, Koordination Familiengerechte Hochschule · Tel. 04441 15-682 · susanne.donnerbauer@uni-vechta.de', quelle: 'uni-vechta.de/familiengerechte-hochschule' },
+];
+export const FAMILIE_ABLAUF = [
+  'Bescheinigung „Studium mit Familienverantwortung“ für das Semester beim Immatrikulationsamt beantragen (Formular + Geburtsurkunde + erweiterte Haushaltsbescheinigung) und in HISinOne abrufen.',
+  'Für jede schriftliche Prüfung (z. B. Hausarbeit) die Bescheinigung vor der Prüfungsanmeldung bzw. vor Beginn der Schreibzeit beim Prüfungsausschuss vorlegen und die Verlängerung um 50 % beantragen.',
+  'Den neuen Abgabetermin schriftlich bestätigen lassen (nicht geregelt, ab wann die Bearbeitungszeit zählt – deshalb immer nachfragen) und in der App auf der Prüfungsseite eintragen.',
+  'Fällt etwas kurzfristig aus (Kind krank, Betreuung weg): sofort schriftlich der prüfenden Person melden und einen Nachweis nachreichen.',
+  'Vor Semesterende die Bescheinigung für das nächste Semester neu beantragen.',
+];
+
 export const DOKUMENTE = [
   { titel: 'Rahmenprüfungsordnung (Amtliches Mitteilungsblatt 14/2026)', info: 'gilt seit 09.09.2026', url: 'https://www.uni-vechta.de/fileadmin/user_upload/Amtliche_Mitteilungsblaetter/Jahrgang_2026/14-26_Rahmenpruefungsordnung.pdf' },
   { titel: 'Prüfungsordnung Bachelor Combined Studies (2024)', info: 'gilt ab WiSe 24/25', url: 'https://www.uni-vechta.de/fileadmin/user_upload/Zentrale_Studienberatung_Career_Service/01_DC_Studienprogramme/BACS_Allgemeine_Ordnungen_und_Anlagen/BACS_allgemein_Studienbeginn_ab_WiSe_2024_25/15_2024_BACS_Pruefungsordnung.pdf' },
   { titel: 'Studienverlaufspläne mit und ohne Lehramtsoption', info: 'allgemein', url: 'https://www.uni-vechta.de/fileadmin/user_upload/Zentrale_Studienberatung_Career_Service/01_DC_Studienprogramme/BACS_Allgemeine_Ordnungen_und_Anlagen/BACS_allgemein_Studienbeginn_ab_WiSe_2024_25/15_2024_BACS_Studienverlaufsplaene_mit_und_ohne_Lehramtsoption.pdf' },
   { titel: 'Studienverlaufsplan Mathematik', info: 'Teilstudiengang', url: 'https://www.uni-vechta.de/fileadmin/user_upload/Zentrale_Studienberatung_Career_Service/01_DC_Studienprogramme/BACS_Faecher/BACS_Mathematik/MA_Studienbeginn_ab_WiSe_2024_25/15_2024_BACS_Mathematik_Studienverlaufsplan.pdf' },
   { titel: 'Studienverlaufsplan Politikwissenschaft', info: 'Teilstudiengang', url: 'https://www.uni-vechta.de/fileadmin/user_upload/Zentrale_Studienberatung_Career_Service/01_DC_Studienprogramme/BACS_Faecher/BACS_Politikwissenschaft/PK_Studienbeginn_ab_WiSe_2024_25/15_2024_BACS_Politikwissenschaft_Studienverlaufsplaene.pdf' },
+  { titel: 'Richtlinie Chancengleichheit für Studierende mit Familienverantwortung (46/2021)', info: 'Familie · +50 %', url: 'https://www.uni-vechta.de/fileadmin/user_upload/Amtliche_Mitteilungsblaetter/Jahrgang_2021/46-2021_Richtlinie_zur_Umsetzung_von_Chancengleichheit_fuer_Studierende_mit_Familienverantwortung_Erste_Aenderung.pdf' },
+  { titel: 'Antrag Bescheinigung Familienverantwortung/Mutterschutz', info: 'Immatrikulationsamt', url: 'https://www.uni-vechta.de/fileadmin/user_upload/Dezernat_3/I-Amt/Dateien_I-Amt/Antrag_Bescheinigung_Familienverantwortung_Mutterschutz.pdf' },
+  { titel: 'Studium mit Familienverantwortung (Uni Vechta)', info: 'Übersicht', url: 'https://www.uni-vechta.de/studium/studienorientierung/studium-mit-familienverantwortung' },
 ];
 
 /** Modulfarben (Text, Fläche) – aktuelles Semester in Pastell, sonst gedämpft je Fach. */

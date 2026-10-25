@@ -3,7 +3,7 @@ import { useKlapp } from '../klapp';
 import type { Studienstand, Termin, Versuch } from '../db';
 import { speichereVersuch, entferneVersuch, speichereTermin, setzeVoraussetzung, verschiebePruefung, neuePruefung, setzeBafoegGrenze } from '../db';
 import { auswerten, STATUS_FARBE, BEREICH_ZIEL, fristHinweis, mitTag, datumLang, noteText, tageBis, heuteIso, type Eintrag } from '../pruefungslogik';
-import { farbe, REGELN, DOKUMENTE, MODULE } from '../data/studienverlauf';
+import { farbe, REGELN, DOKUMENTE, MODULE, FAMILIE, FAMILIE_ABLAUF } from '../data/studienverlauf';
 
 // Hinweise zur Anmeldung aus den Startdaten (z. B. „noch nicht bekannt“) – erscheinen, solange kein Zeitraum eingetragen ist.
 const HINWEIS_AN: Record<string, string> = Object.fromEntries(MODULE.flatMap((m) => (m.termine ?? []).filter((t) => t.hinweis_an).map((t) => [m.kuerzel + '|' + t.art, t.hinweis_an!])));
@@ -328,7 +328,7 @@ function RegelnSeite() {
         <button type="button" onClick={() => setOffen(!offen)} style={{ width: '100%', display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '4px 12px', minHeight: 60, padding: '10px 20px', border: 0, background: '#fff', cursor: 'pointer', textAlign: 'left' }}>
           <span style={{ fontSize: 14, color: 'var(--ink-3)', width: 14 }}>{offen ? '▾' : '▸'}</span>
           <span style={{ fontSize: 17, fontWeight: 800 }}>Regeln auf einen Blick</span>
-          <span className="klein-text">Rahmenprüfungsordnung 14/2026 + Prüfungsordnung BACS 15/2024</span>
+          <span className="klein-text">Rahmenprüfungsordnung 14/2026 + Prüfungsordnung BACS 15/2024 · Studium mit Familienverantwortung</span>
         </button>
         {offen && (
           <div style={{ padding: '0 20px 18px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))', gap: 12 }}>
@@ -339,6 +339,23 @@ function RegelnSeite() {
                 <div style={{ fontSize: 11, color: 'var(--ink-3)', fontWeight: 700 }}>{r.quelle}</div>
               </div>
             ))}
+            <div style={{ gridColumn: '1 / -1', marginTop: 8, display: 'flex', flexWrap: 'wrap', alignItems: 'baseline', gap: '2px 10px' }}>
+              <span style={{ fontSize: 16, fontWeight: 800 }}>Studium mit Familienverantwortung</span>
+              <span className="klein-text">Richtlinie 46/2021 · RPO § 27, § 30 · NHG · BAföG – Stand 25.10.2026, verbindlich ist der Bescheid des Prüfungsausschusses</span>
+            </div>
+            {FAMILIE.map((r) => (
+              <div key={r.titel} style={{ background: '#fdf4f6', borderRadius: 14, padding: 14, display: 'flex', flexDirection: 'column', gap: 4 }}>
+                <div style={{ fontWeight: 800, fontSize: 14 }}>{r.titel}</div>
+                <div style={{ fontSize: 13, color: 'var(--ink-2)', lineHeight: 1.45 }}>{r.text}</div>
+                <div style={{ fontSize: 11, color: 'var(--ink-3)', fontWeight: 700 }}>{r.quelle}</div>
+              </div>
+            ))}
+            <div style={{ gridColumn: '1 / -1', background: 'var(--paper)', borderRadius: 14, padding: 14, display: 'flex', flexDirection: 'column', gap: 6 }}>
+              <div style={{ fontWeight: 800, fontSize: 14 }}>Ablauf – so nutzt du die Regeln</div>
+              <ol style={{ margin: 0, paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 4, fontSize: 13, color: 'var(--ink-2)', lineHeight: 1.45 }}>
+                {FAMILIE_ABLAUF.map((t) => <li key={t}>{t}</li>)}
+              </ol>
+            </div>
           </div>
         )}
       </section>

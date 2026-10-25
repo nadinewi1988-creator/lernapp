@@ -674,6 +674,36 @@
         "mab005"
       ],
       "erste_quelle": "mab005.2_2026-10-12 · Blatt 01, B.1"
+    },
+    {
+      "zeichen": "[a; b[",
+      "latex": "[a; b[",
+      "bedeutung": "halboffenes Intervall: a gehört dazu, b nicht",
+      "gelesen": "a bis b, rechts offen",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.2_2026-10-19 · Blatt 02, A.1"
+    },
+    {
+      "zeichen": "]−∞; b[",
+      "latex": "]-\\infty; b[",
+      "bedeutung": "nach unten unbeschränktes Intervall",
+      "gelesen": "minus unendlich bis b",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.2_2026-10-19 · Blatt 02, A.1"
+    },
+    {
+      "zeichen": "2^|Ω|",
+      "latex": "2^{|\\Omega|}",
+      "bedeutung": "Anzahl der Teilmengen (Mächtigkeit der Potenzmenge) einer endlichen Menge Ω",
+      "gelesen": "zwei hoch Mächtigkeit von Omega",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.2_2026-10-19 · Blatt 02, B.1"
     }
   ]
 }

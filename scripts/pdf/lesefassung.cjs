@@ -45,6 +45,7 @@ h3{font-size:11pt;margin:14px 0 4px;break-after:avoid}h4,h5{font-size:10.5pt;mar
 .def,.auf{border-left:3px solid #3d5a8a;padding:4px 10px;margin:8px 0;break-inside:avoid}.def .b,.auf .b{font-weight:700}
 .w{color:#3f4756;margin:2px 0 4px}.def .w{font-style:italic}
 p{margin:4px 0}ul,ol{margin:4px 0;padding-left:22px}li{margin:2px 0}
+.lt-bild{margin:8px 0 12px;text-align:center;break-inside:avoid}.lt-bild img{max-width:100%}.lt-bild figcaption{font-size:9pt;color:#5a6578}
 .lt-regel{background:#f3f6fb;border-left:4px solid #8195b8;padding:6px 12px;margin:8px 0;border-radius:3px;break-inside:avoid}
 table{border-collapse:collapse;margin:6px 0;font-size:9.6pt}td,th{border:1px solid #c9d3e3;padding:2px 8px;text-align:left}th{background:#eef2f8}
 .katex{font-size:1.06em}.katex-display{margin:6px 0}

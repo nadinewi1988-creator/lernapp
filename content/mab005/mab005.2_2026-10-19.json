@@ -1,0 +1,257 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "mab005",
+  "teilmodul": "mab005.2",
+  "datum": "2026-10-19",
+  "sitzung_nr": 2,
+  "sitzung_id": "",
+  "thema": "Aufgabenblatt 02",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "quellen": [
+    {
+      "datei": "mab005.2/Aufgabenblatt02_V1-2.pdf",
+      "art": "Übungsblatt",
+      "seiten": "1–2"
+    },
+    {
+      "datei": "mab005.2/Aufgabenblatt02_TeilA_Lösungen.pdf",
+      "art": "Kurzlösungen Teil A (Uni)",
+      "seiten": "1–2"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Mengenoperationen ($\\cup$, $\\cap$, $\\setminus$) mit Intervallen ausführen und entscheiden, ob das Ergebnis ein offenes, halboffenes, geschlossenes oder gar kein Intervall ist.",
+      "art": "abgeleitet",
+      "quelle": "Blatt 02, A.1",
+      "fragen": [
+        "f01",
+        "f02"
+      ],
+      "erklaerung_abschnitt": "Worum es in Blatt 02 geht"
+    },
+    {
+      "text": "Zu einem endlichen Ergebnisraum das Ereignissystem $\\mathfrak{P}(\\Omega)$ angeben, seine Mächtigkeit berechnen und die σ-Algebra-Eigenschaften nachweisen.",
+      "art": "abgeleitet",
+      "quelle": "Blatt 02, B.1, B.2",
+      "fragen": [
+        "f03",
+        "f04",
+        "f06"
+      ],
+      "erklaerung_abschnitt": "Worum es in Blatt 02 geht"
+    },
+    {
+      "text": "Ereignisse verknüpfen und $A \\setminus B = A \\cap \\bar{B}$ am Venn-Diagramm begründen.",
+      "art": "abgeleitet",
+      "quelle": "Blatt 02, B.1d, B.3",
+      "fragen": [
+        "f05",
+        "f07"
+      ],
+      "erklaerung_abschnitt": "Worum es in Blatt 02 geht"
+    }
+  ],
+  "kurzfassung": [
+    "Im Seminar werden die Aufgaben von Blatt 02 bearbeitet: Teil A (Intervalle) zur Selbstkontrolle, Teil B (Ereignissystem, σ-Algebra, Venn-Diagramm) gemeinsam.",
+    "Bei Mengenoperationen mit Intervallen entscheidet an jeder Grenze, ob sie dazugehört; so kann aus offenen Intervallen auch ein halboffenes oder geschlossenes werden.",
+    "Einzelne Punkte, die leere Menge und Vereinigungen mit Lücke sind keine Intervalle.",
+    "Für endliches $\\Omega$ ist $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ mit $|\\mathcal{A}| = 2^{|\\Omega|}$ – und jede Potenzmenge ist eine σ-Algebra.",
+    "$A \\setminus B = A \\cap \\bar{B}$: „in $A$, aber nicht in $B$“."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Worum es in Blatt 02 geht",
+      "folien": "Blatt 02",
+      "text": "Blatt 02 übt **Mengenoperationen** (an Intervallen aus mab001) und die Begriffe **Ereignissystem**, **σ-Algebra** und **Elementarereignis** aus Kapitel 1. Alle Aufgaben mit vollständigen Lösungen stehen in der **Hausaufgabe „Übungsblatt 02“** (eigenes Fenster bzw. PDF).\n\n- **A.1:** $A_1 = [1; 5[$, $A_2 = \\,]-2; 1]$, $A_3 = \\{1\\}$, $A_4 = \\emptyset$, $A_5 = \\,]-2; 6[$, $A_6 = \\mathbb{R}$, $A_7 = \\,]-\\infty; -1[ \\cup ]1; 6[$, $A_8 = [-1; 1] \\cup [6; \\infty[$.\n- **B.1:** $\\Omega = \\{\\text{Herz}, \\text{Karo}, \\text{Pik}, \\text{Kreuz}\\}$, $|\\mathcal{A}| = 2^4 = 16$; die Potenzmenge erfüllt alle drei σ-Algebra-Bedingungen; 4 Elementarereignisse.\n- **B.2:** Karte und Münze: $|\\Omega| = 4 \\cdot 2 = 8$, $|\\mathcal{A}| = 2^8 = 256$.\n- **B.3:** Venn-Diagramm zu $A \\setminus B = A \\cap \\bar{B}$.\n\n![Venn-Diagramme: 1) A ∖ B, 2) B̄, 3) A ∩ B̄ – die dunkle Fläche in 3) ist dieselbe wie in 1)](/dateien/mab005/Blatt02_B3_Venn_A-ohne-B.svg)",
+      "beispiel": "$\\{1, 2\\}$ hat $2^2 = 4$ Teilmengen: $\\emptyset$, $\\{1\\}$, $\\{2\\}$, $\\{1, 2\\}$."
+    }
+  ],
+  "definitionen": [],
+  "aufgaben": [
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Übungsblatt 02 (4 Aufgaben)",
+      "text": "Aufgabenblatt 02 (Bearbeitung in Woche 2: 19. bis 23. Oktober 2026) – alle Aufgaben im Wortlaut (Lösungen unter „Lösung / Ausarbeitung“ und als PDF):\n\n#### Teil A – zur Selbstkontrolle\n\n**A.1 Mengenoperationen mit Intervallen:** *„Gegeben seien die folgenden offenen Intervalle:*\n$$O_1 = \\,]-2; 5[\\,, \\quad O_2 = \\,]-7; 1[\\,, \\quad O_3 = \\,]1; 6[\\,, \\quad O_4 = \\,]-\\infty; -1[\\,, \\quad O_5 = \\,]-4; \\infty[$$\n*Bilden Sie die folgenden Mengen und entscheiden Sie, ob es sich bei diesen Mengen um offene, halboffene, geschlossene Intervalle handelt, oder ob es sich überhaupt nicht um Intervalle handelt:*\n*(a) $A_1 := O_1 \\setminus O_2$ (b) $A_2 := O_1 \\setminus O_3$ (c) $A_3 := A_1 \\cap A_2$ (d) $A_4 := O_2 \\cap O_3$ (e) $A_5 := O_1 \\cup O_3$ (f) $A_6 := O_4 \\cup O_5$ (g) $A_7 := O_3 \\cup O_4$ (h) $A_8 := A_6 \\setminus A_7$“*\n\n#### Teil B – zur gemeinsamen Besprechung\n\n**B.1 Zufallsexperiment Ziehen einer Karte:** *„Für das Zufallsexperiment Zufälliges Ziehen einer Karte aus einem Skat-Spiel wird der Ergebnisraum $\\Omega = \\{\\text{Herz}, \\text{Karo}, \\text{Pik}, \\text{Kreuz}\\}$ festgelegt.*\n*(a) Das zugehörige Ereignis-System sei $\\mathcal{A}$. Berechnen Sie $|\\mathcal{A}|$. Geben Sie alle Elemente von $\\mathcal{A}$ an.*\n*(b) Bestätigen Sie, dass das Ereignis-System $\\mathcal{A}$ aus Aufgabenteil (a) die Eigenschaften einer σ-Algebra (siehe Definition aus der Vorlesung) erfüllt.*\n*(c) Geben Sie alle Elementarereignisse für das Zufallsexperiment an.*\n*(d) Es sei $A = \\{\\text{Herz}, \\text{Karo}\\}$, $B = \\{\\text{Pik}\\}$. Geben Sie für die folgenden Ereignisse jeweils die zugehörige Teilmenge von $\\Omega$ an: $A \\cup B$, $A \\cap B$, $\\bar{A}$, $\\bar{A} \\cap B$.“*\n\n**B.2 Zufallsexperiment Karte und Münze:** *„Für das Zufallsexperiment Ziehen einer Karte aus einem Skatspiel und Werfen einer Münze wird der Ergebnisraum $\\Omega = \\{\\text{Herz}, \\text{Karo}, \\text{Pik}, \\text{Kreuz}\\} \\times \\{\\text{Wappen}, \\text{Zahl}\\}$ festgelegt.*\n*(a) Berechnen Sie die Mächtigkeit von $\\Omega$.*\n*(b) Geben Sie alle Elemente des Ergebnisraums $\\Omega$ an.*\n*(c) Berechnen Sie die Mächtigkeit des zugehörigen Ereignis-Systems $\\mathcal{A}$.“*\n\n**B.3 Eigenschaften von Mengen:** *„Für zwei Mengen $A$ und $B$ gilt: $A \\setminus B = A \\cap \\bar{B}$. Verdeutlichen Sie diese Aussage durch ein geeignetes Venn-Diagramm.“*",
+      "quelle": "Aufgabenblatt 02 (Teil A und B)",
+      "loesung": "## Die Definitionen und Regeln, die du für Blatt 02 brauchst\n\n> **Regel (Intervalle – Ergänzung aus mab001, Schreibweise wie in der Vorlesung):** Für reelle Zahlen $a < b$ ist\n> - $]a; b[ \\;= \\{x \\in \\mathbb{R} \\mid a < x < b\\}$ **offen** (beide Grenzen gehören **nicht** dazu),\n> - $[a; b] = \\{x \\in \\mathbb{R} \\mid a \\le x \\le b\\}$ **geschlossen** (beide Grenzen gehören dazu),\n> - $[a; b[ \\;= \\{x \\in \\mathbb{R} \\mid a \\le x < b\\}$ und $]a; b] = \\{x \\in \\mathbb{R} \\mid a < x \\le b\\}$ **halboffen**,\n> - $]-\\infty; b[$, $[a; \\infty[$, … **unbeschränkt**; $]-\\infty; \\infty[ \\;= \\mathbb{R}$.\n>\n> Die nach außen geöffnete Klammer heißt: Die Grenze gehört **nicht** dazu (VL Kapitel 1, Folie 28). Nach der Definition aus mab001 müssen die beiden Grenzen eines Intervalls **verschieden** sein – eine einzelne Zahl $\\{1\\}$ oder die leere Menge $\\emptyset$ ist also kein Intervall (so auch die Musterlösung der Uni).\n\n> **Regel (Mengenoperationen – VL Kapitel 1, Folie 21, und mab001):**\n> - $A \\cup B$ (Vereinigung): alle Elemente, die in $A$ **oder** in $B$ liegen (oder in beiden).\n> - $A \\cap B$ (Schnitt): alle Elemente, die in $A$ **und** in $B$ liegen.\n> - $A \\setminus B$ (Differenz): alle Elemente von $A$, die **nicht** in $B$ liegen.\n> - $\\bar{A}$ (Komplement bezüglich $\\Omega$): alle Elemente von $\\Omega$, die nicht in $A$ liegen.\n>\n> Beispiel: $A = \\{1, 2, 3\\}$, $B = \\{3, 4\\}$: $A \\cup B = \\{1, 2, 3, 4\\}$, $A \\cap B = \\{3\\}$, $A \\setminus B = \\{1, 2\\}$.\n\n> **Definition 1.3.2 (Ereignis, Ereignissystem, VL Folie 16):** Ein Ereignis $A$ ist eine Teilmenge des Ergebnisraums $\\Omega$. Die Menge aller betrachteten Ereignisse heißt das Ereignissystem $\\mathcal{A}$. Im diskreten Fall (endliches oder abzählbares $\\Omega$) ist $\\mathcal{A} = \\mathfrak{P}(\\Omega)$, die Potenzmenge (VL Folie 25).\n\n> **Definition 1.3.3 (Elementarereignis, VL Folie 18):** $A$ heißt Elementarereignis, wenn $A = \\{\\omega\\}$ für ein $\\omega \\in \\Omega$.\n\n> **Definition 1.3.5 (σ-Algebra, VL Folie 23):** Ein System $\\mathcal{A}$ von Teilmengen einer Menge $\\Omega$ heißt σ-Algebra über $\\Omega$, wenn gilt (1) $\\Omega \\in \\mathcal{A}$; (2) $\\bar{A} \\in \\mathcal{A}$, falls $A \\in \\mathcal{A}$; und (3) $\\bigcup_{i=1}^{\\infty} A_i \\in \\mathcal{A}$, falls $A_i \\in \\mathcal{A}$ für alle $i$.\n\n> **Regel (Mächtigkeit – Ergänzung):** $|A \\times B| = |A| \\cdot |B|$ und $|\\mathfrak{P}(\\Omega)| = 2^{|\\Omega|}$ – eine Menge mit $n$ Elementen hat $2^n$ Teilmengen, weil man bei jedem der $n$ Elemente entscheidet „dabei“ oder „nicht dabei“ (2 Möglichkeiten je Element).\n> Beispiel: $\\{a, b\\}$ hat $2^2 = 4$ Teilmengen: $\\emptyset$, $\\{a\\}$, $\\{b\\}$, $\\{a, b\\}$.\n\n---neue-seite---\n\n## Teil A – zur Selbstkontrolle\n\n### Aufgabe A.1 Mengenoperationen mit Intervallen\n\n*„Gegeben seien die folgenden offenen Intervalle:*\n$$O_1 = \\,]-2; 5[\\,, \\quad O_2 = \\,]-7; 1[\\,, \\quad O_3 = \\,]1; 6[\\,, \\quad O_4 = \\,]-\\infty; -1[\\,, \\quad O_5 = \\,]-4; \\infty[$$\n*Bilden Sie die folgenden Mengen und entscheiden Sie, ob es sich bei diesen Mengen um offene, halboffene, geschlossene Intervalle handelt, oder ob es sich überhaupt nicht um Intervalle handelt:“*\n\n**Tipp für alle Teilaufgaben:** Zeichne die Intervalle als Strecken auf einen Zahlenstrahl. An jeder Grenze fragst du: Gehört diese Zahl zur gesuchten Menge – ja oder nein?\n\n**Aufgabe A.1a:** *„$A_1 := O_1 \\setminus O_2$“*\n\n**Antwort:**\n\n$O_1 \\setminus O_2$ enthält alle $x$ aus $O_1 = \\,]-2; 5[$, die **nicht** in $O_2 = \\,]-7; 1[$ liegen.\n\n- Von $-2$ bis unter $1$ liegt $O_1$ ganz in $O_2$ – diese Zahlen fallen weg.\n- Die Zahl $1$ selbst: $1 \\in O_1$ (denn $-2 < 1 < 5$), aber $1 \\notin O_2$ (die $1$ ist offene Grenze von $O_2$). Also **bleibt** die $1$.\n- Von $1$ bis unter $5$ bleibt alles; die $5$ gehört nicht zu $O_1$.\n\n$$A_1 = [1; 5[ \\;= \\{x \\in \\mathbb{R} \\mid 1 \\le x < 5\\}$$\n\n**Ergebnis:** $A_1 = [1; 5[$ – ein **halboffenes** (rechtsoffenes) Intervall.\n\n**Aufgabe A.1b:** *„$A_2 := O_1 \\setminus O_3$“*\n\n**Antwort:**\n\nAus $O_1 = \\,]-2; 5[$ werden alle $x$ entfernt, die in $O_3 = \\,]1; 6[$ liegen, also alle $x$ mit $1 < x < 6$.\n\n- Übrig bleiben die $x$ mit $-2 < x \\le 1$.\n- Die $1$ bleibt, denn $1 \\notin O_3$ (offene Grenze); die $-2$ gehört schon nicht zu $O_1$.\n\n$$A_2 = \\,]-2; 1] = \\{x \\in \\mathbb{R} \\mid -2 < x \\le 1\\}$$\n\n**Ergebnis:** $A_2 = \\,]-2; 1]$ – ein **halboffenes** (linksoffenes) Intervall.\n\n**Aufgabe A.1c:** *„$A_3 := A_1 \\cap A_2$“*\n\n**Antwort:**\n\n$A_1 = [1; 5[$ enthält die Zahlen $\\ge 1$, $A_2 = \\,]-2; 1]$ die Zahlen $\\le 1$. In **beiden** liegt nur eine einzige Zahl: die $1$.\n\n$$A_3 = [1; 5[ \\;\\cap\\; ]-2; 1] = \\{1\\}$$\n\n**Ergebnis:** $A_3 = \\{1\\}$ – eine einelementige Menge, **kein Intervall** (die beiden Grenzen müssten verschieden sein).\n\n**Aufgabe A.1d:** *„$A_4 := O_2 \\cap O_3$“*\n\n**Antwort:**\n\n$O_2 = \\,]-7; 1[$ enthält nur Zahlen $< 1$, $O_3 = \\,]1; 6[$ nur Zahlen $> 1$. Keine Zahl ist zugleich kleiner und größer als $1$ – und die $1$ selbst gehört zu keinem der beiden.\n\n$$A_4 = O_2 \\cap O_3 = \\emptyset$$\n\n**Ergebnis:** $A_4 = \\emptyset$ – die leere Menge, **kein Intervall** im eigentlichen Sinne.\n\n**Aufgabe A.1e:** *„$A_5 := O_1 \\cup O_3$“*\n\n**Antwort:**\n\n$O_1 = \\,]-2; 5[$ und $O_3 = \\,]1; 6[$ überlappen sich (zwischen $1$ und $5$). Zusammen decken sie alles von $-2$ bis $6$ ab, ohne Lücke; die Grenzen $-2$ und $6$ gehören zu keinem der beiden.\n\n$$A_5 = \\,]-2; 6[ \\;= \\{x \\in \\mathbb{R} \\mid -2 < x < 6\\}$$\n\n**Ergebnis:** $A_5 = \\,]-2; 6[$ – ein **offenes** Intervall.\n\n**Aufgabe A.1f:** *„$A_6 := O_4 \\cup O_5$“*\n\n**Antwort:**\n\n$O_4 = \\,]-\\infty; -1[$ reicht von $-\\infty$ bis knapp unter $-1$, $O_5 = \\,]-4; \\infty[$ von knapp über $-4$ bis $\\infty$. Sie überlappen sich zwischen $-4$ und $-1$. Jede reelle Zahl liegt also in mindestens einem der beiden: Zahlen $< -1$ in $O_4$, Zahlen $\\ge -1$ (sogar alle $> -4$) in $O_5$.\n\n$$A_6 = \\,]-\\infty; \\infty[ \\;= \\mathbb{R}$$\n\n**Ergebnis:** $A_6 = \\mathbb{R}$ – ein **unbeschränktes** Intervall.\n\n**Aufgabe A.1g:** *„$A_7 := O_3 \\cup O_4$“*\n\n**Antwort:**\n\n$O_4 = \\,]-\\infty; -1[$ und $O_3 = \\,]1; 6[$ überlappen sich **nicht**: Dazwischen liegt die Lücke von $-1$ bis $1$ (einschließlich $-1$ und $1$).\n\n$$A_7 = \\,]-\\infty; -1[ \\;\\cup\\; ]1; 6[$$\n\n**Ergebnis:** $A_7 = \\,]-\\infty; -1[ \\,\\cup\\, ]1; 6[$ – **kein Intervall**, sondern zwei Intervalle mit einer Lücke; man kann sie nicht zu einem zusammenfassen.\n\n**Aufgabe A.1h:** *„$A_8 := A_6 \\setminus A_7$“*\n\n**Antwort:**\n\n$A_6 = \\mathbb{R}$. Wir entfernen alles, was in $A_7 = \\,]-\\infty; -1[ \\,\\cup\\, ]1; 6[$ liegt. Übrig bleibt:\n\n- die Lücke zwischen den beiden Teilen von $A_7$: alle $x$ mit $-1 \\le x \\le 1$ – die Grenzen $-1$ und $1$ **bleiben**, weil sie in $A_7$ nicht enthalten waren (offene Grenzen);\n- alles ab $6$: alle $x \\ge 6$ – die $6$ bleibt, weil $6 \\notin \\,]1; 6[$.\n\n$$A_8 = [-1; 1] \\;\\cup\\; [6; \\infty[$$\n\n**Ergebnis:** $A_8 = [-1; 1] \\cup [6; \\infty[$ – **kein einzelnes Intervall**, sondern ein **geschlossenes** Intervall $[-1; 1]$ und ein unbeschränktes Intervall $[6; \\infty[$. Man sieht: Aus offenen Intervallen kann durch Mengenoperationen ein geschlossenes Intervall entstehen.\n\n---neue-seite---\n\n## Teil B – zur gemeinsamen Besprechung\n\n*Für Teil B gibt es keine Musterlösung der Uni – die Lösungen sind selbst erarbeitet.*\n\n### Aufgabe B.1 Zufallsexperiment Ziehen einer Karte\n\n*„Für das Zufallsexperiment Zufälliges Ziehen einer Karte aus einem Skat-Spiel wird der Ergebnisraum $\\Omega = \\{\\text{Herz}, \\text{Karo}, \\text{Pik}, \\text{Kreuz}\\}$ festgelegt.“*\n\n(Beobachtet wird hier also nur die **Farbe** der gezogenen Karte, nicht ihr Wert.)\n\n**Aufgabe B.1a:** *„Das zugehörige Ereignis-System sei $\\mathcal{A}$. Berechnen Sie $|\\mathcal{A}|$. Geben Sie alle Elemente von $\\mathcal{A}$ an.“*\n\n**Antwort:**\n\n$\\Omega$ ist endlich, also nimmt man als Ereignissystem die Potenzmenge: $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ (VL Folie 25). $\\Omega$ hat 4 Elemente, also nach der Regel zur Mächtigkeit:\n\n$$|\\mathcal{A}| = |\\mathfrak{P}(\\Omega)| = 2^{|\\Omega|} = 2^4 = 16$$\n\nAlle 16 Elemente, geordnet nach der Anzahl der Farben im Ereignis:\n\n| Anzahl Farben | Ereignisse | Anzahl |\n|---|---|---|\n| 0 | $\\emptyset$ | 1 |\n| 1 | $\\{\\text{Herz}\\}$, $\\{\\text{Karo}\\}$, $\\{\\text{Pik}\\}$, $\\{\\text{Kreuz}\\}$ | 4 |\n| 2 | $\\{\\text{Herz}, \\text{Karo}\\}$, $\\{\\text{Herz}, \\text{Pik}\\}$, $\\{\\text{Herz}, \\text{Kreuz}\\}$, $\\{\\text{Karo}, \\text{Pik}\\}$, $\\{\\text{Karo}, \\text{Kreuz}\\}$, $\\{\\text{Pik}, \\text{Kreuz}\\}$ | 6 |\n| 3 | $\\{\\text{Herz}, \\text{Karo}, \\text{Pik}\\}$, $\\{\\text{Herz}, \\text{Karo}, \\text{Kreuz}\\}$, $\\{\\text{Herz}, \\text{Pik}, \\text{Kreuz}\\}$, $\\{\\text{Karo}, \\text{Pik}, \\text{Kreuz}\\}$ | 4 |\n| 4 | $\\{\\text{Herz}, \\text{Karo}, \\text{Pik}, \\text{Kreuz}\\} = \\Omega$ | 1 |\n| | **zusammen** | **16** |\n\nProbe: $1 + 4 + 6 + 4 + 1 = 16$. ✓\n\n**Ergebnis:** $|\\mathcal{A}| = 16$; die Elemente stehen in der Tabelle.\n\n**Aufgabe B.1b:** *„Bestätigen Sie, dass das Ereignis-System $\\mathcal{A}$ aus Aufgabenteil (a) die Eigenschaften einer σ-Algebra (siehe Definition aus der Vorlesung) erfüllt.“*\n\n**Antwort:**\n\nWir prüfen die drei Bedingungen aus Definition 1.3.5 für $\\mathcal{A} = \\mathfrak{P}(\\Omega)$.\n\n**(1) $\\Omega \\in \\mathcal{A}$:** $\\Omega = \\{\\text{Herz}, \\text{Karo}, \\text{Pik}, \\text{Kreuz}\\}$ steht in der letzten Zeile der Tabelle. ✓\n\n**(2) Mit $A$ liegt auch $\\bar{A}$ in $\\mathcal{A}$:** Das Komplement einer Teilmenge von $\\Omega$ ist wieder eine Teilmenge von $\\Omega$, also wieder in der Tabelle. Konkret bilden die 16 Ereignisse 8 Paare „Ereignis – Gegenereignis“:\n\n| $A$ | $\\bar{A}$ |\n|---|---|\n| $\\emptyset$ | $\\{\\text{Herz}, \\text{Karo}, \\text{Pik}, \\text{Kreuz}\\}$ |\n| $\\{\\text{Herz}\\}$ | $\\{\\text{Karo}, \\text{Pik}, \\text{Kreuz}\\}$ |\n| $\\{\\text{Karo}\\}$ | $\\{\\text{Herz}, \\text{Pik}, \\text{Kreuz}\\}$ |\n| $\\{\\text{Pik}\\}$ | $\\{\\text{Herz}, \\text{Karo}, \\text{Kreuz}\\}$ |\n| $\\{\\text{Kreuz}\\}$ | $\\{\\text{Herz}, \\text{Karo}, \\text{Pik}\\}$ |\n| $\\{\\text{Herz}, \\text{Karo}\\}$ | $\\{\\text{Pik}, \\text{Kreuz}\\}$ |\n| $\\{\\text{Herz}, \\text{Pik}\\}$ | $\\{\\text{Karo}, \\text{Kreuz}\\}$ |\n| $\\{\\text{Herz}, \\text{Kreuz}\\}$ | $\\{\\text{Karo}, \\text{Pik}\\}$ |\n\nJedes Komplement steht wieder in $\\mathcal{A}$ (und umgekehrt). ✓\n\n**(3) Mit $A_1, A_2, \\dots$ liegt auch $\\bigcup_{i=1}^{\\infty} A_i$ in $\\mathcal{A}$:** Jedes $A_i$ ist eine Teilmenge von $\\Omega$. Eine Vereinigung von Teilmengen von $\\Omega$ enthält nur Elemente von $\\Omega$, ist also wieder eine Teilmenge von $\\Omega$ und damit ein Element von $\\mathfrak{P}(\\Omega) = \\mathcal{A}$. (Da $\\mathcal{A}$ nur 16 Mengen hat, kommen in einer unendlichen Folge $A_1, A_2, \\dots$ ohnehin höchstens 16 verschiedene Mengen vor.) Beispiel: $\\{\\text{Herz}\\} \\cup \\{\\text{Pik}, \\text{Kreuz}\\} = \\{\\text{Herz}, \\text{Pik}, \\text{Kreuz}\\} \\in \\mathcal{A}$. ✓\n\n**Ergebnis:** Alle drei Bedingungen sind erfüllt, $\\mathcal{A}$ ist eine σ-Algebra über $\\Omega$ – genau wie Satz 1.3.7 (VL Folie 24) für jede Potenzmenge sagt.\n\n**Aufgabe B.1c:** *„Geben Sie alle Elementarereignisse für das Zufallsexperiment an.“*\n\n**Antwort:**\n\nNach Definition 1.3.3 sind die Elementarereignisse die einelementigen Teilmengen $\\{\\omega\\}$ mit $\\omega \\in \\Omega$:\n\n$$\\{\\text{Herz}\\}, \\quad \\{\\text{Karo}\\}, \\quad \\{\\text{Pik}\\}, \\quad \\{\\text{Kreuz}\\}$$\n\n**Ergebnis:** Es gibt **4 Elementarereignisse** (die Zeile „1 Farbe“ der Tabelle in (a)). Achtung: $\\text{Herz}$ ist ein Ergebnis, $\\{\\text{Herz}\\}$ das Elementarereignis.\n\n**Aufgabe B.1d:** *„Es sei $A = \\{\\text{Herz}, \\text{Karo}\\}$, $B = \\{\\text{Pik}\\}$. Geben Sie für die folgenden Ereignisse jeweils die zugehörige Teilmenge von $\\Omega$ an: $A \\cup B$, $A \\cap B$, $\\bar{A}$, $\\bar{A} \\cap B$.“*\n\n**Antwort:**\n\n- $A \\cup B$ – alle Farben, die in $A$ **oder** in $B$ liegen: $\\{\\text{Herz}, \\text{Karo}\\} \\cup \\{\\text{Pik}\\} = \\{\\text{Herz}, \\text{Karo}, \\text{Pik}\\}$. In Worten: „Die Karte ist rot oder Pik“.\n- $A \\cap B$ – Farben, die in $A$ **und** in $B$ liegen: Keine Farbe ist zugleich in $\\{\\text{Herz}, \\text{Karo}\\}$ und in $\\{\\text{Pik}\\}$, also $A \\cap B = \\emptyset$. $A$ und $B$ treten nie gleichzeitig ein (sie sind disjunkt).\n- $\\bar{A}$ – alle Farben aus $\\Omega$, die **nicht** in $A$ liegen: $\\bar{A} = \\{\\text{Pik}, \\text{Kreuz}\\}$. In Worten: „Die Karte ist schwarz“.\n- $\\bar{A} \\cap B$ – in $\\bar{A}$ und in $B$: $\\{\\text{Pik}, \\text{Kreuz}\\} \\cap \\{\\text{Pik}\\} = \\{\\text{Pik}\\}$.\n\n**Ergebnis:** $A \\cup B = \\{\\text{Herz}, \\text{Karo}, \\text{Pik}\\}$, $A \\cap B = \\emptyset$, $\\bar{A} = \\{\\text{Pik}, \\text{Kreuz}\\}$, $\\bar{A} \\cap B = \\{\\text{Pik}\\}$.\n\n### Aufgabe B.2 Zufallsexperiment Karte und Münze\n\n*„Für das Zufallsexperiment Ziehen einer Karte aus einem Skatspiel und Werfen einer Münze wird der Ergebnisraum $\\Omega = \\{\\text{Herz}, \\text{Karo}, \\text{Pik}, \\text{Kreuz}\\} \\times \\{\\text{Wappen}, \\text{Zahl}\\}$ festgelegt.“*\n\n**Aufgabe B.2a:** *„Berechnen Sie die Mächtigkeit von $\\Omega$.“*\n\n**Antwort:**\n\nNach der Produktregel:\n\n$$|\\Omega| = |\\{\\text{Herz}, \\text{Karo}, \\text{Pik}, \\text{Kreuz}\\}| \\cdot |\\{\\text{Wappen}, \\text{Zahl}\\}| = 4 \\cdot 2 = 8$$\n\n**Ergebnis:** $|\\Omega| = 8$.\n\n**Aufgabe B.2b:** *„Geben Sie alle Elemente des Ergebnisraums $\\Omega$ an.“*\n\n**Antwort:**\n\nJedes Element ist ein Paar (Farbe, Münzseite). Systematisch, erst alle Paare mit Herz, dann Karo, Pik, Kreuz:\n\n$$\\begin{aligned}\n\\Omega = \\{&(\\text{Herz}, \\text{Wappen}), (\\text{Herz}, \\text{Zahl}), (\\text{Karo}, \\text{Wappen}), (\\text{Karo}, \\text{Zahl}),\\\\\n&(\\text{Pik}, \\text{Wappen}), (\\text{Pik}, \\text{Zahl}), (\\text{Kreuz}, \\text{Wappen}), (\\text{Kreuz}, \\text{Zahl})\\}\n\\end{aligned}$$\n\n**Ergebnis:** die **8 Paare** oben (passt zu (a)).\n\n**Aufgabe B.2c:** *„Berechnen Sie die Mächtigkeit des zugehörigen Ereignis-Systems $\\mathcal{A}$.“*\n\n**Antwort:**\n\n$\\Omega$ ist endlich, also ist $\\mathcal{A} = \\mathfrak{P}(\\Omega)$. Mit $|\\Omega| = 8$ aus (a):\n\n$$|\\mathcal{A}| = |\\mathfrak{P}(\\Omega)| = 2^{|\\Omega|} = 2^8 = 256$$\n\n**Ergebnis:** $|\\mathcal{A}| = 256$ – es gibt 256 verschiedene Ereignisse.\n\n### Aufgabe B.3 Eigenschaften von Mengen\n\n**Aufgabe B.3:** *„Für zwei Mengen $A$ und $B$ gilt: $A \\setminus B = A \\cap \\bar{B}$. Verdeutlichen Sie diese Aussage durch ein geeignetes Venn-Diagramm.“*\n\n**Antwort:**\n\nIn einem Venn-Diagramm ist $\\Omega$ das Rechteck, $A$ und $B$ sind zwei sich überschneidende Kreise. Wir färben beide Seiten der Gleichung ein und vergleichen:\n\n![Venn-Diagramme: 1) A ∖ B, 2) B̄, 3) A ∩ B̄ – die dunkle Fläche in 3) ist dieselbe wie in 1)](/dateien/mab005/Blatt02_B3_Venn_A-ohne-B.svg)\n\n1. **Linke Seite $A \\setminus B$:** alles, was in $A$ liegt, aber **nicht** in $B$ – der Teil des Kreises $A$ außerhalb von $B$ (die „Mondsichel“ links).\n2. **$\\bar{B}$:** alles im Rechteck $\\Omega$ außerhalb des Kreises $B$.\n3. **Rechte Seite $A \\cap \\bar{B}$:** was in $A$ **und** in $\\bar{B}$ liegt – also wieder genau der Teil von $A$ außerhalb von $B$.\n\nDie eingefärbte Fläche in 1) und in 3) ist dieselbe. In Worten: „in $A$, aber nicht in $B$“ ist dasselbe wie „in $A$ und in nicht-$B$“.\n\n**Ergebnis:** Das Venn-Diagramm zeigt $A \\setminus B = A \\cap \\bar{B}$ (diese Gleichung steht auch in der Übersetzungstabelle, VL Folie 21).\n",
+      "loesungsweg": "Jede Teilaufgabe der Reihe nach: Aufgabentext im Wortlaut, dann Schritt für Schritt mit Begründung; verwendete Definitionen und Regeln (Intervalle, Mengenoperationen, Ereignissystem, σ-Algebra, Mächtigkeit) stehen im Kasten. Teil A mit der Kurzlösung der Uni abgeglichen; Teil B selbst erarbeitet, B.3 mit Venn-Diagramm. Gleicher Inhalt als PDF.",
+      "frist": "2026-10-19",
+      "im_kalender": true,
+      "fuer_sitzung": "mab005.2_2026-10-19",
+      "kalender_id": "58f7f0ce-fec8-4223-8e1c-4a7104c8574e",
+      "pdf": "/dateien/mab005/S02_2026-10-19_Hausaufgabe_Uebungsblatt-2_Loesungen.pdf"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Gegeben $O_1 = \\,]-2; 5[$ und $O_2 = \\,]-7; 1[$. Bestimme $O_1 \\setminus O_2$ und $O_1 \\cap O_2$ und gib jeweils an, ob es ein offenes, halboffenes oder geschlossenes Intervall ist.",
+      "musterloesung": "$O_1 \\setminus O_2 = [1; 5[$ (halboffen; die $1$ gehört dazu, weil sie nicht in $O_2$ liegt). $O_1 \\cap O_2 = \\,]-2; 1[$ (offen).",
+      "bewertungspunkte": [
+        "$[1; 5[$",
+        "Begründung zur Grenze $1$",
+        "halboffen",
+        "$]-2; 1[$ offen"
+      ],
+      "punkte": 4,
+      "erklaerung": "Wie Blatt 02, A.1a. An jeder Grenze fragen: gehört sie dazu?",
+      "folie": "Blatt 02, A.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Mengen aus Blatt 02, A.1 zu: Was ist die Menge?",
+      "kategorien": [
+        "offenes Intervall",
+        "halboffenes Intervall",
+        "unbeschränktes Intervall",
+        "kein Intervall"
+      ],
+      "elemente": [
+        {
+          "text": "A₁ = [1; 5[",
+          "kategorie": "halboffenes Intervall"
+        },
+        {
+          "text": "A₂ = ]−2; 1]",
+          "kategorie": "halboffenes Intervall"
+        },
+        {
+          "text": "A₃ = {1}",
+          "kategorie": "kein Intervall"
+        },
+        {
+          "text": "A₄ = ∅",
+          "kategorie": "kein Intervall"
+        },
+        {
+          "text": "A₅ = ]−2; 6[",
+          "kategorie": "offenes Intervall"
+        },
+        {
+          "text": "A₆ = ℝ",
+          "kategorie": "unbeschränktes Intervall"
+        },
+        {
+          "text": "A₇ = ]−∞; −1[ ∪ ]1; 6[",
+          "kategorie": "kein Intervall"
+        }
+      ],
+      "erklaerung": "Einzelne Punkte und die leere Menge sind nach der Definition aus mab001 keine Intervalle; zwei Teile mit Lücke auch nicht.",
+      "folie": "Blatt 02, A.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Für eine Karte wird nur die Farbe beobachtet: $\\Omega = \\{\\text{Herz}, \\text{Karo}, \\text{Pik}, \\text{Kreuz}\\}$, $\\mathcal{A} = \\mathfrak{P}(\\Omega)$. Berechne $|\\mathcal{A}|$ und gib alle Elementarereignisse an.",
+      "musterloesung": "$|\\mathcal{A}| = 2^{|\\Omega|} = 2^4 = 16$. Elementarereignisse: $\\{\\text{Herz}\\}$, $\\{\\text{Karo}\\}$, $\\{\\text{Pik}\\}$, $\\{\\text{Kreuz}\\}$.",
+      "bewertungspunkte": [
+        "$\\mathcal{A} = \\mathfrak{P}(\\Omega)$",
+        "$2^4 = 16$",
+        "4 Elementarereignisse als einelementige Mengen"
+      ],
+      "punkte": 3,
+      "erklaerung": "Blatt 02, B.1a und c.",
+      "folie": "Blatt 02, B.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Zeige, dass $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ für $\\Omega = \\{\\text{Herz}, \\text{Karo}, \\text{Pik}, \\text{Kreuz}\\}$ eine σ-Algebra ist.",
+      "musterloesung": "(1) $\\Omega \\subseteq \\Omega$, also $\\Omega \\in \\mathfrak{P}(\\Omega)$. (2) Für $A \\in \\mathcal{A}$ ist $\\bar{A} = \\Omega \\setminus A$ wieder eine Teilmenge von $\\Omega$, also $\\bar{A} \\in \\mathcal{A}$ (z. B. $\\overline{\\{\\text{Herz}\\}} = \\{\\text{Karo}, \\text{Pik}, \\text{Kreuz}\\}$). (3) Eine Vereinigung von Teilmengen von $\\Omega$ ist wieder eine Teilmenge von $\\Omega$, also in $\\mathcal{A}$. Damit sind alle Bedingungen von Definition 1.3.5 erfüllt.",
+      "bewertungspunkte": [
+        "Bedingung (1) geprüft",
+        "Bedingung (2) geprüft mit Begründung",
+        "Bedingung (3) geprüft mit Begründung"
+      ],
+      "punkte": 3,
+      "erklaerung": "Blatt 02, B.1b; allgemein Satz 1.3.7.",
+      "folie": "Blatt 02, B.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "$\\Omega = \\{\\text{Herz}, \\text{Karo}, \\text{Pik}, \\text{Kreuz}\\}$, $A = \\{\\text{Herz}, \\text{Karo}\\}$, $B = \\{\\text{Pik}\\}$. Bestimme $A \\cup B$, $A \\cap B$, $\\bar{A}$ und $\\bar{A} \\cap B$.",
+      "musterloesung": "$A \\cup B = \\{\\text{Herz}, \\text{Karo}, \\text{Pik}\\}$, $A \\cap B = \\emptyset$, $\\bar{A} = \\{\\text{Pik}, \\text{Kreuz}\\}$, $\\bar{A} \\cap B = \\{\\text{Pik}\\}$.",
+      "bewertungspunkte": [
+        "$A \\cup B$",
+        "$A \\cap B = \\emptyset$",
+        "$\\bar{A}$",
+        "$\\bar{A} \\cap B$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Blatt 02, B.1d.",
+      "folie": "Blatt 02, B.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ein Würfel wird geworfen und eine Münze geworfen: $\\Omega = \\{1, \\dots, 6\\} \\times \\{\\text{Wappen}, \\text{Zahl}\\}$. Berechne $|\\Omega|$ und die Mächtigkeit des Ereignissystems $\\mathcal{A} = \\mathfrak{P}(\\Omega)$.",
+      "musterloesung": "$|\\Omega| = 6 \\cdot 2 = 12$ (Produktregel), $|\\mathcal{A}| = 2^{12} = 4096$.",
+      "bewertungspunkte": [
+        "$|\\Omega| = 12$ mit Produktregel",
+        "$|\\mathcal{A}| = 2^{12}$",
+        "$= 4096$"
+      ],
+      "punkte": 3,
+      "erklaerung": "Neue Rechnung nach dem Muster von Blatt 02, B.2.",
+      "folie": "Blatt 02, B.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen stimmen für beliebige Mengen $A$, $B$ in $\\Omega$?",
+      "optionen": [
+        "$A \\setminus B = A \\cap \\bar{B}$",
+        "$A \\setminus B = B \\setminus A$",
+        "$A \\setminus B$ und $B$ sind disjunkt",
+        "$A \\setminus B \\subseteq A$"
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Blatt 02, B.3 und VL Folie 21: „in $A$, aber nicht in $B$“ = „in $A$ und in $\\bar{B}$“. Die Differenz ist nicht symmetrisch; sie liegt in $A$ und hat mit $B$ nichts gemeinsam.",
+      "folie": "Blatt 02, B.3",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Die Klausuraufgaben sind ähnlich wie die Aufgaben auf den Übungszetteln (VL Kapitel 0, Folie 5)."
+  ],
+  "offene_fragen": [
+    "Sitzung verpasst – wurde im Seminar am 19.10. noch etwas über Blatt 02 hinaus besprochen?"
+  ]
+}

@@ -27,6 +27,7 @@ const { mdHtml, esc, fehler } = require('./md.cjs');
   .lt-tabwrap { margin: 8px 0; break-inside: avoid; }
   table { border-collapse: collapse; font-size: 9.8pt; } th, td { border: 1px solid #c9d3e3; padding: 3px 8px; text-align: left; vertical-align: top; }
   th { background: #eef2f8; }
+  .lt-bild { margin: 8px 0 12px; text-align: center; break-inside: avoid; } .lt-bild img { max-width: 100%; } .lt-bild figcaption { font-size: 9pt; color: #5a6578; }
   .lt-seite { break-before: page; height: 0; }
   .katex { font-size: 1.08em; } .katex-display { margin: 6px 0; overflow-x: auto; overflow-y: hidden; }
   </style></head><body><div class="kopf"><h1>${esc(titel)}</h1><div>${esc(unter)}</div></div>${body}</body></html>`;

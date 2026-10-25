@@ -204,6 +204,9 @@ section[aria-label="Credit Points"] { container-type: inline-size; }
 .lt-h { margin: 12px 0 4px; font-size: 14px; font-weight: 800; }
 .lt-regel { background: #f3f6fb; border-left: 3px solid #8195b8; border-radius: 8px; padding: 8px 12px; margin: 6px 0 10px; font-size: 13px; }
 .lt-regel p:last-child { margin-bottom: 0; }
+.lt-bild { margin: 8px 0 12px; text-align: center; }
+.lt-bild img { max-width: 100%; height: auto; background: #fff; border-radius: 8px; }
+.lt-bild figcaption { font-size: 12px; color: #5a6578; margin-top: 4px; }
 .lt-tabwrap { overflow-x: auto; max-width: 100%; }
 .katex { font-size: 1.08em; }
 .katex-display { margin: 6px 0; overflow-x: auto; overflow-y: hidden; padding: 2px 0; }

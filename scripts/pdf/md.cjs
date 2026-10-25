@@ -17,11 +17,15 @@ function formelnRaus(t) {
 }
 const formelnRein = (h, f) => h.replace(/\u0000F(\d+)\u0000/g, (_, i) => f[+i]);
 const inlineRoh = (t) => esc(t).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/(^|[^*])\*(?!\s)(.+?)\*(?!\*)/g, '$1<i>$2</i>');
+// Bild als eigener Absatz: ![Bildunterschrift](/dateien/<modul>/<datei>.svg|png|jpg), Datei liegt in public/.
+const BILD = /^!\[([^\]]*)\]\((\/dateien\/[\w./-]+\.(?:svg|png|jpe?g))\)$/;
 function bloecke(text) {
   return text.split(/\n{2,}/).map((block) => {
     const zeilen = block.split('\n').filter((z, i, a) => z.trim() !== '' || (i > 0 && i < a.length - 1));
     if (!zeilen.length) return '';
     if (zeilen.length === 1 && zeilen[0].trim() === '---neue-seite---') return '<div class="lt-seite"></div>';
+    const bild = zeilen.length === 1 ? zeilen[0].trim().match(BILD) : null;
+    if (bild) return '<figure class="lt-bild"><img src="file://' + esc(path.join(__dirname, '..', '..', 'public', bild[2])) + '" alt="' + esc(bild[1]) + '">' + (bild[1] ? '<figcaption>' + inlineRoh(bild[1]) + '</figcaption>' : '') + '</figure>';
     if (zeilen.every((z) => z.trim().startsWith('|'))) {
       const rows = zeilen.filter((z) => !/^\s*\|[\s|:-]+\|\s*$/.test(z)).map((z) => z.trim().replace(/^\||\|$/g, '').split('|').map((c) => c.trim()));
       const [kopf, ...rest] = rows;

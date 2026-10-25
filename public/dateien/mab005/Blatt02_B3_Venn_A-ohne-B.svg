@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 235" width="720" height="235" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <clipPath id="cA1"><circle cx="95" cy="110" r="55"/></clipPath>
+    <mask id="ohneB1"><rect x="0" y="0" width="240" height="235" fill="#fff"/><circle cx="155" cy="110" r="55" fill="#000"/></mask>
+    <mask id="ohneB2"><rect x="240" y="0" width="240" height="235" fill="#fff"/><circle cx="395" cy="110" r="55" fill="#000"/></mask>
+    <mask id="ohneB3"><rect x="480" y="0" width="240" height="235" fill="#fff"/><circle cx="635" cy="110" r="55" fill="#000"/></mask>
+  </defs>
+  <rect width="720" height="235" fill="#ffffff"/>
+  <!-- Panel 1: A \ B -->
+  <text x="120" y="22" text-anchor="middle" font-size="17" font-weight="bold" fill="#24406e">1) A ∖ B</text>
+  <rect x="15" y="40" width="210" height="140" fill="none" stroke="#5a6578" stroke-width="1.5"/>
+  <text x="24" y="58" font-size="14" fill="#5a6578">Ω</text>
+  <circle cx="95" cy="110" r="55" fill="#3d7dd8" fill-opacity="0.55" mask="url(#ohneB1)"/>
+  <circle cx="95" cy="110" r="55" fill="none" stroke="#24406e" stroke-width="2"/>
+  <circle cx="155" cy="110" r="55" fill="none" stroke="#b5532a" stroke-width="2"/>
+  <text x="70" y="115" font-size="18" font-weight="bold" fill="#14284a">A</text>
+  <text x="172" y="115" font-size="18" font-weight="bold" fill="#7a3216">B</text>
+  <text x="120" y="205" text-anchor="middle" font-size="13" fill="#1d2433">in A, aber nicht in B</text>
+  <!-- Panel 2: B quer -->
+  <text x="360" y="22" text-anchor="middle" font-size="17" font-weight="bold" fill="#24406e">2) B̄ (Komplement von B)</text>
+  <rect x="255" y="40" width="210" height="140" fill="#e58a4e" fill-opacity="0.45" stroke="#5a6578" stroke-width="1.5" mask="url(#ohneB2)"/>
+  <rect x="255" y="40" width="210" height="140" fill="none" stroke="#5a6578" stroke-width="1.5"/>
+  <text x="264" y="58" font-size="14" fill="#5a6578">Ω</text>
+  <circle cx="335" cy="110" r="55" fill="none" stroke="#24406e" stroke-width="2"/>
+  <circle cx="395" cy="110" r="55" fill="none" stroke="#b5532a" stroke-width="2"/>
+  <text x="310" y="115" font-size="18" font-weight="bold" fill="#14284a">A</text>
+  <text x="412" y="115" font-size="18" font-weight="bold" fill="#7a3216">B</text>
+  <text x="360" y="205" text-anchor="middle" font-size="13" fill="#1d2433">alles in Ω außerhalb von B</text>
+  <!-- Panel 3: A geschnitten B quer -->
+  <text x="600" y="22" text-anchor="middle" font-size="17" font-weight="bold" fill="#24406e">3) A ∩ B̄</text>
+  <rect x="495" y="40" width="210" height="140" fill="#e58a4e" fill-opacity="0.25" mask="url(#ohneB3)"/>
+  <circle cx="575" cy="110" r="55" fill="#3d7dd8" fill-opacity="0.55" mask="url(#ohneB3)"/>
+  <rect x="495" y="40" width="210" height="140" fill="none" stroke="#5a6578" stroke-width="1.5"/>
+  <text x="504" y="58" font-size="14" fill="#5a6578">Ω</text>
+  <circle cx="575" cy="110" r="55" fill="none" stroke="#24406e" stroke-width="2"/>
+  <circle cx="635" cy="110" r="55" fill="none" stroke="#b5532a" stroke-width="2"/>
+  <text x="550" y="115" font-size="18" font-weight="bold" fill="#14284a">A</text>
+  <text x="652" y="115" font-size="18" font-weight="bold" fill="#7a3216">B</text>
+  <text x="600" y="205" text-anchor="middle" font-size="13" fill="#1d2433">dunkel: in A und in B̄</text><text x="600" y="222" text-anchor="middle" font-size="13" fill="#1d2433">= dieselbe Fläche wie 1)</text>
+</svg>

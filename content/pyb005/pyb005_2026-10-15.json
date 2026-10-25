@@ -1,0 +1,45 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pyb005",
+  "teilmodul": "pyb005",
+  "datum": "2026-10-15",
+  "sitzung_nr": 1,
+  "sitzung_id": "",
+  "thema": "01 Grundlegende Studieneinführung",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "art": "kurzfassung",
+  "hinweis": "Asynchrone Einführung (nur Courseware-Infoseiten, keine Übungsaufgaben) – Kurzfassung ohne Lernfragen.",
+  "quellen": [
+    {
+      "datei": "Stud.IP › eÜbung (Gruppe B) › Courseware › Umgang mit urheberrechtlich geschütztem Material · Modul pyb005 · Literatur · Rückfragen",
+      "art": "Courseware-Infoseiten",
+      "seiten": ""
+    }
+  ],
+  "lernziele": [],
+  "kurzfassung": [
+    "Die eÜbung ist freiwillig, aber dringend empfohlen; sie vertieft und wiederholt jede Woche die Vorlesungsthemen mit Übungen, Beispielen und Fragen.",
+    "Ab 22.10. werden die Übungsaufgaben jeweils donnerstags in der Courseware freigeschaltet und bleiben das ganze Semester verfügbar.",
+    "Bei offenen Fragen gibt es nach dem Bearbeiten Musterlösungen bzw. Lösungshinweise als Rückmeldung.",
+    "Rückfragen: im themenspezifischen Forum oder im Meetingraum (Do 10–12 und 12–14 Uhr); die eÜbung ersetzt nicht das Seminar.",
+    "Materialien aus Vorlesung, Seminar und Übung dürfen nicht weiterverbreitet werden; Aufnahmen jeglicher Art sind untersagt."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Ablaufplan der Übungsaufgaben",
+      "text": "| Nr. | Datum | Thema |\n| --- | --- | --- |\n| 1 | 15.10. (asynchron) | Einführung |\n| 2 | 22.10. | zentrale psychologische Paradigmen und Grundlagen psychologischer Forschung |\n| 3 | 29.10. | Grundlagen der Entwicklungspsychologie I+II |\n| 4 | 05.11. | Grundlagen der Lernpsychologie I+II |\n| 5 | 12.11. | Kognition – Emotion – Motivation – Verhalten |\n| 6 | 26.11. | Grundlagen der Sozialpsychologie I+II |\n| 7 | 03.12. | zum Stellenwert neuro- und biopsychologischer Forschung |\n| 8 | 17.12. | Grundlagen der differentiellen Psychologie |\n| 9 | 28.01. | Abschlussbesprechung |",
+      "folien": "Courseware „Modul pyb005“"
+    },
+    {
+      "titel": "Literatur",
+      "text": "**Basisliteratur:** Schweer, M., & Schulte-Pelkum, J. (2017). *Psychologische Grundlagen professionellen Handelns in sozialen Berufen (Band 1: Entwicklung und Lernen)* (2. Aufl.). Frank & Timme.\n\nDazu kommen **Literaturempfehlungen** von Prof. Schweer zu den Themen Vertrauen, soziale Ungleichheit und Diskriminierung, sportpsychologische Beratung und Handeln im Kontext Schule (u. a. Schweer (Hrsg.), 2025: *Lehrer-Schüler-Interaktion*, 4. Aufl., Springer VS).",
+      "folien": "Courseware „Literatur“"
+    }
+  ],
+  "definitionen": [],
+  "aufgaben": [],
+  "fragen": [],
+  "pruefungshinweise": [],
+  "offene_fragen": []
+}

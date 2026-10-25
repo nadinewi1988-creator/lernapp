@@ -8,19 +8,19 @@
   "thema": "02 Zentrale psychologische Paradigmen und Grundlagen psychologischer Forschung",
   "thema_in_app": "war schon da",
   "stand": "geprueft",
-  "hinweis": "Die beiden Selbsttests der eÜbung (Gruppe B) aus der Stud.IP-Courseware – mit Lösungen aus den VL-Folien und Lernmodulen erarbeitet (die Tests wurden nicht abgeschickt). Inhalte und Erklärungen: siehe VL-Sitzung 21.10.",
+  "hinweis": "Die beiden Übungstests der eÜbung (Gruppe B) aus der Stud.IP-Courseware im Originalwortlaut. Lösungen aus VL-Folien und Lernmodulen erarbeitet; bei A1 und A2 aus Test 1 von Stud.IP bestätigt. Ausführliche Erklärungen: VL-Sitzung 21.10.",
   "quellen": [
     {
-      "datei": "Stud.IP › eÜbung (Gruppe B) › Courseware › 2. Sitzung › Übungsaufgaben",
-      "art": "Selbsttests (Test 1: 8, Test 2: 17 Aufgaben)",
+      "datei": "Stud.IP › eÜbung (Gruppe B) › Courseware › Übungsaufgaben „zentrale Paradigmen und Grundlagen psychologischer Forschung“",
+      "art": "Übungstests (Test 1: 8, Test 2: 17 Aufgaben)",
       "seiten": ""
     }
   ],
   "lernziele": [],
   "kurzfassung": [
-    "Test 1 übt die Ziele der Psychologie, die Teildisziplinen und die sechs Paradigmen (VL-Lernmodule 2.1–2.3).",
-    "Test 2 übt die Grundlagen der Forschung: Ansätze, Forschungsprozess, Variablen, Popper, Designs, Stichprobe, Skalenniveaus, Gütekriterien, Lagemaße, Korrelation (2.4–2.8).",
-    "Die Aufgaben entsprechen dem Klausurstil (MC, Zuordnung) – die ausführlichen Erklärungen stehen in der VL-Sitzung vom 21.10."
+    "Test 1 „zentrale psychologische Paradigmen“: Ziele der Psychologie, Teildisziplinen und die Paradigmen (VL-Lernmodule 2.1–2.3).",
+    "Test 2 „Grundlagen psychologischer Forschung“: Forschungsansätze, Forschungsprozess, Variablen, Induktion/Popper, Designs, Stichprobe, Skalenniveaus, Durchführungsobjektivität, Lagemaße, Korrelation (2.4–2.8).",
+    "Die Aufgaben sind im Klausurstil (Single/Multiple Choice, Zuordnung, Lückentext); Rückfragen im Forum oder im Meetingraum (Do 10–12 und 12–14 Uhr)."
   ],
   "erklaerung": [],
   "definitionen": [],
@@ -32,7 +32,7 @@
       "format": "mc",
       "niveau": "verstehen",
       "schwierigkeit": 1,
-      "frage": "Wahr oder falsch? Zwischen den Zielen „Erklären“, „Vorhersagen“ und „Beeinflussen“ besteht ein enger Zusammenhang, da eine Erklärung von Ursachen bestimmter Verhaltensweisen bei der Vorhersage zukünftigen Verhaltens hilft. Das Verstehen von Ursachen kann darüber hinaus bei der Beeinflussung helfen.",
+      "frage": "In der Psychologie besteht zwischen den Zielen \"Erklären\", \"Vorhersagen\" und \"Beeinflussen\" ein enger Zusammenhang, da eine Erklärung von Ursachen bestimmter Verhaltensweisen bei der Vorhersage zukünftigen Verhaltens hilft. Das Verstehen von Ursachen für Erleben und Verhalten kann darüber hinaus hilfreich sein bei der Beeinflussung desselben.",
       "optionen": [
         "wahr",
         "falsch"
@@ -40,7 +40,7 @@
       "richtig": [
         0
       ],
-      "erklaerung": "Wahr: Gute Erklärungen ermöglichen Vorhersagen, und das Verständnis von Ursachen hilft beim gezielten Beeinflussen.",
+      "erklaerung": "Wahr: Gute Erklärungen ermöglichen Vorhersagen (deren Zuverlässigkeit zeigt, ob die Erklärung brauchbar ist), und wer Ursachen versteht, kann gezielt beeinflussen.",
       "folie": "Test 1 · A1 · VL 2.1 Folie 9–10",
       "pruefungsrelevant": true
     },
@@ -50,7 +50,7 @@
       "format": "mc",
       "niveau": "verstehen",
       "schwierigkeit": 1,
-      "frage": "Wahr oder falsch? „Beschreibungen“ sind auf beobachtbare Informationen zurückzuführen, während „Erklärungen“ ihrem Selbstverständnis nach über das Beobachtbare hinausgehen.",
+      "frage": "\"Beschreibungen\" sind auf beobachtbare Informationen zurückzuführen, während \"Erklärungen\" ihrem Selbstverständnis nach über das Beobachtbare hinausgehen.",
       "optionen": [
         "wahr",
         "falsch"
@@ -58,7 +58,7 @@
       "richtig": [
         0
       ],
-      "erklaerung": "Wahr: Beschreiben erfasst das Beobachtbare ohne Interpretation; Erklärungen suchen nach (nicht direkt beobachtbaren) Ursachen.",
+      "erklaerung": "Wahr: Beschreiben erfasst das Beobachtbare ohne Bewertung oder Interpretation; Erklären sucht nach Ursachen, die man nicht direkt beobachten kann.",
       "folie": "Test 1 · A2 · VL 2.1 Folie 10",
       "pruefungsrelevant": true
     },
@@ -68,38 +68,38 @@
       "format": "zuordnung",
       "niveau": "verstehen",
       "schwierigkeit": 1,
-      "frage": "Ordne die Beschreibungen den Forschungsbereichen zu.",
+      "frage": "Ordnen Sie die Forschungsbereiche den korrekten Beschreibungen zu.",
       "kategorien": [
         "Entwicklungspsychologie",
         "Pädagogische Psychologie",
-        "Differentielle Psychologie",
+        "differentielle Psychologie",
         "Sozialpsychologie"
       ],
       "elemente": [
         {
-          "text": "interindividuelle Unterschiede in einzelnen psychischen Funktionen bzw. Erlebens- und Verhaltensweisen",
-          "kategorie": "Differentielle Psychologie"
+          "text": "Der Fokus liegt auf interindividuellen Unterschieden in einzelnen psychischen Funktionen bzw. in Erlebens- und Verhaltensweisen.",
+          "kategorie": "differentielle Psychologie"
         },
         {
-          "text": "Veränderung des Menschen über die Zeit",
+          "text": "Der Fokus liegt auf der Veränderung des Menschen über die Zeit.",
           "kategorie": "Entwicklungspsychologie"
         },
         {
-          "text": "Erleben und Verhalten in Erziehungs-, Bildungs- und Sozialisationskontexten",
+          "text": "Der Fokus liegt auf dem Erleben und Verhalten in verschiedenen Erziehungs-, Bildungs- und Sozialisationskontexten.",
           "kategorie": "Pädagogische Psychologie"
         },
         {
-          "text": "Beeinflussung des Menschen im Erleben und Verhalten durch die Anwesenheit anderer Individuen oder Gruppen",
+          "text": "Der Fokus liegt auf der Beeinflussung des Menschens im Erleben und Verhalten durch die Anwesenheit anderer Individuen oder Gruppen.",
           "kategorie": "Sozialpsychologie"
         }
       ],
-      "erklaerung": "Differentiell = interindividuell; Entwicklung = über die Zeit; Pädagogisch = Erziehungs-/Bildungskontexte; Sozial = Anwesenheit anderer.",
+      "erklaerung": "Differentiell = Unterschiede zwischen Personen (interindividuell); Entwicklung = Veränderung über die Zeit; Pädagogisch = Erziehungs-/Bildungskontexte; Sozial = Einfluss anderer.",
       "folie": "Test 1 · A3 · VL 2.2 Folie 4",
       "pruefungsrelevant": true
     },
     {
       "id": "t1a4",
-      "baustein": "kernaussage",
+      "baustein": "aufgabe",
       "format": "mc",
       "niveau": "verstehen",
       "schwierigkeit": 2,
@@ -113,8 +113,8 @@
       "richtig": [
         1
       ],
-      "erklaerung": "Folie 6: Wünsche und Bedürfnisse werden als biologisch determiniert angesehen. Die anderen Optionen beschreiben humanistisch, behavioristisch bzw. kognitiv.",
-      "folie": "Test 1 · A4 · VL 2.3 · Folie 6",
+      "erklaerung": "Folie 6: Wünsche und Bedürfnisse (Triebe) gelten als biologisch determiniert. Potenziale entfalten = humanistisch; beobachtbares Verhalten = behavioristisch; mehrdimensionale Kognitionen = kognitiv.",
+      "folie": "Test 1 · A4 · VL 2.3 Folie 6",
       "pruefungsrelevant": true
     },
     {
@@ -123,7 +123,7 @@
       "format": "mc",
       "niveau": "wissen",
       "schwierigkeit": 1,
-      "frage": "Wahr oder falsch? Hauptgegenstand der behavioristischen Perspektive sind Emotionen.",
+      "frage": "Hauptgegenstand der behavioristische Perspektive sind Emotionen.",
       "optionen": [
         "wahr",
         "falsch"
@@ -131,7 +131,7 @@
       "richtig": [
         1
       ],
-      "erklaerung": "Falsch: Hauptgegenstand sind Verhaltensreaktionen, also beobachtbares und messbares Verhalten.",
+      "erklaerung": "Falsch: Hauptgegenstand sind Verhaltensreaktionen – also nur beobachtbares und messbares Verhalten.",
       "folie": "Test 1 · A5 · VL 2.3 Folie 7",
       "pruefungsrelevant": true
     },
@@ -141,18 +141,18 @@
       "format": "mc",
       "niveau": "verstehen",
       "schwierigkeit": 2,
-      "frage": "Welche Aussagen zur humanistischen Perspektive sind korrekt? (mehrere richtig)",
+      "frage": "Welche Aussagen zur humanistischen Perspektive sind korrekt?",
       "optionen": [
-        "Der Mensch wird als Mangelwesen betrachtet.",
-        "Sie fokussiert menschliche Reaktionen.",
-        "Sie ist ein ressourcenorientiertes Modell.",
-        "Der Mensch strebt nach Selbstverwirklichung."
+        "Zentral ist die Annahme, dass der Mensch ein Mangelwesen ist.",
+        "Die Perspektive fokussiert menschliche Reaktionen.",
+        "Es handelt sich um ein ressourcenorientiertes Modell.",
+        "Die Perspektive beschreibt das Streben des Menschen nach Selbstverwirklichung."
       ],
       "richtig": [
         2,
         3
       ],
-      "erklaerung": "Humanistisch: Mensch von Natur aus gut, potenzial-/ressourcenorientiert, strebt nach Selbstverwirklichung – nicht „Mangelwesen“; „Reaktionen“ wäre behavioristisch.",
+      "erklaerung": "Humanistisch: Der Mensch ist von Natur aus gut (kein Mangelwesen), potenzial-/ressourcenorientiert, strebt nach Selbstverwirklichung. „Reaktionen“ passt zum Behaviorismus.",
       "folie": "Test 1 · A6 · VL 2.3 Folie 8",
       "pruefungsrelevant": true
     },
@@ -162,7 +162,7 @@
       "format": "mc",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "Welchen Perspektiven kann diese Forschungsfrage zugeordnet werden: „Wie beeinflusst die bewusste mentale Auseinandersetzung mit den eigenen Zielen und Werten die Motivation von Studierenden, sich in ihrem Studium persönlich weiterzuentwickeln?“ (mehrere richtig)",
+      "frage": "Welchen psychologischen Perspektiven kann diese Forschungsfrage zugeordnet werden: \"Wie beeinflusst die bewusste mentale Auseinandersetzung mit den eigenen Zielen und Werten die Motivation von Studierenden, sich in ihrem Studium persönlich weiterzuentwickeln?\"",
       "optionen": [
         "behavioristische Perspektive",
         "kognitive Perspektive",
@@ -173,8 +173,8 @@
         1,
         2
       ],
-      "erklaerung": "„Bewusste mentale Auseinandersetzung“ = kognitiv; „persönlich weiterentwickeln“ = humanistisch.",
-      "folie": "Test 1 · A7 · VL 2.3",
+      "erklaerung": "„Bewusste mentale Auseinandersetzung“ = kognitiv; „persönlich weiterentwickeln“, Ziele und Werte = humanistisch (Selbstverwirklichung).",
+      "folie": "Test 1 · A7 · VL 2.3 Folie 8–9",
       "pruefungsrelevant": true
     },
     {
@@ -183,12 +183,12 @@
       "format": "mc",
       "niveau": "verstehen",
       "schwierigkeit": 2,
-      "frage": "Welche Aussagen zum dynamisch-transaktionalen Paradigma sind korrekt? (mehrere richtig)",
+      "frage": "Welche Aussagen sind vor dem Hintergrund des dynamisch-transaktionalen Paradigmas korrekt?",
       "optionen": [
-        "Populärer Vertreter ist Carl Rogers.",
-        "Es entstand im Zuge der kognitiven Wende.",
-        "Es integriert verschiedene vorherige Strömungen.",
-        "Es erklärt Verhalten als komplexes Wechselspiel personaler und situationaler Faktoren."
+        "Populärer Vertreter des Paradigmas ist Carl Rogers.",
+        "Das Paradigma entwickelte sich im Zuge der kognitiven Wende.",
+        "Das Paradigma integriert verschiedene vorherige Strömungen.",
+        "Das Paradigma erklärt menschliches Verhalten als ein komplexes Wechselspiel aus personalen und situationalen Faktoren."
       ],
       "richtig": [
         2,
@@ -200,51 +200,51 @@
     },
     {
       "id": "t2a1",
-      "baustein": "vergleich",
+      "baustein": "aufgabe",
       "format": "zuordnung",
       "niveau": "verstehen",
       "schwierigkeit": 2,
-      "frage": "Ordne die Beschreibungen dem passenden Forschungsansatz zu.",
+      "frage": "Ordnen Sie die Beschreibungen dem entsprechenden Forschungsansatz korrekt zu.",
       "kategorien": [
-        "quantitativ",
-        "qualitativ"
+        "quantitativer Forschungsansatz",
+        "qualitativer Forschungsansatz"
       ],
       "elemente": [
         {
           "text": "Umsetzung insb. mittels Experimenten oder standardisierten Fragebögen",
-          "kategorie": "quantitativ"
+          "kategorie": "quantitativer Forschungsansatz"
         },
         {
-          "text": "leitfadengestützte Interviews, Gruppendiskussionen, teilnehmende Beobachtung",
-          "kategorie": "qualitativ"
+          "text": "Umsetzung u. a. mittels leitfadengestützter Interviews, Gruppendiskussionen oder teilnehmender Beobachtung",
+          "kategorie": "qualitativer Forschungsansatz"
         },
         {
-          "text": "Hypothesen über Ursache-Wirkungs-Zusammenhänge überprüfen",
-          "kategorie": "quantitativ"
+          "text": "zielt darauf ab, Hypothesen über Ursache-Wirkungszusammenhänge zu überprüfen",
+          "kategorie": "quantitativer Forschungsansatz"
         },
         {
-          "text": "Auswertung auf Beschreiben und Verstehen ausgerichtet",
-          "kategorie": "qualitativ"
+          "text": "Datenauswertung ist auf das Beschreiben und Verstehen ausgerichtet",
+          "kategorie": "qualitativer Forschungsansatz"
         },
         {
-          "text": "Verwendung statistischer Verfahren",
-          "kategorie": "quantitativ"
+          "text": "Verwendung statistischer Verfahren im Rahmen der Datenauswertung",
+          "kategorie": "quantitativer Forschungsansatz"
         },
         {
-          "text": "relativ offen formulierte Forschungsfragen untersuchen",
-          "kategorie": "qualitativ"
+          "text": "zielt darauf ab, relativ offen formulierte Forschungsfragen zu untersuchen",
+          "kategorie": "qualitativer Forschungsansatz"
         },
         {
-          "text": "Grundlage für die Entwicklung von Theorien",
-          "kategorie": "qualitativ"
+          "text": "dient bspw. als Grundlage für die Entwicklung von Theorien",
+          "kategorie": "qualitativer Forschungsansatz"
         },
         {
-          "text": "Ergebnisse von der Stichprobe auf die Grundgesamtheit übertragen",
-          "kategorie": "quantitativ"
+          "text": "Ergebnisse sollen von einer Stichprobe auf die Grundgesamtheit übertragen werden",
+          "kategorie": "quantitativer Forschungsansatz"
         }
       ],
-      "erklaerung": "Entspricht der eÜbung.",
-      "folie": "Test 2 · A1 · VL 2.4 · Folie 2–3",
+      "erklaerung": "Quantitativ = Hypothesen prüfen, viele Fälle, strukturierte Methoden, Statistik, statistische Verallgemeinerung. Qualitativ = offene Fragen, wenige Fälle, Beschreiben/Verstehen, Theorieentwicklung.",
+      "folie": "Test 2 · A1 · VL 2.4 Folie 2–3",
       "pruefungsrelevant": true
     },
     {
@@ -253,10 +253,10 @@
       "format": "frage",
       "niveau": "wissen",
       "schwierigkeit": 1,
-      "frage": "Bringe den psychologischen Forschungsprozess in die idealtypische Reihenfolge: Datenanalyse · Forschungsinteresse · Publikation · Datenerhebung · Theorie-/Hypothesenbildung · Forschungsdesign/Operationalisierung",
+      "frage": "Stellen Sie den psychologischen Forschungsprozess in der idealtypischen Reihenfolge dar.\nForschungsdesign/Operationalisierung · Publikation · Theorie-/Hypothesenbildung · Datenanalyse · Forschungsinteresse · Datenerhebung",
       "antwort": "Forschungsinteresse → Theorie-/Hypothesenbildung → Forschungsdesign/Operationalisierung → Datenerhebung → Datenanalyse → Publikation",
-      "erklaerung": "Idealtypische Reihenfolge (quantitativ).",
-      "folie": "Test 2 · A2 · VL 2.4 · Folie 5",
+      "erklaerung": "Idealtypischer (quantitativer) Ablauf laut Folie 5.",
+      "folie": "Test 2 · A2 · VL 2.4 Folie 5",
       "pruefungsrelevant": true
     },
     {
@@ -265,23 +265,23 @@
       "format": "zuordnung",
       "niveau": "anwenden",
       "schwierigkeit": 1,
-      "frage": "Ein Forschungsteam untersucht, inwiefern die Schlafqualität davon beeinflusst wird, ob Personen direkt vor dem Schlafengehen ihr Smartphone nutzen. Bestimme uV und aV.",
+      "frage": "Bestimmen Sie, welche Variable unabhängig und welche abhängig ist:\nEin Forschungsteam möchte untersuchen, inwiefern die Schlafqualität davon beeinflusst wird, dass Personen direkt vor dem Schlafengehen ihr Smartphone nutzen.",
       "kategorien": [
         "unabhängige Variable",
         "abhängige Variable"
       ],
       "elemente": [
         {
-          "text": "Smartphone-Nutzung ja/nein",
-          "kategorie": "unabhängige Variable"
+          "text": "Variable \"Schlafqualität\"",
+          "kategorie": "abhängige Variable"
         },
         {
-          "text": "Schlafqualität",
-          "kategorie": "abhängige Variable"
+          "text": "Variable \"Smartphone-Nutzung ja/nein\"",
+          "kategorie": "unabhängige Variable"
         }
       ],
-      "erklaerung": "Die Smartphone-Nutzung ist die vermutete Ursache.",
-      "folie": "Test 2 · A3 · VL 2.4",
+      "erklaerung": "Die Smartphone-Nutzung ist die vermutete Ursache (uV), die Schlafqualität die Wirkung (aV).",
+      "folie": "Test 2 · A3 · VL 2.4 Folie 11",
       "pruefungsrelevant": true
     },
     {
@@ -290,23 +290,23 @@
       "format": "zuordnung",
       "niveau": "anwenden",
       "schwierigkeit": 1,
-      "frage": "Ein Forschungsteam untersucht, ob das Geschlecht einen Einfluss auf die Dauer der Smartphone-Nutzung hat. Bestimme uV und aV.",
+      "frage": "Bestimmen Sie, welche Variable unabhängig und welche abhängig ist.\nEin Forschungsteam möchte untersuchen, ob das Geschlecht einen Einfluss auf die Dauer der Smartphone-Nutzung hat.",
       "kategorien": [
         "unabhängige Variable",
         "abhängige Variable"
       ],
       "elemente": [
         {
-          "text": "Geschlecht",
-          "kategorie": "unabhängige Variable"
+          "text": "Variable \"Dauer der Smartphone-Nutzung\"",
+          "kategorie": "abhängige Variable"
         },
         {
-          "text": "Dauer der Smartphone-Nutzung",
-          "kategorie": "abhängige Variable"
+          "text": "Variable \"Geschlecht\"",
+          "kategorie": "unabhängige Variable"
         }
       ],
-      "erklaerung": "Das Geschlecht soll Einfluss ausüben.",
-      "folie": "Test 2 · A4 · VL 2.4",
+      "erklaerung": "Das Geschlecht soll Einfluss ausüben (uV); die Nutzungsdauer soll erklärt werden (aV).",
+      "folie": "Test 2 · A4 · VL 2.4 Folie 11",
       "pruefungsrelevant": true
     },
     {
@@ -315,16 +315,16 @@
       "format": "offen",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "Schüler:innen A, B und C zeigen bessere Leistungen, wenn sie beim Lernen Musik hören. Daraus schließt die Lehrkraft, dass Musik allgemein die Lernleistung verbessert. Um welche Art von Schlussfolgerung handelt es sich, und ist sie zulässig?",
-      "musterloesung": "Es handelt sich um einen induktiven Schluss (von Einzelfällen auf eine allgemeine Regel). Nach dem kritischen Rationalismus (Popper) ist er nicht zulässig: Viele Einzelbeobachtungen beweisen keine allgemeine Regel; schon ein Gegenfall (z. B. Schüler D lernt mit Musik schlechter) würde die Aussage falsifizieren.",
+      "frage": "Schüler:innen A, B und C zeigen bessere Leistungen, wenn sie beim Lernen Musik hören. Daraus schließt die Lehrkraft, dass Musik allgemein die Lernleistung verbessert.\nUm welche Art von Schlussfolgerung handelt es sich hierbei und ist diese zulässig?",
+      "musterloesung": "Es handelt sich um einen induktiven Schluss (Induktionsschluss): Von einigen Einzelbeobachtungen wird auf eine allgemeine Regel geschlossen. Nach dem kritischen Rationalismus (Popper) ist er nicht zulässig – viele bestätigende Fälle beweisen keine allgemeine Regel, und schon ein Gegenbeispiel (z. B. Schüler:in D lernt mit Musik schlechter) würde die Aussage falsifizieren.",
       "bewertungspunkte": [
-        "induktiver Schluss benannt",
+        "Induktionsschluss benannt",
         "nicht zulässig",
-        "Begründung über Popper/Falsifikation bzw. Gegenbeispiel"
+        "Begründung über Popper bzw. Falsifikation/Gegenbeispiel"
       ],
       "punkte": 3,
-      "erklaerung": "Musterlösung zur Freitextaufgabe der eÜbung.",
-      "folie": "Test 2 · A5 · VL 2.4 · Folie 14",
+      "erklaerung": "Freitextaufgabe; die offizielle Musterlösung zeigt Stud.IP erst nach dem Abschicken.",
+      "folie": "Test 2 · A5 · VL 2.4 Folie 12–14",
       "pruefungsrelevant": true
     },
     {
@@ -333,7 +333,7 @@
       "format": "zuordnung",
       "niveau": "anwenden",
       "schwierigkeit": 1,
-      "frage": "Ordne die Beispiele den Begriffen zu.",
+      "frage": "Ordnen Sie die Beispiele den jeweils korrekten Begriffen zu.",
       "kategorien": [
         "Grundgesamtheit",
         "Stichprobe",
@@ -341,20 +341,20 @@
       ],
       "elemente": [
         {
-          "text": "die Studierenden an deutschen Universitäten (Aussagen über Studierende an deutschen Hochschulen)",
+          "text": "Eine Forschungsgruppe möchte Aussagen über die Gruppe der Studierenden an deutschen Hochschulen treffen. Die Studierenden an deutschen Universitäten stellen die ... dar.",
           "kategorie": "Grundgesamtheit"
         },
         {
-          "text": "200 zufällig ausgewählte Abiturient:innen",
+          "text": "Um Aussagen über die Gruppe der Abiturient:innen in Deutschland treffen zu können, werden zweihundert zufällig ausgewählte Abiturient:innen befragt. Die zweihundert Abiturient:innen stellen die ... dar.",
           "kategorie": "Stichprobe"
         },
         {
-          "text": "ein Arbeitgeber befragt alle Beschäftigten seines Unternehmens",
+          "text": "Ein Arbeitgeber möchte wissen, welche Faktoren die Zufriedenheit seiner Arbeitnehmer:innen beeinflussen. Hierfür befragt er alle Personen, die in dem Unternehmen beschäftigt sind. Bei dem Vorgehen handelt es sich um eine ... .",
           "kategorie": "Vollerhebung"
         }
       ],
-      "erklaerung": "Entspricht der eÜbung.",
-      "folie": "Test 2 · A6 · VL 2.6 · Folie 2–3",
+      "erklaerung": "GG = alle Fälle, über die Aussagen getroffen werden; Stichprobe = ausgewählte Teilmenge; Vollerhebung = alle Objekte der Population werden einbezogen.",
+      "folie": "Test 2 · A6 · VL 2.6 Folie 2–3",
       "pruefungsrelevant": true
     },
     {
@@ -363,17 +363,17 @@
       "format": "mc",
       "niveau": "anwenden",
       "schwierigkeit": 1,
-      "frage": "Berufseinsteiger:innen werden zehn Jahre lang einmal jährlich zu ihrem berufsbezogenen emotionalen Erleben befragt. Bei der Studie handelt es sich um eine …",
+      "frage": "Ein Forschungsteam möchte untersuchen, wie sich das emotionale Erleben im Verlauf der Berufslaufbahn verändert. Zu diesem Zweck wird eine Gruppe von Berufseinsteiger:innen über einen Zeitraum von zehn Jahren jeweils einmal jährlich zu ihrem berufsbezogenen emotionalen Erleben befragt.\nBei der Studie handelt es sich um eine …",
       "optionen": [
-        "Querschnittstudie.",
-        "Trendstudie.",
-        "Panelstudie."
+        "... Querschnittstudie.",
+        "... Trendstudie.",
+        "... Panelstudie."
       ],
       "richtig": [
         2
       ],
-      "erklaerung": "Dieselben Personen zu mehreren Zeitpunkten = Panelstudie.",
-      "folie": "Test 2 · A7 · VL 2.5 · Folie 6",
+      "erklaerung": "Dieselben Personen zu mehreren Zeitpunkten = Panelstudie (Trendstudie: unterschiedliche Befragte; Querschnitt: ein Zeitpunkt).",
+      "folie": "Test 2 · A7 · VL 2.5 Folie 6",
       "pruefungsrelevant": true
     },
     {
@@ -382,10 +382,10 @@
       "format": "frage",
       "niveau": "anwenden",
       "schwierigkeit": 1,
-      "frage": "Florian nimmt seit einiger Zeit an einer Panelbefragung zum Umweltbewusstsein junger Menschen teil. Durch die regelmäßige Befragung hat er ein zunehmendes Interesse an Umweltthemen entwickelt. Welches Phänomen wird beschrieben?",
-      "antwort": "Ein Panel-Effekt (Panel-Conditioning): Die wiederholte Befragung derselben Person verändert deren Verhalten bzw. Einstellungen – hier regt sie zur stärkeren Beschäftigung mit dem Thema an.",
-      "erklaerung": "Wiederholte Befragung verändert das Interesse.",
-      "folie": "Test 2 · A8 · VL 2.5 · Folie 8",
+      "frage": "Florian nimmt seit einiger Zeit an einer Panelbefragung teil, die untersuchen soll, wie sich das Umweltbewusstsein junger Menschen verändert. Durch die regelmäßige Befragung hat Florian ein zunehmendes Interesse an Umweltthemen entwickelt.\nWelches Phänomen wird hier beschrieben?",
+      "antwort": "Ein Panel-Effekt (Panel-Conditioning): Die wiederholte Befragung derselben Person verändert ihr tatsächliches oder berichtetes Verhalten bzw. ihre Einstellungen.",
+      "erklaerung": "Wiederholte Befragung verändert Einstellungen bzw. Verhalten – hier die stärkere Beschäftigung mit dem Thema.",
+      "folie": "Test 2 · A8 · VL 2.5 Folie 8",
       "pruefungsrelevant": true
     },
     {
@@ -394,10 +394,10 @@
       "format": "mc",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "Lehrer M. lässt per Münzwurf entscheiden, welche Schüler:innen ein halbes Jahr zusätzlich eine Lern-App nutzen („Zahl“) und welche nicht („Kopf“); der Lernfortschritt aller wird regelmäßig getestet. Welche Aussagen sind korrekt? (mehrere richtig)",
+      "frage": "Lehrer M. möchte prüfen, inwiefern sich eine Lern-App unterstützend auf den Lernprozess auswirken kann. Zu diesem Zweck soll die Hälfte seiner Schüler:innen die App über ein halbes Jahr zusätzlich zum Unterricht nutzen. Um zu entscheiden, welche Schüler:innen die App verwenden, wird eine Münze geworfen. Schüler:innen, die „Zahl“ werfen, erhalten für das Schuljahr Zugang zur Lern-App; Schüler:innen, die „Kopf“ werfen, erhalten hingegen keinen Zugang. In regelmäßigen Abständen wird der Lernfortschritt aller Schüler:innen durch Tests erfasst.\nWelche Aussagen sind korrekt?",
       "optionen": [
         "In dem Beispiel fehlt es an einer Kontrollgruppe.",
-        "Der Münzwurf entspricht den Anforderungen an eine randomisierte Zuweisung.",
+        "Der Vorgang des Münzwurfes entspricht den Anforderungen an eine randomisierte Zuweisung der Schüler:innen.",
         "Im Rahmen der Operationalisierung muss Lehrer M. festlegen, wie der Lernfortschritt gemessen wird.",
         "Lehrer M. führt ein faktorielles Experiment durch."
       ],
@@ -405,8 +405,8 @@
         1,
         2
       ],
-      "erklaerung": "Die Gruppe ohne App ist die Kontrollgruppe; Münzwurf = Randomisierung; Lernfortschritt muss operationalisiert werden; nur eine uV → kein faktorielles Experiment.",
-      "folie": "Test 2 · A9 · VL 2.5 · Folie 3–5",
+      "erklaerung": "Die Gruppe ohne App ist die Kontrollgruppe; der Münzwurf ist eine Zufallszuweisung; der Lernfortschritt muss operationalisiert werden. Es wird nur eine uV variiert – also kein faktorielles Experiment.",
+      "folie": "Test 2 · A9 · VL 2.5 Folie 3–4, 2.6 Folie 4",
       "pruefungsrelevant": true
     },
     {
@@ -415,7 +415,7 @@
       "format": "zuordnung",
       "niveau": "verstehen",
       "schwierigkeit": 2,
-      "frage": "Kategorial oder metrisch?",
+      "frage": "Ordnen Sie zu, ob es sich bei den folgenden Variablen jeweils um eine kategoriale oder um eine metrische Variable handelt.",
       "kategorien": [
         "kategoriale Variable",
         "metrische Variable"
@@ -446,8 +446,8 @@
           "kategorie": "kategoriale Variable"
         }
       ],
-      "erklaerung": "Kategorial = nominal/ordinal, metrisch = intervall/verhältnis.",
-      "folie": "Test 2 · A10 · VL 2.7 · Folie 4",
+      "erklaerung": "Kategorial = nominal- oder ordinalskaliert (Hunderasse, Studienfach: nominal; niedrig–mittel–hoch: ordinal). Metrisch = intervall- oder verhältnisskaliert.",
+      "folie": "Test 2 · A10 · VL 2.7 Folie 4–5",
       "pruefungsrelevant": true
     },
     {
@@ -456,33 +456,33 @@
       "format": "zuordnung",
       "niveau": "verstehen",
       "schwierigkeit": 2,
-      "frage": "Ordne die Skalenniveaus der maximal abbildbaren Aussage zu.",
+      "frage": "Ordnen Sie die verschiedenen Skalenniveaus den Ausprägungen zu, die maximal auf der Skala abgebildet werden können.",
       "kategorien": [
-        "Nominalskala",
+        "Verhältnisskala",
         "Ordinalskala",
         "Intervallskala",
-        "Verhältnisskala"
+        "Nominalskala"
       ],
       "elemente": [
         {
-          "text": "gleich oder unterschiedlich",
-          "kategorie": "Nominalskala"
-        },
-        {
-          "text": "Rangfolge",
-          "kategorie": "Ordinalskala"
-        },
-        {
-          "text": "Aussage über Differenzen",
+          "text": "Ausprägungen von Variablen lassen eine Aussage über die Differenzen zu.",
           "kategorie": "Intervallskala"
         },
         {
-          "text": "Aussage über Verhältnisse",
+          "text": "Ausprägungen von Variablen lassen sich dahingehend vergleichen, ob sie bei zwei Merkmalsträgern gleich oder unterschiedlich sind.",
+          "kategorie": "Nominalskala"
+        },
+        {
+          "text": "Ausprägungen von Variablen lassen sich für Merkmalsträger in eine Rangfolge bringen.",
+          "kategorie": "Ordinalskala"
+        },
+        {
+          "text": "Ausprägungen von Variablen lassen eine Aussage über Verhältnisse zu.",
           "kategorie": "Verhältnisskala"
         }
       ],
-      "erklaerung": "Maximal abbildbare Aussage je Skala.",
-      "folie": "Test 2 · A11 · VL 2.7 · Folie 5",
+      "erklaerung": "Nominal = gleich/ungleich; ordinal = Rangfolge; intervall = Differenzen; verhältnis = Verhältnisse (natürlicher Nullpunkt).",
+      "folie": "Test 2 · A11 · VL 2.7 Folie 5",
       "pruefungsrelevant": true
     },
     {
@@ -491,7 +491,7 @@
       "format": "zuordnung",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "Ordne die Beispiele dem Skalenniveau zu.",
+      "frage": "Ordnen Sie die folgenden Beispiele dem korrekten Skalenniveau zu.",
       "kategorien": [
         "Nominalskala",
         "Ordinalskala",
@@ -500,24 +500,24 @@
       ],
       "elemente": [
         {
-          "text": "Augenfarbe",
-          "kategorie": "Nominalskala"
+          "text": "Einkommen",
+          "kategorie": "Verhältnisskala"
         },
         {
           "text": "Dienstgrad bei der Bundeswehr",
           "kategorie": "Ordinalskala"
         },
         {
-          "text": "IQ-Test",
-          "kategorie": "Intervallskala"
+          "text": "Augenfarbe",
+          "kategorie": "Nominalskala"
         },
         {
-          "text": "Einkommen",
-          "kategorie": "Verhältnisskala"
+          "text": "IQ-Test",
+          "kategorie": "Intervallskala"
         }
       ],
-      "erklaerung": "Augenfarbe nominal, Dienstgrad ordinal, IQ intervall, Einkommen verhältnis.",
-      "folie": "Test 2 · A12 · VL 2.7 · Folie 5",
+      "erklaerung": "Augenfarbe: nur gleich/ungleich; Dienstgrad: Rangfolge; IQ: gleiche Abstände, aber kein natürlicher Nullpunkt; Einkommen: natürlicher Nullpunkt („doppelt so viel“).",
+      "folie": "Test 2 · A12 · VL 2.7 Folie 5",
       "pruefungsrelevant": true
     },
     {
@@ -526,10 +526,10 @@
       "format": "mc",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "Welche Maßnahmen tragen zur Durchführungsobjektivität bei? (mehrere richtig)",
+      "frage": "Welche der folgenden Maßnahmen tragen zur Durchführungsobjektivität im Rahmen eines psychologischen Experiments bei?",
       "optionen": [
-        "Alle Teilnehmenden erhalten dieselbe, wortgleich vorgelesene Instruktion.",
-        "Aufgrund einer Baustelle erleben die nacheinander teilnehmenden Personen unterschiedlichen Lärm.",
+        "Alle Teilnehmenden erhalten dieselbe Instruktion, die von der Versuchsleiterin wortgleich vorgelesen wird.",
+        "Während des Experiments, an dem alle Versuchspersonen nacheinander teilnehmen, erfahren die Teilnehmenden aufgrund einer Baustelle vor dem Gebäude eine unterschiedliche Lärmbelästigung.",
         "Die Versuchsleiterin ermutigt ängstliche Teilnehmende zusätzlich.",
         "Alle Teilnehmenden erhalten die gleiche Bearbeitungszeit."
       ],
@@ -537,8 +537,8 @@
         0,
         3
       ],
-      "erklaerung": "Gleiche Instruktion und Bearbeitungszeit = standardisiert; Lärm und zusätzliche Ermutigung verletzen die Durchführungsobjektivität.",
-      "folie": "Test 2 · A13 · VL 2.7 · Folie 8",
+      "erklaerung": "Durchführungsobjektivität = standardisierte Bedingungen. Unterschiedlicher Lärm und zusätzliche Ermutigung einzelner verletzen sie.",
+      "folie": "Test 2 · A13 · VL 2.7 Folie 8",
       "pruefungsrelevant": true
     },
     {
@@ -547,27 +547,41 @@
       "format": "luecke",
       "niveau": "verstehen",
       "schwierigkeit": 2,
-      "text": "[[Objektivität]] ist eine notwendige, jedoch nicht hinreichende Bedingung für [[Reliabilität]]. [[Reliabilität]] ist eine notwendige, jedoch nicht hinreichende Bedingung für [[Validität]]. Somit können Messungen [[objektiv und reliabel]], aber dennoch nicht [[valide]] sein.",
-      "erklaerung": "Objektivität → Reliabilität → Validität; jeweils notwendig, nicht hinreichend.",
-      "folie": "Test 2 · A14 · VL 2.7 · Folie 12",
+      "text": "Füllen Sie den Lückentext aus. (Auswahl: Reliabilität · Objektivität · Validität | objektiv und reliabel · objektiv und valide · reliabel und valide | reliabel · objektiv · valide)\n[[Objektivität]] ist eine notwendige, jedoch nicht hinreichende Bedingung für [[Reliabilität]]. [[Reliabilität]] ist eine notwendige, jedoch nicht hinreichende Bedingung für [[Validität]]. Somit können Messungen [[objektiv und reliabel]], aber dennoch nicht [[valide]] sein.",
+      "erklaerung": "Objektivität → Reliabilität → Validität, jeweils notwendig, aber nicht hinreichend. (Im Original steht „Reliabiliät“ – Tippfehler.)",
+      "folie": "Test 2 · A14 · VL 2.7 Folie 12",
       "pruefungsrelevant": true
     },
     {
       "id": "t2a15",
       "baustein": "aufgabe",
-      "format": "offen",
+      "format": "zuordnung",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "In einer Klassenarbeit wurden die Noten 1,0; 1,0; 1,3; 2,0; 2,7; 3,0; 3,7; 4,0; 5,0 erreicht. Bestimme Modalwert, Median und Mittelwert.",
-      "musterloesung": "Modalwert = 1,0 (kommt zweimal vor). Median = 2,7 (bei 9 sortierten Werten der 5. Wert). Mittelwert = (1,0 + 1,0 + 1,3 + 2,0 + 2,7 + 3,0 + 3,7 + 4,0 + 5,0) / 9 = 23,7 / 9 ≈ 2,6.",
-      "bewertungspunkte": [
-        "Modalwert 1,0",
-        "Median 2,7",
-        "Mittelwert ≈ 2,6 mit Rechenweg"
+      "frage": "In einer Klassenarbeit wurden die folgenden Noten erreicht: 1,0; 1,0; 1,3; 2,0; 2,7; 3,0; 3,7; 4,0; 5,0\nOrdnen Sie den Lageparametern die korrekten Ergebnisse zu.",
+      "kategorien": [
+        "2,6",
+        "2,7",
+        "1,0",
+        "3,0",
+        "2,0"
       ],
-      "punkte": 3,
-      "erklaerung": "Sortiert, 9 Werte: Median = 5. Wert.",
-      "folie": "Test 2 · A15 · VL 2.8 · Folie 3–4",
+      "elemente": [
+        {
+          "text": "Modalwert",
+          "kategorie": "1,0"
+        },
+        {
+          "text": "Median",
+          "kategorie": "2,7"
+        },
+        {
+          "text": "Mittelwert",
+          "kategorie": "2,6"
+        }
+      ],
+      "erklaerung": "Modalwert = häufigster Wert (1,0 kommt zweimal vor). Median = mittlerer Wert der 9 sortierten Noten (5. Wert = 2,7). Mittelwert = 23,7 / 9 ≈ 2,6.",
+      "folie": "Test 2 · A15 · VL 2.8 Folie 3–4",
       "pruefungsrelevant": true
     },
     {
@@ -576,8 +590,8 @@
       "format": "luecke",
       "niveau": "verstehen",
       "schwierigkeit": 1,
-      "text": "Während der [[Median]] robust gegenüber Extremwerten ist, wird der [[Mittelwert]] durch jeden einzelnen Wert beeinflusst und ist anfällig für Extremwerte.",
-      "erklaerung": "Median robust, Mittelwert extremwertanfällig.",
+      "text": "Ziehen Sie die korrekten Begriffe in die Lücken. (Auswahl: Median · Mittelwert)\nWährend der [[Median]] ein robustes Maß darstellt und sich nicht ändert, wenn man einzelne Werte am Rand der Verteilung verändert, wird der [[Mittelwert]] durch jeden einzelnen Wert beeinflusst und ist somit anfällig für Extremwerte.",
+      "erklaerung": "Der Median ändert sich nicht, wenn Randwerte verändert werden; der Mittelwert schon.",
       "folie": "Test 2 · A16 · VL 2.8 Folie 4",
       "pruefungsrelevant": true
     },
@@ -587,22 +601,22 @@
       "format": "zuordnung",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "Positive oder negative Korrelation?",
+      "frage": "Bestimmen Sie, ob es sich bei den Beispielen jeweils um eine positive oder negative Korrelation handelt.",
       "kategorien": [
         "positive Korrelation",
         "negative Korrelation"
       ],
       "elemente": [
         {
-          "text": "Je höher die Anzahl an Fehltagen, desto geringer die Punktzahl in der Klausur.",
+          "text": "Je höher die Anzahl an Fehltagen im Seminar, desto geringer die erreichte Punktzahl bei der Abschlussklausur.",
           "kategorie": "negative Korrelation"
         },
         {
-          "text": "Je höher das Interesse am Studienfach, desto mehr Zeit für Vor- und Nachbereitung.",
+          "text": "Je höher das Interesse am Studienfach, desto höher die zeitlichen Ressourcen, die für das Vor-und Nachbreiten der Inhalte eingesetzt werden.",
           "kategorie": "positive Korrelation"
         },
         {
-          "text": "Je geringer die Anzahl an Fehltagen, desto geringer die Anzahl an Rückfragen am Semesterende.",
+          "text": "Je geringer die Anzahl an Fehltagen im Seminar, desto geringer die Anzahl an inhaltlichen Rückfragen am Ende des Semesters.",
           "kategorie": "positive Korrelation"
         },
         {
@@ -610,8 +624,8 @@
           "kategorie": "positive Korrelation"
         }
       ],
-      "erklaerung": "Wenn beide Werte gemeinsam fallen, ist die Korrelation positiv.",
-      "folie": "Test 2 · A17 · VL 2.8 · Folie 9",
+      "erklaerung": "Positiv = beide Werte verändern sich in dieselbe Richtung (auch wenn beide sinken). Negativ = einer steigt, der andere fällt.",
+      "folie": "Test 2 · A17 · VL 2.8 Folie 9",
       "pruefungsrelevant": true
     }
   ],
@@ -619,6 +633,6 @@
     "Die Tests decken die prüfungsrelevanten Inhalte der VL S02 ab."
   ],
   "offene_fragen": [
-    "Lösungen selbst erarbeitet, nicht mit der offiziellen Auswertung abgeglichen (Selbsttest wurde nicht abgeschickt)."
+    "Ab Test 1 A3 sind die Lösungen selbst erarbeitet. Die offiziellen Musterlösungen zeigt Stud.IP erst nach dem Abschicken – dann ggf. abgleichen."
   ]
 }

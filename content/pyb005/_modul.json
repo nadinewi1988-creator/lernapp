@@ -76,6 +76,7 @@
   ],
   "sitzungen": [
     "pyb005.2_2026-10-12",
+    "pyb005_2026-10-15",
     "pyb005.1_2026-10-14",
     "pyb005.2_2026-10-19",
     "pyb005.1_2026-10-21",
@@ -139,7 +140,7 @@
     "VL S07 heißt im Kursplan „zum Stellenwert neuro- und biopsychologischer Forschung“, in der App „Neuro- und biopsychologische Grundlagen“ (App bleibt so – Nadine, 25.10.2026)",
     "VL S09 heißt laut Folie „Abschlussbesprechung und Probeklausur“ (App bleibt so – Nadine, 25.10.2026)",
     "Seminar S02 (Gruppe D): Im Stud.IP-Foliensatz fehlen die Folien 5–7, 9 und 20",
-    "eÜbung S02 Test 2, A14: „Reliabiliät“ (Tippfehler)",
+    "eÜbung S02 Tippfehler im Original (in der App wortgleich übernommen): Test 1 A3 „des Menschens“, A5 „der behavioristische Perspektive“; Test 2 A14 „Reliabiliät“, A17 „Vor-und Nachbreiten“",
     "Lernmodul 2.5, Infotext zu Folie 4 verweist auf „Block 3.3“ – gemeint ist vermutlich Block 2.6",
     "Kognitive Perspektive: Lernmodul 2.2 nennt Piaget, 2.3 Kurt Lewin als Vertreter"
   ],
@@ -235,6 +236,20 @@
       "art": "Infotexte + Audio-Transkripte der Lernmodule 2.1–2.8 (erstellt)",
       "status": "verarbeitet",
       "sitzung": "pyb005.1_2026-10-21"
+    },
+    {
+      "pfad": "Stud.IP › eÜbung › Courseware (Infoseiten S01)",
+      "geaendert": "2026-10-25",
+      "art": "Courseware",
+      "status": "verarbeitet",
+      "sitzung": "pyb005_2026-10-15"
+    },
+    {
+      "pfad": "Stud.IP › eÜbung › Courseware › Übungsaufgaben (Tests 18090, 18091)",
+      "geaendert": "2026-10-25",
+      "art": "Courseware-Übungstests (Wortlaut)",
+      "status": "verarbeitet",
+      "sitzung": "pyb005_2026-10-22"
     }
   ]
 }

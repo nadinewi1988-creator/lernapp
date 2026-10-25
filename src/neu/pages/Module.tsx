@@ -6,7 +6,7 @@ import { auswerten, heuteIso, nachFach, aktuellesSemester, type Eintrag } from '
 import { parseIso, plusTage, entfallGrund } from '../data/kalender';
 import { useKlapp } from '../klapp';
 import { BESCHREIBUNGEN } from '../data/modulbeschreibungen';
-import { inhaltZu, sitzungenVon, glossarVon, symboleVon, frageRef, mdHtml } from '../lerninhalte';
+import { inhaltZu, sitzungenVon, glossarVon, symboleVon, frageRef, mdHtml, literaturStatus, literaturStand, literaturAbgeglichen } from '../lerninhalte';
 import { sitzungsFortschritt } from '../lernfortschritt';
 import { Lernfragen, type LFEintrag } from './Lernfragen';
 
@@ -470,7 +470,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
             {beschr.zeilen.map(([label, punkte]) => (
               <div key={label} className="mod-beschr" style={{ display: 'grid', gridTemplateColumns: '11em minmax(0, 1fr)', gap: 12, paddingTop: 10, borderTop: '1px solid #f0f0eb', fontSize: 14, lineHeight: 1.45 }}>
                 <span style={{ color: 'var(--ink-3)', fontWeight: 700 }}>{label}</span>
-                <span style={{ display: 'flex', flexDirection: 'column', gap: 3 }}>{punkte.map((p, i) => <span key={i} style={{ display: 'flex', gap: 6 }}><span style={{ color: f[0], visibility: punkte.length > 1 ? 'visible' : 'hidden' }}>•</span><span>{p}</span></span>)}</span>
+                <span style={{ display: 'flex', flexDirection: 'column', gap: 3 }}>{punkte.map((p, i) => <span key={i} style={{ display: 'flex', gap: 6 }}><span style={{ color: f[0], visibility: punkte.length > 1 ? 'visible' : 'hidden' }}>•</span><span style={{ flex: 1 }}>{p}{label === 'Literatur' && (() => { const lit = literaturStatus(kuerzel, p); return lit ? <span title={lit.vorhanden ? 'liegt in deinem Modulordner' + (lit.datei ? ': ' + lit.datei : '') : 'nicht in deinem Modulordner' + (lit.hinweis ? ' – ' + lit.hinweis : '')} style={{ marginLeft: 8, fontSize: 12, fontWeight: 800, whiteSpace: 'nowrap', color: lit.vorhanden ? '#2f7a4b' : '#9a9ea5' }}>{lit.vorhanden ? '✓ im Ordner' : '○ fehlt'}</span> : null; })()}</span></span>)}{label === 'Literatur' && <span style={{ fontSize: 12, color: 'var(--ink-3)', marginTop: 4 }}>{literaturAbgeglichen(kuerzel) ? 'Abgleich mit deinem Modulordner' + (literaturStand(kuerzel) ? ', Stand ' + literaturStand(kuerzel).split('-').reverse().join('.') : '') + '. ✓ = Datei liegt im Ordner.' : 'Noch nicht mit deinem Modulordner abgeglichen – passiert im Modul-Chat (Schritt 1).'}</span>}</span>
               </div>))}
             <div style={{ fontSize: 12, color: 'var(--ink-3)' }}>{beschr.link ? 'Zusammenfassung der Modulbeschreibung, Stand ' + beschr.stand + '.' : 'Aus der Modulbeschreibung, Stand ' + beschr.stand + ' (Projekt-Ordner „modulbeschreibungen“).'} {beschr.link && <a href={beschr.link} target="_blank" rel="noopener" style={{ color: 'var(--ink-3)' }}>Original-PDF der Uni öffnen ↗</a>}</div>
           </> : (

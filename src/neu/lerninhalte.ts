@@ -27,12 +27,16 @@ const DATEIEN = import.meta.glob('/content/**/*.json', { eager: true, import: 'd
 const SITZUNGEN: LSitzung[] = [];
 const GLOSSARE: Record<string, LGlossar> = {};
 let SYMBOLE: LSymbol[] = [];
+/** Literatur aus der Modulbeschreibung, die in Nadines Modulordner liegt (Feld `literatur` in _modul.json, gepflegt von den Modul-Chats) */
+export interface LLiteratur { eintrag: string; vorhanden: boolean; datei?: string; hinweis?: string; stand?: string }
+const LITERATUR: Record<string, LLiteratur[]> = {};
 for (const [pfad, inhalt] of Object.entries(DATEIEN)) {
   const name = pfad.split('/').pop()!.replace(/\.json$/, '');
   const d = inhalt as { schema?: string };
   if (d.schema === 'lernapp-sitzung/2') SITZUNGEN.push({ ...(inhalt as LSitzung), datei: name });
   else if (d.schema === 'lernapp-glossar/2') { const g = inhalt as LGlossar; GLOSSARE[g.modul] = g; }
   else if (d.schema === 'lernapp-symbole/2') SYMBOLE = (inhalt as { symbole: LSymbol[] }).symbole;
+  else if (d.schema === 'lernapp-modul/2') { const m = inhalt as { modul: string; literatur?: LLiteratur[] }; if (m.literatur) LITERATUR[m.modul] = m.literatur; }
 }
 
 /** Inhalt zu einer Sitzung: zuerst über die feste Sitzungs-ID, sonst über Teilmodul + Datum. */
@@ -58,3 +62,13 @@ export function mdHtml(text: string): string {
     return '<p>' + zeilen.map(inline).join('<br>') + '</p>';
   }).join('');
 }
+
+const normLit = (t: string) => t.toLowerCase().replace(/[„“"'.,:;()\-–]/g, ' ').replace(/\s+/g, ' ').trim();
+/** Abgleich je Literaturangabe der Modulbeschreibung: null = noch nicht abgeglichen */
+export function literaturStatus(modul: string, eintrag: string): LLiteratur | null {
+  const l = LITERATUR[modul]; if (!l) return null;
+  const n = normLit(eintrag);
+  return l.find((x) => normLit(x.eintrag) === n) ?? l.find((x) => n.startsWith(normLit(x.eintrag)) || normLit(x.eintrag).startsWith(n)) ?? null;
+}
+export const literaturStand = (modul: string) => (LITERATUR[modul] ?? []).map((x) => x.stand ?? '').sort().pop() ?? '';
+export const literaturAbgeglichen = (modul: string) => !!LITERATUR[modul];

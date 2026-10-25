@@ -1,0 +1,118 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pkb003",
+  "teilmodul": "pkb003.2",
+  "datum": "2027-01-04",
+  "sitzung_nr": 11,
+  "sitzung_id": "",
+  "thema": "Polarisierung von Politik und Gesellschaft in Deutschland – Pro-Argumente",
+  "thema_in_app": "eingetragen",
+  "stand": "entwurf",
+  "art_inhalt": "Zusammenfassung der Seminarliteratur (Präsentation durch Mitstudierende)",
+  "quellen": [
+    {
+      "datei": "pkb003.2/S11_2027-01-04_Otteni-Weisskircher_AfD-gegen-Gruene.pdf",
+      "art": "Literatur: Otteni/Weisskircher (2022), Forschungsjournal Soziale Bewegungen 35(2), https://doi.org/10.1515/fjsb-2022-0022",
+      "seiten": "317–335"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Gibt es Zeichen einer gesellschaftlichen Spaltung in Deutschland? Die Pro-Argumente",
+      "art": "vorgegeben",
+      "quelle": "Leitfrage Kursplan",
+      "fragen": [],
+      "erklaerung_abschnitt": "Antwort auf die Leitfrage"
+    }
+  ],
+  "kurzfassung": [
+    "Fast alle Bundestagsparteien bekennen sich zu Klimaschutz – die AfD ist die wesentliche Ausnahme: Sie leugnet den menschengemachten Klimawandel und mobilisiert gegen Windkraft, Kohleausstieg und CO₂-Preis (Angebotsseite).",
+    "Rechtspopulistische Parteien sind keine „single-issue“-Parteien: Neben Einwanderung ist Klimapolitik für die AfD ein eigenes Kampfthema.",
+    "Nachfrageseite (Umfrage 2019, rund 6.500 Befragte): Klimaskeptische Menschen neigen deutlich häufiger der AfD zu, klimapolitisch Überzeugte den Grünen. AfD und Grüne bilden die beiden Pole.",
+    "Das gilt nicht nur für die Grundfrage „Gibt es den Klimawandel?“, sondern auch für konkrete Maßnahmen (Ausbau der Erneuerbaren, Kohle- und Atomausstieg).",
+    "Kernbefund: „Einstellungs- und Parteienpolarisierung stehen in einem engen Zusammenhang.“ Die Polarisierung hat zudem eine sozialräumliche Seite (Stadt–Land, Ostdeutschland).",
+    "Die Autoren schränken selbst ein: Auch CDU/CSU- und FDP-Anhänger sind bei konkreten Maßnahmen skeptisch, der „Energiewendekonsens“ war schon vor der AfD ein „Mythos“, und Polarisierung kann auch positive Effekte haben."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Fragestellung",
+      "folien": "S. 318–319",
+      "text": "• Unter dem Schlagwort „Energiewende“ treibt Deutschland den Ausstieg aus fossilen Energien voran; fast alle Bundestagsparteien bekennen sich *zumindest rhetorisch* zu weitreichendem Klimaschutz.\n• Die AfD mobilisiert ausdrücklich gegen den *vermeintlichen* „Energiewendekonsens“. 2019, am Höhepunkt von Fridays for Future, zählte Alexander Gauland die Opposition gegen die „sogenannte Klimaschutzpolitik“ zu den wichtigsten Vorhaben der Partei.\n• Der Aspekt ist in der AfD-Forschung **unterbeleuchtet**. Untersucht wird die klimapolitische **Parteien-** und vor allem **Einstellungspolarisierung** – in zwei Schritten: Angebot (Partei) und Nachfrage (Wählerschaft)."
+    },
+    {
+      "titel": "Angebotsseite: Was die AfD klimapolitisch anbietet",
+      "folien": "S. 320–322",
+      "text": "• **Klimawandel-Leugnung:** Wahlprogramm 2021 gegen den menschengemachten Klimawandel, aber Verweis auf einen natürlichen: *„Niemand streitet die jüngste globale Erwärmung ab“* (AfD 2021: 174). „Dresdener Erklärung“ (2019): Klimaschutzmaßnahmen seien „teuer, nutz- und wirkungslos“; Ablehnung von Kohleausstieg und CO₂-Bepreisung „in jeglicher Form“, Forderung nach Ausstieg aus dem Pariser Abkommen.\n• **Rhetorik:** Warnung vor „Alarmismus“ und „Öko-Diktatur“; Grüne und Fridays for Future als Hauptgegner.\n• **Parlament:** Anträge im 19. Bundestag, z. B. zum Ausstieg aus der Pariser Klimaübereinkunft.\n• **Windkraft** (v. a. Landesebene): Natur- gegen Klimaschutz (Landschaftsbild, Vogelsterben), teils Kooperation mit lokalen Protestgruppen.\n• **Kohle** (v. a. Ostdeutschland): Antrag auf „Widerruf des Kohleausstiegs“.\n\n**Chapel Hill Expert Survey 2019 (Abb. 1),** Skala 0 (Wachstum auch auf Kosten der Umwelt) bis 10 (Umweltschutz auch auf Kosten des Wachstums):\n\n| Grüne | Linke | SPD | CDU | CSU | FDP | AfD |\n|---|---|---|---|---|---|---|\n| 8,45 | 5,75 | 5,30 | 3,95 | 3,80 | 2,47 | 1,55 |\n\nFazit: ein klimapolitisches Angebot, *„das sich wesentlich von dem der anderen Parteien unterscheidet“*."
+    },
+    {
+      "titel": "Nachfrageseite: Daten und Methode",
+      "folien": "S. 322–323",
+      "text": "Soziales Nachhaltigkeitsbarometer der Energiewende, Welle **2019** (rund 6.500 Befragte, repräsentatives Panel, Webinterviews); 2019 war Klimaschutz *das* bestimmende Thema (Kohlekommission, Europawahl, Fridays for Future).\n• Abhängige Variable: **Parteiidentifikation**.\n• Unabhängige Variablen: Glaube an den Klimawandel; Haltung zum Ausbau der Erneuerbaren, zum Kohle- und zum Atomausstieg.\n• Binär-logistische Regressionen mit Kontrollen (Geschlecht, Alter, Bildung, Ost/West, Bundesland)."
+    },
+    {
+      "titel": "Nachfrageseite: Ergebnisse",
+      "folien": "S. 323–327",
+      "text": "| Frage | AfD-Anhänger | Grünen-Anhänger | andere Parteien |\n|---|---|---|---|\n| Ursache des Klimawandels (Abb. 2) | 18 % überwiegend Mensch, 21 % überwiegend natürlich, 20 % beides, **37 % glauben nicht an seine Existenz** | **73 % menschengemacht**, laut Text 12 % glauben nicht an seine Existenz | – |\n| Glaube an Klimawandel → Parteinähe (Abb. 3) | −7 Prozentpunkte (einziger signifikant negativer Zusammenhang) | +8 Prozentpunkte | SPD +5, sonst nicht signifikant |\n| Ausbau Erneuerbare, +1 Punkt (Abb. 4) | −5 Prozentpunkte; stärkste Ablehnung → 45 % AfD-Nähe | +13 Prozentpunkte; stärkste Ablehnung → 1 % | schwächer, bei CDU/CSU und FDP auch negativ |\n| Kohle-/Atomausstieg (Abb. 5) | Kohle −3, Atom −2 Prozentpunkte; stärkste Ablehnung Kohleausstieg → 17 % | volle Zustimmung → 23 % bzw. 20 %; Ablehnung → 5 % bzw. 2 % | Ausstiegsgegner neigen auch CDU/CSU zu (Atom: stärker als AfD), schwächer FDP |"
+    },
+    {
+      "titel": "Die Pro-Argumente des Textes",
+      "folien": "S. 327–329",
+      "text": "**1. Angebot und Nachfrage passen zusammen:** Die AfD-Position stößt *„durchaus auf Resonanz bei ihren Wähler*innen“*. *„Einstellungs- und Parteienpolarisierung stehen in einem engen Zusammenhang.“*\n**2. Zwei klare Pole:** *„Die AfD bildet den klaren Gegenpol zu den Sympathisant*innen der Grünen.“*\n**3. Konkret, nicht nur abstrakt:** Die Spaltung betrifft auch einzelne energiepolitische Maßnahmen.\n**4. Lange Vorgeschichte:** Lokaler Widerstand gegen Windkraft ist *„seit Langem ein Indikator für die Polarisierung der deutschen Politik“*; *„Die AfD scheint diese Entwicklung im Bereich der Klimapolitik anzutreiben.“*\n**5. Sozialräumliche Komponente:** Stadt–Land bzw. Zentrum–Peripherie; die AfD ist im ländlichen Raum stärker, v. a. in Regionen mit Abwanderung und Arbeitslosigkeit (Teile Ostdeutschlands).\n**6. Selbstverstärkung:** Je mehr Windräder in einer Gemeinde, desto erfolgreicher sind *beide* – AfD und Grüne (AfD-Effekt im Osten stärker). Der Ausbau könnte die Polarisierung verschärfen; die AfD könnte regional Veto-Spieler werden oder Mitte-Rechts-Parteien beeinflussen."
+    },
+    {
+      "titel": "Wo der Text selbst einschränkt",
+      "folien": "S. 328–329",
+      "text": "• **Kein echter Konsens vorher:** Der „Energiewendekonsens“ galt schon vor der AfD als „Mythos“; Protest gegen Windräder gab es schon vorher.\n• **Nicht nur zwei Lager:** Bei konkreten Maßnahmen tendieren auch CDU/CSU- und FDP-Anhänger zu skeptischen Positionen.\n• **Richtung offen:** Ob die AfD ihre Wähler prägt oder deren Präferenzen „aufgenommen hat“, bleibt offen.\n• **Momentaufnahme:** Daten von 2019; ob sich Haltungen durch die Energiesicherheitsdebatte nach dem russischen Krieg gegen die Ukraine ändern, „bleibt abzuwarten“.\n• **Konfliktlinie unklar:** Klimathemen lassen sich schwer der sozioökonomischen oder der kulturellen Konfliktlinie zuordnen.\n• **Polarisierung nicht nur schlecht:** *„Insbesondere wenn Oppositionsparteien auf die Strategie der politischen Polarisierung setzen, steigt zudem der öffentliche Rechtfertigungsdruck von Entscheidungsträgern“* (Helms 2016). Ob das „Zwangsoptimismus“ ist, soll künftige Forschung klären."
+    },
+    {
+      "titel": "Antwort auf die Leitfrage",
+      "text": "**Ja – zumindest im Politikfeld Klima.** Der Text belegt eine **Parteien- und Einstellungspolarisierung**: Die AfD steht klimapolitisch allein gegen alle anderen Parteien, ihre Anhänger unterscheiden sich in Grundüberzeugungen wie in konkreten Maßnahmen deutlich – am stärksten von den Grünen. Verstärkt wird das durch Stadt–Land- und Ost–West-Unterschiede.\n\nEr belegt aber **keine Spaltung der ganzen Gesellschaft in zwei Lager**: ein Thema, ein Zeitpunkt, Fokus auf die beiden Pole; bei konkreten Maßnahmen verlaufen die Linien breiter (CDU/CSU, FDP)."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Klimaskeptizismus",
+      "wortlaut": "Der Begriff des „Klimaskeptizismus“ beschreibt hier in vereinfachender Weise eine Vielzahl an Positionen, die sich ablehnend auf den wissenschaftlichen Konsens bezüglich der Existenz, der Ursachen und der Folgen der anthropogenen globalen Erwärmung beziehen",
+      "erklaerung": "Sammelbegriff für die Ablehnung des wissenschaftlichen Konsenses zur Erderwärmung – von „gibt es nicht“ bis „nicht menschengemacht“.",
+      "folie": "S. 319, Fn. 3"
+    },
+    {
+      "begriff": "Einstellungs- und Parteienpolarisierung",
+      "wortlaut": "Einstellungs- und Parteienpolarisierung stehen in einem engen Zusammenhang.",
+      "erklaerung": "Parteipositionen (Angebot) und Ansichten der Anhänger (Nachfrage) liegen gleichermaßen auseinander – hier: AfD vs. Grüne in der Klimapolitik.",
+      "folie": "S. 328"
+    },
+    {
+      "begriff": "„single-issue“-Partei",
+      "wortlaut": "Zwar werden rechtspopulistische Akteure wie die AfD zumeist mit ihren Kernthemen Einwanderung und innere Sicherheit in Verbindung gebracht, doch betreiben auch sie nicht nur „single-issue politics“",
+      "erklaerung": "Rechtspopulisten haben mehr als ein Thema – Klimapolitik ist für die AfD ein eigenes Mobilisierungsfeld.",
+      "folie": "S. 318"
+    },
+    {
+      "begriff": "Energiewendekonsens",
+      "wortlaut": "Bereits vor dem Aufstieg der AfD betonte die Forschung, dass ein Verweis auf den „Energiewendekonsens“ ein „Mythos“ sei",
+      "erklaerung": "Die angebliche Einigkeit über die Energiewende war schon vor der AfD brüchig – eine Einschränkung des Polarisierungsarguments.",
+      "folie": "S. 328"
+    },
+    {
+      "begriff": "Sozialräumliche Polarisierung",
+      "wortlaut": "Klimapolitische Polarisierung hat also auch eine wichtige sozialräumliche Komponente.",
+      "erklaerung": "Der Konflikt verläuft auch zwischen Stadt und Land bzw. Zentrum und Peripherie; die AfD ist in ländlichen Abwanderungsregionen (v. a. im Osten) stark.",
+      "folie": "S. 329"
+    },
+    {
+      "begriff": "Marginaleffekt (average marginal effect)",
+      "wortlaut": "In einer Regressionsanalyse beschreibt der Marginaleffekt (wie in den Abbildungen 3–5 dargestellt) die Veränderung in der abhängigen Variable, wenn die unabhängige Variable um eine Einheit ansteigt.",
+      "erklaerung": "Gibt an, um wie viele Prozentpunkte sich die Wahrscheinlichkeit einer Parteinähe ändert, wenn z. B. die Zustimmung zu Erneuerbaren um einen Skalenpunkt steigt.",
+      "folie": "S. 325, Fn. 4"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [],
+  "pruefungshinweise": [],
+  "offene_fragen": [
+    "Abb. 2 (S. 324): Laut Text glauben 12 % der Grünen-Anhänger nicht an die Existenz des Klimawandels. Die Grafikwerte (u. a. 73, 13, 12, 1, 1) lassen sich aus der Textextraktion nicht eindeutig zuordnen; möglich ist, dass die 12 % eigentlich „überwiegend natürliche Ursachen“ meinen. Die Zusammenfassung folgt dem Text – bei Bedarf im Original-PDF prüfen.",
+    "Abb. 1 (S. 321): Die Zuordnung der CHES-Werte zu den Parteien ist aus der Textextraktion der Grafik abgeleitet (Reihenfolge Grüne bis AfD); im Text selbst stehen nur die Pole (AfD am wenigsten, Grüne am stärksten umweltfreundlich).",
+    "Gauland-Zitat: Im Text „Welt am Sonntag, 28.08.2019“, im Literaturverzeichnis „Die Welt 2019 … 28.09.2019“ – Datum uneinheitlich."
+  ]
+}

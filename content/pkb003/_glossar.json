@@ -771,6 +771,90 @@
       "erklaerung": "Kognitive, affektive und wertende Einstellungen gegenüber dem politischen System sowie typische Verhaltensmuster in der Politik (Almond/Verba).",
       "quelle": "pkb003.2_2026-10-19 · M/R S. 519",
       "abweichungen": []
+    },
+    {
+      "begriff": "Klimaskeptizismus",
+      "wortlaut": "Der Begriff des „Klimaskeptizismus“ beschreibt hier in vereinfachender Weise eine Vielzahl an Positionen, die sich ablehnend auf den wissenschaftlichen Konsens bezüglich der Existenz, der Ursachen und der Folgen der anthropogenen globalen Erwärmung beziehen",
+      "erklaerung": "Sammelbegriff für die Ablehnung des wissenschaftlichen Konsenses zur Erderwärmung – von „gibt es nicht“ bis „nicht menschengemacht“.",
+      "quelle": "pkb003.2_2027-01-04 · S. 319, Fn. 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Einstellungs- und Parteienpolarisierung",
+      "wortlaut": "Einstellungs- und Parteienpolarisierung stehen in einem engen Zusammenhang.",
+      "erklaerung": "Parteipositionen (Angebot) und Ansichten der Anhänger (Nachfrage) liegen gleichermaßen auseinander – hier: AfD vs. Grüne in der Klimapolitik.",
+      "quelle": "pkb003.2_2027-01-04 · S. 328",
+      "abweichungen": []
+    },
+    {
+      "begriff": "„single-issue“-Partei",
+      "wortlaut": "Zwar werden rechtspopulistische Akteure wie die AfD zumeist mit ihren Kernthemen Einwanderung und innere Sicherheit in Verbindung gebracht, doch betreiben auch sie nicht nur „single-issue politics“",
+      "erklaerung": "Rechtspopulisten haben mehr als ein Thema – Klimapolitik ist für die AfD ein eigenes Mobilisierungsfeld.",
+      "quelle": "pkb003.2_2027-01-04 · S. 318",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Energiewendekonsens",
+      "wortlaut": "Bereits vor dem Aufstieg der AfD betonte die Forschung, dass ein Verweis auf den „Energiewendekonsens“ ein „Mythos“ sei",
+      "erklaerung": "Die angebliche Einigkeit über die Energiewende war schon vor der AfD brüchig – eine Einschränkung des Polarisierungsarguments.",
+      "quelle": "pkb003.2_2027-01-04 · S. 328",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Sozialräumliche Polarisierung",
+      "wortlaut": "Klimapolitische Polarisierung hat also auch eine wichtige sozialräumliche Komponente.",
+      "erklaerung": "Der Konflikt verläuft auch zwischen Stadt und Land bzw. Zentrum und Peripherie; die AfD ist in ländlichen Abwanderungsregionen (v. a. im Osten) stark.",
+      "quelle": "pkb003.2_2027-01-04 · S. 329",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Marginaleffekt (average marginal effect)",
+      "wortlaut": "In einer Regressionsanalyse beschreibt der Marginaleffekt (wie in den Abbildungen 3–5 dargestellt) die Veränderung in der abhängigen Variable, wenn die unabhängige Variable um eine Einheit ansteigt.",
+      "erklaerung": "Gibt an, um wie viele Prozentpunkte sich die Wahrscheinlichkeit einer Parteinähe ändert, wenn z. B. die Zustimmung zu Erneuerbaren um einen Skalenpunkt steigt.",
+      "quelle": "pkb003.2_2027-01-04 · S. 325, Fn. 4",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Affektive Polarisierung",
+      "wortlaut": "die der affektiven Polarisierung, als einer in den sozialen Alltag überschwappenden Ablehnung zwischen gegnerischen Lagern",
+      "erklaerung": "Nicht nur inhaltlicher Streit, sondern Abneigung gegen die Anhänger der Gegenseite bis in den Alltag hinein.",
+      "quelle": "pkb003.2_2027-01-11 · S. 423",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Soziale Sortierung",
+      "wortlaut": "die einer sozialen Sortierung von Gruppen und Milieus in politische Blöcke",
+      "erklaerung": "Soziale Milieus ordnen sich geschlossen politischen Lagern zu – in Deutschland laut Westheuser kaum nachweisbar.",
+      "quelle": "pkb003.2_2027-01-11 · S. 423",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Mega-Identität",
+      "wortlaut": "sind politische Parteineigungen dort zu „Mega-Identitäten“ avanciert, um die sich ein zunehmend kohärenter Kranz an Einstellungen gruppiert",
+      "erklaerung": "In den USA bündelt die Parteineigung religiöse, regionale und Milieuidentitäten – das Gegenbild zu Deutschland.",
+      "quelle": "pkb003.2_2027-01-11 · S. 423",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Gefühlsthermometer",
+      "wortlaut": "das der Differenz zwischen der Bewertung der eigenen Partei auf einem Gefühlsthermometer und jener anderer Parteien",
+      "erklaerung": "Gängiges Maß für affektive Polarisierung (Gidron et al.); laut Westheuser eher oberflächlich.",
+      "quelle": "pkb003.2_2027-01-11 · S. 424",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Abspaltung statt Spaltung",
+      "wortlaut": "Statt von einer Spaltung der Gesellschaft kann also eher von der Abspaltung einer kleinen, unzufriedenen Minderheit gesprochen werden, die im Rechtspopulismus eine politische Heimat gefunden hat.",
+      "erklaerung": "Kernthese: Nicht die Gesellschaft zerfällt in zwei Lager, sondern eine kleine Gruppe (AfD-Umfeld) koppelt sich ab.",
+      "quelle": "pkb003.2_2027-01-11 · S. 425",
+      "abweichungen": []
+    },
+    {
+      "begriff": "„Unsichtbares Drittel“",
+      "wortlaut": "dass die einstellungsmäßig wenig polarisierte Mitte soziopolitisch in ein stärker integriertes Oben der „gesellschaftlichen Stabilisatoren“ und ein „unsichtbares Drittel“ sozial und politisch eher abgeschlagener gesellschaftlicher Milieus zerfällt",
+      "erklaerung": "Befund von More in Common: Die eigentliche Trennlinie verläuft eher zwischen integrierten und abgehängten Teilen der Mitte (soziale Ungleichheit).",
+      "quelle": "pkb003.2_2027-01-11 · S. 427",
+      "abweichungen": []
     }
   ]
 }

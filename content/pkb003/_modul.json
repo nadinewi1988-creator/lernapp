@@ -283,14 +283,14 @@
       "datum": "2027-01-04",
       "nr": 11,
       "thema": "Polarisierung von Politik und Gesellschaft in Deutschland – Pro-Argumente",
-      "literatur": "fehlt"
+      "literatur": "S11_2027-01-04_Otteni-Weisskircher_AfD-gegen-Gruene.pdf"
     },
     {
       "teilmodul": "pkb003.2",
       "datum": "2027-01-11",
       "nr": 12,
       "thema": "Gesellschaftliche Spaltung in Deutschland? – Contra-Argumente",
-      "literatur": "fehlt"
+      "literatur": "S12_2027-01-11_Westhaeuser_This-is-not-America.pdf · Mau (2022) fehlt"
     },
     {
       "teilmodul": "pkb003.2",
@@ -353,7 +353,7 @@
     {
       "teilmodul": "pkb003.1",
       "datum": "2026-11-17",
-      "text": "Döhler, Marian (2015): Das Verhältnis zwischen Politik und Verwaltung im Wandel. In: Döhler u. a. (Hg.): Der gut organisierte Staat. Baden-Baden – für Nadines Präsentation!"
+      "text": "Döhler, Marian (2015): Das Verhältnis zwischen Politik und Verwaltung im Wandel – über das Ende alter Gewissheiten. In: Döhler/Franzke/Wegrich (Hg.): Der gut organisierte Staat. Festschrift für Werner Jann. Baden-Baden: Nomos, S. 92–109 (ISBN 978-3-8487-2062-0) – nicht in der Uni-Bib Vechta; Dozent fragen oder Aufsatz-Fernleihe – für Nadines Präsentation!"
     },
     {
       "teilmodul": "pkb003.2",
@@ -367,18 +367,8 @@
     },
     {
       "teilmodul": "pkb003.2",
-      "datum": "2027-01-04",
-      "text": "Otteni/Weisskircher (2022): AfD gegen die Grünen? Forschungsjournal Soziale Bewegungen"
-    },
-    {
-      "teilmodul": "pkb003.2",
       "datum": "2027-01-11",
-      "text": "Mau (2022): Kamel oder Dromedar? Merkur"
-    },
-    {
-      "teilmodul": "pkb003.2",
-      "datum": "2027-01-11",
-      "text": "Westhäuser (2022): This is not America. Forschungsjournal Soziale Bewegungen"
+      "text": "Mau, Steffen (2022): Kamel oder Dromedar? Zur Diagnose der gesellschaftlichen Polarisierung. Merkur 76 (874), S. 5–18 – nicht in Stud.IP; Uni-Bib/EZB oder Fernleihe bzw. Dozent fragen"
     },
     {
       "teilmodul": "pkb003.2",
@@ -401,7 +391,8 @@
     "Kursplan pkb003.2 Kopf: „WiSe 2024/2025“; Abschlussdiskussion „23.1.27“ ist ein Samstag – vermutlich Mo 25.01.2027.",
     "Seminarplan pkb003.3: 14.01.2026 und 28.01.2026 – gemeint 2027.",
     "Kursplan pkb003.2 S08: „Leipzig Institut … (2021)“ – vorhanden ist IWH Halle „Vereintes Land“ (2019).",
-    "pkb003.2: Sitzung 19.10.2026 ist ausgefallen – Nadine vermutet, dass sich alle folgenden Termine um eine Woche verschieben (unbestätigt, Stand 25.10.2026). Bis zur Klärung gelten die Kursplan-Daten."
+    "pkb003.2: Sitzung 19.10.2026 ist ausgefallen – Nadine vermutet, dass sich alle folgenden Termine um eine Woche verschieben (unbestätigt, Stand 25.10.2026). Bis zur Klärung gelten die Kursplan-Daten.",
+    "App nummeriert pkb003.2 ohne die ausgefallene Sitzung 19.10. – App-Nr. = Kursplan-Nr. − 1 ab Sitzung 3."
   ],
   "kalender_nachtragen": [],
   "sitzungen": [
@@ -423,7 +414,9 @@
     "pkb003.1_2026-12-08",
     "pkb003.2_2026-12-14",
     "pkb003.1_2026-12-15",
+    "pkb003.2_2027-01-04",
     "pkb003.1_2027-01-05",
+    "pkb003.2_2027-01-11",
     "pkb003.1_2027-01-12",
     "pkb003.2_2027-01-25",
     "pkb003.1_2027-01-26"
@@ -590,6 +583,20 @@
       "geaendert": "2026-10-20",
       "art": "Zusatzliteratur (nicht im Kursplan)",
       "status": "übersprungen"
+    },
+    {
+      "pfad": "pkb003.2/S11_2027-01-04_Otteni-Weisskircher_AfD-gegen-Gruene.pdf",
+      "geaendert": "2026-10-25",
+      "art": "Literatur",
+      "status": "verarbeitet",
+      "sitzung": "pkb003.2_2027-01-04"
+    },
+    {
+      "pfad": "pkb003.2/S12_2027-01-11_Westhaeuser_This-is-not-America.pdf",
+      "geaendert": "2026-10-25",
+      "art": "Literatur",
+      "status": "verarbeitet",
+      "sitzung": "pkb003.2_2027-01-11"
     }
   ],
   "kalender_eingetragen_am": "2026-10-25"

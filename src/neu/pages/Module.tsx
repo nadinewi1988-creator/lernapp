@@ -112,6 +112,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   const [glossar, setGlossar] = useState<null | { suche: string }>(null);
   const [hinweis, setHinweis] = useState(false);
   const [lf, setLf] = useState<null | { titel: string; liste: LFEintrag[] }>(null);
+  const [lfWahl, setLfWahl] = useState<null | Record<string, boolean>>(null);
   const [loesung, setLoesung] = useKlapp<Record<string, boolean>>('mod-loesung', {});
   const [resetArm, setResetArm] = useState<string | null>(null);
   const [fehler, setFehler] = useState('');
@@ -199,7 +200,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
 
   // Statistik
   const tmIds = stand.teilmodule.filter((t) => t.kuerzel.startsWith(kuerzel)).map((t) => t.id);
-  const lzM = stand.lernzeit.filter((l) => tmIds.includes(l.teilmodul_id));
+  const lzAlle = stand.lernzeit.filter((l) => tmIds.includes(l.teilmodul_id)), lzM = lzAlle.filter((l) => l.art !== 'lerntext'), lesM = lzAlle.filter((l) => l.art === 'lerntext');
   const sum = (l: typeof lzM) => l.reduce((x, y) => x + y.sekunden, 0);
   const lzTeile = stand.teilmodule.filter((t) => t.kuerzel.startsWith(kuerzel)).sort((x, y) => (x.kuerzel.includes('.') ? '0' : '1').concat(x.kuerzel).localeCompare((y.kuerzel.includes('.') ? '0' : '1').concat(y.kuerzel)));
   const lzMax = Math.max(1, ...lzTeile.map((t) => sum(lzM.filter((l) => l.teilmodul_id === t.id))));
@@ -337,11 +338,17 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
             <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>Alle Definitionen des Moduls – Wortlaut aus den Unterlagen und Erklärung.</span>
             <button type="button" onClick={() => setGlossar({ suche: '' })} style={{ ...klein, alignSelf: 'flex-start', marginTop: 'auto' }}>Öffnen</button>
           </div>
+          {(() => { const h = heuteIso(), stF = (e: LFEintrag) => wdRef[frageRef(e.s, e.f)], fae = alleFragen.filter((e) => { const w = stF(e); return !w || !w.faellig || w.faellig <= h; }), sich = alleFragen.filter((e) => stF(e)?.stand === 'sicher').length, pct = alleFragen.length ? Math.round(sich / alleFragen.length * 100) : 0; return (
           <div style={{ background: f[1], borderRadius: 16, padding: 16, display: 'flex', flexDirection: 'column', gap: 6 }}>
-            <span style={{ fontSize: 15, fontWeight: 800 }}>Schnelldurchlauf</span>
-            <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>{alleFragen.length ? alleFragen.length + ' Fragen aus ' + LSITZ.length + (LSITZ.length === 1 ? ' Sitzung' : ' Sitzungen') + ' – fällige zuerst.' : 'Alle Fragen des Moduls kurz durchgehen – ideal für zwischendurch.'}</span>
-            <button type="button" onClick={() => alleFragen.length ? setLf({ titel: kuerzel + ' · Schnelldurchlauf', liste: faelligZuerst(alleFragen) }) : setHinweis(true)} style={{ ...klein, alignSelf: 'flex-start', marginTop: 'auto' }}>Starten</button>
-          </div>
+            <span style={{ fontSize: 15, fontWeight: 800 }}>Lernfragen</span>
+            <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>{alleFragen.length ? alleFragen.length + ' Fragen aus ' + LSITZ.length + (LSITZ.length === 1 ? ' Sitzung' : ' Sitzungen') + ' · ' + fae.length + ' fällig · ' + sich + ' sicher' : 'Entstehen aus deinen Unterlagen, sobald Sitzungen aufbereitet sind.'}</span>
+            {alleFragen.length > 0 && <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}><div style={{ flex: 1, height: 8, borderRadius: 4, background: 'rgba(255,255,255,0.8)', overflow: 'hidden' }}><div style={{ height: '100%', width: pct + '%', background: f[0] }} /></div><span style={{ fontSize: 12, fontWeight: 800, color: f[0] }}>{pct} %</span></div>}
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, marginTop: 'auto' }}>
+              <button type="button" onClick={() => fae.length ? setLf({ titel: kuerzel + ' · fällige Lernfragen', liste: faelligZuerst(fae) }) : setHinweis(true)} style={{ ...klein, opacity: fae.length ? 1 : 0.5 }}>Fällige üben{fae.length ? ' (' + fae.length + ')' : ''}</button>
+              {alleFragen.length > 0 && <button type="button" onClick={() => setLfWahl({})} style={klein}>Sitzungen wählen …</button>}
+              {alleFragen.length > 0 && <button type="button" onClick={() => setLf({ titel: kuerzel + ' · Schnelldurchlauf (20 gemischt)', liste: [...alleFragen].sort(() => Math.random() - 0.5).slice(0, 20) })} style={klein}>Schnelldurchlauf</button>}
+            </div>
+          </div>); })()}
           <div style={{ background: f[1], borderRadius: 16, padding: 16, display: 'flex', flexDirection: 'column', gap: 6 }}>
             <span style={{ fontSize: 15, fontWeight: 800 }}>Probeprüfung</span>
             <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>Wie die echte {LF} – mit Zeit und Auswertung. {tage !== null ? 'Noch ' + tage + ' Tage.' : ''}</span>
@@ -438,7 +445,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: 8 }}>
             {([['Heute', sum(lzM.filter((l) => l.datum === HEUTE))], ['Diese Woche', sum(lzM.filter((l) => l.datum >= wsM))], ['Gesamt', sum(lzM)]] as const).map(([n, w]) => <div key={n} style={{ background: f[1], borderRadius: 12, padding: 10, display: 'flex', flexDirection: 'column' }}><span style={{ fontSize: 12, fontWeight: 800, color: 'var(--ink-2)' }}>{n}</span><span style={{ fontSize: 20, fontWeight: 800 }}>{fmtZeit(w)}</span></div>)}
           </div>
-          <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>davon Karten üben {fmtZeit(sum(lzM.filter((l) => l.art === 'karten')))} · Lerntexte lesen {fmtZeit(sum(lzM.filter((l) => l.art === 'lerntext')))}</span>
+          <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>davon Lernfragen {fmtZeit(sum(lzM.filter((l) => l.art !== 'karten')))} · Karten üben {fmtZeit(sum(lzM.filter((l) => l.art === 'karten')))} · zusätzlich <b>Lesezeit</b> (Lerntexte) {fmtZeit(sum(lesM))}, diese Woche {fmtZeit(sum(lesM.filter((l) => l.datum >= wsM)))}</span>
           {lzTeile.length > 0 && <>
             <span style={{ fontSize: 13, fontWeight: 800, color: 'var(--ink-3)' }}>Nach Teilmodul</span>
             {lzTeile.map((t) => { const z = sum(lzM.filter((l) => l.teilmodul_id === t.id)); return (
@@ -449,7 +456,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                 <span style={{ gridColumn: '1 / -1', fontSize: 12, color: 'var(--ink-3)' }}>{(() => { const kt = KK.filter((k) => k.teilId === t.id), x = { r: 0, t: 0, f: 0 }; kt.forEach((k) => { x.r += k.stat.r; x.t += k.stat.t; x.f += k.stat.f; }); const n = x.r + x.t + x.f; return kt.length ? kt.length + (kt.length === 1 ? ' Karte' : ' Karten') + (n ? ' · ' + Math.round(x.r / n * 100) + ' % richtig (✓ ' + x.r + ' ◐ ' + x.t + ' ✗ ' + x.f + ')' : ' · noch nicht geübt') : 'keine Karten'; })()}</span>
               </div>); })}
           </>}
-          <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>Gezählt wird nur aktives Lernen (Karten üben, Lerntexte lesen) – nicht Karten anlegen oder Herumklicken. Nach 1 Minute ohne Eingabe oder im Hintergrund stoppt die Uhr.</span>
+          <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>Lernzeit = aktives Üben: Lernfragen, Schnelldurchlauf und Karten. Lerntexte lesen zählt als Lesezeit extra. Nach 1 Minute ohne Eingabe oder im Hintergrund stoppt die Uhr.</span>
         </section>
         <section style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 16, padding: 16, display: 'flex', flexDirection: 'column', gap: 10 }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
@@ -583,6 +590,23 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
         </div>
       )}
 
+      {lfWahl && (() => { const gew = LSITZ.filter((x) => lfWahl[x.datei]), n = gew.reduce((a2, x) => a2 + x.fragen.length, 0); return (
+        <div className="dialog-hg" onClick={(ev) => { if (ev.target === ev.currentTarget) setLfWahl(null); }} style={{ zIndex: 25 }}>
+          <div role="dialog" aria-label="Sitzungen wählen" className="dialog" style={{ maxWidth: 560 }}>
+            <h2>Lernfragen – Sitzungen wählen</h2>
+            <div style={{ display: 'flex', flexDirection: 'column', maxHeight: '55vh', overflowY: 'auto' }}>
+              {LSITZ.filter((x) => x.fragen.length).map((x) => { const sich = x.fragen.filter((q) => wdRef[frageRef(x, q)]?.stand === 'sicher').length; return (
+                <label key={x.datei} style={{ display: 'flex', gap: 10, alignItems: 'center', padding: '8px 0', borderTop: '1px solid #f0f0eb', cursor: 'pointer' }}>
+                  <input type="checkbox" checked={!!lfWahl[x.datei]} onChange={() => setLfWahl({ ...lfWahl, [x.datei]: !lfWahl[x.datei] })} style={{ width: 18, height: 18, accentColor: f[0] }} />
+                  <span style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column' }}><span style={{ fontSize: 14, fontWeight: 700 }}><b style={{ color: f[0], fontSize: 12 }}>{x.teilmodul}</b> · {x.thema}</span><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{fmtD(x.datum)} · {x.fragen.length} Fragen · {sich} sicher</span></span>
+                </label>); })}
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'flex-end', gap: 8, flexWrap: 'wrap' }}>
+              <button type="button" onClick={() => setLfWahl(null)} style={klein}>Abbrechen</button>
+              <button type="button" disabled={!n} onClick={() => { setLfWahl(null); setLf({ titel: kuerzel + ' · ' + gew.length + (gew.length === 1 ? ' Sitzung' : ' Sitzungen'), liste: faelligZuerst(gew.flatMap((x) => x.fragen.map((q) => ({ s: x, f: q })))) }); }} style={{ ...klein, fontWeight: 800, opacity: n ? 1 : 0.5 }}>{n ? n + ' Fragen üben' : 'Sitzungen ankreuzen'}</button>
+            </div>
+          </div>
+        </div>); })()}
       {lf && <Lernfragen titel={lf.titel} liste={lf.liste} stand={stand} farbe={f} onClose={() => setLf(null)} neuLaden={neuLaden} />}
     </>
   );

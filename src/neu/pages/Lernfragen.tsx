@@ -1,6 +1,6 @@
-import { useMemo, useState, type CSSProperties } from 'react';
+import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import type { Studienstand } from '../db';
-import { speichereAntwort } from '../db';
+import { speichereAntwort, speichereLernzeit } from '../db';
 import { gradeAnswer } from '../../lib/api';
 import { heuteIso } from '../pruefungslogik';
 import { plusTage } from '../data/kalender';
@@ -64,7 +64,22 @@ export function Lernfragen({ titel, liste, stand, farbe, onClose, neuLaden }: { 
     }).catch((x) => setKi({ lade: false, fehler: String((x as Error).message || x) }));
   }
   const kiErg: 'r' | 't' | 'f' | null = ki && !ki.lade && !ki.fehler && ki.pct !== undefined ? (ki.pct >= 90 ? 'r' : ki.pct >= 50 ? 't' : 'f') : null;
-  function schliessen() { neuLaden().catch(() => {}); onClose(); }
+  // Lernzeit (art „lernfragen“): zählt nur, solange das Fenster offen ist und Nadine aktiv ist
+  const aktiv = useRef(Date.now()), lz = useRef<{ tid: string; sek: number } | null>(null), basis = useRef<Record<string, number>>({});
+  const tidAkt = e ? stand.teilmodule.find((t) => t.kuerzel === e.s.teilmodul)?.id ?? null : null;
+  const lzFlush = () => { const z = lz.current; if (!z || z.sek < 5) return; const H = heuteIso(), key = H + '|' + z.tid; const b = basis.current[key] ?? (stand.lernzeit.find((l) => l.datum === H && l.teilmodul_id === z.tid && l.art === 'lernfragen')?.sekunden ?? 0); basis.current[key] = b + z.sek; lz.current = { tid: z.tid, sek: 0 }; speichereLernzeit({ datum: H, teilmodul_id: z.tid, art: 'lernfragen', sekunden: b + z.sek }).catch(() => {}); };
+  useEffect(() => { const auf = () => { aktiv.current = Date.now(); }; const ev = ['mousemove', 'keydown', 'pointerdown', 'scroll', 'touchstart', 'wheel']; ev.forEach((x) => document.addEventListener(x, auf, { passive: true, capture: true })); return () => ev.forEach((x) => document.removeEventListener(x, auf, { capture: true })); }, []);
+  useEffect(() => {
+    if (!tidAkt) return;
+    if (lz.current && lz.current.tid !== tidAkt) lzFlush();
+    if (!lz.current || lz.current.tid !== tidAkt) lz.current = { tid: tidAkt, sek: 0 };
+    const t = setInterval(() => { if (document.visibilityState !== 'hidden' && Date.now() - aktiv.current < 60000 && lz.current) lz.current.sek += 5; }, 5000);
+    const f = setInterval(lzFlush, 60000);
+    return () => { clearInterval(t); clearInterval(f); };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [tidAkt]);
+  useEffect(() => () => lzFlush(), []); // eslint-disable-line react-hooks/exhaustive-deps
+  function schliessen() { lzFlush(); neuLaden().catch(() => {}); onClose(); }
 
   const anz = { r: protokoll.filter((x) => x === 'r').length, t: protokoll.filter((x) => x === 't').length, f: protokoll.filter((x) => x === 'f').length };
 

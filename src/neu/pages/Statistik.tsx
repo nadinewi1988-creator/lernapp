@@ -33,7 +33,7 @@ export function Statistik({ stand, unter, gehe, neuLaden }: Props) {
   const mods = stand.module.filter((m) => m.plan_semester_id === akt?.id && C[m.kuerzel]).map((m) => m.kuerzel).sort((a, b) => Object.keys(C).indexOf(a) - Object.keys(C).indexOf(b));
   const tmK = Object.fromEntries(stand.teilmodule.map((t) => [t.id, t.kuerzel.slice(0, 6)]));
   const ws = plusTage(H, -((parseIso(H).getDay() + 6) % 7));
-  const lz = stand.lernzeit.filter((l) => mods.includes(tmK[l.teilmodul_id]));
+  const lzAlle = stand.lernzeit.filter((l) => mods.includes(tmK[l.teilmodul_id])), lz = lzAlle.filter((l) => l.art !== 'lerntext'), les = lzAlle.filter((l) => l.art === 'lerntext');
   const sum = (l: typeof lz) => l.reduce((x, y) => x + y.sekunden, 0);
   const lzM = mods.map((m) => ({ m, sek: sum(lz.filter((l) => tmK[l.teilmodul_id] === m)), woche: sum(lz.filter((l) => tmK[l.teilmodul_id] === m && l.datum >= ws)) }));
   const lzMax = Math.max(1, ...lzM.map((x) => x.sek));
@@ -63,12 +63,12 @@ export function Statistik({ stand, unter, gehe, neuLaden }: Props) {
     <section style={karte}>
       <h2 style={{ margin: 0, fontSize: 17, fontWeight: 800 }}>Lernzeit</h2>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: 8 }}>{kachel('Heute', fmtZeit(sum(lz.filter((l) => l.datum === H))))}{kachel('Diese Woche', fmtZeit(sum(lz.filter((l) => l.datum >= ws))))}{kachel('Gesamt', fmtZeit(sum(lz)))}</div>
-      <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>davon Karten üben {fmtZeit(sum(lz.filter((l) => l.art === 'karten')))} · Lerntexte lesen {fmtZeit(sum(lz.filter((l) => l.art === 'lerntext')))}{lz.some((l) => l.art !== 'karten' && l.art !== 'lerntext') ? ' · Lernfragen ' + fmtZeit(sum(lz.filter((l) => l.art !== 'karten' && l.art !== 'lerntext'))) : ''}</span>
+      <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>davon Lernfragen {fmtZeit(sum(lz.filter((l) => l.art !== 'karten')))} · Karten üben {fmtZeit(sum(lz.filter((l) => l.art === 'karten')))} · zusätzlich <b>Lesezeit</b> (Lerntexte) {fmtZeit(sum(les))}, diese Woche {fmtZeit(sum(les.filter((l) => l.datum >= ws)))}</span>
       <div style={raster}>{lzM.map((x) => <div key={x.m} style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
         <span style={{ display: 'flex', justifyContent: 'space-between', fontSize: 13 }}><b style={{ color: farbe(x.m)[0] }}>{x.m}</b><span style={{ fontWeight: 800 }}>{x.sek ? fmtZeit(x.sek) : '–'}</span></span>
         <span style={{ display: 'block', height: 6, borderRadius: 3, background: '#f0f0eb', overflow: 'hidden' }}><span style={{ display: 'block', height: '100%', width: Math.round(x.sek / lzMax * 100) + '%', background: farbe(x.m)[0] }} /></span>
         <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>diese Woche {x.woche ? fmtZeit(x.woche) : '–'}</span></div>)}</div>
-      <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>Gezählt wird nur aktives Lernen. Nach 1 Minute ohne Eingabe oder wenn die App im Hintergrund ist, stoppt die Uhr.</span>
+      <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>Lernzeit = aktives Üben: Lernfragen, Schnelldurchlauf und Karten. Lerntexte lesen zählt als Lesezeit extra. Nach 1 Minute ohne Eingabe oder im Hintergrund stoppt die Uhr.</span>
     </section>
 
     <section style={karte}>

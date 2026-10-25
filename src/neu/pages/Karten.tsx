@@ -294,7 +294,7 @@ export function Karten({ stand, unter, gehe, neuLaden, nurStatistik }: Props) {
   const su = statSuche.trim().toLowerCase();
   const gef = ST.filter((k) => { const q = quoteV(k); if (statFil === 'schwach' && !(q >= 0 && q < 0.6)) return false; if (statFil === 'nie' && q >= 0) return false; if (statFil === 'unsicher' && k.stand !== 'unsicher') return false; if (su && (k.vorne + ' ' + k.hinten + ' ' + k.teil).toLowerCase().indexOf(su) < 0) return false; return true; })
     .sort((a, b) => statSort === 'zuletzt' ? b.stat.zuletzt.localeCompare(a.stat.zuletzt) : statSort === 'oft' ? (b.stat.r + b.stat.t + b.stat.f) - (a.stat.r + a.stat.t + a.stat.f) : statSort === 'modul' ? a.teil.localeCompare(b.teil) : fq(b) - fq(a));
-  const lzListe = stand.lernzeit.filter((l) => { const t = tm[l.teilmodul_id]; return t && (auswahl === 'alle' ? (tab === 'archiv' ? !aktMods.includes(t.kuerzel.slice(0, 6)) : aktMods.includes(t.kuerzel.slice(0, 6))) : t.kuerzel.startsWith(auswahl)); });
+  const lzListe = stand.lernzeit.filter((l) => { const t = tm[l.teilmodul_id]; return t && l.art !== 'lerntext' && (auswahl === 'alle' ? (tab === 'archiv' ? !aktMods.includes(t.kuerzel.slice(0, 6)) : aktMods.includes(t.kuerzel.slice(0, 6))) : t.kuerzel.startsWith(auswahl)); });
   const wsIso = plusTage(HEUTE, -((parseIso(HEUTE).getDay() + 6) % 7));
   const lzSum = (l: typeof lzListe) => l.reduce((x, y) => x + y.sekunden, 0);
   const lzZeilen = auswahl === 'alle' ? mods.map((mo) => ({ key: mo, name: mo, fg: (C[mo] ?? FACH[mo.slice(0, 3)] ?? FACH.x)[0], sek: lzSum(lzListe.filter((l) => tm[l.teilmodul_id]?.kuerzel.startsWith(mo))) }))
@@ -408,10 +408,10 @@ export function Karten({ stand, unter, gehe, neuLaden, nurStatistik }: Props) {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: 8 }}>
             {([['Heute', lzSum(lzListe.filter((l) => l.datum === HEUTE))], ['Diese Woche', lzSum(lzListe.filter((l) => l.datum >= wsIso))], ['Gesamt', lzSum(lzListe)]] as const).map(([n, w]) => <div key={n} style={{ background: 'var(--paper)', borderRadius: 12, padding: 10, display: 'flex', flexDirection: 'column' }}><span style={{ fontSize: 12, fontWeight: 800, color: 'var(--ink-3)' }}>{n}</span><span style={{ fontSize: 20, fontWeight: 700 }}>{fmtZeit(w)}</span></div>)}
           </div>
-          <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>davon Karten üben {fmtZeit(lzSum(lzListe.filter((l) => l.art === 'karten')))} · Lerntexte lesen {fmtZeit(lzSum(lzListe.filter((l) => l.art === 'lerntext')))}</span>
+          <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>davon Karten üben {fmtZeit(lzSum(lzListe.filter((l) => l.art === 'karten')))} · Lernfragen {fmtZeit(lzSum(lzListe.filter((l) => l.art !== 'karten')))}</span>
           <span style={{ fontSize: 13, fontWeight: 800, color: 'var(--ink-3)' }}>{auswahl === 'alle' ? 'Lernzeit nach Modul' : 'Lernzeit nach Bereich'}</span>
           {lzZeilen.map((z) => <div key={z.key} style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) auto', gap: '4px 10px', alignItems: 'center' }}><span style={{ fontSize: 13, fontWeight: 700, color: z.fg, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{z.name}</span><span style={{ fontSize: 13, fontWeight: 800 }}>{z.sek ? fmtZeit(z.sek) : '–'}</span><div style={{ gridColumn: '1 / -1', height: 6, borderRadius: 3, background: '#f0f0eb', overflow: 'hidden' }}><div style={{ height: '100%', width: Math.round(z.sek / lzMax * 100) + '%', background: z.fg }} /></div></div>)}
-          <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>Gezählt wird nur aktives Lernen: Karten üben und Lerntexte lesen. Karten anlegen oder bearbeiten und Herumklicken zählen nicht. Nach 1 Minute ohne Eingabe oder wenn die App im Hintergrund ist, stoppt die Uhr.</span>
+          <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>Lernzeit = aktives Üben (Karten, Lernfragen). Karten anlegen oder bearbeiten, Herumklicken und Lerntexte lesen zählen nicht. Nach 1 Minute ohne Eingabe oder wenn die App im Hintergrund ist, stoppt die Uhr.</span>
         </section>
         <div style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 16, padding: 14, display: 'flex', flexDirection: 'column', gap: 8 }}>
           <Balken3 r={pz(sum.r) + '%'} t={pz(sum.t) + '%'} f={pz(sum.f) + '%'} />

@@ -127,9 +127,9 @@ export function Dashboard({ stand, neuLaden }: Props) {
   // ---------- Woche ----------
   const wsIso = plusTage(HEUTE, -wdMo(HEUTE));
   const tmK = Object.fromEntries(stand.teilmodule.map((t) => [t.id, t.kuerzel.slice(0, 6)]));
-  const lzWoche = stand.lernzeit.filter((l) => l.datum >= wsIso), proM: Record<string, number> = {};
+  const lzWoche = stand.lernzeit.filter((l) => l.datum >= wsIso && l.art !== 'lerntext'), proM: Record<string, number> = {};
   lzWoche.forEach((l) => { const m = tmK[l.teilmodul_id]; if (m) proM[m] = (proM[m] ?? 0) + l.sekunden; });
-  const lzGes = lzWoche.reduce((x, l) => x + l.sekunden, 0), lzHeute = stand.lernzeit.filter((l) => l.datum === HEUTE).reduce((x, l) => x + l.sekunden, 0);
+  const lzGes = lzWoche.reduce((x, l) => x + l.sekunden, 0), lzHeute = stand.lernzeit.filter((l) => l.datum === HEUTE && l.art !== 'lerntext').reduce((x, l) => x + l.sekunden, 0);
   const topM = Object.keys(proM).sort((x, y) => proM[y] - proM[x]);
   const nichtDran = aktMods.filter((m) => !proM[m]);
   const alleK = kartenAus(stand), faeK = alleK.filter((k) => aktMods.includes(k.mk) && istFaellig(k));

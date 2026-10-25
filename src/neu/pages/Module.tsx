@@ -8,7 +8,7 @@ import { useKlapp } from '../klapp';
 import { BESCHREIBUNGEN } from '../data/modulbeschreibungen';
 import { inhaltZu, sitzungenVon, glossarVon, symboleVon, frageRef, mdHtml, literaturStatus, literaturStand, literaturAbgeglichen } from '../lerninhalte';
 import { sitzungsFortschritt } from '../lernfortschritt';
-import { hausaufgabenFuer, hausaufgabenAus, HausaufgabeFenster, type HA } from '../Hausaufgabe';
+import { hausaufgabenFuer, HausaufgabeFenster, type HA } from '../Hausaufgabe';
 import { Lernfragen, type LFEintrag } from './Lernfragen';
 
 const C: Record<string, [string, string]> = { mab004: ['#5f80b5', '#eaf1fc'], mab005: ['#4f8f80', '#e6f5f0'], pkb003: ['#b46b80', '#fbebef'], ewb001: ['#6d9156', '#edf5e5'], ewb002: ['#b5845a', '#fcf0e4'], pyb005: ['#8a77b5', '#f1edfa'] };
@@ -373,7 +373,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                 </button>
                 {offen && <div style={{ display: 'flex', flexDirection: 'column', padding: '0 14px 6px' }}>
                   {liste.map((r) => { const t = r.g ? ['gelernt', '#e3f2e8', '#2f7a4b'] : r.st === 'aus' ? ['ausgefallen', '#f0f0eb', '#6b6f76'] : r.st === 'nach' ? ['nachgeholt', '#e3f2e8', '#2f7a4b'] : r.st === 'weg' ? ['nachholen', '#fcecee', '#b4475a'] : r.st === 'kommt' ? ['kommt', '#f7f7f4', '#9a9ea5'] : r.st === 'da' ? ['anwesend', '#e3f2e8', '#2f7a4b'] : ['? Anwesenheit', '#f0f0eb', '#6b6f76'];
-                    const haZeilen = [...hausaufgabenAus(r.x.k, r.x.s.datum).map((ha) => ({ ha, txt: 'Hausaufgabe gestellt' })), ...hausaufgabenFuer(r.x.k, r.x.s.datum).map((ha) => ({ ha, txt: 'Hausaufgabe fällig' }))];
+                    const haZeilen = hausaufgabenFuer(r.x.k, r.x.s.datum).map((ha) => ({ ha, txt: 'Hausaufgabe fällig' }));
                     return (<Fragment key={r.x.s.id}>
                       <button type="button" onClick={() => ltOeffnen(r.x)} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '10px 0', border: 0, borderTop: '1px solid #f0f0eb', background: 'transparent', color: 'var(--ink)', textAlign: 'left', cursor: 'pointer', opacity: r.st === 'kommt' ? 0.6 : 1 }}>
                         <span style={{ width: 26, height: 26, flex: 'none', borderRadius: '50%', display: 'grid', placeItems: 'center', fontSize: 12, fontWeight: 800, background: r.g ? f[0] : r.st === 'weg' ? '#fcecee' : '#f0f0eb', color: r.g ? '#fff' : r.st === 'weg' ? '#b4475a' : 'var(--ink-3)' }}>{r.i + 1}</span>

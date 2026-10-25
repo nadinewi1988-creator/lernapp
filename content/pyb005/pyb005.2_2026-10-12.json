@@ -1,0 +1,78 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pyb005",
+  "teilmodul": "pyb005.2",
+  "datum": "2026-10-12",
+  "sitzung_nr": 1,
+  "sitzung_id": "",
+  "thema": "01 Einführung",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "art": "kurzfassung",
+  "hinweis": "Organisatorische Einführungssitzung – Kurzfassung ohne Lernfragen (Nadine, 25.10.2026).",
+  "quellen": [
+    {
+      "datei": "pyb005.2/pyb005.2_Sitzung_1.pdf",
+      "art": "Folien",
+      "seiten": "1–19"
+    }
+  ],
+  "lernziele": [],
+  "kurzfassung": [
+    "Das Seminar „Vertiefende Thematiken für Handlungsfelder der Bildung und Erziehung“ (Gruppe D, Mo 16–18 Uhr, Q113) leitet Franziska Haverland, M.A.",
+    "Modulprüfung ist eine Präsenzklausur mit 30 MC-Fragen – Termine 09.02.2027 und 16.03.2027.",
+    "Anmeldung zur Klausur nur über QISPOS vom 01.11.2026 bis 31.01.2027, Rücktritt bis 05.02.2027.",
+    "Textarbeit ist zentral: Zu jeder Sitzung gibt es 1–2 Grundlagentexte mit Leitfragen, die vorher bearbeitet werden sollen.",
+    "Klausurrelevant sind prinzipiell alle im Seminar behandelten Inhalte."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Modul und Veranstaltungen",
+      "text": "Das Modul pyb005 hat **180 Arbeitsstunden** und **6 CP**.\n\n• **Vorlesung** pyb005.1 „Grundlagen der Pädagogischen Psychologie für Bildung und Erziehung“ (2 SWS)\n• **Seminar** pyb005.2 „Vertiefende Thematiken für Handlungsfelder der Bildung und Erziehung“ (2 SWS)\n• **eÜbung** „Vertiefende eÜbung zu pyb005“ – freiwillig, aber dringend empfohlen, vertieft die Vorlesung\n\nDas Schwestermodul **pyb001** („… für Soziale Dienstleistungen“) ist für Soziale Arbeit gedacht, **pyb005** für den Profilierungsbereich „Schule und Unterricht“.",
+      "folien": "5–6"
+    },
+    {
+      "titel": "Prüfung und Anmeldung",
+      "text": "| Was | Wann |\n| --- | --- |\n| Prüfungsform | Präsenzklausur, 30 MC-Fragen |\n| Prüfungstermin 1 | 09.02.2027 |\n| Prüfungstermin 2 | 16.03.2027 |\n| Anmeldung QISPOS | 01.11.2026 – 31.01.2027 |\n| Rücktrittsende | 05.02.2027 |\n\nAnmelden geht **nur** im Anmeldezeitraum. Wer einen Nachteilsausgleich für die Klausur hat, meldet sich bis Ende der Vorlesungszeit bei der Seminarleitung.",
+      "folien": "8–9"
+    },
+    {
+      "titel": "So läuft das Seminar",
+      "text": "• Grundlage jeder Sitzung sind **1–2 Texte bzw. Textauszüge**. Sie werden **vorab** bearbeitet: Grundlegendes herausarbeiten, reflektieren, unklare Begriffe selbst recherchieren.\n• Text und **Leitfragen** für die nächste Sitzung werden am **Ende jeder Sitzung** bekannt gegeben.\n• Die Folien sind vor allem Überblick und Leitfaden. Die **Inhaltsübersicht** am Anfang jeder Sitzung dient auch der **Lernkontrolle**.\n• Austausch über Forum oder Lerngruppen ist ausdrücklich erwünscht.\n• Die Grundlagentexte gibt es meist online über das Uni-Netz (Shibboleth).\n\n**Klausurrelevant:** prinzipiell alle Inhalte, die im Seminar behandelt werden.",
+      "folien": "10–11, 14"
+    },
+    {
+      "titel": "Ablaufplan des Seminars",
+      "text": "| Nr. | Thema | KW |\n| --- | --- | --- |\n| 1 | Einführung | 42 |\n| 2 | zentrale Paradigmen | 43 |\n| 3 | ausgewählte Aspekte psychologischer Forschung | 44 |\n| 4 | ausgewählte entwicklungspsychologische Aspekte I | 45 |\n| 5 | ausgewählte entwicklungspsychologische Aspekte II | 46 |\n| 6 | ausgewählte lernpsychologische Aspekte I | 47 |\n| 7 | ausgewählte lernpsychologische Aspekte II | 48 |\n| 8 | Kognition – Emotion – Motivation – Verhalten: ausgewählte Aspekte I | 49 |\n| 9 | Kognition – Emotion – Motivation – Verhalten: ausgewählte Aspekte II | 50 |\n| 10 | ausgewählte sozialpsychologische Aspekte I | 51 |\n| 11 | ausgewählte sozialpsychologische Aspekte II | 1 |\n| 12 | ausgewählte neuro- und biopsychologische Aspekte | 2 |\n| 13 | ausgewählte differentiell-psychologische Aspekte | 3 |\n| 14 | Abschlussbesprechung | 4 |\n\nWeihnachtspause: 21.12.2026 – 03.01.2027.",
+      "folien": "12–13"
+    },
+    {
+      "titel": "Vorbereitung auf Sitzung 2",
+      "text": "**Text:** Myers, D. G. & DeWall, C. N. (2023). *Psychologie* (4. Aufl.). Springer – S. 2–6 (Kap. 1–1.1.2) und S. 9–16 (Kap. 1.1.4–1.1.5, bis „Teilfelder der Psychologie“). Liegt in `pyb005/Literatur/Myers-DeWall_2023_Psychologie.pdf`.\n\n**Leitfragen:**\n1. Was zeichnet die Psychologie als Wissenschaft aus, und welche Rolle spielt kritisches Denken in diesem Zusammenhang?\n2. Wodurch zeichnen sich zentrale Perspektiven der Psychologie aus, und inwiefern unterscheiden sie sich voneinander?\n3. Was kennzeichnet den biopsychosozialen Ansatz?",
+      "folien": "18"
+    }
+  ],
+  "definitionen": [],
+  "aufgaben": [
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Textvorbereitung S02: Myers/DeWall (2023) – 3 Leitfragen",
+      "text": "Textgrundlage: Myers, D. G., & DeWall, C. N. (2023). Psychologie (4., vollst. überarb. Aufl.). Springer. Seiten: 2–6 (Kap. 1–1.1.2) und 9–16 (Kap. 1.1.4–1.1.5; bis „Teilfelder der Psychologie“).\nLeitfragen:\n1. Was zeichnet die Psychologie als Wissenschaft aus, und welche Rolle spielt kritisches Denken in diesem Zusammenhang?\n2. Wodurch zeichnen sich zentrale Perspektiven der Psychologie aus, und inwiefern unterscheiden sich diese voneinander?\n3. Was kennzeichnet den biopsychosozialen Ansatz?",
+      "quelle": "Folie 18",
+      "loesung": "**1. Psychologie als Wissenschaft und kritisches Denken**\nPsychologie ist „die Wissenschaft vom Verhalten und von den mentalen Prozessen“ (S. 11). Das Schlüsselwort ist *wissenschaftlich*: Sie ist eine **Methode**, Fragen zu stellen und zu beantworten – **empirisch**, also gestützt auf Beobachtungen und Experimente (S. 3). Ideen werden geprüft („Funktioniert das?“); was der Prüfung nicht standhält, wird verworfen.\nDie **wissenschaftliche Haltung** besteht aus **Neugier, Skepsis und Bescheidenheit** – „Skepsis ohne Zynismus und Offenheit ohne Leichtgläubigkeit“; „Die Ratte hat immer Recht“ (S. 3–4).\n**Kritisches Denken** setzt diese Haltung um: Vorannahmen prüfen, Glaubwürdigkeit von Quellen beurteilen, Beweise prüfen, alternative Erklärungen suchen. Es schützt vor Voreingenommenheit und kann verbreitete Annahmen widerlegen (z. B. Schlafwandler setzen nicht ihre Träume um; Gegensätze ziehen sich meist nicht an) (S. 4–6).\n\n**2. Zentrale Perspektiven und ihre Unterschiede**\n• **Behaviorismus** (Watson, Skinner): nur beobachtbares Verhalten, ohne mentale Prozesse; Verhalten wird gelernt.\n• **Freud’sche/psychodynamische Psychologie**: unbewusste Denkprozesse und emotionale Reaktionen auf Kindheitserfahrungen beeinflussen das Verhalten.\n• **Humanistische Psychologie** (Rogers, Maslow, 1960er): Wachstumspotenzial, Bedürfnis nach Liebe und Akzeptanz; Kritik an Freud und Behaviorismus als zu eingeschränkt.\n• **Kognitive Psychologie** (kognitive Wende, 1960er): wie wir Informationen wahrnehmen, verarbeiten, speichern und erinnern; mit der Neurowissenschaft → kognitive Neurowissenschaft.\n• **Evolutionäre Psychologie** und **Verhaltensgenetik**: Gemeinsamkeiten durch Evolution (natürliche Selektion) bzw. Unterschiede durch Gene und Umwelt; Anlage-Umwelt-Debatte – heute: Wechselwirkung beider.\n• Modern außerdem: **interkulturelle** und **Gender-Psychologie**, **positive Psychologie**.\nSie unterscheiden sich darin, **wo** sie die Ursache von Erleben und Verhalten sehen (Lernen, Unbewusstes, Wachstum, Informationsverarbeitung, Biologie/Evolution, Kultur) und welche Fragen sie stellen. Beispiel Wut (S. 15): neurowissenschaftlich → Hirnströme; evolutionär → Überlebensvorteil; psychodynamisch → Ventil für unbewusste Feindseligkeit; verhaltenstheoretisch → auslösende Reize; kognitiv → Interpretation der Situation; soziokulturell → kulturelle Unterschiede im Ausdruck.\n\n**3. Biopsychosozialer Ansatz**\n„Eine integrierende Sichtweise, die biologische, psychologische und soziokulturelle Analyseebenen berücksichtigt“ (S. 15). Biologisch: genetische Prädispositionen, natürliche Selektion; psychologisch: erlernte Ängste, emotionale Reaktionen, kognitive Verarbeitung; soziokulturell: Anwesenheit anderer, Erwartungen von Kultur und Familie, Gleichaltrige, Medienvorbilder (Abb. 1.15). Jede Ebene allein bleibt unvollständig – wie zweidimensionale Ansichten eines dreidimensionalen Gegenstands.",
+      "loesungsweg": "Text S. 2–6 und 9–16 lesen; Definitionen (fettgedruckte Begriffe) markieren; je Leitfrage Stichpunkte sammeln; die Perspektiven in einer Tabelle gegenüberstellen.",
+      "frist": "2026-10-19",
+      "im_kalender": true,
+      "fuer_sitzung": "pyb005.2_2026-10-19",
+      "kalender_id": "e2e8315d-d776-46f6-a00d-3f25c43202da",
+      "pdf": "/dateien/pyb005/S02_2026-10-19_Hausaufgabe_Textvorbereitung_Myers-DeWall_Leitfragen.pdf"
+    }
+  ],
+  "fragen": [],
+  "pruefungshinweise": [
+    "Präsenzklausur mit 30 MC-Fragen (Folie 8)",
+    "Klausurrelevant: prinzipiell alle im Seminar behandelten Inhalte (Folie 14)"
+  ],
+  "offene_fragen": []
+}

@@ -3,33 +3,227 @@
   "modul": "pyb005",
   "name": "Grundlagen der Pädagogischen Psychologie für Bildung und Erziehung",
   "semester": "WiSe 26/27",
-  "sitzungen": [],
-  "dateien": [],
+  "pruefung": {
+    "form": "Klausur",
+    "termine": [
+      "2027-02-09",
+      "2027-03-16"
+    ],
+    "hinweise": [
+      "Präsenzklausur mit 30 MC-Fragen (pyb005.2 S01, Folie 8)",
+      "Termin frei wählbar: 09.02.2027 oder 16.03.2027, jeweils 10–15 Uhr (pyb005.1 S01)",
+      "Anmeldung über QISPOS 01.11.2026–31.01.2027, Rücktritt bis 05.02.2027",
+      "Eintragung in alle Lehrveranstaltungen des Moduls bis 26.10.2026 ist Voraussetzung",
+      "klausurrelevant: prinzipiell alle im Seminar behandelten Inhalte; alle Lehrveranstaltungen sind prüfungsrelevant",
+      "eProbeklausur in VL-Sitzung 9 (27.01.2027)"
+    ]
+  },
+  "teilmodule": [
+    {
+      "id": "pyb005.1",
+      "name": "Grundlagen der Pädagogischen Psychologie für Bildung und Erziehung",
+      "art": "Vorlesung"
+    },
+    {
+      "id": "pyb005.2",
+      "name": "Vertiefende Thematiken für Handlungsfelder der Bildung und Erziehung (Gruppe D)",
+      "art": "Seminar"
+    },
+    {
+      "id": "pyb005",
+      "name": "Vertiefende eÜbung (Gruppe B)",
+      "art": "eÜbung",
+      "freiwillig": true
+    }
+  ],
+  "kompetenzziele": [
+    {
+      "text": "Überblickswissen über relevante Teildisziplinen und Gegenstandsbereiche sowie grundlegendes Wissen über Forschungsmethoden der Psychologie",
+      "abgedeckt_in": [
+        "pyb005.2_2026-10-19"
+      ]
+    },
+    {
+      "text": "grundlegende Kenntnisse über relevante psychologische Paradigmen und Menschenbilder",
+      "abgedeckt_in": [
+        "pyb005.2_2026-10-19"
+      ]
+    },
+    {
+      "text": "grundlegende Kenntnisse über den Aufbau und Erwerb von Erlebens- und Verhaltensmustern (lern-, entwicklungs-, sozial- und differentialpsychologische Inhalte) und Transfer in professionelle Handlungsfelder der Bildung und Erziehung",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "Kenntnisse auf professionelle Handlungsfelder der schulischen und außerschulischen Bildung und Erziehung beziehen",
+      "abgedeckt_in": [
+        "pyb005.2_2026-10-19"
+      ]
+    },
+    {
+      "text": "zielführende Interventionen planen, neue empirische Befunde sammeln und bewerten, wissenschaftlich fundierte Urteile bilden",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "sich mit Fachvertreter*innen und Fachfremden über Gegenstandsbereiche und Forschungsmethoden der Pädagogischen Psychologie austauschen; Vorschläge für Problemlösungen erarbeiten",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "die Grundlagen der Pädagogischen Psychologie als Basis für professionelles Handeln begreifen",
+      "abgedeckt_in": [
+        "pyb005.2_2026-10-19"
+      ]
+    }
+  ],
+  "sitzungen": [
+    "pyb005.2_2026-10-12",
+    "pyb005.1_2026-10-14",
+    "pyb005.2_2026-10-19"
+  ],
   "literatur": [
     {
       "eintrag": "Gerrig/Zimbardo (2018): Psychologie",
       "vorhanden": false,
+      "hinweis": "kein Online-Zugang für Uni Vechta; gedruckt ausleihbar: L-Gebäude, Lesebereich, Signatur HQLger = 462573 .1",
       "stand": "2026-10-25"
     },
     {
       "eintrag": "Mietzel (2017): Pädagogische Psychologie des Lernens und Lehrens",
-      "vorhanden": false,
+      "vorhanden": true,
+      "datei": "Literatur/Mietzel_2017_Paedagogische-Psychologie-des-Lernens-und-Lehrens.pdf",
       "stand": "2026-10-25"
     },
     {
       "eintrag": "Schweer/Schulte-Pelkum (2017): Psychologische Grundlagen professionellen Handelns, Band 1",
       "vorhanden": false,
+      "hinweis": "nur gedruckt ausleihbar: IKBGsch = 440186/1 '2 (Basisliteratur VL, mit MC-Übungsteil)",
       "stand": "2026-10-25"
     },
     {
       "eintrag": "Schweer/Siebertz-Reckzeh/Ziro (2021): Psychologische Grundlagen professionellen Handelns, Band 2",
       "vorhanden": false,
+      "hinweis": "weder in der Uni-Bib noch beim Verlag gelistet – evtl. nie erschienen; im Seminar nachfragen",
       "stand": "2026-10-25"
     },
     {
       "eintrag": "Schacter u. a. (2016): Psychology",
       "vorhanden": false,
+      "hinweis": "nicht in der Uni-Bib – Fernleihe",
       "stand": "2026-10-25"
+    },
+    {
+      "eintrag": "Schweer/Siebertz-Reckzeh/Hake (2020): Facetten und Konsequenzen von Vertrauen und Misstrauen in der pädagogischen Beziehung",
+      "vorhanden": true,
+      "datei": "Literatur/Hagenauer-Raufelder_2021_Soziale-Eingebundenheit.pdf",
+      "hinweis": "Kapitel S. 71–84 im Sammelband (2021)",
+      "stand": "2026-10-25"
+    }
+  ],
+  "weitere_literatur": [
+    {
+      "eintrag": "Myers/DeWall (2023): Psychologie, 4. Aufl.",
+      "datei": "Literatur/Myers-DeWall_2023_Psychologie.pdf",
+      "verwendung": "pyb005.2 S02 (19.10.): S. 2–6 und 9–16"
+    },
+    {
+      "eintrag": "Schreier/Echterhoff/Bauer/Weydmann/Hussy (2023): Forschungsmethoden in Psychologie und Sozialwissenschaften für Bachelor, 3. Aufl.",
+      "datei": "Literatur/Schreier-Echterhoff-Bauer-Weydmann-Hussy_2023_Forschungsmethoden-in-Psychologie-und-Sozialwissenschaften.pdf",
+      "verwendung": "pyb005.2 S03 (26.10.): S. 12–14, 17–21, 44–47"
+    }
+  ],
+  "fehlende_literatur": [],
+  "auffaelligkeiten": [
+    "Modulbeschreibung nennt Schweer/Siebertz-Reckzeh/Hake mit 2020, Bib-Katalog und Sammelband mit 2021",
+    "Lernmodul 2.1 (VL S02) hat Titelfolie von pyb001.1 „… für Soziale Dienstleistungen“",
+    "VL S07 heißt im Kursplan „zum Stellenwert neuro- und biopsychologischer Forschung“, in der App „Neuro- und biopsychologische Grundlagen“ (App bleibt so – Nadine, 25.10.2026)",
+    "VL S09 heißt laut Folie „Abschlussbesprechung und Probeklausur“ (App bleibt so – Nadine, 25.10.2026)",
+    "Seminar S02 (Gruppe D): Im Stud.IP-Foliensatz fehlen die Folien 5–7, 9 und 20",
+    "eÜbung S02 Test 1, A4: „Verzweigung“ (gemeint wohl „Verknüpfung“); Test 2, A14: „Reliabiliät“ (Tippfehler)"
+  ],
+  "besonderheiten": [
+    "VL: Stud.IP-Lernmodule (H5P) je Sitzung mit denselben Folien wie das PDF plus Audio-Erklärungen von Prof. Schweer und Infotext-Kästchen – Audios werden transkribiert und in die Lerninhalte übernommen (Schema 5g)",
+    "eÜbung: Courseware mit Übungstests (Vips) je Sitzung – Aufgaben kommen als Übungsfragen zur passenden VL-Sitzung",
+    "Seminar: Textvorbereitung für die nächste Sitzung ist immer eine Hausaufgabe (Schema 5f)",
+    "Ordner „pyb005 - studydrive“ später gemeinsam sichten (Nadine, 25.10.2026)"
+  ],
+  "dateien": [
+    {
+      "pfad": "pyb005.2/pyb005.2_Sitzung_1.pdf",
+      "geaendert": "2026-10-22",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "pyb005.2_2026-10-12"
+    },
+    {
+      "pfad": "pyb005.1/pyb005_Sitzung_1.pdf",
+      "geaendert": "2026-10-22",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "pyb005.1_2026-10-14"
+    },
+    {
+      "pfad": "pyb005.2/pyb005.2_Sitzung_2_Gruppe_D.pdf",
+      "geaendert": "2026-10-22",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "pyb005.2_2026-10-19"
+    },
+    {
+      "pfad": "pyb005.1/pyb005_Sitzung_2.pdf",
+      "geaendert": "2026-10-22",
+      "art": "Folien",
+      "status": "später",
+      "sitzung": "pyb005.1_2026-10-21"
+    },
+    {
+      "pfad": "pyb005_Lernmodule_Audio_S01-S02.zip",
+      "geaendert": "2026-10-25",
+      "art": "Audios + Infotexte der Stud.IP-Lernmodule (VL S01–S02)",
+      "status": "später",
+      "sitzung": "pyb005.1_2026-10-21"
+    },
+    {
+      "pfad": "Literatur/Mietzel_2017_Paedagogische-Psychologie-des-Lernens-und-Lehrens.pdf",
+      "geaendert": "2026-10-25",
+      "art": "Literatur (Modulbeschreibung)",
+      "status": "später"
+    },
+    {
+      "pfad": "Literatur/Hagenauer-Raufelder_2021_Soziale-Eingebundenheit.pdf",
+      "geaendert": "2026-10-25",
+      "art": "Literatur (Modulbeschreibung, Kap. S. 71–84)",
+      "status": "später"
+    },
+    {
+      "pfad": "Literatur/Myers-DeWall_2023_Psychologie.pdf",
+      "geaendert": "2026-10-25",
+      "art": "Literatur (Textgrundlage Seminar)",
+      "status": "verarbeitet",
+      "sitzung": "pyb005.2_2026-10-19"
+    },
+    {
+      "pfad": "Literatur/Schreier-Echterhoff-Bauer-Weydmann-Hussy_2023_Forschungsmethoden-in-Psychologie-und-Sozialwissenschaften.pdf",
+      "geaendert": "2026-10-25",
+      "art": "Literatur (Textgrundlage Seminar)",
+      "status": "verarbeitet",
+      "sitzung": "pyb005.2_2026-10-19 (Hausaufgabe für S03)"
+    },
+    {
+      "pfad": "Literatur/Bildschirmfoto 2026-10-25 um 12.01.33.png",
+      "geaendert": "2026-10-25",
+      "art": "Bildschirmfoto Literaturliste",
+      "status": "übersprungen"
+    },
+    {
+      "pfad": "Literatur/Bildschirmfoto 2026-10-25 um 12.23.26.png",
+      "geaendert": "2026-10-25",
+      "art": "Bildschirmfoto Hogrefe",
+      "status": "übersprungen"
+    },
+    {
+      "pfad": "pyb005 - studydrive/ (19 Dateien)",
+      "geaendert": "2026-10-02",
+      "art": "Studydrive-Material früherer Semester (u. a. Altklausur 1. Termin)",
+      "status": "später"
     }
   ]
 }

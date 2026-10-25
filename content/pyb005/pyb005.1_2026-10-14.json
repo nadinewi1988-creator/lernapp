@@ -1,0 +1,63 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pyb005",
+  "teilmodul": "pyb005.1",
+  "datum": "2026-10-14",
+  "sitzung_nr": 1,
+  "sitzung_id": "",
+  "thema": "01 Grundlegende Studieneinführung",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "art": "kurzfassung",
+  "hinweis": "Organisatorische Einführungssitzung – Kurzfassung ohne Lernfragen (Nadine, 25.10.2026). Enthält auch die Infos aus der 1. eÜbung (15.10., Courseware).",
+  "quellen": [
+    { "datei": "pyb005.1/pyb005_Sitzung_1.pdf", "art": "Folien", "seiten": "1–26" },
+    { "datei": "Stud.IP › Vorlesung › Lernmodule › 01 grundlegende Studieneinführung", "art": "Lernmodul (H5P, 26 Folien, ohne Audio)", "seiten": "1–26" },
+    { "datei": "Stud.IP › eÜbung (Gruppe B) › Courseware › 1. Sitzung", "art": "Courseware", "seiten": "" }
+  ],
+  "lernziele": [],
+  "kurzfassung": [
+    "Die Vorlesung hält Univ.-Prof. Dr. Martin K. W. Schweer (AB Pädagogische Psychologie) – mittwochs, meist in Präsenz, zwei Termine laufen asynchron.",
+    "Zu jeder Vorlesung gibt es mittwochs ein multimediales Lernmodul in Stud.IP; die eÜbung stellt donnerstags Übungsaufgaben ein.",
+    "Klausur: 09.02.2027 oder 16.03.2027, jeweils 10–15 Uhr, frei wählbar; Anmeldung über QISPOS 01.11.2026–31.01.2027.",
+    "Voraussetzung für die Klausur: in alle Lehrveranstaltungen des Moduls eingetragen sein – bis 26.10.2026.",
+    "Sitzung 9 (27.01.2027) bietet eine eProbeklausur zur Kontrolle des Wissensstands.",
+    "Basisliteratur ist Schweer/Schulte-Pelkum (2017), Band 1 – mit Leitfragen und MC-Übungsteil."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Aufbau des Moduls",
+      "text": "| | pyb005.1 | pyb005.2 | pyb005 |\n| --- | --- | --- | --- |\n| Art | Vorlesung (2 SWS) | Seminar (2 SWS) | Vertiefende eÜbung (empfohlen) |\n| Form | Präsenz mit digitalen Wochen | Präsenz | (a)synchron online |\n| Material | multimediales Lernmodul, mittwochs in Stud.IP | Grundlagentexte | Übungsaufgaben, donnerstags in Stud.IP |\n\n• Inhalte der Vorlesung werden in eÜbung und Seminar vertieft und angewendet.\n• Arbeitsaufwand: 56 h Kontaktstudium + 124 h Selbststudium = 180 h, 6 CP.\n• Empfohlen für Lehramt, weil es Zugangsvoraussetzung für den Master of Education (GS bzw. HRS) in Vechta ist.",
+      "folien": "6–7, 9"
+    },
+    {
+      "titel": "Ablaufplan der Vorlesung",
+      "text": "| Nr. | Thema | Datum | Zeit | Raum |\n| --- | --- | --- | --- | --- |\n| 1 | grundlegende Studieneinführung | 14.10. | 10–12 | Q016 |\n| 2 | zentrale psychologische Paradigmen und Grundlagen psychologischer Forschung | 21.10. | 10–14 | B1 |\n| 3 | Grundlagen der Entwicklungspsychologie I+II | 28.10. | 10–12 / 12–14 | Q016 / B1 |\n| 4 | Grundlagen der Lernpsychologie I+II | 04.11. | 10–12 / 12–14 | Q016 / B1 |\n| 5 | Kognition – Emotion – Motivation – Verhalten | 11.11. | asynchron | – |\n| 6 | Grundlagen der Sozialpsychologie I+II | 25.11. | 10–14 | B1 |\n| 7 | zum Stellenwert neuro- und biopsychologischer Forschung | 02.12. | asynchron | – |\n| 8 | Grundlagen der differentiellen Psychologie | 16.12. | 10–12 | B1 |\n| 9 | Abschlussbesprechung und Probeklausur | 27.01. | 10–12 | B1 |",
+      "folien": "8"
+    },
+    {
+      "titel": "Klausur, Anmeldung, Wiederholung",
+      "text": "• Die Modulprüfung wird in dem Semester geschrieben, in dem du das Modul belegst.\n• **Eintragung in alle Lehrveranstaltungen** des Moduls ist Voraussetzung – möglich bis **26.10.2026**.\n• Alle Veranstaltungen sind prüfungsrelevant; die eÜbung ist freiwillig, aber dringend empfohlen.\n• **Termine:** 09.02.2027 und 16.03.2027, jeweils 10–15 Uhr – du wählst einen.\n• **Anmeldung** über QISPOS (www.uni-vechta.de/online-service): 01.11.2026 – 31.01.2027, **Rücktritt bis 05.02.2027**. Später angemeldete werden nicht nachträglich aufgenommen.\n• Nicht bestanden im 1. Termin → erste Wiederholung im 2. Termin (neu anmelden!) oder im nächsten Wintersemester.\n• Nachteilsausgleich: bis Ende der Vorlesungszeit bei den Seminarlehrenden melden.",
+      "folien": "15–18"
+    },
+    {
+      "titel": "So bestehst du sicher",
+      "text": "Laut Folie ist der **sicherste Weg** zum Bestehen: Inhalte **regelmäßig über das ganze Semester** aufarbeiten und wiederholen. Dabei helfen:\n\n• multimediale Lerneinheiten (Lernmodule) und Grundlagentexte\n• **Leitfragen** zu den wesentlichen Inhalten – zum strukturierten Bearbeiten und zur Selbstkontrolle\n• Fragen zur Kontrolle des Lernstands (eÜbung)\n\n**Basisliteratur:** Schweer, M. & Schulte-Pelkum, J. (2017). *Psychologische Grundlagen professionellen Handelns in sozialen Berufen. Band 1: Entwicklung und Lernen* (2. Aufl.). Frank & Timme – mit Leitfragen und **Multiple-Choice-Übungsteil**. Steht in der Bib (IKBGsch = 440186/1 '2).",
+      "folien": "19–20"
+    },
+    {
+      "titel": "eÜbung (Gruppe B)",
+      "text": "• Ansprechperson: Franziska Haverland, M.A. (franziska.haverland@uni-vechta.de – mit Uni-Mail, Betreff = Veranstaltungstitel)\n• Ab 22.10. wöchentlich virtuell; Übungsaufgaben werden **donnerstags** in der Courseware freigeschaltet und bleiben das ganze Semester verfügbar.\n• Zu den eÜbungszeiten (Do 10–12 und 12–14 Uhr) gibt es einen Meetingraum für Rückfragen.\n• Zu offenen Fragen gibt es Musterlösungen bzw. Lösungshinweise in der Courseware.\n• Fragen über die Vorlesung hinaus → Seminardozentin; die eÜbung ersetzt nicht das Seminar.",
+      "folien": "Courseware eÜbung, 1. Sitzung"
+    }
+  ],
+  "definitionen": [],
+  "aufgaben": [],
+  "fragen": [],
+  "pruefungshinweise": [
+    "Alle Lehrveranstaltungen des Moduls sind prüfungsrelevant (Folie 15)",
+    "eProbeklausur in Sitzung 9 am 27.01.2027 (Folie 9)",
+    "Basisliteratur enthält einen MC-Übungsteil – passt zur MC-Klausur (Folie 20)"
+  ],
+  "offene_fragen": []
+}

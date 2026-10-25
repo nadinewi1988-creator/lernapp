@@ -340,7 +340,8 @@ export const BESCHREIBUNGEN: Record<string, { stand: string; link?: string; zeil
      "Mietzel (2017): Pädagogische Psychologie des Lernens und Lehrens",
      "Schweer/Schulte-Pelkum (2017): Psychologische Grundlagen professionellen Handelns, Band 1",
      "Schweer/Siebertz-Reckzeh/Ziro (2021): Psychologische Grundlagen professionellen Handelns, Band 2",
-     "Schacter u. a. (2016): Psychology"
+     "Schacter u. a. (2016): Psychology",
+     "Schweer/Siebertz-Reckzeh/Hake (2020): Facetten und Konsequenzen von Vertrauen und Misstrauen in der pädagogischen Beziehung"
     ]
    ]
   ]

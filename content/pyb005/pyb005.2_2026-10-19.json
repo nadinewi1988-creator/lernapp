@@ -1,0 +1,891 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pyb005",
+  "teilmodul": "pyb005.2",
+  "datum": "2026-10-19",
+  "sitzung_nr": 2,
+  "sitzung_id": "",
+  "thema": "02 Zentrale Paradigmen",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Im Foliensatz der Gruppe D (Stud.IP-Upload 19.10.2026) fehlen die Folien 5–7, 9 und 20 – vermutlich interaktive Folien (z. B. Wortwolken-Abfrage). Erklärungen ergänzt aus der Textgrundlage Myers/DeWall (2023), S. 2–6 und 9–16.",
+  "quellen": [
+    {
+      "datei": "pyb005.2/pyb005.2_Sitzung_2_Gruppe_D.pdf",
+      "art": "Folien",
+      "seiten": "1–26 (im PDF 21 Seiten; Folien 5–7, 9, 20 fehlen)"
+    },
+    {
+      "datei": "Literatur/Myers-DeWall_2023_Psychologie.pdf",
+      "art": "Textgrundlage",
+      "seiten": "2–6, 9–16"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "… der Psychologie als Wissenschaft und dem Erfordernis kritischen Denkens",
+      "art": "vorgegeben",
+      "quelle": "Folie 2 (Inhaltsübersicht/Lernkontrolle)",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03",
+        "f04",
+        "f05",
+        "f06",
+        "f07",
+        "f08",
+        "f09"
+      ],
+      "erklaerung_abschnitt": "Psychologie als Wissenschaft · Kritisches Denken"
+    },
+    {
+      "text": "… dem Gegenstandsbereich der Pädagogischen Psychologie",
+      "art": "vorgegeben",
+      "quelle": "Folie 2",
+      "fragen": [
+        "f10",
+        "f11",
+        "f12"
+      ],
+      "erklaerung_abschnitt": "Pädagogische Psychologie"
+    },
+    {
+      "text": "… zentralen Perspektiven der Psychologie (Besonderheiten, Unterschiede und Möglichkeiten der Verknüpfung)",
+      "art": "vorgegeben",
+      "quelle": "Folie 2",
+      "fragen": [
+        "f13",
+        "f14",
+        "f15",
+        "f16",
+        "f17",
+        "f18",
+        "f19",
+        "f20",
+        "f21",
+        "f22",
+        "f23",
+        "f24",
+        "f25"
+      ],
+      "erklaerung_abschnitt": "Perspektiven der Psychologie · Verknüpfung der Perspektiven"
+    },
+    {
+      "text": "… Merkmalen professionellen Handelns",
+      "art": "vorgegeben",
+      "quelle": "Folie 2",
+      "fragen": [
+        "f26",
+        "f27",
+        "f28"
+      ],
+      "erklaerung_abschnitt": "Professionelles Handeln"
+    }
+  ],
+  "kurzfassung": [
+    "Psychologie ist die Wissenschaft vom Verhalten und von den mentalen Prozessen; sie will Erleben und Verhalten beschreiben, verstehen, erklären, vorhersagen oder verändern.",
+    "Die wissenschaftliche Haltung besteht aus Neugier, Skepsis und Bescheidenheit – kritisches Denken prüft Vorannahmen, Quellen und Beweise, statt sie blind zu akzeptieren.",
+    "Die Pädagogische Psychologie beschreibt, erklärt, sagt vorher und verändert Erziehungs- und Lernprozesse – über die gesamte Lebensspanne, nicht nur in der Schule.",
+    "Behavioristische, psychodynamische, humanistische, kognitive und evolutionäre Perspektive erklären dasselbe Phänomen (z. B. Angst) mit jeweils anderen Grundannahmen.",
+    "Keine Perspektive zeigt das ganze Bild – der biopsychosoziale Ansatz verbindet biologische, psychologische und soziokulturelle Einflüsse.",
+    "Die dynamisch-interaktionistische Perspektive erklärt Erleben und Verhalten als Wechselspiel personaler und situationaler Faktoren.",
+    "Professionelles Handeln beruht auf wissenschaftlichem Wissen, ist Handeln unter Ungewissheit, braucht eine vertrauensvolle Beziehung und ist erlernbar."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Psychologie als Wissenschaft",
+      "text": "In der Wortwolke des Seminars standen **Verhalten**, **Mentales**, **Wissenschaft** und **Emotionen** ganz vorne – genau das steckt in der Definition:\n\n**Psychologie** ist „die Wissenschaft vom Verhalten und von den mentalen Prozessen“ (Myers/DeWall, S. 11).\n\n• **Verhalten** = alles, was ein Organismus tut und was man beobachten und registrieren kann (lächeln, reden, Fragebogen ankreuzen).\n• **Mentale Prozesse** = innere, subjektive Erfahrungen, die man aus dem Verhalten erschließt (Wahrnehmungen, Gedanken, Gefühle, Träume).\n• Schlüsselwort ist *wissenschaftlich*: Psychologie ist weniger eine Sammlung von Befunden als eine **Methode**, Fragen zu stellen und zu beantworten – **empirisch**, also gestützt auf Beobachtungen und Experimente.\n\n**Zwei Definitionen auf Folie 10:**\n• „[…] Psychologie als empirische Wissenschaft vom Mentalen und dessen Auswirkungen und Wechselwirkungen mit Körper und Verhalten […].“ (Bak, 2025, S. 6)\n• „Die Psychologie will menschliches Erleben […] [und] Verhalten […] **beschreiben, verstehen, erklären, vorhersagen oder verändern**.“ (Schreier et al., 2023, S. 21)\n\n**Zusammenhang der Ziele:** Wer die Ursachen eines Verhaltens erklären kann, kann es auch besser vorhersagen und beeinflussen. Beschreibungen bleiben beim Beobachtbaren, Erklärungen gehen darüber hinaus.",
+      "beispiel": "Beschreiben: „Lisa meldet sich im Mathe-Unterricht kaum.“ – Erklären: „Sie hat Angst, sich zu blamieren.“ – Vorhersagen: „Bei einem Test vor der Klasse wird sie sehr nervös sein.“ – Verändern: Ermutigung in Kleingruppen.",
+      "folien": "4, 8, 10"
+    },
+    {
+      "titel": "Kritisches Denken und wissenschaftliche Haltung",
+      "text": "Die wissenschaftliche Haltung hat drei Komponenten (Folie 13; Myers/DeWall, S. 3–4):\n\n| Komponente | Kernfrage | Bedeutung |\n| --- | --- | --- |\n| **Neugier** | „Funktioniert das?“ | Lassen sich Vorhersagen bestätigen, wenn man sie prüft? |\n| **Skepsis** | „Woher weißt du das?“ | gesunde Skepsis – weder zynisch (alles anzweifeln) noch leichtgläubig (alles glauben) |\n| **Bescheidenheit** | „Die Ratte hat immer Recht.“ | sich überraschen lassen; widerspricht das Verhalten der Vorstellung, ist das „Pech für unsere Vorstellungen“ |\n\nKurzformel: „Skepsis ohne Zynismus und Offenheit ohne Leichtgläubigkeit“.\n\n**Kritisches Denken** heißt: Vorannahmen prüfen, Glaubwürdigkeit von Quellen beurteilen, Beweise prüfen, Schlussfolgerungen erfassen. Kritische Denker fragen: Woher weiß man das? Welches Ziel verfolgt die Person? Gibt es nur Anekdoten oder einen Beweis? Welche alternativen Erklärungen gibt es?\n\n**Warum wichtig? (Folie 14):** Bei optischen Täuschungen sieht man ein Dreieck bzw. einen Stern, der gar nicht da ist. Wenn schon die Wahrnehmung von Formen getäuscht werden kann, dann auch die **Wahrnehmung anderer Menschen**.",
+      "beispiel": "Ergänzung (nicht aus dem Seminar): Eine Lehrkraft hält einen Schüler für „faul“. Kritisches Denken fragt: Woher weiß ich das? Gibt es andere Erklärungen – Überforderung, Müdigkeit, Probleme zu Hause?",
+      "folien": "12–14"
+    },
+    {
+      "titel": "Pädagogische Psychologie",
+      "text": "Die **Pädagogische Psychologie** …\n• … ist ein Teilgebiet der Psychologie und hat die Aufgabe, **Erziehungs- und Lernprozesse** zu beschreiben, zu erklären, vorherzusagen und zu verändern,\n• … befasst sich mit **allen Bildungsprozessen** bzw. dem Lehren und Lernen über die **gesamte Lebensspanne** – häufig in der Schule, aber z. B. auch in Unternehmen (Nähe zur **Arbeits- und Organisationspsychologie**).\n(Dickhäuser & Spinath, 2023; Hasselhorn & Gold, 2022)\n\n**Abgrenzung (eÜbung):**\n\n| Teilgebiet | Fokus |\n| --- | --- |\n| Pädagogische Psychologie | Erleben und Verhalten in Erziehungs-, Bildungs- und Sozialisationskontexten |\n| Entwicklungspsychologie | Veränderung des Menschen über die Zeit |\n| Differentielle Psychologie | Unterschiede zwischen Menschen (interindividuell) |\n| Sozialpsychologie | Einfluss der Anwesenheit anderer auf Erleben und Verhalten |",
+      "folien": "11"
+    },
+    {
+      "titel": "Perspektiven der Psychologie",
+      "text": "Fünf klassische Perspektiven (Folie 16; Myers/DeWall, S. 9–15):\n\n| Perspektive | Kernannahme | Vertreter |\n| --- | --- | --- |\n| **behavioristisch** | nur **beobachtbares Verhalten** wird untersucht, ohne mentale Prozesse; Verhalten ist **gelernt** und wird durch Reize und Konsequenzen geformt | Watson, Skinner |\n| **psychodynamisch** | **unbewusste** Denkprozesse und emotionale Reaktionen auf **Kindheitserfahrungen** steuern das Verhalten | Freud |\n| **humanistisch** | **Wachstumspotenzial**, Selbstverwirklichung, Bedürfnis nach Liebe und Akzeptanz; ressourcenorientiert; Gegenbewegung zu Freud und Behaviorismus (1960er) | Rogers, Maslow |\n| **kognitiv** | wie wir Informationen **wahrnehmen, verarbeiten, bewerten, erinnern**; entstand mit der **kognitiven Wende** (1960er) | – |\n| **evolutionär** | Verhalten ist durch **natürliche Selektion** entstanden, weil es Überleben und Fortpflanzung sicherte | Darwin |\n\n**Historie in Kürze:** Wundt (1879, Leipzig) und James – Introspektion, „Wissenschaft vom Seelenleben“ → ab den 1920ern Behaviorismus („Untersuchung des beobachtbaren Verhaltens“) und Freud’sche Psychologie als die zwei Hauptströme bis in die 1960er → humanistische Psychologie und kognitive Wende → heute: „Wissenschaft vom Verhalten und von den mentalen Prozessen“.\n\n**Übung „Angst“ (Folie 17)** – Lösung siehe Aufgabe a01.",
+      "folien": "15–17"
+    },
+    {
+      "titel": "Verknüpfung der Perspektiven: biopsychosozialer Ansatz",
+      "text": "Heute gibt es weitere Perspektiven – z. B. **interkulturelle Psychologie**, **Gender-Psychologie** und **positive Psychologie** – und Erleben und Verhalten werden häufig aus **mehreren Perspektiven gleichzeitig** betrachtet (Folie 18).\n\nDer **biopsychosoziale Ansatz** ist „eine integrierende Sichtweise, die biologische, psychologische und soziokulturelle Analyseebenen berücksichtigt“ (Myers/DeWall, S. 15):\n\n| Ebene | Beispiele für Einflüsse |\n| --- | --- |\n| **biologisch** | genetische Prädispositionen, Mutationen, natürliche Selektion, Gene, die auf die Umwelt reagieren |\n| **psychologisch** | erlernte Ängste und Erwartungen, emotionale Reaktionen, kognitive Verarbeitung und Wahrnehmungsinterpretation |\n| **soziokulturell** | Anwesenheit anderer, Erwartungen von Kultur/Gesellschaft/Familie, Gleichaltrige, Vorbilder in den Medien |\n\n**Merksatz:** Jede Perspektive ist wie eine zweidimensionale Ansicht eines dreidimensionalen Gegenstands – hilfreich, aber **keine zeigt das ganze Bild**.\n\n**WEIRD:** Viele Studien stammen aus westlichen, gebildeten, industrialisierten, reichen und demokratischen Gesellschaften – Ergebnisse lassen sich nicht ohne Weiteres verallgemeinern. Trotzdem gilt: Einstellungen und Verhalten variieren zwischen Kulturen und Geschlechtern, die zugrunde liegenden Prozesse sind aber im Wesentlichen gleich.",
+      "folien": "18; Myers S. 13–16"
+    },
+    {
+      "titel": "Dynamisch-interaktionistische bzw. dynamisch-transaktionale Perspektive",
+      "text": "Schaubild nach Rauthmann (2017, S. 424): **Umwelt** und **Persönlichkeit** wirken auf die **psychologische Situation** (Kognition: wie die Lage wahrgenommen und bewertet wird) → daraus folgt **Verhalten** → das Verhalten **wirkt zurück** auf Umwelt und Persönlichkeit. Ein Kreislauf, keine Einbahnstraße.\n\n**Beispiel Aufmerksamkeit im Unterricht (Folie 21):**\n\n| personal | situational |\n| --- | --- |\n| Konzentrationsfähigkeit, Leistungsstreben, (schulische) Interessen, physische Verfassung | Lehr-Lern-Methoden, Klassenführung, Ablenkung/Unterstützung im Klassenzimmer, Unterrichtsthema |\n\n→ beides zusammen bestimmt **Erleben und Verhalten**: niedrige/hohe Aufmerksamkeit und die Gefühle dazu, wenig/hohe Unterrichtsbeteiligung.\n\n**eÜbung:** Das Paradigma **integriert verschiedene frühere Strömungen** und erklärt Verhalten als **komplexes Wechselspiel personaler und situationaler Faktoren**.",
+      "folien": "19, 21"
+    },
+    {
+      "titel": "Professionelles Handeln",
+      "text": "Professionelles Handeln … (Folie 22; Helsper, 2021; Idel et al., 2021)\n• … basiert auf **wissenschaftlich fundiertem Wissen**\n• … ist ein **Handeln unter Ungewissheit** und braucht die Berücksichtigung und Reflexion der Besonderheiten von Situationen und Personen\n• … setzt eine **vertrauensvolle Beziehung** bzw. ein **Arbeitsbündnis** voraus\n• … dient der **Befähigung und Unterstützung** anderer Menschen im Sinne eines eigenständigen und sozial verantwortlichen Handelns\n• … geht mit einem **universalistischen Anspruch** einher\n• … „**ist erlernbar**“ (Idel et al., 2021, S. 17)\n\nVerbindung zur Sitzung (Ergänzung): wissenschaftliches Wissen ↔ Psychologie als Wissenschaft und kritisches Denken; Situation und Person berücksichtigen ↔ dynamisch-interaktionistische Perspektive.",
+      "folien": "22"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Psychologie",
+      "wortlaut": "die Wissenschaft vom Verhalten und von den mentalen Prozessen.",
+      "erklaerung": "Psychologie untersucht wissenschaftlich, was Menschen tun (beobachtbar) und was in ihnen vorgeht (erschlossen).",
+      "folie": "8, 10 · Myers/DeWall S. 11"
+    },
+    {
+      "begriff": "Psychologie (nach Bak)",
+      "wortlaut": "„[…] Psychologie als empirische Wissenschaft vom Mentalen und dessen Auswirkungen und Wechselwirkungen mit Körper und Verhalten […].“ (Bak, 2025, S. 6)",
+      "erklaerung": "Betont das Mentale und seine Wechselwirkung mit Körper und Verhalten; empirisch = auf Beobachtung gestützt.",
+      "folie": "10"
+    },
+    {
+      "begriff": "Ziele der Psychologie",
+      "wortlaut": "„Die Psychologie will menschliches Erleben […] [und] Verhalten […] beschreiben, verstehen, erklären, vorhersagen oder verändern.“ (Schreier et al., 2023, S. 21)",
+      "erklaerung": "Fünf Ziele, die aufeinander aufbauen: Wer erklären kann, kann auch vorhersagen und verändern.",
+      "folie": "10"
+    },
+    {
+      "begriff": "Verhalten",
+      "wortlaut": "Verhalten ist alles, was ein Organismus macht – jede Handlung, die wir beobachten und registrieren können.",
+      "erklaerung": "Alles Beobachtbare: schreien, lächeln, reden, einen Fragebogen ankreuzen.",
+      "folie": "8 · Myers/DeWall S. 11"
+    },
+    {
+      "begriff": "Mentale Prozesse",
+      "wortlaut": "Mentale Prozesse sind innere subjektive Erfahrungen, die wir aus dem Verhalten erschließen: Empfindungen, Wahrnehmungen, Träume, Überzeugungen, Gedanken und Gefühle.",
+      "erklaerung": "Das „Innere“, das man nicht direkt sieht, sondern aus dem Verhalten ableitet.",
+      "folie": "8 · Myers/DeWall S. 11"
+    },
+    {
+      "begriff": "Empirische Methode",
+      "wortlaut": "eine evidenzbasierte Methode, die sich auf Beobachtungen und Experimente stützt.",
+      "erklaerung": "Wissen wird durch Prüfen an der Wirklichkeit gewonnen, nicht durch Meinung.",
+      "folie": "Myers/DeWall S. 3"
+    },
+    {
+      "begriff": "Kritisches Denken",
+      "wortlaut": "eine Art zu denken, die Argumente und Schlussfolgerungen nicht einfach blindlings akzeptiert. Stattdessen werden Vorannahmen einer Prüfung unterzogen, die Glaubwürdigkeit von Informationsquellen beurteilt, Abweichungen werden aufgedeckt, Beweise auf ihre Richtigkeit hin überprüft und daraus resultierende Schlussfolgerungen werden erfasst.",
+      "erklaerung": "Nicht alles glauben, sondern nachfragen: Woher weiß man das? Welche Beweise gibt es? Welche anderen Erklärungen?",
+      "folie": "12–14 · Myers/DeWall S. 4"
+    },
+    {
+      "begriff": "Wissenschaftliche Haltung",
+      "wortlaut": "Neugier + Skepsis + Bescheidenheit",
+      "erklaerung": "Neugier (Funktioniert das?), Skepsis (Woher weißt du das?), Bescheidenheit (Die Ratte hat immer Recht).",
+      "folie": "13 · Myers/DeWall S. 3–4"
+    },
+    {
+      "begriff": "Pädagogische Psychologie",
+      "wortlaut": "widmet sich als Teilgebiet der Wissenschaft „Psychologie“ der Aufgabe, Erziehungs- und Lernprozesse zu beschreiben, zu erklären, vorherzusagen und zu verändern; befasst sich mit allen Bildungsprozessen bzw. dem Lehren und Lernen über die gesamte Lebensspanne.",
+      "erklaerung": "Psychologie des Lehrens und Lernens – in Schule, aber auch in Kita, Hochschule oder Betrieb.",
+      "folie": "11"
+    },
+    {
+      "begriff": "Behaviorismus",
+      "wortlaut": "Sichtweise, dass Psychologie 1. eine objektive Wissenschaft sein sollte, die 2. Verhalten ohne Bezug auf mentale Prozesse untersucht.",
+      "erklaerung": "Nur was beobachtbar ist, zählt. Heute stimmen die meisten Forschenden Punkt 1 zu, aber nicht Punkt 2.",
+      "folie": "16 · Myers/DeWall S. 9"
+    },
+    {
+      "begriff": "Humanistische Psychologie",
+      "wortlaut": "historisch bedeutsame Auffassung, bei der das Wachstumspotenzial des Menschen betont wird.",
+      "erklaerung": "Der Mensch strebt nach Selbstverwirklichung; Liebe und Akzeptanz fördern sein Wachstum (Rogers, Maslow).",
+      "folie": "16 · Myers/DeWall S. 11"
+    },
+    {
+      "begriff": "Kognitive Psychologie",
+      "wortlaut": "die Untersuchung mentaler Prozesse wie sie beim Wahrnehmen, Lernen, Erinnern, Denken, Kommunizieren und Problemlösen auftreten.",
+      "erklaerung": "Wie wir Informationen verarbeiten – ab der kognitiven Wende der 1960er.",
+      "folie": "16 · Myers/DeWall S. 11"
+    },
+    {
+      "begriff": "Natürliche Selektion",
+      "wortlaut": "das Prinzip, dass aus der Menge der ererbten Merkmalsvarianten diejenigen an die nachfolgenden Generationen weitergegeben werden, die am meisten zur Fortpflanzung und zum Überleben der Lebewesen in einer bestimmten Umwelt beitragen.",
+      "erklaerung": "Grundlage der evolutionären Perspektive (Darwin).",
+      "folie": "16 · Myers/DeWall S. 12"
+    },
+    {
+      "begriff": "Positive Psychologie",
+      "wortlaut": "die wissenschaftliche Untersuchung der Funktionsfähigkeit des Menschen mit dem Ziel, die Stärken und guten Eigenschaften zu entdecken und zu fördern, die das Gedeihen des Einzelnen und der Gemeinschaft ermöglichen.",
+      "erklaerung": "Nicht nur Probleme heilen, sondern Stärken fördern (Seligman).",
+      "folie": "18 · Myers/DeWall S. 15"
+    },
+    {
+      "begriff": "Kultur",
+      "wortlaut": "dauerhafte Verhaltensweisen, Vorstellungen, Einstellungen, Werte und Traditionen einer Gruppe von Menschen, die von einer Generation zur nächsten überliefert werden.",
+      "erklaerung": "Wichtig für die interkulturelle Psychologie.",
+      "folie": "18 · Myers/DeWall S. 14"
+    },
+    {
+      "begriff": "Biopsychosozialer Ansatz",
+      "wortlaut": "eine integrierende Sichtweise, die biologische, psychologische und soziokulturelle Analyseebenen berücksichtigt.",
+      "erklaerung": "Verhalten erklärt sich erst vollständig, wenn man Körper, Psyche und soziales Umfeld zusammen betrachtet.",
+      "folie": "18 · Myers/DeWall S. 15"
+    },
+    {
+      "begriff": "Analyseebenen",
+      "wortlaut": "die unterschiedlichen sich gegenseitig ergänzenden Auffassungen zur Analyse irgendeines vorgegebenen Phänomens, die von der biologischen über die psychologische bis zur soziokulturellen Auffassung reichen.",
+      "erklaerung": "Dasselbe Phänomen kann auf verschiedenen Ebenen erklärt werden – sie ergänzen sich.",
+      "folie": "Myers/DeWall S. 15"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "Finden Sie sich bitte zu zweit oder dritt zusammen. Analysieren Sie die auf der folgenden Folie aufgeführten Aussagen zum Thema „Angst“. Welche psychologische Perspektive kommt jeweils am stärksten zum Ausdruck? (behavioristische, psychodynamische, humanistische, kognitive, evolutionäre Perspektive) Begründen Sie Ihre Zuordnung: Welche Annahme über die Entstehung, Aufrechterhaltung oder Funktion von Angst steht jeweils im Mittelpunkt?\n1. Angst kann in Gefahrensituationen Flucht- oder Vermeidungsverhalten auslösen und dadurch die Überlebenschancen erhöhen.\n2. In angstauslösenden Situationen können frühere, unbewusste Konflikte und Ängste aktiviert werden und das aktuelle Erleben und Verhalten beeinflussen.\n3. Wenn ein Kind wiederholt erlebt, dass eine bestimmte Situation mit etwas Unangenehmem verbunden ist, kann es lernen, in dieser Situation Angst zu empfinden oder sie zu vermeiden.\n4. Menschen erleben eher Angst, wenn sie eine Situation als bedrohlich einschätzen und ihre eigenen Bewältigungsmöglichkeiten als gering ansehen.\n5. Ein unterstützendes Umfeld, persönliche Ressourcen und die Erfahrung von Akzeptanz können Menschen dabei helfen, mit Ängsten umzugehen und sich persönlich weiterzuentwickeln.",
+      "quelle": "Folien 16–17",
+      "loesung": "1 evolutionär · 2 psychodynamisch · 3 behavioristisch · 4 kognitiv · 5 humanistisch",
+      "loesungsweg": "1: Funktion der Angst = Überleben → evolutionär (natürliche Selektion).\n2: Entstehung aus unbewussten, früheren Konflikten → psychodynamisch (Freud).\n3: Angst wird durch wiederholte Erfahrung gelernt → behavioristisch (Konditionierung).\n4: Entscheidend ist die Bewertung der Situation und der eigenen Möglichkeiten → kognitiv.\n5: Ressourcen, Akzeptanz, persönliche Weiterentwicklung → humanistisch.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Textvorbereitung S03: Schreier u. a. (2023) – 4 Leitfragen",
+      "text": "Textgrundlage: Schreier, M., Echterhoff, G., Bauer, J. F., Weydmann, N., & Hussy, W. (2023). Forschungsmethoden in Psychologie und Sozialwissenschaften für Bachelor (3., überarb. und erg. Aufl.). Springer. Seiten: 12–14 (Kap. 1.2–1.2.2), 17–21 (Kap. 1.2.2.2–1.2.2.3), 44–47 (Kap. 1.6.1–1.6.3).\nLeitfragen:\n1. Worin unterscheidet sich der alltagspsychologische vom wissenschaftlichen Erkenntnisprozess?\n2. Inwiefern lassen sich unterschiedliche Methoden des wissenschaftlichen Schlussfolgerns voneinander unterscheiden, und wieso kann eine Theorie nicht „bewiesen“ werden?\n3. Wodurch zeichnen sich ein quantitativer, ein qualitativer und ein Mixed Methods-Ansatz jeweils aus?\n4. Welche Arten von Variablen lassen sich unterscheiden, und welche Rolle nimmt die Operationalisierung in diesem Zusammenhang ein?",
+      "quelle": "Folien 23–24",
+      "loesung": "**1. Alltag vs. Wissenschaft**\nDie **Fragen** sind im Kern gleich – beide befassen sich mit Erleben, Verhalten und Zusammenleben. Der Unterschied liegt darin, **wie** sie beantwortet werden (S. 12).\n• **Alltag:** Überzeugungsstrategie (sich sehr sicher geben), Berufung auf Autoritäten („Schon Freud hat gesagt …“), Aneinanderreihen von Beispielen. Die Datenbasis – eigene Erfahrung – ist **lückenhaft, punktuell, unsystematisch** und anfällig für Verzerrungen (S. 13).\n• **Wissenschaft:** Ziel ist **möglichst gesichertes Wissen**. Wissenschaftliche Forschungsmethoden sammeln und werten Daten **systematisch** aus, setzen sie in Bezug zu Theorien und folgen einem **nachvollziehbaren, überprüfbaren** Prozess; Güte wird an Objektivität, Reliabilität und Validität gemessen (S. 14).\n\n**2. Induktion – Deduktion – Abduktion; warum kein Beweis**\n• **Induktion:** von Einzelfällen auf das Allgemeine (alle bisher gesehenen Schwäne sind weiß → alle Schwäne sind weiß). Nur Wahrscheinlichkeitscharakter – ein schwarzer Schwan widerlegt die Regel.\n• **Deduktion:** aus einer Theorie wird eine prüfbare **Hypothese** abgeleitet und empirisch geprüft (Theorie „Alle Schwäne sind weiß“ → Hypothese „Schwäne in Neuseeland sind weiß“). Beispiel: Festingers Dissonanztheorie, Experiment mit gut/schlecht bezahlten Personen.\n• **Abduktion:** für einen überraschenden, unbekannten Sachverhalt wird eine **neue Erklärung** (Hypothese) entwickelt, deren Gültigkeit erst noch zu prüfen ist (Arzt entdeckt AIDS).\n• **Kein Beweis**, weil eine Theorie ein Geflecht vieler Aussagen ist und **immer nur einzelne abgeleitete Aussagen** geprüft werden können. Jede Bestätigung **stützt** die Theorie nur, ein Gegenbeispiel kann sie **widerlegen** (S. 18).\n• Quantitativ meist deduktiv, qualitativ eher induktiv/abduktiv; über die Zeit greifen alle drei ineinander.\n\n**3. Quantitativ – qualitativ – Mixed Methods**\n| | quantitativ | qualitativ | Mixed Methods |\n| --- | --- | --- | --- |\n| Ziel | Merkmale/Zusammenhänge **exakt messen**, allgemeingültige Aussagen | Bedeutung **verstehen/interpretieren**, wenig erforschte Felder erschließen | beide Zugänge **systematisch verbinden und integrieren** |\n| Stichprobe | meist groß | wenige Fälle/Einzelfälle | je nach Design |\n| Verfahren | standardisiert: Experimente, Korrelationsstudien, Tests, Fragebögen, Inferenzstatistik | unstandardisiert: leitfadengestützte Interviews, teilnehmende Beobachtung, Gruppendiskussion; Inhalts-, Diskursanalyse | Kombination |\n| Logik | meist deduktiv | induktiv/abduktiv | – |\nDie Wahl richtet sich nach Forschungsgegenstand und Phase des Forschungsprozesses; jede Methode macht nur bestimmte Aspekte sichtbar (S. 20–21).\n\n**4. Variablen und Operationalisierung**\n• **Variable** = veränderliche Beobachtungsgröße mit mindestens zwei Ausprägungen; variiert zwischen Personen (interindividuell) und innerhalb einer Person (intraindividuell). **Konstante** = nur eine Ausprägung (in der Psychologie kaum).\n• **Arten:** quantitativ (Zahlenwerte, z. B. Alter) vs. **qualitativ/kategorial** (Beschaffenheit, z. B. Augenfarbe); **konkret** (direkt beobachtbar, z. B. Reaktionszeit) vs. **abstrakt** (nicht direkt beobachtbar, z. B. Intelligenz); einfach vs. komplex.\n• **Operationalisierung:** abstrakte/komplexe Variablen beobachtbar und messbar machen, indem man ihnen konkrete, messbare Sachverhalte zuordnet (Intelligenz → Anzahl gelöster Testaufgaben). Ziel: den **Bedeutungskern** treffen, damit der **semantische Gehalt** möglichst wenig reduziert wird (Fleiß nur als Lernstunden erfasst = Reduktion). Eine gute Operationalisierung ist **valide**.",
+      "loesungsweg": "Text S. 12–14, 17–21, 44–47 lesen; je Leitfrage die Kernbegriffe markieren (Alltagsstrategien, Induktion/Deduktion/Abduktion, drei Ansätze, Variablenarten, Operationalisierung) und mit eigenen Beispielen aus Schule/Unterricht verknüpfen.",
+      "frist": "2026-10-26",
+      "im_kalender": true,
+      "fuer_sitzung": "pyb005.2_2026-10-26",
+      "kalender_id": "f4cd9663-33b8-4795-bc2e-0d5fbad2c129",
+      "pdf": "/dateien/pyb005/S03_2026-10-26_Hausaufgabe_Textvorbereitung_Schreier-et-al_Leitfragen.pdf"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie definieren Myers/DeWall Psychologie?",
+      "antwort": "Psychologie ist die Wissenschaft vom Verhalten und von den mentalen Prozessen.",
+      "erklaerung": "Kurz und prüfungsrelevant: Verhalten (beobachtbar) + mentale Prozesse (erschlossen).",
+      "folie": "8 · Myers S. 11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Psychologie ist die Wissenschaft vom [[Verhalten]] und von den [[mentalen Prozessen]].",
+      "erklaerung": "Definition nach Myers/DeWall (2023, S. 11).",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was ist der Unterschied zwischen Verhalten und mentalen Prozessen?",
+      "antwort": "Verhalten ist alles, was ein Organismus tut und was man beobachten und registrieren kann. Mentale Prozesse sind innere subjektive Erfahrungen (Empfindungen, Wahrnehmungen, Gedanken, Gefühle, Träume), die man aus dem Verhalten erschließt.",
+      "erklaerung": "Beobachtbar vs. erschlossen.",
+      "folie": "8 · Myers S. 11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Ziele verfolgt die Psychologie laut Schreier et al. (2023)? (mehrere richtig)",
+      "optionen": [
+        "beschreiben",
+        "verstehen",
+        "bewerten",
+        "erklären",
+        "vorhersagen",
+        "verändern"
+      ],
+      "richtig": [
+        "beschreiben",
+        "verstehen",
+        "erklären",
+        "vorhersagen",
+        "verändern"
+      ],
+      "erklaerung": "Die fünf Ziele: beschreiben, verstehen, erklären, vorhersagen, verändern. „Bewerten“ (moralisch beurteilen) gehört nicht dazu.",
+      "folie": "10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu den Zielen der Psychologie sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Beschreibungen beruhen auf beobachtbaren Informationen.",
+        "Erklärungen gehen ihrem Selbstverständnis nach über das Beobachtbare hinaus.",
+        "Wer Ursachen erklären kann, kann Verhalten auch besser vorhersagen und beeinflussen.",
+        "Vorhersagen sind ohne Erklärung grundsätzlich unmöglich."
+      ],
+      "richtig": [
+        "Beschreibungen beruhen auf beobachtbaren Informationen.",
+        "Erklärungen gehen ihrem Selbstverständnis nach über das Beobachtbare hinaus.",
+        "Wer Ursachen erklären kann, kann Verhalten auch besser vorhersagen und beeinflussen."
+      ],
+      "erklaerung": "Die ersten drei stehen so auch in der eÜbung. Die vierte ist zu absolut – Erklärungen helfen beim Vorhersagen, sind aber nicht zwingend Voraussetzung.",
+      "folie": "10 · eÜbung",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter der empirischen Methode?",
+      "antwort": "Eine evidenzbasierte Methode, die sich auf Beobachtungen und Experimente stützt.",
+      "erklaerung": "Myers/DeWall S. 3.",
+      "folie": "Myers S. 3",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f07",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Kernfragen den drei Komponenten der wissenschaftlichen Haltung zu.",
+      "kategorien": [
+        "Neugier",
+        "Skepsis",
+        "Bescheidenheit"
+      ],
+      "elemente": [
+        {
+          "text": "„Funktioniert das?“",
+          "kategorie": "Neugier"
+        },
+        {
+          "text": "„Woher weißt du das?“",
+          "kategorie": "Skepsis"
+        },
+        {
+          "text": "„Die Ratte hat immer Recht.“",
+          "kategorie": "Bescheidenheit"
+        },
+        {
+          "text": "weder zynisch noch leichtgläubig",
+          "kategorie": "Skepsis"
+        },
+        {
+          "text": "bereit sein, sich überraschen zu lassen",
+          "kategorie": "Bescheidenheit"
+        }
+      ],
+      "erklaerung": "Wissenschaftliche Haltung = Neugier + Skepsis + Bescheidenheit (Folie 13).",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht man unter kritischem Denken?",
+      "antwort": "Eine Art zu denken, die Argumente und Schlussfolgerungen nicht blindlings akzeptiert: Vorannahmen werden geprüft, die Glaubwürdigkeit von Quellen beurteilt, Abweichungen aufgedeckt, Beweise auf Richtigkeit geprüft und die daraus folgenden Schlussfolgerungen erfasst.",
+      "erklaerung": "Myers/DeWall S. 4.",
+      "folie": "12–13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was soll das Beispiel der optischen Täuschungen (Folie 14) zeigen?",
+      "optionen": [
+        "Wahrnehmung kann fehlgeleitet werden – auch bei der Wahrnehmung anderer Menschen.",
+        "Optische Täuschungen beweisen, dass Wahrnehmung immer falsch ist.",
+        "Kritisches Denken ist nur in der Wahrnehmungspsychologie wichtig.",
+        "Unser Gehirn ergänzt Informationen, die gar nicht da sind."
+      ],
+      "richtig": [
+        "Wahrnehmung kann fehlgeleitet werden – auch bei der Wahrnehmung anderer Menschen.",
+        "Unser Gehirn ergänzt Informationen, die gar nicht da sind."
+      ],
+      "erklaerung": "Man sieht ein Dreieck/einen Stern, der nicht da ist – die Wahrnehmung ergänzt. Daraus folgt: Auch Urteile über Menschen können täuschen. „Immer falsch“ und „nur in der Wahrnehmungspsychologie“ sind übertrieben.",
+      "folie": "14",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f10",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Womit befasst sich die Pädagogische Psychologie?",
+      "antwort": "Sie ist ein Teilgebiet der Psychologie und beschreibt, erklärt, sagt vorher und verändert Erziehungs- und Lernprozesse. Sie befasst sich mit allen Bildungsprozessen bzw. dem Lehren und Lernen über die gesamte Lebensspanne – häufig in der Schule, aber z. B. auch in Unternehmen.",
+      "erklaerung": "Folie 11 (Dickhäuser & Spinath, 2023; Hasselhorn & Gold, 2022).",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur Pädagogischen Psychologie sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Sie befasst sich ausschließlich mit Lernen in der Schule.",
+        "Sie betrachtet Lehren und Lernen über die gesamte Lebensspanne.",
+        "Sie steht der Arbeits- und Organisationspsychologie nahe.",
+        "Sie ist ein Teilgebiet der Psychologie."
+      ],
+      "richtig": [
+        "Sie betrachtet Lehren und Lernen über die gesamte Lebensspanne.",
+        "Sie steht der Arbeits- und Organisationspsychologie nahe.",
+        "Sie ist ein Teilgebiet der Psychologie."
+      ],
+      "erklaerung": "„Ausschließlich Schule“ ist falsch – Schule ist häufig, aber z. B. auch Unternehmen gehören dazu.",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Teilgebiete ihrem Fokus zu.",
+      "kategorien": [
+        "Pädagogische Psychologie",
+        "Entwicklungspsychologie",
+        "Differentielle Psychologie",
+        "Sozialpsychologie"
+      ],
+      "elemente": [
+        {
+          "text": "Erleben und Verhalten in Erziehungs-, Bildungs- und Sozialisationskontexten",
+          "kategorie": "Pädagogische Psychologie"
+        },
+        {
+          "text": "Veränderung des Menschen über die Zeit",
+          "kategorie": "Entwicklungspsychologie"
+        },
+        {
+          "text": "interindividuelle Unterschiede in psychischen Funktionen bzw. Erlebens- und Verhaltensweisen",
+          "kategorie": "Differentielle Psychologie"
+        },
+        {
+          "text": "Beeinflussung von Erleben und Verhalten durch die Anwesenheit anderer",
+          "kategorie": "Sozialpsychologie"
+        }
+      ],
+      "erklaerung": "Entspricht Aufgabe A3 aus der eÜbung (Test 1).",
+      "folie": "11 · eÜbung",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Aussagen zum Thema „Angst“ der Perspektive zu, die am stärksten zum Ausdruck kommt.",
+      "kategorien": [
+        "evolutionär",
+        "psychodynamisch",
+        "behavioristisch",
+        "kognitiv",
+        "humanistisch"
+      ],
+      "elemente": [
+        {
+          "text": "Angst löst Flucht/Vermeidung aus und erhöht die Überlebenschancen.",
+          "kategorie": "evolutionär"
+        },
+        {
+          "text": "Frühere, unbewusste Konflikte werden in angstauslösenden Situationen aktiviert.",
+          "kategorie": "psychodynamisch"
+        },
+        {
+          "text": "Ein Kind lernt durch wiederholte unangenehme Erfahrungen, Angst zu empfinden.",
+          "kategorie": "behavioristisch"
+        },
+        {
+          "text": "Angst entsteht, wenn man die Situation als bedrohlich und die eigenen Möglichkeiten als gering einschätzt.",
+          "kategorie": "kognitiv"
+        },
+        {
+          "text": "Unterstützendes Umfeld, Ressourcen und Akzeptanz helfen, mit Angst umzugehen und sich weiterzuentwickeln.",
+          "kategorie": "humanistisch"
+        }
+      ],
+      "erklaerung": "Übung von Folie 16–17 (Lösung siehe Aufgabe a01).",
+      "folie": "16–17",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Begründe für jede der fünf Angst-Aussagen (Folie 17), welche Annahme über Entstehung, Aufrechterhaltung oder Funktion der Angst im Mittelpunkt steht.",
+      "musterloesung": "1 evolutionär: Funktion = Überleben durch Flucht/Vermeidung. 2 psychodynamisch: Entstehung aus unbewussten, früheren Konflikten. 3 behavioristisch: Angst wird durch wiederholte Erfahrung gelernt (Konditionierung). 4 kognitiv: Angst hängt von der Einschätzung der Bedrohung und der eigenen Bewältigungsmöglichkeiten ab. 5 humanistisch: Ressourcen, Akzeptanz und Umfeld fördern Umgang mit Angst und persönliches Wachstum.",
+      "bewertungspunkte": [
+        "evolutionär – Überlebensfunktion",
+        "psychodynamisch – unbewusste/frühere Konflikte",
+        "behavioristisch – gelernt",
+        "kognitiv – Bewertung/Einschätzung",
+        "humanistisch – Ressourcen/Wachstum"
+      ],
+      "punkte": 5,
+      "erklaerung": "Aufgabe a01.",
+      "folie": "16–17",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f15",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Hauptgegenstand der behavioristischen Perspektive sind Emotionen.",
+      "optionen": [
+        "wahr",
+        "falsch"
+      ],
+      "richtig": [
+        "falsch"
+      ],
+      "erklaerung": "Der Behaviorismus untersucht beobachtbares Verhalten ohne Bezug auf mentale Prozesse – Emotionen gehören gerade nicht dazu. (eÜbung, Test 1, A5)",
+      "folie": "16 · Myers S. 9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur humanistischen Perspektive sind korrekt? (mehrere richtig)",
+      "optionen": [
+        "Zentral ist die Annahme, dass der Mensch ein Mangelwesen ist.",
+        "Die Perspektive fokussiert menschliche Reaktionen auf Reize.",
+        "Es handelt sich um ein ressourcenorientiertes Modell.",
+        "Die Perspektive beschreibt das Streben des Menschen nach Selbstverwirklichung."
+      ],
+      "richtig": [
+        "Es handelt sich um ein ressourcenorientiertes Modell.",
+        "Die Perspektive beschreibt das Streben des Menschen nach Selbstverwirklichung."
+      ],
+      "erklaerung": "Humanistisch = Wachstumspotenzial, Selbstverwirklichung, Ressourcen. „Mangelwesen“ widerspricht dem, „Reaktionen auf Reize“ ist behavioristisch. (eÜbung, Test 1, A6)",
+      "folie": "16 · Myers S. 9–11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Vertreter der passenden Perspektive zu.",
+      "kategorien": [
+        "behavioristisch",
+        "psychodynamisch",
+        "humanistisch",
+        "evolutionär"
+      ],
+      "elemente": [
+        {
+          "text": "John B. Watson",
+          "kategorie": "behavioristisch"
+        },
+        {
+          "text": "B. F. Skinner",
+          "kategorie": "behavioristisch"
+        },
+        {
+          "text": "Sigmund Freud",
+          "kategorie": "psychodynamisch"
+        },
+        {
+          "text": "Carl Rogers",
+          "kategorie": "humanistisch"
+        },
+        {
+          "text": "Abraham Maslow",
+          "kategorie": "humanistisch"
+        },
+        {
+          "text": "Charles Darwin",
+          "kategorie": "evolutionär"
+        }
+      ],
+      "erklaerung": "Myers/DeWall S. 9–12.",
+      "folie": "16 · Myers S. 9–12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussage zur kognitiven Wende ist richtig?",
+      "optionen": [
+        "Sie fand in den 1960er Jahren statt und brachte die Psychologie zum Interesse an mentalen Prozessen zurück.",
+        "Sie begründete den Behaviorismus in den 1920er Jahren.",
+        "Sie lehnte die Untersuchung von Informationsverarbeitung ab.",
+        "Sie geht auf Sigmund Freud zurück."
+      ],
+      "richtig": [
+        "Sie fand in den 1960er Jahren statt und brachte die Psychologie zum Interesse an mentalen Prozessen zurück."
+      ],
+      "erklaerung": "Die kognitive Wende (1960er) rückte wieder die Informationsverarbeitung in den Mittelpunkt (Myers S. 11).",
+      "folie": "Myers S. 11",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f19",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter dem biopsychosozialen Ansatz?",
+      "antwort": "Eine integrierende Sichtweise, die biologische, psychologische und soziokulturelle Analyseebenen berücksichtigt.",
+      "erklaerung": "Leitfrage 3 der Sitzung.",
+      "folie": "18 · Myers S. 15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Der biopsychosoziale Ansatz berücksichtigt [[biologische]], [[psychologische]] und [[soziokulturelle]] Analyseebenen.",
+      "erklaerung": "Myers/DeWall S. 15.",
+      "folie": "18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Einflüsse den Ebenen des biopsychosozialen Ansatzes zu.",
+      "kategorien": [
+        "biologisch",
+        "psychologisch",
+        "soziokulturell"
+      ],
+      "elemente": [
+        {
+          "text": "genetische Prädispositionen",
+          "kategorie": "biologisch"
+        },
+        {
+          "text": "natürliche Selektion adaptiver Merkmale",
+          "kategorie": "biologisch"
+        },
+        {
+          "text": "erlernte Ängste und Erwartungen",
+          "kategorie": "psychologisch"
+        },
+        {
+          "text": "kognitive Verarbeitung und Wahrnehmungsinterpretation",
+          "kategorie": "psychologisch"
+        },
+        {
+          "text": "Erwartungen von Kultur, Gesellschaft und Familie",
+          "kategorie": "soziokulturell"
+        },
+        {
+          "text": "Einfluss von Gleichaltrigen",
+          "kategorie": "soziokulturell"
+        }
+      ],
+      "erklaerung": "Abb. 1.15 bei Myers/DeWall.",
+      "folie": "Myers S. 16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f22",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum betrachtet die moderne Psychologie Erleben und Verhalten oft aus mehreren Perspektiven gleichzeitig?",
+      "optionen": [
+        "Weil jede Perspektive nur einen Teil des Phänomens zeigt und keine allein das ganze Bild liefert.",
+        "Weil die klassischen Perspektiven widerlegt sind.",
+        "Weil sich die Perspektiven gegenseitig ergänzen.",
+        "Weil nur so Experimente möglich sind."
+      ],
+      "richtig": [
+        "Weil jede Perspektive nur einen Teil des Phänomens zeigt und keine allein das ganze Bild liefert.",
+        "Weil sich die Perspektiven gegenseitig ergänzen."
+      ],
+      "erklaerung": "Bild aus dem Text: zweidimensionale Ansichten eines dreidimensionalen Gegenstands. Widerlegt sind die Perspektiven nicht.",
+      "folie": "18 · Myers S. 15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f23",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen sind vor dem Hintergrund des dynamisch-transaktionalen Paradigmas korrekt? (mehrere richtig)",
+      "optionen": [
+        "Populärer Vertreter des Paradigmas ist Carl Rogers.",
+        "Das Paradigma entwickelte sich im Zuge der kognitiven Wende.",
+        "Das Paradigma integriert verschiedene vorherige Strömungen.",
+        "Das Paradigma erklärt menschliches Verhalten als komplexes Wechselspiel aus personalen und situationalen Faktoren."
+      ],
+      "richtig": [
+        "Das Paradigma integriert verschiedene vorherige Strömungen.",
+        "Das Paradigma erklärt menschliches Verhalten als komplexes Wechselspiel aus personalen und situationalen Faktoren."
+      ],
+      "erklaerung": "Rogers ist Humanist; die kognitive Wende steht für die kognitive Perspektive. (eÜbung, Test 1, A8)",
+      "folie": "19, 21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f24",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Beispiel Aufmerksamkeit im Unterricht: Ordne die Faktoren zu.",
+      "kategorien": [
+        "personal",
+        "situational"
+      ],
+      "elemente": [
+        {
+          "text": "Konzentrationsfähigkeit",
+          "kategorie": "personal"
+        },
+        {
+          "text": "Leistungsstreben",
+          "kategorie": "personal"
+        },
+        {
+          "text": "physische Verfassung",
+          "kategorie": "personal"
+        },
+        {
+          "text": "Klassenführung",
+          "kategorie": "situational"
+        },
+        {
+          "text": "Lehr-Lern-Methoden",
+          "kategorie": "situational"
+        },
+        {
+          "text": "Unterrichtsthema",
+          "kategorie": "situational"
+        }
+      ],
+      "erklaerung": "Folie 21: personale und situationale Faktoren wirken zusammen auf Erleben und Verhalten.",
+      "folie": "21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f25",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Eine Schülerin (Klasse 7) beteiligt sich seit einigen Wochen kaum noch am Unterricht. Erkläre das Verhalten mit dem biopsychosozialen Ansatz bzw. der dynamisch-interaktionistischen Perspektive und nenne je Ebene einen möglichen Einflussfaktor.",
+      "musterloesung": "Biologisch: z. B. Müdigkeit durch Schlafmangel oder körperliche Veränderungen in der Pubertät. Psychologisch: z. B. Angst vor Fehlern, geringes Interesse, negative Bewertung der eigenen Fähigkeiten. Soziokulturell: z. B. Konflikte in der Klasse, Erwartungen der Familie, Einfluss der Freundesgruppe. Dynamisch-interaktionistisch: Person (Konzentration, Interessen) und Situation (Methoden, Klassenführung, Ablenkung) wirken zusammen; ihr Rückzug wirkt wiederum auf die Situation zurück (z. B. weniger Aufmerksamkeit der Lehrkraft). Keine Ebene allein erklärt das Verhalten.",
+      "bewertungspunkte": [
+        "biologischer Faktor genannt",
+        "psychologischer Faktor genannt",
+        "soziokultureller Faktor genannt",
+        "Wechselwirkung Person–Situation bzw. Zusammenspiel der Ebenen erklärt"
+      ],
+      "punkte": 4,
+      "erklaerung": "Transferfrage (eigene Ergänzung).",
+      "folie": "18–21",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f26",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Merkmale professionellen Handelns nennt das Seminar? (mehrere richtig)",
+      "optionen": [
+        "basiert auf wissenschaftlich fundiertem Wissen",
+        "ist Handeln unter Ungewissheit",
+        "setzt eine vertrauensvolle Beziehung bzw. ein Arbeitsbündnis voraus",
+        "ist angeboren und nicht erlernbar",
+        "geht mit einem universalistischen Anspruch einher"
+      ],
+      "richtig": [
+        "basiert auf wissenschaftlich fundiertem Wissen",
+        "ist Handeln unter Ungewissheit",
+        "setzt eine vertrauensvolle Beziehung bzw. ein Arbeitsbündnis voraus",
+        "geht mit einem universalistischen Anspruch einher"
+      ],
+      "erklaerung": "Professionelles Handeln „ist erlernbar“ (Idel et al., 2021) – die Option „angeboren“ ist also falsch.",
+      "folie": "22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f27",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was ist mit „Handeln unter Ungewissheit“ als Merkmal professionellen Handelns gemeint?",
+      "antwort": "Pädagogische Situationen sind nie ganz vorhersehbar; professionelles Handeln muss die Besonderheiten der jeweiligen Situation und Person berücksichtigen und reflektieren, statt nach festen Rezepten vorzugehen.",
+      "erklaerung": "Folie 22 (Helsper, 2021).",
+      "folie": "22",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f28",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Zeige an einem Beispiel aus dem Schulalltag, wie zwei Merkmale professionellen Handelns zusammenwirken.",
+      "musterloesung": "Beispiel: Eine Lehrkraft bemerkt, dass ein Schüler oft stört. Wissenschaftlich fundiertes Wissen (z. B. über Aufmerksamkeit und Klassenführung) hilft ihr, Ursachen zu prüfen statt vorschnell zu urteilen; über eine vertrauensvolle Beziehung (Arbeitsbündnis) erfährt sie im Gespräch den Grund und kann gemeinsam mit dem Schüler Lösungen entwickeln. Dabei handelt sie unter Ungewissheit, weil sie nicht weiß, welche Maßnahme wirkt, und reflektiert die Situation.",
+      "bewertungspunkte": [
+        "konkretes Schulbeispiel",
+        "zwei Merkmale korrekt benannt",
+        "Zusammenwirken erklärt"
+      ],
+      "punkte": 3,
+      "erklaerung": "Transferfrage (eigene Ergänzung).",
+      "folie": "22",
+      "pruefungsrelevant": false
+    }
+  ],
+  "pruefungshinweise": [
+    "Klausurrelevant sind prinzipiell alle im Seminar behandelten Inhalte (S01, Folie 14).",
+    "Die Inhaltsübersicht zu Beginn der Sitzung dient auch der Lernkontrolle (S01, Folie 11)."
+  ],
+  "offene_fragen": [
+    "Folien 5–7, 9 und 20 fehlen im Stud.IP-Foliensatz – bei Frau Haverland nachfragen, ob es dazu Inhalte gibt."
+  ]
+}

@@ -156,144 +156,18 @@
   ],
   "aufgaben": [
     {
-      "id": "a01",
-      "art": "Übungsaufgabe",
-      "text": "Grundlagenaufgabe 1: Beurteilen Sie die Qualität des folgenden Näherungswertes 5/6 ≈ 0,83, indem Sie den absoluten und relativen Fehler exakt berechnen. Nutzen Sie auch bei Zwischenschritten Brüche.",
-      "quelle": "Übungsblatt 3, Grundlagenaufgabe 1",
-      "loesung": "ε_A = 1/300; ε_R = 1/250 = 0,004 – gute Näherung (0,4 %).",
-      "loesungsweg": "ε_A = |83/100 − 5/6| = |249/300 − 250/300| = 1/300.\nε_R = (1/300) : (5/6) = (1/300) · (6/5) = 6/1500 = 1/250 = 0,004.",
-      "frist": "",
-      "im_kalender": false
-    },
-    {
-      "id": "a02",
-      "art": "Übungsaufgabe",
-      "text": "Grundlagenaufgabe 2a: Ermitteln Sie z₁ = ⌊a⌋, z₂ = ⌈a⌉ und z₃ = [a] also die gerundeten Werte zu a = 76,789 unter Rückbezug auf die entsprechende Definition. Machen Sie dabei, die in der Definition genannten Variablen deutlich.",
-      "quelle": "Übungsblatt 3, Grundlagenaufgabe 2a",
-      "loesung": "z₁ = 76, z₂ = 77, z₃ = 77",
-      "loesungsweg": "Def. 2.2: a₀ = 76, a₁ = 7, a₂ = 8, a₃ = 9.\nz₁ = ⌊a⌋ = a₀ = 76.\nz₂ = ⌈a⌉ = a₀ + 1 = 77.\nz₃ = [a] = a₀ + 1 = 77, da a₁ = 7 ≥ 5.",
-      "frist": "",
-      "im_kalender": false
-    },
-    {
-      "id": "a03",
-      "art": "Übungsaufgabe",
-      "text": "Grundlagenaufgabe 2b: Ermitteln Sie die gerundeten Werte unter Rückbezug auf die entsprechende Definition. Machen Sie dabei, die in der Definition genannten Variablen deutlich. Berechnen Sie auch die absoluten Fehler bezogen auf die ungerundeten Werte. z₁ = 638,8937644476 und b₁ = [z₁]₄; z₂ = 638,8937644476 und b₂ = [z₂]₇",
-      "quelle": "Übungsblatt 3, Grundlagenaufgabe 2b",
-      "loesung": "b₁ = 638,8938 (ε_A = 0,0000355524); b₂ = 638,8937644 (ε_A = 0,0000000476)",
-      "loesungsweg": "Def. 2.3: b · 10ᵏ = [a · 10ᵏ].\nb₁: z₁ · 10⁴ = 6388937,644476 → a₀ = 6388937, a₁ = 6 ≥ 5 → [ ] = 6388938 → b₁ = 638,8938. ε_A = |638,8938 − 638,8937644476| = 0,0000355524 (≤ 0,5 · 10⁻⁴ ✓).\nb₂: z₂ · 10⁷ = 6388937644,476 → a₀ = 6388937644, a₁ = 4 < 5 → [ ] = 6388937644 → b₂ = 638,8937644. ε_A = 0,0000000476 (≤ 0,5 · 10⁻⁷ ✓).",
-      "frist": "",
-      "im_kalender": false
-    },
-    {
-      "id": "a04",
-      "art": "Übungsaufgabe",
-      "text": "Grundlagenaufgabe 2c: Wie lautet der für z₁ abgerundete Wert an der vierten Nachkommastelle? Also: b₃ = ⌊z₁⌋₄?",
-      "quelle": "Übungsblatt 3, Grundlagenaufgabe 2c",
-      "loesung": "b₃ = 638,8937 (ε_A = 0,0000644476)",
-      "loesungsweg": "Analog zu Def. 2.3 (Annahme, siehe offene Frage): z₁ · 10⁴ = 6388937,644476 → abgerundet 6388937 → b₃ = 638,8937. ε_A = 0,0000644476 < 10⁻⁴.",
-      "frist": "",
-      "im_kalender": false
-    },
-    {
-      "id": "a05",
-      "art": "Übungsaufgabe",
-      "text": "Grundlagenaufgabe 3a: Ordnen Sie die Zahlen 1,35 · 10³; 0,78 · 10¹²; 3,75 · 10⁵; 9,222 · 10⁴; 1,01 · 2¹ den folgenden Fließkommazahlmengen zu! ℱ₁₀(2, 5); ℱ₂(12, 100); ℱ₁₀(4, 4); ℱ₁₀(12, 308)",
-      "quelle": "Übungsblatt 3, Grundlagenaufgabe 3a",
-      "loesung": "1,35 · 10³ ∈ ℱ₁₀(4, 4), ℱ₁₀(12, 308) · 9,222 · 10⁴ ∈ ℱ₁₀(12, 308) · 0,78 · 10¹² (normiert 7,8 · 10¹¹) ∈ ℱ₁₀(12, 308) · 3,75 · 10⁵ ∈ ℱ₁₀(12, 308) · 1,01 · 2¹ ∈ ℱ₂(12, 100) · ℱ₁₀(2, 5): keine.",
-      "loesungsweg": "Bedingungen: Basis g, 1 ≤ m < g, höchstens l Mantissenstellen, |e| < u.\n1,35 · 10³: 3 Stellen, e = 3 → ℱ₁₀(4, 4) (3 < 4) und ℱ₁₀(12, 308); nicht ℱ₁₀(2, 5) (3 Stellen).\n9,222 · 10⁴: 4 Stellen, e = 4 → nicht ℱ₁₀(4, 4) (4 < 4 falsch), nur ℱ₁₀(12, 308).\n0,78 · 10¹²: Mantisse < 1, so keine gültige Fließkommazahl; normiert 7,8 · 10¹¹ → e = 11 → nur ℱ₁₀(12, 308).\n3,75 · 10⁵: 3 Stellen, e = 5 → nicht ℱ₁₀(2, 5), nicht ℱ₁₀(4, 4) → ℱ₁₀(12, 308).\n1,01 · 2¹: Basis 2 → ℱ₂(12, 100) (3 Stellen, 1 < 100).\n(Offene Frage: Ist 1,01 als Dualzahl gemeint – Wert 2,5 – oder dezimal – Wert 2,02? Nach dem Wert läge 2,5 = 2,5 · 10⁰ auch in ℱ₁₀(2, 5).)",
-      "frist": "",
-      "im_kalender": false
-    },
-    {
-      "id": "a06",
-      "art": "Übungsaufgabe",
-      "text": "Grundlagenaufgabe 3b: Geben Sie die Zahl a = 638,8937644476 als Fließkommazahl aus ℱ₁₀(2, 2), ℱ₁₀(2, 5), ℱ₁₀(10, 100), ℱ₁₀(12, 100) an. Runden (kaufmännisch) Sie die Zahl wenn nötig auf die entsprechende Stelle.",
-      "quelle": "Übungsblatt 3, Grundlagenaufgabe 3b",
-      "loesung": "ℱ₁₀(2, 2): nicht darstellbar · ℱ₁₀(2, 5): 6,4 · 10² · ℱ₁₀(10, 100): 6,388937644 · 10² · ℱ₁₀(12, 100): 6,38893764448 · 10²",
-      "loesungsweg": "Normieren: a = 6,388937644476 · 10², e = 2.\nℱ₁₀(2, 2): |e| < 2 nötig, aber e = 2 → nicht darstellbar (größte Zahl 9,9 · 10¹ = 99).\nℱ₁₀(2, 5): 2 Stellen: 6,3│8 → 3. Stelle 8 ≥ 5 → 6,4 · 10².\nℱ₁₀(10, 100): 10 Stellen: 6,388937644│476 → 11. Stelle 4 < 5 → 6,388937644 · 10².\nℱ₁₀(12, 100): 12 Stellen: 6,38893764447│6 → 13. Stelle 6 ≥ 5 → 6,38893764448 · 10².",
-      "frist": "",
-      "im_kalender": false
-    },
-    {
-      "id": "a07",
-      "art": "Übungsaufgabe",
-      "text": "Grundlagenaufgabe 4: Bei Bedarf: Vorstellung und Besprechung einzelner Übungsaufgaben von Übungsblatt 2. Sonst: Ausgewählte Übungsaufgaben bearbeiten.",
-      "quelle": "Übungsblatt 3, Grundlagenaufgabe 4",
-      "loesung": "Keine eigene Rechenaufgabe – Lösungen zu Blatt 2 siehe Sitzung mab004.2_2026-10-20.",
-      "loesungsweg": "Organisatorisch.",
-      "frist": "",
-      "im_kalender": false
-    },
-    {
-      "id": "a08",
-      "art": "Übungsaufgabe",
-      "text": "Übungsaufgabe 1: Selbst wenn alle notwendigen mathematischen Regeln im Taschenrechner implementiert sind, können eigentlich wertgleiche Terme unterschiedliche Ergebnisse liefern. Die üblichen Rechengesetze (Kommutativ-, Assoziativ- und Distributivgesetz) gelten nur noch eingeschränkt. 1. a) (11,7 + 1,84) + 2,43 b) 11,7 + (1,84 + 2,43) 2. a) 8,71² − 0,220² b) (8,71 + 0,220) · (8,71 − 0,220). Welche Ergebnisse erwarten Sie? Begründen Sie. Berechnen Sie alle Terme (ohne Taschenrechner). Runden Sie kaufmännisch jedes Zwischenergebnis auf eine Nachkommastelle. Ermitteln Sie auch den jeweils exakten Wert ohne Rundung und berechnen Sie die absoluten Fehler zu den zuvor gerundeten Ergebnissen. Welche Terme liefern ein genaueres Ergebnis? Was bedeutet das, übertragen auf den Taschenrechner (ohne CAS)?",
-      "quelle": "Übungsblatt 3, Übungsaufgabe 1",
-      "loesung": "1a) 15,9 · 1b) 16,0 · exakt 15,97 → ε_A 0,07 bzw. 0,03 (1b genauer). 2a) 75,9 · 2b) 75,7 · exakt 75,8157 → ε_A 0,0843 bzw. 0,1157 (2a genauer).",
-      "loesungsweg": "Erwartung: mathematisch gleich (1: Assoziativgesetz; 2: 3. binomische Formel a² − b² = (a + b)(a − b)) – mit Rundung der Zwischenergebnisse aber evtl. verschieden.\n1a) 11,7 + 1,84 = 13,54 → 13,5; 13,5 + 2,43 = 15,93 → 15,9.\n1b) 1,84 + 2,43 = 4,27 → 4,3; 11,7 + 4,3 = 16,0.\nExakt 15,97: ε_A(1a) = 0,07, ε_A(1b) = 0,03.\n2a) 8,71² = 75,8641 → 75,9; 0,220² = 0,0484 → 0,0; 75,9 − 0,0 = 75,9.\n2b) 8,93 → 8,9; 8,49 → 8,5; 8,9 · 8,5 = 75,65 → 75,7.\nExakt 75,8641 − 0,0484 = 75,8157: ε_A(2a) = 0,0843, ε_A(2b) = 0,1157.\nTaschenrechner: Er rechnet mit Fließkommazahlen und rundet nach jedem Schritt auf seine Stellenzahl. Wertgleiche Terme können daher verschiedene Ergebnisse liefern; die Rechengesetze gelten nur eingeschränkt, die Reihenfolge der Rechenschritte beeinflusst die Genauigkeit.",
-      "frist": "",
-      "im_kalender": false
-    },
-    {
-      "id": "a09",
-      "art": "Übungsaufgabe",
-      "text": "Übungsaufgabe 2: Geben Sie an welche Rechenregeln und/oder mathematischen Kenntnisse bei der Berechnung der folgenden Terme hilfreich sind und warum diese auch ohne Taschenrechnereinsatz schnell lösbar sind. Lediglich für einen Term ist zur Berechnung der Einsatz eines Taschenrechners von Vorteil. a) 25 · 36 b) 768 · 12 · (15 − 3 · 5) c) 345 + 78 + 55 d) 105 · 27 · 1/35 e) 3 · 89 + 89 · 7 f) 27 + 78 + 657 + 888",
-      "quelle": "Übungsblatt 3, Übungsaufgabe 2",
-      "loesung": "a) 900 · b) 0 · c) 478 · d) 81 · e) 890 · f) 1650 (Taschenrechner sinnvoll)",
-      "loesungsweg": "a) Zerlegen + Assoziativgesetz: 25 · (4 · 9) = (25 · 4) · 9 = 100 · 9 = 900.\nb) Punkt vor Strich: 15 − 3 · 5 = 15 − 15 = 0; Produkt mit 0 ist 0.\nc) Kommutativ- und Assoziativgesetz: (345 + 55) + 78 = 400 + 78 = 478.\nd) Kommutativgesetz und Kürzen: (105 · 1/35) · 27 = 3 · 27 = 81.\ne) Kommutativ- und Distributivgesetz: 89 · 3 + 89 · 7 = 89 · (3 + 7) = 890.\nf) Keine nutzbare Struktur: 27 + 78 = 105; 105 + 657 = 762; 762 + 888 = 1650 – hier lohnt der Taschenrechner.",
-      "frist": "",
-      "im_kalender": false
-    },
-    {
-      "id": "a10",
-      "art": "Übungsaufgabe",
-      "text": "Übungsaufgabe 3: Stellen Sie sich vor, Sie möchten Ihren Schüler*innen durch einen Wettbewerb verdeutlichen, wann der Einsatz eines Taschenrechners sinnvoll ist und wann man darauf verzichten kann. Dazu veranstalten Sie einen Wettbewerb mit zwei Schüler*innen-Gruppen. Gruppe 1 darf einen Taschenrechner oder eine Rechner-App benutzen und Gruppe 2 soll im Kopf rechnen. Wer zuerst die korrekte Lösung sagt, bekommt einen Punkt. Überlegen Sie sich zu jedem der folgenden Rechenregeln (Kenntnisse) je einen Term, bei dem die Anwendung der Regel einen Vorteil bringt. Geben Sie die Lösungen zu Ihren Termen an und kennzeichnen Sie an welcher Stelle die Regel Anwendung findet. Rechenregeln (Kenntnisse): Assoziativgesetz; Distributivgesetz; Kommutativgesetz und Distributivgesetz; Kenntnisse über die Eigenschaften neutraler Elemente; Kenntnisse über die Eigenschaften inverser Elemente.",
-      "quelle": "Übungsblatt 3, Übungsaufgabe 3",
-      "loesung": "Beispiele: 37 · 25 · 4 = 3700 · 98 · 15 = 1470 · 47 · 13 + 13 · 53 = 1300 · 9876 · (5 − 4) + (283 − 283) = 9876 · 593 + 248 − 593 = 248 bzw. 8765 · 12 · 1/8765 = 12",
-      "loesungsweg": "Assoziativgesetz: 37 · 25 · 4 = 37 · (25 · 4) = 37 · 100 = 3700 (Klammer um 25 · 4).\nDistributivgesetz: 98 · 15 = (100 − 2) · 15 = 100 · 15 − 2 · 15 = 1500 − 30 = 1470.\nKommutativ- und Distributivgesetz: 47 · 13 + 13 · 53 = 13 · 47 + 13 · 53 (Kommutativgesetz) = 13 · (47 + 53) (Distributivgesetz) = 13 · 100 = 1300.\nNeutrale Elemente: 9876 · (5 − 4) + (283 − 283) = 9876 · 1 + 0 = 9876 (1 neutral für ·, 0 neutral für +).\nInverse Elemente: 593 + 248 − 593 = 248 + (593 + (−593)) = 248 + 0 = 248 (additiv invers); 8765 · 12 · 1/8765 = 12 · (8765 · 1/8765) = 12 · 1 = 12 (multiplikativ invers).\nDie Begriffe sind Ergänzungen (nicht aus dem Material).",
-      "frist": "",
-      "im_kalender": false
-    },
-    {
-      "id": "a11",
-      "art": "Übungsaufgabe",
-      "text": "Übungsaufgabe 4: Berechnen Sie b = 1 222 344 432 · 10 110 101 mit einem einfachen Taschenrechner (ohne CAS, nicht grafikfähig) mit max. 15 Stellen Anzeige oder mit Excel. Begründen Sie, warum der angezeigte Wert nicht korrekt sein kann. Berechnen Sie anschließend den tatsächlichen Wert a = 1 222 344 432 · 10 110 101 handschriftlich. Ermitteln Sie den absoluten Fehler ε_A(b; a) und den relativen Fehler ε_R(b; a). Kommentieren und bewerten Sie Ihre Ergebnisse.",
-      "quelle": "Übungsblatt 3, Übungsaufgabe 4",
-      "loesung": "b = 1,23580256643076 · 10¹⁶ = 12 358 025 664 307 600; a = 12 358 025 664 307 632; ε_A = 32; ε_R ≈ 2,59 · 10⁻¹⁵",
-      "loesungsweg": "Anzeige mit 15 Stellen: 1,23580256643076 · 10¹⁶.\nNicht korrekt: Endziffern 2 · 1 → das Produkt muss auf 2 enden; außerdem hat das Produkt 17 Stellen, angezeigt werden nur 15.\nHandschriftlich (schriftliche Multiplikation mit 10 110 101 = 10 000 000 + 100 000 + 10 000 + 100 + 1): 12 223 444 320 000 000 + 122 234 443 200 000 + 12 223 444 320 000 + 122 234 443 200 + 1 222 344 432 = 12 358 025 664 307 632.\nε_A(b; a) = |12 358 025 664 307 600 − 12 358 025 664 307 632| = 32.\nε_R(b; a) = 32 / 12 358 025 664 307 632 ≈ 2,59 · 10⁻¹⁵.\nBewertung: Der absolute Fehler wirkt groß, der relative ist winzig – für die meisten Zwecke eine sehr gute Näherung, aber nicht exakt. Wo alle Stellen zählen, darf man sich nicht auf den Rechner verlassen.",
-      "frist": "",
-      "im_kalender": false
-    },
-    {
-      "id": "a12",
-      "art": "Übungsaufgabe",
-      "text": "Übungsaufgabe 5: Beurteilen Sie die Qualität der folgenden Näherungswerte, indem Sie die absoluten und relativen Fehler exakt berechnen. Nutzen Sie auch bei Zwischenschritten Brüche. Erläutern Sie kurz in eigenen Worten, warum auch in den Zwischenschritten Brüche genutzt werden sollen. 4/9 ≈ 0,44; 1/13 ≈ 0,077",
-      "quelle": "Übungsblatt 3, Übungsaufgabe 5",
-      "loesung": "4/9 ≈ 0,44: ε_A = 1/225, ε_R = 1/100 · 1/13 ≈ 0,077: ε_A = 1/13000, ε_R = 1/1000 (zehnmal genauer)",
-      "loesungsweg": "4/9: ε_A = |44/100 − 4/9| = |396/900 − 400/900| = 4/900 = 1/225; ε_R = (1/225) : (4/9) = 9/900 = 1/100 = 0,01.\n1/13: ε_A = |77/1000 − 1/13| = |1001/13000 − 1000/13000| = 1/13000; ε_R = (1/13000) : (1/13) = 13/13000 = 1/1000 = 0,001.\nWarum Brüche: 4/9 = 0,444… und 1/13 = 0,076923… sind periodisch. Als Dezimalzahl müsste man schon in den Zwischenschritten runden – dann wäre der berechnete Fehler selbst fehlerhaft. Mit Brüchen bleibt jeder Schritt exakt.",
-      "frist": "",
-      "im_kalender": false
-    },
-    {
-      "id": "a13",
-      "art": "Übungsaufgabe",
-      "text": "Übungsaufgabe 6: Ermitteln Sie die gerundeten Werte unter Rückbezug auf die entsprechende Definition. Berechnen Sie die absoluten Fehler bezogen auf die ungerundeten Werte. z₁ = 1,664836473 und b₁ = [z₁]₂; z₂ = 638,8937644436 und b₂ = ⌈z₂⌉₈",
-      "quelle": "Übungsblatt 3, Übungsaufgabe 6",
-      "loesung": "b₁ = 1,66 (ε_A = 0,004836473); b₂ = 638,89376445 (ε_A = 0,0000000064)",
-      "loesungsweg": "b₁ (Def. 2.3): z₁ · 10² = 166,4836473 → a₀ = 166, a₁ = 4 < 5 → [ ] = 166 → b₁ = 1,66. ε_A = |1,66 − 1,664836473| = 0,004836473 ≤ 0,5 · 10⁻² ✓.\nb₂ (analog mit Aufrunden, Annahme): z₂ · 10⁸ = 63889376444,36 → aufgerundet 63889376445 → b₂ = 638,89376445. ε_A = 638,89376445 − 638,8937644436 = 0,0000000064 = 6,4 · 10⁻⁹ < 10⁻⁸ ✓.",
-      "frist": "",
-      "im_kalender": false
-    },
-    {
-      "id": "a14",
-      "art": "Übungsaufgabe",
-      "text": "Übungsaufgabe 7: a) Beweisen Sie den Satz 2.1 aus der Vorlesung für den Fall des Abrundens! b) Beweisen Sie den Satz 2.1 aus der Vorlesung für den Fall des Kaufmännischen Rundens!",
-      "quelle": "Übungsblatt 3, Übungsaufgabe 7",
-      "loesung": "a) ε_A = v < 1 · b) Fallunterscheidung: ε_A = v < 0,5 bzw. ε_A = 1 − v ≤ 0,5",
-      "loesungsweg": "a) Sei a eine positive reelle Zahl mit Ganzzahlanteil a₀. Dann gibt es v ∈ [0, 1) mit a = a₀ + v. Sei b = ⌊a⌋ = a₀ (Def. 2.2). Dann gilt ε_A(b; a) = |b − a| = |a₀ − (a₀ + v)| = |−v| = v < 1. Damit ist der absolute Fehler beim Abrunden kleiner oder gleich 1. ∎\nb) Sei a = a₀ + v mit v = 0,a₁a₂a₃… ∈ [0, 1).\nFall 1: a₁ < 5. Dann ist v < 0,5 und b = [a] = a₀ → ε_A = |a₀ − (a₀ + v)| = v < 0,5.\nFall 2: a₁ ≥ 5. Dann ist v ≥ 0,5 und b = [a] = a₀ + 1 → ε_A = |a₀ + 1 − (a₀ + v)| = 1 − v ≤ 0,5.\nIn beiden Fällen gilt ε_A([a]; a) ≤ ½. ∎",
-      "frist": "",
-      "im_kalender": false
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Übungsblatt 3 (14 Aufgaben)",
+      "text": "Übungsblatt 3 bis zum Seminar am 27.10. bearbeiten (Aufgabenstellung: Blatt_3.pdf in Stud.IP bzw. im Modulordner).",
+      "quelle": "Übungsblatt 3",
+      "loesung": "**Grundlagenaufgabe 1**\nGrundlagenaufgabe 1: Beurteilen Sie die Qualität des folgenden Näherungswertes 5/6 ≈ 0,83, indem Sie den absoluten und relativen Fehler exakt berechnen. Nutzen Sie auch bei Zwischenschritten Brüche.\n**Lösung:** ε_A = 1/300; ε_R = 1/250 = 0,004 – gute Näherung (0,4 %).\n**Lösungsweg:** ε_A = |83/100 − 5/6| = |249/300 − 250/300| = 1/300.\nε_R = (1/300) : (5/6) = (1/300) · (6/5) = 6/1500 = 1/250 = 0,004.\n\n**Grundlagenaufgabe 2a**\nGrundlagenaufgabe 2a: Ermitteln Sie z₁ = ⌊a⌋, z₂ = ⌈a⌉ und z₃ = [a] also die gerundeten Werte zu a = 76,789 unter Rückbezug auf die entsprechende Definition. Machen Sie dabei, die in der Definition genannten Variablen deutlich.\n**Lösung:** z₁ = 76, z₂ = 77, z₃ = 77\n**Lösungsweg:** Def. 2.2: a₀ = 76, a₁ = 7, a₂ = 8, a₃ = 9.\nz₁ = ⌊a⌋ = a₀ = 76.\nz₂ = ⌈a⌉ = a₀ + 1 = 77.\nz₃ = [a] = a₀ + 1 = 77, da a₁ = 7 ≥ 5.\n\n**Grundlagenaufgabe 2b**\nGrundlagenaufgabe 2b: Ermitteln Sie die gerundeten Werte unter Rückbezug auf die entsprechende Definition. Machen Sie dabei, die in der Definition genannten Variablen deutlich. Berechnen Sie auch die absoluten Fehler bezogen auf die ungerundeten Werte. z₁ = 638,8937644476 und b₁ = [z₁]₄; z₂ = 638,8937644476 und b₂ = [z₂]₇\n**Lösung:** b₁ = 638,8938 (ε_A = 0,0000355524); b₂ = 638,8937644 (ε_A = 0,0000000476)\n**Lösungsweg:** Def. 2.3: b · 10ᵏ = [a · 10ᵏ].\nb₁: z₁ · 10⁴ = 6388937,644476 → a₀ = 6388937, a₁ = 6 ≥ 5 → [ ] = 6388938 → b₁ = 638,8938. ε_A = |638,8938 − 638,8937644476| = 0,0000355524 (≤ 0,5 · 10⁻⁴ ✓).\nb₂: z₂ · 10⁷ = 6388937644,476 → a₀ = 6388937644, a₁ = 4 < 5 → [ ] = 6388937644 → b₂ = 638,8937644. ε_A = 0,0000000476 (≤ 0,5 · 10⁻⁷ ✓).\n\n**Grundlagenaufgabe 2c**\nGrundlagenaufgabe 2c: Wie lautet der für z₁ abgerundete Wert an der vierten Nachkommastelle? Also: b₃ = ⌊z₁⌋₄?\n**Lösung:** b₃ = 638,8937 (ε_A = 0,0000644476)\n**Lösungsweg:** Analog zu Def. 2.3 (Annahme, siehe offene Frage): z₁ · 10⁴ = 6388937,644476 → abgerundet 6388937 → b₃ = 638,8937. ε_A = 0,0000644476 < 10⁻⁴.\n\n**Grundlagenaufgabe 3a**\nGrundlagenaufgabe 3a: Ordnen Sie die Zahlen 1,35 · 10³; 0,78 · 10¹²; 3,75 · 10⁵; 9,222 · 10⁴; 1,01 · 2¹ den folgenden Fließkommazahlmengen zu! ℱ₁₀(2, 5); ℱ₂(12, 100); ℱ₁₀(4, 4); ℱ₁₀(12, 308)\n**Lösung:** 1,35 · 10³ ∈ ℱ₁₀(4, 4), ℱ₁₀(12, 308) · 9,222 · 10⁴ ∈ ℱ₁₀(12, 308) · 0,78 · 10¹² (normiert 7,8 · 10¹¹) ∈ ℱ₁₀(12, 308) · 3,75 · 10⁵ ∈ ℱ₁₀(12, 308) · 1,01 · 2¹ ∈ ℱ₂(12, 100) · ℱ₁₀(2, 5): keine.\n**Lösungsweg:** Bedingungen: Basis g, 1 ≤ m < g, höchstens l Mantissenstellen, |e| < u.\n1,35 · 10³: 3 Stellen, e = 3 → ℱ₁₀(4, 4) (3 < 4) und ℱ₁₀(12, 308); nicht ℱ₁₀(2, 5) (3 Stellen).\n9,222 · 10⁴: 4 Stellen, e = 4 → nicht ℱ₁₀(4, 4) (4 < 4 falsch), nur ℱ₁₀(12, 308).\n0,78 · 10¹²: Mantisse < 1, so keine gültige Fließkommazahl; normiert 7,8 · 10¹¹ → e = 11 → nur ℱ₁₀(12, 308).\n3,75 · 10⁵: 3 Stellen, e = 5 → nicht ℱ₁₀(2, 5), nicht ℱ₁₀(4, 4) → ℱ₁₀(12, 308).\n1,01 · 2¹: Basis 2 → ℱ₂(12, 100) (3 Stellen, 1 < 100).\n(Offene Frage: Ist 1,01 als Dualzahl gemeint – Wert 2,5 – oder dezimal – Wert 2,02? Nach dem Wert läge 2,5 = 2,5 · 10⁰ auch in ℱ₁₀(2, 5).)\n\n**Grundlagenaufgabe 3b**\nGrundlagenaufgabe 3b: Geben Sie die Zahl a = 638,8937644476 als Fließkommazahl aus ℱ₁₀(2, 2), ℱ₁₀(2, 5), ℱ₁₀(10, 100), ℱ₁₀(12, 100) an. Runden (kaufmännisch) Sie die Zahl wenn nötig auf die entsprechende Stelle.\n**Lösung:** ℱ₁₀(2, 2): nicht darstellbar · ℱ₁₀(2, 5): 6,4 · 10² · ℱ₁₀(10, 100): 6,388937644 · 10² · ℱ₁₀(12, 100): 6,38893764448 · 10²\n**Lösungsweg:** Normieren: a = 6,388937644476 · 10², e = 2.\nℱ₁₀(2, 2): |e| < 2 nötig, aber e = 2 → nicht darstellbar (größte Zahl 9,9 · 10¹ = 99).\nℱ₁₀(2, 5): 2 Stellen: 6,3│8 → 3. Stelle 8 ≥ 5 → 6,4 · 10².\nℱ₁₀(10, 100): 10 Stellen: 6,388937644│476 → 11. Stelle 4 < 5 → 6,388937644 · 10².\nℱ₁₀(12, 100): 12 Stellen: 6,38893764447│6 → 13. Stelle 6 ≥ 5 → 6,38893764448 · 10².\n\n**Grundlagenaufgabe 4**\nGrundlagenaufgabe 4: Bei Bedarf: Vorstellung und Besprechung einzelner Übungsaufgaben von Übungsblatt 2. Sonst: Ausgewählte Übungsaufgaben bearbeiten.\n**Lösung:** Keine eigene Rechenaufgabe – Lösungen zu Blatt 2 siehe Sitzung mab004.2_2026-10-20.\n**Lösungsweg:** Organisatorisch.\n\n**Übungsaufgabe 1**\nÜbungsaufgabe 1: Selbst wenn alle notwendigen mathematischen Regeln im Taschenrechner implementiert sind, können eigentlich wertgleiche Terme unterschiedliche Ergebnisse liefern. Die üblichen Rechengesetze (Kommutativ-, Assoziativ- und Distributivgesetz) gelten nur noch eingeschränkt. 1. a) (11,7 + 1,84) + 2,43 b) 11,7 + (1,84 + 2,43) 2. a) 8,71² − 0,220² b) (8,71 + 0,220) · (8,71 − 0,220). Welche Ergebnisse erwarten Sie? Begründen Sie. Berechnen Sie alle Terme (ohne Taschenrechner). Runden Sie kaufmännisch jedes Zwischenergebnis auf eine Nachkommastelle. Ermitteln Sie auch den jeweils exakten Wert ohne Rundung und berechnen Sie die absoluten Fehler zu den zuvor gerundeten Ergebnissen. Welche Terme liefern ein genaueres Ergebnis? Was bedeutet das, übertragen auf den Taschenrechner (ohne CAS)?\n**Lösung:** 1a) 15,9 · 1b) 16,0 · exakt 15,97 → ε_A 0,07 bzw. 0,03 (1b genauer). 2a) 75,9 · 2b) 75,7 · exakt 75,8157 → ε_A 0,0843 bzw. 0,1157 (2a genauer).\n**Lösungsweg:** Erwartung: mathematisch gleich (1: Assoziativgesetz; 2: 3. binomische Formel a² − b² = (a + b)(a − b)) – mit Rundung der Zwischenergebnisse aber evtl. verschieden.\n1a) 11,7 + 1,84 = 13,54 → 13,5; 13,5 + 2,43 = 15,93 → 15,9.\n1b) 1,84 + 2,43 = 4,27 → 4,3; 11,7 + 4,3 = 16,0.\nExakt 15,97: ε_A(1a) = 0,07, ε_A(1b) = 0,03.\n2a) 8,71² = 75,8641 → 75,9; 0,220² = 0,0484 → 0,0; 75,9 − 0,0 = 75,9.\n2b) 8,93 → 8,9; 8,49 → 8,5; 8,9 · 8,5 = 75,65 → 75,7.\nExakt 75,8641 − 0,0484 = 75,8157: ε_A(2a) = 0,0843, ε_A(2b) = 0,1157.\nTaschenrechner: Er rechnet mit Fließkommazahlen und rundet nach jedem Schritt auf seine Stellenzahl. Wertgleiche Terme können daher verschiedene Ergebnisse liefern; die Rechengesetze gelten nur eingeschränkt, die Reihenfolge der Rechenschritte beeinflusst die Genauigkeit.\n\n**Übungsaufgabe 2**\nÜbungsaufgabe 2: Geben Sie an welche Rechenregeln und/oder mathematischen Kenntnisse bei der Berechnung der folgenden Terme hilfreich sind und warum diese auch ohne Taschenrechnereinsatz schnell lösbar sind. Lediglich für einen Term ist zur Berechnung der Einsatz eines Taschenrechners von Vorteil. a) 25 · 36 b) 768 · 12 · (15 − 3 · 5) c) 345 + 78 + 55 d) 105 · 27 · 1/35 e) 3 · 89 + 89 · 7 f) 27 + 78 + 657 + 888\n**Lösung:** a) 900 · b) 0 · c) 478 · d) 81 · e) 890 · f) 1650 (Taschenrechner sinnvoll)\n**Lösungsweg:** a) Zerlegen + Assoziativgesetz: 25 · (4 · 9) = (25 · 4) · 9 = 100 · 9 = 900.\nb) Punkt vor Strich: 15 − 3 · 5 = 15 − 15 = 0; Produkt mit 0 ist 0.\nc) Kommutativ- und Assoziativgesetz: (345 + 55) + 78 = 400 + 78 = 478.\nd) Kommutativgesetz und Kürzen: (105 · 1/35) · 27 = 3 · 27 = 81.\ne) Kommutativ- und Distributivgesetz: 89 · 3 + 89 · 7 = 89 · (3 + 7) = 890.\nf) Keine nutzbare Struktur: 27 + 78 = 105; 105 + 657 = 762; 762 + 888 = 1650 – hier lohnt der Taschenrechner.\n\n**Übungsaufgabe 3**\nÜbungsaufgabe 3: Stellen Sie sich vor, Sie möchten Ihren Schüler*innen durch einen Wettbewerb verdeutlichen, wann der Einsatz eines Taschenrechners sinnvoll ist und wann man darauf verzichten kann. Dazu veranstalten Sie einen Wettbewerb mit zwei Schüler*innen-Gruppen. Gruppe 1 darf einen Taschenrechner oder eine Rechner-App benutzen und Gruppe 2 soll im Kopf rechnen. Wer zuerst die korrekte Lösung sagt, bekommt einen Punkt. Überlegen Sie sich zu jedem der folgenden Rechenregeln (Kenntnisse) je einen Term, bei dem die Anwendung der Regel einen Vorteil bringt. Geben Sie die Lösungen zu Ihren Termen an und kennzeichnen Sie an welcher Stelle die Regel Anwendung findet. Rechenregeln (Kenntnisse): Assoziativgesetz; Distributivgesetz; Kommutativgesetz und Distributivgesetz; Kenntnisse über die Eigenschaften neutraler Elemente; Kenntnisse über die Eigenschaften inverser Elemente.\n**Lösung:** Beispiele: 37 · 25 · 4 = 3700 · 98 · 15 = 1470 · 47 · 13 + 13 · 53 = 1300 · 9876 · (5 − 4) + (283 − 283) = 9876 · 593 + 248 − 593 = 248 bzw. 8765 · 12 · 1/8765 = 12\n**Lösungsweg:** Assoziativgesetz: 37 · 25 · 4 = 37 · (25 · 4) = 37 · 100 = 3700 (Klammer um 25 · 4).\nDistributivgesetz: 98 · 15 = (100 − 2) · 15 = 100 · 15 − 2 · 15 = 1500 − 30 = 1470.\nKommutativ- und Distributivgesetz: 47 · 13 + 13 · 53 = 13 · 47 + 13 · 53 (Kommutativgesetz) = 13 · (47 + 53) (Distributivgesetz) = 13 · 100 = 1300.\nNeutrale Elemente: 9876 · (5 − 4) + (283 − 283) = 9876 · 1 + 0 = 9876 (1 neutral für ·, 0 neutral für +).\nInverse Elemente: 593 + 248 − 593 = 248 + (593 + (−593)) = 248 + 0 = 248 (additiv invers); 8765 · 12 · 1/8765 = 12 · (8765 · 1/8765) = 12 · 1 = 12 (multiplikativ invers).\nDie Begriffe sind Ergänzungen (nicht aus dem Material).\n\n**Übungsaufgabe 4**\nÜbungsaufgabe 4: Berechnen Sie b = 1 222 344 432 · 10 110 101 mit einem einfachen Taschenrechner (ohne CAS, nicht grafikfähig) mit max. 15 Stellen Anzeige oder mit Excel. Begründen Sie, warum der angezeigte Wert nicht korrekt sein kann. Berechnen Sie anschließend den tatsächlichen Wert a = 1 222 344 432 · 10 110 101 handschriftlich. Ermitteln Sie den absoluten Fehler ε_A(b; a) und den relativen Fehler ε_R(b; a). Kommentieren und bewerten Sie Ihre Ergebnisse.\n**Lösung:** b = 1,23580256643076 · 10¹⁶ = 12 358 025 664 307 600; a = 12 358 025 664 307 632; ε_A = 32; ε_R ≈ 2,59 · 10⁻¹⁵\n**Lösungsweg:** Anzeige mit 15 Stellen: 1,23580256643076 · 10¹⁶.\nNicht korrekt: Endziffern 2 · 1 → das Produkt muss auf 2 enden; außerdem hat das Produkt 17 Stellen, angezeigt werden nur 15.\nHandschriftlich (schriftliche Multiplikation mit 10 110 101 = 10 000 000 + 100 000 + 10 000 + 100 + 1): 12 223 444 320 000 000 + 122 234 443 200 000 + 12 223 444 320 000 + 122 234 443 200 + 1 222 344 432 = 12 358 025 664 307 632.\nε_A(b; a) = |12 358 025 664 307 600 − 12 358 025 664 307 632| = 32.\nε_R(b; a) = 32 / 12 358 025 664 307 632 ≈ 2,59 · 10⁻¹⁵.\nBewertung: Der absolute Fehler wirkt groß, der relative ist winzig – für die meisten Zwecke eine sehr gute Näherung, aber nicht exakt. Wo alle Stellen zählen, darf man sich nicht auf den Rechner verlassen.\n\n**Übungsaufgabe 5**\nÜbungsaufgabe 5: Beurteilen Sie die Qualität der folgenden Näherungswerte, indem Sie die absoluten und relativen Fehler exakt berechnen. Nutzen Sie auch bei Zwischenschritten Brüche. Erläutern Sie kurz in eigenen Worten, warum auch in den Zwischenschritten Brüche genutzt werden sollen. 4/9 ≈ 0,44; 1/13 ≈ 0,077\n**Lösung:** 4/9 ≈ 0,44: ε_A = 1/225, ε_R = 1/100 · 1/13 ≈ 0,077: ε_A = 1/13000, ε_R = 1/1000 (zehnmal genauer)\n**Lösungsweg:** 4/9: ε_A = |44/100 − 4/9| = |396/900 − 400/900| = 4/900 = 1/225; ε_R = (1/225) : (4/9) = 9/900 = 1/100 = 0,01.\n1/13: ε_A = |77/1000 − 1/13| = |1001/13000 − 1000/13000| = 1/13000; ε_R = (1/13000) : (1/13) = 13/13000 = 1/1000 = 0,001.\nWarum Brüche: 4/9 = 0,444… und 1/13 = 0,076923… sind periodisch. Als Dezimalzahl müsste man schon in den Zwischenschritten runden – dann wäre der berechnete Fehler selbst fehlerhaft. Mit Brüchen bleibt jeder Schritt exakt.\n\n**Übungsaufgabe 6**\nÜbungsaufgabe 6: Ermitteln Sie die gerundeten Werte unter Rückbezug auf die entsprechende Definition. Berechnen Sie die absoluten Fehler bezogen auf die ungerundeten Werte. z₁ = 1,664836473 und b₁ = [z₁]₂; z₂ = 638,8937644436 und b₂ = ⌈z₂⌉₈\n**Lösung:** b₁ = 1,66 (ε_A = 0,004836473); b₂ = 638,89376445 (ε_A = 0,0000000064)\n**Lösungsweg:** b₁ (Def. 2.3): z₁ · 10² = 166,4836473 → a₀ = 166, a₁ = 4 < 5 → [ ] = 166 → b₁ = 1,66. ε_A = |1,66 − 1,664836473| = 0,004836473 ≤ 0,5 · 10⁻² ✓.\nb₂ (analog mit Aufrunden, Annahme): z₂ · 10⁸ = 63889376444,36 → aufgerundet 63889376445 → b₂ = 638,89376445. ε_A = 638,89376445 − 638,8937644436 = 0,0000000064 = 6,4 · 10⁻⁹ < 10⁻⁸ ✓.\n\n**Übungsaufgabe 7**\nÜbungsaufgabe 7: a) Beweisen Sie den Satz 2.1 aus der Vorlesung für den Fall des Abrundens! b) Beweisen Sie den Satz 2.1 aus der Vorlesung für den Fall des Kaufmännischen Rundens!\n**Lösung:** a) ε_A = v < 1 · b) Fallunterscheidung: ε_A = v < 0,5 bzw. ε_A = 1 − v ≤ 0,5\n**Lösungsweg:** a) Sei a eine positive reelle Zahl mit Ganzzahlanteil a₀. Dann gibt es v ∈ [0, 1) mit a = a₀ + v. Sei b = ⌊a⌋ = a₀ (Def. 2.2). Dann gilt ε_A(b; a) = |b − a| = |a₀ − (a₀ + v)| = |−v| = v < 1. Damit ist der absolute Fehler beim Abrunden kleiner oder gleich 1. ∎\nb) Sei a = a₀ + v mit v = 0,a₁a₂a₃… ∈ [0, 1).\nFall 1: a₁ < 5. Dann ist v < 0,5 und b = [a] = a₀ → ε_A = |a₀ − (a₀ + v)| = v < 0,5.\nFall 2: a₁ ≥ 5. Dann ist v ≥ 0,5 und b = [a] = a₀ + 1 → ε_A = |a₀ + 1 − (a₀ + v)| = 1 − v ≤ 0,5.\nIn beiden Fällen gilt ε_A([a]; a) ≤ ½. ∎",
+      "loesungsweg": "Alle Aufgaben stehen oben mit Lösung und Lösungsweg – zusätzlich als PDF.",
+      "frist": "2026-10-26",
+      "im_kalender": true,
+      "fuer_sitzung": "mab004.2_2026-10-27",
+      "kalender_id": "c2ebcde4-9701-4a0f-8bfb-5dc9795d2769",
+      "pdf": "/dateien/mab004/S03_2026-10-27_Hausaufgabe_Uebungsblatt-3_Loesungen.pdf"
     }
   ],
   "fragen": [

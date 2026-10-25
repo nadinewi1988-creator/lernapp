@@ -1,0 +1,111 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pkb003",
+  "teilmodul": "pkb003.1",
+  "datum": "2026-11-03",
+  "sitzung_nr": 4,
+  "sitzung_id": "",
+  "thema": "Gesetzgebung und Ausschüsse im Bundestag",
+  "thema_in_app": "eingetragen",
+  "stand": "entwurf",
+  "art_inhalt": "Zusammenfassung der Seminarliteratur (Präsentation durch Mitstudierende)",
+  "quellen": [
+    {
+      "datei": "pkb003.1/S04_2026-11-03_Dhungel-Linhart_Ausschuesse.pdf",
+      "art": "Literatur: Dhungel/Linhart (2014), Zeitschrift für Parlamentsfragen 45 (4)",
+      "seiten": "743–762"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Was ist die Bedeutung von Ausschüssen und Ausschussvorsitzenden für die Gesetzgebung im Bundestag?",
+      "art": "vorgegeben",
+      "quelle": "Leitfrage Kursplan",
+      "fragen": [],
+      "erklaerung_abschnitt": "Antwort auf die Leitfrage"
+    }
+  ],
+  "kurzfassung": [
+    "Gesetzentwürfe werden im Bundestag hauptsächlich in den Fachausschüssen bearbeitet und dort oft geändert („Strucksches Gesetz“). Deshalb sind Ausschüsse für Verbände ein wichtiger Ansprechpartner (Platz 4 von 23 Adressaten).",
+    "Zugang erhalten Interessengruppen vor allem über öffentliche Anhörungen (§ 70 GO-BT). Ausgewertet wurden alle 2.190 Ausschusssitzungen des 17. Bundestages mit 3.684 Sachverständigen und 6.530 Stellungnahmen.",
+    "Sachverständige sind meist Verbände (37 %) oder Einzelsachverständige/Wissenschaft (36 %). Verbände werden aber öfter mehrfach gehört: Sie liefern fast die Hälfte aller Stellungnahmen.",
+    "Große Unterschiede zwischen Politikfeldern: Besonders stark eingebunden sind Verbände im Gesundheits- und im Finanzausschuss (Gesundheit: 81 % der Stellungnahmen von Verbänden).",
+    "Ergebnis: „gute Einbindung, kaum Dominanz“ – bei der Einbindung eher korporatistisch, aber fast nirgends dominieren ein oder zwei Verbände (eher pluralistisch). Ausschussvorsitzende behandelt der Text nicht."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Fragestellung",
+      "folien": "S. 743–744",
+      "text": "Die parlamentarische Bearbeitung von Gesetzentwürfen findet **hauptsächlich in den Fachausschüssen** statt, wo Entwürfe häufig verändert werden.\n\n*„Das „Strucksche Gesetz“, nach dem kein Entwurf den Bundestag so verlässt, wie er eingebracht wurde, macht Ausschüsse für Verbände besonders interessant als Orte der Interessenvermittlung.“*\n\n• Befragung von 602 Verbänden (Sebaldt): Ausschüsse erreichen im Schnitt **2,0** (Skala 1 = sehr wichtig bis 5) – **Platz 4 von 23** Adressaten.\n• Fragen: Welche und wie viele Gruppen kommen zu Wort? Pluralistisch oder neokorporatistisch? Unterschiede zwischen Politikfeldern?"
+    },
+    {
+      "titel": "Theorie: Pluralismus und Korporatismus",
+      "folien": "S. 744–747",
+      "text": "| | Pluralismus | Korporatismus |\n|---|---|---|\n| Interessengruppen | viele, konkurrierend, gleichberechtigt | wenige, hierarchisch, funktional getrennt |\n| Rolle des Staates | steht über den Interessen, vor allem Empfänger | bezieht einflussreiche Gruppen institutionell ein |\n| Gemeinwohl durch | Wettbewerb der Interessen | Aushandlung unter staatlicher Aufsicht |\n\n• International gilt Deutschland als eher korporatistisch (Siaroff: *„moderately-to-strongly corporatist“*); andere sehen Erosion. Die Vergleiche beziehen sich fast nur auf das Politikfeld **Arbeit**.\n• Nach Lowi gilt auch **„policy determines politics“** – Politikfelder dürften sich auch innerhalb eines Landes unterscheiden."
+    },
+    {
+      "titel": "Ausschüsse und Sachverständige",
+      "folien": "S. 747–751, Tab. 1",
+      "text": "• **Einschränkung:** nur ein Adressat (Bundestagsausschüsse), nur institutionalisierte Formen. Schüttemeyer vermutet, dass Anhörungen den Verbandseinfluss **mäßigen**.\n• Die **Lobbyliste** (seit 1973, 2.211 Einträge) ist freiwillig und sagt nichts darüber, wer tatsächlich gehört wird.\n• § 70 GO-BT: *„Zur Information über einen Gegenstand seiner Beratung kann ein Ausschuss öffentliche Anhörungen von Sachverständigen, Interessenvertretern und anderen Auskunftspersonen vornehmen.“*\n• Ausschüsse entsprechen häufig der Aufteilung der **Ministerien**, spiegeln das **Kräfteverhältnis der Fraktionen** und organisieren die Arbeitsteilung im Arbeitsparlament. Schwerpunkt *„in der Behandlung von Gesetzesvorlagen und deren Zubereitung für Aussprache und Beschluß im Plenum“* (Zeh); daneben Kontrolle der Ministerien.\n\nExperten kamen in rund jeder dritten Sitzung (35,6 %) zu Wort.\n\n| Ausschuss | Sachverständige | Stellungnahmen | pro Sitzung |\n|---|---|---|---|\n| Gesundheit | 524 | 1.274 | 10,71 |\n| Finanzen | 483 | 1.280 | 8,71 |\n| Auswärtiges | 28 | 36 | 0,40 |\n| Verteidigung | 31 | 42 | 0,27 |\n\nGründe: Innenpolitische Felder betreffen mehr Interessen; manche Felder brauchen mehr externe Expertise; einige Ausschüsse sind eher Kontrollausschüsse."
+    },
+    {
+      "titel": "Verbände als Sachverständige",
+      "folien": "S. 751–756, Tab. 2 und 3",
+      "text": "| Typ | Anteil Sachverständige | Anteil Stellungnahmen |\n|---|---|---|\n| Verbände | 36,9 % | **49,7 %** |\n| Einzelsachverständige | 36,1 % | 24,6 % |\n| Behörden u. Ä. | 12,9 % | 13,3 % |\n| Unternehmen / Institute / Stiftungen | 8,1 / 4,1 / 1,8 % | 6,4 / 4,2 / 1,9 % |\n\n• Einzelsachverständige sind eher **einmalige Gäste**, Verbände werden **häufig mehrfach** angehört.\n• Über die Hälfte der Stellungnahmen von Verbänden: **Gesundheit (81 %)**, Verkehr/Bau, Verteidigung, Finanzen, Ernährung/Landwirtschaft.\n• Viele Sachverständige **und** hoher Verbandsanteil: nur **Gesundheit** und **Finanzen**. Die „klassischen“ Lobbyfelder Wirtschaft und Arbeit/Soziales fallen relativ nicht auf; absolut kommt Arbeit/Soziales aber auf 224 Verbandsstellungnahmen (Platz 3)."
+    },
+    {
+      "titel": "Fragmentierung des Verbändesystems",
+      "folien": "S. 756–762, Tab. 4 und 5",
+      "text": "• **Sport:** am ehesten Dominanz eines Verbandes – Deutscher Olympischer Sportbund mit 57 Stellungnahmen (36,5 %).\n• **Arbeit und Soziales:** „Zwei-Verbände-Dominanz“ von DGB (40) und BDA (35), zusammen gut ein Drittel.\n• **Finanzen:** mehrere etwa gleich starke Verbände; **Gesundheit:** GKV-Spitzenverband vorn (41), aber viele weitere aktiv; **Landwirtschaft:** Bauernverband nicht (mehr) dominant.\n• **Effektive Verbändeanzahl** (nach Laakso/Taagepera): Korporatismus-Idealbild = 2, Klientelismus = 1. Niedrigste Werte: Sport 6,7, Verteidigung 9,0; Gesundheit 102,4. Streng gelesen wären alle Ausschüsse pluralistisch – aber das Idealbild „zwei“ stammt aus dem Feld Arbeit."
+    },
+    {
+      "titel": "Fazit: gute Einbindung, kaum Dominanz",
+      "folien": "S. 762",
+      "text": "• Strukturen unterscheiden sich stark nach Politikfeld (Lowi bestätigt).\n• **Einbindung:** eher korporatistisch – viele Sachverständige, oft Verbandsvertreter (besonders Gesundheit, Finanzen, Sport).\n• **Konzentration:** nicht nachweisbar; am ehesten Sport, mit Abstrichen Arbeit/Soziales und Verteidigung.\n• Grenzen: nur ein Ausschnitt, informelle Wege und andere Adressaten fehlen."
+    },
+    {
+      "titel": "Antwort auf die Leitfrage",
+      "text": "| Aspekt | Was der Text sagt |\n|---|---|\n| Rolle in der Gesetzgebung | Hauptort der parlamentarischen Bearbeitung; Entwürfe werden dort oft geändert und für das Plenum „zubereitet“ |\n| Aufbau | spiegeln Ministerien und Fraktionsstärken; Arbeitsteilung; teils Kontrollfunktion |\n| Tor für Interessen | Anhörungen (§ 70 GO-BT); Verbände liefern fast die Hälfte der Stellungnahmen |\n| Unterschiede | stark nach Politikfeld (Gesundheit/Finanzen stark, Auswärtiges/Verteidigung schwach) |\n| Ausschussvorsitzende | im Text **nicht behandelt** – vgl. Saalfeld/Seifert (Sitzung 3), S. 135 f. und 143 (Ergänzung, nicht aus diesem Text) |"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Strucksches Gesetz",
+      "wortlaut": "Das „Strucksche Gesetz“, nach dem kein Entwurf den Bundestag so verlässt, wie er eingebracht wurde",
+      "erklaerung": "Faustregel für die Macht des Parlaments: Gesetzentwürfe werden im Bundestag, vor allem in den Ausschüssen, fast immer verändert.",
+      "folie": "S. 743"
+    },
+    {
+      "begriff": "Öffentliche Anhörung",
+      "wortlaut": "Zur Information über einen Gegenstand seiner Beratung kann ein Ausschuss öffentliche Anhörungen von Sachverständigen, Interessenvertretern und anderen Auskunftspersonen vornehmen.",
+      "erklaerung": "Formaler Weg, auf dem Verbände, Wissenschaft und Behörden in der Ausschussphase Stellung nehmen (§ 70 GO-BT, im Text zitiert).",
+      "folie": "S. 748"
+    },
+    {
+      "begriff": "Pluralismus",
+      "wortlaut": "Ersterer liegt die normative Ansicht zu Grunde, dass die Vielfalt an Meinungen und Interessen die komplexen Ansichten einer Gesellschaft widerspiegelt und es somit gewollt ist, dass diese sich ebenso vielfältig artikulieren und in den politischen Prozess einbringen.",
+      "erklaerung": "Viele gleichberechtigte, konkurrierende Interessengruppen; der Staat steht darüber.",
+      "folie": "S. 744"
+    },
+    {
+      "begriff": "Korporatismus",
+      "wortlaut": "Während allerdings in pluralistischen Systemen viele Interessen miteinander konkurrieren, sind im Korporatismus nur wenige, hierarchisch strukturierte Interessengruppen mit funktionaler Trennung vorhanden.",
+      "erklaerung": "Wenige große (Dach-)Verbände, die der Staat institutionell in Entscheidungen einbindet (klassisch: Gewerkschaften und Arbeitgeber).",
+      "folie": "S. 744"
+    },
+    {
+      "begriff": "Effektive Verbändeanzahl",
+      "wortlaut": "Das Idealbild eines korporatistischen Systems ließe eine effektive Verbändeanzahl von zwei erwarten, im Fall von Klientelismus nur von eins.",
+      "erklaerung": "Übertragung des Laakso-Taagepera-Index: Verbände werden nach ihrem Anteil an den Stellungnahmen gewichtet; je höher der Wert, desto fragmentierter (pluralistischer).",
+      "folie": "S. 761"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [],
+  "pruefungshinweise": [],
+  "offene_fragen": [
+    "Leitfrage fragt auch nach Ausschussvorsitzenden – der Text behandelt sie nicht. Soll in der Sitzung auf Saalfeld/Seifert (Sitzung 3) zurückgegriffen werden, oder gibt es Zusatzliteratur?",
+    "Formeln für Schiefe (Fn. 47) und effektive Verbändeanzahl (S. 761) fehlen im extrahierten Text – ggf. im PDF nachsehen.",
+    "Der Text kürzt den Deutschen Olympischen Sportbund mit „DOS“ ab (üblich ist DOSB) – vermutlich nur ein Kürzel der Autoren."
+  ]
+}

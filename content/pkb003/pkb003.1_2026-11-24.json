@@ -1,0 +1,112 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pkb003",
+  "teilmodul": "pkb003.1",
+  "datum": "2026-11-24",
+  "sitzung_nr": 7,
+  "sitzung_id": "",
+  "thema": "Das Bundesverfassungsgericht",
+  "thema_in_app": "eingetragen",
+  "stand": "entwurf",
+  "art_inhalt": "Zusammenfassung der Seminarliteratur (Präsentation durch Mitstudierende)",
+  "quellen": [
+    {
+      "datei": "pkb003.1/S07_2026-11-24_Hoennige-Gschwend_BVerfG.pdf",
+      "art": "Literatur: Hönnige/Gschwend (2010), Politische Vierteljahresschrift 51(3)",
+      "seiten": "507–530"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Was macht die Bedeutung des Bundesverfassungsgerichtes aus?",
+      "art": "vorgegeben",
+      "quelle": "Leitfrage Kursplan",
+      "fragen": [],
+      "erklaerung_abschnitt": "Antwort auf die Leitfrage"
+    }
+  ],
+  "kurzfassung": [
+    "Das BVerfG gilt als eines der einflussreichsten Verfassungsgerichte der Welt und war Vorlage für Spanien und einige Gerichte in Mittel- und Osteuropa – politikwissenschaftlich ist es aber wenig erforscht („unbekanntes Wesen“).",
+    "Herrschende Sicht ist die Justizialisierungsthese: Verfassungsgerichte begrenzen die Politik als „negativer Gesetzgeber“, „dritte Kammer“ oder Vetospieler – direkt (Gesetze beanstanden) und indirekt (die Regierung beschränkt sich vorab selbst = Autolimitation).",
+    "Die Autoren halten das für zu eng: Das Gericht steht in einem Spannungsfeld mit Regierung, Opposition, anderen Gerichten und Bürgern/Öffentlichkeit, beschrieben in fünf Schritten (Richterwahl → Gesetz → Klage → Urteil → Reaktion).",
+    "Das Gericht hat weder Geld noch Zwangsmittel. Seine Macht hängt daran, dass andere seine Urteile umsetzen – und damit vor allem am Vertrauen der Bevölkerung.",
+    "Folgerung: Mehr Forschung nötig – v. a. eine Datenbank der Entscheidungen und ein Verständnis der Mechanismen auf der Mikroebene."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Ausgangslage: großer Einfluss, wenig Wissen",
+      "folien": "S. 508–509",
+      "text": "*„Verfassungsgerichte, nicht mehr Parlamente, legen den konstitutionellen Ordnungsrahmen einer Gesellschaft in vielen Demokratien verbindlich aus“*. Metaphern dafür: „Nebenregierung“ (Schmidt), „Dritte Parlamentskammer“ (Stone), „Vetospieler“/„Vetopunkte“.\n• Vor 1945 waren Verfassungsgerichte eine Anomalie (Österreich, USA), danach Siegeszug in Europa („Neuer Konstitutionalismus“).\n• Im Vergleich zum US-Supreme Court weiß man wenig darüber, **wie die Richter entscheiden** und ob Urteile umgesetzt werden. Meist gilt das Gericht als **unbeschränkter Akteur**."
+    },
+    {
+      "titel": "Die These der zunehmenden Justizialisierung",
+      "folien": "S. 509–511",
+      "text": "Die Justizialisierungsthese *„besagt, dass durch die Aktivität von Verfassungsgerichten die Sphäre der Politik zunehmend begrenzt wird“*. Das Gericht ist ein **negativer Gesetzgeber** (Kelsen): Es kann vom Parlament beschlossene Normen aufheben.\n\n**Mechanismus nach Stone:** Klagen sind für die Opposition „kostenfrei“ → sie klagt oft → das Gericht kippt einen Teil der Gesetze (**direkter Effekt**) → die Regierung entwirft Gesetze vorsorglich verfassungskonform (**indirekter Effekt: Autolimitation**, bei deutschen Juristen „Vorwirkung“). Das Gericht wird zum „verlängerten Arm der Opposition“ (Stüwe).\n\n| Kennzahl | Wert |\n|---|---|\n| Klagequote der Opposition pro Gesetz (1974–2003) | Frankreich rund 10 %, Deutschland rund 2,5 % |\n| Abstrakte Normenkontrollen (Ø 1997–2007) | 3,2 pro Jahr, dazu 2,2 Bund-Länder-Streitigkeiten; Erfolgsquote ca. 50 % |\n| Konkrete Normenkontrollen (Ø 1997–2007) | 33 pro Jahr |\n| Verfassungsbeschwerden (Ø 1997–2007) | 5.049 pro Jahr, rund 2,5 % erfolgreich |\n| Vom BVerfG beanstandete Gesetze | rund 5 % |\n| Bundesrat verweigert Zustimmung (1949–2003) | 1,08 % |\n\nDie deutsche Opposition geht **verantwortungsvoll** mit ihrem Klagerecht um. Weitere Triebfedern in Deutschland: **Bürger** (Verfassungsbeschwerde) und **Fachgerichte** (konkrete Normenkontrolle)."
+    },
+    {
+      "titel": "Fünf Schritte im Spannungsfeld",
+      "folien": "S. 511–519, Abb. 1",
+      "text": "Justizialisierung ist **kein sich selbst verstärkender Kreislauf**. Wer sich durchsetzt, hängt ab von Präferenzen, institutionellen Machtressourcen und Unterstützung durch die Öffentlichkeit („Institutions matter“).\n\n**1. Richterwahl** (S. 512–514): 2/3-Mehrheit in Bundestag und Bundesrat → Regierung und Opposition müssen kooperieren; geheimer Zwölferausschuss, „intransparente Tauschgeschäfte“, Verfahren als „Black Box“; über die Werte der Richter ist *„praktisch nichts bekannt“*.\n**2. Gesetz und Autolimitation** (S. 514–515): Das Gericht ist Vetospieler; die Regierung lernt aus Niederlagen und platziert Gesetze im „gemeinsamen Winset von Regierung und Gericht“. Belege nur aus kleinen Fallstudien.\n**3. Klage** (S. 516–517): Empirisch ist die Opposition ein **strategischer Kläger** – hat die Regierung die Mehrheit der Richter ausgewählt, klagt sie seltener. Verfassungsbeschwerden und konkrete Normenkontrollen (fast der gesamte Eingang, z. B. Kruzifix, Kopftuch, Pendlerpauschale) sind kaum erforscht.\n**4. Urteil** (S. 517–519): US-Schulen: Attitudinalisten, Rational-Choice-Institutionalisten, interpretative Ansätze. Auch europäische Richter folgen politischen Präferenzen, weil das Grundgesetz oft unbestimmt ist. Das BVerfG erteilt oft **Änderungsaufträge** statt Gesetze ganz zu kassieren – es hat auch eine **vermittelnde Rolle**."
+    },
+    {
+      "titel": "Schritt 5: Reaktion auf Urteile – woher kommt die Macht des Gerichts?",
+      "folien": "S. 519–521",
+      "text": "• Verfassungsgerichte haben weder die „Power of the Purse“ noch die „Power of the Sword“. Montesquieu: ihre Macht sei *„…en quelque façon, nulle“* (gewissermaßen null). Urteile müssen **aus freien Stücken** akzeptiert und meist vom Gesetzgeber umgesetzt werden → **Prinzipal-Agent-Problem**.\n• Regierungen können Gerichte beschränken (Wiederwahl verhindern, Amtsenthebung androhen, Zuständigkeiten entziehen, Urteile umgehen) → **Autolimitation der Richter**.\n• Vanberg: Die Regierung umgeht Urteile v. a., wenn die Materie **intransparent** ist und die öffentliche Meinung auf ihrer Seite steht.\n• *„Je größer das Vertrauen in das Gericht im Vergleich zu Parlament und Regierung ist, desto schwieriger wird es für die Exekutive und Legislative, eine Entscheidung zu umgehen.“* Aber auch ein populäres Gericht kann sich keine dauerhaft konfliktorientierte Praxis leisten."
+    },
+    {
+      "titel": "Vetospieler, Mikro-Makro-Link und Fazit",
+      "folien": "S. 521–523",
+      "text": "• Tsebelis: Verfassungsgerichte würden meist von anderen Vetospielern „absorbiert“. Dagegen: Die Opposition bestimmt viele Richter mit, Gesetze werden regelmäßig annulliert.\n• In Vergleichsskalen (Alivizatos, Cooter/Ginsburg, Lijphart) steht das BVerfG **immer in der Spitzengruppe** – die Skalen sind aber methodisch schwach. Aus der Zahl von Klagen oder Annullierungen allein lässt sich der Einfluss nicht ablesen (**Mikroebene** entscheidend).\n• Zugänge: in Deutschland vorherrschend **interpretativ-institutionalistisch**, in den USA **Rational Choice** – beide ergänzen sich. Das Abstimmungsverhalten der Richter ist geheim („ökologisches Inferenzproblem“). Forderung: **Datenbank der Entscheidungen**."
+    },
+    {
+      "titel": "Antwort auf die Leitfrage",
+      "text": "| | Was die Bedeutung ausmacht |\n|---|---|\n| Rechtliche Stellung, Ansehen | legt die Verfassung verbindlich aus, kann Gesetze aufheben (negativer Gesetzgeber, Vetospieler); Spitzengruppe im Vergleich, Vorbild für andere Gerichte |\n| Direkter Effekt | rund 5 % aller Gesetze beanstandet (Bundesrat: 1,08 % Zustimmung verweigert) |\n| Indirekter Effekt | Autolimitation/Vorwirkung: Gesetze werden vorsorglich verfassungsfest geschrieben |\n| Breiter Zugang | Bürger (5.049 Verfassungsbeschwerden/Jahr) und Fachgerichte bringen Fälle nach Karlsruhe |\n| Grundlage und Grenze | kein Geld, keine Zwangsmittel → Macht beruht auf Akzeptanz und Vertrauen der Bevölkerung |\n| Einschränkung | empirisch kaum belegt – das BVerfG bleibt ein „unbekanntes Wesen“ |"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Justizialisierung",
+      "wortlaut": "Sie besagt, dass durch die Aktivität von Verfassungsgerichten die Sphäre der Politik zunehmend begrenzt wird.",
+      "erklaerung": "Verfassungsgerichte engen den Spielraum von Parlament und Regierung zunehmend ein.",
+      "folie": "S. 509"
+    },
+    {
+      "begriff": "Negativer Gesetzgeber",
+      "wortlaut": "Mit der Einrichtung von Verfassungsgerichten in mehreren Wellen nach dem Zweiten Weltkrieg wurde folglich ein negativer Gesetzgeber (Kelsen 2008) geschaffen, der vom Parlament verabschiedete Normen aufheben und so in den politischen Prozess eingreifen kann.",
+      "erklaerung": "Das Gericht macht keine Gesetze, kann sie aber aufheben.",
+      "folie": "S. 509"
+    },
+    {
+      "begriff": "Vetospieler",
+      "wortlaut": "institutionellen oder parteipolitischen Akteuren, die ein Gesetzgebungsverfahren stoppen können",
+      "erklaerung": "Wer einen Gesetzentwurf blockieren kann (z. B. oppositioneller Bundesrat, Koalitionspartner, Verfassungsgericht), mit dem muss die Regierung Kompromisse schließen.",
+      "folie": "S. 514"
+    },
+    {
+      "begriff": "Autolimitation",
+      "wortlaut": "Neben der direkten Wirkung eines Urteils, der Annullierung eines Gesetzes, gibt es also noch eine zweite, indirekte Wirkung – eine Selbstbeschränkung der Regierung; es kommt zur Autolimitation (Stone 1992a).",
+      "erklaerung": "Die Regierung schreibt Gesetze vorsorglich so, dass das Gericht sie nicht kippt (juristisch: „Vorwirkung“). Auch Richter können sich so selbst beschränken.",
+      "folie": "S. 514"
+    },
+    {
+      "begriff": "Konkrete Normenkontrolle",
+      "wortlaut": "Bei einer konkreten Normenkontrolle wird eine Norm anlässlich eines konkreten Falles auf ihre Verfassungskonformität hin überprüft.",
+      "erklaerung": "Fachgerichte müssen dem BVerfG ein Gesetz vorlegen, wenn sie es im Einzelfall für verfassungswidrig halten.",
+      "folie": "S. 510"
+    },
+    {
+      "begriff": "Strategischer Kläger",
+      "wortlaut": "Hat die Regierung die Mehrheit der Richter ausgewählt, klagt die Opposition seltener, weil die Wahrscheinlichkeit einer Niederlage steigt. Sie ist ein strategischer Kläger.",
+      "erklaerung": "Die Opposition klagt nicht automatisch, sondern vor allem dann, wenn sie mit einem Sieg rechnet.",
+      "folie": "S. 516"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [],
+  "pruefungshinweise": [],
+  "offene_fragen": [
+    "Der Text ist ein Forschungsüberblick von 2010 (Zahlen 1997–2007); aktuelle Daten und Zuständigkeiten des BVerfG werden nicht behandelt – ggf. im Seminar ergänzen.",
+    "Abb. 1 nennt für Schritt 5 als antizipatives Verhalten „Unbekannt“ – im Text wird aber die Autolimitation der Richter beschrieben; vermutlich ist das Verhalten der Akteure auf Urteile gemeint.",
+    "Kleinere Auffälligkeiten im Original: „Vetospiele“ statt „Vetospieler“ (S. 518); Sieberer-Befund auf S. 520 ohne Jahresangabe."
+  ]
+}

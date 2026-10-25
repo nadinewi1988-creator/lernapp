@@ -1,0 +1,143 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pkb003",
+  "teilmodul": "pkb003.2",
+  "datum": "2026-11-23",
+  "sitzung_nr": 7,
+  "sitzung_id": "",
+  "thema": "Demographischer Wandel",
+  "thema_in_app": "eingetragen",
+  "stand": "entwurf",
+  "art_inhalt": "Zusammenfassung der Seminarliteratur (Präsentation durch Mitstudierende)",
+  "quellen": [
+    {
+      "datei": "pkb003.2/S07_2026-11-23_Brussig_Demografischer-Wandel.pdf",
+      "art": "Literatur: Brussig (2015), Kölner Zeitschrift für Soziologie und Sozialpsychologie 67 (Suppl.)",
+      "seiten": "295–324"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Welche Auswirkungen hat der demographische Wandel auf die Arbeitswelt und den Sozialstaat in Deutschland?",
+      "art": "vorgegeben",
+      "quelle": "Leitfrage Kursplan",
+      "fragen": [],
+      "erklaerung_abschnitt": "Antwort auf die Leitfrage"
+    }
+  ],
+  "kurzfassung": [
+    "Kernthese: Alterung und Schrumpfung schlagen nicht unmittelbar auf den Arbeitsmarkt durch. Sie werden durch Institutionen (Rentenrecht, Arbeitsmarktpolitik) und durch Betriebe als handelnde Akteure gefiltert – die Folgen sind gestaltbar und nur begrenzt vorhersagbar.",
+    "Prägendste Veränderung der letzten 20 Jahre ist die Alterung der Erwerbstätigen: Die Erwerbstätigenquote der 55- bis unter 65-Jährigen stieg von 38,4 % (2003) auf 61,5 % (2012) – vor allem, weil der Sozialstaat die Frühverrentung beendet hat (Abschläge, Rente mit 67, Ende der geförderten Altersteilzeit, Hartz-Reformen).",
+    "Ab etwa 2030 schrumpft das Erwerbspersonenpotenzial stark; längere Erwerbsphasen, mehr Frauenerwerbstätigkeit und Zuwanderung können das nur teilweise ausgleichen.",
+    "Ältere sind nicht generell weniger produktiv (Abkehr von der „Defizit-Hypothese“); eindeutiger ist ein umgekehrt U-förmiger Zusammenhang zwischen Alter und Innovation.",
+    "Probleme: begrenzte Tätigkeitsdauer in belastenden Berufen (viele sind „zu jung für die Altersrente, zu gesund für die Erwerbsminderungsrente und zu krank für eine Beschäftigung“), steigende Alterserwerbslosigkeit und neue Verteilungskonflikte in den Tarifbeziehungen."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Ansatz des Textes",
+      "folien": "S. 295–297",
+      "text": "• Der Arbeitsmarkt ist zentral für **System- und Sozialintegration**: Etwa die Hälfte der Bevölkerung lebt direkt von Erwerbsarbeit, fast alle anderen sind über Sozialleistungen oder Familientransfers damit verbunden.\n• Brussig wählt eine **soziologische** Perspektive (Wechselspiel von Institutionen, Akteuren und Organisationen, v. a. Betrieben) – in Abgrenzung zur wirtschaftswissenschaftlichen Sicht auf Wachstum und Arbeitslosigkeit.\n• Aufbau: Teil 2 demografische Entwicklung auf dem Arbeitsmarkt, Teil 3 Ebene der Betriebe, Teil 4 Fazit."
+    },
+    {
+      "titel": "Grundbegriffe",
+      "folien": "S. 298–299",
+      "text": "Arbeitskräftepotenzial = Bevölkerung im erwerbsfähigen Alter (15 bis 74 Jahre), gemessen meist nach dem **Labor-Force-Konzept der ILO** (erwerbstätig = mindestens eine Stunde bezahlte Arbeit in der Berichtswoche).\n\n| Gruppe | Bedeutung |\n|---|---|\n| Erwerbstätige | arbeiten gegen Entgelt |\n| Erwerbslose („manifeste Reserve“) | suchen aktiv, können binnen 14 Tagen anfangen; zählen zu den Erwerbspersonen |\n| Stille Reserve | suchen aktuell nicht, würden bei guter Arbeitsmarktlage aber arbeiten |\n| sonstige Nichterwerbstätige | können oder wollen auch unter günstigen Bedingungen nicht arbeiten |\n\nWie Betriebe auf Alterung und Verknappung reagieren (mehr Kapital, altersgerechte Arbeit, Qualifizierung oder Schrumpfung), hängt von viel mehr als der Demografie ab – daher die **Ungewissheit** der Folgen."
+    },
+    {
+      "titel": "„Doppelte Alterung“ und demografischer Rückenwind",
+      "folien": "S. 299–301",
+      "text": "• **Doppelte Alterung:** (1) *demografisch bedingt* durch unterschiedlich große Geburtsjahrgänge; (2) *verhaltensbedingt* durch steigende Erwerbsbeteiligung Älterer.\n• Geburtentief 1945, danach die **Babyboomer** (Jahrgänge über 1 Mio.; 1964 in Westdeutschland doppelt so stark wie 1945).\n• Ab ca. 2005 ist die Gruppe der 55- bis unter 65-Jährigen von der „jüngeren Hälfte“ geprägt → **„demografischer Rückenwind“**: Die Erwerbstätigenquote der Älteren steigt im Aggregat ohne Verhaltensänderung. Laut Text bis der Jahrgang 1964 65 wird (ab ca. 2019).\n• Lehre: Im langfristigen Alterungstrend kann es kurzfristige „Verjüngung“ geben – wichtig, weil Politik kurzfristige Handlungsbezüge tendenziell übergewichtet."
+    },
+    {
+      "titel": "Stark wachsende Erwerbsbeteiligung Älterer – Rolle des Sozialstaats",
+      "folien": "S. 301–304",
+      "text": "| Bereich | Reformen laut Text |\n|---|---|\n| Rente | Rentenreformgesetz 92: Abschläge bei Rente vor der Regelaltersgrenze (ab Jahrgang 1937); Regelaltersgrenze 67 (Jahrgänge 1947–1963 schrittweise, voll ab 1964); Rente mit 63 (2014) laut Brussig mittelfristig kein Widerspruch |\n| Arbeitsmarkt | SGB III (1998), Hartz-Gesetze (2002–2004); geförderte Altersteilzeit 1996 eingeführt, 2009 geschlossen |\n| Ergebnis | Anreize zu Vorruhestand und Frühverrentung erheblich eingeschränkt |\n\n• Erwerbstätigenquote 55 bis unter 65: **38,4 % (2003) → 61,5 % (2012)**; Zahl der älteren Erwerbstätigen von knapp 4,8 auf knapp 7,0 Mio.\n• **Keine Verdrängung Jüngerer** („Lump of labour-Illusion“ trifft nicht zu).\n• Kehrseite: steigende **Alterserwerbslosigkeit**.\n• Hauptgrund des Anstiegs ist der **aufgeschobene Austritt**; Hochqualifizierte sind im Alter öfter erwerbstätig als Geringqualifizierte."
+    },
+    {
+      "titel": "Schrumpfung ab ca. 2030 und Zuwanderung",
+      "folien": "S. 304–307",
+      "text": "| Fuchs et al. (2011), Erwerbspersonenpotenzial | 2008 | 2050 |\n|---|---|---|\n| Variante 1: konstante Situation | 44,7 Mio. | 26,7 Mio. |\n| Variante 2: steigende Erwerbsquoten | 44,7 Mio. | 28,6 Mio. |\n| Variante 3: zusätzlich +100 000 Zuwanderung/Jahr | 44,7 Mio. | 32,7 Mio. |\n\nDemografisch −18 Mio., Verhaltensänderungen knapp +2 Mio., Zuwanderung gut +4 Mio. → netto −12 Mio. (Variante 3). Ungenutzte Potenziale: junge Frauen/Mütter und Ältere (60–74) ca. 1,5 Mio.\n\n**Zuwanderung:** Salden schwanken stark (2012: +369 000). Zugewanderte tragen höhere Arbeitsmarktrisiken (u. a. nicht anerkannte Abschlüsse → Berufsqualifikationsfeststellungsgesetz 2011); Konkurrenz um die „besten Köpfe“.\n*„In der Realität lassen sich die Arbeitsmarktwirkungen von Zuwanderung kaum prognostizieren, wohl aber gestalten.“*"
+    },
+    {
+      "titel": "Zwischenfazit: drei Puffer",
+      "folien": "S. 307",
+      "text": "*„Die demografischen Prozesse des Schrumpfens und des Alterns der Bevölkerung schlagen nicht unmittelbar auf den Arbeitsmarkt durch.“*\n• Puffer 1: Erwerbslose und Stille Reserve\n• Puffer 2: Arbeitszeit, v. a. Lebensarbeitszeit (späterer Erwerbsaustritt)\n• Puffer 3: Zuwanderung (theoretisch fast unbegrenzt, praktisch schwer steuerbar)"
+    },
+    {
+      "titel": "Belegschaftsalter, Produktivität, Innovation",
+      "folien": "S. 308–311",
+      "text": "• Die meisten Betriebe altern: Anteil der Betriebe ohne Beschäftigte ab 50 sank 2002–2004 West 51 % → 47 %, Ost 49 % → 42 %; das Altersspektrum weitet sich „nach oben“, vor allem durch längeren Verbleib Älterer.\n• **Produktivität:** je nach Messung unterschiedlich; Leistung hängt von gestaltbarer Arbeitsumgebung, Arbeitsorganisation und Teamzusammensetzung ab → Alterung gilt nicht mehr als generelle Bedrohung (Abkehr von der Defizit-Hypothese).\n• **Innovation:** umgekehrt U-förmiger Zusammenhang; Erklärung über **fluide** (sinkt im Alter) und **kristalline Intelligenz** (bleibt stabil oder wächst)."
+    },
+    {
+      "titel": "Betriebliche Personalpolitik",
+      "folien": "S. 311–314",
+      "text": "| Typ (IAB-Betriebspanel 2002) | Anteil der Betriebe |\n|---|---|\n| nur ausgliedernd (Altersteilzeit) | 6,9 % |\n| nur integrativ | 8,3 % |\n| beides | 4,5 % |\n| keine altersbezogenen Maßnahmen | 80,4 % |\n\n• Entscheidend ist ausdifferenzierte Personalarbeit – ein **demografieunabhängiger** Faktor.\n• Trend: weniger Altersteilzeit, mehr integrative Maßnahmen – bislang **moderat**.\n• **Alternsgerechte** Personalpolitik stößt auf Zielkonflikte (Zeithorizonte, Abwanderung von Beschäftigten, Leistungs- und Flexibilitätsanforderungen). Längere Erwerbsphasen gehen eher auf die Schließung des Vorruhestands zurück."
+    },
+    {
+      "titel": "Begrenzte Tätigkeitsdauer",
+      "folien": "S. 314–315",
+      "text": "• Belastende Tätigkeiten lassen sich nur begrenzt ausüben; physische Belastungen waren in Deutschland 2010 stärker verbreitet als 2000. Ältere sind nicht öfter, aber länger krank.\n• Nach Schließung von Vorruhestand und Frühverrentung werden viele, die *„zu jung für die Altersrente, zu gesund für die Erwerbsminderungsrente und zu krank für eine Beschäftigung“* (Knuth) sind, arbeitslos oder nur teilzeitig/geringfügig beschäftigt; über ein Drittel der arbeitslosen Leistungsbeziehenden hat gesundheitliche Einschränkungen.\n• Heute steckt eher **versteckte Erwerbsunfähigkeit in der Arbeitslosensicherung** als umgekehrt. Ungelöst: Absicherung ohne neue Fehlanreize zur Aussonderung Älterer."
+    },
+    {
+      "titel": "Industrielle Beziehungen",
+      "folien": "S. 315–316",
+      "text": "• Tarifliche altersbedingte Lohnsteigerungen enden meist vor dem 30. Lebensjahr; betriebliche Alterssicherung („zweite Säule“) gewinnt an Bedeutung.\n• Frühverrentung war ein Konsensmodell von Staat und Sozialpartnern; seit Ende der staatlichen Altersteilzeit-Förderung (Neuzugänge ab 01.01.2009) gibt es weniger und restriktivere Tarifverträge.\n• Konflikt um den **Verteilungsspielraum** → Gefahr einer „Entsolidarisierung“ unter den „Arbeitsmarkt-Insidern“ (Fehmel 2013)."
+    },
+    {
+      "titel": "Fazit und Forschungsbedarf",
+      "folien": "S. 317–319",
+      "text": "• *„Wichtige Systeme der sozialen Sicherung, insbesondere die Sozialversicherungen, profitieren von einer breiten Erwerbsbeteiligung.“*\n• Folgen sind offen, weil gestaltbar und weil Grundfragen ungeklärt sind (gibt es eine quasi-natürliche Altersgrenze der Arbeitsfähigkeit?).\n• Frühere Gewissheiten erschüttert: viele können bis zur Regelaltersgrenze produktiv sein; Betriebe reagieren; keine höhere Jugendarbeitslosigkeit.\n• Neue Frage: **„neue Defizithypothese des Alters“** und die „richtigen“ Altersgrenzen."
+    },
+    {
+      "titel": "Antwort auf die Leitfrage",
+      "text": "| Ebene | Auswirkungen laut Brussig |\n|---|---|\n| Arbeitskräfte | Alterung der Erwerbstätigen, Schrumpfung ab ca. 2030; Puffer nur teilweiser Ausgleich |\n| Betriebe | ältere Belegschaften; Produktivität nicht generell bedroht, Innovation eher; Problem belastender Tätigkeiten |\n| Sozialstaat | Ende der Frühverrentung → mehr Alterserwerbstätigkeit, aber auch mehr Alterserwerbslosigkeit und versteckte Erwerbsunfähigkeit; Sozialversicherungen brauchen breite Erwerbsbeteiligung |\n| Tarifpartner | höhere Kosten betrieblicher Sozialpolitik, Verteilungskonflikte |\n| Grundaussage | Demografie wirkt nicht automatisch – Institutionen und Akteure entscheiden |"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Stille Reserve",
+      "wortlaut": "Unter Nichterwerbstätigen sind auch Personen, die zwar nicht aktuell arbeitsuchend und damit auch nicht arbeitslos sind, aber bei günstiger Arbeitsmarktlage eine Beschäftigung suchen und vermutlich auch finden würden. […] Dieser Personenkreis wird als „Stille Reserve“ bezeichnet.",
+      "erklaerung": "Menschen, die gerade keine Arbeit suchen (z. B. weil sie keine Chance sehen), aber bei guter Lage arbeiten würden – ein Puffer für den Arbeitsmarkt.",
+      "folie": "S. 298"
+    },
+    {
+      "begriff": "Erwerbspersonen",
+      "wortlaut": "Erwerbspersonen sind Menschen, die einer wirtschaftlichen Tätigkeit nachgehen, d. h. gegen Entgelt eine Arbeit verrichten oder eine solche suchen.",
+      "erklaerung": "Erwerbstätige plus Erwerbslose; Nichterwerbspersonen arbeiten nicht und suchen auch nicht.",
+      "folie": "S. 298"
+    },
+    {
+      "begriff": "Demografischer Rückenwind",
+      "wortlaut": "Brussig et al. (2008) sprechen hier vom „demografischen Rückenwind“, der einen eigenständigen positiven Effekt auf die Entwicklung der Alterserwerbsbeteiligung hat.",
+      "erklaerung": "Wenn die Gruppe der 55- bis unter 65-Jährigen von den Jüngeren geprägt ist, steigt deren Erwerbstätigenquote insgesamt, ohne dass sich jemand anders verhält.",
+      "folie": "S. 300"
+    },
+    {
+      "begriff": "Lump of labour-Illusion",
+      "wortlaut": "Dieser, oftmals als „Lump of labour-Illusion“ apostrophierten Auffassung zufolge, ist die Menge an Arbeit in einer Gesellschaft mehr oder weniger fixiert, und damit auch die Zahl der Arbeitsplätze, für deren Neubesetzung durch Jugendliche die Verrentung der Älteren erforderlich sei.",
+      "erklaerung": "Falsche Annahme, Ältere müssten in Rente gehen, damit Jüngere Arbeit finden; für Deutschland laut Brussig nicht zutreffend.",
+      "folie": "S. 302"
+    },
+    {
+      "begriff": "Alternsgerechte Personalpolitik",
+      "wortlaut": "Betriebliche Personalpolitik muss auch Bedingungen schaffen, damit die Beschäftigten bis in ein höheres Alter hinein erwerbstätig sein können (alternsgerechte Personalpolitik).",
+      "erklaerung": "Nicht nur Maßnahmen für die heute Älteren (altersgerecht), sondern Arbeitsbedingungen über das ganze Erwerbsleben, die langes Arbeiten ermöglichen.",
+      "folie": "S. 313"
+    },
+    {
+      "begriff": "Fluide und kristalline Intelligenz",
+      "wortlaut": "Fluide Intelligenz „äußert sich in einer schnellen Auffassungsgabe, einer hohen Verarbeitungsgeschwindigkeit von Informationen, im schlussfolgernden Denken und in der Abstraktionsfähigkeit“ (Schneider 2007a, S. 7).",
+      "erklaerung": "Fluide Intelligenz ist in jungen Jahren ausgeprägt und lässt nach; kristalline Intelligenz (Erfahrung, Wissen, Sprache) bleibt stabil oder wächst – Erklärung für den umgekehrt U-förmigen Zusammenhang von Alter und Innovation.",
+      "folie": "S. 311"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [],
+  "pruefungshinweise": [],
+  "offene_fragen": [
+    "Kursplan nennt „Brussi, M.“ – gemeint ist offensichtlich Martin Brussig (2015). Tippfehler im Kursplan?",
+    "Text von 2015: Prognosen (Rückenwind bis ca. 2019, Schrumpfung ab 2030) und Zahlen (bis 2012/13) sind veraltet; aktuelle Zahlen ggf. im Seminar ergänzen.",
+    "Kleine Unstimmigkeit im Text: Variante 3 (Fuchs et al. 2011) ergibt 32,7 Mio. für 2050 (−12 Mio. ab 2008), an anderer Stelle (S. 305) heißt es bei gleicher Annahme Rückgang 2010–2050 um 14 Mio. (ca. 44 auf ca. 30 Mio.) – vermutlich unterschiedliche Basis/Rechnung.",
+    "Der Sozialstaat wird nur über Renten- und Arbeitsmarktreformen behandelt; Folgen für Rentenfinanzen, Pflege oder Gesundheit kommen im Text nicht vor."
+  ]
+}

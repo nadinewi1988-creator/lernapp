@@ -1,0 +1,129 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pkb003",
+  "teilmodul": "pkb003.1",
+  "datum": "2026-12-08",
+  "sitzung_nr": 9,
+  "sitzung_id": "",
+  "thema": "Verbände und Verbändesystem",
+  "thema_in_app": "eingetragen",
+  "stand": "entwurf",
+  "art_inhalt": "Zusammenfassung der Seminarliteratur (Präsentation durch Mitstudierende)",
+  "quellen": [
+    {
+      "datei": "pkb003.1/S08-S12_Grotz-Schroeder_PolSystem.pdf",
+      "art": "Literatur: Grotz/Schroeder (2021), Das politische System der Bundesrepublik Deutschland, Kap. 7 „Verbände und Verbändesystem: die Vermittlung bereichsspezifischer Interessen“",
+      "seiten": "179–209"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Welche Rolle spielen Verbände im deutschen Regierungssystem – stützen sie seine Funktionsfähigkeit durch ihre Integrationskraft oder gefährden sie durch Partikularinteressen das Gemeinwohl?",
+      "art": "abgeleitet",
+      "quelle": "abgeleitet aus der Leitfrage des Kapitels (S. 179); Kursplan nennt keine Leitfrage",
+      "fragen": [],
+      "erklaerung_abschnitt": "Antwort auf die Leitfrage"
+    }
+  ],
+  "kurzfassung": [
+    "Ein Verband ist eine auf Dauer angelegte, formal organisierte Interessengruppe. Anders als Parteien kandidiert er nicht bei Wahlen, sondern vertritt bereichsspezifische Interessen gegenüber Parlament und Regierung.",
+    "Verbände handeln nach zwei Logiken: Mitgliedschaftslogik (nach innen) und Einflusslogik (nach außen). Sie erfüllen Funktionen auf der Input-, Throughput- und Output-Seite – bis hin zur Entlastung des Staates (z. B. Tarifautonomie, Wohlfahrtsverbände).",
+    "Nicht alle Interessen sind gleich gut organisierbar (Olson: spezielle, homogene Gruppen im Vorteil; Trittbrettfahrerproblem). „Schwache Interessen“ brauchen anwaltschaftliche Vertretung.",
+    "Idealtypen: Pluralismus (viele konkurrierende Verbände, keine Privilegien) vs. Korporatismus (wenige Spitzenverbände, staatlich eingebunden). Deutschland ist eine Mischform – je nach Politikfeld (Beispiele: Gesundheit, Tarifpolitik).",
+    "Trend: Mitgliederschwund, sinkende Verpflichtungsfähigkeit, mehr Lobbying jenseits der Verbände (Konzerne, Agenturen, Kanzleien) → Transparenzproblem (Lobbyregister, Karenzzeiten).",
+    "Fazit der Autoren: Trotz Gefahren (Vetomacht) sind Verbände „die angemessenste Organisationsform“ zur Bündelung von Interessen."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Begriff und Abgrenzung",
+      "folien": "S. 180",
+      "text": "Verband = *„eine auf Dauer gestellte Interessengruppe, die meist eine Rechtsform besitzt und über eine ausdifferenzierte Organisationsstruktur verfügt, um gemeinsame Ziele zu verfolgen“*. Max Weber: „Herrschaftsverband“ (Organisation, Führung, Gefolgschaft).\n• Abgrenzung von **sozialen Bewegungen** (feste Struktur, formale Mitgliedschaft), von **Freizeitvereinen** (politische Interessenvermittlung im Vordergrund) und von **Parteien** (keine Wahlteilnahme, keine Ämter).\n• Zwei Umwelten, zwei Logiken (Streeck): **Mitgliedschaftslogik** und **Einflusslogik**."
+    },
+    {
+      "titel": "Funktionen von Verbänden",
+      "folien": "S. 181–183, Tab. 7.1",
+      "text": "| | Soziale Integration (Input) | Interessenvertretung (Throughput) | Leistungserbringung (Output) |\n|---|---|---|---|\n| für Mitglieder | Partizipation, Serviceangebote („selektive Güter“, z. B. DGB-Rechtsschutz) | Artikulation der Mitgliederinteressen (nach Aggregation und Selektion) | Durchsetzung der Mitgliederinteressen |\n| für Regierungssystem | politische Sozialisation („Schule der Demokratie“), Elitenrekrutierung | Repräsentation bereichsspezifischer Interessen (ergänzt Parteien) | Unterstützung und Entlastung des Staates bei Gesetzgebung und Vollzug |\n\nKehrseite: Gut organisierte Interessen setzen sich gegenüber breiter getragenen durch (Gefahr für die **Repräsentationsgleichheit**)."
+    },
+    {
+      "titel": "Entwicklung",
+      "folien": "S. 183–185",
+      "text": "• Wachstumsschub im **Kaiserreich** (Unternehmervereinigungen, Gewerkschaften, Kammern). Drei Tendenzen (Reutter): **Expansion**, **Differenzierung** (z. B. BITKOM, Milchviehhalter), **Funktionserweiterung**.\n• Schärfste Zäsur: **Gleichschaltung 1933**. Nach 1945 Neugründung; GG: Vereinigungsfreiheit (Art. 9 Abs. 1) und **Koalitionsfreiheit/Tarifautonomie** (Art. 9 Abs. 3). DDR: Verbände nur „Transmissionsriemen“ der SED; in Ostdeutschland sind Verbände bis heute schwächer verankert.\n• Beim Bundestag registrierte Verbände: **635 (1974) → 2.317 (2020)**; insgesamt rund 15.000 „Verbände“, davon 8.700 mit hauptamtlicher Geschäftsstelle."
+    },
+    {
+      "titel": "Sechs Unterscheidungskriterien",
+      "folien": "S. 185–189",
+      "text": "| Kriterium | Kernaussage |\n|---|---|\n| 1. Rechtlicher Status | meist Verein (BGB) oder Körperschaft öff. Rechts; Sonderstellung für Religionsgemeinschaften und Tarifparteien; Pflichtmitgliedschaft (Kammern); Verbandsklagerecht (z. B. DUH mit ca. 450 Mitgliedern) |\n| 2. Handlungsfeld | Arbeit/Wirtschaft ~50 %, Gesundheit/Soziales ~20 %, Bildung/Wissenschaft ~10 %, Kultur/Freizeit ~9 %, Sonstige ~11 % |\n| 3. Organisationsebene | Verbände 1. Grades (natürliche Personen), 2. Grades (Dach-/Spitzenverbände, z. B. BDA), 3. Grades (europäisch, z. B. BUSINESSEUROPE) |\n| 4. Binnenorganisation | Mitgliederversammlung, Vorstand, Kontrollorgane; Abweichungen von Demokratie möglich (Stimmrecht nach Beitrag, Macht der Hauptamtlichen) |\n| 5. Organisationsgrad | je höher, desto einflussreicher; Bund der Steuerzahler < 0,5 %, DBV nahezu alle; **Olson**: spezielle, homogene Interessen organisieren sich leichter; **Trittbrettfahrer** → selektive Anreize |\n| 6. Sanktionspotenzial | Drohung mit „systemrelevanter Leistungsverweigerung“ (Offe), z. B. GdL, Vereinigung Cockpit |\n\n**Beispiel IG Metall** (S. 189–191): nicht eingetragener Verein, über 2,2 Mio. Mitglieder (2020); Mitglied im DGB (2. Grad), dieser im ETUC (3. Grad); Herzstück Automobilsektor; repräsentativ-demokratisch aufgebaut (Gewerkschaftstag mit ca. 500 Delegierten alle vier Jahre). DGB-Gewerkschaften durch Fusionen von 17 auf 8 reduziert. Wichtigstes Druckmittel heute: die Streikdrohung („das Schwert an der Wand“)."
+    },
+    {
+      "titel": "Lobbying und seine Kritik",
+      "folien": "S. 191–194",
+      "text": "• **Inside-Lobbying**: direkter Kontakt (Stellungnahmen nach § 47 GGO, Anhörungen nach § 70 GOBT, Framing schon vor dem Gesetzentwurf). **Outside-Lobbying**: über die Öffentlichkeit (Kampagnen, Studien, Demos).\n• Neuer Typ „Bewegungsunternehmen“: **Greenpeace** (rund 600.000 Fördermitglieder, aber keine Binnendemokratie; Entscheidungen durch Hauptamtliche).\n• Kritik: Eschenburg 1955 („Herrschaft der Verbände“); heute eher Einfluss ökonomischer Einzelinteressen (Crouch). Unternehmen lobbyieren zunehmend selbst – Übergang vom *„Zeitalter der Verbände zum Zeitalter der Mitglieder“*; Folge der **Schwäche**, nicht der Stärke der Verbände.\n• Transparenz: Öffentliche Liste des Bundestags seit 1972; **Lobbyregistergesetz ab 2022** (Bußgeld bis 50.000 €, aber kein „exekutiver Fußabdruck“); Karenzzeit für Minister seit 2015 (bis 18 Monate)."
+    },
+    {
+      "titel": "Pluralismus vs. Korporatismus",
+      "folien": "S. 194–196, Tab. 7.4",
+      "text": "| | Pluralistisches System | Korporatistisches System |\n|---|---|---|\n| Verbände | viele konkurrierende, keine Spitzenverbände | wenige, mit Repräsentationsmonopol; nationale Spitzenverbände |\n| Staat–Verbände | keine Privilegierung, kein dauerhafter Austausch | Privilegierung, dauerhafte Koordination |\n| Demokratietyp (Lijphart) | Mehrheitsdemokratie | Konsensdemokratie |\n\nDeutschland ist nicht so korporatistisch wie Schweden oder Österreich, bindet Verbände aber in wichtigen Feldern ein – **Mischung je nach Politikfeld**."
+    },
+    {
+      "titel": "Zwei Politikfelder im Vergleich",
+      "folien": "S. 196–201",
+      "text": "| | Gesundheitspolitik | Tarifpolitik |\n|---|---|---|\n| Pluralistisch | über 300 Verbände; Gesundheitsausschuss hat die meisten Sachverständigen | konkurrierende Gewerkschaften (z. B. GdL vs. EVG) → mehr Streiks |\n| Korporatistisch | **Gemeinsamer Bundesausschuss (G-BA)**, seit 2004: Leistungserbringer (KBV, KZBV, DKG – 5), Krankenkassen (GKV-Spitzenverband – 5), Patienten (3, ohne Stimmrecht); BMG hat Rechtsaufsicht | **Tarifautonomie** (Art. 9 Abs. 3 GG, TVG 1949): Sozialpartner verhandeln ohne Staat; Urabstimmung 75 % für Streik, 25 % für Annahme |\n| Probleme | Patienteninteressen am schwächsten; Pharma, Apotheker nicht im G-BA; begrenzte Reformfähigkeit | Tarifflucht, Mitgliederverlust; Staat hilft nach (Mindestlohn und Tarifeinheitsgesetz 2015, Allgemeinverbindlichkeit § 5 TVG) |\n\nVorteil der Tarifautonomie für den Staat: **doppelte Entlastung** (keine eigenen Ressourcen, keine Verantwortung für Streiks/Abschlüsse). „Konzertierte Aktion“ (1967–1977) und „Bündnis für Arbeit“ (1998–2003) scheiterten an fehlender **Verpflichtungsfähigkeit**.\n\n*„Das deutsche Verbändesystem ist weder eindeutig dem korporatistischen noch dem pluralistischen Typ zuzuordnen.“* (S. 201)"
+    },
+    {
+      "titel": "Verbände im europäischen Mehrebenensystem",
+      "folien": "S. 201–206",
+      "text": "• Zwei Reaktionen auf die EU: **Euroverbände** (z. B. ETUC, BUSINESSEUROPE, COPA-COGECA, BEUC) und **Europäisierung** eigener Lobbyarbeit (Büros in Brüssel) – „Ko-Evolution“.\n• Euroverbände sind heterogen (oft „kleinster gemeinsamer Nenner“). EU-Transparenzregister (2020): 12.227 Einträge, davon 53,3 % Wirtschafts-/Berufsinteressen, 27,1 % NGOs (Tab. 7.5). Eintrag freiwillig, aber Voraussetzung für Treffen mit Kommissionsmitgliedern.\n• Hauptadressatin: **Kommission** (Initiativmonopol), daneben EP; Rat über die „nationale Schiene“. Der EWSA bleibt einflussarm.\n• Bilanz: besser als ihr Ruf – geringe Zugangshürden, keine strukturelle Bevorzugung ökonomischer Interessen; NGOs prägen eher die Agenda, Wirtschaftsverbände die Details."
+    },
+    {
+      "titel": "Antwort auf die Leitfrage",
+      "folien": "S. 206–209",
+      "text": "| Verbände stützen die Demokratie … | … aber es gibt Gefahren |\n|---|---|\n| bündeln und artikulieren Interessen, fördern Integration (Input) | Verbände mit hohem Veto-/Sanktionspotenzial können Reformen blockieren (z. B. Energie- und Verkehrswende) |\n| *„Kein Gesetz kommt ohne formelle wie informelle Verbändebeteiligung zustande.“* | ungleiche Durchsetzungschancen |\n| entlasten den Staat (Tarifpolitik, Gesundheit, Vollzug) | Transparenzproblem durch Lobbyakteure jenseits der Verbände |\n\nDrei Wege: (1) mehr **Transparenz und Kontrolle**, (2) der Staat **stärkt Verbände**, (3) Verbände werben selbst um Mitglieder.\n\n*„Verbände sind die angemessenste Organisationsform, um diesen Anspruch im und für das demokratische Regierungssystem zu realisieren.“* (S. 209)"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Verband",
+      "wortlaut": "Er bezeichnet eine auf Dauer gestellte Interessengruppe, die meist eine Rechtsform besitzt und über eine ausdifferenzierte Organisationsstruktur verfügt, um gemeinsame Ziele zu verfolgen",
+      "erklaerung": "Dauerhaft und formal organisierte Interessengruppe, die bereichsspezifische Interessen gegenüber Parlament und Regierung vertritt – ohne selbst bei Wahlen anzutreten.",
+      "folie": "S. 180"
+    },
+    {
+      "begriff": "Verbändesystem",
+      "wortlaut": "Er bezeichnet das Interaktionsgefüge sowohl unter den Verbänden als auch zwischen den Verbänden und dem Staat bzw. der Regierung.",
+      "erklaerung": "Gesamtheit der Beziehungen der Verbände untereinander und zum Staat.",
+      "folie": "S. 195"
+    },
+    {
+      "begriff": "Pluralistisches Verbändesystem",
+      "wortlaut": "In einem pluralistischen System gibt es zahlreiche kleine Verbände, die untereinander um Mitglieder und Einfluss konkurrieren und keinem überwölbenden Spitzenverband angehören.",
+      "erklaerung": "Viele konkurrierende Verbände ohne staatliche Privilegien und ohne dauerhafte Einbindung; typisch für Mehrheitsdemokratien.",
+      "folie": "S. 195"
+    },
+    {
+      "begriff": "Korporatistisches Verbändesystem",
+      "wortlaut": "In einem korporatistischen System existieren dagegen nur relativ wenige Verbände, die in ihren Interessenbereichen ein formales oder faktisches Repräsentationsmonopol haben und daher eine große Mitgliederzahl vorweisen können.",
+      "erklaerung": "Wenige große (Spitzen-)Verbände, die der Staat privilegiert und dauerhaft in Entscheidungen einbindet; typisch für Konsensdemokratien.",
+      "folie": "S. 195"
+    },
+    {
+      "begriff": "Organisationsgrad",
+      "wortlaut": "Er gibt Auskunft darüber, wie viele der Menschen, deren bereichsspezifisches Interesse vertreten werden soll, auch tatsächlich in einem Verband organisiert sind",
+      "erklaerung": "Anteil der Betroffenen, die Mitglied sind – Maß für Repräsentativität und Durchsetzungsstärke eines Verbands.",
+      "folie": "S. 187"
+    },
+    {
+      "begriff": "Lobbying",
+      "wortlaut": "Der Fokus beim Lobbying liegt allerdings weniger auf der Organisation und Repräsentation bestimmter Interessen, sondern auf der unmittelbaren politischen Einflussnahme.",
+      "erklaerung": "Direkte (inside) oder über die Öffentlichkeit vermittelte (outside) Einflussnahme auf politische Entscheidungen.",
+      "folie": "S. 191"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [],
+  "pruefungshinweise": [],
+  "offene_fragen": [
+    "G-BA (S. 197): Der Text nennt 13 stimmberechtigte Mitglieder, zählt aber nur 5 + 5 stimmberechtigte Vertreter und 3 Patientenvertreter ohne Stimmrecht auf, „von denen eines dem G-BA vorsitzt“. Das passt rechnerisch nicht zusammen (Ergänzung, nicht aus dem Text: Nach meinem Wissen gibt es zusätzlich drei unparteiische Mitglieder inkl. Vorsitz) – bitte ggf. im Seminar klären.",
+    "Abb. 7.1: Die Zwischenwerte (1981–2015) sind im extrahierten Text nicht eindeutig den Jahren zuzuordnen; übernommen wurden nur 635 (1974) und 2.317 (2020).",
+    "Buchstand 2021: Lobbyregistergesetz wird als „ab 2022“ beschrieben; aktueller Stand nicht Teil des Textes."
+  ]
+}

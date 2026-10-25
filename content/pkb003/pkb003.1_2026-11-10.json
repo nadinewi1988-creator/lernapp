@@ -1,0 +1,107 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pkb003",
+  "teilmodul": "pkb003.1",
+  "datum": "2026-11-10",
+  "sitzung_nr": 5,
+  "sitzung_id": "",
+  "thema": "Zusammenwirken von Bundestag und Bundesrat",
+  "thema_in_app": "eingetragen",
+  "stand": "entwurf",
+  "art_inhalt": "Zusammenfassung der Seminarliteratur (Präsentation durch Mitstudierende)",
+  "quellen": [
+    {
+      "datei": "pkb003.1/S05_2026-11-10_Stecker_Foederalismusreform.pdf",
+      "art": "Literatur: Stecker (2016), Regional & Federal Studies 26 (5) – englischsprachig",
+      "seiten": "603–624"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Wie hat die Föderalismus-Reform die Zusammenarbeit zwischen Bundestag und Bundesrat verändert?",
+      "art": "vorgegeben",
+      "quelle": "Leitfrage Kursplan",
+      "fragen": [],
+      "erklaerung_abschnitt": "Antwort auf die Leitfrage"
+    }
+  ],
+  "kurzfassung": [
+    "Vor der Reform brauchten über die Hälfte der Bundesgesetze die Zustimmung des Bundesrats – einer Kammer, in der die Regierung selten eine Mehrheit hatte. Das galt als undemokratisch (unklare Verantwortung) und als Ursache schlechter Politik („Reformstau“).",
+    "Die Zustimmungspflicht war eine unbeabsichtigte Folge: Der Parlamentarische Rat erwartete höchstens 10 % Zustimmungsgesetze. Gründe: Unitarisierung, die „Einheitstheorie“ des BVerfG (1958) und die Parteipolitisierung des Bundesrats.",
+    "Die Reform 2006 entschärfte vor allem den wichtigsten Auslöser, Art. 84 Abs. 1 GG (Regeln zum Verwaltungsverfahren der Länder), schuf aber einen neuen: Art. 104a Abs. 4 (Gesetze, die Länder Geld kosten).",
+    "Wirkung (alle 4.450 Gesetze 1978–2016): Die Zustimmungsquote sinkt von 55 % auf 39 %, auch bei wichtigen, umstrittenen Gesetzen. Bei Finanz-/Steuergesetzen bleibt sie aber bei rund 65 %.",
+    "Stecker bewertet das Ergebnis gemischt und vorsichtig: Die Reform war noch keiner echten Belastungsprobe ausgesetzt, weil seit 2006 oft Große Koalitionen regierten."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Ziel und Ansatz",
+      "folien": "S. 603–604",
+      "text": "• Ziele: Gesetzgebungsaufgaben von Bund und Ländern trennen, Einfluss des **Bundesrats-Vetos** verringern.\n• Änderungen: Rahmengesetzgebung (Art. 75) abgeschafft; **Abweichungsrecht** der Länder (Art. 72, 74); Zustimmungsauslöser Art. 84.1 entschärft; neues Veto bei Kosten für die Länder (Art. 104a.4).\n• Daten: alle **4.450** verkündeten Bundesgesetze vom 1.1.1978 bis 9.8.2016."
+    },
+    {
+      "titel": "Das Bundesrats-Veto: unbeabsichtigte Folge und Reformanlass",
+      "folien": "S. 604–609",
+      "text": "| Einspruchsgesetz | Zustimmungsgesetz |\n|---|---|\n| Bundesrat kann mit absoluter Mehrheit ein aufschiebendes Veto einlegen; der Bundestag kann es mit absoluter Mehrheit überstimmen | aktive Zustimmung der absoluten Mehrheit aller Bundesratsstimmen nötig – Enthaltungen wirken wie Nein |\n\n**Warum ein Problem?** Seit der Wiedervereinigung 50–60 % Zustimmungsgesetze, eine klare Bundesratsmehrheit hatte die Regierung nur in weniger als 17 % der Zeit.\n• **Demokratie:** informelle „große Koalition“ mit der Opposition oder Deals mit einzelnen Ländern – Mehrheitsprinzip verletzt, Verantwortung unklar.\n• **Politikqualität:** kleine Schritte oder teure Pakete. Swenden: *„in order to strike a deal, the ‘pie’ is enlarged rather than the shares among the actors redistributed“* (um sich zu einigen, wird der „Kuchen“ vergrößert, statt die Anteile umzuverteilen). Beispiel Schröders Steuer- und Rentenreform (2000/2001) mit Zugeständnissen an einzelne Länder.\n\n**Wie es dazu kam:** Der Parlamentarische Rat erwartete höchstens 10 % Zustimmungsgesetze.\n• **Unitarisierung:** wichtige Kompetenzen (auch Steuern) wanderten zum Bund, der Bundesrat wirkte mit.\n• **Verwaltungshoheit der Länder** (Art. 83, 84.1) plus **Einheitstheorie** des BVerfG (1958): das ganze Gesetz wird zustimmungspflichtig.\n• **Parteipolitisierung:** Statt „objektiver“ Kammer bipolare, verflochtene Parteiensysteme; ab den 1970ern nutzte die Union ihre Bundesratsmehrheit gegen SPD/FDP.\n• **Landtagswahlen als Zwischenwahlen:** seit 1949 in 72 % der Zeit keine regierungsfreundliche Mehrheit."
+    },
+    {
+      "titel": "Die Reform des Vetos",
+      "folien": "S. 609–612",
+      "text": "• Kommission ab 2003, Leitbild **Entflechtung**. Ministerpräsidenten wollten ihr Veto über umstrittene Politik nicht gegen ein Veto über Verwaltungstechnik tauschen.\n• **Neuer Art. 84.1:** (1) ohne Verfahrensregeln → zustimmungsfrei; (2) Verfahrensregeln, von denen die Länder abweichen dürfen → zustimmungsfrei (wirklich neu); (3) Abweichung ausgeschlossen *„in exceptional cases, owing to a special need for uniform federal legislation“* (in Ausnahmefällen wegen eines besonderen Bedürfnisses nach bundeseinheitlicher Regelung) → zustimmungspflichtig.\n• **Art. 104a.4** (Preis für den Bund): Zustimmungspflicht für Gesetze, die Länder zu Geld-, Sach- oder vergleichbaren Leistungen an Dritte verpflichten; früher galt eine 25-%-Kostengrenze, jetzt keine.\n• **Unangetastet:** Steuergesetze (Art. 105.3), Verordnungen (Art. 80.2).\n• In Kraft seit **1. September 2006** (durchgesetzt von der Großen Koalition). Kritik (Benz, Scharpf): falsches Leitbild, und dieselben Akteure verhandelten in eigener Sache – **Politikverflechtungsfalle**."
+    },
+    {
+      "titel": "Die Wirkung der Reform",
+      "folien": "S. 612–617",
+      "text": "Prognosen: Rückgang auf 27 % (Wiss. Dienste) bzw. nur auf rund 50 % (Burkhart/Manow). Die Einstufung ist teils **politisch umkämpft** (Streit bei 3,5 % aller Gesetze; 3,3 % bei regierungsfreundlichem, 5,9 % bei oppositionellem Bundesrat).\n\n| Messgröße | vorher | nachher |\n|---|---|---|\n| Zustimmungsgesetze (Durchschnitt) | 55 % | **39 %** |\n| direkt am Übergang | 51,1 % (Jan.–Sept. 2006) | 39,9 % (Sept. 2006–Dez. 2007) |\n| Auslöser Art. 84.1 | allein 40,2 % der Zustimmungsgesetze (+7 % kombiniert) | 8,9 % aller Gesetze |\n| Art. 104a.4 | – | 4 % (51 Gesetze) |\n| saliente Gesetze | 56 % | 31 % |\n| Finanzgesetze | rund 65 % | rund 65 % |\n\n• Der Bund verzichtet meist auf verbindliche Verfahrensregeln; die Länder weichen kaum ab (bis Juli 2009 drei Fälle).\n• Art. 105.3 stabil, Art. 80.2 löst sogar mehr Zustimmungen aus.\n• Keine Unterschiede zwischen den Kabinetten (Große Koalition wie Schwarz-Gelb)."
+    },
+    {
+      "titel": "Fazit des Autors",
+      "folien": "S. 617–618",
+      "text": "Deutlicher Rückgang (rund 17 % laut Stecker), auch bei wichtigen Gesetzen; die finanzielle Verflechtung blieb unangetastet. Vorsicht: Seit 2006 regierte in **55 %** der Zeit eine Große Koalition. Die echte Probe käme erst mit einer knappen Koalition gegen eine feindliche Bundesratsmehrheit und mit unvorhersehbaren BVerfG-Urteilen zu Art. 104a.4."
+    },
+    {
+      "titel": "Antwort auf die Leitfrage",
+      "text": "| Vorher | Nachher |\n|---|---|\n| über die Hälfte der Gesetze zustimmungspflichtig, v. a. wegen Art. 84.1 | rund 39 %; die Bundestagsmehrheit kann mehr ohne Bundesrat beschließen |\n| ständiger Kompromisszwang mit der Opposition, Paketlösungen | weniger Verhandlungszwang, klarere Verantwortung – aber nicht bei Finanzgesetzen (65 %) |\n| Verwaltungsregeln als Hebel der Länder | Abweichungsrecht; neuer Hebel über Kosten (Art. 104a.4), bisher wenig genutzt |\n\nKurz: Der **Zwang zur Zusammenarbeit wurde spürbar, aber nicht grundlegend** verringert; ob das bei gegensätzlichen Mehrheiten hält, ist offen."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Zustimmungsgesetz",
+      "wortlaut": "For consent laws (Zustimmungsgesetze), however, the active approval of an absolute majority of all votes in the Bundesrat is indispensable (making abstentions effectively count against a law’s passage).",
+      "erklaerung": "Gesetz, das nur mit aktiver Zustimmung der absoluten Mehrheit im Bundesrat zustande kommt; Enthaltungen wirken wie Nein-Stimmen (absolutes Veto).",
+      "folie": "S. 605"
+    },
+    {
+      "begriff": "Einspruchsgesetz",
+      "wortlaut": "For objection laws (Einspruchsgesetze) an absolute majority of votes in the Bundesrat may invoke a suspensive veto that can be overturned by an absolute majority in the Bundestag.",
+      "erklaerung": "Der Bundesrat kann nur ein aufschiebendes Veto einlegen, das der Bundestag überstimmen kann.",
+      "folie": "S. 605"
+    },
+    {
+      "begriff": "Einheitstheorie",
+      "wortlaut": "The court’s interpretation, the so-called Einheitstheorie, stipulated that any law passed by the Bundestag had to be treated as an inseparable unit, meaning that both legal norms on the substantive intent and implementation were subject to the consent of the Bundesrat.",
+      "erklaerung": "BVerfG 1958: Ein Gesetz ist eine Einheit – enthält es Regeln zum Verwaltungsverfahren der Länder, ist das ganze Gesetz zustimmungspflichtig.",
+      "folie": "S. 608"
+    },
+    {
+      "begriff": "Entflechtung",
+      "wortlaut": "Under the Leitbild of disentanglement (Entflechtung), the reform commission envisaged a clearer separation of tasks between the Land and the federal level […] and a significant reduction of the Bundesrat’s veto power.",
+      "erklaerung": "Leitbild der Föderalismusreform: Zuständigkeiten von Bund und Ländern trennen und das Bundesrats-Veto verringern.",
+      "folie": "S. 609–610"
+    },
+    {
+      "begriff": "Art. 104a Abs. 4 GG (neuer Zustimmungsauslöser)",
+      "wortlaut": "This article (104a.4) introduced a new consent trigger for laws that ‘oblige the Länder to provide money grants, benefits in kind, or comparable services to third persons’.",
+      "erklaerung": "Gesetze, die die Länder zu Leistungen an Dritte verpflichten (also Kosten verursachen), brauchen seit 2006 die Zustimmung des Bundesrats.",
+      "folie": "S. 611"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [],
+  "pruefungshinweise": [],
+  "offene_fragen": [
+    "Rückgang „around 17%“ (Abstract S. 603, S. 615, S. 617): 55 % → 39 % sind 16 Prozentpunkte; relativ wären es rund 29 %. Gemeint sind offenbar Prozentpunkte (gerundet).",
+    "Uneinheitliche Werte für Finanz-/Steuergesetze: „around 65%“ (Abstract S. 603; S. 617) vs. „around 66%“ (S. 604); zudem spricht der Abstract von „tax law“, die Analyse von „finance bills“.",
+    "S. 616: „Unanimous bills are those that were adopted by an all-party consensus in the second or third reading in the Bundesrat“ – 2./3. Lesung finden im Bundestag statt; vermutlich Schreibfehler.",
+    "Anhang S. 623–624: Bei der Regression heißt es, Koeffizienten unter 1 senkten die Wahrscheinlichkeit, „that an opposition party votes against the government“ – passt nicht zur abhängigen Variable (Zustimmungsgesetz ja/nein); Abb. A2 hat zudem dieselbe Bildunterschrift wie A1. Vermutlich Kopierfehler im Original."
+  ]
+}

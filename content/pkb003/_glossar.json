@@ -36,6 +36,594 @@
       "erklaerung": "Eine staatliche Maßnahme ist marktkonform, wenn sie hilft, ohne den Preismechanismus außer Kraft zu setzen (Müller-Armack).",
       "quelle": "pkb003.2_2026-10-26 · Pies (2021) S. 13",
       "abweichungen": []
+    },
+    {
+      "begriff": "Unvollständiger Vertrag",
+      "wortlaut": "Koalitionsvereinbarungen können als unvollständige Verträge interpretiert werden (Salanié, 2005), in denen Regierungsparteien politische Gestaltungsmacht an ein Kabinett aus Bundeskanzlerin und Bundesministerinnen delegieren.",
+      "erklaerung": "Der Koalitionsvertrag kann nicht alle künftigen Fragen regeln und bleibt auslegungsbedürftig; deshalb braucht es zusätzliche Instrumente zur Konfliktlösung.",
+      "quelle": "pkb003.1_2026-10-27 · S. 133",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Ex-post-Mechanismen",
+      "wortlaut": "Ex-post-Mechanismen wirken nach dem Delegationsakt, im deutschen Fall also nach der Wahl der Bundeskanzlerin oder des Bundeskanzlers.",
+      "erklaerung": "Kontrollinstrumente während der Regierungszeit (Koalitionsausschuss, Expertenkommissionen, parlamentarische Kontrolle) – im Gegensatz zu Ex-ante-Mechanismen wie Koalitionsvertrag und Ressortverteilung.",
+      "quelle": "pkb003.1_2026-10-27 · S. 134",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kreuzstichverfahren",
+      "wortlaut": "Das sogenannte „Kreuzstichverfahren“, in dem Kabinettsminister der einen Partei mit parlamentarischen Staatssekretären oder Staatsministern anderer Parteizugehörigkeit gepaart werden",
+      "erklaerung": "Gegenseitige Kontrolle im Ministerium durch einen „Aufpasser“ des Koalitionspartners; unter Merkel IV nicht genutzt.",
+      "quelle": "pkb003.1_2026-10-27 · S. 139",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Koalitionsausschuss",
+      "wortlaut": "Er berät Angelegenheiten von grundsätzlicher Bedeutung, die zwischen den Koalitionspartnern abgestimmt werden müssen.",
+      "erklaerung": "Gremium der Koalitionsspitzen (Kanzlerin, Vizekanzler, Partei- und Fraktionsvorsitzende) zur Lösung von Streitfragen; zitiert aus dem Koalitionsvertrag 2018.",
+      "quelle": "pkb003.1_2026-10-27 · S. 146",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Zwei-Ebenen-Verhandlungsspiel",
+      "wortlaut": "in denen auf höchster Ebene Vertreterinnen und Vertreter der Parteien im Kabinett, in Koalitionsausschüssen und in informellen Gremien die Politik der Regierung in konkreten Fragen der Tagespolitik aushandeln, die Ergebnisse dieser Verhandlungen allerdings durch weitere Verhandlungen und Ratifikationsprozesse in den Parteien abgesichert werden müssen",
+      "erklaerung": "Koalitionskompromisse müssen doppelt bestehen: zwischen den Parteispitzen und innerhalb der eigenen Partei (nach Putnam 1988).",
+      "quelle": "pkb003.1_2026-10-27 · S. 132",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Strucksches Gesetz",
+      "wortlaut": "Das „Strucksche Gesetz“, nach dem kein Entwurf den Bundestag so verlässt, wie er eingebracht wurde",
+      "erklaerung": "Faustregel für die Macht des Parlaments: Gesetzentwürfe werden im Bundestag, vor allem in den Ausschüssen, fast immer verändert.",
+      "quelle": "pkb003.1_2026-11-03 · S. 743",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Öffentliche Anhörung",
+      "wortlaut": "Zur Information über einen Gegenstand seiner Beratung kann ein Ausschuss öffentliche Anhörungen von Sachverständigen, Interessenvertretern und anderen Auskunftspersonen vornehmen.",
+      "erklaerung": "Formaler Weg, auf dem Verbände, Wissenschaft und Behörden in der Ausschussphase Stellung nehmen (§ 70 GO-BT, im Text zitiert).",
+      "quelle": "pkb003.1_2026-11-03 · S. 748",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Pluralismus",
+      "wortlaut": "Ersterer liegt die normative Ansicht zu Grunde, dass die Vielfalt an Meinungen und Interessen die komplexen Ansichten einer Gesellschaft widerspiegelt und es somit gewollt ist, dass diese sich ebenso vielfältig artikulieren und in den politischen Prozess einbringen.",
+      "erklaerung": "Viele gleichberechtigte, konkurrierende Interessengruppen; der Staat steht darüber.",
+      "quelle": "pkb003.1_2026-11-03 · S. 744",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Korporatismus",
+      "wortlaut": "Während allerdings in pluralistischen Systemen viele Interessen miteinander konkurrieren, sind im Korporatismus nur wenige, hierarchisch strukturierte Interessengruppen mit funktionaler Trennung vorhanden.",
+      "erklaerung": "Wenige große (Dach-)Verbände, die der Staat institutionell in Entscheidungen einbindet (klassisch: Gewerkschaften und Arbeitgeber).",
+      "quelle": "pkb003.1_2026-11-03 · S. 744",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Effektive Verbändeanzahl",
+      "wortlaut": "Das Idealbild eines korporatistischen Systems ließe eine effektive Verbändeanzahl von zwei erwarten, im Fall von Klientelismus nur von eins.",
+      "erklaerung": "Übertragung des Laakso-Taagepera-Index: Verbände werden nach ihrem Anteil an den Stellungnahmen gewichtet; je höher der Wert, desto fragmentierter (pluralistischer).",
+      "quelle": "pkb003.1_2026-11-03 · S. 761",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Zustimmungsgesetz",
+      "wortlaut": "For consent laws (Zustimmungsgesetze), however, the active approval of an absolute majority of all votes in the Bundesrat is indispensable (making abstentions effectively count against a law’s passage).",
+      "erklaerung": "Gesetz, das nur mit aktiver Zustimmung der absoluten Mehrheit im Bundesrat zustande kommt; Enthaltungen wirken wie Nein-Stimmen (absolutes Veto).",
+      "quelle": "pkb003.1_2026-11-10 · S. 605",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Einspruchsgesetz",
+      "wortlaut": "For objection laws (Einspruchsgesetze) an absolute majority of votes in the Bundesrat may invoke a suspensive veto that can be overturned by an absolute majority in the Bundestag.",
+      "erklaerung": "Der Bundesrat kann nur ein aufschiebendes Veto einlegen, das der Bundestag überstimmen kann.",
+      "quelle": "pkb003.1_2026-11-10 · S. 605",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Einheitstheorie",
+      "wortlaut": "The court’s interpretation, the so-called Einheitstheorie, stipulated that any law passed by the Bundestag had to be treated as an inseparable unit, meaning that both legal norms on the substantive intent and implementation were subject to the consent of the Bundesrat.",
+      "erklaerung": "BVerfG 1958: Ein Gesetz ist eine Einheit – enthält es Regeln zum Verwaltungsverfahren der Länder, ist das ganze Gesetz zustimmungspflichtig.",
+      "quelle": "pkb003.1_2026-11-10 · S. 608",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Entflechtung",
+      "wortlaut": "Under the Leitbild of disentanglement (Entflechtung), the reform commission envisaged a clearer separation of tasks between the Land and the federal level […] and a significant reduction of the Bundesrat’s veto power.",
+      "erklaerung": "Leitbild der Föderalismusreform: Zuständigkeiten von Bund und Ländern trennen und das Bundesrats-Veto verringern.",
+      "quelle": "pkb003.1_2026-11-10 · S. 609–610",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Art. 104a Abs. 4 GG (neuer Zustimmungsauslöser)",
+      "wortlaut": "This article (104a.4) introduced a new consent trigger for laws that ‘oblige the Länder to provide money grants, benefits in kind, or comparable services to third persons’.",
+      "erklaerung": "Gesetze, die die Länder zu Leistungen an Dritte verpflichten (also Kosten verursachen), brauchen seit 2006 die Zustimmung des Bundesrats.",
+      "quelle": "pkb003.1_2026-11-10 · S. 611",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Justizialisierung",
+      "wortlaut": "Sie besagt, dass durch die Aktivität von Verfassungsgerichten die Sphäre der Politik zunehmend begrenzt wird.",
+      "erklaerung": "Verfassungsgerichte engen den Spielraum von Parlament und Regierung zunehmend ein.",
+      "quelle": "pkb003.1_2026-11-24 · S. 509",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Negativer Gesetzgeber",
+      "wortlaut": "Mit der Einrichtung von Verfassungsgerichten in mehreren Wellen nach dem Zweiten Weltkrieg wurde folglich ein negativer Gesetzgeber (Kelsen 2008) geschaffen, der vom Parlament verabschiedete Normen aufheben und so in den politischen Prozess eingreifen kann.",
+      "erklaerung": "Das Gericht macht keine Gesetze, kann sie aber aufheben.",
+      "quelle": "pkb003.1_2026-11-24 · S. 509",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Vetospieler",
+      "wortlaut": "institutionellen oder parteipolitischen Akteuren, die ein Gesetzgebungsverfahren stoppen können",
+      "erklaerung": "Wer einen Gesetzentwurf blockieren kann (z. B. oppositioneller Bundesrat, Koalitionspartner, Verfassungsgericht), mit dem muss die Regierung Kompromisse schließen.",
+      "quelle": "pkb003.1_2026-11-24 · S. 514",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Autolimitation",
+      "wortlaut": "Neben der direkten Wirkung eines Urteils, der Annullierung eines Gesetzes, gibt es also noch eine zweite, indirekte Wirkung – eine Selbstbeschränkung der Regierung; es kommt zur Autolimitation (Stone 1992a).",
+      "erklaerung": "Die Regierung schreibt Gesetze vorsorglich so, dass das Gericht sie nicht kippt (juristisch: „Vorwirkung“). Auch Richter können sich so selbst beschränken.",
+      "quelle": "pkb003.1_2026-11-24 · S. 514",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Konkrete Normenkontrolle",
+      "wortlaut": "Bei einer konkreten Normenkontrolle wird eine Norm anlässlich eines konkreten Falles auf ihre Verfassungskonformität hin überprüft.",
+      "erklaerung": "Fachgerichte müssen dem BVerfG ein Gesetz vorlegen, wenn sie es im Einzelfall für verfassungswidrig halten.",
+      "quelle": "pkb003.1_2026-11-24 · S. 510",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Strategischer Kläger",
+      "wortlaut": "Hat die Regierung die Mehrheit der Richter ausgewählt, klagt die Opposition seltener, weil die Wahrscheinlichkeit einer Niederlage steigt. Sie ist ein strategischer Kläger.",
+      "erklaerung": "Die Opposition klagt nicht automatisch, sondern vor allem dann, wenn sie mit einem Sieg rechnet.",
+      "quelle": "pkb003.1_2026-11-24 · S. 516",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Partei",
+      "wortlaut": "Parteien sind dauerhaft angelegte Vereinigungen von Bürgerinnen, die gemeinsame politische Auffassungen vertreten und sich an demokratischen Wahlen beteiligen, um politische Entscheidungspositionen zu übernehmen",
+      "erklaerung": "Der Unterschied zu Verbänden und Bewegungen: Parteien stellen sich zur Wahl und wollen Ämter übernehmen.",
+      "quelle": "pkb003.1_2026-12-01 · S. 140",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Parteiensystem",
+      "wortlaut": "Als Parteiensystem bezeichnet man das Interaktionsverhältnis aller Parteien, die in einem demokratischen Regierungssystem miteinander konkurrieren und kooperieren",
+      "erklaerung": "Nicht die einzelne Partei, sondern das Zusammenspiel aller Parteien – erst zusammen spiegeln sie die gesellschaftliche Vielfalt wider.",
+      "quelle": "pkb003.1_2026-12-01 · S. 156",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Repräsentationslücke",
+      "wortlaut": "Wenn dies nicht gelingt oder sich bestimmte Gruppen mit ihren politischen Auffassungen nicht mehr durch die etablierten Parteien vertreten fühlen, können „Repräsentationslücken“ entstehen, die die Legitimität des Regierungssystems beeinträchtigen bzw. einen Aktionsraum für neue Parteien eröffnen",
+      "erklaerung": "Gruppen fühlen sich von keiner etablierten Partei vertreten – Chance für neue Parteien (Grüne, PDS/Linke, AfD).",
+      "quelle": "pkb003.1_2026-12-01 · S. 140–141",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Fragmentierung",
+      "wortlaut": "Den Grad an parteipolitischer Zersplitterung bzw. Konzentration der Parlamentsmandate bezeichnet man als Fragmentierung",
+      "erklaerung": "Gemessen über die Effektive Parteienzahl (1 geteilt durch die Summe der quadrierten Sitzanteile); 1949: 4,0, Phase 2: Ø 2,5, 2017–2021: 4,6.",
+      "quelle": "pkb003.1_2026-12-01 · S. 164–165",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Segmentierung",
+      "wortlaut": "Zum anderen gibt die Segmentierung „den Grad der gegenseitigen Abschottung der einzelnen Parteien wieder“",
+      "erklaerung": "Wie viele Parteien eine Zusammenarbeit miteinander ausschließen; hohe Segmentierung erschwert Koalitionen.",
+      "quelle": "pkb003.1_2026-12-01 · S. 165",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Volkspartei",
+      "wortlaut": "So haben etwa CDU und CSU, aber auch die SPD ihr programmatisches Angebot bewusst breiter gefasst, um ihre Wählerbasis umfassend anzulegen. Daher werden sie auch als Volksparteien bezeichnet",
+      "erklaerung": "Partei, die viele unterschiedliche Gruppen ansprechen will statt nur eine Klientel.",
+      "quelle": "pkb003.1_2026-12-01 · S. 158",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Verband",
+      "wortlaut": "Er bezeichnet eine auf Dauer gestellte Interessengruppe, die meist eine Rechtsform besitzt und über eine ausdifferenzierte Organisationsstruktur verfügt, um gemeinsame Ziele zu verfolgen",
+      "erklaerung": "Dauerhaft und formal organisierte Interessengruppe, die bereichsspezifische Interessen gegenüber Parlament und Regierung vertritt – ohne selbst bei Wahlen anzutreten.",
+      "quelle": "pkb003.1_2026-12-08 · S. 180",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Verbändesystem",
+      "wortlaut": "Er bezeichnet das Interaktionsgefüge sowohl unter den Verbänden als auch zwischen den Verbänden und dem Staat bzw. der Regierung.",
+      "erklaerung": "Gesamtheit der Beziehungen der Verbände untereinander und zum Staat.",
+      "quelle": "pkb003.1_2026-12-08 · S. 195",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Pluralistisches Verbändesystem",
+      "wortlaut": "In einem pluralistischen System gibt es zahlreiche kleine Verbände, die untereinander um Mitglieder und Einfluss konkurrieren und keinem überwölbenden Spitzenverband angehören.",
+      "erklaerung": "Viele konkurrierende Verbände ohne staatliche Privilegien und ohne dauerhafte Einbindung; typisch für Mehrheitsdemokratien.",
+      "quelle": "pkb003.1_2026-12-08 · S. 195",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Korporatistisches Verbändesystem",
+      "wortlaut": "In einem korporatistischen System existieren dagegen nur relativ wenige Verbände, die in ihren Interessenbereichen ein formales oder faktisches Repräsentationsmonopol haben und daher eine große Mitgliederzahl vorweisen können.",
+      "erklaerung": "Wenige große (Spitzen-)Verbände, die der Staat privilegiert und dauerhaft in Entscheidungen einbindet; typisch für Konsensdemokratien.",
+      "quelle": "pkb003.1_2026-12-08 · S. 195",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Organisationsgrad",
+      "wortlaut": "Er gibt Auskunft darüber, wie viele der Menschen, deren bereichsspezifisches Interesse vertreten werden soll, auch tatsächlich in einem Verband organisiert sind",
+      "erklaerung": "Anteil der Betroffenen, die Mitglied sind – Maß für Repräsentativität und Durchsetzungsstärke eines Verbands.",
+      "quelle": "pkb003.1_2026-12-08 · S. 187",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Lobbying",
+      "wortlaut": "Der Fokus beim Lobbying liegt allerdings weniger auf der Organisation und Repräsentation bestimmter Interessen, sondern auf der unmittelbaren politischen Einflussnahme.",
+      "erklaerung": "Direkte (inside) oder über die Öffentlichkeit vermittelte (outside) Einflussnahme auf politische Entscheidungen.",
+      "quelle": "pkb003.1_2026-12-08 · S. 191",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Vierte Gewalt",
+      "wortlaut": "Zugleich wirken sie als öffentliche Kontrollinstanz der Politik und gelten deshalb als „Vierte Gewalt“",
+      "erklaerung": "Medien kontrollieren durch Öffentlichkeit die politischen Institutionen – neben Legislative, Exekutive und Judikative.",
+      "quelle": "pkb003.1_2026-12-15 · S. 211",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Duales System",
+      "wortlaut": "Erst 1984 wurden privatwirtschaftliche Rundfunk- und Fernsehsender gesetzlich erlaubt, die die öffentlich-rechtlichen Anstalten ergänzen. Seitdem wird von einem dualen System gesprochen.",
+      "erklaerung": "Nebeneinander von gebührenfinanziertem öffentlich-rechtlichem und werbefinanziertem privatem Rundfunk.",
+      "quelle": "pkb003.1_2026-12-15 · S. 215",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Grundversorgung",
+      "wortlaut": "nicht im Sinne eines Mindestangebots, sondern eines ausgewogenen, vielfältigen und flächendeckend erreichbaren Programms",
+      "erklaerung": "Auftrag der öffentlich-rechtlichen Anstalten: ein umfassendes, ausgewogenes Programm für alle.",
+      "quelle": "pkb003.1_2026-12-15 · S. 216",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Binnenpluralismus",
+      "wortlaut": "Ein weiteres Merkmal öffentlich-rechtlicher Medienanstalten ist, dass sie zur Sicherung eines vielfältigen Programmangebots „binnenpluralistisch“ organisiert sind.",
+      "erklaerung": "Vielfalt wird intern gesichert – durch Aufsichtsgremien (Rundfunkräte) mit Vertretern verschiedener gesellschaftlicher Gruppen.",
+      "quelle": "pkb003.1_2026-12-15 · S. 217",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Gatekeeper",
+      "wortlaut": "die klassische Gatekeeper-Funktion von Journalistinnen und Redaktionen, die in der „alten“ Medienwelt darüber entscheiden, welche Personen, Positionen und Ereignisse öffentlich werden",
+      "erklaerung": "Redaktionen filtern, was öffentlich wird; in sozialen Medien fällt dieser Filter zunehmend weg.",
+      "quelle": "pkb003.1_2026-12-15 · S. 224",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Telemedien",
+      "wortlaut": "Telemedien ist ein Rechtsbegriff, der elektronische Informations- und Kommunikationsdienste umfasst.",
+      "erklaerung": "Rechtlicher Sammelbegriff für Online-Dienste; für die individuelle Mediennutzung ist laut Text der Bund zuständig.",
+      "quelle": "pkb003.1_2026-12-15 · S. 220 (Fn. 1)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Homogenitätsgebot",
+      "wortlaut": "Dieses Homogenitätsgebot des Grundgesetzes bezieht sich nur auf die Strukturprinzipien ihrer Regierungssysteme, wie Gewaltenteilung und unabhängige Justiz (Abschn. 2.2).",
+      "erklaerung": "Art. 28 Abs. 1 GG: Die Landesverfassungen müssen den Grundsätzen des republikanischen, demokratischen und sozialen Rechtsstaats entsprechen; im Detail sind die Länder frei.",
+      "quelle": "pkb003.1_2027-01-05 · S. 353",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Geschlossene Exekutive",
+      "wortlaut": "Da beide Aufgaben in einer Hand liegen, wird auch von einer „geschlossenen Exekutive“ gesprochen (Steffani 1979, S. 41).",
+      "erklaerung": "Der Ministerpräsident ist Regierungschef und übernimmt zugleich die Repräsentationsaufgaben eines Staatsoberhaupts – im Bund sind beide Ämter getrennt.",
+      "quelle": "pkb003.1_2027-01-05 · S. 358",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Konstruktives Misstrauensvotum",
+      "wortlaut": "Wie im Bund kann der Regierungschef in den meisten Ländern vom Parlament abberufen werden, wenn es zugleich einen Amtsnachfolger wählt (konstruktives Misstrauensvotum).",
+      "erklaerung": "Abwahl nur mit gleichzeitiger Wahl eines Nachfolgers; Varianten z. B. in Berlin (gestaffelt-konstruktiv) oder mit Parlamentsauflösung (HE, RP, SL).",
+      "quelle": "pkb003.1_2027-01-05 · S. 360",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Direkte Demokratie",
+      "wortlaut": "alle Formen polit[ischer] Willensbildung und Endscheidung, bei denen die Bürger unmittelbar über bestimmte policies […] abstimmen",
+      "erklaerung": "Sachentscheidungen durch die Bürger selbst statt durch gewählte Vertreter („Endscheidung“ so im Original).",
+      "quelle": "pkb003.1_2027-01-05 · S. 366",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Volksgesetzgebung",
+      "wortlaut": "Das wichtigste direktdemokratische Instrument auf Länderebene ist die Volksgesetzgebung, bei der Bürgerinnen einen Gesetzesvorschlag ausarbeiten und zu einer verbindlichen Volksabstimmung stellen können.",
+      "erklaerung": "Dreistufiges Verfahren (Volksinitiative/Antrag – Volksbegehren – Volksentscheid), in allen Ländern vorhanden, im Bund nicht.",
+      "quelle": "pkb003.1_2027-01-05 · S. 366",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Zustimmungs- und Beteiligungsquorum",
+      "wortlaut": "Zustimmungsquoren schreiben einen Mindestanteil an Ja-Stimmen aller Stimmberechtigten vor, bei Beteiligungsquoren ist eine Mindestbeteiligung der Stimmberechtigten Voraussetzung für die Gültigkeit des Abstimmungsergebnisses",
+      "erklaerung": "Hürden beim Volksentscheid; meist Zustimmungsquoren zwischen 15 und 25 %, in RP ein Beteiligungsquorum, in Sachsen kein Quorum.",
+      "quelle": "pkb003.1_2027-01-05 · S. 368",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Resilienz (der Demokratie)",
+      "wortlaut": "Gemeint ist damit die Fähigkeit eines demokratischen Regierungssystems, seine Funktions- und Leistungsfähigkeit auch unter schwierigen Rahmenbedingungen aufrechtzuerhalten.",
+      "erklaerung": "Widerstandsfähigkeit: Die Demokratie funktioniert auch in Krisen weiter und behält ihre Zustimmung.",
+      "quelle": "pkb003.1_2027-01-12 · S. 405",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Resilienz in Krisen",
+      "wortlaut": "In Krisen zeigt sich besonders, ob eine Demokratie hinreichend widerstandsfähig ist, also über Puffer und Reserven verfügt, um ihre konstitutiven Prinzipien, Institutionen und Verfahren auch unter schwierigen Bedingungen funktions- und zustimmungsfähig zu halten.",
+      "erklaerung": "Resilienz muss vorher aufgebaut werden (Puffer, Reserven) und zeigt sich dann in der Krise.",
+      "quelle": "pkb003.1_2027-01-12 · S. 422",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Parlamentarisches System mit Regierungsdominanz",
+      "wortlaut": "Ihr politisch-institutionelles Zentrum bildet ein parlamentarisches System mit Regierungsdominanz, das in ein umfangreiches Geflecht von checks and balances eingebettet ist",
+      "erklaerung": "Deutschland ist weder reine Mehrheits- noch reine Konsensdemokratie: Die Regierung ist stark, wird aber durch Bundesrat, Föderalismus, BVerfG usw. begrenzt.",
+      "quelle": "pkb003.1_2027-01-12 · S. 407",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Neue Autoritarismen",
+      "wortlaut": "Damit wird die liberale Demokratie durch eine Systemalternative herausgefordert, die wirtschaftliche Prosperität, technologischen Fortschritt und Massenkonsum auf der Output-Seite mit autoritären Strukturen auf der Input-Seite verbindet.",
+      "erklaerung": "Autoritäre Regime (v. a. China, Russland), die mit wirtschaftlichem Erfolg werben und so die Demokratie herausfordern.",
+      "quelle": "pkb003.1_2027-01-12 · S. 409",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Hybrides Mediensystem",
+      "wortlaut": "Darin werden analoge und digitale Formate sowohl von den privaten als auch von den öffentlich-rechtlichen Medienanbietern vielfältig miteinander verbunden und aufeinander bezogen, um die Aufmerksamkeit und die Reichweite für ihre Angebote zu erhöhen.",
+      "erklaerung": "Verschmelzung von klassischen und digitalen Medien; soziale Medien umgehen den Journalismus als Gatekeeper.",
+      "quelle": "pkb003.1_2027-01-12 · S. 412",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Gewerkschaften",
+      "wortlaut": "Gewerkschaften (G) sind auf Dauer angelegte, staats-, partei- und gegnerunabhängige Vereinigungen von und für Arbeitnehmer/n, die auf freiwilliger Mitgliedschaft basieren.",
+      "erklaerung": "Unabhängige, beitragsfinanzierte Interessenverbände der abhängig Beschäftigten; Kernaufgabe ist der Abschluss von Tarifverträgen.",
+      "quelle": "pkb003.2_2026-11-02 · S. 1",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Koalitionsfreiheit",
+      "wortlaut": "Die rechtliche Grundlage für G.en findet sich im Art. 9 des ! Grundgesetzes, der neben der Vereinigungsfreiheit als Staatsbürgerrecht (Art. 9 Abs. 1) in Absatz 3 die Koalitionsfreiheit „für jedermann und für alle Berufe“ gewährt „zur Wahrung und Förderung der Arbeits- und Wirtschaftsbedingungen“.",
+      "erklaerung": "Grundrecht, Gewerkschaften (und Arbeitgeberverbände) zu bilden und sich in ihnen zu betätigen. Das „!“ ist im Lexikon ein Verweiszeichen.",
+      "quelle": "pkb003.2_2026-11-02 · S. 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Tarifautonomie",
+      "wortlaut": "Der Grundgesetzschutz des Artikels 9 Abs. 3 umfasst nicht nur die Bildung und den Bestand von G.en gegen staatliche und private Eingriffe, sondern auch die Tarifautonomie von Arbeitgebern und G.en.",
+      "erklaerung": "Gewerkschaften und Arbeitgeber handeln Löhne und Arbeitsbedingungen ohne staatliche Bevormundung aus – notfalls mit Arbeitskampf.",
+      "quelle": "pkb003.2_2026-11-02 · S. 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Duale Repräsentation",
+      "wortlaut": "Zwar sieht das Betriebsverfassungsgesetz (BetrVG von 1952, novelliert 1972 und 2001) eine deutliche Scheidung zwischen G.en und betrieblicher Interessenvertretung vor („duale Repräsentation“), doch besteht in der Praxis bei der Mehrzahl der Betriebsvertretungen eine Gewerkschaftsbindung.",
+      "erklaerung": "Zwei getrennte Kanäle der Interessenvertretung: Gewerkschaft (überbetrieblich, Tarifverträge) und Betriebsrat (im Betrieb) – in der Praxis eng verbunden.",
+      "quelle": "pkb003.2_2026-11-02 · S. 4",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Tarifpluralität",
+      "wortlaut": "Sie wurde forciert durch ein Urteil des Bundesarbeitsgerichts im Jahr 2010 (BAG, Beschluss v. 23.06.2010, 10 AS 3/10), das in Abkehr von der bisherigen Rechtsprechung den Grundsatz der Tarifeinheit im Betrieb aufgab und Tarifpluralität konkurrierender G. im Betrieb zuließ.",
+      "erklaerung": "Mehrere Gewerkschaften mit eigenen Tarifverträgen im selben Betrieb (z. B. GDL und EVG bei der Bahn); das Tarifeinheitsgesetz 2015 soll das eingrenzen.",
+      "quelle": "pkb003.2_2026-11-02 · S. 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Religionsgemeinschaft",
+      "wortlaut": "einen Verband, der „die Angehörigen ein und desselben Glaubensbekenntnisses oder mehrerer verwandter Glaubensbekenntnisse zu allseitiger Erfüllung der durch das gemeinsame Bekenntnis gestellten Aufgaben zusammenfasst“",
+      "erklaerung": "Voraussetzung für Religionsunterricht und Körperschaftsstatus: Zusammenschluss natürlicher Personen mit gemeinsamem Bekenntnis zur umfassenden Glaubenspflege (nicht nur Teilaufgaben wie ein religiöser Verein).",
+      "quelle": "pkb003.2_2026-11-09 · S. 194",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Positive Neutralität",
+      "wortlaut": "Es besteht nach Art. 140 GG i. V. m. Art. 137 Abs. 1 WRV in Deutschland zwar keine Staatskirche, gleichwohl darf der Staat – anders als in laizistisch verfassten Staaten – mit den Religionsgemeinschaften kooperieren",
+      "erklaerung": "Der Staat identifiziert sich mit keiner Religion, arbeitet aber mit Religionsgemeinschaften zusammen – Gegenmodell zur strikten Trennung (Laizismus).",
+      "quelle": "pkb003.2_2026-11-09 · S. 193",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Körperschaft des öffentlichen Rechts",
+      "wortlaut": "Zu den Privilegien, die sich aus diesem Status unmittelbar aus der Verfassung ergeben, gehören etwa die Befugnis der Organisation, Steuern von ihren Mitgliedern zu erheben (Art. 137 Abs. 6 WRV) und als Dienstherr Beamtenverhältnisse zu begründen",
+      "erklaerung": "Sonderstatus nach Art. 140 GG i. V. m. Art. 137 Abs. 5 WRV mit Steuerrecht, Dienstherrenfähigkeit und weiteren Vorteilen („Privilegienbündel“).",
+      "quelle": "pkb003.2_2026-11-09 · S. 193",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Beiratsmodell",
+      "wortlaut": "Dieses Beiratsmodell sieht vor, ein gemeinsames Gremium einzuberufen, in dem verschiedene muslimische Verbandsvertreter, aber auch Muslime, die nicht in eine Organisation eingebunden sind, gemeinsam die Aufgaben übernehmen, die einer Religionsgemeinschaft im Rahmen ihres Mitbestimmungsrechts aus Art. 7 Abs. 3 S. 2 GG zukommen.",
+      "erklaerung": "Übergangslösung für Islamunterricht (NRW, Niedersachsen) und Islamische Theologie: Mitsprache ohne Anerkennung als Religionsgemeinschaft und ohne Rechtsanspruch.",
+      "quelle": "pkb003.2_2026-11-09 · S. 205",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Organisatorisches Band",
+      "wortlaut": "Entscheidend sei, ob ein „organisatorisches Band“ (BVerwGE 123, 49 (57)) zwischen Dachverbands- und Gemeindeebene bestünde",
+      "erklaerung": "Kriterium des BVerwG (2005): Ein Dachverband kann Religionsgemeinschaft sein, wenn eine nachvollziehbare Verbindung bis zu den Gläubigen in den Moscheegemeinden besteht.",
+      "quelle": "pkb003.2_2026-11-09 · S. 200",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Deutsche Islamkonferenz (DIK)",
+      "wortlaut": "Das Plenum der DIK hat keine Entscheidungskompetenz, sondern kann lediglich Empfehlungen und Stellungnahmen abgeben.",
+      "erklaerung": "Seit 2006 vom Bundesinnenminister einberufenes, paritätisch besetztes Dialogforum zwischen Staat und Muslimen.",
+      "quelle": "pkb003.2_2026-11-09 · S. 211",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Stille Reserve",
+      "wortlaut": "Unter Nichterwerbstätigen sind auch Personen, die zwar nicht aktuell arbeitsuchend und damit auch nicht arbeitslos sind, aber bei günstiger Arbeitsmarktlage eine Beschäftigung suchen und vermutlich auch finden würden. […] Dieser Personenkreis wird als „Stille Reserve“ bezeichnet.",
+      "erklaerung": "Menschen, die gerade keine Arbeit suchen (z. B. weil sie keine Chance sehen), aber bei guter Lage arbeiten würden – ein Puffer für den Arbeitsmarkt.",
+      "quelle": "pkb003.2_2026-11-23 · S. 298",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Erwerbspersonen",
+      "wortlaut": "Erwerbspersonen sind Menschen, die einer wirtschaftlichen Tätigkeit nachgehen, d. h. gegen Entgelt eine Arbeit verrichten oder eine solche suchen.",
+      "erklaerung": "Erwerbstätige plus Erwerbslose; Nichterwerbspersonen arbeiten nicht und suchen auch nicht.",
+      "quelle": "pkb003.2_2026-11-23 · S. 298",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Demografischer Rückenwind",
+      "wortlaut": "Brussig et al. (2008) sprechen hier vom „demografischen Rückenwind“, der einen eigenständigen positiven Effekt auf die Entwicklung der Alterserwerbsbeteiligung hat.",
+      "erklaerung": "Wenn die Gruppe der 55- bis unter 65-Jährigen von den Jüngeren geprägt ist, steigt deren Erwerbstätigenquote insgesamt, ohne dass sich jemand anders verhält.",
+      "quelle": "pkb003.2_2026-11-23 · S. 300",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Lump of labour-Illusion",
+      "wortlaut": "Dieser, oftmals als „Lump of labour-Illusion“ apostrophierten Auffassung zufolge, ist die Menge an Arbeit in einer Gesellschaft mehr oder weniger fixiert, und damit auch die Zahl der Arbeitsplätze, für deren Neubesetzung durch Jugendliche die Verrentung der Älteren erforderlich sei.",
+      "erklaerung": "Falsche Annahme, Ältere müssten in Rente gehen, damit Jüngere Arbeit finden; für Deutschland laut Brussig nicht zutreffend.",
+      "quelle": "pkb003.2_2026-11-23 · S. 302",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Alternsgerechte Personalpolitik",
+      "wortlaut": "Betriebliche Personalpolitik muss auch Bedingungen schaffen, damit die Beschäftigten bis in ein höheres Alter hinein erwerbstätig sein können (alternsgerechte Personalpolitik).",
+      "erklaerung": "Nicht nur Maßnahmen für die heute Älteren (altersgerecht), sondern Arbeitsbedingungen über das ganze Erwerbsleben, die langes Arbeiten ermöglichen.",
+      "quelle": "pkb003.2_2026-11-23 · S. 313",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Fluide und kristalline Intelligenz",
+      "wortlaut": "Fluide Intelligenz „äußert sich in einer schnellen Auffassungsgabe, einer hohen Verarbeitungsgeschwindigkeit von Informationen, im schlussfolgernden Denken und in der Abstraktionsfähigkeit“ (Schneider 2007a, S. 7).",
+      "erklaerung": "Fluide Intelligenz ist in jungen Jahren ausgeprägt und lässt nach; kristalline Intelligenz (Erfahrung, Wissen, Sprache) bleibt stabil oder wächst – Erklärung für den umgekehrt U-förmigen Zusammenhang von Alter und Innovation.",
+      "quelle": "pkb003.2_2026-11-23 · S. 311",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Unterbeschäftigungsquote",
+      "wortlaut": "Prozentualer Anteil der Personen, die arbeitslos sind oder sich in arbeitsmarktpolitischen Maßnahmen oder in einem Sonderstatus befinden (insbesondere kurzfristig arbeitsunfähige Personen), an der Summe aus allen zivilen Erwerbspersonen, Personen in arbeitsmarktpolitischen Maßnahmen und Personen in einem Sonderstatus.",
+      "erklaerung": "Breiter als die Arbeitslosenquote, weil sie auch Menschen in Fördermaßnahmen erfasst – zeigt besser das Defizit an regulärer Beschäftigung.",
+      "quelle": "pkb003.2_2026-11-30 · S. 70 (Glossar), vgl. S. 12",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kapitalkoeffizient",
+      "wortlaut": "Relation des Kapitalstocks zum Bruttoinlandsprodukt.",
+      "erklaerung": "Ist er im Osten höher als im Westen, wird dort mit gleich viel Kapital weniger erwirtschaftet – die Kapitalproduktivität ist niedriger, ein Kapitalmangel liegt nicht vor.",
+      "quelle": "pkb003.2_2026-11-30 · S. 68 (Glossar), vgl. S. 12",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Steuerdeckungsquote",
+      "wortlaut": "Sie zeigt den Anteil der Ausgaben auf der Landesebene, der durch eigene Steuereinnahmen gedeckt wird.",
+      "erklaerung": "Maß für die finanzielle Eigenständigkeit eines Landes; im Osten niedriger wegen geringerer Produktivität und Einkommen.",
+      "quelle": "pkb003.2_2026-11-30 · S. 21",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Nichtbesetzungsquote",
+      "wortlaut": "Nichtbesetzungsquote = Anteil der nicht besetzten offenen Stellen an den insgesamt angebotenen Stellen für Fachkräfte",
+      "erklaerung": "Indikator für Fachkräftemangel; 2017 blieb in Ost und West mehr als jede dritte Fachkräftestelle unbesetzt.",
+      "quelle": "pkb003.2_2026-11-30 · S. 56 (Abb. 25)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Blaue Karte EU",
+      "wortlaut": "Hierbei handelt es sich um Genehmigungen für die Beschäftigung von Ausländern mit einem Hochschulabschluss, die zudem ein bestimmtes Mindesteinkommen erzielen müssen.",
+      "erklaerung": "Aufenthaltstitel für Hochqualifizierte aus Nicht-EU-Staaten; wird im Osten (außer Berlin) unterdurchschnittlich oft erteilt.",
+      "quelle": "pkb003.2_2026-11-30 · S. 15",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Export premium",
+      "wortlaut": "Die empirische Produktivitätsforschung zeigt, dass Exporteure sich im Vergleich zu Nicht-Exporteuren durch eine höhere Produktivität auszeichnen (export premium).",
+      "erklaerung": "Exportierende Unternehmen sind produktiver – ein Grund, warum die geringere Exportintensität im Osten zur Produktivitätslücke passt.",
+      "quelle": "pkb003.2_2026-11-30 · S. 21",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Koordinierte Marktwirtschaft",
+      "wortlaut": "nordeuropäischen „koordinierten Marktwirtschaften“, gekennzeichnet durch exportbasierte Wachstumsmodelle, die auf weitgehender Lohnabstimmung, hoch entwickelten Berufsausbildungssystemen, forschungs- und entwicklungsfreundlichen Unternehmensbeziehungen sowie innovations- und qualitätsfördernden Arbeitsbeziehungen innerhalb der Unternehmen aufbauen",
+      "erklaerung": "Typ, zu dem Deutschland gehört: Wirtschaft wird über Verbände, Lohnabstimmung und gemeinsame Ausbildung koordiniert; Wachstum über Export.",
+      "quelle": "pkb003.2_2026-12-07 · S. 246",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Gemischte Marktwirtschaft",
+      "wortlaut": "Von periodischen „Sozialpakten” abgesehen, lassen sich Lohnverhandlungen in diesen Systemen aufgrund der Macht und Zerstrittenheit der Gewerkschaften, die um Gefolgschaft und Verhandlungsmacht konkurrieren, nur schwer koordinieren",
+      "erklaerung": "Südeuropäischer Typ (Griechenland, Spanien, Portugal, Italien): wenig Koordination, mehr Geringqualifizierte, Wettbewerb über Niedriglöhne, früher Abwertungen.",
+      "quelle": "pkb003.2_2026-12-07 · S. 246",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Liberale Marktwirtschaft",
+      "wortlaut": "Wirtschaften, in denen äußerst wettbewerbsintensive Märkte für die Koordinierung unternehmerischer Tätigkeit sorgen",
+      "erklaerung": "Angelsächsisches Modell; Koordination über Märkte statt über Verbände.",
+      "quelle": "pkb003.2_2026-12-07 · S. 248",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Exportorientierte Wachstumsstrategie",
+      "wortlaut": "Strategien, die mehr Gewicht auf die Steigerung der Ausfuhren legen als auf die Ankurbelung der Inlandsnachfrage",
+      "erklaerung": "Strategie des Nordens: Lohnzurückhaltung und Qualität machen Exporte wettbewerbsfähig.",
+      "quelle": "pkb003.2_2026-12-07 · S. 246",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Strukturelle Reformen",
+      "wortlaut": "Maßnahmen zur Intensivierung des Wettbewerbs auf den Arbeits- und Gütermärkten durch Privatisierung oder Deregulierung",
+      "erklaerung": "Zweite Säule der EU-Wachstumsstrategie neben dem Fiskalpakt; Hall hält sie in Verbindung mit Sparzwang für verfehlt.",
+      "quelle": "pkb003.2_2026-12-07 · S. 248",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Zentralbankunabhängigkeit (Time-inconsistency-Hypothese)",
+      "wortlaut": "Auf Basis der sogenannten Time inconsistency-Hypothese wird davon ausgegangen, dass Preisstabilität und letztlich Geldvertrauen nur garantiert werden können, wenn Geldpolitik von demokratisch gewählten Instanzen abgeschirmt wird.",
+      "erklaerung": "Begründung, warum Zentralbanken unabhängig von Regierungen sein sollen; Leitbild der Bundesbank und der EZB.",
+      "quelle": "pkb003.2_2026-12-14 · S. 497",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Output-Legitimität",
+      "wortlaut": "dass eine Zentralbank sich zwangsläufig primär über ihren Output, durch die Ergebnisse ihrer Politik, legitimiere",
+      "erklaerung": "Da die EZB nicht gewählt ist, muss sie über ihre Ergebnisse überzeugen – doch was als gutes Ergebnis gilt, ist umstritten.",
+      "quelle": "pkb003.2_2026-12-14 · S. 498",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Lender of last resort",
+      "wortlaut": "Dies hieße, ihr zu erlauben, bei einem generalisierten Vertrauensverlust auf dem Kreditmarkt, […] mittels unbegrenzter Zentralbankgeld-Kredite großflächige Ansteckungseffekte und Insolvenzketten zu vermeiden",
+      "erklaerung": "Kreditgeber der letzten Instanz; Kern des Streits um OMT: Ordoliberale lehnen die Rolle für die EZB ab, Keynesianer wollen sie formal erlauben.",
+      "quelle": "pkb003.2_2026-12-14 · S. 505",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Quantitative easing",
+      "wortlaut": "In einer Situation, in der herkömmliche Maßnahmen wie Zinssenkungen nicht die gewünschte Wirkung entfalten, wird über Ankaufprogramme, quasi auf direktem Wege, Zentralbankgeld geschaffen.",
+      "erklaerung": "Großvolumige Wertpapierkäufe der EZB (v. a. EAPP ab 2015), um langfristige Zinsen zu senken.",
+      "quelle": "pkb003.2_2026-12-14 · S. 504",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Haftungsprinzip",
+      "wortlaut": "Der Verstoß gegen das Haftungsprinzip, dass private Gläubiger und vor allem öffentliche Schuldner vor den Konsequenzen ihres wirtschaftlichen und politischen Fehlverhaltens bewahrt, widerspricht […] gleichwohl virulenten sozialmoralischen Vorstellungen",
+      "erklaerung": "Jeder steht für eigene Fehler selbst ein; zentrales ordoliberales Argument gegen die Anleihekäufe der EZB.",
+      "quelle": "pkb003.2_2026-12-14 · S. 507",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Fiskaltransfers vs. Fiskaldisziplin",
+      "wortlaut": "der Konflikt zwischen Befürworterinnen stärkerer Fiskaltransfers und jenen, die mehr „fiskalische Disziplin“ wollen",
+      "erklaerung": "Die einzige Konfliktlinie der Euro-Reform 2010–2015 nach Wasserfallen/Lehner; Frankreich und Deutschland führen die beiden Lager.",
+      "quelle": "pkb003.2_2026-12-14 · Makronom, Abschnitt „Fiskaltransfers vs. Fiskaldisziplin“",
+      "abweichungen": []
     }
   ]
 }

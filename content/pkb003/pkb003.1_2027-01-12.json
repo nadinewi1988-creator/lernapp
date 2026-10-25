@@ -1,0 +1,106 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pkb003",
+  "teilmodul": "pkb003.1",
+  "datum": "2027-01-12",
+  "sitzung_nr": 12,
+  "sitzung_id": "",
+  "thema": "Das politische System auf dem Prüfstand",
+  "thema_in_app": "eingetragen",
+  "stand": "entwurf",
+  "art_inhalt": "Zusammenfassung der Seminarliteratur (Präsentation durch Mitstudierende)",
+  "quellen": [
+    {
+      "datei": "pkb003.1/S08-S12_Grotz-Schroeder_PolSystem.pdf",
+      "art": "Literatur: Grotz/Schroeder (2021), Das politische System der Bundesrepublik Deutschland, Kap. 15 „Resiliente Demokratie? Das politische System Deutschlands auf dem Prüfstand“",
+      "seiten": "405–424"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Wie resilient ist die deutsche Demokratie – wo zeigen sich Funktionsprobleme, und was braucht es, um sie zu stärken?",
+      "art": "abgeleitet",
+      "quelle": "abgeleitet aus den Fragen des Kapitels (S. 406); Kursplan nennt keine Leitfrage",
+      "fragen": [],
+      "erklaerung_abschnitt": "Antwort auf die Leitfrage"
+    }
+  ],
+  "kurzfassung": [
+    "Resilienz = Fähigkeit einer Demokratie, ihre Funktions- und Leistungsfähigkeit auch unter schwierigen Bedingungen zu erhalten.",
+    "Grundbefund (These 1): abnehmende Performanz bei fortdauernder institutioneller Stabilität – die Institutionen sind gleich geblieben, ihre Funktionsweise hat sich verändert: „So wie Bonn nicht Weimar war, ist Berlin nicht mehr Bonn.“",
+    "Ursachen: veränderter internationaler Kontext (These 2) und wachsende soziale Spaltung (These 3).",
+    "Folgen für die Strukturen: fragmentierte Medienöffentlichkeit, schwächere Parteien und Verbände, starke Exekutive, gestresster Föderalismus (Thesen 4–7).",
+    "Handlungsperspektiven: Europafähigkeit, Demokratiereformen mit Augenmaß, Zustimmung und Engagement der Bürgerinnen als Stabilitätsanker (Thesen 8–10).",
+    "Drei Ansatzpunkte zur Stärkung: politische Bildung und Engagement, leistungsfähige Institutionen (v. a. Wirtschafts- und Sozialpolitik), demokratiefreundliches Mediensystem mit starken Öffentlich-Rechtlichen."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Vom Erfolgsmodell zur Krise der Demokratie",
+      "folien": "S. 405–407",
+      "text": "• Historisch sehr positive Bilanz: nach Weltkriegen, Shoa und zwei Diktaturen eine der angesehensten Demokratien; 2019 viertstärkste Wirtschaftsnation (rund 4,4 % des Welt-BIP); in Demokratierankings weit vorn, unter bevölkerungsreicheren Staaten auf Platz 1.\n• Neue Herausforderungen: international (Aufstieg Chinas, autoritäres Russland, Finanzmärkte, Migration, Klimawandel), innerstaatlich (demographischer Wandel, Digitalisierung, Ungleichheit, aggressiver Rechtspopulismus) → Diagnosen einer „Krise“ oder gar eines „Zerfalls“ der Demokratie.\n• Fragen der Autoren: Wie resilient ist das System? Wie kann man Funktionsproblemen entgegenwirken? Ist die repräsentative Demokratie zukunftsfähig?"
+    },
+    {
+      "titel": "Thesen 1–3: Ausgangssituation",
+      "folien": "S. 407–412",
+      "text": "| These | Kernaussagen |\n|---|---|\n| 1 Regierungssystem unter Druck | keine reine Konsensdemokratie, sondern **parlamentarisches System mit Regierungsdominanz** in checks and balances; früher inklusiv und effizient („Bonn ist nicht Weimar“) dank Parteien und Verbänden; seit den 1990ern sinken Inklusionskraft und Entscheidungseffektivität |\n| 2 Internationaler Kontext | Westbindung (NATO seit 1955, USA, EG) als Stabilitätsbedingung; seit 1989/90 EU mit 27 Mitgliedern schwerer einig (Finanz-, Euro-, Flüchtlings-, Corona-Krise); **„neue Autoritarismen“** (China, Russland, auch Ungarn, Polen) als Systemalternative; Dilemma Handel vs. Kritik |\n| 3 Sozioökonomischer/soziokultureller Kontext | neue **Ungleichheitsdynamik** seit den 1990ern; Ost-West-Spaltung (Niedriglohnsektor); Individualisierung → **sozial selektive Beteiligung**; Konflikt „kosmopolitische“ vs. „nationalistische“ Moral; Vertrauensschwund v. a. im „unteren Drittel“ |\n\n*„So wie Bonn nicht Weimar war, ist Berlin nicht mehr Bonn.“* (S. 408)"
+    },
+    {
+      "titel": "Thesen 4–7: Funktionsveränderungen",
+      "folien": "S. 412–419",
+      "text": "| These | Kernaussagen |\n|---|---|\n| 4 Medien: vom „gesellschaftlichen Lagerfeuer“ zu Teilöffentlichkeiten | Marktanteil ARD/ZDF 1988–1993 von ca. 38 % auf 18 %; heute **hybrides System**; soziale Medien umgehen Gatekeeper, Echokammern; Öffentlich-Rechtliche bleiben Schlüssel, aber Minderheit spricht vom „Staatsfunk“ |\n| 5 Parteien und Verbände | Erosion seit den 1970ern: Mitgliederschwund, neue Parteien (Grüne, PDS/Linke, AfD), Lobbyagenturen; aber **keine funktionalen Äquivalente** |\n| 6 Parlamentarische Demokratie | Regierung gibt den Ton an, BVerfG als „Nebengesetzgeber“, Europäisierung, Regulierungsbehörden, Expertenkommissionen; in Krisen bestätigte der Bundestag Ergebnisse *„quasi notariell“*; geringe soziale Repräsentativität; kaum Reform „in eigener Sache“ |\n| 7 Föderalismus | Arbeitsteilung und Politikverflechtung haben Integration gefördert; Föderalismusreform I (2006) → neue Verflechtung; Corona-MPK 2021 ungeeignet für akute Krisen, aber lernfähig; kommende Verteilungskonflikte (Schuldenbremse, Investitionsstau) |"
+    },
+    {
+      "titel": "Thesen 8–10: Handlungsperspektiven",
+      "folien": "S. 419–423",
+      "text": "| These | Kernaussagen |\n|---|---|\n| 8 Europäisches Mehrebenensystem | EU-Integration als Staatsraison (Art. 23 GG); Gewinner: **Bundesregierung**; Verlierer: Bundestag, Länder, BVerfG; Verbände gut angepasst, Parteien kaum; „fit für Europa“ werden |\n| 9 Demokratiereformen | Bund: Debatten ohne Folgen (Bundesrat, Direktwahl Bundespräsident, Volksgesetzgebung, Wahlrecht); Länder/Kommunen: „Reformfeuerwerk“; Bilanz gemischt (Hamburger Schulreform-Volksentscheid 2010 verstärkte Ungleichheit); Reformen brauchen aktive Beteiligung |\n| 10 Krisen | Demokratie mit überwältigender Mehrheit begrüßt, Stresstests bestanden; aber tiefere Spaltungen, sozial selektive Unzufriedenheit; Zustimmung und Engagement als **Stabilitätsanker** |\n\n*„Eine so verstandene Resilienz kann nicht erst in der Krise entwickelt werden, vielmehr beweist sie sich darin.“* (S. 422)"
+    },
+    {
+      "titel": "Was braucht es zur Stärkung demokratischer Resilienz?",
+      "folien": "S. 423–424",
+      "text": "Problemdiagnose: intransparente Verantwortungsteilung, „ungezügelte Aufwertung der Exekutive“, Expertengremien, hybrides Mediensystem, schwächere Parteien und Verbände.\n\n**1. Positive Einstellung durch Wissen:** *„Denn der Zusammenhang zwischen dem Wissen über das demokratische Regierungssystem und seiner Akzeptanz ist signifikant.“* Bildungsinstitutionen, Medien, Vereine, Parteien, Verbände; zusätzliche Wege politischer Bildung; Zielkonflikte akzeptieren, gegen Feinde der Demokratie Position beziehen.\n**2. Leistungsfähige Institutionen**, besonders in der Wirtschafts- und Sozialpolitik; vorausschauende Praktiken.\n**3. Demokratiefreundliches Mediensystem** mit den öffentlich-rechtlichen Medien im Zentrum und aufgeklärter Nutzung."
+    },
+    {
+      "titel": "Antwort auf die Leitfrage",
+      "text": "| Resilienzfaktoren | Schwachstellen |\n|---|---|\n| stabile Institutionen, horizontale und vertikale Gewaltenteilung | sinkende Inklusions- und Entscheidungsfähigkeit |\n| breite Zustimmung zur Demokratie | soziale und regionale Spaltung, selektive Beteiligung |\n| bewährte Krisenbewältigung, lernfähiger Föderalismus | Exekutivlastigkeit, schwacher Bundestag |\n| keine Alternativen zu Parteien und Verbänden in Sicht | fragmentierte Öffentlichkeit, Rechtspopulismus |\n\nFazit der Autoren: Eine „geglückte Demokratie“ braucht das Zusammenspiel von wertebasierten, (selbst-)kritischen Eliten und Institutionen mit einer engagierten, demokratisch orientierten Bevölkerung."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Resilienz (der Demokratie)",
+      "wortlaut": "Gemeint ist damit die Fähigkeit eines demokratischen Regierungssystems, seine Funktions- und Leistungsfähigkeit auch unter schwierigen Rahmenbedingungen aufrechtzuerhalten.",
+      "erklaerung": "Widerstandsfähigkeit: Die Demokratie funktioniert auch in Krisen weiter und behält ihre Zustimmung.",
+      "folie": "S. 405"
+    },
+    {
+      "begriff": "Resilienz in Krisen",
+      "wortlaut": "In Krisen zeigt sich besonders, ob eine Demokratie hinreichend widerstandsfähig ist, also über Puffer und Reserven verfügt, um ihre konstitutiven Prinzipien, Institutionen und Verfahren auch unter schwierigen Bedingungen funktions- und zustimmungsfähig zu halten.",
+      "erklaerung": "Resilienz muss vorher aufgebaut werden (Puffer, Reserven) und zeigt sich dann in der Krise.",
+      "folie": "S. 422"
+    },
+    {
+      "begriff": "Parlamentarisches System mit Regierungsdominanz",
+      "wortlaut": "Ihr politisch-institutionelles Zentrum bildet ein parlamentarisches System mit Regierungsdominanz, das in ein umfangreiches Geflecht von checks and balances eingebettet ist",
+      "erklaerung": "Deutschland ist weder reine Mehrheits- noch reine Konsensdemokratie: Die Regierung ist stark, wird aber durch Bundesrat, Föderalismus, BVerfG usw. begrenzt.",
+      "folie": "S. 407"
+    },
+    {
+      "begriff": "Neue Autoritarismen",
+      "wortlaut": "Damit wird die liberale Demokratie durch eine Systemalternative herausgefordert, die wirtschaftliche Prosperität, technologischen Fortschritt und Massenkonsum auf der Output-Seite mit autoritären Strukturen auf der Input-Seite verbindet.",
+      "erklaerung": "Autoritäre Regime (v. a. China, Russland), die mit wirtschaftlichem Erfolg werben und so die Demokratie herausfordern.",
+      "folie": "S. 409"
+    },
+    {
+      "begriff": "Hybrides Mediensystem",
+      "wortlaut": "Darin werden analoge und digitale Formate sowohl von den privaten als auch von den öffentlich-rechtlichen Medienanbietern vielfältig miteinander verbunden und aufeinander bezogen, um die Aufmerksamkeit und die Reichweite für ihre Angebote zu erhöhen.",
+      "erklaerung": "Verschmelzung von klassischen und digitalen Medien; soziale Medien umgehen den Journalismus als Gatekeeper.",
+      "folie": "S. 412"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [],
+  "pruefungshinweise": [],
+  "offene_fragen": [
+    "Buchstand 2021: Aussagen zu Corona, Regierung Merkel sowie zu Regierungen in Ungarn und Polen beziehen sich auf diesen Stand (Ergänzung, nicht aus dem Text: In Polen hat seit Ende 2023 eine andere Regierung übernommen).",
+    "Das Kapitel ist eine Synthese des ganzen Buches; viele Aussagen werden nur mit Verweis auf andere Kapitel (z. B. 4, 5, 9–14) begründet, die nicht Teil der Seminarliteratur sind."
+  ]
+}

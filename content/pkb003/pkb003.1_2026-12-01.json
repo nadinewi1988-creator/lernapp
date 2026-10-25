@@ -1,0 +1,124 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pkb003",
+  "teilmodul": "pkb003.1",
+  "datum": "2026-12-01",
+  "sitzung_nr": 8,
+  "sitzung_id": "",
+  "thema": "Parteien und Parteiensystem",
+  "thema_in_app": "eingetragen",
+  "stand": "entwurf",
+  "art_inhalt": "Zusammenfassung der Seminarliteratur (Präsentation durch Mitstudierende)",
+  "quellen": [
+    {
+      "datei": "pkb003.1/S08-S12_Grotz-Schroeder_PolSystem.pdf",
+      "art": "Literatur: Grotz/Schroeder (2021), Das politische System der Bundesrepublik Deutschland, Kap. 6",
+      "seiten": "139–177"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Inwieweit gelingt es den Parteien, die Vielfalt der gesellschaftlichen Interessen in die demokratische Willensbildung einzubinden und zugleich die politische Entscheidungsfindung effizient zu gestalten?",
+      "art": "abgeleitet",
+      "quelle": "Kursplan ohne Leitfrage; Leitfrage des Kapitels (S. 139)",
+      "fragen": [],
+      "erklaerung_abschnitt": "Antwort auf die Leitfrage"
+    }
+  ],
+  "kurzfassung": [
+    "Parteien sind der organisatorische Kern der repräsentativen Demokratie und vermitteln zwischen Gesellschaft und Staat (Art. 21 GG: „Die Parteien wirken bei der politischen Willensbildung des Volkes mit“).",
+    "Vier Funktionen: Interessenrepräsentation, politische Gestaltung, Integration, Elitenrekrutierung (Parteien als „Türsteher“ für öffentliche Ämter).",
+    "Rechtlich geregelt sind Parteienverbot, innerparteiliche Demokratie und Parteienfinanzierung – das BVerfG hat das Finanzierungsregime maßgeblich geprägt.",
+    "Mitglieder 1985–2019: −36,4 %; sie sind älter, männlicher und gebildeter als die Bevölkerung.",
+    "Das Parteiensystem entwickelte sich in vier Phasen vom „Zweieinhalb-Parteiensystem“ zum fragmentierten, polarisierten Vielparteiensystem; die Regierungsbildung wird schwieriger."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Was Parteien sind und leisten",
+      "folien": "S. 140–143",
+      "text": "*„Parteien sind dauerhaft angelegte Vereinigungen von Bürgerinnen, die gemeinsame politische Auffassungen vertreten und sich an demokratischen Wahlen beteiligen, um politische Entscheidungspositionen zu übernehmen“* – anders als Verbände oder Bewegungen, die sich nicht zur Wahl stellen.\n\n| Funktion | Inhalt |\n|---|---|\n| Interessenrepräsentation | Interessen artikulieren, auswählen, bündeln; alle Parteien zusammen müssen das ganze Spektrum abdecken, sonst entstehen **Repräsentationslücken** |\n| Politische Gestaltung | Vorschläge in die Gesetzgebung einbringen – in der Regierung, aber auch aus der Opposition (Ausschüsse, Bundesrat, Klage beim BVerfG) |\n| Integration | Teilhabe, Information, Sozialisation der Mitglieder; unterstützt durch sieben politische Stiftungen |\n| Elitenrekrutierung | 96 EP-Sitze, mind. 598 Bundestagssitze, knapp 1.900 Landtagssitze, ca. 200.000 kommunale Ratssitze u. v. m.; Parteien als **„Türsteher“ (gatekeeper)** |"
+    },
+    {
+      "titel": "Parteienverbot und innerparteiliche Demokratie",
+      "folien": "S. 143–147, Tab. 6.1",
+      "text": "**Verbot:** Nur das BVerfG kann verbieten (Antrag von Bundesregierung, Bundestag oder Bundesrat). Verboten wurden nur **SRP (1952)** und **KPD (1956)**. NPD: 2003 eingestellt, 2017 kein Verbot – verfassungsfeindliche Ziele, aber keine Anhaltspunkte, dass ihr Handeln „zum Erfolg führt“. Das Verbot sei *„die schärfste und überdies zweischneidige Waffe des demokratischen Rechtsstaats“*. Seit 2017 kann verfassungsfeindlichen Parteien die **staatliche Finanzierung entzogen** werden (Art. 21 Abs. 3 GG).\n\n**Innere Ordnung** muss *„demokratischen Grundsätzen entsprechen“*: vertikal Gebietsverbände (Ort → Kreis → Land → Bund), horizontal Gewaltenteilung.\n\n| „Legislative“ | „Exekutive“ | „Judikative“ |\n|---|---|---|\n| Parteitag (meist Delegierte, mind. alle zwei Jahre): Programme, Satzung, Wahl des Vorstands | Vorstand, Präsidium, Parteizentrale | Parteischiedsgericht |\n\nUrwahlen von Vorsitzenden (z. B. SPD 2019) sind nur konsultativ."
+    },
+    {
+      "titel": "Mitglieder",
+      "folien": "S. 147–151, Tab. 6.2",
+      "text": "| | 1985 | 2019 | Veränderung |\n|---|---|---|---|\n| CDU | 718.590 | 405.816 | −43,5 % |\n| CSU | 182.852 | 139.130 | −23,9 % |\n| SPD | 916.383 | 419.340 | −54,2 % |\n| FDP | 65.425 | 65.479 | +0,1 % |\n| Grüne | 37.024 | 96.487 | +160,6 % |\n| Linke (ab 2007) | – | 60.862 | −15,1 % |\n| AfD (ab 2013) | – | 34.751 | +96,5 % |\n| Gesamt | 1.920.274 | 1.221.865 | −36,4 % |\n\n• Rückgang trotz Wiedervereinigung; im Osten nur halb so viele Mitglieder relativ zur Bevölkerung. Deutung: Bedrohung oder *„Prozess der Normalisierung“*?\n• 2017: Frauen nur **28 %** (Grüne 41 %, AfD rund 18 %), über 65-Jährige **48 %** (Bevölkerung 27 %), Hochschulabschluss 44 %. **Frauen, Jüngere und geringer Gebildete** sind unterrepräsentiert."
+    },
+    {
+      "titel": "Parteienfinanzierung",
+      "folien": "S. 151–156",
+      "text": "Grundsätze: **Transparenz**, **Chancengleichheit**, **Staatsferne**. Weil der Bundestag „in eigener Sache“ entscheidet, waren **BVerfG-Urteile** die Marksteine:\n• 1958: unbegrenzte Absetzbarkeit von Spenden verfassungswidrig; Weg frei für Steuermittel\n• 1966: nur Wahlkampfkostenerstattung\n• 1986: Stiftungen keine „verdeckte Parteienfinanzierung“\n• 1992: Teilfinanzierung aller Tätigkeiten, aber mit **relativer** und **absoluter Obergrenze** (→ Reform 1994)\n\n**Heute:** Spenden über 10.000 € pro Jahr offenlegen, über 50.000 € sofort anzeigen. Staatliche Mittel ab 0,5 % (Europa-/Bundestagswahl) bzw. 1,0 % (Landtagswahl): 1,03 € je Stimme (erste vier Millionen), danach 0,85 €; plus 0,45 € je Euro aus Beiträgen/Spenden. Absolute Obergrenze nach umstrittener Anhebung 2018: **190 Mio. €**. Staatliche Zuwendungen machen mit rund **30 %** meist den größten Einnahmeposten aus."
+    },
+    {
+      "titel": "Konfliktlinien und Strukturmerkmale",
+      "folien": "S. 156–165, Tab. 6.4, Abb. 6.1",
+      "text": "*„Als Parteiensystem bezeichnet man das Interaktionsverhältnis aller Parteien, die in einem demokratischen Regierungssystem miteinander konkurrieren und kooperieren“*.\n\n| Konfliktlinie | Entstehung | Bundestagsparteien |\n|---|---|---|\n| Staat vs. Kirche | frühes 19. Jh. | FDP · CDU, CSU |\n| Arbeit vs. Kapital | spätes 19. Jh. | SPD |\n| Reform vs. Revolution | frühes 20. Jh. | Die Linke |\n| Materialismus vs. Postmaterialismus | spätes 20. Jh. | Grüne |\n| Offene vs. geschlossene Gesellschaft | frühes 21. Jh. | AfD |\n\n**Volksparteien** (CDU/CSU, SPD) fassen ihr Angebot bewusst breiter. Zweidimensionales Modell: sozioökonomisch Staat ↔ Markt (Pole Linke ↔ FDP), soziokulturell libertär ↔ autoritär (Pole Grüne ↔ AfD).\n\n**Strukturmerkmale:** Format (Zahl der Parteien), Fragmentierung (Effektive Parteienzahl), Asymmetrie (Abstand der beiden größten), Polarisierung (ideologische Distanz), Segmentierung (gegenseitige Abschottung/Koalitionsfähigkeit)."
+    },
+    {
+      "titel": "Vier Phasen des Parteiensystems",
+      "folien": "S. 165–169",
+      "text": "**1. Fragmentierte, polarisierte Startphase (1945–1953):** 1949 zehn Parteien im Bundestag, Fragmentierung 4,0; Union 34,6 %, SPD 32,6 % → kaum Asymmetrie; starke Polarisierung.\n**2. „Zweieinhalb-Parteiensystem“ (1953–1983):** nur CDU/CSU, SPD, FDP; Fragmentierung Ø 2,5; FDP als „Zünglein an der Waage“; alle koalitionsfähig.\n**3. Bipolare Lager (1983–2005):** Grüne ab 1983, PDS ab 1990; SPD/Grüne vs. Union/FDP; 1998 erstmals Rot-Grün; Fragmentierung unter 3,0.\n**4. Dynamisches Vielparteiensystem (seit 2005):** Format 6, Effektive Parteienzahl 2017–2021: **4,6**; SPD von knapp 41 % (1998) auf 20,5 % (2017); Linke und AfD nicht koalitionsfähig → Große Koalitionen als Regel; Jamaika 2017 gescheitert."
+    },
+    {
+      "titel": "EU-Ebene und Fazit der Autoren",
+      "folien": "S. 170–177",
+      "text": "• **EU:** transnationale Fraktionen im EP, Europäische Parteien (SPE 1974, EVP 1976 …); ihr Einfluss bleibt begrenzt – die *„europäische Musik“* des Parteienwettbewerbs spielt hauptsächlich auf der nationalen Ebene.\n• **Fazit:** Wertewandel, Folgen der Einheit und Europäisierung lösen Bindungen auf; die Repräsentationslücken füllten Grüne, PDS/Linke und AfD („Volksparteienkrise“). Alternativen können Parteien ergänzen, aber **nicht ersetzen**. Reformen: mehr Rechte für Wähler, Mitglieder oder Experten."
+    },
+    {
+      "titel": "Antwort auf die Leitfrage",
+      "text": "| | Einbindung der Interessen | Effiziente Entscheidungsfindung |\n|---|---|---|\n| Bis ca. 1980er | gut: große Volksparteien binden heterogene Gruppen | gut: wenige Parteien, klare Koalitionen links und rechts der Mitte |\n| Heute | schwächer: Mitgliederschwund, sozial verzerrte Mitgliedschaft, Repräsentationslücken | schwieriger: Fragmentierung, Polarisierung, nicht koalitionsfähige Parteien → Große Koalitionen, Dreierbündnisse |"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Partei",
+      "wortlaut": "Parteien sind dauerhaft angelegte Vereinigungen von Bürgerinnen, die gemeinsame politische Auffassungen vertreten und sich an demokratischen Wahlen beteiligen, um politische Entscheidungspositionen zu übernehmen",
+      "erklaerung": "Der Unterschied zu Verbänden und Bewegungen: Parteien stellen sich zur Wahl und wollen Ämter übernehmen.",
+      "folie": "S. 140"
+    },
+    {
+      "begriff": "Parteiensystem",
+      "wortlaut": "Als Parteiensystem bezeichnet man das Interaktionsverhältnis aller Parteien, die in einem demokratischen Regierungssystem miteinander konkurrieren und kooperieren",
+      "erklaerung": "Nicht die einzelne Partei, sondern das Zusammenspiel aller Parteien – erst zusammen spiegeln sie die gesellschaftliche Vielfalt wider.",
+      "folie": "S. 156"
+    },
+    {
+      "begriff": "Repräsentationslücke",
+      "wortlaut": "Wenn dies nicht gelingt oder sich bestimmte Gruppen mit ihren politischen Auffassungen nicht mehr durch die etablierten Parteien vertreten fühlen, können „Repräsentationslücken“ entstehen, die die Legitimität des Regierungssystems beeinträchtigen bzw. einen Aktionsraum für neue Parteien eröffnen",
+      "erklaerung": "Gruppen fühlen sich von keiner etablierten Partei vertreten – Chance für neue Parteien (Grüne, PDS/Linke, AfD).",
+      "folie": "S. 140–141"
+    },
+    {
+      "begriff": "Fragmentierung",
+      "wortlaut": "Den Grad an parteipolitischer Zersplitterung bzw. Konzentration der Parlamentsmandate bezeichnet man als Fragmentierung",
+      "erklaerung": "Gemessen über die Effektive Parteienzahl (1 geteilt durch die Summe der quadrierten Sitzanteile); 1949: 4,0, Phase 2: Ø 2,5, 2017–2021: 4,6.",
+      "folie": "S. 164–165"
+    },
+    {
+      "begriff": "Segmentierung",
+      "wortlaut": "Zum anderen gibt die Segmentierung „den Grad der gegenseitigen Abschottung der einzelnen Parteien wieder“",
+      "erklaerung": "Wie viele Parteien eine Zusammenarbeit miteinander ausschließen; hohe Segmentierung erschwert Koalitionen.",
+      "folie": "S. 165"
+    },
+    {
+      "begriff": "Volkspartei",
+      "wortlaut": "So haben etwa CDU und CSU, aber auch die SPD ihr programmatisches Angebot bewusst breiter gefasst, um ihre Wählerbasis umfassend anzulegen. Daher werden sie auch als Volksparteien bezeichnet",
+      "erklaerung": "Partei, die viele unterschiedliche Gruppen ansprechen will statt nur eine Klientel.",
+      "folie": "S. 158"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [],
+  "pruefungshinweise": [],
+  "offene_fragen": [
+    "Kursplan nennt für Sitzung 8 keine Leitfrage – formuliert wurde die Leitfrage, die das Kapitel selbst stellt (S. 139).",
+    "Das PDF umfasst laut Dateiname die Sitzungen 8–12; für Sitzung 8 wurde nur Kap. 6 (S. 139–177) genutzt. Bitte prüfen, ob für Sitzung 8 ggf. nur ein Teil des Kapitels vorgesehen ist.",
+    "Tab. 6.3 (Einnahmen der Bundestagsparteien 2009–2017) ist in der Textextraktion nicht sauber lesbar; verwendet wurden nur Zahlen aus dem Fließtext (u. a. 2017: SPD 166, CDU 157 Mio. €; staatlicher Anteil rund 30 %).",
+    "S. 166: „fast drei Viertel der Mandate“ für CDU/CSU (34,6 %), SPD (32,6 %) und FDP (12,9 %) – die Summe ergibt rund 80 %, also eher vier Fünftel.",
+    "Kapitel mit Stand Anfang 2021 (vor der Bundestagswahl 2021); die erwähnte Klage gegen die Anhebung der absoluten Obergrenze war damals noch offen."
+  ]
+}

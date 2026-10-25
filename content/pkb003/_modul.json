@@ -43,12 +43,44 @@
     {
       "text": "Grundstrukturen politischer, wirtschaftlicher und verwaltender Ordnungen kritisch reflektieren",
       "abgedeckt_in": [
-        "pkb003.2_2026-10-26"
+        "pkb003.2_2026-10-26",
+        "pkb003.1_2026-10-27",
+        "pkb003.2_2026-11-02",
+        "pkb003.1_2026-11-03",
+        "pkb003.2_2026-11-09",
+        "pkb003.1_2026-11-10",
+        "pkb003.2_2026-11-23",
+        "pkb003.1_2026-11-24",
+        "pkb003.2_2026-11-30",
+        "pkb003.1_2026-12-01",
+        "pkb003.2_2026-12-07",
+        "pkb003.1_2026-12-08",
+        "pkb003.2_2026-12-14",
+        "pkb003.1_2026-12-15",
+        "pkb003.1_2027-01-05",
+        "pkb003.1_2027-01-12"
       ]
     },
     {
       "text": "Informationen für die Systemanalyse auswählen, Thesen prüfen, Kontroversen erkennen",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "pkb003.2_2026-10-26",
+        "pkb003.1_2026-10-27",
+        "pkb003.2_2026-11-02",
+        "pkb003.1_2026-11-03",
+        "pkb003.2_2026-11-09",
+        "pkb003.1_2026-11-10",
+        "pkb003.2_2026-11-23",
+        "pkb003.1_2026-11-24",
+        "pkb003.2_2026-11-30",
+        "pkb003.1_2026-12-01",
+        "pkb003.2_2026-12-07",
+        "pkb003.1_2026-12-08",
+        "pkb003.2_2026-12-14",
+        "pkb003.1_2026-12-15",
+        "pkb003.1_2027-01-05",
+        "pkb003.1_2027-01-12"
+      ]
     },
     {
       "text": "Fallbeispiele im Team strukturieren",
@@ -132,35 +164,35 @@
       "datum": "2026-12-01",
       "nr": 8,
       "thema": "Parteien und Parteiensystem",
-      "literatur": "Buch_S08-S12_Grotz-Schroeder_PolSystem.pdf"
+      "literatur": "S08-S12_Grotz-Schroeder_PolSystem.pdf"
     },
     {
       "teilmodul": "pkb003.1",
       "datum": "2026-12-08",
       "nr": 9,
       "thema": "Verbände und Verbändesystem",
-      "literatur": "Buch_S08-S12_Grotz-Schroeder_PolSystem.pdf"
+      "literatur": "S08-S12_Grotz-Schroeder_PolSystem.pdf"
     },
     {
       "teilmodul": "pkb003.1",
       "datum": "2026-12-15",
       "nr": 10,
       "thema": "Medien und Mediensystem – die politische Öffentlichkeit",
-      "literatur": "Buch_S08-S12_Grotz-Schroeder_PolSystem.pdf"
+      "literatur": "S08-S12_Grotz-Schroeder_PolSystem.pdf"
     },
     {
       "teilmodul": "pkb003.1",
       "datum": "2027-01-05",
       "nr": 11,
       "thema": "Die Regierungssysteme der Länder",
-      "literatur": "Buch_S08-S12_Grotz-Schroeder_PolSystem.pdf"
+      "literatur": "S08-S12_Grotz-Schroeder_PolSystem.pdf"
     },
     {
       "teilmodul": "pkb003.1",
       "datum": "2027-01-12",
       "nr": 12,
       "thema": "Das politische System auf dem Prüfstand",
-      "literatur": "Buch_S08-S12_Grotz-Schroeder_PolSystem.pdf"
+      "literatur": "S08-S12_Grotz-Schroeder_PolSystem.pdf"
     },
     {
       "teilmodul": "pkb003.1",
@@ -391,7 +423,22 @@
     }
   ],
   "sitzungen": [
-    "pkb003.2_2026-10-26"
+    "pkb003.2_2026-10-26",
+    "pkb003.1_2026-10-27",
+    "pkb003.2_2026-11-02",
+    "pkb003.1_2026-11-03",
+    "pkb003.2_2026-11-09",
+    "pkb003.1_2026-11-10",
+    "pkb003.2_2026-11-23",
+    "pkb003.1_2026-11-24",
+    "pkb003.2_2026-11-30",
+    "pkb003.1_2026-12-01",
+    "pkb003.2_2026-12-07",
+    "pkb003.1_2026-12-08",
+    "pkb003.2_2026-12-14",
+    "pkb003.1_2026-12-15",
+    "pkb003.1_2027-01-05",
+    "pkb003.1_2027-01-12"
   ],
   "klausurstil": null,
   "dateien": [
@@ -437,84 +484,84 @@
       "pfad": "pkb003.1/S03_2026-10-27_Zohlnhoefer-Engler_Merkel-Jahre_Kap-Saalfeld-Seifert_ab-S131.pdf",
       "geaendert": "2026-10-20",
       "art": "Literatur",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "pkb003.1_2026-10-27"
     },
     {
       "pfad": "pkb003.1/S04_2026-11-03_Dhungel-Linhart_Ausschuesse.pdf",
       "geaendert": "2026-10-20",
       "art": "Literatur",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "pkb003.1_2026-11-03"
     },
     {
       "pfad": "pkb003.1/S05_2026-11-10_Stecker_Foederalismusreform.pdf",
       "geaendert": "2026-10-20",
       "art": "Literatur",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "pkb003.1_2026-11-10"
     },
     {
       "pfad": "pkb003.1/S07_2026-11-24_Hoennige-Gschwend_BVerfG.pdf",
       "geaendert": "2026-10-20",
       "art": "Literatur",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "pkb003.1_2026-11-24"
     },
     {
-      "pfad": "pkb003.1/Buch_S08-S12_Grotz-Schroeder_PolSystem.pdf",
-      "geaendert": "2026-10-20",
+      "pfad": "pkb003.1/S08-S12_Grotz-Schroeder_PolSystem.pdf",
+      "geaendert": "2026-10-25",
       "art": "Literatur",
-      "status": "später",
-      "sitzung": "pkb003.1_2026-12-01"
+      "status": "verarbeitet",
+      "sitzung": "pkb003.1_2026-12-01 … pkb003.1_2027-01-12"
     },
     {
       "pfad": "pkb003.2/S04_2026-11-02_Ruetters-Mielke_Gewerkschaften.pdf",
       "geaendert": "2026-10-20",
       "art": "Literatur",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "pkb003.2_2026-11-02"
     },
     {
       "pfad": "pkb003.2/S05_2026-11-09_Schroeder_Islamkonferenz.pdf",
       "geaendert": "2026-10-20",
       "art": "Literatur",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "pkb003.2_2026-11-09"
     },
     {
       "pfad": "pkb003.2/S07_2026-11-23_Brussig_Demografischer-Wandel.pdf",
       "geaendert": "2026-10-20",
       "art": "Literatur",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "pkb003.2_2026-11-23"
     },
     {
       "pfad": "pkb003.2/S08_2026-11-30_IWH_Vereintes-Land.pdf",
       "geaendert": "2026-10-20",
       "art": "Literatur",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "pkb003.2_2026-11-30"
     },
     {
       "pfad": "pkb003.2/S09_2026-12-07_Hall_Spielarten-des-Kapitalismus.pdf",
       "geaendert": "2026-10-20",
       "art": "Literatur",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "pkb003.2_2026-12-07"
     },
     {
       "pfad": "pkb003.2/S10_2026-12-14_Flachmeyer-Paul_EZB-Euro-Rettung.pdf",
       "geaendert": "2026-10-20",
       "art": "Literatur",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "pkb003.2_2026-12-14"
     },
     {
       "pfad": "pkb003.2/S10_2026-12-14_Lehner-Wasserfallen_Euro-Reform.pdf",
       "geaendert": "2026-10-20",
       "art": "Literatur",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "pkb003.2_2026-12-14"
     },
     {

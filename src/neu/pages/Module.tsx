@@ -6,7 +6,7 @@ import { auswerten, heuteIso, nachFach, aktuellesSemester, type Eintrag } from '
 import { parseIso, plusTage, entfallGrund } from '../data/kalender';
 import { useKlapp } from '../klapp';
 import { BESCHREIBUNGEN } from '../data/modulbeschreibungen';
-import { inhaltZu, sitzungenVon, glossarVon, symboleVon, frageRef, mdHtml, literaturStatus, literaturStand, literaturAbgeglichen } from '../lerninhalte';
+import { inhaltZu, sitzungenVon, glossarVon, symboleVon, frageRef, mdHtml, mdInline, literaturStatus, literaturStand, literaturAbgeglichen } from '../lerninhalte';
 import { sitzungsFortschritt } from '../lernfortschritt';
 import { hausaufgabenFuer, HausaufgabeFenster, type HA } from '../Hausaufgabe';
 import { Lernfragen, type LFEintrag } from './Lernfragen';
@@ -544,9 +544,9 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                       <span style={{ display: 'flex', gap: 8, alignItems: 'baseline', flexWrap: 'wrap' }}><b style={{ fontSize: 14 }}>{d.begriff}</b>{fol(d.folie)}</span>
                       <span style={{ fontSize: 13, fontStyle: 'italic', color: 'var(--ink-2)' }}>„{d.wortlaut}“</span><span style={{ fontSize: 13 }}>{d.erklaerung}</span></div>)}</div>}
                     {ltOffen[lt.sid + ':' + key] && key === 'aufg' && <div style={{ display: 'flex', flexDirection: 'column', gap: 12, padding: '0 4px' }}>{LI.aufgaben.filter((q) => !/hausaufgabe/i.test(q.art)).map((a2) => { const k2 = LI.datei + a2.id, auf = !!loesung[k2]; return <div key={a2.id} style={{ display: 'flex', flexDirection: 'column', gap: 4, borderLeft: '3px solid ' + f[0], paddingLeft: 10 }}>
-                      <b style={{ fontSize: 13 }}>{a2.quelle}</b><span style={{ fontSize: 13, color: 'var(--ink-2)', whiteSpace: 'pre-wrap' }}>{a2.text}</span>
+                      <b style={{ fontSize: 13 }}>{a2.quelle}</b><div className="lt-md" style={{ fontSize: 13, color: 'var(--ink-2)' }} dangerouslySetInnerHTML={{ __html: mdHtml(a2.text) }} />
                       <button type="button" onClick={() => setLoesung({ ...loesung, [k2]: !auf })} style={{ alignSelf: 'flex-start', border: 0, background: 'none', padding: 0, fontSize: 13, fontWeight: 700, color: f[0], textDecoration: 'underline', textUnderlineOffset: 3, cursor: 'pointer' }}>{auf ? 'Lösung ausblenden' : 'Lösung mit Lösungsweg anzeigen'}</button>
-                      {auf && <div style={{ background: f[1], borderRadius: 10, padding: '8px 12px', fontSize: 13, display: 'flex', flexDirection: 'column', gap: 6 }}><span><b>Lösung: </b>{a2.loesung}</span><span style={{ whiteSpace: 'pre-wrap' }}><b>Lösungsweg: </b>{a2.loesungsweg}</span></div>}
+                      {auf && <div style={{ background: f[1], borderRadius: 10, padding: '8px 12px', fontSize: 13, display: 'flex', flexDirection: 'column', gap: 6 }}><div className="lt-md"><b>Lösung: </b><span dangerouslySetInnerHTML={{ __html: mdInline(a2.loesung) }} /></div><div className="lt-md"><b>Lösungsweg:</b><div dangerouslySetInnerHTML={{ __html: mdHtml(a2.loesungsweg) }} /></div></div>}
                     </div>; })}</div>}
                   </div>))}
                 {LI.offene_fragen.length > 0 && <details style={{ fontSize: 13, color: 'var(--ink-2)', background: '#fffaf0', borderRadius: 12, padding: '8px 12px' }}><summary style={{ cursor: 'pointer', fontWeight: 800, color: '#9a6b00' }}>Nachfragen in der Uni ({LI.offene_fragen.length})</summary><ol style={{ margin: '6px 0 0', paddingLeft: 18, display: 'flex', flexDirection: 'column', gap: 3 }}>{LI.offene_fragen.map((q) => <li key={q}>{q}</li>)}</ol></details>}

@@ -4,7 +4,9 @@ import { speichereAntwort } from '../db';
 import { gradeAnswer } from '../../lib/api';
 import { heuteIso } from '../pruefungslogik';
 import { plusTage } from '../data/kalender';
-import { frageRef, mdHtml, type LFrage, type LSitzung } from '../lerninhalte';
+import { frageRef, mdHtml, mdInline, type LFrage, type LSitzung } from '../lerninhalte';
+const H = (t?: string) => ({ __html: mdInline(t ?? '') });
+
 
 const STUFEN = [1, 3, 7, 14, 30, 60];
 function naechste(stufe: number, erg: 'r' | 't' | 'f') {
@@ -90,26 +92,26 @@ export function Lernfragen({ titel, liste, stand, farbe, onClose, neuLaden }: { 
             <span style={{ fontSize: 11, color: 'var(--ink-3)' }}>{e.s.teilmodul} · {e.s.datum.split('-').reverse().join('.')}{e.f.folie ? ' · ' + (e.s.teilmodul.endsWith('.1') ? 'Folie ' : '') + e.f.folie : ''}</span>
           </div>
 
-          {e.f.format !== 'luecke' && <div style={{ fontSize: 17, fontWeight: 700, lineHeight: 1.4 }}>{e.f.frage}</div>}
+          {e.f.format !== 'luecke' && <div style={{ fontSize: 17, fontWeight: 700, lineHeight: 1.4 }} dangerouslySetInnerHTML={H(e.f.frage)} />}
 
           {e.f.format === 'mc' && <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
             {(e.f.optionen ?? []).map((o, k) => { const an = antwort.mc.includes(k), ok = e.f.richtig?.includes(k);
               const bg = geprueft ? (ok ? '#e3f2e8' : an ? '#fcecee' : '#fff') : an ? farbe[1] : '#fff';
               return <label key={k} style={{ display: 'flex', gap: 10, alignItems: 'flex-start', padding: '10px 12px', border: '1px solid ' + (an && !geprueft ? farbe[0] : 'var(--line)'), borderRadius: 12, background: bg, cursor: geprueft ? 'default' : 'pointer', fontSize: 14 }}>
                 <input type="checkbox" disabled={geprueft} checked={an} onChange={() => setAntwort({ ...antwort, mc: an ? antwort.mc.filter((x) => x !== k) : [...antwort.mc, k] })} style={{ width: 18, height: 18, marginTop: 1, accentColor: farbe[0] }} />
-                <span>{o}{geprueft && ok ? ' ✓' : ''}</span></label>; })}
+                <span><span dangerouslySetInnerHTML={H(o)} />{geprueft && ok ? ' ✓' : ''}</span></label>; })}
             {!geprueft && <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>Es können auch mehrere Antworten richtig sein.</span>}
           </div>}
 
           {e.f.format === 'luecke' && (() => { let k = -1; const teile = (e.f.text ?? '').split(/(\[\[.+?\]\])/);
-            return <div style={{ fontSize: 16, lineHeight: 2.2 }}>{teile.map((t, j) => { const m = /^\[\[(.+?)\]\]$/.exec(t); if (!m) return <span key={j}>{t}</span>; k++; const idx = k; const richtig = norm(antwort.luecken[idx] ?? '') === norm(m[1]);
+            return <div style={{ fontSize: 16, lineHeight: 2.2 }}>{teile.map((t, j) => { const m = /^\[\[(.+?)\]\]$/.exec(t); if (!m) return <span key={j} dangerouslySetInnerHTML={H(t)} />; k++; const idx = k; const richtig = norm(antwort.luecken[idx] ?? '') === norm(m[1]);
               return geprueft ? <b key={j} style={{ padding: '2px 6px', borderRadius: 6, background: richtig ? '#e3f2e8' : '#fcecee', color: richtig ? '#2f7a4b' : '#b4475a' }}>{richtig ? m[1] : (antwort.luecken[idx] ? antwort.luecken[idx] + ' → ' : '') + m[1]}</b>
                 : <input key={j} aria-label={'Lücke ' + (idx + 1)} value={antwort.luecken[idx] ?? ''} onChange={(ev) => { const l = [...antwort.luecken]; l[idx] = ev.target.value; setAntwort({ ...antwort, luecken: l }); }} style={{ width: Math.max(6, m[1].length + 2) + 'ch', border: 0, borderBottom: '2px solid ' + farbe[0], background: farbe[1], borderRadius: 4, padding: '2px 6px', fontSize: 15, color: 'var(--ink)' }} />; })}</div>; })()}
 
           {e.f.format === 'zuordnung' && <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
             {(e.f.elemente ?? []).map((x, k) => { const w = antwort.zuord[k] ?? '', ok = w === x.kategorie;
               return <div key={k} style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)', gap: 8, alignItems: 'center', padding: '8px 10px', borderRadius: 10, background: geprueft ? (ok ? '#e3f2e8' : '#fcecee') : '#fff', border: '1px solid var(--line)' }}>
-                <span style={{ fontSize: 14 }}>{x.text}</span>
+                <span style={{ fontSize: 14 }} dangerouslySetInnerHTML={H(x.text)} />
                 {geprueft ? <span style={{ fontSize: 13, fontWeight: 800, color: ok ? '#2f7a4b' : '#b4475a' }}>{ok ? x.kategorie : (w ? w + ' → ' : '') + x.kategorie}</span>
                   : <select aria-label={'Zuordnung für ' + x.text} value={w} onChange={(ev) => setAntwort({ ...antwort, zuord: { ...antwort.zuord, [k]: ev.target.value } })} style={{ border: '1px solid var(--line)', borderRadius: 8, padding: '6px 8px', fontSize: 13, background: 'var(--paper)', color: 'var(--ink)', minWidth: 0 }}>
                     <option value="">wählen …</option>{(e.f.kategorien ?? []).map((c) => <option key={c} value={c}>{c}</option>)}</select>}
@@ -119,13 +121,13 @@ export function Lernfragen({ titel, liste, stand, farbe, onClose, neuLaden }: { 
           {(e.f.format === 'frage' || e.f.format === 'offen') && !geprueft && <textarea value={antwort.text} onChange={(ev) => setAntwort({ ...antwort, text: ev.target.value })} rows={e.f.format === 'offen' ? 5 : 3} placeholder="Deine Antwort (optional) – mit Antwort bewertet die KI, sonst aufdecken und selbst bewerten" style={{ border: '1px solid var(--line)', borderRadius: 12, padding: 10, fontSize: 14, background: 'var(--paper)', color: 'var(--ink)', resize: 'vertical' }} />}
           {(e.f.format === 'frage' || e.f.format === 'offen') && geprueft && <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
             {antwort.text && <div style={{ fontSize: 13, color: 'var(--ink-2)', borderLeft: '3px solid var(--line)', paddingLeft: 10, whiteSpace: 'pre-wrap' }}><b>Deine Antwort:</b> {antwort.text}</div>}
-            <div style={{ background: farbe[1], borderRadius: 12, padding: 12, fontSize: 14, lineHeight: 1.5 }}><b>{e.f.format === 'offen' ? 'Musterlösung' : 'Antwort'}:</b> {e.f.format === 'offen' ? e.f.musterloesung : e.f.antwort}</div>
+            <div style={{ background: farbe[1], borderRadius: 12, padding: 12, fontSize: 14, lineHeight: 1.5 }}><b>{e.f.format === 'offen' ? 'Musterlösung' : 'Antwort'}:</b> <span dangerouslySetInnerHTML={H(e.f.format === 'offen' ? e.f.musterloesung : e.f.antwort)} /></div>
             {ki && <div style={{ border: '1px solid var(--line)', borderRadius: 12, padding: '10px 12px', display: 'flex', flexDirection: 'column', gap: 4 }}>
               {ki.lade ? <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>KI prüft deine Antwort …</span>
                 : ki.fehler ? <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>Die KI-Rückmeldung hat gerade nicht geklappt – bitte selbst bewerten. ({ki.fehler.slice(0, 120)})</span>
                 : <><span style={{ display: 'flex', alignItems: 'baseline', gap: 8 }}><b style={{ fontSize: 12, color: 'var(--ink-3)' }}>KI-Rückmeldung</b><span style={{ fontSize: 18, fontWeight: 800, color: ki.pct! >= 90 ? '#2f7a4b' : ki.pct! >= 50 ? '#a3580b' : '#c42b2b' }}>{ki.pct} %</span></span><span style={{ fontSize: 14, lineHeight: 1.45 }}>{ki.fb}</span></>}
             </div>}
-            {e.f.format === 'offen' && (e.f.bewertungspunkte ?? []).length > 0 && <div style={{ fontSize: 13, color: 'var(--ink-2)' }}><b>Darauf kommt es an{e.f.punkte ? ' (' + e.f.punkte + ' Punkte)' : ''}:</b><ul style={{ margin: '4px 0 0', paddingLeft: 18 }}>{e.f.bewertungspunkte!.map((p) => <li key={p}>{p}</li>)}</ul></div>}
+            {e.f.format === 'offen' && (e.f.bewertungspunkte ?? []).length > 0 && <div style={{ fontSize: 13, color: 'var(--ink-2)' }}><b>Darauf kommt es an{e.f.punkte ? ' (' + e.f.punkte + ' Punkte)' : ''}:</b><ul style={{ margin: '4px 0 0', paddingLeft: 18 }}>{e.f.bewertungspunkte!.map((p) => <li key={p} dangerouslySetInnerHTML={H(p)} />)}</ul></div>}
           </div>}
 
           {geprueft && e.f.erklaerung && e.f.format !== 'frage' && <div style={{ fontSize: 13, color: 'var(--ink-2)', lineHeight: 1.5 }} dangerouslySetInnerHTML={{ __html: '<b>Erklärung:</b> ' + mdHtml(e.f.erklaerung).replace(/^<p>|<\/p>$/g, '') }} />}

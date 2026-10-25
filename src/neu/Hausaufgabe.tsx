@@ -26,14 +26,14 @@ export function HausaufgabeInhalt({ ha, farbe }: { ha: HA; farbe: string }) {
     <div style={{ display: 'flex', flexDirection: 'column', gap: 6, fontSize: 13 }}>
       {pdf && a.pdf && <PdfAnsicht url={a.pdf} titel={a.titel ?? 'Hausaufgabe'} zu={() => setPdf(false)} />}
       <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>aufgegeben in {s.teilmodul} · Sitzung {s.sitzung_nr} ({dm(s.datum)}){a.frist ? ' · fällig ' + dm(a.frist) : ''} · {a.quelle}</span>
-      <span style={{ whiteSpace: 'pre-wrap', color: 'var(--ink-2)' }}>{a.text}</span>
+      <div className="lt-md" style={{ color: 'var(--ink-2)' }} dangerouslySetInnerHTML={{ __html: mdHtml(a.text) }} />
       <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', alignItems: 'center' }}>
         {a.pdf && <button type="button" onClick={() => setPdf(true)} style={{ border: 0, background: 'none', padding: 0, fontSize: 13, fontWeight: 800, color: farbe, cursor: 'pointer' }}>📄 Hausaufgabe als PDF öffnen</button>}
         <button type="button" onClick={() => setAuf(!auf)} style={{ border: 0, background: 'none', padding: 0, fontSize: 13, fontWeight: 700, color: farbe, textDecoration: 'underline', textUnderlineOffset: 3, cursor: 'pointer' }}>{auf ? 'Lösung ausblenden' : 'Lösung / Ausarbeitung anzeigen'}</button>
       </div>
       {auf && <div style={{ background: '#f7f7f4', borderRadius: 10, padding: '8px 12px', display: 'flex', flexDirection: 'column', gap: 6 }}>
         <div className="lt-md" dangerouslySetInnerHTML={{ __html: mdHtml(a.loesung) }} />
-        {a.loesungsweg && <span style={{ whiteSpace: 'pre-wrap' }}><b>Vorgehen: </b>{a.loesungsweg}</span>}
+        {a.loesungsweg && <div className="lt-md"><b>Vorgehen:</b><div dangerouslySetInnerHTML={{ __html: mdHtml(a.loesungsweg) }} /></div>}
       </div>}
     </div>
   );

@@ -1,5 +1,7 @@
 // Lerninhalte aus dem Repo-Ordner content/ (aus den Modul-Chats, Schema: claude/lerninhalte_schema.md im Projekt).
 // Vite bündelt alle JSON-Dateien beim Build; neue Dateien erscheinen mit dem nächsten Deploy.
+import katex from 'katex';
+import 'katex/dist/katex.min.css';
 
 export interface LZiel { text: string; art: string; quelle?: string; fragen: string[]; erklaerung_abschnitt?: string }
 export interface LAbschnitt { titel: string; text: string; beispiel?: string; folien?: string }
@@ -52,20 +54,40 @@ export const glossarVon = (modul: string) => GLOSSARE[modul]?.eintraege ?? [];
 export const symboleVon = (modul: string) => SYMBOLE.filter((s) => s.module.includes(modul));
 export const frageRef = (s: LSitzung, f: LFrage) => 'lf:' + s.datei + '#' + f.id;
 
-// ---------- Mini-Markdown (fett, kursiv, Tabellen, Zeilenumbrüche) ----------
+// ---------- Mini-Markdown mit Formeln ----------
+// Unterstützt: **fett**, *kursiv*, Tabellen (| … |), Listen (- … / 1. …), Überschriften (### …),
+// Regel-Kästen (> …), Zeilenumbrüche und Formeln in LaTeX: $…$ (im Text) und $$…$$ (eigene Zeile, zentriert).
 const esc = (t: string) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-const inline = (t: string) => esc(t).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/(^|[^*])\*(?!\s)(.+?)\*(?!\*)/g, '$1<i>$2</i>');
-export function mdHtml(text: string): string {
-  return (text || '').split(/\n{2,}/).map((block) => {
-    const zeilen = block.split('\n');
+const FORMEL = '\u0000F';
+function formelnRaus(t: string): { t: string; f: string[] } {
+  const f: string[] = [];
+  const put = (tex: string, block: boolean) => { f.push(katex.renderToString(tex, { throwOnError: false, displayMode: block, strict: false, output: 'html' })); return FORMEL + (f.length - 1) + '\u0000'; };
+  t = t.replace(/\$\$([\s\S]+?)\$\$/g, (_, x) => put(x.trim(), true));
+  t = t.replace(/(^|[^\\])\$([^$\n]+?)\$/g, (_, v, x) => v + put(x, false));
+  return { t, f };
+}
+const formelnRein = (h: string, f: string[]) => h.replace(/\u0000F(\d+)\u0000/g, (_, i) => f[+i]);
+const inlineRoh = (t: string) => esc(t).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/(^|[^*])\*(?!\s)(.+?)\*(?!\*)/g, '$1<i>$2</i>');
+function bloecke(text: string): string {
+  return text.split(/\n{2,}/).map((block) => {
+    const zeilen = block.split('\n').filter((z, i, a) => z.trim() !== '' || (i > 0 && i < a.length - 1));
+    if (!zeilen.length) return '';
     if (zeilen.every((z) => z.trim().startsWith('|'))) {
       const rows = zeilen.filter((z) => !/^\s*\|[\s|:-]+\|\s*$/.test(z)).map((z) => z.trim().replace(/^\||\|$/g, '').split('|').map((c) => c.trim()));
       const [kopf, ...rest] = rows;
-      return '<table class="lt-tab"><thead><tr>' + kopf.map((c) => '<th>' + inline(c) + '</th>').join('') + '</tr></thead><tbody>' + rest.map((r) => '<tr>' + r.map((c) => '<td>' + inline(c) + '</td>').join('') + '</tr>').join('') + '</tbody></table>';
+      return '<div class="lt-tabwrap"><table class="lt-tab"><thead><tr>' + kopf.map((c) => '<th>' + inlineRoh(c) + '</th>').join('') + '</tr></thead><tbody>' + rest.map((r) => '<tr>' + r.map((c) => '<td>' + inlineRoh(c) + '</td>').join('') + '</tr>').join('') + '</tbody></table></div>';
     }
-    return '<p>' + zeilen.map(inline).join('<br>') + '</p>';
+    if (zeilen.every((z) => z.startsWith('>'))) return '<div class="lt-regel">' + bloecke(zeilen.map((z) => z.replace(/^>\s?/, '')).join('\n')) + '</div>';
+    if (zeilen.every((z) => /^\s*[-•]\s/.test(z))) return '<ul>' + zeilen.map((z) => '<li>' + inlineRoh(z.replace(/^\s*[-•]\s/, '')) + '</li>').join('') + '</ul>';
+    if (zeilen.every((z) => /^\s*\d+\.\s/.test(z))) return '<ol start="' + parseInt(zeilen[0]) + '">' + zeilen.map((z) => '<li>' + inlineRoh(z.replace(/^\s*\d+\.\s/, '')) + '</li>').join('') + '</ol>';
+    if (zeilen.length === 1 && /^#{2,4}\s/.test(zeilen[0])) return '<h4 class="lt-h">' + inlineRoh(zeilen[0].replace(/^#+\s/, '')) + '</h4>';
+    return '<p>' + zeilen.map(inlineRoh).join('<br>') + '</p>';
   }).join('');
 }
+/** Markdown mit Formeln → HTML (Blöcke). */
+export function mdHtml(text: string): string { const { t, f } = formelnRaus(text || ''); return formelnRein(bloecke(t), f); }
+/** Nur eine Zeile (ohne Absatz), z. B. für Fragen und Antwortoptionen. */
+export function mdInline(text: string): string { const { t, f } = formelnRaus(text || ''); return formelnRein(t.split('\n').map(inlineRoh).join('<br>'), f); }
 
 const normLit = (t: string) => t.toLowerCase().replace(/[„“"'.,:;()\-–]/g, ' ').replace(/\s+/g, ' ').trim();
 /** Abgleich je Literaturangabe der Modulbeschreibung: null = noch nicht abgeglichen */

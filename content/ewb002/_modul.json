@@ -3,8 +3,265 @@
   "modul": "ewb002",
   "name": "Methoden der empirischen Bildungsforschung",
   "semester": "WiSe 26/27",
-  "sitzungen": [],
-  "dateien": [],
+  "pruefung": {
+    "form": "Klausur",
+    "termine": [
+      "2027-02-04",
+      "2027-03-18"
+    ],
+    "hinweise": [
+      "Klausur in Präsenz; Ersttermin 04.02.2027, Zweittermin 18.03.2027, jeweils voraussichtlich 12 Uhr; Orte folgen (ewb002.2 S01, Folie 20)",
+      "Anmeldung über QISPOS: Ersttermin ab Januar, Zweittermin ab Mitte/Ende Februar",
+      "Inhalte aus Vorlesung und Seminar; bestanden ab 50 % der Gesamtpunktzahl; überwiegend offenes Frage-/Antwort-Format",
+      "Klausurerfolg früherer Semester ca. 68–70 %; regelmäßige Seminarteilnahme hängt deutlich mit dem Bestehen zusammen (Folie 21)"
+    ]
+  },
+  "teilmodule": [
+    {
+      "id": "ewb002.1",
+      "name": "Wissenschaftstheoretische und methodische Grundlagen der empirischen Bildungsforschung",
+      "art": "Vorlesung"
+    },
+    {
+      "id": "ewb002.2",
+      "name": "Methoden der empirischen Bildungsforschung in Anwendung und Praxis (Gruppe M)",
+      "art": "Seminar"
+    },
+    {
+      "id": "ewb002",
+      "name": "Tutorium ewb002",
+      "art": "Tutorium",
+      "freiwillig": true
+    }
+  ],
+  "kompetenzziele": [
+    {
+      "text": "breites und integriertes Wissen über Standards wissenschaftlichen Arbeitens und Schreibens",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "breites und integriertes Wissen über die Struktur und den Ablauf wissenschaftlicher Untersuchungen",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "breites und integriertes Wissen über Gütekriterien empirischer Forschung",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "breites und integriertes Wissen über qualitative sowie quantitative Datenerhebungsmethoden sowie ihre jeweiligen Vor- und Nachteile",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "breites und integriertes Wissen über Untersuchungsdesigns zur Evaluation von Effektivität und Kausalität",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "breites und integriertes Wissen über statistische Maßzahlen und inferenzstatistische univariate Datenanalyseverfahren",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "empirische Studien einschlägiger Publikationsorgane selbstständig lesen und erschließen sowie deren Aussagekraft und Methodik kritisch einschätzen",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "empirischen Fragestellungen methodische Ansätze zuordnen und empirisch prüfbare Hypothesen formulieren",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "bei konkreten Fragestellungen und Studien statistische Maßzahlen und die Ergebnisse univariater inferenzstatistischer Verfahren interpretieren",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "die Stärken und Schwächen qualitativer sowie quantitativer Untersuchungsansätze und -designs beurteilen",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "die Aussagekraft qualitativer und quantitativer Ergebnisse kritisch reflektieren",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "Stärken und Schwächen sowie das Potenzial quantitativer und qualitativer Untersuchungsansätze und -designs diskutieren",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "die Auswahl spezifischer Untersuchungsansätze und -methoden mit Blick auf die jeweilige Fragestellung fundiert begründen",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "die gewonnenen Erkenntnisse nutzen, um evidenzbasierte Ansätze in das Selbstverständnis der eigenen beruflichen Professionalisierung zu integrieren und auf die zukünftige Praxis zu übertragen",
+      "abgedeckt_in": []
+    }
+  ],
+  "sitzungen": [
+    "ewb002.2_2026-10-13"
+  ],
+  "sitzungsplan": [
+    {
+      "teilmodul": "ewb002.2",
+      "nr": 1,
+      "datum": "2026-10-13",
+      "thema": "Einführungsveranstaltung"
+    },
+    {
+      "teilmodul": "ewb002.2",
+      "nr": 2,
+      "datum": "2026-10-20",
+      "thema": "Einführung in die wissenschaftliche Literaturrecherche"
+    },
+    {
+      "teilmodul": "ewb002.2",
+      "nr": 3,
+      "datum": "2026-10-27",
+      "thema": "Theorien, Hypothesen und ihre Prüfung"
+    },
+    {
+      "teilmodul": "ewb002.2",
+      "nr": 4,
+      "datum": "2026-11-03",
+      "thema": "Untersuchungsplanung und Auswahlverfahren"
+    },
+    {
+      "teilmodul": "ewb002.2",
+      "nr": 5,
+      "datum": "2026-11-10",
+      "thema": "Messtheorie"
+    },
+    {
+      "teilmodul": "ewb002.2",
+      "nr": 6,
+      "datum": "2026-11-17",
+      "thema": "Datenerhebung"
+    },
+    {
+      "teilmodul": "ewb002.2",
+      "nr": 7,
+      "datum": "2026-11-24",
+      "thema": "CIPO-Modell"
+    },
+    {
+      "teilmodul": "ewb002.2",
+      "nr": 8,
+      "datum": "2026-12-01",
+      "thema": "Gütekriterien der Sozialforschung"
+    },
+    {
+      "teilmodul": "ewb002.2",
+      "nr": 9,
+      "datum": "2026-12-08",
+      "thema": "Datenaufbereitung 1 – Deskriptive Statistik"
+    },
+    {
+      "teilmodul": "ewb002.2",
+      "nr": 10,
+      "datum": "2026-12-15",
+      "thema": "Datenaufbereitung 2 – Inferentielle Statistik I"
+    },
+    {
+      "teilmodul": "ewb002.2",
+      "nr": 11,
+      "datum": "2027-01-05",
+      "thema": "Datenaufbereitung 3 – Inferentielle Statistik II"
+    },
+    {
+      "teilmodul": "ewb002.2",
+      "nr": 12,
+      "datum": "2027-01-12",
+      "thema": "Datenaufbereitung 4 – Inferentielle Statistik III"
+    },
+    {
+      "teilmodul": "ewb002.2",
+      "nr": 13,
+      "datum": "2027-01-19",
+      "thema": "Erkenntnis- und Wissenschaftstheorien"
+    },
+    {
+      "teilmodul": "ewb002.2",
+      "nr": 14,
+      "datum": "2027-01-26",
+      "thema": "Klausurvorbereitung"
+    },
+    {
+      "teilmodul": "ewb002.1",
+      "nr": 1,
+      "datum": "2026-10-14",
+      "thema": "Wissenschaftliche Literaturrecherche (Vortrag der Bibliothek)",
+      "hinweis": "keine Folien; Info-Blatt Infotool"
+    },
+    {
+      "teilmodul": "ewb002.1",
+      "nr": 2,
+      "datum": "2026-10-21",
+      "thema": "Theorien, Hypothesen und Daten",
+      "status": "ausgefallen",
+      "hinweis": "Prof. Zimmer erkrankt (Mail 20.10.2026); Folien zum Selbststudium"
+    },
+    {
+      "teilmodul": "ewb002.1",
+      "nr": 3,
+      "datum": "2026-10-29",
+      "thema": "",
+      "hinweis": "ab jetzt donnerstags 8:30–10:00 live-online (Brodowy), solange Prof. Zimmer erkrankt (Mail 23.10.2026); Thema noch offen"
+    }
+  ],
+  "vl_plan_ws2526": {
+    "hinweis": "Vorlesungsplan aus dem WS 25/26 (00_ewb2vor_Einführungsveranstaltung_wise25_26.pdf, Folie 10) – nur zur Orientierung, im WS 26/27 nicht bestätigt",
+    "sitzungen": [
+      "01 Einführung in Thema und Modul",
+      "02 Wissenschaftliche Literaturrecherche",
+      "03 Theorien, Hypothesen und ihre Prüfung: Merkmale, Eigenschaften und Ausprägungen",
+      "04 Untersuchungsplanung und Auswahlverfahren: Stufenmodelle / Stichprobenziehung",
+      "05 Messtheorie: Operationalisierung, Messen, Skalenniveaus",
+      "06 Datenerhebung: Beobachtung, Befragung, Fragebogen, Experiment, Quasiexperiment",
+      "07 CIPO-Modell: Komponenten und Beispiele / Ebenen des Bildungswesens",
+      "08 Gütekriterien der Sozialforschung: Hauptgütekriterien der quantitativen und qualitativen Sozialforschung",
+      "09 Datenaufbereitung I: Deskriptive Statistik: Stichprobe und Grundgesamtheit, Häufigkeitsverteilungen, Maße der zentralen Tendenz, Streuungsmaße, z-Transformation; Beispiel Kompetenzmessung in PISA",
+      "10 Datenaufbereitung II: Inferenzielle Statistik I: Wahrscheinlichkeit, Normalverteilung, Alpha- und Beta-Fehler",
+      "11 Datenaufbereitung III: Inferenzielle Statistik II: Chi-Quadrat-Verfahren, t-Test",
+      "12 Erkenntnis und Wissenschaftstheorien: Forschungsansätze, ethisch verantwortliche Empirie, Plagiate, wissenschaftliches Arbeiten und KI-Nutzung; Logischer Positivismus und Kritischer Rationalismus",
+      "13 Ausblick – Systematic Review: Einführung in eine sekundäranalytische Methode",
+      "14 Live-Fragestunde zum Modul und zur Abschlussklausur"
+    ]
+  },
+  "klausurstil": {
+    "quellen": [
+      "ewb002 - WS 25:26/3. ewb002 Tutorium/Ewb002 Klausur.docx (Gedächtnisprotokoll Klausur WS 25/26)",
+      "ewb002 - WS 25:26/4. ewb002 Aufgaben/Übungsaufgaben … Weihnachts-/Neujahrspause 2025/2026 (Stud.IP-Übung mit Punkten)"
+    ],
+    "aufbau": "ca. 11 Aufgaben, fast alle offen mit Fallbeispiel aus Schule/Jugend/Bildung; Rechenaufgaben mit angegebener Formel und kritischem Wert",
+    "aufgabentypen": [
+      "Fallbeispiel → Modell anwenden (CIPO: Komponenten nennen + je eine Beispielvariable)",
+      "Venn-Diagramm ↔ logischer Ausdruck zuordnen; Trefferzahl einer Suchanfrage berechnen",
+      "Rollenspiel „Teambesprechung“: Vorteile Mixed Methods, Vertiefungsmodell, Erzählaufforderung für Leitfaden + Prinzip Offenheit, Kernkriterium nach Steinke, Forschungsethik/Anonymisierung beurteilen",
+      "Experiment skizzieren: Manipulation UV, Messung AV, Störvariable kontrollieren, passenden t-Test begründen",
+      "Antwortkategorien prüfen (disjunkt/erschöpfend) und polytom neu formulieren",
+      "H0/H1 formulieren, Alpha- und Beta-Fehler am Beispiel erklären",
+      "höchstmögliches Skalenniveau bestimmen und begründen",
+      "Werte aus verschiedenen Verteilungen vergleichen (z-Werte)",
+      "Chi²-Unabhängigkeitstest mit Schlusssatz",
+      "Box-and-Whisker-Plot erstellen"
+    ],
+    "formulierungen": [
+      "Bitte nennen Sie … und geben Sie für jede … eine (Beispiel-)Variable an",
+      "Bitte begründen Sie …",
+      "Skizzieren Sie, wie … und gehen Sie insbesondere auf folgende Inhalte ein",
+      "Was halten Sie von unserem Vorgehen? Stimmen Sie dem zu?",
+      "Fassen Sie die … Schlussfolgerung in einem Schlusssatz zusammen"
+    ],
+    "haeufige_themen": [
+      "CIPO-Modell",
+      "logische Operatoren / Literaturrecherche",
+      "Mixed Methods und qualitative Gütekriterien",
+      "Forschungsethik",
+      "Experiment, UV/AV, Störvariablen",
+      "Merkmalsausprägungen",
+      "Hypothesen, Alpha-/Beta-Fehler",
+      "Skalenniveaus",
+      "z-Transformation",
+      "Chi²-Test",
+      "t-Test",
+      "Boxplot"
+    ]
+  },
   "literatur": [
     {
       "eintrag": "Döring/Bortz (2016): Forschungsmethoden und Evaluation",
@@ -37,6 +294,94 @@
       "eintrag": "Rost (2013): Interpretation und Bewertung pädagogisch-psychologischer Studien",
       "vorhanden": false,
       "stand": "2026-10-25"
+    }
+  ],
+  "weitere_literatur": [
+    {
+      "eintrag": "Häder, M. (2019): Empirische Sozialforschung. Eine Einführung",
+      "datei": "Literatur/Haeder_2019_Empirische-Sozialforschung.pdf",
+      "verwendung": "Vorbereitung Seminar S03 (27.10.): S. 43–47"
+    },
+    {
+      "eintrag": "Tausendpfund, M. (2018): Quantitative Methoden in der Politikwissenschaft",
+      "datei": "Literatur/Tausendpfund_2018_Quantitative-Methoden-Politikwissenschaft.pdf",
+      "verwendung": "Vorbereitung Seminar S03 (27.10.): S. 10–14, 91–106, 257–258"
+    },
+    {
+      "eintrag": "Raithel, J. (2008): Quantitative Forschung. Ein Praxiskurs, 2. Aufl.",
+      "datei": "Literatur/Raithel_2008_Quantitative-Forschung.pdf",
+      "verwendung": "Vorbereitung Seminar S03 (27.10.): S. 15–17, 37–38"
+    },
+    {
+      "eintrag": "Diekmann, A. (2008): Empirische Sozialforschung",
+      "vorhanden": false,
+      "verwendung": "auf Folien zitiert (Seminar S01 Folie 6; VL S02 Folien 8, 14, 17–18, 29) – kein Pflichttext; neuere Auflage 2021 steht in der Liste fehlender Literatur"
+    }
+  ],
+  "fehlende_literatur": [],
+  "auffaelligkeiten": [
+    "Seminar S01: Folie 4 „erste Vorlesungswoche“ vs. Leitfaden „Vorlesungszeit hat bereits in der letzten Woche begonnen“",
+    "VL S02 (Theo_Hypo_Data): Leitfragen-Folie nennt „2.3 Abhängige und abhängige Variable“ (Tausendpfund) – gemeint vermutlich „unabhängige“ (prüfen bei Bearbeitung)"
+  ],
+  "besonderheiten": [
+    "Im WS 26/27 fand die Moduleinführung nur in den Seminaren statt (Mail Prof. Zimmer, 13.10.2026); keine eigene VL-Einführung",
+    "Prof. Zimmer länger erkrankt: VL mittwochs ausgesetzt, stattdessen donnerstags 8:30–10:00 live-online bei Herrn Brodowy (Mail 23.10.2026)",
+    "In jedem Modul-Chat die Unterlagen mit dem WS 25/26 abgleichen (Ordner „ewb002 - WS 25:26“, nur lesen, nichts verschieben)",
+    "Tutorium hat Nadine im WS 25/26 besucht: Aufgabenblätter 1–6 (Ordner „ewb002 - WS 25:26/3. ewb002 Tutorium“) als zusätzliche Übungsaufgaben in die passenden Sitzungen einbauen",
+    "Weitere Übungsquellen WS 25/26: Weihnachtsübungen, „ewb002 lösungen punkte.pdf“, „ewb002 Aufgaben mit Lösungen“ (48 Bilder), Fragestunde vor der Klausur, Noch_eine_Übungsaufgabe_Boxplot – iCloud-Dateien dürfen bei Bedarf geladen werden (Nadine, 25.10.2026)",
+    "VL-Folien enden mit Literaturempfehlung + Leitfragen für das Seminar der Folgewoche → Hausaufgabe „Textvorbereitung“ (Schema 5f)"
+  ],
+  "dateien": [
+    {
+      "pfad": "ewb002.1/1. Info_ewb002_Infotool.pdf",
+      "geaendert": "2026-10-23",
+      "art": "Info",
+      "status": "übersprungen",
+      "hinweis": "identisch mit WS 25/26; Info zum Bib-Vortrag 14.10.",
+      "sitzung": "ewb002.1_2026-10-14"
+    },
+    {
+      "pfad": "ewb002.1/02_ewb002vor_Theo_Hypo_Data_wise_26_27.pdf",
+      "geaendert": "2026-10-23",
+      "art": "Folien",
+      "status": "später",
+      "sitzung": "ewb002.1_2026-10-21",
+      "hinweis": "gegenüber WS 25/26 nur Kleinigkeiten auf Folien 3, 21, 24, 36"
+    },
+    {
+      "pfad": "ewb002.2/T01_ewb002.2_Einführungsveranstaltung.pdf",
+      "geaendert": "2026-10-23",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "ewb002.2_2026-10-13"
+    },
+    {
+      "pfad": "ewb002.2/T01_ewb002.2_Wintersemester_2026_2027_01_Fragebogen.pdf",
+      "geaendert": "2026-10-23",
+      "art": "Arbeitsmaterial",
+      "status": "verarbeitet",
+      "sitzung": "ewb002.2_2026-10-13"
+    },
+    {
+      "pfad": "ewb002.2/T01_ewb002.2_Wintersemester_2026_2027_01_Leitfaden.pdf",
+      "geaendert": "2026-10-23",
+      "art": "Arbeitsmaterial",
+      "status": "verarbeitet",
+      "sitzung": "ewb002.2_2026-10-13"
+    },
+    {
+      "pfad": "ewb002.2/T02_ewb002.2_Literaturrecherche.pdf",
+      "geaendert": "2026-10-23",
+      "art": "Folien",
+      "status": "später",
+      "sitzung": "ewb002.2_2026-10-20"
+    },
+    {
+      "pfad": "Bildschirmfoto 2026-10-23 um 18.49.25.png",
+      "geaendert": "2026-10-23",
+      "art": "Mail",
+      "status": "ausgewertet",
+      "hinweis": "Mail Lehrteam: Erkrankung Prof. Zimmer, VL-Änderung, Seminarplätze"
     }
   ]
 }

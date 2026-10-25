@@ -1,0 +1,373 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb001",
+  "teilmodul": "ewb001.2",
+  "datum": "2026-10-13",
+  "sitzung_nr": 1,
+  "sitzung_id": "",
+  "thema": "Einführung – Säulen der Pädagogik (Sozialisation, Erziehung, Bildung, Lernen)",
+  "thema_in_app": "korrigiert",
+  "stand": "geprueft",
+  "hinweis": "Am 13.10.2026 fand in ewb001.2 keine Veranstaltung statt (gemeinsamer Auftakt in ewb001.1, Begrüßungsmail/Ablaufplan) – in der App „ausgefallen“. Die Lerninhalte stammen aus der Einführungseinheit von Herrn Rieckmann (Folien + eingesprochenes Video aus einem früheren Semester).",
+  "quellen": [
+    { "datei": "ewb001.2/02_Präsentationen_Vorlesungen/01_ewb001.2_Einführung.pdf", "art": "Folien", "seiten": "1–23" },
+    { "datei": "ewb001.2/3._Videos der Vorlesung Kopie/Sitzung_01/01_ewb001.2_Transkript_Zusammenfassung.docx", "art": "Transkript des eingesprochenen Videos (25 Min.)", "seiten": "" },
+    { "datei": "Literatur/Stein_2017_Allgemeine-Paedagogik.pdf", "art": "Literatur (auf den Folien zitiert)", "seiten": "16–21, 40 f., 65 ff., 89 f." }
+  ],
+
+  "lernziele": [
+    { "text": "Du kannst Erziehungswissenschaft und Pädagogik nach Ludwig (2020) definieren und voneinander abgrenzen.", "art": "abgeleitet", "quelle": "Folie 13", "fragen": ["f01", "f02", "f03", "f04", "f24"], "erklaerung_abschnitt": "Erziehungswissenschaft und Pädagogik" },
+    { "text": "Du kannst die vier Säulen der Pädagogik nennen und den drei Ebenen der Betrachtung (intrapersonell, interpersonell, makrosozial) zuordnen.", "art": "abgeleitet", "quelle": "Folien 14–17", "fragen": ["f05", "f06", "f07", "f22", "f23"], "erklaerung_abschnitt": "Entwicklung des Subjekts: vier Säulen, drei Ebenen" },
+    { "text": "Du kannst Sozialisation definieren und ihre Merkmale, ihr Ziel und die Sozialisationsinstanzen nennen.", "art": "abgeleitet", "quelle": "Folie 18", "fragen": ["f08", "f09", "f10", "f11"], "erklaerung_abschnitt": "Sozialisation" },
+    { "text": "Du kannst Erziehung nach Brezinka definieren, ihren Dreiklang nennen und sie von Bildung abgrenzen.", "art": "abgeleitet", "quelle": "Folien 19–20", "fragen": ["f12", "f13", "f14", "f15"], "erklaerung_abschnitt": "Erziehung" },
+    { "text": "Du kannst die Merkmale von Bildung und ihr Ziel nach Klafki nennen.", "art": "abgeleitet", "quelle": "Folie 20", "fragen": ["f15", "f16", "f17"], "erklaerung_abschnitt": "Bildung" },
+    { "text": "Du kannst Lernen definieren und echte Lernprozesse von anderen Verhaltensänderungen (angeborene Reaktionstendenzen, Reifung, vorübergehende Zustände) abgrenzen.", "art": "abgeleitet", "quelle": "Folie 21", "fragen": ["f18", "f19", "f20", "f21"], "erklaerung_abschnitt": "Lernen" },
+    { "text": "Du kennst Themen und Lehrphilosophie der Vorlesung ewb001.2.", "art": "abgeleitet", "quelle": "Folien 3–10", "fragen": ["f25"], "erklaerung_abschnitt": "Vorlesung ewb001.2: Lehrender, Lehrphilosophie, Themen" }
+  ],
+
+  "kurzfassung": [
+    "Erziehungswissenschaft ist die wissenschaftliche Einzeldisziplin, die sich mit Erziehung und Bildung beschäftigt; Pädagogik meint die Erziehungs- und Bildungspraxis und das (auch vorwissenschaftliche) Nachdenken darüber – Pädagogik ist der weitere Begriff.",
+    "Vier Bereiche bestimmen die Entwicklung des Menschen: Sozialisation, Erziehung, Bildung und Lernen – die vier Säulen der Pädagogik (Stein 2017).",
+    "Die Prozesse laufen auf drei Ebenen ab: intrapersonell (Lernen, Bildung), interpersonell (Erziehung, Bildung) und makrosozial (Sozialisation).",
+    "Sozialisation ist ein lebenslanger, bidirektionaler Prozess der Persönlichkeitswerdung in Auseinandersetzung mit der Umwelt; Instanzen sind Familie, Schule, Arbeitswelt und Universität.",
+    "Erziehung (Brezinka) sind Handlungen, mit denen Menschen die psychischen Dispositionen anderer dauerhaft zu verbessern versuchen – mit dem Dreiklang Behüten, Gegenwirken, Unterstützung und einem Hierarchiegefälle.",
+    "Bildung ist an kein Lebensalter gebunden, lebenslang und auch Selbstbildung; Ziel ist nach Klafki Emanzipation und Mündigkeit.",
+    "Lernen sind erfahrungsbedingte Veränderungen der Verhaltensmöglichkeiten – nicht aber Veränderungen durch angeborene Reaktionstendenzen, Reifung oder vorübergehende Zustände; Lernen ist die Grundlage der anderen drei Säulen."
+  ],
+
+  "erklaerung": [
+    {
+      "titel": "Vorlesung ewb001.2: Lehrender, Lehrphilosophie, Themen",
+      "text": "**Prof. Dr. Marco Rieckmann** (Folie 3): Professor für Hochschuldidaktik, Schwerpunkt Schlüsselkompetenzen; Schwerpunkte Bildung für nachhaltige Entwicklung (BNE) / Globales Lernen, nachhaltige Hochschulentwicklung, Hochschuldidaktik. Deshalb hat BNE in ewb001.2 einen eigenen Termin.\n\n**Lehrphilosophie (Folie 5):**\n- Kompetenzorientierung\n- Konstruktivistisches Lehr-Lern-Verständnis\n- Dozent(inn)en als Lernbegleiter(innen)\n- Eigenverantwortung der Studierenden\n\nIm Video begründet er das so: Nach dem Konstruktivismus lernen alle unterschiedlich und konstruieren Wissen unterschiedlich – deshalb gibt es verschiedene Zugänge zu denselben Inhalten (Texte, Videos, Folien, Gespräche, Tutorien). Lernen ist ein aktiver Prozess, der von den Studierenden ausgeht; der Dozent „vermittelt“ nicht, sondern begleitet.\n\n**Themen (Folie 6):** Einführung in die Pädagogik/Erziehungswissenschaft · Lernen · Kompetenzen · Bildung. Den verbindlichen Terminplan enthält der Ablaufplan WiSe 2026/27 (die Folien 7–10 zeigen noch einen älteren Plan). Sozialisation und Erziehung werden hier nur angerissen und in ewb001.1 bei Frau Stein ausführlich behandelt.\n\n**Orga (Folie 12):** Anregungen und Wünsche jederzeit einbringen · regelmäßige Mitarbeit · alle Materialien auf Stud.IP · Anmeldung über QISPOS.",
+      "folien": "1–12"
+    },
+    {
+      "titel": "Erziehungswissenschaft und Pädagogik",
+      "text": "**Definitionen nach Ludwig (2020, S. 139 f.) (Folie 13):**\n\n| Begriff | Definition |\n| --- | --- |\n| **Erziehungswissenschaft** | wissenschaftliche „Einzeldisziplin, die sich mit Erziehung und Bildung beschäftigt“ |\n| **Pädagogik** (1.) | „Handlungsfeld der Erziehungs- und Bildungspraxis, also für die Gesamtheit der praktischen Tätigkeiten zur Auslösung von Lernprozessen“ |\n| **Pädagogik** (2.) | „Nachdenken über diese Praxis […], sowohl im vorwissenschaftlichen Sinn als auch im Sinn der Produktion von Erkenntnissen durch wissenschaftliche Forschung oder der Sicherung und Verbreitung dieses Wissensbestands in der wissenschaftlichen Lehre“ |\n\n**Erläuterung aus dem Video:** Erziehungswissenschaft ist ein wissenschaftliches Fach wie Chemie oder Soziologie – mit Professuren, Studiengängen, Instituten und Fachzeitschriften. Pädagogik meint dagegen die Praxis selbst (überall, wo Erziehungs- und Bildungsprozesse gestaltet werden: Frühpädagogik, Schule, Hochschule …) und das Nachdenken darüber.\n\n> **Merkregel:** **Pädagogik ist der weitere Begriff.** Beim *wissenschaftlichen* Nachdenken über die Praxis überschneiden sich beide Begriffe. Pädagogik umfasst zusätzlich die **praktische Tätigkeit** und das **vorwissenschaftliche** Nachdenken (z. B. eine Erzieherin, die über ihre eigene Arbeit nachdenkt).\n\nHerr Rieckmann verwendet im Semester bei Theorien, Wissenschaftstheorie und Forschung eher „Erziehungswissenschaft“, bei stärkerem Praxisbezug eher „Pädagogik“.",
+      "beispiel": "Eine Lehrerin plant ihren Unterricht und denkt danach darüber nach, warum die Gruppenarbeit nicht geklappt hat → Pädagogik (Praxis und vorwissenschaftliches Nachdenken). Eine Forschungsgruppe untersucht mit einer Studie, wie Gruppenarbeit wirkt, und veröffentlicht das in einer Fachzeitschrift → Erziehungswissenschaft (und Pädagogik im wissenschaftlichen Sinn).",
+      "folien": "13"
+    },
+    {
+      "titel": "Entwicklung des Subjekts: vier Säulen, drei Ebenen",
+      "text": "**Stein (2017, S. 16 f.) (Folie 14):** „Es sind vier Bereiche zu nennen – die Sozialisation, die Erziehung, die Bildung und das Lernen – welche die Entwicklung des einzelnen Menschen bestimmen, wobei die jeweiligen Prozesse sowohl\n- innerhalb einer Person (intrapersonell),\n- als auch zwischen zwei oder mehr Personen (interpersonell)\n- sowie darüber hinaus in größeren sozialen Zusammenhängen (makrosozial)\n\nablaufen.“\n\n**Ebenen der Betrachtung (Folie 16)** – drei übereinanderliegende Ebenen:\n\n| Ebene | Säule(n) |\n| --- | --- |\n| intrapersonelle Ebene (innerhalb einer Person) | **Lernen / Bildung** |\n| interpersonelle Ebene (zwischen zwei oder mehr Personen) | **Erziehung, Bildung** |\n| makrosoziale Ebene (größere soziale Zusammenhänge) | **Sozialisation** |\n\nIm Video: Lernen sind Konstruktionsprozesse im Individuum; Bildung läuft sowohl intra- als auch interpersonell ab (Selbstbildung und Austausch); Erziehung findet immer zwischen mehreren Personen statt; Sozialisation liegt auf der makrosozialen Ebene.\n\n**Die vier Säulen der Pädagogik (Stein 2017, S. 18) (Folie 17)** – mit Kurzdefinition:\n\n| Säule | Ebene | Kurzdefinition |\n| --- | --- | --- |\n| **Sozialisation** | makrosoziale Ebene | „Persönlichkeitswerdung des Menschen im weitesten Sinne in der Auseinandersetzung mit der materialen, geistigen und sozialen Umgebung“ |\n| **Erziehung** | interpersonelle Ebene | „Handlungen, durch die Menschen andere Menschen dauerhaft beeinflussen“ |\n| **Bildung** | interpersonelle Ebene | „Prozess, der das Hineinwachsen in eine Gemeinschaft in der Auseinandersetzung mit ihr beinhaltet“ |\n| **Lernen** | intrapersonelle Ebene | „Veränderungen im Verhalten oder im Verhaltensrepertoire im weitesten Sinne“ |\n\n*Hinweis:* Folie 17 ordnet Bildung nur der interpersonellen Ebene zu, Folie 16 und das Video zusätzlich der intrapersonellen. In den Lernfragen gilt: Bildung = intra- **und** interpersonell.",
+      "folien": "14–17"
+    },
+    {
+      "titel": "Sozialisation",
+      "text": "**Definition (Stein 2017, S. 21) (Folie 18):** Sozialisation = „lebenslanger, bidirektionaler Prozess, der die Persönlichkeitswerdung des Menschen in produktiver Auseinandersetzung mit seiner Umwelt und die Rückwirkungen des Menschen auf seine Umwelt beinhaltet“\n\n- **lebenslang:** Sozialisation hört nie auf.\n- **bidirektional:** Der Mensch wird von seiner Umwelt geprägt **und** wirkt auf sie zurück.\n\n**Ziel:** „vollständig entwickelte Identität des Einzelnen und die Entwicklung einer gemeinsamen Handlungspraxis“\n\n**Sozialisationsinstanzen:** Familie, Schule, Arbeitswelt und Universität\n\n**Video zur „gemeinsamen Handlungspraxis“:** Im Wechselspiel mit der Umwelt lernt man Praktiken, Traditionen und vorherrschende Sichtweisen kennen und passt sich an – es entsteht ein geteiltes Verständnis, „was wann wie üblich ist“. Das gilt nicht für alle Menschen eines Landes gleich, sondern kann sich von Land zu Land, Region zu Region und sogar von Familie zu Familie unterscheiden.\n\nAusführlich: ewb001.1, Sitzungen Sozialisation I–III.",
+      "folien": "18"
+    },
+    {
+      "titel": "Erziehung",
+      "text": "**Definition (Brezinka 1990, S. 95; nach Stein 2017, S. 40 f.) (Folie 19):** „Unter Erziehung werden Handlungen verstanden, durch die Menschen versuchen, das Gefüge der psychischen Disposition anderer Menschen in irgendeiner Hinsicht dauerhaft zu verbessern und seine als wertvoll beurteilten Bestandteile zu erhalten oder die Entstehung von Dispositionen, die als schlecht bewertet werden, zu verhüten.“\n\n- **Dreiklang:** Behüten, Gegenwirken, Unterstützung\n- **Hierarchiegefälle** zwischen Erzieher*in und der*dem zu Erziehenden\n\n**Video:** Mit „psychischen Dispositionen“ ist das gemeint, was im Kopf eines Menschen angelegt ist – Vorstellungen, Wissen, Einstellungen. Erziehung richtet sich vor allem an Kinder und Jugendliche; die erziehende Person ist meist deutlich älter. Sie ist nie ganz abgeschlossen, findet aber im Wesentlichen im minderjährigen Alter statt – und immer zwischen Personen (interpersonell). Beispiel aus der Frühpädagogik: Kindern beibringen, andere nicht zu schlagen oder zu beißen.\n\nAusführlich: ewb001.1, Sitzungen Erziehung I–IV.",
+      "folien": "19"
+    },
+    {
+      "titel": "Bildung",
+      "text": "**Merkmale (Stein 2017, S. 65 ff.) (Folie 20):**\n- Bildungsbegriff **nicht an ein bestimmtes Lebensalter gebunden**\n- **lebenslanger** Prozess, auch ein Prozess der **Selbstbildung**\n- Entwicklung der Fähigkeit und Bereitschaft, „sich kompetent und adäquat mit Schlüsselproblemen der Menschheit auseinanderzusetzen“\n- **Ziel der Bildung: Emanzipation und Mündigkeit des Menschen (Klafki)**\n\n**Erziehung und Bildung im Vergleich** (aus Folien 19–20 und Video):\n\n| | Erziehung | Bildung |\n| --- | --- | --- |\n| Lebensalter | vor allem Kinder und Jugendliche | an kein Lebensalter gebunden, lebenslang |\n| Beziehung | Hierarchiegefälle, eine Person wirkt auf eine andere | auch Selbstbildung |\n| Ebene | interpersonell | intra- und interpersonell |\n| Ziel | psychische Dispositionen dauerhaft verbessern | Emanzipation und Mündigkeit (Klafki) |\n\nAuf Klafki kommt Herr Rieckmann in der Sitzung „Bildung“ ausführlich zurück.",
+      "folien": "20"
+    },
+    {
+      "titel": "Lernen",
+      "text": "**Drei Definitionen (nach Stein 2017, S. 89 f.) (Folie 21):**\n1. „alle erfahrungsbedingten, auch unbewussten und nicht geplanten Veränderungen der Verhaltensmöglichkeiten von Organismen“\n2. **Bower/Hilgard (1983, S. 31):** „Lernen bezieht sich auf die Veränderung im Verhalten oder im Verhaltensrepertoire eines Organismus hinsichtlich einer bestimmten Situation, die auf wiederholte Erfahrungen des Organismus in dieser Situation zurückgeht, vorausgesetzt, dass diese Verhaltensänderung nicht auf angeborene Reaktionstendenzen, Reifung, oder vorübergehende Zustände (wie etwa Müdigkeit, Trunkenheit, Triebzustände, usw.) zurückgeführt werden kann.“\n3. **Ludwig (2020, S. 161):** „Lernen ist ein kognitiver Vorgang der Informationsverarbeitung und -speicherung, der das psychische Dispositionsgefüge eines Menschen verändert.“\n\n- Es gibt **bewusstes und unbewusstes** Lernen.\n\n> **Abgrenzung (Bower/Hilgard):** Kein Lernen sind Verhaltensänderungen durch **angeborene Reaktionstendenzen** (z. B. Reflexe), **Reifung** (z. B. ein Kind wird größer und kann deshalb ein höheres Regal erreichen) oder **vorübergehende Zustände** (Müdigkeit, Trunkenheit, Triebzustände).\n\n**Video:** Durch Erfahrungen bekommt das Gehirn Anreize, die Informationen werden verarbeitet, und das psychische Dispositionsgefüge verändert sich – das kann zu Verhaltensänderungen führen, muss aber nicht; in jedem Fall entsteht neues Wissen oder entstehen neue Einstellungen. **Lernen ist die Grundlage für Sozialisation, Erziehung und Bildung** – sie werden durch Lernen erst möglich. Lerntheorien folgen in Lernen I und II.",
+      "beispiel": "Lernen: Nach mehrmaligem Üben kann ein Kind seine Schuhe binden. Kein Lernen: Ein Kind reagiert nach einer durchwachten Nacht langsamer (vorübergehender Zustand).",
+      "folien": "21"
+    },
+    {
+      "titel": "Literatur der Sitzung",
+      "text": "- Ludwig, Peter H. (2020): Grundbegriffe der Pädagogik: Definitionskriterien, kritische Analyse, Vorschlag eines Begriffssystems. Weinheim: Beltz Juventa. – online über content-select (Shibboleth, Uni Vechta). In deinem Ordner liegt nur Kapitel 7 „Bildung“ (`ewb001.2/04_Literatur`), die zitierten Seiten 139 f. und 161 fehlen.\n- Stein, Margit (2017): Allgemeine Pädagogik. 3., überarbeitete Auflage. München: Ernst Reinhardt. – liegt in `Literatur/Stein_2017_Allgemeine-Paedagogik.pdf` (zitiert: S. 16–21, 40 f., 65 ff., 89 f.).",
+      "folien": "23"
+    }
+  ],
+
+  "definitionen": [
+    { "begriff": "Erziehungswissenschaft", "wortlaut": "wissenschaftliche „Einzeldisziplin, die sich mit Erziehung und Bildung beschäftigt“", "erklaerung": "Das wissenschaftliche Fach mit Professuren, Studiengängen, Instituten und Fachzeitschriften, das nach wissenschaftlichen Kriterien Wissen über Erziehung und Bildung erzeugt (Ludwig 2020, S. 139 f.).", "folie": "13" },
+    { "begriff": "Pädagogik", "wortlaut": "1. „Handlungsfeld der Erziehungs- und Bildungspraxis, also für die Gesamtheit der praktischen Tätigkeiten zur Auslösung von Lernprozessen“; 2. „Nachdenken über diese Praxis […], sowohl im vorwissenschaftlichen Sinn als auch im Sinn der Produktion von Erkenntnissen durch wissenschaftliche Forschung oder der Sicherung und Verbreitung dieses Wissensbestands in der wissenschaftlichen Lehre“", "erklaerung": "Der weitere Begriff: die pädagogische Praxis selbst und das Nachdenken darüber – auch ohne wissenschaftlichen Anspruch (Ludwig 2020, S. 139 f.).", "folie": "13" },
+    { "begriff": "Intrapersonell", "wortlaut": "innerhalb einer Person", "erklaerung": "Prozesse, die im Menschen selbst ablaufen – laut Folie 16 Lernen und Bildung.", "folie": "14, 16" },
+    { "begriff": "Interpersonell", "wortlaut": "zwischen zwei oder mehr Personen", "erklaerung": "Prozesse zwischen Menschen – laut Folie 16 Erziehung und Bildung.", "folie": "14, 16" },
+    { "begriff": "Makrosozial", "wortlaut": "in größeren sozialen Zusammenhängen", "erklaerung": "Prozesse in Gesellschaft und großen Gruppen – laut Folie 16 Sozialisation.", "folie": "14, 16" },
+    { "begriff": "Sozialisation", "wortlaut": "lebenslanger, bidirektionaler Prozess, der die Persönlichkeitswerdung des Menschen in produktiver Auseinandersetzung mit seiner Umwelt und die Rückwirkungen des Menschen auf seine Umwelt beinhaltet", "erklaerung": "Der Mensch entwickelt seine Persönlichkeit ein Leben lang im Wechselspiel mit seiner Umwelt – er wird geprägt und prägt selbst mit (Stein 2017, S. 21).", "folie": "18" },
+    { "begriff": "Sozialisation (Kurzdefinition)", "wortlaut": "Makrosoziale Ebene: Persönlichkeitswerdung des Menschen im weitesten Sinne in der Auseinandersetzung mit der materialen, geistigen und sozialen Umgebung", "erklaerung": "Kurzfassung aus der Übersicht der vier Säulen (Stein 2017, S. 18).", "folie": "17" },
+    { "begriff": "Erziehung", "wortlaut": "Unter Erziehung werden Handlungen verstanden, durch die Menschen versuchen, das Gefüge der psychischen Disposition anderer Menschen in irgendeiner Hinsicht dauerhaft zu verbessern und seine als wertvoll beurteilten Bestandteile zu erhalten oder die Entstehung von Dispositionen, die als schlecht bewertet werden, zu verhüten. (Brezinka 1990, S. 95)", "erklaerung": "Bewusstes Einwirken einer (meist älteren) Person auf Wissen, Vorstellungen und Einstellungen einer anderen, um Gutes zu fördern und Schlechtes zu verhindern – mit Dreiklang Behüten, Gegenwirken, Unterstützung.", "folie": "19" },
+    { "begriff": "Erziehung (Kurzdefinition)", "wortlaut": "Interpersonelle Ebene: Handlungen, durch die Menschen andere Menschen dauerhaft beeinflussen", "erklaerung": "Kurzfassung aus der Übersicht der vier Säulen (Stein 2017, S. 18).", "folie": "17" },
+    { "begriff": "Bildung", "wortlaut": "Bildungsbegriff nicht an ein bestimmtes Lebensalter gebunden; lebenslanger Prozess, auch ein Prozess der Selbstbildung; Entwicklung der Fähigkeit und Bereitschaft, „sich kompetent und adäquat mit Schlüsselproblemen der Menschheit auseinanderzusetzen“; Ziel der Bildung: Emanzipation und Mündigkeit des Menschen (Klafki)", "erklaerung": "Lebenslange, auch selbst gesteuerte Entwicklung, um sich mit den großen Fragen der Menschheit auseinandersetzen zu können – mit dem Ziel, mündig und selbstbestimmt zu werden (Stein 2017, S. 65 ff.).", "folie": "20" },
+    { "begriff": "Bildung (Kurzdefinition)", "wortlaut": "Interpersonelle Ebene: Prozess, der das Hineinwachsen in eine Gemeinschaft in der Auseinandersetzung mit ihr beinhaltet", "erklaerung": "Kurzfassung aus der Übersicht der vier Säulen (Stein 2017, S. 18).", "folie": "17" },
+    { "begriff": "Lernen", "wortlaut": "alle erfahrungsbedingten, auch unbewussten und nicht geplanten Veränderungen der Verhaltensmöglichkeiten von Organismen", "erklaerung": "Jede Veränderung dessen, was jemand tun kann, die durch Erfahrung entsteht – auch ungeplant und unbewusst (nach Stein 2017, S. 89 f.).", "folie": "21" },
+    { "begriff": "Lernen (Bower/Hilgard 1983)", "wortlaut": "Lernen bezieht sich auf die Veränderung im Verhalten oder im Verhaltensrepertoire eines Organismus hinsichtlich einer bestimmten Situation, die auf wiederholte Erfahrungen des Organismus in dieser Situation zurückgeht, vorausgesetzt, dass diese Verhaltensänderung nicht auf angeborene Reaktionstendenzen, Reifung, oder vorübergehende Zustände (wie etwa Müdigkeit, Trunkenheit, Triebzustände, usw.) zurückgeführt werden kann.", "erklaerung": "Lernen entsteht durch wiederholte Erfahrung – Reflexe, Reifung und vorübergehende Zustände zählen nicht.", "folie": "21" },
+    { "begriff": "Lernen (Ludwig 2020)", "wortlaut": "Lernen ist ein kognitiver Vorgang der Informationsverarbeitung und -speicherung, der das psychische Dispositionsgefüge eines Menschen verändert.", "erklaerung": "Lernen als Verarbeitung und Speicherung von Informationen im Kopf, wodurch sich Wissen und Einstellungen ändern.", "folie": "21" },
+    { "begriff": "Lernen (Kurzdefinition)", "wortlaut": "Intrapersonelle Ebene: Veränderungen im Verhalten oder im Verhaltensrepertoire im weitesten Sinne", "erklaerung": "Kurzfassung aus der Übersicht der vier Säulen (Stein 2017, S. 18).", "folie": "17" }
+  ],
+
+  "aufgaben": [
+    {
+      "id": "a01", "art": "Aufgabe auf Folie",
+      "text": "Erwartungen: Welche Erfahrungen, welches Vorwissen, welche Interessen bringen Sie mit? Was möchten Sie in dieser Vorlesung lernen?",
+      "quelle": "Folie 4",
+      "loesung": "*Persönliche Reflexionsfrage – keine Musterlösung.* Tipp: Notiere dir kurz, was du aus Praxis (z. B. Familie, Elternzeit, Beruf) und aus dem bisherigen Studium (z. B. ewb002, pkb) zu Lernen, Bildung und Kompetenzen schon mitbringst, und welche Fragen du für den Unterricht später beantworten möchtest. Am Semesterende kannst du prüfen, ob sie beantwortet sind.",
+      "loesungsweg": "Video an dieser Stelle anhalten und Stichpunkte notieren.",
+      "frist": "", "im_kalender": false
+    },
+    {
+      "id": "a02", "art": "Aufgabe auf Folie",
+      "text": "Reflexion zum Einstieg in das Thema: Überlegen Sie Beispiele, bei denen Sie sagen würden, dass Sie sich weiterentwickelt haben… …durch Lernen …durch Erziehung …durch Bildung …durch Sozialisation. Sind diese Entwicklungen intrapersonell, interpersonell oder makrosozial abgelaufen?",
+      "quelle": "Folie 15",
+      "loesung": "*Selbst erarbeitete Beispiellösung – eigene Beispiele sind ausdrücklich gewollt.*\n\n| Säule | Beispiel | Ebene (nach Folie 16) |\n| --- | --- | --- |\n| Lernen | Durch mehrmaliges Üben eine neue App sicher bedienen können | intrapersonell |\n| Erziehung | Als Kind von den Eltern gelernt, sich zu bedanken – sie haben bewusst darauf hingewirkt | interpersonell |\n| Bildung | Im Studium Zeitungsartikel kritischer lesen und sich selbst eine begründete Meinung bilden (Mündigkeit) | intrapersonell (Selbstbildung) und interpersonell (Austausch in Seminar und Tutorium) |\n| Sozialisation | Durch die Arbeit in der Verwaltung deren Gepflogenheiten übernommen, ohne dass sie jemand ausdrücklich „beigebracht“ hat | makrosozial |",
+      "loesungsweg": "Für jede Säule ein eigenes Erlebnis suchen und prüfen: Lief es in mir selbst ab (intrapersonell), zwischen mir und einer anderen Person (interpersonell) oder durch größere soziale Zusammenhänge wie Arbeitswelt oder Gesellschaft (makrosozial)? Merkmale der Säulen (Folien 18–21) als Prüfstein nutzen – z. B. Erziehung braucht eine erziehende Person mit Absicht.",
+      "frist": "", "im_kalender": false
+    }
+  ],
+
+  "fragen": [
+    {
+      "id": "f01", "baustein": "definition", "format": "frage", "niveau": "wissen", "schwierigkeit": 1,
+      "frage": "Was versteht man nach Ludwig (2020) unter Erziehungswissenschaft?",
+      "antwort": "Die wissenschaftliche Einzeldisziplin, die sich mit Erziehung und Bildung beschäftigt.",
+      "erklaerung": "Folie 13 (Ludwig 2020, S. 139 f.). Ein Fach wie Chemie oder Soziologie – mit Professuren, Instituten, Fachzeitschriften.",
+      "folie": "13", "pruefungsrelevant": true
+    },
+    {
+      "id": "f02", "baustein": "definition", "format": "frage", "niveau": "wissen", "schwierigkeit": 2,
+      "frage": "Welche zwei Bedeutungen hat der Begriff Pädagogik nach Ludwig (2020)?",
+      "antwort": "1. das Handlungsfeld der Erziehungs- und Bildungspraxis, also die Gesamtheit der praktischen Tätigkeiten zur Auslösung von Lernprozessen; 2. das Nachdenken über diese Praxis – im vorwissenschaftlichen Sinn und im Sinn der Produktion von Erkenntnissen durch wissenschaftliche Forschung bzw. der Sicherung und Verbreitung dieses Wissens in der wissenschaftlichen Lehre.",
+      "erklaerung": "Folie 13 (Ludwig 2020, S. 139 f.).",
+      "folie": "13", "pruefungsrelevant": true
+    },
+    {
+      "id": "f03", "baustein": "vergleich", "format": "mc", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum Verhältnis von Erziehungswissenschaft und Pädagogik treffen nach der Vorlesung zu? (mehrere richtig)",
+      "optionen": [
+        "Pädagogik ist der weitere Begriff.",
+        "Pädagogik umfasst auch das vorwissenschaftliche Nachdenken über die Erziehungs- und Bildungspraxis.",
+        "Erziehungswissenschaft umfasst auch die praktischen Tätigkeiten zur Auslösung von Lernprozessen.",
+        "Beim wissenschaftlichen Nachdenken über die Praxis überschneiden sich beide Begriffe weitgehend."
+      ],
+      "richtig": [0, 1, 3],
+      "erklaerung": "Die praktischen Tätigkeiten gehören zur Pädagogik (Bedeutung 1), nicht zur Erziehungswissenschaft – die ist die wissenschaftliche Einzeldisziplin. Deshalb ist Pädagogik der weitere Begriff; im wissenschaftlichen Nachdenken überschneiden sich beide.",
+      "folie": "13", "pruefungsrelevant": true
+    },
+    {
+      "id": "f04", "baustein": "vergleich", "format": "zuordnung", "niveau": "anwenden", "schwierigkeit": 2,
+      "frage": "Ordne zu: Fällt das Beispiel nur unter Pädagogik (Praxis bzw. vorwissenschaftliches Nachdenken) oder unter Erziehungswissenschaft (und damit auch Pädagogik im wissenschaftlichen Sinn)?",
+      "kategorien": ["nur Pädagogik", "Erziehungswissenschaft"],
+      "elemente": [
+        { "text": "Eine Erzieherin begleitet in der Kita ein Kind beim Anziehen.", "kategorie": "nur Pädagogik" },
+        { "text": "Ein Lehrer denkt nach der Stunde darüber nach, warum die Gruppenarbeit nicht geklappt hat.", "kategorie": "nur Pädagogik" },
+        { "text": "Ein Forschungsteam untersucht mit einer Studie die Wirkung von Gruppenarbeit.", "kategorie": "Erziehungswissenschaft" },
+        { "text": "Eine Professorin hält eine Vorlesung über Bildungstheorien.", "kategorie": "Erziehungswissenschaft" }
+      ],
+      "erklaerung": "Praxis und vorwissenschaftliches Nachdenken gehören nur zur Pädagogik. Wissenschaftliche Forschung und die Verbreitung dieses Wissens in der Lehre sind Erziehungswissenschaft – und zugleich Pädagogik im wissenschaftlichen Sinn (Folie 13).",
+      "folie": "13", "pruefungsrelevant": true
+    },
+    {
+      "id": "f05", "baustein": "kernaussage", "format": "luecke", "niveau": "wissen", "schwierigkeit": 1,
+      "text": "Nach Stein bestimmen vier Bereiche die Entwicklung des einzelnen Menschen: Sozialisation, Erziehung, Bildung und Lernen. Die Prozesse laufen innerhalb einer Person ([[intrapersonell]]), zwischen zwei oder mehr Personen ([[interpersonell]]) und in größeren sozialen Zusammenhängen ([[makrosozial]]) ab.",
+      "erklaerung": "Folie 14 (Stein 2017, S. 16 f.).",
+      "folie": "14", "pruefungsrelevant": true
+    },
+    {
+      "id": "f06", "baustein": "vergleich", "format": "zuordnung", "niveau": "verstehen", "schwierigkeit": 1,
+      "frage": "Ordne die Säulen der Pädagogik der Ebene zu, auf der sie laut Vorlesung (nur) ablaufen.",
+      "kategorien": ["intrapersonelle Ebene", "interpersonelle Ebene", "makrosoziale Ebene"],
+      "elemente": [
+        { "text": "Lernen", "kategorie": "intrapersonelle Ebene" },
+        { "text": "Erziehung", "kategorie": "interpersonelle Ebene" },
+        { "text": "Sozialisation", "kategorie": "makrosoziale Ebene" }
+      ],
+      "erklaerung": "Folien 16–17. Bildung fehlt hier bewusst: Sie liegt laut Folie 16 auf zwei Ebenen (intra- und interpersonell) – siehe nächste Frage.",
+      "folie": "16–17", "pruefungsrelevant": true
+    },
+    {
+      "id": "f07", "baustein": "kernaussage", "format": "mc", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Auf welchen Ebenen ist Bildung laut Folie „Ebenen der Betrachtung“ angesiedelt? (mehrere richtig)",
+      "optionen": ["intrapersonelle Ebene", "interpersonelle Ebene", "makrosoziale Ebene", "auf keiner – Bildung ist eine eigene vierte Ebene"],
+      "richtig": [0, 1],
+      "erklaerung": "Folie 16: intrapersonell „Lernen/Bildung“, interpersonell „Erziehung, Bildung“. Bildung ist Selbstbildung und geschieht auch im Austausch. (Folie 17 nennt nur die interpersonelle Ebene – Abweichung notiert.)",
+      "folie": "16", "pruefungsrelevant": true
+    },
+    {
+      "id": "f08", "baustein": "definition", "format": "frage", "niveau": "wissen", "schwierigkeit": 2,
+      "frage": "Wie definiert Stein (2017) Sozialisation?",
+      "antwort": "Als lebenslangen, bidirektionalen Prozess, der die Persönlichkeitswerdung des Menschen in produktiver Auseinandersetzung mit seiner Umwelt und die Rückwirkungen des Menschen auf seine Umwelt beinhaltet.",
+      "erklaerung": "Folie 18 (Stein 2017, S. 21). Bidirektional: Der Mensch wird geprägt und wirkt zurück.",
+      "folie": "18", "pruefungsrelevant": true
+    },
+    {
+      "id": "f09", "baustein": "definition", "format": "luecke", "niveau": "wissen", "schwierigkeit": 2,
+      "text": "Sozialisation ist ein [[lebenslanger]], [[bidirektionaler]] Prozess, der die Persönlichkeitswerdung des Menschen in produktiver Auseinandersetzung mit seiner Umwelt und die Rückwirkungen des Menschen auf seine Umwelt beinhaltet.",
+      "erklaerung": "Folie 18 (Stein 2017, S. 21).",
+      "folie": "18", "pruefungsrelevant": true
+    },
+    {
+      "id": "f10", "baustein": "kernaussage", "format": "mc", "niveau": "wissen", "schwierigkeit": 1,
+      "frage": "Welche Sozialisationsinstanzen nennt die Folie „Sozialisation“? (mehrere richtig)",
+      "optionen": ["Familie", "Schule", "Arbeitswelt", "Universität"],
+      "richtig": [0, 1, 2, 3],
+      "erklaerung": "Folie 18 nennt genau diese vier: Familie, Schule, Arbeitswelt und Universität. Im Klausurstil können auch alle vier Antworten richtig sein.",
+      "folie": "18", "pruefungsrelevant": true
+    },
+    {
+      "id": "f11", "baustein": "kernaussage", "format": "frage", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Was ist das Ziel der Sozialisation und was ist mit „gemeinsamer Handlungspraxis“ gemeint?",
+      "antwort": "Ziel ist eine vollständig entwickelte Identität des Einzelnen und die Entwicklung einer gemeinsamen Handlungspraxis. Gemeint ist ein geteiltes Verständnis von Praktiken, Traditionen und Sichtweisen – „was wann wie üblich ist“ –, das je nach Land, Region oder Familie verschieden sein kann.",
+      "erklaerung": "Folie 18 und Erläuterung im Video.",
+      "folie": "18", "pruefungsrelevant": true
+    },
+    {
+      "id": "f12", "baustein": "definition", "format": "frage", "niveau": "wissen", "schwierigkeit": 2,
+      "frage": "Wie definiert Brezinka (1990) Erziehung?",
+      "antwort": "Unter Erziehung werden Handlungen verstanden, durch die Menschen versuchen, das Gefüge der psychischen Disposition anderer Menschen in irgendeiner Hinsicht dauerhaft zu verbessern und seine als wertvoll beurteilten Bestandteile zu erhalten oder die Entstehung von Dispositionen, die als schlecht bewertet werden, zu verhüten.",
+      "erklaerung": "Folie 19 (Brezinka 1990, S. 95; nach Stein 2017, S. 40 f.). Psychische Dispositionen = Wissen, Vorstellungen, Einstellungen.",
+      "folie": "19", "pruefungsrelevant": true
+    },
+    {
+      "id": "f13", "baustein": "definition", "format": "luecke", "niveau": "wissen", "schwierigkeit": 1,
+      "text": "Der Dreiklang der Erziehung lautet: [[Behüten]], [[Gegenwirken]], [[Unterstützung]].",
+      "erklaerung": "Folie 19 (Stein 2017, S. 40 f.).",
+      "folie": "19", "pruefungsrelevant": true
+    },
+    {
+      "id": "f14", "baustein": "kernaussage", "format": "mc", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Welche Merkmale kennzeichnen Erziehung laut Vorlesung? (mehrere richtig)",
+      "optionen": [
+        "ein Hierarchiegefälle zwischen Erzieher*in und der*dem zu Erziehenden",
+        "sie läuft zwischen mehreren Personen ab (interpersonell)",
+        "sie ist vor allem Selbstbildung",
+        "sie zielt darauf, psychische Dispositionen anderer dauerhaft zu verbessern"
+      ],
+      "richtig": [0, 1, 3],
+      "erklaerung": "Folie 19 und Video. Selbstbildung ist ein Merkmal von Bildung (Folie 20), nicht von Erziehung.",
+      "folie": "19", "pruefungsrelevant": true
+    },
+    {
+      "id": "f15", "baustein": "vergleich", "format": "zuordnung", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Ordne die Merkmale Erziehung oder Bildung zu.",
+      "kategorien": ["Erziehung", "Bildung"],
+      "elemente": [
+        { "text": "Hierarchiegefälle zwischen zwei Personen", "kategorie": "Erziehung" },
+        { "text": "richtet sich vor allem an Kinder und Jugendliche", "kategorie": "Erziehung" },
+        { "text": "Dreiklang Behüten, Gegenwirken, Unterstützung", "kategorie": "Erziehung" },
+        { "text": "an kein bestimmtes Lebensalter gebunden", "kategorie": "Bildung" },
+        { "text": "auch ein Prozess der Selbstbildung", "kategorie": "Bildung" },
+        { "text": "Ziel: Emanzipation und Mündigkeit (Klafki)", "kategorie": "Bildung" }
+      ],
+      "erklaerung": "Folien 19–20 und Video: Erziehung ist hierarchisch und an das Kindes- und Jugendalter gebunden, Bildung ist lebenslang, auch Selbstbildung und zielt auf Mündigkeit.",
+      "folie": "19–20", "pruefungsrelevant": true
+    },
+    {
+      "id": "f16", "baustein": "definition", "format": "frage", "niveau": "wissen", "schwierigkeit": 2,
+      "frage": "Nenne die Merkmale von Bildung nach Stein (2017) und das Ziel der Bildung nach Klafki.",
+      "antwort": "Bildung ist nicht an ein bestimmtes Lebensalter gebunden, ein lebenslanger Prozess und auch ein Prozess der Selbstbildung; es geht um die Entwicklung der Fähigkeit und Bereitschaft, sich kompetent und adäquat mit Schlüsselproblemen der Menschheit auseinanderzusetzen. Ziel nach Klafki: Emanzipation und Mündigkeit des Menschen.",
+      "erklaerung": "Folie 20 (Stein 2017, S. 65 ff.).",
+      "folie": "20", "pruefungsrelevant": true
+    },
+    {
+      "id": "f17", "baustein": "definition", "format": "luecke", "niveau": "wissen", "schwierigkeit": 1,
+      "text": "Ziel der Bildung nach [[Klafki]] ist die [[Emanzipation]] und [[Mündigkeit]] des Menschen.",
+      "erklaerung": "Folie 20. Klafki kommt in der Sitzung „Bildung“ ausführlich.",
+      "folie": "20", "pruefungsrelevant": true
+    },
+    {
+      "id": "f18", "baustein": "definition", "format": "frage", "niveau": "wissen", "schwierigkeit": 1,
+      "frage": "Was versteht man unter Lernen (allgemeine Definition nach Stein 2017)?",
+      "antwort": "Alle erfahrungsbedingten, auch unbewussten und nicht geplanten Veränderungen der Verhaltensmöglichkeiten von Organismen.",
+      "erklaerung": "Folie 21 (nach Stein 2017, S. 89 f.).",
+      "folie": "21", "pruefungsrelevant": true
+    },
+    {
+      "id": "f19", "baustein": "kernaussage", "format": "mc", "niveau": "anwenden", "schwierigkeit": 2,
+      "frage": "Welche Verhaltensänderungen sind nach der Definition von Bower/Hilgard (1983) Lernen? (mehrere richtig)",
+      "optionen": [
+        "Ein Kind kann nach mehrmaligem Üben seine Schuhe binden.",
+        "Ein Kind reagiert nach einer durchwachten Nacht langsamer.",
+        "Ein Säugling zieht reflexartig die Hand zurück, wenn er etwas Heißes berührt.",
+        "Eine Studentin meidet nach mehreren schlechten Erfahrungen eine bestimmte Mensa."
+      ],
+      "richtig": [0, 3],
+      "erklaerung": "Lernen geht auf wiederholte Erfahrung zurück (Schuhe binden, Mensa meiden). Ausgeschlossen sind vorübergehende Zustände wie Müdigkeit und angeborene Reaktionstendenzen wie Reflexe; ebenso Reifung (Folie 21).",
+      "folie": "21", "pruefungsrelevant": true
+    },
+    {
+      "id": "f20", "baustein": "definition", "format": "frage", "niveau": "wissen", "schwierigkeit": 2,
+      "frage": "Wie definiert Ludwig (2020) Lernen?",
+      "antwort": "Lernen ist ein kognitiver Vorgang der Informationsverarbeitung und -speicherung, der das psychische Dispositionsgefüge eines Menschen verändert.",
+      "erklaerung": "Folie 21 (Ludwig 2020, S. 161). Im Video: Das muss nicht zwingend zu Verhaltensänderungen führen, aber es entsteht neues Wissen oder entstehen neue Einstellungen.",
+      "folie": "21", "pruefungsrelevant": true
+    },
+    {
+      "id": "f21", "baustein": "kernaussage", "format": "mc", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Welche Aussagen über Lernen treffen nach der Vorlesung zu? (mehrere richtig)",
+      "optionen": [
+        "Lernen kann bewusst und unbewusst erfolgen.",
+        "Lernen bildet die Grundlage für Sozialisation, Erziehung und Bildung.",
+        "Veränderungen durch Reifung zählen nach Bower/Hilgard zum Lernen.",
+        "Lernen liegt auf der intrapersonellen Ebene."
+      ],
+      "richtig": [0, 1, 3],
+      "erklaerung": "Folien 16, 21 und Video. Reifung ist in der Definition von Bower/Hilgard ausdrücklich ausgeschlossen.",
+      "folie": "16, 21", "pruefungsrelevant": true
+    },
+    {
+      "id": "f22", "baustein": "vergleich", "format": "zuordnung", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Ordne die Kurzdefinitionen aus der Übersicht „Die vier Säulen der Pädagogik“ (Stein 2017, S. 18) der richtigen Säule zu.",
+      "kategorien": ["Sozialisation", "Erziehung", "Bildung", "Lernen"],
+      "elemente": [
+        { "text": "Persönlichkeitswerdung des Menschen im weitesten Sinne in der Auseinandersetzung mit der materialen, geistigen und sozialen Umgebung", "kategorie": "Sozialisation" },
+        { "text": "Handlungen, durch die Menschen andere Menschen dauerhaft beeinflussen", "kategorie": "Erziehung" },
+        { "text": "Prozess, der das Hineinwachsen in eine Gemeinschaft in der Auseinandersetzung mit ihr beinhaltet", "kategorie": "Bildung" },
+        { "text": "Veränderungen im Verhalten oder im Verhaltensrepertoire im weitesten Sinne", "kategorie": "Lernen" }
+      ],
+      "erklaerung": "Folie 17 (Stein 2017, S. 18).",
+      "folie": "17", "pruefungsrelevant": true
+    },
+    {
+      "id": "f23", "baustein": "transfer", "format": "offen", "niveau": "anwenden", "schwierigkeit": 2,
+      "frage": "Nenne für jede der vier Säulen der Pädagogik ein eigenes Beispiel, bei dem du dich weiterentwickelt hast, und ordne es der Ebene (intrapersonell, interpersonell, makrosozial) zu. Begründe kurz.",
+      "musterloesung": "z. B. Lernen: durch Üben eine neue App bedienen können – intrapersonell, weil die Veränderung in der Person durch eigene Erfahrung entsteht. Erziehung: als Kind von den Eltern zum Bedanken angehalten – interpersonell, eine ältere Person wirkt bewusst auf eine jüngere ein. Bildung: im Studium Artikel kritisch lesen und sich eine eigene Meinung bilden – intra- und interpersonell (Selbstbildung, Austausch), Ziel Mündigkeit. Sozialisation: Gepflogenheiten des Arbeitsplatzes übernommen – makrosozial, Persönlichkeitswerdung durch die Auseinandersetzung mit der sozialen Umwelt.",
+      "bewertungspunkte": [
+        "je ein passendes Beispiel für Lernen, Erziehung, Bildung und Sozialisation",
+        "richtige Ebene: Lernen intrapersonell, Erziehung interpersonell, Bildung intra- und/oder interpersonell, Sozialisation makrosozial",
+        "kurze Begründung mit einem Merkmal der jeweiligen Säule"
+      ],
+      "punkte": 3,
+      "erklaerung": "Aufgabe a02 (Folie 15); Ebenen nach Folie 16.",
+      "folie": "15–16", "pruefungsrelevant": false
+    },
+    {
+      "id": "f24", "baustein": "vergleich", "format": "offen", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Erläutere den Unterschied zwischen Erziehungswissenschaft und Pädagogik nach Ludwig (2020). Welcher Begriff ist der weitere?",
+      "musterloesung": "Erziehungswissenschaft ist die wissenschaftliche Einzeldisziplin, die sich mit Erziehung und Bildung beschäftigt. Pädagogik meint (1) das Handlungsfeld der Erziehungs- und Bildungspraxis, also die praktischen Tätigkeiten zur Auslösung von Lernprozessen, und (2) das Nachdenken über diese Praxis – vorwissenschaftlich und wissenschaftlich (Forschung, Lehre). Im wissenschaftlichen Nachdenken überschneiden sich beide; Pädagogik ist der weitere Begriff, weil sie zusätzlich Praxis und vorwissenschaftliches Nachdenken umfasst.",
+      "bewertungspunkte": [
+        "Erziehungswissenschaft als wissenschaftliche Einzeldisziplin (Erziehung und Bildung)",
+        "Pädagogik als Praxis/Handlungsfeld",
+        "Pädagogik als Nachdenken über die Praxis, auch vorwissenschaftlich",
+        "Pädagogik ist der weitere Begriff"
+      ],
+      "punkte": 4,
+      "erklaerung": "Offene Frage im Klausurstil (die Klausur enthält ein oder zwei offene Fragen; Stichpunkte sind erlaubt). Folie 13.",
+      "folie": "13", "pruefungsrelevant": true
+    },
+    {
+      "id": "f25", "baustein": "kernaussage", "format": "mc", "niveau": "wissen", "schwierigkeit": 1,
+      "frage": "Welche Punkte gehören zur Lehrphilosophie von Herrn Rieckmann? (mehrere richtig)",
+      "optionen": [
+        "Kompetenzorientierung",
+        "konstruktivistisches Lehr-Lern-Verständnis",
+        "Dozent(inn)en als Lernbegleiter(innen)",
+        "Anwesenheitspflicht als Grundlage des Lernens"
+      ],
+      "richtig": [0, 1, 2],
+      "erklaerung": "Folie 5 nennt zusätzlich die Eigenverantwortung der Studierenden – eine Anwesenheitspflicht gibt es gerade nicht.",
+      "folie": "5", "pruefungsrelevant": false
+    }
+  ],
+
+  "pruefungshinweise": [
+    "Video: Ab der Unterscheidung Erziehungswissenschaft/Pädagogik ist die Sitzung klausurrelevant – vier Säulen mit Kerndefinition, drei Ebenen mit Zuordnung, Abgrenzung Erziehung/Bildung, Ausschlusskriterien der Lerndefinition (Bower/Hilgard) sowie die Namen Stein 2017, Ludwig 2020, Brezinka 1990, Bower/Hilgard 1983 und Klafki."
+  ],
+  "offene_fragen": [],
+  "auffaelligkeiten": [
+    "Folien 7–10 zeigen einen älteren Ablaufplan (14 Termine; ohne „Inklusion und Digitalität“, Lernen I ohne Systemtheorie, Termin 13 „Wiederholung und Fragerunde“) – verbindlich ist der Ablaufplan WiSe 2026/27.",
+    "Folie 16 ordnet Bildung der intra- und der interpersonellen Ebene zu, Folie 17 (Stein 2017, S. 18) nur der interpersonellen.",
+    "Das Video stammt aus einem früheren Semester (andere Social-Media-Kanäle, anderes Veranstaltungsformat)."
+  ]
+}

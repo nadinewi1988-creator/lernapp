@@ -7,10 +7,13 @@ const NM = path.join(__dirname, '..', '..', 'node_modules') + '/';
 const [, , src, out, modulname] = process.argv;
 const d = JSON.parse(fs.readFileSync(src, 'utf8'));
 const inl = (t) => mdHtml(t || '').replace(/^<p>([\s\S]*)<\/p>$/, '$1');
-const vl = d.teilmodul.endsWith('.1');
+// Art (Vorlesung/Seminar/…) aus _modul.json im selben Ordner, sonst wie bisher: .1 = Vorlesung
+let tmArt = null;
+try { const m = JSON.parse(fs.readFileSync(path.join(path.dirname(src), '_modul.json'), 'utf8')); tmArt = (m.teilmodule || []).find((t) => t.id === d.teilmodul)?.art || null; } catch (e) {}
+const vl = tmArt ? tmArt === 'Vorlesung' : d.teilmodul.endsWith('.1');
 const datum = d.datum.split('-').reverse().join('.');
 const P = [];
-P.push(`<header><div class="kicker">${esc(d.modul)} · ${esc(modulname)} · ${esc(d.teilmodul)} ${vl ? 'Vorlesung' : 'Seminar'} · ${datum}</div><h1>${inl(d.thema)}</h1><div class="src">Quellen: ${d.quellen.map((q) => esc(q.datei.split('/').pop()) + ' (' + esc(q.seiten) + ')').join('; ')}</div></header>`);
+P.push(`<header><div class="kicker">${esc(d.modul)} · ${esc(modulname)} · ${esc(d.teilmodul)} ${tmArt || (vl ? 'Vorlesung' : 'Seminar')} · ${datum}</div><h1>${inl(d.thema)}</h1><div class="src">Quellen: ${d.quellen.map((q) => esc(q.datei.split('/').pop()) + ' (' + esc(q.seiten) + ')').join('; ')}</div></header>`);
 if (d.pruefungshinweise?.length) P.push(`<section class="warn"><h2>Prüfungshinweise</h2><ul>${d.pruefungshinweise.map((p) => '<li>' + inl(p) + '</li>').join('')}</ul></section>`);
 P.push(`<section><h2>Lernziele</h2><ul>${d.lernziele.map((l) => '<li>' + inl(l.text) + (l.art === 'vorgegeben' ? ' <span class="tag">vorgegeben</span>' : '') + '</li>').join('')}</ul></section>`);
 P.push(`<section><h2>Kurzfassung</h2><ol>${d.kurzfassung.map((k) => '<li>' + inl(k) + '</li>').join('')}</ol></section>`);

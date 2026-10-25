@@ -1,0 +1,638 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pkb003",
+  "teilmodul": "pkb003.3",
+  "datum": "2026-10-22",
+  "sitzung_nr": 1,
+  "sitzung_id": "",
+  "thema": "Einführung · Begriff und Gegenstand der öffentlichen Verwaltung I",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "quellen": [
+    {
+      "datei": "pkb003.3/LV_Öffentliche_Verwaltung_WiSe_26_Sitzung1.pdf",
+      "art": "Folien (Dr.in Marion Rieken)",
+      "seiten": "Folie 1–17"
+    },
+    {
+      "datei": "pkb003.3/S02_2026-11-12_Moeltgen-Sicking-Winter_Verwaltung-und-Verwaltungswissenschaft.pdf",
+      "art": "Literatur zur Hausaufgabe: Möltgen-Sicking/Winter (2018), Kap. 1.7",
+      "seiten": "S. 57–65"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Den Begriff der öffentlichen Verwaltung im organisatorischen, materiellen und formellen Sinn unterscheiden und mit Beispielen erläutern.",
+      "art": "abgeleitet",
+      "quelle": "Folie 12–13",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03",
+        "f05",
+        "f06",
+        "f13",
+        "f20"
+      ],
+      "erklaerung_abschnitt": "Drei Verwaltungsbegriffe"
+    },
+    {
+      "text": "Erklären, warum es keine allgemein anerkannte Definition gibt (Subtraktionsmethode, positive Begriffsbestimmung, Aufzählungen).",
+      "art": "abgeleitet",
+      "quelle": "Folie 12–13",
+      "fragen": [
+        "f04",
+        "f07",
+        "f09"
+      ],
+      "erklaerung_abschnitt": "Warum die Definition schwierig ist"
+    },
+    {
+      "text": "Behörden den Verwaltungsebenen Bund, Land, Kommune bzw. Mischformen zuordnen und typische Aufgaben nennen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 6 (Gruppenarbeit), Folie 16",
+      "fragen": [
+        "f11",
+        "f14",
+        "f17"
+      ],
+      "erklaerung_abschnitt": "Behörden und Ebenen"
+    },
+    {
+      "text": "Verbreitete Thesen über die Verwaltung (Bürokratie, Politik vs. reiner Gesetzesvollzug) mit Pro- und Contra-Argumenten beurteilen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 7–8",
+      "fragen": [
+        "f12",
+        "f18",
+        "f21"
+      ],
+      "erklaerung_abschnitt": "Vier Thesen über die Verwaltung"
+    },
+    {
+      "text": "Die Formen der Kontrolle der öffentlichen Verwaltung (rechtlich, administrativ, finanziell, politisch/medial) nennen und erläutern.",
+      "art": "abgeleitet",
+      "quelle": "Hausaufgabe: Möltgen-Sicking/Winter S. 57–65",
+      "fragen": [
+        "f10",
+        "f15",
+        "f16",
+        "f19"
+      ],
+      "erklaerung_abschnitt": "Kontrolle der Verwaltung (Hausaufgabe)"
+    }
+  ],
+  "kurzfassung": [
+    "Eine nahezu allgemein anerkannte Definition der öffentlichen Verwaltung gibt es nicht – Konsens ist aber, den Begriff über die (horizontale) Gewaltenteilung zu unterscheiden.",
+    "Organisatorisch ist Verwaltung die Gesamtheit der staatlichen Einrichtungen, die Verwaltungsaufgaben erledigen; materiell die Tätigkeit der 2. Gewalt (Exekutive); formell alles, was die Verwaltung tut – auch wenn es materiell Regierung oder Rechtsetzung ist.",
+    "Materiell lässt sich Verwaltung kaum sauber abgrenzen: Die Subtraktionsmethode ist nicht abschließend, positive Bestimmungen bleiben zu allgemein – deshalb behilft man sich mit beispielhaften Aufzählungen.",
+    "Die öffentliche Verwaltung ist „lebensumspannend“, wandelt sich ständig und ist vielen Vorurteilen ausgesetzt – das Seminar will diesen Kennzeichen auf die Spur kommen.",
+    "Verwaltung findet auf Bundes-, Landes- und kommunaler Ebene statt; viele Einrichtungen sind Mischformen (z. B. Jobcenter, Schule).",
+    "Verwaltungshandeln wird rechtlich (Gerichte), administrativ (Dienst- und Fachaufsicht), finanziell (Rechnungshöfe) sowie politisch und medial („vierte Gewalt“) kontrolliert."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Organisatorisches zum Seminar",
+      "folien": "1–3, 9–10, 14–16",
+      "text": "**Dozentin:** Dr.in Marion Rieken (Lehrbeauftragte), marion.rieken@uni-vechta.de · Do 14–18 Uhr, 14-täglich, 7 Sitzungen à zwei Einheiten.\n**Ziel (Abstract):** Die Verwaltung „wirkt lebensumspannend“, ist von Veränderungen, Verflechtungen, Werturteilen und Vorurteilen geprägt. Einbezogen werden die Verwaltung als Berufsfeld (auch im Lehramt) und praxisrelevantes Verwaltungsrecht (Verwaltungsakt, Widerspruch, Erlass).\n\n**Präsentation:** 10 Min. (PPP, Poster …) + 5 Min. Austausch, eingebettet in den Seminarablauf, als Vorbereitung auf die Hausarbeit. Entwurf bis Dienstagabend vor der Sitzung an die Dozentin.\n**Prüfung:** Hausarbeit nach § 4 StO Politikwissenschaft BACS, i. d. R. **45.000–55.000 Zeichen** inkl. Leerzeichen (ohne Deckblatt, Verzeichnisse, Anhänge); Zeichenzahl angeben. Sprechstundentermin vereinbaren; Bewertung i. d. R. innerhalb von 6 Wochen (§ 22 Abs. 1 RPO).\n\n**Vereinbarungen:** Ersatztermin 12.11. (statt 05.11.); Bibliotheksführung und Einführung ins wissenschaftliche Arbeiten geplant; Finanzamt, Jobcenter, Schule und Notar sollen „bei zeitlicher Gelegenheit“ vertieft werden."
+    },
+    {
+      "titel": "Seminarplan",
+      "folien": "4–5",
+      "text": "| Datum | Thema |\n|---|---|\n| 22.10. | Einführung · Begriff und Gegenstand I (Gewaltenteilung I) |\n| 12.11. | Begriff II: Politik und Verwaltung – wie politisch ist die Verwaltung? · Entwicklungslinien und Reformprozesse I (Präsentationen: Webers Bürokratiemodell – Frau Winkelmann; doppelte Rolle der Kommunen; Mehrebenensystem der EU) |\n| 19.11. | Reformprozesse II · Herausforderungen I |\n| 03.12. | Herausforderungen II: Reformen – ein Paradigmenwechsel? |\n| 17.12. | Verwaltungswissenschaft(en) · Verwaltung ganz praktisch I |\n| 14.01. | Verwaltung ganz praktisch II: Elemente des Verwaltungsrechts |\n| 28.01. | Abschluss, Abschlussdiskussion |"
+    },
+    {
+      "titel": "Drei Verwaltungsbegriffe",
+      "folien": "12–13",
+      "text": "*„Eine nahezu allgemein anerkannte Definition des Begriffs – Terminus – öffentliche Verwaltung existiert nicht.“* Konsens herrscht aber über die **Differenzierung unter Bezugnahme auf die Gewaltenteilung (horizontal)**.\n\n| Begriff | Bedeutung | Merkhilfe |\n|---|---|---|\n| **organisatorisch** | „Gesamtheit aller staatlichen Einrichtungen, die Verwaltungsaufgaben erledigen, sofern sie vom Staat getragen werden“ (Ehlers 2020, S. 5) | **wer** verwaltet |\n| **materiell** | Zuordnung zur 2. Staatsgewalt (Exekutive) – „Gesetze ausführen“ | **was** inhaltlich Verwaltung ist |\n| **formell** | alle Tätigkeiten, die die Verwaltung ausübt – auch wenn es materiell Regierung oder Gesetzgebung ist | alles, was die Verwaltungsorganisation tut |\n\nMerkhilfe und Beispiel: *(Ergänzung, nicht aus der Sitzung)* Erlässt ein Ministerium eine **Rechtsverordnung**, ist das formell Verwaltung (die Verwaltung handelt), materiell aber Rechtsetzung.",
+      "beispiel": "Ein Bauamt erteilt eine Baugenehmigung: organisatorisch (Behörde), materiell (Gesetzesvollzug) und formell Verwaltung."
+    },
+    {
+      "titel": "Warum die Definition schwierig ist",
+      "folien": "13",
+      "text": "Die materielle Zuordnung zur Exekutive ist „landläufige Meinung und grundsätzlich zutreffend, ABER“:\n• Die Aufgaben der drei Gewalten **überschneiden** sich; sie sind „fluide“ und unterliegen Entwicklungen.\n• **Negative Definition (Subtraktionsmethode):** Verwaltung = alles, was nicht Gesetzgebung und nicht Rechtsprechung ist – „nicht abschließend möglich“.\n• **Positive Begriffsbestimmung** (z. B. „Verwirklichung gesetzgeberischen Willens, soziale Gestaltung im Rahmen der Gesetze, Herstellung verbindlicher Entscheidungen“) führt zu „mangelnder Konkretion“ – „nicht allzu viel Gebrauchswert“.\n• Deshalb häufig **Aufzählungen als „Notlösung“** – nur exemplarisch, „auf keinen Fall abschließend“."
+    },
+    {
+      "titel": "Behörden und Ebenen (Gruppenarbeit 1)",
+      "folien": "6, 16",
+      "text": "*(Ergänzung, nicht aus der Sitzung)*\n\n| Einrichtung | Ebene | Beispiel-Aufgaben |\n|---|---|---|\n| Stadt Vechta | Kommune (Gemeinde) | Melde-/Passwesen, Bauleitplanung, Kitas |\n| Landkreis Vechta | Kommune (Kreis) | Kfz-Zulassung, Bauaufsicht, Jugendamt, Ausländerbehörde |\n| Finanzamt | Land | Steuerbescheide, Betriebsprüfung |\n| Polizei | Land | Gefahrenabwehr, Strafverfolgung |\n| Universität | Land (Körperschaft mit Selbstverwaltung) | Lehre, Prüfungen, Immatrikulation |\n| Agentur für Arbeit | Bund | Arbeitslosengeld I, Vermittlung, Berufsberatung |\n| Jobcenter | Mischform Bund/Kommune | Bürgergeld, Eingliederung |\n| Schule | Mischform Land/Kommune | Unterricht, Zeugnisse |\n| Notar | Sonstiges (unabhängiges öffentliches Amt) | Beurkundungen |"
+    },
+    {
+      "titel": "Vertiefung: Finanzamt, Jobcenter, Schule, Notar",
+      "folien": "16",
+      "text": "*(Ergänzung, nicht aus der Sitzung)*\n\n**Finanzamt:** Landesbehörde (Art. 108 GG), erhebt auch Bundessteuern (Bundesauftragsverwaltung); in Niedersachsen Finanzministerium → Landesamt für Steuern → Finanzämter. Steuerbescheid = Verwaltungsakt (Abgabenordnung). **Rechtsbehelf: Einspruch** (nicht Widerspruch) binnen eines Monats (§ 355 AO), danach Finanzgericht; Steuergeheimnis (§ 30 AO).\n\n**Jobcenter:** Grundsicherung/Bürgergeld nach SGB II. Modelle: gemeinsame Einrichtung von Arbeitsagentur und Kommune (§ 44b SGB II) oder Optionskommune (§ 6a SGB II). Lehrbuchfall **Mischverwaltung**: BVerfG 2007 erklärte die damaligen Arbeitsgemeinschaften für verfassungswidrig → 2010 neuer **Art. 91e GG**. Rechtsweg: Widerspruch, dann Sozialgericht.\n\n**Schule:** „Das gesamte Schulwesen steht unter der Aufsicht des Staates“ (Art. 7 Abs. 1 GG); Bildung ist Ländersache (NSchG). **Innere Schulangelegenheiten → Land** (Lehrkräfte, Kerncurricula, Schulaufsicht durch das Regionale Landesamt für Schule und Bildung), **äußere → Kommune als Schulträger** (Gebäude, Ausstattung, Schülerbeförderung).\n\n**Notar:** „unabhängiger Träger eines öffentlichen Amtes“ (§ 1 BNotO) – keine Behörde, kein Beamter, aber hoheitliche Aufgaben der vorsorgenden Rechtspflege; bestellt von der Landesjustizverwaltung, Gebühren gesetzlich (GNotKG). In Niedersachsen **Anwaltsnotare**. Grundstückskauf nur mit notarieller Beurkundung wirksam (§ 311b BGB)."
+    },
+    {
+      "titel": "Vier Thesen über die Verwaltung (Gruppendiskussion)",
+      "folien": "7–8",
+      "text": "*(Ergänzung, nicht aus der Sitzung)*\n\n| These | Dafür | Dagegen | Fazit |\n|---|---|---|---|\n| 1 „pure Bürokratie, steht im Weg“ | lange Verfahren, Formulare | Regeln sichern Gleichbehandlung und Rechtssicherheit | zu viel Bürokratie ist das Problem, nicht Verwaltung an sich |\n| 2 „langweilig, unflexibel“ | Routine, Hierarchie | ständiger Wandel, vielfältiges Berufsfeld | Vorurteil |\n| 3 „hochpolitisch, gestalten im Miteinander“ | Gesetzesvorbereitung, Ermessen, Kooperation | Bindung an Gesetz, Parlament entscheidet | teilweise richtig – Gestaltung im rechtlichen Rahmen |\n| 4 „nur präziser Gesetzesvollzug“ | Gesetzesbindung, Neutralität (Webers Ideal) | Ermessen, unbestimmte Rechtsbegriffe | Idealbild, in der Praxis mehr als Vollzug |\n\nThese 3 und 4 sind die Leitfrage der nächsten Sitzung („Wie politisch ist eigentlich die Verwaltung?“)."
+    },
+    {
+      "titel": "Kontrolle der Verwaltung (Hausaufgabe)",
+      "folien": "Möltgen-Sicking/Winter S. 57–65",
+      "text": "| Art | Wer/was | Kern |\n|---|---|---|\n| rechtlich | Gerichte (Verfassungs- und Fachgerichtsbarkeit) | Bindung der Exekutive an Recht und Gesetz, gerichtlicher Schutz |\n| administrativ | Dienst- und Fachaufsicht, interne Rechnungsprüfung | vor allem intern, über die Hierarchie |\n| finanziell | 16 Landesrechnungshöfe + Bundesrechnungshof | Ordnungsmäßigkeit und Wirtschaftlichkeit; nicht weisungsgebunden |\n| politisch/medial | Lokalpresse, Social Media, „vierte Gewalt“ | Kritik- und Kontrollfunktion (Art. 5 Abs. 1 GG) |\n\n**Rechnungshöfe:** ursprünglich Instrument absolutistischer Herrscher zur Kontrolle ihrer Beamten; ab 1871 einheitlicher Rechnungshof zur Kontrolle der Regierung.\n**Lokalpresse:** Hauptinformationsquelle über Kommunalpolitik; Schwächen: „Verlautbarungsjournalismus“, Lücken in Flächenkreisen, Abhängigkeit vom Anzeigenmarkt. Auflage Tageszeitungen: 27,3 Mio. (1991) → 15,3 Mio. (2016).\n**Social Media:** „one-to-many“ vs. „many-to-many“; „140-Zeichen-Medienzyklus“; Chancen (Beteiligung, Personal, Wissensmanagement, Krisenkommunikation) und Hemmnisse (nicht hierarchisch, Reaktionszeiten).\n**Medien als „vierte Gewalt“:** Anführungszeichen, weil diese Kontrolle – außer der Pressefreiheit – nicht rechtlich normiert ist. Deutschland 2017 Platz 16 (Reporter ohne Grenzen)."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Öffentliche Verwaltung (organisatorisch)",
+      "wortlaut": "Gesamtheit aller staatlichen Einrichtungen, die Verwaltungsaufgaben erledigen, sofern sie vom Staat getragen werden (Ehlers, 2020, S. 5)",
+      "erklaerung": "Verwaltung als Organisation: alle Behörden und Einrichtungen des Staates – die Frage ist, WER verwaltet.",
+      "folie": "13"
+    },
+    {
+      "begriff": "Öffentliche Verwaltung (materiell)",
+      "wortlaut": "Zuordnung zur 2. Staatsgewalt (Exekutive) – Gesetze ausführen = landläufige Meinung und grundsätzlich zutreffend",
+      "erklaerung": "Verwaltung als Tätigkeit: das Ausführen von Gesetzen durch die Exekutive – die Frage ist, WAS inhaltlich Verwaltung ist. Die Abgrenzung zu den anderen Gewalten ist aber nicht eindeutig.",
+      "folie": "13"
+    },
+    {
+      "begriff": "Öffentliche Verwaltung (formell)",
+      "wortlaut": "Verwaltungstätigkeiten sind alle Tätigkeiten, die die Verwaltung ausübt – unabhängig davon, ob es sich um Verwaltung im materiellen Sinne oder z. B. um Regierung oder Gesetzgebung handelt.",
+      "erklaerung": "Alles, was Verwaltungsbehörden tun, zählt – auch wenn es inhaltlich z. B. Rechtsetzung ist (etwa eine Rechtsverordnung eines Ministeriums).",
+      "folie": "13"
+    },
+    {
+      "begriff": "Subtraktionsmethode",
+      "wortlaut": "Die Abgrenzung i. S. e. negativen Definition nach der Substraktionsmethode ist also nicht abschließend möglich.",
+      "erklaerung": "Negative Definition: Verwaltung ist das, was übrig bleibt, wenn man Gesetzgebung und Rechtsprechung „abzieht“. Laut Folie nicht abschließend möglich, weil sich die Aufgaben überschneiden.",
+      "folie": "13"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "Arbeit am Plakat mit anschließender Erläuterung: Welche Behörden kennen Sie (– welche gibt es in Vechta)? Wie lassen Sie sich zuordnen (Bund, Land, Kommune, Sonstiges)? Was interessiert Sie an diesen Behörden? Welche Aufgaben (exemplarisch) werden in den Behörden erfüllt (mind. 3)?",
+      "quelle": "Folie 6 (Gruppenarbeit 1)",
+      "loesung": "Eigene Ausarbeitung (nicht aus der Sitzung): Kommune – Stadt Vechta (Melde-/Passwesen, Bauleitplanung, Kitas), Landkreis Vechta (Kfz-Zulassung, Bauaufsicht, Jugendamt); Land – Finanzamt (Steuerbescheide), Polizei (Gefahrenabwehr), Universität (Lehre, Prüfungen); Bund – Agentur für Arbeit (Arbeitslosengeld I, Vermittlung); Mischformen – Jobcenter (Bund/Kommune: Bürgergeld), Schule (Land: Lehrkräfte/Lehrpläne; Kommune: Gebäude); Sonstiges – Notar (unabhängiges öffentliches Amt: Beurkundungen).",
+      "loesungsweg": "1. Behörden aus dem Alltag sammeln (Rathaus, Kreishaus, Finanzamt, Polizei, Uni, Arbeitsagentur, Jobcenter, Schule, Notar). 2. Je Behörde fragen: Wer trägt sie (Bund, Land, Kommune)? Wer zahlt, wer gibt Weisungen? 3. Mischformen erkennen, wenn zwei Ebenen beteiligt sind (Jobcenter, Schule). 4. Je Behörde mind. drei typische Aufgaben notieren.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "Bitte stellen Sie in der Gruppe für Ihre jeweilige Aussage ((1) bis 4)) sowohl unterstützende als widersprechende Aspekte auf und beurteilen diese abschließend (Fazit). (1) „Verwaltung – oh no! Verwaltung = pure Bürokratie. Die steht uns doch nur im Weg!“ (2) „Gestalten statt verwalten“ … (3) „Verwaltung ist hochpolitisch! Verwalten ist gestalten im Miteinander!“ (4) Die Aufgabe und Grundintention von Verwaltung ist es, ausschließlich die vom Parlament beschlossenen Gesetze in administrativ präziser Rationalität umzusetzen …",
+      "quelle": "Folie 7–8 (Gruppendiskussion)",
+      "loesung": "Eigene Ausarbeitung: (1) Pro: lange Verfahren, Formulare – Contra: Regeln sichern Gleichbehandlung und Rechtssicherheit – Fazit: zu viel Bürokratie ist das Problem, nicht Verwaltung an sich. (2) Pro: Routine, Hierarchie – Contra: ständiger Wandel (Digitalisierung, Krisen), vielfältiges Berufsfeld – Fazit: Vorurteil. (3) Pro: Gesetzesvorbereitung in Ministerien, Ermessensspielräume, Kooperation mit Bürgern – Contra: Bindung an Gesetz, Parlament entscheidet – Fazit: teilweise richtig. (4) Pro: Gesetzesbindung, Neutralität, Berechenbarkeit (Webers Idealtyp) – Contra: Ermessen, unbestimmte Rechtsbegriffe, Umsetzungsentscheidungen – Fazit: Idealbild.",
+      "loesungsweg": "Je These: 1. Kernbehauptung herausarbeiten. 2. Mind. zwei Argumente dafür, zwei dagegen. 3. Abwägen: Welche Argumente wiegen schwerer? 4. Differenziertes Fazit formulieren (meist „teilweise richtig, weil …“).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Hausaufgabe",
+      "text": "Bitte lesen bis zur nächsten Sitzung Möltgen-Sicking/Winter, 2018 (vgl. Lit.Liste Modulbeschreibung) S. 57 bis 65. Bitte exzerpieren Sie aus dem Text die Kernaussagen. Diese besprechen wir in der nächsten Sitzung.",
+      "quelle": "Folie 15",
+      "loesung": "Exzerpt Kap. 1.7 „Kontrolle der öffentlichen Verwaltung“: Kernthese – wo Macht ausgeübt wird, besteht Missbrauchsgefahr, daher vielfältige Kontrolle. (1) Rechtlich: Rechtsstaat bindet auch die Exekutive; Verfassungs- und Fachgerichtsbarkeit. (2) Administrativ: intern über Dienst- und Fachaufsicht, interne Rechnungsprüfung. (3) Finanziell: 16 Landesrechnungshöfe + Bundesrechnungshof prüfen Ordnungsmäßigkeit und Wirtschaftlichkeit, nicht weisungsgebunden; historisch zunächst Kontrolle der Beamten durch absolutistische Herrscher, ab 1871 Kontrolle der Regierung. (4) Politisch/medial: Lokalpresse als Hauptquelle (Schwächen: Verlautbarungsjournalismus, Lücken in Flächenkreisen, Anzeigenabhängigkeit); Social Media („many-to-many“, 140-Zeichen-Medienzyklus) mit Chancen (Beteiligung, Personal, Wissensmanagement, Krisenkommunikation) und Hemmnissen (nicht hierarchisch, Reaktionszeiten); Medien als „vierte Gewalt“ mit Kritik- und Kontrollfunktion, rechtlich nur über Art. 5 Abs. 1 GG abgesichert.",
+      "loesungsweg": "1. Gliederung des Textes erfassen (1.7.1 rechtlich/administrativ/finanziell, 1.7.2 politisch/medial). 2. Je Abschnitt Kernaussage in einem Satz. 3. Belege/Beispiele notieren (Rechnungshöfe, Zahlen Tageszeitungen, Münchner Amoklauf). 4. Kritische Stellen markieren (S. 58 „keine eigene Gerichtsbarkeit“).",
+      "frist": "2026-11-12",
+      "im_kalender": true
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter öffentlicher Verwaltung im organisatorischen Sinn?",
+      "antwort": "Die „Gesamtheit aller staatlichen Einrichtungen, die Verwaltungsaufgaben erledigen, sofern sie vom Staat getragen werden“ (Ehlers 2020) – also WER verwaltet.",
+      "erklaerung": "Der organisatorische Begriff blickt auf die Träger, nicht auf die Tätigkeit.",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter öffentlicher Verwaltung im materiellen Sinn?",
+      "antwort": "Die Tätigkeit der 2. Staatsgewalt (Exekutive) – das Ausführen von Gesetzen; also WAS inhaltlich Verwaltung ist.",
+      "erklaerung": "Laut Folie „landläufige Meinung und grundsätzlich zutreffend“, aber nicht eindeutig abgrenzbar.",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter öffentlicher Verwaltung im formellen Sinn?",
+      "antwort": "Alle Tätigkeiten, die die Verwaltung ausübt – unabhängig davon, ob es materiell Verwaltung, Regierung oder Gesetzgebung ist.",
+      "erklaerung": "Der formelle Begriff knüpft an die handelnde Organisation an, nicht an den Inhalt.",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was ist die Subtraktionsmethode – und warum reicht sie laut Folie nicht aus?",
+      "antwort": "Eine negative Definition: Verwaltung ist alles, was nicht Gesetzgebung und nicht Rechtsprechung ist. Sie ist nicht abschließend möglich, weil sich die Aufgaben der Gewalten überschneiden und fluide sind.",
+      "erklaerung": "Auf der Folie steht „Substraktionsmethode“ – gemeint ist Subtraktion (Abziehen).",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Im [[organisatorischen]] Sinn ist öffentliche Verwaltung die Gesamtheit aller staatlichen Einrichtungen, die Verwaltungsaufgaben erledigen; im [[materiellen]] Sinn die Tätigkeit der Exekutive; im [[formellen]] Sinn alles, was die Verwaltung tut.",
+      "erklaerung": "Die drei Begriffe unterscheiden Träger, Inhalt und Handlung.",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Aussagen dem passenden Verwaltungsbegriff zu.",
+      "kategorien": [
+        "organisatorisch",
+        "materiell",
+        "formell"
+      ],
+      "elemente": [
+        {
+          "text": "Fragt danach, WER verwaltet",
+          "kategorie": "organisatorisch"
+        },
+        {
+          "text": "Gesamtheit der staatlichen Einrichtungen mit Verwaltungsaufgaben",
+          "kategorie": "organisatorisch"
+        },
+        {
+          "text": "Zuordnung zur Exekutive – Gesetze ausführen",
+          "kategorie": "materiell"
+        },
+        {
+          "text": "Abgrenzung über die Subtraktionsmethode versucht",
+          "kategorie": "materiell"
+        },
+        {
+          "text": "Alles, was die Verwaltung tut – auch Rechtsetzung",
+          "kategorie": "formell"
+        },
+        {
+          "text": "Rechtsverordnung eines Ministeriums zählt trotzdem dazu",
+          "kategorie": "formell"
+        }
+      ],
+      "erklaerung": "Organisatorisch = Träger, materiell = Inhalt der Tätigkeit, formell = Handeln der Verwaltungsorganisation.",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was gilt laut Folie für die Definition der öffentlichen Verwaltung? (mehrere richtig)",
+      "optionen": [
+        "Es gibt keine nahezu allgemein anerkannte Definition.",
+        "Konsens besteht über die Differenzierung anhand der Gewaltenteilung.",
+        "Die Subtraktionsmethode grenzt Verwaltung abschließend ab.",
+        "Positive Definitionen sind sehr konkret und praktisch."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Richtig: keine anerkannte Definition, aber Konsens über die Unterscheidung (Gewaltenteilung). Falsch: Die Subtraktion ist „nicht abschließend möglich“; positive Bestimmungen führen zu „mangelnder Konkretion“.",
+      "folie": "12–13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie beschreibt die Dozentin im Abstract die öffentliche Verwaltung? (mehrere richtig)",
+      "optionen": [
+        "lebensumspannend",
+        "von Veränderungen, Dynamiken und Verflechtungen geprägt",
+        "Werturteilen und Vorurteilen unterworfen",
+        "weitgehend unveränderlich"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Das Abstract betont Wandel, Verflechtung und Vorurteile – „unveränderlich“ widerspricht dem.",
+      "folie": "2",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f09",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum werden bei der Definition von Verwaltung häufig Aufzählungen verwendet – und was ist ihr Nachteil?",
+      "antwort": "Weil weder die negative (Subtraktion) noch die positive Definition befriedigt, behilft man sich mit Aufzählungen als „Notlösung“. Sie sind aber nur exemplarisch und nie abschließend.",
+      "erklaerung": "Folie 13: „quasi als ‚Notlösung‘ … nur exemplarisch und auf keinen Fall abschließend“.",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Formen der Kontrolle der Verwaltung nennen Möltgen-Sicking/Winter? (mehrere richtig)",
+      "optionen": [
+        "rechtliche Kontrolle",
+        "administrative Kontrolle",
+        "finanzielle Kontrolle",
+        "politische und mediale Kontrolle",
+        "Kontrolle durch die Kirchen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Kap. 1.7.1 (rechtlich, administrativ, finanziell) und 1.7.2 (politisch, medial). Kirchen kommen nicht vor.",
+      "folie": "S. 57–65",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Einrichtungen der Verwaltungsebene zu. (Eigene Ausarbeitung, nicht aus der Sitzung)",
+      "kategorien": [
+        "Kommune",
+        "Land",
+        "Bund",
+        "Mischform/Sonstiges"
+      ],
+      "elemente": [
+        {
+          "text": "Stadt Vechta",
+          "kategorie": "Kommune"
+        },
+        {
+          "text": "Landkreis Vechta",
+          "kategorie": "Kommune"
+        },
+        {
+          "text": "Finanzamt",
+          "kategorie": "Land"
+        },
+        {
+          "text": "Polizei",
+          "kategorie": "Land"
+        },
+        {
+          "text": "Agentur für Arbeit",
+          "kategorie": "Bund"
+        },
+        {
+          "text": "Jobcenter",
+          "kategorie": "Mischform/Sonstiges"
+        },
+        {
+          "text": "Notar",
+          "kategorie": "Mischform/Sonstiges"
+        }
+      ],
+      "erklaerung": "Finanzämter sind Landesbehörden (Art. 108 GG), die Arbeitsagentur ist Bundesbehörde; Jobcenter sind Mischverwaltung (Art. 91e GG), Notare unabhängige Träger eines öffentlichen Amtes.",
+      "folie": "6",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f12",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Beurteile die These: „Die Aufgabe der Verwaltung ist es, ausschließlich die vom Parlament beschlossenen Gesetze in administrativ präziser Rationalität umzusetzen.“ Nenne Pro- und Contra-Argumente und ziehe ein Fazit.",
+      "musterloesung": "Pro: Bindung an Gesetz und Recht, Neutralität, Berechenbarkeit und Gleichbehandlung (Idealbild der rationalen Bürokratie nach Weber). Contra: Gesetze enthalten Ermessensspielräume und unbestimmte Rechtsbegriffe; die Verwaltung bereitet Gesetze selbst vor (Ministerialverwaltung) und entscheidet über die Umsetzung; Aufgaben der Gewalten überschneiden sich (Folie 13). Fazit: Die These beschreibt ein Idealbild; in der Praxis gestaltet Verwaltung im rechtlichen Rahmen mit.",
+      "bewertungspunkte": [
+        "mind. 2 Pro-Argumente",
+        "mind. 2 Contra-Argumente",
+        "Bezug zu Gewaltenteilung/Überschneidungen",
+        "begründetes, differenziertes Fazit"
+      ],
+      "punkte": 4,
+      "erklaerung": "These 4 der Gruppendiskussion – Leitfrage der nächsten Sitzung.",
+      "folie": "7–8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Ein Kultusministerium erlässt eine Verordnung über die Abschlussprüfungen an Realschulen. Ordne diesen Vorgang nach dem organisatorischen, materiellen und formellen Verwaltungsbegriff ein.",
+      "musterloesung": "Organisatorisch: Verwaltung, denn das Ministerium ist eine staatliche Einrichtung mit Verwaltungsaufgaben. Formell: Verwaltung, denn die Verwaltung handelt. Materiell: keine Verwaltung im engeren Sinn, sondern Rechtsetzung (abstrakt-generelle Regel) – Beispiel für die Überschneidung der Gewalten.",
+      "bewertungspunkte": [
+        "organisatorisch richtig eingeordnet",
+        "formell richtig eingeordnet",
+        "materiell als Rechtsetzung erkannt",
+        "Bezug zur Überschneidung der Gewalten"
+      ],
+      "punkte": 4,
+      "erklaerung": "Ergänzendes Anwendungsbeispiel (nicht aus der Sitzung), zeigt den Unterschied der Begriffe.",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Nenne vier Behörden bzw. Einrichtungen der öffentlichen Verwaltung, ordne sie einer Ebene (Bund, Land, Kommune, Sonstiges) zu und nenne je eine Aufgabe.",
+      "musterloesung": "z. B. Landkreis (Kommune) – Kfz-Zulassung; Finanzamt (Land) – Steuerbescheide; Agentur für Arbeit (Bund) – Arbeitslosengeld I; Schule (Mischform Land/Kommune) – Unterricht und Zeugnisse.",
+      "bewertungspunkte": [
+        "vier passende Einrichtungen",
+        "Ebenen korrekt",
+        "je eine passende Aufgabe"
+      ],
+      "punkte": 3,
+      "erklaerung": "Gruppenarbeit 1 (Folie 6).",
+      "folie": "6",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f15",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Fasse die Kernaussagen von Möltgen-Sicking/Winter (2018), S. 57–65, zur Kontrolle der öffentlichen Verwaltung zusammen.",
+      "musterloesung": "Wo Macht ausgeübt wird, besteht Missbrauchsgefahr; deshalb wird Verwaltung kontrolliert: rechtlich durch Gerichte, administrativ intern über Dienst- und Fachaufsicht und Rechnungsprüfung, finanziell durch Rechnungshöfe (Ordnungsmäßigkeit, Wirtschaftlichkeit, weisungsfrei), politisch/medial durch Lokalpresse und Social Media als „vierte Gewalt“ mit Kritik- und Kontrollfunktion.",
+      "bewertungspunkte": [
+        "Kernthese Missbrauchsgefahr",
+        "alle vier Kontrollformen",
+        "Rechnungshöfe korrekt beschrieben",
+        "Medien als „vierte Gewalt“ erklärt"
+      ],
+      "punkte": 4,
+      "erklaerung": "Hausaufgabe zum 12.11.",
+      "folie": "S. 57–65",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Kontrollinstanzen der Kontrollform zu.",
+      "kategorien": [
+        "rechtlich",
+        "administrativ",
+        "finanziell",
+        "politisch/medial"
+      ],
+      "elemente": [
+        {
+          "text": "Verwaltungs- und Verfassungsgerichte",
+          "kategorie": "rechtlich"
+        },
+        {
+          "text": "Dienst- und Fachaufsicht",
+          "kategorie": "administrativ"
+        },
+        {
+          "text": "interne Rechnungsprüfung",
+          "kategorie": "administrativ"
+        },
+        {
+          "text": "Bundesrechnungshof",
+          "kategorie": "finanziell"
+        },
+        {
+          "text": "Lokalzeitung",
+          "kategorie": "politisch/medial"
+        },
+        {
+          "text": "Social Media",
+          "kategorie": "politisch/medial"
+        }
+      ],
+      "erklaerung": "Nach Möltgen-Sicking/Winter, Kap. 1.7.",
+      "folie": "S. 57–65",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Einrichtungen sind Beispiele für eine Mischform mehrerer Verwaltungsebenen? (Eigene Ausarbeitung) (mehrere richtig)",
+      "optionen": [
+        "Jobcenter",
+        "Schule",
+        "Finanzamt",
+        "Bundesrechnungshof"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Jobcenter: Bund und Kommune (Art. 91e GG). Schule: Land (innere) und Kommune als Schulträger (äußere Angelegenheiten). Finanzamt ist Landes-, der Bundesrechnungshof Bundesbehörde.",
+      "folie": "16",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f18",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Argumente sprechen GEGEN die These „Verwaltung ist pure Bürokratie und steht nur im Weg“? (mehrere richtig)",
+      "optionen": [
+        "Regeln sichern Gleichbehandlung",
+        "Verfahren schaffen Rechtssicherheit",
+        "Ohne Verwaltung gäbe es viele staatliche Leistungen nicht",
+        "Verfahren dauern oft lange"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Lange Verfahren sprechen FÜR die These; die anderen drei sind Gegenargumente. (Eigene Ausarbeitung)",
+      "folie": "7",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f19",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum setzen Möltgen-Sicking/Winter die „vierte Gewalt“ in Anführungszeichen?",
+      "antwort": "Weil die Kontrolle durch Medien – anders als die drei Staatsgewalten – nicht rechtlich normiert ist; abgesichert ist nur die Pressefreiheit (Art. 5 Abs. 1 GG).",
+      "erklaerung": "S. 64: Mit den Medien wird „der vertraute Pfad normierter Kontrolle“ verlassen.",
+      "folie": "S. 64",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Verwaltung als alles, was nicht Gesetzgebung und nicht Rechtsprechung ist, nennt man eine [[negative]] Definition nach der [[Subtraktionsmethode]].",
+      "erklaerung": "Folie 13.",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Hausarbeits-Training: Formuliere eine mögliche Forschungsfrage zum Verhältnis von Politik und Verwaltung und begründe in 3–4 Sätzen, warum sie relevant ist.",
+      "musterloesung": "Beispiel: „Inwiefern ist die kommunale Verwaltung mehr als ein reines Vollzugsorgan der Politik? Eine Analyse am Beispiel der Ratsvorlagen einer niedersächsischen Kommune.“ Relevanz: Die Folien zeigen, dass sich Verwaltung nicht eindeutig von den anderen Gewalten abgrenzen lässt; der Text (S. 57) beschreibt, dass wesentliche kommunale Initiativen von der Verwaltung ausgehen. Damit wird das Idealbild des reinen Gesetzesvollzugs (These 4) empirisch überprüfbar.",
+      "bewertungspunkte": [
+        "klare, eingegrenzte Frage",
+        "Bezug zu Seminarinhalten",
+        "Relevanz begründet",
+        "prüfbar (Fall/Material benannt)"
+      ],
+      "punkte": 4,
+      "erklaerung": "Übung zur Prüfungsform Hausarbeit (Modulkompetenz: Forschungsfragen zur Regierungslehre entwickeln).",
+      "folie": "7–8, 13",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Prüfungsform Hausarbeit: 45.000–55.000 Zeichen inkl. Leerzeichen (ohne Deckblatt, Verzeichnisse, Anhänge), Zeichenzahl angeben; Thema in der Sprechstunde vereinbaren (Folie 9–10).",
+    "Präsentationen (10 Min. + 5 Min. Austausch) dienen ausdrücklich der Vorbereitung auf die Hausarbeit; Entwurf bis Dienstagabend vor der Sitzung (Folie 9)."
+  ],
+  "offene_fragen": [
+    "Folie 13: „Ehlers, 2020, S. 5“ – vollständige Literaturangabe fehlt (vermutlich Ehlers/Pünder, Allgemeines Verwaltungsrecht) – bei der Dozentin erfragen.",
+    "Folie 13: Tippfehler „Substraktionsmethode“ (richtig: Subtraktionsmethode).",
+    "Seminarplan: 14.01.2026 und 28.01.2026 – gemeint ist 2027.",
+    "Möltgen-Sicking/Winter S. 58: „In Deutschland existiert dabei keine eigene Gerichtsbarkeit“ – missverständlich, es gibt eine eigene Verwaltungsgerichtsbarkeit; in der Sitzung ansprechen.",
+    "Abgabefrist Hausarbeit: QISPOS 15.03.2027 – Verlängerung wegen Studium mit Familienverantwortung klären (To-do 12.11.).",
+    "Präsentation zu „Entwicklungslinien und Reformprozesse I“ am 12.11. laut Plan „noch zu vereinbaren“."
+  ]
+}

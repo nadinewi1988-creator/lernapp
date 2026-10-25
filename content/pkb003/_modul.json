@@ -13,7 +13,8 @@
       "Hausarbeit wird in pkb003.3 (Dr.in Marion Rieken) geschrieben (Nadines Plan, Stand 25.10.2026).",
       "Umfang i. d. R. 45.000–55.000 Zeichen inkl. Leerzeichen (ohne Deckblatt, Verzeichnisse, Anhänge); erreichte Zeichenzahl angeben (§ 4 StO Politikwissenschaft BACS).",
       "Thema vorher in der Sprechstunde der Dozentin vereinbaren; Bewertung i. d. R. innerhalb von 6 Wochen.",
-      "pkb003.3: 10-Minuten-Präsentation (PPP/Poster) + 5 Minuten Austausch als Vorbereitung auf die Hausarbeit; Entwurf jeweils bis Dienstagabend vor der Sitzung an die Dozentin."
+      "pkb003.3: 10-Minuten-Präsentation (PPP/Poster) + 5 Minuten Austausch als Vorbereitung auf die Hausarbeit; Entwurf jeweils bis Dienstagabend vor der Sitzung an die Dozentin.",
+      "Abgabe laut QISPOS 15.03.2027; Verlängerung wegen Studium mit Familienverantwortung wird geklärt (To-do 12.11.2026)."
     ]
   },
   "teilmodule": [
@@ -58,7 +59,8 @@
         "pkb003.2_2026-12-14",
         "pkb003.1_2026-12-15",
         "pkb003.1_2027-01-05",
-        "pkb003.1_2027-01-12"
+        "pkb003.1_2027-01-12",
+        "pkb003.3_2026-10-22"
       ]
     },
     {
@@ -88,11 +90,15 @@
     },
     {
       "text": "Forschungsfragen zur Regierungslehre entwickeln",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "pkb003.3_2026-10-22"
+      ]
     },
     {
       "text": "Berufsfelder in Politik und Verwaltung erkunden",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "pkb003.3_2026-10-22"
+      ]
     }
   ],
   "probepruefung": null,
@@ -316,7 +322,8 @@
       "teilmodul": "pkb003.3",
       "datum": "2026-11-12",
       "nr": 2,
-      "thema": "Öffentliche Verwaltung gestern und heute: Begriff und Gegenstand II · Entwicklungslinien und Reformprozesse I"
+      "thema": "Öffentliche Verwaltung gestern und heute: Begriff und Gegenstand II · Entwicklungslinien und Reformprozesse I",
+      "hinweis": "Ersatztermin für 05.11.2026 (Dozentin verhindert)"
     },
     {
       "teilmodul": "pkb003.3",
@@ -378,12 +385,7 @@
     {
       "teilmodul": "pkb003.3",
       "datum": "2026-11-12",
-      "text": "Möltgen-Sicking/Winter (2018), S. 57–65 (Exzerpt als Hausaufgabe)"
-    },
-    {
-      "teilmodul": "pkb003.3",
-      "datum": "2026-11-12",
-      "text": "Literatur zu Max Webers Bürokratiemodell (Nadines Präsentation)"
+      "text": "Literatur zu Max Webers Bürokratiemodell – Basis vorhanden: Möltgen-Sicking/Winter (2018), Kap. 2.1 „Verwaltung als bürokratische Herrschaft“, ab S. 68"
     }
   ],
   "auffaelligkeiten": [
@@ -392,7 +394,9 @@
     "Seminarplan pkb003.3: 14.01.2026 und 28.01.2026 – gemeint 2027.",
     "Kursplan pkb003.2 S08: „Leipzig Institut … (2021)“ – vorhanden ist IWH Halle „Vereintes Land“ (2019).",
     "pkb003.2: Sitzung 19.10.2026 ist ausgefallen – Nadine vermutet, dass sich alle folgenden Termine um eine Woche verschieben (unbestätigt, Stand 25.10.2026). Bis zur Klärung gelten die Kursplan-Daten.",
-    "App nummeriert pkb003.2 ohne die ausgefallene Sitzung 19.10. – App-Nr. = Kursplan-Nr. − 1 ab Sitzung 3."
+    "App nummeriert pkb003.2 ohne die ausgefallene Sitzung 19.10. – App-Nr. = Kursplan-Nr. − 1 ab Sitzung 3.",
+    "pkb003.3 Folie 13: „Substraktionsmethode“ (richtig: Subtraktionsmethode); Quelle „Ehlers 2020“ ohne vollständige Angabe.",
+    "Möltgen-Sicking/Winter S. 58: „keine eigene Gerichtsbarkeit“ – missverständlich (es gibt die Verwaltungsgerichtsbarkeit)."
   ],
   "kalender_nachtragen": [],
   "sitzungen": [
@@ -400,6 +404,7 @@
     "pkb003.1_2026-10-13",
     "pkb003.2_2026-10-19",
     "pkb003.1_2026-10-20",
+    "pkb003.3_2026-10-22",
     "pkb003.2_2026-10-26",
     "pkb003.1_2026-10-27",
     "pkb003.2_2026-11-02",
@@ -451,7 +456,7 @@
       "pfad": "pkb003.3/LV_Öffentliche_Verwaltung_WiSe_26_Sitzung1.pdf",
       "geaendert": "2026-10-23",
       "art": "Folien + Seminarplan",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "pkb003.3_2026-10-22"
     },
     {
@@ -597,6 +602,13 @@
       "art": "Literatur",
       "status": "verarbeitet",
       "sitzung": "pkb003.2_2027-01-11"
+    },
+    {
+      "pfad": "pkb003.3/S02_2026-11-12_Moeltgen-Sicking-Winter_Verwaltung-und-Verwaltungswissenschaft.pdf",
+      "geaendert": "2026-10-25",
+      "art": "Literatur (Buch, Lit.-Liste Modulbeschreibung)",
+      "status": "später",
+      "sitzung": "pkb003.3_2026-11-12 (Hausaufgabe S. 57–65 bereits exzerpiert in pkb003.3_2026-10-22, Aufgabe a03); Weber-Präsentation: Kap. 2.1 ab S. 68"
     }
   ],
   "kalender_eingetragen_am": "2026-10-25"

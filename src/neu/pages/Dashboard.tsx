@@ -295,8 +295,8 @@ export function Dashboard({ stand, neuLaden }: Props) {
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}><b style={{ color: f[0], fontSize: 14 }}>{m.k}</b><span style={{ fontSize: 12, color: 'var(--ink-2)', fontWeight: 700 }}>{pruefText(m.k, false)}</span></div>
                 <div style={{ fontWeight: 800, fontSize: 15, lineHeight: 1.25 }}>{m.name}</div>
                 <div style={{ marginTop: 'auto', fontSize: 12, color: 'var(--ink-2)' }}>{m.inhalt}</div>
-                {(() => { const z = anwesenheitVon(stand, m.k); return z.n > 0 && <div style={{ display: 'flex', alignItems: 'center', gap: 8, fontSize: 12, color: 'var(--ink-2)' }}><span style={{ flex: '0 0 48px' }}><AnwBalken z={z} h={5} /></span><span>Anwesend {z.da}/{z.n}{z.weg ? ' · ' + z.weg + ' gefehlt' : ''}{z.offen ? ' · ' + z.offen + ' ?' : ''}</span></div>; })()}
                 <div style={{ height: 6, borderRadius: 999, background: 'rgba(255,255,255,0.75)', overflow: 'hidden' }}><div style={{ height: '100%', borderRadius: 999, background: f[0], width: m.pct + '%' }} /></div>
+                {(() => { const z = anwesenheitVon(stand, m.k); return z.n > 0 && <div style={{ display: 'flex', alignItems: 'center', gap: 8, fontSize: 12, color: 'var(--ink-2)' }}><span style={{ flex: '0 0 48px' }}><AnwBalken z={z} h={5} /></span><span>Anwesend {z.da}/{z.n}{z.weg ? ' · ' + z.weg + ' gefehlt' : ''}{z.offen ? ' · ' + z.offen + ' ?' : ''}</span></div>; })()}
               </a>); })}
           </div>
         </section>
@@ -349,8 +349,8 @@ export function Dashboard({ stand, neuLaden }: Props) {
                 <span style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 4 }}><b style={{ color: f[0], fontSize: 13 }}>{m.k}</b><span style={{ fontSize: 11, color: 'var(--ink-2)', fontWeight: 700 }}>{pruefText(m.k, true)}</span></span>
                 <span style={{ fontWeight: 700, fontSize: 12, lineHeight: 1.3, hyphens: 'auto', overflowWrap: 'anywhere', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{m.name}</span>
                 <span style={{ fontSize: 11, color: 'var(--ink-2)' }}>{m.inhalt}</span>
-                {(() => { const z = anwesenheitVon(stand, m.k); return z.n > 0 && <span style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 11, color: 'var(--ink-2)' }}><span style={{ flex: '0 0 28px' }}><AnwBalken z={z} h={4} /></span>da {z.da}/{z.n}</span>; })()}
                 <span style={{ display: 'block', height: 5, marginTop: 2, borderRadius: 999, background: 'rgba(255,255,255,0.75)', overflow: 'hidden' }}><span style={{ display: 'block', height: '100%', borderRadius: 999, background: f[0], width: m.pct + '%' }} /></span>
+                {(() => { const z = anwesenheitVon(stand, m.k); return z.n > 0 && <span style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 11, color: 'var(--ink-2)' }}><span style={{ flex: '0 0 28px' }}><AnwBalken z={z} h={4} /></span>da {z.da}/{z.n}</span>; })()}
               </a>); })}
           </div>
         </section>

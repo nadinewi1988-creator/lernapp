@@ -10,19 +10,22 @@ import { Kalender } from './pages/Kalender';
 import { Dashboard } from './pages/Dashboard';
 import { Module } from './pages/Module';
 import { Karten } from './pages/Karten';
+import { Statistik } from './pages/Statistik';
 import './theme.css';
 
-export type Seite = 'dashboard' | 'kalender' | 'module' | 'pruefungen' | 'karten';
+export type Seite = 'dashboard' | 'kalender' | 'module' | 'pruefungen' | 'karten' | 'statistik';
 const SEITEN: { id: Seite; name: string; kurz: string; icon: ReactNode }[] = [
   { id: 'dashboard', name: 'Dashboard', kurz: 'Dashboard', icon: <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><rect x="3" y="3" width="7" height="9" rx="2" /><rect x="14" y="3" width="7" height="5" rx="2" /><rect x="14" y="12" width="7" height="9" rx="2" /><rect x="3" y="16" width="7" height="5" rx="2" /></svg> },
   { id: 'kalender', name: 'Kalender', kurz: 'Kalender', icon: <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M3 10h18M8 3v4M16 3v4" /></svg> },
   { id: 'module', name: 'Module', kurz: 'Module', icon: <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M4 4h12a4 4 0 014 4v12H8a4 4 0 01-4-4z" /></svg> },
   { id: 'pruefungen', name: 'Prüfungen', kurz: 'Prüfungen', icon: <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z" /><path d="M14 3v6h6M9 15l2 2 4-4" /></svg> },
   { id: 'karten', name: 'Eigene Karten', kurz: 'Karten', icon: <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><rect x="3" y="6" width="14" height="14" rx="2" /><path d="M7 6V5a2 2 0 012-2h10a2 2 0 012 2v10a2 2 0 01-2 2h-2" /></svg> },
+  { id: 'statistik', name: 'Statistik', kurz: 'Statistik', icon: <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M4 20h16" /><path d="M7 16v-5M12 16V6M17 16v-8" /></svg> },
 ];
 export const UNTER: Partial<Record<Seite, { id: string; name: string }[]>> = {
   pruefungen: [{ id: 'meine', name: 'Meine Prüfungen' }, { id: 'bafoeg', name: 'BAföG' }, { id: 'regeln', name: 'Regeln & Ordnungen' }],
-  karten: [{ id: 'aktuell', name: 'Aktuelles Semester' }, { id: 'statistik', name: 'Statistik' }, { id: 'archiv', name: 'Archiv' }],
+  karten: [{ id: 'aktuell', name: 'Aktuelles Semester' }, { id: 'archiv', name: 'Archiv' }],
+  statistik: [{ id: 'uebersicht', name: 'Übersicht' }, { id: 'karten', name: 'Eigene Karten' }],
 };
 
 function useUser() {
@@ -38,7 +41,8 @@ function useUser() {
 }
 
 function leseOrt(): { seite: Seite; unter: string; teil: string } {
-  const [s, u, t] = window.location.hash.replace(/^#\/?/, '').split('/');
+  let [s, u, t] = window.location.hash.replace(/^#\/?/, '').split('/');
+  if (s === 'karten' && u === 'statistik') { s = 'statistik'; u = 'karten'; t = ''; }
   const seite = (SEITEN.find((x) => x.id === s)?.id ?? 'dashboard') as Seite;
   return { seite, unter: u ?? (seite === 'module' ? '' : UNTER[seite]?.[0]?.id ?? ''), teil: t ?? '' };
 }
@@ -97,7 +101,8 @@ export default function App() {
         {stand && ort.seite === 'module' && <Module stand={stand} unter={ort.unter} teil={ort.teil} gehe={(u, t) => gehe('module', u, t)} neuLaden={neuLaden} />}
         {stand && ort.seite === 'kalender' && <Kalender stand={stand} neuLaden={neuLaden} />}
         {stand && ort.seite === 'karten' && <Karten stand={stand} unter={ort.unter} gehe={(u) => gehe('karten', u)} neuLaden={neuLaden} />}
-        {stand && ort.seite !== 'pruefungen' && ort.seite !== 'kalender' && ort.seite !== 'dashboard' && ort.seite !== 'module' && ort.seite !== 'karten' && <Baustelle name={SEITEN.find((s) => s.id === ort.seite)!.name} />}
+        {stand && ort.seite === 'statistik' && <Statistik stand={stand} unter={ort.unter} gehe={(u) => gehe('statistik', u)} neuLaden={neuLaden} />}
+        {stand && ort.seite !== 'pruefungen' && ort.seite !== 'kalender' && ort.seite !== 'dashboard' && ort.seite !== 'module' && ort.seite !== 'karten' && ort.seite !== 'statistik' && <Baustelle name={SEITEN.find((s) => s.id === ort.seite)!.name} />}
       </main>
       <nav className="untennav" aria-label="Navigation">
         {SEITEN.map((s) => <button key={s.id} className={ort.seite === s.id ? 'aktiv' : ''} onClick={() => gehe(s.id)}>{s.icon}{s.kurz}</button>)}

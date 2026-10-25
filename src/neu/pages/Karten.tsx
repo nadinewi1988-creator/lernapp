@@ -7,7 +7,7 @@ import { gradeAnswer } from '../../lib/api';
 import { useKlapp } from '../klapp';
 
 // ---------- Konstanten aus dem Entwurf ----------
-const C: Record<string, [string, string]> = { mab004: ['#5f80b5', '#eaf1fc'], mab005: ['#4f8f80', '#e6f5f0'], pkb003: ['#b46b80', '#fbebef'], ewb001: ['#6d9156', '#edf5e5'], ewb002: ['#b5845a', '#fcf0e4'], pyb005: ['#8a77b5', '#f1edfa'] };
+export const C: Record<string, [string, string]> = { mab004: ['#5f80b5', '#eaf1fc'], mab005: ['#4f8f80', '#e6f5f0'], pkb003: ['#b46b80', '#fbebef'], ewb001: ['#6d9156', '#edf5e5'], ewb002: ['#b5845a', '#fcf0e4'], pyb005: ['#8a77b5', '#f1edfa'] };
 const FACH: Record<string, [string, string]> = { mab: ['#8195b8', '#eef1f6'], pkb: ['#a98592', '#f6eff1'], x: ['#8a9683', '#f0f3ee'] };
 const FORM: Record<string, string> = { frage: 'Frage → Antwort', mc: 'Multiple Choice', offen: 'Offene Aufgabe (KI)', luecke: 'Lückentext', zuordnung: 'Zuordnung' };
 const FKURZ: Record<string, string> = { frage: 'Frage', mc: 'Multiple Choice', offen: 'Offen · KI', luecke: 'Lückentext', zuordnung: 'Zuordnung' };
@@ -59,13 +59,13 @@ export function kartenAus(stand: Studienstand, lokalW: Record<string, { stand: s
 export const istFaellig = (k: { faellig: string | null }) => !k.faellig || k.faellig <= heuteIso();
 function wdhText(k: K) { const h = heuteIso(); if (!k.faellig) return 'neu · heute fällig'; if (k.faellig < h) { const n = tageZw(k.faellig, h); return 'überfällig seit ' + n + (n === 1 ? ' Tag' : ' Tagen'); } if (k.faellig === h) return 'heute fällig'; const n = tageZw(h, k.faellig); return n === 1 ? 'morgen fällig' : 'fällig in ' + n + ' Tagen'; }
 
-interface Props { stand: Studienstand; unter: string; gehe: (u: string) => void; neuLaden: () => Promise<void> }
+interface Props { stand: Studienstand; unter: string; gehe: (u: string) => void; neuLaden: () => Promise<void>; nurStatistik?: boolean }
 type Dlg = { id: string; teilId: string | null; sitzungId: string | null; format: string; vorne: string; hinten: string; optionen: string[]; richtig: number[]; kategorien: string[]; elemente: { text: string; kat: number | null }[]; bild: string | null; bildNeu?: Blob | null; bildVorschau?: string; feld: 'vorne' | 'hinten'; armed?: boolean; fehler?: string; kopie?: boolean };
 type U = { ids: string[]; i: number; auf: boolean; wahl: number[]; eingabe: string; sicher: number; unsicher: number; zu: Record<number, number>; sel: number | null; luecken: Record<number, string>; profi: boolean };
 
-export function Karten({ stand, unter, gehe, neuLaden }: Props) {
+export function Karten({ stand, unter, gehe, neuLaden, nurStatistik }: Props) {
   const HEUTE = heuteIso();
-  const tab = unter === 'statistik' || unter === 'archiv' ? unter : 'aktuell';
+  const tab = nurStatistik ? 'statistik' : unter === 'archiv' ? 'archiv' : 'aktuell';
   const akt = aktuellesSemester(stand.semester);
   const [modul, setModul] = useState('alle');
   const [sitzFilter, setSitzFilter] = useState<string[]>([]);
@@ -315,13 +315,14 @@ export function Karten({ stand, unter, gehe, neuLaden }: Props) {
   };
   const exp = io?.tab === 'export' ? exportDaten() : null;
 
-  const tabs: [string, string][] = [['aktuell', 'Aktuelles Semester'], ['statistik', 'Statistik'], ['archiv', 'Archiv']];
+  const tabs: [string, string][] = [['aktuell', 'Aktuelles Semester'], ['archiv', 'Archiv']];
   const kopfInfo = alle.length + ' Karten · ' + alle.filter((k) => istAktK(k) && istFaellig(k)).length + ' heute fällig';
   const wo = auswahl === 'alle' ? 'aller Module' : 'von ' + auswahl;
 
   return (
     <>
       {fehler && <div className="karte fehler">{fehler}</div>}
+      {!nurStatistik && <>
       <header className="kopf kar-kopf">
         <div><h1 style={{ margin: 0 }}>Eigene Karten</h1><div style={{ fontSize: 14, color: 'var(--ink-3)', fontWeight: 600, marginTop: 2 }}>{kopfInfo}</div></div>
         <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'center' }}>
@@ -332,6 +333,7 @@ export function Karten({ stand, unter, gehe, neuLaden }: Props) {
       <div className="umschalter kar-tabs" role="tablist" style={{ gap: 3, padding: 3, background: '#efefea' }}>
         {tabs.map(([id, n]) => <button key={id} type="button" role="tab" className={tab === id ? 'aktiv' : ''} onClick={() => { gehe(id); setModul('alle'); setResetArm(null); }}>{n}</button>)}
       </div>
+      </>}
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
         {[{ k: 'alle', n: imTab.length, f: ['#1f2328', '#fff'] as [string, string] }, ...mods.map((m) => ({ k: m, n: imTab.filter((k) => k.mk === m).length, f: C[m] ?? FACH[m.slice(0, 3)] ?? FACH.x }))].map((x) => { const an = auswahl === x.k; return <button key={x.k} type="button" onClick={() => { setModul(x.k); setSitzFilter([]); }} style={{ minHeight: 34, padding: '0 12px', borderRadius: 999, border: '1.5px solid ' + (an ? x.f[0] : 'var(--line)'), background: an && x.k !== 'alle' ? x.f[1] : '#fff', fontSize: 13, fontWeight: 800, color: x.f[0], cursor: 'pointer' }}>{x.k === 'alle' ? 'Alle' : x.k} <span style={{ fontWeight: 600, color: 'var(--ink-3)' }}>{x.n}</span></button>; })}
       </div>

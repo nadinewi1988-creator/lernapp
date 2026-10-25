@@ -110,6 +110,9 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   const [lt, setLt] = useState<null | { sid: string; kopf: string; titel: string; ausf: boolean; begr: boolean; aufg: boolean }>(null);
   const [lokalGel, setLokalGel] = useState<Record<string, boolean>>({});
   const [glossar, setGlossar] = useState<null | { suche: string }>(null);
+  const [glOrd, setGlOrd] = useKlapp<string>('mod-begriffe-ordnung', 'sitzung');
+  const [glFil, setGlFil] = useKlapp<string>('mod-begriffe-filter', 'alle');
+  const [glOffen, setGlOffen] = useKlapp<Record<string, boolean>>('mod-begriffe-offen', {});
   const [hinweis, setHinweis] = useState(false);
   const [lf, setLf] = useState<null | { titel: string; liste: LFEintrag[] }>(null);
   const [lfWahl, setLfWahl] = useState<null | Record<string, boolean>>(null);
@@ -578,11 +581,69 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
         <div className="dialog-hg" onClick={(ev) => { if (ev.target === ev.currentTarget) setGlossar(null); }} style={{ zIndex: 20 }}>
           <div role="dialog" aria-label="Begriffe" className="dialog" style={{ maxWidth: 620 }}>
             <div style={{ fontSize: 13, fontWeight: 800, color: f[0] }}>{kuerzel} · Begriffe</div>
-            <input type="search" value={glossar.suche} onChange={(ev) => setGlossar({ suche: ev.target.value })} placeholder="Begriff suchen …" style={{ border: '1px solid var(--line)', background: 'var(--paper)', borderRadius: 999, padding: '8px 14px', fontSize: 14, color: 'var(--ink)' }} />
-            {GLOSSAR.length === 0 ? <div style={{ fontSize: 13, color: 'var(--ink-3)', border: '1px dashed #d8d8d0', borderRadius: 10, padding: '10px 12px' }}>Noch keine Begriffe. Sie kommen automatisch dazu, sobald Sitzungen im Modul-Chat aufbereitet sind – mit Wortlaut aus deinen Unterlagen, Erklärung und Quelle.</div>
-              : (() => { const q = glossar.suche.trim().toLowerCase(); const l = GLOSSAR.filter((g) => !q || (g.begriff + ' ' + g.wortlaut + ' ' + g.erklaerung).toLowerCase().includes(q)).sort((x, y) => x.begriff.localeCompare(y.begriff, 'de'));
-                return <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>{l.length === 0 && <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>Kein Begriff gefunden.</span>}{l.map((g) => <div key={g.begriff} style={{ display: 'flex', flexDirection: 'column', gap: 3, borderLeft: '3px solid ' + f[0], paddingLeft: 10 }}>
-                  <b style={{ fontSize: 14 }}>{g.begriff}</b><span style={{ fontSize: 13, fontStyle: 'italic', color: 'var(--ink-2)' }} dangerouslySetInnerHTML={{ __html: '„' + mdInline(g.wortlaut) + '“' }} /><span style={{ fontSize: 13 }} dangerouslySetInnerHTML={{ __html: mdInline(g.erklaerung) }} /><span style={{ fontSize: 11, color: 'var(--ink-3)' }}>{g.quelle}</span></div>)}</div>; })()}
+            {(() => {
+              const ERG = /^Ergänzung \(nicht aus dem Material\):\s*/;
+              const slug = (t: string) => t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+              const liste = GLOSSAR.map((g) => {
+                const [quelleDatei, ...rest] = g.quelle.split(' · '), si = LSITZ.find((x) => x.datei === quelleDatei);
+                const teil = si?.teilmodul ?? quelleDatei.split('_')[0], erg = ERG.test(g.wortlaut);
+                const bsp = g.erklaerung.split(/\s*Beispiel:\s*/), erkl = bsp[0], beispiel = bsp.slice(1).join(' Beispiel: ');
+                const kurz = erkl;
+                const s0 = { datei: 'begriffe_' + kuerzel, teilmodul: teil, datum: si?.datum ?? '', modul: kuerzel } as unknown as LFEintrag['s'];
+                const fr = { id: slug(g.begriff), baustein: 'definition', format: 'frage', niveau: 'wissen', schwierigkeit: 1, frage: 'Was versteht man unter „' + g.begriff + '“?', antwort: erg ? erkl : g.wortlaut, erklaerung: erkl } as LFEintrag['f'];
+                const st = wdRef[frageRef(s0, fr)]?.stand ?? 'neu';
+                return { g, si, teil, erg, wort: g.wortlaut.replace(ERG, ''), erkl, kurz, beispiel, ort: rest.join(' · '), e: { s: s0, f: fr } as LFEintrag, st };
+              });
+              const q = glossar.suche.trim().toLowerCase();
+              const gef = liste.filter((x) => (!q || (x.g.begriff + ' ' + x.g.wortlaut + ' ' + x.g.erklaerung).toLowerCase().includes(q)) && (glFil === 'alle' || (glFil === 'vl' ? !x.erg : x.st !== 'sicher')));
+              const az = [...gef].sort((a2, b2) => a2.g.begriff.localeCompare(b2.g.begriff, 'de'));
+              const gruppen: { key: string; titel: string; l: typeof gef }[] = glOrd === 'az'
+                ? [...new Set(az.map((x) => x.g.begriff.replace(/^[^A-Za-zÄÖÜäöü]+/, '').slice(0, 1).toUpperCase()))].map((b2) => ({ key: b2, titel: b2, l: az.filter((x) => x.g.begriff.replace(/^[^A-Za-zÄÖÜäöü]+/, '').slice(0, 1).toUpperCase() === b2) }))
+                : [...new Set(gef.map((x) => x.si?.datei ?? x.teil))].sort((a2, b2) => { const A = LSITZ.find((x) => x.datei === a2), B = LSITZ.find((x) => x.datei === b2); return ((A?.datum ?? '9') + a2).localeCompare((B?.datum ?? '9') + b2); }).map((k2) => { const si = LSITZ.find((x) => x.datei === k2); return { key: k2, titel: si ? si.teilmodul + ' · ' + fmtD(si.datum) + ' · ' + si.thema : k2, l: az.filter((x) => (x.si?.datei ?? x.teil) === k2) }; });
+              const unsicher = liste.filter((x) => x.st !== 'sicher'), sicher = liste.length - unsicher.length;
+              const seg = (an: boolean): CSSProperties => ({ minHeight: 30, padding: '0 12px', border: 0, borderRadius: 999, background: an ? '#fff' : 'transparent', boxShadow: an ? '0 1px 2px rgba(0,0,0,0.08)' : 'none', fontSize: 12, fontWeight: 800, color: 'var(--ink)', cursor: 'pointer' });
+              const STF: Record<string, [string, string, string]> = { neu: ['neu', '#f0f0eb', '#6b6f76'], unsicher: ['unsicher', '#fff3e0', '#a3580b'], sicher: ['sicher', '#e3f2e8', '#2f7a4b'] };
+              if (!GLOSSAR.length) return <div style={{ fontSize: 13, color: 'var(--ink-3)', border: '1px dashed #d8d8d0', borderRadius: 10, padding: '10px 12px' }}>Noch keine Begriffe. Sie kommen automatisch dazu, sobald Sitzungen im Modul-Chat aufbereitet sind – mit Wortlaut aus deinen Unterlagen, Erklärung und Quelle.</div>;
+              return <>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, alignItems: 'center' }}>
+                  <span style={{ fontSize: 13, color: 'var(--ink-2)', marginRight: 'auto' }}>{liste.length} Begriffe · {sicher} sicher</span>
+                  <button type="button" onClick={() => unsicher.length && setLf({ titel: kuerzel + ' · Begriffe (noch nicht sicher)', liste: unsicher.map((x) => x.e) })} style={{ ...klein, opacity: unsicher.length ? 1 : 0.5 }}>Unsichere üben ({unsicher.length})</button>
+                  <button type="button" onClick={() => setLf({ titel: kuerzel + ' · alle Begriffe', liste: [...liste].sort(() => Math.random() - 0.5).map((x) => x.e) })} style={klein}>Alle üben</button>
+                </div>
+                <input type="search" value={glossar.suche} onChange={(ev) => setGlossar({ suche: ev.target.value })} placeholder="Begriff suchen …" style={{ border: '1px solid var(--line)', background: 'var(--paper)', borderRadius: 999, padding: '8px 14px', fontSize: 14, color: 'var(--ink)' }} />
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+                  <div style={{ display: 'flex', gap: 3, padding: 3, background: '#efefea', borderRadius: 999 }}>{[['sitzung', 'Nach Sitzung'], ['az', 'A–Z']].map(([id, n]) => <button key={id} type="button" onClick={() => setGlOrd(id)} style={seg(glOrd === id)}>{n}</button>)}</div>
+                  <div style={{ display: 'flex', gap: 3, padding: 3, background: '#efefea', borderRadius: 999 }}>{[['alle', 'Alle'], ['vl', 'Aus der Vorlesung'], ['unsicher', 'Noch nicht sicher']].map(([id, n]) => <button key={id} type="button" onClick={() => setGlFil(id)} style={seg(glFil === id)}>{n}</button>)}</div>
+                </div>
+                {gef.length === 0 && <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>Kein Begriff gefunden.</span>}
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>{gruppen.map((gr) => (
+                  <div key={gr.key} style={{ display: 'flex', flexDirection: 'column' }}>
+                    <span style={{ fontSize: 12, fontWeight: 800, color: f[0], padding: '0 0 4px' }}>{gr.titel}</span>
+                    {gr.l.map((x) => { const k2 = x.g.begriff, auf = !!glOffen[kuerzel + ':' + k2], sf = STF[x.st] ?? STF.neu; return (
+                      <div key={k2} style={{ borderTop: '1px solid #f0f0eb' }}>
+                        <button type="button" onClick={() => setGlOffen({ ...glOffen, [kuerzel + ':' + k2]: !auf })} style={{ width: '100%', display: 'flex', alignItems: 'baseline', gap: 8, padding: '9px 0', border: 0, background: 'none', textAlign: 'left', color: 'var(--ink)', cursor: 'pointer' }}>
+                          <span style={{ width: '1em', color: 'var(--ink-3)', fontSize: 12 }}>{auf ? '▾' : '▸'}</span>
+                          <span style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column', gap: 1 }}>
+                            <b style={{ fontSize: 14 }} dangerouslySetInnerHTML={{ __html: mdInline(k2) }} />
+                            {!auf && <span style={{ fontSize: 12, color: 'var(--ink-3)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }} dangerouslySetInnerHTML={{ __html: mdInline(x.kurz) }} />}
+                          </span>
+                          {x.erg && <span style={{ fontSize: 10, fontWeight: 800, padding: '1px 7px', borderRadius: 999, background: '#f0f0eb', color: 'var(--ink-3)' }}>Ergänzung</span>}
+                          <span style={{ fontSize: 10, fontWeight: 800, padding: '1px 7px', borderRadius: 999, background: sf[1], color: sf[2] }}>{sf[0]}</span>
+                        </button>
+                        {auf && <div style={{ display: 'flex', flexDirection: 'column', gap: 8, padding: '0 0 12px 1.5em' }}>
+                          {!x.erg ? <div style={{ background: f[1], borderRadius: 10, padding: '8px 12px', display: 'flex', flexDirection: 'column', gap: 3 }}><span style={{ fontSize: 11, fontWeight: 800, color: f[0] }}>Definition aus der Vorlesung{x.ort ? ' · ' + x.ort : ''}</span><span style={{ fontSize: 13, lineHeight: 1.5 }} dangerouslySetInnerHTML={{ __html: mdInline(x.wort) }} /></div>
+                            : <div style={{ background: '#f7f7f4', border: '1px dashed #d8d8d0', borderRadius: 10, padding: '8px 12px', display: 'flex', flexDirection: 'column', gap: 3 }}><span style={{ fontSize: 11, fontWeight: 800, color: 'var(--ink-3)' }}>Ergänzung – nicht in deinen Unterlagen definiert{x.ort ? ' · benutzt: ' + x.ort : ''}</span><span style={{ fontSize: 13, lineHeight: 1.5 }} dangerouslySetInnerHTML={{ __html: mdInline(x.wort) }} /></div>}
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}><span style={{ fontSize: 11, fontWeight: 800, color: 'var(--ink-3)' }}>In eigenen Worten</span><span style={{ fontSize: 13, lineHeight: 1.5 }} dangerouslySetInnerHTML={{ __html: mdInline(x.erkl) }} /></div>
+                          {x.beispiel && <div style={{ border: '1px solid var(--line)', borderRadius: 10, padding: '8px 12px', fontSize: 13, lineHeight: 1.5 }}><b style={{ fontSize: 11, color: 'var(--ink-3)' }}>Beispiel </b><span dangerouslySetInnerHTML={{ __html: mdInline(x.beispiel) }} /></div>}
+                          <div style={{ display: 'flex', gap: 8, alignItems: 'center', flexWrap: 'wrap' }}>
+                            <button type="button" onClick={() => setLf({ titel: kuerzel + ' · ' + k2, liste: [x.e] })} style={{ ...klein, minHeight: 30 }}>Diesen Begriff üben</button>
+                            {x.si && <span style={{ fontSize: 11, color: 'var(--ink-3)' }}>aus {x.si.teilmodul} · {fmtD(x.si.datum)}</span>}
+                          </div>
+                        </div>}
+                      </div>); })}
+                  </div>))}</div>
+              </>;
+            })()}
             {kuerzel.startsWith('mab') && <><b style={{ fontSize: 14 }}>Symbole</b>{SYMBOLE.length === 0 ? <div style={{ fontSize: 13, color: 'var(--ink-3)', border: '1px dashed #d8d8d0', borderRadius: 10, padding: '10px 12px' }}>Die Symbolliste wird mit den ersten aufbereiteten mab-Sitzungen angelegt.</div>
               : <div style={{ display: 'flex', flexDirection: 'column' }}>{SYMBOLE.map((y) => <div key={y.zeichen} style={{ display: 'grid', gridTemplateColumns: '5.5em minmax(0, 1fr)', gap: 10, padding: '7px 0', borderTop: '1px solid #f0f0eb', fontSize: 13 }}><b style={{ fontSize: 16, color: f[0] }} dangerouslySetInnerHTML={{ __html: y.latex ? mdInline('$' + y.latex + '$') : mdInline(y.zeichen) }} /><span><span dangerouslySetInnerHTML={{ __html: mdInline(y.bedeutung) }} />{y.gelesen ? <span style={{ color: 'var(--ink-3)' }}> · gelesen: {y.gelesen}</span> : null}</span></div>)}</div>}</>}
             <div style={{ display: 'flex', justifyContent: 'flex-end' }}><button type="button" onClick={() => setGlossar(null)} style={klein}>Schließen</button></div>

@@ -4,7 +4,9 @@
 export interface LZiel { text: string; art: string; quelle?: string; fragen: string[]; erklaerung_abschnitt?: string }
 export interface LAbschnitt { titel: string; text: string; beispiel?: string; folien?: string }
 export interface LDef { begriff: string; wortlaut: string; erklaerung: string; folie?: string }
-export interface LAufgabe { id: string; art: string; text: string; quelle: string; loesung: string; loesungsweg: string; frist?: string }
+export interface LAufgabe { id: string; art: string; text: string; quelle: string; loesung: string; loesungsweg: string; frist?: string;
+  /** Hausaufgaben: Zielsitzung als „<teilmodul>_<JJJJ-MM-TT>“, verknüpfter Kalendereintrag (id aus Supabase) und PDF unter public/ (z. B. /dateien/pkb003/…pdf) */
+  fuer_sitzung?: string; kalender_id?: string; pdf?: string; titel?: string }
 export interface LFrage {
   id: string; baustein: string; format: 'frage' | 'mc' | 'luecke' | 'zuordnung' | 'offen'; niveau: string; schwierigkeit: number;
   frage?: string; antwort?: string; optionen?: string[]; richtig?: number[]; text?: string;
@@ -43,6 +45,8 @@ for (const [pfad, inhalt] of Object.entries(DATEIEN)) {
 export function inhaltZu(sid: string, teil: string, datum: string): LSitzung | null {
   return SITZUNGEN.find((s) => s.sitzung_id && s.sitzung_id === sid) ?? SITZUNGEN.find((s) => s.teilmodul === teil && s.datum === datum) ?? null;
 }
+/** Alle Sitzungsdateien (z. B. für Hausaufgaben-Verknüpfungen). */
+export const alleSitzungen = () => SITZUNGEN;
 export const sitzungenVon = (modul: string) => SITZUNGEN.filter((s) => s.modul === modul).sort((a, b) => (a.datum + a.teilmodul).localeCompare(b.datum + b.teilmodul));
 export const glossarVon = (modul: string) => GLOSSARE[modul]?.eintraege ?? [];
 export const symboleVon = (modul: string) => SYMBOLE.filter((s) => s.module.includes(modul));

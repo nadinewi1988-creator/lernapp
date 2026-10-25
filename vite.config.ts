@@ -36,7 +36,9 @@ export default defineConfig({
         cleanupOutdatedCaches: true,
         // Unbekannte Pfade auf die App-Hülle zurückfallen lassen, statt den
         // Ladevorgang scheitern zu lassen.
-        navigateFallback: 'index.html'
+        navigateFallback: 'index.html',
+        // PDFs (Hausaufgaben, Lesefassungen) unter /dateien/ direkt laden, nicht auf die App-Hülle umleiten.
+        navigateFallbackDenylist: [/^\/dateien\//]
       }
     })
   ]

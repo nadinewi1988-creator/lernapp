@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
 import type { Studienstand, Sitzung, KEintrag } from '../db';
 import { aendereSitzung, speichereEintrag, loescheEintrag } from '../db';
 import { kartenOeffnen } from './Karten';
+import { hausaufgabeZuEintrag, HausaufgabeKasten } from '../Hausaufgabe';
 import { useKlapp } from '../klapp';
 import { auswerten, heuteIso } from '../pruefungslogik';
 import { WOCHEN, FEIERTAGE, FERIEN, UNI, MODUL_NAMEN, parseIso, plusTage, isoVon } from '../data/kalender';
@@ -485,6 +486,7 @@ export function Kalender({ stand, neuLaden }: Props) {
         <div className="dialog-hg" onClick={(ev) => { if (ev.target === ev.currentTarget) setEintrag(null); }}>
           <div role="dialog" aria-label="Eintrag" className="dialog" style={{ maxWidth: 460 }}>
             <h2>{x.id ? 'Eintrag bearbeiten' : 'Neuer Eintrag'}</h2>
+            {(() => { const ha = hausaufgabeZuEintrag(x.id); return ha ? <HausaufgabeKasten ha={ha} farbe={farbe(ha.s.teilmodul.split('.')[0])[0]} titel="Hausaufgabe – Inhalt" /> : null; })()}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 10 }}>
               <label style={{ ...label, gridColumn: '1 / -1' }}>Titel<input type="text" value={x.titel} onChange={(ev) => set({ titel: ev.target.value })} placeholder="z. B. Übungsblatt 2 bearbeiten" style={feld} autoFocus /></label>
               <label style={label}>Art

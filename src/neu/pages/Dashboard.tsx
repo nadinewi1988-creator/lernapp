@@ -6,6 +6,7 @@ import { useKlapp } from '../klapp';
 import { anwesenheitVon, AnwBalken } from './Statistik';
 import { lernStandVon } from './Module';
 import { sitzungenVon as inhalteVon } from '../lerninhalte';
+import { hausaufgabeZuEintrag, HausaufgabeFenster, type HA } from '../Hausaufgabe';
 import { auswerten, heuteIso, noteText, nachFach, BEREICH_ZIEL } from '../pruefungslogik';
 import { WOCHEN, FEIERTAGE, FERIEN, parseIso, plusTage } from '../data/kalender';
 
@@ -34,6 +35,7 @@ export function Dashboard({ stand, neuLaden }: Props) {
   const [lokalE, setLokalE] = useState<Record<string, boolean>>({});
   const [nhModul, setNhModul] = useState<string | null>(null);
   const [nhZeigeErl, setNhZeigeErl] = useKlapp('db-nh-erledigt', false);
+  const [haDlg, setHaDlg] = useState<HA | null>(null);
   const [ed, setEd] = useState<null | { titel: string; art: string; mod: string; datum: string; zeit: string; bis: string; notiz: string; ganztag: boolean; bisDatum: string; wdh: string; tage: number[]; wdhBis: string; fehler?: string }>(null);
   const [fehler, setFehler] = useState('');
   async function los(f: () => Promise<void>) { setFehler(''); try { await f(); await neuLaden(); } catch (e) { setFehler('Speichern hat nicht geklappt: ' + String((e as Error).message || e)); } }
@@ -190,6 +192,7 @@ export function Dashboard({ stand, neuLaden }: Props) {
         <span style={{ display: 'flex', gap: 6, alignItems: 'center', fontSize: klein ? 11 : 12, color: 'var(--ink-3)', flexWrap: 'wrap' }}>
           <span style={{ padding: klein ? '0 6px' : '1px 8px', borderRadius: 999, fontWeight: 700, background: tg[0], color: tg[1] }}>{x.tag}</span>
           {x.datum}{x.modul && <> · <b style={{ color: f[0] }}>{x.modul}</b></>}
+          {(() => { const ha = hausaufgabeZuEintrag(x.id); return ha ? <button type="button" onClick={(ev) => { ev.preventDefault(); ev.stopPropagation(); setHaDlg(ha); }} style={{ border: 0, background: 'none', padding: 0, fontSize: klein ? 11 : 12, fontWeight: 800, color: '#8a5a12', textDecoration: 'underline', textUnderlineOffset: 3, cursor: 'pointer' }}>Hausaufgabe öffnen →</button> : null; })()}
         </span>
       </span>
     </label>); };
@@ -374,6 +377,7 @@ export function Dashboard({ stand, neuLaden }: Props) {
         </div>
       )}
 
+      {haDlg && <HausaufgabeFenster ha={haDlg} farbe={farbe(haDlg.s.teilmodul.split('.')[0])[0]} zu={() => setHaDlg(null)} />}
       {/* ---------- Dialog Eintrag ---------- */}
       {ed && (() => { const x = ed, pv = x.art === 'privat', set = (p: Partial<typeof x>) => setEd({ ...x, ...p }); return (
         <div className="dialog-hg" onClick={(ev) => { if (ev.target === ev.currentTarget) setEd(null); }} style={{ zIndex: 20 }}>

@@ -8,6 +8,7 @@ import { useKlapp } from '../klapp';
 import { BESCHREIBUNGEN } from '../data/modulbeschreibungen';
 import { inhaltZu, sitzungenVon, glossarVon, symboleVon, frageRef, mdHtml, literaturStatus, literaturStand, literaturAbgeglichen } from '../lerninhalte';
 import { sitzungsFortschritt } from '../lernfortschritt';
+import { hausaufgabenFuer, HausaufgabeKasten } from '../Hausaufgabe';
 import { Lernfragen, type LFEintrag } from './Lernfragen';
 
 const C: Record<string, [string, string]> = { mab004: ['#5f80b5', '#eaf1fc'], mab005: ['#4f8f80', '#e6f5f0'], pkb003: ['#b46b80', '#fbebef'], ewb001: ['#6d9156', '#edf5e5'], ewb002: ['#b5845a', '#fcf0e4'], pyb005: ['#8a77b5', '#f1edfa'] };
@@ -488,6 +489,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
           <div role="dialog" aria-label="Lerntext" className="dialog" style={{ maxWidth: 620, gap: 14 }}>
             <div style={{ fontSize: 13, fontWeight: 800, color: f[0] }}>{lt.kopf}</div>
             <h2 style={{ margin: '-8px 0 0', fontSize: 20 }}>{lt.titel}</h2>
+            {(() => { const xS = SESS.find((q) => q.s.id === lt.sid); return xS ? hausaufgabenFuer(xS.k, xS.s.datum).map((ha) => <HausaufgabeKasten key={ha.s.datei + ha.a.id} ha={ha} farbe={f[0]} titel={'Vorbereitung: Hausaufgabe aus Sitzung ' + ha.s.sitzung_nr} />) : null; })()}
             {(() => { const xS = SESS.find((q) => q.s.id === lt.sid); const LI = xS ? inhaltVon(xS) : null; if (!LI) return <>
             <span style={{ alignSelf: 'flex-start', fontSize: 11, fontWeight: 800, padding: '2px 8px', borderRadius: 999, border: '1px dashed #d8d8d0', background: '#fff', color: '#9a9ea5' }}>noch nicht aufbereitet</span>
               <div style={{ fontSize: 13, color: 'var(--ink-3)', border: '1px dashed #d8d8d0', borderRadius: 10, padding: '8px 10px' }}>Diese Sitzung ist noch nicht aufbereitet – im Modul-Chat mit deinen Unterlagen (Schema in claude/lerninhalte_schema.md). Bis dahin zeigt das Fenster den Aufbau.</div>

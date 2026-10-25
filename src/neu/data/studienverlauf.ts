@@ -137,11 +137,12 @@ export const FAMILIE = [
   { titel: 'Seminarplätze', text: 'Bevorzugte Platzvergabe bei teilnahmebeschränkten Veranstaltungen – nur im kurzen Antragsfenster (August bzw. Februar) und mit Bescheinigung des aktuellen Semesters.', quelle: 'Uni Vechta · Bevorzugte Platzvergabe' },
   { titel: 'Keine Langzeitgebühren', text: 'Für Semester mit einem Kind unter 14 wird kein Studienguthaben verbraucht – nur auf Antrag bis Ende der Rückmeldefrist.', quelle: 'NHG § 12 Abs. 3 Nr. 2, § 13' },
   { titel: 'BAföG', text: '160 € Kinderbetreuungszuschlag pro Kind unter 14 (Zuschuss). Förderungshöchstdauer verlängert sich je nach Alter des Kindes; Leistungsnachweis darf später kommen.', quelle: 'BAföG § 14b, § 15 Abs. 3 Nr. 5, § 48 Abs. 2' },
+  { titel: 'Prüfungsausschuss BA CS', text: 'E-Mail an den Vorsitz: pruefungsausschuss.bacs@uni-vechta.de – immer von der Uni-Mailadresse schreiben und eine Telefonnummer für Rückfragen angeben. Post: Universität Vechta, Driverstraße 22, 49377 Vechta. Der Ausschuss tagt mehrmals pro Semester.', quelle: 'uni-vechta.de › Prüfungen › PA BA CS' },
   { titel: 'Ansprechperson', text: 'Susanne Donnerbauer, Koordination Familiengerechte Hochschule · Tel. 04441 15-682 · susanne.donnerbauer@uni-vechta.de', quelle: 'uni-vechta.de/familiengerechte-hochschule' },
 ];
 export const FAMILIE_ABLAUF = [
   'Bescheinigung „Studium mit Familienverantwortung“ für das Semester beim Immatrikulationsamt beantragen (Formular + Geburtsurkunde + erweiterte Haushaltsbescheinigung) und in HISinOne abrufen.',
-  'Für jede schriftliche Prüfung (z. B. Hausarbeit) die Bescheinigung vor der Prüfungsanmeldung bzw. vor Beginn der Schreibzeit beim Prüfungsausschuss vorlegen und die Verlängerung um 50 % beantragen.',
+  'Für jede schriftliche Prüfung (z. B. Hausarbeit) die Bescheinigung vor der Prüfungsanmeldung bzw. vor Beginn der Schreibzeit beim Prüfungsausschuss vorlegen und die Verlängerung um 50 % beantragen – per E-Mail von der Uni-Adresse an pruefungsausschuss.bacs@uni-vechta.de (mit Telefonnummer, Bescheinigung als Anhang).',
   'Den neuen Abgabetermin schriftlich bestätigen lassen (nicht geregelt, ab wann die Bearbeitungszeit zählt – deshalb immer nachfragen) und in der App auf der Prüfungsseite eintragen.',
   'Fällt etwas kurzfristig aus (Kind krank, Betreuung weg): sofort schriftlich der prüfenden Person melden und einen Nachweis nachreichen.',
   'Vor Semesterende die Bescheinigung für das nächste Semester neu beantragen.',

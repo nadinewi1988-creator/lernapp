@@ -204,7 +204,11 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   return (
     <>
       {fehler && <div className="karte fehler">{fehler}</div>}
-      <button type="button" onClick={() => gehe(semPlan ? 's' + semPlan.fachsemester : '')} style={{ alignSelf: 'flex-start', border: 0, background: 'none', padding: 0, fontSize: 14, fontWeight: 700, color: 'var(--ink-3)', cursor: 'pointer' }}>← Alle Module</button>
+      <div className="mod-schnell" style={{ display: 'flex', alignItems: 'center', gap: 6, flexWrap: 'wrap' }}>
+        <button type="button" onClick={() => gehe(semPlan ? 's' + semPlan.fachsemester : '')} style={{ border: 0, background: 'none', padding: 0, marginRight: 8, fontSize: 14, fontWeight: 700, color: 'var(--ink-3)', cursor: 'pointer', whiteSpace: 'nowrap' }}>← Alle Module</button>
+        {(a.proSemester.find((p) => p.semester.id === semPlan?.id)?.liste ?? []).filter((e) => !e.imUrsprung).map((e) => e.modul.kuerzel).sort((x, y) => nachFach({ kuerzel: x }, { kuerzel: y })).map((k) => { const an = k === kuerzel, fk: [string, string] = istAkt && C[k] ? C[k] : FACH[fachVon(k)]; return (
+          <button key={k} type="button" aria-current={an ? 'page' : undefined} onClick={() => !an && gehe(k, tab)} style={{ minHeight: 30, padding: '0 10px', borderRadius: 999, border: '1.5px solid ' + (an ? fk[0] : 'var(--line)'), background: an ? fk[1] : '#fff', fontSize: 12, fontWeight: 800, color: fk[0], cursor: an ? 'default' : 'pointer' }}>{k}</button>); })}
+      </div>
       <header style={{ background: f[1], borderRadius: 18, padding: 20, display: 'flex', flexWrap: 'wrap', alignItems: 'stretch', gap: '12px 20px' }}>
         <div style={{ flex: '1 1 260px', minWidth: 0, display: 'flex', flexDirection: 'column', gap: 6, alignSelf: 'center' }}>
           <span style={{ display: 'flex', gap: 8, alignItems: 'center', flexWrap: 'wrap', fontSize: 13 }}>

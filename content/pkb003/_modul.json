@@ -558,23 +558,25 @@
       "sitzung": "pkb003.1_2026-10-20"
     },
     {
-      "pfad": "Literatur/Mannewitz-Rudzio_2022_Das-politische-System-der-BRD_Fassung1.pdf",
+      "pfad": "Literatur/Mannewitz-Rudzio_2022_Das-politische-System-der-BRD.pdf",
       "geaendert": "2026-10-20",
       "art": "Zusatzliteratur (genutzt für Sitzungen ohne Kursliteratur)",
       "status": "verarbeitet",
       "sitzung": "pkb003.1_2026-10-20 · pkb003.2_2026-10-12 · pkb003.2_2026-10-19"
     },
     {
-      "pfad": "Literatur/Mannewitz-Rudzio_2022_Das-politische-System-der-BRD_Fassung2.pdf",
+      "pfad": "Literatur/_Doppelt/Mannewitz-Rudzio_2022_Das-politische-System-der-BRD_Fassung2.pdf",
       "geaendert": "2026-10-20",
       "art": "Zusatzliteratur (nicht im Kursplan)",
-      "status": "übersprungen"
+      "status": "übersprungen",
+      "hinweis": "Duplikat (gleicher Text), 25.10.2026 nach _Doppelt verschoben"
     },
     {
-      "pfad": "Literatur/Mannewitz-Rudzio_2022_Das-politische-System-der-BRD_Fassung3.pdf",
+      "pfad": "Literatur/_Doppelt/Mannewitz-Rudzio_2022_Das-politische-System-der-BRD_Fassung3.pdf",
       "geaendert": "2026-10-20",
       "art": "Zusatzliteratur (nicht im Kursplan)",
-      "status": "übersprungen"
+      "status": "übersprungen",
+      "hinweis": "Duplikat (gleicher Text), 25.10.2026 nach _Doppelt verschoben"
     },
     {
       "pfad": "pkb003.2/Zusatz_Schmidt_Sozialpolitik.pdf",
@@ -634,8 +636,8 @@
       "eintrag": "Rudzio (2018): Das politische System der Bundesrepublik Deutschland",
       "vorhanden": true,
       "stand": "2026-10-25",
-      "datei": "Literatur/Mannewitz-Rudzio_2022_Das-politische-System-der-BRD_Fassung1.pdf",
-      "hinweis": "neuere Auflage: Mannewitz/Rudzio, 11. Aufl. 2022 (drei Fassungen im Ordner)"
+      "datei": "Literatur/Mannewitz-Rudzio_2022_Das-politische-System-der-BRD.pdf",
+      "hinweis": "neuere Auflage: Mannewitz/Rudzio, 11. Aufl. 2022"
     },
     {
       "eintrag": "Seibel (2016): Verwaltung verstehen",

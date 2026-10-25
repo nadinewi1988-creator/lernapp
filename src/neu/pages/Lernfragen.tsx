@@ -1,6 +1,7 @@
 import { useMemo, useState, type CSSProperties } from 'react';
 import type { Studienstand } from '../db';
 import { speichereAntwort } from '../db';
+import { gradeAnswer } from '../../lib/api';
 import { heuteIso } from '../pruefungslogik';
 import { plusTage } from '../data/kalender';
 import { frageRef, mdHtml, type LFrage, type LSitzung } from '../lerninhalte';
@@ -26,6 +27,7 @@ export function Lernfragen({ titel, liste, stand, farbe, onClose, neuLaden }: { 
   const [erg, setErg] = useState<null | 'r' | 't' | 'f'>(null);
   const [protokoll, setProtokoll] = useState<('r' | 't' | 'f')[]>([]);
   const [fehler, setFehler] = useState('');
+  const [ki, setKi] = useState<null | { lade: boolean; pct?: number; fb?: string; fehler?: string }>(null);
   const fertig = i >= liste.length;
   const e = liste[i];
 
@@ -46,7 +48,20 @@ export function Lernfragen({ titel, liste, stand, farbe, onClose, neuLaden }: { 
     else if (f.format === 'luecke') { const soll = [...(f.text ?? '').matchAll(/\[\[(.+?)\]\]/g)].map((m) => m[1]); const ok = soll.filter((s, k) => norm(antwort.luecken[k] ?? '') === norm(s)).length; speichern(ok === soll.length ? 'r' : ok > 0 ? 't' : 'f'); }
     else if (f.format === 'zuordnung') { const el = f.elemente ?? []; const ok = el.filter((x, k) => antwort.zuord[k] === x.kategorie).length; speichern(ok === el.length ? 'r' : ok >= el.length / 2 ? 't' : 'f'); }
   }
-  function weiter() { setI(i + 1); setGeprueft(false); setErg(null); setAntwort({ mc: [], luecken: [], zuord: {}, text: '' }); }
+  function weiter() { setI(i + 1); setGeprueft(false); setErg(null); setKi(null); setAntwort({ mc: [], luecken: [], zuord: {}, text: '' }); }
+  // Freitext (Frage → Antwort, offene Aufgabe): mit eigener Antwort bewertet die KI – ab 90 % gewusst, 50–89 % teilweise, darunter nicht gewusst
+  function aufdecken() {
+    setGeprueft(true);
+    const f = e.f, text = antwort.text.trim();
+    if (!text) return;
+    const muster = f.format === 'offen' ? (f.musterloesung ?? '') + ((f.bewertungspunkte ?? []).length ? '\nBewertungspunkte: ' + f.bewertungspunkte!.join('; ') : '') : (f.antwort ?? '');
+    setKi({ lade: true });
+    gradeAnswer(f.frage ?? '', muster, text).then((r) => {
+      const fehl = /^(fehler|bewertung nicht verfügbar|antwort konnte nicht)/i.test(r.fb.trim());
+      setKi(fehl ? { lade: false, fehler: r.fb } : { lade: false, pct: r.pct, fb: r.fb });
+    }).catch((x) => setKi({ lade: false, fehler: String((x as Error).message || x) }));
+  }
+  const kiErg: 'r' | 't' | 'f' | null = ki && !ki.lade && !ki.fehler && ki.pct !== undefined ? (ki.pct >= 90 ? 'r' : ki.pct >= 50 ? 't' : 'f') : null;
   function schliessen() { neuLaden().catch(() => {}); onClose(); }
 
   const anz = { r: protokoll.filter((x) => x === 'r').length, t: protokoll.filter((x) => x === 't').length, f: protokoll.filter((x) => x === 'f').length };
@@ -101,10 +116,15 @@ export function Lernfragen({ titel, liste, stand, farbe, onClose, neuLaden }: { 
               </div>; })}
           </div>}
 
-          {(e.f.format === 'frage' || e.f.format === 'offen') && !geprueft && <textarea value={antwort.text} onChange={(ev) => setAntwort({ ...antwort, text: ev.target.value })} rows={e.f.format === 'offen' ? 5 : 3} placeholder="Deine Antwort (optional) – dann aufdecken und selbst bewerten" style={{ border: '1px solid var(--line)', borderRadius: 12, padding: 10, fontSize: 14, background: 'var(--paper)', color: 'var(--ink)', resize: 'vertical' }} />}
+          {(e.f.format === 'frage' || e.f.format === 'offen') && !geprueft && <textarea value={antwort.text} onChange={(ev) => setAntwort({ ...antwort, text: ev.target.value })} rows={e.f.format === 'offen' ? 5 : 3} placeholder="Deine Antwort (optional) – mit Antwort bewertet die KI, sonst aufdecken und selbst bewerten" style={{ border: '1px solid var(--line)', borderRadius: 12, padding: 10, fontSize: 14, background: 'var(--paper)', color: 'var(--ink)', resize: 'vertical' }} />}
           {(e.f.format === 'frage' || e.f.format === 'offen') && geprueft && <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
             {antwort.text && <div style={{ fontSize: 13, color: 'var(--ink-2)', borderLeft: '3px solid var(--line)', paddingLeft: 10, whiteSpace: 'pre-wrap' }}><b>Deine Antwort:</b> {antwort.text}</div>}
             <div style={{ background: farbe[1], borderRadius: 12, padding: 12, fontSize: 14, lineHeight: 1.5 }}><b>{e.f.format === 'offen' ? 'Musterlösung' : 'Antwort'}:</b> {e.f.format === 'offen' ? e.f.musterloesung : e.f.antwort}</div>
+            {ki && <div style={{ border: '1px solid var(--line)', borderRadius: 12, padding: '10px 12px', display: 'flex', flexDirection: 'column', gap: 4 }}>
+              {ki.lade ? <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>KI prüft deine Antwort …</span>
+                : ki.fehler ? <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>Die KI-Rückmeldung hat gerade nicht geklappt – bitte selbst bewerten. ({ki.fehler.slice(0, 120)})</span>
+                : <><span style={{ display: 'flex', alignItems: 'baseline', gap: 8 }}><b style={{ fontSize: 12, color: 'var(--ink-3)' }}>KI-Rückmeldung</b><span style={{ fontSize: 18, fontWeight: 800, color: ki.pct! >= 90 ? '#2f7a4b' : ki.pct! >= 50 ? '#a3580b' : '#c42b2b' }}>{ki.pct} %</span></span><span style={{ fontSize: 14, lineHeight: 1.45 }}>{ki.fb}</span></>}
+            </div>}
             {e.f.format === 'offen' && (e.f.bewertungspunkte ?? []).length > 0 && <div style={{ fontSize: 13, color: 'var(--ink-2)' }}><b>Darauf kommt es an{e.f.punkte ? ' (' + e.f.punkte + ' Punkte)' : ''}:</b><ul style={{ margin: '4px 0 0', paddingLeft: 18 }}>{e.f.bewertungspunkte!.map((p) => <li key={p}>{p}</li>)}</ul></div>}
           </div>}
 
@@ -113,8 +133,9 @@ export function Lernfragen({ titel, liste, stand, farbe, onClose, neuLaden }: { 
 
           <div style={{ display: 'flex', justifyContent: 'flex-end', gap: 8, flexWrap: 'wrap' }}>
             <button type="button" onClick={schliessen} style={knopf}>Beenden</button>
-            {!geprueft && (e.f.format === 'frage' || e.f.format === 'offen' ? <button type="button" onClick={() => setGeprueft(true)} style={haupt}>Aufdecken</button> : <button type="button" onClick={pruefen} style={haupt}>Prüfen</button>)}
-            {geprueft && !erg && (['r', 't', 'f'] as const).map((k) => <button key={k} type="button" onClick={() => speichern(k)} style={{ ...knopf, background: ERG[k][1], color: ERG[k][2], borderColor: ERG[k][1] }}>{k === 'r' ? 'Gewusst' : k === 't' ? 'Teilweise' : 'Nicht gewusst'}</button>)}
+            {!geprueft && (e.f.format === 'frage' || e.f.format === 'offen' ? <button type="button" onClick={aufdecken} style={haupt}>{antwort.text.trim() ? 'Prüfen' : 'Aufdecken'}</button> : <button type="button" onClick={pruefen} style={haupt}>Prüfen</button>)}
+            {geprueft && !erg && kiErg && <>{kiErg !== 'r' && <button type="button" onClick={() => speichern('r')} style={knopf}>Trotzdem als gewusst zählen</button>}<button type="button" onClick={() => speichern(kiErg)} style={haupt}>Übernehmen: {kiErg === 'r' ? 'Gewusst' : kiErg === 't' ? 'Teilweise' : 'Nicht gewusst'}</button></>}
+            {geprueft && !erg && !kiErg && !ki?.lade && (['r', 't', 'f'] as const).map((k) => <button key={k} type="button" onClick={() => speichern(k)} style={{ ...knopf, background: ERG[k][1], color: ERG[k][2], borderColor: ERG[k][1] }}>{k === 'r' ? 'Gewusst' : k === 't' ? 'Teilweise' : 'Nicht gewusst'}</button>)}
             {erg && <button type="button" onClick={weiter} style={haupt}>{i + 1 < liste.length ? 'Weiter' : 'Auswertung'}</button>}
           </div>
         </>}

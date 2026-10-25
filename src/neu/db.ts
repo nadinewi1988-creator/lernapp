@@ -224,6 +224,9 @@ export async function loescheEintrag(id: string) {
 }
 
 // ---------- Lernen ----------
+export async function setzeGelesen(sitzungId: string) {
+  pruef(await supabase.from('lernstand').upsert({ sitzung_id: sitzungId, gelesen: true }, { onConflict: 'user_id,sitzung_id' }));
+}
 export async function setzeGelernt(sitzungId: string, gelernt: boolean) {
   pruef(await supabase.from('lernstand').upsert({ sitzung_id: sitzungId, gelernt, gelernt_am: gelernt ? new Date().toISOString() : null }, { onConflict: 'user_id,sitzung_id' }));
 }

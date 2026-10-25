@@ -1,12 +1,13 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import type { Studienstand, Sitzung } from '../db';
-import { setzeGelernt, speichereLernzeit, lernzeitZuruecksetzen, antwortenZuruecksetzen } from '../db';
+import { setzeGelesen, setzeGelernt, speichereLernzeit, lernzeitZuruecksetzen, antwortenZuruecksetzen } from '../db';
 import { kartenAus, istFaellig, kartenOeffnen } from './Karten';
 import { auswerten, heuteIso, nachFach, aktuellesSemester, type Eintrag } from '../pruefungslogik';
 import { parseIso, plusTage, entfallGrund } from '../data/kalender';
 import { useKlapp } from '../klapp';
 import { BESCHREIBUNGEN } from '../data/modulbeschreibungen';
 import { inhaltZu, sitzungenVon, glossarVon, symboleVon, frageRef, mdHtml } from '../lerninhalte';
+import { sitzungsFortschritt } from '../lernfortschritt';
 import { Lernfragen, type LFEintrag } from './Lernfragen';
 
 const C: Record<string, [string, string]> = { mab004: ['#5f80b5', '#eaf1fc'], mab005: ['#4f8f80', '#e6f5f0'], pkb003: ['#b46b80', '#fbebef'], ewb001: ['#6d9156', '#edf5e5'], ewb002: ['#b5845a', '#fcf0e4'], pyb005: ['#8a77b5', '#f1edfa'] };
@@ -89,10 +90,10 @@ export function Module({ stand, unter, teil, gehe, neuLaden }: Props) {
 export function lernStandVon(stand: Studienstand, k: string, HEUTE: string) {
   const va = Object.fromEntries(stand.veranstaltungen.map((v) => [v.id, v]));
   const tm = Object.fromEntries(stand.teilmodule.map((t) => [t.id, t]));
-  const gel = new Set(stand.lernstand.filter((l) => l.gelernt).map((l) => l.sitzung_id));
   const basis = stand.sitzungen.filter((s) => { const v = va[s.veranstaltung_id], t = v && tm[v.teilmodul_id]; return t && t.kuerzel.startsWith(k) && t.art !== 'Tutorium' && s.status === 'findet_statt' && s.datum <= HEUTE; });
-  const g = basis.filter((s) => gel.has(s.id)).length;
-  return { gel: g, ges: basis.length, pct: basis.length ? Math.round(g / basis.length * 100) : 0 };
+  const p = basis.map((s) => sitzungsFortschritt(stand, s, tm[va[s.veranstaltung_id].teilmodul_id].kuerzel).pct);
+  const g = p.filter((x) => x >= 100).length;
+  return { gel: g, ges: basis.length, pct: basis.length ? Math.round(p.reduce((x, y) => x + y, 0) / basis.length) : 0 };
 }
 
 function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studienstand; a: ReturnType<typeof auswerten>; kuerzel: string; tab: string; gehe: Props['gehe']; neuLaden: () => Promise<void> }) {
@@ -166,7 +167,9 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
     if (!lt) { flush(); return; }
     const tid = SESS.find((x) => x.s.id === lt.sid)?.tid; if (!tid) return;
     zaehler.current = { sek: zaehler.current?.tid === tid ? zaehler.current.sek : 0, tid };
-    const t = setInterval(() => { if (document.visibilityState !== 'hidden' && Date.now() - aktiv.current < 60000 && zaehler.current) zaehler.current.sek += 5; }, 5000);
+    const x = SESS.find((y) => y.s.id === lt.sid), hatInhalt = !!(x && inhaltZu(x.s.id, x.k, x.s.datum)), schonGelesen = stand.lernstand.some((l) => l.sitzung_id === lt.sid && l.gelesen);
+    let lese = 0, gemeldet = schonGelesen || !hatInhalt;
+    const t = setInterval(() => { if (document.visibilityState !== 'hidden' && Date.now() - aktiv.current < 60000 && zaehler.current) { zaehler.current.sek += 5; lese += 5; if (!gemeldet && lese >= 30) { gemeldet = true; setzeGelesen(lt.sid).catch(() => {}); } } }, 5000);
     const s = setInterval(flush, 60000);
     return () => { clearInterval(t); clearInterval(s); flush(); };
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -352,7 +355,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
           </div>
           {gruppenIds.map((vid) => {
             const arr = ss.filter((x) => x.vid === vid && x.s.status !== 'entfaellt'), x0 = ss.find((x) => x.vid === vid)!;
-            const rows = arr.map((x, i) => ({ x, i, st: status(x), g: gelernt(x.s.id) }));
+            const rows = arr.map((x, i) => { const fp = sitzungsFortschritt(stand, x.s, x.k, x.s.id in lokalGel ? lokalGel[x.s.id] : undefined); return { x, i, st: status(x), g: fp.pct >= 100, fp }; });
             const gel = rows.filter((r) => r.g && r.st !== 'aus').length, statt = rows.filter((r) => r.st !== 'kommt' && r.st !== 'aus').length, nach = rows.filter((r) => r.st === 'weg' && !r.g).length;
             const gef = rows.filter((r) => lernFilter === 'alle' || (lernFilter === 'nach' ? r.st === 'weg' && !r.g : !r.g && r.st !== 'kommt'));
             const verg = gef.filter((r) => r.st !== 'kommt'), zuk = gef.filter((r) => r.st === 'kommt'), zeigeZ = !!lernZukunft[vid], offen = lernOffen[vid] ?? false;
@@ -364,7 +367,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                   <b style={{ color: f[0], fontSize: 13 }}>{x0.k}</b>
                   <span style={{ fontSize: 14, fontWeight: 800, flex: '1 1 160px', minWidth: 0 }}>{x0.art === 'Tutorium' ? 'Tutorium (freiwillig)' : x0.titel.replace(/ \(Gruppe [A-Z0-9]+\)/, '')}</span>
                   {nach > 0 && <span style={{ fontSize: 11, fontWeight: 800, padding: '2px 8px', borderRadius: 999, background: '#fcecee', color: '#b4475a' }}>{nach} nachholen</span>}
-                  <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{gel} von {statt} gelernt{statt ? ' · ' + Math.round(gel / statt * 100) + ' %' : ''}</span>
+                  <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{gel} von {statt} gelernt{statt ? ' · ' + Math.round(rows.filter((r) => r.st !== 'kommt' && r.st !== 'aus').reduce((x, r) => x + r.fp.pct, 0) / statt) + ' %' : ''}</span>
                 </button>
                 {offen && <div style={{ display: 'flex', flexDirection: 'column', padding: '0 14px 6px' }}>
                   {liste.map((r) => { const t = r.g ? ['gelernt', '#e3f2e8', '#2f7a4b'] : r.st === 'aus' ? ['ausgefallen', '#f0f0eb', '#6b6f76'] : r.st === 'weg' ? ['nachholen', '#fcecee', '#b4475a'] : r.st === 'kommt' ? ['kommt', '#f7f7f4', '#9a9ea5'] : ['offen', '#f0f0eb', '#6b6f76'];
@@ -376,8 +379,8 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                           <span style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
                             <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{fmtD(r.x.s.datum)}</span>
                             {inhaltVon(r.x) ? <span style={{ fontSize: 10, fontWeight: 800, padding: '1px 6px', borderRadius: 999, background: f[1], color: f[0] }}>aufbereitet · {inhaltVon(r.x)!.fragen.length} Fragen</span> : r.st !== 'kommt' && <span style={{ fontSize: 10, fontWeight: 800, padding: '1px 6px', borderRadius: 999, border: '1px dashed #d8d8d0', background: '#fff', color: '#9a9ea5' }}>noch nicht aufbereitet</span>}
-                            <span style={{ width: 64, height: 5, borderRadius: 3, background: '#f0f0eb', overflow: 'hidden', visibility: r.st === 'kommt' ? 'hidden' : 'visible' }}><span style={{ display: 'block', height: '100%', width: (r.g ? 100 : 0) + '%', background: f[0] }} /></span>
-                            <span style={{ fontSize: 11, color: 'var(--ink-3)' }}>{r.st === 'kommt' ? 'noch keine Inhalte' : r.g ? '100 %' : '0 %'}</span>
+                            <span style={{ width: 64, height: 5, borderRadius: 3, background: '#f0f0eb', overflow: 'hidden', visibility: r.st === 'kommt' ? 'hidden' : 'visible' }}><span style={{ display: 'block', height: '100%', width: r.fp.pct + '%', background: f[0] }} /></span>
+                            <span style={{ fontSize: 11, color: 'var(--ink-3)' }}>{r.st === 'kommt' ? 'noch keine Inhalte' : r.fp.pct + ' %' + (r.fp.fragen ? ' · ' + r.fp.sicher + '/' + r.fp.fragen + ' Fragen sicher' : '')}</span>
                           </span>
                         </span>
                         <span style={{ fontSize: 11, fontWeight: 800, padding: '2px 8px', borderRadius: 999, background: t[1], color: t[2], whiteSpace: 'nowrap' }}>{t[0]}</span>

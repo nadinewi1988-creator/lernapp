@@ -195,7 +195,7 @@ export function Dashboard({ stand, neuLaden }: Props) {
     </label>); };
   const NachholKnoepfe = ({ klein }: { klein?: boolean }) => (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: 6 }}>
-      {Object.keys(NH).map((k) => { const f = farbe(k), l = NH[k]; return <button key={k} type="button" onClick={() => { setNhModul(k); setNhZeigeErl(false); }} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', minHeight: 32, padding: klein ? '6px 8px' : '5px 8px', border: 0, borderRadius: 10, background: f[1], fontSize: 12, cursor: 'pointer' }}><b style={{ color: f[0] }}>{k}</b><span style={{ color: 'var(--ink-2)' }}>{l.filter((n) => n.s.nachgearbeitet).length}/{l.length}</span></button>; })}
+      {Object.keys(NH).map((k) => { const f = farbe(k), l = NH[k]; return <button key={k} type="button" onClick={() => { setNhModul(k); setNhZeigeErl(false); }} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 6, minHeight: 32, padding: klein ? '6px 8px' : '5px 8px', border: 0, borderRadius: 10, background: f[1], fontSize: 12, cursor: 'pointer' }}><b style={{ color: f[0] }}>{k}</b><span style={{ color: 'var(--ink-2)' }}>{l.filter((n) => n.s.nachgearbeitet).length}/{l.length}</span></button>; })}
     </div>);
   const nhBreite = (nhGes ? Math.round(nhErl / nhGes * 100) : 0) + '%';
   const klText = { faellig: faeK.length ? faeK.length + (faeK.length === 1 ? ' Karte heute fällig' : ' Karten heute fällig') : 'Heute keine Karten fällig', zeit: 'Lernzeit diese Woche: ' + fmtZeit(lzGes) + ' · heute ' + fmtZeit(lzHeute) };

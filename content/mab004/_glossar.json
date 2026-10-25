@@ -11,8 +11,8 @@
     },
     {
       "begriff": "Stellenwertsystem",
-      "wortlaut": "Stellenwertsysteme (Beispiel: 1 + 1 = 2, 4 + 6 = 10 bzw. 1 + 1 = 10, 4 + 6 = 12)",
-      "erklaerung": "Der Wert einer Ziffer hängt von ihrer Stelle ab. Die Basis gibt an, wann eine Stelle ‚voll‘ ist und übertragen wird: Basis 10 → 4 + 6 = 10; Basis 2 → 1 + 1 = 10; Basis 8 → 4 + 6 = 12. Beispiele: Babylonier (Basis 60, ohne Null), indisches Dezimalsystem (mit Null). Ergänzung zur Basis (nicht ausdrücklich auf der Folie).",
+      "wortlaut": "Stellenwertsysteme (Beispiel: $1 + 1 = 2$, $4 + 6 = 10$ bzw. $1 + 1 = 10$, $4 + 6 = 12$)",
+      "erklaerung": "Der Wert einer Ziffer hängt von ihrer Stelle ab. Die Basis gibt an, wann eine Stelle ‚voll‘ ist und übertragen wird: Basis 10 → $4 + 6 = 10$; Basis 2 → $1 + 1 = 10$; Basis 8 → $4 + 6 = 12$. Beispiele: Babylonier (Basis 60, ohne Null), indisches Dezimalsystem (mit Null). Ergänzung zur Basis (nicht ausdrücklich auf der Folie).",
       "quelle": "mab004.1_2026-10-13 · Folie 20–23",
       "abweichungen": []
     },
@@ -25,14 +25,14 @@
     },
     {
       "begriff": "UND (Konjunktion)",
-      "wortlaut": "AND (Konjunktion), Gatterzeichen &; Wahrheitstafel: 0 0 → 0 · 0 1 → 0 · 1 0 → 0 · 1 1 → 1",
+      "wortlaut": "AND (Konjunktion), Gatterzeichen &; Wahrheitstafel: 0 0 → 0 | 0 1 → 0 | 1 0 → 0 | 1 1 → 1",
       "erklaerung": "Der Ausgang ist nur 1, wenn alle Eingänge 1 sind. Als Schaltung: zwei Schalter hintereinander (Reihenschaltung) – Strom fließt nur, wenn beide geschlossen sind.",
       "quelle": "mab004.1_2026-10-13 · Folie 34",
       "abweichungen": []
     },
     {
       "begriff": "ODER (Disjunktion)",
-      "wortlaut": "OR (Disjunktion), Gatterzeichen ≥1; Wahrheitstafel: 0 0 → 0 · 0 1 → 1 · 1 0 → 1 · 1 1 → 1",
+      "wortlaut": "OR (Disjunktion), Gatterzeichen $\\ge 1$; Wahrheitstafel: 0 0 → 0 | 0 1 → 1 | 1 0 → 1 | 1 1 → 1",
       "erklaerung": "Der Ausgang ist 1, sobald mindestens ein Eingang 1 ist. Als Schaltung: zwei Schalter nebeneinander (Parallelschaltung).",
       "quelle": "mab004.1_2026-10-13 · Folie 34",
       "abweichungen": []
@@ -103,42 +103,42 @@
     {
       "begriff": "Ersetzungsregeln H1, H2, T1, T2, T3",
       "wortlaut": "H1: Zwei Rechenpfennige, die in einem Zwischenraum liegen, können weggenommen werden. Dafür wird dann ein Rechenpfennig auf die nächsthöhere Linie gelegt. H2: Fünf Rechenpfennige, die auf einer Linie liegen, können weggenommen werden. Dafür wird dann ein Rechenpfennig in den nächsthöheren Zwischenraum gelegt. T1: Ein Rechenpfennig, der auf einer Linie liegt, kann weggenommen werden. Dafür werden dann zwei Rechenpfennige in den nächsttieferen Zwischenraum gelegt. T2: Ein Rechenpfennig, der in einem Zwischenraum liegt, kann weggenommen werden. Dafür werden dann fünf Rechenpfennige auf die nächsttiefere Linie gelegt. T3: Ein Rechenpfennig, der auf einer Linie liegt, kann weggenommen werden. Dafür werden dann ein Rechenpfennig in den nächsttieferen Zwischenraum und fünf Rechenpfennige auf die nächsttiefere Linie gelegt.",
-      "erklaerung": "Merkhilfe: 2 × 5 = 10 (H1: zwei Fünfer → ein Zehner), 5 × 1 = 5 (H2: fünf Einer → ein Fünfer). T1 und T2 sind die Umkehrungen, T3 (aus Ries’ 2. Rechenbuch, fürs Subtrahieren) zerlegt 10 in 5 + 5 · 1.",
+      "erklaerung": "Merkhilfe: $2 \\times 5 = 10$ (H1: zwei Fünfer → ein Zehner), $5 \\times 1 = 5$ (H2: fünf Einer → ein Fünfer). T1 und T2 sind die Umkehrungen, T3 (aus Ries’ 2. Rechenbuch, fürs Subtrahieren) zerlegt 10 in $5 + 5 \\cdot 1$.",
       "quelle": "mab004.2_2026-10-13 · Fothe S. 4 (Tabelle 1), S. 9 (Tabelle 2)",
       "abweichungen": []
     },
     {
       "begriff": "Absoluter Fehler",
-      "wortlaut": "Definition 2.1. Sei a ∈ ℝ ∖ {0} und b ∈ ℝ eine Näherung von a, also b ≈ a. Dann heißt der Abstand ε_A(b; a) := |b − a| absoluter Fehler der Näherung b bezüglich a.",
-      "erklaerung": "Wie weit liegt die Näherung vom echten Wert weg – egal in welche Richtung. Beispiel: 0,67 für 2/3 → |0,67 − 2/3| = 1/300.",
+      "wortlaut": "Definition 2.1. Sei $a \\in \\mathbb{R} \\setminus \\{0\\}$ und $b \\in \\mathbb{R}$ eine Näherung von $a$, also $b \\approx a$. Dann heißt der Abstand $\\epsilon_A(b; a) := |b - a|$ absoluter Fehler der Näherung $b$ bezüglich $a$.",
+      "erklaerung": "Wie weit liegt die Näherung vom echten Wert weg – egal in welche Richtung. Beispiel: 0,67 für $\\frac{2}{3}$ → $|0{,}67 - \\frac{2}{3}| = \\frac{1}{300}$.",
       "quelle": "mab004.1_2026-10-20 · Folie 16",
       "abweichungen": []
     },
     {
       "begriff": "Relativer Fehler",
-      "wortlaut": "Definition 2.1. […] Und ε_R(b; a) := |b − a| / |a| heißt relativer Fehler der Näherung b bezüglich a.",
-      "erklaerung": "Der absolute Fehler im Verhältnis zur Größe des echten Werts. Damit kann man Näherungen verschieden großer Zahlen vergleichen: 0,67 für 2/3 hat ε_R = 0,005, 0,07 für 1/15 hat ε_R = 0,05 – obwohl beide den gleichen absoluten Fehler 1/300 haben.",
+      "wortlaut": "Definition 2.1. […] Und $\\epsilon_R(b; a) := \\frac{|b - a|}{|a|}$ heißt relativer Fehler der Näherung $b$ bezüglich $a$.",
+      "erklaerung": "Der absolute Fehler im Verhältnis zur Größe des echten Werts. Damit kann man Näherungen verschieden großer Zahlen vergleichen: 0,67 für $\\frac{2}{3}$ hat $\\epsilon_R = 0{,}005$, 0,07 für $\\frac{1}{15}$ hat $\\epsilon_R = 0{,}05$ – obwohl beide den gleichen absoluten Fehler $\\frac{1}{300}$ haben.",
       "quelle": "mab004.1_2026-10-20 · Folie 16–20",
       "abweichungen": []
     },
     {
       "begriff": "Gerundete Werte (auf-, ab-, kaufmännisch gerundet)",
-      "wortlaut": "Definition 2.2. Sei a eine positive reelle Zahl. Sei a₀ ∈ ℕ der Ganzzahlanteil von a und sei (a_j)_{j=1}^∞, a_j ∈ {0,1,…,9} für j ∈ ℕ die Folge der Nachkommastellen in der Dezimaldarstellung von a ≙ a₀,a₁a₂a₃a₄… So heißt b der aufgerundete Wert b = ⌈a⌉, falls gilt b = a₀ + 1, der abgerundete Wert b = ⌊a⌋, falls gilt b = a₀. b = [a] ist der (kaufmännisch) gerundete Wert von a, falls b = a₀, wenn a₁ < 5 sonst b = a₀ + 1.",
-      "erklaerung": "Aufrunden: Ganzzahlanteil + 1. Abrunden: Nachkommastellen weglassen. Kaufmännisch: auf die erste Nachkommastelle schauen – unter 5 abrunden, ab 5 aufrunden. Beispiel 54,93773: ⌈a⌉ = 55, ⌊a⌋ = 54, [a] = 55.",
+      "wortlaut": "Definition 2.2. Sei $a$ eine positive reelle Zahl. Sei $a_0 \\in \\mathbb{N}$ der Ganzzahlanteil von $a$ und sei $(a_j)_{j=1}^{\\infty}$, $a_j \\in \\{0, 1, \\ldots, 9\\}$ für $j \\in \\mathbb{N}$ die Folge der Nachkommastellen in der Dezimaldarstellung von $a \\mathrel{\\widehat{=}} a_0{,}a_1a_2a_3a_4\\ldots$ So heißt $b$ der aufgerundete Wert $b = \\lceil a \\rceil$, falls gilt $b = a_0 + 1$, der abgerundete Wert $b = \\lfloor a \\rfloor$, falls gilt $b = a_0$. $b = [a]$ ist der (kaufmännisch) gerundete Wert von $a$, falls $b = a_0$, wenn $a_1 < 5$ sonst $b = a_0 + 1$.",
+      "erklaerung": "Aufrunden: Ganzzahlanteil + 1. Abrunden: Nachkommastellen weglassen. Kaufmännisch: auf die erste Nachkommastelle schauen – unter 5 abrunden, ab 5 aufrunden. Beispiel 54,93773: $\\lceil a\\rceil = 55$, $\\lfloor a\\rfloor = 54$, $[a] = 55$.",
       "quelle": "mab004.1_2026-10-20 · Folie 21–22",
       "abweichungen": []
     },
     {
-      "begriff": "Runden auf k Nachkommastellen",
-      "wortlaut": "Definition 2.3. […] Genau dann heißt b der auf k, k ∈ ℕ Stellen nach dem Komma (kaufmännisch) gerundete Wert von a, falls gilt b · 10^k = [a · 10^k]. Wir schreiben dann auch [a]_k = b.",
-      "erklaerung": "Komma um k Stellen nach rechts schieben, kaufmännisch auf eine ganze Zahl runden, Komma zurückschieben. Beispiel: [23,23456789]₅ → 2323456,789 → 2323457 → 23,23457.",
+      "begriff": "Runden auf $k$ Nachkommastellen",
+      "wortlaut": "Definition 2.3. […] Genau dann heißt $b$ der auf $k$, $k \\in \\mathbb{N}$ Stellen nach dem Komma (kaufmännisch) gerundete Wert von $a$, falls gilt $b \\cdot 10^k = [a \\cdot 10^k]$. Wir schreiben dann auch $[a]_k = b$.",
+      "erklaerung": "Komma um $k$ Stellen nach rechts schieben, kaufmännisch auf eine ganze Zahl runden, Komma zurückschieben. Beispiel: $[23{,}23456789]_5$ → 2323456,789 → 2323457 → 23,23457.",
       "quelle": "mab004.1_2026-10-20 · Folie 28–29",
       "abweichungen": []
     },
     {
       "begriff": "Fließkommazahl",
-      "wortlaut": "Definition 2.4. (Fließkommazahl) Eine Fließkommazahl f zur Basis g ∈ ℕ mit Mantissenlänge l ∈ ℕ und Exponentenschranke u ∈ ℕ hat die Gestalt f = m · g^e. Dabei ist m ∈ ℝ die Mantisse und e ∈ ℤ der Exponent der Fließkommazahl und es gilt 1. 1,0 ≤ m < g, 2. m hat maximal l Stellen und 3. e < u. ℱ_g(l, u) sei die Menge aller Fließkommazahlen zur Basis g mit Mantissenlänge l und Exponentenschranke u.",
-      "erklaerung": "So speichern Rechner Zahlen: eine Mantisse mit genau einer Stelle vor dem Komma (nicht 0) mal Basis hoch Exponent. Beispiel: 6658,832 = 6,658832 · 10³ ∈ ℱ₁₀(7, 12). In den Beispielen der Vorlesung wird der Betrag des Exponenten begrenzt (|e| < u).",
+      "wortlaut": "Definition 2.4. (Fließkommazahl) Eine Fließkommazahl $f$ zur Basis $g \\in \\mathbb{N}$ mit Mantissenlänge $l \\in \\mathbb{N}$ und Exponentenschranke $u \\in \\mathbb{N}$ hat die Gestalt $f = m \\cdot g^e$. Dabei ist $m \\in \\mathbb{R}$ die Mantisse und $e \\in \\mathbb{Z}$ der Exponent der Fließkommazahl und es gilt 1. $1{,}0 \\le |m| < g$, 2. $m$ hat maximal $l$ Stellen und 3. $|e| < u$. $\\mathcal{F}_g(l, u)$ sei die Menge aller Fließkommazahlen zur Basis $g$ mit Mantissenlänge $l$ und Exponentenschranke $u$.",
+      "erklaerung": "So speichern Rechner Zahlen: eine Mantisse mit genau einer Stelle vor dem Komma (nicht $0$) mal Basis hoch Exponent. Beispiel: $6658{,}832 = 6{,}658832 \\cdot 10^3 \\in \\mathcal{F}_{10}(7, 12)$. Bedingung 3 begrenzt den **Betrag** des Exponenten: $|e| < u$, also $-u < e < u$.",
       "quelle": "mab004.1_2026-10-20 · Folie 34–37",
       "abweichungen": []
     },
@@ -159,7 +159,7 @@
     {
       "begriff": "Definition (mathematisch)",
       "wortlaut": "Ergänzung (nicht aus dem Material): Eine Definition legt fest, was ein Begriff bedeutet.",
-      "erklaerung": "Eine Vereinbarung – sie ist weder wahr noch falsch und wird nicht bewiesen. Typisch: „… heißt …“, „… ist ein …, das …“, a² := a · a. Beispiel: Ein Parallelogramm ist ein Viereck, in dem gegenüberliegende Seiten zueinander parallel sind.",
+      "erklaerung": "Eine Vereinbarung – sie ist weder wahr noch falsch und wird nicht bewiesen. Typisch: „… heißt …“, „… ist ein …, das …“, $a^2 := a \\cdot a$. Beispiel: Ein Parallelogramm ist ein Viereck, in dem gegenüberliegende Seiten zueinander parallel sind.",
       "quelle": "mab004.2_2026-10-20 · Blatt 2, Grundlagenaufgabe 1",
       "abweichungen": []
     },
@@ -172,57 +172,57 @@
     },
     {
       "begriff": "Potenzgesetze",
-      "wortlaut": "Ergänzung (nicht aus dem Material): aᵐ · aⁿ = aᵐ⁺ⁿ · aᵐ : aⁿ = aᵐ⁻ⁿ · (aᵐ)ⁿ = aᵐ·ⁿ · (a · b)ⁿ = aⁿ · bⁿ · a⁰ = 1 · a⁻ⁿ = 1/aⁿ · a^(1/n) = ⁿ√a (a, b ≠ 0)",
-      "erklaerung": "Rechenregeln für Potenzen. Häufige Fehler: 10⁰ = 0 (richtig: 1), 100^½ = 50 (richtig: 10), 3 · 2² = 6² (richtig: 12).",
+      "wortlaut": "Ergänzung (nicht aus dem Material): P1 $a^m \\cdot a^n = a^{m+n}$; P2 $\\frac{a^m}{a^n} = a^{m-n}$; P3 $(a^m)^n = a^{m \\cdot n}$; P4 $(a \\cdot b)^n = a^n \\cdot b^n$; P5 $a^0 = 1$; P6 $a^{-n} = \\frac{1}{a^n}$; P7 $a^{\\frac{1}{n}} = \\sqrt[n]{a}$ (für $a, b \\neq 0$, bei P7 $a > 0$)",
+      "erklaerung": "Rechenregeln für Potenzen. Häufige Fehler: $10^0 = 0$ (richtig: 1), $100^{\\frac{1}{2}} = 50$ (richtig: 10), $3 \\cdot 2^2 = 6^2$ (richtig: 12).",
       "quelle": "mab004.2_2026-10-20 · Blatt 2, Grundlagenaufgabe 2",
       "abweichungen": []
     },
     {
       "begriff": "Rechenstab",
-      "wortlaut": "Beim abgebildeten Rechenstab kann unter dem Strich des Läufers auf der Skala D das Ergebnis der Multiplikation 1,3 · 3,5, nämlich 4,55, abgelesen werden. (Schulbuch, Ausstellung.JPG)",
+      "wortlaut": "Beim abgebildeten Rechenstab kann unter dem Strich des Läufers auf der Skala D das Ergebnis der Multiplikation $1{,}3 \\cdot 3{,}5$, nämlich 4,55, abgelesen werden. (Schulbuch, Ausstellung.JPG)",
       "erklaerung": "Analoges Rechengerät mit verschiebbaren Skalen; wurde an Schulen in den letzten Jahrzehnten des 20. Jahrhunderts vom Taschenrechner abgelöst.",
       "quelle": "mab004.2_2026-10-20 · Ausstellung.JPG",
       "abweichungen": []
     },
     {
       "begriff": "Kommutativgesetz",
-      "wortlaut": "Ergänzung (nicht aus dem Material): a + b = b + a und a · b = b · a",
-      "erklaerung": "Bei Addition und Multiplikation darf man die Reihenfolge der Zahlen vertauschen. Beispiel: 345 + 78 + 55 = 345 + 55 + 78.",
+      "wortlaut": "Ergänzung (nicht aus dem Material): $a + b = b + a$ und $a \\cdot b = b \\cdot a$",
+      "erklaerung": "Bei Addition und Multiplikation darf man die Reihenfolge der Zahlen vertauschen. Beispiel: $345 + 78 + 55 = 345 + 55 + 78$.",
       "quelle": "mab004.2_2026-10-27 · Blatt 3, Ü1–Ü3",
       "abweichungen": []
     },
     {
       "begriff": "Assoziativgesetz",
       "wortlaut": "Ergänzung (nicht aus dem Material): (a + b) + c = a + (b + c) und (a · b) · c = a · (b · c)",
-      "erklaerung": "Bei reiner Addition bzw. reiner Multiplikation darf man beliebig Klammern setzen. Beispiel: 37 · 25 · 4 = 37 · (25 · 4) = 3700. Am Taschenrechner gilt es wegen Rundung nur eingeschränkt.",
+      "erklaerung": "Bei reiner Addition bzw. reiner Multiplikation darf man beliebig Klammern setzen. Beispiel: $37 \\cdot 25 \\cdot 4 = 37 \\cdot (25 \\cdot 4) = 3700$. Am Taschenrechner gilt es wegen Rundung nur eingeschränkt.",
       "quelle": "mab004.2_2026-10-27 · Blatt 3, Ü1–Ü3",
       "abweichungen": []
     },
     {
       "begriff": "Distributivgesetz",
       "wortlaut": "Ergänzung (nicht aus dem Material): a · (b + c) = a · b + a · c",
-      "erklaerung": "Ein Faktor kann ausgeklammert bzw. ausmultipliziert werden. Beispiel: 3 · 89 + 89 · 7 = 89 · (3 + 7) = 890; 98 · 15 = (100 − 2) · 15 = 1470.",
+      "erklaerung": "Ein Faktor kann ausgeklammert bzw. ausmultipliziert werden. Beispiel: $3 \\cdot 89 + 89 \\cdot 7 = 89 \\cdot (3 + 7) = 890$; $98 \\cdot 15 = (100 - 2) \\cdot 15 = 1470$.",
       "quelle": "mab004.2_2026-10-27 · Blatt 3, Ü2–Ü3",
       "abweichungen": []
     },
     {
       "begriff": "Neutrales Element",
-      "wortlaut": "Ergänzung (nicht aus dem Material): 0 ist neutral bezüglich der Addition (a + 0 = a), 1 ist neutral bezüglich der Multiplikation (a · 1 = a).",
-      "erklaerung": "Das neutrale Element ändert eine Zahl nicht. Beispiel: 9876 · (5 − 4) = 9876 · 1 = 9876.",
+      "wortlaut": "Ergänzung (nicht aus dem Material): 0 ist neutral bezüglich der Addition $(a + 0 = a)$, 1 ist neutral bezüglich der Multiplikation $(a \\cdot 1 = a)$.",
+      "erklaerung": "Das neutrale Element ändert eine Zahl nicht. Beispiel: $9876 \\cdot (5 - 4) = 9876 \\cdot 1 = 9876$.",
       "quelle": "mab004.2_2026-10-27 · Blatt 3, Ü3",
       "abweichungen": []
     },
     {
       "begriff": "Inverses Element",
-      "wortlaut": "Ergänzung (nicht aus dem Material): −a ist invers zu a bezüglich der Addition (a + (−a) = 0), 1/a ist invers zu a ≠ 0 bezüglich der Multiplikation (a · 1/a = 1).",
-      "erklaerung": "Zusammen mit dem Inversen ergibt sich das neutrale Element. Beispiel: 8765 · 12 · 1/8765 = 12.",
+      "wortlaut": "Ergänzung (nicht aus dem Material): $-a$ ist invers zu $a$ bezüglich der Addition $(a + (-a) = 0)$, $\\frac{1}{a}$ ist invers zu $a \\neq 0$ bezüglich der Multiplikation $(a \\cdot \\frac{1}{a} = 1)$.",
+      "erklaerung": "Zusammen mit dem Inversen ergibt sich das neutrale Element. Beispiel: $8765 \\cdot 12 \\cdot \\frac{1}{8765} = 12$.",
       "quelle": "mab004.2_2026-10-27 · Blatt 3, Ü3",
       "abweichungen": []
     },
     {
-      "begriff": "Ab- und Aufrunden auf k Stellen",
-      "wortlaut": "Auf Blatt 3 verwendet: b₃ = ⌊z₁⌋₄ („abgerundeter Wert an der vierten Nachkommastelle“), b₂ = ⌈z₂⌉₈. In der Vorlesung nicht eigens definiert – analog zu Def. 2.3: b · 10ᵏ = ⌊a · 10ᵏ⌋ bzw. ⌈a · 10ᵏ⌉ (Annahme, offene Frage).",
-      "erklaerung": "Komma um k Stellen nach rechts, ab- bzw. aufrunden, Komma zurück. Beispiel: ⌊638,8937644476⌋₄ = 638,8937.",
+      "begriff": "Ab- und Aufrunden auf $k$ Stellen",
+      "wortlaut": "Auf Blatt 3 verwendet: $b_3 = \\lfloor z_1\\rfloor _4$ („abgerundeter Wert an der vierten Nachkommastelle“), $b_2 = \\lceil z_2\\rceil _8$. In der Vorlesung nicht eigens definiert – analog zu Def. 2.3: $b \\cdot 10^k = \\lfloor a \\cdot 10^k\\rfloor$ bzw. $\\lceil a \\cdot 10^k\\rceil$ (Annahme, offene Frage).",
+      "erklaerung": "Komma um $k$ Stellen nach rechts, ab- bzw. aufrunden, Komma zurück. Beispiel: $\\lfloor 638{,}8937644476\\rfloor _4 = 638{,}8937$.",
       "quelle": "mab004.2_2026-10-27 · Blatt 3, G2c / Ü6",
       "abweichungen": []
     }

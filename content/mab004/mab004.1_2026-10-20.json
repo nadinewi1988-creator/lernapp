@@ -45,7 +45,7 @@
       "erklaerung_abschnitt": "Fehler einer Näherung"
     },
     {
-      "text": "Zahlen nach Definition auf-, ab- und kaufmännisch runden – auch auf k Nachkommastellen.",
+      "text": "Zahlen nach Definition auf-, ab- und kaufmännisch runden – auch auf $k$ Nachkommastellen.",
       "art": "abgeleitet",
       "quelle": "Folie 21–29",
       "fragen": [
@@ -71,7 +71,7 @@
       "erklaerung_abschnitt": "Wie groß kann der Rundungsfehler werden?"
     },
     {
-      "text": "Zahlen als Fließkommazahlen in ℱ_g(l, u) darstellen, kleinste und größte Fließkommazahl bestimmen und die Grenzen erläutern.",
+      "text": "Zahlen als Fließkommazahlen in $\\mathcal{F}_g(l, u)$ darstellen, kleinste und größte Fließkommazahl bestimmen und die Grenzen erläutern.",
       "art": "abgeleitet",
       "quelle": "Folie 33–49",
       "fragen": [
@@ -90,11 +90,11 @@
     "Neue Technologien entlasten vom kalkülhaften Rechnen, verbinden Darstellungsebenen und ermöglichen entdeckendes Lernen; ihr Einsatz muss durch die Ziele des Unterrichts gerechtfertigt sein – ein Gleichwert genügt.",
     "Schüler sollen selbst über den sinnvollen Einsatz eines Werkzeugs entscheiden; dazu braucht die Lehrkraft ein Verständnis davon, wie die Werkzeuge funktionieren.",
     "Taschenrechner können nur endlich viele Zahlen darstellen: periodische Brüche nur mit Fehler, irrationale Zahlen (ohne CAS) nie exakt – mehr Stellen sind nicht automatisch besser.",
-    "Der absolute Fehler ist |b − a|, der relative Fehler |b − a| / |a|; erst der relative Fehler zeigt, welche Näherung genauer ist.",
-    "Beim Auf- und Abrunden ist der absolute Fehler höchstens 1, beim kaufmännischen Runden höchstens ½ (Satz 2.1); beim Runden auf k Stellen höchstens 0,5 · 10⁻ᵏ (Satz 2.2).",
+    "Der absolute Fehler ist $|b - a|$, der relative Fehler $\\frac{|b - a|}{|a|}$; erst der relative Fehler zeigt, welche Näherung genauer ist.",
+    "Beim Auf- und Abrunden ist der absolute Fehler höchstens 1, beim kaufmännischen Runden höchstens $\\frac{1}{2}$ (Satz 2.1); beim Runden auf $k$ Stellen höchstens $0{,}5 \\cdot 10^{-k}$ (Satz 2.2).",
     "Kaufmännisches Runden hat den kleinsten Fehler, aber man erkennt nicht mehr, ob der exakte Wert größer oder kleiner war.",
     "Um Rundungsfehler zu vermeiden, rechnet man mit ungerundeten Werten bzw. Brüchen – sonst mit möglichst vielen Nachkommastellen.",
-    "Rechner nutzen Fließkommazahlen f = m · gᵉ; einfache Taschenrechner arbeiten mit ℱ₁₀(12, 100), Excel mit ℱ₁₀(15, 308).",
+    "Rechner nutzen Fließkommazahlen $f = m \\cdot g^e$; einfache Taschenrechner arbeiten mit $\\mathcal{F}_{10}(12, 100)$, Excel mit $\\mathcal{F}_{10}(15, 308)$.",
     "Jede Menge von Fließkommazahlen ist endlich: Es gibt eine kleinste und eine größte Zahl, und es gibt immer Zahlen, deren Näherung einen großen relativen Fehler hat."
   ],
   "erklaerung": [
@@ -107,63 +107,63 @@
     {
       "titel": "Was kann der Taschenrechner?",
       "folien": "12–15",
-      "text": "Gute Rechner kennen **Punkt vor Strich** (3 + 5 · 2 = 13, nicht 16) und oft Wurzelgesetze (CAS). Manche zeigen weniger Stellen an, als sie intern nutzen. Mehr Speicher heißt mehr Stellen – **das ist nicht immer ein Vorteil**.\n\nTest: a) 13478 : (91 − 13 · 7) = Division durch 0, nicht definiert · b) 998765432199 · 9987654321 = 9 975 323 884 567 774 881 879 (22 Stellen – viele Rechner schaffen das nicht exakt) · c) √2 · √2 − 2 = 0, der Windows-Rechner zeigt aber −3,35 · 10⁻⁴⁷.\n\n**Viele Zahlen können nicht dargestellt werden**: √2 ist (wie jede Wurzel aus einer Primzahl) irrational – es gibt nur Näherungswerte.",
+      "text": "Gute Rechner kennen **Punkt vor Strich** ($3 + 5 \\cdot 2 = 13$, nicht $16$) und oft Wurzelgesetze (CAS). Manche zeigen weniger Stellen an, als sie intern nutzen. Mehr Speicher heißt mehr Stellen – **das ist nicht immer ein Vorteil**.\n\nTest:\n- a) $13478 : (91 - 13 \\cdot 7)$ – Division durch $0$, nicht definiert\n- b) $998765432199 \\cdot 9987654321 = 9\\,975\\,323\\,884\\,567\\,774\\,881\\,879$ (22 Stellen – viele Rechner schaffen das nicht exakt)\n- c) $\\sqrt{2} \\cdot \\sqrt{2} - 2 = 0$, der Windows-Rechner zeigt aber $-3{,}35 \\cdot 10^{-47}$\n\n**Viele Zahlen können nicht dargestellt werden**: $\\sqrt{2}$ ist (wie jede Wurzel aus einer Primzahl) irrational – es gibt nur Näherungswerte.",
       "beispiel": ""
     },
     {
       "titel": "Fehler einer Näherung",
       "folien": "16–20",
-      "text": "**Definition 2.1:** Für a ∈ ℝ ∖ {0} und eine Näherung b ≈ a heißt\n\n- ε_A(b; a) := |b − a| der **absolute Fehler**,\n- ε_R(b; a) := |b − a| / |a| der **relative Fehler**.\n\nRechne dabei mit **Brüchen** – dann ist das Ergebnis exakt; sonst hängt es von den ‚Fähigkeiten‘ des Taschenrechners ab.",
-      "beispiel": "a₁ = 2/3, b₁ = 0,67: ε_A = |67/100 − 2/3| = |201/300 − 200/300| = 1/300; ε_R = 1/300 : 2/3 = 1/200 = 0,005.\na₂ = 1/15, b₂ = 0,07: ε_A = |7/100 − 1/15| = |21/300 − 20/300| = 1/300; ε_R = 1/300 : 1/15 = 15/300 = 1/20 = 0,05.\nGleicher absoluter Fehler, aber b₁ ist zehnmal genauer."
+      "text": "**Definition 2.1:** Für $a \\in \\mathbb{R} \\setminus \\{0\\}$ und eine Näherung $b \\approx a$ heißt\n\n- $\\epsilon_A(b; a) := |b - a|$ der **absolute Fehler**,\n- $\\epsilon_R(b; a) := \\frac{|b - a|}{|a|}$ der **relative Fehler**.\n\nRechne dabei mit **Brüchen** – dann ist das Ergebnis exakt; sonst hängt es von den ‚Fähigkeiten‘ des Taschenrechners ab.",
+      "beispiel": "$a_1 = \\frac{2}{3}$, $b_1 = 0{,}67$: $\\epsilon_A = |\\frac{67}{100} - \\frac{2}{3}| = |\\frac{201}{300} - \\frac{200}{300}| = \\frac{1}{300}$; $\\epsilon_R = \\frac{1}{300} : \\frac{2}{3} = \\frac{1}{200} = 0{,}005$.\n$a_2 = \\frac{1}{15}$, $b_2 = 0{,}07$: $\\epsilon_A = |\\frac{7}{100} - \\frac{1}{15}| = |\\frac{21}{300} - \\frac{20}{300}| = \\frac{1}{300}$; $\\epsilon_R = \\frac{1}{300} : \\frac{1}{15} = \\frac{15}{300} = \\frac{1}{20} = 0{,}05$.\nGleicher absoluter Fehler, aber $b_1$ ist zehnmal genauer."
     },
     {
       "titel": "Runden",
       "folien": "21–29",
-      "text": "**Definition 2.2:** Ist a = a₀,a₁a₂a₃… (a₀ Ganzzahlanteil, a₁, a₂, … Nachkommastellen), dann ist\n\n- ⌈a⌉ = a₀ + 1 der **aufgerundete**,\n- ⌊a⌋ = a₀ der **abgerundete**,\n- [a] = a₀, wenn a₁ < 5, sonst a₀ + 1, der **kaufmännisch gerundete** Wert.\n\n**Definition 2.3:** b ist der auf k Nachkommastellen gerundete Wert, falls b · 10ᵏ = [a · 10ᵏ]; man schreibt [a]ₖ = b.\n\nKaufmännisch Runden hat den kleinsten Fehler, aber man erkennt nicht mehr, ob der exakte Wert größer oder kleiner war (23,567 und 24,234 werden beide zu 24).",
-      "beispiel": "a = 54,93773: a₀ = 54, a₁ = 9 → ⌈a⌉ = 55, ⌊a⌋ = 54, [a] = 55.\n[23,23456789]₅: 23,23456789 · 10⁵ = 2323456,789 → gerundet 2323457 → · 10⁻⁵ = 23,23457.\n[53,97683486]₅ = 53,97683 (6. Stelle 4 → abrunden), [888,567465]₅ = 888,56747 (6. Stelle 5 → aufrunden)."
+      "text": "**Definition 2.2:** Ist $a = a_0{,}a_1a_2a_3\\ldots$ ($a_0$ Ganzzahlanteil, $a_1$, $a_2$, … Nachkommastellen), dann ist\n\n- $\\lceil a\\rceil = a_0 + 1$ der **aufgerundete**,\n- $\\lfloor a\\rfloor = a_0$ der **abgerundete**,\n- $[a] = a_0$, wenn $a_1 < 5$, sonst $a_0 + 1$, der **kaufmännisch gerundete** Wert.\n\n**Definition 2.3:** $b$ ist der auf $k$ Nachkommastellen gerundete Wert, falls $b \\cdot 10^k = [a \\cdot 10^k]$; man schreibt $[a]_k = b$.\n\nKaufmännisch Runden hat den kleinsten Fehler, aber man erkennt nicht mehr, ob der exakte Wert größer oder kleiner war (23,567 und 24,234 werden beide zu 24).",
+      "beispiel": "$a = 54{,}93773$: $a_0 = 54$, $a_1 = 9$ → $\\lceil a \\rceil = 55$, $\\lfloor a \\rfloor = 54$, $[a] = 55$.\n$[23{,}23456789]_5$: $23{,}23456789 \\cdot 10^5 = 2323456{,}789$ → gerundet $2323457$ → $2323457 \\cdot 10^{-5} = 23{,}23457$.\n$[53{,}97683486]_5 = 53{,}97683$ (6. Stelle $4$ → abrunden), $[888{,}567465]_5 = 888{,}56747$ (6. Stelle $5$ → aufrunden)."
     },
     {
       "titel": "Wie groß kann der Rundungsfehler werden?",
       "folien": "23–32",
-      "text": "**Satz 2.1:** Der maximale absolute Rundungsfehler ist beim Auf- und Abrunden höchstens **1**, beim kaufmännischen Runden höchstens **½**.\n\n**Beweis (Aufrunden):** Schreibe a = a₀ + v mit v ∈ [0, 1). Für b = ⌈a⌉ gilt ε_A(b; a) = |b − a| = |a₀ + 1 − (a₀ + v)| = 1 − v ≤ 1. ∎ (Beweise für Abrunden und kaufmännisches Runden: Übungsblatt 3.)\n\n**Satz 2.2:** Ist b der auf k Stellen gerundete Wert von a, dann gilt ε_A(b; a) ≤ 0,5 · 10⁻ᵏ.\n\n**Beweis:** Setze c = a · 10ᵏ und d = b · 10ᵏ, dann ist d = [c]. Nach Satz 2.1 gilt ε_A(d; c) ≤ 0,5. Also 0,5 ≥ |d − c| = |b − a| · 10ᵏ = ε_A(b; a) · 10ᵏ, und damit ε_A(b; a) ≤ 0,5 · 10⁻ᵏ. ∎\n\nFolgerung: **Je mehr Nachkommastellen, desto genauer.** Merksatz: Rechne mit ungerundeten Werten; geht das nicht, mit möglichst vielen Nachkommastellen.",
-      "beispiel": "a = 444,345678345: auf k = 4 gerundet 444,3457, Fehler ≈ 0,22 · 10⁻⁴ ≤ 0,5 · 10⁻⁴; auf k = 8 gerundet 444,34567835, Fehler = 0,5 · 10⁻⁸."
+      "text": "**Satz 2.1:** Der beim Runden gemachte maximale absolute Rundungsfehler kann im Falle der Auf- und Abrundung durch **$1$** und im Falle des kaufmännischen Rundens durch **$\\frac{1}{2}$** abgeschätzt werden.\n\n**Beweis (Aufrunden, Folie 24):** Schreibe $a = a_0 + v$ mit $v \\in [0, 1)$. Für $b = \\lceil a \\rceil$ gilt\n$$\\epsilon_A(b; a) = |b - a| = |a_0 + 1 - (a_0 + v)| = 1 - v \\le 1. \\qquad \\blacksquare$$\n(Beweise für Abrunden und kaufmännisches Runden: Übungsblatt 3, Übungsaufgabe 7.)\n\n**Satz 2.2:** Sei $a$ eine positive reelle Zahl und sei $b$ der auf $k$ Stellen, $k \\in \\mathbb{N}$, (kaufmännisch) gerundete Wert. Dann gilt $\\epsilon_A(b; a) \\le 0{,}5 \\cdot 10^{-k}$.\n\n**Beweis (Folie 30):** Setze $c = a \\cdot 10^k$ und $d = b \\cdot 10^k$, dann ist $d = [c]$. Nach Satz 2.1 gilt $\\epsilon_A(d; c) \\le 0{,}5$. Also\n$$0{,}5 \\ge |d - c| = |b - a| \\cdot 10^k = \\epsilon_A(b; a) \\cdot 10^k,$$\nund damit $\\epsilon_A(b; a) \\le 0{,}5 \\cdot 10^{-k}$. $\\blacksquare$\n\nFolgerung: **Je mehr Nachkommastellen, desto genauer.** Merksatz: Rechne mit ungerundeten Werten; geht das nicht, mit möglichst vielen Nachkommastellen.",
+      "beispiel": "$a = 444{,}345678345$: auf $k = 4$ gerundet 444,3457, Fehler $\\approx 0{,}22 \\cdot 10^{-4} \\le 0{,}5 \\cdot 10^{-4}$; auf $k = 8$ gerundet 444,34567835, Fehler $= 0{,}5 \\cdot 10^{-8}$."
     },
     {
       "titel": "Fließkommazahlen",
       "folien": "33–49",
-      "text": "Ein Taschenrechner kann wegen der begrenzten Stellenzahl **nur endlich viele Zahlen** darstellen; periodische Brüche nur mit Fehler, irrationale Zahlen (ohne CAS) **nie exakt**.\n\n**Definition 2.4:** Eine Fließkommazahl hat die Gestalt **f = m · gᵉ** (Mantisse m, Basis g, Exponent e) mit 1. 1,0 ≤ m < g, 2. m hat höchstens l Stellen (Mantissenlänge), 3. e < u (Exponentenschranke). ℱ_g(l, u) ist die Menge dieser Zahlen.\n\nEinfache Taschenrechner: **ℱ₁₀(12, 100)**; Excel: **ℱ₁₀(15, 308)**.\n\nIn ℱ₁₀(12, 100): kleinste positive Zahl z = 1,00000000000 · 10⁻⁹⁹, größte Zahl Z = 9,99999999999 · 10⁹⁹ (100-stellig: 12 Neunen, 88 Nullen). Darstellbar ist [−Z, …, −z] ∪ [z, …, Z] ∪ {0}.\n\nx = 10⁻¹⁰⁰⁰ wird (laut Folie) durch z = 10⁻⁹⁹ angenähert: ε_R = (10⁻⁹⁹ − 10⁻¹⁰⁰⁰) · 10¹⁰⁰⁰ = 10⁹⁰¹ − 1 ≈ 10⁹⁰¹. **Egal wie groß u ist, es gibt immer Zahlen mit großem relativem Fehler.**\n\n**Zusammenfassung:** Es gibt eine größte und eine kleinste Fließkommazahl. Jede Menge von Fließkommazahlen ist endlich und damit abzählbar. Jede Fließkommazahl (außer der größten) hat einen Nachfolger.",
-      "beispiel": "6658,832 = 6,658832 · 10³ ∈ ℱ₁₀(7, 12). 1/3 in ℱ₁₀(2, 100): 3,3 · 10⁻¹; in ℱ₁₀(12, 100): 3,33333333333 · 10⁻¹."
+      "text": "Ein Taschenrechner kann wegen der begrenzten Stellenzahl **nur endlich viele Zahlen** darstellen; periodische Brüche nur mit Fehler, irrationale Zahlen (ohne CAS) **nie exakt**.\n\n**Definition 2.4:** Eine Fließkommazahl hat die Gestalt **$f = m \\cdot g^e$** (Mantisse $m$, Basis $g$, Exponent $e$) mit\n1. $1{,}0 \\le |m| < g$,\n2. $m$ hat maximal $l$ Stellen (Mantissenlänge),\n3. $|e| < u$ (Exponentenschranke).\n\n$\\mathcal{F}_g(l, u)$ ist die Menge dieser Zahlen.\n\nEinfache Taschenrechner: **$\\mathcal{F}_{10}(12, 100)$**; Excel: **$\\mathcal{F}_{10}(15, 308)$**.\n\nIn $\\mathcal{F}_{10}(12, 100)$: kleinste positive Zahl $z = 1{,}00000000000 \\cdot 10^{-99}$, größte Zahl $Z = 9{,}99999999999 \\cdot 10^{99}$ (100-stellig: 12 Neunen, 88 Nullen). Darstellbar ist $[-Z, \\ldots, -z] \\cup [z, \\ldots, Z] \\cup \\{0\\}$.\n\n$x = 10^{-1000}$ wird (laut Folie) durch $z = 10^{-99}$ angenähert:\n$$\\epsilon_R(z; x) = \\frac{|10^{-99} - 10^{-1000}|}{10^{-1000}} = (10^{-99} - 10^{-1000}) \\cdot 10^{1000} = 10^{901} - 1 \\approx 10^{901}$$\n**Egal wie groß $u$ ist, es gibt immer Zahlen mit großem relativem Fehler.**\n\n**Zusammenfassung:** Es gibt eine größte und eine kleinste Fließkommazahl. Jede Menge von Fließkommazahlen ist endlich und damit abzählbar. Jede Fließkommazahl (außer der größten) hat einen Nachfolger.",
+      "beispiel": "$6658{,}832 = 6{,}658832 \\cdot 10^3 \\in \\mathcal{F}_{10}(7, 12)$. $\\frac{1}{3}$ in $\\mathcal{F}_{10}(2, 100)$: $3{,}3 \\cdot 10^{-1}$; in $\\mathcal{F}_{10}(12, 100)$: $3{,}33333333333 \\cdot 10^{-1}$."
     }
   ],
   "definitionen": [
     {
       "begriff": "Absoluter Fehler",
-      "wortlaut": "Definition 2.1. Sei a ∈ ℝ ∖ {0} und b ∈ ℝ eine Näherung von a, also b ≈ a. Dann heißt der Abstand ε_A(b; a) := |b − a| absoluter Fehler der Näherung b bezüglich a.",
-      "erklaerung": "Wie weit liegt die Näherung vom echten Wert weg – egal in welche Richtung. Beispiel: 0,67 für 2/3 → |0,67 − 2/3| = 1/300.",
+      "wortlaut": "Definition 2.1. Sei $a \\in \\mathbb{R} \\setminus \\{0\\}$ und $b \\in \\mathbb{R}$ eine Näherung von $a$, also $b \\approx a$. Dann heißt der Abstand $\\epsilon_A(b; a) := |b - a|$ absoluter Fehler der Näherung $b$ bezüglich $a$.",
+      "erklaerung": "Wie weit liegt die Näherung vom echten Wert weg – egal in welche Richtung. Beispiel: 0,67 für $\\frac{2}{3}$ → $|0{,}67 - \\frac{2}{3}| = \\frac{1}{300}$.",
       "folie": "16"
     },
     {
       "begriff": "Relativer Fehler",
-      "wortlaut": "Definition 2.1. […] Und ε_R(b; a) := |b − a| / |a| heißt relativer Fehler der Näherung b bezüglich a.",
-      "erklaerung": "Der absolute Fehler im Verhältnis zur Größe des echten Werts. Damit kann man Näherungen verschieden großer Zahlen vergleichen: 0,67 für 2/3 hat ε_R = 0,005, 0,07 für 1/15 hat ε_R = 0,05 – obwohl beide den gleichen absoluten Fehler 1/300 haben.",
+      "wortlaut": "Definition 2.1. […] Und $\\epsilon_R(b; a) := \\frac{|b - a|}{|a|}$ heißt relativer Fehler der Näherung $b$ bezüglich $a$.",
+      "erklaerung": "Der absolute Fehler im Verhältnis zur Größe des echten Werts. Damit kann man Näherungen verschieden großer Zahlen vergleichen: 0,67 für $\\frac{2}{3}$ hat $\\epsilon_R = 0{,}005$, 0,07 für $\\frac{1}{15}$ hat $\\epsilon_R = 0{,}05$ – obwohl beide den gleichen absoluten Fehler $\\frac{1}{300}$ haben.",
       "folie": "16–20"
     },
     {
       "begriff": "Gerundete Werte (auf-, ab-, kaufmännisch gerundet)",
-      "wortlaut": "Definition 2.2. Sei a eine positive reelle Zahl. Sei a₀ ∈ ℕ der Ganzzahlanteil von a und sei (a_j)_{j=1}^∞, a_j ∈ {0,1,…,9} für j ∈ ℕ die Folge der Nachkommastellen in der Dezimaldarstellung von a ≙ a₀,a₁a₂a₃a₄… So heißt b der aufgerundete Wert b = ⌈a⌉, falls gilt b = a₀ + 1, der abgerundete Wert b = ⌊a⌋, falls gilt b = a₀. b = [a] ist der (kaufmännisch) gerundete Wert von a, falls b = a₀, wenn a₁ < 5 sonst b = a₀ + 1.",
-      "erklaerung": "Aufrunden: Ganzzahlanteil + 1. Abrunden: Nachkommastellen weglassen. Kaufmännisch: auf die erste Nachkommastelle schauen – unter 5 abrunden, ab 5 aufrunden. Beispiel 54,93773: ⌈a⌉ = 55, ⌊a⌋ = 54, [a] = 55.",
+      "wortlaut": "Definition 2.2. Sei $a$ eine positive reelle Zahl. Sei $a_0 \\in \\mathbb{N}$ der Ganzzahlanteil von $a$ und sei $(a_j)_{j=1}^{\\infty}$, $a_j \\in \\{0, 1, \\ldots, 9\\}$ für $j \\in \\mathbb{N}$ die Folge der Nachkommastellen in der Dezimaldarstellung von $a \\mathrel{\\widehat{=}} a_0{,}a_1a_2a_3a_4\\ldots$ So heißt $b$ der aufgerundete Wert $b = \\lceil a \\rceil$, falls gilt $b = a_0 + 1$, der abgerundete Wert $b = \\lfloor a \\rfloor$, falls gilt $b = a_0$. $b = [a]$ ist der (kaufmännisch) gerundete Wert von $a$, falls $b = a_0$, wenn $a_1 < 5$ sonst $b = a_0 + 1$.",
+      "erklaerung": "Aufrunden: Ganzzahlanteil + 1. Abrunden: Nachkommastellen weglassen. Kaufmännisch: auf die erste Nachkommastelle schauen – unter 5 abrunden, ab 5 aufrunden. Beispiel 54,93773: $\\lceil a\\rceil = 55$, $\\lfloor a\\rfloor = 54$, $[a] = 55$.",
       "folie": "21–22"
     },
     {
-      "begriff": "Runden auf k Nachkommastellen",
-      "wortlaut": "Definition 2.3. […] Genau dann heißt b der auf k, k ∈ ℕ Stellen nach dem Komma (kaufmännisch) gerundete Wert von a, falls gilt b · 10^k = [a · 10^k]. Wir schreiben dann auch [a]_k = b.",
-      "erklaerung": "Komma um k Stellen nach rechts schieben, kaufmännisch auf eine ganze Zahl runden, Komma zurückschieben. Beispiel: [23,23456789]₅ → 2323456,789 → 2323457 → 23,23457.",
+      "begriff": "Runden auf $k$ Nachkommastellen",
+      "wortlaut": "Definition 2.3. […] Genau dann heißt $b$ der auf $k$, $k \\in \\mathbb{N}$ Stellen nach dem Komma (kaufmännisch) gerundete Wert von $a$, falls gilt $b \\cdot 10^k = [a \\cdot 10^k]$. Wir schreiben dann auch $[a]_k = b$.",
+      "erklaerung": "Komma um $k$ Stellen nach rechts schieben, kaufmännisch auf eine ganze Zahl runden, Komma zurückschieben. Beispiel: $[23{,}23456789]_5$ → 2323456,789 → 2323457 → 23,23457.",
       "folie": "28–29"
     },
     {
       "begriff": "Fließkommazahl",
-      "wortlaut": "Definition 2.4. (Fließkommazahl) Eine Fließkommazahl f zur Basis g ∈ ℕ mit Mantissenlänge l ∈ ℕ und Exponentenschranke u ∈ ℕ hat die Gestalt f = m · g^e. Dabei ist m ∈ ℝ die Mantisse und e ∈ ℤ der Exponent der Fließkommazahl und es gilt 1. 1,0 ≤ m < g, 2. m hat maximal l Stellen und 3. e < u. ℱ_g(l, u) sei die Menge aller Fließkommazahlen zur Basis g mit Mantissenlänge l und Exponentenschranke u.",
-      "erklaerung": "So speichern Rechner Zahlen: eine Mantisse mit genau einer Stelle vor dem Komma (nicht 0) mal Basis hoch Exponent. Beispiel: 6658,832 = 6,658832 · 10³ ∈ ℱ₁₀(7, 12). In den Beispielen der Vorlesung wird der Betrag des Exponenten begrenzt (|e| < u).",
+      "wortlaut": "Definition 2.4. (Fließkommazahl) Eine Fließkommazahl $f$ zur Basis $g \\in \\mathbb{N}$ mit Mantissenlänge $l \\in \\mathbb{N}$ und Exponentenschranke $u \\in \\mathbb{N}$ hat die Gestalt $f = m \\cdot g^e$. Dabei ist $m \\in \\mathbb{R}$ die Mantisse und $e \\in \\mathbb{Z}$ der Exponent der Fließkommazahl und es gilt 1. $1{,}0 \\le |m| < g$, 2. $m$ hat maximal $l$ Stellen und 3. $|e| < u$. $\\mathcal{F}_g(l, u)$ sei die Menge aller Fließkommazahlen zur Basis $g$ mit Mantissenlänge $l$ und Exponentenschranke $u$.",
+      "erklaerung": "So speichern Rechner Zahlen: eine Mantisse mit genau einer Stelle vor dem Komma (nicht $0$) mal Basis hoch Exponent. Beispiel: $6658{,}832 = 6{,}658832 \\cdot 10^3 \\in \\mathcal{F}_{10}(7, 12)$. Bedingung 3 begrenzt den **Betrag** des Exponenten: $|e| < u$, also $-u < e < u$.",
       "folie": "34–37"
     },
     {
@@ -193,40 +193,40 @@
     {
       "id": "a02",
       "art": "Aufgabe auf Folie",
-      "text": "Geben Sie folgende Aufgaben in Ihren Taschenrechner oder Ihre Rechner-App ein: a) 13478 : (91 − 13 · 7)  b) 998765432199 · 9987654321  c) √2 · √2 − 2",
+      "text": "Geben Sie folgende Aufgaben in Ihren Taschenrechner oder Ihre Rechner-App ein:\n- a) $13478 : (91 - 13 \\cdot 7)$\n- b) $998765432199 \\cdot 9987654321$\n- c) $\\sqrt{2} \\cdot \\sqrt{2} - 2$",
       "quelle": "Folie 13–14",
-      "loesung": "a) nicht definiert (Division durch 0) · b) 9 975 323 884 567 774 881 879 · c) 0",
-      "loesungsweg": "a) Punkt vor Strich in der Klammer: 13 · 7 = 91, 91 − 91 = 0 → 13478 : 0 ist nicht definiert; ein guter Rechner meldet einen Fehler.\nb) Exakt (mit dem Computer nachgerechnet) 22 Stellen. Ein Rechner mit ℱ₁₀(12, 100) zeigt nur etwa 9,97532388457 · 10²¹ – die letzten Stellen gehen verloren.\nc) √2 · √2 = 2, also 2 − 2 = 0. Da √2 irrational ist, speichert der Rechner nur einen Näherungswert; quadriert ergibt das nicht genau 2 → winziger Rest wie −3,35 · 10⁻⁴⁷ (Windows-Rechner). Mehr Stellen helfen hier nicht.",
+      "loesung": "a) nicht definiert (Division durch $0$) · b) $9\\,975\\,323\\,884\\,567\\,774\\,881\\,879$ · c) $0$",
+      "loesungsweg": "a) Punkt vor Strich in der Klammer: $13 \\cdot 7 = 91$, $91 - 91 = 0$ → $13478 : 0$ ist nicht definiert; ein guter Rechner meldet einen Fehler.\nb) Exakt (mit dem Computer nachgerechnet) 22 Stellen. Ein Rechner mit $\\mathcal{F}_{10}(12, 100)$ zeigt nur etwa $9{,}97532388457 \\cdot 10^{21}$ – die letzten Stellen gehen verloren.\nc) $\\sqrt{2} \\cdot \\sqrt{2} = 2$, also $2 - 2 = 0$. Da $\\sqrt{2}$ irrational ist, speichert der Rechner nur einen Näherungswert; quadriert ergibt das nicht genau $2$ → winziger Rest wie $-3{,}35 \\cdot 10^{-47}$ (Windows-Rechner). Mehr Stellen helfen hier nicht.",
       "frist": "",
       "im_kalender": false
     },
     {
       "id": "a03",
       "art": "Aufgabe auf Folie",
-      "text": "a₁ = 2/3 und b₁ = 0,67; a₂ = 1/15 und b₂ = 0,07. Welcher Näherungswert ist genauer? Berechnen Sie die absoluten Fehler! Berechnen Sie die relativen Fehler! Berechnen Sie den exakten Wert.",
+      "text": "$a_1 = \\frac{2}{3}$ und $b_1 = 0{,}67$; $a_2 = \\frac{1}{15}$ und $b_2 = 0{,}07$. Welcher Näherungswert ist genauer? Berechnen Sie die absoluten Fehler! Berechnen Sie die relativen Fehler! Berechnen Sie den exakten Wert.",
       "quelle": "Folie 17–20",
-      "loesung": "ε_A(b₁; a₁) = ε_A(b₂; a₂) = 1/300; ε_R(b₁; a₁) = 1/200 = 0,005; ε_R(b₂; a₂) = 1/20 = 0,05 → b₁ ist zehnmal genauer.",
-      "loesungsweg": "ε_A(b₁; a₁) = |67/100 − 2/3| = |201/300 − 200/300| = 1/300.\nε_A(b₂; a₂) = |7/100 − 1/15| = |21/300 − 20/300| = 1/300.\nε_R(b₁; a₁) = (1/300) : (2/3) = 3/600 = 1/200 = 0,005.\nε_R(b₂; a₂) = (1/300) : (1/15) = 15/300 = 1/20 = 0,05.\n0,05 : 0,005 = 10.",
+      "loesung": "$\\epsilon_A(b_1; a_1) = \\epsilon_A(b_2; a_2) = \\frac{1}{300}$; $\\epsilon_R(b_1; a_1) = \\frac{1}{200} = 0{,}005$; $\\epsilon_R(b_2; a_2) = \\frac{1}{20} = 0{,}05$ → $b_1$ ist zehnmal genauer.",
+      "loesungsweg": "$\\epsilon_A(b_1; a_1) = |\\frac{67}{100} - \\frac{2}{3}| = |\\frac{201}{300} - \\frac{200}{300}| = \\frac{1}{300}$.\n$\\epsilon_A(b_2; a_2) = |\\frac{7}{100} - \\frac{1}{15}| = |\\frac{21}{300} - \\frac{20}{300}| = \\frac{1}{300}$.\n$\\epsilon_R(b_1; a_1) = (\\frac{1}{300}) : (\\frac{2}{3}) = \\frac{3}{600} = \\frac{1}{200} = 0{,}005$.\n$\\epsilon_R(b_2; a_2) = (\\frac{1}{300}) : (\\frac{1}{15}) = \\frac{15}{300} = \\frac{1}{20} = 0{,}05$.\n$0{,}05 : 0{,}005 = 10$.",
       "frist": "",
       "im_kalender": false
     },
     {
       "id": "a04",
       "art": "Aufgabe auf Folie",
-      "text": "Lesen Sie die Definition. Notieren Sie ein passendes Beispiel zur Definition. Wählen Sie eine passende Zahl a. Notieren Sie die Werte für a₀, a₁, a₂, a₃, a₄ … Geben Sie den aufgerundeten, den abgerundeten und den gerundeten Wert Ihrer Zahl a an.",
+      "text": "Lesen Sie die Definition. Notieren Sie ein passendes Beispiel zur Definition. Wählen Sie eine passende Zahl $a$. Notieren Sie die Werte für $a_0$, $a_1$, $a_2$, $a_3$, $a_4 \\ldots$ Geben Sie den aufgerundeten, den abgerundeten und den gerundeten Wert Ihrer Zahl $a$ an.",
       "quelle": "Folie 21 (Definition 2.2)",
-      "loesung": "Beispiel a = 7,382: a₀ = 7, a₁ = 3, a₂ = 8, a₃ = 2 → ⌈a⌉ = 8, ⌊a⌋ = 7, [a] = 7 (da a₁ = 3 < 5).",
-      "loesungsweg": "Ganzzahlanteil und Nachkommastellen ablesen; aufgerundet = a₀ + 1, abgerundet = a₀; kaufmännisch nur auf a₁ schauen. Folienbeispiel: 54,93773 → 55 / 54 / 55.",
+      "loesung": "Beispiel $a = 7{,}382$: $a_0 = 7$, $a_1 = 3$, $a_2 = 8$, $a_3 = 2$ → $\\lceil a\\rceil = 8$, $\\lfloor a\\rfloor = 7$, $[a] = 7$ (da $a_1 = 3 < 5$).",
+      "loesungsweg": "Ganzzahlanteil und Nachkommastellen ablesen; aufgerundet $= a_0 + 1$, abgerundet $= a_0$; kaufmännisch nur auf $a_1$ schauen. Folienbeispiel: $54{,}93773$ → $55$ / $54$ / $55$.",
       "frist": "",
       "im_kalender": false
     },
     {
       "id": "a05",
       "art": "Aufgabe auf Folie",
-      "text": "Wie groß ist der absolute Fehler dabei maximal? Aufgerundet ε_A(⌈a⌉; a), abgerundet ε_A(⌊a⌋; a), gerundet ε_A([a]; a)? Beispiele: z₁ = 23,000004; z₂ = 41,999999; z₃ = 41,50235. Vermutung?",
+      "text": "Wie groß ist der absolute Fehler dabei maximal? Aufgerundet $\\epsilon_A(\\lceil a\\rceil ; a)$, abgerundet $\\epsilon_A(\\lfloor a\\rfloor ; a)$, gerundet $\\epsilon_A([a]; a)$? Beispiele: $z_1 = 23{,}000004$; $z_2 = 41{,}999999$; $z_3 = 41{,}50235$. Vermutung?",
       "quelle": "Folie 23",
-      "loesung": "z₁: ⌈⌉ 24 (Fehler 0,999996), ⌊⌋ 23 (0,000004), [] 23 (0,000004) · z₂: 42 (0,000001), 41 (0,999999), 42 (0,000001) · z₃: 42 (0,49765), 41 (0,50235), 42 (0,49765). Vermutung: Auf-/Abrunden < 1, kaufmännisch ≤ ½ → Satz 2.1.",
-      "loesungsweg": "Jeweils |gerundet − z| ausrechnen. Die Beispiele zeigen Fehler knapp unter 1 beim Auf- bzw. Abrunden und höchstens etwa ½ beim kaufmännischen Runden.",
+      "loesung": "| Zahl | $\\lceil z \\rceil$ (Fehler) | $\\lfloor z \\rfloor$ (Fehler) | $[z]$ (Fehler) |\n|---|---|---|---|\n| $z_1 = 23{,}000004$ | $24$ ($0{,}999996$) | $23$ ($0{,}000004$) | $23$ ($0{,}000004$) |\n| $z_2 = 41{,}999999$ | $42$ ($0{,}000001$) | $41$ ($0{,}999999$) | $42$ ($0{,}000001$) |\n| $z_3 = 41{,}50235$ | $42$ ($0{,}49765$) | $41$ ($0{,}50235$) | $42$ ($0{,}49765$) |\n\nVermutung: Auf- und Abrunden: Fehler $< 1$; kaufmännisch: Fehler $\\le \\frac{1}{2}$ → Satz 2.1.",
+      "loesungsweg": "Jeweils $\\epsilon_A = |\\text{gerundet} - z|$ ausrechnen. Die Beispiele zeigen Fehler knapp unter $1$ beim Auf- bzw. Abrunden und höchstens etwa $\\frac{1}{2}$ beim kaufmännischen Runden.",
       "frist": "",
       "im_kalender": false
     },
@@ -236,17 +236,17 @@
       "text": "Wie lautet der auf die 5. Stelle kaufmännisch gerundete Wert von 53,97683486? Oder von 888,567465? Woher wissen Sie das?",
       "quelle": "Folie 26–27",
       "loesung": "53,97683 und 888,56747",
-      "loesungsweg": "Nach Definition 2.3 mit k = 5: 53,97683486 · 10⁵ = 5397683,486 → [ ] = 5397683 (erste Nachkommastelle 4 < 5) → 53,97683.\n888,567465 · 10⁵ = 88856746,5 → [ ] = 88856747 (erste Nachkommastelle 5) → 888,56747.",
+      "loesungsweg": "Nach Definition 2.3 mit $k = 5$: $53{,}97683486 \\cdot 10^5 = 5397683{,}486$ → $[5397683{,}486] = 5397683$ (erste Nachkommastelle $4 < 5$) → $53{,}97683$.\n$888{,}567465 \\cdot 10^5 = 88856746{,}5$ → $[88856746{,}5] = 88856747$ (erste Nachkommastelle $5$) → $888{,}56747$.",
       "frist": "",
       "im_kalender": false
     },
     {
       "id": "a07",
       "art": "Aufgabe auf Folie",
-      "text": "Lesen Sie die Definition 2.3. Notieren Sie ein passendes Beispiel zur Definition. Was bedeutet b · 10^k = [a · 10^k]?",
+      "text": "Lesen Sie die Definition 2.3. Notieren Sie ein passendes Beispiel zur Definition. Was bedeutet $b \\cdot 10^k = [a \\cdot 10^k]$?",
       "quelle": "Folie 28",
-      "loesung": "Bedeutung: Man verschiebt das Komma um k Stellen nach rechts, rundet kaufmännisch auf eine ganze Zahl und schiebt das Komma wieder zurück. Beispiel: [3,14159]₂ → 314,159 → 314 → 3,14.",
-      "loesungsweg": "a = 3,14159, k = 2: a · 10² = 314,159; [314,159] = 314, da erste Nachkommastelle 1 < 5; b = 314 · 10⁻² = 3,14.",
+      "loesung": "Bedeutung: Man verschiebt das Komma um $k$ Stellen nach rechts, rundet kaufmännisch auf eine ganze Zahl und schiebt das Komma wieder zurück. Beispiel: $[3{,}14159]_2$ → 314,159 → 314 → 3,14.",
+      "loesungsweg": "$a = 3{,}14159$, $k = 2$: $a \\cdot 10^2 = 314{,}159$; $[314{,}159] = 314$, da erste Nachkommastelle $1 < 5$; $b = 314 \\cdot 10^{-2} = 3{,}14$.",
       "frist": "",
       "im_kalender": false
     },
@@ -255,7 +255,7 @@
       "art": "Aufgabe auf Folie",
       "text": "In welchen Bereichen des Lebens oder innerhalb der Mathematik nutzen Sie gerundete Werte?",
       "quelle": "Folie 32",
-      "loesung": "Z. B. Geldbeträge (auf Cent), Messwerte (Länge, Gewicht), Prozentangaben, Zeitangaben, Statistiken; in der Mathematik π ≈ 3,14, √2 ≈ 1,41, Ergebnisse auf Nachkommastellen, Überschlagsrechnung.",
+      "loesung": "Z. B. Geldbeträge (auf Cent), Messwerte (Länge, Gewicht), Prozentangaben, Zeitangaben, Statistiken; in der Mathematik $\\pi \\approx 3{,}14$, $\\sqrt{2} \\approx 1{,}41$, Ergebnisse auf Nachkommastellen, Überschlagsrechnung.",
       "loesungsweg": "Offene Frage – Beispiele sammeln.",
       "frist": "",
       "im_kalender": false
@@ -263,30 +263,30 @@
     {
       "id": "a09",
       "art": "Aufgabe auf Folie",
-      "text": "Wie lautet die Fließkommadarstellung f ∈ ℱ₁₀(2, 100) der rationalen Zahl z = 1/3 ≈ 0,333333333333? Und f ∈ ℱ₁₀(12, 100)?",
+      "text": "Wie lautet die Fließkommadarstellung $f \\in \\mathcal{F}_{10}(2, 100)$ der rationalen Zahl $z = \\frac{1}{3} \\approx 0{,}333333333333$? Und $f \\in \\mathcal{F}_{10}(12, 100)$?",
       "quelle": "Folie 38–40",
-      "loesung": "ℱ₁₀(2, 100): 3,3 · 10⁻¹ · ℱ₁₀(12, 100): 3,33333333333 · 10⁻¹",
-      "loesungsweg": "Komma so verschieben, dass genau eine Stelle ≠ 0 davor steht: 0,333… = 3,333… · 10⁻¹. Mantisse auf l Stellen kürzen (2 bzw. 12 Stellen). Bedingungen prüfen: 1,0 ≤ m < 10 ✓, höchstens l Stellen ✓, −1 < 100 ✓.",
+      "loesung": "$\\mathcal{F}_{10}(2, 100)$: $3{,}3 \\cdot 10^{-1}$ · $\\mathcal{F}_{10}(12, 100)$: $3{,}33333333333 \\cdot 10^{-1}$",
+      "loesungsweg": "Komma so verschieben, dass genau eine Stelle $\\neq 0$ davor steht: $0{,}333\\ldots = 3{,}333\\ldots \\cdot 10^{-1}$. Mantisse auf $l$ Stellen kürzen (2 bzw. 12 Stellen). Bedingungen prüfen: $1{,}0 \\le |m| < 10$ ✓, höchstens $l$ Stellen ✓, $-1 < 100$ ✓.",
       "frist": "",
       "im_kalender": false
     },
     {
       "id": "a10",
       "art": "Aufgabe auf Folie",
-      "text": "Fließkommazahlen sind beschränkt. Es gibt eine größte und eine kleinste Zahl! Welches ist die kleinste Fließkommazahl? (in ℱ₁₀(12, 100))",
+      "text": "Fließkommazahlen sind beschränkt. Es gibt eine größte und eine kleinste Zahl! Welches ist die kleinste Fließkommazahl? (in $\\mathcal{F}_{10}(12, 100)$)",
       "quelle": "Folie 42–44",
-      "loesung": "Kleinste positive Zahl z = 1,00000000000 · 10⁻⁹⁹; größte Zahl Z = 9,99999999999 · 10⁹⁹.",
-      "loesungsweg": "Kleinste Mantisse 1,0 (Bedingung 1), kleinster erlaubter Exponent −99 (|e| < 100) → z. An der 99. Nachkommastelle steht eine 1.\nGrößte Mantisse mit 12 Stellen 9,99999999999, größter Exponent 99 → Z, eine 100-stellige Zahl mit 12 Neunen und 88 Nullen.",
+      "loesung": "Kleinste positive Zahl $z = 1{,}00000000000 \\cdot 10^{-99}$; größte Zahl $Z = 9{,}99999999999 \\cdot 10^{99}$.",
+      "loesungsweg": "Kleinste Mantisse $1{,}0$ (Bedingung 1), kleinster erlaubter Exponent $-99$ (wegen $|e| < 100$) → $z$. An der 99. Nachkommastelle steht eine $1$.\nGrößte Mantisse mit 12 Stellen $9{,}99999999999$, größter Exponent $99$ → $Z$, eine 100-stellige Zahl mit 12 Neunen und 88 Nullen.",
       "frist": "",
       "im_kalender": false
     },
     {
       "id": "a11",
       "art": "Aufgabe auf Folie",
-      "text": "Was passiert mit der Zahl x = 10⁻¹⁰⁰⁰ in einem einfachen Taschenrechner?",
+      "text": "Was passiert mit der Zahl $x = 10^{-1000}$ in einem einfachen Taschenrechner?",
       "quelle": "Folie 46–47",
-      "loesung": "Sie ist zu klein für ℱ₁₀(12, 100). Laut Folie wird sie durch z = 10⁻⁹⁹ angenähert; der relative Fehler ist ≈ 10⁹⁰¹.",
-      "loesungsweg": "ε_R(z; x) = |10⁻⁹⁹ − 10⁻¹⁰⁰⁰| / 10⁻¹⁰⁰⁰ = (10⁻⁹⁹ − 10⁻¹⁰⁰⁰) · 10¹⁰⁰⁰ = 10⁹⁰¹ − 1 ≈ 10⁹⁰¹. (Offene Frage: Würde man durch 0 annähern, wäre ε_R = 1.)",
+      "loesung": "Sie ist zu klein für $\\mathcal{F}_{10}(12, 100)$. Laut Folie wird sie durch $z = 10^{-99}$ angenähert; der relative Fehler ist $\\approx 10^{901}$.",
+      "loesungsweg": "$$\\epsilon_R(z; x) = \\frac{|10^{-99} - 10^{-1000}|}{10^{-1000}} = (10^{-99} - 10^{-1000}) \\cdot 10^{1000} = 10^{901} - 1 \\approx 10^{901}$$\n(Offene Frage: Würde man durch $0$ annähern, wäre $\\epsilon_R = 1$.)",
       "frist": "",
       "im_kalender": false
     }
@@ -382,7 +382,7 @@
       "optionen": [
         "Mehr gespeicherte Stellen sind immer ein Vorteil.",
         "Manche Taschenrechner zeigen weniger Stellen an, als sie intern nutzen.",
-        "√2 · √2 − 2 ergibt auf vielen Rechnern nicht genau 0.",
+        "$\\sqrt{2} \\cdot \\sqrt{2} - 2$ ergibt auf vielen Rechnern nicht genau 0.",
         "Ein Taschenrechner kann jede reelle Zahl exakt darstellen.",
         "Viele Rechner kennen Punkt-vor-Strich-Rechnung."
       ],
@@ -391,7 +391,7 @@
         2,
         4
       ],
-      "erklaerung": "√2 ist irrational und wird nur genähert; mehr Stellen beseitigen das nicht. Viele Rechner kennen Punkt vor Strich.",
+      "erklaerung": "$\\sqrt{2}$ ist irrational und wird nur genähert; mehr Stellen beseitigen das nicht. Viele Rechner kennen Punkt vor Strich.",
       "folie": "13–15",
       "pruefungsrelevant": true
     },
@@ -401,9 +401,9 @@
       "format": "frage",
       "niveau": "wissen",
       "schwierigkeit": 1,
-      "frage": "Wie ist der absolute Fehler einer Näherung b von a definiert?",
-      "antwort": "ε_A(b; a) := |b − a| (für a ∈ ℝ ∖ {0}, b ≈ a).",
-      "erklaerung": "ε_A(b; a) = |b − a|",
+      "frage": "Wie ist der absolute Fehler einer Näherung $b$ von $a$ definiert?",
+      "antwort": "$\\epsilon_A(b; a) := |b - a|$ (für $a \\in \\mathbb{R} \\setminus \\{0\\}$, $b \\approx a$).",
+      "erklaerung": "$\\epsilon_A(b; a) = |b - a|$",
       "folie": "16",
       "pruefungsrelevant": true
     },
@@ -413,9 +413,9 @@
       "format": "frage",
       "niveau": "wissen",
       "schwierigkeit": 1,
-      "frage": "Wie ist der relative Fehler einer Näherung b von a definiert?",
-      "antwort": "ε_R(b; a) := |b − a| / |a| – der absolute Fehler geteilt durch den Betrag des exakten Werts.",
-      "erklaerung": "ε_R(b; a) = |b − a| / |a|",
+      "frage": "Wie ist der relative Fehler einer Näherung $b$ von $a$ definiert?",
+      "antwort": "$\\epsilon_R(b; a) := \\frac{|b - a|}{|a|}$ – der absolute Fehler geteilt durch den Betrag des exakten Werts.",
+      "erklaerung": "$\\epsilon_R(b; a) = \\frac{|b - a|}{|a|}$",
       "folie": "16",
       "pruefungsrelevant": true
     },
@@ -426,7 +426,7 @@
       "niveau": "wissen",
       "schwierigkeit": 1,
       "text": "Der relative Fehler ist der [[absolute]] Fehler geteilt durch den Betrag des [[exakten]] Werts.",
-      "erklaerung": "Relativer Fehler = absoluter Fehler durch |a|.",
+      "erklaerung": "Relativer Fehler = absoluter Fehler durch $|a|$.",
       "folie": "16",
       "pruefungsrelevant": true
     },
@@ -436,13 +436,13 @@
       "format": "offen",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "Berechne absoluten und relativen Fehler für a₁ = 2/3, b₁ = 0,67 und a₂ = 1/15, b₂ = 0,07. Welche Näherung ist genauer?",
-      "musterloesung": "ε_A = 1/300 für beide. ε_R(b₁; a₁) = 1/200 = 0,005, ε_R(b₂; a₂) = 1/20 = 0,05. b₁ ist zehnmal genauer.",
+      "frage": "Berechne absoluten und relativen Fehler für $a_1 = \\frac{2}{3}$, $b_1 = 0{,}67$ und $a_2 = \\frac{1}{15}$, $b_2 = 0{,}07$. Welche Näherung ist genauer?",
+      "musterloesung": "$\\epsilon_A = \\frac{1}{300}$ für beide. $\\epsilon_R(b_1; a_1) = \\frac{1}{200} = 0{,}005$, $\\epsilon_R(b_2; a_2) = \\frac{1}{20} = 0{,}05$. $b_1$ ist zehnmal genauer.",
       "bewertungspunkte": [
-        "ε_A₁ = 1/300",
-        "ε_A₂ = 1/300",
-        "ε_R₁ = 0,005",
-        "ε_R₂ = 0,05",
+        "$\\epsilon_A(b_1; a_1) = \\frac{1}{300}$",
+        "$\\epsilon_A(b_2; a_2) = \\frac{1}{300}$",
+        "$\\epsilon_R(b_1; a_1) = 0{,}005$",
+        "$\\epsilon_R(b_2; a_2) = 0{,}05$",
         "Vergleich über den relativen Fehler"
       ],
       "punkte": 5,
@@ -477,9 +477,9 @@
       "format": "frage",
       "niveau": "wissen",
       "schwierigkeit": 1,
-      "frage": "Wie sind aufgerundeter, abgerundeter und kaufmännisch gerundeter Wert von a = a₀,a₁a₂… definiert?",
-      "antwort": "⌈a⌉ = a₀ + 1 (aufgerundet), ⌊a⌋ = a₀ (abgerundet), [a] = a₀, wenn a₁ < 5, sonst a₀ + 1 (kaufmännisch).",
-      "erklaerung": "Kaufmännisch: nur a₁ entscheidet.",
+      "frage": "Wie sind aufgerundeter, abgerundeter und kaufmännisch gerundeter Wert von $a = a_0{,}a_1a_2\\ldots$ definiert?",
+      "antwort": "$\\lceil a\\rceil = a_0 + 1$ (aufgerundet), $\\lfloor a\\rfloor = a_0$ (abgerundet), $[a] = a_0$, wenn $a_1 < 5$, sonst $a_0 + 1$ (kaufmännisch).",
+      "erklaerung": "Kaufmännisch: nur $a_1$ entscheidet.",
       "folie": "21–22",
       "pruefungsrelevant": true
     },
@@ -490,7 +490,7 @@
       "niveau": "wissen",
       "schwierigkeit": 1,
       "text": "Der kaufmännisch gerundete Wert ist [a] = a₀, wenn [[a₁ < 5]], sonst [[a₀ + 1]].",
-      "erklaerung": "Kaufmännisch runden: erste Nachkommastelle < 5 → abrunden.",
+      "erklaerung": "Kaufmännisch runden: erste Nachkommastelle $< 5$ → abrunden.",
       "folie": "21–22",
       "pruefungsrelevant": true
     },
@@ -500,18 +500,18 @@
       "format": "zuordnung",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "Ordne zu: a = 41,50235. Welcher Wert gehört zu welcher Rundung? (Mehrere können gleich sein.)",
+      "frage": "Ordne zu: $a = 41{,}50235$. Welcher Wert gehört zu welcher Rundung? (Mehrere können gleich sein.)",
       "kategorien": [
         "42",
         "41"
       ],
       "elemente": [
         {
-          "text": "⌈a⌉ aufgerundet",
+          "text": "$\\lceil a\\rceil$ aufgerundet",
           "kategorie": "42"
         },
         {
-          "text": "⌊a⌋ abgerundet",
+          "text": "$\\lfloor a\\rfloor$ abgerundet",
           "kategorie": "41"
         },
         {
@@ -519,7 +519,7 @@
           "kategorie": "42"
         }
       ],
-      "erklaerung": "a = 41,50235: aufrunden 42, abrunden 41, kaufmännisch 42 (a₁ = 5).",
+      "erklaerung": "$a = 41{,}50235$: aufrunden $42$, abrunden $41$, kaufmännisch $42$ (da $a_1 = 5$).",
       "folie": "21–23",
       "pruefungsrelevant": true
     },
@@ -529,8 +529,8 @@
       "format": "frage",
       "niveau": "verstehen",
       "schwierigkeit": 2,
-      "frage": "Was bedeutet [a]ₖ = b, also b · 10ᵏ = [a · 10ᵏ]?",
-      "antwort": "b ist der auf k Nachkommastellen kaufmännisch gerundete Wert von a: a mit 10ᵏ multiplizieren (Komma k Stellen nach rechts), auf eine ganze Zahl runden und wieder durch 10ᵏ teilen.",
+      "frage": "Was bedeutet $[a]_k = b$, also $b \\cdot 10^k = [a \\cdot 10^k]$?",
+      "antwort": "$b$ ist der auf $k$ Nachkommastellen kaufmännisch gerundete Wert von $a$: $a$ mit $10^k$ multiplizieren (Komma $k$ Stellen nach rechts), auf eine ganze Zahl runden und wieder durch $10^k$ teilen.",
       "erklaerung": "Komma verschieben – runden – zurückschieben.",
       "folie": "28–29",
       "pruefungsrelevant": true
@@ -541,10 +541,10 @@
       "format": "offen",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "Berechne [53,97683486]₅ und [888,567465]₅ nach Definition 2.3.",
-      "musterloesung": "53,97683486 · 10⁵ = 5397683,486 → [ ] = 5397683 → 53,97683. 888,567465 · 10⁵ = 88856746,5 → [ ] = 88856747 → 888,56747.",
+      "frage": "Berechne $[53{,}97683486]_5$ und $[888{,}567465]_5$ nach Definition 2.3.",
+      "musterloesung": "$53{,}97683486 \\cdot 10^5 = 5397683{,}486$ → $[5397683{,}486] = 5397683$ → $53{,}97683$. $888{,}567465 \\cdot 10^5 = 88856746{,}5$ → $[88856746{,}5] = 88856747$ → $888{,}56747$.",
       "bewertungspunkte": [
-        "mit 10⁵ multipliziert",
+        "mit $10^5$ multipliziert",
         "richtig auf ganze Zahl gerundet",
         "53,97683",
         "888,56747"
@@ -592,12 +592,12 @@
       "niveau": "anwenden",
       "schwierigkeit": 3,
       "frage": "Beweise: Beim Aufrunden ist der absolute Fehler höchstens 1.",
-      "musterloesung": "Sei a positiv mit Ganzzahlanteil a₀. Dann gibt es v ∈ [0, 1) mit a = a₀ + v. Für b = ⌈a⌉ = a₀ + 1 gilt ε_A(b; a) = |b − a| = |a₀ + 1 − (a₀ + v)| = |1 − v| = 1 − v ≤ 1. ∎",
+      "musterloesung": "Sei $a$ positiv mit Ganzzahlanteil $a_0$. Dann gibt es $v \\in [0, 1)$ mit $a = a_0 + v$. Für $b = \\lceil a \\rceil = a_0 + 1$ gilt $\\epsilon_A(b; a) = |b - a| = |a_0 + 1 - (a_0 + v)| = |1 - v| = 1 - v \\le 1$. $\\blacksquare$",
       "bewertungspunkte": [
-        "Zerlegung a = a₀ + v mit v ∈ [0,1)",
+        "Zerlegung $a = a_0 + v$ mit $v \\in [0, 1)$",
         "Definition aufgerundet eingesetzt",
-        "Betrag ausgerechnet: 1 − v",
-        "Abschätzung ≤ 1"
+        "Betrag ausgerechnet: $1 - v$",
+        "Abschätzung $\\le 1$"
       ],
       "punkte": 4,
       "erklaerung": "Beweis Aufrundung von Folie 24.",
@@ -631,7 +631,7 @@
       "richtig": [
         0
       ],
-      "erklaerung": "Je mehr Nachkommastellen, desto kleiner die Fehlerschranke 0,5 · 10⁻ᵏ.",
+      "erklaerung": "Je mehr Nachkommastellen, desto kleiner die Fehlerschranke $0{,}5 \\cdot 10^{-k}$.",
       "folie": "31–32",
       "pruefungsrelevant": false
     },
@@ -641,9 +641,9 @@
       "format": "frage",
       "niveau": "wissen",
       "schwierigkeit": 2,
-      "frage": "Wie ist eine Fließkommazahl in ℱ_g(l, u) definiert?",
-      "antwort": "f = m · gᵉ mit Mantisse m ∈ ℝ, Basis g ∈ ℕ und Exponent e ∈ ℤ, wobei 1. 1,0 ≤ m < g, 2. m höchstens l Stellen hat (Mantissenlänge) und 3. e < u (Exponentenschranke).",
-      "erklaerung": "f = m · gᵉ mit drei Bedingungen.",
+      "frage": "Wie ist eine Fließkommazahl in $\\mathcal{F}_g(l, u)$ definiert?",
+      "antwort": "$f = m \\cdot g^e$ mit Mantisse $m \\in \\mathbb{R}$, Basis $g \\in \\mathbb{N}$ und Exponent $e \\in \\mathbb{Z}$, wobei 1. $1{,}0 \\le |m| < g$, 2. $m$ höchstens $l$ Stellen hat (Mantissenlänge) und 3. $|e| < u$ (Exponentenschranke).",
+      "erklaerung": "$f = m \\cdot g^e$ mit drei Bedingungen.",
       "folie": "34",
       "pruefungsrelevant": true
     },
@@ -664,16 +664,16 @@
       "format": "offen",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "Gib 1/3 als Fließkommazahl in ℱ₁₀(2, 100) und in ℱ₁₀(12, 100) an und prüfe die drei Bedingungen.",
-      "musterloesung": "1/3 ≈ 0,3333… = 3,333… · 10⁻¹. In ℱ₁₀(2, 100): 3,3 · 10⁻¹; in ℱ₁₀(12, 100): 3,33333333333 · 10⁻¹. Bedingungen: 1,0 ≤ m < 10 ✓, m hat höchstens 2 bzw. 12 Stellen ✓, −1 < 100 ✓.",
+      "frage": "Gib $\\frac{1}{3}$ als Fließkommazahl in $\\mathcal{F}_{10}(2, 100)$ und in $\\mathcal{F}_{10}(12, 100)$ an und prüfe die drei Bedingungen.",
+      "musterloesung": "$\\frac{1}{3} \\approx 0{,}3333\\ldots = 3{,}333\\ldots \\cdot 10^{-1}$. In $\\mathcal{F}_{10}(2, 100)$: $3{,}3 \\cdot 10^{-1}$; in $\\mathcal{F}_{10}(12, 100)$: $3{,}33333333333 \\cdot 10^{-1}$. Bedingungen: $1{,}0 \\le |m| < 10$ ✓, $m$ hat höchstens 2 bzw. 12 Stellen ✓, $-1 < 100$ ✓.",
       "bewertungspunkte": [
         "Mantisse richtig normiert",
         "Länge 2 bzw. 12 beachtet",
-        "Exponent −1",
+        "Exponent $-1$",
         "Bedingungen geprüft"
       ],
       "punkte": 4,
-      "erklaerung": "Komma hinter die erste Ziffer ≠ 0.",
+      "erklaerung": "Komma hinter die erste Ziffer $\\neq 0$.",
       "folie": "38–40",
       "pruefungsrelevant": true
     },
@@ -683,10 +683,10 @@
       "format": "offen",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "Bestimme die kleinste positive und die größte Zahl in ℱ₁₀(12, 100).",
-      "musterloesung": "z = 1,00000000000 · 10⁻⁹⁹ (an der 99. Nachkommastelle eine 1), Z = 9,99999999999 · 10⁹⁹ (100-stellige Zahl aus 12 Neunen und 88 Nullen).",
+      "frage": "Bestimme die kleinste positive und die größte Zahl in $\\mathcal{F}_{10}(12, 100)$.",
+      "musterloesung": "$z = 1{,}00000000000 \\cdot 10^{-99}$ (an der 99. Nachkommastelle eine $1$), $Z = 9{,}99999999999 \\cdot 10^{99}$ (100-stellige Zahl aus 12 Neunen und 88 Nullen).",
       "bewertungspunkte": [
-        "z richtig",
+        "$z$ richtig",
         "Z richtig",
         "Begründung über Mantisse und Exponentenschranke"
       ],
@@ -716,7 +716,7 @@
           "kategorie": "ℱ₁₀(15, 308)"
         }
       ],
-      "erklaerung": "Einfache TR: ℱ₁₀(12, 100); Excel: ℱ₁₀(15, 308).",
+      "erklaerung": "Einfache TR: $\\mathcal{F}_{10}(12, 100)$; Excel: $\\mathcal{F}_{10}(15, 308)$.",
       "folie": "41",
       "pruefungsrelevant": false
     },
@@ -730,7 +730,7 @@
       "optionen": [
         "Jede Menge von Fließkommazahlen ist endlich.",
         "Jede Fließkommazahl (außer der größten) hat einen Nachfolger.",
-        "Mit großem u lassen sich alle reellen Zahlen mit kleinem relativen Fehler darstellen.",
+        "Mit großem $u$ lassen sich alle reellen Zahlen mit kleinem relativen Fehler darstellen.",
         "Irrationale Zahlen kann ein Taschenrechner ohne CAS nie exakt darstellen.",
         "Es gibt eine größte und eine kleinste Fließkommazahl."
       ],
@@ -750,8 +750,8 @@
       "format": "offen",
       "niveau": "anwenden",
       "schwierigkeit": 3,
-      "frage": "Eine Schülerin tippt √2 · √2 − 2 in den Rechner und erhält −3,35 · 10⁻⁴⁷. Sie meint, der Rechner sei kaputt. Wie erklärst du es ihr – und was folgt daraus für den Unterricht?",
-      "musterloesung": "√2 ist irrational und hat unendlich viele Nachkommastellen ohne Periode. Der Rechner speichert nur eine Näherung mit endlich vielen Stellen (Fließkommazahl). Quadriert ergibt diese Näherung nicht genau 2, deshalb bleibt ein winziger Rest. Der Rechner ist nicht kaputt, sondern hat Grenzen. Für den Unterricht: Grenzen des Werkzeugs thematisieren, Ergebnisse kritisch prüfen, Überschlag/exaktes Rechnen (√2 · √2 = 2) beherrschen.",
+      "frage": "Eine Schülerin tippt $\\sqrt{2} \\cdot \\sqrt{2} - 2$ in den Rechner und erhält $-3{,}35 \\cdot 10^{-47}$. Sie meint, der Rechner sei kaputt. Wie erklärst du es ihr – und was folgt daraus für den Unterricht?",
+      "musterloesung": "$\\sqrt{2}$ ist irrational und hat unendlich viele Nachkommastellen ohne Periode. Der Rechner speichert nur eine Näherung mit endlich vielen Stellen (Fließkommazahl). Quadriert ergibt diese Näherung nicht genau 2, deshalb bleibt ein winziger Rest. Der Rechner ist nicht kaputt, sondern hat Grenzen. Für den Unterricht: Grenzen des Werkzeugs thematisieren, Ergebnisse kritisch prüfen, Überschlag/exaktes Rechnen $(\\sqrt{2} \\cdot \\sqrt{2} = 2)$ beherrschen.",
       "bewertungspunkte": [
         "Irrationalität",
         "endliche Stellenzahl / Näherung",
@@ -769,15 +769,15 @@
       "format": "offen",
       "niveau": "anwenden",
       "schwierigkeit": 3,
-      "frage": "x = 10⁻¹⁰⁰⁰ wird in ℱ₁₀(12, 100) durch z = 10⁻⁹⁹ angenähert. Berechne den relativen Fehler und deute ihn.",
-      "musterloesung": "ε_R = |10⁻⁹⁹ − 10⁻¹⁰⁰⁰| / 10⁻¹⁰⁰⁰ = 10⁹⁰¹ − 1 ≈ 10⁹⁰¹. Riesig: Es gibt immer Zahlen, die durch Fließkommazahlen nur mit großem relativen Fehler dargestellt werden – egal wie groß u ist.",
+      "frage": "$x = 10^{-1000}$ wird in $\\mathcal{F}_{10}(12, 100)$ durch $z = 10^{-99}$ angenähert. Berechne den relativen Fehler und deute ihn.",
+      "musterloesung": "$\\epsilon_R = \\frac{|10^{-99} - 10^{-1000}|}{10^{-1000}} = 10^{901} - 1 \\approx 10^{901}$. Riesig: Es gibt immer Zahlen, die durch Fließkommazahlen nur mit großem relativen Fehler dargestellt werden – egal wie groß $u$ ist.",
       "bewertungspunkte": [
         "Formel richtig angesetzt",
-        "10⁹⁰¹ − 1",
+        "$10^{901} - 1$",
         "Deutung"
       ],
       "punkte": 3,
-      "erklaerung": "ε_R ≈ 10⁹⁰¹.",
+      "erklaerung": "$\\epsilon_R \\approx 10^{901}$.",
       "folie": "46–47",
       "pruefungsrelevant": false
     }
@@ -786,8 +786,7 @@
     "Beweise für Abrundung und kaufmännisches Runden (Satz 2.1) folgen auf Übungsblatt 3 – Übungsaufgaben sind Vorlage für die Klausur. (Folie 24)"
   ],
   "offene_fragen": [
-    "Def. 2.2: Nach der Definition wäre auch eine ganze Zahl wie 23,0 „aufgerundet“ 24 (b = a₀ + 1). Üblich wäre 23. Ist das so gewollt?",
-    "Def. 2.4, Bedingung „e < u“: Damit wären beliebig kleine (negative) Exponenten erlaubt – also unendlich viele Zahlen, im Widerspruch zu Folie 33/49. Ist |e| < u gemeint (so wird auf Folie 44 gerechnet)?",
-    "Folie 47: 0 liegt näher an 10⁻¹⁰⁰⁰ als 10⁻⁹⁹; echte Rechner zeigen meist 0 (relativer Fehler 1). Warum wird mit z gerechnet?"
+    "Def. 2.2: Nach der Definition wäre auch eine ganze Zahl wie $23{,}0$ „aufgerundet“ $24$ ($b = a_0 + 1$). Üblich wäre $23$. Ist das so gewollt?",
+    "Folie 47: 0 liegt näher an $10^{-1000}$ als $10^{-99}$; echte Rechner zeigen meist 0 (relativer Fehler 1). Warum wird mit $z$ gerechnet?"
   ]
 }

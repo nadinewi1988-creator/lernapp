@@ -118,18 +118,18 @@
       "titel": "Von Fingern zu Zahlensystemen",
       "folien": "16–26",
       "text": "Erste Zählhilfen: **Finger, Steine, Striche**; mit **Kerbhölzern** hielt man Anzahlen fest.\n\n**Additive Zahlensysteme** (römisch, ägyptisch): Zeichenwerte werden addiert, XVII = 17. Rechnen wie CCCXLV · MCCCXIX ist auf dem Papier kaum möglich – man brauchte den **Abakus**.\n\n**Stellenwertsysteme:** Der Wert einer Ziffer hängt von der Stelle ab. Die **Babylonier** hatten Basis 60 ohne Null (heute noch bei Winkeln und Uhrzeit). Im 5. Jh. wurde in **Indien** das Dezimalsystem mit der Null erfunden. **Fibonacci** brachte es 1202 mit den arabischen Ziffern nach Europa. **Adam Ries** verbreitete das Rechnen damit – auf den Linien und mit der Feder.",
-      "beispiel": "Basis 10: 4 + 6 = 10. Basis 2: 1 + 1 = 10. Basis 8: 4 + 6 = 12 (Ergänzung: die Folie nennt die Basis nicht)."
+      "beispiel": "Basis 10: $4 + 6 = 10$. Basis 2: $1 + 1 = 10$. Basis 8: $4 + 6 = 12$ (Ergänzung: die Folie nennt die Basis nicht)."
     },
     {
       "titel": "Rechenmaschinen",
       "folien": "27–33",
-      "text": "Im 17. Jh. entstanden Rechenmaschinen **auf Basis des Dezimalsystems**: **Schickard** (Zahnräder, Walzen) und **Pascal** (Pascaline).\n\nMultiplikation wie 837 · 231 = 837 · 200 + 837 · 30 + 837 · 1 (stellenverschoben addieren). **Pascals Maschine half nur beim Addieren** der Teilprodukte, **Schickards Maschine lieferte auch die Teilprodukte**. Leibniz: stupides Rechnen sei ‚eines Menschen unwürdig‘.\n\n**Jacquard** steuerte seinen Webstuhl (1805) mit **Lochkarten**: Loch oder kein Loch = 1 oder 0. **Hollerith** wertete die US-Volkszählung 1890 mit Lochkarten und Strom aus (Strom fließt oder nicht – zwei Möglichkeiten): 43 Maschinen, Ergebnis nach 4 Wochen statt Jahren.",
+      "text": "Im 17. Jh. entstanden Rechenmaschinen **auf Basis des Dezimalsystems**: **Schickard** (Zahnräder, Walzen) und **Pascal** (Pascaline).\n\nMultiplikation wie $837 \\cdot 231 = 837 \\cdot 200 + 837 \\cdot 30 + 837 \\cdot 1$ (stellenverschoben addieren). **Pascals Maschine half nur beim Addieren** der Teilprodukte, **Schickards Maschine lieferte auch die Teilprodukte**. Leibniz: stupides Rechnen sei ‚eines Menschen unwürdig‘.\n\n**Jacquard** steuerte seinen Webstuhl (1805) mit **Lochkarten**: Loch oder kein Loch = 1 oder 0. **Hollerith** wertete die US-Volkszählung 1890 mit Lochkarten und Strom aus (Strom fließt oder nicht – zwei Möglichkeiten): 43 Maschinen, Ergebnis nach 4 Wochen statt Jahren.",
       "beispiel": "Ergänzung (nicht aus der Vorlesung, Quelle Rechnerlexikon): Schickards Addierwerk hatte 6 Stellen; subtrahiert wurde durch Zurückdrehen der Räder; multipliziert mit Walzen (Teilprodukte ablesen) und anschließender Addition."
     },
     {
       "titel": "Nullen und Einsen: Boole und Zuse",
       "folien": "34–38",
-      "text": "**George Boole** entwickelte eine Algebra der Logik. **UND** (Konjunktion, &): Ausgang 1 nur, wenn beide Eingänge 1 (Reihenschaltung). **ODER** (Disjunktion, ≥1): Ausgang 1, sobald ein Eingang 1 (Parallelschaltung).\n\n| x0 | x1 | UND | ODER |\n|---|---|---|---|\n| 0 | 0 | 0 | 0 |\n| 0 | 1 | 0 | 1 |\n| 1 | 0 | 0 | 1 |\n| 1 | 1 | 1 | 1 |\n\nKernaussage: Schickard nutzte noch Zahnräder und das Dezimalsystem. Danach kamen **Lochkarten, Schaltungen und Binärsystem** zusammen – alles Nullen und Einsen. **Konrad Zuse** nutzte das **Binärsystem statt des Dezimalsystems**; seine **Z3 (1941)** hatte u. a. Eingabe-, Ausgabeeinheit, Speicher, Rechenwerk und Steuerwerk. Dazu: Colossus (Turing, ‚The Imitation Game‘).",
+      "text": "**George Boole** entwickelte eine Algebra der Logik. **UND** (Konjunktion, &): Ausgang 1 nur, wenn beide Eingänge 1 (Reihenschaltung). **ODER** (Disjunktion, $\\ge 1$): Ausgang 1, sobald ein Eingang 1 (Parallelschaltung).\n\n| x0 | x1 | UND | ODER |\n|---|---|---|---|\n| 0 | 0 | 0 | 0 |\n| 0 | 1 | 0 | 1 |\n| 1 | 0 | 0 | 1 |\n| 1 | 1 | 1 | 1 |\n\nKernaussage: Schickard nutzte noch Zahnräder und das Dezimalsystem. Danach kamen **Lochkarten, Schaltungen und Binärsystem** zusammen – alles Nullen und Einsen. **Konrad Zuse** nutzte das **Binärsystem statt des Dezimalsystems**; seine **Z3 (1941)** hatte u. a. Eingabe-, Ausgabeeinheit, Speicher, Rechenwerk und Steuerwerk. Dazu: Colossus (Turing, ‚The Imitation Game‘).",
       "beispiel": ""
     },
     {
@@ -148,8 +148,8 @@
     },
     {
       "begriff": "Stellenwertsystem",
-      "wortlaut": "Stellenwertsysteme (Beispiel: 1 + 1 = 2, 4 + 6 = 10 bzw. 1 + 1 = 10, 4 + 6 = 12)",
-      "erklaerung": "Der Wert einer Ziffer hängt von ihrer Stelle ab. Die Basis gibt an, wann eine Stelle ‚voll‘ ist und übertragen wird: Basis 10 → 4 + 6 = 10; Basis 2 → 1 + 1 = 10; Basis 8 → 4 + 6 = 12. Beispiele: Babylonier (Basis 60, ohne Null), indisches Dezimalsystem (mit Null). Ergänzung zur Basis (nicht ausdrücklich auf der Folie).",
+      "wortlaut": "Stellenwertsysteme (Beispiel: $1 + 1 = 2$, $4 + 6 = 10$ bzw. $1 + 1 = 10$, $4 + 6 = 12$)",
+      "erklaerung": "Der Wert einer Ziffer hängt von ihrer Stelle ab. Die Basis gibt an, wann eine Stelle ‚voll‘ ist und übertragen wird: Basis 10 → $4 + 6 = 10$; Basis 2 → $1 + 1 = 10$; Basis 8 → $4 + 6 = 12$. Beispiele: Babylonier (Basis 60, ohne Null), indisches Dezimalsystem (mit Null). Ergänzung zur Basis (nicht ausdrücklich auf der Folie).",
       "folie": "20–23"
     },
     {
@@ -160,13 +160,13 @@
     },
     {
       "begriff": "UND (Konjunktion)",
-      "wortlaut": "AND (Konjunktion), Gatterzeichen &; Wahrheitstafel: 0 0 → 0 · 0 1 → 0 · 1 0 → 0 · 1 1 → 1",
+      "wortlaut": "AND (Konjunktion), Gatterzeichen &; Wahrheitstafel: 0 0 → 0 | 0 1 → 0 | 1 0 → 0 | 1 1 → 1",
       "erklaerung": "Der Ausgang ist nur 1, wenn alle Eingänge 1 sind. Als Schaltung: zwei Schalter hintereinander (Reihenschaltung) – Strom fließt nur, wenn beide geschlossen sind.",
       "folie": "34"
     },
     {
       "begriff": "ODER (Disjunktion)",
-      "wortlaut": "OR (Disjunktion), Gatterzeichen ≥1; Wahrheitstafel: 0 0 → 0 · 0 1 → 1 · 1 0 → 1 · 1 1 → 1",
+      "wortlaut": "OR (Disjunktion), Gatterzeichen $\\ge 1$; Wahrheitstafel: 0 0 → 0 | 0 1 → 1 | 1 0 → 1 | 1 1 → 1",
       "erklaerung": "Der Ausgang ist 1, sobald mindestens ein Eingang 1 ist. Als Schaltung: zwei Schalter nebeneinander (Parallelschaltung).",
       "folie": "34"
     },
@@ -225,10 +225,10 @@
     {
       "id": "a03",
       "art": "Aufgabe auf Folie",
-      "text": "Wollte der Benutzer multiplizieren, beispielsweise 837 · 231 so musste er die drei Teilprodukte 837 · 200, 837 · 30, 837 · 1 berechnen und jeweils um eine Stelle verschoben addieren.",
+      "text": "Wollte der Benutzer multiplizieren, beispielsweise $837 \\cdot 231$ so musste er die drei Teilprodukte $837 \\cdot 200$, $837 \\cdot 30$, $837 \\cdot 1$ berechnen und jeweils um eine Stelle verschoben addieren.",
       "quelle": "Folie 29",
-      "loesung": "837 · 231 = 193 347",
-      "loesungsweg": "837 · 200 = 167 400; 837 · 30 = 25 110; 837 · 1 = 837. Summe: 167 400 + 25 110 + 837 = 193 347. (Ausgerechnet als Übung – die Folie zeigt nur das Verfahren.)",
+      "loesung": "$837 \\cdot 231 = 193\\,347$",
+      "loesungsweg": "$837 \\cdot 200 = 167\\,400$; $837 \\cdot 30 = 25\\,110$; $837 \\cdot 1 = 837$. Summe: $167\\,400 + 25\\,110 + 837 = 193\\,347$. (Ausgerechnet als Übung – die Folie zeigt nur das Verfahren.)",
       "frist": "",
       "im_kalender": false
     },
@@ -345,7 +345,7 @@
           "kategorie": "keins von beiden = 1"
         }
       ],
-      "erklaerung": "UND ist nur bei 1/1 wahr, ODER nur bei 0/0 falsch.",
+      "erklaerung": "UND ist nur bei 1 und 1 wahr, ODER nur bei 0 und 0 falsch.",
       "folie": "34",
       "pruefungsrelevant": true
     },
@@ -479,7 +479,7 @@
       "niveau": "verstehen",
       "schwierigkeit": 2,
       "frage": "Welche drei Dinge kamen nach Schickard zusammen, und was haben sie gemeinsam?",
-      "antwort": "Lochkarten, Schaltungen und das Binärsystem – alle arbeiten mit Nullen und Einsen (Loch/kein Loch, Strom/kein Strom, 0/1). Zuse nutzte deshalb das Binärsystem statt des Dezimalsystems.",
+      "antwort": "Lochkarten, Schaltungen und das Binärsystem – alle arbeiten mit Nullen und Einsen (Loch / kein Loch, Strom / kein Strom, 0 / 1). Zuse nutzte deshalb das Binärsystem statt des Dezimalsystems.",
       "erklaerung": "Schickard: Zahnräder und Dezimalsystem. Danach: Lochkarten, Schaltungen, Binärsystem – Zuse nutzte das Binärsystem.",
       "folie": "35–36",
       "pruefungsrelevant": true
@@ -589,7 +589,7 @@
       "format": "offen",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "Begründe, warum man CCCXLV · MCCCXIX kaum schriftlich berechnen kann, 345 · 1319 dagegen schon.",
+      "frage": "Begründe, warum man CCCXLV · MCCCXIX kaum schriftlich berechnen kann, $345 \\cdot 1319$ dagegen schon.",
       "musterloesung": "Die römischen Zahlen sind ein additives System: Der Wert eines Zeichens hängt nicht von seiner Stelle ab, es gibt keine Ziffern für ‚Stellen‘ und keine Null. Schriftliche Verfahren arbeiten aber stellenweise (Einer, Zehner …) mit Übertrag. Im Dezimalsystem (Stellenwertsystem) geht das; mit römischen Zahlen brauchte man Hilfsmittel wie den Abakus oder das Rechenbrett.",
       "bewertungspunkte": [
         "additives System erkannt",
@@ -627,8 +627,8 @@
       "format": "offen",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "Berechne 837 · 231 so, wie man es mit Schickards Maschine getan hätte (Teilprodukte, verschoben addieren).",
-      "musterloesung": "837 · 200 = 167 400; 837 · 30 = 25 110; 837 · 1 = 837; Summe 193 347.",
+      "frage": "Berechne $837 \\cdot 231$ so, wie man es mit Schickards Maschine getan hätte (Teilprodukte, verschoben addieren).",
+      "musterloesung": "$837 \\cdot 200 = 167\\,400$; $837 \\cdot 30 = 25\\,110$; $837 \\cdot 1 = 837$; Summe 193 347.",
       "bewertungspunkte": [
         "drei Teilprodukte richtig",
         "stellenverschoben addiert",
@@ -720,7 +720,7 @@
     "Für die Klausuraufgaben werde ich mich sehr nah an den Übungsaufgaben orientieren. Die Abfrage der Kompetenzen erfolgt in Anlehnung an die Modulbeschreibung. (Folie 6)"
   ],
   "offene_fragen": [
-    "Folie 20: Welche Basis ist bei „1 + 1 = 10“ und „4 + 6 = 12“ gemeint? (Rechnerisch: Basis 2 bzw. Basis 8.)",
+    "Folie 20: Welche Basis ist bei „$1 + 1 = 10$“ und „$4 + 6 = 12$“ gemeint? (Rechnerisch: Basis 2 bzw. Basis 8.)",
     "Folie 21: „MCCCIXX“ ist keine gültige römische Zahl – ist MCCCXIX (1319) gemeint?",
     "Folie 23: Wie lautet die Antwort auf „Stimmt die Behauptung?“ (Null in Indien erfunden) – die Maya hatten laut Folie 19 auch ein Zeichen für 0.",
     "Folie 27: Pascal ist mit „1632–1662“ angegeben, geboren wurde er 1623 – Tippfehler?",

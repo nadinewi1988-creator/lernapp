@@ -72,6 +72,7 @@ function bloecke(text: string): string {
   return text.split(/\n{2,}/).map((block) => {
     const zeilen = block.split('\n').filter((z, i, a) => z.trim() !== '' || (i > 0 && i < a.length - 1));
     if (!zeilen.length) return '';
+    if (zeilen.length === 1 && zeilen[0].trim() === '---neue-seite---') return '<div class="lt-seite"></div>';
     if (zeilen.every((z) => z.trim().startsWith('|'))) {
       const rows = zeilen.filter((z) => !/^\s*\|[\s|:-]+\|\s*$/.test(z)).map((z) => z.trim().replace(/^\||\|$/g, '').split('|').map((c) => c.trim()));
       const [kopf, ...rest] = rows;

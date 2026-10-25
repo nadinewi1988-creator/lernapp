@@ -102,25 +102,25 @@
     {
       "titel": "Definition und Satz",
       "folien": "Blatt 2, Grundlagenaufgabe 1",
-      "text": "Ergänzung (nicht aus dem Material):\n\n- Eine **Definition** legt fest, was ein Begriff bedeutet. Sie ist eine Vereinbarung und kann nicht bewiesen werden. Typisch: „… heißt …“, „… ist ein …, das …“, a² := a · a.\n- Ein **Satz** ist eine Aussage über schon definierte Begriffe, die wahr ist und bewiesen werden kann. Typisch: „Für alle …“, „Wenn …, dann …“.\n- **Weder noch:** Terme (sagen nichts aus) und Gleichungen mit Variablen (je nach x wahr oder falsch).\n\nBeispiel aus VL 2: Definition 2.1 legt fest, was der absolute Fehler ist; Satz 2.1 behauptet, dass er beim kaufmännischen Runden höchstens ½ ist, und wird bewiesen.",
+      "text": "Ergänzung (nicht aus dem Material):\n\n- Eine **Definition** legt fest, was ein Begriff bedeutet. Sie ist eine Vereinbarung und kann nicht bewiesen werden. Typisch: „… heißt …“, „… ist ein …, das …“, $a^2 := a \\cdot a$.\n- Ein **Satz** ist eine Aussage über schon definierte Begriffe, die wahr ist und bewiesen werden kann. Typisch: „Für alle …“, „Wenn …, dann …“.\n- **Weder noch:** Terme (sagen nichts aus) und Gleichungen mit Variablen (je nach $x$ wahr oder falsch).\n\nBeispiel aus VL 2: Definition 2.1 legt fest, was der absolute Fehler ist; Satz 2.1 behauptet, dass er beim kaufmännischen Runden höchstens $\\frac{1}{2}$ ist, und wird bewiesen.",
       "beispiel": "Satz: In jedem Dreieck ist die Innenwinkelsumme 180°. Definition: Ein Parallelogramm ist ein Viereck, in dem gegenüberliegende Seiten parallel sind."
     },
     {
       "titel": "Potenzen und Zehnerpotenzen",
       "folien": "Blatt 2, Grundlagenaufgaben 2–5",
-      "text": "**Potenzgesetze** (a, b ≠ 0; Ergänzung):\n\n| Gesetz | Formel |\n|---|---|\n| P1 | aᵐ · aⁿ = aᵐ⁺ⁿ |\n| P2 | aᵐ : aⁿ = aᵐ⁻ⁿ |\n| P3 | (aᵐ)ⁿ = aᵐ·ⁿ |\n| P4 | (a · b)ⁿ = aⁿ · bⁿ |\n| P5 | a⁰ = 1 |\n| P6 | a⁻ⁿ = 1/aⁿ |\n| P7 | a^(1/n) = ⁿ√a |\n\nJede Dezimalzahl ist eine Summe von Zehnerpotenzen (Stellenwertsystem): 302,015 = 3·10² + 0·10¹ + 2·10⁰ + 0·10⁻¹ + 1·10⁻² + 5·10⁻³.\n\nIn **wissenschaftlicher Schreibweise** (z. B. 3,5 · 10⁷) rechnet man Mantissen und Zehnerpotenzen getrennt – das ist die Grundlage der Fließkommazahlen aus VL 2.",
-      "beispiel": "(3,5 · 10⁷)² = 3,5² · 10¹⁴ = 12,25 · 10¹⁴ – nicht 3,5 · 10¹⁴ (Klammer!)."
+      "text": "**Potenzgesetze** ($a$, $b \\neq 0$; Ergänzung):\n\n| Gesetz | Formel |\n|---|---|\n| P1 | aᵐ · aⁿ = aᵐ⁺ⁿ |\n| P2 | aᵐ : aⁿ = aᵐ⁻ⁿ |\n| P3 | (aᵐ)ⁿ = aᵐ·ⁿ |\n| P4 | (a · b)ⁿ = aⁿ · bⁿ |\n| P5 | a⁰ = 1 |\n| P6 | a⁻ⁿ = 1/aⁿ |\n| P7 | a^(1/n) = ⁿ√a |\n\nJede Dezimalzahl ist eine Summe von Zehnerpotenzen (Stellenwertsystem): $302{,}015 = 3\\cdot 10^2 + 0\\cdot 10^1 + 2\\cdot 10^0 + 0\\cdot 10^{-1} + 1\\cdot 10^{-2} + 5\\cdot 10^{-3}$.\n\nIn **wissenschaftlicher Schreibweise** (z. B. $3{,}5 \\cdot 10^7$) rechnet man Mantissen und Zehnerpotenzen getrennt – das ist die Grundlage der Fließkommazahlen aus VL 2.",
+      "beispiel": "$(3{,}5 \\cdot 10^7)^2 = 3{,}5^2 \\cdot 10^{14} = 12{,}25 \\cdot 10^{14}$ – nicht $3{,}5 \\cdot 10^{14}$ (Klammer!)."
     },
     {
       "titel": "Schickards Rechenmaschine",
       "folien": "Blatt 2, Übungsaufgabe 1 · Ausstellung.JPG",
-      "text": "Das Schulbuchbild zeigt einen Nachbau der 1623 von Wilhelm Schickard (1592–1635) konstruierten Rechenmaschine mit Drehknöpfen des Rechenwerks und Merkrädern.\n\nOben ist **2427** eingestellt, in Zeile 7 stehen die Teilprodukte 14 | 28 | 14 | 49 (2·7, 4·7, 2·7, 7·7). Stellenverschoben addiert: 14 000 + 2 800 + 140 + 49 = **16 989 = 2427 · 7**.\n\nMathematische Voraussetzungen: dezimales Stellenwertsystem mit Null, Zehnerübertrag über Zahnräder, Zerlegung einer Multiplikation in Teilprodukte (Distributivgesetz), Walzen mit den Vielfachen jeder Ziffer (Prinzip der Rechenstäbchen von Napier – Ergänzung).",
-      "beispiel": "23 · 27: Zeile 7 → 23 · 7 = 161; Zeile 2 (eine Stelle verschoben) → 23 · 20 = 460; im Addierwerk 161 + 460 = 621."
+      "text": "Das Schulbuchbild zeigt einen Nachbau der 1623 von Wilhelm Schickard (1592–1635) konstruierten Rechenmaschine mit Drehknöpfen des Rechenwerks und Merkrädern.\n\nOben ist **2427** eingestellt, in Zeile 7 stehen die Teilprodukte 14 | 28 | 14 | 49 ($2 \\cdot 7$, $4 \\cdot 7$, $2 \\cdot 7$, $7 \\cdot 7$). Stellenverschoben addiert: $14\\,000 + 2\\,800 + 140 + 49 = 16\\,989$, also **$2427 \\cdot 7 = 16\\,989$**.\n\nMathematische Voraussetzungen: dezimales Stellenwertsystem mit Null, Zehnerübertrag über Zahnräder, Zerlegung einer Multiplikation in Teilprodukte (Distributivgesetz), Walzen mit den Vielfachen jeder Ziffer (Prinzip der Rechenstäbchen von Napier – Ergänzung).",
+      "beispiel": "$23 \\cdot 27$: Zeile 7 → $23 \\cdot 7 = 161$; Zeile 2 (eine Stelle verschoben) → $23 \\cdot 20 = 460$; im Addierwerk $161 + 460 = 621$."
     },
     {
       "titel": "Rechenhilfen im Unterricht",
       "folien": "Blatt 2, Übungsaufgaben 1d, 2 · KC RS S. 5, 24, 27",
-      "text": "**KC Realschule, Bildungsbeitrag (S. 5):** Mathematik als ein kultureller Zugang, die Welt zu verstehen; Beitrag zur Medienbildung; Orientierung in einer durch Technik und Fortschritt geprägten Welt; Förderung von Ordnen, Verallgemeinern, Abstrahieren, folgerichtigem Denken.\n\n**Inhaltsbezogen – Zahlen und Operationen (S. 27):** tragfähiges Verständnis des Stellenwertsystems (Kl. 6), Bedeutung und Zusammenhänge der Grundrechenarten, Zahlen in Zehnerpotenzschreibweise (Kl. 10).\n\n**Werkzeuge (3.1.5, S. 24):** bis Ende Klasse 6: Lineal, Geodreieck, Zirkel; Tabellenkalkulation zum Erstellen von Diagrammen · bis Ende Klasse 8: Dynamische Geometrie-Software, Standardfunktionen des Taschenrechners, Tabellenkalkulation · bis Ende Klasse 10: Parabelschablone, erweiterte Funktionen des Taschenrechners. Basiskompetenz: den Taschenrechner sinnvoll und verständig einsetzen.\n\n**Rechenstab:** analoges Rechengerät, an Schulen in den letzten Jahrzehnten des 20. Jahrhunderts vom Taschenrechner abgelöst (1,3 · 3,5 = 4,55 auf Skala D ablesbar).",
+      "text": "**KC Realschule, Bildungsbeitrag (S. 5):** Mathematik als ein kultureller Zugang, die Welt zu verstehen; Beitrag zur Medienbildung; Orientierung in einer durch Technik und Fortschritt geprägten Welt; Förderung von Ordnen, Verallgemeinern, Abstrahieren, folgerichtigem Denken.\n\n**Inhaltsbezogen – Zahlen und Operationen (S. 27):** tragfähiges Verständnis des Stellenwertsystems (Kl. 6), Bedeutung und Zusammenhänge der Grundrechenarten, Zahlen in Zehnerpotenzschreibweise (Kl. 10).\n\n**Werkzeuge (3.1.5, S. 24):** bis Ende Klasse 6: Lineal, Geodreieck, Zirkel; Tabellenkalkulation zum Erstellen von Diagrammen · bis Ende Klasse 8: Dynamische Geometrie-Software, Standardfunktionen des Taschenrechners, Tabellenkalkulation · bis Ende Klasse 10: Parabelschablone, erweiterte Funktionen des Taschenrechners. Basiskompetenz: den Taschenrechner sinnvoll und verständig einsetzen.\n\n**Rechenstab:** analoges Rechengerät, an Schulen in den letzten Jahrzehnten des 20. Jahrhunderts vom Taschenrechner abgelöst ($1{,}3 \\cdot 3{,}5 = 4{,}55$ auf Skala D ablesbar).",
       "beispiel": ""
     }
   ],
@@ -128,7 +128,7 @@
     {
       "begriff": "Definition (mathematisch)",
       "wortlaut": "Ergänzung (nicht aus dem Material): Eine Definition legt fest, was ein Begriff bedeutet.",
-      "erklaerung": "Eine Vereinbarung – sie ist weder wahr noch falsch und wird nicht bewiesen. Typisch: „… heißt …“, „… ist ein …, das …“, a² := a · a. Beispiel: Ein Parallelogramm ist ein Viereck, in dem gegenüberliegende Seiten zueinander parallel sind.",
+      "erklaerung": "Eine Vereinbarung – sie ist weder wahr noch falsch und wird nicht bewiesen. Typisch: „… heißt …“, „… ist ein …, das …“, $a^2 := a \\cdot a$. Beispiel: Ein Parallelogramm ist ein Viereck, in dem gegenüberliegende Seiten zueinander parallel sind.",
       "folie": "Blatt 2, Grundlagenaufgabe 1"
     },
     {
@@ -139,13 +139,13 @@
     },
     {
       "begriff": "Potenzgesetze",
-      "wortlaut": "Ergänzung (nicht aus dem Material): aᵐ · aⁿ = aᵐ⁺ⁿ · aᵐ : aⁿ = aᵐ⁻ⁿ · (aᵐ)ⁿ = aᵐ·ⁿ · (a · b)ⁿ = aⁿ · bⁿ · a⁰ = 1 · a⁻ⁿ = 1/aⁿ · a^(1/n) = ⁿ√a (a, b ≠ 0)",
-      "erklaerung": "Rechenregeln für Potenzen. Häufige Fehler: 10⁰ = 0 (richtig: 1), 100^½ = 50 (richtig: 10), 3 · 2² = 6² (richtig: 12).",
+      "wortlaut": "Ergänzung (nicht aus dem Material): P1 $a^m \\cdot a^n = a^{m+n}$; P2 $\\frac{a^m}{a^n} = a^{m-n}$; P3 $(a^m)^n = a^{m \\cdot n}$; P4 $(a \\cdot b)^n = a^n \\cdot b^n$; P5 $a^0 = 1$; P6 $a^{-n} = \\frac{1}{a^n}$; P7 $a^{\\frac{1}{n}} = \\sqrt[n]{a}$ (für $a, b \\neq 0$, bei P7 $a > 0$)",
+      "erklaerung": "Rechenregeln für Potenzen. Häufige Fehler: $10^0 = 0$ (richtig: 1), $100^{\\frac{1}{2}} = 50$ (richtig: 10), $3 \\cdot 2^2 = 6^2$ (richtig: 12).",
       "folie": "Blatt 2, Grundlagenaufgabe 2"
     },
     {
       "begriff": "Rechenstab",
-      "wortlaut": "Beim abgebildeten Rechenstab kann unter dem Strich des Läufers auf der Skala D das Ergebnis der Multiplikation 1,3 · 3,5, nämlich 4,55, abgelesen werden. (Schulbuch, Ausstellung.JPG)",
+      "wortlaut": "Beim abgebildeten Rechenstab kann unter dem Strich des Läufers auf der Skala D das Ergebnis der Multiplikation $1{,}3 \\cdot 3{,}5$, nämlich 4,55, abgelesen werden. (Schulbuch, Ausstellung.JPG)",
       "erklaerung": "Analoges Rechengerät mit verschiebbaren Skalen; wurde an Schulen in den letzten Jahrzehnten des 20. Jahrhunderts vom Taschenrechner abgelöst.",
       "folie": "Ausstellung.JPG"
     }
@@ -205,19 +205,19 @@
           "kategorie": "Satz"
         },
         {
-          "text": "(2a + 3b − 4c) · 5y",
+          "text": "$(2a + 3b - 4c) \\cdot 5y$",
           "kategorie": "weder noch"
         },
         {
-          "text": "5x − 16 = 19",
+          "text": "$5x - 16 = 19$",
           "kategorie": "weder noch"
         },
         {
-          "text": "(a + b)² = a² + 2ab + b²",
+          "text": "$(a + b)^2 = a^2 + 2ab + b^2$",
           "kategorie": "Satz"
         },
         {
-          "text": "a² = a · a",
+          "text": "$a^2 = a \\cdot a$",
           "kategorie": "Definition"
         },
         {
@@ -236,7 +236,7 @@
       "niveau": "anwenden",
       "schwierigkeit": 2,
       "frage": "Suche aus VL 2 je ein Beispiel für eine Definition und einen Satz und begründe die Einordnung.",
-      "musterloesung": "Definition 2.1 (absoluter Fehler ε_A(b; a) := |b − a|) legt fest, was ein Begriff bedeutet. Satz 2.1 (maximaler Rundungsfehler ≤ 1 bzw. ½) ist eine Aussage, die auf Folie 24 bewiesen wird.",
+      "musterloesung": "Definition 2.1 (absoluter Fehler $\\epsilon_A(b; a) := |b - a|$) legt fest, was ein Begriff bedeutet. Satz 2.1 (maximaler Rundungsfehler $\\le 1$ bzw. $\\frac{1}{2}$) ist eine Aussage, die auf Folie 24 bewiesen wird.",
       "bewertungspunkte": [
         "Beispiel Definition",
         "Beispiel Satz",
@@ -254,7 +254,7 @@
       "niveau": "wissen",
       "schwierigkeit": 2,
       "frage": "Nenne die Potenzgesetze für gleiche Basis (mal, geteilt), Potenz einer Potenz, Exponent 0 und negativen Exponenten.",
-      "antwort": "aᵐ · aⁿ = aᵐ⁺ⁿ; aᵐ : aⁿ = aᵐ⁻ⁿ; (aᵐ)ⁿ = aᵐ·ⁿ; a⁰ = 1; a⁻ⁿ = 1/aⁿ (a ≠ 0).",
+      "antwort": "$a^m \\cdot a^n = a^{m+n}$; $a^m : a^n = a^{m-n}$; $(a^m)^n = a^{m \\cdot n}$; $(a \\cdot b)^n = a^n \\cdot b^n$; $a^0 = 1$; $a^{-n} = \\frac{1}{a^n}$; $a^{\\frac{1}{n}} = \\sqrt[n]{a}$ ($a \\neq 0$).",
       "erklaerung": "Ergänzung (nicht aus dem Material).",
       "folie": "Blatt 2, G2",
       "pruefungsrelevant": false
@@ -267,11 +267,11 @@
       "schwierigkeit": 2,
       "frage": "Welche Aussagen sind wahr?",
       "optionen": [
-        "a²/a⁻¹ = a³",
-        "10⁰ = 0",
-        "100^(1/2) = 50",
-        "3 · 2² = 6²",
-        "9⁻² = 1/81",
+        "$\\frac{a^2}{a^{-1}} = a^3$",
+        "$10^0 = 0$",
+        "$100^{\\frac{1}{2}} = 50$",
+        "$3 \\cdot 2^2 = 6^2$",
+        "$9^{-2} = \\frac{1}{81}$",
         "(2x³)³ = 8x⁹"
       ],
       "richtig": [
@@ -279,7 +279,7 @@
         4,
         5
       ],
-      "erklaerung": "a²/a⁻¹ = a³ ist wahr (P2). 10⁰ = 1, 100^½ = 10, 3·2² = 12, 9⁻² = 1/81, (2x³)³ = 8x⁹.",
+      "erklaerung": "$\\frac{a^2}{a^{-1}} = a^3$ ist wahr (P2). Falsch sind: $10^0 = 1$ (P5), $100^{\\frac{1}{2}} = \\sqrt{100} = 10$ (P7), $3 \\cdot 2^2 = 12$, $9^{-2} = \\frac{1}{81}$ (P6), $(2x^3)^3 = 8x^9$ (P4, P3).",
       "folie": "Blatt 2, G2",
       "pruefungsrelevant": false
     },
@@ -301,7 +301,7 @@
       "niveau": "anwenden",
       "schwierigkeit": 1,
       "frage": "Schreibe 302,015 als Summe von Zehnerpotenzen.",
-      "antwort": "3·10² + 0·10¹ + 2·10⁰ + 0·10⁻¹ + 1·10⁻² + 5·10⁻³",
+      "antwort": "$3\\cdot 10^2 + 0\\cdot 10^1 + 2\\cdot 10^0 + 0\\cdot 10^{-1} + 1\\cdot 10^{-2} + 5\\cdot 10^{-3}$",
       "erklaerung": "Stellenwerte als Zehnerpotenzen.",
       "folie": "Blatt 2, G3",
       "pruefungsrelevant": false
@@ -312,13 +312,13 @@
       "format": "offen",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "Vereinfache: a) (3 · 10⁻²)² · 4 · 10³ / 10⁻¹ und d) (x⁻¹ + 1/(3x)) · (x/3 + 1)⁻¹",
-      "musterloesung": "a) 9 · 10⁻⁴ · 4 · 10³ = 36 · 10⁻¹; : 10⁻¹ = 36. d) x⁻¹ + 1/(3x) = 4/(3x); (x/3 + 1)⁻¹ = 3/(x + 3); Produkt 4/(x(x + 3)) = 4/(x² + 3x).",
+      "frage": "Vereinfache: a) $\\frac{(3 \\cdot 10^{-2})^2 \\cdot 4 \\cdot 10^3}{10^{-1}}$ und d) $\\left(x^{-1} + \\frac{1}{3x}\\right)\\left(\\frac{x}{3} + 1\\right)^{-1}$",
+      "musterloesung": "a) $(3 \\cdot 10^{-2})^2 = 9 \\cdot 10^{-4}$; $9 \\cdot 10^{-4} \\cdot 4 \\cdot 10^3 = 36 \\cdot 10^{-1}$; $\\frac{36 \\cdot 10^{-1}}{10^{-1}} = 36$. d) $x^{-1} + \\frac{1}{3x} = \\frac{3}{3x} + \\frac{1}{3x} = \\frac{4}{3x}$; $\\left(\\frac{x}{3} + 1\\right)^{-1} = \\left(\\frac{x + 3}{3}\\right)^{-1} = \\frac{3}{x + 3}$; Produkt $\\frac{4}{3x} \\cdot \\frac{3}{x + 3} = \\frac{4}{x(x + 3)} = \\frac{4}{x^2 + 3x}$.",
       "bewertungspunkte": [
         "a) Potenzgesetze korrekt",
         "a) 36",
-        "d) erste Klammer 4/(3x)",
-        "d) Kehrwert 3/(x + 3)",
+        "d) erste Klammer $\\frac{4}{3x}$",
+        "d) Kehrwert $\\frac{3}{x + 3}$",
         "d) Ergebnis"
       ],
       "punkte": 5,
@@ -332,12 +332,12 @@
       "format": "offen",
       "niveau": "anwenden",
       "schwierigkeit": 3,
-      "frage": "Berechne a² · b / (c · √d) für a = 3,5 · 10⁷, b = 4 · 10⁵, c = 2300, d = 1,44 · 10¹⁴ und erkläre, welche Fehler zu den Ergebnissen 1,77 · 10¹⁰ und 5,07 · 10⁹ führen.",
-      "musterloesung": "a² · b = 12,25 · 10¹⁴ · 4 · 10⁵ = 4,9 · 10²⁰; c · √d = 2300 · 1,2 · 10⁷ = 2,76 · 10¹⁰; Ergebnis ≈ 1,7754 · 10¹⁰ → 1,78 · 10¹⁰. 1,77 · 10¹⁰: abgeschnitten statt gerundet. 5,07 · 10⁹: nur 10⁷ quadriert, nicht 3,5 (Klammerfehler).",
+      "frage": "Berechne $\\frac{a^2 \\cdot b}{c \\cdot \\sqrt{d}}$ für $a = 3{,}5 \\cdot 10^7$, $b = 4 \\cdot 10^5$, $c = 2300$, $d = 1{,}44 \\cdot 10^{14}$ und erkläre, welche Fehler zu den Ergebnissen $1{,}77 \\cdot 10^{10}$ und $5{,}07 \\cdot 10^9$ führen.",
+      "musterloesung": "$a^2 \\cdot b = 12{,}25 \\cdot 10^{14} \\cdot 4 \\cdot 10^5 = 4{,}9 \\cdot 10^{20}$; $c \\cdot \\sqrt{d} = 2300 \\cdot 1{,}2 \\cdot 10^7 = 2{,}76 \\cdot 10^{10}$; Ergebnis $\\approx 1{,}7754 \\cdot 10^{10}$ → $1{,}78 \\cdot 10^{10}$. $1{,}77 \\cdot 10^{10}$: abgeschnitten statt gerundet. $5{,}07 \\cdot 10^9$: nur $10^7$ quadriert, nicht 3,5 (Klammerfehler).",
       "bewertungspunkte": [
-        "Zähler 4,9 · 10²⁰",
-        "Nenner 2,76 · 10¹⁰",
-        "Ergebnis 1,78 · 10¹⁰",
+        "Zähler $4{,}9 \\cdot 10^{20}$",
+        "Nenner $2{,}76 \\cdot 10^{10}$",
+        "Ergebnis $1{,}78 \\cdot 10^{10}$",
         "Fehler Michael",
         "Fehler Beyda/Laura"
       ],
@@ -372,7 +372,7 @@
       "niveau": "anwenden",
       "schwierigkeit": 2,
       "frage": "Auf Schickards Maschine ist oben 2427 eingestellt, in Zeile 7 stehen 14 | 28 | 14 | 49. Welche Aufgabe ist das, und wie lautet das Ergebnis?",
-      "antwort": "2427 · 7 = 14 000 + 2 800 + 140 + 49 = 16 989.",
+      "antwort": "$2427 \\cdot 7 = 14\\,000 + 2\\,800 + 140 + 49 = 16\\,989$.",
       "erklaerung": "Teilprodukte 14 | 28 | 14 | 49 stellenverschoben addieren.",
       "folie": "Ausstellung.JPG · Ü1b",
       "pruefungsrelevant": true
@@ -383,8 +383,8 @@
       "format": "offen",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "Beschreibe, wie Schickards Maschine 23 · 27 berechnet.",
-      "musterloesung": "23 an den Walzen einstellen. Zeile 7: 23 · 7 = 161 ablesen und ins Addierwerk übertragen. Zeile 2: 23 · 2 = 46 ablesen, um eine Stelle verschoben (460) addieren. Ergebnis im Addierwerk: 621.",
+      "frage": "Beschreibe, wie Schickards Maschine $23 \\cdot 27$ berechnet.",
+      "musterloesung": "23 an den Walzen einstellen. Zeile 7: $23 \\cdot 7 = 161$ ablesen und ins Addierwerk übertragen. Zeile 2: $23 \\cdot 2 = 46$ ablesen, um eine Stelle verschoben (460) addieren. Ergebnis im Addierwerk: 621.",
       "bewertungspunkte": [
         "Einstellen",
         "Teilprodukt mit 7",
@@ -442,7 +442,7 @@
       "niveau": "anwenden",
       "schwierigkeit": 2,
       "frage": "Welche mathematischen Entdeckungen bzw. Erfindungen beeinflussten die Entwicklung des Computers?",
-      "musterloesung": "Stellenwertsystem mit Null; mechanische Rechenmaschinen (Schickard, Pascal); Lochkarten (Jacquard, Hollerith: 0/1); boolesche Algebra (UND/ODER); Schaltungen (Strom/kein Strom); Binärsystem (Zuse, Z3 1941).",
+      "musterloesung": "Stellenwertsystem mit Null; mechanische Rechenmaschinen (Schickard, Pascal); Lochkarten (Jacquard, Hollerith: Loch / kein Loch = 1 / 0); boolesche Algebra (UND / ODER); Schaltungen (Strom / kein Strom); Binärsystem (Zuse, Z3 1941).",
       "bewertungspunkte": [
         "Stellenwertsystem/Null",
         "Lochkarten",
@@ -572,7 +572,7 @@
     "Die Übungsaufgaben auf Blatt 2 dienen laut Blatt der Nachbereitung von Vorlesung 1 und der Vorbereitung auf die Klausur – die Klausur orientiert sich sehr nah an den Übungsaufgaben (VL 1, Folie 6)."
   ],
   "offene_fragen": [
-    "Übungsaufgabe 1c: Programm (mathematikalpha.de, vermutlich nur Windows) bzw. Video konnten nicht ausgewertet werden – stimmt die hergeleitete Beschreibung (23 · 7 = 161, 23 · 20 = 460, Summe 621) mit der Animation überein?",
+    "Übungsaufgabe 1c: Programm (mathematikalpha.de, vermutlich nur Windows) bzw. Video konnten nicht ausgewertet werden – stimmt die hergeleitete Beschreibung ($23 \\cdot 7 = 161$, $23 \\cdot 20 = 460$, Summe 621) mit der Animation überein?",
     "Grundlagenaufgabe 5: Im Text steht „Drei Schüler“, es werden aber vier Namen genannt.",
     "Hinweis: Die verwendeten Kerncurricula (Realschule 2020, Grundschule) sind Anhörfassungen – Seitenzahlen können in der Endfassung abweichen."
   ]

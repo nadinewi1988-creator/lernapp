@@ -4,6 +4,8 @@ import { aendereSitzung, speichereEintrag } from '../db';
 import { kartenAus, istFaellig, kartenOeffnen } from './Karten';
 import { useKlapp } from '../klapp';
 import { anwesenheitVon, AnwBalken } from './Statistik';
+import { lernStandVon } from './Module';
+import { sitzungenVon as inhalteVon } from '../lerninhalte';
 import { auswerten, heuteIso, noteText, nachFach, BEREICH_ZIEL } from '../pruefungslogik';
 import { WOCHEN, FEIERTAGE, FERIEN, parseIso, plusTage } from '../data/kalender';
 
@@ -115,7 +117,9 @@ export function Dashboard({ stand, neuLaden }: Props) {
   };
   const module = a.aktListe.map((e) => e.modul).filter((m) => HLF[m.kuerzel]).sort(nachFach).map((m) => {
     const p = /Präsentation am (\d\d\.\d\d\.)/.exec(m.hinweis ?? '');
-    return { k: m.kuerzel, name: m.name, inhalt: p ? 'Hausarbeit + Präsentation ' + p[1] : 'Noch keine Lerninhalte' };
+    const n = inhalteVon(m.kuerzel).length, ls = lernStandVon(stand, m.kuerzel, HEUTE);
+    const inhalt = (n ? n + (n === 1 ? ' Lerntext' : ' Lerntexte') + ' · gelernt ' + ls.gel + '/' + ls.ges : 'Noch keine Lerninhalte') + (p ? ' · Präsentation ' + p[1] : '');
+    return { k: m.kuerzel, name: m.name, inhalt, pct: ls.pct };
   });
 
   // ---------- Woche ----------
@@ -292,7 +296,7 @@ export function Dashboard({ stand, neuLaden }: Props) {
                 <div style={{ fontWeight: 800, fontSize: 15, lineHeight: 1.25 }}>{m.name}</div>
                 <div style={{ marginTop: 'auto', fontSize: 12, color: 'var(--ink-2)' }}>{m.inhalt}</div>
                 {(() => { const z = anwesenheitVon(stand, m.k); return z.n > 0 && <div style={{ display: 'flex', alignItems: 'center', gap: 8, fontSize: 12, color: 'var(--ink-2)' }}><span style={{ flex: '0 0 48px' }}><AnwBalken z={z} h={5} /></span><span>Anwesend {z.da}/{z.n}{z.weg ? ' · ' + z.weg + ' gefehlt' : ''}{z.offen ? ' · ' + z.offen + ' ?' : ''}</span></div>; })()}
-                <div style={{ height: 6, borderRadius: 999, background: 'rgba(255,255,255,0.75)', overflow: 'hidden' }}><div style={{ height: '100%', borderRadius: 999, background: f[0], width: '0%' }} /></div>
+                <div style={{ height: 6, borderRadius: 999, background: 'rgba(255,255,255,0.75)', overflow: 'hidden' }}><div style={{ height: '100%', borderRadius: 999, background: f[0], width: m.pct + '%' }} /></div>
               </a>); })}
           </div>
         </section>
@@ -346,7 +350,7 @@ export function Dashboard({ stand, neuLaden }: Props) {
                 <span style={{ fontWeight: 700, fontSize: 12, lineHeight: 1.3, hyphens: 'auto', overflowWrap: 'anywhere', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{m.name}</span>
                 <span style={{ fontSize: 11, color: 'var(--ink-2)' }}>{m.inhalt}</span>
                 {(() => { const z = anwesenheitVon(stand, m.k); return z.n > 0 && <span style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 11, color: 'var(--ink-2)' }}><span style={{ flex: '0 0 28px' }}><AnwBalken z={z} h={4} /></span>da {z.da}/{z.n}</span>; })()}
-                <span style={{ display: 'block', height: 5, marginTop: 2, borderRadius: 999, background: 'rgba(255,255,255,0.75)', overflow: 'hidden' }}><span style={{ display: 'block', height: '100%', borderRadius: 999, background: f[0], width: '0%' }} /></span>
+                <span style={{ display: 'block', height: 5, marginTop: 2, borderRadius: 999, background: 'rgba(255,255,255,0.75)', overflow: 'hidden' }}><span style={{ display: 'block', height: '100%', borderRadius: 999, background: f[0], width: m.pct + '%' }} /></span>
               </a>); })}
           </div>
         </section>

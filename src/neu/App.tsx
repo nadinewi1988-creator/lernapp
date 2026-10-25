@@ -52,7 +52,13 @@ export default function App() {
   const [ort, setOrt] = useState(leseOrt());
   const [stand, setStand] = useState<Studienstand | null>(null);
   const [fehler, setFehler] = useState('');
-  useEffect(() => { const f = () => setOrt(leseOrt()); window.addEventListener('hashchange', f); return () => window.removeEventListener('hashchange', f); }, []);
+  // Verlauf innerhalb der App (für „← Zurück“), bleibt erhalten, solange die App offen ist
+  const [verlauf, setVerlauf] = useState<string[]>(() => { try { return JSON.parse(sessionStorage.getItem('verlauf') || '[]'); } catch { return []; } });
+  useEffect(() => {
+    const merk = () => { const h = window.location.hash || '#/'; setVerlauf((v) => { let n = v.length && v[v.length - 1] === h ? v : v.length > 1 && v[v.length - 2] === h ? v.slice(0, -1) : [...v, h].slice(-50); try { sessionStorage.setItem('verlauf', JSON.stringify(n)); } catch { /* egal */ } return n; }); };
+    merk();
+    const f = () => { setOrt(leseOrt()); merk(); }; window.addEventListener('hashchange', f); return () => window.removeEventListener('hashchange', f);
+  }, []);
   const gehe = (seite: Seite, unter?: string, teil?: string) => { window.location.hash = '/' + seite + (unter ? '/' + unter : '') + (unter && teil ? '/' + teil : ''); window.scrollTo(0, 0); };
 
   async function neuLaden() {
@@ -94,6 +100,7 @@ export default function App() {
         </div>
       </nav>
       <main className="inhalt">
+        {verlauf.length > 1 && <button type="button" className="zurueck-knopf" onClick={() => window.history.back()}>← Zurück</button>}
         {fehler && <div className="karte fehler">Fehler beim Laden: {fehler}</div>}
         {!stand && !fehler && <span className="klein-text">Lade deinen Studienverlauf …</span>}
         {stand && ort.seite === 'pruefungen' && <Pruefungen stand={stand} unter={ort.unter} gehe={(u) => gehe('pruefungen', u)} neuLaden={neuLaden} />}

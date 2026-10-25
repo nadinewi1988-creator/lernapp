@@ -86,7 +86,7 @@ export function Module({ stand, unter, teil, gehe, neuLaden }: Props) {
 }
 
 /** Anteil gelernter Sitzungen eines Moduls (bisher stattgefunden, ohne Tutorium, ohne Ausfälle) */
-function lernStandVon(stand: Studienstand, k: string, HEUTE: string) {
+export function lernStandVon(stand: Studienstand, k: string, HEUTE: string) {
   const va = Object.fromEntries(stand.veranstaltungen.map((v) => [v.id, v]));
   const tm = Object.fromEntries(stand.teilmodule.map((t) => [t.id, t]));
   const gel = new Set(stand.lernstand.filter((l) => l.gelernt).map((l) => l.sitzung_id));

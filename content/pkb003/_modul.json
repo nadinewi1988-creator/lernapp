@@ -115,14 +115,14 @@
       "datum": "2026-10-13",
       "nr": 1,
       "thema": "Einführung",
-      "literatur": "keine angegeben"
+      "literatur": "keine angegeben – Zusammenfassung aus Lehrbuchkapiteln"
     },
     {
       "teilmodul": "pkb003.1",
       "datum": "2026-10-20",
       "nr": 2,
       "thema": "Zentrale Begriffe: Föderalismus, Korporatismus, Verhandlungsdemokratie",
-      "literatur": "keine angegeben"
+      "literatur": "keine angegeben – Zusammenfassung aus Lehrbuchkapiteln"
     },
     {
       "teilmodul": "pkb003.1",
@@ -206,21 +206,21 @@
       "datum": "2027-01-26",
       "nr": 14,
       "thema": "Abschlussdiskussion",
-      "literatur": "keine angegeben"
+      "literatur": "Synthese aller Sitzungen"
     },
     {
       "teilmodul": "pkb003.2",
       "datum": "2026-10-12",
       "nr": 1,
       "thema": "Einführung – Zum Verhältnis von Staat und Gesellschaft",
-      "literatur": "keine angegeben"
+      "literatur": "keine angegeben – Zusammenfassung aus Lehrbuchkapiteln"
     },
     {
       "teilmodul": "pkb003.2",
       "datum": "2026-10-19",
       "nr": 2,
       "thema": "Eine kurze Geschichte der Bundesrepublik",
-      "literatur": "keine angegeben"
+      "literatur": "keine angegeben – Zusammenfassung aus Lehrbuchkapiteln"
     },
     {
       "teilmodul": "pkb003.2",
@@ -304,7 +304,7 @@
       "datum": "2027-01-25",
       "nr": 14,
       "thema": "Abschlussdiskussion",
-      "literatur": "keine angegeben"
+      "literatur": "Synthese aller Sitzungen"
     },
     {
       "teilmodul": "pkb003.3",
@@ -400,29 +400,15 @@
     "Kurspläne pkb003.1/.2: teils falsche Jahreszahlen (z. B. 17.11.25, 12.10.25) – Tippfehler, gemeint 2026.",
     "Kursplan pkb003.2 Kopf: „WiSe 2024/2025“; Abschlussdiskussion „23.1.27“ ist ein Samstag – vermutlich Mo 25.01.2027.",
     "Seminarplan pkb003.3: 14.01.2026 und 28.01.2026 – gemeint 2027.",
-    "Kursplan pkb003.2 S08: „Leipzig Institut … (2021)“ – vorhanden ist IWH Halle „Vereintes Land“ (2019)."
+    "Kursplan pkb003.2 S08: „Leipzig Institut … (2021)“ – vorhanden ist IWH Halle „Vereintes Land“ (2019).",
+    "pkb003.2: Sitzung 19.10.2026 ist ausgefallen – Nadine vermutet, dass sich alle folgenden Termine um eine Woche verschieben (unbestätigt, Stand 25.10.2026). Bis zur Klärung gelten die Kursplan-Daten."
   ],
-  "kalender_nachtragen": [
-    {
-      "art": "frist",
-      "datum": "2026-11-10",
-      "teil": "pkb003.3",
-      "titel": "Präsentationsentwurf Max Weber an Dr.in Rieken"
-    },
-    {
-      "art": "hausaufgabe",
-      "datum": "2026-11-12",
-      "teil": "pkb003.3",
-      "titel": "Möltgen-Sicking/Winter (2018), S. 57–65 lesen + Kernaussagen exzerpieren"
-    },
-    {
-      "art": "termin",
-      "datum": "2026-11-17",
-      "teil": "pkb003.1",
-      "titel": "Eigene Präsentation: Die Rolle der Verwaltung im politischen Prozess"
-    }
-  ],
+  "kalender_nachtragen": [],
   "sitzungen": [
+    "pkb003.2_2026-10-12",
+    "pkb003.1_2026-10-13",
+    "pkb003.2_2026-10-19",
+    "pkb003.1_2026-10-20",
     "pkb003.2_2026-10-26",
     "pkb003.1_2026-10-27",
     "pkb003.2_2026-11-02",
@@ -438,7 +424,9 @@
     "pkb003.2_2026-12-14",
     "pkb003.1_2026-12-15",
     "pkb003.1_2027-01-05",
-    "pkb003.1_2027-01-12"
+    "pkb003.1_2027-01-12",
+    "pkb003.2_2027-01-25",
+    "pkb003.1_2027-01-26"
   ],
   "klausurstil": null,
   "dateien": [
@@ -567,14 +555,16 @@
     {
       "pfad": "pkb003.1/Zusatz_Benz_Politik-in-Mehrebenensystemen.pdf",
       "geaendert": "2026-10-20",
-      "art": "Zusatzliteratur (nicht im Kursplan)",
-      "status": "übersprungen"
+      "art": "Zusatzliteratur (genutzt für Sitzungen ohne Kursliteratur)",
+      "status": "verarbeitet",
+      "sitzung": "pkb003.1_2026-10-20"
     },
     {
       "pfad": "pkb003.1/Zusatz_Mannewitz-Rudzio_PolSystem_Fassung1.pdf",
       "geaendert": "2026-10-20",
-      "art": "Zusatzliteratur (nicht im Kursplan)",
-      "status": "übersprungen"
+      "art": "Zusatzliteratur (genutzt für Sitzungen ohne Kursliteratur)",
+      "status": "verarbeitet",
+      "sitzung": "pkb003.1_2026-10-20 · pkb003.2_2026-10-12 · pkb003.2_2026-10-19"
     },
     {
       "pfad": "pkb003.1/Zusatz_Mannewitz-Rudzio_PolSystem_Fassung2.pdf",
@@ -591,8 +581,9 @@
     {
       "pfad": "pkb003.2/Zusatz_Schmidt_Sozialpolitik.pdf",
       "geaendert": "2026-10-20",
-      "art": "Zusatzliteratur (nicht im Kursplan)",
-      "status": "übersprungen"
+      "art": "Zusatzliteratur (genutzt für Sitzungen ohne Kursliteratur)",
+      "status": "verarbeitet",
+      "sitzung": "pkb003.2_2026-10-12"
     },
     {
       "pfad": "pkb003.2/Zusatz_Hansen-Olsen_AfD-2021.pdf",
@@ -600,5 +591,6 @@
       "art": "Zusatzliteratur (nicht im Kursplan)",
       "status": "übersprungen"
     }
-  ]
+  ],
+  "kalender_eingetragen_am": "2026-10-25"
 }

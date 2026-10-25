@@ -1,0 +1,124 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pkb003",
+  "teilmodul": "pkb003.2",
+  "datum": "2026-10-12",
+  "sitzung_nr": 1,
+  "sitzung_id": "",
+  "thema": "Einführung – Zum Verhältnis von Staat und Gesellschaft",
+  "thema_in_app": "eingetragen",
+  "stand": "entwurf",
+  "art_inhalt": "Zusammenfassung passender Lehrbuchkapitel (keine Seminarliteratur angegeben)",
+  "quellen": [
+    {
+      "datei": "pkb003.1/Zusatz_Mannewitz-Rudzio_PolSystem_Fassung1.pdf",
+      "art": "Lehrbuch: Mannewitz/Rudzio (2022), Das politische System der Bundesrepublik Deutschland, 11. Aufl., Abschn. 2.2 „Die zentralen Verfassungsprinzipien“",
+      "seiten": "32–41"
+    },
+    {
+      "datei": "pkb003.2/Zusatz_Schmidt_Sozialpolitik.pdf",
+      "art": "Buchkapitel: Schmidt (2016), Europäische und nationale Sozialpolitik: Eine Bestandsaufnahme (DOI 10.5771/9783845257617-200; Manuskriptfassung vom 25.2.2015)",
+      "seiten": "Ms. S. 1–28"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Wie gestaltet das Grundgesetz das Verhältnis von Staat, Wirtschaft und Gesellschaft – und welche Rolle spielt dabei der Sozialstaat?",
+      "art": "abgeleitet",
+      "quelle": "Kursplan ohne Leitfrage und ohne Literatur; aus dem Sitzungsthema abgeleitet",
+      "fragen": [],
+      "erklaerung_abschnitt": "Antwort auf die Leitfrage"
+    }
+  ],
+  "kurzfassung": [
+    "Das Grundgesetz zieht Lehren aus Weimar: Ein unabänderlicher Verfassungskern (Menschen-/Grundrechte, Demokratie, Rechts-, Bundes- und Sozialstaat; Art. 79 Abs. 3 GG) und eine „wehrhafte Demokratie“ schützen die Ordnung vor ihren Feinden.",
+    "Deutschland ist eine „föderale, parlamentarische Demokratie mit parteienstaatlichen Zügen“ – mit ungewöhnlich vielen checks and balances und einem konsensualen Politikstil.",
+    "Sozialstaat ja – aber keine bestimmte Sozial- und Wirtschaftsordnung: Das GG kennt keine sozialen Anspruchsrechte (z. B. Recht auf Arbeit), es verlangt nur ein Minimum an sozialer Sicherung und sozialen Ausgleich.",
+    "Wirtschaftsordnungspolitische Neutralität: Die Soziale Marktwirtschaft ist laut BVerfG (1954) eine mögliche, aber nicht die einzig mögliche Ordnung; ausgeschlossen sind nur Manchesterliberalismus und extrem kollektivistische Formen.",
+    "Schmidt: Sozialpolitik ist in Europa größtenteils Sache der Nationalstaaten geblieben. Die EU wirkt vor allem regulativ (Mindeststandards, Antidiskriminierung), kaum umverteilend (EU-Sozialbudget unter 0,5 % des BIP)."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Verfassungskern und wehrhafte Demokratie",
+      "folien": "S. 32–34",
+      "text": "Unabänderlich, also durch keine Mehrheit aufhebbar, sind die Prinzipien der Menschen- und Grundrechte, der Demokratie, des Rechts-, Bundes- und Sozialstaates (Art. 79 Abs. 3 i. V. m. Art. 1 und 20 GG). Den demokratisch-rechtsstaatlichen Teil nennt man **„freiheitliche demokratische Grundordnung“** (BVerfG, SRP-Verbot 1952; NPD-Urteil 2017: Menschenwürde, Demokratie- und Rechtsstaatsprinzip).\n• Abkehr vom Weimarer **Rechtspositivismus**: Das GG beruht auf einer Werteordnung (Naturrecht); Demokratie ist mehr als Mehrheitsentscheid.\n• Das Grundgesetz räumt *„den Feinden der freiheitlichen demokratischen Grundordnung nicht die Freiheit [ein], diese zu zerstören“*. Instrumente: Grundrechtsverwirkung (Art. 18), Partei- und Vereinsverbote (Art. 21 Abs. 2, Art. 9 Abs. 2), Verfassungstreue im öffentlichen Dienst (Art. 33), Widerstandsrecht (Art. 20 Abs. 4).\n• Kritik: Legitimationsproblem und seit den 1990ern eine „Krise“ des Konzepts, weil es fast nur gegen „Rechts“ eingesetzt werde."
+    },
+    {
+      "titel": "Konsequent parlamentarische Demokratie",
+      "folien": "S. 34–36",
+      "text": "Weimar war **semipräsidentiell** (Reichstag, Präsident und Volksentscheid als konkurrierende Legitimationen). Das GG zieht drei Folgerungen:\n\n| Folgerung | Umsetzung im GG |\n|---|---|\n| Legitimationsmonopol des Parlaments | nur die Parlamentswahl ist unmittelbar demokratisch; kaum Plebiszite (Heuss: *„die Prämie für jeden Demagogen“*) |\n| Parlamentarisches Regierungssystem | Kanzlerwahl durch den Bundestag, **konstruktives Misstrauensvotum**, kein Verordnungsrecht des Präsidenten |\n| Verfassungsrang der Parteien | Art. 21 GG |\n\n*„Zusammenfassend ist daher das heutige Deutschland als föderale, parlamentarische Demokratie mit parteienstaatlichen Zügen zu bezeichnen.“*"
+    },
+    {
+      "titel": "Verbundföderalismus und Grundrechtestaat",
+      "folien": "S. 36–38",
+      "text": "• **Föderalismus** verteilt Macht (katholisch gedeutet: **Subsidiaritätsprinzip**). Die Länder führen vor allem Bundesrecht aus und wirken über den Bundesrat mit – **Verbund-**, nicht Trennföderalismus wie in den USA.\n• **Rechtsstaat plus:** Grundrechte sind unmittelbar geltendes, einklagbares Recht (Art. 1, 19 GG); das Bundesverfassungsgericht prüft auch Gesetze (Art. 93 GG).\n• Grundrechte: liberale **Abwehrrechte** (z. B. Berufsfreiheit, Eigentum), demokratische **Mitwirkungsrechte** (Versammlungs-, Wahlrecht), **institutionelle Garantien** (Pressefreiheit, Familie)."
+    },
+    {
+      "titel": "Sozialstaat – aber keine bestimmte Sozialordnung",
+      "folien": "S. 38–40",
+      "text": "Das Sozialstaatsprinzip (Art. 20 Abs. 1 GG) ist **kaum ausgeführt**: *„Soziale Anspruchsrechte wie ein Recht auf Arbeit, Bildung oder Wohnung kennt es nicht.“* Konkret ist nur die Sozialpflichtigkeit des Eigentums (Art. 14 GG: *„Eigentum verpflichtet. Sein Gebrauch soll zugleich dem Wohle der Allgemeinheit dienen“*).\n• Ableitbar ist nur ein Minimum an sozialer Sicherung und der Auftrag zum sozialen Ausgleich: *„Ein Weniger wäre ebenso wie ein Mehr mit ihm vereinbar.“*\n• **Art. 15 GG** (Vergesellschaftung gegen Entschädigung) und das Fehlen weiterer Festlegungen belegen eine **wirtschaftsordnungspolitische Neutralität**. BVerfG (1954): Die soziale Marktwirtschaft sei *„zwar eine nach dem Grundgesetz mögliche Ordnung, keineswegs aber die allein mögliche“*.\n• Gegenposition Herzog (1974): Grundrechte als *„Sperre für den Sozialismus“*.\n• Fazit: *„Insgesamt überlässt so das Grundgesetz der jeweiligen politischen Mehrheit einen weiten Gestaltungsspielraum, schließt lediglich auf der einen Seite einen Manchesterliberalismus, auf der anderen extrem kollektivistische Wirtschafts- und Sozialformen aus.“*\n• Kein bloßer Kompromiss, sondern *„eine auf Dauer gewollte offene Verfassungsordnung, die auch dem demokratischen Gegenspieler legitimen Spielraum belässt“*.\n\n**Gesamtcharakter (S. 40–41):** starke Machtaufteilung (*„eine im internationalen Vergleich ungewöhnlich hohe Anzahl von checks and balances“*) plus starke „Kanzlerdemokratie“ – Handlungsfähigkeit nur durch Kooperation (Konsensmodell nach Lijphart)."
+    },
+    {
+      "titel": "Strukturen der EU-Sozialpolitik (Schmidt)",
+      "folien": "Ms. S. 3–11",
+      "text": "| Form / Phase | Inhalt |\n|---|---|\n| „Akzessorische“ Sozialpolitik (1957 bis 1970er) | bloßes Anhängsel des Binnenmarkts (Ausnahme: gleicher Lohn für Frauen und Männer) |\n| „Positive Integration“ (ab frühen 1970ern, Delors 1985–1994) | marktkorrigierend, flickenteppichartig, regulativ; seit 1986 oft qualifizierte Mehrheit im Rat |\n| „Negative Integration“ | EuGH (seit 1963/64 Vorrang des EU-Rechts) passt nationale Sozialvorschriften an Wettbewerb und Grundfreiheiten an |\n| Indirekte Anpassungszwänge | Stabilitätspakt (Sozialschutz = rund 40 % der Staatsausgaben), Steuerwettbewerb; seit 2010 Sparauflagen in der Schuldenkrise |\n\n*„Für eine redistributive Sozialpolitik mit umfangreichen finanziellen Transferzahlungen (wie Altersrenten) und Dienstleistungen (wie im Gesundheitswesens) hat die EU weder die Kompetenzen, noch die Instrumente, noch die finanziellen Ressourcen.“* (Ms. S. 6)\n\nDrei Steuerungsphilosophien (Ms. S. 11–14): automatische Sozialpolitik, sozialprotektionistischer Interventionismus, Marktstaats-Interventionismus."
+    },
+    {
+      "titel": "Europäisierungsgrad und Barrieren (Schmidt)",
+      "folien": "Ms. S. 15–28",
+      "text": "Skala nach Lindberg/Scheingold: 1 = rein national … 5 = vollständig europäisch (Auszug Tab. 1):\n\n| Politikfeld | 1957 | 1968 | 1993 | 2014 |\n|---|---|---|---|---|\n| Alterssicherung | 1 | 1 | 2 | 2 |\n| Pflegeversicherung | 1 | 1 | 1 | 1 |\n| Arbeitsschutz | 1 | 1 | 2 | 3 |\n| Freizügigkeits-Sozialrecht | 1 | 2 | 4 | 4 |\n| Generelles Antidiskriminierungsregime | 1 | 1 | 2 | 4 |\n| Agrarpolitik / Geldpolitik | 1 / 1 | 5 / 1 | 5 / 2 | 5 / 5 |\n\nEU-Sozialbudget **unter 0,5 % des BIP**, nationale Sozialbudgets **17,7 % (Estland) bis 33,0 % (Frankreich)**. *„Die EU ist bis heute nicht der Hauptspieler in der Sozialpolitik in Europa.“*\n\n**Vier Barrieren:** wirtschaftliche Heterogenität, unterschiedliche Sozialstaatstypen, institutionelle Hürden (Vetospieler, EU-Staatsquote rund 1 % des BIP), nationale Eigeninteressen (Wählerstimmen, Output-Legitimität).\n\n**Ausblick:** weitgehend konstanter Europäisierungsgrad; eine europäische Harmonisierung der Sozialregime sei *„chancenlos“* (Scharpf)."
+    },
+    {
+      "titel": "Antwort auf die Leitfrage",
+      "text": "| Ebene | Was gilt? |\n|---|---|\n| Staat – Gesellschaft | unabänderlicher Verfassungskern; Grundrechte als Abwehr- und Mitwirkungsrechte; stark verteilte Macht, konsensuale Politik |\n| Staat – Wirtschaft | keine festgelegte Wirtschaftsordnung; Grenzen setzen Grundrechte (Eigentum, Berufsfreiheit) und Sozialpflichtigkeit (Art. 14, 15 GG) |\n| Rolle des Sozialstaats | Verfassungsprinzip mit Mindestgehalt (Grundsicherung, sozialer Ausgleich); Ausgestaltung durch politische Mehrheiten |\n| Europäische Dimension | Sozialstaat bleibt national; die EU setzt regulative Rahmen und übt indirekten Druck aus (Binnenmarkt, Stabilitätspakt) |"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Freiheitliche demokratische Grundordnung",
+      "wortlaut": "Die demokratischen und rechtsstaatlichen Komponenten dieses unantastbaren Verfassungskerns werden unter dem Begriff der „freiheitlichen demokratischen Grundordnung“ zusammengefasst.",
+      "erklaerung": "Der Kern des Grundgesetzes, den keine Mehrheit abschaffen darf: u. a. Menschenrechte, Volkssouveränität, Gewaltenteilung, Mehrparteienprinzip.",
+      "folie": "S. 32"
+    },
+    {
+      "begriff": "Verbundföderalismus",
+      "wortlaut": "Im Unterschied zum Trennföderalismus wie in den USA, wo Bundesstaat und Einzelstaaten getrennte Zuständigkeiten, Steuerrechte und einen jeweils eigenen Verwaltungsunterbau besitzen, ist im Falle der Bundesrepublik Deutschland von einem Verbundföderalismus zu sprechen.",
+      "erklaerung": "Bund und Länder sind eng verflochten: Die Länder führen Bundesgesetze aus und entscheiden über den Bundesrat mit.",
+      "folie": "S. 37"
+    },
+    {
+      "begriff": "Sozialstaatsprinzip",
+      "wortlaut": "Was tatsächlich aus dem Sozialstaatsprinzip abzuleiten ist, scheint daher begrenzt: die Unzulässigkeit einer Gesetzgebung, die den Einzelnen ohne ein Minimum an sozialer Sicherung seinem individuellen Schicksal überließe, darüber hinaus die allgemeine Forderung an den Gesetzgeber, sozialen Ausgleich zu fördern.",
+      "erklaerung": "Art. 20 Abs. 1 GG verlangt eine soziale Grundsicherung und sozialen Ausgleich, gibt aber keine einklagbaren sozialen Rechte und keinen Ausbauauftrag.",
+      "folie": "S. 39"
+    },
+    {
+      "begriff": "Wirtschaftsordnungspolitische Neutralität",
+      "wortlaut": "Dieser Sozialisierungsartikel zusammen mit dem Fehlen sonstiger Aussagen zur Wirtschaftsordnung im Grundgesetz belegt eine wirtschaftsordnungspolitische Neutralität",
+      "erklaerung": "Das GG schreibt kein bestimmtes Wirtschaftssystem vor; die Soziale Marktwirtschaft ist möglich, aber nicht verfassungsrechtlich garantiert.",
+      "folie": "S. 40"
+    },
+    {
+      "begriff": "Sozialpolitik (bei Schmidt)",
+      "wortlaut": "die institutionellen, prozessualen und entscheidungsinhaltlichen Dimensionen aller Bestrebungen öffentlicher und privater Akteure gemeint, die darauf gerichtet sind, gesamtgesellschaftlich verbindliche Entscheidungen über Angelegenheiten der sozialen Sicherungssysteme einerseits und marktkorrigierende Regulierungen der Arbeitsverfassung andererseits zu treffen",
+      "erklaerung": "Sozialpolitik umfasst zwei Bereiche: die sozialen Sicherungssysteme (Rente, Krankenversicherung usw.) und marktkorrigierende Regeln für die Arbeitswelt.",
+      "folie": "Ms. S. 2, Fn. 4"
+    },
+    {
+      "begriff": "Akzessorische Sozialpolitik",
+      "wortlaut": "Als „akzessorisch“, als Anhängsel, wurde sie eingestuft, weil sie „stets in Abhängigkeit von den Funktionsbedingungen des Binnenmarktes thematisiert wurde, aber keinen darüber hinaus gehenden, eigenständigen Bedeutungsgehalt hatte“",
+      "erklaerung": "Frühe EU-Sozialpolitik (1957 bis 1970er) als bloßes Anhängsel des gemeinsamen Marktes.",
+      "folie": "Ms. S. 4"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [],
+  "pruefungshinweise": [],
+  "offene_fragen": [
+    "Für Sitzung 1 nennt der Kursplan weder Literatur noch Leitfrage – die Leitfrage ist abgeleitet, die Texte sind eine eigene Auswahl aus den Unterlagen.",
+    "Mannewitz/Rudzio: Laut Impressum und Kapitelvermerk ist die 11. Auflage © 2022 (Springer Nature), nicht 2023. Die PDF wurde im Januar 2023 erzeugt; zitiert wurde daher mit 2022.",
+    "Schmidt: Die PDF ist eine Manuskriptfassung (datiert 25.2.2015, ResearchGate-Upload) mit eigenen Seitenzahlen 1–28. Die Buchseiten (laut DOI ab S. 200) sowie Titel und Herausgeber des Sammelbands stehen nicht im Text.",
+    "Schmidt, Ms. S. 19: Im Fließtext heißt es, in den Kernbereichen der sozialen Sicherung betrage der Europäisierungsgrad „2 oder 3“. Tab. 1 weist für 2014 aber nur 1–2 aus (Pflege- und Unfallversicherung = 1). Verwendet wurden die Tabellenwerte.",
+    "Schmidt, Ms. S. 26, Fn. 87 verweist für die Krisenstaaten auf „Kapitel I.4“; das passende Kapitel ist I.5 (Staatsschuldenkrise)."
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pkb003",
+  "teilmodul": "pkb003.2",
+  "datum": "2027-01-25",
+  "sitzung_nr": 14,
+  "sitzung_id": "",
+  "thema": "Abschlussdiskussion",
+  "thema_in_app": "eingetragen",
+  "stand": "entwurf",
+  "art_inhalt": "Synthese aller Sitzungs-Zusammenfassungen (Abschlussdiskussion)",
+  "quellen": [
+    {
+      "datei": "pkb003.2_2026-10-12.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.2_2026-10-19.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.2_2026-10-26.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.2_2026-11-02.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.2_2026-11-09.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.2_2026-11-23.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.2_2026-11-30.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.2_2026-12-07.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.2_2026-12-14.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Was prägt das Verhältnis von Staat, Wirtschaft und Gesellschaft in Deutschland?",
+      "art": "abgeleitet",
+      "quelle": "Leitfrage (abgeleitet) für die Abschlussdiskussion",
+      "fragen": [],
+      "erklaerung_abschnitt": "Antwort auf die Leitfrage"
+    }
+  ],
+  "kurzfassung": [
+    "**Ordnungsidee:** Das Grundgesetz lässt die Wirtschaftsordnung offen (→ S01); prägend ist der Gedanke, dass der Staat Spielregeln setzt, nicht Spielzüge (→ S03) – bis in die Euro-Krise (→ S09, S10).",
+    "**Koordinierte Marktwirtschaft:** Lohnabstimmung, Berufsausbildung, Exportorientierung (2007: Ausfuhren 46 % des BIP) (→ S09) – getragen von Tarifautonomie und „befestigten“ Gewerkschaften (→ S04).",
+    "**Kooperation statt Trennung:** Tarifautonomie, Mitbestimmung (→ S04), positive Neutralität gegenüber Religionsgemeinschaften (→ S05) – das begünstigt gut organisierte Akteure.",
+    "**Erosion:** DGB-Organisationsgrad 34 % → etwa 16 %, Tarifbindung 55 % (→ S04).",
+    "**Wandel ist gestaltbar:** Institutionen filtern die Demografie (→ S07); der Osten holte auf (Produktivität 45 % → 82 %), die Konvergenz stockt (→ S08).",
+    "**Europa:** Der Euro begünstigte das deutsche Exportmodell (→ S09); Deutschland führt das Disziplin-, Frankreich das Transfer-Lager – gerade deshalb ein mögliches Kompromiss-Tandem (→ S10)."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Sitzungen auf einen Blick",
+      "folien": "S01–S13",
+      "text": "| Nr. | Datum | Thema | Kernaussage |\n|---|---|---|---|\n| S01 | 12.10. | Einführung – Staat und Gesellschaft | Das Grundgesetz legt keine Wirtschaftsordnung fest; Sozialpolitik bleibt national. |\n| S02 | 19.10. | Kurze Geschichte der Bundesrepublik | (ausgefallen) Konstanten: Westbindung, Exportabhängigkeit, Soziale Marktwirtschaft mit Sozialstaat. |\n| S03 | 26.10. | Ordoliberalismus und Soziale Marktwirtschaft | Denkschule (Staat setzt Spielregeln) vs. politisches Leitbild mit marktkonformer Umverteilung. |\n| S04 | 02.11. | Gewerkschaften in Deutschland | Anerkannte Ordnungsfaktoren (Tarifautonomie) mit Mitgliederschwund und sinkender Tarifbindung. |\n| S05 | 09.11. | Politik und Religion | Kooperation statt Trennung (positive Neutralität); der Islam ist nicht gleichgestellt. |\n| S06 | 16.11. | Umweltbewegung(en) | – (Literatur tba) |\n| S07 | 23.11. | Demographischer Wandel | Alterung wird durch Institutionen gefiltert; das Ende der Frühverrentung hob die Alterserwerbstätigkeit. |\n| S08 | 30.11. | Die Wiedervereinigung | Aufholen ohne Gleichstand (Produktivität Ost 82 %); Fachkräfte sind der neue Engpass. |\n| S09 | 07.12. | Spielarten des Kapitalismus | Koordinierte, exportorientierte Marktwirtschaft; der Euro verschärfte das Nord-Süd-Gefälle. |\n| S10 | 14.12. | Deutschland und Frankreich in der Euro-Krise | Ordoliberale Disziplin vs. keynesianische Transfers – Gegensätze, die Kompromisse ermöglichen. |\n| S11/12 | 4./11.01. | Polarisierung / Spaltung (Pro/Contra) | – (Literatur fehlt) |\n| S13 | 18.01. | tba | – |"
+    },
+    {
+      "titel": "Ordnungspolitik als roter Faden",
+      "folien": "S01, S03, S09, S10",
+      "text": "• **Verfassungsrahmen (S01):** Das Grundgesetz legt keine Wirtschaftsordnung fest (**wirtschaftsordnungspolitische Neutralität**); die Soziale Marktwirtschaft ist laut BVerfG (1954) eine mögliche, nicht die allein mögliche Ordnung. Das Sozialstaatsprinzip verlangt nur ein Minimum an sozialer Sicherung und sozialen Ausgleich.\n• **Grundidee (S03):** *„Staatliche Planung der Formen – ja; staatliche Planung und Lenkung des Wirtschaftsprozesses – nein.“* (Eucken). Die Soziale Marktwirtschaft ergänzt **Umverteilung** und **Marktkonformität** (Mietbeihilfen statt Mietstopp).\n• **Doktrin in Europa (S09, S10):** Deutschland diagnostizierte in der Krise Regelbruch und forderte strengere Haushaltsregeln; die EZB wurde nach ordoliberal-deutschem Modell gebaut.\n\n| | Deutschland | Frankreich |\n|---|---|---|\n| Prägung (S09, S10) | Freiburger Schule; Bundesbank als „unpolitische[r] Wächter des Geldes“ | dirigistisch-keynesianisch; Banque de France lange Regierungsorgan |\n| Krisenlösung (S09, S10) | Fiskaldisziplin, Regeln | Fiskaltransfers, aktive Wachstumspolitik |"
+    },
+    {
+      "titel": "Kooperation von Staat und organisierten Akteuren",
+      "folien": "S04, S05, S07, S09",
+      "text": "• **Sozialpartner (S04):** Art. 9 Abs. 3 GG schützt Koalitionsfreiheit und **Tarifautonomie**; Einheitsgewerkschaft (DGB 1949), duale Repräsentation, Mitbestimmung, Selbstverwaltung. Leitbild „Konfliktpartnerschaft“.\n• **Wirtschaftsmodell (S09):** Genau diese Koordination – Lohnabstimmung und Berufsausbildung – macht Deutschland zur **koordinierten Marktwirtschaft**, die über Qualität und Preis im Export konkurriert.\n• **Sozialstaat (S07):** Frühverrentung war ein Konsensmodell von Staat und Sozialpartnern; sein Ende (Rente mit 67, Hartz, Ende der Altersteilzeit-Förderung) hob die Erwerbstätigenquote der 55- bis unter 65-Jährigen von 38,4 % auf 61,5 % (2003–2012).\n• **Religion (S05):** gleiches Muster – keine Staatskirche, aber Kooperation (Körperschaftsstatus, Religionsunterricht). Zugeschnitten auf „organisationsaffine“ Religionen; für den Islam Übergangslösungen (Islamkonferenz, **Beiratsmodell**).\n\n**Gemeinsame Schwäche:** Kooperation setzt starke Organisationen voraus – Gewerkschaften verlieren Mitglieder und Tarifbindung (Mindestlohn 2015 als „gewisse Kompensation“) (S04), muslimische Verbände sind nicht gleichgestellt (S05)."
+    },
+    {
+      "titel": "Europa und der Euro",
+      "folien": "S01, S02, S09, S10",
+      "text": "• **Grundlinien (S01, S02):** Westbindung, Wohlstand durch Export („Handelsstaat“); Sozialpolitik bleibt national (EU-Sozialbudget unter 0,5 % des BIP).\n• **Zwei Wachstumsstrategien (S09):** Norden exportorientiert (Deutschland 2007: Handelsüberschuss 6 % des BIP), Süden nachfrageorientiert, früher abgesichert durch Abwertungen. In der Währungsunion flossen Überschüsse des Nordens als billige Kredite in den Süden → Boom, Inflation, Verlust an Wettbewerbsfähigkeit.\n• **Krisenpolitik (S09):** Fiskalpakt und Strukturreformen sind laut Hall *„zutiefst verfehlt“* – gemischte lassen sich nicht einfach in koordinierte Marktwirtschaften umwandeln.\n• **EZB (S10):** rettete den Euro (Draghi, OMT), wurde dadurch aber politisiert – Kritik ordnungspolitisch („deutsch“) und wegen Demokratiedefizit („französisch“).\n• **Eine Konfliktlinie (S10):** In der Euro-Reform 2010–2015 zählte nur Fiskaltransfers vs. Fiskaldisziplin; Kompromisse an der Median-Position sind der natürliche Weg – *„kleine Konzessionen“* reichen langfristig aber nicht."
+    },
+    {
+      "titel": "Wandel: Einheit, Demografie, Fachkräfte",
+      "folien": "S02, S04, S07, S08",
+      "text": "| Thema | Befund |\n|---|---|\n| Geschichte (S02) | Wirtschaftswunder (rund 5 % Wachstum) → Ende der Prosperität in den 1970ern → Sozialstaatsumbau (Agenda 2010) → Krisenpolitik |\n| Einheit (S08) | Produktivität Ost 45 % (1991) → 82 % (2017), seither „Trippelschritte“; Medianlohn Ost 81,0 %; kaum Konzernzentralen (Top 500: 36 im Osten); Wurzeln in DDR-Planwirtschaft, 1:1-Umstellung und Treuhand |\n| Demografie (S07) | „doppelte Alterung“, Schrumpfung des Erwerbspersonenpotenzials ab ca. 2030; Puffer: Stille Reserve, längere Lebensarbeitszeit, Zuwanderung |\n| Fachkräfte (S07, S08) | im Osten sinkt die Zahl der Erwerbsfähigen bis 2060 etwa doppelt so stark wie im Westen; jede dritte Fachkräftestelle unbesetzt (2017); wenig Zuwanderung |\n\nGemeinsame Lehre (S07, zur Zuwanderung): Wirkungen lassen sich *„kaum prognostizieren, wohl aber gestalten“*."
+    },
+    {
+      "titel": "Antwort auf die Leitfrage",
+      "folien": "S01–S10",
+      "text": "| Was prägt das Verhältnis? | Ausprägung laut Sitzungen |\n|---|---|\n| Ordnungsidee (S01, S03, S09, S10) | GG neutral; Staat setzt den Rahmen, marktkonforme Sozialpolitik, Regeltreue |\n| Koordination (S04, S09) | Sozialpartner regeln Löhne selbst; koordinierte, exportorientierte Marktwirtschaft |\n| Kooperation (S04, S05, S07) | Staat arbeitet mit organisierten Akteuren (Gewerkschaften, Kirchen, Sozialpartner) |\n| Europa (S09, S10) | deutsches Modell profitiert vom Euro, prägt die Krisenpolitik, trifft auf andere Wirtschaftskulturen |\n\n**Spannungen heute:** schwächere organisierte Akteure, bleibende Ost-West-Unterschiede, Demografie und Fachkräftemangel, Konflikte der Wirtschaftskulturen in Europa. Polarisierung (S11/S12) ist mangels Literatur nicht abgedeckt."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Wirtschaftsordnungspolitische Neutralität",
+      "wortlaut": "Dieser Sozialisierungsartikel zusammen mit dem Fehlen sonstiger Aussagen zur Wirtschaftsordnung im Grundgesetz belegt eine wirtschaftsordnungspolitische Neutralität",
+      "erklaerung": "Das GG schreibt kein bestimmtes Wirtschaftssystem vor; die Soziale Marktwirtschaft ist möglich, aber nicht verfassungsrechtlich garantiert.",
+      "folie": "S01"
+    },
+    {
+      "begriff": "Westbindung",
+      "wortlaut": "Der Weg, den Deutschland geht, besteht im Kern darin, in Pfadabhängigkeit zur erfolgreichen Westbindung vor 1990 sich weiterhin im westlich-demokratischen Spektrum zu halten",
+      "erklaerung": "Grundentscheidung für NATO, westliche Demokratie und europäische Integration – vor und nach 1990.",
+      "folie": "S02"
+    },
+    {
+      "begriff": "Ordoliberalismus",
+      "wortlaut": "eine in den 1930er- und 1940er-Jahren aktive Denkschule, die um die Idee zentriert ist, dass eine freiheitliche Gesellschaftsordnung nur dann gut funktionieren kann, wenn die Wirtschaft – analog zur Politik – einer Verfassung („Ordo“) unterworfen ist",
+      "erklaerung": "Die Wirtschaft braucht feste, vom Staat gesetzte Spielregeln (wie eine Verfassung); innerhalb dieser Regeln entscheiden die Marktteilnehmer frei.",
+      "folie": "S03"
+    },
+    {
+      "begriff": "Soziale Marktwirtschaft",
+      "wortlaut": "ein politischer Slogan, der unmittelbar nach dem Ende des Zweiten Weltkriegs wirkmächtig geworden ist und das Selbstverständnis der Bundesrepublik Deutschland nachhaltig geprägt hat",
+      "erklaerung": "Leitbild der Bundesrepublik: Wettbewerb in einem staatlichen Rahmen plus marktkonforme Sozialpolitik und Umverteilung.",
+      "folie": "S03"
+    },
+    {
+      "begriff": "Marktkonformität",
+      "wortlaut": "Marktinkonform ist ein Mietstopp, der den Gesamtwohnungsmarkt ohne Rücksicht auf die Leistungsfähigkeit der Mieter erfasst, marktkonform ist ein System von Mietbeihilfen für bedürftige Schichten.",
+      "erklaerung": "Eine staatliche Maßnahme ist marktkonform, wenn sie hilft, ohne den Preismechanismus außer Kraft zu setzen (Müller-Armack).",
+      "folie": "S03"
+    },
+    {
+      "begriff": "Tarifautonomie",
+      "wortlaut": "Der Grundgesetzschutz des Artikels 9 Abs. 3 umfasst nicht nur die Bildung und den Bestand von G.en gegen staatliche und private Eingriffe, sondern auch die Tarifautonomie von Arbeitgebern und G.en.",
+      "erklaerung": "Gewerkschaften und Arbeitgeber handeln Löhne und Arbeitsbedingungen ohne staatliche Bevormundung aus – notfalls mit Arbeitskampf.",
+      "folie": "S04"
+    },
+    {
+      "begriff": "Positive Neutralität",
+      "wortlaut": "Es besteht nach Art. 140 GG i. V. m. Art. 137 Abs. 1 WRV in Deutschland zwar keine Staatskirche, gleichwohl darf der Staat – anders als in laizistisch verfassten Staaten – mit den Religionsgemeinschaften kooperieren",
+      "erklaerung": "Der Staat identifiziert sich mit keiner Religion, arbeitet aber mit Religionsgemeinschaften zusammen – Gegenmodell zur strikten Trennung (Laizismus).",
+      "folie": "S05"
+    },
+    {
+      "begriff": "Koordinierte Marktwirtschaft",
+      "wortlaut": "nordeuropäischen „koordinierten Marktwirtschaften“, gekennzeichnet durch exportbasierte Wachstumsmodelle, die auf weitgehender Lohnabstimmung, hoch entwickelten Berufsausbildungssystemen, forschungs- und entwicklungsfreundlichen Unternehmensbeziehungen sowie innovations- und qualitätsfördernden Arbeitsbeziehungen innerhalb der Unternehmen aufbauen",
+      "erklaerung": "Typ, zu dem Deutschland gehört: Wirtschaft wird über Verbände, Lohnabstimmung und gemeinsame Ausbildung koordiniert; Wachstum über Export.",
+      "folie": "S09"
+    },
+    {
+      "begriff": "Fiskaltransfers vs. Fiskaldisziplin",
+      "wortlaut": "der Konflikt zwischen Befürworterinnen stärkerer Fiskaltransfers und jenen, die mehr „fiskalische Disziplin“ wollen",
+      "erklaerung": "Die einzige Konfliktlinie der Euro-Reform 2010–2015 nach Wasserfallen/Lehner; Frankreich und Deutschland führen die beiden Lager.",
+      "folie": "S10"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [],
+  "pruefungshinweise": [],
+  "offene_fragen": [
+    "Termin: Kursplan nennt „23.1.27“ (Samstag) – vermutlich Mo 25.01.2027; Termine könnten sich wegen des Ausfalls am 19.10. verschoben haben.",
+    "S06 (Umweltbewegung, Literatur tba), S11/S12 (Polarisierung/Spaltung, Literatur fehlt) und S13 (tba) fehlen in der Synthese.",
+    "S01 und S02 hatten laut Kursplan keine Literatur; ihre Zusammenfassungen (pkb003.2_2026-10-12, pkb003.2_2026-10-19) beruhen auf selbst ausgewählten Lehrbuchkapiteln; S02 ist laut App am 19.10. ausgefallen.",
+    "S03 beruht auf Pies (2021) statt Biebricher/Ptak; S09 nur auf Hall (Brunnermeier u. a. fehlt)."
+  ]
+}

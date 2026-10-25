@@ -1,0 +1,183 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pkb003",
+  "teilmodul": "pkb003.1",
+  "datum": "2027-01-26",
+  "sitzung_nr": 14,
+  "sitzung_id": "",
+  "thema": "Abschlussdiskussion",
+  "thema_in_app": "eingetragen",
+  "stand": "entwurf",
+  "art_inhalt": "Synthese aller Sitzungs-Zusammenfassungen (Abschlussdiskussion)",
+  "quellen": [
+    {
+      "datei": "pkb003.1_2026-10-13.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.1_2026-10-20.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.1_2026-10-27.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.1_2026-11-03.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.1_2026-11-10.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.1_2026-11-24.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.1_2026-12-01.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.1_2026-12-08.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.1_2026-12-15.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.1_2027-01-05.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    },
+    {
+      "datei": "pkb003.1_2027-01-12.json",
+      "art": "Sitzungs-Zusammenfassung",
+      "seiten": ""
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Wie funktioniert das politische System der Bundesrepublik – und wie belastbar ist es?",
+      "art": "abgeleitet",
+      "quelle": "Leitfrage (abgeleitet) für die Abschlussdiskussion",
+      "fragen": [],
+      "erklaerung_abschnitt": "Antwort auf die Leitfrage"
+    }
+  ],
+  "kurzfassung": [
+    "**Regieren heißt verhandeln** – in der Koalition (→ S03), mit dem Bundesrat (→ S05), im Schatten des BVerfG (→ S07). Nach Lijphart gilt Deutschland als prototypische **Konsens-** bzw. Verhandlungsdemokratie (→ S01, S02); Grotz/Schroeder bilanzieren am Ende: **„parlamentarisches System mit Regierungsdominanz“** in checks and balances (→ S12).",
+    "**Vetospieler:** Die Föderalismusreform 2006 senkte den Anteil der Zustimmungsgesetze von 55 % auf 39 % (Finanzgesetze: rund 65 %) (→ S05); das BVerfG beanstandet rund 5 % der Gesetze und wirkt vor allem indirekt (→ S07).",
+    "**Die Exekutive gewinnt:** Koalitionsausschuss, in der Pandemie die MPK als „zentrales Entscheidungsgremium“ (→ S03); der Bundestag bestätigt in Krisen *„quasi notariell“*, Europäisierung stärkt die Regierungen (→ S11, S12).",
+    "**Parteien, Verbände, Medien** verlieren Bindekraft (Parteimitglieder 1985–2019: −36,4 %), haben aber **keine funktionalen Äquivalente** (→ S08–S10, S12); Verbände: „gute Einbindung, kaum Dominanz“ (→ S04).",
+    "**Stabile Institutionen, wandelnde Akteure:** vom „Zweieinhalb-Parteiensystem“ zum Vielparteiensystem (→ S08); 2021 14 Koalitionsformen in 16 Ländern (→ S11).",
+    "**Belastbarkeit:** abnehmende Performanz bei fortdauernder institutioneller Stabilität – *„So wie Bonn nicht Weimar war, ist Berlin nicht mehr Bonn.“* (→ S12)"
+  ],
+  "erklaerung": [
+    {
+      "titel": "Sitzungen auf einen Blick",
+      "folien": "S01–S13",
+      "text": "| Nr. | Datum | Thema | Kernaussage |\n|---|---|---|---|\n| S01 | 13.10. | Einführung | Raster Mehrheits- vs. Konsensdemokratie (Lijphart): Deutschland als prototypische Konsensdemokratie. |\n| S02 | 20.10. | Föderalismus, Korporatismus, Verhandlungsdemokratie | Föderalismus und Korporatismus erzeugen Verhandlungszwänge. |\n| S03 | 27.10. | Bundesregierung und Koalitionsmanagement | Steuerung über Ressortverteilung und informelle Krisenrunden; Streit verlagerte sich in die Parteien. |\n| S04 | 03.11. | Gesetzgebung und Ausschüsse | Ausschüsse sind Hauptort der Gesetzesberatung; Verbände gut eingebunden, kaum dominant. |\n| S05 | 10.11. | Bundestag und Bundesrat | Reform 2006 senkte die Zustimmungsquote von 55 % auf 39 % – spürbar, nicht grundlegend. |\n| S06 | 17.11. | Rolle der Verwaltung | – (Literatur Döhler 2015 liegt nicht vor) |\n| S07 | 24.11. | Bundesverfassungsgericht | Begrenzt Politik direkt und durch Autolimitation; seine Macht beruht auf dem Vertrauen der Bevölkerung. |\n| S08 | 01.12. | Parteien und Parteiensystem | Parteien vermitteln, verlieren aber Mitglieder; das System wird fragmentierter. |\n| S09 | 08.12. | Verbände und Verbändesystem | Verbände bündeln Interessen; je nach Politikfeld pluralistisch oder korporatistisch. |\n| S10 | 15.12. | Medien und Mediensystem | Medien stellen Öffentlichkeit her; das Internet ist die neue Basis eines hybriden Mediensystems. |\n| S11 | 05.01. | Regierungssysteme der Länder | Institutionell homogen und mehrheitsdemokratischer als der Bund; die Koalitionen werden vielfältiger. |\n| S12 | 12.01. | Das System auf dem Prüfstand | Abnehmende Performanz bei stabilen Institutionen; Zustimmung und Engagement sind der Stabilitätsanker. |\n| S13 | 19.01. | tba | – |"
+    },
+    {
+      "titel": "Verhandlungsdemokratie und Vetospieler",
+      "folien": "S01, S02, S03, S05, S07, S12",
+      "text": "**Rahmen (S01):** Jede Demokratie steht im Zielkonflikt zwischen **Inklusion** (Konsensprinzip, Input-Legitimation) und **Handlungsfähigkeit** (Mehrheitsprinzip, Output-Legitimation). Deutschland gilt mit der Schweiz als prototypische Konsensdemokratie: Viele Akteure begrenzen die Regierungsmehrheit. S02: Politik erfolgt *„in multilateralen Verhandlungssystemen mit dem Zwang zur Einigung“* (Benz); Föderalismus und Korporatismus sind die zwei Quellen dieses Zwangs.\n\n| Arena | Wer kann blockieren? | Befund |\n|---|---|---|\n| Koalition (S03) | Partner im Kabinett | „unvollständiger Vertrag“; *„Im Kabinett wird in Fragen, die für einen Koalitionspartner von grundsätzlicher Bedeutung sind, keine Seite überstimmt.“* Wichtigstes Instrument: Ressortverteilung |\n| Bundesrat (S05) | Länder bei Zustimmungsgesetzen | klare Bundesratsmehrheit nur in weniger als 17 % der Zeit → informelle „große Koalition“, teure Paketlösungen |\n| BVerfG (S07) | Gericht als „negativer Gesetzgeber“ | rund 5 % der Gesetze beanstandet; wichtiger: **Autolimitation**; Opposition als „strategischer Kläger“ |\n\n• Auch Personal braucht Kooperation: BVerfG-Richter werden mit 2/3-Mehrheit in Bundestag und Bundesrat gewählt (S07).\n• Einordnung (S12): keine reine Konsensdemokratie, sondern **Regierungsdominanz** in checks and balances; das BVerfG als „Nebengesetzgeber“."
+    },
+    {
+      "titel": "Föderalismus und Mehrebenensystem",
+      "folien": "S02, S03, S05, S11, S12",
+      "text": "• **Länder (S11):** Staatsqualität; das Homogenitätsgebot (Art. 28 Abs. 1 GG) verlangt nur Strukturprinzipien. Alle haben ein parlamentarisches System ohne zweite Kammer, mit „geschlossener Exekutive“ und Volksgesetzgebung; sie sind zentrale Vollzugsebene (42,7 % der öffentlich Beschäftigten).\n• **Verflechtung (S02, S05):** shared rule dominiert über self-rule – Bund und Länder sind zur Zusammenarbeit gezwungen (**Politikverflechtung**). Länderverwaltung plus „Einheitstheorie“ machten den Bundesrat zum Vetospieler; die Reform 2006 folgte dem Leitbild **Entflechtung** (Kritik: Politikverflechtungsfalle), danach kam es zur „Rückverflechtung“ (S02).\n• **Krise (S03, S12):** In der Pandemie wurde die MPK (19 Treffen März 2020–Juni 2021) zum zentralen Entscheidungsgremium – für akute Krisen ungeeignet, aber lernfähig.\n• **Europa (S11, S12):** stärkt die **Landesregierungen**, nicht die Landesparlamente; Gewinnerin ist die Bundesregierung, Verlierer sind Bundestag, Länder, BVerfG."
+    },
+    {
+      "titel": "Interessenvermittlung: Parteien, Verbände, Medien",
+      "folien": "S02, S04, S08, S09, S10, S12",
+      "text": "| Akteur | Leistung | Problem heute |\n|---|---|---|\n| Parteien (S08) | Art. 21 GG; Repräsentation, Gestaltung, Integration, Elitenrekrutierung („Türsteher“) | Mitgliederschwund, sozial verzerrt; **Repräsentationslücken** |\n| Verbände (S09) | *„Kein Gesetz kommt ohne formelle wie informelle Verbändebeteiligung zustande.“* | ungleiche Organisierbarkeit (Olson); Lobbying jenseits der Verbände |\n| Medien (S10) | Öffentlichkeit, Kontrolle als „Vierte Gewalt“ | Auflagenverlust, Verlust der Gatekeeper, Echokammern |\n\n**Pluralismus oder Korporatismus?** S04 (Ausschussanhörungen): Verbände liefern 49,7 % der Stellungnahmen (Gesundheit 81 %), aber kaum ein Feld wird von ein, zwei Verbänden beherrscht – „gute Einbindung, kaum Dominanz“. S09: *„Das deutsche Verbändesystem ist weder eindeutig dem korporatistischen noch dem pluralistischen Typ zuzuordnen.“* (korporatistisch z. B. G-BA, Tarifautonomie). S02: Der Korporatismus *„scheint somit leicht geschwächt“*.\n\n**Bilanz (S12):** Erosion seit den 1970ern, aber **keine funktionalen Äquivalente**; Medien wandeln sich vom „gesellschaftlichen Lagerfeuer“ zu Teilöffentlichkeiten."
+    },
+    {
+      "titel": "Wandel und Belastbarkeit",
+      "folien": "S03, S08, S11, S12",
+      "text": "• **Parteiensystem (S08):** vom „Zweieinhalb-Parteiensystem“ (1953–1983) zum dynamischen Vielparteiensystem (effektive Parteienzahl 4,6); Große Koalitionen als Regel.\n• **Bund (S03):** Regierungsbildung 2017/18 so lang wie nie; die innerparteilichen Kosten der Koalition waren so hoch wie nie.\n• **Länder (S11):** bunte Dreierbündnisse, formal mehrheits-, intern konsensdemokratisch.\n\n| Resilienzfaktoren (S12) | Schwachstellen (S12) |\n|---|---|\n| stabile Institutionen, Gewaltenteilung, lernfähiger Föderalismus | sinkende Inklusions- und Entscheidungsfähigkeit |\n| breite Zustimmung, bestandene Stresstests | Exekutivlastigkeit, schwacher Bundestag, fragmentierte Öffentlichkeit |"
+    },
+    {
+      "titel": "Antwort auf die Leitfrage",
+      "folien": "S01–S12",
+      "text": "| Bereich | So funktioniert es |\n|---|---|\n| Regierung (S03) | Koalitionsregierung; Kanzler- und Ressortprinzip (Art. 65 GG); Steuerung über Ressorts und informelle Runden |\n| Gesetzgebung (S04, S05) | Ausschüsse ändern Entwürfe („Strucksches Gesetz“); Bundesrat stimmt bei rund 39 % der Gesetze mit |\n| Kontrolle (S07, S10) | BVerfG mit Vorwirkung; Medien als „Vierte Gewalt“ |\n| Vermittlung (S08–S11) | Parteien, Verbände, Medien; Länder als eigene Arena |\n| Einordnung (S01, S02, S12) | konsensdemokratisch geprägt (viele Mitentscheider), mit starker Regierung im Zentrum |\n\n**Wie belastbar?** Institutionell sehr stabil, Stresstests bestanden – aber die **Leistungsfähigkeit sinkt**: Fragmentierung erschwert Koalitionen, die Exekutive gewinnt gegenüber dem Bundestag, die Vermittler verlieren Bindekraft. (S12)"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Konsensprinzip",
+      "wortlaut": "Dieses Ziel wird in einer pluralistischen Gesellschaft am besten erreicht, wenn die Strukturen des Regierungssystems ein hohes Maß an institutioneller Machtstreuung aufweisen und möglichst alle gesellschaftlichen Gruppen einbeziehen, die sich einvernehmlich auf politische Lösungen verständigen (Konsensprinzip).",
+      "erklaerung": "Grundlage der Konsensdemokratie (Lijphart): Inklusion und Repräsentation, Legitimation vor allem über den Input.",
+      "folie": "S01"
+    },
+    {
+      "begriff": "Politikverflechtung",
+      "wortlaut": "Insgesamt ist die institutionelle Struktur des deutschen Bundesstaats durch ein hohes Maß an Politikverflechtung gekennzeichnet (Scharpf et al. 1976). Das bedeutet, dass Bund und Länder bei der Erfüllung ihrer politisch-administrativen Aufgaben zur Zusammenarbeit gezwungen sind",
+      "erklaerung": "Kennzeichen des kooperativen Föderalismus: gemeinsame Gesetzgebung über den Bundesrat, Steuerverbund, Gemeinschaftsaufgaben.",
+      "folie": "S02"
+    },
+    {
+      "begriff": "Zwei-Ebenen-Verhandlungsspiel",
+      "wortlaut": "in denen auf höchster Ebene Vertreterinnen und Vertreter der Parteien im Kabinett, in Koalitionsausschüssen und in informellen Gremien die Politik der Regierung in konkreten Fragen der Tagespolitik aushandeln, die Ergebnisse dieser Verhandlungen allerdings durch weitere Verhandlungen und Ratifikationsprozesse in den Parteien abgesichert werden müssen",
+      "erklaerung": "Koalitionskompromisse müssen doppelt bestehen: zwischen den Parteispitzen und innerhalb der eigenen Partei (nach Putnam 1988).",
+      "folie": "S03"
+    },
+    {
+      "begriff": "Zustimmungsgesetz",
+      "wortlaut": "For consent laws (Zustimmungsgesetze), however, the active approval of an absolute majority of all votes in the Bundesrat is indispensable (making abstentions effectively count against a law’s passage).",
+      "erklaerung": "Gesetz, das nur mit aktiver Zustimmung der absoluten Mehrheit im Bundesrat zustande kommt; Enthaltungen wirken wie Nein-Stimmen (absolutes Veto).",
+      "folie": "S05"
+    },
+    {
+      "begriff": "Vetospieler",
+      "wortlaut": "institutionellen oder parteipolitischen Akteuren, die ein Gesetzgebungsverfahren stoppen können",
+      "erklaerung": "Wer einen Gesetzentwurf blockieren kann (z. B. oppositioneller Bundesrat, Koalitionspartner, Verfassungsgericht), mit dem muss die Regierung Kompromisse schließen.",
+      "folie": "S07"
+    },
+    {
+      "begriff": "Autolimitation",
+      "wortlaut": "Neben der direkten Wirkung eines Urteils, der Annullierung eines Gesetzes, gibt es also noch eine zweite, indirekte Wirkung – eine Selbstbeschränkung der Regierung; es kommt zur Autolimitation (Stone 1992a).",
+      "erklaerung": "Die Regierung schreibt Gesetze vorsorglich so, dass das Gericht sie nicht kippt (juristisch: „Vorwirkung“). Auch Richter können sich so selbst beschränken.",
+      "folie": "S07"
+    },
+    {
+      "begriff": "Vierte Gewalt",
+      "wortlaut": "Zugleich wirken sie als öffentliche Kontrollinstanz der Politik und gelten deshalb als „Vierte Gewalt“",
+      "erklaerung": "Medien kontrollieren durch Öffentlichkeit die politischen Institutionen – neben Legislative, Exekutive und Judikative.",
+      "folie": "S10"
+    },
+    {
+      "begriff": "Parlamentarisches System mit Regierungsdominanz",
+      "wortlaut": "Ihr politisch-institutionelles Zentrum bildet ein parlamentarisches System mit Regierungsdominanz, das in ein umfangreiches Geflecht von checks and balances eingebettet ist",
+      "erklaerung": "Deutschland ist weder reine Mehrheits- noch reine Konsensdemokratie: Die Regierung ist stark, wird aber durch Bundesrat, Föderalismus, BVerfG usw. begrenzt.",
+      "folie": "S12"
+    },
+    {
+      "begriff": "Resilienz (der Demokratie)",
+      "wortlaut": "Gemeint ist damit die Fähigkeit eines demokratischen Regierungssystems, seine Funktions- und Leistungsfähigkeit auch unter schwierigen Rahmenbedingungen aufrechtzuerhalten.",
+      "erklaerung": "Widerstandsfähigkeit: Die Demokratie funktioniert auch in Krisen weiter und behält ihre Zustimmung.",
+      "folie": "S12"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [],
+  "pruefungshinweise": [],
+  "offene_fragen": [
+    "S06 (Die Rolle der Verwaltung im politischen Prozess, Döhler 2015) fehlt in der Synthese, weil die Literatur nicht vorliegt.",
+    "S13 ist im Kursplan „tba“ – Thema und Literatur unbekannt.",
+    "S01 und S02 hatten laut Kursplan keine Literatur; ihre Zusammenfassungen (pkb003.1_2026-10-13, pkb003.1_2026-10-20) beruhen auf selbst ausgewählten Lehrbuchkapiteln.",
+    "Die Grotz/Schroeder-Kapitel (S08–S12) haben Buchstand 2021; Zahlen zu Koalitionen, Mitgliedern und Regulierung sind teils überholt."
+  ]
+}

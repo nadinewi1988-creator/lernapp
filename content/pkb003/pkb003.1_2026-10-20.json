@@ -1,0 +1,134 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pkb003",
+  "teilmodul": "pkb003.1",
+  "datum": "2026-10-20",
+  "sitzung_nr": 2,
+  "sitzung_id": "",
+  "thema": "Zentrale Begriffe: Föderalismus, Korporatismus, Verhandlungsdemokratie",
+  "thema_in_app": "eingetragen",
+  "stand": "entwurf",
+  "art_inhalt": "Zusammenfassung passender Lehrbuchkapitel (keine Seminarliteratur angegeben)",
+  "quellen": [
+    {
+      "datei": "pkb003.1/S08-S12_Grotz-Schroeder_PolSystem.pdf",
+      "art": "Lehrbuch (keine Seminarliteratur angegeben): Grotz/Schroeder (2021), Das politische System der Bundesrepublik Deutschland, Kap. 4 „Bund und Länder: der föderalstaatliche Rahmen“ (Föderalismus); ergänzend Kap. 1, S. 4–8 (Konsensprinzip, Verhandlungsdemokratie)",
+      "seiten": "77–106"
+    },
+    {
+      "datei": "pkb003.1/Zusatz_Mannewitz-Rudzio_PolSystem_Fassung1.pdf",
+      "art": "Lehrbuch (keine Seminarliteratur angegeben): Mannewitz/Rudzio (2022), Das politische System der Bundesrepublik Deutschland, 11. Aufl., Abschn. 3.4 „Verzahnung mit dem Staat: Züge von Korporatismus“ (Korporatismus)",
+      "seiten": "73–78"
+    },
+    {
+      "datei": "pkb003.1/Zusatz_Benz_Politik-in-Mehrebenensystemen.pdf",
+      "art": "Lehrbuch (keine Seminarliteratur angegeben): Benz (2009), Politik in Mehrebenensystemen, Kap. 1 Einleitung (Mehrebenensystem, multilevel governance)",
+      "seiten": "13–20"
+    },
+    {
+      "datei": "pkb003.1/Zusatz_Benz_Politik-in-Mehrebenensystemen.pdf",
+      "art": "Lehrbuch (keine Seminarliteratur angegeben): Benz (2009), Politik in Mehrebenensystemen, Kap. 5.1–5.2 (Verhandlungssysteme und Wettbewerbsdemokratie, zustimmungspflichtige Gesetzgebung)",
+      "seiten": "103–115"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Was bedeuten Föderalismus, Korporatismus und Verhandlungsdemokratie – und wie hängen sie im politischen System der Bundesrepublik zusammen?",
+      "art": "abgeleitet",
+      "quelle": "Kursplan ohne Leitfrage und ohne Literatur; abgeleitet aus dem Sitzungsthema",
+      "fragen": [],
+      "erklaerung_abschnitt": "Antwort auf die Leitfrage: Wie hängen die drei Begriffe zusammen?"
+    }
+  ],
+  "kurzfassung": [
+    "Föderalismus: Die öffentliche Gewalt ist zwischen Bund und Ländern aufgeteilt – mit eigener Gestaltung (self-rule) und Zusammenarbeit (shared rule). In Deutschland dominiert shared rule: kooperativer Föderalismus, starke Politikverflechtung.",
+    "Korporatismus: Große Verbände wirken nicht nur von außen auf den Staat ein, sondern sind in staatliche Entscheidungen und deren Umsetzung einbezogen (Bundesagentur für Arbeit, Tarifsystem). Gegenmodell: Pluralismus.",
+    "Verhandlungsdemokratie: Entscheidungen entstehen durch Aushandeln zwischen vielen Beteiligten statt durch eine allein regierende Mehrheit. Benz: Mehrebenenpolitik in Deutschland erfolgt „in multilateralen Verhandlungssystemen mit dem Zwang zur Einigung“.",
+    "Zusammenhang: Föderalismus (Bund–Länder) und Korporatismus (Staat–Verbände) sind zwei Quellen von Verhandlungszwängen; zusammen machen sie Deutschland zur Konsens- bzw. Verhandlungsdemokratie (beide sind Merkmale in Lijpharts Konsensmodell).",
+    "Bilanz ambivalent: breite Einbindung, selten Blockaden – aber Intransparenz, geringe Reformfähigkeit, geschwächte Parlamente."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Föderalismus: Definition und Merkmale",
+      "folien": "Grotz/Schroeder S. 77–90",
+      "text": "*„Bundesstaatlichkeit, auch Föderalismus genannt, ist ein Strukturprinzip des Grundgesetzes (Art. 20 Abs. 1 GG). Es besagt, dass die öffentliche Gewalt zwischen Zentralstaat (Bund) und Gliedstaaten (Ländern) aufgeteilt ist.“* Länder haben Rechte zur eigenständigen Politik (**self-rule**), Bund und Länder sind zur Zusammenarbeit verpflichtet (**shared rule**). Deshalb *„weist jedes föderale Regierungssystem konsensdemokratische Züge auf“*.\n\n| Merkmal | Inhalt |\n|---|---|\n| verfassungsrechtlich abgesichert | „Ewigkeitsklausel“ (Art. 79 Abs. 3 GG): Gliederung in Länder und ihre Mitwirkung an der Gesetzgebung unabänderlich |\n| Vollzugsföderalismus | Bund hat das Primat der Gesetzgebung, Länder vollziehen (Regelfall Art. 83 GG) |\n| Beteiligungsföderalismus | Landesregierungen wirken über den Bundesrat mit → „Exekutivlastigkeit“ |\n| Verbundföderalismus | Einkommen-, Körperschaft-, Umsatzsteuer als Gemeinschaftssteuern; Finanzausgleich |\n| unitarische Leitidee | „gleichwertige Lebensverhältnisse“ (Art. 72 Abs. 2 GG): „Einheitlichkeit“ geht klar vor „Vielfalt“ |\n\nGesetzgebung in vier Kategorien: ausschließlich (Bund), konkurrierend (faktisch Oberhand des Bundes, seit 2006 Abweichungsrechte), Gemeinschaftsaufgaben (Art. 91a GG), autonome Ländergesetzgebung (v. a. Bildung, Innere Sicherheit). Finanzausgleich 2018: vier ostdeutsche Länder vor Ausgleich unter 60 % der durchschnittlichen Finanzkraft, danach alle Länder zwischen 98 und 107 %."
+    },
+    {
+      "titel": "Politikverflechtung und Bilanz des Föderalismus",
+      "folien": "Grotz/Schroeder S. 90–106",
+      "text": "Hohes Maß an **Politikverflechtung** (Scharpf et al. 1976): *„Das bedeutet, dass Bund und Länder bei der Erfüllung ihrer politisch-administrativen Aufgaben zur Zusammenarbeit gezwungen sind“*.\n• Ausbau seit den 1950ern: zustimmungsbedürftige Gesetze von 42 % auf 56 %\n• **Föderalismusreform I** (2006): moderate Entflechtung, Zustimmungsgesetze sinken auf 35–40 %\n• **Föderalismusreform II** (2009): „Schuldenbremse“\n• danach „Rückverflechtung“ (z. B. DigitalPakt Schule); horizontale Koordination in MPK und KMK (13 von 16 Stimmen)\n\n**Bilanz:** *„Dabei zeigen sich die typischen Vorzüge und Probleme konsensdemokratischer Arrangements.“* Pro: einheitliche Standards, Kompromissbereitschaft, kaum Blockaden. Contra: Fehlanreize im Finanzausgleich, Entscheidungen im „Schatten der Öffentlichkeit“, Parlamente haben gegenüber den Exekutiven das Nachsehen."
+    },
+    {
+      "titel": "Korporatismus: Definition",
+      "folien": "Mannewitz/Rudzio S. 73–74, Tab. 3.1",
+      "text": "Verbände nehmen *„nicht nur als gesellschaftliche Organisationen von außen her Einfluss auf den Staat“*, sondern sind teils an Setzung, Ausführung und Auslegung von Recht beteiligt. *„Großverbänden ist so „Einlass auch in den ‚Staat‘ gewährt“; sie erscheinen in den öffentlichen Bereich inkorporiert, also einbezogen, um öffentlichen Entscheidungen zusätzlich Legitimation zu verschaffen und sie erfolgreicher durchzusetzen“*. Korporatismus ist *„geradezu ein Gegenmodell zum Pluralismus“*.\n\n| | Pluralismus | Korporatismus |\n|---|---|---|\n| Interessenorganisationen | Vielfalt, Freiwilligkeit, konkurrierend | begrenzte Anzahl, Mitgliedszwang oder -üblichkeit, umfassende Spitzenorganisationen |\n| Verhältnis zum Staat | keine Begünstigung, Einfluss von außen | Anerkennung, z. T. Förderung, Einbeziehung in Politikbestimmung und -umsetzung |"
+    },
+    {
+      "titel": "Korporatismus: Beispiele, Wandel, Bewertung",
+      "folien": "Mannewitz/Rudzio S. 73–78",
+      "text": "• **Gemeinsame Politikgestaltung:** „Konzertierte Aktion“, „Bündnis für Arbeit“, Kanzlerrunden (Kohl) – meist hinter den Erwartungen\n• **Gesetzesausführung:** drittelparitätische Bundesagentur für Arbeit; Wohlfahrtsverbände und Kirchen mit über 100 000 Sozialeinrichtungen; Kammern\n• **Mitbestimmung:** Betriebsräte; in Kapitalgesellschaften mit über 2000 Beschäftigten Hälfte des Aufsichtsrats (2020: 651 Unternehmen)\n• **Tarifvertragssystem:** quasi-öffentliche Rolle der Tarifpartner; Streik erst nach Ende der Friedenspflicht, politische Streiks unzulässig; 2007–16 nur 7 Ausfalltage je 1000 Arbeitnehmer (Frankreich 123)\n\n**Wandel:** Erosion der Flächentarife seit 1998; 2020 nur noch 43 % der Beschäftigten unter Branchentarifverträgen. *„Der Korporatismus scheint somit leicht geschwächt.“* Vorteile: Mitbestimmung, Entlastung von Parteien und Regierungen; Gefahren: Mediatisierung, Einschränkung individueller Freiheit. Deutschland: weniger pluralistisch als Großbritannien oder die USA, weniger korporatistisch als Österreich oder Schweden."
+    },
+    {
+      "titel": "Verhandlungsdemokratie und Mehrebenensystem: Begriffe",
+      "folien": "Grotz/Schroeder S. 5, 8; Benz S. 15–20",
+      "text": "Eine wörtliche Definition von „Verhandlungsdemokratie“ enthalten die Texte nicht. Grotz/Schroeder nennen die Bundesrepublik mit Lehmbruch (1996) eine **„Verhandlungsdemokratie“** und ordnen sie dem **Konsensprinzip** zu: Strukturen mit hoher institutioneller Machtstreuung, die *„möglichst alle gesellschaftlichen Gruppen einbeziehen, die sich einvernehmlich auf politische Lösungen verständigen“*. Kurz (Ergänzung, nicht aus dem Text): Wichtige Entscheidungen werden zwischen mehreren Vetoakteuren ausgehandelt statt von einer Mehrheit allein getroffen.\n\nBenz: Im **Mehrebenensystem** sind *„Kompetenzen und Ressourcen auf „Ebenen“ aufgeteilt“*; multilevel governance heißt, *„dass Regieren im Wesentlichen in der Koordination zwischen Ebenen besteht“*. Für Deutschland: *„Generell erfolgt Mehrebenenpolitik in Deutschland aber in multilateralen Verhandlungssystemen mit dem Zwang zur Einigung.“*"
+    },
+    {
+      "titel": "Das deutsche Grundmuster: Verhandlungszwang und Parteienwettbewerb",
+      "folien": "Benz S. 103–115",
+      "text": "• Verbindung von *„einem Föderalismus, der weitgehend Entscheidungen nach den Regeln des joint decision-making erfordert, mit einem parlamentarischen Regierungssystem im Bund und in den Ländern“*\n• **Verhandlungszwang:** etwa die Hälfte der Gesetze braucht den Bundesrat; Steuerverbund, Gemeinschaftsaufgaben\n• **Wettbewerbsdemokratie** mit weitgehend unitarischem Parteiensystem: Bei gegenläufigen Mehrheiten entscheidet faktisch eine Art „große Koalition“ aus Regierung und Opposition\n• **Strukturdilemma:** *„Im deutschen Bundesstaat bestehen institutionelle Bedingungen, die Änderungen des Status quo schwierig machen und bei denen zugleich die Gefahr besteht, dass eine solche Politik keine Zustimmung in den Parlamenten und in der Wählerschaft erhält“*\n\n| Mechanismus gegen Blockaden | Wirkung |\n|---|---|\n| Agenda-Macht der Regierung | 14. Wahlperiode: 387 von 450 Regierungsinitiativen verkündet; Bundesrat nur 20 %, Opposition keine – „nur eine Vetomacht, keine Gestaltungsmacht“ |\n| Vermittlungsausschuss | nicht-öffentliche Kompromisse (77-mal angerufen, 65 Gesetze verkündet) |\n| Parteien als Arenen | Bund-Länder-Konflikte werden innerparteilich vorgeklärt |\n| Strategien | Umverteilung vermeiden, Segmentierung, Tauschgeschäfte, informelle Vorverhandlungen |\n\nPreis: *„geringe Reformfähigkeit der deutschen Mehrebenenpolitik, in der inkrementelle Anpassungen dominieren“*; „blame avoidance“."
+    },
+    {
+      "titel": "Antwort auf die Leitfrage: Wie hängen die drei Begriffe zusammen?",
+      "text": "| | Föderalismus | Korporatismus | Verhandlungsdemokratie |\n|---|---|---|---|\n| Was wird geteilt? | Staatsgewalt: Bund – Länder | Einfluss: Staat – Spitzenverbände | Entscheidungsmacht: viele Vetoakteure |\n| Wo wird verhandelt? | Bundesrat, Vermittlungsausschuss, MPK | Bündnisse, Bundesagentur, Tarifrunden | Oberbegriff für diesen Modus |\n\n• **Zwei Quellen derselben Logik:** Föderalismus und Korporatismus streuen Macht und zwingen den Staat zu Verhandlungen – mit den Ländern bzw. den großen Verbänden; bei Lijphart sind beide Merkmale der Konsensdemokratie.\n• **Verhandlungsdemokratie ist das Ergebnis:** Wo viele mitentscheiden, wird ausgehandelt; laut Benz überlagert in manchen Feldern „sektorale Interessenvermittlung“ den Parteieneinfluss.\n• **Gemeinsame Bilanz:** Inklusion und Stabilität – aber Intransparenz und langsame Reformen."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Föderalismus",
+      "wortlaut": "Bundesstaatlichkeit, auch Föderalismus genannt, ist ein Strukturprinzip des Grundgesetzes (Art. 20 Abs. 1 GG). Es besagt, dass die öffentliche Gewalt zwischen Zentralstaat (Bund) und Gliedstaaten (Ländern) aufgeteilt ist.",
+      "erklaerung": "Bund und Länder teilen sich die Staatsgewalt: Länder gestalten selbst (self-rule) und wirken zugleich mit dem Bund zusammen (shared rule).",
+      "folie": "Grotz/Schroeder S. 77"
+    },
+    {
+      "begriff": "Politikverflechtung",
+      "wortlaut": "Insgesamt ist die institutionelle Struktur des deutschen Bundesstaats durch ein hohes Maß an Politikverflechtung gekennzeichnet (Scharpf et al. 1976). Das bedeutet, dass Bund und Länder bei der Erfüllung ihrer politisch-administrativen Aufgaben zur Zusammenarbeit gezwungen sind",
+      "erklaerung": "Kennzeichen des kooperativen Föderalismus: gemeinsame Gesetzgebung über den Bundesrat, Steuerverbund, Gemeinschaftsaufgaben.",
+      "folie": "Grotz/Schroeder S. 90"
+    },
+    {
+      "begriff": "Korporatismus",
+      "wortlaut": "Großverbänden ist so „Einlass auch in den ‚Staat‘ gewährt“; sie erscheinen in den öffentlichen Bereich inkorporiert, also einbezogen, um öffentlichen Entscheidungen zusätzlich Legitimation zu verschaffen und sie erfolgreicher durchzusetzen",
+      "erklaerung": "Wenige große Spitzenverbände sind vom Staat anerkannt und an Politikgestaltung und -umsetzung beteiligt (z. B. Bundesagentur für Arbeit, Tarifsystem).",
+      "folie": "Mannewitz/Rudzio S. 73"
+    },
+    {
+      "begriff": "Pluralismus",
+      "wortlaut": "Der diese Phänomene bezeichnende Begriff „Korporatismus“ stellt in der heutigen politikwissenschaftlichen Diskussion geradezu ein Gegenmodell zum Pluralismus dar",
+      "erklaerung": "Viele freiwillige, konkurrierende Interessengruppen ohne staatliche Begünstigung, die von außen Einfluss nehmen (Tab. 3.1).",
+      "folie": "Mannewitz/Rudzio S. 73–74"
+    },
+    {
+      "begriff": "Mehrebenensystem",
+      "wortlaut": "Als Mehrebenensystem bezeichnen wir ein politisches System, in dem Kompetenzen und Ressourcen auf „Ebenen“ aufgeteilt sind.",
+      "erklaerung": "Ebenen sind territoriale Einheiten (z. B. EU, Bund, Länder); Regieren heißt hier vor allem Koordination zwischen den Ebenen (multilevel governance).",
+      "folie": "Benz S. 17"
+    },
+    {
+      "begriff": "Verhandlungsdemokratie",
+      "wortlaut": "Generell erfolgt Mehrebenenpolitik in Deutschland aber in multilateralen Verhandlungssystemen mit dem Zwang zur Einigung.",
+      "erklaerung": "Kein Text definiert den Begriff wörtlich; Grotz/Schroeder (S. 8) nennen Deutschland mit Lehmbruch eine „Verhandlungsdemokratie“. Gemeint ist: Wichtige Entscheidungen werden zwischen mehreren Vetoakteuren ausgehandelt statt von einer Mehrheit allein getroffen.",
+      "folie": "Benz S. 20"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [],
+  "pruefungshinweise": [],
+  "offene_fragen": [
+    "Kursplan nennt für Sitzung 2 weder Literatur noch Leitfrage – Zusammenfassung beruht auf Lehrbuchkapiteln aus dem Ordner pkb003.1; Leitfrage abgeleitet.",
+    "Keiner der Texte enthält eine wörtliche Definition von „Verhandlungsdemokratie“; als Wortlaut wurde ein bestimmender Satz von Benz (S. 20) genommen, die Kurzdefinition ist als Ergänzung gekennzeichnet.",
+    "Die Textdatei zu Mannewitz/Rudzio begann erst auf S. 74; der Anfang von Abschn. 3.4 (S. 73, mit der Definition) wurde direkt aus dem PDF ergänzt.",
+    "Benz (2009, S. 104) nennt „etwa die Hälfte aller Gesetze“ zustimmungspflichtig; Grotz/Schroeder (2021, S. 96) beziffern den Anteil nach der Föderalismusreform I mittelfristig auf 35–40 % – die Angaben beziehen sich auf unterschiedliche Zeitpunkte.",
+    "Mannewitz/Rudzio: 11. Auflage laut Impressum © 2022 – so zitiert."
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pkb003",
+  "teilmodul": "pkb003.1",
+  "datum": "2026-10-13",
+  "sitzung_nr": 1,
+  "sitzung_id": "",
+  "thema": "Einführung",
+  "thema_in_app": "eingetragen",
+  "stand": "entwurf",
+  "art_inhalt": "Zusammenfassung passender Lehrbuchkapitel (keine Seminarliteratur angegeben)",
+  "quellen": [
+    {
+      "datei": "pkb003.1/S08-S12_Grotz-Schroeder_PolSystem.pdf",
+      "art": "Lehrbuch (keine Seminarliteratur angegeben): Grotz/Schroeder (2021), Das politische System der Bundesrepublik Deutschland, Kap. 1 „Analytische und historische Grundlagen“",
+      "seiten": "1–24"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Wie ist das politische System der Bundesrepublik aufgebaut – und mit welchem Analyseraster lässt es sich beschreiben und einordnen?",
+      "art": "abgeleitet",
+      "quelle": "Kursplan ohne Leitfrage und ohne Literatur; abgeleitet aus dem Sitzungsziel (Überblick) und der Eingangsfrage des Kapitels (S. 1)",
+      "fragen": [],
+      "erklaerung_abschnitt": "Antwort auf die Leitfrage"
+    }
+  ],
+  "kurzfassung": [
+    "Ein politisches System ist für die „Produktion allgemein verbindlicher Entscheidungen zur Lösung gesellschaftlicher Probleme“ zuständig; das läuft als Kreislauf ab: Input → Throughput → Output → Outcome → Impact → Feedback.",
+    "Demokratie braucht freie, wettbewerbliche Wahlen (zentrales Definitionskriterium), Gewaltenteilung und Interessenvermittlung durch Parteien, Verbände und Medien.",
+    "Jede Demokratie steht im Zielkonflikt zwischen Inklusion (alle Interessen einbeziehen → Konsensprinzip, Input-Legitimation) und Handlungsfähigkeit (effizient entscheiden → Mehrheitsprinzip, Output-Legitimation).",
+    "Analyseraster: Lijpharts Mehrheits- vs. Konsensdemokratie (10 Merkmale, 2 Dimensionen). Deutschland gilt – mit der Schweiz – als prototypische Konsensdemokratie: Viele Akteure begrenzen die Macht der Regierungsmehrheit.",
+    "Vier Strukturdimensionen: (1) Rahmen des Mehrebenensystems (Grundgesetz, EU, Bund/Länder), (2) Willensbildung (Wahlen, Parteien, Verbände, Medien), (3) Bundesorgane, (4) Länder und Kommunen.",
+    "Wegen Pfadabhängigkeit gehört die Geschichte (sechs Phasen 1945–2021) zur Analyse."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Was ist ein politisches System?",
+      "folien": "S. 2–3, Abb. 1.1",
+      "text": "Begriff von **David Easton** (1965), Grundlage ist die Systemtheorie: Ein System grenzt sich von seiner **Umwelt** ab, steht aber im Austausch mit ihr; innen wirken Strukturen zusammen, um **Funktionen** zu erfüllen. Funktion des politischen Systems: *„Produktion allgemein verbindlicher Entscheidungen zur Lösung gesellschaftlicher Probleme“* (Merkel 2013a).\n\n| Phase | Was passiert |\n|---|---|\n| Input | Problem gilt als dringlich, Gesellschaft fordert bzw. unterstützt eine Lösung |\n| Throughput | Bearbeitung im politischen Entscheidungszentrum |\n| Output | allgemeinverbindliche Regelung |\n| Outcome | Umsetzung in die Praxis |\n| Impact | weitere Folgewirkungen |\n| Feedback | Rezeption und Bewertung durch die Gesellschaft |\n\nDas gilt für alle Systeme. Das Besondere der Demokratie: Das Volk wählt Repräsentantinnen; das *„Damoklesschwert der Wiederwahl“* zwingt sie, im Interesse der Wählerinnen zu handeln."
+    },
+    {
+      "titel": "Demokratie und Regierungssystem",
+      "folien": "S. 4",
+      "text": "• **Wahlen** sind das zentrale Definitionskriterium, reichen aber nicht: Dazu kommen **Gewaltenteilung** und **Interessenvermittlung** durch Parteien, Interessengruppen und Medien (**intermediäre Organisationen**).\n• **Regierungssystem** = alle Strukturen, die von der Input- bis zur Output-Phase beteiligt sind; Kern: Staatsoberhaupt, Regierung, Parlament; dazu Gerichte, Verwaltung, Wahlsystem, Parteien, Interessengruppen, Medien."
+    },
+    {
+      "titel": "Konsensprinzip vs. Mehrheitsprinzip",
+      "folien": "S. 4–6, Tab. 1.1",
+      "text": "| | Konsensprinzip | Mehrheitsprinzip |\n|---|---|---|\n| Ziel | gesellschaftliche Interessenvielfalt widerspiegeln | politische Handlungsfähigkeit |\n| Vorzüge | Inklusion, Repräsentation | Effizienz, Transparenz |\n| Legitimität über | Input | Output |\n| Idealtyp | Konsensdemokratie | Mehrheitsdemokratie |\n\nKonsens: hohe **institutionelle Machtstreuung**, Gruppen verständigen sich einvernehmlich. Mehrheit: Die größere Zahl reicht für einen gültigen Beschluss; die Minderheit kann bei der nächsten Wahl Mehrheit werden.\n\nZielkonflikt: *„Je mehr Interessen man in einen Entscheidungsprozess einbezieht, desto schwieriger und langwieriger wird er“* – ein schlanker Prozess geht *„zulasten der Breite und Qualität der Interessenberücksichtigung“*. Kein System entspricht einem Prinzip in Reinform."
+    },
+    {
+      "titel": "Lijpharts zehn Merkmale",
+      "folien": "S. 6–8, Tab. 1.2",
+      "text": "Lijphart (2012) verglich 36 Demokratien; Merkmale teils *polity* (Wahlsystem, Staatsaufbau), teils *politics* (Parteien-, Verbändesystem).\n\n| Dimension | Merkmal | Mehrheitsdemokratie | Konsensdemokratie |\n|---|---|---|---|\n| Exekutive-Parteien | Parteiensystem | Zweiparteiensystem | Vielparteiensystem |\n| Exekutive-Parteien | Regierung | Einparteiregierung | Mehrparteienregierung |\n| Exekutive-Parteien | Exekutive–Legislative | Regierungsdominanz | Machtbalance |\n| Exekutive-Parteien | Wahlsystem | Mehrheitswahl | Verhältniswahl |\n| Exekutive-Parteien | Verbändesystem | Pluralismus | Korporatismus |\n| Föderal-Unitarisch | Staatsaufbau | unitarisch-zentralisiert | föderal-dezentralisiert |\n| Föderal-Unitarisch | Parlament | Einkammer | Zweikammer |\n| Föderal-Unitarisch | Verfassung | flexibel | rigide |\n| Föderal-Unitarisch | Verfassungsgericht | keines | stark |\n| Föderal-Unitarisch | Zentralbank | abhängig | unabhängig |\n| | Prototypen | Neuseeland, Vereinigtes Königreich | Schweiz, Bundesrepublik Deutschland |\n\n*„Stärker als die meisten anderen Demokratien ist es dadurch charakterisiert, dass viele verschiedene Institutionen und Akteurinnen in den politischen Prozess einbezogen sind und somit die Machtfülle der Regierungsmehrheit begrenzen.“* Andere Etiketten: „semisouveräner Staat“ (Katzenstein), „Staat der Großen Koalition“ (Schmidt), **„Verhandlungsdemokratie“** (Lehmbruch)."
+    },
+    {
+      "titel": "Warum dieses Raster – und wie es angepasst wird",
+      "folien": "S. 9–10",
+      "text": "Drei Vorteile: (1) **jedes Strukturelement** als eher mehrheits- oder konsensdemokratisch beschreibbar; (2) Zielkonflikt **Inklusions- vs. Handlungsfähigkeit** zeigt typische Funktionsprobleme; (3) **Reformvorschläge** lassen sich abwägen (z. B. Mehrheitswahlsystem vs. Repräsentation).\n\nAnpassungen: (a) Ergänzung fehlender Merkmale (Medien, Länder, Kommunen); gezeigt werden mehrheits- und konsensdemokratische Elemente *innerhalb* einer Dimension. (b) **Historischer Kontext**: Institutionen verfestigen sich (**Pfadabhängigkeit**); eine Demokratie kann sich funktional wandeln, obwohl ihre Institutionen gleich bleiben."
+    },
+    {
+      "titel": "Historischer Kontext (Überblick)",
+      "folien": "S. 10–21, Tab. 1.3",
+      "text": "Gegründet am 23. Mai 1949; ihr Erfolg war *„keinesfalls von Anfang an klar“*. Ausführlich in pkb003.2.\n\n| Phase | Stichworte |\n|---|---|\n| 1945–1949 Wiederaufbau und Staatsgründung | Besatzung; Demokratie „von unten nach oben“; Grundgesetz 23.5.1949; DDR 7.10.1949 |\n| 1949–1966 Wirtschaftswunder, konservative Dominanz | Westintegration (NATO 1955, Römische Verträge 1957); rund 5 % Wachstum; „Kanzlerdemokratie“, aber Machtstreuung („semi-souveräner Staat“) |\n| 1966–1982 Aufbruch, sozialliberale Reformen | Neue Ostpolitik; Ende der Nachkriegsprosperität; Protestbewegungen, Grüne 1980; RAF |\n| 1982–1990 „Abschied vom Provisorium“, Einheit | Kohl; Maueröffnung 9.11.1989; Beitritt der DDR nach Art. 23 GG zum 3.10.1990 |\n| 1990–2009 Einheit, Umbau, Rollensuche | 1998 erster vollständiger Machtwechsel (Rot-Grün); Agenda 2010; Fünfparteiensystem |\n| 2009–2021 Krisen, populistische Herausforderung | Finanzkrise, Eurorettung, Flüchtlingskrise 2015/16, Corona; AfD → Sechsparteiensystem |"
+    },
+    {
+      "titel": "Aufbau des Systems: vier Strukturdimensionen",
+      "folien": "S. 22–24, Tab. 1.4",
+      "text": "| Dimension | Bausteine (Kapitel) | Merkmal nach Lijphart |\n|---|---|---|\n| 1. Rahmen des politischen Mehrebenensystems | Grundgesetz (2), EU (3), Bund und Länder (4) | Verfassungsrahmen, (Zentralbankautonomie), Staatsaufbau |\n| 2. Willensbildung und Interessenvermittlung | Wahlen (5), Parteien (6), Verbände (7), Medien (8) | Wahl-, Parteien-, Verbändesystem; Medien fehlen |\n| 3. Regierungssystem auf Bundesebene | Bundestag (9), Regierung und Bundespräsident (10), Bundesrat (11), BVerfG (12) | Exekutive–Legislative, Regierung, Parlamentsstruktur, Verfassungsgericht |\n| 4. Länder und Gemeinden | Länder (13), Kommunen (14) | fehlen bei Lijphart |\n\n**Mehrebenensystem:** Durch Kompetenzübertragung an die EU findet Politik *„in einem europäisch erweiterten Mehrebenensystem statt“* (Beispiel: Europäische Zentralbank)."
+    },
+    {
+      "titel": "Antwort auf die Leitfrage",
+      "text": "| Frage | Antwort nach Grotz/Schroeder |\n|---|---|\n| Womit analysieren? | Systemtheorie (Regelkreislauf); konkret Lijpharts Gegensatz **Mehrheits- vs. Konsensdemokratie** mit dem Zielkonflikt Inklusion vs. Handlungsfähigkeit |\n| Wie ist das System gebaut? | vier Dimensionen: Mehrebenenrahmen (GG, EU, Föderalismus) – intermediäre Willensbildung – Bundesorgane – Länder/Kommunen |\n| Wie einordnen? | stark **konsensdemokratisch**: viele Mitentscheider (Koalitionen, Bundesrat, BVerfG, Verbände, EU) begrenzen die Regierungsmehrheit („Verhandlungsdemokratie“) – historisch gewachsen (Pfadabhängigkeit) |"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Politisches System",
+      "wortlaut": "Das politische System ist für die „Produktion allgemein verbindlicher Entscheidungen zur Lösung gesellschaftlicher Probleme“ (Merkel 2013a, S. 209) zuständig.",
+      "erklaerung": "Der Teil der Gesellschaft, der verbindliche Regeln für alle hervorbringt – als Kreislauf von Input bis Feedback.",
+      "folie": "S. 3"
+    },
+    {
+      "begriff": "Regierungssystem",
+      "wortlaut": "Er umfasst diejenigen Strukturen, die an der politischen Willensbildung und Entscheidungsfindung von der Input- bis zur Output-Phase beteiligt sind.",
+      "erklaerung": "Kern sind Staatsoberhaupt, Regierung und Parlament; dazu Gerichte, Verwaltung, Wahlsystem, Parteien, Verbände, Medien.",
+      "folie": "S. 4"
+    },
+    {
+      "begriff": "Intermediäre Organisationen",
+      "wortlaut": "Diese politische Interessenvermittlung ist die wichtigste Aufgabe von Parteien, Interessengruppen und Medien, die auch als intermediäre Organisationen bezeichnet werden.",
+      "erklaerung": "Sie vermitteln zwischen Gesellschaft und politischem Entscheidungszentrum.",
+      "folie": "S. 4"
+    },
+    {
+      "begriff": "Mehrheitsprinzip",
+      "wortlaut": "Es besagt, dass die größere Zahl der an einer Entscheidung Teilnehmenden oder Teilnahmeberechtigten ausreicht, um einen gültigen Beschluss zu fassen",
+      "erklaerung": "Grundlage der Mehrheitsdemokratie: effizient und transparent, Legitimation vor allem über den Output.",
+      "folie": "S. 5–6"
+    },
+    {
+      "begriff": "Konsensprinzip",
+      "wortlaut": "Dieses Ziel wird in einer pluralistischen Gesellschaft am besten erreicht, wenn die Strukturen des Regierungssystems ein hohes Maß an institutioneller Machtstreuung aufweisen und möglichst alle gesellschaftlichen Gruppen einbeziehen, die sich einvernehmlich auf politische Lösungen verständigen (Konsensprinzip).",
+      "erklaerung": "Grundlage der Konsensdemokratie (Lijphart): Inklusion und Repräsentation, Legitimation vor allem über den Input.",
+      "folie": "S. 5"
+    },
+    {
+      "begriff": "Pfadabhängigkeit",
+      "wortlaut": "Nach ihrer Etablierung können sich diese Institutionen immer weiter verfestigen – mit dem Ergebnis, dass sie nicht mehr grundlegend zu verändern sind, sondern innerhalb des eingeschlagenen Pfades bleiben („Pfadabhängigkeit“; Werle 2007).",
+      "erklaerung": "Gründungsentscheidungen prägen ein Regierungssystem lange – deshalb gehört die Geschichte zur Analyse.",
+      "folie": "S. 10"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [],
+  "pruefungshinweise": [],
+  "offene_fragen": [
+    "Kursplan nennt für Sitzung 1 weder Literatur noch Leitfrage – Zusammenfassung beruht auf Grotz/Schroeder (2021), Kap. 1 (Lehrbuch aus dem Ordner pkb003.1); Leitfrage abgeleitet.",
+    "Ölpreiskrisen: Fließtext nennt „1973/1979“ (S. 17), Tab. 1.3 „1974, 1979/80“ – im Text uneinheitlich.",
+    "S. 21: Der Brexit wird als „2021 vollzogene[r] Austritt“ bezeichnet; der formale EU-Austritt war am 31.01.2020, das Ende der Übergangsphase am 31.12.2020 (Ergänzung, nicht aus dem Text).",
+    "Kapitel mit Stand Frühjahr 2021 (vor der Bundestagswahl 2021)."
+  ]
+}

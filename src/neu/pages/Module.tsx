@@ -597,9 +597,9 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
               const q = glossar.suche.trim().toLowerCase();
               const gef = liste.filter((x) => (!q || (x.g.begriff + ' ' + x.g.wortlaut + ' ' + x.g.erklaerung).toLowerCase().includes(q)) && (glFil === 'alle' || (glFil === 'vl' ? !x.erg : x.st !== 'sicher')));
               const az = [...gef].sort((a2, b2) => a2.g.begriff.localeCompare(b2.g.begriff, 'de'));
-              const gruppen: { key: string; titel: string; l: typeof gef }[] = glOrd === 'az'
-                ? [...new Set(az.map((x) => x.g.begriff.replace(/^[^A-Za-zÄÖÜäöü]+/, '').slice(0, 1).toUpperCase()))].map((b2) => ({ key: b2, titel: b2, l: az.filter((x) => x.g.begriff.replace(/^[^A-Za-zÄÖÜäöü]+/, '').slice(0, 1).toUpperCase() === b2) }))
-                : [...new Set(gef.map((x) => x.si?.datei ?? x.teil))].sort((a2, b2) => { const A = LSITZ.find((x) => x.datei === a2), B = LSITZ.find((x) => x.datei === b2); return ((A?.datum ?? '9') + a2).localeCompare((B?.datum ?? '9') + b2); }).map((k2) => { const si = LSITZ.find((x) => x.datei === k2); return { key: k2, titel: si ? si.teilmodul + ' · ' + fmtD(si.datum) + ' · ' + si.thema : k2, l: az.filter((x) => (x.si?.datei ?? x.teil) === k2) }; });
+              const gruppen: { key: string; titel: string; teil: string; l: typeof gef }[] = glOrd === 'az'
+                ? [...new Set(az.map((x) => x.g.begriff.replace(/^[^A-Za-zÄÖÜäöü]+/, '').slice(0, 1).toUpperCase()))].map((b2) => ({ key: b2, titel: b2, teil: '', l: az.filter((x) => x.g.begriff.replace(/^[^A-Za-zÄÖÜäöü]+/, '').slice(0, 1).toUpperCase() === b2) }))
+                : [...new Set(gef.map((x) => x.si?.datei ?? x.teil))].sort((a2, b2) => { const A = LSITZ.find((x) => x.datei === a2), B = LSITZ.find((x) => x.datei === b2); return ((A?.datum ?? '9') + a2).localeCompare((B?.datum ?? '9') + b2); }).map((k2) => { const si = LSITZ.find((x) => x.datei === k2); return { key: k2, teil: si?.teilmodul ?? k2.split('_')[0], titel: si ? (si.sitzung_nr ? 'S' + si.sitzung_nr + ' · ' : '') + fmtD(si.datum) + ' · ' + si.thema : k2, l: az.filter((x) => (x.si?.datei ?? x.teil) === k2) }; });
               const unsicher = liste.filter((x) => x.st !== 'sicher'), sicher = liste.length - unsicher.length;
               const seg = (an: boolean): CSSProperties => ({ minHeight: 30, padding: '0 12px', border: 0, borderRadius: 999, background: an ? '#fff' : 'transparent', boxShadow: an ? '0 1px 2px rgba(0,0,0,0.08)' : 'none', fontSize: 12, fontWeight: 800, color: 'var(--ink)', cursor: 'pointer' });
               const STF: Record<string, [string, string, string]> = { neu: ['neu', '#f0f0eb', '#6b6f76'], unsicher: ['unsicher', '#fff3e0', '#a3580b'], sicher: ['sicher', '#e3f2e8', '#2f7a4b'] };
@@ -612,11 +612,12 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                 </div>
                 <input type="search" value={glossar.suche} onChange={(ev) => setGlossar({ suche: ev.target.value })} placeholder="Begriff suchen …" style={{ border: '1px solid var(--line)', background: 'var(--paper)', borderRadius: 999, padding: '8px 14px', fontSize: 14, color: 'var(--ink)' }} />
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-                  <div style={{ display: 'flex', gap: 3, padding: 3, background: '#efefea', borderRadius: 999 }}>{[['sitzung', 'Nach Sitzung'], ['az', 'A–Z']].map(([id, n]) => <button key={id} type="button" onClick={() => setGlOrd(id)} style={seg(glOrd === id)}>{n}</button>)}</div>
+                  <div style={{ display: 'flex', gap: 3, padding: 3, background: '#efefea', borderRadius: 999 }}>{[['sitzung', 'Nach Teilmodul'], ['az', 'A–Z']].map(([id, n]) => <button key={id} type="button" onClick={() => setGlOrd(id)} style={seg(glOrd === id)}>{n}</button>)}</div>
                   <div style={{ display: 'flex', gap: 3, padding: 3, background: '#efefea', borderRadius: 999 }}>{[['alle', 'Alle'], ['vl', 'Aus der Vorlesung'], ['unsicher', 'Noch nicht sicher']].map(([id, n]) => <button key={id} type="button" onClick={() => setGlFil(id)} style={seg(glFil === id)}>{n}</button>)}</div>
                 </div>
                 {gef.length === 0 && <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>Kein Begriff gefunden.</span>}
-                <div style={{ display: 'flex', flexDirection: 'column' }}>{gruppen.map((gr) => (
+                {(() => {
+                  const zeigeGruppe = (gr: (typeof gruppen)[number]) => (
                   <div key={gr.key} style={{ display: 'flex', flexDirection: 'column' }}>
                     {(() => { const gk = kuerzel + ':gruppe:' + glOrd + ':' + gr.key, gAuf = !!glOffen[gk] || !!glossar.suche.trim(); return <>
                     <button type="button" onClick={() => setGlOffen({ ...glOffen, [gk]: !glOffen[gk] })} style={{ display: 'flex', alignItems: 'baseline', gap: 8, padding: '8px 0', border: 0, borderTop: '1px solid var(--line)', background: 'none', textAlign: 'left', cursor: 'pointer' }}>
@@ -647,7 +648,19 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                         </div>}
                       </div>); })}
                     </>; })()}
-                  </div>))}</div>
+                  </div>);
+                  if (glOrd === 'az') return <div style={{ display: 'flex', flexDirection: 'column' }}>{gruppen.map(zeigeGruppe)}</div>;
+                  const teile = [...new Set(gruppen.map((gr) => gr.teil))].sort((a2, b2) => (a2.includes('.') ? 0 : 1) - (b2.includes('.') ? 0 : 1) || a2.localeCompare(b2));
+                  return <div style={{ display: 'flex', flexDirection: 'column' }}>{teile.map((t2) => { const gs = gruppen.filter((gr) => gr.teil === t2), alle2 = gs.flatMap((gr) => gr.l), tk = kuerzel + ':teil:' + t2, tAuf = !!glOffen[tk] || !!glossar.suche.trim(), tn = stand.teilmodule.find((x) => x.kuerzel === t2)?.name.replace(/ \((Gruppe [^)]*|freiwillig)\)/, '') ?? ''; return (
+                    <div key={t2} style={{ display: 'flex', flexDirection: 'column' }}>
+                      <button type="button" onClick={() => setGlOffen({ ...glOffen, [tk]: !glOffen[tk] })} style={{ display: 'flex', alignItems: 'baseline', gap: 8, padding: '10px 0', border: 0, borderTop: '1.5px solid var(--line)', background: 'none', textAlign: 'left', cursor: 'pointer', color: 'var(--ink)' }}>
+                        <span style={{ width: '1em', color: 'var(--ink-3)', fontSize: 12 }}>{tAuf ? '▾' : '▸'}</span>
+                        <span style={{ flex: 1, fontSize: 14, fontWeight: 800 }}><span style={{ color: f[0] }}>{t2}</span>{tn ? ' · ' + tn : ''}</span>
+                        <span style={{ fontSize: 12, color: 'var(--ink-3)', whiteSpace: 'nowrap' }}>{gs.length} {gs.length === 1 ? 'Sitzung' : 'Sitzungen'} · {alle2.length} Begriffe · {alle2.filter((x) => x.st === 'sicher').length} sicher</span>
+                      </button>
+                      {tAuf && <div style={{ display: 'flex', flexDirection: 'column', paddingLeft: 18 }}>{gs.map(zeigeGruppe)}</div>}
+                    </div>); })}</div>;
+                })()}
               </>;
             })()}
             {kuerzel.startsWith('mab') && <><button type="button" onClick={() => setGlOffen({ ...glOffen, [kuerzel + ':symbole']: !glOffen[kuerzel + ':symbole'] })} style={{ display: 'flex', alignItems: 'baseline', gap: 8, padding: '10px 0 4px', border: 0, borderTop: '1px solid var(--line)', background: 'none', textAlign: 'left', cursor: 'pointer', color: 'var(--ink)' }}><span style={{ width: '1em', color: 'var(--ink-3)', fontSize: 12 }}>{glOffen[kuerzel + ':symbole'] ? '▾' : '▸'}</span><b style={{ flex: 1, fontSize: 14 }}>Symbole</b><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{SYMBOLE.length} Zeichen</span></button>{!glOffen[kuerzel + ':symbole'] ? null : SYMBOLE.length === 0 ? <div style={{ fontSize: 13, color: 'var(--ink-3)', border: '1px dashed #d8d8d0', borderRadius: 10, padding: '10px 12px' }}>Die Symbolliste wird mit den ersten aufbereiteten mab-Sitzungen angelegt.</div>

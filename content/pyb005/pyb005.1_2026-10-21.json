@@ -8,7 +8,7 @@
   "thema": "02 Zentrale psychologische Paradigmen und Grundlagen psychologischer Forschung",
   "thema_in_app": "war schon da",
   "stand": "geprueft",
-  "hinweis": "Grundlage: Foliensatz (101 S.) und die acht Stud.IP-Lernmodule 2.1–2.8 mit Audio-Erklärungen von Prof. Schweer (automatisch transkribiert) und Infotexten; dazu die Übungstests der eÜbung (Gruppe B) vom 22.10.2026 als Übungsfragen.",
+  "hinweis": "Grundlage: Foliensatz (101 S.) und die acht Stud.IP-Lernmodule 2.1–2.8 mit Audio-Erklärungen von Prof. Schweer (automatisch transkribiert) und Infotexten. Die Übungstests der eÜbung stehen im Teilmodul eÜbung (22.10.).",
   "quellen": [
     {
       "datei": "pyb005.1/pyb005_Sitzung_2.pdf",
@@ -18,11 +18,6 @@
     {
       "datei": "Stud.IP › Vorlesung › Lernmodule 2.1–2.8",
       "art": "Lernmodule (H5P) mit 58 Audios und Infotexten",
-      "seiten": ""
-    },
-    {
-      "datei": "Stud.IP › eÜbung (Gruppe B) › Courseware › 2. Sitzung",
-      "art": "Übungstests (8 + 17 Aufgaben)",
       "seiten": ""
     }
   ],
@@ -78,9 +73,7 @@
       "fragen": [
         "f13",
         "f14",
-        "f15",
         "f16",
-        "f17",
         "f18",
         "f19"
       ],
@@ -91,7 +84,6 @@
       "art": "vorgegeben",
       "quelle": "Folie 4 (Lernziele II)",
       "fragen": [
-        "f20",
         "f21"
       ],
       "erklaerung_abschnitt": "Forschungsansätze"
@@ -101,7 +93,7 @@
       "art": "vorgegeben",
       "quelle": "Folie 4",
       "fragen": [
-        "f22"
+        "f70"
       ],
       "erklaerung_abschnitt": "Forschungsprozess"
     },
@@ -123,9 +115,7 @@
         "f25",
         "f26",
         "f27",
-        "f28",
-        "f29",
-        "f30"
+        "f28"
       ],
       "erklaerung_abschnitt": "Theorien, Hypothesen, Variablen"
     },
@@ -135,7 +125,6 @@
       "quelle": "Folie 4",
       "fragen": [
         "f31",
-        "f32",
         "f33",
         "f34"
       ],
@@ -147,7 +136,6 @@
       "quelle": "Folie 4",
       "fragen": [
         "f35",
-        "f36",
         "f37"
       ],
       "erklaerung_abschnitt": "Quantitative Forschungsdesigns"
@@ -158,9 +146,7 @@
       "quelle": "Folie 5 (Lernziele III)",
       "fragen": [
         "f38",
-        "f39",
-        "f40",
-        "f41"
+        "f40"
       ],
       "erklaerung_abschnitt": "Quantitative Forschungsdesigns"
     },
@@ -170,7 +156,6 @@
       "quelle": "Folie 5",
       "fragen": [
         "f42",
-        "f43",
         "f44"
       ],
       "erklaerung_abschnitt": "Stichprobe und Operationalisierung"
@@ -190,10 +175,7 @@
       "art": "vorgegeben",
       "quelle": "Folie 5",
       "fragen": [
-        "f47",
-        "f48",
-        "f49",
-        "f50"
+        "f47"
       ],
       "erklaerung_abschnitt": "Messung und Skalenniveaus"
     },
@@ -203,9 +185,7 @@
       "quelle": "Folie 5",
       "fragen": [
         "f51",
-        "f52",
         "f53",
-        "f54",
         "f55"
       ],
       "erklaerung_abschnitt": "Gütekriterien"
@@ -224,8 +204,6 @@
       "art": "vorgegeben",
       "quelle": "Folie 6 (Lernziele IV)",
       "fragen": [
-        "f57",
-        "f58",
         "f59",
         "f60"
       ],
@@ -246,7 +224,6 @@
       "art": "vorgegeben",
       "quelle": "Folie 6",
       "fragen": [
-        "f63",
         "f64",
         "f65",
         "f66",
@@ -1193,26 +1170,6 @@
       "pruefungsrelevant": true
     },
     {
-      "id": "f15",
-      "baustein": "kernaussage",
-      "format": "mc",
-      "niveau": "verstehen",
-      "schwierigkeit": 2,
-      "frage": "Worin liegt die Verzweigung der psychodynamischen/psychoanalytischen Perspektive mit der biologischen Perspektive?",
-      "optionen": [
-        "Der Mensch wird dazu befähigt, Potenziale zu entwickeln und zu entfalten.",
-        "Wünsche und Bedürfnisse werden als biologisch determiniert angesehen.",
-        "Der Fokus beider Perspektiven liegt auf beobachtbarem und messmethodisch erfassbarem Verhalten.",
-        "Bei beiden Perspektiven geht es um die mehrdimensionale Betrachtung menschlicher Kognitionen."
-      ],
-      "richtig": [
-        "Wünsche und Bedürfnisse werden als biologisch determiniert angesehen."
-      ],
-      "erklaerung": "Folie 6: Wünsche und Bedürfnisse werden als biologisch determiniert angesehen. Die anderen Optionen beschreiben humanistisch, behavioristisch bzw. kognitiv.",
-      "folie": "2.3 · Folie 6 · eÜbung Test 1 A4",
-      "pruefungsrelevant": true
-    },
-    {
       "id": "f16",
       "baustein": "kernaussage",
       "format": "mc",
@@ -1232,27 +1189,6 @@
       ],
       "erklaerung": "Biologisch = reduktionistisch; humanistisch = ressourcenorientiert; kognitiv = mehrdimensional; behavioristisch = Verhaltensreaktionen.",
       "folie": "2.3 · Folie 5–9",
-      "pruefungsrelevant": true
-    },
-    {
-      "id": "f17",
-      "baustein": "aufgabe",
-      "format": "mc",
-      "niveau": "anwenden",
-      "schwierigkeit": 2,
-      "frage": "Welchen Perspektiven kann diese Forschungsfrage zugeordnet werden: „Wie beeinflusst die bewusste mentale Auseinandersetzung mit den eigenen Zielen und Werten die Motivation von Studierenden, sich in ihrem Studium persönlich weiterzuentwickeln?“ (mehrere richtig)",
-      "optionen": [
-        "behavioristische Perspektive",
-        "kognitive Perspektive",
-        "humanistische Perspektive",
-        "psychodynamische Perspektive"
-      ],
-      "richtig": [
-        "kognitive Perspektive",
-        "humanistische Perspektive"
-      ],
-      "erklaerung": "„Bewusste mentale Auseinandersetzung“ = kognitiv; „persönlich weiterentwickeln“ = humanistisch.",
-      "folie": "2.3 · eÜbung Test 1 A7",
       "pruefungsrelevant": true
     },
     {
@@ -1316,55 +1252,6 @@
       "pruefungsrelevant": true
     },
     {
-      "id": "f20",
-      "baustein": "vergleich",
-      "format": "zuordnung",
-      "niveau": "verstehen",
-      "schwierigkeit": 2,
-      "frage": "Ordne die Beschreibungen dem passenden Forschungsansatz zu.",
-      "kategorien": [
-        "quantitativ",
-        "qualitativ"
-      ],
-      "elemente": [
-        {
-          "text": "Umsetzung insb. mittels Experimenten oder standardisierten Fragebögen",
-          "kategorie": "quantitativ"
-        },
-        {
-          "text": "leitfadengestützte Interviews, Gruppendiskussionen, teilnehmende Beobachtung",
-          "kategorie": "qualitativ"
-        },
-        {
-          "text": "Hypothesen über Ursache-Wirkungs-Zusammenhänge überprüfen",
-          "kategorie": "quantitativ"
-        },
-        {
-          "text": "Auswertung auf Beschreiben und Verstehen ausgerichtet",
-          "kategorie": "qualitativ"
-        },
-        {
-          "text": "Verwendung statistischer Verfahren",
-          "kategorie": "quantitativ"
-        },
-        {
-          "text": "relativ offen formulierte Forschungsfragen untersuchen",
-          "kategorie": "qualitativ"
-        },
-        {
-          "text": "Grundlage für die Entwicklung von Theorien",
-          "kategorie": "qualitativ"
-        },
-        {
-          "text": "Ergebnisse von der Stichprobe auf die Grundgesamtheit übertragen",
-          "kategorie": "quantitativ"
-        }
-      ],
-      "erklaerung": "Entspricht der eÜbung.",
-      "folie": "2.4 · Folie 2–3 · eÜbung Test 2 A1",
-      "pruefungsrelevant": true
-    },
-    {
       "id": "f21",
       "baustein": "kernaussage",
       "format": "mc",
@@ -1384,18 +1271,6 @@
       ],
       "erklaerung": "Qualitative Forschung prüft keine Hypothesen; Mixed Methods = Theoriebildung und -prüfung; analytische vs. statistische Verallgemeinerung.",
       "folie": "2.4 · Folie 3–4",
-      "pruefungsrelevant": true
-    },
-    {
-      "id": "f22",
-      "baustein": "aufgabe",
-      "format": "frage",
-      "niveau": "wissen",
-      "schwierigkeit": 1,
-      "frage": "Bringe den psychologischen Forschungsprozess in die idealtypische Reihenfolge: Datenanalyse · Forschungsinteresse · Publikation · Datenerhebung · Theorie-/Hypothesenbildung · Forschungsdesign/Operationalisierung",
-      "antwort": "Forschungsinteresse → Theorie-/Hypothesenbildung → Forschungsdesign/Operationalisierung → Datenerhebung → Datenanalyse → Publikation",
-      "erklaerung": "Idealtypische Reihenfolge (quantitativ).",
-      "folie": "2.4 · Folie 5 · eÜbung Test 2 A2",
       "pruefungsrelevant": true
     },
     {
@@ -1501,56 +1376,6 @@
       "pruefungsrelevant": true
     },
     {
-      "id": "f29",
-      "baustein": "aufgabe",
-      "format": "zuordnung",
-      "niveau": "anwenden",
-      "schwierigkeit": 1,
-      "frage": "Ein Forschungsteam untersucht, inwiefern die Schlafqualität davon beeinflusst wird, ob Personen direkt vor dem Schlafengehen ihr Smartphone nutzen. Bestimme uV und aV.",
-      "kategorien": [
-        "unabhängige Variable",
-        "abhängige Variable"
-      ],
-      "elemente": [
-        {
-          "text": "Smartphone-Nutzung ja/nein",
-          "kategorie": "unabhängige Variable"
-        },
-        {
-          "text": "Schlafqualität",
-          "kategorie": "abhängige Variable"
-        }
-      ],
-      "erklaerung": "Die Smartphone-Nutzung ist die vermutete Ursache.",
-      "folie": "2.4 · eÜbung Test 2 A3",
-      "pruefungsrelevant": true
-    },
-    {
-      "id": "f30",
-      "baustein": "aufgabe",
-      "format": "zuordnung",
-      "niveau": "anwenden",
-      "schwierigkeit": 1,
-      "frage": "Ein Forschungsteam untersucht, ob das Geschlecht einen Einfluss auf die Dauer der Smartphone-Nutzung hat. Bestimme uV und aV.",
-      "kategorien": [
-        "unabhängige Variable",
-        "abhängige Variable"
-      ],
-      "elemente": [
-        {
-          "text": "Geschlecht",
-          "kategorie": "unabhängige Variable"
-        },
-        {
-          "text": "Dauer der Smartphone-Nutzung",
-          "kategorie": "abhängige Variable"
-        }
-      ],
-      "erklaerung": "Das Geschlecht soll Einfluss ausüben.",
-      "folie": "2.4 · eÜbung Test 2 A4",
-      "pruefungsrelevant": true
-    },
-    {
       "id": "f31",
       "baustein": "kernaussage",
       "format": "mc",
@@ -1570,24 +1395,6 @@
       ],
       "erklaerung": "Popper: Anti-Induktivismus und Falsifikationismus; Hypothesen nie verifizierbar.",
       "folie": "2.4 · Folie 12–13",
-      "pruefungsrelevant": true
-    },
-    {
-      "id": "f32",
-      "baustein": "aufgabe",
-      "format": "offen",
-      "niveau": "anwenden",
-      "schwierigkeit": 2,
-      "frage": "Schüler:innen A, B und C zeigen bessere Leistungen, wenn sie beim Lernen Musik hören. Daraus schließt die Lehrkraft, dass Musik allgemein die Lernleistung verbessert. Um welche Art von Schlussfolgerung handelt es sich, und ist sie zulässig?",
-      "musterloesung": "Es handelt sich um einen induktiven Schluss (von Einzelfällen auf eine allgemeine Regel). Nach dem kritischen Rationalismus (Popper) ist er nicht zulässig: Viele Einzelbeobachtungen beweisen keine allgemeine Regel; schon ein Gegenfall (z. B. Schüler D lernt mit Musik schlechter) würde die Aussage falsifizieren.",
-      "bewertungspunkte": [
-        "induktiver Schluss benannt",
-        "nicht zulässig",
-        "Begründung über Popper/Falsifikation bzw. Gegenbeispiel"
-      ],
-      "punkte": 3,
-      "erklaerung": "Musterlösung zur Freitextaufgabe der eÜbung.",
-      "folie": "2.4 · Folie 14 · eÜbung Test 2 A5",
       "pruefungsrelevant": true
     },
     {
@@ -1646,27 +1453,6 @@
       "pruefungsrelevant": true
     },
     {
-      "id": "f36",
-      "baustein": "aufgabe",
-      "format": "mc",
-      "niveau": "anwenden",
-      "schwierigkeit": 2,
-      "frage": "Lehrer M. lässt per Münzwurf entscheiden, welche Schüler:innen ein halbes Jahr zusätzlich eine Lern-App nutzen („Zahl“) und welche nicht („Kopf“); der Lernfortschritt aller wird regelmäßig getestet. Welche Aussagen sind korrekt? (mehrere richtig)",
-      "optionen": [
-        "In dem Beispiel fehlt es an einer Kontrollgruppe.",
-        "Der Münzwurf entspricht den Anforderungen an eine randomisierte Zuweisung.",
-        "Im Rahmen der Operationalisierung muss Lehrer M. festlegen, wie der Lernfortschritt gemessen wird.",
-        "Lehrer M. führt ein faktorielles Experiment durch."
-      ],
-      "richtig": [
-        "Der Münzwurf entspricht den Anforderungen an eine randomisierte Zuweisung.",
-        "Im Rahmen der Operationalisierung muss Lehrer M. festlegen, wie der Lernfortschritt gemessen wird."
-      ],
-      "erklaerung": "Die Gruppe ohne App ist die Kontrollgruppe; Münzwurf = Randomisierung; Lernfortschritt muss operationalisiert werden; nur eine uV → kein faktorielles Experiment.",
-      "folie": "2.5 · Folie 3–5 · eÜbung Test 2 A9",
-      "pruefungsrelevant": true
-    },
-    {
       "id": "f37",
       "baustein": "kernaussage",
       "format": "frage",
@@ -1717,25 +1503,6 @@
       "pruefungsrelevant": true
     },
     {
-      "id": "f39",
-      "baustein": "aufgabe",
-      "format": "mc",
-      "niveau": "anwenden",
-      "schwierigkeit": 1,
-      "frage": "Berufseinsteiger:innen werden zehn Jahre lang einmal jährlich zu ihrem berufsbezogenen emotionalen Erleben befragt. Bei der Studie handelt es sich um eine …",
-      "optionen": [
-        "Querschnittstudie.",
-        "Trendstudie.",
-        "Panelstudie."
-      ],
-      "richtig": [
-        "Panelstudie."
-      ],
-      "erklaerung": "Dieselben Personen zu mehreren Zeitpunkten = Panelstudie.",
-      "folie": "2.5 · Folie 6 · eÜbung Test 2 A7",
-      "pruefungsrelevant": true
-    },
-    {
       "id": "f40",
       "baustein": "vergleich",
       "format": "zuordnung",
@@ -1777,18 +1544,6 @@
       "pruefungsrelevant": true
     },
     {
-      "id": "f41",
-      "baustein": "aufgabe",
-      "format": "frage",
-      "niveau": "anwenden",
-      "schwierigkeit": 1,
-      "frage": "Florian nimmt seit einiger Zeit an einer Panelbefragung zum Umweltbewusstsein junger Menschen teil. Durch die regelmäßige Befragung hat er ein zunehmendes Interesse an Umweltthemen entwickelt. Welches Phänomen wird beschrieben?",
-      "antwort": "Ein Panel-Effekt (Panel-Conditioning): Die wiederholte Befragung derselben Person verändert deren Verhalten bzw. Einstellungen – hier regt sie zur stärkeren Beschäftigung mit dem Thema an.",
-      "erklaerung": "Wiederholte Befragung verändert das Interesse.",
-      "folie": "2.5 · Folie 8 · eÜbung Test 2 A8",
-      "pruefungsrelevant": true
-    },
-    {
       "id": "f42",
       "baustein": "definition",
       "format": "frage",
@@ -1798,36 +1553,6 @@
       "antwort": "Die Grundgesamtheit ist die Gesamtheit aller Fälle, über die eine quantitative Studie Aussagen treffen will. Die Stichprobe ist eine per Auswahlverfahren gezogene Teilmenge der Grundgesamtheit, an der die Messung durchgeführt wird.",
       "erklaerung": "GG und Stichprobe.",
       "folie": "2.6 · Folie 2",
-      "pruefungsrelevant": true
-    },
-    {
-      "id": "f43",
-      "baustein": "aufgabe",
-      "format": "zuordnung",
-      "niveau": "anwenden",
-      "schwierigkeit": 1,
-      "frage": "Ordne die Beispiele den Begriffen zu.",
-      "kategorien": [
-        "Grundgesamtheit",
-        "Stichprobe",
-        "Vollerhebung"
-      ],
-      "elemente": [
-        {
-          "text": "die Studierenden an deutschen Universitäten (Aussagen über Studierende an deutschen Hochschulen)",
-          "kategorie": "Grundgesamtheit"
-        },
-        {
-          "text": "200 zufällig ausgewählte Abiturient:innen",
-          "kategorie": "Stichprobe"
-        },
-        {
-          "text": "ein Arbeitgeber befragt alle Beschäftigten seines Unternehmens",
-          "kategorie": "Vollerhebung"
-        }
-      ],
-      "erklaerung": "Entspricht der eÜbung.",
-      "folie": "2.6 · Folie 2–3 · eÜbung Test 2 A6",
       "pruefungsrelevant": true
     },
     {
@@ -1902,117 +1627,6 @@
       "pruefungsrelevant": true
     },
     {
-      "id": "f48",
-      "baustein": "aufgabe",
-      "format": "zuordnung",
-      "niveau": "anwenden",
-      "schwierigkeit": 2,
-      "frage": "Ordne die Beispiele dem Skalenniveau zu.",
-      "kategorien": [
-        "Nominalskala",
-        "Ordinalskala",
-        "Intervallskala",
-        "Verhältnisskala"
-      ],
-      "elemente": [
-        {
-          "text": "Augenfarbe",
-          "kategorie": "Nominalskala"
-        },
-        {
-          "text": "Dienstgrad bei der Bundeswehr",
-          "kategorie": "Ordinalskala"
-        },
-        {
-          "text": "IQ-Test",
-          "kategorie": "Intervallskala"
-        },
-        {
-          "text": "Einkommen",
-          "kategorie": "Verhältnisskala"
-        }
-      ],
-      "erklaerung": "Augenfarbe nominal, Dienstgrad ordinal, IQ intervall, Einkommen verhältnis.",
-      "folie": "2.7 · Folie 5 · eÜbung Test 2 A12",
-      "pruefungsrelevant": true
-    },
-    {
-      "id": "f49",
-      "baustein": "aufgabe",
-      "format": "zuordnung",
-      "niveau": "verstehen",
-      "schwierigkeit": 2,
-      "frage": "Kategorial oder metrisch?",
-      "kategorien": [
-        "kategoriale Variable",
-        "metrische Variable"
-      ],
-      "elemente": [
-        {
-          "text": "Körpergröße in cm",
-          "kategorie": "metrische Variable"
-        },
-        {
-          "text": "Anzahl bestandener Prüfungen",
-          "kategorie": "metrische Variable"
-        },
-        {
-          "text": "Prozent richtiger Antworten im Test",
-          "kategorie": "metrische Variable"
-        },
-        {
-          "text": "Hunderasse",
-          "kategorie": "kategoriale Variable"
-        },
-        {
-          "text": "Studienfach",
-          "kategorie": "kategoriale Variable"
-        },
-        {
-          "text": "Selbstbewertung des Lernerfolgs (niedrig – mittel – hoch)",
-          "kategorie": "kategoriale Variable"
-        }
-      ],
-      "erklaerung": "Kategorial = nominal/ordinal, metrisch = intervall/verhältnis.",
-      "folie": "2.7 · Folie 4 · eÜbung Test 2 A10",
-      "pruefungsrelevant": true
-    },
-    {
-      "id": "f50",
-      "baustein": "aufgabe",
-      "format": "zuordnung",
-      "niveau": "verstehen",
-      "schwierigkeit": 2,
-      "frage": "Ordne die Skalenniveaus der maximal abbildbaren Aussage zu.",
-      "kategorien": [
-        "Nominalskala",
-        "Ordinalskala",
-        "Intervallskala",
-        "Verhältnisskala"
-      ],
-      "elemente": [
-        {
-          "text": "gleich oder unterschiedlich",
-          "kategorie": "Nominalskala"
-        },
-        {
-          "text": "Rangfolge",
-          "kategorie": "Ordinalskala"
-        },
-        {
-          "text": "Aussage über Differenzen",
-          "kategorie": "Intervallskala"
-        },
-        {
-          "text": "Aussage über Verhältnisse",
-          "kategorie": "Verhältnisskala"
-        }
-      ],
-      "erklaerung": "Maximal abbildbare Aussage je Skala.",
-      "folie": "2.7 · Folie 5 · eÜbung Test 2 A11",
-      "pruefungsrelevant": true
-    },
-    {
       "id": "f51",
       "baustein": "definition",
       "format": "frage",
@@ -2022,27 +1636,6 @@
       "antwort": "Objektivität: Unabhängigkeit der Ergebnisse von den Rahmenbedingungen (verschiedene Personen kommen zu identischen Ergebnissen). Reliabilität: Verlässlichkeit bzw. formale Genauigkeit – misst das Instrument exakt, ohne Messfehler? Validität: Gültigkeit – misst das Instrument, was es zu messen beansprucht?",
       "erklaerung": "Die drei Gütekriterien.",
       "folie": "2.7 · Folie 7–10",
-      "pruefungsrelevant": true
-    },
-    {
-      "id": "f52",
-      "baustein": "aufgabe",
-      "format": "mc",
-      "niveau": "anwenden",
-      "schwierigkeit": 2,
-      "frage": "Welche Maßnahmen tragen zur Durchführungsobjektivität bei? (mehrere richtig)",
-      "optionen": [
-        "Alle Teilnehmenden erhalten dieselbe, wortgleich vorgelesene Instruktion.",
-        "Aufgrund einer Baustelle erleben die nacheinander teilnehmenden Personen unterschiedlichen Lärm.",
-        "Die Versuchsleiterin ermutigt ängstliche Teilnehmende zusätzlich.",
-        "Alle Teilnehmenden erhalten die gleiche Bearbeitungszeit."
-      ],
-      "richtig": [
-        "Alle Teilnehmenden erhalten dieselbe, wortgleich vorgelesene Instruktion.",
-        "Alle Teilnehmenden erhalten die gleiche Bearbeitungszeit."
-      ],
-      "erklaerung": "Gleiche Instruktion und Bearbeitungszeit = standardisiert; Lärm und zusätzliche Ermutigung verletzen die Durchführungsobjektivität.",
-      "folie": "2.7 · Folie 8 · eÜbung Test 2 A13",
       "pruefungsrelevant": true
     },
     {
@@ -2073,17 +1666,6 @@
       ],
       "erklaerung": "Validitätsarten mit den Infotext-Beispielen.",
       "folie": "2.7 · Folie 11",
-      "pruefungsrelevant": true
-    },
-    {
-      "id": "f54",
-      "baustein": "aufgabe",
-      "format": "luecke",
-      "niveau": "verstehen",
-      "schwierigkeit": 2,
-      "text": "[[Objektivität]] ist eine notwendige, jedoch nicht hinreichende Bedingung für [[Reliabilität]]. [[Reliabilität]] ist eine notwendige, jedoch nicht hinreichende Bedingung für [[Validität]]. Somit können Messungen [[objektiv und reliabel]], aber dennoch nicht [[valide]] sein.",
-      "erklaerung": "Objektivität → Reliabilität → Validität; jeweils notwendig, nicht hinreichend.",
-      "folie": "2.7 · Folie 12 · eÜbung Test 2 A14",
       "pruefungsrelevant": true
     },
     {
@@ -2136,44 +1718,6 @@
       ],
       "erklaerung": "Deskriptiv = beschreibend, Inferenz = schließend.",
       "folie": "2.8 · Folie 2, 7",
-      "pruefungsrelevant": true
-    },
-    {
-      "id": "f57",
-      "baustein": "aufgabe",
-      "format": "offen",
-      "niveau": "anwenden",
-      "schwierigkeit": 2,
-      "frage": "In einer Klassenarbeit wurden die Noten 1,0; 1,0; 1,3; 2,0; 2,7; 3,0; 3,7; 4,0; 5,0 erreicht. Bestimme Modalwert, Median und Mittelwert.",
-      "musterloesung": "Modalwert = 1,0 (kommt zweimal vor). Median = 2,7 (bei 9 sortierten Werten der 5. Wert). Mittelwert = (1,0 + 1,0 + 1,3 + 2,0 + 2,7 + 3,0 + 3,7 + 4,0 + 5,0) / 9 = 23,7 / 9 ≈ 2,6.",
-      "bewertungspunkte": [
-        "Modalwert 1,0",
-        "Median 2,7",
-        "Mittelwert ≈ 2,6 mit Rechenweg"
-      ],
-      "punkte": 3,
-      "erklaerung": "Sortiert, 9 Werte: Median = 5. Wert.",
-      "folie": "2.8 · Folie 3–4 · eÜbung Test 2 A15",
-      "pruefungsrelevant": true
-    },
-    {
-      "id": "f58",
-      "baustein": "kernaussage",
-      "format": "mc",
-      "niveau": "verstehen",
-      "schwierigkeit": 2,
-      "frage": "In einer Einkommensreihe wird der höchste Wert von 75 auf 200 erhöht. Was passiert?",
-      "optionen": [
-        "Der Median bleibt gleich, der Mittelwert steigt.",
-        "Beide bleiben gleich.",
-        "Der Median steigt, der Mittelwert bleibt gleich.",
-        "Beide steigen gleich stark."
-      ],
-      "richtig": [
-        "Der Median bleibt gleich, der Mittelwert steigt."
-      ],
-      "erklaerung": "Median robust, Mittelwert extremwertanfällig.",
-      "folie": "2.8 · Folie 4 · eÜbung Test 2 A16",
       "pruefungsrelevant": true
     },
     {
@@ -2237,39 +1781,6 @@
       ],
       "erklaerung": "Signifikanz ≠ praktische Bedeutsamkeit – dafür Effektgrößen.",
       "folie": "2.8 · Folie 8",
-      "pruefungsrelevant": true
-    },
-    {
-      "id": "f63",
-      "baustein": "aufgabe",
-      "format": "zuordnung",
-      "niveau": "anwenden",
-      "schwierigkeit": 2,
-      "frage": "Positive oder negative Korrelation?",
-      "kategorien": [
-        "positive Korrelation",
-        "negative Korrelation"
-      ],
-      "elemente": [
-        {
-          "text": "Je höher die Anzahl an Fehltagen, desto geringer die Punktzahl in der Klausur.",
-          "kategorie": "negative Korrelation"
-        },
-        {
-          "text": "Je höher das Interesse am Studienfach, desto mehr Zeit für Vor- und Nachbereitung.",
-          "kategorie": "positive Korrelation"
-        },
-        {
-          "text": "Je geringer die Anzahl an Fehltagen, desto geringer die Anzahl an Rückfragen am Semesterende.",
-          "kategorie": "positive Korrelation"
-        },
-        {
-          "text": "Je geringer das Vertrauen in die Lehrperson, desto geringer die Beteiligung im Seminar.",
-          "kategorie": "positive Korrelation"
-        }
-      ],
-      "erklaerung": "Wenn beide Werte gemeinsam fallen, ist die Korrelation positiv.",
-      "folie": "2.8 · Folie 9 · eÜbung Test 2 A17",
       "pruefungsrelevant": true
     },
     {
@@ -2380,13 +1891,35 @@
       "erklaerung": "Publication Bias.",
       "folie": "2.8 · Folie 17",
       "pruefungsrelevant": true
+    },
+    {
+      "id": "f70",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum psychologischen Forschungsprozess sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Ausgangspunkt ist häufig eine Forschungslücke.",
+        "Im Forschungsdesign werden u. a. Erhebungsmethode, Stichprobe und Operationalisierung festgelegt.",
+        "Die Datenanalyse beweist Hypothesen endgültig.",
+        "Ein konfirmatorisches Vorgehen prüft Hypothesen, ein exploratives erkundet Neues."
+      ],
+      "richtig": [
+        "Ausgangspunkt ist häufig eine Forschungslücke.",
+        "Im Forschungsdesign werden u. a. Erhebungsmethode, Stichprobe und Operationalisierung festgelegt.",
+        "Ein konfirmatorisches Vorgehen prüft Hypothesen, ein exploratives erkundet Neues."
+      ],
+      "erklaerung": "Laut Audio werden Hypothesen in der Analyse nur vorläufig bestätigt oder widerlegt – nie bewiesen.",
+      "folie": "2.4 · Folie 5 + Audio",
+      "pruefungsrelevant": true
     }
   ],
   "pruefungshinweise": [
     "Klausur: 30 MC-Fragen – die Lernfragen sind überwiegend im MC-/Zuordnungsformat (pyb005.2 S01).",
     "Laut Audio: Die Zuverlässigkeit von Vorhersagen ist Kriterium dafür, ob eine Erklärung wissenschaftlich brauchbar ist (2.1).",
     "Laut Audio: „Beeinflussen“ ist nicht als Manipulation gemeint (2.1).",
-    "Die eÜbung (Test 1 und 2) fragt genau diese Inhalte ab – alle 25 Aufgaben sind als Lernfragen enthalten.",
+    "Die eÜbung (Test 1 und 2, Teilmodul eÜbung 22.10.) fragt genau diese Inhalte ab.",
     "Statistische Signifikanz ≠ praktische Bedeutsamkeit (2.8, Folie 8)."
   ],
   "offene_fragen": [

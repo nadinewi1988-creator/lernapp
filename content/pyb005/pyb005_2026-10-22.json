@@ -1,0 +1,624 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pyb005",
+  "teilmodul": "pyb005",
+  "datum": "2026-10-22",
+  "sitzung_nr": 2,
+  "sitzung_id": "",
+  "thema": "02 Zentrale psychologische Paradigmen und Grundlagen psychologischer Forschung",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Die beiden Selbsttests der eÜbung (Gruppe B) aus der Stud.IP-Courseware – mit Lösungen aus den VL-Folien und Lernmodulen erarbeitet (die Tests wurden nicht abgeschickt). Inhalte und Erklärungen: siehe VL-Sitzung 21.10.",
+  "quellen": [
+    {
+      "datei": "Stud.IP › eÜbung (Gruppe B) › Courseware › 2. Sitzung › Übungsaufgaben",
+      "art": "Selbsttests (Test 1: 8, Test 2: 17 Aufgaben)",
+      "seiten": ""
+    }
+  ],
+  "lernziele": [],
+  "kurzfassung": [
+    "Test 1 übt die Ziele der Psychologie, die Teildisziplinen und die sechs Paradigmen (VL-Lernmodule 2.1–2.3).",
+    "Test 2 übt die Grundlagen der Forschung: Ansätze, Forschungsprozess, Variablen, Popper, Designs, Stichprobe, Skalenniveaus, Gütekriterien, Lagemaße, Korrelation (2.4–2.8).",
+    "Die Aufgaben entsprechen dem Klausurstil (MC, Zuordnung) – die ausführlichen Erklärungen stehen in der VL-Sitzung vom 21.10."
+  ],
+  "erklaerung": [],
+  "definitionen": [],
+  "aufgaben": [],
+  "fragen": [
+    {
+      "id": "t1a1",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Wahr oder falsch? Zwischen den Zielen „Erklären“, „Vorhersagen“ und „Beeinflussen“ besteht ein enger Zusammenhang, da eine Erklärung von Ursachen bestimmter Verhaltensweisen bei der Vorhersage zukünftigen Verhaltens hilft. Das Verstehen von Ursachen kann darüber hinaus bei der Beeinflussung helfen.",
+      "optionen": [
+        "wahr",
+        "falsch"
+      ],
+      "richtig": [
+        "wahr"
+      ],
+      "erklaerung": "Wahr: Gute Erklärungen ermöglichen Vorhersagen, und das Verständnis von Ursachen hilft beim gezielten Beeinflussen.",
+      "folie": "Test 1 · A1 · VL 2.1 Folie 9–10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a2",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Wahr oder falsch? „Beschreibungen“ sind auf beobachtbare Informationen zurückzuführen, während „Erklärungen“ ihrem Selbstverständnis nach über das Beobachtbare hinausgehen.",
+      "optionen": [
+        "wahr",
+        "falsch"
+      ],
+      "richtig": [
+        "wahr"
+      ],
+      "erklaerung": "Wahr: Beschreiben erfasst das Beobachtbare ohne Interpretation; Erklärungen suchen nach (nicht direkt beobachtbaren) Ursachen.",
+      "folie": "Test 1 · A2 · VL 2.1 Folie 10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a3",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Beschreibungen den Forschungsbereichen zu.",
+      "kategorien": [
+        "Entwicklungspsychologie",
+        "Pädagogische Psychologie",
+        "Differentielle Psychologie",
+        "Sozialpsychologie"
+      ],
+      "elemente": [
+        {
+          "text": "interindividuelle Unterschiede in einzelnen psychischen Funktionen bzw. Erlebens- und Verhaltensweisen",
+          "kategorie": "Differentielle Psychologie"
+        },
+        {
+          "text": "Veränderung des Menschen über die Zeit",
+          "kategorie": "Entwicklungspsychologie"
+        },
+        {
+          "text": "Erleben und Verhalten in Erziehungs-, Bildungs- und Sozialisationskontexten",
+          "kategorie": "Pädagogische Psychologie"
+        },
+        {
+          "text": "Beeinflussung des Menschen im Erleben und Verhalten durch die Anwesenheit anderer Individuen oder Gruppen",
+          "kategorie": "Sozialpsychologie"
+        }
+      ],
+      "erklaerung": "Differentiell = interindividuell; Entwicklung = über die Zeit; Pädagogisch = Erziehungs-/Bildungskontexte; Sozial = Anwesenheit anderer.",
+      "folie": "Test 1 · A3 · VL 2.2 Folie 4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a4",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Worin liegt die Verzweigung der psychodynamischen/psychoanalytischen Perspektive mit der biologischen Perspektive?",
+      "optionen": [
+        "Der Mensch wird dazu befähigt, Potenziale zu entwickeln und zu entfalten.",
+        "Wünsche und Bedürfnisse werden als biologisch determiniert angesehen.",
+        "Der Fokus beider Perspektiven liegt auf beobachtbarem und messmethodisch erfassbarem Verhalten.",
+        "Bei beiden Perspektiven geht es um die mehrdimensionale Betrachtung menschlicher Kognitionen."
+      ],
+      "richtig": [
+        "Wünsche und Bedürfnisse werden als biologisch determiniert angesehen."
+      ],
+      "erklaerung": "Folie 6: Wünsche und Bedürfnisse werden als biologisch determiniert angesehen. Die anderen Optionen beschreiben humanistisch, behavioristisch bzw. kognitiv.",
+      "folie": "Test 1 · A4 · VL 2.3 · Folie 6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a5",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wahr oder falsch? Hauptgegenstand der behavioristischen Perspektive sind Emotionen.",
+      "optionen": [
+        "wahr",
+        "falsch"
+      ],
+      "richtig": [
+        "falsch"
+      ],
+      "erklaerung": "Falsch: Hauptgegenstand sind Verhaltensreaktionen, also beobachtbares und messbares Verhalten.",
+      "folie": "Test 1 · A5 · VL 2.3 Folie 7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a6",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur humanistischen Perspektive sind korrekt? (mehrere richtig)",
+      "optionen": [
+        "Der Mensch wird als Mangelwesen betrachtet.",
+        "Sie fokussiert menschliche Reaktionen.",
+        "Sie ist ein ressourcenorientiertes Modell.",
+        "Der Mensch strebt nach Selbstverwirklichung."
+      ],
+      "richtig": [
+        "Sie ist ein ressourcenorientiertes Modell.",
+        "Der Mensch strebt nach Selbstverwirklichung."
+      ],
+      "erklaerung": "Humanistisch: Mensch von Natur aus gut, potenzial-/ressourcenorientiert, strebt nach Selbstverwirklichung – nicht „Mangelwesen“; „Reaktionen“ wäre behavioristisch.",
+      "folie": "Test 1 · A6 · VL 2.3 Folie 8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a7",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welchen Perspektiven kann diese Forschungsfrage zugeordnet werden: „Wie beeinflusst die bewusste mentale Auseinandersetzung mit den eigenen Zielen und Werten die Motivation von Studierenden, sich in ihrem Studium persönlich weiterzuentwickeln?“ (mehrere richtig)",
+      "optionen": [
+        "behavioristische Perspektive",
+        "kognitive Perspektive",
+        "humanistische Perspektive",
+        "psychodynamische Perspektive"
+      ],
+      "richtig": [
+        "kognitive Perspektive",
+        "humanistische Perspektive"
+      ],
+      "erklaerung": "„Bewusste mentale Auseinandersetzung“ = kognitiv; „persönlich weiterentwickeln“ = humanistisch.",
+      "folie": "Test 1 · A7 · VL 2.3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a8",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum dynamisch-transaktionalen Paradigma sind korrekt? (mehrere richtig)",
+      "optionen": [
+        "Populärer Vertreter ist Carl Rogers.",
+        "Es entstand im Zuge der kognitiven Wende.",
+        "Es integriert verschiedene vorherige Strömungen.",
+        "Es erklärt Verhalten als komplexes Wechselspiel personaler und situationaler Faktoren."
+      ],
+      "richtig": [
+        "Es integriert verschiedene vorherige Strömungen.",
+        "Es erklärt Verhalten als komplexes Wechselspiel personaler und situationaler Faktoren."
+      ],
+      "erklaerung": "Vertreter ist Werner Früh (Rogers = humanistisch); die kognitive Wende gehört zur kognitiven Perspektive.",
+      "folie": "Test 1 · A8 · VL 2.3 Folie 10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t2a1",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Beschreibungen dem passenden Forschungsansatz zu.",
+      "kategorien": [
+        "quantitativ",
+        "qualitativ"
+      ],
+      "elemente": [
+        {
+          "text": "Umsetzung insb. mittels Experimenten oder standardisierten Fragebögen",
+          "kategorie": "quantitativ"
+        },
+        {
+          "text": "leitfadengestützte Interviews, Gruppendiskussionen, teilnehmende Beobachtung",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "Hypothesen über Ursache-Wirkungs-Zusammenhänge überprüfen",
+          "kategorie": "quantitativ"
+        },
+        {
+          "text": "Auswertung auf Beschreiben und Verstehen ausgerichtet",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "Verwendung statistischer Verfahren",
+          "kategorie": "quantitativ"
+        },
+        {
+          "text": "relativ offen formulierte Forschungsfragen untersuchen",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "Grundlage für die Entwicklung von Theorien",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "Ergebnisse von der Stichprobe auf die Grundgesamtheit übertragen",
+          "kategorie": "quantitativ"
+        }
+      ],
+      "erklaerung": "Entspricht der eÜbung.",
+      "folie": "Test 2 · A1 · VL 2.4 · Folie 2–3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t2a2",
+      "baustein": "aufgabe",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Bringe den psychologischen Forschungsprozess in die idealtypische Reihenfolge: Datenanalyse · Forschungsinteresse · Publikation · Datenerhebung · Theorie-/Hypothesenbildung · Forschungsdesign/Operationalisierung",
+      "antwort": "Forschungsinteresse → Theorie-/Hypothesenbildung → Forschungsdesign/Operationalisierung → Datenerhebung → Datenanalyse → Publikation",
+      "erklaerung": "Idealtypische Reihenfolge (quantitativ).",
+      "folie": "Test 2 · A2 · VL 2.4 · Folie 5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t2a3",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Ein Forschungsteam untersucht, inwiefern die Schlafqualität davon beeinflusst wird, ob Personen direkt vor dem Schlafengehen ihr Smartphone nutzen. Bestimme uV und aV.",
+      "kategorien": [
+        "unabhängige Variable",
+        "abhängige Variable"
+      ],
+      "elemente": [
+        {
+          "text": "Smartphone-Nutzung ja/nein",
+          "kategorie": "unabhängige Variable"
+        },
+        {
+          "text": "Schlafqualität",
+          "kategorie": "abhängige Variable"
+        }
+      ],
+      "erklaerung": "Die Smartphone-Nutzung ist die vermutete Ursache.",
+      "folie": "Test 2 · A3 · VL 2.4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t2a4",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Ein Forschungsteam untersucht, ob das Geschlecht einen Einfluss auf die Dauer der Smartphone-Nutzung hat. Bestimme uV und aV.",
+      "kategorien": [
+        "unabhängige Variable",
+        "abhängige Variable"
+      ],
+      "elemente": [
+        {
+          "text": "Geschlecht",
+          "kategorie": "unabhängige Variable"
+        },
+        {
+          "text": "Dauer der Smartphone-Nutzung",
+          "kategorie": "abhängige Variable"
+        }
+      ],
+      "erklaerung": "Das Geschlecht soll Einfluss ausüben.",
+      "folie": "Test 2 · A4 · VL 2.4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t2a5",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Schüler:innen A, B und C zeigen bessere Leistungen, wenn sie beim Lernen Musik hören. Daraus schließt die Lehrkraft, dass Musik allgemein die Lernleistung verbessert. Um welche Art von Schlussfolgerung handelt es sich, und ist sie zulässig?",
+      "musterloesung": "Es handelt sich um einen induktiven Schluss (von Einzelfällen auf eine allgemeine Regel). Nach dem kritischen Rationalismus (Popper) ist er nicht zulässig: Viele Einzelbeobachtungen beweisen keine allgemeine Regel; schon ein Gegenfall (z. B. Schüler D lernt mit Musik schlechter) würde die Aussage falsifizieren.",
+      "bewertungspunkte": [
+        "induktiver Schluss benannt",
+        "nicht zulässig",
+        "Begründung über Popper/Falsifikation bzw. Gegenbeispiel"
+      ],
+      "punkte": 3,
+      "erklaerung": "Musterlösung zur Freitextaufgabe der eÜbung.",
+      "folie": "Test 2 · A5 · VL 2.4 · Folie 14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t2a6",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Beispiele den Begriffen zu.",
+      "kategorien": [
+        "Grundgesamtheit",
+        "Stichprobe",
+        "Vollerhebung"
+      ],
+      "elemente": [
+        {
+          "text": "die Studierenden an deutschen Universitäten (Aussagen über Studierende an deutschen Hochschulen)",
+          "kategorie": "Grundgesamtheit"
+        },
+        {
+          "text": "200 zufällig ausgewählte Abiturient:innen",
+          "kategorie": "Stichprobe"
+        },
+        {
+          "text": "ein Arbeitgeber befragt alle Beschäftigten seines Unternehmens",
+          "kategorie": "Vollerhebung"
+        }
+      ],
+      "erklaerung": "Entspricht der eÜbung.",
+      "folie": "Test 2 · A6 · VL 2.6 · Folie 2–3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t2a7",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Berufseinsteiger:innen werden zehn Jahre lang einmal jährlich zu ihrem berufsbezogenen emotionalen Erleben befragt. Bei der Studie handelt es sich um eine …",
+      "optionen": [
+        "Querschnittstudie.",
+        "Trendstudie.",
+        "Panelstudie."
+      ],
+      "richtig": [
+        "Panelstudie."
+      ],
+      "erklaerung": "Dieselben Personen zu mehreren Zeitpunkten = Panelstudie.",
+      "folie": "Test 2 · A7 · VL 2.5 · Folie 6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t2a8",
+      "baustein": "aufgabe",
+      "format": "frage",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Florian nimmt seit einiger Zeit an einer Panelbefragung zum Umweltbewusstsein junger Menschen teil. Durch die regelmäßige Befragung hat er ein zunehmendes Interesse an Umweltthemen entwickelt. Welches Phänomen wird beschrieben?",
+      "antwort": "Ein Panel-Effekt (Panel-Conditioning): Die wiederholte Befragung derselben Person verändert deren Verhalten bzw. Einstellungen – hier regt sie zur stärkeren Beschäftigung mit dem Thema an.",
+      "erklaerung": "Wiederholte Befragung verändert das Interesse.",
+      "folie": "Test 2 · A8 · VL 2.5 · Folie 8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t2a9",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Lehrer M. lässt per Münzwurf entscheiden, welche Schüler:innen ein halbes Jahr zusätzlich eine Lern-App nutzen („Zahl“) und welche nicht („Kopf“); der Lernfortschritt aller wird regelmäßig getestet. Welche Aussagen sind korrekt? (mehrere richtig)",
+      "optionen": [
+        "In dem Beispiel fehlt es an einer Kontrollgruppe.",
+        "Der Münzwurf entspricht den Anforderungen an eine randomisierte Zuweisung.",
+        "Im Rahmen der Operationalisierung muss Lehrer M. festlegen, wie der Lernfortschritt gemessen wird.",
+        "Lehrer M. führt ein faktorielles Experiment durch."
+      ],
+      "richtig": [
+        "Der Münzwurf entspricht den Anforderungen an eine randomisierte Zuweisung.",
+        "Im Rahmen der Operationalisierung muss Lehrer M. festlegen, wie der Lernfortschritt gemessen wird."
+      ],
+      "erklaerung": "Die Gruppe ohne App ist die Kontrollgruppe; Münzwurf = Randomisierung; Lernfortschritt muss operationalisiert werden; nur eine uV → kein faktorielles Experiment.",
+      "folie": "Test 2 · A9 · VL 2.5 · Folie 3–5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t2a10",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Kategorial oder metrisch?",
+      "kategorien": [
+        "kategoriale Variable",
+        "metrische Variable"
+      ],
+      "elemente": [
+        {
+          "text": "Körpergröße in cm",
+          "kategorie": "metrische Variable"
+        },
+        {
+          "text": "Anzahl bestandener Prüfungen",
+          "kategorie": "metrische Variable"
+        },
+        {
+          "text": "Prozent richtiger Antworten im Test",
+          "kategorie": "metrische Variable"
+        },
+        {
+          "text": "Hunderasse",
+          "kategorie": "kategoriale Variable"
+        },
+        {
+          "text": "Studienfach",
+          "kategorie": "kategoriale Variable"
+        },
+        {
+          "text": "Selbstbewertung des Lernerfolgs (niedrig – mittel – hoch)",
+          "kategorie": "kategoriale Variable"
+        }
+      ],
+      "erklaerung": "Kategorial = nominal/ordinal, metrisch = intervall/verhältnis.",
+      "folie": "Test 2 · A10 · VL 2.7 · Folie 4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t2a11",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Skalenniveaus der maximal abbildbaren Aussage zu.",
+      "kategorien": [
+        "Nominalskala",
+        "Ordinalskala",
+        "Intervallskala",
+        "Verhältnisskala"
+      ],
+      "elemente": [
+        {
+          "text": "gleich oder unterschiedlich",
+          "kategorie": "Nominalskala"
+        },
+        {
+          "text": "Rangfolge",
+          "kategorie": "Ordinalskala"
+        },
+        {
+          "text": "Aussage über Differenzen",
+          "kategorie": "Intervallskala"
+        },
+        {
+          "text": "Aussage über Verhältnisse",
+          "kategorie": "Verhältnisskala"
+        }
+      ],
+      "erklaerung": "Maximal abbildbare Aussage je Skala.",
+      "folie": "Test 2 · A11 · VL 2.7 · Folie 5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t2a12",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Beispiele dem Skalenniveau zu.",
+      "kategorien": [
+        "Nominalskala",
+        "Ordinalskala",
+        "Intervallskala",
+        "Verhältnisskala"
+      ],
+      "elemente": [
+        {
+          "text": "Augenfarbe",
+          "kategorie": "Nominalskala"
+        },
+        {
+          "text": "Dienstgrad bei der Bundeswehr",
+          "kategorie": "Ordinalskala"
+        },
+        {
+          "text": "IQ-Test",
+          "kategorie": "Intervallskala"
+        },
+        {
+          "text": "Einkommen",
+          "kategorie": "Verhältnisskala"
+        }
+      ],
+      "erklaerung": "Augenfarbe nominal, Dienstgrad ordinal, IQ intervall, Einkommen verhältnis.",
+      "folie": "Test 2 · A12 · VL 2.7 · Folie 5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t2a13",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Maßnahmen tragen zur Durchführungsobjektivität bei? (mehrere richtig)",
+      "optionen": [
+        "Alle Teilnehmenden erhalten dieselbe, wortgleich vorgelesene Instruktion.",
+        "Aufgrund einer Baustelle erleben die nacheinander teilnehmenden Personen unterschiedlichen Lärm.",
+        "Die Versuchsleiterin ermutigt ängstliche Teilnehmende zusätzlich.",
+        "Alle Teilnehmenden erhalten die gleiche Bearbeitungszeit."
+      ],
+      "richtig": [
+        "Alle Teilnehmenden erhalten dieselbe, wortgleich vorgelesene Instruktion.",
+        "Alle Teilnehmenden erhalten die gleiche Bearbeitungszeit."
+      ],
+      "erklaerung": "Gleiche Instruktion und Bearbeitungszeit = standardisiert; Lärm und zusätzliche Ermutigung verletzen die Durchführungsobjektivität.",
+      "folie": "Test 2 · A13 · VL 2.7 · Folie 8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t2a14",
+      "baustein": "aufgabe",
+      "format": "luecke",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "text": "[[Objektivität]] ist eine notwendige, jedoch nicht hinreichende Bedingung für [[Reliabilität]]. [[Reliabilität]] ist eine notwendige, jedoch nicht hinreichende Bedingung für [[Validität]]. Somit können Messungen [[objektiv und reliabel]], aber dennoch nicht [[valide]] sein.",
+      "erklaerung": "Objektivität → Reliabilität → Validität; jeweils notwendig, nicht hinreichend.",
+      "folie": "Test 2 · A14 · VL 2.7 · Folie 12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t2a15",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "In einer Klassenarbeit wurden die Noten 1,0; 1,0; 1,3; 2,0; 2,7; 3,0; 3,7; 4,0; 5,0 erreicht. Bestimme Modalwert, Median und Mittelwert.",
+      "musterloesung": "Modalwert = 1,0 (kommt zweimal vor). Median = 2,7 (bei 9 sortierten Werten der 5. Wert). Mittelwert = (1,0 + 1,0 + 1,3 + 2,0 + 2,7 + 3,0 + 3,7 + 4,0 + 5,0) / 9 = 23,7 / 9 ≈ 2,6.",
+      "bewertungspunkte": [
+        "Modalwert 1,0",
+        "Median 2,7",
+        "Mittelwert ≈ 2,6 mit Rechenweg"
+      ],
+      "punkte": 3,
+      "erklaerung": "Sortiert, 9 Werte: Median = 5. Wert.",
+      "folie": "Test 2 · A15 · VL 2.8 · Folie 3–4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t2a16",
+      "baustein": "aufgabe",
+      "format": "luecke",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "text": "Während der [[Median]] robust gegenüber Extremwerten ist, wird der [[Mittelwert]] durch jeden einzelnen Wert beeinflusst und ist anfällig für Extremwerte.",
+      "erklaerung": "Median robust, Mittelwert extremwertanfällig.",
+      "folie": "Test 2 · A16 · VL 2.8 Folie 4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t2a17",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Positive oder negative Korrelation?",
+      "kategorien": [
+        "positive Korrelation",
+        "negative Korrelation"
+      ],
+      "elemente": [
+        {
+          "text": "Je höher die Anzahl an Fehltagen, desto geringer die Punktzahl in der Klausur.",
+          "kategorie": "negative Korrelation"
+        },
+        {
+          "text": "Je höher das Interesse am Studienfach, desto mehr Zeit für Vor- und Nachbereitung.",
+          "kategorie": "positive Korrelation"
+        },
+        {
+          "text": "Je geringer die Anzahl an Fehltagen, desto geringer die Anzahl an Rückfragen am Semesterende.",
+          "kategorie": "positive Korrelation"
+        },
+        {
+          "text": "Je geringer das Vertrauen in die Lehrperson, desto geringer die Beteiligung im Seminar.",
+          "kategorie": "positive Korrelation"
+        }
+      ],
+      "erklaerung": "Wenn beide Werte gemeinsam fallen, ist die Korrelation positiv.",
+      "folie": "Test 2 · A17 · VL 2.8 · Folie 9",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Die Tests decken die prüfungsrelevanten Inhalte der VL S02 ab."
+  ],
+  "offene_fragen": [
+    "Lösungen selbst erarbeitet, nicht mit der offiziellen Auswertung abgeglichen (Selbsttest wurde nicht abgeschickt)."
+  ]
+}

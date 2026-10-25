@@ -1,0 +1,13 @@
+{
+  "schema": "lernapp-glossar/2",
+  "modul": "ewb001",
+  "eintraege": [
+    {
+      "begriff": "Modul (Studium)",
+      "wortlaut": "Module … sind thematische Bausteine des Studiums; sind inhaltlich eng miteinander verknüpft; sind aufeinander aufbauend; werden in einer Modulbeschreibung kontextualisiert; bestehen aus mehreren Teilmodulen (mind. zwei); müssen (i.d.R.) in einem Semester abgeschlossen werden; werden mit einer Modulprüfung abgeschlossen",
+      "erklaerung": "Ein Modul ist eine thematische Einheit aus mindestens zwei Veranstaltungen (z. B. ewb001.1 und ewb001.2), die meist in einem Semester belegt und mit einer gemeinsamen Prüfung abgeschlossen wird.",
+      "quelle": "ewb001.1_2026-10-13 · Einheit 0, Folie 6",
+      "abweichungen": []
+    }
+  ]
+}

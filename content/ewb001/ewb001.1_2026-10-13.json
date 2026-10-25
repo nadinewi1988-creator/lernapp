@@ -1,0 +1,242 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb001",
+  "teilmodul": "ewb001.1",
+  "datum": "2026-10-13",
+  "sitzung_nr": 1,
+  "sitzung_id": "",
+  "thema": "Einführung in die Veranstaltung und Organisatorisches; Säulen der Pädagogik (Sozialisation, Erziehung, Bildung, Lernen) · Einführung ins Studium",
+  "thema_in_app": "eingetragen",
+  "stand": "geprueft",
+  "hinweis": "Gemeinsamer Auftakt von ewb001.1 und ewb001.2 (13.10.2026, Q016). Die Inhalte stammen aus der Courseware-Einheit 1 (Folien + eingesprochenes Video), dem Prüfungs-Infoblatt und der Courseware-Einheit 0 „Einführung in das Studium“.",
+  "quellen": [
+    { "datei": "ewb001.1/2._Präsentationen/ewb001.1_1__Sitzung_Organisatorisches_Einfuehrung.pdf", "art": "Folien (Courseware-Einheit 1)", "seiten": "1–14" },
+    { "datei": "ewb001.1/3._Videos Courseware Kopie/Sitzung_01/ewb001.1_1__Sitzung_Transkript_Zusammenfassung.docx", "art": "Transkript des eingesprochenen Videos (23 Min.)", "seiten": "" },
+    { "datei": "ewb001.1/2._Präsentationen/ewb001.1_0__Auftakttage_Einführung_in_das_Studium.pdf", "art": "Folien (Courseware-Einheit 0)", "seiten": "1–32" },
+    { "datei": "ewb001.1/1._Organisatorisches/4_Prüfung_Infoblatt_ewb001.pdf", "art": "Prüfungs-Infoblatt WiSe 2026/27", "seiten": "1–4" },
+    { "datei": "ewb001.1/1._Organisatorisches/1_Organisationshinweise.pdf", "art": "Organisationshinweise", "seiten": "1–2" },
+    { "datei": "ewb001.1/1._Organisatorisches/2_Ablaufplan_ewb001.pdf", "art": "Ablaufplan", "seiten": "" },
+    { "datei": "ewb001.1/1._Organisatorisches/Beschreibungen_12_Einheiten_der_Courseware.pdf", "art": "Beschreibung der Courseware-Einheiten 0 und 1", "seiten": "1–2" },
+    { "datei": "ewb001.1/5._Lernzielkontrollen/1_Lernzielkontrolle_Anleitung.pptx", "art": "Lernzielkontrolle (nur Spielanleitung, keine Fragen)", "seiten": "1–5" }
+  ],
+
+  "lernziele": [
+    { "text": "Wissen über die Grundbegriffe und Problemstellungen der Erziehungswissenschaft", "art": "vorgegeben", "quelle": "Folie 6", "fragen": ["f01", "f03"], "erklaerung_abschnitt": "Lehr- und Lernziele, Kompetenzerwerb" },
+    { "text": "Wissen in den Bereichen der Sozialisation, der Erziehung, der Bildung und des Lernens und ein Problemverständnis für die Differenz von pädagogischem Alltagswissen und einer wissenschaftlichen Betrachtungsweise", "art": "vorgegeben", "quelle": "Folie 6", "fragen": ["f01", "f02", "f03"], "erklaerung_abschnitt": "Lehr- und Lernziele, Kompetenzerwerb" },
+    { "text": "ein kritisches Verständnis der grundlegenden Theorien der Sozialisation, Erziehung, Bildung und des Lernens und der Erziehungswissenschaft insgesamt", "art": "vorgegeben", "quelle": "Folie 6", "fragen": ["f03"], "erklaerung_abschnitt": "Lehr- und Lernziele, Kompetenzerwerb" },
+    { "text": "ein kritisches Verständnis der anthropologischen und gesellschaftlichen Voraussetzungen und Bedingungen von Sozialisation, Erziehung, Bildung und Lernen", "art": "vorgegeben", "quelle": "Folie 6", "fragen": ["f03"], "erklaerung_abschnitt": "Lehr- und Lernziele, Kompetenzerwerb" },
+    { "text": "Die Studierenden können die Struktur und die historische Genese der Erziehungswissenschaft darstellen", "art": "vorgegeben", "quelle": "Folie 7", "fragen": ["f04"], "erklaerung_abschnitt": "Lehr- und Lernziele, Kompetenzerwerb" },
+    { "text": "Die Studierenden besitzen die Fähigkeit, Wissensformen zu differenzieren und wissenschaftliche Argumentationen nachzuvollziehen", "art": "vorgegeben", "quelle": "Folie 7", "fragen": ["f02", "f04"], "erklaerung_abschnitt": "Lehr- und Lernziele, Kompetenzerwerb" },
+    { "text": "Die Studierenden können Themen auswählen, Fragestellungen konzipieren, Informationen und Daten beschaffen, auswerten und aufbereiten", "art": "vorgegeben", "quelle": "Folie 7", "fragen": ["f04"], "erklaerung_abschnitt": "Lehr- und Lernziele, Kompetenzerwerb" },
+    { "text": "Du kennst Aufbau, Materialien und Prüfungsmodalitäten von ewb001 (Klausuraufbau, Bewertung, An- und Abmeldung).", "art": "abgeleitet", "quelle": "Folien 2–3, 10–13; Prüfungs-Infoblatt", "fragen": ["f01", "f05", "f06", "f07", "f08", "f09", "f14"], "erklaerung_abschnitt": "Aufbau und Themen des Moduls · Materialien und Tutorien · Die Klausur" },
+    { "text": "Du kennst Aufbau und Organisation des Studiums der Erziehungswissenschaften (BA Combined Studies, Module, CP) und weißt, wo es Unterstützung gibt.", "art": "abgeleitet", "quelle": "Einheit 0, Folien 4–31", "fragen": ["f10", "f11", "f12", "f13"], "erklaerung_abschnitt": "Einführung in das Studium (Courseware-Einheit 0)" }
+  ],
+
+  "kurzfassung": [
+    "ewb001 besteht aus zwei Vorlesungen: ewb001.1 „Einführung in die Erziehungswissenschaften“ (Prof. Dr. Margit Stein) und ewb001.2 „Kompetenzorientiertes Lehren und Lernen“ (Prof. Dr. Marco Rieckmann).",
+    "Themen: Einführung in die Pädagogik/Erziehungswissenschaft, Sozialisation und Erziehung (ewb001.1) sowie Bildung, Lernen und Kompetenzen (ewb001.2).",
+    "Zentrales Ziel ist wissenschaftliches Fachwissen in Abgrenzung zum naiven, laienhaften pädagogischen Alltagswissen – mit kritischem Blick auf Theorien und ihre anthropologischen und gesellschaftlichen Voraussetzungen.",
+    "Das Modul ist ein Flipped Classroom: digitale Lerneinheiten (Courseware/Opencast) zuhause, dazu wöchentliche Präsenztermine; es gibt keine Anwesenheitspflicht, Tutorien werden dringend empfohlen.",
+    "Das Kurzskript ist nur ein „erweitertes Inhaltsverzeichnis“ und reicht für die Klausur nicht.",
+    "Klausur: 02.02.2027, 13:00 Uhr, Online-Klausur in Präsenz, 60 Minuten, keine Hilfsmittel; 15 SC/MC-Fragen zu ewb001.1, 15 zu ewb001.2 und 1–2 offene bzw. Lückentextfragen; keine Teilpunkte.",
+    "Zur Klausur muss man sich selbst in QISPOS anmelden (14.10.–31.12.2026); Abmeldung bis 22.01.2027 – wer unentschuldigt fehlt, hat nicht bestanden.",
+    "Im BA Combined Studies (180 CP) bringt ein Modul 6 CP (1 CP = 25–30 Std.; 56 Std. Kontakt-, 124 Std. Selbststudium)."
+  ],
+
+  "erklaerung": [
+    {
+      "titel": "Aufbau und Themen des Moduls",
+      "text": "Das Modul **ewb001 „Grundlagen und Grundbegriffe der Erziehungswissenschaften“** besteht aus zwei Vorlesungen mit je 2 SWS, die **zusammen eine Klausur** ergeben (Folie 3):\n\n| Teil | Vorlesung | Lehrperson | Themen |\n| --- | --- | --- | --- |\n| ewb001.1 | Einführung in die Erziehungswissenschaften | Prof. Dr. Margit Stein | Einführung in die Pädagogik/Erziehungswissenschaft · Sozialisation · Erziehung (laut Ablaufplan zusätzlich Bindung) |\n| ewb001.2 | Kompetenzorientiertes Lehren und Lernen | Prof. Dr. Marco Rieckmann | Bildung · Lernen · Kompetenzen |\n\nDer Ablaufplan nennt diese Themen als **Säulen der Pädagogik: Sozialisation, Erziehung, Bildung, Lernen**. Laut Organisationshinweisen ist das Modul eine Art „Gliederung für das ganze Studium“ – die Themen werden in späteren Modulen vertieft.\n\n**Vorstellung Frau Stein (Folie 4, Video):** Studium der Psychologie und Erziehungswissenschaften in Eichstätt-Ingolstadt, Promotion zur Förderung beruflicher Kompetenzen bei Auszubildenden, Forschung zu Werteorientierung und religiösen Überzeugungen junger Menschen; seit 2010 Professorin für Allgemeine Pädagogik in Vechta, vorher Professorin für Soziale Arbeit in Thüringen.\n\n**So funktioniert das Modul (Organisationshinweise): Flipped Classroom**\n- *Asynchrone Anteile:* Folien mit eingesprochenem Ton als Video in Courseware bzw. Opencast, dazu vertiefende Texte, Bilder, Videos und Lernkontrollen im Stil von „Wer wird Millionär?“ – Woche für Woche zuhause bearbeiten. Die Videos enthalten mehr Erklärungen als die stichpunktartigen Folien.\n- *Präsenztermine:* wöchentlich dienstags in Q016 – Fragen, Diskussion, Kinderrechte- und Toleranztrainings (Compasito, Betzavta) und Gastvorträge (z. B. „Balu und Du“). Wer beide Trainings besucht, bekommt eine Bestätigung von Frau Stein.",
+      "folien": "1–5"
+    },
+    {
+      "titel": "Lehr- und Lernziele, Kompetenzerwerb",
+      "text": "**Lehr- und Lernziele der Veranstaltung (Folie 6):**\n1. Wissen über die Grundbegriffe und Problemstellungen der Erziehungswissenschaft;\n2. Wissen in den Bereichen der Sozialisation, der Erziehung, der Bildung und des Lernens und ein Problemverständnis für die **Differenz von pädagogischem Alltagswissen und einer wissenschaftlichen Betrachtungsweise**;\n3. ein kritisches Verständnis der grundlegenden Theorien der Sozialisation, Erziehung, Bildung und des Lernens und der Erziehungswissenschaft insgesamt;\n4. ein kritisches Verständnis der anthropologischen und gesellschaftlichen Voraussetzungen und Bedingungen von Sozialisation, Erziehung, Bildung und Lernen.\n\n**Was Frau Stein dazu im Video erklärt:**\n- *Fachwissen statt Alltagswissen:* Jede und jeder kann „aus dem Stegreif“ sagen, was Lernen oder Erziehung ist. Als künftige Pädagog:innen und Lehrkräfte braucht man aber **wissenschaftliches Wissen** in Abgrenzung zum „naiven, laienhaften pädagogischen Alltagswissen“.\n- *Theorien kritisch reflektieren:* Zu einem Bereich (z. B. Sozialisation) gibt es mehrere Theorien mit unterschiedlichen Sichtweisen – man soll sich selbst kritisch positionieren können.\n- *Voraussetzungen:* individuelle Voraussetzungen und Unterschiede, auf denen Lernen aufbaut, und gesellschaftliche Ungleichheitsstrukturen, durch die bestimmte Gruppen schlechter in Bildungs- und Lernprozesse eingebunden sind.\n\n**Kompetenzerwerb (Folie 7)** – die Studierenden:\n- können die Struktur und die historische Genese der Erziehungswissenschaft darstellen;\n- besitzen die Fähigkeit, Wissensformen zu differenzieren und wissenschaftliche Argumentationen nachzuvollziehen;\n- können Themen auswählen, Fragestellungen konzipieren, Informationen und Daten beschaffen, auswerten und aufbereiten.\n\nBeispiele aus dem Video: Erziehung war vor 100 Jahren ganz anders konzipiert als heute (historische Einblicke z. B. in die Montessori-Pädagogik und die Pädagogik Paulo Freires); Studien wie die **Shell Jugendstudie** (junge Menschen zwischen 12 und 25) sollen eingeschätzt werden können – wie ist sie aufgebaut, ist sie repräsentativ, sind ihre Aussagen verallgemeinerbar?",
+      "folien": "6–7"
+    },
+    {
+      "titel": "Materialien und Tutorien",
+      "text": "**Materialien auf Stud.IP (Folien 10–11):**\n- Organisationshinweise, Prüfungshinweis, Ablaufplan mit Themen und synchronen Terminen\n- **Kurzskript** / erweitertes Inhaltsverzeichnis mit Literatur (nur ewb001.1)\n- PowerPoint-Folien als PDF zum Ergänzen oder Ausdrucken\n- Opencasts mit den eingesprochenen Folien\n- ausgewählte Literatur als PDF und Literaturliste\n- digitale Inhalte: **Courseware, Vips, Umfragen**\n\n> **Prüfungshinweis (Video):** Reicht das Kurzskript für die Klausur? Frau Stein: „ein klares Nein“. Mit Kurzskript und Vorlesung komme man höchstens „mit einer relativ schlechten Note“ durch. Erwartet wird die vertiefte Auseinandersetzung mit Folien und eingestelltem Material.\n\n**Tutorien (Folien 8–9):** Tutor:innen sind Studierende, die das Modul selbst mit sehr guten Ergebnissen abgeschlossen haben. Sie bieten wöchentlich Termine an, in denen Inhalte reflektiert, Aufgaben durchgegangen und Fragen niederschwellig gestellt werden – auch zur Klausurvorbereitung. Die Hälfte der Tutorien gehört zu ewb001.1, die andere zu ewb001.2; am besten in beide eintragen. Es gibt **keine Anwesenheitspflicht**.\n\nAus Frau Steins Befragung (Video): Wer jede Woche die Vorlesung nachvollzogen, die Opencasts gehört und regelmäßig das Tutorium besucht hat, war **nicht schlechter als 2,0**; von den Durchgefallenen war niemand regelmäßig im Tutorium.\n\n**Lernzielkontrollen „Wer wird Millionär“:** zu jeder Sitzung 15 Fragen mit je vier Antworten, im Präsentationsmodus spielbar; zusammen mit den offenen Fragen aus den Tutorien bereiten sie auf die Klausur vor.",
+      "folien": "8–11"
+    },
+    {
+      "titel": "Die Klausur",
+      "text": "**Folien 12–13:** Prüfungsrelevant sind die Inhalte **beider** Vorlesungen (ewb001.1 und ewb001.2). Voraussetzung: beide Vorlesungen belegen und sich **persönlich in QISPOS** anmelden – die Einschreibung in Stud.IP ist keine Prüfungsanmeldung. Frau Stein darf niemanden nachträglich zulassen.\n\n**Aus dem Prüfungs-Infoblatt WiSe 2026/27:**\n\n| | |\n| --- | --- |\n| Form | Online-Klausur **in Präsenz** an der Uni (Stud.IP-Plugin „Aufgaben“), eigenes Gerät mitbringen, Ausweis bereithalten |\n| Termin | **Di, 02.02.2027, 13:00 Uhr** (Einlass ab 12 Uhr); Raum nach Nachnamen (Q015, Q016, B1, Aula F144) |\n| Schreibzeit | **60 Minuten**; Zeitfenster 13:00–14:15 Uhr (75 Min.) |\n| Hilfsmittel | keine |\n| Aufbau | **15 Single-/Multiple-Choice-Fragen zu ewb001.1 + 15 zu ewb001.2** + ein oder zwei offene Fragen bzw. Lückentextfragen |\n| Bewertung SC/MC | je 1 Punkt; bei MC können **eine, zwei, drei oder alle vier** Antworten richtig sein; **jede falsche Antwort → 0 Punkte**, keine Teilpunkte |\n| offene Fragen | Stichpunkte erlaubt, Tipp- und Rechtschreibfehler zählen nicht |\n| Anmeldung | QISPOS, **14.10.–31.12.2026** |\n| Abmeldung | bis **22.01.2027** – wer unentschuldigt fehlt, hat nicht bestanden |\n| Zweittermin | **30.03.2027**, 13:00 Uhr (Anmeldung 14.02.–15.03.2027, Abmeldung bis 27.03.2027) |\n| Krankheit | Attest mit Vermerk „Prüfungsunfähigkeitsbescheinigung“ bis eine Woche nach der Klausur an Frau Sander (Sekretariat), mit Datum, Matrikel-Nr., Name, Studiengang, Modul |\n| Nachteilsausgleich / Familienverantwortung | nur mit offiziellem Uni-Dokument, bis 31.12.2026 an Frau Stein (für den Zweittermin bis 25.03.2027); ärztliche oder Kita-Bescheinigungen reichen nicht |\n| zweimal nicht bestanden | mündliche Prüfung (ca. 20 Min.) frühestens 3 Monate, spätestens 1 Jahr danach |\n\nDie Klausur-Veranstaltung „Klausur ewb001“ erscheint etwa drei Tage vorher in Stud.IP und ist einen Tag vorher schon offen – gut zum Ausprobieren.",
+      "folien": "12–13"
+    },
+    {
+      "titel": "Einführung in das Studium (Courseware-Einheit 0)",
+      "text": "**Wichtigste Dokumente (Einheit 0, Folie 4):** Rahmenprüfungsordnung für Bachelor- und Masterstudiengänge · Prüfungsordnung + Studienordnung Erziehungswissenschaften im BA CS · Modulbeschreibungen des Teilstudiengangs Erziehungswissenschaften im Bachelor Combined Studies.\n\n**Erziehungswissenschaften im A- oder B-Fach (Folie 5)** – je 180 CP:\n\n| | A-B-Fach-Kombination | B-B-Fach-Kombination |\n| --- | --- | --- |\n| Teilstudiengänge | A: 80 CP · B: 60 CP | B1: 60 CP · B2: 60 CP |\n| Profilierungsbereich | 15 CP | 35 CP |\n| Praktika | 15 CP | 15 CP |\n| Bachelorarbeit | 10 CP | 10 CP |\n\n**Module … (Folie 6)**\n- sind thematische Bausteine des Studiums\n- sind inhaltlich eng miteinander verknüpft\n- sind aufeinander aufbauend\n- werden in einer Modulbeschreibung kontextualisiert\n- bestehen aus mehreren Teilmodulen (mind. zwei)\n- müssen (i. d. R.) in einem Semester abgeschlossen werden\n- werden mit einer Modulprüfung abgeschlossen\n\n**FAQ (Folien 14–15):** Pro Modul 6 CP (1 CP = 25–30 Std.); Arbeitsaufwand i. d. R. 56 Std. Kontaktstudium und 124 Std. Selbststudium; Angebot i. d. R. 1 × pro Studienjahr (Modulbeschreibung beachten); meist keine Zugangsvoraussetzungen. Veranstaltungen über Stud.IP, **Prüfungen über QISPOS**; Dozierende können nicht ein- oder austragen; wer am Prüfungstag nicht erscheint bzw. nicht abgibt, sich nicht abgemeldet hat und kein Attest einreicht, hat **nicht bestanden**.\n\n**16 Empfehlungen zum Einstieg (Folien 17–19), kurz:** Basislektüre und Modulbeschreibungen sorgfältig erarbeiten · Veranstaltungen vor- und nachbereiten · konstruktiv mitgestalten und Themen einfordern · in Interessenvertretungen (z. B. Fachrat) organisieren · Referate und Prüfungen sorgfältig vorbereiten · Praktika nutzen und sich vernetzen · Themen für die Bachelorarbeit finden · Breite und Tiefe suchen · als studentische Hilfskraft mitarbeiten · Verantwortung fürs eigene Studium übernehmen · Website im Blick behalten · **Tutorien und Lerngruppen nutzen** · Schwerpunkte im Profilierungsbereich und in Modulen (z. B. ewb007, ewb009) setzen · Praktika und Bachelorarbeit nach Interesse wählen · Zertifikate nutzen (z. B. „Interkulturelle Kompetenz“).\n\n**Informationen und Ansprechpartner (Folien 20–24):** Website der Erziehungswissenschaften, Bibliotheksführungen und -schulungen, Semesterapparate; EW-Fachrat, EW-Fachsprecher:innen, EW-Lehrkoordination, Studienberatung.\n\n**Unterstützung (Folien 26–31):**\n- *Familienverantwortung* (z. B. Erziehung von Kindern, Betreuung von Menschen mit Behinderungen oder pflegebedürftigen Angehörigen): u. U. Vergünstigungen wie verlängerte Schreibzeiten bei Hausarbeiten – dafür den Dozierenden ein **offizielles Dokument** vorlegen.\n- *Nachteilsausgleich* bei (chronischer) Erkrankung oder Schwerbehinderung: ebenfalls mit offiziellem Dokument.\n- *Studium mit Fluchthintergrund:* Anrechnungs- und Unterstützungsmöglichkeiten; Ansprechpartner im International Office.",
+      "folien": "Einheit 0: 1–32"
+    }
+  ],
+
+  "definitionen": [
+    {
+      "begriff": "Modul (Studium)",
+      "wortlaut": "Module … sind thematische Bausteine des Studiums; sind inhaltlich eng miteinander verknüpft; sind aufeinander aufbauend; werden in einer Modulbeschreibung kontextualisiert; bestehen aus mehreren Teilmodulen (mind. zwei); müssen (i.d.R.) in einem Semester abgeschlossen werden; werden mit einer Modulprüfung abgeschlossen",
+      "erklaerung": "Ein Modul ist eine thematische Einheit aus mindestens zwei Veranstaltungen (z. B. ewb001.1 und ewb001.2), die meist in einem Semester belegt und mit einer gemeinsamen Prüfung abgeschlossen wird.",
+      "folie": "Einheit 0, Folie 6"
+    }
+  ],
+
+  "aufgaben": [],
+
+  "fragen": [
+    {
+      "id": "f01", "baustein": "vergleich", "format": "zuordnung", "niveau": "wissen", "schwierigkeit": 1,
+      "frage": "Ordne die Themen der passenden Vorlesung von ewb001 zu.",
+      "kategorien": ["ewb001.1 Einführung in die Erziehungswissenschaften (Stein)", "ewb001.2 Kompetenzorientiertes Lehren und Lernen (Rieckmann)"],
+      "elemente": [
+        { "text": "Einführung in die Pädagogik/Erziehungswissenschaft", "kategorie": "ewb001.1 Einführung in die Erziehungswissenschaften (Stein)" },
+        { "text": "Sozialisation", "kategorie": "ewb001.1 Einführung in die Erziehungswissenschaften (Stein)" },
+        { "text": "Erziehung", "kategorie": "ewb001.1 Einführung in die Erziehungswissenschaften (Stein)" },
+        { "text": "Bildung", "kategorie": "ewb001.2 Kompetenzorientiertes Lehren und Lernen (Rieckmann)" },
+        { "text": "Lernen", "kategorie": "ewb001.2 Kompetenzorientiertes Lehren und Lernen (Rieckmann)" },
+        { "text": "Kompetenzen", "kategorie": "ewb001.2 Kompetenzorientiertes Lehren und Lernen (Rieckmann)" }
+      ],
+      "erklaerung": "Folie 5 und Video: Die ersten drei Bereiche behandelt Frau Stein in ewb001.1, Bildung, Lernen und Kompetenzen Herr Rieckmann in ewb001.2.",
+      "folie": "3, 5", "pruefungsrelevant": false
+    },
+    {
+      "id": "f02", "baustein": "kernaussage", "format": "frage", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Warum reicht es für künftige Pädagog:innen und Lehrkräfte laut Frau Stein nicht, „aus dem Stegreif“ zu wissen, was Erziehung oder Lernen ist?",
+      "antwort": "Weil das pädagogisches Alltagswissen ist – naiv und laienhaft. Als Fachleute brauchen sie wissenschaftliches Wissen: Fachwissen über Sozialisation, Erziehung, Bildung und Lernen, Kenntnis der Theorien und die Fähigkeit, sie kritisch zu reflektieren.",
+      "erklaerung": "Lernziel 2 (Folie 6): Problemverständnis für die Differenz von pädagogischem Alltagswissen und einer wissenschaftlichen Betrachtungsweise. Ausführlich in Sitzung 2.",
+      "folie": "6", "pruefungsrelevant": false
+    },
+    {
+      "id": "f03", "baustein": "kernaussage", "format": "mc", "niveau": "wissen", "schwierigkeit": 1,
+      "frage": "Welche Punkte gehören zu den Lehr- und Lernzielen von ewb001? (mehrere richtig)",
+      "optionen": [
+        "Wissen über die Grundbegriffe und Problemstellungen der Erziehungswissenschaft",
+        "ein kritisches Verständnis der grundlegenden Theorien der Sozialisation, Erziehung, Bildung und des Lernens",
+        "die Fähigkeit, eine Schulklasse eigenständig zu unterrichten",
+        "ein kritisches Verständnis der anthropologischen und gesellschaftlichen Voraussetzungen von Sozialisation, Erziehung, Bildung und Lernen"
+      ],
+      "richtig": [0, 1, 3],
+      "erklaerung": "Folie 6 nennt vier Ziele: Grundbegriffe/Problemstellungen, Wissen in den vier Bereichen mit der Differenz Alltagswissen – Wissenschaft, kritisches Verständnis der Theorien und der anthropologischen und gesellschaftlichen Voraussetzungen. Unterrichten gehört nicht dazu – ewb001 ist ein Grundlagenmodul.",
+      "folie": "6", "pruefungsrelevant": false
+    },
+    {
+      "id": "f04", "baustein": "kernaussage", "format": "mc", "niveau": "wissen", "schwierigkeit": 1,
+      "frage": "Welche Kompetenzen sollen die Studierenden in ewb001 erwerben? (mehrere richtig)",
+      "optionen": [
+        "die Struktur und die historische Genese der Erziehungswissenschaft darstellen",
+        "Wissensformen differenzieren und wissenschaftliche Argumentationen nachvollziehen",
+        "Themen auswählen, Fragestellungen konzipieren, Informationen und Daten beschaffen, auswerten und aufbereiten",
+        "psychologische Diagnosen bei Kindern stellen"
+      ],
+      "richtig": [0, 1, 2],
+      "erklaerung": "Folie 7 nennt genau die ersten drei. Beispiel aus dem Video: Studien wie die Shell Jugendstudie auf Aufbau, Repräsentativität und Verallgemeinerbarkeit prüfen. Diagnosen sind kein Ziel des Moduls.",
+      "folie": "7", "pruefungsrelevant": false
+    },
+    {
+      "id": "f05", "baustein": "kernaussage", "format": "frage", "niveau": "wissen", "schwierigkeit": 1,
+      "frage": "Reicht das Kurzskript zu ewb001.1 als Vorbereitung auf die Klausur?",
+      "antwort": "Nein. Es ist nur ein Grobgerüst bzw. „erweitertes Inhaltsverzeichnis“. Damit und mit der Vorlesung kommt man höchstens mit einer relativ schlechten Note durch; erwartet wird die vertiefte Auseinandersetzung mit Folien, Videos und eingestelltem Material.",
+      "erklaerung": "Aussage von Frau Stein im Video zu Folie 5/10.",
+      "folie": "5, 10", "pruefungsrelevant": false
+    },
+    {
+      "id": "f06", "baustein": "kernaussage", "format": "mc", "niveau": "wissen", "schwierigkeit": 1,
+      "frage": "Welche Aussagen zur Klausur ewb001 im WiSe 2026/27 stimmen? (mehrere richtig)",
+      "optionen": [
+        "Sie wird als Online-Klausur in Präsenz an der Universität geschrieben.",
+        "Die Schreibzeit beträgt 60 Minuten.",
+        "Sie enthält 15 SC/MC-Fragen zu ewb001.1, 15 zu ewb001.2 und ein oder zwei offene bzw. Lückentextfragen.",
+        "Folien und Bücher dürfen als Hilfsmittel benutzt werden."
+      ],
+      "richtig": [0, 1, 2],
+      "erklaerung": "Prüfungs-Infoblatt: Online-Klausur in Präsenz, 60 Minuten Schreibzeit (Zeitfenster 75 Minuten), Aufbau 15 + 15 + 1–2 offene Fragen. Hilfsmittel sind ausdrücklich nicht zulässig.",
+      "folie": "12; Prüfungs-Infoblatt", "pruefungsrelevant": false
+    },
+    {
+      "id": "f07", "baustein": "kernaussage", "format": "mc", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Bei einer Multiple-Choice-Frage in der ewb001-Klausur sind zwei von vier Antworten richtig. Du kreuzt nur eine der beiden richtigen an. Wie wird die Aufgabe bewertet?",
+      "optionen": ["mit 0 Punkten", "mit einem halben Punkt", "mit einem Punkt", "mit Minuspunkten"],
+      "richtig": [0],
+      "erklaerung": "Prüfungs-Infoblatt: Falsche Antworten führen zu 0 Punkten, Teilpunkte bei nur teilweise richtiger Beantwortung gibt es nicht. Bei MC können eine, zwei, drei oder alle vier Antworten richtig sein – also jede Option einzeln prüfen.",
+      "folie": "Prüfungs-Infoblatt", "pruefungsrelevant": false
+    },
+    {
+      "id": "f08", "baustein": "kernaussage", "format": "luecke", "niveau": "wissen", "schwierigkeit": 1,
+      "text": "Zur Klausur ewb001 meldet man sich persönlich über [[QISPOS]] an, nicht über Stud.IP. Voraussetzung ist, dass man [[beide]] Vorlesungen ewb001.1 und ewb001.2 belegt.",
+      "erklaerung": "Folie 13 und Video: Die Einschreibung in die Vorlesung ist keine Prüfungsanmeldung; die Dozierenden dürfen niemanden nachträglich eintragen.",
+      "folie": "13", "pruefungsrelevant": false
+    },
+    {
+      "id": "f09", "baustein": "kernaussage", "format": "frage", "niveau": "wissen", "schwierigkeit": 1,
+      "frage": "Wann ist die Klausur ewb001, wann kann man sich anmelden und bis wann wieder abmelden?",
+      "antwort": "Klausur: Dienstag, 02.02.2027, 13:00 Uhr (Zweittermin 30.03.2027). Anmeldung in QISPOS vom 14.10. bis 31.12.2026, Abmeldung bis 22.01.2027.",
+      "erklaerung": "Prüfungs-Infoblatt WiSe 2026/27. Am besten früh anmelden und in QISPOS kontrollieren, ob die Klausur wirklich eingetragen ist.",
+      "folie": "Prüfungs-Infoblatt", "pruefungsrelevant": false
+    },
+    {
+      "id": "f10", "baustein": "vergleich", "format": "zuordnung", "niveau": "wissen", "schwierigkeit": 2,
+      "frage": "Ordne die Angaben der passenden Fächerkombination im Bachelor Combined Studies (180 CP) zu.",
+      "kategorien": ["A-B-Fach-Kombination", "B-B-Fach-Kombination"],
+      "elemente": [
+        { "text": "ein Teilstudiengang mit 80 CP und einer mit 60 CP", "kategorie": "A-B-Fach-Kombination" },
+        { "text": "zwei Teilstudiengänge mit je 60 CP", "kategorie": "B-B-Fach-Kombination" },
+        { "text": "Profilierungsbereich 15 CP", "kategorie": "A-B-Fach-Kombination" },
+        { "text": "Profilierungsbereich 35 CP", "kategorie": "B-B-Fach-Kombination" }
+      ],
+      "erklaerung": "Einheit 0, Folie 5. In beiden Kombinationen kommen Praktika (15 CP) und Bachelorarbeit (10 CP) dazu.",
+      "folie": "Einheit 0, Folie 5", "pruefungsrelevant": false
+    },
+    {
+      "id": "f11", "baustein": "definition", "format": "mc", "niveau": "wissen", "schwierigkeit": 1,
+      "frage": "Welche Aussagen über Module treffen laut Einführung ins Studium zu? (mehrere richtig)",
+      "optionen": [
+        "Sie bestehen aus mehreren Teilmodulen (mindestens zwei).",
+        "Sie werden mit einer Modulprüfung abgeschlossen.",
+        "Sie müssen in der Regel in einem Semester abgeschlossen werden.",
+        "Sie sind voneinander völlig unabhängig."
+      ],
+      "richtig": [0, 1, 2],
+      "erklaerung": "Einheit 0, Folie 6: Module sind thematische Bausteine, inhaltlich eng verknüpft und aufeinander aufbauend – also gerade nicht unabhängig.",
+      "folie": "Einheit 0, Folie 6", "pruefungsrelevant": false
+    },
+    {
+      "id": "f12", "baustein": "kernaussage", "format": "frage", "niveau": "wissen", "schwierigkeit": 1,
+      "frage": "Wie viele Credit Points bringt ein Modul in den Erziehungswissenschaften und wie hoch ist der Arbeitsaufwand?",
+      "antwort": "6 CP pro Modul; 1 CP entspricht 25–30 Stunden. In der Regel 56 Stunden Kontaktstudium und 124 Stunden Selbststudium (zusammen 180 Stunden).",
+      "erklaerung": "Einheit 0, Folie 14 (FAQ); deckt sich mit der Modulbeschreibung von ewb001.",
+      "folie": "Einheit 0, Folie 14", "pruefungsrelevant": false
+    },
+    {
+      "id": "f13", "baustein": "kernaussage", "format": "mc", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Was gilt für einen Nachteilsausgleich bzw. Vergünstigungen wegen Familienverantwortung in ewb001? (mehrere richtig)",
+      "optionen": [
+        "Man muss den Dozierenden ein offizielles Dokument der Universität vorlegen.",
+        "Für die Erstklausur muss der Nachweis bis 31.12.2026 bei Frau Stein sein.",
+        "Eine Bescheinigung der Kita über die Betreuung der Kinder reicht aus.",
+        "Die Vergünstigung gilt automatisch, ohne dass man etwas tun muss."
+      ],
+      "richtig": [0, 1],
+      "erklaerung": "Prüfungs-Infoblatt und Einheit 0, Folien 26–29: Nur das offizielle Dokument zum Nachteilsausgleich bzw. zur Familienverantwortung zählt; ärztliche oder Kita-Bescheinigungen reichen nicht, und nichts läuft automatisch.",
+      "folie": "Einheit 0, Folien 26–29; Prüfungs-Infoblatt", "pruefungsrelevant": false
+    },
+    {
+      "id": "f14", "baustein": "kernaussage", "format": "frage", "niveau": "wissen", "schwierigkeit": 1,
+      "frage": "Was passiert, wenn man am Klausurtag nicht erscheint, sich nicht abgemeldet hat und kein Attest einreicht?",
+      "antwort": "Die Prüfung gilt als nicht bestanden.",
+      "erklaerung": "Prüfungs-Infoblatt und Einheit 0, Folie 15. Bei Krankheit ein Attest mit dem Vermerk „Prüfungsunfähigkeitsbescheinigung“ bis eine Woche nach der Klausur einreichen.",
+      "folie": "Einheit 0, Folie 15; Prüfungs-Infoblatt", "pruefungsrelevant": false
+    }
+  ],
+
+  "pruefungshinweise": [
+    "Klausuraufbau (Infoblatt WiSe 2026/27): 15 SC/MC-Fragen zu ewb001.1 + 15 zu ewb001.2 + ein oder zwei offene bzw. Lückentextfragen; 60 Minuten; keine Hilfsmittel; bei MC 1–4 richtige Antworten, keine Teilpunkte.",
+    "Frau Stein (Video): Das Kurzskript reicht für die Klausur nicht – vertieft mit Folien, Videos und Material arbeiten.",
+    "Frau Stein (Video): Wer wöchentlich nacharbeitet, die Opencasts hört und regelmäßig ins Tutorium geht, schnitt nicht schlechter als 2,0 ab."
+  ],
+  "offene_fragen": [],
+  "auffaelligkeiten": [
+    "Video zu Sitzung 1: Das Kurzskript habe „ca. 10 Seiten“ – Folie 10 und die Datei „Zusammenfassung_ewb001.1_Stein_end.pdf“ haben 25 Seiten.",
+    "Video zu Sitzung 1 stammt aus einem Pandemie-Semester („weitgehend digital“, Klausur „von zu Hause“) – verbindlich ist das Infoblatt WiSe 2026/27 (Online-Klausur in Präsenz).",
+    "Kurzskript: Stein (2024) wird einmal als „4. ergänzte Aufl.“ und einmal als „3. Aufl.“ angegeben.",
+    "Einheit 0, Folie 26: Familienverantwortung bei „Kindern unter 18“ – die Richtlinie 46/2021 der Uni nennt für die Ausgleichsregeln Kinder unter 14."
+  ]
+}

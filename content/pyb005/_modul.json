@@ -77,7 +77,8 @@
   "sitzungen": [
     "pyb005.2_2026-10-12",
     "pyb005.1_2026-10-14",
-    "pyb005.2_2026-10-19"
+    "pyb005.2_2026-10-19",
+    "pyb005.1_2026-10-21"
   ],
   "literatur": [
     {
@@ -137,7 +138,9 @@
     "VL S07 heißt im Kursplan „zum Stellenwert neuro- und biopsychologischer Forschung“, in der App „Neuro- und biopsychologische Grundlagen“ (App bleibt so – Nadine, 25.10.2026)",
     "VL S09 heißt laut Folie „Abschlussbesprechung und Probeklausur“ (App bleibt so – Nadine, 25.10.2026)",
     "Seminar S02 (Gruppe D): Im Stud.IP-Foliensatz fehlen die Folien 5–7, 9 und 20",
-    "eÜbung S02 Test 1, A4: „Verzweigung“ (gemeint wohl „Verknüpfung“); Test 2, A14: „Reliabiliät“ (Tippfehler)"
+    "eÜbung S02 Test 2, A14: „Reliabiliät“ (Tippfehler)",
+    "Lernmodul 2.5, Infotext zu Folie 4 verweist auf „Block 3.3“ – gemeint ist vermutlich Block 2.6",
+    "Kognitive Perspektive: Lernmodul 2.2 nennt Piaget, 2.3 Kurt Lewin als Vertreter"
   ],
   "besonderheiten": [
     "VL: Stud.IP-Lernmodule (H5P) je Sitzung mit denselben Folien wie das PDF plus Audio-Erklärungen von Prof. Schweer und Infotext-Kästchen – Audios werden transkribiert und in die Lerninhalte übernommen (Schema 5g)",
@@ -171,14 +174,14 @@
       "pfad": "pyb005.1/pyb005_Sitzung_2.pdf",
       "geaendert": "2026-10-22",
       "art": "Folien",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "pyb005.1_2026-10-21"
     },
     {
       "pfad": "pyb005_Lernmodule_Audio_S01-S02.zip",
       "geaendert": "2026-10-25",
       "art": "Audios + Infotexte der Stud.IP-Lernmodule (VL S01–S02)",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "pyb005.1_2026-10-21"
     },
     {
@@ -224,6 +227,13 @@
       "geaendert": "2026-10-02",
       "art": "Studydrive-Material früherer Semester (u. a. Altklausur 1. Termin)",
       "status": "später"
+    },
+    {
+      "pfad": "pyb005.1/Lernmodule_S02_Transkripte.pdf",
+      "geaendert": "2026-10-25",
+      "art": "Infotexte + Audio-Transkripte der Lernmodule 2.1–2.8 (erstellt)",
+      "status": "verarbeitet",
+      "sitzung": "pyb005.1_2026-10-21"
     }
   ]
 }

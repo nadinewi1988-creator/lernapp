@@ -3,11 +3,28 @@
   "modul": "pyb005",
   "eintraege": [
     {
+      "begriff": "Psychologie (VL)",
+      "wortlaut": "Psychologie wird als Wissenschaft vom Erleben und Verhalten des Menschen verstanden.",
+      "erklaerung": "Klausurdefinition: Erleben (innerlich, auch unbewusst) und Verhalten (beobachtbar); der Gegenstand umfasst zudem den Körper.",
+      "quelle": "pyb005.1_2026-10-21 · 2.1 Folie 8",
+      "abweichungen": [
+        {
+          "quelle": "pyb005.2_2026-10-19 · Myers/DeWall S. 11",
+          "wortlaut": "die Wissenschaft vom Verhalten und von den mentalen Prozessen."
+        }
+      ]
+    },
+    {
       "begriff": "Psychologie",
       "wortlaut": "die Wissenschaft vom Verhalten und von den mentalen Prozessen.",
       "erklaerung": "Psychologie untersucht wissenschaftlich, was Menschen tun (beobachtbar) und was in ihnen vorgeht (erschlossen).",
       "quelle": "pyb005.2_2026-10-19 · 8, 10 · Myers/DeWall S. 11",
-      "abweichungen": []
+      "abweichungen": [
+        {
+          "quelle": "pyb005.1_2026-10-21 · 2.1 Folie 8",
+          "wortlaut": "VL: Wissenschaft vom Erleben und Verhalten des Menschen – für die Klausur maßgeblich."
+        }
+      ]
     },
     {
       "begriff": "Psychologie (nach Bak)",
@@ -21,14 +38,24 @@
       "wortlaut": "„Die Psychologie will menschliches Erleben […] [und] Verhalten […] beschreiben, verstehen, erklären, vorhersagen oder verändern.“ (Schreier et al., 2023, S. 21)",
       "erklaerung": "Fünf Ziele, die aufeinander aufbauen: Wer erklären kann, kann auch vorhersagen und verändern.",
       "quelle": "pyb005.2_2026-10-19 · 10",
-      "abweichungen": []
+      "abweichungen": [
+        {
+          "quelle": "pyb005.1_2026-10-21 · 2.1 Folie 9",
+          "wortlaut": "Vorlesung: vier Ziele – beschreiben, erklären, vorhersagen, beeinflussen (ohne „verstehen“). Für die Klausur gelten die vier VL-Ziele."
+        }
+      ]
     },
     {
       "begriff": "Verhalten",
       "wortlaut": "Verhalten ist alles, was ein Organismus macht – jede Handlung, die wir beobachten und registrieren können.",
       "erklaerung": "Alles Beobachtbare: schreien, lächeln, reden, einen Fragebogen ankreuzen.",
       "quelle": "pyb005.2_2026-10-19 · 8 · Myers/DeWall S. 11",
-      "abweichungen": []
+      "abweichungen": [
+        {
+          "quelle": "pyb005.1_2026-10-21 · 2.1 Folie 8",
+          "wortlaut": "Verhalten bezeichnet alle äußerlich beobachtbaren Reaktionen eines Organismus auf innere oder äußere Reize: „Verhalten ist das, was ein Organismus tut.“ (Bak, 2025, S. 11)"
+        }
+      ]
     },
     {
       "begriff": "Mentale Prozesse",
@@ -119,6 +146,503 @@
       "wortlaut": "die unterschiedlichen sich gegenseitig ergänzenden Auffassungen zur Analyse irgendeines vorgegebenen Phänomens, die von der biologischen über die psychologische bis zur soziokulturellen Auffassung reichen.",
       "erklaerung": "Dasselbe Phänomen kann auf verschiedenen Ebenen erklärt werden – sie ergänzen sich.",
       "quelle": "pyb005.2_2026-10-19 · Myers/DeWall S. 15",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Erleben",
+      "wortlaut": "Erleben meint die bewusste Wahrnehmung, also „das Endergebnis eines komplexen Informationsprozesses“ (Bak, 2025, S. 22), bezieht aber häufig auch unbewusste mentale Prozesse mit ein.",
+      "erklaerung": "Gedanken, Gefühle, Erinnerungen, Wünsche – auch Unbewusstes.",
+      "quelle": "pyb005.1_2026-10-21 · 2.1 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Gegenstand der Psychologie",
+      "wortlaut": "Der Untersuchungsgegenstand der Psychologie „umfasst den Körper, Mentales und Wechselwirkungen zwischen Körper und Mentalem“ (Bak, 2025, S. 27).",
+      "erklaerung": "Neben Erleben und Verhalten gehört auch der Körper dazu.",
+      "quelle": "pyb005.1_2026-10-21 · 2.1 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Persönlichkeitspsychologie",
+      "wortlaut": "„Persönlichkeitspsychologie ist die empirische Wissenschaft von den individuellen Besonderheiten von Menschen in körperlicher Erscheinung, Verhalten und Erleben“ (Asendorpf, 2024, S. 8); fokussiert die Besonderheiten innerhalb einer Person (intraindividuelle Sichtweise).",
+      "erklaerung": "Was macht eine Person einzigartig?",
+      "quelle": "pyb005.1_2026-10-21 · 2.2 · Folie 4",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Differentielle Psychologie",
+      "wortlaut": "fokussiert die „Differenzen – als Unterschiede – zwischen Personen oder Personengruppen (inter-individuelle Sichtweise)“ (Rauthmann, 2025, S. 2).",
+      "erklaerung": "Worin unterscheiden sich Menschen voneinander? Heute meist mit der Persönlichkeitspsychologie eine Disziplin.",
+      "quelle": "pyb005.1_2026-10-21 · 2.2 · Folie 4",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Wissenschaftsparadigma",
+      "wortlaut": "„Ein Wissenschaftsparadigma ist ein einigermaßen zusammenhängendes, von vielen Wissenschaftlern geteiltes Bündel aus theoretischen Leitsätzen, Fragestellungen und Methoden, das längere historische Perioden in der Entwicklung einer Wissenschaft überdauert.“ (Asendorpf, 2024, S. 20)",
+      "erklaerung": "Eine gemeinsame „Brille“ vieler Forschender – was man fragt und wie man forscht.",
+      "quelle": "pyb005.1_2026-10-21 · 2.3 · Folie 2",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Paradigma (nach Kuhn)",
+      "wortlaut": "nach Kuhn (1967) ein anerkanntes Orientierungsmodell zur erfolgreichen Problemlösung. In dieser Vorbildfunktion steuert es die wiss. Realitätsauslegung. Ein Paradigma legt also grundlegend fest, was als wiss. befriedigende Lösung angesehen werden kann und welche Fragestellungen zulässig sind. (Dorsch, 2021)",
+      "erklaerung": "Gibt vor, welche Fragen zulässig und welche Lösungen befriedigend sind.",
+      "quelle": "pyb005.1_2026-10-21 · 2.3 · Folie 2",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Paradigmenwechsel",
+      "wortlaut": "Paradigmen können sich im Zuge der Entwicklung einer Wissenschaft durch erwartungswidrige Befunde verändern und auch gänzlich verschwinden.",
+      "erklaerung": "Wenn Beobachtungen den Kernannahmen widersprechen, wird das Paradigma abgelöst.",
+      "quelle": "pyb005.1_2026-10-21 · 2.3 · Folie 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Quantitativer Forschungsansatz",
+      "wortlaut": "Forschungshypothesen (über kausale Zusammenhänge) werden an möglichst vielen Untersuchungseinheiten mit strukturierten Datenerhebungsmethoden überprüft; Ziel: Theorie- bzw. Hypothesenprüfung, statistische Verallgemeinerung.",
+      "erklaerung": "Viele Fälle, Zahlen, Hypothesen prüfen.",
+      "quelle": "pyb005.1_2026-10-21 · 2.4 · Folie 2",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Qualitativer Forschungsansatz",
+      "wortlaut": "(relativ offen formulierte) Forschungsfragen werden an wenigen Untersuchungseinheiten sehr detailliert mit un- oder teilstrukturierten Datenerhebungsmethoden untersucht; Ziel: Neues entdecken, Theorien entwickeln (analytische Verallgemeinerung) – keine Prüfung von Hypothesen.",
+      "erklaerung": "Wenige Fälle, tiefes Verstehen, Theorien entwickeln.",
+      "quelle": "pyb005.1_2026-10-21 · 2.4 · Folie 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Mixed-Methods-Ansatz",
+      "wortlaut": "systematische Kombination qualitativer und quantitativer Forschungsstrategien; Zielsetzung: Theoriebildung und -prüfung.",
+      "erklaerung": "Beides verbinden.",
+      "quelle": "pyb005.1_2026-10-21 · 2.4 · Folie 4",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Untersuchungseinheit",
+      "wortlaut": "Der Begriff „Untersuchungseinheit“ bezeichnet das Objekt, an dem die Messung vorgenommen wird (häufig sind einzelne Personen die Untersuchungseinheiten).",
+      "erklaerung": "Meist die einzelne Person.",
+      "quelle": "pyb005.1_2026-10-21 · 2.4 · Folie 2 (Infotext)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Meta-Analyse",
+      "wortlaut": "gebündelte statistische Analyse empirischer Ergebnisse von diversen Einzelstudien.",
+      "erklaerung": "Fasst viele Studien statistisch zusammen; keine eigenen Daten.",
+      "quelle": "pyb005.1_2026-10-21 · 2.4 · Folie 6 (Infotext)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Review (Übersichtsartikel)",
+      "wortlaut": "kritische Zusammenfassung oder Klassifizierung der veröffentlichten Literatur (inkl. der empirischen Ergebnisse) zu einem spezifischen Gegenstandsbereich.",
+      "erklaerung": "Überblick über den Forschungsstand; keine eigenen Daten.",
+      "quelle": "pyb005.1_2026-10-21 · 2.4 · Folie 6 (Infotext)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Theorie",
+      "wortlaut": "Theorien sind „[…] geordnete Mengen von Begriffen oder Aussagen, die ein Phänomen oder eine Gruppe von Phänomenen beschreiben und erklären“ (Gerrig, 2018, S. 28).",
+      "erklaerung": "Zu komplex für eine direkte Prüfung – man leitet Hypothesen ab.",
+      "quelle": "pyb005.1_2026-10-21 · 2.4 · Folie 7",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Forschungshypothese",
+      "wortlaut": "Forschungshypothesen sind vorläufige und empirisch überprüfbare Aussagen, sie werden aus Theorien generiert.",
+      "erklaerung": "Präzise, widerspruchsfrei, prinzipiell widerlegbar.",
+      "quelle": "pyb005.1_2026-10-21 · 2.4 · Folie 7",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Forschungsfrage",
+      "wortlaut": "Forschungsfragen sind offen und explorativ formuliert; sie werden formuliert, wenn noch keine begründbaren Hypothesen auf Basis von empirischen Ergebnissen und/oder Theorien ableitbar sind.",
+      "erklaerung": "V. a. in qualitativer Forschung; Hypothesen sind vorzuziehen, wenn genug Befunde vorliegen.",
+      "quelle": "pyb005.1_2026-10-21 · 2.4 · Folie 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Variable",
+      "wortlaut": "Variablen sind Merkmale mit mind. zwei Ausprägungen.",
+      "erklaerung": "Etwas, das variieren kann (z. B. Abschluss, Alter).",
+      "quelle": "pyb005.1_2026-10-21 · 2.4 · Folie 10",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Abhängige Variable (aV)",
+      "wortlaut": "Sachverhalt, der erklärt werden soll.",
+      "erklaerung": "Die Wirkung.",
+      "quelle": "pyb005.1_2026-10-21 · 2.4 · Folie 11",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Unabhängige Variable (uV)",
+      "wortlaut": "Merkmal, von dem ausgegangen wird, dass es einen Einfluss auf die abhängige Variable ausübt.",
+      "erklaerung": "Die vermutete Ursache; Festlegung kontextspezifisch.",
+      "quelle": "pyb005.1_2026-10-21 · 2.4 · Folie 11",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Induktionsschluss",
+      "wortlaut": "Schlüsse, die auf vielen Beobachtungen beruhen; nach Popper logisch nicht zulässig und somit keine Methode des wissenschaftlichen Arbeitens.",
+      "erklaerung": "Von Einzelfällen auf alle schließen – nach Popper unzulässig.",
+      "quelle": "pyb005.1_2026-10-21 · 2.4 · Folie 12",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Falsifikationismus",
+      "wortlaut": "Hypothesen sind so zu formulieren, dass sie an der Realität scheitern können müssen; Erkenntnisgewinn erfolgt ausschließlich durch die Falsifikation von Hypothesen.",
+      "erklaerung": "Nicht bestätigen, sondern widerlegen wollen.",
+      "quelle": "pyb005.1_2026-10-21 · 2.4 · Folie 13",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Falsifizierung / Verifizierung",
+      "wortlaut": "Falsifizierung = etwas als falsch erkennen (Gegensatz: Verifizierung = wahr machen; bspw. i. S. v. die Richtigkeit einer Annahme bestätigen).",
+      "erklaerung": "Hypothesen sind nie verifizierbar, nur falsifizierbar.",
+      "quelle": "pyb005.1_2026-10-21 · 2.4 · Folie 13 (Infotext)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Bewährung",
+      "wortlaut": "Hypothesen, die viele Falsifikationsversuche bzw. Tests überstehen, gelten als bewährt – immer nur in Relation zu einer bestimmten Anzahl und Art von Tests.",
+      "erklaerung": "Bewährt ≠ bewiesen.",
+      "quelle": "pyb005.1_2026-10-21 · 2.4 · Folie 13",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Forschungsdesign",
+      "wortlaut": "Das Forschungs-/Untersuchungsdesign kennzeichnet die methodische Vorgehensweise innerhalb einer Studie. Die Wahl des Forschungsdesigns entscheidet, welche Aussagekraft die generierten Ergebnisse besitzen.",
+      "erklaerung": "Wie die Studie aufgebaut ist.",
+      "quelle": "pyb005.1_2026-10-21 · 2.5 · Folie 2",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Experiment",
+      "wortlaut": "Idealtyp der empirischen Forschung, um kausale Zusammenhänge zu untersuchen; Versuchsleiter/in variiert (mindestens) eine Einflussgröße (die uV) systematisch; Zuweisung zu Experimental- und Kontrollgruppe muss randomisiert erfolgen.",
+      "erklaerung": "Ursache gezielt verändern, Gruppen per Zufall bilden.",
+      "quelle": "pyb005.1_2026-10-21 · 2.5 · Folie 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Randomisierung",
+      "wortlaut": "zufällige Zuweisung zu Experimental- und Kontrollgruppe; nur so kann ausgeschlossen werden, dass gefundene Unterschiede in der aV auf systematische Unterschiede zwischen den Gruppen zurückzuführen sind.",
+      "erklaerung": "Zufall verteilt Störeinflüsse gleichmäßig.",
+      "quelle": "pyb005.1_2026-10-21 · 2.5 · Folie 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Quasi-Experiment",
+      "wortlaut": "Experiment ohne Randomisierung, stattdessen Rückgriff auf vorhandene Gruppen.",
+      "erklaerung": "Störvariablen können das Ergebnis verzerren.",
+      "quelle": "pyb005.1_2026-10-21 · 2.5 · Folie 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Störvariable",
+      "wortlaut": "Eigenschaften, in denen sich Gruppen außer der untersuchten uV unterscheiden und die ebenfalls einen systematischen Einfluss auf die aV ausüben können.",
+      "erklaerung": "Z. B. Klassenklima, Engagement der Lehrkraft.",
+      "quelle": "pyb005.1_2026-10-21 · 2.5 · Folie 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Querschnittstudie",
+      "wortlaut": "Datenerhebung zu einem Zeitpunkt; Ergebnisse sind immer nur als Momentaufnahmen zu verstehen.",
+      "erklaerung": "Ein Messzeitpunkt.",
+      "quelle": "pyb005.1_2026-10-21 · 2.5 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Trendstudie",
+      "wortlaut": "Längsschnittstudie: Datenerhebung zu mehreren Zeitpunkten an unterschiedlichen Befragten.",
+      "erklaerung": "Veränderung über die Zeit, aber andere Personen.",
+      "quelle": "pyb005.1_2026-10-21 · 2.5 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Panelstudie",
+      "wortlaut": "Längsschnittstudie: Datenerhebung zu mehreren Zeitpunkten an denselben Befragten (kommt einem Experiment am nächsten).",
+      "erklaerung": "Dieselben Personen, intraindividuelle Veränderung.",
+      "quelle": "pyb005.1_2026-10-21 · 2.5 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Panel-Effekt / Panel-Conditioning",
+      "wortlaut": "wiederholte Befragung derselben Personen kann deren tatsächliches oder berichtetes Verhalten und ihre Einstellungen verändern.",
+      "erklaerung": "Z. B. Aufwand sparen, stärkere Beschäftigung mit dem Thema.",
+      "quelle": "pyb005.1_2026-10-21 · 2.5 · Folie 8 (Infotext)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Drop-out-Quote",
+      "wortlaut": "Abbruchsquote der Befragten.",
+      "erklaerung": "Bei Panelstudien hoch.",
+      "quelle": "pyb005.1_2026-10-21 · 2.5 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Grundgesamtheit (GG) / Population",
+      "wortlaut": "Gesamtheit aller Fälle, über die im Rahmen einer quantitativen empirischen Studie wissenschaftliche Aussagen getroffen werden sollen.",
+      "erklaerung": "Alle, über die man etwas sagen will.",
+      "quelle": "pyb005.1_2026-10-21 · 2.6 · Folie 2",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Stichprobe",
+      "wortlaut": "Teilmenge der GG, die auf Basis eines Auswahlverfahrens ausgewählt wurde und anhand derer die Messung durchgeführt wird.",
+      "erklaerung": "Die tatsächlich Untersuchten.",
+      "quelle": "pyb005.1_2026-10-21 · 2.6 · Folie 2",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Repräsentativität / Quotenmerkmale",
+      "wortlaut": "die Stichprobe muss bezogen auf alle zentralen Merkmale (die in einem Zusammenhang zur aV stehen könnten) so zusammengesetzt sein wie die GG; diese sog. Quotenmerkmale müssen vor der eigentlichen Erhebung festgelegt werden.",
+      "erklaerung": "Stichprobe als verkleinertes Abbild der GG.",
+      "quelle": "pyb005.1_2026-10-21 · 2.6 · Folie 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Vollerhebung",
+      "wortlaut": "der Einbezug aller Objekte einer Population in die Untersuchung – möglich, wenn die Grundgesamtheit klein und gut zu erreichen ist.",
+      "erklaerung": "Alle werden befragt.",
+      "quelle": "pyb005.1_2026-10-21 · 2.6 · Folie 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Operationalisierung (VL)",
+      "wortlaut": "Festlegung von Indikatoren (→ beobachtbare Variablen), um theoretische Konstrukte (→ latente Variablen) messbar machen zu können, bzw. Festlegen von beobachtbaren Kriterien für abstrakte und/oder komplexe Variablen.",
+      "erklaerung": "Unsichtbares messbar machen.",
+      "quelle": "pyb005.1_2026-10-21 · 2.6 · Folie 4",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Item",
+      "wortlaut": "Fragestellung inkl. Antwortformat in einem Fragebogen, Aufgabe in einem Test.",
+      "erklaerung": "Bei geschlossenen Fragen gehören die Antwortalternativen dazu.",
+      "quelle": "pyb005.1_2026-10-21 · 2.6 · Folie 6 (Infotext)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Skala (Messinstrument)",
+      "wortlaut": "mehrere Items, welche die gleiche Eigenschaft erfassen.",
+      "erklaerung": "Mehrere Fragen zu einem Merkmal.",
+      "quelle": "pyb005.1_2026-10-21 · 2.6 · Folie 6 (Infotext)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Messung",
+      "wortlaut": "systematische Zuordnung von Zahlen zu Ausprägungen eines Merkmals bzw. einer Variable.",
+      "erklaerung": "Zuordnungsregel durchgängig gleich, strukturtreu.",
+      "quelle": "pyb005.1_2026-10-21 · 2.7 · Folie 2",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Nominalskala",
+      "wortlaut": "Messwerte spiegeln ausschließlich wider, ob Merkmalsausprägungen bei zwei Merkmalsträger/innen gleich oder unterschiedlich sind (aber: keine Aussagen über Rangordnung zulässig).",
+      "erklaerung": "Nur Namen/Kategorien.",
+      "quelle": "pyb005.1_2026-10-21 · 2.7 · Folie 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Ordinalskala",
+      "wortlaut": "zugeordnete Zahlen spiegeln eine Rangfolge der Merkmalsausprägungen wider (aber: keine Aussagen über Abstände zulässig).",
+      "erklaerung": "Reihenfolge ja, Abstände nein.",
+      "quelle": "pyb005.1_2026-10-21 · 2.7 · Folie 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Intervallskala",
+      "wortlaut": "Unterschiede zwischen den Messwerten sind interpretierbar, da diese gleichabständig sind (aber: da es keinen natürlichen Nullpunkt gibt, sind keine Aussagen über das Verhältnis zulässig).",
+      "erklaerung": "Abstände ja, „doppelt so“ nein.",
+      "quelle": "pyb005.1_2026-10-21 · 2.7 · Folie 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Verhältnisskala",
+      "wortlaut": "natürlicher Nullpunkt liegt vor, sodass es zulässig ist, aus dem Verhältnis der Messwerte auf das Verhältnis zwischen den Merkmalsausprägungen zu schließen (bspw. „doppelt so viel“).",
+      "erklaerung": "Alles erlaubt.",
+      "quelle": "pyb005.1_2026-10-21 · 2.7 · Folie 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kategoriale / metrische Variable",
+      "wortlaut": "Variablen mit Nominal- oder Ordinalskala werden als kategoriale Variablen bezeichnet, Variablen mit Intervall- oder Verhältnisskala als metrische Variablen.",
+      "erklaerung": "Kategorien vs. Zahlenwerte mit gleichen Abständen.",
+      "quelle": "pyb005.1_2026-10-21 · 2.7 · Folie 4",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Objektivität",
+      "wortlaut": "Unabhängigkeit der Ergebnisse von den Rahmenbedingungen; unterschiedliche Personen kommen bei der Durchführung, Auswertung und Interpretation einer bestimmten Untersuchung unter gleichen Bedingungen zu identischen Ergebnissen.",
+      "erklaerung": "Drei Arten: Durchführungs-, Auswertungs-, Interpretationsobjektivität.",
+      "quelle": "pyb005.1_2026-10-21 · 2.7 · Folie 7",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Durchführungsobjektivität",
+      "wortlaut": "die Untersuchung wird unter standardisierten Bedingungen durchgeführt, sodass das Verhalten der Versuchspersonen nur von der Ausprägung des interessierenden Merkmals abhängt; alle anderen Faktoren (insb. das Verhalten der Versuchsleiter/innen) werden konstant gehalten oder kontrolliert.",
+      "erklaerung": "Gleiche Instruktion, gleiche Zeit, gleiche Bedingungen.",
+      "quelle": "pyb005.1_2026-10-21 · 2.7 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Auswertungsobjektivität",
+      "wortlaut": "Unabhängigkeit der Ergebnisse von der Person, welche die Untersuchung auswertet.",
+      "erklaerung": "Egal wer auswertet – gleiches Ergebnis.",
+      "quelle": "pyb005.1_2026-10-21 · 2.7 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Interpretationsobjektivität",
+      "wortlaut": "liegt vor, wenn unterschiedliche Personen die gemessenen Werte von verschiedenen Versuchspersonen bezüglich des interessierenden Merkmals in vergleichbarer Weise interpretieren.",
+      "erklaerung": "Gleiche Deutung.",
+      "quelle": "pyb005.1_2026-10-21 · 2.7 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Reliabilität",
+      "wortlaut": "Verlässlichkeit bzw. formale Genauigkeit eines Messinstruments: Wie zuverlässig misst ein Instrument das, was es misst? Liegt vor, wenn ein Messinstrument das Merkmal exakt, also ohne Messfehler, misst.",
+      "erklaerung": "Bei Wiederholung gleiche Ergebnisse.",
+      "quelle": "pyb005.1_2026-10-21 · 2.7 · Folie 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Validität",
+      "wortlaut": "Gültigkeit eines Messinstruments: Misst das Instrument auch das, was es zu messen beansprucht?",
+      "erklaerung": "Drei Arten: Inhalts-, Kriteriums-, Konstruktvalidität.",
+      "quelle": "pyb005.1_2026-10-21 · 2.7 · Folie 10",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Inhaltsvalidität",
+      "wortlaut": "liegt vor, wenn die Messungen eines Konstruktes dessen Inhalt in all seinen Aspekten vollständig erfasst.",
+      "erklaerung": "Alle Facetten erfasst?",
+      "quelle": "pyb005.1_2026-10-21 · 2.7 · Folie 11",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kriteriumsvalidität",
+      "wortlaut": "liegt dann vor, wenn ein Zusammenhang zwischen den empirisch gemessenen Ergebnissen des Messinstrumentes und einem anders gemessenen empirischen Kriterium besteht.",
+      "erklaerung": "Hängt der Test mit einem externen Kriterium zusammen?",
+      "quelle": "pyb005.1_2026-10-21 · 2.7 · Folie 11",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Konstruktvalidität",
+      "wortlaut": "hierbei wird überprüft, ob Messungen eines Konstrukts so mit anderen Konstrukten zusammenhängen, wie aus der Theorie ableitbar.",
+      "erklaerung": "Passen die Zusammenhänge zur Theorie?",
+      "quelle": "pyb005.1_2026-10-21 · 2.7 · Folie 11",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Statistik",
+      "wortlaut": "Methoden und Techniken für die Analyse von numerischen Daten.",
+      "erklaerung": "Deskriptiv- und Inferenzstatistik.",
+      "quelle": "pyb005.1_2026-10-21 · 2.8 · Folie 2",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Deskriptivstatistik",
+      "wortlaut": "beschreibende Statistik; dient dazu, einen Überblick über die Daten zu gewinnen; Organisation, Darstellung und Zusammenfassung von erhobenen Daten ohne Rückschlüsse auf eine größere Population zu ziehen.",
+      "erklaerung": "Daten beschreiben.",
+      "quelle": "pyb005.1_2026-10-21 · 2.8 · Folie 2",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Modalwert (Modus)",
+      "wortlaut": "gibt die am häufigsten auftretende Merkmalsausprägung an.",
+      "erklaerung": "Häufigster Wert.",
+      "quelle": "pyb005.1_2026-10-21 · 2.8 · Folie 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Median",
+      "wortlaut": "ist der Wert, der eine Verteilung halbiert; liegt die Mitte zwischen zwei Werten, so wird von diesen beiden Werten der Mittelwert gebildet.",
+      "erklaerung": "Robust gegenüber Extremwerten.",
+      "quelle": "pyb005.1_2026-10-21 · 2.8 · Folie 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Mittelwert (arithmetisches Mittel)",
+      "wortlaut": "gibt den Durchschnitt aller Messergebnisse wieder; ergibt sich aus der Summe aller Einzelwerte dividiert durch deren Anzahl n.",
+      "erklaerung": "Anfällig für Extremwerte.",
+      "quelle": "pyb005.1_2026-10-21 · 2.8 · Folie 4",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Varianz",
+      "wortlaut": "durchschnittliche Abweichung der Werte vom Mittelwert im Quadrat.",
+      "erklaerung": "s² = Σ(xᵢ − x̄)²/n",
+      "quelle": "pyb005.1_2026-10-21 · 2.8 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Standardabweichung",
+      "wortlaut": "Wurzel aus der Varianz, um die Werte wieder in die ursprüngliche Einheit zurückzubringen.",
+      "erklaerung": "s = √s²",
+      "quelle": "pyb005.1_2026-10-21 · 2.8 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Inferenzstatistik",
+      "wortlaut": "schließende Statistik; Übertragung von Ergebnissen aus einer Stichprobe auf die Grundgesamtheit; dabei werden Hypothesen getestet.",
+      "erklaerung": "Signifikanztests, z. B. t-Test, χ²-Test.",
+      "quelle": "pyb005.1_2026-10-21 · 2.8 · Folie 7",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Statistische Signifikanz",
+      "wortlaut": "ein statistisch signifikantes Ergebnis deutet darauf hin, dass ein in einer Stichprobe beobachteter Effekt resp. Zusammenhang nicht auf den Zufall zurückzuführen ist, sondern auf einen systematischen Effekt in der GG beruht; signifikant, wenn die Wahrscheinlichkeit der Daten unter der Nullhypothese ≤ 5 % ist.",
+      "erklaerung": "Nicht zufällig – aber nicht automatisch praktisch bedeutsam.",
+      "quelle": "pyb005.1_2026-10-21 · 2.8 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Nullhypothese",
+      "wortlaut": "Annahme, dass es keinen Effekt in der GG gibt.",
+      "erklaerung": "Gegen sie wird getestet.",
+      "quelle": "pyb005.1_2026-10-21 · 2.8 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Korrelation",
+      "wortlaut": "(bivariate) Korrelationen = Zusammenhangsmaße (d. h., zwei Variablen verändern sich gemeinsam).",
+      "erklaerung": "Positiv oder negativ, Stärke über r.",
+      "quelle": "pyb005.1_2026-10-21 · 2.8 · Folie 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Konfundierung",
+      "wortlaut": "Bei einer Konfundierung wirkt eine sog. Drittvariable sowohl auf die unabhängige als auch auf die abhängige Variable, sie verfälscht bzw. konfundiert die Beziehung dieser beiden Variablen.",
+      "erklaerung": "Ein Teil der Korrelation geht auf eine dritte Größe zurück.",
+      "quelle": "pyb005.1_2026-10-21 · 2.8 · Folie 10 (Infotext)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Scheinkausalität",
+      "wortlaut": "Wird die Korrelation zwischen unabhängiger und abhängiger Variable allein durch eine Drittvariable verursacht, spricht man von einer Scheinkausalität.",
+      "erklaerung": "Störche und Geburten.",
+      "quelle": "pyb005.1_2026-10-21 · 2.8 · Folie 10 (Infotext)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Korrelationskoeffizient r (Bravais-Pearson)",
+      "wortlaut": "misst die Stärke des linearen Zusammenhangs zwischen zwei Merkmalen, die mind. intervallskaliert sein müssen; Wertebereich zwischen −1 und 1.",
+      "erklaerung": "≥ .10 schwach, ≥ .30 moderat, ≥ .50 stark.",
+      "quelle": "pyb005.1_2026-10-21 · 2.8 · Folie 11–12",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Publication Bias",
+      "wortlaut": "verzerrte Publikationslage; Herausgeber/innen von Journals neigen eher dazu, Studien mit signifikanten Ergebnissen zu veröffentlichen.",
+      "erklaerung": "Nicht-signifikante Studien fehlen in der Literatur.",
+      "quelle": "pyb005.1_2026-10-21 · 2.8 · Folie 17",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Peer Review",
+      "wortlaut": "die eingereichten Manuskripte werden von sog. Reviewer/innen (Expert/innen auf dem jeweiligen Fachgebiet) gelesen; diese entscheiden gemeinsam mit Herausgeber/innen eines Journals, ob ein Artikel veröffentlicht, zur Bearbeitung zurückgeschickt oder abgelehnt wird.",
+      "erklaerung": "Begutachtung durch Fachleute.",
+      "quelle": "pyb005.1_2026-10-21 · 2.8 · Folie 16",
       "abweichungen": []
     }
   ]

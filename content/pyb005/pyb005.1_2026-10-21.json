@@ -1,0 +1,2397 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pyb005",
+  "teilmodul": "pyb005.1",
+  "datum": "2026-10-21",
+  "sitzung_nr": 2,
+  "sitzung_id": "",
+  "thema": "02 Zentrale psychologische Paradigmen und Grundlagen psychologischer Forschung",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Grundlage: Foliensatz (101 S.) und die acht Stud.IP-Lernmodule 2.1–2.8 mit Audio-Erklärungen von Prof. Schweer (automatisch transkribiert) und Infotexten; dazu die Übungstests der eÜbung (Gruppe B) vom 22.10.2026 als Übungsfragen.",
+  "quellen": [
+    {
+      "datei": "pyb005.1/pyb005_Sitzung_2.pdf",
+      "art": "Folien",
+      "seiten": "1–101"
+    },
+    {
+      "datei": "Stud.IP › Vorlesung › Lernmodule 2.1–2.8",
+      "art": "Lernmodule (H5P) mit 58 Audios und Infotexten",
+      "seiten": ""
+    },
+    {
+      "datei": "Stud.IP › eÜbung (Gruppe B) › Courseware › 2. Sitzung",
+      "art": "Übungstests (8 + 17 Aufgaben)",
+      "seiten": ""
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "… den Gegenstandsbereich der Psychologie erläutern und zwischen den zentralen Begriffen Erleben und Verhalten differenzieren können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 3 (Lernziele I)",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03"
+      ],
+      "erklaerung_abschnitt": "Definition und Gegenstand der Psychologie"
+    },
+    {
+      "text": "… die Ziele der Psychologie beschreiben und anhand von Beispielen darstellen können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 3",
+      "fragen": [
+        "f04",
+        "f05",
+        "f06"
+      ],
+      "erklaerung_abschnitt": "Ziele der Psychologie"
+    },
+    {
+      "text": "… die historische Entwicklung der Psychologie überblicksartig skizzieren sowie ausgewählte Teildisziplinen nennen und voneinander abgrenzen können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 3",
+      "fragen": [
+        "f07",
+        "f08",
+        "f09",
+        "f10"
+      ],
+      "erklaerung_abschnitt": "Entwicklung der Psychologie und Teildisziplinen"
+    },
+    {
+      "text": "… erläutern können, was unter einem Wissenschaftsparadigma zu verstehen ist.",
+      "art": "vorgegeben",
+      "quelle": "Folie 3",
+      "fragen": [
+        "f11",
+        "f12"
+      ],
+      "erklaerung_abschnitt": "Paradigmen der Psychologie"
+    },
+    {
+      "text": "… die behandelten Paradigmen der Psychologie mit dem Wissen um ihre Besonderheiten bzw. Unterschiede kritisch würdigen können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 3",
+      "fragen": [
+        "f13",
+        "f14",
+        "f15",
+        "f16",
+        "f17",
+        "f18",
+        "f19"
+      ],
+      "erklaerung_abschnitt": "Paradigmen der Psychologie"
+    },
+    {
+      "text": "… den Unterschied zwischen quantitativen und qualitativen Forschungsansätzen erläutern können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 4 (Lernziele II)",
+      "fragen": [
+        "f20",
+        "f21"
+      ],
+      "erklaerung_abschnitt": "Forschungsansätze"
+    },
+    {
+      "text": "… den psychologischen Forschungsprozess nachzeichnen können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 4",
+      "fragen": [
+        "f22"
+      ],
+      "erklaerung_abschnitt": "Forschungsprozess"
+    },
+    {
+      "text": "… den Beginn eines Forschungsprozesses beschreiben können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 4",
+      "fragen": [
+        "f23",
+        "f24"
+      ],
+      "erklaerung_abschnitt": "Forschungsprozess"
+    },
+    {
+      "text": "… mit den Begriffen „Theorie“, „Hypothese“ und „Variable“ vertraut sein.",
+      "art": "vorgegeben",
+      "quelle": "Folie 4",
+      "fragen": [
+        "f25",
+        "f26",
+        "f27",
+        "f28",
+        "f29",
+        "f30"
+      ],
+      "erklaerung_abschnitt": "Theorien, Hypothesen, Variablen"
+    },
+    {
+      "text": "… den kritischen Rationalismus inkl. Induktionsproblem und Falsifikationismus erklären können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 4",
+      "fragen": [
+        "f31",
+        "f32",
+        "f33",
+        "f34"
+      ],
+      "erklaerung_abschnitt": "Kritischer Rationalismus"
+    },
+    {
+      "text": "… den Aufbau von Experimenten erläutern können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 4",
+      "fragen": [
+        "f35",
+        "f36",
+        "f37"
+      ],
+      "erklaerung_abschnitt": "Quantitative Forschungsdesigns"
+    },
+    {
+      "text": "… verschiedene Befragungsdesigns und ihre jeweiligen Vor- und Nachteile erläutern können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 5 (Lernziele III)",
+      "fragen": [
+        "f38",
+        "f39",
+        "f40",
+        "f41"
+      ],
+      "erklaerung_abschnitt": "Quantitative Forschungsdesigns"
+    },
+    {
+      "text": "… mit den Begriffen „Grundgesamtheit“, „Stichprobe“ und „Quotenmerkmal“ vertraut sein.",
+      "art": "vorgegeben",
+      "quelle": "Folie 5",
+      "fragen": [
+        "f42",
+        "f43",
+        "f44"
+      ],
+      "erklaerung_abschnitt": "Stichprobe und Operationalisierung"
+    },
+    {
+      "text": "… verstanden haben, warum Konstrukte operationalisiert werden müssen.",
+      "art": "vorgegeben",
+      "quelle": "Folie 5",
+      "fragen": [
+        "f45",
+        "f46"
+      ],
+      "erklaerung_abschnitt": "Stichprobe und Operationalisierung"
+    },
+    {
+      "text": "… verstehen, was mit dem Begriff des Skalenniveaus gemeint ist, und bestimmen können, welches Skalenniveau eine spezifische Variable aufweist.",
+      "art": "vorgegeben",
+      "quelle": "Folie 5",
+      "fragen": [
+        "f47",
+        "f48",
+        "f49",
+        "f50"
+      ],
+      "erklaerung_abschnitt": "Messung und Skalenniveaus"
+    },
+    {
+      "text": "… die Gütekriterien quantitativer Forschung erläutern können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 5",
+      "fragen": [
+        "f51",
+        "f52",
+        "f53",
+        "f54",
+        "f55"
+      ],
+      "erklaerung_abschnitt": "Gütekriterien"
+    },
+    {
+      "text": "… den Unterschied zwischen Deskriptiv- und Inferenzstatistik wiedergeben können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 5",
+      "fragen": [
+        "f56"
+      ],
+      "erklaerung_abschnitt": "Statistik"
+    },
+    {
+      "text": "… verschiedene Lage- und Streuungsmaße kennen und einordnen können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 6 (Lernziele IV)",
+      "fragen": [
+        "f57",
+        "f58",
+        "f59",
+        "f60"
+      ],
+      "erklaerung_abschnitt": "Statistik"
+    },
+    {
+      "text": "… mit dem Begriff der statistischen Signifikanz vertraut sein.",
+      "art": "vorgegeben",
+      "quelle": "Folie 6",
+      "fragen": [
+        "f61",
+        "f62"
+      ],
+      "erklaerung_abschnitt": "Statistik"
+    },
+    {
+      "text": "… verstehen, was eine Korrelation ist, den Unterschied zwischen Korrelation und Kausalität kennen und den Begriff der Konfundierung erläutern können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 6",
+      "fragen": [
+        "f63",
+        "f64",
+        "f65",
+        "f66",
+        "f67"
+      ],
+      "erklaerung_abschnitt": "Korrelation und Kausalität"
+    },
+    {
+      "text": "… den Prozess der Veröffentlichung von Fachartikeln nachzeichnen können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 6",
+      "fragen": [
+        "f68",
+        "f69"
+      ],
+      "erklaerung_abschnitt": "Veröffentlichung"
+    }
+  ],
+  "kurzfassung": [
+    "Psychologie ist die Wissenschaft vom Erleben und Verhalten des Menschen; ihr Gegenstand umfasst Körper, Mentales und deren Wechselwirkungen.",
+    "Die vier Ziele der Psychologie sind beschreiben, erklären, vorhersagen und beeinflussen – die Güte einer Erklärung zeigt sich an zuverlässigen Vorhersagen.",
+    "Die moderne Psychologie beginnt 1879 mit Wundts Institut in Leipzig; Psychoanalyse, Behaviorismus, humanistische und kognitive Psychologie prägten das 20. Jahrhundert.",
+    "Ein Wissenschaftsparadigma ist ein geteiltes Bündel aus Leitsätzen, Fragestellungen und Methoden; Paradigmen können durch erwartungswidrige Befunde wechseln.",
+    "Die Paradigmen erklären dasselbe Verhalten unterschiedlich – das dynamisch-transaktionale Paradigma integriert sie: Verhalten = f(Person, wahrgenommene Umwelt).",
+    "Quantitative Forschung prüft Hypothesen an vielen Fällen und verallgemeinert statistisch; qualitative Forschung entdeckt Neues an wenigen Fällen und verallgemeinert analytisch.",
+    "Hypothesen sind vorläufige, prüfbare Aussagen über Zusammenhänge zwischen Variablen; die uV ist die vermutete Ursache, die aV die Wirkung.",
+    "Nach Popper sind Induktionsschlüsse unzulässig; Hypothesen lassen sich nie verifizieren, nur falsifizieren – überstandene Tests machen sie lediglich bewährt.",
+    "Experimente mit systematischer Variation der uV und randomisierter Gruppenzuweisung haben die höchste Erklärungskraft für Kausalität; Quasi-Experimente verzichten auf Randomisierung.",
+    "Querschnittstudien sind Momentaufnahmen; Längsschnittstudien (Trend, Panel) bilden Veränderungen ab – Panelstudien kommen dem Experiment am nächsten, haben aber Panel-Effekte.",
+    "Eine Stichprobe muss in den Quotenmerkmalen der Grundgesamtheit entsprechen (repräsentativ), damit Rückschlüsse zulässig sind.",
+    "Latente Konstrukte müssen operationalisiert, also über beobachtbare Indikatoren messbar gemacht werden.",
+    "Das Skalenniveau (nominal, ordinal, intervall, verhältnis) bestimmt, welche Aussagen und Rechenoperationen zulässig sind.",
+    "Objektivität ist notwendig für Reliabilität, Reliabilität notwendig für Validität – eine Messung kann objektiv und reliabel, aber nicht valide sein.",
+    "Deskriptivstatistik beschreibt die Daten (Lage- und Streuungsmaße), Inferenzstatistik schließt von der Stichprobe auf die Grundgesamtheit (Signifikanztests).",
+    "Signifikant (p ≤ 5 %) heißt nicht zufällig – aber nicht automatisch praktisch bedeutsam; dafür braucht es Effektgrößen.",
+    "Korrelation ist notwendig, aber nicht hinreichend für Kausalität – Kausalrichtung und Drittvariablen (Konfundierung, Scheinkausalität) müssen geprüft werden.",
+    "Fachartikel durchlaufen ein Peer Review; der Publication Bias verzerrt die Literatur zugunsten signifikanter Ergebnisse."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Definition und Gegenstand der Psychologie",
+      "text": "Psychologie wird verstanden als **Wissenschaft vom Erleben und Verhalten des Menschen**.\n\n• **Erleben** = bewusste Wahrnehmung, „das Endergebnis eines komplexen Informationsprozesses“ (Bak, 2025, S. 22) – Gedanken, Gefühle, Erinnerungen, Wünsche; bezieht häufig auch **unbewusste** mentale Prozesse ein (z. B. Entscheidungen, die man nicht begründen kann).\n• **Verhalten** = alle **äußerlich beobachtbaren Reaktionen** eines Organismus auf innere oder äußere Reize: „Verhalten ist das, was ein Organismus tut.“ (Bak, 2025, S. 11)\n• Auch der **Körper** ist Gegenstand (physiologische Psychologie, Neuropsychologie) – laut Audio z. B.: Welche Rolle spielen Hormone oder Neurotransmitter bei Angst oder Motivation?\n• Der Gegenstand „umfasst den Körper, Mentales und Wechselwirkungen zwischen Körper und Mentalem“ (Bak, 2025, S. 27).\n\n**Hinweis:** Im Seminar (Myers/DeWall) heißt es „Wissenschaft vom Verhalten und von den mentalen Prozessen“ – gleicher Inhalt, für die Klausur gilt die VL-Formulierung.",
+      "folien": "2.1 · Folie 8"
+    },
+    {
+      "titel": "Ziele der Psychologie",
+      "text": "Unter Einhaltung wissenschaftlicher Methoden will die Psychologie Erleben und Verhalten …\n\n| Ziel | Bedeutung |\n| --- | --- |\n| **beschreiben** | objektiv und genau erfassen (Beobachtung, Befragung, Messung), **ohne zu bewerten oder zu interpretieren** |\n| **erklären** | **Ursachen** suchen (internal vs. external) – in inneren Prozessen, Lernerfahrungen, sozialen Bedingungen; Theorien über das Zusammenspiel personaler und situativer Faktoren |\n| **vorhersagen** | aus guten Erklärungen ableiten, unter welchen Bedingungen ein Verhalten wieder auftritt; die **Zuverlässigkeit der Vorhersage zeigt, ob eine Erklärung wissenschaftlich brauchbar ist** (Audio) |\n| **beeinflussen** | gezielt verändern durch Beratung, Therapie, Prävention, Intervention – „**nicht im Sinne von Manipulation**“, sondern zur Unterstützung und Verbesserung der Lebensqualität (Audio) |\n\n**Hinweis:** Das Seminar nennt mit Schreier et al. (2023) **fünf** Ziele (zusätzlich „verstehen“, zentral in der qualitativen Forschung). Für die Klausur: die **vier VL-Ziele**.",
+      "beispiel": "Prüfungsangst (Folie 11): Symptome standardisiert dokumentieren (beschreiben) → Zusammenhang mit negativen Leistungserfahrungen und elterlichem Druck (erklären) → er wird weiter körperlich reagieren und vermeiden, wenn keine Unterstützung erfolgt (vorhersagen) → Stressbewältigungstraining und Elternberatung (beeinflussen).",
+      "folien": "2.1 · Folie 9–11"
+    },
+    {
+      "titel": "Entwicklung der Psychologie und Teildisziplinen",
+      "text": "Laut Audio entsteht die Psychologie im Zuge der wissenschaftlichen Aufklärung (17./18. Jh.; Rationalität und Empirie).\n\n| Jahr | Ereignis |\n| --- | --- |\n| 1879 | **Wilhelm Wundt** gründet in **Leipzig** das erste Institut für experimentelle Psychologie (Frage: Welche elementaren Prozesse liegen Empfindungen und Wahrnehmungen zugrunde?) – Schüler u. a. Cattell, Münsterberg, Titchener, Spearman, G. Stanley Hall |\n| 1886 | erstes psychologisches Labor in Nordamerika (Johns-Hopkins-Universität) |\n| 1892 | **APA** (American Psychological Association), gegründet von G. Stanley Hall |\n| 1904 | **DGPs** (Deutsche Gesellschaft für Psychologie) |\n\n**Strömungen im 20. Jahrhundert:** Psychoanalyse (Freud: Unbewusstes, Triebe, innere Konflikte) · Behaviorismus (Pavlov, Watson, Skinner: Verhalten als Reaktion auf Umweltreize; 1920er) · humanistische Psychologie (Rogers: Selbstverwirklichung; laut VL 1950er, bei Myers 1960er) · kognitive Psychologie (u. a. Piaget: Denken, Problemlösen; kognitive Wende 1960er/70er) · Sozialpsychologie (sozialer Kontext).\n\n**Fächer der Psychologie:**\n\n| Grundlagenfächer | Methodenfächer | Anwendungsfächer |\n| --- | --- | --- |\n| Allgemeine Psychologie · Sozialpsychologie · Differentielle und Persönlichkeitspsychologie · Entwicklungspsychologie · Biologische Psychologie und Neuropsychologie | Methoden, Evaluation, Statistik · Psychologische Diagnostik | Klinische Psychologie und Psychotherapie · Arbeits-, Organisations- und Wirtschaftspsychologie · Pädagogische Psychologie · Gesundheitspsychologie · Sportpsychologie |\n\n**Persönlichkeitspsychologie** = Besonderheiten innerhalb einer Person (**intra**individuell) · **Differentielle Psychologie** = Unterschiede zwischen Personen (**inter**individuell); heute meist eine Disziplin.\n\n**Frauen:** Margaret Washburn (1894, erste Doktorin, Cornell) · Mary Calkins (1895 Doktor von Harvard nicht anerkannt; später erste APA-Präsidentin) · Anna Freud (Psychoanalyse, Kinderpsychotherapie) · Charlotte Bühler (Entwicklungspsychologie, Mitbegründerin der humanistischen Psychologie).",
+      "folien": "2.2 · Folie 2–5"
+    },
+    {
+      "titel": "Paradigmen der Psychologie",
+      "text": "**Wissenschaftsparadigma:** „ein einigermaßen zusammenhängendes, von vielen Wissenschaftlern geteiltes Bündel aus theoretischen Leitsätzen, Fragestellungen und Methoden, das längere historische Perioden in der Entwicklung einer Wissenschaft überdauert“ (Asendorpf, 2024, S. 20). Nach **Kuhn** ein anerkanntes Orientierungsmodell, das festlegt, was als wissenschaftlich befriedigende Lösung gilt und welche Fragen zulässig sind. Durch **erwartungswidrige Befunde** kann es zum **Paradigmenwechsel** kommen.\n\n| Paradigma | Kernannahme | Besonderheit | Vertreter | Beispiel Aggression |\n| --- | --- | --- | --- | --- |\n| biologisch | Ursachen in Genen, Gehirn, Nervensystem, Hormonsystem | **reduktionistisch** (Einzelelemente) | Onur Güntürkün | Gehirn, Hormonhaushalt |\n| psychodynamisch/psychoanalytisch | Mensch wird von **Trieben** gesteuert; Konflikt Triebe vs. soziale Erfordernisse; Handeln dient der **Spannungsreduktion** | **Verzweigung zur biologischen Perspektive:** Wünsche/Bedürfnisse biologisch determiniert | Freud | Frustration; verschobene kindliche Feindseligkeit gegenüber den Eltern |\n| lerntheoretisch/behavioristisch | alles Verhalten wird im Austausch mit der Umwelt **gelernt** (und kann verlernt werden) | Hauptgegenstand **Verhaltensreaktionen**; nur Beobachtbares/Messbares | Watson | Lernerfahrungen, aufrechterhaltende Bedingungen |\n| humanistisch | Mensch ist **von Natur aus gut**, strebt nach **Selbstverwirklichung** | 1950er als Alternative; **potenzial-/ressourcenorientiert**; eigenständige Entscheidungen | Rogers | persönliche Werte, soziale Bedingungen |\n| kognitiv | Verhalten eines aktiv denkenden Menschen wird durch **kognitive Strukturen** gelenkt („**subjektive Realität**“) | kognitive Wende; **mehrdimensionale** Betrachtung (Wahrnehmung, Gedächtnis, Problemlösen, Entscheiden) | Kurt Lewin | Gedanken und Absichten |\n| dynamisch-transaktional | Verhalten = Ergebnis der **Wechselwirkung personaler und situationaler Faktoren** (reziprok, interaktiv) | **Integration** verschiedener Strömungen | Werner Früh | – |\n\n**Dynamisch-transaktional im Detail:** Verhalten = f {P, U} (vgl. Lewin, 1935) – laut Audio zählt die **wahrgenommene** Situation, und die ist von Person zu Person verschieden. Personale Faktoren: Persönlichkeitsmerkmale, Vorerfahrungen, Werte, implizite Theorien, Geschlecht/Alter/Bildung, Einstellungen, Kompetenzen, Motive. Situationale Faktoren: Kontakte in Familie/Ausbildung/Beruf, gesetzliche Rahmenbedingungen, Organisationskultur, Team, Wirtschaftslage, Kultur. Viele Begegnungen im Lebenslauf prägen im Zusammenspiel mit den Rahmenbedingungen Erleben und künftige Verhaltenswahl.",
+      "beispiel": "Prüfungsvorbereitung (Folie 13): personal – Intelligenz, Vorwissen, Lernstrategien, Selbstwirksamkeitserwartung; situational – Lernumgebung, Zeit, soziale Unterstützung (Lerngruppen) → wirken zusammen auf Lerneffektivität, Stresskontrolle, Erfolgserwartung, Emotionen beim Lernen.",
+      "folien": "2.3 · Folie 2–13"
+    },
+    {
+      "titel": "Forschungsansätze",
+      "text": "| | quantitativ | qualitativ | Mixed Methods |\n| --- | --- | --- | --- |\n| Vorgehen | **Hypothesen** über kausale Zusammenhänge an **vielen** Untersuchungseinheiten mit **strukturierten** Methoden prüfen | **offene Forschungsfragen** an **wenigen** Einheiten sehr detailliert mit **un-/teilstrukturierten** Methoden untersuchen | **systematische Kombination** |\n| Ziel | Theorie-/Hypothesenprüfung; **statistische Verallgemeinerung** (Stichprobe → GG) | Neues entdecken, Theorien entwickeln; **analytische Verallgemeinerung**; **keine Hypothesenprüfung** | Theoriebildung **und** -prüfung |\n| Umsetzung | Experimente, standardisierte Fragebögen | leitfadengestützte Interviews, Gruppendiskussionen, teilnehmende Beobachtung | |\n| Auswertung | statistische Maßzahlen (Korrelations-, Regressionsanalyse) | Beschreiben und Verstehen | |\n\nDie Wahl hängt von **Forschungsgegenstand** und **erkenntnisleitendem Interesse** ab.\n\n**Begriffe (Infotexte):** Untersuchungseinheit = Objekt der Messung (meist Person) · standardisierter Fragebogen = Reihenfolge und Formulierung festgelegt, meist geschlossene Fragen · Interviewleitfaden = strukturiert das Interview vor, gesprächsöffnende, lenkende Fragen · Gruppendiskussion = beginnt mit Gesprächsanreiz, Forschende halten sich zurück.",
+      "folien": "2.4 · Folie 2–4"
+    },
+    {
+      "titel": "Forschungsprozess",
+      "text": "**Forschungsinteresse → Theorie/Hypothesen → Forschungsdesign/Operationalisierung → Datenerhebung → Datenanalyse → Publikation**\n\nLaut Audio: Ausgangspunkt ist eine **Forschungslücke**; Vorgehen **explorativ** oder **konfirmatorisch** (hypothesenprüfend); im Design werden Erhebungsmethode, Stichprobe und Operationalisierung festgelegt; die Analyse bestätigt Hypothesen **vorläufig** oder widerlegt sie; nach der Publikation werden Theorien ggf. angepasst.\n\n**Beginn (Forschungsinteresse):** Forschungsthema wählen, Forschungslücke bzw. -problem identifizieren, Hypothese bzw. Frage formulieren; **theoretische Einbettung** (passende Ansätze auswählen, ggf. modifizieren, verbinden); Anknüpfung an den **Forschungsstand** durch gründliche Literaturrecherche.\n\n| Fachliteratur | Inhalt |\n| --- | --- |\n| Review (Übersichtsartikel) | kritische Zusammenfassung/Klassifizierung der Literatur zu einem Gegenstand |\n| Meta-Analyse | gebündelte statistische Analyse vieler Einzelstudien |\n| Fachzeitschriftenbeiträge | aktuelle theoretische/empirische Artikel |\n| Monografien, Sammelbände | aktuelle Bücher/Beiträge |\n| Pionierstudien, „Klassiker“ | erstmalige bzw. wegweisende Veröffentlichung |\n\nIn Reviews und Meta-Analysen werden **keine selbst erhobenen Daten** präsentiert.",
+      "folien": "2.4 · Folie 5–6"
+    },
+    {
+      "titel": "Theorien, Hypothesen, Variablen",
+      "text": "• **Theorien** sind „[…] geordnete Mengen von Begriffen oder Aussagen, die ein Phänomen oder eine Gruppe von Phänomenen beschreiben und erklären“ (Gerrig, 2018, S. 28) – meist zu komplex, um sie direkt zu prüfen.\n• **Forschungshypothesen** sind **vorläufige und empirisch überprüfbare Aussagen**, aus Theorien abgeleitet, präzise und widerspruchsfrei formuliert und **prinzipiell widerlegbar**; sie postulieren einen **Zusammenhang zwischen zwei oder mehr Variablen** (oft als Vorhersage formuliert).\n• **Forschungsfragen** sind **offen und explorativ** – wenn noch keine begründbaren Hypothesen ableitbar sind (v. a. qualitative Forschung). Liegen genug Befunde vor, sind **Hypothesen vorzuziehen**.\n• **Variablen** sind Merkmale mit **mindestens zwei Ausprägungen** (z. B. beruflicher Abschluss: Lehre, Meister, Hochschule, Promotion, kein Abschluss, noch in Ausbildung).\n• **uV** = Merkmal, das Einfluss ausüben soll (Ursache); **aV** = Sachverhalt, der erklärt werden soll (Wirkung) – angenommen wird ein **Ursache-Wirkungs-Zusammenhang**; oft eine aV mit mehreren uV; die Festlegung ist **kontextspezifisch**.",
+      "beispiel": "Hypothese (Folie 8): „Das Erleben positiver Emotionen von Lehrenden wirkt sich positiv auf den Lernerfolg der Lernenden aus.“ – Forschungsfrage: „Wirkt sich das emotionale Erleben von Lehrenden auf den Lernerfolg aus?“ · uV/aV kontextspezifisch: Geschlecht → Sozialkompetenz (aV) vs. Sozialkompetenz (uV) → Leistung.",
+      "folien": "2.4 · Folie 7–11"
+    },
+    {
+      "titel": "Kritischer Rationalismus",
+      "text": "**Karl Popper (1902–1994)**\n\n• **Anti-Induktivismus:** **Induktionsschlüsse** (von vielen Beobachtungen auf eine allgemeine Regel) sind **logisch nicht zulässig** und keine wissenschaftliche Methode.\n• **Falsifikationismus:** Hypothesen müssen so formuliert sein, dass sie **an der Realität scheitern können**. Erkenntnis entsteht **ausschließlich durch Falsifikation** – Hypothesen sind **nie verifizierbar**, aber **ein erfolgreicher Falsifikationsversuch** genügt zum Scheitern. Wir lernen, **wie die Welt nicht ist**.\n• Hypothesen, die viele Tests überstehen, gelten als **bewährt** – immer nur relativ zu Anzahl und Art der Tests (Operationalisierung, Stichprobe).\n• **Falsifizieren** = als falsch erkennen; **Verifizieren** = als wahr bestätigen. Aus vielen überstandenen Tests auf Verifikation zu schließen, wäre selbst ein (unzulässiger) **Induktionsschluss**.",
+      "beispiel": "Hypothese „Alle Lernenden lernen besser mit Wahlmöglichkeiten“: induktiv – A, B, C lernen besser → alle (unzulässig); nach Popper – gezielt Gegenfall suchen: D wird überfordert und lernt schlechter → Hypothese falsifiziert. Infotext: Tablet-Beobachtungen bei K., A., … → „Tablets erhöhen die Aufmerksamkeit aller“ = Induktionsschluss.",
+      "folien": "2.4 · Folie 12–14"
+    },
+    {
+      "titel": "Quantitative Forschungsdesigns",
+      "text": "Das **Forschungsdesign** kennzeichnet das methodische Vorgehen; seine Wahl entscheidet über die **Aussagekraft** der Ergebnisse. Gängig: **Experimente** und **Befragungen**.\n\n**Experiment** – Idealtyp zur Prüfung **kausaler** Zusammenhänge: Die Versuchsleitung **variiert systematisch** mindestens eine uV (Experimentalgruppe mit, Kontrollgruppe ohne vermuteten Wirkfaktor); die Zuweisung erfolgt **randomisiert**, damit Unterschiede in der aV tatsächlich auf die uV zurückgehen und nicht auf systematische Gruppenunterschiede.\n\n**Quasi-Experiment** – ohne Randomisierung, mit vorhandenen Gruppen → Gefahr von **Störvariablen** (z. B. Klassenklima, Engagement der Lehrkraft, sozioökonomischer Hintergrund).\n\n**Befragungen** (auch für Ursache-Wirkungs-Fragen):\n\n| | Querschnitt | Trendstudie | Panelstudie |\n| --- | --- | --- | --- |\n| Zeitpunkte | einer | mehrere | mehrere |\n| Befragte | – | unterschiedliche | dieselben |\n| Aussage | Momentaufnahme, Vergleich von Gruppen | Veränderung über Zeit, nicht bei denselben Personen | intraindividuelle Veränderung; **kommt einem Experiment am nächsten** |\n\n| | Querschnitt | Längsschnitt |\n| --- | --- | --- |\n| Vorteile | leichte Rekrutierung · niedrige Drop-out-Quote · geringer Aufwand · Repräsentativität leicht erreichbar | Entwicklungsprozesse direkt abbildbar · **Kausalrichtung bestimmbar** · (Audio) Alters-, Kohorten-, Periodeneffekte prüfbar |\n| Nachteile | intraindividuelle Veränderungen nicht messbar · (Audio) Alters-, Kohorten-, Periodeneffekte nicht prüfbar | hohe Drop-out-Quote · hoher Aufwand · oft selektierte Gruppen · **Panel-Effekt** |\n\n**Panel-Effekt/Panel-Conditioning:** Wiederholte Befragung verändert tatsächliches oder berichtetes Verhalten und Einstellungen – z. B. Aufwand sparen (Antworten vermeiden, die Nachfragen auslösen), stärkere Beschäftigung mit dem Thema, Lernen, Fragen wie intendiert zu beantworten; verstärkt durch häufige Befragung und lange Fragebögen.",
+      "beispiel": "Experiment (Folie 4): Hypothese – Vokabeln werden in Wort-Bild-Paaren besser erinnert; uV Präsentationsform (Wort-Bild-Paare vs. Wortliste); aV Anzahl korrekt erinnerter Vokabeln im standardisierten Test nach 24 h; zufällige Zuweisung.",
+      "folien": "2.5 · Folie 2–8"
+    },
+    {
+      "titel": "Stichprobe und Operationalisierung",
+      "text": "• **Grundgesamtheit/Population** = Gesamtheit aller Fälle, über die eine quantitative Studie Aussagen treffen will (z. B. alle in Deutschland lebenden Personen ab 18; alle Oberstufenschüler:innen).\n• **Stichprobe** = per Auswahlverfahren gezogene **Teilmenge** der GG, an der gemessen wird; daraus Rückschluss auf die GG.\n• **Repräsentativ** = in allen zentralen Merkmalen (die mit der aV zusammenhängen könnten) so zusammengesetzt wie die GG; diese **Quotenmerkmale** werden **vor** der Erhebung anhand aktueller Verteilungsdaten festgelegt.\n• **Vollerhebung** = alle Objekte der Population; möglich bei kleiner, gut erreichbarer GG.\n\n**Operationalisierung:** Konstrukte, die sich nicht direkt messen lassen (Arbeitszufriedenheit, Intelligenz, Ausländerfeindlichkeit), werden über **Indikatoren** (beobachtbare Variablen) messbar gemacht – Voraussetzung ist eine **präzise Definition** der Variablen und ggf. ihrer Teildimensionen. Konstrukte können **unidimensional** (direkt über Indikatoren) oder **mehrdimensional** (über Dimensionen mit je eigenen Indikatoren) sein.\n\n| Konzept | Dimension | Indikator | Item |\n| --- | --- | --- | --- |\n| soziale Schicht | Bildung | Schulbildung, Berufsausbildung | „Welchen Schulabschluss haben Sie?“ |\n| | Einkommen | Lohn, Zinsen | „Wie hoch ist Ihr monatliches Nettoeinkommen?“ |\n| | Beruf | ausgeübter Beruf, Stellung | „Welchen Beruf üben Sie aus?“ |\n\n**Item** = Fragestellung inkl. Antwortformat bzw. Testaufgabe · **Skala** = mehrere Items, die dieselbe Eigenschaft erfassen.",
+      "beispiel": "Infotext: 1000 Lehrkräfte zur Arbeitszufriedenheit – Stichprobe muss Schulart, Alter, Geschlecht, Berufserfahrung, Region und Voll-/Teilzeit so abbilden wie alle Lehrkräfte an weiterführenden Schulen.",
+      "folien": "2.6 · Folie 2–6"
+    },
+    {
+      "titel": "Messung und Skalenniveaus",
+      "text": "**Messung** = systematische Zuordnung von Zahlen zu Merkmalsausprägungen. Die Zuordnungsregel bleibt in einer Untersuchung **durchgängig gleich**; die Übertragung muss **strukturtreu** sein (numerische Beziehung spiegelt die empirische).\n\n| Skala | zulässige Aussage | nicht zulässig | Beispiele | Variablentyp |\n| --- | --- | --- | --- | --- |\n| Nominal | gleich/ungleich | Rangordnung | Schulfächer, Geschlecht | kategorial |\n| Ordinal | Rangfolge | Abstände | Management-Ebenen, Rangliste, Schulabschluss | kategorial |\n| Intervall | gleiche Abstände, Differenzen | Verhältnisse (kein natürlicher Nullpunkt) | Temperatur °C, IQ | metrisch |\n| Verhältnis | Verhältnisse („doppelt so viel“) | – | Wochenarbeitsstunden, Gehalt | metrisch |\n\nJe höher das Skalenniveau, desto mehr mathematische Operationen und statistische Verfahren sind möglich.",
+      "beispiel": "IQ 110 vs. 100 ist derselbe Abstand wie 130 vs. 120 – aber IQ 140 ist nicht „doppelt so intelligent“ wie IQ 70. 40 h Arbeit sind doppelt so viel wie 20 h.",
+      "folien": "2.7 · Folie 2–6"
+    },
+    {
+      "titel": "Gütekriterien",
+      "text": "• **Objektivität** = Unabhängigkeit der Ergebnisse von den Rahmenbedingungen: Verschiedene Personen kommen bei Durchführung, Auswertung und Interpretation unter gleichen Bedingungen zu identischen Ergebnissen.\n  – **Durchführungsobjektivität:** standardisierte Bedingungen (Instruktionen, Materialien, Rahmenbedingungen, Verhalten der Versuchsleitung, technische Abläufe); andere Faktoren konstant/kontrolliert\n  – **Auswertungsobjektivität:** unabhängig davon, wer auswertet\n  – **Interpretationsobjektivität:** verschiedene Personen interpretieren die Werte vergleichbar\n• **Reliabilität** = Verlässlichkeit bzw. formale Genauigkeit: Misst das Instrument **exakt, ohne Messfehler**? → vergleichbare Ergebnisse bei Wiederholung.\n• **Validität** = Gültigkeit: Misst das Instrument, **was es zu messen beansprucht**?\n  – **Inhaltsvalidität:** Konstrukt in allen Aspekten vollständig erfasst (Burnout-Fragebogen nur mit Erschöpfung → gering)\n  – **Kriteriumsvalidität:** Zusammenhang mit einem anders gemessenen externen Kriterium (IQ-Test korreliert mit Lehrkrafturteil)\n  – **Konstruktvalidität:** theoretisch erwartbare Zusammenhänge mit anderen Konstrukten (Fitness negativ mit Fatigue, positiv mit Lebensqualität)\n\n**Zusammenhang:** Objektivität ist **notwendige, aber nicht hinreichende** Bedingung für Reliabilität; Reliabilität ist **notwendige, aber nicht hinreichende** Bedingung für Validität → Messungen können **objektiv und reliabel, aber nicht valide** sein.",
+      "beispiel": "Fragebogen „soziale Ängstlichkeit“ misst eigentlich Introversion: objektiv (gleiche standardisierte Fragen) und reliabel (stabile Antworten), aber nicht valide.",
+      "folien": "2.7 · Folie 7–12"
+    },
+    {
+      "titel": "Statistik: Lage- und Streuungsmaße",
+      "text": "**Statistik** = Methoden zur Analyse numerischer Daten. **Deskriptivstatistik** (beschreibend) organisiert, stellt dar und fasst zusammen – **ohne Rückschluss** auf die Population. **Inferenzstatistik** (schließend) überträgt von der Stichprobe auf die GG und **testet Hypothesen** (Wahrscheinlichkeitstheorie; Signifikanztests wie t-Test, χ²-Test).\n\n| Lagemaß | Bedeutung |\n| --- | --- |\n| Modalwert | häufigster Wert |\n| Median | halbiert die sortierte Verteilung; bei gerader Anzahl Mittel der beiden mittleren Werte; **robust** |\n| Mittelwert x̄ | Summe aller Werte / n; **anfällig für Extremwerte** |\n\nBeispiel Folie: 1,3; 1,3; 1,7; 2,0; 2,7; 3,3; 4,0; 5,0 → Modus 1,3 · Median (2,0 + 2,7)/2 = 2,35 · Mittelwert 21,3/8 = 2,66.\n\n**Streuung:** Wie weit unterscheiden sich die Werte? **Varianz** s² = Σ(xᵢ − x̄)²/n = durchschnittliche quadrierte Abweichung vom Mittelwert · **Standardabweichung** s = √s² (zurück in die ursprüngliche Einheit). Vier Klausuren mit gleichem Mittelwert: a) keine Streuung (s = 0), b) Normalverteilung (s² = 0,9; s ≈ 0,95), c) Gleichverteilung, d) nur sehr gute und sehr schlechte Noten (s² = 4; s = 2).",
+      "beispiel": "Einkommen 30–75 Tsd. €: Median = Mittelwert = 52,5. Wird 75 zu 200: Median bleibt 52,5, Mittelwert steigt auf 65.",
+      "folien": "2.8 · Folie 2–7"
+    },
+    {
+      "titel": "Signifikanz, Korrelation und Kausalität",
+      "text": "• **Signifikanz:** Ein Effekt in der Stichprobe ist nicht zufällig, sondern beruht auf einem systematischen Effekt in der GG. Getestet wird gegen die **Nullhypothese** (kein Effekt in der GG); signifikant, wenn die Wahrscheinlichkeit der Daten unter H₀ **≤ 5 %** ist. **Statistisch signifikant ≠ praktisch bedeutsam** → Effektgrößen beachten.\n• **(Bivariate) Korrelation** = Zusammenhangsmaß; **positiv**: beide steigen bzw. fallen gemeinsam; **negativ**: eine steigt, die andere fällt.\n• **Korrelationskoeffizient r (Bravais-Pearson)**: Stärke des **linearen** Zusammenhangs (Gerade y = a + bx), beide Merkmale **mindestens intervallskaliert**; Wertebereich −1 bis +1 (+1 perfekt positiv, −1 perfekt negativ, 0 kein Zusammenhang); **r ≥ .10 schwach, ≥ .30 moderat, ≥ .50 stark** (Cohen, 1988); Signifikanz per t-Test; berichtet werden nur signifikante Korrelationen.\n• **Korrelation ≠ Kausalität:** Kausalrichtung kann umgekehrt sein oder es liegt eine **Konfundierung** vor (Drittvariable wirkt auf uV und aV; ein Teil kann trotzdem kausal sein). Wird die Korrelation **allein** durch eine Drittvariable erzeugt: **Scheinkausalität**. Korrelation ist aber **notwendige Voraussetzung** für Kausalschlüsse.\n• **Bedingungen für kausale Interpretation:** plausible, gestützte Theorie · Ursache geht der Wirkung **zeitlich voraus** · **Drittvariablen neutralisiert** · Analyse von Wirkungspfaden in Kausalmodellen. **Höchste Erklärungskraft:** Experimente (Manipulation der uV + Randomisierung).",
+      "beispiel": "Konfundierung: kleinere Klassen ↔ bessere Leistung, verzerrt durch die Drittvariable Schulform (Gymnasien). Scheinkausalität: Störche ↔ Geburtenrate, allein erklärt durch den Urbanisierungsgrad.",
+      "folien": "2.8 · Folie 7–15"
+    },
+    {
+      "titel": "Veröffentlichung",
+      "text": "• Ergebnisse erscheinen als **Research Paper** in **Journals** (meist Englisch).\n• **Reviewer:innen** (Fachleute) entscheiden mit den Herausgeber:innen: veröffentlichen, zur Überarbeitung zurück oder ablehnen.\n• Im **Diskussionsteil** werden offene bzw. neu aufgeworfene Fragen angemerkt → Ausgangspunkt neuer Studien.\n• **Publication Bias:** Journals veröffentlichen eher Studien mit **signifikanten** Ergebnissen; Studien ohne bestätigte Hypothesen werden häufiger abgelehnt und oft gar nicht erst eingereicht → verzerrte Publikationslage.",
+      "folien": "2.8 · Folie 16–17"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Psychologie (VL)",
+      "wortlaut": "Psychologie wird als Wissenschaft vom Erleben und Verhalten des Menschen verstanden.",
+      "erklaerung": "Untersucht, was Menschen innerlich erleben und was sie beobachtbar tun – und wie der Körper damit zusammenhängt.",
+      "folie": "2.1 · Folie 8"
+    },
+    {
+      "begriff": "Erleben",
+      "wortlaut": "Erleben meint die bewusste Wahrnehmung, also „das Endergebnis eines komplexen Informationsprozesses“ (Bak, 2025, S. 22), bezieht aber häufig auch unbewusste mentale Prozesse mit ein.",
+      "erklaerung": "Gedanken, Gefühle, Erinnerungen, Wünsche – auch Unbewusstes.",
+      "folie": "2.1 · Folie 8"
+    },
+    {
+      "begriff": "Verhalten (VL)",
+      "wortlaut": "Verhalten bezeichnet alle äußerlich beobachtbaren Reaktionen eines Organismus auf innere oder äußere Reize: „Verhalten ist das, was ein Organismus tut.“ (Bak, 2025, S. 11)",
+      "erklaerung": "Alles von außen Beobachtbare, z. B. Lächeln, Rückzug bei Schmerz.",
+      "folie": "2.1 · Folie 8"
+    },
+    {
+      "begriff": "Gegenstand der Psychologie",
+      "wortlaut": "Der Untersuchungsgegenstand der Psychologie „umfasst den Körper, Mentales und Wechselwirkungen zwischen Körper und Mentalem“ (Bak, 2025, S. 27).",
+      "erklaerung": "Neben Erleben und Verhalten gehört auch der Körper dazu.",
+      "folie": "2.1 · Folie 8"
+    },
+    {
+      "begriff": "Persönlichkeitspsychologie",
+      "wortlaut": "„Persönlichkeitspsychologie ist die empirische Wissenschaft von den individuellen Besonderheiten von Menschen in körperlicher Erscheinung, Verhalten und Erleben“ (Asendorpf, 2024, S. 8); fokussiert die Besonderheiten innerhalb einer Person (intraindividuelle Sichtweise).",
+      "erklaerung": "Was macht eine Person einzigartig?",
+      "folie": "2.2 · Folie 4"
+    },
+    {
+      "begriff": "Differentielle Psychologie",
+      "wortlaut": "fokussiert die „Differenzen – als Unterschiede – zwischen Personen oder Personengruppen (inter-individuelle Sichtweise)“ (Rauthmann, 2025, S. 2).",
+      "erklaerung": "Worin unterscheiden sich Menschen voneinander? Heute meist mit der Persönlichkeitspsychologie eine Disziplin.",
+      "folie": "2.2 · Folie 4"
+    },
+    {
+      "begriff": "Wissenschaftsparadigma",
+      "wortlaut": "„Ein Wissenschaftsparadigma ist ein einigermaßen zusammenhängendes, von vielen Wissenschaftlern geteiltes Bündel aus theoretischen Leitsätzen, Fragestellungen und Methoden, das längere historische Perioden in der Entwicklung einer Wissenschaft überdauert.“ (Asendorpf, 2024, S. 20)",
+      "erklaerung": "Eine gemeinsame „Brille“ vieler Forschender – was man fragt und wie man forscht.",
+      "folie": "2.3 · Folie 2"
+    },
+    {
+      "begriff": "Paradigma (nach Kuhn)",
+      "wortlaut": "nach Kuhn (1967) ein anerkanntes Orientierungsmodell zur erfolgreichen Problemlösung. In dieser Vorbildfunktion steuert es die wiss. Realitätsauslegung. Ein Paradigma legt also grundlegend fest, was als wiss. befriedigende Lösung angesehen werden kann und welche Fragestellungen zulässig sind. (Dorsch, 2021)",
+      "erklaerung": "Gibt vor, welche Fragen zulässig und welche Lösungen befriedigend sind.",
+      "folie": "2.3 · Folie 2"
+    },
+    {
+      "begriff": "Paradigmenwechsel",
+      "wortlaut": "Paradigmen können sich im Zuge der Entwicklung einer Wissenschaft durch erwartungswidrige Befunde verändern und auch gänzlich verschwinden.",
+      "erklaerung": "Wenn Beobachtungen den Kernannahmen widersprechen, wird das Paradigma abgelöst.",
+      "folie": "2.3 · Folie 3"
+    },
+    {
+      "begriff": "Quantitativer Forschungsansatz",
+      "wortlaut": "Forschungshypothesen (über kausale Zusammenhänge) werden an möglichst vielen Untersuchungseinheiten mit strukturierten Datenerhebungsmethoden überprüft; Ziel: Theorie- bzw. Hypothesenprüfung, statistische Verallgemeinerung.",
+      "erklaerung": "Viele Fälle, Zahlen, Hypothesen prüfen.",
+      "folie": "2.4 · Folie 2"
+    },
+    {
+      "begriff": "Qualitativer Forschungsansatz",
+      "wortlaut": "(relativ offen formulierte) Forschungsfragen werden an wenigen Untersuchungseinheiten sehr detailliert mit un- oder teilstrukturierten Datenerhebungsmethoden untersucht; Ziel: Neues entdecken, Theorien entwickeln (analytische Verallgemeinerung) – keine Prüfung von Hypothesen.",
+      "erklaerung": "Wenige Fälle, tiefes Verstehen, Theorien entwickeln.",
+      "folie": "2.4 · Folie 3"
+    },
+    {
+      "begriff": "Mixed-Methods-Ansatz",
+      "wortlaut": "systematische Kombination qualitativer und quantitativer Forschungsstrategien; Zielsetzung: Theoriebildung und -prüfung.",
+      "erklaerung": "Beides verbinden.",
+      "folie": "2.4 · Folie 4"
+    },
+    {
+      "begriff": "Untersuchungseinheit",
+      "wortlaut": "Der Begriff „Untersuchungseinheit“ bezeichnet das Objekt, an dem die Messung vorgenommen wird (häufig sind einzelne Personen die Untersuchungseinheiten).",
+      "erklaerung": "Meist die einzelne Person.",
+      "folie": "2.4 · Folie 2 (Infotext)"
+    },
+    {
+      "begriff": "Meta-Analyse",
+      "wortlaut": "gebündelte statistische Analyse empirischer Ergebnisse von diversen Einzelstudien.",
+      "erklaerung": "Fasst viele Studien statistisch zusammen; keine eigenen Daten.",
+      "folie": "2.4 · Folie 6 (Infotext)"
+    },
+    {
+      "begriff": "Review (Übersichtsartikel)",
+      "wortlaut": "kritische Zusammenfassung oder Klassifizierung der veröffentlichten Literatur (inkl. der empirischen Ergebnisse) zu einem spezifischen Gegenstandsbereich.",
+      "erklaerung": "Überblick über den Forschungsstand; keine eigenen Daten.",
+      "folie": "2.4 · Folie 6 (Infotext)"
+    },
+    {
+      "begriff": "Theorie",
+      "wortlaut": "Theorien sind „[…] geordnete Mengen von Begriffen oder Aussagen, die ein Phänomen oder eine Gruppe von Phänomenen beschreiben und erklären“ (Gerrig, 2018, S. 28).",
+      "erklaerung": "Zu komplex für eine direkte Prüfung – man leitet Hypothesen ab.",
+      "folie": "2.4 · Folie 7"
+    },
+    {
+      "begriff": "Forschungshypothese",
+      "wortlaut": "Forschungshypothesen sind vorläufige und empirisch überprüfbare Aussagen, sie werden aus Theorien generiert.",
+      "erklaerung": "Präzise, widerspruchsfrei, prinzipiell widerlegbar.",
+      "folie": "2.4 · Folie 7"
+    },
+    {
+      "begriff": "Forschungsfrage",
+      "wortlaut": "Forschungsfragen sind offen und explorativ formuliert; sie werden formuliert, wenn noch keine begründbaren Hypothesen auf Basis von empirischen Ergebnissen und/oder Theorien ableitbar sind.",
+      "erklaerung": "V. a. in qualitativer Forschung; Hypothesen sind vorzuziehen, wenn genug Befunde vorliegen.",
+      "folie": "2.4 · Folie 9"
+    },
+    {
+      "begriff": "Variable",
+      "wortlaut": "Variablen sind Merkmale mit mind. zwei Ausprägungen.",
+      "erklaerung": "Etwas, das variieren kann (z. B. Abschluss, Alter).",
+      "folie": "2.4 · Folie 10"
+    },
+    {
+      "begriff": "Abhängige Variable (aV)",
+      "wortlaut": "Sachverhalt, der erklärt werden soll.",
+      "erklaerung": "Die Wirkung.",
+      "folie": "2.4 · Folie 11"
+    },
+    {
+      "begriff": "Unabhängige Variable (uV)",
+      "wortlaut": "Merkmal, von dem ausgegangen wird, dass es einen Einfluss auf die abhängige Variable ausübt.",
+      "erklaerung": "Die vermutete Ursache; Festlegung kontextspezifisch.",
+      "folie": "2.4 · Folie 11"
+    },
+    {
+      "begriff": "Induktionsschluss",
+      "wortlaut": "Schlüsse, die auf vielen Beobachtungen beruhen; nach Popper logisch nicht zulässig und somit keine Methode des wissenschaftlichen Arbeitens.",
+      "erklaerung": "Von Einzelfällen auf alle schließen – nach Popper unzulässig.",
+      "folie": "2.4 · Folie 12"
+    },
+    {
+      "begriff": "Falsifikationismus",
+      "wortlaut": "Hypothesen sind so zu formulieren, dass sie an der Realität scheitern können müssen; Erkenntnisgewinn erfolgt ausschließlich durch die Falsifikation von Hypothesen.",
+      "erklaerung": "Nicht bestätigen, sondern widerlegen wollen.",
+      "folie": "2.4 · Folie 13"
+    },
+    {
+      "begriff": "Falsifizierung / Verifizierung",
+      "wortlaut": "Falsifizierung = etwas als falsch erkennen (Gegensatz: Verifizierung = wahr machen; bspw. i. S. v. die Richtigkeit einer Annahme bestätigen).",
+      "erklaerung": "Hypothesen sind nie verifizierbar, nur falsifizierbar.",
+      "folie": "2.4 · Folie 13 (Infotext)"
+    },
+    {
+      "begriff": "Bewährung",
+      "wortlaut": "Hypothesen, die viele Falsifikationsversuche bzw. Tests überstehen, gelten als bewährt – immer nur in Relation zu einer bestimmten Anzahl und Art von Tests.",
+      "erklaerung": "Bewährt ≠ bewiesen.",
+      "folie": "2.4 · Folie 13"
+    },
+    {
+      "begriff": "Forschungsdesign",
+      "wortlaut": "Das Forschungs-/Untersuchungsdesign kennzeichnet die methodische Vorgehensweise innerhalb einer Studie. Die Wahl des Forschungsdesigns entscheidet, welche Aussagekraft die generierten Ergebnisse besitzen.",
+      "erklaerung": "Wie die Studie aufgebaut ist.",
+      "folie": "2.5 · Folie 2"
+    },
+    {
+      "begriff": "Experiment",
+      "wortlaut": "Idealtyp der empirischen Forschung, um kausale Zusammenhänge zu untersuchen; Versuchsleiter/in variiert (mindestens) eine Einflussgröße (die uV) systematisch; Zuweisung zu Experimental- und Kontrollgruppe muss randomisiert erfolgen.",
+      "erklaerung": "Ursache gezielt verändern, Gruppen per Zufall bilden.",
+      "folie": "2.5 · Folie 3"
+    },
+    {
+      "begriff": "Randomisierung",
+      "wortlaut": "zufällige Zuweisung zu Experimental- und Kontrollgruppe; nur so kann ausgeschlossen werden, dass gefundene Unterschiede in der aV auf systematische Unterschiede zwischen den Gruppen zurückzuführen sind.",
+      "erklaerung": "Zufall verteilt Störeinflüsse gleichmäßig.",
+      "folie": "2.5 · Folie 3"
+    },
+    {
+      "begriff": "Quasi-Experiment",
+      "wortlaut": "Experiment ohne Randomisierung, stattdessen Rückgriff auf vorhandene Gruppen.",
+      "erklaerung": "Störvariablen können das Ergebnis verzerren.",
+      "folie": "2.5 · Folie 5"
+    },
+    {
+      "begriff": "Störvariable",
+      "wortlaut": "Eigenschaften, in denen sich Gruppen außer der untersuchten uV unterscheiden und die ebenfalls einen systematischen Einfluss auf die aV ausüben können.",
+      "erklaerung": "Z. B. Klassenklima, Engagement der Lehrkraft.",
+      "folie": "2.5 · Folie 5"
+    },
+    {
+      "begriff": "Querschnittstudie",
+      "wortlaut": "Datenerhebung zu einem Zeitpunkt; Ergebnisse sind immer nur als Momentaufnahmen zu verstehen.",
+      "erklaerung": "Ein Messzeitpunkt.",
+      "folie": "2.5 · Folie 6"
+    },
+    {
+      "begriff": "Trendstudie",
+      "wortlaut": "Längsschnittstudie: Datenerhebung zu mehreren Zeitpunkten an unterschiedlichen Befragten.",
+      "erklaerung": "Veränderung über die Zeit, aber andere Personen.",
+      "folie": "2.5 · Folie 6"
+    },
+    {
+      "begriff": "Panelstudie",
+      "wortlaut": "Längsschnittstudie: Datenerhebung zu mehreren Zeitpunkten an denselben Befragten (kommt einem Experiment am nächsten).",
+      "erklaerung": "Dieselben Personen, intraindividuelle Veränderung.",
+      "folie": "2.5 · Folie 6"
+    },
+    {
+      "begriff": "Panel-Effekt / Panel-Conditioning",
+      "wortlaut": "wiederholte Befragung derselben Personen kann deren tatsächliches oder berichtetes Verhalten und ihre Einstellungen verändern.",
+      "erklaerung": "Z. B. Aufwand sparen, stärkere Beschäftigung mit dem Thema.",
+      "folie": "2.5 · Folie 8 (Infotext)"
+    },
+    {
+      "begriff": "Drop-out-Quote",
+      "wortlaut": "Abbruchsquote der Befragten.",
+      "erklaerung": "Bei Panelstudien hoch.",
+      "folie": "2.5 · Folie 8"
+    },
+    {
+      "begriff": "Grundgesamtheit (GG) / Population",
+      "wortlaut": "Gesamtheit aller Fälle, über die im Rahmen einer quantitativen empirischen Studie wissenschaftliche Aussagen getroffen werden sollen.",
+      "erklaerung": "Alle, über die man etwas sagen will.",
+      "folie": "2.6 · Folie 2"
+    },
+    {
+      "begriff": "Stichprobe",
+      "wortlaut": "Teilmenge der GG, die auf Basis eines Auswahlverfahrens ausgewählt wurde und anhand derer die Messung durchgeführt wird.",
+      "erklaerung": "Die tatsächlich Untersuchten.",
+      "folie": "2.6 · Folie 2"
+    },
+    {
+      "begriff": "Repräsentativität / Quotenmerkmale",
+      "wortlaut": "die Stichprobe muss bezogen auf alle zentralen Merkmale (die in einem Zusammenhang zur aV stehen könnten) so zusammengesetzt sein wie die GG; diese sog. Quotenmerkmale müssen vor der eigentlichen Erhebung festgelegt werden.",
+      "erklaerung": "Stichprobe als verkleinertes Abbild der GG.",
+      "folie": "2.6 · Folie 3"
+    },
+    {
+      "begriff": "Vollerhebung",
+      "wortlaut": "der Einbezug aller Objekte einer Population in die Untersuchung – möglich, wenn die Grundgesamtheit klein und gut zu erreichen ist.",
+      "erklaerung": "Alle werden befragt.",
+      "folie": "2.6 · Folie 3"
+    },
+    {
+      "begriff": "Operationalisierung (VL)",
+      "wortlaut": "Festlegung von Indikatoren (→ beobachtbare Variablen), um theoretische Konstrukte (→ latente Variablen) messbar machen zu können, bzw. Festlegen von beobachtbaren Kriterien für abstrakte und/oder komplexe Variablen.",
+      "erklaerung": "Unsichtbares messbar machen.",
+      "folie": "2.6 · Folie 4"
+    },
+    {
+      "begriff": "Item",
+      "wortlaut": "Fragestellung inkl. Antwortformat in einem Fragebogen, Aufgabe in einem Test.",
+      "erklaerung": "Bei geschlossenen Fragen gehören die Antwortalternativen dazu.",
+      "folie": "2.6 · Folie 6 (Infotext)"
+    },
+    {
+      "begriff": "Skala (Messinstrument)",
+      "wortlaut": "mehrere Items, welche die gleiche Eigenschaft erfassen.",
+      "erklaerung": "Mehrere Fragen zu einem Merkmal.",
+      "folie": "2.6 · Folie 6 (Infotext)"
+    },
+    {
+      "begriff": "Messung",
+      "wortlaut": "systematische Zuordnung von Zahlen zu Ausprägungen eines Merkmals bzw. einer Variable.",
+      "erklaerung": "Zuordnungsregel durchgängig gleich, strukturtreu.",
+      "folie": "2.7 · Folie 2"
+    },
+    {
+      "begriff": "Nominalskala",
+      "wortlaut": "Messwerte spiegeln ausschließlich wider, ob Merkmalsausprägungen bei zwei Merkmalsträger/innen gleich oder unterschiedlich sind (aber: keine Aussagen über Rangordnung zulässig).",
+      "erklaerung": "Nur Namen/Kategorien.",
+      "folie": "2.7 · Folie 5"
+    },
+    {
+      "begriff": "Ordinalskala",
+      "wortlaut": "zugeordnete Zahlen spiegeln eine Rangfolge der Merkmalsausprägungen wider (aber: keine Aussagen über Abstände zulässig).",
+      "erklaerung": "Reihenfolge ja, Abstände nein.",
+      "folie": "2.7 · Folie 5"
+    },
+    {
+      "begriff": "Intervallskala",
+      "wortlaut": "Unterschiede zwischen den Messwerten sind interpretierbar, da diese gleichabständig sind (aber: da es keinen natürlichen Nullpunkt gibt, sind keine Aussagen über das Verhältnis zulässig).",
+      "erklaerung": "Abstände ja, „doppelt so“ nein.",
+      "folie": "2.7 · Folie 5"
+    },
+    {
+      "begriff": "Verhältnisskala",
+      "wortlaut": "natürlicher Nullpunkt liegt vor, sodass es zulässig ist, aus dem Verhältnis der Messwerte auf das Verhältnis zwischen den Merkmalsausprägungen zu schließen (bspw. „doppelt so viel“).",
+      "erklaerung": "Alles erlaubt.",
+      "folie": "2.7 · Folie 5"
+    },
+    {
+      "begriff": "Kategoriale / metrische Variable",
+      "wortlaut": "Variablen mit Nominal- oder Ordinalskala werden als kategoriale Variablen bezeichnet, Variablen mit Intervall- oder Verhältnisskala als metrische Variablen.",
+      "erklaerung": "Kategorien vs. Zahlenwerte mit gleichen Abständen.",
+      "folie": "2.7 · Folie 4"
+    },
+    {
+      "begriff": "Objektivität",
+      "wortlaut": "Unabhängigkeit der Ergebnisse von den Rahmenbedingungen; unterschiedliche Personen kommen bei der Durchführung, Auswertung und Interpretation einer bestimmten Untersuchung unter gleichen Bedingungen zu identischen Ergebnissen.",
+      "erklaerung": "Drei Arten: Durchführungs-, Auswertungs-, Interpretationsobjektivität.",
+      "folie": "2.7 · Folie 7"
+    },
+    {
+      "begriff": "Durchführungsobjektivität",
+      "wortlaut": "die Untersuchung wird unter standardisierten Bedingungen durchgeführt, sodass das Verhalten der Versuchspersonen nur von der Ausprägung des interessierenden Merkmals abhängt; alle anderen Faktoren (insb. das Verhalten der Versuchsleiter/innen) werden konstant gehalten oder kontrolliert.",
+      "erklaerung": "Gleiche Instruktion, gleiche Zeit, gleiche Bedingungen.",
+      "folie": "2.7 · Folie 8"
+    },
+    {
+      "begriff": "Auswertungsobjektivität",
+      "wortlaut": "Unabhängigkeit der Ergebnisse von der Person, welche die Untersuchung auswertet.",
+      "erklaerung": "Egal wer auswertet – gleiches Ergebnis.",
+      "folie": "2.7 · Folie 8"
+    },
+    {
+      "begriff": "Interpretationsobjektivität",
+      "wortlaut": "liegt vor, wenn unterschiedliche Personen die gemessenen Werte von verschiedenen Versuchspersonen bezüglich des interessierenden Merkmals in vergleichbarer Weise interpretieren.",
+      "erklaerung": "Gleiche Deutung.",
+      "folie": "2.7 · Folie 8"
+    },
+    {
+      "begriff": "Reliabilität",
+      "wortlaut": "Verlässlichkeit bzw. formale Genauigkeit eines Messinstruments: Wie zuverlässig misst ein Instrument das, was es misst? Liegt vor, wenn ein Messinstrument das Merkmal exakt, also ohne Messfehler, misst.",
+      "erklaerung": "Bei Wiederholung gleiche Ergebnisse.",
+      "folie": "2.7 · Folie 9"
+    },
+    {
+      "begriff": "Validität",
+      "wortlaut": "Gültigkeit eines Messinstruments: Misst das Instrument auch das, was es zu messen beansprucht?",
+      "erklaerung": "Drei Arten: Inhalts-, Kriteriums-, Konstruktvalidität.",
+      "folie": "2.7 · Folie 10"
+    },
+    {
+      "begriff": "Inhaltsvalidität",
+      "wortlaut": "liegt vor, wenn die Messungen eines Konstruktes dessen Inhalt in all seinen Aspekten vollständig erfasst.",
+      "erklaerung": "Alle Facetten erfasst?",
+      "folie": "2.7 · Folie 11"
+    },
+    {
+      "begriff": "Kriteriumsvalidität",
+      "wortlaut": "liegt dann vor, wenn ein Zusammenhang zwischen den empirisch gemessenen Ergebnissen des Messinstrumentes und einem anders gemessenen empirischen Kriterium besteht.",
+      "erklaerung": "Hängt der Test mit einem externen Kriterium zusammen?",
+      "folie": "2.7 · Folie 11"
+    },
+    {
+      "begriff": "Konstruktvalidität",
+      "wortlaut": "hierbei wird überprüft, ob Messungen eines Konstrukts so mit anderen Konstrukten zusammenhängen, wie aus der Theorie ableitbar.",
+      "erklaerung": "Passen die Zusammenhänge zur Theorie?",
+      "folie": "2.7 · Folie 11"
+    },
+    {
+      "begriff": "Statistik",
+      "wortlaut": "Methoden und Techniken für die Analyse von numerischen Daten.",
+      "erklaerung": "Deskriptiv- und Inferenzstatistik.",
+      "folie": "2.8 · Folie 2"
+    },
+    {
+      "begriff": "Deskriptivstatistik",
+      "wortlaut": "beschreibende Statistik; dient dazu, einen Überblick über die Daten zu gewinnen; Organisation, Darstellung und Zusammenfassung von erhobenen Daten ohne Rückschlüsse auf eine größere Population zu ziehen.",
+      "erklaerung": "Daten beschreiben.",
+      "folie": "2.8 · Folie 2"
+    },
+    {
+      "begriff": "Modalwert (Modus)",
+      "wortlaut": "gibt die am häufigsten auftretende Merkmalsausprägung an.",
+      "erklaerung": "Häufigster Wert.",
+      "folie": "2.8 · Folie 3"
+    },
+    {
+      "begriff": "Median",
+      "wortlaut": "ist der Wert, der eine Verteilung halbiert; liegt die Mitte zwischen zwei Werten, so wird von diesen beiden Werten der Mittelwert gebildet.",
+      "erklaerung": "Robust gegenüber Extremwerten.",
+      "folie": "2.8 · Folie 3"
+    },
+    {
+      "begriff": "Mittelwert (arithmetisches Mittel)",
+      "wortlaut": "gibt den Durchschnitt aller Messergebnisse wieder; ergibt sich aus der Summe aller Einzelwerte dividiert durch deren Anzahl n.",
+      "erklaerung": "Anfällig für Extremwerte.",
+      "folie": "2.8 · Folie 4"
+    },
+    {
+      "begriff": "Varianz",
+      "wortlaut": "durchschnittliche Abweichung der Werte vom Mittelwert im Quadrat.",
+      "erklaerung": "s² = Σ(xᵢ − x̄)²/n",
+      "folie": "2.8 · Folie 6"
+    },
+    {
+      "begriff": "Standardabweichung",
+      "wortlaut": "Wurzel aus der Varianz, um die Werte wieder in die ursprüngliche Einheit zurückzubringen.",
+      "erklaerung": "s = √s²",
+      "folie": "2.8 · Folie 6"
+    },
+    {
+      "begriff": "Inferenzstatistik",
+      "wortlaut": "schließende Statistik; Übertragung von Ergebnissen aus einer Stichprobe auf die Grundgesamtheit; dabei werden Hypothesen getestet.",
+      "erklaerung": "Signifikanztests, z. B. t-Test, χ²-Test.",
+      "folie": "2.8 · Folie 7"
+    },
+    {
+      "begriff": "Statistische Signifikanz",
+      "wortlaut": "ein statistisch signifikantes Ergebnis deutet darauf hin, dass ein in einer Stichprobe beobachteter Effekt resp. Zusammenhang nicht auf den Zufall zurückzuführen ist, sondern auf einen systematischen Effekt in der GG beruht; signifikant, wenn die Wahrscheinlichkeit der Daten unter der Nullhypothese ≤ 5 % ist.",
+      "erklaerung": "Nicht zufällig – aber nicht automatisch praktisch bedeutsam.",
+      "folie": "2.8 · Folie 8"
+    },
+    {
+      "begriff": "Nullhypothese",
+      "wortlaut": "Annahme, dass es keinen Effekt in der GG gibt.",
+      "erklaerung": "Gegen sie wird getestet.",
+      "folie": "2.8 · Folie 8"
+    },
+    {
+      "begriff": "Korrelation",
+      "wortlaut": "(bivariate) Korrelationen = Zusammenhangsmaße (d. h., zwei Variablen verändern sich gemeinsam).",
+      "erklaerung": "Positiv oder negativ, Stärke über r.",
+      "folie": "2.8 · Folie 9"
+    },
+    {
+      "begriff": "Konfundierung",
+      "wortlaut": "Bei einer Konfundierung wirkt eine sog. Drittvariable sowohl auf die unabhängige als auch auf die abhängige Variable, sie verfälscht bzw. konfundiert die Beziehung dieser beiden Variablen.",
+      "erklaerung": "Ein Teil der Korrelation geht auf eine dritte Größe zurück.",
+      "folie": "2.8 · Folie 10 (Infotext)"
+    },
+    {
+      "begriff": "Scheinkausalität",
+      "wortlaut": "Wird die Korrelation zwischen unabhängiger und abhängiger Variable allein durch eine Drittvariable verursacht, spricht man von einer Scheinkausalität.",
+      "erklaerung": "Störche und Geburten.",
+      "folie": "2.8 · Folie 10 (Infotext)"
+    },
+    {
+      "begriff": "Korrelationskoeffizient r (Bravais-Pearson)",
+      "wortlaut": "misst die Stärke des linearen Zusammenhangs zwischen zwei Merkmalen, die mind. intervallskaliert sein müssen; Wertebereich zwischen −1 und 1.",
+      "erklaerung": "≥ .10 schwach, ≥ .30 moderat, ≥ .50 stark.",
+      "folie": "2.8 · Folie 11–12"
+    },
+    {
+      "begriff": "Publication Bias",
+      "wortlaut": "verzerrte Publikationslage; Herausgeber/innen von Journals neigen eher dazu, Studien mit signifikanten Ergebnissen zu veröffentlichen.",
+      "erklaerung": "Nicht-signifikante Studien fehlen in der Literatur.",
+      "folie": "2.8 · Folie 17"
+    },
+    {
+      "begriff": "Peer Review",
+      "wortlaut": "die eingereichten Manuskripte werden von sog. Reviewer/innen (Expert/innen auf dem jeweiligen Fachgebiet) gelesen; diese entscheiden gemeinsam mit Herausgeber/innen eines Journals, ob ein Artikel veröffentlicht, zur Bearbeitung zurückgeschickt oder abgelehnt wird.",
+      "erklaerung": "Begutachtung durch Fachleute.",
+      "folie": "2.8 · Folie 16"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie wird Psychologie in der Vorlesung definiert?",
+      "antwort": "Als Wissenschaft vom Erleben und Verhalten des Menschen.",
+      "erklaerung": "Prüfungsrelevante VL-Definition.",
+      "folie": "2.1 · Folie 8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Ordne zu: Erleben oder Verhalten?",
+      "kategorien": [
+        "Erleben",
+        "Verhalten"
+      ],
+      "elemente": [
+        {
+          "text": "Freude bei einem schönen Erlebnis",
+          "kategorie": "Erleben"
+        },
+        {
+          "text": "Lächeln als Reaktion auf einen Witz",
+          "kategorie": "Verhalten"
+        },
+        {
+          "text": "eine Entscheidung, die man nicht begründen kann",
+          "kategorie": "Erleben"
+        },
+        {
+          "text": "Rückzugsbewegung bei Schmerz",
+          "kategorie": "Verhalten"
+        },
+        {
+          "text": "Erinnerungen",
+          "kategorie": "Erleben"
+        }
+      ],
+      "erklaerung": "Erleben = innerlich (auch unbewusst), Verhalten = von außen beobachtbar.",
+      "folie": "2.1 · Folie 8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum Gegenstand der Psychologie sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Der Gegenstand umfasst den Körper, Mentales und Wechselwirkungen zwischen beiden.",
+        "Erleben umfasst ausschließlich bewusste Prozesse.",
+        "Verhalten bezeichnet alle äußerlich beobachtbaren Reaktionen auf innere oder äußere Reize.",
+        "Der Körper ist kein Gegenstand der Psychologie."
+      ],
+      "richtig": [
+        "Der Gegenstand umfasst den Körper, Mentales und Wechselwirkungen zwischen beiden.",
+        "Verhalten bezeichnet alle äußerlich beobachtbaren Reaktionen auf innere oder äußere Reize."
+      ],
+      "erklaerung": "Laut Bak umfasst der Gegenstand Körper, Mentales und deren Wechselwirkungen; Verhalten ist das Beobachtbare; Erleben schließt Unbewusstes häufig ein.",
+      "folie": "2.1 · Folie 8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche vier Ziele der Psychologie nennt die Vorlesung?",
+      "optionen": [
+        "beschreiben",
+        "erklären",
+        "vorhersagen",
+        "beeinflussen",
+        "bewerten"
+      ],
+      "richtig": [
+        "beschreiben",
+        "erklären",
+        "vorhersagen",
+        "beeinflussen"
+      ],
+      "erklaerung": "Die VL nennt vier Ziele; „verstehen“ kommt nur im Seminar (Schreier) als fünftes Ziel dazu, „bewerten“ gar nicht.",
+      "folie": "2.1 · Folie 9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu den Zielen der Psychologie sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Beim Beschreiben wird das Geschehen nicht bewertet oder interpretiert.",
+        "Die Zuverlässigkeit von Vorhersagen zeigt, ob eine Erklärung wissenschaftlich brauchbar ist.",
+        "Beeinflussen meint Manipulation von Menschen.",
+        "Erklärungen suchen nach Ursachen von Erleben und Verhalten."
+      ],
+      "richtig": [
+        "Beim Beschreiben wird das Geschehen nicht bewertet oder interpretiert.",
+        "Die Zuverlässigkeit von Vorhersagen zeigt, ob eine Erklärung wissenschaftlich brauchbar ist.",
+        "Erklärungen suchen nach Ursachen von Erleben und Verhalten."
+      ],
+      "erklaerung": "Beschreiben ohne Bewertung; Vorhersagequalität als Kriterium für Erklärungen; Beeinflussen ausdrücklich nicht als Manipulation.",
+      "folie": "2.1 · Folie 10 + Audio",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Eine Schülerin stört seit Wochen häufig den Unterricht. Zeige an diesem Fall alle vier Ziele der Psychologie.",
+      "musterloesung": "Beschreiben: Häufigkeit, Art und Zeitpunkt der Störungen systematisch beobachten und dokumentieren, ohne zu bewerten. Erklären: Ursachen suchen, z. B. Unterforderung, Konflikte in der Klasse, Belastung zu Hause. Vorhersagen: Unter welchen Bedingungen (z. B. Stillarbeit, bestimmte Fächer) wird sie wahrscheinlich wieder stören? Beeinflussen: gezielte Unterstützung, z. B. anspruchsvollere Aufgaben, Gespräch, Absprachen mit Eltern.",
+      "bewertungspunkte": [
+        "Beschreiben ohne Bewertung",
+        "Erklären über Ursachen",
+        "Vorhersagen aus der Erklärung",
+        "Beeinflussen als Unterstützung"
+      ],
+      "punkte": 4,
+      "erklaerung": "Transfer der vier Ziele auf einen Schulfall.",
+      "folie": "2.1 · Folie 11",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f07",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wer gründete 1879 in Leipzig das erste Institut für experimentelle Psychologie?",
+      "optionen": [
+        "Wilhelm Wundt",
+        "Sigmund Freud",
+        "William James",
+        "G. Stanley Hall"
+      ],
+      "richtig": [
+        "Wilhelm Wundt"
+      ],
+      "erklaerung": "1879 Leipzig, Wundt – das klassische Gründungsdatum.",
+      "folie": "2.2 · Folie 2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Jahreszahlen zu.",
+      "kategorien": [
+        "1879",
+        "1886",
+        "1892",
+        "1904"
+      ],
+      "elemente": [
+        {
+          "text": "Wundts Institut in Leipzig",
+          "kategorie": "1879"
+        },
+        {
+          "text": "erstes psychologisches Labor in Nordamerika",
+          "kategorie": "1886"
+        },
+        {
+          "text": "Gründung der APA",
+          "kategorie": "1892"
+        },
+        {
+          "text": "Gründung der DGPs",
+          "kategorie": "1904"
+        }
+      ],
+      "erklaerung": "Daten der Institutionalisierung.",
+      "folie": "2.2 · Folie 2",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f09",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Fächer den drei Gruppen zu.",
+      "kategorien": [
+        "Grundlagenfach",
+        "Methodenfach",
+        "Anwendungsfach"
+      ],
+      "elemente": [
+        {
+          "text": "Allgemeine Psychologie",
+          "kategorie": "Grundlagenfach"
+        },
+        {
+          "text": "Entwicklungspsychologie",
+          "kategorie": "Grundlagenfach"
+        },
+        {
+          "text": "Psychologische Diagnostik",
+          "kategorie": "Methodenfach"
+        },
+        {
+          "text": "Methoden, Evaluation, Statistik",
+          "kategorie": "Methodenfach"
+        },
+        {
+          "text": "Pädagogische Psychologie",
+          "kategorie": "Anwendungsfach"
+        },
+        {
+          "text": "Klinische Psychologie und Psychotherapie",
+          "kategorie": "Anwendungsfach"
+        }
+      ],
+      "erklaerung": "Grundlagen- vs. Methoden- vs. Anwendungsfächer.",
+      "folie": "2.2 · Folie 4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "vergleich",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Die Persönlichkeitspsychologie fokussiert intraindividuelle Besonderheiten.",
+        "Die Differentielle Psychologie fokussiert Unterschiede zwischen Personen.",
+        "Die Entwicklungspsychologie untersucht interindividuelle Unterschiede zu einem Zeitpunkt.",
+        "Persönlichkeits- und Differentielle Psychologie gelten heute meist als eine Disziplin."
+      ],
+      "richtig": [
+        "Die Persönlichkeitspsychologie fokussiert intraindividuelle Besonderheiten.",
+        "Die Differentielle Psychologie fokussiert Unterschiede zwischen Personen.",
+        "Persönlichkeits- und Differentielle Psychologie gelten heute meist als eine Disziplin."
+      ],
+      "erklaerung": "Persönlichkeit = intra, differentiell = inter; Entwicklungspsychologie untersucht intraindividuelle Veränderung über die Zeit.",
+      "folie": "2.2 · Folie 4 (Infotext)",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht man nach Asendorpf unter einem Wissenschaftsparadigma?",
+      "antwort": "Ein einigermaßen zusammenhängendes, von vielen Wissenschaftlern geteiltes Bündel aus theoretischen Leitsätzen, Fragestellungen und Methoden, das längere historische Perioden in der Entwicklung einer Wissenschaft überdauert.",
+      "erklaerung": "Asendorpf-Definition.",
+      "folie": "2.3 · Folie 2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Paradigmen sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Ein Paradigma legt fest, welche Fragestellungen zulässig sind.",
+        "Paradigmen bleiben für immer unverändert.",
+        "Erwartungswidrige Befunde können zu einem Paradigmenwechsel führen.",
+        "Nach Kuhn ist ein Paradigma ein anerkanntes Orientierungsmodell zur Problemlösung."
+      ],
+      "richtig": [
+        "Ein Paradigma legt fest, welche Fragestellungen zulässig sind.",
+        "Erwartungswidrige Befunde können zu einem Paradigmenwechsel führen.",
+        "Nach Kuhn ist ein Paradigma ein anerkanntes Orientierungsmodell zur Problemlösung."
+      ],
+      "erklaerung": "Paradigmen legen zulässige Fragen und Lösungen fest und können durch erwartungswidrige Befunde wechseln.",
+      "folie": "2.3 · Folie 2–3",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f13",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Kernannahmen den Paradigmen zu.",
+      "kategorien": [
+        "biologisch",
+        "psychodynamisch",
+        "behavioristisch",
+        "humanistisch",
+        "kognitiv",
+        "dynamisch-transaktional"
+      ],
+      "elemente": [
+        {
+          "text": "Ursachen in Genen, Gehirn, Nerven- und Hormonsystem",
+          "kategorie": "biologisch"
+        },
+        {
+          "text": "Triebe streben nach Befriedigung; Handeln dient der Spannungsreduktion",
+          "kategorie": "psychodynamisch"
+        },
+        {
+          "text": "Verhalten wird im Austausch mit der Umwelt gelernt",
+          "kategorie": "behavioristisch"
+        },
+        {
+          "text": "Mensch ist von Natur aus gut und strebt nach Selbstverwirklichung",
+          "kategorie": "humanistisch"
+        },
+        {
+          "text": "Verhalten wird durch kognitive Strukturen gelenkt (subjektive Realität)",
+          "kategorie": "kognitiv"
+        },
+        {
+          "text": "Wechselwirkung personaler und situationaler Faktoren",
+          "kategorie": "dynamisch-transaktional"
+        }
+      ],
+      "erklaerung": "Kernannahmen der sechs VL-Paradigmen.",
+      "folie": "2.3 · Folie 5–10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die populären Vertreter (laut Vorlesung) zu.",
+      "kategorien": [
+        "biologisch",
+        "psychodynamisch",
+        "behavioristisch",
+        "humanistisch",
+        "kognitiv",
+        "dynamisch-transaktional"
+      ],
+      "elemente": [
+        {
+          "text": "Onur Güntürkün",
+          "kategorie": "biologisch"
+        },
+        {
+          "text": "Sigmund Freud",
+          "kategorie": "psychodynamisch"
+        },
+        {
+          "text": "John B. Watson",
+          "kategorie": "behavioristisch"
+        },
+        {
+          "text": "Carl Rogers",
+          "kategorie": "humanistisch"
+        },
+        {
+          "text": "Kurt Lewin",
+          "kategorie": "kognitiv"
+        },
+        {
+          "text": "Werner Früh",
+          "kategorie": "dynamisch-transaktional"
+        }
+      ],
+      "erklaerung": "„Populäre Vertreter“ laut Folien.",
+      "folie": "2.3 · Folie 5–10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Worin liegt die Verzweigung der psychodynamischen/psychoanalytischen Perspektive mit der biologischen Perspektive?",
+      "optionen": [
+        "Der Mensch wird dazu befähigt, Potenziale zu entwickeln und zu entfalten.",
+        "Wünsche und Bedürfnisse werden als biologisch determiniert angesehen.",
+        "Der Fokus beider Perspektiven liegt auf beobachtbarem und messmethodisch erfassbarem Verhalten.",
+        "Bei beiden Perspektiven geht es um die mehrdimensionale Betrachtung menschlicher Kognitionen."
+      ],
+      "richtig": [
+        "Wünsche und Bedürfnisse werden als biologisch determiniert angesehen."
+      ],
+      "erklaerung": "Folie 6: Wünsche und Bedürfnisse werden als biologisch determiniert angesehen. Die anderen Optionen beschreiben humanistisch, behavioristisch bzw. kognitiv.",
+      "folie": "2.3 · Folie 6 · eÜbung Test 1 A4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Besonderheiten sind richtig zugeordnet? (mehrere richtig)",
+      "optionen": [
+        "biologische Perspektive – reduktionistisches Modell",
+        "humanistische Perspektive – potenzial-/ressourcenorientiertes Modell",
+        "kognitive Perspektive – Hauptgegenstand sind Verhaltensreaktionen",
+        "behavioristische Perspektive – Konzentration auf beobachtbares, messbares Verhalten"
+      ],
+      "richtig": [
+        "biologische Perspektive – reduktionistisches Modell",
+        "humanistische Perspektive – potenzial-/ressourcenorientiertes Modell",
+        "behavioristische Perspektive – Konzentration auf beobachtbares, messbares Verhalten"
+      ],
+      "erklaerung": "Biologisch = reduktionistisch; humanistisch = ressourcenorientiert; kognitiv = mehrdimensional; behavioristisch = Verhaltensreaktionen.",
+      "folie": "2.3 · Folie 5–9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welchen Perspektiven kann diese Forschungsfrage zugeordnet werden: „Wie beeinflusst die bewusste mentale Auseinandersetzung mit den eigenen Zielen und Werten die Motivation von Studierenden, sich in ihrem Studium persönlich weiterzuentwickeln?“ (mehrere richtig)",
+      "optionen": [
+        "behavioristische Perspektive",
+        "kognitive Perspektive",
+        "humanistische Perspektive",
+        "psychodynamische Perspektive"
+      ],
+      "richtig": [
+        "kognitive Perspektive",
+        "humanistische Perspektive"
+      ],
+      "erklaerung": "„Bewusste mentale Auseinandersetzung“ = kognitiv; „persönlich weiterentwickeln“ = humanistisch.",
+      "folie": "2.3 · eÜbung Test 1 A7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Aggression: Ordne die Erklärungen den Paradigmen zu.",
+      "kategorien": [
+        "biologisch",
+        "psychodynamisch",
+        "behavioristisch",
+        "humanistisch",
+        "kognitiv"
+      ],
+      "elemente": [
+        {
+          "text": "Gehirn und Hormonhaushalt",
+          "kategorie": "biologisch"
+        },
+        {
+          "text": "Frustration oder verschobene kindliche Feindseligkeit gegenüber den Eltern",
+          "kategorie": "psychodynamisch"
+        },
+        {
+          "text": "Lernerfahrungen und aufrechterhaltende Bedingungen",
+          "kategorie": "behavioristisch"
+        },
+        {
+          "text": "persönliche Werte und soziale Bedingungen, die selbsteinschränkende Perspektiven fördern",
+          "kategorie": "humanistisch"
+        },
+        {
+          "text": "Gedanken und Absichten, die mit der Wahrnehmung von Aggression einhergehen",
+          "kategorie": "kognitiv"
+        }
+      ],
+      "erklaerung": "Erklärungen für Aggression je Paradigma.",
+      "folie": "2.3 · Folie 5–9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Erkläre das dynamisch-transaktionale Paradigma und wende es auf die Mitarbeit eines Schülers im Unterricht an.",
+      "musterloesung": "Verhalten ist das Ergebnis der komplexen Wechselwirkung personaler und situationaler Faktoren, die sich gegenseitig beeinflussen (Verhalten = f{P, U}); entscheidend ist die wahrgenommene Situation. Personal: z. B. Vorwissen, Interessen, Selbstwirksamkeitserwartung. Situational: z. B. Unterrichtsmethoden, Klassenklima, Unterstützung durch die Lehrkraft. Beides wirkt zusammen auf seine Mitarbeit, und seine Mitarbeit wirkt zurück (z. B. mehr Zuwendung der Lehrkraft, mehr Erfolgserlebnisse).",
+      "bewertungspunkte": [
+        "Wechselwirkung personal–situational",
+        "wahrgenommene Situation bzw. Verhalten = f{P, U}",
+        "personale Beispiele",
+        "situationale Beispiele",
+        "Rückwirkung/Reziprozität"
+      ],
+      "punkte": 5,
+      "erklaerung": "Transfer des dynamisch-transaktionalen Paradigmas.",
+      "folie": "2.3 · Folie 10–13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Beschreibungen dem passenden Forschungsansatz zu.",
+      "kategorien": [
+        "quantitativ",
+        "qualitativ"
+      ],
+      "elemente": [
+        {
+          "text": "Umsetzung insb. mittels Experimenten oder standardisierten Fragebögen",
+          "kategorie": "quantitativ"
+        },
+        {
+          "text": "leitfadengestützte Interviews, Gruppendiskussionen, teilnehmende Beobachtung",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "Hypothesen über Ursache-Wirkungs-Zusammenhänge überprüfen",
+          "kategorie": "quantitativ"
+        },
+        {
+          "text": "Auswertung auf Beschreiben und Verstehen ausgerichtet",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "Verwendung statistischer Verfahren",
+          "kategorie": "quantitativ"
+        },
+        {
+          "text": "relativ offen formulierte Forschungsfragen untersuchen",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "Grundlage für die Entwicklung von Theorien",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "Ergebnisse von der Stichprobe auf die Grundgesamtheit übertragen",
+          "kategorie": "quantitativ"
+        }
+      ],
+      "erklaerung": "Entspricht der eÜbung.",
+      "folie": "2.4 · Folie 2–3 · eÜbung Test 2 A1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Qualitative Forschung prüft Hypothesen an großen Stichproben.",
+        "Quantitative Forschung zielt auf statistische Verallgemeinerung.",
+        "Qualitative Forschung zielt auf analytische Verallgemeinerung.",
+        "Mixed Methods zielt auf Theoriebildung und -prüfung."
+      ],
+      "richtig": [
+        "Quantitative Forschung zielt auf statistische Verallgemeinerung.",
+        "Qualitative Forschung zielt auf analytische Verallgemeinerung.",
+        "Mixed Methods zielt auf Theoriebildung und -prüfung."
+      ],
+      "erklaerung": "Qualitative Forschung prüft keine Hypothesen; Mixed Methods = Theoriebildung und -prüfung; analytische vs. statistische Verallgemeinerung.",
+      "folie": "2.4 · Folie 3–4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f22",
+      "baustein": "aufgabe",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Bringe den psychologischen Forschungsprozess in die idealtypische Reihenfolge: Datenanalyse · Forschungsinteresse · Publikation · Datenerhebung · Theorie-/Hypothesenbildung · Forschungsdesign/Operationalisierung",
+      "antwort": "Forschungsinteresse → Theorie-/Hypothesenbildung → Forschungsdesign/Operationalisierung → Datenerhebung → Datenanalyse → Publikation",
+      "erklaerung": "Idealtypische Reihenfolge (quantitativ).",
+      "folie": "2.4 · Folie 5 · eÜbung Test 2 A2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f23",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Womit beginnt jede Studie, und was gehört zum Forschungsinteresse dazu?",
+      "antwort": "Mit der Entscheidung für ein Forschungsthema, dem Identifizieren einer Forschungslücke bzw. eines Forschungsproblems und der Formulierung einer Hypothese bzw. Forschungsfrage. Dazu gehören die theoretische Einbettung (passende Ansätze auswählen, ggf. modifizieren und verbinden) und die Anknüpfung an den aktuellen Forschungsstand durch Literaturrecherche.",
+      "erklaerung": "Beginn des Forschungsprozesses.",
+      "folie": "2.4 · Folie 6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f24",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Fachliteratur sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Meta-Analysen bündeln statistisch die Ergebnisse vieler Einzelstudien.",
+        "In Reviews präsentieren die Autor:innen eigenständig erhobene Daten.",
+        "Pionierstudien sind erstmalige bzw. wegweisende Veröffentlichungen eines Ansatzes.",
+        "Reviews fassen die veröffentlichte Literatur zu einem Gegenstandsbereich kritisch zusammen."
+      ],
+      "richtig": [
+        "Meta-Analysen bündeln statistisch die Ergebnisse vieler Einzelstudien.",
+        "Pionierstudien sind erstmalige bzw. wegweisende Veröffentlichungen eines Ansatzes.",
+        "Reviews fassen die veröffentlichte Literatur zu einem Gegenstandsbereich kritisch zusammen."
+      ],
+      "erklaerung": "In Reviews und Meta-Analysen werden keine eigenständig erhobenen Daten präsentiert.",
+      "folie": "2.4 · Folie 6 (Infotext)",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f25",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie definiert Gerrig eine Theorie?",
+      "antwort": "Theorien sind geordnete Mengen von Begriffen oder Aussagen, die ein Phänomen oder eine Gruppe von Phänomenen beschreiben und erklären.",
+      "erklaerung": "Gerrig-Definition.",
+      "folie": "2.4 · Folie 7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f26",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Forschungshypothesen sind [[vorläufige]] und empirisch [[überprüfbare]] Aussagen, sie werden aus [[Theorien]] generiert.",
+      "erklaerung": "Forschungshypothese.",
+      "folie": "2.4 · Folie 7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f27",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Hypothese oder Forschungsfrage?",
+      "kategorien": [
+        "Hypothese",
+        "Forschungsfrage"
+      ],
+      "elemente": [
+        {
+          "text": "Das Erleben positiver Emotionen von Lehrenden wirkt sich positiv auf den Lernerfolg aus.",
+          "kategorie": "Hypothese"
+        },
+        {
+          "text": "Wirkt sich das emotionale Erleben von Lehrenden auf den Lernerfolg aus?",
+          "kategorie": "Forschungsfrage"
+        },
+        {
+          "text": "wird v. a. in qualitativen Arbeiten verwendet",
+          "kategorie": "Forschungsfrage"
+        },
+        {
+          "text": "ist vorzuziehen, wenn hinreichend Befunde vorliegen",
+          "kategorie": "Hypothese"
+        }
+      ],
+      "erklaerung": "Hypothese = gerichtete prüfbare Aussage; Forschungsfrage = offen/explorativ.",
+      "folie": "2.4 · Folie 9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f28",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist eine Variable, und was unterscheidet unabhängige und abhängige Variable?",
+      "antwort": "Eine Variable ist ein Merkmal mit mindestens zwei Ausprägungen. Die unabhängige Variable (uV) ist das Merkmal, das einen Einfluss ausüben soll (Ursache); die abhängige Variable (aV) ist der Sachverhalt, der erklärt werden soll (Wirkung).",
+      "erklaerung": "Variable, uV, aV.",
+      "folie": "2.4 · Folie 10–11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f29",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Ein Forschungsteam untersucht, inwiefern die Schlafqualität davon beeinflusst wird, ob Personen direkt vor dem Schlafengehen ihr Smartphone nutzen. Bestimme uV und aV.",
+      "kategorien": [
+        "unabhängige Variable",
+        "abhängige Variable"
+      ],
+      "elemente": [
+        {
+          "text": "Smartphone-Nutzung ja/nein",
+          "kategorie": "unabhängige Variable"
+        },
+        {
+          "text": "Schlafqualität",
+          "kategorie": "abhängige Variable"
+        }
+      ],
+      "erklaerung": "Die Smartphone-Nutzung ist die vermutete Ursache.",
+      "folie": "2.4 · eÜbung Test 2 A3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f30",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Ein Forschungsteam untersucht, ob das Geschlecht einen Einfluss auf die Dauer der Smartphone-Nutzung hat. Bestimme uV und aV.",
+      "kategorien": [
+        "unabhängige Variable",
+        "abhängige Variable"
+      ],
+      "elemente": [
+        {
+          "text": "Geschlecht",
+          "kategorie": "unabhängige Variable"
+        },
+        {
+          "text": "Dauer der Smartphone-Nutzung",
+          "kategorie": "abhängige Variable"
+        }
+      ],
+      "erklaerung": "Das Geschlecht soll Einfluss ausüben.",
+      "folie": "2.4 · eÜbung Test 2 A4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f31",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen entsprechen dem kritischen Rationalismus nach Popper? (mehrere richtig)",
+      "optionen": [
+        "Induktionsschlüsse sind logisch nicht zulässig.",
+        "Hypothesen lassen sich durch viele bestätigende Tests verifizieren.",
+        "Ein erfolgreicher Falsifikationsversuch genügt, damit eine Hypothese als gescheitert gilt.",
+        "Hypothesen müssen so formuliert sein, dass sie an der Realität scheitern können."
+      ],
+      "richtig": [
+        "Induktionsschlüsse sind logisch nicht zulässig.",
+        "Ein erfolgreicher Falsifikationsversuch genügt, damit eine Hypothese als gescheitert gilt.",
+        "Hypothesen müssen so formuliert sein, dass sie an der Realität scheitern können."
+      ],
+      "erklaerung": "Popper: Anti-Induktivismus und Falsifikationismus; Hypothesen nie verifizierbar.",
+      "folie": "2.4 · Folie 12–13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f32",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Schüler:innen A, B und C zeigen bessere Leistungen, wenn sie beim Lernen Musik hören. Daraus schließt die Lehrkraft, dass Musik allgemein die Lernleistung verbessert. Um welche Art von Schlussfolgerung handelt es sich, und ist sie zulässig?",
+      "musterloesung": "Es handelt sich um einen induktiven Schluss (von Einzelfällen auf eine allgemeine Regel). Nach dem kritischen Rationalismus (Popper) ist er nicht zulässig: Viele Einzelbeobachtungen beweisen keine allgemeine Regel; schon ein Gegenfall (z. B. Schüler D lernt mit Musik schlechter) würde die Aussage falsifizieren.",
+      "bewertungspunkte": [
+        "induktiver Schluss benannt",
+        "nicht zulässig",
+        "Begründung über Popper/Falsifikation bzw. Gegenbeispiel"
+      ],
+      "punkte": 3,
+      "erklaerung": "Musterlösung zur Freitextaufgabe der eÜbung.",
+      "folie": "2.4 · Folie 14 · eÜbung Test 2 A5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f33",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Eine Hypothese hat 20 Falsifikationsversuche überstanden. Welche Aussagen sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Die Hypothese ist damit verifiziert.",
+        "Die Hypothese gilt als bewährt.",
+        "Die Bewährung gilt nur relativ zur Anzahl und Art der Tests (z. B. Operationalisierung, Stichprobe).",
+        "Aus den 20 Tests auf Wahrheit zu schließen, wäre ein Induktionsschluss."
+      ],
+      "richtig": [
+        "Die Hypothese gilt als bewährt.",
+        "Die Bewährung gilt nur relativ zur Anzahl und Art der Tests (z. B. Operationalisierung, Stichprobe).",
+        "Aus den 20 Tests auf Wahrheit zu schließen, wäre ein Induktionsschluss."
+      ],
+      "erklaerung": "Aus vielen überstandenen Tests auf Verifikation zu schließen, wäre selbst ein unzulässiger Induktionsschluss – die Hypothese gilt nur als bewährt, relativ zu Anzahl und Art der Tests.",
+      "folie": "2.4 · Folie 13 (Infotext)",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f34",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Nach Popper lassen sich Hypothesen niemals [[verifizieren]], sondern nur [[falsifizieren]]; Wissenserweiterung entsteht dadurch, dass wir lernen, wie die Welt [[nicht]] ist.",
+      "erklaerung": "Kernbegriffe Popper.",
+      "folie": "2.4 · Folie 13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f35",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Merkmale gehören zum Experiment? (mehrere richtig)",
+      "optionen": [
+        "Die Versuchsleitung variiert mindestens eine uV systematisch.",
+        "Es gibt eine Experimental- und eine Kontrollgruppe.",
+        "Die Gruppen werden zufällig (randomisiert) zugewiesen.",
+        "Es werden nur bereits bestehende Gruppen verglichen."
+      ],
+      "richtig": [
+        "Die Versuchsleitung variiert mindestens eine uV systematisch.",
+        "Es gibt eine Experimental- und eine Kontrollgruppe.",
+        "Die Gruppen werden zufällig (randomisiert) zugewiesen."
+      ],
+      "erklaerung": "Systematische Variation der uV, Experimental-/Kontrollgruppe, Randomisierung.",
+      "folie": "2.5 · Folie 3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f36",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Lehrer M. lässt per Münzwurf entscheiden, welche Schüler:innen ein halbes Jahr zusätzlich eine Lern-App nutzen („Zahl“) und welche nicht („Kopf“); der Lernfortschritt aller wird regelmäßig getestet. Welche Aussagen sind korrekt? (mehrere richtig)",
+      "optionen": [
+        "In dem Beispiel fehlt es an einer Kontrollgruppe.",
+        "Der Münzwurf entspricht den Anforderungen an eine randomisierte Zuweisung.",
+        "Im Rahmen der Operationalisierung muss Lehrer M. festlegen, wie der Lernfortschritt gemessen wird.",
+        "Lehrer M. führt ein faktorielles Experiment durch."
+      ],
+      "richtig": [
+        "Der Münzwurf entspricht den Anforderungen an eine randomisierte Zuweisung.",
+        "Im Rahmen der Operationalisierung muss Lehrer M. festlegen, wie der Lernfortschritt gemessen wird."
+      ],
+      "erklaerung": "Die Gruppe ohne App ist die Kontrollgruppe; Münzwurf = Randomisierung; Lernfortschritt muss operationalisiert werden; nur eine uV → kein faktorielles Experiment.",
+      "folie": "2.5 · Folie 3–5 · eÜbung Test 2 A9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f37",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was ist ein Quasi-Experiment, und warum ist seine Aussagekraft eingeschränkt?",
+      "antwort": "Ein Experiment ohne Randomisierung, das auf vorhandene Gruppen zurückgreift (z. B. zwei Schulklassen). Die Gruppen können sich außer in der uV auch in anderen Eigenschaften unterscheiden (z. B. Klassenklima, Engagement der Lehrkraft, sozioökonomischer Hintergrund); diese Störvariablen können die aV ebenfalls systematisch beeinflussen.",
+      "erklaerung": "Quasi-Experiment und Störvariablen.",
+      "folie": "2.5 · Folie 5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f38",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Beispiele dem Studientyp zu.",
+      "kategorien": [
+        "Querschnittstudie",
+        "Trendstudie",
+        "Panelstudie"
+      ],
+      "elemente": [
+        {
+          "text": "Klassen 7, 9 und 11 werden einmalig zur Nutzung von Lernplattformen befragt",
+          "kategorie": "Querschnittstudie"
+        },
+        {
+          "text": "eine Gruppe wird 2024 befragt, eine andere 2028",
+          "kategorie": "Trendstudie"
+        },
+        {
+          "text": "dieselben Schüler:innen werden in Klasse 7, 9 und 11 befragt",
+          "kategorie": "Panelstudie"
+        },
+        {
+          "text": "kommt einem Experiment am nächsten",
+          "kategorie": "Panelstudie"
+        },
+        {
+          "text": "Ergebnisse sind nur Momentaufnahmen",
+          "kategorie": "Querschnittstudie"
+        }
+      ],
+      "erklaerung": "Quer-, Trend-, Panelstudie.",
+      "folie": "2.5 · Folie 6–7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f39",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Berufseinsteiger:innen werden zehn Jahre lang einmal jährlich zu ihrem berufsbezogenen emotionalen Erleben befragt. Bei der Studie handelt es sich um eine …",
+      "optionen": [
+        "Querschnittstudie.",
+        "Trendstudie.",
+        "Panelstudie."
+      ],
+      "richtig": [
+        "Panelstudie."
+      ],
+      "erklaerung": "Dieselben Personen zu mehreren Zeitpunkten = Panelstudie.",
+      "folie": "2.5 · Folie 6 · eÜbung Test 2 A7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f40",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Querschnitt oder Längsschnitt – wo trifft der Vorteil bzw. Nachteil zu?",
+      "kategorien": [
+        "Querschnittstudie",
+        "Längsschnittstudie"
+      ],
+      "elemente": [
+        {
+          "text": "niedrige Drop-out-Quote",
+          "kategorie": "Querschnittstudie"
+        },
+        {
+          "text": "Kausalrichtung bestimmbar",
+          "kategorie": "Längsschnittstudie"
+        },
+        {
+          "text": "intraindividuelle Veränderungen nicht messbar",
+          "kategorie": "Querschnittstudie"
+        },
+        {
+          "text": "hoher Aufwand (Zeit und Kosten)",
+          "kategorie": "Längsschnittstudie"
+        },
+        {
+          "text": "Repräsentativität relativ leicht erreichbar",
+          "kategorie": "Querschnittstudie"
+        },
+        {
+          "text": "Panel-Effekt",
+          "kategorie": "Längsschnittstudie"
+        }
+      ],
+      "erklaerung": "Vor- und Nachteile.",
+      "folie": "2.5 · Folie 8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f41",
+      "baustein": "aufgabe",
+      "format": "frage",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Florian nimmt seit einiger Zeit an einer Panelbefragung zum Umweltbewusstsein junger Menschen teil. Durch die regelmäßige Befragung hat er ein zunehmendes Interesse an Umweltthemen entwickelt. Welches Phänomen wird beschrieben?",
+      "antwort": "Ein Panel-Effekt (Panel-Conditioning): Die wiederholte Befragung derselben Person verändert deren Verhalten bzw. Einstellungen – hier regt sie zur stärkeren Beschäftigung mit dem Thema an.",
+      "erklaerung": "Wiederholte Befragung verändert das Interesse.",
+      "folie": "2.5 · Folie 8 · eÜbung Test 2 A8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f42",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist der Unterschied zwischen Grundgesamtheit und Stichprobe?",
+      "antwort": "Die Grundgesamtheit ist die Gesamtheit aller Fälle, über die eine quantitative Studie Aussagen treffen will. Die Stichprobe ist eine per Auswahlverfahren gezogene Teilmenge der Grundgesamtheit, an der die Messung durchgeführt wird.",
+      "erklaerung": "GG und Stichprobe.",
+      "folie": "2.6 · Folie 2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f43",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Beispiele den Begriffen zu.",
+      "kategorien": [
+        "Grundgesamtheit",
+        "Stichprobe",
+        "Vollerhebung"
+      ],
+      "elemente": [
+        {
+          "text": "die Studierenden an deutschen Universitäten (Aussagen über Studierende an deutschen Hochschulen)",
+          "kategorie": "Grundgesamtheit"
+        },
+        {
+          "text": "200 zufällig ausgewählte Abiturient:innen",
+          "kategorie": "Stichprobe"
+        },
+        {
+          "text": "ein Arbeitgeber befragt alle Beschäftigten seines Unternehmens",
+          "kategorie": "Vollerhebung"
+        }
+      ],
+      "erklaerung": "Entspricht der eÜbung.",
+      "folie": "2.6 · Folie 2–3 · eÜbung Test 2 A6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f44",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was sind Quotenmerkmale, und wann werden sie festgelegt?",
+      "antwort": "Zentrale Merkmale, die in einem Zusammenhang zur aV stehen könnten und in denen die Stichprobe so zusammengesetzt sein muss wie die Grundgesamtheit (Repräsentativität). Sie werden vor der eigentlichen Erhebung anhand aktueller Daten zu ihrer Verteilung in der Grundgesamtheit festgelegt.",
+      "erklaerung": "Quotenmerkmale.",
+      "folie": "2.6 · Folie 3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f45",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht man unter Operationalisierung, und warum ist sie nötig?",
+      "antwort": "Die Festlegung von Indikatoren (beobachtbaren Variablen), um theoretische Konstrukte (latente Variablen) messbar zu machen. Nötig, weil viele Konstrukte wie Intelligenz oder Arbeitszufriedenheit nicht direkt messbar sind; Voraussetzung ist eine präzise Definition der Variablen und ihrer Teildimensionen.",
+      "erklaerung": "VL-Definition Operationalisierung.",
+      "folie": "2.6 · Folie 4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f46",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu (Beispiel „soziale Schicht“).",
+      "kategorien": [
+        "Konzept",
+        "Dimension",
+        "Indikator",
+        "Item"
+      ],
+      "elemente": [
+        {
+          "text": "soziale Schicht",
+          "kategorie": "Konzept"
+        },
+        {
+          "text": "Einkommen",
+          "kategorie": "Dimension"
+        },
+        {
+          "text": "Lohn",
+          "kategorie": "Indikator"
+        },
+        {
+          "text": "„Wie hoch ist Ihr monatliches Nettoeinkommen?“",
+          "kategorie": "Item"
+        }
+      ],
+      "erklaerung": "Ebenen der Operationalisierung am Beispiel soziale Schicht.",
+      "folie": "2.6 · Folie 5–6",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f47",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter Messung, und was muss dabei gelten?",
+      "antwort": "Die systematische Zuordnung von Zahlen zu Ausprägungen eines Merkmals. Die Zuordnungsregel muss in der Untersuchung durchgängig gleich bleiben, und die Übertragung muss strukturtreu sein (die numerische Beziehung soll die empirische widerspiegeln).",
+      "erklaerung": "Messung.",
+      "folie": "2.7 · Folie 2–3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f48",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Beispiele dem Skalenniveau zu.",
+      "kategorien": [
+        "Nominalskala",
+        "Ordinalskala",
+        "Intervallskala",
+        "Verhältnisskala"
+      ],
+      "elemente": [
+        {
+          "text": "Augenfarbe",
+          "kategorie": "Nominalskala"
+        },
+        {
+          "text": "Dienstgrad bei der Bundeswehr",
+          "kategorie": "Ordinalskala"
+        },
+        {
+          "text": "IQ-Test",
+          "kategorie": "Intervallskala"
+        },
+        {
+          "text": "Einkommen",
+          "kategorie": "Verhältnisskala"
+        }
+      ],
+      "erklaerung": "Augenfarbe nominal, Dienstgrad ordinal, IQ intervall, Einkommen verhältnis.",
+      "folie": "2.7 · Folie 5 · eÜbung Test 2 A12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f49",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Kategorial oder metrisch?",
+      "kategorien": [
+        "kategoriale Variable",
+        "metrische Variable"
+      ],
+      "elemente": [
+        {
+          "text": "Körpergröße in cm",
+          "kategorie": "metrische Variable"
+        },
+        {
+          "text": "Anzahl bestandener Prüfungen",
+          "kategorie": "metrische Variable"
+        },
+        {
+          "text": "Prozent richtiger Antworten im Test",
+          "kategorie": "metrische Variable"
+        },
+        {
+          "text": "Hunderasse",
+          "kategorie": "kategoriale Variable"
+        },
+        {
+          "text": "Studienfach",
+          "kategorie": "kategoriale Variable"
+        },
+        {
+          "text": "Selbstbewertung des Lernerfolgs (niedrig – mittel – hoch)",
+          "kategorie": "kategoriale Variable"
+        }
+      ],
+      "erklaerung": "Kategorial = nominal/ordinal, metrisch = intervall/verhältnis.",
+      "folie": "2.7 · Folie 4 · eÜbung Test 2 A10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f50",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Skalenniveaus der maximal abbildbaren Aussage zu.",
+      "kategorien": [
+        "Nominalskala",
+        "Ordinalskala",
+        "Intervallskala",
+        "Verhältnisskala"
+      ],
+      "elemente": [
+        {
+          "text": "gleich oder unterschiedlich",
+          "kategorie": "Nominalskala"
+        },
+        {
+          "text": "Rangfolge",
+          "kategorie": "Ordinalskala"
+        },
+        {
+          "text": "Aussage über Differenzen",
+          "kategorie": "Intervallskala"
+        },
+        {
+          "text": "Aussage über Verhältnisse",
+          "kategorie": "Verhältnisskala"
+        }
+      ],
+      "erklaerung": "Maximal abbildbare Aussage je Skala.",
+      "folie": "2.7 · Folie 5 · eÜbung Test 2 A11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f51",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Nenne und definiere die drei Gütekriterien quantitativer Forschung.",
+      "antwort": "Objektivität: Unabhängigkeit der Ergebnisse von den Rahmenbedingungen (verschiedene Personen kommen zu identischen Ergebnissen). Reliabilität: Verlässlichkeit bzw. formale Genauigkeit – misst das Instrument exakt, ohne Messfehler? Validität: Gültigkeit – misst das Instrument, was es zu messen beansprucht?",
+      "erklaerung": "Die drei Gütekriterien.",
+      "folie": "2.7 · Folie 7–10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f52",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Maßnahmen tragen zur Durchführungsobjektivität bei? (mehrere richtig)",
+      "optionen": [
+        "Alle Teilnehmenden erhalten dieselbe, wortgleich vorgelesene Instruktion.",
+        "Aufgrund einer Baustelle erleben die nacheinander teilnehmenden Personen unterschiedlichen Lärm.",
+        "Die Versuchsleiterin ermutigt ängstliche Teilnehmende zusätzlich.",
+        "Alle Teilnehmenden erhalten die gleiche Bearbeitungszeit."
+      ],
+      "richtig": [
+        "Alle Teilnehmenden erhalten dieselbe, wortgleich vorgelesene Instruktion.",
+        "Alle Teilnehmenden erhalten die gleiche Bearbeitungszeit."
+      ],
+      "erklaerung": "Gleiche Instruktion und Bearbeitungszeit = standardisiert; Lärm und zusätzliche Ermutigung verletzen die Durchführungsobjektivität.",
+      "folie": "2.7 · Folie 8 · eÜbung Test 2 A13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f53",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Beispiele der Validitätsart zu.",
+      "kategorien": [
+        "Inhaltsvalidität",
+        "Kriteriumsvalidität",
+        "Konstruktvalidität"
+      ],
+      "elemente": [
+        {
+          "text": "Burnout-Fragebogen erfasst nur emotionale Erschöpfung → gering",
+          "kategorie": "Inhaltsvalidität"
+        },
+        {
+          "text": "IQ-Testwerte korrelieren mit dem Urteil der Lehrkräfte",
+          "kategorie": "Kriteriumsvalidität"
+        },
+        {
+          "text": "Fitness-Fragebogen korreliert negativ mit Fatigue und positiv mit Lebensqualität",
+          "kategorie": "Konstruktvalidität"
+        }
+      ],
+      "erklaerung": "Validitätsarten mit den Infotext-Beispielen.",
+      "folie": "2.7 · Folie 11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f54",
+      "baustein": "aufgabe",
+      "format": "luecke",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "text": "[[Objektivität]] ist eine notwendige, jedoch nicht hinreichende Bedingung für [[Reliabilität]]. [[Reliabilität]] ist eine notwendige, jedoch nicht hinreichende Bedingung für [[Validität]]. Somit können Messungen [[objektiv und reliabel]], aber dennoch nicht [[valide]] sein.",
+      "erklaerung": "Objektivität → Reliabilität → Validität; jeweils notwendig, nicht hinreichend.",
+      "folie": "2.7 · Folie 12 · eÜbung Test 2 A14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f55",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Eine Lehrkraft entwickelt einen Fragebogen zur „Lernmotivation“. Erläutere, wie sie Objektivität, Reliabilität und Validität sichern bzw. prüfen kann, und zeige, warum der Fragebogen objektiv und reliabel, aber trotzdem nicht valide sein könnte.",
+      "musterloesung": "Objektivität: gleiche schriftliche Instruktion, gleiche Bedingungen und Zeit, festes Auswertungsschema, klare Interpretationsregeln. Reliabilität: wiederholte Durchführung unter vergleichbaren Bedingungen sollte ähnliche Ergebnisse liefern. Validität: Inhaltsvalidität (alle Facetten von Lernmotivation erfasst?), Kriteriumsvalidität (Zusammenhang z. B. mit Lehrkrafturteil), Konstruktvalidität (theoretisch erwartbare Zusammenhänge, z. B. mit Interesse). Nicht valide wäre er z. B., wenn die Items eigentlich Leistungsangst oder soziale Erwünschtheit messen – dann misst er stabil und objektiv, aber das falsche Konstrukt.",
+      "bewertungspunkte": [
+        "Objektivität konkretisiert",
+        "Reliabilität konkretisiert",
+        "Validität konkretisiert",
+        "Beispiel objektiv+reliabel, aber nicht valide"
+      ],
+      "punkte": 4,
+      "erklaerung": "Transfer der Gütekriterien.",
+      "folie": "2.7 · Folie 12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f56",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Deskriptiv- oder Inferenzstatistik?",
+      "kategorien": [
+        "Deskriptivstatistik",
+        "Inferenzstatistik"
+      ],
+      "elemente": [
+        {
+          "text": "Überblick über die Daten ohne Rückschluss auf die Population",
+          "kategorie": "Deskriptivstatistik"
+        },
+        {
+          "text": "Übertragung von der Stichprobe auf die Grundgesamtheit",
+          "kategorie": "Inferenzstatistik"
+        },
+        {
+          "text": "Häufigkeitsauszählungen, Lage- und Streuungsmaße",
+          "kategorie": "Deskriptivstatistik"
+        },
+        {
+          "text": "Signifikanztests wie t-Test oder χ²-Test",
+          "kategorie": "Inferenzstatistik"
+        }
+      ],
+      "erklaerung": "Deskriptiv = beschreibend, Inferenz = schließend.",
+      "folie": "2.8 · Folie 2, 7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f57",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "In einer Klassenarbeit wurden die Noten 1,0; 1,0; 1,3; 2,0; 2,7; 3,0; 3,7; 4,0; 5,0 erreicht. Bestimme Modalwert, Median und Mittelwert.",
+      "musterloesung": "Modalwert = 1,0 (kommt zweimal vor). Median = 2,7 (bei 9 sortierten Werten der 5. Wert). Mittelwert = (1,0 + 1,0 + 1,3 + 2,0 + 2,7 + 3,0 + 3,7 + 4,0 + 5,0) / 9 = 23,7 / 9 ≈ 2,6.",
+      "bewertungspunkte": [
+        "Modalwert 1,0",
+        "Median 2,7",
+        "Mittelwert ≈ 2,6 mit Rechenweg"
+      ],
+      "punkte": 3,
+      "erklaerung": "Sortiert, 9 Werte: Median = 5. Wert.",
+      "folie": "2.8 · Folie 3–4 · eÜbung Test 2 A15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f58",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "In einer Einkommensreihe wird der höchste Wert von 75 auf 200 erhöht. Was passiert?",
+      "optionen": [
+        "Der Median bleibt gleich, der Mittelwert steigt.",
+        "Beide bleiben gleich.",
+        "Der Median steigt, der Mittelwert bleibt gleich.",
+        "Beide steigen gleich stark."
+      ],
+      "richtig": [
+        "Der Median bleibt gleich, der Mittelwert steigt."
+      ],
+      "erklaerung": "Median robust, Mittelwert extremwertanfällig.",
+      "folie": "2.8 · Folie 4 · eÜbung Test 2 A16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f59",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Was ist der Unterschied zwischen Varianz und Standardabweichung?",
+      "antwort": "Die Varianz ist die durchschnittliche quadrierte Abweichung der Werte vom Mittelwert (s² = Σ(xᵢ − x̄)²/n). Die Standardabweichung ist die Wurzel aus der Varianz (s = √s²) und bringt die Werte wieder in die ursprüngliche Einheit.",
+      "erklaerung": "Varianz und Standardabweichung.",
+      "folie": "2.8 · Folie 6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f60",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Berechne Modalwert, Median und Mittelwert für die Noten 1,3; 2,7; 2,0; 1,3; 1,7; 5,0; 3,3; 4,0.",
+      "musterloesung": "Sortiert: 1,3; 1,3; 1,7; 2,0; 2,7; 3,3; 4,0; 5,0. Modalwert = 1,3. Median = (2,0 + 2,7) / 2 = 2,35. Mittelwert = 21,3 / 8 ≈ 2,66.",
+      "bewertungspunkte": [
+        "Werte sortiert",
+        "Modalwert 1,3",
+        "Median 2,35",
+        "Mittelwert ≈ 2,66"
+      ],
+      "punkte": 4,
+      "erklaerung": "Rechenübung (Beispiel der Folie).",
+      "folie": "2.8 · Folie 3–4",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f61",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Wann ist ein Ergebnis statistisch signifikant?",
+      "antwort": "Wenn die Wahrscheinlichkeit, dass die erhobenen Daten auftreten, unter der Annahme der Nullhypothese (kein Effekt in der Grundgesamtheit) kleiner oder gleich 5 % ist. Dann geht der beobachtete Effekt vermutlich nicht auf Zufall, sondern auf einen systematischen Effekt in der Grundgesamtheit zurück.",
+      "erklaerung": "Signifikanz.",
+      "folie": "2.8 · Folie 8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f62",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussage zur statistischen Signifikanz ist richtig?",
+      "optionen": [
+        "Ein signifikantes Ergebnis ist immer auch praktisch bedeutsam.",
+        "Statistische Signifikanz ist nicht gleichzusetzen mit inhaltlicher bzw. praktischer Bedeutsamkeit; dafür sind Effektgrößen zu berücksichtigen.",
+        "Signifikant heißt, dass die Nullhypothese bewiesen ist.",
+        "Signifikanz wird mit dem Median geprüft."
+      ],
+      "richtig": [
+        "Statistische Signifikanz ist nicht gleichzusetzen mit inhaltlicher bzw. praktischer Bedeutsamkeit; dafür sind Effektgrößen zu berücksichtigen."
+      ],
+      "erklaerung": "Signifikanz ≠ praktische Bedeutsamkeit – dafür Effektgrößen.",
+      "folie": "2.8 · Folie 8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f63",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Positive oder negative Korrelation?",
+      "kategorien": [
+        "positive Korrelation",
+        "negative Korrelation"
+      ],
+      "elemente": [
+        {
+          "text": "Je höher die Anzahl an Fehltagen, desto geringer die Punktzahl in der Klausur.",
+          "kategorie": "negative Korrelation"
+        },
+        {
+          "text": "Je höher das Interesse am Studienfach, desto mehr Zeit für Vor- und Nachbereitung.",
+          "kategorie": "positive Korrelation"
+        },
+        {
+          "text": "Je geringer die Anzahl an Fehltagen, desto geringer die Anzahl an Rückfragen am Semesterende.",
+          "kategorie": "positive Korrelation"
+        },
+        {
+          "text": "Je geringer das Vertrauen in die Lehrperson, desto geringer die Beteiligung im Seminar.",
+          "kategorie": "positive Korrelation"
+        }
+      ],
+      "erklaerung": "Wenn beide Werte gemeinsam fallen, ist die Korrelation positiv.",
+      "folie": "2.8 · Folie 9 · eÜbung Test 2 A17",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f64",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum Korrelationskoeffizienten r (Bravais-Pearson) sind richtig? (mehrere richtig)",
+      "optionen": [
+        "r liegt zwischen −1 und +1.",
+        "r = 0 bedeutet einen perfekten Zusammenhang.",
+        "Beide Merkmale müssen mindestens intervallskaliert sein.",
+        "r ≥ .50 gilt als starke Korrelation."
+      ],
+      "richtig": [
+        "r liegt zwischen −1 und +1.",
+        "Beide Merkmale müssen mindestens intervallskaliert sein.",
+        "r ≥ .50 gilt als starke Korrelation."
+      ],
+      "erklaerung": "r zwischen −1 und +1, mind. intervallskaliert, Cohen-Grenzen.",
+      "folie": "2.8 · Folie 11–12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f65",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was ist der Unterschied zwischen Konfundierung und Scheinkausalität?",
+      "antwort": "Bei einer Konfundierung wirkt eine Drittvariable auf uV und aV und verfälscht ihre Beziehung; ein Teil der Korrelation kann trotzdem kausal sein (z. B. Klassengröße und Leistung, verzerrt durch Schulform). Bei einer Scheinkausalität wird die Korrelation allein durch die Drittvariable verursacht (z. B. Störche und Geburtenrate durch den Urbanisierungsgrad).",
+      "erklaerung": "Konfundierung vs. Scheinkausalität.",
+      "folie": "2.8 · Folie 10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f66",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Korrelation und Kausalität sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Aus einer Korrelation allein kann man auf Kausalität schließen.",
+        "Eine Korrelation ist notwendige Voraussetzung für einen Kausalschluss.",
+        "Die Ursache muss der Wirkung zeitlich eindeutig vorausgehen.",
+        "Experimente mit Manipulation der uV und Randomisierung haben die höchste Erklärungskraft für Kausalität."
+      ],
+      "richtig": [
+        "Eine Korrelation ist notwendige Voraussetzung für einen Kausalschluss.",
+        "Die Ursache muss der Wirkung zeitlich eindeutig vorausgehen.",
+        "Experimente mit Manipulation der uV und Randomisierung haben die höchste Erklärungskraft für Kausalität."
+      ],
+      "erklaerung": "Korrelation notwendig, nicht hinreichend; Bedingungen für Kausalinterpretation; Experiment höchste Erklärungskraft.",
+      "folie": "2.8 · Folie 10, 14–15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f67",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Eine Studie findet: Schüler:innen, die mehr Zeit mit Hausaufgaben verbringen, haben bessere Noten (r = .35). Bewerte die Aussage „Mehr Hausaufgaben machen bessere Noten“.",
+      "musterloesung": "r = .35 ist eine moderate positive Korrelation. Daraus folgt keine Kausalität: Die Richtung könnte umgekehrt sein (gute Schüler:innen arbeiten gern länger), oder eine Drittvariable wirkt auf beides (z. B. Unterstützung durch die Eltern, Motivation) – Konfundierung bzw. Scheinkausalität. Für eine kausale Deutung bräuchte es eine plausible Theorie, zeitliche Abfolge, Kontrolle von Drittvariablen – am besten ein Experiment mit Randomisierung.",
+      "bewertungspunkte": [
+        "Stärke korrekt eingeordnet (moderat, positiv)",
+        "Korrelation ≠ Kausalität",
+        "umgekehrte Richtung oder Drittvariable genannt",
+        "Bedingungen bzw. Experiment als Lösung"
+      ],
+      "punkte": 4,
+      "erklaerung": "Transfer Korrelation/Kausalität.",
+      "folie": "2.8 · Folie 10, 14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f68",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Aussagen zur Veröffentlichung sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Manuskripte werden von Reviewer:innen (Fachleuten) begutachtet.",
+        "Die Mehrheit der Journals erscheint in englischer Sprache.",
+        "Im Diskussionsteil werden offene oder neu aufgeworfene Fragen angemerkt.",
+        "Jedes eingereichte Manuskript wird veröffentlicht."
+      ],
+      "richtig": [
+        "Manuskripte werden von Reviewer:innen (Fachleuten) begutachtet.",
+        "Die Mehrheit der Journals erscheint in englischer Sprache.",
+        "Im Diskussionsteil werden offene oder neu aufgeworfene Fragen angemerkt."
+      ],
+      "erklaerung": "Peer-Review-Prozess.",
+      "folie": "2.8 · Folie 16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f69",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht man unter dem Publication Bias, und wie entsteht er?",
+      "antwort": "Eine verzerrte Publikationslage: Herausgeber:innen veröffentlichen eher Studien mit signifikanten Ergebnissen; Studien, die ihre Hypothesen nicht bestätigen, werden häufiger abgelehnt und oft gar nicht erst eingereicht.",
+      "erklaerung": "Publication Bias.",
+      "folie": "2.8 · Folie 17",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Klausur: 30 MC-Fragen – die Lernfragen sind überwiegend im MC-/Zuordnungsformat (pyb005.2 S01).",
+    "Laut Audio: Die Zuverlässigkeit von Vorhersagen ist Kriterium dafür, ob eine Erklärung wissenschaftlich brauchbar ist (2.1).",
+    "Laut Audio: „Beeinflussen“ ist nicht als Manipulation gemeint (2.1).",
+    "Die eÜbung (Test 1 und 2) fragt genau diese Inhalte ab – alle 25 Aufgaben sind als Lernfragen enthalten.",
+    "Statistische Signifikanz ≠ praktische Bedeutsamkeit (2.8, Folie 8)."
+  ],
+  "offene_fragen": [
+    "Kognitive Perspektive: In 2.2 wird Piaget, in 2.3 Kurt Lewin als Vertreter genannt – in der Klausur ggf. beide möglich.",
+    "Humanistische Psychologie: VL 1950er, Myers (Seminar) 1960er.",
+    "Infotext 2.5 Folie 4 verweist auf „Block 3.3“ – gemeint ist vermutlich Block 2.6."
+  ]
+}

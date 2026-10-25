@@ -3,18 +3,305 @@
   "modul": "mab005",
   "name": "Wahrscheinlichkeitsrechnung",
   "semester": "WiSe 26/27",
-  "sitzungen": [],
-  "dateien": [],
+  "pruefung": {
+    "form": "Klausur",
+    "dauer_min": 90,
+    "termine": [
+      "2027-02-08",
+      "2027-03-29"
+    ],
+    "hinweise": [
+      "Termine laut Handout Kapitel 0 noch als Vorschlag, jeweils 14–16 Uhr",
+      "Aufgabenformate ähnlich wie die Aufgaben auf den Übungszetteln (Kapitel 0, Folie 5)",
+      "Wer den 2. Termin als Erstversuch wählt, kann erst im folgenden Sommersemester wiederholen (RPO §25 (3))"
+    ]
+  },
+  "teilmodule": [
+    {
+      "id": "mab005.1",
+      "name": "Wahrscheinlichkeitsrechnung I",
+      "art": "Vorlesung",
+      "lehrende": "Henning Schatz"
+    },
+    {
+      "id": "mab005.2",
+      "name": "Wahrscheinlichkeitsrechnung II",
+      "art": "Seminar",
+      "gruppe": "C"
+    }
+  ],
+  "kompetenzziele": [
+    {
+      "text": "Ein- und mehrstufige Zufallsexperimente modellieren",
+      "abgedeckt_in": [
+        "mab005.1_2026-10-19"
+      ]
+    },
+    {
+      "text": "Wahrscheinlichkeiten, Erwartungswerte und Streumaße berechnen",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "Diskrete und stetige Verteilungen anwenden",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "Frequentistische und axiomatische Sicht unterscheiden",
+      "abgedeckt_in": []
+    },
+    {
+      "text": "Typische Fehlvorstellungen zum Zufall beschreiben",
+      "abgedeckt_in": []
+    }
+  ],
+  "sitzungen": [
+    "mab005.1_2026-10-12",
+    "mab005.1_2026-10-19"
+  ],
   "literatur": [
     {
       "eintrag": "Hübner (2009): Stochastik – Eine anwendungsorientierte Einführung",
       "vorhanden": false,
+      "hinweis": "Uni-Bib, Lesebereich TKAhüb = 460718; Textgrundlage Kapitel 1: S. 11–29",
       "stand": "2026-10-25"
     },
     {
       "eintrag": "Kütting/Sauer (2011): Elementare Stochastik",
       "vorhanden": false,
+      "hinweis": "Uni-Bib (ausgeliehen bis 13.11.2026), Semesterapparat; eBook vorhanden",
       "stand": "2026-10-25"
+    }
+  ],
+  "weitere_literatur": [
+    {
+      "eintrag": "Hübner (2009): Stochastik, S. 11–29",
+      "sitzung": "mab005.1_2026-10-19",
+      "quelle": "Kapitel 1, Folie 2",
+      "vorhanden": false
+    }
+  ],
+  "besonderheiten": [
+    "mab005.1: in jeder Sitzung erfragen, welche Folienseiten bearbeitet wurden (Schema 5c)",
+    "Handouts enthalten Lückenfolien (Beispiele, Beweisskizzen), die in der Vorlesung ausgefüllt werden – Lösungen in den Sitzungsdateien als „selbst erarbeitet“ gekennzeichnet",
+    "Aufgabenblätter: Teil A zur Selbstkontrolle (kurze Lösungen in Stud.IP), Teil B im Seminar – jedes Blatt ist eine Hausaufgabe (Schema 5f)",
+    "Ordner „mab005 - studydrive“: fremde Lösungen älterer Blätter, nicht als Grundlage verwenden"
+  ],
+  "auffaelligkeiten": [
+    "Kapitel 0, Folie 5: Prüfungsanmeldung „ab Juni über QISPOS“ – vermutlich veraltet; Anmeldezeitraum für Februar 2027 erfragen"
+  ],
+  "offene_fragen": [
+    "Bis zu welcher Folie von Kapitel 1 kam die VL am 12.10.?"
+  ],
+  "dateien": [
+    {
+      "pfad": "Altklausur mab005.docx.pdf",
+      "geaendert": "2026-04-16",
+      "art": "Altklausur",
+      "status": "später",
+      "hinweis": "für klausurstil auswerten"
+    },
+    {
+      "pfad": "Altklausur Stochastik.pdf",
+      "geaendert": "2026-06-14",
+      "art": "Altklausur",
+      "status": "später",
+      "hinweis": "für klausurstil auswerten; benutzt „Merkmalraum“ statt „Ergebnisraum“"
+    },
+    {
+      "pfad": "mab005.1/VL_Kapitel0_mab005_Handout.pdf",
+      "geaendert": "2026-10-22",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "mab005.1_2026-10-12",
+      "hinweis": "Folie 1–6"
+    },
+    {
+      "pfad": "mab005.1/VL_Kapitel1_mab005_Handout.pdf",
+      "geaendert": "2026-10-23",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "mab005.1_2026-10-19",
+      "hinweis": "Folie 1–32 verarbeitet (Stand 19.10.); Folie 33–54 folgen"
+    },
+    {
+      "pfad": "mab005.2/Aufgabenblatt01_V1-2.pdf",
+      "geaendert": "2026-10-22",
+      "art": "Übungsblatt",
+      "status": "später",
+      "sitzung": "mab005.2_2026-10-12",
+      "hinweis": "Hausaufgabe h01"
+    },
+    {
+      "pfad": "mab005.2/Aufgabenblatt01_TeilA_Lösungen.pdf",
+      "geaendert": "2026-10-22",
+      "art": "Lösungen Teil A",
+      "status": "später",
+      "sitzung": "mab005.2_2026-10-12",
+      "hinweis": "Kontrolle"
+    },
+    {
+      "pfad": "mab005.2/Aufgabenblatt02_V1-2.pdf",
+      "geaendert": "2026-10-22",
+      "art": "Übungsblatt",
+      "status": "später",
+      "sitzung": "mab005.2_2026-10-19",
+      "hinweis": "Hausaufgabe h01"
+    },
+    {
+      "pfad": "mab005.2/Aufgabenblatt02_TeilA_Lösungen.pdf",
+      "geaendert": "2026-10-22",
+      "art": "Lösungen Teil A",
+      "status": "später",
+      "sitzung": "mab005.2_2026-10-19",
+      "hinweis": "Kontrolle"
+    },
+    {
+      "pfad": "mab005.2/Aufgabenblatt03_V1.pdf",
+      "geaendert": "2026-10-24",
+      "art": "Übungsblatt",
+      "status": "später",
+      "sitzung": "mab005.2_2026-10-26",
+      "hinweis": "Hausaufgabe h01; Lösungen Teil A noch nicht veröffentlicht"
+    },
+    {
+      "pfad": "mab005 - studydrive/Mab005 Lösung Ab1 .pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/mab005 Lösung Ab10.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/mab005 Lösung Ab11.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/mab005 lösung Ab12.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/mab005 Lösung Ab13.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/mab005 Lösung Ab2 .pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/mab005 Lösung Ab3.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/mab005 Lösung Ab4.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/mab005 Lösung Ab5.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/mab005 Lösung Ab6.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/mab005 Lösung Ab8.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/mab005 Lösung Ab9.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/Mab005 Lösungen AB 10.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/Mab005 Lösungen AB 11.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/Mab005 Lösungen AB 12.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/Mab005 Lösungen AB 5.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/Mab005 Lösungen AB 6.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/Mab005 Lösungen AB 8.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/Mab005 Lösungen AB 9.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005 - studydrive/mab005 Lösungen Ab7.pdf",
+      "geaendert": "2026-10-02",
+      "art": "Lösungen (Studydrive, fremd)",
+      "status": "übersprungen",
+      "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     }
   ]
 }

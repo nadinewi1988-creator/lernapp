@@ -1,0 +1,240 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "mab005",
+  "teilmodul": "mab005.1",
+  "datum": "2026-10-12",
+  "sitzung_nr": 1,
+  "sitzung_id": "",
+  "thema": "Kapitel 0 (Organisatorisches) und Einstieg Kapitel 1",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Welche Folien von Kapitel 1 am 12.10. schon bearbeitet wurden, ist nicht bekannt. Kapitel 1 (Folie 1–32) steht deshalb komplett in der Sitzung vom 19.10.",
+  "quellen": [
+    {
+      "datei": "mab005.1/VL_Kapitel0_mab005_Handout.pdf",
+      "art": "Folien",
+      "seiten": "1–6"
+    },
+    {
+      "datei": "mab005.1/VL_Kapitel1_mab005_Handout.pdf",
+      "art": "Folien",
+      "seiten": "Einstieg – genaue Seiten offen, Inhalt siehe Sitzung 19.10."
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Den Ablauf des Moduls beschreiben: Vorlesung, Seminar, wöchentliche Aufgabenblätter mit Teil A (Selbstkontrolle) und Teil B (Besprechung im Seminar).",
+      "art": "abgeleitet",
+      "quelle": "Folie 2–4",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03"
+      ],
+      "erklaerung_abschnitt": "So läuft das Modul"
+    },
+    {
+      "text": "Den Rahmen der Modulprüfung kennen (Form, Dauer, Termine, Wiederholung, Aufgabenformate).",
+      "art": "abgeleitet",
+      "quelle": "Folie 5",
+      "fragen": [
+        "f04",
+        "f05",
+        "f06",
+        "f08"
+      ],
+      "erklaerung_abschnitt": "Klausur"
+    },
+    {
+      "text": "Die Grundlagenliteratur des Moduls nennen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 6",
+      "fragen": [
+        "f07"
+      ],
+      "erklaerung_abschnitt": "Literatur"
+    }
+  ],
+  "kurzfassung": [
+    "Zu jedem Kapitel gibt es ein Handout der Folien in Stud.IP; alle Ankündigungen und Dateien laufen über die Vorlesung in Stud.IP.",
+    "Jeden Freitag erscheint ein Aufgabenblatt: Teil A zur Selbstkontrolle (kurze Musterlösungen Anfang der Folgewoche), Teil B zur gemeinsamen Besprechung im Seminar.",
+    "Das Seminar ist freiwillig (keine Anwesenheitspflicht) und der Ort für Fragen zur Vorlesung und zu den Aufgaben.",
+    "Die Klausur dauert 90 Minuten; die Aufgabenformate sind ähnlich wie auf den Übungszetteln.",
+    "Klausurtermine (Vorschlag): 08.02.2027 und 29.03.2027, jeweils 14–16 Uhr; wer den 2. Termin als Erstversuch wählt, kann erst im folgenden Sommersemester wiederholen."
+  ],
+  "erklaerung": [
+    {
+      "titel": "So läuft das Modul",
+      "folien": "2–4",
+      "text": "Zu Beginn jedes neuen Kapitels kommt ein **Handout der Vorlesungsfolien** in Stud.IP. Alle Ankündigungen und Dateien laufen über die **Vorlesungsveranstaltung** in Stud.IP.\n\nIn ein **Seminar** trägst du dich über Stud.IP ein. Es gibt **keine Teilnahme- oder Anwesenheitspflicht**. Im Seminar werden Aufgaben der Übungsblätter bearbeitet und besprochen; dort kannst du Fragen zur Vorlesung und zu den Aufgaben stellen.\n\n**Jeden Freitag** wird ein Aufgabenblatt hochgeladen:\n\n- **Teil A – zur Selbstkontrolle:** eigenverantwortlich, wird nicht abgegeben und nicht ausführlich besprochen. Kurze Musterlösungen kommen jeweils zu Beginn der folgenden Woche.\n- **Teil B – zur gemeinsamen Besprechung:** wird im Seminar bearbeitet und gemeinsam besprochen.",
+      "beispiel": "Blatt 01 kam am 09.10. (Freitag) und war für die Woche 12.–16.10. gedacht; die Lösungen zu Teil A lagen danach in Stud.IP."
+    },
+    {
+      "titel": "Klausur",
+      "folien": "5",
+      "text": "- Prüfungsform: **Klausur**, Schreibzeit **90 Minuten**\n- Anmeldung über **QISPOS** – ohne Anmeldung keine Teilnahme (laut Folie „ab Juni“, das ist vermutlich veraltet)\n- 1. Termin (Vorschlag): **Montag, 08.02.2027, 14–16 Uhr**\n- 2. Termin (Vorschlag): **Montag, 29.03.2027, 14–16 Uhr**\n- Du darfst frei wählen, welcher Termin dein erster Versuch ist. Wer nicht besteht, muss spätestens zu den nächsten regulären Prüfungsterminen wiederholen (RPO §25 (3)). Wählst du den 2. Termin als Erstversuch, ist eine Wiederholung erst im folgenden Sommersemester möglich.\n- **Aufgabenformate ähnlich wie die Aufgaben auf den Übungszetteln.**\n\nDazu: Website des Akademischen Prüfungsamtes BACS und Rahmenprüfungsordnung der Uni Vechta.",
+      "beispiel": ""
+    },
+    {
+      "titel": "Literatur",
+      "folien": "6",
+      "text": "- Hübner, Gerhard (2009). *Stochastik. Eine anwendungsorientierte Einführung für Informatiker, Ingenieure und Mathematiker.* 5., verbesserte Auflage. Vieweg+Teubner, Wiesbaden.\n- Kütting, Herbert und Martin J. Sauer (2011). *Elementare Stochastik. Mathematische Grundlagen und Konzepte.* Hrsg. von Friedhelm Padberg. Springer Spektrum, Berlin/Heidelberg.\n\nBeide Bücher liegen noch nicht in deinem Ordner (siehe Liste der fehlenden Literatur).",
+      "beispiel": ""
+    }
+  ],
+  "definitionen": [],
+  "aufgaben": [],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Ordne zu: Was gilt für Teil A, was für Teil B der Aufgabenblätter?",
+      "kategorien": [
+        "Teil A",
+        "Teil B"
+      ],
+      "elemente": [
+        {
+          "text": "zur Selbstkontrolle",
+          "kategorie": "Teil A"
+        },
+        {
+          "text": "kurze Musterlösungen zu Beginn der Folgewoche in Stud.IP",
+          "kategorie": "Teil A"
+        },
+        {
+          "text": "wird nicht ausführlich besprochen",
+          "kategorie": "Teil A"
+        },
+        {
+          "text": "wird im Seminar bearbeitet",
+          "kategorie": "Teil B"
+        },
+        {
+          "text": "wird gemeinsam besprochen",
+          "kategorie": "Teil B"
+        }
+      ],
+      "erklaerung": "Folie 4: Teil A eigenverantwortlich mit kurzen Musterlösungen, Teil B im Seminar gemeinsam.",
+      "folie": "4",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f02",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Jeden [[Freitag]] wird ein Aufgabenblatt in Stud.IP hochgeladen.",
+      "erklaerung": "Folie 3.",
+      "folie": "3",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f03",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Aussagen zum Seminar stimmen?",
+      "optionen": [
+        "Es gibt keine Anwesenheitspflicht.",
+        "Im Seminar werden Aufgaben der Übungsblätter bearbeitet und besprochen.",
+        "Teil A wird im Seminar ausführlich besprochen.",
+        "Man kann dort Fragen zur Vorlesung stellen.",
+        "Die Teilnahme ist Voraussetzung für die Klausur."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 3–4: freiwillig, Übungsblätter, Fragen erwünscht. Teil A wird gerade nicht ausführlich besprochen; eine Teilnahmepflicht für die Klausur gibt es nicht.",
+      "folie": "3–4",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f04",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie lange dauert die mab005-Klausur und welche Aufgabenformate kommen dran?",
+      "antwort": "90 Minuten Schreibzeit; die Aufgabenformate sind ähnlich wie die Aufgaben auf den Übungszetteln.",
+      "erklaerung": "Folie 5.",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was passiert, wenn du den 2. Klausurtermin (29.03.2027) als ersten Versuch wählst und nicht bestehst?",
+      "optionen": [
+        "Eine Wiederholung ist erst im folgenden Sommersemester möglich.",
+        "Du kannst sofort im April wiederholen.",
+        "Der Versuch zählt nicht.",
+        "Du musst das ganze Modul neu belegen."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Folie 5: Wiederholung spätestens zu den nächsten regulären Terminen (RPO §25 (3)) – nach dem 2. Termin ist das erst das Sommersemester.",
+      "folie": "5",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f06",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Die Aufgabenformate der Klausur sind ähnlich wie die Aufgaben auf den [[Übungszetteln]].",
+      "erklaerung": "Folie 5 – deshalb sind die Aufgabenblätter die beste Klausurvorbereitung.",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche zwei Bücher sind die Grundlagenliteratur in mab005?",
+      "antwort": "Hübner (2009): Stochastik. Eine anwendungsorientierte Einführung … und Kütting/Sauer (2011): Elementare Stochastik.",
+      "erklaerung": "Folie 6.",
+      "folie": "6",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f08",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Die Klausuraufgaben sind „ähnlich wie die Aufgaben auf den Übungszetteln“. Wie nutzt du Teil A und Teil B der Blätter sinnvoll für die Klausurvorbereitung?",
+      "musterloesung": "Teil A selbst lösen und mit den kurzen Musterlösungen aus Stud.IP vergleichen; Unklarheiten im Seminar fragen. Teil B möglichst vor dem Seminar versuchen und in der Besprechung den vollständigen Lösungsweg mitschreiben. Vor der Klausur alle Blätter wiederholen, weil die Klausuraufgaben ähnlich aufgebaut sind.",
+      "bewertungspunkte": [
+        "Teil A selbst lösen und mit Musterlösung vergleichen",
+        "Teil B vorbereiten und Besprechung nutzen",
+        "Blätter als Klausurvorbereitung wiederholen"
+      ],
+      "punkte": 3,
+      "erklaerung": "Folie 4–5.",
+      "folie": "4–5",
+      "pruefungsrelevant": false
+    }
+  ],
+  "pruefungshinweise": [
+    "Klausur 90 Minuten, Aufgabenformate ähnlich wie die Aufgaben auf den Übungszetteln. (Folie 5)"
+  ],
+  "offene_fragen": [
+    "Bis zu welcher Folie von Kapitel 1 kam die Vorlesung am 12.10.? (Bis dahin ist Kapitel 1 komplett der Sitzung vom 19.10. zugeordnet.)",
+    "Folie 5: Prüfungsanmeldung „ab Juni über QISPOS“ – vermutlich aus einem Sommersemester übernommen. Wann ist die Anmeldung für die Klausur am 08.02.2027?"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "lernapp-glossar/2",
+  "modul": "mab005",
+  "eintraege": [
+    {
+      "begriff": "Zufalls-Experiment",
+      "wortlaut": "Definition 1.1.1 (Zufalls-Experiment) Ein Zufalls-Experiment ist ein (geplanter, gesteuerter oder nur beobachteter) Vorgang, der ein genau abzugrenzendes Ergebnis besitzt, das vom Zufall beeinflusst ist oder beeinflusst sein kann.",
+      "erklaerung": "Ein Vorgang, dessen Ausgang man vorher nicht sicher kennt – z. B. Würfeln, Münzwurf, eine Karte ziehen. Für das Modell zählen nur die möglichen Ergebnisse, die möglichen Fragestellungen und die zugehörigen Wahrscheinlichkeiten.",
+      "quelle": "mab005.1_2026-10-19 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Ergebnisraum",
+      "wortlaut": "Definition 1.2.1 (Ergebnisraum) Der Ergebnisraum $\\Omega$ (auch Grundmenge oder Grundgesamtheit) eines Zufalls-Experiments ist eine nicht-leere Menge mit Elementen $\\omega \\in \\Omega$. $\\Omega$ gibt die möglichen Ausgänge (Ergebnisse) des betrachteten Zufalls-Experiments an.",
+      "erklaerung": "Die Menge aller Ausgänge, die passieren können. Einmal Würfeln: $\\Omega = \\{1, 2, 3, 4, 5, 6\\}$. Achtung: Bei Hübner (und in der Altklausur Stochastik) heißt $\\Omega$ **Merkmalraum** – gemeint ist dasselbe.",
+      "quelle": "mab005.1_2026-10-19 · Folie 9",
+      "abweichungen": [
+        "Hübner (2009) nennt den Ergebnisraum „Merkmalraum“ (Folie 9); in der Vorlesung gilt „Ergebnisraum“."
+      ]
+    },
+    {
+      "begriff": "Ereignis, Ereignissystem",
+      "wortlaut": "Definition 1.3.2 (Ereignis, Ereignissystem) In der Modell-Ebene ist ein Ereignis $A$ eine Teilmenge des Ergebnisraums $\\Omega$. Man sagt „Das Ereignis $A$ tritt ein“, falls das Ergebnis $\\omega$ mit $\\omega \\in A$ beobachtet wird. Die Menge aller betrachteten Ereignisse heißt das Ereignissystem $\\mathcal{A}$.",
+      "erklaerung": "Ein Ereignis ist eine Ja/Nein-Frage an das Experiment, geschrieben als Menge aller Ergebnisse, bei denen die Antwort „ja“ ist. „Augenzahl gerade“ $= \\{2, 4, 6\\}$; würfelst du eine 4, tritt es ein. Es gilt immer $\\mathcal{A} \\subseteq \\mathfrak{P}(\\Omega)$.",
+      "quelle": "mab005.1_2026-10-19 · Folie 16–17",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Unmögliches Ereignis, sicheres Ereignis, Elementarereignis",
+      "wortlaut": "Definition 1.3.3 (Elementarereignis, unmögliches Ereignis, sicheres Ereignis) Das Ereignis $A$ bezüglich des Ergebnisraums $\\Omega$ heißt unmögliches Ereignis, wenn $A = \\emptyset$; sicheres Ereignis, wenn $A = \\Omega$; Elementarereignis, wenn $A = \\{\\omega\\}$ für ein $\\omega \\in \\Omega$.",
+      "erklaerung": "$\\emptyset$ tritt nie ein, $\\Omega$ tritt immer ein, $\\{\\omega\\}$ enthält genau ein Ergebnis. Unterschied: $\\omega$ ist ein Ergebnis (Element), $\\{\\omega\\}$ ein Elementarereignis (Teilmenge). Beispiel Würfeln: $3$ ist ein Ergebnis, $\\{3\\}$ das Elementarereignis „Augenzahl 3“.",
+      "quelle": "mab005.1_2026-10-19 · Folie 18",
+      "abweichungen": []
+    },
+    {
+      "begriff": "σ-Algebra",
+      "wortlaut": "Definition 1.3.5 (σ-Algebra) Ein System $\\mathcal{A}$ von Teilmengen einer Menge $\\Omega$ heißt (Mengen-)σ-Algebra über $\\Omega$, wenn gilt (1) $\\Omega \\in \\mathcal{A}$; (2) $\\bar{A} \\in \\mathcal{A}$, falls $A \\in \\mathcal{A}$; und (3) $\\bigcup_{i=1}^{\\infty} A_i \\in \\mathcal{A}$, falls $A_i \\in \\mathcal{A}$ für alle $i$.",
+      "erklaerung": "Ein „vollständiger Fragenkatalog“: Er enthält das sichere Ereignis, zu jedem Ereignis das Gegenereignis und zu (abzählbar vielen) Ereignissen deren Vereinigung. Nach de Morgan dann auch Schnitte. Beispiel: $\\{\\emptyset, \\{1\\}, \\{2, 3\\}, \\{1, 2, 3\\}\\}$ ist eine σ-Algebra über $\\{1, 2, 3\\}$.",
+      "quelle": "mab005.1_2026-10-19 · Folie 23",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Erzeugte σ-Algebra, Erzeuger",
+      "wortlaut": "Definition 1.3.8 (erzeugte σ-Algebra, Erzeuger) Ist $\\mathcal{E}$ ein System von Teilmengen einer Menge $\\Omega$, dann heißt die kleinste σ-Algebra $\\mathcal{A}$ (über $\\Omega$), die $\\mathcal{E}$ als Teilmenge enthält, die von $\\mathcal{E}$ erzeugte σ-Algebra (über $\\Omega$) und wird mit $\\mathcal{A}_\\Omega(\\mathcal{E})$ oder kurz $\\mathcal{A}(\\mathcal{E})$ bezeichnet. $\\mathcal{E}$ heißt der Erzeuger von $\\mathcal{A}(\\mathcal{E})$.",
+      "erklaerung": "Man startet mit einigen Mengen ($\\mathcal{E}$) und nimmt so lange Komplemente, Vereinigungen und Schnitte dazu, bis nichts Neues mehr entsteht. Beispiel: $\\Omega = \\{1, 2, 3\\}$, $\\mathcal{E} = \\{\\{1\\}\\}$ ergibt $\\mathcal{A}(\\mathcal{E}) = \\{\\emptyset, \\{1\\}, \\{2, 3\\}, \\Omega\\}$.",
+      "quelle": "mab005.1_2026-10-19 · Folie 26",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Borel-σ-Algebra",
+      "wortlaut": "Definition 1.3.10 (Borel-σ-Algebra $\\mathbb{B}$) Es sei $\\mathcal{G}_1 = \\{\\,]a,b] \\mid a,b \\in \\mathbb{R},\\, a<b\\}$ die Menge der links-offenen halboffenen Intervalle in $\\mathbb{R}$. Dann heißt die von $\\mathcal{G}_1$ über $\\mathbb{R}$ erzeugte σ-Algebra $\\mathbb{B}$ $(= \\mathcal{A}_\\mathbb{R}(\\mathcal{G}_1))$ die Borel-σ-Algebra (über $\\mathbb{R}$), die Elemente von $\\mathbb{B}$ heißen Borel-Mengen.",
+      "erklaerung": "Das Ereignissystem für $\\Omega = \\mathbb{R}$: Man startet mit allen Intervallen $]a, b]$ und erzeugt daraus alles Weitere. Darin liegen u. a. $\\emptyset$, jedes $\\{a\\}$, alle offenen, abgeschlossenen und unbeschränkten Intervalle (Satz 1.3.11).",
+      "quelle": "mab005.1_2026-10-19 · Folie 28",
+      "abweichungen": []
+    }
+  ]
+}

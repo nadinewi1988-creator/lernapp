@@ -17,7 +17,8 @@
       "bedeutung": "Multiplikation (mal); bei Fothe als „x“ geschrieben",
       "gelesen": "a mal b",
       "module": [
-        "mab004"
+        "mab004",
+        "mab005"
       ],
       "erste_quelle": "mab004.2_2026-10-13 · Fothe S. 6"
     },
@@ -197,7 +198,8 @@
       "bedeutung": "natürliche Zahlen",
       "gelesen": "N",
       "module": [
-        "mab004"
+        "mab004",
+        "mab005"
       ],
       "erste_quelle": "mab004.1_2026-10-20 · Folie 21"
     },
@@ -227,7 +229,8 @@
       "bedeutung": "reelle Zahlen",
       "gelesen": "R",
       "module": [
-        "mab004"
+        "mab004",
+        "mab005"
       ],
       "erste_quelle": "mab004.1_2026-10-20 · Folie 16"
     },
@@ -247,7 +250,8 @@
       "bedeutung": "ist Element von",
       "gelesen": "a Element von R",
       "module": [
-        "mab004"
+        "mab004",
+        "mab005"
       ],
       "erste_quelle": "mab004.1_2026-10-20 · Folie 16"
     },
@@ -350,6 +354,276 @@
         "mab004"
       ],
       "erste_quelle": "mab004.2_2026-10-27 · Blatt 3"
+    },
+    {
+      "zeichen": "Ω",
+      "latex": "\\Omega",
+      "bedeutung": "Ergebnisraum (Menge aller möglichen Ergebnisse); bei Hübner „Merkmalraum“",
+      "gelesen": "Omega",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 9"
+    },
+    {
+      "zeichen": "ω",
+      "latex": "\\omega",
+      "bedeutung": "ein Ergebnis (Element des Ergebnisraums)",
+      "gelesen": "klein Omega",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 9"
+    },
+    {
+      "zeichen": "{ … }",
+      "latex": "\\{\\dots\\}",
+      "bedeutung": "Menge (Aufzählung der Elemente)",
+      "gelesen": "Menge aus …",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 10"
+    },
+    {
+      "zeichen": "Ω²",
+      "latex": "\\Omega^2",
+      "bedeutung": "kartesisches Produkt Ω × Ω (Paare), z. B. {Wappen, Zahl}²",
+      "gelesen": "Omega hoch 2",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 31"
+    },
+    {
+      "zeichen": "(a, b)",
+      "latex": "(a, b)",
+      "bedeutung": "geordnetes Paar (2-Tupel) – Reihenfolge zählt",
+      "gelesen": "Paar a, b",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 12"
+    },
+    {
+      "zeichen": "[a; ∞[",
+      "latex": "[a; \\infty[",
+      "bedeutung": "nach oben unbeschränktes Intervall ab a (a gehört dazu)",
+      "gelesen": "a bis unendlich",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 13"
+    },
+    {
+      "zeichen": "]a, b]",
+      "latex": "]a, b]",
+      "bedeutung": "links-offenes (halboffenes) Intervall: a gehört nicht dazu, b schon; offene Grenzen mit nach außen geöffneten eckigen Klammern",
+      "gelesen": "a bis b, links offen",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 28"
+    },
+    {
+      "zeichen": "]a, b[",
+      "latex": "]a, b[",
+      "bedeutung": "offenes Intervall (beide Grenzen gehören nicht dazu); Hübner schreibt (a, b)",
+      "gelesen": "a bis b offen",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 28"
+    },
+    {
+      "zeichen": "⊆",
+      "latex": "\\subseteq",
+      "bedeutung": "ist Teilmenge von",
+      "gelesen": "A Teilmenge von Omega",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 17"
+    },
+    {
+      "zeichen": "𝔓(Ω)",
+      "latex": "\\mathfrak{P}(\\Omega)",
+      "bedeutung": "Potenzmenge von Ω (Menge aller Teilmengen); deutlich von P unterscheiden",
+      "gelesen": "Potenzmenge von Omega",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 17"
+    },
+    {
+      "zeichen": "𝒜",
+      "latex": "\\mathcal{A}",
+      "bedeutung": "Ereignissystem (eine σ-Algebra über Ω)",
+      "gelesen": "A (Schreibschrift)",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 16"
+    },
+    {
+      "zeichen": "P",
+      "latex": "P",
+      "bedeutung": "Wahrscheinlichkeitsmaß; P(A) = Wahrscheinlichkeit von A",
+      "gelesen": "P von A",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 17"
+    },
+    {
+      "zeichen": "∅",
+      "latex": "\\emptyset",
+      "bedeutung": "leere Menge; als Ereignis: unmögliches Ereignis",
+      "gelesen": "leere Menge",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 18"
+    },
+    {
+      "zeichen": "{ω}",
+      "latex": "\\{\\omega\\}",
+      "bedeutung": "Elementarereignis (Menge mit genau einem Ergebnis)",
+      "gelesen": "Menge aus omega",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 18"
+    },
+    {
+      "zeichen": "∪",
+      "latex": "\\cup",
+      "bedeutung": "Vereinigung: A oder B (oder beide)",
+      "gelesen": "A vereinigt B",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 21"
+    },
+    {
+      "zeichen": "∩",
+      "latex": "\\cap",
+      "bedeutung": "Schnitt: A und B",
+      "gelesen": "A geschnitten B",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 21"
+    },
+    {
+      "zeichen": "∖",
+      "latex": "\\setminus",
+      "bedeutung": "Differenz: A ohne B (A tritt ein, B nicht)",
+      "gelesen": "A ohne B",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 21"
+    },
+    {
+      "zeichen": "Ā",
+      "latex": "\\bar{A}",
+      "bedeutung": "Komplement / Gegenereignis: A tritt nicht ein (Vorlesung: Ā statt Aᶜ)",
+      "gelesen": "A quer",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 21"
+    },
+    {
+      "zeichen": "∉",
+      "latex": "\\notin",
+      "bedeutung": "ist nicht Element von",
+      "gelesen": "omega nicht Element von A",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 21"
+    },
+    {
+      "zeichen": "⋃ᵢ₌₁^∞ Aᵢ",
+      "latex": "\\bigcup_{i=1}^{\\infty} A_i",
+      "bedeutung": "Vereinigung aller Aᵢ: mindestens ein Aᵢ tritt ein",
+      "gelesen": "Vereinigung der A i",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 21"
+    },
+    {
+      "zeichen": "⋂ᵢ₌₁^∞ Aᵢ",
+      "latex": "\\bigcap_{i=1}^{\\infty} A_i",
+      "bedeutung": "Schnitt aller Aᵢ: alle Aᵢ treten ein",
+      "gelesen": "Schnitt der A i",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 21"
+    },
+    {
+      "zeichen": "∪̇",
+      "latex": "\\dot\\cup",
+      "bedeutung": "Vereinigung disjunkter Mengen (Vorlesung statt A + B); Disjunktheit immer prüfen",
+      "gelesen": "A disjunkt vereinigt B",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 22"
+    },
+    {
+      "zeichen": "σ",
+      "latex": "\\sigma",
+      "bedeutung": "Sigma, in „σ-Algebra“",
+      "gelesen": "Sigma",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 23"
+    },
+    {
+      "zeichen": "ℰ",
+      "latex": "\\mathcal{E}",
+      "bedeutung": "Erzeuger (System von Teilmengen von Ω)",
+      "gelesen": "E (Schreibschrift)",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 26"
+    },
+    {
+      "zeichen": "𝒜(ℰ)",
+      "latex": "\\mathcal{A}(\\mathcal{E})",
+      "bedeutung": "die von ℰ erzeugte σ-Algebra; ausführlich 𝒜_Ω(ℰ)",
+      "gelesen": "von E erzeugte Sigma-Algebra",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 26"
+    },
+    {
+      "zeichen": "𝔹",
+      "latex": "\\mathbb{B}",
+      "bedeutung": "Borel-σ-Algebra über ℝ",
+      "gelesen": "Borel B",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 28"
+    },
+    {
+      "zeichen": "𝒢₁",
+      "latex": "\\mathcal{G}_1",
+      "bedeutung": "Menge aller links-offenen Intervalle ]a, b] in ℝ (Erzeuger von 𝔹)",
+      "gelesen": "G eins",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-10-19 · Folie 28"
     }
   ]
 }

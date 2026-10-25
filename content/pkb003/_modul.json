@@ -558,20 +558,20 @@
       "sitzung": "pkb003.1_2026-10-20"
     },
     {
-      "pfad": "pkb003.1/Zusatz_Mannewitz-Rudzio_PolSystem_Fassung1.pdf",
+      "pfad": "Literatur/Mannewitz-Rudzio_2022_Das-politische-System-der-BRD_Fassung1.pdf",
       "geaendert": "2026-10-20",
       "art": "Zusatzliteratur (genutzt für Sitzungen ohne Kursliteratur)",
       "status": "verarbeitet",
       "sitzung": "pkb003.1_2026-10-20 · pkb003.2_2026-10-12 · pkb003.2_2026-10-19"
     },
     {
-      "pfad": "pkb003.1/Zusatz_Mannewitz-Rudzio_PolSystem_Fassung2.pdf",
+      "pfad": "Literatur/Mannewitz-Rudzio_2022_Das-politische-System-der-BRD_Fassung2.pdf",
       "geaendert": "2026-10-20",
       "art": "Zusatzliteratur (nicht im Kursplan)",
       "status": "übersprungen"
     },
     {
-      "pfad": "pkb003.1/Zusatz_Mannewitz-Rudzio_PolSystem_Fassung3.pdf",
+      "pfad": "Literatur/Mannewitz-Rudzio_2022_Das-politische-System-der-BRD_Fassung3.pdf",
       "geaendert": "2026-10-20",
       "art": "Zusatzliteratur (nicht im Kursplan)",
       "status": "übersprungen"
@@ -604,7 +604,7 @@
       "sitzung": "pkb003.2_2027-01-11"
     },
     {
-      "pfad": "pkb003.3/S02_2026-11-12_Moeltgen-Sicking-Winter_Verwaltung-und-Verwaltungswissenschaft.pdf",
+      "pfad": "Literatur/Moeltgen-Sicking-Winter_2018_Verwaltung-und-Verwaltungswissenschaft.pdf",
       "geaendert": "2026-10-25",
       "art": "Literatur (Buch, Lit.-Liste Modulbeschreibung)",
       "status": "später",
@@ -627,15 +627,15 @@
       "eintrag": "Möltgen-Sicking/Winter (2018): Verwaltung und Verwaltungswissenschaft",
       "vorhanden": true,
       "stand": "2026-10-25",
-      "datei": "pkb003.3/S02_2026-11-12_Moeltgen-Sicking-Winter_Verwaltung-und-Verwaltungswissenschaft.pdf",
+      "datei": "Literatur/Moeltgen-Sicking-Winter_2018_Verwaltung-und-Verwaltungswissenschaft.pdf",
       "hinweis": "vollständige Fassung (von Nadine bestätigt)"
     },
     {
       "eintrag": "Rudzio (2018): Das politische System der Bundesrepublik Deutschland",
       "vorhanden": true,
       "stand": "2026-10-25",
-      "datei": "pkb003.1/Zusatz_Mannewitz-Rudzio_PolSystem_Fassung1.pdf",
-      "hinweis": "neuere Auflage (Mannewitz/Rudzio), drei Fassungen im Ordner"
+      "datei": "Literatur/Mannewitz-Rudzio_2022_Das-politische-System-der-BRD_Fassung1.pdf",
+      "hinweis": "neuere Auflage: Mannewitz/Rudzio, 11. Aufl. 2022 (drei Fassungen im Ordner)"
     },
     {
       "eintrag": "Seibel (2016): Verwaltung verstehen",

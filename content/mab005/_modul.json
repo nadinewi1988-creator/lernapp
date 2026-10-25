@@ -58,7 +58,8 @@
     "mab005.1_2026-10-12",
     "mab005.1_2026-10-19",
     "mab005.2_2026-10-12",
-    "mab005.2_2026-10-19"
+    "mab005.2_2026-10-19",
+    "mab005.2_2026-10-26"
   ],
   "literatur": [
     {
@@ -89,7 +90,8 @@
     "Ordner „mab005 - studydrive“: fremde Lösungen älterer Blätter, nicht als Grundlage verwenden"
   ],
   "auffaelligkeiten": [
-    "Kapitel 0, Folie 5: Prüfungsanmeldung „ab Juni über QISPOS“ – vermutlich veraltet; Anmeldezeitraum für Februar 2027 erfragen"
+    "Kapitel 0, Folie 5: Prüfungsanmeldung „ab Juni über QISPOS“ – vermutlich veraltet; Anmeldezeitraum für Februar 2027 erfragen",
+    "Blatt 03, A.1c: Ass wird zu den Bildkarten gezählt (Bube, Dame, König, Ass)"
   ],
   "offene_fragen": [
     "Bis zu welcher Folie von Kapitel 1 kam die VL am 12.10.?"
@@ -123,7 +125,7 @@
       "art": "Folien",
       "status": "verarbeitet",
       "sitzung": "mab005.1_2026-10-19",
-      "hinweis": "Folie 1–32 verarbeitet (Stand 19.10.); Folie 33–54 folgen"
+      "hinweis": "Folie 1–32 verarbeitet (Stand 19.10.); Folie 33–54 für Blatt 03 gelesen, VL-Aufbereitung folgt nach der Sitzung am 26.10."
     },
     {
       "pfad": "mab005.2/Aufgabenblatt01_V1-2.pdf",
@@ -161,9 +163,9 @@
       "pfad": "mab005.2/Aufgabenblatt03_V1.pdf",
       "geaendert": "2026-10-24",
       "art": "Übungsblatt",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "mab005.2_2026-10-26",
-      "hinweis": "Hausaufgabe h01; Lösungen Teil A noch nicht veröffentlicht"
+      "hinweis": "Hausaufgabe h01; Teil A selbst gelöst – Abgleich mit Uni-Kurzlösung, sobald veröffentlicht"
     },
     {
       "pfad": "mab005 - studydrive/Mab005 Lösung Ab1 .pdf",

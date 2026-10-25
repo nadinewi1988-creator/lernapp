@@ -704,6 +704,66 @@
         "mab005"
       ],
       "erste_quelle": "mab005.2_2026-10-19 · Blatt 02, B.1"
+    },
+    {
+      "zeichen": "(Ω, 𝒜, P)",
+      "latex": "(\\Omega, \\mathcal{A}, P)",
+      "bedeutung": "Wahrscheinlichkeitsraum (W-Raum): Ergebnisraum, Ereignissystem, Wahrscheinlichkeitsmaß",
+      "gelesen": "Omega, A, P",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.2_2026-10-26 · Blatt 03, B.1"
+    },
+    {
+      "zeichen": "P(A)",
+      "latex": "P(A)",
+      "bedeutung": "Wahrscheinlichkeit des Ereignisses A",
+      "gelesen": "P von A",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.2_2026-10-26 · Blatt 03, B.1"
+    },
+    {
+      "zeichen": "|A|/|Ω|",
+      "latex": "\\frac{|A|}{|\\Omega|}",
+      "bedeutung": "Laplace-Wahrscheinlichkeit: günstige durch mögliche Ergebnisse",
+      "gelesen": "Mächtigkeit A durch Mächtigkeit Omega",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.2_2026-10-26 · Blatt 03, B.1"
+    },
+    {
+      "zeichen": "L(Ω)",
+      "latex": "L(\\Omega)",
+      "bedeutung": "Laplace-Verteilung (diskrete Gleichverteilung) über Ω",
+      "gelesen": "L von Omega",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.2_2026-10-26 · Blatt 03, B.1"
+    },
+    {
+      "zeichen": "hₙ(A)",
+      "latex": "h_n(A)",
+      "bedeutung": "relative Häufigkeit von A bei n Durchführungen",
+      "gelesen": "h n von A",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.2_2026-10-26 · Blatt 03, B.2"
+    },
+    {
+      "zeichen": "Hₙ(A)",
+      "latex": "H_n(A)",
+      "bedeutung": "absolute Häufigkeit von A bei n Durchführungen",
+      "gelesen": "H n von A",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.2_2026-10-26 · Blatt 03, B.2"
     }
   ]
 }

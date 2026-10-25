@@ -8,7 +8,7 @@
   "thema": "02 Zentrale psychologische Paradigmen und Grundlagen psychologischer Forschung",
   "thema_in_app": "war schon da",
   "stand": "geprueft",
-  "hinweis": "Die beiden Übungstests der eÜbung (Gruppe B) aus der Stud.IP-Courseware im Originalwortlaut. Lösungen aus VL-Folien und Lernmodulen erarbeitet; bei A1 und A2 aus Test 1 von Stud.IP bestätigt. Ausführliche Erklärungen: VL-Sitzung 21.10.",
+  "hinweis": "Die beiden Übungstests der eÜbung (Gruppe B) aus der Stud.IP-Courseware im Originalwortlaut. Alle Lösungen sind mit der Stud.IP-Auswertung abgeglichen; bei den Freitextaufgaben (Test 2 A5, A8) steht die offizielle Musterlösung. Ausführliche Erklärungen: VL-Sitzung 21.10.",
   "quellen": [
     {
       "datei": "Stud.IP › eÜbung (Gruppe B) › Courseware › Übungsaufgaben „zentrale Paradigmen und Grundlagen psychologischer Forschung“",
@@ -316,14 +316,14 @@
       "niveau": "anwenden",
       "schwierigkeit": 2,
       "frage": "Schüler:innen A, B und C zeigen bessere Leistungen, wenn sie beim Lernen Musik hören. Daraus schließt die Lehrkraft, dass Musik allgemein die Lernleistung verbessert.\nUm welche Art von Schlussfolgerung handelt es sich hierbei und ist diese zulässig?",
-      "musterloesung": "Es handelt sich um einen induktiven Schluss (Induktionsschluss): Von einigen Einzelbeobachtungen wird auf eine allgemeine Regel geschlossen. Nach dem kritischen Rationalismus (Popper) ist er nicht zulässig – viele bestätigende Fälle beweisen keine allgemeine Regel, und schon ein Gegenbeispiel (z. B. Schüler:in D lernt mit Musik schlechter) würde die Aussage falsifizieren.",
+      "musterloesung": "Es handelt sich um einen induktiven Schluss, weil von einzelnen Beobachtungen (Leistungen von Schüler:innen A, B und C) auf eine allgemeine Gesetzmäßigkeit (Musik verbessert Lernen allgemein) geschlossen wird.\nAber: Selbst wenn in 100 Fällen Musik mit besseren Leistungen einhergeht, könnte es beim 101. Fall anders sein. → Auch wenn wir ein bestimmtes Muster mehrfach beobachten, können wir nicht sicher sein, dass es immer so bleibt. Ein induktiver Schluss kann also naheliegend, aber muss nicht zwingend richtig sein.",
       "bewertungspunkte": [
         "Induktionsschluss benannt",
         "nicht zulässig",
         "Begründung über Popper bzw. Falsifikation/Gegenbeispiel"
       ],
       "punkte": 3,
-      "erklaerung": "Freitextaufgabe; die offizielle Musterlösung zeigt Stud.IP erst nach dem Abschicken.",
+      "erklaerung": "Offizielle Musterlösung aus Stud.IP. Ergänzend: Nach Popper ist der Induktionsschluss nicht zulässig – ein einziges Gegenbeispiel würde die Aussage falsifizieren.",
       "folie": "Test 2 · A5 · VL 2.4 Folie 12–14",
       "pruefungsrelevant": true
     },
@@ -383,8 +383,8 @@
       "niveau": "anwenden",
       "schwierigkeit": 1,
       "frage": "Florian nimmt seit einiger Zeit an einer Panelbefragung teil, die untersuchen soll, wie sich das Umweltbewusstsein junger Menschen verändert. Durch die regelmäßige Befragung hat Florian ein zunehmendes Interesse an Umweltthemen entwickelt.\nWelches Phänomen wird hier beschrieben?",
-      "antwort": "Ein Panel-Effekt (Panel-Conditioning): Die wiederholte Befragung derselben Person verändert ihr tatsächliches oder berichtetes Verhalten bzw. ihre Einstellungen.",
-      "erklaerung": "Wiederholte Befragung verändert Einstellungen bzw. Verhalten – hier die stärkere Beschäftigung mit dem Thema.",
+      "antwort": "Panel-Effekt/Panel-Conditioning",
+      "erklaerung": "Offizielle Musterlösung aus Stud.IP. Die wiederholte Befragung derselben Person verändert ihr tatsächliches oder berichtetes Verhalten bzw. ihre Einstellungen – hier regt sie zur stärkeren Beschäftigung mit dem Thema an.",
       "folie": "Test 2 · A8 · VL 2.5 Folie 8",
       "pruefungsrelevant": true
     },
@@ -632,7 +632,5 @@
   "pruefungshinweise": [
     "Die Tests decken die prüfungsrelevanten Inhalte der VL S02 ab."
   ],
-  "offene_fragen": [
-    "Ab Test 1 A3 sind die Lösungen selbst erarbeitet. Die offiziellen Musterlösungen zeigt Stud.IP erst nach dem Abschicken – dann ggf. abgleichen."
-  ]
+  "offene_fragen": []
 }

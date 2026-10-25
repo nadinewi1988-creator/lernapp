@@ -329,13 +329,13 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
 
       {tab === 'lernen' && (istAkt ? <>
         <div className="mod-kacheln" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 12 }}>
-          <div style={{ background: '#fff', border: '1.5px solid ' + f[1], borderRadius: 16, padding: 16, display: 'flex', flexDirection: 'column', gap: 6 }}>
+          <div style={{ background: f[1], borderRadius: 16, padding: 16, display: 'flex', flexDirection: 'column', gap: 6 }}>
             <span style={{ fontSize: 15, fontWeight: 800 }}>Eigene Karten</span>
             <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>{KK.length ? KK.length + (KK.length === 1 ? ' Karte' : ' Karten') + ' · ' + kFae + ' heute fällig · ' + kSich + ' sicher · ' + kUns + ' unsicher' : 'Noch keine eigenen Karten zu diesem Modul.'}</span>
-            {KK.length > 0 && <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}><div style={{ flex: 1, height: 8, borderRadius: 4, background: '#f0f0eb', overflow: 'hidden' }}><div style={{ height: '100%', width: kPct + '%', background: f[0] }} /></div><span style={{ fontSize: 12, fontWeight: 800, color: f[0] }}>{kPct} %</span></div>}
+            {KK.length > 0 && <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}><div style={{ flex: 1, height: 8, borderRadius: 4, background: 'rgba(255,255,255,0.8)', overflow: 'hidden' }}><div style={{ height: '100%', width: kPct + '%', background: f[0] }} /></div><span style={{ fontSize: 12, fontWeight: 800, color: f[0] }}>{kPct} %</span></div>}
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, marginTop: 'auto' }}>{KK.length > 0 && <button type="button" onClick={() => kartenOeffnen({ aktion: 'ueben', modul: kuerzel })} style={klein}>Üben</button>}<button type="button" onClick={() => kartenOeffnen({ aktion: 'neu', modul: kuerzel })} style={klein}>+ Karte</button></div>
           </div>
-          <div style={{ background: '#fff', border: '1.5px solid ' + f[1], borderRadius: 16, padding: 16, display: 'flex', flexDirection: 'column', gap: 6 }}>
+          <div style={{ background: f[1], borderRadius: 16, padding: 16, display: 'flex', flexDirection: 'column', gap: 6 }}>
             <span style={{ fontSize: 15, fontWeight: 800 }}>Begriffe</span>
             <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>{GLOSSAR.length} Begriffe{kuerzel.startsWith('mab') ? ' · ' + SYMBOLE.length + ' Symbole' : ''}</span>
             <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>Alle Definitionen des Moduls – Wortlaut aus den Unterlagen und Erklärung.</span>

@@ -5,7 +5,8 @@ import { kartenAus, istFaellig, kartenOeffnen } from './Karten';
 import { useKlapp } from '../klapp';
 import { anwesenheitVon, AnwBalken } from './Statistik';
 import { lernStandVon } from './Module';
-import { sitzungenVon as inhalteVon } from '../lerninhalte';
+import { sitzungenVon as inhalteVon, frageRef } from '../lerninhalte';
+import { Lernfragen, type LFEintrag } from './Lernfragen';
 import { hausaufgabeZuEintrag, HausaufgabeFenster, type HA } from '../Hausaufgabe';
 import { auswerten, heuteIso, noteText, nachFach, BEREICH_ZIEL } from '../pruefungslogik';
 import { WOCHEN, FEIERTAGE, FERIEN, parseIso, plusTage } from '../data/kalender';
@@ -36,6 +37,7 @@ export function Dashboard({ stand, neuLaden }: Props) {
   const [nhModul, setNhModul] = useState<string | null>(null);
   const [nhZeigeErl, setNhZeigeErl] = useKlapp('db-nh-erledigt', false);
   const [haDlg, setHaDlg] = useState<HA | null>(null);
+  const [lfD, setLfD] = useState<null | LFEintrag[]>(null);
   const [ed, setEd] = useState<null | { titel: string; art: string; mod: string; datum: string; zeit: string; bis: string; notiz: string; ganztag: boolean; bisDatum: string; wdh: string; tage: number[]; wdhBis: string; fehler?: string }>(null);
   const [fehler, setFehler] = useState('');
   async function los(f: () => Promise<void>) { setFehler(''); try { await f(); await neuLaden(); } catch (e) { setFehler('Speichern hat nicht geklappt: ' + String((e as Error).message || e)); } }
@@ -202,6 +204,12 @@ export function Dashboard({ stand, neuLaden }: Props) {
     </div>);
   const nhBreite = (nhGes ? Math.round(nhErl / nhGes * 100) : 0) + '%';
   const klText = { faellig: faeK.length ? faeK.length + (faeK.length === 1 ? ' Karte heute fällig' : ' Karten heute fällig') : 'Heute keine Karten fällig', zeit: 'Lernzeit diese Woche: ' + fmtZeit(lzGes) + ' · heute ' + fmtZeit(lzHeute) };
+  // Fällige Lernfragen aller aktuellen Module
+  const wdLf = Object.fromEntries(stand.wiederholung.map((w) => [w.frage_ref, w]));
+  const lfFae = aktMods.flatMap((m) => inhalteVon(m).flatMap((si) => si.fragen.map((f) => ({ s: si, f })))).filter((e) => { const w = wdLf[frageRef(e.s, e.f)]; return !w || !w.faellig || w.faellig <= HEUTE; });
+  const lfJe = aktMods.map((m) => [m, lfFae.filter((e) => e.s.modul === m).length] as const).filter(([, n]) => n > 0);
+  const lfText = lfFae.length ? lfFae.length + (lfFae.length === 1 ? ' Frage fällig' : ' Fragen fällig') + ' · ' + lfJe.map(([m, n]) => m + ' ' + n).join(' · ') : 'Heute keine Lernfragen fällig';
+  const lfUeben = lfFae.length > 0 && <button type="button" onClick={() => setLfD([...lfFae].sort((a2, b2) => { const A = wdLf[frageRef(a2.s, a2.f)], B = wdLf[frageRef(b2.s, b2.f)]; return (A ? 0 : 1) - (B ? 0 : 1) || (A?.faellig ?? '').localeCompare(B?.faellig ?? ''); }).slice(0, 30))} style={{ flex: '0 0 auto', minHeight: 32, padding: '0 12px', border: '1px solid var(--line)', borderRadius: 999, background: '#fff', fontSize: 13, fontWeight: 800, color: 'var(--ink)', cursor: 'pointer' }}>Üben</button>;
   const klUeben = faeK.length > 0 && <button type="button" onClick={() => kartenOeffnen({ aktion: 'faellig' })} style={{ flex: '0 0 auto', minHeight: 32, padding: '0 12px', border: '1px solid var(--line)', borderRadius: 999, background: '#fff', fontSize: 13, fontWeight: 800, color: 'var(--ink)', cursor: 'pointer' }}>Üben</button>;
   const Wochenkarte = ({ klein }: { klein?: boolean }) => (
     <section style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: klein ? 14 : 18, padding: klein ? 12 : 16, display: 'flex', flexDirection: 'column', gap: 10 }}>
@@ -280,6 +288,7 @@ export function Dashboard({ stand, neuLaden }: Props) {
             <button type="button" onClick={hl.start} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: 46, border: 0, borderRadius: 999, background: hl.btnBg, color: hl.btnFg, fontSize: 15, fontWeight: 800, cursor: 'pointer' }}>{hl.knopf}</button>
             {hl.altText && <button type="button" onClick={hl.altStart} style={{ alignSelf: 'center', padding: '6px 10px', borderRadius: 10, border: 0, background: 'none', color: 'var(--ink-2)', fontSize: 13, fontWeight: 700, cursor: 'pointer' }}>{hl.altText}</button>}
             <div style={{ borderTop: '1px solid var(--line-2)', paddingTop: 12, display: 'flex', flexDirection: 'column', gap: 6 }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8 }}><span style={{ display: 'flex', flexDirection: 'column', gap: 2, minWidth: 0 }}><span style={{ fontSize: 13, fontWeight: 800 }}>Lernfragen</span><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{lfText}</span></span>{lfUeben}</div>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8 }}><span style={{ display: 'flex', flexDirection: 'column', gap: 2 }}><span style={{ fontSize: 13, fontWeight: 800 }}>Eigene Karten</span><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{klText.faellig}</span></span>{klUeben}</div>
               <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{klText.zeit}</span>
             </div>
@@ -336,6 +345,10 @@ export function Dashboard({ stand, neuLaden }: Props) {
           <span style={{ flex: '0 0 auto', padding: '8px 14px', borderRadius: 999, background: hl.btnBg, color: hl.btnFg, fontSize: 13, fontWeight: 800 }}>Start</span>
         </button>
         <section style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 14, padding: 12, display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8 }}>
+          <span style={{ display: 'flex', flexDirection: 'column', gap: 2, minWidth: 0 }}><span style={{ fontSize: 15, fontWeight: 800 }}>Lernfragen</span><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{lfText}</span></span>
+          {lfUeben}
+        </section>
+        <section style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 14, padding: 12, display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8 }}>
           <span style={{ display: 'flex', flexDirection: 'column', gap: 2, minWidth: 0 }}><span style={{ fontSize: 15, fontWeight: 800 }}>Eigene Karten</span><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{klText.faellig}</span><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{klText.zeit}</span></span>
           {klUeben}
         </section>
@@ -379,6 +392,7 @@ export function Dashboard({ stand, neuLaden }: Props) {
 
       {haDlg && <HausaufgabeFenster ha={haDlg} farbe={farbe(haDlg.s.teilmodul.split('.')[0])[0]} zu={() => setHaDlg(null)} />}
       {/* ---------- Dialog Eintrag ---------- */}
+      {lfD && <Lernfragen titel={'Fällige Lernfragen · ' + lfD.length + ' von ' + lfFae.length} liste={lfD} stand={stand} farbe={farbe(lfD[0]?.s.modul ?? 'mab004')} onClose={() => setLfD(null)} neuLaden={neuLaden} />}
       {ed && (() => { const x = ed, pv = x.art === 'privat', set = (p: Partial<typeof x>) => setEd({ ...x, ...p }); return (
         <div className="dialog-hg" onClick={(ev) => { if (ev.target === ev.currentTarget) setEd(null); }} style={{ zIndex: 20 }}>
           <div role="dialog" aria-label="Eintrag hinzufügen" className="dialog" style={{ maxWidth: 480, borderRadius: 20 }}>

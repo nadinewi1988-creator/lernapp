@@ -141,6 +141,27 @@
       "erklaerung": "Für jeden Merkmalsträger gibt es eine passende Kategorie.",
       "quelle": "ewb002.1_2026-10-21 · Folie 26",
       "abweichungen": []
+    },
+    {
+      "begriff": "Thesaurus",
+      "wortlaut": "Systematisch geordnete Sammlung von Begriffen, die in einem thematischen Zusammenhang stehen. Hierarchische Relationen (Allgemeinere Begriffe & Engere Begriffe) und Synonyme (Verwandte Begriffe) werden abgebildet und verwaltet.",
+      "erklaerung": "Das „Wörterbuch“ einer Datenbank: Es zeigt, unter welchem Schlagwort ein Thema geführt wird und welche Ober-, Unter- und verwandten Begriffe es gibt.",
+      "quelle": "ewb002.2_2026-10-20 · Folie 11",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Schlagwortnormdatei / kontrolliertes Vokabular",
+      "wortlaut": "Schlagwortnormdatei (Thesaurus) von ERIC – Zugriff über den Reiter „Themen“",
+      "erklaerung": "Feste, einheitliche Schlagwörter, mit denen die Datenbank ihre Einträge beschreibt – unabhängig davon, welche Wörter die Autor*innen benutzen.",
+      "quelle": "ewb002.2_2026-10-20 · Folie 6, 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Boolesche Operatoren",
+      "wortlaut": "AND, OR, NOT (Folie 8 – kein eigener Wortlaut)",
+      "erklaerung": "Verknüpfungen für Suchbegriffe: AND = beide (Schnittmenge, weniger Treffer), OR = mindestens einer (Vereinigung, mehr Treffer), NOT = ohne (schließt aus). Eigene Erklärung.",
+      "quelle": "ewb002.2_2026-10-20 · Folie 8, 13–15",
+      "abweichungen": []
     }
   ]
 }

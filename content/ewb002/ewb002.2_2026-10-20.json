@@ -1,0 +1,421 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb002",
+  "teilmodul": "ewb002.2",
+  "datum": "2026-10-20",
+  "sitzung_nr": 2,
+  "sitzung_id": "",
+  "thema": "Einführung in die wissenschaftliche Literaturrecherche",
+  "thema_in_app": "eingetragen",
+  "stand": "geprueft",
+  "hinweis": "Die Sitzung vertieft die Vorlesung vom 14.10. (Vortrag der Bibliothek zur Literaturrecherche, ohne Folien). Die Recherche-Übungen in ERIC sind praktische Übungen – die Lösungen hier sind selbst erarbeitet, weil die Datenbank nicht nachgeprüft werden konnte.",
+  "quellen": [
+    {
+      "datei": "ewb002.2/T02_ewb002.2_Literaturrecherche.pdf",
+      "art": "Folien",
+      "seiten": "1–17"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Du kannst erklären, wie du über die Bibliothek (DBIS) auf die Fachdatenbank ERIC zugreifst und worauf du dabei achten musst.",
+      "art": "abgeleitet",
+      "quelle": "Folien 3–5",
+      "fragen": [
+        "f01",
+        "f02"
+      ],
+      "erklaerung_abschnitt": "Zugang zur Fachdatenbank ERIC"
+    },
+    {
+      "text": "Du kannst erklären, was ein Thesaurus (kontrolliertes Vokabular) ist und warum eine Schlagwortsuche andere Treffer liefert als eine freie Suche.",
+      "art": "abgeleitet",
+      "quelle": "Folien 6–12",
+      "fragen": [
+        "f03",
+        "f04",
+        "f05",
+        "f06"
+      ],
+      "erklaerung_abschnitt": "Thesaurus und Schlagwortsuche"
+    },
+    {
+      "text": "Du kannst die Booleschen Operatoren AND, OR und NOT anwenden, Venn-Diagramme in Suchabfragen übersetzen und Trefferzahlen berechnen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 8, 13–15",
+      "fragen": [
+        "f07",
+        "f08",
+        "f09",
+        "f10",
+        "f11",
+        "f12",
+        "f13",
+        "f14"
+      ],
+      "erklaerung_abschnitt": "Boolesche Operatoren"
+    }
+  ],
+  "kurzfassung": [
+    "ERIC ist eine Fachdatenbank für Bildungsforschung; du erreichst sie über Bibliothek → Recherchieren → Fachdatenbanken (DBIS) – mit der Campus-Lizenz (gelbe Ampel), von außen per Shibboleth.",
+    "Ein Thesaurus (Schlagwortnormdatei, kontrolliertes Vokabular) ordnet Begriffe systematisch und zeigt Ober-, Unterbegriffe und verwandte Begriffe.",
+    "Die Suche im Feld „Thema – SU“ findet nur Datensätze, denen der Begriff als Schlagwort zugeordnet ist – weniger, aber passendere Treffer.",
+    "AND verkleinert die Treffermenge (Schnittmenge), OR vergrößert sie (Vereinigung), NOT schließt Treffer aus.",
+    "Venn-Diagramme zeigen Treffermengen; Klammern legen fest, welche Verknüpfung zuerst gilt."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Zugang zur Fachdatenbank ERIC",
+      "text": "**Weg (Folie 3):** Bibliothek → Recherchieren → Fachdatenbanken (DBIS) → Zugang über Universitätsbibliothek Vechta → ERIC suchen.\n\n**Achtung:** „Nutzen Sie nicht die frei verfügbare Version von ERIC (grüne Ampel), sondern die über eine Campus-Lizenz verfügbare Version (gelbe Ampel)“.\n\n**Von außerhalb des Campusnetzes (Folie 4)** per Shibboleth:\n• „Suchen Sie Ihre Institution“ anklicken\n• nach „Vechta“ suchen und „Universität Vechta“ wählen\n• mit den persönlichen Login-Daten anmelden\n\n**In der EBSCO-Oberfläche (Folie 5)** prüfen, dass **ERIC** als Datenbank ausgewählt ist – dort werden auch andere Fachdatenbanken angeboten, z. B. PsycInfo.",
+      "folien": "2–5"
+    },
+    {
+      "titel": "Thesaurus und Schlagwortsuche",
+      "text": "Den **Thesaurus (Schlagwortnormdatei)** von ERIC erreichst du über den Reiter **„Themen“** (Folie 6).\n\n**Thesaurus (Folie 11):**\n• „Systematisch geordnete Sammlung von Begriffen, die in einem thematischen Zusammenhang stehen“\n• „Hierarchische Relationen (Allgemeinere Begriffe & Engere Begriffe) und Synonyme (Verwandte Begriffe) werden abgebildet und verwaltet“\n\nDas **„+“** hinter einem Schlagwort (z. B. *well being*) zeigt: Es gibt Oberbegriffe dazu (Folie 10).\n\n**Freie Suche vs. Schlagwortsuche** (*eigene Erklärung zu Übung 1b und 3*):\n\n| | freie Suche (alle Felder) | Feld „Thema – SU“ |\n| --- | --- | --- |\n| sucht in | Titel, Abstract, Volltext-Angaben … | nur in den vergebenen Schlagwörtern |\n| Treffer | viele, auch Zufallstreffer | weniger, aber thematisch passender |\n\nEin Thesaurus hilft außerdem, **Synonyme und Schreibweisen** zu erfassen (*wellbeing*, *well-being*, *well being*) und **passende Deskriptoren** für die Suche zu finden. Verschiedene Datenbanken (ERIC, APA PsycInfo) haben **eigene** Thesauri – der Eintrag zu „Well Being“ kann sich unterscheiden (Übung 2b).",
+      "folien": "6–12"
+    },
+    {
+      "titel": "Boolesche Operatoren",
+      "text": "*Eigene Erklärung – auf den Folien gibt es dazu Übungen, aber keine Definitionen.*\n\n| Operator | Bedeutung | Treffermenge | Venn-Diagramm |\n| --- | --- | --- | --- |\n| **A AND B** | beide Begriffe | **kleiner** | nur die Schnittfläche |\n| **A OR B** | mindestens einer | **größer** | beide Kreise ganz |\n| **A NOT B** | A, aber ohne B | kleiner als A | A ohne die Fläche, die in B liegt |\n\n**Klammern** legen die Reihenfolge fest: *(A AND C) OR (B AND D)* ist etwas anderes als *A AND (C OR B) AND D*.\n\n**Übung 1 – Venn-Diagramme (Folie 14)**, Kreise A und B oben, C und D unten:\n\n| Diagramm | markiert | Suchabfrage |\n| --- | --- | --- |\n| 1 | Schnittfläche A/C und Schnittfläche B/D | (A AND C) OR (B AND D) |\n| 2 | Teile von D, die in B oder C liegen | (B OR C) AND D |\n| 3 | ganz B plus Schnittfläche A/C | B OR (A AND C) |\n| 4 | A, B und D ohne alles, was in C liegt | (A OR B OR D) NOT C |\n\n**Trefferzahlen berechnen:** Stehen in den Feldern des Venn-Diagramms Zahlen, zählst du alle Felder zusammen, die zur Abfrage gehören – jedes Feld nur einmal.",
+      "beispiel": "Datenbankrecherche (Folie 8): *wellbeing AND school* liefert am wenigsten Treffer, *wellbeing OR school* am meisten, *wellbeing NOT school* die wellbeing-Treffer ohne Schulbezug.",
+      "folien": "8, 13–15"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Thesaurus",
+      "wortlaut": "Systematisch geordnete Sammlung von Begriffen, die in einem thematischen Zusammenhang stehen. Hierarchische Relationen (Allgemeinere Begriffe & Engere Begriffe) und Synonyme (Verwandte Begriffe) werden abgebildet und verwaltet.",
+      "erklaerung": "Das „Wörterbuch“ einer Datenbank: Es zeigt, unter welchem Schlagwort ein Thema geführt wird und welche Ober-, Unter- und verwandten Begriffe es gibt.",
+      "folie": "11"
+    },
+    {
+      "begriff": "Schlagwortnormdatei / kontrolliertes Vokabular",
+      "wortlaut": "Schlagwortnormdatei (Thesaurus) von ERIC – Zugriff über den Reiter „Themen“",
+      "erklaerung": "Feste, einheitliche Schlagwörter, mit denen die Datenbank ihre Einträge beschreibt – unabhängig davon, welche Wörter die Autor*innen benutzen.",
+      "folie": "6, 9"
+    },
+    {
+      "begriff": "Boolesche Operatoren",
+      "wortlaut": "AND, OR, NOT (Folie 8 – kein eigener Wortlaut)",
+      "erklaerung": "Verknüpfungen für Suchbegriffe: AND = beide (Schnittmenge, weniger Treffer), OR = mindestens einer (Vereinigung, mehr Treffer), NOT = ohne (schließt aus). Eigene Erklärung.",
+      "folie": "8, 13–15"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "1) Datenbankrecherche (15-20 Minuten). Loggen Sie sich in die Fachdatenbank ERIC ein und führen Sie folgende Schritte durch:\na) Geben Sie die Begriffe wellbeing und school in der erweiterten Suche ein (in zwei verschiedenen Suchboxen) und verknüpfen Sie die Begriffe mit den Operatoren AND, OR und NOT. Was fällt Ihnen bei der Suche auf? Wie verändert sich Ihre Trefferanzahl? Woran liegt das? Diskutieren Sie in Ihrer Kleingruppe und bereiten Sie eine kurze Erklärung für die anderen Gruppen vor.\nb) Wiederholen Sie die Suche, allerdings soll für die Feldsuche der Begriffe (s. Screenshot) nun „Thema – SU“ definiert werden. Was fällt Ihnen im Vergleich zu Ihrer vorherigen Suche auf? Woran könnte diese Veränderung liegen?",
+      "quelle": "Folie 8",
+      "loesung": "*Selbst erarbeitet (ohne Datenbankzugriff).*\n\n**a)** **OR** liefert die meisten Treffer (alle Datensätze mit wellbeing **oder** school – Vereinigung), **AND** die wenigsten (nur Datensätze mit **beiden** Begriffen – Schnittmenge), **NOT** liegt dazwischen (wellbeing-Treffer **ohne** school). Grund: Jeder Operator bildet eine andere Teilmenge der Treffer.\n\n**b)** Mit „Thema – SU“ wird nur in den **Schlagwörtern** gesucht, nicht in Titel, Abstract usw. Die Trefferzahl sinkt deutlich, die Treffer passen aber besser, weil der Begriff als **Hauptthema** vergeben wurde und nicht nur zufällig im Text vorkommt.",
+      "loesungsweg": "Die drei Verknüpfungen nacheinander ausführen, Trefferzahlen notieren, mit Venn-Diagramm (Schnittmenge, Vereinigung, Differenz) erklären; danach das Suchfeld wechseln und vergleichen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "2) Kontrolliertes Vokabular (10-15 Minuten)\na) Rufen Sie das kontrollierte Vokabular der Datenbank ERIC auf und suchen Sie nach dem Begriff Well Being. Besprechen Sie in der Kleingruppe, welche Informationen Sie hier finden bzw. was Ihnen auffällt.\nb) Vergleichen Sie den Eintrag von ERIC mit dem Eintrag im kontrollierten Vokabular von APA PsycInfo. Können Sie Unterschiede feststellen? (hierfür den Suchraum oben verändern, s. Screenshot)",
+      "quelle": "Folien 9–11",
+      "loesung": "*Selbst erarbeitet (ohne Datenbankzugriff).*\n\n**a)** Der Thesaurus-Eintrag zeigt das **Schlagwort** „Well Being“, seine **allgemeineren** und **engeren** Begriffe (das „+“ zeigt Oberbegriffe an) sowie **verwandte Begriffe/Synonyme**; oft auch, seit wann das Schlagwort verwendet wird und eine Begriffserklärung (Scope Note).\n\n**b)** APA PsycInfo hat einen **eigenen** Thesaurus – das Schlagwort kann anders heißen oder anders eingeordnet sein (andere Ober-/Unterbegriffe, psychologischer statt pädagogischer Schwerpunkt). Deshalb muss man in jeder Datenbank die passenden Deskriptoren neu nachschlagen.",
+      "loesungsweg": "Reiter „Themen“ öffnen, Begriff suchen, Eintrag lesen (Ober-, Unter-, verwandte Begriffe), dann Datenbank wechseln und vergleichen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "text": "3) Trefferanalyse (20-25 Minuten)\n• Suche Sie in der Erweiterten Suche (jeweils im Feld „Thema – SU“) bei ERIC nach wellbeing or well-being or well being AND students AND performance.\n• Scannen Sie mind. die ersten zehn Treffer sowohl in der Schnellansicht als auch in der Einzeltrefferansicht.\n• Inwiefern erscheinen Ihnen die Treffer mit Blick auf die Suchanfrage bzw. Ihr Thema zielführend zu sein?\n• Suchen Sie aufbauend darauf nach alternativen, geeigneten Suchbegriffen bzw. Deskriptoren oder anderen Ansatzpunkten für die Recherche.",
+      "quelle": "Folie 12",
+      "loesung": "*Selbst erarbeitet (ohne Datenbankzugriff).*\n\n• Die drei Schreibweisen mit **OR** verknüpfen (Synonyme/Schreibvarianten) und dann mit **AND** auf students und performance eingrenzen – in Klammern: (wellbeing OR well-being OR well being) AND students AND performance.\n• Beim Sichten auf Titel, Schlagwörter und Abstract achten: Geht es wirklich um den Zusammenhang von Wohlbefinden und **Leistung** von **Lernenden**?\n• **Alternative Ansatzpunkte:** passende Deskriptoren aus dem Thesaurus (z. B. engere oder verwandte Begriffe zu Well Being; „Academic Achievement“ statt performance), die Schlagwörter guter Treffer übernehmen, nach Zielgruppe eingrenzen (z. B. Schulart, Alter), Filter wie Erscheinungsjahr oder Peer Review nutzen.",
+      "loesungsweg": "Schreibvarianten mit OR bündeln, Themen mit AND verknüpfen, Treffer prüfen und aus guten Treffern neue Suchbegriffe gewinnen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "text": "Logische Operatoren – Übung 1: Formulieren Sie zu diesen Treffermengen die passenden Suchabfragen. (Vier Venn-Diagramme mit den Kreisen A und B oben, C und D unten.)",
+      "quelle": "Folie 14",
+      "loesung": "*Selbst erarbeitet.*\n\n| Diagramm | Suchabfrage |\n| --- | --- |\n| 1 (Schnittflächen A/C und B/D) | (A AND C) OR (B AND D) |\n| 2 (Teile von D in B oder C) | (B OR C) AND D |\n| 3 (ganz B plus Schnittfläche A/C) | B OR (A AND C) |\n| 4 (A, B, D ohne C) | (A OR B OR D) NOT C |",
+      "loesungsweg": "Für jedes markierte Feld fragen: In welchen Kreisen liegt es, in welchen nicht? Gleiche Muster zusammenfassen und mit Klammern verknüpfen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a05",
+      "art": "Aufgabe auf Folie",
+      "text": "Logische Operatoren – Übung 2: A Junge · B Mädchen · C Einzelkind · D 1 Geschwisterkind · E 2 oder mehr Geschwisterkinder · F Mutter alleinerziehend · G Vater alleinerziehend · H Eltern haben gemeinsames Sorgerecht · I ein Elternteil verstorben · J im Kindergarten · K in der Schule · L per Kaiserschnitt geboren · M auf natürlichem Wege geboren\n1. Wie viele Jungen, von denen ein Elternteil verstorben ist, gehen zur Schule?\n2. Wie viele Mädchen werden nicht von beiden Eltern erzogen und gehen zur Schule oder in den Kindergarten?\n3. Wie viele Jungen und Mädchen im Kindergarten mit mind. 1 Geschwisterkind wurden auf natürlichem Wege geboren?",
+      "quelle": "Folie 15",
+      "loesung": "*Selbst erarbeitet.*\n1. **A AND I AND K**\n2. **B AND (F OR G OR I) AND (J OR K)** – „nicht von beiden Eltern erzogen“ = Mutter oder Vater alleinerziehend oder ein Elternteil verstorben. (*B NOT H* wäre ungenau: gemeinsames Sorgerecht heißt nicht, dass beide Eltern erziehen.)\n3. **(A OR B) AND J AND (D OR E) AND M** – „Jungen und Mädchen“ heißt im Suchsinn A **OR** B (jedes Kind ist entweder das eine oder das andere); „mind. 1 Geschwisterkind“ = D OR E.",
+      "loesungsweg": "Jede Bedingung der Frage einem Buchstaben zuordnen; Alternativen innerhalb einer Bedingung mit OR in Klammern, verschiedene Bedingungen mit AND verbinden.",
+      "frist": "",
+      "im_kalender": false
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie kommst du über die Universitätsbibliothek Vechta zur Fachdatenbank ERIC – und welche Version musst du nehmen?",
+      "antwort": "Bibliothek → Recherchieren → Fachdatenbanken (DBIS) → ERIC suchen. Die Version mit Campus-Lizenz (gelbe Ampel) nehmen, nicht die frei verfügbare (grüne Ampel). Von außerhalb des Campus per Shibboleth (Institution „Universität Vechta“, persönlicher Login).",
+      "erklaerung": "Folien 3–4.",
+      "folie": "3–4",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f02",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Worauf musst du in der EBSCO-Oberfläche achten?",
+      "optionen": [
+        "dass ERIC als Datenbank ausgewählt ist",
+        "dass PsycInfo ausgewählt ist",
+        "dass die grüne Ampel aktiv ist",
+        "dass nur Volltexte angezeigt werden"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "In EBSCO gibt es weitere Fachdatenbanken (z. B. PsycInfo) – für die Übungen muss ERIC ausgewählt sein (Folie 5). Die grüne Ampel steht für die freie Version, die man nicht nehmen soll.",
+      "folie": "5",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f03",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist ein Thesaurus?",
+      "antwort": "Eine systematisch geordnete Sammlung von Begriffen, die in einem thematischen Zusammenhang stehen. Hierarchische Relationen (allgemeinere und engere Begriffe) und Synonyme (verwandte Begriffe) werden abgebildet und verwaltet.",
+      "erklaerung": "Folie 11.",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Ein Thesaurus bildet [[hierarchische]] Relationen (allgemeinere und engere Begriffe) und [[Synonyme]] (verwandte Begriffe) ab.",
+      "erklaerung": "Folie 11.",
+      "folie": "11",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f05",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Du suchst „wellbeing AND school“ einmal in allen Feldern und einmal im Feld „Thema – SU“. Was passiert bei der Suche im Feld „Thema – SU“? (mehrere richtig)",
+      "optionen": [
+        "Es gibt weniger Treffer.",
+        "Die Treffer passen thematisch meist besser.",
+        "Es gibt mehr Treffer, weil auch Synonyme gesucht werden.",
+        "Gesucht wird nur in den vergebenen Schlagwörtern."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Die Schlagwortsuche durchsucht nur die Deskriptoren – Zufallstreffer aus Abstracts fallen weg. Synonyme werden nicht automatisch ergänzt. (Eigene Erklärung zu Übung 1b.)",
+      "folie": "8",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f06",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Du suchst Studien zum Thema „Wohlbefinden von Schüler*innen und Schulleistung“. Beschreibe, wie du in ERIC vorgehst (Suchbegriffe, Operatoren, Suchfeld, Prüfung der Treffer).",
+      "musterloesung": "Englische Begriffe wählen und Schreibvarianten mit OR bündeln: (wellbeing OR well-being OR well being) AND students AND (performance OR achievement). Im Feld „Thema – SU“ suchen bzw. passende Deskriptoren im Thesaurus nachschlagen. Die ersten Treffer in Schnell- und Einzelansicht prüfen (Titel, Schlagwörter, Abstract) und aus guten Treffern weitere Deskriptoren übernehmen; ggf. mit Filtern (Jahr, Peer Review) eingrenzen.",
+      "bewertungspunkte": [
+        "Synonyme/Schreibvarianten mit OR",
+        "Themen mit AND verknüpft",
+        "Schlagwortsuche/Thesaurus genutzt",
+        "Treffer geprüft und Suche angepasst"
+      ],
+      "punkte": 4,
+      "erklaerung": "Transfer zu Übung 3 (Folie 12), eigene Ergänzung.",
+      "folie": "12",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f07",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Wirkung dem Operator zu.",
+      "kategorien": [
+        "AND",
+        "OR",
+        "NOT"
+      ],
+      "elemente": [
+        {
+          "text": "Schnittmenge – beide Begriffe müssen vorkommen",
+          "kategorie": "AND"
+        },
+        {
+          "text": "Vereinigung – mindestens ein Begriff",
+          "kategorie": "OR"
+        },
+        {
+          "text": "schließt Treffer mit einem Begriff aus",
+          "kategorie": "NOT"
+        },
+        {
+          "text": "vergrößert die Treffermenge",
+          "kategorie": "OR"
+        },
+        {
+          "text": "verkleinert die Treffermenge am stärksten",
+          "kategorie": "AND"
+        }
+      ],
+      "erklaerung": "Eigene Erklärung zu den Übungen auf Folie 8 und 13–15.",
+      "folie": "8, 13–15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "aufgabe",
+      "format": "frage",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Venn-Diagramm mit A, B oben und C, D unten: Markiert sind die Schnittfläche von A und C sowie die Schnittfläche von B und D. Wie lautet die Suchabfrage?",
+      "antwort": "(A AND C) OR (B AND D)",
+      "erklaerung": "Zwei Schnittflächen (AND), die beide gelten sollen → mit OR verbinden. Übung 1, Diagramm 1.",
+      "folie": "14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Markiert sind die Teile von D, die in B oder in C liegen. Welche Suchabfrage passt?",
+      "optionen": [
+        "(B OR C) AND D",
+        "B OR C OR D",
+        "(B AND C) OR D",
+        "D NOT (B OR C)"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Nur D, und davon nur der Teil, der in B oder C liegt → (B OR C) AND D. „B OR C OR D“ wäre alles, „D NOT (B OR C)“ genau der Rest von D. Übung 1, Diagramm 2.",
+      "folie": "14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Markiert sind die Kreise A, B und D vollständig – außer allem, was in C liegt. Welche Suchabfrage passt?",
+      "optionen": [
+        "(A OR B OR D) NOT C",
+        "(A AND B AND D) NOT C",
+        "A OR B OR D",
+        "(A OR B OR D) AND C"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Vereinigung von A, B, D (OR) und davon C abziehen (NOT). Übung 1, Diagramm 4.",
+      "folie": "14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "aufgabe",
+      "format": "frage",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ganz B ist markiert, außerdem die Schnittfläche von A und C. Wie lautet die Suchabfrage?",
+      "antwort": "B OR (A AND C)",
+      "erklaerung": "Übung 1, Diagramm 3.",
+      "folie": "14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Merkmale: A Junge, B Mädchen, D 1 Geschwisterkind, E 2 oder mehr Geschwisterkinder, F Mutter alleinerziehend, G Vater alleinerziehend, H gemeinsames Sorgerecht, I ein Elternteil verstorben, J Kindergarten, K Schule, M natürlich geboren. Formuliere die Suchabfragen: 1) Jungen, von denen ein Elternteil verstorben ist, in der Schule. 2) Mädchen, die nicht von beiden Eltern erzogen werden, in Schule oder Kindergarten. 3) Jungen und Mädchen im Kindergarten mit mind. 1 Geschwisterkind, natürlich geboren.",
+      "musterloesung": "1) A AND I AND K. 2) B AND (F OR G OR I) AND (J OR K). 3) (A OR B) AND J AND (D OR E) AND M.",
+      "bewertungspunkte": [
+        "1) korrekt",
+        "2) mit (F OR G OR I) und (J OR K)",
+        "3) mit (A OR B) und (D OR E)"
+      ],
+      "punkte": 3,
+      "erklaerung": "Übung 2 (Folie 15). Alternativen innerhalb einer Bedingung mit OR in Klammern, verschiedene Bedingungen mit AND.",
+      "folie": "15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "In einem Venn-Diagramm mit drei Kreisen A, B, C stehen die Trefferzahlen: nur A = 10, nur B = 8, nur C = 6, A und B (ohne C) = 4, A und C (ohne B) = 3, B und C (ohne A) = 5, A und B und C = 2. Berechne die Trefferzahl für 1) A AND (B OR C), 2) A OR (B AND C), 3) (A OR B) NOT C.",
+      "musterloesung": "1) A AND (B OR C): Felder von A, die auch in B oder C liegen = 4 + 3 + 2 = 9. 2) A OR (B AND C): ganz A (10 + 4 + 3 + 2 = 19) plus B∩C ohne A (5) = 24. 3) (A OR B) NOT C: Felder in A oder B, aber nicht in C = 10 + 8 + 4 = 22.",
+      "bewertungspunkte": [
+        "1) = 9 mit richtigen Feldern",
+        "2) = 24 mit richtigen Feldern",
+        "3) = 22 mit richtigen Feldern"
+      ],
+      "punkte": 3,
+      "erklaerung": "Im Stil der Klausuraufgabe „Berechnen Sie die Anzahl der gefundenen Dokumente“ (WS 25/26) und der Weihnachtsübungen – eigene Zahlen. Jedes Feld wird nur einmal gezählt.",
+      "folie": "13–14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Klammern in Suchabfragen stimmen? (mehrere richtig)",
+      "optionen": [
+        "(A AND C) OR (B AND D) und A AND (C OR B) AND D liefern dieselben Treffer.",
+        "Klammern legen fest, welche Verknüpfung zuerst ausgewertet wird.",
+        "Synonyme bündelt man sinnvoll in einer Klammer mit OR.",
+        "Klammern sind nur bei NOT nötig."
+      ],
+      "richtig": [
+        1,
+        2
+      ],
+      "erklaerung": "Verschiedene Klammerungen beschreiben verschiedene Flächen im Venn-Diagramm. Synonyme gehören in eine OR-Klammer, z. B. (wellbeing OR well-being OR well being).",
+      "folie": "12, 14",
+      "pruefungsrelevant": false
+    }
+  ],
+  "pruefungshinweise": [
+    "Klausur WS 25/26 (Gedächtnisprotokoll): Aufgabe 2 „Ordnen Sie den richtigen logischen Ausdruck dem jeweils entsprechenden Venn Diagramm zu“ (4 Kreise, 6 Auswahlmöglichkeiten) und Aufgabe 3 „Berechnen Sie die Anzahl der gefundenen Dokumente für folgende Suchanfrage: (A and B) or (B and D)“ (Zahlen in den Feldern).",
+    "Weihnachtsübungen WS 25/26: vier Aufgaben „Logische Operatoren“ (Venn zuordnen, Trefferzahl berechnen)."
+  ],
+  "offene_fragen": [],
+  "auffaelligkeiten": [
+    "Folie 12: „Suche Sie“ statt „Suchen Sie“."
+  ]
+}

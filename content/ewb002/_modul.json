@@ -37,7 +37,9 @@
   "kompetenzziele": [
     {
       "text": "breites und integriertes Wissen über Standards wissenschaftlichen Arbeitens und Schreibens",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "ewb002.2_2026-10-20"
+      ]
     },
     {
       "text": "breites und integriertes Wissen über die Struktur und den Ablauf wissenschaftlicher Untersuchungen",
@@ -98,6 +100,7 @@
   ],
   "sitzungen": [
     "ewb002.2_2026-10-13",
+    "ewb002.2_2026-10-20",
     "ewb002.1_2026-10-21"
   ],
   "sitzungsplan": [
@@ -327,7 +330,8 @@
   "auffaelligkeiten": [
     "Seminar S01: Folie 4 „erste Vorlesungswoche“ vs. Leitfaden „Vorlesungszeit hat bereits in der letzten Woche begonnen“",
     "VL S02: Folien 6 und 7 identisch; Folien 11 und 14 „Dieckmann“ statt „Diekmann“; Folie 33 „2.3 Abhängige und abhängige Variable“ (gemeint: unabhängige)",
-    "VL S02, Leitfrage 6: „gerichtete und ungerichtete Hypothesen“ stehen in keinem der angegebenen Texte (Häder, Tausendpfund, Raithel) – im Seminar am 27.10. nachfragen"
+    "VL S02, Leitfrage 6: „gerichtete und ungerichtete Hypothesen“ stehen in keinem der angegebenen Texte (Häder, Tausendpfund, Raithel) – im Seminar am 27.10. nachfragen",
+    "Seminar S02, Folie 12: „Suche Sie“ statt „Suchen Sie“"
   ],
   "besonderheiten": [
     "Im WS 26/27 fand die Moduleinführung nur in den Seminaren statt (Mail Prof. Zimmer, 13.10.2026); keine eigene VL-Einführung",
@@ -379,7 +383,7 @@
       "pfad": "ewb002.2/T02_ewb002.2_Literaturrecherche.pdf",
       "geaendert": "2026-10-23",
       "art": "Folien",
-      "status": "später",
+      "status": "verarbeitet",
       "sitzung": "ewb002.2_2026-10-20"
     },
     {

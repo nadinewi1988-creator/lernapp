@@ -12,6 +12,9 @@ export const hausaufgabeZuEintrag = (id: string | undefined | null): HA | null =
 };
 export const hausaufgabenFuer = (teil: string, datum: string): HA[] =>
   alleSitzungen().flatMap((s) => (s.aufgaben ?? []).filter((a) => istHA(a) && a.fuer_sitzung === teil + '_' + datum).map((a) => ({ s, a })));
+/** Hausaufgaben, die in dieser Sitzung gestellt wurden. */
+export const hausaufgabenAus = (teil: string, datum: string): HA[] =>
+  alleSitzungen().filter((s) => s.teilmodul === teil && s.datum === datum).flatMap((s) => (s.aufgaben ?? []).filter(istHA).map((a) => ({ s, a })));
 const dm = (iso?: string) => (iso ? iso.slice(8, 10) + '.' + iso.slice(5, 7) + '.' : '');
 
 /** Inhalt einer Hausaufgabe: Aufgabentext, Lösung (aufklappbar), PDF. */

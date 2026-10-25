@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
+import { Fragment, useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import type { Studienstand, Sitzung } from '../db';
 import { setzeGelesen, setzeGelernt, speichereLernzeit, lernzeitZuruecksetzen, antwortenZuruecksetzen } from '../db';
 import { kartenAus, istFaellig, kartenOeffnen } from './Karten';
@@ -8,7 +8,7 @@ import { useKlapp } from '../klapp';
 import { BESCHREIBUNGEN } from '../data/modulbeschreibungen';
 import { inhaltZu, sitzungenVon, glossarVon, symboleVon, frageRef, mdHtml, literaturStatus, literaturStand, literaturAbgeglichen } from '../lerninhalte';
 import { sitzungsFortschritt } from '../lernfortschritt';
-import { hausaufgabenFuer, HausaufgabeKasten } from '../Hausaufgabe';
+import { hausaufgabenFuer, hausaufgabenAus, HausaufgabeFenster, type HA } from '../Hausaufgabe';
 import { Lernfragen, type LFEintrag } from './Lernfragen';
 
 const C: Record<string, [string, string]> = { mab004: ['#5f80b5', '#eaf1fc'], mab005: ['#4f8f80', '#e6f5f0'], pkb003: ['#b46b80', '#fbebef'], ewb001: ['#6d9156', '#edf5e5'], ewb002: ['#b5845a', '#fcf0e4'], pyb005: ['#8a77b5', '#f1edfa'] };
@@ -106,6 +106,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   const [lernZukunft, setLernZukunft] = useKlapp<Record<string, boolean>>('mod-zukunft', {});
   const [ltOffen, setLtOffen] = useKlapp<Record<string, boolean>>('mod-lerntext', {});
   const [lernFilter, setLernFilter] = useState<string>(() => lies('filter', 'alle'));
+  const [haDlg, setHaDlg] = useState<HA | null>(null);
   const [lt, setLt] = useState<null | { sid: string; kopf: string; titel: string; ausf: boolean; begr: boolean; aufg: boolean }>(null);
   const [lokalGel, setLokalGel] = useState<Record<string, boolean>>({});
   const [glossar, setGlossar] = useState<null | { suche: string }>(null);
@@ -372,8 +373,9 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                 </button>
                 {offen && <div style={{ display: 'flex', flexDirection: 'column', padding: '0 14px 6px' }}>
                   {liste.map((r) => { const t = r.g ? ['gelernt', '#e3f2e8', '#2f7a4b'] : r.st === 'aus' ? ['ausgefallen', '#f0f0eb', '#6b6f76'] : r.st === 'nach' ? ['nachgeholt', '#e3f2e8', '#2f7a4b'] : r.st === 'weg' ? ['nachholen', '#fcecee', '#b4475a'] : r.st === 'kommt' ? ['kommt', '#f7f7f4', '#9a9ea5'] : ['offen', '#f0f0eb', '#6b6f76'];
-                    return (
-                      <button key={r.x.s.id} type="button" onClick={() => ltOeffnen(r.x)} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '10px 0', border: 0, borderTop: '1px solid #f0f0eb', background: 'transparent', color: 'var(--ink)', textAlign: 'left', cursor: 'pointer', opacity: r.st === 'kommt' ? 0.6 : 1 }}>
+                    const haZeilen = [...hausaufgabenAus(r.x.k, r.x.s.datum).map((ha) => ({ ha, txt: 'Hausaufgabe gestellt' })), ...hausaufgabenFuer(r.x.k, r.x.s.datum).map((ha) => ({ ha, txt: 'Hausaufgabe fällig' }))];
+                    return (<Fragment key={r.x.s.id}>
+                      <button type="button" onClick={() => ltOeffnen(r.x)} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '10px 0', border: 0, borderTop: '1px solid #f0f0eb', background: 'transparent', color: 'var(--ink)', textAlign: 'left', cursor: 'pointer', opacity: r.st === 'kommt' ? 0.6 : 1 }}>
                         <span style={{ width: 26, height: 26, flex: 'none', borderRadius: '50%', display: 'grid', placeItems: 'center', fontSize: 12, fontWeight: 800, background: r.g ? f[0] : r.st === 'weg' ? '#fcecee' : '#f0f0eb', color: r.g ? '#fff' : r.st === 'weg' ? '#b4475a' : 'var(--ink-3)' }}>{r.i + 1}</span>
                         <span style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column', gap: 1 }}>
                           <span style={{ fontSize: 14, fontWeight: 700 }}>{themaTitel(r.x.s.thema, inhaltVon(r.x)?.thema)}</span>
@@ -386,7 +388,13 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                         </span>
                         <span style={{ fontSize: 11, fontWeight: 800, padding: '2px 8px', borderRadius: 999, background: t[1], color: t[2], whiteSpace: 'nowrap' }}>{t[0]}</span>
                         <span style={{ color: '#9a9ea5' }}>›</span>
-                      </button>); })}
+                      </button>
+                      {haZeilen.map(({ ha, txt }) => <button key={txt + ha.s.datei + ha.a.id} type="button" onClick={() => setHaDlg(ha)} title="Öffnet die Hausaufgabe – zählt nicht als Lernzeit" style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap', margin: '-4px 0 8px 36px', padding: '6px 10px', border: 0, borderRadius: 10, background: '#fdf1d6', color: '#8a5a12', fontSize: 12, fontWeight: 700, textAlign: 'left', cursor: 'pointer', opacity: r.st === 'kommt' ? 0.85 : 1 }}>
+                        <span>📝 {txt}:</span><span style={{ fontWeight: 600 }}>{ha.a.titel ?? 'Hausaufgabe'}</span>
+                        <span style={{ fontWeight: 600, color: '#a07a3a' }}>{txt.endsWith('gestellt') ? (ha.a.frist ? '· fällig ' + fmtD(ha.a.frist) : '') : '· aus Sitzung ' + ha.s.sitzung_nr}</span>
+                        <span style={{ marginLeft: 'auto' }}>öffnen ›</span>
+                      </button>)}
+                    </Fragment>); })}
                   {zuk.length > 0 && <button type="button" onClick={() => setLernZukunft({ ...lernZukunft, [vid]: !zeigeZ })} style={{ alignSelf: 'flex-start', border: 0, background: 'none', padding: '8px 0 4px', fontSize: 13, color: 'var(--ink-3)', textDecoration: 'underline', textUnderlineOffset: 3, cursor: 'pointer' }}>{zeigeZ ? 'Kommende Termine ausblenden' : zuk.length + ' kommende Termine anzeigen'}</button>}
                   {liste.length === 0 && zuk.length === 0 && <div style={{ fontSize: 13, color: 'var(--ink-3)', padding: '8px 0' }}>Nichts in dieser Auswahl.</div>}
                 </div>}
@@ -484,12 +492,12 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
       )}
 
       {/* ---------- Lerntext ---------- */}
+      {haDlg && <HausaufgabeFenster ha={haDlg} farbe={f[0]} zu={() => setHaDlg(null)} />}
       {lt && (
         <div className="dialog-hg" onClick={(ev) => { if (ev.target === ev.currentTarget) setLt(null); }} style={{ zIndex: 20 }}>
           <div role="dialog" aria-label="Lerntext" className="dialog" style={{ maxWidth: 620, gap: 14 }}>
             <div style={{ fontSize: 13, fontWeight: 800, color: f[0] }}>{lt.kopf}</div>
             <h2 style={{ margin: '-8px 0 0', fontSize: 20 }}>{lt.titel}</h2>
-            {(() => { const xS = SESS.find((q) => q.s.id === lt.sid); return xS ? hausaufgabenFuer(xS.k, xS.s.datum).map((ha) => <HausaufgabeKasten key={ha.s.datei + ha.a.id} ha={ha} farbe={f[0]} titel={'Vorbereitung: Hausaufgabe aus Sitzung ' + ha.s.sitzung_nr} />) : null; })()}
             {(() => { const xS = SESS.find((q) => q.s.id === lt.sid); const LI = xS ? inhaltVon(xS) : null; if (!LI) return <>
             <span style={{ alignSelf: 'flex-start', fontSize: 11, fontWeight: 800, padding: '2px 8px', borderRadius: 999, border: '1px dashed #d8d8d0', background: '#fff', color: '#9a9ea5' }}>noch nicht aufbereitet</span>
               <div style={{ fontSize: 13, color: 'var(--ink-3)', border: '1px dashed #d8d8d0', borderRadius: 10, padding: '8px 10px' }}>Diese Sitzung ist noch nicht aufbereitet – im Modul-Chat mit deinen Unterlagen (Schema in claude/lerninhalte_schema.md). Bis dahin zeigt das Fenster den Aufbau.</div>

@@ -22,7 +22,7 @@ const TAG_WORT = ['montags', 'dienstags', 'mittwochs', 'donnerstags', 'freitags'
 const istTut = (s: string) => /Tutorium|eÜbung/.test(s);
 const themaTitel = (t: string | null | undefined, ersatz = 'Thema der Sitzung …') => (t && !/^\d\d:\d\d/.test(t) ? t.replace(/^\d\d /, '') : ersatz);
 const ARTNAME: Record<string, string> = { Vorlesung: 'Vorlesung', Seminar: 'Seminar', 'Übung': 'Seminar', Tutorium: 'Tutorium', 'eÜbung': 'eÜbung' };
-const SF: Record<string, [string, string, string]> = { aus: ['ausgefallen', '#f0f0eb', '#6b6f76'], da: ['anwesend', '#e3f2e8', '#2f7a4b'], weg: ['nachholen', '#fcecee', '#b4475a'], frage: ['?', '#f0f0eb', '#6b6f76'], kommt: ['kommt', '#f7f7f4', '#9a9ea5'] };
+const SF: Record<string, [string, string, string]> = { aus: ['ausgefallen', '#f0f0eb', '#6b6f76'], da: ['anwesend', '#e3f2e8', '#2f7a4b'], weg: ['nachholen', '#fcecee', '#b4475a'], nach: ['nachgeholt', '#e3f2e8', '#2f7a4b'], frage: ['?', '#f0f0eb', '#6b6f76'], kommt: ['kommt', '#f7f7f4', '#9a9ea5'] };
 const lies = <T,>(k: string, d: T): T => { try { const v = localStorage.getItem('mod-' + k); return v ? JSON.parse(v) : d; } catch { return d; } };
 const merke = (k: string, v: unknown) => { try { localStorage.setItem('mod-' + k, JSON.stringify(v)); } catch { /* egal */ } };
 
@@ -138,7 +138,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   const alleFragen: LFEintrag[] = LSITZ.flatMap((s) => s.fragen.map((f) => ({ s, f })));
   const wdRef = Object.fromEntries(stand.wiederholung.map((w) => [w.frage_ref, w]));
   const faelligZuerst = (l: LFEintrag[]) => { const h = heuteIso(); const r = (e: LFEintrag) => { const w = wdRef[frageRef(e.s, e.f)]; return !w ? 1 : w.faellig && w.faellig <= h ? 0 : 2; }; return [...l].sort((a2, b2) => r(a2) - r(b2)); };
-  const status = (x: S) => (x.s.status !== 'findet_statt' ? 'aus' : x.s.anwesenheit === 'ja' ? 'da' : x.s.anwesenheit === 'nein' ? 'weg' : x.s.datum <= HEUTE ? 'frage' : 'kommt');
+  const status = (x: S) => (x.s.status !== 'findet_statt' ? 'aus' : x.s.anwesenheit === 'ja' ? 'da' : x.s.anwesenheit === 'nein' ? (x.s.nachgearbeitet ? 'nach' : 'weg') : x.s.datum <= HEUTE ? 'frage' : 'kommt');
   const ss = istAkt ? SESS : [];
   const freiwillig = stand.teilmodule.filter((t) => t.freiwillig && t.kuerzel === kuerzel && !stand.veranstaltungen.some((v) => v.teilmodul_id === t.id));
   const gruppenIds = [...new Set(ss.map((x) => x.vid))].sort((x, y) => { const ax = ss.find((q) => q.vid === x)!, ay = ss.find((q) => q.vid === y)!; return (istTut(ax.titel) ? 1 : 0) - (istTut(ay.titel) ? 1 : 0) || ax.k.localeCompare(ay.k); });
@@ -370,7 +370,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                   <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{gel} von {statt} gelernt{statt ? ' · ' + Math.round(rows.filter((r) => r.st !== 'kommt' && r.st !== 'aus').reduce((x, r) => x + r.fp.pct, 0) / statt) + ' %' : ''}</span>
                 </button>
                 {offen && <div style={{ display: 'flex', flexDirection: 'column', padding: '0 14px 6px' }}>
-                  {liste.map((r) => { const t = r.g ? ['gelernt', '#e3f2e8', '#2f7a4b'] : r.st === 'aus' ? ['ausgefallen', '#f0f0eb', '#6b6f76'] : r.st === 'weg' ? ['nachholen', '#fcecee', '#b4475a'] : r.st === 'kommt' ? ['kommt', '#f7f7f4', '#9a9ea5'] : ['offen', '#f0f0eb', '#6b6f76'];
+                  {liste.map((r) => { const t = r.g ? ['gelernt', '#e3f2e8', '#2f7a4b'] : r.st === 'aus' ? ['ausgefallen', '#f0f0eb', '#6b6f76'] : r.st === 'nach' ? ['nachgeholt', '#e3f2e8', '#2f7a4b'] : r.st === 'weg' ? ['nachholen', '#fcecee', '#b4475a'] : r.st === 'kommt' ? ['kommt', '#f7f7f4', '#9a9ea5'] : ['offen', '#f0f0eb', '#6b6f76'];
                     return (
                       <button key={r.x.s.id} type="button" onClick={() => ltOeffnen(r.x)} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '10px 0', border: 0, borderTop: '1px solid #f0f0eb', background: 'transparent', color: 'var(--ink)', textAlign: 'left', cursor: 'pointer', opacity: r.st === 'kommt' ? 0.6 : 1 }}>
                         <span style={{ width: 26, height: 26, flex: 'none', borderRadius: '50%', display: 'grid', placeItems: 'center', fontSize: 12, fontWeight: 800, background: r.g ? f[0] : r.st === 'weg' ? '#fcecee' : '#f0f0eb', color: r.g ? '#fff' : r.st === 'weg' ? '#b4475a' : 'var(--ink-3)' }}>{r.i + 1}</span>

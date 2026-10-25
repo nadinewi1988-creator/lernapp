@@ -12,11 +12,12 @@ export function anwesenheitVon(stand: Studienstand, mk: string) {
   const H = heuteIso();
   const va = Object.fromEntries(stand.veranstaltungen.map((v) => [v.id, v.teilmodul_id]));
   const tm = Object.fromEntries(stand.teilmodule.map((t) => [t.id, t.kuerzel]));
-  const l = stand.sitzungen.filter((x) => x.datum <= H && x.status === 'findet_statt' && (tm[va[x.veranstaltung_id]] ?? '').slice(0, 6) === mk);
+  const alle = stand.sitzungen.filter((x) => x.datum <= H && (tm[va[x.veranstaltung_id]] ?? '').slice(0, 6) === mk);
+  const l = alle.filter((x) => x.status === 'findet_statt'), aus = alle.filter((x) => x.status === 'ausgefallen').length;
   const da = l.filter((x) => x.anwesenheit === 'ja').length, weg = l.filter((x) => x.anwesenheit === 'nein').length;
-  return { n: l.length, da, weg, offen: l.length - da - weg };
+  return { n: l.length, da, weg, offen: l.length - da - weg, aus };
 }
-export function AnwBalken({ z, h = 6 }: { z: { n: number; da: number; weg: number; offen: number }; h?: number }) {
+export function AnwBalken({ z, h = 6 }: { z: { n: number; da: number; weg: number; offen: number; aus?: number }; h?: number }) {
   return <span style={{ display: 'flex', height: h, borderRadius: h / 2, overflow: 'hidden', background: '#f0f0eb' }}>{([[z.da, '#5aa36f'], [z.weg, '#e07a88'], [z.offen, '#d8d8d0']] as const).map(([w, c]) => <span key={c} style={{ width: (z.n ? w / z.n * 100 : 0) + '%', background: c }} />)}</span>;
 }
 
@@ -37,7 +38,7 @@ export function Statistik({ stand, unter, gehe, neuLaden }: Props) {
   const lzM = mods.map((m) => ({ m, sek: sum(lz.filter((l) => tmK[l.teilmodul_id] === m)), woche: sum(lz.filter((l) => tmK[l.teilmodul_id] === m && l.datum >= ws)) }));
   const lzMax = Math.max(1, ...lzM.map((x) => x.sek));
   const anw = mods.map((m) => ({ m, z: anwesenheitVon(stand, m) }));
-  const ges = anw.reduce((x, y) => ({ n: x.n + y.z.n, da: x.da + y.z.da, weg: x.weg + y.z.weg, offen: x.offen + y.z.offen }), { n: 0, da: 0, weg: 0, offen: 0 });
+  const ges = anw.reduce((x, y) => ({ n: x.n + y.z.n, da: x.da + y.z.da, weg: x.weg + y.z.weg, offen: x.offen + y.z.offen, aus: x.aus + y.z.aus }), { n: 0, da: 0, weg: 0, offen: 0, aus: 0 });
   const quote = ges.da + ges.weg ? Math.round(ges.da / (ges.da + ges.weg) * 100) : null;
   const K = kartenAus(stand).filter((k) => mods.includes(k.mk));
   const kM = mods.map((m) => { const ks = K.filter((k) => k.mk === m), x = { r: 0, t: 0, f: 0 }; ks.forEach((k) => { x.r += k.stat.r; x.t += k.stat.t; x.f += k.stat.f; }); return { m, ks, ...x, n: x.r + x.t + x.f }; });
@@ -50,12 +51,12 @@ export function Statistik({ stand, unter, gehe, neuLaden }: Props) {
     <header className="kopf"><div><h1>Statistik</h1><div className="unter">{akt?.bezeichnung ?? ''} · alle Module auf einen Blick</div></div></header>
 
     <section style={karte}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 8, flexWrap: 'wrap' }}><h2 style={{ margin: 0, fontSize: 17, fontWeight: 800 }}>Anwesenheit</h2><span style={{ fontSize: 13, color: 'var(--ink-3)' }}>{ges.da} von {ges.n} Sitzungen da{ges.offen ? ' · ' + ges.offen + ' ohne Angabe' : ''}</span></div>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 8, flexWrap: 'wrap' }}><h2 style={{ margin: 0, fontSize: 17, fontWeight: 800 }}>Anwesenheit</h2><span style={{ fontSize: 13, color: 'var(--ink-3)' }}>{ges.da} von {ges.n} Sitzungen da{ges.offen ? ' · ' + ges.offen + ' ohne Angabe' : ''}{ges.aus ? ' · ' + ges.aus + ' ausgefallen' : ''}</span></div>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: 8 }}>{kachel('Quote', quote === null ? '–' : quote + ' %', quote === null ? 'var(--ink)' : quote >= 80 ? '#2f7a4b' : quote >= 50 ? '#a3580b' : '#c42b2b')}{kachel('Gefehlt', String(ges.weg))}{kachel('Ohne Angabe', String(ges.offen))}</div>
       <div style={raster}>{anw.map(({ m, z }) => <a key={m} href={'#/module/' + m + '/statistik'} style={{ display: 'flex', flexDirection: 'column', gap: 4, textDecoration: 'none', color: 'var(--ink)' }}>
         <span style={{ display: 'flex', justifyContent: 'space-between', fontSize: 13 }}><b style={{ color: farbe(m)[0] }}>{m}</b><span style={{ fontWeight: 800 }}>{z.da}/{z.n}</span></span>
         <AnwBalken z={z} />
-        <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{z.n === 0 ? 'noch keine Sitzung' : (z.weg ? z.weg + ' gefehlt' : 'nichts verpasst') + (z.offen ? ' · ' + z.offen + ' ohne Angabe' : '')}</span></a>)}</div>
+        <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{z.n === 0 ? 'noch keine Sitzung' : (z.weg ? z.weg + ' gefehlt' : 'nichts verpasst') + (z.offen ? ' · ' + z.offen + ' ohne Angabe' : '') + (z.aus ? ' · ' + z.aus + ' ausgefallen' : '')}</span></a>)}</div>
       <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>Vergangene Sitzungen; ausgefallene zählen nicht mit. Antippen öffnet die Statistik des Moduls (dort auch je Veranstaltung).</span>
     </section>
 

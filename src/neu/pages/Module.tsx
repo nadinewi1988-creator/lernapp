@@ -390,6 +390,33 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
       </> : <div style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 16, padding: 16, fontSize: 14, color: 'var(--ink-3)' }}>{art === 'vorbei' ? 'Die Lerninhalte aus diesem Semester bleiben im Archiv erhalten.' : 'Die Lerninhalte kommen, sobald dieses Modul in deinem aktuellen Semester startet.'}</div>)}
 
       {tab === 'statistik' && <>
+        {(() => {
+          const verg = SESS.filter((x) => x.s.datum <= HEUTE && x.s.status !== 'entfaellt');
+          const zaehl = (l: S[]) => { const st = l.filter((x) => x.s.status === 'findet_statt'); return { da: st.filter((x) => x.s.anwesenheit === 'ja').length, weg: st.filter((x) => x.s.anwesenheit === 'nein').length, offen: st.filter((x) => x.s.anwesenheit !== 'ja' && x.s.anwesenheit !== 'nein').length, aus: l.length - st.length, n: st.length }; };
+          const ges = zaehl(verg), quote = ges.da + ges.weg ? Math.round(ges.da / (ges.da + ges.weg) * 100) : null;
+          const gruppen = [...new Set(verg.map((x) => x.vid))].map((vid) => verg.filter((x) => x.vid === vid)).sort((a2, b2) => (a2[0].art === 'Tutorium' ? 1 : 0) - (b2[0].art === 'Tutorium' ? 1 : 0) || a2[0].k.localeCompare(b2[0].k));
+          const text = (z: ReturnType<typeof zaehl>) => [z.da + ' von ' + z.n + ' da', z.weg ? z.weg + ' gefehlt' : '', z.offen ? z.offen + ' ohne Angabe' : '', z.aus ? z.aus + ' ausgefallen' : ''].filter(Boolean).join(' · ');
+          const balken = (z: ReturnType<typeof zaehl>, h: number) => <div style={{ display: 'flex', height: h, borderRadius: h / 2, overflow: 'hidden', background: '#f0f0eb' }}>{([[z.da, '#5aa36f'], [z.weg, '#e07a88'], [z.offen, '#d8d8d0']] as const).map(([w, c]) => <div key={c} style={{ width: (z.n ? w / z.n * 100 : 0) + '%', background: c }} />)}</div>;
+          return (
+            <section style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 16, padding: 16, display: 'flex', flexDirection: 'column', gap: 10 }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
+                <h2 style={{ margin: 0, fontSize: 16, fontWeight: 800 }}>Anwesenheit</h2>
+                {quote !== null && <span style={{ fontSize: 20, fontWeight: 800, color: quote >= 80 ? '#2f7a4b' : quote >= 50 ? '#a3580b' : '#c42b2b' }}>{quote} % <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>da</span></span>}
+              </div>
+              {verg.length === 0 ? <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>Noch keine Sitzungen vorbei.</span> : <>
+                {balken(ges, 12)}
+                <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>Bisher {text(ges)}</span>
+                <span style={{ fontSize: 13, fontWeight: 800, color: 'var(--ink-3)' }}>Nach Veranstaltung</span>
+                {gruppen.map((l) => { const x0 = l[0], z = zaehl(l), gr = /\(Gruppe ([A-Z0-9]+)\)/.exec(x0.titel); return (
+                  <div key={x0.vid} style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+                    <span style={{ fontSize: 13, fontWeight: 700, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}><b style={{ color: f[0] }}>{x0.k}</b> · {x0.titel.replace(/ \(Gruppe [A-Z0-9]+\)/, '') + (gr ? ' · Gruppe ' + gr[1] : '') + (x0.art === 'Tutorium' ? ' (freiwillig)' : '')}</span>
+                    {balken(z, 6)}
+                    <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{text(z)}</span>
+                  </div>); })}
+                <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>Gezählt werden vergangene Sitzungen. Ausgefallene Sitzungen zählen nicht mit; „ohne Angabe“ trägst du im Kalender beim „?“ nach.</span>
+              </>}
+            </section>);
+        })()}
         <section style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 16, padding: 16, display: 'flex', flexDirection: 'column', gap: 10 }}>
           <h2 style={{ margin: 0, fontSize: 16, fontWeight: 800 }}>Lernzeit</h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: 8 }}>

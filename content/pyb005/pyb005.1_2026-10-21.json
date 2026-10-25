@@ -854,8 +854,8 @@
         "Der Körper ist kein Gegenstand der Psychologie."
       ],
       "richtig": [
-        "Der Gegenstand umfasst den Körper, Mentales und Wechselwirkungen zwischen beiden.",
-        "Verhalten bezeichnet alle äußerlich beobachtbaren Reaktionen auf innere oder äußere Reize."
+        0,
+        2
       ],
       "erklaerung": "Laut Bak umfasst der Gegenstand Körper, Mentales und deren Wechselwirkungen; Verhalten ist das Beobachtbare; Erleben schließt Unbewusstes häufig ein.",
       "folie": "2.1 · Folie 8",
@@ -876,10 +876,10 @@
         "bewerten"
       ],
       "richtig": [
-        "beschreiben",
-        "erklären",
-        "vorhersagen",
-        "beeinflussen"
+        0,
+        1,
+        2,
+        3
       ],
       "erklaerung": "Die VL nennt vier Ziele; „verstehen“ kommt nur im Seminar (Schreier) als fünftes Ziel dazu, „bewerten“ gar nicht.",
       "folie": "2.1 · Folie 9",
@@ -899,9 +899,9 @@
         "Erklärungen suchen nach Ursachen von Erleben und Verhalten."
       ],
       "richtig": [
-        "Beim Beschreiben wird das Geschehen nicht bewertet oder interpretiert.",
-        "Die Zuverlässigkeit von Vorhersagen zeigt, ob eine Erklärung wissenschaftlich brauchbar ist.",
-        "Erklärungen suchen nach Ursachen von Erleben und Verhalten."
+        0,
+        1,
+        3
       ],
       "erklaerung": "Beschreiben ohne Bewertung; Vorhersagequalität als Kriterium für Erklärungen; Beeinflussen ausdrücklich nicht als Manipulation.",
       "folie": "2.1 · Folie 10 + Audio",
@@ -940,7 +940,7 @@
         "G. Stanley Hall"
       ],
       "richtig": [
-        "Wilhelm Wundt"
+        0
       ],
       "erklaerung": "1879 Leipzig, Wundt – das klassische Gründungsdatum.",
       "folie": "2.2 · Folie 2",
@@ -1037,9 +1037,9 @@
         "Persönlichkeits- und Differentielle Psychologie gelten heute meist als eine Disziplin."
       ],
       "richtig": [
-        "Die Persönlichkeitspsychologie fokussiert intraindividuelle Besonderheiten.",
-        "Die Differentielle Psychologie fokussiert Unterschiede zwischen Personen.",
-        "Persönlichkeits- und Differentielle Psychologie gelten heute meist als eine Disziplin."
+        0,
+        1,
+        3
       ],
       "erklaerung": "Persönlichkeit = intra, differentiell = inter; Entwicklungspsychologie untersucht intraindividuelle Veränderung über die Zeit.",
       "folie": "2.2 · Folie 4 (Infotext)",
@@ -1071,9 +1071,9 @@
         "Nach Kuhn ist ein Paradigma ein anerkanntes Orientierungsmodell zur Problemlösung."
       ],
       "richtig": [
-        "Ein Paradigma legt fest, welche Fragestellungen zulässig sind.",
-        "Erwartungswidrige Befunde können zu einem Paradigmenwechsel führen.",
-        "Nach Kuhn ist ein Paradigma ein anerkanntes Orientierungsmodell zur Problemlösung."
+        0,
+        2,
+        3
       ],
       "erklaerung": "Paradigmen legen zulässige Fragen und Lösungen fest und können durch erwartungswidrige Befunde wechseln.",
       "folie": "2.3 · Folie 2–3",
@@ -1183,9 +1183,9 @@
         "behavioristische Perspektive – Konzentration auf beobachtbares, messbares Verhalten"
       ],
       "richtig": [
-        "biologische Perspektive – reduktionistisches Modell",
-        "humanistische Perspektive – potenzial-/ressourcenorientiertes Modell",
-        "behavioristische Perspektive – Konzentration auf beobachtbares, messbares Verhalten"
+        0,
+        1,
+        3
       ],
       "erklaerung": "Biologisch = reduktionistisch; humanistisch = ressourcenorientiert; kognitiv = mehrdimensional; behavioristisch = Verhaltensreaktionen.",
       "folie": "2.3 · Folie 5–9",
@@ -1265,9 +1265,9 @@
         "Mixed Methods zielt auf Theoriebildung und -prüfung."
       ],
       "richtig": [
-        "Quantitative Forschung zielt auf statistische Verallgemeinerung.",
-        "Qualitative Forschung zielt auf analytische Verallgemeinerung.",
-        "Mixed Methods zielt auf Theoriebildung und -prüfung."
+        1,
+        2,
+        3
       ],
       "erklaerung": "Qualitative Forschung prüft keine Hypothesen; Mixed Methods = Theoriebildung und -prüfung; analytische vs. statistische Verallgemeinerung.",
       "folie": "2.4 · Folie 3–4",
@@ -1299,9 +1299,9 @@
         "Reviews fassen die veröffentlichte Literatur zu einem Gegenstandsbereich kritisch zusammen."
       ],
       "richtig": [
-        "Meta-Analysen bündeln statistisch die Ergebnisse vieler Einzelstudien.",
-        "Pionierstudien sind erstmalige bzw. wegweisende Veröffentlichungen eines Ansatzes.",
-        "Reviews fassen die veröffentlichte Literatur zu einem Gegenstandsbereich kritisch zusammen."
+        0,
+        2,
+        3
       ],
       "erklaerung": "In Reviews und Meta-Analysen werden keine eigenständig erhobenen Daten präsentiert.",
       "folie": "2.4 · Folie 6 (Infotext)",
@@ -1389,9 +1389,9 @@
         "Hypothesen müssen so formuliert sein, dass sie an der Realität scheitern können."
       ],
       "richtig": [
-        "Induktionsschlüsse sind logisch nicht zulässig.",
-        "Ein erfolgreicher Falsifikationsversuch genügt, damit eine Hypothese als gescheitert gilt.",
-        "Hypothesen müssen so formuliert sein, dass sie an der Realität scheitern können."
+        0,
+        2,
+        3
       ],
       "erklaerung": "Popper: Anti-Induktivismus und Falsifikationismus; Hypothesen nie verifizierbar.",
       "folie": "2.4 · Folie 12–13",
@@ -1411,9 +1411,9 @@
         "Aus den 20 Tests auf Wahrheit zu schließen, wäre ein Induktionsschluss."
       ],
       "richtig": [
-        "Die Hypothese gilt als bewährt.",
-        "Die Bewährung gilt nur relativ zur Anzahl und Art der Tests (z. B. Operationalisierung, Stichprobe).",
-        "Aus den 20 Tests auf Wahrheit zu schließen, wäre ein Induktionsschluss."
+        1,
+        2,
+        3
       ],
       "erklaerung": "Aus vielen überstandenen Tests auf Verifikation zu schließen, wäre selbst ein unzulässiger Induktionsschluss – die Hypothese gilt nur als bewährt, relativ zu Anzahl und Art der Tests.",
       "folie": "2.4 · Folie 13 (Infotext)",
@@ -1444,9 +1444,9 @@
         "Es werden nur bereits bestehende Gruppen verglichen."
       ],
       "richtig": [
-        "Die Versuchsleitung variiert mindestens eine uV systematisch.",
-        "Es gibt eine Experimental- und eine Kontrollgruppe.",
-        "Die Gruppen werden zufällig (randomisiert) zugewiesen."
+        0,
+        1,
+        2
       ],
       "erklaerung": "Systematische Variation der uV, Experimental-/Kontrollgruppe, Randomisierung.",
       "folie": "2.5 · Folie 3",
@@ -1777,7 +1777,7 @@
         "Signifikanz wird mit dem Median geprüft."
       ],
       "richtig": [
-        "Statistische Signifikanz ist nicht gleichzusetzen mit inhaltlicher bzw. praktischer Bedeutsamkeit; dafür sind Effektgrößen zu berücksichtigen."
+        1
       ],
       "erklaerung": "Signifikanz ≠ praktische Bedeutsamkeit – dafür Effektgrößen.",
       "folie": "2.8 · Folie 8",
@@ -1797,9 +1797,9 @@
         "r ≥ .50 gilt als starke Korrelation."
       ],
       "richtig": [
-        "r liegt zwischen −1 und +1.",
-        "Beide Merkmale müssen mindestens intervallskaliert sein.",
-        "r ≥ .50 gilt als starke Korrelation."
+        0,
+        2,
+        3
       ],
       "erklaerung": "r zwischen −1 und +1, mind. intervallskaliert, Cohen-Grenzen.",
       "folie": "2.8 · Folie 11–12",
@@ -1831,9 +1831,9 @@
         "Experimente mit Manipulation der uV und Randomisierung haben die höchste Erklärungskraft für Kausalität."
       ],
       "richtig": [
-        "Eine Korrelation ist notwendige Voraussetzung für einen Kausalschluss.",
-        "Die Ursache muss der Wirkung zeitlich eindeutig vorausgehen.",
-        "Experimente mit Manipulation der uV und Randomisierung haben die höchste Erklärungskraft für Kausalität."
+        1,
+        2,
+        3
       ],
       "erklaerung": "Korrelation notwendig, nicht hinreichend; Bedingungen für Kausalinterpretation; Experiment höchste Erklärungskraft.",
       "folie": "2.8 · Folie 10, 14–15",
@@ -1872,9 +1872,9 @@
         "Jedes eingereichte Manuskript wird veröffentlicht."
       ],
       "richtig": [
-        "Manuskripte werden von Reviewer:innen (Fachleuten) begutachtet.",
-        "Die Mehrheit der Journals erscheint in englischer Sprache.",
-        "Im Diskussionsteil werden offene oder neu aufgeworfene Fragen angemerkt."
+        0,
+        1,
+        2
       ],
       "erklaerung": "Peer-Review-Prozess.",
       "folie": "2.8 · Folie 16",
@@ -1906,9 +1906,9 @@
         "Ein konfirmatorisches Vorgehen prüft Hypothesen, ein exploratives erkundet Neues."
       ],
       "richtig": [
-        "Ausgangspunkt ist häufig eine Forschungslücke.",
-        "Im Forschungsdesign werden u. a. Erhebungsmethode, Stichprobe und Operationalisierung festgelegt.",
-        "Ein konfirmatorisches Vorgehen prüft Hypothesen, ein exploratives erkundet Neues."
+        0,
+        1,
+        3
       ],
       "erklaerung": "Laut Audio werden Hypothesen in der Analyse nur vorläufig bestätigt oder widerlegt – nie bewiesen.",
       "folie": "2.4 · Folie 5 + Audio",

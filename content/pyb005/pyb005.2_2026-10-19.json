@@ -313,11 +313,11 @@
         "verändern"
       ],
       "richtig": [
-        "beschreiben",
-        "verstehen",
-        "erklären",
-        "vorhersagen",
-        "verändern"
+        0,
+        1,
+        3,
+        4,
+        5
       ],
       "erklaerung": "Die fünf Ziele: beschreiben, verstehen, erklären, vorhersagen, verändern. „Bewerten“ (moralisch beurteilen) gehört nicht dazu.",
       "folie": "10",
@@ -337,9 +337,9 @@
         "Vorhersagen sind ohne Erklärung grundsätzlich unmöglich."
       ],
       "richtig": [
-        "Beschreibungen beruhen auf beobachtbaren Informationen.",
-        "Erklärungen gehen ihrem Selbstverständnis nach über das Beobachtbare hinaus.",
-        "Wer Ursachen erklären kann, kann Verhalten auch besser vorhersagen und beeinflussen."
+        0,
+        1,
+        2
       ],
       "erklaerung": "Die ersten drei stehen so auch in der eÜbung. Die vierte ist zu absolut – Erklärungen helfen beim Vorhersagen, sind aber nicht zwingend Voraussetzung.",
       "folie": "10 · eÜbung",
@@ -421,8 +421,8 @@
         "Unser Gehirn ergänzt Informationen, die gar nicht da sind."
       ],
       "richtig": [
-        "Wahrnehmung kann fehlgeleitet werden – auch bei der Wahrnehmung anderer Menschen.",
-        "Unser Gehirn ergänzt Informationen, die gar nicht da sind."
+        0,
+        3
       ],
       "erklaerung": "Man sieht ein Dreieck/einen Stern, der nicht da ist – die Wahrnehmung ergänzt. Daraus folgt: Auch Urteile über Menschen können täuschen. „Immer falsch“ und „nur in der Wahrnehmungspsychologie“ sind übertrieben.",
       "folie": "14",
@@ -454,9 +454,9 @@
         "Sie ist ein Teilgebiet der Psychologie."
       ],
       "richtig": [
-        "Sie betrachtet Lehren und Lernen über die gesamte Lebensspanne.",
-        "Sie steht der Arbeits- und Organisationspsychologie nahe.",
-        "Sie ist ein Teilgebiet der Psychologie."
+        1,
+        2,
+        3
       ],
       "erklaerung": "„Ausschließlich Schule“ ist falsch – Schule ist häufig, aber z. B. auch Unternehmen gehören dazu.",
       "folie": "11",
@@ -569,7 +569,7 @@
         "falsch"
       ],
       "richtig": [
-        "falsch"
+        1
       ],
       "erklaerung": "Der Behaviorismus untersucht beobachtbares Verhalten ohne Bezug auf mentale Prozesse – Emotionen gehören gerade nicht dazu. (eÜbung, Test 1, A5)",
       "folie": "16 · Myers S. 9",
@@ -589,8 +589,8 @@
         "Die Perspektive beschreibt das Streben des Menschen nach Selbstverwirklichung."
       ],
       "richtig": [
-        "Es handelt sich um ein ressourcenorientiertes Modell.",
-        "Die Perspektive beschreibt das Streben des Menschen nach Selbstverwirklichung."
+        2,
+        3
       ],
       "erklaerung": "Humanistisch = Wachstumspotenzial, Selbstverwirklichung, Ressourcen. „Mangelwesen“ widerspricht dem, „Reaktionen auf Reize“ ist behavioristisch. (eÜbung, Test 1, A6)",
       "folie": "16 · Myers S. 9–11",
@@ -653,7 +653,7 @@
         "Sie geht auf Sigmund Freud zurück."
       ],
       "richtig": [
-        "Sie fand in den 1960er Jahren statt und brachte die Psychologie zum Interesse an mentalen Prozessen zurück."
+        0
       ],
       "erklaerung": "Die kognitive Wende (1960er) rückte wieder die Informationsverarbeitung in den Mittelpunkt (Myers S. 11).",
       "folie": "Myers S. 11",
@@ -738,8 +738,8 @@
         "Weil nur so Experimente möglich sind."
       ],
       "richtig": [
-        "Weil jede Perspektive nur einen Teil des Phänomens zeigt und keine allein das ganze Bild liefert.",
-        "Weil sich die Perspektiven gegenseitig ergänzen."
+        0,
+        2
       ],
       "erklaerung": "Bild aus dem Text: zweidimensionale Ansichten eines dreidimensionalen Gegenstands. Widerlegt sind die Perspektiven nicht.",
       "folie": "18 · Myers S. 15",
@@ -759,8 +759,8 @@
         "Das Paradigma erklärt menschliches Verhalten als komplexes Wechselspiel aus personalen und situationalen Faktoren."
       ],
       "richtig": [
-        "Das Paradigma integriert verschiedene vorherige Strömungen.",
-        "Das Paradigma erklärt menschliches Verhalten als komplexes Wechselspiel aus personalen und situationalen Faktoren."
+        2,
+        3
       ],
       "erklaerung": "Rogers ist Humanist; die kognitive Wende steht für die kognitive Perspektive. (eÜbung, Test 1, A8)",
       "folie": "19, 21",
@@ -841,10 +841,10 @@
         "geht mit einem universalistischen Anspruch einher"
       ],
       "richtig": [
-        "basiert auf wissenschaftlich fundiertem Wissen",
-        "ist Handeln unter Ungewissheit",
-        "setzt eine vertrauensvolle Beziehung bzw. ein Arbeitsbündnis voraus",
-        "geht mit einem universalistischen Anspruch einher"
+        0,
+        1,
+        2,
+        4
       ],
       "erklaerung": "Professionelles Handeln „ist erlernbar“ (Idel et al., 2021) – die Option „angeboren“ ist also falsch.",
       "folie": "22",

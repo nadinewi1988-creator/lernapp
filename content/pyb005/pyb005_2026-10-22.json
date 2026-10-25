@@ -38,7 +38,7 @@
         "falsch"
       ],
       "richtig": [
-        "wahr"
+        0
       ],
       "erklaerung": "Wahr: Gute Erklärungen ermöglichen Vorhersagen, und das Verständnis von Ursachen hilft beim gezielten Beeinflussen.",
       "folie": "Test 1 · A1 · VL 2.1 Folie 9–10",
@@ -56,7 +56,7 @@
         "falsch"
       ],
       "richtig": [
-        "wahr"
+        0
       ],
       "erklaerung": "Wahr: Beschreiben erfasst das Beobachtbare ohne Interpretation; Erklärungen suchen nach (nicht direkt beobachtbaren) Ursachen.",
       "folie": "Test 1 · A2 · VL 2.1 Folie 10",
@@ -111,7 +111,7 @@
         "Bei beiden Perspektiven geht es um die mehrdimensionale Betrachtung menschlicher Kognitionen."
       ],
       "richtig": [
-        "Wünsche und Bedürfnisse werden als biologisch determiniert angesehen."
+        1
       ],
       "erklaerung": "Folie 6: Wünsche und Bedürfnisse werden als biologisch determiniert angesehen. Die anderen Optionen beschreiben humanistisch, behavioristisch bzw. kognitiv.",
       "folie": "Test 1 · A4 · VL 2.3 · Folie 6",
@@ -129,7 +129,7 @@
         "falsch"
       ],
       "richtig": [
-        "falsch"
+        1
       ],
       "erklaerung": "Falsch: Hauptgegenstand sind Verhaltensreaktionen, also beobachtbares und messbares Verhalten.",
       "folie": "Test 1 · A5 · VL 2.3 Folie 7",
@@ -149,8 +149,8 @@
         "Der Mensch strebt nach Selbstverwirklichung."
       ],
       "richtig": [
-        "Sie ist ein ressourcenorientiertes Modell.",
-        "Der Mensch strebt nach Selbstverwirklichung."
+        2,
+        3
       ],
       "erklaerung": "Humanistisch: Mensch von Natur aus gut, potenzial-/ressourcenorientiert, strebt nach Selbstverwirklichung – nicht „Mangelwesen“; „Reaktionen“ wäre behavioristisch.",
       "folie": "Test 1 · A6 · VL 2.3 Folie 8",
@@ -170,8 +170,8 @@
         "psychodynamische Perspektive"
       ],
       "richtig": [
-        "kognitive Perspektive",
-        "humanistische Perspektive"
+        1,
+        2
       ],
       "erklaerung": "„Bewusste mentale Auseinandersetzung“ = kognitiv; „persönlich weiterentwickeln“ = humanistisch.",
       "folie": "Test 1 · A7 · VL 2.3",
@@ -191,8 +191,8 @@
         "Es erklärt Verhalten als komplexes Wechselspiel personaler und situationaler Faktoren."
       ],
       "richtig": [
-        "Es integriert verschiedene vorherige Strömungen.",
-        "Es erklärt Verhalten als komplexes Wechselspiel personaler und situationaler Faktoren."
+        2,
+        3
       ],
       "erklaerung": "Vertreter ist Werner Früh (Rogers = humanistisch); die kognitive Wende gehört zur kognitiven Perspektive.",
       "folie": "Test 1 · A8 · VL 2.3 Folie 10",
@@ -370,7 +370,7 @@
         "Panelstudie."
       ],
       "richtig": [
-        "Panelstudie."
+        2
       ],
       "erklaerung": "Dieselben Personen zu mehreren Zeitpunkten = Panelstudie.",
       "folie": "Test 2 · A7 · VL 2.5 · Folie 6",
@@ -402,8 +402,8 @@
         "Lehrer M. führt ein faktorielles Experiment durch."
       ],
       "richtig": [
-        "Der Münzwurf entspricht den Anforderungen an eine randomisierte Zuweisung.",
-        "Im Rahmen der Operationalisierung muss Lehrer M. festlegen, wie der Lernfortschritt gemessen wird."
+        1,
+        2
       ],
       "erklaerung": "Die Gruppe ohne App ist die Kontrollgruppe; Münzwurf = Randomisierung; Lernfortschritt muss operationalisiert werden; nur eine uV → kein faktorielles Experiment.",
       "folie": "Test 2 · A9 · VL 2.5 · Folie 3–5",
@@ -534,8 +534,8 @@
         "Alle Teilnehmenden erhalten die gleiche Bearbeitungszeit."
       ],
       "richtig": [
-        "Alle Teilnehmenden erhalten dieselbe, wortgleich vorgelesene Instruktion.",
-        "Alle Teilnehmenden erhalten die gleiche Bearbeitungszeit."
+        0,
+        3
       ],
       "erklaerung": "Gleiche Instruktion und Bearbeitungszeit = standardisiert; Lärm und zusätzliche Ermutigung verletzen die Durchführungsobjektivität.",
       "folie": "Test 2 · A13 · VL 2.7 · Folie 8",

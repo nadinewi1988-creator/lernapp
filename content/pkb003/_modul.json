@@ -611,5 +611,36 @@
       "sitzung": "pkb003.3_2026-11-12 (Hausaufgabe S. 57–65 bereits exzerpiert in pkb003.3_2026-10-22, Aufgabe a03); Weber-Präsentation: Kap. 2.1 ab S. 68"
     }
   ],
-  "kalender_eingetragen_am": "2026-10-25"
+  "kalender_eingetragen_am": "2026-10-25",
+  "literatur": [
+    {
+      "eintrag": "Blum/Schubert (2017): Politikfeldanalyse",
+      "vorhanden": false,
+      "stand": "2026-10-25"
+    },
+    {
+      "eintrag": "Bossert/Lampert (2011): Wirtschafts- und Sozialordnung der Bundesrepublik Deutschland",
+      "vorhanden": false,
+      "stand": "2026-10-25"
+    },
+    {
+      "eintrag": "Möltgen-Sicking/Winter (2018): Verwaltung und Verwaltungswissenschaft",
+      "vorhanden": true,
+      "stand": "2026-10-25",
+      "datei": "pkb003.3/S02_2026-11-12_Moeltgen-Sicking-Winter_Verwaltung-und-Verwaltungswissenschaft.pdf",
+      "hinweis": "Text für die Sitzung am 12.11. – ob das ganze Buch oder ein Auszug, bitte prüfen"
+    },
+    {
+      "eintrag": "Rudzio (2018): Das politische System der Bundesrepublik Deutschland",
+      "vorhanden": true,
+      "stand": "2026-10-25",
+      "datei": "pkb003.1/Zusatz_Mannewitz-Rudzio_PolSystem_Fassung1.pdf",
+      "hinweis": "neuere Auflage (Mannewitz/Rudzio), drei Fassungen im Ordner"
+    },
+    {
+      "eintrag": "Seibel (2016): Verwaltung verstehen",
+      "vorhanden": false,
+      "stand": "2026-10-25"
+    }
+  ]
 }

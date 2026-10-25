@@ -1,0 +1,35 @@
+{
+  "schema": "lernapp-modul/2",
+  "modul": "pyb005",
+  "name": "Grundlagen der Pädagogischen Psychologie für Bildung und Erziehung",
+  "semester": "WiSe 26/27",
+  "sitzungen": [],
+  "dateien": [],
+  "literatur": [
+    {
+      "eintrag": "Gerrig/Zimbardo (2018): Psychologie",
+      "vorhanden": false,
+      "stand": "2026-10-25"
+    },
+    {
+      "eintrag": "Mietzel (2017): Pädagogische Psychologie des Lernens und Lehrens",
+      "vorhanden": false,
+      "stand": "2026-10-25"
+    },
+    {
+      "eintrag": "Schweer/Schulte-Pelkum (2017): Psychologische Grundlagen professionellen Handelns, Band 1",
+      "vorhanden": false,
+      "stand": "2026-10-25"
+    },
+    {
+      "eintrag": "Schweer/Siebertz-Reckzeh/Ziro (2021): Psychologische Grundlagen professionellen Handelns, Band 2",
+      "vorhanden": false,
+      "stand": "2026-10-25"
+    },
+    {
+      "eintrag": "Schacter u. a. (2016): Psychology",
+      "vorhanden": false,
+      "stand": "2026-10-25"
+    }
+  ]
+}

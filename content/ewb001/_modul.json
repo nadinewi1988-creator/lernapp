@@ -1,0 +1,46 @@
+{
+  "schema": "lernapp-modul/2",
+  "modul": "ewb001",
+  "name": "Grundlagen und Grundbegriffe der Erziehungswissenschaften",
+  "semester": "WiSe 26/27",
+  "sitzungen": [],
+  "dateien": [],
+  "literatur": [
+    {
+      "eintrag": "Gudjons: Pädagogisches Grundwissen",
+      "vorhanden": true,
+      "stand": "2026-10-25",
+      "datei": "ewb001.2/04_Literatur/02_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_2_Richtungen_der_Erziehungswissenschaft.pdf",
+      "hinweis": "nur Kapitel 2, 8, 9 und 12 (Gudjons/Traub 2016)"
+    },
+    {
+      "eintrag": "Kron: Grundwissen Pädagogik",
+      "vorhanden": false,
+      "stand": "2026-10-25"
+    },
+    {
+      "eintrag": "Stein (2017): Allgemeine Pädagogik",
+      "vorhanden": true,
+      "stand": "2026-10-25",
+      "datei": "ewb001.1/4._Literatur/Stein_Allgemeine_Pädagogik_2017.pdf"
+    },
+    {
+      "eintrag": "Hörner u. a. (2010): Bildung, Erziehung, Sozialisation",
+      "vorhanden": false,
+      "stand": "2026-10-25"
+    },
+    {
+      "eintrag": "Michelsen/Rieckmann (2014): Kompetenzorientiertes Lehren und Lernen an Hochschulen",
+      "vorhanden": true,
+      "stand": "2026-10-25",
+      "datei": "ewb001.2/04_Literatur/08_Michelsen_Rieckmann_Kompetenzorientiertes_Lehren_und_Lernen_an_Hochschulen_–_Veränderte_Anforderungen_und_Bedingungen_für_Lehrende_und_Studierende_post-print.pdf"
+    },
+    {
+      "eintrag": "Erpenbeck/Sauter (2016): Stoppt die Kompetenzkatastrophe!",
+      "vorhanden": true,
+      "stand": "2026-10-25",
+      "datei": "ewb001.2/04_Literatur/08_Erpenbeck_Sauter_2019_StopptDieKompetenzkatastrophe_Kapitel_5_Kann_man_Kompetenzen_lehren.pdf",
+      "hinweis": "nur Kapitel 5 (Ausgabe 2019)"
+    }
+  ]
+}

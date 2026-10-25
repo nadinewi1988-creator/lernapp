@@ -1,0 +1,20 @@
+{
+  "schema": "lernapp-modul/2",
+  "modul": "mab005",
+  "name": "Wahrscheinlichkeitsrechnung",
+  "semester": "WiSe 26/27",
+  "sitzungen": [],
+  "dateien": [],
+  "literatur": [
+    {
+      "eintrag": "Hübner (2009): Stochastik – Eine anwendungsorientierte Einführung",
+      "vorhanden": false,
+      "stand": "2026-10-25"
+    },
+    {
+      "eintrag": "Kütting/Sauer (2011): Elementare Stochastik",
+      "vorhanden": false,
+      "stand": "2026-10-25"
+    }
+  ]
+}

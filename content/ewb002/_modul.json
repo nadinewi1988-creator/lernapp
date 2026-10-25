@@ -1,0 +1,42 @@
+{
+  "schema": "lernapp-modul/2",
+  "modul": "ewb002",
+  "name": "Methoden der empirischen Bildungsforschung",
+  "semester": "WiSe 26/27",
+  "sitzungen": [],
+  "dateien": [],
+  "literatur": [
+    {
+      "eintrag": "Döring/Bortz (2016): Forschungsmethoden und Evaluation",
+      "vorhanden": true,
+      "stand": "2026-10-25",
+      "datei": "../ewb002 - WS 25:26/Literatur/Döring, N. (2023) - Forschungsmethoden und Evaluation in den Sozial- und Humanwissenschaften.pdf",
+      "hinweis": "neuere Auflage (Döring 2023), liegt im Ordner „ewb002 - WS 25:26“"
+    },
+    {
+      "eintrag": "Eid/Gollwitzer/Schmitt (2017): Statistik und Forschungsmethoden",
+      "vorhanden": false,
+      "stand": "2026-10-25"
+    },
+    {
+      "eintrag": "Diekmann (2017): Empirische Sozialforschung",
+      "vorhanden": false,
+      "stand": "2026-10-25"
+    },
+    {
+      "eintrag": "Hussy/Schreier/Echterhoff (2013): Forschungsmethoden in Psychologie und Sozialwissenschaften",
+      "vorhanden": false,
+      "stand": "2026-10-25"
+    },
+    {
+      "eintrag": "Renner (2012): Forschungsmethoden der Psychologie",
+      "vorhanden": false,
+      "stand": "2026-10-25"
+    },
+    {
+      "eintrag": "Rost (2013): Interpretation und Bewertung pädagogisch-psychologischer Studien",
+      "vorhanden": false,
+      "stand": "2026-10-25"
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import { useMemo, useState, type CSSProperties } from 'react';
 import type { Studienstand, Sitzung, KEintrag } from '../db';
 import { aendereSitzung, speichereEintrag } from '../db';
 import { kartenAus, istFaellig, kartenOeffnen } from './Karten';
+import { useKlapp } from '../klapp';
 import { auswerten, heuteIso, noteText, nachFach, BEREICH_ZIEL } from '../pruefungslogik';
 import { WOCHEN, FEIERTAGE, FERIEN, parseIso, plusTage } from '../data/kalender';
 
@@ -29,7 +30,7 @@ export function Dashboard({ stand, neuLaden }: Props) {
   const [lokalS, setLokalS] = useState<Record<string, Partial<Sitzung>>>({});
   const [lokalE, setLokalE] = useState<Record<string, boolean>>({});
   const [nhModul, setNhModul] = useState<string | null>(null);
-  const [nhZeigeErl, setNhZeigeErl] = useState(false);
+  const [nhZeigeErl, setNhZeigeErl] = useKlapp('db-nh-erledigt', false);
   const [ed, setEd] = useState<null | { titel: string; art: string; mod: string; datum: string; zeit: string; bis: string; notiz: string; ganztag: boolean; bisDatum: string; wdh: string; tage: number[]; wdhBis: string; fehler?: string }>(null);
   const [fehler, setFehler] = useState('');
   async function los(f: () => Promise<void>) { setFehler(''); try { await f(); await neuLaden(); } catch (e) { setFehler('Speichern hat nicht geklappt: ' + String((e as Error).message || e)); } }

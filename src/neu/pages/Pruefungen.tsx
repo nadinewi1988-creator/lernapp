@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useKlapp } from '../klapp';
 import type { Studienstand, Termin, Versuch } from '../db';
 import { speichereVersuch, entferneVersuch, speichereTermin, setzeVoraussetzung, verschiebePruefung, neuePruefung, setzeBafoegGrenze } from '../db';
 import { auswerten, STATUS_FARBE, BEREICH_ZIEL, fristHinweis, mitTag, datumLang, noteText, tageBis, heuteIso, type Eintrag } from '../pruefungslogik';
@@ -19,14 +20,14 @@ interface Props { stand: Studienstand; unter: string; gehe: (u: string) => void;
 export function Pruefungen({ stand, unter, gehe, neuLaden }: Props) {
   const a = auswerten(stand);
   const tab = unter || 'meine';
-  const [offen, setOffen] = useState<Record<string, boolean>>({});
+  const [offen, setOffen] = useKlapp<Record<string, boolean>>('pr-semester', {});
   const [noteD, setNoteD] = useState<null | { e: Eintrag; nr: number; wert: string; datum: string; id?: string }>(null);
   const [termD, setTermD] = useState<null | { e: Eintrag; felder: Record<string, Partial<Termin>> }>(null);
   const [verD, setVerD] = useState<null | { e: Eintrag; ziel: string; grund: string }>(null);
   const [neuD, setNeuD] = useState<null | { kuerzel: string; name: string; cp: string; form: string; semester_id: string; datum: string }>(null);
   const [fehler, setFehler] = useState('');
   const [arbeitet, setArbeitet] = useState(false);
-  const istOffen = (id: string, akt: boolean) => (offen[id] === undefined ? akt : offen[id]);
+  const istOffen = (id: string, akt: boolean) => (offen[id] === undefined ? (void akt, false) : offen[id]);
 
   async function los(f: () => Promise<void>) {
     setArbeitet(true); setFehler('');
@@ -320,7 +321,7 @@ function Dialog({ titel, unter, zu, children }: { titel: string; unter?: string;
 }
 
 function RegelnSeite() {
-  const [offen, setOffen] = useState(true);
+  const [offen, setOffen] = useKlapp('pr-regeln', false);
   return (
     <>
       <section className="karte" style={{ padding: 0, borderRadius: 20, overflow: 'hidden' }}>

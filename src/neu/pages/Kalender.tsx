@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
 import type { Studienstand, Sitzung, KEintrag } from '../db';
 import { aendereSitzung, speichereEintrag, loescheEintrag } from '../db';
 import { kartenOeffnen } from './Karten';
+import { useKlapp } from '../klapp';
 import { auswerten, heuteIso } from '../pruefungslogik';
 import { WOCHEN, FEIERTAGE, FERIEN, UNI, MODUL_NAMEN, parseIso, plusTage, isoVon } from '../data/kalender';
 
@@ -25,8 +26,8 @@ const toMin = (t: string) => { const [h, m] = t.split(':').map(Number); return h
 const modKey = (m: string) => (MODS.includes((m || '').slice(0, 6)) ? m.slice(0, 6) : '');
 const farbe = (m: string): [string, string] => C[modKey(m)] ?? ['#6b6f76', '#f0f0eb'];
 const rgba = (hex: string, a: number) => { const n = parseInt(hex.slice(1), 16); return 'rgba(' + (n >> 16) + ',' + ((n >> 8) & 255) + ',' + (n & 255) + ',' + a + ')'; };
-const lies = <T,>(k: string, d: T): T => { try { const v = localStorage.getItem('kal-' + k); return v ? JSON.parse(v) : d; } catch { return d; } };
-const merke = (k: string, v: unknown) => { try { localStorage.setItem('kal-' + k, JSON.stringify(v)); } catch { /* egal */ } };
+const lies = <T,>(k: string, d: T): T => { try { const v = sessionStorage.getItem('kal-' + k); return v ? JSON.parse(v) : d; } catch { return d; } };
+const merke = (k: string, v: unknown) => { try { sessionStorage.setItem('kal-' + k, JSON.stringify(v)); } catch { /* egal */ } };
 
 /** Eintrag, wie ihn die Seite verwendet (echte Einträge + Prüfungstermine von der Prüfungsseite) */
 interface E { id: string; art: string; titel: string; datum: string; zeit: string; bis: string; modul: string; notiz: string; erledigt: boolean; ganztag: boolean; bisDatum: string; wdh: string; tage: number[]; wdhBis: string; ausnahmen: string[]; virtuell?: boolean; versuch?: number; roh?: KEintrag }
@@ -52,9 +53,9 @@ export function Kalender({ stand, neuLaden }: Props) {
   const [foldA, setFoldA] = useState<Record<string, boolean>>(() => lies('foldA', {}));
   const [nhKarte, setNhKarte] = useState<boolean>(() => lies('nhKarte', false));
   const [afKarte, setAfKarte] = useState<boolean>(() => lies('afKarte', false));
-  const [zeigeErl, setZeigeErl] = useState(false);
-  const [zeigeErlN, setZeigeErlN] = useState(false);
-  const [haAlle, setHaAlle] = useState(false);
+  const [zeigeErl, setZeigeErl] = useKlapp('kal-erledigt', false);
+  const [zeigeErlN, setZeigeErlN] = useKlapp('kal-erledigt-n', false);
+  const [haAlle, setHaAlle] = useKlapp('kal-ha-alle', false);
   const [fehler, setFehler] = useState('');
   const [jetzt, setJetzt] = useState(new Date());
   useEffect(() => { const t = setInterval(() => setJetzt(new Date()), 60000); return () => clearInterval(t); }, []);
@@ -218,7 +219,6 @@ export function Kalender({ stand, neuLaden }: Props) {
   const wEnde = plusTage(montagVon(HEUTE), 6), in4w = plusTage(HEUTE, 28);
   const liste = aufgaben.filter((e) => zeigeErl || !e.erledigt).sort((a, b) => (a.datum + a.zeit).localeCompare(b.datum + b.zeit));
   const BUCK: [string, (e: E) => boolean][] = [['Überfällig', (e) => e.datum < HEUTE && !e.erledigt], ['Diese Woche', (e) => e.datum >= HEUTE && e.datum <= wEnde], ['Nächste 4 Wochen', (e) => e.datum > wEnde && e.datum <= in4w], ['Später', (e) => e.datum > in4w], ['Erledigt', (e) => e.erledigt && e.datum < HEUTE]];
-  const STANDARD: Record<string, boolean> = { 'Später': false, 'Erledigt': false };
 
   // ---------- Dialog-Daten ----------
   const ss = sitzung ? SESS.find((x) => x.id === sitzung) ?? null : null;
@@ -386,7 +386,7 @@ export function Kalender({ stand, neuLaden }: Props) {
           {nhKarte && (
             <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
               <div style={{ height: 6, borderRadius: 3, background: '#f0f0eb', overflow: 'hidden' }}><div style={{ height: '100%', borderRadius: 3, background: '#2f7a4b', width: (miss.length ? Math.round(nDone / miss.length * 100) : 0) + '%' }} /></div>
-              {nhGruppen.map((k) => { const arr = gr[k], dn = arr.filter(isDone).length, offen = k in foldN ? foldN[k] : dn < arr.length; return (
+              {nhGruppen.map((k) => { const arr = gr[k], dn = arr.filter(isDone).length, offen = k in foldN ? foldN[k] : (void dn, false); return (
                 <div key={k} style={{ display: 'flex', flexDirection: 'column' }}>
                   <button type="button" onClick={() => setFoldN({ ...foldN, [k]: !offen })} style={gruppenKopf}><span><span style={{ display: 'inline-block', width: '1em' }}>{offen ? '▾' : '▸'}</span><span style={{ color: farbe(k)[0] }}>{k}</span></span><span>{dn}/{arr.length}</span></button>
                   {offen && <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -414,7 +414,7 @@ export function Kalender({ stand, neuLaden }: Props) {
           </button>
           {afKarte && (
             <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-              {BUCK.map(([name, f]) => { const arr = liste.filter(f); if (!arr.length) return null; const offen = name in foldA ? foldA[name] : STANDARD[name] !== false; return (
+              {BUCK.map(([name, f]) => { const arr = liste.filter(f); if (!arr.length) return null; const offen = name in foldA ? foldA[name] : false; return (
                 <div key={name} style={{ display: 'flex', flexDirection: 'column' }}>
                   <button type="button" onClick={() => setFoldA({ ...foldA, [name]: !offen })} style={{ ...gruppenKopf, color: name === 'Überfällig' ? '#c42b2b' : 'var(--ink-3)' }}><span><span style={{ display: 'inline-block', width: '1em' }}>{offen ? '▾' : '▸'}</span>{name.toUpperCase()}</span><span style={{ color: 'var(--ink-3)' }}>{arr.length}</span></button>
                   {offen && <div style={{ display: 'flex', flexDirection: 'column' }}>

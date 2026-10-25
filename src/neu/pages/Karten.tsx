@@ -4,6 +4,7 @@ import { speichereKarte, speichereKarten, karteAusblenden, kartenVerschieben, sp
 import { heuteIso, aktuellesSemester } from '../pruefungslogik';
 import { parseIso, plusTage } from '../data/kalender';
 import { gradeAnswer } from '../../lib/api';
+import { useKlapp } from '../klapp';
 
 // ---------- Konstanten aus dem Entwurf ----------
 const C: Record<string, [string, string]> = { mab004: ['#5f80b5', '#eaf1fc'], mab005: ['#4f8f80', '#e6f5f0'], pkb003: ['#b46b80', '#fbebef'], ewb001: ['#6d9156', '#edf5e5'], ewb002: ['#b5845a', '#fcf0e4'], pyb005: ['#8a77b5', '#f1edfa'] };
@@ -76,8 +77,8 @@ export function Karten({ stand, unter, gehe, neuLaden }: Props) {
   const [am, setAm] = useState(false);
   const [sel, setSel] = useState<Record<string, boolean>>({});
   const [selArm, setSelArm] = useState(false);
-  const [grpOffen, setGrpOffen] = useState<Record<string, boolean>>({});
-  const [statOffen, setStatOffen] = useState<Record<string, boolean>>({});
+  const [grpOffen, setGrpOffen] = useKlapp<Record<string, boolean>>('kar-gruppen', {});
+  const [statOffen, setStatOffen] = useKlapp<Record<string, boolean>>('kar-statistik', {});
   const [statSort, setStatSort] = useState('schwach'), [statFil, setStatFil] = useState('alle'), [statSuche, setStatSuche] = useState(''), [statZahl, setStatZahl] = useState(20);
   const [resetArm, setResetArm] = useState<string | null>(null);
   const [lokalW, setLokalW] = useState<Record<string, { stand: string; stufe: number; faellig: string }>>({});

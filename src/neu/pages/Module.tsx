@@ -4,6 +4,7 @@ import { setzeGelernt, speichereLernzeit, lernzeitZuruecksetzen, antwortenZuruec
 import { kartenAus, istFaellig, kartenOeffnen } from './Karten';
 import { auswerten, heuteIso, nachFach, aktuellesSemester, type Eintrag } from '../pruefungslogik';
 import { parseIso, plusTage, entfallGrund } from '../data/kalender';
+import { useKlapp } from '../klapp';
 import { BESCHREIBUNGEN } from '../data/modulbeschreibungen';
 import { inhaltZu, sitzungenVon, glossarVon, symboleVon, frageRef, mdHtml } from '../lerninhalte';
 import { Lernfragen, type LFEintrag } from './Lernfragen';
@@ -98,16 +99,17 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   const HEUTE = heuteIso();
   const akt = aktuellesSemester(stand.semester);
   const modul = stand.module.find((m) => m.kuerzel === kuerzel);
-  const [sitzOffen, setSitzOffen] = useState<Record<string, boolean>>({});
-  const [lernOffen, setLernOffen] = useState<Record<string, boolean>>({});
-  const [lernZukunft, setLernZukunft] = useState<Record<string, boolean>>({});
+  const [sitzOffen, setSitzOffen] = useKlapp<Record<string, boolean>>('mod-sitzungen', {});
+  const [lernOffen, setLernOffen] = useKlapp<Record<string, boolean>>('mod-lernen', {});
+  const [lernZukunft, setLernZukunft] = useKlapp<Record<string, boolean>>('mod-zukunft', {});
+  const [ltOffen, setLtOffen] = useKlapp<Record<string, boolean>>('mod-lerntext', {});
   const [lernFilter, setLernFilter] = useState<string>(() => lies('filter', 'alle'));
   const [lt, setLt] = useState<null | { sid: string; kopf: string; titel: string; ausf: boolean; begr: boolean; aufg: boolean }>(null);
   const [lokalGel, setLokalGel] = useState<Record<string, boolean>>({});
   const [glossar, setGlossar] = useState<null | { suche: string }>(null);
   const [hinweis, setHinweis] = useState(false);
   const [lf, setLf] = useState<null | { titel: string; liste: LFEintrag[] }>(null);
-  const [loesung, setLoesung] = useState<Record<string, boolean>>({});
+  const [loesung, setLoesung] = useKlapp<Record<string, boolean>>('mod-loesung', {});
   const [resetArm, setResetArm] = useState<string | null>(null);
   const [fehler, setFehler] = useState('');
   useEffect(() => { merke('filter', lernFilter); }, [lernFilter]);
@@ -349,7 +351,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
             const rows = arr.map((x, i) => ({ x, i, st: status(x), g: gelernt(x.s.id) }));
             const gel = rows.filter((r) => r.g && r.st !== 'aus').length, statt = rows.filter((r) => r.st !== 'kommt' && r.st !== 'aus').length, nach = rows.filter((r) => r.st === 'weg' && !r.g).length;
             const gef = rows.filter((r) => lernFilter === 'alle' || (lernFilter === 'nach' ? r.st === 'weg' && !r.g : !r.g && r.st !== 'kommt'));
-            const verg = gef.filter((r) => r.st !== 'kommt'), zuk = gef.filter((r) => r.st === 'kommt'), zeigeZ = !!lernZukunft[vid], offen = lernOffen[vid] ?? true;
+            const verg = gef.filter((r) => r.st !== 'kommt'), zuk = gef.filter((r) => r.st === 'kommt'), zeigeZ = !!lernZukunft[vid], offen = lernOffen[vid] ?? false;
             const liste = [...verg, ...(zeigeZ ? zuk : [])];
             return (
               <div key={vid} style={{ border: '1px solid #f0f0eb', borderRadius: 12, overflow: 'hidden' }}>
@@ -467,10 +469,10 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
               </div>
               {([['ausf', 'Ausführliche Erklärung', 14], ['begr', 'Begriffe', 15], ['aufg', 'Aufgaben aus dem Material', 15]] as const).map(([key, name, fs]) => (
                 <div key={key} style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-                  <button type="button" onClick={() => setLt({ ...lt, [key]: !lt[key] })} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', minHeight: 44, padding: '0 14px', border: '1px solid var(--line)', borderRadius: 12, background: '#fff', fontSize: fs, fontWeight: 800, color: 'var(--ink)', cursor: 'pointer' }}>{name}<span style={{ fontSize: key === 'ausf' ? 14 : 12, color: 'var(--ink-3)' }}>{lt[key] ? '▾' : '▸'}</span></button>
-                  {lt[key] && key === 'ausf' && <div style={{ display: 'flex', flexDirection: 'column', gap: 8, padding: '0 4px' }}>{[96, 90, 94, 70].map((w) => <span key={w} style={{ display: 'block', height: 10, width: w + '%', borderRadius: 5, background: '#f0f0eb' }} />)}</div>}
-                  {lt[key] && key === 'begr' && <div style={{ display: 'flex', flexDirection: 'column', gap: 4, padding: '0 4px', fontSize: 13, color: 'var(--ink-2)' }}><b style={{ color: 'var(--ink)' }}>Begriff</b><span>„Wortlaut der Definition aus den Unterlagen“ (Folie x)</span><span>In eigenen Worten: …</span></div>}
-                  {lt[key] && key === 'aufg' && <div style={{ display: 'flex', flexDirection: 'column', gap: 4, padding: '0 4px', fontSize: 13, color: 'var(--ink-2)' }}><b style={{ color: 'var(--ink)' }}>Aufgabe 1 (Übungsblatt / Folie)</b><span>Aufgabentext wie im Material …</span><span style={{ textDecoration: 'underline' }}>Lösung mit Lösungsweg anzeigen</span></div>}
+                  <button type="button" onClick={() => setLtOffen({ ...ltOffen, [lt.sid + ':' + key]: !ltOffen[lt.sid + ':' + key] })} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', minHeight: 44, padding: '0 14px', border: '1px solid var(--line)', borderRadius: 12, background: '#fff', fontSize: fs, fontWeight: 800, color: 'var(--ink)', cursor: 'pointer' }}>{name}<span style={{ fontSize: key === 'ausf' ? 14 : 12, color: 'var(--ink-3)' }}>{ltOffen[lt.sid + ':' + key] ? '▾' : '▸'}</span></button>
+                  {ltOffen[lt.sid + ':' + key] && key === 'ausf' && <div style={{ display: 'flex', flexDirection: 'column', gap: 8, padding: '0 4px' }}>{[96, 90, 94, 70].map((w) => <span key={w} style={{ display: 'block', height: 10, width: w + '%', borderRadius: 5, background: '#f0f0eb' }} />)}</div>}
+                  {ltOffen[lt.sid + ':' + key] && key === 'begr' && <div style={{ display: 'flex', flexDirection: 'column', gap: 4, padding: '0 4px', fontSize: 13, color: 'var(--ink-2)' }}><b style={{ color: 'var(--ink)' }}>Begriff</b><span>„Wortlaut der Definition aus den Unterlagen“ (Folie x)</span><span>In eigenen Worten: …</span></div>}
+                  {ltOffen[lt.sid + ':' + key] && key === 'aufg' && <div style={{ display: 'flex', flexDirection: 'column', gap: 4, padding: '0 4px', fontSize: 13, color: 'var(--ink-2)' }}><b style={{ color: 'var(--ink)' }}>Aufgabe 1 (Übungsblatt / Folie)</b><span>Aufgabentext wie im Material …</span><span style={{ textDecoration: 'underline' }}>Lösung mit Lösungsweg anzeigen</span></div>}
                 </div>))}
               <div style={{ fontSize: 12, color: 'var(--ink-3)' }}>Quellen: Folien/Unterlagen der Sitzung mit Seitenangaben</div>
             </>;
@@ -490,14 +492,14 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                 </div>
                 {([['ausf', 'Ausführliche Erklärung', 14], ['begr', 'Begriffe (' + LI.definitionen.length + ')', 15], ['aufg', 'Aufgaben aus dem Material (' + LI.aufgaben.length + ')', 15]] as const).map(([key, name, fs]) => (
                   <div key={key} style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-                    <button type="button" onClick={() => setLt({ ...lt, [key]: !lt[key] })} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', minHeight: 44, padding: '0 14px', border: '1px solid var(--line)', borderRadius: 12, background: '#fff', fontSize: fs, fontWeight: 800, color: 'var(--ink)', cursor: 'pointer' }}>{name}<span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{lt[key] ? '▾' : '▸'}</span></button>
-                    {lt[key] && key === 'ausf' && <div style={{ display: 'flex', flexDirection: 'column', gap: 14, padding: '0 4px' }}>{LI.erklaerung.map((a2) => <div key={a2.titel} style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+                    <button type="button" onClick={() => setLtOffen({ ...ltOffen, [lt.sid + ':' + key]: !ltOffen[lt.sid + ':' + key] })} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', minHeight: 44, padding: '0 14px', border: '1px solid var(--line)', borderRadius: 12, background: '#fff', fontSize: fs, fontWeight: 800, color: 'var(--ink)', cursor: 'pointer' }}>{name}<span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{ltOffen[lt.sid + ':' + key] ? '▾' : '▸'}</span></button>
+                    {ltOffen[lt.sid + ':' + key] && key === 'ausf' && <div style={{ display: 'flex', flexDirection: 'column', gap: 14, padding: '0 4px' }}>{LI.erklaerung.map((a2) => <div key={a2.titel} style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
                       <span style={{ display: 'flex', gap: 8, alignItems: 'baseline', flexWrap: 'wrap' }}><b style={{ fontSize: 15 }}>{a2.titel}</b>{fol(a2.folien)}</span>{md(a2.text)}
                       {a2.beispiel && <div style={{ background: f[1], borderRadius: 10, padding: '8px 12px', fontSize: 13 }}><b>Beispiel: </b><span dangerouslySetInnerHTML={{ __html: mdHtml(a2.beispiel).replace(/^<p>|<\/p>$/g, '') }} /></div>}</div>)}</div>}
-                    {lt[key] && key === 'begr' && <div style={{ display: 'flex', flexDirection: 'column', gap: 10, padding: '0 4px' }}>{LI.definitionen.map((d) => <div key={d.begriff} style={{ display: 'flex', flexDirection: 'column', gap: 3, borderLeft: '3px solid ' + f[0], paddingLeft: 10 }}>
+                    {ltOffen[lt.sid + ':' + key] && key === 'begr' && <div style={{ display: 'flex', flexDirection: 'column', gap: 10, padding: '0 4px' }}>{LI.definitionen.map((d) => <div key={d.begriff} style={{ display: 'flex', flexDirection: 'column', gap: 3, borderLeft: '3px solid ' + f[0], paddingLeft: 10 }}>
                       <span style={{ display: 'flex', gap: 8, alignItems: 'baseline', flexWrap: 'wrap' }}><b style={{ fontSize: 14 }}>{d.begriff}</b>{fol(d.folie)}</span>
                       <span style={{ fontSize: 13, fontStyle: 'italic', color: 'var(--ink-2)' }}>„{d.wortlaut}“</span><span style={{ fontSize: 13 }}>{d.erklaerung}</span></div>)}</div>}
-                    {lt[key] && key === 'aufg' && <div style={{ display: 'flex', flexDirection: 'column', gap: 12, padding: '0 4px' }}>{LI.aufgaben.map((a2) => { const k2 = LI.datei + a2.id, auf = !!loesung[k2]; return <div key={a2.id} style={{ display: 'flex', flexDirection: 'column', gap: 4, borderLeft: '3px solid ' + f[0], paddingLeft: 10 }}>
+                    {ltOffen[lt.sid + ':' + key] && key === 'aufg' && <div style={{ display: 'flex', flexDirection: 'column', gap: 12, padding: '0 4px' }}>{LI.aufgaben.map((a2) => { const k2 = LI.datei + a2.id, auf = !!loesung[k2]; return <div key={a2.id} style={{ display: 'flex', flexDirection: 'column', gap: 4, borderLeft: '3px solid ' + f[0], paddingLeft: 10 }}>
                       <b style={{ fontSize: 13 }}>{a2.quelle}</b><span style={{ fontSize: 13, color: 'var(--ink-2)', whiteSpace: 'pre-wrap' }}>{a2.text}</span>
                       <button type="button" onClick={() => setLoesung({ ...loesung, [k2]: !auf })} style={{ alignSelf: 'flex-start', border: 0, background: 'none', padding: 0, fontSize: 13, fontWeight: 700, color: f[0], textDecoration: 'underline', textUnderlineOffset: 3, cursor: 'pointer' }}>{auf ? 'Lösung ausblenden' : 'Lösung mit Lösungsweg anzeigen'}</button>
                       {auf && <div style={{ background: f[1], borderRadius: 10, padding: '8px 12px', fontSize: 13, display: 'flex', flexDirection: 'column', gap: 6 }}><span><b>Lösung: </b>{a2.loesung}</span><span style={{ whiteSpace: 'pre-wrap' }}><b>Lösungsweg: </b>{a2.loesungsweg}</span></div>}

@@ -616,10 +616,15 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                   <div style={{ display: 'flex', gap: 3, padding: 3, background: '#efefea', borderRadius: 999 }}>{[['alle', 'Alle'], ['vl', 'Aus der Vorlesung'], ['unsicher', 'Noch nicht sicher']].map(([id, n]) => <button key={id} type="button" onClick={() => setGlFil(id)} style={seg(glFil === id)}>{n}</button>)}</div>
                 </div>
                 {gef.length === 0 && <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>Kein Begriff gefunden.</span>}
-                <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>{gruppen.map((gr) => (
+                <div style={{ display: 'flex', flexDirection: 'column' }}>{gruppen.map((gr) => (
                   <div key={gr.key} style={{ display: 'flex', flexDirection: 'column' }}>
-                    <span style={{ fontSize: 12, fontWeight: 800, color: f[0], padding: '0 0 4px' }}>{gr.titel}</span>
-                    {gr.l.map((x) => { const k2 = x.g.begriff, auf = !!glOffen[kuerzel + ':' + k2], sf = STF[x.st] ?? STF.neu; return (
+                    {(() => { const gk = kuerzel + ':gruppe:' + glOrd + ':' + gr.key, gAuf = !!glOffen[gk] || !!glossar.suche.trim(); return <>
+                    <button type="button" onClick={() => setGlOffen({ ...glOffen, [gk]: !glOffen[gk] })} style={{ display: 'flex', alignItems: 'baseline', gap: 8, padding: '8px 0', border: 0, borderTop: '1px solid var(--line)', background: 'none', textAlign: 'left', cursor: 'pointer' }}>
+                      <span style={{ width: '1em', color: 'var(--ink-3)', fontSize: 12 }}>{gAuf ? '▾' : '▸'}</span>
+                      <span style={{ flex: 1, fontSize: 13, fontWeight: 800, color: f[0] }}>{gr.titel}</span>
+                      <span style={{ fontSize: 12, color: 'var(--ink-3)', whiteSpace: 'nowrap' }}>{gr.l.length} {gr.l.length === 1 ? 'Begriff' : 'Begriffe'} · {gr.l.filter((x) => x.st === 'sicher').length} sicher</span>
+                    </button>
+                    {gAuf && gr.l.map((x) => { const k2 = x.g.begriff, auf = !!glOffen[kuerzel + ':' + k2], sf = STF[x.st] ?? STF.neu; return (
                       <div key={k2} style={{ borderTop: '1px solid #f0f0eb' }}>
                         <button type="button" onClick={() => setGlOffen({ ...glOffen, [kuerzel + ':' + k2]: !auf })} style={{ width: '100%', display: 'flex', alignItems: 'baseline', gap: 8, padding: '9px 0', border: 0, background: 'none', textAlign: 'left', color: 'var(--ink)', cursor: 'pointer' }}>
                           <span style={{ width: '1em', color: 'var(--ink-3)', fontSize: 12 }}>{auf ? '▾' : '▸'}</span>
@@ -641,10 +646,11 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                           </div>
                         </div>}
                       </div>); })}
+                    </>; })()}
                   </div>))}</div>
               </>;
             })()}
-            {kuerzel.startsWith('mab') && <><b style={{ fontSize: 14 }}>Symbole</b>{SYMBOLE.length === 0 ? <div style={{ fontSize: 13, color: 'var(--ink-3)', border: '1px dashed #d8d8d0', borderRadius: 10, padding: '10px 12px' }}>Die Symbolliste wird mit den ersten aufbereiteten mab-Sitzungen angelegt.</div>
+            {kuerzel.startsWith('mab') && <><button type="button" onClick={() => setGlOffen({ ...glOffen, [kuerzel + ':symbole']: !glOffen[kuerzel + ':symbole'] })} style={{ display: 'flex', alignItems: 'baseline', gap: 8, padding: '10px 0 4px', border: 0, borderTop: '1px solid var(--line)', background: 'none', textAlign: 'left', cursor: 'pointer', color: 'var(--ink)' }}><span style={{ width: '1em', color: 'var(--ink-3)', fontSize: 12 }}>{glOffen[kuerzel + ':symbole'] ? '▾' : '▸'}</span><b style={{ flex: 1, fontSize: 14 }}>Symbole</b><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{SYMBOLE.length} Zeichen</span></button>{!glOffen[kuerzel + ':symbole'] ? null : SYMBOLE.length === 0 ? <div style={{ fontSize: 13, color: 'var(--ink-3)', border: '1px dashed #d8d8d0', borderRadius: 10, padding: '10px 12px' }}>Die Symbolliste wird mit den ersten aufbereiteten mab-Sitzungen angelegt.</div>
               : <div style={{ display: 'flex', flexDirection: 'column' }}>{SYMBOLE.map((y) => <div key={y.zeichen} style={{ display: 'grid', gridTemplateColumns: '5.5em minmax(0, 1fr)', gap: 10, padding: '7px 0', borderTop: '1px solid #f0f0eb', fontSize: 13 }}><b style={{ fontSize: 16, color: f[0] }} dangerouslySetInnerHTML={{ __html: y.latex ? mdInline('$' + y.latex + '$') : mdInline(y.zeichen) }} /><span><span dangerouslySetInnerHTML={{ __html: mdInline(y.bedeutung) }} />{y.gelesen ? <span style={{ color: 'var(--ink-3)' }}> · gelesen: {y.gelesen}</span> : null}</span></div>)}</div>}</>}
             <div style={{ display: 'flex', justifyContent: 'flex-end' }}><button type="button" onClick={() => setGlossar(null)} style={klein}>Schließen</button></div>
           </div>

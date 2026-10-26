@@ -85,7 +85,8 @@
     "ewb001.1_2026-10-20",
     "ewb001.2_2026-10-13",
     "ewb001.2_2026-10-20",
-    "ewb001_2026-10-23"
+    "ewb001_2026-10-23",
+    "ewb001.1_2026-10-27"
   ],
   "klausurstil": {
     "quellen": [
@@ -173,6 +174,13 @@
     {
       "eintrag": "Krüger, H.-H. (2012): Einführung in Theorien und Methoden der Erziehungswissenschaft. Opladen: Budrich (zitiert in ewb001.2 S02)",
       "vorhanden": false,
+      "stand": "2026-10-26"
+    },
+    {
+      "eintrag": "Klein, F. (2020): Das Gute im Kind sehen und mit ihm handeln. Zeitschrift für Heilpädagogik 71 (11), S. 568–575 (Reflexion ewb001.1 S03, Folie 78)",
+      "vorhanden": true,
+      "datei": "ewb001.1/4._Literatur/Klein_Das_Gute_im_Kind_sehen_und_danach_handeln.pdf",
+      "hinweis": "Artikel S. 568–574 vollständig",
       "stand": "2026-10-26"
     }
   ],
@@ -369,6 +377,41 @@
       "art": "Tafel/Lösungen Tutor",
       "status": "verarbeitet",
       "sitzung": "ewb001_2026-10-23"
+    },
+    {
+      "pfad": "ewb001.1/2._Präsentationen/ewb001.1_3__Sitzung_Menschenbilder.pdf",
+      "geaendert": "2026-10-26",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.1_2026-10-27"
+    },
+    {
+      "pfad": "ewb001.1/3._Videos Courseware Kopie/Sitzung_03/ewb001.1_3__Sitzung_Transkript_Zusammenfassung.docx",
+      "geaendert": "2026-10-26",
+      "art": "Transkript",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.1_2026-10-27"
+    },
+    {
+      "pfad": "ewb001.1/3._Videos Courseware Kopie/Sitzung_03/ewb001.1_3__Sitzung_Menschenbilder-1.mp4",
+      "geaendert": "2026-10-26",
+      "art": "Video",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.1_2026-10-27"
+    },
+    {
+      "pfad": "ewb001.1/5._Lernzielkontrollen/3_Lernzielkontrolle_Menschenbilder_der_Pädagogik.pptx",
+      "geaendert": "2026-10-26",
+      "art": "Lernzielkontrolle",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.1_2026-10-27"
+    },
+    {
+      "pfad": "ewb001.1/4._Literatur/Klein_Das_Gute_im_Kind_sehen_und_danach_handeln.pdf",
+      "geaendert": "2026-10-26",
+      "art": "Literatur (Sitzungstext)",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.1_2026-10-27"
     }
   ]
 }

@@ -1,0 +1,1158 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb001",
+  "teilmodul": "ewb001.1",
+  "datum": "2026-10-27",
+  "sitzung_nr": 3,
+  "sitzung_id": "",
+  "thema": "Menschenbilder der Pädagogik (Hobbes, Locke, Rousseau) und Auswirkungen auf das Handeln",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Asynchrone Courseware-Einheit 3 (Folien + eingesprochenes Video aus einem früheren Semester). Die Präsenz am 27.10. ist Compasito Teil II – freiwillig und nicht prüfungsrelevant, daher keine Lerninhalte dazu.",
+  "quellen": [
+    {
+      "datei": "ewb001.1/2._Präsentationen/ewb001.1_3__Sitzung_Menschenbilder.pdf",
+      "art": "Folien",
+      "seiten": "1–83"
+    },
+    {
+      "datei": "ewb001.1/3._Videos Courseware Kopie/Sitzung_03/ewb001.1_3__Sitzung_Transkript_Zusammenfassung.docx",
+      "art": "Transkript des eingesprochenen Videos (99 Min.)",
+      "seiten": ""
+    },
+    {
+      "datei": "ewb001.1/5._Lernzielkontrollen/3_Lernzielkontrolle_Menschenbilder_der_Pädagogik.pptx",
+      "art": "Lernzielkontrolle „Wer wird Millionär“ (15 Fragen, Lösung per Animation markiert)",
+      "seiten": "1–18"
+    },
+    {
+      "datei": "ewb001.1/1._Organisatorisches/Zusammenfassung_ewb001.1_Stein_end.pdf",
+      "art": "Kurzskript",
+      "seiten": "4–5"
+    },
+    {
+      "datei": "ewb001.1/4._Literatur/Klein_Das_Gute_im_Kind_sehen_und_danach_handeln.pdf",
+      "art": "Literatur (Reflexion Folie 78, Hausaufgabe h02)",
+      "seiten": "568–574"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Du kannst erklären, wie das Menschenbild die Ursachenzuschreibung und das pädagogische Handeln bestimmt, und das an den Fällen Murat I. und Heike K. zeigen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 3–13; Video (Merkpunkte für die Klausur)",
+      "fragen": [
+        "f01",
+        "f02",
+        "f22"
+      ],
+      "erklaerung_abschnitt": "Das Menschenbild als Weichenstellung"
+    },
+    {
+      "text": "Du kannst Anthropologie definieren und begründen, warum jeder pädagogischen Tätigkeit ein implizites Menschenbild zugrunde liegt.",
+      "art": "abgeleitet",
+      "quelle": "Folien 11–13",
+      "fragen": [
+        "f03",
+        "f04",
+        "f05"
+      ],
+      "erklaerung_abschnitt": "Anthropologie und „Bilderverbot“"
+    },
+    {
+      "text": "Du kannst die Kette Menschenbild → Gesellschaftsbild → Handlungsweise an Thomas von Aquin, Juan Luis Vives und Christian Jasper Klumker darstellen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 14–22; Video",
+      "fragen": [
+        "f06",
+        "f07",
+        "f08"
+      ],
+      "erklaerung_abschnitt": "Historischer Rückblick I: Umgang mit Bedürftigen"
+    },
+    {
+      "text": "Du kannst die Thesen von Ariès (Entdeckung der Kindheit) und Postman (Verschwinden der Kindheit) erläutern und den Wandel der Kinderbilder beschreiben.",
+      "art": "abgeleitet",
+      "quelle": "Folien 23–37; Video",
+      "fragen": [
+        "f09",
+        "f10",
+        "f11",
+        "z01",
+        "z02",
+        "z03",
+        "z04",
+        "z05",
+        "z06"
+      ],
+      "erklaerung_abschnitt": "Historischer Rückblick II: Kinderbilder – Ariès und Postman"
+    },
+    {
+      "text": "Du kannst die Menschenbilder von Hobbes, Rousseau und Locke unterscheiden und typischen Lehrkraftaussagen zuordnen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 38–42; Video",
+      "fragen": [
+        "f12",
+        "f13",
+        "f14",
+        "f15",
+        "z07",
+        "z08",
+        "z09",
+        "z10"
+      ],
+      "erklaerung_abschnitt": "Philosophische Grundlagen: Hobbes, Rousseau, Locke"
+    },
+    {
+      "text": "Du kannst die Reckahner Reflexionen zur Ethik pädagogischer Beziehungen erläutern.",
+      "art": "abgeleitet",
+      "quelle": "Folien 43–48",
+      "fragen": [
+        "f16",
+        "f17",
+        "f22",
+        "z11"
+      ],
+      "erklaerung_abschnitt": "Reckahner Reflexionen zur Ethik pädagogischer Beziehungen"
+    },
+    {
+      "text": "Du kannst aus den Dimensionen des Menschen (Kopf – Herz – Hand) Bedürfnisse und Aufgaben der Pädagogik ableiten und auf eine kindgerechte Schule übertragen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 49–77; Video",
+      "fragen": [
+        "f18",
+        "f19",
+        "f20",
+        "f21",
+        "z12",
+        "z13",
+        "z14",
+        "z15"
+      ],
+      "erklaerung_abschnitt": "Pädagogische Anthropologie: Dimensionen, Bedürfnisse, Aufgaben"
+    }
+  ],
+  "kurzfassung": [
+    "„Das Bild vom Menschen bestimmt, wie wir dem Menschen entgegentreten“: Aus dem Menschenbild folgen Ursachenzuschreibung und Handlungsoptionen (Förderung oder Sanktion).",
+    "Anthropologie ist die Wissenschaft vom Menschen, seinem Wesen und seinen Dimensionen bzw. von den Menschenbildern (Schilling 2000); jeder pädagogischen Tätigkeit liegt ein implizites Menschenbild zugrunde.",
+    "Historisch zeigt die Kette Menschenbild → Gesellschaftsbild → Handlungsweise: Thomas von Aquin (milde Gaben), Vives (Fördern und Fordern), Klumker (Hilfe zur Selbsthilfe).",
+    "Ariès: Kindheit ist historisch konstruiert, „entdeckt“ an der Wende vom 16. zum 17. Jh.; Postman: Seit den 1960ern verschwindet die Kindheit wieder.",
+    "Hobbes: homo homini lupus (von Natur aus schlecht) – Rousseau: von Natur aus gut – Locke: tabula rasa (weder gut noch schlecht).",
+    "Die Reckahner Reflexionen (Prengel 2013) fordern „Wohlwollen und Verständnis statt Verletzungen und Demütigung“ in zehn Leitlinien.",
+    "Pädagogische Anthropologie: Kopf – Herz – Hand (Pestalozzi); aus den sechs Dimensionen des Menschen folgen Bedürfnisse und daraus die Aufgaben der Pädagogik."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Das Menschenbild als Weichenstellung",
+      "text": "**Kernsatz (Folie 13, 38):** „Das Bild vom Menschen bestimmt, wie wir dem Menschen entgegentreten.“\n\nAus dem Menschenbild folgt die **Ursachenzuschreibung** (liegt die Ursache in der Person – Egoismus, „kriminelle Energie“ – oder in Lebensumständen und Strukturen?) und daraus folgen die **Handlungsoptionen** (Beratung, Förderung, neue Identität – oder Sanktion, Strafe, Ausschluss). Laut Video ist das die typische Prüfungsstruktur.\n\nAktueller Bezug (Folie 3): Ein Call for Papers des DJI fragt, wie sich Sozialpädagogik zwischen Hilfe/Beratung und Sicherheitslogik (Schutz vor Täter*innen) aufstellt.\n\n| Fall | Position A | Position B |\n| --- | --- | --- |\n| **Murat I., 18 J.** (Folien 4–7): als Kind misshandelt, Schulversagen, „dem Islam zugewandt“, Übergriffe gegen Homosexuelle, Sprüche gegen Juden | **Tanja Holsten, Sozialpädagogin:** Misshandlung und fehlende Aufstiegschancen; „Die Flucht in Salafismus ist sein Ausweg.“ → Beratung, positive Identität und Zukunft | **Heiko Gimmler, Sicherheitsexperte:** „eine wirkliche Gefahr für die Gesellschaft“ → auf die Opfer blicken, früh und mit wirksameren Strafen vorgehen |\n| **Heike K.** (Folien 8–10): zweimal sitzengeblieben, fälscht die Unterschrift des Vaters | **Melanie Heuer, Lehrerin:** „kriminelle Energie“ → ob sie an der Schule bleiben soll, „mehr als fraglich“ | **Thomas Schmidt, Lehrer:** Druck durch erfolgreiche Eltern und den bevorzugten Bruder → früher intervenieren, Gespräch mit allen Beteiligten |\n\nVideo: Dasselbe Muster zeigt sich beim Umgang mit Plagiaten an der Hochschule – dieselbe Tat, zwei Menschenbilder, zwei Handlungswege.",
+      "beispiel": "",
+      "folien": "3–10, 13"
+    },
+    {
+      "titel": "Anthropologie und „Bilderverbot“",
+      "text": "**Anthropologie** (Schilling 2000, Folie 11):\n- Wissenschaft vom Menschen, seinem Wesen und seinen Dimensionen\n- Wissenschaft von den Menschenbildern\n\nEtymologie: *ánthropos* (ἄνθρωπος) = Mensch, *lógos* (λόγος) = Lehre, Wissenschaft.\n\n**(Menschen-)Bilderverbot? (Folie 12):** Lange galt es in der Erziehungswissenschaft als verpönt, sich mit Menschenbildern zu befassen – man arbeite ja mit Methoden und Techniken („Du sollst Dir kein Bild vom Menschen machen!“).\n\n> **Jedoch:** Jeder wissenschaftlichen Tätigkeit und jeder praktischen Tätigkeit im Bereich der sozialen Arbeit liegt ein bestimmtes implizites Menschenbild und eine bestimmte Ethik zugrunde.\n\nDeshalb ist es ehrlicher, das eigene Menschenbild offenzulegen (Video). Zwei Pole (Folie 13): Mensch als „Ebenbild Gottes“ oder als „entwickeltes Säugetier“.",
+      "beispiel": "",
+      "folien": "11–13"
+    },
+    {
+      "titel": "Historischer Rückblick I: Umgang mit Bedürftigen",
+      "text": "Kette: **Menschenbild → Gesellschaftsbild → Handlungsweise** (nach Engelke 1998; Herriger 1995) – laut Video sicher können.\n\n| | Thomas von Aquin (1224–1274) | Juan Luis Vives (1492–1540) | Christian Jasper Klumker (1868–1942) |\n| --- | --- | --- | --- |\n| Menschenbild | Mensch als Gottesgeschöpf | einerseits arbeitsam, aber auch habgierig | Armut systemisch bedingt (die Person kann kein gefragtes Produkt im Wirtschaftskreislauf anbieten) |\n| Gesellschaftsbild | Arme als natürlicher Stand, Ständegesellschaft gottgewollt | Armut ist nicht natürlich | Armut als gesellschaftliches Phänomen |\n| Handlungsweise | kein Kampf der Armut, Möglichkeit milde Gaben zu geben | Fördern und Fordern | Kampf der Armut; Hilfe zur Selbsthilfe; Weiterbildung |\n\n**Ständegesellschaft (Folie 16, Grafik in Zwiebelform):** oben Patrizier (adlige und geistliche Stadtherren, Grundbesitzer, Fernhandelskaufleute), in der Mitte Bürger (Beamte, Handwerker, Ackerbürger, Krämer), unten unterständische Gruppen (unehrliche Berufe, niedere Bedienstete, Juden). Kaum Durchlässigkeit.\n\n**Vives (Folien 17–20):**\n- *Fördern:* Arbeitsbeschaffung; Bevorzugung von Handwerksbetrieben, die Arme beschäftigen; Beschäftigung durch Stadt und Kirche\n- *Fordern:* Arbeitspflicht, Stigmatisieren von Bettler*innen, Bedürftigkeitsprüfungen – Bettelordnung Wien 1443 (Bettelabzeichen), Bettelabzeichen Nürnberg, Nürnberger Bettelordnung 1522 (Betteln wird verboten)\n\n**Und heute (Folie 22):** „Spätrömische Dekadenz“, wenn Sozialhilfe ohne Arbeitsverpflichtung gewährt wird – oder Förderung statt Forderung? Bedingungsloses Grundeinkommen: Kreativität und neue Berufe oder Müßiggang?",
+      "beispiel": "",
+      "folien": "14–22"
+    },
+    {
+      "titel": "Historischer Rückblick II: Kinderbilder – Ariès und Postman",
+      "text": "**Philippe Ariès, „Geschichte der Kindheit“ (1978), Folie 24:**\n- Kinder gab es immer – **Kindheit** aber ist eine **historisch, soziologisch und kulturell konstruierte** Phase.\n- Lange galten Kinder als **kleine Erwachsene** (körperlich kleiner, geistig weniger entwickelt).\n- **„Entdeckung der Kindheit“** an der Wende vom 16. zum 17. Jahrhundert, rekonstruiert an Kinderdarstellungen in der Malerei.\n- Drei Teile der Studie: Entdeckung der Kindheit · Entwicklung des Schulwesens · Wandel der Familie.\n- Video: Je höher die soziale Schicht, desto früher wurde Kindheit anerkannt; auf dem Land und in unteren Schichten gab es teils bis in die 1920er Kinderarbeit.\n\n**Neil Postman, „Das Verschwinden der Kindheit“ (1987), Folie 25:** Gegenthese – etwa seit den 1960er Jahren werden Kinder wieder wie kleine Erwachsene behandelt: Das **Fernsehen** hebt Altersunterschiede auf; Erwachsene durchdringen die Lebensräume der Kinder (Musikschule, Indoor-Spielplatz, Nachhilfe, volle Terminkalender); Partnerlook.\n\n**Kinderbildnisse (Folien 26–35):** dynastische Porträts (Kinder wie Erwachsene gekleidet) → Kinder beim Spiel → kindliche Unschuld im 18. Jh. (weiße Kleider, weiße Tiere, Natur) → Jesuskind vom kleinen Erwachsenen mit Krone zum Kindchenschema (Putti) → von der Großfamilie zur kleinen, innigen Familie → heute Konsumflut, Kriegsfotos mit Geschlechterrollen, Partnerlook (Lösung siehe Aufgabe a01).\n\nVideo zu Ariès (Folien 36–37): Die Neuzeit habe die Kinder aus der Gesellschaft der Erwachsenen „herausgerissen“ und in strengere Disziplin gepresst – zugleich Warnung vor Romantisierung: Welchen Preis hatte die frühere „Freiheit“?",
+      "beispiel": "",
+      "folien": "23–37"
+    },
+    {
+      "titel": "Philosophische Grundlagen: Hobbes, Rousseau, Locke",
+      "text": "Laut Video der klausurrelevante Kern der Sitzung (Folien 38–41; Kurzskript S. 4).\n\n| | Thomas Hobbes (1588–1679) | Jean-Jacques Rousseau (1712–1778) | John Locke (1632–1704) |\n| --- | --- | --- | --- |\n| Formel | **homo homini lupus** | Mensch von Natur aus gut | **tabula rasa** |\n| Menschenbild | von Natur aus **schlecht**, egoistisch | von Natur aus **gut**, die Gesellschaft verdirbt ihn | **weder gut noch schlecht** |\n| Werk | „Leviathan“ (1651): Naturzustand voller Furcht und Gewalt, Überwindung durch Gesellschaftsvertrag/Staat | „Émile oder über die Erziehung“ (1762): „Alles ist gut, wie es aus den Händen des Schöpfers kommt, und alles entartet unter den Händen der Menschen.“ | „Versuch über den menschlichen Verstand“ |\n| Erziehung | kindlicher Wille muss gebrochen und der Autorität unterworfen werden – Disziplin | Erziehung möglichst fern der Gesellschaft (Émile wächst mit einem Erzieher in der Natur auf) | Erfahrung, Erziehung und Umgebung prägen – zum Positiven wie zum Negativen |\n\n**Ergänzung aus der Lernzielkontrolle (nicht auf den Folien):**\n- Locke: „… dass unter zehn Personen immer neun durch Erziehung das sind, was sie sind, gut oder böse …“\n- Die tabula rasa gilt als Vorläufer der Lerntheorien der klassischen und instrumentellen Konditionierung.\n- Internate in der Natur (Spiekeroog, Schloss Salem) stützen sich oft auf Rousseau.\n\nDiese Grundpositionen finden sich bis heute in den Köpfen von Lehrkräften und Eltern (Übung Folie 42, Aufgabe a02).",
+      "beispiel": "",
+      "folien": "38–42"
+    },
+    {
+      "titel": "Reckahner Reflexionen zur Ethik pädagogischer Beziehungen",
+      "text": "Prengel (2013), https://paedagogische-beziehungen.eu/ (Folien 43–48):\n\nEin **positives Bild vom Menschen und Kind** leitet zu positivem Handeln in allen pädagogischen Beziehungen über.\n\n> **Wohlwollen und Verständnis statt Verletzungen und Demütigung!**\n\n**Historischer Rückblick (Folie 44):** Dorf Reckahn (Brandenburg), Reformschule von Christiane Louise und Friedrich Eberhard von Rochow im 18. Jh. – Zitat: „Nur das Verstehen dessen, was gelehrt wird, macht den Unterricht nützlich.“ Seit 2011 von rund 150 Personen aus dem Bildungswesen erarbeitet (Video).\n\n**Was ethisch begründet ist (Folie 45):**\n1. Kinder und Jugendliche werden wertschätzend angesprochen und behandelt. *(liegt allen anderen zugrunde)*\n2. Lehrpersonen und pädagogische Fachkräfte hören Kindern und Jugendlichen zu.\n3. Bei Rückmeldungen zum Lernen wird das Erreichte benannt. Auf dieser Basis werden neue Lernschritte und förderliche Unterstützung besprochen.\n4. Bei Rückmeldungen zum Verhalten werden bereits gelingende Verhaltensweisen benannt. Schritte zur guten Weiterentwicklung werden vereinbart. Die dauerhafte Zugehörigkeit aller zur Gemeinschaft wird gestärkt.\n5. Lehrpersonen und pädagogische Fachkräfte achten auf Interessen, Freuden, Bedürfnisse, Nöte, Schmerzen und Kummer von Kindern und Jugendlichen. Sie berücksichtigen ihre Belange und den subjektiven Sinn ihres Verhaltens/Handelns. *(Folie: „Verhaltens“, Video: „Handelns“)*\n6. Kinder und Jugendliche werden zur Selbstachtung und Anerkennung der Anderen angeleitet.\n\n**Was ethisch unzulässig ist (Folie 46)** – „Es ist nicht zulässig, dass Lehrpersonen und pädagogische Fachkräfte …“\n7. … Kinder und Jugendliche diskriminierend, respektlos, demütigend, übergriffig oder unhöflich behandeln.\n8. … Produkte und Leistungen von Kindern und Jugendlichen entwertend und entmutigend kommentieren.\n9. … auf das Verhalten von Kindern und Jugendlichen herabsetzend, überwältigend oder ausgrenzend reagieren.\n10. … verbale, tätliche oder mediale Verletzungen zwischen Kindern und Jugendlichen ignorieren.\n\n**Merke (Video, Folien 47–48):** Beobachtungsstudien legen nahe, dass etwa **ein Viertel aller pädagogischen Interaktionen verletzend** ist. Grundlage sind u. a. Bindungs-, Sozialisations- und Anerkennungsforschung.",
+      "beispiel": "",
+      "folien": "43–48"
+    },
+    {
+      "titel": "Pädagogische Anthropologie: Dimensionen, Bedürfnisse, Aufgaben",
+      "text": "**Dreigliedrigkeit der Menschenbilder** (Stein 2017, S. 16, nach Hamann 1993; Folie 49):\n\n| Anthropologie | Dreiteilung |\n| --- | --- |\n| griechisch-christlich | Leib – Seele – Geist |\n| philosophisch | Leben – Position – Handlung |\n| psychologisch | Denken – Fühlen – Wollen |\n| sozio-kulturell | Handlung – Sozietät – Kultur |\n| **pädagogisch** | **Kopf – Herz – Hand (Pestalozzi)** · kognitiv – affektiv – psychomotorisch |\n\nLaut Video muss die ganze Tabelle **nicht** auswendig gelernt werden – wichtig ist die pädagogische Zeile.\n\n**Kette (Folie 51):** 1. Dimensionen des Menschen → 2. daraus abgeleitete Bedürfnisse → 3. daraus abgeleitete Aufgaben der Pädagogik (nach Schilling 2000; Stein 2017, S. 16):\n\n| Dimension | Bedürfnisse (Folie 53) | Aufgabe der Pädagogik (Folie 54) |\n| --- | --- | --- |\n| Handlung – psychomotorisch | Hobbies, Aktion, Autonomie | Förderung von Handlung und Autonomie |\n| Kopf – kognitiv-rational | Lernen, Kreativität | Verstandesförderung |\n| Emotion – emotional-affektiv | Geliebtsein, Erlebnisse | Gefühlsförderung |\n| Körper – biologisch-leiblich | Schlaf, Bewegung, Erholung | Förderung von Bewegung und Sinnen |\n| Sozietät – sozial-kommunikativ | Anerkennung, Beziehung, Helfen | Förderung der sozialen Fähigkeiten |\n| Kultur – kulturell-ethisch | Werte, Verantwortung, Kunst | Förderung von Werten und Kultur |\n\nVideo: Ein Experiment, in dem Studierende in einer dunklen, engen Röhre liegen sollten und schon nach wenigen Stunden abbrachen, zeigt, dass Stimulation und Handlungsmöglichkeit Grundbedürfnisse sind. Verstandesförderung heißt wirklich verstehen, nicht Wissen anhäufen.\n\n**Vechtaer Modell (Folien 57–77):** Musterlösung früherer Studierender zur Übungsaufgabe (Hausaufgabe h01) – je Aufgabe konkrete Maßnahmen einer kindgerechten Schule, z. B. Wochenplan und Schüler*innenparlament (Autonomie), „Faustlos“ und Kummerkasten (Gefühl), Stationenlernen und Metakognition (Verstand), Morgensport und Ruheräume (Bewegung), Gruppenarbeit und gemeinsame Klassenregeln (Soziales), Kunstprojekte und Philosophie für alle (Werte und Kultur).",
+      "beispiel": "",
+      "folien": "49–77"
+    },
+    {
+      "titel": "Übung, Reflexion und Literatur",
+      "text": "- **Abschlussfrage (Folie 55):** „Welche Punkte aus der heutigen Veranstaltung finden Sie persönlich bedeutsam?“ – zwei oder drei Kernsätze notieren (Aufgabe a03).\n- **Übungsaufgabe (Folie 56):** kindgerechte Schule → Hausaufgabe h01 (fällig 03.11.).\n- **Reflexion (Folie 78):** Klein, F. (2020). Das Gute im Kind sehen und mit ihm handeln → Hausaufgabe h02 (fällig 03.11.). Der Text liegt in `ewb001.1/4._Literatur`.\n\n**Literatur der Sitzung (Folien 79–80):** Ariès 1978 · Engelke 1998 · Hobbes 1994 · Hamann 1993 · Herriger 1995 · Klein 2020 · Locke 2013 · Postman 1987 · Prengel 2013 · Rousseau 1762/1971 · Schilling 2000 · Stein 2017. In deinem Ordner liegen dazu: Klein 2020, Ariès (Auszug), Rousseau „Emile“ (Auszug), Hintergrundinformationen zu Émile, Kraft „Rousseaus Emile“, Reckahner Reflexionen (Broschüre), Prengel „Destruktive Beziehungen“, Stein 2017.\n\n**Weiterführende Literatur (Folien 81–82)** zur Geschichte der Pädagogik und Kindheit, u. a. Böhm 2013, Reble 2016, Tenorth (Klassiker der Pädagogik).",
+      "beispiel": "",
+      "folien": "55–82"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Anthropologie",
+      "wortlaut": "Wissenschaft vom Menschen, seinem Wesen und seinen Dimensionen · Wissenschaft von den Menschenbildern (vgl. Schilling, 2000); Etymologische Herkunft: ἄνθρωπος / ánthropos, λόγος / lógos",
+      "erklaerung": "Die Lehre vom Menschen und den Bildern, die man sich vom Menschen macht – von ánthropos (Mensch) und lógos (Lehre).",
+      "folie": "11"
+    },
+    {
+      "begriff": "Menschenbild",
+      "wortlaut": "Das Bild vom Menschen bestimmt, wie wir dem Menschen entgegentreten. – Jeder wissenschaftlichen Tätigkeit und jeder praktischen Tätigkeit im Bereich der sozialen Arbeit liegt ein bestimmtes implizites Menschenbild und eine bestimmte Ethik zugrunde.",
+      "erklaerung": "Die (oft unbewusste) Vorstellung davon, wie der Mensch ist. Aus ihr folgt, worin man die Ursachen von Verhalten sieht und wie man handelt (fördern oder sanktionieren).",
+      "folie": "12–13"
+    },
+    {
+      "begriff": "Kindheit als historisches Konstrukt (Ariès)",
+      "wortlaut": "Kindheit ist eine historisch, soziologisch und kulturell konstruierte Phase; Kinder wurden lange als kleine Erwachsene betrachtet; „Entdeckung der Kindheit“ an der Wende vom 16. zum 17. Jahrhundert (Ariès, 1978)",
+      "erklaerung": "Kinder gab es immer, die Vorstellung einer eigenen Lebensphase „Kindheit“ aber hat sich erst entwickelt – Ariès zeigt das an Kinderbildern in der Malerei.",
+      "folie": "24; Video"
+    },
+    {
+      "begriff": "Verschwinden der Kindheit (Postman)",
+      "wortlaut": "Das Verschwinden der Kindheit (Postman, 1987): Seit etwa den 1960er Jahren wird die Kindheit wieder zurückgedrängt, Kinder werden erneut wie kleine Erwachsene betrachtet (Video).",
+      "erklaerung": "Gegenthese zu Ariès: Medien wie das Fernsehen und von Erwachsenen verplante Lebensräume lassen den Unterschied zwischen Kindern und Erwachsenen wieder verschwimmen.",
+      "folie": "25; Video"
+    },
+    {
+      "begriff": "homo homini lupus (Hobbes)",
+      "wortlaut": "Thomas Hobbes: homo homini lupus (Hobbes, 1994) – Mensch von Natur aus schlecht",
+      "erklaerung": "„Der Mensch ist dem Menschen ein Wolf“: pessimistisches Menschenbild; ohne Gesetze und Gesellschaftsvertrag herrscht das Recht des Stärkeren. Für die Erziehung folgt: Disziplin, der kindliche Wille muss gebrochen werden.",
+      "folie": "39"
+    },
+    {
+      "begriff": "Mensch von Natur aus gut (Rousseau)",
+      "wortlaut": "Jean-Jacques Rousseau (1762; 1971): Mensch von Natur aus gut",
+      "erklaerung": "Optimistisches Menschenbild: „Alles ist gut, wie es aus den Händen des Schöpfers kommt, und alles entartet unter den Händen der Menschen“ (Émile). Die Gesellschaft verdirbt – Erziehung zunächst fern der Gesellschaft.",
+      "folie": "40; Video"
+    },
+    {
+      "begriff": "tabula rasa (Locke)",
+      "wortlaut": "John Locke: tabula rasa (Locke, 2013)",
+      "erklaerung": "Der Mensch ist wie ein leeres Blatt, von Natur aus weder gut noch schlecht; Erfahrung, Erziehung und Umgebung prägen ihn. Vorläufer der Konditionierungs-Lerntheorien (LZK 3).",
+      "folie": "41; Video"
+    },
+    {
+      "begriff": "Reckahner Reflexionen",
+      "wortlaut": "In den Reflexionen von Reckahn wird ein positives Bild dem Menschen und Kind gegenüber formuliert. Dieses leitet zu einem positiven Handeln in allen pädagogischen Beziehungen über. Wohlwollen und Verständnis statt Verletzungen und Demütigung! (Prengel, 2013)",
+      "erklaerung": "Zehn Leitlinien zur Ethik pädagogischer Beziehungen (sechs zum ethisch Begründeten, vier zum ethisch Unzulässigen), benannt nach Reckahn, wo das Ehepaar von Rochow im 18. Jh. eine Reformschule gründete.",
+      "folie": "43–46"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "Arbeitsauftrag: Schauen Sie sich bitte die Kinderbildnisse der unterschiedlichen Epochen an und überlegen Sie, welche Eindrücke sie gewinnen: Welches Kinderbild wird gezeichnet?",
+      "quelle": "Folie 26 (Bilder Folien 27–35)",
+      "loesung": "*Lösung nach dem Video (Durchgang durch die Bilder):*\n\n**Arbeitsauftrag:** *„Welches Kinderbild wird gezeichnet?“*\n\n**Antwort:**\n\n| Folie | Bild | Kinderbild |\n| --- | --- | --- |\n| 27–28 | dynastische Kinderporträts (u. a. Holbein, Eduard VI.) | Kinder als **kleine Erwachsene**: gekleidet wie Erwachsene, mit Hauben; einzige Spur von Kindheit ist eine Puppe |\n| 29 | Kinder beim Spiel, im Garten, lachend (z. B. „Die Hülsenbeckschen Kinder“) | Kindheit als **eigenständige Phase**, Spiel gehört dazu |\n| 30 | Kinder in Weiß, mit weißem Kaninchen, in der Natur | 18. Jh.: **kindliche Unschuld**, Kinder müssen geschützt werden |\n| 31 | Jesus als kleiner Erwachsener mit Krone und Zepter – später Putti | Wandel vom symbolischen „unfertigen Erwachsenen“ zum **Kindchenschema** |\n| 32 | viele Kinder nach Größe aufgereiht – später Vater, Mutter, ein Kind | Wandel vom „ganzen Haus“ zur **kleinen, innigen Familie** |\n| 33 | Kind im „Wohlstandsmüll“, Kind im Bällebad | heutige **Konsumflut** |\n| 34 | Kinderfotos aus Kriegszeiten | Kinder nur im Blick auf ihre **künftige Rolle** (Mädchen als Mütter, Jungen als Soldaten) |\n| 35 | Partnerlook von Eltern und Kindern | Angleichung an Erwachsene – passt zu **Postman** |",
+      "loesungsweg": "Bei jedem Bild auf Kleidung, Haltung, Umgebung und Attribute achten und fragen, ob das Kind als eigenständig oder als kleiner Erwachsener gezeigt wird.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "Übung: Wie viel Hobbes, Rousseau, Locke versteckt sich in den folgenden Lehrkraftaussagen?\nA, „Schuld an der Unaufmerksamkeit sind die Medien, die die Kinder total verderben.“\nB, „Wenn nicht von Anfang an diszipliniert wird, tanzen einem die Schüler nachher auf der Nase herum.“\nC, Es liegt an der Lehrkraft, die Themen so zu wählen, dass die Schülerinnen und Schüler vom Stoff „gepackt“ werden.“\nD, „Nicht die Kinder, die Eltern sind die eigentlich Schuldigen bei Schulleistungsversagen und Disziplinproblemen.“\nE, „Motivation! Es gibt keinen desinteressierten Schüler.“",
+      "quelle": "Folie 42",
+      "loesung": "*Selbst erarbeitet – die Dozentin gibt im Video keine Auflösung.*\n\n**Aufgabe:** *„Wie viel Hobbes, Rousseau, Locke versteckt sich in den folgenden Lehrkraftaussagen?“*\n\n**Antwort:**\n\n| Aussage | Position | Begründung |\n| --- | --- | --- |\n| A Medien verderben die Kinder | **Rousseau** | Das an sich gute Kind wird von außen verdorben. |\n| B von Anfang an disziplinieren | **Hobbes** | Der Mensch ist egoistisch, Disziplin und Unterwerfung sind nötig. |\n| C Themen so wählen, dass die Schüler „gepackt“ werden | **Locke** | Das Kind ist durch Unterricht und Umgebung prägbar. |\n| D Eltern sind die eigentlich Schuldigen | **Rousseau** (auch Locke vertretbar) | Das Kind ist unschuldig, die Umgebung verdirbt bzw. prägt es. |\n| E Es gibt keinen desinteressierten Schüler | **Rousseau** | Das Kind ist von Natur aus neugierig und gut. |",
+      "loesungsweg": "Faustregel (Video): verderbende äußere Einflüsse auf ein gutes Kind → Rousseau; Disziplin und Unterwerfung → Hobbes; Prägbarkeit durch Unterricht und Umgebung → Locke.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "text": "Abschluss: Welche Punkte aus der heutigen Veranstaltung finden Sie persönlich bedeutsam?",
+      "quelle": "Folie 55",
+      "loesung": "*Persönliche Reflexion – Beispiellösung (Dozentin: zwei oder drei Kernsätze notieren).*\n\n**Aufgabe:** *„Welche Punkte aus der heutigen Veranstaltung finden Sie persönlich bedeutsam?“*\n\n**Antwort (Beispiel):**\n1. „Das Bild vom Menschen bestimmt, wie wir dem Menschen entgegentreten“ – mein Blick auf ein Kind entscheidet mit, ob ich fördere oder bestrafe.\n2. Kindheit ist kein Naturzustand, sondern hat sich historisch entwickelt (Ariès) – und kann auch wieder „verschwinden“ (Postman).\n3. Etwa ein Viertel der pädagogischen Interaktionen ist verletzend – die Reckahner Leitlinien helfen, das eigene Handeln zu prüfen.",
+      "loesungsweg": "",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Hausaufgabe S03: Übung kindgerechte Schule – Bedürfnisse und Aufgaben",
+      "text": "Übungsaufgabe: Erarbeiten Sie die für Kinder spezifischen Bedürfnisse und die darauf abgestimmten Aufgaben einer kindgerechten Schule!\n\nTeilaufgaben:\n1. Welche Dimensionen des Menschen unterscheidet die pädagogische Anthropologie?\n2. Welche Bedürfnisse ergeben sich daraus speziell für Kinder?\n3. Welche Aufgaben hat eine kindgerechte Schule, um diese Bedürfnisse zu erfüllen?",
+      "quelle": "Folie 56 (Musterlösung Vechtaer Modell Folien 57–77)",
+      "loesung": "> **Grundlage (Folien 50–54, nach Schilling 2000; Stein 2017, S. 16):** Die Pädagogik leitet aus den **Dimensionen** des Menschen seine **Bedürfnisse** ab und daraus die **Aufgaben der Pädagogik**. Genau diese Kette verlangt die Aufgabe – angewendet auf Kinder und die Schule.\n\n**Aufgabe 1:** *„Welche Dimensionen des Menschen unterscheidet die pädagogische Anthropologie?“*\n\n**Antwort:** Ausgangspunkt ist Pestalozzis **Kopf – Herz – Hand**, wissenschaftlich **kognitiv – affektiv – psychomotorisch** (Folie 49–50). Erweitert sind es sechs Dimensionen (Folie 52):\n\n| Dimension | Bezeichnung |\n| --- | --- |\n| Handlung | psychomotorische Dimension |\n| Kopf | kognitiv-rationale Dimension |\n| Emotion | emotional-affektive Dimension |\n| Körper | biologisch-leibliche Dimension |\n| Sozietät | sozial-kommunikative Dimension |\n| Kultur | kulturell-ethische Dimension |\n\n**Aufgabe 2:** *„Welche Bedürfnisse ergeben sich daraus speziell für Kinder?“*\n\n**Antwort:** Die Folie nennt die allgemeinen Bedürfnisse (Folie 53). Für Kinder sind sie besonders ausgeprägt, weil Kinder sich noch entwickeln und stärker auf Erwachsene angewiesen sind. *(Die kinderspezifische Spalte ist selbst erarbeitet.)*\n\n| Dimension | Bedürfnis (Folie 53) | speziell bei Kindern |\n| --- | --- | --- |\n| Handlung | Hobbies, Aktion, Autonomie | selbst ausprobieren, spielen, eigene Entscheidungen treffen, etwas „selbst machen“ |\n| Kopf | Lernen, Kreativität | Neugier stillen, fragen, entdecken, verstehen statt auswendig lernen |\n| Emotion | Geliebtsein, Erlebnisse | Geborgenheit, Vertrauen zu Bezugspersonen, Gefühle ausdrücken dürfen, Trost |\n| Körper | Schlaf, Bewegung, Erholung | viel Bewegung, kurze Konzentrationsphasen mit Pausen, gesundes Essen und Trinken |\n| Sozietät | Anerkennung, Beziehung, Helfen | dazugehören, Freundschaften, gelobt werden, anderen helfen dürfen |\n| Kultur | Werte, Verantwortung, Kunst | Regeln verstehen und mitgestalten, kreativ sein (Musik, Kunst, Theater), kleine Verantwortung übernehmen |\n\n**Aufgabe 3:** *„Welche Aufgaben hat eine kindgerechte Schule, um diese Bedürfnisse zu erfüllen?“*\n\n**Antwort:** Jede Dimension führt zu einer Aufgabe der Pädagogik (Folie 54). Wie das in der Schule aussieht, zeigt das **„Vechtaer Modell“** (Folien 57–77, erarbeitet von Studierenden früherer Semester):\n\n| Aufgabe der Schule | konkrete Umsetzung (Vechtaer Modell, Auswahl) |\n| --- | --- |\n| **1. Förderung von Handlung und Autonomie** (Kritikfähigkeit, Selbstbestimmung) | kleinere Klassen; Gruppenarbeit; Lerntagebücher, Experimente, spielerisches Lernen; Ecken für selbständiges Arbeiten und Spielen; eigene Projekte (Frühstücksgruppe, Gartenbeet); Wochenplan; Schulkonferenz und Schüler*innenparlament; Lernen durch Lehren; demokratische Strukturen im Unterricht |\n| **2. Gefühlsförderung** (Emotionalität und Vertrauen) | Unterrichtseinheiten wie „Glück“; Umgang mit negativen Gefühlen („Faustlos“, Streitschlichter, Vertrauensperson); Erzählrunden; Schulpsycholog*innen und Schulsozialarbeit; anonymer Kummerkasten; Klassenhaustiere; Klassenregeln (kein Auslachen, kein Mobbing) |\n| **3. Verstandesförderung** | Logik und schlussfolgerndes Denken; Lernstrategien und Metakognition; Mischung aus konvergenten und kreativen Aufgaben; Stationenlernen im eigenen Tempo; altersgerechte Materialien; Förderung der Neugier; Förderung für Stärkere und Schwächere; Bücherkisten |\n| **4. Förderung von Bewegung und Sinnen** | mehr Sport, Morgensport; regelmäßige Pausen nach der Leistungskurve; Ruheräume; Entspannung, Yoga; gesundes, kostenloses Essen, Wasserspender; Unterricht im Freien; Pflanzen, warme Farben, ergonomische Sitze |\n| **5. Förderung sozialer Fähigkeiten, Gemeinschaft** | mehr Gruppenarbeit; Sitzordnung in U-Form oder Kreis; Fach „Soziallernen“; Mentor*innen; gemeinsam ausgehandelte und unterschriebene Klassenregeln; Klassensprecher*innen; Streitschlichtung; Hierarchieabbau; Klassenfahrten |\n| **6. Förderung von Werten und Kultur** | Kunst-, Musik- und Theaterprojekte; Museen und Lesungen; Projekttage zu Werten und Toleranz; Begegnung der Generationen; Philosophie für alle; Schüler*innenaustausch; andere Kulturen kennenlernen |\n\n**Fazit:** Eine kindgerechte Schule nimmt das Kind **ganzheitlich** wahr – mit Kopf, Herz und Hand und in allen sechs Dimensionen – und richtet Unterricht, Räume, Zeiten und Beziehungen an seinen Bedürfnissen aus. Das passt zu einem positiven Menschenbild, wie es die Reckahner Reflexionen formulieren: „Wohlwollen und Verständnis statt Verletzungen und Demütigung“.",
+      "loesungsweg": "Die Kette Dimension → Bedürfnis → Aufgabe (Folien 52–54) als Gerüst nehmen, je Dimension überlegen, was das Bedürfnis bei Kindern konkret bedeutet, und die Beispiele des Vechtaer Modells (Folien 57–77) zuordnen.",
+      "frist": "2026-11-03",
+      "im_kalender": true,
+      "fuer_sitzung": "ewb001.1_2026-11-03",
+      "kalender_id": "9743808f-7729-49d3-b204-11b53ce11292",
+      "pdf": "/dateien/ewb001/S04_2026-11-03_Hausaufgabe_Uebung_Kindgerechte-Schule-Beduerfnisse-und-Aufgaben.pdf"
+    },
+    {
+      "id": "h02",
+      "art": "Hausaufgabe",
+      "titel": "Hausaufgabe S03: Klein 2020 lesen + eigenes „Manifest“ zum Blick auf Kinder",
+      "text": "Reflexion: Lesen Sie Klein, F. (2020). Das Gute im Kind sehen und mit ihm handeln. Zeitschrift für Heilpädagogik. 71 (11/2020), S. 568-575. Überlegen Sie, mit welchem Bild Sie selbst Kindern und Menschen gegenübertreten. Schreiben Sie gerne wie Prof. Ferdinand Klein Ihr persönliches kleines „Manifest“ auf etwa einer Seite zu Ihrem Blick auf Kinder.\n\nTeilaufgaben:\n1. Was sind die Kernaussagen des Textes von Klein?\n2. Mit welchem Bild trete ich selbst Kindern und Menschen gegenüber?\n3. Wie könnte ein persönliches „Manifest“ zum Blick auf Kinder aussehen?",
+      "quelle": "Folie 78",
+      "loesung": "**Aufgabe 1:** *„Was sind die Kernaussagen des Textes von Klein?“*\n\n**Antwort:** Klein, ein Heilpädagoge, denkt über seine wissenschaftliche und praktische Arbeit nach. Untertitel: „In erschwerten Situationen die (heil-)pädagogische Professionalität vertiefen“.\n\n- **Gegen eine „Pädagogik des Machens“ (S. 568):** Die Lebenswerke von Albert Schweitzer und Janusz Korczak führen zu der Einsicht, dass Pädagogik nicht beherrschen und „machen“ soll, sondern zu einem „fröhlichen Handeln“ (Korczak) mit Kindern führt. Nötig ist ein **„Rückbesinnen auf den im Menschenkind veranlagten Geist des Guten“**, der in theoretischen Diskursen zu wenig beachtet wird: „Lernen wir doch von Kindern.“\n- **Erziehung als „Dienst am Zögling“ (S. 568, nach Sünkel):** Ursprünglich war Erziehung Dienst am Kind. Im Lauf der Geschichte wurde daraus eine **Herrschaftspädagogik** („Beherrschen, Machen und Bestimmen“); Kinder mit Behinderungen wurden ausgegrenzt und am Ende getötet. Dagegen stellten sich die ersten Heilpädagogen – ihr Motiv: „helfen, miteinander leben und lernen“.\n- **Vorbild Fröbel (S. 568):** Erziehung ist „Beispiel und Liebe, sonst nichts“ – zuerst wirkt das Sein der Fachkraft, dann ihr Handeln, zuletzt das, was sie redet.\n- **Helfen ist im Menschen veranlagt (S. 569):** Schon vorchristliche Kulturen versorgten Kranke und Schwache; auch die Evolutionsbiologie zeigt ein ursprüngliches Bedürfnis zu helfen.\n- **Albert Schweitzer – „Ehrfurcht vor dem Leben“ (S. 569):** „Ich bin Leben, das leben will, inmitten von Leben, das leben will.“ Gut ist, Leben zu erhalten, zu unterstützen und zu begleiten; böse ist, es zu vernichten, zu beschädigen und zu behindern. Das Kind setzt „das Gute bei dem Menschen immer wieder als selbstverständlich voraus“ (S. 570).\n- **Pestalozzi – „sehende Liebe“ (S. 570):** Liebe darf nicht blind sein; sie nimmt auch das Störende wahr und versucht, „das Gegebene … zum Guten zu wandeln“. Unterschiede zwischen Kindern werden bewusst genutzt. Korczaks Werk bewegt „Kopf, Herz und Hand“.\n- **Janusz Korczak – Pädagogik der Achtung (S. 570–573):** Korczak sah das Kind und seine Umwelt so, wie sie sind, „ohne Illusionen“, und glaubte trotzdem an das Gute. Er verließ seine 200 Waisenkinder nicht und ging mit ihnen nach Treblinka in den Tod. Seine Haltung: Selbstachtung, Achtung, Wertschätzung und Bewahrung der Würde des anderen (S. 573). „Korczaks Glaube an das Gute im Menschen ist sein pädagogisches Credo.“\n- **Fazit (S. 574):** Durch Nachdenken über diese Fragen können Eltern und Fachkräfte ihre **Professionalität** weiterbilden.\n\n**Aufgabe 2:** *„Mit welchem Bild trete ich selbst Kindern und Menschen gegenüber?“*\n\n**Antwort** *(Vorschlag zum Anpassen – die Aufgabe fragt nach deiner persönlichen Sicht)*: Mit Blick auf die Sitzung lässt sich die eigene Haltung an den drei Grundpositionen prüfen:\n- **Nicht Hobbes:** Ich sehe Kinder nicht als von Natur aus egoistisch, deren Wille gebrochen werden muss.\n- **Nähe zu Rousseau und Klein:** Ich gehe davon aus, dass in jedem Kind etwas Gutes angelegt ist – Neugier, Hilfsbereitschaft, Vertrauen.\n- **Auch Locke:** Ich weiß, dass Umgebung, Erziehung und Erfahrungen stark prägen – deshalb trage ich als Lehrkraft Verantwortung dafür, was ich dem Kind anbiete.\n- **Praktische Folge:** Bei Problemverhalten frage ich zuerst nach den Ursachen (wie Lehrer Schmidt im Fall Heike), bevor ich sanktioniere. Ich orientiere mich an den Reckahner Reflexionen: Wohlwollen und Verständnis statt Verletzung und Demütigung.\n\n**Aufgabe 3:** *„Wie könnte ein persönliches ‚Manifest‘ zum Blick auf Kinder aussehen?“*\n\n**Antwort** *(Beispiel-Manifest, etwa eine Seite – als Entwurf, den du in deinen eigenen Worten anpassen kannst)*:\n\n> **Mein Blick auf Kinder**\n>\n> 1. Ich glaube, dass jedes Kind etwas Gutes in sich trägt. Meine Aufgabe ist, es zu sehen – auch dann, wenn es sich gerade nicht zeigt.\n> 2. Ich nehme jedes Kind ganz wahr: mit Kopf, Herz und Hand, mit seinem Körper, seinen Beziehungen und seiner Kultur.\n> 3. Ich höre zu, bevor ich urteile. Hinter störendem Verhalten steht oft eine Not, die ich verstehen will.\n> 4. Ich benenne zuerst, was ein Kind schon kann, und plane von dort den nächsten Schritt.\n> 5. Ich beschäme, demütige und verletze kein Kind – weder mit Worten noch mit Blicken. Ein böses Wort kann lange nachwirken.\n> 6. Ich liebe „sehend“, nicht blind: Ich sehe auch das Schwierige und suche gemeinsam mit dem Kind einen Weg zum Guten.\n> 7. Ich traue Kindern etwas zu und lasse sie mitentscheiden – über Regeln, Projekte und ihr Lernen.\n> 8. Ich bin mir bewusst, dass mein Vorbild mehr wirkt als meine Worte (Fröbel: „Beispiel und Liebe, sonst nichts“).\n> 9. Ich lerne auch von Kindern: von ihrer Neugier, ihrem Vertrauen und ihrem Lachen.\n> 10. Ich prüfe mein eigenes Menschenbild immer wieder – denn das Bild, das ich vom Kind habe, bestimmt, wie ich ihm begegne.",
+      "loesungsweg": "Text von Klein lesen (7 Seiten) und je Abschnitt eine Kernaussage notieren; dann die eigene Haltung mit Hobbes, Rousseau, Locke und den Reckahner Reflexionen abgleichen; zum Schluss das Manifest in Ich-Sätzen schreiben.",
+      "frist": "2026-11-03",
+      "im_kalender": true,
+      "fuer_sitzung": "ewb001.1_2026-11-03",
+      "kalender_id": "0cf94f69-79d6-41d2-bdb2-6941a18d18c0",
+      "pdf": "/dateien/ewb001/S04_2026-11-03_Hausaufgabe_Reflexion_Klein-2020_Das-Gute-im-Kind_Manifest.pdf"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Wie lautet der Kernsatz der Sitzung zu Menschenbildern – und welche zwei Folgeschritte ergeben sich laut Vorlesung aus dem Menschenbild?",
+      "antwort": "„Das Bild vom Menschen bestimmt, wie wir dem Menschen entgegentreten.“ Aus dem Menschenbild folgt die Ursachenzuschreibung (liegt die Ursache in der Person oder in ihren Lebensumständen/Strukturen?) und daraus folgen die Handlungsoptionen (Beratung und Förderung oder Sanktion, Strafe, Ausschluss).",
+      "erklaerung": "Kernsatz der Sitzung (Folie 13, Folie 38) und laut Video die Prüfungsstruktur.",
+      "folie": "13; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Heike K. bleibt zum zweiten Mal sitzen und fälscht die Unterschrift ihres Vaters. Lehrerin Heuer sieht „kriminelle Energie“, Lehrer Schmidt den Druck durch Eltern und Bruder. Erkläre an diesem Fall, wie das Menschenbild die Ursachenzuschreibung und das pädagogische Handeln bestimmt.",
+      "musterloesung": "Heuer schreibt die Ursache der Person selbst zu (kriminelle Energie, negatives Menschenbild) und denkt an Ausschluss von der Schule (Sanktion). Schmidt sieht die Ursache in den Umständen (Leistungsdruck durch erfolgreiche Eltern und den bevorzugten Bruder, positives Menschenbild) und will früher intervenieren und das Gespräch mit allen Beteiligten suchen (Unterstützung). Dieselbe Tat führt also über zwei Menschenbilder zu zwei verschiedenen Handlungswegen – „Das Bild vom Menschen bestimmt, wie wir dem Menschen entgegentreten.“",
+      "bewertungspunkte": [
+        "Heuer: Ursache in der Person → Sanktion/Ausschluss",
+        "Schmidt: Ursache in den Umständen → Gespräch/Intervention",
+        "Kette Menschenbild → Ursachenzuschreibung → Handlung bzw. Kernsatz"
+      ],
+      "punkte": 3,
+      "erklaerung": "Fall Heike K. (Folien 8–10); Kette Menschenbild → Ursache → Handlung (Video).",
+      "folie": "8–10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter Anthropologie?",
+      "antwort": "Anthropologie ist die Wissenschaft vom Menschen, seinem Wesen und seinen Dimensionen bzw. die Wissenschaft von den Menschenbildern (Schilling 2000). Das Wort kommt von altgriechisch ánthropos (Mensch) und lógos (Lehre, Wissenschaft).",
+      "erklaerung": "Definition nach Schilling (2000), Folie 11; Kurzskript S. 4.",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Anthropologie kommt von altgriechisch „[[ánthropos]]“ = Mensch und „[[lógos]]“ = Lehre bzw. Wissenschaft.",
+      "erklaerung": "Etymologie, Folie 11.",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum „(Menschen-)Bilderverbot“ in der Pädagogik treffen zu?",
+      "optionen": [
+        "Jeder wissenschaftlichen und jeder praktischen pädagogischen Tätigkeit liegt ein implizites Menschenbild und eine bestimmte Ethik zugrunde.",
+        "Weil Pädagogik mit Methoden und Techniken arbeitet, spielt das Menschenbild der Fachkraft keine Rolle.",
+        "Es ist ehrlicher, das eigene implizite Menschenbild offenzulegen.",
+        "Das Bild vom Menschen (z. B. „Ebenbild Gottes“ oder „entwickeltes Säugetier“) beeinflusst, wie man ihm begegnet."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Folie 12 und Video: Statt eines „Bilderverbots“ soll das implizite Menschenbild offengelegt werden.",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Aussagen der passenden Person zu.",
+      "kategorien": [
+        "Thomas von Aquin (1224–1274)",
+        "Juan Luis Vives (1492–1540)",
+        "Christian Jasper Klumker (1868–1942)"
+      ],
+      "elemente": [
+        {
+          "text": "Mensch als Gottesgeschöpf",
+          "kategorie": "Thomas von Aquin (1224–1274)"
+        },
+        {
+          "text": "Arme als natürlicher Stand, Ständegesellschaft gottgewollt",
+          "kategorie": "Thomas von Aquin (1224–1274)"
+        },
+        {
+          "text": "kein Kampf der Armut, Möglichkeit milde Gaben zu geben",
+          "kategorie": "Thomas von Aquin (1224–1274)"
+        },
+        {
+          "text": "Mensch einerseits arbeitsam, aber auch habgierig",
+          "kategorie": "Juan Luis Vives (1492–1540)"
+        },
+        {
+          "text": "Armut ist nicht natürlich – Fördern und Fordern",
+          "kategorie": "Juan Luis Vives (1492–1540)"
+        },
+        {
+          "text": "Armut systemisch bedingt, Armut als gesellschaftliches Phänomen",
+          "kategorie": "Christian Jasper Klumker (1868–1942)"
+        },
+        {
+          "text": "Hilfe zur Selbsthilfe; Weiterbildung",
+          "kategorie": "Christian Jasper Klumker (1868–1942)"
+        }
+      ],
+      "erklaerung": "Folien 15–21 (nach Engelke 1998; Herriger 1995). Laut Video die Kette Menschenbild → Gesellschaftsbild → Handlungsweise sicher können.",
+      "folie": "15–21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Was bedeutet „Fördern und Fordern“ bei Juan Luis Vives?",
+      "antwort": "Fördern: Kampf gegen die Armut durch Arbeitsbeschaffung – Handwerksbetriebe, die Arme beschäftigen, werden bevorzugt, dazu Beschäftigung durch Stadt und Kirche. Fordern: Arbeitspflicht, Stigmatisieren von Bettler*innen und Bedürftigkeitsprüfungen (z. B. Bettelordnungen und Bettelabzeichen in Wien 1443 und Nürnberg; Nürnberger Bettelordnung 1522: Betteln verboten).",
+      "erklaerung": "Vives, Folien 17–20.",
+      "folie": "17–20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche heutigen Diskussionslinien zeigen laut Folie 22 konkurrierende Menschenbilder im Umgang mit Armut?",
+      "optionen": [
+        "„Spätrömische Dekadenz“, wenn Sozialhilfe ohne Arbeitsverpflichtung gewährt wird – oder Förderung statt Forderung?",
+        "Bedingungsloses Grundeinkommen: Fördert es Kreativität und neue Berufe oder Müßiggang?",
+        "Abschaffung der Schulpflicht für Kinder aus armen Familien",
+        "Wiedereinführung von Bettelabzeichen"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Folie 22: Auch heute konkurrieren Menschenbilder.",
+      "folie": "22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was ist die Kernthese von Philippe Ariès in „Geschichte der Kindheit“?",
+      "antwort": "Kinder gab es immer, aber Kindheit ist keine natürliche Phase, sondern eine historisch, soziologisch und kulturell konstruierte Lebensphase. Lange galten Kinder als „kleine Erwachsene“ (körperlich und geistig weniger entwickelt, aber nicht grundsätzlich anders). Die „Entdeckung der Kindheit“ datiert Ariès auf die Wende vom 16. zum 17. Jahrhundert; er rekonstruiert sie vor allem an Kinderdarstellungen in der Malerei.",
+      "erklaerung": "Ariès (1978), Folie 24 und Video; zentrale prüfungsrelevante These der Sitzung.",
+      "folie": "24; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Aussagen Ariès oder Postman zu.",
+      "kategorien": [
+        "Philippe Ariès",
+        "Neil Postman"
+      ],
+      "elemente": [
+        {
+          "text": "„Geschichte der Kindheit“ (1978)",
+          "kategorie": "Philippe Ariès"
+        },
+        {
+          "text": "Entdeckung der Kindheit an der Wende vom 16. zum 17. Jahrhundert",
+          "kategorie": "Philippe Ariès"
+        },
+        {
+          "text": "Analyse von Kinderdarstellungen in der Malerei",
+          "kategorie": "Philippe Ariès"
+        },
+        {
+          "text": "„Das Verschwinden der Kindheit“ (1987)",
+          "kategorie": "Neil Postman"
+        },
+        {
+          "text": "Seit etwa den 1960er Jahren werden Kinder wieder wie kleine Erwachsene behandelt.",
+          "kategorie": "Neil Postman"
+        },
+        {
+          "text": "Das Fernsehen hebt Altersunterschiede auf.",
+          "kategorie": "Neil Postman"
+        }
+      ],
+      "erklaerung": "Ariès: Entdeckung der Kindheit · Postman: Verschwinden der Kindheit (Folien 24–25, Kurzskript S. 4).",
+      "folie": "24–25",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Beschreibe, wie sich das Kinderbild in den Kinderbildnissen der Epochen wandelt (Arbeitsauftrag Folie 26).",
+      "musterloesung": "Dynastische Porträts zeigen Kinder wie Erwachsene gekleidet (einzige Spur von Kindheit: eine Puppe). Später werden Kinder beim Spiel, lachend und im Garten gemalt – Kindheit als eigene Phase. Im 18. Jahrhundert steht die kindliche Unschuld im Vordergrund (weiße Kleider, weiße Tiere, unberührte Natur). Jesus wird erst als kleiner Erwachsener mit Krone und Zepter, später im Kindchenschema (Putti) dargestellt. Familienbilder wandeln sich vom „ganzen Haus“ mit vielen Kindern zur kleinen, innigen Familie. Heutige Bilder zeigen Konsumflut, Kriegsfotos feste Geschlechterrollen, Partnerlook passt zu Postman.",
+      "bewertungspunkte": [
+        "Kinder als kleine Erwachsene (dynastische Porträts)",
+        "Spiel/Lachen: Kindheit als eigene Phase",
+        "kindliche Unschuld im 18. Jh. (weiß, Tiere, Natur)",
+        "Wandel der Familie bzw. heutige Bilder"
+      ],
+      "punkte": 4,
+      "erklaerung": "Arbeitsauftrag Folie 26 (a01), Lösung nach Video.",
+      "folie": "26–35",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Aussagen der passenden Position zu.",
+      "kategorien": [
+        "Thomas Hobbes",
+        "Jean-Jacques Rousseau",
+        "John Locke"
+      ],
+      "elemente": [
+        {
+          "text": "homo homini lupus",
+          "kategorie": "Thomas Hobbes"
+        },
+        {
+          "text": "Mensch von Natur aus schlecht",
+          "kategorie": "Thomas Hobbes"
+        },
+        {
+          "text": "„Leviathan“ (1651), Gesellschaftsvertrag",
+          "kategorie": "Thomas Hobbes"
+        },
+        {
+          "text": "Mensch von Natur aus gut",
+          "kategorie": "Jean-Jacques Rousseau"
+        },
+        {
+          "text": "„Émile oder über die Erziehung“ (1762)",
+          "kategorie": "Jean-Jacques Rousseau"
+        },
+        {
+          "text": "Erziehung möglichst fern der Gesellschaft",
+          "kategorie": "Jean-Jacques Rousseau"
+        },
+        {
+          "text": "tabula rasa",
+          "kategorie": "John Locke"
+        },
+        {
+          "text": "Mensch weder gut noch schlecht, geprägt durch Erfahrung und Erziehung",
+          "kategorie": "John Locke"
+        }
+      ],
+      "erklaerung": "Folien 38–41, Kurzskript S. 4; laut Video klausurrelevanter Kern.",
+      "folie": "38–41",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Thomas Hobbes: „homo homini [[lupus]]“ – der Mensch ist von Natur aus [[schlecht]]. John Locke: der Mensch als „tabula [[rasa]]“.",
+      "erklaerung": "Folien 39–41.",
+      "folie": "39–41",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Wie viel Hobbes, Rousseau, Locke versteckt sich in den folgenden Lehrkraftaussagen?",
+      "kategorien": [
+        "Hobbes",
+        "Rousseau",
+        "Locke"
+      ],
+      "elemente": [
+        {
+          "text": "„Schuld an der Unaufmerksamkeit sind die Medien, die die Kinder total verderben.“",
+          "kategorie": "Rousseau"
+        },
+        {
+          "text": "„Wenn nicht von Anfang an diszipliniert wird, tanzen einem die Schüler nachher auf der Nase herum.“",
+          "kategorie": "Hobbes"
+        },
+        {
+          "text": "„Es liegt an der Lehrkraft, die Themen so zu wählen, dass die Schülerinnen und Schüler vom Stoff „gepackt“ werden.“",
+          "kategorie": "Locke"
+        },
+        {
+          "text": "„Nicht die Kinder, die Eltern sind die eigentlich Schuldigen bei Schulleistungsversagen und Disziplinproblemen.“",
+          "kategorie": "Rousseau"
+        },
+        {
+          "text": "„Motivation! Es gibt keinen desinteressierten Schüler.“",
+          "kategorie": "Rousseau"
+        }
+      ],
+      "erklaerung": "Übung Folie 42 (a02). Die Dozentin löst sie nicht auf – selbst erarbeitete Zuordnung: Verderbnis eines an sich guten Kindes von außen → Rousseau; Disziplin → Hobbes; Prägbarkeit durch Unterricht → Locke. Bei D ist auch Locke vertretbar.",
+      "folie": "42",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Folgen für die Erziehung ergeben sich aus den Menschenbildern von Hobbes und Rousseau?",
+      "antwort": "Hobbes: Der Mensch ist egoistisch; auch der kindliche Wille muss gebrochen und der Autorität von Eltern und Lehrkräften unterworfen werden, Erziehung greift sanktionierend ein (Disziplin). Rousseau: Der Mensch ist von Natur aus gut („Alles ist gut, wie es aus den Händen des Schöpfers kommt, und alles entartet unter den Händen der Menschen“); die Gesellschaft verdirbt ihn, deshalb soll das Kind zunächst fern der Gesellschaft in der Natur erzogen werden (Émile mit einem Erzieher).",
+      "erklaerung": "Video: Hobbes überträgt den Gesellschaftsvertrag auf die Erziehung; Rousseau: Gesellschaft verdirbt.",
+      "folie": "39–40; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Leitlinien der Reckahner Reflexionen zu.",
+      "kategorien": [
+        "Was ethisch begründet ist",
+        "Was ethisch unzulässig ist"
+      ],
+      "elemente": [
+        {
+          "text": "Kinder und Jugendliche werden wertschätzend angesprochen und behandelt.",
+          "kategorie": "Was ethisch begründet ist"
+        },
+        {
+          "text": "Lehrpersonen und pädagogische Fachkräfte hören Kindern und Jugendlichen zu.",
+          "kategorie": "Was ethisch begründet ist"
+        },
+        {
+          "text": "Bei Rückmeldungen zum Lernen wird das Erreichte benannt.",
+          "kategorie": "Was ethisch begründet ist"
+        },
+        {
+          "text": "Kinder und Jugendliche werden zur Selbstachtung und Anerkennung der Anderen angeleitet.",
+          "kategorie": "Was ethisch begründet ist"
+        },
+        {
+          "text": "Produkte und Leistungen von Kindern entwertend und entmutigend kommentieren",
+          "kategorie": "Was ethisch unzulässig ist"
+        },
+        {
+          "text": "auf das Verhalten von Kindern herabsetzend, überwältigend oder ausgrenzend reagieren",
+          "kategorie": "Was ethisch unzulässig ist"
+        },
+        {
+          "text": "verbale, tätliche oder mediale Verletzungen zwischen Kindern ignorieren",
+          "kategorie": "Was ethisch unzulässig ist"
+        }
+      ],
+      "erklaerung": "Die zehn Leitlinien der Reckahner Reflexionen (Folien 45–46). Leitlinie 1 liegt allen anderen zugrunde.",
+      "folie": "45–46",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Was sind die Reckahner Reflexionen und worauf beruhen sie?",
+      "antwort": "Die Reckahner Reflexionen zur Ethik pädagogischer Beziehungen (Prengel 2013) formulieren ein positives Bild vom Menschen und Kind, das zu positivem Handeln in allen pädagogischen Beziehungen führt: „Wohlwollen und Verständnis statt Verletzungen und Demütigung!“ Sie bestehen aus zehn Leitlinien (sechs zum ethisch Begründeten, vier zum ethisch Unzulässigen). Der Name geht auf das Dorf Reckahn zurück, wo das Ehepaar von Rochow im 18. Jahrhundert eine Reformschule gründete. Laut Video ist etwa ein Viertel aller pädagogischen Interaktionen verletzend.",
+      "erklaerung": "Folien 43–48 und Video (Prengel 2013).",
+      "folie": "43–48",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Die pädagogische Anthropologie sieht den Menschen als Einheit von Kopf – Herz – Hand nach [[Pestalozzi]], wissenschaftlich: [[kognitiv]] – [[affektiv]] – [[psychomotorisch]].",
+      "erklaerung": "Folie 49–50; laut Video ist von der Tabelle nur die pädagogische Zeile wichtig.",
+      "folie": "49–50",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Bedürfnisse der passenden Dimension des Menschen zu.",
+      "kategorien": [
+        "Handlung",
+        "Kopf",
+        "Emotion",
+        "Körper",
+        "Sozietät",
+        "Kultur"
+      ],
+      "elemente": [
+        {
+          "text": "Hobbies, Aktion, Autonomie",
+          "kategorie": "Handlung"
+        },
+        {
+          "text": "Lernen, Kreativität",
+          "kategorie": "Kopf"
+        },
+        {
+          "text": "Geliebtsein, Erlebnisse",
+          "kategorie": "Emotion"
+        },
+        {
+          "text": "Schlaf, Bewegung, Erholung",
+          "kategorie": "Körper"
+        },
+        {
+          "text": "Anerkennung, Beziehung, Helfen",
+          "kategorie": "Sozietät"
+        },
+        {
+          "text": "Werte, Verantwortung, Kunst",
+          "kategorie": "Kultur"
+        }
+      ],
+      "erklaerung": "Dimensionen und Bedürfnisse (nach Schilling 2000; Stein 2017, S. 16).",
+      "folie": "52–53",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Aufgabe der Pädagogik der passenden Dimension zu.",
+      "kategorien": [
+        "Handlung",
+        "Kopf",
+        "Emotion",
+        "Körper",
+        "Sozietät",
+        "Kultur"
+      ],
+      "elemente": [
+        {
+          "text": "Förderung von Handlung und Autonomie",
+          "kategorie": "Handlung"
+        },
+        {
+          "text": "Verstandesförderung",
+          "kategorie": "Kopf"
+        },
+        {
+          "text": "Gefühlsförderung",
+          "kategorie": "Emotion"
+        },
+        {
+          "text": "Förderung von Bewegung und Sinnen",
+          "kategorie": "Körper"
+        },
+        {
+          "text": "Förderung der sozialen Fähigkeiten",
+          "kategorie": "Sozietät"
+        },
+        {
+          "text": "Förderung von Werten und Kultur",
+          "kategorie": "Kultur"
+        }
+      ],
+      "erklaerung": "Aufgaben der Pädagogik (Folie 54), Grundlage des Vechtaer Modells (Folien 57–77).",
+      "folie": "52–54",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Erarbeite für zwei Dimensionen des Menschen jeweils die Bedürfnisse von Kindern und eine konkrete Aufgabe einer kindgerechten Schule.",
+      "musterloesung": "Beispiel Körper: Kinder brauchen viel Bewegung, Pausen und Erholung → Förderung von Bewegung und Sinnen, z. B. Morgensport, regelmäßige Pausen nach der Leistungskurve, Ruheräume, gesundes Essen. Beispiel Sozietät: Kinder brauchen Anerkennung, Zugehörigkeit und Freundschaft → Förderung sozialer Fähigkeiten, z. B. Gruppenarbeit, Sitzordnung im Kreis, gemeinsam ausgehandelte Klassenregeln, Streitschlichter. (Andere Dimensionen ebenso möglich: Handlung, Kopf, Emotion, Kultur.)",
+      "bewertungspunkte": [
+        "Dimension 1 mit kindlichem Bedürfnis",
+        "passende Aufgabe/konkrete Maßnahme dazu",
+        "Dimension 2 mit kindlichem Bedürfnis",
+        "passende Aufgabe/konkrete Maßnahme dazu"
+      ],
+      "punkte": 4,
+      "erklaerung": "Übungsaufgabe Folie 56 (Hausaufgabe h01) mit dem Vechtaer Modell.",
+      "folie": "56–77",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f22",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Ein Schüler der 5. Klasse stört wiederholt den Unterricht. Beschreibe, wie eine Lehrkraft mit einem Hobbes-geprägten und eine mit einem Rousseau-/Reckahn-geprägten Menschenbild reagieren würde.",
+      "musterloesung": "Hobbes-geprägt: Der Schüler gilt als egoistisch, sein Wille muss gebrochen werden – die Lehrkraft setzt auf Disziplin, Strafen und Unterwerfung unter ihre Autorität. Rousseau-/Reckahn-geprägt: Der Schüler gilt als von Natur aus gut, das Stören hat Ursachen (Überforderung, Langeweile, Probleme zu Hause) – die Lehrkraft hört zu, benennt gelingendes Verhalten, vereinbart Schritte zur Weiterentwicklung und stärkt die Zugehörigkeit zur Klasse; sie reagiert nicht herabsetzend oder ausgrenzend (Leitlinien 2, 4, 9).",
+      "bewertungspunkte": [
+        "Hobbes: Disziplin/Sanktion, Wille brechen",
+        "Rousseau/Reckahn: Ursachen suchen, wohlwollend",
+        "Bezug auf mindestens eine Reckahner Leitlinie"
+      ],
+      "punkte": 3,
+      "erklaerung": "Transfer: Menschenbilder und Reckahner Reflexionen auf eine Unterrichtssituation anwenden (selbst erarbeitet).",
+      "folie": "38–46",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z01",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Annahmen zur Entwicklung der Kindheit postuliert Philipp Ariès in seinem Buch „Geschichte der Kindheit“?",
+      "optionen": [
+        "A: Auch wenn es Kinder immer gab, ist die Kindheit ein soziologisches Konstrukt, das sich historisch entwickelte.",
+        "B: Ob Kinder in der Geschichte als Kinder wahrgenommen wurden, war auch schicht- und standesabhängig.",
+        "C: A, B und D sind richtig.",
+        "D: Kinder wurden lange als kleine Erwachsene  mit weniger geistigen und körperlichen Kapazitäten betrachtet."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Lernzielkontrolle 3, Lösung C. Kindheit als Konstrukt, Schichtabhängigkeit (Video: je höher die Schicht, desto früher) und Kinder als kleine Erwachsene.",
+      "folie": "LZK 3 · 50 € · F24",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z02",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Bereiche betrachtet Philipp Ariès in seinem Buch „Geschichte der Kindheit“, um die historische Entwicklung des Kindheitsbegriffs und des Umgangs mit Kindern nachzuzeichnen?",
+      "optionen": [
+        "A …die beiden Bereiche der Kindheit und Familie.",
+        "B … die Bereiche Kindheit, Schule und Arbeitswelt.",
+        "C … die Bereiche Kindheit, Familie und Schule.",
+        "D …. die Bereiche Kindheit, Spiel und Freizeit und Schule."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Lernzielkontrolle 3, Lösung C. Die drei Teile der Studie: Entdeckung der Kindheit, Entwicklung des Schulwesens, Wandel der Familie (Video).",
+      "folie": "LZK 3 · 100 € · F24",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z03",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen leitete Philipp Ariès basierend auf seine Analyse der Kindheits- und Familiendarstellungen in der religiösen Malerei ab?",
+      "optionen": [
+        "A: Die Entwicklung der Kindheit als eigenständige Phase zeigt sich auch in religiösen Darstellungen des Jesuskindes.",
+        "B   Alle Antworten A, C und D sind richtig.",
+        "C: In Darstellungen des Jesuskindes wurde dieses bis zum Mittelalter oftmals als kleiner Erwachsener mit Krone, Zepter und Reichsapfel dargestellt.",
+        "D: Die Darstellung von Putti im Barock und Rokoko illustriert ebenfalls, dass Kindheit nun als eigenständige Phase in den Blick rückt."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Lernzielkontrolle 3, Lösung B. Jesus erst als kleiner Erwachsener mit Herrschaftszeichen, später kindlich; Putti betonen das Kindchenschema.",
+      "folie": "LZK 3 · 200 € · F31",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z04",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Auf Basis welchen Materials erarbeitete Philipp Ariès seine Annahmen zur Entwicklung der Kindheit?",
+      "optionen": [
+        "A: Auf Basis von Schilderungen von Kindern in der Romanliteratur europäischer Autor:innen seit dem 16. Jahrhundert.",
+        "B: Auf Basis von philosophischen Annahmen zum Wesen des Kindes der letzten Jahrhunderte in Theologie und Philosophie.",
+        "C: Auf Basis von Kinderdarstellungen in der bildenden Kunst (Malerei, Plastik) der letzten Jahrhunderte",
+        "D: A, B, C sind richtig."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Lernzielkontrolle 3, Lösung C. Ariès plante ursprünglich eine Geschichte der Kleidung und stieß dabei auf den Wandel im Blick auf das Kind (Video).",
+      "folie": "LZK 3 · 300 € · F24–35",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z05",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ab dem 18.Jahrhundert stellte Ariès in seiner „Geschichte der Kindheit“ das Bild des „unschuldigen Kindes“ bzw. der „kindlichen Unschuld“ fest?",
+      "optionen": [
+        "A: Kinder werden oftmals mit weißer oder heller, weiter, fließender Kleidung dargestellt.",
+        "B: Kinder werden häufig mit Tieren mit vorzugsweise weißem Pelz dargestellt, wie weißen Kaninchen, Tauben etc.",
+        "C: Kinder werden oftmals in der unberührten, romantisch dargestellten Natur abgebildet.",
+        "D: A, B und C ist richtig."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Lernzielkontrolle 3, Lösung D. Unschuldsattribute: weißes Kleid, weiße Tiere (Kaninchen, Hermelin), unberührte Natur.",
+      "folie": "LZK 3 · 500 € · F30",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z06",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Bereiche betrachtete Neil Postman in verstärktem Maße, um seine These vom Verschwinden der Kindheit zu untermauern?",
+      "optionen": [
+        "A Den Bereich der Medien (Fernsehen, Werbung), die Kinder und Erwachsene oftmals in gleicher Weise darstellen.",
+        "B Den Bereich der Schulcurricula und Schulbücher, die Kinder oftmals überfordern würden.",
+        "C Den Bereich der Kinderliteratur vom Kinderbuchsektor im Elementarbereich bis zum Jugendbuch",
+        "D Zeitgenössische Familienphotographien, die Kinder und Erwachsene gleichberechtigt darstellen."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Lernzielkontrolle 3, Lösung A. Postman ist Medienwissenschaftler: Das Fernsehen hebt Altersunterschiede auf.",
+      "folie": "LZK 3 · 1000 € · F25",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z07",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "„Ich glaube behaupten zu können, dass unter zehn Personen immer neun durch Erziehung das sind, was sie sind, gut oder böse, der Gesellschaft schädlich oder nützlich. Die Erziehung macht den großen Unterschied unter den Menschen.“ Von wem stammt diese Aussage?",
+      "optionen": [
+        "A John B. Watson",
+        "B Thomas Hobbes",
+        "C Jean-Jacques Rousseau",
+        "D John Locke"
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Lernzielkontrolle 3, Lösung D. Das Zitat steht nicht auf den Folien (Ergänzung aus der LZK), passt aber zu Lockes tabula rasa: Erfahrung und Erziehung prägen den Menschen.",
+      "folie": "LZK 3 · 2000 € · F41",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z08",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Welche Rolle spielt die Gesellschaft als makrosozialer Akteur in den philosophischen Annahmen von Hobbes und Rousseau und Locke?",
+      "optionen": [
+        "A: Hobbes überträgt seine Annahmen zum Gesellschaftsvertrag auf die Erziehung, die sanktionierend bei Fehlentwicklungen eingreifen muss.",
+        "B: Hobbes sieht die Gesellschaft als anarchisches System des Faustrechts, von dem sich der einzelne erst befreien muss, um sich zu entwickeln.",
+        "C: Rousseau sieht die Gesellschaft als positives Korrektiv, unter das sich der einzelne begeben muss, um sich voll entfalten zu können.",
+        "D: Locke ging von einem tendenziell schädlichen Gesellschaftseinfluss aus."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Lernzielkontrolle 3, Lösung A. B ist falsch: Bei Hobbes herrscht das Recht des Stärkeren im Naturzustand – der Staat/Vertrag überwindet ihn. C ist falsch: Für Rousseau verdirbt die Gesellschaft. D ist falsch: Locke sieht Prägung in beide Richtungen.",
+      "folie": "LZK 3 · 4000 € · F39–41",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z09",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Die philosophische Gleichsetzung des Menschen mit einer ‚Tabula rasa‘ war Vorläufer der….?",
+      "optionen": [
+        "A: Lerntheorien im Sinne der klassischen Konditionierung der Reiz-Reaktions-Verbindungen",
+        "B: Lerntheorien im Sinne der klassischen und instrumentellen Konditionierung des Belohnungslernens",
+        "C: A und B ist beides richtig.",
+        "D: Lerntheorien im Sinne des Kognitivismus und Konstruktivismus des aktiven Menschen im Sinnen Piagets."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Lernzielkontrolle 3, Lösung C. Ergänzung aus der LZK: Wenn der Mensch ein leeres Blatt ist, wird er durch Umwelteinflüsse geprägt – darauf bauen die behavioristischen Lerntheorien (klassische und instrumentelle Konditionierung) auf. Der Konstruktivismus betont dagegen den aktiven Menschen.",
+      "folie": "LZK 3 · 8000 € · F41",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z10",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Viele Internate finden sich in unberührter Natur, fernab von der Zivilisation der Großstadt, etwa das Inselinternat auf Spiekeroog, das Internat Schloss Salem am Bodensee etc. Auf welche Annahmen stützen sich diese geographischen Standortwahlen oftmals?",
+      "optionen": [
+        "A: Auf die Ansätze von Montessori und ihre Überlegungen zu den Übungen des täglichen Lebens (Versorgung von Tieren etc.)",
+        "B: Die Annahmen von Thomas Hobbes, dass auf diese Weise ein geschossener Raum für Sanktionen geschaffen werden kann",
+        "C Auf die Annahmen von Jean-Jacques Rousseau zu den Ansätzen der negativen Pädagogik durch Konsequenzlernen.",
+        "D: Auf die Annahmen von Jean-Jacques Rousseau zum unberührten Aufwachsen in der Natur."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Lernzielkontrolle 3, Lösung D. Rousseau: Émile wächst fern der Gesellschaft in der Natur auf.",
+      "folie": "LZK 3 · 16.000 € · F40",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z11",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Die Reckahner Reflexionen fußen auf…",
+      "optionen": [
+        "A Annahmen zum wertschätzenden Umgang, die von einem Konsortium gemeinsam erarbeitet wurden",
+        "B Annahmen, die bereits in der Schule des Ehepaares von Rochow formuliert wurden.",
+        "C Den Ideen, die das Fürstenehepaar von Reckahn in seiner Schule bereits vor einigen Jahrhunderten umsetzte.",
+        "D A und B ist richtig, C ist falsch."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Lernzielkontrolle 3, Lösung D. Die Reflexionen wurden seit 2011 von rund 150 Personen erarbeitet und knüpfen an die Schule des Ehepaars von Rochow an; ein „Fürstenehepaar von Reckahn“ gibt es nicht – Reckahn ist der Ort.",
+      "folie": "LZK 3 · 32.000 € · F44",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z12",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Der Trias des Menschenbildes der griechisch-christlichen Anthropologie fußt auf…?",
+      "optionen": [
+        "A Handlung – Sozietät – Kultur",
+        "B Leib – Seele – Geist",
+        "C Leben – Position – Handlung",
+        "D Denken – Fühlen – Wollen"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Lernzielkontrolle 3, Lösung B. A = sozio-kulturell, C = philosophisch, D = psychologisch (Folie 49).",
+      "folie": "LZK 3 · 64.000 € · F49",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z13",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Der Pestalozzische Begriff von „Kopf – Herz – Hand“ wird in der pädagogischen Anthropologie in wissenschaftlicher Manier heute oftmals bezeichnet als folgende drei Dimensionen…",
+      "optionen": [
+        "A Kognitiv – affektiv –psychomotorisch",
+        "B Denken – Fühlen – Wollen",
+        "C Handlung – Sozietät – Kultur",
+        "D Leben – Position – Handlung"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Lernzielkontrolle 3, Lösung A (Folie 49–50).",
+      "folie": "LZK 3 · 250.000 € · F49–50",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z14",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Maria Montessori versuchte mit ihrer Pädagogik möglichst viele Dimensionen und Bedürfnisse des Kindes anzusprechen. Welche Ansätze nutzte sie hierzu im Sinne einer ganzheitlichen Pädagogik?",
+      "optionen": [
+        "A: B, C und D sind richtig.",
+        "B: Übungen des praktischen Lebens, wie etwa die Versorgung von Tieren, von Schulgärten, gemeinsames Kochen etc.",
+        "C: Montessorimaterial, das einen hohen Aufforderungscharakter hat und zum Spielen, Bauen, Rechnen etc. einlädt.",
+        "D: Partnerarbeit und Freiarbeit an selbst gewählten Themen, um die Selbstverant-wortung der Kinder zu fördern."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Lernzielkontrolle 3, Lösung A. Montessori ist nicht auf den Folien (Ergänzung aus der LZK): Übungen des praktischen Lebens, Material mit Aufforderungscharakter und Freiarbeit sprechen mehrere Dimensionen an (Handlung, Kopf, Körper, Sozietät).",
+      "folie": "LZK 3 · 500.000 € · F52–54",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z15",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Die Pädagogik versucht in ihrem Wirken aus den…?",
+      "optionen": [
+        "A Bedürfnissen des Menschen Dimensio-nen zu rekonstruieren und daraus Aufgaben der Pädagogik abzuleiten",
+        "B Dimensionen des Menschen direkt Aufgaben der Pädagogik abzuleiten",
+        "C Dimensionen des Menschen Bedürfnisse und daraus Aufgaben der Pädagogik abzuleiten",
+        "D Aufgaben der Pädagogik Dimensionen des Menschen und daraus seine Bedürfnisse abzuleiten"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Lernzielkontrolle 3, Lösung C. Kette: Dimensionen → Bedürfnisse → Aufgaben der Pädagogik (Folie 51).",
+      "folie": "LZK 3 · 1.000.000 € · F51",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Laut Video ist die Struktur Menschenbild → Ursachenzuschreibung → Handlungsempfehlung die typische Prüfungsstruktur.",
+    "Die Kette Menschenbild → Gesellschaftsbild → Handlungsweise an Thomas von Aquin, Vives und Klumker mit Lebensdaten sicher können (Video).",
+    "Hobbes, Rousseau und Locke samt Lebensdaten und Zuordnung zu typischen Lehrkraftaussagen sind der klausurrelevante Kern (Video).",
+    "Die Tabelle „Dreigliedrigkeit der Menschenbilder“ muss nicht auswendig gelernt werden; wichtig ist Kopf – Herz – Hand bzw. kognitiv – affektiv – psychomotorisch (Video).",
+    "Die Kette Dimensionen → Bedürfnisse → Aufgaben der Pädagogik ist als Struktur klausurrelevant (Video)."
+  ],
+  "offene_fragen": [
+    "Übung Folie 42 (Hobbes/Rousseau/Locke in Lehrkraftaussagen): Die Dozentin gibt keine Auflösung – die Zuordnung ist selbst erarbeitet; ggf. in der Fragestunde am 03.11. oder im Tutorium nachfragen (besonders Aussage D).",
+    "Übungsaufgabe Folie 56: Laut altem Video wird sie im Tutorium besprochen; der aktuelle Ablaufplan nennt für den 03.11. die Fragestunde „Einführung in die EW und Menschenbilder“ – Frist daher 03.11."
+  ],
+  "auffaelligkeiten": [
+    "Folie 11: „vgl. Schillig, 2000“ – im Literaturverzeichnis (Folie 80) „Schilling, J. (2000)“.",
+    "Kurzskript S. 4: „Pädagogische Antrhropologie“ (Tippfehler).",
+    "Folie 45 (Leitlinie 5): „subjektiven Sinn ihres Verhaltens“ – im Video „Handelns“.",
+    "Literaturangabe Klein 2020: auf den Folien „S. 568-575“, der Artikel im Ordner endet auf S. 574; der Dateiname lautet „…danach_handeln“, der Titel „… mit ihm handeln“.",
+    "LZK 3: „Philipp Ariès“ statt Philippe; „Der Trias“ statt „Die Trias“; „geschossener Raum“ statt „geschlossener“; „im Sinnen Piagets“; die 500-€-Frage ist als Frage mit Fragezeichen formuliert, obwohl sie eine Aussage ist.",
+    "LZK 3 fragt Inhalte ab, die nicht auf den Folien stehen: Locke-Zitat (2000 €), tabula rasa als Vorläufer der Konditionierung (8000 €), Montessori (16.000 € als Distraktor, 500.000 €).",
+    "Transkript: Unsicherheit „Zwiebelgesellschaft“ (ca. 19:34) ist durch Folie 16 geklärt – die Grafik der Ständegesellschaft hat Zwiebelform."
+  ]
+}

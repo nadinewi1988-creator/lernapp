@@ -145,7 +145,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   const alleFragen: LFEintrag[] = LSITZ.flatMap((s) => s.fragen.map((f) => ({ s, f })));
   const wdRef = Object.fromEntries(stand.wiederholung.map((w) => [w.frage_ref, w]));
   const faelligZuerst = (l: LFEintrag[]) => { const h = heuteIso(); const r = (e: LFEintrag) => { const w = wdRef[frageRef(e.s, e.f)]; return !w ? 1 : w.faellig && w.faellig <= h ? 0 : 2; }; return [...l].sort((a2, b2) => r(a2) - r(b2)); };
-  const status = (x: S) => (x.s.status !== 'findet_statt' ? 'aus' : x.s.anwesenheit === 'ja' ? 'da' : x.s.anwesenheit === 'nein' ? (x.s.nachgearbeitet ? 'nach' : 'weg') : x.s.datum <= HEUTE ? 'frage' : 'kommt');
+  const status = (x: S) => (x.s.status !== 'findet_statt' ? 'aus' : x.s.anwesenheit === 'ja' ? 'da' : x.s.anwesenheit === 'nein' ? (x.s.nachgearbeitet ? 'nach' : 'weg') : x.s.datum < HEUTE || (x.s.datum === HEUTE && (x.s.von ?? '00:00') <= new Date().toTimeString().slice(0, 5)) ? 'frage' : 'kommt');
   const ss = istAkt ? SESS : [];
   const freiwillig = stand.teilmodule.filter((t) => t.freiwillig && t.kuerzel === kuerzel && !stand.veranstaltungen.some((v) => v.teilmodul_id === t.id));
   const gruppenIds = [...new Set(ss.map((x) => x.vid))].sort((x, y) => { const ax = ss.find((q) => q.vid === x)!, ay = ss.find((q) => q.vid === y)!; return (istTut(ax.titel) ? 1 : 0) - (istTut(ay.titel) ? 1 : 0) || ax.k.localeCompare(ay.k); });
@@ -195,7 +195,9 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
 
   // Übersicht
   const weg = ss.filter((x) => status(x) === 'weg').length;
-  const naechsteS = ss.find((x) => x.s.datum > HEUTE);
+  // Nächste Sitzung: auch die heutige, solange sie noch nicht vorbei ist (ausgefallene/entfallende überspringen)
+  const JETZT = new Date().toTimeString().slice(0, 5);
+  const naechsteS = ss.find((x) => x.s.status === 'findet_statt' && (x.s.datum > HEUTE || (x.s.datum === HEUTE && (x.s.bis ?? '23:59') > JETZT)));
   const bisher = ss.filter((x) => x.s.datum <= HEUTE && x.s.status !== 'entfaellt' && !ohneMat(x) && x.art !== 'Tutorium');
   const teile = gruppenIds.map((vid) => { const x = ss.find((q) => q.vid === vid)!; return { vid, k: x.k, name: x.titel, zeit: x.rhythmus === 'einzeltermine' ? (x.k === 'pkb003.3' ? '14-täglich, ' : 'Blocktermine') + (x.k === 'pkb003.3' ? x.s.von + '–' + x.s.bis : '') : DAYN[((x.wochentag ?? 1)) % 7] + ' ' + x.s.von + '–' + x.s.bis }; });
   const lp = istAkt && tage !== null && tage > 0 ? (() => {
@@ -253,7 +255,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
       {tab === 'uebersicht' && <>
         <div className="mod-kacheln" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 12 }}>
           {(istAkt ? [
-            { label: 'Nächste Sitzung', wert: naechsteS ? fmtD(naechsteS.s.datum) + ', ' + naechsteS.s.von : '–', info: naechsteS ? naechsteS.kurz + ' · ' + (naechsteS.s.raum ?? '') : '' },
+            { label: 'Nächste Sitzung', wert: naechsteS ? (naechsteS.s.datum === HEUTE ? 'Heute' : fmtD(naechsteS.s.datum)) + ', ' + naechsteS.s.von : '–', info: naechsteS ? naechsteS.kurz + ' · ' + (naechsteS.s.raum ?? '') : '' },
             { label: 'Nachholen', wert: weg + ' offen', info: 'von ' + ss.filter((x) => x.s.datum <= HEUTE).length + ' bisherigen Sitzungen' },
             { label: 'Prüfung', wert: eintrag?.bestanden ? 'bestanden' : t0?.datum ? fmtD(t0.datum) + t0.datum.slice(0, 4) : 'Termin offen', info: formKurz + (eintrag?.naechster && eintrag.naechster.versuch > 1 ? ' · ' + eintrag.naechster.versuch + '. Versuch' : ''), link: true },
             { label: 'Aufbereitet', wert: '0 von ' + bisher.length, info: bisher.length ? bisher.length + (bisher.length === 1 ? ' Sitzung' : ' Sitzungen') + ' noch im Modul-Chat aufzubereiten' : 'alles aufbereitet' },

@@ -29,7 +29,7 @@ if (d.definitionen?.length) P.push('<section><h2>Begriffe</h2>' + d.definitionen
 const auf = d.aufgaben.filter((a) => !/hausaufgabe/i.test(a.art));
 const ha = d.aufgaben.filter((a) => /hausaufgabe/i.test(a.art));
 if (auf.length) P.push('<section><h2>Aufgaben aus dem Material mit Lösung</h2>' + auf.map((a) => `<div class="auf"><div class="b">${esc(a.quelle)}</div><div class="w">${mdHtml(a.text)}</div><div><b>Lösung:</b> ${mdHtml(a.loesung)}</div>${a.loesungsweg ? `<div><b>Lösungsweg:</b> ${mdHtml(a.loesungsweg)}</div>` : ''}</div>`).join('') + '</section>');
-if (ha.length) P.push('<section class="ha"><h2>Hausaufgaben</h2><ul>' + ha.map((a) => `<li><b>${inl(a.titel || a.quelle)}</b> – Aufgaben und Lösungen in der eigenen PDF <i>${esc((a.pdf || '').split('/').pop())}</i></li>`).join('') + '</ul></section>');
+if (ha.length) P.push('<section class="ha"><h2>Hausaufgaben</h2><ul>' + ha.map((a) => `<li><b>${inl(a.titel || a.quelle)}</b> – ${a.pdf ? 'Aufgaben und Lösungen in der eigenen PDF <i>' + esc(a.pdf.split('/').pop()) + '</i>' : 'persönliche Ausarbeitung in deinem Ordner (nicht in der App)'}</li>`).join('') + '</ul></section>');
 if (d.offene_fragen?.length) P.push(`<section class="ask"><h2>Nachfragen in der Uni</h2><ol>${d.offene_fragen.map((q) => '<li>' + inl(q) + '</li>').join('')}</ol></section>`);
 P.push(`<footer>„Ergänzung“ = nicht aus der Vorlesung, zum Verständnis ergänzt. Erstellt mit Claude für die Lernapp, Stand ${d.stand === 'geprueft' ? 'geprüft' : esc(d.stand)}.</footer>`);
 if (fehler.length) { console.error('KaTeX-Fehler:\n' + fehler.join('\n')); process.exit(1); }
@@ -48,7 +48,7 @@ h3{font-size:11pt;margin:14px 0 4px;break-after:avoid}h4,h5{font-size:10.5pt;mar
 .def,.auf{border-left:3px solid #3d5a8a;padding:4px 10px;margin:8px 0}.def{break-inside:avoid}.auf .b,.auf .w{break-after:avoid}.def .b,.auf .b{font-weight:700}
 .w{color:#3f4756;margin:2px 0 4px}.def .w{font-style:italic}
 p{margin:4px 0}ul,ol{margin:4px 0;padding-left:22px}li{margin:2px 0}
-.lt-bild{margin:8px 0 12px;text-align:center;break-inside:avoid}.lt-bild img{max-width:100%}.lt-bild figcaption{font-size:9pt;color:#5a6578}
+.lt-bild{margin:8px 0 12px;text-align:center;break-inside:avoid}.lt-bild img{max-width:75%}.lt-bild figcaption{font-size:9pt;color:#5a6578}
 .lt-regel{background:#f3f6fb;border-left:4px solid #8195b8;padding:6px 12px;margin:8px 0;border-radius:3px;break-inside:avoid}
 table{border-collapse:collapse;margin:6px 0;font-size:9.6pt}td,th{border:1px solid #c9d3e3;padding:2px 8px;text-align:left}th{background:#eef2f8}
 .katex{font-size:1.06em}.katex-display{margin:6px 0}

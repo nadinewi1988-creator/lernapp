@@ -75,7 +75,7 @@ export function Dashboard({ stand, neuLaden }: Props) {
   if (HEUTE >= '2027-08-30' && HEUTE <= '2027-10-08') hinweise.push({ text: 'ASP · Woche ' + (Math.floor((parseIso(HEUTE).getTime() - parseIso('2027-08-30').getTime()) / (7 * 864e5)) + 1) + ' von 6', bg: '#e3f2e8', fg: '#2f7a4b' });
   const heuteS = sitz.filter((s) => s.datum === HEUTE).map((s) => {
     const k = kuerzelVon(s), f = farbe(k), aus = s.status !== 'findet_statt';
-    return { sort: s.von ?? '', zeit: s.von ?? '', label: k + (s.anwesenheit === 'ja' ? ' ✓' : ''), fg: f[0], bg: f[1], titel: va[s.veranstaltung_id]?.kurz ?? '', info: s.status === 'entfaellt' ? 'entfällt – ' + (s.entfall_grund ?? '') : aus ? 'ausgefallen' : 'bis ' + s.bis + ' · ' + (s.raum ?? ''), opazitaet: aus ? 0.5 : 1 };
+    return { sort: s.von ?? '', zeit: s.von ?? '', label: k + (s.anwesenheit === 'ja' ? ' ✓' : ''), fg: f[0], bg: f[1], titel: va[s.veranstaltung_id]?.kurz ?? '', info: s.status === 'entfaellt' ? 'entfällt – ' + (s.entfall_grund ?? '') : aus ? 'ausgefallen' : 'bis ' + s.bis + ' · ' + (s.raum ?? ''), opazitaet: aus ? 0.5 : 1, href: '#/module/' + (k.match(/^[a-z]+\d+/)?.[0] ?? k) as string | undefined };
   });
   const amTag = (e: KEintrag, d: string) => {
     const w = e.wiederholung;
@@ -265,7 +265,7 @@ export function Dashboard({ stand, neuLaden }: Props) {
             {hinweise.map((h) => <div key={h.text} style={{ padding: '8px 12px', borderRadius: 12, fontSize: 13, fontWeight: 800, background: h.bg, color: h.fg }}>{h.text}</div>)}
             {heuteS.length === 0 && <div style={{ padding: 12, borderRadius: 14, background: 'var(--paper)', fontSize: 14, color: 'var(--ink-2)' }}>Heute keine Veranstaltungen – genieß den Tag.</div>}
             {heuteListe.map((p, i) => (
-              <div key={i} style={{ display: 'flex', gap: 12, alignItems: 'center', padding: 12, borderRadius: 14, background: p.bg, opacity: p.opazitaet }}>
+              <div key={i} role={'href' in p && p.href ? 'link' : undefined} onClick={() => { if ('href' in p && p.href) location.hash = String(p.href); }} title={'href' in p && p.href ? 'Zur Modulseite' : undefined} style={{ cursor: 'href' in p && p.href ? 'pointer' : undefined, display: 'flex', gap: 12, alignItems: 'center', padding: 12, borderRadius: 14, background: p.bg, opacity: p.opazitaet }}>
                 <div style={{ fontSize: 13, fontWeight: 700, color: 'var(--ink-2)', width: 48 }}>{p.zeit}</div>
                 <div style={{ flex: 1, minWidth: 0 }}><div style={{ fontSize: 12, fontWeight: 800, color: p.fg }}>{p.label}</div><div className="trennen" style={{ fontWeight: 700, fontSize: 15 }}>{p.titel}</div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>{p.info}</div></div>
               </div>))}
@@ -334,7 +334,7 @@ export function Dashboard({ stand, neuLaden }: Props) {
           <h2 style={{ margin: 0, fontSize: 15, fontWeight: 800 }}>Heute</h2>
           {hinweise.map((h) => <div key={h.text} style={{ padding: '5px 10px', borderRadius: 10, fontSize: 12, fontWeight: 800, background: h.bg, color: h.fg }}>{h.text}</div>)}
           {heuteS.length === 0 && <div style={{ padding: '6px 10px', borderRadius: 10, background: 'var(--paper)', fontSize: 13, color: 'var(--ink-2)' }}>Heute keine Veranstaltungen – genieß den Tag.</div>}
-          {heuteListe.map((p, i) => <div key={i} style={{ display: 'flex', gap: 10, alignItems: 'center', padding: '6px 10px', borderRadius: 10, background: p.bg, fontSize: 13, opacity: p.opazitaet }}><b style={{ width: 40, color: 'var(--ink-2)' }}>{p.zeit}</b><b style={{ color: p.fg }}>{p.label}</b><span style={{ flex: 1, minWidth: 0, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{p.titel}</span></div>)}
+          {heuteListe.map((p, i) => <div key={i} role={'href' in p && p.href ? 'link' : undefined} onClick={() => { if ('href' in p && p.href) location.hash = String(p.href); }} style={{ cursor: 'href' in p && p.href ? 'pointer' : undefined, display: 'flex', gap: 10, alignItems: 'center', padding: '6px 10px', borderRadius: 10, background: p.bg, fontSize: 13, opacity: p.opazitaet }}><b style={{ width: 40, color: 'var(--ink-2)' }}>{p.zeit}</b><b style={{ color: p.fg }}>{p.label}</b><span style={{ flex: 1, minWidth: 0, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{p.titel}</span></div>)}
         </section>
         <section style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 14, padding: 12, display: 'flex', flexDirection: 'column', gap: 2 }}>
           <h2 style={{ margin: '0 0 4px', fontSize: 15, fontWeight: 800 }}>Aufgaben &amp; Fristen</h2>

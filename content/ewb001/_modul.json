@@ -41,14 +41,16 @@
       "text": "Breites Wissen über Grundbegriffe und Problemstellungen der Erziehungswissenschaften",
       "abgedeckt_in": [
         "ewb001.1_2026-10-13",
-        "ewb001.2_2026-10-13"
+        "ewb001.2_2026-10-13",
+        "ewb001.1_2026-10-20"
       ]
     },
     {
       "text": "Unterschied zwischen pädagogischem Alltagswissen und wissenschaftlicher Betrachtung",
       "abgedeckt_in": [
         "ewb001.1_2026-10-13",
-        "ewb001.2_2026-10-13"
+        "ewb001.2_2026-10-13",
+        "ewb001.1_2026-10-20"
       ]
     },
     {
@@ -61,7 +63,9 @@
     },
     {
       "text": "Struktur und historische Entwicklung der Erziehungswissenschaften darstellen",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "ewb001.1_2026-10-20"
+      ]
     }
   ],
   "probepruefung": {
@@ -75,6 +79,7 @@
   },
   "sitzungen": [
     "ewb001.1_2026-10-13",
+    "ewb001.1_2026-10-20",
     "ewb001.2_2026-10-13"
   ],
   "klausurstil": {
@@ -142,12 +147,26 @@
       "vorhanden": true,
       "datei": "Literatur/Stein_2017_Allgemeine-Paedagogik.pdf",
       "stand": "2026-10-25"
+    },
+    {
+      "eintrag": "Dörpinghaus, A. & Uphoff, I. K. (2011): Grundbegriffe der Pädagogik. Darmstadt: WBG (zitiert in ewb001.1 S02, Folien 8–12, S. 10, 14)",
+      "vorhanden": false,
+      "stand": "2026-10-26"
+    },
+    {
+      "eintrag": "Stein, M. (2017): Allgemeine Pädagogik, S. 11–14 (Übungsaufgabe ewb001.1 S02, Folie 37)",
+      "vorhanden": true,
+      "datei": "Literatur/Stein_2017_Allgemeine-Paedagogik.pdf",
+      "stand": "2026-10-26"
     }
   ],
   "besonderheiten": [
     "Flipped Classroom: Courseware-/Opencast-Einheiten (Folien + eingesprochenes Video) als asynchroner Teil, dienstags Präsenztermine (Trainings Compasito/Betzavta, Gastvorträge, Fragestunden)",
     "Die Videos und Transkript-Zusammenfassungen in „3._Videos … Kopie“ stammen aus früheren Semestern; die Folien in „2._Präsentationen“ sind die aktuellen aus Stud.IP",
-    "ewb001.2 am 13.10.2026: keine Veranstaltung (gemeinsamer Auftakt in ewb001.1) – in der App „ausgefallen“"
+    "ewb001.2 am 13.10.2026: keine Veranstaltung (gemeinsamer Auftakt in ewb001.1) – in der App „ausgefallen“",
+    "Präsenztermine Compasito und Betzavta (ewb001.1) sind freiwillig und nicht prüfungsrelevant – keine Lerninhalte (Nadine, 26.10.2026)",
+    "Lernzielkontrollen („Wer wird Millionär“, .pptx): die richtige Antwort ist per Hervorhebungs-Animation markiert; Fragen kommen im Originalwortlaut als z01… in die Sitzungsdatei",
+    "Begriffe Pädagogik/Erziehungswissenschaft: Stein (ewb001.1) synonym, Rieckmann/Ludwig (ewb001.2) unterschieden – beide Sichtweisen werden nebeneinander gelernt (Nadine, 26.10.2026)"
   ],
   "auffaelligkeiten": [
     "ewb001.1 S01 Video: Kurzskript „ca. 10 Seiten“, tatsächlich 25 Seiten",
@@ -156,7 +175,15 @@
     "Einheit 0, Folie 26: Familienverantwortung bei „Kindern unter 18“ – Richtlinie 46/2021 nennt Kinder unter 14",
     "Ablaufplan (Rieckmann): letzte Fragestunde mit „26.01.26“ statt 26.01.27",
     "ewb001.2 S01, Folien 7–10: älterer Ablaufplan (14 Termine, ohne „Inklusion und Digitalität“) – verbindlich ist der Ablaufplan WiSe 2026/27",
-    "ewb001.2 S01: Folie 16 ordnet Bildung intra- und interpersonell zu, Folie 17 (Stein 2017, S. 18) nur interpersonell"
+    "ewb001.2 S01: Folie 16 ordnet Bildung intra- und interpersonell zu, Folie 17 (Stein 2017, S. 18) nur interpersonell",
+    "ewb001.1 S02: Lernzielkontrolle 2, 8000-Euro-Frage: „paideia“ wörtlich = „Kinderführung“. Stein 2017, S. 11 übersetzt paideia mit „Erziehung“ oder „Bildung“; „Kinderführung“ ist dort die Bedeutung von „Paidagogia“ (pais + agein).",
+    "ewb001.1 S02: Lernzielkontrolle 2, 500.000-Euro-Frage: Antwort A und C sind wortgleich („Mikro-, meso-, exo- und makrosozial“).",
+    "ewb001.1 S02: Lernzielkontrolle 2, 500-Euro-Frage: Tippfehler „Pädagogi:innen“.",
+    "ewb001.1 S02: Folie 25 nennt Bildung „Lebenslanger Prozess …“, die gleiche Übersicht bei Rieckmann (ewb001.2 S01, Folie 17) und im Kurzskript „Prozess, der …“.",
+    "ewb001.1 S02: Folie 18: Fröbel als „Carl Poppo Fröbel (1786–1824)“ – gemeint ist laut Video der Begründer des Kindergartens (bekannt als Friedrich Fröbel, 1782–1852); im Seminar nachfragen.",
+    "ewb001.1 S02: Folie 15 nennt „Wildt, 2006“, das Literaturverzeichnis (Folie 39) nur Wildt 1997.",
+    "ewb001.1 S02: Stein 2017, S. 13 formuliert die Definition etwas anders als Folie 27 („die Auswirkungen dieser Prozesse vorhersagt und somit allen hieran beteiligten Personen …“) – gelernt wird der Folienwortlaut.",
+    "ewb001.1 S02: Lernzielkontrolle 2: Silbentrennungen aus dem Folienlayout (z. B. „Ethikbe-züge“, „pro-fessionellen“) sind in der App zusammengeschrieben; Antwortzeilen sind mit „·“ verbunden."
   ],
   "dateien": [
     {
@@ -198,7 +225,8 @@
       "pfad": "ewb001.1/1._Organisatorisches/Zusammenfassung_ewb001.1_Stein_end.pdf",
       "geaendert": "2025-10-14",
       "art": "Kurzskript",
-      "status": "später"
+      "status": "verarbeitet",
+      "hinweis": "je Sitzung genutzt (S02: Seiten 2–3)"
     },
     {
       "pfad": "ewb001.1/2._Präsentationen/ewb001.1_0__Auftakttage_Einführung_in_das_Studium.pdf",
@@ -259,6 +287,27 @@
       "geaendert": "2026-09-06",
       "art": "Folien (ältere Fassung der Orga-Folien ewb001.1)",
       "status": "übersprungen"
+    },
+    {
+      "pfad": "ewb001.1/2._Präsentationen/ewb001.1_2__Sitzung_Erziehungswissenschaft_Einführung.pdf",
+      "geaendert": "2026-09-05",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.1_2026-10-20"
+    },
+    {
+      "pfad": "ewb001.1/3._Videos Courseware Kopie/Sitzung_02/ewb001.1_2__Sitzung_Transkript_Zusammenfassung.docx",
+      "geaendert": "2026-09-06",
+      "art": "Transkript",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.1_2026-10-20"
+    },
+    {
+      "pfad": "ewb001.1/5._Lernzielkontrollen/2_Lernzielkontrolle_Pädagogik_und_Erziehungswissenschaften_allgemein.pptx",
+      "geaendert": "2021-12-17",
+      "art": "Lernzielkontrolle",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.1_2026-10-20"
     }
   ]
 }

@@ -1,0 +1,1034 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb001",
+  "teilmodul": "ewb001.1",
+  "datum": "2026-10-20",
+  "sitzung_nr": 2,
+  "sitzung_id": "",
+  "thema": "Einführung in die Erziehungswissenschaft (Alltagswissen, Professionalität, Pädagogik, Reflexionswissenschaft, Handlungswissenschaft)",
+  "thema_in_app": "eingetragen",
+  "stand": "geprueft",
+  "hinweis": "Asynchrone Courseware-Einheit 2 (Folien + eingesprochenes Video aus einem früheren Semester). Die Präsenz am 20.10. war Compasito Teil I – freiwillig und nicht prüfungsrelevant, daher keine Lerninhalte dazu.",
+  "quellen": [
+    {
+      "datei": "ewb001.1/2._Präsentationen/ewb001.1_2__Sitzung_Erziehungswissenschaft_Einführung.pdf",
+      "art": "Folien",
+      "seiten": "1–42"
+    },
+    {
+      "datei": "ewb001.1/3._Videos Courseware Kopie/Sitzung_02/ewb001.1_2__Sitzung_Transkript_Zusammenfassung.docx",
+      "art": "Transkript des eingesprochenen Videos (55 Min.)",
+      "seiten": ""
+    },
+    {
+      "datei": "ewb001.1/5._Lernzielkontrollen/2_Lernzielkontrolle_Pädagogik_und_Erziehungswissenschaften_allgemein.pptx",
+      "art": "Lernzielkontrolle „Wer wird Millionär“ (14 Fragen, Lösung per Animation markiert)",
+      "seiten": "1–17"
+    },
+    {
+      "datei": "ewb001.1/1._Organisatorisches/Zusammenfassung_ewb001.1_Stein_end.pdf",
+      "art": "Kurzskript",
+      "seiten": "2–3"
+    },
+    {
+      "datei": "Literatur/Stein_2017_Allgemeine-Paedagogik.pdf",
+      "art": "Literatur (Übungsaufgabe Folie 37, Hausaufgabe h02)",
+      "seiten": "11–14"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Du kannst begründen, warum pädagogisches Handeln Wissenschaft braucht, und Alltagswissen, Erfahrungswissen, Professionswissen und wissenschaftliches Wissen nach Dörpinghaus & Uphoff (2011) unterscheiden.",
+      "art": "abgeleitet",
+      "quelle": "Folien 5–12",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03",
+        "f04",
+        "f05"
+      ],
+      "erklaerung_abschnitt": "Warum braucht pädagogisches Handeln Wissenschaft?"
+    },
+    {
+      "text": "Du kannst die drei Bereiche der Professionalität (Wissen, Können, Haltung) nach Effinger erläutern und die Stufen zur professionellen Kompetenz nennen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 13–15",
+      "fragen": [
+        "f06",
+        "f07",
+        "f08",
+        "z01",
+        "z02",
+        "z03"
+      ],
+      "erklaerung_abschnitt": "Professionalität: Wissen – Können – Haltung"
+    },
+    {
+      "text": "Du kannst den Baum der Pädagogik nach Heiko Kleve wiedergeben.",
+      "art": "abgeleitet",
+      "quelle": "Folie 16",
+      "fragen": [
+        "f09"
+      ],
+      "erklaerung_abschnitt": "Der Baum der Pädagogik (Heiko Kleve)"
+    },
+    {
+      "text": "Du kennst bedeutende Pädagoginnen und Pädagogen und ihre Ansätze.",
+      "art": "abgeleitet",
+      "quelle": "Folie 18",
+      "fragen": [
+        "f18",
+        "z04",
+        "z05",
+        "z06",
+        "z07"
+      ],
+      "erklaerung_abschnitt": "Klassikerinnen und Klassiker der Pädagogik"
+    },
+    {
+      "text": "Du kannst den Begriff Pädagogik etymologisch herleiten und erklären, warum seit den 1960er Jahren eher von Erziehungswissenschaft gesprochen wird.",
+      "art": "abgeleitet",
+      "quelle": "Folie 20",
+      "fragen": [
+        "f10",
+        "f17",
+        "z08",
+        "z09"
+      ],
+      "erklaerung_abschnitt": "Pädagogik: Wortherkunft und der Begriff Erziehungswissenschaft"
+    },
+    {
+      "text": "Du kannst die Definition der Pädagogik nach Stein (2017) wiedergeben, ihre fünf Aufgaben an Beispielen unterscheiden und Fragestellungen zuordnen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 26–35",
+      "fragen": [
+        "f11",
+        "f12",
+        "f13",
+        "f14",
+        "f15",
+        "z10",
+        "z11"
+      ],
+      "erklaerung_abschnitt": "Definition der Pädagogik und ihre fünf Aufgaben · Die fünf Aufgaben an Beispielen · Fragestellungen der Pädagogik"
+    },
+    {
+      "text": "Du kannst die Pädagogik als Reflexionswissenschaft und als Handlungswissenschaft beschreiben.",
+      "art": "abgeleitet",
+      "quelle": "Folie 37; Stein 2017, S. 12–14",
+      "fragen": [
+        "f16"
+      ],
+      "erklaerung_abschnitt": "Reflexionswissenschaft und Handlungswissenschaft"
+    },
+    {
+      "text": "Du kannst die vier Säulen der Pädagogik und die drei Ebenen (intrapersonell, interpersonell, makrosozial) zuordnen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 21–25",
+      "fragen": [
+        "z12",
+        "z13",
+        "z14"
+      ],
+      "erklaerung_abschnitt": "Entwicklung des Subjekts: vier Säulen und drei Ebenen"
+    }
+  ],
+  "kurzfassung": [
+    "Pädagogisches Handeln braucht Wissenschaft: Das Alltagswissen der Laien löst Alltagsprobleme, wird über Sozialisation erworben, über Generationen weitergegeben und gilt sogar, wenn es widersprüchlich ist.",
+    "Professionswissen entsteht aus Berufserfahrung vor dem Hintergrund eines wissenschaftlichen Studiums; erst wissenschaftliches Wissen schafft die Distanz für eine reflektierte Sicht der Praxis.",
+    "Professionelle Fachkräfte grenzen sich von Laien durch Wissen, Können (Methoden) und Haltung (Berufsethik) ab – das Kompetenzdreieck der Professionalität nach Effinger.",
+    "Baum der Pädagogik (Kleve): Wurzel Ethik und Menschenbild, Stamm Wissenschaftstheorie, vier Hauptäste Sozialisation, Erziehung, Bildung, Lernen, Blätter die einzelnen Inhalte.",
+    "„Pädagogik“ kommt von paideia (pais = Kind, agein = führen): Kinderführung; seit den 1960er Jahren spricht man eher von Erziehungswissenschaft, um alle Lebensalter und den Wissenschaftscharakter zu betonen.",
+    "Pädagogik bzw. Erziehungswissenschaft beobachtet, interpretiert und erklärt Prozesse der Erziehung, Bildung, des Lernens und der Sozialisation, sagt ihre Wirkungen vorher und stellt Handlungswissen bereit (Stein 2017).",
+    "Interpretation führt Beobachtungen auf ein abstrakteres Konstrukt zurück; erst die Erklärung nennt Ursachen.",
+    "Pädagogik ist zugleich Reflexionswissenschaft (sie reflektiert pädagogische Prozesse) und Handlungswissenschaft (sie leitet sie an)."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Warum braucht pädagogisches Handeln Wissenschaft?",
+      "text": "Pädagogik ist **nicht nur für Kinder** da: Pädagog:innen arbeiten mit Menschen aller Lebensalter – von der Kita über Schule und Jugendarbeit bis zur Erwachsenen- und Altenbildung (Folie 4, Video).\n\n**Laienmeinung (Folie 5):** „Kochen, Kindererziehen und pädagogisches Handeln kann jede*r.“ Folie 6 zeigt dazu den Mailauszug einer Fachkraft aus der sozialpädagogischen Familienhilfe: Handwerker werden mit Kaffee und Kuchen verwöhnt und dürfen selbständig arbeiten – die pädagogische Kraft wird dagegen „regelmäßig in den Familien darüber belehrt, wie ein solches Handeln zu vollziehen sei“.\n\n**Vier Wissensformen (Dörpinghaus & Uphoff 2011):**\n\n| Wissensform | Kern | Folie |\n| --- | --- | --- |\n| **Alltagswissen** (Laien) | „soll Alltagsprobleme lösen und wird in der Regel durch die eigene Sozialisation, durch Familie, Medien, Freunde usw. erworben. Bewährte Erziehungspraktiken halten sich über Generationen. Daher wird professioneller Rat erst dann gesucht, wenn das praktische Alltagswissen scheitert. […] Selbst wenn das pädagogische Alltagswissen in sich völlig widersprüchlich ist, hat es Geltung, da es zur Bewältigung des Alltags beiträgt.“ (S. 14) | 8 |\n| **Erfahrungswissen** | „Aus beruflicher Praxis entsteht Erfahrungswissen“ – im Laufe der Zeit und im Austausch mit Kollegen | 9 |\n| **Professionswissen** | Erfahrungen, „die sich vor dem Hintergrund eines wissenschaftlich ausgerichteten Studiums zu einem Professionswissen formieren, um berufliche Situationen im Lichte wissenschaftlich begründeter und kritisch geprüfter Konzepte zu behandeln“ (S. 14) | 9 |\n| **Wissenschaftliches Wissen** | „schafft die Distanz, die eine reflektierte Sicht der Praxis möglich macht“; „Das Spiel der Wissenschaft folgt anderen Regeln als das Spiel der beruflichen Praxis oder des Alltags.“ Seine Funktion: „eine Folie herzustellen, auf der Professionswissen bewertet und weiter entwickelt werden kann“ (S. 14) | 10–11 |\n\n**Stellenwert von Theorien (Folie 12, S. 10):** „Mit „Wissenschaft“ ist die Intention verbunden, Phänomene und Zusammenhänge verstehbar und erklärbar zu machen. […] Wissenschaft erscheint somit als eine fortschreitende Annäherung an die Wahrheit.“\n\n**Video:** Frau Stein wertet Alltagswissen nicht ab – es ist nötig, um handlungsfähig zu sein. Problematisch sind ungünstige Traditionen, die schwer zu erschüttern sind. Beispiel für Widersprüchlichkeit: einmal heißt es, Fernsehen beruhige das nervöse Kind, ein andermal, zu viel Fernsehen mache es nervös. Konsequenz für die Praxis: Was du als Fachkraft behauptest, muss **begründbar** sein.",
+      "folien": "4–12"
+    },
+    {
+      "titel": "Professionalität: Wissen – Können – Haltung",
+      "text": "**Folie 13:** Professionelle pädagogische Fachkräfte grenzen sich von Laien (Eltern, Ehrenamtliche) ab durch\n- **A Professionelles Wissen**\n- **B Professionelle Kenntnisse** (im Video: professionelles **Können**)\n- **C Professionelle Haltung**\n\n**Kompetenzdreieck der Professionalität (Folie 14, © Herbert Effinger; kursive Begriffe von Silvia Staub-Bernasconi):**\n\n| Ecke | Inhalt | Wissensart (Staub-Bernasconi) |\n| --- | --- | --- |\n| **Wissen** | Theorien und Handlungskonzepte über Zusammenhänge, Funktionen, Interessen, Wirkungen, Akteure, Kontextbedingungen, Erkenntnisgewinnung | Gegenstands-, Erklärungs- und Funktionswissen |\n| **Können** | Methoden zur Analyse (Forschungsmethoden), Intervention, Gestaltung und Steuerung (Handlungsmethoden), (Arbeitsformen und -techniken), Reflexion (Supervision) und Evaluation | Verfahrenswissen |\n| **Haltung** | Handlungsmaximen und Berufsethik, z. B. Akzeptanz, Autonomie, Alltagsorientierung, Partizipation, Empowerment, (All)parteilichkeit | Werte- und Kriterienwissen |\n\nIm Video: Zur Haltung gehört auch die **professionelle Distanz**.\n\n**Stufen zur professionellen Kompetenz (Folie 15, North, erweitert von Wildt 2006):**\n\nInformation → *+ Vernetzung* → **Wissen** → *+ Anwendung* → **Können** → *+ Bewertung* → **Einstellung** → *+ Angemessenheit* → **Kompetenz** → *+ Verantwortung* → **Professionalität**",
+      "folien": "13–15"
+    },
+    {
+      "titel": "Der Baum der Pädagogik (Heiko Kleve)",
+      "text": "**Folie 16** – im Video als Merkhilfe empfohlen:\n\n| Teil des Baums | steht für |\n| --- | --- |\n| **Wurzel** | Ethik + Menschenbild (die professionelle Haltung; Menschenbilder folgen in S03) |\n| **Stamm** | Wissenschaftstheorie (bei Prof. Rieckmann, Theoretische Strömungen) |\n| **Vier Hauptäste („Säulen“)** | Sozialisation, Erziehung, Bildung, Lernen |\n| **Blätter** | Erziehungsstil, Lernarten, Techniken, Sozialisationsfelder etc. |\n\nBeispiele aus dem Video: Am Ast Sozialisation hängen Sozialisationsinstanzen und -theorien (z. B. Bourdieu, Goffman), am Ast Erziehung Erziehungsmethoden, -ziele und Bindungstheorien (z. B. Bowlby, Ainsworth).",
+      "folien": "16"
+    },
+    {
+      "titel": "Klassikerinnen und Klassiker der Pädagogik",
+      "text": "**Folie 18** (Bilderquiz mit Lebensdaten laut Folie; Erläuterungen aus dem Video):\n\n| Person | Bekannt für |\n| --- | --- |\n| Carl Poppo Fröbel (1786–1824) | Begründer des **Kindergartens** |\n| Maria Montessori (1870–1952) | „**Pädagogik vom Kinde aus**“ – Gegenbewegung zu einer repressiven, strafenden Pädagogik |\n| Johann Heinrich Pestalozzi (1746–1827) | Erziehungseinrichtungen in der Schweiz mit familienähnlichen Gruppen (Vorläufer der SOS-Kinderdörfer) |\n| Alexander Sutherland Neill (1883–1973) | Begründer der **antiautoritären Erziehung** – im wissenschaftlichen Sinn **demokratisch**: Kinder haben dieselben Rechte und Pflichten wie Erwachsene, nicht „Kinder dürfen alles“ |\n| Janusz Korczak (1878–1942) | polnischer Pädagoge; ging mit den Kindern seines jüdischen Waisenhauses in den Tod; „Wie man ein Kind lieben soll“ |\n| Albert Schweitzer (1875–1965) | Krankenhaus in Afrika, sehr positives Menschenbild |\n| Helmut Fend (* 1940) | Entwicklungs- und Schulpsychologe |\n| Hartmut v. Hentig (* 1925) | Begründer der **Bielefelder Laborschule**; inzwischen umstritten |\n\n*Ergänzung aus der Lernzielkontrolle 2 (nicht auf den Folien):* Fröbels Kindergarten fußt auf **Pestalozzis Konzept der Wohnstubenpädagogik**; von Pestalozzi stammt die Forderung, Erziehung und Lernen müssten auf **Kopf, Herz und Hand** basieren; Montessori studierte als erste Frau in Italien Medizin und musste die Universität individuell nachts besuchen; die antiautoritäre Erziehung begründete ein **englischer** Pädagoge und Lehrer (Neill) in der ersten Hälfte des 20. Jahrhunderts.",
+      "folien": "17–19"
+    },
+    {
+      "titel": "Pädagogik: Wortherkunft und der Begriff Erziehungswissenschaft",
+      "text": "**Etymologische Bedeutung (Folie 20, Stein 2017, S. 11/12):**\n- altgriechischer Begriff „paideia“\n- „pais“ für „Kind“\n- „agein“ für „führen“\n- → wörtlich **„Kinderführung“** (in der Antike die Führung der Kinder vom Elternhaus in die Übungs- und Bildungsstätte)\n\n**Begriff der Erziehungswissenschaft seit den 1960er Jahren.** Laut Video hat das zwei Gründe:\n1. Adressat:innen sind **Personen aller Lebensalter**, nicht nur Kinder – „Kinderführung“ greift zu kurz.\n2. Der **Wissenschaftscharakter** der Disziplin wird betont.\n\n*Ergänzung aus Stein 2017, S. 12:* Den Begriff Erziehungswissenschaft gab es im Deutschen schon Ende des 18. Jahrhunderts; seit den 1960er Jahren hat er sich verstärkt eingebürgert. „Heute ist es zumeist üblich, die Begriffe der Pädagogik und der Erziehungswissenschaft synonym zu gebrauchen.“\n\n> **Zwei Sichtweisen im Modul:** Frau Stein spricht von „Pädagogik bzw. Erziehungswissenschaft“ als **einer** Wissenschaft. Herr Rieckmann (ewb001.2 S01, Ludwig 2020) **unterscheidet** beide: Erziehungswissenschaft ist die wissenschaftliche Einzeldisziplin, Pädagogik der weitere Begriff (Praxis und Nachdenken darüber).",
+      "folien": "20"
+    },
+    {
+      "titel": "Entwicklung des Subjekts: vier Säulen und drei Ebenen",
+      "text": "**Folie 21:** „Wie werden wir zu dem, was wir sind?“\n\n**Folie 22:** Vier Bereiche – Sozialisation, Erziehung, Bildung und Lernen – bestimmen die Entwicklung des einzelnen Menschen; die Prozesse laufen intrapersonell (innerhalb einer Person), interpersonell (zwischen zwei oder mehr Personen) und makrosozial (in größeren sozialen Zusammenhängen) ab (Brezinka 1990, Stein 2017).\n\n**Folie 24 (Stein 2017, S. 18):**\n\n| Ebene | Säule(n) |\n| --- | --- |\n| intrapersonelle Ebene | Lernen / Bildung |\n| interpersonelle Ebene | Erziehung, Bildung |\n| makrosoziale Ebene | Sozialisation |\n\n**Die vier Säulen der Pädagogik (Folie 25, Stein 2017, S. 18):**\n- **Sozialisation:** „Persönlichkeitswerdung des Menschen im weitesten Sinne in der Auseinandersetzung mit der materialen, geistigen und sozialen Umgebung.“\n- **Erziehung:** „Handlungen, durch die Menschen andere Menschen dauerhaft beeinflussen.“\n- **Bildung:** „Lebenslanger Prozess, der das Hineinwachsen in eine Gemeinschaft in der Auseinandersetzung mit ihr beinhaltet.“\n- **Lernen:** „Veränderungen im Verhalten oder im Verhaltensrepertoire im weitesten Sinne.“\n\nVideo: Übergeordnet ist die **Sozialisation** (Persönlichkeitswerdung); alle Prozesse sind durch das **Lernen** unterfüttert. Sozialisation und Erziehung behandelt Frau Stein, Bildung und Lernen Herr Rieckmann. Ausführlich: ewb001.2 S01.",
+      "folien": "21–25"
+    },
+    {
+      "titel": "Definition der Pädagogik und ihre fünf Aufgaben",
+      "text": "**Grundfrage (Folie 26):** „Wie interagieren Menschen in den Erziehungs-, Bildungs-, Lern-Lehr-Prozessen und in der Sozialisation?“ Menschen verhalten sich unterschiedlich aufgrund ihrer Sozialisation, ihrer Erziehung, ihres Bildungshintergrundes, ihres gelernten Verhaltens sowie bestimmter Motivationen.\n\n**Definition (Folie 27, Stein 2017, S. 13):**\n\n> „Pädagogik bzw. Erziehungswissenschaft ist die Wissenschaft, die Prozesse der Erziehung, Bildung, des Lernens und der Sozialisation wissenschaftlich beobachtet, interpretiert, erklärt; Wirkungen von Erziehungs-, Bildungs-, Lern- und Sozialisationsprozessen vorhersagt und somit den an Erziehungs-, Bildungs-, Lern- und Sozialisationsprozessen beteiligten Personen der pädagogischen Praxis Handlungswissen zur Verfügung stellt.“\n\nVideo: „Diese Definition besteht also insgesamt aus fünf verschiedenen Bestandteilen, die man sich merken sollte“:\n1. **beobachten** (wissenschaftlich beschreiben)\n2. **interpretieren**\n3. **erklären**\n4. **vorhersagen**\n5. **Handlungswissen zur Verfügung stellen**",
+      "folien": "26–27"
+    },
+    {
+      "titel": "Die fünf Aufgaben an Beispielen",
+      "text": "**Folien 28–29:**\n\n| Aufgabe | Felix (5 J.) | Leonie (2 J.) |\n| --- | --- | --- |\n| Beobachtung | schlägt andere Kinder | zeigt Aufmerksamkeitsprobleme |\n| Interpretation | mangelnde Aggressionskontrolle | sie hat eine hirnorganische Teilleistungsstörung |\n| Erklärung | Eltern als aggressive Rollenmodelle nach Bandura | Alkoholkonsum während der Schwangerschaft |\n| Vorhersage | alternative Handlungsmuster bringen Besserung | möglicherweise massive Schulschwierigkeiten |\n| Handlungswissen | systemische Familientherapie | Entzug bei der Mutter und Fördertherapien |\n\n> **Merkhilfe (Video):** Beobachtung = einzelnes, konkretes Verhalten · **Interpretation = Rückführung der Beobachtungen auf ein höheres Konstrukt bzw. eine höhere Abstraktionsebene** (erklärt noch nichts) · Erklärung = Gründe und Ursachen, meist theoriegestützt · Vorhersage = künftige Wirkungen · Handlungswissen = konkrete Intervention.\n\nZu Felix im Video: Nach der sozialen Lerntheorie von **Bandura** ahmt das Kind das Modellverhalten der Eltern nach; die systemische Familientherapie setzt am Verhalten der Eltern als „Stellschraube“ an.",
+      "folien": "28–29"
+    },
+    {
+      "titel": "Fragestellungen der Pädagogik",
+      "text": "**Folien 30–34** – zu jeder Aufgabe Beispielfragen:\n\n| Aufgabe | Beispielfragen |\n| --- | --- |\n| **Beobachtung** | Welche Erziehungsziele sind Eltern heutzutage wichtig? · Was unternehmen Schulen, um Toleranz und Friedfertigkeit zu fördern? · Werden Freundschaften bei Jungen und Mädchen anders gestaltet? · Welche Werte sind jungen Menschen wichtig? · In welchen Schritten wird Lesen gelernt? |\n| **Interpretation** | Worauf ist die starke Betonung von Autonomie in der Erziehung zurückzuführen? · Warum ist der traditionelle Unterricht zur Drogenprävention so wenig wirksam? · Warum bringen handlungsorientierte Programme in Anti-Rauch-Kampagnen mehr? |\n| **Erklärung** | Wie kommt es zu aggressiven Verhaltensweisen in Schulklassen? · Wieso ist in deutschen Schulen die Kluft zwischen Kindern aus sozioökonomisch schlechter und besser gestellten Haushalten in der Kompetenzentwicklung so groß? · Worauf basiert ein gutes Lehrer*innen-Schüler*innen-Klima? |\n| **Vorhersage** | Welche Eigenschaften werden durch einen autoritären Erziehungsstil im Elternhaus hervorgerufen? · Kann das von der Lehrkraft gewählte didaktische Modell Neugierverhalten auslösen? · Wirkt sich ein Kindergartenbesuch von Kindern mit Migrationshintergrund positiv auf die schulische Kompetenzentwicklung aus? |\n| **Handlungswissen** | Wie werden Eltern in der Erziehungsberatungsstelle optimal hinsichtlich einer kindgerechten Erziehung beraten? · Wie gestalte ich eine Unterrichtseinheit zum Thema 20 Jahre Kinderrechtskonvention? · Wie führe ich Kinder zu einer optimalen Ernährung? · Wie kann ich den Austausch der Generationen fördern? |\n\nDie Übungsaufgabe dazu (Folie 35) ist Hausaufgabe h01.",
+      "folien": "30–35"
+    },
+    {
+      "titel": "Reflexionswissenschaft und Handlungswissenschaft",
+      "text": "Aus der Definition folgt eine **Doppelrolle** (Video, Folie 37; Stein 2017, S. 12–14):\n\n| | Reflexionswissenschaft (Erfahrungswissenschaft) | Handlungswissenschaft |\n| --- | --- | --- |\n| Was sie tut | reflektiert Prozesse der Erziehung, Bildung, des Lernens und der Sozialisation – auch Theorien, erzieherische Wirklichkeit, Ideale und Ziele | leitet diese Prozesse an: arbeitet an der Verbesserung pädagogischer Vorgänge mit und stellt Handlungswissen für die Praxis zur Verfügung |\n| Bezug zu den 5 Aufgaben | beobachten, interpretieren, erklären, vorhersagen | Handlungswissen bereitstellen |\n\n**Merksatz (Stein 2017, S. 14):** „Die Pädagogik beziehungsweise Erziehungswissenschaft reflektiert als Erfahrungswissenschaft Prozesse der Erziehung, Bildung, des Lernens und der Sozialisation und leitet als Handlungswissenschaft diese Prozesse an.“\n\nStein warnt (S. 12): Das Reflektieren darf „nicht zugunsten der bloßen unreflektierten Anwendung pädagogischer Techniken und Methoden aufgegeben werden“ – Pädagog:innen „sind mehr als bloße Lernbegleiter, Erziehungscoaches, Bildungsermöglicher, Sozial- oder Fallmanager“.\n\nDie Übungsaufgabe dazu (Folie 37) ist Hausaufgabe h02.",
+      "folien": "37"
+    },
+    {
+      "titel": "Literatur der Sitzung",
+      "text": "- Dörpinghaus, A. & Uphoff, I. K. (2011). Grundbegriffe der Pädagogik. Darmstadt: WBG. – Quelle der Folien 8–12; **nicht in deinen Ordnern** (Liste „Fehlende Literatur“).\n- North, K. (2005). Kompetenzmanagement. Wiesbaden: Gabler.\n- Stein, M. (2017). Allgemeine Pädagogik. München: ERV. – liegt in `Literatur/`.\n- Wildt, J. (1997). Fachübergreifende Schlüsselqualifikationen – Leitmotiv der Studienreform? In: Welbers, U. (Hrsg.): Das integrierte Handlungskonzept Studienreform, S. 198–213.\n\nWeiterführend (Folien 40–41): Bellmann 2016, Faulstich-Wieland & Faulstich 2006/2008, Giesecke 2004, Gudjons 2012, Hörner/Drinck/Jobst 2010, Hurrelmann 2006, Kaiser & Kaiser 2001, Seel & Hanke 2015.",
+      "folien": "39–41"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Pädagogisches Alltagswissen",
+      "wortlaut": "Das pädagogische Alltagswissen der Laien soll Alltagsprobleme lösen und wird in der Regel durch die eigene Sozialisation, durch Familie, Medien, Freunde usw. erworben. Bewährte Erziehungspraktiken halten sich über Generationen. Daher wird professioneller Rat erst dann gesucht, wenn das praktische Alltagswissen scheitert. Solange bewährte Praktiken funktionieren, werden sie tradiert oder ausgeübt. Selbst wenn das pädagogische Alltagswissen in sich völlig widersprüchlich ist, hat es Geltung, da es zur Bewältigung des Alltags beiträgt. (Dörpinghaus & Uphoff 2011, S. 14)",
+      "erklaerung": "Das intuitive Erziehungswissen von Laien aus der eigenen Lebensgeschichte – hilfreich im Alltag, aber nicht geprüft und schwer zu erschüttern.",
+      "folie": "8"
+    },
+    {
+      "begriff": "Professionswissen",
+      "wortlaut": "Anders sieht es bei Pädagogen aus, die in pädagogischen Berufen arbeiten und über Professionswissen verfügen müssen. Sie haben im Laufe der Zeit und im Austausch mit Kollegen Erfahrungen gesammelt, die sich vor dem Hintergrund eines wissenschaftlich ausgerichteten Studiums zu einem Professionswissen formieren, um berufliche Situationen im Lichte wissenschaftlich begründeter und kritisch geprüfter Konzepte zu behandeln. (Dörpinghaus & Uphoff 2011, S. 14)",
+      "erklaerung": "Berufserfahrung plus wissenschaftliches Studium: Fachkräfte handeln auf Grundlage geprüfter Konzepte.",
+      "folie": "9"
+    },
+    {
+      "begriff": "Wissenschaftliches Wissen (Funktion)",
+      "wortlaut": "Erst das in Theorie erworbene wissenschaftliche Wissen schafft die Distanz, die eine reflektierte Sicht der Praxis möglich macht […]. Die Funktion des wissenschaftlichen Wissens ist es also, die professionellen Standards, Beurteilungsschemata, Relevanzkriterien (…) diskutieren zu können, (…): eine Folie herzustellen, auf der Professionswissen bewertet und weiter entwickelt werden kann. (Dörpinghaus & Uphoff 2011, S. 14)",
+      "erklaerung": "Wissenschaft gibt Abstand zur eigenen Praxis und einen Maßstab, an dem Professionswissen geprüft und weiterentwickelt wird.",
+      "folie": "10–11"
+    },
+    {
+      "begriff": "Professionalität (Kompetenzdreieck)",
+      "wortlaut": "A Professionelles Wissen · B Professionelle Kenntnisse · C Professionelle Haltung – nicht nur laienhaftes pädagogisches Handeln grenzt die Lai*innen von professionellen pädagogischen Fachkräften ab",
+      "erklaerung": "Wissen (Theorien), Können (Methoden) und Haltung (Berufsethik) unterscheiden Fachkräfte von Laien – nach Effinger als Kompetenzdreieck dargestellt.",
+      "folie": "13–14"
+    },
+    {
+      "begriff": "Baum der Pädagogik (Kleve)",
+      "wortlaut": "Blätter: Erziehungsstil, Lernarten, Techniken, Sozialisationsfelder etc. · Vier Hauptäste („Säulen“): Sozialisation, Erziehung, Bildung, Lernen · Stamm: Wissenschaftstheorie · Wurzel: Ethik + Menschenbild",
+      "erklaerung": "Bild für den Aufbau der Pädagogik: Ethik und Menschenbild tragen alles, die Wissenschaftstheorie gibt Halt, die vier Säulen verzweigen sich in einzelne Inhalte.",
+      "folie": "16"
+    },
+    {
+      "begriff": "Pädagogik (Etymologie)",
+      "wortlaut": "altgriechischer Begriff „paideia“; „pais“ für „Kind“; „agein“ für „führen“ – Begriff der Erziehungswissenschaft seit den 1960er Jahren (Stein, 2017, S. 11/12)",
+      "erklaerung": "Wörtlich „Kinderführung“. Weil Pädagogik alle Lebensalter betrifft und wissenschaftlich arbeitet, spricht man seit den 1960er Jahren eher von Erziehungswissenschaft.",
+      "folie": "20"
+    },
+    {
+      "begriff": "Pädagogik bzw. Erziehungswissenschaft (Stein 2017)",
+      "wortlaut": "Pädagogik bzw. Erziehungswissenschaft ist die Wissenschaft, die Prozesse der Erziehung, Bildung, des Lernens und der Sozialisation wissenschaftlich beobachtet, interpretiert, erklärt; Wirkungen von Erziehungs-, Bildungs-, Lern- und Sozialisationsprozessen vorhersagt und somit den an Erziehungs-, Bildungs-, Lern- und Sozialisationsprozessen beteiligten Personen der pädagogischen Praxis Handlungswissen zur Verfügung stellt.",
+      "erklaerung": "Fünf Aufgaben: beobachten, interpretieren, erklären, vorhersagen, Handlungswissen bereitstellen. Stein gebraucht Pädagogik und Erziehungswissenschaft hier gleichbedeutend – anders als Ludwig 2020 in ewb001.2.",
+      "folie": "27"
+    },
+    {
+      "begriff": "Interpretation (pädagogische Aufgabe)",
+      "wortlaut": "Bei der Interpretation werden Beobachtungen auf einer höheren Abstraktionsebene zusammengefasst, etwa best. Störungen als ADHS interpretiert.",
+      "erklaerung": "Die Interpretation ordnet Beobachtungen einem Konstrukt zu (z. B. „mangelnde Aggressionskontrolle“), nennt aber noch keine Ursache – das tut erst die Erklärung.",
+      "folie": "28–29; Lernzielkontrolle 2"
+    },
+    {
+      "begriff": "Reflexions- und Handlungswissenschaft",
+      "wortlaut": "Die Pädagogik beziehungsweise Erziehungswissenschaft reflektiert als Erfahrungswissenschaft Prozesse der Erziehung, Bildung, des Lernens und der Sozialisation und leitet als Handlungswissenschaft diese Prozesse an. (Stein 2017, S. 14)",
+      "erklaerung": "Pädagogik denkt über ihre Praxis nach (Reflexion) und gibt der Praxis Handlungswissen (Anleitung).",
+      "folie": "37; Stein 2017, S. 14"
+    },
+    {
+      "begriff": "Bildung (Kurzdefinition, Stein-Folie)",
+      "wortlaut": "Lebenslanger Prozess, der das Hineinwachsen in eine Gemeinschaft in der Auseinandersetzung mit ihr beinhaltet.",
+      "erklaerung": "Wie in ewb001.2 S01, hier zusätzlich mit „lebenslang“.",
+      "folie": "25"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "Übung – Arbeitsauftrag: Finden Sie Gründe für die Bedeutsamkeit der Erziehungswissenschaft für die pädagogische Arbeit: 1. … 2. … 3. …",
+      "quelle": "Folie 7",
+      "loesung": "*Selbst erarbeitet aus Folien 8–12 und dem Video.*\n\n1. **Alltagswissen reicht nicht:** Es ist zufällig über die eigene Sozialisation erworben, kann widersprüchlich sein und hält ungünstige Traditionen am Leben; professioneller Rat kommt oft zu spät (Folie 8).\n2. **Distanz und Reflexion:** Erst wissenschaftliches Wissen schafft die Distanz für eine reflektierte Sicht der eigenen Praxis (Folie 10).\n3. **Begründbarkeit und Prüfung:** Fachkräfte müssen ihr Handeln mit wissenschaftlich begründeten, kritisch geprüften Konzepten begründen können; Wissenschaft liefert die „Folie“, auf der Professionswissen bewertet und weiterentwickelt wird (Folien 9, 11).\n4. **Professionalität und Anerkennung:** Wissen, Können und Haltung grenzen Fachkräfte von Laien ab – auch gegenüber der Laienmeinung „Kindererziehen kann jede*r“ (Folien 5–6, 13).",
+      "loesungsweg": "Video anhalten, drei Gründe notieren, dann mit den Zitaten von Dörpinghaus & Uphoff (Folien 8–12) vergleichen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "Entwicklung des Subjekts: Überlegen Sie sich Beispiele, bei denen Sie sagen würden, dass Sie sich weiterentwickelt haben… • …durch Lernen, • …durch Erziehung, • …durch Bildung, • …durch Sozialisation. Sind diese Entwicklungen intrapersonell, interpersonell oder makrosozial abgelaufen?",
+      "quelle": "Folie 23",
+      "loesung": "Dieselbe Aufgabe wie in ewb001.2 S01 (13.10., Aufgabe a02) – dort steht eine Beispiellösung mit Tabelle.",
+      "loesungsweg": "Siehe ewb001.2 S01.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "text": "Abschluss: Welche Punkte aus der heutigen Veranstaltung finden Sie persönlich bedeutsam? – Reflexion: Überlegen Sie: In welchem Bereich möchten Sie später am liebsten professionell Ihre Kompetenzen und Ihr Engagement einbringen? Welche Ideale und Ziele verfolgen Sie mit Ihrer Arbeit? Welche Kompetenzen und Einstellungen möchten Sie vermitteln?",
+      "quelle": "Folien 36, 38",
+      "loesung": "*Persönliche Reflexion – keine Musterlösung.* Tipp aus dem Video: zwei oder drei Kernsätze notieren, die dein späteres professionelles Handeln beeinflussen könnten – auch solche, die dich überrascht haben.",
+      "loesungsweg": "Stichpunkte notieren.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Hausaufgabe S02: Fragestellungen zu den 5 Aufgaben der Pädagogik",
+      "text": "Übungsaufgabe: Formulieren Sie für die fünf Bereiche\n- Beobachten/Beschreiben\n- Interpretieren\n- Erklären\n- Vorhersagen\n- Handlungswissen bieten\n\njeweils eine Fragestellung, die Sie interessieren würde.",
+      "quelle": "Folie 35",
+      "loesung": "*Selbst erarbeitete Beispiellösung – eigene Fragestellungen sind ausdrücklich gewollt. Vorlage: Folien 30–34.*\n\n**Aufgabe:** *„Formulieren Sie für die fünf Bereiche Beobachten/Beschreiben, Interpretieren, Erklären, Vorhersagen, Handlungswissen bieten jeweils eine Fragestellung, die Sie interessieren würde.“*\n\n**Antwort:**\n\n| Bereich | Beispiel-Fragestellung | Warum dieser Bereich? |\n| --- | --- | --- |\n| Beobachten/Beschreiben | Wie viel Zeit verbringen Grundschulkinder nachmittags mit Hausaufgaben? | Es wird nur festgestellt, *was ist* – ohne Deutung. |\n| Interpretieren | Worauf ist es zurückzuführen, dass viele Eltern Selbstständigkeit als wichtigstes Erziehungsziel nennen? | Beobachtungen werden einem übergeordneten Konstrukt bzw. einer Deutung zugeordnet. |\n| Erklären | Wie kommt es, dass Kinder aus Familien mit wenig Geld seltener aufs Gymnasium wechseln? | Es wird nach Ursachen gefragt. |\n| Vorhersagen | Verbessern sich die Leseleistungen von Kindern, wenn täglich 15 Minuten im Unterricht vorgelesen wird? | Es geht um eine künftige Wirkung. |\n| Handlungswissen bieten | Wie gestalte ich eine Mathestunde zur Wahrscheinlichkeit so, dass alle Kinder aktiv mitmachen? | Es wird konkretes Wissen für das Handeln in der Praxis gesucht. |",
+      "loesungsweg": "Für jeden Bereich das Signalwort prüfen: Was ist? (Beobachten) · Worauf ist das zurückzuführen, wie ist das zu deuten? (Interpretieren) · Warum, wie kommt es? (Erklären) · Was wird passieren, wirkt sich … aus? (Vorhersagen) · Wie gestalte, fördere, berate ich? (Handlungswissen).",
+      "frist": "2026-11-03",
+      "im_kalender": true,
+      "fuer_sitzung": "ewb001.1_2026-11-03",
+      "kalender_id": "62e1c1dc-8cd3-4d27-a858-1a69ab7a9d7a",
+      "pdf": "/dateien/ewb001/S04_2026-11-03_Hausaufgabe_Uebung_Fragestellungen-der-Paedagogik.pdf"
+    },
+    {
+      "id": "h02",
+      "art": "Hausaufgabe",
+      "titel": "Hausaufgabe S02: Stein 2017, S. 11–14 – Reflexions- und Handlungswissenschaft",
+      "text": "Übungsaufgabe: Lesen Sie Stein M. (2017). Allgemeine Pädagogik, S. 11-14. Schildern Sie die Aufgaben einer wissenschaftlichen Pädagogik als Reflexionswissenschaft erzieherischer Praxis und als Handlungswissenschaft!",
+      "quelle": "Folie 37",
+      "loesung": "**Aufgabe:** *„Lesen Sie Stein M. (2017). Allgemeine Pädagogik, S. 11-14. Schildern Sie die Aufgaben einer wissenschaftlichen Pädagogik als Reflexionswissenschaft erzieherischer Praxis und als Handlungswissenschaft!“*\n\n**Antwort:**\n\n**Grundlage:** Stein definiert Pädagogik bzw. Erziehungswissenschaft als Wissenschaft, die Prozesse der Erziehung, Bildung, des Lernens und der Sozialisation „wissenschaftlich beobachtet, interpretiert, erklärt, die Auswirkungen dieser Prozesse vorhersagt und somit allen hieran beteiligten Personen der pädagogischen Praxis Handlungswissen zur Verfügung stellt“ (S. 13). Sie ist „gleichzeitig theoretisch fundierte Reflexions- oder Erfahrungswissenschaft als auch Handlungswissenschaft“ (S. 12).\n\n**1. Aufgaben als Reflexionswissenschaft erzieherischer Praxis**\n- Sie **reflektiert** Prozesse der Erziehung, Bildung, des Lernens und der Sozialisation (Merksatz S. 14) – durch Beobachten, Interpretieren, Erklären und Vorhersagen (S. 13).\n- Sie denkt nach über **Theorien** der Erziehung, Bildung, Sozialisation und des Lernens, über die **konkrete erzieherische Wirklichkeit** und über **erzieherische Ideale und Ziele** (S. 12).\n- Dieses Reflektieren darf „nicht zugunsten der bloßen unreflektierten Anwendung pädagogischer Techniken und Methoden aufgegeben werden“ (S. 12, nach Winkler 2006) – Pädagog:innen „sind mehr als bloße Lernbegleiter, Erziehungscoaches, Bildungsermöglicher, Sozial- oder Fallmanager“.\n- Beispiel (S. 13): *Worauf ist die starke Betonung von Autonomie und Selbstständigkeit als Erziehungsziele der Eltern zurückzuführen?* (Interpretation)\n\n**2. Aufgaben als Handlungswissenschaft**\n- Sie **leitet** pädagogische Prozesse **an** (Merksatz S. 14), arbeitet „an der Verbesserung pädagogischer Vorgänge von Erziehung, Bildung, Lernen und Sozialisation mit und stellt Handlungswissen für die Praxis zur Verfügung“ (S. 12).\n- Sie hat „die moralische Verpflichtung und Aufgabe“, den Einzelnen auf individuelle und gesellschaftliche Aufgaben vorzubereiten und „zu verantwortlichem, selbsttätigem Verhalten zu ermächtigen“ (S. 12) – etwa für eine eigenständige Identität, Kreativität und Mündigkeit, Globalisierung, das Zusammenleben verschiedener Gruppen, Umwelt und Klimawandel, Kriege und Flüchtlingsbewegungen (Klafkis „Schlüsselprobleme der Menschheit“).\n- Beispiel (S. 13): *Wie kann die schulische Praxis verbessert werden?* (Bereitstellung von Handlungswissen)\n\n**Fazit:** Als Reflexionswissenschaft schaut die Pädagogik mit wissenschaftlicher Distanz auf ihre Praxis; als Handlungswissenschaft gibt sie dieser Praxis begründetes Wissen zurück. Beide Seiten gehören zusammen.",
+      "loesungsweg": "Stein 2017, S. 11–14 lesen (Datei in ewb001/Literatur, PDF-Seiten 12–15). Stellen zu „Reflexion“ und „Handlungswissen“ markieren und in zwei Spalten sortieren; den Merksatz auf S. 14 als Kernsatz nutzen.",
+      "frist": "2026-11-03",
+      "im_kalender": true,
+      "fuer_sitzung": "ewb001.1_2026-11-03",
+      "kalender_id": "9cfe6fe7-4877-4bde-9f24-6d6427e791ce",
+      "pdf": "/dateien/ewb001/S04_2026-11-03_Hausaufgabe_Textvorbereitung_Stein-2017_S11-14_Reflexions-und-Handlungswissenschaft.pdf"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum braucht pädagogisches Handeln Wissenschaft? Nenne drei Gründe.",
+      "musterloesung": "1. Pädagogisches Alltagswissen ist über die eigene Sozialisation erworben, ungeprüft, teils widersprüchlich und hält ungünstige Traditionen fest. 2. Erst wissenschaftliches Wissen schafft die Distanz für eine reflektierte Sicht der Praxis. 3. Fachkräfte müssen ihr Handeln mit wissenschaftlich begründeten, kritisch geprüften Konzepten begründen; Wissenschaft liefert die Folie, auf der Professionswissen bewertet und weiterentwickelt wird.",
+      "bewertungspunkte": [
+        "Grenzen des Alltagswissens",
+        "Distanz/Reflexion durch wissenschaftliches Wissen",
+        "Begründung bzw. Prüfung des Professionswissens"
+      ],
+      "punkte": 3,
+      "erklaerung": "Aufgabe a01 (Folie 7), Folien 8–12.",
+      "folie": "7–12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie kennzeichnen Dörpinghaus & Uphoff (2011) das pädagogische Alltagswissen der Laien?",
+      "antwort": "Es soll Alltagsprobleme lösen und wird durch die eigene Sozialisation (Familie, Medien, Freunde) erworben. Bewährte Erziehungspraktiken halten sich über Generationen; professioneller Rat wird erst gesucht, wenn das Alltagswissen scheitert. Selbst wenn es widersprüchlich ist, hat es Geltung, weil es zur Bewältigung des Alltags beiträgt.",
+      "erklaerung": "Folie 8 (Dörpinghaus & Uphoff 2011, S. 14).",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen über pädagogisches Alltagswissen treffen nach Dörpinghaus & Uphoff zu? (mehrere richtig)",
+      "optionen": [
+        "Es wird vor allem durch die eigene Sozialisation erworben.",
+        "Es verliert seine Geltung, sobald es widersprüchlich ist.",
+        "Bewährte Erziehungspraktiken werden über Generationen weitergegeben.",
+        "Professioneller Rat wird oft erst gesucht, wenn es scheitert."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Folie 8: Selbst wenn das Alltagswissen „in sich völlig widersprüchlich ist, hat es Geltung, da es zur Bewältigung des Alltags beiträgt“.",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Aussagen der passenden Wissensform zu.",
+      "kategorien": [
+        "Alltagswissen",
+        "Professionswissen",
+        "Wissenschaftliches Wissen"
+      ],
+      "elemente": [
+        {
+          "text": "wird durch Familie, Medien, Freunde erworben",
+          "kategorie": "Alltagswissen"
+        },
+        {
+          "text": "gilt, solange es den Alltag bewältigen hilft – auch wenn es widersprüchlich ist",
+          "kategorie": "Alltagswissen"
+        },
+        {
+          "text": "Erfahrungen, die sich vor dem Hintergrund eines wissenschaftlich ausgerichteten Studiums formieren",
+          "kategorie": "Professionswissen"
+        },
+        {
+          "text": "behandelt berufliche Situationen im Lichte kritisch geprüfter Konzepte",
+          "kategorie": "Professionswissen"
+        },
+        {
+          "text": "schafft die Distanz für eine reflektierte Sicht der Praxis",
+          "kategorie": "Wissenschaftliches Wissen"
+        },
+        {
+          "text": "Folie, auf der Professionswissen bewertet und weiterentwickelt wird",
+          "kategorie": "Wissenschaftliches Wissen"
+        }
+      ],
+      "erklaerung": "Folien 8–11 (Dörpinghaus & Uphoff 2011).",
+      "folie": "8–11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Funktion hat wissenschaftliches Wissen für das Professionswissen?",
+      "antwort": "Es schafft die Distanz, die eine reflektierte Sicht der Praxis möglich macht, und unterscheidet das Professionswissen vom Alltagswissen. Mit ihm lassen sich professionelle Standards, Beurteilungsschemata und Relevanzkriterien diskutieren – es ist eine Folie, auf der Professionswissen bewertet und weiterentwickelt werden kann.",
+      "erklaerung": "Folien 10–11.",
+      "folie": "10–11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Professionelle pädagogische Fachkräfte grenzen sich von Laien durch professionelles [[Wissen]], professionelle [[Kenntnisse]] und eine professionelle [[Haltung]] ab.",
+      "erklaerung": "Folie 13. Im Kompetenzdreieck heißen die Ecken Wissen, Können, Haltung.",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Inhalte der passenden Ecke des Kompetenzdreiecks der Professionalität (Effinger) zu.",
+      "kategorien": [
+        "Wissen",
+        "Können",
+        "Haltung"
+      ],
+      "elemente": [
+        {
+          "text": "Theorien und Handlungskonzepte über Zusammenhänge, Wirkungen, Akteure",
+          "kategorie": "Wissen"
+        },
+        {
+          "text": "Gegenstands-, Erklärungs- und Funktionswissen",
+          "kategorie": "Wissen"
+        },
+        {
+          "text": "Methoden zur Analyse, Intervention, Reflexion (Supervision) und Evaluation",
+          "kategorie": "Können"
+        },
+        {
+          "text": "Verfahrenswissen",
+          "kategorie": "Können"
+        },
+        {
+          "text": "Handlungsmaximen und Berufsethik, z. B. Akzeptanz, Partizipation, Empowerment",
+          "kategorie": "Haltung"
+        },
+        {
+          "text": "Werte- und Kriterienwissen",
+          "kategorie": "Haltung"
+        }
+      ],
+      "erklaerung": "Folie 14 (© Herbert Effinger; kursive Begriffe von Silvia Staub-Bernasconi).",
+      "folie": "14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Nenne die Stufen zur professionellen Kompetenz nach North (erweitert von Wildt) in der richtigen Reihenfolge.",
+      "antwort": "Information → (+ Vernetzung) Wissen → (+ Anwendung) Können → (+ Bewertung) Einstellung → (+ Angemessenheit) Kompetenz → (+ Verantwortung) Professionalität.",
+      "erklaerung": "Folie 15.",
+      "folie": "15",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f09",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Teile des Baums der Pädagogik nach Heiko Kleve zu.",
+      "kategorien": [
+        "Wurzel",
+        "Stamm",
+        "Hauptäste",
+        "Blätter"
+      ],
+      "elemente": [
+        {
+          "text": "Ethik + Menschenbild",
+          "kategorie": "Wurzel"
+        },
+        {
+          "text": "Wissenschaftstheorie",
+          "kategorie": "Stamm"
+        },
+        {
+          "text": "Sozialisation, Erziehung, Bildung, Lernen",
+          "kategorie": "Hauptäste"
+        },
+        {
+          "text": "Erziehungsstil, Lernarten, Techniken, Sozialisationsfelder",
+          "kategorie": "Blätter"
+        }
+      ],
+      "erklaerung": "Folie 16.",
+      "folie": "16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Woher kommt der Begriff „Pädagogik“ und warum spricht man seit den 1960er Jahren eher von „Erziehungswissenschaft“?",
+      "antwort": "Vom altgriechischen paideia: pais = Kind, agein = führen, also „Kinderführung“. Erziehungswissenschaft betont, dass Personen aller Lebensalter Adressat:innen sind (nicht nur Kinder), und unterstreicht den Wissenschaftscharakter der Disziplin.",
+      "erklaerung": "Folie 20 und Video; Lernzielkontrolle 2, 8000- und 16.000-Euro-Frage.",
+      "folie": "20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 3,
+      "frage": "Wie definiert Stein (2017) Pädagogik bzw. Erziehungswissenschaft?",
+      "antwort": "Als die Wissenschaft, die Prozesse der Erziehung, Bildung, des Lernens und der Sozialisation wissenschaftlich beobachtet, interpretiert, erklärt, Wirkungen dieser Prozesse vorhersagt und somit den an ihnen beteiligten Personen der pädagogischen Praxis Handlungswissen zur Verfügung stellt.",
+      "erklaerung": "Folie 27 (Stein 2017, S. 13) – laut Video die wichtigste Definition der Sitzung.",
+      "folie": "27",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "text": "Pädagogik bzw. Erziehungswissenschaft ist die Wissenschaft, die Prozesse der Erziehung, Bildung, des Lernens und der Sozialisation wissenschaftlich [[beobachtet]], [[interpretiert]], [[erklärt]]; Wirkungen dieser Prozesse [[vorhersagt]] und den beteiligten Personen der pädagogischen Praxis [[Handlungswissen]] zur Verfügung stellt.",
+      "erklaerung": "Folie 27 (Stein 2017, S. 13).",
+      "folie": "27",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Fall Felix (5 J.): Ordne die Aussagen der passenden Aufgabe der Pädagogik zu.",
+      "kategorien": [
+        "Beobachtung",
+        "Interpretation",
+        "Erklärung",
+        "Vorhersage",
+        "Handlungswissen"
+      ],
+      "elemente": [
+        {
+          "text": "Felix schlägt andere Kinder.",
+          "kategorie": "Beobachtung"
+        },
+        {
+          "text": "Mangelnde Aggressionskontrolle",
+          "kategorie": "Interpretation"
+        },
+        {
+          "text": "Eltern als aggressive Rollenmodelle nach Bandura",
+          "kategorie": "Erklärung"
+        },
+        {
+          "text": "Alternative Handlungsmuster bringen Besserung.",
+          "kategorie": "Vorhersage"
+        },
+        {
+          "text": "Systemische Familientherapie",
+          "kategorie": "Handlungswissen"
+        }
+      ],
+      "erklaerung": "Folie 28. Interpretation = Rückführung auf ein abstrakteres Konstrukt; Erklärung = Ursache.",
+      "folie": "28",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Mila (8 J.) meldet sich im Unterricht nie und spricht in der Pause kaum mit anderen Kindern. Spiele die fünf Aufgaben der Pädagogik nach Stein an diesem Fall durch (Beobachtung, Interpretation, Erklärung, Vorhersage, Handlungswissen).",
+      "musterloesung": "Beobachtung: Mila meldet sich nie und spricht in der Pause kaum. Interpretation: z. B. ausgeprägte soziale Unsicherheit bzw. Schüchternheit (übergeordnetes Konstrukt). Erklärung: z. B. Schulwechsel und fehlende Freundschaften, wenig Erfahrungen mit Gleichaltrigen oder Beschämung im Unterricht (Ursachen). Vorhersage: Ohne Unterstützung könnten sich Rückzug und schlechtere mündliche Noten verstärken; mit gezielter Stärkung wird sie sich eher beteiligen. Handlungswissen: z. B. Arbeit in kleinen Gruppen, Patenkind, ermutigende Rückmeldungen, Gespräch mit den Eltern, ggf. Schulsozialarbeit.",
+      "bewertungspunkte": [
+        "Beobachtung als konkretes Verhalten",
+        "Interpretation als Konstrukt ohne Ursache",
+        "Erklärung mit Ursache",
+        "Vorhersage einer künftigen Wirkung",
+        "konkretes Handlungswissen"
+      ],
+      "punkte": 5,
+      "erklaerung": "Transfer nach dem Schema der Fälle Felix und Leonie (Folien 28–29); eigene Ergänzung.",
+      "folie": "28–29",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Fragestellungen der Aufgabe der Pädagogik zu, durch die sie beantwortbar sind.",
+      "kategorien": [
+        "Beobachtung",
+        "Interpretation",
+        "Erklärung",
+        "Vorhersage",
+        "Handlungswissen"
+      ],
+      "elemente": [
+        {
+          "text": "Welche Werte sind jungen Menschen wichtig?",
+          "kategorie": "Beobachtung"
+        },
+        {
+          "text": "Warum ist der traditionelle Unterricht zur Drogenprävention so wenig wirksam?",
+          "kategorie": "Interpretation"
+        },
+        {
+          "text": "Wie kommt es zu aggressiven Verhaltensweisen in Schulklassen?",
+          "kategorie": "Erklärung"
+        },
+        {
+          "text": "Welche Eigenschaften werden durch einen autoritären Erziehungsstil im Elternhaus hervorgerufen?",
+          "kategorie": "Vorhersage"
+        },
+        {
+          "text": "Wie gestalte ich eine Unterrichtseinheit zum Thema 20 Jahre Kinderrechtskonvention?",
+          "kategorie": "Handlungswissen"
+        }
+      ],
+      "erklaerung": "Folien 30–34.",
+      "folie": "30–34",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "vergleich",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was bedeutet es, dass die Pädagogik zugleich Reflexionswissenschaft und Handlungswissenschaft ist?",
+      "antwort": "Als Reflexions- bzw. Erfahrungswissenschaft reflektiert sie Prozesse der Erziehung, Bildung, des Lernens und der Sozialisation (auch Theorien, Wirklichkeit, Ideale und Ziele). Als Handlungswissenschaft leitet sie diese Prozesse an, arbeitet an der Verbesserung pädagogischer Vorgänge mit und stellt der Praxis Handlungswissen zur Verfügung.",
+      "erklaerung": "Merksatz Stein 2017, S. 14; Folie 37, Hausaufgabe h02.",
+      "folie": "37",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "vergleich",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Wie gehen die beiden Vorlesungen von ewb001 mit den Begriffen Pädagogik und Erziehungswissenschaft um? (mehrere richtig)",
+      "optionen": [
+        "Frau Stein spricht von „Pädagogik bzw. Erziehungswissenschaft“ als einer Wissenschaft.",
+        "Nach Ludwig (2020, ewb001.2) ist Pädagogik der weitere Begriff, weil sie auch Praxis und vorwissenschaftliches Nachdenken umfasst.",
+        "Beide Vorlesungen verwenden die Begriffe völlig unterschiedlich und schließen eine Überschneidung aus.",
+        "Nach Stein (2017) werden die Begriffe heute zumeist synonym gebraucht."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 27; Stein 2017, S. 12; ewb001.2 S01, Folie 13. Im wissenschaftlichen Nachdenken überschneiden sich beide Begriffe auch nach Ludwig.",
+      "folie": "27; ewb001.2 S01 Folie 13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Pädagog:innen ihrem Ansatz zu.",
+      "kategorien": [
+        "Fröbel",
+        "Montessori",
+        "Neill",
+        "von Hentig"
+      ],
+      "elemente": [
+        {
+          "text": "Begründer des Kindergartens",
+          "kategorie": "Fröbel"
+        },
+        {
+          "text": "Pädagogik vom Kinde aus",
+          "kategorie": "Montessori"
+        },
+        {
+          "text": "antiautoritäre, demokratische Erziehung",
+          "kategorie": "Neill"
+        },
+        {
+          "text": "Bielefelder Laborschule",
+          "kategorie": "von Hentig"
+        }
+      ],
+      "erklaerung": "Folie 18 und Video.",
+      "folie": "18",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "z01",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche drei Bereiche grenzen nach Herbert Effinger professionelles pädagogisches Handeln vom Laienhandeln etwa der Eltern in der Familie oder Ehrenamtlicher in der Jugendarbeit ab?",
+      "optionen": [
+        "Fach- und Methodenwissen · Berufserfahrungen · Professionelle Haltung",
+        "Engagement · Berufserfahrungen · Professionelle Haltung",
+        "Fachwissen · Methodisches Können / Kenntnisse · Professionelle Haltung",
+        "Fach- und Methodenwissen · Methodisches Können / Kenntnisse · Qualifikation durch Studium/Ausbildung"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Lernzielkontrolle 2, 50-Euro-Frage (Lösung C). Kompetenzdreieck: Wissen – Können – Haltung (Folien 13–14). Berufserfahrung oder ein Abschluss allein machen noch keine Professionalität.",
+      "folie": "LZK 2 · 50 € · F13–14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z02",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht Silvia Staub-Bernasconi in Ergänzung zum Modell von Effinger unter dem sogenannten Werte- und Kriterienwissen, über das professionelle Pädagog:innen verfügen sollen? Sie versteht darunter das Wissen über….",
+      "optionen": [
+        "…die Kriterien einer wissenschaftlich abgestützten Methodik, die auch die Evaluation von Maßnahmen beinhaltet.",
+        "… Theoriezusammenhänge, Ethikbezüge und Verfahrensvorgänge in der professionellen Bearbeitung pädagogischer Fälle.",
+        "….das professionelle Umgehen mit den Klient:innen gemäß den Handlungsmaximen und der Berufsethik der Pädagogik.",
+        "… eine kriteriengeleitete Beobachtung, Interpretation, Erklärung, Vorhersage von pädagogischen Zusammenhängen."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "LZK 2, 100-Euro-Frage (Lösung C). Im Kompetenzdreieck (Folie 14) gehört das Werte- und Kriterienwissen zur Haltung: Handlungsmaximen und Berufsethik. Methoden und Evaluation sind Verfahrenswissen (Können).",
+      "folie": "LZK 2 · 100 € · F14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z03",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was würde NICHT im Sinne einer professionsspezifischen Maxime unter eine professionelle Haltung als Kernelement professionellen pädagogischen Handelns fallen?",
+      "optionen": [
+        "Neutralität und Allparteilichkeit gegenüber den Klient:innen, betreuten Kindern, Familien oder Schüler:innen etc.",
+        "Bestimmte professionsspezifische Maximen, wie sie etwa in den Reckahner Reflexionen dargelegt sind.",
+        "Ein bestimmter sich in der Kleidung ausdrückender beruflicher Habitus.",
+        "Die Möglichkeit, in eine professionelle Rollendistanz zu gehen"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "LZK 2, 300-Euro-Frage (Lösung C). Zur Haltung gehören Handlungsmaximen und Berufsethik, (All-)Parteilichkeit und professionelle Distanz (Folie 14, Video) – nicht ein Kleidungsstil.",
+      "folie": "LZK 2 · 300 € · F14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z04",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Berühmte Pädagogi:innen: Auf wen beruft sich Fröbel, der Begründer des Kindergartens und auf welches entsprechende Konzept stützte er sich dabei?",
+      "optionen": [
+        "Rekurs auf Rousseau und das Konzept einer natürlichen Erziehung, wo sich das Kind seinem Wesen nach entfaltet.",
+        "Rekurs auf Pestalozzi: der Kindergarten Fröbels fußt auf Pestalozzis Konzept der Wohnstubenpädagogik",
+        "Rekurs auf Montessori und auf deren Pädagogik vom Kinde aus (Hilf mir es selbst zu tun!)",
+        "Rekurs auf Neill und dessen Konzept einer demokratischen Erziehung nach kinderrechtlichen Grundsätzen"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "LZK 2, 500-Euro-Frage (Lösung B). Ergänzung (nicht auf den Folien): Pestalozzi (1746–1827) war Zeitgenosse Fröbels; Montessori und Neill lebten später.",
+      "folie": "LZK 2 · 500 €",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "z05",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Berühmte Pädagog:innen: Von Pestalozzi stammt die Forderung, dass Erziehung und Lernen basieren müsse auf…",
+      "optionen": [
+        "Kopf · Herz · Verstand",
+        "Verstand · Gefühl · Tun",
+        "Kopf · Herz · Hand",
+        "Geist · Herz · Hand"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "LZK 2, 1000-Euro-Frage (Lösung C). Ergänzung: „Kopf – Herz – Hand“ (kognitiv – affektiv – motorisch) ist nach Stein 2017 (S. 15, Tab. 1) auch das Menschenbild der pädagogischen Anthropologie – Thema der nächsten Sitzung.",
+      "folie": "LZK 2 · 1000 €",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z06",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Berühmte Pädagog:innen: Maria Montessori studierte als erste Frau…",
+      "optionen": [
+        "In Italien Medizin und musste die Universität individuell nachts besuchen.",
+        "In Italien Medizin als erste Frau gemeinsam mit den männlichen Studierenden.",
+        "In der Schweiz Medizin, da dieses Land als erstes Frauen zum Studium zuließ.",
+        "In Italien Medizin und Pädagogik gemeinsam mit den männlichen Studierenden."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "LZK 2, 2000-Euro-Frage (Lösung A). Ergänzung, nicht auf den Folien.",
+      "folie": "LZK 2 · 2000 €",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "z07",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Berühmte Pädagog:innen: Die antiautoritäre Erziehung wurde begründet von…?",
+      "optionen": [
+        "Einem amerikanischen Pädagogen in den 1960er Jahren als Antwort auf die Studierendenrevolten.",
+        "Maria Montessori als Pädagogik vom Kinde aus.",
+        "Französischen Lehrkräften im Rahmen der 1968er Unruhen in Paris.",
+        "Einem englischen Pädagogen und Lehrer in der ersten Hälfte des 20. Jahrhunderts."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "LZK 2, 4000-Euro-Frage (Lösung D): Alexander Sutherland Neill (1883–1973), Folie 18.",
+      "folie": "LZK 2 · 4000 € · F18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z08",
+      "baustein": "definition",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was bedeutet der aus dem Griechischen entlehnte Begriff paideia wörtlich übersetzt?",
+      "optionen": [
+        "Kinderführung",
+        "Kindererziehung",
+        "Kinderanleitung",
+        "Kindersozialisation"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "LZK 2, 8000-Euro-Frage (Lösung A); Folie 20: pais = Kind, agein = führen.",
+      "folie": "LZK 2 · 8000 € · F20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z09",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum wird heute eher der Begriff Erziehungswissenschaften genutzt statt Pädagogik?",
+      "optionen": [
+        "Weil dieser den Anspruch alle Altersgruppen zu umfassen und nicht nur die Kindheit, eher unterstreicht.",
+        "Weil dieser der Allgemeinheit besser vermittelbar ist als der altgriechische Begriff der paideia (Pädagogik).",
+        "Weil dieser den Wissenschaftsanspruch der Disziplin und Profession eher unterstreicht.",
+        "A und C sind richtig."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "LZK 2, 16.000-Euro-Frage (Lösung D): alle Lebensalter (A) und Wissenschaftscharakter (C) – Folie 20, Video.",
+      "folie": "LZK 2 · 16.000 € · F20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z10",
+      "baustein": "definition",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Pädagogik ist nach der Definition von Stein folgendermaßen in ihren Ansprüchen und Aufgaben zu charakterisieren:",
+      "optionen": [
+        "beobachtet, interpretiert, erklärt, trifft Vorhersagen und bietet prakt. Wissen",
+        "beobachtet, analysiert, erklärt, trifft Vorhersagen und bietet prakt. Wissen",
+        "beobachtet, interpretiert, stellt Analysen auf und bietet prakt. Wissen",
+        "beobachtet, erklärt, trifft Aussagen zu best. Themen und bietet prakt. Wissen"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "LZK 2, 32.000-Euro-Frage (Lösung A); Definition Folie 27. Achtung: „analysiert“ ist nicht Teil der Definition.",
+      "folie": "LZK 2 · 32.000 € · F27",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z11",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Wie lässt sich die Aufgabe der Pädagogik, pädagogische Sachverhalte zu interpretieren, auch erklären?",
+      "optionen": [
+        "Bei der Interpretation werden Beobachtungen auf ihre Ursachen zurückgeführt, etwa als Auswirkung von elterlicher Gewalt.",
+        "Bei der Interpretation werden Beobachtungen erklärt, etwa als Auswirkung von fehlgeleiteter Erziehung.",
+        "Alle drei Antworten A, B und D sind richtig.",
+        "Bei der Interpretation werden Beobachtungen auf einer höheren Abstraktionsebene zusammengefasst, etwa best. Störungen als ADHS interpretiert."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "LZK 2, 64.000-Euro-Frage (Lösung D). Ursachen nennt erst die Erklärung (A und B beschreiben die Erklärung, nicht die Interpretation).",
+      "folie": "LZK 2 · 64.000 € · F28–29",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z12",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Die vier Säulen der Pädagogik stehen in folgendem Zusammenhang:",
+      "optionen": [
+        "Die Sozialisation ist ein Teilbereich der Erziehung und der Bildung.",
+        "Im Gegensatz zum Lernen können Bildungsprozesse auch selbstreflexiv im Sinne einer Selbstbildung stattfinden.",
+        "Die Sozialisation umfasst auch Prozesse der Bildung und des Lernens.",
+        "Alle drei Aussagen A, B und C sind falsch."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "LZK 2, 250.000-Euro-Frage (Lösung C). Video: Die Sozialisation ist das übergeordnete Konzept. B ist falsch, weil auch Lernen intrapersonell, also für sich allein, abläuft (Folie 24).",
+      "folie": "LZK 2 · 250.000 € · F24–25",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z13",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Prozesse der Erziehung, Bildung, der Sozialisation und des Lernens können nach Wolfgang Brezinka auf folgenden Ebenen ablaufen….",
+      "optionen": [
+        "Mikro-, meso-, exo- und makrosozial",
+        "Intra-, intro-, sowie interpersonell",
+        "Mikro-, meso-, exo- und makrosozial",
+        "Intra- und interpersonell und makrosozial"
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "LZK 2, 500.000-Euro-Frage (Lösung D); Folie 22. Im Original sind A und C wortgleich – siehe Auffälligkeiten.",
+      "folie": "LZK 2 · 500.000 € · F22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z14",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Wie beschreibt Wolfgang Brezinka die Prozesse von Erziehung, Bildung, Sozialisation und Lernen auch noch?",
+      "optionen": [
+        "Prozesse innerhalb einer Person werden als intrapersonelle Prozesse bezeichnet.",
+        "Die Prozesse zwischen zwei oder mehr Personen werden als interpersonelle Prozesse bezeichnet",
+        "A und B sind richtig.",
+        "Die Prozesse in größeren sozialen Zusammenhängen werden als interpersonelle Prozesse bezeichnet."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "LZK 2, 1.000.000-Euro-Frage (Lösung C). D ist falsch: Prozesse in größeren sozialen Zusammenhängen heißen makrosozial.",
+      "folie": "LZK 2 · 1 Mio. € · F22",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Video: Die Definition der Pädagogik nach Stein (2017, S. 13) mit ihren fünf Bestandteilen „sollte man sich merken“ – beobachten, interpretieren, erklären, vorhersagen, Handlungswissen bereitstellen.",
+    "Video: Die drei Bereiche der Professionalität (Wissen, Können, Haltung) und der Baum der Pädagogik nach Kleve als Merkhilfe.",
+    "Lernzielkontrolle 2 („Wer wird Millionär“, 14 Fragen) ist laut Anleitung Klausurvorbereitung – die Fragen stehen im Originalwortlaut als z01–z14 in der App."
+  ],
+  "offene_fragen": [],
+  "auffaelligkeiten": [
+    "Lernzielkontrolle 2, 8000-Euro-Frage: „paideia“ wörtlich = „Kinderführung“. Stein 2017, S. 11 übersetzt paideia mit „Erziehung“ oder „Bildung“; „Kinderführung“ ist dort die Bedeutung von „Paidagogia“ (pais + agein).",
+    "Lernzielkontrolle 2, 500.000-Euro-Frage: Antwort A und C sind wortgleich („Mikro-, meso-, exo- und makrosozial“).",
+    "Lernzielkontrolle 2, 500-Euro-Frage: Tippfehler „Pädagogi:innen“.",
+    "Folie 25 nennt Bildung „Lebenslanger Prozess …“, die gleiche Übersicht bei Rieckmann (ewb001.2 S01, Folie 17) und im Kurzskript „Prozess, der …“.",
+    "Folie 18: Fröbel als „Carl Poppo Fröbel (1786–1824)“ – gemeint ist laut Video der Begründer des Kindergartens (bekannt als Friedrich Fröbel, 1782–1852); im Seminar nachfragen.",
+    "Folie 15 nennt „Wildt, 2006“, das Literaturverzeichnis (Folie 39) nur Wildt 1997.",
+    "Stein 2017, S. 13 formuliert die Definition etwas anders als Folie 27 („die Auswirkungen dieser Prozesse vorhersagt und somit allen hieran beteiligten Personen …“) – gelernt wird der Folienwortlaut.",
+    "Lernzielkontrolle 2: Silbentrennungen aus dem Folienlayout (z. B. „Ethikbe-züge“, „pro-fessionellen“) sind in der App zusammengeschrieben; Antwortzeilen sind mit „·“ verbunden."
+  ]
+}

@@ -14,14 +14,24 @@
       "wortlaut": "wissenschaftliche „Einzeldisziplin, die sich mit Erziehung und Bildung beschäftigt“",
       "erklaerung": "Das wissenschaftliche Fach mit Professuren, Studiengängen, Instituten und Fachzeitschriften, das nach wissenschaftlichen Kriterien Wissen über Erziehung und Bildung erzeugt (Ludwig 2020, S. 139 f.).",
       "quelle": "ewb001.2_2026-10-13 · Folie 13",
-      "abweichungen": []
+      "abweichungen": [
+        {
+          "quelle": "ewb001.1_2026-10-20 · Folie 27",
+          "hinweis": "Frau Stein (Stein 2017) gebraucht „Pädagogik bzw. Erziehungswissenschaft“ für eine Wissenschaft (heute zumeist synonym) – siehe Eintrag „Pädagogik bzw. Erziehungswissenschaft (Stein 2017)“. Nadine 26.10.2026: beide Sichtweisen nebeneinander lernen."
+        }
+      ]
     },
     {
       "begriff": "Pädagogik",
       "wortlaut": "1. „Handlungsfeld der Erziehungs- und Bildungspraxis, also für die Gesamtheit der praktischen Tätigkeiten zur Auslösung von Lernprozessen“; 2. „Nachdenken über diese Praxis […], sowohl im vorwissenschaftlichen Sinn als auch im Sinn der Produktion von Erkenntnissen durch wissenschaftliche Forschung oder der Sicherung und Verbreitung dieses Wissensbestands in der wissenschaftlichen Lehre“",
       "erklaerung": "Der weitere Begriff: die pädagogische Praxis selbst und das Nachdenken darüber – auch ohne wissenschaftlichen Anspruch (Ludwig 2020, S. 139 f.).",
       "quelle": "ewb001.2_2026-10-13 · Folie 13",
-      "abweichungen": []
+      "abweichungen": [
+        {
+          "quelle": "ewb001.1_2026-10-20 · Folie 27",
+          "hinweis": "Frau Stein (Stein 2017) gebraucht „Pädagogik bzw. Erziehungswissenschaft“ für eine Wissenschaft (heute zumeist synonym) – siehe Eintrag „Pädagogik bzw. Erziehungswissenschaft (Stein 2017)“. Nadine 26.10.2026: beide Sichtweisen nebeneinander lernen."
+        }
+      ]
     },
     {
       "begriff": "Intrapersonell",
@@ -84,7 +94,13 @@
       "wortlaut": "Interpersonelle Ebene: Prozess, der das Hineinwachsen in eine Gemeinschaft in der Auseinandersetzung mit ihr beinhaltet",
       "erklaerung": "Kurzfassung aus der Übersicht der vier Säulen (Stein 2017, S. 18).",
       "quelle": "ewb001.2_2026-10-13 · Folie 17",
-      "abweichungen": []
+      "abweichungen": [
+        {
+          "quelle": "ewb001.1_2026-10-20 · Folie 25",
+          "wortlaut": "Lebenslanger Prozess, der das Hineinwachsen in eine Gemeinschaft in der Auseinandersetzung mit ihr beinhaltet.",
+          "hinweis": "Frau Stein: „Lebenslanger Prozess …“ – beide Fassungen gelten (Stein 2017, S. 18)"
+        }
+      ]
     },
     {
       "begriff": "Lernen",
@@ -112,6 +128,69 @@
       "wortlaut": "Intrapersonelle Ebene: Veränderungen im Verhalten oder im Verhaltensrepertoire im weitesten Sinne",
       "erklaerung": "Kurzfassung aus der Übersicht der vier Säulen (Stein 2017, S. 18).",
       "quelle": "ewb001.2_2026-10-13 · Folie 17",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Pädagogisches Alltagswissen",
+      "wortlaut": "Das pädagogische Alltagswissen der Laien soll Alltagsprobleme lösen und wird in der Regel durch die eigene Sozialisation, durch Familie, Medien, Freunde usw. erworben. Bewährte Erziehungspraktiken halten sich über Generationen. Daher wird professioneller Rat erst dann gesucht, wenn das praktische Alltagswissen scheitert. Solange bewährte Praktiken funktionieren, werden sie tradiert oder ausgeübt. Selbst wenn das pädagogische Alltagswissen in sich völlig widersprüchlich ist, hat es Geltung, da es zur Bewältigung des Alltags beiträgt. (Dörpinghaus & Uphoff 2011, S. 14)",
+      "erklaerung": "Das intuitive Erziehungswissen von Laien aus der eigenen Lebensgeschichte – hilfreich im Alltag, aber nicht geprüft und schwer zu erschüttern.",
+      "quelle": "ewb001.1_2026-10-20 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Professionswissen",
+      "wortlaut": "Anders sieht es bei Pädagogen aus, die in pädagogischen Berufen arbeiten und über Professionswissen verfügen müssen. Sie haben im Laufe der Zeit und im Austausch mit Kollegen Erfahrungen gesammelt, die sich vor dem Hintergrund eines wissenschaftlich ausgerichteten Studiums zu einem Professionswissen formieren, um berufliche Situationen im Lichte wissenschaftlich begründeter und kritisch geprüfter Konzepte zu behandeln. (Dörpinghaus & Uphoff 2011, S. 14)",
+      "erklaerung": "Berufserfahrung plus wissenschaftliches Studium: Fachkräfte handeln auf Grundlage geprüfter Konzepte.",
+      "quelle": "ewb001.1_2026-10-20 · Folie 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Wissenschaftliches Wissen (Funktion)",
+      "wortlaut": "Erst das in Theorie erworbene wissenschaftliche Wissen schafft die Distanz, die eine reflektierte Sicht der Praxis möglich macht […]. Die Funktion des wissenschaftlichen Wissens ist es also, die professionellen Standards, Beurteilungsschemata, Relevanzkriterien (…) diskutieren zu können, (…): eine Folie herzustellen, auf der Professionswissen bewertet und weiter entwickelt werden kann. (Dörpinghaus & Uphoff 2011, S. 14)",
+      "erklaerung": "Wissenschaft gibt Abstand zur eigenen Praxis und einen Maßstab, an dem Professionswissen geprüft und weiterentwickelt wird.",
+      "quelle": "ewb001.1_2026-10-20 · Folie 10–11",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Professionalität (Kompetenzdreieck)",
+      "wortlaut": "A Professionelles Wissen · B Professionelle Kenntnisse · C Professionelle Haltung – nicht nur laienhaftes pädagogisches Handeln grenzt die Lai*innen von professionellen pädagogischen Fachkräften ab",
+      "erklaerung": "Wissen (Theorien), Können (Methoden) und Haltung (Berufsethik) unterscheiden Fachkräfte von Laien – nach Effinger als Kompetenzdreieck dargestellt.",
+      "quelle": "ewb001.1_2026-10-20 · Folie 13–14",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Baum der Pädagogik (Kleve)",
+      "wortlaut": "Blätter: Erziehungsstil, Lernarten, Techniken, Sozialisationsfelder etc. · Vier Hauptäste („Säulen“): Sozialisation, Erziehung, Bildung, Lernen · Stamm: Wissenschaftstheorie · Wurzel: Ethik + Menschenbild",
+      "erklaerung": "Bild für den Aufbau der Pädagogik: Ethik und Menschenbild tragen alles, die Wissenschaftstheorie gibt Halt, die vier Säulen verzweigen sich in einzelne Inhalte.",
+      "quelle": "ewb001.1_2026-10-20 · Folie 16",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Pädagogik (Etymologie)",
+      "wortlaut": "altgriechischer Begriff „paideia“; „pais“ für „Kind“; „agein“ für „führen“ – Begriff der Erziehungswissenschaft seit den 1960er Jahren (Stein, 2017, S. 11/12)",
+      "erklaerung": "Wörtlich „Kinderführung“. Weil Pädagogik alle Lebensalter betrifft und wissenschaftlich arbeitet, spricht man seit den 1960er Jahren eher von Erziehungswissenschaft.",
+      "quelle": "ewb001.1_2026-10-20 · Folie 20",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Pädagogik bzw. Erziehungswissenschaft (Stein 2017)",
+      "wortlaut": "Pädagogik bzw. Erziehungswissenschaft ist die Wissenschaft, die Prozesse der Erziehung, Bildung, des Lernens und der Sozialisation wissenschaftlich beobachtet, interpretiert, erklärt; Wirkungen von Erziehungs-, Bildungs-, Lern- und Sozialisationsprozessen vorhersagt und somit den an Erziehungs-, Bildungs-, Lern- und Sozialisationsprozessen beteiligten Personen der pädagogischen Praxis Handlungswissen zur Verfügung stellt.",
+      "erklaerung": "Fünf Aufgaben: beobachten, interpretieren, erklären, vorhersagen, Handlungswissen bereitstellen. Stein gebraucht Pädagogik und Erziehungswissenschaft hier gleichbedeutend – anders als Ludwig 2020 in ewb001.2.",
+      "quelle": "ewb001.1_2026-10-20 · Folie 27",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Interpretation (pädagogische Aufgabe)",
+      "wortlaut": "Bei der Interpretation werden Beobachtungen auf einer höheren Abstraktionsebene zusammengefasst, etwa best. Störungen als ADHS interpretiert.",
+      "erklaerung": "Die Interpretation ordnet Beobachtungen einem Konstrukt zu (z. B. „mangelnde Aggressionskontrolle“), nennt aber noch keine Ursache – das tut erst die Erklärung.",
+      "quelle": "ewb001.1_2026-10-20 · Folie 28–29; Lernzielkontrolle 2",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Reflexions- und Handlungswissenschaft",
+      "wortlaut": "Die Pädagogik beziehungsweise Erziehungswissenschaft reflektiert als Erfahrungswissenschaft Prozesse der Erziehung, Bildung, des Lernens und der Sozialisation und leitet als Handlungswissenschaft diese Prozesse an. (Stein 2017, S. 14)",
+      "erklaerung": "Pädagogik denkt über ihre Praxis nach (Reflexion) und gibt der Praxis Handlungswissen (Anleitung).",
+      "quelle": "ewb001.1_2026-10-20 · Folie 37; Stein 2017, S. 14",
       "abweichungen": []
     }
   ]

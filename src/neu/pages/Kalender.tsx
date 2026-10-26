@@ -450,7 +450,7 @@ export function Kalender({ stand, neuLaden }: Props) {
               <input type="text" defaultValue={ss.thema} key={ss.id} onBlur={(ev) => { if (ev.target.value !== ss.thema) setMark(ss, { thema: ev.target.value || null }); }} placeholder="Thema eintragen …" style={{ ...feld, padding: '6px 8px', fontSize: 14, minWidth: 0 }} />
             </div>
             {ss.roh.status === 'entfaellt' && <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Entfällt: {ss.roh.entfall_grund}</div>}
-            <div style={{ fontSize: 13, color: 'var(--ink-3)', fontWeight: 800 }}>Warst du da? <span style={{ fontWeight: 600 }}>(nochmal tippen = zurücknehmen)</span></div>
+            <div style={{ fontSize: 13, color: 'var(--ink-3)', fontWeight: 800 }}>Warst du da?</div>
             <div style={{ display: 'flex', background: 'var(--paper)', borderRadius: 10, padding: 3, gap: 3 }}>
               <button type="button" onClick={() => setMark(ss, a === 'da' ? { anwesenheit: 'offen' } : { anwesenheit: 'ja', status: ss.roh.status === 'ausgefallen' ? 'findet_statt' : ss.roh.status })} style={{ ...seg(a === 'da'), color: a === 'da' ? 'var(--ink)' : 'var(--ink-3)' }}>Anwesend</button>
               <button type="button" onClick={() => setMark(ss, a === 'weg' ? { anwesenheit: 'offen' } : { anwesenheit: 'nein', status: ss.roh.status === 'ausgefallen' ? 'findet_statt' : ss.roh.status })} style={{ ...seg(a === 'weg'), color: a === 'weg' ? '#e07a88' : 'var(--ink-3)' }}>Nicht anwesend</button>

@@ -146,10 +146,16 @@ export function Dashboard({ stand, neuLaden }: Props) {
       titel: x0.titel, fg: f[0], bg: f[1], rand: f[2], btnBg: f[2], btnFg: f[3], knopf: 'Nachholen starten', altText: alt ? 'oder: ' + alt.k + ' – ' + alt.offen.length + ' offen →' : '',
       start: () => { setNhModul(top.k); setNhZeigeErl(false); }, altStart: () => { if (alt) { setNhModul(alt.k); setNhZeigeErl(false); } } };
   } else {
-    const nk = klausuren[0]?.e.modul.kuerzel ?? aktMods[0] ?? '', f = HLF[nk] ?? ['#2f7a4b', '#e3f2e8', '#cfe8d8', '#2f7a4b'];
-    hl = { vorschlag: 'Alles nachgeholt – stark! Weiter nach Lernplan: als Nächstes ist ' + nk + ' dran (' + pruefText(nk, false) + ').', kopf: nk + ' · Lernplan', kurz: nk + ' · Lernplan', unter: 'alles nachgeholt – weiter nach Lernplan',
-      titel: stand.module.find((m) => m.kuerzel === nk)?.name ?? '', fg: f[0], bg: f[1], rand: f[2], btnBg: f[2], btnFg: f[0], knopf: 'Zum Lernplan', altText: 'Lernplan von ' + nk + ' öffnen →',
-      start: () => { window.location.hash = '/module/' + nk; }, altStart: () => { window.location.hash = '/module/' + nk; } };
+    // Alles nachgeholt: das Modul mit der nächsten Prüfung, in dem noch Stoff offen ist (gleicher Tag → geringerer Lernstand zuerst)
+    const kand = [...new Set(klausuren.map((k) => k.e.modul.kuerzel))].filter((k) => HLF[k]).map((k) => ({ k, d: klausuren.find((x) => x.e.modul.kuerzel === k)!.t.datum!, ls: lernStandVon(stand, k, HEUTE) }))
+      .sort((x, y) => x.d.localeCompare(y.d) || x.ls.pct - y.ls.pct);
+    const offenK = kand.filter((x) => x.ls.ges > x.ls.gel);
+    const wahl = offenK[0] ?? kand[0], alt2 = offenK.find((x) => x !== wahl);
+    const nk = wahl?.k ?? aktMods[0] ?? '', f = HLF[nk] ?? ['#2f7a4b', '#e3f2e8', '#cfe8d8', '#2f7a4b'];
+    const rest = wahl ? wahl.ls.ges - wahl.ls.gel : 0;
+    hl = { vorschlag: 'Alles nachgeholt – stark! Als Nächstes ist ' + nk + ' dran (' + pruefText(nk, false) + ')' + (rest ? ' – ' + rest + (rest === 1 ? ' Sitzung ist' : ' Sitzungen sind') + ' noch nicht gelernt.' : '.'), kopf: nk + ' · Lernplan', kurz: nk + ' · Lernplan', unter: rest ? rest + ' Sitzungen noch nicht gelernt · ' + pruefText(nk, false) : 'alles nachgeholt – weiter nach Lernplan',
+      titel: stand.module.find((m) => m.kuerzel === nk)?.name ?? '', fg: f[0], bg: f[1], rand: f[2], btnBg: f[2], btnFg: f[0], knopf: 'Zum Lernplan', altText: alt2 ? 'oder: ' + alt2.k + ' (' + pruefText(alt2.k, false) + ') →' : '',
+      start: () => { window.location.hash = '/module/' + nk; }, altStart: () => { if (alt2) window.location.hash = '/module/' + alt2.k; } };
   }
 
   // ---------- Eintrag ----------

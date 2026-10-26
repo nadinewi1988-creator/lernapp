@@ -84,7 +84,8 @@
     "ewb001.1_2026-10-13",
     "ewb001.1_2026-10-20",
     "ewb001.2_2026-10-13",
-    "ewb001.2_2026-10-20"
+    "ewb001.2_2026-10-20",
+    "ewb001_2026-10-23"
   ],
   "klausurstil": {
     "quellen": [
@@ -181,7 +182,8 @@
     "ewb001.2 am 13.10.2026: keine Veranstaltung (gemeinsamer Auftakt in ewb001.1) – in der App „ausgefallen“",
     "Präsenztermine Compasito und Betzavta (ewb001.1) sind freiwillig und nicht prüfungsrelevant – keine Lerninhalte (Nadine, 26.10.2026)",
     "Lernzielkontrollen („Wer wird Millionär“, .pptx): die richtige Antwort ist per Hervorhebungs-Animation markiert; Fragen kommen im Originalwortlaut als z01… in die Sitzungsdatei",
-    "Begriffe Pädagogik/Erziehungswissenschaft: Stein (ewb001.1) synonym, Rieckmann/Ludwig (ewb001.2) unterschieden – beide Sichtweisen werden nebeneinander gelernt (Nadine, 26.10.2026)"
+    "Begriffe Pädagogik/Erziehungswissenschaft: Stein (ewb001.1) synonym, Rieckmann/Ludwig (ewb001.2) unterschieden – beide Sichtweisen werden nebeneinander gelernt (Nadine, 26.10.2026)",
+    "Tutorium (freiwillig, Tutor Dennis Hoffmann): 16.10. ausgefallen, 23.10. = Sitzung 1. Zusammenfassung und Zusatzblatt des Tutors kommen per WhatsApp und fehlen noch (Stand 26.10.2026) – Nadine legt sie in den Tutorium-Ordner, dann 10.2 und „zwei Lehrertypen“ abgleichen."
   ],
   "auffaelligkeiten": [
     "ewb001.1 S01 Video: Kurzskript „ca. 10 Seiten“, tatsächlich 25 Seiten",
@@ -353,6 +355,20 @@
       "art": "Literatur (Selbststudium S02 S. 29–42, S03 S. 42–52)",
       "status": "verarbeitet",
       "sitzung": "ewb001.2_2026-10-20"
+    },
+    {
+      "pfad": "Tutorium/1. Sitzung/TUTORIUM_EWB001.1_STEIN_·_ARBEITSBLATT_-_1._SITZUNG_·_„EINFÜHRUNG_IN_DIE_PÄDAGOGIK“.pdf",
+      "geaendert": "2026-10-23",
+      "art": "Arbeitsblatt",
+      "status": "verarbeitet",
+      "sitzung": "ewb001_2026-10-23"
+    },
+    {
+      "pfad": "Tutorium/1. Sitzung/Bildschirmfoto 2026-10-23 um *.png (20 Dateien)",
+      "geaendert": "2026-10-23",
+      "art": "Tafel/Lösungen Tutor",
+      "status": "verarbeitet",
+      "sitzung": "ewb001_2026-10-23"
     }
   ]
 }

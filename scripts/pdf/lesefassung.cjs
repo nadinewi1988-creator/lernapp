@@ -28,7 +28,7 @@ if (d.erklaerung?.length) {
 if (d.definitionen?.length) P.push('<section><h2>Begriffe</h2>' + d.definitionen.map((b) => `<div class="def"><div class="b">${inl(b.begriff)} <span class="fol">${esc(b.folie || '')}</span></div><div class="w">„${inl(b.wortlaut)}“</div><div>${inl(b.erklaerung)}</div></div>`).join('') + '</section>');
 const auf = d.aufgaben.filter((a) => !/hausaufgabe/i.test(a.art));
 const ha = d.aufgaben.filter((a) => /hausaufgabe/i.test(a.art));
-if (auf.length) P.push('<section><h2>Aufgaben aus dem Material mit Lösung</h2>' + auf.map((a) => `<div class="auf"><div class="b">${esc(a.quelle)}</div><div class="w">${mdHtml(a.text)}</div><div><b>Lösung:</b> ${mdHtml(a.loesung)}</div><div><b>Lösungsweg:</b> ${mdHtml(a.loesungsweg)}</div></div>`).join('') + '</section>');
+if (auf.length) P.push('<section><h2>Aufgaben aus dem Material mit Lösung</h2>' + auf.map((a) => `<div class="auf"><div class="b">${esc(a.quelle)}</div><div class="w">${mdHtml(a.text)}</div><div><b>Lösung:</b> ${mdHtml(a.loesung)}</div>${a.loesungsweg ? `<div><b>Lösungsweg:</b> ${mdHtml(a.loesungsweg)}</div>` : ''}</div>`).join('') + '</section>');
 if (ha.length) P.push('<section class="ha"><h2>Hausaufgaben</h2><ul>' + ha.map((a) => `<li><b>${inl(a.titel || a.quelle)}</b> – Aufgaben und Lösungen in der eigenen PDF <i>${esc((a.pdf || '').split('/').pop())}</i></li>`).join('') + '</ul></section>');
 if (d.offene_fragen?.length) P.push(`<section class="ask"><h2>Nachfragen in der Uni</h2><ol>${d.offene_fragen.map((q) => '<li>' + inl(q) + '</li>').join('')}</ol></section>`);
 P.push(`<footer>„Ergänzung“ = nicht aus der Vorlesung, zum Verständnis ergänzt. Erstellt mit Claude für die Lernapp, Stand ${d.stand === 'geprueft' ? 'geprüft' : esc(d.stand)}.</footer>`);

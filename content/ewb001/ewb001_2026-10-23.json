@@ -1,0 +1,596 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb001",
+  "teilmodul": "ewb001",
+  "datum": "2026-10-23",
+  "sitzung_nr": 1,
+  "sitzung_id": "",
+  "thema": "1. Sitzung: Einführung in die Pädagogik (Arbeitsblatt Stein)",
+  "thema_in_app": "eingetragen",
+  "stand": "geprueft",
+  "hinweis": "Freiwilliges Tutorium (Tutor: Dennis Hoffmann). Die Sitzung am 16.10. ist ausgefallen, daher ist der 23.10. Sitzung Nr. 1. Grundlage: Kernblatt „Einführung in die Pädagogik“ (10 Seiten) und Tafel-Screenshots. Lösungen des Tutors liegen für 1.1–4.1 vor, alles andere ist selbst erarbeitet (gekennzeichnet). Die Zusammenfassung und das Zusatzblatt des Tutors fehlen noch.",
+  "quellen": [
+    {
+      "datei": "Tutorium/1. Sitzung/TUTORIUM_EWB001.1_STEIN_·_ARBEITSBLATT_-_1._SITZUNG_·_„EINFÜHRUNG_IN_DIE_PÄDAGOGIK“.pdf",
+      "art": "Arbeitsblatt (Kernblatt)",
+      "seiten": "1–10"
+    },
+    {
+      "datei": "Tutorium/1. Sitzung/Bildschirmfoto 2026-10-23 um 10.19.56 … 11.44.28.png (20 Dateien)",
+      "art": "Tafel/Lösungen des Tutors",
+      "seiten": "Aufgaben 1.1–5.1"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "erklären, warum Alltagswissen für pädagogisches Handeln nicht ausreicht",
+      "art": "vorgegeben",
+      "quelle": "Kernblatt S. 1",
+      "fragen": [
+        "f01",
+        "f02",
+        "f05",
+        "f15"
+      ],
+      "erklaerung_abschnitt": "1 Alltagswissen und Wissensstufen"
+    },
+    {
+      "text": "die drei Stufen des Wissens unterscheiden",
+      "art": "vorgegeben",
+      "quelle": "Kernblatt S. 1",
+      "fragen": [
+        "f03",
+        "f04"
+      ],
+      "erklaerung_abschnitt": "1 Alltagswissen und Wissensstufen"
+    },
+    {
+      "text": "Kompetenzdreieck und 5-Schritte-Modell auf Fälle anwenden",
+      "art": "vorgegeben",
+      "quelle": "Kernblatt S. 1",
+      "fragen": [
+        "f07",
+        "f08",
+        "f10"
+      ],
+      "erklaerung_abschnitt": "3 Professionalität und Pädagogik"
+    },
+    {
+      "text": "Sozialisation, Erziehung, Bildung und Lernen abgrenzen",
+      "art": "vorgegeben",
+      "quelle": "Kernblatt S. 1",
+      "fragen": [
+        "f11",
+        "f12",
+        "f13",
+        "f14"
+      ],
+      "erklaerung_abschnitt": "4 Die vier Grundbegriffe"
+    }
+  ],
+  "kurzfassung": [
+    "Hinter „Das kann doch jede*r“ steht die Laienmeinung, pädagogisches Handeln brauche keine Ausbildung – pädagogische Arbeit gilt deshalb nicht als Expertentätigkeit.",
+    "Alltagswissen (aus Familie, Freund*innen, Medien) hält sich, solange der Alltag gelingt; Rat wird meist erst gesucht, wenn es versagt.",
+    "Drei Stufen: Alltagswissen · Erfahrungs-/Professionswissen (an Wissenschaft geprüfte Erfahrung) · wissenschaftliches Wissen.",
+    "Wissenschaftliches Wissen schafft Distanz zur eigenen Praxis und ist die „Folie“, an der Professionswissen geprüft wird; es nähert sich der Wahrheit schrittweise an.",
+    "Professionalität = Wissen, Können und Haltung (Kompetenzdreieck nach Effinger); Stufen von Information bis Professionalität (North/Wildt).",
+    "Das 5-Schritte-Modell nach Stein (beobachten, interpretieren, erklären, vorhersagen, Handlungswissen) lässt sich auf Fälle wie Tom anwenden.",
+    "Die vier Grundbegriffe wirken auf drei Ebenen; Bildung liegt intra- und interpersonell."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Worum es im Tutorium ging",
+      "text": "Das Tutorium wiederholt die Vorlesung vom 20.10. (Einführung in die EW) und vom 13.10. (vier Säulen, drei Ebenen) mit Fällen. **Roter Faden:** Stimmt die Laienmeinung „Pädagogik kann jede*r“? Die Antwort am Ende: **Nein** – pädagogisches Handeln braucht wissenschaftliche Fundierung.\n\n| Abschnitt | Kapitel | Aufgaben |\n| --- | --- | --- |\n| 1 Alltagswissen und Wissensstufen | 1–3 | Einstieg, 1.1, 2.1, 3.1 |\n| 2 Theorie und Praxis | 4–5 | 4.1, 5.1 |\n| 3 Professionalität und Pädagogik | 6–7 | 6.1, 6.2, 7.1, 7.2 |\n| 4 Die vier Grundbegriffe | 8 | 8.1, 8.2 |\n| Abschluss | 9–10 | 10.1, 10.2 |\n\nAlle Aufgaben stehen mit Lösung unten unter „Aufgaben aus dem Material“. Lösungen des Tutors gibt es für 1.1–4.1; die übrigen sind selbst erarbeitet.",
+      "beispiel": "",
+      "folien": ""
+    },
+    {
+      "titel": "1 Alltagswissen und Wissensstufen",
+      "text": "- **Laienmeinung:** Pädagogisches Handeln braucht keine Ausbildung, der gesunde Menschenverstand reicht. Folge: Pädagogische Arbeit wird nicht als Expertentätigkeit anerkannt (Elektriker vs. Familienhelferin).\n- **Alltagswissen** stammt aus Familie, Freund*innen und Medien (Sozialisation). Es ist hartnäckig, weil es funktioniert, solange der Alltag bewältigt wird; Rat wird meist erst gesucht, wenn es versagt.\n- **Drei Stufen:** Alltagswissen → Erfahrungs-/Professionswissen → wissenschaftliches Wissen.\n\n> **Merke (Tutor):** Professionswissen ist Erfahrung, die vor dem Hintergrund eines wissenschaftlichen Studiums geprüft wird.",
+      "beispiel": "",
+      "folien": ""
+    },
+    {
+      "titel": "2 Theorie und Praxis",
+      "text": "- **Zwei Lehrertypen:** „nur Erfahrung“ (Herr M.) vs. „mit Wissenschaft“ (Referendarin).\n- „Erst das in Theorie erworbene wissenschaftliche Wissen schafft die **Distanz**, die eine reflektierte Sicht der Praxis möglich macht.“ (Dörpinghaus & Uphoff 2011) – Stichwort des Tutors: **Abstand**.\n- Regeln der Wissenschaft lernt man im Studium, Regeln der Praxis in Seminaren/Praktika.\n- Wissenschaft ist die **Folie**, auf der Professionswissen bewertet wird, und eine **fortschreitende Annäherung an die Wahrheit** – dass sie sich korrigiert, ist ihre Stärke.",
+      "beispiel": "",
+      "folien": ""
+    },
+    {
+      "titel": "3 Professionalität und Pädagogik",
+      "text": "- **Kompetenzdreieck (Effinger):** Wissen · Können · Haltung.\n- **Stufen (North, erweitert von Wildt):** Information → Wissen → Können → Einstellung → Kompetenz → Professionalität (dazu jeweils Vernetzung, Anwendung, Bewertung, Angemessenheit, Verantwortung).\n- **Pädagogik** = pais (Kind) + agein (führen) → „Kinderführung“; seit den 1960er Jahren eher „Erziehungswissenschaft“.\n- **5-Schritte-Modell nach Stein:** beobachten · interpretieren · erklären · vorhersagen · Handlungswissen bereitstellen – angewendet auf Tom (8).",
+      "beispiel": "",
+      "folien": ""
+    },
+    {
+      "titel": "4 Die vier Grundbegriffe und Abschluss",
+      "text": "| Ebene | Grundbegriffe |\n| --- | --- |\n| intrapersonell | Lernen, Bildung |\n| interpersonell | Erziehung, Bildung |\n| makrosozial | Sozialisation |\n\nBildung liegt auf zwei Ebenen: Auseinandersetzung mit der Gemeinschaft (interpersonell) und Selbstbildung (intrapersonell).\n\n**Baum der Pädagogik (Kleve):** Wurzel = Ethik + Menschenbild · Stamm = Wissenschaftstheorie · Hauptäste = vier Grundbegriffe · Blätter = einzelne Inhalte.\n\n> **Fazit:** Pädagogisches Handeln braucht wissenschaftliche Fundierung, weil es nur so begründet, überprüfbar und verantwortbar wird.",
+      "beispiel": "",
+      "folien": ""
+    }
+  ],
+  "definitionen": [],
+  "aufgaben": [
+    {
+      "id": "a00",
+      "art": "Aufgabe auf Folie",
+      "text": "**Einstieg – Kann das jede*r?** Behauptung: „Kochen, Kindererziehen und pädagogisches Handeln kann doch eigentlich jede*r.“\nStimmt ihr zu? Notiert in drei Stichpunkten, warum – oder warum nicht. In Aufgabe 10.2 kommt ihr darauf zurück.",
+      "quelle": "Kernblatt S. 1 · Einstieg",
+      "loesung": "*Selbst erarbeitet (keine Lösung vom Tutor).*\n\n**Aufgabe:** *„Stimmt ihr zu? Notiert in drei Stichpunkten, warum – oder warum nicht.“*\n\n**Antwort:** Nein.\n1. Alltagswissen ist oft widersprüchlich und ungeprüft.\n2. Es beruht nur auf der eigenen Erfahrung (z. B. der eigenen Erziehung).\n3. Pädagogisches Handeln braucht wissenschaftlich geprüftes Wissen, Methoden und eine professionelle Haltung.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "**Aufgabe 1.1 – Handwerker*in oder Fachkraft?** Fall: In derselben Familie bekommt der Elektriker Kaffee, Kuchen und Trinkgeld und darf in Ruhe arbeiten. Die sozialpädagogische Familienhelferin, die seit 20 Jahren im Beruf ist, bekommt dagegen ständig erklärt, wie sie ihre Arbeit „richtig“ machen soll.\na) Welche Laienmeinung steckt hinter dem Verhalten der Familie? Definiert den Begriff in einem Satz.\nb) Was zeigt der Vergleich über das Ansehen pädagogischer Arbeit in der Gesellschaft?",
+      "quelle": "Kernblatt S. 2 · Aufgabe 1.1",
+      "loesung": "*Lösung des Tutors (Screenshots 23.10.), ergänzt.*\n\n**Aufgabe 1.1 a:** *„Welche Laienmeinung steckt hinter dem Verhalten der Familie? Definiert den Begriff in einem Satz.“*\n\n**Antwort:** Die Laienmeinung lautet: Pädagogisches Handeln kann jede*r – dafür braucht man keine Ausbildung, der gesunde Menschenverstand reicht.\n\n**Aufgabe 1.1 b:** *„Was zeigt der Vergleich über das Ansehen pädagogischer Arbeit in der Gesellschaft?“*\n\n**Antwort:** Pädagogische Arbeit wird nicht als Expertentätigkeit gesehen: Beim Elektriker wird Fachwissen selbstverständlich anerkannt, bei der erfahrenen Familienhelferin nicht.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "**Aufgabe 2.1 – Warum Alltagswissen so hartnäckig ist**\na) Woher stammt Alltagswissen? Nennt drei Quellen.\nb) Erklärt mit Dörpinghaus & Uphoff: Warum hält sich Alltagswissen, obwohl es oft widersprüchlich ist – und wann wird meistens erst professioneller Rat gesucht? (Tipp: Denkt an den Vater, der selbst streng erzogen wurde und „trotzdem gut geworden“ ist.)",
+      "quelle": "Kernblatt S. 2 · Aufgabe 2.1",
+      "loesung": "*Lösung des Tutors (Screenshots 23.10.), ergänzt.*\n\n**Aufgabe 2.1 a:** *„Woher stammt Alltagswissen? Nennt drei Quellen.“*\n\n**Antwort:** ① Familie ② Freund*innen ③ Medien – erworben über die eigene Sozialisation.\n\n**Aufgabe 2.1 b:** *„Erklärt mit Dörpinghaus & Uphoff: Warum hält sich Alltagswissen, obwohl es oft widersprüchlich ist – und wann wird meistens erst professioneller Rat gesucht?“*\n\n**Antwort:** Alltagswissen hält sich, solange man damit den Alltag bewältigt – der Vater ist „trotzdem gut geworden“ und sieht keinen Grund, seine Erziehung zu hinterfragen. Professioneller Rat wird meist erst gesucht, wenn das Alltagswissen versagt, also wenn Probleme auftreten, die man selbst nicht mehr lösen kann.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "text": "**Aufgabe 3.1 – Drei Stufen des Wissens.** Kreuzt an: AW = Alltagswissen · PW = Erfahrungs-/Professionswissen · WW = wissenschaftliches Wissen\na) „Ein Klaps hat noch keinem geschadet – sagt meine Oma auch.“\nb) Eine Längsschnittstudie begleitet 2.000 Kinder über zehn Jahre und prüft, wie sich Erziehungsstile auf ihre Schulleistungen auswirken.\nc) Eine Erzieherin merkt nach 15 Jahren, dass feste Rituale den Kindern Sicherheit geben, und kann das mit Theorien aus ihrem Studium begründen.\nd) „Ich habe als Kind nur Druck bekommen, und aus mir ist trotzdem etwas geworden.“\ne) Kolleg*innen tauschen in der Konferenz Erfahrungen zu Elterngesprächen aus und prüfen sie an Modellen der Gesprächsführung.",
+      "quelle": "Kernblatt S. 3 · Aufgabe 3.1",
+      "loesung": "*Lösung des Tutors (Screenshots 23.10.), ergänzt.*\n\n**Aufgabe 3.1:** *„Kreuzt an: AW · PW · WW“*\n\n**Antwort:**\n\n| Aussage | Stufe | Begründung |\n| --- | --- | --- |\n| a) Klaps/Oma | **AW** | übernommene, ungeprüfte Alltagsweisheit |\n| b) Längsschnittstudie | **WW** | systematisch, methodisch geprüft |\n| c) Erzieherin, 15 Jahre + Theorie | **PW** | Erfahrung, mit Studium begründet |\n| d) „trotzdem etwas geworden“ | **AW** | Einzelerfahrung, verallgemeinert |\n| e) Konferenz + Modelle | **PW** | Erfahrungen, an Modellen geprüft |\n\n> **Merke (Tutor):** Professionswissen ist Erfahrung, die vor dem Hintergrund eines wissenschaftlichen Studiums geprüft wird.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "text": "**Aufgabe 4.1 – Distanz zur eigenen Praxis.** Fall: Herr M. unterrichtet seit 18 Jahren. Wenn eine Klasse unruhig ist, verteilt er sofort Strafarbeiten: „Das hat immer funktioniert.“ In seiner neuen 6b werden einige Kinder daraufhin still und ängstlich, ihre Noten fallen ab. Eine Referendarin schlägt vor, gemeinsam nachzulesen, was Studien zu Disziplin und Motivation sagen.\na) Welchem der „zwei Lehrertypen“ entspricht Herr M., welchem die Referendarin?\nZitat: „Erst das in Theorie erworbene wissenschaftliche Wissen schafft die Distanz, die eine reflektierte Sicht der Praxis möglich macht.“ — Dörpinghaus & Uphoff, 2011\nb) Erklärt das Zitat am Fall von Herrn M. (Tipp: Was müsste Herr M. tun, um sein eigenes Handeln „von außen“ zu sehen?)\nc) Wo lernt man die Regeln der Wissenschaft, wo die Regeln der Praxis?",
+      "quelle": "Kernblatt S. 3–4 · Aufgabe 4.1",
+      "loesung": "*Lösung des Tutors (Screenshots 23.10.), ergänzt.*\n\n**Aufgabe 4.1 a:** *„Welchem der „zwei Lehrertypen“ entspricht Herr M., welchem die Referendarin?“*\n\n**Antwort:** Herr M.: **„Nur Erfahrung“** · Referendarin: **„Mit Wissenschaft“**\n\n**Aufgabe 4.1 b:** *„Erklärt das Zitat am Fall von Herrn M.“*\n\n**Antwort:** Stichwort des Tutors: **Abstand**. Herr M. sieht sein Handeln nur von innen („hat immer funktioniert“). Erst wissenschaftliches Wissen – z. B. Studien zu Disziplin und Motivation – gibt ihm den Abstand, sein Handeln „von außen“ zu prüfen. Dann erkennt er, dass die Strafarbeiten in der 6b Angst und schlechtere Noten bewirken, und kann sein Handeln ändern.\n\n**Aufgabe 4.1 c:** *„Wo lernt man die Regeln der Wissenschaft, wo die Regeln der Praxis?“*\n\n**Antwort:** Wissenschaft: im **Studium** · Praxis: in **Seminaren/Praktika** (Tutor).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a05",
+      "art": "Aufgabe auf Folie",
+      "text": "**Aufgabe 5.1 – Wissenschaft als „Folie“**\na) Was ist gemeint, wenn wissenschaftliches Wissen eine Folie ist, auf der Professionswissen bewertet wird?\nb) Wissenschaft ist eine „fortschreitende Annäherung an die Wahrheit“. Erläutert das am Wandel von strenger Autorität zum autoritativen Erziehungsstil.\nc) Nehmt Stellung: Ist es eine Schwäche der Wissenschaft, dass sich ihre Erkenntnisse ändern? ☐ Ja ☐ Nein ☐ Teils – Begründung",
+      "quelle": "Kernblatt S. 4 · Aufgabe 5.1",
+      "loesung": "*Selbst erarbeitet (keine Lösung vom Tutor).*\n\n**Aufgabe 5.1 a:** *„Was ist gemeint, wenn wissenschaftliches Wissen eine Folie ist, auf der Professionswissen bewertet wird?“*\n\n**Antwort:** Erfahrungswissen wird vor das wissenschaftliche Wissen gelegt und daran geprüft – wie vor einem Hintergrund. Was standhält, wird zu begründetem Professionswissen; was widerspricht, wird überdacht.\n\n**Aufgabe 5.1 b:** *„Erläutert das am Wandel von strenger Autorität zum autoritativen Erziehungsstil.“*\n\n**Antwort:** Früher galt strenge Autorität als richtige Erziehung. Forschung zeigte dann, dass ein autoritativer Stil (Wärme und klare Regeln) Kindern besser hilft. Das Wissen wurde korrigiert und ist damit näher an der Wahrheit – aber nicht endgültig; auch dieser Stand kann sich wieder ändern.\n\n**Aufgabe 5.1 c:** *„Ist es eine Schwäche der Wissenschaft, dass sich ihre Erkenntnisse ändern?“*\n\n**Antwort:** **Nein.** Dass sich Erkenntnisse ändern, ist gerade die Stärke der Wissenschaft: Sie ist überprüfbar und korrigierbar. Alltagswissen dagegen hält sich hartnäckig, auch wenn es falsch ist (vgl. 2.1).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a06",
+      "art": "Aufgabe auf Folie",
+      "text": "**Aufgabe 6.1 – Das Kompetenzdreieck**\na) Beschriftet die drei Ecken des Kompetenzdreiecks nach Effinger und notiert, was jeweils dazugehört.\nb) Welche Ecke zeigt sich? W = Wissen · K = Können · H = Haltung\na) Eine Lehrkraft kann erklären, wie Kinder durch Lernen am Modell Verhalten übernehmen.\nb) Sie moderiert ein Konfliktgespräch zwischen zwei Kindern, die sich in der Pause gestritten haben.\nc) Sie begegnet einem Kind wertschätzend, obwohl es sie am Vortag beleidigt hat.\nd) Sie lässt die Klasse ihre Klassenregeln selbst mitbestimmen.\ne) Sie führt eine strukturierte Beobachtung durch, um das Verhalten eines Kindes genauer zu verstehen.\nMerksatz – vervollständigt: Professionalität entsteht erst, wenn …",
+      "quelle": "Kernblatt S. 5–6 · Aufgabe 6.1",
+      "loesung": "*Selbst erarbeitet (keine Lösung vom Tutor).*\n\n**Aufgabe 6.1 a:** *„Beschriftet die drei Ecken des Kompetenzdreiecks nach Effinger und notiert, was jeweils dazugehört.“*\n\n**Antwort (VL 20.10., Folie 14):** **Wissen** = Theorien und Handlungskonzepte · **Können** = Methoden und Verfahren · **Haltung** = Berufsethik, Werte, Partizipation, professionelle Distanz.\n\n**Aufgabe 6.1 b:** *„Welche Ecke zeigt sich?“*\n\n**Antwort:** a **W** (Theorie erklären) · b **K** (Methode Gesprächsführung) · c **H** (Wertschätzung) · d **H** (Partizipation; als Methode auch K vertretbar) · e **K** (Methode Beobachtung)\n\n**Merksatz:** *„Professionalität entsteht erst, wenn …“*\n\n**Antwort:** … **Wissen, Können und Haltung zusammenkommen** und verantwortlich eingesetzt werden.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a07",
+      "art": "Aufgabe auf Folie",
+      "text": "**Aufgabe 6.2 – Stufen zur professionellen Kompetenz.** Tragt die Stufen nach North (erweitert von Wildt, 2006) auf der Treppe ein und notiert hinter dem +, was jeweils dazukommen muss. (Können · Information · Professionalität · Wissen · Kompetenz · Einstellung)",
+      "quelle": "Kernblatt S. 6 · Aufgabe 6.2",
+      "loesung": "*Selbst erarbeitet (keine Lösung vom Tutor).*\n\n**Aufgabe 6.2:** *„Tragt die Stufen … auf der Treppe ein und notiert hinter dem +, was jeweils dazukommen muss.“*\n\n**Antwort (VL 20.10., Folie 15):**\n\nInformation **+ Vernetzung** → Wissen **+ Anwendung** → Können **+ Bewertung** → Einstellung **+ Angemessenheit** → Kompetenz **+ Verantwortung** → Professionalität",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a08",
+      "art": "Aufgabe auf Folie",
+      "text": "**Aufgabe 7.1 – Was heißt „Pädagogik“?**\na) Aus welchen zwei altgriechischen Wörtern setzt sich der Begriff zusammen, und was bedeutet er wörtlich?\nb) Seit wann wird „Pädagogik“ laut Stein als Begriff der modernen Erziehungswissenschaft verwendet?",
+      "quelle": "Kernblatt S. 6 · Aufgabe 7.1",
+      "loesung": "*Selbst erarbeitet (keine Lösung vom Tutor).*\n\n**Aufgabe 7.1 a:** *„Aus welchen zwei altgriechischen Wörtern setzt sich der Begriff zusammen, und was bedeutet er wörtlich?“*\n\n**Antwort:** „pais“ = Kind + „agein“ = führen → wörtlich **„Kinderführung“** (VL 20.10., Folie 20; Stein 2017, S. 11 f.).\n\n**Aufgabe 7.1 b:** *„Seit wann wird „Pädagogik“ laut Stein als Begriff der modernen Erziehungswissenschaft verwendet?“*\n\n**Antwort:** Seit den **1960er Jahren**. Seitdem spricht man eher von Erziehungswissenschaft, um alle Lebensalter und den Wissenschaftscharakter zu betonen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a09",
+      "art": "Aufgabe auf Folie",
+      "text": "**Aufgabe 7.2 – Das 5-Schritte-Modell.** Fall: Tom (8 Jahre) ruft im Unterricht ständig dazwischen und steht immer wieder auf. Zu Hause läuft fast den ganzen Tag der Fernseher, feste Zeiten für Essen oder Schlafen gibt es kaum.\nWendet die Definition von Stein an und füllt die fünf Schritte für Toms Fall aus. (Tipp: Orientiert euch an den Beispielen Felix und Leonie aus der Vorlesung.)",
+      "quelle": "Kernblatt S. 7 · Aufgabe 7.2",
+      "loesung": "*Selbst erarbeitet (keine Lösung vom Tutor).*\n\n**Aufgabe 7.2:** *„Wendet die Definition von Stein an und füllt die fünf Schritte für Toms Fall aus.“*\n\n**Antwort:**\n\n| Schritt | Toms Fall |\n| --- | --- |\n| 1 Beobachten | Tom ruft ständig dazwischen und steht immer wieder auf. |\n| 2 Interpretieren | mangelnde Impulskontrolle bzw. Aufmerksamkeitsproblem |\n| 3 Erklären | Zu Hause fehlen Struktur und feste Zeiten, dazu läuft dauernd der Fernseher – Tom hat kaum gelernt, sich selbst zu steuern. |\n| 4 Vorhersagen | Ohne Unterstützung wachsen Lernrückstände und Konflikte in der Klasse. |\n| 5 Handlungswissen | In der Klasse feste Rituale, klare Regeln, Bewegungspausen; mit den Eltern über feste Tagesabläufe und weniger Fernsehen sprechen. |",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a10",
+      "art": "Aufgabe auf Folie",
+      "text": "**Aufgabe 8.1 – Sozialisation, Erziehung, Bildung, Lernen.** Kreuzt an: S · E · B · L\na) Lukas konnte gestern das Einmaleins noch nicht, heute kann er es.\nb) Ein Vater übt mit seiner Tochter immer wieder, sich nach einem Streit zu entschuldigen.\nc) Eine Jugendliche übernimmt durch ihr Aufwachsen in Deutschland ganz selbstverständlich Pünktlichkeit als Wert.\nd) Eine Schülerin setzt sich im Politikunterricht mit dem Klimawandel auseinander und entwickelt eine eigene, begründete Haltung dazu.",
+      "quelle": "Kernblatt S. 7 · Aufgabe 8.1",
+      "loesung": "*Selbst erarbeitet (keine Lösung vom Tutor).*\n\n**Aufgabe 8.1:** *„Kreuzt an: S · E · B · L“*\n\n**Antwort:** a **L** (Verhaltensänderung) · b **E** (absichtsvolle, dauerhafte Beeinflussung durch eine andere Person) · c **S** (Hineinwachsen ohne Absicht) · d **B** (Auseinandersetzung, eigene begründete Haltung)",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a11",
+      "art": "Aufgabe auf Folie",
+      "text": "**Aufgabe 8.2 – Drei Ebenen**\na) Ergänzt, was die drei Ebenen nach Stein (2017) bedeuten und welche Grundbegriffe auf ihnen wirken.\nb) Warum taucht Bildung auf zwei Ebenen auf? Begründet mit der Definition von Bildung.",
+      "quelle": "Kernblatt S. 8 · Aufgabe 8.2",
+      "loesung": "*Selbst erarbeitet (keine Lösung vom Tutor).*\n\n**Aufgabe 8.2 a:** *„Ergänzt, was die drei Ebenen nach Stein (2017) bedeuten und welche Grundbegriffe auf ihnen wirken.“*\n\n**Antwort (VL 13.10., Folie 16):**\n\n| Ebene | Bedeutung | Grundbegriffe |\n| --- | --- | --- |\n| intrapersonell | innerhalb einer Person | Lernen, Bildung |\n| interpersonell | zwischen zwei oder mehr Personen | Erziehung, Bildung |\n| makrosozial | größere soziale Zusammenhänge | Sozialisation |\n\n**Aufgabe 8.2 b:** *„Warum taucht Bildung auf zwei Ebenen auf? Begründet mit der Definition von Bildung.“*\n\n**Antwort:** Bildung ist ein „Prozess, der das Hineinwachsen in eine Gemeinschaft in der Auseinandersetzung mit ihr beinhaltet“ – die Auseinandersetzung mit anderen ist interpersonell. Zugleich ist Bildung Selbstbildung, die in der Person stattfindet – also intrapersonell.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a12",
+      "art": "Aufgabe auf Folie",
+      "text": "**Aufgabe 10.1 – Der Baum der Pädagogik.** a) Wofür stehen die Teile des Baums nach Heiko Kleve? b) Tragt die Buchstaben ins passende Feld ein: a) Menschenbild · b) autoritativer Erziehungsstil · c) Beobachten, Erklären, Vorhersagen … · d) Sozialisation · e) Ethik · f) Lernen am Modell",
+      "quelle": "Kernblatt S. 9 · Aufgabe 10.1",
+      "loesung": "*Selbst erarbeitet (keine Lösung vom Tutor).*\n\n**Aufgabe 10.1:** *„Wofür stehen die Teile des Baums nach Heiko Kleve? Tragt die Buchstaben ins passende Feld ein.“*\n\n**Antwort (VL 20.10., Folie 16):**\n\n| Teil | steht für | Buchstaben |\n| --- | --- | --- |\n| Wurzel | Ethik + Menschenbild | a, e |\n| Stamm | Wissenschaftstheorie | c |\n| Hauptäste | die vier Grundbegriffe | d |\n| Blätter | einzelne Inhalte | b (Ast Erziehung), f (Ast Lernen) |",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a13",
+      "art": "Aufgabe auf Folie",
+      "text": "**Aufgabe 10.2 – Zurück zur Laienmeinung.** Behauptung: Eine Bekannte sagt: „Für Erziehung brauchst du kein Studium. Gesunder Menschenverstand reicht völlig.“\na) Sammelt drei Gegenargumente, jedes aus einem anderen Kapitel der Zusammenfassung.\nb) Formuliert gemeinsam in einem Satz: Warum braucht pädagogisches Handeln wissenschaftliche Fundierung?\nc) Vergleicht mit euren Notizen aus Aufgabe 0. Was ist neu dazugekommen?",
+      "quelle": "Kernblatt S. 10 · Aufgabe 10.2",
+      "loesung": "*Selbst erarbeitet (keine Lösung vom Tutor).*\n\n**Aufgabe 10.2 a:** *„Sammelt drei Gegenargumente, jedes aus einem anderen Kapitel der Zusammenfassung.“*\n\n**Antwort** (Kapitel nach dem Kernblatt; Abgleich mit der Tutor-Zusammenfassung folgt):\n1. **Kap. 1–3:** Alltagswissen ist widersprüchlich und nur an eigene Erfahrung gebunden.\n2. **Kap. 4–5:** Erst wissenschaftliches Wissen schafft den Abstand, das eigene Handeln zu prüfen (Herr M.).\n3. **Kap. 6–7:** Professionalität braucht Wissen, Können und Haltung – nicht nur Erfahrung.\n\n**Aufgabe 10.2 b:** *„Warum braucht pädagogisches Handeln wissenschaftliche Fundierung?“*\n\n**Antwort:** Pädagogisches Handeln braucht wissenschaftliche Fundierung, weil es nur so begründet, überprüfbar und verantwortbar wird und nicht von zufälligen Alltagserfahrungen abhängt.\n\n**Aufgabe 10.2 c:** *„Vergleicht mit euren Notizen aus Aufgabe 0. Was ist neu dazugekommen?“*\n\n**Antwort:** Neu sind die Fachbegriffe, mit denen sich das Nein begründen lässt: drei Wissensstufen, Distanz durch Wissenschaft, Kompetenzdreieck, 5-Schritte-Modell, vier Grundbegriffe auf drei Ebenen.",
+      "frist": "",
+      "im_kalender": false
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Welche Laienmeinung über pädagogisches Handeln zeigt der Fall „Elektriker vs. Familienhelferin“ – und was sagt er über das Ansehen pädagogischer Arbeit?",
+      "antwort": "Laienmeinung: Pädagogisches Handeln kann jede*r, dafür braucht man keine Ausbildung, der gesunde Menschenverstand reicht. Pädagogische Arbeit wird daher nicht als Expertentätigkeit anerkannt – anders als handwerkliche Facharbeit.",
+      "erklaerung": "Aufgabe 1.1 (Lösung des Tutors).",
+      "folie": "Kernblatt 1.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Nenne drei Quellen des Alltagswissens und erkläre, warum es sich hält und wann meist erst professioneller Rat gesucht wird.",
+      "antwort": "Quellen: Familie, Freund*innen, Medien (über Sozialisation). Es hält sich, solange man damit den Alltag bewältigt („aus mir ist trotzdem etwas geworden“). Professioneller Rat wird meist erst gesucht, wenn das Alltagswissen versagt.",
+      "erklaerung": "Aufgabe 2.1 (Tutor), nach Dörpinghaus & Uphoff 2011.",
+      "folie": "Kernblatt 2.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Aussagen der passenden Stufe des Wissens zu.",
+      "kategorien": [
+        "Alltagswissen",
+        "Erfahrungs-/Professionswissen",
+        "wissenschaftliches Wissen"
+      ],
+      "elemente": [
+        {
+          "text": "„Ein Klaps hat noch keinem geschadet – sagt meine Oma auch.“",
+          "kategorie": "Alltagswissen"
+        },
+        {
+          "text": "Längsschnittstudie mit 2.000 Kindern über zehn Jahre zu Erziehungsstilen und Schulleistung",
+          "kategorie": "wissenschaftliches Wissen"
+        },
+        {
+          "text": "Erzieherin begründet nach 15 Jahren die Wirkung fester Rituale mit Theorien aus dem Studium",
+          "kategorie": "Erfahrungs-/Professionswissen"
+        },
+        {
+          "text": "„Ich habe als Kind nur Druck bekommen, und aus mir ist trotzdem etwas geworden.“",
+          "kategorie": "Alltagswissen"
+        },
+        {
+          "text": "Kolleg*innen prüfen ihre Erfahrungen zu Elterngesprächen an Modellen der Gesprächsführung",
+          "kategorie": "Erfahrungs-/Professionswissen"
+        }
+      ],
+      "erklaerung": "Aufgabe 3.1 (Tutor). Merke: Professionswissen ist Erfahrung, die vor dem Hintergrund eines wissenschaftlichen Studiums geprüft wird.",
+      "folie": "Kernblatt 3.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Professionswissen ist [[Erfahrung]], die vor dem Hintergrund eines [[wissenschaftlichen]] Studiums geprüft wird.",
+      "erklaerung": "Merksatz des Tutors zu Aufgabe 3.1.",
+      "folie": "Kernblatt 3.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Herr M. verteilt seit 18 Jahren bei Unruhe sofort Strafarbeiten („Das hat immer funktioniert“); in der neuen 6b werden Kinder ängstlich, die Noten fallen. Erkläre am Fall das Zitat: „Erst das in Theorie erworbene wissenschaftliche Wissen schafft die Distanz, die eine reflektierte Sicht der Praxis möglich macht.“",
+      "musterloesung": "Herr M. entspricht dem Typ „nur Erfahrung“: Er sieht sein Handeln nur von innen und hält es für bewährt. Wissenschaftliches Wissen (z. B. Studien zu Disziplin und Motivation) verschafft ihm Abstand: Er kann sein Handeln von außen prüfen, erkennt die negativen Folgen der Strafarbeiten (Angst, schlechtere Noten) und kann begründet anders handeln. Die Referendarin steht für den Typ „mit Wissenschaft“.",
+      "bewertungspunkte": [
+        "Herr M. = nur Erfahrung, Referendarin = mit Wissenschaft",
+        "Wissenschaft schafft Abstand/Distanz zur eigenen Praxis",
+        "Folge: Handeln von außen prüfen und ändern"
+      ],
+      "punkte": 3,
+      "erklaerung": "Aufgabe 4.1 (Tutor: Abstand).",
+      "folie": "Kernblatt 4.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Wissenschaft als „Folie“ für Professionswissen treffen zu?",
+      "optionen": [
+        "Erfahrungswissen wird am wissenschaftlichen Wissen geprüft und bewertet.",
+        "Dass sich wissenschaftliche Erkenntnisse ändern, zeigt, dass Wissenschaft unzuverlässig ist.",
+        "Wissenschaft ist eine fortschreitende Annäherung an die Wahrheit.",
+        "Der Wandel von strenger Autorität zum autoritativen Erziehungsstil ist ein Beispiel für korrigiertes Wissen.",
+        "Was einmal wissenschaftlich belegt ist, gilt für immer."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Richtig: Wissenschaft ist Prüffolie, nähert sich der Wahrheit an und korrigiert sich (Beispiel Erziehungsstile). Falsch: Veränderlichkeit ist Stärke (Überprüfbarkeit), keine Schwäche; Erkenntnisse gelten nicht endgültig. Aufgabe 5.1 (selbst erarbeitet).",
+      "folie": "Kernblatt 5.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Ecke des Kompetenzdreiecks (Effinger) zeigt sich?",
+      "kategorien": [
+        "Wissen",
+        "Können",
+        "Haltung"
+      ],
+      "elemente": [
+        {
+          "text": "Die Lehrkraft kann erklären, wie Kinder durch Lernen am Modell Verhalten übernehmen.",
+          "kategorie": "Wissen"
+        },
+        {
+          "text": "Sie moderiert ein Konfliktgespräch zwischen zwei Kindern.",
+          "kategorie": "Können"
+        },
+        {
+          "text": "Sie begegnet einem Kind wertschätzend, obwohl es sie am Vortag beleidigt hat.",
+          "kategorie": "Haltung"
+        },
+        {
+          "text": "Sie lässt die Klasse ihre Klassenregeln mitbestimmen.",
+          "kategorie": "Haltung"
+        },
+        {
+          "text": "Sie führt eine strukturierte Beobachtung durch.",
+          "kategorie": "Können"
+        }
+      ],
+      "erklaerung": "Aufgabe 6.1 b (selbst erarbeitet). Mitbestimmung = Partizipation, auf Folie 14 der Haltung zugeordnet (als Methode wäre auch Können vertretbar).",
+      "folie": "Kernblatt 6.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "text": "Information + [[Vernetzung]] → Wissen + [[Anwendung]] → Können + [[Bewertung]] → Einstellung + [[Angemessenheit]] → Kompetenz + [[Verantwortung]] → Professionalität",
+      "erklaerung": "Aufgabe 6.2: Stufen nach North, erweitert von Wildt (VL 20.10., Folie 15).",
+      "folie": "Kernblatt 6.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "„Pädagogik“ setzt sich zusammen aus „pais“ = [[Kind]] und „agein“ = [[führen]], wörtlich also „Kinderführung“; laut Stein spricht man seit den [[1960er]] Jahren von Erziehungswissenschaft.",
+      "erklaerung": "Aufgabe 7.1 (VL 20.10., Folie 20; Stein 2017, S. 11 f.).",
+      "folie": "Kernblatt 7.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Tom (8) ruft im Unterricht ständig dazwischen und steht immer wieder auf. Zu Hause läuft fast den ganzen Tag der Fernseher, feste Zeiten für Essen oder Schlafen gibt es kaum. Wende die fünf Aufgaben der Pädagogik nach Stein auf Toms Fall an.",
+      "musterloesung": "1 Beobachten: Tom ruft dazwischen und steht auf. 2 Interpretieren: mangelnde Impulskontrolle/Aufmerksamkeitsproblem. 3 Erklären: fehlende Struktur und viel Fernsehen zu Hause, Selbststeuerung kaum gelernt. 4 Vorhersagen: ohne Unterstützung wachsende Lernrückstände und Konflikte. 5 Handlungswissen: Rituale, klare Regeln, Bewegungspausen; Elterngespräch über feste Tagesabläufe und weniger Fernsehen.",
+      "bewertungspunkte": [
+        "Beobachtung als reine Beschreibung",
+        "Interpretation auf höherer Abstraktionsebene",
+        "Erklärung mit Ursache (häusliche Situation)",
+        "Vorhersage künftiger Folgen",
+        "konkrete Handlungsempfehlung"
+      ],
+      "punkte": 5,
+      "erklaerung": "Aufgabe 7.2 (selbst erarbeitet), Vorbild Felix und Leonie (VL 20.10., Folien 28–29).",
+      "folie": "Kernblatt 7.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Situationen dem passenden Grundbegriff zu.",
+      "kategorien": [
+        "Sozialisation",
+        "Erziehung",
+        "Bildung",
+        "Lernen"
+      ],
+      "elemente": [
+        {
+          "text": "Lukas konnte gestern das Einmaleins noch nicht, heute kann er es.",
+          "kategorie": "Lernen"
+        },
+        {
+          "text": "Ein Vater übt mit seiner Tochter immer wieder, sich nach einem Streit zu entschuldigen.",
+          "kategorie": "Erziehung"
+        },
+        {
+          "text": "Eine Jugendliche übernimmt durch ihr Aufwachsen selbstverständlich Pünktlichkeit als Wert.",
+          "kategorie": "Sozialisation"
+        },
+        {
+          "text": "Eine Schülerin setzt sich mit dem Klimawandel auseinander und entwickelt eine eigene, begründete Haltung.",
+          "kategorie": "Bildung"
+        }
+      ],
+      "erklaerung": "Aufgabe 8.1 (selbst erarbeitet), Kurzdefinitionen Stein 2017, S. 18.",
+      "folie": "Kernblatt 8.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Grundbegriffe der Ebene zu, auf der sie (laut Folie 16) wirken. Bildung kommt zweimal vor.",
+      "kategorien": [
+        "intrapersonell",
+        "interpersonell",
+        "makrosozial"
+      ],
+      "elemente": [
+        {
+          "text": "Lernen",
+          "kategorie": "intrapersonell"
+        },
+        {
+          "text": "Bildung (Selbstbildung)",
+          "kategorie": "intrapersonell"
+        },
+        {
+          "text": "Erziehung",
+          "kategorie": "interpersonell"
+        },
+        {
+          "text": "Bildung (Auseinandersetzung mit anderen)",
+          "kategorie": "interpersonell"
+        },
+        {
+          "text": "Sozialisation",
+          "kategorie": "makrosozial"
+        }
+      ],
+      "erklaerung": "Aufgabe 8.2 a (VL 13.10., Folie 16).",
+      "folie": "Kernblatt 8.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum taucht Bildung auf zwei Ebenen auf?",
+      "antwort": "Bildung ist das Hineinwachsen in eine Gemeinschaft in der Auseinandersetzung mit ihr – das geschieht zwischen Personen (interpersonell). Zugleich ist Bildung Selbstbildung in der Person (intrapersonell).",
+      "erklaerung": "Aufgabe 8.2 b (selbst erarbeitet).",
+      "folie": "Kernblatt 8.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Inhalte dem Teil des Baums der Pädagogik (Kleve) zu.",
+      "kategorien": [
+        "Wurzel",
+        "Stamm",
+        "Hauptast",
+        "Blatt"
+      ],
+      "elemente": [
+        {
+          "text": "Menschenbild",
+          "kategorie": "Wurzel"
+        },
+        {
+          "text": "Ethik",
+          "kategorie": "Wurzel"
+        },
+        {
+          "text": "Beobachten, Erklären, Vorhersagen (Wissenschaftstheorie)",
+          "kategorie": "Stamm"
+        },
+        {
+          "text": "Sozialisation",
+          "kategorie": "Hauptast"
+        },
+        {
+          "text": "autoritativer Erziehungsstil",
+          "kategorie": "Blatt"
+        },
+        {
+          "text": "Lernen am Modell",
+          "kategorie": "Blatt"
+        }
+      ],
+      "erklaerung": "Aufgabe 10.1 (selbst erarbeitet), VL 20.10., Folie 16.",
+      "folie": "Kernblatt 10.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Eine Bekannte sagt: „Für Erziehung brauchst du kein Studium. Gesunder Menschenverstand reicht völlig.“ Widerlege die Aussage mit drei Argumenten aus verschiedenen Themenbereichen und fasse in einem Satz zusammen, warum pädagogisches Handeln wissenschaftliche Fundierung braucht.",
+      "musterloesung": "1. Alltagswissen ist widersprüchlich, ungeprüft und an eigene Erfahrung gebunden; es hält sich nur, solange der Alltag gelingt. 2. Erst wissenschaftliches Wissen schafft Distanz, um das eigene Handeln reflektiert zu prüfen. 3. Professionalität verlangt Wissen, Können und Haltung (Kompetenzdreieck), nicht nur Erfahrung. Fazit: Pädagogisches Handeln braucht wissenschaftliche Fundierung, weil es nur so begründet, überprüfbar und verantwortbar wird.",
+      "bewertungspunkte": [
+        "Grenzen des Alltagswissens",
+        "Distanz/Reflexion durch Wissenschaft",
+        "Kompetenzdreieck bzw. Professionalität",
+        "zusammenfassender Satz zur wissenschaftlichen Fundierung"
+      ],
+      "punkte": 4,
+      "erklaerung": "Aufgabe 10.2 (selbst erarbeitet).",
+      "folie": "Kernblatt 10.2",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Das Tutorium wiederholt die prüfungsrelevanten Inhalte der VL vom 13.10. und 20.10. (ewb001.1); die Fragen sind deshalb als prüfungsrelevant markiert."
+  ],
+  "offene_fragen": [
+    "Woher stammen die „zwei Lehrertypen“ (Aufgabe 4.1) – Folie oder Zusammenfassung des Tutors? In den VL-Folien vom 20.10. nicht gefunden.",
+    "Aufgabe 10.2 a verweist auf Kapitel der Tutor-Zusammenfassung; die Kapitelzuordnung ist bis zum Abgleich nach dem Kernblatt vergeben.",
+    "Zusammenfassung und Zusatzblatt des Tutors (per WhatsApp) fehlen noch – Nadine legt sie in den Tutorium-Ordner."
+  ],
+  "auffaelligkeiten": [
+    "Kernblatt-Kopf: „EWB001.1 Stein“ – das Tutorium gehört zur VL ewb001.1.",
+    "Aufgabe 6.1 b d) (Klassenregeln mitbestimmen) ist zwischen Haltung (Partizipation) und Können (Methode) nicht eindeutig."
+  ]
+}

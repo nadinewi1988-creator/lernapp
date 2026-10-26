@@ -1,11 +1,12 @@
 // Push-Erinnerungen der Lernapp (26.10.2026)
 // Aufruf durch Vercel-Cron (vercel.json): ?art=morgen (täglich) und ?art=woche (sonntags).
 // ?art=test schickt eine Testnachricht an die angemeldete Person (Authorization: Bearer <Zugangstoken>).
-// Braucht in Vercel: SUPABASE_SERVICE_ROLE_KEY und VAPID_PRIVATE_KEY (VITE_SUPABASE_URL ist schon da).
+// Braucht in Vercel: SUPABASE_SERVICE_ROLE_KEY, VAPID_PUBLIC_KEY und VAPID_PRIVATE_KEY (VITE_SUPABASE_URL ist schon da).
+// Schlüsselpaar erzeugt Nadine selbst unter /schluessel.html (bleibt auf ihrem Gerät).
+// ?art=schluessel liefert nur den öffentlichen Schlüssel (für das Abo in der App).
 import webpush from 'web-push';
 import { createClient } from '@supabase/supabase-js';
 
-const VAPID_PUBLIC = 'BElmoUWKDfve-caglxRKehuM_rHP2VhfJ1T2LjJhvujDisn_aeQ-Aq79HuZF73gon12JSnS7L2Ose8PcbIexCBY';
 const tag = (d = new Date()) => d.toLocaleDateString('sv-SE', { timeZone: 'Europe/Berlin' });
 const plus = (iso, n) => { const d = new Date(iso + 'T12:00:00Z'); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
 const dm = (iso) => iso.slice(8, 10) + '.' + iso.slice(5, 7) + '.';
@@ -49,9 +50,11 @@ async function nachrichtWoche(db, uid) {
 }
 
 export default async function handler(req, res) {
-  const url = process.env.VITE_SUPABASE_URL, service = process.env.SUPABASE_SERVICE_ROLE_KEY, priv = process.env.VAPID_PRIVATE_KEY;
-  if (!url || !service || !priv) return res.status(500).json({ ok: false, fehler: 'In Vercel fehlt noch ' + [!service && 'SUPABASE_SERVICE_ROLE_KEY', !priv && 'VAPID_PRIVATE_KEY', !url && 'VITE_SUPABASE_URL'].filter(Boolean).join(' und ') });
+  const url = process.env.VITE_SUPABASE_URL, service = process.env.SUPABASE_SERVICE_ROLE_KEY, priv = process.env.VAPID_PRIVATE_KEY, VAPID_PUBLIC = process.env.VAPID_PUBLIC_KEY;
   const art = String(req.query.art ?? '');
+  if (art === 'schluessel') return VAPID_PUBLIC ? res.status(200).json({ ok: true, publicKey: VAPID_PUBLIC }) : res.status(500).json({ ok: false, fehler: 'In Vercel fehlt noch VAPID_PUBLIC_KEY' });
+  const fehlt = [!service && 'SUPABASE_SERVICE_ROLE_KEY', !VAPID_PUBLIC && 'VAPID_PUBLIC_KEY', !priv && 'VAPID_PRIVATE_KEY', !url && 'VITE_SUPABASE_URL'].filter(Boolean);
+  if (fehlt.length) return res.status(500).json({ ok: false, fehler: 'In Vercel fehlt noch ' + fehlt.join(', ') });
   if (!['morgen', 'woche', 'test'].includes(art)) return res.status(400).json({ ok: false, fehler: 'art fehlt' });
   const db = createClient(url, service, { auth: { persistSession: false } });
 

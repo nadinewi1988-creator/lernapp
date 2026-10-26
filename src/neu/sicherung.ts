@@ -7,7 +7,6 @@ import { supabase } from '../supabase';
  *   (kartenbilder/<user_id>/sicherungen/lernapp-sicherung_<datum>.json).
  * - Push: Abo im Feld einstellungen.benachrichtigungen.push.abos; gesendet von /api/push (Vercel-Cron).
  */
-export const VAPID_PUBLIC = 'BElmoUWKDfve-caglxRKehuM_rHP2VhfJ1T2LjJhvujDisn_aeQ-Aq79HuZF73gon12JSnS7L2Ose8PcbIexCBY';
 
 const TABELLEN = ['studiengaenge', 'semester', 'module', 'teilmodule', 'veranstaltungen', 'sitzungen', 'eintraege', 'kalender_extra',
   'pruefungen', 'pruefungstermine', 'versuche', 'voraussetzungen', 'lernstand', 'karten', 'wiederholung', 'antworten', 'lernzeit', 'probepruefungen', 'einstellungen'];
@@ -89,7 +88,9 @@ export async function pushAktivieren() {
   const erl = await Notification.requestPermission();
   if (erl !== 'granted') throw new Error('Benachrichtigungen wurden nicht erlaubt.');
   const reg = await navigator.serviceWorker.ready;
-  const sub = (await reg.pushManager.getSubscription()) ?? (await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64(VAPID_PUBLIC) }));
+  const sk = await fetch('/api/push?art=schluessel', { cache: 'no-store' }).then((r) => r.json()).catch(() => ({})) as { publicKey?: string; fehler?: string };
+  if (!sk.publicKey) throw new Error(sk.fehler ?? 'Schlüssel nicht erreichbar');
+  const sub = (await reg.pushManager.getSubscription()) ?? (await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64(sk.publicKey) }));
   const j = sub.toJSON() as { endpoint: string; keys?: Record<string, string> };
   const p = await leseEinstellung<PushEinst>('push');
   const geraet = /iPhone/.test(navigator.userAgent) ? 'iPhone' : /iPad/.test(navigator.userAgent) ? 'iPad' : /Mac/.test(navigator.userAgent) ? 'Mac' : 'Gerät';

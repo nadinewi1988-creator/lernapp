@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Schlüssel für Erinnerungen</title>
+<style>
+  :root { --ink: #1f2328; --ink-2: #4b5059; --line: #e4e4dc; --paper: #f7f7f4; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-family: 'Nunito', system-ui, -apple-system, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 24px 16px 48px; display: flex; flex-direction: column; gap: 16px; }
+  h1 { font-size: 22px; margin: 0; }
+  p { margin: 0; color: var(--ink-2); line-height: 1.5; }
+  .karte { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 8px; }
+  .name { font-weight: 800; font-size: 15px; }
+  code { display: block; font-size: 13px; word-break: break-all; background: var(--paper); border-radius: 10px; padding: 10px; user-select: all; }
+  button { align-self: flex-start; min-height: 40px; padding: 0 16px; border: 1px solid var(--line); border-radius: 999px; background: #fff; font: inherit; font-weight: 800; cursor: pointer; }
+  .ok { color: #2f7a4b; font-weight: 800; font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Schlüssel für die Erinnerungen</h1>
+  <p>Diese Seite erzeugt ein Schlüsselpaar <b>nur hier in deinem Browser</b> – es wird nirgends gespeichert oder verschickt. Trage beide Werte in Vercel ein (Name links, Wert = der graue Kasten). Lädst du die Seite neu, entsteht ein neues Paar – dann einfach das neue Paar nehmen.</p>
+  <div class="karte"><span class="name">VAPID_PUBLIC_KEY</span><code id="pub">wird erzeugt …</code><button data-z="pub">Kopieren</button><span class="ok" id="ok-pub"></span></div>
+  <div class="karte"><span class="name">VAPID_PRIVATE_KEY</span><code id="priv">wird erzeugt …</code><button data-z="priv">Kopieren</button><span class="ok" id="ok-priv"></span></div>
+</main>
+<script>
+  const b64u = (buf) => btoa(String.fromCharCode(...new Uint8Array(buf))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  (async () => {
+    const k = await crypto.subtle.generateKey({ name: 'ECDSA', namedCurve: 'P-256' }, true, ['sign', 'verify']);
+    document.getElementById('pub').textContent = b64u(await crypto.subtle.exportKey('raw', k.publicKey));
+    document.getElementById('priv').textContent = (await crypto.subtle.exportKey('jwk', k.privateKey)).d;
+  })();
+  document.querySelectorAll('button[data-z]').forEach((b) => b.addEventListener('click', async () => {
+    const z = b.dataset.z, t = document.getElementById(z).textContent;
+    try { await navigator.clipboard.writeText(t); document.getElementById('ok-' + z).textContent = 'Kopiert ✓'; }
+    catch { document.getElementById('ok-' + z).textContent = 'Bitte den Text im Kasten markieren und kopieren.'; }
+  }));
+</script>
+</body>
+</html>

@@ -192,6 +192,111 @@
       "erklaerung": "Pädagogik denkt über ihre Praxis nach (Reflexion) und gibt der Praxis Handlungswissen (Anleitung).",
       "quelle": "ewb001.1_2026-10-20 · Folie 37; Stein 2017, S. 14",
       "abweichungen": []
+    },
+    {
+      "begriff": "Objekttheorie",
+      "wortlaut": "Prof. X erforscht Schule",
+      "erklaerung": "Eine Theorie über einen bestimmten Gegenstand, z. B. eine Theorie der Schule oder der frühkindlichen Bildung (Gudjons/Traub 2016, S. 30).",
+      "quelle": "ewb001.2_2026-10-20 · Folie 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Metatheorie",
+      "wortlaut": "Prof. Y fragt: Wie? Wozu? Auf welcher Basis? Mit welchem Wissenschaftsverständnis? (erforscht Prof. X Schule)",
+      "erklaerung": "Der Blick von außen auf das Forschen selbst – wie, wozu und auf welcher wissenschaftlichen Grundlage geforscht wird. Die großen Strömungen der EW sind Metatheorien.",
+      "quelle": "ewb001.2_2026-10-20 · Folie 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Hermeneutik",
+      "wortlaut": "Wissenschaftstheorie geisteswissenschaftlichen Verstehens",
+      "erklaerung": "Lehre vom Verstehen und Auslegen, z. B. von Texten und Dokumenten – die zentrale Methode der geisteswissenschaftlichen EW (nach Dilthey).",
+      "quelle": "ewb001.2_2026-10-20 · Folie 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Geisteswissenschaftliche Erziehungswissenschaft",
+      "wortlaut": "Vorrangigkeit der Praxis, Verstehen der pädagogischen Praxis (und deren Geschichte) durch einen hermeneutischen Zugang (Auslegen, Interpretation).",
+      "erklaerung": "Strömung mit Hochphasen 1925–1933 und 1945–1960 (Nohl, Flitner, Spranger …), Bezugspunkt Dilthey.",
+      "quelle": "ewb001.2_2026-10-20 · Folie Präsenz 10; 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Empirische Erziehungswissenschaft",
+      "wortlaut": "Erklärung von objektiv gegebener Erziehungs- und Bildungswirklichkeit (durch Erhebung empirischer Daten)",
+      "erklaerung": "Strömung mit Hochphasen 1900–1933 und ab 1965 (Lay, Meumann, Roth, Brezinka …), Ziel: Erklären und Prognose.",
+      "quelle": "ewb001.2_2026-10-20 · Folie Präsenz 10; 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kritische Erziehungswissenschaft",
+      "wortlaut": "Verbindung von empirischer Forschung, sozialphilosophischer Reflexion und gesellschaftskritischer Analyse; normative Orientierung an (individueller und gesellschaftlicher) Emanzipation; Verknüpfung von hermeneutischen und empirischen Verfahren, Ideologiekritik, Aktionsforschung",
+      "erklaerung": "Strömung mit Hochphase 1970–1980 (Klafki, Mollenhauer …), Bezug Frankfurter Schule.",
+      "quelle": "ewb001.2_2026-10-20 · Folie Präsenz 10; 12",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Primat der Praxis",
+      "wortlaut": "Primat (Vorrangigkeit) der Praxis vor der Theorie: pädagogische Theorie geht aus der pädagogischen Praxis hervor / Theorie als reflexive Instanz",
+      "erklaerung": "Grundannahme der geisteswissenschaftlichen EW: Erst kommt die Praxis, die Theorie reflektiert sie. Gegenstück: Gleichrangigkeit von Theorie und Praxis (kritische EW).",
+      "quelle": "ewb001.2_2026-10-20 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Pädagogischer Bezug",
+      "wortlaut": "Verhältnis der Erziehenden und der zu Erziehenden (Autorität und Vertrauen), Moment der Freiwilligkeit (Erziehung nicht ohne Vertrauensverhältnis)",
+      "erklaerung": "Inhaltliche Grundfrage der geisteswissenschaftlichen EW: Erziehung gelingt nur in einer Beziehung des Vertrauens.",
+      "quelle": "ewb001.2_2026-10-20 · Folie 7",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Positivismus",
+      "wortlaut": "Quelle der Erkenntnis ist die Erfahrung (des Gegebenen, Tatsächlichen), Abgrenzung von normativen Fragen (Wertfreiheit)",
+      "erklaerung": "Erkenntnisprogramm: Wissen entsteht aus Beobachtung des Tatsächlichen; Werturteile gehören nicht in die Wissenschaft.",
+      "quelle": "ewb001.2_2026-10-20 · Folie 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Neopositivismus (logischer Empirismus)",
+      "wortlaut": "Verifikation als Forschungsziel",
+      "erklaerung": "Hypothesen sollen durch Forschung als wahr erwiesen werden.",
+      "quelle": "ewb001.2_2026-10-20 · Folie 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kritischer Rationalismus",
+      "wortlaut": "Falsifikation als Forschungsziel",
+      "erklaerung": "Hypothesen sollen widerlegt werden; solange das nicht gelingt, gelten sie vorläufig.",
+      "quelle": "ewb001.2_2026-10-20 · Folie 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Emanzipationspostulat",
+      "wortlaut": "Mündigkeit des Subjekts als Zweck von Erziehung und Bildung; Aufklärung, Vernunft, Emanzipation und Selbstbestimmung als erkenntnisleitende Interessen der Erziehungswissenschaft",
+      "erklaerung": "Grundannahme der kritischen EW: Forschung und Erziehung sollen Menschen mündig und selbstbestimmt machen.",
+      "quelle": "ewb001.2_2026-10-20 · Folie 13",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Aktionsforschung",
+      "wortlaut": "Forschung in und mit der Praxis zum Zwecke der Reform des Bildungs- und Erziehungswesens",
+      "erklaerung": "Methode der kritischen EW, z. B. eine Lehrkraft gestaltet ihren Unterricht um und erforscht ihn zugleich; kritisiert als Vermischung von Forschung und Veränderungsinteresse.",
+      "quelle": "ewb001.2_2026-10-20 · Folie 13",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Ideologiekritik",
+      "wortlaut": "Methodisches Vorgehen: … Einbindung in gesellschaftskritische Reflexionen, Ideologiekritik, Aktionsforschung",
+      "erklaerung": "Aufdecken, welche Interessen und Weltbilder (z. B. ökonomische) in pädagogischen Aussagen und im Bildungssystem stecken (Video).",
+      "quelle": "ewb001.2_2026-10-20 · Folie 13",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Entwicklungspädagogik",
+      "wortlaut": "Soziogenetische Perspektive: „Aspekte der sozialen Konstitution von universalen Fähigkeiten und Fertigkeiten, die im Begriff einer Kompetenz gefaßt werden können und von denen angenommen wird, dass sie nicht angeboren sind, sondern im Prozeß der sozialisatorischen Interaktion erworben werden“ (Aufenanger 1992, S. 12)",
+      "erklaerung": "Weiterentwicklung der kritischen EW ab 1980: Kompetenzen werden in sozialer Interaktion erworben; ihre Ausbildung ist Aufgabe pädagogischen Handelns.",
+      "quelle": "ewb001.2_2026-10-20 · Folie 15",
+      "abweichungen": []
     }
   ]
 }

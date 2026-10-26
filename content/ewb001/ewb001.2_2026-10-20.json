@@ -1,0 +1,313 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb001",
+  "teilmodul": "ewb001.2",
+  "datum": "2026-10-20",
+  "sitzung_nr": 2,
+  "sitzung_id": "",
+  "thema": "Theoretische Strömungen der Erziehungswissenschaft I – Geisteswissenschaftliche EW, Empirische EW, Kritische EW",
+  "thema_in_app": "eingetragen",
+  "stand": "geprueft",
+  "hinweis": "Courseware-Einheit 02 (Folien + eingesprochenes Video aus einem früheren Semester) und die Präsenzsitzung am 20.10.2026 (neue Folien 2–13: Positionieren, Übersicht, Drei Perspektiven, Diskussion; die übrigen Präsenzfolien wiederholen Einheit 01 und 02).",
+  "quellen": [
+    { "datei": "ewb001.2/02_Präsentationen_Vorlesungen/02_ewb001.2_Theoretische_Strömungen_der_EW_I.pdf", "art": "Folien (Courseware-Einheit 02)", "seiten": "1–20" },
+    { "datei": "ewb001.2/05_Präsentationen_Präsenzsitzungen/02_ewb001.2_Theoretische_Strömungen_der_EW_I_Präsenzsitzung.pdf", "art": "Folien Präsenzsitzung 20.10.2026", "seiten": "1–41 (neu: 2–13)" },
+    { "datei": "ewb001.2/3._Videos der Vorlesung Kopie/Sitzung_02/02_ewb001.2_Transkript_Zusammenfassung.docx", "art": "Transkript des eingesprochenen Videos (47 Min.)", "seiten": "" },
+    { "datei": "ewb001.2/04_Literatur/02_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_2_Richtungen_der_Erziehungswissenschaft.pdf", "art": "Selbststudium zur Sitzung (Folie 18)", "seiten": "29–42" }
+  ],
+
+  "lernziele": [
+    { "text": "Du kannst Objekttheorie und Metatheorie unterscheiden und erklären, warum die großen Strömungen metatheoretische Strömungen sind.", "art": "abgeleitet", "quelle": "Folie 3", "fragen": ["f01", "f02"], "erklaerung_abschnitt": "Objekttheorie und Metatheorie" },
+    { "text": "Du kannst die theoretischen Strömungen der Erziehungswissenschaft zeitlich einordnen.", "art": "abgeleitet", "quelle": "Folie 4", "fragen": ["f03", "f04"], "erklaerung_abschnitt": "Überblick: Strömungen und Hochphasen" },
+    { "text": "Du kannst Bezugspunkte, wissenschaftstheoretische Grundannahmen, inhaltliche Grundfragen, Kritik und Leistungen der geisteswissenschaftlichen Erziehungswissenschaft darstellen.", "art": "abgeleitet", "quelle": "Folien 5–8", "fragen": ["f05", "f06", "f07", "f08", "f09"], "erklaerung_abschnitt": "Geisteswissenschaftliche Erziehungswissenschaft" },
+    { "text": "Du kannst Denkweise, Erkenntnisprogramme, Kritik und Leistungen der empirischen Erziehungswissenschaft darstellen.", "art": "abgeleitet", "quelle": "Folien 9–11", "fragen": ["f10", "f11", "f12", "f13"], "erklaerung_abschnitt": "Empirische Erziehungswissenschaft" },
+    { "text": "Du kannst Bezugshorizont, wissenschaftstheoretische Grundannahmen, Kritik und Leistungen der kritischen Erziehungswissenschaft darstellen.", "art": "abgeleitet", "quelle": "Folien 12–14, 17", "fragen": ["f14", "f15", "f16", "f17", "f18"], "erklaerung_abschnitt": "Kritische Erziehungswissenschaft" },
+    { "text": "Du kannst die Entwicklungspädagogik als Weiterentwicklung der kritischen Erziehungswissenschaft und ihren Kompetenzbegriff erläutern.", "art": "abgeleitet", "quelle": "Folien 15–16", "fragen": ["f19", "f20"], "erklaerung_abschnitt": "Entwicklungspädagogik (ab 1980)" },
+    { "text": "Du kannst die drei großen Strömungen vergleichen und eine pädagogische Situation aus ihrer jeweiligen Perspektive betrachten.", "art": "abgeleitet", "quelle": "Präsenzfolien 6, 10–13", "fragen": ["f16", "f21", "f22", "f23", "f24", "f25"], "erklaerung_abschnitt": "Die drei Strömungen im Vergleich · Präsenzsitzung: drei Perspektiven auf eine Situation" }
+  ],
+
+  "kurzfassung": [
+    "Objekttheorien erforschen einen Gegenstand (z. B. Schule), Metatheorien fragen, wie, wozu und mit welchem Wissenschaftsverständnis geforscht wird – die großen Strömungen sind metatheoretische Strömungen.",
+    "Hochphasen: geisteswissenschaftliche EW 1925–1933 und 1945–1960, empirische EW 1900–1933 und ab 1965, kritische EW 1970–1980, Theorienpluralismus ab 1975.",
+    "Die geisteswissenschaftliche EW (Bezug: Dilthey) will pädagogische Praxis hermeneutisch verstehen; ihre Grundannahmen sind Primat der Praxis, Geschichtlichkeit und Autonomie der Erziehung.",
+    "Die empirische EW will Erziehungswirklichkeit erklären und prognostizieren; ihre Erkenntnisprogramme sind Positivismus, Neopositivismus (Verifikation) und Kritischer Rationalismus (Falsifikation).",
+    "Die kritische EW (Bezug: Frankfurter Schule) verbindet empirische Forschung, Reflexion und Gesellschaftskritik, orientiert sich an Emanzipation und sieht Theorie und Praxis als gleichrangig.",
+    "Die Kritik an einer Strömung ist jeweils Ansatzpunkt der anderen: Die empirische EW kritisiert die Methoden, die kritische EW den fehlenden Gesellschaftsbezug der geisteswissenschaftlichen EW.",
+    "Die Entwicklungspädagogik (ab 1980) verankert den Kompetenzbegriff: Kompetenzen sind nicht angeboren, sondern werden in sozialisatorischer Interaktion erworben."
+  ],
+
+  "erklaerung": [
+    {
+      "titel": "Objekttheorie und Metatheorie",
+      "text": "**Folie 3 (Gudjons/Traub 2016, S. 30):**\n\n| | Objekttheorie | Metatheorie |\n| --- | --- | --- |\n| Bild auf der Folie | Prof. X **erforscht** Schule | Prof. Y **fragt**, wie Prof. X Schule erforscht |\n| Frage | Wie ist der Gegenstand (z. B. Schule, frühkindliche Bildung) beschaffen, wie funktioniert er? | „Wie? Wozu? Auf welcher Basis? Mit welchem Wissenschaftsverständnis?“ |\n| Perspektive | Blick auf den Gegenstand | Blick von außen auf das Forschen |\n\n> **Merksatz (Video):** Die drei großen Strömungen sind **metatheoretische** Strömungen – es geht im Wesentlichen nicht um einzelne Forschungsgegenstände, sondern darum, **wie** Erziehungswissenschaft betrieben wird, wozu und mit welchen Zielen. Auch die Hermeneutik und die Erkenntnisprogramme Positivismus, Neopositivismus und Kritischer Rationalismus sind Metatheorien.\n\nWarum das wichtig ist (Video): Wer Forschungsliteratur liest, soll erkennen, aus welcher Richtung argumentiert wird – gerade wenn sich Aussagen widersprechen, etwa darüber, was „die richtige“ Forschungsmethode ist.",
+      "folien": "3"
+    },
+    {
+      "titel": "Überblick: Strömungen und Hochphasen",
+      "text": "**Folie 4 (Krüger 2012, S. 11):**\n\n| Strömung | Hochphase |\n| --- | --- |\n| Geisteswissenschaftliche Erziehungswissenschaft | 1925–1933, 1945–1960 |\n| Empirische Erziehungswissenschaft | 1900–1933, ab 1965 |\n| Kritische Erziehungswissenschaft | 1970–1980 |\n| Theorienpluralismus | ab 1975 – u. a. Praxeologische, Transzendentalphilosophische, Historisch-materialistische, Psychoanalytische Pädagogik, Systemtheoretische EW, Strukturalistische, Ökologische, Feministische, Postmoderne Ansätze, Reflexive EW |\n\n**Video:** Die Jahreszahlen sind die **Hochphasen**, nicht das Ende – alle Strömungen wirken bis heute nach. Die empirische EW ist die älteste; geisteswissenschaftliche und empirische EW wurden durch die NS-Zeit unterbrochen. Die **Namen der Vertreter:innen sollen nicht auswendig gelernt werden** – wichtig ist, dass jede Strömung von Personen geprägt wurde, denen man im Studium wieder begegnet.",
+      "folien": "4"
+    },
+    {
+      "titel": "Geisteswissenschaftliche Erziehungswissenschaft",
+      "text": "**Entstehung (Folie 5):** Vertreter*innen v. a. Nohl, Flitner, Spranger, Litt, Weniger, Blochmann.\n- Nach dem Ersten Weltkrieg: Impulse für die Neubegründung pädagogischen Denkens\n- Bewältigung der Krise durch „Volkserziehung […] durch die Entwicklung eines neuen Volks-, Kultur- und Lebensideals, das die Scheidung zwischen Gebildeten und Ungebildeten überwinden sollte“ (Krüger 2012, S. 21)\n- Hohe Affinität zur Reformpädagogik\n- Beteiligung am Aufbau eines demokratischen Bildungswesens in Westdeutschland nach dem Zweiten Weltkrieg\n- **Wilhelm Diltheys** (1833–1911) Theorie der Geisteswissenschaften als Bezugspunkt: Abgrenzung von den Naturwissenschaften, **Verstehen** als zentrale Methode\n- **Hermeneutik:** Wissenschaftstheorie geisteswissenschaftlichen Verstehens\n\n**Wissenschaftstheoretische Grundannahmen (Folie 6):**\n1. **Primat (Vorrangigkeit) der Praxis vor der Theorie:** pädagogische Theorie geht aus der pädagogischen Praxis hervor / Theorie als reflexive Instanz\n2. **Geschichtlichkeit der Pädagogik:** systematische Analyse und Verstehen / Auslegung (Hermeneutik) der Geschichte\n3. **Eigenständigkeit / Autonomie der Erziehung** in Theorie und Praxis: Eigenrecht und Eigenwert der Jugendphase, Erzieher*innen als Anwält*innen der Zukunft der Kinder, selbstständige pädagogische Wissenschaft (in Abgrenzung von Theologie, Philosophie, Psychologie)\n\nVideo: Der Primat der Praxis ist nicht selbstverständlich – heute denkt man eher umgekehrt. Zum Eigenwert der Jugend: Kinder galten vorher oft als „halbe Erwachsene“.\n\n**Inhaltliche Grundfragen (Folie 7):**\n- **Bildungsbegriff:** Bildung als Entwicklung aller Aspekte der menschlichen Existenzweise; nicht nur Übernahme des Vorgegebenen, sondern auch produktive Aneignung und Weiterentwicklung der Welt; individuelle Bildung und „Volksbildung“ (Video: Humboldts Bildungsbegriff gehört hierher)\n- **Pädagogischer Bezug:** Verhältnis der Erziehenden und der zu Erziehenden (Autorität und Vertrauen), Moment der Freiwilligkeit (Erziehung nicht ohne Vertrauensverhältnis)\n\n**Kritik und Leistungen (Folie 8):**\n\n| Kritik | Leistungen |\n| --- | --- |\n| keine Berücksichtigung von Ansätzen, Verfahren und Ergebnissen der empirischen Erziehungsforschung | Begründung eines eigenständigen Konzepts der Pädagogik |\n| keine Ausarbeitung einer Theorie der Gesellschaft | Etablierung der Pädagogik als autonome wissenschaftliche Disziplin an Hochschulen |\n| Ausblenden von sozialen Fakten und Herrschaftsverhältnissen | Begründungen für die Ausfächerung der Erziehungswissenschaft |\n| | einige Theorieelemente (z. B. Lebensweltorientierung, hermeneutische Methode) weiterhin aktuell |\n\n> **Video:** Die Kritikpunkte sind zugleich die Ansatzpunkte der beiden anderen Strömungen – die **empirische** EW kritisiert die Methoden, die **kritische** EW den fehlenden Gesellschaftsbezug.",
+      "folien": "5–8"
+    },
+    {
+      "titel": "Empirische Erziehungswissenschaft",
+      "text": "**Folie 9:** Vertreter*innen v. a. Lay, Meumann, Fischer, Lochner, Petersen, Winnefeld, Roth, Brezinka, Heid, Fend, Baumert.\n- Empirische Denkweise als zentraler Bestandteil der Erziehungswissenschaft: **Erklären und Prognose** (Video-Beispiel: PISA erklärt statistisch, warum bestimmte Gruppen geringere Leistungen zeigen)\n\n**Erkenntnisprogramme der empirischen Wissenschaft** (Video: Metatheorien der empirischen Wissenschaft insgesamt, nicht nur der Pädagogik):\n\n| Programm | Kern |\n| --- | --- |\n| **Positivismus** | Quelle der Erkenntnis ist die Erfahrung (des Gegebenen, Tatsächlichen), Abgrenzung von normativen Fragen (**Wertfreiheit**) |\n| **Neopositivismus** (logischer Empirismus) | **Verifikation** als Forschungsziel – eine Hypothese soll als wahr erwiesen werden |\n| **Kritischer Rationalismus** | **Falsifikation** als Forschungsziel – eine Hypothese gilt vorläufig, solange sie nicht widerlegt ist |\n\nVideo: Mit der Wertfreiheit grenzt sich die empirische EW deutlich von der geisteswissenschaftlichen EW ab, die normative Ideen vertrat (Eigenrecht der Kinder, Volksbildung).\n\n**Konzeptionen (Folie 10)** – im Video nur als Beleg für die Vielfalt genannt: Experimentelle Pädagogik (Lay, Meumann) · Pädagogische Tatsachenforschung (Petersen) · Deskriptive Pädagogik (Fischer, Lochner) · Erziehungswissenschaft als Integrationswissenschaft (Roth) · Kritisch-rationale Erziehungswissenschaft (Rössner, von Cube, Brezinka).\n\n**Kritik und Leistungen (Folie 11)** – Kritik an der *ursprünglichen* kritisch-rationalen EW von Brezinka u. a., nicht an der heutigen empirischen Forschung:\n\n| Kritik | Leistungen |\n| --- | --- |\n| fehlende Theorieorientierung | Differenzierung unterschiedlicher Wissensformen (philosophische Grundlagenreflexion, Forschungswissen, praxisbezogenes Wissen) |\n| fehlender Gesellschaftsbezug | Fortschritte im Bereich der erziehungswissenschaftlichen empirischen Forschung |\n| Gleichgültigkeit gegenüber dem Verwertungszusammenhang empirischer Ergebnisse (wozu werden die Daten genutzt oder missbraucht?) | |\n| Vernachlässigung hermeneutischer Methoden | |",
+      "folien": "9–11"
+    },
+    {
+      "titel": "Kritische Erziehungswissenschaft",
+      "text": "**Folie 12:** Vertreter*innen v. a. Lempert, **Klafki**, Blankertz, Mollenhauer.\n- Beeinflusst durch die **Studentenbewegung** und die sozialphilosophischen Arbeiten der **Frankfurter Schule (Kritische Theorie)** (Video: u. a. Adorno; Wissenschaft soll nicht nur beschreiben, sondern gesellschaftliche Ziele voranbringen)\n- Kritische Theorie als Bezugshorizont: **Vernunft und Emanzipation** als gesellschaftliche Ziele, Verbindung von empirischer Forschung, sozialphilosophischer Reflexion und gesellschaftskritischer Analyse\n- Anpassung des Erziehungsdenkens an die veränderte gesellschaftliche Wirklichkeit und den fortgeschrittenen Reflexionsprozess der Sozialwissenschaften\n- Gesellschaftskritische Analyse der sozialen Entstehungs- und Verwertungszusammenhänge von empirischen Untersuchungen\n- Reflexion der ökonomischen und politischen Bedingungen von pädagogischen Aussagen\n- Normative Orientierung an (individueller und gesellschaftlicher) Emanzipation\n\n**Wissenschaftstheoretische Grundannahmen (Folie 13):**\n1. **Emanzipationspostulat:** Mündigkeit des Subjekts als Zweck von Erziehung und Bildung; Aufklärung, Vernunft, Emanzipation und Selbstbestimmung als erkenntnisleitende Interessen der Erziehungswissenschaft\n2. **Gegenstand:** pädagogisches Handeln als historisch vermittelte gesellschaftliche Praxis, Interdependenzen zwischen dem Erziehungssystem und der Struktur der Gesellschaft, gesellschaftliche Reproduktion und Innovation durch Erziehung\n3. **Methodisches Vorgehen:** Verknüpfung von hermeneutischen und empirischen Verfahren und Einbindung in gesellschaftskritische Reflexionen, **Ideologiekritik**, **Aktionsforschung** (Forschung in und mit der Praxis zum Zwecke der Reform des Bildungs- und Erziehungswesens)\n4. **Gleichrangigkeit von Theorie und Praxis**\n\n> **Video:** Gleichrangigkeit von Theorie und Praxis ist der ausdrückliche Unterschied zum **Primat der Praxis** der geisteswissenschaftlichen EW.\n\n**Inhaltliche Grundfragen (Folie 14):** Bildungsbegriff/-theorie: **Klafkis Konzept der Allgemeinbildung** (kommt in der Sitzung „Bildung“); Erziehung als Kommunikation, Interaktion und soziale Reproduktion.\n\n**Kritik und Leistungen (Folie 17):**\n\n| Kritik | Leistungen |\n| --- | --- |\n| übertriebene Hoffnungen, über Bildung und Erziehung die Gesellschaft grundsätzlich verändern zu können | konstruktive Vorschläge für eine Verknüpfung von empirischer Forschung mit gesellschaftskritischer Reflexion (Video: PISA fragt heute nach Herkunft, Diskriminierung, Migrationsgeschichte) |\n| Aktionsforschung: Vermischung von empirischer Forschung und Interesse an Praxisveränderung | Impulse für die Wiederbelebung der qualitativen Forschung in der Erziehungswissenschaft |",
+      "folien": "12–14, 17"
+    },
+    {
+      "titel": "Entwicklungspädagogik (ab 1980)",
+      "text": "Weiterentwicklung der kritischen EW (Folien 15–16, Krüger 2012, S. 75 ff.). Video: besonders wichtig, weil hier der **Kompetenzbegriff** erziehungswissenschaftlich verankert wird – ewb001.2 heißt „Kompetenzorientiertes Lehren und Lernen“.\n\n- Vertreter*innen: Aufenanger, Peukert, Oser, Garz\n- Autonomie des zu erziehenden Subjekts als Ziel von Erziehung (Klafki)\n- **Soziogenetische Perspektive:** „Aspekte der sozialen Konstitution von universalen Fähigkeiten und Fertigkeiten, die im Begriff einer Kompetenz gefaßt werden können und von denen angenommen wird, dass sie nicht angeboren sind, sondern im Prozeß der sozialisatorischen Interaktion erworben werden“ (Aufenanger 1992, S. 12)\n- Beschreibung des „vollentwickelten Subjekts“ in Anlehnung an Kompetenztheorien von Habermas, Oevermann, Piaget und Kohlberg\n- Diskussion der sozialen Entwicklungsbedingungen für die Ausbildung der kognitiven und sozialen Fähigkeiten\n- Ausbildung von Kompetenzen (u. a. Befähigung zur Kommunikation und Kooperation) als Aufgabe des pädagogischen Handelns\n\n**Zwei Richtungen (Folie 16):**\n\n| | Evolutionstheoretisch orientierte EW (Lenhart, Treml) | Handlungstheoretisch orientierte EW (Lersch, Krüger) |\n| --- | --- | --- |\n| Leitfrage | Wie verändert sich Erziehung/Bildung mit der gesellschaftlichen Evolution und wie beeinflusst Erziehung/Bildung die gesellschaftliche Evolution? | Zielperspektive: optimale Förderung der kognitiven, sprachlichen und sozialen Handlungskompetenzen |\n| Weiter | Zusammenhang gesellschaftlicher Entwicklung und der Organisation von Erziehung und Bildung; produktive und kreative Funktion von Erziehung/Bildung in modernen Gesellschaften | Berücksichtigung von organisatorischen bzw. institutionellen und gesamtgesellschaftlichen Rahmenbedingungen |\n\nVideo: Lernende entwickeln Kompetenzen, werden dadurch emanzipiert und befähigt („empowered“) und können zur gesellschaftlichen Weiterentwicklung beitragen – dieselbe Denkfigur kommt später bei BNE.",
+      "folien": "15–16"
+    },
+    {
+      "titel": "Die drei Strömungen im Vergleich",
+      "text": "**Übersicht (Präsenzfolie 10):**\n- **Geisteswissenschaftliche EW:** Vorrangigkeit der Praxis, Verstehen der pädagogischen Praxis (und deren Geschichte) durch einen hermeneutischen Zugang (Auslegen, Interpretation).\n- **Empirische EW:** Erklärung von objektiv gegebener Erziehungs- und Bildungswirklichkeit (durch Erhebung empirischer Daten)\n- **Kritische EW:** Verbindung von empirischer Forschung, sozialphilosophischer Reflexion und gesellschaftskritischer Analyse; normative Orientierung an (individueller und gesellschaftlicher) Emanzipation; Verknüpfung von hermeneutischen und empirischen Verfahren, Ideologiekritik, Aktionsforschung\n\n**Zum Vergleich (aus den Folien 5–17 zusammengestellt):**\n\n| | Geisteswissenschaftliche EW | Empirische EW | Kritische EW |\n| --- | --- | --- | --- |\n| Ziel | Verstehen | Erklären, Prognose | Emanzipation, Gesellschaftskritik |\n| Methode | Hermeneutik | empirische Daten (Positivismus, Kritischer Rationalismus) | hermeneutisch + empirisch, Ideologiekritik, Aktionsforschung |\n| Theorie und Praxis | Primat der Praxis | – | Gleichrangigkeit |\n| Normativ? | ja (Volksbildung, Eigenrecht der Jugend) | nein – Wertfreiheit | ja (Emanzipation) |\n| Hauptkritik | keine Empirie, keine Gesellschaftstheorie | fehlender Theorie- und Gesellschaftsbezug | übertriebene Hoffnungen, Vermischung in der Aktionsforschung |",
+      "folien": "Präsenz 10; 5–17"
+    },
+    {
+      "titel": "Präsenzsitzung: Positionieren und drei Perspektiven auf eine Situation",
+      "text": "**Positionieren (Präsenzfolie 6)** – Ziel: Reflexion des eigenen Verständnisses von Wissenschaft. Jede Aussage passt zu einer Strömung (selbst zugeordnet):\n\n| Aussage | passt zu |\n| --- | --- |\n| „Erziehung kann man objektiv messen.“ | empirischer EW |\n| „Das Ziel von Wissenschaft ist, die Welt zu verändern.“ | kritischer EW |\n| „Erziehung ist nur durch Verstehen der individuellen Sinnzusammenhänge zu begreifen.“ | geisteswissenschaftlicher EW |\n\n**Drei Perspektiven auf eine Situation (Präsenzfolien 11–12)** – Ziel: unterschiedliche Erkenntnisinteressen der drei Strömungen verstehen. Musterlösungen in den Aufgaben a03 und a04 und als Lernfragen f23/f24.\n\n**Diskussion (Präsenzfolie 13):** Vor- und Nachteile jeder Strömung, eigene Überzeugung, Nutzen für die Praxis – Beispiellösung in Aufgabe a05.",
+      "folien": "Präsenz 6, 9–13"
+    },
+    {
+      "titel": "Selbststudium und Literatur",
+      "text": "- **Selbststudium (Folie 18):** Gudjons, H. & Traub, S. (2016): Pädagogisches Grundwissen. Kapitel 2: Richtungen der Erziehungswissenschaft. Bad Heilbrunn: Klinkhardt, **S. 29–42** – liegt in `ewb001.2/04_Literatur`.\n- Krüger, Heinz-Hermann (2012): Einführung in Theorien und Methoden der Erziehungswissenschaft. Opladen, Toronto: Barbara Budrich – auf fast allen Folien zitiert, nicht in deinen Ordnern.\n\nFür die nächste Sitzung (27.10.): Courseware-Einheit 03 „Theoretische Strömungen II“ und Gudjons/Traub, S. 42–52 – Hausaufgabe h01.",
+      "folien": "18, 20"
+    }
+  ],
+
+  "definitionen": [
+    { "begriff": "Objekttheorie", "wortlaut": "Prof. X erforscht Schule", "erklaerung": "Eine Theorie über einen bestimmten Gegenstand, z. B. eine Theorie der Schule oder der frühkindlichen Bildung (Gudjons/Traub 2016, S. 30).", "folie": "3" },
+    { "begriff": "Metatheorie", "wortlaut": "Prof. Y fragt: Wie? Wozu? Auf welcher Basis? Mit welchem Wissenschaftsverständnis? (erforscht Prof. X Schule)", "erklaerung": "Der Blick von außen auf das Forschen selbst – wie, wozu und auf welcher wissenschaftlichen Grundlage geforscht wird. Die großen Strömungen der EW sind Metatheorien.", "folie": "3" },
+    { "begriff": "Hermeneutik", "wortlaut": "Wissenschaftstheorie geisteswissenschaftlichen Verstehens", "erklaerung": "Lehre vom Verstehen und Auslegen, z. B. von Texten und Dokumenten – die zentrale Methode der geisteswissenschaftlichen EW (nach Dilthey).", "folie": "5" },
+    { "begriff": "Geisteswissenschaftliche Erziehungswissenschaft", "wortlaut": "Vorrangigkeit der Praxis, Verstehen der pädagogischen Praxis (und deren Geschichte) durch einen hermeneutischen Zugang (Auslegen, Interpretation).", "erklaerung": "Strömung mit Hochphasen 1925–1933 und 1945–1960 (Nohl, Flitner, Spranger …), Bezugspunkt Dilthey.", "folie": "Präsenz 10; 5" },
+    { "begriff": "Empirische Erziehungswissenschaft", "wortlaut": "Erklärung von objektiv gegebener Erziehungs- und Bildungswirklichkeit (durch Erhebung empirischer Daten)", "erklaerung": "Strömung mit Hochphasen 1900–1933 und ab 1965 (Lay, Meumann, Roth, Brezinka …), Ziel: Erklären und Prognose.", "folie": "Präsenz 10; 9" },
+    { "begriff": "Kritische Erziehungswissenschaft", "wortlaut": "Verbindung von empirischer Forschung, sozialphilosophischer Reflexion und gesellschaftskritischer Analyse; normative Orientierung an (individueller und gesellschaftlicher) Emanzipation; Verknüpfung von hermeneutischen und empirischen Verfahren, Ideologiekritik, Aktionsforschung", "erklaerung": "Strömung mit Hochphase 1970–1980 (Klafki, Mollenhauer …), Bezug Frankfurter Schule.", "folie": "Präsenz 10; 12" },
+    { "begriff": "Primat der Praxis", "wortlaut": "Primat (Vorrangigkeit) der Praxis vor der Theorie: pädagogische Theorie geht aus der pädagogischen Praxis hervor / Theorie als reflexive Instanz", "erklaerung": "Grundannahme der geisteswissenschaftlichen EW: Erst kommt die Praxis, die Theorie reflektiert sie. Gegenstück: Gleichrangigkeit von Theorie und Praxis (kritische EW).", "folie": "6" },
+    { "begriff": "Pädagogischer Bezug", "wortlaut": "Verhältnis der Erziehenden und der zu Erziehenden (Autorität und Vertrauen), Moment der Freiwilligkeit (Erziehung nicht ohne Vertrauensverhältnis)", "erklaerung": "Inhaltliche Grundfrage der geisteswissenschaftlichen EW: Erziehung gelingt nur in einer Beziehung des Vertrauens.", "folie": "7" },
+    { "begriff": "Positivismus", "wortlaut": "Quelle der Erkenntnis ist die Erfahrung (des Gegebenen, Tatsächlichen), Abgrenzung von normativen Fragen (Wertfreiheit)", "erklaerung": "Erkenntnisprogramm: Wissen entsteht aus Beobachtung des Tatsächlichen; Werturteile gehören nicht in die Wissenschaft.", "folie": "9" },
+    { "begriff": "Neopositivismus (logischer Empirismus)", "wortlaut": "Verifikation als Forschungsziel", "erklaerung": "Hypothesen sollen durch Forschung als wahr erwiesen werden.", "folie": "9" },
+    { "begriff": "Kritischer Rationalismus", "wortlaut": "Falsifikation als Forschungsziel", "erklaerung": "Hypothesen sollen widerlegt werden; solange das nicht gelingt, gelten sie vorläufig.", "folie": "9" },
+    { "begriff": "Emanzipationspostulat", "wortlaut": "Mündigkeit des Subjekts als Zweck von Erziehung und Bildung; Aufklärung, Vernunft, Emanzipation und Selbstbestimmung als erkenntnisleitende Interessen der Erziehungswissenschaft", "erklaerung": "Grundannahme der kritischen EW: Forschung und Erziehung sollen Menschen mündig und selbstbestimmt machen.", "folie": "13" },
+    { "begriff": "Aktionsforschung", "wortlaut": "Forschung in und mit der Praxis zum Zwecke der Reform des Bildungs- und Erziehungswesens", "erklaerung": "Methode der kritischen EW, z. B. eine Lehrkraft gestaltet ihren Unterricht um und erforscht ihn zugleich; kritisiert als Vermischung von Forschung und Veränderungsinteresse.", "folie": "13" },
+    { "begriff": "Ideologiekritik", "wortlaut": "Methodisches Vorgehen: … Einbindung in gesellschaftskritische Reflexionen, Ideologiekritik, Aktionsforschung", "erklaerung": "Aufdecken, welche Interessen und Weltbilder (z. B. ökonomische) in pädagogischen Aussagen und im Bildungssystem stecken (Video).", "folie": "13" },
+    { "begriff": "Entwicklungspädagogik", "wortlaut": "Soziogenetische Perspektive: „Aspekte der sozialen Konstitution von universalen Fähigkeiten und Fertigkeiten, die im Begriff einer Kompetenz gefaßt werden können und von denen angenommen wird, dass sie nicht angeboren sind, sondern im Prozeß der sozialisatorischen Interaktion erworben werden“ (Aufenanger 1992, S. 12)", "erklaerung": "Weiterentwicklung der kritischen EW ab 1980: Kompetenzen werden in sozialer Interaktion erworben; ihre Ausbildung ist Aufgabe pädagogischen Handelns.", "folie": "15" }
+  ],
+
+  "aufgaben": [
+    {
+      "id": "a01", "art": "Aufgabe auf Folie",
+      "text": "Positionieren – Ziel: Reflexion des eigenen Verständnisses von Wissenschaft. Aussagen: „Erziehung kann man objektiv messen.“ „Das Ziel von Wissenschaft ist, die Welt zu verändern.“ „Erziehung ist nur durch Verstehen der individuellen Sinnzusammenhänge zu begreifen.“",
+      "quelle": "Präsenzfolie 6",
+      "loesung": "*Selbst erarbeitet.* Jede Aussage passt zu einer Strömung:\n- „Erziehung kann man objektiv messen.“ → **empirische EW** (objektiv gegebene Wirklichkeit, Erklären durch Daten, Wertfreiheit)\n- „Das Ziel von Wissenschaft ist, die Welt zu verändern.“ → **kritische EW** (Emanzipation, Gesellschaftskritik, Aktionsforschung zur Reform)\n- „Erziehung ist nur durch Verstehen der individuellen Sinnzusammenhänge zu begreifen.“ → **geisteswissenschaftliche EW** (Verstehen, Hermeneutik)\n\nDeine eigene Position: Überlege, welcher Aussage du am ehesten zustimmst – und was du an den anderen beiden trotzdem richtig findest.",
+      "loesungsweg": "Schlüsselwörter suchen: messen/objektiv → empirisch; verändern → kritisch; verstehen/Sinn → geisteswissenschaftlich.",
+      "frist": "", "im_kalender": false
+    },
+    {
+      "id": "a02", "art": "Aufgabe auf Folie",
+      "text": "Austausch zu den drei großen Strömungen: Geisteswissenschaftliche EW, Empirische EW, Kritische EW. Tauschen Sie sich bitte zu einer Strömung aus und halten Sie fest: zentrale Merkmale, Methoden, Ziele",
+      "quelle": "Präsenzfolie 9",
+      "loesung": "*Lösung aus den Folien zusammengestellt.*\n\n| | zentrale Merkmale | Methoden | Ziele |\n| --- | --- | --- | --- |\n| Geisteswissenschaftliche EW | Primat der Praxis, Geschichtlichkeit, Autonomie der Erziehung; pädagogischer Bezug; Bezug Dilthey | Hermeneutik (Verstehen, Auslegen von Texten und Geschichte) | Verstehen der pädagogischen Praxis; Volksbildung; Eigenrecht der Jugend |\n| Empirische EW | Wertfreiheit; Positivismus, Neopositivismus, Kritischer Rationalismus | Erhebung empirischer Daten (Experiment, Befragung, Beobachtung, Statistik) | Erklären und Prognose der Erziehungswirklichkeit |\n| Kritische EW | Bezug Frankfurter Schule; Emanzipationspostulat; Gleichrangigkeit von Theorie und Praxis | hermeneutisch + empirisch, Ideologiekritik, Aktionsforschung | individuelle und gesellschaftliche Emanzipation, Mündigkeit; Reform des Bildungswesens |",
+      "loesungsweg": "Für jede Strömung die Folien zu Grundannahmen (6, 9, 13) und die Übersicht (Präsenzfolie 10) nutzen.",
+      "frist": "", "im_kalender": false
+    },
+    {
+      "id": "a03", "art": "Aufgabe auf Folie",
+      "text": "Drei Perspektiven auf eine Situation – Ziel: Unterschiedliche Erkenntnisinteressen der drei Strömungen verstehen. Situation: „Eine Lehrerin schimpft mit einem Schüler, weil er die Hausaufgaben vergessen hat.“ Frage: „Wie würden eine geisteswissenschaftliche, eine empirische und eine kritische Erziehungswissenschaft diese Situation jeweils betrachten?“",
+      "quelle": "Präsenzfolie 11",
+      "loesung": "*Selbst erarbeitete Musterlösung – auf den Folien steht keine Lösung.*\n\n**Aufgabe:** *„Wie würden eine geisteswissenschaftliche, eine empirische und eine kritische Erziehungswissenschaft diese Situation jeweils betrachten?“*\n\n**Antwort:**\n- **Geisteswissenschaftliche EW – verstehen:** Was bedeutet die Situation für die Beteiligten? Wie erlebt der Schüler das Schimpfen, welchen Sinn hat es für die Lehrerin? Was macht es mit dem **pädagogischen Bezug** – stärkt oder beschädigt es das Vertrauen zwischen Lehrerin und Schüler? Man würde die Situation hermeneutisch auslegen, z. B. über Gespräche oder Tagebuchnotizen, und auch historisch einordnen (wie hat sich der Umgang mit Fehlverhalten in der Schule entwickelt?).\n- **Empirische EW – erklären und messen:** Welche Wirkung hat Schimpfen? Hypothese z. B.: „Wenn Lehrkräfte bei vergessenen Hausaufgaben schimpfen, sinkt die Quote vergessener Hausaufgaben.“ Prüfung über Beobachtung, Befragung oder Vergleich von Klassen mit unterschiedlichem Lehrerverhalten; Ergebnis möglichst objektiv und wertfrei.\n- **Kritische EW – gesellschaftlich hinterfragen:** Welche Macht- und Hierarchieverhältnisse zeigen sich? Welche Norm (Leistung, Pünktlichkeit, Anpassung) wird durchgesetzt und wem nützt sie? Warum hat der Schüler die Hausaufgaben vergessen – fehlt vielleicht Unterstützung zu Hause (soziale Herkunft)? Ziel wäre eine Praxis, die den Schüler zur Mündigkeit befähigt statt ihn zu beschämen – ggf. über Aktionsforschung mit der Lehrerin.",
+      "loesungsweg": "Für jede Strömung ihr Erkenntnisinteresse anlegen: Verstehen (Sinn, Beziehung) – Erklären (Ursache–Wirkung, Daten) – Kritik (Macht, Gesellschaft, Emanzipation).",
+      "frist": "", "im_kalender": false
+    },
+    {
+      "id": "a04", "art": "Aufgabe auf Folie",
+      "text": "Drei Perspektiven auf eine Situation – Ziel: Unterschiedliche Erkenntnisinteressen der drei Strömungen verstehen. Situation: „Eine Lehrerin lobt einen Schüler öffentlich vor der Klasse für seine gute Mitarbeit und sagt: „So vorbildlich sollten sich alle verhalten!““ Frage: „Wie würden eine geisteswissenschaftliche, eine empirische und eine kritische Erziehungswissenschaft diese Situation jeweils betrachten?“",
+      "quelle": "Präsenzfolie 12",
+      "loesung": "*Selbst erarbeitete Musterlösung – auf den Folien steht keine Lösung.*\n\n**Aufgabe:** *„Wie würden eine geisteswissenschaftliche, eine empirische und eine kritische Erziehungswissenschaft diese Situation jeweils betrachten?“*\n\n**Antwort:**\n- **Geisteswissenschaftliche EW – verstehen:** Wie erlebt der gelobte Schüler das öffentliche Lob (Stolz oder Peinlichkeit)? Wie verstehen es die anderen Kinder? Was will die Lehrerin damit ausdrücken, und was bedeutet es für ihre Beziehung zu den Schüler:innen (pädagogischer Bezug, Autorität und Vertrauen)?\n- **Empirische EW – erklären und messen:** Steigert öffentliches Lob die Mitarbeit – beim Gelobten und bei den anderen? Hypothese z. B.: „Je häufiger öffentlich gelobt wird, desto höher die Beteiligung der Klasse.“ Prüfung z. B. durch Unterrichtsbeobachtung oder ein Experiment (Klassen mit und ohne öffentliches Lob).\n- **Kritische EW – gesellschaftlich hinterfragen:** Wer legt fest, was „vorbildlich“ ist? Das Lob setzt eine Norm und fordert Anpassung („So … sollten sich alle verhalten“), die anderen werden indirekt abgewertet. Welche Kinder haben überhaupt die Voraussetzungen, so „vorbildlich“ zu sein? Die kritische EW fragt, ob solche Praktiken Konkurrenz und Konformität fördern statt Mündigkeit und Selbstbestimmung.",
+      "loesungsweg": "Wie a03: Verstehen – Erklären – Kritik. Achte bei der kritischen Perspektive auf die Normsetzung im Satz „So vorbildlich sollten sich alle verhalten!“.",
+      "frist": "", "im_kalender": false
+    },
+    {
+      "id": "a05", "art": "Aufgabe auf Folie",
+      "text": "Diskussion – Kritische Betrachtung: Was sind die Vor- und Nachteile jeder Strömung? Gibt es kritische Perspektiven oder Herausforderungen im Zusammenhang mit diesen Strömungen? Persönliche Perspektiven: Welche Strömung entspricht Ihren eigenen Überzeugungen am meisten, und warum? Verbindung zur Praxis: Diskutieren Sie, wie die Kenntnis dieser verschiedenen erziehungswissenschaftlichen Strömungen Ihnen in Ihrer zukünftigen beruflichen Praxis helfen könnte.",
+      "quelle": "Präsenzfolie 13",
+      "loesung": "*Beispiellösung – die persönliche Position ist frei.*\n- **Vor- und Nachteile:** siehe Kritik und Leistungen je Strömung (Folien 8, 11, 17) – z. B. geisteswissenschaftliche EW: tiefes Verstehen, aber keine Empirie und kein Gesellschaftsbezug; empirische EW: überprüfbare Ergebnisse, aber (ursprünglich) wenig Theorie- und Gesellschaftsbezug; kritische EW: Blick auf Ungleichheit und Macht, aber übertriebene Hoffnungen und Vermischung in der Aktionsforschung.\n- **Persönliche Perspektive:** z. B. „Am ehesten die kritische EW, weil Bildungschancen stark von der Herkunft abhängen – aber ohne empirische Daten wüsste man das gar nicht.“\n- **Praxis:** Wer die Strömungen kennt, erkennt in Studien, Lehrplänen und Ratgebern, aus welcher Richtung argumentiert wird, kann widersprüchliche Aussagen einordnen und eine Unterrichtssituation aus mehreren Perspektiven betrachten (Video).",
+      "loesungsweg": "Kritik/Leistungen der Folien vergleichen, eigene Haltung kurz begründen.",
+      "frist": "", "im_kalender": false
+    },
+    {
+      "id": "h01", "art": "Hausaufgabe",
+      "titel": "Vorbereitung S03: Courseware-Einheit 03 (Strömungen II) + Gudjons/Traub S. 42–52",
+      "text": "Courseware-Einheit 03 vorbereiten (Video + Literatur) bis zur Präsenzsitzung ewb001.2 am 27.10.2026 (Ankündigung Prof. Rieckmann vom 21.10.2026).\n- Video bzw. Folien „Theoretische Strömungen der Erziehungswissenschaft II“ (15 Folien)\n- Selbststudium: Gudjons, H. & Traub, S. (2016): Pädagogisches Grundwissen. Kapitel 2: Richtungen der Erziehungswissenschaft. Bad Heilbrunn: Klinkhardt, S. 42–52",
+      "quelle": "Ankündigung Stud.IP 21.10.2026; Folie 13 der Einheit 03",
+      "loesung": "**Aufgabe:** *„Courseware-Einheit 03 vorbereiten (Video + Literatur) bis zur Präsenzsitzung ewb001.2 am 27.10.2026.“*\n\n**Antwort – Überblick über Einheit 03:**\n\nDie Einheit setzt die Strömungen fort: Aus den drei großen Strömungen ist ab 1975 ein **Theorienpluralismus** hervorgegangen. Auf den Folien:\n\n| Folie | Strömung | Vertreter*innen (laut Folie) |\n| --- | --- | --- |\n| 4 | Transzendental-kritische Erziehungswissenschaft | v. a. Heitger, Dickopp, Fischer |\n| 5 | Historisch-materialistische Erziehungswissenschaft | v. a. Gamm, Heydorn, Koneffke, Schmied-Kowarzik |\n| 6 | Phänomenologische Pädagogik | u. a. Langeveld, Loch, Lippitz, Meyer-Drawe |\n| 7 | Systemtheoretische Pädagogik | v. a. Luhmann |\n| 8 | Feministische Ansätze in der Erziehungswissenschaft | |\n| 9 | Postmoderne Ansätze in der Erziehungswissenschaft | |\n| 10–11 | Übersicht aller theoretischen Strömungen / Schulen | |\n| 12 | Erziehungswissenschaft als Integrationswissenschaft | |\n\n**Literatur:** Gudjons/Traub 2016, S. 42–52 – liegt in `ewb001.2/04_Literatur` (gleiche Datei wie für S02).\n\n**So bereitest du dich vor:**\n1. Video der Einheit 03 ansehen (oder die Folien durchgehen).\n2. Gudjons/Traub S. 42–52 lesen und je Strömung notieren: Grundidee, Methode, Ziel.\n3. Mit der Übersicht der drei großen Strömungen aus S02 vergleichen: Aus welcher großen Strömung ist welche neue hervorgegangen?\n\nDie ausführlichen Lerninhalte zu Einheit 03 stehen in der Sitzung ewb001.2 S03 (27.10.2026).",
+      "loesungsweg": "Video und Folien der Einheit 03 sowie Gudjons/Traub S. 42–52; die Lerninhalte von S03 folgen.",
+      "frist": "2026-10-27", "im_kalender": true,
+      "fuer_sitzung": "ewb001.2_2026-10-27",
+      "kalender_id": "72ec7575-acc4-4393-b1bb-702b8236775b",
+      "pdf": "/dateien/ewb001/S03_2026-10-27_Hausaufgabe_Vorbereitung_Courseware-Einheit-03_Stroemungen-II.pdf"
+    }
+  ],
+
+  "fragen": [
+    { "id": "f01", "baustein": "vergleich", "format": "frage", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Was unterscheidet eine Objekttheorie von einer Metatheorie?",
+      "antwort": "Eine Objekttheorie befasst sich mit einem bestimmten Gegenstand (z. B. Prof. X erforscht Schule). Eine Metatheorie blickt von außen auf das Forschen selbst und fragt, wie, wozu, auf welcher Basis und mit welchem Wissenschaftsverständnis geforscht wird (Prof. Y fragt, wie X die Schule erforscht).",
+      "erklaerung": "Folie 3 (Gudjons/Traub 2016, S. 30).", "folie": "3", "pruefungsrelevant": true },
+    { "id": "f02", "baustein": "kernaussage", "format": "mc", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Welche der folgenden Beispiele sind laut Vorlesung Metatheorien? (mehrere richtig)",
+      "optionen": ["die geisteswissenschaftliche, empirische und kritische Erziehungswissenschaft", "eine Theorie darüber, wie Grundschulen funktionieren", "die Hermeneutik", "der Kritische Rationalismus"],
+      "richtig": [0, 2, 3],
+      "erklaerung": "Video: Die drei Strömungen, die Hermeneutik und die Erkenntnisprogramme (Positivismus, Neopositivismus, Kritischer Rationalismus) sind metatheoretisch. Eine Theorie der Grundschule ist eine Objekttheorie.", "folie": "3", "pruefungsrelevant": true },
+    { "id": "f03", "baustein": "vergleich", "format": "zuordnung", "niveau": "wissen", "schwierigkeit": 2,
+      "frage": "Ordne den Strömungen ihre Hochphasen zu.",
+      "kategorien": ["1925–1933, 1945–1960", "1900–1933, ab 1965", "1970–1980", "ab 1975"],
+      "elemente": [
+        { "text": "Geisteswissenschaftliche Erziehungswissenschaft", "kategorie": "1925–1933, 1945–1960" },
+        { "text": "Empirische Erziehungswissenschaft", "kategorie": "1900–1933, ab 1965" },
+        { "text": "Kritische Erziehungswissenschaft", "kategorie": "1970–1980" },
+        { "text": "Theorienpluralismus", "kategorie": "ab 1975" }
+      ],
+      "erklaerung": "Folie 4 (Krüger 2012, S. 11) – laut Video sicheres Grundwissen.", "folie": "4", "pruefungsrelevant": true },
+    { "id": "f04", "baustein": "kernaussage", "format": "mc", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu den Strömungen der Erziehungswissenschaft treffen zu? (mehrere richtig)",
+      "optionen": ["Die Jahreszahlen bezeichnen die Hochphasen, nicht das Ende der Strömungen.", "Die empirische Erziehungswissenschaft ist die älteste der drei großen Strömungen.", "Die kritische Erziehungswissenschaft hatte ihre Hochphase von 1945 bis 1960.", "Aus den drei großen Strömungen ging ab 1975 ein Theorienpluralismus hervor."],
+      "richtig": [0, 1, 3],
+      "erklaerung": "Folie 4 und Video. 1945–1960 ist die zweite Hochphase der geisteswissenschaftlichen EW; die kritische EW hatte ihre Hochphase 1970–1980.", "folie": "4", "pruefungsrelevant": true },
+    { "id": "f05", "baustein": "kernaussage", "format": "frage", "niveau": "wissen", "schwierigkeit": 2,
+      "frage": "Nenne die drei wissenschaftstheoretischen Grundannahmen der geisteswissenschaftlichen Erziehungswissenschaft.",
+      "antwort": "1. Primat (Vorrangigkeit) der Praxis vor der Theorie – Theorie geht aus der Praxis hervor, Theorie als reflexive Instanz. 2. Geschichtlichkeit der Pädagogik – systematische Analyse und hermeneutische Auslegung ihrer Geschichte. 3. Eigenständigkeit/Autonomie der Erziehung – Eigenrecht und Eigenwert der Jugendphase, Erzieher*innen als Anwält*innen der Zukunft der Kinder, selbstständige pädagogische Wissenschaft (abgegrenzt von Theologie, Philosophie, Psychologie).",
+      "erklaerung": "Folie 6 – laut Video eine klassische Prüfungsfrage.", "folie": "6", "pruefungsrelevant": true },
+    { "id": "f06", "baustein": "definition", "format": "luecke", "niveau": "wissen", "schwierigkeit": 1,
+      "text": "Bezugspunkt der geisteswissenschaftlichen Erziehungswissenschaft ist die Theorie der Geisteswissenschaften von Wilhelm [[Dilthey]]; zentrale Methode ist das [[Verstehen]]. Die [[Hermeneutik]] ist die Wissenschaftstheorie geisteswissenschaftlichen Verstehens.",
+      "erklaerung": "Folie 5.", "folie": "5", "pruefungsrelevant": true },
+    { "id": "f07", "baustein": "definition", "format": "frage", "niveau": "wissen", "schwierigkeit": 2,
+      "frage": "Was versteht die geisteswissenschaftliche Erziehungswissenschaft unter dem „pädagogischen Bezug“?",
+      "antwort": "Das Verhältnis der Erziehenden und der zu Erziehenden, geprägt von Autorität und Vertrauen, sowie das Moment der Freiwilligkeit – Erziehung ist nicht ohne Vertrauensverhältnis möglich.",
+      "erklaerung": "Folie 7 (Krüger 2012, S. 31 ff.).", "folie": "7", "pruefungsrelevant": true },
+    { "id": "f08", "baustein": "kernaussage", "format": "mc", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Welche Kritikpunkte werden an der geisteswissenschaftlichen Erziehungswissenschaft genannt? (mehrere richtig)",
+      "optionen": ["keine Berücksichtigung von Ansätzen, Verfahren und Ergebnissen der empirischen Erziehungsforschung", "keine Ausarbeitung einer Theorie der Gesellschaft", "Ausblenden von sozialen Fakten und Herrschaftsverhältnissen", "Vernachlässigung hermeneutischer Methoden"],
+      "richtig": [0, 1, 2],
+      "erklaerung": "Folie 8. Die Vernachlässigung hermeneutischer Methoden wird der empirischen EW vorgeworfen – die geisteswissenschaftliche EW arbeitet ja gerade hermeneutisch.", "folie": "8", "pruefungsrelevant": true },
+    { "id": "f09", "baustein": "kernaussage", "format": "mc", "niveau": "wissen", "schwierigkeit": 2,
+      "frage": "Welche Leistungen werden der geisteswissenschaftlichen Erziehungswissenschaft zugeschrieben? (mehrere richtig)",
+      "optionen": ["Etablierung der Pädagogik als autonome wissenschaftliche Disziplin an Hochschulen", "Impulse für die Wiederbelebung der qualitativen Forschung", "Begründung eines eigenständigen Konzepts der Pädagogik", "Lebensweltorientierung und hermeneutische Methode sind weiterhin aktuell"],
+      "richtig": [0, 2, 3],
+      "erklaerung": "Folie 8. Die Wiederbelebung der qualitativen Forschung ist eine Leistung der kritischen EW (Folie 17).", "folie": "8, 17", "pruefungsrelevant": true },
+    { "id": "f10", "baustein": "vergleich", "format": "zuordnung", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Ordne die Merkmale dem passenden Erkenntnisprogramm der empirischen Wissenschaft zu.",
+      "kategorien": ["Positivismus", "Neopositivismus (logischer Empirismus)", "Kritischer Rationalismus"],
+      "elemente": [
+        { "text": "Quelle der Erkenntnis ist die Erfahrung des Gegebenen, Tatsächlichen", "kategorie": "Positivismus" },
+        { "text": "Abgrenzung von normativen Fragen (Wertfreiheit)", "kategorie": "Positivismus" },
+        { "text": "Verifikation als Forschungsziel", "kategorie": "Neopositivismus (logischer Empirismus)" },
+        { "text": "Falsifikation als Forschungsziel", "kategorie": "Kritischer Rationalismus" }
+      ],
+      "erklaerung": "Folie 9.", "folie": "9", "pruefungsrelevant": true },
+    { "id": "f11", "baustein": "definition", "format": "luecke", "niveau": "wissen", "schwierigkeit": 1,
+      "text": "Im Neopositivismus ist die [[Verifikation]] das Forschungsziel, im Kritischen Rationalismus die [[Falsifikation]].",
+      "erklaerung": "Folie 9. Verifikation = als wahr erweisen; Falsifikation = widerlegen.", "folie": "9", "pruefungsrelevant": true },
+    { "id": "f12", "baustein": "kernaussage", "format": "frage", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Worin unterscheidet sich die Denkweise der empirischen Erziehungswissenschaft von der der geisteswissenschaftlichen?",
+      "antwort": "Die empirische EW will die objektiv gegebene Erziehungs- und Bildungswirklichkeit durch empirische Daten erklären und Prognosen treffen; sie grenzt sich von normativen Fragen ab (Wertfreiheit). Die geisteswissenschaftliche EW will pädagogische Praxis hermeneutisch verstehen und vertrat ausdrücklich normative Ideen (z. B. Volksbildung, Eigenrecht der Jugend).",
+      "erklaerung": "Folien 9, Präsenz 10 und Video.", "folie": "9; Präsenz 10", "pruefungsrelevant": true },
+    { "id": "f13", "baustein": "kernaussage", "format": "mc", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Welche Kritikpunkte richten sich an die ursprüngliche kritisch-rationale Erziehungswissenschaft von Brezinka u. a.? (mehrere richtig)",
+      "optionen": ["fehlende Theorieorientierung", "Gleichgültigkeit gegenüber dem Verwertungszusammenhang empirischer Ergebnisse", "übertriebene Hoffnungen, über Bildung die Gesellschaft grundsätzlich verändern zu können", "fehlender Gesellschaftsbezug"],
+      "richtig": [0, 1, 3],
+      "erklaerung": "Folie 11; dazu die Vernachlässigung hermeneutischer Methoden. Die „übertriebenen Hoffnungen“ werden der kritischen EW vorgeworfen (Folie 17). Video: Die Kritik gilt nicht der heutigen empirischen Forschung.", "folie": "11, 17", "pruefungsrelevant": true },
+    { "id": "f14", "baustein": "kernaussage", "format": "frage", "niveau": "wissen", "schwierigkeit": 2,
+      "frage": "Wodurch wurde die kritische Erziehungswissenschaft beeinflusst und was ist ihr Bezugshorizont?",
+      "antwort": "Durch die Studentenbewegung und die sozialphilosophischen Arbeiten der Frankfurter Schule (Kritische Theorie). Bezugshorizont ist die Kritische Theorie: Vernunft und Emanzipation als gesellschaftliche Ziele, Verbindung von empirischer Forschung, sozialphilosophischer Reflexion und gesellschaftskritischer Analyse.",
+      "erklaerung": "Folie 12.", "folie": "12", "pruefungsrelevant": true },
+    { "id": "f15", "baustein": "kernaussage", "format": "frage", "niveau": "wissen", "schwierigkeit": 3,
+      "frage": "Nenne die wissenschaftstheoretischen Grundannahmen der kritischen Erziehungswissenschaft.",
+      "antwort": "1. Emanzipationspostulat: Mündigkeit des Subjekts als Zweck von Erziehung und Bildung; Aufklärung, Vernunft, Emanzipation und Selbstbestimmung als erkenntnisleitende Interessen. 2. Gegenstand: pädagogisches Handeln als historisch vermittelte gesellschaftliche Praxis, Wechselwirkungen von Erziehungssystem und Gesellschaft, Reproduktion und Innovation durch Erziehung. 3. Methodisches Vorgehen: Verknüpfung hermeneutischer und empirischer Verfahren mit gesellschaftskritischer Reflexion, Ideologiekritik, Aktionsforschung. 4. Gleichrangigkeit von Theorie und Praxis.",
+      "erklaerung": "Folie 13 – Gegenstück zu den Grundannahmen der geisteswissenschaftlichen EW.", "folie": "13", "pruefungsrelevant": true },
+    { "id": "f16", "baustein": "vergleich", "format": "mc", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Wie unterscheiden sich geisteswissenschaftliche und kritische Erziehungswissenschaft im Verhältnis von Theorie und Praxis?",
+      "optionen": ["Geisteswissenschaftliche EW: Primat der Praxis – kritische EW: Gleichrangigkeit von Theorie und Praxis", "Geisteswissenschaftliche EW: Primat der Theorie – kritische EW: Primat der Praxis", "Beide gehen von einem Primat der Praxis aus.", "Geisteswissenschaftliche EW: Gleichrangigkeit – kritische EW: Primat der Praxis"],
+      "richtig": [0],
+      "erklaerung": "Folien 6 und 13; im Video ausdrücklich als Unterschied hervorgehoben.", "folie": "6, 13", "pruefungsrelevant": true },
+    { "id": "f17", "baustein": "definition", "format": "frage", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Was ist Aktionsforschung und welche Kritik gibt es an ihr?",
+      "antwort": "Forschung in und mit der Praxis zum Zwecke der Reform des Bildungs- und Erziehungswesens (z. B. eine Lehrkraft gestaltet und erforscht zugleich ihren Unterricht) – ein methodisches Vorgehen der kritischen EW. Kritik: Sie vermischt empirische Forschung mit dem Interesse an Praxisveränderung.",
+      "erklaerung": "Folien 13 und 17, Video.", "folie": "13, 17", "pruefungsrelevant": true },
+    { "id": "f18", "baustein": "kernaussage", "format": "mc", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Welche Leistungen werden der kritischen Erziehungswissenschaft zugeschrieben? (mehrere richtig)",
+      "optionen": ["konstruktive Vorschläge für eine Verknüpfung von empirischer Forschung mit gesellschaftskritischer Reflexion", "Impulse für die Wiederbelebung der qualitativen Forschung", "Differenzierung unterschiedlicher Wissensformen (philosophische Grundlagenreflexion, Forschungswissen, praxisbezogenes Wissen)", "Etablierung der Pädagogik als autonome wissenschaftliche Disziplin"],
+      "richtig": [0, 1],
+      "erklaerung": "Folie 17. Die Differenzierung der Wissensformen ist eine Leistung der empirischen EW (Folie 11), die Etablierung als Disziplin eine der geisteswissenschaftlichen EW (Folie 8).", "folie": "17", "pruefungsrelevant": true },
+    { "id": "f19", "baustein": "definition", "format": "frage", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Was besagt die soziogenetische Perspektive der Entwicklungspädagogik?",
+      "antwort": "Fähigkeiten und Fertigkeiten, die im Begriff einer Kompetenz gefasst werden können, sind nicht angeboren, sondern werden im Prozess der sozialisatorischen Interaktion erworben (Aufenanger 1992). Daher ist die Ausbildung von Kompetenzen (z. B. Kommunikation, Kooperation) Aufgabe des pädagogischen Handelns.",
+      "erklaerung": "Folie 15 – laut Video wichtig für den Kompetenzbegriff des Moduls.", "folie": "15", "pruefungsrelevant": true },
+    { "id": "f20", "baustein": "vergleich", "format": "zuordnung", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Ordne die Merkmale den beiden Richtungen der Entwicklungspädagogik zu.",
+      "kategorien": ["evolutionstheoretisch orientiert (Lenhart, Treml)", "handlungstheoretisch orientiert (Lersch, Krüger)"],
+      "elemente": [
+        { "text": "Wie verändert sich Erziehung/Bildung mit der gesellschaftlichen Evolution?", "kategorie": "evolutionstheoretisch orientiert (Lenhart, Treml)" },
+        { "text": "produktive und kreative Funktion von Erziehung/Bildung in modernen Gesellschaften", "kategorie": "evolutionstheoretisch orientiert (Lenhart, Treml)" },
+        { "text": "optimale Förderung der kognitiven, sprachlichen und sozialen Handlungskompetenzen", "kategorie": "handlungstheoretisch orientiert (Lersch, Krüger)" },
+        { "text": "Berücksichtigung institutioneller und gesamtgesellschaftlicher Rahmenbedingungen", "kategorie": "handlungstheoretisch orientiert (Lersch, Krüger)" }
+      ],
+      "erklaerung": "Folie 16 (Krüger 2012, S. 76 f.).", "folie": "16", "pruefungsrelevant": false },
+    { "id": "f21", "baustein": "vergleich", "format": "zuordnung", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Ordne die Merkmale der passenden Strömung zu.",
+      "kategorien": ["Geisteswissenschaftliche EW", "Empirische EW", "Kritische EW"],
+      "elemente": [
+        { "text": "Verstehen der pädagogischen Praxis und ihrer Geschichte durch Hermeneutik", "kategorie": "Geisteswissenschaftliche EW" },
+        { "text": "Primat der Praxis vor der Theorie", "kategorie": "Geisteswissenschaftliche EW" },
+        { "text": "Erklärung der objektiv gegebenen Erziehungswirklichkeit durch empirische Daten", "kategorie": "Empirische EW" },
+        { "text": "Wertfreiheit", "kategorie": "Empirische EW" },
+        { "text": "normative Orientierung an Emanzipation, Ideologiekritik", "kategorie": "Kritische EW" },
+        { "text": "Gleichrangigkeit von Theorie und Praxis", "kategorie": "Kritische EW" }
+      ],
+      "erklaerung": "Präsenzfolie 10 und Folien 6, 9, 13.", "folie": "Präsenz 10; 6, 9, 13", "pruefungsrelevant": true },
+    { "id": "f22", "baustein": "transfer", "format": "zuordnung", "niveau": "anwenden", "schwierigkeit": 2,
+      "frage": "Positionieren (Präsenzsitzung): Zu welcher Strömung passt die Aussage am besten?",
+      "kategorien": ["Geisteswissenschaftliche EW", "Empirische EW", "Kritische EW"],
+      "elemente": [
+        { "text": "„Erziehung kann man objektiv messen.“", "kategorie": "Empirische EW" },
+        { "text": "„Das Ziel von Wissenschaft ist, die Welt zu verändern.“", "kategorie": "Kritische EW" },
+        { "text": "„Erziehung ist nur durch Verstehen der individuellen Sinnzusammenhänge zu begreifen.“", "kategorie": "Geisteswissenschaftliche EW" }
+      ],
+      "erklaerung": "Präsenzfolie 6, Aufgabe a01 (Zuordnung selbst erarbeitet).", "folie": "Präsenz 6", "pruefungsrelevant": true },
+    { "id": "f23", "baustein": "transfer", "format": "offen", "niveau": "anwenden", "schwierigkeit": 3,
+      "frage": "„Eine Lehrerin schimpft mit einem Schüler, weil er die Hausaufgaben vergessen hat.“ Wie würden eine geisteswissenschaftliche, eine empirische und eine kritische Erziehungswissenschaft diese Situation jeweils betrachten?",
+      "musterloesung": "Geisteswissenschaftlich: die Situation verstehen – was bedeutet sie für Schüler und Lehrerin, was macht sie mit dem pädagogischen Bezug (Vertrauen, Autorität)? Hermeneutische Auslegung, ggf. historische Einordnung. Empirisch: die Wirkung erklären und messen – z. B. Hypothese, dass Schimpfen die Quote vergessener Hausaufgaben senkt; Prüfung durch Beobachtung, Befragung, Klassenvergleich, wertfrei. Kritisch: Macht- und Hierarchieverhältnisse und gesellschaftliche Normen (Leistung, Anpassung) hinterfragen, soziale Ursachen (fehlende Unterstützung zu Hause) einbeziehen, Ziel Mündigkeit/Emanzipation statt Beschämung.",
+      "bewertungspunkte": ["geisteswissenschaftlich: Verstehen/Sinn, pädagogischer Bezug", "empirisch: Erklären/Messen mit Hypothese und Daten", "kritisch: Macht, gesellschaftliche Normen oder soziale Ungleichheit, Emanzipation"],
+      "punkte": 3, "erklaerung": "Präsenzfolie 11, Musterlösung in Aufgabe a03.", "folie": "Präsenz 11", "pruefungsrelevant": true },
+    { "id": "f24", "baustein": "transfer", "format": "offen", "niveau": "anwenden", "schwierigkeit": 3,
+      "frage": "„Eine Lehrerin lobt einen Schüler öffentlich vor der Klasse für seine gute Mitarbeit und sagt: ‚So vorbildlich sollten sich alle verhalten!‘“ Wie würden die drei großen Strömungen der Erziehungswissenschaft diese Situation jeweils betrachten?",
+      "musterloesung": "Geisteswissenschaftlich: verstehen, wie der Schüler und die Klasse das öffentliche Lob erleben und was es für die Beziehung zur Lehrerin bedeutet (pädagogischer Bezug). Empirisch: messen, ob öffentliches Lob die Mitarbeit des Gelobten und der Klasse steigert (Hypothese, Beobachtung oder Experiment). Kritisch: hinterfragen, wer festlegt, was „vorbildlich“ ist, welche Norm und Anpassung gefordert wird, wie die anderen abgewertet werden und wer überhaupt die Voraussetzungen hat – Ziel Mündigkeit statt Konformität.",
+      "bewertungspunkte": ["geisteswissenschaftlich: Erleben/Sinn, pädagogischer Bezug", "empirisch: Wirkung messen", "kritisch: Normsetzung, Anpassung, Macht oder Ungleichheit"],
+      "punkte": 3, "erklaerung": "Präsenzfolie 12, Musterlösung in Aufgabe a04.", "folie": "Präsenz 12", "pruefungsrelevant": true },
+    { "id": "f25", "baustein": "vergleich", "format": "offen", "niveau": "verstehen", "schwierigkeit": 3,
+      "frage": "Erläutere, inwiefern die Kritik an der geisteswissenschaftlichen Erziehungswissenschaft zum Ansatzpunkt der empirischen und der kritischen Erziehungswissenschaft wurde.",
+      "musterloesung": "Der geisteswissenschaftlichen EW wird vorgeworfen, empirische Forschung nicht zu berücksichtigen, keine Gesellschaftstheorie auszuarbeiten und soziale Fakten und Herrschaftsverhältnisse auszublenden. Die empirische EW setzt bei den Methoden an: Sie will die Erziehungswirklichkeit mit empirischen Daten erklären und prognostizieren statt nur zu verstehen. Die kritische EW setzt beim fehlenden Gesellschaftsbezug an: Sie analysiert pädagogisches Handeln als gesellschaftliche Praxis, deckt Herrschaftsverhältnisse auf (Ideologiekritik) und orientiert sich an Emanzipation.",
+      "bewertungspunkte": ["Kritikpunkte an der geisteswissenschaftlichen EW genannt", "empirische EW: Ansatz bei den Methoden (Erklären mit Daten)", "kritische EW: Ansatz beim Gesellschaftsbezug (Herrschaft, Emanzipation)"],
+      "punkte": 3, "erklaerung": "Folien 8, 9, 12 und Video.", "folie": "8–13", "pruefungsrelevant": true }
+  ],
+
+  "pruefungshinweise": [
+    "Video: Die Hochphasen der Strömungen gehören zum sicheren Grundwissen; die Namen der Vertreter*innen sollen nicht auswendig gelernt werden.",
+    "Video: Die wissenschaftstheoretischen Grundannahmen der geisteswissenschaftlichen EW (Primat der Praxis, Geschichtlichkeit, Autonomie) und der kritischen EW (Emanzipationspostulat, Gegenstand, Methode, Gleichrangigkeit von Theorie und Praxis) sind klassische Prüfungsfragen.",
+    "Video: Merksatz – die großen Strömungen sind metatheoretische Strömungen."
+  ],
+  "offene_fragen": [],
+  "auffaelligkeiten": [
+    "Ablaufplan WiSe 2026/27 und Folie 2 der Einheit 02/03 nennen für Termin 3 „Reflexive EW“; die Präsenzfolie 3 und die Folien der Einheit 03 behandeln stattdessen „Phänomenologische Pädagogik“ – Reflexive EW fehlt dort.",
+    "Präsenzfolien 14–41 („Folienspeicher“) wiederholen Einheit 01 und 02 ohne neue Inhalte.",
+    "Das Video stammt aus einem früheren Semester."
+  ]
+}

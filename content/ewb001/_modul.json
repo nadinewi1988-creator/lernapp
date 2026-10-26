@@ -55,7 +55,9 @@
     },
     {
       "text": "Kritisches Verständnis der Theorien zu Sozialisation, Erziehung, Bildung, Lernen und Kompetenz",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "ewb001.2_2026-10-20"
+      ]
     },
     {
       "text": "Überblick über kompetenzorientiertes Lehren und Lernen (didaktische Prinzipien und Methoden)",
@@ -64,7 +66,8 @@
     {
       "text": "Struktur und historische Entwicklung der Erziehungswissenschaften darstellen",
       "abgedeckt_in": [
-        "ewb001.1_2026-10-20"
+        "ewb001.1_2026-10-20",
+        "ewb001.2_2026-10-20"
       ]
     }
   ],
@@ -80,7 +83,8 @@
   "sitzungen": [
     "ewb001.1_2026-10-13",
     "ewb001.1_2026-10-20",
-    "ewb001.2_2026-10-13"
+    "ewb001.2_2026-10-13",
+    "ewb001.2_2026-10-20"
   ],
   "klausurstil": {
     "quellen": [
@@ -158,6 +162,17 @@
       "vorhanden": true,
       "datei": "Literatur/Stein_2017_Allgemeine-Paedagogik.pdf",
       "stand": "2026-10-26"
+    },
+    {
+      "eintrag": "Gudjons/Traub (2016): Pädagogisches Grundwissen, Kap. 2, S. 29–42 (Selbststudium ewb001.2 S02) und S. 42–52 (S03)",
+      "vorhanden": true,
+      "datei": "ewb001.2/04_Literatur/02_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_2_Richtungen_der_Erziehungswissenschaft.pdf",
+      "stand": "2026-10-26"
+    },
+    {
+      "eintrag": "Krüger, H.-H. (2012): Einführung in Theorien und Methoden der Erziehungswissenschaft. Opladen: Budrich (zitiert in ewb001.2 S02)",
+      "vorhanden": false,
+      "stand": "2026-10-26"
     }
   ],
   "besonderheiten": [
@@ -183,7 +198,9 @@
     "ewb001.1 S02: Folie 18: Fröbel als „Carl Poppo Fröbel (1786–1824)“ – gemeint ist laut Video der Begründer des Kindergartens (bekannt als Friedrich Fröbel, 1782–1852); im Seminar nachfragen.",
     "ewb001.1 S02: Folie 15 nennt „Wildt, 2006“, das Literaturverzeichnis (Folie 39) nur Wildt 1997.",
     "ewb001.1 S02: Stein 2017, S. 13 formuliert die Definition etwas anders als Folie 27 („die Auswirkungen dieser Prozesse vorhersagt und somit allen hieran beteiligten Personen …“) – gelernt wird der Folienwortlaut.",
-    "ewb001.1 S02: Lernzielkontrolle 2: Silbentrennungen aus dem Folienlayout (z. B. „Ethikbe-züge“, „pro-fessionellen“) sind in der App zusammengeschrieben; Antwortzeilen sind mit „·“ verbunden."
+    "ewb001.1 S02: Lernzielkontrolle 2: Silbentrennungen aus dem Folienlayout (z. B. „Ethikbe-züge“, „pro-fessionellen“) sind in der App zusammengeschrieben; Antwortzeilen sind mit „·“ verbunden.",
+    "ewb001.2 S02: Ablaufplan WiSe 2026/27 und Folie 2 der Einheit 02/03 nennen für Termin 3 „Reflexive EW“; die Präsenzfolie 3 und die Folien der Einheit 03 behandeln stattdessen „Phänomenologische Pädagogik“ – Reflexive EW fehlt dort.",
+    "ewb001.2 S02: Präsenzfolien 14–41 („Folienspeicher“) wiederholen Einheit 01 und 02 ohne neue Inhalte."
   ],
   "dateien": [
     {
@@ -308,6 +325,34 @@
       "art": "Lernzielkontrolle",
       "status": "verarbeitet",
       "sitzung": "ewb001.1_2026-10-20"
+    },
+    {
+      "pfad": "ewb001.2/02_Präsentationen_Vorlesungen/02_ewb001.2_Theoretische_Strömungen_der_EW_I.pdf",
+      "geaendert": "2026-09-06",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.2_2026-10-20"
+    },
+    {
+      "pfad": "ewb001.2/05_Präsentationen_Präsenzsitzungen/02_ewb001.2_Theoretische_Strömungen_der_EW_I_Präsenzsitzung.pdf",
+      "geaendert": "2026-10-21",
+      "art": "Folien Präsenz",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.2_2026-10-20"
+    },
+    {
+      "pfad": "ewb001.2/3._Videos der Vorlesung Kopie/Sitzung_02/02_ewb001.2_Transkript_Zusammenfassung.docx",
+      "geaendert": "2026-09-06",
+      "art": "Transkript",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.2_2026-10-20"
+    },
+    {
+      "pfad": "ewb001.2/04_Literatur/02_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_2_Richtungen_der_Erziehungswissenschaft.pdf",
+      "geaendert": "2026-09-06",
+      "art": "Literatur (Selbststudium S02 S. 29–42, S03 S. 42–52)",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.2_2026-10-20"
     }
   ]
 }

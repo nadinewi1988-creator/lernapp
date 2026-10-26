@@ -59,14 +59,18 @@
       "wortlaut": "lebenslanger, bidirektionaler Prozess, der die Persönlichkeitswerdung des Menschen in produktiver Auseinandersetzung mit seiner Umwelt und die Rückwirkungen des Menschen auf seine Umwelt beinhaltet",
       "erklaerung": "Der Mensch entwickelt seine Persönlichkeit ein Leben lang im Wechselspiel mit seiner Umwelt – er wird geprägt und prägt selbst mit (Stein 2017, S. 21).",
       "quelle": "ewb001.2_2026-10-13 · Folie 18",
-      "abweichungen": []
+      "abweichungen": [
+        "Unterschiedliche Fassungen: Rieckmann (ewb001.2 S01, F17/F18) „materiale, geistige und soziale Umgebung“ bzw. „produktive Auseinandersetzung … Rückwirkungen“; Stein (ewb001.1 S04, F5) „materielle, soziale und institutionelle Umwelt“ + „gemeinsame Handlungspraxis“. Nadine (26.10.2026): alle Fassungen nebeneinander behalten."
+      ]
     },
     {
       "begriff": "Sozialisation (Kurzdefinition)",
       "wortlaut": "Makrosoziale Ebene: Persönlichkeitswerdung des Menschen im weitesten Sinne in der Auseinandersetzung mit der materialen, geistigen und sozialen Umgebung",
       "erklaerung": "Kurzfassung aus der Übersicht der vier Säulen (Stein 2017, S. 18).",
       "quelle": "ewb001.2_2026-10-13 · Folie 17",
-      "abweichungen": []
+      "abweichungen": [
+        "Unterschiedliche Fassungen: Rieckmann (ewb001.2 S01, F17/F18) „materiale, geistige und soziale Umgebung“ bzw. „produktive Auseinandersetzung … Rückwirkungen“; Stein (ewb001.1 S04, F5) „materielle, soziale und institutionelle Umwelt“ + „gemeinsame Handlungspraxis“. Nadine (26.10.2026): alle Fassungen nebeneinander behalten."
+      ]
     },
     {
       "begriff": "Erziehung",
@@ -429,6 +433,106 @@
       "wortlaut": "Benachteiligungsansätze · Differenztheoretische Ansätze · Geschlecht als soziale Konstruktion",
       "erklaerung": "Drei Linien, die sich nicht ablösen: Gleichstellung, Wert weiblicher Lebensweisen, Dekonstruktion von Zweigeschlechtlichkeit.",
       "quelle": "ewb001.2_2026-10-27 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Sozialisation (Stein 2017)",
+      "wortlaut": "Befasst sich mit der Auseinandersetzung zwischen dem Individuum und der Gesellschaft. • umfasst alle Prozesse der Persönlichkeitswerdung des Menschen in Auseinandersetzung mit der materiellen, sozialen und institutionellen Umwelt. • umfasst Entwicklung einer gemeinsamen Handlungspraxis in einer Gesellschaft, also das Herausbilden von Werten, Normen, Kommunikationsstrukturen und Rollenmustern (Stein, 2017, S. 20/21)",
+      "erklaerung": "Stein-Fassung aus ewb001.1 – laut Video wörtlich lernen. Etymologie: lat. sociare = verbinden. Steht neben der Rieckmann-Definition (ewb001.2 S01).",
+      "quelle": "ewb001.1_2026-11-03 · Folie 5–6",
+      "abweichungen": [
+        "Unterschiedliche Fassungen: Rieckmann (ewb001.2 S01, F17/F18) „materiale, geistige und soziale Umgebung“ bzw. „produktive Auseinandersetzung … Rückwirkungen“; Stein (ewb001.1 S04, F5) „materielle, soziale und institutionelle Umwelt“ + „gemeinsame Handlungspraxis“. Nadine (26.10.2026): alle Fassungen nebeneinander behalten."
+      ]
+    },
+    {
+      "begriff": "Anlagefaktoren / innere Realität (Hurrelmann)",
+      "wortlaut": "Anlage: genetische Veranlagung, körperliche Konstitution, Intelligenz, psychisches Temperament, Grundstrukturen der Persönlichkeit – Innere Realität (Hurrelmann, 2006)",
+      "erklaerung": "Die biologisch-genetischen Voraussetzungen einer Person.",
+      "quelle": "ewb001.1_2026-11-03 · Folie 12–13",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Umweltfaktoren / äußere Realität (Hurrelmann)",
+      "wortlaut": "Umwelt: Familie/Freund*innen, Kinderbetreuung, Bildungseinrichtung, soziale Organisationen, Massenmedien, Wohnbedingungen, physikalische Umwelt – Äußere Realität (Hurrelmann, 2006)",
+      "erklaerung": "Alle sozialen, institutionellen und materiellen Einflussgrößen auf die Sozialisation.",
+      "quelle": "ewb001.1_2026-11-03 · Folie 12–13",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Exogenistische Theorien",
+      "wortlaut": "Umwelt nimmt aktiv Einfluss auf den Menschen; Umwelteinflüsse bedingen direkt kausal Veränderungen; Mensch als „unbeschriebenes Blatt“ ist passiv und Manipulation durch die Umwelt ausgesetzt; Mensch und seine Entwicklung völlig durch äußere Reize kontrolliert; Beispiel Behaviorismus (z.B. in der Lesart nach Watson, 1928)",
+      "erklaerung": "Subjekt passiv, Umwelt aktiv – „exo“ = von außen.",
+      "quelle": "ewb001.1_2026-11-03 · Folie 15",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Endogenistische Theorien",
+      "wortlaut": "Mensch und die Umwelt passiv auf die Entfaltung der Erbanlagen bezogen; Zentrales Thema: Reifung „automatische“ gengesteuerte Entfaltung biologischer Strukturen ohne eigenes Zutun; wird durch Anlagen bestimmt, folgt einem feststehenden inneren Programm; Die Umwelt nimmt nur unterstützend Einfluss; Beispiel: Nativismus (z.B. in der Lesart nach Eibl-Eibesfeld, 1991)",
+      "erklaerung": "Subjekt und Umwelt passiv – „endo“ = von innen, die Erbanlagen bestimmen die Entwicklung.",
+      "quelle": "ewb001.1_2026-11-03 · Folie 23",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Selbstgestaltungstheorien",
+      "wortlaut": "Umwelt ist passiv; Mensch ist aktiv; stellt den Problemen, denen er in seiner Umwelt begegnet, und begibt sich nach deren Lösung auf die nächst höhere Entwicklungsstufe; Mensch als erkennendes und reflexives Wesen …; Bsp. Konstruktivismus (z.B. in der Lesart nach Piaget, 1932)",
+      "erklaerung": "Subjekt aktiv, Umwelt passiv – bleibt unidirektional (Folie 37).",
+      "quelle": "ewb001.1_2026-11-03 · Folie 35",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Interaktionistische Theorien",
+      "wortlaut": "Mensch als auch Umwelt aktiv; … Nicht nur das Individuum wird von seiner Umwelt geformt, sondern diese wird auch von ihm selbst gestaltet; Bsp.: Systemtheorien (z.B. in der Lesart nach Bronfenbrenner, 1981)",
+      "erklaerung": "Beide aktiv und in Wechselwirkung – heute der präferierte Ansatz.",
+      "quelle": "ewb001.1_2026-11-03 · Folie 39",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Klassische Konditionierung (Pawlow)",
+      "wortlaut": "Erkenntnisse aus den Tierexperimenten werden auf den Menschen übertragen (klassische Konditionierung) (Stangl, 2020)",
+      "erklaerung": "Ein neutraler Reiz (Glocke) wird durch Kopplung mit einem unkonditionierten Reiz (Futter) zum konditionierten Reiz und löst allein die konditionierte Reaktion (Speichelfluss) aus.",
+      "quelle": "ewb001.1_2026-11-03 · Folie 17; Video",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Operante Konditionierung (Skinner)",
+      "wortlaut": "Annahme: Der Mensch zeigt dasjenige Verhalten, das belohnt wird und unterlässt ein Verhalten, das nicht belohnt oder sogar bestraft wird (z.B. Skinner).",
+      "erklaerung": "Lernen durch Konsequenzen; diskontinuierliche Verstärkung wirkt besonders stark (Video).",
+      "quelle": "ewb001.1_2026-11-03 · Folie 18",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Sensible / kritische Phasen",
+      "wortlaut": "Verhaltenstendenzen bzw. Instinkte evolutionär bedingt, Schlüsselreize lösen das Verhalten aus; Kritische Phasen mit maximaler Wirkung (Eibl-Eibesfeld, 1991)",
+      "erklaerung": "Zeitfenster, in denen sich Fähigkeiten (z. B. Sprache) optimal entwickeln; werden sie verpasst, ist das kaum nachzuholen (wilde, isolierte, eingesperrte Kinder).",
+      "quelle": "ewb001.1_2026-11-03 · Folie 24–25",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Systemebenen (Bronfenbrenner)",
+      "wortlaut": "Mikrosysteme: Einzelsysteme, die in unmittelbarer, persönlicher Beziehungen zum Menschen stehen · Mesosystem: Beziehung zwischen den Mikrosystemen · Exosystem: Beziehungsgeflecht, das indirekt die Person beeinflusst, da ihm Bezugspersonen der Person angehören · Makrosystem: Alle Einflussgrößen der Gesellschaft · Chronosysteme: zeitliche bzw. biographische Dimension der Entwicklung",
+      "erklaerung": "Ebenen, auf denen Umwelt auf eine Referenzperson wirkt – von der Familie bis zur Gesellschaft und über die Zeit.",
+      "quelle": "ewb001.1_2026-11-03 · Folie 40",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Sozialisationsinstanzen",
+      "wortlaut": "Vermittlung der gesellschaftlichen Wirklichkeit in Interaktion und Kommunikation (Stein, 2017, S. 23): 1. Familie, 2. Schule, 3. Universität, Beruf",
+      "erklaerung": "Die Systeme, die die Gesellschaft direkt an den Einzelnen herantragen.",
+      "quelle": "ewb001.1_2026-11-03 · Folie 46",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Soziabilisierung · Enkulturation · Individuation",
+      "wortlaut": "Instanz der primären Sozialisation Familie – Prozess der Soziabilisierung · Instanz der sekundären Sozialisation Schule – Prozess der Enkulturation · Instanz der tertiären Sozialisation Arbeitswelt und Universität – Prozess der Individuation",
+      "erklaerung": "Familie: Grundfertigkeiten, Urvertrauen, Grundwerte · Schule: Kulturtechniken, Normen, Regeln · Uni/Beruf: eigene politische und gesellschaftliche Überzeugung.",
+      "quelle": "ewb001.1_2026-11-03 · Folie 47",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Genogramm",
+      "wortlaut": "Beispiel für die grafische Darstellung von Umweltbeziehungen und Sozialisationsinstanzen: Genogramm",
+      "erklaerung": "Zeigt die soziale Umwelt (wichtige frühere und gegenwärtige Bezugspersonen) mit festen Symbolen – nichts mit Genen.",
+      "quelle": "ewb001.1_2026-11-03 · Folie 49–50",
       "abweichungen": []
     }
   ]

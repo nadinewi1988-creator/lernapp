@@ -1,0 +1,1209 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb001",
+  "teilmodul": "ewb001.1",
+  "datum": "2026-11-03",
+  "sitzung_nr": 4,
+  "sitzung_id": "",
+  "thema": "Sozialisation I – Begriffsklärung, Phasen des Sozialisationsprozesses, Umwelt-Anlage-Diskurs",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Asynchrone Courseware-Einheit 4 (Folien + eingesprochenes Video aus einem früheren Semester), vorab aufbereitet am 26.10.2026. Die Präsenz am 03.11. ist die Fragestunde „Einführung in die Erziehungswissenschaft und Menschenbilder“ (siehe Hausaufgaben aus S02 und S03).",
+  "quellen": [
+    {
+      "datei": "ewb001.1/2._Präsentationen/ewb001.1_4__Sitzung_Sozialisation_I.pdf",
+      "art": "Folien",
+      "seiten": "1–65"
+    },
+    {
+      "datei": "ewb001.1/3._Videos Courseware Kopie/Sitzung_04/ewb001.1_4__Sitzung_Transkript_Zusammenfassung.docx",
+      "art": "Transkript des eingesprochenen Videos (79 Min.)",
+      "seiten": ""
+    },
+    {
+      "datei": "ewb001.1/5._Lernzielkontrollen/4_Lernzielkontrolle_Sozialisation_I_Anlage-Umwelt.pptx",
+      "art": "Lernzielkontrolle „Wer wird Millionär“ (15 Fragen, Lösung per Animation markiert)",
+      "seiten": "1–18"
+    },
+    {
+      "datei": "ewb001.1/1._Organisatorisches/Zusammenfassung_ewb001.1_Stein_end.pdf",
+      "art": "Kurzskript",
+      "seiten": "6–8"
+    },
+    {
+      "datei": "Literatur/Stein_2017_Allgemeine-Paedagogik.pdf",
+      "art": "Literatur (zitiert)",
+      "seiten": "20–30, 93–98, 120–123"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Du kannst Sozialisation nach Stein (2017) definieren und erklären, warum sie ein bidirektionaler und lebenslanger Prozess ist.",
+      "art": "abgeleitet",
+      "quelle": "Folien 5–8; Video (Merkpunkte für die Klausur)",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03",
+        "f04",
+        "f22",
+        "z01"
+      ],
+      "erklaerung_abschnitt": "Was ist Sozialisation?"
+    },
+    {
+      "text": "Du kannst Anlage- und Umweltfaktoren nach Hurrelmann unterscheiden und das Vierfelder-Schema der Theorien (Oerter & Montada) erklären.",
+      "art": "abgeleitet",
+      "quelle": "Folien 10–14",
+      "fragen": [
+        "f05",
+        "f06",
+        "f07",
+        "f08",
+        "z02",
+        "z03"
+      ],
+      "erklaerung_abschnitt": "Anlage-Umwelt-Diskurs: Faktoren und Vierfelder-Schema"
+    },
+    {
+      "text": "Du kannst exogenistische (Behaviorismus) und endogenistische Theorien (Nativismus) mit ihren Beispielen erläutern.",
+      "art": "abgeleitet",
+      "quelle": "Folien 15–33; Video",
+      "fragen": [
+        "f09",
+        "f10",
+        "f11",
+        "f12",
+        "f13",
+        "z04",
+        "z05",
+        "z06",
+        "z07",
+        "z08",
+        "z09"
+      ],
+      "erklaerung_abschnitt": "Exogenistische Theorien: Behaviorismus"
+    },
+    {
+      "text": "Du kannst Selbstgestaltungstheorien und interaktionistische Theorien abgrenzen und Bronfenbrenners Systemebenen anwenden.",
+      "art": "abgeleitet",
+      "quelle": "Folien 35–41; Video",
+      "fragen": [
+        "f14",
+        "f15",
+        "f16",
+        "z10"
+      ],
+      "erklaerung_abschnitt": "Selbstgestaltung und Interaktionismus: Piaget und Bronfenbrenner"
+    },
+    {
+      "text": "Du kannst die Logik von Zwillingsstudien erklären.",
+      "art": "abgeleitet",
+      "quelle": "Folien 42–44; Video",
+      "fragen": [
+        "f17",
+        "z11"
+      ],
+      "erklaerung_abschnitt": "Zwillingsstudien"
+    },
+    {
+      "text": "Du kannst die drei Sozialisationsinstanzen mit ihren Prozessen nennen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 45–47",
+      "fragen": [
+        "f18",
+        "f19",
+        "z12",
+        "z13",
+        "z14"
+      ],
+      "erklaerung_abschnitt": "Sozialisationsinstanzen"
+    },
+    {
+      "text": "Du kannst ein Genogramm lesen und zeichnen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 48–56",
+      "fragen": [
+        "f20",
+        "f21",
+        "z15"
+      ],
+      "erklaerung_abschnitt": "Genogramm"
+    }
+  ],
+  "kurzfassung": [
+    "Sozialisation (Stein 2017) umfasst alle Prozesse der Persönlichkeitswerdung in Auseinandersetzung mit materieller, sozialer und institutioneller Umwelt sowie die Entwicklung einer gemeinsamen Handlungspraxis; lat. sociare = verbinden.",
+    "Sozialisation ist bidirektional und lebenslang – sonst gäbe es keinen Wertewandel.",
+    "Hurrelmann: Anlage (innere Realität) und Umwelt (äußere Realität) wirken zusammen; kein Merkmal ist rein genetisch oder rein umweltbedingt.",
+    "Vierfelder-Schema (Oerter & Montada): exogenistisch (Behaviorismus), endogenistisch (Nativismus), Selbstgestaltung (Piaget), interaktionistisch (Bronfenbrenner).",
+    "Behaviorismus: klassische (Pawlow) und operante Konditionierung (Skinner); tabula rasa und Watson-Zitat.",
+    "Nativismus: Reifung, Schlüsselreize, sensible Phasen – Belege: wilde, isolierte, eingesperrte Kinder.",
+    "Piaget bleibt unidirektional; Bronfenbrenner: Mensch und Umwelt aktiv, Mikro-, Meso-, Exo-, Makro-, Chronosystem.",
+    "Sozialisationsinstanzen: Familie (Soziabilisierung), Schule (Enkulturation), Beruf/Uni (Individuation); das Genogramm zeigt die soziale Umwelt."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Was ist Sozialisation?",
+      "text": "**Gliederung des Bereichs „Sozialisation“ (Folie 3)** – drei Sitzungen: Definition · Anlage-Umwelt-Diskurs · Sozialisationsinstanzen (Familie, Schule, Beruf) · Theorien der Sozialisation (Struktur-Funktionalismus – Parsons; Symbolischer Interaktionismus – Goffman; Habitustheorie – Bourdieu; ab S05).\n\n> **Definition (Stein 2017, S. 20/21; Folie 5 – laut Video wörtlich lernen):** Sozialisation befasst sich mit der Auseinandersetzung zwischen dem Individuum und der Gesellschaft.\n> - umfasst alle Prozesse der Persönlichkeitswerdung des Menschen in Auseinandersetzung mit der materiellen, sozialen und institutionellen Umwelt.\n> - umfasst Entwicklung einer gemeinsamen Handlungspraxis in einer Gesellschaft, also das Herausbilden von Werten, Normen, Kommunikationsstrukturen und Rollenmustern\n\n| Umwelt | Beispiele (Video) |\n| --- | --- |\n| materiell | Wohnumgebung: Armut und beengte Verhältnisse oder großzügige Umgebung mit Freizeit- und Bildungsangeboten |\n| sozial | Familienmitglieder, Verbände, Nachbarschaft, Freund*innen, Peers |\n| institutionell | Kindergarten, Schule, Universität; Rechtsstaat, politische Strukturen, Finanzsystem |\n\n**Etymologie (Folie 6):** lat. *sociare* = verbinden → „Sozialisation stiftet das verbindende Band zwischen den Menschen und der Gesellschaft.“\n\n**Bidirektionaler Prozess (Folie 7):** Rückwirkung der Gesellschaft auf den Menschen – Rückwirkungen des Menschen auf die Gesellschaft. Laut Video ein häufiger Fehler, nur die erste Richtung zu sehen; Argument: Sonst gäbe es keinen Wertewandel.\n\n**Lebenslanger Prozess (Folie 8):** Beispiel Wertorientierung und religiöse Identität – Werte werden nicht passiv übernommen; Kinder und Jugendliche wirken auf ihre Eltern und die Gesellschaft zurück (Wertewandel).\n\n*Zum Vergleich – Definition in ewb001.2 S01 (Rieckmann, Folie 18):* „lebenslanger, bidirektionaler Prozess, der die Persönlichkeitswerdung des Menschen in produktiver Auseinandersetzung mit seiner Umwelt und die Rückwirkungen des Menschen auf seine Umwelt beinhaltet“. Beide Definitionen stehen im Glossar nebeneinander.",
+      "beispiel": "",
+      "folien": "2–8"
+    },
+    {
+      "titel": "Anlage-Umwelt-Diskurs: Faktoren und Vierfelder-Schema",
+      "text": "**Arbeitsauftrag (Folie 10):** Was prägt die Person – Gene oder Umwelt? → Lösung siehe Aufgabe a01: Kein Merkmal ist rein genetisch oder rein umweltbedingt.\n\n**Anlage- und Umweltfaktoren (Hurrelmann 2006; Folien 11–13):**\n\n| Anlage = innere Realität | Umwelt = äußere Realität |\n| --- | --- |\n| genetische Veranlagung | Familie/Freund*innen |\n| körperliche Konstitution | Kinderbetreuung |\n| Intelligenz | Bildungseinrichtung |\n| psychisches Temperament | soziale Organisationen |\n| Grundstrukturen der Persönlichkeit | Massenmedien · Wohnbedingungen · physikalische Umwelt |\n\nDie Persönlichkeitsentwicklung vollzieht sich im Zusammenspiel von innerer und äußerer Realität. Video: Zum Temperament gehören z. B. Extraversion/Introversion und Neurotizismus; Massenmedien gelten als „heimliche Miterzieher“.\n\n**Typologie der Theorien (angelehnt an Oerter & Montada 1987; Folie 14)** – laut Video klausurträchtig:\n\n| | Umwelt aktiv | Umwelt passiv |\n| --- | --- | --- |\n| **Subjekt aktiv** | Interaktionistische Theorien | Selbstgestaltungstheorien |\n| **Subjekt passiv** | Exogenistische Theorien | Endogenistische Theorien |\n\nEselsbrücke (Video): *exo* = außen → die Umwelt macht die Arbeit; *endo* = innen → die Erbanlagen; *Selbstgestaltung* → das Subjekt; *Interaktion* → beide. Heute vorgezogen: der interaktionistische (systemische) Ansatz.",
+      "beispiel": "",
+      "folien": "9–14, 22, 34, 38"
+    },
+    {
+      "titel": "Exogenistische Theorien: Behaviorismus",
+      "text": "**Folie 15** (Stein 2017, S. 23/24 und S. 93–98):\n- Umwelt nimmt aktiv Einfluss auf den Menschen; Umwelteinflüsse bedingen direkt kausal Veränderungen\n- Mensch als „unbeschriebenes Blatt“ ist passiv und Manipulation durch die Umwelt ausgesetzt\n- Mensch und seine Entwicklung völlig durch äußere Reize kontrolliert\n- Beispiel Behaviorismus (z. B. in der Lesart nach Watson, 1928)\n\n**Menschenbild (Folie 16):** Dominanz der Umwelt – Entwicklungspsychologie = Lernpsychologie (Stangl 2020). Video: Der Mensch als „Black Box“ zwischen Input und Output; Vertreter Pawlow, Watson, Skinner, Hull.\n\n**Klassische Konditionierung (Pawlow, 1849–1936; Folie 17):** Tierexperimente werden auf den Menschen übertragen.\n\n| Begriff | Pawlows Hund |\n| --- | --- |\n| unkonditionierter (unbedingter) Reiz | Futter |\n| unbedingte Reaktion | Speichelfluss auf das Futter |\n| neutraler Reiz | Glockenton – zunächst ohne Reaktion |\n| konditionierter Reiz | Glockenton nach wiederholter Kopplung mit Futter |\n| konditionierte Reaktion | Speichelfluss schon beim Glockenton |\n\nVideo: Bauchschmerzen beim Anblick des Schulgebäudes nach schlechten Erfahrungen; Experiment „kleiner Albert“.\n\n**Operante Konditionierung (Skinner; Folie 18):** Der Mensch zeigt dasjenige Verhalten, das belohnt wird, und unterlässt ein Verhalten, das nicht belohnt oder sogar bestraft wird. Video: Diskontinuierliche Verstärkung wirkt besonders stark (Spielautomat).\n\n**Tabula rasa (Folie 19):** Der neugeborene Mensch ist ein „leeres Blatt Papier“ (John Locke). Watson (1928): „Gebt mir ein Dutzend Kinder und eine Welt, in der ich sie aufziehen kann. Ich garantiere dann, dass ich jedes zu dem mache, was ich möchte: Arzt, Rechtsanwalt, Künstler, Unternehmer oder auch Bettler und Dieb.“\n\n**Beispiele (Folien 20–21):** „Baby in Box“ (Skinner – Tochter Deborah) · programmierter Unterricht. Kritik der Dozentin: Die soziale Komponente fehlt.",
+      "beispiel": "",
+      "folien": "15–21"
+    },
+    {
+      "titel": "Endogenistische Theorien: Nativismus und sensible Phasen",
+      "text": "**Folie 23** (Stein 2017, S. 23/24):\n- Mensch und die Umwelt passiv auf die Entfaltung der Erbanlagen bezogen\n- Zentrales Thema: **Reifung** – „automatische“ gengesteuerte Entfaltung biologischer Strukturen ohne eigenes Zutun; wird durch Anlagen bestimmt, folgt einem feststehenden inneren Programm\n- Die Umwelt nimmt nur unterstützend Einfluss, ist für die Ausbildung der Merkmale nicht zwingend notwendig\n- Beispiel: Nativismus (z. B. in der Lesart nach Eibl-Eibesfeld, 1991)\n\n**Vergleichende Verhaltensforschung (Folien 24–33; auf den Folien „Ethnologie“, gemeint ist Ethologie):** Verhaltenstendenzen bzw. Instinkte evolutionär bedingt, **Schlüsselreize** lösen das Verhalten aus, **kritische Phasen** mit maximaler Wirkung. Video: Konrad Lorenz und die Prägung der Graugänse.\n\n**Kritische/sensible Phasen – drei Kategorien (Folie 25):** wilde Kinder · isolierte Kinder · eingesperrte Kinder\n- **Amala und Kamala** (wilde Kinder, Indien, 1920er): auf allen Vieren, schliefen zusammengerollt; lernten Wörter, aber keine komplexe Grammatik → sensible Phase des Spracherwerbs überschritten (Video)\n- **Jeffrey Baldwin** (eingesperrtes Kind): fünf Jahre ohne Ansprache und Förderung → geistige Retardierung und körperliche Auffälligkeiten (Video)\n\n**Folien 31–33:** Der Mensch ist auch hier eher passiv wie ein Tier; tierische Instinktverhaltensweisen werden übertragen (Imponiergehabe, Drohgebärden, Fortpflanzungsstrategien). Kritik der Dozentin: ebenso verkürzt wie der Behaviorismus.",
+      "beispiel": "",
+      "folien": "22–33"
+    },
+    {
+      "titel": "Selbstgestaltung und Interaktionismus: Piaget und Bronfenbrenner",
+      "text": "**Selbstgestaltungstheorien (Folie 35; Stein 2017, S. 120–123):**\n- Umwelt ist passiv, Mensch ist aktiv; stellt sich den Problemen in seiner Umwelt und begibt sich nach deren Lösung auf die nächsthöhere Entwicklungsstufe (meist Stufentheorien)\n- Mensch als erkennendes und reflexives Wesen, nicht durch biologische Reifung bestimmt, handelt ziel- und zukunftsorientiert; der gestalterische Einfluss nimmt mit dem Alter zu\n- Beispiel: Konstruktivismus (z. B. in der Lesart nach Piaget, 1932)\n\n**Folie 36 – Bild vom aktiven Menschen (Piaget):** Mensch = aktiver Gestalter seiner Entwicklung · Möglichkeit der Erkenntnis · Ziel- und Zukunftsorientierung · kein mechanisches Reagieren auf Reize · keine Determinierung durch biologische Reifung.\n\n> **Kritik (Folie 37):** Auch dieser Ansatz verbleibt auf der **unidirektionalen** Ebene der Beeinflussung, d. h. die Umwelt wird als passiv angesehen. Eine direkte systemische Wechselwirkung zwischen der Person und den Umweltvariablen wird nicht angenommen.\n\n**Interaktionistische Theorien (Folie 39; Stein 2017, S. 29/30):** Mensch als auch Umwelt aktiv · Entwicklungsanreize sind kulturelle Anforderungen, Normen, Wünsche anderer und materielle Umgebungsbedingungen · Nicht nur das Individuum wird von seiner Umwelt geformt, sondern diese wird auch von ihm selbst gestaltet · Beispiel: Systemtheorien (z. B. Bronfenbrenner, 1981). Heute der präferierte Ansatz.\n\n**Systemebenen nach Bronfenbrenner (Folie 40)** – Referenzsystem z. B. ein Kind:\n\n| Ebene | Bedeutung | Beispiel |\n| --- | --- | --- |\n| Mikrosysteme | Einzelsysteme in unmittelbarer, persönlicher Beziehung | Familienmitglieder |\n| Mesosystem | Beziehung zwischen den Mikrosystemen | innerhalb der Familie, Klassengemeinschaft |\n| Exosystem | Beziehungsgeflecht, das indirekt beeinflusst, da ihm Bezugspersonen angehören | religiöse Gemeinschaft des Vaters, Arbeitsstelle der Eltern |\n| Makrosystem | alle Einflussgrößen der Gesellschaft | Gesetze, Kultur |\n| Chronosysteme | zeitliche bzw. biographische Dimension | Studienbeginn, Sitzenbleiben |\n\n**Gleichgewicht (Folie 41):** Zusammenspiel der aktiven Systeme Mensch und Umwelt; Austauschbeziehungen. Entwicklung = Übergang vom Ungleichgewicht ins Gleichgewicht (Video: Geburt eines Kindes, Hunger, Studienbeginn).",
+      "beispiel": "",
+      "folien": "35–41"
+    },
+    {
+      "titel": "Zwillingsstudien",
+      "text": "**Folien 42–44** (Gerrig & Zimbardo 2014; Stein 2017): Abschätzung des Einflusses von Genen und Umwelt.\n\n| | gemeinsam aufgewachsen | getrennt aufgewachsen |\n| --- | --- | --- |\n| **eineiige Zwillinge** | Gene und Umwelt gleich | Gene gleich (Umwelt verschieden) |\n| **zweieiige Zwillinge** | Gene unterschiedlich, Umwelt gleich | Gene und Umwelt unterschiedlich |\n\n**Schlussfolgerungslogik (Video):**\n- Getrennt aufgewachsene eineiige Zwillinge entwickeln sich ähnlich → Hinweis auf starken **genetischen** Einfluss.\n- Getrennt aufgewachsene eineiige Zwillinge entwickeln sich völlig unterschiedlich → Hinweis auf **Umweltfaktoren**.\n- Gemeinsam aufgewachsene zweieiige Zwillinge zeigen dasselbe Merkmal → Hinweis auf die **Umwelt**.\n\nZweieiige Zwillinge ähneln sich genetisch nur wie Geschwister mit zwei bis drei Jahren Altersabstand (Video).",
+      "beispiel": "",
+      "folien": "42–44"
+    },
+    {
+      "titel": "Sozialisationsinstanzen",
+      "text": "**Folie 46** (Stein 2017, S. 23): Vermittlung der gesellschaftlichen Wirklichkeit in Interaktion und Kommunikation – 1. Familie, 2. Schule, 3. Universität, Beruf. Laut Video klassische Klausurfrage:\n\n| | primäre Sozialisation | sekundäre Sozialisation | tertiäre Sozialisation |\n| --- | --- | --- | --- |\n| Instanz | **Familie** | **Schule** | **Arbeitswelt und Universität** |\n| Prozess | **Soziabilisierung** | **Enkulturation** | **Individuation** |\n| Inhalte | Einführung in die basalen Grundfertigkeiten einer Gesellschaft (Sprache etc.); (Ur-)Vertrauensentwicklung; Erlernen grundlegender Werte | Erlernen grundlegender Kulturtechniken (Schrift, Mathematik etc.); Erlernen von Normen, Regeln, Konventionen | Herausbildung einer eigenständigen Überzeugung politischer, gesellschaftlicher Art; lebenslanger Prozess der Menschwerdung |\n\nVideo: In der Schule lernen Kinder unter Gleichaltrigen und Gleichberechtigten, sich über Regeln, Fairness und Gerechtigkeit zu verständigen (Piaget, moralische Entwicklung) – das ist in der Familie mit ihrem Generationengefälle so nicht lernbar.",
+      "beispiel": "",
+      "folien": "45–47"
+    },
+    {
+      "titel": "Genogramm",
+      "text": "**Folien 48–50:** Beispiel für die grafische Darstellung von Umweltbeziehungen und Sozialisationsinstanzen. Laut Video zeigt ein Genogramm **nur die soziale Umwelt** (wichtige frühere und gegenwärtige Bezugspersonen) und hat **nichts mit der Genstruktur** zu tun. Einsatz z. B. in Erziehungsberatungsstellen, Schule, außerschulischer Arbeit.\n\n| Symbol | Bedeutung |\n| --- | --- |\n| Quadrat | männliche Personen |\n| Kreis | weibliche Personen |\n| Kreuz | verstorbene Personen |\n| durchgehende Linien | (Ehe)partner*innenbeziehungen |\n| gestrichelte Linie | Freundschaftsbeziehung |\n| unterbrochene Linien | gescheiterte Beziehungen |\n| Doppelkreis/doppeltes Symbol (Video) | Referenzperson |\n\nDie Zuordnung Quadrat/Kreis ist laut Video eine Konvention – entscheidend ist eine einheitliche, verständliche Darstellung.\n\n**Übungen (Folien 51–56):** vom Genogramm zur Beschreibung (Ulla Abt-Windig, Sarah Brückner, Fall Dean) und von der Fallbeschreibung zum Genogramm (Familie S.) – Lösungen siehe Aufgaben a02–a05.",
+      "beispiel": "",
+      "folien": "48–56"
+    },
+    {
+      "titel": "Abschluss, Übung, Reflexion und Literatur",
+      "text": "- **Abschluss (Folie 57):** zwei oder drei Kernsätze notieren (Aufgabe a06).\n- **Übungsaufgabe (Folie 58):** Sozialisation und der Zusammenhang der vier Grundbegriffe → Hausaufgabe h01 (fällig 24.11.).\n- **Reflexion (Folie 59):** „Diese Personen prägten mich“ – eigenes Genogramm → Hausaufgabe h02 (fällig 24.11.; persönliche Ausarbeitung nur in deinem Ordner).\n\n**Literatur (Folien 60–61):** Bronfenbrenner 1981 · Eibl-Eibesfeld 1991 · Gerrig & Zimbardo 2014 · Hurrelmann 2006 · Oerter & Montada 1987 · Piaget 1932 · Stangl 2020 · Stein 2017 · Watson 1928. In deinem Ordner liegen Stein 2017 (`Literatur/`) und ein Auszug aus Bronfenbrenner (`ewb001.1/4._Literatur`).\n\n**Weiterführende Literatur (Folien 62–64):** zu Sozialisationstheorien, Lerntheorien und Entwicklungspsychologie; für angehende Lehrkräfte empfohlen: Tücke (2007).",
+      "beispiel": "",
+      "folien": "57–64"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Sozialisation (Stein 2017)",
+      "wortlaut": "Befasst sich mit der Auseinandersetzung zwischen dem Individuum und der Gesellschaft. • umfasst alle Prozesse der Persönlichkeitswerdung des Menschen in Auseinandersetzung mit der materiellen, sozialen und institutionellen Umwelt. • umfasst Entwicklung einer gemeinsamen Handlungspraxis in einer Gesellschaft, also das Herausbilden von Werten, Normen, Kommunikationsstrukturen und Rollenmustern (Stein, 2017, S. 20/21)",
+      "erklaerung": "Stein-Fassung aus ewb001.1 – laut Video wörtlich lernen. Etymologie: lat. sociare = verbinden. Steht neben der Rieckmann-Definition (ewb001.2 S01).",
+      "folie": "5–6"
+    },
+    {
+      "begriff": "Anlagefaktoren / innere Realität (Hurrelmann)",
+      "wortlaut": "Anlage: genetische Veranlagung, körperliche Konstitution, Intelligenz, psychisches Temperament, Grundstrukturen der Persönlichkeit – Innere Realität (Hurrelmann, 2006)",
+      "erklaerung": "Die biologisch-genetischen Voraussetzungen einer Person.",
+      "folie": "12–13"
+    },
+    {
+      "begriff": "Umweltfaktoren / äußere Realität (Hurrelmann)",
+      "wortlaut": "Umwelt: Familie/Freund*innen, Kinderbetreuung, Bildungseinrichtung, soziale Organisationen, Massenmedien, Wohnbedingungen, physikalische Umwelt – Äußere Realität (Hurrelmann, 2006)",
+      "erklaerung": "Alle sozialen, institutionellen und materiellen Einflussgrößen auf die Sozialisation.",
+      "folie": "12–13"
+    },
+    {
+      "begriff": "Exogenistische Theorien",
+      "wortlaut": "Umwelt nimmt aktiv Einfluss auf den Menschen; Umwelteinflüsse bedingen direkt kausal Veränderungen; Mensch als „unbeschriebenes Blatt“ ist passiv und Manipulation durch die Umwelt ausgesetzt; Mensch und seine Entwicklung völlig durch äußere Reize kontrolliert; Beispiel Behaviorismus (z.B. in der Lesart nach Watson, 1928)",
+      "erklaerung": "Subjekt passiv, Umwelt aktiv – „exo“ = von außen.",
+      "folie": "15"
+    },
+    {
+      "begriff": "Endogenistische Theorien",
+      "wortlaut": "Mensch und die Umwelt passiv auf die Entfaltung der Erbanlagen bezogen; Zentrales Thema: Reifung „automatische“ gengesteuerte Entfaltung biologischer Strukturen ohne eigenes Zutun; wird durch Anlagen bestimmt, folgt einem feststehenden inneren Programm; Die Umwelt nimmt nur unterstützend Einfluss; Beispiel: Nativismus (z.B. in der Lesart nach Eibl-Eibesfeld, 1991)",
+      "erklaerung": "Subjekt und Umwelt passiv – „endo“ = von innen, die Erbanlagen bestimmen die Entwicklung.",
+      "folie": "23"
+    },
+    {
+      "begriff": "Selbstgestaltungstheorien",
+      "wortlaut": "Umwelt ist passiv; Mensch ist aktiv; stellt den Problemen, denen er in seiner Umwelt begegnet, und begibt sich nach deren Lösung auf die nächst höhere Entwicklungsstufe; Mensch als erkennendes und reflexives Wesen …; Bsp. Konstruktivismus (z.B. in der Lesart nach Piaget, 1932)",
+      "erklaerung": "Subjekt aktiv, Umwelt passiv – bleibt unidirektional (Folie 37).",
+      "folie": "35"
+    },
+    {
+      "begriff": "Interaktionistische Theorien",
+      "wortlaut": "Mensch als auch Umwelt aktiv; … Nicht nur das Individuum wird von seiner Umwelt geformt, sondern diese wird auch von ihm selbst gestaltet; Bsp.: Systemtheorien (z.B. in der Lesart nach Bronfenbrenner, 1981)",
+      "erklaerung": "Beide aktiv und in Wechselwirkung – heute der präferierte Ansatz.",
+      "folie": "39"
+    },
+    {
+      "begriff": "Klassische Konditionierung (Pawlow)",
+      "wortlaut": "Erkenntnisse aus den Tierexperimenten werden auf den Menschen übertragen (klassische Konditionierung) (Stangl, 2020)",
+      "erklaerung": "Ein neutraler Reiz (Glocke) wird durch Kopplung mit einem unkonditionierten Reiz (Futter) zum konditionierten Reiz und löst allein die konditionierte Reaktion (Speichelfluss) aus.",
+      "folie": "17; Video"
+    },
+    {
+      "begriff": "Operante Konditionierung (Skinner)",
+      "wortlaut": "Annahme: Der Mensch zeigt dasjenige Verhalten, das belohnt wird und unterlässt ein Verhalten, das nicht belohnt oder sogar bestraft wird (z.B. Skinner).",
+      "erklaerung": "Lernen durch Konsequenzen; diskontinuierliche Verstärkung wirkt besonders stark (Video).",
+      "folie": "18"
+    },
+    {
+      "begriff": "Sensible / kritische Phasen",
+      "wortlaut": "Verhaltenstendenzen bzw. Instinkte evolutionär bedingt, Schlüsselreize lösen das Verhalten aus; Kritische Phasen mit maximaler Wirkung (Eibl-Eibesfeld, 1991)",
+      "erklaerung": "Zeitfenster, in denen sich Fähigkeiten (z. B. Sprache) optimal entwickeln; werden sie verpasst, ist das kaum nachzuholen (wilde, isolierte, eingesperrte Kinder).",
+      "folie": "24–25"
+    },
+    {
+      "begriff": "Systemebenen (Bronfenbrenner)",
+      "wortlaut": "Mikrosysteme: Einzelsysteme, die in unmittelbarer, persönlicher Beziehungen zum Menschen stehen · Mesosystem: Beziehung zwischen den Mikrosystemen · Exosystem: Beziehungsgeflecht, das indirekt die Person beeinflusst, da ihm Bezugspersonen der Person angehören · Makrosystem: Alle Einflussgrößen der Gesellschaft · Chronosysteme: zeitliche bzw. biographische Dimension der Entwicklung",
+      "erklaerung": "Ebenen, auf denen Umwelt auf eine Referenzperson wirkt – von der Familie bis zur Gesellschaft und über die Zeit.",
+      "folie": "40"
+    },
+    {
+      "begriff": "Sozialisationsinstanzen",
+      "wortlaut": "Vermittlung der gesellschaftlichen Wirklichkeit in Interaktion und Kommunikation (Stein, 2017, S. 23): 1. Familie, 2. Schule, 3. Universität, Beruf",
+      "erklaerung": "Die Systeme, die die Gesellschaft direkt an den Einzelnen herantragen.",
+      "folie": "46"
+    },
+    {
+      "begriff": "Soziabilisierung · Enkulturation · Individuation",
+      "wortlaut": "Instanz der primären Sozialisation Familie – Prozess der Soziabilisierung · Instanz der sekundären Sozialisation Schule – Prozess der Enkulturation · Instanz der tertiären Sozialisation Arbeitswelt und Universität – Prozess der Individuation",
+      "erklaerung": "Familie: Grundfertigkeiten, Urvertrauen, Grundwerte · Schule: Kulturtechniken, Normen, Regeln · Uni/Beruf: eigene politische und gesellschaftliche Überzeugung.",
+      "folie": "47"
+    },
+    {
+      "begriff": "Genogramm",
+      "wortlaut": "Beispiel für die grafische Darstellung von Umweltbeziehungen und Sozialisationsinstanzen: Genogramm",
+      "erklaerung": "Zeigt die soziale Umwelt (wichtige frühere und gegenwärtige Bezugspersonen) mit festen Symbolen – nichts mit Genen.",
+      "folie": "49–50"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "Arbeitsauftrag: Was prägt Ihrer Meinung nach die Person: die Gene? die Umwelt?",
+      "quelle": "Folie 10",
+      "loesung": "*Lösung nach dem Video.*\n\n**Arbeitsauftrag:** *„Was prägt Ihrer Meinung nach die Person: die Gene? die Umwelt?“*\n\n**Antwort:** Beides – **kein Merkmal ist rein genetisch oder rein umweltbedingt.** Selbst die Körpergröße hängt von der Ernährung in der Kindheit ab; auch Intelligenz hat neben einem großen genetischen Anteil einen relevanten Umweltanteil. Die Dozentin nennt dazu das **Trichter- bzw. Ermöglichungsmodell** *(nicht auf den Folien)*: Die Gene spannen einen Möglichkeitsraum auf, die Umwelt entscheidet, ob man sich an dessen unterem oder oberem Ende bewegt (Beispiel: musikalische Begabung und Förderung). Nach Hurrelmann vollzieht sich die Persönlichkeitsentwicklung im Zusammenspiel von innerer (Anlage) und äußerer Realität (Umwelt).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "Arbeitsauftrag: Beschreiben Sie die familiäre Umweltstruktur!\n\n![Genogramm Folie 51](/dateien/ewb001/S04_2026-11-03_Folie51.png)",
+      "quelle": "Folie 51",
+      "loesung": "*Lösung nach dem Video.*\n\n**Arbeitsauftrag:** *„Beschreiben Sie die familiäre Umweltstruktur!“*\n\n**Antwort:** In der Beratung ist **Ulla Abt-Windig** (*1990, Doppelkreis = Referenzperson). Sie ist die Tochter von **Erwin Windig** (*1960) und **Maria Abt-Windig** (*1970). Ob die Eltern verheiratet sind oder in einer eheähnlichen Beziehung leben, ist aus der Grafik nicht eindeutig ablesbar („∞ ????“).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "text": "Arbeitsauftrag: Beschreiben Sie die familiäre Umweltstruktur!\n\n![Genogramm Folie 52](/dateien/ewb001/S04_2026-11-03_Folie52.png)",
+      "quelle": "Folie 52",
+      "loesung": "*Lösung nach dem Video, ergänzt aus der Grafik.*\n\n**Arbeitsauftrag:** *„Beschreiben Sie die familiäre Umweltstruktur!“*\n\n**Antwort:** In der Beratung ist **Sarah Brückner** (*1991, Referenzperson). Sie ist die Tochter von **René Brückner** (*1960) und **Anja Brückner** (*1970); der Ehestatus ist nicht eindeutig. Aus dieser Beziehung hat Sarah einen jüngeren Bruder, **Thomas** (*2004). Die Mutter hat mit einem **unbekannten** Partner drei weitere Kinder: **Sina** (*1998), **Tanja** und **Tim** (*2006) – Sarahs Halbgeschwister. Wie viel Kontakt zu ihnen besteht, ist unklar (gestrichelte Linie, „????“).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "text": "Arbeitsauftrag: Stellen Sie in einem Genogramm die geschilderte Familienkonstellation des sozialpädagogischen Falles dar!\nSandra S. (48 J.) und Heinz S. (51 J.) sind verheiratet und leben, seit Heinz 1990 arbeitslos wurde, von Sozialhilfe. Seit fünf Jahren ist Heinz alkoholabhängig. Im Haushalt leben auch die Töchter Marion (23 J.) und Melanie (20 J.) mit ihren drei Kindern Paul (5 J.), Sven (3 J.) und Swenja (1 J.). Marion lebt vom Vater Steven (31 J.) ihrer Kinder, mit dem sie verheiratet war, getrennt und hat Olaf (25 J.) als neuen Freund. Melanie lebt mit dem Vater ihrer Tochter Swenja, Peter (22 J.) zusammen, der gegenwärtig noch mit Maike (25 J.) verheiratet ist.",
+      "quelle": "Folie 53 (Lösung Folie 54)",
+      "loesung": "**Arbeitsauftrag:** *„Stellen Sie in einem Genogramm die geschilderte Familienkonstellation des sozialpädagogischen Falles dar!“*\n\n**Antwort (Musterlösung Folie 54):**\n\n![Musterlösung Genogramm Familie S. (Folie 54)](/dateien/ewb001/S04_2026-11-03_Folie54.png)\n\n- Heinz (Quadrat) und Sandra (Kreis) – durchgehende Linie mit Ehesymbol\n- Töchter Marion und Melanie (Kreise)\n- Marion – Steven (Quadrat): unterbrochene Linie mit Doppelstrich (getrennt, waren verheiratet); Kinder Paul und Sven (Quadrate)\n- Marion – Olaf (Quadrat): neue Partnerschaft\n- Melanie – Peter (Quadrat): Partnerschaft; Tochter Swenja (Kreis)\n- Peter – Maike (Kreis): noch verheiratet (Ehesymbol)\n- gestrichelte Linien: Haushaltszugehörigkeit bzw. Beziehungen im gemeinsamen Haushalt",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a05",
+      "art": "Aufgabe auf Folie",
+      "text": "Arbeitsauftrag (Video: „ganz knifflig“): Genogramm des Falls Dean (4) lesen und beschreiben (Fall einer Vechtaer Studentin, mit ihrem Einverständnis).",
+      "quelle": "Folien 55–56",
+      "loesung": "**Arbeitsauftrag:** *Genogramm des Falls Dean lesen und die familiäre Umweltstruktur beschreiben.*\n\n**Antwort (Folientext Folie 56):** Dean (4) wohnt mit Vanessa in einem Haushalt. Vanessa (31) hat sich von David (37), dem Vater, getrennt. Vanessa ist eines von drei Kindern von Birgit. Sie ist aus erster Ehe, mit dem kürzlich verstorbenen Rainer, hervorgegangen. Aus zweiter Ehe mit Detlef ist Nina (28) entstanden. Aus einer weiteren Beziehung mit Torsten ist das dritte Kind, Tom (18) hervorgegangen. Birgit ist mit keinem der Väter zusammen. Rainer war ein zweites Mal verheiratet. Mit Katrin hat er einen Sohn, Marvin (18). Die Ehe ist geschieden. Katrin ist jetzt mit Thomas verheiratet. Detlef ist verheiratet mit Regina. In dieser Ehe wurde eine Tochter geboren, Kira (20). Nina hat ein Kind (Mia, 1) mit Tobias, der wiederum einen Sohn aus einer früheren Beziehung hat. David ist eins von drei Kindern aus der geschiedenen Ehe zwischen Christiane und Manuel. Corinna ist das älteste, Manuel das jüngste Kind. Manuel (senior) hat aus einer zweiten Ehe zwei Töchter, Marysol und Nathalie. Nathalie hat ein Kind mit Dean. Manuel (senior) ist zum dritten Mal verheiratet (mit Sabine). Sabine bringt weitere Kinder in die Familie.\n\n*Hinweis: Im Genogramm (Folie 55) steht bei Vanessa „21 Jahre“, im Text 31; der Partner von Nathalie heißt ebenfalls Dean (21 Jahre) – nicht der vierjährige Dean.*",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a06",
+      "art": "Aufgabe auf Folie",
+      "text": "Abschluss: Welche Punkte aus der heutigen Veranstaltung finden Sie persönlich bedeutsam?",
+      "quelle": "Folie 57",
+      "loesung": "*Persönliche Reflexion – Beispiellösung (Dozentin: zwei oder drei Kernsätze notieren).*\n\n**Aufgabe:** *„Welche Punkte aus der heutigen Veranstaltung finden Sie persönlich bedeutsam?“*\n\n**Antwort (Beispiel):**\n1. Sozialisation ist bidirektional – Kinder prägen auch ihre Eltern und die Gesellschaft.\n2. Kein Merkmal ist rein genetisch oder rein umweltbedingt; eine fördernde Umwelt kann viel ermöglichen.\n3. Mit einem Genogramm lassen sich prägende Beziehungen sichtbar machen – auch frühere.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Hausaufgabe S04: Übung Sozialisation und die vier Grundbegriffe",
+      "text": "Übungsaufgabe: Was versteht man unter Sozialisation? Wie hängen die Begriffe Sozialisation, Erziehung, Bildung und Lernen miteinander zusammen?\n\nTeilaufgaben:\n1. Was versteht man unter Sozialisation?\n2. Wie hängen die Begriffe Sozialisation, Erziehung, Bildung und Lernen miteinander zusammen?",
+      "quelle": "Folie 58",
+      "loesung": "**Aufgabe 1:** *„Was versteht man unter Sozialisation?“*\n\n**Antwort:**\n\n> **Definition (Stein 2017, S. 20/21; Folie 5 – wörtlich lernen):** Sozialisation befasst sich mit der Auseinandersetzung zwischen dem Individuum und der Gesellschaft.\n> - Sie umfasst alle Prozesse der Persönlichkeitswerdung des Menschen in Auseinandersetzung mit der materiellen, sozialen und institutionellen Umwelt.\n> - Sie umfasst die Entwicklung einer gemeinsamen Handlungspraxis in einer Gesellschaft, also das Herausbilden von Werten, Normen, Kommunikationsstrukturen und Rollenmustern.\n\nErläuterung:\n- **Etymologie (Folie 6):** lat. *sociare* = verbinden – „Sozialisation stiftet das verbindende Band zwischen den Menschen und der Gesellschaft.“\n- **Drei Umwelten (Video):** *materiell* (z. B. Wohnumgebung, Armut oder Wohlstand), *sozial* (Familie, Freund*innen, Peers, Nachbarschaft), *institutionell* (Kita, Schule, Universität, Rechts- und Finanzsystem).\n- **Bidirektional (Folie 7):** Die Gesellschaft wirkt auf den Menschen zurück und der Mensch auf die Gesellschaft. Wäre Sozialisation nur einseitig, gäbe es keinen Wertewandel (Video).\n- **Lebenslang (Folie 8):** z. B. die Entwicklung einer eigenen Wertorientierung und religiösen Identität ist nie abgeschlossen; Kinder und Jugendliche wirken auch auf die Einstellungen ihrer Eltern zurück.\n- **Sozialisationsinstanzen (Folie 47):** Familie (primär – Soziabilisierung), Schule (sekundär – Enkulturation), Arbeitswelt und Universität (tertiär – Individuation).\n- **Ergänzend – zweite Definition (Rieckmann, ewb001.2 S01, Folie 18):** „lebenslanger, bidirektionaler Prozess, der die Persönlichkeitswerdung des Menschen in produktiver Auseinandersetzung mit seiner Umwelt und die Rückwirkungen des Menschen auf seine Umwelt beinhaltet“.\n\n**Aufgabe 2:** *„Wie hängen die Begriffe Sozialisation, Erziehung, Bildung und Lernen miteinander zusammen?“*\n\n**Antwort:** Die vier Begriffe sind die **vier Säulen der Pädagogik** (Stein 2017, S. 18). Sie beschreiben alle die Entwicklung des Menschen, aber auf **unterschiedlichen Ebenen** und mit unterschiedlicher **Absicht** (ewb001.1 S01 / ewb001.2 S01, Folien 16–17):\n\n| Begriff | Ebene | Kurzdefinition (Stein 2017, S. 18) | absichtlich? |\n| --- | --- | --- | --- |\n| **Sozialisation** | makrosozial | Persönlichkeitswerdung des Menschen im weitesten Sinne in der Auseinandersetzung mit der Umwelt | geplant **und** ungeplant |\n| **Erziehung** | interpersonell | Handlungen, durch die Menschen andere Menschen dauerhaft beeinflussen | geplant (intentional) |\n| **Bildung** | interpersonell (und intrapersonell als Selbstbildung) | Prozess, der das Hineinwachsen in eine Gemeinschaft in der Auseinandersetzung mit ihr beinhaltet | auch Selbstbildung |\n| **Lernen** | intrapersonell | Veränderungen im Verhalten oder im Verhaltensrepertoire im weitesten Sinne | auch unbewusst |\n\nSo hängen sie zusammen:\n1. **Sozialisation ist der umfassendste Begriff.** Sie umfasst alle geplanten (intentionalen) und ungeplanten (funktionalen) Einflüsse auf die Persönlichkeitswerdung (Kurzskript S. 13, Vorgriff auf „Erziehung I“).\n2. **Erziehung ist ein Teilbereich der Sozialisation:** die absichtlichen Maßnahmen von Eltern und Pädagog*innen in Kindheit und Jugend (Kurzskript S. 13). Beispiel: Ein Vater übt mit seiner Tochter, sich nach einem Streit zu entschuldigen (Erziehung) – dass sie nebenbei Pünktlichkeit als Wert übernimmt, ist Sozialisation (Tutorium 1, Aufgabe 8.1).\n3. **Lernen ist der Vorgang im Inneren der Person,** durch den sich Sozialisation, Erziehung und Bildung überhaupt erst auswirken: Ohne Lernen keine Veränderung. Lernen gibt es auf allen Altersstufen, auch zwischen Gleichberechtigten (Kurzskript S. 13).\n4. **Bildung geht über das Lernen hinaus:** Sie meint die eigene, aktive Auseinandersetzung mit der Gemeinschaft und der Welt – bis hin zu Mündigkeit (Klafki) und der Fähigkeit, sich mit Schlüsselproblemen auseinanderzusetzen. Sie geschieht im Austausch mit anderen (interpersonell) und als Selbstbildung (intrapersonell).\n\n**Merksatz** *(selbst formuliert)*: Sozialisation ist das „große Ganze“; Erziehung ist ihr absichtlicher Teil; Lernen ist das, was dabei in der Person passiert; Bildung ist die eigene, aktive Auseinandersetzung mit der Welt, die zu Mündigkeit führt.",
+      "loesungsweg": "Definition von Folie 5 wörtlich übernehmen und mit Folien 6–8 erläutern; für den Zusammenhang die Ebenen-Übersicht aus der ersten Sitzung (Folien 16–17) und die Abgrenzungen im Kurzskript (S. 13) heranziehen.",
+      "frist": "2026-11-24",
+      "im_kalender": true,
+      "fuer_sitzung": "ewb001.1_2026-11-24",
+      "kalender_id": "a0c57809-7ade-4bd2-9ff3-26d5fe96628f",
+      "pdf": "/dateien/ewb001/S07_2026-11-24_Hausaufgabe_Uebung_Sozialisation-und-die-vier-Grundbegriffe.pdf"
+    },
+    {
+      "id": "h02",
+      "art": "Hausaufgabe",
+      "titel": "Hausaufgabe S04: Reflexion Genogramm „Diese Personen prägten mich“",
+      "text": "Reflexion: Diese Personen prägten mich: Stellen Sie in einem Genogramm für Sie wichtige Bezugspersonen aus der Familie und dem Freundeskreis dar!\n\nTeilaufgaben:\n1. Stellen Sie die für Sie wichtigen Bezugspersonen in einem Genogramm dar.\n2. Beschreiben Sie die familiäre Umweltstruktur, die das Genogramm zeigt.\n3. Welche Personen und Sozialisationsinstanzen haben Sie geprägt?",
+      "quelle": "Folie 59",
+      "loesung": "**Persönliche Ausarbeitung – aus Datenschutzgründen nicht in der App.**\n\nDein Genogramm mit Beschreibung und Reflexion liegt in deinem Ordner:\n`ewb001 - WS 26:27/ewb001.1/Lesefassungen/S07_2026-11-24_Hausaufgabe_Reflexion_Genogramm_Diese-Personen-praegten-mich.pdf`\n\nInhalt: (1) Genogramm nach der Symbolik von Folie 50, (2) Beschreibung der familiären Umweltstruktur, (3) Einordnung mit Sozialisationsinstanzen, Bronfenbrenners Systemebenen, Anlage–Umwelt und Bidirektionalität.",
+      "loesungsweg": "Personen mit Alter sammeln, Symbole nach Folie 50 zuordnen, von der Referenzperson aus nach oben (Eltern) und unten (Kinder) zeichnen, Beziehungslinien setzen, dann Einordnung mit den Begriffen der Sitzung.",
+      "frist": "2026-11-24",
+      "im_kalender": true,
+      "fuer_sitzung": "ewb001.1_2026-11-24",
+      "kalender_id": "5deb48b5-3c98-4dd8-aaca-5244ba420e31",
+      "pdf": ""
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie definiert Stein (2017) Sozialisation?",
+      "antwort": "Sozialisation befasst sich mit der Auseinandersetzung zwischen dem Individuum und der Gesellschaft. Sie umfasst alle Prozesse der Persönlichkeitswerdung des Menschen in Auseinandersetzung mit der materiellen, sozialen und institutionellen Umwelt und umfasst die Entwicklung einer gemeinsamen Handlungspraxis in einer Gesellschaft, also das Herausbilden von Werten, Normen, Kommunikationsstrukturen und Rollenmustern.",
+      "erklaerung": "Definition Stein 2017, S. 20/21 (Folie 5) – laut Video wörtlich lernen.",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Sozialisation umfasst alle Prozesse der Persönlichkeitswerdung des Menschen in Auseinandersetzung mit der [[materiellen]], [[sozialen]] und [[institutionellen]] Umwelt. Der Begriff kommt von lateinisch sociare = [[verbinden]].",
+      "erklaerung": "Folien 5–6.",
+      "folie": "5–6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Beispiele der passenden Umwelt zu.",
+      "kategorien": [
+        "materielle Umwelt",
+        "soziale Umwelt",
+        "institutionelle Umwelt"
+      ],
+      "elemente": [
+        {
+          "text": "beengte Wohnverhältnisse in Armut",
+          "kategorie": "materielle Umwelt"
+        },
+        {
+          "text": "Zugang zu Freizeit- und Erholungsumwelten",
+          "kategorie": "materielle Umwelt"
+        },
+        {
+          "text": "Freundinnen und Freunde, Peers",
+          "kategorie": "soziale Umwelt"
+        },
+        {
+          "text": "Nachbarschaft und Familienmitglieder",
+          "kategorie": "soziale Umwelt"
+        },
+        {
+          "text": "Kindergarten, Schule, Universität",
+          "kategorie": "institutionelle Umwelt"
+        },
+        {
+          "text": "Rechtsstaat, politische Strukturen, Finanzsystem",
+          "kategorie": "institutionelle Umwelt"
+        }
+      ],
+      "erklaerung": "Die drei Umwelten mit Beispielen aus dem Video.",
+      "folie": "5; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum ist Sozialisation ein bidirektionaler und lebenslanger Prozess? Begründe mit einem Beispiel.",
+      "antwort": "Bidirektional: Die Gesellschaft wirkt auf den Menschen und der Mensch wirkt auf die Gesellschaft zurück. Wäre Sozialisation nur einseitig, gäbe es keinen Wertewandel. Lebenslang: Die Werteentwicklung ist nie abgeschlossen – z. B. bilden Kinder und Jugendliche eine eigene Wertorientierung und religiöse Identität aus, übernehmen Werte nicht passiv von den Eltern und wirken mit neuen Vorstellungen aus Schule und Peergroup auf die Einstellungen ihrer Eltern und der Gesellschaft zurück.",
+      "erklaerung": "Folien 7–8; laut Video häufiger Fehler: Sozialisation nur einseitig zu verstehen.",
+      "folie": "7–8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Faktoren nach Hurrelmann zu.",
+      "kategorien": [
+        "Anlage (innere Realität)",
+        "Umwelt (äußere Realität)"
+      ],
+      "elemente": [
+        {
+          "text": "genetische Veranlagung",
+          "kategorie": "Anlage (innere Realität)"
+        },
+        {
+          "text": "körperliche Konstitution",
+          "kategorie": "Anlage (innere Realität)"
+        },
+        {
+          "text": "Intelligenz",
+          "kategorie": "Anlage (innere Realität)"
+        },
+        {
+          "text": "psychisches Temperament",
+          "kategorie": "Anlage (innere Realität)"
+        },
+        {
+          "text": "Grundstrukturen der Persönlichkeit",
+          "kategorie": "Anlage (innere Realität)"
+        },
+        {
+          "text": "Familie/Freund*innen",
+          "kategorie": "Umwelt (äußere Realität)"
+        },
+        {
+          "text": "Kinderbetreuung",
+          "kategorie": "Umwelt (äußere Realität)"
+        },
+        {
+          "text": "Bildungseinrichtung",
+          "kategorie": "Umwelt (äußere Realität)"
+        },
+        {
+          "text": "Massenmedien",
+          "kategorie": "Umwelt (äußere Realität)"
+        },
+        {
+          "text": "Wohnbedingungen",
+          "kategorie": "Umwelt (äußere Realität)"
+        }
+      ],
+      "erklaerung": "Anlage- und Umweltfaktoren nach Hurrelmann (2006), Folien 12–13; laut Video auswendig aufzählen können.",
+      "folie": "12–13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum Anlage-Umwelt-Diskurs treffen laut Vorlesung zu?",
+      "optionen": [
+        "Kein Merkmal einer Person ist rein genetisch oder rein umweltbedingt.",
+        "Die Körpergröße ist ausschließlich genetisch bedingt.",
+        "Hurrelmann bezeichnet die Anlagefaktoren als innere, die Umweltfaktoren als äußere Realität.",
+        "Die Persönlichkeitsentwicklung vollzieht sich im Zusammenspiel von innerer und äußerer Realität.",
+        "Massenmedien zählen zu den Anlagefaktoren."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Arbeitsauftrag Folie 10 und Video: kein Merkmal ist rein genetisch oder rein umweltbedingt.",
+      "folie": "10–13; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Kombination dem passenden Theorietyp zu.",
+      "kategorien": [
+        "Exogenistische Theorien",
+        "Endogenistische Theorien",
+        "Selbstgestaltungstheorien",
+        "Interaktionistische Theorien"
+      ],
+      "elemente": [
+        {
+          "text": "Subjekt passiv – Umwelt aktiv",
+          "kategorie": "Exogenistische Theorien"
+        },
+        {
+          "text": "Subjekt passiv – Umwelt passiv",
+          "kategorie": "Endogenistische Theorien"
+        },
+        {
+          "text": "Subjekt aktiv – Umwelt passiv",
+          "kategorie": "Selbstgestaltungstheorien"
+        },
+        {
+          "text": "Subjekt aktiv – Umwelt aktiv",
+          "kategorie": "Interaktionistische Theorien"
+        }
+      ],
+      "erklaerung": "Vierfelder-Schema nach Oerter & Montada (1987), Folie 14 – laut Video klausurträchtig.",
+      "folie": "14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne Beispiel und Vertreter dem Theorietyp zu.",
+      "kategorien": [
+        "Exogenistische Theorien",
+        "Endogenistische Theorien",
+        "Selbstgestaltungstheorien",
+        "Interaktionistische Theorien"
+      ],
+      "elemente": [
+        {
+          "text": "Behaviorismus (Watson 1928)",
+          "kategorie": "Exogenistische Theorien"
+        },
+        {
+          "text": "Nativismus (Eibl-Eibesfeld 1991)",
+          "kategorie": "Endogenistische Theorien"
+        },
+        {
+          "text": "Konstruktivismus (Piaget 1932)",
+          "kategorie": "Selbstgestaltungstheorien"
+        },
+        {
+          "text": "Systemtheorien (Bronfenbrenner 1981)",
+          "kategorie": "Interaktionistische Theorien"
+        }
+      ],
+      "erklaerung": "Beispiele und Vertreter je Theorietyp (Folien 15, 23, 35, 39).",
+      "folie": "15–41",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Erkläre die klassische Konditionierung am Beispiel von Pawlows Hund mit den Fachbegriffen.",
+      "antwort": "Futter ist ein unkonditionierter (unbedingter) Reiz, der Speichelfluss die unbedingte Reaktion. Der Glockenton ist zunächst ein neutraler Reiz ohne Reaktion. Wird er wiederholt mit dem Futter gekoppelt, wird er zum konditionierten Reiz: Der Hund speichelt schließlich schon beim Glockenton allein – das ist die konditionierte Reaktion. Übertragen: Ein Kind mit schlechten Schulerfahrungen bekommt schon beim Anblick des Schulgebäudes Bauchschmerzen.",
+      "erklaerung": "Klassische Konditionierung (Pawlow), Terminologie laut Video.",
+      "folie": "17; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was besagt die operante (instrumentelle) Konditionierung nach Skinner, und welche Rolle spielt diskontinuierliche Verstärkung?",
+      "antwort": "Der Mensch zeigt dasjenige Verhalten, das belohnt wird, und unterlässt ein Verhalten, das nicht belohnt oder sogar bestraft wird. Laut Video wirkt eine diskontinuierliche Verstärkung (nur jedes x-te Mal belohnt) sogar besonders stark – damit lässt sich z. B. Suchtverhalten am Spielautomaten erklären.",
+      "erklaerung": "Operante Konditionierung (Skinner), Folie 18 und Video.",
+      "folie": "18; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen beschreiben das Menschenbild des Behaviorismus?",
+      "optionen": [
+        "Der Mensch ist ein „unbeschriebenes Blatt“ (tabula rasa) und passiv.",
+        "Entwicklungspsychologie = Lernpsychologie",
+        "Die Entwicklung folgt einem feststehenden genetischen Programm.",
+        "Watson: „Gebt mir ein Dutzend Kinder … Ich garantiere dann, dass ich jedes zu dem mache, was ich möchte …“",
+        "Der Mensch gestaltet seine Entwicklung als erkennendes Wesen selbst."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folien 15–21.",
+      "folie": "15–21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was kennzeichnet endogenistische (nativistische) Theorien, und welche Rolle spielen sensible Phasen?",
+      "antwort": "Mensch und Umwelt sind passiv auf die Entfaltung der Erbanlagen bezogen. Zentral ist die Reifung: die automatische, gengesteuerte Entfaltung biologischer Strukturen nach einem feststehenden inneren Programm; die Umwelt unterstützt nur. Verhalten wird durch Schlüsselreize ausgelöst; in kritischen bzw. sensiblen Phasen hat Erfahrung maximale Wirkung. Werden sie verpasst (wilde, isolierte, eingesperrte Kinder), lassen sich Fähigkeiten wie Sprache kaum nachholen.",
+      "erklaerung": "Endogenistische Theorien, Folien 23–25.",
+      "folie": "23–25",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu den Fallbeispielen der Nativisten treffen zu?",
+      "optionen": [
+        "Amala und Kamala gelten als „wilde Kinder“.",
+        "Amala und Kamala lernten einzelne Wörter, aber keine komplexe Grammatik.",
+        "Jeffrey Baldwin ist ein Beispiel für ein eingesperrtes Kind.",
+        "Jeffrey Baldwin entwickelte sich trotz Isolation unauffällig.",
+        "Die Fälle sollen zeigen, dass ungenutzte sensible Phasen Folgen haben."
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Fallbeispiele der Nativisten (Folien 25–30, Video).",
+      "folie": "25–30",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "vergleich",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Worin unterscheiden sich Selbstgestaltungstheorien (Piaget) und interaktionistische Theorien (Bronfenbrenner)?",
+      "musterloesung": "In beiden ist der Mensch aktiv. Bei den Selbstgestaltungstheorien (Konstruktivismus, Piaget) ist die Umwelt passiv: Der Mensch löst Probleme und steigt auf die nächsthöhere Entwicklungsstufe – der Ansatz bleibt unidirektional, eine systemische Wechselwirkung zwischen Person und Umwelt wird nicht angenommen. Bei den interaktionistischen Theorien (Systemtheorie, Bronfenbrenner) sind Mensch und Umwelt aktiv, bilden ein Gesamtsystem und beeinflussen sich gegenseitig; der Mensch wird von der Umwelt geformt und gestaltet sie selbst mit. Dieser Ansatz wird heute vorgezogen.",
+      "bewertungspunkte": [
+        "Selbstgestaltung: Mensch aktiv, Umwelt passiv, unidirektional",
+        "Interaktionismus: beide aktiv, Wechselwirkung/Gesamtsystem",
+        "heute präferiert: interaktionistischer Ansatz"
+      ],
+      "punkte": 3,
+      "erklaerung": "Folien 35–41; laut Video die entscheidende Abgrenzung.",
+      "folie": "35–41",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Ordne die Beispiele der passenden Systemebene zu (Referenzsystem: ein Kind).",
+      "kategorien": [
+        "Mikrosystem",
+        "Mesosystem",
+        "Exosystem",
+        "Makrosystem",
+        "Chronosystem"
+      ],
+      "elemente": [
+        {
+          "text": "die Mutter des Kindes",
+          "kategorie": "Mikrosystem"
+        },
+        {
+          "text": "die Beziehungen innerhalb der Familie",
+          "kategorie": "Mesosystem"
+        },
+        {
+          "text": "die religiöse Gemeinschaft des Vaters",
+          "kategorie": "Exosystem"
+        },
+        {
+          "text": "die Arbeitsstelle der Eltern",
+          "kategorie": "Exosystem"
+        },
+        {
+          "text": "Gesetze und Kultur",
+          "kategorie": "Makrosystem"
+        },
+        {
+          "text": "Sitzenbleiben im vorletzten Schuljahr",
+          "kategorie": "Chronosystem"
+        }
+      ],
+      "erklaerung": "Systemebenen nach Bronfenbrenner (Folie 40, Video); Referenzsystem: ein Kind.",
+      "folie": "40",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was bedeutet der Begriff des Gleichgewichts in der Systemtheorie? Nenne ein Beispiel.",
+      "antwort": "Jedes System strebt nach Gleichgewicht; Austauschbeziehungen zwischen dem Menschen und den Systemen. Entwicklung vollzieht sich, wenn ein System von einem Ungleichgewichts- in einen Gleichgewichtszustand übergeht. Beispiel: Die Geburt eines Kindes bringt das Familiensystem aus dem Gleichgewicht; Rollen und Aufgaben werden neu verteilt, bis wieder Gleichgewicht herrscht (auch: Hunger/Sättigung, Studienbeginn).",
+      "erklaerung": "Gleichgewichtsbegriff der Systemtheorie (Folie 41, Video).",
+      "folie": "41; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Welche Schlussfolgerungen aus Zwillingsstudien sind richtig?",
+      "optionen": [
+        "Getrennt aufgewachsene eineiige Zwillinge entwickeln sich ähnlich → Hinweis auf starken genetischen Einfluss.",
+        "Getrennt aufgewachsene eineiige Zwillinge entwickeln sich völlig unterschiedlich → Hinweis auf Umweltfaktoren.",
+        "Gemeinsam aufgewachsene zweieiige Zwillinge zeigen dasselbe Merkmal → Hinweis auf Umweltfaktoren.",
+        "Bei eineiigen Zwillingen sind die Gene unterschiedlich."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Schlussfolgerungslogik der Zwillingsstudien (Video).",
+      "folie": "42–44; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Ordne Prozess und Inhalte der passenden Sozialisationsinstanz zu.",
+      "kategorien": [
+        "primär: Familie",
+        "sekundär: Schule",
+        "tertiär: Arbeitswelt und Universität"
+      ],
+      "elemente": [
+        {
+          "text": "Soziabilisierung",
+          "kategorie": "primär: Familie"
+        },
+        {
+          "text": "(Ur-)Vertrauensentwicklung",
+          "kategorie": "primär: Familie"
+        },
+        {
+          "text": "Einführung in die basalen Grundfertigkeiten (Sprache)",
+          "kategorie": "primär: Familie"
+        },
+        {
+          "text": "Enkulturation",
+          "kategorie": "sekundär: Schule"
+        },
+        {
+          "text": "Erlernen grundlegender Kulturtechniken (Schrift, Mathematik)",
+          "kategorie": "sekundär: Schule"
+        },
+        {
+          "text": "Erlernen von Normen, Regeln, Konventionen",
+          "kategorie": "sekundär: Schule"
+        },
+        {
+          "text": "Individuation",
+          "kategorie": "tertiär: Arbeitswelt und Universität"
+        },
+        {
+          "text": "eigenständige politische und gesellschaftliche Überzeugung",
+          "kategorie": "tertiär: Arbeitswelt und Universität"
+        }
+      ],
+      "erklaerung": "Sozialisationsinstanzen (Stein 2017, S. 23) – laut Video klassische Klausurfrage.",
+      "folie": "46–47",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Primäre Sozialisation (Familie) = Prozess der [[Soziabilisierung]]; sekundäre Sozialisation (Schule) = Prozess der [[Enkulturation]]; tertiäre Sozialisation (Arbeitswelt und Universität) = Prozess der [[Individuation]].",
+      "erklaerung": "Folie 47.",
+      "folie": "47",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Was ist ein Genogramm, und welche Symbole werden verwendet?",
+      "antwort": "Ein Genogramm ist eine grafische Darstellung von Umweltbeziehungen und Sozialisationsinstanzen; es zeigt die soziale Umwelt (wichtige gegenwärtige und frühere Bezugspersonen) – nicht die materielle oder institutionelle Umwelt und nichts über Gene. Symbole: männliche Personen = Quadrat, weibliche = Kreis, verstorbene = Kreuz, (Ehe-)Partnerschaft = durchgehende Linie, Freundschaft = gestrichelte Linie, gescheiterte Beziehung = unterbrochene Linie; die Referenzperson wird doppelt umrandet (Video).",
+      "erklaerung": "Genogramm (Folien 49–50, Video).",
+      "folie": "49–50; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Beschreibe, wie du die Familie S. als Genogramm darstellst: Sandra (48) und Heinz (51) sind verheiratet; ihre Töchter Marion (23) und Melanie (20) leben mit ihren Kindern Paul (5), Sven (3) und Swenja (1) im Haushalt. Marion lebt von Steven (31), dem Vater ihrer Kinder, getrennt und ist mit Olaf (25) befreundet. Melanie lebt mit Peter (22), dem Vater von Swenja, zusammen, der noch mit Maike (25) verheiratet ist.",
+      "musterloesung": "Heinz (Quadrat) und Sandra (Kreis) mit durchgehender Linie (Ehe) verbinden; darunter die Töchter Marion und Melanie (Kreise). Marion mit Steven (Quadrat) – unterbrochene Linie mit Doppelstrich (getrennt, war verheiratet); darunter Paul und Sven (Quadrate). Marion mit Olaf (Quadrat) – Partnerschafts- bzw. Freundschaftslinie. Melanie mit Peter (Quadrat) – Partnerschaftslinie; darunter Swenja (Kreis). Peter mit Maike (Kreis) – durchgehende Linie (noch verheiratet). Ggf. eine Referenzperson doppelt umranden.",
+      "bewertungspunkte": [
+        "richtige Symbole für männlich/weiblich",
+        "Ehe Heinz–Sandra und Kinder Marion, Melanie",
+        "Marion–Steven getrennt mit Paul und Sven; Olaf als neuer Partner",
+        "Melanie–Peter mit Swenja; Peter–Maike verheiratet"
+      ],
+      "punkte": 4,
+      "erklaerung": "Arbeitsauftrag Folie 53 (Lösung Folie 54).",
+      "folie": "53–54",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f22",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Wie hängen Sozialisation, Erziehung, Bildung und Lernen zusammen?",
+      "musterloesung": "Sozialisation ist der umfassendste Begriff (makrosozial): alle geplanten und ungeplanten Einflüsse auf die Persönlichkeitswerdung. Erziehung ist ein Teilbereich davon: die absichtlichen Handlungen, durch die Menschen andere dauerhaft beeinflussen (interpersonell). Lernen ist die Veränderung im Verhalten bzw. Verhaltensrepertoire in der Person (intrapersonell) – ohne Lernen wirken Sozialisation, Erziehung und Bildung nicht. Bildung ist das Hineinwachsen in eine Gemeinschaft in der Auseinandersetzung mit ihr, auch als Selbstbildung (inter- und intrapersonell), mit dem Ziel der Mündigkeit.",
+      "bewertungspunkte": [
+        "Sozialisation als Oberbegriff (geplant und ungeplant)",
+        "Erziehung als absichtlicher Teilbereich",
+        "Lernen als Veränderung in der Person",
+        "Bildung als Auseinandersetzung/Selbstbildung"
+      ],
+      "punkte": 4,
+      "erklaerung": "Übungsaufgabe Folie 58 (Hausaufgabe h01).",
+      "folie": "58",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z01",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Von welchem ursprünglichen lateinischen Wort leitet sich Sozialisation ab?",
+      "optionen": [
+        "A Von sociare = Gemeinschaftsbildung",
+        "B Von socius = Gefährte",
+        "C Von sociare = verbinden",
+        "D Von sociare = vergesellschaften"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Lernzielkontrolle 4, Lösung C (Folie 6).",
+      "folie": "LZK 4 · 50 € · F6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z02",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was gehört zu den Anlagefaktoren nach der Anlage-Umwelt-Theorie von Klaus Hurrelmann…",
+      "optionen": [
+        "A Temperamentsfaktoren und die Intelligenz",
+        "B Intelligenz, Temperamentsfaktoren und die Familie",
+        "C Massenmedien, die Familie und Temperamentsfaktoren",
+        "D Kinderbetreuungseinrichtungen und die Grundstrukturen der Persönlichkeit, wie Offenheit für Neues etc."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Lernzielkontrolle 4, Lösung A. Familie, Massenmedien und Kinderbetreuung sind Umweltfaktoren.",
+      "folie": "LZK 4 · 100 € · F12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z03",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Bei den Theorien, die das Anlage-Umwelt-Problem erklären, werden folgende Theorien auch bezeichnet als…?",
+      "optionen": [
+        "A: Der Nativismus als Ethnologie oder endogenistische Theorie, die Systemtheorie als Interaktionsismus",
+        "B: A, C und D sind richtig",
+        "C: Der Kognitivismus als Selbstgestaltungstheorie; die Systemtheorien als Interaktionismus",
+        "D: Der Behaviorismus als exogenistische Theorie; der Kognitivismus als Selbstgestaltungstheorie"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Lernzielkontrolle 4, Lösung B.",
+      "folie": "LZK 4 · 200 € · F14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z04",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Gemäß der behavioristischen Theorie sind …",
+      "optionen": [
+        "A: der Mensch und die Umwelt aktiv und verbinden sich in der sogenannten black-box der Reiz-Reaktions-Verknüpfungen.",
+        "B: der Mensch aktiv, die Umwelt passiv, so der Mensch bewusst eine bestimmte Umwelt aufsucht, die zu ihm passt.",
+        "C: der Mensch passiv und die Umwelt aktiv, so dass der Mensch durch die Reize der Umwelt geformt wird.",
+        "D: der Mensch und die Umwelt passiv so dass es willenlos zu einer Prägung je nach der zufällig erlebten Umwelt kommt."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Lernzielkontrolle 4, Lösung C – exogenistische Theorie.",
+      "folie": "LZK 4 · 300 € · F15–18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z05",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was zeigen die Speichelexperimente, die Pawlow mit Hunden durchführte?",
+      "optionen": [
+        "A: Das positive Reize, wie Futter bestimmte Reaktionen belohnen können, während negative, wie Futterentzug, bestrafen.",
+        "B: Dass Hunde selbständig lernen die Glocke zu betätigen, um anzuzeigen, dass sie Futter wünschen.",
+        "C: Dass Lebewesen das Verhalten zeigen, das durch einen positiven Reiz (hier Futter) belohnt wird.",
+        "D: Dass ein ehemals neutraler Reiz (Glocke) kombiniert mit einem unkonditionierten Reiz später auch ohne diesen zu einer Reaktion führt."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Lernzielkontrolle 4, Lösung D – klassische Konditionierung. C beschreibt die operante Konditionierung (Skinner).",
+      "folie": "LZK 4 · 500 € · F17",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z06",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Skinner übertrug die Tierexperimente auf den Menschen und schuf eine sogenannte „baby in box“-Vorrichtung. Was machte er damit?",
+      "optionen": [
+        "A Er zog seine Tochter Deborah in den ersten Jahren darin auf",
+        "B Er schuf damit eine Box, in welcher seine Ratten ihre Jungen aufziehen konnten.",
+        "C Er schuf damit eine Lernmaschine, um die Sprachentwicklung von Kleinkindern zu fördern.",
+        "D Er trainierte geistig beeinträchtigte Säuglinge in der Farbwahrnehmung mit Hilfe von Konditionierung."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Lernzielkontrolle 4, Lösung A (Video).",
+      "folie": "LZK 4 · 1000 € · F20–21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z07",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Gemäß der nativistischen Theorie sind…",
+      "optionen": [
+        "A der Mensch und die Umwelt aktiv",
+        "B der Mensch aktiv und die Umwelt passiv",
+        "C der Mensch und die Umwelt passiv",
+        "D der Mensch passiv und die Umwelt aktiv"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Lernzielkontrolle 4, Lösung C – endogenistische Theorie.",
+      "folie": "LZK 4 · 2000 € · F23",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z08",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "In der Ethnologie werden Tierbeobachtungen auf den Menschen übertragen, etwa die Studien zum Imponiergehabe. Welcher der folgenden Forscher ist NICHT Ethnologe und hat sich mit der Übertragung von Tierbeobachtungen befasst?",
+      "optionen": [
+        "A Jean Piaget",
+        "B Tinbergen",
+        "C Irenäus Eibl-Eibesfeld",
+        "D Konrad Lorenz"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Lernzielkontrolle 4, Lösung A. Piaget steht für den Konstruktivismus (Selbstgestaltung). Tinbergen wird auf den Folien nicht genannt (Ergänzung aus der LZK); Lorenz nur im Video.",
+      "folie": "LZK 4 · 4000 € · F24",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z09",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche der Aussagen entstammt nicht der Ethnologie?",
+      "optionen": [
+        "A Entwicklung ist Reifung, die sich vor allem in bestimmten Phasen vollzieht",
+        "B Verhalten ist instinktiv durch bestimmte Schlüsselreize ausgelöst",
+        "C Kritische Phasen sind Entwicklungsab-schnitte, wo Erfahrungen maximale Entwicklungen hervorrufen",
+        "D Der Mensch erlernt bestimmte Reaktionen auf bestimmte Reize hin"
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Lernzielkontrolle 4, Lösung D – das ist Behaviorismus (Konditionierung).",
+      "folie": "LZK 4 · 8000 € · F24",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z10",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Wodurch unterscheiden sich  Kognitivismus und Systemtheorie?",
+      "optionen": [
+        "A Bei letzterem ist die Umwelt passiv",
+        "B Bei ersterem sind beide Instanzen aktiv",
+        "C Bei ersterem ist nur der Mensch aktiv",
+        "D Bei letzterem ist die Umwelt allein aktiv"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Lernzielkontrolle 4, Lösung C. Im Kognitivismus ist nur der Mensch aktiv, in der Systemtheorie beide.",
+      "folie": "LZK 4 · 16.000 € · F37–40",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z11",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Wenn getrennt aufgewachsene eineiige Zwillinge später öfters beide Krebs haben als getrennt aufgewachsene zweieiige Zwillinge spricht dies für…",
+      "optionen": [
+        "A die hohe Umweltdeterminiertheit von Krebs",
+        "B dass weder Gene noch Umwelt eine hohe Rolle spielen",
+        "C die gleichermaßen hohe Gen- wie Umweltdeterminiertheit",
+        "D den hohen Einfluss der Gene auf Krebs"
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Lernzielkontrolle 4, Lösung D. Die Umwelten sind verschieden, die Gene gleich – Übereinstimmung spricht für die Gene.",
+      "folie": "LZK 4 · 32.000 € · F42–44",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z12",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Es werden drei hauptsächliche Sozialisationsinstanzen unterschieden…",
+      "optionen": [
+        "A Peergroup – Familie – Schule",
+        "B Familie – Schule – Beruf/Universität",
+        "C Familie – Schule – Massenmedien",
+        "D Familie – Schule – Gemeinschaft"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Lernzielkontrolle 4, Lösung B (Folie 46).",
+      "folie": "LZK 4 · 64.000 € · F46",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z13",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was leistet Schule als Sozialisationsinstanz?",
+      "optionen": [
+        "A Erlernen von Kulturtechniken und von Normen, Regeln, Konventionen",
+        "B Kennenlernen von Urvertrauen und von Normen, Regeln, Konventionen",
+        "C Erlernen von Sprechen und von Normen, Regeln, Konventionen",
+        "D Erlernen von Kulturtechniken und von politischen Grundüberzeugungen"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Lernzielkontrolle 4, Lösung A. Urvertrauen und Sprechen gehören zur Familie, politische Überzeugungen zur tertiären Instanz.",
+      "folie": "LZK 4 · 250.000 € · F47",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z14",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Die Sozialisationsprozesse in Beruf und Ausbildung/Studium werden bezeichnet als…?",
+      "optionen": [
+        "A Individuation",
+        "B Soziabilisierung",
+        "C Enkulturation",
+        "D Hominisierung"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Lernzielkontrolle 4, Lösung A.",
+      "folie": "LZK 4 · 500.000 € · F47",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z15",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was kann ein Genogramm darstellen…?",
+      "optionen": [
+        "A Gen- und Umweltfaktoren eines Menschen",
+        "B Die Chromosomen- oder Genstruktur eines Menschen",
+        "C Grundlegende frühere und gegenwärtige Sozialbeziehungen eines Menschen",
+        "D Grundlegende gegenwärtige und zukünftige Sozialbeziehungen eines Menschen"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Lernzielkontrolle 4, Lösung C. Ein Genogramm hat nichts mit Genen zu tun (Video).",
+      "folie": "LZK 4 · 1.000.000 € · F49",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Definition Sozialisation nach Stein (2017, S. 20/21) mit beiden Bestandteilen und Etymologie wörtlich können (Video).",
+    "Das Vierfelder-Schema nach Oerter & Montada mit Achsenlogik und je einem Beispiel/Autor ist klausurträchtig (Video).",
+    "Klassische Konditionierung mit korrekter Terminologie, operante Konditionierung, Watson-Zitat (Video).",
+    "Abgrenzung Kognitivismus (unidirektional) – Interaktionismus (Wechselwirkung) ist entscheidend (Video).",
+    "Bronfenbrenners fünf Systemebenen mit Beispielen; Zwillingsstudien-Logik; Sozialisationsinstanzen mit Prozessbegriffen; Genogramm-Symbolik (Video)."
+  ],
+  "offene_fragen": [
+    "Fragestunde Sozialisation am 24.11.: Hausaufgaben h01 und h02 dort bzw. im Tutorium besprechen (laut altem Video im Tutorium)."
+  ],
+  "auffaelligkeiten": [
+    "Folien 24–33: Überschrift „Ethnologie“ – gemeint ist Ethologie (vergleichende Verhaltensforschung); auch in LZK 4.",
+    "Folie 24: „Eibl-Eibesfled“; sonst „Eibl-Eibesfeld“ (korrekt: Eibl-Eibesfeldt).",
+    "Folie 42–44: „Gerring & Zimbardo“ – korrekt Gerrig & Zimbardo.",
+    "Folie 61: „Psychologial care“ (Watson 1928) – korrekt „Psychological care“.",
+    "Folien 55–56: Vanessa im Text 31 Jahre, im Genogramm 21 Jahre; zweite Person „Dean“ (21) als Partner von Nathalie.",
+    "Kurzskript S. 8: Überschrift „4. Sitzung: Sozialisation: Theorien Parsons und Goffman“ – gehört zur 5. Sitzung.",
+    "LZK 4: Tinbergen (4000 €) nicht auf den Folien; Tippfehler „Interaktionsismus“, „Das positive Reize“.",
+    "Video: Anteil der Gene an der Intelligenz uneinheitlich (ca. 70 % bzw. ca. ¾), nicht auf den Folien."
+  ]
+}

@@ -87,7 +87,8 @@
     "ewb001.2_2026-10-20",
     "ewb001_2026-10-23",
     "ewb001.1_2026-10-27",
-    "ewb001.2_2026-10-27"
+    "ewb001.2_2026-10-27",
+    "ewb001.1_2026-11-03"
   ],
   "klausurstil": {
     "quellen": [
@@ -192,7 +193,8 @@
     "Präsenztermine Compasito und Betzavta (ewb001.1) sind freiwillig und nicht prüfungsrelevant – keine Lerninhalte (Nadine, 26.10.2026)",
     "Lernzielkontrollen („Wer wird Millionär“, .pptx): die richtige Antwort ist per Hervorhebungs-Animation markiert; Fragen kommen im Originalwortlaut als z01… in die Sitzungsdatei",
     "Begriffe Pädagogik/Erziehungswissenschaft: Stein (ewb001.1) synonym, Rieckmann/Ludwig (ewb001.2) unterschieden – beide Sichtweisen werden nebeneinander gelernt (Nadine, 26.10.2026)",
-    "Tutorium (freiwillig, Tutor Dennis Hoffmann): 16.10. ausgefallen, 23.10. = Sitzung 1. Zusammenfassung und Zusatzblatt des Tutors kommen per WhatsApp und fehlen noch (Stand 26.10.2026) – Nadine legt sie in den Tutorium-Ordner, dann 10.2 und „zwei Lehrertypen“ abgleichen."
+    "Tutorium (freiwillig, Tutor Dennis Hoffmann): 16.10. ausgefallen, 23.10. = Sitzung 1. Zusammenfassung und Zusatzblatt des Tutors kommen per WhatsApp und fehlen noch (Stand 26.10.2026) – Nadine legt sie in den Tutorium-Ordner, dann 10.2 und „zwei Lehrertypen“ abgleichen.",
+    "Persönliche Hausaufgaben (z. B. eigenes Genogramm, ewb001.1 S04 h02) kommen nicht in die App (öffentliche Dateiadresse), sondern nur in Nadines Ordner (Lesefassungen); in der App steht nur die Aufgabe mit Hinweis (26.10.2026)."
   ],
   "auffaelligkeiten": [
     "ewb001.1 S01 Video: Kurzskript „ca. 10 Seiten“, tatsächlich 25 Seiten",
@@ -435,6 +437,34 @@
       "art": "Video",
       "status": "verarbeitet",
       "sitzung": "ewb001.2_2026-10-27"
+    },
+    {
+      "pfad": "ewb001.1/2._Präsentationen/ewb001.1_4__Sitzung_Sozialisation_I.pdf",
+      "geaendert": "2026-10-26",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.1_2026-11-03"
+    },
+    {
+      "pfad": "ewb001.1/3._Videos Courseware Kopie/Sitzung_04/ewb001.1_4__Sitzung_Transkript_Zusammenfassung.docx",
+      "geaendert": "2026-10-26",
+      "art": "Transkript",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.1_2026-11-03"
+    },
+    {
+      "pfad": "ewb001.1/3._Videos Courseware Kopie/Sitzung_04/Ewb001.1_4__Sitzung_Sozialisation_I-1.mp4",
+      "geaendert": "2026-10-26",
+      "art": "Video",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.1_2026-11-03"
+    },
+    {
+      "pfad": "ewb001.1/5._Lernzielkontrollen/4_Lernzielkontrolle_Sozialisation_I_Anlage-Umwelt.pptx",
+      "geaendert": "2026-10-26",
+      "art": "Lernzielkontrolle",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.1_2026-11-03"
     }
   ]
 }

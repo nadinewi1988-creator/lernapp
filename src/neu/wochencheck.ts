@@ -20,7 +20,7 @@ async function teilId(kuerzel: string) {
 export function wochencheckBereitstellen(nachAenderung: () => void) {
   const api = {
     version: 1,
-    hilfe: 'ueberblick() · sitzungAendern(id, {datum, von, bis, raum, status, entfall_grund, thema}) · sitzungNeu({veranstaltung_id, datum, von, bis, raum, thema}) · veranstaltungNeu({teil, titel, kurz, wochentag, von, bis, raum}) · eintrag({id?, art, titel, datum, zeit?, teil?, notiz?, erledigt?}) · pruefungstermin({modul, art, datum?, zeit?, anmeldung_ab?, anmeldung_bis?, abmeldung_bis?}) · gesehen() · gesehenErgaenzen([...])',
+    hilfe: 'ueberblick() · sitzungAendern(id, {datum, von, bis, raum, status, entfall_grund, thema, material}) · sitzungNeu({veranstaltung_id, datum, von, bis, raum, thema}) · veranstaltungNeu({teil, titel, kurz, wochentag, von, bis, raum}) · eintrag({id?, art, titel, datum, zeit?, teil?, notiz?, erledigt?}) · pruefungstermin({modul, art, datum?, zeit?, anmeldung_ab?, anmeldung_bis?, abmeldung_bis?}) · gesehen() · gesehenErgaenzen([...])',
     /** Alles, was der Abgleich braucht – kompakt. */
     async ueberblick() {
       const st = await ladeStudienstand();
@@ -35,8 +35,8 @@ export function wochencheckBereitstellen(nachAenderung: () => void) {
         pruefungstermine: st.termine.map((t) => { const p = st.pruefungen.find((x) => x.id === t.pruefung_id); return { id: t.id, modul: p ? md[p.modul_id] : null, art: t.art, datum: t.datum, zeit: hhmm(t.zeit), anmeldung_ab: t.anmeldung_ab, anmeldung_bis: t.anmeldung_bis, abmeldung_bis: t.abmeldung_bis, quelle: t.quelle }; }),
       };
     },
-    async sitzungAendern(id: string, patch: { datum?: string; von?: string; bis?: string; raum?: string; status?: 'findet_statt' | 'ausgefallen' | 'entfaellt'; entfall_grund?: string | null; thema?: string }) {
-      const erlaubt = ['datum', 'von', 'bis', 'raum', 'status', 'entfall_grund', 'thema'];
+    async sitzungAendern(id: string, patch: { datum?: string; von?: string; bis?: string; raum?: string; status?: 'findet_statt' | 'ausgefallen' | 'entfaellt'; entfall_grund?: string | null; thema?: string; material?: boolean | null }) {
+      const erlaubt = ['datum', 'von', 'bis', 'raum', 'status', 'entfall_grund', 'thema', 'material'];
       const daten = Object.fromEntries(Object.entries(patch).filter(([k]) => erlaubt.includes(k)));
       pruef(await supabase.from('sitzungen').update({ ...daten, geaendert: jetzt() }).eq('id', id));
       nachAenderung(); return 'ok';

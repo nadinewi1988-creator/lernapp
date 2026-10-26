@@ -267,7 +267,7 @@ export function Dashboard({ stand, neuLaden }: Props) {
             {heuteListe.map((p, i) => (
               <div key={i} style={{ display: 'flex', gap: 12, alignItems: 'center', padding: 12, borderRadius: 14, background: p.bg, opacity: p.opazitaet }}>
                 <div style={{ fontSize: 13, fontWeight: 700, color: 'var(--ink-2)', width: 48 }}>{p.zeit}</div>
-                <div style={{ flex: 1, minWidth: 0 }}><div style={{ fontSize: 12, fontWeight: 800, color: p.fg }}>{p.label}</div><div style={{ fontWeight: 700, fontSize: 15 }}>{p.titel}</div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>{p.info}</div></div>
+                <div style={{ flex: 1, minWidth: 0 }}><div style={{ fontSize: 12, fontWeight: 800, color: p.fg }}>{p.label}</div><div className="trennen" style={{ fontWeight: 700, fontSize: 15 }}>{p.titel}</div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>{p.info}</div></div>
               </div>))}
           </section>
           <section style={{ ...karte, gap: 10 }}>

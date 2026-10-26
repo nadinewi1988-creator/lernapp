@@ -20,7 +20,7 @@
   --lila-bg: #f1edfa;
 }
 * { box-sizing: border-box; }
-html, body { margin: 0; background: var(--paper); color: var(--ink); font-family: 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif; -webkit-font-smoothing: antialiased; }
+html, body { margin: 0; background: var(--paper); color: var(--ink); font-family: 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif; -webkit-font-smoothing: antialiased; overflow-wrap: break-word; }
 button, input, select, textarea { font-family: inherit; color: inherit; }
 a { color: inherit; }
 
@@ -214,3 +214,6 @@ section[aria-label="Credit Points"] { container-type: inline-size; }
 .lt-h.lt-h4 { font-size: 13.5px; font-weight: 700; }
 .lt-seite { display: none; }
 @media (max-width: 420px) { .mod-tabs button { font-size: 11px !important; padding: 0 2px !important; } }
+
+/* lange Wörter (z. B. Wahrscheinlichkeitsrechnung) sauber trennen statt überlaufen */
+.trennen { hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; }

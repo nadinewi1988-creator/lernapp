@@ -3,6 +3,7 @@ import type { User } from '@supabase/supabase-js';
 import { supabase, syncEnabled } from '../supabase';
 import { ersteinrichtung, ladeStudienstand, type Studienstand } from './db';
 import { wochencheckBereitstellen } from './wochencheck';
+import { sicherungAutomatisch } from './sicherung';
 import { aktuellesSemester } from './pruefungslogik';
 import { DEMO, demoStand } from './demo';
 import { Pruefungen } from './pages/Pruefungen';
@@ -67,7 +68,7 @@ export default function App() {
   }
   useEffect(() => {
     if (!user) return;
-    (async () => { try { if (!DEMO) await ersteinrichtung(); await neuLaden(); if (!DEMO) { let t: ReturnType<typeof setTimeout> | undefined; wochencheckBereitstellen(() => { clearTimeout(t); t = setTimeout(() => { neuLaden(); }, 1500); }); } } catch (e) { setFehler(String((e as Error).message || e)); } })();
+    (async () => { try { if (!DEMO) await ersteinrichtung(); await neuLaden(); if (!DEMO) { setTimeout(() => { sicherungAutomatisch(); }, 8000); let t: ReturnType<typeof setTimeout> | undefined; wochencheckBereitstellen(() => { clearTimeout(t); t = setTimeout(() => { neuLaden(); }, 1500); }); } } catch (e) { setFehler(String((e as Error).message || e)); } })();
   }, [user]);
 
   if (user === undefined) return <div className="anmelden"><span className="klein-text">Lade …</span></div>;

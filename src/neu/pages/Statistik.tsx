@@ -2,6 +2,8 @@ import type { Studienstand } from '../db';
 import { heuteIso, aktuellesSemester } from '../pruefungslogik';
 import { parseIso, plusTage } from '../data/kalender';
 import { C, Karten, kartenAus } from './Karten';
+import { useEffect, useState, type CSSProperties } from 'react';
+import { sicherungHerunterladen, sicherungsStand, pushStatus, pushAktivieren, pushDeaktivieren, pushTesten } from '../sicherung';
 
 const FACH: Record<string, [string, string]> = { mab: ['#8195b8', '#eef1f6'], pkb: ['#a98592', '#f6eff1'], x: ['#8a9683', '#f0f3ee'] };
 const farbe = (k: string): [string, string] => C[k] ?? FACH[k.slice(0, 3)] ?? FACH.x;
@@ -79,5 +81,35 @@ export function Statistik({ stand, unter, gehe, neuLaden }: Props) {
         <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{x.ks.length ? x.ks.length + (x.ks.length === 1 ? ' Karte' : ' Karten') + (x.n ? ' · ✓ ' + x.r + ' ◐ ' + x.t + ' ✗ ' + x.f : ' · noch nicht geübt') : 'keine Karten'}</span></div>)}</div>
       <button type="button" onClick={() => gehe('karten')} style={{ alignSelf: 'flex-start', minHeight: 34, padding: '0 14px', border: '1px solid var(--line)', borderRadius: 999, background: '#fff', fontSize: 13, fontWeight: 800, color: 'var(--ink)', cursor: 'pointer' }}>Karten im Detail →</button>
     </section>
+    <SicherungErinnerungen karte={karte} />
   </>);
+}
+
+function SicherungErinnerungen({ karte }: { karte: CSSProperties }) {
+  const [st, setSt] = useState<{ zuletzt?: string; heruntergeladen?: string }>({});
+  const [push, setPush] = useState<string>('');
+  const [msg, setMsg] = useState('');
+  const [laeuft, setLaeuft] = useState(false);
+  const laden = () => { sicherungsStand().then(setSt).catch(() => {}); pushStatus().then(setPush).catch(() => setPush('nicht-moeglich')); };
+  useEffect(laden, []);
+  const tu = async (f: () => Promise<unknown>, ok: string) => { setLaeuft(true); setMsg(''); try { await f(); setMsg(ok); } catch (e) { setMsg('Hat nicht geklappt: ' + (e as Error).message); } setLaeuft(false); laden(); };
+  const d = (iso?: string) => (iso ? new Date(iso).toLocaleString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) + ' Uhr' : 'noch nie');
+  const kn: CSSProperties = { minHeight: 36, padding: '0 14px', border: '1px solid var(--line)', borderRadius: 999, background: '#fff', fontSize: 13, fontWeight: 800, color: 'var(--ink)', cursor: 'pointer', opacity: laeuft ? 0.5 : 1 };
+  return (
+    <section style={karte}>
+      <h2 style={{ margin: 0, fontSize: 17, fontWeight: 800 }}>Sicherung &amp; Erinnerungen</h2>
+      <div style={{ fontSize: 13, color: 'var(--ink-2)' }}>Automatische Sicherung (jede Woche beim Öffnen der App): {d(st.zuletzt)}<br />Zuletzt heruntergeladen: {d(st.heruntergeladen)}</div>
+      <button type="button" disabled={laeuft} onClick={() => tu(sicherungHerunterladen, 'Sicherung heruntergeladen.')} style={{ ...kn, alignSelf: 'flex-start' }}>Alles sichern (Datei herunterladen)</button>
+      <div style={{ borderTop: '1px solid #f0f0eb', paddingTop: 10, fontSize: 13, color: 'var(--ink-2)' }}>
+        <b style={{ color: 'var(--ink)' }}>Erinnerungen auf diesem Gerät: </b>
+        {push === 'an' ? 'an – morgens (7–8 Uhr) Fristen, Hausaufgaben und fällige Fragen; sonntags (18–19 Uhr) Wochenrückblick.' : push === 'blockiert' ? 'blockiert – bitte in den Einstellungen des Geräts für die Lernapp erlauben.' : push === 'nicht-moeglich' ? 'auf diesem Gerät nicht möglich (iPhone/iPad: Lernapp vom Home-Bildschirm öffnen).' : 'aus'}
+      </div>
+      <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+        {push === 'aus' && <button type="button" disabled={laeuft} onClick={() => tu(pushAktivieren, 'Erinnerungen sind an.')} style={kn}>Erinnerungen einschalten</button>}
+        {push === 'an' && <button type="button" disabled={laeuft} onClick={() => tu(pushTesten, 'Testnachricht ist unterwegs.')} style={kn}>Test senden</button>}
+        {push === 'an' && <button type="button" disabled={laeuft} onClick={() => tu(pushDeaktivieren, 'Erinnerungen auf diesem Gerät aus.')} style={kn}>Ausschalten</button>}
+      </div>
+      {msg && <div style={{ fontSize: 13, fontWeight: 700, color: msg.startsWith('Hat') ? '#b4475a' : '#2f7a4b' }}>{msg}</div>}
+    </section>
+  );
 }

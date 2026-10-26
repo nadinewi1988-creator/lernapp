@@ -38,7 +38,9 @@ export default defineConfig({
         // Ladevorgang scheitern zu lassen.
         navigateFallback: 'index.html',
         // PDFs (Hausaufgaben, Lesefassungen) unter /dateien/ direkt laden, nicht auf die App-Hülle umleiten.
-        navigateFallbackDenylist: [/^\/dateien\//]
+        navigateFallbackDenylist: [/^\/dateien\//, /^\/api\//],
+        // Push-Erinnerungen (public/push-sw.js)
+        importScripts: ['push-sw.js']
       }
     })
   ]

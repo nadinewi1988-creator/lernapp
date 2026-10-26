@@ -1,3 +1,4 @@
+import { sicherungHerunterladen, sicherungAutomatisch } from './sicherung';
 /**
  * Schnittstelle für den Stud.IP-Wochencheck (geplante Aufgabe mit Claude in Chrome).
  * Der Wochencheck öffnet die Lernapp im angemeldeten Chrome und ruft diese Funktionen
@@ -20,8 +21,10 @@ async function teilId(kuerzel: string) {
 export function wochencheckBereitstellen(nachAenderung: () => void) {
   const api = {
     version: 1,
-    hilfe: 'ueberblick() · sitzungAendern(id, {datum, von, bis, raum, status, entfall_grund, thema, material}) · sitzungNeu({veranstaltung_id, datum, von, bis, raum, thema}) · veranstaltungNeu({teil, titel, kurz, wochentag, von, bis, raum}) · eintrag({id?, art, titel, datum, zeit?, teil?, notiz?, erledigt?}) · pruefungstermin({modul, art, datum?, zeit?, anmeldung_ab?, anmeldung_bis?, abmeldung_bis?}) · gesehen() · gesehenErgaenzen([...])',
+    hilfe: 'ueberblick() · sitzungAendern(id, {datum, von, bis, raum, status, entfall_grund, thema, material}) · sicherung() · sitzungNeu({veranstaltung_id, datum, von, bis, raum, thema}) · veranstaltungNeu({teil, titel, kurz, wochentag, von, bis, raum}) · eintrag({id?, art, titel, datum, zeit?, teil?, notiz?, erledigt?}) · pruefungstermin({modul, art, datum?, zeit?, anmeldung_ab?, anmeldung_bis?, abmeldung_bis?}) · gesehen() · gesehenErgaenzen([...])',
     /** Alles, was der Abgleich braucht – kompakt. */
+    /** Sicherung als Datei herunterladen (Sonntags-Wochencheck) und zusätzlich in Supabase Storage ablegen */
+    async sicherung() { const d = await sicherungHerunterladen(); const s2 = await sicherungAutomatisch(true); return { datei: d, storage: s2 }; },
     async ueberblick() {
       const st = await ladeStudienstand();
       const tm = Object.fromEntries(st.teilmodule.map((t) => [t.id, t.kuerzel]));

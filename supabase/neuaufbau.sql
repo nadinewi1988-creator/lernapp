@@ -305,3 +305,6 @@ begin
   exception when duplicate_object then null;
   end;
 end $$;
+
+-- Ergänzung 26.10.2026
+alter table public.sitzungen add column if not exists material boolean;

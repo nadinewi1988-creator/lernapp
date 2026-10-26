@@ -4,6 +4,7 @@ import { aendereSitzung, speichereEintrag, loescheEintrag } from '../db';
 import { kartenOeffnen } from './Karten';
 import { hausaufgabeZuEintrag, HausaufgabeKasten } from '../Hausaufgabe';
 import { useKlapp } from '../klapp';
+import { hatMaterial } from '../lernfortschritt';
 import { auswerten, heuteIso } from '../pruefungslogik';
 import { WOCHEN, FEIERTAGE, FERIEN, UNI, MODUL_NAMEN, parseIso, plusTage, isoVon } from '../data/kalender';
 
@@ -455,6 +456,14 @@ export function Kalender({ stand, neuLaden }: Props) {
               <button type="button" onClick={() => setMark(ss, { anwesenheit: 'nein', status: ss.roh.status === 'ausgefallen' ? 'findet_statt' : ss.roh.status })} style={{ ...seg(a === 'weg'), color: a === 'weg' ? '#e07a88' : 'var(--ink-3)' }}>Nicht anwesend</button>
               <button type="button" onClick={() => setMark(ss, { status: 'ausgefallen', anwesenheit: 'offen' })} style={{ ...seg(a === 'aus'), color: a === 'aus' ? 'var(--ink)' : 'var(--ink-3)' }}>Ausgefallen</button>
             </div>
+            {(a === 'da' || a === 'weg' || a === 'aus') && (() => { const mat = hatMaterial(ss.roh, ss.modul); return <>
+              <div style={{ fontSize: 13, color: 'var(--ink-3)', fontWeight: 800 }}>Gibt es Material dazu?</div>
+              <div style={{ display: 'flex', background: 'var(--paper)', borderRadius: 10, padding: 3, gap: 3 }}>
+                <button type="button" onClick={() => setMark(ss, { material: true })} style={{ ...seg(mat), color: mat ? 'var(--ink)' : 'var(--ink-3)' }}>Ja</button>
+                <button type="button" onClick={() => setMark(ss, { material: false })} style={{ ...seg(!mat), color: !mat ? 'var(--ink)' : 'var(--ink-3)' }}>Nein</button>
+              </div>
+              {!mat && <div style={{ fontSize: 12, color: 'var(--ink-3)', marginTop: -4 }}>Wird nicht aufbereitet und zählt nicht zum Lernfortschritt{a === 'aus' ? '; bekommt keine Sitzungsnummer' : ''}.</div>}
+            </>; })()}
             {a === 'weg' && <label style={toggle}><input type="checkbox" checked={isDone(ss)} onChange={() => setMark(ss, { nachgearbeitet: !isDone(ss) })} style={{ width: 18, height: 18, accentColor: '#4f8f80' }} />Nachgearbeitet (steht unter „Nachholen“)</label>}
             <div style={{ display: 'flex', justifyContent: 'flex-end', gap: 8, flexWrap: 'wrap' }}>
               <a href={'#/module/' + ss.modul.slice(0, 6)} style={{ ...knopf, marginRight: 'auto' }}>Lernstoff →</a>

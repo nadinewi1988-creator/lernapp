@@ -11,7 +11,7 @@ export interface Versuch { id: string; pruefung_id: string; nr: number; note: nu
 export interface Voraussetzung { id: string; pruefung_id: string; text: string; erledigt: boolean; reihenfolge: number }
 export interface Teilmodul { id: string; modul_id: string; kuerzel: string; name: string; art: string; freiwillig: boolean }
 export interface Veranstaltung { id: string; teilmodul_id: string; titel: string; kurz: string | null; wochentag: number | null; von: string | null; bis: string | null; raum: string | null; rhythmus: string; studip_id: string | null }
-export interface Sitzung { id: string; veranstaltung_id: string; nr: number | null; datum: string; von: string | null; bis: string | null; raum: string | null; thema: string | null; status: string; entfall_grund: string | null; anwesenheit: string; nachgearbeitet: boolean }
+export interface Sitzung { id: string; veranstaltung_id: string; nr: number | null; datum: string; von: string | null; bis: string | null; raum: string | null; thema: string | null; status: string; entfall_grund: string | null; anwesenheit: string; nachgearbeitet: boolean; material?: boolean | null }
 export interface KEintrag { id: string; art: string; titel: string; modul_id: string | null; teilmodul_id: string | null; sitzung_id: string | null; datum: string; zeit: string | null; ende: string | null; ganztaegig: boolean; bis_datum: string | null; wiederholung: { rhythmus: string; tage: number[]; bis?: string; ausnahmen?: string[] } | null; notiz: string | null; erledigt: boolean }
 export interface Lernstand { sitzung_id: string; gelesen: boolean; gelernt: boolean; gelernt_am: string | null }
 export interface Lernzeit { datum: string; teilmodul_id: string; art: string; sekunden: number }
@@ -209,7 +209,7 @@ export async function setzeBafoegGrenze(grenze: number) {
 }
 
 // ---------- Kalender ----------
-export async function aendereSitzung(id: string, patch: Partial<Pick<Sitzung, 'anwesenheit' | 'nachgearbeitet' | 'status' | 'thema'>>) {
+export async function aendereSitzung(id: string, patch: Partial<Pick<Sitzung, 'anwesenheit' | 'nachgearbeitet' | 'status' | 'thema' | 'material'>>) {
   const extra: Record<string, unknown> = { geaendert: new Date().toISOString(), von_nadine_geaendert: true };
   if (patch.nachgearbeitet !== undefined) extra.nachgearbeitet_am = patch.nachgearbeitet ? new Date().toISOString() : null;
   pruef(await supabase.from('sitzungen').update({ ...patch, ...extra }).eq('id', id));

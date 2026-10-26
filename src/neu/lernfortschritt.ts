@@ -12,6 +12,15 @@ function standJeFrage(stand: Studienstand) {
   if (!m) { m = Object.fromEntries(stand.wiederholung.map((w) => [w.frage_ref, w.stand])); cache.set(stand.wiederholung, m); }
   return m;
 }
+/**
+ * Gibt es Material zu dieser Sitzung? (Feld sitzungen.material; Nadine beantwortet es im Sitzungsfenster)
+ * Ohne Angabe: Material ja, wenn ein Lerninhalt existiert oder die Sitzung stattgefunden hat; ausgefallen ohne Inhalt = nein.
+ * Ohne Material: nicht aufbereiten, zählt nicht zum Lernfortschritt; ausgefallen ohne Material bekommt keine Sitzungsnummer.
+ */
+export function hatMaterial(s: Sitzung, teil: string) {
+  if (s.material === true || s.material === false) return s.material;
+  return !!inhaltZu(s.id, teil, s.datum) || s.status === 'findet_statt';
+}
 export function sitzungsFortschritt(stand: Studienstand, s: Sitzung, teil: string, lokalGelernt?: boolean) {
   const l = stand.lernstand.find((x) => x.sitzung_id === s.id);
   if (lokalGelernt ?? l?.gelernt) return { pct: 100, sicher: 0, fragen: 0, gelesen: !!l?.gelesen, hand: true };

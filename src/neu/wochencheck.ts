@@ -30,7 +30,7 @@ export function wochencheckBereitstellen(nachAenderung: () => void) {
       return {
         heute: new Date().toISOString().slice(0, 10),
         veranstaltungen: st.veranstaltungen.map((v) => ({ id: v.id, teil: tm[v.teilmodul_id], titel: v.titel, kurz: v.kurz, wochentag: v.wochentag, von: v.von, bis: v.bis, raum: v.raum, rhythmus: v.rhythmus })),
-        sitzungen: st.sitzungen.map((s) => ({ id: s.id, veranstaltung_id: s.veranstaltung_id, teil: tm[va[s.veranstaltung_id]?.teilmodul_id], kurz: va[s.veranstaltung_id]?.kurz, datum: s.datum, von: s.von, bis: s.bis, raum: s.raum, status: s.status, thema: s.thema, anwesenheit: s.anwesenheit })),
+        sitzungen: st.sitzungen.map((s) => ({ id: s.id, veranstaltung_id: s.veranstaltung_id, teil: tm[va[s.veranstaltung_id]?.teilmodul_id], kurz: va[s.veranstaltung_id]?.kurz, datum: s.datum, von: s.von, bis: s.bis, raum: s.raum, status: s.status, thema: s.thema, anwesenheit: s.anwesenheit, material: s.material ?? null })),
         eintraege: st.eintraege.filter((e) => e.art !== 'privat').map((e) => ({ id: e.id, art: e.art, titel: e.titel, datum: e.datum, zeit: e.zeit, teil: (e.teilmodul_id && tm[e.teilmodul_id]) || (e.modul_id && md[e.modul_id]) || null, notiz: e.notiz, erledigt: e.erledigt })),
         pruefungstermine: st.termine.map((t) => { const p = st.pruefungen.find((x) => x.id === t.pruefung_id); return { id: t.id, modul: p ? md[p.modul_id] : null, art: t.art, datum: t.datum, zeit: hhmm(t.zeit), anmeldung_ab: t.anmeldung_ab, anmeldung_bis: t.anmeldung_bis, abmeldung_bis: t.abmeldung_bis, quelle: t.quelle }; }),
       };

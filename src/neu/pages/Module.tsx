@@ -7,7 +7,7 @@ import { parseIso, plusTage, entfallGrund } from '../data/kalender';
 import { useKlapp } from '../klapp';
 import { BESCHREIBUNGEN } from '../data/modulbeschreibungen';
 import { inhaltZu, sitzungenVon, glossarVon, symboleVon, frageRef, mdHtml, mdInline, literaturStatus, literaturStand, literaturAbgeglichen } from '../lerninhalte';
-import { sitzungsFortschritt } from '../lernfortschritt';
+import { sitzungsFortschritt, hatMaterial } from '../lernfortschritt';
 import { hausaufgabenFuer, HausaufgabeFenster, type HA } from '../Hausaufgabe';
 import { Lernfragen, type LFEintrag } from './Lernfragen';
 
@@ -91,7 +91,7 @@ export function Module({ stand, unter, teil, gehe, neuLaden }: Props) {
 export function lernStandVon(stand: Studienstand, k: string, HEUTE: string) {
   const va = Object.fromEntries(stand.veranstaltungen.map((v) => [v.id, v]));
   const tm = Object.fromEntries(stand.teilmodule.map((t) => [t.id, t]));
-  const basis = stand.sitzungen.filter((s) => { const v = va[s.veranstaltung_id], t = v && tm[v.teilmodul_id]; return t && t.kuerzel.startsWith(k) && t.art !== 'Tutorium' && s.status === 'findet_statt' && s.datum <= HEUTE; });
+  const basis = stand.sitzungen.filter((s) => { const v = va[s.veranstaltung_id], t = v && tm[v.teilmodul_id]; return t && t.kuerzel.startsWith(k) && t.art !== 'Tutorium' && s.status !== 'entfaellt' && s.datum <= HEUTE && hatMaterial(s, t.kuerzel); });
   const p = basis.map((s) => sitzungsFortschritt(stand, s, tm[va[s.veranstaltung_id].teilmodul_id].kuerzel).pct);
   const g = p.filter((x) => x >= 100).length;
   return { gel: g, ges: basis.length, pct: basis.length ? Math.round(p.reduce((x, y) => x + y, 0) / basis.length) : 0 };
@@ -149,9 +149,11 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   const ss = istAkt ? SESS : [];
   const freiwillig = stand.teilmodule.filter((t) => t.freiwillig && t.kuerzel === kuerzel && !stand.veranstaltungen.some((v) => v.teilmodul_id === t.id));
   const gruppenIds = [...new Set(ss.map((x) => x.vid))].sort((x, y) => { const ax = ss.find((q) => q.vid === x)!, ay = ss.find((q) => q.vid === y)!; return (istTut(ax.titel) ? 1 : 0) - (istTut(ay.titel) ? 1 : 0) || ax.k.localeCompare(ay.k); });
-  // Ausgefallene Sitzungen zählen mit (Nummer wie im Kursplan); nur „entfällt“ (Feiertag, vorlesungsfrei) wird übersprungen.
-  const nrIn = (x: S) => ss.filter((y) => y.vid === x.vid && y.s.status !== 'entfaellt').indexOf(x) + 1;
-  const ltOeffnen = (x: S) => setLt({ sid: x.s.id, kopf: x.k + ' · Sitzung ' + nrIn(x) + ' · ' + fmtD(x.s.datum), titel: themaTitel(x.s.thema, inhaltZu(x.s.id, x.k, x.s.datum)?.thema ?? (status(x) === 'aus' ? 'Ausgefallen' : undefined)), ausf: false, begr: false, aufg: false });
+  // Nummer wie im Kursplan: ausgefallene Sitzungen MIT Material zählen mit; übersprungen werden „entfällt“ (Feiertag, vorlesungsfrei) und ausgefallene ohne Material (0 = keine Nummer).
+  const ohneMat = (x: S) => !hatMaterial(x.s, x.k);
+  const ohneNr = (y: S) => y.s.status === 'entfaellt' || (y.s.status === 'ausgefallen' && ohneMat(y));
+  const nrIn = (x: S) => (ohneNr(x) ? 0 : ss.filter((y) => y.vid === x.vid && !ohneNr(y)).indexOf(x) + 1);
+  const ltOeffnen = (x: S) => setLt({ sid: x.s.id, kopf: x.k + (nrIn(x) ? ' · Sitzung ' + nrIn(x) : '') + ' · ' + fmtD(x.s.datum), titel: themaTitel(x.s.thema, inhaltZu(x.s.id, x.k, x.s.datum)?.thema ?? (status(x) === 'aus' && ohneMat(x) ? 'Ausgefallen' : undefined)), ausf: false, begr: false, aufg: false });
 
   // ---------- Kopf ----------
   const t0 = eintrag?.naechster?.termin;
@@ -194,7 +196,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   // Übersicht
   const weg = ss.filter((x) => status(x) === 'weg').length;
   const naechsteS = ss.find((x) => x.s.datum > HEUTE);
-  const bisher = ss.filter((x) => x.s.datum <= HEUTE && status(x) !== 'aus' && x.art !== 'Tutorium');
+  const bisher = ss.filter((x) => x.s.datum <= HEUTE && x.s.status !== 'entfaellt' && !ohneMat(x) && x.art !== 'Tutorium');
   const teile = gruppenIds.map((vid) => { const x = ss.find((q) => q.vid === vid)!; return { vid, k: x.k, name: x.titel, zeit: x.rhythmus === 'einzeltermine' ? (x.k === 'pkb003.3' ? '14-täglich, ' : 'Blocktermine') + (x.k === 'pkb003.3' ? x.s.von + '–' + x.s.bis : '') : DAYN[((x.wochentag ?? 1)) % 7] + ' ' + x.s.von + '–' + x.s.bis }; });
   const lp = istAkt && tage !== null && tage > 0 ? (() => {
     const wo = Math.max(1, Math.ceil((tage - 14) / 7)), offenM = basisM.filter((x) => x.s.datum <= HEUTE && !gelernt(x.s.id)), kommtM = basisM.filter((x) => x.s.datum > HEUTE);
@@ -311,7 +313,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                   return (
                     <button key={x.s.id} type="button" onClick={() => { if (!lernbar) return; setLernOffen(Object.fromEntries(gruppenIds.map((g) => [g, g === vid]))); if (st === 'kommt') setLernZukunft({ ...lernZukunft, [vid]: true }); setLernFilter('alle'); gehe(kuerzel, 'lernen'); ltOeffnen(x); }} title={lernbar ? 'Zum Lernstoff dieser Sitzung' : ''} style={{ display: 'flex', gap: 12, alignItems: 'center', padding: '9px 0', border: 0, borderTop: '1px solid #f0f0eb', background: 'transparent', fontSize: 14, color: 'var(--ink)', textAlign: 'left', cursor: lernbar ? 'pointer' : 'default', opacity: st === 'kommt' ? 0.65 : 1 }}>
                       <span style={{ minWidth: '5.5em', color: 'var(--ink-3)' }}>{fmtD(x.s.datum)}</span>
-                      <span style={{ flex: 1, minWidth: 0 }}>{(x.s.thema || 'Thema folgt') + (x0.rhythmus === 'einzeltermine' && x0.k !== 'pkb003.3' ? ' · ' + x.s.von + '–' + x.s.bis + ' Uhr, ' + x.s.raum : x.s.raum !== x0.s.raum ? ' · Raum ' + x.s.raum : '')}</span>
+                      <span style={{ flex: 1, minWidth: 0 }}>{(x.s.thema || inhaltVon(x)?.thema || (status(x) === 'aus' && ohneMat(x) ? '–' : 'Thema folgt')) + (x0.rhythmus === 'einzeltermine' && x0.k !== 'pkb003.3' ? ' · ' + x.s.von + '–' + x.s.bis + ' Uhr, ' + x.s.raum : x.s.raum !== x0.s.raum ? ' · Raum ' + x.s.raum : '')}</span>
                       <span style={{ fontSize: 11, fontWeight: 800, padding: '2px 8px', borderRadius: 999, background: t[1], color: t[2], whiteSpace: 'nowrap' }}>{t[0]}</span>
                       <span style={{ color: '#9a9ea5', visibility: lernbar ? 'visible' : 'hidden' }}>›</span>
                     </button>); })}
@@ -369,7 +371,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
           {gruppenIds.map((vid) => {
             const arr = ss.filter((x) => x.vid === vid && x.s.status !== 'entfaellt'), x0 = ss.find((x) => x.vid === vid)!;
             const rows = arr.map((x, i) => { const fp = sitzungsFortschritt(stand, x.s, x.k, x.s.id in lokalGel ? lokalGel[x.s.id] : undefined); return { x, i, st: status(x), g: fp.pct >= 100, fp }; });
-            const gel = rows.filter((r) => r.g && r.st !== 'aus').length, statt = rows.filter((r) => r.st !== 'kommt' && r.st !== 'aus').length, nach = rows.filter((r) => r.st === 'weg' && !r.g).length;
+            const gel = rows.filter((r) => r.g && !ohneMat(r.x)).length, statt = rows.filter((r) => r.st !== 'kommt' && !ohneMat(r.x)).length, nach = rows.filter((r) => r.st === 'weg' && !r.g).length;
             const gef = rows.filter((r) => lernFilter === 'alle' || (lernFilter === 'nach' ? r.st === 'weg' && !r.g : !r.g && r.st !== 'kommt'));
             const verg = gef.filter((r) => r.st !== 'kommt'), zuk = gef.filter((r) => r.st === 'kommt'), zeigeZ = !!lernZukunft[vid], offen = lernOffen[vid] ?? false;
             const liste = [...verg, ...(zeigeZ ? zuk : [])];
@@ -380,20 +382,20 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                   <b style={{ color: f[0], fontSize: 13 }}>{x0.k}</b>
                   <span style={{ fontSize: 14, fontWeight: 800, flex: '1 1 160px', minWidth: 0 }}>{x0.art === 'Tutorium' ? 'Tutorium (freiwillig)' : x0.titel.replace(/ \(Gruppe [A-Z0-9]+\)/, '')}</span>
                   {nach > 0 && <span style={{ fontSize: 11, fontWeight: 800, padding: '2px 8px', borderRadius: 999, background: '#fcecee', color: '#b4475a' }}>{nach} nachholen</span>}
-                  <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{gel} von {statt} gelernt{statt ? ' · ' + Math.round(rows.filter((r) => r.st !== 'kommt' && r.st !== 'aus').reduce((x, r) => x + r.fp.pct, 0) / statt) + ' %' : ''}</span>
+                  <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{gel} von {statt} gelernt{statt ? ' · ' + Math.round(rows.filter((r) => r.st !== 'kommt' && !ohneMat(r.x)).reduce((x, r) => x + r.fp.pct, 0) / statt) + ' %' : ''}</span>
                 </button>
                 {offen && <div style={{ display: 'flex', flexDirection: 'column', padding: '0 14px 6px' }}>
                   {liste.map((r) => { const t = r.g ? ['gelernt', '#e3f2e8', '#2f7a4b'] : r.st === 'aus' ? ['ausgefallen', '#f0f0eb', '#6b6f76'] : r.st === 'nach' ? ['nachgeholt', '#e3f2e8', '#2f7a4b'] : r.st === 'weg' ? ['nachholen', '#fcecee', '#b4475a'] : r.st === 'kommt' ? ['kommt', '#f7f7f4', '#9a9ea5'] : r.st === 'da' ? ['anwesend', '#e3f2e8', '#2f7a4b'] : ['? Anwesenheit', '#f0f0eb', '#6b6f76'];
                     const haZeilen = hausaufgabenFuer(r.x.k, r.x.s.datum).map((ha) => ({ ha, txt: 'Hausaufgabe fällig' }));
                     return (<Fragment key={r.x.s.id}>
                       <button type="button" onClick={() => ltOeffnen(r.x)} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '10px 0', border: 0, borderTop: '1px solid #f0f0eb', background: 'transparent', color: 'var(--ink)', textAlign: 'left', cursor: 'pointer', opacity: r.st === 'kommt' ? 0.6 : 1 }}>
-                        <span style={{ width: 26, height: 26, flex: 'none', borderRadius: '50%', display: 'grid', placeItems: 'center', fontSize: 12, fontWeight: 800, background: r.g ? f[0] : r.st === 'weg' ? '#fcecee' : '#f0f0eb', color: r.g ? '#fff' : r.st === 'weg' ? '#b4475a' : 'var(--ink-3)' }}>{r.i + 1}</span>
+                        <span style={{ width: 26, height: 26, flex: 'none', borderRadius: '50%', display: 'grid', placeItems: 'center', fontSize: 12, fontWeight: 800, background: r.g ? f[0] : r.st === 'weg' ? '#fcecee' : '#f0f0eb', color: r.g ? '#fff' : r.st === 'weg' ? '#b4475a' : 'var(--ink-3)' }}>{nrIn(r.x) || '–'}</span>
                         <span style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column', gap: 1 }}>
-                          <span style={{ fontSize: 14, fontWeight: 700 }}>{themaTitel(r.x.s.thema, inhaltVon(r.x)?.thema ?? (r.st === 'aus' ? 'Ausgefallen' : undefined))}</span>
+                          <span style={{ fontSize: 14, fontWeight: 700 }}>{themaTitel(r.x.s.thema, inhaltVon(r.x)?.thema ?? (r.st === 'aus' && ohneMat(r.x) ? 'Ausgefallen' : undefined))}</span>
                           <span style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
                             <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{fmtD(r.x.s.datum)}</span>
-                            {inhaltVon(r.x) ? <span style={{ fontSize: 10, fontWeight: 800, padding: '1px 6px', borderRadius: 999, background: f[1], color: f[0] }}>aufbereitet · {inhaltVon(r.x)!.fragen.length} Fragen</span> : r.st !== 'kommt' && r.st !== 'aus' && <span style={{ fontSize: 10, fontWeight: 800, padding: '1px 6px', borderRadius: 999, border: '1px dashed #d8d8d0', background: '#fff', color: '#9a9ea5' }}>noch nicht aufbereitet</span>}
-                            {r.st === 'aus' && !inhaltVon(r.x) ? <span style={{ fontSize: 11, color: 'var(--ink-3)' }}>keine Materialien</span> : <><span style={{ width: 64, height: 5, borderRadius: 3, background: '#f0f0eb', overflow: 'hidden', visibility: r.st === 'kommt' ? 'hidden' : 'visible' }}><span style={{ display: 'block', height: '100%', width: r.fp.pct + '%', background: f[0] }} /></span>
+                            {inhaltVon(r.x) ? <span style={{ fontSize: 10, fontWeight: 800, padding: '1px 6px', borderRadius: 999, background: f[1], color: f[0] }}>aufbereitet · {inhaltVon(r.x)!.fragen.length} Fragen</span> : r.st !== 'kommt' && !ohneMat(r.x) && <span style={{ fontSize: 10, fontWeight: 800, padding: '1px 6px', borderRadius: 999, border: '1px dashed #d8d8d0', background: '#fff', color: '#9a9ea5' }}>noch nicht aufbereitet</span>}
+                            {ohneMat(r.x) ? <span style={{ fontSize: 11, color: 'var(--ink-3)' }}>keine Materialien</span> : <><span style={{ width: 64, height: 5, borderRadius: 3, background: '#f0f0eb', overflow: 'hidden', visibility: r.st === 'kommt' ? 'hidden' : 'visible' }}><span style={{ display: 'block', height: '100%', width: r.fp.pct + '%', background: f[0] }} /></span>
                             <span style={{ fontSize: 11, color: 'var(--ink-3)' }}>{r.st === 'kommt' ? 'noch keine Inhalte' : r.fp.pct + ' %' + (r.fp.fragen ? ' · ' + r.fp.sicher + '/' + r.fp.fragen + ' Fragen sicher' : '')}</span></>}
                           </span>
                         </span>
@@ -509,7 +511,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
           <div role="dialog" aria-label="Lerntext" className="dialog" style={{ maxWidth: 620, gap: 14 }}>
             <div style={{ fontSize: 13, fontWeight: 800, color: f[0] }}>{lt.kopf}</div>
             <h2 style={{ margin: '-8px 0 0', fontSize: 20 }}>{lt.titel}</h2>
-            {(() => { const xS = SESS.find((q) => q.s.id === lt.sid); const LI = xS ? inhaltVon(xS) : null; if (!LI && xS && status(xS) === 'aus') return <div style={{ fontSize: 14, color: 'var(--ink-2)', background: '#f0f0eb', borderRadius: 12, padding: '12px 14px' }}>Diese Sitzung ist ausgefallen. Dazu gibt es keine Materialien – sie wird nicht aufbereitet und zählt nicht zum Lernfortschritt.</div>; if (!LI) return <>
+            {(() => { const xS = SESS.find((q) => q.s.id === lt.sid); const LI = xS ? inhaltVon(xS) : null; if (!LI && xS && ohneMat(xS)) return <div style={{ fontSize: 14, color: 'var(--ink-2)', background: '#f0f0eb', borderRadius: 12, padding: '12px 14px' }}>{status(xS) === 'aus' ? 'Diese Sitzung ist ausgefallen. Dazu' : 'Zu dieser Sitzung'} gibt es keine Materialien – sie wird nicht aufbereitet und zählt nicht zum Lernfortschritt. (Änderbar im Sitzungsfenster: „Gibt es Material?“)</div>; if (!LI) return <>
             <span style={{ alignSelf: 'flex-start', fontSize: 11, fontWeight: 800, padding: '2px 8px', borderRadius: 999, border: '1px dashed #d8d8d0', background: '#fff', color: '#9a9ea5' }}>noch nicht aufbereitet</span>
               <div style={{ fontSize: 13, color: 'var(--ink-3)', border: '1px dashed #d8d8d0', borderRadius: 10, padding: '8px 10px' }}>Diese Sitzung ist noch nicht aufbereitet – im Modul-Chat mit deinen Unterlagen (Schema in claude/lerninhalte_schema.md). Bis dahin zeigt das Fenster den Aufbau.</div>
               <div style={{ border: '1px solid var(--line)', borderRadius: 12, padding: '12px 14px', display: 'flex', flexDirection: 'column', gap: 6 }}>

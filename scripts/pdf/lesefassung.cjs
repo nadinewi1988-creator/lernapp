@@ -59,7 +59,7 @@ fs.writeFileSync(out.replace(/\.pdf$/, '.html'), html);
   const b = await chromium.launch(); const p = await b.newPage();
   await p.goto('file://' + path.resolve(out.replace(/\.pdf$/, '.html'))); await p.evaluate(() => document.fonts.ready);
   await p.pdf({ path: out, format: 'A4', printBackground: true, displayHeaderFooter: true, headerTemplate: '<span></span>',
-    footerTemplate: '<div style="font-size:8px;color:#888;width:100%;text-align:center;">' + esc(d.teilmodul + ' · ' + datum) + ' · Seite <span class="pageNumber"></span> von <span class="totalPages"></span></div>',
+    footerTemplate: '<div style="font-size:10px;color:#333;width:100%;text-align:center;padding-top:2px;">' + esc(d.teilmodul + ' · ' + datum) + ' · <b>Seite <span class="pageNumber"></span> von <span class="totalPages"></span></b></div>',
     margin: { top: '16mm', bottom: '16mm', left: '16mm', right: '16mm' } });
   await b.close(); console.log('ok', out);
 })();

@@ -37,7 +37,7 @@ const { mdHtml, esc, fehler } = require('./md.cjs');
   await page.goto('file://' + path.resolve(out.replace(/\.pdf$/, '.html')));
   await page.evaluate(() => document.fonts.ready);
   await page.pdf({ path: out, format: 'A4', printBackground: true, displayHeaderFooter: true, headerTemplate: '<span></span>',
-    footerTemplate: '<div style="font-size:8px;color:#888;width:100%;text-align:center;">' + esc(titel) + ' · Seite <span class="pageNumber"></span> von <span class="totalPages"></span></div>',
+    footerTemplate: '<div style="font-size:10px;color:#333;width:100%;text-align:center;padding-top:2px;">' + esc(titel) + ' · <b>Seite <span class="pageNumber"></span> von <span class="totalPages"></span></b></div>',
     margin: { top: '16mm', bottom: '16mm', left: '17mm', right: '17mm' } });
   await browser.close();
   console.log('ok', out);

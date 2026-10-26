@@ -1,0 +1,665 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb001",
+  "teilmodul": "ewb001.2",
+  "datum": "2026-10-27",
+  "sitzung_nr": 3,
+  "sitzung_id": "",
+  "thema": "Theoretische Strömungen der Erziehungswissenschaft II – Transzendentalphilosophische Pädagogik, Historisch-materialistische Pädagogik, Systemtheoretische EW, Feministische Ansätze, Postmoderne Ansätze, Reflexive EW",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Courseware-Einheit 03 (Folien + eingesprochenes Video aus einem früheren Semester). Laut Ablaufplan gibt es am 27.10.2026 eine Präsenzsitzung zum selben Thema – deren Folien liegen noch nicht vor und werden nachgetragen. Vorbereitung: Hausaufgabe h01 aus S02 (Courseware-Einheit 03 + Gudjons/Traub S. 42–52).",
+  "quellen": [
+    {
+      "datei": "ewb001.2/02_Präsentationen_Vorlesungen/03_ewb001.2_Theoretische_Strömungen_der_EW_II.pdf",
+      "art": "Folien (Courseware-Einheit 03)",
+      "seiten": "1–15"
+    },
+    {
+      "datei": "ewb001.2/3._Videos der Vorlesung Kopie/Sitzung_03/03_ewb001.2_Transkript_Zusammenfassung.docx",
+      "art": "Transkript des eingesprochenen Videos (51 Min.)",
+      "seiten": ""
+    },
+    {
+      "datei": "ewb001.2/04_Literatur/02_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_2_Richtungen_der_Erziehungswissenschaft.pdf",
+      "art": "Selbststudium zur Sitzung (Folie 13; ausgearbeitet in Hausaufgabe h01 aus S02)",
+      "seiten": "42–52"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Du kannst erklären, was mit Theorienpluralismus gemeint ist, und die Strömungen zeitlich einordnen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 3",
+      "fragen": [
+        "f01",
+        "f02"
+      ],
+      "erklaerung_abschnitt": "Vom Drei-Strömungen-Modell zum Theorienpluralismus"
+    },
+    {
+      "text": "Du kannst Bezugspunkt, Grundgedanken und Abgrenzung der transzendental-kritischen und der historisch-materialistischen Erziehungswissenschaft erläutern.",
+      "art": "abgeleitet",
+      "quelle": "Folien 4–5; Video",
+      "fragen": [
+        "f03",
+        "f04",
+        "f05",
+        "f06",
+        "f07"
+      ],
+      "erklaerung_abschnitt": "Transzendental-kritische Erziehungswissenschaft"
+    },
+    {
+      "text": "Du kannst die phänomenologische und die systemtheoretische Pädagogik (Technologiedefizit) erklären.",
+      "art": "abgeleitet",
+      "quelle": "Folien 6–7; Video",
+      "fragen": [
+        "f08",
+        "f09",
+        "f10",
+        "f11",
+        "f20"
+      ],
+      "erklaerung_abschnitt": "Phänomenologische Pädagogik"
+    },
+    {
+      "text": "Du kannst die drei Argumentationslinien feministischer Ansätze unterscheiden und doing gender erklären.",
+      "art": "abgeleitet",
+      "quelle": "Folie 8; Video",
+      "fragen": [
+        "f12",
+        "f13",
+        "f19"
+      ],
+      "erklaerung_abschnitt": "Feministische Ansätze in der Erziehungswissenschaft"
+    },
+    {
+      "text": "Du kannst postmoderne Ansätze und die reflexive Erziehungswissenschaft (Lenzen, Krüger) beschreiben.",
+      "art": "abgeleitet",
+      "quelle": "Folie 9; Video",
+      "fragen": [
+        "f14",
+        "f15",
+        "f20"
+      ],
+      "erklaerung_abschnitt": "Postmoderne Ansätze und reflexive Erziehungswissenschaft"
+    },
+    {
+      "text": "Du kannst die Strömungen in einer Übersicht zuordnen und erklären, warum Erziehungswissenschaft eine Integrationswissenschaft ist.",
+      "art": "abgeleitet",
+      "quelle": "Folien 10–12; Video",
+      "fragen": [
+        "f16",
+        "f17",
+        "f18",
+        "f19"
+      ],
+      "erklaerung_abschnitt": "Übersicht und Erziehungswissenschaft als Integrationswissenschaft"
+    }
+  ],
+  "kurzfassung": [
+    "Ab 1975 setzt der Theorienpluralismus ein: Aus den drei großen Strömungen gehen viele kleinere Ansätze hervor.",
+    "Transzendental-kritische EW (Kant): Bedingungen pädagogischen Handelns erfassen und seine Prinzipien kritisch reflektieren.",
+    "Historisch-materialistische EW: marxistische, radikale Kritik der bürgerlichen Erziehung; Bildung soll befreien (in der DDR in Indoktrination gekippt).",
+    "Phänomenologische Pädagogik: unmittelbare Wesensschau, Lebenswelt und Binnenperspektive des Kindes; Seitenarm der geisteswissenschaftlichen EW, Grundlage qualitativer Forschung.",
+    "Systemtheoretische Pädagogik (Luhmann): autopoietische, selbstreferentielle Systeme mit eigenen Codes – daraus folgt das Technologiedefizit der Erziehung.",
+    "Feministische Ansätze: Benachteiligung, Differenz und Geschlecht als soziale Konstruktion (doing gender).",
+    "Postmoderne Ansätze: Ende der großen Erzählungen, Pluralität, Anerkennung des Differenten; reflexive EW (Lenzen, Krüger).",
+    "Erziehungswissenschaft ist eine Integrationswissenschaft: viele Konzepte, offen für Nachbardisziplinen."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Vom Drei-Strömungen-Modell zum Theorienpluralismus",
+      "text": "**Folie 3** (Krüger 2012, S. 11):\n\n| Strömung | Zeitraum |\n| --- | --- |\n| Geisteswissenschaftliche EW | 1925–1933, 1945–1960 |\n| Empirische EW | 1900–1933, ab 1965 |\n| Kritische EW | 1970–1980 |\n| **Theorienpluralismus** | **ab 1975** |\n\nZum Theorienpluralismus gehören u. a. praxeologische, transzendentalphilosophische, historisch-materialistische, psychoanalytische Pädagogik, systemtheoretische EW, strukturalistische, ökologische, feministische und postmoderne Ansätze / reflexive EW.\n\n**Bild des Dozenten (Video):** Die drei großen Strömungen sind wie drei große Fäden; jeder hat sich ausdifferenziert, es entstehen Seitenwege und Verästelungen. Behandelt werden sechs Ansätze.\n\n> **Hinweis (Video):** Die Namen der Vertreter*innen müssen nicht auswendig gelernt werden – man sollte sie aber den Strömungen zuordnen können.",
+      "beispiel": "",
+      "folien": "2–3"
+    },
+    {
+      "titel": "Transzendental-kritische Erziehungswissenschaft",
+      "text": "**Folie 4** (Gudjons & Traub 2016, S. 42 f.; Krüger 2012, S. 95 ff.) – Vertreter*innen: v. a. Heitger, Dickopp, Fischer\n\n- **Mehrere Namen** (laut Video Stolperfalle): transzendentalphilosophische bzw. prinzipienwissenschaftliche Pädagogik, personaltranszendentale Pädagogik, transzendentalkritische Pädagogik\n- **Bezugspunkt:** Transzendentalphilosophie (Kant); *transzendental* von lat. *transcendere* = „überschreiten“: Ideen, die nicht durch empirische Erfahrung erworben werden können, deren Gültigkeit aber angenommen werden muss\n- **Transzendental:** Erfassen von Bedingungen pädagogischen Handelns und pädagogischer Aussagen – Was liegt diesen zugrunde?\n- **Kritisch:** „radikale, skeptische Aufklärung, die nicht unbefragt stehen lässt, was beansprucht, mit der Sache der Pädagogik für jetzt oder für immer mehr oder weniger definitiv fertig geworden zu sein oder fertig werden zu können“ (Fischer 1994, 63) → **Reflexion der Prinzipien pädagogischen Handelns**\n\n> **Abgrenzung (Video, prüfungsrelevant):** Im Zentrum steht weder die Hermeneutik (geisteswissenschaftliche EW) noch die empirische Erhebung (empirische EW), sondern die transzendentalphilosophische Überlegung.",
+      "beispiel": "Statt Erzieherinnen zu befragen, wie sie handeln, fragt diese Richtung, welche Grundannahmen (z. B. über Freiheit und Mündigkeit) jedem Erziehen vorausgesetzt sind.",
+      "folien": "4"
+    },
+    {
+      "titel": "Historisch-materialistische Erziehungswissenschaft",
+      "text": "**Folie 5** (Gudjons & Traub 2016, S. 43 f.; Krüger 2012, S. 101 ff.) – Vertreter*innen: v. a. Gamm, Heydorn, Koneffke, Schmied-Kowarzik\n\n- „eine aus der materialistischen Gesellschafts- und Geschichtstheorie von Karl Marx abgeleitete radikale Kritik der bürgerlichen Erziehung“ (Schmied-Kowarzik 1992, S. 101)\n- **Entwicklung:** 1920er Jahre in Deutschland erstmals Ansätze einer „revolutionären“ Pädagogik → Weiterentwicklung im Zuge der Studentenbewegung Ende der 60er/Anfang der 70er Jahre → wissenschaftstheoretische Grundlage der Pädagogik in der DDR → heute laut Video stark marginalisiert\n- Kritik der (unfreien) Lebensweise in kapitalistischen Gesellschaften sowie des Beitrags der Erziehung als Garant für die ständige Wiedererneuerung dieser Zustände\n- Statt die gesellschaftlichen Verhältnisse zu reproduzieren, soll Bildung zur **Befreiung** der Menschen beitragen\n\n**Einordnung des Dozenten:** In der DDR kippte der Ansatz in **Indoktrination** (junge Menschen „auf Linie bringen“) – „Befreiung“ ist dort zynisch. Heutige Vertreter*innen beziehen sich nicht positiv auf die DDR.\n\n> **Abgrenzung zur kritischen EW (typische Prüfungsfrage):** Überschneidungen, aber die kritische EW ist nicht an eine einzelne Theorie (Marx) gebunden, sondern an ein breiteres Feld kritischer Theorie; die historisch-materialistische EW ist radikaler und enger, mit weniger offenen, weniger emanzipatorischen Zielen.",
+      "beispiel": "",
+      "folien": "5"
+    },
+    {
+      "titel": "Phänomenologische Pädagogik",
+      "text": "**Folie 6** (Gudjons & Traub 2016, S. 43 f.; Krüger 2012, S. 119 ff.) – Vertreter*innen: u. a. Langeveld, Loch, Lippitz, Meyer-Drawe\n\n- **Phänomenologischer Ansatz:** Erfassen eines Phänomens durch unmittelbare **Wesensschau**, Erkennen und Verstehen der Intention; beschreiben, was ist\n- „›Phänomenologisch‹ nennen wir demzufolge eine Methode, die die **Lebenswelt** des Menschen unmittelbar durch ›ganzheitliche‹ Interpretation alltäglicher Situationen versteht.“ (Seiffert 1971, S. 26)\n- Fokus auf die **Handlungspraxis** in der Pädagogik; Relevanz vor- und außerwissenschaftlicher Erfahrung\n- „Forschen heißt hier, an der **Binnenperspektive des Kindes** teilnehmen, genauer: es begleiten, Freund werden, Vertrauen schaffen, mitspielen und erzählen lassen. Das Material, das man so gewinnt, wird erst nachträglich reflexiv und systematisch bearbeitet; mit der ausdrücklichen Intention jedoch, die darin stehende Lebendigkeit und Ursprünglichkeit zu bewahren.“ (Lippitz 1994, S. 7)\n- Phänomenologie = wichtige Grundlage für **qualitative Forschungsmethoden**\n\n> **Prüfungsanker (Video):** Die phänomenologische Pädagogik ist ein **Seitenarm der geisteswissenschaftlichen EW** (Praxisbezug, Kind in seinen eigenen Rechten, pädagogisches Verhältnis).",
+      "beispiel": "",
+      "folien": "6"
+    },
+    {
+      "titel": "Systemtheoretische Pädagogik (Luhmann)",
+      "text": "**Folie 7** (Gudjons & Traub 2016, S. 43 f.; Krüger 2012, S. 127 ff.) – Vertreter: v. a. Niklas Luhmann (laut Video Soziologe, kein Pädagoge; seine Gesellschaftstheorie wurde auf die Pädagogik übertragen)\n\n- Ausdifferenzierung der Gesellschaft in **autonome Teilsysteme**: u. a. Erziehungssystem, Wirtschaftssystem, politisches System\n- Jedes System kommuniziert mit **eigenen Codes** (Video: Wissenschaft – wahr/falsch).\n- Systeme sind **autopoietisch** (bringen sich immer wieder selbst hervor) und **selbstreferentiell** (können sich auf sich selbst beziehen).\n- **„Technologiedefizit“:** keine direkte Einflussnahme des Erziehers auf die Intentionen des „Zöglings“\n- Menschliches Bewusstsein als „ein autopoietisches System“, „das keinen unmittelbaren Kontakt zu seiner Umwelt (also beispielsweise zu einem Lehrer) aufnehmen, sondern nur mit sich selbst kommunizieren kann“ (Krüger 2012, S. 131)\n\nVideo: Lehrerin und Schülerin kommunizieren zwar, verstehen sich aber nur bedingt – was gesagt wird, kommt möglicherweise anders an. **Vorgriff:** Die konstruktivistische Didaktik zeigt später viele Parallelen.",
+      "beispiel": "",
+      "folien": "7"
+    },
+    {
+      "titel": "Feministische Ansätze in der Erziehungswissenschaft",
+      "text": "**Folie 8** (Gudjons & Traub 2016, S. 47; Krüger 2012, S. 154 ff.) – Vertreter*innen: u. a. Prengel, Metz-Göckel\n\nAufgreifen feministischer Argumentationsansätze (überwiegend aus Sozial- und Kulturwissenschaften) in der Erziehungswissenschaft – bewusst im Plural. **Drei Argumentationslinien** (laut Video sauber trennen können):\n\n| Linie | Kern | Beispiel (Video) |\n| --- | --- | --- |\n| **Benachteiligungsansätze** | Fokus auf die Benachteiligung von Mädchen und Frauen in pädagogischen Handlungsfeldern, Gleichstellung als Ziel | Mathematik, Frauenanteil in Ingenieurstudiengängen |\n| **Differenztheoretische Ansätze** | Hervorhebung der Differenzen zwischen weiblichen und männlichen Lebensformen, Betonung des eigenen Werts der Lebensweisen von Frauen | ökofeministischer Diskurs |\n| **Geschlecht als soziale Konstruktion** | Zweigeschlechtlichkeit als soziale Konstruktion, „die durch Prozesse der Zuschreibung (doing gender) entstehen“ (Krüger 2012, S. 157), Vielfalt der Geschlechter, Ziel: kritische Auseinandersetzung mit doing gender und Dekonstruktion | eigenes pädagogisches Verhalten auf doing gender prüfen |\n\nDie Linien lösen sich nicht ab: Die ersten beiden sind älter und gehen von Zweigeschlechtlichkeit aus (Kritik: Sie reproduzieren sie), alle drei haben bis heute Vertreter*innen; die Tendenz geht zur dritten. Anschluss: inklusive Bildung.",
+      "beispiel": "",
+      "folien": "8"
+    },
+    {
+      "titel": "Postmoderne Ansätze und reflexive Erziehungswissenschaft",
+      "text": "**Folie 9** (Krüger 2012, S. 166 ff., 247 ff.) – Vertreter*innen: u. a. Lenzen, Krüger\n\n- **Postmoderne:** tiefgreifender gesellschaftlicher Wandlungsprozess, Kritik an der Gesellschaft der „Moderne“ (Video: Moderne = Industrialisierung, Fortschritt, Wachstum – stößt an Grenzen, Klimakrise)\n- Ende der **„großen Erzählungen“**, Implikationen des Fortschritts, **Pluralisierung der Lebensstile**\n- „Diagnosen um das Ende der Pädagogik“ (pessimistische Sichtweise / Endzeitdiagnose)\n- **Positive Wendung:** Favorisierung von Pluralität, Anerkennung des Differenten\n- Forschung z. B. zu jugendkulturellen Lebensstilen, Pluralisierung der Familien\n\n**„Reflexive Erziehungswissenschaft“** – laut Dozent die für heute wichtigste Teilströmung:\n\n| Lenzen | Krüger |\n| --- | --- |\n| Generierung reflexiven Wissens (u. a. über Folgen von Pädagogik und Erziehung) | Auseinandersetzung mit globalen Gefährdungslagen und Risiken (reflexive Modernisierung), Verbesserung der pädagogischen Praxis, Ziel der Solidarität |\n\n**Vorgriff (Video):** Die Bildung für nachhaltige Entwicklung (BNE) knüpft hier an.",
+      "beispiel": "",
+      "folien": "9"
+    },
+    {
+      "titel": "Übersicht und Erziehungswissenschaft als Integrationswissenschaft",
+      "text": "**Übersicht (Folien 10–11)** – laut Dozent reicht sie für die Klausur **nicht**; sie dient der Zuordnung:\n\n| Strömung | Kurzformel | knüpft an … |\n| --- | --- | --- |\n| Geisteswissenschaftliche EW | Vorrangigkeit der Praxis, Verstehen durch hermeneutischen Zugang (Auslegen, Interpretation) | – |\n| Empirische EW | Erklärung von objektiv gegebener Erziehungs- und Bildungswirklichkeit (empirische Daten) | – |\n| Kritische EW | Verbindung von empirischer Forschung, sozialphilosophischer Reflexion und gesellschaftskritischer Analyse; Emanzipation; Ideologiekritik, Aktionsforschung | – |\n| Transzendental-kritische EW | Erfassen von Bedingungen pädagogischen Handelns; Reflexion der Prinzipien | *(nicht zugeordnet)* |\n| Historisch-materialistische EW | marxistisch geprägt, Kritik der bürgerlichen Erziehung; Bildung zur Befreiung | Überschneidung mit der kritischen EW (Video) |\n| Phänomenologische Pädagogik | Beschreiben durch unmittelbare Anschauung; Fokus auf die Handlungspraxis | geisteswissenschaftliche EW (Video) |\n| Systemtheoretische EW | Technologiedefizit (keine direkte Einflussnahme auf die Lernenden) | *(nicht zugeordnet)* |\n| Feministische Ansätze | geschlechtsspezifische Benachteiligungen und Differenzen, doing gender | *(nicht zugeordnet)* |\n| Postmoderne Ansätze | Pluralität und Anerkennung des Differenten, reflexive Ansätze | *(nicht zugeordnet)* |\n\n**Erziehungswissenschaft als Integrationswissenschaft (Folie 12, Gudjons & Traub 2016, S. 46 ff.):**\n- starke Öffnung in den letzten 20 Jahren in Richtung auf andere Sozialwissenschaften (Psychologie, Soziologie), aber auch zu Kybernetik und Spieltheorie\n- Theorienpluralismus und Verknüpfung mit Nachbardisziplinen\n- nicht *die* Erziehungswissenschaft, sondern verschiedene erziehungswissenschaftliche Konzepte\n- quantitative Ausweitung und qualitative Ausdifferenzierung\n\n**Selbststudium (Folie 13):** Gudjons & Traub (2016), Kap. 2, S. 42–52 – ausgearbeitet in der Hausaufgabe h01 aus S02 (Vorbereitung dieser Sitzung).",
+      "beispiel": "",
+      "folien": "10–15"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Theorienpluralismus",
+      "wortlaut": "Theorienpluralismus (ab 1975): u.a. Praxeologische Pädagogik, Transzendentalphilosophische Pädagogik, Historisch-materialistische Pädagogik, Psychoanalytische Pädagogik, Systemtheoretische Erziehungswissenschaft, Strukturalistische Ansätze, Ökologische Ansätze, Feministische Ansätze, Postmoderne Ansätze / Reflexive Erziehungswissenschaft (Krüger 2012, S. 11)",
+      "erklaerung": "Seit etwa 1975 gibt es neben den drei großen Strömungen viele kleinere Ansätze, die sich aus ihnen weiterentwickelt haben („Fäden mit Verästelungen“).",
+      "folie": "3"
+    },
+    {
+      "begriff": "Transzendental-kritische Erziehungswissenschaft",
+      "wortlaut": "Bezugspunkt: Transzendentalphilosophie (Kant), transzendental (von lateinisch transcendere, „überschreiten“): Ideen, die nicht durch empirische Erfahrung erworben werden können, deren Gültigkeit aber angenommen werden muss; Transzendental: Erfassen von Bedingungen pädagogischen Handelns und pädagogischer Aussagen; Kritisch: „radikale, skeptische Aufklärung …“ (Fischer 1994, 63) > Reflexion der Prinzipien pädagogischen Handelns",
+      "erklaerung": "Philosophische Richtung, die hinter das pädagogische Handeln schaut: Was liegt ihm zugrunde, nach welchen Prinzipien handeln wir? Auch: transzendentalphilosophische, prinzipienwissenschaftliche, personaltranszendentale Pädagogik.",
+      "folie": "4"
+    },
+    {
+      "begriff": "Historisch-materialistische Erziehungswissenschaft",
+      "wortlaut": "„eine aus der materialistischen Gesellschafts- und Geschichtstheorie von Karl Marx abgeleitete radikale Kritik der bürgerlichen Erziehung“ (Schmied-Kowarzik 1992, S. 101)",
+      "erklaerung": "Marxistische Erziehungswissenschaft: kritisiert, dass Erziehung kapitalistische Verhältnisse immer wieder erneuert; Bildung soll befreien. Grundlage der DDR-Pädagogik (dort Indoktrination), heute randständig.",
+      "folie": "5"
+    },
+    {
+      "begriff": "Phänomenologische Pädagogik",
+      "wortlaut": "„›Phänomenologisch‹ nennen wir demzufolge eine Methode, die die Lebenswelt des Menschen unmittelbar durch ›ganzheitliche‹ Interpretation alltäglicher Situationen versteht.“ (Seiffert 1971, S. 26)",
+      "erklaerung": "Beschreibt pädagogische Situationen aus der unmittelbaren Anschauung und der Binnenperspektive des Kindes; Grundlage qualitativer Forschung; Seitenarm der geisteswissenschaftlichen EW.",
+      "folie": "6"
+    },
+    {
+      "begriff": "Technologiedefizit (Luhmann)",
+      "wortlaut": "„Technologiedefizit“: keine direkte Einflussnahme des Erziehers auf die Intentionen des „Zöglings“",
+      "erklaerung": "Weil Lernende (wie alle Systeme) autopoietisch sind und nur mit sich selbst kommunizieren, kann eine Lehrkraft Wissen nicht eins zu eins übertragen.",
+      "folie": "7"
+    },
+    {
+      "begriff": "Autopoiesis / Selbstreferenz",
+      "wortlaut": "Systeme sind autopoietisch, d.h., sie bringen sich immer wieder selbst hervor, und selbstreferentiell, d.h., sie können sich auf sich selbst beziehen",
+      "erklaerung": "Grundbegriffe der Systemtheorie (Luhmann): Teilsysteme der Gesellschaft (Erziehung, Wirtschaft, Politik …) erzeugen und steuern sich selbst und kommunizieren mit eigenen Codes.",
+      "folie": "7"
+    },
+    {
+      "begriff": "Doing gender",
+      "wortlaut": "Geschlecht als soziale Konstruktion: Zweigeschlechtlichkeit als soziale Konstruktion, „die durch Prozesse der Zuschreibung (doing gender) entstehen“ (Krüger 2012, S. 157)",
+      "erklaerung": "Im alltäglichen und pädagogischen Handeln wird Zweigeschlechtlichkeit immer wieder hergestellt; feministische Ansätze wollen das reflektieren und dekonstruieren.",
+      "folie": "8"
+    },
+    {
+      "begriff": "Postmoderne Ansätze",
+      "wortlaut": "Postmoderne: tiefgreifender gesellschaftlicher Wandlungsprozess, Kritik an der Gesellschaft der „Moderne“; Ende der „großen Erzählungen“, Implikationen des Fortschritts, Pluralisierung der Lebensstile",
+      "erklaerung": "Ansätze, die das Fortschrittsversprechen der Moderne in Frage stellen und Pluralität und Anerkennung des Differenten betonen.",
+      "folie": "9"
+    },
+    {
+      "begriff": "Reflexive Erziehungswissenschaft",
+      "wortlaut": "„Reflexive Erziehungswissenschaft“: Generierung reflexiven Wissens (u.a. über Folgen von Pädagogik und Erziehung) (Lenzen); Auseinandersetzung mit globalen Gefährdungslagen und Risiken (reflexive Modernisierung), Verbesserung der pädagogischen Praxis, Ziel der Solidarität (Krüger)",
+      "erklaerung": "Teilströmung der postmodernen Ansätze: denkt über die Folgen von Pädagogik nach und will zur Bewältigung globaler Krisen beitragen (Anknüpfung BNE).",
+      "folie": "9"
+    },
+    {
+      "begriff": "Erziehungswissenschaft als Integrationswissenschaft",
+      "wortlaut": "starke Öffnung in den letzten 20 Jahren in Richtung auf anderen Sozialwissenschaften (Psychologie, Soziologie), aber auch zu Wissenschaftszweigen wie z.B. der Kybernetik und der Spieltheorie; Theorienpluralismus und Verknüpfung mit Nachbardisziplinen; nicht die Erziehungswissenschaft, sondern verschiedene erziehungswissenschaftliche Konzepte",
+      "erklaerung": "Die EW nimmt Ansätze aus Nachbardisziplinen auf und besteht aus vielen Konzepten statt aus einer einheitlichen Lehre.",
+      "folie": "12"
+    },
+    {
+      "begriff": "Feministische Ansätze (drei Argumentationslinien)",
+      "wortlaut": "Benachteiligungsansätze · Differenztheoretische Ansätze · Geschlecht als soziale Konstruktion",
+      "erklaerung": "Drei Linien, die sich nicht ablösen: Gleichstellung, Wert weiblicher Lebensweisen, Dekonstruktion von Zweigeschlechtlichkeit.",
+      "folie": "8"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter Theorienpluralismus in der Erziehungswissenschaft?",
+      "antwort": "Ab etwa 1975 gibt es nicht mehr nur die drei großen Strömungen (geisteswissenschaftliche, empirische, kritische EW), sondern eine größere Zahl kleinerer Ansätze, z. B. transzendentalphilosophische, historisch-materialistische, phänomenologische, systemtheoretische, feministische und postmoderne Ansätze. Bild des Dozenten: Die drei großen Strömungen sind wie Fäden, aus denen sich Seitenwege und Verästelungen ergeben.",
+      "erklaerung": "Folie 3 (Krüger 2012, S. 11) und Video.",
+      "folie": "3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Zuordnungen von Strömung und Zeitraum sind laut Folie richtig?",
+      "optionen": [
+        "Geisteswissenschaftliche EW: 1925–1933, 1945–1960",
+        "Empirische EW: 1900–1933, ab 1965",
+        "Kritische EW: 1970–1980",
+        "Theorienpluralismus: ab 1975",
+        "Theorienpluralismus: ab 1945"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Folie 3: Zeiträume der Strömungen (Krüger 2012, S. 11).",
+      "folie": "3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was bedeuten „transzendental“ und „kritisch“ in der transzendental-kritischen Erziehungswissenschaft?",
+      "antwort": "Transzendental (lat. transcendere = „überschreiten“, Bezug Kant): Ideen, die nicht durch empirische Erfahrung erworben werden können, deren Gültigkeit aber angenommen werden muss – in der Pädagogik das Erfassen der Bedingungen pädagogischen Handelns und pädagogischer Aussagen („Was liegt diesen zugrunde?“). Kritisch: „radikale, skeptische Aufklärung, die nicht unbefragt stehen lässt …“ (Fischer 1994) – Ergebnis ist die Reflexion der Prinzipien pädagogischen Handelns.",
+      "erklaerung": "Folie 4 (Gudjons & Traub 2016, S. 42 f.; Krüger 2012, S. 95 ff.).",
+      "folie": "4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur transzendental-kritischen Erziehungswissenschaft treffen zu?",
+      "optionen": [
+        "Sie wird auch transzendentalphilosophische bzw. prinzipienwissenschaftliche Pädagogik genannt.",
+        "Ihr Bezugspunkt ist die Transzendentalphilosophie Kants.",
+        "Ihr zentrales Verfahren ist die Befragung von Erzieherinnen und Erziehern.",
+        "Sie reflektiert die Prinzipien pädagogischen Handelns.",
+        "Ihr zentrales Verfahren ist die hermeneutische Auslegung von Texten."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 4 und Video: Die Strömung hat mehrere Namen (Stolperfalle); im Zentrum steht weder Hermeneutik noch Empirie, sondern die transzendentalphilosophische Überlegung.",
+      "folie": "4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Die historisch-materialistische Erziehungswissenschaft ist „eine aus der materialistischen Gesellschafts- und Geschichtstheorie von Karl [[Marx]] abgeleitete radikale Kritik der [[bürgerlichen]] Erziehung“.",
+      "erklaerung": "Folie 5, Zitat Schmied-Kowarzik 1992, S. 101.",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "vergleich",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Grenze die historisch-materialistische von der kritischen Erziehungswissenschaft ab.",
+      "musterloesung": "Beide üben Gesellschaftskritik und überschneiden sich. Die historisch-materialistische EW ist eng an die Theorie von Marx gebunden (radikale Kritik der bürgerlichen Erziehung, Kritik kapitalistischer Lebensweise, Bildung zur Befreiung) und damit radikaler und zugleich enger: Sie geht von einem bestimmten Verständnis aus, wie Menschen lernen und wovon sie befreit werden sollen. Die kritische EW knüpft an ein breiteres Feld kritischer Theorie an, verbindet Empirie, sozialphilosophische Reflexion und Gesellschaftskritik und hat offenere, emanzipatorische Ziele. In der DDR, wo die historisch-materialistische EW Grundlage der Pädagogik war, kippte sie in Indoktrination.",
+      "bewertungspunkte": [
+        "Gemeinsamkeit: Gesellschaftskritik/Überschneidung",
+        "historisch-materialistisch: an Marx gebunden, radikaler und enger",
+        "kritisch: breitere kritische Theorie, offenere emanzipatorische Ziele"
+      ],
+      "punkte": 3,
+      "erklaerung": "Laut Video eine typische Prüfungsfrage (Folie 5; Video).",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur Entwicklung der historisch-materialistischen Erziehungswissenschaft treffen zu?",
+      "optionen": [
+        "Erste Ansätze einer „revolutionären“ Pädagogik gab es in den 1920er Jahren in Deutschland.",
+        "Sie wurde im Zuge der Studentenbewegung Ende der 60er/Anfang der 70er Jahre weiterentwickelt.",
+        "Sie war die wissenschaftstheoretische Grundlage der Pädagogik in der DDR.",
+        "Sie ist heute die dominierende Strömung an deutschen Universitäten."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 5 und Video.",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was kennzeichnet die phänomenologische Pädagogik, und an welche große Strömung knüpft sie an?",
+      "antwort": "Sie erfasst ein Phänomen durch unmittelbare Wesensschau (Intention erkennen und verstehen, beschreiben, was ist) und versteht die Lebenswelt des Menschen durch „ganzheitliche“ Interpretation alltäglicher Situationen. Im Fokus stehen die Handlungspraxis und vor- und außerwissenschaftliche Erfahrung; Forschen heißt, an der Binnenperspektive des Kindes teilzunehmen. Sie ist eine wichtige Grundlage qualitativer Forschung und laut Dozent ein Seitenarm der geisteswissenschaftlichen Erziehungswissenschaft.",
+      "erklaerung": "Folie 6 (Seiffert 1971; Lippitz 1994); Zuordnung laut Video.",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "„Forschen heißt hier, an der [[Binnenperspektive]] des Kindes teilnehmen, genauer: es begleiten, Freund werden, Vertrauen schaffen, mitspielen und erzählen lassen.“",
+      "erklaerung": "Folie 6, Zitat Lippitz 1994, S. 7.",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht Luhmanns Systemtheorie unter dem „Technologiedefizit“ der Erziehung, und wie wird es begründet?",
+      "antwort": "Technologiedefizit: Der Erzieher kann nicht direkt auf die Intentionen des „Zöglings“ einwirken. Begründung: Die Gesellschaft besteht aus autonomen Teilsystemen mit eigenen Codes; Systeme sind autopoietisch (bringen sich selbst hervor) und selbstreferentiell. Auch das menschliche Bewusstsein ist „ein autopoietisches System“, das „keinen unmittelbaren Kontakt zu seiner Umwelt (also beispielsweise zu einem Lehrer) aufnehmen, sondern nur mit sich selbst kommunizieren kann“ – Wissen lässt sich daher nicht eins zu eins übertragen.",
+      "erklaerung": "Folie 7 (Krüger 2012, S. 127 ff.); Video.",
+      "folie": "7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Begriffe der Systemtheorie ihrer Bedeutung zu.",
+      "kategorien": [
+        "autopoietisch",
+        "selbstreferentiell",
+        "Code",
+        "Technologiedefizit"
+      ],
+      "elemente": [
+        {
+          "text": "Systeme bringen sich immer wieder selbst hervor.",
+          "kategorie": "autopoietisch"
+        },
+        {
+          "text": "Systeme können sich auf sich selbst beziehen.",
+          "kategorie": "selbstreferentiell"
+        },
+        {
+          "text": "Jedes System kommuniziert damit auf eigene Weise (z. B. Wissenschaft: wahr/falsch).",
+          "kategorie": "Code"
+        },
+        {
+          "text": "keine direkte Einflussnahme des Erziehers auf die Intentionen des „Zöglings“",
+          "kategorie": "Technologiedefizit"
+        }
+      ],
+      "erklaerung": "Folie 7.",
+      "folie": "7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Aussagen der passenden Argumentationslinie feministischer Ansätze zu.",
+      "kategorien": [
+        "Benachteiligungsansätze",
+        "Differenztheoretische Ansätze",
+        "Geschlecht als soziale Konstruktion"
+      ],
+      "elemente": [
+        {
+          "text": "Fokus auf die Benachteiligung von Mädchen und Frauen in pädagogischen Handlungsfeldern",
+          "kategorie": "Benachteiligungsansätze"
+        },
+        {
+          "text": "Gleichstellung als Ziel",
+          "kategorie": "Benachteiligungsansätze"
+        },
+        {
+          "text": "Betonung des eigenen Werts der Lebensweisen von Frauen",
+          "kategorie": "Differenztheoretische Ansätze"
+        },
+        {
+          "text": "ökofeministischer Diskurs",
+          "kategorie": "Differenztheoretische Ansätze"
+        },
+        {
+          "text": "Zweigeschlechtlichkeit entsteht durch Prozesse der Zuschreibung (doing gender).",
+          "kategorie": "Geschlecht als soziale Konstruktion"
+        },
+        {
+          "text": "Ziel der kritischen Auseinandersetzung mit doing gender und Dekonstruktion",
+          "kategorie": "Geschlecht als soziale Konstruktion"
+        }
+      ],
+      "erklaerung": "Folie 8 (Gudjons & Traub 2016, S. 47; Krüger 2012, S. 154 ff.); laut Video sauber trennen können.",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was bedeutet „doing gender“?",
+      "antwort": "Zweigeschlechtlichkeit wird als soziale Konstruktion verstanden, „die durch Prozesse der Zuschreibung (doing gender) entstehen“ (Krüger 2012, S. 157): Im eigenen und im pädagogischen Verhalten wird Zweigeschlechtlichkeit immer wieder erzeugt und aufrechterhalten (zugeschriebene Verhaltensweisen und Erscheinungsformen). Ziel der Ansätze ist, das kritisch zu reflektieren, zu überwinden und zur Dekonstruktion beizutragen.",
+      "erklaerung": "Folie 8; Erläuterung im Video.",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen beschreiben postmoderne Ansätze in der Erziehungswissenschaft?",
+      "optionen": [
+        "Ende der „großen Erzählungen“ und Pluralisierung der Lebensstile",
+        "„Diagnosen um das Ende der Pädagogik“ als pessimistische Sichtweise",
+        "Positive Wendung: Favorisierung von Pluralität und Anerkennung des Differenten",
+        "Rückkehr zu einer einheitlichen, verbindlichen Pädagogik für alle",
+        "Forschung z. B. zu jugendkulturellen Lebensstilen und zur Pluralisierung der Familien"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Folie 9 (Krüger 2012, S. 166 ff., 247 ff.).",
+      "folie": "9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Aussagen zur reflexiven Erziehungswissenschaft Lenzen oder Krüger zu.",
+      "kategorien": [
+        "Lenzen",
+        "Krüger"
+      ],
+      "elemente": [
+        {
+          "text": "Generierung reflexiven Wissens (u. a. über Folgen von Pädagogik und Erziehung)",
+          "kategorie": "Lenzen"
+        },
+        {
+          "text": "Auseinandersetzung mit globalen Gefährdungslagen und Risiken (reflexive Modernisierung)",
+          "kategorie": "Krüger"
+        },
+        {
+          "text": "Verbesserung der pädagogischen Praxis, Ziel der Solidarität",
+          "kategorie": "Krüger"
+        }
+      ],
+      "erklaerung": "Folie 9: zwei Ausprägungen der reflexiven Erziehungswissenschaft.",
+      "folie": "9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Kurzcharakterisierung der passenden Strömung zu.",
+      "kategorien": [
+        "Transzendental-kritische EW",
+        "Historisch-materialistische EW",
+        "Phänomenologische Pädagogik",
+        "Systemtheoretische EW",
+        "Feministische Ansätze",
+        "Postmoderne Ansätze"
+      ],
+      "elemente": [
+        {
+          "text": "Erfassen von Bedingungen pädagogischen Handelns; Reflexion der Prinzipien",
+          "kategorie": "Transzendental-kritische EW"
+        },
+        {
+          "text": "marxistisch geprägt, Kritik der bürgerlichen Erziehung; Bildung zur Befreiung",
+          "kategorie": "Historisch-materialistische EW"
+        },
+        {
+          "text": "Beschreiben durch unmittelbare Anschauung; Fokus auf die Handlungspraxis",
+          "kategorie": "Phänomenologische Pädagogik"
+        },
+        {
+          "text": "Technologiedefizit",
+          "kategorie": "Systemtheoretische EW"
+        },
+        {
+          "text": "geschlechtsspezifische Benachteiligungen, Differenzen und doing gender",
+          "kategorie": "Feministische Ansätze"
+        },
+        {
+          "text": "Pluralität und Anerkennung des Differenten, reflexive Ansätze",
+          "kategorie": "Postmoderne Ansätze"
+        }
+      ],
+      "erklaerung": "Übersichtsfolien 10–11; laut Dozent reichen sie allein für die Klausur nicht.",
+      "folie": "10–11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "An welche große Strömung knüpft die jeweilige kleinere Strömung laut Dozent an?",
+      "kategorien": [
+        "geisteswissenschaftliche EW",
+        "empirische EW",
+        "kritische EW"
+      ],
+      "elemente": [
+        {
+          "text": "Phänomenologische Pädagogik",
+          "kategorie": "geisteswissenschaftliche EW"
+        },
+        {
+          "text": "Historisch-materialistische EW (Überschneidung)",
+          "kategorie": "kritische EW"
+        }
+      ],
+      "erklaerung": "Laut Video ist die Zuordnung der kleineren Strömungen zu den großen ein guter Prüfungsanker. Ausdrücklich genannt werden nur diese beiden Fälle.",
+      "folie": "6; 5; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum spricht man von Erziehungswissenschaft als „Integrationswissenschaft“?",
+      "antwort": "In den letzten rund 20 Jahren hat sich die Erziehungswissenschaft stark zu anderen Sozialwissenschaften (Psychologie, Soziologie) und zu Wissenschaftszweigen wie Kybernetik und Spieltheorie geöffnet. Durch Theorienpluralismus und Verknüpfung mit Nachbardisziplinen gibt es „nicht die Erziehungswissenschaft, sondern verschiedene erziehungswissenschaftliche Konzepte“; sie hat sich quantitativ ausgeweitet und qualitativ ausdifferenziert und integriert Ansätze aus anderen Disziplinen.",
+      "erklaerung": "Folie 12 (Gudjons & Traub 2016, S. 46 ff.).",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Eine Lehrkraft stellt fest, dass sich in ihrer Klasse vor allem Jungen im Mathematikunterricht melden. Wie würden die systemtheoretische Pädagogik und die feministischen Ansätze diese Situation betrachten?",
+      "musterloesung": "Feministische Ansätze: Benachteiligungsansatz – Werden Mädchen in Mathematik benachteiligt, und wie kann Gleichstellung erreicht werden? Konstruktionsansatz – Wo findet im Unterricht doing gender statt (z. B. Zuschreibung „Mathe ist Jungensache“, unterschiedliches Aufrufen oder Loben), und wie kann die Lehrkraft das reflektieren und abbauen? Systemtheorie: Die Lehrkraft kann wegen des Technologiedefizits nicht direkt bewirken, dass Mädchen sich melden; Schülerinnen und Schüler sind autopoietische Systeme – sie kann nur Anlässe und Kommunikationsangebote schaffen, deren Wirkung offen bleibt.",
+      "bewertungspunkte": [
+        "feministisch: Benachteiligung/Gleichstellung",
+        "feministisch: doing gender reflektieren",
+        "systemtheoretisch: Technologiedefizit, keine direkte Einflussnahme"
+      ],
+      "punkte": 3,
+      "erklaerung": "Transfer: dieselbe Situation aus mehreren Strömungen betrachten (selbst erarbeitet).",
+      "folie": "4–9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Der Dozent kündigt zwei spätere Themen an, die an Strömungen dieser Sitzung anknüpfen. Nenne beide und erkläre jeweils den Zusammenhang.",
+      "musterloesung": "1. Konstruktivistische Didaktik knüpft an die systemtheoretische Pädagogik (Luhmann) an: Weil Lernende autopoietische Systeme sind (Technologiedefizit), lässt sich Wissen nicht übertragen, sondern muss von den Lernenden selbst konstruiert werden. 2. Bildung für nachhaltige Entwicklung (BNE) knüpft an die reflexive Erziehungswissenschaft (postmoderne Ansätze, Krüger) an: Menschen sollen befähigt werden, gesellschaftliche Entwicklungen kritisch zu hinterfragen und zur Bewältigung globaler Gefährdungslagen beizutragen.",
+      "bewertungspunkte": [
+        "konstruktivistische Didaktik ↔ Systemtheorie/Technologiedefizit",
+        "BNE ↔ reflexive EW/globale Gefährdungslagen"
+      ],
+      "punkte": 2,
+      "erklaerung": "Transfer und Verknüpfung (selbst erarbeitet) – Vorgriffe des Dozenten auf konstruktivistische Didaktik und BNE.",
+      "folie": "3–12",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Laut Video sind die Übersichtsfolien (10–11) allein für die Klausur nicht ausreichend – man braucht die ausführliche Darstellung je Strömung.",
+    "Die Zuordnung der kleineren zu den großen Strömungen ist ein guter Prüfungsanker (z. B. phänomenologische Pädagogik als Seitenarm der geisteswissenschaftlichen EW).",
+    "Abgrenzung historisch-materialistische vs. kritische EW ist laut Video eine typische Prüfungsfrage.",
+    "Namen der Vertreter*innen nicht auswendig lernen, aber den Strömungen zuordnen können (Video).",
+    "Zentrale Schlagworte je Strömung: transzendental-kritisch = Bedingungen/Prinzipien; historisch-materialistisch = Marx, Befreiung; phänomenologisch = Wesensschau, Lebenswelt; systemtheoretisch = Autopoiesis, Codes, Technologiedefizit; feministisch = Benachteiligung, Differenz, doing gender; postmodern = Ende der großen Erzählungen, Pluralität, reflexive EW (Video)."
+  ],
+  "offene_fragen": [
+    "Präsenzsitzung ewb001.2 am 27.10.2026: Folien noch nicht im Ordner – nachtragen, sobald vorhanden.",
+    "Zuordnung der übrigen kleineren Strömungen (transzendental-kritisch, systemtheoretisch, feministisch, postmodern) zu den großen Strömungen: vom Dozenten nicht genannt (siehe Hausaufgabe h01 aus S02)."
+  ],
+  "auffaelligkeiten": [
+    "Ablaufplan (Folie 2, Stud.IP) nennt für S03 die Phänomenologische Pädagogik nicht, auf Folie 6 wird sie aber ausführlich behandelt; dafür nennt der Ablaufplan „Reflexive EW“ separat, die auf Folie 9 Teil der postmodernen Ansätze ist.",
+    "Benennung uneinheitlich: Ablaufplan „Transzendentalphilosophische Pädagogik“, Folie 4 „Transzendental-kritische Erziehungswissenschaft“; Folie 7 „Systemtheoretische Pädagogik“, Folie 11 „Systemtheoretische EW“.",
+    "Folie 8: „Zweigeschlechtlichkeit als soziale Konstruktion, „die durch Prozesse der Zuschreibung (doing gender) entstehen““ – Numerus (die Konstruktion … entsteht) im Zitat so übernommen."
+  ]
+}

@@ -19,6 +19,11 @@
       "datei": "Hübner (2009): Stochastik, S. 11–29",
       "art": "Literatur (Textgrundlage laut Folie 2)",
       "seiten": "11–29 – fehlt im Ordner"
+    },
+    {
+      "datei": "mab005.1/Kapitel 1.pdf",
+      "art": "Mitschrift (Kommilitonin/Kommilitone) mit ausgefüllten Lückenfolien",
+      "seiten": "10–31"
     }
   ],
   "lernziele": [
@@ -72,7 +77,8 @@
         "f16",
         "f17",
         "f18",
-        "f19"
+        "f19",
+        "f33"
       ],
       "erklaerung_abschnitt": "Ereignisse verknüpfen"
     },
@@ -136,7 +142,7 @@
     {
       "titel": "Ergebnisraum",
       "folien": "8–13",
-      "text": "> **Definition 1.2.1 (Ergebnisraum):** Der Ergebnisraum $\\Omega$ (auch Grundmenge oder Grundgesamtheit) eines Zufalls-Experiments ist eine nicht-leere Menge mit Elementen $\\omega \\in \\Omega$. $\\Omega$ gibt die möglichen Ausgänge (Ergebnisse) des betrachteten Zufalls-Experiments an.\n\n**Achtung:** Bei Hübner heißt $\\Omega$ **Merkmalraum** (auch in deiner *Altklausur Stochastik*). In der Vorlesung heißt es **Ergebnisraum**.\n\n**Beispiele 1.2.2–1.2.7** (Lückenfolien, Lösungen selbst erarbeitet):\n\n| Bsp. | Experiment | $\\Omega$ |\n|---|---|---|\n| 1.2.2 | Würfel einmal | $\\{1, 2, 3, 4, 5, 6\\}$ |\n| 1.2.3 | Glücksrad 0–9 bis zur ersten 9, Anzahl Versuche | $\\mathbb{N} = \\{1, 2, 3, \\dots\\}$ |\n| 1.2.4 | eine Skatkarte | $\\{\\text{Karo}, \\text{Herz}, \\text{Pik}, \\text{Kreuz}\\} \\times \\{7, 8, 9, 10, \\text{B}, \\text{D}, \\text{K}, \\text{A}\\}$, 32 Elemente |\n| 1.2.5 | zweimal würfeln, beide Augenzahlen | $\\{1, \\dots, 6\\} \\times \\{1, \\dots, 6\\}$, 36 Paare |\n| 1.2.6 | zweimal würfeln, Summe | $\\{2, 3, \\dots, 12\\}$ |\n| 1.2.7 | blind zum Ziel, Entfernung und Zeit | $[0; \\infty[ \\times [0; \\infty[$ |\n\n**Was die Beispiele zeigen:**\n- Dasselbe Experiment kann verschiedene $\\Omega$ haben (1.2.5 vs. 1.2.6) – entscheidend ist, **was als Ergebnis festgelegt wird**.\n- Bei Paaren zählt die Reihenfolge: $(2, 5) \\neq (5, 2)$.\n- $\\Omega$ kann **endlich** (1.2.2), **abzählbar unendlich** (1.2.3) oder **überabzählbar** (1.2.7) sein.\n\n> **Regel (kartesisches Produkt, Ergänzung aus mab001):** $\\Omega_1 \\times \\Omega_2 = \\{(a, b) \\mid a \\in \\Omega_1, b \\in \\Omega_2\\}$ ist die Menge aller geordneten Paare. Hat $\\Omega_1$ $m$ und $\\Omega_2$ $n$ Elemente, hat das Produkt $m \\cdot n$ Elemente. Beispiel: $\\{0, 1\\} \\times \\{1, 2, 3\\}$ hat $2 \\cdot 3 = 6$ Paare.",
+      "text": "> **Definition 1.2.1 (Ergebnisraum):** Der Ergebnisraum $\\Omega$ (auch Grundmenge oder Grundgesamtheit) eines Zufalls-Experiments ist eine nicht-leere Menge mit Elementen $\\omega \\in \\Omega$. $\\Omega$ gibt die möglichen Ausgänge (Ergebnisse) des betrachteten Zufalls-Experiments an.\n\n**Achtung:** Bei Hübner heißt $\\Omega$ **Merkmalraum** (auch in deiner *Altklausur Stochastik*). In der Vorlesung heißt es **Ergebnisraum**.\n\n**Beispiele 1.2.2–1.2.7** (Lückenfolien, Lösungen laut Mitschrift aus der Vorlesung):\n\n| Bsp. | Experiment | $\\Omega$ |\n|---|---|---|\n| 1.2.2 | Würfel einmal | $\\{1, 2, 3, 4, 5, 6\\}$ |\n| 1.2.3 | Glücksrad 0–9 bis zur ersten 9, Anzahl Versuche | $\\mathbb{N} = \\{1, 2, 3, \\dots\\}$ |\n| 1.2.4 | eine Skatkarte | $\\{\\text{Karo}, \\text{Herz}, \\text{Pik}, \\text{Kreuz}\\} \\times \\{7, 8, 9, 10, \\text{B}, \\text{D}, \\text{K}, \\text{A}\\}$, 32 Elemente |\n| 1.2.5 | zweimal würfeln, beide Augenzahlen | $\\{1, \\dots, 6\\} \\times \\{1, \\dots, 6\\} = \\{1, \\dots, 6\\}^2$, 36 Paare |\n| 1.2.6 | zweimal würfeln, Summe | $\\{2, 3, \\dots, 12\\}$ |\n| 1.2.7 | blind zum Ziel, Entfernung und Zeit | $\\{a\\ \\text{m} \\mid a \\in \\mathbb{Q}^+\\} \\times \\{b\\ \\text{s} \\mid b \\in \\mathbb{Q}^+\\}$, z. B. $(1{,}5\\ \\text{m}; 5{,}3\\ \\text{s})$; mit Obergrenze/Runden auch $\\mathbb{N}_0 \\times \\mathbb{N}_0$ oder $\\{1, \\dots, 1000\\} \\times \\{1, \\dots, 300\\}$ |\n\n**Was die Beispiele zeigen:**\n- Dasselbe Experiment kann verschiedene $\\Omega$ haben (1.2.5 vs. 1.2.6) – entscheidend ist, **was als Ergebnis festgelegt wird**.\n- Bei Paaren zählt die Reihenfolge: $(2, 5) \\neq (5, 2)$.\n- $\\Omega$ kann **endlich** (1.2.2), **abzählbar unendlich** (1.2.3) oder **überabzählbar** (1.2.7) sein.\n- Bei 1.2.7 gibt es **mehrere richtige Modelle** – je nachdem, wie genau man misst und ob es eine Obergrenze gibt.\n\n> **Regel (kartesisches Produkt, Ergänzung aus mab001):** $\\Omega_1 \\times \\Omega_2 = \\{(a, b) \\mid a \\in \\Omega_1, b \\in \\Omega_2\\}$ ist die Menge aller geordneten Paare. Hat $\\Omega_1$ $m$ und $\\Omega_2$ $n$ Elemente, hat das Produkt $m \\cdot n$ Elemente. Beispiel: $\\{0, 1\\} \\times \\{1, 2, 3\\}$ hat $2 \\cdot 3 = 6$ Paare.",
       "beispiel": "Zweimal würfeln: Interessiert die Reihenfolge, nimmst du Paare ($\\{1, \\dots, 6\\}^2$); interessiert nur die Summe, reicht $\\{2, \\dots, 12\\}$."
     },
     {
@@ -148,7 +154,7 @@
     {
       "titel": "Ereignisse verknüpfen",
       "folien": "19–22",
-      "text": "**Beispiel 1.3.4** (Folie 20 ist leer – selbst erarbeitet): $A$ „gerade“ $= \\{2, 4, 6\\}$, $B$ „größer als 3“ $= \\{4, 5, 6\\}$.\n\n| Ereignis | in Worten | als Menge |\n|---|---|---|\n| $C$ | A und B treten beide ein | $A \\cap B = \\{4, 6\\}$ |\n| $D$ | A oder B tritt ein | $A \\cup B = \\{2, 4, 5, 6\\}$ |\n| $E$ | entweder A oder B | $A \\setminus B \\cup B \\setminus A = \\{2, 5\\}$ |\n| $F$ | A tritt nicht ein | $\\bar{A} = \\{1, 3, 5\\}$ |\n\n**Übersetzungstabelle (Folie 21)** – für $A$, $B$ bzw. $A_i$ mit $i \\in \\mathbb{N}$:\n\n| in Worten | entspricht |\n|---|---|\n| „A oder B (oder beide) treten ein“ | $\\omega \\in A \\cup B$ |\n| „A und B treten (beide) ein“ | $\\omega \\in A \\cap B$ |\n| „A und B treten nie gleichzeitig ein“ | $A \\cap B = \\emptyset$ |\n| „A tritt nicht ein“ | $\\omega \\notin A$ bzw. $\\omega \\in \\bar{A}$ |\n| „A tritt ein, aber B tritt nicht ein“ | $\\omega \\in A \\setminus B = A \\cap \\bar{B}$ |\n| „A oder B tritt ein, aber nicht beide“ | $\\omega \\in A \\setminus B \\cup B \\setminus A$ |\n| „mindestens ein $A_i$ tritt ein“ | $\\omega \\in \\bigcup_{i=1}^{\\infty} A_i$ |\n| „alle $A_i$ treten ein“ | $\\omega \\in \\bigcap_{i=1}^{\\infty} A_i$ |\n\nDie letzten beiden Zeilen gelten entsprechend auch für endlich viele Ereignisse.\n\n**Schreibweise der Vorlesung (Folie 22, abweichend von Hübner):**\n- Komplement $\\bar{A}$ statt $A^c$.\n- Vereinigung **disjunkter** Mengen $A \\,\\dot\\cup\\, B$ statt $A + B$; paarweise disjunkte $A_i$: $\\dot{\\bigcup}_{i=1}^{\\infty} A_i$ statt $\\sum_{i=1}^{\\infty} A_i$.\n- Steht $\\dot\\cup$, wird die Disjunktheit nicht mehr extra erwähnt. **Trotzdem kritisch prüfen:** Sind die Mengen wirklich (paarweise) disjunkt – und wozu wird das gebraucht?\n- Im Zweifel: Mengenlehre und Gesetze der Mengenalgebra in den **mab001-Unterlagen** nachschlagen.\n\n> **Regel (de Morgan, Ergänzung aus mab001):** $\\overline{A \\cup B} = \\bar{A} \\cap \\bar{B}$ und $\\overline{A \\cap B} = \\bar{A} \\cup \\bar{B}$. In Worten: „nicht (A oder B)“ = „weder A noch B“. Beispiel oben: $\\overline{A \\cup B} = \\{1, 3\\} = \\bar{A} \\cap \\bar{B} = \\{1, 3, 5\\} \\cap \\{1, 2, 3\\}$.",
+      "text": "**Beispiel 1.3.4** (Folie 20, Lösung laut Mitschrift): $A$ „gerade“ $= \\{2, 4, 6\\}$, $B$ „größer als 3“ $= \\{4, 5, 6\\}$.\n\n| Ereignis | in Worten | als Menge |\n|---|---|---|\n| $C$ | A und B treten beide ein | $A \\cap B = \\{4, 6\\}$ |\n| $D$ | A oder B tritt ein | $A \\cup B = \\{2, 4, 5, 6\\}$ |\n| $E$ | entweder A oder B | $A \\,\\triangle\\, B = \\{2, 5\\}$ (**symmetrische Differenz**) |\n| $F$ | A tritt nicht ein | $\\Omega \\setminus A = \\bar{A} = \\{1, 3, 5\\}$ (Komplement von $A$) |\n\n> **Symmetrische Differenz (aus der Vorlesung, Mitschrift Folie 20):** $A \\,\\triangle\\, B = A \\setminus B \\cup B \\setminus A$ – alles, was in genau einer der beiden Mengen liegt.\n\n**Übersetzungstabelle (Folie 21)** – für $A$, $B$ bzw. $A_i$ mit $i \\in \\mathbb{N}$:\n\n| in Worten | entspricht |\n|---|---|\n| „A oder B (oder beide) treten ein“ | $\\omega \\in A \\cup B$ |\n| „A und B treten (beide) ein“ | $\\omega \\in A \\cap B$ |\n| „A und B treten nie gleichzeitig ein“ | $A \\cap B = \\emptyset$ |\n| „A tritt nicht ein“ | $\\omega \\notin A$ bzw. $\\omega \\in \\bar{A}$ |\n| „A tritt ein, aber B tritt nicht ein“ | $\\omega \\in A \\setminus B = A \\cap \\bar{B}$ |\n| „A oder B tritt ein, aber nicht beide“ | $\\omega \\in A \\setminus B \\cup B \\setminus A$ |\n| „mindestens ein $A_i$ tritt ein“ | $\\omega \\in \\bigcup_{i=1}^{\\infty} A_i$ |\n| „alle $A_i$ treten ein“ | $\\omega \\in \\bigcap_{i=1}^{\\infty} A_i$ |\n\nDie letzten beiden Zeilen gelten entsprechend auch für endlich viele Ereignisse.\n\n**Schreibweise der Vorlesung (Folie 22, abweichend von Hübner):**\n- Komplement $\\bar{A}$ statt $A^c$.\n- Vereinigung **disjunkter** Mengen $A \\,\\dot\\cup\\, B$ statt $A + B$; paarweise disjunkte $A_i$: $\\dot{\\bigcup}_{i=1}^{\\infty} A_i$ statt $\\sum_{i=1}^{\\infty} A_i$.\n- Steht $\\dot\\cup$, wird die Disjunktheit nicht mehr extra erwähnt. **Trotzdem kritisch prüfen:** Sind die Mengen wirklich (paarweise) disjunkt – und wozu wird das gebraucht?\n- Im Zweifel: Mengenlehre und Gesetze der Mengenalgebra in den **mab001-Unterlagen** nachschlagen.\n\n> **Regel (de Morgan, Ergänzung aus mab001):** $\\overline{A \\cup B} = \\bar{A} \\cap \\bar{B}$ und $\\overline{A \\cap B} = \\bar{A} \\cup \\bar{B}$. In Worten: „nicht (A oder B)“ = „weder A noch B“. Beispiel oben: $\\overline{A \\cup B} = \\{1, 3\\} = \\bar{A} \\cap \\bar{B} = \\{1, 3, 5\\} \\cap \\{1, 2, 3\\}$.",
       "beispiel": "„Gerade, aber nicht größer als 3“ $= A \\setminus B = A \\cap \\bar{B} = \\{2\\}$."
     },
     {
@@ -160,13 +166,13 @@
     {
       "titel": "Erzeugte σ-Algebra und Borel-σ-Algebra",
       "folien": "26–30",
-      "text": "> **Definition 1.3.8 (erzeugte σ-Algebra, Erzeuger):** Ist $\\mathcal{E}$ ein System von Teilmengen einer Menge $\\Omega$, dann heißt die kleinste σ-Algebra $\\mathcal{A}$ (über $\\Omega$), die $\\mathcal{E}$ als Teilmenge enthält, die von $\\mathcal{E}$ erzeugte σ-Algebra (über $\\Omega$) und wird mit $\\mathcal{A}_\\Omega(\\mathcal{E})$ oder kurz $\\mathcal{A}(\\mathcal{E})$ bezeichnet. $\\mathcal{E}$ heißt der Erzeuger von $\\mathcal{A}(\\mathcal{E})$.\n\nSie existiert und ist eindeutig, weil $\\mathfrak{P}(\\Omega)$ immer eine σ-Algebra ist, die $\\mathcal{E}$ enthält, und Schnitte von σ-Algebren wieder σ-Algebren sind.\n\n**Praktisch (Folie 27):** Aus den Mengen von $\\mathcal{E}$ (rekursiv) alles bilden, was mit Vereinigung, Schnitt und Komplement entsteht.\n\n**Beispiel 1.3.9** (selbst erarbeitet), $\\Omega = \\{1, 2, 3\\}$:\n- $\\mathcal{E}_1 = \\{\\{1\\}\\}$: $\\mathcal{A}(\\mathcal{E}_1) = \\{\\emptyset, \\{1\\}, \\{2, 3\\}, \\{1, 2, 3\\}\\}$\n- $\\mathcal{E}_2 = \\{\\{1\\}, \\{2\\}\\}$: $\\{1\\} \\cup \\{2\\} = \\{1, 2\\}$, Komplement $\\{3\\}$ → alle Teilmengen, $\\mathcal{A}(\\mathcal{E}_2) = \\mathfrak{P}(\\Omega)$ mit $2^3 = 8$ Elementen.\n\n> **Definition 1.3.10 (Borel-σ-Algebra $\\mathbb{B}$):** Es sei $\\mathcal{G}_1 = \\{\\,]a,b] \\mid a,b \\in \\mathbb{R},\\, a<b\\}$ die Menge der links-offenen halboffenen Intervalle in $\\mathbb{R}$. Dann heißt die von $\\mathcal{G}_1$ über $\\mathbb{R}$ erzeugte σ-Algebra $\\mathbb{B}$ $(= \\mathcal{A}_\\mathbb{R}(\\mathcal{G}_1))$ die Borel-σ-Algebra (über $\\mathbb{R}$), die Elemente von $\\mathbb{B}$ heißen Borel-Mengen.\n\n**Notation:** Offene Intervallgrenzen mit nach außen geöffneten eckigen Klammern, $]a, b[$ – nicht $(a, b)$ wie bei Hübner (wie in mab001).\n\n**Satz 1.3.11:** $\\mathbb{B}$ enthält die leere Menge $\\emptyset$, jede einelementige Menge $\\{a\\}$ mit $a \\in \\mathbb{R}$, jedes offene, abgeschlossene oder rechts-offene Intervall und jedes nach unten und/oder oben unbeschränkte Intervall (einschließlich $\\mathbb{R}$).\n\n**Beweisskizze** (Folie 29–30 leer – selbst erarbeitet):\n- $\\mathbb{R} = \\bigcup_{n=1}^{\\infty} \\,]-n, n] \\in \\mathbb{B}$ (Bedingung 3), also $\\emptyset = \\bar{\\mathbb{R}} \\in \\mathbb{B}$.\n- $\\{a\\} = \\bigcap_{n=1}^{\\infty} \\,]a - \\frac{1}{n}, a]$ (abzählbarer Schnitt).\n- $]a, b[ \\,= \\bigcup_{n=1}^{\\infty} \\,]a, b - \\frac{1}{n}]$ (für große $n$), $[a, b] = \\{a\\} \\cup \\,]a, b]$, $[a, b[ \\,= \\{a\\} \\cup \\,]a, b[$.\n- $]-\\infty, b] = \\bigcup_{n=1}^{\\infty} \\,]-n, b]$, $]a, \\infty[ \\,= \\overline{]-\\infty, a]}$; die übrigen unbeschränkten Intervalle analog.",
+      "text": "> **Definition 1.3.8 (erzeugte σ-Algebra, Erzeuger):** Ist $\\mathcal{E}$ ein System von Teilmengen einer Menge $\\Omega$, dann heißt die kleinste σ-Algebra $\\mathcal{A}$ (über $\\Omega$), die $\\mathcal{E}$ als Teilmenge enthält, die von $\\mathcal{E}$ erzeugte σ-Algebra (über $\\Omega$) und wird mit $\\mathcal{A}_\\Omega(\\mathcal{E})$ oder kurz $\\mathcal{A}(\\mathcal{E})$ bezeichnet. $\\mathcal{E}$ heißt der Erzeuger von $\\mathcal{A}(\\mathcal{E})$.\n\nSie existiert und ist eindeutig, weil $\\mathfrak{P}(\\Omega)$ immer eine σ-Algebra ist, die $\\mathcal{E}$ enthält, und Schnitte von σ-Algebren wieder σ-Algebren sind.\n\n**Praktisch (Folie 27):** Aus den Mengen von $\\mathcal{E}$ (rekursiv) alles bilden, was mit Vereinigung, Schnitt und Komplement entsteht.\n\n**Beispiel 1.3.9** (Lösung laut Mitschrift), $\\Omega = \\{1, 2, 3\\}$:\n- $\\mathcal{E}_1 = \\{\\{1\\}\\}$: $\\mathcal{A}(\\mathcal{E}_1) = \\{\\emptyset, \\{1\\}, \\{2, 3\\}, \\{1, 2, 3\\}\\}$\n- $\\mathcal{E}_2 = \\{\\{1\\}, \\{2\\}\\}$: $\\{1\\} \\cup \\{2\\} = \\{1, 2\\}$, Komplement $\\{3\\}$ → alle Teilmengen, $\\mathcal{A}(\\mathcal{E}_2) = \\mathfrak{P}(\\Omega)$ mit $2^3 = 8$ Elementen.\n\n> **Definition 1.3.10 (Borel-σ-Algebra $\\mathbb{B}$):** Es sei $\\mathcal{G}_1 = \\{\\,]a,b] \\mid a,b \\in \\mathbb{R},\\, a<b\\}$ die Menge der links-offenen halboffenen Intervalle in $\\mathbb{R}$. Dann heißt die von $\\mathcal{G}_1$ über $\\mathbb{R}$ erzeugte σ-Algebra $\\mathbb{B}$ $(= \\mathcal{A}_\\mathbb{R}(\\mathcal{G}_1))$ die Borel-σ-Algebra (über $\\mathbb{R}$), die Elemente von $\\mathbb{B}$ heißen Borel-Mengen.\n\n**Notation:** Offene Intervallgrenzen mit nach außen geöffneten eckigen Klammern, $]a, b[$ – nicht $(a, b)$ wie bei Hübner (wie in mab001).\n\n**Satz 1.3.11:** $\\mathbb{B}$ enthält die leere Menge $\\emptyset$, jede einelementige Menge $\\{a\\}$ mit $a \\in \\mathbb{R}$, jedes offene, abgeschlossene oder rechts-offene Intervall und jedes nach unten und/oder oben unbeschränkte Intervall (einschließlich $\\mathbb{R}$).\n\n**Beweisskizze** (Folie 29–30, laut Mitschrift):\n- $[a, b] = \\bigcap_{n=1}^{\\infty} \\,]a - \\frac{1}{n}, b]$\n- $]-\\infty, b] = \\bigcup_{n=1}^{\\infty} \\,]b - n, b]$\n- $]a, +\\infty[ \\,= \\overline{]-\\infty, a]} \\in \\mathbb{B}$\n- $\\mathbb{R} = \\,]-\\infty, 0] \\cup \\,]0, +\\infty[ \\,\\in \\mathbb{B}$, also auch $\\emptyset = \\bar{\\mathbb{R}} \\in \\mathbb{B}$\n- $\\{a\\} = \\bigcap_{n=1}^{\\infty} \\,]a - \\frac{1}{n}, a] \\in \\mathbb{B}$\n- $[a, b] = \\{a\\} \\cup \\,]a, b] \\in \\mathbb{B}$\n\nErgänzung (nicht in der Mitschrift): $]a, b[ \\,= \\bigcup_{n=1}^{\\infty} \\,]a, b - \\frac{1}{n}]$ (für große $n$).",
       "beispiel": "$\\{5\\} = \\bigcap_{n=1}^{\\infty} \\,]5 - \\frac{1}{n}, 5]$: Die Intervalle $]4, 5]$, $]4{,}5; 5]$, $]4{,}\\overline{6}; 5]$ … werden immer schmaler; übrig bleibt nur die $5$."
     },
     {
       "titel": "Zusammengesetzte Ergebnisräume",
       "folien": "31–32",
-      "text": "**Beispiel 1.3.12** (selbst erarbeitet): Zweifacher Münzwurf, $\\Omega = \\{\\text{Wappen}, \\text{Zahl}\\}^2$. Gilt $\\mathfrak{P}(\\Omega) = \\{A \\times B \\mid A, B \\in \\mathfrak{P}(\\{\\text{Wappen}, \\text{Zahl}\\})\\}$? **Nein.**\n- Zählen: $|\\mathfrak{P}(\\Omega)| = 2^4 = 16$, aber nur $3 \\cdot 3 + 1 = 10$ verschiedene Produkte.\n- Gegenbeispiel: „genau einmal Wappen“ $= \\{(\\text{W}, \\text{Z}), (\\text{Z}, \\text{W})\\}$. Als Produkt bräuchte man $\\text{W}, \\text{Z} \\in A$ und $\\text{W}, \\text{Z} \\in B$ – dann wäre auch $(\\text{W}, \\text{W})$ darin.\n\n**Folie 32:**\n- Sind alle (endlich vielen) Komponenten **abzählbar**, ist auch $\\Omega$ abzählbar → $\\mathcal{A} = \\mathfrak{P}(\\Omega)$.\n- Ist mindestens eine Komponente **überabzählbar**, ist $\\Omega$ überabzählbar → geeigneten Erzeuger $\\mathcal{E}$ für $\\mathcal{A}_\\Omega(\\mathcal{E})$ bestimmen.\n- $\\Omega = \\mathbb{R}^2$: **Rechtecke** (Produkte aus zwei Intervallen) als Grundbaustein; $\\Omega = \\mathbb{R}^3$: **Quader** (Produkte aus drei Intervallen).",
+      "text": "**Beispiel 1.3.12** (Lösung laut Mitschrift): Zweifacher Münzwurf, $\\Omega = \\{\\text{Wappen}, \\text{Zahl}\\}^2$. Gilt $\\mathfrak{P}(\\Omega) = \\{A \\times B \\mid A, B \\in \\mathfrak{P}(\\{\\text{Wappen}, \\text{Zahl}\\})\\}$? **Nein** – im Allgemeinen ist $\\mathfrak{P}(\\Omega_1 \\times \\Omega_2) \\neq \\mathfrak{P}(\\Omega_1) \\times \\mathfrak{P}(\\Omega_2)$.\n- $\\{(\\text{Wappen}, \\text{Wappen}), (\\text{Wappen}, \\text{Zahl})\\} = \\{\\text{Wappen}\\} \\times \\{\\text{Wappen}, \\text{Zahl}\\}$ ist ein Produkt.\n- $\\{(\\text{Wappen}, \\text{Wappen}), (\\text{Zahl}, \\text{Zahl})\\}$ ist aber **nicht** als kartesisches Produkt von Teilmengen darstellbar (sonst läge auch $(\\text{Wappen}, \\text{Zahl})$ darin).\n- Zählargument (Ergänzung): $|\\mathfrak{P}(\\Omega)| = 2^4 = 16$, aber nur $3 \\cdot 3 + 1 = 10$ verschiedene Produkte.\n\n**Folie 32:**\n- Sind alle (endlich vielen) Komponenten **abzählbar**, ist auch $\\Omega$ abzählbar → $\\mathcal{A} = \\mathfrak{P}(\\Omega)$.\n- Ist mindestens eine Komponente **überabzählbar**, ist $\\Omega$ überabzählbar → geeigneten Erzeuger $\\mathcal{E}$ für $\\mathcal{A}_\\Omega(\\mathcal{E})$ bestimmen.\n- $\\Omega = \\mathbb{R}^2$: **Rechtecke** (Produkte aus zwei Intervallen) als Grundbaustein; $\\Omega = \\mathbb{R}^3$: **Quader** (Produkte aus drei Intervallen).",
       "beispiel": "Dreifacher Münzwurf: $\\Omega = \\{\\text{W}, \\text{Z}\\}^3$ ist endlich (8 Elemente) → $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ mit $2^8 = 256$ Ereignissen."
     }
   ],
@@ -221,7 +227,7 @@
       "text": "Beispiel 1.2.2: Zufalls-Experiment: Ein handelsüblicher sechsseitiger Würfel wird einmal geworfen. Ergebnis ist die geworfene Augenzahl. Ergebnisraum: $\\Omega =$",
       "quelle": "Folie 10",
       "loesung": "$\\Omega = \\{1, 2, 3, 4, 5, 6\\}$",
-      "loesungsweg": "Selbst erarbeitet (Lückenfolie). Mögliche Ausgänge sind die sechs Augenzahlen.",
+      "loesungsweg": "Lösung laut Mitschrift aus der Vorlesung (Kommilitonin/Kommilitone, „Kapitel 1.pdf“). Mögliche Ausgänge sind die sechs Augenzahlen.",
       "frist": "",
       "im_kalender": false
     },
@@ -230,8 +236,8 @@
       "art": "Aufgabe auf Folie",
       "text": "Beispiel 1.2.3: Zufalls-Experiment: Ein Glücksrad mit zehn von 0 bis 9 durchnummerierten Feldern wird solange wiederholt gedreht, bis das erste Mal eine 9 gedreht wird. Ergebnis ist die Anzahl der benötigten Versuche. Ergebnisraum: $\\Omega =$",
       "quelle": "Folie 10",
-      "loesung": "$\\Omega = \\mathbb{N} = \\{1, 2, 3, \\dots\\}$",
-      "loesungsweg": "Selbst erarbeitet (Lückenfolie). Man braucht mindestens einen Versuch; eine Obergrenze gibt es nicht, denn die 9 kann theoretisch beliebig lange ausbleiben. $\\Omega$ ist also abzählbar unendlich.",
+      "loesung": "$\\Omega = \\{1, 2, 3, 4, \\dots\\} = \\mathbb{N}$",
+      "loesungsweg": "Lösung laut Mitschrift aus der Vorlesung (Kommilitonin/Kommilitone, „Kapitel 1.pdf“). Man braucht mindestens einen Versuch; eine Obergrenze gibt es nicht, denn die 9 kann theoretisch beliebig lange ausbleiben. $\\Omega$ ist also abzählbar unendlich.",
       "frist": "",
       "im_kalender": false
     },
@@ -240,8 +246,8 @@
       "art": "Aufgabe auf Folie",
       "text": "Beispiel 1.2.4: Zufalls-Experiment: Ein handelsübliches Skat-Blatt wird gemischt und anschließend wird eine Karte gezogen. Ergebnis ist die gezogene Karte. Ergebnisraum: $\\Omega =$",
       "quelle": "Folie 11",
-      "loesung": "$\\Omega = \\{\\text{Karo}, \\text{Herz}, \\text{Pik}, \\text{Kreuz}\\} \\times \\{7, 8, 9, 10, \\text{Bube}, \\text{Dame}, \\text{König}, \\text{Ass}\\}$ mit 32 Elementen",
-      "loesungsweg": "Selbst erarbeitet (Lückenfolie). Jede Karte ist durch Farbe und Wert eindeutig bestimmt, also ein Paar (Farbe, Wert). Ein Skatblatt hat 4 Farben mit je 8 Werten: $4 \\cdot 8 = 32$ Karten. (Man könnte die 32 Karten auch einzeln aufzählen.)",
+      "loesung": "$\\Omega = \\{\\text{Herz } 7, \\text{Kreuz } 7, \\text{Karo } 7, \\text{Pik } 7, \\text{Herz } 8, \\dots, \\text{Pik Ass}\\}$ mit 32 Elementen.\n\nKompakte Darstellung mittels kartesischem Produkt: $\\Omega_1 = \\{\\text{Herz}, \\text{Kreuz}, \\text{Karo}, \\text{Pik}\\}$, $\\Omega_2 = \\{7, 8, 9, 10, \\text{Bube}, \\text{Dame}, \\text{König}, \\text{Ass}\\}$, $\\Omega = \\Omega_1 \\times \\Omega_2$.",
+      "loesungsweg": "Lösung laut Mitschrift aus der Vorlesung (Kommilitonin/Kommilitone, „Kapitel 1.pdf“). Jede Karte ist durch Farbe und Wert eindeutig bestimmt. 4 Farben mit je 8 Werten: $4 \\cdot 8 = 32$ Karten.",
       "frist": "",
       "im_kalender": false
     },
@@ -250,8 +256,8 @@
       "art": "Aufgabe auf Folie",
       "text": "Beispiel 1.2.5: Zufalls-Experiment: Ein handelsüblicher sechsseitiger Würfel wird zweimal hintereinander geworfen. Das Ergebnis setzt sich zusammen aus der im ersten Wurf geworfenen Augenzahl und der im zweiten Wurf geworfenen Augenzahl. Ergebnisraum: $\\Omega =$",
       "quelle": "Folie 12",
-      "loesung": "$\\Omega = \\{1, \\dots, 6\\} \\times \\{1, \\dots, 6\\} = \\{(i, j) \\mid i, j \\in \\{1, \\dots, 6\\}\\}$ mit 36 Elementen",
-      "loesungsweg": "Selbst erarbeitet (Lückenfolie). Ein Ergebnis ist ein Paar (1. Wurf, 2. Wurf). Die Reihenfolge zählt: $(2, 5) \\neq (5, 2)$. Anzahl: $6 \\cdot 6 = 36$.",
+      "loesung": "$\\Omega = \\{1, 2, 3, 4, 5, 6\\} \\times \\{1, 2, 3, 4, 5, 6\\} = \\{1, 2, 3, 4, 5, 6\\}^2$ mit 36 Elementen",
+      "loesungsweg": "Lösung laut Mitschrift aus der Vorlesung (Kommilitonin/Kommilitone, „Kapitel 1.pdf“). Ein Ergebnis ist ein Paar (1. Wurf, 2. Wurf). Die Reihenfolge zählt: $(2, 5) \\neq (5, 2)$. Anzahl: $6 \\cdot 6 = 36$.",
       "frist": "",
       "im_kalender": false
     },
@@ -261,7 +267,7 @@
       "text": "Beispiel 1.2.6: Zufalls-Experiment: Ein handelsüblicher sechsseitiger Würfel wird zweimal hintereinander geworfen. Das Ergebnis ist die Summe der geworfenen Augenzahlen. Ergebnisraum: $\\Omega =$",
       "quelle": "Folie 12",
       "loesung": "$\\Omega = \\{2, 3, 4, \\dots, 12\\}$ mit 11 Elementen",
-      "loesungsweg": "Selbst erarbeitet (Lückenfolie). Kleinste Summe $1 + 1 = 2$, größte Summe $6 + 6 = 12$, dazwischen ist jede Zahl möglich. Vergleich mit Beispiel 1.2.5: gleiches Experiment, anderes $\\Omega$ – es kommt darauf an, was als Ergebnis gilt.",
+      "loesungsweg": "Lösung laut Mitschrift aus der Vorlesung (Kommilitonin/Kommilitone, „Kapitel 1.pdf“). Kleinste Summe $1 + 1 = 2$, größte Summe $6 + 6 = 12$, dazwischen ist jede Zahl möglich. Vergleich mit Beispiel 1.2.5: gleiches Experiment, anderes $\\Omega$ – es kommt darauf an, was als Ergebnis gilt.",
       "frist": "",
       "im_kalender": false
     },
@@ -270,8 +276,8 @@
       "art": "Aufgabe auf Folie",
       "text": "Beispiel 1.2.7: Zufalls-Experiment: Auf einem Sportplatz werden einer Person die Augen verbunden und sie wird auf einem Startpunkt zehnmal um die eigene Achse gedreht. Anschließend versucht die Person, sich zu einem vorher bestimmten Zielpunkt zu begeben. Das Ergebnis setzt sich zusammen aus der zurückgelegten Entfernung und der verstrichen Zeit bis zum Erreichen des Zielpunktes. Ergebnisraum: $\\Omega =$",
       "quelle": "Folie 13",
-      "loesung": "$\\Omega = [0; \\infty[ \\times [0; \\infty[$ (Paare aus Entfernung und Zeit, je eine nicht-negative reelle Zahl)",
-      "loesungsweg": "Selbst erarbeitet (Lückenfolie). Entfernung (z. B. in m) und Zeit (z. B. in s) sind Messwerte, also nicht-negative reelle Zahlen ohne feste Obergrenze. Ein Ergebnis ist ein Paar (Entfernung, Zeit). $\\Omega$ ist überabzählbar (stetiger Fall).",
+      "loesung": "$\\Omega = \\{a\\ \\text{m} \\mid a \\in \\mathbb{Q}^+\\} \\times \\{b\\ \\text{s} \\mid b \\in \\mathbb{Q}^+\\}$, z. B. $(1{,}5\\ \\text{m};\\ 5{,}3\\ \\text{s})$.\n\nUnter Umständen auch mit Obergrenze (z. B. Abbruch nach bestimmter Entfernung/Zeit) oder anderem Zahlenbereich (z. B. Runden auf ganze Meter): $\\Omega = \\mathbb{N}_0 \\times \\mathbb{N}_0$ oder $\\Omega = \\{1, \\dots, 1000\\} \\times \\{1, \\dots, 300\\}$.",
+      "loesungsweg": "Lösung laut Mitschrift aus der Vorlesung (Kommilitonin/Kommilitone, „Kapitel 1.pdf“). Ein Ergebnis ist ein Paar (Entfernung in Metern, Zeit in Sekunden). Wie fein man misst und ob es eine Obergrenze gibt, ist eine Modellierungsentscheidung – deshalb gibt es mehrere passende Ergebnisräume.",
       "frist": "",
       "im_kalender": false
     },
@@ -280,8 +286,8 @@
       "art": "Aufgabe auf Folie",
       "text": "Beispiel 1.3.1: Es wird das Zufalls-Experiment „Werfen eines sechsseitigen Würfels“ betrachtet, mit dem dazugehörigen Ergebnisraum $\\Omega = \\{1, 2, 3, 4, 5, 6\\}$. Überlegen Sie sich mögliche Ja/Nein-Fragen bezüglich des Ausgangs $\\omega$ des Zufalls-Experiments. Lassen Sie dabei Fragen nach Wahrscheinlichkeiten außer acht. In welchen Fällen müssten Ihre Fragen mit „Ja“ beantwortet werden?",
       "quelle": "Folie 15",
-      "loesung": "1. Ist die Augenzahl gerade? → ja bei $\\omega \\in \\{2, 4, 6\\}$\n2. Ist die Augenzahl größer als 4? → ja bei $\\omega \\in \\{5, 6\\}$\n3. Ist die Augenzahl eine Primzahl? → ja bei $\\omega \\in \\{2, 3, 5\\}$",
-      "loesungsweg": "Lösung von der Folie. Jede Ja/Nein-Frage legt eine Teilmenge von $\\Omega$ fest – genau das ist ein Ereignis (Definition 1.3.2).",
+      "loesung": "Beispiele aus der Vorlesung (Mitschrift):\n1. Ist die geworfene Zahl $\\omega$ 6? Ja, wenn $\\omega \\in \\{6\\}$; nein, wenn $\\omega \\in \\{1, 2, 3, 4, 5\\}$.\n2. Ist die geworfene Zahl $\\omega$ gerade? Ja, wenn $\\omega \\in \\{2, 4, 6\\}$; nein, wenn $\\omega \\in \\{1, 3, 5\\}$.\n3. Ist die geworfene Zahl $\\omega$ größer als 3? Ja, wenn $\\omega \\in \\{4, 5, 6\\}$; nein, wenn $\\omega \\in \\{1, 2, 3\\}$.\n4. Ist die geworfene Zahl $\\omega$ eine Quadratzahl? Ja, wenn $\\omega \\in \\{1, 4\\}$; nein, wenn $\\omega \\in \\{2, 3, 5, 6\\}$.\n\nAuf der Folie selbst: gerade → $\\{2, 4, 6\\}$; größer als 4 → $\\{5, 6\\}$; Primzahl → $\\{2, 3, 5\\}$.",
+      "loesungsweg": "Folie und Mitschrift. Jede Ja/Nein-Frage legt eine Teilmenge von $\\Omega$ fest – genau das ist ein Ereignis (Definition 1.3.2). Die „Nein“-Menge ist jeweils das Gegenereignis.",
       "frist": "",
       "im_kalender": false
     },
@@ -290,8 +296,8 @@
       "art": "Aufgabe auf Folie",
       "text": "Beispiel 1.3.4: Es wird erneut das Zufalls-Experiment „Werfen eines sechsseitigen Würfels“ mit dem Ergebnisraum $\\Omega = \\{1, 2, 3, 4, 5, 6\\}$ betrachtet. Es bezeichne $A$ das Ereignis „Die gewürfelte Augenzahl ist gerade.“ und $B$ das Ereignis „Die gewürfelte Augenzahl ist größer als 3.“ Bestimmen Sie die Ereignisse $C$ bis $F$.\n1. Ereignis $C$: „$A$ und $B$ treten beide ein.“\n2. Ereignis $D$: „$A$ oder $B$ tritt ein.“\n3. Ereignis $E$: „Entweder $A$ oder $B$ tritt ein.“\n4. Ereignis $F$: „$A$ tritt nicht ein.“\n\nStellen Sie die Ereignisse sowohl in Worten als auch als Menge dar.",
       "quelle": "Folie 19–20",
-      "loesung": "$A = \\{2, 4, 6\\}$, $B = \\{4, 5, 6\\}$\n\n| Ereignis | in Worten | als Menge |\n|---|---|---|\n| $C$ | Augenzahl gerade und größer als 3 | $A \\cap B = \\{4, 6\\}$ |\n| $D$ | Augenzahl gerade oder größer als 3 (oder beides) | $A \\cup B = \\{2, 4, 5, 6\\}$ |\n| $E$ | Augenzahl gerade oder größer als 3, aber nicht beides | $A \\setminus B \\cup B \\setminus A = \\{2, 5\\}$ |\n| $F$ | Augenzahl ungerade | $\\bar{A} = \\{1, 3, 5\\}$ |",
-      "loesungsweg": "Selbst erarbeitet (Folie 20 ist leer). Zuerst $A$ und $B$ als Mengen aufschreiben, dann mit der Übersetzungstabelle (Folie 21) übersetzen: „und“ → $\\cap$, „oder“ → $\\cup$, „entweder … oder“ → $A \\setminus B \\cup B \\setminus A$, „nicht“ → $\\bar{A}$.\n$A \\setminus B = \\{2\\}$ (gerade, aber nicht größer als 3), $B \\setminus A = \\{5\\}$, zusammen $\\{2, 5\\}$.",
+      "loesung": "$A = \\{2, 4, 6\\}$, $B = \\{4, 5, 6\\}$\n\n| Ereignis | in Worten | als Menge |\n|---|---|---|\n| $C$ | „Die gewürfelte Augenzahl ist gerade und größer als 3.“ | $C = \\{4, 6\\} = A \\cap B$ |\n| $D$ | „Die gewürfelte Augenzahl ist gerade oder größer als 3 (oder beides).“ | $D = \\{2, 4, 5, 6\\} = A \\cup B$ |\n| $E$ | „Die gewürfelte Augenzahl ist entweder gerade oder größer als 3.“ | $E = \\{2, 5\\} = A \\,\\triangle\\, B$ (symmetrische Differenz) |\n| $F$ | „Die gewürfelte Augenzahl ist ungerade / nicht gerade.“ | $F = \\{1, 3, 5\\} = \\Omega \\setminus A = \\bar{A}$ (Komplement von $A$) |",
+      "loesungsweg": "Lösung laut Mitschrift aus der Vorlesung (Kommilitonin/Kommilitone, „Kapitel 1.pdf“). Mit der Übersetzungstabelle (Folie 21): „und“ → $\\cap$, „oder“ → $\\cup$, „entweder … oder“ → symmetrische Differenz $A \\,\\triangle\\, B = A \\setminus B \\cup B \\setminus A$, „nicht“ → $\\bar{A} = \\Omega \\setminus A$.",
       "frist": "",
       "im_kalender": false
     },
@@ -301,7 +307,7 @@
       "text": "Beispiel 1.3.9: Betrachtet wird $\\Omega = \\{1, 2, 3\\}$ und $\\mathcal{E}_1 = \\{\\{1\\}\\}$ sowie $\\mathcal{E}_2 = \\{\\{1\\}, \\{2\\}\\}$. Bestimmen Sie $\\mathcal{A}(\\mathcal{E}_1)$ und $\\mathcal{A}(\\mathcal{E}_2)$.",
       "quelle": "Folie 27",
       "loesung": "$\\mathcal{A}(\\mathcal{E}_1) = \\{\\emptyset, \\{1\\}, \\{2, 3\\}, \\{1, 2, 3\\}\\}$\n\n$\\mathcal{A}(\\mathcal{E}_2) = \\mathfrak{P}(\\Omega) = \\{\\emptyset, \\{1\\}, \\{2\\}, \\{3\\}, \\{1, 2\\}, \\{1, 3\\}, \\{2, 3\\}, \\{1, 2, 3\\}\\}$",
-      "loesungsweg": "Selbst erarbeitet. Rezept (Folie 27): mit Komplement, Vereinigung und Schnitt alles erzeugen, bis nichts Neues mehr entsteht.\n\n**$\\mathcal{E}_1$:** $\\{1\\}$ ist drin. Komplement: $\\overline{\\{1\\}} = \\{2, 3\\}$. Nach Definition 1.3.5(1) gehört $\\Omega$ dazu, nach Satz 1.3.6 auch $\\emptyset$. Weitere Vereinigungen/Schnitte liefern nichts Neues ($\\{1\\} \\cup \\{2, 3\\} = \\Omega$, $\\{1\\} \\cap \\{2, 3\\} = \\emptyset$). Probe: Die vier Mengen erfüllen (1)–(3).\n\n**$\\mathcal{E}_2$:** $\\{1\\}, \\{2\\}$ drin. Komplemente: $\\{2, 3\\}$, $\\{1, 3\\}$. Vereinigung $\\{1\\} \\cup \\{2\\} = \\{1, 2\\}$, deren Komplement $\\{3\\}$. Damit liegen alle einelementigen Mengen und durch Vereinigung alle Teilmengen darin: $2^3 = 8$ Mengen, also $\\mathfrak{P}(\\Omega)$.",
+      "loesungsweg": "Lösung laut Mitschrift aus der Vorlesung (Kommilitonin/Kommilitone, „Kapitel 1.pdf“). Rezept (Folie 27): mit Komplement, Vereinigung und Schnitt alles erzeugen, bis nichts Neues mehr entsteht.\n\n**$\\mathcal{E}_1$:** $\\{1\\}$; $\\{2, 3\\} = \\Omega \\setminus \\{1\\}$; $\\Omega = \\{1\\} \\cup \\{2, 3\\}$; $\\emptyset = \\{1\\} \\cap \\{2, 3\\}$ oder $\\emptyset = \\bar{\\Omega}$.\n\n**$\\mathcal{E}_2$:** $\\{1\\}$, $\\{2\\}$; $\\{2, 3\\} = \\overline{\\{1\\}}$, $\\{1, 3\\} = \\overline{\\{2\\}}$, $\\{1, 2\\} = \\{1\\} \\cup \\{2\\}$, $\\{3\\} = \\overline{\\{1, 2\\}}$, $\\Omega = \\{1\\} \\cup \\{2, 3\\}$, $\\emptyset = \\bar{\\Omega}$ – also alle $2^3 = 8$ Teilmengen, $\\mathcal{A}(\\mathcal{E}_2) = \\mathfrak{P}(\\Omega)$.",
       "frist": "",
       "im_kalender": false
     },
@@ -310,8 +316,8 @@
       "art": "Aufgabe auf Folie",
       "text": "Beispiel 1.3.12: Betrachtet wird das Zufalls-Experiment „Zweifacher Münzwurf“ mit dem Ergebnisraum $\\Omega = \\{\\text{Wappen}, \\text{Zahl}\\}^2$. Überprüfen Sie, ob $\\mathfrak{P}(\\Omega) = \\{A \\times B \\mid A, B \\in \\mathfrak{P}(\\{\\text{Wappen}, \\text{Zahl}\\})\\}$ gilt, also ob jede Teilmenge von $\\{\\text{Wappen}, \\text{Zahl}\\}^2$ als kartesisches Produkt von Teilmengen von $\\{\\text{Wappen}, \\text{Zahl}\\}$ darstellbar ist.",
       "quelle": "Folie 31",
-      "loesung": "**Nein**, die Gleichheit gilt nicht. Gegenbeispiel: $\\{(\\text{Wappen}, \\text{Zahl}), (\\text{Zahl}, \\text{Wappen})\\}$ („genau einmal Wappen“) ist kein kartesisches Produkt.",
-      "loesungsweg": "Selbst erarbeitet.\n\n**Zählen:** $|\\Omega| = 2 \\cdot 2 = 4$, also hat $\\mathfrak{P}(\\Omega)$ genau $2^4 = 16$ Elemente. $\\{\\text{Wappen}, \\text{Zahl}\\}$ hat $2^2 = 4$ Teilmengen, davon 3 nichtleere. Nichtleere Produkte $A \\times B$: $3 \\cdot 3 = 9$ (alle verschieden), dazu $\\emptyset$ (sobald $A$ oder $B$ leer ist). Das sind nur $10 < 16$ Mengen.\n\n**Gegenbeispiel:** Angenommen $\\{(\\text{W}, \\text{Z}), (\\text{Z}, \\text{W})\\} = A \\times B$. Wegen $(\\text{W}, \\text{Z})$ ist $\\text{W} \\in A$ und $\\text{Z} \\in B$; wegen $(\\text{Z}, \\text{W})$ ist $\\text{Z} \\in A$ und $\\text{W} \\in B$. Dann wäre aber auch $(\\text{W}, \\text{W}) \\in A \\times B$ – Widerspruch.\n\nFolgerung: Bei zusammengesetzten Ergebnisräumen reichen die Produkte nicht; man nimmt $\\mathfrak{P}(\\Omega)$ bzw. die von den Produkten erzeugte σ-Algebra (Folie 32).",
+      "loesung": "**Nein**, die Gleichheit gilt nicht (im Allgemeinen ist $\\mathfrak{P}(\\Omega_1 \\times \\Omega_2) \\neq \\mathfrak{P}(\\Omega_1) \\times \\mathfrak{P}(\\Omega_2)$).\n\nManche Teilmengen sind Produkte, z. B. $\\{(\\text{Wappen}, \\text{Wappen}), (\\text{Wappen}, \\text{Zahl})\\} = \\{\\text{Wappen}\\} \\times \\{\\text{Wappen}, \\text{Zahl}\\}$.\n\nAber $\\{(\\text{Wappen}, \\text{Wappen}), (\\text{Zahl}, \\text{Zahl})\\}$ ist **nicht** als kartesisches Produkt von Teilmengen darstellbar.",
+      "loesungsweg": "Lösung laut Mitschrift aus der Vorlesung (Kommilitonin/Kommilitone, „Kapitel 1.pdf“). Begründung (selbst ergänzt): Wäre $\\{(\\text{W}, \\text{W}), (\\text{Z}, \\text{Z})\\} = A \\times B$, dann wären $\\text{W}, \\text{Z} \\in A$ und $\\text{W}, \\text{Z} \\in B$ – dann läge auch $(\\text{W}, \\text{Z})$ im Produkt. Widerspruch. Zählargument: $|\\mathfrak{P}(\\Omega)| = 2^4 = 16$, aber es gibt nur $3 \\cdot 3 + 1 = 10$ verschiedene Produkte.",
       "frist": "",
       "im_kalender": false
     }
@@ -443,12 +449,12 @@
       "format": "offen",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "Einer Person werden die Augen verbunden; sie wird zehnmal gedreht und soll dann einen Zielpunkt erreichen. Ergebnis sind zurückgelegte Entfernung und verstrichene Zeit. Gib einen Ergebnisraum an. Ist er abzählbar?",
-      "musterloesung": "$\\Omega = [0; \\infty[ \\times [0; \\infty[$ (Paare aus nicht-negativen reellen Zahlen: Entfernung, Zeit). Er ist überabzählbar (stetiger Fall).",
+      "frage": "Einer Person werden die Augen verbunden; sie wird zehnmal gedreht und soll dann einen Zielpunkt erreichen. Ergebnis sind zurückgelegte Entfernung und verstrichene Zeit. Gib einen Ergebnisraum an. Gibt es nur ein richtiges Modell?",
+      "musterloesung": "$\\Omega = \\{a\\ \\text{m} \\mid a \\in \\mathbb{Q}^+\\} \\times \\{b\\ \\text{s} \\mid b \\in \\mathbb{Q}^+\\}$ (Paare aus Entfernung und Zeit), z. B. $(1{,}5\\ \\text{m}; 5{,}3\\ \\text{s})$. Er ist nicht endlich; mit Obergrenze oder Runden sind auch $\\mathbb{N}_0 \\times \\mathbb{N}_0$ oder $\\{1, \\dots, 1000\\} \\times \\{1, \\dots, 300\\}$ möglich.",
       "bewertungspunkte": [
         "Paare (Entfernung, Zeit)",
-        "nicht-negative reelle Zahlen ohne Obergrenze",
-        "überabzählbar"
+        "positive Zahlen ohne feste Obergrenze, z. B. $\\mathbb{Q}^+$",
+        "mehrere Modelle möglich (Obergrenze, Runden)"
       ],
       "punkte": 3,
       "erklaerung": "Beispiel 1.2.7.",
@@ -559,7 +565,7 @@
       "niveau": "anwenden",
       "schwierigkeit": 2,
       "frage": "Würfeln mit $\\Omega = \\{1, \\dots, 6\\}$, $A$: „Augenzahl gerade“, $B$: „Augenzahl größer als 3“. Bestimme in Worten und als Menge: $C$: „A und B treten beide ein“, $D$: „A oder B tritt ein“, $E$: „Entweder A oder B tritt ein“, $F$: „A tritt nicht ein“.",
-      "musterloesung": "$A = \\{2, 4, 6\\}$, $B = \\{4, 5, 6\\}$. $C = A \\cap B = \\{4, 6\\}$; $D = A \\cup B = \\{2, 4, 5, 6\\}$; $E = A \\setminus B \\cup B \\setminus A = \\{2, 5\\}$; $F = \\bar{A} = \\{1, 3, 5\\}$ (ungerade).",
+      "musterloesung": "$A = \\{2, 4, 6\\}$, $B = \\{4, 5, 6\\}$. $C = A \\cap B = \\{4, 6\\}$; $D = A \\cup B = \\{2, 4, 5, 6\\}$; $E = A \\,\\triangle\\, B = A \\setminus B \\cup B \\setminus A = \\{2, 5\\}$; $F = \\bar{A} = \\{1, 3, 5\\}$ (ungerade).",
       "bewertungspunkte": [
         "$A$ und $B$ als Mengen",
         "$C = \\{4, 6\\}$",
@@ -825,7 +831,7 @@
       "niveau": "anwenden",
       "schwierigkeit": 3,
       "frage": "Zweifacher Münzwurf, $\\Omega = \\{\\text{Wappen}, \\text{Zahl}\\}^2$. Gilt $\\mathfrak{P}(\\Omega) = \\{A \\times B \\mid A, B \\in \\mathfrak{P}(\\{\\text{Wappen}, \\text{Zahl}\\})\\}$? Begründe.",
-      "musterloesung": "Nein. $\\mathfrak{P}(\\Omega)$ hat $2^4 = 16$ Elemente, es gibt aber nur $3 \\cdot 3 + 1 = 10$ verschiedene Produkte. Gegenbeispiel: $\\{(\\text{W}, \\text{Z}), (\\text{Z}, \\text{W})\\}$ – wäre es $A \\times B$, dann wären $\\text{W}, \\text{Z} \\in A$ und $\\text{W}, \\text{Z} \\in B$, also auch $(\\text{W}, \\text{W}) \\in A \\times B$. Widerspruch.",
+      "musterloesung": "Nein. $\\mathfrak{P}(\\Omega)$ hat $2^4 = 16$ Elemente, es gibt aber nur $3 \\cdot 3 + 1 = 10$ verschiedene Produkte. Gegenbeispiel (Vorlesung): $\\{(\\text{W}, \\text{W}), (\\text{Z}, \\text{Z})\\}$ – wäre es $A \\times B$, dann wären $\\text{W}, \\text{Z} \\in A$ und $\\text{W}, \\text{Z} \\in B$, also auch $(\\text{W}, \\text{Z}) \\in A \\times B$. Widerspruch.",
       "bewertungspunkte": [
         "Antwort nein",
         "Zählargument 16 vs. 10 oder",
@@ -896,11 +902,22 @@
       "erklaerung": "Transfer auf den Unterricht. Gleich wahrscheinliche Ergebnisse (Laplace) sind eine Ergänzung (nicht aus diesen Folien) und kommen später im Kapitel.",
       "folie": "12",
       "pruefungsrelevant": false
+    },
+    {
+      "id": "f33",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist die symmetrische Differenz $A \\,\\triangle\\, B$, und welchem Satz in Worten entspricht sie?",
+      "antwort": "$A \\,\\triangle\\, B = A \\setminus B \\cup B \\setminus A$: alle Elemente, die in genau einer der beiden Mengen liegen – „Entweder $A$ oder $B$ tritt ein (aber nicht beide)“.",
+      "erklaerung": "Mitschrift Folie 20, Beispiel 1.3.4 (E).",
+      "folie": "20–21",
+      "pruefungsrelevant": true
     }
   ],
   "pruefungshinweise": [],
   "offene_fragen": [
-    "Bis zu welcher Folie kam die Vorlesung am 12.10.? Danach wird Kapitel 1 auf die Sitzungen 12.10. und 19.10. aufgeteilt.",
-    "Die Lückenfolien (Folie 10–13, 20, 29–30) wurden in der Vorlesung ausgefüllt; die Lösungen hier sind selbst erarbeitet – bei Gelegenheit mit einer Mitschrift vergleichen."
+    "Bis zu welcher Folie kam die Vorlesung am 12.10.? Danach wird Kapitel 1 auf die Sitzungen 12.10. und 19.10. aufgeteilt."
   ]
 }

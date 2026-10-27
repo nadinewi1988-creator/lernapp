@@ -162,6 +162,27 @@
       "erklaerung": "Verknüpfungen für Suchbegriffe: AND = beide (Schnittmenge, weniger Treffer), OR = mindestens einer (Vereinigung, mehr Treffer), NOT = ohne (schließt aus). Eigene Erklärung.",
       "quelle": "ewb002.2_2026-10-20 · Folie 8, 13–15",
       "abweichungen": []
+    },
+    {
+      "begriff": "Wissenschaftliche Hypothese (Bortz/Döring)",
+      "wortlaut": "Wissenschaftliche Hypothesen sind Annahmen über reale Sachverhalte (empirischer Gehalt, empirische Untersuchbarkeit) in Form von Konditionalsätzen. Sie weisen über den Einzelfall hinaus (Generalisierbarkeit, Allgemeinheitsgrad) und sind durch Erfahrungsdaten widerlegbar (Falsifizierbarkeit).",
+      "erklaerung": "Vier Kriterien: empirisch untersuchbar, allgemeingültig, Wenn-dann/Je-desto-Form, widerlegbar.",
+      "quelle": "ewb002.2_2026-10-27 · Folie 15 · Tausendpfund S. 92",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Manifeste Variable",
+      "wortlaut": "Bei manifesten Variablen handelt es sich um sozialwissenschaftliche Merkmale, die direkt beobachtbar sind.",
+      "erklaerung": "Direkt beobachtbar, z. B. Geschlecht, Größe, Haarfarbe.",
+      "quelle": "ewb002.2_2026-10-27 · Folie 6 · Tausendpfund S. 11",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Latente Variable",
+      "wortlaut": "Dagegen sind latente Variablen Merkmale, die sich der direkten Beobachtung entziehen.",
+      "erklaerung": "Nicht direkt beobachtbar, z. B. Intelligenz, Motivation – muss operationalisiert werden.",
+      "quelle": "ewb002.2_2026-10-27 · Folie 6 · Tausendpfund S. 11",
+      "abweichungen": []
     }
   ]
 }

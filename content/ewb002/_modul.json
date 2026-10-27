@@ -70,7 +70,8 @@
     {
       "text": "empirischen Fragestellungen methodische Ansätze zuordnen und empirisch prüfbare Hypothesen formulieren",
       "abgedeckt_in": [
-        "ewb002.1_2026-10-21"
+        "ewb002.1_2026-10-21",
+        "ewb002.2_2026-10-27"
       ]
     },
     {
@@ -101,7 +102,8 @@
   "sitzungen": [
     "ewb002.2_2026-10-13",
     "ewb002.2_2026-10-20",
-    "ewb002.1_2026-10-21"
+    "ewb002.1_2026-10-21",
+    "ewb002.2_2026-10-27"
   ],
   "sitzungsplan": [
     {
@@ -331,7 +333,8 @@
     "Seminar S01: Folie 4 „erste Vorlesungswoche“ vs. Leitfaden „Vorlesungszeit hat bereits in der letzten Woche begonnen“",
     "VL S02: Folien 6 und 7 identisch; Folien 11 und 14 „Dieckmann“ statt „Diekmann“; Folie 33 „2.3 Abhängige und abhängige Variable“ (gemeint: unabhängige)",
     "VL S02, Leitfrage 6: „gerichtete und ungerichtete Hypothesen“ stehen in keinem der angegebenen Texte (Häder, Tausendpfund, Raithel) – im Seminar am 27.10. nachfragen",
-    "Seminar S02, Folie 12: „Suche Sie“ statt „Suchen Sie“"
+    "Seminar S02, Folie 12: „Suche Sie“ statt „Suchen Sie“",
+    "Seminar S03, Folie 4: „Wies-baden“"
   ],
   "besonderheiten": [
     "Im WS 26/27 fand die Moduleinführung nur in den Seminaren statt (Mail Prof. Zimmer, 13.10.2026); keine eigene VL-Einführung",
@@ -392,6 +395,14 @@
       "art": "Mail",
       "status": "ausgewertet",
       "hinweis": "Mail Lehrteam: Erkrankung Prof. Zimmer, VL-Änderung, Seminarplätze"
+    },
+    {
+      "pfad": "ewb002.2/T03_ewb002.2_Theorien_Hypothesen_Variablen.pdf",
+      "geaendert": "2026-10-27",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "ewb002.2_2026-10-27",
+      "hinweis": "WS 25/26 hatte 03_ewb002.2_Theorien_Hypothesen_Variablen.pdf – nicht abgeglichen (Eilbearbeitung im Seminar)"
     }
   ],
   "hausaufgaben": [

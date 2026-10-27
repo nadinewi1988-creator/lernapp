@@ -1,0 +1,188 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb002",
+  "teilmodul": "ewb002.2",
+  "datum": "2026-10-27",
+  "sitzung_nr": 3,
+  "sitzung_id": "",
+  "thema": "Theorien, Hypothesen und ihre Prüfung",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Die Leitfragen der Sitzung (Folien 3–4) sind dieselben wie in der Hausaufgabe h01 aus VL S02 – die ausführlichen Antworten stehen dort. Diese Sitzung enthält die Anwendungsaufgaben 1–7; alle Lösungen sind selbst erarbeitet.",
+  "quellen": [
+    { "datei": "ewb002.2/T03_ewb002.2_Theorien_Hypothesen_Variablen.pdf", "art": "Folien", "seiten": "1–17" },
+    { "datei": "Literatur/Tausendpfund_2018_Quantitative-Methoden-Politikwissenschaft.pdf", "art": "Literatur (Aufgabe 7, Folie 14)", "seiten": "91–92, 97" }
+  ],
+
+  "lernziele": [
+    { "text": "Du kannst Merkmalsausprägungen als stetig, diskret, dichotom oder polytom und Variablen als manifest oder latent einordnen.", "art": "abgeleitet", "quelle": "Folien 6–8", "fragen": ["f01", "f02", "f03"], "erklaerung_abschnitt": "Variablen und Merkmalsausprägungen" },
+    { "text": "Du kannst Antwortkategorien auf Disjunktheit und Erschöpfung prüfen und verbessern.", "art": "abgeleitet", "quelle": "Folie 9", "fragen": ["f04", "f05"], "erklaerung_abschnitt": "Antwortkategorien prüfen" },
+    { "text": "Du kannst in Hypothesen unabhängige und abhängige Variable bestimmen.", "art": "abgeleitet", "quelle": "Folien 8, 10", "fragen": ["f06", "f07"], "erklaerung_abschnitt": "Abhängige und unabhängige Variablen" },
+    { "text": "Du kannst Hypothesenformen unterscheiden, selbst formulieren und die Kriterien einer Hypothese nennen.", "art": "abgeleitet", "quelle": "Folien 12–15", "fragen": ["f08", "f09", "f10", "f11", "f12"], "erklaerung_abschnitt": "Formen von Hypothesen" }
+  ],
+
+  "kurzfassung": [
+    "Jede Variable lässt sich nach der Zahl ihrer Ausprägungen (stetig/diskret, dichotom/polytom) und nach ihrer Beobachtbarkeit (manifest/latent) einordnen.",
+    "Dasselbe Merkmal kann unterschiedlich erfasst werden – z. B. die 100-m-Zeit stetig in Sekunden, dichotom (unter 15 s ja/nein) oder polytom in Klassen.",
+    "Gute Antwortkategorien sind disjunkt (keine Überschneidung) und erschöpfend (jeder findet eine Kategorie).",
+    "Hypothesen lassen sich paarweise unterscheiden: deterministisch/probabilistisch, wenn-dann/je-desto, individual/kollektiv.",
+    "Eine wissenschaftliche Hypothese bezieht sich auf empirisch untersuchbare Sachverhalte, ist allgemeingültig, hat Konditionalform und ist falsifizierbar."
+  ],
+
+  "erklaerung": [
+    {
+      "titel": "Forschung im Seminarraum",
+      "text": "Zu Beginn (Folie 2) füllt die Gruppe einen kurzen **Fragebogen zu Motivation und Arbeitsorganisation im Studium** aus – Teil der Promotion von Cheyenne Wübbelmann. Die Teilnahme ist freiwillig, die Angaben werden vertraulich behandelt, eine individuelle Betrachtung der Daten findet nicht statt.\n\nDie **Leitfragen** (Folien 3–4) sind dieselben wie in der Textvorbereitung – Antworten siehe Hausaufgabe h01 der VL S02.",
+      "folien": "2–4"
+    },
+    {
+      "titel": "Variablen und Merkmalsausprägungen",
+      "text": "**Aufgabe 1 (Folie 6)** – Merkmale der Studentin im Bild:\n\n| Merkmal | Ausprägung | stetig/diskret | dichotom/polytom | manifest/latent |\n| --- | --- | --- | --- | --- |\n| Alter | 25 Jahre | eigentlich stetig, in ganzen Jahren angegeben diskret | – | manifest |\n| Motivation | sehr motiviert | diskret (Stufen) | polytom | **latent** |\n| Studiengang | Lehramt | diskret | polytom | manifest |\n| Lieblingsgetränk | Kaffee | diskret | polytom | manifest |\n| Führerschein | vorhanden | diskret | **dichotom** | manifest |\n| Haustier | Hund | diskret | polytom (als „Haustier ja/nein“: dichotom) | manifest |\n| Schuhgröße | 38 | diskret | polytom | manifest |\n\n**Aufgabe 3 (Folie 8)** – „Je älter eine Person ist, desto schlechter ist ihre Fitness.“\n• UV: Alter · AV: Fitness\n• Alter ist **manifest**, Fitness ist **latent** (muss z. B. über einen Fitnesstest erfasst werden)\n• Die 100-m-Zeit lässt sich unterschiedlich erfassen:\n\n| Erfassung | Beispiel |\n| --- | --- |\n| kontinuierlich | genaue Zeit in Sekunden, z. B. 14,37 s |\n| dichotom | unter 15 s: ja / nein |\n| polytom | unter 13 s / 13 bis unter 15 s / 15 bis unter 17 s / 17 s und mehr |",
+      "folien": "5–8"
+    },
+    {
+      "titel": "Antwortkategorien prüfen",
+      "text": "**Aufgabe 4 (Folie 9)** – Ausschnitt aus einem Fragebogen:\n\n| Frage | Schwächen | besser |\n| --- | --- | --- |\n| „Wie viele Stunden pro Woche treiben Sie Sport?“ ○ 1–2 ○ 3 ○ 3–4 | **nicht disjunkt** (3 Stunden passt in „3“ und „3–4“); **nicht erschöpfend** (0 Stunden, mehr als 4, Zwischenwerte wie 2,5 fehlen); „pro Woche“ ohne „durchschnittlich“ | „Wie viele Stunden treiben Sie durchschnittlich pro Woche Sport?“ ○ keine ○ weniger als 2 ○ 2 bis unter 4 ○ 4 bis unter 6 ○ 6 und mehr |\n| „Welche Sportart hat Ihnen im Sportunterricht am besten gefallen?“ ○ Fußball ○ Basketball ○ Ballsport ○ Leichtathletik ○ Einzelsport | **nicht disjunkt** (Fußball und Basketball sind Ballsport; Leichtathletik ist Einzelsport); **nicht erschöpfend** (Turnen, Schwimmen, Tanzen …); Bezug unklar (welche Schulzeit?); unklar, ob mehrere Antworten erlaubt sind | „Welche Sportart hat Ihnen im Sportunterricht der Sekundarstufe I am besten gefallen? (bitte nur eine Antwort)“ ○ Fußball ○ Basketball ○ andere Ballsportart ○ Leichtathletik ○ Turnen ○ Schwimmen ○ sonstige: ____ ○ keine |",
+      "folien": "9"
+    },
+    {
+      "titel": "Abhängige und unabhängige Variablen",
+      "text": "**Aufgabe 5 (Folie 10):**\n\n| Hypothese | UV | AV |\n| --- | --- | --- |\n| Je höher die Motivation der Teilnehmenden, desto besser die PISA-Ergebnisse. | Motivation | PISA-Ergebnis |\n| Je größer das politische Interesse einer Bevölkerungsgruppe, desto höher fällt die Wahlteilnahme in dieser Bevölkerungsgruppe aus. | politisches Interesse (der Gruppe) | Wahlteilnahme (der Gruppe) – Kollektivhypothese |\n| Wenn Männer einen Beruf ausüben, verdienen diese mehr als Frauen im selben Beruf. | Geschlecht | Verdienst |\n\nDie Beispiele stammen aus Tausendpfund (2018, S. 12): Motivation → PISA, politisches Interesse → Wahlteilnahme, Geschlecht → Gehalt.\n\n**Aufgabe 2 (Folie 7)** – Studienerfolg erforschen (Beispiellösung):\n• **UV:** Lernzeit pro Woche, Motivation, Nebenjob · **AV:** Studienerfolg (z. B. Notendurchschnitt)\n• **manifest:** Lernstunden, Note, Nebenjob · **latent:** Motivation, Selbstorganisation, Studienzufriedenheit\n• **dichotom:** Nebenjob ja/nein · **polytom:** Studiengang · **stetig:** Lernzeit in Stunden · **diskret:** Anzahl bestandener Module\n• **disjunkt und erschöpfend:** „Wie viele Stunden pro Woche arbeiten Sie neben dem Studium?“ ○ keine ○ unter 10 ○ 10 bis unter 20 ○ 20 und mehr",
+      "folien": "7, 10"
+    },
+    {
+      "titel": "Formen von Hypothesen",
+      "text": "**Drei Hypothesenpaare (Folie 12):** deterministisch – probabilistisch · Wenn-dann – Je-desto · Individual – Kollektiv\n\n**Aufgabe 6 (Folie 13)** – Fitness und Zufriedenheit mit dem Sportunterricht (Beispiellösung):\n\n| Paar | Hypothese 1 | Hypothese 2 | Unterschied |\n| --- | --- | --- | --- |\n| I | **deterministisch:** „Alle Schüler*innen mit hoher Fitness sind mit dem Sportunterricht zufrieden.“ | **probabilistisch:** „Schüler*innen mit hoher Fitness sind mit größerer Wahrscheinlichkeit mit dem Sportunterricht zufrieden als Schüler*innen mit niedriger Fitness.“ | gilt immer (ein Gegenfall widerlegt sie) vs. gilt mit einer gewissen Wahrscheinlichkeit |\n| II | **Wenn-dann:** „Wenn Schüler*innen fit sind, dann sind sie mit dem Sportunterricht zufrieden.“ | **Je-desto:** „Je höher die Fitness der Schüler*innen, desto höher ihre Zufriedenheit mit dem Sportunterricht.“ | zwei dichotome Merkmale (fit ja/nein, zufrieden ja/nein) vs. Merkmale mit Rangfolge |\n| III | **Individual:** „Je fitter eine Schülerin bzw. ein Schüler ist, desto zufriedener ist sie bzw. er mit dem Sportunterricht.“ | **Kollektiv:** „Je höher die durchschnittliche Fitness einer Klasse, desto höher die durchschnittliche Zufriedenheit der Klasse mit dem Sportunterricht.“ | Merkmalsträger ist die einzelne Person vs. eine Gruppe (Klasse) – Vorsicht vor dem ökologischen Fehlschluss |\n\n**Mögliche Beziehungen zwischen zwei Merkmalen (Folie 14, Tausendpfund 2018, S. 97):** positiver linearer, negativer linearer, U-förmiger und umgekehrt U-förmiger Zusammenhang.\n\n**Aufgabe 7 (Folie 15)** – Kriterien einer wissenschaftlichen Hypothese nach Tausendpfund (2018, S. 91–92, nach Bortz/Döring 2006):\n• bezieht sich auf **reale Sachverhalte, die empirisch untersuchbar** sind\n• ist eine **allgemeingültige**, über den Einzelfall hinausgehende Aussage\n• hat zumindest implizit die **Formalstruktur eines sinnvollen Konditionalsatzes** (Wenn-dann oder Je-desto)\n• ist **falsifizierbar**\n\nDefinition: „Wissenschaftliche Hypothesen sind Annahmen über reale Sachverhalte (empirischer Gehalt, empirische Untersuchbarkeit) in Form von Konditionalsätzen. Sie weisen über den Einzelfall hinaus (Generalisierbarkeit, Allgemeinheitsgrad) und sind durch Erfahrungsdaten widerlegbar (Falsifizierbarkeit).“ (Bortz/Döring 2006, nach Tausendpfund 2018, S. 92)",
+      "folien": "11–15"
+    }
+  ],
+
+  "definitionen": [
+    { "begriff": "Wissenschaftliche Hypothese (Bortz/Döring)", "wortlaut": "Wissenschaftliche Hypothesen sind Annahmen über reale Sachverhalte (empirischer Gehalt, empirische Untersuchbarkeit) in Form von Konditionalsätzen. Sie weisen über den Einzelfall hinaus (Generalisierbarkeit, Allgemeinheitsgrad) und sind durch Erfahrungsdaten widerlegbar (Falsifizierbarkeit).", "erklaerung": "Vier Kriterien: empirisch untersuchbar, allgemeingültig, Wenn-dann/Je-desto-Form, widerlegbar.", "folie": "15 · Tausendpfund S. 92" },
+    { "begriff": "Manifeste Variable", "wortlaut": "Bei manifesten Variablen handelt es sich um sozialwissenschaftliche Merkmale, die direkt beobachtbar sind.", "erklaerung": "Direkt beobachtbar, z. B. Geschlecht, Größe, Haarfarbe.", "folie": "6 · Tausendpfund S. 11" },
+    { "begriff": "Latente Variable", "wortlaut": "Dagegen sind latente Variablen Merkmale, die sich der direkten Beobachtung entziehen.", "erklaerung": "Nicht direkt beobachtbar, z. B. Intelligenz, Motivation – muss operationalisiert werden.", "folie": "6 · Tausendpfund S. 11" }
+  ],
+
+  "aufgaben": [
+    { "id": "a01", "art": "Aufgabe auf Folie", "text": "Aufgabe 1: Welche Variablenausprägungen sind stetig, diskret, dichotom, polytom, manifest und latent? (Bild: Alter 25 Jahre, Motivation sehr motiviert, Studiengang Lehramt, Lieblingsgetränk Kaffee, Führerschein vorhanden, Haustier Hund, Schuhgröße 38)", "quelle": "Folie 6",
+      "loesung": "*Selbst erarbeitet.*\n• **Alter** (25 Jahre): eigentlich stetig, in ganzen Jahren angegeben diskret – manifest\n• **Motivation** (sehr motiviert): diskret, polytom – **latent**\n• **Studiengang** (Lehramt): diskret, polytom – manifest\n• **Lieblingsgetränk** (Kaffee): diskret, polytom – manifest\n• **Führerschein** (vorhanden): **dichotom** – manifest\n• **Haustier** (Hund): diskret, polytom (als „Haustier ja/nein“ dichotom) – manifest\n• **Schuhgröße** (38): diskret, polytom – manifest",
+      "loesungsweg": "Je Merkmal fragen: unendlich viele Werte (stetig) oder abzählbar (diskret)? Zwei oder mehr Ausprägungen? Direkt beobachtbar (manifest) oder erschlossen (latent)?", "frist": "", "im_kalender": false },
+    { "id": "a02", "art": "Aufgabe auf Folie", "text": "Aufgabe 2: Werden Sie selbst zu Forschenden! Stellen Sie sich vor, Sie möchten untersuchen, was den Studienerfolg von Studierenden beeinflusst. Überlegen Sie dazu gemeinsam in Ihrer Kleingruppe:\na. Welche unabhängige und abhängige Variable könnten Sie untersuchen?\nb. Welche manifesten und latenten Variablen könnten dabei eine Rolle spielen?\nc. Welche Ihrer Variablen sind dichotom oder polytom bzw. diskret oder stetig?\nd. Wie könnten Sie eine Variable mit disjunkten und erschöpfenden Antwortmöglichkeiten erfassen?", "quelle": "Folie 7",
+      "loesung": "*Selbst erarbeitet – Beispiellösung.*\n**a.** UV: Lernzeit pro Woche, Motivation, Nebenjob · AV: Studienerfolg (z. B. Notendurchschnitt)\n**b.** manifest: Lernstunden, Note, Nebenjob · latent: Motivation, Selbstorganisation, Studienzufriedenheit\n**c.** dichotom: Nebenjob ja/nein · polytom: Studiengang · stetig: Lernzeit in Stunden · diskret: Anzahl bestandener Module\n**d.** „Wie viele Stunden pro Woche arbeiten Sie neben dem Studium?“ ○ keine ○ unter 10 ○ 10 bis unter 20 ○ 20 und mehr",
+      "loesungsweg": "Erst die AV festlegen (was soll erklärt werden?), dann mögliche Einflussfaktoren (UV) sammeln und jede Variable nach den Begriffen einordnen.", "frist": "", "im_kalender": false },
+    { "id": "a03", "art": "Aufgabe auf Folie", "text": "Aufgabe 3: In einer Forschungsarbeit soll nachfolgende Hypothese geprüft werden: „Je älter eine Person ist, desto schlechter ist ihre Fitness.“\na) Was ist hier die unabhängige und abhängige Variable?\nb) Welches Merkmal ist hier manifest und welches latent?\nIm Fitnesstest wird u.a. die Zeit beim 100-Meter-Lauf gemessen:\nc) Wie kann das Messergebnis als kontinuierliche, dichotome und polytome Ausprägung dargestellt bzw. erfasst werden?", "quelle": "Folie 8",
+      "loesung": "*Selbst erarbeitet.*\n**a)** UV: Alter · AV: Fitness\n**b)** Alter manifest, Fitness latent\n**c)** kontinuierlich: Zeit in Sekunden (z. B. 14,37 s) · dichotom: unter 15 s ja/nein · polytom: unter 13 s / 13 bis unter 15 s / 15 bis unter 17 s / 17 s und mehr",
+      "loesungsweg": "„Je …“-Teil = UV, „desto …“-Teil = AV. Für c) dasselbe Messergebnis einmal genau, einmal in zwei und einmal in mehreren Klassen angeben.", "frist": "", "im_kalender": false },
+    { "id": "a04", "art": "Aufgabe auf Folie", "text": "Aufgabe 4: Wo liegen die Schwächen des Fragebogens? Formulieren Sie die Schwächen um.\nAusschnitt aus einem Fragebogen:\nWie viele Stunden pro Woche treiben Sie Sport? ○ 1–2 ○ 3 ○ 3–4\nWelche Sportart hat Ihnen im Sportunterricht am besten gefallen? ○ Fußball ○ Basketball ○ Ballsport ○ Leichtathletik ○ Einzelsport", "quelle": "Folie 9",
+      "loesung": "*Selbst erarbeitet.*\n**Frage 1:** nicht disjunkt (3 in „3“ und „3–4“), nicht erschöpfend (0 Stunden, mehr als 4, Zwischenwerte fehlen). Besser: „Wie viele Stunden treiben Sie durchschnittlich pro Woche Sport?“ ○ keine ○ weniger als 2 ○ 2 bis unter 4 ○ 4 bis unter 6 ○ 6 und mehr\n**Frage 2:** nicht disjunkt (Fußball und Basketball sind Ballsport; Leichtathletik ist Einzelsport), nicht erschöpfend (Turnen, Schwimmen …), Bezug unklar, Anzahl der Antworten unklar. Besser: „Welche Sportart hat Ihnen im Sportunterricht der Sekundarstufe I am besten gefallen? (bitte nur eine Antwort)“ ○ Fußball ○ Basketball ○ andere Ballsportart ○ Leichtathletik ○ Turnen ○ Schwimmen ○ sonstige: ____ ○ keine",
+      "loesungsweg": "Für jede Kategorie prüfen: Passt jemand in zwei Kategorien (nicht disjunkt)? Findet jemand keine Kategorie (nicht erschöpfend)? Dann Grenzen mit „bis unter“ setzen, Ober-/Restkategorien ergänzen, Frage präzisieren.", "frist": "", "im_kalender": false },
+    { "id": "a05", "art": "Aufgabe auf Folie", "text": "Aufgabe 5: Kennzeichnen Sie in folgenden beispielshaften Hypothesen die abhängige und unabhängige Variable.\n1. Je höher die Motivation der Teilnehmenden, desto besser die PISA-Ergebnisse.\n2. Je größer das politische Interesse einer Bevölkerungsgruppe, desto höher fällt die Wahlteilnahme in dieser Bevölkerungsgruppe aus.\n3. Wenn Männer einen Beruf ausüben, verdienen diese mehr als Frauen im selben Beruf.", "quelle": "Folie 10",
+      "loesung": "*Selbst erarbeitet.*\n1. UV: Motivation · AV: PISA-Ergebnis\n2. UV: politisches Interesse der Bevölkerungsgruppe · AV: Wahlteilnahme der Bevölkerungsgruppe (Kollektivhypothese)\n3. UV: Geschlecht · AV: Verdienst",
+      "loesungsweg": "Die UV ist die vermutete Ursache (Je-/Wenn-Teil), die AV das, was erklärt werden soll (Desto-/Dann-Teil).", "frist": "", "im_kalender": false },
+    { "id": "a06", "art": "Aufgabe auf Folie", "text": "Aufgabe 6: Für die empirische Untersuchung sollen nun verschiedene Hypothesen zum Zusammenhang von der Fitness der Schüler*innen und deren Zufriedenheit mit dem Sportunterricht aufgestellt werden.\na. Formulieren Sie in Ihrer Kleingruppe hierzu die folgenden Hypothesen:\nI) eine deterministische und eine probabilistische Hypothese\nII) eine Wenn-dann- und eine Je-desto-Hypothese\nIII) eine Individual- und eine Kollektivhypothese\nb. Worin unterscheiden sich die jeweiligen „Hypothesenpaare“?", "quelle": "Folie 13",
+      "loesung": "*Selbst erarbeitet – Beispiellösung.*\n**I)** deterministisch: „Alle Schüler*innen mit hoher Fitness sind mit dem Sportunterricht zufrieden.“ · probabilistisch: „Schüler*innen mit hoher Fitness sind mit größerer Wahrscheinlichkeit mit dem Sportunterricht zufrieden als Schüler*innen mit niedriger Fitness.“\n**II)** Wenn-dann: „Wenn Schüler*innen fit sind, dann sind sie mit dem Sportunterricht zufrieden.“ · Je-desto: „Je höher die Fitness der Schüler*innen, desto höher ihre Zufriedenheit mit dem Sportunterricht.“\n**III)** Individual: „Je fitter eine Schülerin bzw. ein Schüler ist, desto zufriedener ist sie bzw. er mit dem Sportunterricht.“ · Kollektiv: „Je höher die durchschnittliche Fitness einer Klasse, desto höher die durchschnittliche Zufriedenheit der Klasse mit dem Sportunterricht.“\n**b.** I: gilt immer (ein Gegenfall widerlegt sie) vs. nur mit einer gewissen Wahrscheinlichkeit · II: zwei dichotome Merkmale vs. Merkmale mit Rangfolge · III: Merkmalsträger Person vs. Gruppe – kein Schluss von der Klasse auf Einzelne (ökologischer Fehlschluss)",
+      "loesungsweg": "UV Fitness, AV Zufriedenheit festlegen; dann je Paar nur das unterscheidende Merkmal verändern (immer/wahrscheinlich, ja-nein/Rangfolge, Person/Klasse).", "frist": "", "im_kalender": false },
+    { "id": "a07", "art": "Aufgabe auf Folie", "text": "Aufgabe 7: Lesen Sie in Tausendpfund (2018) nach und zählen Sie die Kriterien auf, welche eine Hypothese auszeichnen.", "quelle": "Folie 15",
+      "loesung": "Tausendpfund (2018, S. 91–92) nach Bortz/Döring (2006): Eine wissenschaftliche Hypothese\n1. bezieht sich auf **reale Sachverhalte, die empirisch untersuchbar** sind,\n2. ist eine **allgemeingültige**, über den Einzelfall hinausgehende Aussage,\n3. hat zumindest implizit die **Formalstruktur eines sinnvollen Konditionalsatzes** (Wenn-dann oder Je-desto),\n4. ist **falsifizierbar**.\nAußerdem: Sie ist eine Aussage über den Zusammenhang von mindestens zwei Merkmalen (S. 91) und muss in den Forschungsstand eingebettet und theoretisch begründet werden (S. 92).",
+      "loesungsweg": "Tausendpfund Kapitel 6.1 „Was sind Hypothesen?“ (S. 91–93) lesen.", "frist": "", "im_kalender": false }
+  ],
+
+  "fragen": [
+    { "id": "f01", "baustein": "vergleich", "format": "zuordnung", "niveau": "anwenden", "schwierigkeit": 2,
+      "frage": "Ordne die Merkmale der Studentin (Folie 6) zu.",
+      "kategorien": ["dichotom", "polytom"],
+      "elemente": [
+        { "text": "Führerschein: vorhanden / nicht vorhanden", "kategorie": "dichotom" },
+        { "text": "Studiengang", "kategorie": "polytom" },
+        { "text": "Lieblingsgetränk", "kategorie": "polytom" },
+        { "text": "Schuhgröße", "kategorie": "polytom" }
+      ],
+      "erklaerung": "Dichotom = genau zwei Ausprägungen, polytom = mehr als zwei.", "folie": "6", "pruefungsrelevant": true },
+    { "id": "f02", "baustein": "vergleich", "format": "zuordnung", "niveau": "anwenden", "schwierigkeit": 1,
+      "frage": "Manifest oder latent?",
+      "kategorien": ["manifest", "latent"],
+      "elemente": [
+        { "text": "Alter", "kategorie": "manifest" },
+        { "text": "Motivation", "kategorie": "latent" },
+        { "text": "Fitness", "kategorie": "latent" },
+        { "text": "Zeit beim 100-m-Lauf", "kategorie": "manifest" },
+        { "text": "Studienzufriedenheit", "kategorie": "latent" }
+      ],
+      "erklaerung": "Manifest = direkt beobachtbar; latent = entzieht sich der direkten Beobachtung und muss operationalisiert werden (Tausendpfund S. 11).", "folie": "6, 8", "pruefungsrelevant": true },
+    { "id": "f03", "baustein": "aufgabe", "format": "offen", "niveau": "anwenden", "schwierigkeit": 2,
+      "frage": "Im Fitnesstest wird die Zeit beim 100-Meter-Lauf gemessen. Wie kann das Messergebnis als kontinuierliche, dichotome und polytome Ausprägung erfasst werden?",
+      "musterloesung": "Kontinuierlich: genaue Zeit in Sekunden (z. B. 14,37 s). Dichotom: zwei Kategorien, z. B. unter 15 s ja/nein. Polytom: mehrere disjunkte Klassen, z. B. unter 13 s / 13 bis unter 15 s / 15 bis unter 17 s / 17 s und mehr.",
+      "bewertungspunkte": ["kontinuierlich: genaue Zeit", "dichotom: zwei Kategorien", "polytom: mehr als zwei disjunkte Klassen"],
+      "punkte": 3, "erklaerung": "Aufgabe 3c.", "folie": "8", "pruefungsrelevant": true },
+    { "id": "f04", "baustein": "aufgabe", "format": "offen", "niveau": "anwenden", "schwierigkeit": 2,
+      "frage": "„Wie viele Stunden pro Woche treiben Sie Sport? ○ 1–2 ○ 3 ○ 3–4“ – Nenne die Schwächen und formuliere die Antwortkategorien um.",
+      "musterloesung": "Nicht disjunkt: 3 Stunden passt in „3“ und „3–4“. Nicht erschöpfend: 0 Stunden, mehr als 4 Stunden und Zwischenwerte (z. B. 2,5) fehlen. Besser: ○ keine ○ weniger als 2 ○ 2 bis unter 4 ○ 4 bis unter 6 ○ 6 und mehr (Frage: „durchschnittlich pro Woche“).",
+      "bewertungspunkte": ["nicht disjunkt mit Beispiel", "nicht erschöpfend mit Beispiel", "verbesserte disjunkte und erschöpfende Kategorien"],
+      "punkte": 3, "erklaerung": "Aufgabe 4 – entspricht der Klausuraufgabe „Eigenschaften von Variablenausprägungen“ (WS 25/26).", "folie": "9", "pruefungsrelevant": true },
+    { "id": "f05", "baustein": "kernaussage", "format": "mc", "niveau": "anwenden", "schwierigkeit": 2,
+      "frage": "„Welche Sportart hat Ihnen im Sportunterricht am besten gefallen? ○ Fußball ○ Basketball ○ Ballsport ○ Leichtathletik ○ Einzelsport“ – Welche Aussagen treffen zu? (mehrere richtig)",
+      "optionen": ["Die Kategorien sind nicht disjunkt.", "Die Kategorien sind nicht erschöpfend.", "Die Kategorien sind disjunkt und erschöpfend.", "Der zeitliche Bezug der Frage ist unklar."],
+      "richtig": [0, 1, 3],
+      "erklaerung": "Fußball und Basketball sind auch Ballsport, Leichtathletik ist Einzelsport → überlappend. Turnen, Schwimmen usw. fehlen → nicht erschöpfend. Welche Schulzeit gemeint ist, bleibt offen.", "folie": "9", "pruefungsrelevant": true },
+    { "id": "f06", "baustein": "vergleich", "format": "zuordnung", "niveau": "anwenden", "schwierigkeit": 1,
+      "frage": "Ordne zu: unabhängige oder abhängige Variable?",
+      "kategorien": ["unabhängige Variable", "abhängige Variable"],
+      "elemente": [
+        { "text": "Motivation (→ PISA-Ergebnis)", "kategorie": "unabhängige Variable" },
+        { "text": "PISA-Ergebnis", "kategorie": "abhängige Variable" },
+        { "text": "politisches Interesse (→ Wahlteilnahme)", "kategorie": "unabhängige Variable" },
+        { "text": "Wahlteilnahme", "kategorie": "abhängige Variable" },
+        { "text": "Geschlecht (→ Verdienst)", "kategorie": "unabhängige Variable" },
+        { "text": "Verdienst", "kategorie": "abhängige Variable" }
+      ],
+      "erklaerung": "Aufgabe 5 (Folie 10).", "folie": "10", "pruefungsrelevant": true },
+    { "id": "f07", "baustein": "aufgabe", "format": "frage", "niveau": "anwenden", "schwierigkeit": 1,
+      "frage": "„Je älter eine Person ist, desto schlechter ist ihre Fitness.“ Was ist die unabhängige, was die abhängige Variable, und welches Merkmal ist latent?",
+      "antwort": "UV: Alter, AV: Fitness. Fitness ist latent (muss z. B. über einen Fitnesstest gemessen werden), Alter ist manifest.",
+      "erklaerung": "Aufgabe 3a/b.", "folie": "8", "pruefungsrelevant": true },
+    { "id": "f08", "baustein": "vergleich", "format": "zuordnung", "niveau": "anwenden", "schwierigkeit": 2,
+      "frage": "Fitness und Zufriedenheit mit dem Sportunterricht: Ordne die Hypothesen zu.",
+      "kategorien": ["deterministisch", "probabilistisch", "Kollektivhypothese", "Wenn-dann-Hypothese"],
+      "elemente": [
+        { "text": "Alle Schüler*innen mit hoher Fitness sind mit dem Sportunterricht zufrieden.", "kategorie": "deterministisch" },
+        { "text": "Fitte Schüler*innen sind mit größerer Wahrscheinlichkeit zufrieden als weniger fitte.", "kategorie": "probabilistisch" },
+        { "text": "Je höher die durchschnittliche Fitness einer Klasse, desto höher die durchschnittliche Zufriedenheit der Klasse.", "kategorie": "Kollektivhypothese" },
+        { "text": "Wenn Schüler*innen fit sind, dann sind sie mit dem Sportunterricht zufrieden.", "kategorie": "Wenn-dann-Hypothese" }
+      ],
+      "erklaerung": "Aufgabe 6 (Folie 13).", "folie": "13", "pruefungsrelevant": true },
+    { "id": "f09", "baustein": "aufgabe", "format": "offen", "niveau": "anwenden", "schwierigkeit": 3,
+      "frage": "Formuliere zum Zusammenhang von Fitness und Zufriedenheit mit dem Sportunterricht je eine Wenn-dann- und eine Je-desto-Hypothese sowie eine Individual- und eine Kollektivhypothese. Worin unterscheiden sich die Paare?",
+      "musterloesung": "Wenn-dann: „Wenn Schüler*innen fit sind, dann sind sie mit dem Sportunterricht zufrieden.“ (beide Merkmale dichotom). Je-desto: „Je höher die Fitness, desto höher die Zufriedenheit.“ (Merkmale mit Rangfolge). Individual: „Je fitter eine Schülerin, desto zufriedener ist sie.“ (Merkmalsträger Person). Kollektiv: „Je höher die Durchschnittsfitness einer Klasse, desto höher die Durchschnittszufriedenheit der Klasse.“ (Merkmalsträger Gruppe; kein Rückschluss auf Einzelne – ökologischer Fehlschluss).",
+      "bewertungspunkte": ["korrekte Wenn-dann-Hypothese", "korrekte Je-desto-Hypothese", "korrekte Individual- und Kollektivhypothese", "Unterschiede erklärt (dichotom vs. Rangfolge; Person vs. Gruppe)"],
+      "punkte": 4, "erklaerung": "Aufgabe 6.", "folie": "13", "pruefungsrelevant": true },
+    { "id": "f10", "baustein": "kernaussage", "format": "mc", "niveau": "wissen", "schwierigkeit": 1,
+      "frage": "Welche Zusammenhänge zwischen zwei Merkmalen zeigt Folie 14 (Tausendpfund 2018, S. 97)? (mehrere richtig)",
+      "optionen": ["positiver linearer Zusammenhang", "negativer linearer Zusammenhang", "U-förmiger Zusammenhang", "umgekehrt U-förmiger Zusammenhang", "kreisförmiger Zusammenhang"],
+      "richtig": [0, 1, 2, 3],
+      "erklaerung": "Bei Tausendpfund kommen außerdem logarithmisch und exponentiell ansteigende Zusammenhänge vor. Beispiel umgekehrt U-förmig: Alter und Wahlbeteiligung.", "folie": "14", "pruefungsrelevant": false },
+    { "id": "f11", "baustein": "definition", "format": "frage", "niveau": "wissen", "schwierigkeit": 2,
+      "frage": "Welche vier Kriterien zeichnen nach Tausendpfund (2018) bzw. Bortz/Döring eine wissenschaftliche Hypothese aus?",
+      "antwort": "1. Sie bezieht sich auf reale, empirisch untersuchbare Sachverhalte. 2. Sie ist allgemeingültig (geht über den Einzelfall hinaus). 3. Sie hat die Formalstruktur eines sinnvollen Konditionalsatzes (Wenn-dann oder Je-desto). 4. Sie ist falsifizierbar.",
+      "erklaerung": "Aufgabe 7, Tausendpfund S. 91–92.", "folie": "15", "pruefungsrelevant": true },
+    { "id": "f12", "baustein": "kernaussage", "format": "mc", "niveau": "verstehen", "schwierigkeit": 2,
+      "frage": "Welche Aussagen sind keine wissenschaftlichen Hypothesen? (mehrere richtig)",
+      "optionen": [
+        "„Ich vermute, dass es am Donnerstag regnet.“",
+        "„Je gläubiger ein Mensch, desto eher kommt er in den Himmel.“",
+        "„Je höher die Bildung, desto größer das Einkommen.“",
+        "„Wenn der Hahn kräht auf dem Mist, ändert sich das Wetter oder es bleibt, wie es ist.“"
+      ],
+      "richtig": [0, 1, 3],
+      "erklaerung": "Tausendpfund S. 92: Die Regen-Vermutung nennt keinen Zusammenhang zweier Merkmale, „Himmel“ ist nicht empirisch untersuchbar, der Bauernspruch ist nicht widerlegbar. Bildung–Einkommen erfüllt alle vier Kriterien.", "folie": "15", "pruefungsrelevant": true }
+  ],
+
+  "pruefungshinweise": [
+    "Antwortkategorien verbessern (disjunkt, erschöpfend, polytom) kam in der Klausur WS 25/26 vor – Aufgabe 4 übt genau das."
+  ],
+  "offene_fragen": [
+    "Gerichtete und ungerichtete Hypothesen (Leitfrage II, Folie 4) – im Seminar nachfragen, welche Quelle gemeint ist."
+  ],
+  "auffaelligkeiten": [
+    "Folie 4: „Wies-baden“ (Trennstrich mitten im Wort)."
+  ]
+}

@@ -501,7 +501,8 @@
       "bedeutung": "Vereinigung: A oder B (oder beide)",
       "gelesen": "A vereinigt B",
       "module": [
-        "mab005"
+        "mab005",
+        "mab004"
       ],
       "erste_quelle": "mab005.1_2026-10-19 · Folie 21"
     },
@@ -541,7 +542,8 @@
       "bedeutung": "ist nicht Element von",
       "gelesen": "omega nicht Element von A",
       "module": [
-        "mab005"
+        "mab005",
+        "mab004"
       ],
       "erste_quelle": "mab005.1_2026-10-19 · Folie 21"
     },
@@ -834,6 +836,86 @@
         "mab005"
       ],
       "erste_quelle": "mab005.1_2026-10-26 · Folie 44"
+    },
+    {
+      "zeichen": "dist_A(a, b)",
+      "latex": "dist_A(a,b)",
+      "bedeutung": "absoluter Abstand zweier Zahlen: |a − b| (bei Fließkommazahlen: Abstand zum Nachfolger = 10^(e−l+1))",
+      "gelesen": "Distanz A von a und b",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-27 · Folie 14, 16–20"
+    },
+    {
+      "zeichen": "dist_R(b, a)",
+      "latex": "dist_R(b,a)",
+      "bedeutung": "relativer Abstand: |a − b| / |a|, Abstand im Verhältnis zur Größe der Zahl",
+      "gelesen": "Distanz R von b und a",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-27 · Folie 14, 21–22"
+    },
+    {
+      "zeichen": "ã, c̃",
+      "latex": "\\tilde{a},\\ \\tilde{c}",
+      "bedeutung": "Tilde über einer Zahl: die Zahl als Fließkommazahl bzw. das im Fließkommabereich berechnete (gerundete) Ergebnis",
+      "gelesen": "a Schlange, c Schlange",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-27 · Folie 27–38"
+    },
+    {
+      "zeichen": "ĉ",
+      "latex": "\\hat{c}",
+      "bedeutung": "zweites Fließkommaergebnis zum Vergleich (z. B. in einem anderen Bereich ℱ)",
+      "gelesen": "c Dach",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.2_2026-11-03 · Blatt 4, G1"
+    },
+    {
+      "zeichen": "[m]₁ · 10ᵉ",
+      "latex": "[m_{\\tilde{c}}]_1 \\cdot 10^{e}",
+      "bedeutung": "Mantisse auf eine Nachkommastelle kaufmännisch gerundet (Def. 2.3) – so wird ein Ergebnis wieder zur Fließkommazahl",
+      "gelesen": "m gerundet auf eine Stelle mal zehn hoch e",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-27 · Folie 28, 33"
+    },
+    {
+      "zeichen": "(x_k)_{k=0}^∞",
+      "latex": "(x_k)_{k=0}^{\\infty}",
+      "bedeutung": "Iterationsfolge: Folge der Näherungswerte x₀, x₁, x₂, … (z. B. beim Verfahren von Heron)",
+      "gelesen": "Folge x k, k von null bis unendlich",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-27 · Folie 49"
+    },
+    {
+      "zeichen": "x_{k+1} := …",
+      "latex": "x_{k+1} := \\frac{x_k + \\frac{a}{x_k}}{2}",
+      "bedeutung": "rekursive Vorschrift: der nächste Wert wird aus dem vorherigen berechnet (Heron)",
+      "gelesen": "x k plus eins ist definiert als …",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-27 · Folie 49"
+    },
+    {
+      "zeichen": "√a",
+      "latex": "\\sqrt{a}",
+      "bedeutung": "Wurzel von a: die positive Zahl b mit b² = a (Def. 3.1)",
+      "gelesen": "Wurzel aus a",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-10-27 · Folie 40"
     }
   ]
 }

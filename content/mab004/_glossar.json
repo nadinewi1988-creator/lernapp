@@ -225,6 +225,104 @@
       "erklaerung": "Komma um $k$ Stellen nach rechts, ab- bzw. aufrunden, Komma zurück. Beispiel: $\\lfloor 638{,}8937644476\\rfloor _4 = 638{,}8937$.",
       "quelle": "mab004.2_2026-10-27 · Blatt 3, G2c / Ü6",
       "abweichungen": []
+    },
+    {
+      "begriff": "Nachfolger (Fließkommazahl)",
+      "wortlaut": "Ist $a = m \\cdot 10^e \\in \\mathcal{F}_{10}(l, u)$, so ist $b = (m + 1 \\cdot 10^{-l+1}) \\cdot 10^e$ der Nachfolger.",
+      "erklaerung": "Die nächstgrößere Zahl, die der Rechner speichern kann: letzte Mantissenstelle $+1$. Der Abstand dorthin ist der kleinstmögliche Abstand beim Runden.",
+      "quelle": "mab004.1_2026-10-27 · Folie 13–19",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Absoluter Abstand $dist_A$",
+      "wortlaut": "$dist_A(a, b) = |a - b|$; zum Nachfolger: $10^{e-l+1}$.",
+      "erklaerung": "Wie weit zwei Zahlen auseinanderliegen, ohne Vorzeichen. Wird größer mit dem Exponenten, kleiner mit längerer Mantisse.",
+      "quelle": "mab004.1_2026-10-27 · Folie 14, 19–20",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Relativer Abstand $dist_R$",
+      "wortlaut": "$dist_R(b, a) = \\frac{|a - b|}{|a|}$; zum Nachfolger: $10^{-l+1} \\ge dist_R(b, a) > 10^{-l}$.",
+      "erklaerung": "Der Abstand im Verhältnis zur Größe der Zahl. Hängt nur von der Mantissenlänge ab, liegt in der Größenordnung $10^{-l}$.",
+      "quelle": "mab004.1_2026-10-27 · Folie 14, 21–22",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Größenordnung",
+      "wortlaut": "„liegt in der Größenordnung $10^{-l}$“",
+      "erklaerung": "Ungefähre Größe als Zehnerpotenz: $3 \\cdot 10^{-12}$ und $8 \\cdot 10^{-12}$ haben beide die Größenordnung $10^{-12}$ (Ergänzung zur Erklärung).",
+      "quelle": "mab004.1_2026-10-27 · Folie 22, 25",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Wurzel einer Zahl",
+      "wortlaut": "Definition 3.1: Sei $a \\in \\mathbb{R}$ mit $a > 0$. Die Wurzel von $a$ ist diejenige positive Zahl $b \\in \\mathbb{R}$, für die gilt: $b^2 = a$. Man schreibt $b = \\sqrt{a}$.",
+      "erklaerung": "Die positive Zahl, die mit sich selbst malgenommen $a$ ergibt: $\\sqrt{121} = 11$.",
+      "quelle": "mab004.1_2026-10-27 · Folie 40",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Intervall / Intervallschachtelung",
+      "wortlaut": "Intervallhalbierungsverfahren: spezielle Form der Intervallschachtelung, bei der das Intervall nach jedem Schritt halbiert wird.",
+      "erklaerung": "Intervall = Zahlenbereich zwischen zwei Grenzen. Intervallschachtelung = den Bereich immer kleiner machen, sodass die gesuchte Zahl drin bleibt.",
+      "quelle": "mab004.1_2026-10-27 · Folie 42",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Intervallhalbierungsverfahren",
+      "wortlaut": "Startwerte $p, q$ mit $p^2 < a < q^2$; $b_1 = \\frac{p + q}{2}$; ist $b_1^2 \\le a$, ändert sich die linke Grenze, sonst die rechte.",
+      "erklaerung": "Bereich halbieren, mit dem Quadrat prüfen, auf welcher Seite die Wurzel liegt, weiter halbieren. Sicher, aber langsam.",
+      "quelle": "mab004.1_2026-10-27 · Folie 42–47",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Verfahren von Heron",
+      "wortlaut": "$x_0 :=$ positiver Startwert, $x_{k+1} := \\frac{x_k + \\frac{a}{x_k}}{2}$.",
+      "erklaerung": "Nächster Wert = Mittelwert aus altem Wert und $a$ geteilt durch den alten Wert. Sehr schnell (Satz 3.2: konvergiert gegen $\\sqrt{a}$).",
+      "quelle": "mab004.1_2026-10-27 · Folie 48–53",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Iterationsfolge / Iterationsschritt",
+      "wortlaut": "Man nennt $(x_k)_{k=0}^{\\infty}$ Iterationsfolge des Verfahrens.",
+      "erklaerung": "Die Liste der Näherungswerte $x_0, x_1, x_2, \\ldots$; jeder Rechenschritt ist ein Iterationsschritt (lat. iterare = wiederholen).",
+      "quelle": "mab004.1_2026-10-27 · Folie 49",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Rekursiv definierte Folge",
+      "wortlaut": "Bis auf den Startwert wird jedes Glied aus Konstanten, Rechenoperationen und bereits berechneten Vorgängern berechnet (lat. recurrere: zurücklaufen).",
+      "erklaerung": "Jede neue Zahl wird aus der vorherigen berechnet – eine Kette ab dem Startwert.",
+      "quelle": "mab004.1_2026-10-27 · Folie 50",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Konvergieren",
+      "wortlaut": "Satz 3.2: Die Folge … konvergiert für $a \\ge 0$ gegen $\\sqrt{a}$.",
+      "erklaerung": "Die Werte kommen einer Zahl beliebig nahe, wenn man genug Schritte macht.",
+      "quelle": "mab004.1_2026-10-27 · Folie 50",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Arithmetisches Mittel",
+      "wortlaut": "$m = \\frac{b + c}{2}$",
+      "erklaerung": "Der Durchschnitt zweier Zahlen: zusammenzählen, durch 2 teilen.",
+      "quelle": "mab004.1_2026-10-27 · Folie 48",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Überlauf",
+      "wortlaut": "Ü3b: $7{,}24312 \\cdot 10^6 \\notin \\mathcal{F}_{10}(10, 6)$, da $|6| < 6$ nicht gilt.",
+      "erklaerung": "Das Ergebnis ist zu groß für den Exponentenbereich und kann nicht gespeichert werden (Begriff ergänzt, nicht aus der Vorlesung).",
+      "quelle": "mab004.2_2026-11-03 · Blatt 4, Ü3b",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Auslöschung",
+      "wortlaut": "Folie 37–38: Die Subtraktion annähernd gleicher Fließkommazahlen sollte vermieden werden.",
+      "erklaerung": "Beim Abziehen fast gleicher Zahlen heben sich die vorderen Ziffern auf; übrig bleibt ein kleiner, ungenauer Rest (Begriff ergänzt, nicht aus der Vorlesung).",
+      "quelle": "mab004.1_2026-10-27 · Folie 37–38",
+      "abweichungen": []
     }
   ]
 }

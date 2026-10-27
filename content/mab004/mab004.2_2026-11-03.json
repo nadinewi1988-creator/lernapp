@@ -1,0 +1,413 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "mab004",
+  "teilmodul": "mab004.2",
+  "datum": "2026-11-03",
+  "sitzung_nr": 4,
+  "sitzung_id": "3df831c4-44a9-46ff-a862-cb5d098e50f8",
+  "thema": "Seminar 4 Fließkommazahlen II",
+  "thema_in_app": "gesetzt am 27.10.2026",
+  "stand": "entwurf",
+  "quellen": [
+    {
+      "datei": "mab004.2/Seminar_4_-_Fließkommazahlen_II/Blatt_4.pdf",
+      "art": "Übungsblatt",
+      "seiten": "1–3"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Zahlen in eine Fließkommazahl eines vorgegebenen Bereichs umwandeln und Produkte im Fließkommabereich berechnen; den Fehler zum exakten Produkt angeben.",
+      "art": "abgeleitet",
+      "quelle": "G1, Ü1, Ü3",
+      "fragen": [
+        "f01",
+        "f02",
+        "f05",
+        "f06"
+      ],
+      "erklaerung_abschnitt": "Multiplizieren: umwandeln, malnehmen, normieren, runden"
+    },
+    {
+      "text": "Summen im Fließkommabereich Schritt für Schritt bilden (vier Schritte) und erklären, warum dabei das Assoziativgesetz verletzt sein kann.",
+      "art": "abgeleitet",
+      "quelle": "G2, Ü4, Ü5",
+      "fragen": [
+        "f03",
+        "f07",
+        "f08",
+        "f09"
+      ],
+      "erklaerung_abschnitt": "Addieren: angleichen, runden, addieren, normieren"
+    },
+    {
+      "text": "Nachfolger einer Fließkommazahl bestimmen und den absoluten und relativen Abstand berechnen und prüfen.",
+      "art": "abgeleitet",
+      "quelle": "Ü2",
+      "fragen": [
+        "f10",
+        "f11"
+      ],
+      "erklaerung_abschnitt": "Nachfolger und Abstände"
+    },
+    {
+      "text": "$\\sqrt{3}$ mit dem Intervallhalbierungsverfahren und dem Verfahren von Heron berechnen, die Fehler in einer Tabelle festhalten und beide Verfahren vergleichen.",
+      "art": "abgeleitet",
+      "quelle": "G3, Ü6",
+      "fragen": [
+        "f04",
+        "f12",
+        "f13",
+        "f14"
+      ],
+      "erklaerung_abschnitt": "√3 mit zwei Verfahren"
+    }
+  ],
+  "kurzfassung": [
+    "Beim **Multiplizieren** im Fließkommabereich: erst $a$ und $b$ umwandeln, dann Mantissen malnehmen und Exponenten addieren, auf $1 \\le m < 10$ bringen und auf $l - 1$ Nachkommastellen runden. Wird der Exponent zu groß ($|e| \\ge u$), ist das Ergebnis **nicht darstellbar** (Überlauf, Ü3b).",
+    "Ob ein Ergebnis exakt bleibt, hängt von der Mantissenlänge ab: $23 \\cdot 46 = 1058$ ist in $\\mathcal{F}_{10}(4, 5)$ exakt, in $\\mathcal{F}_{10}(3, 5)$ wird daraus $1060$ (G1).",
+    "Beim **Addieren** in vier Schritten (angleichen – runden – addieren – normieren) kann ein kleiner Summand teilweise oder ganz verschwinden (Ü4).",
+    "Im Fließkommabereich gilt das **Assoziativgesetz** nicht immer: $(a + b) + c = 130$, aber $a + (b + c) = 133{,}5$ (Ü5). Ursache: Runden und **Auslöschung** beim Abziehen fast gleicher Zahlen.",
+    "Der **Nachfolger** entsteht, wenn man die letzte Mantissenstelle um $1$ erhöht. Der relative Abstand liegt immer zwischen $10^{-l}$ und $10^{-l+1}$ – daran kann man die eigene Rechnung prüfen (Ü2c).",
+    "Für $\\sqrt{3}$ braucht die **Intervallhalbierung** 17 Schritte, **Heron** nur 3 Schritte, bis der relative Fehler unter $0{,}0001\\,\\%$ liegt. Bei der Intervallhalbierung wird der Fehler nicht in jedem Schritt kleiner – sicher kleiner wird nur das Intervall."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Multiplizieren: umwandeln, malnehmen, normieren, runden",
+      "folien": "Blatt 4: G1, Ü1, Ü3 (VL 3 Folie 27–31)",
+      "text": "**Idee:** Der Rechner kann nur Zahlen mit $l$ Ziffern speichern. Darum muss er schon die Ausgangszahlen und dann das Ergebnis passend machen.\n\n1. **Umwandeln:** $a = 23 = 2{,}3 \\cdot 10^1$ (Komma so schieben, dass genau eine Ziffer von 1 bis 9 davor steht).\n2. **Malnehmen:** Mantissen multiplizieren, Exponenten addieren: $2{,}3 \\cdot 4{,}6 = 10{,}58$, $1 + 1 = 2$.\n3. **Normieren:** $10{,}58 \\cdot 10^2 = 1{,}058 \\cdot 10^3$.\n4. **Runden** auf $l - 1$ Nachkommastellen: In $\\mathcal{F}_{10}(4, 5)$ bleibt $1{,}058 \\cdot 10^3$ (exakt, Fehler $0$); in $\\mathcal{F}_{10}(3, 5)$ wird $\\hat{c} = 1{,}06 \\cdot 10^3 = 1060$ (Fehler $2$).\n\n**Überlauf (Ü3b):** $724\\,312 \\cdot 10 = 7{,}24312 \\cdot 10^6$. In $\\mathcal{F}_{10}(10, 6)$ muss $|e| < 6$ gelten – $6 < 6$ ist falsch. Das Ergebnis ist **nicht darstellbar**, egal wie lang die Mantisse ist.\n\n**Periodische Zahlen (Ü1):** $\\frac{1}{99} = 0{,}010101\\ldots = 1{,}0101\\ldots \\cdot 10^{-2}$. Je mehr Stellen, desto genauer: $f_1 = 1 \\cdot 10^{-2}$, $f_2 = 1{,}010 \\cdot 10^{-2}$, $f_3 = 1{,}010101010101010 \\cdot 10^{-2}$. Beim Quadrieren verdoppelt sich der relative Fehler ungefähr – der Eingabefehler wird mitgerechnet.",
+      "beispiel": "$\\tilde{c}$ (c Schlange) und $\\hat{c}$ (c Dach) sind einfach zwei Namen für das Ergebnis in zwei verschiedenen Fließkommabereichen."
+    },
+    {
+      "titel": "Addieren: angleichen, runden, addieren, normieren",
+      "folien": "Blatt 4: G2, Ü4, Ü5 (VL 3 Folie 32–38)",
+      "text": "**Idee:** Zusammenzählen geht nur bei gleichem Exponenten. Die kleinere Zahl wird an die größere angepasst – dabei rutschen ihre Ziffern nach rechts und fallen eventuell hinten heraus.\n\n**G2:** $3{,}123 + 50{,}2$ in $\\mathcal{F}_{10}(5, 10)$: $0{,}3123 \\cdot 10^1 + 5{,}0200 \\cdot 10^1 = 5{,}3323 \\cdot 10^1$ – passt in 5 Stellen, **kein Fehler**.\n\n**Ü4b:** $993{,}356 + 23{,}001$ in $\\mathcal{F}_{10}(2, 10)$: $\\tilde{a} = 9{,}9 \\cdot 10^2$, $\\tilde{b} = 2{,}3 \\cdot 10^1 = 0{,}23 \\cdot 10^2 \\approx 0{,}2 \\cdot 10^2$, Summe $10{,}1 \\cdot 10^2 \\to 1{,}0 \\cdot 10^3$. Exakt wäre $1016{,}357$ – relativer Fehler etwa $1{,}6\\,\\%$.\n\n> **Assoziativgesetz:** $(a + b) + c = a + (b + c)$ – bei echten Zahlen ist die Klammerung egal.\n\n**Ü5:** Im Fließkommabereich $\\mathcal{F}_{10}(4, 10)$ kommt $(a + b) + c = 130$ heraus, aber $a + (b + c) = 133{,}5$ (exakt). Bei $(a + b)$ wird $a$ beim Angleichen an $10^4$ gerundet und verliert Stellen. Danach ziehen sich $b$ und $c$ fast ganz weg (**Auslöschung**: von zwei fast gleichen Zahlen bleibt nur ein kleiner, ungenauer Rest). Rechnet man zuerst $b + c = 10$, bleibt $a$ unberührt.",
+      "beispiel": "Merke: Wer im Fließkommabereich rechnet, sollte fast gleich große Zahlen möglichst zuerst voneinander abziehen und erst dann kleine Zahlen dazuzählen."
+    },
+    {
+      "titel": "Nachfolger und Abstände",
+      "folien": "Blatt 4: Ü2 (VL 3 Folie 13–26)",
+      "text": "**Idee:** Der Nachfolger ist die nächste Zahl, die der Rechner speichern kann. Man erhöht die **letzte** der $l$ Mantissenstellen um $1$.\n\n- a) $a = 1{,}000000000 \\cdot 10^1$ → $b = 1{,}000000001 \\cdot 10^1$. $dist_A = 10^{1-10+1} = 10^{-8}$, $dist_R = \\frac{10^{-8}}{10} = 10^{-9}$.\n- b) $a = 3{,}994459543 \\cdot 10^{-99}$ → $b = 3{,}994459544 \\cdot 10^{-99}$. $dist_A = 10^{-99-10+1} = 10^{-108}$, $dist_R = \\frac{10^{-9}}{3{,}994459543} \\approx 2{,}503 \\cdot 10^{-10}$.\n- c) **Probe:** Nach VL 3 gilt $10^{-l+1} \\ge dist_R > 10^{-l}$, hier also $10^{-9} \\ge dist_R > 10^{-10}$. Beide Ergebnisse liegen in diesem Bereich – a) genau an der oberen Grenze (Mantisse $1$), b) mittendrin.",
+      "beispiel": "Obwohl die Zahl in b) winzig ist ($10^{-99}$), ist der relative Abstand ähnlich groß wie in a). Das meint die Vorlesung mit „relativ stabil“."
+    },
+    {
+      "titel": "√3 mit zwei Verfahren",
+      "folien": "Blatt 4: G3, Ü6 (VL 3 Folie 40–53)",
+      "text": "**Intervallhalbierung (G3):** Start $1 < \\sqrt{3} < 2$ (denn $1^2 = 1 < 3 < 4 = 2^2$). $x_0 = 1{,}5$; $1{,}5^2 = 2{,}25 < 3$ → neues Intervall $[1{,}5; 2]$, $x_1 = 1{,}75$; $1{,}75^2 = 3{,}0625 > 3$ → $[1{,}5; 1{,}75]$, $x_2 = 1{,}625$ … Erst bei $x_{17} = 1{,}73205$ ist der relative Fehler kleiner als $0{,}0001\\,\\%$ (17 Schritte).\n\n**Heron (Ü6):** Start $x_0 = \\frac{3}{2}$ (Mitte von $1$ und $2$, Annahme wie in VL 3). $x_1 = \\frac{7}{4}$, $x_2 = \\frac{97}{56}$, $x_3 = \\frac{18817}{10864}$ – relativer Fehler schon etwa $1{,}4 \\cdot 10^{-7}\\,\\%$ (3 Schritte).\n\n**Relativer Fehler in Prozent:** $\\epsilon_R \\cdot 100\\,\\%$. Die Grenze $0{,}0001\\,\\%$ entspricht $10^{-6}$.\n\n**Ist der Taschenrechnerwert „exakt“?** Für diesen Zweck ja: Er ist auf etwa $10^{-12}$ genau, die geforderte Genauigkeit ist $10^{-6}$. Andere Möglichkeit ohne Taschenrechner: Bei der Intervallhalbierung ist die **halbe Intervallbreite** eine sichere obere Grenze für den Fehler.",
+      "beispiel": "Vergleich: Intervallhalbierung = jedes Mal ein Ratespiel „höher oder tiefer?“ – sicher, aber langsam. Heron = jedes Mal den Mittelwert aus zu großem und zu kleinem Schätzwert – sehr schnell."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Überlauf (nicht darstellbares Ergebnis)",
+      "wortlaut": "Ergänzung (nicht wörtlich im Blatt): Ein Ergebnis mit $|e| \\ge u$ liegt nicht in $\\mathcal{F}_{10}(l, u)$.",
+      "erklaerung": "Die Zahl ist zu groß (oder zu klein) für den Exponentenbereich – wie in Ü3b: $7{,}24312 \\cdot 10^6 \\notin \\mathcal{F}_{10}(10, 6)$.",
+      "folie": "Ü3b"
+    },
+    {
+      "begriff": "Auslöschung",
+      "wortlaut": "Ergänzung (nicht aus der Vorlesung): Beim Subtrahieren fast gleich großer Zahlen heben sich die vorderen Ziffern auf; übrig bleiben die ungenauen hinteren Stellen.",
+      "erklaerung": "Grund für Folie 37–38 („Subtraktion annähernd gleicher Fließkommazahlen vermeiden“) und für Ü5.",
+      "folie": "Ü5"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Übungsblatt 4 (Grundlagenaufgaben 1–4, Übungsaufgaben 1–6)",
+      "text": "Übungsblatt 4 – alle Aufgaben im Wortlaut (Lösungen unter „Lösung / Ausarbeitung“ und als PDF):\n\n*Vorbemerkung: „Dieses Übungsblatt enthält Grundlagenaufgaben zur Bearbeitung im 4. Seminar und Übungsaufgaben zur Vorbereitung auf die Klausur. Die Grundlagenaufgaben dienen der Nachbereitung der Vorlesung 3 und zur Vorbereitung auf die Übungsaufgaben auf diesem Blatt. Die Inhalte der Übungsaufgaben beziehen sich auf Vorlesung 3.“*\n\n## Grundlagenaufgaben\n\n**Grundlagenaufgabe 1:** *„Bestimmen Sie das Produkt $\\tilde{c} = \\tilde{a} \\cdot \\tilde{b}$ im angegebenen Fließkommazahlenbereich. Wandeln Sie $a$ und $b$ zunächst in die entsprechende Fließkommazahl um. Vergleichen Sie die entsprechenden Fließkommaprodukte $\\tilde{c}$ und $\\hat{c}$ mit den tatsächlichen Produkten $c$, indem Sie den absoluten Fehler $\\epsilon_A(\\tilde{c}, c)$ bzw. $\\epsilon_A(\\hat{c}, c)$ berechnen.“*\n\n$a = 23$; $b = 46$; $\\tilde{c} \\in \\mathcal{F}_{10}(4, 5)$ und $\\hat{c} \\in \\mathcal{F}_{10}(3, 5)$\n\n**Grundlagenaufgabe 2:** *„Bestimmen Sie Schritt für Schritt die Summe $\\tilde{c} = \\tilde{a} + \\tilde{b}$ im angegebenen Fließkommazahlenbereich (Berücksichtigen Sie auch bei den Zwischenergebnissen, dass nur eine bestimmte Anzahl an Stellen zur Verfügung steht.) und vergleichen Sie die entsprechenden Fließkommasumme $\\tilde{c}$ mit der tatsächlichen Summe $c$, indem Sie den absoluten Fehler $\\epsilon_A(\\tilde{c}, c)$ und den rel. Fehler $\\epsilon_R(\\tilde{c}, c)$ berechnen.“*\n\n$a = 3{,}123$; $b = 50{,}2$; $\\tilde{c} \\in \\mathcal{F}_{10}(5, 10)$\n\n**Grundlagenaufgabe 3:** *„Bestimmen Sie mithilfe des Intervallhalbierungsverfahrens die Wurzel aus 3. Geben Sie für die ersten drei Schritte den Rechenweg an. Füllen Sie eine Tabelle der Form*\n\n| $i$ | $x_i$ | Relativer Fehler |\n|---|---|---|\n| 0 | … | … |\n| 1 | … | … |\n| … | … | … |\n\n*aus. Füllen Sie die Tabelle fortlaufend solange aus, bis der rel. Fehler kleiner als $0{,}0001\\,\\%$ ist. Runden Sie die jeweilige Näherung auf 5 Nachkommastellen.“*\n\n*Hinweise: „Bei der Intervallhalbierung ist jeder Teilschritt ein Iterationsschritt. Der nullte Näherungswert $x_0$ ist der Mittelwert des Startintervalls. Im $k$-ten Teilschritt wird der $k$-te Näherungswert $x_k$ gefunden.“ – „Runden Sie die einzelnen Näherungswerte nur für Ihre Aufzeichnung. Rechnen Sie mit den genaueren Taschenrechnerwerten weiter.“ – „Der vom Taschenrechner ermittelte Wert für $\\sqrt{3}$ darf für die Berechnung des relativen Fehlers als exakt angenommen werden. (Ist das sinnvoll? Gäbe es andere Möglichkeiten?)“*\n\n**Grundlagenaufgabe 4:** *„Bei Bedarf: Vorstellung und Besprechung einzelner Übungsaufgaben von Übungsblatt 3. Sonst: Ausgewählte Übungsaufgaben bearbeiten.“*\n\n## Übungsaufgaben\n\n*„Die Übungsaufgaben dienen der Nachbereitung der Vorlesung 3 und der Vorbereitung auf die Klausur. Zur Besprechung ausgewählter Aufgaben im Seminar, sprechen Sie Ihre Seminarleitung an und stellen Sie Ihre vorbereiteten Lösungen oder Lösungsansätze vor.“*\n\n**Übungsaufgabe 1a:** *„Geben Sie die rationale Zahl $\\frac{1}{99}$ als Fließkommazahl $f_1 \\in \\mathcal{F}_{10}(1, 100)$, $f_2 \\in \\mathcal{F}_{10}(4, 100)$, $f_3 \\in \\mathcal{F}_{10}(16, 100)$ an. Gehen Sie dabei genau nach Definition 2.4. aus der Vorlesung vor und schreiben Sie jeden Schritt der Definition einer Fließkommazahl auf.“*\n\n**Übungsaufgabe 1b:** *„Berechnen Sie $\\left(\\frac{1}{99}\\right)^2$ in allen drei Fließkommazahlbereichen. Wie verändern sich die Ergebnisse auch in Bezug auf das exakte Ergebnis?“*\n\n**Übungsaufgabe 2:** *„Ermitteln Sie den Nachfolger $b \\in \\mathcal{F}_{10}(10, 100)$. Berechnen Sie jeweils den absoluten Abstand $dist_A(b, a)$ sowie den relativen Abstand $dist_R(b, a)$.“*\n\n- a) $a = 1{,}000\\,000\\,000 \\cdot 10^1$\n- b) $a = 3{,}994\\,459\\,543 \\cdot 10^{-99}$\n- c) *„Betrachten Sie die berechneten relativen Abstände. Wie können Sie argumentieren, dass Ihre Berechnung korrekt sein könnte?“*\n\n**Übungsaufgabe 3:** *„Bestimmen Sie die Produkte $\\tilde{c} = \\tilde{a} \\cdot \\tilde{b}$ im angegebenen Fließkommazahlenbereich. Wandeln Sie $a$ und $b$ zunächst in die entsprechende Fließkommazahl um. Vergleichen Sie die entsprechenden Fließkommaprodukte $\\tilde{c}$ mit den tatsächlichen Produkten $c$, indem Sie den absoluten Fehler $\\epsilon_A(\\tilde{c}, c)$ berechnen.“*\n\n- a) $a = 724\\,312$, $b = 0{,}0052$, $\\tilde{c} \\in \\mathcal{F}_{10}(7, 6)$\n- b) $a = 724\\,312$, $b = 10$, $\\tilde{c} \\in \\mathcal{F}_{10}(10, 6)$\n\n**Übungsaufgabe 4:** *„Bestimmen Sie Schritt für Schritt die Summen $\\tilde{c} = \\tilde{a} + \\tilde{b}$ im angegebenen Fließkommazahlenbereich (Berücksichtigen Sie auch bei den Zwischenergebnissen, dass nur eine bestimmte Anzahl an Stellen zur Verfügung steht.) und vergleichen Sie die entsprechenden Fließkommasummen $\\tilde{c}$ mit den tatsächlichen Summen $c$, indem Sie den absoluten Fehler $\\epsilon_A(\\tilde{c}, c)$ und den rel. Fehler $\\epsilon_R(\\tilde{c}, c)$ berechnen.“*\n\n- a) $a = 734{,}356$, $b = 23{,}001$, $\\tilde{c} \\in \\mathcal{F}_{10}(5, 10)$\n- b) $a = 993{,}356$, $b = 23{,}001$, $\\tilde{c} \\in \\mathcal{F}_{10}(2, 10)$\n\n**Übungsaufgabe 5a:** *„Gegeben sind $a = 1{,}235 \\cdot 10^2$, $b = 5{,}512 \\cdot 10^4$ und $c = -5{,}511 \\cdot 10^4$ wobei $a, b, c \\in \\mathcal{F}_{10}(4, 10)$. Berechnen Sie $(a + b) + c$ und $a + (b + c)$ im angegebenen Fließkommazahlbereich.“*\n\n**Übungsaufgabe 5b:** *„Was hatten Sie als Ergebnis in Aufgabenteil a) erwartet? Begründen Sie. Warum könnte sich das Ergebnis von Ihrer Erwartung unterscheiden?“*\n\n**Übungsaufgabe 6a:** *„Bestimmen Sie mithilfe des Verfahrens von Heron die Wurzel aus 3. Geben Sie für die ersten drei Schritte den Rechenweg an. Füllen Sie eine Tabelle der Form*\n\n| $i$ | $x_i$ | Relativer Fehler |\n|---|---|---|\n| 0 | … | … |\n| 1 | … | … |\n| … | … | … |\n\n*aus. Füllen Sie die Tabelle fortlaufend solange aus, bis der rel. Fehler kleiner als $0{,}0001\\,\\%$ ist. Runden Sie die jeweilige Näherung auf 5 Nachkommastellen.“*\n\n**Übungsaufgabe 6b:** *„Vergleichen Sie das Verfahren mit dem Intervallhalbierungsverfahren (Grundlagenaufgaben – Aufgabe 3).“*\n\n*Hinweise: „Runden Sie die einzelnen Näherungswerte nur für Ihre Aufzeichnung. Rechnen Sie mit den genaueren Taschenrechnerwerten weiter.“ – „Der vom Taschenrechner ermittelte Wert für $\\sqrt{3}$ darf für die Berechnung des relativen Fehlers als exakt angenommen werden.“*",
+      "quelle": "Übungsblatt 4",
+      "loesung": "*Vorbemerkung des Blatts: „Dieses Übungsblatt enthält Grundlagenaufgaben zur Bearbeitung im 4. Seminar und Übungsaufgaben zur Vorbereitung auf die Klausur. Die Grundlagenaufgaben dienen der Nachbereitung der Vorlesung 3 und zur Vorbereitung auf die Übungsaufgaben auf diesem Blatt. Die Inhalte der Übungsaufgaben beziehen sich auf Vorlesung 3.“*\n\n### Das brauchst du für dieses Blatt (aus Vorlesung 2 und 3)\n\n> **Fließkommazahl (Definition 2.4, VL 2 Folie 34 / VL 3 Folie 3):** Eine Fließkommazahl ist eine Zahl in der Form $f = m \\cdot g^e$, also „Ziffernteil mal Basis hoch Exponent“. Bei uns ist die Basis immer $g = 10$. Beispiel: $6{,}4 \\cdot 10^6 = 6\\,400\\,000$.\n> - $m$ heißt **Mantisse** (der Ziffernteil, hier $6{,}4$), $e$ heißt **Exponent** (die Hochzahl, hier $6$).\n> - Bedingung 1: $1{,}0 \\le |m| < g$ – vor dem Komma steht genau **eine** Ziffer von 1 bis 9.\n> - Bedingung 2: $m$ hat höchstens $l$ Stellen (**Mantissenlänge**: so viele Ziffern kann sich der Rechner merken).\n> - Bedingung 3: $|e| < u$ (**Exponentenschranke**: der Exponent darf ohne Vorzeichen nicht $u$ oder größer sein).\n>\n> $\\mathcal{F}_{10}(l, u)$ ist die Menge aller solchen Zahlen. Beispiel: $\\mathcal{F}_{10}(4, 5)$ = höchstens 4 Ziffern, Exponent zwischen $-4$ und $4$.\n\n> **Komma verschieben mit Zehnerpotenzen:** $\\cdot\\, 10^1$ schiebt das Komma eine Stelle nach rechts, $\\cdot\\, 10^{-1}$ eine nach links. Deshalb gilt z. B. $55{,}68 \\cdot 10^{20} = 5{,}568 \\cdot 10^{21}$: Die Mantisse wird 10-mal kleiner, dafür der Exponent um 1 größer – der Wert bleibt gleich.\n\n> **Potenzgesetz P1 (gleiche Basis malnehmen → Exponenten addieren):** $10^m \\cdot 10^n = 10^{m+n}$, z. B. $10^6 \\cdot 10^{14} = 10^{20}$.\n\n> **Multiplizieren in $\\mathcal{F}_{10}(l,u)$ (VL 3, Folie 27–31):** Mantissen malnehmen, Exponenten addieren, auf die Form $1 \\le m < 10$ bringen, dann die Mantisse auf $l$ Stellen **kaufmännisch runden** (ab 5 aufrunden).\n\n> **Addieren in $\\mathcal{F}_{10}(l,u)$ – 4 Schritte (VL 3, Folie 32/35):**\n> 1. An den **höchsten Exponenten** angleichen (die kleinere Zahl umschreiben).\n> 2. Mantisse auf **$l - 1$ Stellen nach dem Komma** runden – hier entsteht oft schon der erste Fehler.\n> 3. Addieren.\n> 4. Als Fließkommazahl darstellen ($1 \\le m < 10$), wenn nötig noch einmal runden.\n\n> **Fehler (Definition 2.1, VL 2 Folie 16):** absoluter Fehler $\\epsilon_A(\\tilde{c}, c) = |\\tilde{c} - c|$ („wie weit daneben“), relativer Fehler $\\epsilon_R(\\tilde{c}, c) = \\frac{|\\tilde{c} - c|}{|c|}$ („wie weit daneben im Verhältnis zur Größe“; mal 100 = Prozent). $c$ ist der exakte Wert, $\\tilde{c}$ (sprich: c Schlange) das Ergebnis im Fließkommabereich.\n\n> **Nachfolger und Abstände (VL 3, Folie 16–22):** Der **Nachfolger** $b$ einer Fließkommazahl $a = m \\cdot 10^e$ ist die nächstgrößere Zahl im selben Bereich: letzte Mantissenstelle um 1 erhöhen. Absoluter Abstand $dist_A(b, a) = |a - b| = 10^{e-l+1}$, relativer Abstand $dist_R(b, a) = \\frac{|a - b|}{|a|} = \\frac{1}{m} \\cdot 10^{-l+1}$, und es gilt $10^{-l+1} \\ge dist_R(b, a) > 10^{-l}$.\n\n> **Wurzel (Definition 3.1, VL 3 Folie 40):** *„Sei $a \\in \\mathbb{R}$ mit $a > 0$. Die Wurzel von $a$ ist diejenige positive Zahl $b \\in \\mathbb{R}$, für die gilt: $b^2 = a$. Man schreibt $b = \\sqrt{a}$.“*\n>\n> **Intervallhalbierung (Folie 42–47):** Man kennt zwei Zahlen $p < \\sqrt{a} < q$. Man nimmt die Mitte $\\frac{p+q}{2}$ als Näherung. Ist das Quadrat der Mitte kleiner als $a$, liegt die Wurzel rechts davon (Mitte wird neue linke Grenze), sonst links (Mitte wird neue rechte Grenze). Dann wiederholen – wie beim Zahlenraten mit „höher/tiefer“.\n>\n> **Verfahren von Heron (Folie 48–50):** $x_{k+1} := \\frac{x_k + \\frac{a}{x_k}}{2}$. Idee: Ist $x_k$ etwas zu groß, ist $\\frac{a}{x_k}$ etwas zu klein – der Mittelwert der beiden liegt näher an $\\sqrt{a}$.\n\n---neue-seite---\n\n## Grundlagenaufgaben\n\n### Grundlagenaufgabe 1\n\n**Grundlagenaufgabe 1:** *„Bestimmen Sie das Produkt $\\tilde{c} = \\tilde{a} \\cdot \\tilde{b}$ im angegebenen Fließkommazahlenbereich. Wandeln Sie $a$ und $b$ zunächst in die entsprechende Fließkommazahl um. Vergleichen Sie die entsprechenden Fließkommaprodukte $\\tilde{c}$ und $\\hat{c}$ mit den tatsächlichen Produkten $c$, indem Sie den absoluten Fehler $\\epsilon_A(\\tilde{c}, c)$ bzw. $\\epsilon_A(\\hat{c}, c)$ berechnen.*\n*$a = 23$; $b = 46$; $\\tilde{c} \\in \\mathcal{F}_{10}(4, 5)$ und $\\hat{c} \\in \\mathcal{F}_{10}(3, 5)$“*\n\n**Antwort:**\n\n**Schritt 1 – $a$ und $b$ als Fließkommazahl.** Komma hinter die erste Ziffer schieben, dafür $\\cdot\\,10^1$:\n$$\\tilde{a} = 2{,}3 \\cdot 10^1, \\qquad \\tilde{b} = 4{,}6 \\cdot 10^1$$\nBeide haben nur 2 Mantissenstellen und den Exponenten $1$, passen also in $\\mathcal{F}_{10}(4,5)$ und in $\\mathcal{F}_{10}(3,5)$ – hier entsteht noch kein Fehler.\n\n**Schritt 2 – malnehmen** (Mantissen malnehmen, Exponenten addieren nach P1):\n$$\\tilde{a} \\cdot \\tilde{b} = (2{,}3 \\cdot 4{,}6) \\cdot 10^{1+1} = 10{,}58 \\cdot 10^2$$\n$10{,}58$ hat zwei Ziffern vor dem Komma – das verletzt Bedingung 1. Also Komma eine Stelle nach links, Exponent um 1 größer:\n$$10{,}58 \\cdot 10^2 = 1{,}058 \\cdot 10^3$$\n\n**Schritt 3 – passend runden.**\n- In $\\mathcal{F}_{10}(4, 5)$ sind 4 Stellen erlaubt: $1{,}058$ hat genau 4 Stellen, $|3| < 5$ ✓. Also $\\tilde{c} = 1{,}058 \\cdot 10^3 = 1058$.\n- In $\\mathcal{F}_{10}(3, 5)$ sind nur 3 Stellen erlaubt: $1{,}05\\,|\\,8$ – die nächste Ziffer ist $8 \\ge 5$, also aufrunden: $\\hat{c} = 1{,}06 \\cdot 10^3 = 1060$.\n\n**Schritt 4 – Vergleich mit dem exakten Produkt** $c = 23 \\cdot 46 = 1058$:\n$$\\epsilon_A(\\tilde{c}, c) = |1058 - 1058| = 0, \\qquad \\epsilon_A(\\hat{c}, c) = |1060 - 1058| = 2$$\n\n**Ergebnis:** **$\\tilde{c} = 1{,}058 \\cdot 10^3$ ist exakt ($\\epsilon_A = 0$); $\\hat{c} = 1{,}06 \\cdot 10^3$ liegt um $2$ daneben.** Eine Stelle weniger Mantisse reicht hier schon für einen Fehler.\n\n### Grundlagenaufgabe 2\n\n**Grundlagenaufgabe 2:** *„Bestimmen Sie Schritt für Schritt die Summe $\\tilde{c} = \\tilde{a} + \\tilde{b}$ im angegebenen Fließkommazahlenbereich (Berücksichtigen Sie auch bei den Zwischenergebnissen, dass nur eine bestimmte Anzahl an Stellen zur Verfügung steht.) und vergleichen Sie die entsprechenden Fließkommasumme $\\tilde{c}$ mit der tatsächlichen Summe $c$, indem Sie den absoluten Fehler $\\epsilon_A(\\tilde{c}, c)$ und den rel. Fehler $\\epsilon_R(\\tilde{c}, c)$ berechnen.*\n*$a = 3{,}123$; $b = 50{,}2$; $\\tilde{c} \\in \\mathcal{F}_{10}(5, 10)$“*\n\n**Antwort:** Erlaubt sind 5 Mantissenstellen.\n\n**Umwandeln:** $\\tilde{a} = 3{,}123 \\cdot 10^0$ (4 Stellen ✓), $\\tilde{b} = 5{,}02 \\cdot 10^1$ (3 Stellen ✓).\n\n1. **An den höchsten Exponenten ($10^1$) angleichen:** $3{,}123 \\cdot 10^0 = 0{,}3123 \\cdot 10^1$ (Komma eine Stelle nach links, Exponent eins größer).\n2. **Auf $l - 1 = 4$ Nachkommastellen runden:** $0{,}3123$ hat genau 4 Nachkommastellen – nichts zu runden.\n3. **Addieren** (gleiche Zehnerpotenz ausklammern): $0{,}3123 \\cdot 10^1 + 5{,}02 \\cdot 10^1 = (0{,}3123 + 5{,}0200) \\cdot 10^1 = 5{,}3323 \\cdot 10^1$.\n4. **Darstellen:** $1 \\le 5{,}3323 < 10$ ✓, 5 Stellen ✓, $|1| < 10$ ✓. Also $\\tilde{c} = 5{,}3323 \\cdot 10^1 = 53{,}323$.\n\n**Vergleich:** exakt ist $c = 3{,}123 + 50{,}2 = 53{,}323$.\n$$\\epsilon_A(\\tilde{c}, c) = |53{,}323 - 53{,}323| = 0, \\qquad \\epsilon_R(\\tilde{c}, c) = \\frac{0}{53{,}323} = 0$$\n\n**Ergebnis:** **$\\tilde{c} = 5{,}3323 \\cdot 10^1$, kein Fehler.** Die 5 Stellen reichen genau aus. (Zum Vergleich mit Fehler: Übungsaufgabe 4.)\n\n### Grundlagenaufgabe 3\n\n**Grundlagenaufgabe 3:** *„Bestimmen Sie mithilfe des Intervallhalbierungsverfahrens die Wurzel aus 3. Geben Sie für die ersten drei Schritte den Rechenweg an. Füllen Sie eine Tabelle der Form*\n*i | $x_i$ | Relativer Fehler*\n*aus. Füllen Sie die Tabelle fortlaufend solange aus, bis der rel. Fehler kleiner als 0,0001 % ist. Runden Sie die jeweilige Näherung auf 5 Nachkommastellen.*\n*Hinweise: Bei der Intervallhalbierung ist jeder Teilschritt ein Iterationsschritt. Der nullte Näherungswert $x_0$ ist der Mittelwert des Startintervalls. Im k-ten Teilschritt wird der k-te Näherungswert $x_k$ gefunden. Runden Sie die einzelnen Näherungswerte nur für Ihre Aufzeichnung. Rechnen Sie mit den genaueren Taschenrechnerwerten weiter. Der vom Taschenrechner ermittelte Wert für $\\sqrt{3}$ darf für die Berechnung des relativen Fehlers als exakt angenommen werden. (Ist das sinnvoll? Gäbe es andere Möglichkeiten?)“*\n\n**Antwort:** Vergleichswert (Taschenrechner): $\\sqrt{3} \\approx 1{,}7320508076$. **Iterationsschritt** heißt: einmal den gleichen Rechenschritt durchführen. Ziel: relativer Fehler unter $0{,}0001\\,\\% = 10^{-6}$.\n\n**Startintervall:** $1^2 = 1 < 3 < 4 = 2^2$, also liegt $\\sqrt{3}$ zwischen $1$ und $2$.\n\n**Schritt $i = 0$:** Mitte von $[1, 2]$: $x_0 = \\frac{1 + 2}{2} = 1{,}5$. Probe: $1{,}5^2 = 2{,}25 < 3$, also ist $1{,}5$ zu klein – die Wurzel liegt **rechts**: neues Intervall $[1{,}5;\\, 2]$.\n$$\\epsilon_R = \\frac{|1{,}5 - 1{,}7320508|}{1{,}7320508} \\approx 0{,}133975 = 13{,}39746\\,\\%$$\n\n**Schritt $i = 1$:** $x_1 = \\frac{1{,}5 + 2}{2} = 1{,}75$. Probe: $1{,}75^2 = 3{,}0625 > 3$ – zu groß, Wurzel liegt **links**: neues Intervall $[1{,}5;\\, 1{,}75]$.\n$$\\epsilon_R = \\frac{|1{,}75 - 1{,}7320508|}{1{,}7320508} \\approx 1{,}03630\\,\\%$$\n\n**Schritt $i = 2$:** $x_2 = \\frac{1{,}5 + 1{,}75}{2} = 1{,}625$. Probe: $1{,}625^2 = 2{,}640625 < 3$ – zu klein, Wurzel liegt **rechts**: neues Intervall $[1{,}625;\\, 1{,}75]$.\n$$\\epsilon_R = \\frac{|1{,}625 - 1{,}7320508|}{1{,}7320508} \\approx 6{,}18058\\,\\%$$\n\nGenauso geht es weiter (in der Tabelle steht zusätzlich das Intervall, aus dem $x_i$ die Mitte ist):\n\n| $i$ | Intervall | $x_i$ (5 Nachkommastellen) | Relativer Fehler |\n|---|---|---|---|\n| 0 | $[1;\\, 2]$ | $1{,}50000$ | $13{,}39746\\,\\%$ |\n| 1 | $[1{,}5;\\, 2]$ | $1{,}75000$ | $1{,}03630\\,\\%$ |\n| 2 | $[1{,}5;\\, 1{,}75]$ | $1{,}62500$ | $6{,}18058\\,\\%$ |\n| 3 | $[1{,}625;\\, 1{,}75]$ | $1{,}68750$ | $2{,}57214\\,\\%$ |\n| 4 | $[1{,}6875;\\, 1{,}75]$ | $1{,}71875$ | $0{,}76792\\,\\%$ |\n| 5 | $[1{,}71875;\\, 1{,}75]$ | $1{,}73438$ | $0{,}13419\\,\\%$ |\n| 6 | $[1{,}71875;\\, 1{,}734375]$ | $1{,}72656$ | $0{,}31687\\,\\%$ |\n| 7 | $[1{,}7265625;\\, 1{,}734375]$ | $1{,}73047$ | $0{,}09134\\,\\%$ |\n| 8 | $[1{,}73046875;\\, 1{,}734375]$ | $1{,}73242$ | $0{,}02142\\,\\%$ |\n| 9 | $[1{,}73046875;\\, 1{,}73242]$ | $1{,}73145$ | $0{,}03496\\,\\%$ |\n| 10 | $[1{,}73145;\\, 1{,}73242]$ | $1{,}73193$ | $0{,}00677\\,\\%$ |\n| 11 | $[1{,}73193;\\, 1{,}73242]$ | $1{,}73218$ | $0{,}00733\\,\\%$ |\n| 12 | $[1{,}73193;\\, 1{,}73218]$ | $1{,}73206$ | $0{,}00028\\,\\%$ |\n| 13 | $[1{,}73193;\\, 1{,}73206]$ | $1{,}73199$ | $0{,}00324\\,\\%$ |\n| 14 | $[1{,}73199;\\, 1{,}73206]$ | $1{,}73203$ | $0{,}00148\\,\\%$ |\n| 15 | $[1{,}73203;\\, 1{,}73206]$ | $1{,}73204$ | $0{,}00060\\,\\%$ |\n| 16 | $[1{,}73204;\\, 1{,}73206]$ | $1{,}73205$ | $0{,}00016\\,\\%$ |\n| 17 | $[1{,}73205;\\, 1{,}73206]$ | $1{,}73205$ | $\\mathbf{0{,}00006\\,\\%}$ |\n\n*(Die Intervallgrenzen ab Zeile 9 sind für die Übersicht gerundet; gerechnet wurde mit den genauen Werten, z. B. $x_{17} = 1{,}7320518494$.)*\n\n**Ergebnis:** **Nach 18 Näherungswerten ($i = 17$) ist der relative Fehler mit $0{,}00006\\,\\%$ erstmals kleiner als $0{,}0001\\,\\%$; $\\sqrt{3} \\approx 1{,}73205$.**\nAuffällig: Der Fehler wird **nicht** bei jedem Schritt kleiner (z. B. ist $x_2$ schlechter als $x_1$, $x_{13}$ schlechter als $x_{12}$). Die Mitte springt mal näher, mal weiter weg – sicher kleiner wird nur das **Intervall**.\n\n**Ist es sinnvoll, den Taschenrechnerwert als exakt anzunehmen?** Ja, für diese Aufgabe: Der Taschenrechner kennt $\\sqrt{3}$ auf etwa 12 Stellen, sein eigener Fehler (Größenordnung $10^{-12}$, VL 3 Folie 25) ist viel kleiner als die geforderte Genauigkeit $10^{-6}$. Streng genommen ist auch er aber nur eine Näherung (√3 ist irrational, hat also unendlich viele Nachkommastellen).\n**Andere Möglichkeit** *(selbst erarbeitet):* ohne Taschenrechner die **Intervallbreite** als Fehlerschranke nehmen. Die Wurzel liegt immer im aktuellen Intervall, also ist der Fehler höchstens so groß wie die halbe Intervallbreite. Oder man prüft über das Quadrat: Je näher $x_i^2$ an $3$ liegt, desto besser ist $x_i$.\n\n### Grundlagenaufgabe 4\n\n**Grundlagenaufgabe 4:** *„Bei Bedarf: Vorstellung und Besprechung einzelner Übungsaufgaben von Übungsblatt 3. Sonst: Ausgewählte Übungsaufgaben bearbeiten.“*\n\n**Antwort:** Keine eigene Rechenaufgabe. Die Lösungen zu Blatt 3 stehen in der Hausaufgabe „Übungsblatt 3“ (Sitzung 27.10.), die Übungsaufgaben dieses Blatts folgen hier.\n\n## Übungsaufgaben\n\n*„Die Übungsaufgaben dienen der Nachbereitung der Vorlesung 3 und der Vorbereitung auf die Klausur. Zur Besprechung ausgewählter Aufgaben im Seminar, sprechen Sie Ihre Seminarleitung an und stellen Sie Ihre vorbereiteten Lösungen oder Lösungsansätze vor.“*\n\n### Übungsaufgabe 1\n\n#### Übungsaufgabe 1a\n\n**Übungsaufgabe 1a:** *„Geben Sie die rationale Zahl $\\frac{1}{99}$ als Fließkommazahl $f_1 \\in \\mathcal{F}_{10}(1, 100)$, $f_2 \\in \\mathcal{F}_{10}(4, 100)$, $f_3 \\in \\mathcal{F}_{10}(16, 100)$ an. Gehen Sie dabei genau nach Definition 2.4. aus der Vorlesung vor und schreiben Sie jeden Schritt der Definition einer Fließkommazahl auf.“*\n\n**Antwort:**\n\n**Vorbereitung:** $\\frac{1}{99} = 1 : 99 = 0{,}010101\\ldots$ – die Ziffernfolge „01“ wiederholt sich unendlich (**periodisch**). Damit vor dem Komma genau eine Ziffer ungleich 0 steht, schiebt man das Komma 2 Stellen nach rechts und gleicht mit $10^{-2}$ aus:\n$$\\frac{1}{99} = 1{,}010101\\ldots \\cdot 10^{-2}$$\nAlso: Basis $g = 10$, Exponent $e = -2$. Jetzt die Mantisse auf die erlaubte Länge $l$ kaufmännisch runden und die drei Bedingungen prüfen.\n\n**$f_1 \\in \\mathcal{F}_{10}(1, 100)$** ($l = 1$, $u = 100$): Nur eine Ziffer erlaubt: $1\\,|\\,{,}0101\\ldots$ – die nächste Ziffer ist $0 < 5$, also abrunden: $m = 1$.\n1. $1{,}0 \\le |1| < 10$ ✓\n2. $m = 1$ hat 1 Stelle $\\le 1$ ✓\n3. $|-2| = 2 < 100$ ✓\n\n$$f_1 = 1 \\cdot 10^{-2}$$\n\n**$f_2 \\in \\mathcal{F}_{10}(4, 100)$** ($l = 4$): $1{,}010\\,|\\,1\\ldots$ – nächste Ziffer $1 < 5$, abrunden: $m = 1{,}010$.\n1. $1{,}0 \\le |1{,}010| < 10$ ✓\n2. $1{,}010$ hat 4 Stellen $\\le 4$ ✓\n3. $|-2| < 100$ ✓\n\n$$f_2 = 1{,}010 \\cdot 10^{-2}$$\n\n**$f_3 \\in \\mathcal{F}_{10}(16, 100)$** ($l = 16$): 1 Ziffer vor und 15 nach dem Komma: $1{,}010101010101010\\,|\\,1\\ldots$ – nächste Ziffer $1 < 5$, abrunden.\n1. $1{,}0 \\le |1{,}010101010101010| < 10$ ✓\n2. 16 Stellen $\\le 16$ ✓\n3. $|-2| < 100$ ✓\n\n$$f_3 = 1{,}010101010101010 \\cdot 10^{-2}$$\n\n*(Ergänzung: Schon beim Umwandeln entsteht ein Fehler – relativ $10^{-2}$ bei $f_1$, $10^{-4}$ bei $f_2$, $10^{-16}$ bei $f_3$. Das passt zur Größenordnung $10^{-l}$ aus VL 3.)*\n\n#### Übungsaufgabe 1b\n\n**Übungsaufgabe 1b:** *„Berechnen Sie $\\left(\\frac{1}{99}\\right)^2$ in allen drei Fließkommazahlbereichen. Wie verändern sich die Ergebnisse auch in Bezug auf das exakte Ergebnis?“*\n\n**Antwort:** Exakt ist (Bruch quadrieren: Zähler mal Zähler, Nenner mal Nenner)\n$$\\left(\\frac{1}{99}\\right)^2 = \\frac{1}{9801} = 0{,}000102030405\\ldots = 1{,}0203040506\\ldots \\cdot 10^{-4}$$\nIn jedem Bereich rechnet man mit dem gerundeten $f$ (Mantissen malnehmen, Exponenten addieren: $10^{-2} \\cdot 10^{-2} = 10^{-4}$) und rundet das Ergebnis wieder auf $l$ Stellen:\n\n| Bereich | Rechnung | Ergebnis | $\\epsilon_A$ | $\\epsilon_R$ |\n|---|---|---|---|---|\n| $\\mathcal{F}_{10}(1, 100)$ | $1 \\cdot 1 = 1$ | $1 \\cdot 10^{-4}$ | $\\approx 2{,}03 \\cdot 10^{-6}$ | $0{,}0199 = 1{,}99\\,\\%$ |\n| $\\mathcal{F}_{10}(4, 100)$ | $1{,}010 \\cdot 1{,}010 = 1{,}0201 \\to 1{,}020$ | $1{,}020 \\cdot 10^{-4}$ | $\\approx 3{,}04 \\cdot 10^{-8}$ | $2{,}98 \\cdot 10^{-4} \\approx 0{,}03\\,\\%$ |\n| $\\mathcal{F}_{10}(16, 100)$ | $1{,}010101010101010^2 = 1{,}0203040506070807\\ldots \\to 1{,}020304050607081$ | $1{,}020304050607081 \\cdot 10^{-4}$ | $\\approx 8{,}99 \\cdot 10^{-21}$ | $\\approx 8{,}8 \\cdot 10^{-17}$ |\n\n(Beim mittleren Bereich: $1{,}020\\,|\\,1$ – nächste Ziffer $1 < 5$, abrunden. Beim letzten: 16. Stelle $0$, danach $7 \\ge 5$, aufrunden.)\n\n**Wie verändern sich die Ergebnisse?** Je länger die Mantisse, desto näher liegt das Ergebnis am exakten Wert: Der relative Fehler sinkt von rund $2\\,\\%$ über $0{,}03\\,\\%$ auf etwa $10^{-16}$. Auffällig ist, dass der Fehler beim Quadrieren etwa **doppelt so groß** ist wie beim bloßen Umwandeln ($1\\,\\%$ → $1{,}99\\,\\%$, $10^{-4}$ → $2{,}98 \\cdot 10^{-4}$): Der Eingabefehler steckt in **beiden** Faktoren und wird mitgerechnet *(selbst erarbeitet)*.\n\n### Übungsaufgabe 2\n\n**Übungsaufgabe 2:** *„Ermitteln Sie den Nachfolger $b \\in \\mathcal{F}_{10}(10, 100)$. Berechnen Sie jeweils den absoluten Abstand $dist_A(b, a)$ sowie den relativen Abstand $dist_R(b, a)$.*\n*a) $a = 1{,}000\\,000\\,000 \\cdot 10^1$ b) $a = 3{,}994\\,459\\,543 \\cdot 10^{-99}$ c) Betrachten Sie die berechneten relativen Abstände. Wie können Sie argumentieren, dass Ihre Berechnung korrekt sein könnte?“*\n\n**Antwort:** In $\\mathcal{F}_{10}(10, 100)$ hat die Mantisse 10 Ziffern, die letzte steht an der **9.** Nachkommastelle. Den Nachfolger bekommt man, indem man diese letzte Ziffer um 1 erhöht, also $1 \\cdot 10^{-9}$ zur Mantisse addiert ($10^{-l+1}$ mit $l = 10$).\n\n**a)** $a = 1{,}000\\,000\\,000 \\cdot 10^1$ (also $a = 10$), Exponent $e = 1$.\n$$b = 1{,}000\\,000\\,001 \\cdot 10^1$$\n$$dist_A(b, a) = |a - b| = 0{,}000\\,000\\,001 \\cdot 10^1 = 10^{-9} \\cdot 10^1 = 10^{-8}$$\nKontrolle mit der Formel von Folie 20: $10^{e-l+1} = 10^{1-10+1} = 10^{-8}$ ✓\n$$dist_R(b, a) = \\frac{|a - b|}{|a|} = \\frac{10^{-8}}{10} = 10^{-9}$$\n\n**b)** $a = 3{,}994\\,459\\,543 \\cdot 10^{-99}$, Exponent $e = -99$.\n$$b = 3{,}994\\,459\\,544 \\cdot 10^{-99}$$\n$$dist_A(b, a) = 10^{-9} \\cdot 10^{-99} = 10^{-108}$$\n(Formel: $10^{-99-10+1} = 10^{-108}$ ✓ – eine winzige Zahl, weil der Exponent so klein ist.)\n$$dist_R(b, a) = \\frac{10^{-108}}{3{,}994\\,459\\,543 \\cdot 10^{-99}} = \\frac{1}{3{,}994\\,459\\,543} \\cdot 10^{-9} \\approx 2{,}503 \\cdot 10^{-10}$$\n\n**c)** Nach VL 3 (Folie 22) muss der relative Abstand zum Nachfolger immer zwischen zwei festen Grenzen liegen:\n$$10^{-l+1} \\ge dist_R(b, a) > 10^{-l}, \\quad \\text{hier also} \\quad 10^{-9} \\ge dist_R(b, a) > 10^{-10}$$\nBeide Ergebnisse liegen darin: a) $10^{-9}$ (genau an der oberen Grenze, weil die Mantisse $m = 1$ ist – kleinste mögliche Mantisse) und b) $2{,}5 \\cdot 10^{-10}$. Außerdem gilt $dist_R = \\frac{1}{m} \\cdot 10^{-9}$: bei a) $\\frac{1}{1}$, bei b) $\\frac{1}{3{,}99} \\approx 0{,}25$ – das passt. Obwohl die **absoluten** Abstände riesig verschieden sind ($10^{-8}$ und $10^{-108}$), sind die **relativen** fast gleich groß. Genau das sagt VL 3: Der relative Abstand hängt nur von der Mantissenlänge ab.\n\n### Übungsaufgabe 3\n\n**Übungsaufgabe 3:** *„Bestimmen Sie die Produkte $\\tilde{c} = \\tilde{a} \\cdot \\tilde{b}$ im angegebenen Fließkommazahlenbereich. Wandeln Sie $a$ und $b$ zunächst in die entsprechende Fließkommazahl um. Vergleichen Sie die entsprechenden Fließkommaprodukte $\\tilde{c}$ mit den tatsächlichen Produkten $c$, indem Sie den absoluten Fehler $\\epsilon_A(\\tilde{c}, c)$ berechnen.*\n*a) $a = 724\\,312$, $b = 0{,}0052$, $\\tilde{c} \\in \\mathcal{F}_{10}(7, 6)$ b) $a = 724\\,312$, $b = 10$, $\\tilde{c} \\in \\mathcal{F}_{10}(10, 6)$.“*\n\n**Antwort:**\n\n**a)** $\\mathcal{F}_{10}(7, 6)$: 7 Stellen, Exponent zwischen $-5$ und $5$.\n- $\\tilde{a} = 7{,}24312 \\cdot 10^5$ (6 Stellen ✓, $|5| < 6$ ✓)\n- $\\tilde{b} = 5{,}2 \\cdot 10^{-3}$ ($0{,}0052$: Komma 3 Stellen nach rechts, also $10^{-3}$; $|-3| < 6$ ✓)\n\nMalnehmen:\n$$\\tilde{a} \\cdot \\tilde{b} = (7{,}24312 \\cdot 5{,}2) \\cdot 10^{5 + (-3)} = 37{,}664224 \\cdot 10^2 = 3{,}7664224 \\cdot 10^3$$\nAuf 7 Stellen runden: $3{,}766422\\,|\\,4$ – nächste Ziffer $4 < 5$, abrunden:\n$$\\tilde{c} = 3{,}766422 \\cdot 10^3 = 3766{,}422$$\nExakt: $c = 724\\,312 \\cdot 0{,}0052 = 3766{,}4224$.\n$$\\epsilon_A(\\tilde{c}, c) = |3766{,}422 - 3766{,}4224| = 0{,}0004$$\n\n**b)** $\\mathcal{F}_{10}(10, 6)$: 10 Stellen, aber Exponent nur zwischen $-5$ und $5$.\n- $\\tilde{a} = 7{,}24312 \\cdot 10^5$ ✓, $\\tilde{b} = 1 \\cdot 10^1$ ✓\n\nMalnehmen: $\\tilde{a} \\cdot \\tilde{b} = 7{,}24312 \\cdot 10^{5+1} = 7{,}24312 \\cdot 10^6$.\nBedingung 3 verlangt $|e| < 6$ – aber $e = 6$, und $6 < 6$ ist **falsch**. Das Produkt ist in $\\mathcal{F}_{10}(10, 6)$ **nicht darstellbar**: Es ist größer als die größte Zahl $9{,}999999999 \\cdot 10^5$ (ein sogenannter **Überlauf** – der Rechner würde „Error“ melden).\n\n**Ergebnis:** **a) $\\tilde{c} = 3{,}766422 \\cdot 10^3$, $\\epsilon_A = 0{,}0004$. b) Kein $\\tilde{c}$ – das Ergebnis $7\\,243\\,120$ liegt außerhalb von $\\mathcal{F}_{10}(10, 6)$, ein Fehler $\\epsilon_A$ lässt sich nicht sinnvoll angeben.** Die lange Mantisse ($l = 10$) nützt nichts, wenn der Exponent zu klein begrenzt ist.\n\n### Übungsaufgabe 4\n\n**Übungsaufgabe 4:** *„Bestimmen Sie Schritt für Schritt die Summen $\\tilde{c} = \\tilde{a} + \\tilde{b}$ im angegebenen Fließkommazahlenbereich (Berücksichtigen Sie auch bei den Zwischenergebnissen, dass nur eine bestimmte Anzahl an Stellen zur Verfügung steht.) und vergleichen Sie die entsprechenden Fließkommasummen $\\tilde{c}$ mit den tatsächlichen Summen $c$, indem Sie den absoluten Fehler $\\epsilon_A(\\tilde{c}, c)$ und den rel. Fehler $\\epsilon_R(\\tilde{c}, c)$ berechnen.*\n*a) $a = 734{,}356$, $b = 23{,}001$, $\\tilde{c} \\in \\mathcal{F}_{10}(5, 10)$ b) $a = 993{,}356$, $b = 23{,}001$, $\\tilde{c} \\in \\mathcal{F}_{10}(2, 10)$.“*\n\n**Antwort:**\n\n**a)** $\\mathcal{F}_{10}(5, 10)$, also 5 Stellen.\n**Umwandeln:** $734{,}356 = 7{,}34356 \\cdot 10^2$ hat 6 Stellen – runden auf 5: $7{,}3435\\,|\\,6$, nächste Ziffer $6 \\ge 5$, aufrunden: $\\tilde{a} = 7{,}3436 \\cdot 10^2$. $\\tilde{b} = 2{,}3001 \\cdot 10^1$ (5 Stellen ✓).\n1. **Angleichen an $10^2$:** $2{,}3001 \\cdot 10^1 = 0{,}23001 \\cdot 10^2$.\n2. **Auf $l - 1 = 4$ Nachkommastellen runden:** $0{,}2300\\,|\\,1$ → $0{,}2300 \\cdot 10^2$.\n3. **Addieren:** $(7{,}3436 + 0{,}2300) \\cdot 10^2 = 7{,}5736 \\cdot 10^2$.\n4. **Darstellen:** passt schon ($1 \\le 7{,}5736 < 10$, 5 Stellen). $\\tilde{c} = 7{,}5736 \\cdot 10^2 = 757{,}36$.\n\nExakt: $c = 734{,}356 + 23{,}001 = 757{,}357$.\n$$\\epsilon_A(\\tilde{c}, c) = |757{,}36 - 757{,}357| = 0{,}003, \\qquad \\epsilon_R(\\tilde{c}, c) = \\frac{0{,}003}{757{,}357} \\approx 3{,}96 \\cdot 10^{-6}$$\n\n**b)** $\\mathcal{F}_{10}(2, 10)$, also nur 2 Stellen.\n**Umwandeln:** $993{,}356 = 9{,}93356 \\cdot 10^2$ → 2 Stellen: $9{,}9\\,|\\,3$, abrunden: $\\tilde{a} = 9{,}9 \\cdot 10^2$. $23{,}001 = 2{,}3001 \\cdot 10^1$ → $2{,}3\\,|\\,0$: $\\tilde{b} = 2{,}3 \\cdot 10^1$.\n1. **Angleichen an $10^2$:** $2{,}3 \\cdot 10^1 = 0{,}23 \\cdot 10^2$.\n2. **Auf $l - 1 = 1$ Nachkommastelle runden:** $0{,}2\\,|\\,3$ → $0{,}2 \\cdot 10^2$.\n3. **Addieren:** $(9{,}9 + 0{,}2) \\cdot 10^2 = 10{,}1 \\cdot 10^2$.\n4. **Darstellen:** $10{,}1$ hat zwei Ziffern vor dem Komma → $1{,}01 \\cdot 10^3$; 3 Stellen sind zu viel, also runden: $1{,}0\\,|\\,1$ → $\\tilde{c} = 1{,}0 \\cdot 10^3 = 1000$.\n\nExakt: $c = 993{,}356 + 23{,}001 = 1016{,}357$.\n$$\\epsilon_A(\\tilde{c}, c) = |1000 - 1016{,}357| = 16{,}357, \\qquad \\epsilon_R(\\tilde{c}, c) = \\frac{16{,}357}{1016{,}357} \\approx 1{,}61 \\cdot 10^{-2} = 1{,}61\\,\\%$$\n\n**Ergebnis:** **a) $\\tilde{c} = 7{,}5736 \\cdot 10^2$, $\\epsilon_A = 0{,}003$, $\\epsilon_R \\approx 3{,}96 \\cdot 10^{-6}$. b) $\\tilde{c} = 1{,}0 \\cdot 10^3$, $\\epsilon_A = 16{,}357$, $\\epsilon_R \\approx 1{,}61\\,\\%$.** Bei nur 2 Stellen wird an **drei** Stellen gerundet (beim Umwandeln, beim Angleichen, am Schluss) – die Fehler addieren sich.\n\n### Übungsaufgabe 5\n\n#### Übungsaufgabe 5a\n\n**Übungsaufgabe 5a:** *„Gegeben sind $a = 1{,}235 \\cdot 10^2$, $b = 5{,}512 \\cdot 10^4$ und $c = -5{,}511 \\cdot 10^4$ wobei $a, b, c \\in \\mathcal{F}_{10}(4, 10)$. Berechnen Sie $(a + b) + c$ und $a + (b + c)$ im angegebenen Fließkommazahlbereich.“*\n\n**Antwort:** 4 Stellen erlaubt, beim Angleichen also auf $l - 1 = 3$ Nachkommastellen runden.\n\n**$(a + b) + c$ – erst die Klammer:**\n- $a + b$: an $10^4$ angleichen: $1{,}235 \\cdot 10^2 = 0{,}01235 \\cdot 10^4$ → auf 3 Nachkommastellen: $0{,}012\\,|\\,35$ → $0{,}012 \\cdot 10^4$. Addieren: $(0{,}012 + 5{,}512) \\cdot 10^4 = 5{,}524 \\cdot 10^4$.\n- $+ c$: beide schon $10^4$: $(5{,}524 - 5{,}511) \\cdot 10^4 = 0{,}013 \\cdot 10^4 = 1{,}3 \\cdot 10^2 = 1{,}300 \\cdot 10^2$.\n\n$$(a + b) + c = 1{,}300 \\cdot 10^2 = 130$$\n\n**$a + (b + c)$ – erst die Klammer:**\n- $b + c = (5{,}512 - 5{,}511) \\cdot 10^4 = 0{,}001 \\cdot 10^4 = 1{,}000 \\cdot 10^1 = 10$ (exakt, kein Runden nötig).\n- $a + 10$: an $10^2$ angleichen: $1{,}000 \\cdot 10^1 = 0{,}1000 \\cdot 10^2$ → 3 Nachkommastellen: $0{,}100 \\cdot 10^2$. Addieren: $(1{,}235 + 0{,}100) \\cdot 10^2 = 1{,}335 \\cdot 10^2$.\n\n$$a + (b + c) = 1{,}335 \\cdot 10^2 = 133{,}5$$\n\nExakt: $123{,}5 + 55\\,120 - 55\\,110 = 133{,}5$. Die zweite Reihenfolge ist exakt, die erste liegt um $3{,}5$ daneben ($\\epsilon_R \\approx 2{,}6\\,\\%$).\n\n#### Übungsaufgabe 5b\n\n**Übungsaufgabe 5b:** *„Was hatten Sie als Ergebnis in Aufgabenteil a) erwartet? Begründen Sie. Warum könnte sich das Ergebnis von Ihrer Erwartung unterscheiden?“*\n\n**Antwort:**\n- **Erwartung:** Beide Terme sollten **gleich** sein. Nach dem **Assoziativgesetz** (Klammern dürfen beim Addieren beliebig gesetzt werden: $(a + b) + c = a + (b + c)$) kommt es auf die Reihenfolge nicht an.\n- **Warum es trotzdem anders ist:** Im Fließkommabereich wird nach **jedem** Schritt gerundet. Bei $(a + b) + c$ wird zuerst die kleine Zahl $a = 123{,}5$ zur großen Zahl $b = 55\\,120$ addiert. Beim Angleichen an $10^4$ gehen die letzten Ziffern von $a$ verloren ($0{,}01235 \\to 0{,}012$, also wird aus $123{,}5$ nur noch $120$).\n- Danach werden zwei **fast gleich große** Zahlen voneinander abgezogen ($55\\,240 - 55\\,110$). Übrig bleibt nur ein kleiner Rest. Darin steckt der Rundungsfehler von vorher – er wird dadurch relativ riesig (VL 3, Folie 37: *„Die Subtraktion annähernd gleicher Fließkommazahlen sollte vermieden werden“*).\n- Bei $a + (b + c)$ wird zuerst die fast gleich große Differenz $b + c$ **exakt** berechnet, danach eine kleine Zahl addiert – dabei geht nichts verloren.\n\n**Ergebnis:** **Am Rechner gilt das Assoziativgesetz nur eingeschränkt. Die Reihenfolge der Rechenschritte entscheidet über die Genauigkeit.**\n\n### Übungsaufgabe 6\n\n#### Übungsaufgabe 6a\n\n**Übungsaufgabe 6a:** *„Bestimmen Sie mithilfe des Verfahrens von Heron die Wurzel aus 3. Geben Sie für die ersten drei Schritte den Rechenweg an. Füllen Sie eine Tabelle der Form i | $x_i$ | Relativer Fehler aus. Füllen Sie die Tabelle fortlaufend solange aus, bis der rel. Fehler kleiner als 0,0001 % ist. Runden Sie die jeweilige Näherung auf 5 Nachkommastellen.*\n*Hinweise: Runden Sie die einzelnen Näherungswerte nur für Ihre Aufzeichnung. Rechnen Sie mit den genaueren Taschenrechnerwerten weiter. Der vom Taschenrechner ermittelte Wert für $\\sqrt{3}$ darf für die Berechnung des relativen Fehlers als exakt angenommen werden.“*\n\n**Antwort:** Vorschrift (VL 3, Folie 49) mit $a = 3$:\n$$x_{k+1} := \\frac{x_k + \\frac{3}{x_k}}{2}$$\n**Startwert** *(Annahme, wie im Beispiel der Vorlesung Folie 51: Mitte des Startintervalls)*: $1 < \\sqrt{3} < 2$, also $x_0 = \\frac{1 + 2}{2} = \\frac{3}{2} = 1{,}5$.\n\n**Schritt $i = 1$:** $\\frac{3}{x_0} = \\frac{3}{\\frac{3}{2}} = 3 \\cdot \\frac{2}{3} = 2$ (durch einen Bruch teilen = mit dem Kehrwert malnehmen).\n$$x_1 = \\frac{\\frac{3}{2} + 2}{2} = \\frac{\\frac{3}{2} + \\frac{4}{2}}{2} = \\frac{\\frac{7}{2}}{2} = \\frac{7}{4} = 1{,}75$$\n**Schritt $i = 2$:** $\\frac{3}{x_1} = 3 \\cdot \\frac{4}{7} = \\frac{12}{7}$. Hauptnenner von $4$ und $7$ ist $28$: $\\frac{7}{4} = \\frac{49}{28}$, $\\frac{12}{7} = \\frac{48}{28}$.\n$$x_2 = \\frac{\\frac{49}{28} + \\frac{48}{28}}{2} = \\frac{97}{28} \\cdot \\frac{1}{2} = \\frac{97}{56} \\approx 1{,}7321429$$\n**Schritt $i = 3$:** $\\frac{3}{x_2} = 3 \\cdot \\frac{56}{97} = \\frac{168}{97}$.\n$$x_3 = \\frac{\\frac{97}{56} + \\frac{168}{97}}{2} = \\frac{\\frac{9409}{5432} + \\frac{9408}{5432}}{2} = \\frac{18817}{10864} \\approx 1{,}7320508$$\n\n| $i$ | $x_i$ (exakt als Bruch) | $x_i$ (5 Nachkommastellen) | Relativer Fehler |\n|---|---|---|---|\n| 0 | $\\frac{3}{2}$ | $1{,}50000$ | $13{,}39746\\,\\%$ |\n| 1 | $\\frac{7}{4}$ | $1{,}75000$ | $1{,}03630\\,\\%$ |\n| 2 | $\\frac{97}{56}$ | $1{,}73214$ | $0{,}00531\\,\\%$ |\n| 3 | $\\frac{18817}{10864}$ | $1{,}73205$ | $\\mathbf{0{,}00000014\\,\\%}$ |\n\n**Ergebnis:** **Schon bei $i = 3$ ist der relative Fehler ($1{,}4 \\cdot 10^{-7}\\,\\%$) kleiner als $0{,}0001\\,\\%$; $\\sqrt{3} \\approx 1{,}73205$.**\n\n#### Übungsaufgabe 6b\n\n**Übungsaufgabe 6b:** *„Vergleichen Sie das Verfahren mit dem Intervallhalbierungsverfahren (Grundlagenaufgaben - Aufgabe 3).“*\n\n**Antwort:**\n\n| | Intervallhalbierung | Heron |\n|---|---|---|\n| Schritte bis $\\epsilon_R < 0{,}0001\\,\\%$ | 17 (bis $x_{17}$) | 3 (bis $x_3$) |\n| Verlauf des Fehlers | springt hin und her, wird nur „im Schnitt“ kleiner | wird bei jedem Schritt kleiner, und zwar sehr schnell (Ergänzung: ab $x_1$ verdoppelt sich ungefähr die Zahl der richtigen Stellen) |\n| Rechenaufwand pro Schritt | sehr einfach: Mitte bilden, quadrieren, vergleichen | etwas mehr: teilen, addieren, halbieren |\n| Was man über den Fehler weiß | sicher: Die Wurzel liegt immer im Intervall | ohne Vergleichswert keine feste Grenze |\n\n**Fazit:** Das Heron-Verfahren ist **viel schneller** (3 statt 17 Schritte). Die Intervallhalbierung ist leichter zu verstehen und zu rechnen und liefert eine sichere Fehlergrenze. Genau das meint VL 3 (Folie 54): *„Die Verarbeitung von Zahlen ist nur so ‚gut‘ … wie das verwendete Verfahren.“*",
+      "loesungsweg": "Erst ein Block mit allen benötigten Definitionen und Regeln (Def. 2.4, Komma verschieben, Multiplizieren, Addieren in vier Schritten, Def. 2.1, Nachfolger und Abstände, Def. 3.1, Intervallhalbierung, Heron), dann jede Teilaufgabe der Reihe nach: Aufgabentext im Wortlaut, Schritt für Schritt mit Begründung, Ergebnis.",
+      "frist": "2026-11-02",
+      "im_kalender": true,
+      "fuer_sitzung": "mab004.2_2026-11-03",
+      "kalender_id": "d2269362-91bf-4e67-8fff-3a769fd8e551",
+      "pdf": "/dateien/mab004/S04_2026-11-03_Hausaufgabe_Uebungsblatt-4_Loesungen.pdf"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Berechne $\\tilde{c} = \\tilde{a} \\cdot \\tilde{b}$ für $a = 23$, $b = 46$ in $\\mathcal{F}_{10}(4, 5)$ und $\\hat{c}$ in $\\mathcal{F}_{10}(3, 5)$ sowie die absoluten Fehler.",
+      "musterloesung": "$2{,}3 \\cdot 10^1 \\cdot 4{,}6 \\cdot 10^1 = 10{,}58 \\cdot 10^2 = 1{,}058 \\cdot 10^3$. $\\tilde{c} = 1{,}058 \\cdot 10^3$, $\\epsilon_A(\\tilde{c}, c) = 0$. $\\hat{c} = 1{,}06 \\cdot 10^3$, $\\epsilon_A(\\hat{c}, c) = 2$.",
+      "bewertungspunkte": [
+        "Umwandeln",
+        "Produkt normiert",
+        "$\\tilde{c}$ exakt",
+        "$\\hat{c} = 1060$",
+        "Fehler 0 und 2"
+      ],
+      "punkte": 5,
+      "erklaerung": "Blatt 4, G1.",
+      "folie": "G1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Gib $\\frac{1}{99}$ als $f_1 \\in \\mathcal{F}_{10}(1, 100)$, $f_2 \\in \\mathcal{F}_{10}(4, 100)$ und $f_3 \\in \\mathcal{F}_{10}(16, 100)$ an.",
+      "musterloesung": "$\\frac{1}{99} = 0{,}0101\\ldots = 1{,}0101\\ldots \\cdot 10^{-2}$. $f_1 = 1 \\cdot 10^{-2}$, $f_2 = 1{,}010 \\cdot 10^{-2}$, $f_3 = 1{,}010101010101010 \\cdot 10^{-2}$.",
+      "bewertungspunkte": [
+        "Normieren auf $10^{-2}$",
+        "Bedingungen 1–3 geprüft",
+        "$f_1$, $f_2$, $f_3$ richtig gerundet"
+      ],
+      "punkte": 3,
+      "erklaerung": "Blatt 4, Ü1a.",
+      "folie": "Ü1a",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Berechne $\\tilde{c} = \\tilde{a} + \\tilde{b}$ für $a = 3{,}123$, $b = 50{,}2$ in $\\mathcal{F}_{10}(5, 10)$ sowie $\\epsilon_A$ und $\\epsilon_R$.",
+      "musterloesung": "$0{,}3123 \\cdot 10^1 + 5{,}0200 \\cdot 10^1 = 5{,}3323 \\cdot 10^1 = 53{,}323$. Exakt $c = 53{,}323$ → $\\epsilon_A = 0$, $\\epsilon_R = 0$.",
+      "bewertungspunkte": [
+        "Angleichen an $10^1$",
+        "5 Stellen beachtet",
+        "Summe",
+        "Fehler 0"
+      ],
+      "punkte": 4,
+      "erklaerung": "Blatt 4, G2.",
+      "folie": "G2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Intervallhalbierung für $\\sqrt{3}$, Start $[1; 2]$: Gib $x_0$ bis $x_3$ mit Begründung an.",
+      "musterloesung": "$x_0 = 1{,}5$ ($2{,}25 < 3$ → rechts), $x_1 = 1{,}75$ ($3{,}0625 > 3$ → links), $x_2 = 1{,}625$ ($2{,}640625 < 3$ → rechts), $x_3 = 1{,}6875$.",
+      "bewertungspunkte": [
+        "$x_0$",
+        "Quadratprobe jeweils",
+        "$x_1$, $x_2$",
+        "$x_3 = 1{,}6875$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Blatt 4, G3.",
+      "folie": "G3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Berechne $\\tilde{c} = \\tilde{a} \\cdot \\tilde{b}$ für $a = 724\\,312$, $b = 0{,}0052$ in $\\mathcal{F}_{10}(7, 6)$ und $\\epsilon_A(\\tilde{c}, c)$.",
+      "musterloesung": "$7{,}24312 \\cdot 10^5 \\cdot 5{,}2 \\cdot 10^{-3} = 37{,}664224 \\cdot 10^2 = 3{,}7664224 \\cdot 10^3$ → 7 Stellen: $\\tilde{c} = 3{,}766422 \\cdot 10^3$. $\\epsilon_A = 0{,}0004$.",
+      "bewertungspunkte": [
+        "Umwandeln",
+        "Produkt normiert",
+        "auf 6 Nachkommastellen gerundet",
+        "$\\epsilon_A = 0{,}0004$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Blatt 4, Ü3a.",
+      "folie": "Ü3a",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum gibt es für $724\\,312 \\cdot 10$ in $\\mathcal{F}_{10}(10, 6)$ kein Ergebnis $\\tilde{c}$?",
+      "optionen": [
+        "Weil $7{,}24312 \\cdot 10^6$ die Bedingung $|e| < u$ verletzt ($6 < 6$ ist falsch).",
+        "Weil die Mantisse zu viele Stellen hat.",
+        "Weil $10$ keine Fließkommazahl ist.",
+        "Weil die Mantisse kleiner als $1$ ist."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Blatt 4, Ü3b: Überlauf – der Exponent ist zu groß, die Mantisse ($6$ Stellen) wäre kein Problem.",
+      "folie": "Ü3b",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Berechne $\\tilde{c} = \\tilde{a} + \\tilde{b}$ für $a = 993{,}356$, $b = 23{,}001$ in $\\mathcal{F}_{10}(2, 10)$ sowie $\\epsilon_A$ und $\\epsilon_R$.",
+      "musterloesung": "$\\tilde{a} = 9{,}9 \\cdot 10^2$, $\\tilde{b} = 2{,}3 \\cdot 10^1 = 0{,}23 \\cdot 10^2 \\approx 0{,}2 \\cdot 10^2$. Summe $10{,}1 \\cdot 10^2 = 1{,}01 \\cdot 10^3 \\to 1{,}0 \\cdot 10^3$. Exakt $1016{,}357$: $\\epsilon_A = 16{,}357$, $\\epsilon_R \\approx 1{,}61\\,\\%$.",
+      "bewertungspunkte": [
+        "Umwandeln mit 2 Stellen",
+        "Angleichen und Runden",
+        "Normieren und Runden",
+        "Fehler"
+      ],
+      "punkte": 4,
+      "erklaerung": "Blatt 4, Ü4b.",
+      "folie": "Ü4b",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Berechne in $\\mathcal{F}_{10}(4, 10)$ mit $a = 1{,}235 \\cdot 10^2$, $b = 5{,}512 \\cdot 10^4$, $c = -5{,}511 \\cdot 10^4$: $(a + b) + c$ und $a + (b + c)$.",
+      "musterloesung": "$(a + b)$: $0{,}01235 \\cdot 10^4 \\approx 0{,}012 \\cdot 10^4$, $5{,}524 \\cdot 10^4$; $+ c$: $0{,}013 \\cdot 10^4 = 1{,}300 \\cdot 10^2 = 130$. $(b + c) = 0{,}001 \\cdot 10^4 = 1{,}000 \\cdot 10^1$; $a + 10 = 1{,}235 \\cdot 10^2 + 0{,}100 \\cdot 10^2 = 1{,}335 \\cdot 10^2 = 133{,}5$.",
+      "bewertungspunkte": [
+        "Angleichen in $(a + b)$ mit Rundung",
+        "Ergebnis 130",
+        "$b + c = 10$",
+        "Ergebnis 133,5"
+      ],
+      "punkte": 4,
+      "erklaerung": "Blatt 4, Ü5a.",
+      "folie": "Ü5a",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum unterscheiden sich $(a + b) + c$ und $a + (b + c)$ in Ü5? (mehrere richtig)",
+      "optionen": [
+        "Beim Angleichen von $a$ an $10^4$ gehen Stellen verloren.",
+        "$b$ und $c$ sind fast gleich groß mit verschiedenem Vorzeichen – es kommt zur Auslöschung.",
+        "Im Fließkommabereich gilt das Assoziativgesetz nicht immer.",
+        "Das Assoziativgesetz gilt für reelle Zahlen nicht."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Für reelle Zahlen gilt das Assoziativgesetz – erwartet wäre in beiden Fällen $133{,}5$.",
+      "folie": "Ü5b",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Bestimme den Nachfolger $b$ von $a = 3{,}994459543 \\cdot 10^{-99}$ in $\\mathcal{F}_{10}(10, 100)$ sowie $dist_A(b, a)$ und $dist_R(b, a)$.",
+      "musterloesung": "$b = 3{,}994459544 \\cdot 10^{-99}$; $dist_A = 10^{-9} \\cdot 10^{-99} = 10^{-108}$; $dist_R = \\frac{10^{-108}}{3{,}994459543 \\cdot 10^{-99}} \\approx 2{,}503 \\cdot 10^{-10}$.",
+      "bewertungspunkte": [
+        "Nachfolger",
+        "$dist_A = 10^{-108}$",
+        "$dist_R \\approx 2{,}5 \\cdot 10^{-10}$"
+      ],
+      "punkte": 3,
+      "erklaerung": "Blatt 4, Ü2b.",
+      "folie": "Ü2b",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "transfer",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Wie kannst du prüfen, ob ein berechneter relativer Abstand in $\\mathcal{F}_{10}(10, 100)$ stimmen kann?",
+      "antwort": "Er muss nach VL 3 zwischen $10^{-l}$ und $10^{-l+1}$ liegen, also $10^{-9} \\ge dist_R > 10^{-10}$. $10^{-9}$ und $2{,}503 \\cdot 10^{-10}$ liegen beide darin.",
+      "erklaerung": "Blatt 4, Ü2c.",
+      "folie": "Ü2c",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Berechne mit Heron für $\\sqrt{3}$ und $x_0 = \\frac{3}{2}$ die Werte $x_1$, $x_2$, $x_3$ als Brüche.",
+      "musterloesung": "$x_1 = \\frac{\\frac{3}{2} + 2}{2} = \\frac{7}{4}$; $x_2 = \\frac{\\frac{7}{4} + \\frac{12}{7}}{2} = \\frac{97}{56}$; $x_3 = \\frac{\\frac{97}{56} + \\frac{168}{97}}{2} = \\frac{18817}{10864}$.",
+      "bewertungspunkte": [
+        "$\\frac{3}{3/2} = 2$",
+        "$x_1 = \\frac{7}{4}$",
+        "$x_2 = \\frac{97}{56}$",
+        "$x_3 = \\frac{18817}{10864}$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Blatt 4, Ü6a.",
+      "folie": "Ü6a",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Eigenschaften dem Verfahren zu (Beispiel $\\sqrt{3}$, Ziel $\\epsilon_R < 0{,}0001\\,\\%$).",
+      "kategorien": [
+        "Intervallhalbierung",
+        "Heron"
+      ],
+      "elemente": [
+        {
+          "text": "17 Schritte",
+          "kategorie": "Intervallhalbierung"
+        },
+        {
+          "text": "3 Schritte",
+          "kategorie": "Heron"
+        },
+        {
+          "text": "Fehler wird nicht in jedem Schritt kleiner",
+          "kategorie": "Intervallhalbierung"
+        },
+        {
+          "text": "Mittelwert aus $x_k$ und $\\frac{a}{x_k}$",
+          "kategorie": "Heron"
+        },
+        {
+          "text": "Prüfen mit Quadraten, welche Grenze ersetzt wird",
+          "kategorie": "Intervallhalbierung"
+        }
+      ],
+      "erklaerung": "Blatt 4, G3 und Ü6b.",
+      "folie": "G3, Ü6b",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Darf man den Taschenrechnerwert für $\\sqrt{3}$ beim relativen Fehler als exakt annehmen? Gibt es eine andere Möglichkeit?",
+      "antwort": "Ja, sinnvoll: Er ist auf etwa $10^{-12}$ genau, gefordert sind $10^{-6}$ ($0{,}0001\\,\\%$). Alternative: Bei der Intervallhalbierung ist die halbe Intervallbreite eine sichere Fehlerschranke – ganz ohne Taschenrechnerwert.",
+      "erklaerung": "Blatt 4, G3 Hinweis.",
+      "folie": "G3",
+      "pruefungsrelevant": false
+    }
+  ],
+  "pruefungshinweise": [
+    "Die Übungsaufgaben auf Blatt 4 dienen laut Blatt der Nachbereitung von Vorlesung 3 und der Vorbereitung auf die Klausur – die Klausur orientiert sich sehr nah an den Übungsaufgaben (VL 1, Folie 6)."
+  ],
+  "offene_fragen": [
+    "Ü6: Ein Startwert für Heron ist nicht vorgegeben. Angenommen wurde wie in VL 3 (Folie 51) die Mitte des Startintervalls, $x_0 = \\frac{3}{2}$. Ist das so gewollt?",
+    "G3/Ü6: „Runden Sie die jeweilige Näherung auf 5 Nachkommastellen“ – ab $x_{12}$ zeigen mehrere Zeilen den gleichen gerundeten Wert $1{,}73205$ mit unterschiedlichem Fehler. Soll der Fehler mit dem ungerundeten Wert berechnet werden (so gemacht)?",
+    "G3: Zählt das Abbruchkriterium „kleiner als $0{,}0001\\,\\%$“ den ersten Wert darunter (hier $x_{17}$) – auch wenn ein früherer Wert ($x_{16}$ mit $0{,}00016\\,\\%$) knapp darüber liegt?"
+  ]
+}

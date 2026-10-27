@@ -17,18 +17,39 @@ P.push(`<header><div class="kicker">${esc(d.modul)} · ${esc(modulname)} · ${es
 if (d.pruefungshinweise?.length) P.push(`<section class="warn"><h2>Prüfungshinweise</h2><ul>${d.pruefungshinweise.map((p) => '<li>' + inl(p) + '</li>').join('')}</ul></section>`);
 P.push(`<section><h2>Lernziele</h2><ul>${d.lernziele.map((l) => '<li>' + inl(l.text) + (l.art === 'vorgegeben' ? ' <span class="tag">vorgegeben</span>' : '') + '</li>').join('')}</ul></section>`);
 P.push(`<section><h2>Kurzfassung</h2><ol>${d.kurzfassung.map((k) => '<li>' + inl(k) + '</li>').join('')}</ol></section>`);
+// Folienaufgaben chronologisch (wie aufgabenNachAbschnitt in src/neu/lerninhalte.ts)
+function aufgabenNachAbschnitt(d) {
+  const bereiche = (d.erklaerung || []).map((a) => {
+    const f = (a.folien || '').trim();
+    if (!/^[\d\s,–-]+$/.test(f)) return [];
+    return f.split(',').map((t) => t.trim()).filter(Boolean).map((t) => { const [x, y] = t.split(/[–-]/).map((z) => parseInt(z)); return [x, isNaN(y) ? x : y]; });
+  });
+  const pro = bereiche.map(() => []); const rest = [];
+  const markiert = new Set((d.erklaerung || []).flatMap((a) => [...(a.text || '').matchAll(/\{\{aufgabe (\w+)\}\}/g)].map((m) => m[1])));
+  for (const a of d.aufgaben || []) {
+    if (/hausaufgabe/i.test(a.art) || markiert.has(a.id)) continue;
+    const m = (a.quelle || '').match(/Folien?\s*(\d+)/); const n = m ? parseInt(m[1]) : NaN;
+    let i = isNaN(n) ? -1 : bereiche.findIndex((b) => b.some(([x, y]) => n >= x && n <= y));
+    if (i < 0 && !isNaN(n)) bereiche.forEach((b, j) => { if (b.length && Math.min(...b.map((q) => q[0])) <= n) i = j; });
+    if (i < 0) rest.push(a); else pro[i].push(a);
+  }
+  return { pro, rest };
+}
+const aufHtml = (a) => `<div class="auf"><div class="b">Aufgabe · ${esc(a.quelle)}</div><div class="w">${mdHtml(a.text)}</div><div><b>Lösung:</b> ${mdHtml(a.loesung)}</div>${a.loesungsweg ? `<div><b>Lösungsweg:</b> ${mdHtml(a.loesungsweg)}</div>` : ''}</div>`;
+const AN = aufgabenNachAbschnitt(d);
 if (d.erklaerung?.length) {
   P.push('<section><h2>Erklärung</h2>');
-  for (const a of d.erklaerung) {
-    P.push(`<h3>${inl(a.titel)} <span class="fol">${vl && a.folien ? 'Folien ' : ''}${esc(a.folien || '')}</span></h3><div class="md">${mdHtml(a.text)}</div>`);
+  d.erklaerung.forEach((a, ai) => {
+    P.push(`<h3>${inl(a.titel)} <span class="fol">${vl && a.folien ? 'Folien ' : ''}${esc(a.folien || '')}</span></h3>`); a.text.split(/\n*\{\{aufgabe (\w+)\}\}\n*/).forEach((x, i) => { if (i % 2) { const q = d.aufgaben.find((z) => z.id === x); if (q) P.push(aufHtml(q)); } else if (x.trim()) P.push(`<div class="md">${mdHtml(x)}</div>`); });
     if (a.beispiel) P.push(`<div class="bsp"><b>Beispiel:</b> ${mdHtml(a.beispiel)}</div>`);
-  }
+    for (const x of AN.pro[ai] || []) P.push(aufHtml(x));
+  });
   P.push('</section>');
 }
 if (d.definitionen?.length) P.push('<section><h2>Begriffe</h2>' + d.definitionen.map((b) => `<div class="def"><div class="b">${inl(b.begriff)} <span class="fol">${esc(b.folie || '')}</span></div><div class="w">„${inl(b.wortlaut)}“</div><div>${inl(b.erklaerung)}</div></div>`).join('') + '</section>');
-const auf = d.aufgaben.filter((a) => !/hausaufgabe/i.test(a.art));
+const auf = d.erklaerung?.length ? AN.rest : d.aufgaben.filter((a) => !/hausaufgabe/i.test(a.art));
 const ha = d.aufgaben.filter((a) => /hausaufgabe/i.test(a.art));
-if (auf.length) P.push('<section><h2>Aufgaben aus dem Material mit Lösung</h2>' + auf.map((a) => `<div class="auf"><div class="b">${esc(a.quelle)}</div><div class="w">${mdHtml(a.text)}</div><div><b>Lösung:</b> ${mdHtml(a.loesung)}</div>${a.loesungsweg ? `<div><b>Lösungsweg:</b> ${mdHtml(a.loesungsweg)}</div>` : ''}</div>`).join('') + '</section>');
+if (auf.length) P.push('<section><h2>' + (d.erklaerung?.length ? 'Weitere Aufgaben aus dem Material mit Lösung' : 'Aufgaben aus dem Material mit Lösung') + '</h2>' + auf.map(aufHtml).join('') + '</section>');
 if (ha.length) P.push('<section class="ha"><h2>Hausaufgaben</h2><ul>' + ha.map((a) => `<li><b>${inl(a.titel || a.quelle)}</b> – ${a.pdf ? 'Aufgaben und Lösungen in der eigenen PDF <i>' + esc(a.pdf.split('/').pop()) + '</i>' : 'persönliche Ausarbeitung in deinem Ordner (nicht in der App)'}</li>`).join('') + '</ul></section>');
 if (d.offene_fragen?.length) P.push(`<section class="ask"><h2>Nachfragen in der Uni</h2><ol>${d.offene_fragen.map((q) => '<li>' + inl(q) + '</li>').join('')}</ol></section>`);
 P.push(`<footer>„Ergänzung“ = nicht aus der Vorlesung, zum Verständnis ergänzt. Erstellt mit Claude für die Lernapp, Stand ${d.stand === 'geprueft' ? 'geprüft' : esc(d.stand)}.</footer>`);

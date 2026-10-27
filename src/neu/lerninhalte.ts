@@ -115,3 +115,23 @@ export function literaturStatus(modul: string, eintrag: string): LLiteratur | nu
 }
 export const literaturStand = (modul: string) => (LITERATUR[modul] ?? []).map((x) => x.stand ?? '').sort().pop() ?? '';
 export const literaturAbgeglichen = (modul: string) => !!LITERATUR[modul];
+
+/** Folienaufgaben chronologisch: jede Nicht-Hausaufgabe kommt in den Erklär-Abschnitt, dessen Folienbereich ihre (erste) Folie enthält –
+ *  (genaue Stelle: Zeile {{aufgabe a01}} im Abschnittstext), sonst hinter den letzten Abschnitt, der vorher beginnt. Ohne Foliennummer (z. B. Seminar) bleibt sie in `rest` (am Ende). */
+export function aufgabenNachAbschnitt(s: LSitzung): { proAbschnitt: LAufgabe[][]; rest: LAufgabe[] } {
+  const bereiche = (s.erklaerung ?? []).map((a) => {
+    const f = (a.folien ?? '').trim();
+    if (!/^[\d\s,–-]+$/.test(f)) return [] as [number, number][];
+    return f.split(',').map((t) => t.trim()).filter(Boolean).map((t) => { const [x, y] = t.split(/[–-]/).map((z) => parseInt(z)); return [x, isNaN(y) ? x : y] as [number, number]; });
+  });
+  const proAbschnitt: LAufgabe[][] = bereiche.map(() => []); const rest: LAufgabe[] = [];
+  const markiert = new Set((s.erklaerung ?? []).flatMap((a) => [...a.text.matchAll(/\{\{aufgabe (\w+)\}\}/g)].map((m) => m[1])));
+  for (const a of s.aufgaben ?? []) {
+    if (/hausaufgabe/i.test(a.art) || markiert.has(a.id)) continue;
+    const m = (a.quelle ?? '').match(/Folien?\s*(\d+)/); const n = m ? parseInt(m[1]) : NaN;
+    let i = isNaN(n) ? -1 : bereiche.findIndex((b) => b.some(([x, y]) => n >= x && n <= y));
+    if (i < 0 && !isNaN(n)) bereiche.forEach((b, j) => { if (b.length && Math.min(...b.map((q) => q[0])) <= n) i = j; });
+    if (i < 0) rest.push(a); else proAbschnitt[i].push(a);
+  }
+  return { proAbschnitt, rest };
+}

@@ -1,0 +1,674 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "mab004",
+  "teilmodul": "mab004.1",
+  "datum": "2026-10-27",
+  "sitzung_nr": 3,
+  "sitzung_id": "ed4895ff-3004-4305-86e7-0af2f25936e4",
+  "thema": "VL3 Wie rechnet der Taschenrechner? Verfahren zum Wurzelziehen",
+  "thema_in_app": "war schon da",
+  "stand": "entwurf",
+  "quellen": [
+    {
+      "datei": "mab004.1/mab004-V3.pdf",
+      "art": "Folien",
+      "seiten": "1–55 (Folie 3–12 = Wiederholung aus VL 2)"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Die Grenzen eines Fließkommabereichs angeben: kleinste und größte darstellbare Zahl, z. B. in $\\mathcal{F}_{10}(12, 100)$.",
+      "art": "abgeleitet",
+      "quelle": "Folie 3–12",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03"
+      ],
+      "erklaerung_abschnitt": "Wiederholung: Was kann der Taschenrechner überhaupt speichern?"
+    },
+    {
+      "text": "Den absoluten und relativen Abstand einer Fließkommazahl zu ihrem Nachfolger berechnen und erklären, wovon er abhängt.",
+      "art": "abgeleitet",
+      "quelle": "Folie 13–26",
+      "fragen": [
+        "f04",
+        "f05",
+        "f06",
+        "f07",
+        "f08",
+        "f09"
+      ],
+      "erklaerung_abschnitt": "Wie weit ist es bis zur nächsten Zahl? (Nachfolger und Abstand)"
+    },
+    {
+      "text": "Zwei Fließkommazahlen multiplizieren, das Ergebnis wieder als Fließkommazahl darstellen und den Fehler berechnen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 27–31",
+      "fragen": [
+        "f10",
+        "f11",
+        "f12"
+      ],
+      "erklaerung_abschnitt": "Multiplizieren im Fließkommabereich"
+    },
+    {
+      "text": "Zwei Fließkommazahlen in vier Schritten addieren und erklären, wo Fehler entstehen; die Gefahr bei der Subtraktion fast gleicher Zahlen erklären.",
+      "art": "abgeleitet",
+      "quelle": "Folie 32–39",
+      "fragen": [
+        "f13",
+        "f14",
+        "f15",
+        "f16"
+      ],
+      "erklaerung_abschnitt": "Addieren und Subtrahieren im Fließkommabereich"
+    },
+    {
+      "text": "Die Wurzel nach Definition 3.1 erklären und Näherungswerte mit dem Intervallhalbierungsverfahren und dem Verfahren von Heron berechnen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 40–53",
+      "fragen": [
+        "f17",
+        "f18",
+        "f19",
+        "f20",
+        "f21",
+        "f22",
+        "f23"
+      ],
+      "erklaerung_abschnitt": "Wurzeln ziehen: zwei Verfahren"
+    },
+    {
+      "text": "Beurteilen, wo beim Taschenrechner Fehler entstehen (Eingabe, Verarbeitung, Ausgabe), und beide Wurzelverfahren vergleichen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 39, 41, 54",
+      "fragen": [
+        "f24",
+        "f25"
+      ],
+      "erklaerung_abschnitt": "Fazit: Wo entstehen beim Taschenrechner Fehler?"
+    }
+  ],
+  "kurzfassung": [
+    "Ein Taschenrechner kann nur **endlich viele** Zahlen speichern (eine Fließkommamenge). Viele einfache Taschenrechner nutzen $\\mathcal{F}_{10}(12, 100)$, Excel nutzt $\\mathcal{F}_{10}(15, 308)$. Es gibt eine kleinste positive Zahl $z = 1{,}00000000000 \\cdot 10^{-99}$ und eine größte Zahl $Z = 9{,}99999999999 \\cdot 10^{99}$.",
+    "Fast jede Fließkommazahl hat einen **Nachfolger** – die nächstgrößere Zahl, die der Rechner noch speichern kann. Der absolute Abstand dorthin ist $10^{e-l+1}$: er wird größer, wenn der Exponent $e$ größer ist, und kleiner, wenn die Mantisse länger ist.",
+    "Der **relative Abstand** zum Nachfolger liegt immer zwischen $10^{-l}$ und $10^{-l+1}$. Er hängt nur von der Mantissenlänge $l$ ab und ist damit stabil. Bei einem Taschenrechner mit $l = 12$ liegt der Eingabefehler deshalb in der Größenordnung $10^{-12}$.",
+    "Beim **Multiplizieren** ist das Produkt $m \\cdot n \\cdot 10^{e+f}$ meist keine Fließkommazahl aus dem gleichen Bereich: Die Mantisse muss verschoben und gerundet werden. Dabei entsteht ein Fehler der Größenordnung $10^{-l}$.",
+    "Beim **Addieren** geht man in vier Schritten vor: an den höchsten Exponenten angleichen – Mantisse auf $l - 1$ Nachkommastellen runden – addieren – wieder als Fließkommazahl schreiben. Fehler entstehen schon beim Angleichen und noch einmal beim Schlussrunden.",
+    "Besonders kritisch ist das **Subtrahieren** fast gleich großer Zahlen: Die Veränderung kann ganz verschwinden. Solche Subtraktionen sollte man vermeiden.",
+    "Die **Wurzel** von $a > 0$ ist nach Definition 3.1 die *positive* Zahl $b$ mit $b^2 = a$.",
+    "Das **Intervallhalbierungsverfahren** halbiert ein Intervall, in dem die Wurzel liegt, immer wieder. Es ist einfach, aber langsam: Für $\\sqrt{2}$ braucht es 20 Schritte bis zu einem relativen Fehler von etwa $6{,}7 \\cdot 10^{-8}$.",
+    "Das **Verfahren von Heron** berechnet den nächsten Wert immer als Mittelwert aus $x_k$ und $\\frac{a}{x_k}$. Es konvergiert (Satz 3.2) und ist sehr schnell: Für $\\sqrt{6}$ ist schon $x_2$ auf etwa $2 \\cdot 10^{-6}\\,\\%$ genau.",
+    "**Fazit:** Fehler können bei der Eingabe (Runden auf Fließkommazahlen), bei der Verarbeitung (nur so gut wie das Verfahren) und bei der Ausgabe von Produkten, Summen und Differenzen entstehen."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Wiederholung: Was kann der Taschenrechner überhaupt speichern?",
+      "folien": "3–12",
+      "text": "**Idee in Alltagssprache:** Ein Taschenrechner hat nur eine feste Anzahl von Kästchen für Ziffern. Er kann deshalb nicht jede Zahl speichern, sondern nur Zahlen in einer bestimmten Form – die **Fließkommazahlen** aus VL 2.\n\n> **Definition 2.4 (Wiederholung):** Eine Fließkommazahl hat die Form $f = m \\cdot g^e$. Dabei ist $m$ die **Mantisse** (die Ziffernfolge mit genau einer Stelle vor dem Komma), $g$ die **Basis** (bei uns $10$) und $e$ der **Exponent** (sagt, um wie viele Stellen das Komma verschoben wird). Es muss gelten: 1. $1{,}0 \\le m < g$, 2. $m$ hat höchstens $l$ Stellen, 3. $e < u$.\n\nDabei heißt $l$ **Mantissenlänge** (wie viele Ziffern gespeichert werden) und $u$ **Exponentenschranke** (wie groß der Exponent höchstens werden darf). $\\mathcal{F}_{10}(l, u)$ – gelesen „F zehn von l, u“ – ist die Menge aller solcher Zahlen.\n\n**Beispiel $\\frac{1}{3}$:** In $\\mathcal{F}_{10}(2, 100)$ ist $f = 3{,}3 \\cdot 10^{-1}$ (nur 2 Ziffern). In $\\mathcal{F}_{10}(12, 100)$ ist $f = 3{,}33333333333 \\cdot 10^{-1}$ (12 Ziffern). Beide Male bleibt ein Rest weg – $\\frac{1}{3}$ hat unendlich viele Dreien.\n\nViele einfache Taschenrechner arbeiten mit $\\mathcal{F}_{10}(12, 100)$, Excel mit $\\mathcal{F}_{10}(15, 308)$.\n\n**Grenzen:** Weil es nur endlich viele Kästchen gibt, gibt es eine **betragsmäßig kleinste** Zahl (außer $0$) und eine **betragsmäßig größte** Zahl. „Betragsmäßig“ heißt: ohne auf das Vorzeichen zu achten.\n\n- kleinste: $z = 1{,}00000000000 \\cdot 10^{-99}$ (die $1$ steht an der 99. Nachkommastelle)\n- größte: $Z = 9{,}99999999999 \\cdot 10^{99}$ (eine 100-stellige Zahl: 12 Neunen und 88 Nullen)\n\nDie ganze Menge ist also $\\{-Z, \\ldots, -z\\} \\cup \\{z, \\ldots, Z\\} \\cup \\{0\\}$. Das Zeichen $\\cup$ heißt „vereinigt mit“: Man nimmt alle Zahlen aus allen drei Teilen zusammen.\n\n**Folgen (Folie 10–11):** Egal wie groß $u$ gewählt wird – es gibt immer Zahlen, die beim Speichern einen großen relativen Fehler bekommen (z. B. Zahlen, die kleiner als $z$ sind). Jede Fließkommamenge ist **endlich** (man kann ihre Zahlen durchzählen) und fast jede Fließkommazahl hat einen **Nachfolger**.",
+      "beispiel": "Warum $|-99| < 100$ bei $z$? Der Exponent ist $-99$. Bedingung 3 verlangt, dass er (ohne Vorzeichen) kleiner als $u = 100$ ist. $-100$ ginge nicht mehr – deshalb ist $10^{-99}$ die kleinste Stufe."
+    },
+    {
+      "titel": "Wie weit ist es bis zur nächsten Zahl? (Nachfolger und Abstand)",
+      "folien": "13–26",
+      "text": "**Idee in Alltagssprache:** Bei den natürlichen Zahlen $1, 2, 3, \\ldots$ hat jede Zahl einen **Nachfolger** – die direkt nächste Zahl. Der Abstand ist immer $1$. Bei den reellen Zahlen gibt es das nicht: Zwischen zwei Zahlen liegen immer noch weitere. Bei Fließkommazahlen gibt es wieder einen Nachfolger – die nächstgrößere Zahl, die der Rechner noch speichern kann. Man erhält ihn, indem man die **letzte Mantissenstelle um 1 erhöht**.\n\n**Warum interessiert uns das?** Wenn der Rechner eine Zahl rundet, landet er bestenfalls auf einer benachbarten Fließkommazahl. Der Abstand zum Nachfolger ist deshalb der **kleinstmögliche Abstand beim Runden** – genauer kann der Rechner nicht sein.\n\n### Absoluter und relativer Abstand\n\n> **Absoluter Abstand:** $dist_A(a, b) = |a - b|$ – „Distanz A von a und b“: wie weit liegen zwei Zahlen auseinander, ohne Vorzeichen (das ist der Betrag $|\\ldots|$).\n> **Relativer Abstand:** $dist_R(b, a) = \\dfrac{|a - b|}{|a|}$ – derselbe Abstand im Verhältnis zur Größe von $a$.\n\nBei natürlichen Zahlen: $dist_A(n + 1, n) = 1$ und $dist_R(n + 1, n) = \\frac{1}{n}$. Je größer $n$, desto kleiner wird der relative Abstand: $1$ ist bei $2$ viel, bei $1000$ wenig.\n\n### Beispiele in $\\mathcal{F}_{10}(12, 100)$\n\n$a = 1{,}25638778544 \\cdot 10^4$, Nachfolger $b = 1{,}25638778545 \\cdot 10^4$. Die Mantissen unterscheiden sich um $0{,}00000000001 = 10^{-11} = 10^{-12+1}$. Also\n\n$$dist_A(a, b) = 10^{-11} \\cdot 10^4 = 10^{-7} = 0{,}0000001$$\n\nMit Exponent $8$ statt $4$ (Folie 17) wird es $10^{-11} \\cdot 10^8 = 10^{-3}$ – **größerer Exponent, größerer Abstand**. Mit 15 Stellen Mantisse (Folie 18) wird es $10^{-14} \\cdot 10^4 = 10^{-10}$ – **längere Mantisse, kleinerer Abstand**.\n\n### Allgemein (Folie 19–20)\n\nIst $a = m \\cdot 10^e$, dann ist der Nachfolger $b = (m + 1 \\cdot 10^{-l+1}) \\cdot 10^e$ – man addiert eine $1$ an der letzten (der $l$-ten) Stelle der Mantisse. Dann:\n\n$$dist_A(a, b) = |m \\cdot 10^e - (m + 10^{-l+1}) \\cdot 10^e| = |-10^{-l+1}| \\cdot 10^e = 10^{e-l+1}$$\n\n> **Regel (Potenzgesetz):** $10^{x} \\cdot 10^{y} = 10^{x+y}$ – gleiche Basis: Exponenten addieren. Hier: $10^{-l+1} \\cdot 10^{e} = 10^{e-l+1}$.\n\n### Relativer Abstand (Folie 21–22)\n\n$$dist_R(b, a) = \\frac{10^{e-l+1}}{m \\cdot 10^e} = \\frac{1}{m} \\cdot 10^{-l+1}$$\n\nDas $10^e$ kürzt sich weg – der Exponent spielt keine Rolle mehr. Weil $1 \\le m < 10$ ist, liegt $\\frac{1}{m}$ zwischen $\\frac{1}{10}$ (ausgeschlossen) und $1$. Also\n\n$$10^{-l+1} \\ge dist_R(b, a) > 10^{-l}$$\n\n**Bedeutung:** Die **absoluten** Abstände hängen vom Exponenten und von der Mantissenlänge ab. Die **relativen** Abstände hängen **nur von der Mantissenlänge** ab – sie sind stabil und liegen in der Größenordnung $10^{-l}$. Ein Taschenrechner mit $l = 12$ macht bei der Eingabe also einen Fehler in der Größenordnung $10^{-12}$.\n\n**Fazit der Folie 26:** Beim Runden von Fließkommazahlen entsteht immer ein Fehler. Der Abstand zum Nachfolger ist die Grenze, wie genau der Rechner überhaupt sein kann.",
+      "beispiel": "„Größenordnung $10^{-12}$“ heißt: Der Fehler ist ungefähr ein Billionstel der Zahl – bei $1$ Million Euro wäre das ein Millionstel Cent."
+    },
+    {
+      "titel": "Multiplizieren im Fließkommabereich",
+      "folien": "27–31",
+      "text": "**Idee in Alltagssprache:** Wenn man zwei Fließkommazahlen multipliziert, hat das Ergebnis oft mehr Ziffern, als der Rechner speichern kann, oder die Mantisse ist größer als $10$. Der Rechner muss das Ergebnis **umformen und runden** – dabei entsteht ein Fehler.\n\n> **Regel (Multiplizieren):** $a = m \\cdot 10^e$ und $b = n \\cdot 10^f$ $\\Rightarrow$ $a \\cdot b = m \\cdot n \\cdot 10^{e+f}$. Mantissen malnehmen, Exponenten addieren.\n> **Regel (Komma verschieben):** Ist die Mantisse $\\ge 10$, verschiebt man das Komma um eine Stelle nach links und erhöht den Exponenten um $1$: $55{,}68 \\cdot 10^{20} = 5{,}568 \\cdot 10^{21}$.\n> **Regel (Runden, Def. 2.3):** $[m]_k$ heißt: $m$ kaufmännisch auf $k$ Nachkommastellen runden. In $\\mathcal{F}_{10}(l, u)$ hat die Mantisse $l - 1$ Nachkommastellen.\n\nDas Wellenzeichen $\\tilde{c}$ („c Schlange“) bezeichnet das Ergebnis, das der Rechner **im Fließkommabereich** erhält. $c$ ohne Welle ist das exakte Ergebnis.\n\n**Beispiel (Folie 27–29):** $a = 6{,}4 \\cdot 10^6$, $b = 8{,}7 \\cdot 10^{14}$ in $\\mathcal{F}_{10}(2, 99)$.\n\n1. Mantissen malnehmen, Exponenten addieren: $6{,}4 \\cdot 8{,}7 = 55{,}68$ und $6 + 14 = 20$, also $55{,}68 \\cdot 10^{20}$.\n2. $m = 55{,}68$ erfüllt nicht $1 \\le m < 10$ → Komma verschieben: $5{,}568 \\cdot 10^{21}$.\n3. Die Mantisse hat 4 Stellen, erlaubt sind 2 → auf eine Nachkommastelle runden: $\\tilde{c} = [5{,}568]_1 \\cdot 10^{21} = 5{,}6 \\cdot 10^{21}$.\n4. Relativer Fehler: $\\epsilon_R(\\tilde{c}; c) = \\dfrac{|5{,}6 - 5{,}568| \\cdot 10^{21}}{5{,}568 \\cdot 10^{21}} = \\dfrac{0{,}032}{5{,}568} \\approx 5{,}7 \\cdot 10^{-3}$.\n\n{{aufgabe a01}}\n\n**Merksatz (Folie 31):** Das Produkt zweier Fließkommazahlen ist im Allgemeinen **keine** Fließkommazahl aus demselben Bereich. Die Multiplikation ist ungenau; der Fehler liegt in der Größenordnung $10^{-l}$ – je länger die Mantisse, desto kleiner der Fehler.",
+      "beispiel": ""
+    },
+    {
+      "titel": "Addieren und Subtrahieren im Fließkommabereich",
+      "folien": "32–39",
+      "text": "**Idee in Alltagssprache:** Zahlen kann man nur dann einfach zusammenzählen, wenn sie „gleich groß geschrieben“ sind – also denselben Exponenten haben. Der Rechner passt deshalb zuerst die kleinere Zahl an die größere an. Weil er dabei nur $l$ Ziffern behalten kann, fallen hinten Ziffern weg.\n\n> **Regel (Addition in vier Schritten, Folie 32):**\n> 1. An den **höchsten Exponenten** angleichen (Komma der kleineren Zahl nach links verschieben).\n> 2. Die Mantisse auf $l - 1$ Stellen nach dem Komma **runden**.\n> 3. **Addieren**.\n> 4. Wieder als **Fließkommazahl** darstellen ($1 \\le m < 10$), notfalls noch einmal runden.\n\n**Beispiel (Folie 32–34):** $a = 7{,}6 \\cdot 10^0$, $b = 9{,}9 \\cdot 10^1$ in $\\mathcal{F}_{10}(2, 20)$.\n\n1. Höchster Exponent ist $1$: $7{,}6 \\cdot 10^0 = 0{,}76 \\cdot 10^1$.\n2. Auf $l - 1 = 1$ Nachkommastelle runden: $0{,}76 \\approx 0{,}8$ → **hier entsteht schon der erste Fehler**.\n3. Addieren: $(0{,}8 + 9{,}9) \\cdot 10^1 = 10{,}7 \\cdot 10^1$.\n4. $10{,}7$ ist $\\ge 10$ → $1{,}07 \\cdot 10^2$. Das hat 3 Stellen, erlaubt sind 2 → $\\tilde{c} = [1{,}07]_1 \\cdot 10^2 = 1{,}1 \\cdot 10^2$ → **zweiter Fehler**.\n\nExakt wäre $c = 7{,}6 + 99 = 106{,}6$. Relativer Fehler: $\\epsilon_R(\\tilde{c}; c) = \\dfrac{|110 - 106{,}6|}{106{,}6} \\approx 3 \\cdot 10^{-2}$, also etwa $3\\,\\%$.\n\n{{aufgabe a02}}\n\n**Merksatz (Folie 36):** Auch die Addition ist ungenau, mit einem Fehler der Größenordnung $10^{-l}$. Ein Taschenrechner mit $l = 12$ rechnet (Multiplikation und Addition) auf etwa $10^{-12}$ genau. Weil der Rechner intern mehr Stellen hat, als er anzeigt, ist es sinnvoll, **mit den internen Werten weiterzurechnen** (also nicht das angezeigte Ergebnis abtippen).\n\n### Subtraktion (Folie 37–38)\n\nBesonders kritisch ist das Abziehen **annähernd gleicher** Zahlen bzw. einer sehr kleinen von einer sehr großen Zahl. Beispiel: $a = 132\\,534\\,527$, $b = 13{,}2534586$. Exakt ist $a - b = 132\\,534\\,513{,}7465414$. In $\\mathcal{F}_{10}(5, 100)$ wird $\\tilde{a} = 1{,}3253 \\cdot 10^8$ und $\\tilde{b} = 1{,}3253 \\cdot 10^1$. Beim Angleichen wird $\\tilde{b}$ zu $0{,}0000001\\ldots \\cdot 10^8$ und fällt nach dem Runden ganz weg: Ergebnis $1{,}3253 \\cdot 10^8 = 132\\,530\\,000$. Die Veränderung durch $b$ ist **nicht sichtbar**.\n\n**Merksatz:** Die Subtraktion annähernd gleicher Fließkommazahlen sollte vermieden werden (die gültigen Ziffern heben sich gegenseitig auf; Fachwort aus Blatt 4: *Auslöschung*).",
+      "beispiel": ""
+    },
+    {
+      "titel": "Wurzeln ziehen: zwei Verfahren",
+      "folien": "40–53",
+      "text": "**Idee in Alltagssprache:** Ein Taschenrechner kann eine Wurzel wie $\\sqrt{2}$ nicht „einfach wissen“ – sie hat unendlich viele Nachkommastellen ohne Muster. Er nähert sie mit einem **Verfahren** an: Er rechnet Schritt für Schritt Werte aus, die immer näher an die Wurzel heranrücken. Jeder Schritt heißt **Iterationsschritt** (lat. *iterare* = wiederholen).\n\n> **Definition 3.1 (Wurzel einer Zahl):** Sei $a \\in \\mathbb{R}$ mit $a > 0$. Die Wurzel von $a$ ist diejenige **positive** Zahl $b \\in \\mathbb{R}$, für die gilt: $b^2 = a$. Man schreibt $b = \\sqrt{a}$.\n\nBeispiel: $\\sqrt{121} = 11$, denn $11^2 = 121$. Auch $(-11)^2 = 121$, aber laut Definition zählt **nur der positive Wert**.\n\n### Intervallhalbierungsverfahren (Folie 42–47)\n\nEin **Intervall** ist ein Zahlenbereich zwischen zwei Grenzen, z. B. „alle Zahlen zwischen $1$ und $2$“. Bei einer **Intervallschachtelung** macht man diesen Bereich immer kleiner, sodass die gesuchte Zahl immer drin bleibt. Beim Intervallhalbierungsverfahren wird das Intervall **in jedem Schritt halbiert**.\n\n> **So geht's (Folie 47):** Wähle zwei positive Startwerte $p, q$ mit $p^2 < a < q^2$ (dann liegt $\\sqrt{a}$ zwischen $p$ und $q$). Die Mitte $b_1 = \\frac{p + q}{2}$ ist ein Näherungswert. Ist $b_1^2 \\le a$, wird $b_1$ die neue **linke** Grenze, sonst die neue **rechte** Grenze. Dann wieder die Mitte nehmen usw.\n\nDie Begründung, warum man mit Quadraten prüfen darf (Folie 46): Wenn $a < b^2$ ist, dann ist auch $\\sqrt{a} < b$ (für positive Zahlen).\n\n**Beispiel $\\sqrt{2}$ (Folie 44):**\n\n| $i$ | Intervall | Prüfung mit Quadraten | Näherungswert $x_i$ |\n|---|---|---|---|\n| 0 | $1 < \\sqrt{2} < 2$ | $1 < 2 < 4$ | $\\frac{1 + 2}{2} = 1{,}5$ |\n| 1 | $1 < \\sqrt{2} < 1{,}5$ | $1 < 2 < 2{,}25$ | $\\frac{1 + 1{,}5}{2} = 1{,}25$ |\n| 2 | $1{,}25 < \\sqrt{2} < 1{,}5$ | $1{,}5625 < 2 < 2{,}25$ | $\\frac{1{,}25 + 1{,}5}{2} = 1{,}375$ |\n\n{{aufgabe a03}}\n\nNach 20 Schritten ist $x_{20} = 1{,}4142136573791$ mit einem relativen Fehler von etwa $6{,}7 \\cdot 10^{-8}$ (gegenüber dem als exakt angenommenen Wert $1{,}4142135623731$). Das Verfahren ist **sicher, aber langsam**.\n\n### Verfahren von Heron (Folie 48–53)\n\n**Vorüberlegung:** Ist $b$ eine Näherung von $\\sqrt{a}$, dann ist auch $c = \\frac{a}{b}$ eine Näherung. Denn wäre $b$ genau $\\sqrt{a}$, wäre $c = \\frac{a}{\\sqrt{a}} = \\sqrt{a}$. Ist $b$ zu groß, ist $c$ zu klein (und umgekehrt). Der **Mittelwert** (arithmetisches Mittel) $\\frac{b + c}{2}$ liegt dazwischen und ist eine bessere Näherung.\n\n> **Verfahren von Heron (Folie 49):** Sei $a$ eine positive reelle Zahl. $x_0 :=$ positiver Startwert, und\n> $$x_{k+1} := \\frac{x_k + \\frac{a}{x_k}}{2}, \\quad k \\in \\mathbb{N}$$\n> Man nennt $(x_k)_{k=0}^{\\infty}$ die **Iterationsfolge** des Verfahrens.\n\nGelesen: „x k plus eins ist definiert als x k plus a durch x k, das Ganze durch zwei“. $(x_k)_{k=0}^{\\infty}$ ist einfach die Liste aller Werte $x_0, x_1, x_2, \\ldots$ ohne Ende.\n\n**Rekursiv** (lat. *recurrere* = zurücklaufen) heißt: Jeder neue Wert wird aus dem vorherigen berechnet. Um $x_3$ zu kennen, braucht man $x_2$, dafür $x_1$ … bis zurück zum Startwert $x_0$.\n\n> **Satz 3.2:** Die durch $x_{k+1} = \\frac{x_k + \\frac{a}{x_k}}{2}$ festgelegte Folge mit dem Startwert $x_0$ **konvergiert** für $a \\ge 0$ gegen $\\sqrt{a}$. (Beweis: Reinhard, dtv-Atlas Schulmathematik, S. 159.)\n\n„Konvergiert gegen $\\sqrt{a}$“ heißt: Die Werte kommen $\\sqrt{a}$ beliebig nahe, wenn man nur genug Schritte macht.\n\n**Beispiel $\\sqrt{6}$ (Folie 51–53):** $2 < \\sqrt{6} < 3$, Startwert $x_0 = \\frac{2 + 3}{2} = \\frac{5}{2}$.\n\n- $x_1 = \\dfrac{\\frac{5}{2} + \\frac{6}{5/2}}{2} = \\dfrac{\\frac{5}{2} + \\frac{12}{5}}{2} = \\dfrac{\\frac{49}{10}}{2} = \\dfrac{49}{20}$\n- $x_2 = \\dfrac{\\frac{49}{20} + \\frac{120}{49}}{2} = \\dfrac{4801}{1960}$\n- $x_3 = \\dfrac{46099201}{18819920}$\n\n> **Regel (Durch einen Bruch teilen):** $\\dfrac{a}{\\frac{p}{q}} = a \\cdot \\dfrac{q}{p}$ – mit dem Kehrwert malnehmen. Z. B. $\\dfrac{6}{\\frac{5}{2}} = 6 \\cdot \\dfrac{2}{5} = \\dfrac{12}{5}$.\n\n{{aufgabe a04}}\n\nVergleich auf 8 Nachkommastellen: $\\sqrt{6} \\approx 2{,}44948974$, $x_2 \\approx 2{,}44948979$ – schon nach **zwei** Schritten stimmen sie bis auf die letzte Stelle überein. Relativer Fehler etwa $2 \\cdot 10^{-6}\\,\\%$. Heron ist **viel schneller** als die Intervallhalbierung.",
+      "beispiel": "Rechnung $x_1$ für $\\sqrt{6}$ in Worten: Startwert $2{,}5$. $6 : 2{,}5 = 2{,}4$. Mittelwert von $2{,}5$ und $2{,}4$ ist $2{,}45$ – das ist $\\frac{49}{20}$. Probe: $2{,}45^2 = 6{,}0025$, schon sehr nah an $6$."
+    },
+    {
+      "titel": "Fazit: Wo entstehen beim Taschenrechner Fehler?",
+      "folien": "39, 41, 54",
+      "text": "Die Vorlesung fasst das so zusammen (Folie 54):\n\n- **Eingabe:** Schon beim Eintippen können Fehler entstehen, weil die Zahl auf eine Fließkommazahl gerundet wird (Größenordnung $10^{-l}$).\n- **Verarbeitung:** Die Verarbeitung ist nur so „gut“ wie das verwendete Verfahren – z. B. wie gut die Näherungswerte einer Wurzel sind (Heron schneller als Intervallhalbierung).\n- **Ausgabe:** Bei Produkten, Summen und Differenzen können Fehler entstehen, weil das Ergebnis wieder gerundet wird.\n\n**Welches Wurzelverfahren wann? (Folie 41)** Intervallhalbierung: leicht zu verstehen und immer sicher, da die Wurzel stets im Intervall bleibt – aber viele Schritte. Heron: wenige Schritte, aber man muss mit Brüchen bzw. Divisionen rechnen. Beurteilen kann man das über den **relativen Fehler** nach gleich vielen Schritten bzw. über die Zahl der Schritte bis zu einer gewünschten Genauigkeit (vgl. Blatt 4: $\\sqrt{3}$ mit Intervallhalbierung 17 Schritte, mit Heron 3 Schritte bis unter $0{,}0001\\,\\%$).\n\n**Organisatorisch (Folie 2):** VL 4 am 03.11.2026 ist **zum Selbstlernen**: hochgeladene Excel-Aufgaben selbstständig bearbeiten. Während der Vorlesungszeit stehen Frau Rosenwinkel und Frau Hintze in Raum B1 für Fragen zur Verfügung.",
+      "beispiel": ""
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Nachfolger einer Fließkommazahl",
+      "wortlaut": "Ist $a = m \\cdot 10^e \\in \\mathcal{F}_{10}(l, u)$, so ist der Nachfolger $b = (m + 1 \\cdot 10^{-l+1}) \\cdot 10^e \\in \\mathcal{F}_{10}(l, u)$.",
+      "erklaerung": "Die nächstgrößere Zahl, die der Rechner noch speichern kann: die letzte Mantissenstelle um $1$ erhöhen. Beispiel: Nachfolger von $1{,}25638778544 \\cdot 10^4$ ist $1{,}25638778545 \\cdot 10^4$. „Fast jede“ Fließkommazahl hat einen – die größte Zahl $Z$ nicht.",
+      "folie": "13, 16, 19"
+    },
+    {
+      "begriff": "Absoluter Abstand zum Nachfolger",
+      "wortlaut": "Der Abstand zwischen $a \\in \\mathcal{F}_{10}(l, u)$ zum Nachfolger $b \\in \\mathcal{F}_{10}(l, u)$ ist $10^{e-l+1}$.",
+      "erklaerung": "So weit liegt die nächste speicherbare Zahl entfernt. Größerer Exponent → größerer Abstand; längere Mantisse → kleinerer Abstand. Beispiel: $e = 4$, $l = 12$ → $10^{4-12+1} = 10^{-7}$.",
+      "folie": "19–20"
+    },
+    {
+      "begriff": "Relativer Abstand zum Nachfolger",
+      "wortlaut": "$dist_R(b, a) = \\frac{|a - b|}{|a|} = \\frac{1}{m} \\cdot 10^{-l+1}$, und da $1 \\le m < 10$: $10^{-l+1} \\ge dist_R(b, a) > 10^{-l}$.",
+      "erklaerung": "Der Abstand im Verhältnis zur Zahl selbst. Er hängt nur von der Mantissenlänge $l$ ab – nicht vom Exponenten – und liegt in der Größenordnung $10^{-l}$.",
+      "folie": "21–23"
+    },
+    {
+      "begriff": "Wurzel einer Zahl",
+      "wortlaut": "Definition 3.1 (Wurzel einer Zahl). Sei $a \\in \\mathbb{R}$ mit $a > 0$. Die Wurzel von $a$ ist diejenige positive Zahl $b \\in \\mathbb{R}$, für die gilt: $b^2 = a$. Man schreibt $b = \\sqrt{a}$.",
+      "erklaerung": "Die Zahl, die mit sich selbst malgenommen $a$ ergibt – und zwar nur die positive. $\\sqrt{121} = 11$, nicht $-11$.",
+      "folie": "40"
+    },
+    {
+      "begriff": "Intervallhalbierungsverfahren",
+      "wortlaut": "Spezielle Form der Intervallschachtelung, bei der das Intervall nach jedem Schritt halbiert wird. Zunächst werden zwei positive Startwerte $p, q \\in \\mathbb{R}$ gewählt. Es gilt $p^2 < a < q^2$. Halbiert man dieses Intervall, also $b_1 = \\frac{p + q}{2}$, so ist ein Näherungswert für $\\sqrt{a}$ gefunden. […] Ist nun $b_1^2 \\le a$, so ändert sich die linke Intervallgrenze, sonst die rechte. […] Da sich die Teilintervalle mit jedem Schritt $j \\in \\mathbb{N}$ halbieren, nähert sich $b_j$ dem Wert $\\sqrt{a}$ immer besser an.",
+      "erklaerung": "Man startet mit einem Bereich, in dem die Wurzel sicher liegt, nimmt die Mitte, prüft mit dem Quadrat, auf welcher Seite die Wurzel liegt, und halbiert weiter. Sicher, aber langsam.",
+      "folie": "42, 47"
+    },
+    {
+      "begriff": "Verfahren von Heron",
+      "wortlaut": "Sei $a$ eine positive reelle Zahl. Das Verfahren von Heron zur Bestimmung der Wurzel von $a$ ist gegeben durch die Vorschrift $x_0 :=$ positiver Startwert $\\in \\mathbb{R}$, $x_{k+1} := \\frac{x_k + \\frac{a}{x_k}}{2}$, $k \\in \\mathbb{N}$, $x_k \\in \\mathbb{R}$. Man nennt $(x_k)_{k=0}^{\\infty}$ Iterationsfolge des Verfahrens.",
+      "erklaerung": "Nächster Wert = Mittelwert aus dem alten Wert und „$a$ geteilt durch den alten Wert“. Ist der alte Wert zu groß, ist $\\frac{a}{x_k}$ zu klein – die Mitte liegt näher an der Wurzel. Sehr schnell.",
+      "folie": "48–49"
+    },
+    {
+      "begriff": "Rekursiv definierte Folge / Iterationsfolge",
+      "wortlaut": "Man spricht von einer rekursiv definierten Folge, bei der bis auf den Startwert jedes Glied der Folge aus einem Term berechnet wird, der aus Konstanten, Rechenoperationen und bereits berechneten Vorgängern aufgebaut ist. Man muss also auf den Startwert zurücklaufen (lat. recurrere: zurücklaufen).",
+      "erklaerung": "Eine Liste von Zahlen, bei der jede neue Zahl aus der vorherigen ausgerechnet wird – wie eine Kette, die beim Startwert beginnt.",
+      "folie": "50"
+    },
+    {
+      "begriff": "Satz 3.2 (Konvergenz des Heron-Verfahrens)",
+      "wortlaut": "Satz 3.2. Die durch $x_{k+1} = \\frac{x_k + \\frac{a}{x_k}}{2}$, $k \\in \\mathbb{N}$, $x_k \\in \\mathbb{R}$ festgelegte Folge mit dem Startwert $x_0$ konvergiert für $a \\ge 0$ gegen $\\sqrt{a}$.",
+      "erklaerung": "Garantie: Mit genug Schritten kommt Heron der Wurzel beliebig nahe. Beweis bei Reinhard, dtv-Atlas Schulmathematik, S. 159.",
+      "folie": "50"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "Seien $a, b \\in \\mathcal{F}_{10}(3, 99)$ mit $a = 2{,}42 \\cdot 10^3$ und $b = 5{,}30 \\cdot 10^{10}$. Berechnen Sie das Produkt $\\tilde{c} = a \\cdot b$ mit $\\tilde{c} \\in \\mathcal{F}_{10}(3, 99)$!",
+      "quelle": "Folie 30",
+      "loesung": "$\\tilde{c} = 1{,}28 \\cdot 10^{14}$; relativer Fehler $\\epsilon_R(\\tilde{c}; c) \\approx 2{,}0 \\cdot 10^{-3}$.",
+      "loesungsweg": "1. Mantissen malnehmen, Exponenten addieren: $2{,}42 \\cdot 5{,}30 = 12{,}826$ und $3 + 10 = 13$ → $c = 12{,}826 \\cdot 10^{13}$.\n2. $12{,}826 \\ge 10$ → Komma eine Stelle nach links, Exponent $+1$: $c = 1{,}2826 \\cdot 10^{14}$ (exakter Wert).\n3. $l = 3$ → Mantisse auf $l - 1 = 2$ Nachkommastellen kaufmännisch runden: $[1{,}2826]_2 = 1{,}28$ (dritte Nachkommastelle $2 < 5$). Also $\\tilde{c} = 1{,}28 \\cdot 10^{14}$.\n4. Fehler (zusätzlich): $\\epsilon_R = \\dfrac{|1{,}28 - 1{,}2826|}{1{,}2826} = \\dfrac{0{,}0026}{1{,}2826} \\approx 2{,}0 \\cdot 10^{-3}$ – Größenordnung $10^{-l} = 10^{-3}$, wie auf Folie 31 behauptet.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "Seien $a, b \\in \\mathcal{F}_{10}(3, 20)$ mit $a = 2{,}42 \\cdot 10^2$ und $b = 5{,}30 \\cdot 10^5$. Berechnen Sie die Summe $\\tilde{c} = a + b$ mit $\\tilde{c} \\in \\mathcal{F}_{10}(3, 20)$.",
+      "quelle": "Folie 35",
+      "loesung": "$\\tilde{c} = 5{,}30 \\cdot 10^5$; $a$ verschwindet ganz. Exakt $c = 530\\,242$, $\\epsilon_R \\approx 4{,}6 \\cdot 10^{-4}$.",
+      "loesungsweg": "1. An den höchsten Exponenten ($5$) angleichen: $2{,}42 \\cdot 10^2 = 0{,}00242 \\cdot 10^5$ (Komma 3 Stellen nach links, Exponent $+3$).\n2. Mantisse auf $l - 1 = 2$ Nachkommastellen runden: $[0{,}00242]_2 = 0{,}00$ (dritte Nachkommastelle $2 < 5$).\n3. Addieren: $(0{,}00 + 5{,}30) \\cdot 10^5 = 5{,}30 \\cdot 10^5$.\n4. $1 \\le 5{,}30 < 10$ und 3 Stellen → schon eine Fließkommazahl: $\\tilde{c} = 5{,}30 \\cdot 10^5 = 530\\,000$.\n5. Fehler (zusätzlich): exakt $c = 242 + 530\\,000 = 530\\,242$. $\\epsilon_R = \\dfrac{242}{530\\,242} \\approx 4{,}6 \\cdot 10^{-4}$. Die kleine Zahl ist beim Angleichen verloren gegangen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "text": "Gesucht ist $x = \\sqrt{2}$ mit dem Intervallhalbierungsverfahren (Tabelle Folie 44). Berechnen Sie die nächste Zeile …",
+      "quelle": "Folie 44–45",
+      "loesung": "$i = 3$: $1{,}375 < \\sqrt{2} < 1{,}5$, Näherungswert $x_3 = 1{,}4375$.",
+      "loesungsweg": "1. Letzter Näherungswert $x_2 = 1{,}375$. Prüfen mit dem Quadrat: $1{,}375^2 = 1{,}890625 < 2$ → $\\sqrt{2}$ liegt **rechts** von $1{,}375$. Neue linke Grenze $1{,}375$, rechte bleibt $1{,}5$.\n2. Intervall: $1{,}375 < \\sqrt{2} < 1{,}5$ (Kontrolle: $1{,}890625 < 2 < 2{,}25$).\n3. Mitte: $x_3 = \\dfrac{1{,}375 + 1{,}5}{2} = \\dfrac{2{,}875}{2} = 1{,}4375$.\n4. Ausblick: $1{,}4375^2 = 2{,}06640625 > 2$ → im nächsten Schritt wird $1{,}4375$ die rechte Grenze.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "text": "Gesucht ist $x = \\sqrt{6}$ mit dem Verfahren von Heron, Startwert aus $2 < \\sqrt{6} < 3$. Bestimmen Sie $x_0$, $x_1$, $x_2$ (Tabelle Folie 51).",
+      "quelle": "Folie 51–53",
+      "loesung": "$x_0 = \\frac{5}{2}$, $x_1 = \\frac{49}{20}$, $x_2 = \\frac{4801}{1960} \\approx 2{,}44948979$ (Folie 52: $x_3 = \\frac{46099201}{18819920}$).",
+      "loesungsweg": "1. Startwert: Mitte von $2$ und $3$: $x_0 = \\frac{2 + 3}{2} = \\frac{5}{2}$.\n2. $\\frac{a}{x_0} = \\dfrac{6}{\\frac{5}{2}} = 6 \\cdot \\frac{2}{5} = \\frac{12}{5}$ (durch einen Bruch teilen = mit dem Kehrwert malnehmen).\n3. $x_1 = \\dfrac{\\frac{5}{2} + \\frac{12}{5}}{2} = \\dfrac{\\frac{25}{10} + \\frac{24}{10}}{2} = \\dfrac{\\frac{49}{10}}{2} = \\frac{49}{20}$ (Hauptnenner $10$; durch $2$ teilen = Nenner verdoppeln).\n4. $\\frac{a}{x_1} = 6 \\cdot \\frac{20}{49} = \\frac{120}{49}$.\n5. $x_2 = \\dfrac{\\frac{49}{20} + \\frac{120}{49}}{2} = \\dfrac{\\frac{49 \\cdot 49 + 120 \\cdot 20}{980}}{2} = \\dfrac{\\frac{2401 + 2400}{980}}{2} = \\dfrac{4801}{1960}$ (Hauptnenner $20 \\cdot 49 = 980$).\n6. Kontrolle (Folie 53): $x_2 \\approx 2{,}44948979$, $\\sqrt{6} \\approx 2{,}44948974$ → relativer Fehler etwa $2 \\cdot 10^{-6}\\,\\%$.",
+      "frist": "",
+      "im_kalender": false
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Mit welchen Fließkommamengen arbeiten laut Vorlesung viele einfache Taschenrechner bzw. Excel?",
+      "optionen": [
+        "Taschenrechner: $\\mathcal{F}_{10}(12, 100)$",
+        "Excel: $\\mathcal{F}_{10}(15, 308)$",
+        "Taschenrechner: $\\mathcal{F}_{10}(100, 12)$",
+        "Excel: $\\mathcal{F}_{2}(15, 308)$"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Folie 6: viele nicht programmierfähige Taschenrechner $\\mathcal{F}_{10}(12, 100)$, Excel $\\mathcal{F}_{10}(15, 308)$ – 12 bzw. 15 Ziffern Mantisse.",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "aufgabe",
+      "format": "frage",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Gib die betragsmäßig kleinste Zahl $z \\ne 0$ und die betragsmäßig größte Zahl $Z$ in $\\mathcal{F}_{10}(12, 100)$ an und begründe mit Definition 2.4.",
+      "antwort": "$z = 1{,}00000000000 \\cdot 10^{-99}$ (kleinste Mantisse $1{,}0$, kleinster Exponent $-99$, da $|-99| < 100$). $Z = 9{,}99999999999 \\cdot 10^{99}$ (größte Mantisse mit 12 Stellen, größter Exponent $99 < 100$).",
+      "erklaerung": "Folie 8–9: $z$ hat die $1$ an der 99. Nachkommastelle, $Z$ ist eine 100-stellige Zahl mit 12 Neunen und 88 Nullen.",
+      "folie": "8–9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen über Fließkommamengen stehen in der Vorlesung? (mehrere richtig)",
+      "optionen": [
+        "Es gibt eine größte und eine kleinste Fließkommazahl.",
+        "Jede Menge von Fließkommazahlen ist endlich und damit abzählbar.",
+        "Fast jede Fließkommazahl hat einen Nachfolger.",
+        "Wählt man $u$ groß genug, haben alle Zahlen nur noch kleine relative Fehler."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 10–11. Die letzte Aussage ist falsch: Egal wie hoch $u$ gewählt wird, es gibt immer Zahlen mit großem relativen Fehler.",
+      "folie": "10–11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter dem Nachfolger einer Fließkommazahl $a = m \\cdot 10^e \\in \\mathcal{F}_{10}(l, u)$ und warum interessiert uns sein Abstand?",
+      "antwort": "Die nächstgrößere Fließkommazahl $b = (m + 1 \\cdot 10^{-l+1}) \\cdot 10^e$ (letzte Mantissenstelle $+1$). Der Abstand zu ihm ist der kleinstmögliche Abstand beim Runden einer Fließkommazahl.",
+      "erklaerung": "Folie 13–15, 19.",
+      "folie": "13–15, 19",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "text": "Der absolute Abstand zwischen $a \\in \\mathcal{F}_{10}(l, u)$ und seinem Nachfolger $b$ ist $10^{e-l+1}$. Je größer der [[Exponent]] ist, desto größer ist der Abstand; je länger die [[Mantisse]] ist, desto kleiner ist er.",
+      "erklaerung": "Folie 20: $10^{e-l+1}$.",
+      "folie": "20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Bestimme den Nachfolger $b$ von $a = 1{,}25638778544 \\cdot 10^8 \\in \\mathcal{F}_{10}(12, 100)$ und berechne $dist_A(a, b)$.",
+      "musterloesung": "$b = 1{,}25638778545 \\cdot 10^8$. $dist_A(a, b) = |a - b| = 10^{-11} \\cdot 10^8 = 10^{-3} = 0{,}001$ (Formel: $10^{e-l+1} = 10^{8-12+1} = 10^{-3}$).",
+      "bewertungspunkte": [
+        "Nachfolger: letzte Mantissenstelle $+1$",
+        "Mantissendifferenz $10^{-11}$",
+        "Potenzgesetz angewandt",
+        "Ergebnis $10^{-3}$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Folie 17.",
+      "folie": "17",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Zwischen welchen Grenzen liegt der relative Abstand $dist_R(b, a)$ einer Fließkommazahl $a$ zu ihrem Nachfolger $b$ in $\\mathcal{F}_{10}(l, u)$, und warum?",
+      "antwort": "$10^{-l+1} \\ge dist_R(b, a) > 10^{-l}$, weil $dist_R(b, a) = \\frac{1}{m} \\cdot 10^{-l+1}$ und $1 \\le m < 10$ gilt (also $\\frac{1}{10} < \\frac{1}{m} \\le 1$).",
+      "erklaerung": "Folie 21–22: Der Exponent kürzt sich heraus.",
+      "folie": "21–22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Wovon hängt der Abstand einer Fließkommazahl zum Nachfolger ab? Ordne zu.",
+      "kategorien": [
+        "absoluter Abstand",
+        "relativer Abstand"
+      ],
+      "elemente": [
+        {
+          "text": "hängt vom Exponenten $e$ ab",
+          "kategorie": "absoluter Abstand"
+        },
+        {
+          "text": "hängt nur von der Mantissenlänge $l$ ab",
+          "kategorie": "relativer Abstand"
+        },
+        {
+          "text": "$10^{e-l+1}$",
+          "kategorie": "absoluter Abstand"
+        },
+        {
+          "text": "liegt in der Größenordnung $10^{-l}$",
+          "kategorie": "relativer Abstand"
+        },
+        {
+          "text": "ist relativ stabil",
+          "kategorie": "relativer Abstand"
+        }
+      ],
+      "erklaerung": "Folie 23–24: absolute Abstände variieren je nach Exponent und Mantissenlänge, relative nur nach Mantissenlänge.",
+      "folie": "23–24",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "In welcher Größenordnung liegt der Eingabefehler bei einem Taschenrechner mit sichtbarer Mantissenlänge $l = 12$? Begründe kurz.",
+      "antwort": "In der Größenordnung $10^{-12}$, weil der relative Abstand benachbarter Fließkommazahlen in der Größenordnung $10^{-l}$ liegt.",
+      "erklaerung": "Folie 25.",
+      "folie": "25",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Seien $a = 6{,}4 \\cdot 10^6$ und $b = 8{,}7 \\cdot 10^{14}$ aus $\\mathcal{F}_{10}(2, 99)$. Berechne $\\tilde{c} = a \\cdot b \\in \\mathcal{F}_{10}(2, 99)$ und den relativen Fehler.",
+      "musterloesung": "$6{,}4 \\cdot 8{,}7 = 55{,}68$, $6 + 14 = 20$ → $55{,}68 \\cdot 10^{20} = 5{,}568 \\cdot 10^{21}$ (nicht in $\\mathcal{F}_{10}(2, 99)$). Runden auf eine Nachkommastelle: $\\tilde{c} = 5{,}6 \\cdot 10^{21}$. $\\epsilon_R = \\frac{0{,}032}{5{,}568} \\approx 5{,}7 \\cdot 10^{-3}$.",
+      "bewertungspunkte": [
+        "Mantissen multipliziert, Exponenten addiert",
+        "Normalisieren auf $1 \\le m < 10$",
+        "Runden auf $l - 1 = 1$ Nachkommastelle",
+        "relativer Fehler $\\approx 5{,}7 \\cdot 10^{-3}$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Folie 27–29.",
+      "folie": "27–29",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Seien $a = 2{,}42 \\cdot 10^3$ und $b = 5{,}30 \\cdot 10^{10}$ aus $\\mathcal{F}_{10}(3, 99)$. Berechne $\\tilde{c} = a \\cdot b \\in \\mathcal{F}_{10}(3, 99)$.",
+      "musterloesung": "$2{,}42 \\cdot 5{,}30 = 12{,}826$, Exponent $13$ → $1{,}2826 \\cdot 10^{14}$ → $\\tilde{c} = 1{,}28 \\cdot 10^{14}$ ($\\epsilon_R \\approx 2{,}0 \\cdot 10^{-3}$).",
+      "bewertungspunkte": [
+        "$12{,}826 \\cdot 10^{13}$",
+        "$1{,}2826 \\cdot 10^{14}$",
+        "auf 2 Nachkommastellen gerundet: $1{,}28 \\cdot 10^{14}$"
+      ],
+      "punkte": 3,
+      "erklaerung": "Folie 30.",
+      "folie": "30",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was gilt für das Produkt $c = a \\cdot b = m \\cdot n \\cdot 10^{e+f}$ zweier Fließkommazahlen aus $\\mathcal{F}_{10}(l, u)$?",
+      "optionen": [
+        "Es ist im Allgemeinen keine Fließkommazahl aus $\\mathcal{F}_{10}(l, u)$.",
+        "Der Fehler liegt in der Größenordnung $10^{-l}$.",
+        "Je größer $l$, desto kleiner der Fehler.",
+        "Die Multiplikation ist im Fließkommabereich immer exakt."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 31: Die Multiplikation zweier Fließkommazahlen ist ungenau.",
+      "folie": "31",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "text": "Addition im Fließkommabereich: 1. An den [[höchsten]] Exponenten angleichen. 2. Mantisse auf [[l-1]] Stellen nach dem Komma runden. 3. [[Addieren]]. 4. Als [[Fließkommazahl]] darstellen.",
+      "erklaerung": "Folie 32 / 35.",
+      "folie": "32",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Seien $a = 7{,}6 \\cdot 10^0$ und $b = 9{,}9 \\cdot 10^1$ aus $\\mathcal{F}_{10}(2, 20)$. Berechne $\\tilde{c} = a + b$ in vier Schritten, nenne die Stellen, an denen Fehler entstehen, und berechne den relativen Fehler.",
+      "musterloesung": "$0{,}76 \\cdot 10^1 \\approx 0{,}8 \\cdot 10^1$ (1. Fehler) → $10{,}7 \\cdot 10^1 = 1{,}07 \\cdot 10^2$ → $\\tilde{c} = 1{,}1 \\cdot 10^2$ (2. Fehler). Exakt $106{,}6$; $\\epsilon_R = \\frac{3{,}4}{106{,}6} \\approx 3 \\cdot 10^{-2}$.",
+      "bewertungspunkte": [
+        "Angleichen an Exponent 1",
+        "Runden auf 1 Nachkommastelle (erster Fehler)",
+        "Summe $10{,}7 \\cdot 10^1$",
+        "Normalisieren und Runden (zweiter Fehler)",
+        "$\\epsilon_R \\approx 3 \\cdot 10^{-2}$"
+      ],
+      "punkte": 5,
+      "erklaerung": "Folie 32–34.",
+      "folie": "32–34",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Seien $a = 2{,}42 \\cdot 10^2$ und $b = 5{,}30 \\cdot 10^5$ aus $\\mathcal{F}_{10}(3, 20)$. Berechne $\\tilde{c} = a + b \\in \\mathcal{F}_{10}(3, 20)$.",
+      "musterloesung": "$2{,}42 \\cdot 10^2 = 0{,}00242 \\cdot 10^5 \\approx 0{,}00 \\cdot 10^5$ → $\\tilde{c} = 5{,}30 \\cdot 10^5$. Der Summand $a$ geht verloren ($\\epsilon_R \\approx 4{,}6 \\cdot 10^{-4}$).",
+      "bewertungspunkte": [
+        "Angleichen an Exponent 5",
+        "Runden auf 2 Nachkommastellen → $0{,}00$",
+        "Ergebnis $5{,}30 \\cdot 10^5$"
+      ],
+      "punkte": 3,
+      "erklaerung": "Folie 35.",
+      "folie": "35",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Addition und Subtraktion im Fließkommabereich sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Besonders kritisch ist die Subtraktion annähernd gleicher Fließkommazahlen.",
+        "Es ist sinnvoll, mit den internen (genaueren) Werten des Rechners weiterzurechnen.",
+        "Ein Taschenrechner mit $l = 12$ rechnet auf etwa $10^{-12}$ genau.",
+        "Bei der Addition entsteht ein Fehler erst beim letzten Runden."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 36–38. Der erste Fehler entsteht schon beim Angleichen/Runden in Schritt 2.",
+      "folie": "36–38",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie ist die Wurzel einer Zahl $a > 0$ nach Definition 3.1 festgelegt? Was ist $\\sqrt{121}$?",
+      "antwort": "Die Wurzel von $a$ ist diejenige positive Zahl $b \\in \\mathbb{R}$ mit $b^2 = a$; man schreibt $b = \\sqrt{a}$. $\\sqrt{121} = 11$ (nur der positive Wert).",
+      "erklaerung": "Folie 40.",
+      "folie": "40",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Beschreibe das Intervallhalbierungsverfahren zur Bestimmung von $\\sqrt{a}$.",
+      "antwort": "Zwei positive Startwerte $p, q$ mit $p^2 < a < q^2$ wählen. Mitte $b_1 = \\frac{p + q}{2}$ ist ein Näherungswert. Ist $b_1^2 \\le a$, wird $b_1$ neue linke Grenze, sonst neue rechte Grenze. Wiederholen – das Intervall halbiert sich jedes Mal, $b_j$ nähert sich $\\sqrt{a}$.",
+      "erklaerung": "Folie 42, 47.",
+      "folie": "42, 47",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Intervallhalbierung für $\\sqrt{2}$: Es gilt $1{,}25 < \\sqrt{2} < 1{,}5$ und $x_2 = 1{,}375$. Berechne die nächste Zeile ($i = 3$).",
+      "musterloesung": "$1{,}375^2 = 1{,}890625 < 2$ → neues Intervall $1{,}375 < \\sqrt{2} < 1{,}5$, $x_3 = \\frac{1{,}375 + 1{,}5}{2} = 1{,}4375$.",
+      "bewertungspunkte": [
+        "Quadrat von $1{,}375$ geprüft",
+        "richtige Grenze ersetzt",
+        "$x_3 = 1{,}4375$"
+      ],
+      "punkte": 3,
+      "erklaerung": "Folie 44–45.",
+      "folie": "44–45",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "text": "Verfahren von Heron: $x_0 :=$ positiver Startwert; der nächste Wert $x_{k+1}$ ist der [[Mittelwert]] aus $x_k$ und $\\frac{a}{x_k}$. Man nennt $(x_k)_{k=0}^{\\infty}$ die [[Iterationsfolge]] des Verfahrens.",
+      "erklaerung": "Folie 49.",
+      "folie": "49",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was bedeutet „rekursiv definierte Folge“ und warum ist die Heron-Folge eine?",
+      "antwort": "Bis auf den Startwert wird jedes Glied aus Konstanten, Rechenoperationen und bereits berechneten Vorgängern berechnet; man muss auf den Startwert zurücklaufen (lat. recurrere). Bei Heron wird $x_{k+1}$ aus $x_k$ berechnet.",
+      "erklaerung": "Folie 50.",
+      "folie": "50",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f22",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was besagt Satz 3.2, und warum ist $\\frac{a}{b}$ eine Näherung von $\\sqrt{a}$, wenn $b$ eine ist?",
+      "antwort": "Satz 3.2: Die Heron-Folge $x_{k+1} = \\frac{x_k + \\frac{a}{x_k}}{2}$ konvergiert für $a \\ge 0$ gegen $\\sqrt{a}$. Wäre $b = \\sqrt{a}$, dann wäre $\\frac{a}{b} = \\frac{a}{\\sqrt{a}} = \\sqrt{a}$; ist $b$ zu groß, ist $\\frac{a}{b}$ zu klein – das Mittel liegt dazwischen.",
+      "erklaerung": "Folie 48, 50.",
+      "folie": "48, 50",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f23",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Berechne mit dem Verfahren von Heron für $\\sqrt{6}$ mit $x_0 = \\frac{5}{2}$ die Werte $x_1$ und $x_2$ als Brüche.",
+      "musterloesung": "$x_1 = \\frac{\\frac{5}{2} + \\frac{12}{5}}{2} = \\frac{49}{20}$; $x_2 = \\frac{\\frac{49}{20} + \\frac{120}{49}}{2} = \\frac{4801}{1960}$.",
+      "bewertungspunkte": [
+        "$\\frac{6}{5/2} = \\frac{12}{5}$",
+        "$x_1 = \\frac{49}{20}$",
+        "$\\frac{6}{49/20} = \\frac{120}{49}$",
+        "$x_2 = \\frac{4801}{1960}$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Folie 51–52.",
+      "folie": "51–52",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f24",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Wo können laut Fazit der Vorlesung beim Taschenrechner Fehler entstehen? (mehrere richtig)",
+      "optionen": [
+        "bei der Eingabe von Zahlen",
+        "bei der Verarbeitung – sie ist nur so gut wie das Verfahren",
+        "bei der Ausgabe von Produkten, Summen und Differenzen",
+        "nirgends, solange man genug Stellen hat"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 54.",
+      "folie": "54",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f25",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Eine Schülerin fragt: „Warum zeigt der Taschenrechner $\\sqrt{2}$ an, wenn er die Zahl gar nicht genau kennt?“ Erkläre ihr in einfachen Worten, wie der Rechner eine Wurzel berechnet und warum das Ergebnis nur eine Näherung ist. Vergleiche dabei Intervallhalbierung und Heron.",
+      "musterloesung": "Der Rechner speichert nur endlich viele Ziffern; $\\sqrt{2}$ hat unendlich viele ohne Muster. Er rechnet deshalb mit einem Verfahren Schritt für Schritt Näherungswerte aus. Intervallhalbierung: Bereich, in dem die Wurzel liegt, immer halbieren – sicher, aber für $\\sqrt{2}$ erst nach ca. 20 Schritten auf $10^{-7}$ genau. Heron: Mittelwert aus Schätzwert und $2$ geteilt durch Schätzwert – nach wenigen Schritten so genau, wie der Rechner anzeigen kann. Das Ergebnis bleibt eine Fließkommazahl, also gerundet.",
+      "bewertungspunkte": [
+        "endliche Speicherung / Fließkommazahl",
+        "Idee: Näherung in Schritten",
+        "Intervallhalbierung erklärt, langsam",
+        "Heron erklärt, schnell",
+        "kindgerechte Sprache"
+      ],
+      "punkte": 5,
+      "erklaerung": "Verknüpft Folie 5–12, 42–53 mit Unterricht.",
+      "folie": "41–54",
+      "pruefungsrelevant": false
+    }
+  ],
+  "pruefungshinweise": [
+    "Keine ausdrücklichen Prüfungshinweise in VL 3. Laut VL 1 orientieren sich die Klausuraufgaben sehr nah an den Übungsaufgaben – zu VL 3 gehört Übungsblatt 4 (Seminar 4 am 03.11.)."
+  ],
+  "offene_fragen": [
+    "Folie 3 / Def. 2.4: Bedingung 3 lautet $e < u$, auf Folie 8–9 wird aber $|-99| < 100$ bzw. $|99| < 100$ geprüft. Gemeint ist wohl $|e| < u$ – sonst wären beliebig kleine Exponenten erlaubt.",
+    "Folie 26 (Fazit): „Fehler, der mind. dem Abstand einer Fließkommazahl zu ihrem Nachfolger entspricht.“ Beim Runden ist der Fehler eher *höchstens* so groß wie dieser Abstand (beim kaufmännischen Runden sogar höchstens die Hälfte). Ist „mindestens“ so gemeint?",
+    "Folie 37: Gesucht ist $c = a - b$, rechts steht aber $\\tilde{c} = \\tilde{b} - \\tilde{a}$ (Reihenfolge vertauscht); das Ergebnis $132\\,530\\,000$ passt zu $a - b$.",
+    "Folie 32–33: In der Aufgabenstellung steht „$c \\in \\mathcal{F}_{10}(2, 20)$“ ohne Schlange – gemeint ist $\\tilde{c}$.",
+    "Folie 49 / 50: $k \\in \\mathbb{N}$ – beginnt $\\mathbb{N}$ hier bei $0$? Sonst fehlt der Schritt von $x_0$ zu $x_1$. Außerdem verlangt Def. 3.1 $a > 0$, Satz 3.2 sagt $a \\ge 0$.",
+    "VL 4 (03.11.) zum Selbstlernen: Wo genau liegen die Excel-Aufgaben (Stud.IP-Ordner)? Noch nicht im mab004-Ordner."
+  ]
+}

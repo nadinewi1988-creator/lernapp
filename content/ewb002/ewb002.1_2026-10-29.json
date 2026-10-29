@@ -1,0 +1,663 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb002",
+  "teilmodul": "ewb002.1",
+  "datum": "2026-10-29",
+  "sitzung_nr": 3,
+  "sitzung_id": "",
+  "thema": "Untersuchungsplanung. Wichtige Schritte bei der Planung, Durchführung und Berichtlegung von empirischen Untersuchungen",
+  "thema_in_app": "",
+  "stand": "geprueft",
+  "hinweis": "Live-online-Vorlesung (BigBlueButton) bei Dominik Brodowy in Vertretung von Prof. Zimmer. Grundlage: Folien plus Transkript von Nadines Bildschirmaufnahme (88 Min., automatisch transkribiert). Mündliche Erklärungen sind mit Zeitmarke [MM:SS] gekennzeichnet. Theorien und Hypothesen (VL S02) wurden nicht nachgeholt.",
+  "quellen": [
+    {
+      "datei": "ewb002.1/03_ewb002vor_Untersuchungsplanung_wise_26_27.pdf",
+      "art": "Folien",
+      "seiten": "1–25"
+    },
+    {
+      "datei": "ewb002.1/ScreenRecording_10-29-2026 08-32-45_1.MP4",
+      "art": "Aufnahme (Transkript)",
+      "seiten": "00:00–88:22"
+    },
+    {
+      "datei": "Literatur/Haeder_2019_Empirische-Sozialforschung.pdf",
+      "art": "Literaturempfehlung (Hausaufgabe h01)",
+      "seiten": "73–83"
+    },
+    {
+      "datei": "Literatur/Tachtsoglou-Koenig_2017_Statistik-fuer-Erziehungswissenschaftler.pdf",
+      "art": "Literaturempfehlung (Hausaufgabe h01)",
+      "seiten": "258–270"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Du kannst qualitative und quantitative Forschung nach Grundhaltung, Zielen und Methoden unterscheiden.",
+      "art": "abgeleitet",
+      "quelle": "Folien 4–7",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03",
+        "f04",
+        "f05"
+      ],
+      "erklaerung_abschnitt": "Qualitative und quantitative Forschung"
+    },
+    {
+      "text": "Du kannst den sequenziellen quantitativen und den zirkulären (iterativen) qualitativen Forschungsprozess beschreiben.",
+      "art": "abgeleitet",
+      "quelle": "Folie 8",
+      "fragen": [
+        "f06",
+        "f07"
+      ],
+      "erklaerung_abschnitt": "Der Forschungsprozess"
+    },
+    {
+      "text": "Du kannst die fünf Schritte der Untersuchungsplanung nennen und erklären, was in jedem Schritt zu entscheiden ist.",
+      "art": "abgeleitet",
+      "quelle": "Folien 9–17",
+      "fragen": [
+        "f08",
+        "f09",
+        "f10",
+        "f11",
+        "f12",
+        "f13",
+        "f19",
+        "f20"
+      ],
+      "erklaerung_abschnitt": "Fünf Schritte der Untersuchungsplanung"
+    },
+    {
+      "text": "Du kannst Auswahlverfahren unterscheiden (Zufallsauswahl, Auswahl nach Kriterien, nach Verfügbarkeit, Vollerhebung) und den Begriff Repräsentativität kritisch einordnen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 13–14",
+      "fragen": [
+        "f14",
+        "f15",
+        "f16",
+        "f17",
+        "f18"
+      ],
+      "erklaerung_abschnitt": "Auswahl der Teilnehmenden und Repräsentativität"
+    }
+  ],
+  "kurzfassung": [
+    "Qualitative Forschung will verstehen (offen, nicht standardisiert, wenige Fälle, hypothesengenerierend), quantitative Forschung will erklären (standardisiert, viele Fälle, hypothesenprüfend).",
+    "Der quantitative Forschungsprozess läuft sequenziell in festen Schritten, der qualitative zirkulär bzw. iterativ: Stichprobe, Erhebung, Aufbereitung und Analyse werden wiederholt durchlaufen.",
+    "Eine Untersuchung wird in fünf Schritten geplant: Fragestellung entwickeln, Forschungsdesign, Datenerhebung, Auswertung, Berichtlegung.",
+    "Im Forschungsdesign wird entschieden über Vorgehen (z. B. Längsschnitt), Untersuchungsgegenstand, Ressourcen, Methodik, Auswahl der Teilnehmenden, Genehmigungen und Datenschutz.",
+    "Bei einer Zufallsauswahl haben alle Elemente der Grundgesamtheit dieselbe Chance, in die Stichprobe zu gelangen – eine willkürliche Auswahl („wen ich gerade treffe“) ist keine Zufallsauswahl.",
+    "„Repräsentativität“ ist kein statistischer Fachbegriff und kein klar definiertes Gütekriterium – mit dem Begriff vorsichtig umgehen.",
+    "Ein Bericht muss vollständig, transparent und nachvollziehbar sein; Grenzen der eigenen Arbeit offen zu benennen ist eine Stärke."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Qualitative und quantitative Forschung",
+      "text": "Brodowy knüpft an Seminar S01 an [04:05]: Der **Leitfaden** war ein Beispiel für ein Erhebungsinstrument der **qualitativen**, der **Fragebogen** eines der **quantitativen** Forschung.\n\n**Forschungsansätze (Folie 5, variiert nach Herzog 2013, S. 155):**\n\n| Qualitative Forschung | Quantitative Forschung |\n| --- | --- |\n| „Verstehen“ | „Erklären“ |\n| eher Nähe zur Alltagswelt | eher Ferne der Alltagswelt |\n| qualitative Zusammenhänge | quantitative Zusammenhänge |\n| Induktion | Deduktion |\n| Einzelfallorientierung | allgemeine Prinzipien / Regeln finden |\n| ideographisches Paradigma | nomothetisches Paradigma |\n| geringere Vergleichbarkeit | höhere Vergleichbarkeit |\n| geringere Standardisierung des Vorgehens | höherer Standardisierungsgrad |\n\n„Mixed Methods“ – Kombination beider Forschungsrichtungen.\n\n**Mündlich erklärt:**\n• **Induktion** = vom Einzelfall zur Regel, **Deduktion** = umgekehrt: aus Theorie und Hypothesen wird abgeleitet [07:14].\n• **ideographisch** = bezogen auf den konkreten Einzelfall; **nomothetisch** = Gesetzmäßigkeiten aufstellen [81:16].\n• **Merktipp des Dozenten** (mehrfach betont): qualitativ = **nicht standardisiert**, quantitativ = **standardisiert** – „das ist etwas, was sicherlich viel erklären kann“ [06:54, 83:13].\n• Welche Richtung passt, hängt immer von der **Fragestellung** ab [08:00].\n• Kritik: Qualitative Methoden haben eine geringere **Intersubjektivität**; Objektivität ist quantitativ leichter zu erreichen [10:02].\n\n**Kurz erklärt:** Die Tabelle lässt sich auf eine Grundidee zurückführen. **Qualitative** Forschung will einen Menschen oder Fall **von innen verstehen**: Warum erlebt jemand etwas so? Dafür braucht man Offenheit (keine vorgegebenen Antworten), wenige Fälle und Deutung – deshalb ist sie **nicht standardisiert**, schwer vergleichbar und arbeitet **induktiv** (aus den Fällen entstehen Ideen). **Quantitative** Forschung will einen Zusammenhang **von außen erklären** und messen: Wie oft, wie stark, hängt X mit Y zusammen? Dafür müssen alle gleich gefragt werden – deshalb ist sie **standardisiert**, gut vergleichbar, arbeitet mit vielen Fällen und **deduktiv** (aus einer Theorie wird eine Hypothese abgeleitet und geprüft).\n\n**So erkennst du es in der Klausur:** Stehen in einem Fallbeispiel *Erzählaufforderung, Leitfaden, wenige Personen, Sichtweisen* → qualitativ. Stehen dort *Fragebogen mit Ankreuzfeldern, Hypothese, viele Befragte, Zusammenhang prüfen* → quantitativ. Beides zusammen in einer Studie → **Mixed Methods**.",
+      "folien": "4–5"
+    },
+    {
+      "titel": "Ziele und Methoden",
+      "text": "**Ziele (Folie 6):**\n\n| Ziele qualitativer Forschung | Ziele quantitativer Forschung |\n| --- | --- |\n| Entdecken von Strukturen und Zusammenhängen | Präzisierung von Strukturen |\n| Einbettung des Einzelfalls in Strukturen | globale Betrachtung einer möglichst großen Anzahl von Fällen |\n| Herausarbeiten individueller Besonderheiten | Ausblenden individueller Besonderheiten zugunsten genereller Tendenzen |\n| **hypothesen-/theoriegenerierend** | **hypothesen-/theorieprüfend** |\n\n**Methoden (Folie 7):**\n\n| qualitativ | quantitativ |\n| --- | --- |\n| breite Informationssammlung aus möglichst vielfältigen Perspektiven, möglichst wenig selektiv | detaillierte gedankliche Vorstrukturierung des „relevanten Gegenstandsbereiches“, gezielt selektive Datenerhebung |\n| Offenheit gegenüber allen unerwarteten Erkenntnissen | Bilden von Hypothesen, die untersuchungsleitend sind |\n| Notwendigkeit der „Deutung“ der Informationen zur Gewinnung von „Daten“ | Einsatz verbindlicher standardisierter Verfahren und Methoden |\n| gegenstandsnahe Daten | unmittelbar vergleichbare Daten; Repräsentativität der Daten |\n\n**Mündlich erklärt:**\n• Qualitativ oft **weniger als 20 Befragte**; Repräsentativität ist dort kein Ziel [08:18, 12:45].\n• Hypothesen in der qualitativen Forschung: eher **unüblich vorab**; Vorannahmen aber **offenlegen**, weil sie die Fragen lenken können. Hypothesen entstehen eher **nach** der Erhebung (z. B. nach zehn Interviews zur Studienzufriedenheit) [14:10].\n• Quantitativ: Hypothesen stehen **am Anfang**, stammen aus der Literaturrecherche und werden später **statistisch getestet** – wer Hypothesen prüft, prüft damit auch die Theorie [16:25].\n• **Offenheit** ist ein Grundprinzip der qualitativen Forschung: Befragte sagen, was sie sagen wollen, wie sie es sagen wollen; man kann im Interview flexibel auf neue Themen eingehen. Beim standardisierten Vorgehen darf man keine Zusatzfragen stellen [18:26–20:16].\n\n**Kurz erklärt:** Warum ist qualitative Forschung **hypothesengenerierend**? Weil man vorher bewusst *nicht* festlegt, was herauskommen soll – man will Neues entdecken. Erst aus den Interviews entstehen Vermutungen. Quantitative Forschung ist **hypothesenprüfend**, weil man schon vorher weiß, welchen Zusammenhang man testen will; der Fragebogen fragt deshalb **gezielt selektiv** nur das ab, was für die Hypothese nötig ist. Der Preis: Unerwartetes kann ein Fragebogen kaum zeigen – das ist die Stärke der **Offenheit** im Leitfadeninterview.",
+      "folien": "6–7"
+    },
+    {
+      "titel": "Der Forschungsprozess",
+      "text": "**Folie 8 (aus Döring & Bortz 2017, S. 27):**\n\n| Quantitativer Forschungsprozess (sequenziell) | Qualitativer Forschungsprozess (zirkulär, „eher: iterativ“) |\n| --- | --- |\n| 1. Forschungsthema und Forschungsproblem | 1. Forschungsthema und Forschungsproblem |\n| 2. Forschungsstand und theoretischer Hintergrund | 2. Forschungsstand und theoretischer Hintergrund |\n| 3. Untersuchungsdesign | 3. Untersuchungsdesign |\n| 4. **Operationalisierung** | 4.–7. Schleife: Stichprobenziehung → Datenerhebung → Datenaufbereitung → Datenanalyse → wieder Stichprobenziehung … |\n| 5. Stichprobenziehung | 8. **Hypothesen- und Theoriebildung** |\n| 6. Datenerhebung | 9. Ergebnispräsentation |\n| 7. Datenaufbereitung | |\n| 8. Datenanalyse | |\n| 9. Ergebnispräsentation | |\n\n**Mündlich erklärt:**\n• **Iterativ** = wiederholend [27:04]. Beispiel: Man interviewt acht, neun Leute, merkt, dass Informationen fehlen, überlegt, wen man noch befragt, und durchläuft die Schritte erneut – evtl. mit überarbeitetem Leitfaden. Die Spirale endet, wenn ein weiterer Durchlauf nichts Neues mehr bringt [25:06, 27:21].\n• Auch quantitativ kann man einen Schritt zurückgehen, aber nicht in diesem Ausmaß [23:34].\n• Operationalisierung braucht man, wenn eine Variable **latent** ist [23:04].\n\n**Kurz erklärt:** Quantitativ muss vor der Erhebung alles feststehen (Hypothesen, Messung, Stichprobe), denn ein ausgeteilter Fragebogen kann nicht mehr geändert werden – deshalb **sequenziell**, Schritt für Schritt. Qualitativ weiß man am Anfang noch nicht genau, wen und was man fragen muss; jede Analyse zeigt neue Lücken. Deshalb läuft man die Schleife Stichprobe → Erhebung → Aufbereitung → Analyse **mehrmals (iterativ)** und bildet erst am Ende Hypothesen und Theorie. Die **Operationalisierung** als eigener Schritt gibt es nur quantitativ, weil nur dort latente Begriffe vorab messbar gemacht werden müssen.",
+      "folien": "8"
+    },
+    {
+      "titel": "Fünf Schritte der Untersuchungsplanung",
+      "text": "**Vorgehen im quantitativen Forschungsparadigma (Folie 9, nach Herfter und Rahtjen; Rahtjen 2013):**\n• **Entwicklung der Fragestellung:** von der Problemformulierung zur Präzisierung der Fragestellung\n• **Forschungsdesign:** Auswahl der Forschungsmethode, Planung und Vorbereitung der Untersuchung\n• **Durchführung der Untersuchung:** Datenerhebung\n• **Auswertung der Daten**\n• **Berichtlegung:** Interpretation, Ausblick und Transfer\n\nDie Schritte sind aufeinander abgestimmt; je nach Lehrbuch gibt es unterschiedlich viele (Döring & Bortz: neun, hier: fünf), der Sinn ist aber vergleichbar [28:58].\n\n**1. Präzisierung der Fragestellung (Folie 11) – Aufgaben:**\n• Forschungsgegenstand eingrenzen\n• Stand der Forschung und theoretischer Rahmen sichten\n• evtl. eine Replikationsstudie durchführen?\n• über die angestrebte Verallgemeinerbarkeit / Generalisierbarkeit der Ergebnisse klar werden\n• gerne eine W-Frage formulieren: was, wie, warum, welche?\n\nMündlich: Die Frage muss sich **durch eine Erhebung empirisch beantworten** lassen; oft entsteht sie aus einer **Forschungslücke** in der Literatur [31:12]. Die Forschungsfrage kann sich im Verlauf noch ändern – auch quantitativ [40:48].\n\n**2. Forschungsdesign (Folien 12–13)** – Leitfrage: *Wer oder was steht im Blickpunkt der Erhebung?* Aufgabe: eine inhaltlich und organisatorisch **realistische und umsetzbare** Forschung entwerfen und sich mit Erhebungsinstrumenten ausstatten. Zu entscheiden:\n• **Vorgehen**, z. B. retrospektiv, Momentaufnahme, Längsschnittstudie\n• **Untersuchungsgegenstand**, z. B. Personen, Klassen, Schulen, Texte\n• **Ressourcen**: Zeit, Personen, Technik, Kompetenzen, Erfahrungen, Finanzen\n• **Methodik**, z. B. Befragung, Beobachtung, Sekundäranalyse bereits verfügbarer Daten/Texte\n• **Auswahl der Teilnehmenden** (siehe nächster Abschnitt)\n• Erhebungsinstrument an die **Eigenschaften der Teilnehmenden** anpassen!\n• **Genehmigungen bzw. Einwilligungen** einholen; ggf. **Datenschutz- und Ethikprüfung**\n\n**Mündlich erklärt:**\n• **Retrospektiv** = rückblickend („Wie haben Sie Ihre Schulzeit erlebt?“), **Momentaufnahme** = aktuell („Wie erleben Sie Ihr Studium jetzt?“) [52:42].\n• **Querschnittstudie** = einmalige Erhebung; **Längsschnittstudie** = mehrfache Erhebung – entweder **immer dieselben** Personen (z. B. vor dem Abitur, danach, Jahre später) oder **unterschiedliche** Personen (z. B. regelmäßige Jugendstudien) [50:24, 53:41].\n• **Befragung** für subjektive Sichtweisen („Wie gefällt Ihnen Vechta?“); **Beobachtung** für tatsächliches Verhalten – Beispiel Ampel: Gefragt sagen Leute vielleicht, sie gehen nie bei Rot, beobachtet sieht man, was sie wirklich tun [36:39–38:08].\n• **Sekundäranalyse**: vorhandene Datensätze neu auswerten; **Textanalyse** ohne eigene Erhebung [38:08].\n• Eigenschaften der Teilnehmenden: Kinder brauchen einen ansprechenden, kindgerechten Fragebogen; Ärzt*innen verstehen Fachbegriffe, Laien nicht [39:05].\n• **Schulen**: Genehmigung der Schulbehörde nötig, je nach Bundesland unterschiedlich [36:03, 60:21]; ohne **Einwilligung** keine Teilnahme.\n• Ressourcen realistisch planen: Bachelorarbeit allein ist etwas anderes als ein Team von 30 Leuten [49:40].\n\n**3. Datenerhebung (Folie 15):**\n• Herzstück der ganzen Arbeit\n• sorgfältige Sammlung der Daten zentral für die Güte der gesamten Arbeit\n• Vorgehen bei der Erhebung selbst, alle Vorkommnisse gut dokumentieren\n• Datenschutz beachten!\n\nMündlich: Auch **Störungen** dokumentieren – z. B. Eltern kommen bei der Befragung Jugendlicher in den Raum; bei sensiblen Themen spielt der **Ort** eine Rolle [66:16]. **Freiwilligkeit** gehört dazu [42:32].\n\n**4. Auswertung (Folie 16):**\n• Aufbereiten und Verdichten des Materials, zur Beschreibung der Daten oder zum Testen von Hypothesen\n• in Bezug auf die Beantwortung der Forschungsfragestellung\n• was ausgewertet wird, und wie, ist abhängig von der Forschungsfrage\n• ein gut geplanter Versuch: Es wird nur erhoben, was auch ausgewertet wird – **möglichst sparsam, aber umfassend genug** zur Beantwortung der Fragestellung\n\n**5. Berichtlegung – Interpretation und Diskussion (Folie 17, Herfter und Rahtjen 2013, S. 119):**\n• Was bedeuten die Ergebnisse in Bezug auf die eigene Fragestellung?\n• … verglichen mit früheren Befunden?\n• … für die Theorieentwicklung?\n• Gab es überraschende Befunde?\n• Welche Grenzen hat die eigene Arbeit?\n• Passen die Daten noch zur Forschungsfrage?\n• Sind erwartete Effekte eingetreten?\n• Gab es störende Einflüsse?\n• Sind die Ergebnisse auf andere Sachverhalte übertragbar?\n• Welche Konsequenzen ergeben sich aus der Untersuchung?\n\nMündlich: Ein Bericht kann mündlich oder schriftlich sein (Bachelor-/Masterarbeit, Zeitschriftenartikel, Buch, Homepage). Er muss **vollständig, transparent und nachvollziehbar** sein [75:08]. **Grenzen offen benennen ist eine Stärke**, kein Makel – z. B.: Wer nur Lehramtsstudierende in Vechta befragt hat, kann keine Aussage über andere Fächer oder Universitäten treffen [45:30, 75:56].\n\n**Hinweis (Folie 18):** Leitfaden zum wissenschaftlichen Arbeiten der Erziehungswissenschaften an der Uni Vechta – Website „Erziehungswissenschaften / Für Studierende: Leitfaden“.\n\n**Kurz erklärt – die Logik dahinter:** Jeder Schritt baut auf dem vorherigen auf. Die **Fragestellung** bestimmt, welches **Design** passt (Befragung für Sichtweisen, Beobachtung für Verhalten; Querschnitt für einen Zeitpunkt, Längsschnitt für Entwicklung). Das Design bestimmt, wie man **erhebt**. Was man erhebt, bestimmt, was man **auswerten** kann (deshalb: nur erheben, was man auch auswertet). Und die Auswertung bestimmt, was man im **Bericht** behaupten darf – und wo die **Grenzen** liegen. Merksatz: *Frage → Design → Erhebung → Auswertung → Bericht.*\n\n**Typische Klausurfrage:** „Skizzieren Sie, wie Sie vorgehen …“ – dann die fünf Schritte am Fallbeispiel durchgehen und bei jedem Schritt *eine konkrete Entscheidung* nennen (z. B. Design: Längsschnitt, weil Entwicklung untersucht wird; Auswahl: Zufallsstichprobe, weil verallgemeinert werden soll; Bericht: Grenze nennen).",
+      "folien": "9–18"
+    },
+    {
+      "titel": "Auswahl der Teilnehmenden und Repräsentativität",
+      "text": "**Auswahl der Teilnehmenden (Folie 13):**\n• Zufallsauswahl, Auswahl nach Kriterien, Auswahl nach Verfügbarkeit, Vollerhebung\n• einstufige Auswahl, mehrstufige Auswahl (z. B. Land, Ort, Schule …)\n• Die Form der Auswahl hat Auswirkungen auf die **Verallgemeinerbarkeit** der Ergebnisse.\n\n**Mündlich erklärt [55:03–59:31]:**\n• **Grundgesamtheit** = die Personengruppe, auf die ich mich beziehe (z. B. alle Studierenden im Modul ewb002 – oder alle Studierenden der Uni Vechta: eine andere Grundgesamtheit).\n• **Zufallsauswahl**: Alle Personen der Grundgesamtheit haben **dieselbe Chance**, in die Stichprobe zu gelangen. Beispiel: Liste aller ewb002-Teilnehmenden, per Würfel einen Startpunkt wählen, dann jede 10. Person.\n• **Vollerhebung**: alle werden befragt.\n• **Auswahl nach Kriterien**: Quotenstichprobe.\n• **Auswahl nach Verfügbarkeit** = willkürliche Auswahl, z. B. wen ich gerade auf dem Campus treffe – **nicht gleichzusetzen mit einer Zufallsauswahl!**\n• **Mehrstufig**: erst Bundesland, dann Ort, dann Schule.\n• Die Fragebogen-Erhebung von Frau Wübbelmann in den Seminaren ist **keine Zufallsauswahl**, sondern eine angestrebte **Vollerhebung** aller ewb002-Studierenden – auch wenn nie alle erreicht werden [57:40, 80:04].\n\n**Einschub Repräsentativität (Folie 14):**\n„Werden Zufallsstichproben unter idealen Bedingungen gezogen, tendieren diese dazu, eine ‚verkleinerte Abbildung‘ der Grundgesamtheit darzustellen. Man erwartet dann, dass in der Stichprobe die Gestalt der Verteilungen und die statistischen Beziehungen zwischen den Variablen so geartet sind wie in der Grundgesamtheit. Zumeist wird diese Eigenschaft von Zufallsstichproben in der angewandten Sozialforschung (wie Markt- und Meinungsforschung) als ‚Repräsentativität‘ bezeichnet. […] Der Begriff ‚Repräsentativität‘ ist allerdings kein statistischer Fachbegriff. Er stellt in der Sozialforschung kein klar definiertes Gütekriterium dar und wird von vielen Sozialforschern sogar vermieden.“ (Diaz-Bone 2006, S. 132)\n\nAlternativ: „repräsentativ nach bestimmten Kriterien“, die für die Grundgesamtheit spezifiziert werden.\n\nMündlich [62:50–64:42]: **Vorsichtig** mit dem Begriff umgehen. Selbst eine vollständige Befragung aller ewb002-Studierenden erlaubt Aussagen über **dieses Modul** – nicht über alle Studierenden in Vechta, Niedersachsen oder Deutschland.\n\n**Kurz erklärt:** Warum ist die Zufallsauswahl so wichtig? Nur wenn der **Zufall** entscheidet, wer mitmacht, kann man sicher sein, dass die Stichprobe die Grundgesamtheit nicht systematisch verzerrt. Wer nur Leute in der Mensa fragt, erwischt nie die, die nicht in die Mensa gehen – das Ergebnis sagt dann etwas über Mensagänger*innen, nicht über alle Studierenden. Deshalb erlaubt nur eine Zufallsauswahl den Schluss von der Stichprobe auf die Grundgesamtheit (Inferenzstatistik, kommt im Dezember).\n\n**Prüfungsfalle:** „Zufällig getroffen“ ≠ Zufallsauswahl. Und eine **Vollerhebung** ist keine Stichprobe – man befragt alle, kann dann aber auch nur über *diese* Gruppe sprechen. „Repräsentativ“ also immer kritisch hinterfragen: *repräsentativ für wen, nach welchen Merkmalen, wie wurde ausgewählt?*",
+      "folien": "13–14"
+    },
+    {
+      "titel": "Organisatorisches und Vorbereitung aufs Seminar",
+      "text": "• **Ab der kommenden Woche (05.11.) beginnt die Online-VL donnerstags um 8:15 Uhr** statt 8:30 Uhr – auf Wunsch der Studierenden [85:33–86:42].\n• Herr Brodowy vertritt Frau Zimmer **mindestens den ganzen nächsten Monat** [87:01].\n• Nächste VL (05.11.): **Messtheorie** – Operationalisierung, Messen, Skalenniveaus.\n• Seminar S04 (03.11.): Untersuchungsplanung und Auswahlverfahren. Ausdrücklicher Hinweis: Die Literatur zu den **Auswahlverfahren** „sollten Sie unbedingt lesen“ – wichtig ist zu wissen, was eine **Vollerhebung**, eine **Zufallsauswahl** und eine **willkürliche Auswahl** ist [83:41]. → Hausaufgabe h01.\n• Fragen: in Präsenz oder im Forum der Vorlesung auf Stud.IP (Folie 25).",
+      "folien": "20–25"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Induktion",
+      "wortlaut": "vom Einzelfall zu einer Regel (mündlich, [07:14])",
+      "erklaerung": "Aus vielen Beobachtungen wird eine allgemeine Aussage gewonnen – typisch für qualitative Forschung.",
+      "folie": "5 · VL [07:14]"
+    },
+    {
+      "begriff": "Deduktion",
+      "wortlaut": "umgekehrt: Ich habe meine Theorie und meine Hypothesen und leite daraus ab (mündlich, [07:22])",
+      "erklaerung": "Aus einer Theorie werden prüfbare Hypothesen abgeleitet – typisch für quantitative Forschung.",
+      "folie": "5 · VL [07:22]"
+    },
+    {
+      "begriff": "Ideographisches Paradigma",
+      "wortlaut": "Einzelfallorientierung (Folie 5); konkreter Bezug auf einen Einzelfall, den ich betrachte (mündlich, [82:36])",
+      "erklaerung": "Den einzelnen Fall in seiner Besonderheit verstehen – qualitative Forschung.",
+      "folie": "5"
+    },
+    {
+      "begriff": "Nomothetisches Paradigma",
+      "wortlaut": "Allgemeine Prinzipien / Regeln finden (Folie 5); Gesetzmäßigkeiten aufstellen (mündlich, [82:36])",
+      "erklaerung": "Allgemeine Gesetzmäßigkeiten über viele Fälle finden – quantitative Forschung.",
+      "folie": "5"
+    },
+    {
+      "begriff": "Iterativ",
+      "wortlaut": "wiederholend (mündlich, [27:04]); qualitativer Forschungsprozess: zirkulär, „eher: iterativ“ (Folie 8)",
+      "erklaerung": "Stichprobe, Erhebung, Aufbereitung und Analyse werden mehrmals durchlaufen, bis nichts Neues mehr hinzukommt.",
+      "folie": "8"
+    },
+    {
+      "begriff": "Querschnittstudie / Längsschnittstudie",
+      "wortlaut": "Querschnitt: einmalige Datenerhebung; Längsschnitt: mehrfache Erhebung – mit denselben oder mit unterschiedlichen Personen (mündlich, [53:41])",
+      "erklaerung": "Momentaufnahme vs. Entwicklung über die Zeit.",
+      "folie": "12 · VL [53:41]"
+    },
+    {
+      "begriff": "Grundgesamtheit",
+      "wortlaut": "die Personengruppe, auf die ich mich beziehe (mündlich, [55:24])",
+      "erklaerung": "Alle, über die eine Aussage getroffen werden soll – z. B. alle ewb002-Studierenden.",
+      "folie": "13 · VL [55:24]"
+    },
+    {
+      "begriff": "Zufallsauswahl",
+      "wortlaut": "alle Personen, die zur Grundgesamtheit gehören, haben dieselbe Chance, in die Stichprobe zu gelangen (mündlich, [56:01])",
+      "erklaerung": "Der Zufall entscheidet, nicht die forschende Person.",
+      "folie": "13 · VL [56:01]"
+    },
+    {
+      "begriff": "Repräsentativität",
+      "wortlaut": "„Werden Zufallsstichproben unter idealen Bedingungen gezogen, tendieren diese dazu, eine ‚verkleinerte Abbildung‘ der Grundgesamtheit darzustellen. […] Der Begriff ‚Repräsentativität‘ ist allerdings kein statistischer Fachbegriff. Er stellt in der Sozialforschung kein klar definiertes Gütekriterium dar und wird von vielen Sozialforschern sogar vermieden.“ (Diaz-Bone 2006, S. 132)",
+      "erklaerung": "Die Stichprobe soll ein Miniaturbild der Grundgesamtheit sein – den Begriff vorsichtig verwenden.",
+      "folie": "14"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Textvorbereitung S04: Häder (2019), Tachtsoglou/König (2017) – 3 Leitfragen",
+      "text": "Vorbereitung für die Seminareinheit in der nächsten Woche. Literaturempfehlung:\n• Häder, M. (2019): Empirische Sozialforschung. Eine Einführung. Kapitel 4 Forschungs- und Untersuchungsplanung / 4.1 Phasen eines Empirischen Projekts (S.73 - 83). Wiesbaden: Springer.\n• Tachtsoglou, S./König, J. (2017): Statistik für Erziehungswissenschaftlerinnen und Erziehungswissenschaftler. Kapitel 10.1 - 10.5 Stichprobe und Grundgesamtheit (S. 258-270). Wiesbaden: Springer.\n\nBitte arbeiten Sie zur Vorbereitung auf die nächste Seminareinheit die Vorlesungsfolien, lesen Sie die Textauszüge und bringen Sie Ihre Fragen zum Seminar mit.\n\nLeitfragen für die Literatur – Bitte beantworten Sie anhand der Texte die folgenden Leitfragen:\n1. Welche Phasen gibt es laut Häder in einem Forschungsprozess?\n2. Was ist mit zufallsgesteuerten Auswahlverfahren gemeint?\n3. Was ist mit nicht-zufallsgesteuerten Auswahlverfahren gemeint?",
+      "quelle": "Folien 21–22",
+      "loesung": "**Leitfrage 1:** *„Welche Phasen gibt es laut Häder in einem Forschungsprozess?“*\n\n**Antwort:**\nHäder (2019, S. 74 f.) unterscheidet in Anlehnung an Diekmann **fünf Phasen**. Eine Phase gilt als abgeschlossen, wenn ein bestimmtes **Ergebnis** („Zwischenprodukt“, „Meilenstein“) vorliegt – das Modell ist **ergebnisorientiert**.\n\n| Phase | Inhalt | Ergebnis |\n| --- | --- | --- |\n| 1. Erstellung des Projektplans | Formulierung und Präzisierung des Forschungsproblems; Literaturstudium; prüfen, ob das Problem empirisch bearbeitbar ist; abhängige und unabhängige Variablen festlegen (S. 75–79) | Projektbeschreibung, z. B. Antrag, Bewerbung auf eine Ausschreibung, Exposé für eine Graduierungsarbeit |\n| 2. Ausarbeitung des Untersuchungsdesigns und der Erhebungsinstrumente | Erhebungsform wählen (Beobachtung, Befragung, Inhaltsanalyse), Instrument erstellen und im **Pretest** prüfen, Auswahlverfahren festlegen (z. B. einfache Zufallsauswahl, Klumpenauswahl, Quotenstichprobe), Hypothesen konkretisieren und operationalisieren (S. 79–81) | Forschungsdesign mit fertigen Instrumenten (Fragebogen, Beobachtungsprotokoll, Codierschema) |\n| 3. Erhebung im Feld und Erstellung des Datensatzes | Feldarbeit, oft durch kommerzielle Institute oder in Eigenleistung (S. 81 f.) | quantitativ: **maschinenlesbarer (Roh-)Datensatz** |\n| 4. Datenauswertung | Datensatz prüfen (logische Kontrollen, fehlende Werte), Codeplan, Analyse mit Statistikprogrammen (SPSS, STATA, R); Hypothesen sind forschungsleitend (S. 82) | Tabellen, Übersichten, Grafiken, statistische Berechnungen |\n| 5. Berichterstattung und Dokumentation | Methodik dokumentieren, Befunde publizieren – z. B. Zeitschriftenaufsatz, Graduierungsarbeit, Forschungsbericht an Auftraggeber (S. 82 f.) | Publikation, Dokumentation (ggf. Datensatz an GESIS) |\n\nIn Phase 1 unterscheidet Häder außerdem Projekttypen: **Grundlagen- vs. angewandte Forschung**, **Auftrags- vs. selbstinitiierte Forschung**, **explorative vs. konfirmatorische Forschung** (S. 75–77). Jede Entscheidung engt die Möglichkeiten weiter ein – „vergleichbar mit einem Trichter“ (S. 80).\n\n**Leitfrage 2:** *„Was ist mit zufallsgesteuerten Auswahlverfahren gemeint?“*\n\n**Antwort:**\nBei zufallsgesteuerten Verfahren entscheidet **ausschließlich der Zufall**, welche Elemente der Grundgesamtheit in die Stichprobe gelangen; die **Ziehungswahrscheinlichkeit** jedes Elements ist **bekannt und gleich** (Tachtsoglou/König 2017, S. 262, 269 f.). Nur sie erlauben es, mit Inferenzstatistik von der Stichprobe auf die Grundgesamtheit zu schließen (S. 262).\n• **einfache Zufallsstichprobe:** alle Elemente haben die gleiche Chance – z. B. ein Würfel: jede Zahl hat p = 1/6. Voraussetzung: Man kennt alle Elemente der Grundgesamtheit (Liste) (S. 262 f.).\n• **systematische Zufallsstichprobe:** Liste sortieren, Startzahl zufällig ziehen, dann jedes k-te Element – z. B. 1000 Schüler*innen, n = 50 → Start zwischen 1 und 20, dann jede 20. Person (S. 263 f.).\n• **geschichtete Zufallsstichprobe:** Grundgesamtheit in Schichten (Strata, z. B. Bundesland, Bildung, Alter) teilen und aus jeder Schicht zufällig ziehen; **proportional** oder **disproportional** (S. 264). Beispiel PISA 2012: 16 Bundesländer + berufliche Schulen + Förderschulen als Schichten.\n• **Klumpenstichprobe:** zufällig mehrere Klumpen (z. B. Schulen) ziehen und **alle** Elemente darin untersuchen – z. B. alle Zehntklässler*innen ausgewählter Kölner Gymnasien. Die Qualität sinkt, wenn die Klumpen in sich homogen und untereinander verschieden sind (S. 265 f.).\n• **mehrstufige Zufallsstichprobe:** in mehreren Schritten zufällig auswählen – z. B. erst Schulen, dann Schüler*innen in diesen Schulen (PISA 2012) (S. 266).\n\nWichtige Begriffe dazu: **Grundgesamtheit** = alle Einheiten, auf die sich die Hypothesen beziehen; **Auswahlgesamtheit** = alle, die tatsächlich eine Chance haben, in die Stichprobe zu kommen (Abweichung: Under-/Overcoverage); **Rücklaufquote** möglichst hoch, Ausfälle (Non-Response) dürfen nicht systematisch sein (S. 259–261, 268 f.).\n\n**Leitfrage 3:** *„Was ist mit nicht-zufallsgesteuerten Auswahlverfahren gemeint?“*\n\n**Antwort:**\nBei nicht-zufallsgesteuerten Verfahren spielt das **Zufallsprinzip keine Rolle**. Inferenzstatistische Schlüsse auf die Grundgesamtheit sind deshalb **nicht möglich bzw. erschwert**; oft fehlen auch genaue Angaben zur Grundgesamtheit (Tachtsoglou/König 2017, S. 266). Zwei Arten:\n• **willkürliche Auswahl** („aufs Geratewohl“, ad hoc, Gelegenheitsstichprobe): Ob jemand in die Stichprobe kommt, liegt **unkontrolliert im Ermessen** der auswählenden Person, ohne Auswahlplan – z. B. Befragung in der Fußgängerzone (S. 266 f.).\n• **bewusste Auswahl** („nach Gutdünken“, theoriegeleitet): nach einem **Auswahlplan** mit angebbaren Kriterien, aber nicht zufällig (S. 267):\n  – **Auswahl extremer Fälle** (z. B. besonders schwer Erkrankte; Schüler*innen mit Nachhilfe)\n  – **Schneeballverfahren**: eine Person schlägt weitere, ähnliche Personen vor – geeignet für kleine Minderheiten\n  – **Quota-Verfahren**: Interviewer müssen Quoten einhalten (z. B. Geschlecht, Wohnort, Einkommen), wählen innerhalb der Quoten aber selbst aus\n\nNutzen: oft **kostengünstiger** und gut für **explorative** Zwecke, z. B. um Hypothesen zu gewinnen – geprüft werden sollten diese aber mit Zufallsstichproben (S. 268).",
+      "loesungsweg": "Häder S. 73–83 und Tachtsoglou/König S. 258–270 lesen (beide in Literatur/), je Leitfrage die Phasen bzw. Verfahren mit Beispiel und Seitenzahl herausschreiben und mit Folie 13 der Vorlesung verbinden.",
+      "frist": "2026-11-03",
+      "im_kalender": true,
+      "fuer_sitzung": "ewb002.2_2026-11-03",
+      "kalender_id": "",
+      "pdf": "/dateien/ewb002/S04_2026-11-03_Hausaufgabe_Textvorbereitung_Haeder-Tachtsoglou-Koenig_Leitfragen.pdf"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Merkmale der passenden Forschungsrichtung zu.",
+      "kategorien": [
+        "qualitativ",
+        "quantitativ"
+      ],
+      "elemente": [
+        {
+          "text": "„Verstehen“",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "„Erklären“",
+          "kategorie": "quantitativ"
+        },
+        {
+          "text": "Induktion",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "Deduktion",
+          "kategorie": "quantitativ"
+        },
+        {
+          "text": "ideographisches Paradigma",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "nomothetisches Paradigma",
+          "kategorie": "quantitativ"
+        },
+        {
+          "text": "höherer Standardisierungsgrad",
+          "kategorie": "quantitativ"
+        },
+        {
+          "text": "Einzelfallorientierung",
+          "kategorie": "qualitativ"
+        }
+      ],
+      "erklaerung": "Folie 5 (nach Herzog 2013). Merktipp des Dozenten: qualitativ = nicht standardisiert, quantitativ = standardisiert.",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist der Unterschied zwischen Induktion und Deduktion?",
+      "antwort": "Induktion: vom Einzelfall zur allgemeinen Regel (typisch qualitativ). Deduktion: umgekehrt – aus Theorie und Hypothesen wird abgeleitet und geprüft (typisch quantitativ).",
+      "erklaerung": "VL [07:14].",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Ziele und Methoden zu.",
+      "kategorien": [
+        "qualitativ",
+        "quantitativ"
+      ],
+      "elemente": [
+        {
+          "text": "hypothesen-/theoriegenerierend",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "hypothesen-/theorieprüfend",
+          "kategorie": "quantitativ"
+        },
+        {
+          "text": "Offenheit gegenüber allen unerwarteten Erkenntnissen",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "gezielt selektive Datenerhebung",
+          "kategorie": "quantitativ"
+        },
+        {
+          "text": "Herausarbeiten individueller Besonderheiten",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "Repräsentativität der Daten",
+          "kategorie": "quantitativ"
+        }
+      ],
+      "erklaerung": "Folien 6–7.",
+      "folie": "6–7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Hypothesen in qualitativer und quantitativer Forschung stimmen? (mehrere richtig)",
+      "optionen": [
+        "In der quantitativen Forschung werden Hypothesen am Anfang aufgestellt und später statistisch getestet.",
+        "In der qualitativen Forschung werden Hypothesen eher aus den Ergebnissen gewonnen.",
+        "In der qualitativen Forschung werden vorab aufgestellte Hypothesen mit statistischen Verfahren getestet.",
+        "Auch in der qualitativen Forschung sollte man eigene Vorannahmen offenlegen."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Laut Brodowy ist es qualitativ eher unüblich, vorab Hypothesen aufzustellen, und sie werden nicht statistisch getestet; Annahmen sollte man aber offenlegen, weil sie die Fragen lenken können [14:10–17:07].",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was bedeutet das Prinzip der Offenheit in der qualitativen Forschung – und warum gibt es das beim standardisierten Fragebogen nicht?",
+      "antwort": "Befragte können zum Thema sagen, was sie sagen wollen, und sich so ausdrücken, wie sie wollen; die Forschenden sind offen für Unerwartetes und können im Interview flexibel nachfragen. Beim standardisierten Vorgehen sind Fragen und Antworten festgelegt – zusätzliche Fragen sind nicht erlaubt.",
+      "erklaerung": "Folie 7 und VL [18:26–20:16]. Klausur WS 25/26 fragte nach dem Grundprinzip Offenheit an einem Leitfaden-Beispiel.",
+      "folie": "7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "vergleich",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum Forschungsprozess (Döring & Bortz 2017) stimmen? (mehrere richtig)",
+      "optionen": [
+        "Der quantitative Forschungsprozess verläuft sequenziell.",
+        "Der qualitative Forschungsprozess verläuft zirkulär bzw. iterativ.",
+        "Im qualitativen Prozess werden Stichprobenziehung, Erhebung, Aufbereitung und Analyse wiederholt durchlaufen.",
+        "Im qualitativen Prozess steht die Operationalisierung vor der Stichprobenziehung als eigener Schritt."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Die Operationalisierung ist ein eigener Schritt (4) nur im quantitativen Prozess; qualitativ endet der Prozess mit Hypothesen- und Theoriebildung.",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Du führst Leitfadeninterviews zur Studienzufriedenheit durch. Nach neun Interviews merkst du, dass Pendler*innen noch fehlen. Erkläre an diesem Beispiel, was „iterativ“ im qualitativen Forschungsprozess bedeutet.",
+      "musterloesung": "Iterativ heißt wiederholend: Statt die Schritte einmal nacheinander abzuarbeiten, beginnt man erneut mit der Stichprobenziehung (gezielt Pendler*innen auswählen), erhebt weitere Daten, bereitet sie auf und analysiert sie – evtl. mit angepasstem Leitfaden. Diese Schleife wird so lange wiederholt, bis neue Interviews keine neuen Erkenntnisse mehr bringen; erst dann folgen Hypothesen- und Theoriebildung und die Ergebnispräsentation.",
+      "bewertungspunkte": [
+        "iterativ = wiederholend erklärt",
+        "erneute Stichprobenziehung/Erhebung am Beispiel",
+        "Abbruch, wenn nichts Neues mehr hinzukommt"
+      ],
+      "punkte": 3,
+      "erklaerung": "Transfer (eigene Ergänzung) zu Folie 8 und VL [25:06–27:46].",
+      "folie": "8",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f08",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Nenne die fünf Schritte bei der Planung einer Untersuchung (nach Herfter und Rahtjen).",
+      "antwort": "1. Entwicklung der Fragestellung (von der Problemformulierung zur Präzisierung), 2. Forschungsdesign (Auswahl der Methode, Planung und Vorbereitung), 3. Durchführung: Datenerhebung, 4. Auswertung der Daten, 5. Berichtlegung: Interpretation, Ausblick und Transfer.",
+      "erklaerung": "Folie 9.",
+      "folie": "9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Aufgaben gehören zur Präzisierung der Fragestellung? (mehrere richtig)",
+      "optionen": [
+        "Forschungsgegenstand eingrenzen",
+        "Stand der Forschung und theoretischen Rahmen sichten",
+        "Daten in die Statistiksoftware übertragen",
+        "über die angestrebte Generalisierbarkeit klar werden",
+        "eine W-Frage formulieren"
+      ],
+      "richtig": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "erklaerung": "Folie 11. Daten übertragen gehört zur Auswertung.",
+      "folie": "11",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f10",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Worüber wird im Schritt „Forschungsdesign“ entschieden? (mehrere richtig)",
+      "optionen": [
+        "Vorgehen (z. B. retrospektiv, Momentaufnahme, Längsschnitt)",
+        "Untersuchungsgegenstand (Personen, Klassen, Schulen, Texte)",
+        "benötigte Ressourcen",
+        "Methodik (Befragung, Beobachtung, Sekundäranalyse)",
+        "Interpretation der Ergebnisse"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Folie 12. Die Interpretation gehört zur Berichtlegung.",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Erhebungen zu.",
+      "kategorien": [
+        "Querschnittstudie",
+        "Längsschnitt – dieselben Personen",
+        "Längsschnitt – unterschiedliche Personen"
+      ],
+      "elemente": [
+        {
+          "text": "einmalige Befragung aller Erstsemester im Oktober",
+          "kategorie": "Querschnittstudie"
+        },
+        {
+          "text": "dieselben Schüler*innen vor dem Abitur, danach und fünf Jahre später befragt",
+          "kategorie": "Längsschnitt – dieselben Personen"
+        },
+        {
+          "text": "Jugendstudie, die alle vier Jahre neue Jugendliche befragt",
+          "kategorie": "Längsschnitt – unterschiedliche Personen"
+        }
+      ],
+      "erklaerung": "VL [50:24–54:01]: Querschnitt = einmal; Längsschnitt = mehrfach, mit denselben oder unterschiedlichen Personen.",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Du willst wissen, ob Fußgänger*innen bei Rot über die Ampel gehen. Befragung oder Beobachtung? Begründe.",
+      "musterloesung": "Beobachtung: Es geht um tatsächliches Verhalten. Bei einer Befragung erfährt man nur, wie Personen ihr Verhalten selbst wahrnehmen oder darstellen – sie könnten z. B. sozial erwünscht antworten. Eine Befragung passt dagegen für subjektive Sichtweisen (z. B. wie jemandem Vechta gefällt).",
+      "bewertungspunkte": [
+        "Beobachtung gewählt",
+        "Begründung: tatsächliches Verhalten vs. Selbstauskunft",
+        "Befragung für Sichtweisen abgegrenzt"
+      ],
+      "punkte": 3,
+      "erklaerung": "Beispiel aus der VL [36:39–38:08].",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was ist bei der Planung einer Befragung an Schulen zu beachten? (mehrere richtig)",
+      "optionen": [
+        "Genehmigung der Schulbehörde einholen",
+        "Einwilligung der Teilnehmenden einholen",
+        "Fragebogen an Alter und Lesefähigkeit anpassen",
+        "Eine Teilnahme kann verpflichtend gemacht werden."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 13 und VL [36:03, 39:05, 60:21]: Ohne Einwilligung keine Teilnahme – sie ist freiwillig.",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist eine Zufallsauswahl?",
+      "antwort": "Alle Personen bzw. Elemente der Grundgesamtheit haben dieselbe Chance, in die Stichprobe zu gelangen.",
+      "erklaerung": "VL [56:01]; Tachtsoglou/König S. 262 f.",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Beispiele dem Auswahlverfahren zu.",
+      "kategorien": [
+        "Zufallsauswahl",
+        "Auswahl nach Kriterien (Quote)",
+        "Auswahl nach Verfügbarkeit (willkürlich)",
+        "Vollerhebung"
+      ],
+      "elemente": [
+        {
+          "text": "Aus der Liste aller ewb002-Studierenden wird per Würfel ein Start gewählt, dann jede 10. Person.",
+          "kategorie": "Zufallsauswahl"
+        },
+        {
+          "text": "Interviewer sollen je 50 % Frauen und Männer und je ein Drittel aus drei Altersgruppen befragen.",
+          "kategorie": "Auswahl nach Kriterien (Quote)"
+        },
+        {
+          "text": "Befragt wird, wer gerade über den Campus läuft.",
+          "kategorie": "Auswahl nach Verfügbarkeit (willkürlich)"
+        },
+        {
+          "text": "Alle Studierenden des Moduls bekommen den Fragebogen.",
+          "kategorie": "Vollerhebung"
+        }
+      ],
+      "erklaerung": "Folie 13 und VL [55:03–59:31].",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Eine Studentin befragt die ersten 30 Personen, die sie in der Mensa trifft, und nennt das eine Zufallsstichprobe. Was stimmt? (mehrere richtig)",
+      "optionen": [
+        "Das ist eine willkürliche Auswahl (Auswahl nach Verfügbarkeit).",
+        "Das ist eine Zufallsauswahl, weil sie die Personen nicht kannte.",
+        "Nicht alle Studierenden hatten dieselbe Chance, in die Stichprobe zu kommen.",
+        "Ein Schluss auf alle Studierenden der Universität ist so nicht möglich."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "„Zufällig getroffen“ ist nicht dasselbe wie Zufallsauswahl – wer nie in die Mensa geht, hatte keine Chance [57:12].",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur Repräsentativität stimmen nach Diaz-Bone (2006) und der Vorlesung? (mehrere richtig)",
+      "optionen": [
+        "Unter idealen Bedingungen gezogene Zufallsstichproben tendieren dazu, eine verkleinerte Abbildung der Grundgesamtheit zu sein.",
+        "„Repräsentativität“ ist ein klar definiertes statistisches Gütekriterium.",
+        "Viele Sozialforscher vermeiden den Begriff.",
+        "Eine Vollerhebung im Modul ewb002 ist repräsentativ für alle Studierenden in Deutschland."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Der Begriff ist kein statistischer Fachbegriff und kein klar definiertes Gütekriterium. Eine Vollerhebung im Modul erlaubt nur Aussagen über dieses Modul [63:25].",
+      "folie": "14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Frau Wübbelmann verteilt in allen ewb002-Seminaren einen Fragebogen. Welches Auswahlverfahren liegt vor, was ist die Grundgesamtheit, und für wen gelten die Ergebnisse?",
+      "musterloesung": "Es wird eine Vollerhebung angestrebt (alle ewb002-Studierenden sollen teilnehmen können), keine Zufallsauswahl – praktisch werden nie alle erreicht (Abwesende, Freiwilligkeit). Grundgesamtheit: die Studierenden des Moduls ewb002 im WiSe 2026/27. Die Ergebnisse gelten für diese Gruppe, nicht für alle Studierenden der Uni Vechta oder in Deutschland; diese Grenze muss im Bericht benannt werden.",
+      "bewertungspunkte": [
+        "angestrebte Vollerhebung, keine Zufallsauswahl",
+        "Grundgesamtheit korrekt benannt",
+        "Grenzen der Verallgemeinerung genannt"
+      ],
+      "punkte": 3,
+      "erklaerung": "Beispiel aus der VL [57:40, 61:03, 80:04].",
+      "folie": "13–14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Aussagen zur Datenerhebung und Auswertung stimmen? (mehrere richtig)",
+      "optionen": [
+        "Die Datenerhebung ist das Herzstück der ganzen Arbeit.",
+        "Alle Vorkommnisse bei der Erhebung sollen dokumentiert werden.",
+        "Man sollte möglichst viel zusätzlich erheben, auch wenn es nicht ausgewertet wird.",
+        "Es wird nur erhoben, was auch ausgewertet wird – sparsam, aber umfassend genug."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folien 15–16.",
+      "folie": "15–16",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f20",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Anforderungen gelten für die Berichtlegung – und warum ist es gut, Grenzen der eigenen Arbeit zu benennen?",
+      "antwort": "Der Bericht muss vollständig, transparent und nachvollziehbar sein. Grenzen zu benennen zeigt, dass man einschätzen kann, was die Ergebnisse aussagen und was nicht (z. B. nur Lehramtsstudierende in Vechta befragt → keine Aussage über andere Fächer oder Universitäten); das ist eine Stärke, kein Makel.",
+      "erklaerung": "Folie 17 und VL [75:08–76:24].",
+      "folie": "17",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Mehrfach betont: qualitativ = nicht standardisiert, quantitativ = standardisiert – „das ist etwas, was sicherlich viel erklären kann“ [06:54, 83:13].",
+    "„Das sollten Sie unbedingt lesen“: Auswahlverfahren – Vollerhebung, Zufallsauswahl, willkürliche Auswahl (Tachtsoglou/König) [83:41].",
+    "Klausur WS 25/26: Mixed Methods, Grundprinzip Offenheit an einer Leitfaden-Erzählaufforderung, Grenzen/Generalisierbarkeit."
+  ],
+  "offene_fragen": [],
+  "auffaelligkeiten": [
+    "Folien 9–10 sind identisch (vermutlich Animationsschritt).",
+    "Folie 9/17: „Rahtjen“ – im Vortrag „Ratjen“; korrekte Schreibweise prüfen.",
+    "Folie 14: Der letzte Satz „repräsentativ nach bestimmten Kriterien, die für die Grundgesamtheit …“ bricht ab.",
+    "Folie 18: Die Internetadresse des Leitfadens ist abgeschnitten („…und-studieren/leitfaden“)."
+  ]
+}

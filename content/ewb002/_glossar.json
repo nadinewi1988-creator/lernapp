@@ -183,6 +183,69 @@
       "erklaerung": "Nicht direkt beobachtbar, z. B. Intelligenz, Motivation – muss operationalisiert werden.",
       "quelle": "ewb002.2_2026-10-27 · Folie 6 · Tausendpfund S. 11",
       "abweichungen": []
+    },
+    {
+      "begriff": "Induktion",
+      "wortlaut": "vom Einzelfall zu einer Regel (mündlich, [07:14])",
+      "erklaerung": "Aus vielen Beobachtungen wird eine allgemeine Aussage gewonnen – typisch für qualitative Forschung.",
+      "quelle": "ewb002.1_2026-10-29 · Folie 5 · VL [07:14]",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Deduktion",
+      "wortlaut": "umgekehrt: Ich habe meine Theorie und meine Hypothesen und leite daraus ab (mündlich, [07:22])",
+      "erklaerung": "Aus einer Theorie werden prüfbare Hypothesen abgeleitet – typisch für quantitative Forschung.",
+      "quelle": "ewb002.1_2026-10-29 · Folie 5 · VL [07:22]",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Ideographisches Paradigma",
+      "wortlaut": "Einzelfallorientierung (Folie 5); konkreter Bezug auf einen Einzelfall, den ich betrachte (mündlich, [82:36])",
+      "erklaerung": "Den einzelnen Fall in seiner Besonderheit verstehen – qualitative Forschung.",
+      "quelle": "ewb002.1_2026-10-29 · Folie 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Nomothetisches Paradigma",
+      "wortlaut": "Allgemeine Prinzipien / Regeln finden (Folie 5); Gesetzmäßigkeiten aufstellen (mündlich, [82:36])",
+      "erklaerung": "Allgemeine Gesetzmäßigkeiten über viele Fälle finden – quantitative Forschung.",
+      "quelle": "ewb002.1_2026-10-29 · Folie 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Iterativ",
+      "wortlaut": "wiederholend (mündlich, [27:04]); qualitativer Forschungsprozess: zirkulär, „eher: iterativ“ (Folie 8)",
+      "erklaerung": "Stichprobe, Erhebung, Aufbereitung und Analyse werden mehrmals durchlaufen, bis nichts Neues mehr hinzukommt.",
+      "quelle": "ewb002.1_2026-10-29 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Querschnittstudie / Längsschnittstudie",
+      "wortlaut": "Querschnitt: einmalige Datenerhebung; Längsschnitt: mehrfache Erhebung – mit denselben oder mit unterschiedlichen Personen (mündlich, [53:41])",
+      "erklaerung": "Momentaufnahme vs. Entwicklung über die Zeit.",
+      "quelle": "ewb002.1_2026-10-29 · Folie 12 · VL [53:41]",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Grundgesamtheit",
+      "wortlaut": "die Personengruppe, auf die ich mich beziehe (mündlich, [55:24])",
+      "erklaerung": "Alle, über die eine Aussage getroffen werden soll – z. B. alle ewb002-Studierenden.",
+      "quelle": "ewb002.1_2026-10-29 · Folie 13 · VL [55:24]",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Zufallsauswahl",
+      "wortlaut": "alle Personen, die zur Grundgesamtheit gehören, haben dieselbe Chance, in die Stichprobe zu gelangen (mündlich, [56:01])",
+      "erklaerung": "Der Zufall entscheidet, nicht die forschende Person.",
+      "quelle": "ewb002.1_2026-10-29 · Folie 13 · VL [56:01]",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Repräsentativität",
+      "wortlaut": "„Werden Zufallsstichproben unter idealen Bedingungen gezogen, tendieren diese dazu, eine ‚verkleinerte Abbildung‘ der Grundgesamtheit darzustellen. […] Der Begriff ‚Repräsentativität‘ ist allerdings kein statistischer Fachbegriff. Er stellt in der Sozialforschung kein klar definiertes Gütekriterium dar und wird von vielen Sozialforschern sogar vermieden.“ (Diaz-Bone 2006, S. 132)",
+      "erklaerung": "Die Stichprobe soll ein Miniaturbild der Grundgesamtheit sein – den Begriff vorsichtig verwenden.",
+      "quelle": "ewb002.1_2026-10-29 · Folie 14",
+      "abweichungen": []
     }
   ]
 }

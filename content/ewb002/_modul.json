@@ -44,7 +44,8 @@
     {
       "text": "breites und integriertes Wissen über die Struktur und den Ablauf wissenschaftlicher Untersuchungen",
       "abgedeckt_in": [
-        "ewb002.1_2026-10-21"
+        "ewb002.1_2026-10-21",
+        "ewb002.1_2026-10-29"
       ]
     },
     {
@@ -80,7 +81,9 @@
     },
     {
       "text": "die Stärken und Schwächen qualitativer sowie quantitativer Untersuchungsansätze und -designs beurteilen",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "ewb002.1_2026-10-29"
+      ]
     },
     {
       "text": "die Aussagekraft qualitativer und quantitativer Ergebnisse kritisch reflektieren",
@@ -92,7 +95,9 @@
     },
     {
       "text": "die Auswahl spezifischer Untersuchungsansätze und -methoden mit Blick auf die jeweilige Fragestellung fundiert begründen",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "ewb002.1_2026-10-29"
+      ]
     },
     {
       "text": "die gewonnenen Erkenntnisse nutzen, um evidenzbasierte Ansätze in das Selbstverständnis der eigenen beruflichen Professionalisierung zu integrieren und auf die zukünftige Praxis zu übertragen",
@@ -103,7 +108,8 @@
     "ewb002.2_2026-10-13",
     "ewb002.2_2026-10-20",
     "ewb002.1_2026-10-21",
-    "ewb002.2_2026-10-27"
+    "ewb002.2_2026-10-27",
+    "ewb002.1_2026-10-29"
   ],
   "sitzungsplan": [
     {
@@ -334,15 +340,17 @@
     "VL S02: Folien 6 und 7 identisch; Folien 11 und 14 „Dieckmann“ statt „Diekmann“; Folie 33 „2.3 Abhängige und abhängige Variable“ (gemeint: unabhängige)",
     "VL S02, Leitfrage 6: „gerichtete und ungerichtete Hypothesen“ stehen in keinem der angegebenen Texte (Häder, Tausendpfund, Raithel) – im Seminar am 27.10. nachfragen",
     "Seminar S02, Folie 12: „Suche Sie“ statt „Suchen Sie“",
-    "Seminar S03, Folie 4: „Wies-baden“"
+    "Seminar S03, Folie 4: „Wies-baden“",
+    "VL S03: Folien 9–10 identisch; „Rahtjen“ (Folien 9, 17); Satz auf Folie 14 bricht ab; Link auf Folie 18 abgeschnitten"
   ],
   "besonderheiten": [
     "Im WS 26/27 fand die Moduleinführung nur in den Seminaren statt (Mail Prof. Zimmer, 13.10.2026); keine eigene VL-Einführung",
-    "Prof. Zimmer länger erkrankt: VL mittwochs ausgesetzt, stattdessen donnerstags 8:30–10:00 live-online bei Herrn Brodowy (Mail 23.10.2026)",
     "In jedem Modul-Chat die Unterlagen mit dem WS 25/26 abgleichen (Ordner „ewb002 - WS 25:26“, nur lesen, nichts verschieben)",
     "Tutorium hat Nadine im WS 25/26 besucht: Aufgabenblätter 1–6 (Ordner „ewb002 - WS 25:26/3. ewb002 Tutorium“) als zusätzliche Übungsaufgaben in die passenden Sitzungen einbauen",
     "Weitere Übungsquellen WS 25/26: Weihnachtsübungen, „ewb002 lösungen punkte.pdf“, „ewb002 Aufgaben mit Lösungen“ (48 Bilder), Fragestunde vor der Klausur, Noch_eine_Übungsaufgabe_Boxplot – iCloud-Dateien dürfen bei Bedarf geladen werden (Nadine, 25.10.2026)",
-    "VL-Folien enden mit Literaturempfehlung + Leitfragen für das Seminar der Folgewoche → Hausaufgabe „Textvorbereitung“ (Schema 5f)"
+    "VL-Folien enden mit Literaturempfehlung + Leitfragen für das Seminar der Folgewoche → Hausaufgabe „Textvorbereitung“ (Schema 5f)",
+    "Prof. Zimmer länger erkrankt: VL mittwochs ausgesetzt, donnerstags live-online bei Herrn Brodowy (Mail 23.10.2026); ab 05.11.2026 Beginn 8:15 Uhr; Vertretung mindestens bis Ende November (VL 29.10., [85:33–87:16])",
+    "Nadine nimmt die Online-VL als Bildschirmaufnahme auf – Aufnahme transkribieren und mündliche Erklärungen mit Zeitmarke in die Lerninhalte übernehmen"
   ],
   "dateien": [
     {
@@ -403,6 +411,22 @@
       "status": "verarbeitet",
       "sitzung": "ewb002.2_2026-10-27",
       "hinweis": "WS 25/26 hatte 03_ewb002.2_Theorien_Hypothesen_Variablen.pdf – nicht abgeglichen (Eilbearbeitung im Seminar)"
+    },
+    {
+      "pfad": "ewb002.1/03_ewb002vor_Untersuchungsplanung_wise_26_27.pdf",
+      "geaendert": "2026-10-29",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "ewb002.1_2026-10-29",
+      "hinweis": "identisch mit WS 25/26 bis auf den VL-Plan (Folien 3, 24)"
+    },
+    {
+      "pfad": "ewb002.1/ScreenRecording_10-29-2026 08-32-45_1.MP4",
+      "geaendert": "2026-10-29",
+      "art": "Aufnahme",
+      "status": "verarbeitet",
+      "sitzung": "ewb002.1_2026-10-29",
+      "hinweis": "transkribiert (88 Min.), Transkript in ewb002.1/Claude outputs/Transkripte_roh/"
     }
   ],
   "hausaufgaben": [
@@ -421,6 +445,34 @@
       "fuer_sitzung": "ewb002.2_2026-10-27",
       "kalender_id": "c2d24f88-a416-4c37-a16a-e49b3de9c6e7",
       "pdf": "/dateien/ewb002/S03_2026-10-27_Hausaufgabe_Variablen_Bildungsgrad-Einkommen.pdf"
+    },
+    {
+      "id": "h01",
+      "titel": "Textvorbereitung S04: Häder (2019), Tachtsoglou/König (2017) – 3 Leitfragen",
+      "gestellt_in": "ewb002.1_2026-10-29",
+      "fuer_sitzung": "ewb002.2_2026-11-03",
+      "kalender_id": "",
+      "pdf": "/dateien/ewb002/S04_2026-11-03_Hausaufgabe_Textvorbereitung_Haeder-Tachtsoglou-Koenig_Leitfragen.pdf",
+      "offen": "Kalendereintrag anlegen, sobald Chrome erreichbar"
     }
-  ]
+  ],
+  "vl_plan_ws2627": {
+    "quelle": "03_ewb002vor_Untersuchungsplanung_wise_26_27.pdf, Folie 3",
+    "sitzungen": [
+      "01 Wissenschaftliche Literaturrecherche",
+      "02 Theorien, Hypothesen und ihre Prüfung. Merkmale, Eigenschaften und Ausprägungen von Variablen",
+      "03 Untersuchungsplanung und Auswahlverfahren: Stufenmodelle / Stichprobenziehung",
+      "04 Messtheorie: Operationalisierung, Messen, Skalenniveaus",
+      "05 Datenerhebung: Beobachtung, Befragung, Fragebogen, Experiment, Quasiexperiment",
+      "06 CIPO-Modell: Komponenten und Beispiele / Ebenen des Bildungswesen",
+      "07 Gütekriterien der Sozialforschung: Hauptgütekriterien der quantitativen und qualitativen Sozialforschung",
+      "08 Datenaufbereitung I: Deskriptive Statistik: Stichprobe und Grundgesamtheit, Häufigkeitsverteilungen, Maße der zentralen Tendenz, Streuungsmaße, z-Transformation; Beispiel Kompetenzmessung in PISA",
+      "09 Datenaufbereitung II: Inferenzielle Statistik I: Wahrscheinlichkeit, Normalverteilung, Alpha- und Beta-Fehler",
+      "10 Datenaufbereitung III: Inferenzielle Statistik II: Chi-Quadrat-Verfahren, t-Test",
+      "11 Datenaufbereitung IV: Inferenzielle Statistik III: t-Test",
+      "12 Erkenntnis und Wissenschaftstheorien: Forschungsansätze, Ethisch verantwortliche Empirie / Umgang mit Plagiaten / wissenschaftliches Arbeiten und KI-Nutzung; Logischer Positivismus und Kritischer Rationalismus",
+      "13 Ausblick - Systematic Review: Einführung in eine sekundäranalytische Methode",
+      "14 Live-Fragestunde zum Modul und zur Abschlussklausur"
+    ]
+  }
 }

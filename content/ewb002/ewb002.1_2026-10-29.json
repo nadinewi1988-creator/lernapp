@@ -6,7 +6,7 @@
   "sitzung_nr": 3,
   "sitzung_id": "",
   "thema": "Untersuchungsplanung. Wichtige Schritte bei der Planung, Durchführung und Berichtlegung von empirischen Untersuchungen",
-  "thema_in_app": "",
+  "thema_in_app": "eingetragen",
   "stand": "geprueft",
   "hinweis": "Live-online-Vorlesung (BigBlueButton) bei Dominik Brodowy in Vertretung von Prof. Zimmer. Grundlage: Folien plus Transkript von Nadines Bildschirmaufnahme (88 Min., automatisch transkribiert). Mündliche Erklärungen sind mit Zeitmarke [MM:SS] gekennzeichnet. Theorien und Hypothesen (VL S02) wurden nicht nachgeholt.",
   "quellen": [
@@ -194,7 +194,7 @@
       "frist": "2026-11-03",
       "im_kalender": true,
       "fuer_sitzung": "ewb002.2_2026-11-03",
-      "kalender_id": "",
+      "kalender_id": "92507189-be11-46e5-8211-283c6ee0c294",
       "pdf": "/dateien/ewb002/S04_2026-11-03_Hausaufgabe_Textvorbereitung_Haeder-Tachtsoglou-Koenig_Leitfragen.pdf"
     }
   ],

@@ -19,6 +19,16 @@
       "datei": "Literatur/Tausendpfund_2018_Quantitative-Methoden-Politikwissenschaft.pdf",
       "art": "Literatur (Aufgabe 7, Folie 14)",
       "seiten": "91–92, 97"
+    },
+    {
+      "datei": "ewb002.2/Aufnahmen_Transkripte/2026-10-27_ewb002.2_Teil1_Transkript.txt",
+      "art": "Aufnahme des Seminars (Teil 1, Umfrage eines Forschungsprojekts) – Nachbereitung, Transkript",
+      "seiten": "[00:00]–[12:30]"
+    },
+    {
+      "datei": "ewb002.2/Aufnahmen_Transkripte/2026-10-27_ewb002.2_Teil2_Transkript.txt",
+      "art": "Aufnahme des Seminars (Teil 2, Besprechung der Folienaufgaben) – Nachbereitung, Transkript",
+      "seiten": "[00:25]–[70:25]"
     }
   ],
   "lernziele": [
@@ -99,6 +109,12 @@
       "titel": "Formen von Hypothesen",
       "text": "**Drei Hypothesenpaare (Folie 12):** deterministisch – probabilistisch · Wenn-dann – Je-desto · Individual – Kollektiv\n\n{{aufgabe a06}}\n\n**Mögliche Beziehungen zwischen zwei Merkmalen (Folie 14, Tausendpfund 2018, S. 97):** positiver linearer, negativer linearer, U-förmiger und umgekehrt U-förmiger Zusammenhang.\n\n{{aufgabe a07}}\n\nDefinition: „Wissenschaftliche Hypothesen sind Annahmen über reale Sachverhalte (empirischer Gehalt, empirische Untersuchbarkeit) in Form von Konditionalsätzen. Sie weisen über den Einzelfall hinaus (Generalisierbarkeit, Allgemeinheitsgrad) und sind durch Erfahrungsdaten widerlegbar (Falsifizierbarkeit).“ (Bortz/Döring 2006, nach Tausendpfund 2018, S. 92)\n\n**Kurz erklärt:** Die Hypothesenpaare beantworten drei verschiedene Fragen. **Deterministisch oder probabilistisch:** Gilt der Zusammenhang immer oder nur meistens? **Wenn-dann oder Je-desto:** Hat das Merkmal zwei Ausprägungen oder eine Rangfolge? **Individual oder Kollektiv:** Geht es um einzelne Personen oder um Gruppen? Dazu kommt die Form des Zusammenhangs: Er muss nicht gerade (linear) sein. Ein umgekehrtes U bedeutet: erst steigt die eine Größe mit, ab einem Punkt fällt sie wieder – z. B. etwas Prüfungsangst steigert die Leistung, sehr viel Angst senkt sie. Eine wissenschaftliche Hypothese muss außerdem über den Einzelfall hinausgehen und **widerlegbar** sein.\n\n**Typische Klausurfrage:** „Formulieren Sie eine Je-desto-Hypothese und zeichnen Sie den vermuteten Zusammenhang.“ – so beantwortest du sie: zwei Variablen mit Rangfolge nennen, Richtung angeben (je mehr …, desto weniger …), Achsen beschriften und eine steigende bzw. fallende Linie oder ein U zeichnen.",
       "folien": "11–15"
+    },
+    {
+      "titel": "Nachbereitung (Aufnahme vom 27.10.2026)",
+      "nachbereitung": true,
+      "folien": "Aufnahme T1 [00:00]–[12:30], T2 [00:25]–[70:25]",
+      "text": "*Zusätzliche Nachbereitung aus der Aufnahme des Seminars (2 Teile). Die Inhalte oben bleiben unverändert. Zeitmarken: T1 = Teil 1, T2 = Teil 2.*\n\n### 1. Einstieg: Forschung im Seminarraum [T1 00:00–12:30, T2 00:25]\nZu Beginn wurde ein **Fragebogen für ein Forschungsprojekt** verteilt (es ging um einen Zusammenhang mit der Note). Die Dozentin betonte: Die Teilnahme ist **freiwillig** – das gehört zu einer **ethisch korrekten Forschung**. Die Daten werden erst später zusammengeführt und ausgewertet; den letzten Abschnitt durfte man abtrennen und behalten.\n\nFragen zur Vorlesung und zur Literatur werden immer am Anfang des Seminars gesammelt – dafür gibt es ausdrücklich Gelegenheit.\n\n### 2. Manifest oder latent? [T2 02:55–03:45, 14:35–16:15]\n- **Manifest:** Das Merkmal lässt sich **direkt beobachten, ablesen oder erfragen** und setzt sich **nicht aus mehreren Indikatoren** zusammen. Beispiele: Alter (Ausweis, Frage), Haustier, Führerschein, Lieblingsgetränk. Bild der Dozentin: das Schild an der Supermarktkasse – „man sieht das Alter nicht an“, man muss nach dem Ausweis fragen, kann es dann aber direkt ablesen.\n- **Latent:** Dahinter steckt ein **Konstrukt**, das man nicht direkt sieht – z. B. **Intelligenz** („dicke Bücher werden darüber geschrieben, was alles in dieses Konstrukt gehört“), **Motivation**, **Fitness**, **Disziplin**. Man muss erst festlegen, was man darunter versteht, und es dann über mehrere Indikatoren messen.\n\n### 3. Das Grundprinzip: Wie erfassen *wir* das Merkmal? [T2 13:45–21:15]\nLaut Dozentin ist es weniger eine Frage der „absoluten Eigenschaft“ eines Merkmals, sondern: **Wie erfassen wir es für unseren Studienzweck?**\n- **Alter:** Die Zeit läuft lückenlos weiter, also eigentlich **stetig**. In ganzen Jahren angegeben ist es **diskret** – und weil man es direkt erfragen kann, **manifest**.\n- **Haustier:** „Haben Sie ein Haustier – ja/nein?“ → **dichotom**. „Welches Haustier?“ → **polytom**. Es hängt also nicht vom Merkmal ab, sondern davon, **wie wir es erheben wollen** – und das hängt vom Ziel der Studie ab.\n- **Lieblingsgetränk:** abzählbar viele Antworten → diskret, polytom. „Ist Kaffee Ihr Lieblingsgetränk – ja/nein?“ wäre dichotom.\n- **Motivation:** als Konstrukt mit unendlich vielen möglichen Ausprägungen **stetig**. Wird sie aber mit vorgegebenen Stufen erfasst („wenig – etwas – motiviert – sehr motiviert“), ist die Erfassung **diskret** [T2 20:00–21:15]. Dasselbe bei Intelligenz: Sobald man misst und Punkte vergibt, gibt es nur noch ganze Punktwerte.\n\n**Kurz erklärt:** Ob ein Merkmal stetig/diskret oder dichotom/polytom ist, entscheidet oft erst die Art der Erhebung.\n\n### 4. Beispiel Studienerfolg [T2 22:05–49:35]\n- **Abhängige Variable Studienerfolg** – man muss festlegen, woran man ihn misst: z. B. **Durchschnittsnote**, ob das Studium **bestanden oder abgebrochen** wurde, **Studiendauer**, später auch **Berufserfolg**. Die Dozentin: Gute Noten heißen nicht unbedingt, dass man viel gelernt hat – auch das muss man bedenken.\n- **Unabhängige Variablen** (Beispiele aus dem Kurs): Lernzeit pro Woche, Motivation, Nebenjob, Alter, Disziplin, Anwesenheit, Studiengang.\n- Einordnung: Disziplin und Motivation sind **latent** (Konstrukte); Nebenjob ja/nein ist **dichotom**; Lernzeit in Stunden kann **stetig** erfasst werden.\n\n### 5. Antwortkategorien: disjunkt und erschöpfend [T2 50:00–52:55, 63:20–68:45]\n- **Disjunkt (überschneidungsfrei):** Jede Person darf nur **genau eine** Kategorie ankreuzen können. Achtung bei Grenzen: Wer genau 10 Stunden arbeitet, darf nicht in „bis 10“ **und** „ab 10“ passen → besser „10 bis unter 20 Stunden“.\n- **Erschöpfend (exhaustiv):** Jede Person muss sich **wiederfinden** können – alle möglichen Antworten müssen abgedeckt sein.\n- **Verbesserung Sport-Frage:** „Wie viele Stunden treiben Sie durchschnittlich pro Woche Sport?“ – gar nicht · weniger als 2 · 2 bis unter 4 · 4 bis unter 6 · 6 und mehr.\n- **Verbesserung Sportart-Frage:** „Welche Sportart hat Ihnen in der weiterführenden Schule am besten gefallen? **Bitte nur eine Antwort angeben.**“ – mit Feld **„andere: ___“** und der Option **„keine“**. Unklar war im Original, ob mehrere Antworten erlaubt sind.\n\n**Prüfungsfalle:** Grenzwerte doppelt vergeben („1–2“, „2–3“) oder die Null bzw. „mehr als …“ vergessen.\n\n### 6. Fitness auf drei Arten erfassen [T2 53:20–57:30]\nHypothese: „Je älter eine Person ist, desto schlechter ist ihre Fitness.“ – UV **Alter** (manifest), AV **Fitness** (latent). Gemessen z. B. über die Laufzeit:\n- **stetig/kontinuierlich:** offenes Feld, die gemessenen Sekunden mit Nachkommastellen eintragen;\n- **dichotom:** unter 15 Sekunden / 15 Sekunden und mehr;\n- **polytom:** mehrere Zeitkategorien (die disjunkt und erschöpfend sein müssen).\n"
     }
   ],
   "definitionen": [
@@ -486,13 +502,98 @@
       "erklaerung": "Tausendpfund S. 92: Die Regen-Vermutung nennt keinen Zusammenhang zweier Merkmale, „Himmel“ ist nicht empirisch untersuchbar, der Bauernspruch ist nicht widerlegbar. Bildung–Einkommen erfüllt alle vier Kriterien.",
       "folie": "15",
       "pruefungsrelevant": true
+    },
+    {
+      "id": "n01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Woran erkennt man ein manifestes Merkmal?",
+      "antwort": "Es lässt sich direkt beobachten, ablesen oder erfragen und setzt sich nicht aus mehreren Indikatoren zusammen (z. B. Alter, Führerschein, Haustier).",
+      "erklaerung": "Gegenstück: latente Merkmale sind Konstrukte (Intelligenz, Motivation, Fitness) [T2 14:35–16:15].",
+      "folie": "Aufnahme T2 15:25",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n02",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "In einem Fragebogen steht: „Haben Sie ein Haustier? ○ ja ○ nein“. Welche Aussagen sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Die Merkmalsausprägung ist so erfasst dichotom.",
+        "Das Merkmal ist manifest.",
+        "Mit der Frage „Welches Haustier haben Sie?“ wäre die Erfassung polytom.",
+        "Das Merkmal ist latent, weil man Haustiere nicht sieht."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Dichotom oder polytom hängt davon ab, wie wir erheben; ein Haustier kann man direkt erfragen → manifest [T2 16:40–17:55].",
+      "folie": "Aufnahme T2 17:05",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n03",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Antwortkategorien müssen [[disjunkt]] (überschneidungsfrei) und [[erschöpfend]] sein: Jede Person muss genau [[eine]] passende Kategorie finden.",
+      "erklaerung": "[T2 50:00–52:30].",
+      "folie": "Aufnahme T2 52:05",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n04",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Antwortvorgabe für „Wie viele Stunden pro Woche arbeiten Sie neben dem Studium?“ ist disjunkt und erschöpfend?",
+      "optionen": [
+        "gar nicht · unter 10 · 10 bis unter 20 · 20 und mehr",
+        "1–10 · 10–20 · mehr als 20",
+        "unter 10 · 10 bis 20 · 20 und mehr",
+        "gar nicht · 1–9 · 11–19 · 20 und mehr"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "B: 10 und 20 passen in zwei Kategorien, „gar nicht“ fehlt. C: 20 passt in zwei Kategorien → nicht disjunkt. D: 10 und Werte zwischen 9 und 11 fehlen → nicht erschöpfend. A erfüllt beide Bedingungen.",
+      "folie": "Aufnahme T2 50:25–51:40",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n05",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Erkläre am Beispiel Motivation, warum dieselbe Variable stetig oder diskret erfasst werden kann.",
+      "musterloesung": "Motivation ist ein Konstrukt mit theoretisch unendlich vielen Abstufungen – also eigentlich stetig. Erfasst man sie aber mit vorgegebenen Stufen (wenig, etwas, motiviert, sehr motiviert) oder mit Punktwerten, gibt es nur noch abzählbar viele Ausprägungen – die Erfassung ist diskret. Entscheidend ist, wie wir das Merkmal für den Studienzweck erheben.",
+      "bewertungspunkte": [
+        "Motivation als Konstrukt → eigentlich stetig",
+        "vorgegebene Stufen/Punkte → diskret",
+        "Art der Erhebung entscheidet"
+      ],
+      "punkte": 3,
+      "erklaerung": "[T2 19:10–21:15].",
+      "folie": "Aufnahme T2 20:25",
+      "pruefungsrelevant": true
     }
   ],
   "pruefungshinweise": [
-    "Antwortkategorien verbessern (disjunkt, erschöpfend, polytom) kam in der Klausur WS 25/26 vor – Aufgabe 4 übt genau das."
+    "Antwortkategorien verbessern (disjunkt, erschöpfend, polytom) kam in der Klausur WS 25/26 vor – Aufgabe 4 übt genau das.",
+    "(Aufnahme) Grundprinzip der Dozentin: Ob ein Merkmal stetig/diskret oder dichotom/polytom ist, hängt davon ab, wie es für den Studienzweck erfasst wird – in Aufgaben immer mit der Art der Erhebung begründen [T2 13:45, 17:30]."
   ],
   "offene_fragen": [
-    "Gerichtete und ungerichtete Hypothesen (Leitfrage II, Folie 4) – im Seminar nachfragen, welche Quelle gemeint ist."
+    "Gerichtete und ungerichtete Hypothesen (Leitfrage II, Folie 4) – im Seminar nachfragen, welche Quelle gemeint ist.",
+    "(Aufnahme) Die Besprechung bestätigt unsere Lösungen zu den Aufgaben 1–5; Nuance zu Motivation: als Konstrukt stetig, mit vorgegebenen Stufen erfasst diskret [T2 20:00–21:15]."
   ],
   "auffaelligkeiten": [
     "Folie 4: „Wies-baden“ (Trennstrich mitten im Wort)."

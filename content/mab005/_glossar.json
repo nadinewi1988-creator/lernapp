@@ -5,14 +5,14 @@
     {
       "begriff": "Zufalls-Experiment",
       "wortlaut": "Definition 1.1.1 (Zufalls-Experiment) Ein Zufalls-Experiment ist ein (geplanter, gesteuerter oder nur beobachteter) Vorgang, der ein genau abzugrenzendes Ergebnis besitzt, das vom Zufall beeinflusst ist oder beeinflusst sein kann.",
-      "erklaerung": "Ein Vorgang, dessen Ausgang man vorher nicht sicher kennt – z. B. Würfeln, Münzwurf, eine Karte ziehen. Für das Modell zählen nur die möglichen Ergebnisse, die möglichen Fragestellungen und die zugehörigen Wahrscheinlichkeiten.",
+      "erklaerung": "Ein Vorgang, dessen Ausgang man vorher nicht sicher kennt – z. B. Würfeln, Münzwurf, eine Karte ziehen. Wichtig ist nur, dass am Ende ein klares Ergebnis feststeht. Für das Modell zählen nur die möglichen Ergebnisse, die möglichen Fragestellungen und die zugehörigen Wahrscheinlichkeiten.",
       "quelle": "mab005.1_2026-10-19 · Folie 6",
       "abweichungen": []
     },
     {
       "begriff": "Ergebnisraum",
       "wortlaut": "Definition 1.2.1 (Ergebnisraum) Der Ergebnisraum $\\Omega$ (auch Grundmenge oder Grundgesamtheit) eines Zufalls-Experiments ist eine nicht-leere Menge mit Elementen $\\omega \\in \\Omega$. $\\Omega$ gibt die möglichen Ausgänge (Ergebnisse) des betrachteten Zufalls-Experiments an.",
-      "erklaerung": "Die Menge aller Ausgänge, die passieren können. Einmal Würfeln: $\\Omega = \\{1, 2, 3, 4, 5, 6\\}$. Achtung: Bei Hübner (und in der Altklausur Stochastik) heißt $\\Omega$ **Merkmalraum** – gemeint ist dasselbe.",
+      "erklaerung": "Die Liste (Menge) aller Ausgänge, die passieren können; $\\Omega$ spricht man „Omega“, ein einzelnes Ergebnis $\\omega$ „klein Omega“. Einmal Würfeln: $\\Omega = \\{1, 2, 3, 4, 5, 6\\}$. „Nicht-leer“: Es gibt mindestens ein mögliches Ergebnis. Achtung: Bei Hübner (und in der Altklausur Stochastik) heißt $\\Omega$ **Merkmalraum** – gemeint ist dasselbe.",
       "quelle": "mab005.1_2026-10-19 · Folie 9",
       "abweichungen": [
         "Hübner (2009) nennt den Ergebnisraum „Merkmalraum“ (Folie 9); in der Vorlesung gilt „Ergebnisraum“."
@@ -21,84 +21,84 @@
     {
       "begriff": "Ereignis, Ereignissystem",
       "wortlaut": "Definition 1.3.2 (Ereignis, Ereignissystem) In der Modell-Ebene ist ein Ereignis $A$ eine Teilmenge des Ergebnisraums $\\Omega$. Man sagt „Das Ereignis $A$ tritt ein“, falls das Ergebnis $\\omega$ mit $\\omega \\in A$ beobachtet wird. Die Menge aller betrachteten Ereignisse heißt das Ereignissystem $\\mathcal{A}$.",
-      "erklaerung": "Ein Ereignis ist eine Ja/Nein-Frage an das Experiment, geschrieben als Menge aller Ergebnisse, bei denen die Antwort „ja“ ist. „Augenzahl gerade“ $= \\{2, 4, 6\\}$; würfelst du eine 4, tritt es ein. Es gilt immer $\\mathcal{A} \\subseteq \\mathfrak{P}(\\Omega)$.",
+      "erklaerung": "Ein Ereignis ist eine Ja/Nein-Frage an das Experiment, geschrieben als Menge aller Ergebnisse, bei denen die Antwort „ja“ ist – also ein Teil (eine Teilmenge) von $\\Omega$. „Augenzahl gerade“ $= \\{2, 4, 6\\}$; würfelst du eine 4, tritt es ein. Das Ereignissystem $\\mathcal{A}$ ist der Katalog aller Fragen, die man stellen will. Es gilt immer $\\mathcal{A} \\subseteq \\mathfrak{P}(\\Omega)$ ($\\mathfrak{P}(\\Omega)$ = Potenzmenge, die Sammlung aller Teilmengen von $\\Omega$).",
       "quelle": "mab005.1_2026-10-19 · Folie 16–17",
       "abweichungen": []
     },
     {
       "begriff": "Unmögliches Ereignis, sicheres Ereignis, Elementarereignis",
       "wortlaut": "Definition 1.3.3 (Elementarereignis, unmögliches Ereignis, sicheres Ereignis) Das Ereignis $A$ bezüglich des Ergebnisraums $\\Omega$ heißt unmögliches Ereignis, wenn $A = \\emptyset$; sicheres Ereignis, wenn $A = \\Omega$; Elementarereignis, wenn $A = \\{\\omega\\}$ für ein $\\omega \\in \\Omega$.",
-      "erklaerung": "$\\emptyset$ tritt nie ein, $\\Omega$ tritt immer ein, $\\{\\omega\\}$ enthält genau ein Ergebnis. Unterschied: $\\omega$ ist ein Ergebnis (Element), $\\{\\omega\\}$ ein Elementarereignis (Teilmenge). Beispiel Würfeln: $3$ ist ein Ergebnis, $\\{3\\}$ das Elementarereignis „Augenzahl 3“.",
+      "erklaerung": "$\\emptyset$ (leere Menge) tritt nie ein, $\\Omega$ tritt immer ein, $\\{\\omega\\}$ enthält genau ein Ergebnis. Unterschied: $\\omega$ ist ein Ergebnis (Element), $\\{\\omega\\}$ ein Elementarereignis (Teilmenge) – wie ein Apfel und eine Tüte mit genau einem Apfel. Beispiel Würfeln: $3$ ist ein Ergebnis, $\\{3\\}$ das Elementarereignis „Augenzahl 3“; das Ereignis „Augenzahl 7“ ist $\\emptyset$.",
       "quelle": "mab005.1_2026-10-19 · Folie 18",
       "abweichungen": []
     },
     {
       "begriff": "σ-Algebra",
       "wortlaut": "Definition 1.3.5 (σ-Algebra) Ein System $\\mathcal{A}$ von Teilmengen einer Menge $\\Omega$ heißt (Mengen-)σ-Algebra über $\\Omega$, wenn gilt (1) $\\Omega \\in \\mathcal{A}$; (2) $\\bar{A} \\in \\mathcal{A}$, falls $A \\in \\mathcal{A}$; und (3) $\\bigcup_{i=1}^{\\infty} A_i \\in \\mathcal{A}$, falls $A_i \\in \\mathcal{A}$ für alle $i$.",
-      "erklaerung": "Ein „vollständiger Fragenkatalog“: Er enthält das sichere Ereignis, zu jedem Ereignis das Gegenereignis und zu (abzählbar vielen) Ereignissen deren Vereinigung. Nach de Morgan dann auch Schnitte. Beispiel: $\\{\\emptyset, \\{1\\}, \\{2, 3\\}, \\{1, 2, 3\\}\\}$ ist eine σ-Algebra über $\\{1, 2, 3\\}$.",
+      "erklaerung": "Sprich „Sigma-Algebra“. Ein „vollständiger Fragenkatalog“: Er enthält das sichere Ereignis, zu jedem Ereignis das Gegenereignis („nicht A“) und zu (abzählbar vielen, also durchnummerierbaren) Ereignissen deren Vereinigung („mindestens eines tritt ein“). Nach de Morgan dann auch Schnitte („alle treten ein“). Beispiel: $\\{\\emptyset, \\{1\\}, \\{2, 3\\}, \\{1, 2, 3\\}\\}$ ist eine σ-Algebra über $\\{1, 2, 3\\}$.",
       "quelle": "mab005.1_2026-10-19 · Folie 23",
       "abweichungen": []
     },
     {
       "begriff": "Erzeugte σ-Algebra, Erzeuger",
       "wortlaut": "Definition 1.3.8 (erzeugte σ-Algebra, Erzeuger) Ist $\\mathcal{E}$ ein System von Teilmengen einer Menge $\\Omega$, dann heißt die kleinste σ-Algebra $\\mathcal{A}$ (über $\\Omega$), die $\\mathcal{E}$ als Teilmenge enthält, die von $\\mathcal{E}$ erzeugte σ-Algebra (über $\\Omega$) und wird mit $\\mathcal{A}_\\Omega(\\mathcal{E})$ oder kurz $\\mathcal{A}(\\mathcal{E})$ bezeichnet. $\\mathcal{E}$ heißt der Erzeuger von $\\mathcal{A}(\\mathcal{E})$.",
-      "erklaerung": "Man startet mit einigen Mengen ($\\mathcal{E}$) und nimmt so lange Komplemente, Vereinigungen und Schnitte dazu, bis nichts Neues mehr entsteht. Beispiel: $\\Omega = \\{1, 2, 3\\}$, $\\mathcal{E} = \\{\\{1\\}\\}$ ergibt $\\mathcal{A}(\\mathcal{E}) = \\{\\emptyset, \\{1\\}, \\{2, 3\\}, \\Omega\\}$.",
+      "erklaerung": "Man startet mit einigen Mengen ($\\mathcal{E}$, „E in Schreibschrift“, der Erzeuger) und nimmt so lange Komplemente, Vereinigungen und Schnitte dazu, bis nichts Neues mehr entsteht – das ist der kleinste vollständige Fragenkatalog, der die Startmengen enthält. Beispiel: $\\Omega = \\{1, 2, 3\\}$, $\\mathcal{E} = \\{\\{1\\}\\}$ ergibt $\\mathcal{A}(\\mathcal{E}) = \\{\\emptyset, \\{1\\}, \\{2, 3\\}, \\Omega\\}$.",
       "quelle": "mab005.1_2026-10-19 · Folie 26",
       "abweichungen": []
     },
     {
       "begriff": "Borel-σ-Algebra",
       "wortlaut": "Definition 1.3.10 (Borel-σ-Algebra $\\mathbb{B}$) Es sei $\\mathcal{G}_1 = \\{\\,]a,b] \\mid a,b \\in \\mathbb{R},\\, a<b\\}$ die Menge der links-offenen halboffenen Intervalle in $\\mathbb{R}$. Dann heißt die von $\\mathcal{G}_1$ über $\\mathbb{R}$ erzeugte σ-Algebra $\\mathbb{B}$ $(= \\mathcal{A}_\\mathbb{R}(\\mathcal{G}_1))$ die Borel-σ-Algebra (über $\\mathbb{R}$), die Elemente von $\\mathbb{B}$ heißen Borel-Mengen.",
-      "erklaerung": "Das Ereignissystem für $\\Omega = \\mathbb{R}$: Man startet mit allen Intervallen $]a, b]$ und erzeugt daraus alles Weitere. Darin liegen u. a. $\\emptyset$, jedes $\\{a\\}$, alle offenen, abgeschlossenen und unbeschränkten Intervalle (Satz 1.3.11).",
+      "erklaerung": "Das Ereignissystem für Messwerte, also $\\Omega = \\mathbb{R}$ (alle Zahlen auf dem Zahlenstrahl): Man startet mit allen Intervallen $]a, b]$ (Zahlen größer als $a$ bis einschließlich $b$) und erzeugt daraus alles Weitere. Darin liegen u. a. $\\emptyset$, jeder einzelne Punkt $\\{a\\}$, alle offenen, abgeschlossenen und unbeschränkten Intervalle (Satz 1.3.11).",
       "quelle": "mab005.1_2026-10-19 · Folie 28",
       "abweichungen": []
     },
     {
       "begriff": "Absolute Häufigkeit",
       "wortlaut": "Definition 1.4.2 (absolute Häufigkeit) Wird ein Zufalls-Experiment mit Ergebnisraum $\\Omega$ und Ereignissystem $\\mathcal{A}$ $n$-fach durchgeführt und werden dabei die Ergebnisse $(\\omega_1, \\omega_2, \\dots, \\omega_n) \\in \\Omega^n$ beobachtet, so ist $H_n(A) = \\left|\\{i \\in \\{1, \\dots, n\\} \\mid \\omega_i \\in A\\}\\right|$ die absolute Häufigkeit des Eintretens des Ereignisses $A \\in \\mathcal{A}$.",
-      "erklaerung": "Wie oft ist $A$ bei $n$ Durchführungen eingetreten? Man zählt die Nummern $i$ der Durchführungen, bei denen das Ergebnis $\\omega_i$ in $A$ lag. Beispiel: 10-mal würfeln, 3-mal eine 6 → $H_{10}(\\{6\\}) = 3$.",
+      "erklaerung": "Wie oft ist $A$ bei $n$ Durchführungen eingetreten? Man zählt die Nummern $i$ der Durchführungen, bei denen das Ergebnis $\\omega_i$ in $A$ lag; $|\\ldots|$ bedeutet „Anzahl“. Beispiel: 10-mal würfeln, 3-mal eine 6 → $H_{10}(\\{6\\}) = 3$ (sprich: „H zehn von 6“).",
       "quelle": "mab005.1_2026-10-26 · Folie 37",
       "abweichungen": []
     },
     {
       "begriff": "Relative Häufigkeit",
       "wortlaut": "Definition 1.4.3 (relative Häufigkeit) Wird ein Zufalls-Experiment mit Ergebnisraum $\\Omega$ und Ereignissystem $\\mathcal{A}$ $n$-fach durchgeführt und werden dabei die Ergebnisse $(\\omega_1, \\omega_2, \\dots, \\omega_n) \\in \\Omega^n$ beobachtet, so ist $h_n(A) = \\frac{H_n(A)}{n}$ die relative Häufigkeit des Eintretens des Ereignisses $A \\in \\mathcal{A}$.",
-      "erklaerung": "Der Anteil der Durchführungen, bei denen $A$ eingetreten ist: absolute Häufigkeit geteilt durch die Anzahl der Versuche. Beispiel: 3-mal eine 6 bei 10 Würfen → $h_{10}(\\{6\\}) = \\frac{3}{10}$.",
+      "erklaerung": "Der Anteil der Durchführungen, bei denen $A$ eingetreten ist: absolute Häufigkeit geteilt durch die Anzahl der Versuche. Liegt immer zwischen $0$ und $1$. Beispiel: 3-mal eine 6 bei 10 Würfen → $h_{10}(\\{6\\}) = \\frac{3}{10} = 0{,}3$.",
       "quelle": "mab005.1_2026-10-26 · Folie 37",
       "abweichungen": []
     },
     {
       "begriff": "Empirisches Gesetz der großen Zahlen",
       "wortlaut": "Axiom (Empirisches Gesetz der großen Zahlen) Bei $n$-facher Durchführung eines Zufalls-Experiments mit Ereignissystem $\\mathcal{A}$ konvergieren die relativen Häufigkeiten $h_n(A)$ jedes Ereignisses $A \\in \\mathcal{A}$ für $n \\to \\infty$ gegen einen Grenzwert.",
-      "erklaerung": "Je öfter man ein Experiment wiederholt, desto mehr „pendelt sich“ die relative Häufigkeit auf einen festen Wert ein. Das ist **kein beweisbarer Satz, sondern eine Erfahrungstatsache**; „Grenzwert“ ist hier nicht im strengen Sinn der Analysis gemeint.",
+      "erklaerung": "Je öfter man ein Experiment wiederholt, desto mehr „pendelt sich“ die relative Häufigkeit auf einen festen Wert ein (Münze: auf etwa $\\frac{1}{2}$). „Empirisch“ = aus Erfahrung; ein Axiom ist eine Grundannahme. Das ist **kein beweisbarer Satz, sondern eine Erfahrungstatsache**; „Grenzwert“ ist hier nicht im strengen Sinn der Analysis gemeint.",
       "quelle": "mab005.1_2026-10-26 · Folie 38",
       "abweichungen": []
     },
     {
       "begriff": "Wahrscheinlichkeitsmaß",
       "wortlaut": "Definition 1.4.5 (Wahrscheinlichkeitsmaß) Eine Abbildung $P : \\mathcal{A} \\to \\mathbb{R}$, wobei $\\mathcal{A}$ eine σ-Algebra über $\\Omega$ ist, heißt Wahrscheinlichkeitsmaß (kurz: W-Maß) auf $\\mathcal{A}$, wenn die folgenden drei Bedingungen für alle Ereignisse $A \\in \\mathcal{A}$ bzw. für alle Ereignisse $A_i \\in \\mathcal{A}$, $i \\in \\mathbb{N}$, erfüllt sind: (1) $P(A) \\ge 0$ (Nichtnegativität) (2) $P(\\Omega) = 1$ (Normiertheit) (3′) $P\\left(\\dot{\\bigcup}_{i=1}^{\\infty} A_i\\right) = \\sum_{i=1}^{\\infty} P(A_i)$ (σ-Additivität)",
-      "erklaerung": "Eine Funktion, die jedem Ereignis eine Zahl zuordnet – seine Wahrscheinlichkeit. Drei Regeln: nie negativ, das sichere Ereignis hat 1, und bei (paarweise) disjunkten Ereignissen addieren sich die Wahrscheinlichkeiten. Beispiel fairer Würfel: $P(\\{2, 4, 6\\}) = P(\\{2\\}) + P(\\{4\\}) + P(\\{6\\}) = \\frac{3}{6}$.",
+      "erklaerung": "Eine Funktion (Zuordnungsvorschrift), die jedem Ereignis eine Zahl zuordnet – seine Wahrscheinlichkeit. Drei Regeln: nie negativ, das sichere Ereignis hat 1, und bei (paarweise) disjunkten Ereignissen – solchen ohne gemeinsames Ergebnis – addieren sich die Wahrscheinlichkeiten. Beispiel fairer Würfel: $P(\\{2, 4, 6\\}) = P(\\{2\\}) + P(\\{4\\}) + P(\\{6\\}) = \\frac{3}{6}$.",
       "quelle": "mab005.1_2026-10-26 · Folie 41",
       "abweichungen": []
     },
     {
       "begriff": "Wahrscheinlichkeitsraum",
       "wortlaut": "Definition 1.5.1 (Wahrscheinlichkeitsraum) Ein Tripel $(\\Omega, \\mathcal{A}, P)$ aus Ergebnisraum $\\Omega$, Ereignis-System $\\mathcal{A}$ und Wahrscheinlichkeitsmaß $P : \\mathcal{A} \\to \\mathbb{R}$ heißt Wahrscheinlichkeitsraum (kurz: W-Raum) bzw. Wahrscheinlichkeitsmodell (kurz: W-Modell).",
-      "erklaerung": "Das vollständige mathematische Modell eines Zufalls-Experiments: die drei Bausteine aus Folie 7 zusammen. Beispiel fairer Münzwurf: $(\\{\\text{W}, \\text{Z}\\}, \\mathfrak{P}(\\{\\text{W}, \\text{Z}\\}), P)$ mit $P(\\{\\text{W}\\}) = P(\\{\\text{Z}\\}) = \\frac{1}{2}$.",
+      "erklaerung": "Das vollständige mathematische Modell eines Zufalls-Experiments: die drei Bausteine aus Folie 7 zusammen, als Dreier-Liste (Tripel) – was kann passieren, wonach frage ich, wie wahrscheinlich ist es. Beispiel fairer Münzwurf: $(\\{\\text{W}, \\text{Z}\\}, \\mathfrak{P}(\\{\\text{W}, \\text{Z}\\}), P)$ mit $P(\\{\\text{W}\\}) = P(\\{\\text{Z}\\}) = \\frac{1}{2}$.",
       "quelle": "mab005.1_2026-10-26 · Folie 47",
       "abweichungen": []
     },
     {
       "begriff": "Bernoulli-Experiment",
       "wortlaut": "Definition 1.5.3 (Bernoulli-Experiment) Ein Zufalls-Experiment mit zwei möglichen Ausgängen heißt Bernoulli-Experiment. Als Ergebnisraum nutzt man $\\Omega = \\{0, 1\\}$ und bezeichnet $\\omega = 1$ als „Erfolg“ und $\\omega = 0$ als „Misserfolg“. Das W-Modell $(\\Omega, \\mathcal{A}, P)$, bestehend aus $\\Omega = \\{0, 1\\}$, $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ und dem W-Maß $P$, das durch $P(\\{1\\}) = p$, $P(\\{0\\}) = 1 - p = q$ mit $0 \\le p \\le 1$ festgelegt wird, heißt Bernoulli-Modell. Das W-Maß $P$ heißt entsprechend Bernoulli-Verteilung mit Parameter $p$ oder Bernoulli($p$)-Verteilung (kurz: $B(p)$).",
-      "erklaerung": "Ein Experiment mit nur zwei Ausgängen: Erfolg (1) mit Wahrscheinlichkeit $p$, Misserfolg (0) mit $q = 1 - p$. Beispiel: Würfeln, Erfolg = „6“ → $p = \\frac{1}{6}$, $q = \\frac{5}{6}$.",
+      "erklaerung": "Ein Experiment mit nur zwei Ausgängen: Erfolg (1) mit Wahrscheinlichkeit $p$, Misserfolg (0) mit $q = 1 - p$. Was „Erfolg“ ist, legt man selbst fest. Beispiel: Würfeln, Erfolg = „6“ → $p = \\frac{1}{6}$, $q = \\frac{5}{6}$.",
       "quelle": "mab005.1_2026-10-26 · Folie 49",
       "abweichungen": []
     },
     {
       "begriff": "Laplace-Experiment",
       "wortlaut": "Definition 1.5.4 (Laplace-Experiment) Ein Zufalls-Experiment mit endlich vielen und gleichwertigen Ausgängen heißt Laplace-Experiment. Als Ergebnisraum wählt man etwa $\\Omega = \\{1, 2, \\dots, N\\}$. Das W-Maß $P$ auf $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ ist festgelegt durch $P(\\{1\\}) = P(\\{2\\}) = \\dots = P(\\{N\\})$, also $P(\\{\\omega\\}) = \\frac{1}{N}$ für alle $\\omega \\in \\Omega$, sowie für beliebige Ereignisse durch $P(A) = \\frac{|A|}{|\\Omega|}$. Das W-Maß heißt Laplace-Verteilung oder diskrete Gleichverteilung über $\\Omega$ (kurz: $L(\\Omega)$).",
-      "erklaerung": "Alle Ausgänge sind gleich wahrscheinlich – dann ist die Wahrscheinlichkeit „Anzahl günstige durch Anzahl mögliche Ergebnisse“. Beispiel fairer Würfel: $P(\\text{gerade}) = \\frac{3}{6} = \\frac{1}{2}$.",
+      "erklaerung": "Alle Ausgänge sind gleich wahrscheinlich – dann ist die Wahrscheinlichkeit „Anzahl günstige durch Anzahl mögliche Ergebnisse“, $P(A) = \\frac{|A|}{|\\Omega|}$ ($|A|$ = Anzahl der Elemente von $A$). Beispiel fairer Würfel: $P(\\text{gerade}) = \\frac{3}{6} = \\frac{1}{2}$.",
       "quelle": "mab005.1_2026-10-26 · Folie 50",
       "abweichungen": []
     }

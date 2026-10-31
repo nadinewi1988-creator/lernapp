@@ -3,7 +3,7 @@
   "modul": "pkb003",
   "teilmodul": "pkb003.2",
   "datum": "2026-11-02",
-  "sitzung_nr": 4,
+  "sitzung_nr": 3,
   "sitzung_id": "",
   "thema": "Gewerkschaften in Deutschland",
   "thema_in_app": "eingetragen",
@@ -11,7 +11,7 @@
   "art_inhalt": "Zusammenfassung der Seminarliteratur (Präsentation durch Mitstudierende)",
   "quellen": [
     {
-      "datei": "pkb003.2/S04_2026-11-02_Ruetters-Mielke_Gewerkschaften.pdf",
+      "datei": "pkb003.2/S03_2026-11-02_Ruetters-Mielke_Gewerkschaften.pdf",
       "art": "Literatur: Rütters/Mielke (2020), Handwörterbuch des politischen Systems der Bundesrepublik Deutschland",
       "seiten": "1–11"
     }

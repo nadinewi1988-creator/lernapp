@@ -44,19 +44,19 @@
     {
       "text": "Grundstrukturen politischer, wirtschaftlicher und verwaltender Ordnungen kritisch reflektieren",
       "abgedeckt_in": [
-        "pkb003.2_2026-10-26",
+        "pkb003.2_2026-11-09",
         "pkb003.1_2026-10-27",
         "pkb003.2_2026-11-02",
         "pkb003.1_2026-11-03",
-        "pkb003.2_2026-11-09",
+        "pkb003.2_2026-11-16",
         "pkb003.1_2026-11-10",
-        "pkb003.2_2026-11-23",
-        "pkb003.1_2026-11-24",
         "pkb003.2_2026-11-30",
-        "pkb003.1_2026-12-01",
+        "pkb003.1_2026-11-24",
         "pkb003.2_2026-12-07",
-        "pkb003.1_2026-12-08",
+        "pkb003.1_2026-12-01",
         "pkb003.2_2026-12-14",
+        "pkb003.1_2026-12-08",
+        "pkb003.2_2027-01-04",
         "pkb003.1_2026-12-15",
         "pkb003.1_2027-01-05",
         "pkb003.1_2027-01-12",
@@ -66,19 +66,19 @@
     {
       "text": "Informationen für die Systemanalyse auswählen, Thesen prüfen, Kontroversen erkennen",
       "abgedeckt_in": [
-        "pkb003.2_2026-10-26",
+        "pkb003.2_2026-11-09",
         "pkb003.1_2026-10-27",
         "pkb003.2_2026-11-02",
         "pkb003.1_2026-11-03",
-        "pkb003.2_2026-11-09",
+        "pkb003.2_2026-11-16",
         "pkb003.1_2026-11-10",
-        "pkb003.2_2026-11-23",
-        "pkb003.1_2026-11-24",
         "pkb003.2_2026-11-30",
-        "pkb003.1_2026-12-01",
+        "pkb003.1_2026-11-24",
         "pkb003.2_2026-12-07",
-        "pkb003.1_2026-12-08",
+        "pkb003.1_2026-12-01",
         "pkb003.2_2026-12-14",
+        "pkb003.1_2026-12-08",
+        "pkb003.2_2027-01-04",
         "pkb003.1_2026-12-15",
         "pkb003.1_2027-01-05",
         "pkb003.1_2027-01-12"
@@ -224,91 +224,91 @@
     {
       "teilmodul": "pkb003.2",
       "datum": "2026-10-19",
-      "nr": 2,
-      "thema": "Eine kurze Geschichte der Bundesrepublik",
-      "literatur": "keine angegeben – Zusammenfassung aus Lehrbuchkapiteln"
+      "thema": "Ausgefallen",
+      "literatur": "–",
+      "hinweis": "ausgefallen, kein Material – Themen ab 26.10. laut Kursplan REV2 verschoben"
     },
     {
       "teilmodul": "pkb003.2",
       "datum": "2026-10-26",
-      "nr": 3,
-      "thema": "Ordoliberalismus und soziale Marktwirtschaft in Deutschland",
-      "literatur": "S03_2026-10-26_Pies_Ordoliberalismus-SozMarktwirtschaft.pdf"
+      "nr": 2,
+      "thema": "Eine kurze Geschichte der Bundesrepublik",
+      "literatur": "keine angegeben (Präsentation des Veranstalters) – Zusammenfassung aus Lehrbuchkapiteln"
     },
     {
       "teilmodul": "pkb003.2",
       "datum": "2026-11-02",
-      "nr": 4,
+      "nr": 3,
       "thema": "Gewerkschaften in Deutschland",
-      "literatur": "S04_2026-11-02_Ruetters-Mielke_Gewerkschaften.pdf"
+      "literatur": "S03_2026-11-02_Ruetters-Mielke_Gewerkschaften.pdf"
     },
     {
       "teilmodul": "pkb003.2",
       "datum": "2026-11-09",
-      "nr": 5,
-      "thema": "Politik und Religion in Deutschland",
-      "literatur": "S05_2026-11-09_Schroeder_Islamkonferenz.pdf"
+      "nr": 4,
+      "thema": "Ordoliberalismus und soziale Marktwirtschaft in Deutschland",
+      "literatur": "S04_2026-11-09_Pies_Ordoliberalismus-SozMarktwirtschaft.pdf"
     },
     {
       "teilmodul": "pkb003.2",
       "datum": "2026-11-16",
-      "nr": 6,
-      "thema": "Die Umweltbewegung(en) in Deutschland",
-      "literatur": "fehlt"
+      "nr": 5,
+      "thema": "Politik und Religion in Deutschland",
+      "literatur": "S05_2026-11-16_Schroeder_Islamkonferenz.pdf"
     },
     {
       "teilmodul": "pkb003.2",
       "datum": "2026-11-23",
-      "nr": 7,
-      "thema": "Demographischer Wandel",
-      "literatur": "S07_2026-11-23_Brussig_Demografischer-Wandel.pdf"
+      "nr": 6,
+      "thema": "Die Umweltbewegung(en) in Deutschland",
+      "literatur": "fehlt (Literatur tba)"
     },
     {
       "teilmodul": "pkb003.2",
       "datum": "2026-11-30",
-      "nr": 8,
-      "thema": "Die Wiedervereinigung",
-      "literatur": "S08_2026-11-30_IWH_Vereintes-Land.pdf"
+      "nr": 7,
+      "thema": "Demographischer Wandel",
+      "literatur": "S07_2026-11-30_Brussig_Demografischer-Wandel.pdf"
     },
     {
       "teilmodul": "pkb003.2",
       "datum": "2026-12-07",
-      "nr": 9,
-      "thema": "Spielarten der Marktwirtschaft/des Kapitalismus",
-      "literatur": "S09_2026-12-07_Hall_Spielarten-des-Kapitalismus.pdf"
+      "nr": 8,
+      "thema": "Die Wiedervereinigung",
+      "literatur": "S08_2026-12-07_IWH_Vereintes-Land.pdf"
     },
     {
       "teilmodul": "pkb003.2",
       "datum": "2026-12-14",
-      "nr": 10,
-      "thema": "Deutschland und Frankreich in der Euro-Krise",
-      "literatur": "S10_2026-12-14_Flachmeyer-Paul_EZB-Euro-Rettung.pdf · S10_2026-12-14_Lehner-Wasserfallen_Euro-Reform.pdf"
+      "nr": 9,
+      "thema": "Spielarten der Marktwirtschaft/des Kapitalismus",
+      "literatur": "S09_2026-12-14_Hall_Spielarten-des-Kapitalismus.pdf · Brunnermeier u. a. (2018) fehlt"
     },
     {
       "teilmodul": "pkb003.2",
       "datum": "2027-01-04",
-      "nr": 11,
-      "thema": "Polarisierung von Politik und Gesellschaft in Deutschland – Pro-Argumente",
-      "literatur": "S11_2027-01-04_Otteni-Weisskircher_AfD-gegen-Gruene.pdf"
+      "nr": 10,
+      "thema": "Deutschland und Frankreich in der Euro-Krise",
+      "literatur": "S10_2027-01-04_Flachmeyer-Paul_EZB-Euro-Rettung.pdf · S10_2027-01-04_Lehner-Wasserfallen_Euro-Reform.pdf"
     },
     {
       "teilmodul": "pkb003.2",
       "datum": "2027-01-11",
-      "nr": 12,
-      "thema": "Gesellschaftliche Spaltung in Deutschland? – Contra-Argumente",
-      "literatur": "S12_2027-01-11_Westhaeuser_This-is-not-America.pdf · Mau (2022) fehlt"
+      "nr": 11,
+      "thema": "Polarisierung von Politik und Gesellschaft in Deutschland – Pro-Argumente",
+      "literatur": "S11_2027-01-11_Otteni-Weisskircher_AfD-gegen-Gruene.pdf"
     },
     {
       "teilmodul": "pkb003.2",
       "datum": "2027-01-18",
-      "nr": 13,
-      "thema": "tba",
-      "literatur": "keine angegeben"
+      "nr": 12,
+      "thema": "Gesellschaftliche Spaltung in Deutschland? – Contra-Argumente",
+      "literatur": "S12_2027-01-18_Westhaeuser_This-is-not-America.pdf · Mau_Polarisierung_Merkur2022.pdf"
     },
     {
       "teilmodul": "pkb003.2",
       "datum": "2027-01-25",
-      "nr": 14,
+      "nr": 13,
       "thema": "Abschlussdiskussion",
       "literatur": "Synthese aller Sitzungen"
     },
@@ -402,7 +402,6 @@
   "sitzungen": [
     "pkb003.2_2026-10-12",
     "pkb003.1_2026-10-13",
-    "pkb003.2_2026-10-19",
     "pkb003.1_2026-10-20",
     "pkb003.3_2026-10-22",
     "pkb003.2_2026-10-26",
@@ -411,7 +410,7 @@
     "pkb003.1_2026-11-03",
     "pkb003.2_2026-11-09",
     "pkb003.1_2026-11-10",
-    "pkb003.2_2026-11-23",
+    "pkb003.2_2026-11-16",
     "pkb003.1_2026-11-24",
     "pkb003.2_2026-11-30",
     "pkb003.1_2026-12-01",
@@ -423,6 +422,7 @@
     "pkb003.1_2027-01-05",
     "pkb003.2_2027-01-11",
     "pkb003.1_2027-01-12",
+    "pkb003.2_2027-01-18",
     "pkb003.2_2027-01-25",
     "pkb003.1_2027-01-26"
   ],
@@ -464,7 +464,7 @@
       "geaendert": "2026-10-20",
       "art": "Literatur",
       "status": "verarbeitet",
-      "sitzung": "pkb003.2_2026-10-26"
+      "sitzung": "pkb003.2_2026-11-09"
     },
     {
       "pfad": "pkb003.1/S03_2026-10-27_Zohlnhoefer-Engler_Merkel-Jahre_Kap-Saalfeld-Seifert_ab-S131.pdf",
@@ -513,42 +513,42 @@
       "geaendert": "2026-10-20",
       "art": "Literatur",
       "status": "verarbeitet",
-      "sitzung": "pkb003.2_2026-11-09"
+      "sitzung": "pkb003.2_2026-11-16"
     },
     {
       "pfad": "pkb003.2/S07_2026-11-23_Brussig_Demografischer-Wandel.pdf",
       "geaendert": "2026-10-20",
       "art": "Literatur",
       "status": "verarbeitet",
-      "sitzung": "pkb003.2_2026-11-23"
+      "sitzung": "pkb003.2_2026-11-30"
     },
     {
       "pfad": "pkb003.2/S08_2026-11-30_IWH_Vereintes-Land.pdf",
       "geaendert": "2026-10-20",
       "art": "Literatur",
       "status": "verarbeitet",
-      "sitzung": "pkb003.2_2026-11-30"
+      "sitzung": "pkb003.2_2026-12-07"
     },
     {
       "pfad": "pkb003.2/S09_2026-12-07_Hall_Spielarten-des-Kapitalismus.pdf",
       "geaendert": "2026-10-20",
       "art": "Literatur",
       "status": "verarbeitet",
-      "sitzung": "pkb003.2_2026-12-07"
+      "sitzung": "pkb003.2_2026-12-14"
     },
     {
       "pfad": "pkb003.2/S10_2026-12-14_Flachmeyer-Paul_EZB-Euro-Rettung.pdf",
       "geaendert": "2026-10-20",
       "art": "Literatur",
       "status": "verarbeitet",
-      "sitzung": "pkb003.2_2026-12-14"
+      "sitzung": "pkb003.2_2027-01-04"
     },
     {
       "pfad": "pkb003.2/S10_2026-12-14_Lehner-Wasserfallen_Euro-Reform.pdf",
       "geaendert": "2026-10-20",
       "art": "Literatur",
       "status": "verarbeitet",
-      "sitzung": "pkb003.2_2026-12-14"
+      "sitzung": "pkb003.2_2027-01-04"
     },
     {
       "pfad": "pkb003.1/Zusatz_Benz_Politik-in-Mehrebenensystemen.pdf",
@@ -562,7 +562,7 @@
       "geaendert": "2026-10-20",
       "art": "Zusatzliteratur (genutzt für Sitzungen ohne Kursliteratur)",
       "status": "verarbeitet",
-      "sitzung": "pkb003.1_2026-10-20 · pkb003.2_2026-10-12 · pkb003.2_2026-10-19"
+      "sitzung": "pkb003.1_2026-10-20 · pkb003.2_2026-10-12 · pkb003.2_2026-10-26"
     },
     {
       "pfad": "Literatur/_Doppelt/Mannewitz-Rudzio_2022_Das-politische-System-der-BRD_Fassung2.pdf",
@@ -596,14 +596,14 @@
       "geaendert": "2026-10-25",
       "art": "Literatur",
       "status": "verarbeitet",
-      "sitzung": "pkb003.2_2027-01-04"
+      "sitzung": "pkb003.2_2027-01-11"
     },
     {
       "pfad": "pkb003.2/S12_2027-01-11_Westhaeuser_This-is-not-America.pdf",
       "geaendert": "2026-10-25",
       "art": "Literatur",
       "status": "verarbeitet",
-      "sitzung": "pkb003.2_2027-01-11"
+      "sitzung": "pkb003.2_2027-01-18"
     },
     {
       "pfad": "Literatur/Moeltgen-Sicking-Winter_2018_Verwaltung-und-Verwaltungswissenschaft.pdf",

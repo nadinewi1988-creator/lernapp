@@ -3,22 +3,22 @@
   "modul": "pkb003",
   "teilmodul": "pkb003.2",
   "datum": "2027-01-11",
-  "sitzung_nr": 12,
+  "sitzung_nr": 11,
   "sitzung_id": "",
-  "thema": "Gesellschaftliche Spaltung in Deutschland? – Contra-Argumente",
+  "thema": "Polarisierung von Politik und Gesellschaft in Deutschland – Pro-Argumente",
   "thema_in_app": "eingetragen",
   "stand": "geprueft",
   "art_inhalt": "Zusammenfassung der Seminarliteratur (Präsentation durch Mitstudierende)",
   "quellen": [
     {
-      "datei": "pkb003.2/S12_2027-01-11_Westhaeuser_This-is-not-America.pdf",
-      "art": "Literatur: Westheuser (2022), Sammelbesprechung, Forschungsjournal Soziale Bewegungen 35(2), https://doi.org/10.1515/fjsb-2022-0030",
-      "seiten": "422–427"
+      "datei": "pkb003.2/S11_2027-01-11_Otteni-Weisskircher_AfD-gegen-Gruene.pdf",
+      "art": "Literatur: Otteni/Weisskircher (2022), Forschungsjournal Soziale Bewegungen 35(2), https://doi.org/10.1515/fjsb-2022-0022",
+      "seiten": "317–335"
     }
   ],
   "lernziele": [
     {
-      "text": "Gibt es Zeichen einer gesellschaftlichen Spaltung in Deutschland? Die Contra-Argumente",
+      "text": "Gibt es Zeichen einer gesellschaftlichen Spaltung in Deutschland? Die Pro-Argumente",
       "art": "vorgegeben",
       "quelle": "Leitfrage Kursplan",
       "fragen": [],
@@ -26,95 +26,93 @@
     }
   ],
   "kurzfassung": [
-    "Westheuser bespricht sechs Bücher/Studien. These: Der öffentliche Polarisierungsdiskurs („zwei Lager“) ist von der empirischen Forschung nicht gedeckt – Polarisierung nach US-Vorbild ist in Deutschland eine „Schimäre“ (Trugbild).",
-    "Der Diskurs vermischt vier verschiedene Diagnosen (Parteienwettbewerb, Einstellungen, soziale Sortierung, affektive Polarisierung), die nur in den USA tatsächlich zusammen auftreten.",
-    "Im internationalen Vergleich ist Deutschland unterdurchschnittlich affektiv polarisiert, und die Polarisierung nimmt seit 2000 ab – auch nach 2015.",
-    "Mehrheiten nehmen Mittelpositionen ein, die Anhängerschaften der Parteien überlappen stark; Corona hat die Polarisierung nicht verschärft.",
-    "Einzige Ausnahme: die AfD und ihr Umfeld. Statt Spaltung eher „Abspaltung einer kleinen, unzufriedenen Minderheit“ (Materialist:innen-Milieu: 9 %).",
-    "Rund zwei Drittel stehen in der Mitte. Spannender als „zwei Lager“ ist die Verbindung von sozialer und politischer Ungleichheit (z. B. das „unsichtbare Drittel“)."
+    "Fast alle Bundestagsparteien bekennen sich zu Klimaschutz – die AfD ist die wesentliche Ausnahme: Sie leugnet den menschengemachten Klimawandel und mobilisiert gegen Windkraft, Kohleausstieg und CO₂-Preis (Angebotsseite).",
+    "Rechtspopulistische Parteien sind keine „single-issue“-Parteien: Neben Einwanderung ist Klimapolitik für die AfD ein eigenes Kampfthema.",
+    "Nachfrageseite (Umfrage 2019, rund 6.500 Befragte): Klimaskeptische Menschen neigen deutlich häufiger der AfD zu, klimapolitisch Überzeugte den Grünen. AfD und Grüne bilden die beiden Pole.",
+    "Das gilt nicht nur für die Grundfrage „Gibt es den Klimawandel?“, sondern auch für konkrete Maßnahmen (Ausbau der Erneuerbaren, Kohle- und Atomausstieg).",
+    "Kernbefund: „Einstellungs- und Parteienpolarisierung stehen in einem engen Zusammenhang.“ Die Polarisierung hat zudem eine sozialräumliche Seite (Stadt–Land, Ostdeutschland).",
+    "Die Autoren schränken selbst ein: Auch CDU/CSU- und FDP-Anhänger sind bei konkreten Maßnahmen skeptisch, der „Energiewendekonsens“ war schon vor der AfD ein „Mythos“, und Polarisierung kann auch positive Effekte haben."
   ],
   "erklaerung": [
     {
-      "titel": "Die besprochenen Studien im Überblick",
-      "folien": "S. 422",
-      "text": "| Autor/Jahr/Titel (wie im Text) | Was Westheuser daraus zieht |\n|---|---|\n| Klein, Ezra 2020: Der tiefe Graben. Die Geschichte der gespaltenen Staaten von Amerika | Gegenfolie USA: Parteineigungen als „Mega-Identitäten“ |\n| Gidron, Noam/Adams, James/Horne, Will 2020: American Affective Polarization in Comparative Perspective | Deutschland deutlich weniger affektiv polarisiert als der Länderdurchschnitt, Rückgang seit 2000 |\n| Roose, Jochen 2021: Politische Polarisierung in Deutschland (Konrad-Adenauer-Stiftung) | Mehrheiten in der Mitte, große Überlappungen; Ausnahme: Abgrenzung gegenüber AfD-Wählern |\n| More in Common 2019: Die andere deutsche Teilung | sechs Typen; nur „Wütende“ (19 %) und „Offene“ (16 %) stehen sich polar gegenüber |\n| Back, Mitja/Echterhoff, Gerald/Müller, Olaf/Pollack, Detlef/Schlipphak, Bernd 2021: Von Verteidigern und Entdeckern (Exzellenzcluster Münster) | die Pole „Verteidiger“ und „Entdecker“ machen zusammen nur 34 % aus |\n| El-Menouar, Yasemin/Unzicker, Kai 2021: Klimawandel, Vielfalt, Gerechtigkeit (Bertelsmann-Stiftung) | nur das kleine Milieu der „Materialist:innen“ (9 %) unterscheidet sich durchgängig vom Rest |"
+      "titel": "Fragestellung",
+      "folien": "S. 318–319",
+      "text": "• Unter dem Schlagwort „Energiewende“ treibt Deutschland den Ausstieg aus fossilen Energien voran; fast alle Bundestagsparteien bekennen sich *zumindest rhetorisch* zu weitreichendem Klimaschutz.\n• Die AfD mobilisiert ausdrücklich gegen den *vermeintlichen* „Energiewendekonsens“. 2019, am Höhepunkt von Fridays for Future, zählte Alexander Gauland die Opposition gegen die „sogenannte Klimaschutzpolitik“ zu den wichtigsten Vorhaben der Partei.\n• Der Aspekt ist in der AfD-Forschung **unterbeleuchtet**. Untersucht wird die klimapolitische **Parteien-** und vor allem **Einstellungspolarisierung** – in zwei Schritten: Angebot (Partei) und Nachfrage (Wählerschaft)."
     },
     {
-      "titel": "„Zwei Lager?“ – Diskurs und Befundlage",
-      "folien": "S. 422–423",
-      "text": "Der größte Spalt klafft *„zwischen Diskurs und empirischer Befundlage“*. Die Debatte fasst sehr Verschiedenes unter das Bild zweier Lager: Wandel des Parteiensystems, hitzige Debatten über Windräder, Flüchtlinge oder Gendersternchen, angebliche Gegensätze von Milieus (Viel- und Wenigflieger, Stadt und Land).\n\nVermischt werden **vier Diagnosen:**\n• verschärfte Gegensätze im **Parteienwettbewerb**\n• Ausrichtung der **Einstellungen** entlang *einer* neuen kulturellen Konfliktachse\n• **soziale Sortierung** von Gruppen und Milieus in politische Blöcke\n• **affektive Polarisierung** – Ablehnung des gegnerischen Lagers, die in den Alltag überschwappt\n\n**USA (Klein):** Durch Radikalisierung der Republikaner, Zwei-Parteiensystem und Mehrheitswahlrecht sind Parteineigungen zu **„Mega-Identitäten“** geworden. Zentral ist die Ablehnung der anderen Seite: 40 % der Demokraten und Republikaner hielten 2019 die Gegenseite für *„rundweg böse“*."
+      "titel": "Angebotsseite: Was die AfD klimapolitisch anbietet",
+      "folien": "S. 320–322",
+      "text": "• **Klimawandel-Leugnung:** Wahlprogramm 2021 gegen den menschengemachten Klimawandel, aber Verweis auf einen natürlichen: *„Niemand streitet die jüngste globale Erwärmung ab“* (AfD 2021: 174). „Dresdener Erklärung“ (2019): Klimaschutzmaßnahmen seien „teuer, nutz- und wirkungslos“; Ablehnung von Kohleausstieg und CO₂-Bepreisung „in jeglicher Form“, Forderung nach Ausstieg aus dem Pariser Abkommen.\n• **Rhetorik:** Warnung vor „Alarmismus“ und „Öko-Diktatur“; Grüne und Fridays for Future als Hauptgegner.\n• **Parlament:** Anträge im 19. Bundestag, z. B. zum Ausstieg aus der Pariser Klimaübereinkunft.\n• **Windkraft** (v. a. Landesebene): Natur- gegen Klimaschutz (Landschaftsbild, Vogelsterben), teils Kooperation mit lokalen Protestgruppen.\n• **Kohle** (v. a. Ostdeutschland): Antrag auf „Widerruf des Kohleausstiegs“.\n\n**Chapel Hill Expert Survey 2019 (Abb. 1),** Skala 0 (Wachstum auch auf Kosten der Umwelt) bis 10 (Umweltschutz auch auf Kosten des Wachstums):\n\n| Grüne | Linke | SPD | CDU | CSU | FDP | AfD |\n|---|---|---|---|---|---|---|\n| 8,45 | 5,75 | 5,30 | 3,95 | 3,80 | 2,47 | 1,55 |\n\nFazit: ein klimapolitisches Angebot, *„das sich wesentlich von dem der anderen Parteien unterscheidet“*."
     },
     {
-      "titel": "Internationaler Vergleich (Gidron/Adams/Horne)",
-      "folien": "S. 423–425",
-      "text": "• Maß: Differenz der Bewertung eigene vs. andere Parteien auf einem Gefühlsthermometer – laut Westheuser ein *„eher oberflächliches Maß“* (misst Emotionalität nur indirekt; unklar, ob Menschen oder Programme abgelehnt werden).\n• Die USA sind hoch polarisiert, aber **kein Ausreißer** (Südeuropa liegt höher); außergewöhnlich ist der starke Anstieg in den USA in den letzten drei Jahrzehnten.\n• **Deutschland** ist deutlich weniger polarisiert als der Durchschnitt; seit 2000 ein **kontinuierlicher, auch nach 2015 anhaltender Rückgang**.\n• Mögliche Erklärung: schwierige Wirtschaftslage (hohe Arbeitslosigkeit) geht mit mehr Polarisierung einher, **Verhältniswahlsysteme** wie das deutsche mit weniger."
+      "titel": "Nachfrageseite: Daten und Methode",
+      "folien": "S. 322–323",
+      "text": "Soziales Nachhaltigkeitsbarometer der Energiewende, Welle **2019** (rund 6.500 Befragte, repräsentatives Panel, Webinterviews); 2019 war Klimaschutz *das* bestimmende Thema (Kohlekommission, Europawahl, Fridays for Future).\n• Abhängige Variable: **Parteiidentifikation**.\n• Unabhängige Variablen: Glaube an den Klimawandel; Haltung zum Ausbau der Erneuerbaren, zum Kohle- und zum Atomausstieg.\n• Binär-logistische Regressionen mit Kontrollen (Geschlecht, Alter, Bildung, Ost/West, Bundesland)."
     },
     {
-      "titel": "Deutsche Meinungslandschaft (Roose 2021)",
-      "folien": "S. 425",
-      "text": "• In allen Feldern (Soziales, Migration, Klima) nehmen **Mehrheiten Mittelpositionen** ein; Meinungen verschieben sich in *eine* Richtung; die Elektorate überlappen stark; Corona hat nicht polarisiert.\n• Große Mehrheiten – auch ganz links und ganz rechts – befürworten Offenheit gegenüber Andersdenkenden und Kompromisse.\n\n| Kontakt ausgeschlossen zu … | Veganer:innen | SUV-Fahrer:innen | Flüchtlingen | Homosexuellen | AfD-Wähler:innen |\n|---|---|---|---|---|---|\n| Anteil der Befragten | 12 % | 16 % | 12 % | 9 % | **57 %** |\n\n*„Statt von einer Spaltung der Gesellschaft kann also eher von der Abspaltung einer kleinen, unzufriedenen Minderheit gesprochen werden, die im Rechtspopulismus eine politische Heimat gefunden hat.“*\n\nDie Ablehnung zwischen AfD- und Grünen-/Linken-Wählern ist gegenseitig – für Westheuser allenfalls *„inhaltlich wohlbegründete politische Gegnerschaft“* entlang der Links-Rechts-Achse. **Kritik an Roose:** Linksverschiebung und klarere Links-Rechts-Zuordnung der Parteien sprechen eher für **Liberalisierung** und ein **multipolares Parteiensystem**."
+      "titel": "Nachfrageseite: Ergebnisse",
+      "folien": "S. 323–327",
+      "text": "| Frage | AfD-Anhänger | Grünen-Anhänger | andere Parteien |\n|---|---|---|---|\n| Ursache des Klimawandels (Abb. 2) | 18 % überwiegend Mensch, 21 % überwiegend natürlich, 20 % beides, **37 % glauben nicht an seine Existenz** | **73 % menschengemacht**, laut Text 12 % glauben nicht an seine Existenz | – |\n| Glaube an Klimawandel → Parteinähe (Abb. 3) | −7 Prozentpunkte (einziger signifikant negativer Zusammenhang) | +8 Prozentpunkte | SPD +5, sonst nicht signifikant |\n| Ausbau Erneuerbare, +1 Punkt (Abb. 4) | −5 Prozentpunkte; stärkste Ablehnung → 45 % AfD-Nähe | +13 Prozentpunkte; stärkste Ablehnung → 1 % | schwächer, bei CDU/CSU und FDP auch negativ |\n| Kohle-/Atomausstieg (Abb. 5) | Kohle −3, Atom −2 Prozentpunkte; stärkste Ablehnung Kohleausstieg → 17 % | volle Zustimmung → 23 % bzw. 20 %; Ablehnung → 5 % bzw. 2 % | Ausstiegsgegner neigen auch CDU/CSU zu (Atom: stärker als AfD), schwächer FDP |"
     },
     {
-      "titel": "Sozialmilieus: Kein Graben, nirgends",
-      "folien": "S. 426–427",
-      "text": "| Studie | „rechter“ Pol | „linker“ Pol | Größe |\n|---|---|---|---|\n| More in Common 2019 (6 Typen) | „Wütende“: älter, konservativ, fühlen sich unterprivilegiert, wenig Vertrauen | „Offene“: jünger, links, höher gebildet, Klimaschutz, Weltoffenheit | 19 % + 16 % |\n| Back et al. 2021 (Münster) | „Verteidiger“: fühlen sich von Muslimen und Flüchtlingen bedroht, ethnisches Nationsverständnis | „Entdecker“: umgekehrtes Profil | zusammen 34 % |\n| Bertelsmann 2021 (6 Wertemilieus) | „individualistische Materialist:innen“: bezweifeln Notwendigkeit tiefgreifenden Wandels (aber rund 40 % sehen sie doch), für Leitkultur | „kreative Idealist:innen“: progressiv, kaum abgehoben | Materialist:innen 9 % |\n\n• Die Pole unterscheiden sich v. a. in subjektivem Status und Bildung; Milieus überlappen stark.\n• **Zwei Drittel** stehen in der Mitte (Verweis auf Mau 2022).\n• MiC: Die Mitte zerfällt in „gesellschaftliche Stabilisatoren“ und ein **„unsichtbares Drittel“** – Forschungsbedarf bei sozialer und politischer Ungleichheit.\n• Schluss: Der soziologischen Aufklärung wird *„ein Bärendienst erwiesen, wenn aus Gründen des Nachrichtenwerts eine Polarisierung nach amerikanischem Vorbild beschworen wird, für die es in Deutschland zum jetzigen Zeitpunkt keine starken empirischen Indizien gibt.“*"
+      "titel": "Die Pro-Argumente des Textes",
+      "folien": "S. 327–329",
+      "text": "**1. Angebot und Nachfrage passen zusammen:** Die AfD-Position stößt *„durchaus auf Resonanz bei ihren Wähler*innen“*. *„Einstellungs- und Parteienpolarisierung stehen in einem engen Zusammenhang.“*\n**2. Zwei klare Pole:** *„Die AfD bildet den klaren Gegenpol zu den Sympathisant*innen der Grünen.“*\n**3. Konkret, nicht nur abstrakt:** Die Spaltung betrifft auch einzelne energiepolitische Maßnahmen.\n**4. Lange Vorgeschichte:** Lokaler Widerstand gegen Windkraft ist *„seit Langem ein Indikator für die Polarisierung der deutschen Politik“*; *„Die AfD scheint diese Entwicklung im Bereich der Klimapolitik anzutreiben.“*\n**5. Sozialräumliche Komponente:** Stadt–Land bzw. Zentrum–Peripherie; die AfD ist im ländlichen Raum stärker, v. a. in Regionen mit Abwanderung und Arbeitslosigkeit (Teile Ostdeutschlands).\n**6. Selbstverstärkung:** Je mehr Windräder in einer Gemeinde, desto erfolgreicher sind *beide* – AfD und Grüne (AfD-Effekt im Osten stärker). Der Ausbau könnte die Polarisierung verschärfen; die AfD könnte regional Veto-Spieler werden oder Mitte-Rechts-Parteien beeinflussen."
+    },
+    {
+      "titel": "Wo der Text selbst einschränkt",
+      "folien": "S. 328–329",
+      "text": "• **Kein echter Konsens vorher:** Der „Energiewendekonsens“ galt schon vor der AfD als „Mythos“; Protest gegen Windräder gab es schon vorher.\n• **Nicht nur zwei Lager:** Bei konkreten Maßnahmen tendieren auch CDU/CSU- und FDP-Anhänger zu skeptischen Positionen.\n• **Richtung offen:** Ob die AfD ihre Wähler prägt oder deren Präferenzen „aufgenommen hat“, bleibt offen.\n• **Momentaufnahme:** Daten von 2019; ob sich Haltungen durch die Energiesicherheitsdebatte nach dem russischen Krieg gegen die Ukraine ändern, „bleibt abzuwarten“.\n• **Konfliktlinie unklar:** Klimathemen lassen sich schwer der sozioökonomischen oder der kulturellen Konfliktlinie zuordnen.\n• **Polarisierung nicht nur schlecht:** *„Insbesondere wenn Oppositionsparteien auf die Strategie der politischen Polarisierung setzen, steigt zudem der öffentliche Rechtfertigungsdruck von Entscheidungsträgern“* (Helms 2016). Ob das „Zwangsoptimismus“ ist, soll künftige Forschung klären."
     },
     {
       "titel": "Antwort auf die Leitfrage",
-      "text": "**Nein – keine Spaltung nach US-Muster.** Die Pole umfassen nur rund ein Drittel, **zwei Drittel stehen in der Mitte**; die affektive Polarisierung **sinkt seit 2000** (auch nach 2015 und in der Corona-Pandemie); Einstellungen und Elektorate **überlappen stark**; das **Verhältniswahlsystem** dämpft. Die Ausnahme – AfD-Wähler bzw. das materialistische Milieu – ist die **Abspaltung einer kleinen Minderheit**. Westheuser bestreitet nicht, dass Meinungen sozial strukturiert sind, nur die Spaltung in zwei antagonistische Lager."
-    },
-    {
-      "titel": "Pro und Contra im Vergleich (Sitzung 11 und 12)",
-      "text": "| | Otteni/Weisskircher (Pro, S. 11) | Westheuser (Contra, S. 12) |\n|---|---|---|\n| Blick | ein Politikfeld (Klima), ein Zeitpunkt (2019) | viele Felder, Zeitverlauf, internationaler Vergleich |\n| Polarisierungsart | Parteien- und Einstellungspolarisierung | v. a. affektive Polarisierung und soziale Sortierung |\n| Rolle der AfD | klarer Gegenpol zu den Grünen, treibt Polarisierung an | „Paria-Partei“, isolierte Minderheit; Ablehnung AfD – Grüne/Linke gegenseitig |\n| Die Mitte | bei konkreten Maßnahmen auch CDU/CSU- und FDP-Anhänger skeptisch | Mehrheit in Mittelpositionen, große Überlappung |\n| Bewertung | Polarisierung kann Rechtfertigungsdruck erzeugen | Polarisierungsdiskurs verdeckt soziale Ungleichheit |\n\n**Gemeinsam** ist der deutliche Gegensatz zwischen AfD- und Grünen-Anhängern. Strittig ist die **Deutung**: klimapolitische Polarisierung (Otteni/Weisskircher) vs. Abspaltung einer Minderheit bei breiter Mitte (Westheuser)."
+      "text": "**Ja – zumindest im Politikfeld Klima.** Der Text belegt eine **Parteien- und Einstellungspolarisierung**: Die AfD steht klimapolitisch allein gegen alle anderen Parteien, ihre Anhänger unterscheiden sich in Grundüberzeugungen wie in konkreten Maßnahmen deutlich – am stärksten von den Grünen. Verstärkt wird das durch Stadt–Land- und Ost–West-Unterschiede.\n\nEr belegt aber **keine Spaltung der ganzen Gesellschaft in zwei Lager**: ein Thema, ein Zeitpunkt, Fokus auf die beiden Pole; bei konkreten Maßnahmen verlaufen die Linien breiter (CDU/CSU, FDP)."
     }
   ],
   "definitionen": [
     {
-      "begriff": "Affektive Polarisierung",
-      "wortlaut": "die der affektiven Polarisierung, als einer in den sozialen Alltag überschwappenden Ablehnung zwischen gegnerischen Lagern",
-      "erklaerung": "Nicht nur inhaltlicher Streit, sondern Abneigung gegen die Anhänger der Gegenseite bis in den Alltag hinein.",
-      "folie": "S. 423"
+      "begriff": "Klimaskeptizismus",
+      "wortlaut": "Der Begriff des „Klimaskeptizismus“ beschreibt hier in vereinfachender Weise eine Vielzahl an Positionen, die sich ablehnend auf den wissenschaftlichen Konsens bezüglich der Existenz, der Ursachen und der Folgen der anthropogenen globalen Erwärmung beziehen",
+      "erklaerung": "Sammelbegriff für die Ablehnung des wissenschaftlichen Konsenses zur Erderwärmung – von „gibt es nicht“ bis „nicht menschengemacht“.",
+      "folie": "S. 319, Fn. 3"
     },
     {
-      "begriff": "Soziale Sortierung",
-      "wortlaut": "die einer sozialen Sortierung von Gruppen und Milieus in politische Blöcke",
-      "erklaerung": "Soziale Milieus ordnen sich geschlossen politischen Lagern zu – in Deutschland laut Westheuser kaum nachweisbar.",
-      "folie": "S. 423"
+      "begriff": "Einstellungs- und Parteienpolarisierung",
+      "wortlaut": "Einstellungs- und Parteienpolarisierung stehen in einem engen Zusammenhang.",
+      "erklaerung": "Parteipositionen (Angebot) und Ansichten der Anhänger (Nachfrage) liegen gleichermaßen auseinander – hier: AfD vs. Grüne in der Klimapolitik.",
+      "folie": "S. 328"
     },
     {
-      "begriff": "Mega-Identität",
-      "wortlaut": "sind politische Parteineigungen dort zu „Mega-Identitäten“ avanciert, um die sich ein zunehmend kohärenter Kranz an Einstellungen gruppiert",
-      "erklaerung": "In den USA bündelt die Parteineigung religiöse, regionale und Milieuidentitäten – das Gegenbild zu Deutschland.",
-      "folie": "S. 423"
+      "begriff": "„single-issue“-Partei",
+      "wortlaut": "Zwar werden rechtspopulistische Akteure wie die AfD zumeist mit ihren Kernthemen Einwanderung und innere Sicherheit in Verbindung gebracht, doch betreiben auch sie nicht nur „single-issue politics“",
+      "erklaerung": "Rechtspopulisten haben mehr als ein Thema – Klimapolitik ist für die AfD ein eigenes Mobilisierungsfeld.",
+      "folie": "S. 318"
     },
     {
-      "begriff": "Gefühlsthermometer",
-      "wortlaut": "das der Differenz zwischen der Bewertung der eigenen Partei auf einem Gefühlsthermometer und jener anderer Parteien",
-      "erklaerung": "Gängiges Maß für affektive Polarisierung (Gidron et al.); laut Westheuser eher oberflächlich.",
-      "folie": "S. 424"
+      "begriff": "Energiewendekonsens",
+      "wortlaut": "Bereits vor dem Aufstieg der AfD betonte die Forschung, dass ein Verweis auf den „Energiewendekonsens“ ein „Mythos“ sei",
+      "erklaerung": "Die angebliche Einigkeit über die Energiewende war schon vor der AfD brüchig – eine Einschränkung des Polarisierungsarguments.",
+      "folie": "S. 328"
     },
     {
-      "begriff": "Abspaltung statt Spaltung",
-      "wortlaut": "Statt von einer Spaltung der Gesellschaft kann also eher von der Abspaltung einer kleinen, unzufriedenen Minderheit gesprochen werden, die im Rechtspopulismus eine politische Heimat gefunden hat.",
-      "erklaerung": "Kernthese: Nicht die Gesellschaft zerfällt in zwei Lager, sondern eine kleine Gruppe (AfD-Umfeld) koppelt sich ab.",
-      "folie": "S. 425"
+      "begriff": "Sozialräumliche Polarisierung",
+      "wortlaut": "Klimapolitische Polarisierung hat also auch eine wichtige sozialräumliche Komponente.",
+      "erklaerung": "Der Konflikt verläuft auch zwischen Stadt und Land bzw. Zentrum und Peripherie; die AfD ist in ländlichen Abwanderungsregionen (v. a. im Osten) stark.",
+      "folie": "S. 329"
     },
     {
-      "begriff": "„Unsichtbares Drittel“",
-      "wortlaut": "dass die einstellungsmäßig wenig polarisierte Mitte soziopolitisch in ein stärker integriertes Oben der „gesellschaftlichen Stabilisatoren“ und ein „unsichtbares Drittel“ sozial und politisch eher abgeschlagener gesellschaftlicher Milieus zerfällt",
-      "erklaerung": "Befund von More in Common: Die eigentliche Trennlinie verläuft eher zwischen integrierten und abgehängten Teilen der Mitte (soziale Ungleichheit).",
-      "folie": "S. 427"
+      "begriff": "Marginaleffekt (average marginal effect)",
+      "wortlaut": "In einer Regressionsanalyse beschreibt der Marginaleffekt (wie in den Abbildungen 3–5 dargestellt) die Veränderung in der abhängigen Variable, wenn die unabhängige Variable um eine Einheit ansteigt.",
+      "erklaerung": "Gibt an, um wie viele Prozentpunkte sich die Wahrscheinlichkeit einer Parteinähe ändert, wenn z. B. die Zustimmung zu Erneuerbaren um einen Skalenpunkt steigt.",
+      "folie": "S. 325, Fn. 4"
     }
   ],
   "aufgaben": [],
   "fragen": [],
   "pruefungshinweise": [],
   "offene_fragen": [
-    "Kursplan schreibt „Westhäuser“; der Autor heißt Linus Westheuser. Der Dateiname (…_Westhaeuser_…) folgt dem Kursplan.",
-    "Zweiter Text laut Kursplan: Mau, Steffen (2022): Kamel oder Dromedar? Zur Diagnose der gesellschaftlichen Polarisierung. Merkur 76 (874), S. 5–18 – liegt noch nicht vor; Zusammenfassung beruht nur auf Westheuser.",
-    "Seitenangabe: Kopfzeile des PDFs nennt „FJSB 2022; 35(2): 422–435“ (vermutlich die ganze Rubrik „Literatur“); die Besprechung selbst endet auf S. 427.",
-    "Im Text „Boxell et al. 2020“, im Literaturverzeichnis „Boxell/Gentzkow/Shapiro 2021“.",
-    "Münsteraner Exzellenzcluster heißt im Kopf „Religion und Politik“, im Text (S. 426) „Politik und Religion“.",
-    "Die Bertelsmann-Studie wird im Text als „Bertelsmann-Stiftung (2021, BS)“ zitiert; im Kopf der Besprechung steht sie unter El-Menouar/Unzicker 2021."
+    "Abb. 2 (S. 324): Laut Text glauben 12 % der Grünen-Anhänger nicht an die Existenz des Klimawandels. Die Grafikwerte (u. a. 73, 13, 12, 1, 1) lassen sich aus der Textextraktion nicht eindeutig zuordnen; möglich ist, dass die 12 % eigentlich „überwiegend natürliche Ursachen“ meinen. Die Zusammenfassung folgt dem Text – bei Bedarf im Original-PDF prüfen.",
+    "Abb. 1 (S. 321): Die Zuordnung der CHES-Werte zu den Parteien ist aus der Textextraktion der Grafik abgeleitet (Reihenfolge Grüne bis AfD); im Text selbst stehen nur die Pole (AfD am wenigsten, Grüne am stärksten umweltfreundlich).",
+    "Gauland-Zitat: Im Text „Welt am Sonntag, 28.08.2019“, im Literaturverzeichnis „Die Welt 2019 … 28.09.2019“ – Datum uneinheitlich."
   ]
 }

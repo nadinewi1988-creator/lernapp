@@ -3,27 +3,22 @@
   "modul": "pkb003",
   "teilmodul": "pkb003.2",
   "datum": "2026-12-14",
-  "sitzung_nr": 10,
+  "sitzung_nr": 9,
   "sitzung_id": "",
-  "thema": "Deutschland und Frankreich in der Euro-Krise",
+  "thema": "Spielarten der Marktwirtschaft/des Kapitalismus",
   "thema_in_app": "eingetragen",
   "stand": "geprueft",
   "art_inhalt": "Zusammenfassung der Seminarliteratur (Präsentation durch Mitstudierende)",
   "quellen": [
     {
-      "datei": "pkb003.2/S10_2026-12-14_Flachmeyer-Paul_EZB-Euro-Rettung.pdf",
-      "art": "Literatur: Flachmeyer/Paul (2018), Kölner Zeitschrift für Soziologie und Sozialpsychologie 70 (Suppl. 1)",
-      "seiten": "495–515"
-    },
-    {
-      "datei": "pkb003.2/S10_2026-12-14_Lehner-Wasserfallen_Euro-Reform.pdf",
-      "art": "Literatur: Wasserfallen/Lehner (2019), Makronom, 22.02.2019",
-      "seiten": "Online-Artikel ohne Seitenzahlen"
+      "datei": "pkb003.2/S09_2026-12-14_Hall_Spielarten-des-Kapitalismus.pdf",
+      "art": "Literatur: Hall (2015), WSI-Mitteilungen 4/2015",
+      "seiten": "245–252"
     }
   ],
   "lernziele": [
     {
-      "text": "Das Europäische Führungstandem oder Ausweis verschiedener Wirtschaftskulturen in Europa?",
+      "text": "Welchem Typ des Kapitalismus ist die deutsche Wirtschaft zuzurechnen und wie äußert sich das in der Europäischen Union?",
       "art": "vorgegeben",
       "quelle": "Leitfrage Kursplan",
       "fragen": [],
@@ -31,108 +26,96 @@
     }
   ],
   "kurzfassung": [
-    "Flachmeyer/Paul: Die EZB hat den Euro gerettet (v. a. mit Draghis Ankündigung, „alles Nötige zu tun“, und dem OMT-Programm), ist dadurch aber politisiert worden. Grund des Dilemmas: der ungelöste Gegensatz von deutscher (ordoliberaler) und französischer (keynesianischer) Geldkultur.",
-    "Kritik an der EZB kommt von beiden Seiten: ordoliberal (Mandatsüberschreitung, Verstoß gegen das Haftungsprinzip, verdeckte Umverteilung) und keynesianisch/französisch (Demokratiedefizit, Auflagenpolitik in der Troika). Einig sind sich beide nur in der Diagnose, nicht in den Konsequenzen.",
-    "Wasserfallen/Lehner: In der Euro-Reform 2010–2015 gab es nur eine Konfliktlinie – Fiskaltransfers vs. Fiskaldisziplin. Frankreich führt das Transfer-Lager, Deutschland (mit Niederlanden und Finnland) das Disziplin-Lager.",
-    "Gerade weil Deutschland und Frankreich an den Polen stehen, sind deutsch-französische Kompromisse der natürliche Weg zu Reformen – kleine Zugeständnisse reichen aber langfristig nicht."
+    "Hall unterscheidet nach dem Varieties-of-Capitalism-Ansatz koordinierte Marktwirtschaften (Norden), gemischte Marktwirtschaften (Süden) und liberale Marktwirtschaften (angelsächsisch, Irland). Deutschland ist eine koordinierte Marktwirtschaft.",
+    "Daraus folgen zwei Wachstumsstrategien: Der Norden setzt auf Export (Lohnzurückhaltung, Ausbildung, Qualität), der Süden auf Binnennachfrage – vor dem Euro abgesichert durch regelmäßige Abwertungen.",
+    "Die Währungsunion nützte dem Norden (Partner können nicht mehr abwerten, Euro nach außen günstig) und schadete dem Süden: billige Kredite aus dem Norden führten zu Inflation, steigenden Lohnstückkosten und Verlust an Wettbewerbsfähigkeit.",
+    "Die EU-„Wachstumsstrategie“ (Fiskalpakt + Strukturreformen) hält Hall für verfehlt: Gemischte Marktwirtschaften lassen sich nicht einfach in koordinierte umwandeln, und Sparzwang würgt die Nachfrage ab.",
+    "Auch die Wirtschaftsdoktrinen spiegeln die Spielarten: Deutschland denkt ordoliberal-regelorientiert, Frankreich dirigistisch. Halls Fazit: Die EU muss unterschiedliche Spielarten anerkennen und Risiken gemeinsam tragen, statt allen ein Modell aufzuzwingen."
   ],
   "erklaerung": [
     {
-      "titel": "A: These und Aufbau (Flachmeyer/Paul)",
-      "folien": "S. 496–497",
-      "text": "Seit 2012 präsentiert sich die EZB als **der** handlungsfähige Akteur Europas; seit der Ankündigung des nie vollzogenen OMT-Programms scheinen Pleiten und Euro-Austritte abgewendet. Die Krise zeigt aber: Geldpolitik ist **nie unpolitisch oder neutral**, sie hat immer Verteilungsfolgen.\n\nDilemma: Die EZB hat die strukturellen Defizite der Währungsunion aufgedeckt, doch Regierungen und Bürger sind nicht bereit, ihr außerordentliches Handeln zu „normalisieren“."
+      "titel": "Ausgangslage: Die Eurokrise",
+      "folien": "S. 245–246",
+      "text": "Die 2008 einsetzende Schuldenkrise wurde in Europa zur **Krise der WWU** – laut Hall die größte Herausforderung der EU seit den Römischen Verträgen (1958). Die EZB konnte die Vertrauenskrise 2010 eindämmen, die Krise selbst nicht; im Süden bleibt die Arbeitslosigkeit sehr hoch.\n• Ursachen: ein Jahrzehnt zu großzügiger Kreditvergabe, Bankenkrise; Fehler einzelner Staaten (Griechenland: Defizite; Irland, Spanien: überhitzter Wohnungsmarkt).\n• Halls These: Den Verlauf bestimmten die **unterschiedlichen nationalen Ausprägungen des Kapitalismus**, vor allem der Gegensatz Nord- vs. Südeuropa."
     },
     {
-      "titel": "A: Zentralbankunabhängigkeit und Output-Legitimität",
-      "folien": "S. 497–499",
-      "text": "• **Time-inconsistency-Hypothese:** Preisstabilität nur, wenn Geldpolitik von gewählten Instanzen abgeschirmt ist.\n• Der EZB steht keine gewählte Regierung gegenüber – sie kann sich nur über ihren **Output** legitimieren.\n• Doch was Output ist, ist umstritten (Inflationskritik, obwohl die Inflation von 2,5 % 2012 auf 0 % 2015 fiel). *„Zentralbankpolitik an ihrem Output zu messen, bedeutet mitnichten, normative Fragen umschiffen zu können.“*\n• Paradox: Gerade der Gegensatz nationaler Währungstraditionen erlaubte der EZB, ihr institutionelles Korsett zu sprengen und den Euro zu retten."
+      "titel": "Koordinierte, gemischte und liberale Marktwirtschaften",
+      "folien": "S. 246",
+      "text": "| | Koordiniert (Norden) | Gemischt (Süden) | Liberal |\n|---|---|---|---|\n| Länder | **Deutschland**, Niederlande, Belgien, Finnland, Österreich | Griechenland, Spanien, Portugal, Italien | Irland (Sonderfall), angelsächsische Länder |\n| Löhne | weitgehende Lohnabstimmung | kaum koordinierbar (mächtige, zerstrittene Gewerkschaften) | Koordination über wettbewerbsintensive Märkte |\n| Ausbildung | hoch entwickelte Berufsausbildung, F&E, Innovation | wenig gemeinsame Ausbildung, mehr Geringqualifizierte | – |\n| Wettbewerb über | Qualität und Preis | Niedriglöhne | – |\n\nLänderbesonderheiten: Griechenland – Klientelpolitik, hohe Defizite; Spanien/Italien – stagnierende Produktivität; Portugal/Spanien – Kreditengpässe; Irland – Banken übernahmen sich im Bauboom."
     },
     {
-      "titel": "A: Die EZB zwischen zwei Währungstraditionen",
-      "folien": "S. 499–501",
-      "text": "| | Deutschland (Bundesbank) | Frankreich (Banque de France) |\n|---|---|---|\n| Stellung | größte Autonomie, in der Bevölkerung akzeptiert | bis in die 1980er ausführendes Organ der Regierung |\n| Ziel | Geldwertstabilität (Inflationserfahrungen) | Nachfrage, Beschäftigung, Schuldenabbau auch durch Inflation |\n| Selbstbild | „unpolitische[r] Wächter des Geldes“ | Ausgleich sozialer Ungleichheit |\n| Praxis | trotzdem Austausch mit Tarifparteien | trotzdem mehr als ausführendes Organ |\n\nGeldpolitik ist immer in eine politische Kultur, ein nationales „Projekt“ eingebettet. Die EZB wurde offiziell nach dem **ordoliberal-deutschen Modell** gebaut, doch laut ESZB-Satzung unterstützt sie, soweit die Preisstabilität nicht leidet, auch die allgemeine Wirtschaftspolitik – das lässt **Interpretationsspielraum**."
+      "titel": "Zwei Wachstumsstrategien",
+      "folien": "S. 246–247, Tab. 1",
+      "text": "Die Organisationsstruktur einer Volkswirtschaft ist **nicht ohne Weiteres veränderbar**; die Politik muss ihre Strategien daran anpassen.\n• **Norden – exportorientiert:** koordinierte Lohnpolitik bremst Lohnstückkosten, Ausbildung fördert Qualität und schrittweise Innovation; dazu passt eine gemäßigte Wirtschaftspolitik.\n• **Süden – nachfrageinduziert:** Ankurbelung der Binnennachfrage, eingreifende Makropolitik; Inflation wurde vor der WWU durch **Abwertungen** ausgeglichen (Lira nach 1979 in sechs Jahren etwa –25 %).\n\n| Land (2007) | Ausfuhren in % des BIP | Handelsüberschuss in % des BIP |\n|---|---|---|\n| Deutschland | 46 | 6 |\n| Niederlande | 73 | 8 |\n| Frankreich | 27 | –1 |\n| Griechenland | 23 | –11 |\n| Italien | 29 | 0 |\n| Portugal | 31 | –9 |\n| Spanien | 26 | –6 |"
     },
     {
-      "titel": "A: Die EZB rettet den Euro",
-      "folien": "S. 501–504",
-      "text": "• Vor der Krise: einheitlicher Leitzins → sehr unterschiedliche Realzinsen → Kreditblasen. Die intergouvernementale Rettungspolitik (ESM) wirkte zögerlich, daher sprang die Geldpolitik ein.\n• **Konventionell, aber außergewöhnlich:** Mengentender mit Vollzuteilung, negativer Einlagesatz (–0,4 %), Leitzins 0 % (2016).\n• **Unkonventionell:** ELA-Notkredite, Anleiheankäufe SMP (2010–2012), OMT (2012), EAPP (seit 2015; Spitze im Schnitt 80 Mrd. € pro Monat) – faktisch **quantitative easing**.\n• **Wendepunkt:** Draghis Ankündigung, alles Nötige zu tun, um den Euro zu erhalten; die Zinsen sanken, ohne dass OMT aktiviert wurde."
+      "titel": "Die Folgen der Währungsunion",
+      "folien": "S. 247–248",
+      "text": "**Norden:** Partner können nicht mehr abwerten; Euro nach außen günstig; durch Lohnzurückhaltung häuft z. B. Deutschland hohe Zahlungsbilanzüberschüsse gegenüber dem Euroraum an.\n**Süden:** Nachfragestrategie nicht mehr tragfähig; sinkende Kapitalkosten, Banken des Nordens lenken Überschüsse als billige Kredite in den Süden → Boom, Inflation, steigende Lohnstückkosten, schrumpfende Leistungsbilanz.\n\nDie **EZB** war „weitgehend ohnmächtig“: Höhere Zinsen hätten den Norden in den Abschwung getrieben. Als die US-Blase platzte, zogen sich Anleger aus Südeuropa zurück."
     },
     {
-      "titel": "A: Zwei Kritiklinien",
-      "folien": "S. 505–510",
-      "text": "| | (1) Ordnungspolitisch („deutsch“) | (2) Demokratiedefizit („französisch“/keynesianisch) |\n|---|---|---|\n| Kernvorwurf | Vermischung von Fiskal- und Geldpolitik, OMT überdehnt das Mandat | politische Entscheidungen ohne abwählbare Regierung |\n| Lender of last resort | abgelehnt: Verstoß gegen Haftungsprinzip, „Insolvenzverschleppung“ | bejaht: Finanzmärkte versagen in Panik, LOLR sollte formal erlaubt werden |\n| Finanzmarkt | rational, disziplinierend | irrational, affektgetrieben |\n| Was ist falsch? | verdeckte Umverteilung, Sparer verlieren | EZB in der Troika, OMT an ESM-Auflagen gekoppelt |\n| Folgerung | enge Bindung an Regeln | europäische Wirtschaftsregierung, demokratische Kontrolle der EZB |\n\nBundesverfassungsgericht: „gewichtige Gründe“ für Mandatsüberschreitung, Vorlage an den EuGH. Weidmann: *„Krise der Ordnungspolitik“*. Die Krise macht aus Gläubiger vs. Schuldner eine **nationale Frontstellung**."
+      "titel": "Drei Krisen und die EU-„Wachstumsstrategie“",
+      "folien": "S. 248–249",
+      "text": "Drei Krisen: **Vertrauenskrise** (abgeebbt durch Draghis Zusage im Juli 2012), **Finanzsystemkrise** (Bankenunion noch „embryonal“), **Wachstumskrise** (hält an, droht „kontinentaler Dualismus“).\n\nEU-Strategie: **Fiskalpakt** (März 2012, ausgeglichener Haushalt) und **strukturelle Reformen** (Privatisierung, Deregulierung). Aus VoC-Sicht *„erscheint diese Strategie jedoch zutiefst verfehlt“*:\n• *„Gemischte Marktwirtschaften lassen sich nicht einfach in koordinierte Marktwirtschaften umwandeln.“*\n• Zielt man auf liberale Marktwirtschaften, passt der Haushaltsausgleich nicht, da diese oft über Binnennachfrage wachsen.\n• Sparen drückt Nachfrage und BIP; Schuldenquoten sinken kaum."
     },
     {
-      "titel": "A: Schlussfolgerungen",
-      "folien": "S. 510–512",
-      "text": "• Ohne die EZB hätten die Regierungen Richtung Fiskalunion gehen oder Staatsbankrotte und Austritte zulassen müssen.\n• *„Heute steht die EZB in den Krisenländern für harte soziale Einschnitte und in den Geberländern für eine nicht kontrollierbare Transferunion.“*\n• *„Darin sind Ordoliberale und Keynesianer, „Deutsche“ und „Franzosen“ sich durchaus einig. Nicht aber darin, welche Konsequenzen aus diesem Befund zu ziehen sind.“*\n• Eine europäische Wirtschaftsregierung scheitert vermutlich am Willen der „Wahlvölker“; Europa ist renationalisiert. Die EZB bleibt „Feuerwehr“ und „Prügelknabe“. Vorschlag: LOLR-Funktion formalisieren, demokratische Rückkopplung prüfen."
+      "titel": "Alternativen und ein Mittelweg",
+      "folien": "S. 249–250",
+      "text": "| Option | Einschätzung |\n|---|---|\n| Euro-Austritt des Südens | hoher Symbolwert des Euro, enorme kurzfristige Kosten; auch der Norden will den Euro halten |\n| Volle Fiskalunion | bräuchte demokratische Reformen, es fehlt ein europäischer Demos |\n| Aktueller Kurs | ökonomisch ineffizient, politisch destabilisierend |\n| **Halls Mittelweg** | Strukturreformen plus investitionsfördernde Nachfragestärkung, Lockerung der Fiskalregeln, Schuldenstreckung, Investitionen des Nordens im Süden |\n\nHindernisse sind politisch (Mezzogiorno, West-Ost-Transfers). *„Nationale Interessen sind jedoch keine Naturereignisse, sondern entspringen unserer Vorstellung von den Vorgängen in der Welt.“*"
     },
     {
-      "titel": "B: Fragestellung und Daten (Wasserfallen/Lehner)",
-      "folien": "Abschnitte Einleitung, „Daten und Methoden“",
-      "text": "Die Reformen 2010–2015 waren die stärkste Vertiefung der Integration seit Maastricht (1992). Datensatz **„EMU Positions“**: Positionen aller EU-Staaten zu **47** Vorschlägen (u. a. Six-Pack, Two-Pack, Fiskalpakt, EFSF, ESM, Griechenland-Hilfen, Bankenunion), ausgewertet mit statistischen Skalierungsmethoden."
+      "titel": "Wirtschaftsdoktrinen: Deutschland vs. Frankreich",
+      "folien": "S. 250–251",
+      "text": "| | Deutschland | Frankreich (und Teile Südeuropas) |\n|---|---|---|\n| Prägung | Freiburger Schule/Ordoliberalismus: Geldwertstabilität, ordnungspolitische Prinzipien | dirigistische Tradition (Keynesianismus der 1950er, Planung), jakobinisches Staatsverständnis |\n| Rolle des Staates | setzt nur den Rahmen („soziale Marktwirtschaft“) | Staat als alleiniger Hüter des Gemeinwohls |\n| Krisendiagnose | Regelbruch (Stabilitäts- und Wachstumspakt) | zu wenig aktive Wachstumspolitik |\n| Lösung | strengere Haushaltsregeln | Lockerung der Austerität, interventionistische EU-Wachstumsstrategie |\n\n*„Die Politiker der einzelnen EU-Länder operieren nicht nur innerhalb unterschiedlicher Spielarten des Kapitalismus, sondern haben auch sehr unterschiedliche Vorstellungen vom Kapitalismus als solchem“*."
     },
     {
-      "titel": "B: Eine einzige Konfliktlinie",
-      "folien": "Abschnitte „Konfliktdimensionen“, „Fiskaltransfers vs. Fiskaldisziplin“",
-      "text": "Erwartet: links–rechts, mehr–weniger Integration, alt–neu, wechselnde Koalitionen. Befund: Diese spielen **keine Rolle**. Es gibt nur **Fiskaltransfers vs. Fiskaldisziplin** – inhaltlich definiert, stabil, vor allem durch ökonomische Unterschiede erklärbar.\n\n| Transfer-Lager | Mitte | Disziplin-Lager |\n|---|---|---|\n| **Frankreich** (extremste Position), Griechenland, andere südliche Staaten, Belgien | EU-Institutionen (ECOFIN näher am Disziplin-Lager); wechselnd: Irland, Zypern, Luxemburg, Slowenien | Niederlande, Finnland, **Deutschland** (Rang drei); näher an der Mitte viele nord- und osteuropäische Staaten |"
-    },
-    {
-      "titel": "B: Drei Lehren",
-      "folien": "Abschnitt „Ein ideales Setting für deutsch-französische Kompromisse“",
-      "text": "**1.** Die Spaltung ist ausgeprägt und historisch stabil; sie spiegelt *„ideelle, ökonomische und institutionelle Differenzen“*.\n**2.** Das Disziplin-Lager ist größer (Osterweiterung); Mittel- und Osteuropa könnte Mehrheiten beschaffen.\n**3.** Eindimensionalität hat einen Vorteil: Die **Median-Position** ist das natürliche Verhandlungsgleichgewicht; Reformen entstehen durch gegenseitige Konzessionen.\n\nFrankreich und Deutschland an der Spitze der Lager: ein „ideales Setting für gemeinsame deutsch-französische Vorschläge“. Aber: *„um die Währungsunion langfristig stabil zu machen, dürften kleine Konzessionen nicht ausreichen.“*"
+      "titel": "Halls Schlussfolgerungen",
+      "folien": "S. 251",
+      "text": "• Wachstum kehrt erst zurück, wenn die Politik **unterschiedliche Spielarten anerkennt** und vom Süden nicht die Nachahmung des Nordens verlangt.\n• Vorbild: Die Nachkriegsordnung schuf Institutionen, die mit verschiedenen Modellen vereinbar waren.\n• Mindestanforderung: **Risiken gemeinsam tragen**. *„Der Versuch, Ländern mit höchst unterschiedlichen Wirtschaftsordnungen eine einheitliche Wirtschaftspolitik aufzuzwingen, wäre dagegen ein Rezept für mittelmäßige Wirtschaftsleistung und endlosen politischen Konflikt.“*"
     },
     {
       "titel": "Antwort auf die Leitfrage",
-      "text": "Beide Texte sagen: **beides**. Deutschland und Frankreich verkörpern unterschiedliche Wirtschaftskulturen – gerade deshalb können sie als Tandem Kompromisse für die ganze EU vorbereiten.\n\n| | Flachmeyer/Paul | Wasserfallen/Lehner |\n|---|---|---|\n| Verschiedene Wirtschaftskulturen? | Ja: ordoliberal-deutsche vs. keynesianisch-französische Geldkultur; ihr ungelöster Gegensatz erklärt das Dilemma der EZB | Ja: Fiskaldisziplin vs. Fiskaltransfers, Deutschland und Frankreich führen die Lager |\n| Führungstandem? | eher skeptisch: einig nur in der Diagnose, Vertiefung scheitert an Renationalisierung; die EZB füllt die Lücke | ja, als Möglichkeit: Kompromisse an der Median-Position finden breite Zustimmung; offen ist der Mut zu großen Kompromissen |"
+      "text": "| Frage | Antwort nach Hall |\n|---|---|\n| Welcher Typ? | **koordinierte Marktwirtschaft**: Lohnabstimmung, Berufsausbildung, starke Verbände und Betriebsräte, exportorientiertes Wachstum (2007: Exporte 46 %, Überschuss 6 % des BIP) |\n| Wirkung in der WWU | Der Euro begünstigte das deutsche Exportmodell; deutsche Überschüsse flossen als billige Kredite in den Süden – ein Baustein der Krise |\n| Wirkung in der Krisenpolitik | Die ordoliberal-regelorientierte deutsche Doktrin prägt Fiskalpakt, Strukturreformen und Austerität; Gegenpol ist die französisch-dirigistische Sicht. Hall hält es für falsch, dem Süden das deutsche Modell aufzuzwingen |"
     }
   ],
   "definitionen": [
     {
-      "begriff": "Zentralbankunabhängigkeit (Time-inconsistency-Hypothese)",
-      "wortlaut": "Auf Basis der sogenannten Time inconsistency-Hypothese wird davon ausgegangen, dass Preisstabilität und letztlich Geldvertrauen nur garantiert werden können, wenn Geldpolitik von demokratisch gewählten Instanzen abgeschirmt wird.",
-      "erklaerung": "Begründung, warum Zentralbanken unabhängig von Regierungen sein sollen; Leitbild der Bundesbank und der EZB.",
-      "folie": "S. 497"
+      "begriff": "Koordinierte Marktwirtschaft",
+      "wortlaut": "nordeuropäischen „koordinierten Marktwirtschaften“, gekennzeichnet durch exportbasierte Wachstumsmodelle, die auf weitgehender Lohnabstimmung, hoch entwickelten Berufsausbildungssystemen, forschungs- und entwicklungsfreundlichen Unternehmensbeziehungen sowie innovations- und qualitätsfördernden Arbeitsbeziehungen innerhalb der Unternehmen aufbauen",
+      "erklaerung": "Typ, zu dem Deutschland gehört: Wirtschaft wird über Verbände, Lohnabstimmung und gemeinsame Ausbildung koordiniert; Wachstum über Export.",
+      "folie": "S. 246"
     },
     {
-      "begriff": "Output-Legitimität",
-      "wortlaut": "dass eine Zentralbank sich zwangsläufig primär über ihren Output, durch die Ergebnisse ihrer Politik, legitimiere",
-      "erklaerung": "Da die EZB nicht gewählt ist, muss sie über ihre Ergebnisse überzeugen – doch was als gutes Ergebnis gilt, ist umstritten.",
-      "folie": "S. 498"
+      "begriff": "Gemischte Marktwirtschaft",
+      "wortlaut": "Von periodischen „Sozialpakten” abgesehen, lassen sich Lohnverhandlungen in diesen Systemen aufgrund der Macht und Zerstrittenheit der Gewerkschaften, die um Gefolgschaft und Verhandlungsmacht konkurrieren, nur schwer koordinieren",
+      "erklaerung": "Südeuropäischer Typ (Griechenland, Spanien, Portugal, Italien): wenig Koordination, mehr Geringqualifizierte, Wettbewerb über Niedriglöhne, früher Abwertungen.",
+      "folie": "S. 246"
     },
     {
-      "begriff": "Lender of last resort",
-      "wortlaut": "Dies hieße, ihr zu erlauben, bei einem generalisierten Vertrauensverlust auf dem Kreditmarkt, […] mittels unbegrenzter Zentralbankgeld-Kredite großflächige Ansteckungseffekte und Insolvenzketten zu vermeiden",
-      "erklaerung": "Kreditgeber der letzten Instanz; Kern des Streits um OMT: Ordoliberale lehnen die Rolle für die EZB ab, Keynesianer wollen sie formal erlauben.",
-      "folie": "S. 505"
+      "begriff": "Liberale Marktwirtschaft",
+      "wortlaut": "Wirtschaften, in denen äußerst wettbewerbsintensive Märkte für die Koordinierung unternehmerischer Tätigkeit sorgen",
+      "erklaerung": "Angelsächsisches Modell; Koordination über Märkte statt über Verbände.",
+      "folie": "S. 248"
     },
     {
-      "begriff": "Quantitative easing",
-      "wortlaut": "In einer Situation, in der herkömmliche Maßnahmen wie Zinssenkungen nicht die gewünschte Wirkung entfalten, wird über Ankaufprogramme, quasi auf direktem Wege, Zentralbankgeld geschaffen.",
-      "erklaerung": "Großvolumige Wertpapierkäufe der EZB (v. a. EAPP ab 2015), um langfristige Zinsen zu senken.",
-      "folie": "S. 504"
+      "begriff": "Exportorientierte Wachstumsstrategie",
+      "wortlaut": "Strategien, die mehr Gewicht auf die Steigerung der Ausfuhren legen als auf die Ankurbelung der Inlandsnachfrage",
+      "erklaerung": "Strategie des Nordens: Lohnzurückhaltung und Qualität machen Exporte wettbewerbsfähig.",
+      "folie": "S. 246"
     },
     {
-      "begriff": "Haftungsprinzip",
-      "wortlaut": "Der Verstoß gegen das Haftungsprinzip, dass private Gläubiger und vor allem öffentliche Schuldner vor den Konsequenzen ihres wirtschaftlichen und politischen Fehlverhaltens bewahrt, widerspricht […] gleichwohl virulenten sozialmoralischen Vorstellungen",
-      "erklaerung": "Jeder steht für eigene Fehler selbst ein; zentrales ordoliberales Argument gegen die Anleihekäufe der EZB.",
-      "folie": "S. 507"
-    },
-    {
-      "begriff": "Fiskaltransfers vs. Fiskaldisziplin",
-      "wortlaut": "der Konflikt zwischen Befürworterinnen stärkerer Fiskaltransfers und jenen, die mehr „fiskalische Disziplin“ wollen",
-      "erklaerung": "Die einzige Konfliktlinie der Euro-Reform 2010–2015 nach Wasserfallen/Lehner; Frankreich und Deutschland führen die beiden Lager.",
-      "folie": "Makronom, Abschnitt „Fiskaltransfers vs. Fiskaldisziplin“"
+      "begriff": "Strukturelle Reformen",
+      "wortlaut": "Maßnahmen zur Intensivierung des Wettbewerbs auf den Arbeits- und Gütermärkten durch Privatisierung oder Deregulierung",
+      "erklaerung": "Zweite Säule der EU-Wachstumsstrategie neben dem Fiskalpakt; Hall hält sie in Verbindung mit Sparzwang für verfehlt.",
+      "folie": "S. 248"
     }
   ],
   "aufgaben": [],
   "fragen": [],
   "pruefungshinweise": [],
   "offene_fragen": [
-    "Makronom-Beitrag: Der Kursplan nennt den 24. Januar 2019, der Artikel ist auf den 22. Februar 2019 datiert. Er ist eine Übersetzung eines Beitrags im LSE-EUROPP-Blog.",
-    "Abbildung 1 (Positionsskala) bei Wasserfallen/Lehner liegt nur als Bildunterschrift vor; die Positionen stammen aus dem Fließtext.",
-    "Wasserfallen/Lehner nennen Deutschland auf „Rang drei“ des Disziplin-Lagers (nach Niederlanden und Finnland), schreiben aber auch, Frankreich und Deutschland befänden sich „an den jeweiligen Enden der Skala“.",
-    "Flachmeyer/Paul, S. 504: „die im September 2012 dem OMT-Beschluss vorangegangene Ankündigung Mario Draghis“ – missverständlich formuliert; ihre Quelle (FAZ) ist vom 26. Juli 2012, Hall (Sitzung 9) nennt Juli 2012. Gemeint ist wohl: Ankündigung im Juli, OMT-Beschluss im September 2012.",
-    "Flachmeyer/Paul, S. 505: „Nichtbestands-Regel“ – vermutlich Tippfehler für Nichtbeistands-Regel (No-bail-out-Klausel)."
+    "Der zweite Text laut Kursplan, Brunnermeier u. a. (2018): Euro – Kampf der Wirtschaftskulturen, S. 78–107, liegt nicht vor – Zusammenfassung beruht nur auf Hall.",
+    "Tabelle 1 ordnet Frankreich den gemischten Marktwirtschaften zu und nennt Dänemark, Norwegen, Schweden und die Schweiz als koordinierte Marktwirtschaften; der Fließtext nennt als Beispiele nur Griechenland, Spanien, Portugal, Italien bzw. Deutschland, Niederlande, Belgien, Finnland, Österreich.",
+    "S. 247 spricht von der „Zugehörigkeit zur neu gegründeten EU“ – gemeint ist vermutlich die Währungsunion (möglicher Übersetzungsfehler)."
   ]
 }

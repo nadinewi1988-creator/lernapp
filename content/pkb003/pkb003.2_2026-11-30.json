@@ -3,22 +3,22 @@
   "modul": "pkb003",
   "teilmodul": "pkb003.2",
   "datum": "2026-11-30",
-  "sitzung_nr": 8,
+  "sitzung_nr": 7,
   "sitzung_id": "",
-  "thema": "Die Wiedervereinigung",
+  "thema": "Demographischer Wandel",
   "thema_in_app": "eingetragen",
   "stand": "geprueft",
   "art_inhalt": "Zusammenfassung der Seminarliteratur (Präsentation durch Mitstudierende)",
   "quellen": [
     {
-      "datei": "pkb003.2/S08_2026-11-30_IWH_Vereintes-Land.pdf",
-      "art": "Literatur: Leibniz-Institut für Wirtschaftsforschung Halle (IWH) (2019): Vereintes Land – drei Jahrzehnte nach dem Mauerfall (Broschüre)",
-      "seiten": "5–25 (Text), 32–66 (Abbildungen), 67–70 (Glossar)"
+      "datei": "pkb003.2/S07_2026-11-30_Brussig_Demografischer-Wandel.pdf",
+      "art": "Literatur: Brussig (2015), Kölner Zeitschrift für Soziologie und Sozialpsychologie 67 (Suppl.)",
+      "seiten": "295–324"
     }
   ],
   "lernziele": [
     {
-      "text": "Wie stellt sich die wirtschaftliche und gesellschaftliche Bilanz 30 Jahre nach der Wiedervereinigung dar?",
+      "text": "Welche Auswirkungen hat der demographische Wandel auf die Arbeitswelt und den Sozialstaat in Deutschland?",
       "art": "vorgegeben",
       "quelle": "Leitfrage Kursplan",
       "fragen": [],
@@ -26,108 +26,118 @@
     }
   ],
   "kurzfassung": [
-    "Aufholen, aber kein Gleichstand: Die ostdeutsche Produktivität stieg von 45 % (1991) auf 82 % (2017) des Westniveaus – die Lücke ist um rund zwei Drittel kleiner, die Konvergenz kommt seit den 2000ern aber nur noch „in Trippelschritten“ voran. Medianlohn Ost: 81,0 % des Bundesdurchschnitts.",
-    "Hauptgründe: fehlende Großunternehmen und Konzernzentralen (Top 500: 464 West, 36 Ost) – aber auch gleich große Betriebe sind im Osten mindestens 20 % weniger produktiv. Wurzeln reichen in die DDR-Planwirtschaft (zerstörter Mittelstand, Kombinate) und den Umbruch 1990 (1:1-Umstellung, Treuhand).",
-    "Fortschritte: kein genereller Kapitalmangel mehr, Unterbeschäftigung gesunken, Transferabhängigkeit stark gesunken, Ost-West-Abwanderung zum Stillstand gekommen.",
-    "Neues Kernproblem sind Fachkräfte: Die Erwerbsfähigenzahl sinkt bis 2060 im Osten etwa doppelt so stark wie im Westen; der Osten profitiert kaum von EU- und Blue-Card-Zuwanderung, verliert seinen Akademikervorsprung und hat viele Schulabbrecher.",
-    "Das Bild ist vielschichtiger als „Ost gegen West“: Es gibt auch Süd-Nord- und Stadt-Land-Gefälle; im EU-Vergleich steht Ostdeutschland gut da, wächst aber langsamer als die Visegrád-Staaten."
+    "Kernthese: Alterung und Schrumpfung schlagen nicht unmittelbar auf den Arbeitsmarkt durch. Sie werden durch Institutionen (Rentenrecht, Arbeitsmarktpolitik) und durch Betriebe als handelnde Akteure gefiltert – die Folgen sind gestaltbar und nur begrenzt vorhersagbar.",
+    "Prägendste Veränderung der letzten 20 Jahre ist die Alterung der Erwerbstätigen: Die Erwerbstätigenquote der 55- bis unter 65-Jährigen stieg von 38,4 % (2003) auf 61,5 % (2012) – vor allem, weil der Sozialstaat die Frühverrentung beendet hat (Abschläge, Rente mit 67, Ende der geförderten Altersteilzeit, Hartz-Reformen).",
+    "Ab etwa 2030 schrumpft das Erwerbspersonenpotenzial stark; längere Erwerbsphasen, mehr Frauenerwerbstätigkeit und Zuwanderung können das nur teilweise ausgleichen.",
+    "Ältere sind nicht generell weniger produktiv (Abkehr von der „Defizit-Hypothese“); eindeutiger ist ein umgekehrt U-förmiger Zusammenhang zwischen Alter und Innovation.",
+    "Probleme: begrenzte Tätigkeitsdauer in belastenden Berufen (viele sind „zu jung für die Altersrente, zu gesund für die Erwerbsminderungsrente und zu krank für eine Beschäftigung“), steigende Alterserwerbslosigkeit und neue Verteilungskonflikte in den Tarifbeziehungen."
   ],
   "erklaerung": [
     {
-      "titel": "Deutschland im internationalen Vergleich",
-      "folien": "S. 6–8, Abb. 1–3",
-      "text": "• Euphorie wich rasch der Ernüchterung: Zusammenbruch der Wirtschaftsstrukturen, millionenfacher Verlust von Arbeitsplätzen im Osten.\n• Die Vereinigung **dämpfte das Trendwachstum**: Staatseinnahmenquote 43 % (West vor der Vereinigung) → 48 % Mitte der 1990er (Ausgabenquote 45 % → 51 %).\n• Wettbewerbsfähigkeit sank: D-Mark-Aufwertung (nominal effektiv 17 %, 1989–1995), **Lohnumstellung 1:1**, hohe Lohnzuwächse (Arbeitnehmerentgelt Ost 1991: 49 %, 1995: 72 % des Westniveaus). Exporte sanken, Leistungsbilanz drehte ins Minus.\n• Seit Mitte der 2000er (oft mit den Arbeitsmarktreformen 2003–2005 erklärt) ist die Schwächephase überwunden; starke Internationalisierung.\n• Bilanz: Position in den G7 behauptet, Abstand zu den **USA größer** (Digitalwirtschaft)."
+      "titel": "Ansatz des Textes",
+      "folien": "S. 295–297",
+      "text": "• Der Arbeitsmarkt ist zentral für **System- und Sozialintegration**: Etwa die Hälfte der Bevölkerung lebt direkt von Erwerbsarbeit, fast alle anderen sind über Sozialleistungen oder Familientransfers damit verbunden.\n• Brussig wählt eine **soziologische** Perspektive (Wechselspiel von Institutionen, Akteuren und Organisationen, v. a. Betrieben) – in Abgrenzung zur wirtschaftswissenschaftlichen Sicht auf Wachstum und Arbeitslosigkeit.\n• Aufbau: Teil 2 demografische Entwicklung auf dem Arbeitsmarkt, Teil 3 Ebene der Betriebe, Teil 4 Fazit."
     },
     {
-      "titel": "Produktivität: West-Ost-Gefälle bleibt dominant",
-      "folien": "S. 8–10, Abb. 4–7",
-      "text": "• Produktivität (BIP je Erwerbstätigen) Ost: **45 % (1991) → 82 % (2017)**; bis 2003 schnelles Aufholen, danach „Trippelschritte“. Kein ostdeutsches Flächenland erreicht das **Saarland**.\n• Süd-Nord-Schere öffnet sich, ist aber viel kleiner als der West-Ost-Abstand.\n• Große Unternehmen: je 0,4 % in Ost und West (2 341 bzw. 12 289), aber westdeutsche viel größer; Konzernzentralen der Top 500 (2016): **464 West, 36 Ost**.\n• „Auf die bloße Größe kommt es nicht an“: Auch gegenüber gleich großen West-Betrieben liegt die Lücke in **keiner Größenklasse unter 20 %**.\n• Stadt-Land: Der ländliche Raum im Osten liegt näher am westdeutschen ländlichen Raum als die ostdeutschen Städte an den westdeutschen."
+      "titel": "Grundbegriffe",
+      "folien": "S. 298–299",
+      "text": "Arbeitskräftepotenzial = Bevölkerung im erwerbsfähigen Alter (15 bis 74 Jahre), gemessen meist nach dem **Labor-Force-Konzept der ILO** (erwerbstätig = mindestens eine Stunde bezahlte Arbeit in der Berichtswoche).\n\n| Gruppe | Bedeutung |\n|---|---|\n| Erwerbstätige | arbeiten gegen Entgelt |\n| Erwerbslose („manifeste Reserve“) | suchen aktiv, können binnen 14 Tagen anfangen; zählen zu den Erwerbspersonen |\n| Stille Reserve | suchen aktuell nicht, würden bei guter Arbeitsmarktlage aber arbeiten |\n| sonstige Nichterwerbstätige | können oder wollen auch unter günstigen Bedingungen nicht arbeiten |\n\nWie Betriebe auf Alterung und Verknappung reagieren (mehr Kapital, altersgerechte Arbeit, Qualifizierung oder Schrumpfung), hängt von viel mehr als der Demografie ab – daher die **Ungewissheit** der Folgen."
     },
     {
-      "titel": "Europa-Vergleich und Löhne",
-      "folien": "S. 10–11, Abb. 8–12",
-      "text": "• Ostdeutschland liegt beim BIP je Einwohner vor den meisten Regionen Mittel- und Osteuropas, wächst aber seit 2000 langsamer als die **Visegrád-Staaten**; Tschechien ist schon sehr nah.\n• Regionale Disparitäten in Deutschland sind in den 2000ern gesunken.\n\n| Medianlohn (% des Bundesdurchschnitts) | Wert |\n|---|---|\n| Ostdeutschland / Berlin | 81,0 % / 97,4 % |\n| Ingolstadt und Erlangen | 144,4 % |\n| Cloppenburg (niedrigster West-Kreis) | 81,3 % |\n| Görlitz bis Jena | 68,0 % bis 95,5 % |\n\nGründe: geringere Produktivität und Branchenstruktur (Verarbeitendes Gewerbe: 28,4 % der Vollzeitbeschäftigten im Westen, 21,0 % im Osten)."
+      "titel": "„Doppelte Alterung“ und demografischer Rückenwind",
+      "folien": "S. 299–301",
+      "text": "• **Doppelte Alterung:** (1) *demografisch bedingt* durch unterschiedlich große Geburtsjahrgänge; (2) *verhaltensbedingt* durch steigende Erwerbsbeteiligung Älterer.\n• Geburtentief 1945, danach die **Babyboomer** (Jahrgänge über 1 Mio.; 1964 in Westdeutschland doppelt so stark wie 1945).\n• Ab ca. 2005 ist die Gruppe der 55- bis unter 65-Jährigen von der „jüngeren Hälfte“ geprägt → **„demografischer Rückenwind“**: Die Erwerbstätigenquote der Älteren steigt im Aggregat ohne Verhaltensänderung. Laut Text bis der Jahrgang 1964 65 wird (ab ca. 2019).\n• Lehre: Im langfristigen Alterungstrend kann es kurzfristige „Verjüngung“ geben – wichtig, weil Politik kurzfristige Handlungsbezüge tendenziell übergewichtet."
     },
     {
-      "titel": "Arbeitsmarkt, Kapital, Förderung",
-      "folien": "S. 11–13, Abb. 13–16",
-      "text": "• **Dienstleistungen = wichtigster Jobmotor**; 1991–2005 glichen sie im Osten die Jobverluste nicht aus, danach wuchs die Beschäftigung (fast sechsmal so stark wie in der Industrie).\n• **Unterbeschäftigung** Ost 15,6 % (2011) → 10,4 % (2017), West 8,5 % → 7,2 %; deutliches Süd-Nord-Gefälle.\n• **Sachkapital:** 2015 fast neun Zehntel des Westniveaus je Erwerbstätigen; Kapitalkoeffizient im Osten sogar höher → auch die Kapitalproduktivität ist niedriger; kein genereller Kapitalmangel.\n• **Regionalförderung:** 1991–2017 rund 42 Mrd. Euro für ostdeutsche Betriebe; positive Effekte auf Beschäftigung und Investitionen, aber keine höhere Produktivität."
+      "titel": "Stark wachsende Erwerbsbeteiligung Älterer – Rolle des Sozialstaats",
+      "folien": "S. 301–304",
+      "text": "| Bereich | Reformen laut Text |\n|---|---|\n| Rente | Rentenreformgesetz 92: Abschläge bei Rente vor der Regelaltersgrenze (ab Jahrgang 1937); Regelaltersgrenze 67 (Jahrgänge 1947–1963 schrittweise, voll ab 1964); Rente mit 63 (2014) laut Brussig mittelfristig kein Widerspruch |\n| Arbeitsmarkt | SGB III (1998), Hartz-Gesetze (2002–2004); geförderte Altersteilzeit 1996 eingeführt, 2009 geschlossen |\n| Ergebnis | Anreize zu Vorruhestand und Frühverrentung erheblich eingeschränkt |\n\n• Erwerbstätigenquote 55 bis unter 65: **38,4 % (2003) → 61,5 % (2012)**; Zahl der älteren Erwerbstätigen von knapp 4,8 auf knapp 7,0 Mio.\n• **Keine Verdrängung Jüngerer** („Lump of labour-Illusion“ trifft nicht zu).\n• Kehrseite: steigende **Alterserwerbslosigkeit**.\n• Hauptgrund des Anstiegs ist der **aufgeschobene Austritt**; Hochqualifizierte sind im Alter öfter erwerbstätig als Geringqualifizierte."
     },
     {
-      "titel": "Bevölkerung und Wanderung",
-      "folien": "S. 13–14, Abb. 17–20",
-      "text": "| Entwicklung | Zahlen laut Text |\n|---|---|\n| Ost-West-Abwanderung | 1989–2015 netto 1,9 Mio., mehr als die Hälfte 1989–1992; seit 2012 fast ausgeglichen |\n| Geburten | Osten 1990–2015 durchgehend Geburtendefizit |\n| Einwohner 1990–2015 | West +6,6 Mio., Ost (mit Berlin) −2,1 Mio.; seit 2013 wächst der Osten wieder |\n| Ländlicher Raum Ost | verliert seit 1999 ununterbrochen Einwohner |\n| Erwerbsfähige bis 2060 | Ost-Flächenländer fast zwei Fünftel weniger, West knapp ein Fünftel |"
+      "titel": "Schrumpfung ab ca. 2030 und Zuwanderung",
+      "folien": "S. 304–307",
+      "text": "| Fuchs et al. (2011), Erwerbspersonenpotenzial | 2008 | 2050 |\n|---|---|---|\n| Variante 1: konstante Situation | 44,7 Mio. | 26,7 Mio. |\n| Variante 2: steigende Erwerbsquoten | 44,7 Mio. | 28,6 Mio. |\n| Variante 3: zusätzlich +100 000 Zuwanderung/Jahr | 44,7 Mio. | 32,7 Mio. |\n\nDemografisch −18 Mio., Verhaltensänderungen knapp +2 Mio., Zuwanderung gut +4 Mio. → netto −12 Mio. (Variante 3). Ungenutzte Potenziale: junge Frauen/Mütter und Ältere (60–74) ca. 1,5 Mio.\n\n**Zuwanderung:** Salden schwanken stark (2012: +369 000). Zugewanderte tragen höhere Arbeitsmarktrisiken (u. a. nicht anerkannte Abschlüsse → Berufsqualifikationsfeststellungsgesetz 2011); Konkurrenz um die „besten Köpfe“.\n*„In der Realität lassen sich die Arbeitsmarktwirkungen von Zuwanderung kaum prognostizieren, wohl aber gestalten.“*"
     },
     {
-      "titel": "Zuwanderung und Fachkräfte",
-      "folien": "S. 14–17, Abb. 21–28",
-      "text": "• EU-Wanderungsgewinne 2010–2015: 1,5 Mio. (18,5 je 1 000 Einwohner); ostdeutsche Flächenländer nicht einmal halb so viel. **Blaue Karte** 2017: 49 je 100 000 Erwerbstätige, Berlin dreimal so viel.\n• „**Teufelskreis**“: Migranten ziehen zu bestehenden Netzwerken; im Osten hat nicht einmal jeder zehnte Einwohner Migrationshintergrund. Das IWH fordert, *„Erscheinungen von Fremdenfeindlichkeit konsequent entgegenzuwirken und Weltoffenheit zu zeigen“*.\n• **Fachkräfte als neuer Flaschenhals:** Nichtbesetzungsquote 2017 bundesweit beim 1,8-Fachen von 2007, im Osten mehr als verdoppelt (jede dritte Stelle unbesetzt).\n• Akademikervorsprung des Ostens außer in Berlin verloren; Schulabbrecherquote (Bund 5,7 %) in 68 von 77 ostdeutschen Kreisen darüber."
+      "titel": "Zwischenfazit: drei Puffer",
+      "folien": "S. 307",
+      "text": "*„Die demografischen Prozesse des Schrumpfens und des Alterns der Bevölkerung schlagen nicht unmittelbar auf den Arbeitsmarkt durch.“*\n• Puffer 1: Erwerbslose und Stille Reserve\n• Puffer 2: Arbeitszeit, v. a. Lebensarbeitszeit (späterer Erwerbsaustritt)\n• Puffer 3: Zuwanderung (theoretisch fast unbegrenzt, praktisch schwer steuerbar)"
     },
     {
-      "titel": "Der lange Schatten der DDR und der Umbruch",
-      "folien": "S. 17–19 (Kasten)",
-      "text": "| DDR-Erbe | Umbruch 1990 ff. |\n|---|---|\n| rund 36 000 Betriebe in den Westen abgewandert; 1972 über 11 100 zusätzliche volkseigene Betriebe durch Zwangsverstaatlichung | Umtausch 1:1 für Löhne = Aufwertung um mehrere hundert Prozent; Ostmärkte brechen weg |\n| Kombinate (Ø rund 21 300 Beschäftigte), zu große Wertschöpfungstiefe, kein Wettbewerb, veraltete Anlagen | Juni 1990: nur ca. 40 % der Betriebe rentabel erwartet; Treuhand: weniger als 10 % sofort privatisierbar |\n| Mittelstand weitgehend zerstört | Treuhand Ende 1994: 12 354 Unternehmen, 8 444 privatisiert, 3 718 stillgelegt |\n\nKombinate hätten keine Konzernzentralen werden können; Langfristfolgen der Treuhand sind laut IWH noch nicht hinreichend untersucht."
+      "titel": "Belegschaftsalter, Produktivität, Innovation",
+      "folien": "S. 308–311",
+      "text": "• Die meisten Betriebe altern: Anteil der Betriebe ohne Beschäftigte ab 50 sank 2002–2004 West 51 % → 47 %, Ost 49 % → 42 %; das Altersspektrum weitet sich „nach oben“, vor allem durch längeren Verbleib Älterer.\n• **Produktivität:** je nach Messung unterschiedlich; Leistung hängt von gestaltbarer Arbeitsumgebung, Arbeitsorganisation und Teamzusammensetzung ab → Alterung gilt nicht mehr als generelle Bedrohung (Abkehr von der Defizit-Hypothese).\n• **Innovation:** umgekehrt U-förmiger Zusammenhang; Erklärung über **fluide** (sinkt im Alter) und **kristalline Intelligenz** (bleibt stabil oder wächst)."
     },
     {
-      "titel": "Forschung, Export, Transfers",
-      "folien": "S. 17–22, Abb. 29–35",
-      "text": "• **FuE** 2015: Unternehmen im Westen über 56 Mrd., im Osten unter 5 Mrd. Euro (Elffache) – wegen der großen Unternehmen; keine Exzellenzcluster in Brandenburg, Mecklenburg-Vorpommern, Sachsen-Anhalt.\n• **Export:** Exportanteil der Ost-Industrie ein Viertel unter dem Durchschnitt.\n• **Transfers:** Lücke zwischen Verbrauch und Produktion bis Mitte der 1990er ca. 6 % des westdeutschen BIP, 2015 nur noch etwas über 1 % (v. a. Pendlereinkommen, Rentenversicherung). Steuerdeckungsquote: Ost-Flächenländer auf Platz 9–13.\n• **Kommunen:** Infrastrukturinvestitionen müssen die künftige Einwohnerentwicklung vorwegnehmen."
+      "titel": "Betriebliche Personalpolitik",
+      "folien": "S. 311–314",
+      "text": "| Typ (IAB-Betriebspanel 2002) | Anteil der Betriebe |\n|---|---|\n| nur ausgliedernd (Altersteilzeit) | 6,9 % |\n| nur integrativ | 8,3 % |\n| beides | 4,5 % |\n| keine altersbezogenen Maßnahmen | 80,4 % |\n\n• Entscheidend ist ausdifferenzierte Personalarbeit – ein **demografieunabhängiger** Faktor.\n• Trend: weniger Altersteilzeit, mehr integrative Maßnahmen – bislang **moderat**.\n• **Alternsgerechte** Personalpolitik stößt auf Zielkonflikte (Zeithorizonte, Abwanderung von Beschäftigten, Leistungs- und Flexibilitätsanforderungen). Längere Erwerbsphasen gehen eher auf die Schließung des Vorruhestands zurück."
     },
     {
-      "titel": "Zehn Thesen des IWH",
-      "folien": "S. 23–25",
-      "text": "• I Finanzmärkte für effiziente Ressourcenallokation\n• II Headquarters-Lücke durch Wachstum bestehender Mittelständler mildern\n• III Lücke nicht nur wegen fehlender Großbetriebe – keine zusätzlichen Subventionen gegen Effizienzdruck\n• IV Dienstleistungen als Wachstumsmotor\n• V Öffentliche Wissenschaftseinrichtungen ausbauen\n• VI Attraktiver für qualifizierte Zuwanderung werden\n• VII Mehr in frühkindliche und schulische Bildung investieren\n• VIII Städte stärken\n• IX Infrastruktur an Einwohnerentwicklung ausrichten\n• X Förderung an Produktivität statt Arbeitsplätze binden: *„Produktivitätssteigerung das Gebot der Stunde“*"
+      "titel": "Begrenzte Tätigkeitsdauer",
+      "folien": "S. 314–315",
+      "text": "• Belastende Tätigkeiten lassen sich nur begrenzt ausüben; physische Belastungen waren in Deutschland 2010 stärker verbreitet als 2000. Ältere sind nicht öfter, aber länger krank.\n• Nach Schließung von Vorruhestand und Frühverrentung werden viele, die *„zu jung für die Altersrente, zu gesund für die Erwerbsminderungsrente und zu krank für eine Beschäftigung“* (Knuth) sind, arbeitslos oder nur teilzeitig/geringfügig beschäftigt; über ein Drittel der arbeitslosen Leistungsbeziehenden hat gesundheitliche Einschränkungen.\n• Heute steckt eher **versteckte Erwerbsunfähigkeit in der Arbeitslosensicherung** als umgekehrt. Ungelöst: Absicherung ohne neue Fehlanreize zur Aussonderung Älterer."
+    },
+    {
+      "titel": "Industrielle Beziehungen",
+      "folien": "S. 315–316",
+      "text": "• Tarifliche altersbedingte Lohnsteigerungen enden meist vor dem 30. Lebensjahr; betriebliche Alterssicherung („zweite Säule“) gewinnt an Bedeutung.\n• Frühverrentung war ein Konsensmodell von Staat und Sozialpartnern; seit Ende der staatlichen Altersteilzeit-Förderung (Neuzugänge ab 01.01.2009) gibt es weniger und restriktivere Tarifverträge.\n• Konflikt um den **Verteilungsspielraum** → Gefahr einer „Entsolidarisierung“ unter den „Arbeitsmarkt-Insidern“ (Fehmel 2013)."
+    },
+    {
+      "titel": "Fazit und Forschungsbedarf",
+      "folien": "S. 317–319",
+      "text": "• *„Wichtige Systeme der sozialen Sicherung, insbesondere die Sozialversicherungen, profitieren von einer breiten Erwerbsbeteiligung.“*\n• Folgen sind offen, weil gestaltbar und weil Grundfragen ungeklärt sind (gibt es eine quasi-natürliche Altersgrenze der Arbeitsfähigkeit?).\n• Frühere Gewissheiten erschüttert: viele können bis zur Regelaltersgrenze produktiv sein; Betriebe reagieren; keine höhere Jugendarbeitslosigkeit.\n• Neue Frage: **„neue Defizithypothese des Alters“** und die „richtigen“ Altersgrenzen."
     },
     {
       "titel": "Antwort auf die Leitfrage",
-      "text": "| Bereich | Erreicht | Offen / Probleme |\n|---|---|---|\n| Wirtschaft gesamt | Schwächephase überwunden, internationalisiert | Abstand zu den USA gewachsen |\n| Produktivität, Löhne | Lücke um rund zwei Drittel verringert (82 %) | Konvergenz stockt; Löhne Ost ca. 81 % |\n| Arbeitsmarkt, Kapital | Unterbeschäftigung gesunken; kein genereller Kapitalmangel | Fachkräftemangel; Förderung steigert Produktivität nicht |\n| Unternehmen | Mittelstand trägt mehr zur Forschung bei | kaum Konzernzentralen, wenig FuE und Export |\n| Gesellschaft (soweit im Text) | Abwanderung gestoppt, Bevölkerungswachstum seit 2013, weniger Transferabhängigkeit | Alterung, ländliche Schrumpfung, wenig Zuwanderung, Bildungsprobleme, Fremdenfeindlichkeit |\n\nGesamturteil: „Erfolgsgeschichte“ hängt vom Maßstab ab – deutliche Annäherung, aber die Bruchkante verläuft weiterhin oft entlang der alten Grenze, ergänzt durch Süd-Nord- und Stadt-Land-Unterschiede."
+      "text": "| Ebene | Auswirkungen laut Brussig |\n|---|---|\n| Arbeitskräfte | Alterung der Erwerbstätigen, Schrumpfung ab ca. 2030; Puffer nur teilweiser Ausgleich |\n| Betriebe | ältere Belegschaften; Produktivität nicht generell bedroht, Innovation eher; Problem belastender Tätigkeiten |\n| Sozialstaat | Ende der Frühverrentung → mehr Alterserwerbstätigkeit, aber auch mehr Alterserwerbslosigkeit und versteckte Erwerbsunfähigkeit; Sozialversicherungen brauchen breite Erwerbsbeteiligung |\n| Tarifpartner | höhere Kosten betrieblicher Sozialpolitik, Verteilungskonflikte |\n| Grundaussage | Demografie wirkt nicht automatisch – Institutionen und Akteure entscheiden |"
     }
   ],
   "definitionen": [
     {
-      "begriff": "Unterbeschäftigungsquote",
-      "wortlaut": "Prozentualer Anteil der Personen, die arbeitslos sind oder sich in arbeitsmarktpolitischen Maßnahmen oder in einem Sonderstatus befinden (insbesondere kurzfristig arbeitsunfähige Personen), an der Summe aus allen zivilen Erwerbspersonen, Personen in arbeitsmarktpolitischen Maßnahmen und Personen in einem Sonderstatus.",
-      "erklaerung": "Breiter als die Arbeitslosenquote, weil sie auch Menschen in Fördermaßnahmen erfasst – zeigt besser das Defizit an regulärer Beschäftigung.",
-      "folie": "S. 70 (Glossar), vgl. S. 12"
+      "begriff": "Stille Reserve",
+      "wortlaut": "Unter Nichterwerbstätigen sind auch Personen, die zwar nicht aktuell arbeitsuchend und damit auch nicht arbeitslos sind, aber bei günstiger Arbeitsmarktlage eine Beschäftigung suchen und vermutlich auch finden würden. […] Dieser Personenkreis wird als „Stille Reserve“ bezeichnet.",
+      "erklaerung": "Menschen, die gerade keine Arbeit suchen (z. B. weil sie keine Chance sehen), aber bei guter Lage arbeiten würden – ein Puffer für den Arbeitsmarkt.",
+      "folie": "S. 298"
     },
     {
-      "begriff": "Kapitalkoeffizient",
-      "wortlaut": "Relation des Kapitalstocks zum Bruttoinlandsprodukt.",
-      "erklaerung": "Ist er im Osten höher als im Westen, wird dort mit gleich viel Kapital weniger erwirtschaftet – die Kapitalproduktivität ist niedriger, ein Kapitalmangel liegt nicht vor.",
-      "folie": "S. 68 (Glossar), vgl. S. 12"
+      "begriff": "Erwerbspersonen",
+      "wortlaut": "Erwerbspersonen sind Menschen, die einer wirtschaftlichen Tätigkeit nachgehen, d. h. gegen Entgelt eine Arbeit verrichten oder eine solche suchen.",
+      "erklaerung": "Erwerbstätige plus Erwerbslose; Nichterwerbspersonen arbeiten nicht und suchen auch nicht.",
+      "folie": "S. 298"
     },
     {
-      "begriff": "Steuerdeckungsquote",
-      "wortlaut": "Sie zeigt den Anteil der Ausgaben auf der Landesebene, der durch eigene Steuereinnahmen gedeckt wird.",
-      "erklaerung": "Maß für die finanzielle Eigenständigkeit eines Landes; im Osten niedriger wegen geringerer Produktivität und Einkommen.",
-      "folie": "S. 21"
+      "begriff": "Demografischer Rückenwind",
+      "wortlaut": "Brussig et al. (2008) sprechen hier vom „demografischen Rückenwind“, der einen eigenständigen positiven Effekt auf die Entwicklung der Alterserwerbsbeteiligung hat.",
+      "erklaerung": "Wenn die Gruppe der 55- bis unter 65-Jährigen von den Jüngeren geprägt ist, steigt deren Erwerbstätigenquote insgesamt, ohne dass sich jemand anders verhält.",
+      "folie": "S. 300"
     },
     {
-      "begriff": "Nichtbesetzungsquote",
-      "wortlaut": "Nichtbesetzungsquote = Anteil der nicht besetzten offenen Stellen an den insgesamt angebotenen Stellen für Fachkräfte",
-      "erklaerung": "Indikator für Fachkräftemangel; 2017 blieb in Ost und West mehr als jede dritte Fachkräftestelle unbesetzt.",
-      "folie": "S. 56 (Abb. 25)"
+      "begriff": "Lump of labour-Illusion",
+      "wortlaut": "Dieser, oftmals als „Lump of labour-Illusion“ apostrophierten Auffassung zufolge, ist die Menge an Arbeit in einer Gesellschaft mehr oder weniger fixiert, und damit auch die Zahl der Arbeitsplätze, für deren Neubesetzung durch Jugendliche die Verrentung der Älteren erforderlich sei.",
+      "erklaerung": "Falsche Annahme, Ältere müssten in Rente gehen, damit Jüngere Arbeit finden; für Deutschland laut Brussig nicht zutreffend.",
+      "folie": "S. 302"
     },
     {
-      "begriff": "Blaue Karte EU",
-      "wortlaut": "Hierbei handelt es sich um Genehmigungen für die Beschäftigung von Ausländern mit einem Hochschulabschluss, die zudem ein bestimmtes Mindesteinkommen erzielen müssen.",
-      "erklaerung": "Aufenthaltstitel für Hochqualifizierte aus Nicht-EU-Staaten; wird im Osten (außer Berlin) unterdurchschnittlich oft erteilt.",
-      "folie": "S. 15"
+      "begriff": "Alternsgerechte Personalpolitik",
+      "wortlaut": "Betriebliche Personalpolitik muss auch Bedingungen schaffen, damit die Beschäftigten bis in ein höheres Alter hinein erwerbstätig sein können (alternsgerechte Personalpolitik).",
+      "erklaerung": "Nicht nur Maßnahmen für die heute Älteren (altersgerecht), sondern Arbeitsbedingungen über das ganze Erwerbsleben, die langes Arbeiten ermöglichen.",
+      "folie": "S. 313"
     },
     {
-      "begriff": "Export premium",
-      "wortlaut": "Die empirische Produktivitätsforschung zeigt, dass Exporteure sich im Vergleich zu Nicht-Exporteuren durch eine höhere Produktivität auszeichnen (export premium).",
-      "erklaerung": "Exportierende Unternehmen sind produktiver – ein Grund, warum die geringere Exportintensität im Osten zur Produktivitätslücke passt.",
-      "folie": "S. 21"
+      "begriff": "Fluide und kristalline Intelligenz",
+      "wortlaut": "Fluide Intelligenz „äußert sich in einer schnellen Auffassungsgabe, einer hohen Verarbeitungsgeschwindigkeit von Informationen, im schlussfolgernden Denken und in der Abstraktionsfähigkeit“ (Schneider 2007a, S. 7).",
+      "erklaerung": "Fluide Intelligenz ist in jungen Jahren ausgeprägt und lässt nach; kristalline Intelligenz (Erfahrung, Wissen, Sprache) bleibt stabil oder wächst – Erklärung für den umgekehrt U-förmigen Zusammenhang von Alter und Innovation.",
+      "folie": "S. 311"
     }
   ],
   "aufgaben": [],
   "fragen": [],
   "pruefungshinweise": [],
   "offene_fragen": [
-    "Kursplan nennt „Leipzig Institut für Wirtschaftsforschung Halle (2021)“ – im Ordner liegt die IWH-Ausgabe von 2019 („Vereintes Land – drei Jahrzehnte nach dem Mauerfall“). Gibt es eine Ausgabe 2021 (z. B. zu 30 Jahren Einheit), die eigentlich gemeint ist?",
-    "Die Broschüre ist rein ökonomisch; der „gesellschaftliche“ Teil der Leitfrage (Einstellungen, Identität, Politik) wird kaum abgedeckt – im Seminar ergänzen?",
-    "PDF ist zweispaltig mit Randnotizen; der extrahierte Text war stark zerstückelt. Zahlen wurden über ein spaltengetreues Layout geprüft und nur übernommen, wenn eindeutig; Werte aus den Grafiken selbst (Achsen) wurden nicht abgelesen.",
-    "Kleine Abweichungen zwischen Text und Abbildungserläuterungen: Bevölkerungsrückgang Ost 2,1 Mio. im Text für 1990–2015, in Abb. 18 „1990 bis 2016“; Transferlücke im Text „etwas über ein Prozent“ (des westdeutschen BIP), in Abb. 33 „1,2 %“ bzw. Defizit „7 %“ relativ zum ostdeutschen BIP."
+    "Kursplan nennt „Brussi, M.“ – gemeint ist offensichtlich Martin Brussig (2015). Tippfehler im Kursplan?",
+    "Text von 2015: Prognosen (Rückenwind bis ca. 2019, Schrumpfung ab 2030) und Zahlen (bis 2012/13) sind veraltet; aktuelle Zahlen ggf. im Seminar ergänzen.",
+    "Kleine Unstimmigkeit im Text: Variante 3 (Fuchs et al. 2011) ergibt 32,7 Mio. für 2050 (−12 Mio. ab 2008), an anderer Stelle (S. 305) heißt es bei gleicher Annahme Rückgang 2010–2050 um 14 Mio. (ca. 44 auf ca. 30 Mio.) – vermutlich unterschiedliche Basis/Rechnung.",
+    "Der Sozialstaat wird nur über Renten- und Arbeitsmarktreformen behandelt; Folgen für Rentenfinanzen, Pflege oder Gesundheit kommen im Text nicht vor."
   ]
 }

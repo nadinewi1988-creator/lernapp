@@ -3,134 +3,102 @@
   "modul": "pkb003",
   "teilmodul": "pkb003.2",
   "datum": "2026-11-09",
-  "sitzung_nr": 5,
+  "sitzung_nr": 4,
   "sitzung_id": "",
-  "thema": "Politik und Religion in Deutschland",
+  "thema": "Ordoliberalismus und soziale Marktwirtschaft in Deutschland",
   "thema_in_app": "eingetragen",
   "stand": "geprueft",
   "art_inhalt": "Zusammenfassung der Seminarliteratur (Präsentation durch Mitstudierende)",
   "quellen": [
     {
-      "datei": "pkb003.2/S05_2026-11-09_Schroeder_Islamkonferenz.pdf",
-      "art": "Literatur: Schröder (2016/2017), Die Deutsche Islamkonferenz und die muslimischen Verbände im Religionsverfassungsrecht, in: Hunger/Schröder (Hrsg.), Staat und Islam",
-      "seiten": "191–220"
+      "datei": "pkb003.2/S04_2026-11-09_Pies_Ordoliberalismus-SozMarktwirtschaft.pdf",
+      "art": "Literatur: Pies (2021), Handbuch Wirtschaftsphilosophie",
+      "seiten": "1–14"
     }
   ],
   "lernziele": [
     {
-      "text": "Gibt es in Deutschland eine strikte Trennung von Staat und Religion und wie ist versucht worden, den Islam in das deutsche Staats-Religions-Verhältnis zu integrieren?",
+      "text": "Was ist der Unterschied zwischen den beiden in Deutschland vorherrschenden Konzeptionen des Verhältnisses von Staat und Wirtschaft?",
       "art": "vorgegeben",
       "quelle": "Leitfrage Kursplan",
       "fragen": [],
-      "erklaerung_abschnitt": "Antwort auf die Leitfrage"
+      "erklaerung_abschnitt": "Der Unterschied auf einen Blick"
     }
   ],
   "kurzfassung": [
-    "Keine strikte Trennung: Es gibt keine Staatskirche (Art. 140 GG i. V. m. Art. 137 Abs. 1 WRV), aber der Staat darf – anders als laizistische Staaten – mit Religionsgemeinschaften kooperieren (positive Neutralität); laut Text international ein „Alleinstellungsmerkmal“.",
-    "Wichtigste Kooperationsformen: Körperschaft des öffentlichen Rechts (z. B. Steuerrecht) und bekenntnisgebundener Religionsunterricht (Art. 7 Abs. 3 GG). Beide setzen eine Religionsgemeinschaft voraus; das System ist auf „organisationsaffine“ Religionen wie die Kirchen zugeschnitten.",
-    "Die muslimischen Verbände (DİTİB, Islamrat, VIKZ, ZMD u. a.) sind heterogen, ein einheitlicher Ansprechpartner fehlte; bis 2005 blieben Anerkennungsversuche weitgehend erfolglos.",
-    "Die Deutsche Islamkonferenz (DIK, seit 2006) hat keine Entscheidungskompetenz und die Länder sind zuständig – trotzdem gab sie wichtige Impulse: Beiratsmodell für Islamunterricht und Islamische Theologie, Gründung des KRM (2007), Verlagerung der Verbände auf die Länderebene.",
-    "Bilanz: Fortschritte in der Sache, aber keine Gleichstellung mit den Kirchen – Körperschaft ist bisher nur die Ahmadiyya (Hessen 2013, Hamburg 2014), als Religionsgemeinschaft anerkannt nur DİTİB Hessen (2013)."
+    "Ordoliberalismus ist eine wissenschaftliche Denkschule (1930er/40er, „Freiburger Schule“, Walter Eucken); Soziale Marktwirtschaft ist ein politisches Leitbild bzw. Slogan nach 1945 (Begriff: Alfred Müller-Armack, Politik: Ludwig Erhard).",
+    "Kernidee des Ordoliberalismus: Die Wirtschaft braucht – wie die Politik – eine Verfassung („Ordo“). Der Staat gestaltet die Spielregeln, greift aber nicht in die Spielzüge ein.",
+    "Wettbewerb ist ein „Entmachtungsinstrument“ (Franz Böhm): Er verhindert wirtschaftliche Machtballung, die sonst auch den Staat vereinnahmt.",
+    "Eucken stellt sich gegen Laisser-faire-Altliberalismus und gegen Sozialismus – nicht als Kompromiss in der Mitte, sondern „orthogonal“: Es geht nicht um viel oder wenig Staat, sondern um die Art der Staatstätigkeit.",
+    "Die Soziale Marktwirtschaft übernimmt die ordoliberale Rahmenordnung, ergänzt aber Umverteilung und marktkonforme Sozialpolitik – das geht über Eucken hinaus."
   ],
   "erklaerung": [
     {
-      "titel": "Einleitung: Ziel der DIK",
-      "folien": "S. 191–192",
-      "text": "• Schäuble (CDU) beruft die DIK im September 2006 ein; Leitfrage: *„wie sich der Islam als Religion mit den Strukturen und Elementen des deutschen Religionsverfassungsrecht vereinbaren lässt“*.\n• Ambitioniert, weil der Staat wegen der **Neutralität** die Einbindung einzelner Religionen nur begrenzt vorantreiben darf und die **Länder** über die Anerkennung entscheiden.\n• Fragestellung: Inwiefern hat die DIK die religionsverfassungsrechtliche Integration des organisierten Islam beeinflusst?"
+      "titel": "Personen und Hintergrund",
+      "folien": "S. 2–3",
+      "text": "**Freiburger Schule:** die Ökonomen **Walter Eucken** und Leonhard Miksch, die Juristen **Franz Böhm** und Hans Großmann-Doerth; Zeitschrift „ORDO. Jahrbuch für die Ordnung von Wirtschaft und Gesellschaft“.\n• Im Umfeld (eher Begleiter): Rüstow, Röpke, Lutz, Welter.\n• **Hayek** ist *kein* Ordoliberaler: Er versteht „Ordnung“ als ungeplantes Ergebnis von Handlungen, Eucken als gestalteten Rahmen.\n• Mit Euckens Tod 1950 endet die Weiterentwicklung der Schule."
     },
     {
-      "titel": "Kooperation statt Trennung",
-      "folien": "S. 192–193",
-      "text": "| Institution | Inhalt |\n|---|---|\n| Religionsfreiheit | Art. 4 Abs. 1, 2 GG |\n| Verbot der Staatskirche | Art. 140 GG i. V. m. Art. 137 Abs. 1 WRV – kein strikter Laizismus, sondern **positive Neutralität** |\n| Körperschaft des öffentlichen Rechts | Art. 137 Abs. 5 WRV: **Steuern** erheben, **Beamte** haben, „Privilegienbündel“ |\n| Religionsunterricht | Art. 7 Abs. 3 S. 2 GG: bekenntnisgebunden; Inhalte bestimmt die Religionsgemeinschaft („Inkompetenz des Staates in religiösen Fragen“) |"
+      "titel": "Spielregeln vs. Spielzüge – das Vier-Felder-Schema",
+      "folien": "S. 5–6, Abb. 1",
+      "text": "| | Staat gestaltet keine Spielregeln | Staat gestaltet Spielregeln |\n|---|---|---|\n| Staat greift nicht in Spielzüge ein | **Altliberalismus** (Laisser-faire), neigt zu Kartellen | **Ordoliberalismus** (Wettbewerbsordnung) |\n| Staat greift in Spielzüge ein | (nicht besetzt) | **Sozialismus** (Planwirtschaft) |\n\nEucken (1949): *„Es handelt sich nicht um ein quantitatives, sondern um ein qualitatives Problem […] Staatliche Planung der Formen – ja; staatliche Planung und Lenkung des Wirtschaftsprozesses – nein.“*"
     },
     {
-      "titel": "Voraussetzungen",
-      "folien": "S. 193–194",
-      "text": "• **Religionsgemeinschaft**: Verband aus **natürlichen Personen**, Minimum an Organisation, gemeinsames Bekenntnis, **umfassende** Glaubenspflege (Abgrenzung zum religiösen *Verein*).\n• **Körperschaftsstatus zusätzlich**: „Gewähr der Dauer“ (Satzung, Finanzen, Bestandsdauer), klare Mitgliedschaftsregeln, Antrag durch vertretungsberechtigte Personen.\n• **Religionsunterricht**: kein Körperschaftsstatus nötig, aber verbindliche Außenvertretung und klare Mitgliedschaftsregeln."
+      "titel": "Euckens Argument in vier Schritten",
+      "folien": "S. 6–9, Abb. 2",
+      "text": "**1. Alternativen:** Nur Planwirtschaft oder Wettbewerbsordnung sind ernst zu nehmen. Laisser-faire fällt weg: Kartelle nehmen politischen Einfluss, erzwingen immer mehr Eingriffe und zerstören am Ende Rechtsstaat und Marktwirtschaft (Kaiserreich → Weimar → NS). Stichwort **„Interdependenz der Ordnungen“**.\n**2. Kriterien:** Freiheit, soziale Gerechtigkeit und soziale Sicherheit konkurrieren. Eucken löst das historisch über drei Phasen der „sozialen Frage“: bis 1914 Gerechtigkeit (Arbeiterarmut), 1914 bis Mitte 1930er Sicherheit (Massenarbeitslosigkeit), ab 1936 Freiheit (totaler Wirtschaftsstaat). Pointe: Nach 1945 gibt es **ohne Freiheit weder Sicherheit noch Gerechtigkeit**.\n**3. Entscheidung:** Allein die Wettbewerbsordnung löst das Ordnungsproblem – entscheidend ist der Schutz von Rechtsstaat und Autonomie, nicht der Wohlstand.\n**4. Prinzipien:** staatspolitische (Machtgruppen entgegentreten, Staat beschränkt sich auf die Wirtschaftsverfassung), konstituierende (Wettbewerbsordnung einrichten), regulierende (sie erhalten).\n*„Ohne eine Wettbewerbsordnung kann kein aktionsfähiger Staat entstehen und ohne einen aktionsfähigen Staat keine Wettbewerbsordnung.“*"
     },
     {
-      "titel": "Streit um die Auslegung",
-      "folien": "S. 195–197",
-      "text": "| | Traditionell-institutionalistisch | Grundrechtsbezogen |\n|---|---|---|\n| Maßstab | äußere Verfassung der **christlichen Kirchen** (Hillgruber) | **Religionsfreiheit**; BVerfG: Körperschaftsstatus *„ein Mittel zur Entfaltung der Religionsfreiheit“* |\n| Gewähr der Dauer | Organisationsgrad, verbindlicher Ansprechpartner, hierarchische Willensbildung | nur ausreichende Bestandsdauer |\n| Ungeschriebenes | Rechtstreue + positives Eintreten für die Grundordnung, Kulturbindung (Kirchhof) | gegen einen „abendländischen ‚Kulturvorbehalt‘“ |\n\n**Zwischenfazit:** Das System begünstigt „organisationsaffine“ Religionen; zunehmend setzt sich die offenere, grundrechtsbezogene Lesart durch."
+      "titel": "Wie Eucken argumentiert",
+      "folien": "S. 9–12",
+      "text": "• Er überzeugt gerade Anhänger eines starken Staates: Ein Interventions- oder Planstaat wird von Interessengruppen vereinnahmt – er ist ein **schwacher Staat**.\n• Analogie zum Rechtsstaat: Wie die Gewaltenteilung aus Erfahrungen mit Fürstenwillkür entstand, soll eine Wirtschaftsverfassung wirtschaftliche Macht begrenzen („Denken und Handeln in Ordnungen“).\n• Seine Prinzipien sind **keine Naturrechte**, sondern Zweckmäßigkeitsargumente; sie wirken nur zusammen und sind weiterentwickelbar."
     },
     {
-      "titel": "Muslimische Verbände und ihr Ringen um Anerkennung",
-      "folien": "S. 197–200",
-      "text": "• Gemeinden entstehen nach den Anwerbeabkommen der 1960er; Dachverbände ab Anfang der 1980er, oft auf Initiative der Herkunftsländer.\n• **DİTİB** (größter Verband, ursprünglich „Dependance“ des türkischen Religionsamts DIB), **Islamrat** (geprägt von Millî Görüş), **VIKZ**, **ZMD**, alevitische **AABF**, IGBD, ZMaD, regionale Schuras.\n• Gefordert war ein zentraler Ansprechpartner; Zentralisierung scheiterte – u. a. am Gegensatz „**Embassy Islam**“ vs. „**Political Islam**“ (Laurence).\n• **NRW-Verfahren**: OVG NRW 2003 lehnt ab (kein „personales Substrat“ bei Dachverbänden); **BVerwG 2005**: Auch ein Dachverband kann Religionsgemeinschaft sein, wenn ein **„organisatorisches Band“** zu den Gemeinden besteht. Verfahren ruht."
+      "titel": "Soziale Marktwirtschaft",
+      "folien": "S. 12–14",
+      "text": "**Ludwig Erhard** nutzt den Slogan politisch, ist aber nicht ihr Theoretiker: *„»Wohlstand für alle« und »Wohlstand durch Wettbewerb« gehören untrennbar zusammen“* (1957).\n**Alfred Müller-Armack** macht daraus ein Leitbild. Übernommen vom Ordoliberalismus: Wettbewerb braucht eine Rahmenordnung; Position jenseits von Altliberalismus und Sozialismus; Wettbewerb ist selbst eine soziale Leistung.\n**Eigenständig** (für Entscheidungen innerhalb der Ordnung):\n• **Umverteilung** von Einkommen – damit kehrt der Wertestreit zurück, den Eucken überwunden hatte.\n• **Marktkonformität:** Sozialpolitik darf den Preismechanismus nicht außer Kraft setzen.\n\n| marktinkonform | marktkonform |\n|---|---|\n| Zinsfixierung für bestimmte Kreditnehmer | Zinssubvention, allgemeiner Zins bleibt frei |\n| Mietstopp für den ganzen Wohnungsmarkt | Mietbeihilfen für Bedürftige |\n\nPies hält Müller-Armacks Anspruch, das Leitbild sei in der frühen Bundesrepublik „vollkommen verwirklicht“ worden, für unhaltbar."
     },
     {
-      "titel": "Die DIK: Aufbau und rechtliche Grenzen",
-      "folien": "S. 200–203",
-      "text": "• Handlungsdruck u. a. durch den Streit um die „Mohammed-Karikaturen“.\n• Jährliches **paritätisches Plenum** (zunächst 15 + 15), darunter Arbeitsebene; Ergebnisse sind **Empfehlungen** und BAMF-Studien.\n\n| Phase | Muslimische Teilnehmer |\n|---|---|\n| DIK I (2006–2009) | inklusiv: DİTİB, ZMD, VIKZ, Islamrat, AABF + **zehn Einzelpersonen** |\n| DIK II (2010–2013) | **Islamrat ausgeschlossen**, ZMD aus Protest fern; neu IGBD, ZMaD, TGD |\n| DIK III (seit 2014) | alle KRM-Verbände + **Ahmadiyya**; **keine Einzelpersonen** |\n\n• **Grenzen**: keine legislativen/exekutiven Kompetenzen; Themen und Anerkennung sind **Ländersache**; staatliche Hilfe darf die Autonomie nicht antasten – Grenze, wenn *„staatliche und religionsgemeinschaftliche Strukturen verschmelzen“*."
-    },
-    {
-      "titel": "Beispiel 1: Islamischer Religionsunterricht",
-      "folien": "S. 203–206",
-      "text": "• AG 1: „**Wertekonsens**“ – Verpflichtung auf die *„vollständige Beachtung der deutschen Rechtsordnung und der Werteordnung des Grundgesetzes“* (Islamrat stimmte nicht zu).\n• AG 2: Gutachten Heinrich de Wall mit **Positivliste** und „Übergangslösungen“ → **Beiratsmodell**: Verbände + nicht organisierte Muslime übernehmen gemeinsam die Rolle der Religionsgemeinschaft, ohne Rechtsanspruch.\n• Umsetzung: **NRW ab 2012/13**, **Niedersachsen ab 2013/14**. Kritik: Gefahr eines *„‚Staatsislam‘ durch die Hintertür“* (Heinig).\n• **Hessen** (2013/14): DİTİB Hessen und Ahmadiyya als Religionsgemeinschaften anerkannt – Beirat nicht nötig.\n• Rolle der DIK: Zwischenresümee 2008 „handlungsleitend“ (Kiefer); Forum, um Bedenken auszuräumen – Ergebnis ist ein **Kompromiss**."
-    },
-    {
-      "titel": "Beispiel 2: Islamische Theologie an Hochschulen",
-      "folien": "S. 206–208",
-      "text": "• DIK-Plenum 2009 empfiehlt Lehrangebote; **Wissenschaftsrat** 2010: „Beiräte für Islamische Studien“; BMBF-Förderung (bis 2015 insgesamt 20 Mio. Euro).\n• Zentren in Tübingen, Münster, Osnabrück, Frankfurt/Gießen, Erlangen-Nürnberg – überwiegend mit Beiratsmodell.\n• Die Beiräte **spiegeln das DIK-Plenum** (Verbände + Einzelpersonen); danach Probleme bei Zusammensetzung und Kompetenzen – Konflikte der DIK verlagern sich auf die Länder."
-    },
-    {
-      "titel": "Beispiel 3: Muslimische Selbstorganisation",
-      "folien": "S. 208–211",
-      "text": "• 2007 Gründung des **KRM** (DİTİB, ZMD, Islamrat, VIKZ) – die lange gescheiterte Zentralisierung; die Auswahl für die DIK war ein Kooperationsanreiz.\n• Schäuble: *„Ein Verband ist noch keine Religionsgemeinschaft […]“* – kein Monopol; Ausschluss des Islamrats in der DIK II wirkt desintegrativ.\n• Danach **Dezentralisierung**: DİTİB gründet ab 2009 Landesverbände (auch gegen den Vorwurf der Auslandsbeeinflussung) – Erfolg in Hessen 2013. KRM-Verbände in NRW als besonders repräsentativ in den Beiräten."
-    },
-    {
-      "titel": "Fazit und Ausblick",
-      "folien": "S. 211–214",
-      "text": "• Dem Islam wird oft „**Organisationsferne**“ attestiert, das Recht begünstigt „organisationsaffine“ Religionen → Stagnation.\n• Funktionen der DIK: **Informationsaustausch** und Vertrauen (Studie „Muslimisches Leben in Deutschland“ 2009); **Übergangsmodelle** vermitteln (Anerkennung später nicht „obsolet“); **Organisationsvorbild** für die Beiräte; **Anreiz zur Selbstorganisation**.\n• Die Verbände sind *„noch weit von einer vollständigen rechtlichen Gleichstellung mit den christlichen Großkirchen entfernt“*. Erwartet: weitere Anerkennungen als Religionsgemeinschaft (mit Folgeproblemen) und Debatten über den Körperschaftsstatus."
-    },
-    {
-      "titel": "Antwort auf die Leitfrage",
-      "text": "| Teilfrage | Antwort laut Text |\n|---|---|\n| Strikte Trennung? | **Nein** – keine Staatskirche, aber auch kein strikter Laizismus; **positive Neutralität** mit Kooperation (Körperschaftsstatus, Religionsunterricht, Theologie); Grenze: keine Einmischung in Inhalte und innere Struktur |\n| Integration des Islam – wie? | Klagen (BVerwG 2005: „organisatorisches Band“); **DIK** ab 2006 als Dialogforum mit Empfehlungen; **Beiratsmodelle** (NRW, Niedersachsen, Hochschulen); Anpassung der Verbände (KRM, Landesverbände); Einzelfälle voller Anerkennung (Ahmadiyya, DİTİB Hessen) |\n| Bilanz | Fortschritte in der Sache, **keine Gleichstellung**; Beiratslösungen konfliktträchtig |"
+      "titel": "Der Unterschied auf einen Blick",
+      "text": "| | Ordoliberalismus | Soziale Marktwirtschaft |\n|---|---|---|\n| Art | wissenschaftliche Denkschule | politisches Leitbild / Slogan |\n| Personen | Eucken, Böhm (Freiburg), 1930er–1950 | Müller-Armack, Erhard, nach 1945 |\n| Ebene | Grundsatzentscheidung über die Wirtschaftsverfassung | konkrete Politik innerhalb der Ordnung |\n| Sozialpolitik | am besten durch die Wettbewerbsordnung selbst | zusätzlich Umverteilung, aber marktkonform |\n| Gemeinsam | Rahmen für Wettbewerb, gegen Laisser-faire und Planwirtschaft, Freihandel | |"
     }
   ],
   "definitionen": [
     {
-      "begriff": "Religionsgemeinschaft",
-      "wortlaut": "einen Verband, der „die Angehörigen ein und desselben Glaubensbekenntnisses oder mehrerer verwandter Glaubensbekenntnisse zu allseitiger Erfüllung der durch das gemeinsame Bekenntnis gestellten Aufgaben zusammenfasst“",
-      "erklaerung": "Voraussetzung für Religionsunterricht und Körperschaftsstatus: Zusammenschluss natürlicher Personen mit gemeinsamem Bekenntnis zur umfassenden Glaubenspflege (nicht nur Teilaufgaben wie ein religiöser Verein).",
-      "folie": "S. 194"
+      "begriff": "Ordoliberalismus",
+      "wortlaut": "eine in den 1930er- und 1940er-Jahren aktive Denkschule, die um die Idee zentriert ist, dass eine freiheitliche Gesellschaftsordnung nur dann gut funktionieren kann, wenn die Wirtschaft – analog zur Politik – einer Verfassung („Ordo“) unterworfen ist",
+      "erklaerung": "Die Wirtschaft braucht feste, vom Staat gesetzte Spielregeln (wie eine Verfassung); innerhalb dieser Regeln entscheiden die Marktteilnehmer frei.",
+      "folie": "S. 2"
     },
     {
-      "begriff": "Positive Neutralität",
-      "wortlaut": "Es besteht nach Art. 140 GG i. V. m. Art. 137 Abs. 1 WRV in Deutschland zwar keine Staatskirche, gleichwohl darf der Staat – anders als in laizistisch verfassten Staaten – mit den Religionsgemeinschaften kooperieren",
-      "erklaerung": "Der Staat identifiziert sich mit keiner Religion, arbeitet aber mit Religionsgemeinschaften zusammen – Gegenmodell zur strikten Trennung (Laizismus).",
-      "folie": "S. 193"
+      "begriff": "Soziale Marktwirtschaft",
+      "wortlaut": "ein politischer Slogan, der unmittelbar nach dem Ende des Zweiten Weltkriegs wirkmächtig geworden ist und das Selbstverständnis der Bundesrepublik Deutschland nachhaltig geprägt hat",
+      "erklaerung": "Leitbild der Bundesrepublik: Wettbewerb in einem staatlichen Rahmen plus marktkonforme Sozialpolitik und Umverteilung.",
+      "folie": "S. 2"
     },
     {
-      "begriff": "Körperschaft des öffentlichen Rechts",
-      "wortlaut": "Zu den Privilegien, die sich aus diesem Status unmittelbar aus der Verfassung ergeben, gehören etwa die Befugnis der Organisation, Steuern von ihren Mitgliedern zu erheben (Art. 137 Abs. 6 WRV) und als Dienstherr Beamtenverhältnisse zu begründen",
-      "erklaerung": "Sonderstatus nach Art. 140 GG i. V. m. Art. 137 Abs. 5 WRV mit Steuerrecht, Dienstherrenfähigkeit und weiteren Vorteilen („Privilegienbündel“).",
-      "folie": "S. 193"
+      "begriff": "Wettbewerbsordnung",
+      "wortlaut": "[eine Ordnung,] die wirtschaftliches Verhalten über Marktpreise koordiniert und zu diesem Zweck Konkurrenzmärkte einrichtet",
+      "erklaerung": "Euckens Gegenmodell zur Planwirtschaft: Der Staat sorgt aktiv für funktionierenden Wettbewerb und verhindert Kartelle und Privilegien.",
+      "folie": "S. 9"
     },
     {
-      "begriff": "Beiratsmodell",
-      "wortlaut": "Dieses Beiratsmodell sieht vor, ein gemeinsames Gremium einzuberufen, in dem verschiedene muslimische Verbandsvertreter, aber auch Muslime, die nicht in eine Organisation eingebunden sind, gemeinsam die Aufgaben übernehmen, die einer Religionsgemeinschaft im Rahmen ihres Mitbestimmungsrechts aus Art. 7 Abs. 3 S. 2 GG zukommen.",
-      "erklaerung": "Übergangslösung für Islamunterricht (NRW, Niedersachsen) und Islamische Theologie: Mitsprache ohne Anerkennung als Religionsgemeinschaft und ohne Rechtsanspruch.",
-      "folie": "S. 205"
+      "begriff": "Interdependenz der Ordnungen",
+      "wortlaut": "Die Interdependenz von Staatsordnung und Wirtschaftsordnung zwingt dazu, den Ordnungsaufbau von beiden in einem Zuge in Angriff zu nehmen.",
+      "erklaerung": "Wirtschafts- und Staatsordnung hängen zusammen: Machtkonzentration in der Wirtschaft verstärkt Machtkonzentration in der Politik und umgekehrt.",
+      "folie": "S. 7 und 9 (Eucken 1952)"
     },
     {
-      "begriff": "Organisatorisches Band",
-      "wortlaut": "Entscheidend sei, ob ein „organisatorisches Band“ (BVerwGE 123, 49 (57)) zwischen Dachverbands- und Gemeindeebene bestünde",
-      "erklaerung": "Kriterium des BVerwG (2005): Ein Dachverband kann Religionsgemeinschaft sein, wenn eine nachvollziehbare Verbindung bis zu den Gläubigen in den Moscheegemeinden besteht.",
-      "folie": "S. 200"
-    },
-    {
-      "begriff": "Deutsche Islamkonferenz (DIK)",
-      "wortlaut": "Das Plenum der DIK hat keine Entscheidungskompetenz, sondern kann lediglich Empfehlungen und Stellungnahmen abgeben.",
-      "erklaerung": "Seit 2006 vom Bundesinnenminister einberufenes, paritätisch besetztes Dialogforum zwischen Staat und Muslimen.",
-      "folie": "S. 211"
+      "begriff": "Marktkonformität",
+      "wortlaut": "Marktinkonform ist ein Mietstopp, der den Gesamtwohnungsmarkt ohne Rücksicht auf die Leistungsfähigkeit der Mieter erfasst, marktkonform ist ein System von Mietbeihilfen für bedürftige Schichten.",
+      "erklaerung": "Eine staatliche Maßnahme ist marktkonform, wenn sie hilft, ohne den Preismechanismus außer Kraft zu setzen (Müller-Armack).",
+      "folie": "S. 13"
     }
   ],
   "aufgaben": [],
   "fragen": [],
   "pruefungshinweise": [],
   "offene_fragen": [
-    "Bibliografie: Im PDF steht „© Springer Fachmedien Wiesbaden 2016“ und als Herausgeber „U. Hunger und N.J. Schröder (Hrsg.)“; der Kursplan nennt 2017 und nur Uwe Hunger als Herausgeber.",
-    "Der Text hat Stand etwa 2015 (DIK III läuft gerade); spätere Entwicklungen (weitere Phasen der DIK, Anerkennungen) fehlen."
+    "Kursplan nennt Biebricher/Ptak (2021), Kap. 2 und 3 – im Ordner liegt Pies (2021). Wurde der Text ausgetauscht?"
   ]
 }

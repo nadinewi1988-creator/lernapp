@@ -3,22 +3,22 @@
   "modul": "pkb003",
   "teilmodul": "pkb003.2",
   "datum": "2026-12-07",
-  "sitzung_nr": 9,
+  "sitzung_nr": 8,
   "sitzung_id": "",
-  "thema": "Spielarten der Marktwirtschaft/des Kapitalismus",
+  "thema": "Die Wiedervereinigung",
   "thema_in_app": "eingetragen",
   "stand": "geprueft",
   "art_inhalt": "Zusammenfassung der Seminarliteratur (Präsentation durch Mitstudierende)",
   "quellen": [
     {
-      "datei": "pkb003.2/S09_2026-12-07_Hall_Spielarten-des-Kapitalismus.pdf",
-      "art": "Literatur: Hall (2015), WSI-Mitteilungen 4/2015",
-      "seiten": "245–252"
+      "datei": "pkb003.2/S08_2026-12-07_IWH_Vereintes-Land.pdf",
+      "art": "Literatur: Leibniz-Institut für Wirtschaftsforschung Halle (IWH) (2019): Vereintes Land – drei Jahrzehnte nach dem Mauerfall (Broschüre)",
+      "seiten": "5–25 (Text), 32–66 (Abbildungen), 67–70 (Glossar)"
     }
   ],
   "lernziele": [
     {
-      "text": "Welchem Typ des Kapitalismus ist die deutsche Wirtschaft zuzurechnen und wie äußert sich das in der Europäischen Union?",
+      "text": "Wie stellt sich die wirtschaftliche und gesellschaftliche Bilanz 30 Jahre nach der Wiedervereinigung dar?",
       "art": "vorgegeben",
       "quelle": "Leitfrage Kursplan",
       "fragen": [],
@@ -26,96 +26,108 @@
     }
   ],
   "kurzfassung": [
-    "Hall unterscheidet nach dem Varieties-of-Capitalism-Ansatz koordinierte Marktwirtschaften (Norden), gemischte Marktwirtschaften (Süden) und liberale Marktwirtschaften (angelsächsisch, Irland). Deutschland ist eine koordinierte Marktwirtschaft.",
-    "Daraus folgen zwei Wachstumsstrategien: Der Norden setzt auf Export (Lohnzurückhaltung, Ausbildung, Qualität), der Süden auf Binnennachfrage – vor dem Euro abgesichert durch regelmäßige Abwertungen.",
-    "Die Währungsunion nützte dem Norden (Partner können nicht mehr abwerten, Euro nach außen günstig) und schadete dem Süden: billige Kredite aus dem Norden führten zu Inflation, steigenden Lohnstückkosten und Verlust an Wettbewerbsfähigkeit.",
-    "Die EU-„Wachstumsstrategie“ (Fiskalpakt + Strukturreformen) hält Hall für verfehlt: Gemischte Marktwirtschaften lassen sich nicht einfach in koordinierte umwandeln, und Sparzwang würgt die Nachfrage ab.",
-    "Auch die Wirtschaftsdoktrinen spiegeln die Spielarten: Deutschland denkt ordoliberal-regelorientiert, Frankreich dirigistisch. Halls Fazit: Die EU muss unterschiedliche Spielarten anerkennen und Risiken gemeinsam tragen, statt allen ein Modell aufzuzwingen."
+    "Aufholen, aber kein Gleichstand: Die ostdeutsche Produktivität stieg von 45 % (1991) auf 82 % (2017) des Westniveaus – die Lücke ist um rund zwei Drittel kleiner, die Konvergenz kommt seit den 2000ern aber nur noch „in Trippelschritten“ voran. Medianlohn Ost: 81,0 % des Bundesdurchschnitts.",
+    "Hauptgründe: fehlende Großunternehmen und Konzernzentralen (Top 500: 464 West, 36 Ost) – aber auch gleich große Betriebe sind im Osten mindestens 20 % weniger produktiv. Wurzeln reichen in die DDR-Planwirtschaft (zerstörter Mittelstand, Kombinate) und den Umbruch 1990 (1:1-Umstellung, Treuhand).",
+    "Fortschritte: kein genereller Kapitalmangel mehr, Unterbeschäftigung gesunken, Transferabhängigkeit stark gesunken, Ost-West-Abwanderung zum Stillstand gekommen.",
+    "Neues Kernproblem sind Fachkräfte: Die Erwerbsfähigenzahl sinkt bis 2060 im Osten etwa doppelt so stark wie im Westen; der Osten profitiert kaum von EU- und Blue-Card-Zuwanderung, verliert seinen Akademikervorsprung und hat viele Schulabbrecher.",
+    "Das Bild ist vielschichtiger als „Ost gegen West“: Es gibt auch Süd-Nord- und Stadt-Land-Gefälle; im EU-Vergleich steht Ostdeutschland gut da, wächst aber langsamer als die Visegrád-Staaten."
   ],
   "erklaerung": [
     {
-      "titel": "Ausgangslage: Die Eurokrise",
-      "folien": "S. 245–246",
-      "text": "Die 2008 einsetzende Schuldenkrise wurde in Europa zur **Krise der WWU** – laut Hall die größte Herausforderung der EU seit den Römischen Verträgen (1958). Die EZB konnte die Vertrauenskrise 2010 eindämmen, die Krise selbst nicht; im Süden bleibt die Arbeitslosigkeit sehr hoch.\n• Ursachen: ein Jahrzehnt zu großzügiger Kreditvergabe, Bankenkrise; Fehler einzelner Staaten (Griechenland: Defizite; Irland, Spanien: überhitzter Wohnungsmarkt).\n• Halls These: Den Verlauf bestimmten die **unterschiedlichen nationalen Ausprägungen des Kapitalismus**, vor allem der Gegensatz Nord- vs. Südeuropa."
+      "titel": "Deutschland im internationalen Vergleich",
+      "folien": "S. 6–8, Abb. 1–3",
+      "text": "• Euphorie wich rasch der Ernüchterung: Zusammenbruch der Wirtschaftsstrukturen, millionenfacher Verlust von Arbeitsplätzen im Osten.\n• Die Vereinigung **dämpfte das Trendwachstum**: Staatseinnahmenquote 43 % (West vor der Vereinigung) → 48 % Mitte der 1990er (Ausgabenquote 45 % → 51 %).\n• Wettbewerbsfähigkeit sank: D-Mark-Aufwertung (nominal effektiv 17 %, 1989–1995), **Lohnumstellung 1:1**, hohe Lohnzuwächse (Arbeitnehmerentgelt Ost 1991: 49 %, 1995: 72 % des Westniveaus). Exporte sanken, Leistungsbilanz drehte ins Minus.\n• Seit Mitte der 2000er (oft mit den Arbeitsmarktreformen 2003–2005 erklärt) ist die Schwächephase überwunden; starke Internationalisierung.\n• Bilanz: Position in den G7 behauptet, Abstand zu den **USA größer** (Digitalwirtschaft)."
     },
     {
-      "titel": "Koordinierte, gemischte und liberale Marktwirtschaften",
-      "folien": "S. 246",
-      "text": "| | Koordiniert (Norden) | Gemischt (Süden) | Liberal |\n|---|---|---|---|\n| Länder | **Deutschland**, Niederlande, Belgien, Finnland, Österreich | Griechenland, Spanien, Portugal, Italien | Irland (Sonderfall), angelsächsische Länder |\n| Löhne | weitgehende Lohnabstimmung | kaum koordinierbar (mächtige, zerstrittene Gewerkschaften) | Koordination über wettbewerbsintensive Märkte |\n| Ausbildung | hoch entwickelte Berufsausbildung, F&E, Innovation | wenig gemeinsame Ausbildung, mehr Geringqualifizierte | – |\n| Wettbewerb über | Qualität und Preis | Niedriglöhne | – |\n\nLänderbesonderheiten: Griechenland – Klientelpolitik, hohe Defizite; Spanien/Italien – stagnierende Produktivität; Portugal/Spanien – Kreditengpässe; Irland – Banken übernahmen sich im Bauboom."
+      "titel": "Produktivität: West-Ost-Gefälle bleibt dominant",
+      "folien": "S. 8–10, Abb. 4–7",
+      "text": "• Produktivität (BIP je Erwerbstätigen) Ost: **45 % (1991) → 82 % (2017)**; bis 2003 schnelles Aufholen, danach „Trippelschritte“. Kein ostdeutsches Flächenland erreicht das **Saarland**.\n• Süd-Nord-Schere öffnet sich, ist aber viel kleiner als der West-Ost-Abstand.\n• Große Unternehmen: je 0,4 % in Ost und West (2 341 bzw. 12 289), aber westdeutsche viel größer; Konzernzentralen der Top 500 (2016): **464 West, 36 Ost**.\n• „Auf die bloße Größe kommt es nicht an“: Auch gegenüber gleich großen West-Betrieben liegt die Lücke in **keiner Größenklasse unter 20 %**.\n• Stadt-Land: Der ländliche Raum im Osten liegt näher am westdeutschen ländlichen Raum als die ostdeutschen Städte an den westdeutschen."
     },
     {
-      "titel": "Zwei Wachstumsstrategien",
-      "folien": "S. 246–247, Tab. 1",
-      "text": "Die Organisationsstruktur einer Volkswirtschaft ist **nicht ohne Weiteres veränderbar**; die Politik muss ihre Strategien daran anpassen.\n• **Norden – exportorientiert:** koordinierte Lohnpolitik bremst Lohnstückkosten, Ausbildung fördert Qualität und schrittweise Innovation; dazu passt eine gemäßigte Wirtschaftspolitik.\n• **Süden – nachfrageinduziert:** Ankurbelung der Binnennachfrage, eingreifende Makropolitik; Inflation wurde vor der WWU durch **Abwertungen** ausgeglichen (Lira nach 1979 in sechs Jahren etwa –25 %).\n\n| Land (2007) | Ausfuhren in % des BIP | Handelsüberschuss in % des BIP |\n|---|---|---|\n| Deutschland | 46 | 6 |\n| Niederlande | 73 | 8 |\n| Frankreich | 27 | –1 |\n| Griechenland | 23 | –11 |\n| Italien | 29 | 0 |\n| Portugal | 31 | –9 |\n| Spanien | 26 | –6 |"
+      "titel": "Europa-Vergleich und Löhne",
+      "folien": "S. 10–11, Abb. 8–12",
+      "text": "• Ostdeutschland liegt beim BIP je Einwohner vor den meisten Regionen Mittel- und Osteuropas, wächst aber seit 2000 langsamer als die **Visegrád-Staaten**; Tschechien ist schon sehr nah.\n• Regionale Disparitäten in Deutschland sind in den 2000ern gesunken.\n\n| Medianlohn (% des Bundesdurchschnitts) | Wert |\n|---|---|\n| Ostdeutschland / Berlin | 81,0 % / 97,4 % |\n| Ingolstadt und Erlangen | 144,4 % |\n| Cloppenburg (niedrigster West-Kreis) | 81,3 % |\n| Görlitz bis Jena | 68,0 % bis 95,5 % |\n\nGründe: geringere Produktivität und Branchenstruktur (Verarbeitendes Gewerbe: 28,4 % der Vollzeitbeschäftigten im Westen, 21,0 % im Osten)."
     },
     {
-      "titel": "Die Folgen der Währungsunion",
-      "folien": "S. 247–248",
-      "text": "**Norden:** Partner können nicht mehr abwerten; Euro nach außen günstig; durch Lohnzurückhaltung häuft z. B. Deutschland hohe Zahlungsbilanzüberschüsse gegenüber dem Euroraum an.\n**Süden:** Nachfragestrategie nicht mehr tragfähig; sinkende Kapitalkosten, Banken des Nordens lenken Überschüsse als billige Kredite in den Süden → Boom, Inflation, steigende Lohnstückkosten, schrumpfende Leistungsbilanz.\n\nDie **EZB** war „weitgehend ohnmächtig“: Höhere Zinsen hätten den Norden in den Abschwung getrieben. Als die US-Blase platzte, zogen sich Anleger aus Südeuropa zurück."
+      "titel": "Arbeitsmarkt, Kapital, Förderung",
+      "folien": "S. 11–13, Abb. 13–16",
+      "text": "• **Dienstleistungen = wichtigster Jobmotor**; 1991–2005 glichen sie im Osten die Jobverluste nicht aus, danach wuchs die Beschäftigung (fast sechsmal so stark wie in der Industrie).\n• **Unterbeschäftigung** Ost 15,6 % (2011) → 10,4 % (2017), West 8,5 % → 7,2 %; deutliches Süd-Nord-Gefälle.\n• **Sachkapital:** 2015 fast neun Zehntel des Westniveaus je Erwerbstätigen; Kapitalkoeffizient im Osten sogar höher → auch die Kapitalproduktivität ist niedriger; kein genereller Kapitalmangel.\n• **Regionalförderung:** 1991–2017 rund 42 Mrd. Euro für ostdeutsche Betriebe; positive Effekte auf Beschäftigung und Investitionen, aber keine höhere Produktivität."
     },
     {
-      "titel": "Drei Krisen und die EU-„Wachstumsstrategie“",
-      "folien": "S. 248–249",
-      "text": "Drei Krisen: **Vertrauenskrise** (abgeebbt durch Draghis Zusage im Juli 2012), **Finanzsystemkrise** (Bankenunion noch „embryonal“), **Wachstumskrise** (hält an, droht „kontinentaler Dualismus“).\n\nEU-Strategie: **Fiskalpakt** (März 2012, ausgeglichener Haushalt) und **strukturelle Reformen** (Privatisierung, Deregulierung). Aus VoC-Sicht *„erscheint diese Strategie jedoch zutiefst verfehlt“*:\n• *„Gemischte Marktwirtschaften lassen sich nicht einfach in koordinierte Marktwirtschaften umwandeln.“*\n• Zielt man auf liberale Marktwirtschaften, passt der Haushaltsausgleich nicht, da diese oft über Binnennachfrage wachsen.\n• Sparen drückt Nachfrage und BIP; Schuldenquoten sinken kaum."
+      "titel": "Bevölkerung und Wanderung",
+      "folien": "S. 13–14, Abb. 17–20",
+      "text": "| Entwicklung | Zahlen laut Text |\n|---|---|\n| Ost-West-Abwanderung | 1989–2015 netto 1,9 Mio., mehr als die Hälfte 1989–1992; seit 2012 fast ausgeglichen |\n| Geburten | Osten 1990–2015 durchgehend Geburtendefizit |\n| Einwohner 1990–2015 | West +6,6 Mio., Ost (mit Berlin) −2,1 Mio.; seit 2013 wächst der Osten wieder |\n| Ländlicher Raum Ost | verliert seit 1999 ununterbrochen Einwohner |\n| Erwerbsfähige bis 2060 | Ost-Flächenländer fast zwei Fünftel weniger, West knapp ein Fünftel |"
     },
     {
-      "titel": "Alternativen und ein Mittelweg",
-      "folien": "S. 249–250",
-      "text": "| Option | Einschätzung |\n|---|---|\n| Euro-Austritt des Südens | hoher Symbolwert des Euro, enorme kurzfristige Kosten; auch der Norden will den Euro halten |\n| Volle Fiskalunion | bräuchte demokratische Reformen, es fehlt ein europäischer Demos |\n| Aktueller Kurs | ökonomisch ineffizient, politisch destabilisierend |\n| **Halls Mittelweg** | Strukturreformen plus investitionsfördernde Nachfragestärkung, Lockerung der Fiskalregeln, Schuldenstreckung, Investitionen des Nordens im Süden |\n\nHindernisse sind politisch (Mezzogiorno, West-Ost-Transfers). *„Nationale Interessen sind jedoch keine Naturereignisse, sondern entspringen unserer Vorstellung von den Vorgängen in der Welt.“*"
+      "titel": "Zuwanderung und Fachkräfte",
+      "folien": "S. 14–17, Abb. 21–28",
+      "text": "• EU-Wanderungsgewinne 2010–2015: 1,5 Mio. (18,5 je 1 000 Einwohner); ostdeutsche Flächenländer nicht einmal halb so viel. **Blaue Karte** 2017: 49 je 100 000 Erwerbstätige, Berlin dreimal so viel.\n• „**Teufelskreis**“: Migranten ziehen zu bestehenden Netzwerken; im Osten hat nicht einmal jeder zehnte Einwohner Migrationshintergrund. Das IWH fordert, *„Erscheinungen von Fremdenfeindlichkeit konsequent entgegenzuwirken und Weltoffenheit zu zeigen“*.\n• **Fachkräfte als neuer Flaschenhals:** Nichtbesetzungsquote 2017 bundesweit beim 1,8-Fachen von 2007, im Osten mehr als verdoppelt (jede dritte Stelle unbesetzt).\n• Akademikervorsprung des Ostens außer in Berlin verloren; Schulabbrecherquote (Bund 5,7 %) in 68 von 77 ostdeutschen Kreisen darüber."
     },
     {
-      "titel": "Wirtschaftsdoktrinen: Deutschland vs. Frankreich",
-      "folien": "S. 250–251",
-      "text": "| | Deutschland | Frankreich (und Teile Südeuropas) |\n|---|---|---|\n| Prägung | Freiburger Schule/Ordoliberalismus: Geldwertstabilität, ordnungspolitische Prinzipien | dirigistische Tradition (Keynesianismus der 1950er, Planung), jakobinisches Staatsverständnis |\n| Rolle des Staates | setzt nur den Rahmen („soziale Marktwirtschaft“) | Staat als alleiniger Hüter des Gemeinwohls |\n| Krisendiagnose | Regelbruch (Stabilitäts- und Wachstumspakt) | zu wenig aktive Wachstumspolitik |\n| Lösung | strengere Haushaltsregeln | Lockerung der Austerität, interventionistische EU-Wachstumsstrategie |\n\n*„Die Politiker der einzelnen EU-Länder operieren nicht nur innerhalb unterschiedlicher Spielarten des Kapitalismus, sondern haben auch sehr unterschiedliche Vorstellungen vom Kapitalismus als solchem“*."
+      "titel": "Der lange Schatten der DDR und der Umbruch",
+      "folien": "S. 17–19 (Kasten)",
+      "text": "| DDR-Erbe | Umbruch 1990 ff. |\n|---|---|\n| rund 36 000 Betriebe in den Westen abgewandert; 1972 über 11 100 zusätzliche volkseigene Betriebe durch Zwangsverstaatlichung | Umtausch 1:1 für Löhne = Aufwertung um mehrere hundert Prozent; Ostmärkte brechen weg |\n| Kombinate (Ø rund 21 300 Beschäftigte), zu große Wertschöpfungstiefe, kein Wettbewerb, veraltete Anlagen | Juni 1990: nur ca. 40 % der Betriebe rentabel erwartet; Treuhand: weniger als 10 % sofort privatisierbar |\n| Mittelstand weitgehend zerstört | Treuhand Ende 1994: 12 354 Unternehmen, 8 444 privatisiert, 3 718 stillgelegt |\n\nKombinate hätten keine Konzernzentralen werden können; Langfristfolgen der Treuhand sind laut IWH noch nicht hinreichend untersucht."
     },
     {
-      "titel": "Halls Schlussfolgerungen",
-      "folien": "S. 251",
-      "text": "• Wachstum kehrt erst zurück, wenn die Politik **unterschiedliche Spielarten anerkennt** und vom Süden nicht die Nachahmung des Nordens verlangt.\n• Vorbild: Die Nachkriegsordnung schuf Institutionen, die mit verschiedenen Modellen vereinbar waren.\n• Mindestanforderung: **Risiken gemeinsam tragen**. *„Der Versuch, Ländern mit höchst unterschiedlichen Wirtschaftsordnungen eine einheitliche Wirtschaftspolitik aufzuzwingen, wäre dagegen ein Rezept für mittelmäßige Wirtschaftsleistung und endlosen politischen Konflikt.“*"
+      "titel": "Forschung, Export, Transfers",
+      "folien": "S. 17–22, Abb. 29–35",
+      "text": "• **FuE** 2015: Unternehmen im Westen über 56 Mrd., im Osten unter 5 Mrd. Euro (Elffache) – wegen der großen Unternehmen; keine Exzellenzcluster in Brandenburg, Mecklenburg-Vorpommern, Sachsen-Anhalt.\n• **Export:** Exportanteil der Ost-Industrie ein Viertel unter dem Durchschnitt.\n• **Transfers:** Lücke zwischen Verbrauch und Produktion bis Mitte der 1990er ca. 6 % des westdeutschen BIP, 2015 nur noch etwas über 1 % (v. a. Pendlereinkommen, Rentenversicherung). Steuerdeckungsquote: Ost-Flächenländer auf Platz 9–13.\n• **Kommunen:** Infrastrukturinvestitionen müssen die künftige Einwohnerentwicklung vorwegnehmen."
+    },
+    {
+      "titel": "Zehn Thesen des IWH",
+      "folien": "S. 23–25",
+      "text": "• I Finanzmärkte für effiziente Ressourcenallokation\n• II Headquarters-Lücke durch Wachstum bestehender Mittelständler mildern\n• III Lücke nicht nur wegen fehlender Großbetriebe – keine zusätzlichen Subventionen gegen Effizienzdruck\n• IV Dienstleistungen als Wachstumsmotor\n• V Öffentliche Wissenschaftseinrichtungen ausbauen\n• VI Attraktiver für qualifizierte Zuwanderung werden\n• VII Mehr in frühkindliche und schulische Bildung investieren\n• VIII Städte stärken\n• IX Infrastruktur an Einwohnerentwicklung ausrichten\n• X Förderung an Produktivität statt Arbeitsplätze binden: *„Produktivitätssteigerung das Gebot der Stunde“*"
     },
     {
       "titel": "Antwort auf die Leitfrage",
-      "text": "| Frage | Antwort nach Hall |\n|---|---|\n| Welcher Typ? | **koordinierte Marktwirtschaft**: Lohnabstimmung, Berufsausbildung, starke Verbände und Betriebsräte, exportorientiertes Wachstum (2007: Exporte 46 %, Überschuss 6 % des BIP) |\n| Wirkung in der WWU | Der Euro begünstigte das deutsche Exportmodell; deutsche Überschüsse flossen als billige Kredite in den Süden – ein Baustein der Krise |\n| Wirkung in der Krisenpolitik | Die ordoliberal-regelorientierte deutsche Doktrin prägt Fiskalpakt, Strukturreformen und Austerität; Gegenpol ist die französisch-dirigistische Sicht. Hall hält es für falsch, dem Süden das deutsche Modell aufzuzwingen |"
+      "text": "| Bereich | Erreicht | Offen / Probleme |\n|---|---|---|\n| Wirtschaft gesamt | Schwächephase überwunden, internationalisiert | Abstand zu den USA gewachsen |\n| Produktivität, Löhne | Lücke um rund zwei Drittel verringert (82 %) | Konvergenz stockt; Löhne Ost ca. 81 % |\n| Arbeitsmarkt, Kapital | Unterbeschäftigung gesunken; kein genereller Kapitalmangel | Fachkräftemangel; Förderung steigert Produktivität nicht |\n| Unternehmen | Mittelstand trägt mehr zur Forschung bei | kaum Konzernzentralen, wenig FuE und Export |\n| Gesellschaft (soweit im Text) | Abwanderung gestoppt, Bevölkerungswachstum seit 2013, weniger Transferabhängigkeit | Alterung, ländliche Schrumpfung, wenig Zuwanderung, Bildungsprobleme, Fremdenfeindlichkeit |\n\nGesamturteil: „Erfolgsgeschichte“ hängt vom Maßstab ab – deutliche Annäherung, aber die Bruchkante verläuft weiterhin oft entlang der alten Grenze, ergänzt durch Süd-Nord- und Stadt-Land-Unterschiede."
     }
   ],
   "definitionen": [
     {
-      "begriff": "Koordinierte Marktwirtschaft",
-      "wortlaut": "nordeuropäischen „koordinierten Marktwirtschaften“, gekennzeichnet durch exportbasierte Wachstumsmodelle, die auf weitgehender Lohnabstimmung, hoch entwickelten Berufsausbildungssystemen, forschungs- und entwicklungsfreundlichen Unternehmensbeziehungen sowie innovations- und qualitätsfördernden Arbeitsbeziehungen innerhalb der Unternehmen aufbauen",
-      "erklaerung": "Typ, zu dem Deutschland gehört: Wirtschaft wird über Verbände, Lohnabstimmung und gemeinsame Ausbildung koordiniert; Wachstum über Export.",
-      "folie": "S. 246"
+      "begriff": "Unterbeschäftigungsquote",
+      "wortlaut": "Prozentualer Anteil der Personen, die arbeitslos sind oder sich in arbeitsmarktpolitischen Maßnahmen oder in einem Sonderstatus befinden (insbesondere kurzfristig arbeitsunfähige Personen), an der Summe aus allen zivilen Erwerbspersonen, Personen in arbeitsmarktpolitischen Maßnahmen und Personen in einem Sonderstatus.",
+      "erklaerung": "Breiter als die Arbeitslosenquote, weil sie auch Menschen in Fördermaßnahmen erfasst – zeigt besser das Defizit an regulärer Beschäftigung.",
+      "folie": "S. 70 (Glossar), vgl. S. 12"
     },
     {
-      "begriff": "Gemischte Marktwirtschaft",
-      "wortlaut": "Von periodischen „Sozialpakten” abgesehen, lassen sich Lohnverhandlungen in diesen Systemen aufgrund der Macht und Zerstrittenheit der Gewerkschaften, die um Gefolgschaft und Verhandlungsmacht konkurrieren, nur schwer koordinieren",
-      "erklaerung": "Südeuropäischer Typ (Griechenland, Spanien, Portugal, Italien): wenig Koordination, mehr Geringqualifizierte, Wettbewerb über Niedriglöhne, früher Abwertungen.",
-      "folie": "S. 246"
+      "begriff": "Kapitalkoeffizient",
+      "wortlaut": "Relation des Kapitalstocks zum Bruttoinlandsprodukt.",
+      "erklaerung": "Ist er im Osten höher als im Westen, wird dort mit gleich viel Kapital weniger erwirtschaftet – die Kapitalproduktivität ist niedriger, ein Kapitalmangel liegt nicht vor.",
+      "folie": "S. 68 (Glossar), vgl. S. 12"
     },
     {
-      "begriff": "Liberale Marktwirtschaft",
-      "wortlaut": "Wirtschaften, in denen äußerst wettbewerbsintensive Märkte für die Koordinierung unternehmerischer Tätigkeit sorgen",
-      "erklaerung": "Angelsächsisches Modell; Koordination über Märkte statt über Verbände.",
-      "folie": "S. 248"
+      "begriff": "Steuerdeckungsquote",
+      "wortlaut": "Sie zeigt den Anteil der Ausgaben auf der Landesebene, der durch eigene Steuereinnahmen gedeckt wird.",
+      "erklaerung": "Maß für die finanzielle Eigenständigkeit eines Landes; im Osten niedriger wegen geringerer Produktivität und Einkommen.",
+      "folie": "S. 21"
     },
     {
-      "begriff": "Exportorientierte Wachstumsstrategie",
-      "wortlaut": "Strategien, die mehr Gewicht auf die Steigerung der Ausfuhren legen als auf die Ankurbelung der Inlandsnachfrage",
-      "erklaerung": "Strategie des Nordens: Lohnzurückhaltung und Qualität machen Exporte wettbewerbsfähig.",
-      "folie": "S. 246"
+      "begriff": "Nichtbesetzungsquote",
+      "wortlaut": "Nichtbesetzungsquote = Anteil der nicht besetzten offenen Stellen an den insgesamt angebotenen Stellen für Fachkräfte",
+      "erklaerung": "Indikator für Fachkräftemangel; 2017 blieb in Ost und West mehr als jede dritte Fachkräftestelle unbesetzt.",
+      "folie": "S. 56 (Abb. 25)"
     },
     {
-      "begriff": "Strukturelle Reformen",
-      "wortlaut": "Maßnahmen zur Intensivierung des Wettbewerbs auf den Arbeits- und Gütermärkten durch Privatisierung oder Deregulierung",
-      "erklaerung": "Zweite Säule der EU-Wachstumsstrategie neben dem Fiskalpakt; Hall hält sie in Verbindung mit Sparzwang für verfehlt.",
-      "folie": "S. 248"
+      "begriff": "Blaue Karte EU",
+      "wortlaut": "Hierbei handelt es sich um Genehmigungen für die Beschäftigung von Ausländern mit einem Hochschulabschluss, die zudem ein bestimmtes Mindesteinkommen erzielen müssen.",
+      "erklaerung": "Aufenthaltstitel für Hochqualifizierte aus Nicht-EU-Staaten; wird im Osten (außer Berlin) unterdurchschnittlich oft erteilt.",
+      "folie": "S. 15"
+    },
+    {
+      "begriff": "Export premium",
+      "wortlaut": "Die empirische Produktivitätsforschung zeigt, dass Exporteure sich im Vergleich zu Nicht-Exporteuren durch eine höhere Produktivität auszeichnen (export premium).",
+      "erklaerung": "Exportierende Unternehmen sind produktiver – ein Grund, warum die geringere Exportintensität im Osten zur Produktivitätslücke passt.",
+      "folie": "S. 21"
     }
   ],
   "aufgaben": [],
   "fragen": [],
   "pruefungshinweise": [],
   "offene_fragen": [
-    "Der zweite Text laut Kursplan, Brunnermeier u. a. (2018): Euro – Kampf der Wirtschaftskulturen, S. 78–107, liegt nicht vor – Zusammenfassung beruht nur auf Hall.",
-    "Tabelle 1 ordnet Frankreich den gemischten Marktwirtschaften zu und nennt Dänemark, Norwegen, Schweden und die Schweiz als koordinierte Marktwirtschaften; der Fließtext nennt als Beispiele nur Griechenland, Spanien, Portugal, Italien bzw. Deutschland, Niederlande, Belgien, Finnland, Österreich.",
-    "S. 247 spricht von der „Zugehörigkeit zur neu gegründeten EU“ – gemeint ist vermutlich die Währungsunion (möglicher Übersetzungsfehler)."
+    "Kursplan nennt „Leipzig Institut für Wirtschaftsforschung Halle (2021)“ – im Ordner liegt die IWH-Ausgabe von 2019 („Vereintes Land – drei Jahrzehnte nach dem Mauerfall“). Gibt es eine Ausgabe 2021 (z. B. zu 30 Jahren Einheit), die eigentlich gemeint ist?",
+    "Die Broschüre ist rein ökonomisch; der „gesellschaftliche“ Teil der Leitfrage (Einstellungen, Identität, Politik) wird kaum abgedeckt – im Seminar ergänzen?",
+    "PDF ist zweispaltig mit Randnotizen; der extrahierte Text war stark zerstückelt. Zahlen wurden über ein spaltengetreues Layout geprüft und nur übernommen, wenn eindeutig; Werte aus den Grafiken selbst (Achsen) wurden nicht abgelesen.",
+    "Kleine Abweichungen zwischen Text und Abbildungserläuterungen: Bevölkerungsrückgang Ost 2,1 Mio. im Text für 1990–2015, in Abb. 18 „1990 bis 2016“; Transferlücke im Text „etwas über ein Prozent“ (des westdeutschen BIP), in Abb. 33 „1,2 %“ bzw. Defizit „7 %“ relativ zum ostdeutschen BIP."
   ]
 }

@@ -13,6 +13,16 @@
       "datei": "mab004.2/Seminar_3_-_Fließkommazahlen_I/Blatt_3.pdf",
       "art": "Übungsblatt",
       "seiten": "1–3"
+    },
+    {
+      "datei": "mab004.2/Aufnahmen_Transkripte/2026-10-27_mab004.2_Teil1_Transkript.txt",
+      "art": "Aufnahme des Seminars (Teil 1, überwiegend Gruppenarbeit) – Nachbereitung, Transkript",
+      "seiten": "[00:16]–[54:40]"
+    },
+    {
+      "datei": "mab004.2/Aufnahmen_Transkripte/2026-10-27_mab004.2_Teil2_Transkript.txt",
+      "art": "Aufnahme des Seminars (Teil 2, Besprechung der Grundlagenaufgaben) – Nachbereitung, Transkript",
+      "seiten": "[00:00]–[36:07]"
     }
   ],
   "lernziele": [
@@ -114,6 +124,12 @@
       "folien": "Ü7 · VL 2 Folie 24",
       "text": "**Erinnerung Satz 2.1:** Beim Auf- und Abrunden ist der Fehler höchstens $1$, beim kaufmännischen Runden höchstens $\\frac{1}{2}$. In VL 2 wurde nur das Aufrunden bewiesen; hier folgen die anderen Fälle.\n\n**Grundidee aller Beweise:** Wir schreiben die Zahl als $a = a_0 + v$. $a_0$ ist der Ganzzahlanteil, $v$ der Nachkommateil, also $v \\in [0, 1)$ – $v$ liegt zwischen $0$ (einschließlich) und $1$ (ausschließlich). Beispiel: $7{,}3 = 7 + 0{,}3$.\n\n**Abrunden:** $b = \\lfloor a\\rfloor = a_0$. Dann\n$$\\epsilon_A = |a_0 - (a_0 + v)| = |-v| = v < 1. \\qquad \\blacksquare$$\nIn Worten: Beim Abrunden verliert man genau den Nachkommateil – und der ist immer kleiner als $1$.\n\n**Kaufmännisch:** $a = a_0 + v$ mit $v = 0{,}a_1a_2\\ldots$ Jetzt braucht man eine **Fallunterscheidung** – man betrachtet die zwei möglichen Fälle getrennt:\n- Fall $a_1 < 5$: Dann ist $v < 0{,}5$ und es wird abgerundet, $[a] = a_0$. Fehler: $\\epsilon_A = v < 0{,}5$. (Beispiel: $7{,}3$ → $7$, Fehler $0{,}3$.)\n- Fall $a_1 \\ge 5$: Dann ist $v \\ge 0{,}5$ und es wird aufgerundet, $[a] = a_0 + 1$. Fehler: $\\epsilon_A = (a_0 + 1) - (a_0 + v) = 1 - v \\le 0{,}5$. (Beispiel: $7{,}8$ → $8$, Fehler $0{,}2$.)\nIn beiden Fällen gilt also $\\epsilon_A \\le \\frac{1}{2}$. ∎\n\n**Kurz erklärt:** Alle drei Beweise zu Satz 2.1 haben dasselbe Gerüst: $a = a_0 + v$ hinschreiben, den gerundeten Wert einsetzen, $a_0$ fällt weg, übrig bleibt eine Abschätzung mit $v$. Beim kaufmännischen Runden braucht man zusätzlich eine Fallunterscheidung ($v < \\frac{1}{2}$ oder $v \\ge \\frac{1}{2}$), weil je nach Fall ab- oder aufgerundet wird.\n\n**So erkennst du es in der Klausur:** Bei Beweisen gibt es Punkte für Ansatz, Fallunterscheidung und Schluss. Schreib „Sei $a = a_0 + v$ mit $v \\in [0, 1)$“ immer als ersten Satz hin.",
       "beispiel": ""
+    },
+    {
+      "titel": "Nachbereitung (Aufnahme vom 27.10.2026)",
+      "nachbereitung": true,
+      "folien": "Aufnahme T1 [00:16]–[54:40], T2 [00:00]–[36:07]",
+      "text": "*Zusätzliche Nachbereitung aus der Aufnahme des Seminars (Teil 1 und 2). Die Inhalte oben und die Lösungen zu Blatt 3 bleiben unverändert. Zeitmarken: T1 = Teil 1, T2 = Teil 2.*\n\n### 1. So ist jedes Übungsblatt aufgebaut [T1 00:34–01:58]\n- **Grundlagenaufgaben** = Nachbereitung der **letzten Vorlesung**. Dafür die Folien holen – dort gibt es immer ein Beispiel, das man analog durcharbeiten kann [T2 13:45].\n- **Übungsaufgaben** = weiterführend, zur **Vorbereitung auf die Klausur**.\n- Wie man die Seminarzeit nutzt, darf man selbst entscheiden (nur Grundlagen im Seminar oder schon alles vorher). Die Grundlagenaufgaben werden im Seminar auf jeden Fall besprochen.\n\n### 2. Klausur: Was die Arbeitsanweisungen bedeuten [T2 00:18–00:50]\n- **„Geben Sie an“** → das Ergebnis reicht.\n- **„Ermitteln Sie nachvollziehbar“** bzw. **„Machen Sie die in der Definition genannten Variablen deutlich“** → mehr schreiben: die Variablen der Definition benennen und nah an der Definition bleiben.\n\nZiel der Dozentin: „Ich möchte, dass Sie lernen, **Definitionen zu lesen**“ [T2 01:47].\n\n### 3. Klausur: Welche Definition muss man auswendig können? [T2 03:35–03:53]\nDie Definitionen werden in der Klausur **mit abgedruckt** – man muss sie nicht auswendig lernen, aber **verstehen und anwenden** können.\n**Einzige Ausnahme:** die **Definition der Fließkommazahl** mit ihren **drei Eigenschaften** muss man auswendig können (wird jede Woche wiederholt) – und man muss die Gestalt einer Fließkommazahl erkennen.\n\n### 4. Runden – so will sie es aufgeschrieben haben [T2 01:34–10:27]\n- Erst die Variablen der Definition angeben: $a_0$ (Ganzzahlanteil), $a_1, a_2, a_3, \\ldots$ (Nachkommastellen).\n- **Abrunden:** $\\lfloor a \\rfloor = a_0$, mehr passiert nicht. **Aufrunden:** $\\lceil a \\rceil = a_0 + 1$.\n- **Kaufmännisch:** immer die **Bedingung dazuschreiben**, warum man so rundet, z. B. „$a_1 = 7 \\ge 5$, also $[a] = a_0 + 1$“ [T2 03:25].\n- **Runden auf $k$ Nachkommastellen:** Komma um $k$ Stellen nach rechts ($\\cdot 10^k$), mit der bekannten Regel auf eine ganze Zahl runden, dann Komma zurück ($\\cdot 10^{-k}$). Das sei „typisch Mathematiker“: Man nutzt eine vorhandene Definition einfach weiter, statt eine neue zu bauen [T2 08:33–09:10].\n- Der Dezimalwert hilft, sich die Größenordnung vorzustellen und zu beurteilen, ob eine Näherung gut ist [T1 54:27].\n\n**Kurz erklärt:** Bei Rundungsaufgaben zählt der Weg über die Definition, nicht nur das Ergebnis.\n\n### 5. Ist das eine Fließkommazahl? Drei Schritte prüfen [T2 14:25–19:19]\n1. Die Mantisse liegt zwischen 1 und der Basis (bei Basis 10: $1 \\le |m| < 10$).\n2. Die Mantisse hat **höchstens** $l$ Stellen – „maximal“, nicht „genau“. Weniger sind erlaubt, wie bei einem Taschenrechner mit 10 Stellen, bei dem man nicht jedes Mal 10 Stellen eingeben muss [T1 34:27–34:52].\n3. Der Betrag des Exponenten ist **echt kleiner** als die Exponentenschranke – **gleich ist verboten** [T2 17:02].\n\nBeispiel: $9{,}222 \\cdot 10^4$ gehört **nicht** zu $\\mathcal{F}_{10}(4,4)$, weil $|4| < 4$ falsch ist.\n\n**Prüfungsfalle:** „echt kleiner“ beim Exponenten – $e = u$ ist schon zu groß.\n\n### 6. Zwei offene Fragen geklärt [T2 21:03–23:52]\n- **$0{,}78 \\cdot 10^{12}$ ist keine Fließkommazahl**, weil die Mantisse kleiner als 1 ist – das widerspricht schon der ersten Eigenschaft. In der Klausur reicht eine kurze Begründung, gern **in Worten** („Die Mantisse liegt nicht zwischen 1 und 10“). Die drei Eigenschaften hinschreiben und prüfen funktioniert sehr gut [T2 22:06].\n- **$1{,}01 \\cdot 2^1$** ist zur **Basis 2** zu lesen und gehört zu $\\mathcal{F}_2(12, 100)$. $3{,}75 \\cdot 10^5$ gehört nicht dazu, weil dort die Basis 10 ist.\n\n### 7. Eine Zahl als Fließkommazahl angeben [T2 25:27–31:50]\nSo geht auch ein digitales Gerät vor:\n1. **Normieren:** Mantisse zwischen 1 und 10 bringen.\n2. **Runden** auf höchstens $l$ Stellen – immer **vom Original aus**, nicht von einem Zwischenergebnis [T2 29:02].\n3. Mit dem **Exponenten** die ursprüngliche Größe wiederherstellen.\n\nPasst der nötige Exponent nicht in die Schranke, ist die Zahl **nicht darstellbar**. Beispiel $a = 638{,}89\\ldots$ in $\\mathcal{F}_{10}(2,2)$: Man bräuchte $6{,}4 \\cdot 10^2$, aber $2$ ist nicht echt kleiner als $2$. Mit Exponent 1 wäre man viel zu weit vom Original weg – also nicht darstellbar [T2 27:14–28:04]. In $\\mathcal{F}_{10}(2,5)$ dagegen: $6{,}4 \\cdot 10^2$.\n\nUnsere Lösungen zu Blatt 3 stimmen mit der Besprechung überein.\n"
     }
   ],
   "definitionen": [
@@ -544,13 +560,119 @@
       "erklaerung": "Fallunterscheidung nach $a_1$.",
       "folie": "Ü7b",
       "pruefungsrelevant": true
+    },
+    {
+      "id": "n01",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Definition muss man laut Dozentin für die Klausur auswendig können?",
+      "optionen": [
+        "die Definition der Fließkommazahl mit ihren drei Eigenschaften",
+        "die Definition des absoluten und relativen Fehlers",
+        "die Definition des Rundens auf k Stellen",
+        "alle Definitionen aus der Vorlesung"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Alle anderen Definitionen werden in der Klausur mit abgedruckt; man muss sie verstehen und anwenden können [T2 03:35].",
+      "folie": "Aufnahme T2 03:35",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n02",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was wird bei welcher Arbeitsanweisung erwartet?",
+      "kategorien": [
+        "nur das Ergebnis",
+        "Weg über die Definition"
+      ],
+      "elemente": [
+        {
+          "text": "„Geben Sie an …“",
+          "kategorie": "nur das Ergebnis"
+        },
+        {
+          "text": "„Ermitteln Sie nachvollziehbar …“",
+          "kategorie": "Weg über die Definition"
+        },
+        {
+          "text": "„Machen Sie die in der Definition genannten Variablen deutlich.“",
+          "kategorie": "Weg über die Definition"
+        }
+      ],
+      "erklaerung": "Dozentin [T2 00:30–00:50].",
+      "folie": "Aufnahme T2 00:30",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n03",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Zahlen gehören zu $\\mathcal{F}_{10}(4, 4)$? (mehrere richtig möglich)",
+      "optionen": [
+        "$1{,}35 \\cdot 10^3$",
+        "$9{,}222 \\cdot 10^4$",
+        "$0{,}78 \\cdot 10^{2}$",
+        "$2{,}5 \\cdot 10^{-3}$"
+      ],
+      "richtig": [
+        0,
+        3
+      ],
+      "erklaerung": "$9{,}222 \\cdot 10^4$: $|4| < 4$ ist falsch (echt kleiner!). $0{,}78$ als Mantisse ist kleiner als 1 – keine Fließkommazahl. $2{,}5 \\cdot 10^{-3}$: $|-3| = 3 < 4$ ✓, 2 Stellen ✓.",
+      "folie": "Aufnahme T2 14:25–21:24",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n04",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Runden auf $k$ Nachkommastellen: Komma um $k$ Stellen nach [[rechts]] schieben, mit der bekannten Regel auf eine [[ganze Zahl]] runden, dann das Komma wieder [[zurück]] schieben.",
+      "erklaerung": "Def. 2.3: $b \\cdot 10^k = [a \\cdot 10^k]$ [T2 07:45–10:27].",
+      "folie": "Aufnahme T2 08:19",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n05",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Begründe, warum $a = 638{,}89\\ldots$ nicht als Fließkommazahl aus $\\mathcal{F}_{10}(2, 2)$ angegeben werden kann.",
+      "musterloesung": "Normiert ist $a = 6{,}3889\\ldots \\cdot 10^2$, auf 2 Stellen gerundet $6{,}4 \\cdot 10^2$. Der Exponent wäre $e = 2$, laut Definition muss aber $|e| < 2$ gelten (echt kleiner). Mit $e = 1$ wäre der Wert viel zu weit vom Original entfernt. Also ist $a$ in $\\mathcal{F}_{10}(2,2)$ nicht darstellbar.",
+      "bewertungspunkte": [
+        "normieren: Mantisse zwischen 1 und 10",
+        "auf 2 Stellen runden: 6,4",
+        "nötiger Exponent 2",
+        "Bedingung $|e| < 2$ verletzt (echt kleiner)",
+        "Fazit: nicht darstellbar"
+      ],
+      "punkte": 5,
+      "erklaerung": "Besprechung G3b [T2 25:27–28:04].",
+      "folie": "Aufnahme T2 27:14",
+      "pruefungsrelevant": true
     }
   ],
   "pruefungshinweise": [
-    "Die Übungsaufgaben auf Blatt 3 dienen laut Blatt der Nachbereitung von Vorlesung 2 und der Vorbereitung auf die Klausur – die Klausur orientiert sich sehr nah an den Übungsaufgaben (VL 1, Folie 6)."
+    "Die Übungsaufgaben auf Blatt 3 dienen laut Blatt der Nachbereitung von Vorlesung 2 und der Vorbereitung auf die Klausur – die Klausur orientiert sich sehr nah an den Übungsaufgaben (VL 1, Folie 6).",
+    "(Aufnahme) Klausur: Definitionen werden mit abgedruckt – nur die Definition der Fließkommazahl mit ihren drei Eigenschaften muss man auswendig können [T2 03:35].",
+    "(Aufnahme) Klausur-Operatoren: „Geben Sie an“ = nur Ergebnis; „Ermitteln Sie nachvollziehbar“ / „Variablen deutlich machen“ = Weg über die Definition mit benannten Variablen [T2 00:30–00:50].",
+    "(Aufnahme) Beim kaufmännischen Runden immer die Bedingung dazuschreiben (z. B. „$a_1 = 7 \\ge 5$“); bei Fließkommazahlen auf „höchstens $l$ Stellen“ und „Exponent echt kleiner als die Schranke“ achten [T2 03:25, 17:02]."
   ],
   "offene_fragen": [
     "G2c/Ü6: $\\lfloor z \\rfloor_4$ und $\\lceil z \\rceil_8$ (Ab- / Aufrunden auf $k$ Stellen) sind in der Vorlesung nicht definiert – ist die analoge Rechnung $b \\cdot 10^k = \\lfloor a \\cdot 10^k \\rfloor$ bzw. $\\lceil a \\cdot 10^k \\rceil$ gemeint?",
-    "G3a: $0{,}78 \\cdot 10^{12}$ ist keine gültige Fließkommazahl (Mantisse $< 1$) – soll man sie normieren? Ist $1{,}01 \\cdot 2^1$ als Dualzahl (Wert 2,5) oder dezimal (Wert 2,02) zu lesen?"
+    "G3a: $0{,}78 \\cdot 10^{12}$ ist keine gültige Fließkommazahl (Mantisse $< 1$) – soll man sie normieren? Ist $1{,}01 \\cdot 2^1$ als Dualzahl (Wert 2,5) oder dezimal (Wert 2,02) zu lesen?",
+    "(Aufnahme) Geklärt zu G3a: $0{,}78 \\cdot 10^{12}$ ist laut Dozentin keine Fließkommazahl (Mantisse < 1) – Begründung reicht, Normieren ist nicht verlangt; $1{,}01 \\cdot 2^1$ ist zur Basis 2 zu lesen [T2 21:03–23:52].",
+    "(Aufnahme) Zu G2c ($\\lfloor z \\rfloor_4$): In der Besprechung wurde analog zur Definition 2.3 gerechnet (Ergebnis 638,8937) – die Annahme in unserer Lösung passt [T2 11:54–12:09]."
   ]
 }

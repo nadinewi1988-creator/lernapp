@@ -10,34 +10,69 @@
   "stand": "geprueft",
   "hinweis": "Die Einführung ins Gesamtmodul (Inhalte, Ziele, Prüfung) fand im WS 26/27 nur in den Seminaren statt, nicht in der Vorlesung (Mail Prof. Zimmer, 13.10.2026). Die Folien T01 entsprechen weitgehend der VL-Einführung aus dem WS 25/26.",
   "quellen": [
-    { "datei": "ewb002.2/T01_ewb002.2_Einführungsveranstaltung.pdf", "art": "Folien", "seiten": "1–30" },
-    { "datei": "ewb002.2/T01_ewb002.2_Wintersemester_2026_2027_01_Fragebogen.pdf", "art": "Arbeitsmaterial", "seiten": "1–3" },
-    { "datei": "ewb002.2/T01_ewb002.2_Wintersemester_2026_2027_01_Leitfaden.pdf", "art": "Arbeitsmaterial", "seiten": "1" }
+    {
+      "datei": "ewb002.2/T01_ewb002.2_Einführungsveranstaltung.pdf",
+      "art": "Folien",
+      "seiten": "1–30"
+    },
+    {
+      "datei": "ewb002.2/T01_ewb002.2_Wintersemester_2026_2027_01_Fragebogen.pdf",
+      "art": "Arbeitsmaterial",
+      "seiten": "1–3"
+    },
+    {
+      "datei": "ewb002.2/T01_ewb002.2_Wintersemester_2026_2027_01_Leitfaden.pdf",
+      "art": "Arbeitsmaterial",
+      "seiten": "1"
+    }
   ],
-
   "lernziele": [
     {
       "text": "Du kannst einen standardisierten Fragebogen und ein Leitfadeninterview beschreiben und ihre Vor- und Nachteile vergleichen.",
-      "art": "abgeleitet", "quelle": "Folien 4–5, Fragebogen, Leitfaden",
-      "fragen": ["f01", "f02", "f03", "f04", "f05"], "erklaerung_abschnitt": "Zwei Interviewformen ausprobiert"
+      "art": "abgeleitet",
+      "quelle": "Folien 4–5, Fragebogen, Leitfaden",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03",
+        "f04",
+        "f05"
+      ],
+      "erklaerung_abschnitt": "Zwei Interviewformen ausprobiert"
     },
     {
       "text": "Du kannst erklären, warum das Problem die Wahl der Methode bestimmt (Diekmann).",
-      "art": "abgeleitet", "quelle": "Folie 6",
-      "fragen": ["f06", "f07", "f13"], "erklaerung_abschnitt": "Das Problem bestimmt die Methode"
+      "art": "abgeleitet",
+      "quelle": "Folie 6",
+      "fragen": [
+        "f06",
+        "f07",
+        "f13"
+      ],
+      "erklaerung_abschnitt": "Das Problem bestimmt die Methode"
     },
     {
       "text": "Du kannst begründen, wozu man Methodenlehre braucht, und die Themen und Ziele des Moduls nennen.",
-      "art": "abgeleitet", "quelle": "Folien 7–10",
-      "fragen": ["f08", "f09", "f10"], "erklaerung_abschnitt": "Wozu Methodenlehre? · Themen und Ziele des Moduls"
+      "art": "abgeleitet",
+      "quelle": "Folien 7–10",
+      "fragen": [
+        "f08",
+        "f09",
+        "f10"
+      ],
+      "erklaerung_abschnitt": "Wozu Methodenlehre? · Themen und Ziele des Moduls"
     },
     {
       "text": "Du kennst den Aufbau des Moduls (Vorlesung – Literatur – Seminar) und die Eckdaten der Modulabschlussprüfung.",
-      "art": "abgeleitet", "quelle": "Folien 14–21",
-      "fragen": ["f11", "f12"], "erklaerung_abschnitt": "So ist das Modul aufgebaut · Modulabschlussprüfung"
+      "art": "abgeleitet",
+      "quelle": "Folien 14–21",
+      "fragen": [
+        "f11",
+        "f12"
+      ],
+      "erklaerung_abschnitt": "So ist das Modul aufgebaut · Modulabschlussprüfung"
     }
   ],
-
   "kurzfassung": [
     "Ein standardisierter Fragebogen gibt Fragen, Reihenfolge und Antworten fest vor; ein Leitfadeninterview gibt nur Themen mit Erzählaufforderungen vor und lässt freies Erzählen und Nachfragen zu.",
     "Keine Methode ist grundsätzlich besser: Nicht die Methode soll das Problem bestimmen, sondern das Problem die Auswahl der Methode (Diekmann 2008, S. 20).",
@@ -46,23 +81,22 @@
     "Lernrhythmus: Woche 1 Vorlesung plus kurze Texte mit Leitfragen, Woche 2 Anwendung im Seminar – die Seminarthemen sind um eine Woche verschoben.",
     "Klausur in Präsenz, überwiegend offene Fragen, Inhalte aus Vorlesung und Seminar, bestanden ab 50 %."
   ],
-
   "erklaerung": [
     {
       "titel": "Zwei Interviewformen ausprobiert",
-      "text": "Zum Kennenlernen haben sich je zwei Personen gegenseitig zum Studienstart interviewt – entweder mit dem **Fragebogen** oder mit dem **Leitfaden** (Folie 4). Beide behandeln dieselben vier Themen: Wohnsituation, Studienort, erste Veranstaltungen, Studienfinanzierung.\n\n| | Fragebogen | Leitfaden |\n| --- | --- | --- |\n| Anweisung | „Lesen Sie jede Frage und die dazugehörigen Antwortmöglichkeiten **wortwörtlich** vor. Es darf immer nur **eine Antwort** gegeben werden.“ | „Lesen Sie zu jedem Themenblock jeweils die Formulierung vor. Lassen Sie die Person dann **erzählen**. Sie dürfen aber **Nachfragen** stellen.“ |\n| Fragen | 12 feste Fragen in fester Reihenfolge | 4 Themenblöcke mit je einer Erzählaufforderung |\n| Antworten | vorgegebene Kästchen (z. B. zufrieden / eher zufrieden / weniger zufrieden / unzufrieden), eine offene Zahlenfrage | frei, in eigenen Worten |\n| Besonderheit | Filterführung: Frage 8 „Nein → weiter mit Frage 11“ | Nachfragen erlaubt |\n\n{{aufgabe a01}}\n\n**Reflexion (Folie 5):** Wie lief das Interview ab? Welche Vor- und Nachteile hat diese Art? Was kennzeichnet die beiden Formen?\n\n{{aufgabe a02}}",
+      "text": "Zum Kennenlernen haben sich je zwei Personen gegenseitig zum Studienstart interviewt – entweder mit dem **Fragebogen** oder mit dem **Leitfaden** (Folie 4). Beide behandeln dieselben vier Themen: Wohnsituation, Studienort, erste Veranstaltungen, Studienfinanzierung.\n\n| | Fragebogen | Leitfaden |\n| --- | --- | --- |\n| Anweisung | „Lesen Sie jede Frage und die dazugehörigen Antwortmöglichkeiten **wortwörtlich** vor. Es darf immer nur **eine Antwort** gegeben werden.“ | „Lesen Sie zu jedem Themenblock jeweils die Formulierung vor. Lassen Sie die Person dann **erzählen**. Sie dürfen aber **Nachfragen** stellen.“ |\n| Fragen | 12 feste Fragen in fester Reihenfolge | 4 Themenblöcke mit je einer Erzählaufforderung |\n| Antworten | vorgegebene Kästchen (z. B. zufrieden / eher zufrieden / weniger zufrieden / unzufrieden), eine offene Zahlenfrage | frei, in eigenen Worten |\n| Besonderheit | Filterführung: Frage 8 „Nein → weiter mit Frage 11“ | Nachfragen erlaubt |\n\n{{aufgabe a01}}\n\n**Reflexion (Folie 5):** Wie lief das Interview ab? Welche Vor- und Nachteile hat diese Art? Was kennzeichnet die beiden Formen?\n\n{{aufgabe a02}}\n\n**Kurz erklärt:** Die beiden Interviews zeigen den Grundunterschied der Methoden im ganzen Modul. Der **Fragebogen** ist **standardisiert**: alle bekommen dieselben Fragen und Antworten in derselben Reihenfolge. Dadurch kann man viele Antworten gut vergleichen und zählen – erfährt aber nichts, was nicht vorgesehen war. Der **Leitfaden** ist **offen**: die Person erzählt mit eigenen Worten, Nachfragen sind erlaubt. Dadurch erfährt man Gründe und Unerwartetes – die Antworten sind aber schwer zu vergleichen. Beispiel: Ein Fragebogen sagt dir, *wie viele* Studierende pendeln; ein Leitfadeninterview sagt dir, *wie* sich das Pendeln anfühlt.\n\n**Prüfungsfalle:** Nicht „Fragebogen = schlecht, Interview = gut“ (oder umgekehrt) schreiben – jede Form hat Vor- und Nachteile.",
       "beispiel": "Fragebogen, Frage 4: „Wie zufrieden bist Du mit Deiner aktuellen Wohnsituation?“ mit vier Kästchen. Leitfaden, Thema 1: „Kannst Du mir etwas über Deine aktuelle Wohnsituation erzählen?“",
       "folien": "4–5"
     },
     {
       "titel": "Das Problem bestimmt die Methode",
-      "text": "Folie 6 fragt: Sollte eines der beiden Instrumente **grundsätzlich bevorzugt** werden? Die Antwort gibt ein Zitat:\n\n„Ist es die Aufgabe der Sozialwissenschaften, wissenschaftliche (insbesondere in der Grundlagenforschung) oder praktische Probleme (insbesondere in der angewandten Forschung) zu lösen, dann sollte in der Regel **nicht die Methode das Problem, sondern umgekehrt das Problem die Auswahl der Methode bestimmen**. Diese Einstellung setzt aber voraus, dass sich Sozialforscher nicht ausschließlich auf eine Methode kaprizieren, sondern vielmehr die Kompetenz erwerben, mit den wichtigsten, heute gebräuchlichen methodischen Instrumenten umgehen zu können.“ (Diekmann 2008, S. 20)\n\nAlso: Erst die Fragestellung, dann die Methode. Und deshalb lernt man im Modul **mehrere** Methoden kennen.",
+      "text": "Folie 6 fragt: Sollte eines der beiden Instrumente **grundsätzlich bevorzugt** werden? Die Antwort gibt ein Zitat:\n\n„Ist es die Aufgabe der Sozialwissenschaften, wissenschaftliche (insbesondere in der Grundlagenforschung) oder praktische Probleme (insbesondere in der angewandten Forschung) zu lösen, dann sollte in der Regel **nicht die Methode das Problem, sondern umgekehrt das Problem die Auswahl der Methode bestimmen**. Diese Einstellung setzt aber voraus, dass sich Sozialforscher nicht ausschließlich auf eine Methode kaprizieren, sondern vielmehr die Kompetenz erwerben, mit den wichtigsten, heute gebräuchlichen methodischen Instrumenten umgehen zu können.“ (Diekmann 2008, S. 20)\n\nAlso: Erst die Fragestellung, dann die Methode. Und deshalb lernt man im Modul **mehrere** Methoden kennen.\n\n**Kurz erklärt:** Es gibt keine „beste“ Methode. Man fängt mit der Frage an, die man beantworten will, und wählt dann die Methode, die genau dazu passt. Will man wissen, wie häufig etwas ist, passt ein Fragebogen; will man verstehen, wie Menschen etwas erleben, passt ein Interview. Darum lernt man im Modul mehrere Methoden – sonst würde man jede Frage mit dem einen Werkzeug bearbeiten, das man kennt.\n\n**Typische Klausurfrage:** „Welche Methode würden Sie für diese Fragestellung wählen? Begründen Sie.“ – so beantwortest du sie: Methode nennen und begründen, *was die Fragestellung verlangt* (zählen und vergleichen → standardisiert; verstehen und entdecken → offen).",
       "beispiel": "Willst du wissen, *wie viele* Erstsemester in einer WG wohnen → Fragebogen. Willst du verstehen, *wie* Erstsemester den Umzug nach Vechta erleben → Leitfadeninterview.",
       "folien": "6"
     },
     {
       "titel": "Wozu Methodenlehre?",
-      "text": "Leitfragen des Moduls (Folie 7): **Was heißt Forschen? Was sind Forschungsmethoden? Wie geht (empirisch) Forschen?**\n\nAls Beispiel zeigt Folie 8 eine SPIEGEL-Schlagzeile zur OECD-Studie in 38 Mitgliedsländern: „Fast 1,7 Millionen junge Leute in Deutschland haben keine Ausbildung“.\n\n*Eigene Erklärung (auf der Folie steht nur die Schlagzeile):* Solche Zahlen begegnen dir ständig. Ob man ihnen trauen kann und was sie bedeuten, kannst du nur beurteilen, wenn du weißt, wie sie zustande kommen – wer befragt wurde, wie „keine Ausbildung“ gemessen wurde, womit verglichen wird.",
+      "text": "Leitfragen des Moduls (Folie 7): **Was heißt Forschen? Was sind Forschungsmethoden? Wie geht (empirisch) Forschen?**\n\nAls Beispiel zeigt Folie 8 eine SPIEGEL-Schlagzeile zur OECD-Studie in 38 Mitgliedsländern: „Fast 1,7 Millionen junge Leute in Deutschland haben keine Ausbildung“.\n\n*Eigene Erklärung (auf der Folie steht nur die Schlagzeile):* Solche Zahlen begegnen dir ständig. Ob man ihnen trauen kann und was sie bedeuten, kannst du nur beurteilen, wenn du weißt, wie sie zustande kommen – wer befragt wurde, wie „keine Ausbildung“ gemessen wurde, womit verglichen wird.\n\n**Kurz erklärt:** Methodenwissen braucht man nicht nur zum Selbst-Forschen, sondern auch, um Zahlen aus Studien und Medien **kritisch einzuordnen**. Als Lehrkraft begegnen dir ständig Ergebnisse (PISA, IGLU, Schlagzeilen). Ob eine Zahl aussagekräftig ist, hängt davon ab, wer befragt wurde, wie gemessen wurde und womit verglichen wird.",
       "folien": "7–8"
     },
     {
@@ -81,46 +115,77 @@
       "folien": "19–21"
     }
   ],
-
   "definitionen": [],
-
   "aufgaben": [
     {
-      "id": "a01", "art": "Aufgabe auf Folie",
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
       "text": "Bilden Sie Tandems, bei denen eine Person das Interview durchführt und die andere Person sich interviewen lässt. In Stud.IP sind für die Durchführung der Interviews zwei Dateien verfügbar. Nutzen Sie für Ihr Interview entweder den Fragebogen oder den Leitfaden.",
       "quelle": "Folie 4",
       "loesung": "Praktische Übung im Seminar – keine schriftliche Lösung.",
       "loesungsweg": "Fragebogen: jede Frage und alle Antwortmöglichkeiten wortwörtlich vorlesen, nur eine Antwort zulassen, Filterführung beachten. Leitfaden: Erzählaufforderung je Themenblock vorlesen, erzählen lassen, nachfragen.",
-      "frist": "", "im_kalender": false
+      "frist": "",
+      "im_kalender": false
     },
     {
-      "id": "a02", "art": "Aufgabe auf Folie",
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
       "text": "Interviewdurchführung: Wie lässt sich die Durchführung Ihres Interviews beschreiben? Gibt es Vorteile bei dieser Art der Interviewdurchführung? Gibt es Nachteile bei dieser Art der Interviewdurchführung? Vergleich der zwei verschiedenen Arten von Interviews: Welche Merkmale charakterisieren zusammenfassend die beiden Interviewformen?",
       "quelle": "Folie 5",
       "loesung": "*Selbst erarbeitet – auf den Folien steht keine Lösung.*\n\n**Fragebogen (standardisiert):** Fragen, Reihenfolge und Antwortmöglichkeiten sind festgelegt und werden wortwörtlich vorgelesen; nur eine Antwort ist erlaubt.\n• Vorteile: schnell, für alle gleich und dadurch **vergleichbar**, leicht auszuzählen, auch mit vielen Personen machbar\n• Nachteile: die befragte Person kann nichts Eigenes einbringen; passt keine Antwort, wird trotzdem eine angekreuzt; Unerwartetes bleibt verborgen\n\n**Leitfaden (offen, teilstrukturiert):** Nur Themen und Erzählaufforderungen sind vorgegeben; die Person erzählt frei, Nachfragen sind erlaubt.\n• Vorteile: ausführliche, persönliche Antworten, Gründe und Zusammenhänge werden sichtbar, Unerwartetes kann auftauchen\n• Nachteile: zeitaufwendiger, Antworten schwer vergleichbar, Auswertung aufwendig, Ergebnis hängt stärker von der interviewenden Person ab\n\n**Fazit:** Der Fragebogen eignet sich, um Häufigkeiten zu erfassen, der Leitfaden, um Sichtweisen zu verstehen. Keine Form ist grundsätzlich besser – das Problem bestimmt die Methode (Folie 6).",
       "loesungsweg": "Beide Anweisungstexte vergleichen (wortwörtlich vorlesen / eine Antwort vs. erzählen lassen / nachfragen), dann je Form fragen: Was ist festgelegt, was ist frei? Daraus Vor- und Nachteile ableiten und mit dem Diekmann-Zitat abschließen.",
-      "frist": "", "im_kalender": false
+      "frist": "",
+      "im_kalender": false
     }
   ],
-
   "fragen": [
     {
-      "id": "f01", "baustein": "vergleich", "format": "zuordnung", "niveau": "verstehen", "schwierigkeit": 1,
+      "id": "f01",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
       "frage": "Ordne die Merkmale der passenden Interviewform zu.",
-      "kategorien": ["Fragebogen", "Leitfaden"],
+      "kategorien": [
+        "Fragebogen",
+        "Leitfaden"
+      ],
       "elemente": [
-        { "text": "Jede Frage und alle Antwortmöglichkeiten werden wortwörtlich vorgelesen.", "kategorie": "Fragebogen" },
-        { "text": "Es darf immer nur eine Antwort gegeben werden.", "kategorie": "Fragebogen" },
-        { "text": "Die Person soll frei erzählen.", "kategorie": "Leitfaden" },
-        { "text": "Nachfragen sind erlaubt.", "kategorie": "Leitfaden" },
-        { "text": "Filterführung: „Nein → weiter mit Frage 11“", "kategorie": "Fragebogen" },
-        { "text": "Pro Themenblock eine Erzählaufforderung", "kategorie": "Leitfaden" }
+        {
+          "text": "Jede Frage und alle Antwortmöglichkeiten werden wortwörtlich vorgelesen.",
+          "kategorie": "Fragebogen"
+        },
+        {
+          "text": "Es darf immer nur eine Antwort gegeben werden.",
+          "kategorie": "Fragebogen"
+        },
+        {
+          "text": "Die Person soll frei erzählen.",
+          "kategorie": "Leitfaden"
+        },
+        {
+          "text": "Nachfragen sind erlaubt.",
+          "kategorie": "Leitfaden"
+        },
+        {
+          "text": "Filterführung: „Nein → weiter mit Frage 11“",
+          "kategorie": "Fragebogen"
+        },
+        {
+          "text": "Pro Themenblock eine Erzählaufforderung",
+          "kategorie": "Leitfaden"
+        }
       ],
       "erklaerung": "Der Fragebogen legt alles fest (standardisiert), der Leitfaden gibt nur einen Rahmen vor (offen).",
-      "folie": "4 · Fragebogen · Leitfaden", "pruefungsrelevant": false
+      "folie": "4 · Fragebogen · Leitfaden",
+      "pruefungsrelevant": false
     },
     {
-      "id": "f02", "baustein": "kernaussage", "format": "mc", "niveau": "verstehen", "schwierigkeit": 1,
+      "id": "f02",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
       "frage": "Welche Aussagen beschreiben Vorteile eines standardisierten Fragebogens? (mehrere richtig)",
       "optionen": [
         "Die Antworten aller Befragten sind gut vergleichbar.",
@@ -128,12 +193,21 @@
         "Befragte können unerwartete Gesichtspunkte ausführlich einbringen.",
         "Er lässt sich auch mit sehr vielen Personen durchführen."
       ],
-      "richtig": [0, 1, 3],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
       "erklaerung": "Feste Fragen und Antworten machen den Fragebogen vergleichbar, schnell auswertbar und für große Gruppen geeignet. Unerwartetes ausführlich einbringen geht gerade nicht – das ist eine Stärke des Leitfadens.",
-      "folie": "5 (eigene Lösung)", "pruefungsrelevant": false
+      "folie": "5 (eigene Lösung)",
+      "pruefungsrelevant": false
     },
     {
-      "id": "f03", "baustein": "kernaussage", "format": "mc", "niveau": "verstehen", "schwierigkeit": 1,
+      "id": "f03",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
       "frage": "Welche Aussagen beschreiben Nachteile eines Leitfadeninterviews? (mehrere richtig)",
       "optionen": [
         "Es braucht mehr Zeit als ein Fragebogen.",
@@ -141,12 +215,21 @@
         "Die befragte Person kann nicht erzählen, was ihr wichtig ist.",
         "Die Auswertung ist aufwendiger."
       ],
-      "richtig": [0, 1, 3],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
       "erklaerung": "Freies Erzählen kostet Zeit und erschwert Vergleich und Auswertung. Dass die Person nicht erzählen kann, trifft auf den Fragebogen zu, nicht auf den Leitfaden.",
-      "folie": "5 (eigene Lösung)", "pruefungsrelevant": false
+      "folie": "5 (eigene Lösung)",
+      "pruefungsrelevant": false
     },
     {
-      "id": "f04", "baustein": "aufgabe", "format": "offen", "niveau": "verstehen", "schwierigkeit": 2,
+      "id": "f04",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
       "frage": "Vergleiche den Fragebogen und den Leitfaden aus der ersten Sitzung: Beschreibe beide Interviewformen und nenne je zwei Vor- und Nachteile.",
       "musterloesung": "Fragebogen: Fragen, Reihenfolge und Antworten sind vorgegeben und werden wortwörtlich vorgelesen, nur eine Antwort ist erlaubt (standardisiert). Vorteile: vergleichbar, schnell und leicht auszuwerten, für viele Personen geeignet. Nachteile: keine eigenen Gesichtspunkte möglich, Unerwartetes bleibt verborgen. Leitfaden: Themenblöcke mit Erzählaufforderungen, die Person erzählt frei, Nachfragen sind erlaubt (offen). Vorteile: ausführliche, persönliche Antworten, Gründe und Unerwartetes werden sichtbar. Nachteile: zeitaufwendig, schwer vergleichbar, aufwendige Auswertung.",
       "bewertungspunkte": [
@@ -157,23 +240,38 @@
       ],
       "punkte": 4,
       "erklaerung": "Aufgabe a02 (Folie 5). Lösung selbst erarbeitet.",
-      "folie": "5", "pruefungsrelevant": false
+      "folie": "5",
+      "pruefungsrelevant": false
     },
     {
-      "id": "f05", "baustein": "kernaussage", "format": "frage", "niveau": "wissen", "schwierigkeit": 1,
+      "id": "f05",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
       "frage": "Welche vier Themen behandeln Fragebogen und Leitfaden der ersten Sitzung?",
       "antwort": "Wohnsituation, Studienort, Besuch der ersten Veranstaltungen und Studienfinanzierung.",
       "erklaerung": "Beide Instrumente erfragen dieselben Themen – nur auf unterschiedliche Weise.",
-      "folie": "Fragebogen · Leitfaden", "pruefungsrelevant": false
+      "folie": "Fragebogen · Leitfaden",
+      "pruefungsrelevant": false
     },
     {
-      "id": "f06", "baustein": "kernaussage", "format": "luecke", "niveau": "wissen", "schwierigkeit": 1,
+      "id": "f06",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
       "text": "Nach Diekmann sollte in der Regel nicht die [[Methode]] das Problem, sondern umgekehrt das [[Problem]] die Auswahl der Methode bestimmen.",
       "erklaerung": "Diekmann 2008, S. 20 (Folie 6).",
-      "folie": "6", "pruefungsrelevant": true
+      "folie": "6",
+      "pruefungsrelevant": true
     },
     {
-      "id": "f07", "baustein": "kernaussage", "format": "mc", "niveau": "verstehen", "schwierigkeit": 2,
+      "id": "f07",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
       "frage": "Welche Schlussfolgerungen ergeben sich aus dem Diekmann-Zitat auf Folie 6? (mehrere richtig)",
       "optionen": [
         "Ein Instrument sollte grundsätzlich bevorzugt werden.",
@@ -181,19 +279,32 @@
         "Sozialforschende sollten mit den wichtigsten gebräuchlichen Instrumenten umgehen können.",
         "Man sollte sich auf eine Methode spezialisieren und sie für alle Fragen einsetzen."
       ],
-      "richtig": [1, 2],
+      "richtig": [
+        1,
+        2
+      ],
       "erklaerung": "Das Problem bestimmt die Methode – deshalb braucht man Kompetenz in mehreren Methoden. Sich auf eine Methode zu „kaprizieren“, lehnt Diekmann ausdrücklich ab.",
-      "folie": "6", "pruefungsrelevant": true
+      "folie": "6",
+      "pruefungsrelevant": true
     },
     {
-      "id": "f08", "baustein": "kernaussage", "format": "frage", "niveau": "verstehen", "schwierigkeit": 2,
+      "id": "f08",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
       "frage": "Wozu braucht man Methodenlehre? Erkläre am Beispiel der Schlagzeile „Fast 1,7 Millionen junge Leute in Deutschland haben keine Ausbildung“.",
       "antwort": "Um wissenschaftliche Befunde einordnen und bewerten zu können: Man muss wissen, wie solche Zahlen zustande kommen – wer untersucht wurde, wie „keine Ausbildung“ gemessen wurde und womit verglichen wird. Außerdem braucht man Methoden, um selbst neue Erkenntnisse zu gewinnen.",
       "erklaerung": "Folie 8 zeigt nur die Schlagzeile; die Deutung ist eine eigene Erklärung.",
-      "folie": "8", "pruefungsrelevant": false
+      "folie": "8",
+      "pruefungsrelevant": false
     },
     {
-      "id": "f09", "baustein": "kernaussage", "format": "mc", "niveau": "wissen", "schwierigkeit": 1,
+      "id": "f09",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
       "frage": "Welche Ziele nennt die Einführung für das Modul ewb002? (mehrere richtig)",
       "optionen": [
         "Überblick über verschiedene Ansätze und Methoden der empirischen Bildungsforschung",
@@ -201,25 +312,56 @@
         "Voraussetzung für die weitere Methodenausbildung und den M.Ed. schaffen",
         "eine eigene Studie veröffentlichen"
       ],
-      "richtig": [0, 1, 2],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
       "erklaerung": "Folie 10. Eine eigene Veröffentlichung ist kein Ziel des Moduls.",
-      "folie": "10", "pruefungsrelevant": false
+      "folie": "10",
+      "pruefungsrelevant": false
     },
     {
-      "id": "f10", "baustein": "vergleich", "format": "zuordnung", "niveau": "wissen", "schwierigkeit": 2,
+      "id": "f10",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
       "frage": "Ordne die Fragen aus der Themenübersicht dem passenden Seminarthema zu.",
-      "kategorien": ["Literaturrecherche", "Messtheorie", "Gütekriterien", "Datenaufbereitung"],
+      "kategorien": [
+        "Literaturrecherche",
+        "Messtheorie",
+        "Gütekriterien",
+        "Datenaufbereitung"
+      ],
       "elemente": [
-        { "text": "Wie kann ich einen Überblick über wissenschaftliche Erkenntnisse gewinnen, die es schon gibt?", "kategorie": "Literaturrecherche" },
-        { "text": "Wie geht es wissenschaftlich, etwas zu messen bzw. zu erfassen?", "kategorie": "Messtheorie" },
-        { "text": "Wie kann ich die Qualität einer Untersuchung einschätzen?", "kategorie": "Gütekriterien" },
-        { "text": "Wie kann ich quantitative Daten aufbereiten und auswerten?", "kategorie": "Datenaufbereitung" }
+        {
+          "text": "Wie kann ich einen Überblick über wissenschaftliche Erkenntnisse gewinnen, die es schon gibt?",
+          "kategorie": "Literaturrecherche"
+        },
+        {
+          "text": "Wie geht es wissenschaftlich, etwas zu messen bzw. zu erfassen?",
+          "kategorie": "Messtheorie"
+        },
+        {
+          "text": "Wie kann ich die Qualität einer Untersuchung einschätzen?",
+          "kategorie": "Gütekriterien"
+        },
+        {
+          "text": "Wie kann ich quantitative Daten aufbereiten und auswerten?",
+          "kategorie": "Datenaufbereitung"
+        }
       ],
       "erklaerung": "Themenfragen von Folie 9, zugeordnet zum Verlaufsplan (Folie 14).",
-      "folie": "9, 14", "pruefungsrelevant": false
+      "folie": "9, 14",
+      "pruefungsrelevant": false
     },
     {
-      "id": "f11", "baustein": "kernaussage", "format": "mc", "niveau": "verstehen", "schwierigkeit": 1,
+      "id": "f11",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
       "frage": "Wie hängen Vorlesung, Literatur und Seminar im Modul zusammen? (mehrere richtig)",
       "optionen": [
         "In der Vorlesung werden Konzepte eingeführt.",
@@ -227,12 +369,21 @@
         "Das Seminar behandelt dasselbe Thema in derselben Woche wie die Vorlesung.",
         "Im Seminar wird angewendet und geübt, meist in Kleingruppen."
       ],
-      "richtig": [0, 1, 3],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
       "erklaerung": "Die Seminarthemen sind um eine Woche verschoben: erst Vorlesung und Texte, eine Woche später Anwendung im Seminar.",
-      "folie": "16–18", "pruefungsrelevant": false
+      "folie": "16–18",
+      "pruefungsrelevant": false
     },
     {
-      "id": "f12", "baustein": "kernaussage", "format": "mc", "niveau": "wissen", "schwierigkeit": 1,
+      "id": "f12",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
       "frage": "Welche Aussagen zur Modulabschlussprüfung ewb002 stimmen? (mehrere richtig)",
       "optionen": [
         "Es ist eine Klausur in Präsenz.",
@@ -240,12 +391,21 @@
         "Sie besteht überwiegend aus Multiple-Choice-Aufgaben.",
         "Geprüft werden Inhalte aus Vorlesung und Seminar."
       ],
-      "richtig": [0, 1, 3],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
       "erklaerung": "Laut Folie 20 überwiegt das offene Frage-/Antwort-Format – also kein Multiple Choice.",
-      "folie": "20", "pruefungsrelevant": true
+      "folie": "20",
+      "pruefungsrelevant": true
     },
     {
-      "id": "f13", "baustein": "transfer", "format": "offen", "niveau": "anwenden", "schwierigkeit": 2,
+      "id": "f13",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
       "frage": "Die Schulleitung möchte wissen, (1) wie viele Schülerinnen und Schüler der 7. Klassen das neue Ganztagsangebot nutzen und (2) warum einige es nicht nutzen. Welche Interviewform empfiehlst du jeweils? Begründe mit dem Grundsatz von Diekmann.",
       "musterloesung": "(1) Standardisierter Fragebogen: Gesucht ist eine Anzahl bzw. Häufigkeit bei vielen Personen; feste Antworten (z. B. ja/nein, wie oft) sind vergleichbar und schnell auszuzählen. (2) Leitfadeninterview: Gesucht sind Gründe und Sichtweisen, die man vorher nicht kennt; Erzählaufforderungen und Nachfragen bringen auch unerwartete Gründe ans Licht. Begründung: Nicht die Methode bestimmt das Problem, sondern das Problem die Auswahl der Methode (Diekmann 2008, S. 20).",
       "bewertungspunkte": [
@@ -255,10 +415,10 @@
       ],
       "punkte": 3,
       "erklaerung": "Transferfrage (eigene Ergänzung) im offenen Klausurformat.",
-      "folie": "4–6", "pruefungsrelevant": true
+      "folie": "4–6",
+      "pruefungsrelevant": true
     }
   ],
-
   "pruefungshinweise": [
     "Klausur in Präsenz am 04.02.2027 (Zweittermin 18.03.2027), jeweils voraussichtlich 12 Uhr; Inhalte aus Vorlesung und Seminar; bestanden ab 50 %; überwiegend offenes Frage-/Antwort-Format (Folie 20).",
     "Regelmäßige Seminarteilnahme hängt deutlich mit dem Bestehen zusammen (Folie 21)."

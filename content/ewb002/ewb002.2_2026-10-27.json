@@ -82,22 +82,22 @@
     },
     {
       "titel": "Variablen und Merkmalsausprägungen",
-      "text": "{{aufgabe a01}}\n\n{{aufgabe a02}}\n\n{{aufgabe a03}}",
+      "text": "{{aufgabe a01}}\n\n{{aufgabe a02}}\n\n{{aufgabe a03}}\n\n**Kurz erklärt:** Bevor man misst, muss man wissen, **welche Art von Variable** man hat. Davon hängt ab, wie man fragen kann und wie man auswerten darf. **Manifest** oder **latent** entscheidet, ob man direkt beobachten kann (Alter) oder über Fragen erschließen muss (Motivation). **Stetig** oder **diskret** und **dichotom** oder **polytom** sagen, welche Antwortmöglichkeiten sinnvoll sind. Beispiel: „Motivation“ kann man nicht ablesen – man braucht mehrere Fragen wie „Ich lerne gern für dieses Fach“ mit einer Zustimmungsskala.\n\n**So erkennst du es in der Klausur:** Bei jeder Variable im Fallbeispiel drei Fragen stellen: Direkt beobachtbar? Wie viele Ausprägungen? Abzählbar oder beliebig fein?",
       "folien": "5–8"
     },
     {
       "titel": "Antwortkategorien prüfen",
-      "text": "{{aufgabe a04}}",
+      "text": "{{aufgabe a04}}\n\n**Kurz erklärt:** Antwortkategorien sind nur brauchbar, wenn **jede Person genau eine** passende Antwort findet. Dafür müssen sie **disjunkt** sein (keine Überschneidung, sonst passen manche in zwei Kategorien) und **erschöpfend** (alle Möglichkeiten abgedeckt, sonst fehlt für manche eine Antwort – notfalls hilft „Sonstiges“). Beispiel: „Wie oft machst du Hausaufgaben? täglich / mehrmals pro Woche / einmal pro Woche“ – es fehlt „seltener“ oder „nie“, also nicht erschöpfend.",
       "folien": "9"
     },
     {
       "titel": "Abhängige und unabhängige Variablen",
-      "text": "{{aufgabe a05}}\n\nDie Beispiele stammen aus Tausendpfund (2018, S. 12): Motivation → PISA, politisches Interesse → Wahlteilnahme, Geschlecht → Gehalt.",
+      "text": "{{aufgabe a05}}\n\nDie Beispiele stammen aus Tausendpfund (2018, S. 12): Motivation → PISA, politisches Interesse → Wahlteilnahme, Geschlecht → Gehalt.\n\n**Kurz erklärt:** Welche Variable abhängig und welche unabhängig ist, ergibt sich aus der **Fragestellung**: Die uV ist die vermutete Ursache, die aV das, was erklärt werden soll. Manchmal hilft die zeitliche Reihenfolge – das Geschlecht steht vor dem Gehalt fest, also kann das Gehalt nicht das Geschlecht beeinflussen.\n\n**Prüfungsfalle:** Dieselbe Variable kann in einer Studie uV und in einer anderen aV sein (z. B. Motivation als Ursache für PISA-Ergebnisse oder als Folge eines Lehrerverhaltens). Deshalb immer aus dem konkreten Fall begründen.",
       "folien": "10"
     },
     {
       "titel": "Formen von Hypothesen",
-      "text": "**Drei Hypothesenpaare (Folie 12):** deterministisch – probabilistisch · Wenn-dann – Je-desto · Individual – Kollektiv\n\n{{aufgabe a06}}\n\n**Mögliche Beziehungen zwischen zwei Merkmalen (Folie 14, Tausendpfund 2018, S. 97):** positiver linearer, negativer linearer, U-förmiger und umgekehrt U-förmiger Zusammenhang.\n\n{{aufgabe a07}}\n\nDefinition: „Wissenschaftliche Hypothesen sind Annahmen über reale Sachverhalte (empirischer Gehalt, empirische Untersuchbarkeit) in Form von Konditionalsätzen. Sie weisen über den Einzelfall hinaus (Generalisierbarkeit, Allgemeinheitsgrad) und sind durch Erfahrungsdaten widerlegbar (Falsifizierbarkeit).“ (Bortz/Döring 2006, nach Tausendpfund 2018, S. 92)",
+      "text": "**Drei Hypothesenpaare (Folie 12):** deterministisch – probabilistisch · Wenn-dann – Je-desto · Individual – Kollektiv\n\n{{aufgabe a06}}\n\n**Mögliche Beziehungen zwischen zwei Merkmalen (Folie 14, Tausendpfund 2018, S. 97):** positiver linearer, negativer linearer, U-förmiger und umgekehrt U-förmiger Zusammenhang.\n\n{{aufgabe a07}}\n\nDefinition: „Wissenschaftliche Hypothesen sind Annahmen über reale Sachverhalte (empirischer Gehalt, empirische Untersuchbarkeit) in Form von Konditionalsätzen. Sie weisen über den Einzelfall hinaus (Generalisierbarkeit, Allgemeinheitsgrad) und sind durch Erfahrungsdaten widerlegbar (Falsifizierbarkeit).“ (Bortz/Döring 2006, nach Tausendpfund 2018, S. 92)\n\n**Kurz erklärt:** Die Hypothesenpaare beantworten drei verschiedene Fragen. **Deterministisch oder probabilistisch:** Gilt der Zusammenhang immer oder nur meistens? **Wenn-dann oder Je-desto:** Hat das Merkmal zwei Ausprägungen oder eine Rangfolge? **Individual oder Kollektiv:** Geht es um einzelne Personen oder um Gruppen? Dazu kommt die Form des Zusammenhangs: Er muss nicht gerade (linear) sein. Ein umgekehrtes U bedeutet: erst steigt die eine Größe mit, ab einem Punkt fällt sie wieder – z. B. etwas Prüfungsangst steigert die Leistung, sehr viel Angst senkt sie. Eine wissenschaftliche Hypothese muss außerdem über den Einzelfall hinausgehen und **widerlegbar** sein.\n\n**Typische Klausurfrage:** „Formulieren Sie eine Je-desto-Hypothese und zeichnen Sie den vermuteten Zusammenhang.“ – so beantwortest du sie: zwei Variablen mit Rangfolge nennen, Richtung angeben (je mehr …, desto weniger …), Achsen beschriften und eine steigende bzw. fallende Linie oder ein U zeichnen.",
       "folien": "11–15"
     }
   ],

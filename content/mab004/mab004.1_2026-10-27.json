@@ -13,6 +13,11 @@
       "datei": "mab004.1/mab004-V3.pdf",
       "art": "Folien",
       "seiten": "1–55 (Folie 3–12 = Wiederholung aus VL 2)"
+    },
+    {
+      "datei": "mab004.1/Aufnahmen_Transkripte/2026-10-27_mab004.1_VL_Transkript.txt",
+      "art": "Aufnahme der Vorlesung (ca. 88 Min.) – Nachbereitung, Transkript",
+      "seiten": "[00:00]–[88:45]"
     }
   ],
   "lernziele": [
@@ -138,6 +143,12 @@
       "folien": "39, 41, 54",
       "text": "Die Vorlesung fasst das so zusammen (Folie 54):\n\n- **Eingabe:** Schon beim Eintippen können Fehler entstehen, weil die Zahl auf eine Fließkommazahl gerundet wird (Größenordnung $10^{-l}$).\n- **Verarbeitung:** Die Verarbeitung ist nur so „gut“ wie das verwendete Verfahren – z. B. wie gut die Näherungswerte einer Wurzel sind (Heron schneller als Intervallhalbierung).\n- **Ausgabe:** Bei Produkten, Summen und Differenzen können Fehler entstehen, weil das Ergebnis wieder gerundet wird.\n\n**Welches Wurzelverfahren wann? (Folie 41)** Intervallhalbierung: leicht zu verstehen und immer sicher, da die Wurzel stets im Intervall bleibt – aber viele Schritte. Heron: wenige Schritte, aber man muss mit Brüchen bzw. Divisionen rechnen. Beurteilen kann man das über den **relativen Fehler** nach gleich vielen Schritten bzw. über die Zahl der Schritte bis zu einer gewünschten Genauigkeit (vgl. Blatt 4: $\\sqrt{3}$ mit Intervallhalbierung 17 Schritte, mit Heron 3 Schritte bis unter $0{,}0001\\,\\%$).\n\n**Organisatorisch (Folie 2):** VL 4 am 03.11.2026 ist **zum Selbstlernen**: hochgeladene Excel-Aufgaben selbstständig bearbeiten. Während der Vorlesungszeit stehen Frau Rosenwinkel und Frau Hintze in Raum B1 für Fragen zur Verfügung.\n\n**Kurz erklärt:** Fehler entstehen an drei Stellen: beim **Eingeben** (die Zahl wird schon gerundet gespeichert), beim **Rechnen** (das Verfahren ist nur eine Näherung) und bei der **Ausgabe** (das Ergebnis wird wieder gerundet). Wer diese drei Stellen kennt, kann jedes Rechnerergebnis kritisch einschätzen – und genau das sollen Schüler laut Modul lernen.",
       "beispiel": ""
+    },
+    {
+      "titel": "Nachbereitung (Aufnahme vom 27.10.2026)",
+      "nachbereitung": true,
+      "folien": "Aufnahme [00:00]–[82:55]",
+      "text": "*Zusätzliche Nachbereitung aus der Aufnahme der Vorlesung. Die Inhalte oben bleiben unverändert. Zeitmarken [MM:SS] beziehen sich auf die Aufnahme.*\n\n### 1. Organisatorisches: VL 4 am 03.11. [00:00–02:30]\n- Die Vorlesung am 03.11. besteht aus **Excel-Aufgaben zum Selbstlernen**. Man kann sie zu Hause machen oder in den Hörsaal kommen – die Dozentin ist vor Ort und unterstützt. Man soll sich die Aufgaben vorher ansehen und selbst entscheiden, wie viel Unterstützung man braucht.\n- Hintergrund: Manche können Excel schon sehr gut, andere haben es noch nie geöffnet.\n- Die Aufgaben sind auch für die **Schule** gedacht: Das Thema kommt in der Sek I etwa in **Klasse 5–7** vor.\n- Später werden **Intervallhalbierung** und **Heron-Verfahren** mit Excel weiter untersucht [82:55].\n\n### 2. Wie viele Stellen haben Geräte? [08:45–10:25]\n- Viele moderne Geräte erlauben sehr viele Stellen, weil Speicherplatz nicht mehr so knapp ist.\n- Einfache Taschenrechner rechneten früher intern mit **12 Stellen** und zeigten etwa **8 Stellen** an.\n- **Excel** arbeitet mit Fließkommazahlen mit **Mantissenlänge 15** und **Exponentenschranke 308**. Das sieht man, wenn man zwei sehr große Zahlen multipliziert.\n\n### 3. Abstand einer Fließkommazahl zu ihrem Nachfolger [10:25–30:50]\n- Die Menge der Fließkommazahlen ist **endlich** (es gibt eine größte und eine kleinste) und **diskret** – anders als die reellen Zahlen, bei denen zwischen zwei Zahlen immer noch eine liegt.\n- Deshalb hat jede Fließkommazahl (außer der größten) einen **Nachfolger**: Die letzte Stelle der Mantisse erhöht sich um 1. Bei den reellen Zahlen gibt es keinen Nachfolger (was kommt nach 1,11 – 1,12? 1,111? 1,1101?).\n- Zum Vergleich: Bei natürlichen Zahlen ist der absolute Abstand zum Nachfolger immer 1, der relative $\\frac{1}{n}$ – je größer $n$, desto kleiner der relative Abstand.\n- **Absoluter Abstand** bei Fließkommazahlen: $10^{e-l+1}$. Je **größer der Exponent**, desto **größer** der Abstand; je **länger die Mantisse**, desto **kleiner** der Abstand.\n- **Relativer Abstand:** Der Exponent fällt weg; es bleibt nur eine Abhängigkeit von der Mantisse $m$ und der Mantissenlänge $l$. Weil $1 \\le m < 10$ ist, bleibt er **fast konstant** (Größenordnung $10^{-l}$ bis $10^{-l+1}$).\n\n**Kurz erklärt:** Große Zahlen liegen weiter auseinander – aber im Verhältnis zur Zahl bleibt der Abstand gleich klein. Und mehr Stellen machen alles genauer. Das ist der Grund, warum man in der Schule hört: „Rechne mit möglichst vielen Nachkommastellen weiter.“ [30:00]\n\n### 4. Klausur: Rechnen im Fließkommabereich [41:15–42:05]\n- In der Klausur darf ein **Taschenrechner** benutzt werden. Die Dozentin wählt Mantissen, die man gut schriftlich oder im Kopf rechnen kann, oder gibt das Produkt vor.\n- Diese Aufgaben nennt sie **„die dankbarsten Klausuraufgaben“** – man kann sie gut zu Hause trainieren.\n- **Vorgehen:**\n  1. Ergebnis ausrechnen.\n  2. Prüfen: Ist das überhaupt eine Fließkommazahl? Wenn nicht, normieren (Komma verschieben, Exponent anpassen).\n  3. Prüfen: Liegt sie im angegebenen Bereich (Mantissenlänge, Exponentenschranke)?\n  4. Entsprechend runden.\n- Achtung beim Aufschreiben: Ist die Zwischenzahl schon Element der Fließkommazahlmenge oder noch nicht ($\\notin$ / $\\in$)? „Wenn Sie mir zuhören, sieht das logisch aus – wenn Sie es selber machen, wird genau da gerne ein Fehler gemacht.“ [34:10]\n\n### 5. Addieren und Subtrahieren [44:10–56:40]\n- Zwei Zahlen mit verschiedenen Exponenten kann man nicht direkt addieren – so wie man Meter und Kilometer nicht einfach addieren kann. Deshalb wird **an den größten Exponenten angepasst**; das ist genauer, als an den kleineren anzupassen.\n- Bild der Dozentin: **9000 km + 1 mm** – der Millimeter bekommt im Ergebnis keine Bedeutung mehr, er „fällt unter den Tisch“ [54:10].\n- Nach dem Addieren muss noch einmal **normiert und gerundet** werden – dabei entsteht ein weiterer Fehler.\n- **Besonders kritisch ist die Subtraktion:** Liegen zwei Zahlen sehr nah beieinander oder sind die Größenordnungen sehr unterschiedlich, können Stellen **ausgelöscht** werden [55:25].\n- **EVA-Prinzip** (aus der Informatik): **E**ingabe – **V**erarbeitung – **A**usgabe. Fehler entstehen schon bei der Eingabe, dann bei jeder Verarbeitung, und bei der Ausgabe [56:40–57:05].\n\n**Prüfungsfalle:** Beim Addieren immer an den **größeren** Exponenten anpassen.\n\n### 6. Wurzel: nur der positive Wert [57:30–59:10]\nDie Wurzel $\\sqrt{a}$ ist nur für $a \\ge 0$ definiert und ist **immer der positive Wert** ($\\sqrt{121} = 11$). Bei einer Gleichung wie $x^2 = 4$ gibt es dagegen zwei Lösungen ($-2$ und $+2$) – das ist etwas anderes.\n\n### 7. Intervallhalbierung und Heron-Verfahren [60:25–82:30]\n- **Intervallhalbierung**, Beispiel $\\sqrt{2}$: Start mit dem Intervall $[1; 2]$, weil $1^2 = 1 < 2 < 4 = 2^2$. Mitte $1{,}5$; $1{,}5^2 = 2{,}25 > 2$ → rechte Grenze verschieben: $[1; 1{,}5]$. Mitte $1{,}25$; $1{,}25^2 \\approx 1{,}56 < 2$ → linke Grenze verschieben usw. Dieses Verfahren wird noch häufiger gebraucht.\n- **Heron-Verfahren:** Jeder positive Startwert $x_0$ ist möglich. Am besten schätzt man grob ab, wo die Wurzel liegt – dann braucht man weniger Schritte [76:15]. Die Folge ist **rekursiv**: Jeder neue Wert wird aus dem vorigen berechnet. Schon nach wenigen Schritten ist man sehr nah am gesuchten Wert.\n- **Klausur:** Lange Heron-Folgen muss man **nicht selbst berechnen**; eher wird eine Folge vorgegeben und man soll mit der Berechnungsvorschrift arbeiten [80:00].\n- In den Grundlagenaufgaben soll man überlegen: **Welches Verfahren würde man einem Computer bzw. Taschenrechner geben – und warum?** [82:05]\n\n### 8. Gehört die 0 zu den natürlichen Zahlen? [77:05–78:20]\nBeim Heron-Verfahren läuft $k$ ab **0** (Startwert $x_0$). In MAB001 (Frau Hinz) wurden die natürlichen Zahlen **ohne 0** eingeführt. Die Dozentin: Das ist in Büchern unterschiedlich – man muss jeweils schauen, wie der Autor bzw. die Autorin es festlegt. Aus dem Zusammenhang geht hier klar hervor, dass die 0 dazugehört.\n"
     }
   ],
   "definitionen": [
@@ -658,10 +669,88 @@
       "erklaerung": "Verknüpft Folie 5–12, 42–53 mit Unterricht.",
       "folie": "41–54",
       "pruefungsrelevant": false
+    },
+    {
+      "id": "n01",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Wie verändert sich der absolute Abstand einer Fließkommazahl zu ihrem Nachfolger? (mehrere richtig)",
+      "optionen": [
+        "Er wird größer, wenn der Exponent größer wird.",
+        "Er wird kleiner, wenn die Mantissenlänge größer wird.",
+        "Er ist für alle Fließkommazahlen gleich groß.",
+        "Er hängt nicht vom Exponenten ab."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Absoluter Abstand $10^{e-l+1}$: $e$ geht positiv, $l$ negativ ein [24:10–25:25].",
+      "folie": "Aufnahme 24:10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n02",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum ist es sinnvoll, mit möglichst vielen Nachkommastellen weiterzurechnen?",
+      "antwort": "Der relative Abstand zwischen einer Fließkommazahl und ihrem Nachfolger hängt (fast) nur von der Mantissenlänge $l$ ab. Je mehr Stellen, desto kleiner dieser Abstand – und damit der relative Fehler beim Runden.",
+      "erklaerung": "[27:30–30:00].",
+      "folie": "Aufnahme 29:10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n03",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Zwei Fließkommazahlen mit unterschiedlichen Exponenten sollen addiert werden. Was macht der Rechner zuerst?",
+      "optionen": [
+        "Er passt beide an den größeren Exponenten an.",
+        "Er passt beide an den kleineren Exponenten an.",
+        "Er addiert Mantissen und Exponenten getrennt.",
+        "Er rundet beide Zahlen auf eine Stelle."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Anpassen an den größten Exponenten ist genauer (Bild: Meter und Kilometer) [45:25–46:15].",
+      "folie": "Aufnahme 45:50",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n04",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "EVA-Prinzip: [[Eingabe]] – [[Verarbeitung]] – [[Ausgabe]]. Besonders kritisch beim Rechnen mit Fließkommazahlen ist die [[Subtraktion]], weil Stellen ausgelöscht werden können.",
+      "erklaerung": "[55:25–57:05].",
+      "folie": "Aufnahme 56:40",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n05",
+      "baustein": "vergleich",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Warum ist $\\sqrt{4} = 2$, obwohl die Gleichung $x^2 = 4$ zwei Lösungen hat?",
+      "antwort": "Die Wurzel ist per Definition immer der nicht-negative Wert $b$ mit $b^2 = a$. Die Gleichung $x^2 = 4$ fragt dagegen nach allen Zahlen, deren Quadrat 4 ist – das sind $-2$ und $+2$.",
+      "erklaerung": "[57:55–59:10].",
+      "folie": "Aufnahme 58:45",
+      "pruefungsrelevant": true
     }
   ],
   "pruefungshinweise": [
-    "Keine ausdrücklichen Prüfungshinweise in VL 3. Laut VL 1 orientieren sich die Klausuraufgaben sehr nah an den Übungsaufgaben – zu VL 3 gehört Übungsblatt 4 (Seminar 4 am 03.11.)."
+    "Keine ausdrücklichen Prüfungshinweise in VL 3. Laut VL 1 orientieren sich die Klausuraufgaben sehr nah an den Übungsaufgaben – zu VL 3 gehört Übungsblatt 4 (Seminar 4 am 03.11.).",
+    "(Aufnahme) Rechenaufgaben im Fließkommabereich (Multiplikation/Addition mit Normieren und Runden) nennt die Dozentin „die dankbarsten Klausuraufgaben“; Taschenrechner erlaubt, Mantissen werden leicht rechenbar gewählt oder das Produkt vorgegeben [41:15].",
+    "(Aufnahme) Heron-Verfahren: In der Klausur keine langen Folgen selbst berechnen – eher mit vorgegebener Folge bzw. Berechnungsvorschrift arbeiten [80:00]."
   ],
   "offene_fragen": [
     "Folie 3 / Def. 2.4: Bedingung 3 lautet $e < u$, auf Folie 8–9 wird aber $|-99| < 100$ bzw. $|99| < 100$ geprüft. Gemeint ist wohl $|e| < u$ – sonst wären beliebig kleine Exponenten erlaubt.",
@@ -669,6 +758,8 @@
     "Folie 37: Gesucht ist $c = a - b$, rechts steht aber $\\tilde{c} = \\tilde{b} - \\tilde{a}$ (Reihenfolge vertauscht); das Ergebnis $132\\,530\\,000$ passt zu $a - b$.",
     "Folie 32–33: In der Aufgabenstellung steht „$c \\in \\mathcal{F}_{10}(2, 20)$“ ohne Schlange – gemeint ist $\\tilde{c}$.",
     "Folie 49 / 50: $k \\in \\mathbb{N}$ – beginnt $\\mathbb{N}$ hier bei $0$? Sonst fehlt der Schritt von $x_0$ zu $x_1$. Außerdem verlangt Def. 3.1 $a > 0$, Satz 3.2 sagt $a \\ge 0$.",
-    "VL 4 (03.11.) zum Selbstlernen: Wo genau liegen die Excel-Aufgaben (Stud.IP-Ordner)? Noch nicht im mab004-Ordner."
+    "VL 4 (03.11.) zum Selbstlernen: Wo genau liegen die Excel-Aufgaben (Stud.IP-Ordner)? Noch nicht im mab004-Ordner.",
+    "(Aufnahme) Geklärt zu Folie 49/50: Hier gehört die 0 zu den natürlichen Zahlen ($k$ ab 0, Startwert $x_0$); in MAB001 war es ohne 0 – je nach Autor unterschiedlich [77:05–78:20].",
+    "(Aufnahme) VL 4 am 03.11.: Excel-Aufgaben zum Selbstlernen; Unterstützung durch die Dozentin vor Ort möglich [00:00]."
   ]
 }

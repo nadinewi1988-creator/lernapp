@@ -40,7 +40,8 @@
     {
       "text": "Überblickswissen über relevante Teildisziplinen und Gegenstandsbereiche sowie grundlegendes Wissen über Forschungsmethoden der Psychologie",
       "abgedeckt_in": [
-        "pyb005.2_2026-10-19"
+        "pyb005.2_2026-10-19",
+        "pyb005.2_2026-10-26"
       ]
     },
     {
@@ -80,7 +81,8 @@
     "pyb005.1_2026-10-14",
     "pyb005.2_2026-10-19",
     "pyb005.1_2026-10-21",
-    "pyb005_2026-10-22"
+    "pyb005_2026-10-22",
+    "pyb005.2_2026-10-26"
   ],
   "literatur": [
     {
@@ -131,6 +133,16 @@
       "eintrag": "Schreier/Echterhoff/Bauer/Weydmann/Hussy (2023): Forschungsmethoden in Psychologie und Sozialwissenschaften für Bachelor, 3. Aufl.",
       "datei": "Literatur/Schreier-Echterhoff-Bauer-Weydmann-Hussy_2023_Forschungsmethoden-in-Psychologie-und-Sozialwissenschaften.pdf",
       "verwendung": "pyb005.2 S03 (26.10.): S. 12–14, 17–21, 44–47"
+    },
+    {
+      "eintrag": "Lohaus, A., Vierhaus, M., & Lemola, S. (2024): Entwicklungspsychologie des Kindes- und Jugendalters für Bachelor, 5. Aufl.",
+      "datei": "Literatur/Lohaus-Vierhaus-Lemola_2024_Entwicklungspsychologie-des-Kindes-und-Jugendalters.pdf",
+      "verwendung": "pyb005.2 S04 (02.11.): S. 46–49 (Kap. 2.8.1–2.8.2), Hausaufgabe h01 aus S03"
+    },
+    {
+      "eintrag": "Boeger, A., & Lüdmann, M. (2023): Psychologie für Erziehungswissenschaften und Soziale Arbeit",
+      "datei": "Literatur/Boeger-Luedmann_2023_Psychologie-fuer-Erziehungswissenschaften-und-Soziale-Arbeit.pdf",
+      "verwendung": "pyb005.2 S04 (02.11.): S. 19–25 (Kap. 1.3), Hausaufgabe h02 aus S03"
     }
   ],
   "fehlende_literatur": [],
@@ -142,7 +154,9 @@
     "Seminar S02 (Gruppe D): Im Stud.IP-Foliensatz fehlen die Folien 5–7, 9 und 20",
     "eÜbung S02 Tippfehler im Original (in der App wortgleich übernommen): Test 1 A3 „des Menschens“, A5 „der behavioristische Perspektive“; Test 2 A14 „Reliabiliät“, A17 „Vor-und Nachbreiten“",
     "Lernmodul 2.5, Infotext zu Folie 4 verweist auf „Block 3.3“ – gemeint ist vermutlich Block 2.6",
-    "Kognitive Perspektive: Lernmodul 2.2 nennt Piaget, 2.3 Kurt Lewin als Vertreter"
+    "Kognitive Perspektive: Lernmodul 2.2 nennt Piaget, 2.3 Kurt Lewin als Vertreter",
+    "Seminar S03 (Gruppe D): Im Foliensatz fehlt Folie 15 (Nummerierung springt von 14 auf 16)",
+    "Boeger & Lüdmann (2023) S. 20/21: erst „Entwicklungsaufgaben sind normativ“, dann „nicht-normative Entwicklungsaufgaben“; Liste als „Havighurst, 1976“ belegt, enthält aber Ergänzungen (Hurrelmann/Quenzel, Fend, Waters/Sroufe); „Baby Blues … auf wenige Stunden begrenzt“ vermutlich Druckfehler"
   ],
   "besonderheiten": [
     "VL: Stud.IP-Lernmodule (H5P) je Sitzung mit denselben Folien wie das PDF plus Audio-Erklärungen von Prof. Schweer und Infotext-Kästchen – Audios werden transkribiert und in die Lerninhalte übernommen (Schema 5g)",
@@ -228,7 +242,8 @@
       "pfad": "pyb005 - studydrive/ (19 Dateien)",
       "geaendert": "2026-10-02",
       "art": "Studydrive-Material früherer Semester (u. a. Altklausur 1. Termin)",
-      "status": "später"
+      "status": "später",
+      "hinweis": "am 31.10.2026 gesichtet – Ergebnis in claude/pyb005_studydrive_sichtung.md (Altklausur WiSe 21/22 für Klausurstil nutzen)"
     },
     {
       "pfad": "pyb005.1/Lernmodule_S02_Transkripte.pdf",
@@ -250,6 +265,42 @@
       "art": "Courseware-Übungstests (Wortlaut)",
       "status": "verarbeitet",
       "sitzung": "pyb005_2026-10-22"
+    },
+    {
+      "pfad": "pyb005.2/Sitzung_03/pyb005.2_Sitzung_3_Gruppe_D.pdf",
+      "geaendert": "2026-10-27",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "pyb005.2_2026-10-26"
+    },
+    {
+      "pfad": "pyb005.2/Sitzung_03/26.10.26 pyb005.2.m4a",
+      "geaendert": "2026-10-28",
+      "art": "Aufnahme Seminar (93 Min.)",
+      "status": "verarbeitet",
+      "sitzung": "pyb005.2_2026-10-26",
+      "hinweis": "Transkript: pyb005.2/Sitzung_03/2026-10-26_pyb005.2_Transkript.txt"
+    },
+    {
+      "pfad": "pyb005.1/Sitzung_03/pyb005_Sitzung_3.pdf",
+      "geaendert": "2026-10-29",
+      "art": "Folien",
+      "status": "später",
+      "sitzung": "pyb005.1_2026-10-28"
+    },
+    {
+      "pfad": "Literatur/Lohaus-Vierhaus-Lemola_2024_Entwicklungspsychologie-des-Kindes-und-Jugendalters.pdf",
+      "geaendert": "2026-10-31",
+      "art": "Literatur (Textgrundlage Seminar S04)",
+      "status": "verarbeitet",
+      "sitzung": "pyb005.2_2026-10-26 (Hausaufgabe h01)"
+    },
+    {
+      "pfad": "Literatur/Boeger-Luedmann_2023_Psychologie-fuer-Erziehungswissenschaften-und-Soziale-Arbeit.pdf",
+      "geaendert": "2026-10-31",
+      "art": "Literatur (Textgrundlage Seminar S04)",
+      "status": "verarbeitet",
+      "sitzung": "pyb005.2_2026-10-26 (Hausaufgabe h02)"
     }
   ]
 }

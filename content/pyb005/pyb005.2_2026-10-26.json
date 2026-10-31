@@ -1,0 +1,788 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pyb005",
+  "teilmodul": "pyb005.2",
+  "datum": "2026-10-26",
+  "sitzung_nr": 3,
+  "sitzung_id": "",
+  "thema": "03 Ausgewählte Aspekte psychologischer Forschung",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Die Folien bestehen überwiegend aus Fragen und Schaubildern; die Inhalte stammen aus der mündlichen Erklärung der Dozentin (Aufnahme 26.10.2026, 93 Min., automatisch transkribiert – Zeitmarken [MM:SS]). Im Foliensatz fehlt Folie 15. Die Textvorbereitung zu Schreier u. a. (2023) für diese Sitzung steht als Hausaufgabe in der Sitzung vom 19.10.",
+  "quellen": [
+    {
+      "datei": "pyb005.2/Sitzung_03/pyb005.2_Sitzung_3_Gruppe_D.pdf",
+      "art": "Folien",
+      "seiten": "1–27 (im PDF 26 Seiten; Folie 15 fehlt)"
+    },
+    {
+      "datei": "pyb005.2/Sitzung_03/26.10.26 pyb005.2.m4a",
+      "art": "Aufnahme (Transkript)",
+      "seiten": "00:00–92:39"
+    },
+    {
+      "datei": "Literatur/Schreier-Echterhoff-Bauer-Weydmann-Hussy_2023_Forschungsmethoden-in-Psychologie-und-Sozialwissenschaften.pdf",
+      "art": "Textgrundlage",
+      "seiten": "12–14, 17–21, 44–47"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "… verschiedene Forschungsansätze und -methoden",
+      "art": "vorgegeben",
+      "quelle": "Folie 2 (Inhaltsübersicht/Lernkontrolle)",
+      "fragen": [
+        "f02",
+        "f03",
+        "f04",
+        "f05",
+        "f06",
+        "f19"
+      ],
+      "erklaerung_abschnitt": "Forschungsansätze und -methoden"
+    },
+    {
+      "text": "… den Erkenntnisprozess der wissenschaftlichen Psychologie (vorwiegend in der quantitativen Forschung) samt zentraler Begriffe (in Abgrenzung zur Alltagspsychologie)",
+      "art": "vorgegeben",
+      "quelle": "Folie 2",
+      "fragen": [
+        "f01",
+        "f07",
+        "f08",
+        "f09"
+      ],
+      "erklaerung_abschnitt": "Der wissenschaftliche Erkenntnisprozess"
+    },
+    {
+      "text": "… Arten von Variablen und ihre Messung",
+      "art": "vorgegeben",
+      "quelle": "Folie 2",
+      "fragen": [
+        "f10",
+        "f11",
+        "f12",
+        "f13",
+        "f14",
+        "f15",
+        "f20"
+      ],
+      "erklaerung_abschnitt": "Variablen und ihre Messung"
+    },
+    {
+      "text": "… Skalenniveaus",
+      "art": "vorgegeben",
+      "quelle": "Folie 2",
+      "fragen": [
+        "f16",
+        "f17",
+        "f18"
+      ],
+      "erklaerung_abschnitt": "Skalenniveaus"
+    }
+  ],
+  "kurzfassung": [
+    "Alltagspsychologie beruht auf subjektiven Überzeugungen und selektiven Erfahrungen und ist deshalb lückenhaft und fehleranfällig; wissenschaftliche Psychologie geht systematisch mit Forschungsmethoden und Theorien vor.",
+    "Quantitative Forschung misst Merkmale und Zusammenhänge an großen, möglichst repräsentativen Stichproben mit standardisierten Verfahren; qualitative Forschung untersucht wenige Fälle offen und deutend; Mixed Methods kombiniert beides.",
+    "Ob Befragte Stichprobe oder Grundgesamtheit sind, hängt davon ab, über wen man etwas aussagen will – nicht von ihrer Anzahl.",
+    "Der quantitative Erkenntnisprozess führt von der Frage über Theorie, Hypothese, Operationalisierung, Messung und Auswertung zurück zur Theorie.",
+    "Nach dem Falsifikationsprinzip gilt eine Theorie nie als bewiesen, sondern nur als bewährt – ein einziges Gegenbeispiel kann sie widerlegen.",
+    "Konkrete (manifeste) Variablen sind direkt beobachtbar; abstrakte (latente) Variablen wie das Klassenklima müssen über Indikatoren operationalisiert werden.",
+    "Die unabhängige Variable wird verändert (Ursache), die abhängige gemessen (Wirkung); Mediatoren erklären das Wie/Warum, Moderatoren das Wann/Für wen, Störvariablen verfälschen.",
+    "Die vier Skalenniveaus – nominal, ordinal, intervall, verhältnis – bauen aufeinander auf; je höher das Niveau, desto mehr Rechenoperationen sind erlaubt.",
+    "Ratingskalen sind eigentlich ordinal, werden aber wie Intervallskalen behandelt, damit man Mittelwerte bilden kann."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Alltagspsychologie vs. wissenschaftliche Psychologie",
+      "folien": "5",
+      "text": "Die Folie zeigt nur zwei Bilder (eine nachdenkliche Figur und das Ψ, das Symbol der Psychologie) und fragt nach den Unterschieden. Die Dozentin erklärte [03:01–05:08]:\n\n| | Alltagspsychologie | wissenschaftliche Psychologie |\n|---|---|---|\n| Grundlage | **subjektive Überzeugungen**, **selektive Erfahrungen** | **systematische** Überprüfung mit **Forschungsmethoden** |\n| Vorgehen | etwas aufschnappen und daraus auf anderes schließen | Daten erheben, analysieren, interpretieren; Bezug auf **Theorien** |\n| Folge | **lückenhaft**, **fehleranfällig**, man kann sich täuschen | gesicherte **Datenbasis** |\n\n**Kurz erklärt:** Im Alltag bilden wir uns Meinungen aus den Fällen, die uns zufällig begegnen oder im Gedächtnis bleiben. Die Wissenschaft prüft eine Vermutung dagegen planvoll an vielen Fällen und mit festen Regeln – erst dann gilt sie als gestützt. *Beispiel:* „Jungen stören mehr im Unterricht“ – im Alltag reichen dafür zwei laute Schüler; wissenschaftlich müsste man Störungen systematisch und bei vielen Klassen erfassen.\n\n**Prüfungsfalle:** Alltagspsychologie ist nicht „falsch“, sondern *ungeprüft* – sie kann zufällig stimmen, beruht aber nicht auf einer systematischen Datenbasis."
+    },
+    {
+      "titel": "Forschungsansätze und -methoden",
+      "folien": "6–7",
+      "text": "| | quantitativer Ansatz | qualitativer Ansatz | Mixed-Methods-Ansatz |\n|---|---|---|---|\n| Ziel | Merkmale und Zusammenhänge **messen**, **allgemeingültige Aussagen** | **Bedeutung, Sinn**, persönliche Einstellungen verstehen | Vorteile beider verbinden |\n| Fälle | **große Stichproben**, möglichst **repräsentativ** | **wenige Fälle**, sehr genau | beides |\n| Methoden | **standardisiert**: Fragebogen, Experiment, standardisierter Test | **offen** bzw. teilstrukturiert: Leitfadeninterview, Gruppeninterview, teilnehmende Beobachtung | z. B. erst Fragebogen, dann Interviews mit Einzelnen (oder umgekehrt) |\n| Auswertung | statistisch (Mittelwerte, Korrelations-, Regressionsanalyse) | deutend, fallorientiert, „interpretative Rekonstruktion“ | beides |\n\n[06:09–14:38]\n\n**Repräsentativ** heißt: Die Stichprobe ist in den **Quotenmerkmalen** (z. B. Geschlecht, Alter, Herkunftsregion, Nationalität) so zusammengesetzt wie die Grundgesamtheit. Dann darf man von der kleinen Stichprobe auf die Grundgesamtheit schließen. Beispiel der Dozentin: Die Seminargruppe als Stichprobe aller Studierenden der Uni Vechta [08:37–10:40].\n\nJeder Ansatz macht nur bestimmte Aspekte sichtbar – welcher passt, hängt vom **Forschungsgegenstand** und **Forschungsinteresse** ab [13:31–14:02].\n\n{{aufgabe a01}}\n\n**Soziale Erwünschtheit** kann bei beiden Ansätzen auftreten: Man antwortet so, wie es gesellschaftlich anerkannt ist, nicht wie man wirklich denkt oder handelt. Bei Interviews von Angesicht zu Angesicht ist die Gefahr größer [35:14–36:13].\n\n**Kurz erklärt:** Quantitativ fragt „Wie viele? Wie stark? Hängt A mit B zusammen?“, qualitativ fragt „Wie erleben Menschen das? Warum?“. Ein Fragebogen an 1.500 Schüler:innen zeigt, *dass* das Klassenklima schwankt; Interviews mit einzelnen Schüler:innen zeigen, *warum*.\n\n**Prüfungsfalle:** „Stichprobe“ heißt nicht „wenige Personen“ – entscheidend ist, ob die Befragten **alle** sind, über die man etwas aussagen will (dann Grundgesamtheit), oder nur ein **Teil** davon.\n\n**So erkennst du es in der Klausur:** Fallbeispiel mit großer Zahl, Skala und statistischer Auswertung → quantitativ; wenige, ausführliche Gespräche oder Beobachtungen mit dem Ziel zu verstehen/rekonstruieren → qualitativ."
+    },
+    {
+      "titel": "Der wissenschaftliche Erkenntnisprozess",
+      "folien": "8",
+      "text": "Die Abbildung (Schäfer, 2016, S. 10) zeigt den Ablauf – vorwiegend aus Sicht der **quantitativen** Forschung [39:16–45:34]:\n\n1. **Wundern, Raten, Fragen** – Ausgangspunkt ist eine Frage zu einem Phänomen.\n2. **Theorie** – ein „Gebäude“ aus mehreren Aussagen, Ideen und Annahmen, die zum Sachverhalt passen; sie liefert eine vorläufige Antwort [41:18–41:46].\n3. **Forschungshypothese** – aus der Theorie abgeleitete **konkrete und überprüfbare** Aussage [41:59–42:07].\n4. **Operationalisierung** – das, was untersucht werden soll, wird **messbar gemacht** (z. B. Klassenklima über Lehrer-Schüler-Beziehung, Schüler-Schüler-Beziehung, Ablenkung/Lärm) [42:42–43:35].\n5. **Durchführung der Studie und Messung** (Experiment, Befragung) → **Daten** → **Auswertung** → **Interpretation** – dabei ist **Logik** das wichtigste Werkzeug: widerspruchsfrei argumentieren [43:44–44:40].\n6. **Implikation für die Theorie** – die Hypothese wird **gestützt** oder **widerlegt**; ist sie widerlegt, wird die Theorie angepasst und der Prozess beginnt von vorn [44:51–45:34].\n7. **Beantworten der Fragen**.\n\n{{aufgabe a02}}\n\nIm **qualitativen** Forschungsprozess werden keine Hypothesen geprüft, sondern offene **Forschungsfragen** beantwortet. Auch hier braucht es eine Art Operationalisierung – z. B. um einen Interviewleitfaden zu entwickeln [47:37–48:37].\n\n**Kurz erklärt:** Forschung ist ein Kreislauf: Aus einer Theorie leitet man eine prüfbare Vorhersage ab, prüft sie an Daten und lernt daraus etwas über die Theorie. Weil man nie *alle* Fälle prüfen kann, bleibt jedes Ergebnis vorläufig.\n\n**Prüfungsfalle:** „bewährt“ ≠ „bewiesen“. Auch eine Hypothese, die viele Tests bestanden hat, ist nicht bewiesen.\n\n**Typische Klausurfrage:** „Welche Aussagen zum Falsifikationsprinzip sind korrekt?“ – richtig sind Aussagen wie „Eine Theorie gilt als bewährt, solange sie nicht widerlegt ist“ und „Ein Gegenbeispiel kann eine Hypothese widerlegen“; falsch ist „Viele bestätigende Befunde beweisen eine Theorie“."
+    },
+    {
+      "titel": "Variablen und ihre Messung",
+      "folien": "9–11",
+      "text": "**Variablen** sind Merkmale oder Eigenschaften von Sachverhalten, Objekten oder Personen. Gemessen wird ihre **Ausprägung**, die man in **Zahlen** ausdrückt [48:55–49:31].\n\n| | konkrete (manifeste) Variable | abstrakte (latente) Variable |\n|---|---|---|\n| Merkmal | **direkt beobachtbar und direkt messbar** | **nicht** direkt beobachtbar, **nicht** direkt messbar |\n| Messung | direkt | über **Indikatoren** → **Operationalisierung** nötig |\n| Beispiele | Schlafdauer, körperliche Aktivität in Stunden | **Klassenklima**, Intelligenz |\n\n[50:01–50:58, 76:25–76:54]\n\n{{aufgabe a03}}\n\n**Unabhängige und abhängige Variable** [55:46–56:54]:\n- Die **unabhängige Variable (X)** wird im Experiment **gezielt verändert**; mit ihr will man die abhängige Variable beeinflussen bzw. vorhersagen.\n- Die **abhängige Variable (Y)** ist das, was **gemessen** wird – ob und wie stark sie sich verändert.\n\n{{aufgabe a04}}\n\nDie Dozentin erwähnte außerdem die Unterscheidung **qualitative** (Art/Beschaffenheit) und **quantitative** (zahlenmäßige, metrische) Variablen, ging aber nicht näher darauf ein [55:07–55:26].\n\n**Kurz erklärt:** „Klassenklima“ kann man nicht mit einem Lineal messen. Deshalb zerlegt man es in Teile, zu denen man Fragen stellen kann (z. B. „Die Lehrkraft bemüht sich um mich“), und lässt sie auf einer Skala ankreuzen – so wird aus etwas Unsichtbarem eine Zahl.\n\n**Merkhilfe:** Die **ab**hängige Variable **hängt ab** von der unabhängigen.\n\n**Prüfungsfalle:** Welche Variable unabhängig und welche abhängig ist, hängt von der Fragestellung ab – dieselbe Variable (z. B. Klassenklima) kann in einer Studie Ursache, in einer anderen Wirkung sein."
+    },
+    {
+      "titel": "Drittvariablen: Mediator, Moderator, Störvariable",
+      "folien": "12–16",
+      "text": "Oft spielen zwischen unabhängiger und abhängiger Variable weitere Variablen mit (**Drittvariablen**, Variablen Z) [58:56–61:29]:\n\n| Drittvariable | Leitfrage | Was sie tut |\n|---|---|---|\n| **Mediatorvariable** | **wie / warum?** | steht **zwischen** X und Y: der Einfluss von X auf Y wird (teilweise) über sie **vermittelt bzw. erklärt** |\n| **Moderatorvariable** | **wann / für wen?** | beeinflusst die **Stärke** oder ggf. **Richtung** des Einflusses von X auf Y |\n| **Störvariable** | – | **verfälscht** den Einfluss von X auf Y, z. B. Lärm oder eine Testperson, die die Untersuchung durchschaut und sich deshalb anders verhält |\n\n{{aufgabe a05}}\n\n**Warum das wichtig ist:** Die Beschäftigung mit Drittvariablen fördert **kritisches Denken** – Variablen stehen selten allein. Wer mehr Einflussfaktoren berücksichtigt, bekommt vollständigere Erklärungen und erkennt wechselseitige Beziehungen [64:47–65:33].\n\n**Kurz erklärt:** Sport (X) → bessere Noten (Y). *Warum?* Weil Sport die Konzentration steigert → Konzentration ist **Mediator**. *Wann wirkt es stärker?* Wenn man genug schläft → Schlaf ist **Moderator**. Wenn beim Notentest nebenan gebohrt wird → Lärm ist **Störvariable**.\n\n**Merkhilfe:** **M**ediator = **M**itte (zwischen X und Y). **Mo**derator = „**mo**duliert“ (dreht die Wirkung lauter oder leiser).\n\n**Typische Klausurfrage:** Fallbeispiel mit drei Variablen – „Welche Variable fungiert als Moderator?“ → die, von der abhängt, *wie stark* oder *für wen* der Effekt auftritt."
+    },
+    {
+      "titel": "Skalenniveaus",
+      "folien": "17–20",
+      "text": "Wozu Skalenniveaus? Schon bei der **Operationalisierung** muss man wissen, welche Art von Variable man braucht: Liegt ein Merkmal vor oder nicht? Wie häufig? In welchem Ausmaß? Das Skalenniveau bestimmt, welche Rechenoperationen und Interpretationen erlaubt sind [65:44–66:58].\n\n**Skala** – Folie 18 zitiert Schäfer (2016, S. 24): „Der Begriff ‚Skala‘ beschreibt die Beschaffenheit des empirischen und des numerischen Relativs sowie eine Abbildungsfunktion, die die beiden verbindet. Dabei geht es um die Frage, wie das, was durch das empirische Relativ erfasst wird, durch ein numerisches Relativ (also durch Zahlen) sinnvoll repräsentiert werden kann.“ Die Dozentin übersetzte: eine **Messlatte** mit Skalenwerten und Regeln, wie man Gegenständen Zahlen zuordnet [67:16–68:13]. *Empirisches Relativ* = die beobachteten Ausprägungen in der Wirklichkeit, *numerisches Relativ* = die Zahlen, die man ihnen zuordnet.\n\nDie Gütekriterien **Objektivität, Reliabilität, Validität** müssen bei jeder Messung erfüllt sein [68:33–68:59].\n\n| Skala | Relation (Folie 19) | Bedeutung | Beispiele aus dem Seminar |\n|---|---|---|---|\n| **Nominalskala** | Verschiedenheit | nur gleich/verschieden, „vorhanden – nicht vorhanden“; keine Ordnung, keine Abstände | Geschlecht, Haarfarbe, Wohnort, Nationalität |\n| **Ordinalskala** | Rangordnung | größer/kleiner, Reihenfolge; Abstände **nicht** vergleichbar | Zieleinlauf 1./2./3. Platz, Wartelistenplätze |\n| **Intervallskala** | Differenzen | **gleiche Abstände**, Differenzen vergleichbar; **kein natürlicher Nullpunkt** | Temperatur in °C, Intelligenzquotient |\n| **Verhältnisskala** | Verhältnisse, natürlicher Nullpunkt | „doppelt so viel“ sinnvoll; **0 = Merkmal nicht vorhanden** | Schlafdauer, Körpergröße, Temperatur in Kelvin |\n\n[69:36–76:07]\n\nJede höhere Stufe enthält die Eigenschaften der niedrigeren. **Je höher das Skalenniveau, desto mehr Rechenoperationen** (Mittelwerte, Korrelations- und Regressionsanalysen) – deshalb strebt die Forschung möglichst Intervall- oder Verhältnisniveau an; Nominaldaten (Geschlecht, Wohnort) dienen meist der späteren Einordnung [77:03–78:23]. Auf jedem Skalenniveau können konkrete und abstrakte Variablen vorkommen (Folie 19) [76:17–76:54].\n\n{{aufgabe a06}}\n\n**Kurz erklärt:** Frag dich der Reihe nach: Kann ich die Werte nur unterscheiden (nominal)? Kann ich sie ordnen (ordinal)? Sind die Abstände gleich groß (intervall)? Gibt es eine echte Null, die „nichts davon“ bedeutet (verhältnis)?\n\n**Prüfungsfalle Alter:** Im Seminar wurde zuerst „intervall“ vermutet. Alter hat mit der Geburt einen **natürlichen Nullpunkt** und „doppelt so alt“ ist sinnvoll → **Verhältnisskala** [87:04–88:30]. **Prüfungsfalle IQ:** IQ 140 ist nicht „doppelt so intelligent“ wie IQ 70 → Intervallskala.\n\n**Hinweis der Dozentin:** Die Zuordnung ist konstruiert – man muss selbst begründen, auf welchem Niveau man sich befindet; es gibt keine „offizielle“ Zuordnung [89:45–90:11]."
+    },
+    {
+      "titel": "Ratingskalen",
+      "folien": "21",
+      "text": "„Ratingskalen verwendet man, um Urteile über einen bestimmten Gegenstand zu erfragen. Es wird ein Merkmalskontinuum vorgegeben, auf dem der Befragte die Merkmalsausprägung markiert, die seine subjektive Empfindung am besten wiedergibt.“ (Schäfer, 2016, S. 28)\n\nBeispiel der Folie: „Vorlesungen zu Methodenlehre und Statistik besuche ich gern.“ – Kästchen von „stimme überhaupt nicht zu“ bis „stimme voll und ganz zu“.\n\nDie Dozentin erklärte [90:11–92:16]: Eigentlich sind solche Antwortstufen **ordinal**. Durch die gleichmäßig gestaltete Skala (1, 2, 3 … 7) geht man aber davon aus, dass die **Abstände gleich** sind, und behandelt sie wie eine **Intervallskala**. Dann kann man **Mittelwerte** berechnen und z. B. sagen: Ein hoher Mittelwert bedeutet, dass viele zugestimmt haben. So werden **Einstellungen** und subjektive Urteile erfassbar.\n\nBekannte Probleme bei Fragebögen (aus dem Seminar, [31:25–34:46]): **Tendenz zur Mitte** (bei Unsicherheit die Mitte ankreuzen), **Abbrüche** bei langen, schwierigen oder heiklen Fragen, und **zu allgemeine Items** („Verhalten Sie sich nachhaltig?“) – besser nach genauem Verhalten fragen (z. B. Stunden Handynutzung).\n\n**Kurz erklärt:** Gefühle und Meinungen haben keine Maßeinheit. Die Ratingskala macht daraus eine Zahl, mit der man rechnen kann – unter der Annahme, dass der Schritt von 1 nach 2 so groß ist wie von 4 nach 5.\n\n**Prüfungsfalle:** Streng genommen ist eine Ratingskala ordinal; die Behandlung als Intervallskala ist eine Annahme."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Alltagspsychologie",
+      "wortlaut": "subjektive Überzeugungen […], die beruhen eben auf unseren Überzeugungen und sind eben auch selektiv – lückenhaft, selektiv und können Fehlern unterliegen (mündlich [03:12–04:05])",
+      "erklaerung": "Wissen aus dem Alltag, das auf eigenen, zufälligen Erfahrungen beruht – nicht systematisch geprüft.",
+      "folie": "5"
+    },
+    {
+      "begriff": "Wissenschaftliche Psychologie",
+      "wortlaut": "ein systematischer Prozess […], dass wir eben systematisch etwas überprüfen möchten, mithilfe von verschiedenen Forschungsmethoden […], Informationen zu erheben, zu analysieren und zu interpretieren (mündlich [04:14–04:42])",
+      "erklaerung": "Prüft Annahmen planvoll mit Forschungsmethoden an einer gesicherten Datenbasis und bezieht sich auf Theorien.",
+      "folie": "5"
+    },
+    {
+      "begriff": "Konkrete (manifeste) Variable",
+      "wortlaut": "Wenn etwas direkt beobachtbar und messbar ist, dann haben wir eine konkrete Variable (mündlich [50:22])",
+      "erklaerung": "Kann man direkt sehen oder messen, z. B. Schlafdauer.",
+      "folie": "10"
+    },
+    {
+      "begriff": "Abstrakte (latente) Variable",
+      "wortlaut": "Wenn sie nicht direkt beobachtbar ist und nicht direkt messbar ist, dann sprechen wir von einer abstrakten Variable bzw. einer latenten Variable (mündlich [50:31–50:40])",
+      "erklaerung": "Muss über Indikatoren operationalisiert werden, z. B. Klassenklima, Intelligenz.",
+      "folie": "10"
+    },
+    {
+      "begriff": "Mediatorvariable",
+      "wortlaut": "der Einfluss der unabhängigen auf die abhängige Variable wird teilweise vermittelt oder erklärt – das Wie und das Warum (mündlich [59:23–59:42])",
+      "erklaerung": "Steht zwischen X und Y und erklärt, warum X auf Y wirkt (z. B. Konzentration zwischen Sport und Noten).",
+      "folie": "12"
+    },
+    {
+      "begriff": "Moderatorvariable",
+      "wortlaut": "eine Variable, die Stärke oder auch gegebenenfalls Richtung des Einflusses der unabhängigen Variable auf die abhängige Variable beeinflussen bzw. ändern kann – wann oder für wen (mündlich [59:51–60:23])",
+      "erklaerung": "Verändert, wie stark oder für wen X auf Y wirkt (z. B. Schlaf).",
+      "folie": "12"
+    },
+    {
+      "begriff": "Störvariable",
+      "wortlaut": "der Einfluss der unabhängigen Variablen auf die abhängige Variable kann verfälscht werden, beispielsweise durch äußere Einflüsse wie Lärm (mündlich [60:51–61:12])",
+      "erklaerung": "Verzerrt das Ergebnis, z. B. Lärm oder eine Testperson, die die Studie durchschaut.",
+      "folie": "12"
+    },
+    {
+      "begriff": "Skala (Skalenniveau)",
+      "wortlaut": "„Der Begriff ‚Skala‘ beschreibt die Beschaffenheit des empirischen und des numerischen Relativs sowie eine Abbildungsfunktion, die die beiden verbindet. Dabei geht es um die Frage, wie das, was durch das empirische Relativ erfasst wird, durch ein numerisches Relativ (also durch Zahlen) sinnvoll repräsentiert werden kann.“ (Schäfer, 2016, S. 24)",
+      "erklaerung": "Die Regel, nach der beobachteten Ausprägungen Zahlen zugeordnet werden – eine Messlatte.",
+      "folie": "18"
+    },
+    {
+      "begriff": "Ratingskala",
+      "wortlaut": "„Ratingskalen verwendet man, um Urteile über einen bestimmten Gegenstand zu erfragen. Es wird ein Merkmalskontinuum vorgegeben, auf dem der Befragte die Merkmalsausprägung markiert, die seine subjektive Empfindung am besten wiedergibt.“ (Schäfer, 2016, S. 28)",
+      "erklaerung": "Z. B. 1 = stimme überhaupt nicht zu bis 7 = stimme voll und ganz zu; eigentlich ordinal, wird wie intervall behandelt.",
+      "folie": "21"
+    },
+    {
+      "begriff": "Soziale Erwünschtheit",
+      "wortlaut": "die Tendenz, dass Personen so antworten, wie sie glauben, dass sie antworten sollen […], was gesellschaftlich anerkannt ist, aber nicht unbedingt dem tatsächlichen Erleben oder Verhalten entsprechen muss (mündlich [35:14–35:36])",
+      "erklaerung": "Antwortverzerrung bei Fragebögen und (stärker) bei Interviews.",
+      "folie": "7"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "**Fall 1:** Ein Forscher führt eine Umfrage unter 1.500 Schüler:innen in Deutschland durch, bei der diese ihre Einschätzungen zu Aussagen über das Klassenklima auf einer Skala von 1 bis 5 angeben sollen. Die Ergebnisse werden statistisch ausgewertet.\n\n**Fall 2:** Eine Forscherin führt 20 ausführliche Gespräche mit Mitarbeiter:innen durch, um ihre Berufsbiografien zu rekonstruieren und Bedingungen für Arbeitszufriedenheit bzw. -unzufriedenheit zu identifizieren.\n\n1. Welcher Forschungsansatz wird angewandt?\n2. Welche Erhebungsmethode wird genutzt?\n3. Inwiefern gibt es Hinweise auf Stichprobe und Grundgesamtheit?\n4. Welche Vor- und Nachteile haben die Methoden?",
+      "quelle": "Folie 7",
+      "loesung": "| | Fall 1 | Fall 2 |\n|---|---|---|\n| 1. Ansatz | **quantitativ** | **qualitativ** |\n| 2. Methode | standardisierter Fragebogen (geschlossene Fragen, Skala 1–5) | ausführliche (Leitfaden-)Interviews |\n| 3. Stichprobe/GG | **Stichprobe** – die Grundgesamtheit (alle Schüler:innen in Deutschland) ist viel größer [26:43–27:01] | **kommt darauf an:** hat das Unternehmen nur 20 Mitarbeitende, sind sie die **Grundgesamtheit**; bei z. B. 500 eine kleine Stichprobe [24:32–24:58] |\n| 4. Vorteile | schnell viele Daten; repräsentative, verallgemeinerbare Aussagen; Befragte füllen allein aus | tiefe Einblicke in Einstellungen; Nachfragen möglich |\n| 4. Nachteile | wenig detailliert, keine Individualität; Tendenz zur Mitte; Abbrüche bei langen/heiklen Fragen; zu allgemeine Items; soziale Erwünschtheit | nicht verallgemeinerbar; zeitaufwendig (20 Interviews à 1 Std. = 20 Std.); kommunikative Kompetenz beider Seiten nötig; soziale Erwünschtheit (stärker als bei Fragebögen) |\n\n[19:28–38:22]",
+      "loesungsweg": "Merkmale der Fälle (Anzahl, Standardisierung, Auswertung) den Ansätzen zuordnen; bei Stichprobe/GG fragen, über wen eine Aussage getroffen werden soll.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "Wieso kann eine Theorie nie als „bewiesen“ gelten?",
+      "quelle": "Folie 8",
+      "loesung": "Nach dem **Falsifikationsprinzip (Popper)** kann man nie alle denkbaren Fälle prüfen; es könnte immer eine Ausnahme geben. Ein einziges Gegenbeispiel genügt, um eine Hypothese zu widerlegen (Beispiel: „Alle Schwäne sind weiß“ gilt, bis man einen schwarzen Schwan findet). Deshalb sagt man, eine Hypothese bzw. Theorie hat sich **bewährt** – solange, bis sie widerlegt wird –, nicht, sie sei bewiesen [45:45–47:28].",
+      "loesungsweg": "Falsifikationsprinzip nennen → Grund (nicht alle Fälle prüfbar, ein Gegenbeispiel reicht) → Begriff „bewährt“.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "text": "1. Welche Art von Variable stellt das Klassenklima (s. Fall 1) dar (konkret oder abstrakt)?\n2. Welche Forschungshypothesen könnten im Hinblick auf das Klassenklima verfolgt werden?\n3. Welche Rolle spielt die Operationalisierung hierbei bzw. wie könnte das Klassenklima erfasst werden?",
+      "quelle": "Folie 10",
+      "loesung": "1. **Abstrakt (latent):** nicht direkt beobachtbar und messbar; jede Person nimmt es anders wahr → man spricht vom **wahrgenommenen Klassenklima** [50:49–51:44].\n2. Beispiele aus dem Seminar [51:44–52:43]:\n- Je positiver das wahrgenommene Klassenklima, desto höher das **Engagement im Unterricht** (positiver Zusammenhang).\n- Je positiver das wahrgenommene Klassenklima, desto höher das **Selbstwertgefühl** der Schüler:innen (positiver Zusammenhang).\n- Je positiver das wahrgenommene Klassenklima, desto geringer **Belastungen wie Prüfungsangst** (negativer Zusammenhang).\n- Je positiver das wahrgenommene Klassenklima, desto geringer das **Ausmaß an störendem Verhalten** (negativer Zusammenhang).\n3. Weil das Klassenklima abstrakt ist, muss es **operationalisiert** werden: Man bestimmt **Indikatoren**, die messbar sind, z. B. Fragen zur **Lehrer-Schüler-Beziehung** („Die Lehrkraft bemüht sich um mich“) und zur **Schüler-Schüler-Beziehung** („Ich habe Schwierigkeiten mit meinen Mitschüler:innen“), beantwortet auf einer Skala von 1 = trifft ganz und gar nicht zu bis 5 = trifft voll und ganz zu. So entstehen Zahlenwerte [53:02–54:46].",
+      "loesungsweg": "Prüfen: direkt beobachtbar? → Hypothesen als Je-desto-Aussagen formulieren → Teilaspekte (Dimensionen) und Items mit Antwortskala bilden.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel: In einem Experiment wird das Ausmaß an körperlicher Aktivität bei Student:innen variiert, um herauszufinden, inwiefern ihre akademische Leistung dadurch beeinflusst wird.\n\nWas stellt die unabhängige, was die abhängige Variable dar?",
+      "quelle": "Folie 11",
+      "loesung": "**Unabhängige Variable (X):** körperliche Aktivität – sie wird gezielt verändert (variiert).\n**Abhängige Variable (Y):** akademische Leistung – sie wird gemessen (z. B. über Noten) [57:44–58:37].",
+      "loesungsweg": "Was wird verändert? → unabhängig. Was wird gemessen? → abhängig.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a05",
+      "art": "Aufgabe auf Folie",
+      "text": "Welche Variablen könnten als Mediator- bzw. Moderatorvariablen fungieren? (Beispiel: körperliche Aktivität → akademische Leistung; Folie 16: Ziele → Leistung)",
+      "quelle": "Folien 13–16",
+      "loesung": "**Körperliche Aktivität → akademische Leistung** (Folie 14) [61:38–63:16]:\n- **Mediatoren:** Konzentrationsfähigkeit, Ausdauer\n- **Moderatoren:** Menge an Schlaf, gesunde/ungesunde Ernährung\n\n**Ziele (spezifisch, schwierig, aber erreichbar) → Leistung** (Folie 16, Kauffeld & Schermuly, 2019, S. 256) [63:26–64:38]:\n- **Mediatoren:** Anstrengung, Ausdauer, Aktivierung, Aufmerksamkeitsausrichtung\n- **Moderatoren:** Akzeptanz/positive Zielbindung, ausreichende Fähigkeiten, Feedback über Teil- und Zwischenergebnisse, geeignete Werkzeuge, Materialien, Arbeitsmethoden und -umgebung, geringe Aufgabenkomplexität",
+      "loesungsweg": "Mediator: Erklärt es, *warum* X wirkt? Moderator: Hängt davon ab, *wie stark/für wen* X wirkt?",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a06",
+      "art": "Aufgabe auf Folie",
+      "text": "Welches Skalenniveau (Nominalskala, Ordinalskala, Intervallskala, Verhältnisskala) weisen die folgenden Beispiele jeweils auf?\n- Alter\n- Ranking von Hochschulen\n- Wohnort\n- Uhrzeit\n- Familienstand\n- Intelligenzquotient\n- Dauer von Schlaf in einer Nacht\n- Platzierung in einem Zeichenwettbewerb",
+      "quelle": "Folie 20",
+      "loesung": "| Beispiel | Skalenniveau | Begründung |\n|---|---|---|\n| Alter | **Verhältnisskala** | natürlicher Nullpunkt (Geburt), „doppelt so alt“ sinnvoll |\n| Ranking von Hochschulen | **Ordinalskala** | Reihenfolge, Abstände unbekannt |\n| Wohnort | **Nominalskala** | nur verschieden |\n| Uhrzeit | **Intervallskala** | gleiche Abstände (Stunden, Minuten), Nullpunkt festgelegt |\n| Familienstand | **Nominalskala** | nur verschieden |\n| Intelligenzquotient | **Intervallskala** | gleiche Abstände, kein natürlicher Nullpunkt (konstruiert) |\n| Dauer von Schlaf in einer Nacht | **Verhältnisskala** | 0 Stunden = kein Schlaf |\n| Platzierung in einem Zeichenwettbewerb | **Ordinalskala** | 1./2./3. Platz, Abstände unbekannt |\n\n[83:01–89:37]",
+      "loesungsweg": "Von unten prüfen: nur verschieden? → ordnbar? → gleiche Abstände? → natürlicher Nullpunkt?",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Textvorbereitung S04: Lohaus, Vierhaus & Lemola (2024) – 2 Leitfragen",
+      "text": "Lohaus, A., Vierhaus, M., & Lemola, S. (2024). *Entwicklungspsychologie des Kindes- und Jugendalters für Bachelor* (5. Aufl.). Springer. S. 46–49 (Kap. 2.8.1 „Die Konzeption von Bronfenbrenner“ und 2.8.2 „Die Familie als Beispiel für ein Mikrosystem“); S. 45 (Beginn Kap. 2.8 „Systemorientierte Theorien“) als Kontext.\n\n1. Wie beschreibt Bronfenbrenners ökologisches Modell die verschiedenen Umweltsysteme, die die Entwicklung eines Menschen beeinflussen?\n2. Wie stehen diese Systeme miteinander in Wechselwirkung?\n\nModul pyb005.2 – Pädagogische Psychologie, Seminar Gruppe D · Sitzung Mo 02.11.2026 · Thema: Entwicklungspsychologische Aspekte",
+      "quelle": "Folie 23",
+      "loesung": "### Ausgangspunkt: Warum eine systemorientierte Sicht?\n\nDie vorher im Buch behandelten Theorien schauen nur auf das einzelne Kind. Die **systemorientierten Theorien** betonen dagegen: Entwicklung passiert nie isoliert, sondern immer in einer Umgebung. Ein **System** ist laut Text „eine Menge ineinander verschachtelter Strukturen, die sich gegenseitig beeinflussen“ (S. 45 f.). Deshalb muss Entwicklung „immer auch vor dem Hintergrund des Gesamtsystems, in das sie eingeschlossen ist“, betrachtet werden (S. 46). Wichtig: Der Einfluss geht in beide Richtungen – auch das Kind verändert sein Umfeld (S. 46).\n\n### Leitfrage 1\n\n**Leitfrage 1:** *„Wie beschreibt Bronfenbrenners ökologisches Modell die verschiedenen Umweltsysteme, die die Entwicklung eines Menschen beeinflussen?“*\n\n**Antwort:**\n\nNach Bronfenbrenner (1979) lässt sich das soziale System, in das ein Mensch eingebunden ist, in mehrere **Teilsysteme** (Systemebenen) aufgliedern (S. 46). Abb. 2.12 stellt sie als ineinander geschachtelte Ringe um das Kind dar, mit der Zeitachse als äußerem Rahmen. Unterschieden werden fünf Ebenen: Mikro-, Meso-, Exo-, Makro- und Chronosystem (S. 46).\n\n- **Mikrosystem:** Mikrosysteme sind „Lebensbereiche, in denen Menschen leicht direkte Interaktionen mit anderen aufnehmen können“ (S. 46). Gemeint ist die *unmittelbare Umgebung* eines Menschen, also die Orte, an denen er selbst anwesend ist und direkt mit anderen umgeht: Familie, Schule oder Arbeitsplatz (S. 46).\n- **Mesosystem:** Mesosysteme umfassen die „Wechselbeziehungen zwischen unterschiedlichen Lebensbereichen (Mikrosystemen)“, die für eine Person wichtig sind (S. 46). Das Mesosystem ist also kein eigener Ort, sondern die *Verbindung* zwischen zwei oder mehr Mikrosystemen. Beispiel aus dem Text: die Beziehung zwischen Schule und Elternhaus (S. 46).\n- **Exosystem:** Exosysteme sind Lebensbereiche, „an denen eine Person nicht unmittelbar beteiligt ist, die jedoch Einfluss auf die eigenen Lebensbereiche einer Person nehmen“ (S. 46). Das Kind ist dort selbst nicht dabei, spürt aber indirekt die Folgen. Beispiel: Freunde der Eltern, die den Eltern Ratschläge geben und damit indirekt das Kind beeinflussen (S. 46 f.).\n- **Makrosystem:** Makrosysteme „bilden die höchste Stufe der Hierarchie“ (S. 47). Sie umfassen die Gemeinsamkeiten und Ähnlichkeiten aller untergeordneten Systeme in einer Kultur oder Subkultur, also Einflüsse, die auf *alle* Mitglieder einer (Sub-)Kultur wirken. Beispiel: die gemeinsamen kulturellen Werte einer Gesellschaft (S. 47). *Subkultur* meint eine Teilgruppe innerhalb einer Gesellschaft mit eigenen Normen.\n- **Chronosystem:** Mit dem Chronosystem wird gezeigt, dass sich alle Systemebenen „nicht nur untereinander beeinflussen, sondern auch über die Zeit hinweg weiterentwickeln“ (S. 47). Es ist die *Zeitdimension* des Modells: Nicht nur das Kind entwickelt sich, sondern auch die Familie, soziale Netzwerke und die Gesellschaft insgesamt (S. 47).\n\n| Systemebene | Bedeutung (nach dem Text) | Beispiel aus dem Text |\n|---|---|---|\n| Mikrosystem | unmittelbare Umgebung, direkte Interaktion möglich | Familie, Schule, Arbeitsplatz (S. 46) |\n| Mesosystem | Wechselbeziehungen zwischen den Mikrosystemen einer Person | Beziehung zwischen Schule und Elternhaus (S. 46) |\n| Exosystem | Person nicht selbst beteiligt, aber indirekter Einfluss auf ihre Lebensbereiche | Freunde der Eltern, die Ratschläge geben (S. 46 f.) |\n| Makrosystem | höchste Ebene; Gemeinsamkeiten aller Systeme einer (Sub-)Kultur | gemeinsame kulturelle Werte einer Gesellschaft (S. 47) |\n| Chronosystem | Veränderung aller Ebenen über die Zeit | Entwicklung einer Familie, sozialer Netzwerke, gesellschaftliche Veränderungen (S. 47) |\n\nDas wichtigste Mikrosystem in der Entwicklungspsychologie ist die **Familie** (Kap. 2.8.2, S. 47). Sie entwickelt sich selbst weiter – kontinuierlich oder in Sprüngen. Für eine **diskontinuierliche** (sprunghafte) Familienentwicklung sprechen drei typische Einschnitte (S. 47):\n\n- Veränderungen in der Zahl der Familienmitglieder (z. B. Geburt eines Geschwisterkindes, Auszug, Tod),\n- Beginn neuer Lebensabschnitte beim ersten Kind (Kindergarten, Schule) – beim ersten Kind ist die Verunsicherung am größten, bei weiteren Kindern kann man sich an Erfahrungen orientieren,\n- Ausscheiden eines Familienmitglieds aus dem Arbeitsleben.\n\nDaraus entstanden **Familienstufenkonzepte**: Der Familienzyklus wird in aufeinanderfolgende Stufen eingeteilt, die durch Einschnitte getrennt sind und unterschiedlich lange dauern können. Trifft eine solche Stufenfolge in einer Gesellschaft auf viele Familien zu, spricht man von **normativer Familienentwicklung** (S. 47). Für einzelne Phasen gibt es eigene Modelle, z. B. das Phasenmodell zum Übergang in die Elternschaft von Gloger-Tippelt (1988) mit acht Phasen von der Verunsicherungsphase bis zur Gewöhnungsphase (S. 48). Kritik: Alle Phasenmodelle gehen von einem **idealtypischen Verlauf** aus. Für viele Familienformen (z. B. Alleinerziehende) gilt dieser nur eingeschränkt (S. 48).\n\n**Kurz erklärt:** Stell dir das Modell wie Zwiebelschalen um das Kind vor. Ganz innen sind die Orte, an denen das Kind selbst ist (Familie, Klasse). Eine Schale weiter liegen die Verbindungen zwischen diesen Orten (Elternabend, Hausaufgabenheft). Noch weiter außen liegt, wo das Kind nicht dabei ist, was es aber trotzdem betrifft (die Freundin der Mutter rät ihr, strenger bei Medienzeiten zu sein). Ganz außen stehen die Werte der Gesellschaft (z. B. wie wichtig Bildung genommen wird). Und alles verändert sich mit der Zeit (Chronosystem).\n\n**Prüfungsfalle:** *Mesosystem vs. Exosystem.* Beim Mesosystem ist das Kind an **beiden** verbundenen Bereichen selbst beteiligt (Schule *und* Elternhaus). Beim Exosystem ist das Kind an dem Bereich **nicht** beteiligt (Freunde der Eltern). Merkhilfe: Meso = „zwischen“ meinen Bereichen, Exo = „außerhalb“ von mir. Zweite Falle: Das Mesosystem ist eine *Beziehung*, kein Ort. „Die Schule“ allein ist ein Mikrosystem, „der Kontakt zwischen Lehrkraft und Eltern“ ist Mesosystem.\n\n**Typische Klausurfrage:** Fallbeispiel: „Die Mutter von Lena (8) bespricht mit ihrer Freundin, ob Lena auf eine weiterführende Schule gehen soll. Die Freundin rät ihr zum Gymnasium.“ Welche Systemebene ist betroffen? → Exosystem (Lena ist an dem Gespräch nicht beteiligt, wird aber beeinflusst). Variante: „Die Klassenlehrerin ruft Lenas Eltern wegen fehlender Hausaufgaben an.“ → Mesosystem.\n\n### Leitfrage 2\n\n**Leitfrage 2:** *„Wie stehen diese Systeme miteinander in Wechselwirkung?“*\n\n**Antwort:**\n\n**Wechselwirkung** heißt: Einflüsse wirken nicht nur in eine Richtung, sondern gegenseitig. Der Text beschreibt das auf mehreren Ebenen:\n\n1. **Verschachtelung und gegenseitiger Einfluss:** Schon die Definition von „System“ enthält die Wechselwirkung: Die Strukturen sind „ineinander verschachtelt“ und „beeinflussen sich gegenseitig“ (S. 45 f.). Die Ebenen sind also nicht getrennte Kästchen, sondern greifen ineinander.\n2. **Kind und Umwelt beeinflussen sich wechselseitig:** „Weiterhin wird auch das umgebende System von dem sich entwickelnden Individuum beeinflusst“ (S. 46). Beispiel aus dem Text: Eltern haben keine „ein für alle Mal festgelegten Erziehungstechniken“, sondern passen sich ständig in der Interaktion mit dem Kind an. Die Eltern entwickeln sich also ebenso weiter wie das Kind (S. 46).\n3. **Verbindungen zwischen Mikrosystemen (Mesosystem):** Das Mesosystem *ist* selbst eine Form der Wechselwirkung, denn es besteht aus den „Wechselbeziehungen“ zwischen Mikrosystemen wie Schule und Elternhaus (S. 46).\n4. **Indirekte Wirkung von außen nach innen (Exosystem):** Exosysteme wirken über Umwege auf die Lebensbereiche der Person. Die Freunde der Eltern beeinflussen über Ratschläge die Eltern und damit das Kind (S. 46 f.).\n5. **Das Makrosystem prägt alle anderen Ebenen:** Es umfasst die Gemeinsamkeiten „der untergeordneten Systeme“ einer (Sub-)Kultur (S. 47). Gemeinsame Werte wirken also durch alle darunterliegenden Ebenen hindurch auf jedes Mitglied der Kultur.\n6. **Wechselwirkung über die Zeit (Chronosystem):** Alle Ebenen beeinflussen sich „nicht nur untereinander“, sondern entwickeln sich auch über die Zeit weiter (S. 47). Veränderungen auf einer Ebene (z. B. in der Gesellschaft) können so andere Ebenen (z. B. die Familie) verändern.\n\n**Beispiel Familie (S. 48 f.):** Am Mikrosystem Familie zeigt der Text, wie Entwicklung des Einzelnen und des Systems zusammenhängen. Das **Anforderungs-Bewältigungs-Modell** wird auf die ganze Familie übertragen: Der Schuleintritt eines Kindes ist eine Entwicklungsaufgabe „die sich dem gesamten System der Familie stellt“ (S. 48). Gelingt die Bewältigung, folgen Zufriedenheit, Anerkennung und Erfolg bei späteren Aufgaben; misslingt sie, folgen Unzufriedenheit, Missbilligung und spätere Schwierigkeiten (S. 48).\n\nDabei kann **Familienstress** entstehen. Er ist gekennzeichnet durch „ein tatsächliches oder wahrgenommenes Ungleichgewicht zwischen den Anforderungen einer Situation und den Fähigkeiten und Ressourcen der Familie“ (S. 48). Ein **Familienstressor** ist ein Lebensereignis oder Übergangsstadium, das in der Familie Veränderung auslöst oder auslösen kann (S. 48 f.). Ob Probleme entstehen, hängt ab von (S. 49):\n\n| Ressourcen | Was gehört dazu? (nach dem Text) |\n|---|---|\n| **Intrafamiliär** (innerhalb der Familie) | persönliche Bewältigungsressourcen der Mitglieder (soziale Kompetenzen, Problemlösekompetenzen, Regeln des Zusammenlebens) und Ressourcen des Familiensystems; besonders wichtig: **dyadisches Coping** (gemeinsame Alltagsbewältigung als Paar) und gegenseitige Unterstützung der Eltern |\n| **Extrafamiliär** (von außen) | soziale Unterstützung (z. B. emotionale Unterstützung, Wertschätzung), instrumentelle Unterstützung (z. B. Beratung, Therapie), aktive Unterstützung (z. B. Hilfe durch Tätigkeiten), materielle Hilfe (Geld, Güter, Dienstleistungen) |\n\nExtrafamiliäre Hilfe erhöht meist die Chance auf eine positive Familienentwicklung. Aktive und materielle Hilfe können aber auch zu **Abhängigkeiten** führen, z. B. von den Großeltern (S. 49).\n\n*Eigene Verknüpfung (nicht ausdrücklich im Text):* Die extrafamiliären Ressourcen zeigen, wie andere Systeme von außen auf das Mikrosystem Familie einwirken – also eine Wechselwirkung zwischen Ebenen.\n\n*Hinweis:* Kap. 2.8.3 (S. 49 ff.) vertieft das Makrosystem am Beispiel Kultur, gehört aber nicht zur Aufgabe.\n\n**Kurz erklärt:** Alles hängt mit allem zusammen. Beispiel: Ein Kind kommt in die 1. Klasse (neues Mikrosystem). Das verändert den Alltag der ganzen Familie: Aufstehzeiten, Hausaufgabenbegleitung, Kontakt zur Lehrkraft (Mesosystem). Wenn die Eltern unsicher sind und Freunde um Rat fragen, wirkt das Exosystem. Gleichzeitig beeinflusst das Kind selbst die Eltern: Ist es schnell überfordert, ändern die Eltern ihr Verhalten. Und gesellschaftliche Erwartungen an Schulerfolg (Makrosystem) stehen im Hintergrund.\n\n**Prüfungsfalle:** Wechselwirkung heißt **nicht** nur „die Umwelt prägt das Kind“. Der Text betont ausdrücklich auch die Gegenrichtung: Das Kind beeinflusst sein Umfeld, und die Eltern entwickeln sich mit (S. 46). Eine Antwort wie „Das Kind ist passives Produkt seiner Umwelt“ ist falsch. Außerdem: Das Chronosystem ist keine weitere „Schale“ mit Personen, sondern die Zeitdimension aller Ebenen.\n\n**Typische Klausurfrage:** „Welche Aussagen zu Bronfenbrenners Modell sind richtig? (mehrere richtig)“ – a) Die Systeme beeinflussen sich gegenseitig. ✔ b) Das Individuum beeinflusst auch das umgebende System. ✔ c) Das Chronosystem beschreibt die Veränderung der Systeme über die Zeit. ✔ d) Das Exosystem umfasst Bereiche, in denen das Kind direkt mit anderen interagiert. ✘ (das ist das Mikrosystem).\n\n### Wichtige Begriffe\n\n- **Systemorientierte Theorie** – Sicht, nach der Entwicklung immer im Zusammenspiel mit dem Umfeld (System) betrachtet wird.\n- **System** – ineinander verschachtelte Strukturen, die sich gegenseitig beeinflussen (S. 45 f.).\n- **Mikrosystem** – unmittelbare Umgebung mit direkter Interaktion (Familie, Schule, Arbeitsplatz).\n- **Mesosystem** – Wechselbeziehungen zwischen den Mikrosystemen einer Person (Schule – Elternhaus).\n- **Exosystem** – Bereich ohne eigene Beteiligung, der indirekt wirkt (Freunde der Eltern).\n- **Makrosystem** – höchste Ebene; gemeinsame Einflüsse einer (Sub-)Kultur (kulturelle Werte).\n- **Chronosystem** – Veränderung aller Systemebenen über die Zeit.\n- **Normative Familienentwicklung** – Stufenfolge, die in einer Gesellschaft auf viele Familien zutrifft.\n- **Anforderungs-Bewältigungs-Modell** – Entwicklung durch Auseinandersetzung mit Anforderungen; hier übertragen auf die Familie.\n- **Familienstress** – Ungleichgewicht zwischen Anforderungen und Ressourcen der Familie.\n- **Dyadisches Coping** – gemeinsame Bewältigung alltäglicher Anforderungen durch ein Paar.\n- **Intra- vs. extrafamiliäre Ressourcen** – Bewältigungsquellen innerhalb vs. außerhalb der Familie.\n\n### Mögliche Diskussionsfragen fürs Seminar\n\n*(Eigene Ergänzung, nicht aus dem Text)*\n\n- Welche Mesosystem-Verbindungen kann eine Lehrkraft aktiv gestalten (z. B. Elternarbeit), und wo liegen Grenzen, wenn Eltern schwer erreichbar sind?\n- Der Text kritisiert idealtypische Familienmodelle (S. 48). Was bedeutet das für Schule, wenn viele Kinder in Patchwork- oder Ein-Eltern-Familien leben?\n- Kann Schule für manche Familien eine extrafamiliäre Ressource sein – und wo könnte daraus Abhängigkeit oder Überforderung entstehen?",
+      "loesungsweg": "Text S. 45–49 gelesen; je Leitfrage Systemebenen bzw. Wechselwirkungen mit Seitenangaben und Beispielen ausgearbeitet.",
+      "frist": "2026-11-02",
+      "im_kalender": true,
+      "fuer_sitzung": "pyb005.2_2026-11-02",
+      "kalender_id": "d608da55-e542-456a-a23c-8fd19f5a534f",
+      "pdf": "/dateien/pyb005/S04_2026-11-02_Hausaufgabe_Textvorbereitung_Lohaus-Vierhaus-Lemola_Leitfragen.pdf"
+    },
+    {
+      "id": "h02",
+      "art": "Hausaufgabe",
+      "titel": "Textvorbereitung S04: Boeger & Lüdmann (2023) – 2 Leitfragen",
+      "text": "Boeger, A., & Lüdmann, M. (2023). *Psychologie für Erziehungswissenschaften und Soziale Arbeit*. Springer. S. 19–25 (Kap. 1.3 „Das Konzept der Entwicklungsaufgaben“).\n\n1. Was lässt sich unter dem Konzept der Entwicklungsaufgaben verstehen?\n2. Was sind Entwicklungsaufgaben nach Havighurst?\n\nModul pyb005.2 – Pädagogische Psychologie, Seminar Gruppe D · Sitzung Mo 02.11.2026 · Thema: Entwicklungspsychologische Aspekte",
+      "quelle": "Folie 24",
+      "loesung": "### Leitfrage 1\n\n**Leitfrage 1:** *„Was lässt sich unter dem Konzept der Entwicklungsaufgaben verstehen?“*\n\n**Antwort:**\n\n**Wozu das Konzept?** Eine Entwicklungspsychologie der **Lebensspanne** (Entwicklung von der Zeugung bis zum Tod) muss den Lebenslauf in untersuchbare „Häppchen“ gliedern. Das Konzept der Entwicklungsaufgaben teilt den Lebenslauf dafür in Phasen ein, „in denen alterstypische Aufgaben zu bewältigen sind“ (S. 19).\n\n**Definition:** „Unter einer Entwicklungsaufgabe werden prototypische Anforderungen oder Lernaufgaben verstanden, die in einer bestimmten Lebensphase zu bewältigen sind“ (S. 20). Ihre Bewältigung „setzt individuelle Entwicklung in Gang und treibt sie voran“; neue Orientierungen und Strukturen werden möglich, sodass die Person „eine weitere Entwicklungsstufe erreicht“ (S. 20).\n\n*In eigenen Worten:* Entwicklungsaufgaben sind die typischen „Hürden“, die fast alle Menschen in einem bestimmten Alter meistern müssen. *Prototypisch* heißt: Sie sind beispielhaft-typisch für diese Phase. Wer eine solche Aufgabe löst, entwickelt sich weiter.\n\n**Merkmale laut Text:**\n\n- **Alterstypisch und normentsprechend:** typische Herausforderungen einer bestimmten Lebensphase (S. 19).\n- **Kulturspezifisch:** Nicht jede Kultur hat z. B. Schulpflicht oder ein gesetzliches Rentenalter (S. 19).\n- **Häufig Übergänge:** z. B. Schuleintritt, Berufseinstieg, Renteneintritt, Geburt des ersten Kindes (S. 19).\n- **„Kritisch“ und stressreich:** Übergänge sind **vulnerable** (verletzliche) Phasen, die das Risiko für psychische Störungen erhöhen. Nötig sind eigene Bewältigungsstrategien und Unterstützung aus der Umwelt (S. 19 f.).\n- **Normativ vs. nicht-normativ:** **Normativ** sind Aufgaben, die fast jede Person einer großen Population betreffen und an eine Altersstufe gebunden sind. **Nicht-normative** Aufgaben sind seltener und nicht an den Lebenslauf gebunden, z. B. ein schwerer Unfall, Verlust der Eltern im Kindesalter, Scheidung, Arbeitslosigkeit. Die Grenze ist nicht trennscharf: Scheidung oder Arbeitslosigkeit können durch gesellschaftlichen Wandel häufig und damit normativ werden (S. 20).\n- **Aufeinander aufbauend:** Aufgaben hängen zusammen; die Bewältigung einer Aufgabe ist Voraussetzung für weitere. Beispiel: Wer sich im Jugendalter nicht von den Eltern löst, geht im frühen Erwachsenenalter die Partnersuche nicht an (S. 20).\n\n**Drei Ursprünge von Entwicklungsaufgaben (S. 20):**\n\n| Ursprung | Beispiele aus dem Text |\n|---|---|\n| biologische Veränderungen | Pubertät, Klimakterium (Wechseljahre) |\n| gesellschaftliche und kulturelle Erwartungen | Eintritt in die Schule, Berufsausbildung, Heirat |\n| das Individuum selbst und seine Lebensziele | der Wunsch, Ärztin zu werden, um jeden Preis umzusetzen |\n\nDiese Bereiche spiegeln die biologische, soziale, kognitive und emotionale Dimension von Entwicklung wider (S. 20). Als zentrale biologische Entwicklungsaufgaben nennt der Text Pubertät, Schwangerschaft, Geburt, Wochenbett, Klimakterium und altersbedingte körperliche Einschränkungen – stark hormonell gesteuerte Übergänge, deren Wirkung durch psychosoziale Faktoren (z. B. Unterstützung durch Partner*in und Familie) abgefedert oder verstärkt werden kann (S. 21).\n\n**Bedeutung des Konzepts:** Es „verbindet Individuum und Umwelt“, weil es kulturelle (normative) Anforderungen mit den individuellen Voraussetzungen in Beziehung setzt, und es räumt dem Individuum „eine aktive Rolle bei der Gestaltung der eigenen Entwicklung ein“ (S. 20).\n\n**Kurz erklärt:** Entwicklungsaufgaben sind wie Etappen auf einem Weg, die fast alle gehen. Der Schuleintritt ist ein gutes Beispiel: Er wird von der Gesellschaft erwartet (Schulpflicht), ist an ein Alter gebunden und bedeutet Stress (neue Regeln, neue Kinder, Stillsitzen). Gelingt der Start, fällt später z. B. das Lesenlernen leichter. Eine Lehrkraft, die den Übergang gut begleitet, ist die im Text genannte „Hilfestellung aus der Umwelt“.\n\n**Prüfungsfalle:** *Normativ* bedeutet hier **nicht** „moralisch richtig“, sondern „betrifft fast alle in einer Altersstufe“. Und: Scheidung oder Arbeitslosigkeit sind im Text Beispiele für **nicht-normative** Aufgaben – mit dem Zusatz, dass sie durch gesellschaftlichen Wandel normativ werden können. Außerdem: Entwicklungsaufgaben haben nicht nur biologischen Ursprung, sondern auch gesellschaftlichen und individuellen.\n\n**Typische Klausurfrage:** „Tim (11) verliert durch einen Unfall seinen Vater. Welche Aussagen treffen zu? (mehrere richtig)“ – a) Es handelt sich um ein nicht-normatives Ereignis. ✔ b) Es ist an eine bestimmte Altersstufe gebunden. ✘ c) Solche Phasen sind vulnerabel und erhöhen das Risiko psychischer Störungen. ✔ d) Hilfestellungen aus der Umwelt sind für die Bewältigung wichtig. ✔\n\n### Leitfrage 2\n\n**Leitfrage 2:** *„Was sind Entwicklungsaufgaben nach Havighurst?“*\n\n**Antwort:**\n\nRobert **Havighurst** (1976) befragte Amerikaner*innen aller Altersstufen nach wichtigen Einschnitten in ihrem Leben. Daraus leitete er zentrale, allgemeingültige Themen ab, die er als alterstypische Aufgaben – „Entwicklungsaufgaben“ – formulierte (S. 21). Deutsche Forscher*innen (Dreher & Dreher, 1985) konnten die Bedeutung dieser Aufgaben auch für deutsche Stichproben nachweisen. Die Aufgaben wurden später überarbeitet und ergänzt (Hurrelmann & Quenzel, 2013; Fend, 2005; Waters & Sroufe, 1983); diese Ergänzungen sind in der Liste im Buch schon enthalten (S. 21). Pro Lebensphase nennt Havighurst **mehrere konkrete** Aufgaben.\n\n**Havighursts Entwicklungsaufgaben nach Lebensphasen** (S. 22 f., nach Havighurst, 1976, S. 80 ff.; Wortlaut wie im Text):\n\n| Lebensphase | Entwicklungsaufgaben |\n|---|---|\n| **Frühe Kindheit (0–6 Jahre)** | Fähigkeit zu laufen · Fähigkeit, feste Nahrung aufzunehmen · Fähigkeit zu sprechen · Fähigkeit, die Ausscheidungsvorgänge zu kontrollieren · Kenntnis von Geschlechtsunterschieden und Fähigkeit zum Empfinden sexueller Scham · Bildung von Konzepten und Lernen sprachlicher Begriffe zur Beschreibung der physischen und sozialen Realität · Entwicklung der Bereitschaft, lesen zu lernen · Fähigkeit, zwischen Recht und Unrecht zu unterscheiden und Entwicklung eines Gewissens |\n| **Mittlere Kindheit (6–12 Jahre)** | Erlernen von Fähigkeiten, die für normales Spielen nötig sind · Aufbau einer gesunden Einstellung zur eigenen Person als einem wachsenden Organismus · Fähigkeit, mit Altersgleichen zurechtzukommen · Erlernen einer passenden männlichen und weiblichen Rolle · Entwicklung grundlegender Fertigkeiten im Lesen, Schreiben und Rechnen · Entwicklung von Konzepten, die für das Verstehen des alltäglichen Lebens notwendig sind · Entwicklung von Gewissen, Moral und Wertmaßstäben |\n| **Jugendalter (12–18 Jahre)** | Erreichen persönlicher Unabhängigkeit · Entwicklung einer Einstellung gegenüber sozialen Gruppen und Institutionen · Aufbau neuer und reifer Beziehungen zu Gleichaltrigen · Aufbau intimer Beziehungen zu Gleichaltrigen · Klärung der Geschlechtsrolle · Akzeptanz der körperlichen Veränderungen und effektive Nutzung des Körpers · Emotionale Unabhängigkeit von den Eltern und anderen Erwachsenen · Erwerb intellektueller Kompetenzen · Erwerb sozialer Kompetenzen · Entwicklung eines individuellen Lebensplans · Umgang mit Konsum und Freizeit |\n| **Frühes Erwachsenenalter (18–30 Jahre)** | Wahl einer Person für eine Liebesbeziehung · Lernen, in einer Liebesbeziehung zu leben · Gründung einer Familie · Erziehen von Kindern · Führen eines Haushalts · Beginn des Berufslebens · Bürgerliche Verantwortung übernehmen |\n| **Mittleres Erwachsenenalter (30–60 Jahre)** | Eigene Kinder darin unterstützen, verantwortliche und glückliche Erwachsene zu werden · Erreichen sozialer und öffentlicher Verantwortlichkeit als erwachsene Person · Erreichen und Aufrechterhalten befriedigender Leistungen im Beruf · Entwicklung angemessener Freizeitaktivitäten · Pflege der Liebesbeziehung · Die physiologischen Veränderungen des mittleren Lebensalters akzeptieren und sich anpassen · Anpassung an alte Eltern |\n| **Späteres Erwachsenenalter (ab 60 Jahre)** | Anpassung an das Nachlassen der Kräfte und der Gesundheit · Anpassung an den Ruhestand und ein vermindertes Einkommen · Anpassung beim Tod der Partner*in · Aufbau einer expliziten Angliederung an die eigene Altersgruppe · In flexibler Weise die sozialen Rollen annehmen und sich daran anpassen · Aufbau befriedigender Lebensumstände |\n\n**Abgrenzung zu Erikson (S. 21, 23):** Das zweite bekannte Modell stammt von Erik **Erikson**. Es ähnelt Havighursts Konzept, ist aber globaler: Erikson nennt pro Lebensphase nur **eine** Aufgabe, die er **Entwicklungskrise** nennt – einen Gegensatz zwischen zwei Polen, zwischen denen eine Balance gefunden werden muss (z. B. Schulalter: „Werksinn gegen Minderwertigkeit“; Jugendalter: „Ich-Identität gegen Ich-Identitätsdiffusion“). Im Mittelpunkt steht bei ihm die lebenslange Entwicklung der **Identität** (S. 23).\n\n**Kritik (S. 25):** Entwicklungsaufgabenmodelle sind **normativ**, weil sie annehmen, dass alle Menschen die beschriebenen Stufen durchlaufen. Menschen unterscheiden sich aber nach Kultur, Persönlichkeit sowie sozialen und zeitgeschichtlichen Bedingungen. Zu Havighursts Zeit waren alternative Lebensmodelle (z. B. homosexuelle Ehen und Elternschaft, multiple Elternschaft, drittes Geschlecht) „weder denkbar noch erlaubt“. Das Modell braucht daher in einigen Aspekten eine Erweiterung (S. 25). Der Exkurs ergänzt: Kulturen unterscheiden sich u. a. nach **Individualismus** (Selbstverwirklichung zählt am meisten) und **Kollektivismus** (die Gruppe steht über dem Einzelnen), was die Identität prägt (S. 25).\n\n**Kurz erklärt:** Havighurst hat eine Art „Aufgabenliste“ für jede Lebensphase erstellt. Für die Grundschule (mittlere Kindheit) heißt das zum Beispiel: Lesen, Schreiben und Rechnen lernen, mit anderen Kindern auskommen und ein Gewissen entwickeln. Im Jugendalter (Sekundarstufe) geht es u. a. um Unabhängigkeit von den Eltern, Freundschaften und einen eigenen Lebensplan – das erklärt, warum für Jugendliche die Peergroup oft wichtiger wirkt als der Unterrichtsstoff.\n\n**Prüfungsfalle:** *Havighurst vs. Erikson.* Havighurst = **viele konkrete** Aufgaben pro Phase, gewonnen aus **Interviews**. Erikson = **eine** zentrale **Krise** (Gegensatzpaar) pro Phase, Fokus **Identität**, acht Stufen. Außerdem: Die Liste im Buch enthält auch spätere **Ergänzungen** anderer Forscher*innen (S. 21) – sie ist also nicht wortgleich mit Havighursts Originalliste. Und: Der Text ordnet „Fähigkeit, mit Altersgleichen zurechtzukommen“ der *mittleren Kindheit* zu, „Aufbau intimer Beziehungen zu Gleichaltrigen“ dem *Jugendalter* – leicht zu verwechseln.\n\n**Typische Klausurfrage:** „Mia (14) streitet viel mit ihren Eltern und verbringt die meiste Zeit mit ihrer Clique. Welche Entwicklungsaufgaben nach Havighurst sind hier berührt? (mehrere richtig)“ – a) Emotionale Unabhängigkeit von den Eltern und anderen Erwachsenen ✔ b) Aufbau neuer und reifer Beziehungen zu Gleichaltrigen ✔ c) Fähigkeit, die Ausscheidungsvorgänge zu kontrollieren ✘ d) Ich-Identität gegen Ich-Identitätsdiffusion ✘ (das ist Erikson, nicht Havighurst).\n\n### Wichtige Begriffe\n\n- **Entwicklungsaufgabe** – prototypische Anforderung oder Lernaufgabe einer bestimmten Lebensphase; ihre Bewältigung treibt Entwicklung voran (S. 20).\n- **Entwicklungspsychologie der Lebensspanne** – betrachtet Entwicklung von der Zeugung bis zum Tod.\n- **Normative Entwicklungsaufgabe** – betrifft fast alle Personen einer Altersstufe.\n- **Nicht-normative Entwicklungsaufgabe** – seltener, nicht an den Lebenslauf gebunden (Unfall, Scheidung).\n- **Vulnerable Phase** – verletzliche Übergangszeit mit erhöhtem Risiko für psychische Störungen.\n- **Klimakterium** – Wechseljahre; Beispiel für biologischen Ursprung.\n- **Havighurst** – Entwicklungsaufgaben-Modell mit mehreren konkreten Aufgaben pro Lebensphase, auf Basis von Interviews.\n- **Erikson / Entwicklungskrise** – eine zentrale Krise (Gegensatzpaar) pro Lebensphase, Fokus Identität.\n- **Individualismus / Kollektivismus** – Kulturdimension: Vorrang des Einzelnen vs. der Gruppe.\n\n### Mögliche Diskussionsfragen fürs Seminar\n\n*(Eigene Ergänzung, nicht aus dem Text)*\n\n- Welche Entwicklungsaufgaben aus Havighursts Liste kann Schule direkt unterstützen – und welche liegen eher außerhalb ihres Auftrags?\n- Ist eine „normative“ Liste aus den USA heute noch passend für eine vielfältige Schülerschaft in Deutschland (Kultur, Familienformen, Geschlechterrollen)?\n- Würdest du „Umgang mit digitalen Medien“ heute als eigene Entwicklungsaufgabe im Jugendalter ergänzen – oder steckt das schon in „Umgang mit Konsum und Freizeit“?",
+      "loesungsweg": "Text S. 19–25 gelesen; Konzept und Havighursts Liste nach Lebensphasen mit Seitenangaben ausgearbeitet.",
+      "frist": "2026-11-02",
+      "im_kalender": true,
+      "fuer_sitzung": "pyb005.2_2026-11-02",
+      "kalender_id": "6efad640-556c-4728-811c-06bc68d25d71",
+      "pdf": "/dateien/pyb005/S04_2026-11-02_Hausaufgabe_Textvorbereitung_Boeger-Luedmann_Leitfragen.pdf"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Alltagspsychologie oder wissenschaftliche Psychologie?",
+      "kategorien": [
+        "Alltagspsychologie",
+        "wissenschaftliche Psychologie"
+      ],
+      "elemente": [
+        {
+          "text": "beruht auf subjektiven Überzeugungen",
+          "kategorie": "Alltagspsychologie"
+        },
+        {
+          "text": "selektive Erfahrungen, lückenhaft",
+          "kategorie": "Alltagspsychologie"
+        },
+        {
+          "text": "systematische Überprüfung mit Forschungsmethoden",
+          "kategorie": "wissenschaftliche Psychologie"
+        },
+        {
+          "text": "Bezug auf Theorien und eine gesicherte Datenbasis",
+          "kategorie": "wissenschaftliche Psychologie"
+        }
+      ],
+      "erklaerung": "Alltag = subjektiv und selektiv; Wissenschaft = systematisch, methodisch, theoriebezogen.",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu: quantitativ, qualitativ oder Mixed Methods?",
+      "kategorien": [
+        "quantitativ",
+        "qualitativ",
+        "Mixed Methods"
+      ],
+      "elemente": [
+        {
+          "text": "standardisierter Fragebogen an einer großen Stichprobe",
+          "kategorie": "quantitativ"
+        },
+        {
+          "text": "Leitfadeninterviews mit wenigen Personen",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "teilnehmende Beobachtung, um Bedeutungen zu verstehen",
+          "kategorie": "qualitativ"
+        },
+        {
+          "text": "Experiment mit statistischer Auswertung",
+          "kategorie": "quantitativ"
+        },
+        {
+          "text": "erst Fragebogen, dann vertiefende Interviews mit Einzelnen",
+          "kategorie": "Mixed Methods"
+        }
+      ],
+      "erklaerung": "Quantitativ = messen, standardisiert, viele; qualitativ = offen, wenige, deuten; Mixed = Kombination.",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Wann ist eine Stichprobe repräsentativ?",
+      "antwort": "Wenn sie in den Quotenmerkmalen (z. B. Geschlecht, Alter, Herkunftsregion, Nationalität) so zusammengesetzt ist wie die Grundgesamtheit. Dann darf man von der Stichprobe auf die Grundgesamtheit schließen.",
+      "erklaerung": "Quotenmerkmale der GG auf die Stichprobe übertragen.",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Eine Forscherin führt 20 ausführliche Gespräche mit Mitarbeitenden, um ihre Berufsbiografien zu rekonstruieren. Welche Aussagen sind korrekt? (mehrere richtig)",
+      "optionen": [
+        "Es handelt sich um einen qualitativen Ansatz.",
+        "Die 20 Personen sind immer eine Stichprobe.",
+        "Hat das Unternehmen nur 20 Mitarbeitende, sind sie die Grundgesamtheit.",
+        "Die Ergebnisse lassen sich ohne Weiteres verallgemeinern."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Ausführliche Gespräche, Rekonstruktion → qualitativ. Ob Stichprobe oder GG, hängt von der Größe des Unternehmens ab. Qualitative Ergebnisse sind nicht ohne Weiteres verallgemeinerbar.",
+      "folie": "7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Vor- oder Nachteil – und von welcher Methode?",
+      "kategorien": [
+        "Fragebogen: Vorteil",
+        "Fragebogen: Nachteil",
+        "Interview: Vorteil",
+        "Interview: Nachteil"
+      ],
+      "elemente": [
+        {
+          "text": "schnell viele Daten",
+          "kategorie": "Fragebogen: Vorteil"
+        },
+        {
+          "text": "Tendenz zur Mitte",
+          "kategorie": "Fragebogen: Nachteil"
+        },
+        {
+          "text": "man kann nachfragen",
+          "kategorie": "Interview: Vorteil"
+        },
+        {
+          "text": "sehr zeitaufwendig",
+          "kategorie": "Interview: Nachteil"
+        },
+        {
+          "text": "wenig detailliert",
+          "kategorie": "Fragebogen: Nachteil"
+        },
+        {
+          "text": "tiefe Einblicke in persönliche Einstellungen",
+          "kategorie": "Interview: Vorteil"
+        }
+      ],
+      "erklaerung": "Aus der Besprechung von Folie 7 [27:28–38:22].",
+      "folie": "7",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f06",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter sozialer Erwünschtheit?",
+      "antwort": "Die Tendenz, so zu antworten, wie man glaubt, antworten zu sollen – also gesellschaftlich anerkannt –, auch wenn das nicht dem tatsächlichen Erleben oder Verhalten entspricht. Sie kommt bei Fragebögen und, stärker, bei persönlichen Interviews vor.",
+      "erklaerung": "Antwortverzerrung.",
+      "folie": "7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Quantitativer Erkenntnisprozess: Frage → [[Theorie]] → Forschungshypothese → [[Operationalisierung]] → Durchführung und Messung → Daten → Auswertung → Interpretation → Implikation für die Theorie",
+      "erklaerung": "Abbildung Schäfer (2016, S. 10).",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum Falsifikationsprinzip sind korrekt? (mehrere richtig)",
+      "optionen": [
+        "Eine Theorie gilt als bewährt, solange sie nicht widerlegt ist.",
+        "Viele bestätigende Befunde beweisen eine Theorie.",
+        "Ein einziges Gegenbeispiel kann eine Hypothese widerlegen.",
+        "Eine widerlegte Hypothese führt dazu, dass die Theorie angepasst wird."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Bewährt ≠ bewiesen; Schwanen-Beispiel; nach Widerlegung beginnt der Prozess neu.",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Erkläre, warum eine Theorie nie als „bewiesen“ gelten kann.",
+      "musterloesung": "Nach dem Falsifikationsprinzip (Popper) kann man nie alle Fälle prüfen; es könnte immer eine Ausnahme geben. Ein Gegenbeispiel reicht zur Widerlegung (alle Schwäne weiß – bis ein schwarzer gefunden wird). Darum hat sich eine Theorie nur bewährt, solange sie nicht widerlegt ist.",
+      "bewertungspunkte": [
+        "Falsifikationsprinzip/Popper",
+        "nicht alle Fälle prüfbar",
+        "ein Gegenbeispiel reicht",
+        "„bewährt“ statt „bewiesen“"
+      ],
+      "punkte": 4,
+      "erklaerung": "Aufgabe Folie 8.",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was unterscheidet eine konkrete (manifeste) von einer abstrakten (latenten) Variable?",
+      "antwort": "Eine konkrete Variable ist direkt beobachtbar und direkt messbar (z. B. Schlafdauer). Eine abstrakte Variable ist nicht direkt beobachtbar oder messbar (z. B. Klassenklima, Intelligenz) und muss über Indikatoren operationalisiert werden.",
+      "erklaerung": "Manifest = sichtbar, latent = verborgen.",
+      "folie": "10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Konkret oder abstrakt?",
+      "kategorien": [
+        "konkret",
+        "abstrakt"
+      ],
+      "elemente": [
+        {
+          "text": "Klassenklima",
+          "kategorie": "abstrakt"
+        },
+        {
+          "text": "Dauer von Schlaf",
+          "kategorie": "konkret"
+        },
+        {
+          "text": "Intelligenz",
+          "kategorie": "abstrakt"
+        },
+        {
+          "text": "körperliche Aktivität in Stunden",
+          "kategorie": "konkret"
+        }
+      ],
+      "erklaerung": "Direkt messbar → konkret.",
+      "folie": "10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Erläutere, wie das Klassenklima operationalisiert werden könnte, und formuliere eine passende Hypothese.",
+      "musterloesung": "Das Klassenklima ist eine abstrakte Variable und muss über Indikatoren messbar gemacht werden, z. B. Fragen zur Lehrer-Schüler-Beziehung („Die Lehrkraft bemüht sich um mich“) und zur Schüler-Schüler-Beziehung, beantwortet auf einer Skala von 1 (trifft ganz und gar nicht zu) bis 5 (trifft voll und ganz zu). Hypothese z. B.: Je positiver das wahrgenommene Klassenklima, desto höher das Engagement im Unterricht.",
+      "bewertungspunkte": [
+        "abstrakt → Indikatoren nötig",
+        "mindestens zwei Dimensionen/Items",
+        "Antwortskala",
+        "prüfbare Je-desto-Hypothese"
+      ],
+      "punkte": 4,
+      "erklaerung": "Transfer zu Folie 10.",
+      "folie": "10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "In einem Experiment wird die körperliche Aktivität von Studierenden variiert, um den Einfluss auf ihre akademische Leistung zu untersuchen. Was ist die abhängige Variable?",
+      "optionen": [
+        "akademische Leistung",
+        "körperliche Aktivität",
+        "Konzentrationsfähigkeit",
+        "Menge an Schlaf"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Gemessen wird die akademische Leistung (Y); variiert wird die körperliche Aktivität (X).",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Drittvariablen ihrer Funktion zu.",
+      "kategorien": [
+        "Mediator",
+        "Moderator",
+        "Störvariable"
+      ],
+      "elemente": [
+        {
+          "text": "erklärt, wie bzw. warum X auf Y wirkt",
+          "kategorie": "Mediator"
+        },
+        {
+          "text": "beeinflusst Stärke oder Richtung des Effekts (wann/für wen)",
+          "kategorie": "Moderator"
+        },
+        {
+          "text": "verfälscht das Ergebnis, z. B. Lärm",
+          "kategorie": "Störvariable"
+        }
+      ],
+      "erklaerung": "Mediator = Mitte, Moderator = moduliert, Störvariable = verzerrt.",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Mehr Sport führt zu besseren Noten. Der Effekt ist bei Studierenden mit viel Schlaf stärker; er entsteht, weil Sport die Konzentration verbessert. Welche Aussagen sind korrekt? (mehrere richtig)",
+      "optionen": [
+        "Schlaf ist eine Moderatorvariable.",
+        "Konzentrationsfähigkeit ist eine Mediatorvariable.",
+        "Schlaf ist eine Mediatorvariable.",
+        "Noten sind die abhängige Variable."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Schlaf bestimmt die Stärke (Moderator); Konzentration erklärt das Warum (Mediator); Noten werden gemessen (aV).",
+      "folie": "13–14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne jedem Skalenniveau seine Relation zu.",
+      "kategorien": [
+        "Nominalskala",
+        "Ordinalskala",
+        "Intervallskala",
+        "Verhältnisskala"
+      ],
+      "elemente": [
+        {
+          "text": "Verschiedenheit",
+          "kategorie": "Nominalskala"
+        },
+        {
+          "text": "Rangordnung",
+          "kategorie": "Ordinalskala"
+        },
+        {
+          "text": "Differenzen",
+          "kategorie": "Intervallskala"
+        },
+        {
+          "text": "Verhältnisse, natürlicher Nullpunkt",
+          "kategorie": "Verhältnisskala"
+        }
+      ],
+      "erklaerung": "Tabelle Folie 19.",
+      "folie": "19",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welches Skalenniveau liegt vor?",
+      "kategorien": [
+        "Nominalskala",
+        "Ordinalskala",
+        "Intervallskala",
+        "Verhältnisskala"
+      ],
+      "elemente": [
+        {
+          "text": "Alter",
+          "kategorie": "Verhältnisskala"
+        },
+        {
+          "text": "Ranking von Hochschulen",
+          "kategorie": "Ordinalskala"
+        },
+        {
+          "text": "Wohnort",
+          "kategorie": "Nominalskala"
+        },
+        {
+          "text": "Uhrzeit",
+          "kategorie": "Intervallskala"
+        },
+        {
+          "text": "Familienstand",
+          "kategorie": "Nominalskala"
+        },
+        {
+          "text": "Intelligenzquotient",
+          "kategorie": "Intervallskala"
+        },
+        {
+          "text": "Dauer von Schlaf in einer Nacht",
+          "kategorie": "Verhältnisskala"
+        },
+        {
+          "text": "Platzierung in einem Zeichenwettbewerb",
+          "kategorie": "Ordinalskala"
+        }
+      ],
+      "erklaerung": "Übung Folie 20 – Achtung Alter: natürlicher Nullpunkt → Verhältnisskala.",
+      "folie": "20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Skalenniveaus und Ratingskalen sind korrekt? (mehrere richtig)",
+      "optionen": [
+        "Je höher das Skalenniveau, desto mehr Rechenoperationen sind möglich.",
+        "Bei der Intervallskala gibt es einen natürlichen Nullpunkt.",
+        "Ratingskalen sind eigentlich ordinal, werden aber oft wie Intervallskalen behandelt.",
+        "Mit Nominaldaten kann man sinnvoll Mittelwerte berechnen."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Intervallskala: kein natürlicher Nullpunkt; Nominaldaten: nur Häufigkeiten; Ratingskalen werden als intervall behandelt, um Mittelwerte zu bilden.",
+      "folie": "18–21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Du möchtest herausfinden, wie Schüler:innen deiner Schule den Ganztag erleben. Begründe, ob du quantitativ, qualitativ oder mit Mixed Methods vorgehen würdest.",
+      "musterloesung": "Z. B. Mixed Methods: Ein standardisierter Fragebogen an alle bzw. eine repräsentative Stichprobe zeigt, wie zufrieden viele Schüler:innen sind und ob es Unterschiede (z. B. nach Klassenstufe) gibt; anschließende Leitfadeninterviews mit einzelnen Schüler:innen klären, warum sie den Ganztag so erleben. Begründung: Der Fragebogen liefert verallgemeinerbare Zahlen, die Interviews tiefe Einblicke.",
+      "bewertungspunkte": [
+        "Ansatz gewählt",
+        "Methode passend benannt",
+        "Begründung über Ziel (Messen vs. Verstehen)",
+        "Vor- und Nachteile berücksichtigt"
+      ],
+      "punkte": 4,
+      "erklaerung": "Transfer auf Schule.",
+      "folie": "6–7",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f20",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Eine Lehrkraft vermutet: „Je mehr Hausaufgaben, desto bessere Noten.“ Nenne die unabhängige und die abhängige Variable sowie je ein Beispiel für einen möglichen Mediator, Moderator und eine Störvariable.",
+      "musterloesung": "uV: Menge an Hausaufgaben; aV: Noten. Mediator z. B.: mehr Übung/Wiederholung des Stoffs (erklärt, warum Hausaufgaben wirken). Moderator z. B.: Unterstützung durch die Eltern oder Vorwissen (bestimmt, für wen der Effekt stärker ist). Störvariable z. B.: Nachhilfe, die nicht erfasst wird, oder eine besonders laute Prüfungssituation.",
+      "bewertungspunkte": [
+        "uV korrekt",
+        "aV korrekt",
+        "plausibler Mediator (Wie/Warum)",
+        "plausibler Moderator (Wann/Für wen)",
+        "plausible Störvariable"
+      ],
+      "punkte": 5,
+      "erklaerung": "Transfer zu Folien 11–16.",
+      "folie": "11–16",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Klausur: 30 MC-Fragen, oft mit Fallbeispielen und mehreren richtigen Antworten (Altklausur WiSe 21/22 im Studydrive-Ordner) – Skalenniveaus und Forschungsansätze kamen dort an Fallbeispielen vor.",
+    "Dozentin: Die Zuordnung zu Skalenniveaus muss man selbst begründen; es gibt keine offizielle Zuordnung [89:45–90:11].",
+    "Prüfungsfalle Alter: natürlicher Nullpunkt → Verhältnisskala (im Seminar zunächst als intervall vermutet).",
+    "Stichprobe vs. Grundgesamtheit hängt davon ab, über wen man eine Aussage treffen will – nicht von der Anzahl."
+  ],
+  "offene_fragen": [
+    "Folie 15 fehlt im Foliensatz (Nummerierung springt von 14 auf 16) – ggf. in Stud.IP nachsehen.",
+    "Störvariable: In der VL (2.5, Folie 5) als Eigenschaften definiert, in denen sich Gruppen außer der uV unterscheiden; im Seminar allgemeiner als alles, was den Einfluss verfälscht (z. B. Lärm). Beide Fassungen passen zusammen."
+  ]
+}

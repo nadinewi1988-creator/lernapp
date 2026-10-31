@@ -342,7 +342,12 @@
       "wortlaut": "Eigenschaften, in denen sich Gruppen außer der untersuchten uV unterscheiden und die ebenfalls einen systematischen Einfluss auf die aV ausüben können.",
       "erklaerung": "Z. B. Klassenklima, Engagement der Lehrkraft.",
       "quelle": "pyb005.1_2026-10-21 · 2.5 · Folie 5",
-      "abweichungen": []
+      "abweichungen": [
+        {
+          "quelle": "pyb005.2_2026-10-26 · Folie 12 (mündlich)",
+          "wortlaut": "der Einfluss der unabhängigen Variablen auf die abhängige Variable kann verfälscht werden, beispielsweise durch äußere Einflüsse wie Lärm (mündlich [60:51–61:12])"
+        }
+      ]
     },
     {
       "begriff": "Querschnittstudie",
@@ -643,6 +648,69 @@
       "wortlaut": "die eingereichten Manuskripte werden von sog. Reviewer/innen (Expert/innen auf dem jeweiligen Fachgebiet) gelesen; diese entscheiden gemeinsam mit Herausgeber/innen eines Journals, ob ein Artikel veröffentlicht, zur Bearbeitung zurückgeschickt oder abgelehnt wird.",
       "erklaerung": "Begutachtung durch Fachleute.",
       "quelle": "pyb005.1_2026-10-21 · 2.8 · Folie 16",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Alltagspsychologie",
+      "wortlaut": "subjektive Überzeugungen […], die beruhen eben auf unseren Überzeugungen und sind eben auch selektiv – lückenhaft, selektiv und können Fehlern unterliegen (mündlich [03:12–04:05])",
+      "erklaerung": "Wissen aus dem Alltag, das auf eigenen, zufälligen Erfahrungen beruht – nicht systematisch geprüft.",
+      "quelle": "pyb005.2_2026-10-26 · Folie 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Wissenschaftliche Psychologie",
+      "wortlaut": "ein systematischer Prozess […], dass wir eben systematisch etwas überprüfen möchten, mithilfe von verschiedenen Forschungsmethoden […], Informationen zu erheben, zu analysieren und zu interpretieren (mündlich [04:14–04:42])",
+      "erklaerung": "Prüft Annahmen planvoll mit Forschungsmethoden an einer gesicherten Datenbasis und bezieht sich auf Theorien.",
+      "quelle": "pyb005.2_2026-10-26 · Folie 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Konkrete (manifeste) Variable",
+      "wortlaut": "Wenn etwas direkt beobachtbar und messbar ist, dann haben wir eine konkrete Variable (mündlich [50:22])",
+      "erklaerung": "Kann man direkt sehen oder messen, z. B. Schlafdauer.",
+      "quelle": "pyb005.2_2026-10-26 · Folie 10",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Abstrakte (latente) Variable",
+      "wortlaut": "Wenn sie nicht direkt beobachtbar ist und nicht direkt messbar ist, dann sprechen wir von einer abstrakten Variable bzw. einer latenten Variable (mündlich [50:31–50:40])",
+      "erklaerung": "Muss über Indikatoren operationalisiert werden, z. B. Klassenklima, Intelligenz.",
+      "quelle": "pyb005.2_2026-10-26 · Folie 10",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Mediatorvariable",
+      "wortlaut": "der Einfluss der unabhängigen auf die abhängige Variable wird teilweise vermittelt oder erklärt – das Wie und das Warum (mündlich [59:23–59:42])",
+      "erklaerung": "Steht zwischen X und Y und erklärt, warum X auf Y wirkt (z. B. Konzentration zwischen Sport und Noten).",
+      "quelle": "pyb005.2_2026-10-26 · Folie 12",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Moderatorvariable",
+      "wortlaut": "eine Variable, die Stärke oder auch gegebenenfalls Richtung des Einflusses der unabhängigen Variable auf die abhängige Variable beeinflussen bzw. ändern kann – wann oder für wen (mündlich [59:51–60:23])",
+      "erklaerung": "Verändert, wie stark oder für wen X auf Y wirkt (z. B. Schlaf).",
+      "quelle": "pyb005.2_2026-10-26 · Folie 12",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Skala (Skalenniveau)",
+      "wortlaut": "„Der Begriff ‚Skala‘ beschreibt die Beschaffenheit des empirischen und des numerischen Relativs sowie eine Abbildungsfunktion, die die beiden verbindet. Dabei geht es um die Frage, wie das, was durch das empirische Relativ erfasst wird, durch ein numerisches Relativ (also durch Zahlen) sinnvoll repräsentiert werden kann.“ (Schäfer, 2016, S. 24)",
+      "erklaerung": "Die Regel, nach der beobachteten Ausprägungen Zahlen zugeordnet werden – eine Messlatte.",
+      "quelle": "pyb005.2_2026-10-26 · Folie 18",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Ratingskala",
+      "wortlaut": "„Ratingskalen verwendet man, um Urteile über einen bestimmten Gegenstand zu erfragen. Es wird ein Merkmalskontinuum vorgegeben, auf dem der Befragte die Merkmalsausprägung markiert, die seine subjektive Empfindung am besten wiedergibt.“ (Schäfer, 2016, S. 28)",
+      "erklaerung": "Z. B. 1 = stimme überhaupt nicht zu bis 7 = stimme voll und ganz zu; eigentlich ordinal, wird wie intervall behandelt.",
+      "quelle": "pyb005.2_2026-10-26 · Folie 21",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Soziale Erwünschtheit",
+      "wortlaut": "die Tendenz, dass Personen so antworten, wie sie glauben, dass sie antworten sollen […], was gesellschaftlich anerkannt ist, aber nicht unbedingt dem tatsächlichen Erleben oder Verhalten entsprechen muss (mündlich [35:14–35:36])",
+      "erklaerung": "Antwortverzerrung bei Fragebögen und (stärker) bei Interviews.",
+      "quelle": "pyb005.2_2026-10-26 · Folie 7",
       "abweichungen": []
     }
   ]

@@ -8,7 +8,7 @@
   "thema": "1. Sitzung: Einführung in die Pädagogik (Arbeitsblatt Stein)",
   "thema_in_app": "eingetragen",
   "stand": "geprueft",
-  "hinweis": "Freiwilliges Tutorium (Tutor: Dennis Hoffmann). Die Sitzung am 16.10. ist ausgefallen, daher ist der 23.10. Sitzung Nr. 1. Grundlage: Kernblatt „Einführung in die Pädagogik“ (10 Seiten) und Tafel-Screenshots. Lösungen des Tutors liegen für 1.1–4.1 vor, alles andere ist selbst erarbeitet (gekennzeichnet). Die Zusammenfassung und das Zusatzblatt des Tutors fehlen noch.",
+  "hinweis": "Freiwilliges Tutorium (Tutor: Dennis Hoffmann). Die Sitzung am 16.10. ist ausgefallen, daher ist der 23.10. Sitzung Nr. 1. Grundlage: Kernblatt „Einführung in die Pädagogik“ (10 Seiten) und Tafel-Screenshots; Lösungen des Tutors lagen für 1.1–4.1 vor, alles andere war selbst erarbeitet (gekennzeichnet). Am 01.11.2026 zusätzlich eingearbeitet: Zusammenfassung, Lernzettel und Zusatzblatt des Tutors – die selbst erarbeiteten Lösungen sind damit abgeglichen (Abschnitt „Ergänzung: Unterlagen des Tutors“), das Zusatzblatt ist Hausaufgabe h01.",
   "quellen": [
     {
       "datei": "Tutorium/1. Sitzung/TUTORIUM_EWB001.1_STEIN_·_ARBEITSBLATT_-_1._SITZUNG_·_„EINFÜHRUNG_IN_DIE_PÄDAGOGIK“.pdf",
@@ -24,6 +24,21 @@
       "datei": "Tutorium/Aufnahmen_Transkripte/2026-10-23_ewb001_Tutorium_Transkript.txt",
       "art": "Aufnahme des Tutoriums (ca. 99 Min.) – Nachbereitung, Transkript",
       "seiten": "[00:00]–[99:09]"
+    },
+    {
+      "datei": "Tutorium/Sitzung_01/Zusammenfassung (EWB001.1) - 1. Vorlesung - Einführung in die Pädagogik.pdf",
+      "art": "Zusammenfassung des Tutors – zusätzlich eingearbeitet am 01.11.2026",
+      "seiten": "1–15"
+    },
+    {
+      "datei": "Tutorium/Sitzung_01/Lernzettel (EWB001.1) - 1. Vorlesung - Einführung in die Pädagogik.pdf",
+      "art": "Lernzettel des Tutors – zusätzlich eingearbeitet am 01.11.2026",
+      "seiten": "1"
+    },
+    {
+      "datei": "Tutorium/Sitzung_01/Vertiefen und Wiederholen VL 1.pdf",
+      "art": "Zusatzblatt „Vertiefen & Wiederholen“ – Hausaufgabe h01",
+      "seiten": "1–5"
     }
   ],
   "lernziele": [
@@ -35,7 +50,8 @@
         "f01",
         "f02",
         "f05",
-        "f15"
+        "f15",
+        "e02"
       ],
       "erklaerung_abschnitt": "1 Alltagswissen und Wissensstufen"
     },
@@ -56,7 +72,9 @@
       "fragen": [
         "f07",
         "f08",
-        "f10"
+        "f10",
+        "e03",
+        "e06"
       ],
       "erklaerung_abschnitt": "3 Professionalität und Pädagogik"
     },
@@ -68,7 +86,10 @@
         "f11",
         "f12",
         "f13",
-        "f14"
+        "f14",
+        "e01",
+        "e04",
+        "e05"
       ],
       "erklaerung_abschnitt": "4 Die vier Grundbegriffe"
     }
@@ -118,6 +139,12 @@
       "nachbereitung": true,
       "folien": "Aufnahme [00:00]–[94:40]",
       "text": "*Zusätzliche Nachbereitung aus der Aufnahme des Tutoriums. Die Inhalte oben (Arbeitsblatt und Tafel-Lösungen) bleiben unverändert. Zeitmarken [MM:SS] beziehen sich auf die Aufnahme.*\n\n### 1. So läuft das Tutorium [28:10–40:40]\n- Das Tutorium ist eine **Ergänzung** zur Vorlesung, kein Ersatz. Behandelt werden die Inhalte von **Frau Stein (ewb001.1)** und **Herrn Rieckmann (ewb001.2)**.\n- Zu jeder Vorlesung gibt es vom Tutor eine **ausformulierte Zusammenfassung** in einfacher Sprache (12–15 Seiten) und einen **Lernzettel** (1 Seite). Beides kommt etwa **2 Tage vor** dem Tutorium. Die Zusammenfassung kann man parallel zu den Folien lesen.\n- Im Tutorium wird das **Kernblatt** bearbeitet; zusätzliche Vertiefungsaufgaben kommen in die WhatsApp-Gruppe.\n- Es gibt **keine Musterlösung** – die Lösungen gibt es nur im Tutorium.\n- **Die Nummern der Aufgaben passen zu den Kapiteln der Zusammenfassung:** Aufgabe 1.1 gehört zu Kapitel 1.1 usw. [38:45].\n- Tipp: regelmäßig wiederholen, aktiv mitmachen.\n\n### 2. Hinweise zur Klausur [28:42, 41:14, 70:29]\n- Der Tutor sprach von etwa **30–35 Multiple-Choice-Fragen**, bei denen mal eine, mal zwei Antworten richtig sind. *Achtung: Die offiziellen Klausurinfos (Modul-Infos) nennen „1–4 Antworten richtig“ – maßgeblich ist das Offizielle.*\n- Klausurtermin laut Tutor: 02.02., 13 Uhr (passt zu den Modul-Infos); Raumverteilung nach Nachnamen laut Infoblatt.\n- **Autorennamen hinter Zitaten** auf den Folien (z. B. Dörpinghaus/Uphoff) werden **nicht abgefragt**. Namen, die man wirklich kennen muss, sagt der Tutor ausdrücklich an [70:55–71:22].\n\n### 3. Laienmeinung und Ansehen pädagogischer Arbeit [52:02–61:39]\n**Laienmeinung** = Annahmen, die irgendwo aufgeschnappt oder übernommen werden und **keiner wissenschaftlichen Überprüfung standhalten** („gesunder Menschenverstand“, Nachplappern). Beispiel des Tutors: Gespräch an der Tankstelle über den Tankrabatt.\n\nBeim Handwerker ist **offensichtlich**, dass er Experte ist – ihm wird Kaffee angeboten und selbstständiges Arbeiten zugetraut. Bei Pädagoginnen und Pädagogen ist das **nicht offensichtlich**: Laien halten sich selbst für kompetent und reden ihnen trotz langer Berufserfahrung hinein. Pädagogische Arbeit wird also **nicht als Expertentätigkeit** wahrgenommen.\n\n### 4. Warum Alltagswissen so hartnäckig ist [61:48–72:14]\n- **Quellen:** Familie, Freundinnen und Freunde, Medien (heute besonders Social Media).\n- **Merksatz des Tutors:** *Alltagswissen wird durch Sozialisation erworben – nicht in der Schule und nicht im Studium* [64:08].\n- Es hält sich, **solange es funktioniert**. Erst wenn man an eine **Grenze** stößt, merkt man „ich bin nur Laie“ und sucht **professionellen Rat**.\n- Beispiele für hartnäckige Vorurteile: „Lehrkräfte haben 13 Wochen Ferien“ und „arbeiten nur vormittags“.\n\n**Kurz erklärt:** Alltagswissen nimmt man nebenbei auf – und gibt es erst auf, wenn es nicht mehr weiterhilft.\n\n### 5. Drei Wissensarten – Signalwörter [72:22–79:10]\n- **Alltagswissen:** entsteht durch die eigene Sozialisation und Erziehung.\n- **Professionswissen:** ausgebildete Fachkraft, Erfahrung + fachliche Ausbildung (Theorie und Praxis).\n- **Wissenschaftliches Wissen:** durch **Studien** gewonnen (Beispiel: die Professorinnen und Professoren selbst forschen).\n\nAbgleich Aufgabe 3.1: a Alltagswissen · b wissenschaftliches Wissen · c Professionswissen · d Alltagswissen · e Professionswissen.\n\n**Prüfungsfalle:** Wenn sich Kolleginnen und Kollegen über ein **Modell** austauschen, ist das **noch kein wissenschaftliches Wissen**, sondern Professionswissen. Wissenschaftliches Wissen entsteht durch Studien, die erhoben werden. Das Wort **„Studie“** ist ein Signalwort [78:07–78:42].\n\n### 6. Herr M. und die Referendarin [79:30–87:57]\nHerr M. handelt aus **Routine und Alltagswissen** („hat immer funktioniert“), obwohl man bei einer Lehrkraft Professionswissen erwarten würde – er prüft sein Handeln nicht. Die Referendarin kommt mit **Studien**, also mit **wissenschaftlichem Wissen**. Ihm fehlt der **Standpunkt von außen**, mit dem er erkennen könnte, dass Strafen Angst erzeugen und die Motivation und Leistung senken.\n\n**Botschaft:** Sich als Lehrkraft **auch nach vielen Jahren selbst reflektieren** – was in einer Klasse funktioniert, klappt in einer anderen vielleicht nicht. Selbstreflexion ist keine Schwäche.\n\n**Wo lernt man was?** Die Regeln der Wissenschaft im **Studium**; die Regeln der Praxis in **Praktika**, im **Praxissemester** im Master und im **Referendariat** [87:16–87:46].\n"
+    },
+    {
+      "titel": "Ergänzung: Unterlagen des Tutors (Abgleich)",
+      "folien": "",
+      "beispiel": "",
+      "text": "*Zusätzlich eingearbeitet am 01.11.2026 aus der Zusammenfassung (15 Seiten), dem Lernzettel und dem Zusatzblatt „Vertiefen & Wiederholen VL 1“ des Tutors. Die Abschnitte oben – auch die Nachbereitung mit der Aufnahme – bleiben unverändert.*\n\n### Abgleich: deine Lösungen mit der Zusammenfassung des Tutors\nDie Aufgabennummern des Kernblatts entsprechen den Kapiteln der Zusammenfassung (Aufgabe 6.1 ↔ Kapitel 6.1). Ergebnis:\n\n| Aufgabe | bisher | Abgleich mit dem Tutor |\n| --- | --- | --- |\n| 4.1 „zwei Lehrertypen“ | Lösung des Tutors (Tafel) | **geklärt**: Die „zwei Lehrertypen“ stammen aus Kap. 4 der Zusammenfassung (Beispiel „Nur Erfahrung“ vs. „Mit wissenschaftlichem Wissen“), nicht von den VL-Folien |\n| 6.1 Kompetenzdreieck | selbst erarbeitet (VL-Folie 14) | **bestätigt**, Tutor formuliert: Wissen (Theorien, Erklärungsansätze), Können (Methoden, z. B. Forschungs- oder Handlungsmethoden), Haltung (Werte wie Akzeptanz, Autonomie, **Partizipation**, Empowerment). Damit ist 6.1 b d) „Klassenregeln selbst mitbestimmen“ beim Tutor klar **Haltung** (Partizipation). |\n| 6.2 Stufen nach North/Wildt | selbst erarbeitet | **bestätigt** (gleiche Treppe: Information + Vernetzung → Wissen + Anwendung → Können + Bewertung → Einstellung + Angemessenheit → Kompetenz + Verantwortung → Professionalität) |\n| 7.1 Pädagogik | selbst erarbeitet | **bestätigt**: pais = Kind, agein = führen → „Kinderführung“; als Wissenschaftsbegriff erst seit den 1960er-Jahren |\n| 7.2 5-Schritte-Modell | selbst erarbeitet (Tom) | Vorgehen **bestätigt**; der Tutor zeigt zwei Beispiele aus der VL (Felix, Leonie – siehe unten) |\n| 8.1 / 8.2 Grundbegriffe und Ebenen | selbst erarbeitet | **bestätigt**: Lernen und Bildung intrapersonell, Erziehung und Bildung interpersonell, Sozialisation makrosozial (Stein 2017, S. 18) |\n| 10.1 Baum der Pädagogik | selbst erarbeitet | **bestätigt**: Blätter = Erziehungsstile, Lernarten, Techniken, Sozialisationsfelder · Äste = vier Grundbegriffe · Stamm = Wissenschaftstheorie · Wurzeln = Ethik und Menschenbild |\n| 10.2 Gegenargumente | Kapitelzuordnung vorläufig | **bestätigt**: Kap. 1–3 (Laienmeinung, Alltagswissen, drei Stufen), Kap. 4–5 (Distanz, Wissenschaft als Folie), Kap. 6–7 (Professionalität, Pädagogik als Wissenschaft) |\n\n### Was die Zusammenfassung zusätzlich bringt\n**Wissenschaft als „fortschreitende Annäherung an die Wahrheit“** (Kap. 5): „Mit Wissenschaft ist die Intention verbunden, Phänomene und Zusammenhänge verstehbar und erklärbar zu machen.“ (Dörpinghaus & Uphoff 2011) Wissenschaft ist keine feste, für immer gültige Wahrheit – neue Studien können alte Theorien widerlegen oder verbessern. Beispiel des Tutors: Früher galt strenge Autorität als am effektivsten; neuere Forschung zeigt, dass ein autoritativer Erziehungsstil (Klarheit + Wärme) meist besser wirkt.\n\n**Die Regeln der Wissenschaft und der Praxis** (Kap. 4): Die Regeln der Wissenschaft lernt man im Studium (z. B. in „Einführung in die Erziehungswissenschaften“), die Regeln der Praxis in berufsorientierten Seminaren und Praktika. Beides gehört zusammen, ist aber nicht dasselbe.\n\n**Zweites Beispiel zum 5-Schritte-Modell** (Kap. 7.2):\n\n| Schritt | Felix (5 J.) schlägt andere Kinder | Leonie (2 J.) zeigt Aufmerksamkeitsprobleme |\n| --- | --- | --- |\n| Beobachtung | schlägt regelmäßig andere Kinder im Kindergarten | kann sich schlecht konzentrieren |\n| Interpretation | mangelnde Aggressionskontrolle | hirnorganische Teilleistungsstörung |\n| Erklärung | Eltern gehen selbst aggressiv miteinander um, Felix „schaut es ab“ (Bandura, Lernen am Modell) | Alkoholkonsum der Mutter in der Schwangerschaft |\n| Vorhersage | alternative Handlungsmuster würden Besserung bringen | mögliche massive Schulschwierigkeiten |\n| Handlungswissen | systemische Familientherapie | Alkoholentzug der Mutter, gezielte Fördertherapien für Leonie |\n\n**Prägende Persönlichkeiten** (Kap. 7): Pestalozzi, Montessori, Korczak, Neill, von Hentig – Pädagogik hat viele Denkrichtungen, keine „einzige Wahrheit“.\n\n**Grundfrage der Pädagogik** (Kap. 9): „Wie interagieren Menschen in den Erziehungs-, Bildungs-, Lern-Lehr-Prozessen und in der Sozialisation?“ Menschen verhalten sich unterschiedlich aufgrund von **fünf Faktoren**: Sozialisation, Erziehung, Bildungshintergrund, gelerntem Verhalten und bestimmten Motivationen. Beispiel des Tutors: Ein Schüler ist respektlos – Ursachen können Sozialisation (zu Hause respektloser Umgang), fehlende Erziehung zu Höflichkeit, nicht gelernte Verhaltensweisen (Kritik konstruktiv äußern) oder Motivation (vor der Klasse cool wirken) sein. Pädagogik sucht Ursachen, statt nur zu bestrafen.\n\n> **Kernbotschaft (Tutor):** Alles, was am Ende sichtbar ist – konkrete Erziehungsmethoden im Klassenzimmer –, hat eine tiefere wissenschaftliche und ethische Basis. Pädagogisches Handeln, das gut sein will, braucht mehr als Alltagswissen: Es braucht wissenschaftliche Fundierung.\n\n**Kurz erklärt:** Die Tutor-Unterlagen bestätigen deine bisherigen Lösungen. Neu für die Klausur sind vor allem die **Grundfrage mit den fünf Faktoren**, das **Leonie-Beispiel** zum 5-Schritte-Modell und die Formel „**fortschreitende Annäherung an die Wahrheit**“.\n\n**Prüfungsfalle:** Sozialisation ist der **breiteste**, Lernen der **kleinteiligste** Grundbegriff. Im Baum ist die Wissenschaftstheorie der **Stamm**, nicht die Wurzel (Zusatzblatt R1).\n\nDas Zusatzblatt „Vertiefen & Wiederholen VL 1“ ist als **Hausaufgabe h01** (für Tutorium S2, 30.10.) ausgearbeitet."
     }
   ],
   "definitionen": [],
@@ -247,6 +274,20 @@
       "loesung": "*Selbst erarbeitet (keine Lösung vom Tutor).*\n\n**Aufgabe 10.2 a:** *„Sammelt drei Gegenargumente, jedes aus einem anderen Kapitel der Zusammenfassung.“*\n\n**Antwort** (Kapitel nach dem Kernblatt; Abgleich mit der Tutor-Zusammenfassung folgt):\n1. **Kap. 1–3:** Alltagswissen ist widersprüchlich und nur an eigene Erfahrung gebunden.\n2. **Kap. 4–5:** Erst wissenschaftliches Wissen schafft den Abstand, das eigene Handeln zu prüfen (Herr M.).\n3. **Kap. 6–7:** Professionalität braucht Wissen, Können und Haltung – nicht nur Erfahrung.\n\n**Aufgabe 10.2 b:** *„Warum braucht pädagogisches Handeln wissenschaftliche Fundierung?“*\n\n**Antwort:** Pädagogisches Handeln braucht wissenschaftliche Fundierung, weil es nur so begründet, überprüfbar und verantwortbar wird und nicht von zufälligen Alltagserfahrungen abhängt.\n\n**Aufgabe 10.2 c:** *„Vergleicht mit euren Notizen aus Aufgabe 0. Was ist neu dazugekommen?“*\n\n**Antwort:** Neu sind die Fachbegriffe, mit denen sich das Nein begründen lässt: drei Wissensstufen, Distanz durch Wissenschaft, Kompetenzdreieck, 5-Schritte-Modell, vier Grundbegriffe auf drei Ebenen.",
       "frist": "",
       "im_kalender": false
+    },
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Tutorium S1 → S2: Zusatzblatt „Vertiefen & Wiederholen VL 1“ (R1, R2, Z 3.2, Z 6.1, Z 7.2, Z7, Z9) – ausgearbeitet",
+      "text": "Zusatzblatt „Vertiefen & Wiederholen“ des Tutors zu Tutorium 1 – „Für zu Hause oder für alle, die im Tutorium schneller fertig sind“ (freiwillig).\n\n1. Selbsteinschätzung: Das kann ich … (sicher · teils · noch nicht)\n2. Aufgabe R1 – Richtig oder falsch? Kreuzt an und berichtigt die falschen Aussagen (8 Aussagen).\n3. Aufgabe R2 – Lückentext: Die Definition nach Stein (Wörter: Bildung, erklärt, Erziehung, Handlungswissen, interpretiert, Lernens, beobachtet, Sozialisation, vorhersagt).\n4. Z 3.2 – Professionswissen: Warum reicht reines Erfahrungswissen ohne Studium nicht aus, um von Professionswissen zu sprechen? Begründet mit Abschnitt 3.2.\n5. Z 6.1 – Wenn die Haltung fehlt: Beschreibt eine Lehrkraft, die viel weiß und gut kann, der aber die Haltung fehlt. Was läuft in ihrem Unterricht schief?\n6. Z 7.2 – Eigener Fall: Übertragt das 5-Schritte-Modell auf eine Szene aus eurer eigenen Schulzeit oder einem Praktikum.\n7. Z7 – Prägende Persönlichkeiten: Wählt eine Person (Pestalozzi, Montessori, Korczak, Neill, von Hentig) und recherchiert in drei Sätzen, wofür sie steht.\n8. Z9 – Die Grundfrage: Emre (14) macht seit Wochen keine Hausaufgaben mehr. Findet zu jedem der fünf Faktoren der Grundfrage eine mögliche Erklärung.",
+      "quelle": "Zusatzblatt „Vertiefen und Wiederholen VL 1“, S. 1–4",
+      "loesung": "**Aufgabe 1 – Selbsteinschätzung:** *„Das kann ich … (😊 sicher · 😐 teils · 😟 noch nicht): Alltags-, Professions- und wissenschaftliches Wissen unterscheiden · erklären, wozu Wissenschaft für die Praxis dient · Wissen, Können und Haltung an Beispielen erkennen · das 5-Schritte-Modell auf einen Fall anwenden · die vier Grundbegriffe und ihre Ebenen zuordnen“*\n\n**Antwort:** Persönliche Einschätzung. Bei „teils“ oder „noch nicht“ empfiehlt der Tutor, mit dem Schnellcheck (R1, R2) zu starten und die Kapitel der Zusammenfassung noch einmal anzusehen. In der App helfen die Lernfragen dieser Sitzung (f01–f15, n01–n05, e01–e06).\n\n**Aufgabe R1 – Richtig oder falsch?** *„Kreuzt an und berichtigt die falschen Aussagen in der letzten Spalte.“*\n\n**Antwort:**\n\n| Aussage | R/F | Berichtigung |\n| --- | --- | --- |\n| 1. Alltagswissen wird durch die eigene Sozialisation erworben. | **R** | – |\n| 2. Professionswissen ist reines Bauchgefühl aus Berufserfahrung. | **F** | Professionswissen entsteht, wenn Berufserfahrung **vor dem Hintergrund eines wissenschaftlich ausgerichteten Studiums** eingeordnet und kritisch geprüft wird – es ist gerade **kein** reines Bauchgefühl. |\n| 3. Wissenschaftliche Erkenntnisse gelten für immer. | **F** | Wissenschaft ist **keine feste Wahrheit**, sondern eine „**fortschreitende Annäherung an die Wahrheit**“; Theorien werden überprüft und revidiert. |\n| 4. Professioneller Rat wird meist erst gesucht, wenn Alltagswissen scheitert. | **R** | – |\n| 5. Lernen ist der breiteste der vier Grundbegriffe. | **F** | **Sozialisation** ist der breiteste Begriff; Lernen ist der **„kleinteiligste“**. |\n| 6. Erziehung ist eine bewusste, absichtsvolle Einwirkung. | **R** | – |\n| 7. Im Baum der Pädagogik bildet die Wissenschaftstheorie die Wurzeln. | **F** | Die Wissenschaftstheorie ist der **Stamm**; die **Wurzeln** sind **Ethik und Menschenbild**. |\n| 8. „Pädagogik“ stammt von „pais“ (Kind) und „agein“ (führen). | **R** | – (wörtlich „Kinderführung“; zur Feinheit paideia/paidagogia siehe die Auffälligkeiten der VL-Sitzung ewb001.1 S02) |\n\n**Aufgabe R2 – Lückentext: Die Definition nach Stein** *(Wörter: Bildung, erklärt, Erziehung, Handlungswissen, interpretiert, Lernens, beobachtet, Sozialisation, vorhersagt)*\n\n**Antwort:** „Pädagogik bzw. Erziehungswissenschaft ist die Wissenschaft, die Prozesse der **Erziehung**, **Bildung**, des **Lernens** und der **Sozialisation** wissenschaftlich **beobachtet**, **interpretiert**, **erklärt**; Wirkungen von Erziehungs-, Bildungs-, Lern- und Sozialisationsprozessen **vorhersagt** und somit den an diesen Prozessen beteiligten Personen der pädagogischen Praxis **Handlungswissen** zur Verfügung stellt.“\n\n---neue-seite---\n\n**Aufgabe Z 3.2 – Professionswissen:** *„Warum reicht reines Erfahrungswissen ohne Studium nicht aus, um von Professionswissen zu sprechen? Begründet mit Abschnitt 3.2.“*\n\n**Antwort:** Nach Abschnitt 3.2 der Zusammenfassung formen sich die Erfahrungen von Fachkräften erst **„vor dem Hintergrund eines wissenschaftlich ausgerichteten Studiums“** zu Professionswissen. Reine Erfahrung bleibt Bauchgefühl: Man weiß, *dass* etwas funktioniert, aber nicht, *warum*, und kann es nicht kritisch prüfen. Erst das im Studium gelernte theoretische Wissen ordnet die Erfahrung ein und prüft sie (Beispiel des Tutors: Die Lehrkraft merkt, dass Lob motivierender wirkt als Strafe – mit Wissen über Lerntheorien und Motivation kann sie das einordnen und begründen, statt es nur zu „fühlen“). Ohne Studium fehlt also die Prüfung – und damit bleibt es Erfahrungswissen, nicht Professionswissen.\n\n**Aufgabe Z 6.1 – Wenn die Haltung fehlt:** *„Beschreibt eine Lehrkraft, die viel weiß und gut kann, der aber die Haltung fehlt. Was läuft in ihrem Unterricht schief?“*\n\n**Antwort:** *Beispiel, selbst erarbeitet:* Frau K. kennt alle Lerntheorien (Wissen) und kann hervorragend Stationenlernen und Gruppenarbeit organisieren (Können). Aber sie begegnet schwächeren oder unruhigen Kindern abwertend, stellt sie vor der Klasse bloß und traut Kindern aus bestimmten Familien von vornherein wenig zu. Folgen: Diese Kinder fühlen sich nicht angenommen, ziehen sich zurück oder stören erst recht; Vertrauen und Beteiligung fehlen; ihre guten Methoden erreichen gerade die Kinder nicht, die sie am meisten brauchen. Es fehlt die professionelle **Haltung** (Werte wie Akzeptanz, Autonomie, Partizipation, Empowerment) – deshalb ist sie nach dem Kompetenzdreieck **nicht professionell**, denn erst alle drei Bausteine zusammen ergeben Professionalität.\n\n**Aufgabe Z 7.2 – Eigener Fall:** *„Übertragt das 5-Schritte-Modell auf eine Szene aus eurer eigenen Schulzeit oder einem Praktikum.“*\n\n**Antwort:** *Beispiel, selbst erarbeitet – bitte durch eine eigene Szene ersetzen:*\n\n| Schritt | Beispiel: Mia (Klasse 7) meldet sich in Mathe nie |\n| --- | --- |\n| 1 Beobachten | Mia meldet sich in Mathe nie, in Deutsch dagegen oft. |\n| 2 Interpretieren | Man deutet das als Unsicherheit bzw. Angst vor Fehlern in Mathe. |\n| 3 Erklären | Sie wurde in der Grundschule bei falschen Antworten ausgelacht; zu Hause heißt es „Mathe liegt uns nicht“ (Sozialisation, Lernen am Modell). |\n| 4 Vorhersagen | Ohne Unterstützung verfestigt sich das negative Bild („Ich kann kein Mathe“), die Noten sinken weiter. |\n| 5 Handlungswissen | Fehlerfreundliche Klasse (Fehler als Lernchance), Partnerarbeit vor dem Melden, gezielt Erfolgserlebnisse ermöglichen, Gespräch mit den Eltern. |\n\n---neue-seite---\n\n**Aufgabe Z7 – Prägende Persönlichkeiten:** *„Wählt eine Person (Pestalozzi, Montessori, Korczak, Neill, von Hentig) und recherchiert in drei Sätzen, wofür sie steht.“*\n\n**Antwort:** *Ergänzung (nicht aus der Vorlesung) – gewählt: Maria Montessori.* Maria Montessori (1870–1952) war eine italienische Ärztin und Reformpädagogin. Sie sah das Kind als „Baumeister seiner selbst“, das in einer vorbereiteten Umgebung mit speziellen Materialien selbstständig und im eigenen Tempo lernt. Ihr Leitsatz „Hilf mir, es selbst zu tun“ steht für eine Pädagogik, in der Erwachsene begleiten, statt zu belehren.\n\n**Aufgabe Z9 – Die Grundfrage:** *„Emre (14) macht seit Wochen keine Hausaufgaben mehr. Findet zu jedem der fünf Faktoren der Grundfrage eine mögliche Erklärung.“*\n\n**Antwort:** *Beispiele, selbst erarbeitet nach Kapitel 9 der Zusammenfassung:*\n\n| Faktor | Mögliche Erklärung für Emres Verhalten |\n| --- | --- |\n| Sozialisation | In seinem Freundeskreis gilt es als „uncool“, Hausaufgaben zu machen; zu Hause spielt Schule kaum eine Rolle. |\n| Erziehung | Die Eltern kontrollieren und unterstützen nicht (mehr), es gibt keine festen Regeln für Lernzeiten. |\n| Bildungshintergrund | Die Eltern können bei den Aufgaben nicht helfen; es fehlen Bücher, ein ruhiger Arbeitsplatz oder ein eigener Computer. |\n| gelerntes Verhalten | Er hat nie gelernt, sich selbst zu organisieren; nach schlechten Erfahrungen hat er gelernt, Aufgaben zu vermeiden. |\n| Motivation | Er sieht keinen Sinn in den Aufgaben, hat das Gefühl, es sowieso nicht zu schaffen, oder hat gerade andere Sorgen (z. B. Streit zu Hause). |\n\nPädagogik fragt nach diesen Ursachen, um passende Lösungen zu finden – statt einfach nur zu bestrafen (Tutor, Kap. 9).",
+      "loesungsweg": "R1 und R2 mit der Zusammenfassung des Tutors (Kap. 3–10) abgleichen; Z-Aufgaben mit Abschnitt 3.2, dem Kompetenzdreieck, dem 5-Schritte-Modell und den fünf Faktoren der Grundfrage (Kap. 9) beantworten.",
+      "frist": "2026-10-30",
+      "im_kalender": true,
+      "fuer_sitzung": "ewb001_2026-10-30",
+      "kalender_id": "3a43ad78-76ce-4f4a-a2d6-21fb2bd069b5",
+      "pdf": "/dateien/ewb001/S02_2026-10-30_Hausaufgabe_Tutorium_Zusatzblatt_Vertiefen-und-Wiederholen_Einfuehrung.pdf"
     }
   ],
   "fragen": [
@@ -682,24 +723,147 @@
       "erklaerung": "Tutor [58:41–61:27].",
       "folie": "Aufnahme 59:27",
       "pruefungsrelevant": true
+    },
+    {
+      "id": "e01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie lautet die Grundfrage der Pädagogik, und welche fünf Faktoren erklären laut Vorlesung, warum Menschen sich unterschiedlich verhalten?",
+      "antwort": "Grundfrage: „Wie interagieren Menschen in den Erziehungs-, Bildungs-, Lern-Lehr-Prozessen und in der Sozialisation?“ Menschen verhalten sich unterschiedlich aufgrund ihrer Sozialisation, ihrer Erziehung, ihres Bildungshintergrundes, ihres gelernten Verhaltens und bestimmter Motivationen.",
+      "erklaerung": "Zusammenfassung des Tutors, Kap. 9; Lernzettel.",
+      "folie": "Tutor Kap. 9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "e02",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur Wissenschaft treffen laut Zusammenfassung des Tutors zu?",
+      "optionen": [
+        "Wissenschaft ist eine „fortschreitende Annäherung an die Wahrheit“.",
+        "Wissenschaftliche Erkenntnisse gelten für immer.",
+        "Mit Wissenschaft ist die Intention verbunden, Phänomene und Zusammenhänge verstehbar und erklärbar zu machen.",
+        "Die Regeln der Wissenschaft lernt man vor allem in Praktika."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Kap. 4–5 (Dörpinghaus & Uphoff 2011). Theorien werden überprüft und revidiert; die Regeln der Wissenschaft lernt man im Studium, die der Praxis in berufsorientierten Seminaren und Praktika.",
+      "folie": "Tutor Kap. 4–5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "e03",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Leonie (2 Jahre) zeigt Aufmerksamkeitsprobleme: Ordne die Aussagen den Schritten des 5-Schritte-Modells zu.",
+      "kategorien": [
+        "Beobachten",
+        "Interpretieren",
+        "Erklären",
+        "Vorhersagen",
+        "Handlungswissen"
+      ],
+      "elemente": [
+        {
+          "text": "Leonie kann sich schlecht konzentrieren.",
+          "kategorie": "Beobachten"
+        },
+        {
+          "text": "Man vermutet eine hirnorganische Teilleistungsstörung.",
+          "kategorie": "Interpretieren"
+        },
+        {
+          "text": "Ursache: Alkoholkonsum der Mutter in der Schwangerschaft",
+          "kategorie": "Erklären"
+        },
+        {
+          "text": "mögliche massive Schulschwierigkeiten",
+          "kategorie": "Vorhersagen"
+        },
+        {
+          "text": "Alkoholentzug der Mutter und gezielte Fördertherapien",
+          "kategorie": "Handlungswissen"
+        }
+      ],
+      "erklaerung": "Zusammenfassung des Tutors, Kap. 7.2 (Beispiel aus der VL).",
+      "folie": "Tutor Kap. 7.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "e04",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu den vier Grundbegriffen treffen zu?",
+      "optionen": [
+        "Sozialisation ist der breiteste Begriff.",
+        "Lernen ist der breiteste Begriff.",
+        "Lernen ist der „kleinteiligste“ Begriff.",
+        "Erziehung ist eine bewusste, absichtsvolle Einwirkung."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Zusammenfassung Kap. 8.1; Zusatzblatt R1 (Aussagen 5 und 6).",
+      "folie": "Tutor Kap. 8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "e05",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Baum der Pädagogik (Kleve): Die Blätter sind Erziehungsstile, Lernarten, Techniken; die Äste die vier Grundbegriffe; der [[Stamm]] ist die Wissenschaftstheorie; die [[Wurzeln]] sind Ethik und Menschenbild.",
+      "erklaerung": "Zusammenfassung Kap. 10; Zusatzblatt R1 Aussage 7.",
+      "folie": "Tutor Kap. 10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "e06",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Emre (14) macht seit Wochen keine Hausaufgaben mehr. Finde zu jedem der fünf Faktoren der Grundfrage eine mögliche Erklärung.",
+      "musterloesung": "Sozialisation: im Freundeskreis gilt Hausaufgabenmachen als uncool. Erziehung: keine Unterstützung oder Regeln zu Hause. Bildungshintergrund: Eltern können nicht helfen, kein ruhiger Arbeitsplatz. Gelerntes Verhalten: nie gelernt, sich zu organisieren; Vermeidung nach Misserfolgen. Motivation: kein Sinn erkennbar, Gefühl, es nicht zu schaffen, andere Sorgen.",
+      "bewertungspunkte": [
+        "alle fünf Faktoren genannt",
+        "je eine plausible Erklärung",
+        "Bezug zu Emres Situation"
+      ],
+      "punkte": 3,
+      "erklaerung": "Zusatzblatt Z9; Grundfrage Kap. 9 (Lösung selbst erarbeitet).",
+      "folie": "Tutor Kap. 9",
+      "pruefungsrelevant": true
     }
   ],
   "pruefungshinweise": [
     "Das Tutorium wiederholt die prüfungsrelevanten Inhalte der VL vom 13.10. und 20.10. (ewb001.1); die Fragen sind deshalb als prüfungsrelevant markiert.",
     "(Aufnahme) Tutor: Autorennamen hinter Zitaten auf den Folien (z. B. Dörpinghaus/Uphoff) werden in der Klausur nicht abgefragt; wichtige Namen sagt er ausdrücklich an [70:55].",
-    "(Aufnahme) Signalwörter Wissensarten: „Studie“ → wissenschaftliches Wissen; Austausch unter Fachkräften (auch über Modelle) → Professionswissen; Familie/Tradition → Alltagswissen [78:07]."
+    "(Aufnahme) Signalwörter Wissensarten: „Studie“ → wissenschaftliches Wissen; Austausch unter Fachkräften (auch über Modelle) → Professionswissen; Familie/Tradition → Alltagswissen [78:07].",
+    "Grundfrage der Pädagogik mit den fünf Faktoren (Sozialisation, Erziehung, Bildungshintergrund, gelerntes Verhalten, Motivation) – Zusammenfassung des Tutors, Kap. 9."
   ],
   "offene_fragen": [
-    "Woher stammen die „zwei Lehrertypen“ (Aufgabe 4.1) – Folie oder Zusammenfassung des Tutors? In den VL-Folien vom 20.10. nicht gefunden.",
-    "Aufgabe 10.2 a verweist auf Kapitel der Tutor-Zusammenfassung; die Kapitelzuordnung ist bis zum Abgleich nach dem Kernblatt vergeben.",
-    "Zusammenfassung und Zusatzblatt des Tutors (per WhatsApp) fehlen noch – Nadine legt sie in den Tutorium-Ordner.",
     "(Aufnahme) Tutor nannte 30–35 MC-Fragen mit „mal einer, mal zwei“ richtigen Antworten – die offiziellen Klausurinfos sagen 15 + 15 Fragen, 1–4 richtig, plus offene Fragen. Maßgeblich sind die offiziellen Infos [28:42].",
     "(Aufnahme) Geklärt: Die Aufgabennummern des Kernblatts entsprechen den Kapiteln der Tutor-Zusammenfassung (Aufgabe 1.1 = Kapitel 1.1) [38:45].",
-    "(Aufnahme) Geklärt zu Aufgabe 4.1: Die „zwei Lehrertypen“ stammen aus dem Fall des Tutors (Herr M. = Routine/Alltagswissen, Referendarin = wissenschaftliches Wissen) [81:00–82:58].",
-    "Neu im Ordner Tutorium/Sitzung_01: Zusammenfassung, Lernzettel und „Vertiefen und Wiederholen VL 1“ des Tutors – noch nicht eingearbeitet."
+    "(Aufnahme) Geklärt zu Aufgabe 4.1: Die „zwei Lehrertypen“ stammen aus dem Fall des Tutors (Herr M. = Routine/Alltagswissen, Referendarin = wissenschaftliches Wissen) [81:00–82:58]."
   ],
   "auffaelligkeiten": [
     "Kernblatt-Kopf: „EWB001.1 Stein“ – das Tutorium gehört zur VL ewb001.1.",
-    "Aufgabe 6.1 b d) (Klassenregeln mitbestimmen) ist zwischen Haltung (Partizipation) und Können (Methode) nicht eindeutig."
+    "Aufgabe 6.1 b d) (Klassenregeln mitbestimmen): laut Zusammenfassung des Tutors gehört Partizipation zur Haltung → H (Abgleich 01.11.2026).",
+    "Kompetenzdreieck: VL-Folie 14 (Haltung = Berufsethik, Werte, Partizipation, professionelle Distanz) und Tutor (Haltung = Werte wie Akzeptanz, Autonomie, Partizipation, Empowerment) formulieren unterschiedlich.",
+    "Tutor (Kap. 7): „Pädagogik“ stammt von „paideia“, zusammengesetzt aus „pais“ und „agein“ – nach Stein 2017, S. 11 ist „Kinderführung“ die Bedeutung von „Paidagogia“ (pais + agein), „paideia“ heißt Erziehung/Bildung (siehe Auffälligkeit ewb001.1 S02)."
   ]
 }

@@ -585,6 +585,30 @@
       "art": "Zusatzblatt (Hausaufgabe h01)",
       "status": "verarbeitet",
       "sitzung": "ewb001_2026-10-30"
+    },
+    {
+      "pfad": "Tutorium/Sitzung_01/Zusammenfassung (EWB001.1) - 1. Vorlesung - Einführung in die Pädagogik.pdf",
+      "geaendert": "2026-10-26",
+      "art": "Zusammenfassung Tutor",
+      "status": "verarbeitet",
+      "sitzung": "ewb001_2026-10-23",
+      "hinweis": "zusätzlich eingearbeitet 01.11.2026"
+    },
+    {
+      "pfad": "Tutorium/Sitzung_01/Lernzettel (EWB001.1) - 1. Vorlesung - Einführung in die Pädagogik.pdf",
+      "geaendert": "2026-10-26",
+      "art": "Lernzettel Tutor",
+      "status": "verarbeitet",
+      "sitzung": "ewb001_2026-10-23",
+      "hinweis": "zusätzlich eingearbeitet 01.11.2026"
+    },
+    {
+      "pfad": "Tutorium/Sitzung_01/Vertiefen und Wiederholen VL 1.pdf",
+      "geaendert": "2026-10-26",
+      "art": "Zusatzblatt (Hausaufgabe h01)",
+      "status": "verarbeitet",
+      "sitzung": "ewb001_2026-10-23",
+      "hinweis": "zusätzlich eingearbeitet 01.11.2026"
     }
   ]
 }

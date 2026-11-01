@@ -317,6 +317,24 @@
       "art": "Arbeitsblatt Excel-Fenster",
       "status": "verarbeitet",
       "sitzung": "mab004.1_2026-11-03"
+    },
+    {
+      "pfad": "Literatur/Barth_2013_Algorithmik-fuer-Einsteiger.pdf",
+      "geaendert": "2026-11-01",
+      "art": "Grundlagenliteratur (eBook)",
+      "status": "später"
+    },
+    {
+      "pfad": "Literatur/Padberg-Buechter_2015_Einfuehrung-Mathematik-Primarstufe-Arithmetik.pdf",
+      "geaendert": "2026-11-01",
+      "art": "Grundlagenliteratur (eBook)",
+      "status": "später"
+    },
+    {
+      "pfad": "Literatur/Ziegenbalg-Ziegenbalg-Ziegenbalg_2016_Algorithmen-von-Hammurapi-bis-Goedel.pdf",
+      "geaendert": "2026-11-01",
+      "art": "Grundlagenliteratur (eBook)",
+      "status": "später"
     }
   ],
   "hinweise_material": [
@@ -326,8 +344,10 @@
   "literatur": [
     {
       "eintrag": "Barth (2013): Algorithmik für Einsteiger",
-      "vorhanden": false,
-      "stand": "2026-10-25"
+      "vorhanden": true,
+      "stand": "2026-11-01",
+      "datei": "Literatur/Barth_2013_Algorithmik-fuer-Einsteiger.pdf",
+      "hinweis": "eBook SpringerLink (Campuszugang)"
     },
     {
       "eintrag": "Hattenhauer (2010): Informatik für Schule und Ausbildung",
@@ -346,8 +366,10 @@
     },
     {
       "eintrag": "Padberg/Büchter (2015): Einführung Mathematik Primarstufe – Arithmetik",
-      "vorhanden": false,
-      "stand": "2026-10-25"
+      "vorhanden": true,
+      "stand": "2026-11-01",
+      "datei": "Literatur/Padberg-Buechter_2015_Einfuehrung-Mathematik-Primarstufe-Arithmetik.pdf",
+      "hinweis": "eBook SpringerLink (Campuszugang)"
     },
     {
       "eintrag": "Teschl/Teschl (2013): Mathematik für Informatiker, Band 1",
@@ -357,8 +379,10 @@
     },
     {
       "eintrag": "Ziegenbalg u. a. (2016): Algorithmen von Hammurapi bis Gödel",
-      "vorhanden": false,
-      "stand": "2026-10-25"
+      "vorhanden": true,
+      "stand": "2026-11-01",
+      "datei": "Literatur/Ziegenbalg-Ziegenbalg-Ziegenbalg_2016_Algorithmen-von-Hammurapi-bis-Goedel.pdf",
+      "hinweis": "eBook SpringerLink (Campuszugang)"
     },
     {
       "eintrag": "Göbbels/Rethmann (2014): Mathematik für Informatiker",

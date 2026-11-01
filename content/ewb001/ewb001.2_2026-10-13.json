@@ -10,8 +10,8 @@
   "stand": "geprueft",
   "hinweis": "Am 13.10.2026 fand in ewb001.2 keine Veranstaltung statt (gemeinsamer Auftakt in ewb001.1, Begrüßungsmail/Ablaufplan) – in der App „ausgefallen“. Die Lerninhalte stammen aus der Einführungseinheit von Herrn Rieckmann (Folien + eingesprochenes Video aus einem früheren Semester).",
   "quellen": [
-    { "datei": "ewb001.2/02_Präsentationen_Vorlesungen/01_ewb001.2_Einführung.pdf", "art": "Folien", "seiten": "1–23" },
-    { "datei": "ewb001.2/3._Videos der Vorlesung Kopie/Sitzung_01/01_ewb001.2_Transkript_Zusammenfassung.docx", "art": "Transkript des eingesprochenen Videos (25 Min.)", "seiten": "" },
+    { "datei": "ewb001.2/Sitzung_01/01_ewb001.2_Einführung.pdf", "art": "Folien", "seiten": "1–23" },
+    { "datei": "ewb001.2/Sitzung_01/01_ewb001.2_Transkript_Zusammenfassung.docx", "art": "Transkript des eingesprochenen Videos (25 Min.)", "seiten": "" },
     { "datei": "Literatur/Stein_2017_Allgemeine-Paedagogik.pdf", "art": "Literatur (auf den Folien zitiert)", "seiten": "16–21, 40 f., 65 ff., 89 f." }
   ],
 
@@ -75,7 +75,7 @@
     },
     {
       "titel": "Literatur der Sitzung",
-      "text": "- Ludwig, Peter H. (2020): Grundbegriffe der Pädagogik: Definitionskriterien, kritische Analyse, Vorschlag eines Begriffssystems. Weinheim: Beltz Juventa. – online über content-select (Shibboleth, Uni Vechta). In deinem Ordner liegt nur Kapitel 7 „Bildung“ (`ewb001.2/04_Literatur`), die zitierten Seiten 139 f. und 161 fehlen.\n- Stein, Margit (2017): Allgemeine Pädagogik. 3., überarbeitete Auflage. München: Ernst Reinhardt. – liegt in `Literatur/Stein_2017_Allgemeine-Paedagogik.pdf` (zitiert: S. 16–21, 40 f., 65 ff., 89 f.).",
+      "text": "- Ludwig, Peter H. (2020): Grundbegriffe der Pädagogik: Definitionskriterien, kritische Analyse, Vorschlag eines Begriffssystems. Weinheim: Beltz Juventa. – online über content-select (Shibboleth, Uni Vechta). In deinem Ordner liegt nur Kapitel 7 „Bildung“ (`ewb001.2/Sitzung_06`), die zitierten Seiten 139 f. und 161 fehlen.\n- Stein, Margit (2017): Allgemeine Pädagogik. 3., überarbeitete Auflage. München: Ernst Reinhardt. – liegt in `Literatur/Stein_2017_Allgemeine-Paedagogik.pdf` (zitiert: S. 16–21, 40 f., 65 ff., 89 f.).",
       "folien": "23"
     }
   ],

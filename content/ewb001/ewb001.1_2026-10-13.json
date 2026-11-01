@@ -10,14 +10,14 @@
   "stand": "geprueft",
   "hinweis": "Gemeinsamer Auftakt von ewb001.1 und ewb001.2 (13.10.2026, Q016). Die Inhalte stammen aus der Courseware-Einheit 1 (Folien + eingesprochenes Video), dem Prüfungs-Infoblatt und der Courseware-Einheit 0 „Einführung in das Studium“.",
   "quellen": [
-    { "datei": "ewb001.1/2._Präsentationen/ewb001.1_1__Sitzung_Organisatorisches_Einfuehrung.pdf", "art": "Folien (Courseware-Einheit 1)", "seiten": "1–14" },
-    { "datei": "ewb001.1/3._Videos Courseware Kopie/Sitzung_01/ewb001.1_1__Sitzung_Transkript_Zusammenfassung.docx", "art": "Transkript des eingesprochenen Videos (23 Min.)", "seiten": "" },
+    { "datei": "ewb001.1/Sitzung_01/ewb001.1_1__Sitzung_Organisatorisches_Einfuehrung.pdf", "art": "Folien (Courseware-Einheit 1)", "seiten": "1–14" },
+    { "datei": "ewb001.1/Sitzung_01/ewb001.1_1__Sitzung_Transkript_Zusammenfassung.docx", "art": "Transkript des eingesprochenen Videos (23 Min.)", "seiten": "" },
     { "datei": "ewb001.1/2._Präsentationen/ewb001.1_0__Auftakttage_Einführung_in_das_Studium.pdf", "art": "Folien (Courseware-Einheit 0)", "seiten": "1–32" },
     { "datei": "ewb001.1/1._Organisatorisches/4_Prüfung_Infoblatt_ewb001.pdf", "art": "Prüfungs-Infoblatt WiSe 2026/27", "seiten": "1–4" },
     { "datei": "ewb001.1/1._Organisatorisches/1_Organisationshinweise.pdf", "art": "Organisationshinweise", "seiten": "1–2" },
     { "datei": "ewb001.1/1._Organisatorisches/2_Ablaufplan_ewb001.pdf", "art": "Ablaufplan", "seiten": "" },
     { "datei": "ewb001.1/1._Organisatorisches/Beschreibungen_12_Einheiten_der_Courseware.pdf", "art": "Beschreibung der Courseware-Einheiten 0 und 1", "seiten": "1–2" },
-    { "datei": "ewb001.1/5._Lernzielkontrollen/1_Lernzielkontrolle_Anleitung.pptx", "art": "Lernzielkontrolle (nur Spielanleitung, keine Fragen)", "seiten": "1–5" }
+    { "datei": "ewb001.1/Sitzung_01/1_Lernzielkontrolle_Anleitung.pptx", "art": "Lernzielkontrolle (nur Spielanleitung, keine Fragen)", "seiten": "1–5" }
   ],
 
   "lernziele": [

@@ -110,7 +110,7 @@
       "eintrag": "Gudjons: Pädagogisches Grundwissen",
       "vorhanden": true,
       "stand": "2026-10-25",
-      "datei": "ewb001.2/04_Literatur/02_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_2_Richtungen_der_Erziehungswissenschaft.pdf",
+      "datei": "ewb001.2/Sitzung_02/02_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_2_Richtungen_der_Erziehungswissenschaft.pdf",
       "hinweis": "nur Kapitel 2, 8, 9 und 12 (Gudjons/Traub 2016)"
     },
     {
@@ -133,13 +133,13 @@
       "eintrag": "Michelsen/Rieckmann (2014): Kompetenzorientiertes Lehren und Lernen an Hochschulen",
       "vorhanden": true,
       "stand": "2026-10-25",
-      "datei": "ewb001.2/04_Literatur/08_Michelsen_Rieckmann_Kompetenzorientiertes_Lehren_und_Lernen_an_Hochschulen_–_Veränderte_Anforderungen_und_Bedingungen_für_Lehrende_und_Studierende_post-print.pdf"
+      "datei": "ewb001.2/Sitzung_08/08_Michelsen_Rieckmann_Kompetenzorientiertes_Lehren_und_Lernen_an_Hochschulen_–_Veränderte_Anforderungen_und_Bedingungen_für_Lehrende_und_Studierende_post-print.pdf"
     },
     {
       "eintrag": "Erpenbeck/Sauter (2016): Stoppt die Kompetenzkatastrophe!",
       "vorhanden": true,
       "stand": "2026-10-25",
-      "datei": "ewb001.2/04_Literatur/08_Erpenbeck_Sauter_2019_StopptDieKompetenzkatastrophe_Kapitel_5_Kann_man_Kompetenzen_lehren.pdf",
+      "datei": "ewb001.2/Sitzung_08/08_Erpenbeck_Sauter_2019_StopptDieKompetenzkatastrophe_Kapitel_5_Kann_man_Kompetenzen_lehren.pdf",
       "hinweis": "nur Kapitel 5 (Ausgabe 2019)"
     }
   ],
@@ -176,7 +176,7 @@
     {
       "eintrag": "Gudjons/Traub (2016): Pädagogisches Grundwissen, Kap. 2, S. 29–42 (Selbststudium ewb001.2 S02) und S. 42–52 (S03)",
       "vorhanden": true,
-      "datei": "ewb001.2/04_Literatur/02_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_2_Richtungen_der_Erziehungswissenschaft.pdf",
+      "datei": "ewb001.2/Sitzung_02/02_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_2_Richtungen_der_Erziehungswissenschaft.pdf",
       "stand": "2026-10-26"
     },
     {
@@ -221,7 +221,7 @@
   ],
   "besonderheiten": [
     "Flipped Classroom: Courseware-/Opencast-Einheiten (Folien + eingesprochenes Video) als asynchroner Teil, dienstags Präsenztermine (Trainings Compasito/Betzavta, Gastvorträge, Fragestunden)",
-    "Die Videos und Transkript-Zusammenfassungen in „3._Videos … Kopie“ stammen aus früheren Semestern; die Folien in „2._Präsentationen“ sind die aktuellen aus Stud.IP",
+    "Die Videos und Transkript-Zusammenfassungen (jetzt in den Sitzungsordnern Sitzung_01 … Sitzung_12) stammen aus früheren Semestern; die Folien sind die aktuellen aus Stud.IP. Seit 31.10.2026 liegt alles einer Sitzung im eigenen Sitzungsordner, Aufnahmen in „Aufnahmen_Transkripte“ (Dateiliste am 01.11.2026 angepasst)",
     "ewb001.2 am 13.10.2026: keine Veranstaltung (gemeinsamer Auftakt in ewb001.1) – in der App „ausgefallen“",
     "Präsenztermine Compasito und Betzavta (ewb001.1) sind freiwillig und nicht prüfungsrelevant – keine Lerninhalte (Nadine, 26.10.2026)",
     "Lernzielkontrollen („Wer wird Millionär“, .pptx): die richtige Antwort ist per Hervorhebungs-Animation markiert; Fragen kommen im Originalwortlaut als z01… in die Sitzungsdatei",
@@ -302,21 +302,21 @@
       "sitzung": "ewb001.1_2026-10-13"
     },
     {
-      "pfad": "ewb001.1/2._Präsentationen/ewb001.1_1__Sitzung_Organisatorisches_Einfuehrung.pdf",
+      "pfad": "ewb001.1/Sitzung_01/ewb001.1_1__Sitzung_Organisatorisches_Einfuehrung.pdf",
       "geaendert": "2026-09-05",
       "art": "Folien",
       "status": "verarbeitet",
       "sitzung": "ewb001.1_2026-10-13"
     },
     {
-      "pfad": "ewb001.1/3._Videos Courseware Kopie/Sitzung_01/ewb001.1_1__Sitzung_Transkript_Zusammenfassung.docx",
+      "pfad": "ewb001.1/Sitzung_01/ewb001.1_1__Sitzung_Transkript_Zusammenfassung.docx",
       "geaendert": "2026-09-06",
       "art": "Transkript",
       "status": "verarbeitet",
       "sitzung": "ewb001.1_2026-10-13"
     },
     {
-      "pfad": "ewb001.1/5._Lernzielkontrollen/1_Lernzielkontrolle_Anleitung.pptx",
+      "pfad": "ewb001.1/Sitzung_01/1_Lernzielkontrolle_Anleitung.pptx",
       "geaendert": "2025-10-14",
       "art": "Lernzielkontrolle",
       "status": "verarbeitet",
@@ -335,111 +335,111 @@
       "status": "verarbeitet"
     },
     {
-      "pfad": "ewb001.2/02_Präsentationen_Vorlesungen/01_ewb001.2_Einführung.pdf",
+      "pfad": "ewb001.2/Sitzung_01/01_ewb001.2_Einführung.pdf",
       "geaendert": "2026-09-06",
       "art": "Folien",
       "status": "verarbeitet",
       "sitzung": "ewb001.2_2026-10-13"
     },
     {
-      "pfad": "ewb001.2/3._Videos der Vorlesung Kopie/Sitzung_01/01_ewb001.2_Transkript_Zusammenfassung.docx",
+      "pfad": "ewb001.2/Sitzung_01/01_ewb001.2_Transkript_Zusammenfassung.docx",
       "geaendert": "2026-09-06",
       "art": "Transkript",
       "status": "verarbeitet",
       "sitzung": "ewb001.2_2026-10-13"
     },
     {
-      "pfad": "ewb001.2/02_Präsentationen_Vorlesungen/01_ewb001_Sitzung_Organisatorisches_Einfuehrung.pdf",
+      "pfad": "ewb001.2/Sitzung_01/01_ewb001_Sitzung_Organisatorisches_Einfuehrung.pdf",
       "geaendert": "2026-09-06",
       "art": "Folien (ältere Fassung der Orga-Folien ewb001.1)",
       "status": "übersprungen"
     },
     {
-      "pfad": "ewb001.1/2._Präsentationen/ewb001.1_2__Sitzung_Erziehungswissenschaft_Einführung.pdf",
+      "pfad": "ewb001.1/Sitzung_02/ewb001.1_2__Sitzung_Erziehungswissenschaft_Einführung.pdf",
       "geaendert": "2026-09-05",
       "art": "Folien",
       "status": "verarbeitet",
       "sitzung": "ewb001.1_2026-10-20"
     },
     {
-      "pfad": "ewb001.1/3._Videos Courseware Kopie/Sitzung_02/ewb001.1_2__Sitzung_Transkript_Zusammenfassung.docx",
+      "pfad": "ewb001.1/Sitzung_02/ewb001.1_2__Sitzung_Transkript_Zusammenfassung.docx",
       "geaendert": "2026-09-06",
       "art": "Transkript",
       "status": "verarbeitet",
       "sitzung": "ewb001.1_2026-10-20"
     },
     {
-      "pfad": "ewb001.1/5._Lernzielkontrollen/2_Lernzielkontrolle_Pädagogik_und_Erziehungswissenschaften_allgemein.pptx",
+      "pfad": "ewb001.1/Sitzung_02/2_Lernzielkontrolle_Pädagogik_und_Erziehungswissenschaften_allgemein.pptx",
       "geaendert": "2021-12-17",
       "art": "Lernzielkontrolle",
       "status": "verarbeitet",
       "sitzung": "ewb001.1_2026-10-20"
     },
     {
-      "pfad": "ewb001.2/02_Präsentationen_Vorlesungen/02_ewb001.2_Theoretische_Strömungen_der_EW_I.pdf",
+      "pfad": "ewb001.2/Sitzung_02/02_ewb001.2_Theoretische_Strömungen_der_EW_I.pdf",
       "geaendert": "2026-09-06",
       "art": "Folien",
       "status": "verarbeitet",
       "sitzung": "ewb001.2_2026-10-20"
     },
     {
-      "pfad": "ewb001.2/05_Präsentationen_Präsenzsitzungen/02_ewb001.2_Theoretische_Strömungen_der_EW_I_Präsenzsitzung.pdf",
+      "pfad": "ewb001.2/Sitzung_02/02_ewb001.2_Theoretische_Strömungen_der_EW_I_Präsenzsitzung.pdf",
       "geaendert": "2026-10-21",
       "art": "Folien Präsenz",
       "status": "verarbeitet",
       "sitzung": "ewb001.2_2026-10-20"
     },
     {
-      "pfad": "ewb001.2/3._Videos der Vorlesung Kopie/Sitzung_02/02_ewb001.2_Transkript_Zusammenfassung.docx",
+      "pfad": "ewb001.2/Sitzung_02/02_ewb001.2_Transkript_Zusammenfassung.docx",
       "geaendert": "2026-09-06",
       "art": "Transkript",
       "status": "verarbeitet",
       "sitzung": "ewb001.2_2026-10-20"
     },
     {
-      "pfad": "ewb001.2/04_Literatur/02_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_2_Richtungen_der_Erziehungswissenschaft.pdf",
+      "pfad": "ewb001.2/Sitzung_02/02_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_2_Richtungen_der_Erziehungswissenschaft.pdf",
       "geaendert": "2026-09-06",
       "art": "Literatur (Selbststudium S02 S. 29–42, S03 S. 42–52)",
       "status": "verarbeitet",
       "sitzung": "ewb001.2_2026-10-20"
     },
     {
-      "pfad": "Tutorium/1. Sitzung/TUTORIUM_EWB001.1_STEIN_·_ARBEITSBLATT_-_1._SITZUNG_·_„EINFÜHRUNG_IN_DIE_PÄDAGOGIK“.pdf",
+      "pfad": "Tutorium/Sitzung_01/TUTORIUM_EWB001.1_STEIN_·_ARBEITSBLATT_-_1._SITZUNG_·_„EINFÜHRUNG_IN_DIE_PÄDAGOGIK“.pdf",
       "geaendert": "2026-10-23",
       "art": "Arbeitsblatt",
       "status": "verarbeitet",
       "sitzung": "ewb001_2026-10-23"
     },
     {
-      "pfad": "Tutorium/1. Sitzung/Bildschirmfoto 2026-10-23 um *.png (20 Dateien)",
+      "pfad": "Tutorium/Sitzung_01/Bildschirmfoto 2026-10-23 um *.png (20 Dateien)",
       "geaendert": "2026-10-23",
       "art": "Tafel/Lösungen Tutor",
       "status": "verarbeitet",
       "sitzung": "ewb001_2026-10-23"
     },
     {
-      "pfad": "ewb001.1/2._Präsentationen/ewb001.1_3__Sitzung_Menschenbilder.pdf",
+      "pfad": "ewb001.1/Sitzung_03/ewb001.1_3__Sitzung_Menschenbilder.pdf",
       "geaendert": "2026-10-26",
       "art": "Folien",
       "status": "verarbeitet",
       "sitzung": "ewb001.1_2026-10-27"
     },
     {
-      "pfad": "ewb001.1/3._Videos Courseware Kopie/Sitzung_03/ewb001.1_3__Sitzung_Transkript_Zusammenfassung.docx",
+      "pfad": "ewb001.1/Sitzung_03/ewb001.1_3__Sitzung_Transkript_Zusammenfassung.docx",
       "geaendert": "2026-10-26",
       "art": "Transkript",
       "status": "verarbeitet",
       "sitzung": "ewb001.1_2026-10-27"
     },
     {
-      "pfad": "ewb001.1/3._Videos Courseware Kopie/Sitzung_03/ewb001.1_3__Sitzung_Menschenbilder-1.mp4",
+      "pfad": "ewb001.1/Sitzung_03/ewb001.1_3__Sitzung_Menschenbilder-1.mp4",
       "geaendert": "2026-10-26",
       "art": "Video",
       "status": "verarbeitet",
       "sitzung": "ewb001.1_2026-10-27"
     },
     {
-      "pfad": "ewb001.1/5._Lernzielkontrollen/3_Lernzielkontrolle_Menschenbilder_der_Pädagogik.pptx",
+      "pfad": "ewb001.1/Sitzung_03/3_Lernzielkontrolle_Menschenbilder_der_Pädagogik.pptx",
       "geaendert": "2026-10-26",
       "art": "Lernzielkontrolle",
       "status": "verarbeitet",
@@ -453,49 +453,49 @@
       "sitzung": "ewb001.1_2026-10-27"
     },
     {
-      "pfad": "ewb001.2/02_Präsentationen_Vorlesungen/03_ewb001.2_Theoretische_Strömungen_der_EW_II.pdf",
+      "pfad": "ewb001.2/Sitzung_03/03_ewb001.2_Theoretische_Strömungen_der_EW_II.pdf",
       "geaendert": "2026-10-26",
       "art": "Folien",
       "status": "verarbeitet",
       "sitzung": "ewb001.2_2026-10-27"
     },
     {
-      "pfad": "ewb001.2/3._Videos der Vorlesung Kopie/Sitzung_03/03_ewb001.2_Transkript_Zusammenfassung.docx",
+      "pfad": "ewb001.2/Sitzung_03/03_ewb001.2_Transkript_Zusammenfassung.docx",
       "geaendert": "2026-10-26",
       "art": "Transkript",
       "status": "verarbeitet",
       "sitzung": "ewb001.2_2026-10-27"
     },
     {
-      "pfad": "ewb001.2/3._Videos der Vorlesung Kopie/Sitzung_03/03_ewb001.2_Theoretische_Strömungen_der_EW_II.mp4",
+      "pfad": "ewb001.2/Sitzung_03/03_ewb001.2_Theoretische_Strömungen_der_EW_II.mp4",
       "geaendert": "2026-10-26",
       "art": "Video",
       "status": "verarbeitet",
       "sitzung": "ewb001.2_2026-10-27"
     },
     {
-      "pfad": "ewb001.1/2._Präsentationen/ewb001.1_4__Sitzung_Sozialisation_I.pdf",
+      "pfad": "ewb001.1/Sitzung_04/ewb001.1_4__Sitzung_Sozialisation_I.pdf",
       "geaendert": "2026-10-26",
       "art": "Folien",
       "status": "verarbeitet",
       "sitzung": "ewb001.1_2026-11-03"
     },
     {
-      "pfad": "ewb001.1/3._Videos Courseware Kopie/Sitzung_04/ewb001.1_4__Sitzung_Transkript_Zusammenfassung.docx",
+      "pfad": "ewb001.1/Sitzung_04/ewb001.1_4__Sitzung_Transkript_Zusammenfassung.docx",
       "geaendert": "2026-10-26",
       "art": "Transkript",
       "status": "verarbeitet",
       "sitzung": "ewb001.1_2026-11-03"
     },
     {
-      "pfad": "ewb001.1/3._Videos Courseware Kopie/Sitzung_04/Ewb001.1_4__Sitzung_Sozialisation_I-1.mp4",
+      "pfad": "ewb001.1/Sitzung_04/Ewb001.1_4__Sitzung_Sozialisation_I-1.mp4",
       "geaendert": "2026-10-26",
       "art": "Video",
       "status": "verarbeitet",
       "sitzung": "ewb001.1_2026-11-03"
     },
     {
-      "pfad": "ewb001.1/5._Lernzielkontrollen/4_Lernzielkontrolle_Sozialisation_I_Anlage-Umwelt.pptx",
+      "pfad": "ewb001.1/Sitzung_04/4_Lernzielkontrolle_Sozialisation_I_Anlage-Umwelt.pptx",
       "geaendert": "2026-10-26",
       "art": "Lernzielkontrolle",
       "status": "verarbeitet",

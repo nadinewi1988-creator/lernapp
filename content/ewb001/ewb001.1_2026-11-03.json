@@ -11,17 +11,17 @@
   "hinweis": "Asynchrone Courseware-Einheit 4 (Folien + eingesprochenes Video aus einem früheren Semester), vorab aufbereitet am 26.10.2026. Die Präsenz am 03.11. ist die Fragestunde „Einführung in die Erziehungswissenschaft und Menschenbilder“ (siehe Hausaufgaben aus S02 und S03).",
   "quellen": [
     {
-      "datei": "ewb001.1/2._Präsentationen/ewb001.1_4__Sitzung_Sozialisation_I.pdf",
+      "datei": "ewb001.1/Sitzung_04/ewb001.1_4__Sitzung_Sozialisation_I.pdf",
       "art": "Folien",
       "seiten": "1–65"
     },
     {
-      "datei": "ewb001.1/3._Videos Courseware Kopie/Sitzung_04/ewb001.1_4__Sitzung_Transkript_Zusammenfassung.docx",
+      "datei": "ewb001.1/Sitzung_04/ewb001.1_4__Sitzung_Transkript_Zusammenfassung.docx",
       "art": "Transkript des eingesprochenen Videos (79 Min.)",
       "seiten": ""
     },
     {
-      "datei": "ewb001.1/5._Lernzielkontrollen/4_Lernzielkontrolle_Sozialisation_I_Anlage-Umwelt.pptx",
+      "datei": "ewb001.1/Sitzung_04/4_Lernzielkontrolle_Sozialisation_I_Anlage-Umwelt.pptx",
       "art": "Lernzielkontrolle „Wer wird Millionär“ (15 Fragen, Lösung per Animation markiert)",
       "seiten": "1–18"
     },
@@ -358,7 +358,7 @@
       "titel": "Hausaufgabe S04: Reflexion Genogramm „Diese Personen prägten mich“",
       "text": "Reflexion: Diese Personen prägten mich: Stellen Sie in einem Genogramm für Sie wichtige Bezugspersonen aus der Familie und dem Freundeskreis dar!\n\nTeilaufgaben:\n1. Stellen Sie die für Sie wichtigen Bezugspersonen in einem Genogramm dar.\n2. Beschreiben Sie die familiäre Umweltstruktur, die das Genogramm zeigt.\n3. Welche Personen und Sozialisationsinstanzen haben Sie geprägt?",
       "quelle": "Folie 59",
-      "loesung": "**Persönliche Ausarbeitung – aus Datenschutzgründen nicht in der App.**\n\nDein Genogramm mit Beschreibung und Reflexion liegt in deinem Ordner:\n`ewb001 - WS 26:27/ewb001.1/Lesefassungen/S07_2026-11-24_Hausaufgabe_Reflexion_Genogramm_Diese-Personen-praegten-mich.pdf`\n\nInhalt: (1) Genogramm nach der Symbolik von Folie 50, (2) Beschreibung der familiären Umweltstruktur, (3) Einordnung mit Sozialisationsinstanzen, Bronfenbrenners Systemebenen, Anlage–Umwelt und Bidirektionalität.",
+      "loesung": "**Persönliche Ausarbeitung – aus Datenschutzgründen nicht in der App.**\n\nDein Genogramm mit Beschreibung und Reflexion liegt in deinem Ordner:\n`ewb001 - WS 26:27/ewb001.1/Sitzung_07/S07_2026-11-24_Hausaufgabe_Reflexion_Genogramm_Diese-Personen-praegten-mich.pdf`\n\nInhalt: (1) Genogramm nach der Symbolik von Folie 50, (2) Beschreibung der familiären Umweltstruktur, (3) Einordnung mit Sozialisationsinstanzen, Bronfenbrenners Systemebenen, Anlage–Umwelt und Bidirektionalität.",
       "loesungsweg": "Personen mit Alter sammeln, Symbole nach Folie 50 zuordnen, von der Referenzperson aus nach oben (Eltern) und unten (Kinder) zeichnen, Beziehungslinien setzen, dann Einordnung mit den Begriffen der Sitzung.",
       "frist": "2026-11-24",
       "im_kalender": true,

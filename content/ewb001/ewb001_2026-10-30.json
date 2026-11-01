@@ -1,0 +1,728 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb001",
+  "teilmodul": "ewb001",
+  "datum": "2026-10-30",
+  "sitzung_nr": 2,
+  "sitzung_id": "",
+  "thema": "2. Sitzung: Menschenbilder der Pädagogik (Arbeitsblatt Stein)",
+  "thema_in_app": "eingetragen",
+  "stand": "geprueft",
+  "hinweis": "Freiwilliges Tutorium (Tutor: Dennis Hoffmann) zur ewb001.1-Sitzung „Menschenbilder der Pädagogik“ (VL 27.10.2026, siehe ewb001.1 S03). Du warst laut App nicht da – Grundlage sind das Kernblatt (Arbeitsblatt 2, 8 Seiten, unausgefüllt), die Zusammenfassung (10 Seiten) und der Lernzettel des Tutors. Keine Aufnahme. Lösungen, die direkt in der Zusammenfassung des Tutors stehen, sind als „nach Zusammenfassung des Tutors“ gekennzeichnet, alles andere als „selbst erarbeitet“. Das Zusatzblatt „Vertiefen & Wiederholen“ ist als Hausaufgabe h01 für das Tutorium am 06.11. ausgearbeitet.",
+  "quellen": [
+    {
+      "datei": "Tutorium/Sitzung_02/TUTORIUM_EWB001.1_STEIN_·_ARBEITSBLATT_-_2._SITZUNG_·_„MENSCHENBILDER_DER_PÄDAGOGIK“.pdf",
+      "art": "Arbeitsblatt (Kernblatt), Stud.IP 30.10.2026",
+      "seiten": "1–8"
+    },
+    {
+      "datei": "Tutorium/Sitzung_02/Zusammenfassung (EWB001.1) - 2. Vorlesung - Menschenbilder der Pädagogik.pdf",
+      "art": "Zusammenfassung des Tutors",
+      "seiten": "1–10"
+    },
+    {
+      "datei": "Tutorium/Sitzung_02/Lernzettel (EWB001.1) - 2. Vorlesung - Menschenbilder der Pädagogik.pdf",
+      "art": "Lernzettel des Tutors",
+      "seiten": "1"
+    },
+    {
+      "datei": "Tutorium/Sitzung_02/EWB001.1_Tutorium_2_Zusatzblatt.pdf",
+      "art": "Zusatzblatt „Vertiefen & Wiederholen“ – Hausaufgabe h01",
+      "seiten": "1–4"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "erklären, was ein Menschenbild ist und warum jedes Handeln eines hat",
+      "art": "vorgegeben",
+      "quelle": "Kernblatt S. 1",
+      "fragen": [
+        "t01",
+        "t02",
+        "t03"
+      ],
+      "erklaerung_abschnitt": "1 Was ist ein Menschenbild?"
+    },
+    {
+      "text": "zeigen, wie Menschenbilder den Umgang mit Armen und Kindern geprägt haben",
+      "art": "vorgegeben",
+      "quelle": "Kernblatt S. 1",
+      "fragen": [
+        "t04",
+        "t05",
+        "t06",
+        "t07"
+      ],
+      "erklaerung_abschnitt": "2 Menschenbilder in der Geschichte"
+    },
+    {
+      "text": "Hobbes, Rousseau und Locke in Alltagsaussagen erkennen",
+      "art": "vorgegeben",
+      "quelle": "Kernblatt S. 1",
+      "fragen": [
+        "t08",
+        "t09",
+        "t10"
+      ],
+      "erklaerung_abschnitt": "3 Hobbes, Rousseau, Locke & Ethik"
+    },
+    {
+      "text": "Kopf – Herz – Hand und das Vechtaer Modell auf Schule übertragen",
+      "art": "vorgegeben",
+      "quelle": "Kernblatt S. 1",
+      "fragen": [
+        "t11",
+        "t12",
+        "t13",
+        "t14"
+      ],
+      "erklaerung_abschnitt": "4 Kopf – Herz – Hand und Abschluss"
+    }
+  ],
+  "kurzfassung": [
+    "Zwei Fachleute sehen denselben Fall (Murat) völlig unterschiedlich – sie unterscheiden sich nicht in den Fakten, sondern im Menschenbild.",
+    "Anthropologie (griech. ánthropos = Mensch, lógos = Lehre) ist die Wissenschaft vom Menschen, seinem Wesen und seinen Dimensionen – also auch von den Menschenbildern.",
+    "Umgang mit Armut: Thomas von Aquin (milde Gaben) → Vives („Fördern und Fordern“) → Klumker (Hilfe zur Selbsthilfe); Kindheit: Ariès (Entdeckung) und Postman (Verschwinden).",
+    "Dreiklang: Hobbes (homo homini lupus, von Natur aus schlecht) · Rousseau (von Natur aus gut, die Gesellschaft verdirbt) · Locke (tabula rasa, durch Erfahrung geformt).",
+    "Reckahner Reflexionen: „Wohlwollen und Verständnis statt Verletzungen und Demütigung!“ – erst das Erreichte benennen, dann den nächsten Schritt.",
+    "Kopf – Herz – Hand (Pestalozzi), erweitert um Körper, Sozietät, Kultur → Bedürfnisse → Aufgaben der Pädagogik → Vechtaer Modell einer kindgerechten Schule."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Worum es im Tutorium ging",
+      "folien": "",
+      "beispiel": "",
+      "text": "Das Tutorium wiederholt die ewb001.1-Vorlesung **„Menschenbilder der Pädagogik“** vom 27.10.2026 (ewb001.1 S03). Die Nummern der Aufgaben folgen den Kapiteln der Zusammenfassung des Tutors (Aufgabe 3.1 ↔ Kapitel 3.1).\n\nAufgabentypen auf dem Kernblatt: **V** Verstehen (wiedergeben, erklären) · **A** Anwenden (auf einen Fall übertragen) · **W** Weiterdenken (verknüpfen, Stellung nehmen).\n\n{{aufgabe a00}}\n\n**Kurz erklärt:** Der rote Faden des Tutoriums lautet: Das Bild, das wir von einem Menschen haben, ist nie neutral – es entscheidet, wie wir handeln. Das wird erst an einem Fall gezeigt, dann an der Geschichte, an drei Philosophen und zuletzt an einem Modell für eine kindgerechte Schule."
+    },
+    {
+      "titel": "1 Was ist ein Menschenbild?",
+      "folien": "",
+      "beispiel": "Ebenbild Gottes → jeder Mensch hat unantastbare Würde. Entwickeltes Säugetier → der Mensch wird rein biologisch betrachtet.",
+      "text": "**Der Fall Murat** (Zusammenfassung Kap. 1): Murat, 18 Jahre, Mutter alleinerziehend, als Kind vom Vater misshandelt, in der Schule gescheitert, hat sich (wie er selbst sagt) dem Salafismus zugewandt; im Haus der Jugend Übergriffe gegenüber Homosexuellen und antisemitische Sprüche.\n\n| | Tanja Holsten, Sozialpädagogin | Heiko Gimmler, Sicherheitsexperte |\n| --- | --- | --- |\n| Aussage | „Murat hat als Kind brutale Erlebnisse gehabt. Strukturell wurde ihm keine Aufstiegschance gegeben. Die Flucht in den Salafismus ist sein Ausweg. Wir müssen ihm durch Beratung helfen, eine positive Identität zu finden.“ | „Murat ist eine wirkliche Gefahr für die Gesellschaft. Wir sollten mehr auf die Opfer blicken und frühzeitig mit wirksameren Strafen gegen solche Gewalttäter vorgehen.“ |\n\nEin zweites Beispiel ist **Heike**, 13 Jahre: Eine Lehrerin spricht von „krimineller Energie“, ein Kollege sieht den Erfolgsdruck der Familie (siehe Hausaufgabe h01, Z 1.2).\n\n> **Merke (Tutor):** Die Fachleute unterscheiden sich nicht in den Fakten, sondern in ihrem grundlegenden Bild vom Menschen. Und genau dieses Bild bestimmt, wie sie letztlich handeln.\n\n{{aufgabe a01}}\n\n**Anthropologie** (Zusammenfassung Kap. 2; Schilling 2000): griech. *ánthropos* = Mensch, *lógos* = Lehre – die Wissenschaft vom Menschen, seinem Wesen und seinen Dimensionen, also auch die Wissenschaft von den Menschenbildern. Das biblische Bilderverbot („Du sollst dir kein Bild vom Menschen machen“) lässt sich in der Praxis nicht einhalten: Jeder Tätigkeit liegt ein implizites Menschenbild zugrunde. Im **Baum der Pädagogik** (Kleve, Tutorium 1) sind Ethik und Menschenbild die **Wurzeln**.\n\n{{aufgabe a02}}\n\n{{aufgabe a03}}\n\n**Kurz erklärt:** Die Frage ist nicht, *ob* wir ein Menschenbild haben, sondern *welches* – und ob es uns bewusst ist. Wer Murat als Opfer seiner Geschichte sieht, berät; wer ihn als Gefahr sieht, straft."
+    },
+    {
+      "titel": "2 Menschenbilder in der Geschichte",
+      "folien": "",
+      "beispiel": "",
+      "text": "**Umgang mit Armut** (Zusammenfassung Kap. 3, nach Engelke 1998; Herriger 1995):\n\n| | Menschenbild | Gesellschaftsbild | Handlungsweise |\n| --- | --- | --- | --- |\n| Thomas von Aquin (1224–1274) | Der Mensch ist Gottesgeschöpf. | Arme sind ein natürlicher, gottgewollter Stand in der Ständegesellschaft. | kein aktiver Kampf gegen Armut, nur milde Gaben |\n| Juan Luis Vives (1492–1540) | Der Mensch ist arbeitsam, aber auch habgierig. | Armut ist nicht natürlich, sondern veränderbar. | „Fördern und Fordern“: Arbeitsbeschaffung, Arbeitspflicht, Bedürftigkeitsprüfungen, Bettelabzeichen und Bettelordnungen (Wien 1443, Nürnberg 1522) |\n| Christian Jasper Klumker (1868–1942) | Armut ist systemisch bedingt, weil der Einzelne nicht immer ein Produkt im Wirtschaftskreislauf anbieten kann. | Armut ist ein gesellschaftliches Phänomen, keine persönliche Schuld. | aktiver Kampf gegen Armut durch Hilfe zur Selbsthilfe und Weiterbildung |\n\n{{aufgabe a04}}\n\n{{aufgabe a05}}\n\n**Umgang mit Kindern** (Zusammenfassung Kap. 4): **Ariès** („Geschichte der Kindheit“, 1978) beschreibt die *Entdeckung* der Kindheit, **Postman** („Das Verschwinden der Kindheit“, 1987) ihre *Erosion*. Postman baut auf Ariès auf, kehrt die Entwicklungsrichtung aber um.\n\n{{aufgabe a06}}\n\n{{aufgabe a07}}\n\n**Kurz erklärt:** Ob man Armen nur Almosen gibt, sie zur Arbeit zwingt oder ihnen Weiterbildung anbietet, hängt am Menschenbild. Genauso bei Kindern: Wer das Kind als leeres Gefäß sieht, nimmt den Rohrstock; wer es als eigenständige Persönlichkeit sieht, setzt auf Sitzkreis und Mitbestimmung.\n\n**Prüfungsfalle:** Ariès = Entdeckung (Motor: Kernfamilie und Schule), Postman = Verschwinden (Motor: Medien – Buchdruck schuf die Kindheit, Fernsehen hebt sie auf). Nicht vertauschen."
+    },
+    {
+      "titel": "3 Hobbes, Rousseau, Locke & Ethik",
+      "folien": "",
+      "beispiel": "",
+      "text": "**Der Dreiklang** (Zusammenfassung Kap. 5):\n- **Thomas Hobbes (1588–1679):** *homo homini lupus* – „Der Mensch ist dem Menschen ein Wolf.“ Von Natur aus schlecht und egoistisch; ohne äußere Zwänge und Regeln würde er rücksichtslos handeln.\n- **Jean-Jacques Rousseau (1712–1778):** Der Mensch ist von Natur aus gut. Erst die Gesellschaft und ihre Institutionen verderben ihn.\n- **John Locke (1632–1704):** *tabula rasa* – der Mensch kommt als „unbeschriebenes Blatt“ zur Welt, weder gut noch schlecht, und wird vollständig durch Erfahrung und Erziehung geformt.\n\n{{aufgabe a08}}\n\n{{aufgabe a09}}\n\n**Reckahner Reflexionen** (Zusammenfassung Kap. 6): „Wohlwollen und Verständnis statt Verletzungen und Demütigung!“ (nach Prengel 2013)\n- **ethisch geboten:** wertschätzend ansprechen und behandeln · zuhören · bei Rückmeldungen das bereits Erreichte benennen, bevor neue Schritte besprochen werden\n- **ethisch unzulässig:** diskriminierend, respektlos, demütigend oder übergriffig behandeln · Produkte und Leistungen entwertend kommentieren · verbale, tätliche oder mediale Verletzungen zwischen Kindern ignorieren\n\n{{aufgabe a10}}\n\n**Kurz erklärt:** Merkhilfe für Aussagen: „Muss gezähmt werden“ → Hobbes · „Wird von außen verdorben“ → Rousseau · „Hängt davon ab, was wir anbieten“ → Locke.\n\n**Prüfungsfalle:** Klagen über Medien, die Kinder „verderben“ oder „kaputt machen“, gehören laut Tutor zu **Rousseau** (von Natur aus gut, von außen verdorben) – nicht zu Hobbes."
+    },
+    {
+      "titel": "4 Kopf – Herz – Hand und Abschluss",
+      "folien": "",
+      "beispiel": "Ein Schultag nach dem Vechtaer Modell: kurze Bewegungseinheit (Körper), Sitzkreis übers Wochenende (Herz/Sozietät), Lernstationen im eigenen Tempo (Kopf), nachmittags ein selbstgewähltes Projekt (Hand) (Zusammenfassung Kap. 8).",
+      "text": "**Dreigliedrigkeit** (Zusammenfassung Kap. 7; Stein 2017, S. 16, nach Hamann 1993): griechisch-christlich Leib – Seele – Geist · philosophisch Leben – Position – Handlung · psychologisch Denken – Fühlen – Wollen · soziokulturell Handlung – Sozietät – Kultur · **pädagogisch Kopf – Herz – Hand (Pestalozzi)**.\n\n{{aufgabe a11}}\n\n{{aufgabe a12}}\n\n**Vechtaer Modell** (Zusammenfassung Kap. 8) – Maßnahmen einer kindgerechten Schule je Aufgabe:\n- Handlung & Autonomie: kleinere Klassen, Wochenplanarbeit, Schüler*innenparlament, Lernen durch Lehren\n- Gefühlsförderung: Unterrichtseinheiten zu „Glück“, Streitschlichter*innen, anonymer Kummerkasten, Klassenhaustiere\n- Verstandesförderung: Stationenlernen im eigenen Tempo, Mischung aus konvergenten und kreativen Aufgaben\n- Bewegung & Sinne: Morgensport, Ruheräume, gesundes kostenloses Schulfrühstück, Unterricht im Freien\n- soziale Fähigkeiten: Sitzkreis statt Frontalunterricht, gemeinsam ausgehandelte Klassenregeln, Klassenfahrten\n- Werte & Kultur: Museumsbesuche, multikultureller Unterricht, Werte- und Philosophieunterricht\n\n{{aufgabe a13}}\n\n{{aufgabe a14}}\n\n> **Kernbotschaft (Tutor):** Das Bild, das wir von einem Menschen haben, ist nie neutral. Wer sich des eigenen Menschenbildes bewusst wird, kann bewusster, wertschätzender und professioneller handeln.\n\n**Kurz erklärt:** Pestalozzi sagt: Lernen betrifft den ganzen Menschen – Denken (Kopf), Fühlen (Herz) und Handeln (Hand). Die Vorlesung erweitert das um Körper, Sozietät und Kultur. Aus jeder Dimension folgt ein Bedürfnis und daraus eine Aufgabe der Pädagogik – das Vechtaer Modell macht daraus konkrete Maßnahmen.\n\n**Prüfungsfalle:** Kopf = kognitiv, **Herz = affektiv**, **Hand = psychomotorisch**. „Herz“ ist nicht psychomotorisch (Zusatzblatt R1, Aussage 8)."
+    }
+  ],
+  "definitionen": [],
+  "aufgaben": [
+    {
+      "id": "a00",
+      "art": "Aufgabe auf Folie",
+      "text": "Einstieg: Gut, schlecht oder offen? Ist der Mensch von Natur aus eher gut, eher schlecht – oder kommt er als „unbeschriebenes Blatt“ zur Welt? ☐ eher gut ☐ eher schlecht ☐ weder noch – das prägt die Umwelt. Kreuzt spontan an und begründet in einem Satz. Am Ende des Tutoriums (Aufgabe 9.1) kommt ihr darauf zurück.",
+      "quelle": "Kernblatt S. 1 · Einstieg",
+      "loesung": "*Persönliche Antwort – es gibt kein Richtig oder Falsch.* Die drei Kästchen entsprechen den drei klassischen Menschenbildern: **eher gut** = Rousseau, **eher schlecht** = Hobbes, **weder noch – das prägt die Umwelt** = Locke (tabula rasa).",
+      "loesungsweg": "Zuordnung selbst erarbeitet aus Zusammenfassung Kap. 5.",
+      "frist": "",
+      "im_kalender": false,
+      "folie": ""
+    },
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 1.1 – Ein Fall, zwei Blickwinkel. Fall: Murat, 18, wuchs bei seiner alleinerziehenden Mutter auf und wurde als Kind vom Vater misshandelt. Er ist in der Schule gescheitert und hat sich – wie er selbst sagt – dem Salafismus zugewandt. Im Haus der Jugend fällt er durch Übergriffe gegenüber Homosexuellen und antisemitische Sprüche auf.\n\na) Vergleicht die beiden Fachleute aus der Vorlesung (Tanja Holsten, Sozialpädagogin – Heiko Gimmler, Sicherheitsexperte): Wie sieht sie/er Murat? Worauf richtet sie/er den Blick? Was soll passieren?\nb) Unterscheiden sich die beiden in den Fakten – oder in etwas anderem? Begründet. (Tipp: Beide kennen dieselbe Geschichte von Murat.)",
+      "quelle": "Kernblatt S. 2 · Aufgabe 1.1 · nach Zusammenfassung des Tutors",
+      "loesung": "**a)**\n\n| | Tanja Holsten, Sozialpädagogin | Heiko Gimmler, Sicherheitsexperte |\n| --- | --- | --- |\n| Wie sieht sie/er Murat? | als jemanden mit brutalen Kindheitserlebnissen, dem strukturell keine Aufstiegschance gegeben wurde – die Flucht in den Salafismus ist „sein Ausweg“ | als „wirkliche Gefahr für die Gesellschaft“, als Gewalttäter |\n| Worauf richtet sie/er den Blick? | auf Murats Geschichte und seine Lebensumstände | auf die Opfer |\n| Was soll passieren? | Beratung, damit er eine positive Identität findet | frühzeitig mit wirksameren Strafen vorgehen |\n\n**b)** Sie unterscheiden sich **nicht in den Fakten** – beide kennen dieselbe Geschichte –, sondern in ihrem **grundlegenden Bild vom Menschen**. Dieses Bild bestimmt, wie sie handeln (Beratung vs. Strafe).",
+      "loesungsweg": "Aussagen aus Zusammenfassung Kap. 1 in die Tabelle übertragen.",
+      "frist": "",
+      "im_kalender": false,
+      "folie": ""
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 2.1 – Anthropologie. a) Woher kommt das Wort, und was ist Anthropologie? (griech. ___ = ___ + griech. ___ = ___; Anthropologie ist …) b) Die Bibel sagt: „Du sollst dir kein Bild vom Menschen machen.“ Warum lässt sich das in der Praxis nicht einhalten? c) Erinnert euch an den Baum der Pädagogik aus Tutorium 1: Wo steht dort das Menschenbild?",
+      "quelle": "Kernblatt S. 2–3 · Aufgabe 2.1 · nach Zusammenfassung des Tutors",
+      "loesung": "**a)** griech. **ánthropos** = **Mensch** + griech. **lógos** = **Lehre**. Anthropologie ist **die Wissenschaft vom Menschen, seinem Wesen und seinen Dimensionen – also auch die Wissenschaft von den Menschenbildern** (Schilling 2000).\n\n**b)** Weil jeder wissenschaftlichen und jeder praktischen Tätigkeit (z. B. in der sozialen Arbeit) ein **implizites Menschenbild und eine bestimmte Ethik** zugrunde liegt. Die Frage ist nicht, *ob* wir ein Menschenbild haben, sondern *welches* und ob es uns bewusst ist.\n\n**c)** Im Baum der Pädagogik (Heiko Kleve) sind **Ethik und Menschenbild die Wurzeln**, aus denen alles andere erwächst.",
+      "loesungsweg": "Zusammenfassung Kap. 2.",
+      "frist": "",
+      "im_kalender": false,
+      "folie": ""
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 2.2 – Zwei Bilder vom Menschen. Welche Haltung gegenüber einem einzelnen Menschen folgt jeweils aus dem Bild? Der Mensch als „Ebenbild Gottes“ – Der Mensch als „entwickeltes Säugetier“",
+      "quelle": "Kernblatt S. 3 · Aufgabe 2.2 · nach Zusammenfassung des Tutors (ergänzt)",
+      "loesung": "- **„Ebenbild Gottes“:** Jeder einzelne Mensch hat **Würde und ist unantastbar** – er wird unabhängig von Leistung oder Nutzen geachtet.\n- **„Entwickeltes Säugetier“:** Der Mensch wird **rein biologisch** betrachtet – als Lebewesen unter anderen, erklärbar über Biologie (Triebe, Anpassung).\n\nLaut Tutor verändert sich je nach Bild die Haltung gegenüber jedem einzelnen Menschen „von Würde und Unantastbarkeit bis zu rein biologischer Betrachtung“.",
+      "loesungsweg": "Zusammenfassung Kap. 2 (Beispiel); Ausformulierung selbst erarbeitet.",
+      "frist": "",
+      "im_kalender": false,
+      "folie": ""
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 3.1 – Wie gehen wir mit Armut um? Ergänzt die leeren Felder (vgl. Engelke 1998; Herriger 1995). Thomas von Aquin (1224–1274): Menschenbild „Der Mensch ist Gottesgeschöpf.“ – Gesellschaftsbild ? – Handlungsweise ?; Juan Luis Vives (1492–1540): Menschenbild ? – Gesellschaftsbild „Armut ist veränderbar.“ – Handlungsweise ?; Christian Jasper Klumker (1868–1942): Menschenbild ? – Gesellschaftsbild ? – Handlungsweise „aktiver Kampf durch Hilfe zur Selbsthilfe und Weiterbildung“.",
+      "quelle": "Kernblatt S. 3 · Aufgabe 3.1 · nach Zusammenfassung des Tutors",
+      "loesung": "| | Menschenbild | Gesellschaftsbild | Handlungsweise |\n| --- | --- | --- | --- |\n| Thomas von Aquin | Der Mensch ist Gottesgeschöpf. | **Arme sind ein natürlicher, gottgewollter Stand innerhalb der Ständegesellschaft.** | **kein aktiver Kampf gegen Armut, lediglich milde Gaben** |\n| Juan Luis Vives | **Der Mensch ist einerseits arbeitsam, andererseits aber auch habgierig.** | Armut ist (nicht natürlich, sondern) veränderbar. | **„Fördern und Fordern“: Arbeitsbeschaffung, Arbeitspflicht, Bedürftigkeitsprüfungen, Stigmatisierung durch Bettelabzeichen und Bettelordnungen** |\n| Christian Jasper Klumker | **Armut ist systemisch bedingt, weil der Einzelne nicht immer ein Produkt im Wirtschaftskreislauf anbieten kann.** | **Armut ist ein gesellschaftliches Phänomen, keine persönliche Schuld.** | aktiver Kampf durch Hilfe zur Selbsthilfe und Weiterbildung |",
+      "loesungsweg": "Zusammenfassung Kap. 3.1–3.3 (ergänzte Felder fett).",
+      "frist": "",
+      "im_kalender": false,
+      "folie": ""
+    },
+    {
+      "id": "a05",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 3.2 – Und heute? Welcher historischen Position ähnelt die Aussage am meisten? T = Thomas von Aquin · V = Vives · K = Klumker. a) „Wer Sozialhilfe bekommt, muss dafür auch arbeiten – und wir prüfen genau, wer wirklich bedürftig ist.“ b) „Armut ist kein persönliches Versagen. Wir brauchen Weiterbildung und Hilfe zur Selbsthilfe.“ c) „Arme hat es immer gegeben. Wer helfen will, kann ja spenden.“",
+      "quelle": "Kernblatt S. 4 · Aufgabe 3.2 · selbst erarbeitet",
+      "loesung": "- **a) V (Vives)** – Arbeitspflicht und Bedürftigkeitsprüfung = „Fördern und Fordern“.\n- **b) K (Klumker)** – keine persönliche Schuld, Hilfe zur Selbsthilfe und Weiterbildung.\n- **c) T (Thomas von Aquin)** – Armut als natürlicher Zustand, nur milde Gaben, kein aktiver Kampf.",
+      "loesungsweg": "Schlüsselwörter der Aussagen mit der Tabelle aus Aufgabe 3.1 vergleichen.",
+      "frist": "",
+      "im_kalender": false,
+      "folie": ""
+    },
+    {
+      "id": "a06",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 4.1 – Ariès und Postman. a) Tragt ein, was nach Ariès und Postman in den drei Epochen mit der Kindheit passiert (Zeitstrahl: Mittelalter – Neuzeit 16.–18. Jh. – Moderne: Fernsehen, digitale Medien; Pfeil Ariès vom Mittelalter zur Neuzeit, Pfeil Postman von der Neuzeit zur Moderne). b) Was treibt den Wandel jeweils an – und wie bewerten die beiden ihn? (Motor des Wandels · Bewertung)",
+      "quelle": "Kernblatt S. 4 · Aufgabe 4.1 · nach Zusammenfassung des Tutors",
+      "loesung": "**a)**\n- **Mittelalter:** kein Bewusstsein für Kindheit als eigene Lebensphase; Kinder werden nach den ersten Lebensjahren direkt in die Welt der Erwachsenen integriert und wie **„kleine Erwachsene“** behandelt.\n- **Neuzeit (16.–18. Jh.):** Es entsteht ein „Kindheitsgefühl“; die Kindheit wird als **Schutz- und Schonraum** von der Erwachsenenwelt getrennt (Ariès: Entdeckung).\n- **Moderne (Fernsehen, digitale Medien):** Der Schutzraum schwindet wieder; Kinder und Erwachsene gleichen sich in Kleidung, Sprache, Verhalten und Interessen an – **die Kindheit verschwindet** (Postman: Erosion).\n\n**b)**\n\n| | Philippe Ariès (1978) | Neil Postman (1987) |\n| --- | --- | --- |\n| Motor des Wandels | Sozial- und Mentalitätsgeschichte: Entstehung der modernen **Kernfamilie** und Etablierung des **Schulsystems** | Medienökologie: Der **Buchdruck** schuf die Kindheit (Lesen muss mühsam gelernt werden → „Informationsbarriere“); **Fernsehen und digitale Medien** heben diese Barriere wieder auf |\n| Bewertung | distanziert-analytisch als Historiker: die Trennung ist **einerseits Schutz, andererseits freiheitsberaubende Isolation** | als Kulturkritiker: das Verschwinden ist ein **fataler zivilisatorischer Verlust**, der Erziehung, moralische Reife und die Autorität der Erwachsenen bedroht |",
+      "loesungsweg": "Zusammenfassung Kap. 4.",
+      "frist": "",
+      "im_kalender": false,
+      "folie": ""
+    },
+    {
+      "id": "a07",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 4.2 – Zwei Schulen, zwei Kinderbilder. Gehört das Merkmal zur Dorfschule des 18./19. Jahrhunderts (D) oder zur modernen Grundschule (G)? a) Sitzkreis b) Rohrstock c) Wochenplanarbeit d) Auswendiglernen, rein lehrergesteuert e) Mitbestimmung der Kinder. Welches Kinderbild steckt jeweils dahinter? Dorfschule: Kind = … Grundschule: Kind = …",
+      "quelle": "Kernblatt S. 5 · Aufgabe 4.2 · nach Zusammenfassung des Tutors",
+      "loesung": "- a) Sitzkreis → **G**\n- b) Rohrstock → **D**\n- c) Wochenplanarbeit → **G**\n- d) Auswendiglernen, rein lehrergesteuert → **D**\n- e) Mitbestimmung der Kinder → **G**\n\n**Dorfschule:** Kind = **leeres Gefäß, das diszipliniert gefüllt werden muss**.\n**Grundschule:** Kind = **eigenständige Persönlichkeit mit eigenen Interessen**.\n\nDieselbe Institution Schule, aber ein komplett anderes pädagogisches Handeln, weil sich das Kinderbild verändert hat.",
+      "loesungsweg": "Zusammenfassung Kap. 4 (Schulbeispiel).",
+      "frist": "",
+      "im_kalender": false,
+      "folie": ""
+    },
+    {
+      "id": "a08",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 5.1 – Der Dreiklang. Thomas Hobbes – Jean-Jacques Rousseau – John Locke: Kernsatz · Was folgt daraus?",
+      "quelle": "Kernblatt S. 5 · Aufgabe 5.1 · nach Zusammenfassung des Tutors",
+      "loesung": "| | Thomas Hobbes (1588–1679) | Jean-Jacques Rousseau (1712–1778) | John Locke (1632–1704) |\n| --- | --- | --- | --- |\n| Kernsatz | *homo homini lupus* – „Der Mensch ist dem Menschen ein Wolf.“ Von Natur aus schlecht und egoistisch. | Der Mensch ist von Natur aus gut. | *tabula rasa* – „unbeschriebenes Blatt“, weder gut noch schlecht von Natur aus. |\n| Was folgt daraus? | Ohne äußere Zwänge und Regeln würde er rücksichtslos handeln → er muss gezähmt und diszipliniert werden. | Erst die Gesellschaft und ihre Institutionen verderben ihn → vor schädlichen Einflüssen schützen. | Er wird vollständig durch Erfahrung und Erziehung geformt → auf die richtige Umgebung und das richtige Angebot kommt es an. |",
+      "loesungsweg": "Zusammenfassung Kap. 5; Folgerungen nach den Beispielen des Tutors.",
+      "frist": "",
+      "im_kalender": false,
+      "folie": ""
+    },
+    {
+      "id": "a09",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 5.2 – Menschenbilder im Lehrerzimmer. Welches Menschenbild klingt durch? H = Hobbes · R = Rousseau · L = Locke. a) „Ohne klare Strafen läuft hier gar nichts – die nutzen jede Lücke aus.“ b) „Die Kinder kommen neugierig in die Schule – erst der Notendruck nimmt ihnen die Freude.“ c) „Was aus einem Kind wird, hängt davon ab, was wir ihm anbieten.“ d) „Diese Klasse muss man an der kurzen Leine halten.“ e) „Die sozialen Medien machen unsere Schüler*innen kaputt.“ f) „Mit dem richtigen Material lernt jedes Kind lesen.“",
+      "quelle": "Kernblatt S. 6 · Aufgabe 5.2 · selbst erarbeitet nach den Beispielen des Tutors",
+      "loesung": "- **a) H** – ohne Strafen und Regeln nutzen sie alles aus (von Natur aus egoistisch).\n- **b) R** – von Natur aus neugierig/gut, die Institution (Notendruck) verdirbt.\n- **c) L** – das Kind wird durch das Angebot geformt.\n- **d) H** – muss gezähmt und diszipliniert werden.\n- **e) R** – von außen verdorben (Tutor: „Medien, die die Kinder total verderben“ → Rousseau).\n- **f) L** – die richtige Umgebung formt das Kind.",
+      "loesungsweg": "Mit den drei Beispielsätzen des Tutors (Zusammenfassung Kap. 5) vergleichen: gezähmt werden → Hobbes, von außen verdorben → Rousseau, durch Umgebung geformt → Locke.",
+      "frist": "",
+      "im_kalender": false,
+      "folie": ""
+    },
+    {
+      "id": "a10",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 6.1 – Die Reckahner Reflexionen („Wohlwollen und Verständnis statt Verletzungen und Demütigung!“ – nach Prengel 2013). a) Ist das Verhalten ethisch geboten (✓) oder unzulässig (✗)? a) „Das ist ja wieder total unleserlich – so etwas gebe ich nicht zurück.“ b) Sie überhört, dass ein Junge im Klassenchat beleidigt wird. c) Sie fragt: „Erzähl mal, was ist passiert?“ – und hört zu. d) „Die Einleitung ist dir gut gelungen. Jetzt schauen wir uns den Schluss an.“ e) „Na, hast du heute wenigstens deine Sachen dabei, Herr Professor?“ b) Formuliert Aussage a) so um, dass sie den Reckahner Reflexionen entspricht. (Tipp: Erst das Erreichte benennen, dann den nächsten Schritt.)",
+      "quelle": "Kernblatt S. 6 · Aufgabe 6.1 · nach Zusammenfassung des Tutors (Zuordnung selbst erarbeitet)",
+      "loesung": "**a)**\n- a) **✗** – Leistung wird entwertend kommentiert.\n- b) **✗** – mediale Verletzung zwischen Kindern wird ignoriert.\n- c) **✓** – zuhören.\n- d) **✓** – erst das Erreichte benennen, dann den nächsten Schritt.\n- e) **✗** – respektlos und demütigend (Spott).\n\n**b)** Beispiel: „Den Inhalt hast du schon gut aufgeschrieben – man sieht, dass du dir Gedanken gemacht hast. Als Nächstes achten wir gemeinsam darauf, dass man es gut lesen kann.“",
+      "loesungsweg": "Kriterien „geboten/unzulässig“ aus Zusammenfassung Kap. 6; Muster für b): „Diesen Teil hast du schon richtig gelöst. Beim nächsten Schritt schauen wir gemeinsam weiter.“",
+      "frist": "",
+      "im_kalender": false,
+      "folie": ""
+    },
+    {
+      "id": "a11",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 7.1 – Das pädagogische Menschenbild. Ergänzt das Modell nach Pestalozzi (Schilling 2000; Hamann 1993): Kopf – steht für: … Dimension: … · Herz – steht für: … Dimension: … · Hand – steht für: … Dimension: … · „Erst das ___ aller drei ergibt den ganzen Menschen.“",
+      "quelle": "Kernblatt S. 7 · Aufgabe 7.1 · nach Zusammenfassung des Tutors",
+      "loesung": "- **Kopf** – steht für: **Denken** · Dimension: **kognitiv**\n- **Herz** – steht für: **Fühlen** · Dimension: **affektiv**\n- **Hand** – steht für: **Wollen/Handeln** · Dimension: **psychomotorisch**\n\n„Erst das **Zusammenspiel** aller drei ergibt den ganzen Menschen.“",
+      "loesungsweg": "Zusammenfassung Kap. 7 (Definition).",
+      "frist": "",
+      "im_kalender": false,
+      "folie": ""
+    },
+    {
+      "id": "a12",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 7.2 – Von der Dimension zur Aufgabe. Aus den sechs Dimensionen folgen Bedürfnisse – und daraus Aufgaben der Pädagogik (Stein 2017). Ergänzt die leeren Felder: Kopf (kognitiv) – Lernen, Kreativität – ?; Herz (affektiv) – ? – Gefühlsförderung; Hand (psychomotorisch) – Hobbies, Autonomie – ?; Körper – ? – Förderung von Bewegung und Sinnen; Sozietät – Anerkennung, Beziehung, Helfen – ?; Kultur – ? – Förderung von Werten und Kultur.",
+      "quelle": "Kernblatt S. 7 · Aufgabe 7.2 · nach Zusammenfassung des Tutors",
+      "loesung": "| Dimension | Bedürfnis | Aufgabe der Pädagogik |\n| --- | --- | --- |\n| Kopf (kognitiv) | Lernen, Kreativität | **Verstandesförderung** |\n| Herz (affektiv) | **Geliebtsein, Erlebnisse** | Gefühlsförderung |\n| Hand (psychomotorisch) | Hobbies, Autonomie | **Förderung von Handlung & Autonomie** |\n| Körper | **Schlaf, Bewegung, Erholung** | Förderung von Bewegung und Sinnen |\n| Sozietät | Anerkennung, Beziehung, Helfen | **Förderung sozialer Fähigkeiten** |\n| Kultur | **Werte, Verantwortung, Kunst** | Förderung von Werten und Kultur |",
+      "loesungsweg": "Zusammenfassung Kap. 7 (Tabelle); stimmt mit Folie 54 der Vorlesung überein (dort Bedürfnis Hand: „Hobbies, Aktion, Autonomie“).",
+      "frist": "",
+      "im_kalender": false,
+      "folie": ""
+    },
+    {
+      "id": "a13",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 8.1 – Das Vechtaer Modell. Welche Dimension fördert die Maßnahme vor allem? (Kopf · Herz · Hand · Körper · Soz. · Kultur) a) Morgensport b) anonymer Kummerkasten c) Stationenlernen im eigenen Tempo d) Schüler*innenparlament e) gemeinsam ausgehandelte Klassenregeln f) Museumsbesuch",
+      "quelle": "Kernblatt S. 8 · Aufgabe 8.1 · nach Zusammenfassung des Tutors",
+      "loesung": "- a) Morgensport → **Körper** (Bewegung & Sinne)\n- b) anonymer Kummerkasten → **Herz** (Gefühlsförderung)\n- c) Stationenlernen im eigenen Tempo → **Kopf** (Verstandesförderung)\n- d) Schüler*innenparlament → **Hand** (Handlung & Autonomie)\n- e) gemeinsam ausgehandelte Klassenregeln → **Sozietät** (soziale Fähigkeiten)\n- f) Museumsbesuch → **Kultur** (Werte & Kultur)",
+      "loesungsweg": "Zuordnung genau nach der Liste des Tutors (Zusammenfassung Kap. 8).",
+      "frist": "",
+      "im_kalender": false,
+      "folie": ""
+    },
+    {
+      "id": "a14",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 9.1 – Zurück zu Murat. a) Welches der drei klassischen Menschenbilder steckt hinter Tanja Holsten, welches hinter Heiko Gimmler? b) Plant zwei Angebote für Murat im Haus der Jugend, die zu Kopf – Herz – Hand und den Reckahner Reflexionen passen. c) Vergleicht mit eurem Kreuz aus Aufgabe 0. Seht ihr es jetzt anders?",
+      "quelle": "Kernblatt S. 8 · Aufgabe 9.1 · selbst erarbeitet",
+      "loesung": "**a)**\n- **Holsten:** am ehesten **Rousseau** – Murat ist durch seine Umstände (Misshandlung, fehlende Aufstiegschancen) „verdorben“ worden; auch **Locke** ist begründbar, weil sie Murat als durch seine Erfahrungen geformt sieht und auf ein neues Angebot (Beratung) setzt.\n- **Gimmler:** **Hobbes** – Murat ist eine Gefahr, die durch Strafen und Zwang gebändigt werden muss.\n\n**b)** Beispiele:\n1. **Boxtraining mit festen Regeln und einer Bezugsperson** (Hand/Körper: Energie und Selbstwirksamkeit; Herz: Beziehung; Reckahner Reflexionen: wertschätzend ansprechen, zuhören).\n2. **Gesprächsgruppe oder Projekt mit Begegnung**, z. B. ein gemeinsames Medienprojekt über die eigene Biografie mit anderen Jugendlichen unterschiedlicher Herkunft (Kopf: Argumente prüfen, Herz: eigene Erfahrungen verarbeiten, Kultur/Sozietät: Werte und Anerkennung; Rückmeldung: erst Gelungenes benennen).\n\n**c)** *Persönliche Antwort.* Wer anfangs „eher schlecht“ angekreuzt hat, merkt vielleicht, dass aus diesem Bild vor allem Strafe folgt – und dass Rousseaus oder Lockes Bild mehr pädagogische Möglichkeiten eröffnet.",
+      "loesungsweg": "a) mit den Kernsätzen aus Aufgabe 5.1 vergleichen; b) je Angebot mindestens zwei Dimensionen und einen Grundsatz der Reckahner Reflexionen nennen. Keine Lösung des Tutors vorhanden.",
+      "frist": "",
+      "im_kalender": false,
+      "folie": ""
+    },
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Tutorium S2 → S3: Zusatzblatt „Vertiefen & Wiederholen“ (R1, R2, Z 1.2, Z 3.2, Z 4.2, Z 5.1, Z 8.1) – ausgearbeitet",
+      "text": "Zusatzblatt „Vertiefen & Wiederholen“ des Tutors zu Tutorium 2 – „Für zu Hause oder für alle, die im Tutorium schneller fertig sind“ (freiwillig).\n\n1. Selbsteinschätzung: Das kann ich … (sicher · teils · noch nicht)\n2. Aufgabe R1 – Richtig oder falsch? Kreuzt an und berichtigt die falschen Aussagen (8 Aussagen).\n3. Aufgabe R2 – Lückentext: Kopf – Herz – Hand (Wörter: affektive, Denken, Fühlen, Handeln, kognitive, psychomotorische, Pestalozzi, Zusammenspiel).\n4. Z 1.2 – Heike fälscht eine Unterschrift: Wer sieht Heike wie – und was folgt daraus?\n5. Z 3.2 – Grundeinkommen: Fördert ein bedingungsloses Grundeinkommen Kreativität und neue Berufe – oder nur Müßiggang? Ordnet beide Antworten einem Menschenbild zu.\n6. Z 4.2 – Postman heute: Was würde er wohl zu Smartphones und Social Media sagen? Begründet mit seiner Argumentation.\n7. Z 5.1 – Mein Menschenbild: Welches der drei klassischen Menschenbilder steht dir am nächsten? Welche Folge hätte das für deinen Unterricht?\n8. Z 8.1 – Meine kindgerechte Schule: Plant einen Schultag nach dem Vechtaer Modell, in dem alle sechs Dimensionen vorkommen.",
+      "quelle": "Zusatzblatt Tutorium 2, S. 1–3",
+      "loesung": "**Aufgabe 1 – Selbsteinschätzung:** *„Das kann ich … (😊 sicher · 😐 teils · 😟 noch nicht): erklären, was ein Menschenbild ist und warum jedes Handeln eines hat · die drei Positionen zur Armut und Ariès/Postman unterscheiden · Hobbes, Rousseau und Locke in Aussagen erkennen · Verhalten nach den Reckahner Reflexionen beurteilen · Kopf – Herz – Hand und das Vechtaer Modell erklären“*\n\n**Antwort:** Persönliche Einschätzung. Bei „teils“ oder „noch nicht“ empfiehlt der Tutor, mit dem Schnellcheck (R1, R2) zu starten und die Kapitel der Zusammenfassung noch einmal anzusehen. In der App helfen die Lernfragen t01–t14 dieser Sitzung.\n\n**Aufgabe R1 – Richtig oder falsch?** *„Kreuzt an und berichtigt die falschen Aussagen in der letzten Spalte.“*\n\n**Antwort:**\n\n| Aussage | R/F | Berichtigung |\n| --- | --- | --- |\n| 1. Anthropologie ist die Wissenschaft vom Menschen – also auch von den Menschenbildern. | **R** | – |\n| 2. Thomas von Aquin wollte Armut aktiv bekämpfen. | **F** | Thomas von Aquin sah Armut als gottgewollten Stand: **kein aktiver Kampf**, nur milde Gaben. |\n| 3. Vives setzte auf „Fördern und Fordern“. | **R** | – |\n| 4. Für Klumker ist Armut eine persönliche Schuld. | **F** | Für Klumker ist Armut **systemisch bedingt**, ein gesellschaftliches Phänomen und **keine persönliche Schuld**. |\n| 5. Ariès beschreibt, wie das Fernsehen die Kindheit verschwinden lässt. | **F** | Das ist **Postman**. Ariès beschreibt die **Entdeckung** der Kindheit in der Neuzeit. |\n| 6. Für Postman verdankt die Kindheit ihre Entstehung dem Buchdruck. | **R** | – |\n| 7. Locke sieht den Menschen als unbeschriebenes Blatt. | **R** | – |\n| 8. Bei Pestalozzi steht „Herz“ für die psychomotorische Dimension. | **F** | „Herz“ steht für das Fühlen, die **affektive** Dimension; psychomotorisch ist die **Hand**. |\n\n**Aufgabe R2 – Lückentext: Kopf – Herz – Hand** *(Wörter: affektive, Denken, Fühlen, Handeln, kognitive, psychomotorische, Pestalozzi, Zusammenspiel)*\n\n**Antwort:** Das pädagogische Menschenbild geht auf **Pestalozzi** zurück. Der Kopf steht für das **Denken**, also die **kognitive** Dimension. Das Herz steht für das **Fühlen**, die **affektive** Dimension. Die Hand steht für das Wollen und **Handeln**, die **psychomotorische** Dimension. Erst das **Zusammenspiel** aller drei ergibt ein vollständiges Bild vom lernenden Menschen.\n\n---neue-seite---\n\n**Aufgabe Z 1.2 – Heike fälscht eine Unterschrift:** *„Heike, 13, aus gutbürgerlichem Elternhaus, bleibt zweimal sitzen und fälscht die Unterschrift ihres Vaters. Eine Lehrerin spricht von „krimineller Energie“, ein Kollege sieht den Erfolgsdruck der Familie. Wer sieht Heike wie – und was folgt daraus?“*\n\n**Antwort:**\n- **Die Lehrerin** sieht Heike als Täterin mit „krimineller Energie“ – das Problem liegt in Heike selbst. Daraus folgen Sanktionen; sie zweifelt sogar am Verbleib an der Schule. Dahinter steht am ehesten das Menschenbild von **Hobbes** (der Mensch muss durch Strafen und Regeln gebändigt werden).\n- **Der Kollege** sieht Heike als Jugendliche unter enormem **Erfolgsdruck durch die Familie** – die Ursache liegt in ihren Umständen. Daraus folgen **Gespräche statt Sanktionen** (Zusammenfassung Kap. 1). Dahinter steht eher **Rousseau** (die Umstände haben sie in diese Lage gebracht) oder **Locke** (sie wurde durch ihre Erfahrungen geprägt).\n- Wie im Fall Murat unterscheiden sich die beiden **nicht in den Fakten, sondern im Menschenbild** – und das bestimmt ihr Handeln.\n\n**Aufgabe Z 3.2 – Grundeinkommen:** *„Fördert ein bedingungsloses Grundeinkommen Kreativität und neue Berufe – oder nur Müßiggang? Ordnet beide Antworten einem Menschenbild zu.“*\n\n**Antwort:**\n- **„Es fördert Kreativität und neue Berufe“:** Der Mensch ist von sich aus aktiv und will etwas schaffen, wenn man ihm Freiraum gibt → **Rousseau** (von Natur aus gut). Auch **Locke** passt: Wer bessere Bedingungen bekommt, entwickelt sich besser. Historisch erinnert die Position an **Klumker** (Armut ist systemisch, Hilfe zur Selbsthilfe).\n- **„Es fördert nur Müßiggang“:** Ohne Zwang würden Menschen ihren Eigennutz verfolgen und nicht arbeiten → **Hobbes** (von Natur aus egoistisch). Historisch passt **Vives** („Fördern und Fordern“, Arbeitspflicht – der Mensch ist arbeitsam, aber auch habgierig).\n\n*Zuordnung selbst erarbeitet; die Frage steht so in der Zusammenfassung des Tutors (Kap. 3, „Und heute?“).*\n\n**Aufgabe Z 4.2 – Postman heute:** *„Postman schrieb über das Fernsehen. Was würde er wohl zu Smartphones und Social Media sagen? Begründet mit seiner Argumentation.“*\n\n**Antwort:** Postman argumentiert medientechnologisch: Die Kindheit entstand durch den **Buchdruck**, weil Lesen mühsam gelernt werden muss – so entstand eine **Informationsbarriere** zwischen Kindern und Erwachsenen. Bildmedien wie das Fernsehen brauchen keine Ausbildung, sind sofort zugänglich und legen die Geheimnisse der Erwachsenenwelt (Gewalt, Sexualität, Geld) vorzeitig offen. Smartphones und Social Media würde er deshalb vermutlich als **noch stärkeren Motor des Verschwindens der Kindheit** sehen: Sie sind jederzeit und überall verfügbar, ungefiltert, oft ohne Erwachsene genutzt, und Kinder und Erwachsene nutzen dieselben Plattformen, Trends und Sprache. Als Kulturkritiker würde er das als **zivilisatorischen Verlust** bewerten, der die Autorität der Erwachsenen und die Erziehung bedroht.\n\n*Übertragung selbst erarbeitet nach Zusammenfassung Kap. 4.*\n\n---neue-seite---\n\n**Aufgabe Z 5.1 – Mein Menschenbild:** *„Welches der drei klassischen Menschenbilder steht dir am nächsten? Welche Folge hätte das für deinen Unterricht?“*\n\n**Antwort:** *Persönliche Stellungnahme – Beispiel, selbst erarbeitet:* Am nächsten steht mir **Locke**: Kinder kommen nicht „gut“ oder „schlecht“ auf die Welt, sondern werden stark durch ihre Erfahrungen geprägt. Folge für meinen Unterricht: Ich trage Verantwortung dafür, was ich anbiete – passendes Material, verschiedene Zugänge, eine wertschätzende Lernumgebung (Reckahner Reflexionen). Bei Problemverhalten frage ich zuerst nach den Ursachen, bevor ich sanktioniere. Ein Gedanke von **Rousseau** ergänzt das: Kinder bringen Neugier mit, die Schule sollte sie nicht durch Druck zerstören.\n\n**Aufgabe Z 8.1 – Meine kindgerechte Schule:** *„Plant einen Schultag nach dem Vechtaer Modell, in dem alle sechs Dimensionen vorkommen.“*\n\n**Antwort:** *Beispiel, selbst erarbeitet mit den Maßnahmen aus Zusammenfassung Kap. 8:*\n\n| Zeit | Baustein | Dimension (Aufgabe) |\n| --- | --- | --- |\n| 8:00 | Morgensport auf dem Schulhof, danach gesundes Schulfrühstück | Körper (Bewegung & Sinne) |\n| 8:30 | Sitzkreis: Wie war das Wochenende? Kurzer Blick in den Kummerkasten | Herz (Gefühlsförderung) und Sozietät |\n| 9:00 | Stationenlernen im eigenen Tempo, mit konvergenten und kreativen Aufgaben | Kopf (Verstandesförderung) |\n| 10:30 | Pause, Ruheraum offen | Körper |\n| 11:00 | Wochenplanarbeit; danach Sitzung des Schüler*innenparlaments | Hand (Handlung & Autonomie) |\n| 12:00 | Klassenrat: gemeinsam Klassenregeln aushandeln, Streitschlichtung | Sozietät (soziale Fähigkeiten) |\n| 13:30 | Philosophiestunde oder Museumsbesuch, multikulturelles Projekt | Kultur (Werte & Kultur) |\n\nSo kommen alle sechs Dimensionen vor – die Schule sieht „den ganzen Menschen und nicht nur das Kind als Lernenden“ (Tutor).",
+      "loesungsweg": "R1 und R2 mit der Zusammenfassung des Tutors (Kap. 3–7) abgleichen; die Z-Aufgaben mit den Kernsätzen der Menschenbilder, Postmans Argument der Informationsbarriere und der Liste des Vechtaer Modells beantworten.",
+      "frist": "2026-11-06",
+      "im_kalender": true,
+      "fuer_sitzung": "ewb001_2026-11-06",
+      "kalender_id": "03c99abe-2181-452f-8f44-642505e4f174",
+      "pdf": "/dateien/ewb001/S03_2026-11-06_Hausaufgabe_Tutorium_Zusatzblatt_Vertiefen-und-Wiederholen_Menschenbilder.pdf"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "t01",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Worin unterscheiden sich die Sozialpädagogin Tanja Holsten und der Sicherheitsexperte Heiko Gimmler im Fall Murat?",
+      "antwort": "Nicht in den Fakten – beide kennen dieselbe Geschichte –, sondern in ihrem grundlegenden Bild vom Menschen. Holsten sieht Murat als jemanden mit brutalen Kindheitserlebnissen ohne Aufstiegschance und will ihm durch Beratung zu einer positiven Identität helfen; Gimmler sieht ihn als Gefahr für die Gesellschaft, blickt auf die Opfer und will frühzeitig mit wirksameren Strafen vorgehen.",
+      "erklaerung": "Zusammenfassung Kap. 1; Kernblatt Aufgabe 1.1.",
+      "folie": "Kernblatt 1.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t02",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Anthropologie (griech. ánthropos = [[Mensch]], lógos = [[Lehre]]) ist die Wissenschaft vom Menschen, seinem Wesen und seinen Dimensionen – also auch die Wissenschaft von den Menschenbildern.",
+      "erklaerung": "Zusammenfassung Kap. 2 (Schilling 2000).",
+      "folie": "Kernblatt 2.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t03",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum Menschenbild treffen laut Tutor zu?",
+      "optionen": [
+        "Jeder wissenschaftlichen und praktischen Tätigkeit liegt ein implizites Menschenbild zugrunde.",
+        "Das biblische Bilderverbot lässt sich in der pädagogischen Praxis gut einhalten.",
+        "Im Baum der Pädagogik (Kleve) sind Ethik und Menschenbild die Wurzeln.",
+        "Die Frage ist nicht, ob wir ein Menschenbild haben, sondern welches und ob es uns bewusst ist."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Zusammenfassung Kap. 2. Das Bilderverbot ist in der Praxis gerade *nicht* einzuhalten.",
+      "folie": "Kernblatt 2.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t04",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Aussagen zum Umgang mit Armut der passenden Person zu.",
+      "kategorien": [
+        "Thomas von Aquin",
+        "Juan Luis Vives",
+        "Christian Jasper Klumker"
+      ],
+      "elemente": [
+        {
+          "text": "Arme sind ein natürlicher, gottgewollter Stand.",
+          "kategorie": "Thomas von Aquin"
+        },
+        {
+          "text": "nur milde Gaben, kein aktiver Kampf gegen Armut",
+          "kategorie": "Thomas von Aquin"
+        },
+        {
+          "text": "Der Mensch ist arbeitsam, aber auch habgierig.",
+          "kategorie": "Juan Luis Vives"
+        },
+        {
+          "text": "„Fördern und Fordern“, Arbeitspflicht, Bettelabzeichen",
+          "kategorie": "Juan Luis Vives"
+        },
+        {
+          "text": "Armut ist systemisch bedingt, keine persönliche Schuld.",
+          "kategorie": "Christian Jasper Klumker"
+        },
+        {
+          "text": "Hilfe zur Selbsthilfe und Weiterbildung",
+          "kategorie": "Christian Jasper Klumker"
+        }
+      ],
+      "erklaerung": "Zusammenfassung Kap. 3 (nach Engelke 1998; Herriger 1995).",
+      "folie": "Kernblatt 3.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t05",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "„Wer Sozialhilfe bekommt, muss dafür auch arbeiten – und wir prüfen genau, wer wirklich bedürftig ist.“ Welcher historischen Position ähnelt die Aussage am meisten?",
+      "optionen": [
+        "Thomas von Aquin",
+        "Juan Luis Vives",
+        "Christian Jasper Klumker"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Arbeitspflicht und Bedürftigkeitsprüfung = „Fördern und Fordern“ (Vives). Kernblatt Aufgabe 3.2 a).",
+      "folie": "Kernblatt 3.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t06",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Aussagen Ariès oder Postman zu.",
+      "kategorien": [
+        "Ariès (1978)",
+        "Postman (1987)"
+      ],
+      "elemente": [
+        {
+          "text": "Entdeckung der Kindheit in der Neuzeit",
+          "kategorie": "Ariès (1978)"
+        },
+        {
+          "text": "Motor: Kernfamilie und Schulsystem",
+          "kategorie": "Ariès (1978)"
+        },
+        {
+          "text": "Trennung als Schutz und zugleich freiheitsberaubende Isolation",
+          "kategorie": "Ariès (1978)"
+        },
+        {
+          "text": "Der Buchdruck schuf die Kindheit (Informationsbarriere).",
+          "kategorie": "Postman (1987)"
+        },
+        {
+          "text": "Fernsehen und digitale Medien lassen die Kindheit verschwinden.",
+          "kategorie": "Postman (1987)"
+        },
+        {
+          "text": "fataler zivilisatorischer Verlust",
+          "kategorie": "Postman (1987)"
+        }
+      ],
+      "erklaerung": "Zusammenfassung Kap. 4; Kernblatt Aufgabe 4.1.",
+      "folie": "Kernblatt 4.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t07",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Dorfschule des 18./19. Jahrhunderts oder moderne Grundschule?",
+      "kategorien": [
+        "Dorfschule (Kind = leeres Gefäß)",
+        "moderne Grundschule (Kind = eigenständige Persönlichkeit)"
+      ],
+      "elemente": [
+        {
+          "text": "Rohrstock",
+          "kategorie": "Dorfschule (Kind = leeres Gefäß)"
+        },
+        {
+          "text": "Auswendiglernen, rein lehrergesteuert",
+          "kategorie": "Dorfschule (Kind = leeres Gefäß)"
+        },
+        {
+          "text": "Sitzkreis",
+          "kategorie": "moderne Grundschule (Kind = eigenständige Persönlichkeit)"
+        },
+        {
+          "text": "Wochenplanarbeit",
+          "kategorie": "moderne Grundschule (Kind = eigenständige Persönlichkeit)"
+        },
+        {
+          "text": "Mitbestimmung der Kinder",
+          "kategorie": "moderne Grundschule (Kind = eigenständige Persönlichkeit)"
+        }
+      ],
+      "erklaerung": "Zusammenfassung Kap. 4 (Schulbeispiel); Kernblatt Aufgabe 4.2.",
+      "folie": "Kernblatt 4.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t08",
+      "baustein": "definition",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Ordne Kernsatz und Lebensdaten dem Philosophen zu.",
+      "kategorien": [
+        "Hobbes",
+        "Rousseau",
+        "Locke"
+      ],
+      "elemente": [
+        {
+          "text": "homo homini lupus",
+          "kategorie": "Hobbes"
+        },
+        {
+          "text": "1588–1679",
+          "kategorie": "Hobbes"
+        },
+        {
+          "text": "von Natur aus gut, die Gesellschaft verdirbt ihn",
+          "kategorie": "Rousseau"
+        },
+        {
+          "text": "1712–1778",
+          "kategorie": "Rousseau"
+        },
+        {
+          "text": "tabula rasa – unbeschriebenes Blatt",
+          "kategorie": "Locke"
+        },
+        {
+          "text": "1632–1704",
+          "kategorie": "Locke"
+        }
+      ],
+      "erklaerung": "Zusammenfassung Kap. 5.",
+      "folie": "Kernblatt 5.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t09",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Menschenbilder im Lehrerzimmer: Welches Menschenbild klingt durch?",
+      "kategorien": [
+        "Hobbes",
+        "Rousseau",
+        "Locke"
+      ],
+      "elemente": [
+        {
+          "text": "„Ohne klare Strafen läuft hier gar nichts – die nutzen jede Lücke aus.“",
+          "kategorie": "Hobbes"
+        },
+        {
+          "text": "„Diese Klasse muss man an der kurzen Leine halten.“",
+          "kategorie": "Hobbes"
+        },
+        {
+          "text": "„Die Kinder kommen neugierig in die Schule – erst der Notendruck nimmt ihnen die Freude.“",
+          "kategorie": "Rousseau"
+        },
+        {
+          "text": "„Die sozialen Medien machen unsere Schüler*innen kaputt.“",
+          "kategorie": "Rousseau"
+        },
+        {
+          "text": "„Was aus einem Kind wird, hängt davon ab, was wir ihm anbieten.“",
+          "kategorie": "Locke"
+        },
+        {
+          "text": "„Mit dem richtigen Material lernt jedes Kind lesen.“",
+          "kategorie": "Locke"
+        }
+      ],
+      "erklaerung": "Kernblatt Aufgabe 5.2; Zuordnung nach den Beispielen des Tutors (Zusammenfassung Kap. 5): Medien verderben → Rousseau.",
+      "folie": "Kernblatt 5.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t10",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Verhaltensweisen einer Lehrkraft sind nach den Reckahner Reflexionen ethisch geboten?",
+      "optionen": [
+        "„Das ist ja wieder total unleserlich – so etwas gebe ich nicht zurück.“",
+        "Sie überhört, dass ein Junge im Klassenchat beleidigt wird.",
+        "Sie fragt: „Erzähl mal, was ist passiert?“ – und hört zu.",
+        "„Die Einleitung ist dir gut gelungen. Jetzt schauen wir uns den Schluss an.“",
+        "„Na, hast du heute wenigstens deine Sachen dabei, Herr Professor?“"
+      ],
+      "richtig": [
+        2,
+        3
+      ],
+      "erklaerung": "Geboten: zuhören; Erreichtes benennen, dann der nächste Schritt. Unzulässig: Leistungen entwertend kommentieren, Verletzungen zwischen Kindern ignorieren, respektlos/demütigend behandeln (Zusammenfassung Kap. 6).",
+      "folie": "Kernblatt 6.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t11",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Kopf – Herz – Hand (Pestalozzi): Kopf = Denken, [[kognitive]] Dimension. Herz = Fühlen, [[affektive]] Dimension. Hand = Wollen/Handeln, [[psychomotorische]] Dimension. Erst das [[Zusammenspiel]] aller drei ergibt ein vollständiges Bild vom lernenden Menschen.",
+      "erklaerung": "Zusammenfassung Kap. 7; Zusatzblatt R2.",
+      "folie": "Kernblatt 7.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t12",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Aufgabe der Pädagogik der Dimension zu.",
+      "kategorien": [
+        "Kopf",
+        "Herz",
+        "Hand",
+        "Körper",
+        "Sozietät",
+        "Kultur"
+      ],
+      "elemente": [
+        {
+          "text": "Verstandesförderung",
+          "kategorie": "Kopf"
+        },
+        {
+          "text": "Gefühlsförderung",
+          "kategorie": "Herz"
+        },
+        {
+          "text": "Förderung von Handlung & Autonomie",
+          "kategorie": "Hand"
+        },
+        {
+          "text": "Förderung von Bewegung und Sinnen",
+          "kategorie": "Körper"
+        },
+        {
+          "text": "Förderung sozialer Fähigkeiten",
+          "kategorie": "Sozietät"
+        },
+        {
+          "text": "Förderung von Werten und Kultur",
+          "kategorie": "Kultur"
+        }
+      ],
+      "erklaerung": "Zusammenfassung Kap. 7 (Stein 2017); Kernblatt Aufgabe 7.2.",
+      "folie": "Kernblatt 7.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t13",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Vechtaer Modell: Welche Dimension fördert die Maßnahme vor allem?",
+      "kategorien": [
+        "Kopf",
+        "Herz",
+        "Hand",
+        "Körper",
+        "Sozietät",
+        "Kultur"
+      ],
+      "elemente": [
+        {
+          "text": "Stationenlernen im eigenen Tempo",
+          "kategorie": "Kopf"
+        },
+        {
+          "text": "anonymer Kummerkasten",
+          "kategorie": "Herz"
+        },
+        {
+          "text": "Schüler*innenparlament",
+          "kategorie": "Hand"
+        },
+        {
+          "text": "Morgensport",
+          "kategorie": "Körper"
+        },
+        {
+          "text": "gemeinsam ausgehandelte Klassenregeln",
+          "kategorie": "Sozietät"
+        },
+        {
+          "text": "Museumsbesuch",
+          "kategorie": "Kultur"
+        }
+      ],
+      "erklaerung": "Zusammenfassung Kap. 8; Kernblatt Aufgabe 8.1.",
+      "folie": "Kernblatt 8.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t14",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Welches klassische Menschenbild steckt hinter Holsten, welches hinter Gimmler – und welche zwei Angebote passen für Murat zu Kopf – Herz – Hand und den Reckahner Reflexionen?",
+      "musterloesung": "Holsten: am ehesten Rousseau (Murat wurde durch Misshandlung und fehlende Chancen „verdorben“), auch Locke begründbar (durch Erfahrungen geformt, neues Angebot hilft). Gimmler: Hobbes (Gefahr, die durch Strafen gebändigt werden muss). Angebote, z. B.: ein Sport- oder Boxtraining mit festen Regeln und einer Bezugsperson (Hand/Körper, Herz) und ein Biografie- oder Medienprojekt mit anderen Jugendlichen (Kopf, Herz, Kultur/Sozietät) – jeweils wertschätzend ansprechen, zuhören und Erreichtes zuerst benennen.",
+      "bewertungspunkte": [
+        "Holsten → Rousseau (oder Locke) mit Begründung",
+        "Gimmler → Hobbes mit Begründung",
+        "zwei Angebote mit Bezug zu Dimensionen und Reckahner Reflexionen"
+      ],
+      "punkte": 3,
+      "erklaerung": "Kernblatt Aufgabe 9.1 (selbst erarbeitet, keine Lösung des Tutors).",
+      "folie": "Kernblatt 9.1",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Die Fachleute im Fall Murat unterscheiden sich nicht in den Fakten, sondern im Menschenbild – Kernaussage der Vorlesung (Tutor).",
+    "Dreiklang Hobbes – Rousseau – Locke sicher Aussagen zuordnen können; „Medien verderben die Kinder“ = Rousseau (Tutor).",
+    "Kopf = kognitiv, Herz = affektiv, Hand = psychomotorisch (Zusatzblatt R1/R2)."
+  ],
+  "offene_fragen": [
+    "Aufgabe 9.1 a): Ordnet der Tutor Tanja Holsten Rousseau oder Locke zu? (Beides ist begründbar; in der Zusammenfassung keine Lösung.)"
+  ],
+  "auffaelligkeiten": [
+    "Zusammenfassung des Tutors: Kopfzeile „Vorlesung 2“, Titelseite „Zusammenfassung - Vorlesung 3“ – gemeint ist die ewb001.1-Sitzung „Menschenbilder der Pädagogik“ (27.10.2026, laut App S03).",
+    "Fall Murat: Kernblatt und Zusammenfassung schreiben, er habe sich „dem Salafismus zugewandt“; auf den Vorlesungsfolien (ewb001.1 S03, Folien 4–7) steht „dem Islam zugewandt“, Salafismus nur im Zitat von Tanja Holsten.",
+    "Bedürfnis der Dimension Hand: Tutor „Hobbies, Autonomie“, Vorlesungsfolie 54 „Hobbies, Aktion, Autonomie“; Dimensionen heißen auf Folie 54 „Kopf – kognitiv-rational“, „Emotion – emotional-affektiv“, „Handlung – psychomotorisch“, beim Tutor „Kopf/Herz/Hand“."
+  ]
+}

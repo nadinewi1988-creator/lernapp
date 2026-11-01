@@ -93,7 +93,8 @@
     "ewb001.1_2026-10-27",
     "ewb001.2_2026-10-27",
     "ewb001.1_2026-11-03",
-    "ewb001.2_2026-11-03"
+    "ewb001.2_2026-11-03",
+    "ewb001_2026-10-30"
   ],
   "klausurstil": {
     "quellen": [
@@ -225,7 +226,7 @@
     "Präsenztermine Compasito und Betzavta (ewb001.1) sind freiwillig und nicht prüfungsrelevant – keine Lerninhalte (Nadine, 26.10.2026)",
     "Lernzielkontrollen („Wer wird Millionär“, .pptx): die richtige Antwort ist per Hervorhebungs-Animation markiert; Fragen kommen im Originalwortlaut als z01… in die Sitzungsdatei",
     "Begriffe Pädagogik/Erziehungswissenschaft: Stein (ewb001.1) synonym, Rieckmann/Ludwig (ewb001.2) unterschieden – beide Sichtweisen werden nebeneinander gelernt (Nadine, 26.10.2026)",
-    "Tutorium (freiwillig, Tutor Dennis Hoffmann): 16.10. ausgefallen, 23.10. = Sitzung 1. Zusammenfassung und Zusatzblatt des Tutors kommen per WhatsApp und fehlen noch (Stand 26.10.2026) – Nadine legt sie in den Tutorium-Ordner, dann 10.2 und „zwei Lehrertypen“ abgleichen.",
+    "Tutorium (freiwillig, Tutor Dennis Hoffmann, Gruppe 3, Fr 10–11 digital): 16.10. ausgefallen, 23.10. = Sitzung 1, 30.10. = Sitzung 2 (Menschenbilder). Der Tutor stellt je Sitzung Kernblatt (Stud.IP), Zusammenfassung, Lernzettel und Zusatzblatt „Vertiefen & Wiederholen“ bereit; das Zusatzblatt wird als Hausaufgabe für die nächste Tutoriumssitzung ausgearbeitet (ab S2).",
     "Persönliche Hausaufgaben (z. B. eigenes Genogramm, ewb001.1 S04 h02) kommen nicht in die App (öffentliche Dateiadresse), sondern nur in Nadines Ordner (Lesefassungen); in der App steht nur die Aufgabe mit Hinweis (26.10.2026)."
   ],
   "auffaelligkeiten": [
@@ -556,6 +557,34 @@
       "status": "verarbeitet",
       "sitzung": "ewb001.2_2026-10-27",
       "hinweis": "zusätzlich eingearbeitet 01.11.2026 (Abschnitt „Präsenzsitzung 27.10.2026 (Folien)“, Aufgaben a01–a04, Fragen p01–p07, eigene PDF …_Ergaenzung-Praesenzfolien.pdf)"
+    },
+    {
+      "pfad": "Tutorium/Sitzung_02/TUTORIUM_EWB001.1_STEIN_·_ARBEITSBLATT_-_2._SITZUNG_·_„MENSCHENBILDER_DER_PÄDAGOGIK“.pdf",
+      "geaendert": "2026-10-30",
+      "art": "Arbeitsblatt",
+      "status": "verarbeitet",
+      "sitzung": "ewb001_2026-10-30"
+    },
+    {
+      "pfad": "Tutorium/Sitzung_02/Zusammenfassung (EWB001.1) - 2. Vorlesung - Menschenbilder der Pädagogik.pdf",
+      "geaendert": "2026-10-30",
+      "art": "Zusammenfassung Tutor",
+      "status": "verarbeitet",
+      "sitzung": "ewb001_2026-10-30"
+    },
+    {
+      "pfad": "Tutorium/Sitzung_02/Lernzettel (EWB001.1) - 2. Vorlesung - Menschenbilder der Pädagogik.pdf",
+      "geaendert": "2026-10-30",
+      "art": "Lernzettel Tutor",
+      "status": "verarbeitet",
+      "sitzung": "ewb001_2026-10-30"
+    },
+    {
+      "pfad": "Tutorium/Sitzung_02/EWB001.1_Tutorium_2_Zusatzblatt.pdf",
+      "geaendert": "2026-10-30",
+      "art": "Zusatzblatt (Hausaufgabe h01)",
+      "status": "verarbeitet",
+      "sitzung": "ewb001_2026-10-30"
     }
   ]
 }

@@ -712,6 +712,314 @@
       "erklaerung": "Antwortverzerrung bei Fragebögen und (stärker) bei Interviews.",
       "quelle": "pyb005.2_2026-10-26 · Folie 7",
       "abweichungen": []
+    },
+    {
+      "begriff": "Entwicklung (Lohaus et al.)",
+      "wortlaut": "„Entwicklung bezieht sich auf relativ überdauernde und aufeinander bezogene intraindividuelle Veränderungen des Erlebens und Verhaltens über die Zeit hinweg.“ (Lohaus et al., 2024, S. 4)",
+      "erklaerung": "Längerfristige, geordnete Veränderungen innerhalb einer Person.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 7",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Entwicklung (Woolfolk & Usher)",
+      "wortlaut": "„Der Begriff der Entwicklung bezieht sich in der Psychologie allgemein auf bestimmte Veränderungen des Menschen (oder von Lebewesen) von der Empfängnis bis zum Tod. Aber nicht alle Veränderungen sind Entwicklungen, sondern nur solche, die altersgestaffelt (altersgraduiert) in geordneter Reihenfolge auftreten und länger andauern.“ (Woolfolk & Usher, 2025, S. 90)",
+      "erklaerung": "Nicht jede Veränderung ist Entwicklung – nur geordnete, länger andauernde.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 7",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Geordnetheit/Regelhaftigkeit",
+      "wortlaut": "Entwicklung ist eine geordnete Veränderung mit einem inneren Zusammenhang.",
+      "erklaerung": "Veränderungen gehen systematisch auseinander hervor – aber nicht starr nach festem Plan (Audio).",
+      "quelle": "pyb005.1_2026-10-28 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Gerichtetheit",
+      "wortlaut": "Entwicklung ist gerichtet, Gewinne und Verluste von Funktionsfähigkeiten und Ressourcen sind möglich.",
+      "erklaerung": "Nicht nur „Höherentwicklung“; Gewinne und Verluste oft nebeneinander (Multidirektionalität).",
+      "quelle": "pyb005.1_2026-10-28 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Längerfristigkeit",
+      "wortlaut": "Entwicklung als längerfristige Veränderung.",
+      "erklaerung": "Heißt nicht Unveränderbarkeit – Entwicklung ist formbar (Plastizität, Audio).",
+      "quelle": "pyb005.1_2026-10-28 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Veränderungen über die Lebensspanne",
+      "wortlaut": "Entwicklung vollzieht sich als ein lebenslanger Prozess, alle Altersbereiche sind gleich bedeutsam.",
+      "erklaerung": "Von der Befruchtung bis zum Tod.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Multidirektionalität",
+      "wortlaut": "Gewinne und Verluste treten in der Entwicklung oft nebeneinander auf (Audio 3.1); Entwicklung ist multidirektional (Gewinne und Verluste möglich).",
+      "erklaerung": "Entwicklung geht nicht nur in eine Richtung („besser“).",
+      "quelle": "pyb005.1_2026-10-28 · Folie 8, 27",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Plastizität",
+      "wortlaut": "Menschliche Entwicklung ist in vielen Bereichen und Lebensabschnitten in hohem Maße durch den Aspekt der Formbarkeit, also der sogenannten Plastizität, gekennzeichnet (Audio 3.1).",
+      "erklaerung": "Entwicklung bleibt beeinflussbar.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 8 (Audio)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "intraindividuell / interindividuell",
+      "wortlaut": "intraindividuelle Veränderungen (innerhalb eines Individuums) … interindividuelle Unterschiede (zwischen Individuen)",
+      "erklaerung": "Intra = in einer Person über die Zeit; inter = zwischen Personen.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Aufgaben der Entwicklungspsychologie",
+      "wortlaut": "grundlagenorientiert: Beschreibung und Erklärung von Entwicklungsprozessen (Was entwickelt sich wie und warum?); anwendungsorientiert: Diagnose des aktuellen Entwicklungsstandes und Prognose des zukünftigen Entwicklungsstandes, Genese von Präventions- und Interventionsmöglichkeiten zur Beeinflussung des Entwicklungsprozesses",
+      "erklaerung": "Verstehen und helfen.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 10",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Altersvariable",
+      "wortlaut": "bis in die 1960er Jahre galt Entwicklung (E) als Funktion (f) des Alters (A); E = f(A), aber: Lebensalter ist keine psychologische Variable, sondern eine physikalische Größe … Alter als deskriptive Variable",
+      "erklaerung": "Alter beschreibt, verursacht aber nichts; besser: Entwicklungsstand.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 11",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kontinuierliche Entwicklung",
+      "wortlaut": "„Die Vorstellung, dass altersbedingte Veränderungen allmählich und in kleinen Schritten geschehen, so wie ein Baum höher und höher wächst.“ (Siegler et al., 2021, S. 13) → quantitative Veränderungen",
+      "erklaerung": "„Mehr vom Gleichen“.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 13",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Diskontinuierliche Entwicklung",
+      "wortlaut": "„Die Vorstellung, dass zu altersbedingten Veränderungen gelegentliche größere Entwicklungsschritte gehören, so wie die Verwandlung einer Raupe zur Puppe, die schließlich als Schmetterling schlüpft.“ (ebd.) → qualitative Veränderungen",
+      "erklaerung": "Sprünge zu etwas grundlegend Neuem.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 13",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Endogenistische Modelle",
+      "wortlaut": "Entwicklung folgt vor allem inneren bzw. biologischen Vorgaben (genetischer Plan).",
+      "erklaerung": "Individuum und Umwelt passiv; „von innen“.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 16",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Exogenistische Modelle",
+      "wortlaut": "die Umwelt wirkt aktiv auf das eher passive Individuum ein; Entwicklung wird durch äußere Reize bestimmt",
+      "erklaerung": "„Von außen“.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 16",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Aktionale Modelle",
+      "wortlaut": "der Mensch ist aktiv und gestaltet seine Entwicklung selbst mit; die Umwelt wird dabei eher als Rahmen oder Gegenstand der eigenen Aktivität betrachtet",
+      "erklaerung": "Das Individuum ist aktiv, die Umwelt eher passiv.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 16",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Transaktionale systemische Modelle",
+      "wortlaut": "Individuum und Umwelt sind beide aktiv und beeinflussen sich gegenseitig",
+      "erklaerung": "Wechselwirkung; Entwicklung ist bidirektional.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 16",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Normative Entwicklung",
+      "wortlaut": "typische, regelmäßig auftretende Veränderungen im Verhalten, „das die Mehrzahl der Menschen einer bestimmten Altersgruppe innerhalb eines gemeinsamen soziokulturellen Kreises in spezifischen Situationen zeigt“ (Scheithauer et al., 2022, S. 438)",
+      "erklaerung": "Was die meisten Gleichaltrigen zeigen.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 19",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Individuelle Entwicklung",
+      "wortlaut": "Variation im Tempo oder Zeitpunkt",
+      "erklaerung": "Normale Bandbreite.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 19",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Entwicklungsabweichung",
+      "wortlaut": "Verhaltens- oder Erlebensweisen werden gezeigt, die für das Alter unangemessen und untypisch sind; Entwicklung verläuft anders als die Mehrheit Gleichaltriger – im Tempo, in der Reihenfolge oder in der Ausprägung; vor allem in der Pädagogischen Psychologie zur Beschreibung verwendet",
+      "erklaerung": "Pädagogischer Beschreibungsbegriff, keine Diagnose.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 19",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Entwicklungsstörung",
+      "wortlaut": "„Beeinträchtigung verschiedener kognitiver oder sozialer Fähigkeiten […], die sich zwar zeitgleich manifestieren, jedoch in der Art der Entstehung unterscheiden“ (Scheithauer et al., 2022, S. 442)",
+      "erklaerung": "Klinischer Begriff: Entwicklung verzögert/verhindert, im Kleinkind- oder Kindesalter, diagnostische Kriterien erfüllt.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 21",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Stufenmodelle (Phasen-/Stufenmodelle)",
+      "wortlaut": "Stufenmodelle beschreiben Entwicklung als Abfolge qualitativ unterschiedlicher Stadien, die alle Menschen in derselben Reihenfolge durchlaufen.",
+      "erklaerung": "Grundannahmen: Invarianz, Streuung, (Dis-)Kontinuität, Zielgerichtetheit.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 31",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Invarianz bzw. Unidirektionalität",
+      "wortlaut": "Stufen-/Phasenabfolge ist festgelegt, keine Stufe/Phase kann übersprungen werden",
+      "erklaerung": "Feste Reihenfolge.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 31",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Fixierung",
+      "wortlaut": "Werden Bedürfnisse zu stark oder zu wenig befriedigt, bleiben Menschen auf früheren Entwicklungsniveaus stehen, und es kann zu sog. Fixierungen kommen. (Infotext; Feldmann, 2025; Lohaus et al., 2024; Neyer & Asendorpf, 2024)",
+      "erklaerung": "Stehenbleiben auf einem früheren Niveau, prägt spätere Verhaltensmuster.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 36",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Psychosexuelle Phasen (Freud)",
+      "wortlaut": "Oral (Geburt bis 12–18 Monate) – Anal (12–18 Monate bis 3 Jahre) – Phallisch (3 bis 5–6 Jahre) – Latenz (5–6 Jahre bis zur Pubertät) – Genital (ab Pubertät)",
+      "erklaerung": "Triebenergie richtet sich nacheinander auf verschiedene Körperzonen.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 36",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Es, Ich, Über-Ich",
+      "wortlaut": "Unterscheidung von Instanzen der Persönlichkeit in Es (unbewusst), Ich (vermittelt zwischen drei Instanzen) und Über-Ich (Moralprinzip)",
+      "erklaerung": "Trieb – Vermittler – Gewissen.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 35",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Psychosoziale Krise (Erikson)",
+      "wortlaut": "in jeder Lebensphase steht der Mensch vor einem psychosozialen Konflikt, den er bewältigen muss; positive Konfliktbewältigung stärkt das Ich; ungelöste Krisen können die spätere Entwicklung beeinträchtigen",
+      "erklaerung": "Normale Herausforderung, keine pathologische Krise (Audio).",
+      "quelle": "pyb005.1_2026-10-28 · Folie 38",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kognitive Perspektive",
+      "wortlaut": "„Prozesse, die Menschen ermöglichen etwas zu erkennen, zu verstehen und über die Welt nachzudenken“ (Feldmann, 2025, S. 41)",
+      "erklaerung": "Entwicklung des Denkens.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 43",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Schema",
+      "wortlaut": "die mentalen Strukturen, die Informationen ordnen und erklären (Schemata), die Außenwelt repräsentieren",
+      "erklaerung": "„Schublade im Kopf“.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 44",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Adaptation (Anpassung)",
+      "wortlaut": "übergreifender Prozess, mit dem sich das Kind an die Anforderungen der Umwelt anpasst; besteht aus den Grundprozessen Assimilation und Akkommodation",
+      "erklaerung": "Oberbegriff.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 45",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Assimilation",
+      "wortlaut": "Eingliederung neuer Erfahrungen in vorhandene Schemata",
+      "erklaerung": "Schema bleibt gleich.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 45",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Akkommodation",
+      "wortlaut": "„Modifizierung des bisherigen Schemas, um neue Informationen integrieren zu können“ (Myers & DeWall, 2023, S. 206)",
+      "erklaerung": "Schema wird verändert, nötig bei Diskrepanz/Disäquilibrium.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 45",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Disäquilibrium",
+      "wortlaut": "ist die Diskrepanz zwischen eingehenden Informationen und vorhandenen Schemata zu hoch, oder können die Informationen mehreren Schemata zugeordnet werden und es entstehen Widersprüche (sog. Disäquilibrium), so ist eine Anpassung der Schemata notwendig",
+      "erklaerung": "Kognitives Ungleichgewicht.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 45",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Äquilibration",
+      "wortlaut": "Aufhebung von Diskrepanzen zwischen Strukturen oder zwischen Strukturen und Umwelt",
+      "erklaerung": "Wiederherstellung des Gleichgewichts.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 45",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Objektpermanenz",
+      "wortlaut": "„Objektpermanenz („object permanence“) – Wissen, dass ein Gegenstand weiterhin existiert, auch wenn er gerade nicht wahrgenommen werden kann.“ (Myers & DeWall, 2023, S. 206)",
+      "erklaerung": "Sensomotorische Stufe.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 48",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Perspektivenübernahme",
+      "wortlaut": "Fähigkeit, sich in den anderen hineinzuversetzen und seine Gefühle und Erfahrungen nachzuvollziehen. (Infotext)",
+      "erklaerung": "Muss sich in der präoperationalen Stufe erst entwickeln; Drei-Berge-Versuch.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 49",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Egozentrismus (Piaget)",
+      "wortlaut": "Die Kinder sind vielmehr egozentrisch und schreiben ihre eigene Perspektive auch der Puppe zu. (Audio zum Drei-Berge-Versuch)",
+      "erklaerung": "Nicht „egoistisch“, sondern: kann die Sicht anderer noch nicht einnehmen.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 47, 49",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Mengeninvarianz (Invarianzkonzepte)",
+      "wortlaut": "das Prinzip der Mengenkonstanz (Invarianzkonzepte) (Folie 47); Kinder wissen erst ab ca. sieben Jahren, dass in beiden Gläsern die identische Flüssigkeitsmenge enthalten ist (Audio)",
+      "erklaerung": "Menge bleibt gleich, auch wenn sich die Form ändert; konkret-operational.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 47, 50",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Pendelproblem",
+      "wortlaut": "hypothetisches Denken (Pendelproblem) (Folie 47); Jugendliche prüfen ab ca. 12 Jahren jede Variable einzeln und folgern, dass nur die Länge der Schnur einen Einfluss hat (Audio)",
+      "erklaerung": "Formal-operational.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 47, 51",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Sozio-kulturelle Entwicklungstheorie (Wygotski)",
+      "wortlaut": "Fokus der Theorie: sozio-kultureller Einfluss auf die kognitive Entwicklung; Grundüberlegung: die Auseinandersetzung des Kindes mit der Umwelt erfolgt im Kontext sozialer Interaktion: Entwicklung als Sozialisation",
+      "erklaerung": "Lernen mit und durch andere.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 59",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Selbstinstruktion",
+      "wortlaut": "auf der Grundlage von (beobachteten) Dialogen beginnen Kinder im Vorschulalter mit sich selbst zu sprechen; in der weiteren Entwicklung werden die laut ausgesprochenen Selbstgespräche von inneren Selbstinstruktionen abgelöst, die auch im Erwachsenenalter noch genutzt werden (Infotexte)",
+      "erklaerung": "Sich selbst durch Sprache anleiten.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 61",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Stufen der Sprachentwicklung (Wygotski)",
+      "wortlaut": "soziales Sprechen (bis 3. Lebensjahr) – egozentrisches Sprechen (3.–7. Lebensjahr) – inneres Sprechen (ab 7. Lebensjahr)",
+      "erklaerung": "Von außen nach innen.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 61",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Zone proximalen Wachstums",
+      "wortlaut": "unter der Anleitung kompetenterer Personen kann ein Kind seine Kompetenzen (weiter-)entwickeln, die es zunehmend auch ohne diese Unterstützung einsetzen kann („Entdeckungslernen unter Anleitung“; Berk, 2020, S. 343)",
+      "erklaerung": "Bereich zwischen „kann ich allein“ und „kann ich mit Hilfe“; auch „Zone der proximalen Entwicklung“ (Folie 63).",
+      "quelle": "pyb005.1_2026-10-28 · Folie 62",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Scaffolding (Gerüstbau)",
+      "wortlaut": "das Konzept des Scaffolding (Gerüstbau) bietet Kindern vorübergehend Unterstützung, während sie ein höheres Denkniveau erreichen",
+      "erklaerung": "Hilfe geben und schrittweise zurücknehmen.",
+      "quelle": "pyb005.1_2026-10-28 · Folie 62",
+      "abweichungen": []
     }
   ]
 }

@@ -1,0 +1,1896 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pyb005",
+  "teilmodul": "pyb005.1",
+  "datum": "2026-10-28",
+  "sitzung_nr": 3,
+  "sitzung_id": "",
+  "thema": "03 Grundlagen der Entwicklungspsychologie I+II",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Grundlage: Foliensatz (69 S.) und die sechs Stud.IP-Lernmodule 3.1–3.6 mit 26 Audio-Erklärungen von Prof. Schweer (automatisch transkribiert) und Infotexten. Folienangaben = Seiten der PDF pyb005_Sitzung_3.pdf. Die Übungsaufgaben der eÜbung stehen im Teilmodul eÜbung (29.10.).",
+  "quellen": [
+    {
+      "datei": "pyb005.1/Sitzung_03/pyb005_Sitzung_3.pdf",
+      "art": "Folien",
+      "seiten": "1–69"
+    },
+    {
+      "datei": "Stud.IP › Vorlesung › Lernmodule 3.1–3.6",
+      "art": "Lernmodule (H5P) mit 26 Audios (ca. 29 Min.) und 6 Infotexten",
+      "seiten": ""
+    },
+    {
+      "datei": "pyb005.1/Sitzung_03/Lernmodule_S03_Transkripte.pdf",
+      "art": "Infotexte und Audio-Transkripte (erstellt)",
+      "seiten": ""
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "… erläutern können, was unter dem Begriff „Entwicklung“ aus psychologischer Perspektive zu verstehen ist und welche Bestandteile diesem Begriff inhärent sind.",
+      "art": "vorgegeben",
+      "quelle": "Folie 2 (Lernziele I)",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03",
+        "f04"
+      ],
+      "erklaerung_abschnitt": "Der Entwicklungsbegriff und seine Bestandteile"
+    },
+    {
+      "text": "… kontinuierliche und diskontinuierliche Entwicklungsformen voneinander unterscheiden können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 2",
+      "fragen": [
+        "f09"
+      ],
+      "erklaerung_abschnitt": "Entwicklungsformen: Kontinuität und Diskontinuität"
+    },
+    {
+      "text": "… den Gegenstandsbereich und die Aufgaben der Entwicklungspsychologie erläutern können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 2",
+      "fragen": [
+        "f05",
+        "f06",
+        "f07",
+        "f08"
+      ],
+      "erklaerung_abschnitt": "Gegenstandsbereich und Aufgaben der Entwicklungspsychologie"
+    },
+    {
+      "text": "… erläutern können, inwiefern Entwicklung pädagogisch relevant ist und sich in ihrer Vielfalt – etwa hinsichtlich Individualität, Kontextabhängigkeit und Dynamik – zeigt sowie damit zusammenhängende zentrale Begriffe voneinander abgrenzen können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 2",
+      "fragen": [
+        "f12",
+        "f13",
+        "f14",
+        "f15",
+        "f16"
+      ],
+      "erklaerung_abschnitt": "Vielfalt in Entwicklungsverläufen: Norm, Individualität, Abweichung"
+    },
+    {
+      "text": "… zentrale Unterscheidungskriterien der dargestellten Entwicklungstheorien benennen und erläutern können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 2",
+      "fragen": [
+        "f10",
+        "f11",
+        "f17",
+        "f18",
+        "f19"
+      ],
+      "erklaerung_abschnitt": "Theorien der Entwicklungspsychologie: Vielfalt und Unterscheidungskriterien"
+    },
+    {
+      "text": "… die Grundannahmen und Implikationen der psychoanalytischen Entwicklungstheorie nach Freud kennen und erklären können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 3 (Lernziele II)",
+      "fragen": [
+        "f20",
+        "f23",
+        "f24"
+      ],
+      "erklaerung_abschnitt": "Freud: die psychoanalytische Entwicklungstheorie"
+    },
+    {
+      "text": "… die fünf Phasen der psychosexuellen Entwicklung beschreiben können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 3",
+      "fragen": [
+        "f21",
+        "f22"
+      ],
+      "erklaerung_abschnitt": "Freud: die psychoanalytische Entwicklungstheorie"
+    },
+    {
+      "text": "… zentrale Annahmen der psychosozialen Entwicklungstheorie nach Erikson wiedergeben und den Zusammenhang zu pädagogischen Kontexten erläutern können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 3",
+      "fragen": [
+        "f25",
+        "f26",
+        "f27",
+        "f28",
+        "f29",
+        "f30",
+        "f52"
+      ],
+      "erklaerung_abschnitt": "Erikson: die Theorie der psychosozialen Entwicklung"
+    },
+    {
+      "text": "… die Grundannahmen und Implikationen der kognitiven Entwicklungstheorie von Piaget benennen und erläutern können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 3",
+      "fragen": [
+        "f31",
+        "f32",
+        "f33",
+        "f34",
+        "f41",
+        "f42"
+      ],
+      "erklaerung_abschnitt": "Piaget: Grundannahmen und zentrale Begriffe"
+    },
+    {
+      "text": "… die Phasen der kognitiven Entwicklung nach Piaget kennen, anhand der Hauptmerkmale erläutern und voneinander abgrenzen können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 3",
+      "fragen": [
+        "f35",
+        "f36",
+        "f37",
+        "f38",
+        "f39",
+        "f40"
+      ],
+      "erklaerung_abschnitt": "Piagets Stufen kognitiver Entwicklung und die klassischen Versuche"
+    },
+    {
+      "text": "… die Grundannahmen und Implikationen der sozio-kulturellen Entwicklungstheorie von Wygotski beschreiben können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 4 (Lernziele III)",
+      "fragen": [
+        "f43",
+        "f49",
+        "f50"
+      ],
+      "erklaerung_abschnitt": "Wygotski: die sozio-kulturelle Entwicklungstheorie"
+    },
+    {
+      "text": "… darlegen können, welche Bedeutung Sprache und Selbstgespräche in Wygotskis Entwicklungstheorie haben.",
+      "art": "vorgegeben",
+      "quelle": "Folie 4",
+      "fragen": [
+        "f44",
+        "f45",
+        "f46"
+      ],
+      "erklaerung_abschnitt": "Wygotski: die sozio-kulturelle Entwicklungstheorie"
+    },
+    {
+      "text": "… Wygotskis Konzept der Zone proximalen Wachstums erklären und diesbezügliche Implikationen für pädagogisches Handeln ableiten können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 4",
+      "fragen": [
+        "f47",
+        "f48",
+        "f51"
+      ],
+      "erklaerung_abschnitt": "Zone proximalen Wachstums, Würdigung und Abschluss"
+    }
+  ],
+  "kurzfassung": [
+    "Entwicklung meint relativ überdauernde, aufeinander bezogene intraindividuelle Veränderungen des Erlebens und Verhaltens – geordnet, gerichtet (Gewinne und Verluste), längerfristig und lebenslang.",
+    "Die Entwicklungspsychologie beschreibt und erklärt Entwicklung (grundlagenorientiert) und diagnostiziert, prognostiziert und beeinflusst sie (anwendungsorientiert).",
+    "Alter ist nur eine deskriptive Variable – nicht die Ursache von Entwicklung; aussagekräftiger ist der Entwicklungsstand.",
+    "Kontinuierliche Entwicklung ist allmählich und quantitativ, diskontinuierliche verläuft in Sprüngen und ist qualitativ.",
+    "Heute gilt: Anlage und Umwelt wirken zusammen; transaktionale Modelle betonen die wechselseitige Beeinflussung von Individuum und Umwelt.",
+    "Entwicklung verläuft individuell verschieden; Norm, Variation und Abweichung gehen fließend ineinander über – Pädagogik will verstehen, nicht diagnostizieren.",
+    "Die NEPS-Studie zeigt große, kontextabhängige Unterschiede in der Kompetenzentwicklung – Entwicklung ist variabel und nicht linear.",
+    "Es gibt keine allumfassende Entwicklungstheorie; Theorien unterscheiden sich nach Lebensspanne, Verlauf, Einflussfaktoren, Veränderbarkeit und Fokus.",
+    "Stufenmodelle nehmen eine feste Reihenfolge qualitativ verschiedener Stufen an (kein Überspringen, kein Zurückfallen) – empirisch verläuft Entwicklung oft weniger starr.",
+    "Freud: Persönlichkeitsentwicklung durch innere Konflikte zwischen Trieben, Normen und Realität; fünf psychosexuelle Phasen; Fixierung bei zu starker oder zu geringer Befriedigung.",
+    "Erikson: acht psychosoziale Krisen über die gesamte Lebensspanne; positive Bewältigung stärkt das Ich; stärkerer Fokus auf soziale und kulturelle Einflüsse.",
+    "Piaget: Kinder konstruieren ihr Wissen aktiv durch Assimilation und Akkommodation (Adaptation) und streben nach Äquilibration.",
+    "Piagets Stufen: sensomotorisch (Objektpermanenz) – präoperational (Symbole, Egozentrismus) – konkret-operational (Mengeninvarianz) – formal-operational (hypothetisches Denken, Pendel).",
+    "Wygotski: Entwicklung als Sozialisation; Sprache und Selbstgespräche steuern das Denken; Lernen gelingt am besten in der Zone proximalen Wachstums (Scaffolding, kooperatives Lernen).",
+    "Für pädagogisches Handeln zählt kein einzelnes Modell, sondern ein reflektiertes Verständnis von Entwicklung als dynamischem Prozess."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Warum Entwicklung in der Pädagogischen Psychologie?",
+      "text": "- Pädagogisches Handeln **begleitet Entwicklungsprozesse über die gesamte Lebensspanne**.\n- Entwicklung beeinflusst, **wie Menschen lernen, fühlen und handeln** – und wie sich diese Fähigkeiten im Laufe der Zeit verändern.\n- Entwicklungswissen hilft, **pädagogische Angebote am Entwicklungsstand auszurichten** (Jungbauer, 2025).\n\nLaut Audio (3.1): Nur wer versteht, auf welchem **Entwicklungsstand** sich eine Person befindet, kann Lern- und Unterstützungsangebote sinnvoll gestalten. Die Entwicklungspsychologie liefert dafür das wissenschaftliche Fundament – sie verbindet psychologische Theorie mit pädagogischer Praxis.\n\n**Kurz erklärt:** Lehrkräfte arbeiten immer mit Menschen, die sich gerade verändern. Eine Aufgabe, die für eine Neunjährige genau richtig ist, kann einen Sechsjährigen überfordern. Wer weiß, was in welchem Entwicklungsstand typisch ist, kann Unterricht passend planen – und erkennt, wenn ein Kind deutlich anders verläuft.",
+      "folien": "6"
+    },
+    {
+      "titel": "Der Entwicklungsbegriff und seine Bestandteile",
+      "text": "**Zwei Definitionen (Folie 7):**\n- „Entwicklung bezieht sich auf **relativ überdauernde** und **aufeinander bezogene intraindividuelle Veränderungen des Erlebens und Verhaltens** über die Zeit hinweg.“ (Lohaus et al., 2024, S. 4)\n- „Der Begriff der Entwicklung bezieht sich in der Psychologie allgemein auf bestimmte Veränderungen des Menschen (oder von Lebewesen) **von der Empfängnis bis zum Tod**. Aber **nicht alle Veränderungen sind Entwicklungen**, sondern nur solche, die **altersgestaffelt (altersgraduiert) in geordneter Reihenfolge** auftreten und **länger andauern**.“ (Woolfolk & Usher, 2025, S. 90)\n\nLaut Audio: Nicht jede Veränderung ist Entwicklung, sondern nur Veränderungen, die **regelhaft, überdauernd und sinnhaft aufeinander bezogen** sind.\n\n**Bestandteile des Entwicklungsbegriffs (Folie 8):**\n\n| Bestandteil | Bedeutung | Ergänzung aus dem Audio |\n| --- | --- | --- |\n| **Geordnetheit/Regelhaftigkeit** | geordnete Veränderung mit einem inneren Zusammenhang | heißt **nicht**, dass Entwicklung starr nach festem Plan verläuft – Veränderungen gehen systematisch auseinander hervor |\n| **Gerichtetheit** | Entwicklung ist gerichtet; **Gewinne und Verluste** von Funktionsfähigkeiten und Ressourcen sind möglich | früher: Entwicklung = nur „Höherentwicklung“; heute: Verluste schon im Jugend- und frühen Erwachsenenalter, Gewinne bis ins hohe Alter; oft beides nebeneinander → **Multidirektionalität** |\n| **Längerfristigkeit** | Entwicklung als längerfristige Veränderung | heißt **nicht Unveränderbarkeit** – Entwicklung ist in hohem Maß formbar (**Plastizität**) |\n| **Veränderungen über die Lebensspanne** | lebenslanger Prozess, **alle Altersbereiche gleich bedeutsam** | von der Befruchtung bis zum Tod; früher nur Kindes- und Jugendalter erforscht, heute die ganze Lebensspanne (Schwerpunkt aber weiter Kindes- und Jugendalter) |\n\n**Kurz erklärt:** Nicht jede Veränderung ist Entwicklung. Wenn ein Kind nach einem schlechten Tag schlecht gelaunt ist, ist das eine kurzfristige Schwankung. Entwicklung heißt: Die Veränderung ist **geordnet** (baut aufeinander auf), **längerfristig** und findet **innerhalb der Person** statt (intraindividuell = „in einem Menschen“, im Unterschied zu interindividuell = „zwischen Menschen“). Entwicklung bedeutet auch nicht nur „besser werden“ – im Alter lässt z. B. das Gedächtnistempo nach, während Erfahrungswissen weiter wächst.\n\n**Prüfungsfalle:** „Entwicklung findet vor allem im Kindesalter statt, andere Altersbereiche sind weniger wichtig“ ist **falsch** – alle Altersbereiche sind gleich bedeutsam. Ebenso falsch: „Entwicklung meint nur Zugewinne“ oder „kurzfristige Veränderungen“.",
+      "folien": "7–8"
+    },
+    {
+      "titel": "Gegenstandsbereich und Aufgaben der Entwicklungspsychologie",
+      "text": "**Gegenstandsbereich (Folie 9):**\n- Untersucht werden **intraindividuelle Veränderungen** (innerhalb eines Individuums) des Erlebens und Verhaltens **und** potenziell auftretende **interindividuelle Unterschiede** (zwischen Individuen).\n- Die Analyse steht in Bezug zur jeweiligen **materiellen und sozialen Umgebung** (z. B. wechselseitige Beeinflussung von Eltern und Kind; Einflussfaktoren auf die intellektuelle Entwicklung) (Lohaus et al., 2024).\n\n**Aufgaben (Folie 10):**\n\n| grundlagenorientierte Aufgaben | anwendungsorientierte Aufgaben |\n| --- | --- |\n| **Beschreibung und Erklärung** von Entwicklungsprozessen („Was entwickelt sich wie und warum?“) | **Diagnose** des aktuellen und **Prognose** des zukünftigen Entwicklungsstandes · **Genese von Präventions- und Interventionsmöglichkeiten** zur Beeinflussung des Entwicklungsprozesses |\n\n**Kurz erklärt:** Die Entwicklungspsychologie will erstens **verstehen** (beschreiben und erklären, was sich wie und warum verändert) und zweitens **helfen** (feststellen, wo ein Kind gerade steht, vorhersagen, wie es weitergeht, und Fördermaßnahmen entwickeln). Das passt zu den vier Zielen der Psychologie aus Sitzung 2: beschreiben, erklären, vorhersagen, beeinflussen.\n\n**So erkennst du es in der Klausur:** „Diagnose“, „Prognose“, „Prävention/Intervention“ → anwendungsorientiert; „beschreiben und erklären“ → grundlagenorientiert.",
+      "folien": "9–10"
+    },
+    {
+      "titel": "Die Altersvariable",
+      "text": "- **Bis in die 1960er Jahre** galt Entwicklung (E) als Funktion (f) des Alters (A): **E = f(A)**. Aber:\n  - **Lebensalter ist keine psychologische Variable**, sondern eine **physikalische Größe**; Alter ist keine explizite Variable – **Alter als Ursache der Entwicklung ist ein Irrtum**.\n  - Die Fixierung auf Alter/Altersvariationen **vernachlässigt interindividuelle Differenzen** (alternative Kategorie: **Entwicklungsstand**).\n  - Alter ist eine **deskriptive** (beschreibende) **Variable** (Lohaus et al., 2025; Feldmann, 2025).\n\n(Zu dieser Folie gibt es kein Audio.)\n\n**Kurz erklärt:** Das Alter **beschreibt** nur, wie viel Zeit vergangen ist – es **verursacht** nichts. Ein Kind lernt nicht lesen, *weil* es sechs Jahre alt ist, sondern weil in dieser Zeit z. B. Übung, Reifung und Unterricht zusammenkommen. Deshalb ist der **Entwicklungsstand** aussagekräftiger: Zwei Siebenjährige können ganz unterschiedlich weit sein.\n\n**Prüfungsfalle:** „Das Alter ist die Ursache der Entwicklung“ ist **falsch**. Alter ist eine deskriptive Variable.",
+      "folien": "11"
+    },
+    {
+      "titel": "Entwicklungsbereiche",
+      "text": "Entwicklung ist **multidimensional** und findet insbesondere auf folgenden Dimensionen statt (Folie 12):\n- **Denken** (kognitive Entwicklung)\n- **Fühlen** (emotionale Entwicklung)\n- **Verhalten/Interaktion** (u. a. motorische, motivationale und soziale Entwicklung)\n- **Biologie** (körperliche Entwicklung)\n\n**Kurz erklärt:** Ein Kind entwickelt sich gleichzeitig auf mehreren Ebenen: Es lernt rechnen (Denken), mit Enttäuschung umzugehen (Fühlen), Freundschaften zu schließen und Fahrrad zu fahren (Verhalten/Interaktion) und es wächst (Biologie). Diese Bereiche können unterschiedlich schnell verlaufen.",
+      "folien": "12"
+    },
+    {
+      "titel": "Entwicklungsformen: Kontinuität und Diskontinuität",
+      "text": "**Verläuft Entwicklung kontinuierlich und/oder diskontinuierlich?** (Folie 13)\n\n| | kontinuierliche Entwicklung | diskontinuierliche Entwicklung |\n| --- | --- | --- |\n| Definition (Siegler et al., 2021, S. 13) | „Die Vorstellung, dass altersbedingte Veränderungen **allmählich und in kleinen Schritten** geschehen, so wie ein **Baum** höher und höher wächst.“ | „Die Vorstellung, dass zu altersbedingten Veränderungen gelegentliche **größere Entwicklungsschritte** gehören, so wie die Verwandlung einer **Raupe zur Puppe**, die schließlich als **Schmetterling** schlüpft.“ |\n| Art der Veränderung | **quantitative** Veränderungen | **qualitative** Veränderungen |\n\n**Abbildungen (Folie 14):** links eine **Pflanze** (kontinuierlich: wächst Schritt für Schritt ohne abrupte Übergänge) und ein **Frosch** (diskontinuierlich: klar unterscheidbare Stufen Ei → Kaulquappe → Frosch); rechts eine glatt ansteigende Linie (Lebensphasenkontinuum) und eine Treppe (qualitativ verschiedene Stufen).\n\nLaut Audio: Beim Menschen verläuft das **körperliche Wachstum meist kontinuierlich**; **motorische Fähigkeiten, Denken und Sprache häufig diskontinuierlich** (in Sprüngen). Welche Form man annimmt, hängt auch von der **theoretischen Perspektive** ab – manche Forschende betonen quantitative Veränderungen, andere die Abfolge qualitativ neuer Stufen.\n\n**Kurz erklärt:** *Quantitativ* heißt „mehr vom Gleichen“ (mehr Wörter, mehr Zentimeter). *Qualitativ* heißt „etwas grundlegend Neues“ (ein Kind kann plötzlich abstrakt denken – das ist nicht nur „mehr Denken“, sondern eine neue Art zu denken). Stufenmodelle wie Piaget, Freud und Erikson gehen von diskontinuierlicher Entwicklung aus.\n\n**So erkennst du es in der Klausur:** „allmählich, in kleinen Schritten, Baum, Wortschatz wächst“ → kontinuierlich/quantitativ; „Sprung, neue Stufe, Raupe–Schmetterling“ → diskontinuierlich/qualitativ.",
+      "folien": "13–14"
+    },
+    {
+      "titel": "Anlage und Umwelt – Typologie von Entwicklungstheorien",
+      "text": "**Wie entstehen Entwicklungsunterschiede? (Folie 15)**\n- Lange Zeit wurde Entwicklung als **entweder angeboren (endogen)** oder **erworben (exogen)** verstanden.\n- Heute ist empirisch fundiert, dass **beide Faktoren zusammenwirken** – **Gene (Anlage) und Umwelt** stehen in einem **ständigen Austauschprozess**.\n- „In der Entwicklungspsychologie herrscht heutzutage Einigkeit darüber, dass die Entwicklung jeglicher menschlichen Eigenschaften – seien es unsere Persönlichkeitseigenschaften, Gefühle, Kognitionen oder unsere körperliche Erscheinung – **sowohl** durch unsere Gene **als auch** durch unsere Umwelt beeinflusst wird.“ (Kienbaum et al., 2023, S. 23)\n\n**Typologie von Entwicklungstheorien – Einfluss von Individuum und Umwelt (Folie 16):**\n\n| | Umwelt **passiv** | Umwelt **aktiv** |\n| --- | --- | --- |\n| Individuum **passiv** | **endogenistische Modelle:** Entwicklung folgt vor allem inneren bzw. biologischen Vorgaben (genetischer Plan) | **exogenistische Modelle:** die Umwelt wirkt aktiv auf das eher passive Individuum ein; Entwicklung wird durch äußere Reize bestimmt |\n| Individuum **aktiv** | **aktionale Modelle:** der Mensch ist aktiv und gestaltet seine Entwicklung selbst mit; die Umwelt wird eher als Rahmen oder Gegenstand der eigenen Aktivität betrachtet | **transaktionale systemische Modelle:** Individuum und Umwelt sind beide aktiv und beeinflussen sich gegenseitig |\n\n- Transaktionale und systemische Modelle **akzentuieren den Wechselwirkungsprozess**.\n- Entwicklung ist **bidirektional**: Subjekt und Umwelt wirken gegenseitig aufeinander ein (eig. Darstellung in Anlehnung an Montada et al., 2018; Scheithauer & Niebank, 2022).\n\n(Zu diesen Folien gibt es kein Audio.)\n\n**Kurz erklärt:** Die vier Modelle unterscheiden sich darin, **wer aktiv ist**. *Endogen* = „von innen“: Entwicklung läuft wie ein eingebautes Programm ab. *Exogen* = „von außen“: Die Umwelt formt das Kind wie Knete (das passt zum Behaviorismus). *Aktional*: Das Kind gestaltet seine Entwicklung selbst (das passt zu Piaget – Kinder konstruieren ihr Wissen selbst). *Transaktional*: Kind und Umwelt beeinflussen sich gegenseitig – ein lebhaftes Kind verändert z. B. das Verhalten der Eltern, das wiederum auf das Kind zurückwirkt (vgl. das dynamisch-transaktionale Paradigma aus Sitzung 2).\n\n**Prüfungsfalle:** Endogen ≠ exogen: **endo** = innen (Gene, Reifung), **exo** = außen (Umwelt). Bei **exogenistischen** Modellen ist die **Umwelt aktiv** und das Individuum **passiv**. Der heutige Stand ist das **Zusammenwirken** von Anlage und Umwelt.",
+      "folien": "15–16"
+    },
+    {
+      "titel": "Vielfalt in Entwicklungsverläufen: Norm, Individualität, Abweichung",
+      "text": "**Warum über Entwicklungsunterschiede sprechen? (Folie 18)**\n- Entwicklung verläuft bei Menschen **individuell verschieden in Tempo, Reihenfolge und Ausprägung**.\n- Allgemeine **Entwicklungsnormen bieten Orientierung**, beschreiben aber **nicht den Verlauf jedes einzelnen Menschen**.\n- Pädagog/innen **beobachten, fördern und begleiten** Entwicklungsprozesse.\n- **Individuelle Unterschiede sind ein grundlegendes Merkmal menschlicher Entwicklung.**\n\nLaut Audio: Ziel der Pädagogischen Psychologie ist **nicht die Diagnostik oder gar Therapie** von Auffälligkeiten, sondern das **Verstehen** unterschiedlicher Entwicklungsverläufe, um angemessen reagieren zu können.\n\n**Ebenen von Entwicklungsverläufen (Folie 19):**\n\n| Ebene | Beschreibung |\n| --- | --- |\n| **normative Entwicklung** | typische, regelmäßig auftretende Veränderungen im Verhalten, „das die Mehrzahl der Menschen einer bestimmten Altersgruppe innerhalb eines gemeinsamen soziokulturellen Kreises in spezifischen Situationen zeigt“ (Scheithauer et al., 2022, S. 438) |\n| **individuelle Entwicklung** | Variation im **Tempo oder Zeitpunkt** |\n| **Entwicklungsabweichung** | Verhaltens- oder Erlebensweisen, die für das Alter **unangemessen und untypisch** sind; Entwicklung verläuft anders als die Mehrheit Gleichaltriger – im Tempo, in der Reihenfolge oder in der Ausprägung; **vor allem in der Pädagogischen Psychologie zur Beschreibung verwendet** |\n\n- **Norm – Variation – Abweichung zeigen fließende Übergänge**, es sind **keine starren Kategorien**.\n\n**Beispiele für Entwicklungsabweichungen (Folie 20):**\n\n| Bereich | typische Variation | mögliche Auffälligkeit |\n| --- | --- | --- |\n| Sprache | Kind bildet mit drei Jahren einfache Sätze | spricht kaum oder gar nicht |\n| Motorik | Kind schreibt mit 7 Jahren leserlich | starke Probleme in der Feinmotorik |\n| Sozialverhalten | Kind sucht Kontakt zu Gleichaltrigen | zieht sich dauerhaft zurück |\n| Emotion | Kind reagiert altersangemessen | häufige Wutausbrüche, Rückzug |\n\n→ **Keine klinische Diagnose, sondern Beobachtung aus pädagogischer Sicht!**\n\n**Der Begriff der Störung (Folie 21):**\n- **Entwicklungsstörung:** „Beeinträchtigung verschiedener kognitiver oder sozialer Fähigkeiten […], die sich zwar zeitgleich manifestieren, jedoch in der Art der Entstehung unterscheiden“ (Scheithauer et al., 2022, S. 442)\n  - Entwicklung einer altersentsprechenden Leistungsfähigkeit wird **verzögert oder verhindert**\n  - manifestiert sich im **Kleinkind- oder Kindesalter**\n  - **diagnostische Kriterien werden erfüllt** (vor allem in der **klinischen Psychologie** verwendet)\n- In Abgrenzung dazu kann es zu **Entwicklungsverzögerungen oder -vorsprüngen** kommen – laut Audio „zeitlich abweichende, aber grundsätzlich normale Verläufe“.\n\n**Entwicklungsabweichungen pädagogisch verstehen (Folie 22):**\n- **„Pädagogisches Interesse gilt dem Verstehen, nicht dem Diagnostizieren!“**\n- Entwicklungsabweichungen als deutliche Unterschiede im Verlauf oder Ergebnis einer Entwicklung können **unterschiedliche Ursachen** haben (biologische, soziale, emotionale oder kognitive).\n- **Ziel der Pädagogik:** Auffälligkeiten **wahrnehmen, verstehen und pädagogisch begleiten – nicht bewerten**.\n- In der Praxis ist die **Zusammenarbeit mit Fachkräften** (Schulpsychologie, Frühförderung usw.) **und Eltern** zentral.\n\n**Kurz erklärt:** Es gibt drei Stufen der Beschreibung: Was die **meisten** Kinder in einem Alter zeigen (Norm), die **normale Bandbreite** um diese Norm (individuell, z. B. ein Kind läuft mit 10, ein anderes mit 15 Monaten), und eine **deutliche Abweichung**. „Entwicklungsabweichung“ ist ein **pädagogischer Beschreibungsbegriff**; „Entwicklungsstörung“ ist ein **klinischer Begriff**, der nur gilt, wenn diagnostische Kriterien erfüllt sind. Eine Lehrkraft stellt keine Diagnosen – sie beobachtet, versucht zu verstehen, begleitet und holt sich bei Bedarf Fachleute dazu.\n\n**Prüfungsfalle:** **Entwicklungsabweichung** (pädagogisch, beschreibend) ≠ **Entwicklungsstörung** (klinisch, diagnostische Kriterien) ≠ **Entwicklungsverzögerung/-vorsprung** (zeitlich abweichend, aber grundsätzlich normal).",
+      "folien": "18–22"
+    },
+    {
+      "titel": "Aktuelle Befunde: die NEPS-Studie",
+      "text": "**AKTUELLE EMPIRISCHE BEFUNDE (Thums et al., 2023)**\n\n**Fragestellung (Folie 23):** Wie unterscheiden sich Schülerinnen und Schüler in Deutschland in ihrer Bildungs- und Kompetenzentwicklung ab der 5. Klasse, und welche Faktoren tragen zu diesen Unterschieden bei?\n\n**Hintergrund:** Die **National Educational Panel Study (NEPS)** ist ein deutschlandweites **Langzeitprojekt**, das **seit 2010** die Bildungswege und Entwicklung von Kindern, Jugendlichen und Erwachsenen untersucht – sie erlaubt Aussagen darüber, wie unterschiedlich sich Entwicklung vollzieht, **abhängig von Kontexten wie Familie, Schule und sozialem Hintergrund**.\n\n**Methode (Folie 24):**\n- **Design:** Längsschnittstudie mit wiederholten Erhebungen (**Paneldesign**)\n- **Startkohorte:** Schüler/innen der 5. Klasse (SC3) an rund 600 Schulen in Deutschland\n- **Stichprobe:** ca. 6000–7000 Teilnehmende (repräsentativ für die Schulpopulation)\n- **Erhebungsinhalte:** kognitive Kompetenzen (Lesen, Mathematik, Naturwissenschaften, ICT); soziale und emotionale Merkmale (Selbstkonzept, Motivation, Wohlbefinden); soziale und familiäre Kontexte (Bildungshintergrund, Migrationsstatus, Schulform)\n- **Erhebungszeitraum:** fortlaufend seit 2010; im Datenartikel 2023 Auswertung der Wellen bis Sekundarstufe II\n- Infotext: **ICT / IKT = Informations- und Kommunikationskompetenz**\n\n**Zentrale Ergebnisse (Folie 25–26):**\n- **große interindividuelle Unterschiede im Kompetenzwachstum** – besonders in Lesen und Mathematik\n- Lern- und Entwicklungspfade hängen stark von **sozialen und institutionellen Kontexten** ab:\n  - Kinder aus **bildungsnahen Familien** zeigen überdurchschnittliche Kompetenzzuwächse\n  - **Unterschiede zwischen Schulformen** (z. B. Gymnasium vs. andere Schularten) **verstärken sich über die Zeit**\n  - Migrationshintergrund und familiäre Ressourcen beeinflussen Entwicklung **indirekt** über Sprachkompetenz, Motivation und Lerngelegenheiten\n- auch individuelle Unterschiede in **Motivation und Wohlbefinden**, die mit der Leistungsentwicklung zusammenhängen\n- Entwicklung ist **nicht linear und nicht einheitlich**, sondern geprägt von sozialen, schulischen und individuellen Einflussfaktoren\n\n**Fazit – Bedeutung für die Pädagogische Psychologie (Folie 27):**\n- Entwicklung verläuft **variabel, kontextabhängig und nicht linear**.\n- Unterschiede zwischen Kindern und Jugendlichen sind **normal** und Ausdruck individueller Entwicklungsverläufe.\n- Soziale, familiäre und schulische Kontexte prägen die Entwicklung wesentlich.\n- Pädagogisches Handeln sollte diese Vielfalt **wahrnehmen, verstehen und adaptiv begleiten**.\n- Die Befunde unterstützen zentrale Annahmen der Entwicklungspsychologie: Entwicklung ist **multidirektional** (Gewinne und Verluste möglich), **lebenslang** und wird **von Umwelt und Person gemeinsam gestaltet**.\n\n**Kurz erklärt:** NEPS begleitet dieselben Schülerinnen und Schüler über viele Jahre (Panel – vgl. Sitzung 2: Panelstudie = dieselben Personen zu mehreren Zeitpunkten). Ergebnis: Kinder entwickeln sich sehr unterschiedlich, und diese Unterschiede hängen stark vom Umfeld ab (Elternhaus, Schulform). Für die Schule heißt das: Unterschiede sind normal, Unterricht muss sich anpassen („adaptiv“).\n\n**Prüfungsfalle:** Der Migrationshintergrund wirkt laut Folie **indirekt** (über Sprachkompetenz, Motivation, Lerngelegenheiten) – nicht direkt. Und die Schulform-Unterschiede **verstärken** sich über die Zeit (sie werden nicht kleiner).",
+      "folien": "23–27"
+    },
+    {
+      "titel": "Theorien der Entwicklungspsychologie: Vielfalt und Unterscheidungskriterien",
+      "text": "**Theorien der Entwicklungspsychologie I (Folie 29):**\n- Es gibt **keine allumfassende Entwicklungstheorie**, sondern eine **Vielzahl theoretischer Ansätze**, die zum Teil **untereinander konkurrieren**, sich aber **häufig gegenseitig ergänzen**.\n- Entwicklung wird je nach Theorie(-gruppe) aus verschiedenen Perspektiven betrachtet: **biologisch, kognitiv, sozial oder kontextuell**.\n- Jede Theorie betont bestimmte Aspekte von **Veränderung, Stabilität und Einflussfaktoren** (Flammer, 2017; Lohaus et al., 2024).\n\nLaut Audio: Einige Theorien betonen **Reifung und Anlage**, andere **Lernen, soziale Interaktion oder den kulturellen Kontext**. Für die Pädagogische Psychologie ist es wichtig, verschiedene Theorien und ihre Erklärungsbeiträge zu kennen.\n\n**Theorien der Entwicklungspsychologie II – Unterscheidungskriterien (Folie 30):** Entwicklungstheorien lassen sich u. a. nach folgenden Kriterien voneinander abgrenzen:\n\n| Kriterium | Leitfrage |\n| --- | --- |\n| **Lebensspanne** | Auf welche Altersbereiche bezieht sich die Theorie? |\n| **Entwicklungsverlauf** | Wird Entwicklung als kontinuierlich oder diskontinuierlich verstanden? |\n| **Einflussfaktoren** | Welche Rolle spielen Anlage und Umwelt? |\n| **Veränderbarkeit** | In welchem Maß kann Entwicklung gezielt beeinflusst werden? |\n| **Fokus** | Steht das Individuum im Mittelpunkt oder die Interaktion mit der sozialen Umwelt? |\n\n- Die ausgewählten Kriterien bestimmen, welche Aspekte einer Theorie für **pädagogische Fragestellungen** besonders relevant sind.\n\n**Kurz erklärt:** Die fünf Kriterien sind wie eine Checkliste, mit der man jede Entwicklungstheorie einordnen kann. Beispiel: **Freud** – Kindheit bis Pubertät, Stufen (diskontinuierlich), Triebe (Anlage) plus Befriedigung durch die Umwelt, Fokus auf das Individuum. **Erikson** – ganze Lebensspanne, Stufen, betont soziale und kulturelle Einflüsse. **Piaget** – Kindheit und Jugend, Stufen, das Kind konstruiert aktiv. **Wygotski** – Fokus auf soziale Interaktion und Kultur.\n\n**Typische Klausurfrage:** „Nach welchen Kriterien lassen sich Entwicklungstheorien unterscheiden?“ → Lebensspanne, Entwicklungsverlauf, Einflussfaktoren, Veränderbarkeit, Fokus.",
+      "folien": "29–30"
+    },
+    {
+      "titel": "Phasen- und Stufenmodelle – Prinzipien und Grenzen",
+      "text": "**Entwicklungsverlauf in Phasen oder Stufen – allgemeine Prinzipien (Folie 31):**\nStufenmodelle beschreiben Entwicklung als **Abfolge qualitativ unterschiedlicher Stadien**, die **alle Menschen in derselben Reihenfolge** durchlaufen. Grundannahmen:\n- **Invarianz bzw. Unidirektionalität:** Stufen-/Phasenabfolge ist festgelegt, **keine Stufe/Phase kann übersprungen werden**.\n- **Streuung:** Die Erreichung der Stufen/Phasen **variiert im Tempo** zwischen den Individuen.\n- **(Dis-)Kontinuität:** Eine neue Phase/Stufe impliziert eine **qualitative, strukturelle Veränderung (Diskontinuität)**; **innerhalb** der Stufe treten **quantitative Veränderungen (Kontinuität)** auf.\n- **Zielgerichtetheit:** Entwicklung erfolgt in Richtung eines **End- oder Reifezustands**; ein **Zurückfallen auf eine vorherige Stufe ist nicht möglich** (aber: das bedeutet nicht zwangsläufig, dass **alle** Personen die höchste Stufe erreichen) (Montada et al., 2018; Pinquart, 2019; Rothgang & Bach, 2021).\n\nLaut Audio: Diese Annahmen prägen viele klassische Entwicklungstheorien, **etwa die von Freud, Erikson oder Piaget** – sie unterscheiden sich darin, welchen Bereich menschlicher Entwicklung sie fokussieren.\n\n**Grenzen von Phasen- und Stufenmodellen (Folie 32):**\n- Für viele Entwicklungen liegen **keine allgemeingültigen Wertkriterien** mit Blick auf einen Reifezustand bzw. die Höherwertigkeit eines Niveaus vor.\n- **Abweichungen** von einem (alters-)typischen Verlauf und **Verluste** bleiben ebenso unberücksichtigt wie **kulturelle Anforderungen und Normen, geschlechtstypische Entwicklungen** und weitere nicht-universelle Merkmale.\n- **Empirisch** zeigen sich viele Verläufe **weniger starr und stärker kontextabhängig** als angenommen.\n- Abweichungen lassen sich dennoch als **Sonderfälle in ein erweitertes Entwicklungsverständnis** integrieren, das Variation, Kontext und Lebensspannenperspektive mitdenkt.\n\nLaut Audio: Trotzdem haben Stufenmodelle **theoretischen Wert**, denn sie verdeutlichen **qualitative Sprünge** im Denken oder Verhalten.\n\n**Zentrale Theorien der Entwicklungspsychologie sind u. a. (Folie 33):** die psychoanalytische Entwicklungstheorie nach **Sigmund Freud** · die Theorie der psychosozialen Entwicklung nach **Erik H. Erikson** · die kognitive Entwicklungstheorie nach **Jean Piaget** · die sozio-kulturelle Entwicklungstheorie nach **Lew Wygotski** · der bio-ökologische Ansatz nach **Urie Bronfenbrenner** · die Theorie der Entwicklung des moralischen Urteils nach **Kohlberg**. (In der VL ausführlich behandelt: Freud, Erikson, Piaget, Wygotski.)\n\n**Kurz erklärt:** Ein Stufenmodell ist wie eine Treppe: Man muss jede Stufe nehmen (kein Überspringen), alle gehen dieselbe Treppe in derselben Reihenfolge hinauf, aber unterschiedlich schnell. Jede neue Stufe bringt etwas grundlegend Neues (qualitativ); auf einer Stufe wird man nur „besser im Gleichen“ (quantitativ). Die Kritik: Echte Entwicklung ist oft weniger ordentlich – es gibt Rückschritte, kulturelle Unterschiede und Verläufe, die nicht in das Schema passen.\n\n**Prüfungsfalle:** Nach den allgemeinen Prinzipien ist **kein Zurückfallen** möglich und es erreichen **nicht zwingend alle** die höchste Stufe. Achtung: Im Buch Schweer & Schulte-Pelkum (2017, S. 64) heißt es für **Kohlberg**, dass ein Rückfall auf eine niedrigere Stufe möglich ist (Buchfragen 2.44, 2.46) – das ist eine Besonderheit dieses Modells, kein Widerspruch zu den allgemeinen Prinzipien der Folie.",
+      "folien": "31–33"
+    },
+    {
+      "titel": "Freud: die psychoanalytische Entwicklungstheorie",
+      "text": "**Grundidee (Folie 35):**\n- Begründer: **Sigmund Freud** (*1856 †1939)\n- **Ziel:** Erklärung der Persönlichkeitsentwicklung durch **innere Konflikte zwischen Trieben, Normen und Realität**\n- **Annahme:** Der Mensch ist ein **Energiesystem, das durch Triebe gespeist wird**.\n- Entwicklung erfolgt als Ergebnis der **Befriedigung oder Frustration grundlegender Bedürfnisse**.\n- **Frühkindliche Erfahrungen prägen die Persönlichkeit dauerhaft.**\n- Instanzen der Persönlichkeit: **Es** (unbewusst), **Ich** (vermittelt zwischen drei Instanzen) und **Über-Ich** (Moralprinzip).\n\n**Psychosexuelle Entwicklungsphasen (Folie 36):**\n\n| Phase | Alter (ca.) | zentraler Fokus | mögliche Konflikte bei Fixierung |\n| --- | --- | --- | --- |\n| **Oral** | Geburt bis 12–18 Monate | Interesse an oraler Befriedigung durch **Saugen, Essen, Mund und Beißen** | übermäßiges Essen, Sprechen, Kaugummi kauen, Rauchen |\n| **Anal** | 12–18 Monate bis 3 Jahre | Befriedigung durch **Entleeren des Darms oder Zurückhalten, Kontrolle, Sauberkeit** | Zwanghaftigkeit, Ordnung |\n| **Phallisch** | 3 bis 5–6 Jahre | Befriedigung durch Spiel mit den Genitalien, **Identifikation mit gleichgeschlechtlichen Eltern, Geschlechtsrollen** | Rivalität, Identitätsunsicherheit |\n| **Latenz** | 5–6 Jahre bis zur Pubertät | **soziale Lernprozesse**; sexuelle Belange weitgehend unwichtig | – |\n| **Genital** | ab Pubertät | Wiedererwachen sexueller Interessen und Etablierung **reifer sexueller Beziehungen** | Beziehungsprobleme |\n\n**Infotext (Folie 36):** „Freud begreift Entwicklung als eine Art **Balanceakt**: Bei altersangemessener Befriedigung der Bedürfnisse in den einzelnen Entwicklungsstufen ist laut Freud mit keinerlei Entwicklungsproblemen zu rechnen. Werden Bedürfnisse **zu stark oder zu wenig befriedigt**, bleiben Menschen auf früheren Entwicklungsniveaus stehen, und es kann zu sog. **Fixierungen** kommen.“ (Feldmann, 2025; Lohaus et al., 2024; Neyer & Asendorpf, 2024)\n\nLaut Audio: In den Phasen ist die **Triebenergie auf unterschiedliche Körperzonen und Bedürfnisse gerichtet**; eine Fixierung ist ein **Stehenbleiben auf einem früheren Entwicklungsniveau, das spätere Verhaltensmuster prägt**.\n\n**Kritische Würdigung (Folie 37):**\n\n| Verdienste | Kritik |\n| --- | --- |\n| Betonung **emotionaler und unbewusster Prozesse** | **hoher Spekulationsgrad**, kaum empirisch überprüfbar |\n| Einfluss **frühkindlicher Erfahrungen** | **Überbetonung** des Sexualtriebes und der Bedeutung der (frühen) Kindheit |\n| Impulse für Psychotherapie sowie Entwicklungs- und Motivationspsychologie | geringe Berücksichtigung **kognitiver und sozio-kultureller Faktoren** |\n| Bedeutung kindlicher Sexualität | Theorien beruhen auf klinischer Arbeit mit meist **männlichen Erwachsenen** |\n\n→ Aus heutiger Sicht ist Freuds Ansatz in seiner Form **sowohl konzeptuell als auch methodisch nicht haltbar**, erweist sich aber als **heuristisch wertvoll** für die weiterführende Forschung (*heuristisch* = als Anregung, um neue Fragen und Ideen zu finden).\n\n**Kurz erklärt:** Freud stellt sich den Menschen wie eine Maschine mit Triebenergie vor. In jeder Phase „sucht“ diese Energie eine andere Körperzone (Mund → After → Genitalien). Wird das Bedürfnis in einer Phase gut befriedigt, geht es weiter. Wird es zu stark oder zu wenig befriedigt, bleibt ein Teil der Persönlichkeit dort „hängen“ (**Fixierung**) – z. B. könnte jemand mit oraler Fixierung später viel rauchen oder essen. Die Theorie ist heute empirisch nicht haltbar, hat aber den Blick auf Unbewusstes und auf die frühe Kindheit gelenkt.\n\n**So erkennst du es in der Klausur:** Merkhilfe für die Reihenfolge: **O-A-P-L-G** (oral – anal – phallisch – Latenz – genital). Fallbeispiele über **Alter + Stichwort** zuordnen: Saugen (1 Jahr) → oral · Sauberkeit/Kontrolle (2 Jahre) → anal · Geschlechtsrolle/gleichgeschlechtlicher Elternteil (4 Jahre) → phallisch · soziales Lernen (8 Jahre) → Latenz · Pubertät/Partnerschaft → genital.\n\n**Prüfungsfalle:** Fixierung entsteht bei **zu starker ODER zu geringer** Befriedigung (Buchfrage 2.13: Triebfrustration **und** Triebverwöhnung). „Frühkindliche Erfahrungen“ stehen bei den **Verdiensten**, die **Überbetonung** der Kindheit bei der **Kritik**.",
+      "folien": "35–37"
+    },
+    {
+      "titel": "Erikson: die Theorie der psychosozialen Entwicklung",
+      "text": "**Grundidee (Folie 38):**\n- Begründer: **Erik H. Erikson** (*1902, †1994)\n- Vertreter der **Lebensspannenperspektive**\n- seine psychosoziale Theorie ist eine **Weiterentwicklung des psychoanalytischen Ansatzes**\n- Betonung **sozialer und kultureller Einflüsse** auf die Entwicklung insgesamt und die **Ich-Entwicklung** im Speziellen\n- Bezeichnung der Phasen als **psychosoziale Krisen**\n- in jeder Lebensphase steht der Mensch vor einem **psychosozialen Konflikt**, den er bewältigen muss:\n  - **positive Konfliktbewältigung stärkt das Ich**\n  - **ungelöste Krisen können die spätere Entwicklung beeinträchtigen**\n\nLaut Audio: **Im Gegensatz zu Freud** versteht Erikson Entwicklung als **lebenslangen Prozess in acht aufeinanderfolgenden Stufen**. Die Konflikte sind **normale Herausforderungen, keine pathologischen (krankhaften) Krisen**. Jede Stufe baut auf den vorangegangenen auf; die erfolgreiche Bewältigung führt zu einer Stärkung des Ich und zu neuen Kompetenzen.\n\n**Das Phasenmodell (Folie 39–40):**\n\n| Stufe (mit Altersangabe) | zentrale Beschreibung |\n| --- | --- |\n| 1. **Urvertrauen vs. Misstrauen** (0–12/18 Monate) | Aufbau von Vertrauen durch **verlässliche Bezugsperson**; Misslingen führt zu Misstrauen |\n| 2. **Autonomie vs. Scham/Zweifel** (18 Monate–3 J.) | Entwicklung von **Selbstkontrolle und Unabhängigkeit**; Überforderung führt zu Scham und Zweifel |\n| 3. **Initiative vs. Schuldgefühl** (3–6 J.) | **Erproben eigener Ziele und Handlungen**; zu starke Einschränkung kann Schuldgefühle auslösen |\n| 4. **Fleiß vs. Minderwertigkeit** (6–12 J.) | Erwerb von **Kompetenzen und Leistungsbereitschaft**; Misserfolg führt zu Minderwertigkeitsgefühlen |\n| 5. **Identität vs. Rollendiffusion** (12–18 J.) | Entwicklung einer **stabilen Identität**; Unsicherheit kann zu Rollenkonflikten führen |\n| 6. **Intimität vs. Isolation** (18–30 J.) | Aufbau **enger Bindungen**; Misserfolg führt zu Isolation und Einsamkeit |\n| 7. **Generativität vs. Stagnation** (30–60 J.) | **Engagement für andere und kommende Generationen**; Rückzug führt zu Stagnation |\n| 8. **Ich-Integrität vs. Verzweiflung** (ab 60 J.) | **Akzeptanz des eigenen Lebens**; fehlende Zufriedenheit führt zu Verzweiflung |\n\n„Die Altersangaben stellen eine **grobe Orientierung** dar. Die Entwicklungsthemen sind **nicht auf einzelne Lebensphasen begrenzt** und können im weiteren Lebensverlauf erneut bedeutsam werden.“ (Folie 40)\n\nLaut Audio – zwei Beispiele: **Autonomie vs. Scham/Zweifel:** Das Kind lernt, eigenständig zu handeln (sich anziehen, essen). Wird diese Selbstständigkeit unterstützt, entsteht ein Gefühl von Kontrolle und Selbstvertrauen; wird sie eingeschränkt oder übermäßig kritisiert, können Scham oder Zweifel entstehen. **Identität (Adoleszenz):** Jugendliche probieren unterschiedliche Rollen aus und finden ein Gefühl für ihre Werte und Ziele – sonst entsteht **Rollendiffusion** (Unsicherheit, wer man ist und wo man hingehört). Das Modell betont, dass Entwicklung **nicht nur biologisch, sondern vor allem sozial und kulturell eingebettet** ist.\n\n**Kritische Würdigung (Folie 41):**\n\n| Verdienste | Kritik |\n| --- | --- |\n| Betonung der **lebenslangen Entwicklung** und Einbeziehung **sozialer und kultureller Faktoren** | **männliche Entwicklung** im Vordergrund |\n| Akzentuierung von **Identität, Selbstwirksamkeit und sozialer Beziehung** als zentrale Entwicklungsthemen | **empirische Überprüfung schwierig**, da Konzepte wie „Ich-Integrität“ oder „Generativität“ nur schwer **operationalisierbar** sind |\n| | **Übergänge** zwischen den Stufen oft **fließender**, als das Modell annimmt |\n\n→ Der Begriff der **Krise** kann eine wahrgenommene Belastung suggerieren, die nicht (immer) gegeben sein muss (eher **Entwicklungsthemen/-aufgaben**).\n\n**Kurz erklärt:** Erikson übernimmt von Freud die Idee der Stufen, verlegt den Schwerpunkt aber von den Trieben auf die **Beziehungen zu anderen Menschen** und die **Gesellschaft** – und das **ein Leben lang** (8 Stufen statt 5 Phasen bis zur Pubertät). In jeder Stufe gibt es ein Spannungsfeld („A vs. B“). Wird es gut gelöst, gewinnt man Stärke (z. B. Vertrauen, Selbstständigkeit, Identität). Für die Schule wichtig: Grundschulkinder sind in **Fleiß vs. Minderwertigkeit** – Erfolgserlebnisse stärken sie, ständige Misserfolge können Minderwertigkeitsgefühle erzeugen. Jugendliche in der Sekundarstufe sind in **Identität vs. Rollendiffusion**.\n\n**So erkennst du es in der Klausur:** Stichwort → Stufe: verlässliche Bezugsperson → Urvertrauen · sich selbst anziehen, Selbstkontrolle → Autonomie · eigene Ziele erproben, Regeln/Schuld → Initiative · Leistung, Kompetenzen (Grundschule) → Fleiß · Rollen ausprobieren, Wer bin ich? → Identität · Partnerschaft, enge Bindung → Intimität · für jüngere Generationen engagieren → Generativität · Rückblick, eigenes Leben annehmen → Ich-Integrität.\n\n**Prüfungsfalle:** Die Stufen heißen in anderen Quellen etwas anders: **Fleiß** = **Werksinn** (Buch) = **Tätigkeit** (eÜbung) vs. Minderwertigkeit(sgefühl); **Rollendiffusion** = **Identitätsdiffusion** = **Identitätsverwirrung**. Erikson hat **acht** Stufen (Buchfrage 2.23). Die phallische Phase nach Freud entspricht **Initiative vs. Schuldgefühl** (Buchfrage 2.27).",
+      "folien": "38–41"
+    },
+    {
+      "titel": "Piaget: Grundannahmen und zentrale Begriffe",
+      "text": "**Kognitivismus (Folie 43):**\n- **Fokus der kognitiven Perspektive:** „Prozesse, die Menschen ermöglichen etwas zu **erkennen, zu verstehen und über die Welt nachzudenken**“ (Feldmann, 2025, S. 41)\n- in der Entwicklungspsychologie: **qualitative und quantitative Veränderungen der Denkprozesse** über die gesamte Lebensspanne\n- zentraler Vertreter: **Jean Piaget** (*1896 †1980)\n- Leitfrage seiner Arbeit: „Wie entwickeln sich die Erkenntnisfähigkeiten des Menschen in Abhängigkeit von der Umwelt?“\n\n**Zentrale Annahme (Folie 44):**\n- **Kinder konstruieren ihr Wissen selbst**, „indem sie **aktiv auf ihre Umwelt einwirken**, sie erkunden und in ihrem Bewusstsein abbilden (**mental repräsentieren**)“ (Berk, 2020, S. 23)\n  - Wissen ist das Ergebnis von **direktem motorischem Verhalten**\n- Die mentalen Strukturen entwickeln sich so, dass eine **Anpassung (Adaptation)** an die Anforderungen der Umwelt gewährleistet wird, bzw. dass die mentalen Strukturen, die Informationen ordnen und erklären (**Schemata**), die Außenwelt repräsentieren.\n\n**Zentrale Begriffe und Prozesse (Folie 45):**\n- **Adaptation (Anpassung):** übergreifender Prozess, mit dem sich das Kind an die Anforderungen der Umwelt anpasst; besteht aus den Grundprozessen:\n  - **Assimilation:** **Eingliederung neuer Erfahrungen in vorhandene Schemata**\n  - **Akkommodation:** „**Modifizierung des bisherigen Schemas**, um neue Informationen integrieren zu können“ (Myers & DeWall, 2023, S. 206)\n    - Ist die **Diskrepanz** zwischen eingehenden Informationen und vorhandenen Schemata **zu hoch**, oder können die Informationen **mehreren Schemata** zugeordnet werden und es entstehen Widersprüche (sog. **Disäquilibrium**), so ist eine Anpassung der Schemata notwendig.\n- **Äquilibration:** Aufhebung von Diskrepanzen zwischen Strukturen oder zwischen Strukturen und Umwelt.\n\n**Beispiel: Emma und die Orange (Folie 46):** „Emma ist 1,5 Jahre alt und spielt gerne mit Bällen. Sie entdeckt auf dem Küchentisch einen neuen ‚Ball‘, nimmt diesen, wirft ihn, doch er hüpft nicht wie gewohnt auf und nieder. Emmas Vater erklärt ihr, dass es sich um eine Orange handelt, schält sie und lässt Emma probieren. Emma erkennt nun, dass nicht alle runden Objekte Bälle sind. Sie muss ihr bisheriges Schema ‚Ball‘ anpassen und ein neues Schema ‚Orange‘ bilden.“ (in Anlehnung an Lohaus et al., 2024)\n\nLaut Audio (Erklärung des Beispiels): Emma hat ein **Schema „Ball“** (runde Objekte, die rollen oder hüpfen). Sie behandelt die Orange wie einen Ball → **Assimilation**. Die Orange verhält sich anders als erwartet, der Vater erklärt, dass man sie essen kann → Widerspruch; Emma verändert ihr Schema → **Akkommodation**. Den gesamten Vorgang, die Anpassung des Denkens an die Realität, nennt Piaget **Adaptation**. Sobald Emma „Orange“ verstanden und von „Ball“ unterschieden hat, stellt sich ein **kognitives Gleichgewicht** wieder ein → **Äquilibration**. Das Zusammenspiel erklärt, wie Kinder Wissen aufbauen, erweitern und **qualitativ neue Denkstrukturen** entwickeln.\n\n**Kurz erklärt:** Ein **Schema** ist eine „Schublade im Kopf“ mit Wissen darüber, wie etwas ist und was man damit tut. **Assimilation**: Etwas Neues wird in eine **vorhandene** Schublade gesteckt („Das ist auch ein Ball“). **Akkommodation**: Die Schublade passt nicht, also wird sie **umgebaut** oder eine **neue** angelegt („Orange ist kein Ball“). **Äquilibration**: Danach ist wieder Ordnung im Kopf (Gleichgewicht). **Adaptation** ist der Oberbegriff für beides.\n\n**Prüfungsfalle:** **Assimilation** = Schema bleibt, Neues wird eingeordnet; **Akkommodation** = Schema wird verändert. Merkhilfe: **A-K-K-ommodation – das Schema wird „kaputt gemacht“ und neu gebaut.** Auslöser der Akkommodation ist eine **Diskrepanz** bzw. ein **Disäquilibrium**. Die Rassel, an der ein Baby saugt wie an der Flasche, ist **Assimilation** (Buchfrage 2.37).",
+      "folien": "43–46"
+    },
+    {
+      "titel": "Piagets Stufen kognitiver Entwicklung und die klassischen Versuche",
+      "text": "**Piagets Stufen kognitiver Entwicklung (Folie 47):**\n\n| Stufe | Alter | Merkmale |\n| --- | --- | --- |\n| **sensomotorisch** | ca. 0 bis 2 Jahre | das Kind beginnt zu imitieren, zu erinnern und zu denken; es erkennt, dass Objekte weiter existieren, auch wenn es sie nicht sieht (**Objektpermanenz**); Freude am Effekt, Nachahmung |\n| **präoperational** | ca. 2 bis 7 Jahre | Entwicklung **symbolischer Repräsentationen**, **Egozentrismus**, **Zentrierung**, **anschauliches Denken**, Perspektivenübernahme (**Perspektivenwechsel**) muss sich entwickeln |\n| **konkret-operational** | ca. 7 bis 11 Jahre | das Kind denkt **logisch in anschaulichen (konkreten) Kontexten**; es versteht das Prinzip der **Mengenkonstanz (Invarianzkonzepte)**, **Klassifikation** |\n| **formal-operational** | ca. 11 Jahre u. älter | **hypothetisches Denken (Pendelproblem)**, **abstraktes Denken**, **logisches Schlussfolgern**, Potential für reifes moralisches Denken |\n\nLaut Audio: Die Stufen bauen aufeinander auf und sind durch **zunehmende Komplexität des Denkens** gekennzeichnet. Sensomotorisch: Kinder begreifen die Umwelt über **Wahrnehmung und Bewegung**. Präoperational: **symbolisches Denken** – Vorstellungen sprachlich oder bildlich ausdrücken, aber noch stark in der eigenen Perspektive. Insgesamt: Denken ist **nicht nur ein „Mehr“, sondern verändert sich qualitativ** – vom konkreten Handeln zum abstrakten, logischen und hypothetischen Denken.\n\n**Objektpermanenz (Folie 48):** „Objektpermanenz (‚object permanence‘) – **Wissen, dass ein Gegenstand weiterhin existiert, auch wenn er gerade nicht wahrgenommen werden kann.**“ (Myers & DeWall, 2023, S. 206). Abbildung: Ein Baby greift nach einem Spielzeug; das Spielzeug wird mit einem Tuch verdeckt.\nLaut Audio: Zu **Beginn** der sensomotorischen Phase folgen Kinder einem Spielzeug mit Blicken und greifen danach; verschwindet es aus dem Blickfeld, **suchen sie nicht weiter**. Mit zunehmendem Alter setzen sich die suchenden Blicke fort, bis sie **gezielt suchen** – weil sie jetzt wissen, dass das Spielzeug existiert. Sie haben eine **kognitive (mentale) Repräsentation des Objekts** erworben.\n\n**Perspektivenwechsel – der Drei-Berge-Versuch (Folie 49; in Anlehnung an Inhelder & Piaget, 1956):** Abbildung: ein Modell mit drei Bergen, Blickpunkte A, B, C, D.\nInfotext: **Perspektivenübernahme = Fähigkeit, sich in den anderen hineinzuversetzen und seine Gefühle und Erfahrungen nachzuvollziehen.**\nLaut Audio: Das Kind betrachtet das Modell von Punkt **A**; eine **Puppe** wird an B, C oder D gestellt. Das Kind soll aus Bildern den **Blickwinkel der Puppe** auswählen. **Kinder zwischen 4 und 6 Jahren** können das noch nicht – sie sind **egozentrisch** und schreiben der Puppe ihre eigene Perspektive zu. **Kritik:** Spätere Experimente zeigen zwei Ebenen der visuellen Perspektivenübernahme: **Ebene 1** (ca. **2 Jahre**): verstehen, **was** ein anderer sehen kann und was nicht. **Ebene 2** (nach dem **3.–4. Lebensjahr**): verstehen, **wie** der andere einen Gegenstand sieht. Jüngere Kinder können also teilweise schon Perspektiven übernehmen; die Fähigkeit entwickelt sich deutlich im Übergang von der frühen zur mittleren Kindheit.\n\n**Mengeninvarianz (Invarianzkonzepte) (Folie 50):** Abbildung: ein Junge, zwei gleiche Gläser Saft, ein Glas wird in ein höheres, schmaleres Glas umgefüllt.\nLaut Audio – **Umschüttaufgabe** zur Quantitätsinvarianz von Flüssigkeiten: Das Kind sieht, dass in zwei gleichen Gläsern **dieselbe Menge** ist. Die Versuchsleitung gießt ein Glas in ein **höheres, schmaleres** Glas und fragt, ob noch gleich viel darin ist. Ergebnis: **Erst ab ca. 7 Jahren** wissen Kinder, dass die Menge gleich bleibt – sie beachten dann **neben der Höhe auch die Breite** des Glases. (Jüngere Kinder achten nur auf die Höhe – das ist **Zentrierung**.)\n\n**Das Pendelproblem (Folie 51; in Anlehnung an Inhelder & Piaget, 1958):** Abbildung: zwei Pendel mit unterschiedlich schweren Gewichten an unterschiedlich langen Schnüren.\nLaut Audio: Jugendliche sollen herausfinden, welchen Einfluss **Gewicht, Schnurlänge oder Höhe des Loslassens** auf das Pendel haben. Erst **ab ca. dem 12. Lebensjahr** gehen sie **systematisch** vor: Sie überlegen, welche Variablen die Geschwindigkeit beeinflussen, **prüfen jede Variable einzeln** und dann alle gemeinsam. Sie folgern, dass **nur die Länge der Schnur** einen Einfluss auf die Schwingungsgeschwindigkeit hat.\n\n**Kurz erklärt:** Die vier Stufen beschreiben, **wie** ein Kind denkt – nicht nur, wie viel es weiß. Babys denken mit dem Körper (anfassen, in den Mund stecken) und lernen, dass Dinge nicht verschwinden, wenn man sie nicht sieht. Kindergartenkinder können sich Dinge vorstellen und „so tun als ob“ (Holzklotz = Telefon), sehen die Welt aber nur aus ihrer Sicht und lassen sich von dem leiten, was sie gerade sehen (hohes Glas = mehr Saft). Grundschulkinder denken logisch, solange es um Konkretes geht (Menge bleibt gleich, Dinge sortieren). Jugendliche können abstrakt und „Was wäre, wenn …?“ denken und Hypothesen systematisch prüfen (Pendel).\n\n**So erkennst du es in der Klausur:** Versuch → Stufe: **Tuch über Spielzeug** → Objektpermanenz → sensomotorisch · **Drei-Berge-Versuch** → Perspektivenübernahme/Egozentrismus → präoperational · **Umschütten** → Mengeninvarianz → konkret-operational · **Pendel** → hypothetisch-deduktives Denken → formal-operational. Reihenfolge der Stufen merken: **S-P-K-F**.\n\n**Prüfungsfalle:** Egozentrismus heißt hier **nicht** „egoistisch“, sondern „kann die Sicht eines anderen noch nicht einnehmen“. Die Schreibweise schwankt (sensomotorisch/sensumotorisch, präoperational/präoperativ) – gemeint ist dasselbe.",
+      "folien": "47–51"
+    },
+    {
+      "titel": "Kritische Würdigung Piagets und aktuelle Befunde",
+      "text": "**Kritische Würdigung der kognitiven Theorie nach Piaget (Folie 52):**\n\n| Verdienste | Kritik |\n| --- | --- |\n| Betonung der **aktiven Rolle des Kindes** | **Kompetenzen der Kinder werden eher unterschätzt** |\n| enge Verbindung von **Reifen und Lernen** (Assimilation, Akkommodation, Adaptation) | **Stufenmodell zu starr**, Entwicklung verläuft fließender |\n| großer Einfluss auf die entwicklungspsychologische Forschung und die Entwicklung neuer Erziehungsmethoden und -programme | Vernachlässigung von **sozialem und kulturellem Kontext** |\n\n**AKTUELLE EMPIRISCHE BEFUNDE: Kognitives Denken in technischen Lernaufgaben (Cerovac & Keane, 2024)**\n- **Fragestellung (Folie 53):** Wie unterscheiden sich Kinder und Jugendliche in ihren kognitiven Strategien beim Lösen technischer Aufgaben? Lassen sich Piagets Stufen des **konkreten und formalen Denkens** empirisch in schulischen Lernprozessen beobachten?\n- **Annahmen:** jüngere Kinder (konkret-operational) handeln eher **intuitiv und anschaulich**; ältere Jugendliche (formal-operational) **planen systematisch, prüfen Hypothesen und denken abstrakt**.\n- **Methodik (Folie 54):** vergleichende **Fallstudie** im australischen Technologieunterricht; Stichprobe **36 Schüler/innen** (18 Kinder, 8–10 Jahre → konkret-operational; 18 Jugendliche, 15–18 Jahre → formal-operational); alle bearbeiten in gleicher Reihenfolge drei Aufgaben mit zunehmender Komplexität: **Windmühle** (vollständige Anleitung), **Turmkran** (teilweise fehlende Bauanweisungen), **steuerbares Boot** (freie Konstruktion ohne Plan).\n- **Erhebungen (Folie 55):** bewertete Modellqualität (0–10 Punkte), Anteil fertiggestellter Modelle, Videoanalyse zu Planungs- und Problemlösestrategien.\n- **Ergebnisse (Folie 56):** mit steigender Aufgabenkomplexität **nehmen die Leistungsunterschiede deutlich zu**; jüngere Kinder zeigen **impulsives Vorgehen, Versuch-und-Irrtum-Strategien**; ältere Jugendliche **planvolles und reflektiertes Vorgehen, hypothetisch-deduktives Denken**; **abstraktes Denken zeigt sich nur in der älteren Gruppe**; Entwicklung verläuft **nicht strikt stufenweise, sondern teilweise überlappend**.\n- **Bedeutung (Folie 57):** **Bestätigung zentraler Annahmen Piagets** zur Denkentwicklung; kognitive Förderung sollte **alters- und entwicklungsangemessen** erfolgen; Unterricht sollte **komplexitätsgestuft** gestaltet sein, um Überforderung zu vermeiden.\n\n**Kurz erklärt:** Piagets Idee, dass Kinder aktiv lernen, ist bis heute einflussreich. Kritisiert wird, dass er Kinder unterschätzt (vgl. die zwei Ebenen der Perspektivenübernahme) und dass die Stufen zu starr sind. Die Studie von Cerovac & Keane bestätigt den Kern (Jüngere probieren aus, Ältere planen und denken abstrakt), zeigt aber auch: Die Stufen überlappen sich. Für den Unterricht folgt: Aufgaben schrittweise schwieriger machen und an das Denkniveau anpassen.\n\n**Prüfungsfalle:** Die Studie **bestätigt** Piagets zentrale Annahmen, zeigt aber **keine** strikt getrennten Stufen. Hinweis: Auf den Folien steht „Cerovac & Keane, 2024“, im Literaturverzeichnis „(2025)“.",
+      "folien": "52–57"
+    },
+    {
+      "titel": "Wygotski: die sozio-kulturelle Entwicklungstheorie",
+      "text": "**Grundidee (Folie 59):**\n- **Fokus der Theorie:** **sozio-kultureller Einfluss auf die kognitive Entwicklung**\n- **Grundüberlegung:** Die Auseinandersetzung des Kindes mit der Umwelt erfolgt **im Kontext sozialer Interaktion**: **Entwicklung als Sozialisation**\n- Der **Motor der Entwicklung** sind die **sozialen Interaktionen zwischen Kindern und im jeweiligen Lernfeld kompetenteren Personen** (Eltern, Lehrer/innen, Mitschüler/innen usw.)\n- Dabei misst Wygotski der **Sprache und den Selbstgesprächen** eine **zentrale entwicklungsförderliche Bedeutung** bei.\n\nInfotext: „Die im Folgenden vorgestellte sozio-kulturelle Entwicklungstheorie zählt ebenfalls zu den **kognitiven Entwicklungstheorien**, in Wygotskis Überlegungen sind jedoch die **sozialen Einflüsse besonders relevant**.“\nLaut Audio – Wygotski-Zitat sinngemäß: **„Der Weg vom Objekt zum Kind und vom Kind zum Objekt verläuft über eine andere Person.“** Kompetentere Personen sind z. B. Lehrer/innen, Eltern, **aber auch Mitschüler/innen**.\n\n**Die Bedeutung von Sprache und Selbstgesprächen (Folie 60):**\n- **Sprache** ermöglicht die **Ausbildung höherer mentaler Funktionen** sowie Prozesse und gilt als **kulturell durch die Interaktion mit Erwachsenen vermitteltes Werkzeug**.\n- **Selbstgespräche** unterstützen das Kind, seine kognitiven Aktivitäten und seinen Lernprozess **im Sinne einer Selbstanleitung** auszuführen (**Aufmerksamkeit, Behalten, Kategorisieren, Planen** usw.).\n- Diese Funktion ist **empirisch fundiert**; sie ist vor allem dann zu beobachten, wenn die Aufgaben ein **angemessenes Schwierigkeitsniveau** haben (**weder zu leicht noch zu schwierig**).\n- Selbstgespräche **in Gegenwart von anderen** (etwa der Eltern) stehen in Zusammenhang mit der **Unterstützung, die von außen angeboten wird** – in der Beziehung kann sich eine förderliche Form der Unterstützung entwickeln.\n\n**Stufenmodell der Sprachentwicklung (Folie 61):** Der Ansatz von Wygotski stellt ein Stufenmodell der Sprachentwicklung dar:\n\n| Stufe der Sprachentwicklung | Funktion |\n| --- | --- |\n| **soziales Sprechen** (bis 3. Lebensjahr) | Einfluss auf das Verhalten anderer ausüben, einfache Gedanken und Gefühle ausdrücken |\n| **egozentrisches Sprechen** (3.–7. Lebensjahr) | **Kontrolle des eigenen Verhaltens im Sinne von Selbstinstruktion**, oftmals **laut** ausgesprochen |\n| **inneres Sprechen** (ab 7. Lebensjahr) | **lautloses, inneres Selbstgespräch** zum Lenken von Denken und Verhalten; vermutlich an allen höheren mentalen Funktionen beteiligt |\n\n- **Im Gegensatz zu Wygotski hat Piaget die kindlichen Selbstgespräche in den Kontext des Egozentrismus eingeordnet.**\n- Infotexte: **Selbstinstruktion** – auf der Grundlage von (beobachteten) Dialogen beginnen Kinder **im Vorschulalter** mit sich selbst zu sprechen; in der weiteren Entwicklung werden die laut ausgesprochenen Selbstgespräche von **inneren Selbstinstruktionen** abgelöst, die **auch im Erwachsenenalter noch genutzt** werden.\n\n**Kurz erklärt:** Für Wygotski lernt ein Kind **mit anderen**: Was es zuerst im Gespräch mit Erwachsenen erlebt („Pass auf, erst den Deckel, dann …“), sagt es später **laut zu sich selbst** und schließlich **im Kopf**. So wird Sprache zum Werkzeug, mit dem es sein eigenes Denken steuert. Selbstgespräche sind deshalb **kein Zeichen von Unreife** (wie Piaget dachte), sondern eine **Lernhilfe** – besonders bei Aufgaben, die gerade richtig schwer sind.\n\n**Prüfungsfalle:** Piaget: Selbstgespräche = **Egozentrismus**; Wygotski: Selbstgespräche = **Selbstanleitung**, entwicklungsförderlich. Selbstgespräche zeigen sich vor allem bei **angemessenem** Schwierigkeitsniveau – nicht bei besonders schweren Aufgaben.",
+      "folien": "59–61"
+    },
+    {
+      "titel": "Zone proximalen Wachstums, Würdigung und Abschluss",
+      "text": "**Anwendung im pädagogischen Kontext (Folie 62) – Wygotskis Konzept der Zone proximalen Wachstums:**\n- **Unter der Anleitung kompetenterer Personen** kann ein Kind seine Kompetenzen (weiter-)entwickeln, die es **zunehmend auch ohne diese Unterstützung** einsetzen kann („**Entdeckungslernen unter Anleitung**“; Berk, 2020, S. 343).\n- Förderlich sind demnach **Lernaktivitäten, die in dieser Zone proximalen Wachstums angesiedelt sind** und damit jeweils weiterführende Potenziale für die Entwicklung bieten.\n- Wygotskis Überlegungen sind die theoretische Basis für …\n  - … das Konzept des **Scaffolding (Gerüstbau)**: bietet Kindern **vorübergehend Unterstützung**, während sie ein höheres Denkniveau erreichen\n  - … **Konzepte des kooperativen Lernens** im schulischen bzw. Peerkontext\n\n**Kritische Würdigung (Folie 63):**\n\n| Verdienste | Kritik |\n| --- | --- |\n| hebt den Einfluss **sozialer und kultureller Kontexte** auf die kognitive Entwicklung hervor | **starke Fokussierung auf Sprache** |\n| betont die Bedeutung **gemeinsamer Aktivitäten und sprachlicher Interaktion** für Lernprozesse | Auswirkungen **biologischer Faktoren** werden weitestgehend **ignoriert** |\n| verdeutlicht die **unterstützende Rolle von Bezugspersonen** in der Zone der proximalen Entwicklung | sprachliche Interaktion ist **nicht alleinige Grundlage** für kognitive Entwicklung – **vorsprachliche Kategorienbildung** bereits bei **Säuglingen** nachweisbar |\n\n**Abschluss – Implikationen für pädagogisches Handeln (Folie 64; in Anlehnung an Woolfolk & Usher, 2025):**\n- Theorien der Entwicklungspsychologie bieten **unterschiedliche, aber sich ergänzende Perspektiven** auf Lernen und Entwicklung.\n- Pädagog/innen begleiten Entwicklungsprozesse, indem sie **Lernumgebungen schaffen, die an den individuellen Entwicklungsstand anknüpfen**.\n- Kenntnisse über Entwicklungsstufen helfen, **Überforderung und Unterforderung zu vermeiden**.\n- Entwicklungswissen unterstützt dabei, Lernprozesse und Verhalten von Kindern und Jugendlichen **besser zu verstehen und gezielt zu fördern**.\n- **Ziel ist nicht die Anwendung einer einzelnen Theorie, sondern ein reflektiertes Verständnis von Entwicklung als dynamischem Prozess.**\n\n**Kurz erklärt:** Die **Zone proximalen Wachstums** (auch „Zone der nächsten Entwicklung“) ist der Bereich zwischen dem, was ein Kind **schon allein** kann, und dem, was es **mit Hilfe** schaffen kann. Genau dort lernt es am meisten. Beispiel: Ein Kind kann allein bis 20 rechnen; mit Hinweisen der Lehrkraft („Zerleg die 8 in 5 und 3“) schafft es Aufgaben bis 100. Beim **Scaffolding** baut die Lehrkraft ein „Gerüst“ (Tipps, Beispiele, Teilschritte) und baut es nach und nach wieder ab, bis das Kind es allein kann. Auch eine Mitschülerin kann diese Hilfe geben (kooperatives Lernen).\n\n**So erkennst du es in der Klausur:** „kann es noch nicht allein, mit Hilfe einer kompetenteren Person schon, später immer weniger Hilfe“ → **Zone proximalen Wachstums** (bzw. Scaffolding). Achtung: Auf Folie 62 heißt es „Zone proximalen **Wachstums**“, auf Folie 63 „Zone der proximalen **Entwicklung**“ – gemeint ist dasselbe.\n\n**Typische Klausurfrage (offen):** „Leiten Sie aus Wygotskis Theorie Folgerungen für den Unterricht ab.“ → Aufgaben in der Zone proximalen Wachstums (nicht zu leicht, nicht zu schwer), Scaffolding (vorübergehende Hilfe, schrittweise zurücknehmen), kooperatives Lernen mit kompetenteren Mitschüler/innen, Selbstgespräche/lautes Denken zulassen und fördern.",
+      "folien": "62–64"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Entwicklung (Lohaus et al.)",
+      "wortlaut": "„Entwicklung bezieht sich auf relativ überdauernde und aufeinander bezogene intraindividuelle Veränderungen des Erlebens und Verhaltens über die Zeit hinweg.“ (Lohaus et al., 2024, S. 4)",
+      "erklaerung": "Längerfristige, geordnete Veränderungen innerhalb einer Person.",
+      "folie": "7"
+    },
+    {
+      "begriff": "Entwicklung (Woolfolk & Usher)",
+      "wortlaut": "„Der Begriff der Entwicklung bezieht sich in der Psychologie allgemein auf bestimmte Veränderungen des Menschen (oder von Lebewesen) von der Empfängnis bis zum Tod. Aber nicht alle Veränderungen sind Entwicklungen, sondern nur solche, die altersgestaffelt (altersgraduiert) in geordneter Reihenfolge auftreten und länger andauern.“ (Woolfolk & Usher, 2025, S. 90)",
+      "erklaerung": "Nicht jede Veränderung ist Entwicklung – nur geordnete, länger andauernde.",
+      "folie": "7"
+    },
+    {
+      "begriff": "Geordnetheit/Regelhaftigkeit",
+      "wortlaut": "Entwicklung ist eine geordnete Veränderung mit einem inneren Zusammenhang.",
+      "erklaerung": "Veränderungen gehen systematisch auseinander hervor – aber nicht starr nach festem Plan (Audio).",
+      "folie": "8"
+    },
+    {
+      "begriff": "Gerichtetheit",
+      "wortlaut": "Entwicklung ist gerichtet, Gewinne und Verluste von Funktionsfähigkeiten und Ressourcen sind möglich.",
+      "erklaerung": "Nicht nur „Höherentwicklung“; Gewinne und Verluste oft nebeneinander (Multidirektionalität).",
+      "folie": "8"
+    },
+    {
+      "begriff": "Längerfristigkeit",
+      "wortlaut": "Entwicklung als längerfristige Veränderung.",
+      "erklaerung": "Heißt nicht Unveränderbarkeit – Entwicklung ist formbar (Plastizität, Audio).",
+      "folie": "8"
+    },
+    {
+      "begriff": "Veränderungen über die Lebensspanne",
+      "wortlaut": "Entwicklung vollzieht sich als ein lebenslanger Prozess, alle Altersbereiche sind gleich bedeutsam.",
+      "erklaerung": "Von der Befruchtung bis zum Tod.",
+      "folie": "8"
+    },
+    {
+      "begriff": "Multidirektionalität",
+      "wortlaut": "Gewinne und Verluste treten in der Entwicklung oft nebeneinander auf (Audio 3.1); Entwicklung ist multidirektional (Gewinne und Verluste möglich).",
+      "erklaerung": "Entwicklung geht nicht nur in eine Richtung („besser“).",
+      "folie": "8, 27"
+    },
+    {
+      "begriff": "Plastizität",
+      "wortlaut": "Menschliche Entwicklung ist in vielen Bereichen und Lebensabschnitten in hohem Maße durch den Aspekt der Formbarkeit, also der sogenannten Plastizität, gekennzeichnet (Audio 3.1).",
+      "erklaerung": "Entwicklung bleibt beeinflussbar.",
+      "folie": "8 (Audio)"
+    },
+    {
+      "begriff": "intraindividuell / interindividuell",
+      "wortlaut": "intraindividuelle Veränderungen (innerhalb eines Individuums) … interindividuelle Unterschiede (zwischen Individuen)",
+      "erklaerung": "Intra = in einer Person über die Zeit; inter = zwischen Personen.",
+      "folie": "9"
+    },
+    {
+      "begriff": "Aufgaben der Entwicklungspsychologie",
+      "wortlaut": "grundlagenorientiert: Beschreibung und Erklärung von Entwicklungsprozessen (Was entwickelt sich wie und warum?); anwendungsorientiert: Diagnose des aktuellen Entwicklungsstandes und Prognose des zukünftigen Entwicklungsstandes, Genese von Präventions- und Interventionsmöglichkeiten zur Beeinflussung des Entwicklungsprozesses",
+      "erklaerung": "Verstehen und helfen.",
+      "folie": "10"
+    },
+    {
+      "begriff": "Altersvariable",
+      "wortlaut": "bis in die 1960er Jahre galt Entwicklung (E) als Funktion (f) des Alters (A); E = f(A), aber: Lebensalter ist keine psychologische Variable, sondern eine physikalische Größe … Alter als deskriptive Variable",
+      "erklaerung": "Alter beschreibt, verursacht aber nichts; besser: Entwicklungsstand.",
+      "folie": "11"
+    },
+    {
+      "begriff": "Kontinuierliche Entwicklung",
+      "wortlaut": "„Die Vorstellung, dass altersbedingte Veränderungen allmählich und in kleinen Schritten geschehen, so wie ein Baum höher und höher wächst.“ (Siegler et al., 2021, S. 13) → quantitative Veränderungen",
+      "erklaerung": "„Mehr vom Gleichen“.",
+      "folie": "13"
+    },
+    {
+      "begriff": "Diskontinuierliche Entwicklung",
+      "wortlaut": "„Die Vorstellung, dass zu altersbedingten Veränderungen gelegentliche größere Entwicklungsschritte gehören, so wie die Verwandlung einer Raupe zur Puppe, die schließlich als Schmetterling schlüpft.“ (ebd.) → qualitative Veränderungen",
+      "erklaerung": "Sprünge zu etwas grundlegend Neuem.",
+      "folie": "13"
+    },
+    {
+      "begriff": "Endogenistische Modelle",
+      "wortlaut": "Entwicklung folgt vor allem inneren bzw. biologischen Vorgaben (genetischer Plan).",
+      "erklaerung": "Individuum und Umwelt passiv; „von innen“.",
+      "folie": "16"
+    },
+    {
+      "begriff": "Exogenistische Modelle",
+      "wortlaut": "die Umwelt wirkt aktiv auf das eher passive Individuum ein; Entwicklung wird durch äußere Reize bestimmt",
+      "erklaerung": "„Von außen“.",
+      "folie": "16"
+    },
+    {
+      "begriff": "Aktionale Modelle",
+      "wortlaut": "der Mensch ist aktiv und gestaltet seine Entwicklung selbst mit; die Umwelt wird dabei eher als Rahmen oder Gegenstand der eigenen Aktivität betrachtet",
+      "erklaerung": "Das Individuum ist aktiv, die Umwelt eher passiv.",
+      "folie": "16"
+    },
+    {
+      "begriff": "Transaktionale systemische Modelle",
+      "wortlaut": "Individuum und Umwelt sind beide aktiv und beeinflussen sich gegenseitig",
+      "erklaerung": "Wechselwirkung; Entwicklung ist bidirektional.",
+      "folie": "16"
+    },
+    {
+      "begriff": "Normative Entwicklung",
+      "wortlaut": "typische, regelmäßig auftretende Veränderungen im Verhalten, „das die Mehrzahl der Menschen einer bestimmten Altersgruppe innerhalb eines gemeinsamen soziokulturellen Kreises in spezifischen Situationen zeigt“ (Scheithauer et al., 2022, S. 438)",
+      "erklaerung": "Was die meisten Gleichaltrigen zeigen.",
+      "folie": "19"
+    },
+    {
+      "begriff": "Individuelle Entwicklung",
+      "wortlaut": "Variation im Tempo oder Zeitpunkt",
+      "erklaerung": "Normale Bandbreite.",
+      "folie": "19"
+    },
+    {
+      "begriff": "Entwicklungsabweichung",
+      "wortlaut": "Verhaltens- oder Erlebensweisen werden gezeigt, die für das Alter unangemessen und untypisch sind; Entwicklung verläuft anders als die Mehrheit Gleichaltriger – im Tempo, in der Reihenfolge oder in der Ausprägung; vor allem in der Pädagogischen Psychologie zur Beschreibung verwendet",
+      "erklaerung": "Pädagogischer Beschreibungsbegriff, keine Diagnose.",
+      "folie": "19"
+    },
+    {
+      "begriff": "Entwicklungsstörung",
+      "wortlaut": "„Beeinträchtigung verschiedener kognitiver oder sozialer Fähigkeiten […], die sich zwar zeitgleich manifestieren, jedoch in der Art der Entstehung unterscheiden“ (Scheithauer et al., 2022, S. 442)",
+      "erklaerung": "Klinischer Begriff: Entwicklung verzögert/verhindert, im Kleinkind- oder Kindesalter, diagnostische Kriterien erfüllt.",
+      "folie": "21"
+    },
+    {
+      "begriff": "Stufenmodelle (Phasen-/Stufenmodelle)",
+      "wortlaut": "Stufenmodelle beschreiben Entwicklung als Abfolge qualitativ unterschiedlicher Stadien, die alle Menschen in derselben Reihenfolge durchlaufen.",
+      "erklaerung": "Grundannahmen: Invarianz, Streuung, (Dis-)Kontinuität, Zielgerichtetheit.",
+      "folie": "31"
+    },
+    {
+      "begriff": "Invarianz bzw. Unidirektionalität",
+      "wortlaut": "Stufen-/Phasenabfolge ist festgelegt, keine Stufe/Phase kann übersprungen werden",
+      "erklaerung": "Feste Reihenfolge.",
+      "folie": "31"
+    },
+    {
+      "begriff": "Fixierung",
+      "wortlaut": "Werden Bedürfnisse zu stark oder zu wenig befriedigt, bleiben Menschen auf früheren Entwicklungsniveaus stehen, und es kann zu sog. Fixierungen kommen. (Infotext; Feldmann, 2025; Lohaus et al., 2024; Neyer & Asendorpf, 2024)",
+      "erklaerung": "Stehenbleiben auf einem früheren Niveau, prägt spätere Verhaltensmuster.",
+      "folie": "36"
+    },
+    {
+      "begriff": "Psychosexuelle Phasen (Freud)",
+      "wortlaut": "Oral (Geburt bis 12–18 Monate) – Anal (12–18 Monate bis 3 Jahre) – Phallisch (3 bis 5–6 Jahre) – Latenz (5–6 Jahre bis zur Pubertät) – Genital (ab Pubertät)",
+      "erklaerung": "Triebenergie richtet sich nacheinander auf verschiedene Körperzonen.",
+      "folie": "36"
+    },
+    {
+      "begriff": "Es, Ich, Über-Ich",
+      "wortlaut": "Unterscheidung von Instanzen der Persönlichkeit in Es (unbewusst), Ich (vermittelt zwischen drei Instanzen) und Über-Ich (Moralprinzip)",
+      "erklaerung": "Trieb – Vermittler – Gewissen.",
+      "folie": "35"
+    },
+    {
+      "begriff": "Psychosoziale Krise (Erikson)",
+      "wortlaut": "in jeder Lebensphase steht der Mensch vor einem psychosozialen Konflikt, den er bewältigen muss; positive Konfliktbewältigung stärkt das Ich; ungelöste Krisen können die spätere Entwicklung beeinträchtigen",
+      "erklaerung": "Normale Herausforderung, keine pathologische Krise (Audio).",
+      "folie": "38"
+    },
+    {
+      "begriff": "Kognitive Perspektive",
+      "wortlaut": "„Prozesse, die Menschen ermöglichen etwas zu erkennen, zu verstehen und über die Welt nachzudenken“ (Feldmann, 2025, S. 41)",
+      "erklaerung": "Entwicklung des Denkens.",
+      "folie": "43"
+    },
+    {
+      "begriff": "Schema",
+      "wortlaut": "die mentalen Strukturen, die Informationen ordnen und erklären (Schemata), die Außenwelt repräsentieren",
+      "erklaerung": "„Schublade im Kopf“.",
+      "folie": "44"
+    },
+    {
+      "begriff": "Adaptation (Anpassung)",
+      "wortlaut": "übergreifender Prozess, mit dem sich das Kind an die Anforderungen der Umwelt anpasst; besteht aus den Grundprozessen Assimilation und Akkommodation",
+      "erklaerung": "Oberbegriff.",
+      "folie": "45"
+    },
+    {
+      "begriff": "Assimilation",
+      "wortlaut": "Eingliederung neuer Erfahrungen in vorhandene Schemata",
+      "erklaerung": "Schema bleibt gleich.",
+      "folie": "45"
+    },
+    {
+      "begriff": "Akkommodation",
+      "wortlaut": "„Modifizierung des bisherigen Schemas, um neue Informationen integrieren zu können“ (Myers & DeWall, 2023, S. 206)",
+      "erklaerung": "Schema wird verändert, nötig bei Diskrepanz/Disäquilibrium.",
+      "folie": "45"
+    },
+    {
+      "begriff": "Disäquilibrium",
+      "wortlaut": "ist die Diskrepanz zwischen eingehenden Informationen und vorhandenen Schemata zu hoch, oder können die Informationen mehreren Schemata zugeordnet werden und es entstehen Widersprüche (sog. Disäquilibrium), so ist eine Anpassung der Schemata notwendig",
+      "erklaerung": "Kognitives Ungleichgewicht.",
+      "folie": "45"
+    },
+    {
+      "begriff": "Äquilibration",
+      "wortlaut": "Aufhebung von Diskrepanzen zwischen Strukturen oder zwischen Strukturen und Umwelt",
+      "erklaerung": "Wiederherstellung des Gleichgewichts.",
+      "folie": "45"
+    },
+    {
+      "begriff": "Objektpermanenz",
+      "wortlaut": "„Objektpermanenz („object permanence“) – Wissen, dass ein Gegenstand weiterhin existiert, auch wenn er gerade nicht wahrgenommen werden kann.“ (Myers & DeWall, 2023, S. 206)",
+      "erklaerung": "Sensomotorische Stufe.",
+      "folie": "48"
+    },
+    {
+      "begriff": "Perspektivenübernahme",
+      "wortlaut": "Fähigkeit, sich in den anderen hineinzuversetzen und seine Gefühle und Erfahrungen nachzuvollziehen. (Infotext)",
+      "erklaerung": "Muss sich in der präoperationalen Stufe erst entwickeln; Drei-Berge-Versuch.",
+      "folie": "49"
+    },
+    {
+      "begriff": "Egozentrismus (Piaget)",
+      "wortlaut": "Die Kinder sind vielmehr egozentrisch und schreiben ihre eigene Perspektive auch der Puppe zu. (Audio zum Drei-Berge-Versuch)",
+      "erklaerung": "Nicht „egoistisch“, sondern: kann die Sicht anderer noch nicht einnehmen.",
+      "folie": "47, 49"
+    },
+    {
+      "begriff": "Mengeninvarianz (Invarianzkonzepte)",
+      "wortlaut": "das Prinzip der Mengenkonstanz (Invarianzkonzepte) (Folie 47); Kinder wissen erst ab ca. sieben Jahren, dass in beiden Gläsern die identische Flüssigkeitsmenge enthalten ist (Audio)",
+      "erklaerung": "Menge bleibt gleich, auch wenn sich die Form ändert; konkret-operational.",
+      "folie": "47, 50"
+    },
+    {
+      "begriff": "Pendelproblem",
+      "wortlaut": "hypothetisches Denken (Pendelproblem) (Folie 47); Jugendliche prüfen ab ca. 12 Jahren jede Variable einzeln und folgern, dass nur die Länge der Schnur einen Einfluss hat (Audio)",
+      "erklaerung": "Formal-operational.",
+      "folie": "47, 51"
+    },
+    {
+      "begriff": "Sozio-kulturelle Entwicklungstheorie (Wygotski)",
+      "wortlaut": "Fokus der Theorie: sozio-kultureller Einfluss auf die kognitive Entwicklung; Grundüberlegung: die Auseinandersetzung des Kindes mit der Umwelt erfolgt im Kontext sozialer Interaktion: Entwicklung als Sozialisation",
+      "erklaerung": "Lernen mit und durch andere.",
+      "folie": "59"
+    },
+    {
+      "begriff": "Selbstinstruktion",
+      "wortlaut": "auf der Grundlage von (beobachteten) Dialogen beginnen Kinder im Vorschulalter mit sich selbst zu sprechen; in der weiteren Entwicklung werden die laut ausgesprochenen Selbstgespräche von inneren Selbstinstruktionen abgelöst, die auch im Erwachsenenalter noch genutzt werden (Infotexte)",
+      "erklaerung": "Sich selbst durch Sprache anleiten.",
+      "folie": "61"
+    },
+    {
+      "begriff": "Stufen der Sprachentwicklung (Wygotski)",
+      "wortlaut": "soziales Sprechen (bis 3. Lebensjahr) – egozentrisches Sprechen (3.–7. Lebensjahr) – inneres Sprechen (ab 7. Lebensjahr)",
+      "erklaerung": "Von außen nach innen.",
+      "folie": "61"
+    },
+    {
+      "begriff": "Zone proximalen Wachstums",
+      "wortlaut": "unter der Anleitung kompetenterer Personen kann ein Kind seine Kompetenzen (weiter-)entwickeln, die es zunehmend auch ohne diese Unterstützung einsetzen kann („Entdeckungslernen unter Anleitung“; Berk, 2020, S. 343)",
+      "erklaerung": "Bereich zwischen „kann ich allein“ und „kann ich mit Hilfe“; auch „Zone der proximalen Entwicklung“ (Folie 63).",
+      "folie": "62"
+    },
+    {
+      "begriff": "Scaffolding (Gerüstbau)",
+      "wortlaut": "das Konzept des Scaffolding (Gerüstbau) bietet Kindern vorübergehend Unterstützung, während sie ein höheres Denkniveau erreichen",
+      "erklaerung": "Hilfe geben und schrittweise zurücknehmen.",
+      "folie": "62"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie definieren Lohaus et al. (2024) Entwicklung?",
+      "antwort": "Entwicklung bezieht sich auf relativ überdauernde und aufeinander bezogene intraindividuelle Veränderungen des Erlebens und Verhaltens über die Zeit hinweg.",
+      "erklaerung": "Definition Folie 7 (Lohaus et al., 2024, S. 4).",
+      "folie": "7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Nach Woolfolk & Usher (2025) sind nicht alle Veränderungen Entwicklungen, sondern nur solche, die [[altersgestaffelt]] in geordneter Reihenfolge auftreten und [[länger]] andauern.",
+      "erklaerung": "Woolfolk & Usher, 2025, S. 90 (Folie 7). Synonym zu „altersgestaffelt“: altersgraduiert.",
+      "folie": "7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu den Bestandteilen des Entwicklungsbegriffs sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Entwicklung ist eine geordnete Veränderung mit einem inneren Zusammenhang.",
+        "Entwicklung bedeutet ausschließlich Zugewinne an Funktionsfähigkeit.",
+        "Längerfristigkeit heißt nicht Unveränderbarkeit – Entwicklung ist formbar (Plastizität).",
+        "Alle Altersbereiche sind für die Entwicklung gleich bedeutsam.",
+        "Entwicklung verläuft starr nach einem festgelegten Plan."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Geordnetheit, Gerichtetheit (Gewinne UND Verluste), Längerfristigkeit (aber Plastizität, laut Audio), Lebensspanne (alle Altersbereiche gleich bedeutsam). Geordnet heißt laut Audio nicht „starr nach festem Plan“.",
+      "folie": "8 + Audio",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was meint „Multidirektionalität“ der Entwicklung?",
+      "antwort": "Dass in der Entwicklung Gewinne und Verluste von Funktionsfähigkeiten und Ressourcen möglich sind und oft nebeneinander auftreten – Entwicklung ist nicht nur „Höherentwicklung“.",
+      "erklaerung": "Laut Audio zu Folie 8 (Gerichtetheit) und Fazit Folie 27.",
+      "folie": "8, 27",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Grundlagen- oder anwendungsorientierte Aufgabe der Entwicklungspsychologie?",
+      "kategorien": [
+        "grundlagenorientiert",
+        "anwendungsorientiert"
+      ],
+      "elemente": [
+        {
+          "text": "Beschreibung von Entwicklungsprozessen",
+          "kategorie": "grundlagenorientiert"
+        },
+        {
+          "text": "Erklärung: Was entwickelt sich wie und warum?",
+          "kategorie": "grundlagenorientiert"
+        },
+        {
+          "text": "Diagnose des aktuellen Entwicklungsstandes",
+          "kategorie": "anwendungsorientiert"
+        },
+        {
+          "text": "Prognose des zukünftigen Entwicklungsstandes",
+          "kategorie": "anwendungsorientiert"
+        },
+        {
+          "text": "Genese von Präventions- und Interventionsmöglichkeiten",
+          "kategorie": "anwendungsorientiert"
+        }
+      ],
+      "erklaerung": "Folie 10: Beschreiben/Erklären = Grundlagen; Diagnose, Prognose, Prävention/Intervention = Anwendung.",
+      "folie": "10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum Gegenstandsbereich der Entwicklungspsychologie sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Sie untersucht intraindividuelle Veränderungen des Erlebens und Verhaltens.",
+        "Sie untersucht auch interindividuelle Unterschiede.",
+        "Die Analyse steht in Bezug zur materiellen und sozialen Umgebung.",
+        "Sie betrachtet nur kurzfristige Reaktionen auf äußere Reize."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 9: intra- und interindividuell, mit Bezug zur Umgebung (z. B. wechselseitige Beeinflussung von Eltern und Kind).",
+      "folie": "9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum gilt die Formel E = f(A) heute als überholt? (mehrere richtig)",
+      "optionen": [
+        "Lebensalter ist keine psychologische Variable, sondern eine physikalische Größe.",
+        "Alter als Ursache der Entwicklung ist ein Irrtum.",
+        "Die Fixierung auf das Alter vernachlässigt interindividuelle Differenzen.",
+        "Alter ist die wichtigste erklärende Variable der Entwicklung."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 11: Alter ist eine deskriptive Variable; aussagekräftiger ist der Entwicklungsstand.",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Entwicklungsbereiche (Dimensionen) nennt die Vorlesung? (mehrere richtig)",
+      "optionen": [
+        "Denken (kognitive Entwicklung)",
+        "Fühlen (emotionale Entwicklung)",
+        "Verhalten/Interaktion (u. a. motorische, motivationale, soziale Entwicklung)",
+        "Biologie (körperliche Entwicklung)",
+        "Vererbung (genetische Entwicklung)"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Folie 12: Entwicklung ist multidimensional – Denken, Fühlen, Verhalten/Interaktion, Biologie.",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Kontinuierlich oder diskontinuierlich?",
+      "kategorien": [
+        "kontinuierlich",
+        "diskontinuierlich"
+      ],
+      "elemente": [
+        {
+          "text": "allmählich und in kleinen Schritten, wie ein Baum wächst",
+          "kategorie": "kontinuierlich"
+        },
+        {
+          "text": "gelegentliche größere Entwicklungsschritte, wie Raupe – Puppe – Schmetterling",
+          "kategorie": "diskontinuierlich"
+        },
+        {
+          "text": "quantitative Veränderungen",
+          "kategorie": "kontinuierlich"
+        },
+        {
+          "text": "qualitative Veränderungen",
+          "kategorie": "diskontinuierlich"
+        },
+        {
+          "text": "körperliches Wachstum (meist)",
+          "kategorie": "kontinuierlich"
+        },
+        {
+          "text": "Entwicklung des Frosches: Ei – Kaulquappe – Frosch",
+          "kategorie": "diskontinuierlich"
+        }
+      ],
+      "erklaerung": "Folie 13–14 (Siegler et al., 2021) und Audio: körperliches Wachstum meist kontinuierlich; Motorik, Denken, Sprache häufig diskontinuierlich.",
+      "folie": "13–14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Modelle der Typologie von Entwicklungstheorien zu.",
+      "kategorien": [
+        "endogenistisch",
+        "exogenistisch",
+        "aktional",
+        "transaktional/systemisch"
+      ],
+      "elemente": [
+        {
+          "text": "Entwicklung folgt vor allem inneren bzw. biologischen Vorgaben (genetischer Plan).",
+          "kategorie": "endogenistisch"
+        },
+        {
+          "text": "Die Umwelt wirkt aktiv auf das eher passive Individuum ein.",
+          "kategorie": "exogenistisch"
+        },
+        {
+          "text": "Der Mensch gestaltet seine Entwicklung selbst mit; die Umwelt ist Rahmen seiner Aktivität.",
+          "kategorie": "aktional"
+        },
+        {
+          "text": "Individuum und Umwelt sind beide aktiv und beeinflussen sich gegenseitig.",
+          "kategorie": "transaktional/systemisch"
+        }
+      ],
+      "erklaerung": "Vierfeldertafel Folie 16: Individuum passiv/aktiv × Umwelt passiv/aktiv.",
+      "folie": "16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum Verhältnis von Anlage und Umwelt entsprechen dem heutigen Stand? (mehrere richtig)",
+      "optionen": [
+        "Gene und Umwelt stehen in einem ständigen Austauschprozess.",
+        "Entwicklung ist entweder angeboren oder erworben.",
+        "Die Entwicklung jeglicher menschlicher Eigenschaften wird sowohl durch Gene als auch durch die Umwelt beeinflusst.",
+        "Entwicklung ist bidirektional: Subjekt und Umwelt wirken gegenseitig aufeinander ein."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Folie 15–16: Das „Entweder-oder“ (endogen vs. exogen) gilt als überholt.",
+      "folie": "15–16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Beschreibungen den Ebenen von Entwicklungsverläufen zu.",
+      "kategorien": [
+        "normative Entwicklung",
+        "individuelle Entwicklung",
+        "Entwicklungsabweichung"
+      ],
+      "elemente": [
+        {
+          "text": "typische Veränderungen, die die Mehrzahl einer Altersgruppe in einem soziokulturellen Kreis zeigt",
+          "kategorie": "normative Entwicklung"
+        },
+        {
+          "text": "Variation im Tempo oder Zeitpunkt",
+          "kategorie": "individuelle Entwicklung"
+        },
+        {
+          "text": "für das Alter unangemessene und untypische Verhaltens- oder Erlebensweisen",
+          "kategorie": "Entwicklungsabweichung"
+        },
+        {
+          "text": "vor allem in der Pädagogischen Psychologie zur Beschreibung verwendet",
+          "kategorie": "Entwicklungsabweichung"
+        }
+      ],
+      "erklaerung": "Folie 19. Die Übergänge sind fließend, keine starren Kategorien.",
+      "folie": "19",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Entwicklungsabweichung und Entwicklungsstörung sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Eine Entwicklungsstörung liegt nur vor, wenn diagnostische Kriterien erfüllt sind.",
+        "„Entwicklungsabweichung“ ist eine klinische Diagnose.",
+        "Entwicklungsstörungen manifestieren sich im Kleinkind- oder Kindesalter.",
+        "Entwicklungsverzögerungen oder -vorsprünge sind von Entwicklungsstörungen abzugrenzen.",
+        "Norm, Variation und Abweichung sind starre Kategorien."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Folie 19–21: Abweichung = pädagogische Beobachtung (keine Diagnose); Störung = klinischer Begriff mit diagnostischen Kriterien; Verzögerung/Vorsprung = zeitlich abweichend, aber grundsätzlich normal (Audio).",
+      "folie": "19–21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was ist das Ziel der Pädagogik im Umgang mit Entwicklungsabweichungen?",
+      "antwort": "Auffälligkeiten wahrnehmen, verstehen und pädagogisch begleiten – nicht bewerten und nicht diagnostizieren („Pädagogisches Interesse gilt dem Verstehen, nicht dem Diagnostizieren!“). In der Praxis ist die Zusammenarbeit mit Fachkräften (Schulpsychologie, Frühförderung usw.) und Eltern zentral.",
+      "erklaerung": "Folie 22.",
+      "folie": "22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Ergebnisse der NEPS-Studie nennt die Vorlesung? (mehrere richtig)",
+      "optionen": [
+        "Große interindividuelle Unterschiede im Kompetenzwachstum, besonders in Lesen und Mathematik.",
+        "Kinder aus bildungsnahen Familien zeigen überdurchschnittliche Kompetenzzuwächse.",
+        "Unterschiede zwischen Schulformen gleichen sich über die Zeit aus.",
+        "Migrationshintergrund und familiäre Ressourcen wirken indirekt über Sprachkompetenz, Motivation und Lerngelegenheiten.",
+        "Entwicklung verläuft linear und einheitlich."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 25–26: Schulform-Unterschiede verstärken sich über die Zeit; Entwicklung ist nicht linear und nicht einheitlich.",
+      "folie": "25–26",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Mit welchem Design arbeitet die NEPS-Studie (Startkohorte 5. Klasse)?",
+      "optionen": [
+        "Querschnittstudie",
+        "Trendstudie",
+        "Längsschnittstudie mit wiederholten Erhebungen (Paneldesign)",
+        "Experiment mit Randomisierung"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Folie 24: Längsschnitt, Paneldesign – dieselben Schüler/innen werden wiederholt befragt (vgl. Sitzung 2: Panelstudie).",
+      "folie": "24",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Kriterien nennt die Vorlesung, um Entwicklungstheorien voneinander abzugrenzen? (mehrere richtig)",
+      "optionen": [
+        "Lebensspanne",
+        "Entwicklungsverlauf (kontinuierlich/diskontinuierlich)",
+        "Einflussfaktoren (Anlage und Umwelt)",
+        "Veränderbarkeit",
+        "Fokus (Individuum oder Interaktion mit der sozialen Umwelt)",
+        "Anzahl der Vertreter"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Folie 30: fünf Kriterien.",
+      "folie": "30",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Grundannahmen gelten für Phasen- und Stufenmodelle? (mehrere richtig)",
+      "optionen": [
+        "Keine Stufe kann übersprungen werden (Invarianz/Unidirektionalität).",
+        "Das Tempo, in dem Stufen erreicht werden, variiert zwischen Individuen.",
+        "Ein Zurückfallen auf eine vorherige Stufe ist jederzeit möglich.",
+        "Innerhalb einer Stufe treten quantitative Veränderungen auf, der Übergang zur nächsten ist qualitativ.",
+        "Alle Personen erreichen zwangsläufig die höchste Stufe."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 31: Invarianz, Streuung, (Dis-)Kontinuität, Zielgerichtetheit (kein Zurückfallen; aber nicht alle erreichen die höchste Stufe).",
+      "folie": "31",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Nenne Grenzen von Phasen- und Stufenmodellen.",
+      "antwort": "Für viele Entwicklungen fehlen allgemeingültige Wertkriterien für einen Reifezustand bzw. die Höherwertigkeit eines Niveaus; Abweichungen, Verluste, kulturelle Anforderungen und Normen, geschlechtstypische Entwicklungen und andere nicht-universelle Merkmale bleiben unberücksichtigt; empirisch verlaufen viele Entwicklungen weniger starr und stärker kontextabhängig. Abweichungen lassen sich aber als Sonderfälle in ein erweitertes Entwicklungsverständnis integrieren.",
+      "erklaerung": "Folie 32.",
+      "folie": "32",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur psychoanalytischen Entwicklungstheorie nach Freud sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Der Mensch wird als Energiesystem verstanden, das durch Triebe gespeist wird.",
+        "Entwicklung ist das Ergebnis der Befriedigung oder Frustration grundlegender Bedürfnisse.",
+        "Frühkindliche Erfahrungen prägen die Persönlichkeit dauerhaft.",
+        "Das Über-Ich ist die unbewusste Triebinstanz.",
+        "Die Theorie beschreibt Entwicklung über die gesamte Lebensspanne in acht Stufen."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 35: Es = unbewusst, Ich = vermittelt, Über-Ich = Moralprinzip. Acht Stufen über die Lebensspanne = Erikson.",
+      "folie": "35",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne Alter und Fokus den psychosexuellen Phasen nach Freud zu.",
+      "kategorien": [
+        "oral",
+        "anal",
+        "phallisch",
+        "Latenz",
+        "genital"
+      ],
+      "elemente": [
+        {
+          "text": "Geburt bis 12–18 Monate; Saugen, Essen, Mund und Beißen",
+          "kategorie": "oral"
+        },
+        {
+          "text": "12–18 Monate bis 3 Jahre; Entleeren/Zurückhalten, Kontrolle, Sauberkeit",
+          "kategorie": "anal"
+        },
+        {
+          "text": "3 bis 5–6 Jahre; Identifikation mit gleichgeschlechtlichen Eltern, Geschlechtsrollen",
+          "kategorie": "phallisch"
+        },
+        {
+          "text": "5–6 Jahre bis Pubertät; soziale Lernprozesse",
+          "kategorie": "Latenz"
+        },
+        {
+          "text": "ab Pubertät; reife sexuelle Beziehungen",
+          "kategorie": "genital"
+        }
+      ],
+      "erklaerung": "Folie 36. Reihenfolge: oral – anal – phallisch – Latenz – genital.",
+      "folie": "36",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f22",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche möglichen Konflikte bei Fixierung gehören zu welcher Phase?",
+      "kategorien": [
+        "oral",
+        "anal",
+        "phallisch",
+        "genital"
+      ],
+      "elemente": [
+        {
+          "text": "übermäßiges Essen, Sprechen, Kaugummi kauen, Rauchen",
+          "kategorie": "oral"
+        },
+        {
+          "text": "Zwanghaftigkeit, Ordnung",
+          "kategorie": "anal"
+        },
+        {
+          "text": "Rivalität, Identitätsunsicherheit",
+          "kategorie": "phallisch"
+        },
+        {
+          "text": "Beziehungsprobleme",
+          "kategorie": "genital"
+        }
+      ],
+      "erklaerung": "Folie 36, letzte Spalte. Für die Latenzphase ist kein Fixierungskonflikt angegeben.",
+      "folie": "36",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f23",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht Freud unter einer Fixierung, und wodurch entsteht sie?",
+      "antwort": "Ein Stehenbleiben auf einem früheren Entwicklungsniveau, das spätere Verhaltensmuster prägt. Sie entsteht, wenn Bedürfnisse in einer Phase zu stark oder zu wenig befriedigt werden (Entwicklung als Balanceakt; bei altersangemessener Befriedigung keine Entwicklungsprobleme).",
+      "erklaerung": "Infotext Folie 36 und Audio.",
+      "folie": "36",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f24",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Verdienst oder Kritik am psychoanalytischen Ansatz von Freud?",
+      "kategorien": [
+        "Verdienst",
+        "Kritik"
+      ],
+      "elemente": [
+        {
+          "text": "Betonung emotionaler und unbewusster Prozesse",
+          "kategorie": "Verdienst"
+        },
+        {
+          "text": "Einfluss frühkindlicher Erfahrungen",
+          "kategorie": "Verdienst"
+        },
+        {
+          "text": "hoher Spekulationsgrad, kaum empirisch überprüfbar",
+          "kategorie": "Kritik"
+        },
+        {
+          "text": "Überbetonung des Sexualtriebes und der (frühen) Kindheit",
+          "kategorie": "Kritik"
+        },
+        {
+          "text": "Impulse für Psychotherapie, Entwicklungs- und Motivationspsychologie",
+          "kategorie": "Verdienst"
+        },
+        {
+          "text": "Theorien beruhen auf klinischer Arbeit mit meist männlichen Erwachsenen",
+          "kategorie": "Kritik"
+        },
+        {
+          "text": "geringe Berücksichtigung kognitiver und sozio-kultureller Faktoren",
+          "kategorie": "Kritik"
+        }
+      ],
+      "erklaerung": "Folie 37. Gesamturteil: konzeptuell und methodisch nicht haltbar, aber heuristisch wertvoll.",
+      "folie": "37",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f25",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Eriksons Theorie der psychosozialen Entwicklung sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Sie ist eine Weiterentwicklung des psychoanalytischen Ansatzes.",
+        "Erikson ist ein Vertreter der Lebensspannenperspektive.",
+        "Positive Konfliktbewältigung stärkt das Ich.",
+        "Die Konflikte gelten als pathologische Krisen.",
+        "Erikson betont vor allem biologische Reifungsprozesse."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 38 und Audio: Die Konflikte sind normale Herausforderungen, keine pathologischen Krisen; Betonung sozialer und kultureller Einflüsse.",
+      "folie": "38 + Audio",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f26",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Beschreibungen den Stufen nach Erikson zu (Kindheit und Jugend).",
+      "kategorien": [
+        "Urvertrauen vs. Misstrauen",
+        "Autonomie vs. Scham/Zweifel",
+        "Initiative vs. Schuldgefühl",
+        "Fleiß vs. Minderwertigkeit",
+        "Identität vs. Rollendiffusion"
+      ],
+      "elemente": [
+        {
+          "text": "Aufbau von Vertrauen durch eine verlässliche Bezugsperson (0–12/18 Monate)",
+          "kategorie": "Urvertrauen vs. Misstrauen"
+        },
+        {
+          "text": "Entwicklung von Selbstkontrolle und Unabhängigkeit (18 Monate–3 J.)",
+          "kategorie": "Autonomie vs. Scham/Zweifel"
+        },
+        {
+          "text": "Erproben eigener Ziele und Handlungen (3–6 J.)",
+          "kategorie": "Initiative vs. Schuldgefühl"
+        },
+        {
+          "text": "Erwerb von Kompetenzen und Leistungsbereitschaft (6–12 J.)",
+          "kategorie": "Fleiß vs. Minderwertigkeit"
+        },
+        {
+          "text": "Entwicklung einer stabilen Identität (12–18 J.)",
+          "kategorie": "Identität vs. Rollendiffusion"
+        }
+      ],
+      "erklaerung": "Folie 39–40.",
+      "folie": "39–40",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f27",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Beschreibungen den Stufen nach Erikson zu (Erwachsenenalter).",
+      "kategorien": [
+        "Intimität vs. Isolation",
+        "Generativität vs. Stagnation",
+        "Ich-Integrität vs. Verzweiflung"
+      ],
+      "elemente": [
+        {
+          "text": "Aufbau enger Bindungen (18–30 J.)",
+          "kategorie": "Intimität vs. Isolation"
+        },
+        {
+          "text": "Engagement für andere und kommende Generationen (30–60 J.)",
+          "kategorie": "Generativität vs. Stagnation"
+        },
+        {
+          "text": "Akzeptanz des eigenen Lebens (ab 60 J.)",
+          "kategorie": "Ich-Integrität vs. Verzweiflung"
+        }
+      ],
+      "erklaerung": "Folie 40. Altersangaben sind nur grobe Orientierung; Themen können später erneut bedeutsam werden.",
+      "folie": "40",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f28",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ein Kind in der 3. Klasse erlebt in Mathe ständig Misserfolge und sagt: „Ich kann das sowieso nicht.“ Welche Stufe nach Erikson ist betroffen?",
+      "optionen": [
+        "Autonomie vs. Scham/Zweifel",
+        "Initiative vs. Schuldgefühl",
+        "Fleiß vs. Minderwertigkeit",
+        "Identität vs. Rollendiffusion"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "6–12 Jahre: Erwerb von Kompetenzen und Leistungsbereitschaft; Misserfolg führt zu Minderwertigkeitsgefühlen (Folie 39).",
+      "folie": "39",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f29",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Verdienst oder Kritik am psychosozialen Ansatz nach Erikson?",
+      "kategorien": [
+        "Verdienst",
+        "Kritik"
+      ],
+      "elemente": [
+        {
+          "text": "Betonung der lebenslangen Entwicklung und sozialer/kultureller Faktoren",
+          "kategorie": "Verdienst"
+        },
+        {
+          "text": "Akzentuierung von Identität, Selbstwirksamkeit und sozialer Beziehung",
+          "kategorie": "Verdienst"
+        },
+        {
+          "text": "männliche Entwicklung im Vordergrund",
+          "kategorie": "Kritik"
+        },
+        {
+          "text": "Konzepte wie „Ich-Integrität“ oder „Generativität“ schwer operationalisierbar",
+          "kategorie": "Kritik"
+        },
+        {
+          "text": "Übergänge zwischen den Stufen oft fließender als angenommen",
+          "kategorie": "Kritik"
+        }
+      ],
+      "erklaerung": "Folie 41. Zusätzlich: Der Begriff „Krise“ suggeriert eine Belastung, die nicht immer gegeben ist (eher Entwicklungsthemen/-aufgaben).",
+      "folie": "41",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f30",
+      "baustein": "vergleich",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Worin unterscheidet sich Erikson von Freud? (mehrere richtig)",
+      "optionen": [
+        "Erikson betrachtet die gesamte Lebensspanne.",
+        "Erikson betont soziale und kulturelle Einflüsse stärker.",
+        "Erikson lehnt jedes Stufenmodell ab.",
+        "Erikson beschreibt acht Stufen über die gesamte Lebensspanne, Freud fünf Phasen, deren letzte (genitale) mit der Pubertät beginnt."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 36, 38–40 und Audio („im Gegensatz zu Freud … lebenslang, acht Stufen“). Beide arbeiten mit Stufen.",
+      "folie": "36, 38–40",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f31",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen entsprechen Piagets zentraler Annahme? (mehrere richtig)",
+      "optionen": [
+        "Kinder konstruieren ihr Wissen selbst, indem sie aktiv auf ihre Umwelt einwirken.",
+        "Wissen ist das Ergebnis von direktem motorischem Verhalten.",
+        "Kinder nehmen Wissen passiv von Erwachsenen auf.",
+        "Die mentalen Strukturen (Schemata) entwickeln sich so, dass eine Anpassung an die Umwelt gewährleistet wird."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 44 (Berk, 2020, S. 23). Piaget gehört zu den aktionalen Vorstellungen – das Kind ist aktiv.",
+      "folie": "44",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f32",
+      "baustein": "definition",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Begriffe aus Piagets Theorie ihren Beschreibungen zu.",
+      "kategorien": [
+        "Assimilation",
+        "Akkommodation",
+        "Adaptation",
+        "Äquilibration",
+        "Disäquilibrium"
+      ],
+      "elemente": [
+        {
+          "text": "Eingliederung neuer Erfahrungen in vorhandene Schemata",
+          "kategorie": "Assimilation"
+        },
+        {
+          "text": "Modifizierung des bisherigen Schemas, um neue Informationen integrieren zu können",
+          "kategorie": "Akkommodation"
+        },
+        {
+          "text": "übergreifender Prozess der Anpassung an die Anforderungen der Umwelt",
+          "kategorie": "Adaptation"
+        },
+        {
+          "text": "Aufhebung von Diskrepanzen zwischen Strukturen oder zwischen Strukturen und Umwelt",
+          "kategorie": "Äquilibration"
+        },
+        {
+          "text": "Widersprüche, weil Informationen nicht passen oder mehreren Schemata zugeordnet werden können",
+          "kategorie": "Disäquilibrium"
+        }
+      ],
+      "erklaerung": "Folie 45.",
+      "folie": "45",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f33",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Akkommodation ist die „[[Modifizierung]] des bisherigen [[Schemas]], um neue Informationen integrieren zu können“ (Myers & DeWall, 2023, S. 206).",
+      "erklaerung": "Folie 45.",
+      "folie": "45",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f34",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Emma und die Orange: Welcher Begriff gehört zu welchem Schritt?",
+      "kategorien": [
+        "Assimilation",
+        "Akkommodation",
+        "Äquilibration"
+      ],
+      "elemente": [
+        {
+          "text": "Emma behandelt die Orange wie einen Ball und wirft sie.",
+          "kategorie": "Assimilation"
+        },
+        {
+          "text": "Emma verändert ihr Schema „Ball“ und bildet ein neues Schema „Orange“.",
+          "kategorie": "Akkommodation"
+        },
+        {
+          "text": "Emma hat „Orange“ verstanden und von „Ball“ unterschieden – das Gleichgewicht ist wiederhergestellt.",
+          "kategorie": "Äquilibration"
+        }
+      ],
+      "erklaerung": "Folie 46 und Audio. Der gesamte Vorgang heißt Adaptation.",
+      "folie": "46",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f35",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Merkmale den Stufen nach Piaget zu.",
+      "kategorien": [
+        "sensomotorisch (0–2)",
+        "präoperational (2–7)",
+        "konkret-operational (7–11)",
+        "formal-operational (ab 11)"
+      ],
+      "elemente": [
+        {
+          "text": "Objektpermanenz; Freude am Effekt, Nachahmung",
+          "kategorie": "sensomotorisch (0–2)"
+        },
+        {
+          "text": "symbolische Repräsentationen, Egozentrismus, Zentrierung",
+          "kategorie": "präoperational (2–7)"
+        },
+        {
+          "text": "Mengenkonstanz (Invarianzkonzepte), Klassifikation",
+          "kategorie": "konkret-operational (7–11)"
+        },
+        {
+          "text": "hypothetisches und abstraktes Denken, logisches Schlussfolgern",
+          "kategorie": "formal-operational (ab 11)"
+        },
+        {
+          "text": "Perspektivenübernahme muss sich erst entwickeln",
+          "kategorie": "präoperational (2–7)"
+        },
+        {
+          "text": "logisches Denken in anschaulichen (konkreten) Kontexten",
+          "kategorie": "konkret-operational (7–11)"
+        }
+      ],
+      "erklaerung": "Tabelle Folie 47.",
+      "folie": "47",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f36",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welcher klassische Versuch prüft welche Fähigkeit?",
+      "kategorien": [
+        "Objektpermanenz",
+        "Perspektivenübernahme",
+        "Mengeninvarianz",
+        "hypothetisch-deduktives Denken"
+      ],
+      "elemente": [
+        {
+          "text": "Ein Spielzeug wird vor den Augen des Babys mit einem Tuch verdeckt.",
+          "kategorie": "Objektpermanenz"
+        },
+        {
+          "text": "Drei-Berge-Versuch: Welches Bild zeigt die Sicht der Puppe?",
+          "kategorie": "Perspektivenübernahme"
+        },
+        {
+          "text": "Umschüttaufgabe: Saft wird in ein höheres, schmaleres Glas gegossen.",
+          "kategorie": "Mengeninvarianz"
+        },
+        {
+          "text": "Pendelproblem: Welche Variable bestimmt die Schwingung?",
+          "kategorie": "hypothetisch-deduktives Denken"
+        }
+      ],
+      "erklaerung": "Folie 48–51 mit Audio.",
+      "folie": "48–51",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f37",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter Objektpermanenz?",
+      "antwort": "Das Wissen, dass ein Gegenstand weiterhin existiert, auch wenn er gerade nicht wahrgenommen werden kann (Myers & DeWall, 2023, S. 206). Das Kind hat eine mentale (kognitive) Repräsentation des Objekts erworben und sucht deshalb gezielt nach verdecktem Spielzeug.",
+      "erklaerung": "Folie 48 und Audio; sensomotorische Stufe.",
+      "folie": "48",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f38",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Was zeigt der Drei-Berge-Versuch laut Vorlesung? (mehrere richtig)",
+      "optionen": [
+        "Kinder zwischen 4 und 6 Jahren schreiben der Puppe häufig ihre eigene Perspektive zu.",
+        "Das Ergebnis wurde später kritisiert: Jüngere Kinder können teilweise schon Perspektiven übernehmen.",
+        "Mit etwa 2 Jahren verstehen Kinder, was ein anderer sehen kann und was nicht (Ebene 1).",
+        "Kinder unter 7 Jahren können grundsätzlich keine Perspektive übernehmen."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Audio zu Folie 49: Ebene 1 ca. 2 Jahre, Ebene 2 nach dem 3.–4. Lebensjahr; die Fähigkeit entwickelt sich deutlich im Übergang von der frühen zur mittleren Kindheit.",
+      "folie": "49 + Audio",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f39",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ein fünfjähriges Kind sagt nach dem Umschütten: „Im hohen Glas ist mehr Saft.“ Was zeigt sich hier? (mehrere richtig)",
+      "optionen": [
+        "Das Kind hat die Mengeninvarianz noch nicht erworben.",
+        "Das Kind achtet nur auf die Höhe, nicht zusätzlich auf die Breite (Zentrierung).",
+        "Das Kind befindet sich vermutlich in der präoperationalen Stufe.",
+        "Das Kind denkt bereits formal-operational."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Laut Audio wissen Kinder erst ab ca. 7 Jahren, dass die Menge gleich bleibt, weil sie dann neben der Höhe auch die Breite beachten.",
+      "folie": "47, 50",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f40",
+      "baustein": "aufgabe",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Wie gehen Jugendliche ab etwa 12 Jahren beim Pendelproblem vor, und was finden sie heraus?",
+      "antwort": "Sie überlegen, welche Variablen (Gewicht, Schnurlänge, Höhe des Loslassens) die Schwingung beeinflussen könnten, prüfen jede Variable einzeln und dann alle gemeinsam und folgern, dass nur die Länge der Schnur die Geschwindigkeit des Pendels beeinflusst. Das zeigt hypothetisches, systematisches Denken (formal-operational).",
+      "erklaerung": "Audio zu Folie 51.",
+      "folie": "51",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f41",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Verdienst oder Kritik an Piagets Theorie?",
+      "kategorien": [
+        "Verdienst",
+        "Kritik"
+      ],
+      "elemente": [
+        {
+          "text": "Betonung der aktiven Rolle des Kindes",
+          "kategorie": "Verdienst"
+        },
+        {
+          "text": "enge Verbindung von Reifen und Lernen",
+          "kategorie": "Verdienst"
+        },
+        {
+          "text": "großer Einfluss auf Forschung und Erziehungsprogramme",
+          "kategorie": "Verdienst"
+        },
+        {
+          "text": "Kompetenzen der Kinder werden eher unterschätzt",
+          "kategorie": "Kritik"
+        },
+        {
+          "text": "Stufenmodell zu starr",
+          "kategorie": "Kritik"
+        },
+        {
+          "text": "Vernachlässigung von sozialem und kulturellem Kontext",
+          "kategorie": "Kritik"
+        }
+      ],
+      "erklaerung": "Folie 52.",
+      "folie": "52",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f42",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Ergebnisse berichtet die Studie von Cerovac & Keane (2024) zu technischen Lernaufgaben? (mehrere richtig)",
+      "optionen": [
+        "Mit steigender Aufgabenkomplexität nehmen die Leistungsunterschiede deutlich zu.",
+        "Jüngere Kinder zeigen eher Versuch-und-Irrtum-Strategien.",
+        "Abstraktes Denken zeigt sich in beiden Altersgruppen gleich.",
+        "Entwicklung verläuft nicht strikt stufenweise, sondern teilweise überlappend.",
+        "Die Studie widerlegt Piagets Annahmen."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 56–57: abstraktes Denken nur in der älteren Gruppe; zentrale Annahmen Piagets werden bestätigt.",
+      "folie": "56–57",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f43",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Wygotskis sozio-kultureller Entwicklungstheorie sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Im Fokus steht der sozio-kulturelle Einfluss auf die kognitive Entwicklung.",
+        "Entwicklung wird als Sozialisation verstanden.",
+        "Motor der Entwicklung sind soziale Interaktionen mit im Lernfeld kompetenteren Personen.",
+        "Die Theorie zählt zu den psychoanalytischen Entwicklungstheorien.",
+        "Selbstgespräche gelten als Zeichen von Egozentrismus."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 59 und Infotext: zählt zu den kognitiven Entwicklungstheorien; Selbstgespräche als Egozentrismus = Piaget.",
+      "folie": "59",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f44",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Funktionen haben Sprache und Selbstgespräche nach Wygotski? (mehrere richtig)",
+      "optionen": [
+        "Sprache ermöglicht die Ausbildung höherer mentaler Funktionen.",
+        "Sprache ist ein kulturell durch Interaktion vermitteltes Werkzeug.",
+        "Selbstgespräche unterstützen Aufmerksamkeit, Behalten, Kategorisieren und Planen.",
+        "Selbstgespräche treten vor allem bei viel zu schweren Aufgaben auf."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 60: Die Funktion zeigt sich vor allem bei angemessenem Schwierigkeitsniveau (weder zu leicht noch zu schwierig).",
+      "folie": "60",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f45",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Stufen der Sprachentwicklung nach Wygotski zu.",
+      "kategorien": [
+        "soziales Sprechen",
+        "egozentrisches Sprechen",
+        "inneres Sprechen"
+      ],
+      "elemente": [
+        {
+          "text": "bis 3. Lebensjahr; Verhalten anderer beeinflussen, einfache Gedanken und Gefühle ausdrücken",
+          "kategorie": "soziales Sprechen"
+        },
+        {
+          "text": "3.–7. Lebensjahr; Selbstinstruktion, oft laut ausgesprochen",
+          "kategorie": "egozentrisches Sprechen"
+        },
+        {
+          "text": "ab 7. Lebensjahr; lautloses Selbstgespräch zum Lenken von Denken und Verhalten",
+          "kategorie": "inneres Sprechen"
+        }
+      ],
+      "erklaerung": "Folie 61.",
+      "folie": "61",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f46",
+      "baustein": "vergleich",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Wie unterscheiden sich Piaget und Wygotski in der Deutung kindlicher Selbstgespräche?",
+      "antwort": "Piaget ordnet die kindlichen Selbstgespräche in den Kontext des Egozentrismus ein (Kind kann die Perspektive anderer noch nicht übernehmen). Für Wygotski sind sie entwicklungsförderlich: Sie dienen der Selbstanleitung (Selbstinstruktion) und helfen dem Kind, seine kognitiven Aktivitäten zu steuern; später werden sie zu innerem Sprechen.",
+      "erklaerung": "Folie 60–61.",
+      "folie": "60–61",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f47",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Nach Wygotski kann ein Kind unter der Anleitung [[kompetenterer]] Personen Kompetenzen entwickeln, die es zunehmend auch [[ohne]] diese Unterstützung einsetzen kann – das ist die Zone [[proximalen]] Wachstums.",
+      "erklaerung": "Folie 62 („Entdeckungslernen unter Anleitung“).",
+      "folie": "62",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f48",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter Scaffolding?",
+      "antwort": "Scaffolding (Gerüstbau) bietet Kindern vorübergehend Unterstützung, während sie ein höheres Denkniveau erreichen; die Hilfe wird nach und nach zurückgenommen. Es beruht auf Wygotskis Konzept der Zone proximalen Wachstums.",
+      "erklaerung": "Folie 62.",
+      "folie": "62",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f49",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Verdienst oder Kritik an Wygotskis Theorie?",
+      "kategorien": [
+        "Verdienst",
+        "Kritik"
+      ],
+      "elemente": [
+        {
+          "text": "hebt den Einfluss sozialer und kultureller Kontexte hervor",
+          "kategorie": "Verdienst"
+        },
+        {
+          "text": "betont gemeinsame Aktivitäten und sprachliche Interaktion für Lernprozesse",
+          "kategorie": "Verdienst"
+        },
+        {
+          "text": "verdeutlicht die unterstützende Rolle von Bezugspersonen",
+          "kategorie": "Verdienst"
+        },
+        {
+          "text": "starke Fokussierung auf Sprache",
+          "kategorie": "Kritik"
+        },
+        {
+          "text": "biologische Faktoren werden weitestgehend ignoriert",
+          "kategorie": "Kritik"
+        },
+        {
+          "text": "vorsprachliche Kategorienbildung bei Säuglingen wird nicht erklärt",
+          "kategorie": "Kritik"
+        }
+      ],
+      "erklaerung": "Folie 63.",
+      "folie": "63",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f50",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Theorie passt? Ordne die Kernaussagen zu.",
+      "kategorien": [
+        "Freud",
+        "Erikson",
+        "Piaget",
+        "Wygotski"
+      ],
+      "elemente": [
+        {
+          "text": "Entwicklung durch innere Konflikte zwischen Trieben, Normen und Realität",
+          "kategorie": "Freud"
+        },
+        {
+          "text": "psychosoziale Krisen über die gesamte Lebensspanne",
+          "kategorie": "Erikson"
+        },
+        {
+          "text": "Kinder konstruieren ihr Wissen selbst durch Assimilation und Akkommodation",
+          "kategorie": "Piaget"
+        },
+        {
+          "text": "Entwicklung als Sozialisation; Motor sind Interaktionen mit kompetenteren Personen",
+          "kategorie": "Wygotski"
+        },
+        {
+          "text": "Fixierung",
+          "kategorie": "Freud"
+        },
+        {
+          "text": "Generativität",
+          "kategorie": "Erikson"
+        },
+        {
+          "text": "Objektpermanenz",
+          "kategorie": "Piaget"
+        },
+        {
+          "text": "Zone proximalen Wachstums",
+          "kategorie": "Wygotski"
+        }
+      ],
+      "erklaerung": "Überblick über die vier Theorien der Blöcke 3.4–3.6.",
+      "folie": "35–62",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f51",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Eine Lehrkraft plant eine Unterrichtseinheit für eine heterogene 4. Klasse. Erläutere mithilfe von Piaget und Wygotski, wie sie die Aufgaben gestalten sollte.",
+      "musterloesung": "Piaget: Grundschulkinder (ca. 7–11 Jahre) sind meist konkret-operational – sie denken logisch, solange es um Anschauliches geht. Aufgaben sollten deshalb mit konkreten Materialien und Beispielen arbeiten; abstrakte, hypothetische Aufgaben überfordern viele. Neue Inhalte sollten an vorhandene Schemata anknüpfen (Assimilation) und gezielt kleine Widersprüche erzeugen, die zur Akkommodation anregen. Weil Entwicklung nicht strikt stufenweise verläuft, sind Aufgaben in Komplexitätsstufen sinnvoll (Cerovac & Keane). Wygotski: Aufgaben sollten in der Zone proximalen Wachstums liegen – nicht zu leicht, nicht zu schwer, mit Hilfe lösbar. Die Lehrkraft gibt vorübergehende Unterstützung (Scaffolding) und nimmt sie schrittweise zurück; kooperatives Lernen mit kompetenteren Mitschüler/innen und lautes Denken/Selbstgespräche werden gefördert. Ziel: Über- und Unterforderung vermeiden, am individuellen Entwicklungsstand anknüpfen.",
+      "bewertungspunkte": [
+        "konkret-operationale Stufe und Folgerung (anschaulich, konkret)",
+        "Assimilation/Akkommodation als Lernanlass",
+        "Zone proximalen Wachstums",
+        "Scaffolding bzw. kooperatives Lernen",
+        "Anpassung an den individuellen Entwicklungsstand (Heterogenität)"
+      ],
+      "punkte": 5,
+      "erklaerung": "Transfer auf Unterricht (Folie 47, 52–57, 62, 64).",
+      "folie": "47, 62, 64",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f52",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ein 15-jähriger Schüler probiert ständig neue Kleidungsstile und Freundeskreise aus und sagt, er wisse nicht, „wer er eigentlich ist“. Ordne das Verhalten mithilfe von Erikson ein und leite pädagogische Folgerungen ab.",
+      "musterloesung": "Nach Erikson befindet sich der Schüler in der Stufe Identität vs. Rollendiffusion (12–18 J.). Die Aufgabe ist die Entwicklung einer stabilen Identität; das Ausprobieren verschiedener Rollen ist dabei normal und notwendig (keine pathologische Krise). Gelingt die Bewältigung, stärkt das das Ich; Unsicherheit kann zu Rollenkonflikten bzw. Rollendiffusion führen. Pädagogisch: Raum zum Ausprobieren geben, nicht vorschnell bewerten, Gespräche über Werte und Ziele anbieten, Erfahrungen von Kompetenz und Zugehörigkeit ermöglichen. Kritisch: Die Altersangaben sind nur grobe Orientierung, und „Krise“ meint eher ein Entwicklungsthema.",
+      "bewertungspunkte": [
+        "Stufe Identität vs. Rollendiffusion benannt",
+        "Rollen ausprobieren als normale Entwicklungsaufgabe",
+        "Folgen gelingender/misslingender Bewältigung",
+        "pädagogische Folgerung",
+        "Hinweis: keine pathologische Krise bzw. grobe Altersangabe"
+      ],
+      "punkte": 5,
+      "erklaerung": "Transfer Erikson (Folie 38–41, Audio).",
+      "folie": "38–41",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Klausur: 30 MC-Fragen, oft als Fallvignette – die Lernfragen sind deshalb überwiegend MC- und Zuordnungsfragen mit Fallbeispielen.",
+    "Die eÜbung (Teilmodul eÜbung, 29.10.) fragt genau diese Inhalte ab: Freud-Phasen, Erikson-Krisen, Piaget-Begriffe und -Stufen, Wygotski.",
+    "Buch Schweer & Schulte-Pelkum (2017), Bd. 1, MC-Fragen mit offizieller Lösung passend zu dieser Sitzung: 2.6–2.8 (Entwicklungsbegriff, Typologie, Verläufe), 2.9–2.20 (Freud), 2.21–2.28 und 2.71 (Erikson), 2.29–2.39 (Piaget) – Datei pyb005_MC-Fragen_Schweer-Schulte-Pelkum_Bd1_LOESUNGEN-offiziell.pdf.",
+    "Altklausur (Studydrive): Piaget Assimilation/Akkommodation (Nr. 24) und präoperationale Stufe (Nr. 20) kamen vor.",
+    "Laut Audio: Eriksons Konflikte sind normale Herausforderungen, keine pathologischen Krisen (3.4).",
+    "Laut Audio: Wygotski – „Der Weg vom Objekt zum Kind und vom Kind zum Objekt verläuft über eine andere Person“; kompetentere Personen sind auch Mitschüler/innen (3.6).",
+    "Synonyme beachten: Fleiß = Werksinn = Tätigkeit; Rollendiffusion = Identitätsdiffusion = Identitätsverwirrung; sensomotorisch = sensumotorisch; präoperational = präoperativ; Zone proximalen Wachstums = Zone der proximalen Entwicklung."
+  ],
+  "offene_fragen": [
+    "Cerovac & Keane: auf den Folien 53–57 mit 2024, im Literaturverzeichnis (Folie 65) mit 2025 angegeben.",
+    "Folie 11 zitiert „Lohaus et al., 2025“, das Literaturverzeichnis nennt nur Lohaus et al. (2024).",
+    "Folien 44, 47, 52, 59–63 zitieren „Berk, 2020“, das Literaturverzeichnis (Folie 65) nennt Berk (2019).",
+    "Folie 62 „Zone proximalen Wachstums“, Folie 63 „Zone der proximalen Entwicklung“ – gleiches Konzept?"
+  ]
+}

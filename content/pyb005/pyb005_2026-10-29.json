@@ -1,0 +1,417 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pyb005",
+  "teilmodul": "pyb005",
+  "datum": "2026-10-29",
+  "sitzung_nr": 3,
+  "sitzung_id": "",
+  "thema": "03 Grundlagen der Entwicklungspsychologie I+II",
+  "thema_in_app": "",
+  "stand": "geprueft",
+  "hinweis": "Der Übungstest der eÜbung (Gruppe B) aus der Stud.IP-Courseware im Originalwortlaut (17 Aufgaben). Die Lösungen sind selbst erarbeitet (mit den VL-Folien S03 und den Lernmodulen 3.1–3.6 geprüft) – der Test war noch nicht abgeschickt, deshalb gibt es noch keine offizielle Auswertung. Ausführliche Erklärungen: VL-Sitzung 28.10.",
+  "quellen": [
+    {
+      "datei": "Stud.IP › eÜbung (Gruppe B) › Courseware › 3. Sitzung › Übungsaufgaben „Grundlagen der Entwicklungspsychologie I+II“",
+      "art": "Übungstest (17 Aufgaben)",
+      "seiten": ""
+    },
+    {
+      "datei": "Stud.IP › eÜbung (Gruppe B) › Courseware › 3. Sitzung › Literatur",
+      "art": "Literaturliste",
+      "seiten": ""
+    }
+  ],
+  "lernziele": [],
+  "kurzfassung": [
+    "Übungstest „3. Sitzung: Grundlagen der Entwicklungspsychologie“ mit 17 Aufgaben: Gegenstand und Begriff der Entwicklung, kontinuierlich/diskontinuierlich, Theorienvielfalt, Freud, Erikson, Piaget, Wygotski (VL-Lernmodule 3.1–3.6).",
+    "Die Aufgaben sind im Klausurstil (Multiple/Single Choice, Zuordnung, Lückentext); Rückfragen im Forum „3. Sitzung“ oder im Meetingraum der eÜbung.",
+    "Literatur der Sitzung laut Courseware: Feldmann (2025), Lohaus/Vierhaus/Lemola (2024), Neyer/Asendorpf (2024), Scheithauer/Niebank (2022), Schweer/Schulte-Pelkum (2017, Bd. 1)."
+  ],
+  "erklaerung": [],
+  "definitionen": [],
+  "aufgaben": [],
+  "fragen": [
+    {
+      "id": "t1a1",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Welche Aussagen beschreiben den Gegenstand der Entwicklungspsychologie am treffendsten? Die Entwicklungspsychologie …",
+      "optionen": [
+        "... beschäftigt sich ausschließlich mit Veränderungen im Kindes- und Jugendalter.",
+        "... bezieht sich ausschließlich auf kognitive Entwicklungen.",
+        "... untersucht kurzfristige, durch äußere Reize ausgelöste Verhaltensänderungen.",
+        "... untersucht insbesondere intraindividuelle Veränderungen des Erlebens und Verhaltens ."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Nur die letzte Aussage stimmt: Gegenstand sind vor allem **intraindividuelle Veränderungen** des Erlebens und Verhaltens (Folie 9), daneben auch interindividuelle Unterschiede. Falsch: „ausschließlich Kindes- und Jugendalter“ – Entwicklung ist lebenslang, alle Altersbereiche sind gleich bedeutsam (Folie 8); „ausschließlich kognitiv“ – Entwicklung ist multidimensional (Denken, Fühlen, Verhalten, Biologie, Folie 12); „kurzfristig“ – Entwicklung ist längerfristig (Folie 7–8). Selbst erarbeitet.",
+      "folie": "Test · A1 · VL Folie 7–9, 12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a2",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum Entwicklungsbegriff sind korrekt?",
+      "optionen": [
+        "Der Entwicklungsbegriff beinhaltet eine gewisse Regelhaftigkeit der Veränderung des Menschen.",
+        "Entwicklung kann auch den Verlust von Funktionsfähigkeit und Ressourcen beinhalten.",
+        "Der Entwicklungsbegriff meint kurzfristige Veränderungen in kritischen Lebenssituationen.",
+        "Entwicklung findet vorrangig im Kleinkindalter statt, demzufolge können andere Altersbereiche vernachlässigt werden."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Richtig: Geordnetheit/**Regelhaftigkeit** der Veränderung und **Gerichtetheit** („Gewinne und Verluste von Funktionsfähigkeiten und Ressourcen sind möglich“) sind Bestandteile des Entwicklungsbegriffs (Folie 8). Falsch: Entwicklung ist **längerfristig**, nicht kurzfristig; sie ist ein **lebenslanger** Prozess, „alle Altersbereiche sind gleich bedeutsam“. Selbst erarbeitet.",
+      "folie": "Test · A2 · VL Folie 8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a3",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen entsprechen der Unterscheidung von kontinuierlicher und diskontinuierlicher Entwicklung?",
+      "optionen": [
+        "Kontinuierliche Entwicklung umfasst allmähliche, quantitative Veränderungen.",
+        "Diskontinuierliche Entwicklung umfasst qualitative Veränderungen.",
+        "Die schrittweise Zunahme der Anzahl bekannter Wörter veranschaulicht kontinuierliche Entwicklung.",
+        "Kontinuierliche Entwicklung bezeichnet ausschließlich Veränderungen im Erwachsenenalter."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Kontinuierlich = allmählich, in kleinen Schritten, **quantitativ** (wie ein Baum, der wächst); diskontinuierlich = größere Entwicklungsschritte, **qualitativ** (Raupe → Puppe → Schmetterling) (Folie 13). Die schrittweise Zunahme des Wortschatzes ist ein „Mehr vom Gleichen“, also quantitativ und kontinuierlich. Mit dem Erwachsenenalter hat die Unterscheidung nichts zu tun. Selbst erarbeitet.",
+      "folie": "Test · A3 · VL Folie 13–14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a4",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wahr oder Falsch? Die Entwicklungspsychologie hat keine allumfassende Theorie, sondern beinhaltet verschiedene theoretische Ansätze, die beispielsweise die biologische, kognitive oder die soziale Entwicklung betrachten.",
+      "optionen": [
+        "wahr",
+        "falsch"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Wahr: „es gibt keine allumfassende Entwicklungstheorie, sondern eine Vielzahl theoretischer Ansätze“; Entwicklung wird „biologisch, kognitiv, sozial oder kontextuell“ betrachtet (Folie 29). Selbst erarbeitet.",
+      "folie": "Test · A4 · VL Folie 29",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a5",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordnen Sie den psychosexuellen Entwicklungsstufen nach Freud die jeweils zutreffenden Charakteristika zu.",
+      "kategorien": [
+        "orale Phase",
+        "anale Phase",
+        "phallische Phase",
+        "Latenzzeit",
+        "genitale Phase"
+      ],
+      "elemente": [
+        {
+          "text": "Ein vierjähriges Kind setzt sich mit Geschlechtsrollen auseinander und identifiziert sich mit dem gleichgeschlechtlichen Elternteil.",
+          "kategorie": "phallische Phase"
+        },
+        {
+          "text": "Bei einem achtjährigen Kind stehen soziale Lernprozesse im Vordergrund; sexuelle Interessen treten in den Hintergrund.",
+          "kategorie": "Latenzzeit"
+        },
+        {
+          "text": "Ein einjähriges Kind beruhigt sich durch Saugen und Kauen.",
+          "kategorie": "orale Phase"
+        },
+        {
+          "text": "Ein zweijähriges Kind beschäftigt sich mit dem Zurückhalten und Ausscheiden von Stuhl und erlebt dabei Kontrolle über Körperfunktionen.",
+          "kategorie": "anale Phase"
+        },
+        {
+          "text": "Mit der Pubertät gewinnen sexuelle Interessen und die Entwicklung partnerschaftlicher sexueller Beziehungen an Bedeutung.",
+          "kategorie": "genitale Phase"
+        }
+      ],
+      "erklaerung": "Zuordnung über Alter und Fokus (Folie 36): oral = Geburt bis 12–18 Monate, Saugen/Essen/Mund; anal = 12–18 Monate bis 3 Jahre, Entleeren/Zurückhalten, Kontrolle; phallisch = 3 bis 5–6 Jahre, Identifikation mit dem gleichgeschlechtlichen Elternteil, Geschlechtsrollen; Latenz = 5–6 Jahre bis Pubertät, soziale Lernprozesse; genital = ab Pubertät, reife sexuelle Beziehungen. Selbst erarbeitet.",
+      "folie": "Test · A5 · VL Folie 36",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a6",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wahr oder falsch? Freud erklärt die Persönlichkeitsentwicklung durch innere Konflikte zwischen Trieben, Normen und Realität.",
+      "optionen": [
+        "wahr",
+        "falsch"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Wahr – fast wörtlich Folie 35: Ziel ist die „Erklärung der Persönlichkeitsentwicklung durch innere Konflikte zwischen Trieben, Normen und Realität“. Selbst erarbeitet.",
+      "folie": "Test · A6 · VL Folie 35",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a7",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Zu den Verdiensten Freuds zählt, dass er auf die Bedeutung frühkindlicher Erfahrungen für die weitere (Persönlichkeits-)Entwicklung aufmerksam gemacht hat.",
+      "optionen": [
+        "wahr",
+        "falsch"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Wahr: Unter „Verdienste“ steht „Einfluss frühkindlicher Erfahrungen“ (Folie 37); in der Grundidee heißt es „frühkindliche Erfahrungen prägen die Persönlichkeit dauerhaft“ (Folie 35). Achtung: Die **Überbetonung** der frühen Kindheit steht zugleich unter „Kritik“. Selbst erarbeitet.",
+      "folie": "Test · A7 · VL Folie 35, 37",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a8",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche psychosoziale Krise nach Erikson wird in dieser Aussage beschrieben: „In dieser Phase haben Kinder nicht nur die Aufgabe, sich erste eigene Ziele zu setzen und diese zu verfolgen, sondern auch die – zumeist von den Eltern – vorgegebenen Regeln und Normen zu internalisieren. Zudem kommt es auf dieser Stufe zum Ausprobieren verschiedener Rollen und zu einer ersten Identifikation.“ (Greve & Thomsen, 2019, S. 46)",
+      "optionen": [
+        "Autonomie vs. Scham und Zweifel",
+        "Initiative vs. Schuldgefühle",
+        "Tätigkeit vs. Minderwertigkeitsgefühle",
+        "Identität vs. Identitätsverwirrung"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Initiative vs. Schuldgefühl (3–6 J.): „Erproben eigener Ziele und Handlungen; zu starke Einschränkung kann Schuldgefühle auslösen“ (Folie 39). Signalwörter: **erste eigene Ziele**, Regeln/Normen verinnerlichen (daraus entstehen Schuldgefühle), Rollen ausprobieren. Autonomie (18 Monate–3 J.) = Selbstkontrolle und Unabhängigkeit; „Tätigkeit“ = Fleiß vs. Minderwertigkeit (6–12 J.); Identität = Jugendalter (12–18 J.). Die Aufgabe ist im Original als Mehrfachauswahl angelegt, es passt aber nur eine Antwort. Selbst erarbeitet.",
+      "folie": "Test · A8 · VL Folie 39",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a9",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Ein 45-jähriger Mensch engagiert sich langfristig für die Förderung jüngerer Menschen. Welches Entwicklungsthema nach Erikson wird dadurch besonders veranschaulicht?",
+      "optionen": [
+        "Urvertrauen vs. Misstrauen",
+        "Initiative vs. Schuldgefühl",
+        "Generativität vs. Stagnation",
+        "Ich-Integrität vs. Verzweiflung"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Generativität vs. Stagnation (30–60 J.): „Engagement für andere und kommende Generationen; Rückzug führt zu Stagnation“ (Folie 40). Alter 45 und „Förderung jüngerer Menschen“ passen genau. Selbst erarbeitet.",
+      "folie": "Test · A9 · VL Folie 40",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a10",
+      "baustein": "aufgabe",
+      "format": "luecke",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "text": "Ziehen Sie die Begriffe in die richtigen Lücken. (Auswahl: Akkommodation · Anpassung · Assimilation · Diskrepanz)\n„Wenn Sachverhalte mithilfe der vorhandenen Schemata eingeordnet werden, so spricht man von einer [[Assimilation]]. Wenn dagegen eine [[Diskrepanz]] zwischen dem einzuordnenden Sachverhalt und den vorhandenen Schemata wahrgenommen wird, ist eine [[Anpassung]] der vorhandenen Schemata notwendig ([[Akkommodation]]).“ (Lohaus & Vierhaus, 2024, S. 29)",
+      "erklaerung": "Assimilation = Neues wird in vorhandene Schemata eingeordnet; Akkommodation = das Schema selbst wird angepasst, weil Neues nicht hineinpasst (Diskrepanz bzw. Disäquilibrium) (Folie 45). Selbst erarbeitet.",
+      "folie": "Test · A10 · VL Folie 45",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a11",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ein dreijähriges Mädchen liebt Sport. Ihre Mutter hat ihr vor Kurzem beigebracht, wie man einen großen Wasserball fängt, nun zeigt ihr Vater dem Mädchen, wie man einen kleinen Tennisball fängt. Zunächst versucht sie, den Tennisball mit ihren Armen zu umgreifen - so, wie sie es mit dem Wasserball gewohnt ist. Allmählich lernt sie, nur ihre Hände einzusetzen. Der Versuch des Mädchens, ihre Schemata zu restrukturieren, illustriert Piagets Konzept der …",
+      "optionen": [
+        "… Invarianz.",
+        "… Objektpermanenz.",
+        "… Assimilation.",
+        "… Akkommodation."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Akkommodation = „Modifizierung des bisherigen Schemas, um neue Informationen integrieren zu können“ (Folie 45). Das Schema „Ball fangen mit den Armen“ wird umgebaut („restrukturieren“). Prüfungsfalle: Der **erste** Versuch, den Tennisball wie den Wasserball zu fangen, wäre Assimilation – gefragt ist aber das Umstrukturieren. Selbst erarbeitet.",
+      "folie": "Test · A11 · VL Folie 45–46",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a12",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welches Verhalten veranschaulicht die sog. symbolische Repräsentation im Sinne der präoperationalen Phase nach Piaget?",
+      "optionen": [
+        "Ein Kind löst abstrakte logische Probleme unabhängig von konkreten Anschauungen.",
+        "Ein Kind versteht sicher, dass die Flüssigkeitsmenge beim Umfüllen unverändert bleibt.",
+        "Ein Kind prüft systematisch verschiedene Hypothesen zum Pendelproblem.",
+        "Ein Kind verwendet einen Holzklotz im Spiel als Telefon."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Symbolische Repräsentation = etwas steht für etwas anderes (Symbol), typisch im Als-ob-Spiel: Der Holzklotz „ist“ ein Telefon (präoperational, Folie 47). Abstraktes Denken und Pendelproblem = formal-operational; Mengenkonstanz beim Umfüllen = konkret-operational. Selbst erarbeitet.",
+      "folie": "Test · A12 · VL Folie 47",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a13",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Die noch nicht erfolgte Entwicklung der Perspektivenübernahme, die Piaget in der präoperationalen Phase der kognitiven Entwicklung für charakteristisch hält, erklärt, weshalb ein Kind womöglich …",
+      "optionen": [
+        "… seiner Großmutter erklärt, sein Teddybär wolle gerne ein Bad nehmen.",
+        "… glaubt, der Regen käme aus Wolkenlöchern.",
+        "… nicht versteht, weshalb sein Vater den roten Ball nicht sieht, der aus Sicht des Kindes unter dem Bett zu erkennen ist.",
+        "… entscheidet, dass es Schokokekse mag, Karamellkekse hingegen nicht."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Perspektivenübernahme = „Fähigkeit, sich in den anderen hineinzuversetzen“ (Infotext Folie 49). Das Kind nimmt an, der Vater sehe dasselbe wie es selbst – wie im Drei-Berge-Versuch (Egozentrismus). Der Teddy, der baden will, ist eine Vermenschlichung von Gegenständen (in der VL nicht behandelt; Ergänzung: „Animismus“); die Wolkenlöcher sind eine naive Erklärung der Natur; die Keks-Vorliebe hat mit Perspektive nichts zu tun. Selbst erarbeitet.",
+      "folie": "Test · A13 · VL Folie 47, 49",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a14",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche kognitiven Meilensteine gehören zu welcher Stufe der kognitiven Entwicklung nach Piaget?",
+      "kategorien": [
+        "sensumotorische Phase",
+        "präoperationale Phase",
+        "konkret-operationale Phase",
+        "formal-operationale Phase"
+      ],
+      "elemente": [
+        {
+          "text": "Wissen, dass verdeckte Gegenstände weiter existieren (Objektpermanenz)",
+          "kategorie": "sensumotorische Phase"
+        },
+        {
+          "text": "Symbolische Repräsentation bei noch eingeschränkter Perspektivenübernahme",
+          "kategorie": "präoperationale Phase"
+        },
+        {
+          "text": "Logisches Denken in konkreten Situationen und Mengenkonstanz (Invarianzkonzepte)",
+          "kategorie": "konkret-operationale Phase"
+        },
+        {
+          "text": "Hypothetisches und abstraktes Denken (bspw. Pendelproblem)",
+          "kategorie": "formal-operationale Phase"
+        }
+      ],
+      "erklaerung": "Genau die Merkmale der Tabelle auf Folie 47: sensomotorisch (0–2 J.) Objektpermanenz · präoperational (2–7 J.) symbolische Repräsentationen, Egozentrismus, Perspektivenübernahme muss sich entwickeln · konkret-operational (7–11 J.) logisch in konkreten Kontexten, Mengenkonstanz · formal-operational (ab 11 J.) hypothetisch, abstrakt, Pendelproblem. Hinweis: Die Aufgabe schreibt „sensumotorisch“, die Folie „sensomotorisch“ – gemeint ist dasselbe. Selbst erarbeitet.",
+      "folie": "Test · A14 · VL Folie 47",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a15",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Ein Kind kann eine Aufgabe noch nicht allein lösen. Mit gezielten Hinweisen einer kompetenteren Person gelingt die Bearbeitung; später benötigt es immer weniger Unterstützung. Welches Konzept wird nach Wygotsky veranschaulicht?",
+      "optionen": [
+        "Fixierung",
+        "Zone proximalen Wachstums",
+        "Objektpermanenz",
+        "Mengenkonstanz"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Zone proximalen Wachstums: „unter der Anleitung kompetenterer Personen kann ein Kind seine Kompetenzen (weiter-)entwickeln, die es zunehmend auch ohne diese Unterstützung einsetzen kann“ (Folie 62). Fixierung = Freud; Objektpermanenz und Mengenkonstanz = Piaget. Selbst erarbeitet.",
+      "folie": "Test · A15 · VL Folie 62",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a16",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Ordnen Sie die Altersstufen den entsprechenden Stufen der Sprachentwicklung nach Wygotski korrekt zu.",
+      "kategorien": [
+        "soziales Sprechen",
+        "egozentrisches Sprechen",
+        "inneres Sprechen"
+      ],
+      "elemente": [
+        {
+          "text": "bis 3. Lebensjahr",
+          "kategorie": "soziales Sprechen"
+        },
+        {
+          "text": "3. bis 7. Lebensjahr",
+          "kategorie": "egozentrisches Sprechen"
+        },
+        {
+          "text": "ab 7. Lebensjahr",
+          "kategorie": "inneres Sprechen"
+        }
+      ],
+      "erklaerung": "Folie 61: soziales Sprechen (bis 3. Lebensjahr) – egozentrisches Sprechen (3.–7. Lebensjahr, Selbstinstruktion, oft laut) – inneres Sprechen (ab 7. Lebensjahr, lautlos). Selbst erarbeitet.",
+      "folie": "Test · A16 · VL Folie 61",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a17",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen im Hinblick auf Sprache und Selbstgespräche entsprechen Wygotskis Annahmen?",
+      "optionen": [
+        "Sprache ist ein Werkzeug, das kulturell durch die Interaktion mit Peers, Eltern oder auch Lehrpersonen vermittelt wird.",
+        "Die Funktion von Selbstgesprächen tritt ausschließlich dann hervor, wenn eine zu bewältigende Aufgabe ein überdurchschnittlich hohes Schwierigkeitsniveau aufweist.",
+        "Sprache ermöglicht die Ausbildung höherer mentaler Funktionen und Prozesse.",
+        "Selbstgespräche können Aufmerksamkeitsprozesse unterstützen."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Richtig (Folie 60): Sprache ermöglicht höhere mentale Funktionen und ist ein kulturell durch Interaktion vermitteltes Werkzeug; Selbstgespräche unterstützen u. a. **Aufmerksamkeit**, Behalten, Kategorisieren, Planen. Falsch: Die Funktion zeigt sich vor allem bei **angemessenem** Schwierigkeitsniveau („weder zu leicht noch zu schwierig“) – nicht „ausschließlich“ bei überdurchschnittlich schweren Aufgaben. Zur ersten Aussage: Folie 60 sagt „durch die Interaktion mit **Erwachsenen** vermittelt“; laut Audio zu Folie 59 zählen zu den kompetenteren Personen aber ausdrücklich auch **Mitschüler/innen** – deshalb als richtig gewertet (⚠ mit der Stud.IP-Auswertung abgleichen). Selbst erarbeitet.",
+      "folie": "Test · A17 · VL Folie 59–60",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Der Test deckt die prüfungsrelevanten Inhalte der VL S03 ab (Freud-Phasen, Erikson-Krisen, Piaget-Stufen und -Begriffe, Wygotski)."
+  ],
+  "offene_fragen": [
+    "t1a17: Zählt „Interaktion mit Peers, Eltern oder auch Lehrpersonen“ als richtig? Folie 60 nennt nur „Erwachsene“, das Audio zu Folie 59 aber auch Mitschüler/innen – nach dem Abschicken des Tests mit der Stud.IP-Auswertung abgleichen.",
+    "t1a8 ist als Mehrfachauswahl angelegt, es passt aber nur „Initiative vs. Schuldgefühle“."
+  ]
+}

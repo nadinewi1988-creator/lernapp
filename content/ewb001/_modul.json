@@ -246,7 +246,6 @@
     "ewb001.1 S02: Lernzielkontrolle 2: Silbentrennungen aus dem Folienlayout (z. B. „Ethikbe-züge“, „pro-fessionellen“) sind in der App zusammengeschrieben; Antwortzeilen sind mit „·“ verbunden.",
     "ewb001.2 S02: Ablaufplan WiSe 2026/27 und Folie 2 der Einheit 02/03 nennen für Termin 3 „Reflexive EW“; die Präsenzfolie 3 und die Folien der Einheit 03 behandeln stattdessen „Phänomenologische Pädagogik“ – Reflexive EW fehlt dort.",
     "ewb001.2 S02: Präsenzfolien 14–41 („Folienspeicher“) wiederholen Einheit 01 und 02 ohne neue Inhalte.",
-    "ewb001.2 S03: Präsenzfolien 27.10.2026 liegen seit 28.10. in ewb001.2/Sitzung_03 – noch einarbeiten (Stand 01.11.2026).",
     "ewb001.2 S04: Ablaufplan WiSe 2026/27 nennt für den 03.11. zusätzlich „Lehren und Lernen“ und „Systemtheorie“; Folie 3 der Einheit 04 (älterer Ablaufplan) und die Folien behandeln beides nicht eigens.",
     "ewb001.2 S04: Folie 9 Tippfehler „Konseqenz“; Folie 12 „Bandura (*1925)“ – Bandura ist 2021 gestorben.",
     "ewb001.2 S04: Folien zitieren Stein 2017, Selbststudium Stein 2024 – Merksatz zur klassischen Konditionierung 2024 anders formuliert („Herstellung neuer Reiz-Reaktions-Verbindungen“)."
@@ -549,6 +548,14 @@
       "art": "Literatur (Zusatztext)",
       "status": "verarbeitet",
       "sitzung": "ewb001.2_2026-11-03"
+    },
+    {
+      "pfad": "ewb001.2/Sitzung_03/03_ewb001.2_Theoretische_Strömungen_der_EW_II_Präsenzsitzung.pdf",
+      "geaendert": "2026-10-28",
+      "art": "Folien Präsenz",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.2_2026-10-27",
+      "hinweis": "zusätzlich eingearbeitet 01.11.2026 (Abschnitt „Präsenzsitzung 27.10.2026 (Folien)“, Aufgaben a01–a04, Fragen p01–p07, eigene PDF …_Ergaenzung-Praesenzfolien.pdf)"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "thema": "Theoretische Strömungen der Erziehungswissenschaft II – Transzendentalphilosophische Pädagogik, Historisch-materialistische Pädagogik, Systemtheoretische EW, Feministische Ansätze, Postmoderne Ansätze, Reflexive EW",
   "thema_in_app": "war schon da",
   "stand": "geprueft",
-  "hinweis": "Courseware-Einheit 03 (Folien + eingesprochenes Video aus einem früheren Semester). Am 27.10.2026 gab es eine Präsenzsitzung zum selben Thema – deren Folien stehen seit 28.10. in Stud.IP und liegen in ewb001.2/Sitzung_03, sind aber noch nicht eingearbeitet. Vorbereitung: Hausaufgabe h01 aus S02 (Courseware-Einheit 03 + Gudjons/Traub S. 42–52). Hausaufgabe h01 dieser Sitzung bereitet S04 (03.11.) vor (Ankündigung 28.10.2026).",
+  "hinweis": "Courseware-Einheit 03 (Folien + eingesprochenes Video aus einem früheren Semester) und – zusätzlich eingearbeitet am 01.11.2026 – die Präsenzsitzung am 27.10.2026 (Folien 2–17: Ziele, ergänzte Übersicht, Fallarbeit „YouTuberin“ und „KI-Lernplattform“; Folien 18–30 wiederholen Einheit 03). Vorbereitung: Hausaufgabe h01 aus S02 (Courseware-Einheit 03 + Gudjons/Traub S. 42–52). Hausaufgabe h01 dieser Sitzung bereitet S04 (03.11.) vor (Ankündigung 28.10.2026).",
   "quellen": [
     {
       "datei": "ewb001.2/02_Präsentationen_Vorlesungen/03_ewb001.2_Theoretische_Strömungen_der_EW_II.pdf",
@@ -24,6 +24,11 @@
       "datei": "ewb001.2/04_Literatur/02_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_2_Richtungen_der_Erziehungswissenschaft.pdf",
       "art": "Selbststudium zur Sitzung (Folie 13; ausgearbeitet in Hausaufgabe h01 aus S02)",
       "seiten": "42–52"
+    },
+    {
+      "datei": "ewb001.2/Sitzung_03/03_ewb001.2_Theoretische_Strömungen_der_EW_II_Präsenzsitzung.pdf",
+      "art": "Folien Präsenzsitzung 27.10.2026 (Stud.IP 28.10.) – zusätzlich eingearbeitet am 01.11.2026",
+      "seiten": "1–30 (neu: 2–17; 18–30 = Folienspeicher)"
     }
   ],
   "lernziele": [
@@ -96,6 +101,47 @@
         "f19"
       ],
       "erklaerung_abschnitt": "Übersicht und Erziehungswissenschaft als Integrationswissenschaft"
+    },
+    {
+      "text": "zentrale theoretische Strömungen des 20./21. Jh. kennenlernen",
+      "art": "vorgegeben",
+      "quelle": "Präsenzfolie 8",
+      "fragen": [
+        "p01",
+        "p02"
+      ],
+      "erklaerung_abschnitt": "Präsenzsitzung 27.10.2026 (Folien)"
+    },
+    {
+      "text": "Unterschiede im Wissenschaftsverständnis erkennen",
+      "art": "vorgegeben",
+      "quelle": "Präsenzfolie 8",
+      "fragen": [
+        "p01",
+        "p03"
+      ],
+      "erklaerung_abschnitt": "Präsenzsitzung 27.10.2026 (Folien)"
+    },
+    {
+      "text": "Theorien auf ein pädagogisches Beispiel anwenden",
+      "art": "vorgegeben",
+      "quelle": "Präsenzfolie 8",
+      "fragen": [
+        "p04",
+        "p05",
+        "p06"
+      ],
+      "erklaerung_abschnitt": "Präsenzsitzung 27.10.2026 (Folien)"
+    },
+    {
+      "text": "Relevanz für heutige Bildungsfragen reflektieren",
+      "art": "vorgegeben",
+      "quelle": "Präsenzfolie 8",
+      "fragen": [
+        "p06",
+        "p07"
+      ],
+      "erklaerung_abschnitt": "Präsenzsitzung 27.10.2026 (Folien)"
     }
   ],
   "kurzfassung": [
@@ -156,6 +202,12 @@
       "text": "**Übersicht (Folien 10–11)** – laut Dozent reicht sie für die Klausur **nicht**; sie dient der Zuordnung:\n\n| Strömung | Kurzformel | knüpft an … |\n| --- | --- | --- |\n| Geisteswissenschaftliche EW | Vorrangigkeit der Praxis, Verstehen durch hermeneutischen Zugang (Auslegen, Interpretation) | – |\n| Empirische EW | Erklärung von objektiv gegebener Erziehungs- und Bildungswirklichkeit (empirische Daten) | – |\n| Kritische EW | Verbindung von empirischer Forschung, sozialphilosophischer Reflexion und gesellschaftskritischer Analyse; Emanzipation; Ideologiekritik, Aktionsforschung | – |\n| Transzendental-kritische EW | Erfassen von Bedingungen pädagogischen Handelns; Reflexion der Prinzipien | *(nicht zugeordnet)* |\n| Historisch-materialistische EW | marxistisch geprägt, Kritik der bürgerlichen Erziehung; Bildung zur Befreiung | Überschneidung mit der kritischen EW (Video) |\n| Phänomenologische Pädagogik | Beschreiben durch unmittelbare Anschauung; Fokus auf die Handlungspraxis | geisteswissenschaftliche EW (Video) |\n| Systemtheoretische EW | Technologiedefizit (keine direkte Einflussnahme auf die Lernenden) | *(nicht zugeordnet)* |\n| Feministische Ansätze | geschlechtsspezifische Benachteiligungen und Differenzen, doing gender | *(nicht zugeordnet)* |\n| Postmoderne Ansätze | Pluralität und Anerkennung des Differenten, reflexive Ansätze | *(nicht zugeordnet)* |\n\n**Erziehungswissenschaft als Integrationswissenschaft (Folie 12, Gudjons & Traub 2016, S. 46 ff.):**\n- starke Öffnung in den letzten 20 Jahren in Richtung auf andere Sozialwissenschaften (Psychologie, Soziologie), aber auch zu Kybernetik und Spieltheorie\n- Theorienpluralismus und Verknüpfung mit Nachbardisziplinen\n- nicht *die* Erziehungswissenschaft, sondern verschiedene erziehungswissenschaftliche Konzepte\n- quantitative Ausweitung und qualitative Ausdifferenzierung\n\n**Selbststudium (Folie 13):** Gudjons & Traub (2016), Kap. 2, S. 42–52 – ausgearbeitet in der Hausaufgabe h01 aus S02 (Vorbereitung dieser Sitzung).\n\n**Kurz erklärt:** Die Übersicht ist ein Zuordnungswerkzeug: Zu jedem neueren Ansatz gehört eine große Ursprungsströmung. Weil die Erziehungswissenschaft so viele Ansätze und Nachbarfächer einbezieht (Psychologie, Soziologie, Philosophie), nennt man sie **Integrationswissenschaft**.\n\n**So erkennst du es in der Klausur:** Die Tabelle allein reicht laut Dozent **nicht** – du musst die Kernideen der Ansätze erklären können.",
       "beispiel": "",
       "folien": "10–15"
+    },
+    {
+      "titel": "Präsenzsitzung 27.10.2026 (Folien)",
+      "folien": "Präsenz 2–17",
+      "beispiel": "",
+      "text": "*Zusätzlich eingearbeitet am 01.11.2026 aus den Folien der Präsenzsitzung vom 27.10.2026, die Prof. Rieckmann am 28.10. in Stud.IP hochgeladen hat. Die Abschnitte oben bleiben unverändert. Die Präsenzfolien 18–30 („Folienspeicher“) wiederholen die Folien 3–12 der Courseware-Einheit 03 wortgleich und werden hier nicht noch einmal aufgeführt.*\n\n### Organisatorisches (Präsenzfolien 2–5)\n- **Anmeldung in QISPOS: bis 31.12.26 (Anmeldefrist)** (Präsenzfolie 2)\n- Präsenzfolie 4 zeigt den Ablaufplan mit Termin 3: Transzendentalphilosophische Pädagogik, Historisch-materialistische Pädagogik, **Phänomenologische Pädagogik**, Systemtheoretische EW, Feministische Ansätze, Postmoderne Ansätze – so wie die Folien der Einheit 03 (ohne eigenen Punkt „Reflexive EW“).\n- Selbststudium zu heute (Präsenzfolie 5): Gudjons & Traub (2016), Kap. 2, S. 42–52 – ausgearbeitet in Hausaufgabe h01 aus S02.\n\n### Ziele der Sitzung (Präsenzfolie 8)\n- zentrale theoretische Strömungen des 20./21. Jh. kennenlernen\n- Unterschiede im Wissenschaftsverständnis erkennen\n- Theorien auf ein pädagogisches Beispiel anwenden\n- Relevanz für heutige Bildungsfragen reflektieren\n\n### Übersicht der theoretischen Strömungen / Schulen (Präsenzfolie 9)\nDie Übersicht entspricht der Tabelle aus Einheit 03 (Folien 10–11), ist aber an mehreren Stellen **ergänzt** (neu gegenüber Einheit 03 **fett**):\n\n| Strömung | Präsenzfolie 9 |\n| --- | --- |\n| Transzendental-kritische EW | **Pädagogik als Vernunftwissenschaft**; Erfassen von Bedingungen pädagogischen Handelns und pädagogischer Aussagen; Reflexion der Prinzipien pädagogischen Handelns; **Erziehung / Bildung folgt aus Prinzipien der Vernunft und Freiheit** |\n| Historisch-materialistische EW | marxistisch geprägt, Kritik der bürgerlichen Erziehung; **Bildung als Produkt gesellschaftlicher Verhältnisse**; Bildung zur Befreiung der Menschen |\n| Phänomenologische Pädagogik | Beschreiben durch unmittelbare Anschauung; Fokus auf die Handlungspraxis in der Pädagogik; **Betonung von Erfahrung, Begegnung, Leiblichkeit und Atmosphäre** |\n| Systemtheoretische EW | **Lernende als selbstreferentielle Systeme**, Technologiedefizit (keine direkte Einflussnahme auf die Lernenden möglich) |\n| Feministische Ansätze in der EW | Betrachtung der geschlechtsspezifischen Benachteiligungen und Differenzen sowie der Konstruktion von Geschlecht (doing gender) in der pädagogischen Praxis; **Kritik an patriarchalen Strukturen** |\n| Postmoderne Ansätze in der EW | Fokus auf Pluralität und Anerkennung des Differenten, **Dekonstruktion von Wahrheit, Identität, und Normalität**, reflexive Ansätze |\n\n### Arbeitsphase: Theorie trifft Fall (Präsenzfolien 10–15)\nJede Gruppe betrachtet dasselbe Szenario aus der Sicht einer Strömung. Die Zusammenfassung des Dozenten (Präsenzfolien 13–15) steht in der Lösung:\n\n{{aufgabe a01}}\n\n{{aufgabe a02}}\n\n### Arbeitsphase: Ein Fall – verschiedene Wahrheiten? (Präsenzfolie 16)\n{{aufgabe a03}}\n\n### Zusammenfassung & Reflexion (Präsenzfolie 17)\n**Zentrale Erkenntnis:**\n- Jede Strömung / Theorie ist eine *Brille*, durch die wir pädagogische Wirklichkeit sehen.\n- Keine erklärt alles – aber zusammen zeigen sie die Vielfalt pädagogischen Denkens.\n\n{{aufgabe a04}}\n\n**Kurz erklärt:** In der Präsenzsitzung ging es weniger um neue Inhalte als um **Anwendung**: Dieselbe Situation sieht je nach Strömung ganz anders aus. Merkhilfe für die sechs Brillen am YouTuberin-Fall: **transzendental-kritisch** fragt nach Mündigkeit und Selbstbestimmung · **historisch-materialistisch** nach Arbeitsmarkt und Kapitalismus · **phänomenologisch** nach dem Erleben der Schülerin · **systemtheoretisch** nach Kommunikation und Technologiedefizit · **feministisch** nach Geschlecht und Macht · **postmodern** danach, wer bestimmt, was „normal“ oder „realistisch“ ist.\n\n**So erkennst du es in der Klausur:** Achte auf die Schlüsselwörter der Präsenzfolie 9 – *Vernunft und Freiheit* (transzendental-kritisch), *gesellschaftliche Verhältnisse* (historisch-materialistisch), *Erfahrung, Begegnung, Leiblichkeit, Atmosphäre* (phänomenologisch), *selbstreferentielle Systeme* (systemtheoretisch), *patriarchale Strukturen* (feministisch), *Dekonstruktion von Wahrheit, Identität und Normalität* (postmodern)."
     }
   ],
   "definitionen": [
@@ -240,6 +292,50 @@
       "fuer_sitzung": "ewb001.2_2026-11-03",
       "kalender_id": "f1229892-e585-4379-b6b6-3fca3515f177",
       "pdf": "/dateien/ewb001/S04_2026-11-03_Hausaufgabe_Vorbereitung_Courseware-Einheit-04_Lernen-I.pdf"
+    },
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "folie": "Präsenz 10",
+      "text": "Arbeitsphase: Theorie trifft Fall\n\nSzenario: Ein Lehrer bittet seine Klasse, über Berufswünsche zu sprechen. Eine Schülerin sagt, sie wolle YouTuberin werden. Der Lehrer lacht und sagt: „Such dir lieber etwas Realistisches aus.“\n\nAufgabe: Diskutieren Sie aus Ihrer theoretischen Perspektive:\n– Wie würde diese theoretische Strömung die Situation verstehen oder bewerten?\n– Welche Chancen oder Gefahren werden sichtbar?\n– Was wäre aus dieser Sicht „gute“ Pädagogik?\n\nNotieren Sie Stichworte. Eine Person pro Gruppe fasst das Ergebnis später kurz zusammen.",
+      "quelle": "Präsenzfolien 10–11; Lösung: Zusammenfassung des Dozenten, Präsenzfolien 13–15",
+      "loesung": "**Transzendentalphilosophische Pädagogik** (Präsenzfolie 13)\n- Fragt nach dem *vernünftigen Zweck* von Erziehung / Bildung: Sie soll das Kind zur Selbstbestimmung und Mündigkeit führen.\n- Der Lehrer beurteilt den Berufswunsch nach seinem Ideal vom „vernünftigen“ oder „sinnvollen“ Lebensweg.\n- Kritik: Der Lehrer folgt einem a priori gesetzten Bildungsbegriff („realistische“ Berufe), anstatt die Autonomie der Schülerin zu fördern.\n- Mögliche Schlussfolgerung: Erziehung / Bildung sollte Freiheit zur Selbstbestimmung ermöglichen, nicht Vorurteile reproduzieren.\n\n**Historisch-materialistische Pädagogik** (Präsenzfolie 13)\n- Betrachtet Bildung als Ausdruck gesellschaftlicher Produktionsverhältnisse.\n- Der Lehrer spiegelt herrschende Arbeitsmarktideologien wider: „realistisch“ heißt „verwertbar im kapitalistischen System“.\n- Der Berufswunsch der Schülerin wird abgewertet, weil er nicht ökonomisch verwertbar erscheint.\n- Interpretation: Erziehung dient hier der Reproduktion bestehender Verhältnisse und Anpassung an das System.\n- Ziel wäre eine Pädagogik, die Befreiung fördert.\n\n**Phänomenologische Pädagogik** (Präsenzfolie 14)\n- Interessiert sich für das *Erleben und die Bedeutung* der Situation aus Sicht der Beteiligten.\n- Wie *erlebt* die Schülerin den Moment? Vielleicht Scham, Missachtung, oder Zweifel.\n- Wie *zeigt sich* pädagogisches Handeln hier? – Als Nicht-Ernstnehmen der individuellen Erfahrung und Lebenswelt.\n- Ziel: Die Lehrkraft müsste sich einfühlend und verstehend der Lebenswelt der Lernenden öffnen, anstatt vorschnell zu bewerten.\n- Pädagogik als Begegnung und Resonanz, nicht als Belehrung.\n\n**Systemtheoretische Erziehungswissenschaft** (Präsenzfolie 14)\n- Lernen ist ein selbstreferenzieller Prozess – Lernende entscheiden selbst, was anschlussfähig ist.\n- Pädagogik leidet unter einem Technologiedefizit: Lehrende können Lernen nicht direkt steuern, nur Kommunikation anbieten.\n- Der Lehrer kommuniziert eine Erwartung („realistischer Beruf“), doch ob die Schülerin darauf reagiert, liegt allein bei ihr.\n- Pädagogik = Kommunikation über Erwartungen, nicht Verhaltenslenkung.\n\n**Feministische Pädagogik** (Präsenzfolie 15)\n- Fragt nach Macht, Geschlecht und gesellschaftlichen Zuschreibungen.\n- Der Lehrer (männlich) lacht über den Berufswunsch einer Schülerin (weiblich) – das kann als Abwertung weiblicher Selbstentwürfe gelesen werden.\n- YouTuberin = Selbstinszenierung, Kreativität, Kommunikation – oft weiblich konnotierte, aber gering geschätzte Tätigkeiten.\n- Pädagogische Aufgabe wäre hier, Ermächtigung und Anerkennung von weiblichen Lebensentwürfen zu fördern.\n\n**Postmoderne Ansätze** (Präsenzfolie 15)\n- Dekonstruieren Wahrheiten und „Normalitäten“.\n- Die Aussage „Such dir etwas Realistisches aus“ zeigt einen Diskurs über Normalität, der bestimmte Lebensentwürfe ausschließt.\n- „Realistisch“ ist hier kein objektives, sondern ein diskursives Machtinstrument: Es definiert, was als „vernünftig“ gilt.\n- Postmoderne Pädagogik würde fragen: Wer bestimmt, was „realistisch“ ist – und wem nützt diese Definition?\n- Ziel: Pluralität von Identitäten und Lebensformen anerkennen.",
+      "loesungsweg": "Für jede Strömung die Kernidee aus Präsenzfolie 9 nehmen und auf das Szenario anwenden: Was sieht diese Brille (Vernunft/Mündigkeit · Produktionsverhältnisse · Erleben · Kommunikation · Geschlecht/Macht · Normalitätsdiskurs), welche Gefahr zeigt sich, was wäre gute Pädagogik?",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "folie": "Präsenz 12",
+      "text": "Präsentation im Plenum – Fragen zum Vergleich:\n• Welche Perspektive sieht Strukturen – welche Individuen?\n• Welche Theorien betonen Macht – welche Kommunikation?",
+      "quelle": "Präsenzfolie 12; Lösung selbst erarbeitet aus Präsenzfolien 9 und 13–15",
+      "loesung": "**Strukturen – Individuen:**\n- Eher **Strukturen** sehen die **historisch-materialistische** Pädagogik (gesellschaftliche Produktionsverhältnisse, Arbeitsmarktideologie), die **feministische** Pädagogik (patriarchale Strukturen, gesellschaftliche Zuschreibungen) und die **postmodernen** Ansätze (Diskurse über Normalität).\n- Eher das **Individuum** sehen die **phänomenologische** Pädagogik (Erleben der Schülerin, Lebenswelt) und die **transzendentalphilosophische** Pädagogik (Selbstbestimmung und Mündigkeit des Kindes). Die **systemtheoretische** EW sieht die Lernende als eigenes, selbstreferentielles System, das selbst entscheidet, was anschlussfähig ist.\n\n**Macht – Kommunikation:**\n- **Macht** betonen die **feministische** Pädagogik („Fragt nach Macht, Geschlecht …“), die **postmodernen** Ansätze („realistisch“ als „diskursives Machtinstrument“) und – über die Herrschaftsverhältnisse – die **historisch-materialistische** Pädagogik.\n- **Kommunikation** betont die **systemtheoretische** EW („Pädagogik = Kommunikation über Erwartungen, nicht Verhaltenslenkung“); die **phänomenologische** Pädagogik betont Begegnung und Resonanz.",
+      "loesungsweg": "Selbst erarbeitete Zuordnung aus den Formulierungen der Präsenzfolien 13–15 (keine Lösung auf den Folien). Manche Strömungen passen in beide Gruppen – im Zweifel mit dem Folienwortlaut begründen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "folie": "Präsenz 16",
+      "text": "Arbeitsphase: Ein Fall – verschiedene Wahrheiten?\n\nSzenario: Eine Schule führt eine KI-gestützte Lernplattform ein. Diese analysiert die Leistungen der Schüler:innen und schlägt individuell passende Aufgaben vor. Die Schulleitung ist begeistert: „Endlich können wir jedes Kind optimal fördern!“ Einige Schüler:innen berichten jedoch, dass sie immer wieder leichte Aufgaben erhalten und kaum die Möglichkeit haben, ihre Fähigkeiten zu zeigen. Eine Schülerin sagt: „Der Computer glaubt offenbar, dass ich nicht mehr kann.“\n\nAufgabe:\n• Wählen Sie zwei theoretische Strömungen aus und vergleichen Sie deren Perspektiven auf die Situation.\n• Welche Aspekte macht die eine Perspektive sichtbar, die andere möglicherweise nicht?\n• Zu welchen unterschiedlichen pädagogischen Konsequenzen könnten die beiden Perspektiven führen?\n• Welche Perspektive finden Sie für die Beurteilung dieses Falls besonders hilfreich – und warum?",
+      "quelle": "Präsenzfolie 16; Lösung selbst erarbeitet (keine Lösung auf den Folien)",
+      "loesung": "*Beispiellösung mit zwei Strömungen – selbst erarbeitet nach Präsenzfolie 9 und dem Muster der Präsenzfolien 13–15.*\n\n**Gewählt: Phänomenologische Pädagogik und postmoderne Ansätze.**\n\n**1. Vergleich der Perspektiven:**\n- **Phänomenologisch:** Interessiert sich für das *Erleben* der Schülerin. Der Satz „Der Computer glaubt offenbar, dass ich nicht mehr kann“ zeigt Frust, Kränkung, vielleicht Zweifel an sich selbst. Die Plattform kennt nur Leistungsdaten, nicht die Lebenswelt und Erfahrung des Kindes.\n- **Postmodern:** Dekonstruiert die „Wahrheit“ der Plattform. Die Daten erscheinen objektiv, legen aber fest, was als „passend“ und „normal“ für ein Kind gilt. Die Frage lautet: Wer bestimmt, welche Aufgaben „passend“ sind – und wem nützt diese Festlegung (z. B. der Schulleitung, die „optimale Förderung“ vorzeigen will)?\n\n**2. Was die eine sichtbar macht, die andere nicht:**\n- Die phänomenologische Brille zeigt das **persönliche Erleben** im Moment – die postmoderne übersieht es eher, weil sie auf Diskurse und Definitionen schaut.\n- Die postmoderne Brille zeigt die **Macht der Definition** („passend“, „optimal“) und dass die Plattform Identitäten festschreibt („die Schwache“) – die phänomenologische fragt eher nicht, wer die Kategorien gemacht hat.\n\n**3. Pädagogische Konsequenzen:**\n- Phänomenologisch: Die Lehrkraft spricht mit der Schülerin, nimmt ihr Erleben ernst, schafft Begegnung und gibt ihr Gelegenheiten, ihre Fähigkeiten zu zeigen – Pädagogik als Begegnung und Resonanz, nicht als Zuweisung durch ein System.\n- Postmodern: Die Schule legt offen, nach welchen Kriterien die Plattform entscheidet, lässt Schüler:innen mitbestimmen (z. B. selbst schwierigere Aufgaben wählen) und hinterfragt das Versprechen „jedes Kind optimal fördern“.\n\n**4. Welche Perspektive ist hilfreicher?** (eigene Begründung nötig) – Beispiel: Die postmoderne Perspektive ist hier besonders hilfreich, weil das Problem nicht nur ein Gefühl einer einzelnen Schülerin ist, sondern im System steckt: Die Plattform erzeugt eine „Wahrheit“ über Kinder, die sie selbst bestätigt (wer nur leichte Aufgaben bekommt, kann nie zeigen, dass er mehr kann).\n\n*Andere Kombinationen sind genauso möglich, z. B. systemtheoretisch (Technologiedefizit: auch eine KI kann Lernen nicht direkt steuern, nur Angebote machen) oder historisch-materialistisch (Bildung als Produkt gesellschaftlicher Verhältnisse: Wer profitiert von der Plattform?).*",
+      "loesungsweg": "Zwei Strömungen wählen, jeweils Kernidee aus Präsenzfolie 9 auf den Fall anwenden, dann die vier Fragen der Folie der Reihe nach beantworten.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "folie": "Präsenz 17",
+      "text": "Reflexion: Welche Perspektive erscheint Ihnen für heutige Bildung am relevantesten – und warum?",
+      "quelle": "Präsenzfolie 17; Lösung selbst erarbeitet (persönliche Stellungnahme)",
+      "loesung": "*Persönliche Stellungnahme – hier ein Beispiel, selbst erarbeitet:*\n\nFür heutige Bildung erscheinen mir die **postmodernen Ansätze bzw. die reflexive Erziehungswissenschaft** besonders relevant. Gesellschaften sind vielfältig (Lebensstile, Familienformen, Herkunft), und Schule muss Pluralität anerkennen statt eine „Normalität“ vorzugeben. Die reflexive EW (Krüger) setzt sich zudem mit globalen Gefährdungslagen auseinander – darauf baut später die Bildung für nachhaltige Entwicklung (BNE) auf.\n\nGenauso gut begründbar: die **systemtheoretische** Perspektive (Technologiedefizit – wichtig für individualisiertes und digitales Lernen) oder die **feministische** Perspektive (Geschlechterstereotype bei Berufswünschen, Fächerwahl). Wichtig ist laut Präsenzfolie 17: Keine Strömung erklärt alles – erst zusammen zeigen sie die Vielfalt pädagogischen Denkens.",
+      "loesungsweg": "Eine Strömung wählen, ihre Kernidee nennen und mit einer heutigen Bildungsfrage begründen; den Gedanken „Theorie als Brille, keine erklärt alles“ aufgreifen.",
+      "frist": "",
+      "im_kalender": false
     }
   ],
   "fragen": [
@@ -659,6 +755,185 @@
       "erklaerung": "Transfer und Verknüpfung (selbst erarbeitet) – Vorgriffe des Dozenten auf konstruktivistische Didaktik und BNE.",
       "folie": "3–12",
       "pruefungsrelevant": true
+    },
+    {
+      "id": "p01",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Ergänzungen der Präsenzfolie 9 der passenden Strömung zu.",
+      "kategorien": [
+        "Transzendental-kritische EW",
+        "Historisch-materialistische EW",
+        "Phänomenologische Pädagogik",
+        "Systemtheoretische EW",
+        "Feministische Ansätze",
+        "Postmoderne Ansätze"
+      ],
+      "elemente": [
+        {
+          "text": "Pädagogik als Vernunftwissenschaft; Erziehung / Bildung folgt aus Prinzipien der Vernunft und Freiheit",
+          "kategorie": "Transzendental-kritische EW"
+        },
+        {
+          "text": "Bildung als Produkt gesellschaftlicher Verhältnisse",
+          "kategorie": "Historisch-materialistische EW"
+        },
+        {
+          "text": "Betonung von Erfahrung, Begegnung, Leiblichkeit und Atmosphäre",
+          "kategorie": "Phänomenologische Pädagogik"
+        },
+        {
+          "text": "Lernende als selbstreferentielle Systeme",
+          "kategorie": "Systemtheoretische EW"
+        },
+        {
+          "text": "Kritik an patriarchalen Strukturen",
+          "kategorie": "Feministische Ansätze"
+        },
+        {
+          "text": "Dekonstruktion von Wahrheit, Identität, und Normalität",
+          "kategorie": "Postmoderne Ansätze"
+        }
+      ],
+      "erklaerung": "Präsenzfolie 9 – die Ergänzungen gegenüber der Übersicht aus Einheit 03 (Folien 10–11).",
+      "folie": "Präsenz 9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "p02",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen stehen so auf der Übersichtsfolie der Präsenzsitzung (Präsenzfolie 9)?",
+      "optionen": [
+        "Transzendental-kritische EW: Pädagogik als Vernunftwissenschaft",
+        "Historisch-materialistische EW: Bildung zur Befreiung der Menschen",
+        "Phänomenologische Pädagogik: Erklärung von objektiv gegebener Erziehungswirklichkeit durch empirische Daten",
+        "Systemtheoretische EW: Technologiedefizit (keine direkte Einflussnahme auf die Lernenden möglich)",
+        "Postmoderne Ansätze: Fokus auf Pluralität und Anerkennung des Differenten"
+      ],
+      "richtig": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "erklaerung": "Präsenzfolie 9. Option 3 ist falsch: Das ist die Kurzformel der empirischen EW (S02); die phänomenologische Pädagogik beschreibt durch unmittelbare Anschauung.",
+      "folie": "Präsenz 9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "p03",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was meint der Dozent mit „Jede Strömung / Theorie ist eine Brille, durch die wir pädagogische Wirklichkeit sehen“?",
+      "antwort": "Jede Strömung lenkt den Blick auf bestimmte Aspekte einer pädagogischen Situation (z. B. Erleben, Macht, Kommunikation, gesellschaftliche Verhältnisse) und blendet andere aus. Keine erklärt alles – aber zusammen zeigen sie die Vielfalt pädagogischen Denkens.",
+      "erklaerung": "Präsenzfolie 17.",
+      "folie": "Präsenz 17",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "p04",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Fall „YouTuberin“: Ein Lehrer lacht über den Berufswunsch einer Schülerin und sagt „Such dir lieber etwas Realistisches aus.“ Ordne die Deutungen der Strömung zu.",
+      "kategorien": [
+        "Transzendentalphilosophische Pädagogik",
+        "Historisch-materialistische Pädagogik",
+        "Phänomenologische Pädagogik",
+        "Systemtheoretische EW",
+        "Feministische Pädagogik",
+        "Postmoderne Ansätze"
+      ],
+      "elemente": [
+        {
+          "text": "Der Lehrer folgt einem a priori gesetzten Bildungsbegriff, anstatt die Autonomie der Schülerin zu fördern.",
+          "kategorie": "Transzendentalphilosophische Pädagogik"
+        },
+        {
+          "text": "„Realistisch“ heißt „verwertbar im kapitalistischen System“.",
+          "kategorie": "Historisch-materialistische Pädagogik"
+        },
+        {
+          "text": "Wie erlebt die Schülerin den Moment? Vielleicht Scham, Missachtung, oder Zweifel.",
+          "kategorie": "Phänomenologische Pädagogik"
+        },
+        {
+          "text": "Der Lehrer kommuniziert eine Erwartung; ob die Schülerin darauf reagiert, liegt allein bei ihr.",
+          "kategorie": "Systemtheoretische EW"
+        },
+        {
+          "text": "Das Lachen kann als Abwertung weiblicher Selbstentwürfe gelesen werden.",
+          "kategorie": "Feministische Pädagogik"
+        },
+        {
+          "text": "„Realistisch“ ist ein diskursives Machtinstrument: Wer bestimmt, was realistisch ist?",
+          "kategorie": "Postmoderne Ansätze"
+        }
+      ],
+      "erklaerung": "Zusammenfassung des Dozenten, Präsenzfolien 13–15.",
+      "folie": "Präsenz 13–15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "p05",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Was wäre laut Präsenzfolien 13–15 im Fall „YouTuberin“ jeweils „gute“ Pädagogik? Welche Zuordnungen stimmen?",
+      "optionen": [
+        "Transzendentalphilosophisch: Erziehung / Bildung sollte Freiheit zur Selbstbestimmung ermöglichen, nicht Vorurteile reproduzieren.",
+        "Historisch-materialistisch: eine Pädagogik, die Befreiung fördert.",
+        "Phänomenologisch: Pädagogik als Begegnung und Resonanz, nicht als Belehrung.",
+        "Systemtheoretisch: Pädagogik = Verhaltenslenkung durch klare Erwartungen.",
+        "Postmodern: Pluralität von Identitäten und Lebensformen anerkennen."
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Präsenzfolien 13–15. Option 4 ist falsch: Laut Folie 14 gilt „Pädagogik = Kommunikation über Erwartungen, nicht Verhaltenslenkung“.",
+      "folie": "Präsenz 13–15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "p06",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Fall „KI-Lernplattform“ (Präsenzfolie 16): Eine Schülerin bekommt immer nur leichte Aufgaben und sagt: „Der Computer glaubt offenbar, dass ich nicht mehr kann.“ Vergleiche die Sicht der systemtheoretischen EW und der feministischen Ansätze.",
+      "musterloesung": "Systemtheoretisch: Lernende sind selbstreferentielle Systeme – auch eine KI kann Lernen nicht direkt steuern, sie macht nur Kommunikationsangebote (Technologiedefizit). Ob die Schülerin die Aufgaben als anschlussfähig erlebt, entscheidet sie selbst; die Plattform „kommuniziert“ eine Erwartung („du kannst nur Leichtes“), auf die die Schülerin mit Frust reagiert. Konsequenz: Angebote öffnen, Wahlmöglichkeiten geben, die Plattform nicht als Steuerung missverstehen. Feministisch: fragt nach Macht und gesellschaftlichen Zuschreibungen – z. B. ob die Plattform Stereotype reproduziert (etwa wenn Mädchen in Mathe systematisch leichtere Aufgaben bekämen) und wer die Kriterien festlegt. Konsequenz: Daten und Kriterien auf Benachteiligung prüfen, Ermächtigung fördern. Sichtbar wird bei der Systemtheorie die Grenze jeder Steuerung, bei den feministischen Ansätzen die Frage nach Gerechtigkeit und Macht.",
+      "bewertungspunkte": [
+        "systemtheoretisch: selbstreferentiell, Technologiedefizit, nur Kommunikationsangebot",
+        "feministisch: Macht, Zuschreibungen/Stereotype, Benachteiligung",
+        "unterschiedliche pädagogische Konsequenzen benannt"
+      ],
+      "punkte": 3,
+      "erklaerung": "Transfer nach Präsenzfolien 9 und 16 (selbst erarbeitet; der Dozent gibt keine Lösung vor).",
+      "folie": "Präsenz 16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "p07",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Zentrale Erkenntnis: Jede Strömung / Theorie ist eine [[Brille]], durch die wir pädagogische Wirklichkeit sehen. Keine erklärt alles – aber zusammen zeigen sie die [[Vielfalt]] pädagogischen Denkens.",
+      "erklaerung": "Präsenzfolie 17.",
+      "folie": "Präsenz 17",
+      "pruefungsrelevant": true
     }
   ],
   "pruefungshinweise": [
@@ -666,15 +941,17 @@
     "Die Zuordnung der kleineren zu den großen Strömungen ist ein guter Prüfungsanker (z. B. phänomenologische Pädagogik als Seitenarm der geisteswissenschaftlichen EW).",
     "Abgrenzung historisch-materialistische vs. kritische EW ist laut Video eine typische Prüfungsfrage.",
     "Namen der Vertreter*innen nicht auswendig lernen, aber den Strömungen zuordnen können (Video).",
-    "Zentrale Schlagworte je Strömung: transzendental-kritisch = Bedingungen/Prinzipien; historisch-materialistisch = Marx, Befreiung; phänomenologisch = Wesensschau, Lebenswelt; systemtheoretisch = Autopoiesis, Codes, Technologiedefizit; feministisch = Benachteiligung, Differenz, doing gender; postmodern = Ende der großen Erzählungen, Pluralität, reflexive EW (Video)."
+    "Zentrale Schlagworte je Strömung: transzendental-kritisch = Bedingungen/Prinzipien; historisch-materialistisch = Marx, Befreiung; phänomenologisch = Wesensschau, Lebenswelt; systemtheoretisch = Autopoiesis, Codes, Technologiedefizit; feministisch = Benachteiligung, Differenz, doing gender; postmodern = Ende der großen Erzählungen, Pluralität, reflexive EW (Video).",
+    "Präsenzsitzung: Die Strömungen auf einen Fall anwenden können – je Strömung: Wie wird die Situation verstanden? Welche Chancen/Gefahren? Was wäre „gute“ Pädagogik? (Präsenzfolien 10–15)"
   ],
   "offene_fragen": [
-    "Präsenzsitzung ewb001.2 am 27.10.2026: Folien noch nicht im Ordner – nachtragen, sobald vorhanden.",
     "Zuordnung der übrigen kleineren Strömungen (transzendental-kritisch, systemtheoretisch, feministisch, postmodern) zu den großen Strömungen: vom Dozenten nicht genannt (siehe Hausaufgabe h01 aus S02)."
   ],
   "auffaelligkeiten": [
     "Ablaufplan (Folie 2, Stud.IP) nennt für S03 die Phänomenologische Pädagogik nicht, auf Folie 6 wird sie aber ausführlich behandelt; dafür nennt der Ablaufplan „Reflexive EW“ separat, die auf Folie 9 Teil der postmodernen Ansätze ist.",
     "Benennung uneinheitlich: Ablaufplan „Transzendentalphilosophische Pädagogik“, Folie 4 „Transzendental-kritische Erziehungswissenschaft“; Folie 7 „Systemtheoretische Pädagogik“, Folie 11 „Systemtheoretische EW“.",
-    "Folie 8: „Zweigeschlechtlichkeit als soziale Konstruktion, „die durch Prozesse der Zuschreibung (doing gender) entstehen““ – Numerus (die Konstruktion … entsteht) im Zitat so übernommen."
+    "Folie 8: „Zweigeschlechtlichkeit als soziale Konstruktion, „die durch Prozesse der Zuschreibung (doing gender) entstehen““ – Numerus (die Konstruktion … entsteht) im Zitat so übernommen.",
+    "Präsenzfolie 4: Der Ablaufplan auf den Präsenzfolien nennt für Termin 3 die Phänomenologische Pädagogik und keine „Reflexive EW“ – passend zu den Folien der Einheit 03, aber abweichend vom Ablaufplan WiSe 2026/27 (Stud.IP).",
+    "Präsenzfolien 13–15 nennen „Transzendentalphilosophische Pädagogik“, „Feministische Pädagogik“ und „Systemtheoretische Erziehungswissenschaft“ – Präsenzfolie 9 „Transzendental-kritische EW“, „Feministische Ansätze in der EW“, „Systemtheoretische EW“ (gleiche Strömungen, andere Namen)."
   ]
 }

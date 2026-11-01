@@ -246,6 +246,272 @@
       "erklaerung": "Die Stichprobe soll ein Miniaturbild der Grundgesamtheit sein – den Begriff vorsichtig verwenden.",
       "quelle": "ewb002.1_2026-10-29 · Folie 14",
       "abweichungen": []
+    },
+    {
+      "begriff": "Stichprobe",
+      "wortlaut": "Bei der Stichprobe (im Englischen sample) handelt es sich um eine Teilmenge der Grundgesamtheit, die vor der Untersuchung nach bestimmten Regeln gewonnen wird (Schnell et al., 2013).",
+      "erklaerung": "Die Gruppe, die man wirklich befragt oder untersucht – ein Ausschnitt aus allen, über die man etwas sagen will. Wichtig: Die Regeln der Auswahl stehen **vorher** fest. (Tachtsoglou/König 2017, S. 259)",
+      "quelle": "ewb002.2_2026-11-03 · Tachtsoglou/König 2017 (Leitfragen-Literatur Folie 3)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Vollerhebung",
+      "wortlaut": "Wenn man in der Lage ist, Daten von allen Einheiten zu erheben, worauf sich die jeweiligen Untersuchungshypothesen beziehen (in diesem Fall spricht man von einer Vollerhebung), dann kann man bereits mit Analyseverfahren der Deskriptivstatistik die Haltbarkeit der jeweiligen Hypothesen überprüfen.",
+      "erklaerung": "Alle Mitglieder der Grundgesamtheit werden untersucht, z. B. eine ganze Schulklasse. Vorteil: kein Auswahlfehler. Nachteil: bei großen Gruppen sehr teuer. (Tachtsoglou/König 2017, S. 259)",
+      "quelle": "ewb002.2_2026-11-03 · Tachtsoglou/König 2017 (Leitfragen-Literatur Folie 3)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Auswahlgesamtheit",
+      "wortlaut": "Während also die Grundgesamtheit alle Einheiten miteinschließt, über die Hypothesen geprüft werden sollten, umfasst die Auswahlgesamtheit alle Einheiten, welche eine Chance haben, in die Stichprobe zu gelangen.",
+      "erklaerung": "Alle, die tatsächlich gezogen werden **können** – z. B. alle auf der Liste, aus der man auswählt. Je besser sie mit der Grundgesamtheit übereinstimmt, desto besser die Stichprobe. (Tachtsoglou/König 2017, S. 261)",
+      "quelle": "ewb002.2_2026-11-03 · Tachtsoglou/König 2017 (Leitfragen-Literatur Folie 3)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Undercoverage / Overcoverage",
+      "wortlaut": "Die Untererfassung wird mit dem englischen Begriff Undercoverage bezeichnet und liegt dann vor, wenn Elemente der Grundgesamtheit nicht in der Auswahlgesamtheit vorhanden sind. Dagegen liegt eine Übererfassung (engl. Overcoverage) vor, wenn Elemente, welche nicht zur Grundgesamtheit gehören, in der Auswahlgesamtheit zu finden sind.",
+      "erklaerung": "Undercoverage = es fehlen Leute, die dazugehören (Studierende, die nie in die Mensa gehen). Overcoverage = es sind Leute dabei, die nicht dazugehören (Mensa-Gäste, die nicht studieren). (Tachtsoglou/König 2017, S. 261)",
+      "quelle": "ewb002.2_2026-11-03 · Tachtsoglou/König 2017 (Leitfragen-Literatur Folie 3)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Einfache Zufallsstichprobe",
+      "wortlaut": "Eine einfache Zufallsstichprobe ist eine Teilmenge aus einer Grundgesamtheit, wenn alle gleich großen Teilmengen, die aus dieser Grundgesamtheit gebildet werden können, gleich wahrscheinlich sind (Bortz, 2005, S. 87).",
+      "erklaerung": "Jedes Element der Grundgesamtheit hat dieselbe Chance, gezogen zu werden – wie bei einem Würfel oder einer Lotterie. Voraussetzung: eine vollständige Liste aller Elemente. (Tachtsoglou/König 2017, S. 262 f.)",
+      "quelle": "ewb002.2_2026-11-03 · Tachtsoglou/König 2017 (Leitfragen-Literatur Folie 3)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Systematische Zufallsstichprobe",
+      "wortlaut": "Dabei werden zuerst alle Elemente der Grundgesamtheit nach einem Kriterium in einer Liste sortiert (z. B. alphabetisch oder zufällig). Daraufhin wird eine Zahl zufällig gezogen. Zum Schluss gelangt jedes Element der Grundgesamtheit, dessen Position in der geordneten Liste mit der gezogenen Zahl übereinstimmt, in die Stichprobe.",
+      "erklaerung": "Startzahl auslosen, dann jedes $k$-te Element nehmen, mit $k = \\frac{N}{n}$ (Größe der Grundgesamtheit geteilt durch Stichprobengröße). Beispiel: $\\frac{1000}{50} = 20$ → jede 20. Person. (Tachtsoglou/König 2017, S. 263 f.)",
+      "quelle": "ewb002.2_2026-11-03 · Tachtsoglou/König 2017 (Leitfragen-Literatur Folie 3)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Geschichtete Zufallsstichprobe",
+      "wortlaut": "Bei der Ziehung einer geschichteten Zufallsstichprobe wird zuerst die Grundgesamtheit in verschiedenen Schichten (häufig auch Strata genannt) eingeteilt. […] Danach wird von jeder Schicht eine Zufallsstichprobe gezogen.",
+      "erklaerung": "Man teilt die Grundgesamtheit nach einem Merkmal in Gruppen (z. B. Bundesländer) und zieht aus **jeder** Gruppe zufällig. Entsprechen die Anteile denen der Grundgesamtheit: proportional, sonst disproportional. (Tachtsoglou/König 2017, S. 264)",
+      "quelle": "ewb002.2_2026-11-03 · Tachtsoglou/König 2017 (Leitfragen-Literatur Folie 3)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Klumpenstichprobe",
+      "wortlaut": "Eine Klumpenstichprobe besteht aus allen Untersuchungsobjekten, die sich in mehreren, zufällig ausgewählten Klumpen befinden (Bortz, 2005, S. 88).",
+      "erklaerung": "Zufällig werden ganze Gruppen (Klumpen, z. B. Schulen oder Klassen) gezogen, und darin werden **alle** untersucht. Ein einzelner Klumpen reicht nicht. Schlechter wird sie, wenn die Klumpen in sich sehr ähnlich und untereinander sehr verschieden sind. (Tachtsoglou/König 2017, S. 265 f.)",
+      "quelle": "ewb002.2_2026-11-03 · Tachtsoglou/König 2017 (Leitfragen-Literatur Folie 3)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Mehrstufige Zufallsstichprobe",
+      "wortlaut": "So wird bei der mehrstufigen Zufallsstichprobe in mehreren Schritten jeweils eine Teilpopulation zufällig ausgewählt.",
+      "erklaerung": "Zufall in mehreren Stufen, z. B. erst zufällig Schulen, dann in diesen Schulen zufällig Schüler∗innen (PISA 2012). (Tachtsoglou/König 2017, S. 266)",
+      "quelle": "ewb002.2_2026-11-03 · Tachtsoglou/König 2017 (Leitfragen-Literatur Folie 3)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Willkürliche Auswahl",
+      "wortlaut": "Willkürliche Auswahlen („Auswahlen aufs Geratewohl“) sind Auswahlen, bei der die Entscheidung über die Aufnahme eines Elementes der Grundgesamtheit in die Stichprobe unkontrolliert durch einen Auswahlplan nur im Ermessen des Auswählenden liegt (Schnell et al., 2013, S. 289).",
+      "erklaerung": "Man nimmt, wen man gerade antrifft – Straßen-, Mensa- oder Campus-Umfrage. Kein Zufall, kein Plan → keine Verallgemeinerung möglich. Auch: ad-hoc- oder Gelegenheitsstichprobe. (Tachtsoglou/König 2017, S. 266 f.)",
+      "quelle": "ewb002.2_2026-11-03 · Tachtsoglou/König 2017 (Leitfragen-Literatur Folie 3)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Bewusste Auswahl",
+      "wortlaut": "Bewusste Auswahlen („Auswahlen nach Gutdünken“) erfolgen zwar nach einem Auswahlplan, die diesem Plan zugrunde liegenden Kriterien sind sogar meist angebbar und überprüfbar, dennoch sind inferenzstatistische Techniken nicht anwendbar (Schnell et al., 2013, S. 290).",
+      "erklaerung": "Ausgewählt wird nach festen Kriterien, aber nicht zufällig. Dazu gehören die Auswahl extremer Fälle, das Schneeball- und das Quota-Verfahren. (Tachtsoglou/König 2017, S. 267)",
+      "quelle": "ewb002.2_2026-11-03 · Tachtsoglou/König 2017 (Leitfragen-Literatur Folie 3)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Quota-Verfahren",
+      "wortlaut": "Das Quota-Verfahren zeichnet sich dadurch aus, dass die Stichprobeziehung nach der Erhaltung von gewissen Quoten orientiert ist, die vom Interviewer eingehalten werden müssen.",
+      "erklaerung": "Vorgabe z. B. „50 % Frauen, 30 % aus Vechta“; innerhalb der Quote wählen die Interviewer selbst aus – deshalb nicht zufällig. (Tachtsoglou/König 2017, S. 267 f.)",
+      "quelle": "ewb002.2_2026-11-03 · Tachtsoglou/König 2017 (Leitfragen-Literatur Folie 3)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Schneeball-Verfahren",
+      "wortlaut": "Bei dem Schneeball-Verfahren werden die Elemente der Stichprobe dadurch gezogen, dass eine zu Beginn ausgewählte Person weitere Personen vorschlägt, welche der zuerst ausgewählten Person in gewisser Hinsicht ähneln.",
+      "erklaerung": "Eine Person empfiehlt die nächste. Gut, um kleine oder schwer erreichbare Gruppen zu finden. (Tachtsoglou/König 2017, S. 267)",
+      "quelle": "ewb002.2_2026-11-03 · Tachtsoglou/König 2017 (Leitfragen-Literatur Folie 3)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Rücklaufquote",
+      "wortlaut": "Die Rücklaufquote (auch Teilnahmequote genannt) gibt an, wie viel Prozent der durch die Stichprobenziehung eingeplanten („gezogenen“) Personen tatsächlich an der Studie teilgenommen haben.",
+      "erklaerung": "Beispiel: 300 gezogen, 240 machen mit → $\\frac{240}{300} = 0{,}8$ = 80 %. Je höher, desto besser; gefährlich sind vor allem systematische Ausfälle. (Tachtsoglou/König 2017, S. 268 f.)",
+      "quelle": "ewb002.2_2026-11-03 · Tachtsoglou/König 2017 (Leitfragen-Literatur Folie 3)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Generalisierbarkeit",
+      "wortlaut": "Die Grundgesamtheit / Generalisierbarkeit der Ergebnisse: Auf welche Personen können die Ergebnisse dieser Umfrage bezogen werden?",
+      "erklaerung": "Auch Verallgemeinerbarkeit: ob und auf welche Gruppe man Ergebnisse über die Befragten hinaus übertragen darf. Das hängt vom Auswahlverfahren ab: nur Zufallsauswahl erlaubt den Schluss auf die Grundgesamtheit.",
+      "quelle": "ewb002.2_2026-11-03 · Folie 7",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Konstrukt",
+      "wortlaut": "Theoretisches Konzept",
+      "erklaerung": "Ein gedanklicher Begriff, den man nicht direkt sehen kann (z. B. Bildung, Motivation, Intelligenz). Um ihn zu erforschen, muss man ihn operationalisieren.",
+      "quelle": "ewb002.1_2026-11-05 · Folie 5 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Operationalisierung",
+      "wortlaut": "“Beobachtbar Machen des Konstrukts”; Konzeptspezifikation; Bildung von Variablen und Definieren der Ausprägungen",
+      "erklaerung": "Man legt fest, woran man ein Konstrukt erkennt (Indikator), welche Variable entsteht und welche Ausprägungen sie haben kann – z. B. Bildung → „höchster Schulabschluss“ mit fünf Kategorien.",
+      "quelle": "ewb002.1_2026-11-05 · Folie 5 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Messung (Stevens)",
+      "wortlaut": "Zuordnung von Zahlen zu Objekten nach bestimmten Regeln (S.S. Stevens, 1951)",
+      "erklaerung": "Die klassische, kurze Definition; die Regeln müssen dafür sorgen, dass die Zahlen die Wirklichkeit treu abbilden.",
+      "quelle": "ewb002.1_2026-11-05 · Folie 24 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Messung (Orth)",
+      "wortlaut": "Messen ist die strukturerhaltende (homomorphe) Abbildung eines empirischen in ein numerisches Relativ (Orth, 1974).",
+      "erklaerung": "Die Zahlenwelt soll dieselbe Struktur haben wie die Wirklichkeit: Wer „mehr“ hat, bekommt eine größere Zahl; Gleiche bekommen dieselbe Zahl.",
+      "quelle": "ewb002.1_2026-11-05 · Folie 14, 24 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Homomorph",
+      "wortlaut": "die empirischen Relationen bleiben erhalten, und mehrere empirische Objekte können in eine Zahl abgebildet werden (many-to-one mapping)",
+      "erklaerung": "Die Beziehungen (größer, gleich) bleiben erhalten, aber nicht jedes Objekt braucht eine eigene Zahl – zwei gleich lange Stöcke bekommen dieselbe Zahl.",
+      "quelle": "ewb002.1_2026-11-05 · Folie 14 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Empirisches Relativ",
+      "wortlaut": "Objekte, Ordnungsrelation, ‘Verknüpfung’: ⟨X, ≿, •⟩",
+      "erklaerung": "Die echte Welt: die Objekte bzw. Ausprägungen zusammen mit den beobachtbaren Beziehungen (z. B. „ist länger als“) und Verknüpfungen (Aneinanderlegen).",
+      "quelle": "ewb002.1_2026-11-05 · Folie 12 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Numerisches Relativ",
+      "wortlaut": "Numerisches Relativ (Repräsentation): Reelle Zahlen, Größer/kleiner-Relation (Ordnung), Addition: ⟨ℝ⁺, ≥, +⟩",
+      "erklaerung": "Die Zahlenwelt, in die gemessen wird: Zahlen mit „größer/kleiner“ und Rechenoperationen wie der Addition.",
+      "quelle": "ewb002.1_2026-11-05 · Folie 12 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Messtheorie",
+      "wortlaut": "Die Messtheorie beschäftigt sich mit Bedingungen unter denen das Messen möglich ist. Diese Bedingungen sind axiomatisch formuliert.",
+      "erklaerung": "Sie klärt, wann man einer Eigenschaft überhaupt sinnvoll Zahlen geben darf und welche Art von Zahlen (Skalenniveau).",
+      "quelle": "ewb002.1_2026-11-05 · Folie 15 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Axiome (Messstruktur)",
+      "wortlaut": "Bedingungen (Eigenschaften des empirischen Relativs) unter denen eine Repräsentation möglich ist. Ein solches Axiomensystem wird manchmal eine Messstruktur genannt.",
+      "erklaerung": "Grundannahmen über die Wirklichkeit, z. B. „wenn A länger als B und B länger als C, dann A länger als C“. Sind sie erfüllt, kann man messen.",
+      "quelle": "ewb002.1_2026-11-05 · Folie 15 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Repräsentationsproblem",
+      "wortlaut": "Ist Messung überhaupt möglich? Lösung: Bestimmen von Bedingungen (=Axiomensystem) für die Existenz einer strukturerhaltenden Abbildung. Der mathematische Beweis dazu ist das sog. Repräsentationstheorem.",
+      "erklaerung": "Erste Frage beim Messen: Gibt es überhaupt eine treue Zahlenzuordnung?",
+      "quelle": "ewb002.1_2026-11-05 · Folie 17 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Eindeutigkeitsproblem",
+      "wortlaut": "Bestimmen der erlaubten Klassen von Transformationen (= zulässigen Transformationen) der strukturerhaltenden Abbildungen",
+      "erklaerung": "Zweite Frage: Welche anderen Zahlenzuordnungen wären genauso richtig? Daraus folgt das Skalenniveau.",
+      "quelle": "ewb002.1_2026-11-05 · Folie 18, 24 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Zulässige Transformationen",
+      "wortlaut": "Die Skala ist eindeutig bis auf die Multiplikation mit einer positiven Konstanten. Das sind die zulässigen Transformationen. (Beispiel Längenmessung)",
+      "erklaerung": "Umrechnungen, nach denen die Zahlen die Wirklichkeit immer noch treu abbilden – z. B. Meter in Zentimeter (· 100) oder °C in °F (1,8 · t + 32).",
+      "quelle": "ewb002.1_2026-11-05 · Folie 18, 20 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Bedeutsamkeitsproblem",
+      "wortlaut": "Eine Aussage ist bedeutsam, wenn ihr Wahrheitswert unter allen zulässigen Transformationen unverändert bleibt",
+      "erklaerung": "Dritte Frage: Welche Aussagen über die Zahlen sagen wirklich etwas über die Welt? Nur solche, die bei jeder erlaubten Umrechnung wahr bleiben. Daraus folgt, welche Statistik angemessen ist.",
+      "quelle": "ewb002.1_2026-11-05 · Folie 19, 20, 24 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Nominalskala",
+      "wortlaut": "Gleichheit (=), Verschiedenheit (≠) – Beispiel Geschlecht",
+      "erklaerung": "Zahlen sind nur Namen. Man darf nur „gleich“ oder „verschieden“ sagen. Kategorial.",
+      "quelle": "ewb002.1_2026-11-05 · Folie 21 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Ordinalskala",
+      "wortlaut": "Zusätzlich: Relation kleiner (<), Relation grösser (>) – Beispiel Selbstwahrnehmung der Gesundheit",
+      "erklaerung": "Rangfolge ist sinnvoll, Abstände nicht. Kategorial.",
+      "quelle": "ewb002.1_2026-11-05 · Folie 21 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Intervallskala",
+      "wortlaut": "Zusätzlich: Vergleich von Differenzen – Beispiel Temperatur in °C",
+      "erklaerung": "Gleich große Abstände, aber willkürlicher Nullpunkt; Differenzen vergleichbar, Verhältnisse nicht. Metrisch.",
+      "quelle": "ewb002.1_2026-11-05 · Folie 21 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Verhältnisskala (Ratioskala)",
+      "wortlaut": "Zusätzlich: Vergleich von Verhältnissen – Beispiel Einkommen: Es gibt einen natürlichen Nullpunkt in dieser Skala",
+      "erklaerung": "Gleiche Abstände und echter Nullpunkt (0 = nichts); „doppelt so viel“ ist sinnvoll. Metrisch.",
+      "quelle": "ewb002.1_2026-11-05 · Folie 18, 21 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kategorial / metrisch",
+      "wortlaut": "Kategorial: Nominal, Ordinal · Metrisch (SPSS: Skala): Intervall, Ratio",
+      "erklaerung": "Oberbegriffe: kategoriale Skalen ordnen in Kategorien, metrische Skalen liefern Maßzahlen mit gleichen Abständen.",
+      "quelle": "ewb002.1_2026-11-05 · Folie 21 (Folien WS 25/26, vorläufig)",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Indikator",
+      "wortlaut": "Ein beobachtbarer Sachverhalt, der ein theoretisches Konzept abbildet, wird Indikator genannt.",
+      "erklaerung": "Das, woran man ein Konstrukt in der Wirklichkeit erkennt – z. B. Bildungsjahre als Indikator für Bildung.",
+      "quelle": "ewb002.1_2026-11-05 · Hausaufgabe h01 · Tausendpfund 2018, S. 108",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Korrespondenzregeln",
+      "wortlaut": "Die Verknüpfung zwischen Konzept und Indikator erfolgt über sogenannte Korrespondenzregeln.",
+      "erklaerung": "Sie legen fest, welcher Indikator zu welchem Konzept gehört; falsche Korrespondenzregeln können zu falschen Schlüssen führen (Büroklammer-Entwirr-Test).",
+      "quelle": "ewb002.1_2026-11-05 · Hausaufgabe h01 · Tausendpfund 2018, S. 108 f.",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Isomorphismus",
+      "wortlaut": "Eine umkehrbare eindeutige Abbildung wird als Isomorphismus bezeichnet.",
+      "erklaerung": "Jede Ausprägung bekommt eine eigene Zahl, man kann von der Zahl eindeutig auf die Ausprägung zurückschließen. Gegenstück: Homomorphismus (mehrere Ausprägungen dieselbe Zahl).",
+      "quelle": "ewb002.1_2026-11-05 · Hausaufgabe h01 · Tausendpfund 2018, S. 115–117",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Absolutskala",
+      "wortlaut": "Eine besondere Variante der Verhältnis- oder Ratioskala ist die Absolutskala. Außer einem natürlichen Nullpunkt gibt es noch eine natürliche Einheit.",
+      "erklaerung": "Zählen von Dingen, z. B. Anzahl der Personen in einem Raum – die Einheit „eine Person“ ist vorgegeben.",
+      "quelle": "ewb002.1_2026-11-05 · Hausaufgabe h01 · Tausendpfund 2018, S. 123",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Pseudometrische Skala",
+      "wortlaut": "Deshalb werden in der empirischen Praxis häufig Skalen ab etwa fünf Ausprägungen als pseudometrische Skalen behandelt.",
+      "erklaerung": "Eine eigentlich ordinale Skala (z. B. Ratingskala 1–5) wird so ausgewertet, als wäre sie intervallskaliert – nur mit Begründung (gleiche Abstände annehmbar).",
+      "quelle": "ewb002.1_2026-11-05 · Hausaufgabe h01 · Tausendpfund 2018, S. 122",
+      "abweichungen": []
     }
   ]
 }

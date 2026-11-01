@@ -45,7 +45,8 @@
       "text": "breites und integriertes Wissen über die Struktur und den Ablauf wissenschaftlicher Untersuchungen",
       "abgedeckt_in": [
         "ewb002.1_2026-10-21",
-        "ewb002.1_2026-10-29"
+        "ewb002.1_2026-10-29",
+        "ewb002.2_2026-11-03"
       ]
     },
     {
@@ -54,7 +55,9 @@
     },
     {
       "text": "breites und integriertes Wissen über qualitative sowie quantitative Datenerhebungsmethoden sowie ihre jeweiligen Vor- und Nachteile",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "ewb002.2_2026-11-03"
+      ]
     },
     {
       "text": "breites und integriertes Wissen über Untersuchungsdesigns zur Evaluation von Effektivität und Kausalität",
@@ -62,7 +65,9 @@
     },
     {
       "text": "breites und integriertes Wissen über statistische Maßzahlen und inferenzstatistische univariate Datenanalyseverfahren",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "ewb002.1_2026-11-05"
+      ]
     },
     {
       "text": "empirische Studien einschlägiger Publikationsorgane selbstständig lesen und erschließen sowie deren Aussagekraft und Methodik kritisch einschätzen",
@@ -72,7 +77,8 @@
       "text": "empirischen Fragestellungen methodische Ansätze zuordnen und empirisch prüfbare Hypothesen formulieren",
       "abgedeckt_in": [
         "ewb002.1_2026-10-21",
-        "ewb002.2_2026-10-27"
+        "ewb002.2_2026-10-27",
+        "ewb002.1_2026-11-05"
       ]
     },
     {
@@ -109,7 +115,9 @@
     "ewb002.2_2026-10-20",
     "ewb002.1_2026-10-21",
     "ewb002.2_2026-10-27",
-    "ewb002.1_2026-10-29"
+    "ewb002.1_2026-10-29",
+    "ewb002.2_2026-11-03",
+    "ewb002.1_2026-11-05"
   ],
   "sitzungsplan": [
     {
@@ -134,7 +142,8 @@
       "teilmodul": "ewb002.2",
       "nr": 4,
       "datum": "2026-11-03",
-      "thema": "Untersuchungsplanung und Auswahlverfahren"
+      "thema": "Untersuchungsplanung und Auswahlverfahren",
+      "hinweis": "vorläufig aus den Folien WS 25/26 aufbereitet (T04 WS 26/27 noch nicht in Stud.IP, Stand 01.11.2026)"
     },
     {
       "teilmodul": "ewb002.2",
@@ -217,6 +226,13 @@
       "datum": "2026-10-29",
       "thema": "Untersuchungsplanung und Auswahlverfahren",
       "hinweis": "live-online (BigBlueButton), Brodowy; Thema laut Titelfolie (Screenshot Nadine, 29.10.2026). Theorien/Hypothesen wurden nicht nachgeholt."
+    },
+    {
+      "teilmodul": "ewb002.1",
+      "nr": 4,
+      "datum": "2026-11-05",
+      "thema": "Messtheorie: Operationalisierung, Messen, Skalenniveaus",
+      "hinweis": "live-online ab 8:15 (Brodowy, Ankündigung Stud.IP 29.10.2026); vorläufig aus den Folien WS 25/26 aufbereitet"
     }
   ],
   "vl_plan_ws2526": {
@@ -316,12 +332,12 @@
     {
       "eintrag": "Häder, M. (2019): Empirische Sozialforschung. Eine Einführung",
       "datei": "Literatur/Haeder_2019_Empirische-Sozialforschung.pdf",
-      "verwendung": "Vorbereitung Seminar S03 (27.10.): S. 43–47"
+      "verwendung": "Vorbereitung Seminar S03 (27.10.): S. 43–47; Vorbereitung Seminar S04 (03.11.): Kap. 4/4.1, S. 73–83"
     },
     {
       "eintrag": "Tausendpfund, M. (2018): Quantitative Methoden in der Politikwissenschaft",
       "datei": "Literatur/Tausendpfund_2018_Quantitative-Methoden-Politikwissenschaft.pdf",
-      "verwendung": "Vorbereitung Seminar S03 (27.10.): S. 10–14, 91–106, 257–258"
+      "verwendung": "Vorbereitung Seminar S03 (27.10.): S. 10–14, 91–106, 257–258; Vorbereitung Seminar S05 (10.11.): Kap. 7, S. 107–124"
     },
     {
       "eintrag": "Raithel, J. (2008): Quantitative Forschung. Ein Praxiskurs, 2. Aufl.",
@@ -332,6 +348,11 @@
       "eintrag": "Diekmann, A. (2008): Empirische Sozialforschung",
       "vorhanden": false,
       "verwendung": "auf Folien zitiert (Seminar S01 Folie 6; VL S02 Folien 8, 14, 17–18, 29) – kein Pflichttext; neuere Auflage 2021 steht in der Liste fehlender Literatur"
+    },
+    {
+      "eintrag": "Tachtsoglou, S./König, J. (2017): Statistik für Erziehungswissenschaftlerinnen und Erziehungswissenschaftler",
+      "datei": "Literatur/Tachtsoglou-Koenig_2017_Statistik-fuer-Erziehungswissenschaftler.pdf",
+      "verwendung": "Vorbereitung Seminar S04 (03.11.): Kap. 10.1–10.5, S. 258–270"
     }
   ],
   "fehlende_literatur": [],
@@ -341,7 +362,9 @@
     "VL S02, Leitfrage 6: „gerichtete und ungerichtete Hypothesen“ stehen in keinem der angegebenen Texte (Häder, Tausendpfund, Raithel) – im Seminar am 27.10. nachfragen",
     "Seminar S02, Folie 12: „Suche Sie“ statt „Suchen Sie“",
     "Seminar S03, Folie 4: „Wies-baden“",
-    "VL S03: Folien 9–10 identisch; „Rahtjen“ (Folien 9, 17); Satz auf Folie 14 bricht ab; Link auf Folie 18 abgeschnitten"
+    "VL S03: Folien 9–10 identisch; „Rahtjen“ (Folien 9, 17); Satz auf Folie 14 bricht ab; Link auf Folie 18 abgeschnitten",
+    "Seminar S04 (WS 25/26-Folien): Folie 12 „5. Arbeitsphase III“ statt „6.“; Folie 8 „standardisierten Fragebogen“ (Fragebögen) – mit T04 WS 26/27 prüfen",
+    "VL S04 (WS 25/26-Folien): „Reflektion“ (F9), „Neandertals“ (F10–12); Geschlecht F17–19/24 dreistufig, F21 nur Mann/Frau; F21 Spalte „Zulässige Transformationen“ enthält Relationen; F24 Stevens 1951 vs. Tausendpfund 1946; F25 „Mittel“ in Zeile Verhältnis statt Intervall, „Significanztests“ – mit Folien WS 26/27 prüfen"
   ],
   "besonderheiten": [
     "Im WS 26/27 fand die Moduleinführung nur in den Seminaren statt (Mail Prof. Zimmer, 13.10.2026); keine eigene VL-Einführung",
@@ -405,12 +428,12 @@
       "hinweis": "Mail Lehrteam: Erkrankung Prof. Zimmer, VL-Änderung, Seminarplätze"
     },
     {
-      "pfad": "ewb002.2/T03_ewb002.2_Theorien_Hypothesen_Variablen.pdf",
+      "pfad": "ewb002.2/Sitzung_03/T03_ewb002.2_Theorien_Hypothesen_Variablen.pdf",
       "geaendert": "2026-10-27",
       "art": "Folien",
       "status": "verarbeitet",
       "sitzung": "ewb002.2_2026-10-27",
-      "hinweis": "WS 25/26 hatte 03_ewb002.2_Theorien_Hypothesen_Variablen.pdf – nicht abgeglichen (Eilbearbeitung im Seminar)"
+      "hinweis": "mit WS 25/26 abgeglichen (01.11.2026): neu sind Folie 2 (Fragebogen-Forschungsbeispiel Wübbelmann), Literaturangaben auf Folie 4 und Aufgabe 2 (Studienerfolg statt „je zwei Beispiele zu vier Punkten“); alles andere wortgleich – Sitzungsdatei beruht schon auf der Fassung WS 26/27"
     },
     {
       "pfad": "ewb002.1/03_ewb002vor_Untersuchungsplanung_wise_26_27.pdf",
@@ -427,6 +450,22 @@
       "status": "verarbeitet",
       "sitzung": "ewb002.1_2026-10-29",
       "hinweis": "transkribiert (88 Min.), Transkript in ewb002.1/Claude outputs/Transkripte_roh/"
+    },
+    {
+      "pfad": "../ewb002 - WS 25:26/2. ewb002.2/Seminar_ewb002/04_ewb002.2_Untersuchungsplanung_und_Auswahlverfahren.pdf",
+      "geaendert": "2025-11-10",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "ewb002.2_2026-11-03",
+      "hinweis": "Folien WS 25/26 – vorläufig, bis T04 WS 26/27 in Stud.IP ist (01.11.2026)"
+    },
+    {
+      "pfad": "../ewb002 - WS 25:26/1. ewb002.1/Vorlesung_ewb002/04_ewb002vor_Op_Mess_Skalenniveaus_wise25_26.pdf",
+      "geaendert": "2025-11-11",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "ewb002.1_2026-11-05",
+      "hinweis": "Folien WS 25/26 – vorläufig, bis die VL-Folien 04 WS 26/27 in Stud.IP sind (01.11.2026); dazu Tutorium-Aufgabenblatt 2 und Klausur-Aufgabe 8 WS 25/26 als Übungen"
     }
   ],
   "hausaufgaben": [
@@ -453,6 +492,15 @@
       "fuer_sitzung": "ewb002.2_2026-11-03",
       "kalender_id": "92507189-be11-46e5-8211-283c6ee0c294",
       "pdf": "/dateien/ewb002/S04_2026-11-03_Hausaufgabe_Textvorbereitung_Haeder-Tachtsoglou-Koenig_Leitfragen.pdf"
+    },
+    {
+      "id": "h01",
+      "titel": "Textvorbereitung S05: Tausendpfund (2018), Kap. 7 – 3 Leitfragen",
+      "gestellt_in": "ewb002.1_2026-11-05",
+      "fuer_sitzung": "ewb002.2_2026-11-10",
+      "kalender_id": "c4b2272c-33ba-482e-8b4a-c977c8b9b8cf",
+      "pdf": "/dateien/ewb002/S05_2026-11-10_Hausaufgabe_Textvorbereitung_Tausendpfund-Kap7_Leitfragen.pdf",
+      "hinweis": "vorläufig nach Folien WS 25/26"
     }
   ],
   "vl_plan_ws2627": {

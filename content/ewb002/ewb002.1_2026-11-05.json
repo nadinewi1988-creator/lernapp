@@ -1,0 +1,1161 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb002",
+  "teilmodul": "ewb002.1",
+  "datum": "2026-11-05",
+  "sitzung_nr": 4,
+  "sitzung_id": "",
+  "thema": "Messtheorie: Operationalisierung, Messen, Skalenniveaus",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Vorläufig aufbereitet aus den Folien des WS 25/26 (04_ewb002vor_Op_Mess_Skalenniveaus_wise25_26.pdf), weil die Folien für WS 26/27 noch nicht in Stud.IP sind (Stand 01.11.2026). Die VL-Folien 02 und 03 waren im WS 26/27 bis auf Kleinigkeiten identisch – nach Upload abgleichen. Live-online-Vorlesung (Vertretung Brodowy), ab 05.11.2026 Beginn 8:15 Uhr.",
+  "quellen": [
+    {
+      "datei": "ewb002 - WS 25:26/1. ewb002.1/Vorlesung_ewb002/04_ewb002vor_Op_Mess_Skalenniveaus_wise25_26.pdf",
+      "art": "Folien WS 25/26 (vorläufig – WS-26/27-Folien noch nicht in Stud.IP, Stand 01.11.2026)",
+      "seiten": "1–32"
+    },
+    {
+      "datei": "ewb002 - WS 25:26/3. ewb002 Tutorium/Tutorium__Tutorium_zu_ewb002_Gruppe_H-2/ewb002._Tutorium_Aufgabenblatt_2.pdf",
+      "art": "Übungsaufgaben Tutorium WS 25/26",
+      "seiten": "Aufgaben 1–5"
+    },
+    {
+      "datei": "ewb002 - WS 25:26/3. ewb002 Tutorium/Ewb002 Klausur.docx",
+      "art": "Gedächtnisprotokoll Klausur WS 25/26",
+      "seiten": "Aufgabe 8"
+    },
+    {
+      "datei": "Literatur/Tausendpfund_2018_Quantitative-Methoden-Politikwissenschaft.pdf",
+      "art": "Literaturempfehlung (Hausaufgabe h01)",
+      "seiten": "107–137"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Du kannst erklären, was ein Konstrukt ist und was Operationalisierung bedeutet, und Variablen selbst operationalisieren (Indikator, Ausprägungen, Skalenniveau).",
+      "art": "abgeleitet",
+      "quelle": "Folien 2, 4–7",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03",
+        "f04",
+        "f05",
+        "f06",
+        "f27",
+        "f28",
+        "f33"
+      ],
+      "erklaerung_abschnitt": "Operationalisieren: vom Konstrukt zur Variablen"
+    },
+    {
+      "text": "Du kannst erklären, was Messen heißt: strukturerhaltende (homomorphe) Abbildung eines empirischen in ein numerisches Relativ.",
+      "art": "abgeleitet",
+      "quelle": "Folien 8–15, 24",
+      "fragen": [
+        "f07",
+        "f08",
+        "f09",
+        "f10",
+        "f11",
+        "f12",
+        "f13",
+        "f30"
+      ],
+      "erklaerung_abschnitt": "Empirisches und numerisches Relativ"
+    },
+    {
+      "text": "Du kannst die drei Probleme des Messens (Repräsentation, Eindeutigkeit, Bedeutsamkeit) nennen, erklären und prüfen, ob eine Aussage empirisch bedeutsam ist.",
+      "art": "abgeleitet",
+      "quelle": "Folien 16–20, 24",
+      "fragen": [
+        "f14",
+        "f15",
+        "f16",
+        "f17",
+        "f29",
+        "f34"
+      ],
+      "erklaerung_abschnitt": "Drei Probleme des Messens"
+    },
+    {
+      "text": "Du kannst die vier Skalenniveaus unterscheiden und für eine Variable das höchstmögliche Skalenniveau bestimmen und begründen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 21–23",
+      "fragen": [
+        "f18",
+        "f19",
+        "f20",
+        "f21",
+        "f22",
+        "f23",
+        "f31",
+        "f32",
+        "f35"
+      ],
+      "erklaerung_abschnitt": "Skalenniveaus und zulässige Transformationen"
+    },
+    {
+      "text": "Du kannst jedem Skalenniveau angemessene Statistiken zuordnen (zentrale Tendenz, Streuung, Zusammenhang, Tests).",
+      "art": "abgeleitet",
+      "quelle": "Folie 25",
+      "fragen": [
+        "f24",
+        "f25",
+        "f26"
+      ],
+      "erklaerung_abschnitt": "Ausblick: Skalenniveau und angemessene Statistiken"
+    }
+  ],
+  "kurzfassung": [
+    "Ein Konstrukt ist ein theoretisches Konzept (z. B. Bildung, Motivation), das man nicht direkt sehen kann. Operationalisierung heißt, es „beobachtbar zu machen“: Konzept genauer bestimmen, Variablen bilden und ihre Ausprägungen festlegen.",
+    "Unabhängige Variablen sind in Experimenten oft Gruppierungsvariablen und typischerweise diskret; abhängige Variablen sind typischerweise stetig (Häufigkeit, Reaktionszeit, Reaktionsstärke, Reaktionsqualität).",
+    "Zum Messen braucht man in der wirklichen Welt Objekte, Relationen zwischen ihnen (z. B. „ist länger als“) und ggf. eine Verknüpfung (Aneinanderlegen). Messung heißt: Die Welt der Zahlen soll dieselbe Struktur haben wie die Welt der Objekte.",
+    "Messen ist die strukturerhaltende (homomorphe) Abbildung eines empirischen in ein numerisches Relativ (Orth, 1974); homomorph heißt: Relationen bleiben erhalten, mehrere Objekte dürfen dieselbe Zahl bekommen.",
+    "Die Campbell-Kommission (1938/1940) hielt Messen von Empfindungen für unmöglich; seit den 1960er-Jahren gibt es Messstrukturen ohne Aneinanderlegen – Messen ist auch in den Gesellschaftswissenschaften möglich.",
+    "Drei Probleme des Messens: Repräsentation (Ist Messung möglich?), Eindeutigkeit (Welche Transformationen sind zulässig? → Skalenniveau) und Bedeutsamkeit (Welche Aussagen bleiben unter allen zulässigen Transformationen wahr? → angemessene Statistik).",
+    "Skalenniveaus: nominal (gleich/verschieden), ordinal (zusätzlich größer/kleiner), intervall (zusätzlich Vergleich von Differenzen) und Ratio/Verhältnis (zusätzlich Vergleich von Verhältnissen, natürlicher Nullpunkt). Nominal und ordinal heißen kategorial, intervall und ratio metrisch.",
+    "„Heute ist es doppelt so warm wie gestern“ (30 °C gegen 15 °C) ist empirisch nicht bedeutsam, weil die Aussage in °F (86 °F gegen 59 °F) nicht mehr stimmt – Temperatur in °C ist nur intervallskaliert.",
+    "Das Skalenniveau bestimmt die erlaubten Statistiken: nominal Modus und χ²-Test, ordinal Median und Perzentile, intervall arithmetisches Mittel, Varianz und t-Test, Verhältnis zusätzlich geometrisches Mittel."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Hinweis und Einordnung",
+      "folien": "1–3",
+      "text": "> **Vorläufige Fassung:** Vorläufig aufbereitet aus den Folien des WS 25/26 (04_ewb002vor_Op_Mess_Skalenniveaus_wise25_26.pdf), weil die Folien für WS 26/27 noch nicht in Stud.IP sind (Stand 01.11.2026). Die VL-Folien 02 und 03 waren im WS 26/27 bis auf Kleinigkeiten identisch – nach Upload abgleichen.\n\n**Worum geht es heute?** Die Vorlesung beantwortet eine der Leitfragen des Moduls (Folie 2): *„Was heißt es, wissenschaftlich etwas zu messen bzw. zu erfassen? Und wie geht es?“* Sie baut direkt auf Sitzung 02 auf: Dort hast du gelernt, was **Variablen** sind (Merkmale von Merkmalsträgern) und welche **Eigenschaften ihre Ausprägungen** haben können (stetig/diskret, dichotom/polytom, disjunkt, erschöpfend). Heute geht es darum, wie man aus einem abstrakten Begriff überhaupt eine messbare Variable macht und **welche Zahlen man ihr sinnvoll geben darf**.\n\nDer Vorlesungsplan (Folie 3) stellt das Thema im WS 25/26 in KW 45 als Sitzung 04 vor; im WS 26/27 ist „Messtheorie: Operationalisierung, Messen, Skalenniveaus“ ebenfalls Sitzung 04 (Folie 3 der VL vom 29.10.2026).\n\n**Kurz erklärt:** Der rote Faden der Sitzung hat drei Schritte: **(1) Operationalisieren** – einen Begriff beobachtbar machen; **(2) Messen** – den beobachteten Ausprägungen Zahlen zuordnen, und zwar so, dass die Zahlen die echten Beziehungen widerspiegeln; **(3) Skalenniveau** – daraus folgt, welche Rechnungen mit diesen Zahlen erlaubt sind. Dieser dritte Schritt ist die Brücke zur Statistik im Dezember (Folie 25)."
+    },
+    {
+      "titel": "Operationalisieren: vom Konstrukt zur Variablen",
+      "folien": "4–5, 7",
+      "text": "**Folie 5:**\n- **Konstrukt:** Theoretisches Konzept\n- **Operationalisierung:** „Beobachtbar Machen des Konstrukts“; Konzeptspezifikation; Bildung von Variablen und Definieren der Ausprägungen\n\nAls Beispiel zeigt die Folie ein **Pfaddiagramm** (eine Zeichnung, in der Pfeile vermutete Einflüsse darstellen) einer vereinfachten „Theorie des Statuserhalts über Generationen“ (vgl. Sitzung 02 zu Theorien, Hypothesen, Variablen):\n\n| von | nach | Richtung |\n| --- | --- | --- |\n| Beruflicher Status des Elternhauses | Bildungsgrad einer Person | + |\n| Bildungsstatus des Elternhauses | Bildungsgrad einer Person | + |\n| Bildungsgrad einer Person | Beruflicher Status einer Person | + |\n| Beruflicher Status des Elternhauses | Beruflicher Status einer Person | + |\n| Bildungsstatus des Elternhauses | Beruflicher Status einer Person | + |\n\nDas „+“ bedeutet einen **positiven Zusammenhang**: je höher das eine, desto höher das andere.\n\n**Kurz erklärt:** Begriffe wie „Bildungsgrad“ oder „beruflicher Status“ kann man nicht direkt sehen – es sind **Konstrukte** (vgl. *latente Variablen* aus dem Seminar am 27.10.). Um eine Hypothese wie „Je höher der Bildungsgrad, desto höher der berufliche Status“ zu prüfen, muss man festlegen, **woran** man den Bildungsgrad erkennt (z. B. am höchsten Schulabschluss) und **welche Ausprägungen** möglich sind. Das sind die drei Teile der Folie: **Konzeptspezifikation** (Was genau meine ich mit „Bildungsgrad“? Schulbildung? Berufsausbildung? Studium?), **Bildung von Variablen** (z. B. „höchster Bildungsabschluss“) und **Definieren der Ausprägungen** (z. B. ohne Abschluss / Hauptschule / Realschule / Abitur / Hochschulabschluss). Erst danach kann man messen.\n\n**Typische Klausurfrage:** „Operationalisieren Sie die Variable X.“ – Eine vollständige Antwort nennt: **Indikator** (woran erkenne ich es?), **Erhebungsweg** (Frage im Fragebogen, Beobachtung, Test), **Ausprägungen** (disjunkt und erschöpfend!) und das **Skalenniveau** mit Begründung.\n\n{{aufgabe a01}}"
+    },
+    {
+      "titel": "Operationalisierung von abhängigen und unabhängigen Variablen",
+      "folien": "6",
+      "text": "**Folie 6:**\n- In empirischen Untersuchungsdesigns (v. a. in (Quasi-)Experimenten) werden häufig Hypothesen über **Variablenzusammenhänge**, **Gruppenunterschiede** oder **Veränderungen über die Zeit** geprüft.\n- **Unabhängige Variable** z. B. **Gruppierungsvariable** – typischerweise: **diskrete** Merkmale.\n- **Abhängige Variable** – typischerweise: **stetige** Merkmale, z. B.:\n  - **Häufigkeit:** Wie oft tritt ein bestimmtes Verhalten auf?\n  - **Reaktionszeit:** Wie viel Zeit vergeht, bis die Person auf das Auftreten eines Reizes reagiert?\n  - **Reaktionsstärke:** Wie intensiv reagiert die Person auf den Reiz oder die Intervention?\n  - **Reaktionsqualität (Valenz, Wertigkeit):** Ist die Reaktion eher positiv oder eher negativ / beinhaltet sie eher Zuwendung oder Abwendung?\n\n**Kurz erklärt:** Erinnerung an Sitzung 02: Die **unabhängige Variable (UV)** ist das, was die Forschenden verändern bzw. nach dem sie Gruppen bilden; die **abhängige Variable (AV)** ist das, was daraufhin gemessen wird. Eine **Gruppierungsvariable** teilt die Teilnehmenden in Gruppen ein (z. B. „neue Lesemethode“ vs. „alte Lesemethode“) – sie hat nur wenige, abzählbare Ausprägungen, ist also **diskret**. Die AV soll dagegen fein unterscheiden können, wie stark eine Wirkung ist – deshalb ist sie typischerweise **stetig** (beliebige Zwischenwerte möglich, z. B. Reaktionszeit 412,7 Millisekunden).\n\n**Beispiel aus der Schule:** Eine Lehrkraft testet, ob Lob die Mitarbeit steigert. UV: Lob ja / nein (Gruppierungsvariable, diskret, dichotom). AV-Möglichkeiten: **Häufigkeit** der Meldungen pro Stunde, **Reaktionszeit** bis zur ersten Meldung, **Reaktionsstärke** (wie engagiert?), **Reaktionsqualität** (freut sich das Kind oder zieht es sich zurück?).\n\n**Prüfungsfalle:** „Typischerweise“ heißt nicht „immer“. Eine UV kann auch stetig sein (z. B. Lernzeit in Minuten), eine AV auch diskret (z. B. Note)."
+    },
+    {
+      "titel": "Was heißt Messen? Das Gedankenexperiment mit den Stöcken",
+      "folien": "8–11",
+      "text": "**Folie 9 – Reflexion: Was heißt Messen?**\n- **Ausgangspunkt – intuitiv:** ein „Messinstrument“ benutzen (z. B. ein Lineal zur Längenmessung, einen Schallpegelmesser zur Messung der „Lautstärke“); den Ausprägungsgrad eines Attributs bestimmen; **Zahlen zu Ausprägungen von Variablen zuordnen, nach bestimmten Regeln**.\n- **Weitergedacht – in der Wissenschaft:** Nicht primär **wie** wir messen, sondern **was möglich ist, zu messen** (und wieso), und was wir damit anfangen können, d. h. **was die Messergebnisse bedeuten**.\n\n**Folie 10 – Gedankenexperiment: Längenmessung (von Stöcken) bei Neandertalern.** Dazu braucht es in der wirklichen Welt:\n- eine **Menge von Objekten** $X$ (Stöcke verschiedener Länge),\n- **Vergleich: Relationen** zwischen den Objekten – $\\succsim$ „ist länger als“ und $\\sim$ „ist gleich lang wie“ → auf dieser Basis können die Stöcke **geordnet** werden,\n- **Verknüpfung: Operationen** mit den Objekten – $\\bullet$ (Stöcke aneinanderlegen), $a \\bullet b \\sim c$ → Vergleich von Stöcken nach ihrer Länge ist möglich.\n\n**Folie 11:** Wenn wir heute Längen messen, benutzen wir **Zahlen**. Was muss für die Zahlen gelten?\n- Längere Stöcke sollten **größere Zahlen** erhalten.\n- Stöcke gleicher Länge sollten die **gleiche Zahl** erhalten.\n- Es gibt keine negativen Längen, also auch **keine negativen Zahlen**.\n- Zwei aneinandergelegte Stöcke sollten eine Zahl erhalten, die der **Summe** der den Komponenten zugeordneten Zahlen entspricht.\n\n> „Gewünscht ist, dass die Welt der Zahlen die gleiche Struktur aufweist, wie die Welt der (empirischen) Objekte. Nur dann sprechen wir von Messung.“ (Folie 11)\n\n**Kurz erklärt:** Das Gedankenexperiment zeigt: Bevor es Zahlen gab, konnten schon Neandertaler Stöcke **vergleichen** (welcher ist länger?) und **aneinanderlegen**. Messen bedeutet, diese Beziehungen in Zahlen zu übersetzen – aber **treu**: Wenn Stock $a$ länger ist als Stock $b$, muss auch die Zahl von $a$ größer sein. Legt man $a$ und $b$ aneinander und das ist genau so lang wie $c$, dann muss gelten: Zahl von $a$ + Zahl von $b$ = Zahl von $c$. Beispiel: $a$ = 30 cm, $b$ = 50 cm → zusammen 80 cm = Länge von $c$. Eine Zuordnung wie „längster Stock = 1“ wäre keine Messung, weil sie die Struktur auf den Kopf stellt.\n\n**So erkennst du es in der Klausur:** Wird gefragt, „was Messen heißt“, reicht „Zahlen zuordnen“ nicht – entscheidend ist **„nach Regeln, sodass die Beziehungen erhalten bleiben“**."
+    },
+    {
+      "titel": "Empirisches und numerisches Relativ",
+      "folien": "12",
+      "text": "**Folie 12 – Messung bei Neandertalern, mathematisch ausgedrückt:**\n\n| | Empirisches Relativ | Numerisches Relativ (Repräsentation) |\n| --- | --- | --- |\n| Schreibweise | $\\langle X, \\succsim, \\bullet \\rangle$ | $\\langle \\mathbb{R}^{+}, \\geq, + \\rangle$ |\n| Menge | $X$ – Objekte (Stöcke) | $\\mathbb{R}^{+}$ – (positive) reelle Zahlen |\n| Beziehung | $\\succsim$ – Ordnungsrelation („ist mindestens so lang wie“) | $\\geq$ – Größer/kleiner-Relation (Ordnung) |\n| Verknüpfung | $\\bullet$ – „Verknüpfung“ (Aneinanderlegen) | $+$ – Addition |\n\n> **Messung:** Abbildung der Objekte in die Menge der reellen Zahlen bei vollständiger Erhaltung der empirischen Relationen: $f : X \\to \\mathbb{R}^{+}$ (Folie 12)\n\n**Kurz erklärt – die Wörter:**\n- **Relativ** ist hier ein Fachwort für „eine Menge zusammen mit den Beziehungen und Verknüpfungen darin“.\n- Das **empirische Relativ** ist die echte Welt: die Stöcke und das, was man mit ihnen feststellen kann (länger/gleich lang, aneinanderlegen).\n- Das **numerische Relativ** ist die Zahlenwelt: Zahlen, „größer gleich“ und Plus.\n- $f : X \\to \\mathbb{R}^{+}$ liest man „$f$ bildet $X$ auf die positiven reellen Zahlen ab“: $f$ ist die **Zuordnungsvorschrift**, die jedem Stock seine Zahl (seine Länge) gibt. Reelle Zahlen sind alle Zahlen auf dem Zahlenstrahl, auch Kommazahlen; das hochgestellte $+$ heißt „nur die positiven“ (keine negativen Längen, Folie 11).\n- Die Abbildung muss **strukturerhaltend** sein: Aus „$a$ ist länger als $b$“ wird „$f(a) > f(b)$“, aus „$a \\bullet b \\sim c$“ wird „$f(a) + f(b) = f(c)$“.\n\n**Prüfungsfalle:** Empirisches und numerisches Relativ nicht verwechseln – **empirisch = Wirklichkeit** (Objekte, Ausprägungen), **numerisch = Zahlen**."
+    },
+    {
+      "titel": "Messen in den Gesellschaftswissenschaften: Definition und Messtheorie",
+      "folien": "13–15",
+      "text": "**Folie 13 – Messen ist auch in den Gesellschaftswissenschaften möglich.** Die „Campbell commission“ (1938, 1940) untersuchte, ob menschliche Empfindungen gemessen werden können, und kam zu einem **negativen** Ergebnis. Campbells Argumentation: Die einzige bekannte Form von Quantifizierung beruht auf **concatenation** (dem Aneinanderlegen von empirischen Objekten); es gibt aber **kein Aneinanderlegen** psychologischer oder gesellschaftswissenschaftlicher Größen. **Heutige Sicht:** Die klassischen Messstrukturen (mit empirischer Verknüpfung) sind tatsächlich ungeeignet, **aber** es gibt seit den 1960er-Jahren **Alternativen** – Messung ist auch in den Gesellschafts- und Verhaltenswissenschaften möglich.\n\n**Folie 14 – Definition:**\n\n> „When measuring some attribute of a class of objects or events, we associate numbers (or other familiar mathematical entities such as vectors) with the objects in such a way that the properties of the attribute are faithfully represented as numerical properties“ (Krantz, Luce, Suppes & Tversky, 1971, p. 1).\n>\n> *Deutsch:* Wenn wir ein Merkmal einer Klasse von Objekten oder Ereignissen messen, ordnen wir den Objekten Zahlen (oder andere mathematische Gebilde wie Vektoren) so zu, dass die Eigenschaften des Merkmals getreu als Eigenschaften der Zahlen wiedergegeben werden.\n\n> **Messen ist die strukturerhaltende (homomorphe) Abbildung eines empirischen in ein numerisches Relativ (Orth, 1974).** Homomorph bedeutet dabei: die empirischen Relationen bleiben erhalten, und mehrere empirische Objekte können in eine Zahl abgebildet werden (many-to-one mapping).\n\n**Folie 15 – Messtheorie:** Die Messtheorie beschäftigt sich mit **Bedingungen, unter denen das Messen möglich ist**. Diese Bedingungen sind **axiomatisch** formuliert (Zitat Narens & Luce, 1986: Sie sucht nach Regeln – Axiomen –, nach denen man Dingen Zahlen so zuordnen kann, dass ihre Beziehungen zahlenmäßig erfasst werden). **Axiome:** Bedingungen (Eigenschaften des empirischen Relativs), unter denen eine Repräsentation möglich ist. Ein solches Axiomensystem wird manchmal **Messstruktur** genannt. Je nach Axiomensystem gibt es verschiedene Messstrukturen, z. B. **Ordered structures** (geordnete Strukturen) und **Additive structures** (additive Strukturen).\n\n**Kurz erklärt:** Bei Stöcken kann man aneinanderlegen – bei Zufriedenheit oder Intelligenz nicht: Man kann nicht „die Zufriedenheit von Anna an die von Ben legen“. Deshalb glaubte Campbell, Empfindungen seien nicht messbar. Die moderne Messtheorie zeigt: Es reicht oft schon, dass man **vergleichen** kann (Anna ist zufriedener als Ben) – dann gibt es eine **geordnete Struktur** und man darf Zahlen vergeben, die die Rangfolge abbilden. **Homomorph** heißt: Die Beziehungen bleiben erhalten, aber **mehrere Objekte dürfen dieselbe Zahl** bekommen. Beispiel: Zwei Kinder lesen gleich gut – beide bekommen dieselbe Zahl. Wichtig ist nur, dass „liest besser als“ zu „größere Zahl“ wird.\n\n**Ergänzung (Tausendpfund 2018, S. 115–117, Hausaufgabe):** Ist die Zuordnung umkehrbar eindeutig (jede Ausprägung eine eigene Zahl), spricht man von **Isomorphismus**; bekommen mehrere Ausprägungen dieselbe Zahl, von **Homomorphismus**.\n\n**Prüfungsfalle:** Homomorph heißt **nicht** „jedes Objekt bekommt eine eigene Zahl“ – many-to-one ist ausdrücklich erlaubt."
+    },
+    {
+      "titel": "Drei Probleme des Messens",
+      "folien": "16–19",
+      "text": "**Folie 16:** In einem konkreten empirischen Fall stellen sich also Fragen: **Ist eine Messung möglich? Welcher Art ist sie?** – Drei Probleme und ihre Lösung.\n\n**Folie 17 – Drei Probleme (des Messens):**\n1. **Existenz einer Repräsentation** (Möglichkeit der Messung)\n2. **Eindeutigkeit der Repräsentation** (Skalenniveau der Messung; „Informationsgehalt“)\n3. **Bedeutsamkeit von Aussagen** (daraus abgeleitet: Verwendung angemessener Statistik)\n\n**Zu 1. Repräsentationsproblem:** Ist Messung überhaupt möglich? **Lösung:** Bestimmen von Bedingungen (= Axiomensystem) für die Existenz einer strukturerhaltenden Abbildung. Der mathematische Beweis dazu ist das sog. **Repräsentationstheorem**. *Einfaches Beispiel:* Variable Geschlecht als **polytomes** Merkmal mit drei Ausprägungen (männlich, weiblich, divers) – wie können die drei Ausprägungen korrekt durch Zahlen dargestellt (= numerisch kodiert) werden?\n\n**Folie 18 – Zu 2. Eindeutigkeitsproblem:** Durch den Repräsentationssatz ist festgelegt: Es gibt einen Homomorphismus. Aber: Gibt es **mehrere**? Und in welcher Beziehung stehen sie zueinander? Das ist die Frage nach den sog. **zulässigen Transformationen**. *Geschlecht:* Wie eindeutig sind diese Kodierungen durch Zahlen? Gibt es noch andere mögliche Kodierungen, die ebenso richtig sind? *Längenmessung:* Wie können wir Einheiten wechseln (Meter, Kilometer, Inch, Meilen, Seemeilen …)?\n- Die Skala ist **eindeutig bis auf die Multiplikation mit einer positiven Konstanten**.\n- Das sind die **zulässigen Transformationen**.\n- Das Skalenniveau ist hier eine **Verhältnisskala**.\n- **Invariant** (unverändert) bleiben hier die **Verhältnisse** der Messwerte.\n\n**Folie 19 – Zu 3. Bedeutsamkeitsproblem:** Welche der Aussagen oder Schlussfolgerungen, die wir auf Grundlage der Zahlen ziehen, sind auch **empirisch bedeutsam**? *Geschlecht:* Welche Aussagen, die mithilfe der numerischen Kodes getroffen werden, können auch empirisch („in der wirklichen Welt“) sinnvoll interpretiert werden?\n\n> **Bedeutsam sind alle empirischen Aussagen, deren Wahrheitswert unter den zulässigen Transformationen gleich bleibt, d. h. invariant ist.** Damit ist auch festgelegt, welche numerischen Operationen bedeutsam sind, d. h. z. B., welche Statistiken genutzt werden können (Folie 19).\n\n**Kurz erklärt – die drei Fragen als Kette:**\n1. **Repräsentation – „Geht das überhaupt?“** Gibt es eine Zahlenzuordnung, die die Beziehungen treu abbildet? Beim Geschlecht ja: z. B. männlich = 1, weiblich = 2, divers = 3 – gleiche Personen gleiche Zahl, verschiedene verschiedene.\n2. **Eindeutigkeit – „Wie viele richtige Zuordnungen gibt es?“** Beim Geschlecht wäre auch männlich = 7, weiblich = 2, divers = 5 genauso richtig – jede Umbenennung, die verschiedene Gruppen verschieden lässt, ist erlaubt. Bei Längen darf man nur mit einer positiven Zahl malnehmen (Meter → Zentimeter: $\\cdot 100$). **Je weniger** Umrechnungen erlaubt sind, **desto mehr Information** steckt in den Zahlen – das ist das **Skalenniveau**.\n3. **Bedeutsamkeit – „Welche Aussagen darf ich machen?“** Nur solche, die bei **jeder** erlaubten Umrechnung wahr bleiben. „Stock A ist doppelt so lang wie Stock B“ bleibt wahr, ob in Meter oder Inch (2 m zu 1 m; 200 cm zu 100 cm – immer Verhältnis 2). „Der Kode von ‚divers‘ ist größer als der von ‚männlich‘“ ist **nicht** bedeutsam, weil eine andere, genauso richtige Kodierung das Gegenteil ergibt.\n\n**Typische Klausurfrage:** „Nennen Sie die drei Probleme des Messens und erläutern Sie sie an einem Beispiel.“ → Name + Leitfrage + Lösung (Axiome / zulässige Transformationen / Invarianz) + ein Beispiel."
+    },
+    {
+      "titel": "Bedeutsamkeit am Beispiel Temperatur",
+      "folien": "20",
+      "text": "**Folie 20:** „Aussagen sind empirisch bedeutsam, wenn ihr Wahrheitswert invariant ist gegenüber zulässigen Transformationen.“\n\n**Beispiel Temperaturmessung:** In Kontinentaleuropa traditionell °C, in Nordamerika °F. Umrechnungsformel (**zulässige Transformation**):\n$$t_{\\text{°F}} = 1{,}8 \\cdot t_{\\text{°C}} + 32$$\n\nIst die Aussage **„Heute herrscht eine doppelt so hohe Temperatur wie gestern.“** empirisch bedeutsam?\n\n| | In °C | In °F (nach der Umrechnungsformel) |\n| --- | --- | --- |\n| Heute | 30 °C | 86 °F |\n| Gestern | 15 °C | 59 °F |\n| doppelt so hoch? | Stimmt! | Stimmt nicht! |\n\n**Schlussfolgerung (Folie 20):** Diese Aussage ist **empirisch nicht bedeutsam**.\n\n**Kurz erklärt – nachgerechnet:**\n- Heute: $1{,}8 \\cdot 30 + 32 = 54 + 32 = 86$ °F. Gestern: $1{,}8 \\cdot 15 + 32 = 27 + 32 = 59$ °F.\n- In °C: $\\dfrac{30}{15} = 2$ – „doppelt so warm“ scheint zu stimmen.\n- In °F: $\\dfrac{86}{59} \\approx 1{,}46$ – nicht doppelt.\n- Dieselbe Wirklichkeit, zwei gleich richtige Skalen, aber unterschiedliche Wahrheit → die Aussage hängt nur an der zufälligen Wahl der Skala, nicht an der Wirklichkeit.\n\n**Warum?** Der Nullpunkt der Celsius-Skala (Gefrierpunkt von Wasser) ist **willkürlich** festgelegt; „0 °C“ heißt nicht „keine Temperatur“. Deshalb darf man Temperaturen in °C **nicht teilen**. **Differenzen** dagegen bleiben vergleichbar: Von 15 auf 30 °C sind es 15 Grad, von 59 auf 86 °F sind es 27 Grad = $1{,}8 \\cdot 15$ – „heute ist es 15 Grad wärmer als gestern“ ist in beiden Skalen gleich gut ausdrückbar (der Abstand wird nur mit 1,8 umgerechnet). Eine Aussage wie „Die Erwärmung von gestern auf heute war doppelt so groß wie die von vorgestern auf gestern“ bliebe in beiden Skalen wahr.\n\n**Prüfungsfalle:** „Doppelt so …“-Aussagen sind nur bei **Verhältnisskalen** (echter Nullpunkt) erlaubt. Bei Celsius, Noten, Ratingskalen: nein."
+    },
+    {
+      "titel": "Skalenniveaus und zulässige Transformationen",
+      "folien": "21",
+      "text": "**Folie 21 – Skalenniveaus, zulässige Transformationen, bedeutsame Aussagen:**\n\n| Gruppe | Skalenniveau | zulässige Aussagen (Relationen) | Beispiel |\n| --- | --- | --- | --- |\n| Kategorial | **Nominal** | Gleichheit (=), Verschiedenheit (≠) | Geschlecht: Mann = 0, Frau = 1; Frau = Frau, Mann = Mann, Mann ≠ Frau |\n| Kategorial | **Ordinal** | zusätzlich: Relation kleiner (<), Relation größer (>) | Selbstwahrnehmung der Gesundheit: Sehr schlecht = 1 bis Sehr gut = 5 (⇒ 1 < 2 < 3 < 4 < 5). *Sehr gut* ist aber weder fünfmal besser als *Sehr schlecht*, noch hat *Sehr gut* eine Distanz von 4 zu *Sehr schlecht*. |\n| Metrisch (SPSS: Skala) | **Intervall** | zusätzlich: Vergleich von Differenzen | Temperatur in °C: Differenz 20° − 15° = Differenz 15° − 10°. Aber eine Temperatur 10° ist nicht doppelt so warm wie 5°. Vergleich mit Fahrenheit: 10 °C = 50 °F, 5 °C = 41 °F. |\n| Metrisch (SPSS: Skala) | **Ratio** (Verhältnis) | zusätzlich: Vergleich von Verhältnissen | Einkommen: CHF 8'000 ist zweimal CHF 4'000. Es gibt einen **natürlichen Nullpunkt** in dieser Skala: CHF 0. |\n\n**Kurz erklärt – die Treppe:** Jede Stufe kann alles, was die Stufe darunter kann, plus eine Sache mehr:\n1. **Nominal:** Die Zahlen sind nur **Namensschilder**. Man darf nur sagen: gleich oder verschieden. (Wer Kode 1 hat, ist nicht „weniger“ als wer Kode 2 hat.)\n2. **Ordinal:** Die Zahlen zeigen eine **Rangfolge**. Man darf sagen: mehr oder weniger. Aber die **Abstände** sind nicht gleich: Von „schlecht“ zu „mittel“ ist nicht unbedingt derselbe Sprung wie von „gut“ zu „sehr gut“.\n3. **Intervall:** Die **Abstände sind gleich groß**. Man darf Differenzen vergleichen („von 10 auf 15 Grad ist genauso viel wie von 15 auf 20“). Aber der Nullpunkt ist **willkürlich** – deshalb kein „doppelt so viel“.\n4. **Ratio/Verhältnis:** Es gibt einen **natürlichen Nullpunkt** (0 heißt wirklich „nichts“: 0 € Einkommen, 0 Sekunden). Erst dann sind **Verhältnisse** sinnvoll („doppelt so viel“).\n\n**Kategorial vs. metrisch:** Nominal und ordinal heißen **kategorial** (Ausprägungen sind Kategorien), intervall und ratio heißen **metrisch** (echte Maßzahlen; in SPSS heißt das „Skala“).\n\n**Ergänzung (nicht aus der Vorlesung) – zulässige Transformationen je Niveau:** Die Überschrift der Folie nennt „zulässige Transformationen“, die Tabelle zeigt aber die Relationen. Aus Folie 18 (Länge: Multiplikation mit positiver Konstante) und Folie 20 (°C → °F: $1{,}8 \\cdot t + 32$) ergibt sich die übliche Übersicht:\n\n| Skalenniveau | zulässige Transformation | Beispiel |\n| --- | --- | --- |\n| Nominal | jede **umkehrbar eindeutige** Umbenennung (verschiedene bleiben verschieden) | Frau = 1, Mann = 0 → Frau = 5, Mann = 9 |\n| Ordinal | jede **streng monoton steigende** Umrechnung (Reihenfolge bleibt) | 1, 2, 3, 4, 5 → 1, 2, 3, 10, 11 |\n| Intervall | **positiv linear**: $y = a \\cdot x + b$ mit $a > 0$ | $t_{\\text{°F}} = 1{,}8 \\cdot t_{\\text{°C}} + 32$ |\n| Ratio | **Multiplikation mit positiver Konstante**: $y = a \\cdot x$ mit $a > 0$ | Meter → Zentimeter: $\\cdot 100$; CHF → € |\n\nMerksatz: **Je höher das Niveau, desto weniger Umrechnungen sind erlaubt – und desto mehr Aussagen sind bedeutsam.**\n\n**So bestimmst du das höchstmögliche Skalenniveau (Klausur WS 25/26, Aufgabe 8):** Frage dich der Reihe nach:\n1. Kann man die Ausprägungen nur unterscheiden? → mindestens **nominal**.\n2. Gibt es eine sinnvolle **Rangfolge**? → mindestens **ordinal**.\n3. Sind die **Abstände** zwischen den Ausprägungen gleich groß und sinnvoll interpretierbar? → mindestens **intervall**.\n4. Gibt es einen **natürlichen Nullpunkt** (0 = „nichts davon“), sodass „doppelt so viel“ Sinn ergibt? → **Verhältnisskala**.\nDie letzte Frage, die du mit „ja“ beantwortest, ist das höchstmögliche Niveau – **immer mit Begründung** an der Variable.\n\n**Prüfungsfalle:** Dass eine Variable mit Zahlen kodiert ist (z. B. Geschlecht 0/1, Noten 1–6), sagt **nichts** über das Skalenniveau. Entscheidend ist, welche Beziehungen in der **Wirklichkeit** bestehen."
+    },
+    {
+      "titel": "Skalenniveaus bestimmen: zwei Beispiele",
+      "folien": "22–23",
+      "text": "**Folie 22 – Beispiel 1: Muskelschmerzen bei Mauseingabe – welche Wirkung hat das Eingabegerät?** Es wurde untersucht, welche Wirkungen das verwendete Eingabegerät auf Befinden, Muskelverspannungen und Reaktionszeit in einer einfachen Aufgabe hat. 16 Versuchspersonen mussten so schnell wie möglich auf dem Bildschirm erscheinende „Smileys“ treffen. Die Hälfte wurde einer „Tablett + Stift“-, die andere einer „Maus“-Gruppe zugeteilt. Gemessen wurde die Reaktionszeit in Millisekunden, das Befinden (auf einer grafischen Skala) und die Anspannung der Unterarmmuskeln (mit EMG).\n\n{{aufgabe a02}}\n\n**Folie 23 – Beispiel 2: Einfluss von Selbstregulation auf die Arbeitszufriedenheit.** Bei jungen Universitätsdozenten/-innen wurde untersucht, ob die Fähigkeit zur Selbstregulation (Zielsetzung, Planung, Monitoring, Volition, Motivation, Reflexion) sich positiv auf die Arbeitszufriedenheit auswirkt. Selbstregulation und Arbeitszufriedenheit wurden mit Fragebögen gemessen. Im Diagramm zeigt ein Pfeil von **Selbstregulation** zu **Arbeitszufriedenheit**; von **Intelligenz** gehen Pfeile zu **beiden**.\n\n{{aufgabe a03}}\n\n**Kurz erklärt:** Beide Beispiele üben genau die Klausurfertigkeit „Variablen bestimmen + Skalenniveau begründen“. Merke: **Physikalische Messungen** (Zeit, Spannung, Länge, Gewicht) sind meist **verhältnisskaliert** – sie haben einen echten Nullpunkt. **Fragebogen- und Ratingskalen** (Befinden, Zufriedenheit) sind streng genommen **ordinal**; Summen- oder Mittelwerte aus mehreren Fragen werden in der Praxis oft wie **intervallskaliert** behandelt (pseudometrisch, Tausendpfund 2018, S. 122) – das muss man aber begründen.\n\n**Prüfungsfalle:** In Beispiel 2 ist **Intelligenz** keine weitere UV der Fragestellung, sondern eine **Störvariable** (Drittvariable): Sie kann sowohl die Selbstregulation als auch die Arbeitszufriedenheit beeinflussen und so einen Zusammenhang vortäuschen (vgl. Störvariablen, Sitzung 02)."
+    },
+    {
+      "titel": "Zusammenfassung: Was ist Messen?",
+      "folien": "24",
+      "text": "**Folie 24:**\n- **Definition Messung:** Zuordnung von Zahlen zu Objekten nach bestimmten Regeln (S. S. Stevens, 1951); strukturerhaltende (homomorphe) Abbildung eines empirischen in ein numerisches Relativ (Orth, 1974).\n- **Repräsentationsproblem:** Bestimmen von Bedingungen für die Existenz einer strukturerhaltenden Abbildung (Axiome).\n- **Eindeutigkeitsproblem:** Bestimmen der erlaubten Klassen von Transformationen (= zulässigen Transformationen) der strukturerhaltenden Abbildungen.\n- **Bedeutsamkeitsproblem:** Eine Aussage ist bedeutsam, wenn ihr Wahrheitswert unter allen zulässigen Transformationen unverändert bleibt.\n\nRandspalte (Beispiel Geschlecht als polytomes Merkmal mit drei Ausprägungen Mann, Frau, divers): Repräsentationsproblem – Wie können die drei Ausprägungen korrekt durch Zahlen dargestellt (numerisch kodiert) werden? Eindeutigkeitsproblem – Wie eindeutig sind diese Kodierungen? Gibt es noch andere mögliche Kodierungen, die ebenso richtig sind? Bedeutsamkeitsproblem – Welche Aussagen, die mithilfe der numerischen Kodes getroffen werden, können auch empirisch interpretiert werden, d. h. sind empirisch sinnvoll?\n\n**Kurz erklärt:** Am Geschlecht durchgespielt: (1) Ja, man kann kodieren (z. B. 1/2/3). (2) Jede andere Kodierung mit drei verschiedenen Zahlen ist genauso richtig → nur **Nominalniveau**. (3) Deshalb ist z. B. ein **Mittelwert der Kodes** („durchschnittliches Geschlecht 1,6“) **nicht bedeutsam** – er ändert sich mit der willkürlichen Kodierung. Bedeutsam ist z. B. „In der Stichprobe sind 52 % Frauen“ – das bleibt bei jeder Kodierung gleich."
+    },
+    {
+      "titel": "Ausblick: Skalenniveau und angemessene Statistiken",
+      "folien": "25",
+      "text": "**Folie 25 – Was sind bedeutsame Statistiken? Skalenniveau von Daten und angemessene Statistiken:**\n\n| Skalenniveau | Zentrale Tendenz | Dispersion (Streuung) | Korrelation (Zusammenhang) | Signifikanztests |\n| --- | --- | --- | --- | --- |\n| Nominal | **Modus** | – | Kontingenzkoeffizient, Φ-Koeffizient | **χ²-Tests**, McNemar-Test, Cochran's Q |\n| Ordinal | **Median** | **Perzentile**, IQR | Spearman's ρ, Kendall's τ | Vorzeichentest, K-S-Test, Mann-Whitney-U-Test, Friedman's oder Kruskal-Wallis-Rangvarianzanalyse |\n| Intervall | **Arithmetisches Mittel** | **Varianz**, Standardabweichung | Pearson's Produkt-Moment-Korrelation, Regressionskoeffizient | **t-Tests**, F-Tests |\n| Verhältnis | Geometrisches, harmonisches Mittel | Variationskoeffizient | – | – |\n\n*(Fett = auf der Folie gelb hervorgehoben.)* „**Wichtige Information!!** Schlägt die Brücke zur Verwendung von verschiedenen statistischen Kennwerten …“ (Folie 25)\n\n**Kurz erklärt – die Fachwörter:**\n- **Zentrale Tendenz** = „der typische Wert“: **Modus** = häufigster Wert; **Median** = der Wert in der Mitte, wenn man alle der Größe nach ordnet; **arithmetisches Mittel** = der normale Durchschnitt (alles addieren, durch die Anzahl teilen).\n- **Dispersion** = wie stark die Werte streuen: **Perzentile** (z. B. der Wert, unter dem 25 % liegen), **IQR** = Interquartilsabstand (Bereich der mittleren 50 %), **Varianz/Standardabweichung** = durchschnittliche Abweichung vom Mittelwert.\n- **Korrelation** = wie stark zwei Variablen zusammenhängen.\n- **Signifikanztests** = Verfahren, mit denen man prüft, ob ein Ergebnis Zufall sein könnte (kommen in den Sitzungen zur Inferenzstatistik im Dezember/Januar).\n- Die Tabelle ist **nach unten offen**: Was für ein niedrigeres Niveau erlaubt ist, darf man auch bei einem höheren benutzen (der Median geht auch bei Intervalldaten).\n\n**Warum?** Ein Durchschnitt setzt voraus, dass die **Abstände gleich** sind – sonst ist „addieren und teilen“ sinnlos. **Ergänzung (nicht aus der Vorlesung) – Beispiel Schulnoten (ordinal):** Klasse A hat die Noten 1 und 4 (Mittel $\\frac{1+4}{2} = 2{,}5$), Klasse B die Noten 3 und 3 (Mittel 3) → A scheint besser. Rechnet man die Noten streng monoton um (1→1, 2→2, 3→3, 4→10), bleibt die Rangfolge der Noten gleich, aber jetzt ist das Mittel von A $\\frac{1+10}{2} = 5{,}5$ und von B 3 → B scheint besser. Der Vergleich der Mittelwerte ist also bei Ordinaldaten **nicht bedeutsam**; der Median wäre es.\n\n**Prüfungsfalle (klausurrelevant):** Die gelb markierten Kennwerte sind die, mit denen im Modul später gerechnet wird – χ²-Test (nominal), Median/Perzentile (ordinal, Boxplot!), Mittelwert/Varianz/t-Test (intervall). In der Klausur WS 25/26 kamen Boxplot, χ²-Test und t-Test vor (vgl. Klausurstil)."
+    },
+    {
+      "titel": "Vorbereitung aufs Seminar und Ausblick",
+      "folien": "26–32",
+      "text": "**Folien 26–32:** Fragen-Folie; „Inhaltseinheit im Seminar dazu in der nächsten Woche“ (Seminar S05 „Messtheorie“ am Di 10.11.2026).\n\n**Vorbereitung (Folie 28):** Literaturempfehlung Tausendpfund, M. (2018): *Quantitative Methoden in der Politikwissenschaft. Eine Einführung.* Springer: Wiesbaden. Kap. 7 Operationalisierung (S. 107–137). „Bitte arbeiten Sie zur Vorbereitung auf die nächste Seminareinheit die Vorlesungsfolien, lesen Sie den Textauszug und bringen Sie Ihre Fragen zum Seminar mit.“\n\n**Leitfragen (Folie 29):** 1. Was ist mit dem Begriff Operationalisierung gemeint? 2. Wie wird Messen definiert? 3. Wie werden die in dem Text genannten Skalenniveaus charakterisiert? → als **Hausaufgabe h01** vollständig ausgearbeitet (eigene PDF).\n\nDer Text liegt vollständig im Ordner `Literatur/` (Tausendpfund_2018_Quantitative-Methoden-Politikwissenschaft.pdf). Folie 30–31: Ausblick auf die nächste Woche mit dem Vorlesungsplan (Sitzung 05: Datenerhebung). Folie 32: Weitere Fragen und Anmerkungen in Präsenz oder im Forum der Vorlesung auf Stud.IP."
+    },
+    {
+      "titel": "Übungsaufgaben aus dem WS 25/26 (Tutorium und Klausur)",
+      "folien": "",
+      "text": "Zusätzliche Übung zum Thema aus Nadines Unterlagen des WS 25/26: **Tutorium-Aufgabenblatt 2** „Operationalisierung, Messen, Skalenniveaus“ und **Aufgabe 8 der Klausur WS 25/26** (Gedächtnisprotokoll). Alle Lösungen sind **selbst erarbeitet** (keine offiziellen Lösungen vorhanden).\n\n{{aufgabe a04}}\n\n{{aufgabe a05}}\n\n{{aufgabe a06}}\n\n{{aufgabe a07}}\n\n{{aufgabe a08}}\n\n{{aufgabe a09}}"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Konstrukt",
+      "wortlaut": "Theoretisches Konzept",
+      "erklaerung": "Ein gedanklicher Begriff, den man nicht direkt sehen kann (z. B. Bildung, Motivation, Intelligenz). Um ihn zu erforschen, muss man ihn operationalisieren.",
+      "folie": "5"
+    },
+    {
+      "begriff": "Operationalisierung",
+      "wortlaut": "“Beobachtbar Machen des Konstrukts”; Konzeptspezifikation; Bildung von Variablen und Definieren der Ausprägungen",
+      "erklaerung": "Man legt fest, woran man ein Konstrukt erkennt (Indikator), welche Variable entsteht und welche Ausprägungen sie haben kann – z. B. Bildung → „höchster Schulabschluss“ mit fünf Kategorien.",
+      "folie": "5"
+    },
+    {
+      "begriff": "Messung (Stevens)",
+      "wortlaut": "Zuordnung von Zahlen zu Objekten nach bestimmten Regeln (S.S. Stevens, 1951)",
+      "erklaerung": "Die klassische, kurze Definition; die Regeln müssen dafür sorgen, dass die Zahlen die Wirklichkeit treu abbilden.",
+      "folie": "24"
+    },
+    {
+      "begriff": "Messung (Orth)",
+      "wortlaut": "Messen ist die strukturerhaltende (homomorphe) Abbildung eines empirischen in ein numerisches Relativ (Orth, 1974).",
+      "erklaerung": "Die Zahlenwelt soll dieselbe Struktur haben wie die Wirklichkeit: Wer „mehr“ hat, bekommt eine größere Zahl; Gleiche bekommen dieselbe Zahl.",
+      "folie": "14, 24"
+    },
+    {
+      "begriff": "Homomorph",
+      "wortlaut": "die empirischen Relationen bleiben erhalten, und mehrere empirische Objekte können in eine Zahl abgebildet werden (many-to-one mapping)",
+      "erklaerung": "Die Beziehungen (größer, gleich) bleiben erhalten, aber nicht jedes Objekt braucht eine eigene Zahl – zwei gleich lange Stöcke bekommen dieselbe Zahl.",
+      "folie": "14"
+    },
+    {
+      "begriff": "Empirisches Relativ",
+      "wortlaut": "Objekte, Ordnungsrelation, ‘Verknüpfung’: ⟨X, ≿, •⟩",
+      "erklaerung": "Die echte Welt: die Objekte bzw. Ausprägungen zusammen mit den beobachtbaren Beziehungen (z. B. „ist länger als“) und Verknüpfungen (Aneinanderlegen).",
+      "folie": "12"
+    },
+    {
+      "begriff": "Numerisches Relativ",
+      "wortlaut": "Numerisches Relativ (Repräsentation): Reelle Zahlen, Größer/kleiner-Relation (Ordnung), Addition: ⟨ℝ⁺, ≥, +⟩",
+      "erklaerung": "Die Zahlenwelt, in die gemessen wird: Zahlen mit „größer/kleiner“ und Rechenoperationen wie der Addition.",
+      "folie": "12"
+    },
+    {
+      "begriff": "Messtheorie",
+      "wortlaut": "Die Messtheorie beschäftigt sich mit Bedingungen unter denen das Messen möglich ist. Diese Bedingungen sind axiomatisch formuliert.",
+      "erklaerung": "Sie klärt, wann man einer Eigenschaft überhaupt sinnvoll Zahlen geben darf und welche Art von Zahlen (Skalenniveau).",
+      "folie": "15"
+    },
+    {
+      "begriff": "Axiome (Messstruktur)",
+      "wortlaut": "Bedingungen (Eigenschaften des empirischen Relativs) unter denen eine Repräsentation möglich ist. Ein solches Axiomensystem wird manchmal eine Messstruktur genannt.",
+      "erklaerung": "Grundannahmen über die Wirklichkeit, z. B. „wenn A länger als B und B länger als C, dann A länger als C“. Sind sie erfüllt, kann man messen.",
+      "folie": "15"
+    },
+    {
+      "begriff": "Repräsentationsproblem",
+      "wortlaut": "Ist Messung überhaupt möglich? Lösung: Bestimmen von Bedingungen (=Axiomensystem) für die Existenz einer strukturerhaltenden Abbildung. Der mathematische Beweis dazu ist das sog. Repräsentationstheorem.",
+      "erklaerung": "Erste Frage beim Messen: Gibt es überhaupt eine treue Zahlenzuordnung?",
+      "folie": "17"
+    },
+    {
+      "begriff": "Eindeutigkeitsproblem",
+      "wortlaut": "Bestimmen der erlaubten Klassen von Transformationen (= zulässigen Transformationen) der strukturerhaltenden Abbildungen",
+      "erklaerung": "Zweite Frage: Welche anderen Zahlenzuordnungen wären genauso richtig? Daraus folgt das Skalenniveau.",
+      "folie": "18, 24"
+    },
+    {
+      "begriff": "Zulässige Transformationen",
+      "wortlaut": "Die Skala ist eindeutig bis auf die Multiplikation mit einer positiven Konstanten. Das sind die zulässigen Transformationen. (Beispiel Längenmessung)",
+      "erklaerung": "Umrechnungen, nach denen die Zahlen die Wirklichkeit immer noch treu abbilden – z. B. Meter in Zentimeter (· 100) oder °C in °F (1,8 · t + 32).",
+      "folie": "18, 20"
+    },
+    {
+      "begriff": "Bedeutsamkeitsproblem",
+      "wortlaut": "Eine Aussage ist bedeutsam, wenn ihr Wahrheitswert unter allen zulässigen Transformationen unverändert bleibt",
+      "erklaerung": "Dritte Frage: Welche Aussagen über die Zahlen sagen wirklich etwas über die Welt? Nur solche, die bei jeder erlaubten Umrechnung wahr bleiben. Daraus folgt, welche Statistik angemessen ist.",
+      "folie": "19, 20, 24"
+    },
+    {
+      "begriff": "Nominalskala",
+      "wortlaut": "Gleichheit (=), Verschiedenheit (≠) – Beispiel Geschlecht",
+      "erklaerung": "Zahlen sind nur Namen. Man darf nur „gleich“ oder „verschieden“ sagen. Kategorial.",
+      "folie": "21"
+    },
+    {
+      "begriff": "Ordinalskala",
+      "wortlaut": "Zusätzlich: Relation kleiner (<), Relation grösser (>) – Beispiel Selbstwahrnehmung der Gesundheit",
+      "erklaerung": "Rangfolge ist sinnvoll, Abstände nicht. Kategorial.",
+      "folie": "21"
+    },
+    {
+      "begriff": "Intervallskala",
+      "wortlaut": "Zusätzlich: Vergleich von Differenzen – Beispiel Temperatur in °C",
+      "erklaerung": "Gleich große Abstände, aber willkürlicher Nullpunkt; Differenzen vergleichbar, Verhältnisse nicht. Metrisch.",
+      "folie": "21"
+    },
+    {
+      "begriff": "Verhältnisskala (Ratioskala)",
+      "wortlaut": "Zusätzlich: Vergleich von Verhältnissen – Beispiel Einkommen: Es gibt einen natürlichen Nullpunkt in dieser Skala",
+      "erklaerung": "Gleiche Abstände und echter Nullpunkt (0 = nichts); „doppelt so viel“ ist sinnvoll. Metrisch.",
+      "folie": "18, 21"
+    },
+    {
+      "begriff": "Kategorial / metrisch",
+      "wortlaut": "Kategorial: Nominal, Ordinal · Metrisch (SPSS: Skala): Intervall, Ratio",
+      "erklaerung": "Oberbegriffe: kategoriale Skalen ordnen in Kategorien, metrische Skalen liefern Maßzahlen mit gleichen Abständen.",
+      "folie": "21"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 7",
+      "text": "Konstrukt: Theoretisches Konzept. Operationalisierung: “Beobachtbar Machen des Konstrukts”; Konzeptspezifikation; Bildung von Variablen und Definieren der Ausprägungen.\n\nAufgabe: Im nebenstehenden Pfaddiagramm ist vereinfacht eine „Theorie des Statuserhalts über Generationen“ dargestellt (vgl. Sitzung zu Theorien-Hypothesen-Variablen). Operationalisieren Sie nun die genannten Variablen.\n\n(Variablen im Diagramm: Beruflicher Status des Elternhauses · Bildungsstatus des Elternhauses · Bildungsgrad einer Person · Beruflicher Status einer Person)",
+      "loesung": "*Selbst erarbeitet – auf den Folien steht keine Lösung. Andere Operationalisierungen sind möglich, wenn sie begründet werden. Bildungsgrad wie in der Hausaufgabe h02 zu Sitzung 02.*\n\n| Variable (Konstrukt) | Indikator / Frage | Ausprägungen | Eigenschaften | Skalenniveau |\n| --- | --- | --- | --- | --- |\n| **Bildungsgrad einer Person** | „Welchen höchsten Bildungsabschluss haben Sie?“ | ohne Abschluss / Hauptschulabschluss / Realschulabschluss / Fachhochschulreife oder Abitur / Hochschulabschluss | diskret, polytom; disjunkt durch „höchster“, erschöpfend (ggf. „anderer Abschluss“ ergänzen) | **ordinal** (Rangfolge, aber ungleiche Abstände) |\n| alternativ | „Wie viele Jahre haben Sie insgesamt Schule, Ausbildung und Studium besucht?“ (Bildungsjahre) | 0, 1, 2 … Jahre | diskret (ganze Jahre) | **Verhältnisskala** (echter Nullpunkt: 0 Jahre) |\n| **Bildungsstatus des Elternhauses** | höchster Bildungsabschluss von Mutter **und** Vater erfragen, der **höhere** der beiden zählt | wie oben (ohne Abschluss … Hochschulabschluss), dazu „weiß nicht“ | diskret, polytom | **ordinal** |\n| **Beruflicher Status einer Person** | „Welche berufliche Stellung haben Sie?“ mit Rangfolge, z. B. un-/angelernt – Facharbeit/einfache Angestellte – qualifizierte Angestellte/gehobener Dienst – leitende Angestellte/höherer Dienst/akademische freie Berufe | 4 geordnete Stufen (+ „nicht erwerbstätig“ gesondert) | diskret, polytom | **ordinal** |\n| alternativ | Ausgeübten Beruf erfragen und mit einer **Berufsprestige- oder Statusskala** in Punkte umrechnen (Ergänzung, nicht aus der Vorlesung: z. B. internationaler sozioökonomischer Index ISEI) | Punktwert | annähernd stetig | als **intervallskaliert** behandelt (pseudometrisch) |\n| **Beruflicher Status des Elternhauses** | dieselbe Frage für Mutter und Vater, als die Person z. B. 15 Jahre alt war; höherer Status zählt | wie oben | diskret, polytom | **ordinal** |\n\n**Begründung:** Alle vier Variablen sind **Konstrukte** (latent). Durch die Fragen werden sie **beobachtbar** gemacht (Konzeptspezifikation: hier formale Bildung bzw. berufliche Stellung), es entstehen **Variablen** mit festgelegten **Ausprägungen**. Die Ausprägungen müssen **disjunkt** (jede Person passt nur in eine Kategorie – deshalb „höchster Abschluss“) und **erschöpfend** (jede Person passt irgendwo hinein – deshalb „ohne Abschluss“, „anderer Abschluss“, „nicht erwerbstätig“) sein. Die **Pfeile mit „+“** werden dann empirisch geprüft: Je höher der Bildungsstatus des Elternhauses, desto höher der Bildungsgrad der Person usw.",
+      "loesungsweg": "Für jede Variable: (1) Was ist gemeint? (Konzeptspezifikation) (2) Woran erkenne ich es? (Indikator/Frage) (3) Welche Ausprägungen – disjunkt und erschöpfend? (4) Welches Skalenniveau, mit Begründung?"
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 22",
+      "text": "Beispiel 1: Muskelschmerzen bei Mauseingabe: Welche Wirkung hat das Eingabegerät? Es wurde untersucht, welche Wirkungen das verwendete Eingabegerät auf Befinden, Muskelverspannungen und Reaktionszeit in einer einfachen Aufgabe hat. 16 Versuchspersonen mussten so schnell wie möglich auf dem Bildschirm erscheinende ‚smileys‘ treffen. Die Hälfte wurde einer ‚Tablett + Stift‘, die andere einer ‚Maus‘-Gruppe zugeteilt. Gemessen wurde die Reaktionszeit in Millisekunden, das Befinden (auf einer graphischen Skala) und die Anspannung der Unterarmmuskeln (mit EMG).\n\nAufgabe: Bitte spezifizieren Sie nochmals die unabhängigen und abhängigen Variablen. Welches Skalenniveaus haben die abhängigen Variablen? Bitte begründen Sie.",
+      "loesung": "*Selbst erarbeitet – auf den Folien steht keine Lösung.*\n\n**Unabhängige Variable:** das **Eingabegerät** mit den Ausprägungen „Tablett + Stift“ und „Maus“ – eine **Gruppierungsvariable**: diskret, **dichotom**, **nominalskaliert** (die beiden Geräte sind nur verschieden, keines ist „mehr“).\n\n**Abhängige Variablen und Skalenniveau:**\n\n| AV | gemessen als | Skalenniveau | Begründung |\n| --- | --- | --- | --- |\n| **Reaktionszeit** | Millisekunden | **Verhältnisskala** | gleiche Abstände (1 ms ist überall 1 ms) **und** natürlicher Nullpunkt (0 ms = keine Zeit vergangen); „doppelt so schnell“ ist sinnvoll (400 ms ist doppelt so lang wie 200 ms). Stetig. |\n| **Muskelanspannung** | elektrische Muskelaktivität mit EMG (Elektromyografie), z. B. in Mikrovolt | **Verhältnisskala** | physikalische Messgröße mit gleichen Abständen und natürlichem Nullpunkt (0 = keine messbare Aktivität). Stetig. |\n| **Befinden** | grafische Skala (z. B. Linie oder Gesichter von „sehr schlecht“ bis „sehr gut“) | streng genommen **ordinal**, in der Praxis oft als **intervallskaliert** behandelt | Die Antworten lassen sich ordnen (besser/schlechter), aber ob die Abstände für die Personen wirklich gleich groß sind, ist nicht gesichert; einen natürlichen Nullpunkt („kein Befinden“) gibt es nicht. Ist die grafische Skala eine durchgehende Linie mit gleichen Abständen (Wert in mm), wird sie meist als **pseudometrisch/intervallskaliert** behandelt – das muss begründet werden. |\n\n⚠ Wie die grafische Skala genau aussah, steht nicht auf der Folie – deshalb beide Möglichkeiten mit Begründung nennen.",
+      "loesungsweg": "UV = was die Forschenden variieren (Gruppenzuteilung); AVs = was gemessen wird. Für jede AV die Fragen der Skalentreppe stellen: Rangfolge? gleiche Abstände? natürlicher Nullpunkt?"
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 23",
+      "text": "Beispiel 2: Einfluss von Selbstregulation auf die Arbeitszufriedenheit. Bei jungen Universitätsdozenten/innen wurde untersucht, ob die Fähigkeit zur Selbstregulation (Zielsetzung, Planung, Monitoring, Volition, Motivation, Reflexion) sich positiv auf die Arbeitszufriedenheit auswirkt. Selbstregulation und Arbeitszufriedenheit wurden mit Fragebögen gemessen. (Diagramm: Selbstregulation → Arbeitszufriedenheit; Intelligenz → Selbstregulation und Arbeitszufriedenheit)\n\nAufgabe: Bitte spezifizieren Sie nochmals die unabhängigen und abhängigen Variablen. Welches Skalenniveau hat die abhängige Variable? Bitte begründen Sie.",
+      "loesung": "*Selbst erarbeitet – auf den Folien steht keine Lösung.*\n\n**Unabhängige Variable:** **Selbstregulation** (Fähigkeit zu Zielsetzung, Planung, Monitoring, Volition, Motivation, Reflexion) – ein Konstrukt, gemessen mit einem Fragebogen.\n\n**Abhängige Variable:** **Arbeitszufriedenheit** – ebenfalls ein Konstrukt, gemessen mit einem Fragebogen.\n\n**Weitere Variable im Diagramm:** **Intelligenz** wirkt auf **beide** Variablen → **Störvariable** (Drittvariable). Wer intelligenter ist, kann sich vielleicht besser selbst regulieren **und** ist vielleicht zufriedener im Beruf; dann sähe es so aus, als ob Selbstregulation zufrieden macht, obwohl beides an der Intelligenz liegt. Sie sollte deshalb mit erhoben und kontrolliert werden.\n\n**Skalenniveau der AV:** Ein Fragebogen besteht meist aus mehreren Aussagen mit abgestuften Antworten (z. B. 1 = „trifft gar nicht zu“ bis 5 = „trifft voll zu“).\n- **Jede einzelne Antwort** ist streng genommen **ordinal**: Die Antworten haben eine Rangfolge, aber ob der Abstand zwischen „trifft eher zu“ und „trifft voll zu“ genauso groß ist wie zwischen „teils/teils“ und „trifft eher zu“, ist nicht gesichert. Es gibt keinen natürlichen Nullpunkt („null Zufriedenheit“).\n- Der **Gesamtwert** (Summe oder Mittelwert über mehrere Fragen) wird in der Forschungspraxis meist als **intervallskaliert (pseudometrisch)** behandelt, wenn es genug Abstufungen gibt (ab etwa fünf) und man gleiche Abstände annehmen kann – das muss **begründet** werden (Tausendpfund 2018, S. 122).\n- **Verhältnisskala ist es nicht**, weil der Nullpunkt künstlich ist.",
+      "loesungsweg": "UV/AV aus der Fragestellung („Einfluss von … auf …“) ablesen; Intelligenz als Störvariable erkennen (Pfeile zu beiden); Skalenniveau von Fragebogenskalen begründen (Item ordinal, Skalenwert pseudometrisch)."
+    },
+    {
+      "id": "a04",
+      "art": "Übungsaufgabe",
+      "quelle": "Tutorium WS 25/26, Aufgabenblatt 2, Aufgabe 1",
+      "text": "1. Begriffe und Zusammenhänge\nGib die Definition der folgenden Begriffe an und erkläre, wie diese miteinander zusammenhängen.\nFormuliere zusätzlich ein eigenes Beispiel, an dem dieser Zusammenhang klar wird.\nKonstrukt:\nOperationalisierung:\nIndikator/Kennwert:\nEigenes Beispiel:",
+      "loesung": "*Selbst erarbeitet (Grundlage: Folie 5 und Tausendpfund 2018, S. 108).*\n\n- **Konstrukt:** ein theoretisches Konzept (Folie 5), das nicht direkt beobachtbar ist – z. B. Intelligenz, Motivation, Lesekompetenz.\n- **Operationalisierung:** „Beobachtbar Machen des Konstrukts“; Konzeptspezifikation; Bildung von Variablen und Definieren der Ausprägungen (Folie 5). Nach Tausendpfund werden die theoretischen Konzepte in beobachtbare Sachverhalte „übersetzt“ (S. 108).\n- **Indikator/Kennwert:** „Ein beobachtbarer Sachverhalt, der ein theoretisches Konzept abbildet“ (Tausendpfund 2018, S. 108), z. B. eine Testpunktzahl.\n\n**Zusammenhang:** Das **Konstrukt** steht auf der theoretischen Ebene. Durch die **Operationalisierung** legt man fest, welcher **Indikator** es auf der empirischen Ebene abbildet (Verbindung über Korrespondenzregeln) und welche Ausprägungen er hat. Erst über den Indikator kann man das Konstrukt messen.\n\n**Eigenes Beispiel:** Konstrukt **Lesemotivation** von Grundschulkindern → Operationalisierung: Fragebogen mit fünf Aussagen („Ich lese gern in meiner Freizeit“ …), Antworten 1 = „stimmt gar nicht“ bis 4 = „stimmt genau“ → Indikator/Kennwert: Mittelwert der fünf Antworten (1 bis 4). Ergänzend als zweiter Indikator: Anzahl der in den letzten vier Wochen ausgeliehenen Bücher.",
+      "loesungsweg": "Definitionen von Folie 5 bzw. Tausendpfund S. 108; Zusammenhang als Kette Konstrukt → Operationalisierung → Indikator; eigenes Schulbeispiel."
+    },
+    {
+      "id": "a05",
+      "art": "Übungsaufgabe",
+      "quelle": "Tutorium WS 25/26, Aufgabenblatt 2, Aufgabe 2",
+      "text": "2. Operationalisierung\nHypothese: „Homeoffice steigert die Arbeitszufriedenheit von Arbeitnehmer*innen.“\na) Bestimme die unabhängige Variable (uV) und die abhängige Variable (aV).\nb) Operationalisiere beide Konstrukte (Indikatoren und mögliche Ausprägungen).\nHomeoffice:\nZufriedenheit:",
+      "loesung": "*Selbst erarbeitet.*\n\n**a)** **uV:** Homeoffice (die vermutete Ursache). **aV:** Arbeitszufriedenheit (die vermutete Wirkung).\n\n**b)**\n- **Homeoffice** – mögliche Indikatoren:\n  - „Arbeiten Sie im Homeoffice?“ – ja / nein → diskret, **dichotom**, nominal.\n  - „An wie vielen Tagen pro Woche arbeiten Sie im Homeoffice?“ – 0, 1, 2, 3, 4, 5 → diskret, polytom, **Verhältnisskala** (0 Tage = kein Homeoffice).\n  - Anteil der Arbeitszeit im Homeoffice in % (0–100 %) → Verhältnisskala.\n- **Arbeitszufriedenheit** – mögliche Indikatoren:\n  - eine Frage: „Wie zufrieden sind Sie insgesamt mit Ihrer Arbeit?“ – 1 = sehr unzufrieden, 2 = eher unzufrieden, 3 = teils/teils, 4 = eher zufrieden, 5 = sehr zufrieden → **ordinal** (in der Praxis oft pseudometrisch behandelt).\n  - mehrere Fragen zu Teilbereichen (Tätigkeit, Kolleg*innen, Bezahlung, Vereinbarkeit mit Familie) mit derselben Antwortskala; Indikator = **Mittelwert** der Antworten (1,0 bis 5,0) → meist als intervallskaliert behandelt.\n\nDie Hypothese wäre gestützt, wenn Personen mit (mehr) Homeoffice im Mittel zufriedener sind.",
+      "loesungsweg": "uV = Ursache, aV = Wirkung aus der Hypothese ablesen; je Konstrukt Indikator, Ausprägungen und Skalenniveau angeben."
+    },
+    {
+      "id": "a06",
+      "art": "Übungsaufgabe",
+      "quelle": "Tutorium WS 25/26, Aufgabenblatt 2, Aufgabe 3",
+      "text": "3. Messen\na) Definiere den Begriff „Messen“\nc) Nenne drei mögliche Probleme, die beim Messen auftreten können.\nd) Welche Fragestellung könnte zu diesen Daten geführt haben? Und wie könnten die Daten erhoben worden sein?\n\n| Tutoriengröße (Anzahl der Studierenden) | Motivation | |\n| --- | --- | --- |\n| 35 | Sehr hoch | 5 |\n| 27 | Hoch | 4 |\n| 21 | Mittel | 3 |\n| 16 | Niedrig | 2 |\n| 9 | Sehr Niedrig | 1 |\n\ne) Wer wäre in diesem Fall der Merkmalsträger*in?\n\n(Auf dem Blatt fehlt Teilaufgabe b.)",
+      "loesung": "*Selbst erarbeitet.*\n\n**a)** Messen ist die **Zuordnung von Zahlen zu Objekten nach bestimmten Regeln** (Stevens) bzw. die **strukturerhaltende (homomorphe) Abbildung eines empirischen in ein numerisches Relativ** (Orth, 1974; Folien 14 und 24). Die Zahlen müssen die Beziehungen der Wirklichkeit widerspiegeln.\n\n**c)** Die drei Probleme des Messens (Folie 17):\n1. **Repräsentationsproblem** – Ist eine Messung überhaupt möglich, gibt es eine strukturerhaltende Abbildung?\n2. **Eindeutigkeitsproblem** – Wie eindeutig ist die Zahlenzuordnung, welche Transformationen sind zulässig (→ Skalenniveau)?\n3. **Bedeutsamkeitsproblem** – Welche Aussagen über die Zahlen sind auch empirisch sinnvoll (→ angemessene Statistik)?\n\n*(Wenn „Probleme“ praktisch gemeint ist, wären auch Messfehler, ungeeignete Indikatoren oder Antwortverzerrungen denkbar – die Vorlesung meint aber diese drei.)*\n\n**d)** Mögliche **Fragestellung:** „Hängt die Motivation der Studierenden mit der Größe des Tutoriums zusammen?“ (In den Daten: je größer das Tutorium, desto höher die Motivation.) Mögliche **Erhebung:** Tutoriengröße durch **Zählen** der Teilnehmenden (Anwesenheitsliste); Motivation per **Fragebogen** mit einer fünfstufigen Ratingskala (1 = sehr niedrig bis 5 = sehr hoch), z. B. am Ende einer Sitzung.\n\n**e)** Jede Zeile beschreibt **ein Tutorium** (Größe ist ein Merkmal der Gruppe) – Merkmalsträger ist deshalb das **Tutorium** (bzw. die Tutoriumsgruppe); die Motivation wäre dann z. B. die durchschnittliche, gerundete Einschätzung der Gruppe. ⚠ Alternativ ließe sich argumentieren: Merkmalsträger sind die **Studierenden**, deren Motivation erfragt wird, und die Tutoriengröße ist ein Merkmal ihres Kontexts. Für die Tabelle mit fünf Zeilen passt „Tutorium“ besser.",
+      "loesungsweg": "Definition von Folie 14/24; drei Probleme von Folie 17; Fragestellung aus den beiden Spalten (Zusammenhang zweier Variablen) ableiten; Merkmalsträger = wovon die Merkmale stammen."
+    },
+    {
+      "id": "a07",
+      "art": "Übungsaufgabe",
+      "quelle": "Tutorium WS 25/26, Aufgabenblatt 2, Aufgabe 4",
+      "text": "4. Was ist das numerische und empirische Relativ?\n(bezogen auf die Daten aus Aufgabe 3)",
+      "loesung": "*Selbst erarbeitet.*\n\n**Motivation:**\n- **Empirisches Relativ:** die tatsächlichen Motivationsausprägungen „sehr niedrig“, „niedrig“, „mittel“, „hoch“, „sehr hoch“ mit der Beziehung „ist motivierter als“ (Rangordnung).\n- **Numerisches Relativ:** die Zahlen 1, 2, 3, 4, 5 mit der Beziehung „größer als“ (>).\n- Die Zuordnung ist strukturerhaltend: höhere Motivation → größere Zahl (sehr hoch = 5 > hoch = 4 …). Abstände und Verhältnisse der Zahlen bedeuten nichts → ordinal.\n\n**Tutoriengröße:**\n- **Empirisches Relativ:** die Tutorien mit ihren Teilnehmenden, den Beziehungen „hat mehr Teilnehmende als“ / „hat gleich viele wie“ und der Verknüpfung „zwei Gruppen zusammenlegen“.\n- **Numerisches Relativ:** die natürlichen Zahlen (9, 16, 21, 27, 35) mit „>“ und „+“ (zwei Gruppen mit 9 und 16 Personen zusammengelegt = 25 Personen).\n- Verhältnisskala (genauer: Absolutskala mit natürlicher Einheit „eine Person“).",
+      "loesungsweg": "Empirisch = Ausprägungen in der Wirklichkeit + ihre Beziehungen; numerisch = Zahlen + die entsprechenden Zahlenbeziehungen (Folie 12)."
+    },
+    {
+      "id": "a08",
+      "art": "Übungsaufgabe",
+      "quelle": "Tutorium WS 25/26, Aufgabenblatt 2, Aufgabe 5",
+      "text": "5. Skalenniveaus bestimmen\nBestimme für jede Variable das höchstmögliche Skalenniveau und begründe kurz.\nWie könnte man die Variablen operationalisieren?\nStudienfach\nTemperatur in Celsius\nLieblingsfarbe\nPlatzierung für einen Wettbewerb\nGeschlecht\nSchulnoten\nEinkommen in Euro",
+      "loesung": "*Selbst erarbeitet (Abgleich mit Folie 21 und Tausendpfund 2018, S. 119–124).*\n\n| Variable | höchstmögliches Skalenniveau | Begründung | Operationalisierung |\n| --- | --- | --- | --- |\n| Studienfach | **nominal** | Fächer sind nur verschieden, keine Rangfolge | „Welches Fach studieren Sie (Hauptfach)?“ – Liste der Fächer + „anderes“ |\n| Temperatur in Celsius | **intervall** | gleiche Abstände, aber willkürlicher Nullpunkt (0 °C ≠ „keine Temperatur“); „doppelt so warm“ nicht sinnvoll (Folie 20) | Thermometer, Wert in °C |\n| Lieblingsfarbe | **nominal** | Farben haben keine Rangfolge | „Was ist Ihre Lieblingsfarbe?“ – rot / blau / grün / gelb / … / andere |\n| Platzierung bei einem Wettbewerb | **ordinal** | Rangfolge (1. vor 2. vor 3.), aber die Abstände zwischen den Plätzen sind ungleich | Platz laut Ergebnisliste (1, 2, 3, …) |\n| Geschlecht | **nominal** | nur gleich/verschieden (Folie 21) | „Welches Geschlecht haben Sie?“ – weiblich / männlich / divers |\n| Schulnoten | **ordinal** | Rangfolge, aber ungleiche Abstände – eine 2 ist nicht doppelt so gut wie eine 4 (Tausendpfund S. 121) | Zeugnisnote im Fach (1–6) |\n| Einkommen in Euro | **Verhältnisskala** | gleiche Abstände und natürlicher Nullpunkt (0 €); 4.000 € ist doppelt so viel wie 2.000 € (Folie 21) | „Wie hoch ist Ihr monatliches Nettoeinkommen in Euro?“ (offene Zahl) |\n\nHinweis: Fragt man das Einkommen nur in **Klassen** ab (z. B. „unter 1.000 €“, „1.000 bis unter 2.000 €“ …), sinkt das Niveau auf **ordinal** – deshalb heißt es „höchst**mögliches**“ Niveau.",
+      "loesungsweg": "Je Variable die Skalentreppe: unterscheidbar → Rangfolge → gleiche Abstände → natürlicher Nullpunkt; höchste „ja“-Stufe begründen; Operationalisierung als Frage mit Ausprägungen."
+    },
+    {
+      "id": "a09",
+      "art": "Übungsaufgabe",
+      "quelle": "Klausur WS 25/26 (Gedächtnisprotokoll), Aufgabe 8",
+      "text": "Aufgabe 8) Skalenniveau\nBitte geben sie an, welches Skalenniveau diese Variablen höchstens ausweisen können und begründen sie ihre Aussage.\nPflegestufe eines Patienten\nFrauenanteil im Lehramtsstudium der Uni Vechta\nBlutgruppe(n)",
+      "loesung": "*Selbst erarbeitet – keine offizielle Lösung vorhanden.*\n\n- **Pflegestufe eines Patienten → ordinal.** Die Stufen (seit 2017 „Pflegegrade“ 1 bis 5) bilden eine **Rangfolge**: höhere Stufe = mehr Pflegebedarf. Die **Abstände** zwischen den Stufen sind aber nicht gleich groß und nicht als gleich interpretierbar; einen natürlichen Nullpunkt gibt es nicht. „Stufe 4 ist doppelt so pflegebedürftig wie Stufe 2“ ist nicht sinnvoll.\n- **Frauenanteil im Lehramtsstudium der Uni Vechta → Verhältnisskala.** Ein Anteil (z. B. 72 %) hat **gleiche Abstände** (ein Prozentpunkt ist überall gleich viel) und einen **natürlichen Nullpunkt** (0 % = keine Frauen). Verhältnisse sind sinnvoll: 60 % ist doppelt so viel wie 30 %. (Merkmalsträger ist hier das Studium/die Hochschule – ein Kollektivmerkmal.)\n- **Blutgruppe(n) → nominal.** A, B, AB und 0 sind nur **verschiedene Kategorien**; es gibt keine Rangfolge („A ist mehr als B“ ergibt keinen Sinn). Auch die Bezeichnung „0“ ist nur ein Name, kein Nullpunkt.",
+      "loesungsweg": "Je Variable die Skalentreppe durchgehen und an der Variable begründen (Rangfolge? gleiche Abstände? natürlicher Nullpunkt?)."
+    },
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Textvorbereitung S05: Tausendpfund (2018), Kap. 7 – 3 Leitfragen",
+      "text": "Vorbereitung für die Seminareinheit in der nächsten Woche. Literaturempfehlung:\n• Tausendpfund, M. (2018): Quantitative Methoden in der Politikwissenschaft. Eine Einführung. Springer: Wiesbaden. Kap. 7 Operationalisierung (S. 107-137)\n\nBitte arbeiten Sie zur Vorbereitung auf die nächste Seminareinheit die Vorlesungsfolien, lesen Sie den Textauszug und bringen Sie Ihre Fragen zum Seminar mit.\n\nLeitfragen für die Literatur:\n1. Was ist mit dem Begriff Operationalisierung gemeint?\n2. Wie wird Messen definiert?\n3. Wie werden die in dem Text genannten Skalenniveaus charakterisiert?",
+      "quelle": "Folien 28–29",
+      "loesung": "*Ausarbeitung aus Tausendpfund (2018), Kap. 7, S. 107–124 (Datei Literatur/Tausendpfund_2018_Quantitative-Methoden-Politikwissenschaft.pdf). Die Leitfragen betreffen die Abschnitte 7.1–7.3; Abschnitt 7.4 (Gütekriterien, S. 125–137) gehört zum Textauszug, wird aber erst in der Sitzung „Gütekriterien“ ausführlich behandelt. Hinweis: Die Leitfragen stammen von den Folien des WS 25/26.*\n\n**Leitfrage 1:** *„Was ist mit dem Begriff Operationalisierung gemeint?“*\n\n**Antwort:**\n\n**Grundidee (S. 107 f.):** Viele Begriffe der Sozialwissenschaften – Tausendpfund nennt Vertrauen, sozialen Status oder Identität – sind **abstrakt** und **nicht direkt beobachtbar**. Hypothesen verbinden solche theoretischen Konzepte („Je höher A, desto höher B“). Um sie empirisch zu prüfen, muss man die Konzepte mit der **empirischen Ebene** (dem, was man tatsächlich sehen, zählen oder abfragen kann) verbinden. Genau dieser Schritt heißt Operationalisierung.\n\n> **Definition (Tausendpfund 2018, S. 108):** „Um die theoretischen Konzepte in einem Forschungsprojekt empirisch messbar zu machen, werden die theoretischen Konzepte in beobachtbare Sachverhalte „übersetzt“. Dieser Vorgang wird Operationalisierung genannt. Hierfür werden sogenannte Indikatoren herangezogen. Ein beobachtbarer Sachverhalt, der ein theoretisches Konzept abbildet, wird Indikator genannt. Die Verknüpfung zwischen Konzept und Indikator erfolgt über sogenannte Korrespondenzregeln.“\n\n**Die Bausteine (S. 107 f., Abbildung 8):**\n- **Konzept** (theoretische Ebene): der abstrakte Begriff, z. B. „Bildung“.\n- **Indikator** (empirische Ebene): der beobachtbare Sachverhalt, der das Konzept abbildet, z. B. „Anzahl der Bildungsjahre“.\n- **Korrespondenzregeln:** Sie „regeln“ die Zuordnung von Indikatoren zu Konzepten; die Zuordnung erfolgt „nicht willkürlich“ (S. 108).\n- Die **Hypothese** steht auf der theoretischen Ebene, der **statistische Zusammenhang** zwischen den Indikatoren auf der empirischen Ebene.\n\n**Beispiel Bildung und Einkommen (S. 109–111, Abbildung 9):** Hypothese „Je höher die Bildung, desto größer das Einkommen“ (begründet mit der Humankapitaltheorie). Mögliche Indikatoren:\n- Einkommen: monatliches **Nettoeinkommen** (dabei fehlen je nach Frage z. B. Mieteinnahmen oder Transferzahlungen) oder das **Nettohaushaltseinkommen**.\n- Bildung: **höchster allgemeinbildender Schulabschluss**, **Anzahl der Bildungsjahre** oder ein eigener **Test**.\nTausendpfund wählt die Bildungsjahre (üblich in international vergleichenden Studien wie dem Eurobarometer). Bestätigt wäre die Hypothese, wenn sich ein **positiver Zusammenhang** zwischen Bildungsjahren und Einkommen in Euro zeigt (S. 111).\n\n**Probleme der Operationalisierung (S. 108–114):**\n- Die zentrale Frage ist, ob die Zuordnung eines Indikators zu einem Konzept **gerechtfertigt** ist (S. 108). **Falsche Korrespondenzregeln** haben schwere Folgen: Eine falsche Hypothese kann bestätigt oder eine richtige fälschlich widerlegt werden (S. 109).\n- **Büroklammer-Entwirr-Test** (nach Diekmann, S. 109): Intelligenz wird über die Zahl der in einer bestimmten Zeit entwirrten Büroklammern „gemessen“ – offensichtlich zweifelhaft.\n- Für viele Konzepte gibt es **verschiedene, auch widersprüchliche** Vorschläge; schwierige Beispiele sind „kognitive Mobilisierung“ und „Zustimmung zur EU“ (S. 111–113).\n- Deshalb ist die **Wahl eines Indikators immer zu begründen und offenzulegen** – in Studien meist im Abschnitt „Operationalisierung“ (S. 111, 114).\n- Zwei Voraussetzungen (S. 114): (1) eine **abgeschlossene Konzeptspezifikation** – „Ohne zu wissen, was gemessen werden soll, kann keine sinnvolle Messung erfolgen“ (Schnell et al., zitiert S. 114); (2) **Kenntnis einschlägiger Operationalisierungsvorschläge** aus der Literatur.\n- Unterschiedliche Befunde verschiedener Studien gehen häufig auf **verschiedene Operationalisierungen** zurück (Kasten S. 114). Hilfen: „Demographische Standards“ des Statistischen Bundesamts, die GESIS-Sammlung ZIS (über 200 Instrumente), Übersicht der PISA-Instrumente (S. 114).\n\n**Kurz gesagt:** Operationalisierung heißt, einen abstrakten Begriff so zu „übersetzen“, dass man ihn beobachten und messen kann – man legt fest, **welcher Indikator** das Konzept abbildet und **welche Ausprägungen** er haben kann. Das passt zur Vorlesung (Folie 5: „Beobachtbar Machen des Konstrukts“; Konzeptspezifikation; Bildung von Variablen und Definieren der Ausprägungen).\n\n**Leitfrage 2:** *„Wie wird Messen definiert?“*\n\n**Antwort:**\n\nTausendpfund nennt zwei Definitionen (S. 115):\n- **Stevens (1946, S. 677):** Messung ist „assignment of numerals to objects or events according to rules“ – auf Deutsch: die **Zuordnung von Zahlen zu Objekten nach bestimmten Regeln**.\n- **Kromrey et al. (2016, S. 209):** Messen ist „die Zuweisung von Ziffern zu Objekten entsprechend den Ausprägungen der an diesen Objekten betrachteten Merkmale“.\n\n**Wichtig (S. 115):** Gemessen werden **nicht die Objekte selbst**, sondern **Merkmale bzw. Eigenschaften** von Objekten. Objekt kann z. B. ein Mensch sein, Merkmale sind Körpergröße, Haarfarbe oder Einkommen. Das Ergebnis einer Messung sind Zahlen.\n\n**Strukturtreue Abbildung (S. 115–118):** Die Zahlen werden nicht willkürlich vergeben. Ziel ist eine **strukturtreue Abbildung**: Die Beziehungen zwischen den Merkmalen sollen sich in den Zahlen widerspiegeln. Ziel einer Messung ist also die strukturtreue Abbildung eines **empirischen Relativs** (die beobachteten Ausprägungen mit ihren Beziehungen) in ein **numerisches Relativ** (Zahlen mit ihren Beziehungen). Eine strukturtreue Abbildung heißt **Morphismus**:\n- **Isomorphismus:** wechselseitig eindeutige (umkehrbare) Zuordnung – jede Ausprägung erhält eine eigene Zahl (z. B. kein Abschluss = 1 … Hochschulreife = 5).\n- **Homomorphismus:** mehrere Ausprägungen erhalten **dieselbe** Zahl (z. B. Fachhochschulreife und Hochschulreife beide = 4); dann ist kein eindeutiger Rückschluss von der Zahl auf die Ausprägung möglich (Abbildungen 11 und 12, S. 116 f.).\n\n**Beispiel Schulabschlüsse (S. 116):** Die Abschlüsse stehen in einer Rangfolge („höherer“ Abschluss). Die Zahlen sollen diese Rangfolge wiedergeben. Würde man z. B. dem Hauptschulabschluss die 3, der allgemeinen Hochschulreife die 2 und der Fachhochschulreife die 1 geben, spiegelte das numerische Relativ die Struktur **nicht** wider – das wäre keine Messung. Höheren Abschlüssen dürfen auch niedrigere Zahlen gegeben werden (1 = Hochschulreife … 5 = kein Abschluss), solange die Rangfolge erhalten bleibt; man muss das bei der Interpretation berücksichtigen (Fußnote 19, S. 118 f.).\n\n**Kritik an Stevens (Fußnote 18, S. 116 f.):** Stevens' Definition ist „nicht optimal“, weil die **Regeln** genauer festgelegt werden müssen – sonst wäre z. B. auch eine „Messung“ der Schulabschlüsse nach der Zahl der Buchstaben eine Messung. Die Zuordnungsregeln werden in der **axiomatischen Messtheorie** entwickelt (Fußnote 16, S. 115).\n\n**Zusammenhang (Abbildung 13, S. 118):** Konzept „Bildung“ → Operationalisierung → Indikator „formale Bildungsabschlüsse“ (empirisches Relativ) → Messung → Zuweisung von Zahlen (numerisches Relativ).\n\n**Verbindung zur Vorlesung:** Folie 14 definiert Messen als „strukturerhaltende (homomorphe) Abbildung eines empirischen in ein numerisches Relativ (Orth, 1974)“ und Folie 24 nennt Stevens (1951) mit derselben Grundidee wie Tausendpfund.\n\n**Leitfrage 3:** *„Wie werden die in dem Text genannten Skalenniveaus charakterisiert?“*\n\n**Antwort:**\n\nEine **Skala** ist „eine strukturtreue Abbildung eines empirischen Relativs in ein numerisches Relativ“ (S. 119). In den Sozialwissenschaften nutzt man meist die vier Skalenniveaus von Stevens (1946): **Nominal-, Ordinal-, Intervall- und Ratioskala**; Intervall- und Ratioskala heißen zusammen **metrische Skalen** (S. 119). Dazu kommt die **Absolutskala** als Sonderfall (S. 123).\n\n**Warum wichtig? (Kasten S. 119):** Je höher das Skalenniveau, desto höher meist der **Informationsgehalt** und desto **mehr statistische Verfahren** sind zulässig (Ratioskala > Intervallskala > Ordinalskala > Nominalskala). Viele Verfahren setzen mindestens Intervallskalenniveau voraus; deshalb strebt man ein möglichst hohes Messniveau an.\n\n| Skalenniveau | Charakterisierung bei Tausendpfund | Beispiele im Text | zulässig (Tabelle 9) |\n| --- | --- | --- | --- |\n| **Nominalskala** (S. 119 f.) | unterstes Messniveau; jedes Objekt wird **genau einer Klasse** zugeordnet – keines darf fehlen, keines in mehreren Klassen stehen; Zahlen sind nur **Kennzeichnungen** („labels“), die Bezifferung ist reine Definitionssache; erlaubt nur **Unterscheidung** (gleich/verschieden) | Geschlecht (1 = weiblich, 2 = männlich), Konfession | Auszählen, **Modus** |\n| **Ordinalskala** (S. 120 f.) | zusätzlich **Rangordnung**; die Ziffern geben die Rangfolge wieder, aber die **Abstände sind nicht gleich groß** bzw. unklar | Schulnoten (eine 2 ist besser als eine 4, aber nicht doppelt so gut; IHK-Schlüssel: 4,0 ab 57, 3,0 ab 73, 2,0 ab 85 von 100 Punkten), Politikinteresse „sehr stark … überhaupt nicht“ (ALLBUS), Bildungsabschlüsse | zusätzlich **Median** |\n| **Intervallskala** (S. 121–123) | zusätzlich **gleiche Abstände** zwischen den Ausprägungen (**Äquidistanz**); „Die Intervalle müssen die gleiche Größe besitzen“ (Schnell et al.); **kein natürlicher Nullpunkt** | Temperatur in Grad Celsius (15 → 20 °C ist derselbe Abstand wie 20 → 25 °C); ESS-Frage zum sozialen Vertrauen mit Skala 0–10 | zusätzlich **arithmetischer Mittelwert**, Standardabweichung, Korrelationen |\n| **Ratio- bzw. Verhältnisskala** (S. 123) | gleiche Abstände **und echter (natürlicher) Nullpunkt**; dadurch sind auch **sinnvolle Quotienten** (Verhältnisse) möglich (S. 124) | Länge mit Lineal; Nettoeinkommen, Dauer der Arbeitslosigkeit, Zahl der im letzten Jahr gelesenen Bücher | zusätzlich **geometrischer Mittelwert** |\n| **Absolutskala** (S. 123) | besondere Variante der Ratioskala: natürlicher Nullpunkt **und natürliche Einheit** | Anzahl der Personen in einem Raum (Behnke/Behnke) | – |\n\n**Hierarchie (S. 123 f.):** Die Eigenschaften eines niedrigeren Skalenniveaus gelten immer auch für das höhere (Tabelle 9: Unterschied – Ränge – gleiche Abstände – natürlicher Nullpunkt).\n\n**Pseudometrische Skalen (Kasten S. 122):** Weil viele Verfahren mindestens Intervallniveau verlangen, werden in der Praxis Ordinalskalen **ab etwa fünf Ausprägungen** oft wie metrische Skalen behandelt. Entscheidend ist aber, dass die Abstände gleich sind (Äquidistanz); das muss **begründet** werden und „sollte nicht leichtfertig erfolgen“.\n\n**Endpunktbenannte Skalen (S. 122 f.):** Bei der ESS-Frage (0 = „man kann nicht vorsichtig genug sein“, 10 = „den meisten Menschen kann man vertrauen“) legt die Frage nahe, dass die Abstände gleich sind. Ob das wirklich stimmt, ist nicht sicher, aber solche 7- oder 11-Punkt-Skalen haben sich im Forschungsalltag durchgesetzt. Der „Nullpunkt“ ist hier **künstlich** gesetzt (die Skala könnte auch von 10 bis 20 gehen) – deshalb ist sie keine Ratioskala (S. 123).\n\n**Verbindung zur Vorlesung:** Folie 21 ordnet dieselben vier Niveaus in **kategorial** (nominal, ordinal) und **metrisch** (intervall, ratio; SPSS: „Skala“) ein; Folie 25 zeigt, welche Statistiken je Niveau angemessen sind.",
+      "loesungsweg": "Tausendpfund (2018) Kap. 7, S. 107–124 lesen (Datei liegt in Literatur/), je Leitfrage Definitionen wörtlich mit Seitenzahl herausschreiben, Beispiele des Textes notieren und mit den Vorlesungsfolien 5, 14, 21 und 25 verbinden. Abschnitt 7.4 (Gütekriterien, S. 125–137) überfliegen.",
+      "frist": "2026-11-10",
+      "im_kalender": true,
+      "fuer_sitzung": "ewb002.2_2026-11-10",
+      "kalender_id": "c4b2272c-33ba-482e-8b4a-c977c8b9b8cf",
+      "pdf": "/dateien/ewb002/S05_2026-11-10_Hausaufgabe_Textvorbereitung_Tausendpfund-Kap7_Leitfragen.pdf"
+    }
+  ],
+  "fragen": [
+    {
+      "pruefungsrelevant": true,
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist ein Konstrukt?",
+      "antwort": "Ein theoretisches Konzept, das nicht direkt beobachtbar ist (z. B. Bildung, Motivation) und deshalb operationalisiert werden muss.",
+      "erklaerung": "Folie 5.",
+      "folie": "5"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f02",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter Operationalisierung? Nenne die drei Bestandteile laut Folie.",
+      "antwort": "„Beobachtbar Machen des Konstrukts“: Konzeptspezifikation, Bildung von Variablen und Definieren der Ausprägungen.",
+      "erklaerung": "Folie 5. Tausendpfund: theoretische Konzepte werden in beobachtbare Sachverhalte (Indikatoren) „übersetzt“.",
+      "folie": "5"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f03",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Operationalisierung ist das „[[Beobachtbar]] Machen des Konstrukts“.",
+      "erklaerung": "Folie 5.",
+      "folie": "5"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f04",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu unabhängigen und abhängigen Variablen in (Quasi-)Experimenten stimmen laut Folie 6? (mehrere richtig)",
+      "optionen": [
+        "Unabhängige Variablen sind häufig Gruppierungsvariablen.",
+        "Unabhängige Variablen sind typischerweise diskrete Merkmale.",
+        "Abhängige Variablen sind typischerweise stetige Merkmale.",
+        "Abhängige Variablen sind immer dichotom."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 6: UV z. B. Gruppierungsvariable, typischerweise diskret; AV typischerweise stetig (Häufigkeit, Reaktionszeit …). „Immer dichotom“ ist falsch.",
+      "folie": "6"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f05",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Fragen der passenden Art abhängiger Variablen zu.",
+      "kategorien": [
+        "Häufigkeit",
+        "Reaktionszeit",
+        "Reaktionsstärke",
+        "Reaktionsqualität"
+      ],
+      "elemente": [
+        {
+          "text": "Wie oft meldet sich ein Kind in einer Stunde?",
+          "kategorie": "Häufigkeit"
+        },
+        {
+          "text": "Wie viele Sekunden vergehen, bis das Kind auf die Frage antwortet?",
+          "kategorie": "Reaktionszeit"
+        },
+        {
+          "text": "Wie intensiv reagiert die Person auf die Intervention?",
+          "kategorie": "Reaktionsstärke"
+        },
+        {
+          "text": "Reagiert das Kind eher mit Zuwendung oder mit Abwendung?",
+          "kategorie": "Reaktionsqualität"
+        }
+      ],
+      "erklaerung": "Folie 6. Reaktionsqualität = Valenz/Wertigkeit (eher positiv oder negativ).",
+      "folie": "6"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f06",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Operationalisiere die Variable „Bildungsgrad einer Person“ aus dem Pfaddiagramm zur Theorie des Statuserhalts: Indikator, Ausprägungen, Eigenschaften der Ausprägungen und Skalenniveau mit Begründung.",
+      "musterloesung": "Indikator: höchster Bildungsabschluss („Welchen höchsten Abschluss haben Sie?“). Ausprägungen: ohne Abschluss / Hauptschule / Realschule / Fachhochschulreife oder Abitur / Hochschulabschluss (ggf. „anderer“). Diskret, polytom, disjunkt (durch „höchster“) und erschöpfend. Ordinal, weil es eine Rangfolge gibt, die Abstände zwischen den Abschlüssen aber nicht gleich groß sind. Alternative: Bildungsjahre (Verhältnisskala).",
+      "bewertungspunkte": [
+        "passender Indikator",
+        "disjunkte und erschöpfende Ausprägungen",
+        "Eigenschaften (diskret, polytom)",
+        "Skalenniveau ordinal mit Begründung Rangfolge/ungleiche Abstände"
+      ],
+      "punkte": 4,
+      "erklaerung": "Folie 7, Aufgabe a01.",
+      "folie": "7"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f07",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was braucht es laut dem Gedankenexperiment (Längenmessung bei Neandertalern) in der wirklichen Welt, um zu messen? (mehrere richtig)",
+      "optionen": [
+        "eine Menge von Objekten",
+        "Relationen zwischen den Objekten (z. B. „ist länger als“)",
+        "eine Verknüpfung, d. h. Operationen mit den Objekten (Aneinanderlegen)",
+        "ein geeichtes Lineal in Metern"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 10: Menge X, Vergleich (Relationen), Verknüpfung (Operationen). Ein Lineal braucht man nicht – genau das zeigt das Gedankenexperiment.",
+      "folie": "10"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f08",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche vier Bedingungen müssen die Zahlen bei der Längenmessung von Stöcken erfüllen, und was ist der gemeinsame Gedanke?",
+      "antwort": "Längere Stöcke größere Zahlen; gleich lange Stöcke gleiche Zahl; keine negativen Zahlen; zwei aneinandergelegte Stöcke erhalten die Summe ihrer Zahlen. Gemeinsamer Gedanke: Die Welt der Zahlen soll dieselbe Struktur haben wie die Welt der Objekte – nur dann spricht man von Messung.",
+      "erklaerung": "Folie 11.",
+      "folie": "11"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f09",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Bestandteile dem empirischen oder dem numerischen Relativ der Längenmessung zu.",
+      "kategorien": [
+        "empirisches Relativ",
+        "numerisches Relativ"
+      ],
+      "elemente": [
+        {
+          "text": "Stöcke (Objekte X)",
+          "kategorie": "empirisches Relativ"
+        },
+        {
+          "text": "„ist länger als“ (Ordnungsrelation)",
+          "kategorie": "empirisches Relativ"
+        },
+        {
+          "text": "Stöcke aneinanderlegen",
+          "kategorie": "empirisches Relativ"
+        },
+        {
+          "text": "reelle Zahlen",
+          "kategorie": "numerisches Relativ"
+        },
+        {
+          "text": "Größer/kleiner-Relation",
+          "kategorie": "numerisches Relativ"
+        },
+        {
+          "text": "Addition",
+          "kategorie": "numerisches Relativ"
+        }
+      ],
+      "erklaerung": "Folie 12: ⟨X, ≿, •⟩ wird abgebildet auf ⟨ℝ⁺, ≥, +⟩.",
+      "folie": "12"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f10",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie definiert Orth (1974) Messen?",
+      "antwort": "Messen ist die strukturerhaltende (homomorphe) Abbildung eines empirischen in ein numerisches Relativ.",
+      "erklaerung": "Folien 14 und 24.",
+      "folie": "14"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f11",
+      "baustein": "definition",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was bedeutet „homomorph“ bei einer Messung? (mehrere richtig)",
+      "optionen": [
+        "Die empirischen Relationen bleiben erhalten.",
+        "Mehrere empirische Objekte können dieselbe Zahl bekommen (many-to-one mapping).",
+        "Jedes Objekt muss eine eigene, nur ihm zugeordnete Zahl bekommen.",
+        "Die Zahlen dürfen die Reihenfolge der Objekte umkehren, solange alle verschieden bleiben."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Folie 14. Eine eigene Zahl für jedes Objekt wäre ein Isomorphismus (Tausendpfund S. 115) und ist nicht verlangt. Eine Zuordnung, die Relationen nicht erhält, ist keine Messung.",
+      "folie": "14"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f12",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur „Campbell commission“ und zur heutigen Sicht stimmen? (mehrere richtig)",
+      "optionen": [
+        "Sie kam zu dem Ergebnis, dass menschliche Empfindungen nicht gemessen werden können.",
+        "Campbell argumentierte, die einzige Form der Quantifizierung beruhe auf dem Aneinanderlegen (concatenation) von Objekten.",
+        "Heute gilt: Messung ist auch in den Gesellschafts- und Verhaltenswissenschaften möglich, weil es seit den 1960er-Jahren alternative Messstrukturen gibt.",
+        "Heute gilt: Psychologische Größen lassen sich wie Stöcke aneinanderlegen."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 13. Ein Aneinanderlegen psychologischer Größen gibt es gerade nicht; die klassischen Messstrukturen mit empirischer Verknüpfung sind ungeeignet – es gibt aber Alternativen.",
+      "folie": "13"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f13",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Womit beschäftigt sich die Messtheorie, und was sind in diesem Zusammenhang Axiome?",
+      "antwort": "Mit den Bedingungen, unter denen Messen möglich ist; diese sind axiomatisch formuliert. Axiome sind Bedingungen (Eigenschaften des empirischen Relativs), unter denen eine Repräsentation möglich ist; ein Axiomensystem heißt auch Messstruktur (z. B. ordered oder additive structures).",
+      "erklaerung": "Folie 15.",
+      "folie": "15"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f14",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne jede Frage dem passenden Problem des Messens zu.",
+      "kategorien": [
+        "Repräsentationsproblem",
+        "Eindeutigkeitsproblem",
+        "Bedeutsamkeitsproblem"
+      ],
+      "elemente": [
+        {
+          "text": "Ist Messung überhaupt möglich?",
+          "kategorie": "Repräsentationsproblem"
+        },
+        {
+          "text": "Gibt es andere Kodierungen, die ebenso richtig sind?",
+          "kategorie": "Eindeutigkeitsproblem"
+        },
+        {
+          "text": "Welche Transformationen sind zulässig?",
+          "kategorie": "Eindeutigkeitsproblem"
+        },
+        {
+          "text": "Welche Aussagen über die Zahlen sind auch in der wirklichen Welt sinnvoll?",
+          "kategorie": "Bedeutsamkeitsproblem"
+        },
+        {
+          "text": "Welche Statistik ist angemessen?",
+          "kategorie": "Bedeutsamkeitsproblem"
+        },
+        {
+          "text": "Gibt es ein Axiomensystem für eine strukturerhaltende Abbildung?",
+          "kategorie": "Repräsentationsproblem"
+        }
+      ],
+      "erklaerung": "Folien 17–19 und 24. Eindeutigkeit → Skalenniveau; Bedeutsamkeit → angemessene Statistik.",
+      "folie": "17–19"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f15",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "text": "Eine Aussage ist empirisch bedeutsam, wenn ihr Wahrheitswert unter allen zulässigen [[Transformationen]] unverändert bleibt.",
+      "erklaerung": "Folien 19, 20 und 24.",
+      "folie": "24"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f16",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Transformationen sind bei der Längenmessung zulässig, welches Skalenniveau ergibt sich und was bleibt invariant?",
+      "antwort": "Die Skala ist eindeutig bis auf die Multiplikation mit einer positiven Konstanten (z. B. Meter → Kilometer, Inch, Meilen); das ist eine Verhältnisskala; invariant bleiben die Verhältnisse der Messwerte.",
+      "erklaerung": "Folie 18.",
+      "folie": "18"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f17",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Gestern 15 °C, heute 30 °C. Ist die Aussage „Heute ist es doppelt so warm wie gestern“ empirisch bedeutsam? Rechne mit $t_{\\text{°F}} = 1{,}8 \\cdot t_{\\text{°C}} + 32$ nach und begründe.",
+      "musterloesung": "Umrechnung: gestern 1,8 · 15 + 32 = 59 °F, heute 1,8 · 30 + 32 = 86 °F. In °C ist 30/15 = 2, in °F ist 86/59 ≈ 1,46. Der Wahrheitswert ändert sich unter einer zulässigen Transformation → die Aussage ist nicht empirisch bedeutsam. Grund: Celsius ist eine Intervallskala mit willkürlichem Nullpunkt; Verhältnisse sind nicht interpretierbar.",
+      "bewertungspunkte": [
+        "beide Werte richtig in °F umgerechnet (59 und 86)",
+        "Verhältnisse verglichen (2 gegen etwa 1,46)",
+        "Schluss: nicht bedeutsam, da Wahrheitswert nicht invariant",
+        "Begründung Intervallskala / kein natürlicher Nullpunkt"
+      ],
+      "punkte": 4,
+      "erklaerung": "Folie 20.",
+      "folie": "20"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f18",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Beispiele von Folie 21 dem Skalenniveau zu.",
+      "kategorien": [
+        "nominal",
+        "ordinal",
+        "intervall",
+        "ratio"
+      ],
+      "elemente": [
+        {
+          "text": "Geschlecht",
+          "kategorie": "nominal"
+        },
+        {
+          "text": "Selbstwahrnehmung der Gesundheit (sehr schlecht bis sehr gut)",
+          "kategorie": "ordinal"
+        },
+        {
+          "text": "Temperatur in °C",
+          "kategorie": "intervall"
+        },
+        {
+          "text": "Einkommen in CHF",
+          "kategorie": "ratio"
+        }
+      ],
+      "erklaerung": "Folie 21.",
+      "folie": "21"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f19",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was kommt bei der Intervallskala gegenüber der Ordinalskala hinzu – und was fehlt ihr noch gegenüber der Verhältnisskala?",
+      "optionen": [
+        "Hinzu kommt der Vergleich von Differenzen; es fehlt ein natürlicher Nullpunkt (Vergleich von Verhältnissen).",
+        "Hinzu kommt die Rangfolge; es fehlt der Vergleich von Differenzen.",
+        "Hinzu kommt der natürliche Nullpunkt; es fehlt die Rangfolge.",
+        "Hinzu kommt die Unterscheidung gleich/verschieden; es fehlt nichts."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Folie 21: Intervall „zusätzlich Vergleich von Differenzen“; Ratio „zusätzlich Vergleich von Verhältnissen“, natürlicher Nullpunkt.",
+      "folie": "21"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f20",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Skalenniveaus sind kategorial, welche metrisch?",
+      "kategorien": [
+        "kategorial",
+        "metrisch"
+      ],
+      "elemente": [
+        {
+          "text": "Nominalskala",
+          "kategorie": "kategorial"
+        },
+        {
+          "text": "Ordinalskala",
+          "kategorie": "kategorial"
+        },
+        {
+          "text": "Intervallskala",
+          "kategorie": "metrisch"
+        },
+        {
+          "text": "Verhältnisskala (Ratio)",
+          "kategorie": "metrisch"
+        }
+      ],
+      "erklaerung": "Folie 21 (metrisch heißt in SPSS „Skala“).",
+      "folie": "21"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f21",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Beispiel Mauseingabe (Folie 22): Nenne UV und AVs und bestimme das Skalenniveau jeder AV mit Begründung.",
+      "musterloesung": "UV: Eingabegerät (Tablett + Stift vs. Maus) – dichotom, nominal. AVs: Reaktionszeit in ms – Verhältnisskala (gleiche Abstände, natürlicher Nullpunkt 0 ms); Muskelanspannung per EMG – Verhältnisskala (physikalische Größe mit Nullpunkt); Befinden auf grafischer Skala – streng genommen ordinal (Rangfolge, Abstände nicht gesichert, kein natürlicher Nullpunkt), in der Praxis oft als intervallskaliert behandelt.",
+      "bewertungspunkte": [
+        "UV Eingabegerät richtig",
+        "drei AVs genannt",
+        "Reaktionszeit Verhältnisskala mit Begründung",
+        "EMG Verhältnisskala mit Begründung",
+        "Befinden ordinal/pseudometrisch mit Begründung"
+      ],
+      "punkte": 5,
+      "erklaerung": "Folie 22, Aufgabe a02.",
+      "folie": "22"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f22",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Beispiel Selbstregulation (Folie 23): Nenne UV und AV und bestimme das Skalenniveau der AV mit Begründung. Welche Rolle spielt die Intelligenz?",
+      "musterloesung": "UV: Selbstregulation; AV: Arbeitszufriedenheit (beide per Fragebogen). Intelligenz beeinflusst beide → Störvariable/Drittvariable, die kontrolliert werden muss. Skalenniveau AV: einzelne Fragebogenantworten ordinal (Rangfolge, Abstände nicht gesichert, kein natürlicher Nullpunkt); Summen-/Mittelwert über mehrere Items wird in der Praxis als intervallskaliert (pseudometrisch) behandelt, was begründet werden muss; keine Verhältnisskala.",
+      "bewertungspunkte": [
+        "UV und AV richtig",
+        "Intelligenz als Störvariable",
+        "ordinal begründet",
+        "pseudometrisch/intervall als Praxis mit Begründung"
+      ],
+      "punkte": 4,
+      "erklaerung": "Folie 23, Aufgabe a03.",
+      "folie": "23"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f23",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Im Diagramm zu Beispiel 2 zeigen Pfeile von „Intelligenz“ auf Selbstregulation und auf Arbeitszufriedenheit. Was ist Intelligenz hier?",
+      "optionen": [
+        "eine Störvariable (Drittvariable), die den Zusammenhang verfälschen kann",
+        "die abhängige Variable",
+        "die unabhängige Variable der Fragestellung",
+        "ein Messinstrument"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Folie 23; vgl. Störvariablen aus Sitzung 02: Einflüsse, die nicht zur Fragestellung gehören, aber die AV beeinflussen können.",
+      "folie": "23"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f24",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Maße der zentralen Tendenz dem niedrigsten Skalenniveau zu, ab dem sie laut Folie 25 angemessen sind.",
+      "kategorien": [
+        "nominal",
+        "ordinal",
+        "intervall",
+        "Verhältnis"
+      ],
+      "elemente": [
+        {
+          "text": "Modus",
+          "kategorie": "nominal"
+        },
+        {
+          "text": "Median",
+          "kategorie": "ordinal"
+        },
+        {
+          "text": "Arithmetisches Mittel",
+          "kategorie": "intervall"
+        },
+        {
+          "text": "Geometrisches Mittel",
+          "kategorie": "Verhältnis"
+        }
+      ],
+      "erklaerung": "Folie 25 (vgl. Tausendpfund 2018, Tabelle 9, S. 124).",
+      "folie": "25"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f25",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Du hast ordinalskalierte Daten (z. B. Zufriedenheit „sehr niedrig“ bis „sehr hoch“, streng genommen). Welche Kennwerte bzw. Verfahren sind laut Folie 25 angemessen? (mehrere richtig)",
+      "optionen": [
+        "Median",
+        "Perzentile",
+        "Spearman's ρ",
+        "Arithmetisches Mittel",
+        "Modus"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Folie 25: ordinal → Median, Perzentile/IQR, Spearman's ρ, Kendall's τ … Was für nominal gilt (Modus), gilt auch für ordinal. Das arithmetische Mittel setzt gleiche Abstände (Intervall) voraus.",
+      "folie": "25"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f26",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum ist das Skalenniveau für die spätere Auswertung so wichtig?",
+      "antwort": "Es legt fest, welche Aussagen bedeutsam und damit welche Statistiken angemessen sind (Folie 19/25): z. B. Modus und χ²-Test bei nominalen, Median und Perzentile bei ordinalen, Mittelwert, Varianz und t-Test bei intervallskalierten Daten. Je höher das Niveau, desto mehr Information und desto mehr Verfahren sind zulässig.",
+      "erklaerung": "Folien 19 und 25 („Wichtige Information!!“); Tausendpfund 2018, S. 119.",
+      "folie": "25"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f27",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Definiere Konstrukt, Operationalisierung und Indikator, erkläre ihren Zusammenhang und gib ein eigenes Beispiel. (Tutorium WS 25/26, AB 2, Aufgabe 1)",
+      "musterloesung": "Konstrukt: theoretisches, nicht direkt beobachtbares Konzept. Operationalisierung: Beobachtbar-Machen des Konstrukts (Konzeptspezifikation, Variablen bilden, Ausprägungen festlegen). Indikator: beobachtbarer Sachverhalt, der das Konzept abbildet. Zusammenhang: Über die Operationalisierung wird dem Konstrukt ein Indikator zugeordnet, über den gemessen wird. Beispiel: Lesemotivation → Fragebogen mit Ratingskala → Mittelwert als Kennwert.",
+      "bewertungspunkte": [
+        "drei Definitionen",
+        "Zusammenhang als Kette",
+        "eigenes passendes Beispiel"
+      ],
+      "punkte": 3,
+      "erklaerung": "Aufgabe a04.",
+      "folie": "Tutorium AB 2"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f28",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Hypothese: „Homeoffice steigert die Arbeitszufriedenheit von Arbeitnehmer*innen.“ Bestimme uV und aV und operationalisiere beide (Indikatoren und Ausprägungen). (Tutorium WS 25/26, AB 2, Aufgabe 2)",
+      "musterloesung": "uV: Homeoffice; aV: Arbeitszufriedenheit. Homeoffice z. B. als Tage pro Woche im Homeoffice (0–5, Verhältnisskala) oder ja/nein (dichotom, nominal). Arbeitszufriedenheit z. B. „Wie zufrieden sind Sie insgesamt mit Ihrer Arbeit?“ 1 = sehr unzufrieden bis 5 = sehr zufrieden (ordinal, oft pseudometrisch) oder Mittelwert mehrerer Items.",
+      "bewertungspunkte": [
+        "uV und aV richtig",
+        "Indikator + Ausprägungen Homeoffice",
+        "Indikator + Ausprägungen Zufriedenheit"
+      ],
+      "punkte": 3,
+      "erklaerung": "Aufgabe a05.",
+      "folie": "Tutorium AB 2"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f29",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Definiere „Messen“ und nenne drei Probleme, die beim Messen auftreten. (Tutorium WS 25/26, AB 2, Aufgabe 3 a/c)",
+      "musterloesung": "Messen: Zuordnung von Zahlen zu Objekten nach bestimmten Regeln bzw. strukturerhaltende (homomorphe) Abbildung eines empirischen in ein numerisches Relativ. Probleme: Repräsentationsproblem (Ist Messung möglich?), Eindeutigkeitsproblem (zulässige Transformationen, Skalenniveau), Bedeutsamkeitsproblem (welche Aussagen/Statistiken sind empirisch sinnvoll?).",
+      "bewertungspunkte": [
+        "Definition Messen",
+        "Repräsentationsproblem",
+        "Eindeutigkeitsproblem",
+        "Bedeutsamkeitsproblem"
+      ],
+      "punkte": 4,
+      "erklaerung": "Aufgabe a06.",
+      "folie": "Tutorium AB 2"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f30",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Motivation wird mit „sehr niedrig“ = 1 bis „sehr hoch“ = 5 erfasst. Beschreibe das empirische und das numerische Relativ. (Tutorium WS 25/26, AB 2, Aufgabe 4)",
+      "musterloesung": "Empirisches Relativ: die Motivationsausprägungen sehr niedrig … sehr hoch mit der Beziehung „ist motivierter als“. Numerisches Relativ: die Zahlen 1–5 mit „>“. Die Zuordnung ist strukturerhaltend (höhere Motivation → größere Zahl); Abstände haben keine Bedeutung → ordinal.",
+      "bewertungspunkte": [
+        "empirisches Relativ mit Relation",
+        "numerisches Relativ mit Relation",
+        "Strukturerhaltung erklärt"
+      ],
+      "punkte": 3,
+      "erklaerung": "Aufgabe a07.",
+      "folie": "Tutorium AB 2"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f31",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Bestimme das höchstmögliche Skalenniveau. (Tutorium WS 25/26, AB 2, Aufgabe 5)",
+      "kategorien": [
+        "nominal",
+        "ordinal",
+        "intervall",
+        "Verhältnis"
+      ],
+      "elemente": [
+        {
+          "text": "Studienfach",
+          "kategorie": "nominal"
+        },
+        {
+          "text": "Temperatur in Celsius",
+          "kategorie": "intervall"
+        },
+        {
+          "text": "Lieblingsfarbe",
+          "kategorie": "nominal"
+        },
+        {
+          "text": "Platzierung bei einem Wettbewerb",
+          "kategorie": "ordinal"
+        },
+        {
+          "text": "Geschlecht",
+          "kategorie": "nominal"
+        },
+        {
+          "text": "Schulnoten",
+          "kategorie": "ordinal"
+        },
+        {
+          "text": "Einkommen in Euro",
+          "kategorie": "Verhältnis"
+        }
+      ],
+      "erklaerung": "Aufgabe a08: Rangfolge? gleiche Abstände? natürlicher Nullpunkt?",
+      "folie": "Tutorium AB 2"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f32",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Klausur WS 25/26, Aufgabe 8: „Bitte geben sie an, welches Skalenniveau diese Variablen höchstens ausweisen können und begründen sie ihre Aussage: Pflegestufe eines Patienten, Frauenanteil im Lehramtsstudium der Uni Vechta, Blutgruppe(n).“",
+      "musterloesung": "Pflegestufe: ordinal – Rangfolge (mehr Pflegebedarf), aber ungleiche Abstände, kein natürlicher Nullpunkt. Frauenanteil: Verhältnisskala – gleiche Abstände (Prozentpunkte) und natürlicher Nullpunkt (0 % = keine Frauen), „doppelt so hoch“ sinnvoll. Blutgruppe: nominal – nur verschiedene Kategorien (A, B, AB, 0), keine Rangfolge.",
+      "bewertungspunkte": [
+        "Pflegestufe ordinal mit Begründung",
+        "Frauenanteil Verhältnisskala mit Begründung",
+        "Blutgruppe nominal mit Begründung"
+      ],
+      "punkte": 3,
+      "erklaerung": "Aufgabe a09 (selbst erarbeitet).",
+      "folie": "Klausur WS 25/26"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f33",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Transfer Schule: Du willst prüfen, ob regelmäßiges Vorlesen im Unterricht das Leseinteresse von Drittklässlern steigert. Operationalisiere UV und AV (Indikator, Ausprägungen) und gib jeweils das Skalenniveau mit Begründung an.",
+      "musterloesung": "UV: Vorlesen – z. B. Klassen mit täglichem Vorlesen vs. ohne (Gruppierungsvariable, dichotom, nominal) oder Vorleseminuten pro Woche (Verhältnisskala). AV: Leseinteresse – z. B. kindgerechter Fragebogen mit mehreren Aussagen („Ich lese gern“) und vierstufiger Antwortskala (Items ordinal, Mittelwert pseudometrisch, begründen) oder Anzahl ausgeliehener Bücher pro Monat (Verhältnisskala, natürlicher Nullpunkt). Ausprägungen disjunkt und erschöpfend.",
+      "bewertungspunkte": [
+        "UV operationalisiert mit Skalenniveau",
+        "AV operationalisiert mit Skalenniveau",
+        "Begründungen (Rangfolge/Abstände/Nullpunkt)",
+        "Ausprägungen sinnvoll"
+      ],
+      "punkte": 4,
+      "erklaerung": "Eigene Transferaufgabe.",
+      "folie": "5–7, 21"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f34",
+      "baustein": "transfer",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Welche Aussagen sind empirisch bedeutsam? (mehrere richtig)",
+      "optionen": [
+        "„Lisa (Reaktionszeit 300 ms) reagiert doppelt so schnell wie Tom (600 ms).“",
+        "„Heute ist es mit 20 °C doppelt so warm wie gestern mit 10 °C.“",
+        "„Die Temperatur ist heute um 10 Grad gestiegen, gestern nur um 5 Grad – der Anstieg heute war doppelt so groß.“",
+        "„Das durchschnittliche Geschlecht der Klasse beträgt 1,4.“"
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Reaktionszeit: Verhältnisskala → Verhältnisse bedeutsam. °C: Verhältnisse von Temperaturen nicht bedeutsam (Folie 20), Verhältnisse von Differenzen schon (Differenzen werden bei °C → °F nur mit 1,8 multipliziert). Geschlecht ist nominal → Mittelwert der Kodes hängt von der willkürlichen Kodierung ab.",
+      "folie": "19–21"
+    },
+    {
+      "pruefungsrelevant": true,
+      "id": "f35",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Eine Verhältnisskala hat zusätzlich zu gleichen Abständen einen natürlichen [[Nullpunkt]].",
+      "erklaerung": "Folie 21: „Es gibt einen natürlichen Nullpunkt in dieser Skala: CHF 0“.",
+      "folie": "21"
+    }
+  ],
+  "pruefungshinweise": [
+    "Folie 25: „Wichtige Information!! Schlägt die Brücke zur Verwendung von verschiedenen statistischen Kennwerten …“ – Zuordnung Skalenniveau → Modus/Median/Mittelwert, Perzentile/Varianz, χ²-Test/t-Test.",
+    "Klausur WS 25/26, Aufgabe 8: höchstmögliches Skalenniveau für Variablen angeben und begründen (Pflegestufe, Frauenanteil, Blutgruppe) – typischer Aufgabentyp.",
+    "Tutorium WS 25/26, Aufgabenblatt 2: Konstrukt/Operationalisierung/Indikator definieren, Hypothese operationalisieren, Messen definieren, drei Probleme des Messens, empirisches/numerisches Relativ, Skalenniveaus bestimmen.",
+    "Bedeutsamkeit am Temperaturbeispiel (Folie 20) – „doppelt so warm“ ist bei °C nicht bedeutsam; mit Umrechnung nach °F begründen."
+  ],
+  "offene_fragen": [
+    "Vorläufig aufbereitet aus den Folien des WS 25/26 (04_ewb002vor_Op_Mess_Skalenniveaus_wise25_26.pdf), weil die Folien für WS 26/27 noch nicht in Stud.IP sind (Stand 01.11.2026). Die VL-Folien 02 und 03 waren im WS 26/27 bis auf Kleinigkeiten identisch – nach Upload abgleichen.",
+    "Folie 22: Wie sah die „graphische Skala“ für das Befinden aus (abgestufte Kästchen/Gesichter oder durchgehende Linie)? Davon hängt ab, ob ordinal oder (pseudo-)intervallskaliert die erwartete Antwort ist.",
+    "Folie 21: Die Spalte heißt „Zulässige Transformationen“, zeigt aber die Relationen (=, <, Differenzen, Verhältnisse). Sollen in der Klausur auch die Transformationen selbst (z. B. positiv linear bei Intervall) genannt werden?"
+  ],
+  "auffaelligkeiten": [
+    "Grundlage sind die Folien des WS 25/26 – alle Folienangaben nach Upload der WS-26/27-Folien prüfen.",
+    "Folie 9: „Reflektion“ statt „Reflexion“.",
+    "Folien 10–12: „Neandertals“ statt „Neandertaler“.",
+    "Folie 7 wiederholt Folie 5 und ergänzt nur die Aufgabe (Animationsschritt).",
+    "Folien 17–19 und 24: Geschlecht als polytomes Merkmal (männlich, weiblich, divers); Folie 21 dagegen nur „Mann = 0, Frau = 1“.",
+    "Folie 21: Spaltenüberschrift „Zulässige Transformationen“, darunter stehen aber die erlaubten Relationen, keine Transformationen.",
+    "Folie 22: „Welches Skalenniveaus“ (Grammatik).",
+    "Folie 24: Definition „S.S. Stevens, 1951“; Tausendpfund (2018) zitiert Stevens 1946 – beides sind Texte von Stevens, aber unterschiedliche Jahresangaben.",
+    "Folie 25: Tabelle teils englisch („Significanztests“, „Friedman's or“); in der Zeile Intervall steht nur „Arithmetisches“, das hervorgehobene „Mittel“ steht in der Zeile Verhältnis (gemeint ist vermutlich „arithmetisches Mittel“ bei Intervall); Zeile Verhältnis ohne Korrelation und Tests (dort gelten die Verfahren der Intervallzeile mit).",
+    "Tutorium WS 25/26, Aufgabenblatt 2: In Aufgabe 3 fehlt Teilaufgabe b (a, c, d, e)."
+  ]
+}

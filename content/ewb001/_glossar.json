@@ -110,7 +110,7 @@
       "begriff": "Lernen",
       "wortlaut": "alle erfahrungsbedingten, auch unbewussten und nicht geplanten Veränderungen der Verhaltensmöglichkeiten von Organismen",
       "erklaerung": "Jede Veränderung dessen, was jemand tun kann, die durch Erfahrung entsteht – auch ungeplant und unbewusst (nach Stein 2017, S. 89 f.).",
-      "quelle": "ewb001.2_2026-10-13 · Folie 21",
+      "quelle": "ewb001.2_2026-10-13 · Folie 21 · ewb001.2_2026-11-03 · Folie 4",
       "abweichungen": []
     },
     {
@@ -124,7 +124,7 @@
       "begriff": "Lernen (Ludwig 2020)",
       "wortlaut": "Lernen ist ein kognitiver Vorgang der Informationsverarbeitung und -speicherung, der das psychische Dispositionsgefüge eines Menschen verändert.",
       "erklaerung": "Lernen als Verarbeitung und Speicherung von Informationen im Kopf, wodurch sich Wissen und Einstellungen ändern.",
-      "quelle": "ewb001.2_2026-10-13 · Folie 21",
+      "quelle": "ewb001.2_2026-10-13 · Folie 21 · ewb001.2_2026-11-03 · Folie 15",
       "abweichungen": []
     },
     {
@@ -398,7 +398,12 @@
       "wortlaut": "Systeme sind autopoietisch, d.h., sie bringen sich immer wieder selbst hervor, und selbstreferentiell, d.h., sie können sich auf sich selbst beziehen",
       "erklaerung": "Grundbegriffe der Systemtheorie (Luhmann): Teilsysteme der Gesellschaft (Erziehung, Wirtschaft, Politik …) erzeugen und steuern sich selbst und kommunizieren mit eigenen Codes.",
       "quelle": "ewb001.2_2026-10-27 · Folie 7",
-      "abweichungen": []
+      "abweichungen": [
+        {
+          "quelle": "ewb001.2_2026-11-03 · Folie 18",
+          "hinweis": "Im Konstruktivismus bezogen auf das Gehirn: „jedes Gehirn arbeitet notwendigerweise konstruktiv, d.h. selbsterzeugend“ – siehe Eintrag „Autopoiesis (Konstruktivismus)“."
+        }
+      ]
     },
     {
       "begriff": "Doing gender",
@@ -491,14 +496,24 @@
       "wortlaut": "Erkenntnisse aus den Tierexperimenten werden auf den Menschen übertragen (klassische Konditionierung) (Stangl, 2020)",
       "erklaerung": "Ein neutraler Reiz (Glocke) wird durch Kopplung mit einem unkonditionierten Reiz (Futter) zum konditionierten Reiz und löst allein die konditionierte Reaktion (Speichelfluss) aus.",
       "quelle": "ewb001.1_2026-11-03 · Folie 17; Video",
-      "abweichungen": []
+      "abweichungen": [
+        {
+          "quelle": "ewb001.2_2026-11-03 · Folie 8",
+          "hinweis": "Rieckmann gibt die Lern-Definition nach Stein 2017: „Verknüpfung von Reizen mit Reaktionen, die ursprünglich nicht miteinander in Zusammenhang standen“ – siehe Eintrag „Klassische Konditionierung (Lernbegriff)“; keine Widersprüche, andere Blickrichtung."
+        }
+      ]
     },
     {
       "begriff": "Operante Konditionierung (Skinner)",
       "wortlaut": "Annahme: Der Mensch zeigt dasjenige Verhalten, das belohnt wird und unterlässt ein Verhalten, das nicht belohnt oder sogar bestraft wird (z.B. Skinner).",
       "erklaerung": "Lernen durch Konsequenzen; diskontinuierliche Verstärkung wirkt besonders stark (Video).",
       "quelle": "ewb001.1_2026-11-03 · Folie 18",
-      "abweichungen": []
+      "abweichungen": [
+        {
+          "quelle": "ewb001.2_2026-11-03 · Folie 11",
+          "hinweis": "Rieckmann (Stein 2017): „… versteht unter Lernen die Formung und Erhöhung der Auftretenswahrscheinlichkeit eines bestimmten Verhaltens durch Verstärkung“ – siehe Eintrag „Instrumentelle bzw. operante Konditionierung (Lernbegriff)“."
+        }
+      ]
     },
     {
       "begriff": "Sensible / kritische Phasen",
@@ -533,6 +548,146 @@
       "wortlaut": "Beispiel für die grafische Darstellung von Umweltbeziehungen und Sozialisationsinstanzen: Genogramm",
       "erklaerung": "Zeigt die soziale Umwelt (wichtige frühere und gegenwärtige Bezugspersonen) mit festen Symbolen – nichts mit Genen.",
       "quelle": "ewb001.1_2026-11-03 · Folie 49–50",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Klassische Konditionierung (Lernbegriff)",
+      "wortlaut": "Lernen = „Verknüpfung von Reizen mit Reaktionen, die ursprünglich nicht miteinander in Zusammenhang standen“ (Stein 2017, S. 93 ff.)",
+      "erklaerung": "Ein neutraler Reiz wird durch enge zeitliche Kopplung mit einem unkonditionierten Reiz zum konditionierten Reiz und löst allein die Reaktion aus (Pawlow, Watson).",
+      "quelle": "ewb001.2_2026-11-03 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Unkonditionierter Reiz / unkonditionierte Reaktion",
+      "wortlaut": "Unkonditionierter Reiz > löst reflexhaft in jedem Fall ein bestimmtes Verhalten aus (unkonditionierte Reaktion)",
+      "erklaerung": "Ein angeborener Reflex, z. B. Futter → Speichelfluss beim Hund.",
+      "quelle": "ewb001.2_2026-11-03 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kontiguität",
+      "wortlaut": "Kontiguität: Enge zeitliche Verbindung des unkonditionierten und des konditionierten Reizes",
+      "erklaerung": "Damit die Kopplung gelingt, müssen beide Reize zeitlich nah beieinander auftreten (nicht mit „Kontinuität“ verwechseln).",
+      "quelle": "ewb001.2_2026-11-03 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Extinktion oder Löschung",
+      "wortlaut": "Extinktion oder Löschung",
+      "erklaerung": "Wird die Kopplung (klassische Konditionierung) bzw. die Verstärkung (instrumentelle Konditionierung) längere Zeit nicht aufrechterhalten, verschwindet das gelernte Verhalten wieder.",
+      "quelle": "ewb001.2_2026-11-03 · Folie 8, 11",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Mensch als black box (Watson)",
+      "wortlaut": "Mensch als black box (Watson)",
+      "erklaerung": "Im Behaviorismus betrachtet man nur Reiz und Reaktion von außen; was im Inneren passiert, bleibt unbekannt.",
+      "quelle": "ewb001.2_2026-11-03 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Instrumentelle bzw. operante Konditionierung (Lernbegriff)",
+      "wortlaut": "Lernen = „Die operante oder instrumentelle Konditionierung versteht unter Lernen die Formung und Erhöhung der Auftretenswahrscheinlichkeit eines bestimmten Verhaltens durch Verstärkung.“ (Stein 2017, S. 95 ff.)",
+      "erklaerung": "Lernen durch die Folgen des eigenen Verhaltens (Thorndike, Skinner); Bestrafung kommt in der Definition nicht vor.",
+      "quelle": "ewb001.2_2026-11-03 · Folie 11",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Positive Verstärkung",
+      "wortlaut": "Erhöhung des Auftretens eines Verhaltens durch positive Verstärkung (positive Konsequenz)",
+      "erklaerung": "Auf ein Verhalten folgt etwas Angenehmes → das Verhalten wird häufiger (Ratte drückt Hebel → Futter).",
+      "quelle": "ewb001.2_2026-11-03 · Folie 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Negative Verstärkung",
+      "wortlaut": "Erhöhung des Auftretens eines Verhaltens durch … negative Verstärkung (Ausbleiben einer negativen Konsequenz)",
+      "erklaerung": "Auf ein Verhalten fällt etwas Unangenehmes weg → das Verhalten wird häufiger (Hebel unterbricht den Strom). Keine Bestrafung!",
+      "quelle": "ewb001.2_2026-11-03 · Folie 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Bestrafung",
+      "wortlaut": "Verminderung des Auftretens eines Verhaltens durch Bestrafung",
+      "erklaerung": "Auf ein Verhalten folgt eine unangenehme Konsequenz → das Verhalten wird seltener; aus heutiger Sicht nicht Mittel der Wahl.",
+      "quelle": "ewb001.2_2026-11-03 · Folie 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Verstärkerarten",
+      "wortlaut": "primäre Verstärker (Nahrung, Sex), materiale Verstärker (Kleidung, Spielsachen etc.), soziale Verstärker (Zuwendung, gemeinsame Zeit etc.) und generalisierte Verstärker (Geld)",
+      "erklaerung": "Vier Arten von Belohnungen; generalisiert heißt: Geld lässt sich gegen vieles andere eintauschen.",
+      "quelle": "ewb001.2_2026-11-03 · Folie 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Modelllernen (Lernbegriff)",
+      "wortlaut": "Lernen = „Unter Modelllernen versteht man einen Lernprozess, bei dem sich ein Beobachter durch die Beobachtung des Verhaltens eines Modells sowie der Konsequenzen dieses Verhaltens neue Verhaltensweisen aneignet oder bestehende Verhaltensmuster verändert.“ (Stein 2017, S. 98 ff.)",
+      "erklaerung": "Soziales Lernen (Bandura), auch Nachahmungs- oder Beobachtungslernen: Man lernt am Vorbild und an den Folgen, die das Vorbild erlebt.",
+      "quelle": "ewb001.2_2026-11-03 · Folie 13",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Vier Phasen des Modelllernens",
+      "wortlaut": "I. Aneignungsphase: 1. Aufmerksamkeitszuwendung, 2. Gedächtnis- oder Behaltensphase; II. Ausführungsphase: 3. motorische Reproduktion, 4. Motivationsprozesse",
+      "erklaerung": "In der Aneignungsphase wird gelernt, in der Ausführungsphase wird das Gelernte gezeigt – wenn man es kann und es sich lohnt.",
+      "quelle": "ewb001.2_2026-11-03 · Folie 12",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kognitive oder konstruktivistische Lerntheorie (Lernbegriff)",
+      "wortlaut": "Lernen = „Die kognitive oder konstruktivistische Lerntheorie versteht unter Lernen im weitesten Sinne Informationsverarbeitung und Gedächtnisspeicherprozesse, welche eine Einfügung neuer Wissensinhalte in bestehende kognitive Strukturen bedingen.“ (Stein 2017, S. 102 ff.)",
+      "erklaerung": "Neues wird über die Sinne aufgenommen, verarbeitet, gespeichert und an Vorwissen angeknüpft; der Mensch ist keine Black Box mehr.",
+      "quelle": "ewb001.2_2026-11-03 · Folie 14",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Wissensarten",
+      "wortlaut": "deklaratives (Fakten)wissen, episodisches (Biographie)wissen, prozedurales (Ausführungs)wissen",
+      "erklaerung": "Wissen, dass … (Fakten) · Erinnerung an Selbsterlebtes · Können, wie … (z. B. eine Rechenaufgabe lösen).",
+      "quelle": "ewb001.2_2026-11-03 · Folie 14",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Konstruktivismus",
+      "wortlaut": "Konstruktivismus: Einzelne = aktive*r Konstrukteur*in ihrer*seiner Wirklichkeit",
+      "erklaerung": "Jede Person baut aus ihren Erfahrungen ihre eigene Wirklichkeit; Lernprozesse verlaufen deshalb bei jedem anders.",
+      "quelle": "ewb001.2_2026-11-03 · Folie 14",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Akquisitionsphase / Applikationsphase (Ludwig)",
+      "wortlaut": "Lernen → Dispositionsveränderung (Akquisitionsphase) → Verhaltensänderung (Applikationsphase) (Ludwig 2020, S. 154)",
+      "erklaerung": "Erwerbsphase: Im Kopf ändert sich etwas. Anwendungsphase: Das Gelernte wird vielleicht im Verhalten sichtbar.",
+      "quelle": "ewb001.2_2026-11-03 · Folie 15",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Psychische Dispositionen",
+      "wortlaut": "psychische Dispositionen als Lernergebnis (Ludwig 2020, S. 157)",
+      "erklaerung": "Die im Menschen angelegten Voraussetzungen – laut Video letztlich Wissen, Fertigkeiten, Fähigkeiten und Kompetenzen.",
+      "quelle": "ewb001.2_2026-11-03 · Folie 15",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Autopoiesis (Konstruktivismus)",
+      "wortlaut": "Autopoiesis: jedes Gehirn arbeitet notwendigerweise konstruktiv, d.h. selbsterzeugend.",
+      "erklaerung": "Das Gehirn ist ein geschlossenes System, das Reize filtert und daraus selbst Wirklichkeit erzeugt (vgl. Luhmann, S03).",
+      "quelle": "ewb001.2_2026-11-03 · Folie 18",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Perturbation",
+      "wortlaut": "Perturbation als Auslöser von Lernprozessen",
+      "erklaerung": "Perturbation = Störung: Informationen, die nicht in die eigene Wirklichkeit passen, können starke Lernprozesse auslösen – oder zurückgewiesen werden.",
+      "quelle": "ewb001.2_2026-11-03 · Folie 20",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Ermöglichungsdidaktik",
+      "wortlaut": "Ermöglichungsdidaktik statt Belehrungsdidaktik",
+      "erklaerung": "Weil sich Wissen nicht direkt übertragen lässt, gestalten Lehrende Lernräume, in denen sich jede*r Inhalte im eigenen Tempo und auf eigene Art erschließt.",
+      "quelle": "ewb001.2_2026-11-03 · Folie 20",
       "abweichungen": []
     }
   ]

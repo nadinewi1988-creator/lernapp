@@ -1,0 +1,1087 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb001",
+  "teilmodul": "ewb001.2",
+  "datum": "2026-11-03",
+  "sitzung_nr": 4,
+  "sitzung_id": "",
+  "thema": "Lernen I – Begriffsklärung, Lehren und Lernen, Konditionierung, Soziales Lernen, Kognitivismus, Konstruktivismus, Systemtheorie",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Courseware-Einheit 04 (Folien + eingesprochenes Video aus einem früheren Semester, 38 Min.), vorab aufbereitet am 01.11.2026. Laut Ankündigung von Prof. Rieckmann (Stud.IP, 28.10.2026) bis zur Präsenzsitzung am 03.11.2026 das Video und gerne auch die Literatur ansehen – ausgearbeitet in der Hausaufgabe h01 aus S03. Die Folien der Präsenzsitzung am 03.11. liegen noch nicht vor und werden nachgetragen.",
+  "quellen": [
+    {
+      "datei": "ewb001.2/Sitzung_04/04_ewb001.2_Lernen_I.pdf",
+      "art": "Folien (Courseware-Einheit 04)",
+      "seiten": "1–23"
+    },
+    {
+      "datei": "ewb001.2/Sitzung_04/04_ewb001.2_Transkript_Zusammenfassung.docx",
+      "art": "Transkript des eingesprochenen Videos (38 Min.)",
+      "seiten": ""
+    },
+    {
+      "datei": "ewb001.2/Sitzung_04/04_Stein2024_Lernen.pdf",
+      "art": "Selbststudium (Folie 21): Stein 2024, Kap. 5 – ausgearbeitet in Hausaufgabe h01 aus S03",
+      "seiten": "104–119"
+    },
+    {
+      "datei": "ewb001.2/Sitzung_04/04_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_8_Lernen.pdf",
+      "art": "Selbststudium (Folie 21): Gudjons/Traub 2016, Kap. 8 – ausgearbeitet in Hausaufgabe h01 aus S03",
+      "seiten": "219–238"
+    },
+    {
+      "datei": "ewb001.2/Sitzung_04/04_Beck2022_Die_Symphonie_des_Denkens.pdf",
+      "art": "Zusatztext Einheit 04 (Forschung & Lehre 5/22)",
+      "seiten": "356–357"
+    },
+    {
+      "datei": "ewb001.2/Sitzung_04/04_Metzinger2022_Denkt_die_Person_oder_das_Gehirn.pdf",
+      "art": "Zusatztext Einheit 04 (Forschung & Lehre 5/22)",
+      "seiten": "353–354"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Du kannst den Lernbegriff nach Stein erklären und begründen, warum Lernen die Verhaltensmöglichkeiten verändert – nicht zwingend das Verhalten.",
+      "art": "abgeleitet",
+      "quelle": "Folie 4; Video",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03"
+      ],
+      "erklaerung_abschnitt": "Was ist Lernen? Begriffsklärung"
+    },
+    {
+      "text": "Du kannst die klassische Konditionierung (Pawlow, Watson) mit ihren Fachbegriffen am Beispiel des Pawlowschen Hundes erklären.",
+      "art": "abgeleitet",
+      "quelle": "Folien 5–8",
+      "fragen": [
+        "f04",
+        "f05",
+        "f06",
+        "f07",
+        "f08"
+      ],
+      "erklaerung_abschnitt": "Behaviorismus I: Klassische Konditionierung (Pawlow, Watson)"
+    },
+    {
+      "text": "Du kannst die instrumentelle bzw. operante Konditionierung (Thorndike, Skinner) erklären und positive Verstärkung, negative Verstärkung und Bestrafung sicher unterscheiden.",
+      "art": "abgeleitet",
+      "quelle": "Folien 9–11",
+      "fragen": [
+        "f09",
+        "f10",
+        "f11",
+        "f12",
+        "f13",
+        "f14"
+      ],
+      "erklaerung_abschnitt": "Behaviorismus II: Instrumentelle bzw. operante Konditionierung (Thorndike, Skinner)"
+    },
+    {
+      "text": "Du kannst das soziale Lernen (Bandura) mit seinen vier Phasen beschreiben und an einem Beispiel zeigen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 12–13",
+      "fragen": [
+        "f15",
+        "f16",
+        "f17",
+        "f18"
+      ],
+      "erklaerung_abschnitt": "Soziales Lernen / Modelllernen (Bandura)"
+    },
+    {
+      "text": "Du kannst Kognitivismus und Konstruktivismus erklären, die drei Wissensarten unterscheiden und das Schaubild nach Ludwig wiedergeben.",
+      "art": "abgeleitet",
+      "quelle": "Folien 14–15",
+      "fragen": [
+        "f19",
+        "f20",
+        "f21",
+        "f22",
+        "f23"
+      ],
+      "erklaerung_abschnitt": "Kognitivismus und Konstruktivismus – gemeinsame Grundannahmen"
+    },
+    {
+      "text": "Du kannst die Grundidee des Konstruktivismus („eine Realität, viele Wirklichkeiten“) erklären und seine pädagogischen Folgen benennen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 16–20",
+      "fragen": [
+        "f24",
+        "f25",
+        "f26",
+        "f27",
+        "f28",
+        "f32"
+      ],
+      "erklaerung_abschnitt": "Pädagogische Implikationen des Konstruktivismus"
+    },
+    {
+      "text": "Du kannst die vier Lerntheorien vergleichen und auf eine Situation aus Schule oder Unterricht anwenden.",
+      "art": "abgeleitet",
+      "quelle": "Folien 5–20",
+      "fragen": [
+        "f29",
+        "f30",
+        "f31"
+      ],
+      "erklaerung_abschnitt": "Die Lerntheorien im Vergleich"
+    }
+  ],
+  "kurzfassung": [
+    "Lernen = „alle erfahrungsbedingten, auch unbewussten und nicht geplanten Veränderungen der Verhaltensmöglichkeiten von Organismen“ (Stein 2017) – es verändert zuerst die Möglichkeiten, nicht zwingend das sichtbare Verhalten.",
+    "Klassische Konditionierung (Pawlow, Watson): Ein neutraler Reiz wird durch enge zeitliche Kopplung (Kontiguität) mit einem unkonditionierten Reiz zum konditionierten Reiz; ohne Kopplung kommt es zur Extinktion. Der Mensch gilt als Black Box.",
+    "Instrumentelle/operante Konditionierung (Thorndike, Skinner): Positive und negative Verstärkung erhöhen das Auftreten eines Verhaltens, Bestrafung vermindert es. Unregelmäßige, große Verstärkung wirkt am dauerhaftesten.",
+    "Soziales Lernen (Bandura): Lernen durch Beobachtung eines Modells und der Konsequenzen seines Verhaltens – vier Phasen in Aneignungs- und Ausführungsphase.",
+    "Kognitivismus und Konstruktivismus: Der Mensch ist keine Black Box mehr; Lernen ist Informationsverarbeitung und Speicherung, die neue Wissensinhalte in bestehende kognitive Strukturen einfügt. Drei Wissensarten: deklarativ, episodisch, prozedural.",
+    "Konstruktivismus: eine Realität, viele Wirklichkeiten – jedes Gehirn arbeitet autopoietisch (selbsterzeugend). Folgen: Lernergebnisse nicht vorhersagbar, Perturbation löst Lernen aus, Ermöglichungsdidaktik statt Belehrungsdidaktik."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Einordnung und Aufbau der Sitzung",
+      "folien": "1–3",
+      "beispiel": "",
+      "text": "**Folien 1–3:** Mit Einheit 04 beginnt der Themenblock **Lernen**, der zwei Sitzungen umfasst. Nach den theoretischen Strömungen (S02, S03) geht es zurück zu den vier **Säulen der Pädagogik** aus S01 – Sozialisation, Erziehung, Bildung und Lernen. An erster Stelle steht jetzt der Lernbegriff [00:32].\n\nAufbau laut Video [00:48]: Begriffsklärung → Behaviorismus (klassische und instrumentelle Konditionierung) → soziales Lernen → Kognitivismus und Konstruktivismus → pädagogische Folgen des Konstruktivismus. In **Lernen II** (10.11.) folgen Lernstrategien, Attribuierung, Motivation, Didaktik und Leistungsmessung.\n\n**Kurz erklärt:** Eine **Lerntheorie** ist ein Erklärungsmodell dafür, *wie* Lernen zustande kommt. Die Theorien dieser Sitzung stehen in einer zeitlichen Reihe: Erst schaute man nur von außen auf Reiz und Reaktion (Behaviorismus), dann auf Vorbilder (soziales Lernen), schließlich auf das, was im Kopf passiert (Kognitivismus, Konstruktivismus). Jede Theorie hat eine **eigene Definition von Lernen** – genau diese Definitionen stehen auf den Folien."
+    },
+    {
+      "titel": "Was ist Lernen? Begriffsklärung",
+      "folien": "4",
+      "beispiel": "Ein Kind sieht, wie die große Schwester eine Brotdose öffnet. Es macht es nicht gleich nach – aber es *könnte* es jetzt. Seine Verhaltensmöglichkeiten haben sich verändert, sein Verhalten (noch) nicht.",
+      "text": "**Folie 4:**\n- Aneignen von Kenntnissen oder Wissen bzw. Erwerb von Kompetenzen\n- „alle erfahrungsbedingten, auch unbewussten und nicht geplanten Veränderungen der Verhaltensmöglichkeiten von Organismen“ (Stein 2017, S. 89 f.)\n- Bewusstes und unbewusstes Lernen\n\n**Drei Punkte aus dem Video:**\n1. **Erfahrungsbedingt** – Lernen entsteht aus Erfahrung.\n2. **Verhaltensmöglichkeiten**, nicht Verhalten [01:48]: Verändert und erweitert werden die **Dispositionen**, über die ein Mensch verfügt. Eine sichtbare Verhaltensänderung kann folgen, muss aber nicht.\n3. **Bewusst und unbewusst** [02:00]: Manchmal weiß und plant man, dass man lernt; manchmal merkt man es im Moment gar nicht und reflektiert es vielleicht erst später. Daran knüpft später die Unterscheidung von formalen, non-formalen und informellen Lernsettings an [02:29].\n\n> **Wichtig:** Diese Definition kennst du schon aus S01 (Säulen der Pädagogik). Sie ist die gemeinsame Grundlage – jede Lerntheorie danach füllt sie anders.\n\n**Kurz erklärt:** Im Alltag denkt man bei „Lernen“ an Vokabeln und Schule. Die Pädagogik fasst den Begriff viel weiter: Auch Ängste, Vorurteile oder Gewohnheiten werden gelernt – oft ohne Absicht. Eine **Disposition** ist eine innere Voraussetzung, also Wissen, Fähigkeiten, Fertigkeiten, Kompetenzen. Lernen verändert diese Voraussetzungen; ob man sie dann auch zeigt, ist eine zweite Frage.\n\n**Prüfungsfalle:** In der Definition steht **Verhaltensmöglichkeiten** – nicht „Verhalten“ und nicht „Verhaltensänderung“. Und sie umfasst ausdrücklich auch **unbewusste und nicht geplante** Veränderungen. Veränderungen allein durch Reifung (z. B. Stimmbruch) sind nicht erfahrungsbedingt und damit kein Lernen (Gudjons/Traub 2016, S. 220)."
+    },
+    {
+      "titel": "Behaviorismus I: Klassische Konditionierung (Pawlow, Watson)",
+      "folien": "5–8",
+      "beispiel": "Ein Kind hat beim Arzt immer eine Spritze bekommen, und der Arzt trug dabei einen weißen Kittel. Nach einiger Zeit macht schon der weiße Kittel allein Angst (Gudjons/Traub 2016, S. 221).",
+      "text": "**Folie 5:** Der **Behaviorismus** (auch: Konditionierung) hat zwei Richtungen: die **klassische Konditionierung** und die **instrumentelle bzw. operante Konditionierung** [02:43].\n\n**Folie 6** (Stein 2017, S. 93 ff.) – Vertreter: **Pawlow (1849–1936)** und **Watson (1878–1958)**\n- **Unkonditionierter Reiz** > löst reflexhaft in jedem Fall ein bestimmtes Verhalten aus (**unkonditionierte Reaktion**)\n- **Kopplung** dieses Reizes mit einem anderen Reiz, der ursprünglich **neutral** ist und keine reflexhaften Reaktionen auslöst\n- Auslösen einer **konditionierten Reaktion**\n- **Kontiguität:** enge zeitliche Verbindung des unkonditionierten und des konditionierten Reizes\n\n**Folie 7 – der Pawlowsche Hund** (Video [04:50]):\n\n| Schritt | Reiz | Reaktion |\n| --- | --- | --- |\n| vorher | Futter = unkonditionierter Reiz | Speichelfluss = unkonditionierte Reaktion |\n| vorher | Glocke = neutraler Reiz | keine bestimmte Reaktion (der Hund schaut höchstens neugierig) |\n| Kopplung | Glocke läutet immer in engem zeitlichem Zusammenhang mit dem Futter | Speichelfluss |\n| nachher | Glocke allein = konditionierter Reiz | Speichelfluss = konditionierte Reaktion |\n\n**Folie 8:**\n- **Extinktion oder Löschung:** Treten Glocke und Futter über längere Zeit nicht mehr zusammen auf, verschwindet das konditionierte Verhalten wieder [06:43]. Der Dozent nennt die Konditionierung deshalb „relativ schwach“.\n- Lernen = „Verknüpfung von Reizen mit Reaktionen, die ursprünglich nicht miteinander in Zusammenhang standen“\n- **Mensch als black box (Watson)** [07:31]: Pawlow und Watson hatten keine Vorstellung davon, was im Gehirn passiert – die Hirnforschung war noch nicht so weit. Man kann nur von außen beobachten: Welcher Reiz tritt auf, welche Reaktion folgt?\n\nAuf Folie 8 ist ein YouTube-Video zur klassischen Konditionierung verlinkt.\n\n**Kurz erklärt:** Der Körper reagiert auf manche Reize von selbst (Futter → Speichel). Wenn ein zweiter, eigentlich bedeutungsloser Reiz (Glocke) immer **gleichzeitig** auftritt, verbindet der Organismus beide. Danach reicht der zweite Reiz allein. So lassen sich vor allem **einfache Gefühlsreaktionen** erklären – Angst, Ekel, Vorlieben. Beispiel Schule (Stein 2024, S. 110): Ein Grundschüler wird vom Lehrer wiederholt gedemütigt und bekommt dabei Bauchschmerzen; nach einigen Wochen reicht schon der Anblick des Schulgebäudes für die Magenbeschwerden.\n\n**Prüfungsfalle:** **Kontiguität** (zeitliche Nähe) – nicht „Kontinuität“. Und: Die klassische Konditionierung ist die **ältere** Richtung (Pawlow, Watson); die instrumentelle kam später (Thorndike, Skinner)."
+    },
+    {
+      "titel": "Behaviorismus II: Instrumentelle bzw. operante Konditionierung (Thorndike, Skinner)",
+      "folien": "9–11",
+      "beispiel": "Ein Spaziergänger hat Angst vor einem bellenden Hund hinter dem Zaun und wechselt die Straßenseite – die Angst ist weg. Das Ausweichen wird dadurch häufiger: negative Verstärkung (Gudjons/Traub 2016, S. 223).",
+      "text": "**Folie 9** (Stein 2017, S. 95 ff.) – Vertreter: **Thorndike (1874–1949)** und **Skinner (1904–1990)**; historisch später als die klassische Konditionierung [08:19]\n- **Erhöhung** des Auftretens eines Verhaltens durch **positive Verstärkung** (positive Konsequenz) oder **negative Verstärkung** (Ausbleiben einer negativen Konsequenz)\n- **Verminderung** des Auftretens eines Verhaltens durch **Bestrafung**\n- **Verstärkerarten:** primäre Verstärker (Nahrung, Sex), materiale Verstärker (Kleidung, Spielsachen etc.), soziale Verstärker (Zuwendung, gemeinsame Zeit etc.) und generalisierte Verstärker (Geld)\n- **Dauerhaftere Verhaltensänderung bei unregelmäßiger, besonders großer Verstärkung** [09:58]: Wird Geld selten, dafür in größerem Umfang als Belohnung gegeben, ist der Effekt besonders groß.\n\n**Folie 10 – die Skinner-Box** (Video [10:39]), dreimal derselbe Aufbau:\n\n| Fall | Was passiert | Folge |\n| --- | --- | --- |\n| positive Verstärkung | Die Ratte drückt den Hebel und bekommt Futter (primärer Verstärker). | Sie drückt den Hebel häufiger. |\n| negative Verstärkung | Der Boden ist dauerhaft schwach elektrisch geladen (unangenehm, nicht tödlich). Drückt die Ratte den Hebel, wird der Strom unterbrochen. | Sie drückt den Hebel häufiger. |\n| Bestrafung | Die Ratte zeigt ein Verhalten und bekommt in diesem Moment einen Stromschlag. | Das Verhalten wird seltener. |\n\nÜbertragung auf Menschen [12:37]: Geschenke oder Süßigkeiten für Kinder, Geld für gute Noten (generalisierter Verstärker), in Partnerschaften der Entzug von Zuwendung als Bestrafung.\n\n**Folie 11:**\n- **Extinktion oder Löschung** [13:14]: Bekommt ein Kind für gute Noten längere Zeit kein Geld mehr, wird die Konditionierung wieder gelöscht.\n- Lernen = „Die operante oder instrumentelle Konditionierung versteht unter Lernen die Formung und Erhöhung der Auftretenswahrscheinlichkeit eines bestimmten Verhaltens durch Verstärkung.“\n\n> **Einordnung des Dozenten [13:50]:** In dieser Definition kommt **Bestrafung nicht vor**. Das liegt auch daran, dass Bestrafung aus heutiger Sicht nicht das Mittel der Wahl ist. Es mag pädagogische Kontexte geben, in denen sie nötig ist – aber nicht als erster Weg. Auch Konditionierung insgesamt ist nicht die erste Wahl in Erziehung und Bildung; an einzelnen Stellen können positive oder negative Verstärkung aber sinnvoll sein [14:20].\n\nAuf Folie 11 ist ein YouTube-Video zur instrumentellen Konditionierung verlinkt.\n\n**Kurz erklärt:** Bei Pawlow kommt der Reiz unabhängig davon, was das Tier tut. Bei Skinner kommt die Folge **erst nach** einem bestimmten Verhalten – das Tier lernt: „Mein Verhalten bewirkt etwas.“ Daher der Name **instrumentell** (das Verhalten ist ein Werkzeug) bzw. **operant** (das Tier „operiert“ selbst). „Positiv“ und „negativ“ heißen hier nicht gut und schlecht, sondern **etwas kommt dazu** (+) oder **etwas fällt weg** (–). **Verstärkung** heißt immer: Das Verhalten wird **häufiger**.\n\n**Prüfungsfalle:** **Negative Verstärkung ist keine Bestrafung!** Sie erhöht das Verhalten (Unangenehmes fällt weg). Bestrafung vermindert es. Merkhilfe: Verstärkung → mehr, Strafe → weniger; positiv → etwas kommt dazu, negativ → etwas fällt weg.\n\n**Typische Klausurfrage:** „Ordnen Sie die Verstärkerart zu“ – Nahrung, Sex = primär; Kleidung, Spielsachen = material; Zuwendung, gemeinsame Zeit = sozial; Geld = generalisiert (es lässt sich gegen vieles eintauschen)."
+    },
+    {
+      "titel": "Soziales Lernen / Modelllernen (Bandura)",
+      "folien": "12–13",
+      "beispiel": "Ein Kind in der Kita sieht, dass andere Kinder sich durch Schlagen durchsetzen, und übernimmt das – bis Erziehende mit Gesprächen und Regeln gegensteuern (Video [18:40]).",
+      "text": "**Folie 12** (Stein 2017, S. 98 ff.) – Vertreter: **Bandura (*1925)**\n- Modell-, Nachahmungs- oder Beobachtungslernen\n- vier Phasen des Modelllernens:\n\n| Große Phase | Phase |\n| --- | --- |\n| **I. Aneignungsphase** | 1. Aufmerksamkeitszuwendung |\n| | 2. Gedächtnis- oder Behaltensphase |\n| **II. Ausführungsphase** | 3. motorische Reproduktion |\n| | 4. Motivationsprozesse |\n\n- z. B. aggressive Verhaltensweisen oder auch Geschlechtsstereotypien\n\n**Beispiel des Dozenten – Jugendcamp, in dem jongliert wird** [16:55]:\n1. **Aufmerksamkeit:** Ein Kind, das noch nicht jonglieren kann, wird aufmerksam: „Was ist das? Wie funktioniert das? Da gibt es Bälle.“\n2. **Behalten:** Es setzt sich weiter damit auseinander und merkt sich, wie man steht, wie man sich bewegt, was man braucht.\n3. **Motorische Reproduktion:** Es nimmt selbst Bälle oder Keulen und versucht die Bewegung nachzumachen.\n4. **Motivation:** Damit es weitergeht, braucht es Motivation – **intrinsisch** (von innen, z. B. erste Erfolge) oder **extrinsisch** (von außen, z. B. eine Betreuerin ermutigt: „Mach weiter!“).\n\nSoziales Lernen ist **ambivalent** [19:59]: Es kann erwünschte und problematische Verhaltensweisen hervorbringen – etwa aggressives Verhalten oder Geschlechtsstereotype (ein Mädchen sieht ältere Mädchen mit Puppen spielen oder sich rosa anziehen und möchte das auch). Es liegt nah am Begriff der **Sozialisation** (ewb001.1): Viel soziales Lernen geschieht in Familie und Bildungseinrichtungen [20:14].\n\n**Folie 13:** Lernen = „Unter Modelllernen versteht man einen Lernprozess, bei dem sich ein Beobachter durch die Beobachtung des Verhaltens eines Modells sowie der Konsequenzen dieses Verhaltens neue Verhaltensweisen aneignet oder bestehende Verhaltensmuster verändert.“ (Stein 2017, S. 98 ff.)\n\nZum Zusatz „sowie der Konsequenzen“ [20:54]: Beobachtet werden nicht nur Handlungen, sondern auch, was sie einbringen. Erlebt die Person beim Nachmachen selbst positive Konsequenzen (z. B. Lob), verstärkt das Aneignung und Ausführung.\n\nAuf Folie 13 ist ein YouTube-Video zum sozialen Lernen verlinkt.\n\n**Kurz erklärt:** Menschen müssen nicht alles selbst ausprobieren – sie lernen, indem sie anderen zuschauen. Wichtig ist die Zweiteilung: In der **Aneignungsphase** wird gelernt (man weiß jetzt, wie es geht). Ob man es **ausführt**, hängt davon ab, ob man es körperlich kann und ob es sich lohnt. Deshalb kann man etwas gelernt haben, ohne es je zu zeigen – das passt genau zur Definition „Verhaltens**möglichkeiten**“ aus Folie 4. Das Modelllernen ist die **Brücke** zwischen Behaviorismus (Verstärkung zählt) und Kognitivismus (Aufmerksamkeit und Gedächtnis zählen) (Stein 2024, S. 116).\n\n**Prüfungsfalle:** Die Phasen 1 und 2 gehören zur **Aneignungs**phase, 3 und 4 zur **Ausführungs**phase – nicht verwechseln. Und die Reihenfolge ist fest: Aufmerksamkeit → Behalten → motorische Reproduktion → Motivation."
+    },
+    {
+      "titel": "Kognitivismus und Konstruktivismus – gemeinsame Grundannahmen",
+      "folien": "14",
+      "beispiel": "Deklarativ: wissen, dass Berlin die Hauptstadt ist. Episodisch: sich an den eigenen ersten Schultag erinnern. Prozedural: Fahrrad fahren oder eine Rechenaufgabe lösen können (Video; Stein 2024, S. 118).",
+      "text": "**Folie 14** (Stein 2017, S. 102 ff.):\n- Bewusste Auseinandersetzung mit Problemstellungen im Rahmen von Lernvorgängen, Umsetzen von Wissensinhalten und Fertigkeiten in kognitive Strukturen und deren Speicherung im Gedächtnis\n- **Wissensarten:** deklaratives (Fakten)wissen, episodisches (Biographie)wissen, prozedurales (Ausführungs)wissen\n- Lernen = „Die kognitive oder konstruktivistische Lerntheorie versteht unter Lernen im weitesten Sinne Informationsverarbeitung und Gedächtnisspeicherprozesse, welche eine Einfügung neuer Wissensinhalte in bestehende kognitive Strukturen bedingen.“\n- **Konstruktivismus:** Einzelne = aktive*r Konstrukteur*in ihrer*seiner Wirklichkeit\n\n**Aus dem Video:**\n- Beide Theorien gehen davon aus, dass der Mensch **keine Black Box mehr** ist – man kann heute viel besser verstehen, was im Inneren (im Gehirn) abläuft [21:24].\n- **Wissensarten** [22:16]: deklarativ = Buchstaben, Zahlen, Namen von Städten kennen; episodisch = Wissen über biografische Zusammenhänge; prozedural = etwas anwenden können, z. B. nicht nur Zahlen kennen, sondern eine mathematische Aufgabe lösen.\n- **Ablauf** [23:18]: Über die Sinne (sehen, hören, schmecken, anfassen) werden Informationen aufgenommen, verarbeitet und gespeichert. Dadurch verändern sich die Dispositionen im Gehirn – daraus können neue Verhaltensmöglichkeiten entstehen.\n- **Unterschied** [24:10]: In Stein (2017) liegen beide Theorien sehr nah beieinander. Es gibt aber Literatur, die stärker trennt: Beide beschreiben Lernen als Prozess im Gehirn – der **Konstruktivismus** betont zusätzlich, dass jede Person in ihren Lernprozessen völlig unterschiedlich ist und sogar ihre **eigene Wirklichkeit konstruiert**.\n\nAuf Folie 14 ist ein YouTube-Video zu Kognitivismus und Konstruktivismus verlinkt.\n\n**Kurz erklärt:** **Kognitiv** heißt „das Denken und Erkennen betreffend“. Der Kognitivismus vergleicht Lernen mit Informationsverarbeitung: Neues wird aufgenommen und an **Vorwissen** angehängt (die „kognitiven Strukturen“ sind das, was schon im Kopf ist). Je besser Neues an Bekanntes anknüpft, desto besser bleibt es hängen. Der Konstruktivismus geht einen Schritt weiter: Weil jeder Kopf anders gebaut ist, macht jeder aus derselben Information etwas anderes.\n\n**Prüfungsfalle:** Die Stein-Definition heißt ausdrücklich „kognitive **oder** konstruktivistische Lerntheorie“ – Stein fasst beide zusammen. Den Unterschied (eigene Wirklichkeit, individuelle Lernwege) nennt der Dozent mit Verweis auf andere Literatur."
+    },
+    {
+      "titel": "Kognitivistische Lerntheorie nach Ludwig (2020)",
+      "folien": "15",
+      "beispiel": "Du hörst in der Vorlesung von der Skinner-Box (Umweltreiz als Erfahrung). Du verarbeitest und speicherst das (Lernen). Jetzt weißt du, was negative Verstärkung ist (veränderte Disposition). In der Klausur kreuzt du richtig an (Verhalten) – oder auch nicht.",
+      "text": "**Folie 15:** „Lernen ist ein kognitiver Vorgang der Informationsverarbeitung und -speicherung, der das psychische Dispositionsgefüge eines Menschen verändert.“ (Ludwig 2020, S. 161)\n\n**Schaubild 1** (Ludwig 2020, S. 154):\n\n| Akquisitionsphase | | Applikationsphase |\n| --- | --- | --- |\n| Lernen → Dispositionsveränderung | → | Verhaltensänderung |\n\n**Schaubild 2** (Ludwig 2020, S. 157): Umweltreize als Erfahrung → **Lernen** als intrapsychischer Vorgang → psychische Dispositionen als Lernergebnis → Verhalten\n\n**Aus dem Video** [25:22]:\n- **Umweltreize** kommen aus der menschlichen, natürlichen oder konstruierten Umwelt – etwas, das man sehen, hören, schmecken, anfassen kann. Das sind die **Erfahrungen** des Individuums.\n- Im Gehirn werden diese Erfahrungen als Informationen aufgenommen, verarbeitet und gespeichert (**intrapsychischer Vorgang** = im Inneren der Person).\n- Daraus entstehen neue **psychische Dispositionen**, oder vorhandene werden verändert. Gemeint sind Wissen, Fertigkeiten, Fähigkeiten und Kompetenzen [26:39] – auf den Kompetenzbegriff kommt die Vorlesung in S07 zurück.\n- Das **kann, muss aber nicht** zu verändertem Verhalten oder zumindest zu neuen Verhaltensmöglichkeiten führen [26:50].\n\n**Kurz erklärt:** Ludwig teilt den Vorgang in zwei Phasen: In der **Akquisitionsphase** (Erwerbsphase) wird gelernt – im Kopf ändert sich etwas. In der **Applikationsphase** (Anwendungsphase) wird das Gelernte vielleicht im Verhalten sichtbar. So schließt sich der Kreis zu Folie 4: Lernen verändert die Möglichkeiten, das Verhalten ist erst der zweite Schritt.\n\n**Prüfungsfalle:** **Lernen** und **Dispositionsveränderung** gehören zur **Akquisitions**phase, die **Verhaltensänderung** zur **Applikations**phase. Die Ludwig-Definition kennst du schon aus S01 – dort als Definition der Säule „Lernen“."
+    },
+    {
+      "titel": "Konstruktivismus: eine Realität, aber viele Wirklichkeiten",
+      "folien": "16–19",
+      "beispiel": "",
+      "text": "**Folie 16 – Kippbild** (Video [27:16]): Der Dozent zeigt ein bekanntes Kippbild und fragt, was man sieht.\n\n{{aufgabe a01}}\n\n**Folie 17 – Karikatur zum Thema Licht** [29:03]: Vier Personen – ein Mönch („And the Lord said: Let there be light!“), eine Wissenschaftlerin (Formeln), ein Handwerker (Schaltplan einer Glühbirne) und ein blinder Mensch (Fragezeichen) – verstehen unter „Licht“ jeweils etwas ganz anderes und messen ihm eine andere Bedeutung bei. Ein und derselbe Begriff, ein und dasselbe Phänomen wird unterschiedlich wahrgenommen.\n\n**Folie 18:** „Erfahrung ist die Ursache, die Welt die Folge.“ (**Heinz von Foerster**, 1911–2002)\n- **Autopoiesis:** jedes Gehirn arbeitet notwendigerweise konstruktiv, d. h. selbsterzeugend.\n\nVideo [29:56]: Wir machen Erfahrungen, und auf deren Grundlage entsteht in unserem Gehirn erst eine Wirklichkeit. Dazu [31:44]: Das Gehirn ist **selbstreferenziell** und **operativ geschlossen** – ein eigenes, geschlossenes System. Es nimmt Reize auf, filtert sie, und im Inneren laufen fortwährend Konstruktionsprozesse ab.\n\n**Drei Spielarten** (Video [30:05]):\n\n| Richtung | Aussage |\n| --- | --- |\n| radikaler Konstruktivismus | Es gibt gar keine gemeinsame, geteilte Welt. |\n| Sicht des Dozenten | Eine **Realität** gibt es (der Planet, Fußboden, Türen). Was der Kopf daraus macht und welche Bedeutung es hat, ist die individuelle **Wirklichkeit**. |\n| sozialer Konstruktivismus | Über **Kommunikation** gleichen wir unsere Wirklichkeiten an – z. B. haben wir eine gemeinsame Vorstellung davon, was Gelb oder Blau ist. Innerhalb dieser geteilten Wirklichkeit bleibt eine eigene. |\n\n**Folie 19 – „Eine Realität, aber viele Wirklichkeiten …“:** Dieselbe Blume, von Menschen und von einer Biene gesehen: Bienen nehmen die Wellenlängen des Rot nicht wahr, erkennen jedoch die Wellenlänge des Ultraviolett, das unserem Auge entgeht. Hunde können Gelb, Rottöne und Orange nicht erkennen, ebenso wie Blau – ihre Farbpalette bewegt sich im Grünbereich.\n\n**Kurz erklärt:** **Realität** ist das, was da ist (die Blume). **Wirklichkeit** ist das, was ein Lebewesen davon wahrnimmt und daraus macht (die Blume, wie die Biene oder der Mensch sie sieht). Für die Schule heißt das: Dieselbe Erklärung der Lehrkraft ist für jedes Kind ein anderer Reiz – je nach Vorwissen, Aufmerksamkeit und Erfahrung entsteht im Kopf etwas anderes.\n\n**Prüfungsfalle:** **Autopoiesis** kam schon in S03 bei Luhmanns **Systemtheorie** vor (Systeme bringen sich selbst hervor → Technologiedefizit). Hier bezieht der Konstruktivismus den Begriff auf das **Gehirn**: Es arbeitet selbsterzeugend. Beide Male gilt: Wissen lässt sich nicht von außen „einfüllen“ – deshalb kündigte der Dozent in S03 an, dass die konstruktivistische Didaktik viele Parallelen zur Systemtheorie zeigt."
+    },
+    {
+      "titel": "Pädagogische Implikationen des Konstruktivismus",
+      "folien": "20",
+      "beispiel": "Eine Lehrerin erklärt Brüche an der Tafel. Statt nur zu erklären, stellt sie Pizzastücke, Messbecher und Aufgabenkarten bereit; jedes Kind wählt seinen Zugang und sein Tempo – Ermöglichungsdidaktik.",
+      "text": "**Folie 20:**\n- Ergebnisse von Lernprozessen sind infolge individueller und situationsspezifischer Konstruktionsvorgänge **nicht vorhersagbar**\n- **Perturbation** als Auslöser von Lernprozessen\n- **Ermöglichungsdidaktik statt Belehrungsdidaktik**\n- Berücksichtigung individueller Lernwege, Lernzugänge und Einstellungen zum Lernen\n\n**Aus dem Video** [33:13]:\n1. **Nicht vorhersagbar:** Unterricht lässt sich planen und auf ein Ergebnis ausrichten – ob es bei allen eintritt, ist nicht vorhersagbar. Es ist sogar wahrscheinlich, dass es unterschiedlich funktioniert, weil Lernvoraussetzungen und Konstruktionsvorgänge verschieden sind.\n2. **Perturbation = Störung** [34:17]: Ich habe meine Wirklichkeit; wenn Informationen auftauchen, die nicht hineinpassen, kann das besonders starke Lernprozesse auslösen. Die Störung kann aber auch **zurückgewiesen** werden.\n3. **Ermöglichungsdidaktik** [34:56]: Eine lehrende Person kann Informationen nicht direkt in das Gehirn eines anderen übertragen; selbst gut Erklärtes kommt nicht bei allen an. Deshalb: pädagogische Räume schaffen, in denen die Auseinandersetzung mit einem Thema möglich wird und jede*r Lernende sich Inhalte im eigenen Tempo und auf eigene Art erschließen kann.\n4. **Individuelle Lernwege** berücksichtigen [35:57].\n\nVertieft wird das in **Lernen II** (10.11.) bei der konstruktivistischen Didaktik.\n\n**Kurz erklärt:** Wenn jeder Kopf seine eigene Wirklichkeit baut, kann Unterricht nicht wie ein Trichter funktionieren. Die Lehrkraft wird von der **Belehrenden** zur **Gestalterin von Lernumgebungen**. Eine **Perturbation** ist wie ein Stolperstein im Denken: Ein Kind glaubt, schwere Dinge fallen schneller – ein Experiment zeigt etwas anderes. Diese Irritation kann zu neuem Verstehen führen oder abgewehrt werden.\n\n**Typische Klausurfrage:** „Nennen Sie pädagogische Implikationen des Konstruktivismus.“ – Die vier Punkte der Folie: nicht vorhersagbar · Perturbation · Ermöglichungs- statt Belehrungsdidaktik · individuelle Lernwege, Lernzugänge und Einstellungen zum Lernen.\n\n**Prüfungsfalle:** Es heißt Ermöglichungsdidaktik **statt** Belehrungsdidaktik – nicht umgekehrt."
+    },
+    {
+      "titel": "Die Lerntheorien im Vergleich",
+      "folien": "",
+      "beispiel": "",
+      "text": "**Übersicht** (selbst erarbeitet aus den Folien 5–20):\n\n| Theorie | Vertreter (Folien) | Lernen ist … | Schlüsselbegriffe | Beispiel |\n| --- | --- | --- | --- | --- |\n| Klassische Konditionierung | Pawlow, Watson | „Verknüpfung von Reizen mit Reaktionen, die ursprünglich nicht miteinander in Zusammenhang standen“ | unkonditionierter / neutraler / konditionierter Reiz, Kontiguität, Extinktion, Black Box | Pawlowscher Hund |\n| Instrumentelle / operante Konditionierung | Thorndike, Skinner | „die Formung und Erhöhung der Auftretenswahrscheinlichkeit eines bestimmten Verhaltens durch Verstärkung“ | positive / negative Verstärkung, Bestrafung, vier Verstärkerarten, Extinktion | Skinner-Box |\n| Soziales Lernen | Bandura | Aneignung neuer bzw. Veränderung bestehender Verhaltensweisen durch Beobachtung eines Modells und der Konsequenzen seines Verhaltens | Modell-, Nachahmungs-, Beobachtungslernen; vier Phasen | Jonglieren im Jugendcamp, Aggression, Geschlechtsstereotype |\n| Kognitivismus / Konstruktivismus | Stein; Ludwig; von Foerster | „Informationsverarbeitung und Gedächtnisspeicherprozesse, welche eine Einfügung neuer Wissensinhalte in bestehende kognitive Strukturen bedingen“ | drei Wissensarten, Dispositionen, Akquisitions- / Applikationsphase, Autopoiesis, Perturbation, Ermöglichungsdidaktik | Kippbild, Licht-Karikatur, Biene und Hund |\n\n**Kurz erklärt:** Von oben nach unten wandert der Blick **von außen nach innen**: erst nur Reiz und Reaktion, dann Vorbild und Folgen, schließlich die Verarbeitung im Kopf. Damit ändert sich auch die Rolle der Lehrenden: von der steuernden Instanz (verstärken, bestrafen) über das Vorbild (Modell) hin zur ermöglichenden Instanz, die Lernumgebungen gestaltet, das Ergebnis aber nicht bestimmen kann.\n\n> **Ergänzung aus dem Selbststudium (Stein 2024, S. 130):** Die Theorien schließen sich nicht aus, sondern ergänzen sich: Behavioristische Theorien erklären eher unbewusste und emotionale Lernprozesse, das Modelllernen soziale Lernprozesse, kognitive Theorien bewusst beabsichtigte Lernprozesse wie in der Schule."
+    },
+    {
+      "titel": "Selbststudium und Literatur",
+      "folien": "21–23",
+      "beispiel": "",
+      "text": "**Folie 21 – Selbststudium:**\n- Gudjons, Herbert & Traub, Silke (2016): Kapitel 8: Lernen. In: dies.: Pädagogisches Grundwissen. Bad Heilbrunn: Klinkhardt, **S. 219–238** – liegt in `ewb001.2/Sitzung_04`.\n- Stein, Margit (2024): Kapitel 5: Lernen. In: dies.: Allgemeine Pädagogik. 4., überarbeitete Auflage. München: Ernst Reinhardt, **S. 104–119** – liegt in `ewb001.2/Sitzung_04`.\n\nLaut Video [36:12] stellen beide Kapitel die Lerntheorien ausführlicher dar, mit weiteren Beispielen; bei Stein gibt es mehr zur Hirnforschung. Beide Texte und die Zusatztexte von **Beck (2022)** und **Metzinger (2022)** sind in der **Hausaufgabe h01 aus S03** ausgearbeitet.\n\n**Folie 23 – Literatur:** Krüger (2012), Ludwig (2020), Stein (2017).\n\n> **Hinweis:** Die Folien und das Video zitieren Stein **2017** (3. Aufl.) – die Selbststudiums-Folie nennt Stein **2024** (4. Aufl.). Die Seitenzahlen unterscheiden sich (z. B. Lernbegriff 2017: S. 89 f., 2024: S. 104 f.)."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Lernen",
+      "wortlaut": "alle erfahrungsbedingten, auch unbewussten und nicht geplanten Veränderungen der Verhaltensmöglichkeiten von Organismen",
+      "erklaerung": "Lernen verändert durch Erfahrung die Verhaltensmöglichkeiten (Dispositionen) – auch ungeplant und unbewusst; eine sichtbare Verhaltensänderung muss nicht folgen.",
+      "folie": "4"
+    },
+    {
+      "begriff": "Klassische Konditionierung (Lernbegriff)",
+      "wortlaut": "Lernen = „Verknüpfung von Reizen mit Reaktionen, die ursprünglich nicht miteinander in Zusammenhang standen“ (Stein 2017, S. 93 ff.)",
+      "erklaerung": "Ein neutraler Reiz wird durch enge zeitliche Kopplung mit einem unkonditionierten Reiz zum konditionierten Reiz und löst allein die Reaktion aus (Pawlow, Watson).",
+      "folie": "8"
+    },
+    {
+      "begriff": "Unkonditionierter Reiz / unkonditionierte Reaktion",
+      "wortlaut": "Unkonditionierter Reiz > löst reflexhaft in jedem Fall ein bestimmtes Verhalten aus (unkonditionierte Reaktion)",
+      "erklaerung": "Ein angeborener Reflex, z. B. Futter → Speichelfluss beim Hund.",
+      "folie": "6"
+    },
+    {
+      "begriff": "Kontiguität",
+      "wortlaut": "Kontiguität: Enge zeitliche Verbindung des unkonditionierten und des konditionierten Reizes",
+      "erklaerung": "Damit die Kopplung gelingt, müssen beide Reize zeitlich nah beieinander auftreten (nicht mit „Kontinuität“ verwechseln).",
+      "folie": "6"
+    },
+    {
+      "begriff": "Extinktion oder Löschung",
+      "wortlaut": "Extinktion oder Löschung",
+      "erklaerung": "Wird die Kopplung (klassische Konditionierung) bzw. die Verstärkung (instrumentelle Konditionierung) längere Zeit nicht aufrechterhalten, verschwindet das gelernte Verhalten wieder.",
+      "folie": "8, 11"
+    },
+    {
+      "begriff": "Mensch als black box (Watson)",
+      "wortlaut": "Mensch als black box (Watson)",
+      "erklaerung": "Im Behaviorismus betrachtet man nur Reiz und Reaktion von außen; was im Inneren passiert, bleibt unbekannt.",
+      "folie": "8"
+    },
+    {
+      "begriff": "Instrumentelle bzw. operante Konditionierung (Lernbegriff)",
+      "wortlaut": "Lernen = „Die operante oder instrumentelle Konditionierung versteht unter Lernen die Formung und Erhöhung der Auftretenswahrscheinlichkeit eines bestimmten Verhaltens durch Verstärkung.“ (Stein 2017, S. 95 ff.)",
+      "erklaerung": "Lernen durch die Folgen des eigenen Verhaltens (Thorndike, Skinner); Bestrafung kommt in der Definition nicht vor.",
+      "folie": "11"
+    },
+    {
+      "begriff": "Positive Verstärkung",
+      "wortlaut": "Erhöhung des Auftretens eines Verhaltens durch positive Verstärkung (positive Konsequenz)",
+      "erklaerung": "Auf ein Verhalten folgt etwas Angenehmes → das Verhalten wird häufiger (Ratte drückt Hebel → Futter).",
+      "folie": "9"
+    },
+    {
+      "begriff": "Negative Verstärkung",
+      "wortlaut": "Erhöhung des Auftretens eines Verhaltens durch … negative Verstärkung (Ausbleiben einer negativen Konsequenz)",
+      "erklaerung": "Auf ein Verhalten fällt etwas Unangenehmes weg → das Verhalten wird häufiger (Hebel unterbricht den Strom). Keine Bestrafung!",
+      "folie": "9"
+    },
+    {
+      "begriff": "Bestrafung",
+      "wortlaut": "Verminderung des Auftretens eines Verhaltens durch Bestrafung",
+      "erklaerung": "Auf ein Verhalten folgt eine unangenehme Konsequenz → das Verhalten wird seltener; aus heutiger Sicht nicht Mittel der Wahl.",
+      "folie": "9"
+    },
+    {
+      "begriff": "Verstärkerarten",
+      "wortlaut": "primäre Verstärker (Nahrung, Sex), materiale Verstärker (Kleidung, Spielsachen etc.), soziale Verstärker (Zuwendung, gemeinsame Zeit etc.) und generalisierte Verstärker (Geld)",
+      "erklaerung": "Vier Arten von Belohnungen; generalisiert heißt: Geld lässt sich gegen vieles andere eintauschen.",
+      "folie": "9"
+    },
+    {
+      "begriff": "Modelllernen (Lernbegriff)",
+      "wortlaut": "Lernen = „Unter Modelllernen versteht man einen Lernprozess, bei dem sich ein Beobachter durch die Beobachtung des Verhaltens eines Modells sowie der Konsequenzen dieses Verhaltens neue Verhaltensweisen aneignet oder bestehende Verhaltensmuster verändert.“ (Stein 2017, S. 98 ff.)",
+      "erklaerung": "Soziales Lernen (Bandura), auch Nachahmungs- oder Beobachtungslernen: Man lernt am Vorbild und an den Folgen, die das Vorbild erlebt.",
+      "folie": "13"
+    },
+    {
+      "begriff": "Vier Phasen des Modelllernens",
+      "wortlaut": "I. Aneignungsphase: 1. Aufmerksamkeitszuwendung, 2. Gedächtnis- oder Behaltensphase; II. Ausführungsphase: 3. motorische Reproduktion, 4. Motivationsprozesse",
+      "erklaerung": "In der Aneignungsphase wird gelernt, in der Ausführungsphase wird das Gelernte gezeigt – wenn man es kann und es sich lohnt.",
+      "folie": "12"
+    },
+    {
+      "begriff": "Kognitive oder konstruktivistische Lerntheorie (Lernbegriff)",
+      "wortlaut": "Lernen = „Die kognitive oder konstruktivistische Lerntheorie versteht unter Lernen im weitesten Sinne Informationsverarbeitung und Gedächtnisspeicherprozesse, welche eine Einfügung neuer Wissensinhalte in bestehende kognitive Strukturen bedingen.“ (Stein 2017, S. 102 ff.)",
+      "erklaerung": "Neues wird über die Sinne aufgenommen, verarbeitet, gespeichert und an Vorwissen angeknüpft; der Mensch ist keine Black Box mehr.",
+      "folie": "14"
+    },
+    {
+      "begriff": "Wissensarten",
+      "wortlaut": "deklaratives (Fakten)wissen, episodisches (Biographie)wissen, prozedurales (Ausführungs)wissen",
+      "erklaerung": "Wissen, dass … (Fakten) · Erinnerung an Selbsterlebtes · Können, wie … (z. B. eine Rechenaufgabe lösen).",
+      "folie": "14"
+    },
+    {
+      "begriff": "Konstruktivismus",
+      "wortlaut": "Konstruktivismus: Einzelne = aktive*r Konstrukteur*in ihrer*seiner Wirklichkeit",
+      "erklaerung": "Jede Person baut aus ihren Erfahrungen ihre eigene Wirklichkeit; Lernprozesse verlaufen deshalb bei jedem anders.",
+      "folie": "14"
+    },
+    {
+      "begriff": "Lernen (Ludwig 2020)",
+      "wortlaut": "Lernen ist ein kognitiver Vorgang der Informationsverarbeitung und -speicherung, der das psychische Dispositionsgefüge eines Menschen verändert.",
+      "erklaerung": "Lernen und Dispositionsveränderung bilden die Akquisitionsphase, die Verhaltensänderung die Applikationsphase (Ludwig 2020, S. 154).",
+      "folie": "15"
+    },
+    {
+      "begriff": "Akquisitionsphase / Applikationsphase (Ludwig)",
+      "wortlaut": "Lernen → Dispositionsveränderung (Akquisitionsphase) → Verhaltensänderung (Applikationsphase) (Ludwig 2020, S. 154)",
+      "erklaerung": "Erwerbsphase: Im Kopf ändert sich etwas. Anwendungsphase: Das Gelernte wird vielleicht im Verhalten sichtbar.",
+      "folie": "15"
+    },
+    {
+      "begriff": "Psychische Dispositionen",
+      "wortlaut": "psychische Dispositionen als Lernergebnis (Ludwig 2020, S. 157)",
+      "erklaerung": "Die im Menschen angelegten Voraussetzungen – laut Video letztlich Wissen, Fertigkeiten, Fähigkeiten und Kompetenzen.",
+      "folie": "15"
+    },
+    {
+      "begriff": "Autopoiesis (Konstruktivismus)",
+      "wortlaut": "Autopoiesis: jedes Gehirn arbeitet notwendigerweise konstruktiv, d.h. selbsterzeugend.",
+      "erklaerung": "Das Gehirn ist ein geschlossenes System, das Reize filtert und daraus selbst Wirklichkeit erzeugt (vgl. Luhmann, S03).",
+      "folie": "18"
+    },
+    {
+      "begriff": "Perturbation",
+      "wortlaut": "Perturbation als Auslöser von Lernprozessen",
+      "erklaerung": "Perturbation = Störung: Informationen, die nicht in die eigene Wirklichkeit passen, können starke Lernprozesse auslösen – oder zurückgewiesen werden.",
+      "folie": "20"
+    },
+    {
+      "begriff": "Ermöglichungsdidaktik",
+      "wortlaut": "Ermöglichungsdidaktik statt Belehrungsdidaktik",
+      "erklaerung": "Weil sich Wissen nicht direkt übertragen lässt, gestalten Lehrende Lernräume, in denen sich jede*r Inhalte im eigenen Tempo und auf eigene Art erschließt.",
+      "folie": "20"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "Was sehen Sie in diesem Bild? (Kippbild, Folie 16 – Frage des Dozenten im Video [27:44])",
+      "quelle": "Folie 16; Video [27:35]–[28:54]",
+      "loesung": "Je nach Betrachter*in: eine **junge Frau**, die nach hinten schaut (man sieht Wange, Ohr, ein Auge), eine **alte Frau** (Auge, große Nase, Mund) – manche sehen zunächst **gar nichts**, andere **beides**.",
+      "loesungsweg": "Auflösung des Dozenten [28:03]: Was man sieht, hängt davon ab, ob man das Bild schon kennt, worauf man achtet und wie man auf Farben und Struktur reagiert. Derselbe visuelle Reiz wird in den Köpfen ganz unterschiedlich verarbeitet – das zeigt, wie unterschiedlich unsere Lernvoraussetzungen sind (Konstruktivismus).",
+      "frist": "",
+      "im_kalender": false,
+      "folie": "16"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie definiert Stein (2017) Lernen? Gib den Wortlaut der Folie wieder.",
+      "antwort": "Lernen umfasst „alle erfahrungsbedingten, auch unbewussten und nicht geplanten Veränderungen der Verhaltensmöglichkeiten von Organismen“ (Stein 2017, S. 89 f.).",
+      "erklaerung": "Folie 4. Schlüsselwörter: erfahrungsbedingt, unbewusst, nicht geplant, Verhaltensmöglichkeiten, Organismen.",
+      "folie": "4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Lernen = „alle [[erfahrungsbedingten]], auch unbewussten und nicht geplanten Veränderungen der [[Verhaltensmöglichkeiten]] von Organismen“ (Stein 2017)",
+      "erklaerung": "Folie 4.",
+      "folie": "4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum Lernbegriff treffen laut Folie und Video zu?",
+      "optionen": [
+        "Lernen verändert zunächst die Verhaltensmöglichkeiten (Dispositionen); eine sichtbare Verhaltensänderung muss nicht unmittelbar folgen.",
+        "Lernen ist immer ein bewusster und geplanter Vorgang.",
+        "Lernen kann als Aneignen von Kenntnissen oder Wissen bzw. als Erwerb von Kompetenzen beschrieben werden.",
+        "Es gibt bewusstes und unbewusstes Lernen.",
+        "Lernen ist gleichbedeutend mit Verhaltensänderung."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Richtig sind 1, 3 und 4 (Folie 4; Video [01:48], [02:00]). Falsch: Lernen umfasst ausdrücklich auch unbewusste und nicht geplante Veränderungen; und es verändert die Verhaltens*möglichkeiten*, nicht zwingend das Verhalten.",
+      "folie": "4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Elemente des Pawlowschen Hund-Experiments den Fachbegriffen zu.",
+      "kategorien": [
+        "unkonditionierter Reiz",
+        "unkonditionierte Reaktion",
+        "neutraler Reiz",
+        "konditionierter Reiz",
+        "konditionierte Reaktion"
+      ],
+      "elemente": [
+        {
+          "text": "Futter",
+          "kategorie": "unkonditionierter Reiz"
+        },
+        {
+          "text": "Speichelfluss beim Anblick des Futters",
+          "kategorie": "unkonditionierte Reaktion"
+        },
+        {
+          "text": "Glocke vor der Kopplung mit dem Futter",
+          "kategorie": "neutraler Reiz"
+        },
+        {
+          "text": "Glocke nach wiederholter Kopplung mit dem Futter",
+          "kategorie": "konditionierter Reiz"
+        },
+        {
+          "text": "Speichelfluss allein auf die Glocke",
+          "kategorie": "konditionierte Reaktion"
+        }
+      ],
+      "erklaerung": "Folien 6–7; Video [04:50]–[05:52].",
+      "folie": "6–7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter Kontiguität, und warum ist sie für die klassische Konditionierung wichtig?",
+      "antwort": "Kontiguität ist die enge zeitliche Verbindung des unkonditionierten und des konditionierten Reizes. Nur wenn beide Reize zeitlich nah beieinander auftreten (z. B. Glocke läutet beim Füttern), wird der ursprünglich neutrale Reiz mit der Reaktion verknüpft.",
+      "erklaerung": "Folie 6; Video [04:05]. Nicht mit „Kontinuität“ verwechseln.",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was bedeutet Extinktion (Löschung) bei der klassischen Konditionierung? Erkläre am Beispiel des Pawlowschen Hundes.",
+      "antwort": "Extinktion bedeutet, dass das konditionierte Verhalten wieder verschwindet, wenn die Kopplung nicht aufrechterhalten wird: Läutet die Glocke über längere Zeit nicht mehr zusammen mit dem Futter, reagiert der Hund nach einiger Zeit nicht mehr mit Speichelfluss auf die Glocke. Der Dozent nennt die Konditionierung deshalb relativ schwach.",
+      "erklaerung": "Folie 8; Video [06:43]–[07:07].",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Klassische Konditionierung: Lernen = „[[Verknüpfung]] von Reizen mit Reaktionen, die ursprünglich nicht miteinander in Zusammenhang standen“",
+      "erklaerung": "Folie 8 (Stein 2017, S. 93 ff.).",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was meint Watson mit dem „Menschen als black box“, und warum wurde der Mensch so gesehen?",
+      "antwort": "Man kann nicht in den Menschen (bzw. das Tier) hineinschauen, sondern nur von außen beobachten, welcher Reiz auftritt und welche Reaktion folgt. Was dazwischen im Inneren passiert, bleibt unbekannt. Grund: Die Hirnforschung war damals noch nicht so weit; Pawlow und Watson hatten keine Vorstellung davon, welche Prozesse beim Lernen im Gehirn ablaufen.",
+      "erklaerung": "Folie 8; Video [07:31]–[08:02]. Kognitivismus und Konstruktivismus verabschieden sich von dieser Annahme (Folie 14).",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur instrumentellen bzw. operanten Konditionierung treffen laut Folie zu?",
+      "optionen": [
+        "Positive Verstärkung erhöht das Auftreten eines Verhaltens durch eine positive Konsequenz.",
+        "Negative Verstärkung erhöht das Auftreten eines Verhaltens durch das Ausbleiben einer negativen Konsequenz.",
+        "Negative Verstärkung ist eine Form der Bestrafung und vermindert das Verhalten.",
+        "Bestrafung vermindert das Auftreten eines Verhaltens.",
+        "Als Vertreter werden Thorndike und Skinner genannt.",
+        "Als Vertreter werden Pawlow und Watson genannt."
+      ],
+      "richtig": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "erklaerung": "Folie 9. Falsch ist 3: Negative Verstärkung *erhöht* das Verhalten – sie ist keine Bestrafung (klassische Verwechslung). Falsch ist 6: Pawlow und Watson sind die Vertreter der klassischen Konditionierung.",
+      "folie": "9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Situationen zu: positive Verstärkung, negative Verstärkung oder Bestrafung?",
+      "kategorien": [
+        "positive Verstärkung",
+        "negative Verstärkung",
+        "Bestrafung"
+      ],
+      "elemente": [
+        {
+          "text": "Die Ratte drückt den Hebel und bekommt Futter.",
+          "kategorie": "positive Verstärkung"
+        },
+        {
+          "text": "Der Boden der Box ist dauerhaft schwach elektrisch geladen; drückt die Ratte den Hebel, wird der Strom unterbrochen.",
+          "kategorie": "negative Verstärkung"
+        },
+        {
+          "text": "Die Ratte zeigt ein Verhalten und bekommt in diesem Moment einen Stromschlag.",
+          "kategorie": "Bestrafung"
+        },
+        {
+          "text": "Die Lehrerin verteilt Süßigkeiten für richtige Hausaufgaben.",
+          "kategorie": "positive Verstärkung"
+        },
+        {
+          "text": "Ein Spaziergänger wechselt die Straßenseite, und seine Angst vor dem bellenden Hund hört auf – er weicht künftig öfter aus.",
+          "kategorie": "negative Verstärkung"
+        },
+        {
+          "text": "Ein Kind war in der Schule schlecht und bekommt Fernsehverbot.",
+          "kategorie": "Bestrafung"
+        }
+      ],
+      "erklaerung": "Skinner-Box: Folie 10, Video [11:00]–[12:28]. Schulbeispiele: Stein 2024, S. 112 (Tab. 12); Spaziergänger: Gudjons/Traub 2016, S. 223. Merkhilfe: Verstärkung → häufiger, Bestrafung → seltener; positiv = etwas kommt dazu, negativ = etwas fällt weg.",
+      "folie": "9–10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Beispiele der passenden Verstärkerart zu.",
+      "kategorien": [
+        "primärer Verstärker",
+        "materialer Verstärker",
+        "sozialer Verstärker",
+        "generalisierter Verstärker"
+      ],
+      "elemente": [
+        {
+          "text": "Nahrung",
+          "kategorie": "primärer Verstärker"
+        },
+        {
+          "text": "Sex",
+          "kategorie": "primärer Verstärker"
+        },
+        {
+          "text": "Kleidung",
+          "kategorie": "materialer Verstärker"
+        },
+        {
+          "text": "Spielsachen",
+          "kategorie": "materialer Verstärker"
+        },
+        {
+          "text": "Zuwendung",
+          "kategorie": "sozialer Verstärker"
+        },
+        {
+          "text": "gemeinsame Zeit",
+          "kategorie": "sozialer Verstärker"
+        },
+        {
+          "text": "Geld",
+          "kategorie": "generalisierter Verstärker"
+        }
+      ],
+      "erklaerung": "Folie 9 (Stein 2017, S. 95 ff.).",
+      "folie": "9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur Wirksamkeit von Verstärkung treffen zu?",
+      "optionen": [
+        "Eine dauerhaftere Verhaltensänderung entsteht bei unregelmäßiger, besonders großer Verstärkung.",
+        "Eine dauerhaftere Verhaltensänderung entsteht bei regelmäßiger, kleiner Verstärkung.",
+        "Wird ein Verhalten längere Zeit nicht mehr verstärkt, kommt es zur Extinktion.",
+        "Wird Geld selten, dafür in größerem Umfang als Belohnung gegeben, ist der Effekt laut Video besonders groß."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Folien 9 und 11; Video [09:58]–[10:08], [13:14]. Stein (2024, S. 111) nennt als Beispiel das Glücksspiel: unregelmäßige Gewinne machen es schwer aufzuhören.",
+      "folie": "9, 11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "text": "„Die operante oder instrumentelle Konditionierung versteht unter Lernen die [[Formung]] und Erhöhung der [[Auftretenswahrscheinlichkeit]] eines bestimmten Verhaltens durch [[Verstärkung]].“",
+      "erklaerung": "Folie 11 (Stein 2017, S. 95 ff.).",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "kernaussage",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was fällt an der Lern-Definition der instrumentellen Konditionierung auf, und wie bewertet der Dozent Bestrafung und Konditionierung pädagogisch?",
+      "musterloesung": "In der Definition („Formung und Erhöhung der Auftretenswahrscheinlichkeit eines bestimmten Verhaltens durch Verstärkung“) kommt die Bestrafung gar nicht vor. Das hängt laut Dozent auch damit zusammen, dass Bestrafung aus heutiger Sicht nicht das Mittel der Wahl ist: Es mag pädagogische Kontexte geben, in denen sie nötig ist, aber pädagogisches Handeln über Bestrafung zu lenken, wäre nicht der erste Weg. Auch Konditionierung insgesamt ist in Erziehung und Bildung nicht die erste Wahl – spätere Lerntheorien erklären Lernen besser. An einzelnen Stellen kann positive oder negative Verstärkung aber sinnvoll sein.",
+      "bewertungspunkte": [
+        "Bestrafung fehlt in der Definition",
+        "Bestrafung nicht Mittel der Wahl (evtl. in Einzelfällen nötig)",
+        "Konditionierung insgesamt nicht erste Wahl, einzelne Verstärkung kann sinnvoll sein"
+      ],
+      "punkte": 3,
+      "erklaerung": "Folie 11; Video [13:50]–[14:40]. Stein (2024, S. 113) ergänzt: Bestrafungen unterdrücken unerwünschtes Verhalten nur für eine gewisse Zeit und gefährden das Selbstwertgefühl.",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Aussagen zum sozialen Lernen treffen laut Folie zu?",
+      "optionen": [
+        "Es wird auch Modell-, Nachahmungs- oder Beobachtungslernen genannt.",
+        "Es geht im Wesentlichen auf Bandura zurück.",
+        "Es geht im Wesentlichen auf Skinner zurück.",
+        "Als Beispiele werden aggressive Verhaltensweisen und Geschlechtsstereotypien genannt.",
+        "Es kann nur erwünschte Verhaltensweisen hervorbringen."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 12; Video [16:09], [19:59]. Soziales Lernen ist ambivalent: Es kann auch problematische Verhaltensweisen hervorbringen.",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Ordne die vier Phasen des Modelllernens der Aneignungs- oder der Ausführungsphase zu.",
+      "kategorien": [
+        "I. Aneignungsphase",
+        "II. Ausführungsphase"
+      ],
+      "elemente": [
+        {
+          "text": "1. Aufmerksamkeitszuwendung",
+          "kategorie": "I. Aneignungsphase"
+        },
+        {
+          "text": "2. Gedächtnis- oder Behaltensphase",
+          "kategorie": "I. Aneignungsphase"
+        },
+        {
+          "text": "3. motorische Reproduktion",
+          "kategorie": "II. Ausführungsphase"
+        },
+        {
+          "text": "4. Motivationsprozesse",
+          "kategorie": "II. Ausführungsphase"
+        }
+      ],
+      "erklaerung": "Folie 12 (Stein 2017, S. 98 ff.).",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "text": "„Unter Modelllernen versteht man einen Lernprozess, bei dem sich ein Beobachter durch die Beobachtung des Verhaltens eines [[Modells]] sowie der [[Konsequenzen]] dieses Verhaltens neue Verhaltensweisen aneignet oder bestehende Verhaltensmuster verändert.“",
+      "erklaerung": "Folie 13 (Stein 2017, S. 98 ff.).",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Beschreibe die vier Phasen des Modelllernens an einem eigenen Beispiel aus der Schule.",
+      "musterloesung": "Beispiel: Eine Schülerin sieht, wie ein Mitschüler im Sportunterricht einen Handstand macht und dafür gelobt wird. 1. Aufmerksamkeitszuwendung: Sie wird aufmerksam und schaut genau hin. 2. Gedächtnis-/Behaltensphase: Sie merkt sich, wie er die Hände aufsetzt und die Beine hochschwingt (Aneignungsphase – damit ist schon gelernt). 3. Motorische Reproduktion: Sie versucht den Handstand selbst; das klappt erst nach Üben. 4. Motivationsprozesse: Sie macht weiter, weil erste Versuche gelingen (intrinsisch) oder weil die Lehrkraft sie ermutigt und lobt bzw. weil sie gesehen hat, dass das Modell gelobt wurde (extrinsisch). Phasen 3 und 4 bilden die Ausführungsphase.",
+      "bewertungspunkte": [
+        "alle vier Phasen in richtiger Reihenfolge",
+        "Zuordnung zu Aneignungs- und Ausführungsphase",
+        "Motivation intrinsisch/extrinsisch oder Konsequenzen des Modells"
+      ],
+      "punkte": 3,
+      "erklaerung": "Folie 12; Beispiel des Dozenten (Jonglieren) Video [16:55]–[18:23]. Stein (2024, S. 130) stellt genau diese Übungsaufgabe.",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Beispiele der passenden Wissensart zu.",
+      "kategorien": [
+        "deklaratives (Fakten)wissen",
+        "episodisches (Biographie)wissen",
+        "prozedurales (Ausführungs)wissen"
+      ],
+      "elemente": [
+        {
+          "text": "Buchstaben, Zahlen und Namen von Städten kennen",
+          "kategorie": "deklaratives (Fakten)wissen"
+        },
+        {
+          "text": "Wissen über die Kolonialisierung Afrikas",
+          "kategorie": "deklaratives (Fakten)wissen"
+        },
+        {
+          "text": "Erinnerung an den eigenen ersten Schultag",
+          "kategorie": "episodisches (Biographie)wissen"
+        },
+        {
+          "text": "eine mathematische Aufgabe lösen können",
+          "kategorie": "prozedurales (Ausführungs)wissen"
+        },
+        {
+          "text": "Fahrrad fahren können",
+          "kategorie": "prozedurales (Ausführungs)wissen"
+        }
+      ],
+      "erklaerung": "Folie 14; Video [22:16]–[22:55]; weitere Beispiele Stein 2024, S. 118.",
+      "folie": "14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "text": "„Die kognitive oder konstruktivistische Lerntheorie versteht unter Lernen im weitesten Sinne [[Informationsverarbeitung]] und Gedächtnisspeicherprozesse, welche eine Einfügung neuer Wissensinhalte in bestehende [[kognitive Strukturen]] bedingen.“",
+      "erklaerung": "Folie 14 (Stein 2017, S. 102 ff.).",
+      "folie": "14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Kognitivismus und Konstruktivismus treffen laut Folie und Video zu?",
+      "optionen": [
+        "Der Mensch wird nicht mehr als Black Box gesehen.",
+        "Lernen wird als bewusste Auseinandersetzung mit Problemstellungen und Speicherung im Gedächtnis beschrieben.",
+        "Der Konstruktivismus betont stärker, dass jede Person ihre eigene Wirklichkeit konstruiert.",
+        "Beide Theorien erklären Lernen ausschließlich über Verstärkung von außen.",
+        "In Stein (2017) werden beide Theorien als sehr nah beieinander liegend beschrieben."
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Folie 14; Video [21:24], [24:10]. Falsch ist 4 – das wäre die behavioristische Sicht.",
+      "folie": "14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f22",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie definiert Ludwig (2020) Lernen?",
+      "antwort": "„Lernen ist ein kognitiver Vorgang der Informationsverarbeitung und -speicherung, der das psychische Dispositionsgefüge eines Menschen verändert.“ (Ludwig 2020, S. 161)",
+      "erklaerung": "Folie 15. Psychische Dispositionen = laut Video Wissen, Fertigkeiten, Fähigkeiten und Kompetenzen.",
+      "folie": "15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f23",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Schritte aus Ludwigs Schaubild (2020, S. 154) der richtigen Phase zu.",
+      "kategorien": [
+        "Akquisitionsphase",
+        "Applikationsphase"
+      ],
+      "elemente": [
+        {
+          "text": "Lernen",
+          "kategorie": "Akquisitionsphase"
+        },
+        {
+          "text": "Dispositionsveränderung",
+          "kategorie": "Akquisitionsphase"
+        },
+        {
+          "text": "Verhaltensänderung",
+          "kategorie": "Applikationsphase"
+        }
+      ],
+      "erklaerung": "Folie 15, oberes Schaubild. Die Verhaltensänderung kann folgen, muss aber nicht (Video [26:50]).",
+      "folie": "15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f24",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was soll das Beispiel „Eine Realität, aber viele Wirklichkeiten“ (Biene, Hund) zeigen?",
+      "antwort": "Es gibt eine Realität (dieselbe Blume), aber jedes Lebewesen nimmt sie anders wahr: Bienen sehen kein Rot, aber Ultraviolett; Hunde erkennen Gelb, Rottöne, Orange und Blau nicht, ihre Farbpalette liegt im Grünbereich. Was wahrgenommen und daraus gemacht wird, ist die jeweilige Wirklichkeit. Übertragen auf Menschen: Derselbe Reiz wird in jedem Kopf anders verarbeitet – Lernen verläuft deshalb individuell.",
+      "erklaerung": "Folie 19; Video [32:16]–[33:00]; ebenso Kippbild (Folie 16) und Licht-Karikatur (Folie 17).",
+      "folie": "19",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f25",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was bedeutet Autopoiesis im Konstruktivismus, und was meint „Erfahrung ist die Ursache, die Welt die Folge“ (von Foerster)?",
+      "antwort": "Autopoiesis: Jedes Gehirn arbeitet notwendigerweise konstruktiv, d. h. selbsterzeugend – es ist ein selbstreferenzielles, operativ geschlossenes System, das Reize filtert und fortwährend selbst Konstruktionsprozesse durchführt. Das Zitat von Heinz von Foerster meint: Wir machen Erfahrungen, und erst auf deren Grundlage entsteht in unserem Gehirn eine Wirklichkeit.",
+      "erklaerung": "Folie 18; Video [29:56], [31:44]. Den Begriff Autopoiesis kennst du aus S03 (Luhmann, Systemtheorie).",
+      "folie": "18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f26",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche pädagogischen Implikationen des Konstruktivismus nennt die Folie?",
+      "optionen": [
+        "Ergebnisse von Lernprozessen sind infolge individueller und situationsspezifischer Konstruktionsvorgänge nicht vorhersagbar.",
+        "Perturbation als Auslöser von Lernprozessen",
+        "Ermöglichungsdidaktik statt Belehrungsdidaktik",
+        "Berücksichtigung individueller Lernwege, Lernzugänge und Einstellungen zum Lernen",
+        "Belehrungsdidaktik statt Ermöglichungsdidaktik",
+        "Gleicher Unterricht führt bei allen Lernenden zum gleichen Ergebnis."
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Folie 20. Falsch sind 5 (umgedreht) und 6 (widerspricht dem ersten Punkt).",
+      "folie": "20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f27",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was ist mit Perturbation als Auslöser von Lernprozessen gemeint?",
+      "antwort": "Perturbation meint Störung: Ich habe meine Wirklichkeit, und wenn Informationen auftreten, die nicht hineinpassen, kann das besonders starke Lernprozesse auslösen. Die Störung kann aber auch zur Ablehnung führen, indem sie zurückgewiesen wird.",
+      "erklaerung": "Folie 20; Video [34:17]–[34:45].",
+      "folie": "20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f28",
+      "baustein": "kernaussage",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum fordert der Konstruktivismus „Ermöglichungsdidaktik statt Belehrungsdidaktik“? Begründe.",
+      "musterloesung": "Eine lehrende Person kann Informationen nicht direkt in das Gehirn eines anderen Menschen übertragen, weil jedes Gehirn autopoietisch und individuell konstruiert. Deshalb funktioniert Belehrung nur bedingt: Selbst gut Erklärtes kommt nicht bei allen an – manche nehmen die Information gar nicht auf, andere verarbeiten sie anders als gedacht. Stattdessen sollen Lehrende pädagogische Räume schaffen, in denen die Auseinandersetzung mit einem Thema möglich wird und jede*r Lernende sich Inhalte im eigenen Tempo und auf eigene Art erschließen kann (Ermöglichungsdidaktik).",
+      "bewertungspunkte": [
+        "Information nicht direkt übertragbar / Belehrung nur bedingt wirksam",
+        "Begründung über individuelle Konstruktion (Autopoiesis, unterschiedliche Verarbeitung)",
+        "Ermöglichung: Lernräume, eigenes Tempo, eigene Art"
+      ],
+      "punkte": 3,
+      "erklaerung": "Folie 20; Video [34:56]–[35:47]. Wird in Lernen II (10.11.) vertieft.",
+      "folie": "20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f29",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Ordne die Lern-Definitionen der passenden Lerntheorie zu.",
+      "kategorien": [
+        "klassische Konditionierung",
+        "instrumentelle/operante Konditionierung",
+        "soziales Lernen",
+        "Kognitivismus/Konstruktivismus"
+      ],
+      "elemente": [
+        {
+          "text": "Verknüpfung von Reizen mit Reaktionen, die ursprünglich nicht miteinander in Zusammenhang standen",
+          "kategorie": "klassische Konditionierung"
+        },
+        {
+          "text": "Formung und Erhöhung der Auftretenswahrscheinlichkeit eines bestimmten Verhaltens durch Verstärkung",
+          "kategorie": "instrumentelle/operante Konditionierung"
+        },
+        {
+          "text": "Beobachtung des Verhaltens eines Modells sowie der Konsequenzen dieses Verhaltens",
+          "kategorie": "soziales Lernen"
+        },
+        {
+          "text": "Informationsverarbeitung und Gedächtnisspeicherprozesse, welche eine Einfügung neuer Wissensinhalte in bestehende kognitive Strukturen bedingen",
+          "kategorie": "Kognitivismus/Konstruktivismus"
+        }
+      ],
+      "erklaerung": "Folien 8, 11, 13, 14.",
+      "folie": "8, 11, 13, 14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f30",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Namen der passenden Lerntheorie zu (laut Folien).",
+      "kategorien": [
+        "klassische Konditionierung",
+        "instrumentelle/operante Konditionierung",
+        "soziales Lernen",
+        "Kognitivismus/Konstruktivismus"
+      ],
+      "elemente": [
+        {
+          "text": "Pawlow",
+          "kategorie": "klassische Konditionierung"
+        },
+        {
+          "text": "Watson",
+          "kategorie": "klassische Konditionierung"
+        },
+        {
+          "text": "Thorndike",
+          "kategorie": "instrumentelle/operante Konditionierung"
+        },
+        {
+          "text": "Skinner",
+          "kategorie": "instrumentelle/operante Konditionierung"
+        },
+        {
+          "text": "Bandura",
+          "kategorie": "soziales Lernen"
+        },
+        {
+          "text": "Ludwig",
+          "kategorie": "Kognitivismus/Konstruktivismus"
+        },
+        {
+          "text": "Heinz von Foerster",
+          "kategorie": "Kognitivismus/Konstruktivismus"
+        }
+      ],
+      "erklaerung": "Folien 6, 9, 12, 15, 18.",
+      "folie": "6–18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f31",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "In einer 3. Klasse stören einige Kinder häufig. Wie würde eine Lehrkraft nach der instrumentellen Konditionierung, nach dem sozialen Lernen und nach dem Konstruktivismus vorgehen?",
+      "musterloesung": "Instrumentelle Konditionierung: erwünschtes Verhalten (z. B. Melden, ruhiges Arbeiten) positiv verstärken – Lob (sozialer Verstärker), Sticker (materialer Verstärker); Bestrafung ist nicht das Mittel der Wahl. Am Anfang kann alles verstärkt werden, was in die richtige Richtung geht (shaping); wird die Verstärkung eingestellt, droht Extinktion. Soziales Lernen: Die Lehrkraft und ruhig arbeitende Mitschüler*innen wirken als Modelle; wird ein Kind für Hilfsbereitschaft gelobt, ahmen andere das eher nach (Konsequenzen des Modells beobachten). Gleichzeitig darauf achten, dass störendes Verhalten nicht durch Aufmerksamkeit „belohnt“ wird und so als Modell wirkt. Konstruktivismus: Die Lehrkraft kann das Verhalten nicht direkt „einbauen“; sie fragt, welche Wirklichkeit die Kinder haben (Langeweile, Überforderung) und gestaltet eine Lernumgebung, die eigene Zugänge und eigenes Tempo ermöglicht (Ermöglichungsdidaktik).",
+      "bewertungspunkte": [
+        "instrumentell: positive Verstärkung, Bestrafung nicht erste Wahl",
+        "sozial: Modelle und beobachtete Konsequenzen",
+        "konstruktivistisch: individuelle Wirklichkeit, Lernumgebung gestalten / Ermöglichungsdidaktik"
+      ],
+      "punkte": 3,
+      "erklaerung": "Transfer (selbst erarbeitet) aus Folien 9–20; shaping: Stein 2024, S. 111; Gudjons/Traub 2016, S. 223.",
+      "folie": "9–20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f32",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Ordne die Aussagen zu: radikaler Konstruktivismus, Sicht des Dozenten oder sozialer Konstruktivismus?",
+      "kategorien": [
+        "radikaler Konstruktivismus",
+        "Sicht des Dozenten",
+        "sozialer Konstruktivismus"
+      ],
+      "elemente": [
+        {
+          "text": "Es gibt gar keine gemeinsame, geteilte Welt.",
+          "kategorie": "radikaler Konstruktivismus"
+        },
+        {
+          "text": "Eine Realität gibt es (Planet, Fußboden, Türen); was der Kopf daraus macht, ist die individuelle Wirklichkeit.",
+          "kategorie": "Sicht des Dozenten"
+        },
+        {
+          "text": "Über Kommunikation gleichen wir unsere Wirklichkeiten an, z. B. die Vorstellung davon, was Gelb ist.",
+          "kategorie": "sozialer Konstruktivismus"
+        }
+      ],
+      "erklaerung": "Video [30:05]–[31:44] (nicht auf den Folien).",
+      "folie": "18–19",
+      "pruefungsrelevant": false
+    }
+  ],
+  "pruefungshinweise": [
+    "Lernen verändert die Verhaltensmöglichkeiten (Dispositionen) – eine Verhaltensänderung kann, muss aber nicht folgen (Video [01:48], [26:50]).",
+    "Jede Lerntheorie hat eine eigene Definition von Lernen auf den Folien (8, 11, 13, 14, 15) – Wortlaut sicher kennen, weil die Klausur keine Teilpunkte gibt (selbst abgeleitet aus dem Klausurformat).",
+    "Negative Verstärkung = Ausbleiben einer negativen Konsequenz → erhöht das Verhalten; nicht mit Bestrafung verwechseln (Folie 9).",
+    "In der Definition der instrumentellen Konditionierung fehlt die Bestrafung – Bestrafung und Konditionierung sind laut Dozent nicht Mittel der ersten Wahl (Video [13:50]–[14:40]).",
+    "Vier Phasen des Modelllernens in Reihenfolge und Zuordnung zu Aneignungs- und Ausführungsphase (Folie 12).",
+    "Unterschied Kognitivismus – Konstruktivismus: in Stein (2017) sehr nah beieinander, der Konstruktivismus betont die individuelle Konstruktion der eigenen Wirklichkeit (Video [24:10]).",
+    "Pädagogische Implikationen des Konstruktivismus (Folie 20) – werden in Lernen II bei der konstruktivistischen Didaktik vertieft (Video [33:13])."
+  ],
+  "offene_fragen": [
+    "Präsenzsitzung ewb001.2 am 03.11.2026: Folien noch nicht vorhanden – nachtragen, sobald sie in Stud.IP stehen.",
+    "Der Ablaufplan WiSe 2026/27 nennt für den 03.11. zusätzlich „Lehren und Lernen“ und „Systemtheorie“; die Folien der Einheit 04 haben dazu keinen eigenen Abschnitt (Systemtheorie nur indirekt über Autopoiesis, Folie 18). Kommt das in der Präsenzsitzung?"
+  ],
+  "auffaelligkeiten": [
+    "Ablaufplan WiSe 2026/27 (03.11.): „Lernen I – Begriffsklärung, Lehren und Lernen, Konditionierung, Soziales Lernen, Kognitivismus, Konstruktivismus, Systemtheorie“; Folie 3 (älterer Ablaufplan): „Begriffsklärung, Lernen, Konditionierung, Soziales Lernen, Kognitivismus, Konstruktivismus“ – ohne „Lehren und Lernen“ und „Systemtheorie“.",
+    "Folie 9: Tippfehler „Konseqenz“ (statt „Konsequenz“).",
+    "Folie 12: „Bandura (*1925)“ – Albert Bandura ist 2021 gestorben (Ergänzung, nicht aus den Unterlagen).",
+    "Folien und Video zitieren Stein 2017 (3. Aufl.), die Selbststudiums-Folie 21 Stein 2024 (4. Aufl., S. 104–119) – andere Seitenzahlen.",
+    "Stein 2024, Merksatz S. 110: „Herstellung neuer Reiz-Reaktions-Verbindungen, die ursprünglich nicht miteinander in Zusammenhang standen“ – Folie 8 (wie Stein-Fließtext S. 109): „Verknüpfung von Reizen mit Reaktionen …“. Gelernt wird der Folienwortlaut.",
+    "Negative Verstärkung unterschiedlich formuliert: Folie 9 „Ausbleiben einer negativen Konsequenz“, Stein 2024 (Tab. 12) „Wegnahme eines unangenehmen Reizes“, Gudjons/Traub 2016 (S. 223) „Entzug einer unangenehmen Konsequenz“ – gleiche Bedeutung.",
+    "Folien 16 und 17 (Kippbild, Karikatur) ohne Titel und Quellenangabe."
+  ]
+}

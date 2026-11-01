@@ -42,7 +42,8 @@
       "abgedeckt_in": [
         "ewb001.1_2026-10-13",
         "ewb001.2_2026-10-13",
-        "ewb001.1_2026-10-20"
+        "ewb001.1_2026-10-20",
+        "ewb001.2_2026-11-03"
       ]
     },
     {
@@ -56,12 +57,15 @@
     {
       "text": "Kritisches Verständnis der Theorien zu Sozialisation, Erziehung, Bildung, Lernen und Kompetenz",
       "abgedeckt_in": [
-        "ewb001.2_2026-10-20"
+        "ewb001.2_2026-10-20",
+        "ewb001.2_2026-11-03"
       ]
     },
     {
       "text": "Überblick über kompetenzorientiertes Lehren und Lernen (didaktische Prinzipien und Methoden)",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "ewb001.2_2026-11-03"
+      ]
     },
     {
       "text": "Struktur und historische Entwicklung der Erziehungswissenschaften darstellen",
@@ -88,7 +92,8 @@
     "ewb001_2026-10-23",
     "ewb001.1_2026-10-27",
     "ewb001.2_2026-10-27",
-    "ewb001.1_2026-11-03"
+    "ewb001.1_2026-11-03",
+    "ewb001.2_2026-11-03"
   ],
   "klausurstil": {
     "quellen": [
@@ -141,14 +146,14 @@
     {
       "eintrag": "Stein, M. (2024): Allgemeine Pädagogik. 4. ergänzte Aufl. München: Ernst Reinhardt (Grundlage des Kurzskripts ewb001.1)",
       "vorhanden": false,
-      "hinweis": "vorhanden ist die 3. Aufl. 2017 (Literatur/Stein_2017_Allgemeine-Paedagogik.pdf); Kapitel aus Stein 2024 liegen in ewb001.2/04_Literatur",
-      "stand": "2026-10-25"
+      "hinweis": "vorhanden ist die 3. Aufl. 2017 (Literatur/Stein_2017_Allgemeine-Paedagogik.pdf); Kapitel aus Stein 2024 liegen in den Sitzungsordnern von ewb001.2 (u. a. Kap. 5 „Lernen“, S. 104–131, in ewb001.2/Sitzung_04 – Selbststudium S04)",
+      "stand": "2026-11-01"
     },
     {
-      "eintrag": "Ludwig, P. H. (2020): Grundbegriffe der Pädagogik. Weinheim: Beltz Juventa (zitiert in ewb001.2 S01, S. 139 f., 161)",
+      "eintrag": "Ludwig, P. H. (2020): Grundbegriffe der Pädagogik. Weinheim: Beltz Juventa (zitiert in ewb001.2 S01, S. 139 f., 161, und S04, S. 154, 157, 161)",
       "vorhanden": false,
-      "hinweis": "nur Kapitel 7 „Bildung“ in ewb001.2/04_Literatur; online über content-select",
-      "stand": "2026-10-25"
+      "hinweis": "nur Kapitel 7 „Bildung“ (ewb001.2/Sitzung_06); Kapitel zum Lernen (S. 154–161) fehlt; online über content-select",
+      "stand": "2026-11-01"
     },
     {
       "eintrag": "Stein, M. (2017): Allgemeine Pädagogik, 3. Aufl. (zitiert in ewb001.2 S01, S. 16–21, 40 f., 65 ff., 89 f.)",
@@ -184,6 +189,33 @@
       "datei": "ewb001.1/4._Literatur/Klein_Das_Gute_im_Kind_sehen_und_danach_handeln.pdf",
       "hinweis": "Artikel S. 568–574 vollständig",
       "stand": "2026-10-26"
+    },
+    {
+      "eintrag": "Gudjons/Traub (2016): Pädagogisches Grundwissen, Kap. 8: Lernen, S. 219–238 (Selbststudium ewb001.2 S04, Folie 21)",
+      "vorhanden": true,
+      "datei": "ewb001.2/Sitzung_04/04_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_8_Lernen.pdf",
+      "stand": "2026-11-01"
+    },
+    {
+      "eintrag": "Stein, M. (2024): Allgemeine Pädagogik, 4. Aufl., Kap. 5: Lernen, S. 104–119 (Selbststudium ewb001.2 S04, Folie 21)",
+      "vorhanden": true,
+      "datei": "ewb001.2/Sitzung_04/04_Stein2024_Lernen.pdf",
+      "hinweis": "Kapitel vollständig (S. 104–131)",
+      "stand": "2026-11-01"
+    },
+    {
+      "eintrag": "Beck, H. (2022): Die Symphonie des Denkens. Forschung & Lehre 5/22, S. 356–357 (Zusatztext ewb001.2 S04)",
+      "vorhanden": true,
+      "datei": "ewb001.2/Sitzung_04/04_Beck2022_Die_Symphonie_des_Denkens.pdf",
+      "hinweis": "Scan, kein Text erkennbar (nicht durchsuchbar)",
+      "stand": "2026-11-01"
+    },
+    {
+      "eintrag": "Metzinger, T. (2022): Denkt die Person oder das Gehirn? Forschung & Lehre 5/22, S. 353–354 (Zusatztext ewb001.2 S04)",
+      "vorhanden": true,
+      "datei": "ewb001.2/Sitzung_04/04_Metzinger2022_Denkt_die_Person_oder_das_Gehirn.pdf",
+      "hinweis": "Scan, kein Text erkennbar (nicht durchsuchbar)",
+      "stand": "2026-11-01"
     }
   ],
   "besonderheiten": [
@@ -214,7 +246,10 @@
     "ewb001.1 S02: Lernzielkontrolle 2: Silbentrennungen aus dem Folienlayout (z. B. „Ethikbe-züge“, „pro-fessionellen“) sind in der App zusammengeschrieben; Antwortzeilen sind mit „·“ verbunden.",
     "ewb001.2 S02: Ablaufplan WiSe 2026/27 und Folie 2 der Einheit 02/03 nennen für Termin 3 „Reflexive EW“; die Präsenzfolie 3 und die Folien der Einheit 03 behandeln stattdessen „Phänomenologische Pädagogik“ – Reflexive EW fehlt dort.",
     "ewb001.2 S02: Präsenzfolien 14–41 („Folienspeicher“) wiederholen Einheit 01 und 02 ohne neue Inhalte.",
-    "ewb001.2 S03: Präsenzfolien 27.10.2026 noch nicht im Ordner – nachtragen (Stand 26.10.2026)."
+    "ewb001.2 S03: Präsenzfolien 27.10.2026 liegen seit 28.10. in ewb001.2/Sitzung_03 – noch einarbeiten (Stand 01.11.2026).",
+    "ewb001.2 S04: Ablaufplan WiSe 2026/27 nennt für den 03.11. zusätzlich „Lehren und Lernen“ und „Systemtheorie“; Folie 3 der Einheit 04 (älterer Ablaufplan) und die Folien behandeln beides nicht eigens.",
+    "ewb001.2 S04: Folie 9 Tippfehler „Konseqenz“; Folie 12 „Bandura (*1925)“ – Bandura ist 2021 gestorben.",
+    "ewb001.2 S04: Folien zitieren Stein 2017, Selbststudium Stein 2024 – Merksatz zur klassischen Konditionierung 2024 anders formuliert („Herstellung neuer Reiz-Reaktions-Verbindungen“)."
   ],
   "dateien": [
     {
@@ -465,6 +500,55 @@
       "art": "Lernzielkontrolle",
       "status": "verarbeitet",
       "sitzung": "ewb001.1_2026-11-03"
+    },
+    {
+      "pfad": "ewb001.2/Sitzung_04/04_ewb001.2_Lernen_I.pdf",
+      "geaendert": "2025-10-14",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.2_2026-11-03"
+    },
+    {
+      "pfad": "ewb001.2/Sitzung_04/04_ewb001.2_Transkript_Zusammenfassung.docx",
+      "geaendert": "2026-09-06",
+      "art": "Transkript",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.2_2026-11-03"
+    },
+    {
+      "pfad": "ewb001.2/Sitzung_04/04_ewb001.2_Lernen_I.mp4",
+      "geaendert": "2025-10-14",
+      "art": "Video",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.2_2026-11-03"
+    },
+    {
+      "pfad": "ewb001.2/Sitzung_04/04_Stein2024_Lernen.pdf",
+      "geaendert": "2025-10-14",
+      "art": "Literatur (Selbststudium S04)",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.2_2026-11-03"
+    },
+    {
+      "pfad": "ewb001.2/Sitzung_04/04_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_8_Lernen.pdf",
+      "geaendert": "2025-10-14",
+      "art": "Literatur (Selbststudium S04)",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.2_2026-11-03"
+    },
+    {
+      "pfad": "ewb001.2/Sitzung_04/04_Beck2022_Die_Symphonie_des_Denkens.pdf",
+      "geaendert": "2025-10-14",
+      "art": "Literatur (Zusatztext)",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.2_2026-11-03"
+    },
+    {
+      "pfad": "ewb001.2/Sitzung_04/04_Metzinger2022_Denkt_die_Person_oder_das_Gehirn.pdf",
+      "geaendert": "2025-10-14",
+      "art": "Literatur (Zusatztext)",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.2_2026-11-03"
     }
   ]
 }

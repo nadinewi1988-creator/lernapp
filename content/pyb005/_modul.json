@@ -154,7 +154,12 @@
     },
     {
       "eintrag": "Literatur der eÜbung S03 (Courseware): Feldmann (2025), Lohaus/Vierhaus/Lemola (2024), Neyer/Asendorpf (2024), Scheithauer/Niebank (2022), Schweer/Schulte-Pelkum (2017, Bd. 1)",
-      "verwendung": "pyb005_2026-10-29; im Ordner nur Lohaus u. a. (2024) und Schweer/Schulte-Pelkum (Fotos)"
+      "verwendung": "pyb005_2026-10-29; im Ordner: Lohaus u. a. (2024), Schweer/Schulte-Pelkum (Fotos), Neyer/Asendorpf (2024, seit 01.11.2026)"
+    },
+    {
+      "eintrag": "Neyer, F. J. & Asendorpf, J. B. (2024): Psychologie der Persönlichkeit, 7. Aufl.",
+      "datei": "Literatur/Neyer-Asendorpf_2024_Psychologie-der-Persoenlichkeit.pdf",
+      "verwendung": "Literatur eÜbung S03 (29.10.); VL S03 Folien 35–37 (Freud)"
     }
   ],
   "fehlende_literatur": [],
@@ -339,6 +344,12 @@
       "art": "Courseware-Übungstest (Wortlaut)",
       "status": "verarbeitet",
       "sitzung": "pyb005_2026-10-29"
+    },
+    {
+      "pfad": "Literatur/Neyer-Asendorpf_2024_Psychologie-der-Persoenlichkeit.pdf",
+      "geaendert": "2026-11-01",
+      "art": "Literatur (eBook SpringerLink, 523 S.)",
+      "status": "später"
     }
   ]
 }

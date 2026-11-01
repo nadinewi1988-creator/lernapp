@@ -1,0 +1,277 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "mab005",
+  "teilmodul": "mab005.2",
+  "datum": "2026-11-02",
+  "sitzung_nr": 4,
+  "sitzung_id": "",
+  "thema": "Aufgabenblatt 04",
+  "thema_in_app": "eingetragen",
+  "stand": "geprueft",
+  "quellen": [
+    {
+      "datei": "mab005.2/Sitzung_04/Aufgabenblatt04_V1.pdf",
+      "art": "Übungsblatt",
+      "seiten": "1–2"
+    },
+    {
+      "datei": "mab005.2/Sitzung_03/Aufgabenblatt03_V1.pdf",
+      "art": "Übungsblatt (W-Raum des Tetraeders, B.1)",
+      "seiten": "2"
+    },
+    {
+      "datei": "mab005.1/VL_Kapitel1_mab005_Handout.pdf",
+      "art": "Folien (Satz 1.4.6, 1.4.7, Bernoulli, Laplace)",
+      "seiten": "42–53"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Bedingte Wahrscheinlichkeiten $P(A|B)$ mit der Definition berechnen und erklären, warum $P(A|B) \\neq P(B|A)$ sein kann.",
+      "art": "abgeleitet",
+      "quelle": "Blatt 04, A.1",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03"
+      ],
+      "erklaerung_abschnitt": "Worum es in Blatt 04 geht"
+    },
+    {
+      "text": "Die Bayes-Umkehr-Formel aus Definition, Multiplikationssatz und Satz von der totalen Wahrscheinlichkeit herleiten.",
+      "art": "abgeleitet",
+      "quelle": "Blatt 04, B.1",
+      "fragen": [
+        "f04"
+      ],
+      "erklaerung_abschnitt": "Worum es in Blatt 04 geht"
+    },
+    {
+      "text": "Stochastische Unabhängigkeit definieren und ihre Eigenschaften (B.2 a–c) begründen.",
+      "art": "abgeleitet",
+      "quelle": "Blatt 04, B.2",
+      "fragen": [
+        "f05",
+        "f06",
+        "f07"
+      ],
+      "erklaerung_abschnitt": "Worum es in Blatt 04 geht"
+    },
+    {
+      "text": "Ein mehrstufiges Zufallsexperiment mit Baumdiagramm und Wahrscheinlichkeitsraum modellieren und Wahrscheinlichkeiten mit Pfadregel und Gegenereignis berechnen.",
+      "art": "abgeleitet",
+      "quelle": "Blatt 04, B.3",
+      "fragen": [
+        "f08",
+        "f09"
+      ],
+      "erklaerung_abschnitt": "Worum es in Blatt 04 geht"
+    }
+  ],
+  "kurzfassung": [
+    "Blatt 04 übt bedingte Wahrscheinlichkeit, Bayes-Formel und stochastische Unabhängigkeit (Kapitel 2) – Teil A zur Selbstkontrolle, Teil B im Seminar.",
+    "Bedingte Wahrscheinlichkeit: $P(A|B) = \\frac{P(A \\cap B)}{P(B)}$ für $P(B) > 0$ – man betrachtet nur noch die Fälle, in denen $B$ eingetreten ist.",
+    "$P(A|B)$ und $P(B|A)$ sind im Allgemeinen verschieden; die Bayes-Formel rechnet das eine ins andere um.",
+    "$A$ und $B$ sind stochastisch unabhängig, wenn $P(A \\cap B) = P(A) \\cdot P(B)$; dann ist auch $P(A|B) = P(A)$, und auch $A$ und $\\bar{B}$ sind unabhängig.",
+    "Mehrstufige Experimente stellt man im Baumdiagramm dar: Pfadregel = entlang eines Pfades multiplizieren, mehrere Pfade = addieren; „mindestens einer“ rechnet man über „keiner“."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Worum es in Blatt 04 geht",
+      "folien": "Blatt 04",
+      "text": "Blatt 04 übt schon den Stoff von **Kapitel 2**: **bedingte Wahrscheinlichkeit**, **Bayes-Formel** und **stochastische Unabhängigkeit** – dazu ein mehrstufiges Experiment mit **Baumdiagramm** (B.3). Alle Aufgaben mit vollständigen Lösungen stehen in der **Hausaufgabe „Übungsblatt 04“** (eigenes Fenster bzw. PDF).\n\n*Hinweis: Die Folien zu Kapitel 2 waren beim Aufbereiten (01.11.2026) noch nicht in Stud.IP. Die Definitionen hier sind die üblichen Lehrbuch-Definitionen – Ergänzung (nicht aus der Vorlesung); sie werden nach der Vorlesung an die Folien angepasst.*\n\n**Die neuen Begriffe in Alltagssprache:**\n- **Bedingte Wahrscheinlichkeit** $P(A|B)$ (sprich: „P von A gegeben B“): Wie wahrscheinlich ist $A$, **wenn man schon weiß**, dass $B$ eingetreten ist? Man schaut nur noch auf $B$ und fragt, welcher Anteil davon auch in $A$ liegt: $P(A|B) = \\frac{P(A \\cap B)}{P(B)}$ (mit $P(B) > 0$).\n- **Multiplikationssatz / Pfadregel:** $P(A \\cap B) = P(A|B) \\cdot P(B)$ – im Baumdiagramm multipliziert man entlang eines Pfades.\n- **Totale Wahrscheinlichkeit:** Teilt man $\\Omega$ in Fälle $B_1, \\dots, B_n$ auf, ist $P(A) = \\sum_{i} P(A|B_i) \\cdot P(B_i)$ – alle Pfade zu $A$ addieren.\n- **Bayes-Formel:** dreht die Bedingung um, $P(B_k|A) = \\frac{P(A|B_k) \\cdot P(B_k)}{\\sum_{i} P(A|B_i) \\cdot P(B_i)}$.\n- **Stochastisch unabhängig:** $P(A \\cap B) = P(A) \\cdot P(B)$ – das eine Ereignis verrät nichts über das andere.\n\n**Die Ergebnisse:**\n- **A.1:** Tetraeder, $B = \\{2, 4\\}$, $E = \\{1, 2, 3\\}$: $P(B) = \\frac{1}{2}$, $P(E) = \\frac{3}{4}$, $P(B \\cap E) = \\frac{1}{4}$, $P(B|E) = \\frac{1}{3}$, $P(E|B) = \\frac{1}{2}$.\n- **B.1:** Bayes-Formel aus Definition + Multiplikationssatz (Zähler) + totaler Wahrscheinlichkeit (Nenner).\n- **B.2:** (a) $P(A|B) = \\frac{P(A) \\cdot P(B)}{P(B)} = P(A)$; (b) $P(A \\cap \\bar{B}) = P(A) - P(A)P(B) = P(A) \\cdot P(\\bar{B})$; (c) $P(B) = 0$ oder $1$ ⇒ unabhängig von allem.\n- **B.3:** $\\Omega = \\{0, 1\\}^5$ (1 = defekt), $|\\Omega| = 32$, $P(\\{\\omega\\}) = 0{,}04^k \\cdot 0{,}96^{5-k}$; $P(\\text{genau einer defekt}) = 5 \\cdot 0{,}04 \\cdot 0{,}96^4 \\approx 0{,}1699$; $P(\\text{mindestens einer}) = 1 - 0{,}96^5 \\approx 0{,}1846$.\n\n![Baumdiagramm zu B.3: fünfmal Ziehen, 1 = defekt (0,04), 0 = in Ordnung (0,96)](/dateien/mab005/Blatt04_B3_Baumdiagramm_Kugelschreiber.svg)\n\n**Kurz erklärt:** Bedingte Wahrscheinlichkeit heißt: Man verkleinert die Welt auf das, was man schon weiß. Beim Tetraeder weiß man „kleiner als 4“ – es bleiben 1, 2, 3; davon ist eine Zahl gerade, also $\\frac{1}{3}$. Weiß man dagegen „gerade“, bleiben 2 und 4; davon ist eine kleiner als 4, also $\\frac{1}{2}$.\n\n**Prüfungsfalle:** $P(A|B)$ und $P(B|A)$ sind **verschieden** (A.1: $\\frac{1}{3}$ und $\\frac{1}{2}$). Genau diese Verwechslung klärt die Bayes-Formel. Und: Bei „mindestens einer …“ fast immer über das Gegenereignis „keiner …“ rechnen.",
+      "beispiel": "Fairer Würfel, $B$ = „gerade“ $= \\{2, 4, 6\\}$, $A$ = „größer als 3“ $= \\{4, 5, 6\\}$: $A \\cap B = \\{4, 6\\}$, also $P(A|B) = \\frac{2/6}{3/6} = \\frac{2}{3}$ – von den drei geraden Zahlen sind zwei größer als 3."
+    }
+  ],
+  "definitionen": [],
+  "aufgaben": [
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Übungsblatt 04 (4 Aufgaben)",
+      "text": "Aufgabenblatt 04 (Bearbeitung in Woche 4: 2. November bis 6. November 2026) – alle Aufgaben im Wortlaut (Lösungen unter „Lösung / Ausarbeitung“ und als PDF):\n\n#### Teil A – zur Selbstkontrolle\n\n**A.1 Bedingte Wahrscheinlichkeit:** *„Es wird das Zufallsexperiment Würfeln mit einem tetraeder-förmigen Würfel betrachtet, der Wahrscheinlichkeitsraum ist in B.1 auf dem AB 03 bestimmt worden. Betrachten Sie die folgenden Ereignisse: $B$: Würfeln einer geraden Zahl, $E$: Würfeln einer Zahl kleiner als 4. Berechnen Sie folgende Wahrscheinlichkeiten: $P(B)$, $P(E)$, $P(B \\cap E)$, $P(B|E)$, $P(E|B)$“*\n\n#### Teil B – zur gemeinsamen Besprechung\n\n**B.1 Bayes-Umkehr-Formel:** *„Leiten Sie die Bayes-Umkehr-Formel unter Verwendung von Gleichungen aus der Vorlesung her. Hinweis: Beginnen Sie zum Beispiel mit $P(B_k|A) = \\frac{P(B_k \\cap A)}{P(A)}$.“*\n\n**B.2 Eigenschaften stochastisch unabhängiger Ereignisse:** *„Begründen Sie die folgenden Aussagen:*\n*(a) Für $P(B) > 0$ gilt: Wenn $A$ und $B$ stochastisch unabhängig sind, gilt $P(A|B) = P(A)$.*\n*(b) Wenn $A$ und $B$ stochastisch unabhängige Ereignisse sind, sind auch $A$ und $\\bar{B}$ stochastisch unabhängig.*\n*(c) Wenn für ein Ereignis $B$ gilt $P(B) = 0$ oder $P(B) = 1$, dann ist $B$ von jedem Ereignis $A$ stochastisch unabhängig.“*\n\n**B.3 Kugelschreiberproduktion:** *„In einer Kugelschreiberproduktion sind 4 % der produzierten Kugelschreiber defekt.*\n*(a) Stellen Sie das Zufallsexperiment Fünffaches Ziehen eines Kugelschreibers aus den produzierten Kugelschreibern unter Beachtung der Reihenfolge mithilfe eines Baumdiagramms dar. (Gehen Sie dabei davon aus, dass die Wahrscheinlichkeit, einen defekten Kugelschreiber zu ziehen, in jedem Zug 4 % beträgt, unabhängig davon, was gegebenenfalls in den vorhergehenden Zügen gezogen worden ist. Warum / in welchen Situationen ist das sinnvoll?)*\n*(b) Formulieren Sie einen Wahrscheinlichkeitsraum für dieses Zufallsexperiment.*\n*(c) Geben Sie für die folgenden Ereignisse jeweils die zugehörige Teilmenge von $\\Omega$ an und berechnen Sie die Wahrscheinlichkeit für die Ereignisse: A: Genau einer der gezogenen Kugelschreiber ist defekt. B: Mindestens einer der gezogenen Kugelschreiber ist defekt.“*",
+      "quelle": "Aufgabenblatt 04 (Teil A und B)",
+      "loesung": "## Die Definitionen, Sätze und Regeln, die du für Blatt 04 brauchst\n\n*Blatt 04 gehört schon zum Stoff von **Kapitel 2** (bedingte Wahrscheinlichkeit, Unabhängigkeit). Die Folien zu Kapitel 2 waren beim Lösen (01.11.2026) noch nicht in Stud.IP. Die Definitionen unten sind deshalb die **üblichen Lehrbuch-Definitionen – Ergänzung (nicht aus der Vorlesung)**. Nach der Vorlesung werden Nummern und Schreibweise an die Folien angepasst.*\n\n> **Wahrscheinlichkeitsraum des Tetraeders (Blatt 03, B.1b):** $(\\Omega, \\mathcal{A}, P) = \\left(\\{1, 2, 3, 4\\},\\ \\mathfrak{P}(\\{1, 2, 3, 4\\}),\\ P\\right)$ mit $P(A) = \\frac{|A|}{4}$ – jede der vier Zahlen hat die Wahrscheinlichkeit $\\frac{1}{4}$ (Laplace-Experiment, VL Kapitel 1, Folie 50).\n\n> **Bedingte Wahrscheinlichkeit (Ergänzung):** Für Ereignisse $A$, $B$ mit $P(B) > 0$ heißt\n> $$P(A|B) := \\frac{P(A \\cap B)}{P(B)}$$\n> die **bedingte Wahrscheinlichkeit von $A$ unter der Bedingung $B$** (sprich: „P von A gegeben B“).\n> **Idee:** Man weiß schon, dass $B$ eingetreten ist. Dann zählt nur noch der Teil von $A$, der in $B$ liegt – und man misst ihn im Verhältnis zu $B$ statt zu $\\Omega$.\n> Beispiel: fairer Würfel, $B$ = „gerade“ $= \\{2, 4, 6\\}$, $A = \\{6\\}$: $P(A|B) = \\frac{1/6}{3/6} = \\frac{1}{3}$ – von den drei geraden Zahlen ist eine die 6.\n\n> **Multiplikationssatz (Ergänzung):** Stellt man die Definition um (beide Seiten mal $P(B)$), erhält man\n> $$P(A \\cap B) = P(A|B) \\cdot P(B).$$\n> Im Baumdiagramm ist das die **Pfadregel**: Wahrscheinlichkeiten entlang eines Pfades werden multipliziert.\n\n> **Satz von der totalen Wahrscheinlichkeit (Ergänzung):** Bilden $B_1, \\dots, B_n$ eine **Zerlegung** von $\\Omega$ (paarweise disjunkt, zusammen ganz $\\Omega$, alle $P(B_i) > 0$), dann gilt für jedes Ereignis $A$\n> $$P(A) = \\sum_{i=1}^{n} P(A|B_i) \\cdot P(B_i).$$\n> Im Baumdiagramm: Man addiert alle Pfade, die zu $A$ führen.\n\n> **Stochastische Unabhängigkeit (Ergänzung):** Zwei Ereignisse $A$, $B$ heißen **stochastisch unabhängig**, wenn\n> $$P(A \\cap B) = P(A) \\cdot P(B).$$\n> **Idee:** Das Eintreten des einen Ereignisses ändert nichts an der Wahrscheinlichkeit des anderen.\n> Beispiel: zweimal Münze werfen, $A$ = „1. Wurf Wappen“, $B$ = „2. Wurf Wappen“: $P(A \\cap B) = \\frac{1}{4} = \\frac{1}{2} \\cdot \\frac{1}{2}$.\n\n> **Regeln aus Kapitel 1 (Satz 1.4.7, VL Folie 44):** (4) $P(\\bar{A}) = 1 - P(A)$; (5) $P(A \\setminus B) = P(A) - P(A \\cap B)$; (8) $A \\subseteq B \\Rightarrow P(A) \\le P(B)$; und $P(A) \\ge 0$ (Nichtnegativität, Def. 1.4.5).\n\n> **Regel (Bruch durch Bruch – Ergänzung):** Man teilt durch einen Bruch, indem man mit dem Kehrwert malnimmt: $\\frac{a}{b} : \\frac{c}{d} = \\frac{a}{b} \\cdot \\frac{d}{c}$. Beispiel: $\\frac{1}{4} : \\frac{3}{4} = \\frac{1}{4} \\cdot \\frac{4}{3} = \\frac{4}{12} = \\frac{1}{3}$.\n\n> **Regel (Potenzen – Ergänzung):** $a^n$ heißt „$a$ $n$-mal mit sich selbst malgenommen“, z. B. $0{,}96^2 = 0{,}96 \\cdot 0{,}96 = 0{,}9216$. Für Brüche gilt $\\left(\\frac{a}{b}\\right)^n = \\frac{a^n}{b^n}$, z. B. $\\left(\\frac{2}{3}\\right)^2 = \\frac{4}{9}$.\n\n---neue-seite---\n\n## Teil A – zur Selbstkontrolle\n\n*Die Kurzlösung der Uni zu Teil A war beim Lösen noch nicht veröffentlicht – Lösungen selbst erarbeitet, Abgleich folgt.*\n\n### Aufgabe A.1 Bedingte Wahrscheinlichkeit\n\n*„Es wird das Zufallsexperiment Würfeln mit einem tetraeder-förmigen Würfel betrachtet, der Wahrscheinlichkeitsraum ist in B.1 auf dem AB 03 bestimmt worden. Betrachten Sie die folgenden Ereignisse:*\n$$B: \\text{Würfeln einer geraden Zahl}, \\qquad E: \\text{Würfeln einer Zahl kleiner als 4}.$$\n*Berechnen Sie folgende Wahrscheinlichkeiten: $P(B)$, $P(E)$, $P(B \\cap E)$, $P(B|E)$, $P(E|B)$“*\n\n**Vorbereitung:** $\\Omega = \\{1, 2, 3, 4\\}$, $P(A) = \\frac{|A|}{4}$ (Blatt 03, B.1b). Die Ereignisse als Teilmengen:\n\n- $B$ = „gerade Zahl“ $= \\{2, 4\\}$, also $|B| = 2$.\n- $E$ = „Zahl kleiner als 4“ $= \\{1, 2, 3\\}$, also $|E| = 3$.\n\n**Aufgabe A.1 – $P(B)$:**\n\n**Antwort:**\n$$P(B) = \\frac{|B|}{|\\Omega|} = \\frac{2}{4} = \\frac{1}{2}$$\n**Ergebnis:** $P(B) = \\frac{1}{2}$.\n\n**Aufgabe A.1 – $P(E)$:**\n\n**Antwort:**\n$$P(E) = \\frac{|E|}{|\\Omega|} = \\frac{3}{4}$$\n**Ergebnis:** $P(E) = \\frac{3}{4}$.\n\n**Aufgabe A.1 – $P(B \\cap E)$:**\n\n**Antwort:** $B \\cap E$ enthält die Zahlen, die gerade **und** kleiner als 4 sind: $\\{2, 4\\} \\cap \\{1, 2, 3\\} = \\{2\\}$ (die 4 ist nicht kleiner als 4).\n$$P(B \\cap E) = \\frac{|\\{2\\}|}{4} = \\frac{1}{4}$$\n**Ergebnis:** $P(B \\cap E) = \\frac{1}{4}$.\n\n**Aufgabe A.1 – $P(B|E)$:**\n\n**Antwort:** Gesucht ist die Wahrscheinlichkeit für „gerade“, **wenn man schon weiß**, dass die Zahl kleiner als 4 ist. Nach der Definition (mit $P(E) = \\frac{3}{4} > 0$):\n$$P(B|E) = \\frac{P(B \\cap E)}{P(E)} = \\frac{\\frac{1}{4}}{\\frac{3}{4}} = \\frac{1}{4} \\cdot \\frac{4}{3} = \\frac{4}{12} = \\frac{1}{3}$$\nProbe durch Abzählen: Unter den drei Zahlen $1, 2, 3$ ist genau eine gerade (die 2) – also $\\frac{1}{3}$. ✓\n**Ergebnis:** $P(B|E) = \\frac{1}{3}$.\n\n**Aufgabe A.1 – $P(E|B)$:**\n\n**Antwort:** Jetzt umgekehrt: Wahrscheinlichkeit für „kleiner als 4“, wenn man schon weiß, dass die Zahl gerade ist (mit $P(B) = \\frac{1}{2} > 0$):\n$$P(E|B) = \\frac{P(E \\cap B)}{P(B)} = \\frac{\\frac{1}{4}}{\\frac{1}{2}} = \\frac{1}{4} \\cdot \\frac{2}{1} = \\frac{2}{4} = \\frac{1}{2}$$\nProbe durch Abzählen: Unter den geraden Zahlen $2, 4$ ist eine kleiner als 4 (die 2) – also $\\frac{1}{2}$. ✓\n**Ergebnis:** $P(E|B) = \\frac{1}{2}$.\n\n> **Merke:** $P(B|E) = \\frac{1}{3}$, aber $P(E|B) = \\frac{1}{2}$ – die bedingte Wahrscheinlichkeit ist **nicht symmetrisch**. Es kommt darauf an, was man schon weiß. (Der Zähler $P(B \\cap E)$ ist gleich, aber man teilt einmal durch $P(E)$ und einmal durch $P(B)$.)\n\n---neue-seite---\n\n## Teil B – zur gemeinsamen Besprechung\n\n*Für Teil B gibt es keine Musterlösung der Uni – die Lösungen sind selbst erarbeitet.*\n\n### Aufgabe B.1 Bayes-Umkehr-Formel\n\n**Aufgabe B.1:** *„Leiten Sie die Bayes-Umkehr-Formel unter Verwendung von Gleichungen aus der Vorlesung her. Hinweis: Beginnen Sie zum Beispiel mit $P(B_k|A) = \\frac{P(B_k \\cap A)}{P(A)}$.“*\n\n**Antwort:**\n\n**Worum geht es?** Oft kennt man $P(A|B_k)$ („Wie wahrscheinlich ist das Symptom $A$, wenn die Ursache $B_k$ vorliegt?“), möchte aber die **Umkehrung** $P(B_k|A)$ wissen („Wie wahrscheinlich ist die Ursache $B_k$, wenn man das Symptom $A$ beobachtet?“). Die Bayes-Formel dreht die Bedingung um.\n\n**Voraussetzung:** $B_1, \\dots, B_n$ ist eine Zerlegung von $\\Omega$ (paarweise disjunkt, $B_1 \\cup \\dots \\cup B_n = \\Omega$) mit $P(B_i) > 0$ für alle $i$, und $A$ ist ein Ereignis mit $P(A) > 0$. Sei $k \\in \\{1, \\dots, n\\}$.\n\n**Schritt 1 – Definition der bedingten Wahrscheinlichkeit** (wie im Hinweis), erlaubt wegen $P(A) > 0$:\n$$P(B_k|A) = \\frac{P(B_k \\cap A)}{P(A)}$$\n\n**Schritt 2 – Zähler umformen mit dem Multiplikationssatz.** Es ist $B_k \\cap A = A \\cap B_k$, und nach der Definition von $P(A|B_k)$ (erlaubt wegen $P(B_k) > 0$) gilt $P(A \\cap B_k) = P(A|B_k) \\cdot P(B_k)$. Also:\n$$P(B_k|A) = \\frac{P(A|B_k) \\cdot P(B_k)}{P(A)}$$\n\n**Schritt 3 – Nenner umformen mit dem Satz von der totalen Wahrscheinlichkeit.** Weil die $B_i$ eine Zerlegung von $\\Omega$ bilden, ist $A = (A \\cap B_1) \\,\\dot\\cup\\, \\dots \\,\\dot\\cup\\, (A \\cap B_n)$, also nach der Additivität (Satz 1.4.6 (3n)) und dem Multiplikationssatz:\n$$P(A) = \\sum_{i=1}^{n} P(A \\cap B_i) = \\sum_{i=1}^{n} P(A|B_i) \\cdot P(B_i)$$\n\n**Schritt 4 – Einsetzen:**\n$$\\boxed{P(B_k|A) = \\frac{P(A|B_k) \\cdot P(B_k)}{\\sum_{i=1}^{n} P(A|B_i) \\cdot P(B_i)}} \\qquad \\blacksquare$$\n\n**Sonderfall zwei Ereignisse** ($B$ und $\\bar{B}$ als Zerlegung): $P(B|A) = \\dfrac{P(A|B) \\cdot P(B)}{P(A|B) \\cdot P(B) + P(A|\\bar{B}) \\cdot P(\\bar{B})}$.\n\n**Ergebnis:** Die Bayes-Umkehr-Formel folgt aus (1) der Definition der bedingten Wahrscheinlichkeit, (2) dem Multiplikationssatz im Zähler und (3) dem Satz von der totalen Wahrscheinlichkeit im Nenner.\n\n### Aufgabe B.2 Eigenschaften stochastisch unabhängiger Ereignisse\n\n*„Begründen Sie die folgenden Aussagen:“*\n\n**Aufgabe B.2a:** *„Für $P(B) > 0$ gilt: Wenn $A$ und $B$ stochastisch unabhängig sind, gilt $P(A|B) = P(A)$.“*\n\n**Antwort:**\n\n**Voraussetzung:** $P(B) > 0$ und $A$, $B$ stochastisch unabhängig, d. h. $P(A \\cap B) = P(A) \\cdot P(B)$.\n\nWegen $P(B) > 0$ ist $P(A|B)$ definiert. Einsetzen:\n$$P(A|B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{P(A) \\cdot P(B)}{P(B)} = P(A) \\qquad \\blacksquare$$\n(Im letzten Schritt wird $P(B)$ gekürzt – das geht, weil $P(B) \\neq 0$.)\n\n**Ergebnis:** Bei unabhängigen Ereignissen ändert das Wissen „$B$ ist eingetreten“ nichts an der Wahrscheinlichkeit von $A$: $P(A|B) = P(A)$.\n\n**Aufgabe B.2b:** *„Wenn $A$ und $B$ stochastisch unabhängige Ereignisse sind, sind auch $A$ und $\\bar{B}$ stochastisch unabhängig.“*\n\n**Antwort:**\n\n**Voraussetzung:** $P(A \\cap B) = P(A) \\cdot P(B)$. **Zu zeigen:** $P(A \\cap \\bar{B}) = P(A) \\cdot P(\\bar{B})$.\n\n**Schritt 1 – $A$ zerlegen.** Jedes Ergebnis aus $A$ liegt entweder in $B$ oder nicht in $B$:\n$$A = (A \\cap B) \\,\\dot\\cup\\, (A \\cap \\bar{B})$$\nDie beiden Teile sind disjunkt. Nach der Additivität (Satz 1.4.6 (3)):\n$$P(A) = P(A \\cap B) + P(A \\cap \\bar{B}) \\quad\\Longrightarrow\\quad P(A \\cap \\bar{B}) = P(A) - P(A \\cap B)$$\n(Das ist auch Satz 1.4.7 (5), denn $A \\cap \\bar{B} = A \\setminus B$.)\n\n**Schritt 2 – Unabhängigkeit einsetzen:**\n$$P(A \\cap \\bar{B}) = P(A) - P(A) \\cdot P(B)$$\n\n**Schritt 3 – $P(A)$ ausklammern** (Distributivgesetz: $x - x \\cdot y = x \\cdot (1 - y)$):\n$$P(A \\cap \\bar{B}) = P(A) \\cdot (1 - P(B))$$\n\n**Schritt 4 – Gegenereignis** (Satz 1.4.7 (4): $1 - P(B) = P(\\bar{B})$):\n$$P(A \\cap \\bar{B}) = P(A) \\cdot P(\\bar{B}) \\qquad \\blacksquare$$\n\n**Ergebnis:** $A$ und $\\bar{B}$ sind stochastisch unabhängig. Anschaulich: Wenn $B$ keinen Einfluss auf $A$ hat, dann hat auch „nicht $B$“ keinen Einfluss.\n\n**Aufgabe B.2c:** *„Wenn für ein Ereignis $B$ gilt $P(B) = 0$ oder $P(B) = 1$, dann ist $B$ von jedem Ereignis $A$ stochastisch unabhängig.“*\n\n**Antwort:** Zu zeigen ist für jedes Ereignis $A$: $P(A \\cap B) = P(A) \\cdot P(B)$. Zwei Fälle:\n\n**Fall 1: $P(B) = 0$.** Es ist $A \\cap B \\subseteq B$ (der Schnitt ist ein Teil von $B$). Mit der Monotonie (Satz 1.4.7 (8)) und der Nichtnegativität:\n$$0 \\le P(A \\cap B) \\le P(B) = 0 \\quad\\Longrightarrow\\quad P(A \\cap B) = 0$$\nAndererseits ist $P(A) \\cdot P(B) = P(A) \\cdot 0 = 0$. Also $P(A \\cap B) = 0 = P(A) \\cdot P(B)$. ✓\n\n**Fall 2: $P(B) = 1$.** Dann ist $P(\\bar{B}) = 1 - P(B) = 0$ (Satz 1.4.7 (4)). Wie in Fall 1 (mit $\\bar{B}$ statt $B$) folgt $P(A \\cap \\bar{B}) = 0$. Mit der Zerlegung aus B.2b:\n$$P(A \\cap B) = P(A) - P(A \\cap \\bar{B}) = P(A) - 0 = P(A) = P(A) \\cdot 1 = P(A) \\cdot P(B). \\quad ✓$$\n\n$\\blacksquare$\n\n**Ergebnis:** Ein Ereignis mit Wahrscheinlichkeit 0 oder 1 ist von **jedem** Ereignis unabhängig. Anschaulich: Ein (fast) unmögliches oder (fast) sicheres Ereignis liefert keine Information – es „verrät“ nichts über $A$.\n\n### Aufgabe B.3 Kugelschreiberproduktion\n\n*„In einer Kugelschreiberproduktion sind 4 % der produzierten Kugelschreiber defekt.“*\n\n**Bezeichnung:** Wir schreiben bei jedem Zug **1 für „defekt“** und **0 für „in Ordnung“** (wie beim Bernoulli-Experiment, VL Kapitel 1, Folie 49: 1 = „Erfolg“ – hier heißt „Erfolg“ einfach „das, worauf wir achten“). Es ist $p = 0{,}04 = \\frac{4}{100} = \\frac{1}{25}$ und $q = 1 - p = 0{,}96 = \\frac{24}{25}$.\n\n**Aufgabe B.3a:** *„Stellen Sie das Zufallsexperiment Fünffaches Ziehen eines Kugelschreibers aus den produzierten Kugelschreibern unter Beachtung der Reihenfolge mithilfe eines Baumdiagramms dar. (Gehen Sie dabei davon aus, dass die Wahrscheinlichkeit, einen defekten Kugelschreiber zu ziehen, in jedem Zug 4 % beträgt, unabhängig davon, was gegebenenfalls in den vorhergehenden Zügen gezogen worden ist. Warum / in welchen Situationen ist das sinnvoll?)“*\n\n**Antwort:**\n\nEin **Baumdiagramm** zeigt jeden Zug als eine Stufe. Von jedem Punkt gehen zwei Äste ab: nach oben „1 = defekt“ mit $0{,}04$, nach unten „0 = in Ordnung“ mit $0{,}96$. Nach 5 Stufen gibt es $2^5 = 32$ Pfade – jeder Pfad ist ein mögliches Ergebnis.\n\n![Baumdiagramm: fünfmal Ziehen, an jedem Punkt 1 = defekt (0,04) oder 0 = in Ordnung (0,96); 32 Pfade](/dateien/mab005/Blatt04_B3_Baumdiagramm_Kugelschreiber.svg)\n\nDie Wahrscheinlichkeit eines Pfades erhält man mit der **Pfadregel** (Multiplikationssatz): alle Zahlen entlang des Pfades malnehmen. Beispiel Pfad $(1, 0, 0, 0, 0)$: $0{,}04 \\cdot 0{,}96 \\cdot 0{,}96 \\cdot 0{,}96 \\cdot 0{,}96 = 0{,}04 \\cdot 0{,}96^4$.\n\n**Warum / wann ist die Annahme „immer 4 %, unabhängig“ sinnvoll?**\n\n- Streng genommen zieht man **ohne Zurücklegen**: Ist der erste Kugelschreiber defekt, sind unter den übrigen etwas weniger defekte. Die Wahrscheinlichkeit würde sich also leicht ändern.\n- Bei einer **sehr großen Produktion** (z. B. 100 000 Stück) ist diese Änderung aber winzig. Beispiel: 4 000 von 100 000 defekt; nach einem defekten sind es $\\frac{3\\,999}{99\\,999} \\approx 0{,}039\\,99$ – praktisch immer noch 4 %. Dann darf man mit fester Wahrscheinlichkeit und Unabhängigkeit rechnen.\n- Genauso sinnvoll ist es, wenn man **mit Zurücklegen** zieht oder wenn die Kugelschreiber **direkt vom laufenden Band** kommen und die Maschine bei jedem Stück unabhängig mit 4 % einen Fehler macht.\n- **Nicht** sinnvoll wäre die Annahme bei einer **kleinen Menge**, z. B. 5 aus einer Schachtel mit 25 Stück (davon 1 defekt): Nach dem defekten kann kein weiterer defekter mehr kommen.\n\n**Ergebnis:** Baumdiagramm mit 5 Stufen und 32 Pfaden, an jedem Ast $0{,}04$ (defekt) bzw. $0{,}96$ (in Ordnung). Die Annahme ist sinnvoll bei großer Grundgesamtheit, bei Ziehen mit Zurücklegen oder bei laufender Produktion.\n\n**Aufgabe B.3b:** *„Formulieren Sie einen Wahrscheinlichkeitsraum für dieses Zufallsexperiment.“*\n\n**Antwort:**\n\n- **Ergebnisraum:** Ein Ergebnis ist ein 5-Tupel (eine Liste aus 5 Einträgen) – für jeden Zug 1 oder 0:\n$$\\Omega = \\{0, 1\\}^5 = \\{(\\omega_1, \\omega_2, \\omega_3, \\omega_4, \\omega_5) \\mid \\omega_j \\in \\{0, 1\\} \\text{ für } j = 1, \\dots, 5\\}$$\nDabei ist $\\omega_j = 1$, wenn der $j$-te Kugelschreiber defekt ist. Nach der Produktregel: $|\\Omega| = 2^5 = 32$.\n- **Ereignissystem:** $\\Omega$ ist endlich, also $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ (mit $2^{32}$ Ereignissen).\n- **Wahrscheinlichkeitsmaß:** **Kein** Laplace-Experiment – ein Pfad mit vielen Einsen ist viel unwahrscheinlicher als einer mit lauter Nullen. Nach der Pfadregel hat ein Ergebnis $\\omega$ mit genau $k$ Einsen (also $k$ defekten) und $5 - k$ Nullen die Wahrscheinlichkeit\n$$P(\\{\\omega\\}) = 0{,}04^{k} \\cdot 0{,}96^{5-k} = \\left(\\frac{1}{25}\\right)^{k} \\cdot \\left(\\frac{24}{25}\\right)^{5-k}, \\qquad k = \\omega_1 + \\omega_2 + \\omega_3 + \\omega_4 + \\omega_5.$$\nFür beliebige Ereignisse addiert man: $P(A) = \\sum_{\\omega \\in A} P(\\{\\omega\\})$ (Additivität; bei diskretem $\\Omega$ genügen die Elementarereignisse, VL Kapitel 1, Folie 53).\n\nProbe, dass alles zusammen 1 ergibt: Es gibt $\\binom{5}{k}$ Pfade mit $k$ Einsen, und $\\sum_{k=0}^{5} \\binom{5}{k} \\cdot 0{,}04^k \\cdot 0{,}96^{5-k} = (0{,}04 + 0{,}96)^5 = 1^5 = 1$. ✓ *(Ergänzung: $\\binom{5}{k}$, „5 über k“, ist die Anzahl der Möglichkeiten, $k$ der 5 Plätze auszuwählen – kommt in der Vorlesung später.)*\n\n**Ergebnis:** $(\\Omega, \\mathfrak{P}(\\Omega), P)$ mit $\\Omega = \\{0, 1\\}^5$, $|\\Omega| = 32$ und $P(\\{\\omega\\}) = 0{,}04^{k} \\cdot 0{,}96^{5-k}$, wobei $k$ die Anzahl der Einsen in $\\omega$ ist.\n\n**Aufgabe B.3c:** *„Geben Sie für die folgenden Ereignisse jeweils die zugehörige Teilmenge von $\\Omega$ an und berechnen Sie die Wahrscheinlichkeit für die Ereignisse: A: Genau einer der gezogenen Kugelschreiber ist defekt. B: Mindestens einer der gezogenen Kugelschreiber ist defekt.“*\n\n**Antwort:**\n\n**Ereignis $A$ – genau einer defekt.** Genau eine 1 und vier Nullen; die 1 kann an jeder der 5 Stellen stehen:\n$$\\begin{aligned} A &= \\{\\omega \\in \\Omega \\mid \\omega_1 + \\dots + \\omega_5 = 1\\} \\\\ &= \\{(1,0,0,0,0),\\ (0,1,0,0,0),\\ (0,0,1,0,0),\\ (0,0,0,1,0),\\ (0,0,0,0,1)\\} \\end{aligned}$$\nJeder dieser 5 Pfade hat die Wahrscheinlichkeit $0{,}04^1 \\cdot 0{,}96^4$ (einmal defekt, viermal in Ordnung). Die Pfade sind disjunkt, also addieren:\n$$P(A) = 5 \\cdot 0{,}04 \\cdot 0{,}96^4$$\nSchrittweise: $0{,}96^2 = 0{,}9216$, $0{,}96^4 = 0{,}9216^2 = 0{,}849\\,346\\,56$.\n$$P(A) = 5 \\cdot 0{,}04 \\cdot 0{,}849\\,346\\,56 = 0{,}2 \\cdot 0{,}849\\,346\\,56 = 0{,}169\\,869\\,312 \\approx 0{,}1699$$\nAls Bruch: $P(A) = 5 \\cdot \\frac{1}{25} \\cdot \\left(\\frac{24}{25}\\right)^4 = \\frac{5 \\cdot 24^4}{25^5} = \\frac{5 \\cdot 331\\,776}{9\\,765\\,625} = \\frac{331\\,776}{1\\,953\\,125}$ (gekürzt durch 5).\n\n**Ergebnis:** $P(A) = 5 \\cdot 0{,}04 \\cdot 0{,}96^4 = \\frac{331\\,776}{1\\,953\\,125} \\approx 0{,}1699 \\approx 17\\,\\%$.\n\n**Ereignis $B$ – mindestens einer defekt.** Mindestens eine 1:\n$$B = \\{\\omega \\in \\Omega \\mid \\omega_1 + \\dots + \\omega_5 \\ge 1\\} = \\Omega \\setminus \\{(0,0,0,0,0)\\}$$\nDas sind $32 - 1 = 31$ Pfade. Einfacher über das **Gegenereignis** (Satz 1.4.7 (4)): „mindestens einer defekt“ wird verneint zu „**keiner** defekt“, $\\bar{B} = \\{(0,0,0,0,0)\\}$, mit $P(\\bar{B}) = 0{,}96^5$.\n\n$0{,}96^5 = 0{,}96^4 \\cdot 0{,}96 = 0{,}849\\,346\\,56 \\cdot 0{,}96 = 0{,}815\\,372\\,697\\,6$.\n$$P(B) = 1 - P(\\bar{B}) = 1 - 0{,}96^5 = 1 - 0{,}815\\,372\\,697\\,6 = 0{,}184\\,627\\,302\\,4 \\approx 0{,}1846$$\nAls Bruch: $P(B) = 1 - \\left(\\frac{24}{25}\\right)^5 = 1 - \\frac{7\\,962\\,624}{9\\,765\\,625} = \\frac{1\\,803\\,001}{9\\,765\\,625}$.\n\n**Ergebnis:** $P(B) = 1 - 0{,}96^5 = \\frac{1\\,803\\,001}{9\\,765\\,625} \\approx 0{,}1846 \\approx 18{,}5\\,\\%$.\n\n> **Kurz erklärt:** Bei „mindestens einer“ immer an das Gegenereignis „keiner“ denken – das ist **ein** Pfad statt 31. Plausibilitätscheck: $P(B) \\approx 18{,}5\\,\\%$ ist etwas größer als $P(A) \\approx 17\\,\\%$, denn $B$ enthält $A$ und zusätzlich die (seltenen) Fälle mit 2 bis 5 defekten.\n",
+      "loesungsweg": "Jede Teilaufgabe der Reihe nach: Aufgabentext im Wortlaut, dann Schritt für Schritt mit Begründung; verwendete Definitionen und Sätze im Kasten. Kapitel-2-Definitionen als Ergänzung (Folien noch nicht veröffentlicht), Kapitel-1-Sätze mit Folienangabe. Teil A und Teil B selbst erarbeitet (Kurzlösung Teil A noch nicht veröffentlicht). Rechnungen mit Brüchen exakt nachgeprüft. Gleicher Inhalt als PDF.",
+      "frist": "2026-11-02",
+      "im_kalender": true,
+      "fuer_sitzung": "mab005.2_2026-11-02",
+      "kalender_id": "088e2a02-2ef9-41bc-8ada-d508ed140418",
+      "pdf": "/dateien/mab005/S04_2026-11-02_Hausaufgabe_Uebungsblatt-4_Loesungen.pdf"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie ist die bedingte Wahrscheinlichkeit $P(A|B)$ definiert, und was bedeutet sie?",
+      "antwort": "Für $P(B) > 0$ ist $P(A|B) = \\frac{P(A \\cap B)}{P(B)}$ – die Wahrscheinlichkeit von $A$, wenn man schon weiß, dass $B$ eingetreten ist.",
+      "erklaerung": "Ergänzung (Kapitel-2-Folien noch nicht veröffentlicht); gebraucht in Blatt 04, A.1.",
+      "folie": "Blatt 04, A.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Tetraeder-Würfel (Zahlen 1–4, fair). $B$: „gerade Zahl“, $E$: „Zahl kleiner als 4“. Berechne $P(B)$, $P(E)$, $P(B \\cap E)$, $P(B|E)$ und $P(E|B)$.",
+      "musterloesung": "$B = \\{2, 4\\}$, $E = \\{1, 2, 3\\}$, $B \\cap E = \\{2\\}$. $P(B) = \\frac{1}{2}$, $P(E) = \\frac{3}{4}$, $P(B \\cap E) = \\frac{1}{4}$, $P(B|E) = \\frac{1/4}{3/4} = \\frac{1}{3}$, $P(E|B) = \\frac{1/4}{1/2} = \\frac{1}{2}$.",
+      "bewertungspunkte": [
+        "$P(B) = \\frac{1}{2}$, $P(E) = \\frac{3}{4}$",
+        "$B \\cap E = \\{2\\}$, $P = \\frac{1}{4}$",
+        "$P(B|E) = \\frac{1}{3}$",
+        "$P(E|B) = \\frac{1}{2}$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Blatt 04, A.1.",
+      "folie": "Blatt 04, A.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur bedingten Wahrscheinlichkeit stimmen (für Ereignisse mit positiver Wahrscheinlichkeit)?",
+      "optionen": [
+        "Es gilt immer $P(A|B) = P(B|A)$.",
+        "$P(A|B)$ und $P(B|A)$ haben denselben Zähler $P(A \\cap B)$.",
+        "$P(A \\cap B) = P(A|B) \\cdot P(B)$",
+        "$P(A|B)$ kann größer als 1 sein.",
+        "Sind $A$ und $B$ stochastisch unabhängig, ist $P(A|B) = P(A)$."
+      ],
+      "richtig": [
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Zähler gleich, Nenner verschieden – daher meist $P(A|B) \\neq P(B|A)$ (A.1: $\\frac{1}{3}$ und $\\frac{1}{2}$). Multiplikationssatz = umgestellte Definition. Da $A \\cap B \\subseteq B$, ist $P(A|B) \\le 1$. Unabhängigkeit: B.2a.",
+      "folie": "Blatt 04, A.1, B.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Leite die Bayes-Umkehr-Formel her. Gegeben: eine Zerlegung $B_1, \\dots, B_n$ von $\\Omega$ mit $P(B_i) > 0$ und ein Ereignis $A$ mit $P(A) > 0$.",
+      "musterloesung": "$P(B_k|A) = \\frac{P(B_k \\cap A)}{P(A)}$ (Definition). Zähler: $P(B_k \\cap A) = P(A|B_k) \\cdot P(B_k)$ (Multiplikationssatz). Nenner: $A = \\dot\\bigcup_i (A \\cap B_i)$, also $P(A) = \\sum_{i=1}^{n} P(A|B_i) \\cdot P(B_i)$ (totale Wahrscheinlichkeit). Zusammen: $P(B_k|A) = \\frac{P(A|B_k) \\cdot P(B_k)}{\\sum_{i=1}^{n} P(A|B_i) \\cdot P(B_i)}$. $\\blacksquare$",
+      "bewertungspunkte": [
+        "Start mit der Definition",
+        "Zähler mit Multiplikationssatz",
+        "Nenner mit totaler Wahrscheinlichkeit (Zerlegung)",
+        "Endformel"
+      ],
+      "punkte": 4,
+      "erklaerung": "Blatt 04, B.1.",
+      "folie": "Blatt 04, B.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wann heißen zwei Ereignisse $A$ und $B$ stochastisch unabhängig?",
+      "antwort": "Wenn $P(A \\cap B) = P(A) \\cdot P(B)$ gilt.",
+      "erklaerung": "Ergänzung (Kapitel-2-Folien noch nicht veröffentlicht). Anschaulich: Das Eintreten von $B$ ändert die Wahrscheinlichkeit von $A$ nicht.",
+      "folie": "Blatt 04, B.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Zeige: Sind $A$ und $B$ stochastisch unabhängig, dann sind auch $A$ und $\\bar{B}$ stochastisch unabhängig.",
+      "musterloesung": "$A = (A \\cap B) \\,\\dot\\cup\\, (A \\cap \\bar{B})$, also $P(A \\cap \\bar{B}) = P(A) - P(A \\cap B) = P(A) - P(A) \\cdot P(B) = P(A) \\cdot (1 - P(B)) = P(A) \\cdot P(\\bar{B})$. $\\blacksquare$",
+      "bewertungspunkte": [
+        "disjunkte Zerlegung von $A$",
+        "Unabhängigkeit eingesetzt",
+        "$P(A)$ ausgeklammert",
+        "$1 - P(B) = P(\\bar{B})$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Blatt 04, B.2b.",
+      "folie": "Blatt 04, B.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen über stochastische Unabhängigkeit sind richtig?",
+      "optionen": [
+        "Ein Ereignis $B$ mit $P(B) = 0$ ist von jedem Ereignis unabhängig.",
+        "Ein Ereignis $B$ mit $P(B) = 1$ ist von jedem Ereignis unabhängig.",
+        "Disjunkte Ereignisse mit positiver Wahrscheinlichkeit sind immer unabhängig.",
+        "Sind $A$, $B$ unabhängig, dann auch $A$ und $\\bar{B}$."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "B.2c und B.2b. Disjunkt mit $P(A), P(B) > 0$: $P(A \\cap B) = 0 \\neq P(A) \\cdot P(B)$ – also gerade **nicht** unabhängig (tritt $A$ ein, kann $B$ nicht eintreten).",
+      "folie": "Blatt 04, B.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "4 % der Kugelschreiber sind defekt. Es werden 5 gezogen (Reihenfolge beachtet, in jedem Zug unabhängig 4 %). Gib einen Wahrscheinlichkeitsraum an und berechne $P(\\text{genau einer defekt})$ und $P(\\text{mindestens einer defekt})$.",
+      "musterloesung": "$\\Omega = \\{0, 1\\}^5$ (1 = defekt), $|\\Omega| = 32$, $\\mathcal{A} = \\mathfrak{P}(\\Omega)$, $P(\\{\\omega\\}) = 0{,}04^k \\cdot 0{,}96^{5-k}$ ($k$ = Anzahl Einsen). Genau einer: 5 Pfade, $P = 5 \\cdot 0{,}04 \\cdot 0{,}96^4 \\approx 0{,}1699$. Mindestens einer: $1 - 0{,}96^5 \\approx 0{,}1846$.",
+      "bewertungspunkte": [
+        "$\\Omega = \\{0,1\\}^5$, 32 Elemente",
+        "$P(\\{\\omega\\})$ mit Pfadregel, kein Laplace",
+        "genau einer $\\approx 0{,}1699$",
+        "mindestens einer über Gegenereignis $\\approx 0{,}1846$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Blatt 04, B.3b–c.",
+      "folie": "Blatt 04, B.3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Bei einem Schnelltest sind 2 % der Getesteten krank. Ein Kranker wird mit Wahrscheinlichkeit 0,9 erkannt (Test positiv), ein Gesunder ist mit Wahrscheinlichkeit 0,05 trotzdem positiv. Wie groß ist die Wahrscheinlichkeit, krank zu sein, wenn der Test positiv ist?",
+      "musterloesung": "$K$ = krank, $T$ = positiv. $P(K) = 0{,}02$, $P(T|K) = 0{,}9$, $P(T|\\bar{K}) = 0{,}05$. Totale W.: $P(T) = 0{,}9 \\cdot 0{,}02 + 0{,}05 \\cdot 0{,}98 = 0{,}018 + 0{,}049 = 0{,}067$. Bayes: $P(K|T) = \\frac{0{,}018}{0{,}067} \\approx 0{,}269$ – nur etwa 27 %.",
+      "bewertungspunkte": [
+        "Ereignisse und gegebene Wahrscheinlichkeiten richtig zugeordnet",
+        "$P(T) = 0{,}067$ mit totaler Wahrscheinlichkeit",
+        "Bayes: $P(K|T) \\approx 0{,}27$",
+        "Deutung: positiv heißt nicht sicher krank"
+      ],
+      "punkte": 4,
+      "erklaerung": "Neue Rechnung zu B.1 (Bayes). Typische Fehlvorstellung: $P(K|T)$ mit $P(T|K) = 0{,}9$ verwechseln (Kompetenzziel „Fehlvorstellungen zum Zufall“).",
+      "folie": "Blatt 04, B.1",
+      "pruefungsrelevant": false
+    }
+  ],
+  "pruefungshinweise": [
+    "Die Klausuraufgaben sind ähnlich wie die Aufgaben auf den Übungszetteln (VL Kapitel 0, Folie 5)."
+  ],
+  "offene_fragen": [
+    "Kapitel-2-Folien (bedingte Wahrscheinlichkeit, Bayes, Unabhängigkeit) noch nicht in Stud.IP – nach der Vorlesung Definitionen, Satz-Nummern und Schreibweise in Lösung und Fragen an die Folien angleichen.",
+    "Kurzlösung Teil A (Blatt 04) noch nicht veröffentlicht – Abgleich A.1, sobald sie in Stud.IP ist.",
+    "Wird Blatt 04 am 02.11. besprochen oder erst am 09.11.? Am 02.11. wird zuerst Blatt 03 nachgeholt (Ausfall 26.10.)."
+  ]
+}

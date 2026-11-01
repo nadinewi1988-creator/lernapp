@@ -68,7 +68,8 @@
     "mab005.1_2026-10-26",
     "mab005.2_2026-10-12",
     "mab005.2_2026-10-19",
-    "mab005.2_2026-10-26"
+    "mab005.2_2026-10-26",
+    "mab005.2_2026-11-02"
   ],
   "literatur": [
     {
@@ -329,6 +330,14 @@
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
+    },
+    {
+      "pfad": "mab005.2/Sitzung_04/Aufgabenblatt04_V1.pdf",
+      "geaendert": "2026-11-01",
+      "art": "Übungsblatt",
+      "status": "verarbeitet",
+      "sitzung": "mab005.2_2026-11-02",
+      "hinweis": "Hausaufgabe h01; Stud.IP 01.11.2026; schon Stoff von Kapitel 2 (Folien noch nicht veröffentlicht) – Definitionen als Ergänzung, nach der VL angleichen; Teil A selbst gelöst, Abgleich mit Uni-Kurzlösung, sobald veröffentlicht"
     }
   ]
 }

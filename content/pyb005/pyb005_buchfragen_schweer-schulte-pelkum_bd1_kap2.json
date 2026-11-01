@@ -1,0 +1,1601 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pyb005",
+  "teilmodul": "Buchfragen",
+  "datum": "2026-11-01",
+  "sitzung_nr": 0,
+  "sitzung_id": "",
+  "thema": "Kap. 2 · Entwicklung (76 MC-Fragen)",
+  "stand": "geprueft",
+  "buch": "Schweer/Schulte-Pelkum (2017), Bd. 1: Psychologische Grundlagen professionellen Handelns in sozialen Berufen",
+  "hinweis": "Übungsfragen aus dem Buch im Wortlaut (Fotos in pyb005/Literatur), Lösungen nach dem offiziellen Lösungsblatt des Lehrstuhls (14.12.2016). Keine Kalendersitzung – erscheint nur unter Lernfragen. Quelle: Projekt lerninhalte/pyb005/_buchfragen_schweer-schulte-pelkum_bd1.json, claude/pyb005_mc_buchfragen.md.",
+  "quellen": [
+    {
+      "datei": "Literatur/pyb005_MC-Fragen_Schweer-Schulte-Pelkum_Bd1_LOESUNGEN-offiziell.pdf",
+      "art": "MC-Fragen aus dem Buch mit offizieller Lösung",
+      "seiten": "S. 23–24, 96–118, 188–212"
+    }
+  ],
+  "lernziele": [],
+  "kurzfassung": [],
+  "erklaerung": [],
+  "definitionen": [],
+  "aufgaben": [],
+  "fragen": [
+    {
+      "id": "b2_1",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Querschnittstudien bieten für die entwicklungspsychologische Forschung verschiedene Vorteile, da …",
+      "optionen": [
+        "… sie relativ kostengünstig durchzuführen sind.",
+        "… Daten vergleichsweise schnell erhoben werden können.",
+        "… sie die Darstellung intraindividueller Unterschiede ermöglichen.",
+        "… sich die Stichprobe im Vergleich zu Längsschnittstudien einfacher gewinnen lässt."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b, d – Buch S. 96, Frage 2.1.",
+      "folie": "Buch S. 96 · Nr. 2.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_2",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Längsschnittstudien bieten für die entwicklungspsychologische Forschung verschiedene Vorteile, da …",
+      "optionen": [
+        "… sie über den gesamten Untersuchungszeitraum eine höhere Teilnahmebereitschaft im Vergleich zu Querschnittstudien aufweisen.",
+        "… sie die Darstellung intraindividueller Unterschiede ermöglichen.",
+        "… sowohl inter- als auch intraindividuelle Unterschiede berücksichtigt werden können.",
+        "… sie mit relativ geringen Kosten verbunden sind."
+      ],
+      "richtig": [
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, c – Buch S. 96, Frage 2.2.",
+      "folie": "Buch S. 96 · Nr. 2.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_3",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Nachteile von Querschnittsuntersuchungen sind, dass …",
+      "optionen": [
+        "… nur zu einem Messzeitpunkt die Möglichkeit besteht, eine Gruppe von Personen zu befragen.",
+        "… eine hohe Gefahr besteht, dass viele Probanden die Stichprobe über den Untersuchungszeitraum verlassen.",
+        "… Kohorteneffekte auftreten können.",
+        "… Testungseffekte und selektierte Probanden auftreten können."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, c – Buch S. 97, Frage 2.3.",
+      "folie": "Buch S. 97 · Nr. 2.3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_4",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Nachteile von Längsschnittuntersuchungen sind, dass …",
+      "optionen": [
+        "… zu einem Messzeitpunkt die Möglichkeit besteht, eine Gruppe von Personen zu befragen.",
+        "… eine hohe Gefahr besteht, dass viele Proband*innen die Stichprobe über den Untersuchungszeitraum verlassen.",
+        "… Kohorteneffekte auftreten können.",
+        "… Testungseffekte und selektierte Probanden auftreten können."
+      ],
+      "richtig": [
+        1,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, d – Buch S. 97, Frage 2.4.",
+      "folie": "Buch S. 97 · Nr. 2.4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_5",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Durch die Kombination von Quer- und Längsschnittuntersuchungen können die jeweiligen Nachteile minimiert werden. Diese Art von Design nennt man …",
+      "optionen": [
+        "… Konvergenzmodelle.",
+        "… Panel-Designs.",
+        "… Quoten-Pläne.",
+        "… Trend-Designs."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 97, Frage 2.5.",
+      "folie": "Buch S. 97 · Nr. 2.5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_6",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Entwicklungsprozesse, die für Entwicklungspsycholog*innen von Interesse sind, setzen …",
+      "optionen": [
+        "… bereits vor der Geburt ein und ziehen sich über die gesamte Lebensspanne.",
+        "… im Säuglingsalter ein und ziehen sich bis ins frühe Erwachsenenalter.",
+        "… mit der Geburt ein und ziehen sich bis zur Pubertät.",
+        "… bereits vor der Geburt ein und ziehen sich bis ins mittlere Erwachsenenalter."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 98, Frage 2.6.",
+      "folie": "Buch S. 98 · Nr. 2.6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_7",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Typologisch werden nach Montada, Lindenberger & Schneider (2012) folgende Entwicklungstheorien unterschieden:",
+      "optionen": [
+        "exogenistische Modelle",
+        "endogenistische Modelle",
+        "transaktionale Modelle",
+        "subjektivistische Entwicklungstheorien"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b, c – Buch S. 98, Frage 2.7.",
+      "folie": "Buch S. 98 · Nr. 2.7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_8",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Entwicklungsprozesse können folgende Verläufe haben:",
+      "optionen": [
+        "kontinuierlich",
+        "diskontinuierlich",
+        "kategorial",
+        "faktoriell"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b – Buch S. 98, Frage 2.8.",
+      "folie": "Buch S. 98 · Nr. 2.8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_9",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wofür steht das „Über-Ich“?",
+      "optionen": [
+        "Realitätsprinzip",
+        "Moralitätsprinzip",
+        "Lustprinzip",
+        "Triebprinzip"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 98, Frage 2.9.",
+      "folie": "Buch S. 98 · Nr. 2.9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_10",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Das „Ich“ wehrt sich gegen Ängste und setzt dazu eine Reihe von Mechanismen der Angstabwehr in Gang. Ein sehr bekannter Abwehrmechanismus ist dabei die …",
+      "optionen": [
+        "… Resignation.",
+        "… Hysterie.",
+        "… Triebbefriedigung.",
+        "… Verdrängung."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): d – Buch S. 99, Frage 2.10.",
+      "folie": "Buch S. 99 · Nr. 2.10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_11",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Nach Freuds Persönlichkeitsmodell ist das „Es“ …",
+      "optionen": [
+        "… unbewusst.",
+        "… anteilig unbewusst und bewusst.",
+        "… anteilig bewusst und vorbewusst.",
+        "… bewusst."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 99, Frage 2.11.",
+      "folie": "Buch S. 99 · Nr. 2.11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_12",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wenn Freud vom „Motor“ der Entwicklung spricht, so meint er …",
+      "optionen": [
+        "… den Ödipus-Komplex.",
+        "… Thanatos und Eros.",
+        "… „Es“, „Ich“ und „Über-Ich“.",
+        "… Kastrationsangst und Penisneid."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 99, Frage 2.12.",
+      "folie": "Buch S. 99 · Nr. 2.12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_13",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ursachen einer Fixierung (also dem Verbleib auf einer Entwicklungsstufe in den frühen Phasen der Entwicklung) sind nach Freud zurück zuführen auf …",
+      "optionen": [
+        "… Triebfrustration in einer frühen Phase.",
+        "… einen nicht angeborenen Trieb.",
+        "… Triebverwöhnung in einer frühen Phase.",
+        "… eine zu geringe Ausbildung des „Über-Ichs“."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, c – Buch S. 99, Frage 2.13.",
+      "folie": "Buch S. 99 · Nr. 2.13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_14",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht Freud in seiner Persönlichkeitstheorie unter dem „Es“? Das „Es“ …",
+      "optionen": [
+        "… ist der Sitz der primären Triebe.",
+        "… ist der vorbewusste Teil der moralischen Instanz.",
+        "… arbeitet irrational, impulsgetrieben und drängt auf unmittelbaren Ausdruck.",
+        "… besitzt sowohl bewusste als auch unbewusste Anteile."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, c – Buch S. 100, Frage 2.14.",
+      "folie": "Buch S. 100 · Nr. 2.14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_15",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Die Pubertät wird nach Freud durch die folgende Phase eingeleitet:",
+      "optionen": [
+        "Latenzphase",
+        "anale Phase",
+        "genitale Phase",
+        "orale Phase"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c – Buch S. 100, Frage 2.15.",
+      "folie": "Buch S. 100 · Nr. 2.15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_16",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht Freud in seiner Persönlichkeitstheorie unter dem „Über-Ich“? Das „Über-Ich“ …",
+      "optionen": [
+        "… vermittelt zwischen den Instanzen „Es“ und „Ich“.",
+        "… ist der Sitz der Werte und moralischen Einstellungen.",
+        "… ist unbewusst.",
+        "… vermittelt zwischen dem „Ich“ und der Realität."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 100, Frage 2.16.",
+      "folie": "Buch S. 100 · Nr. 2.16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_17",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht Freud in seiner Persönlichkeitstheorie unter dem „Ich“? Das „Ich“ …",
+      "optionen": [
+        "… wird vom Lustprinzip beherrscht.",
+        "… ist der Vermittler zwischen dem „Es“ und dem „Über-Ich“.",
+        "… wird vom Realitätsprinzip beherrscht.",
+        "… enthält auch das „Ich-Ideal“."
+      ],
+      "richtig": [
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, c – Buch S. 100, Frage 2.17.",
+      "folie": "Buch S. 100 · Nr. 2.17",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_18",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie lautet die korrekte Abfolge der Phasen innerhalb der psychosexuellen Entwicklungstheorie Freuds?",
+      "optionen": [
+        "anale Phase, orale Phase, phallische Phase, Latenzphase, genitale Phase",
+        "anale Phase, orale Phase, genitale Phase, Latenzphase, phallische Phase",
+        "orale Phase, anale Phase, phallische Phase, Latenzphase, genitale Phase",
+        "orale Phase, anale Phase, phallische Phase, genitale Phase, Latenzphase"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c – Buch S. 101, Frage 2.18.",
+      "folie": "Buch S. 101 · Nr. 2.18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_19",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Der Grundgedanke der psychosexuellen Entwicklungstheorie nach Freud beinhaltet, dass …",
+      "optionen": [
+        "… das Individuum in erster Linie von seinen Trieben gesteuert wird.",
+        "… Individuen träumen, um unbewusste und bewusste Teile des Selbst in Kontakt treten zu lassen.",
+        "… „Es“, „Ich“ und „Über-Ich“ von Geburt an vorhanden sind.",
+        "… Störungen im Erwachsenenalter auf Fehlentwicklungen in der Kindheit zurückzuführen sind."
+      ],
+      "richtig": [
+        0,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, d – Buch S. 101, Frage 2.19.",
+      "folie": "Buch S. 101 · Nr. 2.19",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_20",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Das klassische psychoanalytische Paradigma …",
+      "optionen": [
+        "… hat sich empirisch zufriedenstellend bewährt.",
+        "… hat sich empirisch unzureichend bewährt.",
+        "…verwendet für eine empirische Überprüfung zu unscharfe Begriffe.",
+        "… wird in der Regel mittels Fragebögen untersucht."
+      ],
+      "richtig": [
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, c – Buch S. 101, Frage 2.20.",
+      "folie": "Buch S. 101 · Nr. 2.20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_21",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Erikson geht in seiner Theorie der psychosozialen Entwicklung davon aus, dass …",
+      "optionen": [
+        "… der Mensch in erster Linie von seinen Umwelterfahrungen geprägt wird.",
+        "… die Eigenaktivität des Individuums die Triebsteuerung ergänzt.",
+        "… die meisten Entwicklungsprozesse triebgesteuert sind.",
+        "… die Entwicklung in einer sozialen Umgebung und durch das Bewältigen von Krisen geschieht."
+      ],
+      "richtig": [
+        1,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, d – Buch S. 102, Frage 2.21.",
+      "folie": "Buch S. 102 · Nr. 2.21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_22",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Stufen folgen innerhalb der psychosozialen Entwicklungstheorie Eriksons korrekt aufeinander?",
+      "optionen": [
+        "Urvertrauen vs. Misstrauen; Autonomie vs. Scham und Zweifel; Initiative vs. Schuldgefühl; Identität vs. Identitätsdiffusion",
+        "Identität vs. Identitätsdiffusion; Intimität vs. Isolierung; Generativität vs. Stagnation; Ich-Integrität vs. Verzweiflung",
+        "Initiative vs. Schuldgefühl; Werksinn vs. Minderwertigkeitsgefühl; Identität vs. Identitätsdiffusion",
+        "Urvertrauen vs. Misstrauen; Initiative vs. Schuldgefühl; Identität vs. Identitätsdiffusion; Ich-Integrität vs. Verzweiflung"
+      ],
+      "richtig": [
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, c – Buch S. 102, Frage 2.22.",
+      "folie": "Buch S. 102 · Nr. 2.22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_23",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie viele Stufen umfasst das Modell von Erikson insgesamt?",
+      "optionen": [
+        "sechs",
+        "sieben",
+        "acht",
+        "neun"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c – Buch S. 102, Frage 2.23.",
+      "folie": "Buch S. 102 · Nr. 2.23",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_24",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Im Unterschied zur Theorie von Freud gilt für die Theorie von Erikson:",
+      "optionen": [
+        "Die Theorie basiert nicht auf psychoanalytischen Grundlagen.",
+        "Erikson erläutert seine Theorie nicht anhand eines Stufen- bzw. Phasenkonzepts.",
+        "Sie berücksichtigt stärker die psychosoziale Entwicklung des Menschen.",
+        "Es wird die Relevanz kognitiver Schemata postuliert."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c – Buch S. 103, Frage 2.24.",
+      "folie": "Buch S. 103 · Nr. 2.24",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_25",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ein wesentlicher Unterschied zwischen Freud und Erikson ist, dass …",
+      "optionen": [
+        "… nur einer von beiden die gesamte Lebensspanne betrachtet.",
+        "… Erikson nicht von Trieben als einziger Entwicklungskraft ausgeht.",
+        "… Freud auch verstärkt die kognitive Entwicklung berücksichtigt.",
+        "… nur einer von beiden die frühkindliche Entwicklung betont."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b – Buch S. 103, Frage 2.25.",
+      "folie": "Buch S. 103 · Nr. 2.25",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_26",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Die Theorie von Erikson …",
+      "optionen": [
+        "… basiert auf der Theorie von Freud.",
+        "… wird auch als interaktionistisches Stadienmodell bezeichnet.",
+        "… beschäftigt sich mit atypischen Krisen.",
+        "… fokussiert die Persönlichkeitsentwicklung über die gesamte Lebensspanne."
+      ],
+      "richtig": [
+        0,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, d – Buch S. 103, Frage 2.26.",
+      "folie": "Buch S. 103 · Nr. 2.26",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_27",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Die phallische Phase nach Freud entspricht bei Erikson folgender Stufe:",
+      "optionen": [
+        "Autonomie vs. Scham und Zweifel",
+        "Initiative vs. Schuldgefühl",
+        "Werksinn vs. Minderwertigkeitsgefühl",
+        "Identität vs. Identitätsdiffusion"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 103, Frage 2.27.",
+      "folie": "Buch S. 103 · Nr. 2.27",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_28",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wodurch kommt die Entwicklung nach Erikson zustande?",
+      "optionen": [
+        "Für die Entwicklung zentral ist die Synaptogenese.",
+        "In jeder Phase ist ein zentraler Konflikt zu lösen.",
+        "Entwicklung wird durch die Auseinandersetzung zwischen Individuum und sozialer Umwelt vorangetrieben.",
+        "Entwicklung entsteht durch normative Erwartungen."
+      ],
+      "richtig": [
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, c – Buch S. 104, Frage 2.28.",
+      "folie": "Buch S. 104 · Nr. 2.28",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_29",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "„Prälogisches Schlussfolgern“ tritt laut Piaget auf im …",
+      "optionen": [
+        "… sensumotorischem Stadium.",
+        "… Stadium der konkreten Operationen.",
+        "… präoperativem Stadium.",
+        "…Stadium der formalen Operationen."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c – Buch S. 104, Frage 2.29.",
+      "folie": "Buch S. 104 · Nr. 2.29",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_30",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welches der folgenden Prinzipien hat Piaget in seiner Theorie beschrieben:",
+      "optionen": [
+        "Defibrillation",
+        "Demagogie",
+        "Äquilibration",
+        "Alliteration"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c – Buch S. 104, Frage 2.30.",
+      "folie": "Buch S. 104 · Nr. 2.30",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_31",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Piaget hat überwiegend folgende Forschungsmethoden eingesetzt:",
+      "optionen": [
+        "Experiment",
+        "Beobachtung",
+        "klinisches Interview",
+        "Umfrage"
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, c – Buch S. 104, Frage 2.31.",
+      "folie": "Buch S. 104 · Nr. 2.31",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_32",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Was beschreibt der Begriff der Assimilation bei kognitiven Austauschprozessen nach Piaget?",
+      "optionen": [
+        "Den Prozess, durch den Menschen eintreffende Informationen in eine Form überführen, die sie verstehen können.",
+        "Die allgemeine Tendenz lebender Systeme, Strukturen zu systematisieren, hierarchisch zu koordinieren und in komplexe Systeme zu integrieren.",
+        "Den Prozess, durch den Kinder (und andere Menschen) ein stabileres Verstehen schaffen.",
+        "Den Prozess, durch den Menschen vorhandene Wissensstrukturen als Reaktion auf neue Erfahrungen anpassen."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 105, Frage 2.32.",
+      "folie": "Buch S. 105 · Nr. 2.32",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_33",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie lautet die korrekte Abfolge der Phasen innerhalb der Entwicklungstheorie Piagets?",
+      "optionen": [
+        "präoperative Phase, sensumotorische Phase, konkret-operative Phase, formal-operative Phase",
+        "präoperative Phase, sensumotorische Phase, formal-operative Phase, konkret-operative Phase",
+        "sensumotorische Phase, präoperative Phase, konkret-operative Phase, formal-operative Phase",
+        "sensumotorische Phase, präoperative Phase, formal-operative Phase, konkret-operative Phase"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c – Buch S. 105, Frage 2.33.",
+      "folie": "Buch S. 105 · Nr. 2.33",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_34",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Die Fähigkeit von Kindern zum Perspektivwechsel untersuchte Piaget mit Hilfe des …",
+      "optionen": [
+        "… Umschüttversuchs.",
+        "… Drei-Berge-Versuchs.",
+        "… Heinz-Dilemmas.",
+        "… Rouge-Tests."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 105, Frage 2.34.",
+      "folie": "Buch S. 105 · Nr. 2.34",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_35",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Egozentrisches Denken und unzureichende Perspektivübernahme findet man laut Piaget vor allem bei Kindern in der …",
+      "optionen": [
+        "… orthografischen Phase.",
+        "… präoperationalen Phase.",
+        "… konkret-operationalen Phase.",
+        "… formal-operationalen Phase."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 106, Frage 2.35.",
+      "folie": "Buch S. 106 · Nr. 2.35",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_36",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Fähigkeiten besitzen Kinder nach dem Durchlaufen der präoperationalen Phase? Sie …",
+      "optionen": [
+        "… können hypothetische Zustände mit realen Zuständen vergleichen.",
+        "… haben bereits seit längerem ein Verständnis dafür, dass Gegenstände weiter existieren, auch wenn sie nicht mehr sichtbar sind.",
+        "… können Operationen anwenden, also Klassen und Serien bilden.",
+        "… können zwischen sich selbst und ihrer Umwelt unterscheiden."
+      ],
+      "richtig": [
+        1,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, d – Buch S. 106, Frage 2.36.",
+      "folie": "Buch S. 106 · Nr. 2.36",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_37",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Einem Kind wird eine Rassel gegeben. Es schaut sie neugierig an, steckt sie in den Mund und saugt schließlich daran. Das Kind hat die Rassel an die Aktivität des Saugens …",
+      "optionen": [
+        "… akkomodiert.",
+        "… assimiliert.",
+        "… adaptiert.",
+        "… strukturiert."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 106, Frage 2.37.",
+      "folie": "Buch S. 106 · Nr. 2.37",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_38",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ein Kind wird aufgefordert, eine zufällige Anordnung von Bauklötzen nach der Größe aufzureihen. Das Kind meistert diese Aufgabe erfolgreich. In welcher Entwicklungsphase befindet sich dieses Kind laut Piagets kognitivem Entwicklungsmodell mindestens?",
+      "optionen": [
+        "konkret-operationale Phase",
+        "sensumotorische Phase",
+        "pränormative Phase",
+        "formal-operationale Phase"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 107, Frage 2.38.",
+      "folie": "Buch S. 107 · Nr. 2.38",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_39",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Assimilation geht nach Piaget direkt und in jedem Fall einher mit …",
+      "optionen": [
+        "… moralischen Urteilen.",
+        "… Antizipation.",
+        "… Veränderung individueller Schemata/Strukturen.",
+        "… Anpassungen an bestehende kognitive Schemata/Strukturen."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): d – Buch S. 107, Frage 2.39.",
+      "folie": "Buch S. 107 · Nr. 2.39",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_40",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie hat Kohlberg das jeweilige Niveau des moralischen Urteils ermittelt? Indem er …",
+      "optionen": [
+        "… die Versuchspersonen in tiefenpsychologischen Sitzungen befragt hat.",
+        "… Angehörige befragt hat.",
+        "… die Versuchspersonen mit Gewaltsituationen konfrontiert hat.",
+        "… die Versuchspersonen mit moralischen Dilemmata-Situationen konfrontiert hat."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): d – Buch S. 107, Frage 2.40.",
+      "folie": "Buch S. 107 · Nr. 2.40",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_41",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Auf der Basis der Überlegungen welchen Theoretikers hat Kohlberg sein Stufenkonzept entwickelt?",
+      "optionen": [
+        "Freud",
+        "Erikson",
+        "Piaget",
+        "Havighurst"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c – Buch S. 108, Frage 2.41.",
+      "folie": "Buch S. 108 · Nr. 2.41",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_42",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Das Stufenmodell von Kohlberg zeichnet sich dadurch aus, dass die …",
+      "optionen": [
+        "… Stufen aufeinander aufbauen.",
+        "… Stufen der Reihe nach durchlaufen werden.",
+        "… vorherige Stufe keine Voraussetzung zum Erreichen der nächsthöheren darstellt.",
+        "… Stufen übersprungen werden können."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b – Buch S. 108, Frage 2.42.",
+      "folie": "Buch S. 108 · Nr. 2.42",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_43",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie lautet die korrekte Abfolge der Stufen innerhalb der Entwicklung des moralischen Urteilens von Kohlberg?",
+      "optionen": [
+        "Strafe und Gehorsam, Naiver instrumenteller Hedonismus, Interpersonale oder Gruppenperspektive, Gesellschaftsperspektive, Orientierung am Gesellschaftsvertrag, Orientierung an universellen Prinzipien",
+        "Naiver instrumenteller Hedonismus, Strafe und Gehorsam, Interpersonale oder Gruppenperspektive, Gesellschaftsperspektive, Orientierung am Gesellschaftsvertrag, Orientierung an allgemeingültigen Prinzipien",
+        "Naiver instrumenteller Hedonismus, Strafe und Gehorsam, Interpersonale oder Gruppenperspektive, Orientierung am Gesellschaftsvertrag, Gesellschaftsperspektive, Orientierung an allgemeingültigen Prinzipien",
+        "Strafe und Gehorsam, Naiver instrumenteller Hedonismus, Interpersonale oder Gruppenperspektive, Gesellschaftsperspektive, Orientierung an allgemeingültigen Prinzipien, Orientierung am Gesellschaftsvertrag"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 108, Frage 2.43.",
+      "folie": "Buch S. 108 · Nr. 2.43",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_44",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "In Kohlbergs Entwicklungsmodell besteht die Möglichkeit, …",
+      "optionen": [
+        "… zwei Stufen auf einmal zu überwinden.",
+        "… im Stufensystem zurückzufallen.",
+        "… Stufen wiederholt zu durchlaufen.",
+        "… Hochbegabung anhand des Erreichens der höchsten Stufe zu erkennen."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 109, Frage 2.44.",
+      "folie": "Buch S. 109 · Nr. 2.44",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_45",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Das Entwicklungsmodell von Kohlberg ist laut eigener Aussage …",
+      "optionen": [
+        "… universell gültig.",
+        "… eines, dessen Stufen auf den individuellen Entwicklungsstand zurückgreifen.",
+        "… nur in entwickelten Industriestaaten gültig.",
+        "… eines, dessen Stufen auf den kognitiven Entwicklungsstand des Individuums zurückgreifen."
+      ],
+      "richtig": [
+        0,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, d – Buch S. 109, Frage 2.45.",
+      "folie": "Buch S. 109 · Nr. 2.45",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_46",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Die Entwicklungstheorie Kohlbergs …",
+      "optionen": [
+        "… basiert auf den Grundgedanken der Psychoanalyse.",
+        "… berücksichtigt in ihren Überlegungen den kognitiven Entwicklungsstand des Menschen.",
+        "… basiert auf empirischen Befunden.",
+        "… geht davon aus, dass Menschen von höheren moralischen Entwicklungsstufen auf niedrigere Stufen zurückfallen können."
+      ],
+      "richtig": [
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, c, d – Buch S. 109, Frage 2.46.",
+      "folie": "Buch S. 109 · Nr. 2.46",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_47",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wesentliche Kritik an Kohlbergs Modell besteht im Folgenden:",
+      "optionen": [
+        "Denken und Handeln hängen nicht zwingend miteinander zusammen.",
+        "Ein moralisches Urteil zeigt sich nicht in Dilemma-Situationen.",
+        "Denken und Handeln hängen zwingend miteinander zusammen.",
+        "Kulturelle Einflüsse auf moralische Urteile wurden vernachlässigt."
+      ],
+      "richtig": [
+        0,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, d – Buch S. 109, Frage 2.47.",
+      "folie": "Buch S. 109 · Nr. 2.47",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_48",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Was ist unter einer intrapersonalen Entwicklungsaufgabe zu verstehen? Auseinandersetzung mit …",
+      "optionen": [
+        "… äußeren Veränderungen",
+        "… inneren Veränderungen",
+        "… kulturellen Ansprüchen, Vorgaben und Entwicklungsmöglichkeiten",
+        "… biologischen Kompetenzen"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 110, Frage 2.48.",
+      "folie": "Buch S. 110 · Nr. 2.48",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_49",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Ressourcen sind für Jugendliche zur erfolgreichen Bewältigung von Entwicklungsaufgaben besonders hilfreich?",
+      "optionen": [
+        "soziokognitive Kompetenzen",
+        "elterliche Unterstützung",
+        "Leistungserfolge",
+        "Ich-Stärke"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b, c, d – Buch S. 110, Frage 2.49.",
+      "folie": "Buch S. 110 · Nr. 2.49",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_50",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche der folgenden Definitionen für Entwicklungsaufgaben ist korrekt?",
+      "optionen": [
+        "Entwicklungsaufgaben bezeichnen die Umsetzung von körperlichen, psychischen, sozialen und ökologischen Anforderungen einzelner Lebensphasen in individuelle Verhaltensprogramme.",
+        "Entwicklungsaufgaben ermöglichen jedem Individuum das Gleichgewicht zwischen bereits bewältigten Anforderungen und den eigenen oder gesellschaftlichen Erwartungen zu erkennen.",
+        "Unter einer Entwicklungsaufgabe werden psychisch und sozial vorgegebene Erwartungen und Anforderungen verstanden, die an eine Person in einem bestimmten Lebensabschnitt gestellt werden.",
+        "Entwicklungsaufgaben definieren für jedes Individuum die vorgegebenen Anpassungs- und Bewältigungsschritte, denen es sich bei Auseinandersetzung mit inneren und äußeren Anforderungen stellen muss."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, c, d – Buch S. 110, Frage 2.50.",
+      "folie": "Buch S. 110 · Nr. 2.50",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_51",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Entwicklungsaufgaben müssen nach Havighurst im Alter von 6-12 Jahren bewältigt werden?",
+      "optionen": [
+        "Entwicklung von Gewissen, Moral, und einer Werteskala",
+        "Erwerb der Kulturtechniken",
+        "Hinwendung zu Gleichaltrigen",
+        "Phantasie und Spiel"
+      ],
+      "richtig": [
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, c – Buch S. 111, Frage 2.51.",
+      "folie": "Buch S. 111 · Nr. 2.51",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_52",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche der folgenden Entwicklungsaufgaben sind für das Jugendalter typisch?",
+      "optionen": [
+        "Hinwendung zu Gleichaltrigen",
+        "Erwerb der Kulturtechniken",
+        "Loslösung vom Elternhaus",
+        "Vorbereitung auf berufliche Karriere"
+      ],
+      "richtig": [
+        2,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c, d – Buch S. 111, Frage 2.52.",
+      "folie": "Buch S. 111 · Nr. 2.52",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_53",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Theoretikerin hat sich in ihrer Forschung mit dem Bindungsverhalten beschäftigt?",
+      "optionen": [
+        "Anne-Marie Tausch",
+        "Anna Freud",
+        "Mary Ainsworth",
+        "Margaret Mead"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c – Buch S. 111, Frage 2.53.",
+      "folie": "Buch S. 111 · Nr. 2.53",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_54",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Bowlbys Bindungstheorie wird von folgenden Grundgedanken geleitet:",
+      "optionen": [
+        "Frühkindliche Beziehungen haben keinen Einfluss auf spätere Beziehungen.",
+        "Die physische Grundversorgung von Säuglingen und Kleinkindern reicht für eine gesunde Entwicklung aus.",
+        "Das Kind hat eine angeborene Prädisposition, sich an seine Bezugsperson zu binden.",
+        "Nur auf der Grundlage einer sicheren Bindung zu seiner Bezugsperson erkundet das Kind seine Umwelt und erweitert somit seine Kompetenzen."
+      ],
+      "richtig": [
+        2,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c, d – Buch S. 112, Frage 2.54.",
+      "folie": "Buch S. 112 · Nr. 2.54",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_55",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Bindungs- und Explorationsverhalten …",
+      "optionen": [
+        "… werden im Fremde-Situationstest beobachtet.",
+        "… stehen im engen Zusammenhang zueinander.",
+        "… stellen Entwicklungsaufgaben dar.",
+        "… werden von sicher gebundene Kinder nicht gezeigt."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b – Buch S. 112, Frage 2.55.",
+      "folie": "Buch S. 112 · Nr. 2.55",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_56",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Unsicher-ambivalent gebundene Kinder …",
+      "optionen": [
+        "… zeigen sehr starkes Klammern an ihre Bezugsperson und eine permanente Suche nach deren Nähe.",
+        "… lassen sich bei einer Trennung kaum durch fremde Personen beruhigen.",
+        "… zeigen bei der Wiederkehr der Bezugsperson Freude und Explorationsverhalten.",
+        "… lassen sich durch fremde Personen schnell trösten."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b – Buch S. 112, Frage 2.56.",
+      "folie": "Buch S. 112 · Nr. 2.56",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_57",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Unsicher-vermeidend gebundene Kinder …",
+      "optionen": [
+        "… zeigen geringe Beunruhigung bei einer Trennung und kaum Kummer.",
+        "… verhalten sich bei der Wiederkehr der Bezugsperson widersprüchlich.",
+        "… zeigen ähnliches Verhalten gegenüber fremden Personen wie gegenüber Bezugsperson.",
+        "… suchen erst bei der Wiederkehr stark die Nähe zur Bezugsperson."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, c – Buch S. 113, Frage 2.57.",
+      "folie": "Buch S. 113 · Nr. 2.57",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_58",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Kinder, die kein eindeutiges Muster im Verhalten gegenüber ihrer Bezugsperson zeigen, werden bezeichnet als …",
+      "optionen": [
+        "… unsicher-vermeidend gebundene Kinder.",
+        "… sicher-ambivalent gebundene Kinder.",
+        "… sicher-unsicher gebundene Kinder.",
+        "… desorganisiert gebundene Kinder."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): d – Buch S. 113, Frage 2.58.",
+      "folie": "Buch S. 113 · Nr. 2.58",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_59",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Mit welcher Methode wurden die Bindungsstile weiterentwickelt und operationalisiert?",
+      "optionen": [
+        "Bekannte-Fremde-Test",
+        "Fremde-Situation-Test",
+        "Reaktions-Fremde-Test",
+        "Bindung-Situation-Test"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 113, Frage 2.59.",
+      "folie": "Buch S. 113 · Nr. 2.59",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_60",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Folgender Bindungstyp tritt nach Untersuchungen von Gloger-Tippelt, Vetter & Rauh (2000) in Deutschland am häufigsten auf:",
+      "optionen": [
+        "sicher gebundene Kinder",
+        "vermeidend-gebundene Kinder",
+        "ambivalent-gebundene Kinder",
+        "desorganisiert-desorientiert gebundene Kinder"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 113, Frage 2.60.",
+      "folie": "Buch S. 113 · Nr. 2.60",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_61",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Bezugspersonen sicher gebundener Kinder zeigen überwiegend folgendes Verhalten: Sie …",
+      "optionen": [
+        "… interpretieren die Äußerungen des Kindes angemessen.",
+        "… reagieren kontinuierlich auf die Reaktionen des Kindes.",
+        "… reagieren häufig gleichgültig auf das Kind, um es möglichst früh zur Selbstständigkeit zu erziehen.",
+        "… kommen dem Bedürfnis nach emotionaler und körperlicher Nähe ihrer Kinder zuverlässig nach."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b, d – Buch S. 114, Frage 2.61.",
+      "folie": "Buch S. 114 · Nr. 2.61",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_62",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Affiliation …",
+      "optionen": [
+        "… bezeichnet den Zusammenhang zwischen Werten und Normen.",
+        "… bezeichnet die Tendenz, unabhängig von den Gefühlen gegenüber anderen Personen die Gesellschaft anderer zu suchen.",
+        "… bezeichnet den Zusammenhang zwischen dem Individuum und der Gemeinschaft.",
+        "… bezeichnet die Tendenz, abhängig von den Gefühlen gegenüber anderen Personen zu sein und deshalb die Gesellschaft anderer zu suchen."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 114, Frage 2.62.",
+      "folie": "Buch S. 114 · Nr. 2.62",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_63",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Mit der Affiliation werden folgende Bedürfnisse befriedigt:",
+      "optionen": [
+        "erotischer Kontakt zu anderen Menschen mit direktem Zweck",
+        "sozialer Kontakt zu anderen Menschen ohne direkten Zweck",
+        "seelischer Kontakt zu anderen Menschen ohne direkten Zweck",
+        "körperlicher Kontakt zu anderen Menschen ohne direkten Zweck"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 114, Frage 2.63.",
+      "folie": "Buch S. 114 · Nr. 2.63",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_64",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche zentralen Merkmale kennzeichnen die höchste Niveaustufe der Freundschaftsbeziehungen nach Selman?",
+      "optionen": [
+        "offene, veränderbare Beziehungssysteme",
+        "Beitrag der Freundschaft zum Gefühl persönlicher Identität",
+        "physische und funktionale Ähnlichkeiten als Merkmal eines Freundes",
+        "Bedeutung äußerer Handlungen des Freundes, die aus eigener Sicht gewünscht werden"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b – Buch S. 115, Frage 2.64.",
+      "folie": "Buch S. 115 · Nr. 2.64",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_65",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "„Freundschaften werden als wichtig empfunden, weil das Kind der Überzeugung ist, dass Menschen den Umgang mit anderen brauchen. Vorlieben und Abneigungen müssen koordiniert werden.“ Benennen Sie hierzu die korrekte Stufe in der Entwicklung von Freundschaftskonzepten nach Selman:",
+      "optionen": [
+        "Stufe 1 der Entwicklung von Freundschaftskonzepten",
+        "Stufe 2 der Entwicklung von Freundschaftskonzepten",
+        "Stufe 3 der Entwicklung von Freundschaftskonzepten",
+        "Stufe 4 der Entwicklung von Freundschaftskonzepten"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 115, Frage 2.65.",
+      "folie": "Buch S. 115 · Nr. 2.65",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_66",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Bedeutung hat die Peergroup für Heranwachsende?",
+      "optionen": [
+        "Peer-Beziehungen tragen zur Entwicklung des Selbstbildes bei.",
+        "Peerkontakte schaffen zentrale Rückzugsmöglichkeiten und helfen bei der Ablösung vom Elternhaus.",
+        "Die Peergroup kann durch ihre asymmetrische Anordnung auch Minderwertigkeitsgefühle verstärken.",
+        "Durch Identifikations- und Selbstdarstellungsspielräume ermöglicht die Peergroup Jugendlichen eine Selbstdefinition."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b, d – Buch S. 115, Frage 2.66.",
+      "folie": "Buch S. 115 · Nr. 2.66",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_67",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche kognitiven Veränderungen sind in der Pubertät zu beobachten?",
+      "optionen": [
+        "Jugendliche fangen an, Probleme systematisch zu analysieren und Hypothesen abzuleiten.",
+        "Sie beziehen sich bei ihren Analysen auf Erscheinungen der Umwelt.",
+        "Eine Folge der erhöhten kognitiven Komplexität ist erhöhte Streitlust.",
+        "Jugendliche zweifeln familiäre als auch gesellschaftliche Regeln, Werte und Normen an."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, c, d – Buch S. 116, Frage 2.67.",
+      "folie": "Buch S. 116 · Nr. 2.67",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_68",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wodurch entstehen typische Konflikte zwischen Eltern und Jugendlichen?",
+      "optionen": [
+        "Deidealisierung der Eltern",
+        "Differenzen hinsichtlich der mit der Familie verbrachten Freizeit",
+        "unterschiedliche Auffassungen hinsichtlich bestimmter Verantwortlichkeiten und Verhaltensweisen",
+        "Essensgewohnheiten"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b, c – Buch S. 116, Frage 2.68.",
+      "folie": "Buch S. 116 · Nr. 2.68",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_69",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Die Ablösung vom Elternhaus gilt als gelungen, wenn Jugendliche …",
+      "optionen": [
+        "… die Werte und Normen der Eltern übernommen haben.",
+        "… ein selbstständiges Leben führen können.",
+        "… die Werte und Normen der Eltern kritisch hinterfragt haben.",
+        "… ein distanziertes Verhältnis zu den Eltern aufgebaut haben."
+      ],
+      "richtig": [
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, c – Buch S. 116, Frage 2.69.",
+      "folie": "Buch S. 116 · Nr. 2.69",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_70",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Entwicklungsaufgabenbereiche können unterschieden werden?",
+      "optionen": [
+        "intermodaler Bereich",
+        "intrapersonaler Bereich",
+        "intersozialer Bereich",
+        "interpersonaler Bereich"
+      ],
+      "richtig": [
+        1,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, d – Buch S. 116, Frage 2.70.",
+      "folie": "Buch S. 116 · Nr. 2.70",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_71",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Stufen in Eriksons psychosozialem Entwicklungsmodell beschäftigen sich mit dem mittleren und höheren Erwachsenenalter?",
+      "optionen": [
+        "Generativität vs. Stagnation",
+        "Intimität vs. Isolation",
+        "Integrität vs. Verzweiflung",
+        "Identität vs. Resignation"
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, c – Buch S. 117, Frage 2.71.",
+      "folie": "Buch S. 117 · Nr. 2.71",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_72",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Das SOK-Modell…",
+      "optionen": [
+        "… beschreibt den erfolgreichen Umgang mit Krankheiten im Alter.",
+        "… wurde von Baltes & Baltes entworfen.",
+        "… beschäftigt sich mit dem erfolgreichen Altern.",
+        "… wurde von Heckhausen entworfen."
+      ],
+      "richtig": [
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, c – Buch S. 117, Frage 2.72.",
+      "folie": "Buch S. 117 · Nr. 2.72",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_73",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Folgende Modelle beschreiben Theorien erfolgreichen Alterns:",
+      "optionen": [
+        "Aktivitätstheorie",
+        "Passivitätstheorie",
+        "Disengagement-Theorie",
+        "Modell der Optimierung durch primäre und sekundäre Kontrolle"
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, c, d – Buch S. 117, Frage 2.73.",
+      "folie": "Buch S. 117 · Nr. 2.73",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_74",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche der nachfolgenden Modelle stellen die Vermutung auf, dass sich ältere Menschen soziale Isolierung wünschen?",
+      "optionen": [
+        "Aktivitätstheorie",
+        "Disengagement-Theorie",
+        "SOK-Modell",
+        "OPS-Modell"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 117, Frage 2.74.",
+      "folie": "Buch S. 117 · Nr. 2.74",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_75",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Grundannahmen der Aktivitätstheorie sind, dass …",
+      "optionen": [
+        "… das Individuum zufrieden ist, wenn es aktiv ist und innerhalb der Gesellschaft eine Funktion übernimmt.",
+        "… es einen Zusammenhang zwischen individuellen sozialen Aktivitäten und der subjektiven Lebenszufriedenheit gibt.",
+        "… es einen Zusammenhang zwischen individuellen Funktionen und der subjektiven Lebenszufriedenheit gibt.",
+        "… das Individuum zufrieden ist, wenn es sich aktiv um seine subjektive Lebenszufriedenheit kümmert."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b – Buch S. 118, Frage 2.75.",
+      "folie": "Buch S. 118 · Nr. 2.75",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b2_76",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Folgende Grundannahmen lassen sich dem SOK-Modell zuordnen:",
+      "optionen": [
+        "Lebenszufriedenheit als subjektives Kriterium reicht nicht für erfolgreiches Altern aus.",
+        "Auch für ältere Menschen sind Ziele bedeutsam.",
+        "Ältere Menschen suchen bewusst sportliche Aktivitäten auf.",
+        "Es ist wichtig für ältere Menschen, sich zu isolieren, um sich optimal auf ihr Lebensende vorbereiten zu können."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b – Buch S. 118, Frage 2.76.",
+      "folie": "Buch S. 118 · Nr. 2.76",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [],
+  "offene_fragen": []
+}

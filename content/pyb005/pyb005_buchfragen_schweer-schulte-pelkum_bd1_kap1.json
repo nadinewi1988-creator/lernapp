@@ -1,0 +1,111 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pyb005",
+  "teilmodul": "Buchfragen",
+  "datum": "2026-11-01",
+  "sitzung_nr": 0,
+  "sitzung_id": "",
+  "thema": "Kap. 1 · Psychologie als Wissenschaft (4 MC-Fragen)",
+  "stand": "geprueft",
+  "buch": "Schweer/Schulte-Pelkum (2017), Bd. 1: Psychologische Grundlagen professionellen Handelns in sozialen Berufen",
+  "hinweis": "Übungsfragen aus dem Buch im Wortlaut (Fotos in pyb005/Literatur), Lösungen nach dem offiziellen Lösungsblatt des Lehrstuhls (14.12.2016). Keine Kalendersitzung – erscheint nur unter Lernfragen. Quelle: Projekt lerninhalte/pyb005/_buchfragen_schweer-schulte-pelkum_bd1.json, claude/pyb005_mc_buchfragen.md.",
+  "quellen": [
+    {
+      "datei": "Literatur/pyb005_MC-Fragen_Schweer-Schulte-Pelkum_Bd1_LOESUNGEN-offiziell.pdf",
+      "art": "MC-Fragen aus dem Buch mit offizieller Lösung",
+      "seiten": "S. 23–24, 96–118, 188–212"
+    }
+  ],
+  "lernziele": [],
+  "kurzfassung": [],
+  "erklaerung": [],
+  "definitionen": [],
+  "aufgaben": [],
+  "fragen": [
+    {
+      "id": "b1_1",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Psychologie als Wissenschaft befasst sich vorwiegend mit …",
+      "optionen": [
+        "… der Beschreibung, Erklärung, Vorhersage und Beeinflussung menschlichen Erlebens und Verhaltens.",
+        "… der subjektiven Erforschung des Bewusstseins im Sinne des Strukturalismus.",
+        "… der objektiv überprüfbaren empirischen Erforschung von Erleben und Verhalten.",
+        "… der neuro-reduktionistischen Erklärung von menschlichem Verhalten."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, c – Buch S. 23, Frage 1.1.",
+      "folie": "Buch S. 23 · Nr. 1.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b1_2",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche der folgenden Aussagen treffen auf das lerntheoretische / behavioristische Paradigma der Psychologie zu?",
+      "optionen": [
+        "Das zentrale Streben jedes Menschen ist die Selbstverwirklichung.",
+        "Verhalten wird vorwiegend durch neurobiologische Prozesse determiniert.",
+        "Der Mensch wird von Trieben gesteuert.",
+        "Das menschliche Verhalten ist in hohem Maße umweltgesteuert, Verhalten wird durch Umwelteinflüsse gelernt und kann wieder verlernt werden."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): d – Buch S. 23, Frage 1.2.",
+      "folie": "Buch S. 23 · Nr. 1.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b1_3",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welches sind Hauptgütekriterien psychologischer Messungen?",
+      "optionen": [
+        "Reliabilität",
+        "Vulnerabilität",
+        "Operationalität",
+        "Validität"
+      ],
+      "richtig": [
+        0,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, d – Buch S. 24, Frage 1.3.",
+      "folie": "Buch S. 24 · Nr. 1.3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b1_4",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche formalen Voraussetzungen müssen für eine intervallskalierte Messung einer psychologischen Variablen erfüllt sein?",
+      "optionen": [
+        "Äquidistanz der Skalenpunkte",
+        "Definition eines absoluten Nullpunktes",
+        "eine auf der Messskala abbildbare Operationalisierung des Konstrukts",
+        "Konstruktvalidität"
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, c – Buch S. 24, Frage 1.4.",
+      "folie": "Buch S. 24 · Nr. 1.4",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [],
+  "offene_fragen": []
+}

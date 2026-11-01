@@ -22,6 +22,8 @@ export interface LSitzung {
   lernziele: LZiel[]; kurzfassung: string[]; erklaerung: LAbschnitt[]; definitionen: LDef[]; aufgaben: LAufgabe[]; fragen: LFrage[];
   pruefungshinweise: string[]; offene_fragen: string[];
   datei: string; // Dateiname ohne .json, für die Fragen-IDs
+  /** Fragenpool aus einem Buch (keine Kalendersitzung): Buchangabe; erscheint nur unter Lernfragen, als eigene Gruppe vor eÜbung/Tutorium */
+  buch?: string;
 }
 export interface LGlossar { modul: string; eintraege: { begriff: string; wortlaut: string; erklaerung: string; quelle: string }[] }
 export interface LSymbol { zeichen: string; latex: string; bedeutung: string; gelesen: string; module: string[]; erste_quelle: string }

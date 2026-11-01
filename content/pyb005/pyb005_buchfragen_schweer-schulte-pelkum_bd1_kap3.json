@@ -1,0 +1,1702 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pyb005",
+  "teilmodul": "Buchfragen",
+  "datum": "2026-11-01",
+  "sitzung_nr": 0,
+  "sitzung_id": "",
+  "thema": "Kap. 3 · Lernen (81 MC-Fragen)",
+  "stand": "geprueft",
+  "buch": "Schweer/Schulte-Pelkum (2017), Bd. 1: Psychologische Grundlagen professionellen Handelns in sozialen Berufen",
+  "hinweis": "Übungsfragen aus dem Buch im Wortlaut (Fotos in pyb005/Literatur), Lösungen nach dem offiziellen Lösungsblatt des Lehrstuhls (14.12.2016). Keine Kalendersitzung – erscheint nur unter Lernfragen. Quelle: Projekt lerninhalte/pyb005/_buchfragen_schweer-schulte-pelkum_bd1.json, claude/pyb005_mc_buchfragen.md.",
+  "quellen": [
+    {
+      "datei": "Literatur/pyb005_MC-Fragen_Schweer-Schulte-Pelkum_Bd1_LOESUNGEN-offiziell.pdf",
+      "art": "MC-Fragen aus dem Buch mit offizieller Lösung",
+      "seiten": "S. 23–24, 96–118, 188–212"
+    }
+  ],
+  "lernziele": [],
+  "kurzfassung": [],
+  "erklaerung": [],
+  "definitionen": [],
+  "aufgaben": [],
+  "fragen": [
+    {
+      "id": "b3_1",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Lernen beinhaltet unter anderem die …",
+      "optionen": [
+        "… Aneignung von Informationen.",
+        "… Modifikation von Informationen.",
+        "… Veränderung des sichtbaren Verhaltens.",
+        "… Veränderung eigener Einstellungen."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, c – Buch S. 188, Frage 3.1.",
+      "folie": "Buch S. 188 · Nr. 3.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_2",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Unter Lernen versteht man unter anderem …",
+      "optionen": [
+        "… eine langfristige sichtbare Verhaltensänderung.",
+        "… eine kurzfristige sichtbare Verhaltensänderung.",
+        "… eine auf Reifungsprozessen basierende Verhaltensänderung.",
+        "… eine relativ dauerhafte Änderung des Verhaltensrepertoires."
+      ],
+      "richtig": [
+        0,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, d – Buch S. 188, Frage 3.2.",
+      "folie": "Buch S. 188 · Nr. 3.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_3",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wer begründete den Behaviorismus?",
+      "optionen": [
+        "John Watson",
+        "Burrhus F. Skinner",
+        "Ivan Pawlow",
+        "Sigmund Freud"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 188, Frage 3.3.",
+      "folie": "Buch S. 188 · Nr. 3.3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_4",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche der folgenden Lernprozesse stehen stellvertretend für die vier großen Lerntheorien?",
+      "optionen": [
+        "Tom beobachtet, dass Christian durch wiederholtes Melden bessere mündliche Noten bekommt und nimmt fortan aktiver am Unterricht teil.",
+        "Klaus weiß viel mehr über Geschichte, seitdem er in die 11. Klasse gekommen ist.",
+        "Durch die Einnahme von Ritalin kann sich Peter besser auf Lernsituationen einlassen.",
+        "Claudia cremt sich regelmäßig mit Sonnencreme ein, nachdem sie einmal einen starken Sonnenbrand bekommen hat."
+      ],
+      "richtig": [
+        0,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, d – Buch S. 189, Frage 3.4.",
+      "folie": "Buch S. 189 · Nr. 3.4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_5",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Dem Behaviorismus zufolge kann menschliches Verhalten beobachtet werden anhand von …",
+      "optionen": [
+        "… Reizen und Reaktionen.",
+        "… Emotionen und Kognitionen.",
+        "… Kognitionen und Konsequenzen.",
+        "…Emotionen und Konsequenzen."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 189, Frage 3.5.",
+      "folie": "Buch S. 189 · Nr. 3.5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_6",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Vor Versuchsbeginn ist ein Glockenton für Pawlows Hund in Bezug auf die Speichelabsonderung ein …",
+      "optionen": [
+        "… bekannter Reiz.",
+        "… unkonditionierter Reiz.",
+        "… konditionierter Reiz.",
+        "… neutraler Reiz."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): d – Buch S. 189, Frage 3.6.",
+      "folie": "Buch S. 189 · Nr. 3.6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_7",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche der folgenden Aussagen zur Klassischen Konditionierung sind korrekt?",
+      "optionen": [
+        "Stimuli, die angeborenes Reflexverhalten hervorrufen, bezeichnet man als unkonditionierte Stimuli, da sie geeignet sind, eine unkonditionierte Reaktion auszulösen.",
+        "Neutrale Stimuli haben ursprünglich eine hohe Relevanz mit Blick auf die Verbindung von UCS (unkonditionierte Stimuli) und UCR (unkonditionierte Reaktion).",
+        "Der neutrale Reiz kann vor der Konditionierung keine unkonditionierte Reaktion (UCR) auslösen.",
+        "Das Verhalten auf unkonditionierte Stimuli (UCS) bezeichnet man als unkonditionierte Reaktion (UCR)."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, c, d – Buch S. 190, Frage 3.7.",
+      "folie": "Buch S. 190 · Nr. 3.7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_8",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Die klassische Konditionierung ist eine Form des Lernens, …",
+      "optionen": [
+        "… die auf den Prinzipien der Belohnung und Bestrafung basiert.",
+        "… bei welcher der Organismus eine neue Assoziation zwischen zwei Reizen lernt.",
+        "… die primär im Kleinkindalter relevant ist.",
+        "… bei der Reiz-Reaktions-Koppelungen die Grundlage bilden, die nicht vom Organismus gelernt werden, sondern bereits angelegt sind."
+      ],
+      "richtig": [
+        1,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, d – Buch S. 190, Frage 3.8.",
+      "folie": "Buch S. 190 · Nr. 3.8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_9",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wird ein konditionierter Reiz nicht länger mit dem unkonditionierten Reiz dargeboten, so wird die konditionierte Reaktion mit der Zeit schwächer, bis sie schließlich ganz ausbleibt. Diesen Prozess nennt man …",
+      "optionen": [
+        "… Destabilisierung.",
+        "… Löschung.",
+        "… Rückwirkung.",
+        "… Reizdiskrimination."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 190, Frage 3.9.",
+      "folie": "Buch S. 190 · Nr. 3.9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_10",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Die klassische Konditionierung wird oftmals am Beispiel eines Experiments von …",
+      "optionen": [
+        "… Wygotsky verdeutlicht.",
+        "… Skinner verdeutlicht.",
+        "… Bandura verdeutlicht.",
+        "… Pawlow verdeutlicht."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): d – Buch S. 191, Frage 3.10.",
+      "folie": "Buch S. 191 · Nr. 3.10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_11",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Im Erwerbsstadium des klassischen Konditionierens wird ein …",
+      "optionen": [
+        "… neutraler Reiz, der später die Reaktion auslösen soll, wiederholt mit einem unkonditionierten Reiz gepaart.",
+        "… neutraler Reiz, der später die Reaktion auslösen soll, wiederholt mit einem konditionierten Reiz gepaart.",
+        "… konditionierter Reiz, der später die Reaktion auslösen soll, wiederholt mit einem konditionierten Reiz gepaart.",
+        "… unkonditionierter Reiz, der später die Reaktion auslösen soll, wiederholt mit einem konditionierten Reiz gepaart."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 191, Frage 3.11.",
+      "folie": "Buch S. 191 · Nr. 3.11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_12",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Um die konditionierte Reaktion aufrecht zu erhalten, ist es …",
+      "optionen": [
+        "… nicht notwendig, den unkonditionierten Reiz gelegentlich darzubieten.",
+        "… notwendig, den unkonditionierten Reiz gelegentlich darzubieten.",
+        "… notwendig, einen neutralen Reiz darzubieten.",
+        "… notwendig, eine Verstärkung darzubieten."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 191, Frage 3.12.",
+      "folie": "Buch S. 191 · Nr. 3.12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_13",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Beim klassischen Konditionieren …",
+      "optionen": [
+        "… können angeborene Reaktionen als unkonditionierte Reaktionen fungieren.",
+        "… ist in der Regel die mehrfache Darbietung eines neutralen mit einem unkonditionierten Reiz nötig, damit der ursprünglich neutrale Reiz die konditionierte Reaktion hervorruft.",
+        "… kann es zum Phänomen der Reizgeneralisierung kommen.",
+        "… lassen sich hierdurch erworbene Angstreaktionen nicht mehr erfolgreich therapieren."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b, c – Buch S. 192, Frage 3.13.",
+      "folie": "Buch S. 192 · Nr. 3.13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_14",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur Reizgeneralisierung sind korrekt?",
+      "optionen": [
+        "Reizgeneralisierung ist die automatische Erweiterung konditionierten Verhaltens auf ähnliche Stimuli.",
+        "Ähnliche Stimuli wurden ebenfalls mit dem unkonditionierten Stimulus gepaart.",
+        "Reizgeneralisierung ist die erlernte Erweiterung konditionierten Verhaltens auf ähnliche Stimuli.",
+        "Je höher die Ähnlichkeit zwischen dem neuem und konditionierten Reiz, desto wahrscheinlicher ist die generalisierte Reaktion."
+      ],
+      "richtig": [
+        0,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, d – Buch S. 192, Frage 3.14.",
+      "folie": "Buch S. 192 · Nr. 3.14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_15",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur Reizdifferenzierung sind korrekt?",
+      "optionen": [
+        "Reizdifferenzierung wird auch Reizdiskrimination genannt.",
+        "Reizdifferenzierung bezeichnet die Fähigkeit, Unterschiede zwischen Reizen wahrzunehmen und darauf entsprechend zu reagieren.",
+        "Konditioniertes Verhalten differenziert in hohem Maße zwischen ähnlichen Stimuli.",
+        "Reizdifferenzierung wird umso wahrscheinlicher, je bedeutsamer die Verhaltenskonsequenzen sind."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b, d – Buch S. 192, Frage 3.15.",
+      "folie": "Buch S. 192 · Nr. 3.15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_16",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ein Lob ist im Sinne des operanten Konditionierens ein …",
+      "optionen": [
+        "… primärer Verstärker.",
+        "… generalisierter Verstärker.",
+        "… materieller Verstärker.",
+        "… sekundärer Verstärker."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): d – Buch S. 193, Frage 3.16.",
+      "folie": "Buch S. 193 · Nr. 3.16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_17",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Positive Verstärkung beim operanten Konditionieren ist dann vorhanden, wenn ein Schüler den Unterricht stört und …",
+      "optionen": [
+        "… die Klasse darauf verärgert reagiert.",
+        "… die Klasse darauf erheitert reagiert.",
+        "… die Klasse darauf gar nicht reagiert.",
+        "… die gesamte Klasse daraufhin nachsitzen muss."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 193, Frage 3.17.",
+      "folie": "Buch S. 193 · Nr. 3.17",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_18",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie müssen Verstärker im Rahmen der operanten Konditionierung beschaffen sein, damit sie wirken? Verstärker …",
+      "optionen": [
+        "… als unabhängige Konsequenz einer Reaktion",
+        "… als unmittelbare Konsequenz einer Reaktion",
+        "… in Form instabiler Konsequenz",
+        "… in Form einer konditionierten Reaktion"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 193, Frage 3.18.",
+      "folie": "Buch S. 193 · Nr. 3.18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_19",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Können Sie sich vorstellen, wie Skinner die Aufgabe lösen würde, einer Taube beizubringen, sich im Uhrzeigersinn um sich selbst zu drehen? Er würde …",
+      "optionen": [
+        "… jede, auch die kleinste Reaktion der Taube in Richtung des gewünschten Endverhaltens durch Futter verstärken (zum Beispiel Anheben des Fußes, Drehen des Kopfes nach rechts).",
+        "… abwarten, bis die Taube zufällig einmal eine solche Pirouette dreht, und ihr dann einen besonders wirksamen Verstärker verabreichen.",
+        "… die Taube „anleiten“, sie zum Beispiel mit der Hand so oft in der gewünschten Richtung drehen, bis sie die Drehung allein ausführen kann.",
+        "… jede, auch die kleinste Reaktion der Taube in Richtung des gewünschten Endverhaltens zunächst ignorieren, bis die Taube still sitzt und ihr dann das Futter über dem Kopf kreisen lassen, um sie sich in der gewünschten Richtung drehen zu lassen."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 194, Frage 3.19.",
+      "folie": "Buch S. 194 · Nr. 3.19",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_20",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wenn einem Kind bei unerwünschtem Verhalten Fernsehverbot erteilt wird, dann handelt es sich um …",
+      "optionen": [
+        "… positive Verstärkung.",
+        "… indirekte Bestrafung.",
+        "… direkte Bestrafung.",
+        "… negative Verstärkung."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 194, Frage 3.20.",
+      "folie": "Buch S. 194 · Nr. 3.20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_21",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Von zentraler Bedeutung im Rahmen operanten Konditionierens ist die …",
+      "optionen": [
+        "… Festlegung der psychomoralischen Verstärker.",
+        "… Konsequenz, die auf ein Verhalten folgt.",
+        "… Ermittlung von Kognitionen der Lernenden.",
+        "… Verarbeitungsgeschwindigkeit des Langzeitgedächtnisses."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 194, Frage 3.21.",
+      "folie": "Buch S. 194 · Nr. 3.21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_22",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Gemeinsamkeiten zwischen den Theorien des operanten Konditionieren und des klassischen Konditionieren gibt es? Beide …",
+      "optionen": [
+        "… gründen ihre ersten Erkenntnisse auf Tierexperimente.",
+        "… berücksichtigen das Black-Box-Prinzip.",
+        "… sehen Konsequenzen als zentrale verhaltenssteuernde Elemente.",
+        "… negieren die Möglichkeit der Verhaltensbeobachtung."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b – Buch S. 195, Frage 3.22.",
+      "folie": "Buch S. 195 · Nr. 3.22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_23",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Skinner fand heraus, dass die Konditionierung dann am wirksamsten ist, wenn die …",
+      "optionen": [
+        "… Verstärkung unmittelbar auf die gewünschte Reaktion erfolgt.",
+        "… unerwünschte Reaktion sofort bestraft wird.",
+        "… Verstärkung der zu lernenden Reaktion wiederholt erfolgt.",
+        "… Verstärkung nach mehreren Wiederholungen situationsunabhängig erfolgt."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b, c – Buch S. 195, Frage 3.23.",
+      "folie": "Buch S. 195 · Nr. 3.23",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_24",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Negative Verstärkung …",
+      "optionen": [
+        "… erhöht die Auftretenswahrscheinlichkeit einer Reaktion.",
+        "… führt zu einer kontinuierlichen Verhaltenspersistenz.",
+        "… senkt die Auftretenswahrscheinlichkeit einer Reaktion.",
+        "… führt häufig zu einer Entwicklungsblockade."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 195, Frage 3.24.",
+      "folie": "Buch S. 195 · Nr. 3.24",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_25",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Verhaltensbeobachtungen und -modifikationen basieren insbesondere auf der Lerntheorie …",
+      "optionen": [
+        "… des klassischen Konditionierens.",
+        "… des operanten Konditionierens.",
+        "… der Gestaltpsychologie.",
+        "… der kognitiven Wende."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 195, Frage 3.25.",
+      "folie": "Buch S. 195 · Nr. 3.25",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_26",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Bei einer Verhaltensanalyse beachten Therapeut*innen insbesondere die ein Verhalten …",
+      "optionen": [
+        "… auslösenden Bedingungen.",
+        "… aufrechterhaltenden Bedingungen.",
+        "… beendenden Bedingungen.",
+        "… begleitenden Bedingungen."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b – Buch S. 196, Frage 3.26.",
+      "folie": "Buch S. 196 · Nr. 3.26",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_27",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Dem Paradigma der operanten Konditionierung lassen sich folgende drei Bestandteile zuordnen:",
+      "optionen": [
+        "Verhaltensinkontinenzen, Verstärker und diskriminative Reize",
+        "Verhaltenskonkordanzen, Verstärker und diskriminative Reize",
+        "Verhaltenskontingenzen, Verstärker und diskriminative Reize",
+        "Verhaltensinkontingenzen, Verstärker und diskriminative Reize"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c – Buch S. 196, Frage 3.27.",
+      "folie": "Buch S. 196 · Nr. 3.27",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_28",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche der unten genannten Schritte stellen wesentliche Grundlagen der operanten Verhaltensänderung dar?",
+      "optionen": [
+        "Festlegung der psychomoralischen Verstärker",
+        "Erstellung eines funktionalen Bedingungsmodells von Verhalten und Verstärkung",
+        "Präzisierung der konkreten Halbwertszeit",
+        "Erhebung der Reaktionsrate unter den neuen Bedingungen"
+      ],
+      "richtig": [
+        1,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, d – Buch S. 196, Frage 3.28.",
+      "folie": "Buch S. 196 · Nr. 3.28",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_29",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht man im Sinne der operanten Konditionierung unter Shaping? Shaping …",
+      "optionen": [
+        "… nutzt primär Bestrafung als Mittel zur Verhaltensformung.",
+        "… folgt dem gleichen Prinzip wie Chaining.",
+        "… unterstützt das Beobachtungslernen.",
+        "… verstärkt die dem gewünschten Zielverhalten auch nur annähernd entsprechenden Verhaltensweisen."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): d – Buch S. 197, Frage 3.29.",
+      "folie": "Buch S. 197 · Nr. 3.29",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_30",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Erwünschte Verhaltensweisen können aufgebaut werden durch …",
+      "optionen": [
+        "… Shaping eines spezifischen Verhaltens.",
+        "… verbale Hilfestellungen (Prompting).",
+        "… Löschung bzw. Extinktion.",
+        "… die Beseitigung der Bedingungen, die unerwünschte Verhaltensweisen aufrechterhalten."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b, d – Buch S. 197, Frage 3.30.",
+      "folie": "Buch S. 197 · Nr. 3.30",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_31",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Form von Verstärkung ist für den Aufbau von gewünschtem Verhalten am wirkungsvollsten? Wenn die Verstärkung …",
+      "optionen": [
+        "… unmittelbar auf die Reaktion folgt und die Verstärkung wiederholt gegeben wird.",
+        "… einmalig stattfindet.",
+        "… deutlich zeitversetzt zum gewünschten Verhalten erfolgt und wiederholt gegeben wird.",
+        "… in unregelmäßigen Abständen gegeben wird."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 197, Frage 3.31.",
+      "folie": "Buch S. 197 · Nr. 3.31",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_32",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Prozesse der operanten Konditionierung werden angewandt, um unerwünschte Verhaltensweisen abzubauen?",
+      "optionen": [
+        "Löschung",
+        "Time-Out",
+        "Prompting",
+        "Bestrafung"
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b, d – Buch S. 198, Frage 3.32.",
+      "folie": "Buch S. 198 · Nr. 3.32",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_33",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Geld ist im Sinne des operanten Konditionierens ein …",
+      "optionen": [
+        "… tertiärer Verstärker.",
+        "… sekundärer Verstärker.",
+        "… materieller Verstärker.",
+        "… Handlungsverstärker."
+      ],
+      "richtig": [
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, c – Buch S. 198, Frage 3.33.",
+      "folie": "Buch S. 198 · Nr. 3.33",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_34",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen in Bezug auf Bestrafung und Verstärkung sind korrekt?",
+      "optionen": [
+        "Bestrafung steigert die Auftretenswahrscheinlichkeit einer Reaktion, während negative Verstärkung diese senkt.",
+        "Bestrafung senkt die Auftretenswahrscheinlichkeit einer Reaktion, während negative Verstärkung diese erhöht.",
+        "Es gibt keinen Unterschied zwischen Bestrafung und negativer Verstärkung.",
+        "Direkte Bestrafung nennt man das-Darbieten eines unangenehmen Reizes, um ein bestimmtes Verhalten zu unterdrücken."
+      ],
+      "richtig": [
+        1,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, d – Buch S. 198, Frage 3.34.",
+      "folie": "Buch S. 198 · Nr. 3.34",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_35",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche der angegebenen Beispiele können als soziale Verstärker dienen?",
+      "optionen": [
+        "Lob",
+        "Noten",
+        "Lächeln",
+        "Süßigkeiten"
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, c – Buch S. 198, Frage 3.35.",
+      "folie": "Buch S. 198 · Nr. 3.35",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_36",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Eine Familie macht einen Ausflug in den Freizeitpark, auf den sich das jüngste Kind seit langem gefreut hat. Auf der Hinfahrt verhält sich dieses Kind derart ungezogen, dass die Eltern den Ausflug kurzfristig abbrechen und verärgert nach Hause fahren. Mit welcher Methode reagieren die Eltern auf das Verhalten ihres Kindes?",
+      "optionen": [
+        "negative Verstärkung",
+        "positive Verstärkung",
+        "direkte Bestrafung",
+        "indirekte Bestrafung"
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): d – Buch S. 199, Frage 3.36.",
+      "folie": "Buch S. 199 · Nr. 3.36",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_37",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Abgesehen von der operanten Konditionierung nach Skinner wird die Aneignung neuer Verhaltensmuster unter anderem erklärt durch …",
+      "optionen": [
+        "… die sozial-kognitive Lerntheorie.",
+        "… den Labeling-Approach.",
+        "… kognitive Lerntheorien.",
+        "… den konstitutionspsychologischen Ansatz."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, c – Buch S. 199, Frage 3.37.",
+      "folie": "Buch S. 199 · Nr. 3.37",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_38",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Hemmende und enthemmende Effekte sind typische …",
+      "optionen": [
+        "… Lernprozesse im Rahmen des einsichtigen Lernens.",
+        "… Reaktionen auf indirekte Bestrafung.",
+        "… Prozesse im Zuge des Modell-Lernens.",
+        "… Effekte beim Assoziationslernen."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c – Buch S. 199, Frage 3.38.",
+      "folie": "Buch S. 199 · Nr. 3.38",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_39",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Prozesse werden unter anderem in der sozial-kognitiven Lerntheorie von Bandura unterschieden?",
+      "optionen": [
+        "Aufmerksamkeitsprozesse",
+        "Interferenzprozesse",
+        "Kontingenzprozesse",
+        "Motivationsprozesse"
+      ],
+      "richtig": [
+        0,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, d – Buch S. 200, Frage 3.39.",
+      "folie": "Buch S. 200 · Nr. 3.39",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_40",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Benennen Sie wesentliche Modelleffekte der sozial-kognitiven Lerntheorie nach Bandura:",
+      "optionen": [
+        "Synergieeffekte",
+        "Beobachtungslerneffekte",
+        "hemmende und enthemmende Effekte",
+        "auslösende Effekte"
+      ],
+      "richtig": [
+        2,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c, d – Buch S. 200, Frage 3.40.",
+      "folie": "Buch S. 200 · Nr. 3.40",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_41",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Die sozial-kognitive Lerntheorie übernimmt Annahmen des …",
+      "optionen": [
+        "… operanten Konditionierens.",
+        "… klassischen Konditionierens.",
+        "… Lernens durch Einsicht.",
+        "… neuropsychologischen Lernens."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 200, Frage 3.41.",
+      "folie": "Buch S. 200 · Nr. 3.41",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_42",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Das „Bobo-Doll“-Experiment ist ein berühmtes Experiment im Rahmen des …",
+      "optionen": [
+        "… klassischen Konditionierens.",
+        "… operanten Konditionierens.",
+        "… sozial-kognitiven Lernens.",
+        "… einsichtigen Lernens."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c – Buch S. 200, Frage 3.42.",
+      "folie": "Buch S. 200 · Nr. 3.42",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_43",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Als Ergebnisse des klassischen „Bobo-Doll“-Experiments von Bandura, Ross und Ross (1961) sind festzuhalten:",
+      "optionen": [
+        "Alle Kinder haben das beobachtete Verhalten unabhängig von den damit verbundenen Konsequenzen erlernt.",
+        "Die Bereitschaft zur (Verhaltens-)Performanz der Kinder war abhängig von den Konsequenzen, welche das beobachtete Modell nach seinem gezeigten Verhalten erfuhr.",
+        "Nicht alle Kinder haben sich das beobachtete Verhalten unabhängig von den damit verbundenen Konsequenzen angeeignet.",
+        "Die Kinder, die eine Bestrafung des Modells beobachteten, erlernten das aggressive Verhalten nicht so schnell wie die Kinder in den anderen Versuchsgruppen."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b – Buch S. 201, Frage 3.43.",
+      "folie": "Buch S. 201 · Nr. 3.43",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_44",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Es handelt sich um einen enthemmenden Lerneffekt, wenn …",
+      "optionen": [
+        "… die Auftrittswahrscheinlichkeit bereits erworbener Verhaltensmuster steigt, weil das beobachtete Modell verstärkt worden ist.",
+        "… neue Verhaltensmuster erlernt werden.",
+        "… die Auftrittswahrscheinlichkeit bereits erworbener Verhaltensmuster steigt, weil keine negativen Konsequenzen auf das Verhalten des beobachteten Modells folgten, welches zuvor bestraft worden ist.",
+        "… die Auftrittswahrscheinlichkeit bereits erworbener Verhaltensmuster sinkt, weil positive Konsequenzen als Reaktion auf das Verhalten des beobachteten Modells ausbleiben, welches zuvor belohnt worden ist."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, c – Buch S. 201, Frage 3.44.",
+      "folie": "Buch S. 201 · Nr. 3.44",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_45",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welcher Lerneffekt wird im nachfolgenden Beispiel beschrieben? „Eine Studentin beobachtet während eines Seminars einen Kommilitonen, der sich rege mit seiner Sitznachbarin unterhält und daraufhin von der Dozentin als Negativbeispiel herangezogen wird. Die Studentin vermeidet daraufhin jegliche Gespräche mit ihren Kommiliton*innen während der Veranstaltung, da sie eine solche Form der Zurechtweisung fürchtet.“",
+      "optionen": [
+        "modellierender Effekt",
+        "multiplikatorischer Effekt",
+        "auslösender Effekt",
+        "hemmender Effekt"
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): d – Buch S. 202, Frage 3.45.",
+      "folie": "Buch S. 202 · Nr. 3.45",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_46",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen hinsichtlich der sozial-kognitiven Lerntheorie sind zutreffend?",
+      "optionen": [
+        "Im Rahmen der Theorie gelten neue Verhaltensweisen nur dann als erlernt, wenn diese auch tatsächlich gezeigt werden.",
+        "Innerhalb des Vier-Komponenten-Modell des Modell-Lernens wird zwischen Aneignungs- und Ausführungsphase differenziert.",
+        "Einer der prominentesten Vertreter der Theorie ist Burrhus F. Skinner.",
+        "In der Theorie finden sich Komponenten des klassischen Konditionierens."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 202, Frage 3.46.",
+      "folie": "Buch S. 202 · Nr. 3.46",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_47",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Einsicht tritt eher dann auf, wenn die …",
+      "optionen": [
+        "… Person viel Lob erhält.",
+        "… Person durch andere Personen in der Lösungsfindung unterstützt wird.",
+        "… problematische Situation so arrangiert ist, dass alle notwendigen Aspekte zur Lösung der Beobachtung zugänglich sind.",
+        "… Elemente der Situation kognitiv umstrukturiert werden und man auf die Lösung stößt."
+      ],
+      "richtig": [
+        2,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c, d – Buch S. 202, Frage 3.47.",
+      "folie": "Buch S. 202 · Nr. 3.47",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_48",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Für das einsichtige Lernen sind Wahrnehmungsprinzipien von Bedeutung, weil sie …",
+      "optionen": [
+        "… bei der Strukturierung der Umwelt helfen.",
+        "… Reiz-Reaktionsverbindungen, auf die wir automatisch reagieren, ergänzen.",
+        "… Verstärkern, ähnlich wie beim operanten Konditionieren, entsprechen.",
+        "… bei der Bildung einer „guten Gestalt“ helfen."
+      ],
+      "richtig": [
+        0,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, d – Buch S. 203, Frage 3.48.",
+      "folie": "Buch S. 203 · Nr. 3.48",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_49",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wodurch leistet die Gestaltpsychologie einen Beitrag zur Lernpsychologie?",
+      "optionen": [
+        "Durch die Analyse von Wahrnehmungsprozessen.",
+        "Sie betont, dass Lernen Wahrnehmungsprozesse voraussetzt.",
+        "Der von Gestaltpsychologen postulierte „Kontingenzprozess“ fördert den Lerntransfer.",
+        "Durch die fundamentale Trennung von Ausdrucks- und Eindruckspsychologie."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b – Buch S. 203, Frage 3.49.",
+      "folie": "Buch S. 203 · Nr. 3.49",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_50",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Das Gesetz der Nähe beschreibt das Prinzip, bei welchem …",
+      "optionen": [
+        "… Reize vorangegangene Reize fortführen und sie daher als zusammengehörig wahrgenommen werden.",
+        "… sich Reize aus einer Vielzahl an optischen Hinweisen ableiten und zusammensetzen lassen.",
+        "… sich Reize als gemäß einer quadratischen Form zusammenschließen lassen.",
+        "… Reize, die nah beieinander stehen, als zusammengehörig wahrgenommen werden."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): d – Buch S. 203, Frage 3.50.",
+      "folie": "Buch S. 203 · Nr. 3.50",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_51",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Folgende Aussagen zu den Prinzipien der Kontingenz und Kontiguität sind korrekt:",
+      "optionen": [
+        "Voraussetzung für die Wirksamkeit des operanten Konditionierens sind Kontingenz und Kontiguität.",
+        "Als Kontingenz wird die räumlich-zeitliche Summe von Reizen und Reaktionen bezeichnet, wodurch diese bei bestimmten Voraussetzungen miteinander verknüpft werden.",
+        "Bei der Kontiguität als fundamentalem Prinzip des klassischen Konditionierens gibt es keine vollständige Wahrnehmung.",
+        "Kontiguität bezeichnet die räumlich-zeitliche Nähe von Reizen und Reaktionen, wodurch diese bei bestimmten Voraussetzungen miteinander verknüpft werden."
+      ],
+      "richtig": [
+        0,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, d – Buch S. 204, Frage 3.51.",
+      "folie": "Buch S. 204 · Nr. 3.51",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_52",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche der folgenden Gesetze gehören zu den Gestaltgesetzen? Gesetz …",
+      "optionen": [
+        "… des Scheins",
+        "… der Ähnlichkeit",
+        "… der Nähe",
+        "… des Versuchs und Irrtums"
+      ],
+      "richtig": [
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, c – Buch S. 204, Frage 3.52.",
+      "folie": "Buch S. 204 · Nr. 3.52",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_53",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Köhlers Theorie zum Lernen durch Einsicht beruht auf …",
+      "optionen": [
+        "… seinen Untersuchungen mit Menschenaffen, Bananen, Kisten und Stöcken.",
+        "… der Annahme, dass sich Lernen durch Einsicht im Gegensatz zum Lernen durch Versuch und Irrtum sukzessive einstellt.",
+        "… seinen Untersuchungen mit Menschen, Schraubenziehern, Leitern und Kabeln.",
+        "… der Annahme, dass sich Lernen durch Einsicht im Gegensatz zum Lernen durch Versuch und Irrtum plötzlich einstellt."
+      ],
+      "richtig": [
+        0,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, d – Buch S. 204, Frage 3.53.",
+      "folie": "Buch S. 204 · Nr. 3.53",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_54",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Lernen durch Einsicht findet statt mittels der …",
+      "optionen": [
+        "… kognitiven Umstrukturierung der Elemente der Problemsituation.",
+        "… Methode „Versuch und Irrtum“.",
+        "… Beobachtung von Modellen.",
+        "… klassisch konditionierten Reiz-Reaktions-Verbindungen."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 205, Frage 3.54.",
+      "folie": "Buch S. 205 · Nr. 3.54",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_55",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Lernen durch Einsicht ist eine Form des …",
+      "optionen": [
+        "… Beobachtungslernens.",
+        "… klassisch-konditionierten Lernens.",
+        "… kognitiven Lernens.",
+        "… Lernens durch Versuch und Irrtum."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c – Buch S. 205, Frage 3.55.",
+      "folie": "Buch S. 205 · Nr. 3.55",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_56",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Verhaltensweisen lassen Köhler auf das Vorhandensein des Lernens durch Einsicht in seinem Versuch schließen, in dem Affen eine am Baum hängende Banane erreichen sollen? Nach einer Phase des erfolglosen Versuchens ist zu beobachten, dass der Affe …",
+      "optionen": [
+        "durch wiederholtes Springen von der Kiste versucht, die Banane zu erreichen.",
+        "… erkennt, dass die Banane unerreichbar ist und die Versuche, sie zu erreichen, einstellt.",
+        "… nicht mehr auf die Banane reagiert, sondern auf einen Apfel, der in nächster Nähe neben der Kiste liegt.",
+        "… zwischen den Kisten und der Banane hin und her blickt, um die Kiste dann gezielt unter die Banane zu schieben, darauf zu klettern und so die Banane zu erreichen."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): d – Buch S. 205, Frage 3.56.",
+      "folie": "Buch S. 205 · Nr. 3.56",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_57",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Lernen durch Einsicht bedeutet, …",
+      "optionen": [
+        "… modellhaft beobachtetes Verhalten auf eigene Problemsituationen anzuwenden.",
+        "… durch Zufall auf die Lösung zu stoßen.",
+        "… den problematischen Sachverhalt zu erkennen und zu verstehen.",
+        "… eher spontan und intuitiv zu handeln."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c – Buch S. 206, Frage 3.57.",
+      "folie": "Buch S. 206 · Nr. 3.57",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_58",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Erlernte Hilflosigkeit ist ein wichtiges Modell zur Erklärung von …",
+      "optionen": [
+        "… Schizophrenie.",
+        "… Depressionen.",
+        "… menschlichem Verhalten in neuen, überfordernden Situationen.",
+        "… menschlichem Verhalten in traumatischen Situationen."
+      ],
+      "richtig": [
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, c, d – Buch S. 206, Frage 3.58.",
+      "folie": "Buch S. 206 · Nr. 3.58",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_59",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Erlernte Hilflosigkeit basiert auf …",
+      "optionen": [
+        "… den Gesetzmäßigkeiten sozial-kognitiver Lerntheorien.",
+        "… der Erfahrung des Individuums, dass zwischen dem eigenen Verhalten und den resultierenden Konsequenzen kein Zusammenhang erlebt wird.",
+        "… den Gesetzmäßigkeiten des einsichtigen Lernens.",
+        "… der Erfahrung des Individuums, dass zwischen dem eigenen Verhalten und den resultierenden Konsequenzen ein Zusammenhang erlebt wird."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 206, Frage 3.59.",
+      "folie": "Buch S. 206 · Nr. 3.59",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_60",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Erlernte Hilflosigkeit hat Auswirkungen auf folgende psychische Funktionen:",
+      "optionen": [
+        "Motivation",
+        "Selbstwert",
+        "In-Outgroup-Bias",
+        "Diagnosekompetenz"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b – Buch S. 206, Frage 3.60.",
+      "folie": "Buch S. 206 · Nr. 3.60",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_61",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Erlernte Hilflosigkeit beinhaltet das Prinzip …",
+      "optionen": [
+        "… der operanten Konditionierung.",
+        "… der sozial-kognitiven Lerntheorie.",
+        "… des Lernens durch Einsicht.",
+        "… der klassischen Konditionierung."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 207, Frage 3.61.",
+      "folie": "Buch S. 207 · Nr. 3.61",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_62",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Im klassischen Experiment zur erlernten Hilflosigkeit verhielten sich die Hunde, welche Auftreten und Dauer des Stromschlages nicht selbst beeinflussen konnten, wie folgt: Sie …",
+      "optionen": [
+        "unternahmen keine Fluchtversuche, da sie gelernt hatten, dass ihr Verhalten keinen Einfluss auf das Ergebnis hat.",
+        "… machten in der Experimentalphase die Erfahrung, dass sie den Stromschlägen ausweichen konnten und nutzten diese Erfahrung.",
+        "… erkannten nach einer Weile den Zusammenhang zwischen ihrem Verhalten und dem darauffolgenden Ereignis und konnten nach einem kurzen Lernprozess den Stromschlägen ausweichen.",
+        "… ließen die Stromschläge über sich ergehen."
+      ],
+      "richtig": [
+        0,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, d – Buch S. 207, Frage 3.62.",
+      "folie": "Buch S. 207 · Nr. 3.62",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_63",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Die Experimente zur erlernten Hilflosigkeit gehen zurück auf …",
+      "optionen": [
+        "… Bandura.",
+        "… Rotter.",
+        "… Seligman.",
+        "… Thorndike."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c – Buch S. 207, Frage 3.63.",
+      "folie": "Buch S. 207 · Nr. 3.63",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_64",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Folgende Aspekte des Nervensystems sind zum Verständnis von Prozessen der Informationsaufnahme und -verarbeitung von Bedeutung:",
+      "optionen": [
+        "zentrales Nervensystem",
+        "peripheres Nervensystem",
+        "sensorische Rezeptoren",
+        "symptomatisches Nervensystem"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b, c – Buch S. 208, Frage 3.64.",
+      "folie": "Buch S. 208 · Nr. 3.64",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_65",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Gehirn und Rückenmark bilden …",
+      "optionen": [
+        "… das zentrale Nervensystem.",
+        "… die Steuerzentrale für einlaufende Reize von außen und innen.",
+        "… das periphere Nervensystem.",
+        "… die Einheit für die Informationsweiterleitung von den sensorischen Rezeptoren zum Gehirn."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b – Buch S. 208, Frage 3.65.",
+      "folie": "Buch S. 208 · Nr. 3.65",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_66",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Gedächtnissysteme werden unterschieden?",
+      "optionen": [
+        "Ultrakurzzeitgedächtnis",
+        "Kurzzeitgedächtnis",
+        "Mittelzeitgedächtnis",
+        "Langzeitgedächtnis"
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b, d – Buch S. 208, Frage 3.66.",
+      "folie": "Buch S. 208 · Nr. 3.66",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_67",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ein Synonym für das sensorische Register ist …",
+      "optionen": [
+        "… das Ultrakurzzeitgedächtnis.",
+        "… das primäre Gedächtnis.",
+        "… der Arbeitsspeicher.",
+        "… das Langzeitgedächtnis."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 208, Frage 3.67.",
+      "folie": "Buch S. 208 · Nr. 3.67",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_68",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Nach Miller (1956) kann im Kurzzeitgedächtnis im Durchschnitt folgende Anzahl von Informationseinheiten gespeichert werden:",
+      "optionen": [
+        "2 +/- 1",
+        "5+/-2",
+        "7 +/- 2",
+        "9 +/- 1"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): c – Buch S. 209, Frage 3.68.",
+      "folie": "Buch S. 209 · Nr. 3.68",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_69",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Im deklarativen Gedächtnis …",
+      "optionen": [
+        "… werden semantische Gedächtnisinhalte gespeichert.",
+        "… wird Wissen über die eigene Person gespeichert.",
+        "… wird Wissen über Handlungsabläufe gespeichert.",
+        "… wird die Speicherung der Inhalte häufig durch die Synaptogenese gehemmt."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b – Buch S. 209, Frage 3.69.",
+      "folie": "Buch S. 209 · Nr. 3.69",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_70",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Chunking bedeutet, dass wir Informationen …",
+      "optionen": [
+        "… zu größeren Einheiten bündeln.",
+        "… in Einzelteile zerlegen.",
+        "… nach dem Lernen wieder vergessen.",
+        "… ständig wiederholen."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 209, Frage 3.70.",
+      "folie": "Buch S. 209 · Nr. 3.70",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_71",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Folgende Gedächtnissysteme werden im Langzeitgedächtnis unterschieden:",
+      "optionen": [
+        "episodisches Gedächtnis",
+        "semantisches Gedächtnis",
+        "prozedurales Gedächtnis",
+        "sensorischer Speicher"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b, c – Buch S. 209, Frage 3.71.",
+      "folie": "Buch S. 209 · Nr. 3.71",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_72",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Hinweise auf unterschiedliche Gedächtnisstrukturen konnten ermittelt werden durch Untersuchung …",
+      "optionen": [
+        "… neuropsychologischer Patientenbefunde.",
+        "… serieller Positionseffekten.",
+        "… Untersuchungen transaktionaler Wirkprozesse.",
+        "… Untersuchungen des Einflusses frühkindlicher Erfahrungen."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 210, Frage 3.72.",
+      "folie": "Buch S. 210 · Nr. 3.72",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_73",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Folgende bildgebende Verfahren werden zur Betrachtung neuronaler Aktivität herangezogen:",
+      "optionen": [
+        "fMRT",
+        "NIRS",
+        "PET",
+        "EKG"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b, c – Buch S. 210, Frage 3.73.",
+      "folie": "Buch S. 210 · Nr. 3.73",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_74",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Im Kontext der Lernpsychologie interessieren vornehmlich die Befunde aus Zwillings- und Adoptionsstudien zur …",
+      "optionen": [
+        "… Intelligenzentwicklung.",
+        "… körperlichen Entwicklung.",
+        "… sozialen Entwicklung.",
+        "… emotionalen Entwicklung."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 210, Frage 3.74.",
+      "folie": "Buch S. 210 · Nr. 3.74",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_75",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Erbtheoretiker gehen von folgenden Annahmen aus:",
+      "optionen": [
+        "Vor allem genetische Faktoren sind für das Verhalten verantwortlich.",
+        "Geistige und charakteristische Eigenschaften sind primär erblich bedingt.",
+        "Sowohl Milieu als auch Erbanlagen sind wechselseitig für die Entwicklung verantwortlich.",
+        "Der Einfluss verschiedener Milieus wirkt sich auf die genetische Entwicklung aus."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b – Buch S. 210, Frage 3.75.",
+      "folie": "Buch S. 210 · Nr. 3.75",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_76",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wichtige Vertreter in der Diskussion der Anlage-Umwelt-Debatte sind …",
+      "optionen": [
+        "… Iwan Pawlow.",
+        "… Robert Plomin.",
+        "… Sandra Scarr.",
+        "… Kurt Koffka."
+      ],
+      "richtig": [
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, c – Buch S. 211, Frage 3.76.",
+      "folie": "Buch S. 211 · Nr. 3.76",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_77",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Befunde resultieren aus Zwillingsstudien zur Intelligenzentwicklung? Die Korrelationen zwischen den IQs von …",
+      "optionen": [
+        "… eineiigen Zwillingen sind höher als die Korrelationen zwischen den IQs von zweieiigen Zwillingen.",
+        "… von Geschwistern sind höher als die Korrelationen zwischen den IQs von eineiigen Zwillingen.",
+        "… gemeinsam aufgewachsenen eineiigen Zwillingen sind wesentlich höher als die Korrelationen zwischen den IQs von getrennt aufgewachsenen eineiigen Zwillingen.",
+        "… nicht verwandten, gemeinsam aufgewachsenen Kindern sind höher als die Korrelationen zwischen den IQs von getrennt aufgewachsenen Geschwistern."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a – Buch S. 211, Frage 3.77.",
+      "folie": "Buch S. 211 · Nr. 3.77",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_78",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Um Hinweise für anlagebedingte Faktoren zu erhalten, werden Studien durchgeführt mit …",
+      "optionen": [
+        "… eineiigen Zwillingen.",
+        "… zweieiigen Zwillingen.",
+        "… Geschwistern.",
+        "… Peers."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, b, c – Buch S. 211, Frage 3.78.",
+      "folie": "Buch S. 211 · Nr. 3.78",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_79",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Zum Genotyp gehören unter anderem individuelle(s) …",
+      "optionen": [
+        "… Erscheinungsbild.",
+        "… genetische Ausstattung.",
+        "… Persönlichkeitsmerkmale.",
+        "… Verhaltensweisen."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b – Buch S. 212, Frage 3.79.",
+      "folie": "Buch S. 212 · Nr. 3.79",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_80",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Milieutheoretiker beschäftigen sich mit …",
+      "optionen": [
+        "… erbtheoretischen Faktoren.",
+        "… dem Einfluss kultureller Rahmenbedingungen, familiärer oder schulischer Einflüsse auf die Entwicklung.",
+        "… den Auswirkungen verschiedener Milieus auf die physische Entwicklung.",
+        "… den Auswirkungen verschiedener Milieus auf die psychische Entwicklung."
+      ],
+      "richtig": [
+        1,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): b, d – Buch S. 212, Frage 3.80.",
+      "folie": "Buch S. 212 · Nr. 3.80",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "b3_81",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Zum Phänotyp gehören unter anderem individuelle(s) …",
+      "optionen": [
+        "… Erscheinungsbild.",
+        "… genetische Ausstattung.",
+        "… Erbkrankheiten.",
+        "… Verhaltensweisen."
+      ],
+      "richtig": [
+        0,
+        3
+      ],
+      "erklaerung": "Offizielle Lösung des Lehrstuhls (Stand 14.12.2016): a, d – Buch S. 212, Frage 3.81.",
+      "folie": "Buch S. 212 · Nr. 3.81",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [],
+  "offene_fragen": []
+}

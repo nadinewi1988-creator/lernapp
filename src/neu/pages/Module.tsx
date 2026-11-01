@@ -349,7 +349,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
           {(() => { const h = heuteIso(), stF = (e: LFEintrag) => wdRef[frageRef(e.s, e.f)], fae = alleFragen.filter((e) => { const w = stF(e); return !w || !w.faellig || w.faellig <= h; }), sich = alleFragen.filter((e) => stF(e)?.stand === 'sicher').length, pct = alleFragen.length ? Math.round(sich / alleFragen.length * 100) : 0; return (
           <div style={{ background: f[1], borderRadius: 16, padding: 16, display: 'flex', flexDirection: 'column', gap: 6 }}>
             <span style={{ fontSize: 15, fontWeight: 800 }}>Lernfragen</span>
-            <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>{alleFragen.length ? alleFragen.length + ' Fragen aus ' + LSITZ.length + (LSITZ.length === 1 ? ' Sitzung' : ' Sitzungen') + ' · ' + fae.length + ' fällig · ' + sich + ' sicher' : 'Entstehen aus deinen Unterlagen, sobald Sitzungen aufbereitet sind.'}</span>
+            <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>{alleFragen.length ? alleFragen.length + ' Fragen aus ' + LSITZ.filter((x) => !x.buch).length + (LSITZ.filter((x) => !x.buch).length === 1 ? ' Sitzung' : ' Sitzungen') + (LSITZ.some((x) => x.buch) ? ' + Buchfragen' : '') + ' · ' + fae.length + ' fällig · ' + sich + ' sicher' : 'Entstehen aus deinen Unterlagen, sobald Sitzungen aufbereitet sind.'}</span>
             {alleFragen.length > 0 && <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}><div style={{ flex: 1, height: 8, borderRadius: 4, background: 'rgba(255,255,255,0.8)', overflow: 'hidden' }}><div style={{ height: '100%', width: pct + '%', background: f[0] }} /></div><span style={{ fontSize: 12, fontWeight: 800, color: f[0] }}>{pct} %</span></div>}
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, marginTop: 'auto' }}>
               <button type="button" onClick={() => fae.length ? setLf({ titel: kuerzel + ' · fällige Lernfragen', liste: faelligZuerst(fae) }) : setHinweis(true)} style={{ ...klein, opacity: fae.length ? 1 : 0.5 }}>Fällige üben{fae.length ? ' (' + fae.length + ')' : ''}</button>
@@ -684,11 +684,11 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
           <div role="dialog" aria-label="Sitzungen wählen" className="dialog" style={{ maxWidth: 560 }}>
             <h2>Lernfragen – Sitzungen wählen</h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 8, maxHeight: '60vh', overflowY: 'auto' }}>
-              {[...new Set(LSITZ.filter((x) => x.fragen.length).map((x) => x.teilmodul))].sort((a2, b2) => Number(!a2.includes('.')) - Number(!b2.includes('.')) || a2.localeCompare(b2)).map((t2) => {
-                const ss = LSITZ.filter((x) => x.fragen.length && x.teilmodul === t2).sort((a2, b2) => a2.datum.localeCompare(b2.datum));
+              {[...new Set(LSITZ.filter((x) => x.fragen.length).map((x) => x.teilmodul))].sort((a2, b2) => { const rang = (t: string) => (LSITZ.some((x) => x.teilmodul === t && x.buch) ? 1 : !t.includes('.') ? 2 : 0); return rang(a2) - rang(b2) || a2.localeCompare(b2); }).map((t2) => {
+                const ss = LSITZ.filter((x) => x.fragen.length && x.teilmodul === t2).sort((a2, b2) => a2.datum.localeCompare(b2.datum) || a2.datei.localeCompare(b2.datei));
                 const tk = kuerzel + ':' + t2, auf = !!lfWahlOffen[tk], anz = ss.filter((x) => lfWahl[x.datei]).length;
                 const fr = ss.reduce((a2, x) => a2 + x.fragen.length, 0), sichT = ss.reduce((a2, x) => a2 + x.fragen.filter((q) => wdRef[frageRef(x, q)]?.stand === 'sicher').length, 0);
-                const tn = stand.teilmodule.find((x) => x.kuerzel === t2)?.name.replace(/ \((Gruppe [^)]*|freiwillig)\)/, '') ?? '';
+                const tn = ss[0]?.buch ?? stand.teilmodule.find((x) => x.kuerzel === t2)?.name.replace(/ \((Gruppe [^)]*|freiwillig)\)/, '') ?? '';
                 return (
                   <div key={t2} style={{ border: '1px solid #f0f0eb', borderRadius: 12, overflow: 'hidden' }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '10px 12px', background: anz ? f[1] : '#fff' }}>
@@ -696,7 +696,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                       <button type="button" onClick={() => setLfWahlOffen({ ...lfWahlOffen, [tk]: !auf })} style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 8, border: 0, background: 'transparent', padding: 0, textAlign: 'left', color: 'var(--ink)', cursor: 'pointer' }}>
                         <span style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column' }}>
                           <span className="trennen" style={{ fontSize: 14, fontWeight: 800 }}><b style={{ color: f[0], fontSize: 13 }}>{t2}</b>{tn ? ' · ' + tn : ''}</span>
-                          <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{ss.length} {ss.length === 1 ? 'Sitzung' : 'Sitzungen'} · {fr} Fragen · {sichT} sicher{anz ? ' · ' + anz + ' gewählt' : ''}</span>
+                          <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{ss.length} {ss[0]?.buch ? 'Kapitel' : ss.length === 1 ? 'Sitzung' : 'Sitzungen'} · {fr} Fragen · {sichT} sicher{anz ? ' · ' + anz + ' gewählt' : ''}</span>
                         </span>
                         <span style={{ color: 'var(--ink-3)', flex: '0 0 auto' }}>{auf ? '▾' : '▸'}</span>
                       </button>
@@ -704,7 +704,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                     {auf && ss.map((x) => { const sich = x.fragen.filter((q) => wdRef[frageRef(x, q)]?.stand === 'sicher').length; return (
                       <label key={x.datei} style={{ display: 'flex', gap: 10, alignItems: 'center', padding: '8px 12px 8px 40px', borderTop: '1px solid #f0f0eb', cursor: 'pointer' }}>
                         <input type="checkbox" checked={!!lfWahl[x.datei]} onChange={() => setLfWahl({ ...lfWahl, [x.datei]: !lfWahl[x.datei] })} style={{ width: 18, height: 18, accentColor: f[0], flex: '0 0 auto' }} />
-                        <span style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column' }}><span className="trennen" style={{ fontSize: 14, fontWeight: 700 }}>{x.sitzung_nr ? 'S' + x.sitzung_nr + ' · ' : ''}{x.thema}</span><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{fmtD(x.datum)} · {x.fragen.length} Fragen · {sich} sicher</span></span>
+                        <span style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column' }}><span className="trennen" style={{ fontSize: 14, fontWeight: 700 }}>{x.sitzung_nr ? 'S' + x.sitzung_nr + ' · ' : ''}{x.thema}</span><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{x.buch ? '' : fmtD(x.datum) + ' · '}{x.fragen.length} Fragen · {sich} sicher</span></span>
                       </label>); })}
                   </div>); })}
             </div>

@@ -104,7 +104,7 @@ export function Lernfragen({ titel, liste, stand, farbe, onClose, neuLaden }: { 
           <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center' }}>
             <span style={{ fontSize: 11, fontWeight: 800, padding: '2px 8px', borderRadius: 999, background: farbe[1], color: farbe[0] }}>{FORM[e.f.format]}</span>
             {e.f.pruefungsrelevant && <span style={{ fontSize: 11, fontWeight: 800, padding: '2px 8px', borderRadius: 999, background: '#fde9e9', color: '#c42b2b' }}>prüfungsrelevant</span>}
-            <span style={{ fontSize: 11, color: 'var(--ink-3)' }}>{e.s.teilmodul} · {e.s.datum.split('-').reverse().join('.')}{e.f.folie ? ' · ' + (e.s.teilmodul.endsWith('.1') ? 'Folie ' : '') + e.f.folie : ''}</span>
+            <span style={{ fontSize: 11, color: 'var(--ink-3)' }}>{e.s.teilmodul}{e.s.buch ? '' : ' · ' + e.s.datum.split('-').reverse().join('.')}{e.f.folie ? ' · ' + (e.s.teilmodul.endsWith('.1') ? 'Folie ' : '') + e.f.folie : ''}</span>
           </div>
 
           {e.f.format !== 'luecke' && <div style={{ fontSize: 17, fontWeight: 700, lineHeight: 1.4 }} dangerouslySetInnerHTML={H(e.f.frage)} />}

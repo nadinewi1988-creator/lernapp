@@ -323,37 +323,42 @@
       "datum": "2026-11-12",
       "nr": 2,
       "thema": "Öffentliche Verwaltung gestern und heute: Begriff und Gegenstand II · Entwicklungslinien und Reformprozesse I",
-      "hinweis": "Ersatztermin für 05.11.2026 (Dozentin verhindert)"
+      "hinweis": "Ersatztermin für 05.11.2026 (Dozentin verhindert) · Raum N09 (ab 12.11. laut Stud.IP; Nadine: dauerhaft, Stand 01.11.2026)"
     },
     {
       "teilmodul": "pkb003.3",
       "datum": "2026-11-19",
       "nr": 3,
-      "thema": "Zukunftsfähigkeit der öffentlichen Verwaltung: Reformprozesse II · Herausforderungen I"
+      "thema": "Zukunftsfähigkeit der öffentlichen Verwaltung: Reformprozesse II · Herausforderungen I",
+      "hinweis": "Raum N09 (ab 12.11. laut Stud.IP; Nadine: dauerhaft, Stand 01.11.2026)"
     },
     {
       "teilmodul": "pkb003.3",
       "datum": "2026-12-03",
       "nr": 4,
-      "thema": "Zukunftsfähigkeit der öffentlichen Verwaltung: Herausforderungen II – ein Paradigmenwechsel?"
+      "thema": "Zukunftsfähigkeit der öffentlichen Verwaltung: Herausforderungen II – ein Paradigmenwechsel?",
+      "hinweis": "Raum N09 (ab 12.11. laut Stud.IP; Nadine: dauerhaft, Stand 01.11.2026)"
     },
     {
       "teilmodul": "pkb003.3",
       "datum": "2026-12-17",
       "nr": 5,
-      "thema": "Theorie und Praxis: Verwaltungswissenschaft(en) · Verwaltung ganz praktisch I"
+      "thema": "Theorie und Praxis: Verwaltungswissenschaft(en) · Verwaltung ganz praktisch I",
+      "hinweis": "Raum N09 (ab 12.11. laut Stud.IP; Nadine: dauerhaft, Stand 01.11.2026)"
     },
     {
       "teilmodul": "pkb003.3",
       "datum": "2027-01-14",
       "nr": 6,
-      "thema": "Theorie und Praxis: Verwaltung ganz praktisch II (Elemente des Verwaltungsrechts)"
+      "thema": "Theorie und Praxis: Verwaltung ganz praktisch II (Elemente des Verwaltungsrechts)",
+      "hinweis": "Raum N09 (ab 12.11. laut Stud.IP; Nadine: dauerhaft, Stand 01.11.2026)"
     },
     {
       "teilmodul": "pkb003.3",
       "datum": "2027-01-28",
       "nr": 7,
-      "thema": "Abschluss der Lehrveranstaltung"
+      "thema": "Abschluss der Lehrveranstaltung",
+      "hinweis": "Raum N09 (ab 12.11. laut Stud.IP; Nadine: dauerhaft, Stand 01.11.2026)"
     }
   ],
   "fehlende_literatur": [
@@ -396,7 +401,9 @@
     "pkb003.2: Sitzung 19.10.2026 ist ausgefallen – Nadine vermutet, dass sich alle folgenden Termine um eine Woche verschieben (unbestätigt, Stand 25.10.2026). Bis zur Klärung gelten die Kursplan-Daten.",
     "App nummeriert pkb003.2 ohne die ausgefallene Sitzung 19.10. – App-Nr. = Kursplan-Nr. − 1 ab Sitzung 3.",
     "pkb003.3 Folie 13: „Substraktionsmethode“ (richtig: Subtraktionsmethode); Quelle „Ehlers 2020“ ohne vollständige Angabe.",
-    "Möltgen-Sicking/Winter S. 58: „keine eigene Gerichtsbarkeit“ – missverständlich (es gibt die Verwaltungsgerichtsbarkeit)."
+    "Möltgen-Sicking/Winter S. 58: „keine eigene Gerichtsbarkeit“ – missverständlich (es gibt die Verwaltungsgerichtsbarkeit).",
+    "Folien Baudner „Einführung_BRD_WISO_Okt26NEU.pptx“ (Stud.IP 29.10., Ordner pkb003.1) gehören zu pkb003.2 S02; Folie 5: Rentenreform „1955“ (richtig 1957), „Startgeld 20 DM“ (Kopfgeld 1948: 40 DM); Folie 8: Erhard „1964–1966“ (richtig 1963–1966); Folie 22–39 fremde Vorträge.",
+    "pkb003.3: Stud.IP zeigt für den 12.11. Raum N09, für die übrigen Termine noch B1 – laut Nadine ist N09 dauerhaft (01.11.2026), in der App überall N09."
   ],
   "kalender_nachtragen": [],
   "sitzungen": [
@@ -618,6 +625,22 @@
       "art": "Hausaufgabe (eigene Ausarbeitung)",
       "status": "verarbeitet",
       "sitzung": "pkb003.3_2026-11-12"
+    },
+    {
+      "pfad": "pkb003.2/Sitzung_02/Einführung_BRD_WISO_Okt26NEU.pptx",
+      "geaendert": "2026-10-29",
+      "art": "Folien des Dozenten (Stud.IP-Ordner pkb003.1)",
+      "status": "verarbeitet",
+      "sitzung": "pkb003.2_2026-10-26",
+      "hinweis": "Folie 1–21 = Geschichte der BRD; Folie 22–39 andere Vorträge (Türkei, Brexit). Am 01.11.2026 aus pkb003.1/ in pkb003.2/Sitzung_02 verschoben; Ergänzungs-PDF S02_…_Ergaenzung-Folien-Dozent.pdf"
+    },
+    {
+      "pfad": "pkb003.3/Sitzung_01/LV_Öffentliche_Verwaltung_Sitzung_2026-10-22_Gruppenarbeit_Fotos_Ergebnisse.pdf",
+      "geaendert": "2026-10-28",
+      "art": "Fotoprotokoll Gruppenarbeit 2 (Dozentin)",
+      "status": "verarbeitet",
+      "sitzung": "pkb003.3_2026-10-22",
+      "hinweis": "am 01.11.2026 eingearbeitet; Ergänzungs-PDF S01_…_Ergaenzung-Fotoprotokoll-Gruppenarbeit.pdf"
     }
   ],
   "kalender_eingetragen_am": "2026-10-25",

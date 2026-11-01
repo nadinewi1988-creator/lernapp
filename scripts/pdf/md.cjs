@@ -6,6 +6,7 @@ const esc = (t) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, 
 const FORMEL = '\u0000F';
 function formelnRaus(t) {
   const f = [];
+  t = t.replace(/`([^`\n]+)`/g, (_, x) => { f.push('<code class="lt-code">' + esc(x) + '</code>'); return FORMEL + (f.length - 1) + '\u0000'; });
   const put = (tex, block) => {
     try { katex.renderToString(tex, { throwOnError: true, displayMode: block, strict: false }); } catch (e) { fehler.push(tex + ' → ' + e.message); }
     f.push(katex.renderToString(tex, { throwOnError: false, displayMode: block, strict: false, output: 'html' }));
@@ -13,6 +14,7 @@ function formelnRaus(t) {
   };
   t = t.replace(/\$\$([\s\S]+?)\$\$/g, (_, x) => put(x.trim(), true));
   t = t.replace(/(^|[^\\])\$([^$\n]+?)\$/g, (_, v, x) => v + put(x, false));
+  t = t.replace(/\\\$/g, '$');
   return { t, f };
 }
 const formelnRein = (h, f) => h.replace(/\u0000F(\d+)\u0000/g, (_, i) => f[+i]);

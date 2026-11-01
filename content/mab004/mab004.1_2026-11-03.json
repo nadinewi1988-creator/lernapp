@@ -1,0 +1,987 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "mab004",
+  "teilmodul": "mab004.1",
+  "datum": "2026-11-03",
+  "sitzung_nr": 4,
+  "sitzung_id": "",
+  "thema": "VL4 Tabellenkalkulation (Selbstlernen mit Excel)",
+  "thema_in_app": "",
+  "stand": "geprueft",
+  "quellen": [
+    {
+      "datei": "mab004.1/Sitzung_04/mab004-VL4.pdf",
+      "art": "Selbstlern-Anleitung (statt Vorlesung)",
+      "seiten": "1–9"
+    },
+    {
+      "datei": "mab004.1/Sitzung_04/mab004-VL4 Fenster.pdf",
+      "art": "Arbeitsblatt Excel-Fenster",
+      "seiten": "1–2"
+    },
+    {
+      "datei": "Kolberg, M.; Lambrich, S.; Kolberg, E. (2011): Microsoft Office 2010 – Auf einen Blick",
+      "art": "Literatur (Grundlage der Anleitung, nicht im Ordner)",
+      "seiten": "–"
+    }
+  ],
+  "hinweis_sitzung": "Statt der 4. Vorlesung: selbstständige Bearbeitung der hochgeladenen Dateien. Frau Rosenwinkel steht am 03.11.2026 ab 8:15 Uhr in B1 für Fragen zur Tabellenkalkulation und zu den Aufgaben (graue Kästen) zur Verfügung.",
+  "lernziele": [
+    {
+      "text": "Die Bestandteile des Excel-Fensters benennen (Registerkarte, Gruppe, Namenfeld, Bearbeitungsleiste, Zelle, Zelladresse, Tabellenblatt, Blattregister …).",
+      "art": "abgeleitet",
+      "quelle": "Fenster-Blatt",
+      "fragen": [
+        "f03",
+        "f04",
+        "f05"
+      ],
+      "erklaerung_abschnitt": "Das Excel-Fenster und seine Begriffe"
+    },
+    {
+      "text": "Erklären, was eine Tabellenkalkulation ist.",
+      "art": "abgeleitet",
+      "quelle": "S. 1",
+      "fragen": [
+        "f01",
+        "f02"
+      ],
+      "erklaerung_abschnitt": "Was ist eine Tabellenkalkulation?"
+    },
+    {
+      "text": "Formeln eingeben, übertragen und in der Bearbeitungszeile kontrollieren; relative Bezüge erklären.",
+      "art": "abgeleitet",
+      "quelle": "S. 2–3",
+      "fragen": [
+        "f06",
+        "f07",
+        "f08",
+        "f09"
+      ],
+      "erklaerung_abschnitt": "Formel eingeben und übertragen"
+    },
+    {
+      "text": "Zellen benennen, mit Namen rechnen und die Spur anzeigen – und begründen, warum das im Unterricht hilft.",
+      "art": "abgeleitet",
+      "quelle": "S. 3–5",
+      "fragen": [
+        "f10",
+        "f11",
+        "f12",
+        "f13",
+        "f14",
+        "f30"
+      ],
+      "erklaerung_abschnitt": "Zellen umbenennen und Spur verfolgen"
+    },
+    {
+      "text": "Den Unterschied zwischen Formatieren und Runden (RUNDEN) erklären und an einem Beispiel zeigen.",
+      "art": "abgeleitet",
+      "quelle": "S. 5–6",
+      "fragen": [
+        "f15",
+        "f16",
+        "f17"
+      ],
+      "erklaerung_abschnitt": "Formatieren oder Runden?"
+    },
+    {
+      "text": "Relative Häufigkeiten berechnen und als Säulendiagramm darstellen.",
+      "art": "abgeleitet",
+      "quelle": "S. 6–7",
+      "fragen": [
+        "f18",
+        "f19"
+      ],
+      "erklaerung_abschnitt": "Diagramme"
+    },
+    {
+      "text": "Die Funktionen SUMME, ANZAHL, MITTELWERT, ABS und WENN sowie das \\$-Zeichen anwenden; typische Fehlermeldungen deuten.",
+      "art": "abgeleitet",
+      "quelle": "S. 7–9",
+      "fragen": [
+        "f20",
+        "f21",
+        "f22",
+        "f23",
+        "f24",
+        "f25",
+        "f26",
+        "f27",
+        "f28",
+        "f29"
+      ],
+      "erklaerung_abschnitt": "Funktionen und Werkzeuge für Übungsblatt 5"
+    }
+  ],
+  "kurzfassung": [
+    "VL 4 fand nicht als Vorlesung statt: Die Inhalte werden mit der Anleitung „Tabellenkalkulation“ selbst in Excel/Calc erarbeitet (Fragen am 03.11. ab 8:15 Uhr in B1).",
+    "Eine **Tabellenkalkulation** verarbeitet Zahlen und Text in Tabellenform interaktiv und kann Ergebnisse als Diagramm zeigen.",
+    "Jede **Formel** beginnt mit „=“. Beim Kopieren wandern Zellbezüge mit (**relativ**); ein **\\$** hält Spalte bzw. Zeile fest (**absolut**, z. B. \\$C\\$17).",
+    "**Zellnamen** (Länge, Breite) und die **Spur** machen Formeln für Schüler durchschaubar: Variablenname und Variablenwert werden unterscheidbar.",
+    "**Formatieren** ändert nur die Anzeige, **RUNDEN** ändert den Wert – deshalb ist der Abstand zwischen „8,57 formatiert“ und „8,57 gerundet“ nicht 0, sondern $\\approx 0{,}00143$.",
+    "Für Übungsblatt 5: **SUMME** (addieren), **ANZAHL** (zählen), **MITTELWERT** (Durchschnitt), **ABS** (Betrag), **WENN** (Entscheidung, Text in „…“), Semikolon = einzelne Zellen, Doppelpunkt = Bereich."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Das Excel-Fenster und seine Begriffe",
+      "folien": "Fenster-Blatt 1–2",
+      "text": "**Worum geht es?** Excel-Anleitungen sagen z. B. „Registerkarte Formeln – Gruppe Formelüberwachung“. Wer die Namen der Bildschirmteile kennt, findet sich sofort zurecht.\n\n- **Arbeitsmappe** = die ganze Excel-Datei. Sie enthält mindestens ein **Tabellenblatt** (wie Seiten in einem Heft); die Blätter stehen unten im **Blattregister**.\n- **Spalten** laufen senkrecht und heißen A, B, …, Z, AA, … bis XFD. **Zeilen** laufen waagerecht und heißen 1, 2, … bis 1 048 576.\n- **Zelle** = ein Kästchen. Ihre **Zelladresse** ist Spalte + Zeile, z. B. **B3** (wie bei „Schiffe versenken“). Mindestens eine Zelle ist immer markiert; ihre Adresse steht im **Namenfeld** links oben.\n- Was man in eine Zelle tippt, erscheint auch in der **Bearbeitungsleiste** (langes Feld neben *fx*) – dort kann man es ändern.\n- Oben: **Registerkarten** (Start, Einfügen, Formeln …), jede in **Gruppen** unterteilt (z. B. „Schriftart“, „Zahl“). Ganz oben die **Titelleiste** mit dem Dateinamen und die **Symbolleiste für Schnellzugriff** (Speichern, Rückgängig). Unten die **Statusleiste**, rechts und unten die **Bildlaufleisten** zum Blättern.\n\n**Markieren:** ganze Spalte → auf den Spaltenkopf klicken; ganze Zeile → auf den Zeilenkopf; ganze Tabelle → Ecke links oben; Bereich → Maus ziehen; einzelne getrennte Zellen → Strg gedrückt halten und anklicken. Inhalt löschen mit **Entf**.\n\n{{aufgabe a01}}\n\n**Kurz erklärt:** Die Begriffe sind wie Ortsangaben auf einem Stadtplan. Mit „Zelle B4“ und „Registerkarte Formeln“ kann man jede Anleitung nachgehen – und später Schülern genaue Arbeitsaufträge geben.\n\n**Prüfungsfalle:** Zelladresse = **erst Spalte (Buchstabe), dann Zeile (Zahl)** – B3, nicht 3B.",
+      "beispiel": "Die markierte Zelle ganz rechts unten hat die Adresse XFD1048576 – so groß ist ein Tabellenblatt."
+    },
+    {
+      "titel": "Was ist eine Tabellenkalkulation?",
+      "folien": "1",
+      "text": "> **Definition (S. 1):** *„Eine Tabellenkalkulation ist eine Software für die interaktive Eingabe und Verarbeitung von numerischen und alphanumerischen Daten in Tabellenform. Vielfach erlaubt sie zusätzlich die grafische Darstellung der Ergebnisse in verschiedenen Anzeigeformen.“* (Quelle laut Blatt: Wikipedia)\n\n- **interaktiv:** Man ändert eine Zahl, und alle Ergebnisse passen sich sofort an.\n- **numerisch:** nur Zahlen (z. B. 1000). **alphanumerisch:** Buchstaben und Ziffern gemischt, also Text (z. B. „Umsatz“).\n- **grafische Darstellung:** Diagramme (Teil 7).\n\nBearbeitet wird mit **Excel**, **OpenOffice Calc** oder **LibreOffice Calc**; Befehle und Bilder beziehen sich auf Excel 2010.\n\n**Kurz erklärt:** Eine Tabellenkalkulation ist ein „rechnendes Rechenpapier“: Man schreibt nicht nur Zahlen hinein, sondern auch Rechenanweisungen, und das Programm hält alle Ergebnisse aktuell.",
+      "beispiel": "Klassenkasse: Einnahmen und Ausgaben in Spalten, darunter eine Formel für den Kontostand – jede neue Ausgabe ändert den Kontostand automatisch."
+    },
+    {
+      "titel": "Erste Tabelle eingeben und formatieren",
+      "folien": "1–2",
+      "text": "**Idee:** Erst Daten in die Zellen schreiben, dann das Aussehen verbessern.\n\n{{aufgabe a02}}\n\n{{aufgabe a03}}\n\n**Kurz erklärt:** Formatieren (Schrift, Ausrichtung, Breite) ändert nur, wie die Tabelle **aussieht** – nicht, was darin steht. Das wird in Teil 6 noch einmal wichtig.",
+      "beispiel": "Regel bei Excel: erst markieren, dann den Befehl wählen."
+    },
+    {
+      "titel": "Formel eingeben und übertragen",
+      "folien": "2–3",
+      "text": "**Idee:** Statt Ergebnisse auszurechnen und einzutippen, schreibt man eine **Formel** (Rechenanweisung) in die Zelle. Excel rechnet selbst – und neu, sobald sich eine Zahl ändert.\n\n> **Regel (S. 2):** *„Jede Formel beginnt mit einem Gleichheitszeichen und wird mit der Eingabetaste abgeschlossen.“* Ohne „=“ hält Excel die Eingabe für Text.\n\nGewinn = Umsatz − Kosten, also in B4: `=B2-B3`. Excel umrahmt die benutzten Zellen farbig – so sieht man, womit gerechnet wird.\n\n{{aufgabe a04}}\n\n**Formel übertragen:** An der rechten unteren Ecke der Zelle ist ein kleines Quadrat (**Ausfüllkästchen** – Ergänzung). Zieht man es nach rechts, kopiert Excel die Formel und **passt sie an**.\n\n{{aufgabe a05}}\n\nDie Formel der markierten Zelle steht in der **Bearbeitungszeile** (= Bearbeitungsleiste); in der Zelle selbst sieht man nur das Ergebnis.\n\n**Kurz erklärt:** Excel merkt sich `=B2-B3` in B4 nicht als „B2 minus B3“, sondern als „zwei Zellen darüber minus eine Zelle darüber“. Beim Ziehen nach rechts wandert das mit: aus B wird C, dann D. Das heißt **relativer Bezug** (Ergänzung: Fachbegriff).\n\n**Prüfungsfalle:** Dieses Mitwandern ist nicht immer gewollt – dann braucht man das \\$-Zeichen (Teil 8).",
+      "beispiel": "Nach dem Ziehen: C4 = `=C2-C3` = 150, D4 = `=D2-D3` = 225."
+    },
+    {
+      "titel": "Zellen umbenennen und Spur verfolgen",
+      "folien": "3–5",
+      "text": "**Idee:** Eine Zelle kann statt ihrer Adresse (B2) einen sprechenden **Namen** bekommen (Länge). Dann kann man Formeln schreiben, die aussehen wie im Matheheft.\n\n{{aufgabe a06}}\n\n{{aufgabe a07}}\n\n> **Warum in der Schule? (Kasten S. 4):** *„Um in der Schule den Schülerinnen und Schülern die Arbeit mit Variablen zu erleichtern und insbesondere zwischen Variablenwert und Variablennamen zu unterscheiden, ist es hilfreich den Zellen kontextabhängige Namen (statt A1, B2 o. ä.) zu geben. Diese können dann in der Formel statt der ursprünglichen Zellenbezeichnung genutzt werden.“*\n\n**Variablenname** = „Länge“; **Variablenwert** = 2. In `=Länge*Breite` steht der Name in der Formel, der Wert in der Zelle – genau dieser Unterschied ist für Schüler oft schwer.\n\n{{aufgabe a08}}\n\n{{aufgabe a09}}\n\n**Mehrere Zellen mit gleichem Namen:** Markiert man eine ganze Zeile von Zellen und gibt ihr einen Namen, kann man alle zusammen ansprechen – mit **@** vor dem Namen.\n\n{{aufgabe a10}}\n\n**Spur:** *„Um den Schülerinnen und Schülern noch transparenter zu machen, welche Zellen in der Formel genutzt werden, kann eine Spur angezeigt werden.“* Pfeile zeigen, aus welchen Zellen (**Vorgänger**) eine Formel ihre Werte holt.\n\n{{aufgabe a11}}\n\n**Kurz erklärt:** Namen und Spur machen eine Formel **lesbar** und ihre **Abhängigkeiten sichtbar**: Die Fläche hängt von Länge und Breite ab. Das ist ein didaktisches Werkzeug – es ändert am Ergebnis nichts.\n\n**Typische Klausurfrage:** „Warum ist es im Unterricht sinnvoll, Zellen zu benennen?“ → Arbeit mit Variablen erleichtern; Variablenname und Variablenwert unterscheiden; Formel wie in der Mathematik lesbar ($A = \\text{Länge} \\cdot \\text{Breite}$).",
+      "beispiel": "Bei vier Rechtecken nebeneinander bleibt die Formel `=@Länge*@Breite` in jeder Spalte gleich – nur die Werte ändern sich: 15, 16, 15, 12."
+    },
+    {
+      "titel": "Formatieren oder Runden?",
+      "folien": "5–6",
+      "text": "**Idee:** Es gibt zwei Wege, eine Zahl „mit 2 Nachkommastellen“ zu zeigen – und sie sind nicht dasselbe.\n\n- **Formatieren** (Registerkarte **Start** – Gruppe **Zahl**): ändert nur, **wie viele Stellen angezeigt** werden.\n- **Runden** mit der Funktion `=RUNDEN(Zahl;AnzStellen)`: *„dabei kann Zahl ein konkreter Wert oder eine Zelle (z.B. B4), in der ein numerischer Wert steht, sein. AnzStellen gibt die Nachkommastelle k an, an der gerundet wird.“* Es wird **kaufmännisch** gerundet (ab 5 aufrunden, VL 2). Hier ändert sich **der Wert selbst**.\n\nEin **Quotient** ist das Ergebnis einer Division: Dividend geteilt durch Divisor (in Excel mit `/`).\n\n{{aufgabe a12}}\n\n{{aufgabe a13}}\n\n**Kurz erklärt:** Formatieren ist wie eine Brille, die nur einen Teil der Zahl zeigt – die Zahl dahinter bleibt vollständig. Runden schneidet die Zahl wirklich ab. Darum ist der Abstand zwischen „formatiert“ und „gerundet“ nicht $0$, obwohl beide „8,57“ zeigen. Dieser Abstand ist genau der **absolute Fehler** $\\epsilon_A$ des Rundens aus VL 2.\n\n**Prüfungsfalle:** „Sieht gleich aus“ heißt nicht „ist gleich“. Wer mit formatierten Zahlen weiterrechnet, rechnet mit dem ungerundeten Wert (typischer Fehler z. B. bei Notendurchschnitten).\n\n**So erkennst du es in der Klausur:** Frage nach „Unterschied Formatieren – Runden“ → Anzeige vs. gespeicherter Wert, Folge für Weiterrechnen, Beispiel mit Zahlen.",
+      "beispiel": "$\\frac{54}{6{,}3} = 8{,}571428\\ldots$ – formatiert sieht man 8,57, gespeichert bleibt 8,571428…; gerundet steht wirklich 8,57 in der Zelle. Abstand: $0{,}001428\\ldots$"
+    },
+    {
+      "titel": "Diagramme",
+      "folien": "6–7",
+      "text": "**Idee:** Eine Tabelle mit Zahlen wird als Bild sichtbar – der dritte Teil der Definition von S. 1 („grafische Darstellung“).\n\n- **absolute Häufigkeit:** wie oft etwas vorkommt (70 Kinder wählen Kakao).\n- **relative Häufigkeit:** derselbe Anteil an allen Befragten, als Bruch oder Prozent: $\\frac{70}{400} = 17{,}50\\,\\%$.\n- **n:** Anzahl aller Befragten (hier 400).\n\n{{aufgabe a14}}\n\n{{aufgabe a15}}\n\n**Kurz erklärt:** Das Diagramm zeigt **dieselben** Zahlen wie die Tabelle, macht Unterschiede aber auf einen Blick sichtbar (Milch klar vorn, „nichts“ kaum zu sehen). Für die relative Häufigkeit nimmt man die Spalte mit den Prozenten – deshalb wird Spalte B beim Markieren mit Strg übersprungen.",
+      "beispiel": "Mehrere nicht benachbarte Spalten markieren: erste Spalte ziehen, dann Strg (Mac: cmd) halten und die zweite ziehen."
+    },
+    {
+      "titel": "Funktionen und Werkzeuge für Übungsblatt 5",
+      "folien": "7–9",
+      "text": "**Idee:** Eine **Funktion** ist eine fertige Rechenvorschrift von Excel. Man schreibt ihren Namen, dahinter in Klammern die Werte (**Argumente**). Angaben in eckigen Klammern wie `[Zahl2]` sind freiwillig.\n\n**Sortieren:** Registerkarte **Daten** – Gruppe **Sortieren und Filtern** (*„Achtung: Tabelle vorher, inclusive Überschriften markieren“*).\n\n**Operatoren** für die Grundrechenarten: `+` `-` `*` `/`.\n\n**`=SUMME(Zahl1;[Zahl2];…)`** – *„Berechnet die Summe aller Zahlen im angegebenen Bereich.“*\n- **Semikolon ;** = „und“: `=SUMME(A1;A2;A3)` = $5 + 6 + 7{,}8 = 18{,}8$.\n- **Doppelpunktoperator :** = „von … bis“: *„Alle im angegebenen Bereich liegenden Zellen werden berücksichtigt.“* `=SUMME(A1:B3)` = $5 + 6 + 7{,}8 + 6 + 99 + 2 = 125{,}8$ (selbst nachgerechnet; im Bild steht in A4 noch 18,8 vom ersten Beispiel).\n- *„Semikolon und Doppelpunktoperator können bei vielen Funktionen genutzt werden!“*\n\n![S. 7: SUMME mit Semikolon – einzelne Zellen](/dateien/mab004/mab004.1_S04_VL4_11_SUMME-Semikolon.png)\n\n![S. 7: SUMME mit Doppelpunkt – ein ganzer Bereich (A1 bis B3)](/dateien/mab004/mab004.1_S04_VL4_12_SUMME-Doppelpunkt.png)\n\n**`=ANZAHL(Wert1;[Wert2];…)`** – *„Zählt im angegebenen Bereich alle Zellen, in denen Zahlen enthalten sind.“* Es wird **gezählt**, nicht addiert: `=ANZAHL(C3:C12)` bei 10 Noten → 10. Leere Zellen und Text zählen nicht.\n\n**`=MITTELWERT(Zahl1;[Zahl2];…)`** – *„Gibt das arithmetische Mittel zurück.“* Das ist der Durchschnitt: Summe geteilt durch Anzahl, hier $\\frac{31}{10} = 3{,}1$.\n\n**`=ABS(Zahl1)`** – *„Gibt den Absolutwert (Betrag) einer Zahl zurück.“* Der **Betrag** ist die Zahl ohne Vorzeichen: $|-1{,}1| = 1{,}1$ – dasselbe $|\\ldots|$ wie beim absoluten Fehler $\\epsilon_A$ (VL 2). Beispiel: `=ABS(C14-$C$17)` = Abstand von Kathrins Note zur Durchschnittsnote: $|2 - 3{,}1| = 1{,}1$.\n\n> **Das \\$-Zeichen (S. 8):** *„Das \\$-Zeichen vor einem Spalten- oder Zeilenbezeichner bewirkt, dass sich die entsprechende Spalte oder Zeile beim Kopieren nicht verändert.“* \\$C\\$17 = Spalte **und** Zeile fest (**absoluter Bezug**, Ergänzung: Fachbegriff). Mischformen: \\$C17 (nur Spalte fest), C\\$17 (nur Zeile fest).\n\n{{aufgabe a16}}\n\n**`=WENN(Prüfung;[Dann_Wert];[Sonst_Wert])`** – eine Entscheidung: Ist die Prüfung wahr, kommt der Dann-Wert, sonst der Sonst-Wert. Text immer in **Anführungszeichen**.\n\n![S. 8: `=WENN(B2>4;\"nicht bestanden\";\"bestanden\")` – bei B2 = 2 erscheint „bestanden“](/dateien/mab004/mab004.1_S04_VL4_14_WENN-Beispiel.png)\n\n`=WENN(B2>4;\"nicht bestanden\";\"bestanden\")`: Bei B2 = 2 ist $2 > 4$ falsch → **„bestanden“**. ⚠ Der Erklärtext auf S. 8 ist vertauscht (dort: größer als 4 → „bestanden“); Formel und Bild stimmen.\n\n{{aufgabe a17}}\n\n**Drucken:** Querformat → Registerkarte **Seitenlayout** – Gruppe **Seite einrichten** – **Ausrichtung**. Mit sichtbaren Formeln → Registerkarte **Formeln** – Gruppe **Formelüberwachung** – **Formeln anzeigen**.\n\n**Typische Fehlermeldungen (S. 9, Kolberg u. a. 2011):**\n\n| Meldung | Bedeutung | Beispiel |\n|---|---|---|\n| #BEZUG! | Formel bezieht sich auf eine unzulässige Zelle | Zelle gelöscht, auf die sich eine Formel bezieht |\n| #DIV/0! | Division durch null | Bezug auf eine leere Zelle oder eine 0 |\n| #NAME? | Name wird nicht erkannt | Name falsch geschrieben, Text ohne „…“ |\n| #NULL! | falscher Bereichsoperator oder Bezug | |\n| #WERT! | falscher Typ eines Arguments | Text, wo eine Zahl stehen muss |\n| #ZAHL! | Problem mit einer Zahl | unzulässiges Argument in einer Funktion |\n\n**Kurz erklärt:** Mit diesen Bausteinen lassen sich die Verfahren aus VL 3 als Tabelle bauen (Übungsblatt 5): Jede Zeile ist ein Iterationsschritt, `ABS(Näherung - Wert)` gibt den Fehler, `WENN` prüft, ob die Genauigkeit erreicht ist, und \\$ hält feste Werte (z. B. den Vergleichswert) beim Herunterziehen fest.\n\n**Prüfungsfalle:** SUMME (addiert die Werte) und ANZAHL (zählt die Zellen) nicht verwechseln. Und: Ohne \\$ wandert ein Bezug beim Kopieren mit – das gibt falsche Zahlen **ohne** Fehlermeldung.",
+      "beispiel": "Notenliste: `=SUMME(C3:C12)` = 31, `=ANZAHL(C3:C12)` = 10, `=MITTELWERT(C3:C12)` = 3,1."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Tabellenkalkulation",
+      "folie": "1",
+      "wortlaut": "Eine Tabellenkalkulation ist eine Software für die interaktive Eingabe und Verarbeitung von numerischen und alphanumerischen Daten in Tabellenform. Vielfach erlaubt sie zusätzlich die grafische Darstellung der Ergebnisse in verschiedenen Anzeigeformen (Quelle: Wikipedia).",
+      "erklaerung": "Ein „rechnendes Rechenpapier“: Zahlen und Text in Zellen, dazu Formeln, die Ergebnisse automatisch aktuell halten; meist auch Diagramme. Beispiele: Excel, LibreOffice Calc."
+    },
+    {
+      "begriff": "Arbeitsmappe / Tabellenblatt / Blattregister",
+      "folie": "Fenster-Blatt 1",
+      "wortlaut": "Eine Arbeitsmappe enthält mind. ein Tabellenblatt, Tabellenblätter sind im Blattregister aufgeführt.",
+      "erklaerung": "Arbeitsmappe = die Excel-Datei; Tabellenblätter = ihre „Seiten“; Blattregister = die Reiter unten (Tabelle1, Tabelle2 …)."
+    },
+    {
+      "begriff": "Zelle / Zelladresse",
+      "folie": "Fenster-Blatt 1",
+      "wortlaut": "Zelle, mind. eine Zelle ist immer markiert. Zelladresse: A1 oder B3 oder XFD1048576 – die Adresse der markierten Zelle steht im Namenfeld.",
+      "erklaerung": "Eine Zelle ist ein Kästchen der Tabelle; ihre Adresse ist erst die Spalte (Buchstabe), dann die Zeile (Zahl), z. B. B3."
+    },
+    {
+      "begriff": "Namenfeld",
+      "folie": "Fenster-Blatt 1; S. 3–4",
+      "wortlaut": "Die Adresse der markierten Zelle steht im Namenfeld. – Im Namenfeld kann die Bezeichnung der Zelle auch verändert werden.",
+      "erklaerung": "Feld links oben über Spalte A. Zeigt die Adresse (oder den Namen) der markierten Zelle; dort kann man einer Zelle einen eigenen Namen geben."
+    },
+    {
+      "begriff": "Bearbeitungsleiste (Bearbeitungszeile)",
+      "folie": "Fenster-Blatt 1; S. 3",
+      "wortlaut": "Eingabe in einer Zelle erscheint auch in der Bearbeitungsleiste – dort können auch Änderungen vorgenommen werden. – Die Formel der markierten Zelle ist auch in der Bearbeitungszeile zu sehen und kann dort gegebenenfalls geändert werden.",
+      "erklaerung": "Langes Feld neben fx. In der Zelle steht das Ergebnis, in der Bearbeitungsleiste die Formel dahinter."
+    },
+    {
+      "begriff": "Formel (Excel)",
+      "folie": "2",
+      "wortlaut": "Jede Formel beginnt mit einem Gleichheitszeichen und wird mit der Eingabetaste abgeschlossen.",
+      "erklaerung": "Eine Rechenanweisung in einer Zelle, z. B. =B2-B3. Excel rechnet sie aus und rechnet neu, wenn sich eine der benutzten Zellen ändert."
+    },
+    {
+      "begriff": "Relativer und absoluter Bezug ($-Zeichen)",
+      "folie": "2–3; 8",
+      "wortlaut": "Das $-Zeichen vor einem Spalten- oder Zeilenbezeichner bewirkt, dass sich die entsprechende Spalte oder Zeile beim Kopieren nicht verändert.",
+      "erklaerung": "Ohne \\$ (relativer Bezug, z. B. `C14`) wandert die Adresse beim Kopieren mit. Mit \\$ (absoluter Bezug, z. B. `$C$17`) bleibt sie fest. Die Begriffe „relativ/absolut“ sind ergänzt, das Blatt beschreibt nur die Wirkung."
+    },
+    {
+      "begriff": "Spur (zum Vorgänger)",
+      "folie": "5",
+      "wortlaut": "Um den Schülerinnen und Schülern noch transparenter zu machen, welche Zellen in der Formel genutzt werden, kann eine Spur angezeigt werden. – Nun kann man die Entstehung der Formel verfolgen …",
+      "erklaerung": "Pfeile von den Zellen, aus denen eine Formel ihre Werte holt (Vorgänger), zur Formelzelle. Registerkarte Formeln – Formelüberwachung – Spur zum Vorgänger."
+    },
+    {
+      "begriff": "Formatieren vs. Runden (RUNDEN)",
+      "folie": "5–6",
+      "wortlaut": "=RUNDEN(Zahl;AnzStellen), dabei kann Zahl ein konkreter Wert oder eine Zelle (z.B. B4), in der ein numerischer Wert steht, sein. AnzStellen gibt die Nachkommastelle k an, an der gerundet wird.",
+      "erklaerung": "Formatieren ändert nur die Anzeige, der gespeicherte Wert bleibt vollständig. RUNDEN rundet kaufmännisch und ändert den Wert selbst – damit wird weitergerechnet."
+    },
+    {
+      "begriff": "Funktionen SUMME, ANZAHL, MITTELWERT, ABS",
+      "folie": "7–8",
+      "wortlaut": "=Summe(Zahl1;[Zahl2];…) Berechnet die Summe aller Zahlen im angegebenen Bereich. – =Anzahl(Wert1;[Wert2];…) Zählt im angegebenen Bereich alle Zellen, in denen Zahlen enthalten sind. – =Mittelwert(Zahl1;[Zahl2];…) Gibt das arithmetische Mittel zurück. – =ABS(Zahl1) Gibt den Absolutwert (Betrag) einer Zahl zurück.",
+      "erklaerung": "SUMME addiert, ANZAHL zählt Zellen mit Zahlen, MITTELWERT = Summe : Anzahl, ABS entfernt das Vorzeichen."
+    },
+    {
+      "begriff": "Semikolon und Doppelpunktoperator",
+      "folie": "7",
+      "wortlaut": "Zellen (von – bis) mit Doppelpunktoperator (:) verbunden. Alle im angegebenen Bereich liegenden Zellen werden berücksichtigt. – Semikolon und Doppelpunktoperator können bei vielen Funktionen genutzt werden!",
+      "erklaerung": "Semikolon trennt einzelne Angaben („und“), der Doppelpunkt beschreibt einen Bereich („von … bis“), z. B. A1:B3 = das Rechteck von A1 bis B3."
+    },
+    {
+      "begriff": "WENN-Funktion",
+      "folie": "8–9",
+      "wortlaut": "=WENN(Prüfung;[Dann_Wert];[Sonst_Wert]) – Mehrere Wahrheitsprüfungen können auch ineinander verschachtelt werden.",
+      "erklaerung": "Ist die Prüfung wahr, liefert WENN den Dann-Wert, sonst den Sonst-Wert. Text steht in Anführungszeichen. Verschachteln = im Sonst-Teil steht ein weiteres WENN."
+    },
+    {
+      "begriff": "Absolute und relative Häufigkeit",
+      "folie": "6",
+      "wortlaut": "Tabelle S. 6: abs. Häufigkeit, rel. Häufigkeiten, n (kein Definitionstext auf dem Blatt).",
+      "erklaerung": "Absolute Häufigkeit = Anzahl (z. B. 70); relative Häufigkeit = Anteil an allen n Befragten, $\\frac{70}{400} = 17{,}50\\,\\%$. Begriffe ergänzt, nicht aus dem Material."
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Fenster-Blatt, S. 1–2",
+      "text": "„Beschriften Sie das Fenster (Excel 2007/2010) auf der zweiten Seite mit den folgenden fettgedruckten Begriffen.“\n\n**Symbolleiste für Schnellzugriff** – **Titelleiste mit Namen der Arbeitsmappe** – **Registerkarte** – **Gruppe** – **Statusleiste** und **Bildlaufleisten** (dazu die fett gedruckten Begriffe im Text: Tabellenblatt, Blattregister, Spalte, Zeile, Zelle, Namenfeld, Bearbeitungsleiste, Spaltenkopf, Zeilenkopf).",
+      "loesung": "![Lösung: das beschriftete Excel-Fenster](/dateien/mab004/mab004.1_S04_VL4_00_Excel-Fenster_beschriftet_Loesung.png)\n\n| Nr. | zeigt auf … | Begriff |\n|---|---|---|\n| 1 | Klammer über Speichern/Rückgängig/Wiederholen | Symbolleiste für Schnellzugriff |\n| 2 | „Mappe1 – Excel“ | Titelleiste mit Namen der Arbeitsmappe |\n| 3 | langes Feld neben *fx* | Bearbeitungsleiste |\n| 4 | „Start“ | Registerkarte |\n| 5 | Feld „A1“ links oben | Namenfeld |\n| 6 | Klammer unter der Gruppe „Ausrichtung“ | Gruppe |\n| 7 | markiertes Kästchen A1 | Zelle |\n| 8 | Buchstabe „C“ | Spalte mit Spaltenbezeichner / Spaltenkopf |\n| 9 | Zahl „9“ | Zeile mit Zeilenbezeichner / Zeilenkopf |\n| 10 | leere Fläche | Tabellenblatt |\n| 11 | Klammer über „Tabelle1“ | Blattregister |\n| 12 | unterste Leiste („Bereit …“) | Statusleiste |\n| 13 | Leisten rechts und unten | Bildlaufleisten |\n\n⚠ Zuordnung von Pfeil 3 und Klammer 6 selbst erarbeitet (Pfeil endet in der Bearbeitungsleiste, Klammer ist genau so breit wie die Gruppe „Ausrichtung“).",
+      "loesungsweg": "Jeden Pfeil bis zu seinem Ende verfolgen und den Begriff aus der Liste zuordnen; Klammern markieren einen ganzen Bereich (Symbolleiste, Gruppe, Blattregister)."
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "quelle": "S. 1, Teil 3",
+      "text": "„Geben Sie folgende Tabelle ein, indem Sie in die jeweilige Zelle klicken:“",
+      "loesung": "![Vorlage S. 1: die einzugebende Tabelle](/dateien/mab004/mab004.1_S04_VL4_01_Tabelle-eingeben.png)\n\n| | A | B | C | D |\n|---|---|---|---|---|\n| 1 | | 2010 | 2011 | 2012 |\n| 2 | Umsatz | 1000 | 1200 | 1500 |\n| 3 | Kosten | 900 | 1050 | 1275 |\n| 4 | Gewinn | | | |",
+      "loesungsweg": "In B1 klicken, 2010 tippen, Enter – Zelle für Zelle weiter. A1 bleibt leer. Zeile 4 bleibt bei B–D leer (dort kommt in Teil 4 die Formel hinein)."
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "quelle": "S. 1–2, Teil 3",
+      "text": "„Verändern Sie Schriftgröße, Ausrichtung der Zelle und Spaltenbreite wie folgt oder ähnlich:“",
+      "loesung": "![Vorlage S. 2: so oder ähnlich soll die Tabelle danach aussehen](/dateien/mab004/mab004.1_S04_VL4_02_Tabelle-formatiert.png)\n\n- **Schriftgröße:** Zellen markieren → Registerkarte **Start** – Gruppe **Schriftart** – Größe wählen (Zeilennamen sehr groß, Jahreszahlen groß und fett).\n- **Ausrichtung:** Registerkarte **Start** – Gruppe **Ausrichtung** – zentriert.\n- **Spaltenbreite:** Linie zwischen zwei Spaltenköpfen (z. B. zwischen A und B) mit der Maus ziehen.",
+      "loesungsweg": "Erst markieren, dann formatieren – Formatierungen wirken immer auf die markierten Zellen."
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "quelle": "S. 2, Teil 4",
+      "text": "„Geben Sie die Formel in der Zeile Gewinn, wie in der folgenden Tabelle angegeben, ein und drücken Sie die Taste Enter.“ – „Der Gewinn wird nun automatisch berechnet. Eine Änderung des entsprechenden Umsatzes oder der Kosten hat automatisch eine Änderung des Gewinns zur Folge. Probieren Sie es aus!“",
+      "loesung": "![Vorlage S. 2: Formel =B2-B3 in B4, die benutzten Zellen sind farbig umrahmt](/dateien/mab004/mab004.1_S04_VL4_03_Formel-B2-minus-B3.png)\n\nIn **B4**: `=B2-B3` → Ergebnis **100** (denn $1000 - 900 = 100$).\n\n**Ausprobieren:** B2 auf 1100 ändern → B4 zeigt sofort **200**.",
+      "loesungsweg": "Gleichheitszeichen zuerst, dann die Zelladressen mit dem Rechenzeichen, mit Enter abschließen. Gewinn = Umsatz − Kosten."
+    },
+    {
+      "id": "a05",
+      "art": "Aufgabe auf Folie",
+      "quelle": "S. 2–3, Teil 4",
+      "text": "„Um die Formel in die Zellen C4 und D4 zu übertragen, fassen Sie die Zelle B4 an der rechten unteren Ecke (siehe Pfeil) an und ziehen Sie die Ecke bis zu D4.“ – „Wenn Sie die Zelle C4 anklicken, erscheint in der Bearbeitungszeile die angepasste Formel =C2-C3.“",
+      "loesung": "![Vorlage S. 3: Die Formel der markierten Zelle steht in der Bearbeitungszeile; der Pfeil unten zeigt auf die Ecke zum Ziehen](/dateien/mab004/mab004.1_S04_VL4_04_Bearbeitungszeile.png)\n\n| Zelle | Formel | Ergebnis |\n|---|---|---|\n| B4 | `=B2-B3` | 100 |\n| C4 | `=C2-C3` | 150 |\n| D4 | `=D2-D3` | 225 |\n\n**Kontrolle:** C4 anklicken → in der Bearbeitungszeile steht `=C2-C3`. Steht dort nur „100“ oder `=B2-B3`, wurde nicht richtig übertragen.",
+      "loesungsweg": "Das kleine Quadrat unten rechts an der Zelle (Ausfüllkästchen – Ergänzung, auf dem Blatt „rechte untere Ecke“) nach rechts ziehen. Excel passt die Spaltenbuchstaben automatisch an (relativer Bezug)."
+    },
+    {
+      "id": "a06",
+      "art": "Aufgabe auf Folie",
+      "quelle": "S. 3, Teil 5",
+      "text": "„Erstellen Sie ein Tabellenblatt zur Berechnung des Flächeninhalts eines Rechtecks, wie folgt:“ (Tabelle mit B1 „Flächeninhalt eines Rechtecks“, A2 Länge / B2 2, A3 Breite / B3 3, A4 Fläche / B4 6)",
+      "loesung": "Neues Tabellenblatt: unten neben „Tabelle1“ auf **+** klicken.\n\n| | A | B |\n|---|---|---|\n| 1 | | Flächeninhalt eines Rechtecks |\n| 2 | Länge | 2 |\n| 3 | Breite | 3 |\n| 4 | Fläche | 6 (wird in a08 per Formel berechnet, nicht eintippen) |",
+      "loesungsweg": "Werte in B2 und B3 eintippen; B4 bleibt zunächst leer bzw. bekommt in Aufgabe a08 die Formel."
+    },
+    {
+      "id": "a07",
+      "art": "Aufgabe auf Folie",
+      "quelle": "S. 3–4, Teil 5",
+      "text": "„Um einer Zelle einen neuen Namen zu geben, klicken Sie die entsprechende Zelle an und geben im Namenfeld einen neuen Namen ein.“",
+      "loesung": "![Vorlage S. 4: B2 ist markiert, das Namenfeld zeigt jetzt „Länge“ statt „B2“](/dateien/mab004/mab004.1_S04_VL4_05_Namenfeld-Laenge.png)\n\n1. B2 anklicken.\n2. Links oben ins **Namenfeld** klicken (dort steht „B2“).\n3. `Länge` tippen und **Enter** drücken (ohne Enter wird der Name nicht übernommen).",
+      "loesungsweg": "Der Name ersetzt im Namenfeld die Adresse; die Zelle bleibt trotzdem auch unter B2 erreichbar."
+    },
+    {
+      "id": "a08",
+      "art": "Aufgabe auf Folie",
+      "quelle": "S. 4, Teil 5",
+      "text": "„Die Zelle kann nun mit dem neuen Namen in der Formel angesprochen werden. Vergeben Sie auch für die Zelle B3 einen Namen. Tragen Sie in B4 die Flächenformel in das Tabellenblatt ein:“",
+      "loesung": "![Vorlage S. 4: links die Eingabe =Länge*Breite, rechts das Ergebnis 6](/dateien/mab004/mab004.1_S04_VL4_06_Formel-Laenge-mal-Breite.png)\n\n- B3 anklicken → Namenfeld → `Breite` → Enter.\n- In B4: `=Länge*Breite` → Ergebnis **6** (denn $2 \\cdot 3 = 6$). Das Zeichen `*` ist in Excel das Malzeichen.\n- Im Bild ist zusätzlich B4 als „Fläche“ benannt (freiwillig).",
+      "loesungsweg": "Formel wie im Matheheft: $A = \\text{Länge} \\cdot \\text{Breite}$ – statt Zelladressen stehen die Namen darin."
+    },
+    {
+      "id": "a09",
+      "art": "Aufgabe auf Folie",
+      "quelle": "S. 4, Teil 5",
+      "text": "„Weitere Einstellungen können unter dem Menüpunkt Formeln, in der Gruppe Definiere Namen im dortigen Namens-Manager vorgenommen werden. Löschen Sie dort die Zellennamen wieder, bevor Sie mit dem nächsten Punkt beginnen.“",
+      "loesung": "Registerkarte **Formeln** – Gruppe **Definierte Namen** – **Namens-Manager** → jeden Namen (Länge, Breite, ggf. Fläche) markieren → **Löschen**.\n\nGrund: Im nächsten Punkt werden dieselben Namen für andere Zellen (ganze Zeilen) vergeben.",
+      "loesungsweg": "Excel nennt die Gruppe „Definierte Namen“ (auf dem Blatt: „Definiere Namen“)."
+    },
+    {
+      "id": "a10",
+      "art": "Aufgabe auf Folie",
+      "quelle": "S. 4, Teil 5",
+      "text": "„Sollen mehrere Zellen mit dem gleichen Namen angesprochen werden, so sind diese zu markieren und dann kann über das Namenfeld ein Name eingegeben werden. Diese Zellen können dann gleichzeitig über den vergebenen Namen angesprochen werden. Achtung! Es ist ein @ dem Namen voranzustellen.“ – „Sie können die Formel jetzt auf die anderen Zellen kopieren.“",
+      "loesung": "![Vorlage S. 4: B2:E2 heißt „Länge“, B3:E3 heißt „Breite“; in B4 steht =@Länge*@Breite](/dateien/mab004/mab004.1_S04_VL4_07_mehrere-Zellen-at.png)\n\n- B2 bis E2 markieren → Namenfeld `Länge` → Enter; B3 bis E3 → `Breite` → Enter.\n- In B4: `=@Länge*@Breite`, dann bis E4 ziehen.\n\n| | A | B | C | D | E |\n|---|---|---|---|---|---|\n| 2 | Länge | 3 | 4 | 5 | 6 |\n| 3 | Breite | 5 | 4 | 3 | 2 |\n| 4 | Fläche | **15** | **16** | **15** | **12** |",
+      "loesungsweg": "Das @ (Ergänzung, nicht aus dem Material) bedeutet: aus der benannten Zeile nur die Zelle in derselben Spalte nehmen. Es gibt das @ erst im neueren Excel; Excel 2010 und LibreOffice brauchen es nicht."
+    },
+    {
+      "id": "a11",
+      "art": "Aufgabe auf Folie",
+      "quelle": "S. 5, Teil 5",
+      "text": "„Lassen Sie für die Flächenformel eine Spur anzeigen:“ (Excel 2007/2010: Registerkarte Formeln – Gruppe Formelüberwachung – Spur zum Vorgänger; Excel 2003/Calc: Menü Extras – Detektiv)",
+      "loesung": "![Vorlage S. 5: Der blaue Pfeil führt von Länge und Breite zur Fläche](/dateien/mab004/mab004.1_S04_VL4_08_Spur-zum-Vorgaenger.png)\n\nB4 anklicken → Registerkarte **Formeln** – Gruppe **Formelüberwachung** – **Spur zum Vorgänger**. Ein blauer Pfeil verbindet B2 und B3 mit B4: Die Fläche hängt von Länge und Breite ab.",
+      "loesungsweg": "Vorgänger = die Zellen, aus denen eine Formel ihre Werte holt. Pfeile wieder entfernen: gleiche Gruppe – „Pfeile entfernen“ (Ergänzung)."
+    },
+    {
+      "id": "a12",
+      "art": "Aufgabe auf Folie",
+      "quelle": "S. 5–6, Teil 6",
+      "text": "„Erstellen Sie folgende Tabelle. Lassen Sie die Quotienten sowie den absoluten Abstand (Quotient formatiert, bezogen auf Quotient gerundet) automatisch berechnen.“ – Kasten: „Quotient soll automatisch berechnet werden aus Dividend und Divisor (Divisionsoperator ist /). Quotient formatiert: Auf zwei Nachkommastellen formatierter Quotient. Quotient gerundet: Mit der Funktion RUNDEN ermittelte Quotient. Abstand berechnet sich aus der Differenz von Quotient formatiert und Quotient gerundet.“",
+      "loesung": "![Vorlage S. 6: die Tabelle mit den erwarteten Ergebnissen](/dateien/mab004/mab004.1_S04_VL4_09_Quotient-formatiert-gerundet.png)\n\n| | A | B (Eingabe) | angezeigt |\n|---|---|---|---|\n| 1 | Dividend | 54 | 54 |\n| 2 | Divisor | 6,3 | 6,3 |\n| 3 | Quotient | `=B1/B2` | 8,57142857 |\n| 4 | Quotient formatiert | `=B3`, auf 2 Nachkommastellen formatiert | 8,57 |\n| 5 | Quotient gerundet | `=RUNDEN(B3;2)` | 8,57 |\n| 6 | Abstand | `=ABS(B4-B5)` | 0,00142857 |\n\nRechnung: $\\frac{54}{6{,}3} = 8{,}571428\\ldots$; $8{,}571428\\ldots - 8{,}57 = 0{,}001428\\ldots$",
+      "loesungsweg": "Formatieren über Registerkarte Start – Gruppe Zahl (Nachkommastellen verringern). Statt `=ABS(B4-B5)` geht hier auch `=B4-B5`, weil die Differenz positiv ist."
+    },
+    {
+      "id": "a13",
+      "art": "Aufgabe auf Folie",
+      "quelle": "S. 6, Teil 6",
+      "text": "„Formatieren Sie alle Zellen, die Zahlen enthalten, auf 14 Nachkommastellen. Was beobachten Sie? Formulieren Sie den Unterschied zwischen Formatieren und Runden von Zahlen.“",
+      "loesung": "**Beobachtung:**\n\n| | mit 14 Nachkommastellen |\n|---|---|\n| Dividend | 54,00000000000000 |\n| Divisor | 6,30000000000000 |\n| Quotient | 8,57142857142857 |\n| Quotient formatiert | **8,57142857142857** |\n| Quotient gerundet | **8,57000000000000** |\n| Abstand | 0,00142857142857 |\n\nDer „formatierte“ Quotient zeigt wieder alle Stellen, der gerundete bleibt 8,57.\n\n**Unterschied:** Formatieren ändert nur die **Anzeige** – Excel speichert und rechnet weiter mit dem vollständigen Wert $8{,}571428\\ldots$. Runden mit RUNDEN ändert den **Wert selbst** – in der Zelle steht danach wirklich $8{,}57$, und damit wird weitergerechnet. Deshalb ist der Abstand nicht $0$, obwohl beide bei 2 Stellen gleich aussehen.",
+      "loesungsweg": "Der Abstand ist der absolute Fehler $\\epsilon_A$ des Rundens aus VL 2; er ist kleiner als $0{,}005$ (halbe Einheit der 2. Nachkommastelle). Mehr als etwa 15 gültige Ziffern zeigt Excel nicht sinnvoll an – Excel rechnet in $\\mathcal{F}_{10}(15, 308)$ (VL 3)."
+    },
+    {
+      "id": "a14",
+      "art": "Aufgabe auf Folie",
+      "quelle": "S. 6, Teil 7",
+      "text": "„Erstellen Sie folgende Tabelle:“ (Getränk, abs. Häufigkeit, rel. Häufigkeiten; Kakao 70, Milch 128, Saft 69, Kaffee 58, Tee 74, nichts 1; n: 400)",
+      "loesung": "![Vorlage S. 6: die Getränke-Tabelle](/dateien/mab004/mab004.1_S04_VL4_10_Getraenke-Tabelle.png)\n\n| | A | B | C |\n|---|---|---|---|\n| 1 | Getränk | abs. Häufigkeit | rel. Häufigkeiten |\n| 2 | Kakao | 70 | `=B2/$B$9` → 17,50 % |\n| 3 | Milch | 128 | 32,00 % |\n| 4 | Saft | 69 | 17,25 % |\n| 5 | Kaffee | 58 | 14,50 % |\n| 6 | Tee | 74 | 18,50 % |\n| 7 | nichts | 1 | 0,25 % |\n| 9 | n: | `=SUMME(B2:B7)` → 400 | |\n\nBeispiel: $\\frac{70}{400} = 0{,}175 = 17{,}50\\,\\%$. Probe: Die Prozente ergeben zusammen $100\\,\\%$.",
+      "loesungsweg": "Spalte C als Prozent mit 2 Nachkommastellen formatieren (Start – Zahl – %). Formeln selbst erarbeitet; die Werte dürfen auch eingetippt werden (SUMME und $ kommen erst in Teil 8)."
+    },
+    {
+      "id": "a15",
+      "art": "Aufgabe auf Folie",
+      "quelle": "S. 6–7, Teil 7",
+      "text": "„Markieren Sie die Spalte Getränk und zusätzlich (indem Sie während des Markiervorgangs die Taste STRG gedrückt halten) die Spalte rel. Häufigkeiten inclusive der Überschriften. Wählen Sie auf der Registerkarte Diagramme ein beliebiges Säulendiagramm aus.“ – „Klicken Sie Ihr erstelltes Diagramm an und es erscheinen folgende neue Registerkarten zur Bearbeitung von Diagrammen:“",
+      "loesung": "![Lösung: Säulendiagramm der relativen Häufigkeiten (selbst erstellt)](/dateien/mab004/mab004.1_S04_VL4_15_Diagramm_Loesung.png)\n\n1. A1 bis A7 markieren.\n2. **Strg** (Mac: **cmd**) gedrückt halten und C1 bis C7 dazu markieren – Spalte B wird übersprungen.\n3. Registerkarte **Einfügen** – Gruppe **Diagramme** – Säule.\n4. Diagramm anklicken → neue Registerkarten **Diagrammtools** (Excel 2010: Entwurf, Layout, Format; neueres Excel: Diagrammentwurf, Format).",
+      "loesungsweg": "Eine eigene „Registerkarte Diagramme“ gibt es in Excel 2010 nicht – gemeint ist Einfügen → Diagramme."
+    },
+    {
+      "id": "a16",
+      "art": "Aufgabe auf Folie",
+      "quelle": "S. 8, Teil 8",
+      "text": "„Kopieren Sie die Formel aus E14 nach E13! Wie lautet die Formel, die jetzt in E13 steht? Vergleichen Sie die Formel in E14 mit der Formel in E13! Erklären Sie was sich warum verändert hat bzw. warum sich etwas nicht verändert hat.“",
+      "loesung": "![Vorlage S. 8: In E14 steht `=ABS(C14-$C$17)`; C17 ist die Durchschnittsnote](/dateien/mab004/mab004.1_S04_VL4_13_ABS-und-Dollar.png)\n\n- In E13 steht jetzt **`=ABS(C13-$C$17)`**. Ergebnis: $|1 - 3{,}1| = 2{,}1$ (Manuels Abstand zum Durchschnitt, wie im Bild).\n- **Verändert: C14 → C13.** Relativer Bezug – die Formel wurde eine Zeile nach oben kopiert, also wandert der Bezug mit. Gemeint ist immer „die Note in derselben Zeile“.\n- **Nicht verändert: \\$C\\$17.** Die \\$-Zeichen halten Spalte C und Zeile 17 fest (absoluter Bezug). Der Durchschnitt steht nur in dieser einen Zelle, und jede Note soll mit genau diesem Wert verglichen werden.",
+      "loesungsweg": "E14 ausrechnen zur Kontrolle: $|2 - 3{,}1| = |-1{,}1| = 1{,}1$. Ohne \\$ würde aus C17 beim Kopieren C16 (die Anzahl 10) – falsches Ergebnis ohne Fehlermeldung."
+    },
+    {
+      "id": "a17",
+      "art": "Aufgabe auf Folie",
+      "quelle": "S. 9, Teil 8",
+      "text": "„=WENN(B2=1; \"Sehr gut\";WENN(B2=2; \"gut\";WENN(B2=3;befriedigend;WENN(B2=4; \"ausreichend\")))) – Mehrere Wahrheitsprüfungen können auch ineinander verschachtelt werden. Probieren Sie aus, was diese Formel bewirkt! Aber Vorsicht: In dieser Formel steckt ein Fehler!“",
+      "loesung": "**Was sie bewirkt:** Sie wandelt eine Notenzahl in B2 in das Notenwort um. Ist B2 = 1 → „Sehr gut“; sonst wird die nächste WENN-Prüfung ausgeführt usw.\n\n**Der Fehler:** Bei *befriedigend* fehlen die **Anführungszeichen**. Excel hält das Wort für einen Namen (wie „Länge“ in Teil 5); den gibt es nicht → **#NAME?**.\n\n**Zweite Schwäche** *(selbst erarbeitet)*: Für 5 oder 6 fehlt ein Sonst-Wert → Excel zeigt **FALSCH**.\n\n| B2 | Ergebnis |\n|---|---|\n| 1 | Sehr gut |\n| 2 | gut |\n| 3 | **#NAME?** |\n| 4 | ausreichend |\n| 5, 6 | **FALSCH** |\n\n**Richtig:** `=WENN(B2=1;\"sehr gut\";WENN(B2=2;\"gut\";WENN(B2=3;\"befriedigend\";WENN(B2=4;\"ausreichend\";\"nicht ausreichend\"))))`",
+      "loesungsweg": "⚠ Annahme: #NAME? erscheint nur bei B2 = 3, weil WENN nur den gewählten Zweig auswertet – am 03.11. kurz ausprobieren."
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist eine Tabellenkalkulation?",
+      "antwort": "Eine Software für die interaktive Eingabe und Verarbeitung von numerischen und alphanumerischen Daten in Tabellenform; meist auch mit grafischer Darstellung der Ergebnisse (Diagramme).",
+      "erklaerung": "Definition S. 1 (Quelle laut Blatt: Wikipedia).",
+      "folie": "1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "definition",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Welche Daten sind *alphanumerisch*?",
+      "optionen": [
+        "„Umsatz“",
+        "„Kosten 2010“",
+        "1275",
+        "2,5"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Alphanumerisch = Buchstaben (und Ziffern) gemischt, also Text. 1275 und 2,5 sind rein numerisch.",
+      "folie": "1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Ordne jedem Bildschirmteil den Begriff zu.",
+      "kategorien": [
+        "Namenfeld",
+        "Bearbeitungsleiste",
+        "Registerkarte",
+        "Blattregister"
+      ],
+      "elemente": [
+        {
+          "text": "zeigt die Adresse der markierten Zelle, z. B. B3",
+          "kategorie": "Namenfeld"
+        },
+        {
+          "text": "zeigt die Formel hinter dem Ergebnis",
+          "kategorie": "Bearbeitungsleiste"
+        },
+        {
+          "text": "„Start“, „Einfügen“, „Formeln“",
+          "kategorie": "Registerkarte"
+        },
+        {
+          "text": "Reiter „Tabelle1“, „Tabelle2“ unten",
+          "kategorie": "Blattregister"
+        }
+      ],
+      "erklaerung": "Fenster-Blatt.",
+      "folie": "Fenster-Blatt",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Die Adresse der markierten Zelle steht im [[Namenfeld]].",
+      "erklaerung": "Fenster-Blatt, S. 1.",
+      "folie": "Fenster-Blatt",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie lautet die Adresse der Zelle in Spalte D und Zeile 7?",
+      "optionen": [
+        "D7",
+        "7D",
+        "D:7",
+        "$7$D"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Erst die Spalte (Buchstabe), dann die Zeile (Zahl).",
+      "folie": "Fenster-Blatt",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Jede Formel beginnt mit einem [[Gleichheitszeichen]] und wird mit der Eingabetaste abgeschlossen.",
+      "erklaerung": "Regel S. 2 – ohne „=“ hält Excel die Eingabe für Text.",
+      "folie": "2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "In B2 steht 1000 (Umsatz), in B3 900 (Kosten). Welche Formel gehört in B4 (Gewinn), und was zeigt B4 an?",
+      "musterloesung": "`=B2-B3`; B4 zeigt 100.",
+      "bewertungspunkte": [
+        "Gleichheitszeichen",
+        "B2-B3",
+        "Ergebnis 100"
+      ],
+      "punkte": 3,
+      "erklaerung": "S. 2, Teil 4.",
+      "folie": "2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "In B4 steht `=B2-B3`. Du ziehst B4 über das Ausfüllkästchen bis D4. Was steht in D4?",
+      "optionen": [
+        "`=D2-D3`",
+        "`=B2-B3`",
+        "`=C2-C3`",
+        "der Wert 100"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Relativer Bezug: Die Spaltenbuchstaben wandern mit (B → C → D).",
+      "folie": "2–3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Wo siehst du, welche Formel hinter dem Ergebnis in einer Zelle steckt?",
+      "antwort": "In der Bearbeitungszeile/Bearbeitungsleiste (neben fx), wenn die Zelle markiert ist; in der Zelle selbst steht nur das Ergebnis.",
+      "erklaerung": "S. 3.",
+      "folie": "3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum ist es laut Material im Unterricht hilfreich, Zellen Namen wie „Länge“ zu geben? (mehrere richtig)",
+      "optionen": [
+        "Es erleichtert Schülerinnen und Schülern die Arbeit mit Variablen.",
+        "Man kann Variablenname und Variablenwert besser unterscheiden.",
+        "Die Namen können in Formeln statt der Zellbezeichnung genutzt werden.",
+        "Excel rechnet mit Namen genauer."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Kasten S. 4. Die Genauigkeit ändert sich nicht – der Name ist nur eine andere Bezeichnung derselben Zelle.",
+      "folie": "4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "B2 heißt „Länge“ (Wert 2), B3 heißt „Breite“ (Wert 3). Schreibe die Flächenformel für B4 und gib das Ergebnis an.",
+      "musterloesung": "`=Länge*Breite`; Ergebnis 6.",
+      "bewertungspunkte": [
+        "Gleichheitszeichen",
+        "Namen statt Adressen",
+        "* als Malzeichen",
+        "Ergebnis 6"
+      ],
+      "punkte": 4,
+      "erklaerung": "S. 4, Teil 5.",
+      "folie": "4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wo kann man vergebene Zellnamen bearbeiten oder löschen?",
+      "antwort": "Im Namens-Manager: Registerkarte Formeln – Gruppe Definierte Namen (auf dem Blatt „Definiere Namen“) – Namens-Manager.",
+      "erklaerung": "S. 4.",
+      "folie": "4",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f13",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Wozu dient das @ in `=@Länge*@Breite`, wenn „Länge“ die Zellen B2:E2 bezeichnet?",
+      "antwort": "Es nimmt aus der benannten Zeile nur die Zelle in derselben Spalte wie die Formel (in C4 also C2). So kann die Formel in jede Spalte kopiert werden. (Erklärung ergänzt; laut Blatt muss das @ vorangestellt werden.)",
+      "erklaerung": "S. 4; Erklärung des @ ist eine Ergänzung (neueres Excel).",
+      "folie": "4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was zeigt die „Spur zum Vorgänger“ an und wozu nutzt man sie im Unterricht?",
+      "antwort": "Pfeile von den Zellen, die eine Formel benutzt, zur Formelzelle. So wird transparent, welche Zellen in die Formel eingehen – z. B. dass die Fläche von Länge und Breite abhängt.",
+      "erklaerung": "S. 5.",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Formatieren oder Runden? Ordne zu.",
+      "kategorien": [
+        "Formatieren",
+        "Runden mit RUNDEN"
+      ],
+      "elemente": [
+        {
+          "text": "ändert nur die Anzeige",
+          "kategorie": "Formatieren"
+        },
+        {
+          "text": "ändert den gespeicherten Wert",
+          "kategorie": "Runden mit RUNDEN"
+        },
+        {
+          "text": "mit 14 Nachkommastellen wieder 8,57142857142857",
+          "kategorie": "Formatieren"
+        },
+        {
+          "text": "mit 14 Nachkommastellen 8,57000000000000",
+          "kategorie": "Runden mit RUNDEN"
+        },
+        {
+          "text": "Registerkarte Start – Gruppe Zahl",
+          "kategorie": "Formatieren"
+        },
+        {
+          "text": "`=RUNDEN(B3;2)`",
+          "kategorie": "Runden mit RUNDEN"
+        }
+      ],
+      "erklaerung": "S. 5–6, Teil 6.",
+      "folie": "5–6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Formuliere den Unterschied zwischen Formatieren und Runden von Zahlen in Excel und erkläre damit, warum der Abstand zwischen „Quotient formatiert“ (8,57) und „Quotient gerundet“ (8,57) nicht 0 ist.",
+      "musterloesung": "Formatieren ändert nur die Anzeige; gespeichert und weiterverwendet wird der vollständige Wert 8,571428…. RUNDEN ändert den Wert selbst auf 8,57. Der Abstand ist daher $8{,}571428\\ldots - 8{,}57 \\approx 0{,}00143$ – der absolute Fehler des Rundens.",
+      "bewertungspunkte": [
+        "Formatieren = nur Anzeige",
+        "Runden = Wert wird geändert",
+        "mit formatiertem Wert wird ungerundet weitergerechnet",
+        "Abstand ≈ 0,00143 als Folge"
+      ],
+      "punkte": 4,
+      "erklaerung": "S. 6, graue Aufgabe.",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Gib für die Tabelle Dividend 54 (B1), Divisor 6,3 (B2) die Formeln für Quotient (B3), Quotient gerundet auf 2 Stellen (B5) und den Abstand zu „Quotient formatiert“ in B4 (B6) an.",
+      "musterloesung": "B3: `=B1/B2`; B5: `=RUNDEN(B3;2)`; B6: `=ABS(B4-B5)` (oder `=B4-B5`), wobei B4 = `=B3`, auf 2 Stellen formatiert.",
+      "bewertungspunkte": [
+        "Division mit /",
+        "RUNDEN mit 2 Stellen",
+        "Differenz/ABS"
+      ],
+      "punkte": 3,
+      "erklaerung": "S. 5–6.",
+      "folie": "5–6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "In einer Umfrage mit $n = 400$ wählen 128 Kinder Milch. Berechne die relative Häufigkeit und gib eine Excel-Formel an, wenn 128 in B3 und n in B9 steht.",
+      "musterloesung": "$\\frac{128}{400} = 0{,}32 = 32{,}00\\,\\%$; Formel `=B3/$B$9`, als Prozent formatiert.",
+      "bewertungspunkte": [
+        "Bruch 128/400",
+        "32 %",
+        "Formel mit /",
+        "\\$ vor B9 (zum Kopieren)"
+      ],
+      "punkte": 4,
+      "erklaerung": "S. 6, Teil 7 (Formel selbst erarbeitet).",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie markierst du zwei nicht nebeneinanderliegende Spalten (z. B. „Getränk“ und „rel. Häufigkeiten“) für ein Diagramm?",
+      "antwort": "Erste Spalte mit der Maus markieren, dann die Taste Strg (Mac: cmd) gedrückt halten und die zweite Spalte inklusive Überschrift markieren.",
+      "erklaerung": "S. 6.",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "In A1 steht 5, A2 6, A3 7,8, B1 6, B2 99, B3 2. Welche Aussagen stimmen?",
+      "optionen": [
+        "`=SUMME(A1;A2;A3)` ergibt 18,8.",
+        "`=SUMME(A1:B3)` ergibt 125,8.",
+        "`=SUMME(A1:A3)` ergibt dasselbe wie `=SUMME(A1;A2;A3)`.",
+        "`=ANZAHL(A1:B3)` ergibt 125,8."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Semikolon = einzelne Zellen, Doppelpunkt = Bereich. ANZAHL zählt Zellen mit Zahlen: 6.",
+      "folie": "7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Welche Funktion liefert was? (Noten 5, 2, 6, 2, 3, 4, 3, 3, 1, 2 in C3:C12)",
+      "kategorien": [
+        "SUMME",
+        "ANZAHL",
+        "MITTELWERT",
+        "ABS"
+      ],
+      "elemente": [
+        {
+          "text": "31",
+          "kategorie": "SUMME"
+        },
+        {
+          "text": "10",
+          "kategorie": "ANZAHL"
+        },
+        {
+          "text": "3,1",
+          "kategorie": "MITTELWERT"
+        },
+        {
+          "text": "Betrag einer Differenz, z. B. 1,1",
+          "kategorie": "ABS"
+        }
+      ],
+      "erklaerung": "S. 7–8.",
+      "folie": "7–8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f22",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Die Formel `=ABS(C14-$C$17)` aus E14 wird nach E13 kopiert. Was steht in E13?",
+      "optionen": [
+        "`=ABS(C13-$C$17)`",
+        "`=ABS(C13-$C$16)`",
+        "`=ABS(C14-$C$17)`",
+        "`=ABS(C13-C16)`"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "`C14` ist relativ und wandert eine Zeile nach oben; `$C$17` ist absolut und bleibt.",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f23",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Erkläre, was sich beim Kopieren von `=ABS(C14-$C$17)` aus E14 nach E13 verändert und was nicht – und warum das so gewollt ist.",
+      "musterloesung": "In E13 steht `=ABS(C13-$C$17)`. C14 → C13, weil der Bezug ohne \\$ relativ ist und beim Kopieren um eine Zeile mitwandert (es soll immer die Note derselben Zeile genommen werden). `$C$17` bleibt, weil die \\$-Zeichen Spalte und Zeile festhalten – die Durchschnittsnote steht nur in C17 und jede Note soll mit ihr verglichen werden.",
+      "bewertungspunkte": [
+        "neue Formel richtig",
+        "C14→C13 mit Begründung relativ",
+        "`$C$17` bleibt, Begründung \\$",
+        "Sinn: Vergleich mit festem Durchschnitt"
+      ],
+      "punkte": 4,
+      "erklaerung": "S. 8, graue Aufgabe.",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f24",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "text": "Das [[$]]-Zeichen vor einem Spalten- oder Zeilenbezeichner bewirkt, dass sich die Spalte oder Zeile beim Kopieren nicht verändert.",
+      "erklaerung": "S. 8.",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f25",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "In C2 steht `=WENN(B2>4;\"nicht bestanden\";\"bestanden\")`. Was erscheint in C2, wenn B2 = 5 ist?",
+      "optionen": [
+        "nicht bestanden",
+        "bestanden",
+        "FALSCH",
+        "#NAME?"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "$5 > 4$ ist wahr → Dann-Wert „nicht bestanden“. (Der Erklärtext auf S. 8 ist an dieser Stelle vertauscht.)",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f26",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Finde den Fehler in `=WENN(B2=1; \"Sehr gut\";WENN(B2=2; \"gut\";WENN(B2=3;befriedigend;WENN(B2=4; \"ausreichend\"))))` und gib eine korrigierte Formel an.",
+      "musterloesung": "Bei befriedigend fehlen die Anführungszeichen → Excel sucht einen Namen „befriedigend“ und zeigt bei B2 = 3 #NAME?. Zusätzlich fehlt für 5 und 6 ein Sonst-Wert (Anzeige FALSCH). Korrigiert: `=WENN(B2=1;\"sehr gut\";WENN(B2=2;\"gut\";WENN(B2=3;\"befriedigend\";WENN(B2=4;\"ausreichend\";\"nicht ausreichend\"))))`.",
+      "bewertungspunkte": [
+        "fehlende Anführungszeichen erkannt",
+        "Folge #NAME?",
+        "fehlender Sonst-Wert erkannt",
+        "korrigierte Formel"
+      ],
+      "punkte": 4,
+      "erklaerung": "S. 9, graue Aufgabe; zweite Schwäche selbst erarbeitet.",
+      "folie": "9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f27",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Fehlermeldung passt?",
+      "kategorien": [
+        "#DIV/0!",
+        "#NAME?",
+        "#BEZUG!",
+        "#WERT!"
+      ],
+      "elemente": [
+        {
+          "text": "`=B1/B2`, B2 ist leer",
+          "kategorie": "#DIV/0!"
+        },
+        {
+          "text": "`=WENN(B2=3;befriedigend;\"\")`",
+          "kategorie": "#NAME?"
+        },
+        {
+          "text": "eine Zelle, auf die sich eine Formel bezieht, wurde gelöscht",
+          "kategorie": "#BEZUG!"
+        },
+        {
+          "text": "Text, wo eine Zahl stehen muss",
+          "kategorie": "#WERT!"
+        }
+      ],
+      "erklaerung": "Tabelle S. 9.",
+      "folie": "9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f28",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie druckst du ein Tabellenblatt so aus, dass die Formeln statt der Ergebnisse zu sehen sind?",
+      "antwort": "Registerkarte Formeln – Gruppe Formelüberwachung – Formeln anzeigen, dann drucken.",
+      "erklaerung": "S. 9.",
+      "folie": "9",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f29",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Übertrag auf Übungsblatt 5 / VL 3: Du willst das Heron-Verfahren für $\\sqrt{3}$ als Excel-Tabelle bauen (in A2 der Startwert, darunter die Näherungen; der Taschenrechnerwert $\\sqrt{3}$ steht in E1). Welche Formeln schreibst du in A3 und B2 (relativer Fehler), damit du sie nach unten ziehen kannst?",
+      "musterloesung": "A3: `=(A2+3/A2)/2` (Heron-Schritt; A2 wandert beim Ziehen mit). B2: `=ABS(A2-$E$1)/$E$1` (relativer Fehler; E1 mit \\$ festhalten, sonst wandert der Vergleichswert mit). Optional C2: `=WENN(B2<0,000001;\"fertig\";\"weiter\")`.",
+      "bewertungspunkte": [
+        "Heron-Formel mit relativem Bezug",
+        "ABS für den Betrag",
+        "Division durch den exakten Wert",
+        "`$E$1` festgehalten"
+      ],
+      "punkte": 4,
+      "erklaerung": "Transfer, selbst erarbeitet (VL 3: Heron, relativer Fehler; VL 4: ABS, $, WENN).",
+      "folie": "7–9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f30",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Nenne zwei Möglichkeiten aus VL 4, mit denen eine Lehrkraft Excel-Formeln für Schülerinnen und Schüler durchschaubarer macht, und begründe jeweils kurz.",
+      "musterloesung": "1) Zellen benennen (Länge, Breite): Formel liest sich wie in der Mathematik, Variablenname und -wert werden unterschieden. 2) Spur zum Vorgänger: Pfeile zeigen, von welchen Zellen das Ergebnis abhängt. (Auch möglich: Formeln anzeigen/ausdrucken; farbige Umrahmung beim Eingeben.)",
+      "bewertungspunkte": [
+        "zwei Möglichkeiten",
+        "je Begründung",
+        "Bezug zu Variablen/Abhängigkeit"
+      ],
+      "punkte": 4,
+      "erklaerung": "S. 4–5, 9.",
+      "folie": "4–5",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Klausurschwerpunkt laut VL 1 ist Programmierung, Aufgaben nah an den Übungsblättern – Teil 8 ist ausdrücklich Grundlage für Übungsblatt 5.",
+    "Typische Fehlerquellen: relativer statt absoluter Bezug beim Kopieren; mit formatierten statt gerundeten Werten weiterrechnen; Text in WENN ohne Anführungszeichen."
+  ],
+  "auffaelligkeiten": [
+    "Fenster-Blatt: „bis zu 1.084.576 Zeilen“ – richtig 1.048.576 (so steht es zwei Zeilen weiter unten).",
+    "Fenster-Blatt: Aufgabe nennt Excel 2007/2010, das Bild zeigt das heutige Excel (Microsoft 365).",
+    "S. 4: Gruppe heißt in Excel „Definierte Namen“ (Blatt: „Definiere Namen“); das @ vor Namen gibt es erst im neueren Excel, nicht in Excel 2010.",
+    "S. 6: „Registerkarte Diagramme“ gibt es in Excel 2010 nicht – gemeint ist Registerkarte Einfügen, Gruppe Diagramme.",
+    "S. 8: Erklärtext zum WENN-Beispiel vertauscht – laut Formel ergibt B2 > 4 „nicht bestanden“, nicht „bestanden“."
+  ],
+  "offene_fragen": [
+    "Fenster-Blatt: Zeigt Pfeil 3 (von oben ins Menüband) auf die Bearbeitungsleiste und die Klammer 6 auf die Gruppe „Ausrichtung“? (so angenommen)",
+    "Nested WENN (S. 9): Zeigt Excel #NAME? nur bei B2 = 3? (angenommen, da WENN nur den gewählten Zweig auswertet – am 03.11. ausprobieren)",
+    "Ist mit „absoluter Abstand“ in Teil 6 `=ABS(B4-B5)` gemeint oder reicht `=B4-B5`?"
+  ]
+}

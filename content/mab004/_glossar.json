@@ -323,6 +323,97 @@
       "erklaerung": "Beim Abziehen fast gleicher Zahlen heben sich die vorderen Ziffern auf; übrig bleibt ein kleiner, ungenauer Rest (Begriff ergänzt, nicht aus der Vorlesung).",
       "quelle": "mab004.1_2026-10-27 · Folie 37–38",
       "abweichungen": []
+    },
+    {
+      "begriff": "Tabellenkalkulation",
+      "wortlaut": "Eine Tabellenkalkulation ist eine Software für die interaktive Eingabe und Verarbeitung von numerischen und alphanumerischen Daten in Tabellenform. Vielfach erlaubt sie zusätzlich die grafische Darstellung der Ergebnisse in verschiedenen Anzeigeformen (Quelle: Wikipedia).",
+      "erklaerung": "Ein „rechnendes Rechenpapier“: Zahlen und Text in Zellen, dazu Formeln, die Ergebnisse automatisch aktuell halten; meist auch Diagramme. Beispiele: Excel, LibreOffice Calc.",
+      "quelle": "mab004.1_2026-11-03 · S. 1",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Arbeitsmappe / Tabellenblatt / Blattregister",
+      "wortlaut": "Eine Arbeitsmappe enthält mind. ein Tabellenblatt, Tabellenblätter sind im Blattregister aufgeführt.",
+      "erklaerung": "Arbeitsmappe = die Excel-Datei; Tabellenblätter = ihre „Seiten“; Blattregister = die Reiter unten (Tabelle1, Tabelle2 …).",
+      "quelle": "mab004.1_2026-11-03 · S. Fenster-Blatt 1",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Zelle / Zelladresse",
+      "wortlaut": "Zelle, mind. eine Zelle ist immer markiert. Zelladresse: A1 oder B3 oder XFD1048576 – die Adresse der markierten Zelle steht im Namenfeld.",
+      "erklaerung": "Eine Zelle ist ein Kästchen der Tabelle; ihre Adresse ist erst die Spalte (Buchstabe), dann die Zeile (Zahl), z. B. B3.",
+      "quelle": "mab004.1_2026-11-03 · S. Fenster-Blatt 1",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Namenfeld",
+      "wortlaut": "Die Adresse der markierten Zelle steht im Namenfeld. – Im Namenfeld kann die Bezeichnung der Zelle auch verändert werden.",
+      "erklaerung": "Feld links oben über Spalte A. Zeigt die Adresse (oder den Namen) der markierten Zelle; dort kann man einer Zelle einen eigenen Namen geben.",
+      "quelle": "mab004.1_2026-11-03 · S. Fenster-Blatt 1; S. 3–4",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Bearbeitungsleiste (Bearbeitungszeile)",
+      "wortlaut": "Eingabe in einer Zelle erscheint auch in der Bearbeitungsleiste – dort können auch Änderungen vorgenommen werden. – Die Formel der markierten Zelle ist auch in der Bearbeitungszeile zu sehen und kann dort gegebenenfalls geändert werden.",
+      "erklaerung": "Langes Feld neben fx. In der Zelle steht das Ergebnis, in der Bearbeitungsleiste die Formel dahinter.",
+      "quelle": "mab004.1_2026-11-03 · S. Fenster-Blatt 1; S. 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Formel (Excel)",
+      "wortlaut": "Jede Formel beginnt mit einem Gleichheitszeichen und wird mit der Eingabetaste abgeschlossen.",
+      "erklaerung": "Eine Rechenanweisung in einer Zelle, z. B. =B2-B3. Excel rechnet sie aus und rechnet neu, wenn sich eine der benutzten Zellen ändert.",
+      "quelle": "mab004.1_2026-11-03 · S. 2",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Relativer und absoluter Bezug ($-Zeichen)",
+      "wortlaut": "Das $-Zeichen vor einem Spalten- oder Zeilenbezeichner bewirkt, dass sich die entsprechende Spalte oder Zeile beim Kopieren nicht verändert.",
+      "erklaerung": "Ohne \\$ (relativer Bezug, z. B. `C14`) wandert die Adresse beim Kopieren mit. Mit \\$ (absoluter Bezug, z. B. `$C$17`) bleibt sie fest. Die Begriffe „relativ/absolut“ sind ergänzt, das Blatt beschreibt nur die Wirkung.",
+      "quelle": "mab004.1_2026-11-03 · S. 2–3; 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Spur (zum Vorgänger)",
+      "wortlaut": "Um den Schülerinnen und Schülern noch transparenter zu machen, welche Zellen in der Formel genutzt werden, kann eine Spur angezeigt werden. – Nun kann man die Entstehung der Formel verfolgen …",
+      "erklaerung": "Pfeile von den Zellen, aus denen eine Formel ihre Werte holt (Vorgänger), zur Formelzelle. Registerkarte Formeln – Formelüberwachung – Spur zum Vorgänger.",
+      "quelle": "mab004.1_2026-11-03 · S. 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Formatieren vs. Runden (RUNDEN)",
+      "wortlaut": "=RUNDEN(Zahl;AnzStellen), dabei kann Zahl ein konkreter Wert oder eine Zelle (z.B. B4), in der ein numerischer Wert steht, sein. AnzStellen gibt die Nachkommastelle k an, an der gerundet wird.",
+      "erklaerung": "Formatieren ändert nur die Anzeige, der gespeicherte Wert bleibt vollständig. RUNDEN rundet kaufmännisch und ändert den Wert selbst – damit wird weitergerechnet.",
+      "quelle": "mab004.1_2026-11-03 · S. 5–6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Funktionen SUMME, ANZAHL, MITTELWERT, ABS",
+      "wortlaut": "=Summe(Zahl1;[Zahl2];…) Berechnet die Summe aller Zahlen im angegebenen Bereich. – =Anzahl(Wert1;[Wert2];…) Zählt im angegebenen Bereich alle Zellen, in denen Zahlen enthalten sind. – =Mittelwert(Zahl1;[Zahl2];…) Gibt das arithmetische Mittel zurück. – =ABS(Zahl1) Gibt den Absolutwert (Betrag) einer Zahl zurück.",
+      "erklaerung": "SUMME addiert, ANZAHL zählt Zellen mit Zahlen, MITTELWERT = Summe : Anzahl, ABS entfernt das Vorzeichen.",
+      "quelle": "mab004.1_2026-11-03 · S. 7–8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Semikolon und Doppelpunktoperator",
+      "wortlaut": "Zellen (von – bis) mit Doppelpunktoperator (:) verbunden. Alle im angegebenen Bereich liegenden Zellen werden berücksichtigt. – Semikolon und Doppelpunktoperator können bei vielen Funktionen genutzt werden!",
+      "erklaerung": "Semikolon trennt einzelne Angaben („und“), der Doppelpunkt beschreibt einen Bereich („von … bis“), z. B. A1:B3 = das Rechteck von A1 bis B3.",
+      "quelle": "mab004.1_2026-11-03 · S. 7",
+      "abweichungen": []
+    },
+    {
+      "begriff": "WENN-Funktion",
+      "wortlaut": "=WENN(Prüfung;[Dann_Wert];[Sonst_Wert]) – Mehrere Wahrheitsprüfungen können auch ineinander verschachtelt werden.",
+      "erklaerung": "Ist die Prüfung wahr, liefert WENN den Dann-Wert, sonst den Sonst-Wert. Text steht in Anführungszeichen. Verschachteln = im Sonst-Teil steht ein weiteres WENN.",
+      "quelle": "mab004.1_2026-11-03 · S. 8–9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Absolute und relative Häufigkeit",
+      "wortlaut": "Tabelle S. 6: abs. Häufigkeit, rel. Häufigkeiten, n (kein Definitionstext auf dem Blatt).",
+      "erklaerung": "Absolute Häufigkeit = Anzahl (z. B. 70); relative Häufigkeit = Anteil an allen n Befragten, $\\frac{70}{400} = 17{,}50\\,\\%$. Begriffe ergänzt, nicht aus dem Material.",
+      "quelle": "mab004.1_2026-11-03 · S. 6",
+      "abweichungen": []
     }
   ]
 }

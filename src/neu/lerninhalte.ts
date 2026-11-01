@@ -55,15 +55,17 @@ export const symboleVon = (modul: string) => SYMBOLE.filter((s) => s.module.incl
 export const frageRef = (s: LSitzung, f: LFrage) => 'lf:' + s.datei + '#' + f.id;
 
 // ---------- Mini-Markdown mit Formeln ----------
-// Unterstützt: **fett**, *kursiv*, Tabellen (| … |), Listen (- … / 1. …), Überschriften (### …),
+// Unterstützt: `Code` (z. B. Excel-Formeln, wird nicht als Formel/kursiv gelesen), **fett**, *kursiv*, Tabellen (| … |), Listen (- … / 1. …), Überschriften (### …),
 // Regel-Kästen (> …), Bilder (![Unterschrift](/dateien/…svg) als eigener Absatz), Zeilenumbrüche und Formeln in LaTeX: $…$ (im Text) und $$…$$ (eigene Zeile, zentriert).
 const esc = (t: string) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const FORMEL = '\u0000F';
 function formelnRaus(t: string): { t: string; f: string[] } {
   const f: string[] = [];
+  t = t.replace(/`([^`\n]+)`/g, (_: string, x: string) => { f.push('<code class="lt-code">' + esc(x) + '</code>'); return FORMEL + (f.length - 1) + '\u0000'; });
   const put = (tex: string, block: boolean) => { f.push(katex.renderToString(tex, { throwOnError: false, displayMode: block, strict: false, output: 'html' })); return FORMEL + (f.length - 1) + '\u0000'; };
   t = t.replace(/\$\$([\s\S]+?)\$\$/g, (_, x) => put(x.trim(), true));
   t = t.replace(/(^|[^\\])\$([^$\n]+?)\$/g, (_, v, x) => v + put(x, false));
+  t = t.replace(/\\\$/g, '$');
   return { t, f };
 }
 const formelnRein = (h: string, f: string[]) => h.replace(/\u0000F(\d+)\u0000/g, (_, i) => f[+i]);

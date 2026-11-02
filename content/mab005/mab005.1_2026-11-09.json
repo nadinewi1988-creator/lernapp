@@ -1,0 +1,309 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "mab005",
+  "teilmodul": "mab005.1",
+  "datum": "2026-11-09",
+  "sitzung_nr": 5,
+  "sitzung_id": "",
+  "thema": "Kapitel 2 ab Folie 22: Stochastische Unabhängigkeit",
+  "thema_in_app": "eingetragen",
+  "stand": "geprueft",
+  "hinweis": "Vor der Vorlesung vorbereitet (02.11.2026): Kapitel 2, Folie 22–32 = Rest von Kapitel 2. Welche Folien am 09.11. tatsächlich drankommen, wird nach der Vorlesung bestätigt (Schema 5c); was nicht geschafft wird, wandert in die nächste Sitzung.",
+  "quellen": [
+    {
+      "datei": "mab005.1/Sitzung_04/VL_Kapitel2_mab005_Handout.pdf",
+      "art": "Folien Kapitel 2",
+      "seiten": "22–32"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Stochastische Unabhängigkeit zweier Ereignisse definieren und nachprüfen; Unabhängigkeit von Disjunktheit unterscheiden.",
+      "art": "abgeleitet",
+      "quelle": "Kap. 2, Folie 23",
+      "fragen": [
+        "f01",
+        "f02",
+        "f08",
+        "f09"
+      ],
+      "erklaerung_abschnitt": "Stochastische Unabhängigkeit – Definition und Beispiel (Kapitel 2, Folie 22–23)"
+    },
+    {
+      "text": "Die Kriterien für Unabhängigkeit (Satz 2.2.3–2.2.6) nennen und beweisen.",
+      "art": "abgeleitet",
+      "quelle": "Kap. 2, Folie 24–28",
+      "fragen": [
+        "f03",
+        "f04",
+        "f05"
+      ],
+      "erklaerung_abschnitt": "Kriterien für stochastische Unabhängigkeit (Kapitel 2, Folie 24–28)"
+    },
+    {
+      "text": "Die Unabhängigkeit mehrerer Ereignisse prüfen und erklären, warum paarweise Unabhängigkeit nicht genügt.",
+      "art": "abgeleitet",
+      "quelle": "Kap. 2, Folie 29–31",
+      "fragen": [
+        "f06",
+        "f07"
+      ],
+      "erklaerung_abschnitt": "Unabhängigkeit von mehr als zwei Ereignissen (Kapitel 2, Folie 29–30)"
+    }
+  ],
+  "kurzfassung": [
+    "$A$ und $B$ heißen stochastisch unabhängig, wenn $P(A \\cap B) = P(A) \\cdot P(B)$ (Definition 2.2.1).",
+    "Gleichwertig: $P(A \\mid B) = P(A)$ für $P(B) > 0$ (Satz 2.2.3) bzw. $P(A \\mid B) = P(A \\mid \\bar{B})$ für $0 < P(B) < 1$ (Satz 2.2.6).",
+    "Mit $A$, $B$ sind auch $\\bar{A}$, $B$ und $A$, $\\bar{B}$ unabhängig (Satz 2.2.4); von allen Ereignissen unabhängig sind genau die mit $P(B) = 0$ oder $1$ (Satz 2.2.5).",
+    "Unabhängig ist nicht disjunkt: Disjunkte Ereignisse mit positiver Wahrscheinlichkeit sind abhängig.",
+    "Mehrere Ereignisse: Für jede endliche Auswahl muss die Produktformel gelten; paarweise Unabhängigkeit reicht nicht (Beispiel 2.2.8)."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Stochastische Unabhängigkeit – Definition und Beispiel (Kapitel 2, Folie 22–23)",
+      "folien": "22–23",
+      "text": "**Idee in Alltagssprache:** Zwei Ereignisse sind **unabhängig**, wenn das eine nichts über das andere verrät. Wirft man eine Münze und einen Würfel, sagt die Münze nichts über die Augenzahl. Mathematisch: Die Wahrscheinlichkeit, dass **beide** eintreten, ist einfach das **Produkt** der einzelnen Wahrscheinlichkeiten.\n\nDas ist der zweite Teil von Kapitel 2 (Folie 22: „2 Stochastische Unabhängigkeit“).\n\n> **Definition 2.2.1 (Stochastische Unabhängigkeit):** Zwei Ereignisse $A$ und $B$ heißen **stochastisch unabhängig** (bzgl. $P$), wenn gilt\n> $$P(A \\cap B) = P(A) \\cdot P(B)$$\n\n**Vorgelesen:** „bzgl. $P$“ heißt „bezüglich $P$“: Ob zwei Ereignisse unabhängig sind, hängt vom Wahrscheinlichkeitsmaß ab – mit einem gezinkten Würfel kann sich das ändern.\n\n**Beispiel 2.2.2** (Folie 23 – Lösung steht auf der Folie):\n\n{{aufgabe a01}}\n\n*Kurz erklärt:* Unabhängigkeit ist **keine** Eigenschaft, die man „sieht“ – man muss sie **nachrechnen**. Im Beispiel liegen $B$ = „größer 4“ und $C$ = „größer 3“ ganz ähnlich, trotzdem ist $A$ von $B$ unabhängig, von $C$ aber nicht.\n\n**Prüfungsfalle:** **Unabhängig ist nicht disjunkt!** Disjunkte Ereignisse mit $P(A) > 0$ und $P(B) > 0$ sind sogar immer **ab**hängig: $P(A \\cap B) = 0$, aber $P(A) \\cdot P(B) > 0$. Wenn $A$ eintritt, weiß man nämlich sicher, dass $B$ **nicht** eintritt.",
+      "beispiel": "Münze und Würfel: $A$ = „Wappen“, $B$ = „Sechs“. $P(A \\cap B) = \\frac{1}{12} = \\frac{1}{2} \\cdot \\frac{1}{6} = P(A) \\cdot P(B)$ – unabhängig."
+    },
+    {
+      "titel": "Kriterien für stochastische Unabhängigkeit (Kapitel 2, Folie 24–28)",
+      "folien": "24–28",
+      "text": "Statt mit der Produktformel kann man Unabhängigkeit auch mit **bedingten Wahrscheinlichkeiten** prüfen. Die Beweise, die hier fehlen („Übung (AB4)“), stehen vollständig in der Lösung zu **Blatt 04, Aufgabe B.2**.\n\n> **Satz 2.2.3:** Seien $A$ und $B$ zwei Ereignisse mit $P(B) > 0$. Dann sind $A$ und $B$ genau dann stochastisch unabhängig, wenn\n> $$P(A \\mid B) = P(A).$$\n\n**Beweis (Folie 24):** „⇐“: Ist $P(A \\mid B) = P(A)$, dann nach dem Multiplikationssatz $P(A \\cap B) = P(B) \\cdot P(A \\mid B) = P(B) \\cdot P(A)$ – also unabhängig nach Definition 2.2.1. „⇒“: Übung (AB4) = **Blatt 04, B.2a**: $P(A \\mid B) = \\frac{P(A) \\cdot P(B)}{P(B)} = P(A)$.\nFolie 24 betont: $P(B) > 0$ braucht man nur für „unabhängig ⇒ $P(A \\mid B) = P(A)$“; die Gegenrichtung stimmt auch für $P(B) = 0$.\n\n*Kurz erklärt:* „Genau dann, wenn“ ($\\iff$) heißt: Beide Richtungen gelten. $P(A \\mid B) = P(A)$ sagt: Das Wissen „$B$ ist eingetreten“ ändert die Wahrscheinlichkeit von $A$ **nicht**.\n\n> **Satz 2.2.4:** Sind zwei Ereignisse $A$ und $B$ stochastisch unabhängig, dann sind auch $\\bar{A}$ und $B$ (bzw. $A$ und $\\bar{B}$) stochastisch unabhängig.\n\n**Beweis:** Übung (AB4) = **Blatt 04, B.2b**: $P(A \\cap \\bar{B}) = P(A) - P(A \\cap B) = P(A) - P(A) \\cdot P(B) = P(A) \\cdot (1 - P(B)) = P(A) \\cdot P(\\bar{B})$.\n\n> **Satz 2.2.5:** Für jedes Ereignis $B$ sind die folgenden Aussagen äquivalent:\n> 1. $B$ ist von jedem Ereignis $A$ stochastisch unabhängig.\n> 2. $B$ ist von seinem Gegenereignis $\\bar{B}$ stochastisch unabhängig.\n> 3. Es gilt $P(B) = 0$ oder $P(B) = 1$.\n\n**Beweis (Folie 26):** (1) ⇒ (2): Mit „jedes Ereignis“ ist insbesondere $\\bar{B}$ gemeint. (2) ⇒ (3):\n$$0 \\overset{\\text{Satz 1.4.6 (2′)}}{=} P(\\emptyset) = P(B \\cap \\bar{B}) \\overset{\\text{Def. 2.2.1}}{=} P(B) \\cdot P(\\bar{B}) \\overset{\\text{Satz 1.4.7 (4)}}{=} P(B) \\cdot (1 - P(B)),$$\nalso $P(B) = 0$ oder $P(B) = 1$ (ein Produkt ist nur 0, wenn ein Faktor 0 ist). (3) ⇒ (1): Übung (AB4) = **Blatt 04, B.2c**.\n\n*Kurz erklärt:* „Äquivalent“ heißt: Alle drei Aussagen sind gleichwertig – gilt eine, gelten alle. Nur ein (fast) unmögliches oder (fast) sicheres Ereignis ist von allem unabhängig – es verrät nichts.\n\n> **Satz 2.2.6:** Seien $A$ und $B$ zwei Ereignisse mit $0 < P(B) < 1$. Dann sind $A$ und $B$ genau dann stochastisch unabhängig, wenn\n> $$P(A \\mid B) = P(A \\mid \\bar{B}).$$\n\n**Beweis (Folie 27–28):** „⇒“: Mit $A$, $B$ sind nach Satz 2.2.4 auch $A$, $\\bar{B}$ unabhängig; wegen $P(B) < 1$ ist $P(\\bar{B}) > 0$. Mit Satz 2.2.3 zweimal: $P(A \\mid B) = P(A) = P(A \\mid \\bar{B})$.\n„⇐“: Wegen $\\Omega = B \\,\\dot\\cup\\, \\bar{B}$ (totale Wahrscheinlichkeit, Multiplikationssatz, Gegenereignis):\n$$P(A) = P(A \\cap B) + P(A \\cap \\bar{B}) = P(B) \\cdot P(A \\mid B) + P(\\bar{B}) \\cdot P(A \\mid \\bar{B})$$\n$$= P(B) \\cdot P(A \\mid B) + P(\\bar{B}) \\cdot P(A \\mid B) = \\big(P(B) + P(\\bar{B})\\big) \\cdot P(A \\mid B) = 1 \\cdot P(A \\mid B).$$\nAus $P(A) = P(A \\mid B)$ folgt mit Satz 2.2.3 die Unabhängigkeit. $\\blacksquare$ (Für diese Richtung braucht man $0 < P(B) < 1$ nicht.)\n\n*Kurz erklärt:* $A$ tritt „mit $B$“ genauso oft ein wie „ohne $B$“ – dann hat $B$ offenbar keinen Einfluss.\n\n**Typische Klausurfrage:** „Prüfen Sie, ob $A$ und $B$ stochastisch unabhängig sind.“ → $P(A)$, $P(B)$, $P(A \\cap B)$ ausrechnen und $P(A \\cap B)$ mit $P(A) \\cdot P(B)$ vergleichen – oder $P(A \\mid B)$ mit $P(A)$.",
+      "beispiel": "Vierfeldertafel: 30 % der Schüler sind im Chor, 40 % im Sport, 12 % in beidem. $0{,}3 \\cdot 0{,}4 = 0{,}12$ – unabhängig. Probe: $P(\\text{Chor} \\mid \\text{Sport}) = \\frac{0{,}12}{0{,}4} = 0{,}3 = P(\\text{Chor})$."
+    },
+    {
+      "titel": "Unabhängigkeit von mehr als zwei Ereignissen (Kapitel 2, Folie 29–30)",
+      "folien": "29–30",
+      "text": "> **Definition 2.2.7 (Stochastische Unabhängigkeit abzählbar vieler Ereignisse):** Ein abzählbares System von Ereignissen $A_i$ mit $i \\in I$ heißt stochastisch unabhängig, wenn für jede endliche Teilmenge $\\{i_1, i_2, \\ldots, i_k\\}$ von $I$ gilt\n> $$P\\left(\\bigcap_{j=1}^{k} A_{i_j}\\right) = \\prod_{j=1}^{k} P(A_{i_j})$$\n\n**Vorgelesen:** $\\bigcap_{j=1}^{k}$ heißt „Schnitt von $j = 1$ bis $k$“ (alle diese Ereignisse treten ein), $\\prod_{j=1}^{k}$ (großes Pi) heißt „**Produkt** von $j = 1$ bis $k$“ – wie $\\sum$, nur mit Malnehmen. $A_{i_j}$ ist das $j$-te ausgewählte Ereignis.\nFür drei Ereignisse $A$, $B$, $C$ heißt das: **alle vier** Gleichungen müssen gelten:\n$$P(A \\cap B) = P(A) P(B), \\quad P(A \\cap C) = P(A) P(C), \\quad P(B \\cap C) = P(B) P(C), \\quad P(A \\cap B \\cap C) = P(A) P(B) P(C).$$\n\n**Beispiel 2.2.8** (Folie 30, Lösung selbst erarbeitet – die Folie ist eine Lückenfolie):\n\n{{aufgabe a02}}\n\n**Prüfungsfalle (Folie 31):** Aus **paarweiser** Unabhängigkeit folgt **nicht** automatisch die Unabhängigkeit des ganzen Systems – genau das zeigt Beispiel 2.2.8. Man muss auch den Schnitt aller drei prüfen.",
+      "beispiel": "Dreimal Münzwurf, $A_j$ = „Wappen im $j$-ten Wurf“: $P(A_1 \\cap A_2 \\cap A_3) = \\frac{1}{8} = \\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2}$, ebenso für jedes Paar – das System ist stochastisch unabhängig."
+    },
+    {
+      "titel": "Zusammenfassung Kapitel 2 (Folie 31–32)",
+      "folien": "31–32",
+      "text": "Die Zusammenfassung der Folie in einfachen Worten:\n- $P(A \\mid B)$ = Wahrscheinlichkeit von $A$, wenn $B$ auf jeden Fall eintritt; für $P(B) > 0$ ist $P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)}$ (Ergebnisraum auf $B$ einschränken). $P(B) = 0$ ist nur ein formaler Randfall ($:= 0$).\n- **Multiplikationssatz** $P(A \\cap B) = P(B) \\cdot P(A \\mid B)$, verallgemeinert: **Verkettungsregel**. **Baumdiagramme** eignen sich gut für geschnittene Ereignisse und bedingte Wahrscheinlichkeiten.\n- Kennt man alle $P(B_i)$ und $P(A \\mid B_i)$ für eine disjunkte Zerlegung, liefert die **Formel der totalen Wahrscheinlichkeit** $P(A)$ und die **Bayes-Umkehr-Formel** $P(B_k \\mid A)$ (falls $P(A) > 0$).\n- **Stochastisch unabhängig**: $P(A \\cap B) = P(A) \\cdot P(B)$; gleichwertig $P(A \\mid B) = P(A)$ bzw. $P(A \\mid B) = P(A \\mid \\bar{B})$.\n- Für mehr als zwei Ereignisse: Aus **paarweiser** Unabhängigkeit folgt **nicht** zwingend die Unabhängigkeit aller zusammen!\n\nLiteratur (Folie 32): Hübner (2009), Stochastik.\n\n⚠ Folie 31 sagt, der Multiplikationssatz lasse sich „auf mehr als drei Ereignisse“ verallgemeinern – gemeint ist wohl „mehr als zwei“ (die Verkettungsregel 2.1.7 ist schon der Fall mit drei).",
+      "beispiel": ""
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Stochastische Unabhängigkeit",
+      "wortlaut": "Definition 2.2.1 (Stochastische Unabhängigkeit) Zwei Ereignisse $A$ und $B$ heißen stochastisch unabhängig (bzgl. $P$), wenn gilt $P(A \\cap B) = P(A) \\cdot P(B)$",
+      "erklaerung": "Das eine Ereignis verrät nichts über das andere; die Wahrscheinlichkeit für „beide“ ist das Produkt. Gleichwertig (für $P(B) > 0$): $P(A \\mid B) = P(A)$. Beispiel Würfel: „gerade“ und „größer 4“ sind unabhängig ($\\frac{1}{6} = \\frac{1}{2} \\cdot \\frac{1}{3}$). Nicht verwechseln mit disjunkt!",
+      "folie": "Kap. 2, 23"
+    },
+    {
+      "begriff": "Stochastische Unabhängigkeit abzählbar vieler Ereignisse",
+      "wortlaut": "Definition 2.2.7 (Stochastische Unabhängigkeit abzählbar vieler Ereignisse) Ein abzählbares System von Ereignissen $A_i$ mit $i \\in I$ heißt stochastisch unabhängig, wenn für jede endliche Teilmenge $\\{i_1, i_2, \\ldots, i_k\\}$ von $I$ gilt $P\\left(\\bigcap_{j=1}^{k} A_{i_j}\\right) = \\prod_{j=1}^{k} P(A_{i_j})$",
+      "erklaerung": "Für jede Auswahl endlich vieler Ereignisse muss „Wahrscheinlichkeit, dass alle eintreten“ = Produkt der Einzelwahrscheinlichkeiten sein. Bei drei Ereignissen: drei Paar-Gleichungen und eine Dreier-Gleichung. Paarweise Unabhängigkeit allein reicht nicht (Beispiel 2.2.8).",
+      "folie": "Kap. 2, 29"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 2.2.2: Beim einmaligen Wurf eines fairen, sechsseitigen Würfels mit den Ereignissen $A$: „Augenzahl ist gerade“, $B$: „Augenzahl ist größer 4“ und $C$: „Augenzahl ist größer 3“ gilt: $P(A \\cap B) = \\frac{1}{6} = \\frac{1}{2} \\cdot \\frac{1}{3} = P(A) \\cdot P(B)$, $P(A \\cap C) = \\frac{1}{3} \\neq \\frac{1}{2} \\cdot \\frac{1}{2} = P(A) \\cdot P(C)$. Die Ereignisse $A$ und $B$ sind stochastisch unabhängig, die Ereignisse $A$ und $C$ hingegen nicht.",
+      "quelle": "Kapitel 2, Folie 23",
+      "loesung": "$A = \\{2, 4, 6\\}$, $B = \\{5, 6\\}$, $C = \\{4, 5, 6\\}$.\n\n- $A \\cap B = \\{6\\}$: $P(A \\cap B) = \\frac{1}{6}$ und $P(A) \\cdot P(B) = \\frac{3}{6} \\cdot \\frac{2}{6} = \\frac{1}{2} \\cdot \\frac{1}{3} = \\frac{1}{6}$ – gleich, also **unabhängig**.\n- $A \\cap C = \\{4, 6\\}$: $P(A \\cap C) = \\frac{2}{6} = \\frac{1}{3}$, aber $P(A) \\cdot P(C) = \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4}$ – verschieden, also **nicht unabhängig**.\n\nMit bedingten Wahrscheinlichkeiten: $P(A \\mid B) = \\frac{1/6}{2/6} = \\frac{1}{2} = P(A)$ ✓, aber $P(A \\mid C) = \\frac{1/3}{1/2} = \\frac{2}{3} \\neq \\frac{1}{2}$.",
+      "loesungsweg": "Lösung steht auf der Folie; Mengen und Probe mit $P(A \\mid \\cdot)$ ergänzt (Satz 2.2.3). Anschaulich: Unter den Zahlen größer 4 (5, 6) ist die Hälfte gerade – wie insgesamt. Unter den Zahlen größer 3 (4, 5, 6) sind aber zwei von drei gerade – mehr als insgesamt.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 2.2.8: Betrachtet wird der zweifache Wurf eines fairen Würfels mit $\\Omega = \\{1, 2, 3, 4, 5, 6\\}^2$ und die folgenden Ereignisse: $A$: Die Augenzahl des ersten Wurfes ist gerade. $B$: Die Augenzahl des zweiten Wurfes ist gerade. $C$: Die Summe der geworfenen Augenzahlen ist gerade. Prüfen Sie, ob $A$, $B$, $C$ stochastisch unabhängig sind. $P(A) =$, $P(B) =$, $P(C) =$, $P(A \\cap B) =$, $P(A \\cap C) =$, $P(B \\cap C) =$, $P(A \\cap B \\cap C) =$",
+      "quelle": "Kapitel 2, Folie 30",
+      "loesung": "$|\\Omega| = 6 \\cdot 6 = 36$, Laplace-Experiment. Je Wurf sind 3 von 6 Zahlen gerade.\n\n- $P(A) = \\frac{3 \\cdot 6}{36} = \\frac{1}{2}$, $P(B) = \\frac{6 \\cdot 3}{36} = \\frac{1}{2}$.\n- $C$: Die Summe ist gerade, wenn **beide** Zahlen gerade oder **beide** ungerade sind: $3 \\cdot 3 + 3 \\cdot 3 = 18$ Paare, $P(C) = \\frac{18}{36} = \\frac{1}{2}$.\n- $A \\cap B$: beide gerade, $3 \\cdot 3 = 9$ Paare: $P(A \\cap B) = \\frac{9}{36} = \\frac{1}{4} = \\frac{1}{2} \\cdot \\frac{1}{2}$ ✓\n- $A \\cap C$: erste gerade **und** Summe gerade ⇒ auch die zweite ist gerade, also $A \\cap C = A \\cap B$: $P(A \\cap C) = \\frac{1}{4} = \\frac{1}{2} \\cdot \\frac{1}{2}$ ✓\n- $B \\cap C$: ebenso $= A \\cap B$: $P(B \\cap C) = \\frac{1}{4}$ ✓\n- $A \\cap B \\cap C$: beide gerade (dann ist die Summe automatisch gerade): $P(A \\cap B \\cap C) = \\frac{9}{36} = \\frac{1}{4}$, aber $P(A) \\cdot P(B) \\cdot P(C) = \\frac{1}{8}$ ✗\n\n**Ergebnis:** $A$, $B$, $C$ sind **paarweise** stochastisch unabhängig, aber als System **nicht** stochastisch unabhängig, weil $P(A \\cap B \\cap C) = \\frac{1}{4} \\neq \\frac{1}{8}$.",
+      "loesungsweg": "Selbst erarbeitet (Lückenfolie). Nach Definition 2.2.7 müssen für drei Ereignisse alle drei Paar-Gleichungen **und** die Gleichung für den Schnitt aller drei gelten. Anschaulich: Kennt man $A$ und $B$ (beide Würfe gerade), weiß man $C$ sicher – also verraten $A$ und $B$ **zusammen** etwas über $C$, auch wenn jedes allein nichts verrät. Zähltipp: „erste gerade“ = 3 Möglichkeiten für den ersten Wurf mal 6 für den zweiten.",
+      "frist": "",
+      "im_kalender": false
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wann heißen zwei Ereignisse $A$ und $B$ stochastisch unabhängig (Definition 2.2.1)?",
+      "antwort": "Wenn $P(A \\cap B) = P(A) \\cdot P(B)$ gilt.",
+      "erklaerung": "Definition 2.2.1, Folie 23.",
+      "folie": "Kap. 2, 23",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Fairer Würfel, $A$: „gerade“, $B$: „größer 4“, $C$: „größer 3“. Prüfe, ob $A$ und $B$ bzw. $A$ und $C$ stochastisch unabhängig sind.",
+      "musterloesung": "$P(A \\cap B) = P(\\{6\\}) = \\frac{1}{6} = \\frac{1}{2} \\cdot \\frac{1}{3}$ – unabhängig. $P(A \\cap C) = P(\\{4, 6\\}) = \\frac{1}{3} \\neq \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4}$ – nicht unabhängig.",
+      "bewertungspunkte": [
+        "Mengen $A$, $B$, $C$",
+        "$A$, $B$: Produktformel erfüllt",
+        "$A$, $C$: $\\frac{1}{3} \\neq \\frac{1}{4}$"
+      ],
+      "punkte": 3,
+      "erklaerung": "Beispiel 2.2.2, Folie 23.",
+      "folie": "Kap. 2, 23",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen über stochastische Unabhängigkeit stimmen?",
+      "optionen": [
+        "Disjunkte Ereignisse mit positiver Wahrscheinlichkeit sind stochastisch unabhängig.",
+        "Für $P(B) > 0$ gilt: $A$, $B$ unabhängig $\\iff$ $P(A \\mid B) = P(A)$.",
+        "Sind $A$, $B$ unabhängig, dann auch $A$ und $\\bar{B}$.",
+        "Für $0 < P(B) < 1$ gilt: $A$, $B$ unabhängig $\\iff$ $P(A \\mid B) = P(A \\mid \\bar{B})$.",
+        "Aus paarweiser Unabhängigkeit von $A$, $B$, $C$ folgt immer, dass $A$, $B$, $C$ stochastisch unabhängig sind."
+      ],
+      "richtig": [
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Satz 2.2.3, 2.2.4, 2.2.6. Disjunkt mit positiven Wahrscheinlichkeiten: $P(A \\cap B) = 0 \\neq P(A) P(B)$ – abhängig. Paarweise reicht nicht (Beispiel 2.2.8, Folie 31).",
+      "folie": "Kap. 2, 24–31",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Beweise Satz 2.2.3: Für $P(B) > 0$ sind $A$ und $B$ genau dann stochastisch unabhängig, wenn $P(A \\mid B) = P(A)$.",
+      "musterloesung": "„⇒“: $P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{P(A) \\cdot P(B)}{P(B)} = P(A)$. „⇐“: Multiplikationssatz: $P(A \\cap B) = P(B) \\cdot P(A \\mid B) = P(B) \\cdot P(A)$, also unabhängig. $\\blacksquare$",
+      "bewertungspunkte": [
+        "beide Richtungen",
+        "„⇒“ mit Definition 2.1.2 und Kürzen",
+        "„⇐“ mit Multiplikationssatz"
+      ],
+      "punkte": 4,
+      "erklaerung": "Folie 24 und Blatt 04, B.2a.",
+      "folie": "Kap. 2, 24",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Zeige (Satz 2.2.5, (2) ⇒ (3)): Ist $B$ von seinem Gegenereignis $\\bar{B}$ stochastisch unabhängig, dann ist $P(B) = 0$ oder $P(B) = 1$.",
+      "musterloesung": "$0 = P(\\emptyset) = P(B \\cap \\bar{B}) = P(B) \\cdot P(\\bar{B}) = P(B) \\cdot (1 - P(B))$. Ein Produkt ist nur 0, wenn ein Faktor 0 ist: $P(B) = 0$ oder $1 - P(B) = 0$, also $P(B) = 1$. $\\blacksquare$",
+      "bewertungspunkte": [
+        "$B \\cap \\bar{B} = \\emptyset$, Nulltreue",
+        "Unabhängigkeit eingesetzt",
+        "$P(\\bar{B}) = 1 - P(B)$",
+        "Schluss aus dem Produkt"
+      ],
+      "punkte": 4,
+      "erklaerung": "Beweis Folie 26.",
+      "folie": "Kap. 2, 26",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wann ist ein System von drei Ereignissen $A$, $B$, $C$ stochastisch unabhängig (Definition 2.2.7)?",
+      "antwort": "Wenn für jede endliche Auswahl die Wahrscheinlichkeit des Schnitts das Produkt der Einzelwahrscheinlichkeiten ist: $P(A \\cap B) = P(A) P(B)$, $P(A \\cap C) = P(A) P(C)$, $P(B \\cap C) = P(B) P(C)$ **und** $P(A \\cap B \\cap C) = P(A) P(B) P(C)$.",
+      "erklaerung": "Definition 2.2.7, Folie 29.",
+      "folie": "Kap. 2, 29",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Zweimal würfeln. $A$: „erster Wurf gerade“, $B$: „zweiter Wurf gerade“, $C$: „Summe gerade“. Sind $A$, $B$, $C$ stochastisch unabhängig?",
+      "musterloesung": "$P(A) = P(B) = P(C) = \\frac{1}{2}$; $P(A \\cap B) = P(A \\cap C) = P(B \\cap C) = \\frac{9}{36} = \\frac{1}{4}$ – paarweise unabhängig. Aber $P(A \\cap B \\cap C) = \\frac{1}{4} \\neq \\frac{1}{8}$ – das System ist nicht stochastisch unabhängig.",
+      "bewertungspunkte": [
+        "Einzelwahrscheinlichkeiten $\\frac{1}{2}$ (auch $C$!)",
+        "Paarschnitte $\\frac{1}{4}$",
+        "Dreierschnitt $\\frac{1}{4}$",
+        "Schluss: paarweise, aber nicht insgesamt unabhängig"
+      ],
+      "punkte": 4,
+      "erklaerung": "Beispiel 2.2.8, Folie 30.",
+      "folie": "Kap. 2, 30",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu: Sind die Ereignisse beim einmaligen fairen Würfelwurf stochastisch unabhängig?",
+      "kategorien": [
+        "unabhängig",
+        "nicht unabhängig"
+      ],
+      "elemente": [
+        {
+          "text": "„gerade“ und „größer 4“",
+          "kategorie": "unabhängig"
+        },
+        {
+          "text": "„gerade“ und „größer 3“",
+          "kategorie": "nicht unabhängig"
+        },
+        {
+          "text": "„gerade“ und „ungerade“",
+          "kategorie": "nicht unabhängig"
+        },
+        {
+          "text": "„gerade“ und Ω (sicheres Ereignis)",
+          "kategorie": "unabhängig"
+        },
+        {
+          "text": "„kleiner 3“ und „gerade“",
+          "kategorie": "unabhängig"
+        }
+      ],
+      "erklaerung": "Produktformel prüfen: $\\{2\\}$: $\\frac{1}{6} = \\frac{1}{3} \\cdot \\frac{1}{2}$ (kleiner 3 und gerade) ✓; gerade/ungerade sind disjunkt ⇒ abhängig; $\\Omega$ hat $P = 1$ (Satz 2.2.5).",
+      "folie": "Kap. 2, 23–26",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Eine Schülerin sagt: „Wenn zwei Ereignisse nichts gemeinsam haben, sind sie unabhängig.“ Was antwortest du?",
+      "musterloesung": "Das stimmt nicht. „Nichts gemeinsam“ heißt disjunkt: $A \\cap B = \\emptyset$. Haben beide eine positive Wahrscheinlichkeit, ist $P(A \\cap B) = 0$, aber $P(A) \\cdot P(B) > 0$ – sie sind also **abhängig**. Anschaulich: Wenn $A$ eintritt, weiß man sicher, dass $B$ nicht eintritt – $A$ verrät also sehr viel über $B$.",
+      "bewertungspunkte": [
+        "disjunkt ≠ unabhängig",
+        "Produktformel verletzt",
+        "anschauliche Begründung"
+      ],
+      "punkte": 3,
+      "erklaerung": "Typische Fehlvorstellung (Kompetenzziel „Fehlvorstellungen zum Zufall“).",
+      "folie": "Kap. 2, 23",
+      "pruefungsrelevant": false
+    }
+  ],
+  "pruefungshinweise": [
+    "Die Beweise zu Satz 2.2.3 („⇒“), 2.2.4 und 2.2.5 ((3) ⇒ (1)) sind Aufgabe B.2 auf Blatt 04 – klausurtypisch."
+  ],
+  "offene_fragen": [
+    "Nach der Vorlesung am 09.11. bestätigen: Welche Folien wurden bearbeitet (von – bis)? Vorbereitet sind Kapitel 2, Folie 22–32.",
+    "Beispiel 2.2.8 (Folie 30) ist eine Lückenfolie – Lösung selbst erarbeitet, mit der Lösung aus der Vorlesung abgleichen.",
+    "Kapitel 2, Folie 31: „auf mehr als drei Ereignisse verallgemeinern“ – gemeint vermutlich „mehr als zwei“."
+  ]
+}

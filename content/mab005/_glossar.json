@@ -101,6 +101,62 @@
       "erklaerung": "Alle Ausgänge sind gleich wahrscheinlich – dann ist die Wahrscheinlichkeit „Anzahl günstige durch Anzahl mögliche Ergebnisse“, $P(A) = \\frac{|A|}{|\\Omega|}$ ($|A|$ = Anzahl der Elemente von $A$). Beispiel fairer Würfel: $P(\\text{gerade}) = \\frac{3}{6} = \\frac{1}{2}$.",
       "quelle": "mab005.1_2026-10-26 · Folie 50",
       "abweichungen": []
+    },
+    {
+      "begriff": "Bedingte Wahrscheinlichkeit",
+      "wortlaut": "Definition 2.1.2 (Bedingte Wahrscheinlichkeit) Seien $A$, $B$ Ereignisse in $\\Omega$ und sei $P(B) > 0$. Dann heißt $P(A \\mid B) := \\frac{P(A \\cap B)}{P(B)}$ die bedingte Wahrscheinlichkeit von $A$ unter der Bedingung $B$. Für $P(B) = 0$ wird stattdessen $P(A \\mid B) := 0$ gesetzt.",
+      "erklaerung": "Die Wahrscheinlichkeit von $A$, wenn man schon weiß, dass $B$ eingetreten ist – man schränkt den Ergebnisraum auf $B$ ein. Sprich: „P von A unter der Bedingung B“. Beispiel zehnseitiger Würfel: $P(\\text{ungerade} \\mid \\text{Primzahl}) = \\frac{3}{4}$ (3 der 4 Primzahlen 2, 3, 5, 7 sind ungerade). Kein zeitlicher oder ursächlicher Zusammenhang nötig.",
+      "quelle": "mab005.1_2026-11-02 · Folie Kap. 2, 9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Multiplikationssatz",
+      "wortlaut": "Satz 2.1.6 (Multiplikationssatz) Für je zwei beliebige Ereignisse $A$, $B$ gilt die Formel $P(A \\cap B) = P(B) \\cdot P(A \\mid B)$.",
+      "erklaerung": "Die umgestellte Definition der bedingten Wahrscheinlichkeit – gilt auch für $P(B) = 0$. Im Baumdiagramm die Pfadregel: Wahrscheinlichkeiten entlang eines Pfades multiplizieren. Beispiel: erst rot ($\\frac{4}{10}$), dann blau ($\\frac{6}{9}$): $\\frac{4}{10} \\cdot \\frac{6}{9} = \\frac{4}{15}$.",
+      "quelle": "mab005.1_2026-11-02 · Folie Kap. 2, 14",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Verkettungsregel",
+      "wortlaut": "Satz 2.1.7 (Verkettungsregel) Für je drei Ereignisse $A$, $B$, $C$ gilt die Formel $P(A \\cap B \\cap C) = P(C) \\cdot P(B \\mid C) \\cdot P(A \\mid B \\cap C)$.",
+      "erklaerung": "Der Multiplikationssatz für drei (und analog mehr) Ereignisse – die Pfadregel bei einem Baum mit drei Stufen. Beweis: zweimal den Multiplikationssatz anwenden.",
+      "quelle": "mab005.1_2026-11-02 · Folie Kap. 2, 15",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Zerlegung, disjunkte Zerlegung",
+      "wortlaut": "Definition 2.1.9 (Zerlegung) Gilt für Mengen $B_i$ mit $i \\in I$, dass $\\Omega = \\bigcup_{i \\in I} B_i$, dann heißt $(B_i)_{i \\in I}$ Zerlegung von $\\Omega$. Gilt sogar $\\Omega = \\dot{\\bigcup}_{i \\in I} B_i$, so heißt $(B_i)_{i \\in I}$ disjunkte Zerlegung von $\\Omega$. Ist die Indexmenge $I$ endlich oder abzählbar, so spricht man entsprechend von einer endlichen Zerlegung bzw. abzählbaren Zerlegung von $\\Omega$.",
+      "erklaerung": "Eine Aufteilung von $\\Omega$ in Teile, die zusammen alles abdecken; bei „disjunkt“ überschneiden sich die Teile nicht. Beispiel: $B$ und $\\bar{B}$; beim Würfel $\\{1, 2\\}$, $\\{3, 4\\}$, $\\{5, 6\\}$. $I$ ist die Indexmenge („Hausnummern“ der Teile).",
+      "quelle": "mab005.1_2026-11-02 · Folie Kap. 2, 17",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Formel der totalen Wahrscheinlichkeit",
+      "wortlaut": "Satz 2.1.10 (Formel der totalen Wahrscheinlichkeit) Ist $(B_i)_{i \\in I}$ eine abzählbare, disjunkte Zerlegung von $\\Omega$, dann gilt: $P(A) = \\sum_{i \\in I} P(A \\cap B_i) = \\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)$",
+      "erklaerung": "Man berechnet $P(A)$, indem man nach Fällen $B_i$ aufteilt: je Fall $P(B_i) \\cdot P(A \\mid B_i)$, dann addieren. Im Baumdiagramm: alle Pfade zu $A$ multiplizieren und addieren. Beispiel: $P(\\text{2. Kugel blau}) = \\frac{4}{10} \\cdot \\frac{6}{9} + \\frac{6}{10} \\cdot \\frac{5}{9} = \\frac{3}{5}$.",
+      "quelle": "mab005.1_2026-11-02 · Folie Kap. 2, 18",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Bayes-Umkehr-Formel",
+      "wortlaut": "Satz 2.1.11 (Bayes-Umkehr-Formel) Ist $(B_i)_{i \\in I}$ eine abzählbare, disjunkte Zerlegung von $\\Omega$, dann gilt für alle $k \\in I$ und Ereignisse $A$ mit $P(A) > 0$: $P(B_k \\mid A) = \\frac{P(B_k) \\cdot P(A \\mid B_k)}{\\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)}$",
+      "erklaerung": "Dreht die Bedingung um: aus $P(A \\mid B_k)$ wird $P(B_k \\mid A)$. Zähler = der eine Pfad über $B_k$ nach $A$, Nenner = alle Pfade nach $A$. Beispiel Gesichtserkennung: $P(\\text{gefahndet} \\mid \\text{gemeldet}) = \\frac{18}{18 + 98} \\approx 0{,}155$.",
+      "quelle": "mab005.1_2026-11-02 · Folie Kap. 2, 19",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Stochastische Unabhängigkeit",
+      "wortlaut": "Definition 2.2.1 (Stochastische Unabhängigkeit) Zwei Ereignisse $A$ und $B$ heißen stochastisch unabhängig (bzgl. $P$), wenn gilt $P(A \\cap B) = P(A) \\cdot P(B)$",
+      "erklaerung": "Das eine Ereignis verrät nichts über das andere; die Wahrscheinlichkeit für „beide“ ist das Produkt. Gleichwertig (für $P(B) > 0$): $P(A \\mid B) = P(A)$. Beispiel Würfel: „gerade“ und „größer 4“ sind unabhängig ($\\frac{1}{6} = \\frac{1}{2} \\cdot \\frac{1}{3}$). Nicht verwechseln mit disjunkt!",
+      "quelle": "mab005.1_2026-11-09 · Folie Kap. 2, 23",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Stochastische Unabhängigkeit abzählbar vieler Ereignisse",
+      "wortlaut": "Definition 2.2.7 (Stochastische Unabhängigkeit abzählbar vieler Ereignisse) Ein abzählbares System von Ereignissen $A_i$ mit $i \\in I$ heißt stochastisch unabhängig, wenn für jede endliche Teilmenge $\\{i_1, i_2, \\ldots, i_k\\}$ von $I$ gilt $P\\left(\\bigcap_{j=1}^{k} A_{i_j}\\right) = \\prod_{j=1}^{k} P(A_{i_j})$",
+      "erklaerung": "Für jede Auswahl endlich vieler Ereignisse muss „Wahrscheinlichkeit, dass alle eintreten“ = Produkt der Einzelwahrscheinlichkeiten sein. Bei drei Ereignissen: drei Paar-Gleichungen und eine Dreier-Gleichung. Paarweise Unabhängigkeit allein reicht nicht (Beispiel 2.2.8).",
+      "quelle": "mab005.1_2026-11-09 · Folie Kap. 2, 29",
+      "abweichungen": []
     }
   ]
 }

@@ -916,6 +916,66 @@
         "mab004"
       ],
       "erste_quelle": "mab004.1_2026-10-27 · Folie 40"
+    },
+    {
+      "zeichen": "P(A | B)",
+      "latex": "P(A \\mid B)",
+      "bedeutung": "bedingte Wahrscheinlichkeit von A unter der Bedingung B (Def. 2.1.2)",
+      "gelesen": "P von A unter der Bedingung B",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-11-02 · Kap. 2, Folie 9"
+    },
+    {
+      "zeichen": "(Bᵢ)ᵢ∈I",
+      "latex": "(B_i)_{i \\in I}",
+      "bedeutung": "Familie (Zerlegung) von Mengen Bᵢ mit Index i aus der Indexmenge I (Def. 2.1.9)",
+      "gelesen": "B i, i aus I",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-11-02 · Kap. 2, Folie 17"
+    },
+    {
+      "zeichen": "∑ᵢ∈I",
+      "latex": "\\sum_{i \\in I}",
+      "bedeutung": "Summe über alle i aus der Indexmenge I",
+      "gelesen": "Summe über i aus I",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-11-02 · Kap. 2, Folie 18"
+    },
+    {
+      "zeichen": "⇔",
+      "latex": "\\iff",
+      "bedeutung": "genau dann, wenn (beide Aussagen sind gleichwertig)",
+      "gelesen": "genau dann, wenn",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-11-02 · Kap. 2, Folie 14"
+    },
+    {
+      "zeichen": "∏ⱼ₌₁ᵏ",
+      "latex": "\\prod_{j=1}^{k}",
+      "bedeutung": "Produkt von j = 1 bis k (wie ∑, nur malnehmen)",
+      "gelesen": "Produkt von j gleich 1 bis k",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-11-09 · Kap. 2, Folie 29"
+    },
+    {
+      "zeichen": "⋂ⱼ₌₁ᵏ",
+      "latex": "\\bigcap_{j=1}^{k}",
+      "bedeutung": "Schnitt der Mengen von j = 1 bis k (alle treten ein)",
+      "gelesen": "Schnitt von j gleich 1 bis k",
+      "module": [
+        "mab005"
+      ],
+      "erste_quelle": "mab005.1_2026-11-09 · Kap. 2, Folie 29"
     }
   ]
 }

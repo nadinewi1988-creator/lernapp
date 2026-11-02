@@ -36,13 +36,17 @@
       "text": "Ein- und mehrstufige Zufallsexperimente modellieren",
       "abgedeckt_in": [
         "mab005.1_2026-10-19",
-        "mab005.1_2026-10-26"
+        "mab005.1_2026-10-26",
+        "mab005.1_2026-11-02",
+        "mab005.2_2026-11-02"
       ]
     },
     {
       "text": "Wahrscheinlichkeiten, Erwartungswerte und Streumaße berechnen",
       "abgedeckt_in": [
-        "mab005.1_2026-10-26"
+        "mab005.1_2026-10-26",
+        "mab005.1_2026-11-02",
+        "mab005.2_2026-11-02"
       ]
     },
     {
@@ -58,7 +62,9 @@
     {
       "text": "Typische Fehlvorstellungen zum Zufall beschreiben",
       "abgedeckt_in": [
-        "mab005.1_2026-10-26"
+        "mab005.1_2026-10-26",
+        "mab005.1_2026-11-02",
+        "mab005.1_2026-11-09"
       ]
     }
   ],
@@ -69,13 +75,15 @@
     "mab005.2_2026-10-12",
     "mab005.2_2026-10-19",
     "mab005.2_2026-10-26",
-    "mab005.2_2026-11-02"
+    "mab005.2_2026-11-02",
+    "mab005.1_2026-11-02",
+    "mab005.1_2026-11-09"
   ],
   "literatur": [
     {
       "eintrag": "Hübner (2009): Stochastik – Eine anwendungsorientierte Einführung",
       "vorhanden": false,
-      "hinweis": "Uni-Bib, Lesebereich TKAhüb = 460718; Textgrundlage Kapitel 1: S. 11–29",
+      "hinweis": "Uni-Bib, Lesebereich TKAhüb = 460718; Textgrundlage Kapitel 1: S. 11–29; Textgrundlage Kapitel 2: S. 27–29",
       "stand": "2026-10-25"
     },
     {
@@ -107,7 +115,10 @@
   ],
   "auffaelligkeiten": [
     "Kapitel 0, Folie 5: Prüfungsanmeldung „ab Juni über QISPOS“ ist veraltet – laut Nadine (01.11.2026) ist die QISPOS-Anmeldung ab Dezember 2026",
-    "Blatt 03, A.1c: Ass wird zu den Bildkarten gezählt (Bube, Dame, König, Ass)"
+    "Blatt 03, A.1c: Ass wird zu den Bildkarten gezählt (Bube, Dame, König, Ass)",
+    "Kapitel 2, Folie 10: Beweis von Satz 2.1.3 (5) zitiert „Satz 1.4.6(6)“ – gemeint ist der Additionssatz Satz 1.4.7 (6)",
+    "Kapitel 2, Folie 12: „gezogene Zahl“ statt „gezogene Kugel“",
+    "Kapitel 2, Folie 31: „auf mehr als drei Ereignisse verallgemeinern“ – vermutlich „mehr als zwei“"
   ],
   "offene_fragen": [
     "Bis zu welcher Folie von Kapitel 1 kam die VL am 12.10.?"
@@ -338,6 +349,69 @@
       "status": "verarbeitet",
       "sitzung": "mab005.2_2026-11-02",
       "hinweis": "Hausaufgabe h01; Stud.IP 01.11.2026; schon Stoff von Kapitel 2 (Folien noch nicht veröffentlicht) – Definitionen als Ergänzung, nach der VL angleichen; Teil A selbst gelöst, Abgleich mit Uni-Kurzlösung, sobald veröffentlicht"
+    },
+    {
+      "pfad": "mab005.1/Sitzung_04/VL_Kapitel2_mab005_Handout.pdf",
+      "geaendert": "2026-11-02",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "mab005.1_2026-11-02",
+      "hinweis": "Kapitel 2 (32 Folien): Folie 1–21 → Sitzung 02.11. (laut Nadine); Folie 22–32 → Sitzung 09.11. (vorbereitet, nach der VL bestätigen)"
+    },
+    {
+      "pfad": "mab005.1/Sitzung_04/Kapitel 2 Stand 02.11.2026.pdf",
+      "geaendert": "2026-11-02",
+      "art": "Folien mit Nadines Mitschrift",
+      "status": "verarbeitet",
+      "sitzung": "mab005.1_2026-11-02",
+      "hinweis": "Mitschrift Folie 5–21 geprüft: alles richtig bis auf Folie 21 („Auto hinter Tor 3“ nicht gegeben; P(M₂|T₂) → P(M₁|T₂)) und Folie 16 („38“ = 3/8)"
+    },
+    {
+      "pfad": "mab005.1/Sitzung_04/Bildschirmfoto 2026-11-02 um 16.25.22.png (… 16.26.12.png, 7 Bilder)",
+      "geaendert": "2026-11-02",
+      "art": "Fotos Kapitel 1, Folie 48–54 mit Mitschrift",
+      "status": "verarbeitet",
+      "sitzung": "mab005.1_2026-11-02",
+      "hinweis": "Beispiel 1.5.2 und 1.5.5 (Tafel), Zusammenfassung, Literatur"
+    },
+    {
+      "pfad": "mab005.1/Sitzung_04/02.11.26 - mab005.1.m4a",
+      "geaendert": "2026-11-02",
+      "art": "Sprachmemo (Aufnahme Vorlesung, 99 Min.)",
+      "status": "in Arbeit",
+      "sitzung": "mab005.1_2026-11-02",
+      "hinweis": "wird transkribiert; Auswertung als Nachbereitung"
+    },
+    {
+      "pfad": "mab005.1/Kapitel 1.pdf",
+      "geaendert": "2026-10-27",
+      "art": "Mitschrift Kapitel 1 (Kommilitonin/Kommilitone)",
+      "status": "verarbeitet",
+      "sitzung": "mab005.1_2026-10-26",
+      "hinweis": "Quelle für Folie 35 und 45 (Sitzung 26.10.)"
+    },
+    {
+      "pfad": "mab005.1/MAB005.1.pdf",
+      "geaendert": "2026-10-26",
+      "art": "unklar (62 Seiten vom iPhone)",
+      "status": "später",
+      "hinweis": "Inhalt mit Nadine klären"
+    },
+    {
+      "pfad": "mab005.2/Sitzung_03/Aufgabenblatt03_TeilA_Lösungen.pdf",
+      "geaendert": "2026-10-26",
+      "art": "Lösungen Teil A",
+      "status": "verarbeitet",
+      "sitzung": "mab005.2_2026-10-26",
+      "hinweis": "Kontrolle (27.10.)"
+    },
+    {
+      "pfad": "mab005.2/Sitzung_04/Aufgabenblatt04_TeilA_Lösungen.pdf",
+      "geaendert": "2026-11-02",
+      "art": "Lösungen Teil A",
+      "status": "verarbeitet",
+      "sitzung": "mab005.2_2026-11-02",
+      "hinweis": "Kontrolle 02.11.: alles stimmt"
     }
   ]
 }

@@ -1,0 +1,622 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "mab005",
+  "teilmodul": "mab005.1",
+  "datum": "2026-11-02",
+  "sitzung_nr": 4,
+  "sitzung_id": "",
+  "thema": "Abschluss Kapitel 1 (Folie 48–54) und Kapitel 2 Folie 1–21: Bedingte Wahrscheinlichkeit, Multiplikationssatz, totale Wahrscheinlichkeit, Bayes",
+  "thema_in_app": "eingetragen",
+  "stand": "geprueft",
+  "hinweis": "Folienbereich laut Nadine (02.11.2026): Kapitel 2 bis einschließlich Folie 21; davor Rest von Kapitel 1 (Beispiele 1.5.2 und 1.5.5, Zusammenfassung Folie 52–54 – Fotos in Sitzung_04). Die Definitionen von Kapitel 1, Folie 47–50 sind in Sitzung 3 (26.10.) erklärt. Lösungen der Folienbeispiele aus Nadines Mitschrift (geprüft).",
+  "quellen": [
+    {
+      "datei": "mab005.1/Sitzung_04/VL_Kapitel2_mab005_Handout.pdf",
+      "art": "Folien Kapitel 2",
+      "seiten": "1–21"
+    },
+    {
+      "datei": "mab005.1/Sitzung_04/Kapitel 2 Stand 02.11.2026.pdf",
+      "art": "Folien mit Nadines Mitschrift",
+      "seiten": "5–21"
+    },
+    {
+      "datei": "mab005.1/Sitzung_04/Bildschirmfoto 2026-11-02 um 16.25.22.png … 16.26.12.png",
+      "art": "Fotos Kapitel 1 mit Mitschrift (7 Bilder)",
+      "seiten": "Kap. 1, 48–54"
+    },
+    {
+      "datei": "mab005.1/VL_Kapitel1_mab005_Handout.pdf",
+      "art": "Folien Kapitel 1",
+      "seiten": "48–54"
+    },
+    {
+      "datei": "Hübner (2009): Stochastik, S. 27–29",
+      "art": "Literatur (Kapitel 2, Folie 2)",
+      "seiten": "27–29 – Buch fehlt im Ordner"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Ein Zufalls-Experiment vollständig durch einen Wahrscheinlichkeitsraum modellieren und Bernoulli- und Laplace-Experimente an Beispielen unterscheiden.",
+      "art": "abgeleitet",
+      "quelle": "Kap. 1, Folie 48–53",
+      "fragen": [
+        "f18"
+      ],
+      "erklaerung_abschnitt": "Abschluss Kapitel 1 (Kapitel 1, Folie 48–54)"
+    },
+    {
+      "text": "Die bedingte Wahrscheinlichkeit $P(A \\mid B)$ definieren, mit Venn-Diagrammen veranschaulichen und berechnen.",
+      "art": "abgeleitet",
+      "quelle": "Kap. 2, Folie 5–9",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03"
+      ],
+      "erklaerung_abschnitt": "Wahrscheinlichkeit unter einer Bedingung – Beispiel 2.1.1 (Kapitel 2, Folie 1–8)"
+    },
+    {
+      "text": "Die Sonderfälle bedingter Wahrscheinlichkeiten (Satz 2.1.3) nennen und begründen.",
+      "art": "abgeleitet",
+      "quelle": "Kap. 2, Folie 10",
+      "fragen": [
+        "f04",
+        "f05"
+      ],
+      "erklaerung_abschnitt": "Definition 2.1.2 und Sonderfälle (Kapitel 2, Folie 9–10)"
+    },
+    {
+      "text": "Multiplikationssatz und Verkettungsregel angeben, beweisen und in Baumdiagrammen (Pfadregel) anwenden.",
+      "art": "abgeleitet",
+      "quelle": "Kap. 2, Folie 12–16",
+      "fragen": [
+        "f07",
+        "f08",
+        "f09",
+        "f10",
+        "f11"
+      ],
+      "erklaerung_abschnitt": "Multiplikationssatz und Verkettungsregel (Kapitel 2, Folie 14–16)"
+    },
+    {
+      "text": "Mit der Formel der totalen Wahrscheinlichkeit und der Bayes-Umkehr-Formel rechnen (z. B. Gesichtserkennung, Ziegenproblem).",
+      "art": "abgeleitet",
+      "quelle": "Kap. 2, Folie 11, 17–21",
+      "fragen": [
+        "f06",
+        "f12",
+        "f13",
+        "f14",
+        "f15",
+        "f16",
+        "f17",
+        "f19",
+        "f20"
+      ],
+      "erklaerung_abschnitt": "Bayes-Umkehr-Formel und Ziegenproblem (Kapitel 2, Folie 19–21)"
+    }
+  ],
+  "kurzfassung": [
+    "Kapitel 1 ist abgeschlossen: Ein Zufalls-Experiment wird durch einen Wahrscheinlichkeitsraum $(\\Omega, \\mathcal{A}, P)$ modelliert (Zusammenfassung Folie 52–53).",
+    "Bedingte Wahrscheinlichkeit: $P(A \\mid B) := \\frac{P(A \\cap B)}{P(B)}$ für $P(B) > 0$, sonst $:= 0$ – anschaulich die Wahrscheinlichkeit von $A$, wenn der Ergebnisraum auf $B$ eingeschränkt wird.",
+    "$P(A \\mid B)$ beschreibt nur einen formalen, keinen zeitlichen oder ursächlichen Zusammenhang; und $P(A \\mid B)$ ist im Allgemeinen nicht $P(B \\mid A)$.",
+    "Multiplikationssatz $P(A \\cap B) = P(B) \\cdot P(A \\mid B)$ bzw. Verkettungsregel = Pfadregel im Baumdiagramm.",
+    "Formel der totalen Wahrscheinlichkeit: $P(A) = \\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)$ für eine disjunkte Zerlegung $(B_i)_{i \\in I}$ – alle Pfade zu $A$ addieren.",
+    "Bayes-Umkehr-Formel: $P(B_k \\mid A) = \\frac{P(B_k) \\cdot P(A \\mid B_k)}{\\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)}$ – Anteil eines Pfades an allen Pfaden zu $A$ (Gesichtserkennung ≈ 0,155; Ziegenproblem: Wechseln gewinnt mit $\\frac{2}{3}$)."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Abschluss Kapitel 1 (Kapitel 1, Folie 48–54)",
+      "folien": "48–54",
+      "text": "**Worum geht es?** Die Vorlesung begann mit dem Rest von Kapitel 1: den zwei offenen Beispielen (Folie 48 und 51) und der Zusammenfassung (Folie 52–54). Die Definitionen dazu (Wahrscheinlichkeitsraum, Bernoulli- und Laplace-Experiment, Folie 47–50) sind ausführlich in **Sitzung 3 (26.10.)** erklärt – hier steht, was heute dazu an der Tafel entstand.\n\n**Beispiel 1.5.2** (Folie 48, Lösung laut deiner Mitschrift):\n\n{{aufgabe a01}}\n\n**Beispiel 1.5.5** (Folie 51, Lösung laut deiner Mitschrift):\n\n{{aufgabe a02}}\n\n**Zusammenfassung Kapitel 1 (Folie 52–53) – das Wichtigste in einem Satz je Punkt:**\n- Ein **Zufalls-Experiment** ist ein Vorgang, dessen Ausgang vom Zufall abhängt (oder zu komplex ist, um ihn ganz zu überblicken). Mathematisch beschreibt man es durch einen **Wahrscheinlichkeitsraum** $(\\Omega, \\mathcal{A}, P)$.\n- $\\Omega$ enthält alle betrachteten Ausgänge – es **darf** auch „überflüssige“ Elemente enthalten, die nie vorkommen.\n- Ein **Ereignis** ist eine Teilmenge von $\\Omega$. Besondere Ereignisse: das unmögliche $\\emptyset$, das sichere $\\Omega$, die Elementarereignisse $\\{\\omega\\}$, das Gegenereignis $\\bar{A}$.\n- $\\mathcal{A}$ soll eine **σ-Algebra** sein: Mit Ereignissen sind auch „oder“ (Vereinigung), „und“ (Schnitt) und „nicht“ (Komplement) wieder Ereignisse.\n- $\\Omega$ **diskret** (endlich, $\\mathbb{N}$, $\\mathbb{Z}$, $\\mathbb{Q}$ …) → $\\mathcal{A} = \\mathfrak{P}(\\Omega)$; $\\Omega = \\mathbb{R}$ → Borel-σ-Algebra $\\mathbb{B}$.\n- Das **Empirische Gesetz der großen Zahlen** ist kein beweisbarer Satz, sondern eine Erfahrungstatsache.\n- Das **W-Maß** $P$ hat Nichtnegativität, Normiertheit und σ-Additivität; um $P$ anzugeben, genügen die Werte auf einem Erzeuger (diskret: die Elementarereignisse).\n\nFolie 54 nennt die Literatur: Hübner (2009) und Kütting/Sauer (2011).\n\n**Kurz erklärt:** Kapitel 1 hat das „Werkzeug“ gebaut: Jedes Zufalls-Experiment wird durch drei Bausteine beschrieben – was kann passieren ($\\Omega$), wonach frage ich ($\\mathcal{A}$), wie wahrscheinlich ist es ($P$). Kapitel 2 fragt jetzt: Wie ändern sich Wahrscheinlichkeiten, wenn man **schon etwas weiß**?\n\n**Typische Klausurfrage:** „Modellieren Sie … vollständig durch einen Wahrscheinlichkeitsraum.“ → Immer **alle drei** Teile angeben: $\\Omega$, $\\mathcal{A}$ und $P$ (bei diskretem $\\Omega$ reichen die Wahrscheinlichkeiten der Elementarereignisse).",
+      "beispiel": "Fairer Würfel: $(\\{1, \\dots, 6\\}, \\mathfrak{P}(\\{1, \\dots, 6\\}), P)$ mit $P(\\{\\omega\\}) = \\frac{1}{6}$ – ein Laplace-, aber kein Bernoulli-Experiment."
+    },
+    {
+      "titel": "Wahrscheinlichkeit unter einer Bedingung – Beispiel 2.1.1 (Kapitel 2, Folie 1–8)",
+      "folien": "1–8",
+      "text": "**Idee in Alltagssprache:** Oft weiß man schon etwas über den Ausgang, bevor man nach einer Wahrscheinlichkeit fragt. Beispiel: Jemand hat einen zehnseitigen Würfel geworfen und verrät nur: „Es ist eine Primzahl.“ Wie wahrscheinlich ist es jetzt, dass die Zahl ungerade ist? Man muss nicht mehr alle 10 Zahlen betrachten, sondern **nur noch die Primzahlen**. Das ist die **bedingte Wahrscheinlichkeit**.\n\nKapitel 2 hat zwei Teile (Folie 3): **1. Bedingte Wahrscheinlichkeit** (heute, Folie 4–21) und **2. Stochastische Unabhängigkeit** (Folie 22–31). Textgrundlage: **Hübner 2009, S. 27–29** (Folie 2).\n\n**Beispiel 2.1.1** (Folie 5–8, Lösung laut Mitschrift):\n\n{{aufgabe a03}}\n\n![Venn-Diagramme zu Beispiel 2.1.1: 1) A unter allen 10 Zahlen, 2) A ∩ B unter allen 10 Zahlen, 3) A ∩ B nur unter den Zahlen in B](/dateien/mab005/Kap2_Bsp2-1-1_Venn.svg)\n\n*Kurz erklärt:* Der Unterschied zwischen 2) und 3) ist der **Nenner**: Bei $P(A \\cap B)$ teilt man durch alle 10 Ergebnisse, bei $P(A \\mid B)$ nur durch die 4 Ergebnisse in $B$. Die Bedingung **verkleinert den Ergebnisraum** auf $B$.\n\n**Prüfungsfalle:** $P(A \\cap B)$ („A **und** B“) und $P(A \\mid B)$ („A, **wenn schon** B“) haben denselben Zähler – aber verschiedene Nenner. Hier: $\\frac{3}{10}$ gegenüber $\\frac{3}{4}$.",
+      "beispiel": "Fairer Würfel (6 Seiten), $B$ = „gerade“ $= \\{2, 4, 6\\}$, $A$ = „größer als 3“ $= \\{4, 5, 6\\}$: $P(A \\cap B) = \\frac{2}{6}$, aber $P(A \\mid B) = \\frac{2}{3}$ – von den drei geraden Zahlen sind zwei größer als 3."
+    },
+    {
+      "titel": "Definition 2.1.2 und Sonderfälle (Kapitel 2, Folie 9–10)",
+      "folien": "9–10",
+      "text": "Aus Beispiel 2.1.1 (Folie 8) liest man die allgemeine Formel ab: $P(A \\mid B) = \\frac{|A \\cap B|}{|B|} = \\frac{|A \\cap B| / |\\Omega|}{|B| / |\\Omega|} = \\frac{P(A \\cap B)}{P(B)}$.\n\n> **Definition 2.1.2 (Bedingte Wahrscheinlichkeit):** Seien $A$, $B$ Ereignisse in $\\Omega$ und sei $P(B) > 0$. Dann heißt\n> $$P(A \\mid B) := \\frac{P(A \\cap B)}{P(B)}$$\n> die **bedingte Wahrscheinlichkeit** von $A$ unter der Bedingung $B$. Für $P(B) = 0$ wird stattdessen $P(A \\mid B) := 0$ gesetzt.\n\n**Die Definition vorgelesen:**\n- $P(A \\mid B)$ – sprich: „P von A unter der Bedingung B“ (oder kurz „P von A gegeben B“). Der senkrechte Strich heißt „unter der Bedingung“.\n- $:=$ heißt „wird definiert als“.\n- **Warum $P(B) > 0$?** Durch $0$ darf man nicht teilen. Für den Fall $P(B) = 0$ legt die Vorlesung einfach $P(A \\mid B) := 0$ fest (in deiner Mitschrift: „Sonderfall“). Laut Zusammenfassung (Folie 31) ist das nur ein formaler Randfall – andere Festlegungen wären auch denkbar.\n\n**Wichtig (Folie 9 unten):** Wie eine Implikation $A \\Rightarrow B$ beschreibt auch $P(A \\mid B)$ nur einen **formalen** Zusammenhang. „Unter der Bedingung $B$“ heißt **nicht**, dass $B$ zeitlich vorher passiert oder $A$ verursacht.\n\n**Satz 2.1.3 (Sonderfälle, Folie 10):** Für Ereignisse $A$ und $B$ mit $P(B) > 0$ gilt\n1. $P(A \\mid B) = \\frac{P(A)}{P(B)}$, wenn $A \\subseteq B$;\n2. $P(A \\mid B) = 1$, wenn $B \\subseteq A$;\n3. $P(A \\mid B) = 0$, wenn $A \\cap B = \\emptyset$;\n4. $P(A \\mid B) = 0$, wenn $P(A) = 0$;\n5. $P(A \\mid B) = P(A)$, wenn $P(B) = 1$.\n\n**Beweis** (5 von der Folie, 1–4 „folgen unmittelbar“ – hier ausgeschrieben, selbst erarbeitet):\n1. $A \\subseteq B$ ⇒ $A \\cap B = A$ ⇒ $P(A \\mid B) = \\frac{P(A)}{P(B)}$.\n2. $B \\subseteq A$ ⇒ $A \\cap B = B$ ⇒ $P(A \\mid B) = \\frac{P(B)}{P(B)} = 1$.\n3. $A \\cap B = \\emptyset$ ⇒ $P(A \\cap B) = P(\\emptyset) = 0$ (Nulltreue, Satz 1.4.6 (2′)) ⇒ $P(A \\mid B) = \\frac{0}{P(B)} = 0$.\n4. $A \\cap B \\subseteq A$ ⇒ $0 \\le P(A \\cap B) \\le P(A) = 0$ (Nichtnegativität, Monotonie) ⇒ $P(A \\cap B) = 0$ ⇒ $P(A \\mid B) = 0$.\n5. (Folie) Wegen $B \\subseteq A \\cup B$ und $P(B) = 1$ ist $1 = P(B) \\le P(A \\cup B) \\le 1$, also $P(A \\cup B) = 1$. Dann\n$$P(A \\mid B) \\overset{\\text{Def. 2.1.2}}{=} \\frac{P(A \\cap B)}{1} = P(A) + P(B) - P(A \\cup B) = P(A) + 1 - 1 = P(A). \\quad \\blacksquare$$\nIm zweiten Schritt wird der **Additionssatz** $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$ nach $P(A \\cap B)$ umgestellt (deine Mitschrift: „ursprünglich …“). ⚠ Die Folie nennt dafür „Satz 1.4.6(6)“ – in Kapitel 1 ist der Additionssatz aber **Satz 1.4.7 (6)** (Folie 44).\n\n*Kurz erklärt:* (2) Ist $B$ ganz in $A$ enthalten, tritt mit $B$ immer auch $A$ ein – also Wahrscheinlichkeit 1. (3) Schließen sich $A$ und $B$ aus, kann $A$ nicht eintreten, wenn $B$ schon eingetreten ist – also 0. (5) Ein sicheres Ereignis $B$ liefert keine Information, also ändert sich nichts.",
+      "beispiel": "Fairer Würfel, $B$ = „gerade“ $= \\{2, 4, 6\\}$: Für $A = \\{2\\} \\subseteq B$ ist $P(A \\mid B) = \\frac{1/6}{1/2} = \\frac{1}{3}$ (Fall 1). Für $A = \\{1, 3\\}$ ist $A \\cap B = \\emptyset$, also $P(A \\mid B) = 0$ (Fall 3)."
+    },
+    {
+      "titel": "Beispiele 2.1.4 und 2.1.5 (Kapitel 2, Folie 11–13)",
+      "folien": "11–13",
+      "text": "Zwei Beispiele zeigen, wie man bedingte Wahrscheinlichkeiten in Anwendungen ausrechnet – einmal mit absoluten Zahlen, einmal mit einem Baumdiagramm.\n\n**Beispiel 2.1.4** (Folie 11, Lösung laut Mitschrift):\n\n{{aufgabe a04}}\n\n**Beispiel 2.1.5** (Folie 12–13, Lösung laut Mitschrift):\n\n{{aufgabe a05}}\n\n**Kurz erklärt:** In 2.1.5 rechnet man nicht $P(B \\mid A)$ aus $P(A \\cap B)$ aus, sondern **umgekehrt**: $P(B \\mid A)$ kennt man aus der Situation („nach einer roten sind noch 9 Kugeln da, davon 6 blau“), und daraus folgt $P(A \\cap B)$. Genau das ist der Multiplikationssatz (nächste Folie).\n\n**Prüfungsfalle (2.1.4):** 90 % „Trefferquote“ klingt gut – trotzdem ist nur etwa **jede 6. gemeldete Person** wirklich gesucht. Grund: Es gibt sehr viel mehr nicht gesuchte Personen (980) als gesuchte (20); 10 % Fehlalarm von 980 sind 98 Personen und damit viel mehr als die 18 richtigen Meldungen. Man darf $P(\\text{gemeldet} \\mid \\text{gefahndet}) = 0{,}9$ nicht mit $P(\\text{gefahndet} \\mid \\text{gemeldet}) \\approx 0{,}155$ verwechseln.",
+      "beispiel": "Urne mit 4 roten und 6 blauen Kugeln, zwei ohne Zurücklegen: $P(\\text{beide rot}) = \\frac{4}{10} \\cdot \\frac{3}{9} = \\frac{12}{90} = \\frac{2}{15}$."
+    },
+    {
+      "titel": "Multiplikationssatz und Verkettungsregel (Kapitel 2, Folie 14–16)",
+      "folien": "14–16",
+      "text": "> **Satz 2.1.6 (Multiplikationssatz):** Für je zwei beliebige Ereignisse $A$, $B$ gilt die Formel\n> $$P(A \\cap B) = P(B) \\cdot P(A \\mid B).$$\n\n**Beweis (Folie 14):** Ist $P(B) > 0$, folgt aus Definition 2.1.2: $P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)} \\iff P(A \\mid B) \\cdot P(B) = P(A \\cap B)$ (beide Seiten mal $P(B)$). Ist $P(B) = 0$, dann ist wegen $A \\cap B \\subseteq B$ (Monotonie, Nichtnegativität) $0 \\le P(A \\cap B) \\le P(B) = 0$, also $P(A \\cap B) = 0 = 0 \\cdot P(A \\mid B) = P(B) \\cdot P(A \\mid B)$. $\\blacksquare$\nHinweis der Folie: Im Fall $P(B) = 0$ hängt der Beweis **nicht** davon ab, wie man $P(A \\mid B)$ festgelegt hat.\n\n*Kurz erklärt* (deine Mitschrift: „→ Pfadregel“): Im Baumdiagramm steht am ersten Ast $P(B)$, am zweiten Ast $P(A \\mid B)$. Die Wahrscheinlichkeit, **beide** Äste entlangzugehen, ist das Produkt. $\\iff$ heißt „genau dann, wenn“ (beide Aussagen sind gleichwertig).\n\n> **Satz 2.1.7 (Verkettungsregel):** Für je drei Ereignisse $A$, $B$, $C$ gilt die Formel\n> $$P(A \\cap B \\cap C) = P(C) \\cdot P(B \\mid C) \\cdot P(A \\mid B \\cap C).$$\n\n**Beweis (Folie 15):** zweimal den Multiplikationssatz anwenden:\n$$P(A \\cap B \\cap C) = P\\big(A \\cap (B \\cap C)\\big) \\overset{2.1.6}{=} P(B \\cap C) \\cdot P(A \\mid B \\cap C) \\overset{2.1.6}{=} P(C) \\cdot P(B \\mid C) \\cdot P(A \\mid B \\cap C). \\quad \\blacksquare$$\nAnaloge Formeln gelten für jede endliche Anzahl geschnittener Ereignisse. Deine Mitschrift: „Baumdiagramm hier mit 3 Stufen“.\n\n**Beispiel 2.1.8** (Folie 16, Lösung laut Mitschrift, ergänzt):\n\n{{aufgabe a06}}\n\n**Prüfungsfalle:** Die Reihenfolge der Faktoren ist egal ($P(B) \\cdot P(A \\mid B) = P(A \\mid B) \\cdot P(B)$) – aber **nicht** die Reihenfolge im Strich: $P(A \\mid B)$ ist etwas anderes als $P(B \\mid A)$. Im Baum gehört an den zweiten Ast immer „zweites Ereignis **unter der Bedingung** des ersten“.",
+      "beispiel": "Drei Münzwürfe, Wahrscheinlichkeit für dreimal Wappen: $\\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{8}$ – die Verkettungsregel mit $P(B \\mid C) = P(A \\mid B \\cap C) = \\frac{1}{2}$, weil die Münze kein Gedächtnis hat."
+    },
+    {
+      "titel": "Zerlegung und Formel der totalen Wahrscheinlichkeit (Kapitel 2, Folie 17–18)",
+      "folien": "17–18",
+      "text": "**Idee in Alltagssprache:** Will man $P(C)$ in Beispiel 2.1.8 wissen, zerlegt man in Fälle („erst rot, dann rot“, „erst rot, dann blau“ …), rechnet jeden Fall mit dem Baum aus und **addiert**. Damit das stimmt, müssen die Fälle zusammen alles abdecken und dürfen sich nicht überschneiden.\n\n> **Definition 2.1.9 (Zerlegung):** Gilt für Mengen $B_i$ mit $i \\in I$, dass $\\Omega = \\bigcup_{i \\in I} B_i$, dann heißt $(B_i)_{i \\in I}$ **Zerlegung** von $\\Omega$. Gilt sogar $\\Omega = \\dot{\\bigcup}_{i \\in I} B_i$, so heißt $(B_i)_{i \\in I}$ **disjunkte Zerlegung** von $\\Omega$. Ist die Indexmenge $I$ endlich oder abzählbar, so spricht man entsprechend von einer **endlichen Zerlegung** bzw. **abzählbaren Zerlegung** von $\\Omega$.\n\n**Vorgelesen:** $I$ ist eine **Indexmenge** – eine Menge von „Hausnummern“ für die Teile, z. B. $I = \\{1, 2, 3\\}$. $(B_i)_{i \\in I}$ heißt „die Familie der Mengen $B_i$ mit $i$ aus $I$“. $\\dot{\\bigcup}$ (Vereinigung mit Punkt) heißt: Die Teile sind paarweise disjunkt.\nBeispiel: $B$ und $\\bar{B}$ bilden immer eine disjunkte Zerlegung von $\\Omega$; beim Würfel z. B. $\\{1, 2\\}$, $\\{3, 4\\}$, $\\{5, 6\\}$.\n\n> **Satz 2.1.10 (Formel der totalen Wahrscheinlichkeit):** Ist $(B_i)_{i \\in I}$ eine abzählbare, disjunkte Zerlegung von $\\Omega$, dann gilt:\n> $$P(A) = \\sum_{i \\in I} P(A \\cap B_i) = \\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)$$\n\n**Beweis (Folie 18):** $A = \\dot{\\bigcup}_{i \\in I} (A \\cap B_i)$, also mit endlicher Additivität bzw. σ-Additivität (Satz 1.4.6 (3n), (3′)) $P(A) = \\sum_{i \\in I} P(A \\cap B_i)$, und mit dem Multiplikationssatz 2.1.6 $= \\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)$. $\\blacksquare$\n\n*Kurz erklärt:* $\\sum_{i \\in I}$ heißt „Summe über alle $i$ aus $I$“. Im Baumdiagramm: **Alle Pfade, die zu $A$ führen, multiplizieren (Pfadregel) und dann addieren (Summenregel).** Das hat deine Mitschrift auf Folie 16 mit „jeweils addieren“ markiert.\n\n**Typische Klausurfrage:** „Berechnen Sie $P(\\ldots)$“ in einem zweistufigen Experiment, bei dem nur die Wahrscheinlichkeiten der ersten Stufe und die bedingten der zweiten Stufe gegeben sind → Baum zeichnen, Formel der totalen Wahrscheinlichkeit.",
+      "beispiel": "Beispiel 2.1.5: $P(B)$ = „zweite Kugel blau“ $= P(A) \\cdot P(B \\mid A) + P(\\bar{A}) \\cdot P(B \\mid \\bar{A}) = \\frac{4}{10} \\cdot \\frac{6}{9} + \\frac{6}{10} \\cdot \\frac{5}{9} = \\frac{24 + 30}{90} = \\frac{54}{90} = \\frac{3}{5}$ – genauso groß wie beim ersten Zug."
+    },
+    {
+      "titel": "Bayes-Umkehr-Formel und Ziegenproblem (Kapitel 2, Folie 19–21)",
+      "folien": "19–21",
+      "text": "**Idee in Alltagssprache:** Oft kennt man die Wahrscheinlichkeiten „vorwärts“ (Wie oft wird eine gesuchte Person gemeldet?), will aber „rückwärts“ wissen (Wie wahrscheinlich ist eine gemeldete Person wirklich gesucht?). Die **Bayes-Umkehr-Formel** dreht die Bedingung um.\n\n> **Satz 2.1.11 (Bayes-Umkehr-Formel):** Ist $(B_i)_{i \\in I}$ eine abzählbare, disjunkte Zerlegung von $\\Omega$, dann gilt für alle $k \\in I$ und Ereignisse $A$ mit $P(A) > 0$:\n> $$P(B_k \\mid A) = \\frac{P(B_k) \\cdot P(A \\mid B_k)}{\\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)}$$\n\n**Beweis:** Übung (AB4) – das ist **Aufgabe B.1 auf Blatt 04**, vollständig gelöst in der Hausaufgabe „Übungsblatt 04“ (Seminar 02.11.). Kurz: Zähler = Multiplikationssatz, Nenner = Formel der totalen Wahrscheinlichkeit.\n\n*Kurz erklärt:* Zähler = „der eine Pfad über $B_k$ nach $A$“, Nenner = „alle Pfade nach $A$“. Also: **Anteil des einen Pfades an allen Pfaden, die zu $A$ führen.** Beispiel 2.1.4 ist genau so: $\\frac{18}{18 + 98}$.\n\n**Beispiel 2.1.12 – Ziegenproblem / Monty-Hall-Problem** (Folie 20–21, Lösung laut Mitschrift):\n\n{{aufgabe a07}}\n\n![Baumdiagramm zum Ziegenproblem: erst steht das Auto hinter Tor 1, 2 oder 3 (je 1/3), dann öffnet der Moderator ein Tor](/dateien/mab005/Kap2_Bsp2-1-12_Ziegen_Baum.svg)\n\n**Prüfungsfalle:** Viele denken „zwei Tore übrig, also je $\\frac{1}{2}$“. Falsch – die Information des Moderators ist **nicht** symmetrisch: Er darf das Tor der Kandidatin nie öffnen und nie das Auto zeigen. Wechseln verdoppelt die Gewinnchance von $\\frac{1}{3}$ auf $\\frac{2}{3}$. (Folie 21: Aus Symmetriegründen gilt das für jede Kombination aus gewähltem und geöffnetem Tor.)",
+      "beispiel": "Schnelltest: 2 % krank, Kranke zu 90 % positiv, Gesunde zu 5 % positiv. $P(\\text{krank} \\mid \\text{positiv}) = \\frac{0{,}02 \\cdot 0{,}9}{0{,}02 \\cdot 0{,}9 + 0{,}98 \\cdot 0{,}05} = \\frac{0{,}018}{0{,}067} \\approx 0{,}27$."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Bedingte Wahrscheinlichkeit",
+      "wortlaut": "Definition 2.1.2 (Bedingte Wahrscheinlichkeit) Seien $A$, $B$ Ereignisse in $\\Omega$ und sei $P(B) > 0$. Dann heißt $P(A \\mid B) := \\frac{P(A \\cap B)}{P(B)}$ die bedingte Wahrscheinlichkeit von $A$ unter der Bedingung $B$. Für $P(B) = 0$ wird stattdessen $P(A \\mid B) := 0$ gesetzt.",
+      "erklaerung": "Die Wahrscheinlichkeit von $A$, wenn man schon weiß, dass $B$ eingetreten ist – man schränkt den Ergebnisraum auf $B$ ein. Sprich: „P von A unter der Bedingung B“. Beispiel zehnseitiger Würfel: $P(\\text{ungerade} \\mid \\text{Primzahl}) = \\frac{3}{4}$ (3 der 4 Primzahlen 2, 3, 5, 7 sind ungerade). Kein zeitlicher oder ursächlicher Zusammenhang nötig.",
+      "folie": "Kap. 2, 9"
+    },
+    {
+      "begriff": "Multiplikationssatz",
+      "wortlaut": "Satz 2.1.6 (Multiplikationssatz) Für je zwei beliebige Ereignisse $A$, $B$ gilt die Formel $P(A \\cap B) = P(B) \\cdot P(A \\mid B)$.",
+      "erklaerung": "Die umgestellte Definition der bedingten Wahrscheinlichkeit – gilt auch für $P(B) = 0$. Im Baumdiagramm die Pfadregel: Wahrscheinlichkeiten entlang eines Pfades multiplizieren. Beispiel: erst rot ($\\frac{4}{10}$), dann blau ($\\frac{6}{9}$): $\\frac{4}{10} \\cdot \\frac{6}{9} = \\frac{4}{15}$.",
+      "folie": "Kap. 2, 14"
+    },
+    {
+      "begriff": "Verkettungsregel",
+      "wortlaut": "Satz 2.1.7 (Verkettungsregel) Für je drei Ereignisse $A$, $B$, $C$ gilt die Formel $P(A \\cap B \\cap C) = P(C) \\cdot P(B \\mid C) \\cdot P(A \\mid B \\cap C)$.",
+      "erklaerung": "Der Multiplikationssatz für drei (und analog mehr) Ereignisse – die Pfadregel bei einem Baum mit drei Stufen. Beweis: zweimal den Multiplikationssatz anwenden.",
+      "folie": "Kap. 2, 15"
+    },
+    {
+      "begriff": "Zerlegung, disjunkte Zerlegung",
+      "wortlaut": "Definition 2.1.9 (Zerlegung) Gilt für Mengen $B_i$ mit $i \\in I$, dass $\\Omega = \\bigcup_{i \\in I} B_i$, dann heißt $(B_i)_{i \\in I}$ Zerlegung von $\\Omega$. Gilt sogar $\\Omega = \\dot{\\bigcup}_{i \\in I} B_i$, so heißt $(B_i)_{i \\in I}$ disjunkte Zerlegung von $\\Omega$. Ist die Indexmenge $I$ endlich oder abzählbar, so spricht man entsprechend von einer endlichen Zerlegung bzw. abzählbaren Zerlegung von $\\Omega$.",
+      "erklaerung": "Eine Aufteilung von $\\Omega$ in Teile, die zusammen alles abdecken; bei „disjunkt“ überschneiden sich die Teile nicht. Beispiel: $B$ und $\\bar{B}$; beim Würfel $\\{1, 2\\}$, $\\{3, 4\\}$, $\\{5, 6\\}$. $I$ ist die Indexmenge („Hausnummern“ der Teile).",
+      "folie": "Kap. 2, 17"
+    },
+    {
+      "begriff": "Formel der totalen Wahrscheinlichkeit",
+      "wortlaut": "Satz 2.1.10 (Formel der totalen Wahrscheinlichkeit) Ist $(B_i)_{i \\in I}$ eine abzählbare, disjunkte Zerlegung von $\\Omega$, dann gilt: $P(A) = \\sum_{i \\in I} P(A \\cap B_i) = \\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)$",
+      "erklaerung": "Man berechnet $P(A)$, indem man nach Fällen $B_i$ aufteilt: je Fall $P(B_i) \\cdot P(A \\mid B_i)$, dann addieren. Im Baumdiagramm: alle Pfade zu $A$ multiplizieren und addieren. Beispiel: $P(\\text{2. Kugel blau}) = \\frac{4}{10} \\cdot \\frac{6}{9} + \\frac{6}{10} \\cdot \\frac{5}{9} = \\frac{3}{5}$.",
+      "folie": "Kap. 2, 18"
+    },
+    {
+      "begriff": "Bayes-Umkehr-Formel",
+      "wortlaut": "Satz 2.1.11 (Bayes-Umkehr-Formel) Ist $(B_i)_{i \\in I}$ eine abzählbare, disjunkte Zerlegung von $\\Omega$, dann gilt für alle $k \\in I$ und Ereignisse $A$ mit $P(A) > 0$: $P(B_k \\mid A) = \\frac{P(B_k) \\cdot P(A \\mid B_k)}{\\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)}$",
+      "erklaerung": "Dreht die Bedingung um: aus $P(A \\mid B_k)$ wird $P(B_k \\mid A)$. Zähler = der eine Pfad über $B_k$ nach $A$, Nenner = alle Pfade nach $A$. Beispiel Gesichtserkennung: $P(\\text{gefahndet} \\mid \\text{gemeldet}) = \\frac{18}{18 + 98} \\approx 0{,}155$.",
+      "folie": "Kap. 2, 19"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 1.5.2: Es wird das Zufalls-Experiment „Einmaliges Werfen einer fairen Münze“ betrachtet. Modellieren Sie das Experiment vollständig durch einen entsprechenden Wahrscheinlichkeitsraum.",
+      "quelle": "Kapitel 1, Folie 48 (Tafel 02.11.2026)",
+      "loesung": "$\\Omega = \\{\\text{Kopf}, \\text{Zahl}\\}$, $\\mathcal{A} = \\mathfrak{P}(\\Omega)$, $P : \\mathcal{A} \\to \\mathbb{R}$ mit $P(\\{\\text{Kopf}\\}) = P(\\{\\text{Zahl}\\}) = \\frac{1}{2}$ (ebenso: $P(\\emptyset) = 0$, $P(\\Omega) = 1$).",
+      "loesungsweg": "Lösung laut Mitschrift (Folie 48) – stimmt mit der selbst erarbeiteten Lösung aus Sitzung 3 überein (dort mit „Wappen“ statt „Kopf“; die Bezeichnung ist egal). „Fair“ heißt: beide Seiten gleich wahrscheinlich, also Laplace mit $N = 2$. Bei diskretem $\\Omega$ genügt es, $P$ für die Elementarereignisse anzugeben (Folie 53). Hinweis zur Mitschrift: Das Ereignissystem ist die **Potenzmenge** $\\mathfrak{P}(\\Omega)$ (Fraktur-P) – in der Mitschrift sieht das Zeichen wie ein $\\beta$ aus.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 1.5.5: Geben Sie ein Zufalls-Experiment an, das 1. sowohl ein Bernoulli- als auch ein Laplace-Experiment ist; 2. ein Bernoulli-, aber kein Laplace-Experiment ist; 3. ein Laplace-, aber kein Bernoulli-Experiment ist; 4. weder ein Bernoulli- noch ein Laplace-Experiment ist.",
+      "quelle": "Kapitel 1, Folie 51 (Tafel 02.11.2026)",
+      "loesung": "1. **Fairer Münzwurf** – zwei gleich wahrscheinliche Ausgänge.\n2. **Infektion mit einer Krankheit / einem Virus** bei einer Infektionsrate von 4 % (infiziert / nicht infiziert); **Torschuss von Harry Kane** (Tor / kein Tor); **Würfeln einer 6** (Erfolg) mit einem Würfel – je zwei Ausgänge, aber nicht gleich wahrscheinlich.\n3. **Würfeln mit einem fairen Würfel** (Ergebnis = Augenzahl) – 6 gleich wahrscheinliche Ausgänge, also mehr als zwei.\n4. **Augensumme beim Werfen zweier Würfel** – 11 Ausgänge $\\{2, \\dots, 12\\}$, nicht gleich wahrscheinlich (Summe 7 auf 6 Arten, Summe 2 nur als $(1, 1)$).",
+      "loesungsweg": "Lösung laut Mitschrift (Folie 51), stimmt mit der selbst erarbeiteten Lösung aus Sitzung 3 überein. Prüfen: Bernoulli = genau 2 Ausgänge (Def. 1.5.3); Laplace = endlich viele **gleichwertige** Ausgänge (Def. 1.5.4).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 2.1.1: Betrachtet wird das Laplace-Experiment „Einmaliges Werfen eines fairen, zehnseitigen Würfels“, also $\\Omega = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$, $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ und $P(A) = \\frac{|A|}{|\\Omega|}$ für alle $A \\in \\mathcal{A}$. Betrachtet werden die folgenden Ereignisse: $A$: Die gewürfelte Zahl ist ungerade. $B$: Die gewürfelte Zahl ist eine Primzahl. Veranschaulichen Sie mithilfe von Venn-Diagrammen die folgenden Wahrscheinlichkeiten und bestimmen Sie diese: 1. $P(A)$: Die Wahrscheinlichkeit, dass Ereignis $A$ eintritt. 2. $P(A \\cap B)$: Die Wahrscheinlichkeit, dass die Ereignisse $A$ und $B$ beide eintreten. 3. $P(A \\mid B)$: Die Wahrscheinlichkeit, dass Ereignis $A$ eintritt, unter der Annahme, dass Ereignis $B$ auf jeden Fall eintritt.",
+      "quelle": "Kapitel 2, Folie 5–8",
+      "loesung": "$A = \\{1, 3, 5, 7, 9\\}$, $|A| = 5$; $B = \\{2, 3, 5, 7\\}$ (Primzahlen bis 10), $|B| = 4$; $A \\cap B = \\{3, 5, 7\\}$.\n\n1. $P(A) = \\frac{|A|}{|\\Omega|} = \\frac{5}{10} = \\frac{1}{2}$.\n2. $P(A \\cap B) = \\frac{|A \\cap B|}{|\\Omega|} = \\frac{|\\{3, 5, 7\\}|}{10} = \\frac{3}{10}$.\n3. $P(A \\mid B) = \\frac{3}{4} = \\frac{3/10}{4/10} = \\frac{|A \\cap B| / |\\Omega|}{|B| / |\\Omega|} = \\frac{P(A \\cap B)}{P(B)}$.",
+      "loesungsweg": "Lösung laut Mitschrift (Folie 5–8), geprüft – alles richtig, auch die Einordnung der Zahlen im Venn-Diagramm (1 und 9 nur in $A$, 3, 5, 7 in $A \\cap B$, 2 nur in $B$, 4, 6, 8, 10 außerhalb). Bei 3) weiß man: $B$ ist eingetreten. Dann gibt es nur noch 4 mögliche Zahlen (2, 3, 5, 7), davon sind 3 ungerade. Erweitert man Zähler und Nenner mit $\\frac{1}{10}$, sieht man die allgemeine Formel $\\frac{P(A \\cap B)}{P(B)}$ (→ Definition 2.1.2). Hinweis: 1 ist **keine** Primzahl (eine Primzahl hat genau zwei Teiler).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 2.1.4: Bei einem (fiktiven) Testlauf einer mit Gesichtserkennungssoftware ausgestatteten Kamera wurden in einem öffentlichen Bereich 1000 Personen erfasst und mit Fahndungsfotos in einer Datenbank abgeglichen. Im Falle eines Treffers wurden die entsprechenden Personen mit Aufenthaltsort und Uhrzeit der Polizei gemeldet. Ein nachträglicher manueller Abgleich ergab, dass 90 % der gefahndeten Personen korrekt gemeldet wurden und nicht gefahndete Personen lediglich in 10 % der Fälle irrtümlicherweise gemeldet wurden. Unter den erfassten 1000 Personen befanden sich insgesamt 20 Personen, nach denen gefahndet wurde. Mit welcher Wahrscheinlichkeit wurde nach einer zufällig ausgewählten, gemeldeten Person auch tatsächlich gefahndet? $P(\\text{gefahndet} \\mid \\text{gemeldet}) =$ ?, $P(\\text{nicht gefahndet} \\mid \\text{gemeldet}) =$ ?",
+      "quelle": "Kapitel 2, Folie 11",
+      "loesung": "Gefahndet: 20 Personen, davon $90\\,\\%$ gemeldet: $0{,}9 \\cdot 20 = 18$. Nicht gefahndet: $1000 - 20 = 980$ Personen, davon $10\\,\\%$ gemeldet: $0{,}1 \\cdot 980 = 98$. Gemeldet insgesamt: $18 + 98 = 116$.\n\n![Baumdiagramm Beispiel 2.1.4: 20 gefahndet (18 gemeldet), 980 nicht gefahndet (98 gemeldet)](/dateien/mab005/Kap2_Bsp2-1-4_Baum.svg)\n\n$$P(\\text{gefahndet} \\mid \\text{gemeldet}) = \\frac{P(\\text{gefahndet und gemeldet})}{P(\\text{gemeldet})} = \\frac{18/1000}{116/1000} = \\frac{18}{116} = \\frac{9}{58} \\approx 0{,}155$$\n$$P(\\text{nicht gefahndet} \\mid \\text{gemeldet}) = \\frac{98/1000}{116/1000} = \\frac{98}{116} = \\frac{49}{58} \\approx 0{,}845$$\n\n**Ergebnis:** Nur etwa **15,5 %** der gemeldeten Personen werden tatsächlich gesucht; rund 84,5 % der Meldungen sind Fehlalarme. (Probe: $0{,}155 + 0{,}845 = 1$.)",
+      "loesungsweg": "Lösung laut Mitschrift (Folie 11), geprüft – richtig. Der Bruch $\\frac{18/1000}{116/1000}$: Die $1000$ kürzt sich weg (in der Mitschrift durchgestrichen). Gekürzt: $\\frac{18}{116} = \\frac{9}{58}$ (Zähler und Nenner durch 2). Das ist schon die Bayes-Formel (Satz 2.1.11) in Zahlen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a05",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 2.1.5: Aus einer Urne mit vier roten und sechs blauen Kugeln werden ohne Zurücklegen zwei Kugeln gezogen. Betrachtet werden die folgenden Ereignisse: $A$: Die erste gezogene Zahl ist rot. $B$: Die zweite gezogene Zahl ist blau. Wie groß ist die Wahrscheinlichkeit, dass $A$ und $B$ beide eintreten? $P(A) =$ ?, $P(B \\mid A) =$ ?, $P(A \\cap B) =$ ?",
+      "quelle": "Kapitel 2, Folie 12–13",
+      "loesung": "$P(A) = \\frac{4}{10}$ (zuerst rot: 4 rote von 10 Kugeln).\n\n$P(B \\mid A) = \\frac{6}{9}$ (dann blau: nach einer roten sind noch 9 Kugeln da, davon 6 blau).\n\n$P(A \\cap B) = \\frac{4}{10} \\cdot \\frac{6}{9} = \\frac{24}{90} = \\frac{4}{15}$.\n\nBegründung: $P(B \\mid A) = \\frac{P(B \\cap A)}{P(A)} \\iff P(A) \\cdot P(B \\mid A) = P(A \\cap B)$.\n\n![Baumdiagramm Beispiel 2.1.5: zwei Züge ohne Zurücklegen](/dateien/mab005/Kap2_Bsp2-1-5_Baum.svg)\n\nIm Baum (Folie 13): erster Zug $P(A) = \\frac{4}{10}$, $P(\\bar{A}) = \\frac{6}{10}$; zweiter Zug nach rot $P(\\bar{B} \\mid A) = \\frac{3}{9}$, $P(B \\mid A) = \\frac{6}{9}$; nach blau $P(\\bar{B} \\mid \\bar{A}) = \\frac{4}{9}$, $P(B \\mid \\bar{A}) = \\frac{5}{9}$.",
+      "loesungsweg": "Lösung laut Mitschrift (Folie 12–13), geprüft – alles richtig, auch alle vier Zweige im Baum. Auf der Folie steht „gezogene **Zahl**“ – gemeint ist „Kugel“ (in deiner Mitschrift schon verbessert). Gekürzt: $\\frac{24}{90} = \\frac{4}{15}$ (durch 6). $\\bar{B}$ heißt hier „zweite Kugel ist **rot**“.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a06",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 2.1.8: Es wird erneut Beispiel 2.1.5 aufgegriffen; es wird eine dritte Kugel (ohne Zurücklegen) gezogen und zusätzlich Ereignis $C$ betrachtet. $C$: Die dritte gezogene Kugel ist blau. Analysieren Sie die Wahrscheinlichkeiten für das Eintreten der verschiedenen Kombinationen von $A$, $B$ und $C$ mit einem Baumdiagramm. Wie könnte man $P(C)$ berechnen?",
+      "quelle": "Kapitel 2, Folie 16",
+      "loesung": "![Baumdiagramm Beispiel 2.1.8: drei Züge ohne Zurücklegen, alle 8 Pfade mit Wahrscheinlichkeit](/dateien/mab005/Kap2_Bsp2-1-8_Baum.svg)\n\nDritter Zug (8 Kugeln übrig), je nachdem, was vorher gezogen wurde:\n\n| bisher gezogen | übrig | $P(\\bar{C} \\mid \\ldots)$ (rot) | $P(C \\mid \\ldots)$ (blau) |\n|---|---|---|---|\n| rot, rot ($A \\cap \\bar{B}$) | 2 rot, 6 blau | $\\frac{2}{8}$ | $\\frac{6}{8}$ |\n| rot, blau ($A \\cap B$) | 3 rot, 5 blau | $\\frac{3}{8}$ | $\\frac{5}{8}$ |\n| blau, rot ($\\bar{A} \\cap \\bar{B}$) | 3 rot, 5 blau | $\\frac{3}{8}$ | $\\frac{5}{8}$ |\n| blau, blau ($\\bar{A} \\cap B$) | 4 rot, 4 blau | $\\frac{4}{8} = \\frac{1}{2}$ | $\\frac{4}{8} = \\frac{1}{2}$ |\n\n**$P(C)$:** Alle Pfade, die mit $C$ enden, mit der Verkettungsregel ausrechnen und addieren (Formel der totalen Wahrscheinlichkeit):\n$$P(C) = P(A \\cap \\bar{B} \\cap C) + P(A \\cap B \\cap C) + P(\\bar{A} \\cap \\bar{B} \\cap C) + P(\\bar{A} \\cap B \\cap C)$$\n$$= \\frac{4}{10} \\cdot \\frac{3}{9} \\cdot \\frac{6}{8} + \\frac{4}{10} \\cdot \\frac{6}{9} \\cdot \\frac{5}{8} + \\frac{6}{10} \\cdot \\frac{4}{9} \\cdot \\frac{5}{8} + \\frac{6}{10} \\cdot \\frac{5}{9} \\cdot \\frac{4}{8}$$\n$$= \\frac{72 + 120 + 120 + 120}{720} = \\frac{432}{720} = \\frac{3}{5}$$\n\n**Ergebnis:** $P(C) = \\frac{3}{5} = 0{,}6$ – genauso groß wie die Wahrscheinlichkeit, beim **ersten** Zug blau zu ziehen ($\\frac{6}{10}$).",
+      "loesungsweg": "Baum laut Mitschrift (Folie 16), geprüft – alle Wahrscheinlichkeiten und Beschriftungen stimmen. Kleinigkeit: Beim Ast $\\bar{A} \\cap \\bar{B} \\to \\bar{C}$ steht in der Mitschrift „38“ – gemeint ist $\\frac{3}{8}$. Die Rechnung für $P(C)$ war in der Mitschrift nur begonnen („$P(C) = P(A \\cap \\bar{B} \\cap C) + \\ldots$“) – hier zu Ende gerechnet (selbst erarbeitet). Hauptnenner: $10 \\cdot 9 \\cdot 8 = 720$. Gekürzt: $\\frac{432}{720} = \\frac{3}{5}$ (durch 144). Dass $P(C) = P(\\text{1. Kugel blau})$ ist, ist kein Zufall: Ohne Information über die vorherigen Züge ist jede Position gleich – Symmetrie.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a07",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 2.1.12 (Ziegenproblem / Monty-Hall-Problem): Bei einer Spielshow wird mit gleicher Wahrscheinlichkeit hinter einem von drei Toren ein Auto versteckt, hinter den anderen beiden Toren stehen Nieten (in Form von Ziegen). Das Spiel läuft wie folgt ab: 1. Die Kandidatin wählt eines der Tore 1, 2 oder 3 aus. 2. Der Moderator (der weiß, hinter welchem Tor das Auto steht), öffnet (im Zweifel mit gleicher Wahrscheinlichkeit) eines der beiden anderen Tore, hinter dem eine Ziege steht. 3. Anschließend fragt der Moderator die Kandidatin, ob sie ihre Entscheidung auf das andere, noch verschlossene Tor ändern möchte. 4. Das endgültig gewählte Tor wird nun geöffnet und die Kandidatin gewinnt, was hinter diesem Tor steht. Die Kandidatin wählt zunächst Tor 2, der Moderator lässt daraufhin Tor 1 öffnen. Liegt es nun im Interesse der Kandidatin, von Tor 2 zu Tor 3 zu wechseln? (Es bezeichne $T_i$ das Ereignis „Das Auto steht hinter Tor $i$“ und $M_i$ das Ereignis „Der Moderator öffnet Tor $i$“ für $i \\in \\{1, 2, 3\\}$.)",
+      "quelle": "Kapitel 2, Folie 20–21",
+      "loesung": "**Vorher (Auto zufällig):** $P(T_1) = P(T_2) = P(T_3) = \\frac{1}{3}$.\n\n**Was macht der Moderator?** (Kandidatin hat Tor 2 gewählt.)\n- $P(M_1 \\mid T_1) = 0$ – hinter Tor 1 steht das Auto, das öffnet er nie.\n- $P(M_1 \\mid T_2) = \\frac{1}{2}$ – Auto hinter dem Tor der Kandidatin: Er kann Tor 1 oder Tor 3 öffnen, beide gleich wahrscheinlich.\n- $P(M_1 \\mid T_3) = 1$ – Auto hinter Tor 3, Tor 2 ist gewählt: Er **muss** Tor 1 öffnen.\n\n**Formel der totalen Wahrscheinlichkeit** ($T_1, T_2, T_3$ ist eine disjunkte Zerlegung von $\\Omega$):\n$$P(M_1) = P(T_1) \\cdot P(M_1 \\mid T_1) + P(T_2) \\cdot P(M_1 \\mid T_2) + P(T_3) \\cdot P(M_1 \\mid T_3) = \\frac{1}{3} \\cdot 0 + \\frac{1}{3} \\cdot \\frac{1}{2} + \\frac{1}{3} \\cdot 1 = \\frac{1}{2}$$\n\n**Bayes-Umkehr-Formel:**\n$$P(T_2 \\mid M_1) = \\frac{P(T_2 \\cap M_1)}{P(M_1)} = \\frac{P(T_2) \\cdot P(M_1 \\mid T_2)}{P(M_1)} = \\frac{\\frac{1}{3} \\cdot \\frac{1}{2}}{\\frac{1}{2}} = \\frac{1}{3}$$\n$$P(T_3 \\mid M_1) = \\frac{P(T_3) \\cdot P(M_1 \\mid T_3)}{P(M_1)} = \\frac{\\frac{1}{3} \\cdot 1}{\\frac{1}{2}} = \\frac{2}{3}$$\n\n**Ergebnis:** Ja, **wechseln lohnt sich**: Bleibt sie bei Tor 2, gewinnt sie mit $\\frac{1}{3}$, wechselt sie zu Tor 3, mit $\\frac{2}{3}$. Aus Symmetriegründen gilt das für jede Kombination aus gewähltem und geöffnetem Tor.",
+      "loesungsweg": "Lösung laut Mitschrift (Folie 21), geprüft – alle Zahlen richtig ($\\frac{1}{3}$, $0$, $\\frac{1}{2}$, $1$, $P(M_1) = \\frac{1}{2}$, $\\frac{1}{3}$, $\\frac{2}{3}$). **Zwei Stellen in der Mitschrift korrigieren:** (1) Oben steht „Auto hinter Tor 3“ – das ist **nicht** gegeben, wo das Auto steht, weiß die Kandidatin nicht; gegeben ist: Kandidatin wählt Tor 2, Moderator öffnet Tor 1. (2) In der Zeile für $P(M_1)$ steht „$P(T_2) \\cdot P(M_2 \\mid T_2)$“ – richtig ist $P(M_1 \\mid T_2)$ (der Wert $\\frac{1}{2}$ stimmt). Der Moderator „verrät“ etwas: Er wählt sein Tor abhängig davon, wo das Auto steht – deshalb ändern sich die Wahrscheinlichkeiten nicht gleichmäßig.",
+      "frist": "",
+      "im_kalender": false
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie ist die bedingte Wahrscheinlichkeit $P(A \\mid B)$ definiert (Definition 2.1.2), auch für den Fall $P(B) = 0$?",
+      "antwort": "Für $P(B) > 0$: $P(A \\mid B) := \\frac{P(A \\cap B)}{P(B)}$. Für $P(B) = 0$ wird $P(A \\mid B) := 0$ gesetzt.",
+      "erklaerung": "Definition 2.1.2, Folie 9. Anschaulich: Einschränkung des Ergebnisraums auf $B$.",
+      "folie": "Kap. 2, 9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "P(A | B) heißt die [[bedingte Wahrscheinlichkeit]] von A unter der [[Bedingung]] B.",
+      "erklaerung": "Definition 2.1.2.",
+      "folie": "Kap. 2, 9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Zehnseitiger fairer Würfel, $A$: „ungerade“, $B$: „Primzahl“. Bestimme $P(A)$, $P(A \\cap B)$ und $P(A \\mid B)$.",
+      "musterloesung": "$A = \\{1, 3, 5, 7, 9\\}$, $B = \\{2, 3, 5, 7\\}$, $A \\cap B = \\{3, 5, 7\\}$. $P(A) = \\frac{5}{10} = \\frac{1}{2}$, $P(A \\cap B) = \\frac{3}{10}$, $P(A \\mid B) = \\frac{3/10}{4/10} = \\frac{3}{4}$.",
+      "bewertungspunkte": [
+        "$A$ und $B$ als Mengen (1 ist keine Primzahl)",
+        "$P(A) = \\frac{1}{2}$",
+        "$P(A \\cap B) = \\frac{3}{10}$",
+        "$P(A \\mid B) = \\frac{3}{4}$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Beispiel 2.1.1, Folie 5–8.",
+      "folie": "Kap. 2, 5–8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur bedingten Wahrscheinlichkeit (Folie 9–10) stimmen?",
+      "optionen": [
+        "$P(A \\mid B)$ beschreibt immer einen zeitlichen oder ursächlichen Zusammenhang: $B$ passiert vor $A$.",
+        "Ist $B \\subseteq A$ und $P(B) > 0$, dann ist $P(A \\mid B) = 1$.",
+        "Ist $A \\cap B = \\emptyset$ und $P(B) > 0$, dann ist $P(A \\mid B) = 0$.",
+        "Ist $P(B) = 1$, dann ist $P(A \\mid B) = P(A)$.",
+        "Für $P(B) = 0$ ist $P(A \\mid B)$ in der Vorlesung nicht festgelegt."
+      ],
+      "richtig": [
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Satz 2.1.3 (2), (3), (5). Folie 9: nur formaler Zusammenhang, nicht zeitlich oder ursächlich. Für $P(B) = 0$ setzt die Vorlesung $P(A \\mid B) := 0$.",
+      "folie": "Kap. 2, 9–10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Beweise Satz 2.1.3 (5): Für Ereignisse $A$, $B$ mit $P(B) = 1$ gilt $P(A \\mid B) = P(A)$.",
+      "musterloesung": "Wegen $B \\subseteq A \\cup B$ (Monotonie) und $P \\le 1$: $1 = P(B) \\le P(A \\cup B) \\le 1$, also $P(A \\cup B) = 1$. Mit Def. 2.1.2 und dem Additionssatz: $P(A \\mid B) = \\frac{P(A \\cap B)}{1} = P(A) + P(B) - P(A \\cup B) = P(A) + 1 - 1 = P(A)$. $\\blacksquare$",
+      "bewertungspunkte": [
+        "$P(A \\cup B) = 1$ mit Monotonie begründet",
+        "Definition 2.1.2 mit $P(B) = 1$",
+        "Additionssatz nach $P(A \\cap B)$ umgestellt",
+        "Ergebnis $P(A)$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Beweis Folie 10. Die Folie zitiert „Satz 1.4.6(6)“ – gemeint ist der Additionssatz, in Kapitel 1 Satz 1.4.7 (6).",
+      "folie": "Kap. 2, 10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Gesichtserkennung (Beispiel 2.1.4): 1000 Personen, 20 davon gesucht. Gesuchte werden zu 90 % gemeldet, nicht Gesuchte zu 10 %. Wie wahrscheinlich ist eine gemeldete Person tatsächlich gesucht?",
+      "musterloesung": "Gesucht und gemeldet: $0{,}9 \\cdot 20 = 18$. Nicht gesucht, aber gemeldet: $0{,}1 \\cdot 980 = 98$. Gemeldet: 116. $P(\\text{gefahndet} \\mid \\text{gemeldet}) = \\frac{18}{116} = \\frac{9}{58} \\approx 0{,}155$.",
+      "bewertungspunkte": [
+        "18 richtig Gemeldete",
+        "98 Fehlalarme",
+        "116 Gemeldete insgesamt",
+        "$\\approx 0{,}155$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Beispiel 2.1.4, Folie 11.",
+      "folie": "Kap. 2, 11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Urne mit 4 roten und 6 blauen Kugeln, zwei Züge ohne Zurücklegen. $A$: „1. Kugel rot“, $B$: „2. Kugel blau“. Berechne $P(A)$, $P(B \\mid A)$ und $P(A \\cap B)$.",
+      "musterloesung": "$P(A) = \\frac{4}{10}$, $P(B \\mid A) = \\frac{6}{9}$, $P(A \\cap B) = \\frac{4}{10} \\cdot \\frac{6}{9} = \\frac{24}{90} = \\frac{4}{15}$.",
+      "bewertungspunkte": [
+        "$P(A) = \\frac{4}{10}$",
+        "$P(B \\mid A) = \\frac{6}{9}$ (9 Kugeln übrig)",
+        "Multiplikationssatz",
+        "$\\frac{4}{15}$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Beispiel 2.1.5, Folie 12–13.",
+      "folie": "Kap. 2, 12–13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie lautet der Multiplikationssatz (Satz 2.1.6), und wie sieht man ihn im Baumdiagramm?",
+      "antwort": "Für je zwei beliebige Ereignisse $A$, $B$: $P(A \\cap B) = P(B) \\cdot P(A \\mid B)$. Im Baumdiagramm ist das die Pfadregel: Wahrscheinlichkeiten entlang eines Pfades werden multipliziert.",
+      "erklaerung": "Satz 2.1.6, Folie 14.",
+      "folie": "Kap. 2, 14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Beweise den Multiplikationssatz $P(A \\cap B) = P(B) \\cdot P(A \\mid B)$ – auch für den Fall $P(B) = 0$.",
+      "musterloesung": "$P(B) > 0$: Aus Def. 2.1.2 $P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)}$, mal $P(B)$. $P(B) = 0$: $A \\cap B \\subseteq B$, also $0 \\le P(A \\cap B) \\le P(B) = 0$ (Monotonie, Nichtnegativität), d. h. $P(A \\cap B) = 0 = 0 \\cdot P(A \\mid B) = P(B) \\cdot P(A \\mid B)$. $\\blacksquare$",
+      "bewertungspunkte": [
+        "Fallunterscheidung",
+        "Fall $P(B) > 0$ über die Definition",
+        "Fall $P(B) = 0$ über Monotonie und Nichtnegativität"
+      ],
+      "punkte": 3,
+      "erklaerung": "Beweis Folie 14.",
+      "folie": "Kap. 2, 14",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f10",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie lautet die Verkettungsregel (Satz 2.1.7)?",
+      "antwort": "Für je drei Ereignisse $A$, $B$, $C$: $P(A \\cap B \\cap C) = P(C) \\cdot P(B \\mid C) \\cdot P(A \\mid B \\cap C)$.",
+      "erklaerung": "Satz 2.1.7, Folie 15; Beweis durch zweimaliges Anwenden des Multiplikationssatzes.",
+      "folie": "Kap. 2, 15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Urne mit 4 roten und 6 blauen Kugeln, drei Züge ohne Zurücklegen. Berechne $P(C)$ für $C$: „die dritte Kugel ist blau“.",
+      "musterloesung": "Alle Pfade mit blauer dritter Kugel: rot-rot-blau $\\frac{4}{10} \\cdot \\frac{3}{9} \\cdot \\frac{6}{8}$, rot-blau-blau $\\frac{4}{10} \\cdot \\frac{6}{9} \\cdot \\frac{5}{8}$, blau-rot-blau $\\frac{6}{10} \\cdot \\frac{4}{9} \\cdot \\frac{5}{8}$, blau-blau-blau $\\frac{6}{10} \\cdot \\frac{5}{9} \\cdot \\frac{4}{8}$. Summe: $\\frac{72 + 120 + 120 + 120}{720} = \\frac{432}{720} = \\frac{3}{5}$.",
+      "bewertungspunkte": [
+        "vier Pfade erkannt",
+        "Pfade mit Verkettungsregel multipliziert",
+        "addiert (totale Wahrscheinlichkeit)",
+        "$\\frac{3}{5}$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Beispiel 2.1.8, Folie 16.",
+      "folie": "Kap. 2, 16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Was ist eine disjunkte Zerlegung von $\\Omega$ (Definition 2.1.9)?",
+      "antwort": "Eine Familie von Mengen $(B_i)_{i \\in I}$ mit $\\Omega = \\dot{\\bigcup}_{i \\in I} B_i$ – die $B_i$ ergeben zusammen $\\Omega$ und sind paarweise disjunkt. (Ohne „disjunkt“: nur $\\Omega = \\bigcup_{i \\in I} B_i$.) Ist $I$ endlich bzw. abzählbar: endliche bzw. abzählbare Zerlegung.",
+      "erklaerung": "Definition 2.1.9, Folie 17.",
+      "folie": "Kap. 2, 17",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie lautet die Formel der totalen Wahrscheinlichkeit (Satz 2.1.10)?",
+      "antwort": "Ist $(B_i)_{i \\in I}$ eine abzählbare, disjunkte Zerlegung von $\\Omega$, dann gilt $P(A) = \\sum_{i \\in I} P(A \\cap B_i) = \\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)$.",
+      "erklaerung": "Satz 2.1.10, Folie 18. Beweis: Additivität/σ-Additivität + Multiplikationssatz.",
+      "folie": "Kap. 2, 18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie lautet die Bayes-Umkehr-Formel (Satz 2.1.11)?",
+      "antwort": "Ist $(B_i)_{i \\in I}$ eine abzählbare, disjunkte Zerlegung von $\\Omega$, dann gilt für alle $k \\in I$ und Ereignisse $A$ mit $P(A) > 0$: $P(B_k \\mid A) = \\frac{P(B_k) \\cdot P(A \\mid B_k)}{\\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)}$.",
+      "erklaerung": "Satz 2.1.11, Folie 19; Beweis = Blatt 04, B.1.",
+      "folie": "Kap. 2, 19",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Ziegenproblem: Die Kandidatin wählt Tor 2, der Moderator öffnet Tor 1. Berechne $P(M_1)$, $P(T_2 \\mid M_1)$ und $P(T_3 \\mid M_1)$. Soll sie wechseln?",
+      "musterloesung": "$P(T_i) = \\frac{1}{3}$; $P(M_1 \\mid T_1) = 0$, $P(M_1 \\mid T_2) = \\frac{1}{2}$, $P(M_1 \\mid T_3) = 1$. $P(M_1) = \\frac{1}{3} \\cdot 0 + \\frac{1}{3} \\cdot \\frac{1}{2} + \\frac{1}{3} \\cdot 1 = \\frac{1}{2}$. $P(T_2 \\mid M_1) = \\frac{\\frac{1}{3} \\cdot \\frac{1}{2}}{\\frac{1}{2}} = \\frac{1}{3}$, $P(T_3 \\mid M_1) = \\frac{\\frac{1}{3} \\cdot 1}{\\frac{1}{2}} = \\frac{2}{3}$. Wechseln lohnt sich.",
+      "bewertungspunkte": [
+        "bedingte Wahrscheinlichkeiten des Moderators",
+        "$P(M_1) = \\frac{1}{2}$ (totale W.)",
+        "$P(T_2 \\mid M_1) = \\frac{1}{3}$",
+        "$P(T_3 \\mid M_1) = \\frac{2}{3}$, Entscheidung wechseln"
+      ],
+      "punkte": 4,
+      "erklaerung": "Beispiel 2.1.12, Folie 20–21.",
+      "folie": "Kap. 2, 20–21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Formeln ihrem Namen zu.",
+      "kategorien": [
+        "Definition 2.1.2",
+        "Multiplikationssatz",
+        "Verkettungsregel",
+        "totale Wahrscheinlichkeit",
+        "Bayes-Umkehr-Formel"
+      ],
+      "elemente": [
+        {
+          "text": "P(A | B) = P(A ∩ B) / P(B)",
+          "kategorie": "Definition 2.1.2"
+        },
+        {
+          "text": "P(A ∩ B) = P(B) · P(A | B)",
+          "kategorie": "Multiplikationssatz"
+        },
+        {
+          "text": "P(A ∩ B ∩ C) = P(C) · P(B | C) · P(A | B ∩ C)",
+          "kategorie": "Verkettungsregel"
+        },
+        {
+          "text": "P(A) = Σ P(Bᵢ) · P(A | Bᵢ)",
+          "kategorie": "totale Wahrscheinlichkeit"
+        },
+        {
+          "text": "P(Bₖ | A) = P(Bₖ) · P(A | Bₖ) / Σ P(Bᵢ) · P(A | Bᵢ)",
+          "kategorie": "Bayes-Umkehr-Formel"
+        }
+      ],
+      "erklaerung": "Folie 9, 14, 15, 18, 19.",
+      "folie": "Kap. 2, 9–19",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Gesichtserkennung: $P(\\text{gemeldet} \\mid \\text{gefahndet}) = 0{,}9$. Welche Aussagen stimmen?",
+      "optionen": [
+        "Dann ist auch $P(\\text{gefahndet} \\mid \\text{gemeldet}) = 0{,}9$.",
+        "$P(\\text{gefahndet} \\mid \\text{gemeldet})$ ist hier viel kleiner, weil es viel mehr nicht gesuchte als gesuchte Personen gibt.",
+        "Um $P(\\text{gefahndet} \\mid \\text{gemeldet})$ zu berechnen, braucht man auch den Anteil der Gesuchten und die Fehlalarmquote.",
+        "Die Bayes-Umkehr-Formel dreht die Bedingung um."
+      ],
+      "richtig": [
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Beispiel 2.1.4 und Satz 2.1.11: Ergebnis ≈ 0,155. Typische Fehlvorstellung: die beiden bedingten Wahrscheinlichkeiten verwechseln.",
+      "folie": "Kap. 2, 11, 19",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wann ist ein Zufalls-Experiment ein Bernoulli-, wann ein Laplace-Experiment? Nenne je ein Beispiel, das nur Bernoulli bzw. nur Laplace ist.",
+      "antwort": "Bernoulli: genau zwei mögliche Ausgänge (Def. 1.5.3); Laplace: endlich viele gleichwertige Ausgänge (Def. 1.5.4). Nur Bernoulli: Torschuss (Tor / kein Tor), Würfeln einer 6. Nur Laplace: fairer Würfel mit Augenzahl als Ergebnis.",
+      "erklaerung": "Beispiel 1.5.5 (Kapitel 1, Folie 51), Tafelbeispiele vom 02.11.",
+      "folie": "Kap. 1, 51",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "In einer Klasse sind 60 % Mädchen. 50 % der Mädchen und 30 % der Jungen spielen ein Instrument. Ein zufällig gewähltes Kind spielt ein Instrument. Wie wahrscheinlich ist es ein Mädchen?",
+      "musterloesung": "$M$ = Mädchen, $I$ = Instrument. $P(I) = 0{,}6 \\cdot 0{,}5 + 0{,}4 \\cdot 0{,}3 = 0{,}30 + 0{,}12 = 0{,}42$. $P(M \\mid I) = \\frac{0{,}30}{0{,}42} = \\frac{5}{7} \\approx 0{,}714$.",
+      "bewertungspunkte": [
+        "Zerlegung Mädchen/Junge",
+        "$P(I) = 0{,}42$ mit totaler Wahrscheinlichkeit",
+        "Bayes",
+        "$\\frac{5}{7}$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Neue Rechnung nach dem Muster von Beispiel 2.1.4 / Satz 2.1.11 – passt als Aufgabe für den Mathematikunterricht (Vierfeldertafel oder Baum).",
+      "folie": "Kap. 2, 18–19",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f20",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ein Schüler sagt beim Ziegenproblem: „Es sind noch zwei Tore zu, also ist es egal, ob ich wechsle – 50 zu 50.“ Erkläre ihm in einfachen Worten, warum das nicht stimmt.",
+      "musterloesung": "Am Anfang trifft man das Auto nur mit $\\frac{1}{3}$. Daran ändert der Moderator nichts, denn er öffnet immer eine Ziege und nie das gewählte Tor. In den anderen $\\frac{2}{3}$ der Fälle steht das Auto hinter einem der beiden anderen Tore – und der Moderator zeigt, hinter welchem es **nicht** steht. Wer wechselt, gewinnt also in diesen $\\frac{2}{3}$ der Fälle. Die zwei Tore sind nicht gleich wahrscheinlich, weil der Moderator sein Wissen benutzt.",
+      "bewertungspunkte": [
+        "erste Wahl trifft nur mit 1/3",
+        "Moderator öffnet nie das Auto und nie das gewählte Tor",
+        "Wechseln gewinnt mit 2/3",
+        "Information ist nicht symmetrisch"
+      ],
+      "punkte": 4,
+      "erklaerung": "Typische Fehlvorstellung zum Zufall (Kompetenzziel der Modulbeschreibung), Beispiel 2.1.12.",
+      "folie": "Kap. 2, 20–21",
+      "pruefungsrelevant": false
+    }
+  ],
+  "pruefungshinweise": [
+    "Die Klausuraufgaben sind ähnlich wie die Aufgaben auf den Übungszetteln (VL Kapitel 0, Folie 5) – zu dieser Sitzung passt Blatt 04."
+  ],
+  "offene_fragen": [
+    "Kapitel 2, Folie 10: Der Beweis von Satz 2.1.3 (5) zitiert „Satz 1.4.6(6)“ – gemeint ist der Additionssatz, in Kapitel 1 Satz 1.4.7 (6) (Folie 44).",
+    "Kapitel 2, Folie 12: „Die erste/zweite gezogene Zahl“ – gemeint ist „Kugel“."
+  ]
+}

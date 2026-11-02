@@ -34,6 +34,11 @@
       "datei": "Hübner (2009): Stochastik, S. 27–29",
       "art": "Literatur (Kapitel 2, Folie 2)",
       "seiten": "27–29 – Buch fehlt im Ordner"
+    },
+    {
+      "datei": "mab005.1/Sitzung_04/02.11.26 - mab005.1.m4a",
+      "art": "Sprachaufnahme der Vorlesung (1:39 h, automatisch transkribiert)",
+      "seiten": "–"
     }
   ],
   "lernziele": [
@@ -148,6 +153,13 @@
       "folien": "19–21",
       "text": "**Idee in Alltagssprache:** Oft kennt man die Wahrscheinlichkeiten „vorwärts“ (Wie oft wird eine gesuchte Person gemeldet?), will aber „rückwärts“ wissen (Wie wahrscheinlich ist eine gemeldete Person wirklich gesucht?). Die **Bayes-Umkehr-Formel** dreht die Bedingung um.\n\n> **Satz 2.1.11 (Bayes-Umkehr-Formel):** Ist $(B_i)_{i \\in I}$ eine abzählbare, disjunkte Zerlegung von $\\Omega$, dann gilt für alle $k \\in I$ und Ereignisse $A$ mit $P(A) > 0$:\n> $$P(B_k \\mid A) = \\frac{P(B_k) \\cdot P(A \\mid B_k)}{\\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)}$$\n\n**Beweis:** Übung (AB4) – das ist **Aufgabe B.1 auf Blatt 04**, vollständig gelöst in der Hausaufgabe „Übungsblatt 04“ (Seminar 02.11.). Kurz: Zähler = Multiplikationssatz, Nenner = Formel der totalen Wahrscheinlichkeit.\n\n*Kurz erklärt:* Zähler = „der eine Pfad über $B_k$ nach $A$“, Nenner = „alle Pfade nach $A$“. Also: **Anteil des einen Pfades an allen Pfaden, die zu $A$ führen.** Beispiel 2.1.4 ist genau so: $\\frac{18}{18 + 98}$.\n\n**Beispiel 2.1.12 – Ziegenproblem / Monty-Hall-Problem** (Folie 20–21, Lösung laut Mitschrift):\n\n{{aufgabe a07}}\n\n![Baumdiagramm zum Ziegenproblem: erst steht das Auto hinter Tor 1, 2 oder 3 (je 1/3), dann öffnet der Moderator ein Tor](/dateien/mab005/Kap2_Bsp2-1-12_Ziegen_Baum.svg)\n\n**Prüfungsfalle:** Viele denken „zwei Tore übrig, also je $\\frac{1}{2}$“. Falsch – die Information des Moderators ist **nicht** symmetrisch: Er darf das Tor der Kandidatin nie öffnen und nie das Auto zeigen. Wechseln verdoppelt die Gewinnchance von $\\frac{1}{3}$ auf $\\frac{2}{3}$. (Folie 21: Aus Symmetriegründen gilt das für jede Kombination aus gewähltem und geöffnetem Tor.)",
       "beispiel": "Schnelltest: 2 % krank, Kranke zu 90 % positiv, Gesunde zu 5 % positiv. $P(\\text{krank} \\mid \\text{positiv}) = \\frac{0{,}02 \\cdot 0{,}9}{0{,}02 \\cdot 0{,}9 + 0{,}98 \\cdot 0{,}05} = \\frac{0{,}018}{0{,}067} \\approx 0{,}27$."
+    },
+    {
+      "titel": "Nachbereitung (Aufnahme vom 02.11.2026)",
+      "nachbereitung": true,
+      "folien": "48–54, 1–21",
+      "text": "Ergänzungen aus der Sprachaufnahme der Vorlesung (automatisch transkribiert, sinngemäß; Zeitmarken [MM:SS]). Der bisherige Lerntext bleibt unverändert – hier steht nur, was der Dozent **zusätzlich** gesagt oder betont hat.\n\n**Abschluss Kapitel 1**\n- [02:20] Beispiel 1.5.2: Ob man die Münzseiten „Kopf/Zahl“ oder „Wappen/Zahl“ nennt, ist egal. [02:48] Schon $\\Omega = \\{\\text{Kopf}, \\text{Zahl}\\}$ ist ein **Modell**: Fälle wie „die Münze bleibt auf dem Rand stehen“ oder „fällt in die Sofaritze“ werden bewusst weggelassen – das Modell vereinfacht die reale Situation.\n- [03:44] Für $P$ reicht es, die Elementarereignisse $\\{\\text{Kopf}\\}$, $\\{\\text{Zahl}\\}$ anzugeben; $P(\\emptyset) = 0$ und $P(\\Omega) = 1$ folgen aus den Eigenschaften des W-Maßes ($\\frac{1}{2} + \\frac{1}{2} = 1$). [05:36] $\\Omega$ hat 2 Elemente, also $2^2 = 4$ Teilmengen.\n- [13:04] Beispiel 1.5.5, Fall 4 – **weitere Beispiele aus der Vorlesung**: Würfeln, **bis zum ersten Mal eine 6** fällt; Ergebnis = Anzahl der Würfe (unendlich viele mögliche Ergebnisse, also weder Bernoulli noch Laplace). [14:00] Ein „Würfel“ als **Quader** mit unterschiedlich großen Seitenflächen (mehr als zwei Ausgänge, nicht gleich wahrscheinlich).\n- [14:28] **Merksatz des Dozenten:** *Kein Bernoulli-Experiment* ⇐ mehr als zwei Ausgänge. *Kein Laplace-Experiment* ⇐ die Ausgänge sind **nicht gleich wahrscheinlich** oder es gibt **unendlich viele** Ausgänge.\n- [15:24] Der Dozent lädt Kapitel 1 **mit allen Anmerkungen aus der Vorlesung** noch einmal in Stud.IP hoch.\n\n**Bedingte Wahrscheinlichkeit (Folie 5–10)**\n- [32:40] Bei $P(A \\mid B)$ wird der Ergebnisraum $\\Omega$ auf die Teilmenge $B$ **eingeschränkt**: „Alles, was außerhalb von $B$ liegt, kann gar nicht eintreten.“ Innerhalb von $B$ bleiben alle Ergebnisse gleich wahrscheinlich – darum $\\frac{3}{4}$.\n- [34:32] Der Weg zur Formel: Den Bruch $\\frac{3}{4}$ mit $\\frac{1}{10}$ erweitern ergibt $\\frac{3/10}{4/10} = \\frac{P(A \\cap B)}{P(B)}$. [38:16] Rückwärts gelesen: $P(B) = \\frac{4}{10}$, davon tritt in $\\frac{3}{4}$ der Fälle auch $A$ ein, zusammen $\\frac{4}{10} \\cdot \\frac{3}{4} = \\frac{3}{10}$ – „die Wahrscheinlichkeit der Bedingung wird herausdividiert“.\n- [40:08] Zum Sonderfall $P(B) = 0$: Das ist wie eine Implikation mit falscher Voraussetzung – man **muss** irgendeinen Wert festlegen; man könnte auch $P(A)$ oder $1$ nehmen. Die Vorlesung nimmt $0$. [70:56] Im Beweis des Multiplikationssatzes sieht man, warum das egal ist: Es reicht, dass $P(A \\mid B)$ **irgendein fester Wert** ist, denn $0 \\cdot (\\text{fester Wert}) = 0$.\n- [41:32] Betont: „unter der Bedingung $B$“ heißt **nicht**, dass $B$ die Ursache von $A$ ist oder zeitlich vorher passiert – nur ein formaler, rechnerischer Zusammenhang.\n- [43:24] Satz 2.1.3: Fall 1–3 folgen direkt aus der Definition, Fall 4 mit Nulltreue und Monotonie („nach unten durch 0, nach oben abschätzen“), Fall 5 wurde ausführlich gezeigt. [46:12] Dabei wird der Additionssatz „andersherum“ benutzt (umgestellt nach $P(A \\cap B)$).\n\n**Gesichtserkennung (Folie 11)**\n- [51:48]–[56:00] Gleiche Rechnung wie in der Mitschrift: $\\frac{18}{116} \\approx 0{,}155$ und $\\frac{98}{116} \\approx 0{,}845$. Der Dozent: „Das müssen Sie nicht im Kopf ausrechnen.“\n- [56:28] **Rückführung auf die Realsituation (wichtig):** 90 % Erkennung und nur 10 % Fehlalarm *klingen* gut – trotzdem sind etwa **84,5 % der gemeldeten Personen völlig unbescholten**. Für die Polizei bedeutet das viel unnötige Arbeit. Man muss Modellergebnisse also immer zurück auf die reale Situation übertragen und bewerten.\n\n**Urne und Baumdiagramm (Folie 12–16)**\n- [58:48] Der Dozent bestätigt: Auf Folie 12 muss es „**Kugel**“ statt „Zahl“ heißen (Überbleibsel aus einem anderen Beispiel).\n- [60:12] Wäre im ersten Zug blau gezogen worden, wäre $P(B \\mid \\bar{A}) = \\frac{5}{9}$ – „dafür sind bedingte Wahrscheinlichkeiten da: Zwischenzustände in mehrstufigen Experimenten modellieren“.\n- [68:36] Den Multiplikationssatz hat er im Beispiel „andersherum“ benutzt ($P(A) \\cdot P(B \\mid A)$) – die Reihenfolge der Ereignisse ist für die Formel egal.\n- [74:40] **Praxistipp:** Bei mehrstufigen Baumdiagrammen **von der letzten Stufe her zeichnen** – erst die Endknoten (z. B. 8 oder 16) untereinander setzen, dann nach links verzweigen. So reicht der Platz.\n- [78:52] $P(C)$: Alle Pfade nehmen, bei denen zuletzt blau gezogen wird (der 2., 4., 6. und 8. Pfad). $C$ **zerfällt in vier disjunkte Teile**, deren Wahrscheinlichkeiten addiert werden – das ist die Idee der Formel der totalen Wahrscheinlichkeit.\n\n**Totale Wahrscheinlichkeit und Bayes (Folie 17–19)**\n- [83:04] Den Beweis von Satz 2.1.10 hat der Dozent aus Zeitgründen übersprungen – „in Ruhe selbst durchlesen“.\n- [83:32] Die **Bayes-Umkehr-Formel „sollten Sie einmal gesehen haben, weil sie für die Übung relevant ist“**: Man vertauscht Ereignis und Bedingung. [84:28] Beispiel: Weiß man, was im **zweiten** Zug gezogen wurde, kann man berechnen, wie wahrscheinlich im **ersten** Zug rot war – wieder: kein zeitlicher oder ursächlicher Zusammenhang nötig. Die Herleitung ist Übungsaufgabe (Blatt 04, B.1).\n\n**Ziegenproblem (Folie 20–21)**\n- [86:48] Handabstimmung im Hörsaal: einige für Wechseln, einige für Bleiben, einige „egal“.\n- [90:32] Kernargument für $P(M_1 \\mid T_3) = 1$: Der Moderator öffnet **nie** das Tor der Kandidatin und **nie** das Tor mit dem Auto – bleibt nur Tor 1.\n- [95:12] Deutung: Aus Sicht der Kandidatin steht das Auto nur mit $\\frac{1}{3}$ hinter ihrem Tor, mit $\\frac{2}{3}$ hinter Tor 3 – Wechseln **verdoppelt** die Gewinnchance.\n\n**Organisatorisches**\n- [84:56], [96:36] **Stochastische Unabhängigkeit** wurde nicht mehr geschafft. Die Aufgaben dazu auf dem Aufgabenblatt werden **in die nächste Woche** mitgenommen (Blatt 04, B.2 → Seminar 09.11.).\n\n*Kurz erklärt:* Die Vorlesung hat zwei Dinge besonders betont: (1) Bedingen heißt **Ergebnisraum einschränken**, nicht „Ursache“. (2) Rechenergebnisse immer **zurück in die Wirklichkeit übersetzen** – wie bei der Gesichtserkennung, wo ein „guter“ Test trotzdem vor allem Unschuldige meldet.\n\n**Prüfungsfalle:** Bei „weder Bernoulli noch Laplace“ reicht es nicht, nur „mehr als zwei Ausgänge“ zu nennen – man muss **auch** begründen, warum es kein Laplace-Experiment ist (ungleiche Wahrscheinlichkeiten **oder** unendlich viele Ausgänge).",
+      "beispiel": "Weder Bernoulli noch Laplace: so lange würfeln, bis die erste 6 fällt; Ergebnis = Anzahl der Würfe. $\\Omega = \\{1, 2, 3, \\ldots\\} = \\mathbb{N}$ ist unendlich, also kein Laplace-Experiment, und hat mehr als zwei Ausgänge, also kein Bernoulli-Experiment."
     }
   ],
   "definitionen": [
@@ -610,10 +622,65 @@
       "erklaerung": "Typische Fehlvorstellung zum Zufall (Kompetenzziel der Modulbeschreibung), Beispiel 2.1.12.",
       "folie": "Kap. 2, 20–21",
       "pruefungsrelevant": false
+    },
+    {
+      "id": "n01",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Zufalls-Experimente sind **weder** ein Bernoulli- **noch** ein Laplace-Experiment?",
+      "optionen": [
+        "So lange würfeln, bis die erste 6 fällt; Ergebnis = Anzahl der Würfe",
+        "Einmal fair würfeln; Ergebnis = Augenzahl",
+        "Einen Quader mit verschieden großen Seitenflächen werfen; Ergebnis = obenliegende Seite",
+        "Zwei Würfel werfen; Ergebnis = Augensumme",
+        "Fairer Münzwurf"
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Nachbereitung [13:04]–[14:28]: kein Bernoulli = mehr als zwei Ausgänge; kein Laplace = Ausgänge nicht gleich wahrscheinlich oder unendlich viele. Fairer Würfel: nur Laplace. Münze: beides.",
+      "folie": "Kap. 1, 51",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n02",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum ist es nach der Vorlesung egal, welchen Wert man für $P(A \\mid B)$ im Fall $P(B) = 0$ festlegt?",
+      "antwort": "Man muss nur **irgendeinen festen Wert** festlegen (die Vorlesung nimmt 0, möglich wären auch $P(A)$ oder 1). Im Multiplikationssatz steht dann $P(A \\cap B) = 0 = 0 \\cdot P(A \\mid B)$ – null mal ein fester Wert ist immer null. Es ist ein formaler Randfall wie eine Implikation mit falscher Voraussetzung.",
+      "erklaerung": "Nachbereitung [40:08], [70:56].",
+      "folie": "Kap. 2, 9, 14",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "n03",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Gesichtserkennung: 90 % der Gesuchten werden erkannt, nur 10 % der Nicht-Gesuchten falsch gemeldet, unter 1000 Personen sind 20 gesucht. Bewerte das Ergebnis $P(\\text{gefahndet} \\mid \\text{gemeldet}) \\approx 0{,}155$ für die reale Situation.",
+      "musterloesung": "Etwa 84,5 % der gemeldeten Personen werden gar nicht gesucht. Obwohl die Kennzahlen (90 %, 10 %) gut klingen, meldet die Kamera vor allem Unschuldige, weil es sehr viel mehr Nicht-Gesuchte (980) als Gesuchte (20) gibt. Für die Polizei bedeutet das viel unnötige Arbeit; für die Betroffenen ungerechtfertigte Kontrollen. Modellergebnisse muss man deshalb immer auf die Realsituation zurückübertragen.",
+      "bewertungspunkte": [
+        "84,5 % Fehlmeldungen genannt",
+        "Grund: sehr viel mehr Nicht-Gesuchte",
+        "Folgen in der Realität (Polizei, Betroffene)"
+      ],
+      "punkte": 3,
+      "erklaerung": "Nachbereitung [56:28] – „Rückführung der Modellinformation in die Realsituation“.",
+      "folie": "Kap. 2, 11",
+      "pruefungsrelevant": true
     }
   ],
   "pruefungshinweise": [
-    "Die Klausuraufgaben sind ähnlich wie die Aufgaben auf den Übungszetteln (VL Kapitel 0, Folie 5) – zu dieser Sitzung passt Blatt 04."
+    "Die Klausuraufgaben sind ähnlich wie die Aufgaben auf den Übungszetteln (VL Kapitel 0, Folie 5) – zu dieser Sitzung passt Blatt 04.",
+    "(Aufnahme) Die Bayes-Umkehr-Formel „sollten Sie einmal gesehen haben, weil sie für die Übung relevant ist“ [83:32].",
+    "(Aufnahme) Modellergebnisse immer auf die Realsituation zurückübertragen und bewerten (Gesichtserkennung) [56:28]."
   ],
   "offene_fragen": [
     "Kapitel 2, Folie 10: Der Beweis von Satz 2.1.3 (5) zitiert „Satz 1.4.6(6)“ – gemeint ist der Additionssatz, in Kapitel 1 Satz 1.4.7 (6) (Folie 44)."

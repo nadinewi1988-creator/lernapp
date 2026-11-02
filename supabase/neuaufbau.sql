@@ -308,3 +308,6 @@ end $$;
 
 -- Ergänzung 26.10.2026
 alter table public.sitzungen add column if not exists material boolean;
+
+-- Ergänzung 02.11.2026: Grund bei Abwesenheit
+alter table public.sitzungen add column if not exists abwesend_grund text;

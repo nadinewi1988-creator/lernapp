@@ -456,6 +456,11 @@ export function Kalender({ stand, neuLaden }: Props) {
               <button type="button" onClick={() => setMark(ss, a === 'weg' ? { anwesenheit: 'offen' } : { anwesenheit: 'nein', status: ss.roh.status === 'ausgefallen' ? 'findet_statt' : ss.roh.status })} style={{ ...seg(a === 'weg'), color: a === 'weg' ? '#e07a88' : 'var(--ink-3)' }}>Nicht anwesend</button>
               <button type="button" onClick={() => setMark(ss, a === 'aus' ? { status: 'findet_statt', anwesenheit: 'offen' } : { status: 'ausgefallen', anwesenheit: 'offen' })} style={{ ...seg(a === 'aus'), color: a === 'aus' ? 'var(--ink)' : 'var(--ink-3)' }}>Ausgefallen</button>
             </div>
+            {a === 'weg' && (() => { const g = ss.roh.abwesend_grund ?? ''; return <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+              <div style={{ fontSize: 13, color: 'var(--ink-3)', fontWeight: 800 }}>Grund (optional)</div>
+              <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>{['krank', 'Kind krank', 'Arbeit', 'Termin', 'Betreuung'].map((v) => <button key={v} type="button" onClick={() => setMark(ss, { abwesend_grund: g === v ? null : v })} style={{ border: '1px solid var(--line)', borderRadius: 999, padding: '4px 11px', fontSize: 13, cursor: 'pointer', background: g === v ? '#fcecee' : '#fff', color: g === v ? '#b4475a' : 'var(--ink-2)', fontWeight: g === v ? 800 : 600 }}>{v}</button>)}</div>
+              <input type="text" key={ss.id + ':' + g} defaultValue={g} onBlur={(ev) => { const v = ev.target.value.trim(); if (v !== g) setMark(ss, { abwesend_grund: v || null }); }} placeholder="oder eigenen Grund eintippen …" style={{ ...feld, padding: '6px 8px', fontSize: 14 }} />
+            </div>; })()}
             {(a === 'da' || a === 'weg' || a === 'aus') && (() => { const mat = hatMaterial(ss.roh, ss.modul); return <>
               <div style={{ fontSize: 13, color: 'var(--ink-3)', fontWeight: 800 }}>Gibt es Material dazu?</div>
               <div style={{ display: 'flex', background: 'var(--paper)', borderRadius: 10, padding: 3, gap: 3 }}>

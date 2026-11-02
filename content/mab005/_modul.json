@@ -111,13 +111,13 @@
     "mab005.1: in jeder Sitzung erfragen, welche Folienseiten bearbeitet wurden (Schema 5c)",
     "Handouts enthalten Lückenfolien (Beispiele, Beweisskizzen), die in der Vorlesung ausgefüllt werden – Lösungen in den Sitzungsdateien als „selbst erarbeitet“ gekennzeichnet",
     "Aufgabenblätter: Teil A zur Selbstkontrolle (kurze Lösungen in Stud.IP), Teil B im Seminar – jedes Blatt ist eine Hausaufgabe (Schema 5f)",
-    "Ordner „mab005 - studydrive“: fremde Lösungen älterer Blätter, nicht als Grundlage verwenden"
+    "Ordner „mab005 - studydrive“: fremde Lösungen älterer Blätter, nicht als Grundlage verwenden",
+    "Schreibweisen der Uni (Symbole, Begriffe, Aufbau von Lösungen) verbindlich nach Projektdokument claude/mab005_schreibweisen.md – bei neuen Folien/Blättern fortschreiben (Nadine, 02.11.2026)"
   ],
   "auffaelligkeiten": [
     "Kapitel 0, Folie 5: Prüfungsanmeldung „ab Juni über QISPOS“ ist veraltet – laut Nadine (01.11.2026) ist die QISPOS-Anmeldung ab Dezember 2026",
     "Blatt 03, A.1c: Ass wird zu den Bildkarten gezählt (Bube, Dame, König, Ass)",
     "Kapitel 2, Folie 10: Beweis von Satz 2.1.3 (5) zitiert „Satz 1.4.6(6)“ – gemeint ist der Additionssatz Satz 1.4.7 (6)",
-    "Kapitel 2, Folie 12: „gezogene Zahl“ statt „gezogene Kugel“",
     "Kapitel 2, Folie 31: „auf mehr als drei Ereignisse verallgemeinern“ – vermutlich „mehr als zwei“"
   ],
   "offene_fragen": [

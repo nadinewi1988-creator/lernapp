@@ -108,6 +108,20 @@
       "fuer_sitzung": "mab005.2_2026-11-02",
       "kalender_id": "088e2a02-2ef9-41bc-8ada-d508ed140418",
       "pdf": "/dateien/mab005/S04_2026-11-02_Hausaufgabe_Uebungsblatt-4_Loesungen.pdf"
+    },
+    {
+      "id": "h02",
+      "art": "Hausaufgabe",
+      "titel": "Übungsblatt 04, Aufgabe B.2 – stochastische Unabhängigkeit (verschoben)",
+      "text": "Aus Aufgabenblatt 04, Teil B (laut Nadine auf das Seminar am 09.11. verschoben):\n\n**B.2 Eigenschaften stochastisch unabhängiger Ereignisse:** *„Begründen Sie die folgenden Aussagen:*\n*(a) Für $P(B) > 0$ gilt: Wenn $A$ und $B$ stochastisch unabhängig sind, gilt $P(A \\mid B) = P(A)$.*\n*(b) Wenn $A$ und $B$ stochastisch unabhängige Ereignisse sind, sind auch $A$ und $\\bar{B}$ stochastisch unabhängig.*\n*(c) Wenn für ein Ereignis $B$ gilt $P(B) = 0$ oder $P(B) = 1$, dann ist $B$ von jedem Ereignis $A$ stochastisch unabhängig.“*",
+      "quelle": "Aufgabenblatt 04, B.2",
+      "loesung": "### Aufgabe B.2 Eigenschaften stochastisch unabhängiger Ereignisse\n\n*„Begründen Sie die folgenden Aussagen:“*\n\n*Diese Aussagen sind in der Vorlesung Satz 2.2.3, 2.2.4 und 2.2.5 (Folie 24–26); die Beweisteile hier sind dort als „Übung (AB4)“ ausgelassen.*\n\n**Aufgabe B.2a:** *„Für $P(B) > 0$ gilt: Wenn $A$ und $B$ stochastisch unabhängig sind, gilt $P(A \\mid B) = P(A)$.“*\n\n**Antwort:**\n\n**Voraussetzung:** $P(B) > 0$ und $A$, $B$ stochastisch unabhängig, d. h. $P(A \\cap B) = P(A) \\cdot P(B)$.\n\nWegen $P(B) > 0$ gilt Definition 2.1.2 (nicht der Sonderfall). Einsetzen und Definition 2.2.1 benutzen:\n$$P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{P(A) \\cdot P(B)}{P(B)} = P(A) \\qquad \\blacksquare$$\n(Im letzten Schritt wird $P(B)$ gekürzt – das geht, weil $P(B) \\neq 0$.)\n\nDas ist die Richtung „⇒“ von Satz 2.2.3 (Folie 24) – die Gegenrichtung ist dort bewiesen.\n\n**Ergebnis:** Bei unabhängigen Ereignissen ändert das Wissen „$B$ ist eingetreten“ nichts an der Wahrscheinlichkeit von $A$: $P(A \\mid B) = P(A)$.\n\n**Aufgabe B.2b:** *„Wenn $A$ und $B$ stochastisch unabhängige Ereignisse sind, sind auch $A$ und $\\bar{B}$ stochastisch unabhängig.“*\n\n**Antwort:**\n\n**Voraussetzung:** $P(A \\cap B) = P(A) \\cdot P(B)$. **Zu zeigen:** $P(A \\cap \\bar{B}) = P(A) \\cdot P(\\bar{B})$.\n\n**Schritt 1 – $A$ zerlegen.** Jedes Ergebnis aus $A$ liegt entweder in $B$ oder nicht in $B$:\n$$A = (A \\cap B) \\,\\dot\\cup\\, (A \\cap \\bar{B})$$\nDie beiden Teile sind disjunkt. Nach der Additivität (Satz 1.4.6 (3)):\n$$P(A) = P(A \\cap B) + P(A \\cap \\bar{B}) \\quad\\Longrightarrow\\quad P(A \\cap \\bar{B}) = P(A) - P(A \\cap B)$$\n(Das ist auch Satz 1.4.7 (5), denn $A \\cap \\bar{B} = A \\setminus B$.)\n\n**Schritt 2 – Unabhängigkeit einsetzen:**\n$$P(A \\cap \\bar{B}) = P(A) - P(A) \\cdot P(B)$$\n\n**Schritt 3 – $P(A)$ ausklammern** (Distributivgesetz: $x - x \\cdot y = x \\cdot (1 - y)$):\n$$P(A \\cap \\bar{B}) = P(A) \\cdot (1 - P(B))$$\n\n**Schritt 4 – Gegenereignis** (Satz 1.4.7 (4): $1 - P(B) = P(\\bar{B})$):\n$$P(A \\cap \\bar{B}) = P(A) \\cdot P(\\bar{B}) \\qquad \\blacksquare$$\n\n**Ergebnis:** $A$ und $\\bar{B}$ sind stochastisch unabhängig (Satz 2.2.4, Folie 25; für $\\bar{A}$ und $B$ geht es genauso mit vertauschten Rollen). Anschaulich: Wenn $B$ keinen Einfluss auf $A$ hat, dann hat auch „nicht $B$“ keinen Einfluss.\n\n**Aufgabe B.2c:** *„Wenn für ein Ereignis $B$ gilt $P(B) = 0$ oder $P(B) = 1$, dann ist $B$ von jedem Ereignis $A$ stochastisch unabhängig.“*\n\n**Antwort:** Zu zeigen ist für jedes Ereignis $A$: $P(A \\cap B) = P(A) \\cdot P(B)$. Zwei Fälle:\n\n**Fall 1: $P(B) = 0$.** Es ist $A \\cap B \\subseteq B$ (der Schnitt ist ein Teil von $B$). Mit der Monotonie (Satz 1.4.7 (8)) und der Nichtnegativität:\n$$0 \\le P(A \\cap B) \\le P(B) = 0 \\quad\\Longrightarrow\\quad P(A \\cap B) = 0$$\nAndererseits ist $P(A) \\cdot P(B) = P(A) \\cdot 0 = 0$. Also $P(A \\cap B) = 0 = P(A) \\cdot P(B)$. ✓\n\n**Fall 2: $P(B) = 1$.** Dann ist $P(\\bar{B}) = 1 - P(B) = 0$ (Satz 1.4.7 (4)). Wie in Fall 1 (mit $\\bar{B}$ statt $B$) folgt $P(A \\cap \\bar{B}) = 0$. Mit der Zerlegung aus B.2b:\n$$P(A \\cap B) = P(A) - P(A \\cap \\bar{B}) = P(A) - 0 = P(A) = P(A) \\cdot 1 = P(A) \\cdot P(B). \\quad ✓$$\n\n$\\blacksquare$\n\n**Ergebnis:** Ein Ereignis mit Wahrscheinlichkeit 0 oder 1 ist von **jedem** Ereignis unabhängig – das ist die Richtung (3) ⇒ (1) von Satz 2.2.5 (Folie 26). Anschaulich: Ein (fast) unmögliches oder (fast) sicheres Ereignis liefert keine Information – es „verrät“ nichts über $A$.\n",
+      "loesungsweg": "Gleiche Lösung wie in Übungsblatt 04 (h01), hier nur Aufgabe B.2. Gehört zu Kapitel 2, Folie 22–28 (Vorlesung 09.11.): Definition 2.2.1, Satz 2.2.3–2.2.5.",
+      "frist": "2026-11-09",
+      "im_kalender": true,
+      "fuer_sitzung": "mab005.2_2026-11-09",
+      "kalender_id": "dec935b8-3e0a-4858-9172-6ee9b1fe37d9",
+      "pdf": "/dateien/mab005/S04_2026-11-02_Hausaufgabe_Uebungsblatt-4_Loesungen.pdf"
     }
   ],
   "fragen": [
@@ -279,7 +293,6 @@
   "pruefungshinweise": [
     "Die Klausuraufgaben sind ähnlich wie die Aufgaben auf den Übungszetteln (VL Kapitel 0, Folie 5)."
   ],
-  "offene_fragen": [
-    "Wird Blatt 04 am 02.11. besprochen oder erst am 09.11.? Am 02.11. wurde zuerst Blatt 03 nachgeholt (Ausfall 26.10.)."
-  ]
+  "offene_fragen": [],
+  "hinweis": "Laut Nadine (02.11.2026): Die Aufgaben zur stochastischen Unabhängigkeit (B.2) werden auf das Seminar am 09.11. verschoben, weil die Vorlesung am 02.11. das Thema noch nicht geschafft hat – dafür eigene Hausaufgabe h02 mit Kalendereintrag am 09.11."
 }

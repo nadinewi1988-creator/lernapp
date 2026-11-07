@@ -802,6 +802,243 @@
       "erklaerung": "„Wir alle sind Bühnenbildner und Maskenbildner unserer Person“ (Video).",
       "quelle": "ewb001.1_2026-11-10 · Folie 35",
       "abweichungen": []
+    },
+    {
+      "begriff": "Formale Bildung",
+      "wortlaut": "Lernort: in einer formalen Bildungs- oder Ausbildungseinrichtung (Kindergarten, Schule, Hochschule) · Institutionalisierungsgrad: stark institutionalisiert · Zertifizierung: zertifiziert · Zielgerichtetheit: zielgerichtet",
+      "erklaerung": "Lernen in Kita, Schule und Hochschule nach staatlich vorgegebenen Curricula bzw. Bildungsplänen, mit Abschlusszeugnis oder Zertifikat.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Non-formale Bildung",
+      "wortlaut": "Lernort: alle organisierten Bildungsprogramme außerhalb des formalen Bildungssystems (z.B. VHS) · Institutionalisierungsgrad: institutionalisiert · Zertifizierung: meist zertifiziert · Zielgerichtetheit: zielgerichtet",
+      "erklaerung": "Organisierte Bildungsangebote außerhalb des Schulsystems, z. B. Volkshochschul- oder Erwachsenenbildungskurse – ohne staatlich vorgegebenes Curriculum, oft mit Teilnahmenachweis (Video [01:41]–[02:15]).",
+      "quelle": "ewb001.2_2026-11-10 · Folie 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Informelles Lernen",
+      "wortlaut": "Lernort: außerhalb der Curricula formaler und non-formaler Bildungsinstitutionen und Programme; im Alltag (Arbeitsplatz, Familie, Freizeit) · Institutionalisierungsgrad: nicht institutionalisiert · Zertifizierung: nicht zertifiziert · Zielgerichtetheit: zielgerichtet oder beiläufig / implizit",
+      "erklaerung": "Lernen im Alltag, bei dem das Lernen oft gar nicht im Vordergrund steht (soziale Medien, Film, Gespräche mit Familie und Peergroup); laut Video ca. 80 % aller Lernprozesse im Leben.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 3",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Lernen in informellen Kontexten bzw. Settings",
+      "wortlaut": "Es ist sinnvoll, anstatt von informellem Lernen eher von Lernen in informellen Kontexten bzw. Settings zu sprechen, weil auch in formalisierten Kontexten beiläufig gelernt wird.",
+      "erklaerung": "Auch an formalen Lernorten wie der Schule gibt es informelle (Sub-)Kontexte – Pausengespräche, Peer-Beziehungen, heimlicher Lehrplan –, in denen beiläufig gelernt wird (Düx/Sass 2005).",
+      "quelle": "ewb001.2_2026-11-10 · Folie 4",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Lernstrategien",
+      "wortlaut": "Lernstrategien (Strukturierung und Speicherung von Wissen) · Reduzierung oder die Organisation des Lernstoffes · Elaboration (Zusammenhang des Lernstoffs mit bestehendem Wissen herstellen)",
+      "erklaerung": "Wege, den Stoff gezielt zu verarbeiten: ihn in Teile zerlegen bzw. ordnen (z. B. Mindmap) oder mit Vorwissen verknüpfen; Grundlage sind Kognitivismus und Konstruktivismus.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Elaboration",
+      "wortlaut": "Elaboration (Zusammenhang des Lernstoffs mit bestehendem Wissen herstellen)",
+      "erklaerung": "Neues wird an bereits Bekanntes geknüpft, z. B. mit der Loci-Methode (Verknüpfung mit Orten) oder mit Eselsbrücken (Video [07:37]–[08:17]).",
+      "quelle": "ewb001.2_2026-11-10 · Folie 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Lernplanung",
+      "wortlaut": "Lernplanung (Gestaltung von Arbeitsplatz und das Zeitmanagement sowie metakognitives Wissen über den individuellen Lerntyp und hemmende Lernfaktoren)",
+      "erklaerung": "Der Rahmen des Lernens: wo, wann und wie ich lerne; metakognitives Wissen ist laut Stein (2024, S. 120) Wissen über das Wissen und den Wissenserwerb.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Proaktive Hemmung",
+      "wortlaut": "Proaktive Hemmung: vorher gelerntes Wissen beeinträchtigt nachfolgend gelerntes Wissen, Pausen zur Wissenskonsolidierung unerlässlich",
+      "erklaerung": "Altes, noch nicht verarbeitetes Wissen stört das Neue – z. B. direkt nach einer Lerntheorie mit der nächsten beginnen; deshalb Pausen einlegen.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Retroaktive Hemmung",
+      "wortlaut": "Retroaktive Hemmung: neu gelerntes Wissen hemmt den Abruf früher gelernten Wissens",
+      "erklaerung": "Neues überlagert Altes – z. B. nach dem Spanischlernen fallen einem beim Französisch nur spanische Vokabeln ein.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Gleichzeitigkeitshemmung",
+      "wortlaut": "Gleichzeitigkeitshemmung: gleichzeitig aufgenommene Informationen blockieren sich beim Abruf",
+      "erklaerung": "Wer in der Vorlesung nebenbei Nachrichten liest, kann danach oft beides nicht wiedergeben.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Ähnlichkeitshemmung",
+      "wortlaut": "Ähnlichkeitshemmung: ähnliche Informationen werden beim Abruf miteinander verwechselt",
+      "erklaerung": "Z. B. zwei ähnlich klingende Vokabeln werden verwechselt.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Erinnerungshemmung",
+      "wortlaut": "Erinnerungshemmung: ein jetzt ins Kurzzeitgedächtnis getretener Stoff hemmt den Abruf von Wissen",
+      "erklaerung": "Was man gerade eben aufgenommen hat, blockiert den Zugriff auf anderes Wissen – z. B. kurz vor der Arbeit noch schnell den letzten Hefteintrag lesen (Stein 2024, Tab. 17).",
+      "quelle": "ewb001.2_2026-11-10 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Affektive Hemmung",
+      "wortlaut": "Affektive Hemmung: emotional erregende Zustände hemmen Speicherung und Abruf von Wissen",
+      "erklaerung": "Starke Gefühle wie Freude, Wut oder Trauer stören das Speichern und Abrufen.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Personenfaktoren, die Lernen beeinträchtigen können",
+      "wortlaut": "„Unveränderliche“ Personenfaktoren – Organische Störungen: Legasthenie / Lese-Rechtschreibschwäche, Aufmerksamkeits-Defizit-Hyperaktivitätssyndrom, Lerndefizite durch Hirnschädigungen, Sprachstörungen etc. · Variable, „veränderliche“ Personenfaktoren – Motivationale und emotionale Probleme: Mangelnde intrinsische Motivation, Lern- und Prüfungsängste, Externe Attribuierungsstile, Geringes Fähigkeitsselbstkonzept etc.",
+      "erklaerung": "Alle Faktoren liegen in der Person; die variablen sind kurzfristig veränderbar und pädagogisch gut zu bearbeiten, die „unveränderlichen“ allenfalls längerfristig (z. B. medizinisch).",
+      "quelle": "ewb001.2_2026-11-10 · Folie 7",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Fähigkeitsselbstkonzept",
+      "wortlaut": "Fähigkeitsselbstkonzept: Einschätzung der eigenen Fähigkeiten",
+      "erklaerung": "Wie gut man sich selbst in einem Bereich einschätzt; es steht in Wechselwirkung mit den Leistungen – ein hohes Fähigkeitsselbstkonzept erleichtert Lernen und kann bessere Leistungen bewirken.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Attribuierungsstile",
+      "wortlaut": "Attribuierungsstile: Ursachenzuschreibung bei der Leistungsattribution",
+      "erklaerung": "Worauf man Erfolg oder Misserfolg zurückführt – nach den Dimensionen intern/extern und stabil/variabel: Begabung, Anstrengung, Aufgabenschwierigkeit, Zufall (Folie 9).",
+      "quelle": "ewb001.2_2026-11-10 · Folie 8–9",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Intrinsische Motivation",
+      "wortlaut": "Intrinsische Motivation: innere Anreize, z.B. eigenes Interesse",
+      "erklaerung": "Man handelt, weil die Sache selbst als lohnend erlebt wird; nur sie sichert langfristigen Lernerfolg und Lernfreude.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 10",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Extrinsische Motivation",
+      "wortlaut": "Extrinsische Motivation: äußere Anreize, z.B. Belohnungen",
+      "erklaerung": "Man handelt wegen äußerer Folgen (Belohnung, Note, Vermeidung von Ärger); fällt die Verstärkung weg, wird das Verhalten nicht mehr gezeigt.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 10",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Korrumpierungseffekt",
+      "wortlaut": "Korrumpierungseffekt: Abschwächung einer intrinsischen Motivation durch extrinsische Anreize",
+      "erklaerung": "Äußerer Druck oder Belohnungen können vorhandenes eigenes Interesse verdrängen – z. B. „Wir lernen das, damit ihr in der Klausur erfolgreich seid“ (Video [23:37]).",
+      "quelle": "ewb001.2_2026-11-10 · Folie 10",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Aufgeregtheitskomponente",
+      "wortlaut": "Aufgeregtheitskomponente / „Lampenfieber“",
+      "erklaerung": "Die körperliche Aufregung vor Prüfungen; laut Dozent zunächst positiv, weil sie zu Vorbereitung und Konzentration beiträgt.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 11",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Sorgenkomponente",
+      "wortlaut": "Sorgenkomponente: sorgenvolle Gedanken, Selbstzweifel, Selbstabwertungen und Gedanken an die negativen Konsequenzen von Leistungsversagen > Vermeidungsreaktionen",
+      "erklaerung": "Der gedankliche Teil der Prüfungsangst; er blockiert Lernen und Abruf und kann zu Vermeidungsreaktionen führen (z. B. krankmelden, Bauchschmerzen).",
+      "quelle": "ewb001.2_2026-11-10 · Folie 11",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Didaktik",
+      "wortlaut": "Didaktik: Lehre vom Lehren und Lernen · wissenschaftliche Reflexion von organisierten Lehr- und Lernprozessen · Verbesserung von Lehr- und Lernprozessen in der Praxis",
+      "erklaerung": "Wissenschaft davon, wie Lehren und Lernen gestaltet werden können; die allgemeine Didaktik ist fach- und schulübergreifend, Fachdidaktiken beziehen sich auf ein Fach.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 12",
+      "abweichungen": [
+        {
+          "quelle": "Gudjons/Traub 2016, S. 239; Stein 2024, S. 126",
+          "hinweis": "Gudjons/Traub: wörtlich „Lehrkunst“, „wissenschaftliche Reflexion von organisierten Lehr- und Lernprozessen“; Stein 2024 ergänzt die engere Fassung „Lehre vom Unterrichten und Unterricht“ und nennt Didaktik eine Handlungswissenschaft."
+        }
+      ]
+    },
+    {
+      "begriff": "Acht Grundfragen der Didaktik",
+      "wortlaut": "1. Was? Welche Inhalte sollen erarbeitet werden? 2. Wie? Mit welchen Methoden soll die Auseinandersetzung mit den Inhalten erfolgen? 3. Wozu? Welche Ziele verfolge ich dabei? 4. Warum? Welche Begründungen sind für meine Planungen und Vorhaben maßgeblich? 5. Wem? Wer sind meine Adressat*innen? 6. Wo? In welcher Umgebung finden die Lehr- und Lernprozesse statt? 7. Wann? Zu welcher Tages- oder Jahreszeit findet die Arbeit statt? 8. Wer? Welche Rollen nehmen die Akteur*innen in den Lehr- und Lernprozessen ein?",
+      "erklaerung": "Checkliste für die Planung jedes Lehr-Lern-Prozesses; Wozu = Ziele, Warum = Begründungen, Wem = Adressat*innen, Wer = Rollen.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 12",
+      "abweichungen": [
+        {
+          "quelle": "Stein 2024, S. 126 (nach Kron et al. 2024)",
+          "hinweis": "Bei Stein 2024 lauten Frage 1 und 2 „Welche Inhalte muss ich vermitteln?“ und „Mit welchen Methoden […] organisiere ich die Vermittlung?“ – die Folie formuliert ohne „Vermittlung“. Gelernt wird der Folienwortlaut."
+        }
+      ]
+    },
+    {
+      "begriff": "Didaktische Ebenen",
+      "wortlaut": "die intrapersonale Ebene (Beachtung der Lerngeschichte des Individuums und seines entwicklungspsychologischen Stands) · die mikrosoziale Ebene (Beleuchtung der Interaktionsstrukturen und der Beziehungen in sozialen Gruppen wie Familien und Schulklassen) · die institutionelle Ebene (Bildungseinrichtungen, wie Schulen oder etwa Volkshochschulen) · die makrosoziale Ebene (gesellschaftliche Dimensionen von Bildung)",
+      "erklaerung": "Vier Ebenen, die bei didaktischen Überlegungen einzubeziehen sind – vom einzelnen Lernenden über Gruppe und Einrichtung bis zur Gesellschaft.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 13",
+      "abweichungen": [
+        {
+          "quelle": "ewb001.2_2026-10-13 · Folie 14, 16",
+          "hinweis": "Nicht verwechseln mit den Einträgen „Intrapersonell“ und „Makrosozial“ (Säulen der Pädagogik): Dort ordnen die Begriffe Lernen, Erziehung, Bildung und Sozialisation ein; hier sind es Ebenen didaktischer Planung (intrapersonal, mikrosozial, institutionell, makrosozial)."
+        }
+      ]
+    },
+    {
+      "begriff": "Kritisch-konstruktive Didaktik (Klafki)",
+      "wortlaut": "Die kritisch-konstruktive Didaktik (Klafki)",
+      "erklaerung": "„Kritisch“, weil Selbstbestimmung, Mitbestimmung und Solidarität der Lernenden gefördert werden sollen; „konstruktiv“, weil sich aus den Lernprozessen eine Handlungspraxis ergeben soll (Video [33:24]–[34:12]; Gudjons/Traub 2016, S. 243).",
+      "quelle": "ewb001.2_2026-11-10 · Folie 14",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Perspektivenschema zur Gestaltung von Lehr-Lern-Prozessen (Klafki)",
+      "wortlaut": "Gegenwartsbedeutung: Ist das Thema für die Lebenswelt wichtig? · Zukunftsbedeutung: Ist das Thema nicht nur Eintagsfliege? · Exemplarität: Stellt das Thema ein gutes Beispiel für dieses Problem dar? · Thematische Struktur: Welche Lernziele sind aufzustellen? · Darstellbarkeit: Welche Unterrichtsformen und Methoden nutze ich? · Lehr-Lern-Prozessstruktur: Welche Lernhilfen etc. nutze ich? · Überprüfbarkeit: Ist das Thema bei den Adressat/innen gut vermittelt worden?",
+      "erklaerung": "Klafkis Planungsraster: erst das Thema begründen, dann strukturieren und methodisch umsetzen, schließlich überprüfen; die Aspekte hängen wechselseitig zusammen.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 15",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Lehrtheoretische Didaktik („Hamburger Modell“)",
+      "wortlaut": "emanzipatorischer Anspruch · Intentionen des Unterrichts: Kompetenz, Autonomie und Solidarität · Sach-, Gefühls- und Sozialerfahrungen · vier didaktische Fragen · institutionelle Bedingungen und gesellschaftliche Rahmenbedingungen",
+      "erklaerung": "Stark schulbezogenes Planungsmodell (Wolfgang Schulz), das besonders die institutionellen und gesellschaftlichen Bedingungen von Unterricht berücksichtigt.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 16",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Konstruktivistische Didaktik",
+      "wortlaut": "Lernen ist nicht machbar. Lernen ist bloß anregbar. · Lernen kann nur jeder für sich. Von außen zwar angestoßen, vollzieht jeder seinen Lernprozess für sich selbst. · Nicht Bilder einer Außenwelt werden beim Lernen direkt aufgenommen und verinnerlicht, sondern von außen lösen Reize in Lernenden Energieprozesse aus, durch die subjektives Wissen gestaltet wird und eine eigene Wirklichkeit entsteht. · Lernen findet immer in sozialen Kontexten und durch Interaktionen statt. · Selbsttätigkeit > Ermöglichungsdidaktik statt Belehrungsdidaktik",
+      "erklaerung": "Didaktik, die aus dem Konstruktivismus folgert: Lehrende können Lernen nur anregen und Lernumgebungen gestalten; zentral sind Selbsttätigkeit, Interaktion, Fehler und Anknüpfung an Vorerfahrungen.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 17–18",
+      "abweichungen": [
+        {
+          "quelle": "ewb001.2_2026-11-03 · Folie 20",
+          "hinweis": "Der Teilsatz „Ermöglichungsdidaktik statt Belehrungsdidaktik“ ist bereits als eigener Eintrag „Ermöglichungsdidaktik“ vorhanden (gleicher Wortlaut); auf Folie 17 der Einheit 05 mit vorangestelltem „Selbsttätigkeit >“."
+        }
+      ]
+    },
+    {
+      "begriff": "Wissensbasierter Konstruktivismus",
+      "wortlaut": "Aufhebung des Widerspruchs zwischen Instruktion und Konstruktion · Jede*r braucht ihre*seine eigenen Lernwege. · Der Weg zur Autonomie führt über die Anleitung. · Die Lernmethoden müssen den Fähigkeiten der Schüler*innen angepasst werden",
+      "erklaerung": "Eigene Konstruktion braucht eine ausreichende Wissensbasis, für die Anleitung (Instruktion) nötig ist – deshalb Balance aus Frontalphasen und eigenständigem Lernen.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 20",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Funktionen der Leistungsfeststellung",
+      "wortlaut": "eine gesellschaftliche Funktion der Selektion und Platzierung von Personen im gesellschaftlichen Gefüge nach ihren Kompetenzen · pädagogische, informatorische Funktion, nämlich Rückmeldung über den Lernfortschritt zu bieten",
+      "erklaerung": "Leistungsfeststellung sortiert (z. B. Schulformempfehlung, Studienzulassung, Stipendium) und gibt Rückmeldung an Lernende und Lehrkraft.",
+      "quelle": "ewb001.2_2026-11-10 · Folie 22",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Bezugsnormen",
+      "wortlaut": "individuelle Bezugsnorm, soziale Bezugsnorm oder kriterienorientierte Bezugsnorm",
+      "erklaerung": "Maßstab der Bewertung: individuell = Vergleich mit dem eigenen früheren Stand; sozial = Vergleich mit anderen Lernenden; kriterienorientiert = Vergleich mit einem vorher festgelegten Leistungsniveau (Video [51:28]–[51:54]).",
+      "quelle": "ewb001.2_2026-11-10 · Folie 22",
+      "abweichungen": []
     }
   ]
 }

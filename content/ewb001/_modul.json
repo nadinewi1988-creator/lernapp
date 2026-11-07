@@ -96,7 +96,8 @@
     "ewb001.2_2026-11-03",
     "ewb001_2026-10-30",
     "ewb001_2026-11-06",
-    "ewb001.1_2026-11-10"
+    "ewb001.1_2026-11-10",
+    "ewb001.2_2026-11-10"
   ],
   "klausurstil": {
     "quellen": [
@@ -662,6 +663,34 @@
       "art": "Video (über Transkript)",
       "status": "verarbeitet",
       "sitzung": "ewb001.1_2026-11-10"
+    },
+    {
+      "pfad": "ewb001.2/Sitzung_05/05_ewb001.2_Lernen_II.pdf",
+      "geaendert": "2026-11-07",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.2_2026-11-10"
+    },
+    {
+      "pfad": "ewb001.2/Sitzung_05/05_ewb001.2_Transkript_Zusammenfassung.docx",
+      "geaendert": "2026-11-07",
+      "art": "Transkript",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.2_2026-11-10"
+    },
+    {
+      "pfad": "ewb001.2/Sitzung_05/05_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_9_Didaktik.pdf",
+      "geaendert": "2026-11-07",
+      "art": "Literatur (Selbststudium)",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.2_2026-11-10"
+    },
+    {
+      "pfad": "ewb001.2/Sitzung_05/05_ewb001.2_Lernen_II.mp4",
+      "geaendert": "2026-11-07",
+      "art": "Video (über Transkript)",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.2_2026-11-10"
     }
   ]
 }

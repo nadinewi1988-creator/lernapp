@@ -1,0 +1,2138 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb001",
+  "teilmodul": "ewb001.2",
+  "datum": "2026-11-10",
+  "sitzung_nr": 5,
+  "sitzung_id": "",
+  "thema": "Lernen II – Lernstrategien und -planung, Attribuierung, Motivation und Emotionen bei Lernprozessen, Didaktik, Leistungsfeststellung und -messung",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Courseware-Einheit 05 (Folien + eingesprochenes Video aus einem früheren Semester, 54 Min.), vorab aufbereitet am 07.11.2026. Die Vorbereitung bis zur Präsenzsitzung am 10.11.2026 (Video + Literatur) ist in der Hausaufgabe h01 aus S04 ausgearbeitet. Die Folien der Präsenzsitzung am 10.11. liegen noch nicht vor und werden nachgetragen.",
+  "quellen": [
+    {
+      "datei": "ewb001.2/Sitzung_05/05_ewb001.2_Lernen_II.pdf",
+      "art": "Folien (Courseware-Einheit 05)",
+      "seiten": "1–25"
+    },
+    {
+      "datei": "ewb001.2/Sitzung_05/05_ewb001.2_Transkript_Zusammenfassung.docx",
+      "art": "Transkript des eingesprochenen Videos (54 Min.)",
+      "seiten": ""
+    },
+    {
+      "datei": "ewb001.2/Sitzung_05/05_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_9_Didaktik.pdf",
+      "art": "Selbststudium (Folie 23): Gudjons/Traub 2016, Kap. 9 – ausgearbeitet in Hausaufgabe h01 aus S04",
+      "seiten": "239–270"
+    },
+    {
+      "datei": "ewb001.2/Sitzung_04/04_Stein2024_Lernen.pdf",
+      "art": "Selbststudium (Folie 23): Stein 2024, Kap. 5, Abschnitte 5.3–5.6 – liegt im Ordner Sitzung_04 (ganzes Kapitel S. 104–131); ausgearbeitet in Hausaufgabe h01 aus S04",
+      "seiten": "120–131"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Du kannst formale Bildung, non-formale Bildung und informelles Lernen anhand von Lernort, Institutionalisierungsgrad, Zertifizierung und Zielgerichtetheit unterscheiden und begründen, warum man besser von Lernen in informellen Settings spricht.",
+      "art": "abgeleitet",
+      "quelle": "Folien 3–4; Video",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03",
+        "f04",
+        "f05",
+        "f06",
+        "f07",
+        "f08"
+      ],
+      "erklaerung_abschnitt": "Exkurs: Formale Bildung, non-formale Bildung und informelles Lernen"
+    },
+    {
+      "text": "Du kannst Lernstrategien (Reduzierung bzw. Organisation des Lernstoffes, Elaboration) von der Lernplanung unterscheiden und Beispiele zuordnen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 5; Video",
+      "fragen": [
+        "f09",
+        "f10",
+        "f11",
+        "f12",
+        "f13",
+        "f14"
+      ],
+      "erklaerung_abschnitt": "Lernstrategien und Lernplanung"
+    },
+    {
+      "text": "Du kannst die sechs hemmenden Lernfaktoren definieren und in Beispielsituationen erkennen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 6; Video",
+      "fragen": [
+        "f15",
+        "f16",
+        "f17",
+        "f18",
+        "f19",
+        "f20",
+        "f21",
+        "f22"
+      ],
+      "erklaerung_abschnitt": "Hemmende Lernfaktoren"
+    },
+    {
+      "text": "Du kannst „unveränderliche“ und variable Personenfaktoren unterscheiden, das Fähigkeitsselbstkonzept und die vier Attribuierungsstile erklären und pädagogisch bewerten.",
+      "art": "abgeleitet",
+      "quelle": "Folien 7–9; Video",
+      "fragen": [
+        "f23",
+        "f24",
+        "f25",
+        "f26",
+        "f27",
+        "f28",
+        "f29",
+        "f30",
+        "f31",
+        "f32",
+        "f74"
+      ],
+      "erklaerung_abschnitt": "Fähigkeitsselbstkonzept und Attribuierungsstile"
+    },
+    {
+      "text": "Du kannst intrinsische und extrinsische Motivation, den Korrumpierungseffekt sowie die Aufgeregtheits- und die Sorgenkomponente von Lern- und Prüfungsängsten erklären.",
+      "art": "abgeleitet",
+      "quelle": "Folien 10–11; Video",
+      "fragen": [
+        "f33",
+        "f34",
+        "f35",
+        "f36",
+        "f37",
+        "f38",
+        "f39",
+        "f40",
+        "f41",
+        "f42"
+      ],
+      "erklaerung_abschnitt": "Intrinsische und extrinsische Motivation, Korrumpierungseffekt"
+    },
+    {
+      "text": "Du kannst den Didaktikbegriff, die acht Grundfragen und die vier didaktischen Ebenen wiedergeben und erklären, warum der Dozent vor dem Begriff „Vermittlung“ warnt.",
+      "art": "abgeleitet",
+      "quelle": "Folien 12–13; Video",
+      "fragen": [
+        "f43",
+        "f44",
+        "f45",
+        "f46",
+        "f47",
+        "f48",
+        "f49",
+        "f50",
+        "f75"
+      ],
+      "erklaerung_abschnitt": "(Allgemeine) Didaktik: Begriff, acht Grundfragen und Vorsicht mit der „Vermittlung“"
+    },
+    {
+      "text": "Du kannst die kritisch-konstruktive Didaktik (Klafki), die lehrtheoretische Didaktik („Hamburger Modell“) und die konstruktivistische Didaktik beschreiben, voneinander abgrenzen und Klafkis Perspektivenschema auf ein Unterrichtsthema anwenden.",
+      "art": "abgeleitet",
+      "quelle": "Folien 14–18; Video",
+      "fragen": [
+        "f51",
+        "f52",
+        "f53",
+        "f54",
+        "f55",
+        "f56",
+        "f57",
+        "f58",
+        "f59",
+        "f60",
+        "f72",
+        "f73"
+      ],
+      "erklaerung_abschnitt": "Die drei didaktischen Modelle im Vergleich"
+    },
+    {
+      "text": "Du kannst Frontalunterricht, Gruppen-/Partnerarbeit und Einzelarbeit vergleichen, den wissensbasierten Konstruktivismus erklären und neuere Unterrichtsformen nennen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 19–21; Video",
+      "fragen": [
+        "f61",
+        "f62",
+        "f63",
+        "f64",
+        "f65"
+      ],
+      "erklaerung_abschnitt": "Unterrichtsformen und wissensbasierter Konstruktivismus"
+    },
+    {
+      "text": "Du kannst Funktionen, Arten und Bezugsnormen der Leistungsfeststellung sowie Probleme bei der Leistungsbewertung erklären und auf Beispiele anwenden.",
+      "art": "abgeleitet",
+      "quelle": "Folie 22; Video",
+      "fragen": [
+        "f66",
+        "f67",
+        "f68",
+        "f69",
+        "f70",
+        "f71"
+      ],
+      "erklaerung_abschnitt": "Leistungsfeststellung und -messung"
+    }
+  ],
+  "kurzfassung": [
+    "Exkurs: Formale Bildung (Schule, Hochschule; stark institutionalisiert, zertifiziert, zielgerichtet), non-formale Bildung (z. B. VHS; institutionalisiert, meist zertifiziert, zielgerichtet) und informelles Lernen (im Alltag; nicht institutionalisiert, nicht zertifiziert, zielgerichtet oder beiläufig). Laut Video finden ca. 80 % der Lernprozesse informell statt – besser spricht man von Lernen in informellen Settings, denn auch in der Schule wird beiläufig gelernt.",
+    "Lernstrategien (Strukturierung und Speicherung von Wissen): Reduzierung bzw. Organisation des Lernstoffes und Elaboration. Lernplanung: Arbeitsplatz, Zeitmanagement, metakognitives Wissen über den eigenen Lerntyp und über hemmende Lernfaktoren (proaktive, retroaktive, Gleichzeitigkeits-, Ähnlichkeits-, Erinnerungs- und affektive Hemmung).",
+    "Personenfaktoren: „unveränderliche“ (organische Störungen wie LRS, ADHS) und variable (mangelnde intrinsische Motivation, Lern- und Prüfungsängste, externe Attribuierungsstile, geringes Fähigkeitsselbstkonzept). Pädagogisch am günstigsten ist die Attribuierung auf Anstrengung (intern, variabel).",
+    "Langfristiger Lernerfolg und Lernfreude nur über intrinsische Motivation; extrinsische Anreize können sie abschwächen (Korrumpierungseffekt). Prüfungsangst: Aufgeregtheitskomponente („Lampenfieber“, kann helfen) vs. Sorgenkomponente (führt zu Vermeidungsreaktionen).",
+    "Didaktik = Lehre vom Lehren und Lernen; acht Grundfragen (Was? Wie? Wozu? Warum? Wem? Wo? Wann? Wer?); vier Ebenen (intrapersonal, mikrosozial, institutionell, makrosozial). „Vorsicht mit dem Begriff der Vermittlung!“",
+    "Drei didaktische Modelle: kritisch-konstruktive Didaktik (Klafki, Perspektivenschema), lehrtheoretische Didaktik („Hamburger Modell“: Kompetenz, Autonomie, Solidarität; institutionelle und gesellschaftliche Bedingungen) und konstruktivistische Didaktik („Lernen ist nicht machbar. Lernen ist bloß anregbar.“ – Ermöglichungs- statt Belehrungsdidaktik). Der wissensbasierte Konstruktivismus hebt den Widerspruch zwischen Instruktion und Konstruktion auf.",
+    "Leistungsfeststellung: gesellschaftliche Funktion (Selektion und Platzierung) und pädagogisch-informatorische Funktion (Rückmeldung); schriftlich oder mündlich; dynamische Betrachtung des Lernfortschritts; individuelle, soziale oder kriterienorientierte Bezugsnorm; Probleme: soziale Stereotypien, Vorurteile, Sympathien, Reihungseffekte."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Einordnung und Aufbau der Sitzung",
+      "folien": "1–2",
+      "beispiel": "",
+      "text": "**Folien 1–2:** Einheit 05 „Lernen II“ setzt den Themenblock **Lernen** fort. Laut Ablaufplan (Folie 2) geht es um Lernstrategien und -planung, Attribuierung, Motivation und Emotionen bei Lernprozessen, Didaktik sowie Leistungsfeststellung und -messung. Danach folgen **Bildung** (S06, 17.11.) und **Kompetenzen I** (S07, 24.11.).\n\n**Aus dem Video** [00:00]–[00:58]: In Lernen I ging es darum, *was* Lernen ist und welche Lerntheorien es gibt. Jetzt stehen zwei Anschlussfragen im Vordergrund: Wie kann Lernen **förderlich gestaltet und unterstützt** werden – und wie lässt sich **feststellen**, ob Lernen stattgefunden hat (Leistungsfeststellung und -messung) [00:38]? Vorab schiebt der Dozent einen Exkurs zu bewusstem und unbewusstem Lernen ein, weil er das in Einheit 04 noch nicht getan hatte [00:58].\n\nDie Einheit hat zwei große Teile:\n- **Teil 1 – die lernende Person** (Folien 5–11): Lernstrategien, Lernplanung, hemmende Lernfaktoren und Personenfaktoren (Fähigkeitsselbstkonzept, Attribuierung, Motivation, Lern- und Prüfungsängste). Der Dozent nennt das die „stärker individuelle, personengebundene Perspektive“ [27:01].\n- **Teil 2 – die Gestaltung von Lehr-Lern-Prozessen** (Folien 12–22): Didaktik, didaktische Ebenen und Modelle, Unterrichtsformen, Leistungsfeststellung [27:14].\n\n**Kurz erklärt:** Lernen I hat erklärt, *wie* Lernen im Kopf funktioniert. Lernen II fragt: Was hilft oder stört dabei – in der Person selbst und in der Art, wie Unterricht geplant wird? Am Ende steht die Frage, wie man Lernen sichtbar macht und bewertet. Das ist der Schritt von der Lerntheorie zur Unterrichtsplanung."
+    },
+    {
+      "titel": "Exkurs: Formale Bildung, non-formale Bildung und informelles Lernen",
+      "folien": "3",
+      "beispiel": "Mathematikunterricht in Klasse 7 = formale Bildung · Computerkurs an der Volkshochschule mit Teilnahmebescheinigung = non-formale Bildung · ein Kind lernt beim Backen mit der Oma, Mengen abzuschätzen = informelles Lernen (selbst erarbeitet).",
+      "text": "**Folie 3 – Bewusstes und unbewusstes Lernen:**\n\n| | Formale Bildung | Non-Formale Bildung | Informelles Lernen |\n| --- | --- | --- | --- |\n| **Lernort** | in einer formalen Bildungs- oder Ausbildungseinrichtung (Kindergarten, Schule, Hochschule) | alle organisierten Bildungsprogramme außerhalb des formalen Bildungssystems (z.B. VHS) | außerhalb der Curricula formaler und non-formaler Bildungsinstitutionen und Programme; im Alltag (Arbeitsplatz, Familie, Freizeit) |\n| **Institutionalisierungsgrad** | stark institutionalisiert | institutionalisiert | nicht institutionalisiert |\n| **Zertifizierung** | zertifiziert | meist zertifiziert | nicht zertifiziert |\n| **Zielgerichtetheit** | zielgerichtet | zielgerichtet | zielgerichtet oder beiläufig / implizit |\n\n**Aus dem Video:**\n- **Formale Bildung** [01:17]: Lernen in Kindergarten, Schule, Hochschule; stark institutionalisiert; am Ende steht ein Zertifikat bzw. Abschlusszeugnis, das festhält, welche Lernprozesse stattgefunden haben; sehr zielgerichtet.\n- **Non-formale Bildung** [01:41]: organisierte Bildungsprozesse, z. B. in Volkshochschulen oder Erwachsenenbildungskursen – Menschen kommen mit dem Ziel zusammen, etwas zu lernen. Auch institutionalisiert, aber **ohne staatlich vorgegebenes Curriculum, Kerncurriculum oder Bildungsplan**: Die VHS-Kursleiterin überlegt sich z. B. selbst ein Programm für einen Computerkurs. Häufig gibt es einen **Teilnahmenachweis** [02:15].\n- **Informelles Lernen** [02:28]: am Arbeitsplatz, in der Familie, in der Freizeit; nicht institutionalisiert, bewusst oder – häufiger – **unbewusst** [02:45]: Man bewegt sich in sozialen Medien, schaut einen Film, unterhält sich mit Familie, Freund*innen oder der Peergroup. Gemeint sind Orte und Anlässe, bei denen das Lernen gar nicht im Vordergrund steht, aber nebenbei trotzdem gelernt wird.\n- **Merkzahl** [03:14]: Verschiedene Studien zeigen, dass über das ganze Leben betrachtet **ca. 80 Prozent** der Lernprozesse informell stattfinden. Das heißt laut Dozent nicht, dass Kindergarten, Schule oder Hochschule unbedeutend wären [03:23].\n\n> **Wichtig:** Der Dozent hält diese Unterscheidung „an dieser Stelle noch ganz wichtig“ [00:58], weil man im Studium und Beruf mit Kontexten formaler und non-formaler Bildung zu tun hat [05:13].\n\n**Kurz erklärt:** Die drei Begriffe ordnen Lernen danach, **wie organisiert** es ist. Je formaler, desto mehr ist vorgegeben (Lehrplan, Prüfung, Zeugnis). Das passt zur Definition aus Einheit 04: Lernen umfasst auch „unbewusste und nicht geplante“ Veränderungen – genau das ist der informelle Bereich. Beispiel Schule: Im Matheunterricht lernt ein Kind nach Kerncurriculum (formal); im Fußballverein lernt es im Training mit Übungsleiter (organisiert, außerhalb des Schulsystems – eher non-formal); beim Einkaufen mit den Eltern lernt es nebenbei, Preise zu vergleichen (informell).\n\n**Prüfungsfalle:** Non-formale Bildung ist **institutionalisiert** (nicht „stark institutionalisiert“) und **meist zertifiziert** (nicht „nicht zertifiziert“). Informelles Lernen kann **zielgerichtet oder beiläufig / implizit** sein – es ist also nicht automatisch unbewusst."
+    },
+    {
+      "titel": "Lernen in informellen Settings (Düx/Sass 2005)",
+      "folien": "4",
+      "beispiel": "In der Pause erklärt ein Mitschüler einer Mitschülerin den Dreisatz noch einmal auf seine Art – Lernen in einem informellen Kontext am formalen Lernort Schule (selbst erarbeitet).",
+      "text": "**Folie 4:**\n- Es ist sinnvoll, anstatt von informellem Lernen eher von **Lernen in informellen Kontexten bzw. Settings** zu sprechen, weil auch in formalisierten Kontexten beiläufig gelernt wird.\n- „Demzufolge ist die Schule genauso wenig ein rein formaler Lernort, wie die Settings des freiwilligen Engagements völlig informelle Lernorte sind. [...] es [gibt] in der Schule eine Reihe informeller (Sub-)Kontexte (Pausengespräche, Peer-Beziehungen etc.) [...], in denen auch immer Lernerfahrungen gemacht werden, […]“ (Düx/Sass 2005: 395f.)\n\n**Aus dem Video:**\n- „Außerhalb der Curricula“ heißt nicht, dass informelles Lernen nicht auch **in der Schule** stattfinden kann [03:38].\n- Auch an Orten der formalen Bildung (Schule, Kita, Hochschule) gibt es Pausengespräche, den sogenannten **heimlichen Lehrplan** (was im Klassenraum zusätzlich zu dem passiert, was die Lehrkraft steuert), **Nachahmungs- und Modelllernen** und **Sozialisationsprozesse** [04:30]. Diese Lernprozesse sind nicht absichtsvoll und nicht explizit, sondern laufen nebenbei [05:02].\n- **Pädagogische Konsequenz** [05:35]: Informelle Lernprozesse in formalen und non-formalen Kontexten können sinnvoll sein und gezielt angeregt werden, um die formalen Bildungsprozesse zu **unterstützen** – sie können diese aber auch **konterkarieren**. Dann muss man sich dessen bewusst sein und gegebenenfalls steuernd eingreifen, um negative Effekte abzuschwächen [05:57].\n\n**Kurz erklärt:** Die drei Kategorien von Folie 3 beschreiben also keine sauber getrennten **Orte**, sondern **Kontexte**: In derselben Schule gibt es den geplanten Unterricht (formal) und die Pause (informell). Für Lehrkräfte heißt das: Was Kinder auf dem Pausenhof, in der Klassengemeinschaft oder am Vorbild der Lehrkraft lernen, gehört auch zum Lernen in der Schule – im Guten (Kinder helfen sich gegenseitig) wie im Schlechten (abwertende Sprüche werden übernommen). Die Verbindung zu Einheit 04: Modelllernen (Bandura) und Sozialisation laufen oft genau in diesen informellen Kontexten ab.\n\n**Prüfungsfalle:** Die Schule ist **kein rein formaler Lernort** – und Settings des freiwilligen Engagements sind **keine völlig informellen** Lernorte. Wer „Schule = nur formales Lernen“ ankreuzt, liegt falsch."
+    },
+    {
+      "titel": "Lernstrategien und Lernplanung",
+      "folien": "5",
+      "beispiel": "Ein Schüler setzt ein Geschichtskapitel über den Zweiten Weltkrieg in ein Schaubild mit Gründen, Verlauf und Folgen um (Reduzierung/Organisation, Stein 2024, S. 120). Eine Studentin merkt sich die Fachbegriffe, indem sie sie mit Orten auf ihrem Weg zur Uni verknüpft (Elaboration, Loci-Methode).",
+      "text": "**Folie 5** (Stein 2017, S. 105):\n- Kognitivismus / Konstruktivismus\n- **Lernstrategien** (Strukturierung und Speicherung von Wissen)\n  - Reduzierung oder die Organisation des Lernstoffes\n  - **Elaboration** (Zusammenhang des Lernstoffs mit bestehendem Wissen herstellen)\n- **Lernplanung** (Gestaltung von Arbeitsplatz und das Zeitmanagement sowie metakognitives Wissen über den individuellen Lerntyp und hemmende Lernfaktoren)\n\n**Aus dem Video:**\n- **Theoretischer Hintergrund** [06:11]: Kognitivismus und Konstruktivismus gehen davon aus, dass Lernprozesse **gesteuert** werden können – Lernen ist nicht nur beiläufig oder zufällig, sondern kann gezielt, geplant und strategisch angelegt werden.\n- **Reduzierung** [06:46]: ein Thema in Teile zerlegen, z. B. nicht alle Lerntheorien gleichzeitig, sondern montags die Konditionierung, am nächsten Tag das soziale Lernen – das reduziert die Komplexität. **Organisation** [07:22]: den Stoff z. B. mit Mindmaps oder anderen Visualisierungen erschließen.\n- **Elaboration** [07:37]: einen Zusammenhang zwischen neuem Lernstoff und bestehendem Wissen herstellen, z. B. mit der **Loci-Methode** (Verknüpfung mit einem Ort) oder mit **Eselsbrücken** – Anknüpfungspunkte „örtlicher Art“ oder „inhaltlicher Art“ [08:03].\n- **Lernplanung** [08:29]: *Arbeitsplatz* – ruhiger Ort, an dem ich mich konzentrieren kann und wohlfühle? *Zeitmanagement* [08:41] – wann lerne ich was, um bis zur Klausur durchzukommen? Nicht erst eine Woche vorher anfangen, sondern kontinuierlich, z. B. jede Woche eine Vorlesung ansehen – das gibt einen Rhythmus und entspricht zugleich dem Reduzierungsgedanken [09:12]. *Metakognitives Wissen über den Lerntyp* [09:26]: Wie lerne ich gut? Wie viel Zeit brauche ich? Wo lerne ich am besten? Welche Materialien helfen mir? Verstehe ich es besser, wenn eine Person es erklärt, oder mit einem Video?\n- **Hemmende Lernfaktoren** gehören ebenfalls zur Lernplanung, wenn man sie berücksichtigt [10:08].\n\n**Kurz erklärt:** **Lernstrategien** betreffen die Frage, *wie ich den Stoff verarbeite* (kürzen, ordnen, verknüpfen). **Lernplanung** betrifft den *Rahmen* (wo, wann, wie lange, mit welchen Mitteln). **Metakognitiv** heißt: „über das eigene Denken nachdenken“ – Stein (2024, S. 120) definiert metakognitives Wissen als „Wissen über das Wissen und den Wissenserwerb“. Die Elaboration passt zum Kognitivismus aus Einheit 04: Neues wird in bestehende kognitive Strukturen eingefügt – je besser die Anknüpfung, desto besser bleibt es hängen.\n\n**Prüfungsfalle:** **Elaboration** heißt hier nicht „ausführlich ausarbeiten“, sondern **Zusammenhang mit bestehendem Wissen herstellen**. Und: Lernplanung ist **keine** Lernstrategie im eigentlichen Sinn – Stein (2024, S. 120) unterscheidet beide ausdrücklich."
+    },
+    {
+      "titel": "Hemmende Lernfaktoren",
+      "folien": "6",
+      "beispiel": "Vor der Mathearbeit liest ein Schüler schnell noch den letzten Hefteintrag – und weiß deshalb andere gelernte Inhalte nicht mehr (Erinnerungshemmung, nach Stein 2024, Tab. 17).",
+      "text": "**Folie 6** (Stein 2017, S. 106) mit den Beispielen aus dem Video und aus Stein (2024, S. 121, Tab. 17):\n\n| Hemmender Lernfaktor | Wortlaut der Folie | Beispiel |\n| --- | --- | --- |\n| **Proaktive Hemmung** | vorher gelerntes Wissen beeinträchtigt nachfolgend gelerntes Wissen, Pausen zur Wissenskonsolidierung unerlässlich | Video [10:41]: Direkt nach der Konditionierung geht man zur nächsten Theorie über, obwohl das Gehirn mit der Verarbeitung noch nicht fertig ist. Stein: Erst Französisch-, dann Englischvokabeln – die englischen werden schlecht behalten. |\n| **Retroaktive Hemmung** | neu gelerntes Wissen hemmt den Abruf früher gelernten Wissens | Video [11:34]: Man lernt neu Spanisch; will man auf das früher gelernte Französisch zugreifen, fallen einem nur spanische Vokabeln ein. |\n| **Gleichzeitigkeitshemmung** | gleichzeitig aufgenommene Informationen blockieren sich beim Abruf | Video [12:07]: In der Vorlesung parallel WhatsApp-Nachrichten lesen – auf Nachfrage kann man nichts davon abrufen. Stein: lernen und dabei fernsehen. |\n| **Ähnlichkeitshemmung** | ähnliche Informationen werden beim Abruf miteinander verwechselt | Video [13:05]: zwei Vokabeln, die sehr ähnlich klingen. |\n| **Erinnerungshemmung** | ein jetzt ins Kurzzeitgedächtnis getretener Stoff hemmt den Abruf von Wissen | Stein: kurz vor der Schulaufgabe noch den letzten Hefteintrag lesen und deshalb anderes nicht mehr wissen. |\n| **Affektive Hemmung** | emotional erregende Zustände hemmen Speicherung und Abruf von Wissen | Video [13:27]: Freude, Wut, Trauer. Stein: Ein Student wird vor dem Examen von seiner Freundin verlassen. |\n\n**Umgang damit:** Bei der proaktiven Hemmung rät der Dozent ausdrücklich, beim Video **auf den Stopp-Knopf zu drücken**, z. B. eine halbe Stunde Pause zu machen, weiter nachzudenken, sich Beispiele zu überlegen und erst dann weiterzumachen [10:56]. Wer die hemmenden Lernfaktoren kennt und weiß, welche bei ihm oder ihr besonders häufig auftreten, kann die eigenen Lernprozesse entsprechend gestalten – deshalb gehören sie zur Lernplanung [14:21].\n\n{{aufgabe a01}}\n\n**Kurz erklärt:** Merkhilfe über die Vorsilben: **pro** = nach vorne – das *alte* Wissen wirkt nach vorn und stört das *neue*; **retro** = zurück – das *neue* Wissen wirkt zurück und stört das *alte*. Für den Unterricht heißt das z. B.: zwei ähnliche Themen (etwa zwei Sprachen oder zwei ähnliche Rechenverfahren) nicht direkt hintereinander einführen, Pausen einplanen und für eine ruhige, wenig ablenkende Umgebung sorgen. Stein (2024, S. 121) ergänzt: kurze Pausen nach einer Stunde, lange Erholungspausen nach ca. zwei Lernstunden.\n\n**Prüfungsfalle:** Proaktiv und retroaktiv werden gern vertauscht. **Proaktiv: vorher Gelerntes beeinträchtigt nachfolgend Gelerntes. Retroaktiv: neu Gelerntes hemmt den Abruf von früher Gelerntem.** Bei der Erinnerungshemmung geht es um Stoff, der *gerade* ins Kurzzeitgedächtnis getreten ist – bei der Gleichzeitigkeitshemmung um Informationen, die *gleichzeitig* aufgenommen wurden."
+    },
+    {
+      "titel": "Personenfaktoren, die Lernen beeinträchtigen können",
+      "folien": "7",
+      "beispiel": "",
+      "text": "**Folie 7** (Stein 2017, S. 107; Abbildung):\n\n| „Unveränderliche“ Personenfaktoren | Variable, „veränderliche“ Personenfaktoren |\n| --- | --- |\n| **Organische Störungen:** | **Motivationale und emotionale Probleme:** |\n| Legasthenie / Lese-Rechtschreibschwäche | Mangelnde intrinsische Motivation |\n| Aufmerksamkeits-Defizit-Hyperaktivitätssyndrom | Lern- und Prüfungsängste |\n| Lerndefizite durch Hirnschädigungen | Externe Attribuierungsstile |\n| Sprachstörungen etc. | Geringes Fähigkeitsselbstkonzept etc. |\n\n**Aus dem Video:**\n- Die Faktoren liegen **alle in der Person**; unterschieden wird nur zwischen quasi unveränderlichen und quasi variablen [14:43].\n- „Unveränderlich“ steht in Anführungszeichen, weil nicht alles völlig unveränderlich ist – manches kann z. B. medizinisch behandelt werden [14:56]. Für Pädagog*innen in einer Lehr-Lern-Situation (und auch für die lernende Person selbst) sind diese Faktoren aber nicht kurzfristig zu beeinflussen, sondern wenn überhaupt längerfristig [15:35].\n- Die **kurzfristig veränderbaren** Faktoren sind mangelnde intrinsische Motivation, Lern- oder Prüfungsängste, externe Attribuierungen und ein geringes Fähigkeitsselbstkonzept [15:59]. Sie werden auf den Folien 8–11 einzeln vertieft – auch mit der Frage, wie man sie überwinden kann [16:17].\n\n**Kurz erklärt:** Für die pädagogische Arbeit ist vor allem die rechte Spalte wichtig, weil man dort **etwas tun kann**. Stein (2024, S. 121 f.) betont: Bei Lernschwierigkeiten wird oft vorschnell auf mangelnde Intelligenz geschlossen, dabei wird die Rolle von Motivation, Emotionen und Attribuierungsstilen unterschätzt; die veränderlichen Personenfaktoren sind zu einem weitaus größeren Teil für Lernstörungen verantwortlich und gut pädagogisch zu bearbeiten. Daneben gibt es Faktoren in der Umgebung (z. B. mangelnde Förderung, Scheidung der Eltern, unruhige Arbeitsumgebung).\n\n**Prüfungsfalle:** **Externe Attribuierungsstile** sind trotz des Wortes „extern“ ein **Personenfaktor** (variabel): Extern ist nur die *Ursache, die die Person sieht* – der Zuschreibungsstil selbst liegt in der Person."
+    },
+    {
+      "titel": "Fähigkeitsselbstkonzept und Attribuierungsstile",
+      "folien": "8–9",
+      "beispiel": "Zwei Schüler lösen eine sehr schwierige Aufgabe nicht. Dem einen sagt die Lehrerin, mit etwas mehr Anstrengung hätte er es geschafft, dem anderen, die Aufgabe sei einfach zu schwierig für ihn gewesen. Der erste strengt sich künftig mehr an, der zweite resigniert eher (Stein 2024, S. 124).",
+      "text": "**Folie 8** (Stein 2017, S. 108):\n- **Fähigkeitsselbstkonzept:** Einschätzung der eigenen Fähigkeiten\n- Wechselwirkung zwischen Leistungen und Selbstkonzept\n- **Attribuierungsstile:** Ursachenzuschreibung bei der Leistungsattribution\n\n**Folie 9 – Attribuierungsstile** (Stein 2017, S. 108; Abbildung):\n\n| | Stabile Ursachen | Variable Ursachen |\n| --- | --- | --- |\n| **Interne Faktoren / Personenfaktoren** | **Begabung:** „Ich hatte Erfolg, weil ich intelligent bin und mir deshalb alles leicht fällt.“ · „Ich bin zu dumm dazu; ich werde das nie kapieren.“ | **Anstrengung:** „Ich hatte Erfolg, weil ich mich angestrengt habe.“ · „Ich bin gescheitert, weil ich zu wenig getan habe.“ |\n| **Externe Faktoren / Umweltfaktoren** | **Aufgabenschwierigkeit:** „Ich hatte Erfolg, weil die Aufgabe einfach war.“ · „Ich bin gescheitert, weil die Themenstellung zu kompliziert war.“ | **Zufall:** „Ich hatte Erfolg, weil ich einfach Glück hatte.“ · „Ich hatte diesmal Pech mit der Aufgabenstellung.“ |\n\n**Aus dem Video:**\n- **Fähigkeitsselbstkonzept** [16:41]: Wie schätze ich meine eigenen Fähigkeiten ein – bin ich gut in Mathe, Sport, Computerspielen, Stricken? Je höher die eigene Einschätzung, desto leichter fällt es, in dem Bereich tätig zu sein und Neues zu lernen, und desto motivierter ist man [17:03]. Studien zeigen, dass bei einem hohen Fähigkeitsselbstkonzept auch die **Leistungen**, z. B. in einer Prüfung, besser sein können [17:21]. Deshalb ist eine positive Entwicklung des Fähigkeitsselbstkonzepts zu fördern [17:39].\n- **Negativbeispiel** [17:48]: Lehrkräfte, die einer Schülerin sagen „Du kannst das eh nicht und du wirst es auch nie können“, beeinträchtigen und zerstören das Fähigkeitsselbstkonzept – statt die Person zu unterstützen und Fortschritte sichtbar zu machen.\n- **Attribuierungsstile** [18:21]: Welche Ursache sehe ich, wenn ich eine Leistung erbringe, z. B. eine gute Note? Unterschieden werden **interne** Faktoren (in der Person) und **externe** (in der Umwelt) [18:41] sowie **stabile** und **variable** Ursachen.\n\n{{aufgabe a02}}\n\n**Ergänzung aus dem Selbststudium (Stein 2024, S. 123 f.):** Ein niedriges Selbstkonzept kann im Sinne einer **Self-fulfilling-prophecy** mangelnde Leistungen bedingen. Das Fähigkeitsselbstkonzept sinkt in der Pubertät ab (ab etwa dem 12. Lebensjahr). Externe und stabile Zuschreibungen sind problematisch, weil sie suggerieren, man habe keinen Einfluss auf den Erfolg – bis hin zur **erlernten Hilflosigkeit**. Je nach Rückmeldung der Lehrkräfte werden verschiedene Attribuierungsstile gefördert.\n\n**Kurz erklärt:** Attribuierung heißt „Zuschreibung“: Wem oder was schreibe ich meinen Erfolg oder Misserfolg zu? Nur die **Anstrengung** liegt in der Person **und** ist veränderbar – deshalb gibt sie Handlungsspielraum: „Wenn ich mehr übe, kann es klappen.“ Beispiel Mathe: Statt „Du bist eben nicht so mathebegabt“ (Begabung) sagt die Lehrkraft „Bei den Prozentaufgaben hast du dich verbessert, weil du die Formel geübt hast – das schaffst du bei den Textaufgaben auch“ (Anstrengung).\n\n**Prüfungsfalle:** Die Dimensionen genau zuordnen: Begabung = **intern + stabil**, Anstrengung = **intern + variabel**, Aufgabenschwierigkeit = **extern + stabil**, Zufall = **extern + variabel**. Die Aufgabenschwierigkeit gilt als *stabil*, nicht als variabel."
+    },
+    {
+      "titel": "Intrinsische und extrinsische Motivation, Korrumpierungseffekt",
+      "folien": "10",
+      "beispiel": "Ein intrinsisch motivierter Schüler liest die Schullektüre, weil ihn die Handlung interessiert – auch ohne Aufforderung. Ein extrinsisch motivierter Schüler liest sie widerwillig, weil sie Gegenstand der nächsten Schulaufgabe ist oder weil er sonst Ärger mit der Deutschlehrerin fürchtet (Stein 2024, S. 125).",
+      "text": "**Folie 10** (Stein 2017, S. 109f.):\n- **Intrinsische Motivation:** innere Anreize, z.B. eigenes Interesse\n- **Extrinsische Motivation:** äußere Anreize, z.B. Belohnungen\n- „Bei Wegfallen der Verstärkung wird das Verhalten nicht mehr ausgeführt, da es in sich nicht als belohnend erlebt wird.“\n- „Langfristiger Lernerfolg und Lernfreude wird nur über intrinsische Motivation sichergestellt.“\n- **Korrumpierungseffekt:** Abschwächung einer intrinsischen Motivation durch extrinsische Anreize\n\n**Aus dem Video:**\n- **Intrinsisch** [21:31]: Man hat in sich selbst eine Vorstellung, ein Interesse, einen Wunsch, warum man etwas tun möchte. **Extrinsisch** [21:39]: äußere Anreize wie Belohnungen – wie bei der instrumentellen bzw. operanten Konditionierung (Einheit 04).\n- **Beispiel** [21:52]: Ein Kind versteht selbst, warum es andere Kinder nicht schlagen soll – weil die anderen es dann auch nicht schlagen. Es hat ein eigenes Interesse an dem Verhalten: ein intrinsischer Anreiz.\n- Fällt die Verstärkung bzw. Belohnung weg, wird das Verhalten nicht mehr (zumindest nicht dauerhaft) gezeigt [22:20]. Langfristiger Lernerfolg ergibt sich nie durch Belohnungen; dafür muss intrinsische Motivation gefördert werden [22:41].\n- **Korrumpierungseffekt** [23:37]: Eine Lehrerin, die sagt „Jetzt lernen wir das, damit ihr in der Klausur erfolgreich seid“, kann kontraproduktiv wirken, weil sie vorhandene intrinsische Motivation – das eigene Interesse an der Sache – zerstört oder abschwächt, indem extrinsischer Druck aufgebaut wird [24:06].\n\n{{aufgabe a03}}\n\n**Kurz erklärt:** Intrinsisch = „von innen“, die Sache selbst ist der Lohn. Extrinsisch = „von außen“, das Verhalten ist nur Mittel zum Zweck (Note, Lob, Geld, keine Strafe). Stein (2024, S. 124) beschreibt extrinsisch motiviertes Verhalten als Verhalten, das „nur Mittel zur Erlangung einer anderen Konsequenz ist“ oder „nur durch äußere Anreize ausgelöst oder aufrechterhalten werden kann“. Verbindung zur Präsenzsitzung S04: Die „Belohnungstafel“ im Kindergarten war genau dieses Problem – Abhängigkeit von Belohnungen.\n\n**Prüfungsfalle:** Beim Korrumpierungseffekt schwächen **extrinsische** Anreize die **intrinsische** Motivation – nicht umgekehrt. Und die Kernaussage enthält das Wort **„nur“**: Langfristiger Lernerfolg und Lernfreude werden *nur* über intrinsische Motivation sichergestellt."
+    },
+    {
+      "titel": "Lern- und Prüfungsängste",
+      "folien": "11",
+      "beispiel": "Eine Schülerin ist vor dem Referat aufgeregt und bereitet sich deshalb besonders gründlich vor (Aufgeregtheitskomponente). Ein anderer Schüler denkt tagelang nur daran, was passiert, wenn er die Klausur verhaut, und hat am Prüfungstag Bauchschmerzen (Sorgenkomponente → Vermeidungsreaktion) (selbst erarbeitet nach Video).",
+      "text": "**Folie 11** (Stein 2017, S. 110):\n- **Aufgeregtheitskomponente** / „Lampenfieber“\n- **Sorgenkomponente:** sorgenvolle Gedanken, Selbstzweifel, Selbstabwertungen und Gedanken an die negativen Konsequenzen von Leistungsversagen > Vermeidungsreaktionen\n\n**Aus dem Video:**\n- **Lampenfieber** ist zunächst etwas **Positives** [24:17]: Der Dozent kennt es selbst vor besonders wichtigen Vorträgen oder von seiner Bewerbung auf die Professur an der Universität Vechta [24:43]. Aufregung führt dazu, dass man sich besser vorbereitet, konzentrierter ist, Müdigkeit überwindet und gut auf Fragen antworten kann [24:53].\n- **Problematisch** wird es, wenn der Stress so groß wird, dass Angst, große Sorgen, Selbstzweifel und Selbstabwertung im Vordergrund stehen und die Gedanken um die möglichen negativen Konsequenzen kreisen [25:20]. Dann kommt es zu **Vermeidungsreaktionen**: Man meldet sich krank, statt zur Prüfung zu gehen – manchmal nicht bewusst, sondern der Körper erzeugt die Vermeidung selbst, z. B. durch **Bauchschmerzen** [25:41].\n- **Was hilft** [26:09]: intrinsische Motivation, ein positives Lernumfeld, Räume schaffen, in denen deutlich wird, dass Versagen nicht schlimm sein muss, dass Fehler dazugehören und dass es weitere Möglichkeiten gibt voranzukommen. Wer gar nicht mehr zurechtkommt: zuerst **Studienberatung**, gegebenenfalls auch **therapeutische Beratung und Begleitung** – mit dem Ziel, dass die Angst wieder auf der Ebene des Lampenfiebers liegt [26:24].\n\n**Ergänzung aus dem Selbststudium (Stein 2024, S. 125):** Die Aufgeregtheitskomponente (*emotionality*) beeinträchtigt Lernen und Leistung kaum, solange keine Panik den Abruf verhindert (Yerkes-Dodson-Gesetz). Die Sorgenkomponente (*worry*) vermindert den Aufbau und den Abruf von Wissen, weil die sorgenvollen Gedanken das Arbeitsgedächtnis blockieren. Verhängnisvoll wird Prüfungsangst vor allem, wenn sie Vermeidungsreaktionen auslöst.\n\n**Kurz erklärt:** Aufregung ist Energie, Sorge ist Blockade. Ein bisschen Herzklopfen vor der Klassenarbeit macht wach; das Gedankenkarussell „Ich schaffe das nie, dann bleibe ich sitzen …“ belegt dagegen den Kopf, den man zum Rechnen bräuchte. Für Lehrkräfte heißt das: eine Fehlerkultur pflegen, Prüfungen transparent machen und Kinder mit starker Angst an Beratung weitervermitteln.\n\n**Prüfungsfalle:** Die **Vermeidungsreaktionen** gehören zur **Sorgenkomponente**, nicht zum Lampenfieber. „Lampenfieber“ steht auf der Folie als anderer Name der **Aufgeregtheitskomponente**."
+    },
+    {
+      "titel": "(Allgemeine) Didaktik: Begriff, acht Grundfragen und Vorsicht mit der „Vermittlung“",
+      "folien": "12",
+      "beispiel": "Planung einer Mathestunde zur Prozentrechnung mit den acht Grundfragen: Was? (Grundwert, Prozentwert, Prozentsatz) · Wie? (Partnerarbeit mit Rabatt-Prospekten) · Wozu? (Prozentsätze im Alltag berechnen können) · Warum? (Kerncurriculum, Alltagsbezug) · Wem? (Klasse 7, heterogen) · Wo? (Klassenraum) · Wann? (3. Stunde, vor den Herbstferien) · Wer? (Lehrkraft als Begleiterin, Schüler*innen als Expert*innen ihrer Gruppe) (selbst erarbeitet).",
+      "text": "**Folie 12** (Stein 2017, S. 110f.; Gudjons & Traub 2016, S. 239):\n- **Didaktik: Lehre vom Lehren und Lernen**\n- wissenschaftliche Reflexion von organisierten Lehr- und Lernprozessen\n- Verbesserung von Lehr- und Lernprozessen in der Praxis\n- acht Grundfragen:\n\n| Nr. | Frage | Erläuterung (Folie) |\n| --- | --- | --- |\n| 1 | **Was?** | Welche Inhalte sollen erarbeitet werden? |\n| 2 | **Wie?** | Mit welchen Methoden soll die Auseinandersetzung mit den Inhalten erfolgen? |\n| 3 | **Wozu?** | Welche Ziele verfolge ich dabei? |\n| 4 | **Warum?** | Welche Begründungen sind für meine Planungen und Vorhaben maßgeblich? |\n| 5 | **Wem?** | Wer sind meine Adressat*innen? |\n| 6 | **Wo?** | In welcher Umgebung finden die Lehr- und Lernprozesse statt? |\n| 7 | **Wann?** | Zu welcher Tages- oder Jahreszeit findet die Arbeit statt? |\n| 8 | **Wer?** | Welche Rollen nehmen die Akteur*innen in den Lehr- und Lernprozessen ein? |\n\n> **Vorsicht mit dem Begriff der Vermittlung!** (Merksatz auf der Folie)\n\n**Aus dem Video:**\n- Didaktik fragt, wie Lehren und Lernen stattfinden und gestaltet werden können; sie reflektiert Lehr- und Lernprozesse wissenschaftlich und will sie **verbessern** [27:24]–[27:45].\n- **Allgemeine Didaktik vs. Fachdidaktik** [27:45]–[28:23]: Fachdidaktiken (z. B. Englisch, Sachunterricht, Germanistik) beziehen sich auf ein Fach – im Lehramtsstudium kommen sie in späteren Modulen. Die allgemeine Didaktik ist nicht auf ein Fach und auch nicht nur auf die Schule bezogen.\n- Die acht Fragen helfen, Unterricht in der Schule oder Lehr-Lern-Prozesse in Kita oder Hochschule zu beschreiben und zu planen [29:28]; z. B. *Wo?* – im Klassenraum, auf einer Wiese, im Computerraum [29:18].\n- **Vermittlung** [30:07]–[31:12]: Der Dozent bittet, den Begriff „Vermittlung“ möglichst aus dem Wortschatz zu streichen oder nur sehr vorsichtig und reflektiert zu verwenden. Bei Wissen gehe es vielleicht noch, aber spätestens bei Kompetenzen zeige sich, dass **Kompetenzvermittlung eigentlich nicht möglich** ist [30:19]. Aus Sicht des Konstruktivismus kann eine lehrende Person nichts direkt auf eine lernende Person übertragen; es sind immer **eigene Konstruktionen und Aneignungsprozesse** [30:38]. Der Begriff kommt bei Stein im Zusammenhang mit den acht Fragen trotzdem vor [31:00].\n- **Ausnahme**, die der Dozent später selbst macht: Bei einem Überblick oder einer Einführung „bestimmte Fakten zu vermitteln“ – „da passt der Begriff dann auch tatsächlich“ [47:04].\n\n**Kurz erklärt:** Die acht W-Fragen sind eine Checkliste für jede Unterrichtsplanung. Die Warnung vor „Vermittlung“ schließt an Einheit 04 an: Wenn jedes Gehirn seine eigene Wirklichkeit konstruiert (Autopoiesis), kann eine Lehrkraft Wissen nicht wie ein Paket übergeben, sondern nur Lerngelegenheiten schaffen. Deshalb formuliert die Folie die Fragen 1 und 2 auch ohne „vermitteln“ („Welche Inhalte sollen *erarbeitet* werden?“, „Mit welchen Methoden soll die *Auseinandersetzung* mit den Inhalten erfolgen?“) – bei Stein (2024, S. 126, nach Kron et al. 2024) heißt es dagegen „Welche Inhalte muss ich vermitteln?“.\n\n**Prüfungsfalle:** **Wozu?** = Ziele, **Warum?** = Begründungen. **Wem?** = Adressat*innen, **Wer?** = Rollen der Akteur*innen. Die beiden Paare werden leicht vertauscht."
+    },
+    {
+      "titel": "Didaktische Ebenen",
+      "folien": "13",
+      "beispiel": "Planung einer Gruppenarbeit: intrapersonal – Was können die einzelnen Kinder schon? · mikrosozial – Wer arbeitet gut zusammen, gibt es Konflikte in der Klasse? · institutionell – Gibt es Gruppenräume, wie ist das Schulklima? · makrosozial – Welchen Stellenwert hat Bildung für alle in unserer Gesellschaft? (selbst erarbeitet)",
+      "text": "**Folie 13** (Stein 2017, S. 111):\n- **die intrapersonale Ebene** (Beachtung der Lerngeschichte des Individuums und seines entwicklungspsychologischen Stands)\n- **die mikrosoziale Ebene** (Beleuchtung der Interaktionsstrukturen und der Beziehungen in sozialen Gruppen wie Familien und Schulklassen)\n- **die institutionelle Ebene** (Bildungseinrichtungen, wie Schulen oder etwa Volkshochschulen)\n- **die makrosoziale Ebene** (gesellschaftliche Dimensionen von Bildung)\n\n**Aus dem Video** [31:21]–[32:35]: Wer mit didaktischen Modellen Lehr-Lern-Prozesse gestalten will, muss diese Ebenen einbeziehen:\n- *intrapersonal* [31:33]: die Lernenden mit ihrer Lerngeschichte, ihrem Vorwissen und ihrem Entwicklungsstand – „wo stehen die?“\n- *mikrosozial* [31:53]: Wie ist die Interaktionsstruktur? Funktioniert die Interaktion gut, gibt es Störungen? Wie sind die Beziehungen in der Schulklasse, der Familie?\n- *institutionell* [32:03]: Wie funktioniert die Bildungseinrichtung, wie sind Lernklima und Atmosphäre?\n- *makrosozial* [32:12]: Welche Rolle spielt Bildung in einer Gesellschaft? Wird sie als etwas für alle Relevantes anerkannt, oder werden bestimmte Gruppen ausgeschlossen?\n\n**Kurz erklärt:** Die vier Ebenen zoomen vom einzelnen Kind (intra = innerhalb der Person) über die Gruppe (mikro = klein) und die Einrichtung bis zur Gesellschaft (makro = groß). Gute Planung berücksichtigt alle vier: Eine tolle Methode scheitert, wenn die Klasse zerstritten ist (mikrosozial) oder der Raum fehlt (institutionell).\n\n**Prüfungsfalle:** Die **Schulklasse** gehört zur **mikrosozialen** Ebene (soziale Gruppe), die **Schule** zur **institutionellen** Ebene (Bildungseinrichtung). Nicht verwechseln mit den Begriffen intrapersonell / interpersonell / makrosozial aus S01 (Säulen der Pädagogik) – dort ging es um die Einordnung von Lernen, Erziehung, Bildung und Sozialisation."
+    },
+    {
+      "titel": "Didaktische Modelle I: Kritisch-konstruktive Didaktik und Perspektivenschema (Klafki)",
+      "folien": "14–15",
+      "beispiel": "Biologisches Gleichgewicht zwischen Feldmäusen und Mäusebussard (6. Klasse): Gegenwartsbedeutung – die Kinder sind fasziniert vom Bussard und kennen Mäuse als Schädlinge; Exemplarität – steht für das biologische Gleichgewicht überhaupt und für menschliche Eingriffe in die Natur; Zukunftsbedeutung – sich als Bürger*in für Naturschutz einsetzen (Gudjons/Traub 2016, S. 243–246).",
+      "text": "**Folie 14 – Didaktische Modelle** (Gudjons & Traub 2016, S. 242ff.):\n- Die kritisch-konstruktive Didaktik (Klafki)\n- Die lehrtheoretische Didaktik\n- Die konstruktivistische Didaktik\n\nDie drei Modelle überschneiden sich teilweise stark, setzen aber unterschiedliche Akzente [32:43]. Auf Wolfgang Klafki kommt die Vorlesung beim Bildungsbegriff (S06) zurück [32:53].\n\n**Warum „kritisch-konstruktiv“?** (Video [33:24]–[34:12])\n- **kritisch**, weil über die Art und Weise des Arbeitens **Selbstbestimmung, Mitbestimmung und Solidarität** bei den Lernenden gefördert werden sollen – für Klafki die Hauptziele von Bildung (vgl. [37:40]);\n- **konstruktiv**, weil das Modell so angelegt ist, dass sich aus den Lernprozessen eine **Handlungspraxis** ergibt und **Handlungsoptionen** aufgezeigt werden.\n\n**Folie 15 – Perspektivenschema zur Gestaltung von Lehr-Lern-Prozessen (nach Klafki)** (Stein 2017, S. 112; Abbildung mit Wechselpfeilen zwischen den Kästen):\n\n| Aspekt | Leitfrage (Folie) | Erläuterung im Video |\n| --- | --- | --- |\n| **Gegenwartsbedeutung** | Ist das Thema für die Lebenswelt wichtig? | aktuell, interessiert die Schüler*innen, hat Relevanz für sie [34:42] |\n| **Zukunftsbedeutung** | Ist das Thema nicht nur Eintagsfliege? | auch längerfristig relevant oder längst überholt? [34:51] |\n| **Exemplarität** | Stellt das Thema ein gutes Beispiel für dieses Problem dar? | steht beispielhaft für einen größeren Zusammenhang, der sich daran erarbeiten lässt [35:01] |\n| **Thematische Struktur** | Welche Lernziele sind aufzustellen? | Wie strukturiere ich das Thema? Wissenserwerb oder Kompetenzentwicklung? [35:29] |\n| **Darstellbarkeit** | Welche Unterrichtsformen und Methoden nutze ich? | je nach Lernziel andere Methoden und Gestaltung [35:50] |\n| **Lehr-Lern-Prozessstruktur** | Welche Lernhilfen etc. nutze ich? | Videos, andere Materialien – damit die Lernziele erreichbar werden [36:12] |\n| **Überprüfbarkeit** | Ist das Thema bei den Adressat/innen gut vermittelt worden? | Der Dozent würde lieber fragen: **Sind die Lernziele erreicht worden?** [36:30]–[36:52] |\n\nErst wenn die ersten drei Fragen beantwortet sind (ist das Thema geeignet und warum?), stellt sich die Frage nach Struktur, Lernzielen und Umsetzung [35:14]. Das Schema dient dazu, Unterricht reflektiert vorzubereiten [37:00].\n\n**Ergänzung aus dem Selbststudium (Gudjons/Traub 2016, S. 242–247):** Zentralkategorie bei Klafki ist **Bildung**: Fähigkeit zur Selbstbestimmung, Mitbestimmungsfähigkeit und Solidaritätsfähigkeit, bezogen auf **epochaltypische Schlüsselprobleme** (Friedensfrage, Umweltfrage u. a.). In Klafkis eigenem Schema (Abb. 26) steht am Anfang eine **Bedingungsanalyse** (Ausgangslage der Lernenden, der Lehrkraft und der Institution); die Fragen sind in vier Komplexe gegliedert: Begründungszusammenhang (Gegenwarts-, Zukunftsbedeutung, Exemplarität), thematische Strukturierung (mit Überprüfbarkeit), Zugangs- und Darstellungsmöglichkeiten und methodische Strukturierung (Lehr-Lern-Prozessstruktur). Die Pfeile stehen für die **Interdependenz** – Planung springt zwischen den Kästen hin und her. Klafki versteht das Schema als „Problematisierungsraster“; Maßstab ist nicht „Planerfüllung“, sondern die Ermöglichung produktiver Lernprozesse.\n\n**Kurz erklärt:** Das Perspektivenschema ist ein Prüfraster vor der Stunde: Erst **begründen**, warum ein Thema für *diese* Lernenden wichtig ist (heute, morgen, als Beispiel für Größeres), dann **planen**, wie es erarbeitet wird, und schließlich **prüfen**, ob die Ziele erreicht wurden.\n\n**Prüfungsfalle:** **„Konstruktiv“** heißt bei Klafki *Praxis- und Handlungsbezug* – es hat **nichts mit dem Konstruktivismus** zu tun. Und auf der Folie heißt der Kasten **„Darstellbarkeit“** (Unterrichtsformen und Methoden), die **Lernhilfen** gehören zur **Lehr-Lern-Prozessstruktur**."
+    },
+    {
+      "titel": "Didaktische Modelle II: Lehrtheoretische Didaktik („Hamburger Modell“)",
+      "folien": "16",
+      "beispiel": "Thema Assuan-Staudamm: Unterrichtsziel (Intention und Thema), Ausgangslage (Vorerfahrungen der Klasse), Vermittlungsvariablen (Film, Bilder, Modellbau, Gruppenarbeit, Exkursion zu einer Talsperre) und Erfolgskontrolle (z. B. Ausstellung statt Klassenarbeit) (Gudjons/Traub 2016, S. 249).",
+      "text": "**Folie 16 – Lehrtheoretische Didaktik („Hamburger Modell“)** (Gudjons & Traub 2016, S. 247ff.):\n- emanzipatorischer Anspruch\n- Intentionen des Unterrichts: **Kompetenz, Autonomie und Solidarität**\n- **Sach-, Gefühls- und Sozialerfahrungen**\n- vier didaktische Fragen:\n  - Was soll gelernt/gelehrt werden? (Inhalte und Ziele)\n  - Wer lernt hier etwas, mit wem als Lehrer?\n  - Auf welche Weise wird das, was für Menschen mit dieser Ausgangslage als Ziel ermittelt wurde, am besten erreicht – mit welchen Vermittlungsvariablen? (Methoden, Sozialformen, Medien)\n  - War der Unterricht erfolgreich? (Erfolgskontrolle, Evaluation)\n- **institutionelle Bedingungen und gesellschaftliche Rahmenbedingungen**\n\n**Aus dem Video** [37:13]–[39:21]:\n- Ähnlich wie Klafki, aber mit anderen Akzenten; kommt **noch stärker aus dem schulischen Zusammenhang** [37:28].\n- Der **emanzipatorische Anspruch** ist eine Gemeinsamkeit mit Klafki: Auch dort sollen Mitbestimmung, Selbstbestimmung und Solidarität gefördert werden [37:40].\n- Die Intentionen (Kompetenzentwicklung, Autonomie, Solidarität) überschneiden sich stark mit Klafki [37:52].\n- Stärker als in anderen Ansätzen wird betont, dass es neben der **Sacherfahrung** (Auseinandersetzung mit Sachgegenständen, Wissen) auch um **Gefühls- und Sozialerfahrungen** geht [38:12].\n- Die vier Fragen überschneiden sich deutlich mit Klafkis Fragen; an den Begriffen sieht man den schulischen Kontext [38:32].\n- **Besonders spezifisch:** Stärker als bei den anderen Modellen werden die **institutionellen Bedingungen** in den Blick genommen – wie sieht die Institution aus, was ist dort überhaupt möglich? – und die **gesellschaftlichen Rahmenbedingungen** [39:04].\n\n**Ergänzung aus dem Selbststudium (Gudjons/Traub 2016, S. 247–250):** Das Modell stammt von **Wolfgang Schulz**; Vorläufer war das „Berliner Modell“ (Heimann/Otto/Schulz). Erziehung wird als „Dialog zwischen potentiell handlungsfähigen Subjekten“ verstanden. Intentionen und Erfahrungsfelder ergeben eine Matrix – Schulz: „eine Art Wünschelrute ist die Matrix, nichts weiter“. Die vier Fragen heißen im Modell **Unterrichtsziele (UZ), Ausgangslage (AL), Vermittlungsvariablen (VV) und Erfolgskontrolle (EK)**; um sie liegen zwei Ringe: institutionelle Bedingungen (Lehrpläne, Ausstattung, Lerngruppe) und gesellschaftliche Rahmenbedingungen. Dazu kommen vier Planungsebenen: Perspektivplanung, Umrissplanung, Prozessplanung und Planungskorrektur.\n\n**Kurz erklärt:** Das Hamburger Modell ist wie Klafki ein Planungs- und Analysemodell, schaut aber mehr auf die **Bedingungen**, unter denen Unterricht stattfindet (Lehrplan, Räume, Gesellschaft), und darauf, dass Lernen auch **Gefühle und soziale Erfahrungen** umfasst. Für die Schulpraxis: Eine Projektarbeit muss zur Stundentafel, zum Raum und zur Klassenzusammensetzung passen.\n\n**Prüfungsfalle:** Intentionen im Hamburger Modell: **Kompetenz, Autonomie, Solidarität** – bei Klafki: **Selbstbestimmung, Mitbestimmung, Solidarität**. Und: Obwohl der Dozent vor „Vermittlung“ warnt, steht im Hamburger Modell der Fachbegriff **„Vermittlungsvariablen“** – so lautet er in der Quelle."
+    },
+    {
+      "titel": "Didaktische Modelle III: Konstruktivistische Didaktik",
+      "folien": "17–18",
+      "beispiel": "Statt eines Lehrervortrags über Gentechnologie analysieren Schüler*innen die Kennzeichnung von Nahrungsmitteln auf gentechnisch veränderte Bestandteile; statt einer Lektion über Stadtgeographie erkunden sie eine Neubausiedlung (Gudjons/Traub 2016, S. 252).",
+      "text": "**Folie 17 – Konstruktivistische Didaktik** (Gudjons & Traub 2016, S. 251):\n- **Lernen ist nicht machbar. Lernen ist bloß anregbar.**\n- Lernen kann nur jeder für sich. Von außen zwar angestoßen, vollzieht jeder seinen Lernprozess für sich selbst.\n- Nicht Bilder einer Außenwelt werden beim Lernen direkt aufgenommen und verinnerlicht, sondern von außen lösen Reize in Lernenden Energieprozesse aus, durch die subjektives Wissen gestaltet wird und eine eigene Wirklichkeit entsteht.\n- Lernen findet immer in sozialen Kontexten und durch Interaktionen statt.\n- **Selbsttätigkeit > Ermöglichungsdidaktik statt Belehrungsdidaktik**\n\n**Folie 18** (Gudjons & Traub 2016, S. 252):\n- Orientierung an komplexen, lebens- und berufsnahen, ganzheitlich zu betrachtenden Problembereichen.\n- Lernen ist ein aktiver Prozess.\n- Durch kollektives Lernen (z.B. in Gruppen) erst wird die individuelle Interpretation und Sinngebung überdacht und neu strukturiert.\n- Dabei sind Fehler erlaubt, ja bedeutsam, weil ihre Besprechung und Korrektur Verständnis fördernd wirkt und zur besseren Konstruktion des verstandenen Wissens beiträgt.\n- Für die Lerninhalte sind Vorerfahrungen und Interessen der Lernenden wichtig.\n- Gefühle und persönliche Identifikation sind bedeutsam und müssen einbezogen werden.\n- Die Evaluation (Überprüfung, Auswertung) richtet sich nicht allein auf die Lernprodukte, sondern auch auf die Fortschritte im Lernprozess, auf Methoden und Lernstrategien.\n\n**Aus dem Video** [39:21]–[45:43]:\n- Eine Lehrkraft kann nicht direkt bestimmen, was jemand lernt; sie kann Anregungen, Anreize und positive Settings geben und eine **anregende Lernumgebung** gestalten [39:56].\n- Auch beim Nachahmungslernen wird nichts einfach kopiert: Ich verarbeite das Wahrgenommene und setze es in Beziehung zu meiner Wirklichkeit und meinem Vorwissen – deshalb kommt bei verschiedenen Personen Unterschiedliches heraus [40:27].\n- Lernen kann sozial angeregt werden: Durch Interaktion findet ein **Abgleich** zwischen meiner Wirklichkeit und der anderer statt [41:25].\n- **Selbsttätigkeit** ist zentral: selbst anwenden, ausprobieren, entdecken – oder z. B. ChatGPT eigene Fragen stellen [41:46]. Daraus folgt die **Ermöglichungsdidaktik statt Belehrungsdidaktik**: nicht vermitteln, vorgeben, belehren, sondern ermöglichen, dass Lernprozesse stattfinden [42:09].\n- Lernen setzt Aktivität und aktive Reflexion voraus [43:00]; in Gruppen bekommt man Anregung und Feedback [43:23]; Fehler ermöglichen erst Korrekturen, vor allem wenn sie besprochen werden [44:10]; an Vorerfahrungen und Vorwissen ist immer wieder anzuknüpfen [44:38]; ob man ein positives Gefühl aufbaut oder ob Ängste ausgelöst werden, spielt eine große Rolle [45:00].\n- **Evaluation** [45:13]: Auch wenn am Ende ein falsches oder unvollständiges Ergebnis steht, kann dazwischen ein Fortschritt stattgefunden haben, den es wahrzunehmen und zu bestärken gilt.\n\n**Ergänzung aus dem Selbststudium (Gudjons/Traub 2016, S. 250–252):** In der Didaktik wird der Konstruktivismus nie radikal, sondern als **„gemäßigter Konstruktivismus“** vertreten. Selbsttätigkeit hängt eng mit Selbstbestimmung zusammen; auch Beobachtungsfähigkeit wird wichtig. **Kritik:** Schrumpft die Didaktik zur „Autodidaktik“? Lehrende werden eher zu „Lernbegleitern“. Und: „Man muss etwas wissen, um eigenständig Erkenntnisse zu konstruieren. Wer nichts weiß, kann auch nichts konstruieren…“ (S. 252).\n\n**Kurz erklärt:** Die konstruktivistische Didaktik zieht die Unterrichtsfolgen aus Einheit 04 (eine Realität, viele Wirklichkeiten): Wenn Wissen im Kopf jedes Kindes selbst gebaut wird, muss Unterricht Anlässe zum Bauen schaffen – echte Probleme, Gruppenarbeit, Raum für Fehler, Anknüpfung an Interessen. Beispiel Mathe: Statt die Formel für den Flächeninhalt vorzugeben, messen die Kinder den Schulhof aus und entwickeln in Gruppen eigene Wege.\n\n**Prüfungsfalle:** Wortlaut genau: „Lernen ist **nicht machbar**. Lernen ist **bloß anregbar**.“ – Fehler sind „**erlaubt, ja bedeutsam**“. Die Evaluation richtet sich **nicht allein** auf die Lernprodukte, sondern **auch** auf Fortschritte, Methoden und Lernstrategien."
+    },
+    {
+      "titel": "Unterrichtsformen und wissensbasierter Konstruktivismus",
+      "folien": "19–21",
+      "beispiel": "Sandwich-Prinzip: Die Lehrkraft gibt einen kurzen Impulsvortrag (kollektive Phase), dann arbeiten die Schüler*innen allein oder in Gruppen mit Mindmaps weiter (subjektive Phase), danach geht es gemeinsam weiter (Gudjons/Traub 2016, S. 260).",
+      "text": "**Folie 19 – Die wichtigsten Unterrichtsformen** (Stein 2017, S. 112; Abbildung):\n\n| | Frontalunterricht | Gruppenarbeit / Partnerarbeit | Einzelarbeit |\n| --- | --- | --- | --- |\n| **Beschreibung** | lehrerzentriert; meist sprachgestützt; thematisch gerichtet | Arbeit in der Gruppe an Materialien, Texten etc., anschließend Vorstellung der Ergebnisse im Plenum | Stillarbeit des Einzelnen mit Materialien (Texten, PC: programmierter Unterricht) |\n| **Vorteile** | auch für Großgruppen geeignet; rationelle Unterrichtsform | entdeckendes Lernen; Selbstständigkeit; soziales Lernen; eigenes Gruppenlerntempo | entdeckendes Lernen; Selbstständigkeit; eigenes Lerntempo und Lerngestaltung |\n| **Nachteile** | rein rezeptives Lernen; kaum soziales Lernen; kaum Individualisierung, Nivellierung auf gleichem Lernniveau und Lerntempo | Gefahr, dass einige arbeiten, andere sich ausklinken; Problem der Benotung von Gruppenleistungen | kaum soziales Lernen; korrigierende Anleitung durch die Lehrkraft fehlt |\n| **Einsatzgebiete** | Einstieg ins Thema; Input von Fakten | für die breite Erarbeitung eines Themas geeignet (z. B. Textanalysen, Experimente, Postergestaltung) | vertiefende Erarbeitung eines Themas und Überleitung zur Hausaufgabe, die ebenfalls die Fortsetzung der Stillarbeit ist |\n\n**Folie 20 – Wissensbasierter Konstruktivismus** (Gudjons & Traub 2016, S. 256):\n- Aufhebung des Widerspruchs zwischen Instruktion und Konstruktion\n- Jede*r braucht ihre*seine eigenen Lernwege.\n- Der Weg zur Autonomie führt über die Anleitung.\n- Die Lernmethoden müssen den Fähigkeiten der Schüler*innen angepasst werden\n\n**Folie 21 – Neuere Unterrichtsformen** (Gudjons & Traub 2016, S. 257ff.): Offener Unterricht · Freiarbeit · Projektunterricht · Erfahrungsbezogener Unterricht · Handlungsorientierter Unterricht · Problembasiertes Lernen · …\n\n**Aus dem Video:**\n- Konstruktivistisch betrachtet sind **Gruppen- und Einzelarbeit viel sinnvoller als Frontalunterricht** [46:06].\n- Der **wissensbasierte Konstruktivismus** hebt den Widerspruch zwischen Konstruktion (eigene Konstruktion) und Instruktion (Anleitung von außen) auf [46:14]: Man braucht Gruppen- und Einzelarbeit zum Entdecken – aber auch **Orientierung**. Würde der Dozent sagen „Es gibt Lerntheorien, finden Sie mal heraus, was das ist“, würde völlig die Orientierung fehlen [46:45]. Deshalb braucht es Vorlesungen und in der Schule an der einen oder anderen Stelle Frontalunterricht, um einen Überblick oder eine Einführung zu geben und „bestimmte Fakten zu vermitteln“ – dann folgen Vertiefungen in Gruppen- und Einzelarbeit, wie in dieser Vorlesung [47:04]–[47:19].\n- Die Lernmethoden müssen an die Fähigkeiten angepasst werden: Was passt für mich, wo stehe ich gerade, welche Methode bringt mich weiter? [47:54]\n- **Neuere Unterrichtsformen** [48:25]: so neu sind sie gar nicht mehr (Projektunterricht gibt es schon länger), aber im Vergleich zum klassischen Frontalunterricht. Der Dozent ergänzt mündlich das **forschende Lernen** [48:45]. In all diesen Formen kann entdeckt, ausprobiert und angewendet werden.\n\n**Ergänzung aus dem Selbststudium (Gudjons/Traub 2016, S. 256–260):** Im wissensbasierten Konstruktivismus wird Lernen als „persönliche Konstruktion von Bedeutungen interpretiert, die allerdings nur dann gelingt, wenn eine ausreichende Wissensbasis zur Verfügung steht. Zu deren Erwerb kann jedoch auf instruktionale Anleitung und Unterstützung nicht verzichtet werden“ (Reinmann-Rothmeier/Mandl 2001, zit. S. 256). Gesucht ist eine „Balance zwischen expliziter Instruktion durch den Lehrenden und konstruktiver Aktivität durch den Lernenden“. Die Folie übernimmt die **drei Einsichten**, durch die die Kontroverse „überwunden“ ist. Zu den neueren Unterrichtsformen zählt der Text außerdem Freinet-Pädagogik, entdeckendes Lernen, das **Sandwich-Prinzip** (Wahl) und Epochenunterricht. Freiarbeit hat drei Prinzipien: Wahlfreiheit, Selbsttätigkeit, Selbstkontrolle (S. 258).\n\n**Kurz erklärt:** Es gibt nicht *die* beste Unterrichtsform. Frontalunterricht ist gut für Einstieg und Faktenüberblick, schlecht für soziales und individuelles Lernen; Gruppenarbeit fördert Selbstständigkeit und soziales Lernen, hat aber das Problem der „Trittbrettfahrer“. Der wissensbasierte Konstruktivismus sagt: Erst Anleitung und Wissensbasis, dann Raum für eigene Konstruktion – nicht entweder–oder.\n\n**Prüfungsfalle:** „Der Weg zur Autonomie führt über die **Anleitung**“ – nicht „über die Freiheit“. Der wissensbasierte Konstruktivismus *hebt den Widerspruch auf*; er erklärt Instruktion nicht für überflüssig."
+    },
+    {
+      "titel": "Leistungsfeststellung und -messung",
+      "folien": "22",
+      "beispiel": "Lenas Diktat hat 12 Fehler. Individuelle Bezugsnorm: Im letzten Diktat waren es 25 – großer Fortschritt. Soziale Bezugsnorm: Die Klasse hat im Schnitt 6 Fehler – unterdurchschnittlich. Kriterienorientierte Bezugsnorm: Bis 10 Fehler gilt das Lernziel als erreicht – knapp verfehlt (selbst erarbeitet).",
+      "text": "**Folie 22 – Leistungsfeststellung** (Stein 2017, S. 113f.):\n- **Funktion der Leistungsfeststellung:**\n  - eine **gesellschaftliche Funktion der Selektion und Platzierung** von Personen im gesellschaftlichen Gefüge nach ihren Kompetenzen\n  - **pädagogische, informatorische Funktion**, nämlich Rückmeldung über den Lernfortschritt zu bieten\n- **Arten der Leistungsfeststellung:**\n  - schriftlich (Klausuren, Tests …)\n  - mündlich („Abfragen“, Unterrichtsbeiträge …)\n  - **Wichtig: dynamische Betrachtung des Lernfortschritts**\n- **individuelle Bezugsnorm, soziale Bezugsnorm oder kriterienorientierte Bezugsnorm**\n- **Probleme bei der Leistungsbewertung:** soziale Stereotypien, Vorurteile, Sympathien, aber auch Reihungseffekte\n\n**Aus dem Video** [49:07]–[52:41]:\n- Alle didaktischen Modelle – auch Klafki – sehen eine Überprüfung vor; deshalb dieser letzte Punkt [49:07].\n- **Pädagogische Funktion** [49:21]: Rückmeldung an das Individuum („Wo stehst du im Lernprozess?“) – und an die Lehrkraft: Wie erfolgreich war der Prozess, wo muss ich mehr unterstützen? [49:40]\n- **Gesellschaftliche Funktion** [49:52]: auswählen, wer besonders geeignet ist, z. B. für ein Studium, die Zuweisung zu Schulformen (Gymnasium, Oberschule, Integrierte Gesamtschule) [50:29] oder die Vergabe eines Stipendiums [50:42]. Der Dozent ist von der Selektion in verschiedene Schulformen persönlich „gar nicht so überzeugt“; es gebe Kritik und Studien, nach denen das die Unterschiede zwischen Kindern eher verstärkt [50:07].\n- **Arten** [50:53]: schriftlich (Klausuren, Tests, Essays, Hausarbeiten), mündlich (Abfragen, Unterrichtsbeiträge, Prüfungsgespräche). Wichtig ist, nicht nur das Endprodukt zu erheben, sondern auch den tatsächlichen Lernfortschritt [51:07].\n- **Bezugsnormen** [51:28]: *individuell* – wie hat sich diese Person gegenüber ihrem vorherigen Stand verändert? *sozial* – die Lernende wird mit anderen Lernenden verglichen [51:42]. *kriterienorientiert* – ein vorher festgelegtes Leistungsniveau soll erreicht werden; geprüft wird, ob es erreicht wurde.\n- **Probleme** [51:54]: Vorurteile; Sympathie kann dazu führen, dass eine gleich schlechte Leistung bei einer sympathischen Person positiver bewertet wird [52:02]; **Reihungseffekt** [52:14]: Liest man nach einer besonders guten Arbeit eine nicht ganz so gute, sieht man den Unterschied besonders stark und bewertet sie noch schlechter. Fazit: Leistungsfeststellung muss sehr **reflektiert** vorbereitet und durchgeführt werden [52:41].\n\n**Ergänzung aus dem Selbststudium (Stein 2024, S. 128 f.):** Die pädagogische Funktion schließt ein, gegebenenfalls Gegenmaßnahmen einzuleiten, wenn der Lernfortschritt nicht gesichert ist. Dynamische Betrachtung: „Der Weg ist das Ziel“. Bei der sozialen Bezugsnorm wird die Gauß’sche Normalverteilung angesetzt; die Pädagogik kritisiert, dass sie stark von der „Stärke“ der Klasse abhängt, individuelle Fortschritte schlecht dokumentiert und die Schüler*innen in Konkurrenz setzt. In Experimenten wurden attraktive, angepasste, sozial kompetente Kinder aus finanziell gut gestellten Elternhäusern bei gleicher Leistung besser beurteilt; Arbeiten, die nach sehr guten oder ganz zu Beginn korrigiert werden, werden strenger bewertet.\n\n**Kurz erklärt:** Leistungsfeststellung hat zwei Gesichter: Sie **sortiert** (Zeugnis, Schulempfehlung) und sie **informiert** (Feedback für Lernende und Lehrkraft). Die Bezugsnorm entscheidet, *womit* verglichen wird – mit sich selbst, mit den anderen oder mit einem festen Ziel. Für die Motivation schwacher Schüler*innen ist die individuelle Bezugsnorm besonders wichtig, weil sie Fortschritte sichtbar macht (Verbindung zu Fähigkeitsselbstkonzept und Attribuierung auf Anstrengung).\n\n**Prüfungsfalle:** Die gesellschaftliche Funktion heißt **Selektion und Platzierung**, die pädagogische ist zugleich **informatorisch** (Rückmeldung). Der **Reihungseffekt** ist ein Bewertungsfehler durch die *Reihenfolge* beim Korrigieren – kein Effekt der Sitzordnung."
+    },
+    {
+      "titel": "Die drei didaktischen Modelle im Vergleich",
+      "folien": "14–18",
+      "beispiel": "",
+      "text": "**Übersicht** (selbst erarbeitet aus den Folien 14–18, Video und Gudjons/Traub 2016):\n\n| | Kritisch-konstruktive Didaktik | Lehrtheoretische Didaktik | Konstruktivistische Didaktik |\n| --- | --- | --- | --- |\n| **Vertreter** | Wolfgang Klafki | „Hamburger Modell“ (Wolfgang Schulz; laut Gudjons/Traub) | (Gudjons/Traub nennen u. a. Reich, Siebert, Dubs) |\n| **Ziele / Anspruch** | Selbstbestimmung, Mitbestimmung, Solidarität („kritisch“); Handlungspraxis („konstruktiv“) | emanzipatorischer Anspruch; Intentionen: Kompetenz, Autonomie, Solidarität | Lernen ist nicht machbar, bloß anregbar; Selbsttätigkeit |\n| **Planungsinstrument** | Perspektivenschema (Gegenwarts-, Zukunftsbedeutung, Exemplarität, thematische Struktur, Darstellbarkeit, Lehr-Lern-Prozessstruktur, Überprüfbarkeit) | vier didaktische Fragen (Inhalte und Ziele – wer lernt mit wem – Vermittlungsvariablen – Erfolgskontrolle) | Grundsätze für Unterricht (komplexe Probleme, aktives und kollektives Lernen, Fehler, Vorerfahrungen, Gefühle, Prozess-Evaluation) |\n| **Besonderer Akzent** | Begründung des Themas für die Lernenden; Bildung als Zentralkategorie | Sach-, Gefühls- und Sozialerfahrungen; institutionelle und gesellschaftliche Rahmenbedingungen | Ermöglichungsdidaktik statt Belehrungsdidaktik |\n| **Rolle der Lehrkraft** | plant begründet und unterstützt zunehmend selbstständiges Lernen | plant im Dialog mit den Lernenden unter gegebenen Bedingungen | gestaltet anregende Lernumgebungen, begleitet |\n\n**Kurz erklärt:** Alle drei Modelle helfen beim **Planen und Analysieren** von Unterricht und haben einen emanzipatorischen Kern. Klafki fragt vor allem *warum dieses Thema*, das Hamburger Modell *unter welchen Bedingungen*, die konstruktivistische Didaktik *wie Lernende selbst aktiv werden können*. Der wissensbasierte Konstruktivismus (Folie 20) verbindet die Sicht der Lernenden mit der Notwendigkeit von Anleitung.\n\n**So erkennst du es in der Klausur:** Gegenwartsbedeutung, Exemplarität, Eintagsfliege → **Klafki**. Kompetenz – Autonomie – Solidarität, Vermittlungsvariablen, institutionelle Bedingungen → **Hamburger Modell**. „nicht machbar, bloß anregbar“, Selbsttätigkeit, Fehler bedeutsam → **konstruktivistische Didaktik**."
+    },
+    {
+      "titel": "Selbststudium und Literatur",
+      "folien": "23–25",
+      "beispiel": "",
+      "text": "**Folie 23 – Selbststudium:**\n- Stein, Margit (2024): Kapitel 5: Lernen. In: dies, Allgemeine Pädagogik. 4., überarbeitete Auflage. München: Ernst Reinhardt Verlag, **S. 120–131** – das ganze Kapitel (S. 104–131) liegt als `04_Stein2024_Lernen.pdf` in `ewb001.2/Sitzung_04`.\n- Gudjons, Herbert & Traub, Silke (2016): Kapitel 9: Didaktik. In: dies.: Pädagogisches Grundwissen. Bad Heilbrunn: Verlag Julius Klinkhardt, **S. 239–270** – liegt in `ewb001.2/Sitzung_05`.\n\nLaut Video [52:45] können alle Themen durch Vor- und Zurückspulen, die zwei Texte, im **Tutorium** und über Fragen im Chat vertieft werden. Beide Texte sind in der **Hausaufgabe h01 aus S04** ausgearbeitet.\n\n**Folie 25 – Literatur:** Düx/Sass (2005), Gudjons/Traub (2016), Overwien (2005), Schugurensky (2000), Stein (2017).\n\n> **Hinweis:** Die Inhaltsfolien zitieren Stein **2017** (3. Aufl.), die Selbststudiums-Folie Stein **2024** (4. Aufl.). Seitenzuordnung: hemmende Lernfaktoren 2017 S. 106 → 2024 S. 121 (Tab. 17); Personenfaktoren S. 107 → S. 122 (Tab. 18); Attribuierung S. 108 → S. 123 (Tab. 20); Motivation S. 109 f. → S. 124 f.; Didaktik S. 110 f. → S. 126; Perspektivenschema und Unterrichtsformen S. 112 → S. 127 (Abb. 12, Tab. 21); Leistungsfeststellung S. 113 f. → S. 128 f."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Formale Bildung",
+      "wortlaut": "Lernort: in einer formalen Bildungs- oder Ausbildungseinrichtung (Kindergarten, Schule, Hochschule) · Institutionalisierungsgrad: stark institutionalisiert · Zertifizierung: zertifiziert · Zielgerichtetheit: zielgerichtet",
+      "erklaerung": "Lernen in Kita, Schule und Hochschule nach staatlich vorgegebenen Curricula bzw. Bildungsplänen, mit Abschlusszeugnis oder Zertifikat.",
+      "folie": "3"
+    },
+    {
+      "begriff": "Non-formale Bildung",
+      "wortlaut": "Lernort: alle organisierten Bildungsprogramme außerhalb des formalen Bildungssystems (z.B. VHS) · Institutionalisierungsgrad: institutionalisiert · Zertifizierung: meist zertifiziert · Zielgerichtetheit: zielgerichtet",
+      "erklaerung": "Organisierte Bildungsangebote außerhalb des Schulsystems, z. B. Volkshochschul- oder Erwachsenenbildungskurse – ohne staatlich vorgegebenes Curriculum, oft mit Teilnahmenachweis (Video [01:41]–[02:15]).",
+      "folie": "3"
+    },
+    {
+      "begriff": "Informelles Lernen",
+      "wortlaut": "Lernort: außerhalb der Curricula formaler und non-formaler Bildungsinstitutionen und Programme; im Alltag (Arbeitsplatz, Familie, Freizeit) · Institutionalisierungsgrad: nicht institutionalisiert · Zertifizierung: nicht zertifiziert · Zielgerichtetheit: zielgerichtet oder beiläufig / implizit",
+      "erklaerung": "Lernen im Alltag, bei dem das Lernen oft gar nicht im Vordergrund steht (soziale Medien, Film, Gespräche mit Familie und Peergroup); laut Video ca. 80 % aller Lernprozesse im Leben.",
+      "folie": "3"
+    },
+    {
+      "begriff": "Lernen in informellen Kontexten bzw. Settings",
+      "wortlaut": "Es ist sinnvoll, anstatt von informellem Lernen eher von Lernen in informellen Kontexten bzw. Settings zu sprechen, weil auch in formalisierten Kontexten beiläufig gelernt wird.",
+      "erklaerung": "Auch an formalen Lernorten wie der Schule gibt es informelle (Sub-)Kontexte – Pausengespräche, Peer-Beziehungen, heimlicher Lehrplan –, in denen beiläufig gelernt wird (Düx/Sass 2005).",
+      "folie": "4"
+    },
+    {
+      "begriff": "Lernstrategien",
+      "wortlaut": "Lernstrategien (Strukturierung und Speicherung von Wissen) · Reduzierung oder die Organisation des Lernstoffes · Elaboration (Zusammenhang des Lernstoffs mit bestehendem Wissen herstellen)",
+      "erklaerung": "Wege, den Stoff gezielt zu verarbeiten: ihn in Teile zerlegen bzw. ordnen (z. B. Mindmap) oder mit Vorwissen verknüpfen; Grundlage sind Kognitivismus und Konstruktivismus.",
+      "folie": "5"
+    },
+    {
+      "begriff": "Elaboration",
+      "wortlaut": "Elaboration (Zusammenhang des Lernstoffs mit bestehendem Wissen herstellen)",
+      "erklaerung": "Neues wird an bereits Bekanntes geknüpft, z. B. mit der Loci-Methode (Verknüpfung mit Orten) oder mit Eselsbrücken (Video [07:37]–[08:17]).",
+      "folie": "5"
+    },
+    {
+      "begriff": "Lernplanung",
+      "wortlaut": "Lernplanung (Gestaltung von Arbeitsplatz und das Zeitmanagement sowie metakognitives Wissen über den individuellen Lerntyp und hemmende Lernfaktoren)",
+      "erklaerung": "Der Rahmen des Lernens: wo, wann und wie ich lerne; metakognitives Wissen ist laut Stein (2024, S. 120) Wissen über das Wissen und den Wissenserwerb.",
+      "folie": "5"
+    },
+    {
+      "begriff": "Proaktive Hemmung",
+      "wortlaut": "Proaktive Hemmung: vorher gelerntes Wissen beeinträchtigt nachfolgend gelerntes Wissen, Pausen zur Wissenskonsolidierung unerlässlich",
+      "erklaerung": "Altes, noch nicht verarbeitetes Wissen stört das Neue – z. B. direkt nach einer Lerntheorie mit der nächsten beginnen; deshalb Pausen einlegen.",
+      "folie": "6"
+    },
+    {
+      "begriff": "Retroaktive Hemmung",
+      "wortlaut": "Retroaktive Hemmung: neu gelerntes Wissen hemmt den Abruf früher gelernten Wissens",
+      "erklaerung": "Neues überlagert Altes – z. B. nach dem Spanischlernen fallen einem beim Französisch nur spanische Vokabeln ein.",
+      "folie": "6"
+    },
+    {
+      "begriff": "Gleichzeitigkeitshemmung",
+      "wortlaut": "Gleichzeitigkeitshemmung: gleichzeitig aufgenommene Informationen blockieren sich beim Abruf",
+      "erklaerung": "Wer in der Vorlesung nebenbei Nachrichten liest, kann danach oft beides nicht wiedergeben.",
+      "folie": "6"
+    },
+    {
+      "begriff": "Ähnlichkeitshemmung",
+      "wortlaut": "Ähnlichkeitshemmung: ähnliche Informationen werden beim Abruf miteinander verwechselt",
+      "erklaerung": "Z. B. zwei ähnlich klingende Vokabeln werden verwechselt.",
+      "folie": "6"
+    },
+    {
+      "begriff": "Erinnerungshemmung",
+      "wortlaut": "Erinnerungshemmung: ein jetzt ins Kurzzeitgedächtnis getretener Stoff hemmt den Abruf von Wissen",
+      "erklaerung": "Was man gerade eben aufgenommen hat, blockiert den Zugriff auf anderes Wissen – z. B. kurz vor der Arbeit noch schnell den letzten Hefteintrag lesen (Stein 2024, Tab. 17).",
+      "folie": "6"
+    },
+    {
+      "begriff": "Affektive Hemmung",
+      "wortlaut": "Affektive Hemmung: emotional erregende Zustände hemmen Speicherung und Abruf von Wissen",
+      "erklaerung": "Starke Gefühle wie Freude, Wut oder Trauer stören das Speichern und Abrufen.",
+      "folie": "6"
+    },
+    {
+      "begriff": "Personenfaktoren, die Lernen beeinträchtigen können",
+      "wortlaut": "„Unveränderliche“ Personenfaktoren – Organische Störungen: Legasthenie / Lese-Rechtschreibschwäche, Aufmerksamkeits-Defizit-Hyperaktivitätssyndrom, Lerndefizite durch Hirnschädigungen, Sprachstörungen etc. · Variable, „veränderliche“ Personenfaktoren – Motivationale und emotionale Probleme: Mangelnde intrinsische Motivation, Lern- und Prüfungsängste, Externe Attribuierungsstile, Geringes Fähigkeitsselbstkonzept etc.",
+      "erklaerung": "Alle Faktoren liegen in der Person; die variablen sind kurzfristig veränderbar und pädagogisch gut zu bearbeiten, die „unveränderlichen“ allenfalls längerfristig (z. B. medizinisch).",
+      "folie": "7"
+    },
+    {
+      "begriff": "Fähigkeitsselbstkonzept",
+      "wortlaut": "Fähigkeitsselbstkonzept: Einschätzung der eigenen Fähigkeiten",
+      "erklaerung": "Wie gut man sich selbst in einem Bereich einschätzt; es steht in Wechselwirkung mit den Leistungen – ein hohes Fähigkeitsselbstkonzept erleichtert Lernen und kann bessere Leistungen bewirken.",
+      "folie": "8"
+    },
+    {
+      "begriff": "Attribuierungsstile",
+      "wortlaut": "Attribuierungsstile: Ursachenzuschreibung bei der Leistungsattribution",
+      "erklaerung": "Worauf man Erfolg oder Misserfolg zurückführt – nach den Dimensionen intern/extern und stabil/variabel: Begabung, Anstrengung, Aufgabenschwierigkeit, Zufall (Folie 9).",
+      "folie": "8–9"
+    },
+    {
+      "begriff": "Intrinsische Motivation",
+      "wortlaut": "Intrinsische Motivation: innere Anreize, z.B. eigenes Interesse",
+      "erklaerung": "Man handelt, weil die Sache selbst als lohnend erlebt wird; nur sie sichert langfristigen Lernerfolg und Lernfreude.",
+      "folie": "10"
+    },
+    {
+      "begriff": "Extrinsische Motivation",
+      "wortlaut": "Extrinsische Motivation: äußere Anreize, z.B. Belohnungen",
+      "erklaerung": "Man handelt wegen äußerer Folgen (Belohnung, Note, Vermeidung von Ärger); fällt die Verstärkung weg, wird das Verhalten nicht mehr gezeigt.",
+      "folie": "10"
+    },
+    {
+      "begriff": "Korrumpierungseffekt",
+      "wortlaut": "Korrumpierungseffekt: Abschwächung einer intrinsischen Motivation durch extrinsische Anreize",
+      "erklaerung": "Äußerer Druck oder Belohnungen können vorhandenes eigenes Interesse verdrängen – z. B. „Wir lernen das, damit ihr in der Klausur erfolgreich seid“ (Video [23:37]).",
+      "folie": "10"
+    },
+    {
+      "begriff": "Aufgeregtheitskomponente",
+      "wortlaut": "Aufgeregtheitskomponente / „Lampenfieber“",
+      "erklaerung": "Die körperliche Aufregung vor Prüfungen; laut Dozent zunächst positiv, weil sie zu Vorbereitung und Konzentration beiträgt.",
+      "folie": "11"
+    },
+    {
+      "begriff": "Sorgenkomponente",
+      "wortlaut": "Sorgenkomponente: sorgenvolle Gedanken, Selbstzweifel, Selbstabwertungen und Gedanken an die negativen Konsequenzen von Leistungsversagen > Vermeidungsreaktionen",
+      "erklaerung": "Der gedankliche Teil der Prüfungsangst; er blockiert Lernen und Abruf und kann zu Vermeidungsreaktionen führen (z. B. krankmelden, Bauchschmerzen).",
+      "folie": "11"
+    },
+    {
+      "begriff": "Didaktik",
+      "wortlaut": "Didaktik: Lehre vom Lehren und Lernen · wissenschaftliche Reflexion von organisierten Lehr- und Lernprozessen · Verbesserung von Lehr- und Lernprozessen in der Praxis",
+      "erklaerung": "Wissenschaft davon, wie Lehren und Lernen gestaltet werden können; die allgemeine Didaktik ist fach- und schulübergreifend, Fachdidaktiken beziehen sich auf ein Fach.",
+      "folie": "12"
+    },
+    {
+      "begriff": "Acht Grundfragen der Didaktik",
+      "wortlaut": "1. Was? Welche Inhalte sollen erarbeitet werden? 2. Wie? Mit welchen Methoden soll die Auseinandersetzung mit den Inhalten erfolgen? 3. Wozu? Welche Ziele verfolge ich dabei? 4. Warum? Welche Begründungen sind für meine Planungen und Vorhaben maßgeblich? 5. Wem? Wer sind meine Adressat*innen? 6. Wo? In welcher Umgebung finden die Lehr- und Lernprozesse statt? 7. Wann? Zu welcher Tages- oder Jahreszeit findet die Arbeit statt? 8. Wer? Welche Rollen nehmen die Akteur*innen in den Lehr- und Lernprozessen ein?",
+      "erklaerung": "Checkliste für die Planung jedes Lehr-Lern-Prozesses; Wozu = Ziele, Warum = Begründungen, Wem = Adressat*innen, Wer = Rollen.",
+      "folie": "12"
+    },
+    {
+      "begriff": "Didaktische Ebenen",
+      "wortlaut": "die intrapersonale Ebene (Beachtung der Lerngeschichte des Individuums und seines entwicklungspsychologischen Stands) · die mikrosoziale Ebene (Beleuchtung der Interaktionsstrukturen und der Beziehungen in sozialen Gruppen wie Familien und Schulklassen) · die institutionelle Ebene (Bildungseinrichtungen, wie Schulen oder etwa Volkshochschulen) · die makrosoziale Ebene (gesellschaftliche Dimensionen von Bildung)",
+      "erklaerung": "Vier Ebenen, die bei didaktischen Überlegungen einzubeziehen sind – vom einzelnen Lernenden über Gruppe und Einrichtung bis zur Gesellschaft.",
+      "folie": "13"
+    },
+    {
+      "begriff": "Kritisch-konstruktive Didaktik (Klafki)",
+      "wortlaut": "Die kritisch-konstruktive Didaktik (Klafki)",
+      "erklaerung": "„Kritisch“, weil Selbstbestimmung, Mitbestimmung und Solidarität der Lernenden gefördert werden sollen; „konstruktiv“, weil sich aus den Lernprozessen eine Handlungspraxis ergeben soll (Video [33:24]–[34:12]; Gudjons/Traub 2016, S. 243).",
+      "folie": "14"
+    },
+    {
+      "begriff": "Perspektivenschema zur Gestaltung von Lehr-Lern-Prozessen (Klafki)",
+      "wortlaut": "Gegenwartsbedeutung: Ist das Thema für die Lebenswelt wichtig? · Zukunftsbedeutung: Ist das Thema nicht nur Eintagsfliege? · Exemplarität: Stellt das Thema ein gutes Beispiel für dieses Problem dar? · Thematische Struktur: Welche Lernziele sind aufzustellen? · Darstellbarkeit: Welche Unterrichtsformen und Methoden nutze ich? · Lehr-Lern-Prozessstruktur: Welche Lernhilfen etc. nutze ich? · Überprüfbarkeit: Ist das Thema bei den Adressat/innen gut vermittelt worden?",
+      "erklaerung": "Klafkis Planungsraster: erst das Thema begründen, dann strukturieren und methodisch umsetzen, schließlich überprüfen; die Aspekte hängen wechselseitig zusammen.",
+      "folie": "15"
+    },
+    {
+      "begriff": "Lehrtheoretische Didaktik („Hamburger Modell“)",
+      "wortlaut": "emanzipatorischer Anspruch · Intentionen des Unterrichts: Kompetenz, Autonomie und Solidarität · Sach-, Gefühls- und Sozialerfahrungen · vier didaktische Fragen · institutionelle Bedingungen und gesellschaftliche Rahmenbedingungen",
+      "erklaerung": "Stark schulbezogenes Planungsmodell (Wolfgang Schulz), das besonders die institutionellen und gesellschaftlichen Bedingungen von Unterricht berücksichtigt.",
+      "folie": "16"
+    },
+    {
+      "begriff": "Konstruktivistische Didaktik",
+      "wortlaut": "Lernen ist nicht machbar. Lernen ist bloß anregbar. · Lernen kann nur jeder für sich. Von außen zwar angestoßen, vollzieht jeder seinen Lernprozess für sich selbst. · Nicht Bilder einer Außenwelt werden beim Lernen direkt aufgenommen und verinnerlicht, sondern von außen lösen Reize in Lernenden Energieprozesse aus, durch die subjektives Wissen gestaltet wird und eine eigene Wirklichkeit entsteht. · Lernen findet immer in sozialen Kontexten und durch Interaktionen statt. · Selbsttätigkeit > Ermöglichungsdidaktik statt Belehrungsdidaktik",
+      "erklaerung": "Didaktik, die aus dem Konstruktivismus folgert: Lehrende können Lernen nur anregen und Lernumgebungen gestalten; zentral sind Selbsttätigkeit, Interaktion, Fehler und Anknüpfung an Vorerfahrungen.",
+      "folie": "17–18"
+    },
+    {
+      "begriff": "Wissensbasierter Konstruktivismus",
+      "wortlaut": "Aufhebung des Widerspruchs zwischen Instruktion und Konstruktion · Jede*r braucht ihre*seine eigenen Lernwege. · Der Weg zur Autonomie führt über die Anleitung. · Die Lernmethoden müssen den Fähigkeiten der Schüler*innen angepasst werden",
+      "erklaerung": "Eigene Konstruktion braucht eine ausreichende Wissensbasis, für die Anleitung (Instruktion) nötig ist – deshalb Balance aus Frontalphasen und eigenständigem Lernen.",
+      "folie": "20"
+    },
+    {
+      "begriff": "Funktionen der Leistungsfeststellung",
+      "wortlaut": "eine gesellschaftliche Funktion der Selektion und Platzierung von Personen im gesellschaftlichen Gefüge nach ihren Kompetenzen · pädagogische, informatorische Funktion, nämlich Rückmeldung über den Lernfortschritt zu bieten",
+      "erklaerung": "Leistungsfeststellung sortiert (z. B. Schulformempfehlung, Studienzulassung, Stipendium) und gibt Rückmeldung an Lernende und Lehrkraft.",
+      "folie": "22"
+    },
+    {
+      "begriff": "Bezugsnormen",
+      "wortlaut": "individuelle Bezugsnorm, soziale Bezugsnorm oder kriterienorientierte Bezugsnorm",
+      "erklaerung": "Maßstab der Bewertung: individuell = Vergleich mit dem eigenen früheren Stand; sozial = Vergleich mit anderen Lernenden; kriterienorientiert = Vergleich mit einem vorher festgelegten Leistungsniveau (Video [51:28]–[51:54]).",
+      "folie": "22"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "Wie kann man mit den hemmenden Lernfaktoren umgehen? „An anderen Stellen können Sie möglicherweise auch selber nochmal darüber nachdenken, welche Ideen Sie haben.“ (Anregung des Dozenten im Video [14:01] zu Folie 6)",
+      "quelle": "Folie 6; Video [10:56], [14:01]–[14:34]; Lösung teils vom Dozenten, teils selbst erarbeitet mit Stein 2024, S. 121",
+      "loesung": "| Hemmender Lernfaktor | Was hilft? |\n| --- | --- |\n| Proaktive Hemmung | **Pausen zur Wissenskonsolidierung** (steht auf der Folie): Video stoppen, z. B. eine halbe Stunde Pause, über das Gelernte nachdenken, Beispiele überlegen – erst dann weiter (Dozent [10:56]). |\n| Retroaktive Hemmung | *selbst erarbeitet:* Altes Wissen regelmäßig wiederholen; Neues bewusst vom Alten abgrenzen (z. B. Vokabeln beider Sprachen getrennt lernen und Unterschiede markieren). |\n| Gleichzeitigkeitshemmung | *selbst erarbeitet nach dem Beispiel des Dozenten:* nur eine Sache auf einmal – Handy weg in der Vorlesung, beim Lernen nicht fernsehen. |\n| Ähnlichkeitshemmung | *selbst erarbeitet:* Ähnliches nicht direkt hintereinander lernen; Unterschiede ausdrücklich herausarbeiten (z. B. Tabelle „proaktiv vs. retroaktiv“). |\n| Erinnerungshemmung | *selbst erarbeitet nach Stein 2024 (Tab. 17):* nicht kurz vor der Prüfung noch neuen Stoff „reinschieben“; die letzte Zeit vor der Prüfung ruhig angehen. |\n| Affektive Hemmung | *selbst erarbeitet:* in emotional aufgewühlten Phasen nicht das Wichtigste lernen; erst zur Ruhe kommen (vgl. Folie 11: positives Lernumfeld, Beratung). |\n\nAllgemein (Stein 2024, S. 121): kurze Pausen nach einer Stunde, lange Erholungspausen nach ca. zwei Lernstunden; freundliche, motivierende, wenig ablenkende Arbeitsumgebung. Entscheidend laut Dozent [14:21]: wissen, **welche** Hemmungen bei einem selbst besonders häufig auftreten, und das in der **Lernplanung** berücksichtigen.",
+      "loesungsweg": "Für jeden Faktor fragen: Was genau stört hier – zu wenig Zeit zur Verarbeitung, Überlagerung, Gleichzeitigkeit, Verwechslung, frischer Stoff oder Gefühle? Dann eine Gegenmaßnahme ableiten; die Lernplanung (Arbeitsplatz, Zeitmanagement, metakognitives Wissen) liefert den Rahmen.",
+      "frist": "",
+      "im_kalender": false,
+      "folie": "6"
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "Welcher Attribuierungsstil ist aus pädagogischer Sicht am vorteilhaftesten und deshalb zu fördern? („Und Sie werden vielleicht schon erahnen, dass …“ – Frage des Dozenten im Video [20:15] zu Folie 9)",
+      "quelle": "Folie 9; Video [20:15]–[21:11]",
+      "loesung": "Am vorteilhaftesten ist die Attribuierung auf **Anstrengung** (intern und variabel, in der Tabelle oben rechts): „Ich hatte Erfolg, weil ich mich angestrengt habe.“ / „Ich bin gescheitert, weil ich zu wenig getan habe.“\n\n**Begründung (Dozent):** Die anderen Stile – **Begabung, Aufgabenschwierigkeit, Zufall** – sind problematisch, weil sie dazu führen, dass Lernende gar nicht erst anfangen, sich anzustrengen: „Ich bin halt eh dumm“, „die Aufgaben sind immer zu schwer für mich“, „mal Glück, mal Pech“ [20:25]–[20:46]. Zu fördern ist, dass Lernende für sich erkennen: Durch eigene Anstrengung sind Erfolge möglich – bei den einen schneller, bei den anderen langsamer [20:54]–[21:11].",
+      "loesungsweg": "Die vier Felder nach den zwei Dimensionen prüfen: Nur bei **intern** liegt die Ursache bei mir, nur bei **variabel** kann ich sie ändern. Beides zusammen trifft nur auf die Anstrengung zu – sie gibt Handlungsspielraum.",
+      "frist": "",
+      "im_kalender": false,
+      "folie": "9"
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "text": "Klären Sie für sich: „Da gibt es zwar eine Klausur, und für die lerne ich … Aber was habe ich denn eigentlich auch davon? Was kann mir das bringen? Wie kann mich das weiterbringen?“ (Anregung des Dozenten im Video [23:00]–[23:28] zu Folie 10)",
+      "quelle": "Folie 10; Video [23:00]–[23:37]; Lösung selbst erarbeitet (persönliches Beispiel)",
+      "loesung": "*Persönliche Antwort – Beispiel, selbst erarbeitet:*\n\n**Extrinsisch:** Ich lerne für die Klausur ewb001 am 02.02.2027.\n\n**Was bringt mir der Stoff darüber hinaus?**\n- Als künftige Lehrkraft für Mathematik und Politik kann ich mit den **Attribuierungsstilen** Schüler*innen, die sagen „Ich bin einfach zu dumm für Mathe“, gezielt zurückmelden, dass Übung und Anstrengung etwas bewirken.\n- Mit dem **Perspektivenschema nach Klafki** und den **acht Grundfragen** kann ich Unterrichtsstunden begründet planen – das brauche ich im Praktikum.\n- Die **hemmenden Lernfaktoren** und die **Lernplanung** helfen mir schon jetzt beim eigenen Lernen (Pausen, ein Thema nach dem anderen, Handy weg).\n- Die **Bezugsnormen** helfen mir später, gerecht zu bewerten und Fortschritte sichtbar zu machen.\n\n**Fazit:** Wer so einen eigenen Bezug zum Stoff herstellt, stärkt die **intrinsische** Motivation – laut Dozent funktioniert Lernen dann viel besser, als wenn man nur für die Klausur lernt [23:18].",
+      "loesungsweg": "Erst die extrinsische Motivation benennen (Klausur), dann für jedes Thema der Sitzung eine konkrete Anwendung im eigenen Studium oder im späteren Beruf suchen.",
+      "frist": "",
+      "im_kalender": false,
+      "folie": "10"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter formaler Bildung? Nenne die vier Merkmale der Folie.",
+      "antwort": "Formale Bildung findet in einer formalen Bildungs- oder Ausbildungseinrichtung statt (Kindergarten, Schule, Hochschule). Sie ist stark institutionalisiert, zertifiziert und zielgerichtet.",
+      "erklaerung": "Folie 3; Video [01:17].",
+      "folie": "3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter non-formaler Bildung? Nenne die vier Merkmale der Folie.",
+      "antwort": "Non-formale Bildung umfasst alle organisierten Bildungsprogramme außerhalb des formalen Bildungssystems (z. B. VHS). Sie ist institutionalisiert, meist zertifiziert und zielgerichtet. Laut Video gibt es dort kein staatlich vorgegebenes Curriculum; häufig erhält man einen Teilnahmenachweis.",
+      "erklaerung": "Folie 3; Video [01:41]–[02:15]. Unterschied zur formalen Bildung: nur „institutionalisiert“ statt „stark institutionalisiert“, „meist zertifiziert“ statt „zertifiziert“, kein staatliches Curriculum.",
+      "folie": "3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter informellem Lernen? Nenne die vier Merkmale der Folie.",
+      "antwort": "Informelles Lernen findet außerhalb der Curricula formaler und non-formaler Bildungsinstitutionen und Programme statt, im Alltag (Arbeitsplatz, Familie, Freizeit). Es ist nicht institutionalisiert, nicht zertifiziert und zielgerichtet oder beiläufig / implizit. Laut Video finden ca. 80 % der Lernprozesse im Leben informell statt.",
+      "erklaerung": "Folie 3; Video [02:28]–[03:23].",
+      "folie": "3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Merkmale der passenden Form zu.",
+      "kategorien": [
+        "formale Bildung",
+        "non-formale Bildung",
+        "informelles Lernen"
+      ],
+      "elemente": [
+        {
+          "text": "in einer formalen Bildungs- oder Ausbildungseinrichtung (Kindergarten, Schule, Hochschule)",
+          "kategorie": "formale Bildung"
+        },
+        {
+          "text": "stark institutionalisiert",
+          "kategorie": "formale Bildung"
+        },
+        {
+          "text": "zertifiziert",
+          "kategorie": "formale Bildung"
+        },
+        {
+          "text": "alle organisierten Bildungsprogramme außerhalb des formalen Bildungssystems (z.B. VHS)",
+          "kategorie": "non-formale Bildung"
+        },
+        {
+          "text": "institutionalisiert",
+          "kategorie": "non-formale Bildung"
+        },
+        {
+          "text": "meist zertifiziert",
+          "kategorie": "non-formale Bildung"
+        },
+        {
+          "text": "im Alltag (Arbeitsplatz, Familie, Freizeit)",
+          "kategorie": "informelles Lernen"
+        },
+        {
+          "text": "nicht institutionalisiert",
+          "kategorie": "informelles Lernen"
+        },
+        {
+          "text": "zielgerichtet oder beiläufig / implizit",
+          "kategorie": "informelles Lernen"
+        }
+      ],
+      "erklaerung": "Folie 3. „Zielgerichtet“ allein trifft auf formale und non-formale Bildung zu und ist deshalb nicht aufgeführt.",
+      "folie": "3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Lernsituationen zu.",
+      "kategorien": [
+        "formale Bildung",
+        "non-formale Bildung",
+        "informelles Lernen"
+      ],
+      "elemente": [
+        {
+          "text": "Mathematikunterricht in der 7. Klasse nach Kerncurriculum",
+          "kategorie": "formale Bildung"
+        },
+        {
+          "text": "Studium an der Universität Vechta",
+          "kategorie": "formale Bildung"
+        },
+        {
+          "text": "Computerkurs an der Volkshochschule mit Teilnahmenachweis",
+          "kategorie": "non-formale Bildung"
+        },
+        {
+          "text": "Ein Kind lernt beim Backen mit der Oma, Mengen abzuschätzen.",
+          "kategorie": "informelles Lernen"
+        },
+        {
+          "text": "Jemand schaut einen Spielfilm und erfährt dabei nebenbei etwas über ein fremdes Land.",
+          "kategorie": "informelles Lernen"
+        }
+      ],
+      "erklaerung": "Folie 3; Beispiele aus dem Video [01:17]–[03:05] und selbst erarbeitet.",
+      "folie": "3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht man unter „Lernen in informellen Kontexten bzw. Settings“, und warum spricht man besser so als von „informellem Lernen“?",
+      "antwort": "Laut Folie ist es sinnvoll, anstatt von informellem Lernen eher von Lernen in informellen Kontexten bzw. Settings zu sprechen, weil auch in formalisierten Kontexten beiläufig gelernt wird. Auch die Schule ist kein rein formaler Lernort: Es gibt informelle (Sub-)Kontexte wie Pausengespräche und Peer-Beziehungen (Düx/Sass 2005), dazu den heimlichen Lehrplan, Nachahmungs- und Modelllernen und Sozialisationsprozesse.",
+      "erklaerung": "Folie 4; Video [03:38]–[04:49].",
+      "folie": "4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Es ist sinnvoll, anstatt von informellem Lernen eher von Lernen in [[informellen Kontexten]] bzw. Settings zu sprechen, weil auch in [[formalisierten]] Kontexten [[beiläufig]] gelernt wird.",
+      "erklaerung": "Folie 4.",
+      "folie": "4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen treffen laut Folien und Video zu?",
+      "optionen": [
+        "Laut Video finden über das ganze Leben betrachtet ca. 80 Prozent der Lernprozesse informell statt.",
+        "Informelles Lernen ist immer beiläufig und nie zielgerichtet.",
+        "In der Schule gibt es informelle (Sub-)Kontexte wie Pausengespräche und Peer-Beziehungen, in denen Lernerfahrungen gemacht werden.",
+        "Weil so viel informell gelernt wird, sind Schule und Hochschule laut Dozent eher unbedeutend.",
+        "Informelle Lernprozesse in formalen Kontexten können Bildungsprozesse unterstützen, aber auch konterkarieren."
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Richtig sind 1, 3 und 5 (Video [03:14], Folie 4, Video [05:35]–[05:57]). Falsch: Informelles Lernen ist laut Folie „zielgerichtet oder beiläufig / implizit“; und der Dozent betont, dass die 80 % Schule, Kindergarten und Hochschule nicht unbedeutend machen [03:23].",
+      "folie": "3–4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter Lernstrategien, und welche zwei Formen nennt die Folie?",
+      "antwort": "Lernstrategien betreffen die Strukturierung und Speicherung von Wissen. Die Folie nennt (1) die Reduzierung oder die Organisation des Lernstoffes (z. B. ein Thema in Teile zerlegen, Mindmaps) und (2) die Elaboration (Zusammenhang des Lernstoffs mit bestehendem Wissen herstellen).",
+      "erklaerung": "Folie 5; Video [06:32]–[08:17].",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter Elaboration? Nenne ein Beispiel.",
+      "antwort": "Elaboration heißt, einen Zusammenhang des Lernstoffs mit bestehendem Wissen herzustellen. Beispiele: die Loci-Methode (neues Wissen mit einem bestimmten Ort verknüpfen, z. B. mit Orten auf dem Weg zur Uni), Eselsbrücken oder Anwendungsbeispiele aus dem Alltag suchen.",
+      "erklaerung": "Folie 5; Video [07:37]–[08:17]; Stein 2024, S. 120.",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was umfasst laut Folie die Lernplanung?",
+      "antwort": "Lernplanung umfasst die Gestaltung von Arbeitsplatz und das Zeitmanagement sowie metakognitives Wissen über den individuellen Lerntyp und hemmende Lernfaktoren.",
+      "erklaerung": "Folie 5; Video [08:29]–[10:08].",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Lernplanung (Gestaltung von [[Arbeitsplatz]] und das [[Zeitmanagement]] sowie [[metakognitives]] Wissen über den individuellen [[Lerntyp]] und hemmende Lernfaktoren)",
+      "erklaerung": "Folie 5.",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Beispiele zu.",
+      "kategorien": [
+        "Lernstrategie: Reduzierung oder Organisation des Lernstoffes",
+        "Lernstrategie: Elaboration",
+        "Lernplanung"
+      ],
+      "elemente": [
+        {
+          "text": "Ein Schüler setzt ein Geschichtskapitel in eine Mindmap um.",
+          "kategorie": "Lernstrategie: Reduzierung oder Organisation des Lernstoffes"
+        },
+        {
+          "text": "Man schreibt die wichtigsten Stichworte aus einem Text heraus.",
+          "kategorie": "Lernstrategie: Reduzierung oder Organisation des Lernstoffes"
+        },
+        {
+          "text": "Vokabeln werden mit Orten auf dem Weg zur Uni verknüpft (Loci-Methode).",
+          "kategorie": "Lernstrategie: Elaboration"
+        },
+        {
+          "text": "Zu einem neuen Fachbegriff sucht man ein Anwendungsbeispiel aus dem Alltag.",
+          "kategorie": "Lernstrategie: Elaboration"
+        },
+        {
+          "text": "Man sucht sich einen ruhigen Arbeitsplatz, an dem man sich konzentrieren kann.",
+          "kategorie": "Lernplanung"
+        },
+        {
+          "text": "Man überlegt, ob man besser mit Videos oder mit der Erklärung einer Person lernt.",
+          "kategorie": "Lernplanung"
+        }
+      ],
+      "erklaerung": "Folie 5; Video [07:22]–[09:58]; Stein 2024, S. 120 (Mindmap, Stichworte, Anwendungsbeispiele).",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Lernstrategien und Lernplanung treffen zu?",
+      "optionen": [
+        "Sie setzen bei Kognitivismus und Konstruktivismus an, die davon ausgehen, dass Lernprozesse gesteuert werden können.",
+        "Lernstrategien betreffen die Strukturierung und Speicherung von Wissen.",
+        "Die Kenntnis hemmender Lernfaktoren gehört zur Lernplanung.",
+        "Lernplanung und Lernstrategien sind dasselbe.",
+        "Der Dozent empfiehlt, erst eine Woche vor der Klausur mit dem Lernen zu beginnen, damit der Stoff frisch ist."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Richtig sind 1, 2 und 3 (Video [06:11], Folie 5, Video [10:08]). Falsch: Stein (2024, S. 120) unterscheidet Lernplanung ausdrücklich von den Lernstrategien; und der Dozent rät, kontinuierlich statt erst eine Woche vor der Klausur zu lernen [09:00].",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter proaktiver Hemmung, und was hilft dagegen?",
+      "antwort": "Proaktive Hemmung: vorher gelerntes Wissen beeinträchtigt nachfolgend gelerntes Wissen. Pausen zur Wissenskonsolidierung sind unerlässlich – laut Dozent z. B. das Video stoppen, eine Pause machen, nachdenken, Beispiele überlegen und erst dann weitermachen.",
+      "erklaerung": "Folie 6; Video [10:17]–[11:15].",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter retroaktiver Hemmung? Nenne das Beispiel aus dem Video.",
+      "antwort": "Retroaktive Hemmung: neu gelerntes Wissen hemmt den Abruf früher gelernten Wissens. Beispiel: Man lernt neu Spanisch; will man auf das früher gelernte Französisch zugreifen, fallen einem nur die spanischen Vokabeln ein.",
+      "erklaerung": "Folie 6; Video [11:15]–[11:56].",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter Gleichzeitigkeitshemmung?",
+      "antwort": "Gleichzeitig aufgenommene Informationen blockieren sich beim Abruf – z. B. wenn man in der Vorlesung parallel WhatsApp-Nachrichten liest und danach nichts davon wiedergeben kann.",
+      "erklaerung": "Folie 6; Video [11:56]–[12:52].",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter Ähnlichkeitshemmung?",
+      "antwort": "Ähnliche Informationen werden beim Abruf miteinander verwechselt – z. B. zwei sehr ähnlich klingende Vokabeln.",
+      "erklaerung": "Folie 6; Video [12:52]–[13:16].",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter Erinnerungshemmung?",
+      "antwort": "Ein jetzt ins Kurzzeitgedächtnis getretener Stoff hemmt den Abruf von Wissen – z. B. liest ein Schüler kurz vor der Schulaufgabe noch den letzten Hefteintrag und weiß deshalb andere gelernte Inhalte nicht mehr.",
+      "erklaerung": "Folie 6; Video [13:16]; Beispiel Stein 2024, S. 121 (Tab. 17).",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter affektiver Hemmung?",
+      "antwort": "Emotional erregende Zustände (z. B. Freude, Wut, Trauer) hemmen Speicherung und Abruf von Wissen.",
+      "erklaerung": "Folie 6; Video [13:27]–[13:53].",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "text": "Proaktive Hemmung: [[vorher]] gelerntes Wissen beeinträchtigt [[nachfolgend]] gelerntes Wissen, Pausen zur Wissenskonsolidierung unerlässlich. Retroaktive Hemmung: [[neu]] gelerntes Wissen hemmt den Abruf [[früher]] gelernten Wissens.",
+      "erklaerung": "Folie 6. Merkhilfe: pro = nach vorn (Altes stört Neues), retro = zurück (Neues stört Altes).",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f22",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Situationen dem passenden hemmenden Lernfaktor zu.",
+      "kategorien": [
+        "proaktive Hemmung",
+        "retroaktive Hemmung",
+        "Gleichzeitigkeitshemmung",
+        "Ähnlichkeitshemmung",
+        "Erinnerungshemmung",
+        "affektive Hemmung"
+      ],
+      "elemente": [
+        {
+          "text": "Direkt nach der Konditionierung beginnt man mit der nächsten Lerntheorie, obwohl die erste noch nicht verarbeitet ist – die neue bleibt schlecht hängen.",
+          "kategorie": "proaktive Hemmung"
+        },
+        {
+          "text": "Nach dem Spanischlernen fallen einem beim Französischsprechen nur noch spanische Vokabeln ein.",
+          "kategorie": "retroaktive Hemmung"
+        },
+        {
+          "text": "In der Vorlesung liest man nebenbei Nachrichten und kann danach beides nicht wiedergeben.",
+          "kategorie": "Gleichzeitigkeitshemmung"
+        },
+        {
+          "text": "Zwei sehr ähnlich klingende Vokabeln werden verwechselt.",
+          "kategorie": "Ähnlichkeitshemmung"
+        },
+        {
+          "text": "Kurz vor der Klassenarbeit liest ein Schüler noch schnell den letzten Hefteintrag und weiß deshalb andere gelernte Inhalte nicht mehr.",
+          "kategorie": "Erinnerungshemmung"
+        },
+        {
+          "text": "Ein Student wird vor dem Examen von seiner Freundin verlassen und kann den Stoff in der Klausur kaum wiedergeben.",
+          "kategorie": "affektive Hemmung"
+        }
+      ],
+      "erklaerung": "Folie 6; Beispiele aus dem Video [10:41]–[13:42] und Stein 2024, Tab. 17.",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f23",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche zwei Gruppen von Personenfaktoren, die Lernen beeinträchtigen können, unterscheidet die Folie? Nenne je zwei Beispiele.",
+      "antwort": "„Unveränderliche“ Personenfaktoren (organische Störungen), z. B. Legasthenie / Lese-Rechtschreibschwäche, Aufmerksamkeits-Defizit-Hyperaktivitätssyndrom, Lerndefizite durch Hirnschädigungen, Sprachstörungen; und variable, „veränderliche“ Personenfaktoren (motivationale und emotionale Probleme), z. B. mangelnde intrinsische Motivation, Lern- und Prüfungsängste, externe Attribuierungsstile, geringes Fähigkeitsselbstkonzept.",
+      "erklaerung": "Folie 7; Video [14:34]–[16:17].",
+      "folie": "7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f24",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Faktoren zu.",
+      "kategorien": [
+        "„Unveränderliche“ Personenfaktoren (organische Störungen)",
+        "Variable, „veränderliche“ Personenfaktoren (motivationale und emotionale Probleme)"
+      ],
+      "elemente": [
+        {
+          "text": "Legasthenie / Lese-Rechtschreibschwäche",
+          "kategorie": "„Unveränderliche“ Personenfaktoren (organische Störungen)"
+        },
+        {
+          "text": "Aufmerksamkeits-Defizit-Hyperaktivitätssyndrom",
+          "kategorie": "„Unveränderliche“ Personenfaktoren (organische Störungen)"
+        },
+        {
+          "text": "Lerndefizite durch Hirnschädigungen",
+          "kategorie": "„Unveränderliche“ Personenfaktoren (organische Störungen)"
+        },
+        {
+          "text": "Sprachstörungen",
+          "kategorie": "„Unveränderliche“ Personenfaktoren (organische Störungen)"
+        },
+        {
+          "text": "Mangelnde intrinsische Motivation",
+          "kategorie": "Variable, „veränderliche“ Personenfaktoren (motivationale und emotionale Probleme)"
+        },
+        {
+          "text": "Lern- und Prüfungsängste",
+          "kategorie": "Variable, „veränderliche“ Personenfaktoren (motivationale und emotionale Probleme)"
+        },
+        {
+          "text": "Externe Attribuierungsstile",
+          "kategorie": "Variable, „veränderliche“ Personenfaktoren (motivationale und emotionale Probleme)"
+        },
+        {
+          "text": "Geringes Fähigkeitsselbstkonzept",
+          "kategorie": "Variable, „veränderliche“ Personenfaktoren (motivationale und emotionale Probleme)"
+        }
+      ],
+      "erklaerung": "Folie 7 (Stein 2017, S. 107).",
+      "folie": "7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f25",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu den Personenfaktoren treffen zu?",
+      "optionen": [
+        "Alle Faktoren der Folie liegen in der Person.",
+        "„Unveränderlich“ steht in Anführungszeichen, weil manches z. B. medizinisch behandelt werden kann, in der Lehr-Lern-Situation aber nicht kurzfristig beeinflussbar ist.",
+        "Externe Attribuierungsstile sind Umweltfaktoren und gehören deshalb nicht zu den Personenfaktoren.",
+        "Die variablen Faktoren sind pädagogisch gut zu bearbeiten."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Richtig sind 1, 2 und 4 (Video [14:43], [14:56]–[15:48]; Stein 2024, S. 122). Falsch ist 3: Externe Attribuierungsstile stehen auf der Folie bei den variablen **Personen**faktoren – „extern“ ist nur die gesehene Ursache, der Zuschreibungsstil liegt in der Person.",
+      "folie": "7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f26",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter dem Fähigkeitsselbstkonzept, und welche Wechselwirkung betont die Folie?",
+      "antwort": "Das Fähigkeitsselbstkonzept ist die Einschätzung der eigenen Fähigkeiten. Zwischen Leistungen und Selbstkonzept besteht eine Wechselwirkung: Je höher die eigene Einschätzung, desto leichter fällt das Lernen und desto motivierter ist man; Studien zeigen, dass dann auch die Leistungen, z. B. in Prüfungen, besser sein können. Umgekehrt wirken Leistungen auf das Selbstkonzept zurück.",
+      "erklaerung": "Folie 8; Video [16:41]–[18:12].",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f27",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht man unter Attribuierungsstilen, und nach welchen zwei Dimensionen werden sie unterschieden?",
+      "antwort": "Attribuierungsstile sind die Ursachenzuschreibung bei der Leistungsattribution: Worauf führe ich meinen Erfolg oder Misserfolg zurück? Dimensionen: interne Faktoren / Personenfaktoren vs. externe Faktoren / Umweltfaktoren sowie stabile vs. variable Ursachen. Daraus ergeben sich Begabung (intern, stabil), Anstrengung (intern, variabel), Aufgabenschwierigkeit (extern, stabil) und Zufall (extern, variabel).",
+      "erklaerung": "Folien 8–9; Video [18:21]–[20:15].",
+      "folie": "8–9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f28",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Fähigkeitsselbstkonzept: Einschätzung der [[eigenen Fähigkeiten]]. Attribuierungsstile: [[Ursachenzuschreibung]] bei der Leistungsattribution.",
+      "erklaerung": "Folie 8.",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f29",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Aussagen dem Attribuierungsstil zu.",
+      "kategorien": [
+        "Begabung",
+        "Anstrengung",
+        "Aufgabenschwierigkeit",
+        "Zufall"
+      ],
+      "elemente": [
+        {
+          "text": "„Ich hatte Erfolg, weil ich intelligent bin und mir deshalb alles leicht fällt.“",
+          "kategorie": "Begabung"
+        },
+        {
+          "text": "„Ich bin zu dumm dazu; ich werde das nie kapieren.“",
+          "kategorie": "Begabung"
+        },
+        {
+          "text": "„Ich hatte Erfolg, weil ich mich angestrengt habe.“",
+          "kategorie": "Anstrengung"
+        },
+        {
+          "text": "„Ich bin gescheitert, weil ich zu wenig getan habe.“",
+          "kategorie": "Anstrengung"
+        },
+        {
+          "text": "„Ich hatte Erfolg, weil die Aufgabe einfach war.“",
+          "kategorie": "Aufgabenschwierigkeit"
+        },
+        {
+          "text": "„Ich bin gescheitert, weil die Themenstellung zu kompliziert war.“",
+          "kategorie": "Aufgabenschwierigkeit"
+        },
+        {
+          "text": "„Ich hatte Erfolg, weil ich einfach Glück hatte.“",
+          "kategorie": "Zufall"
+        },
+        {
+          "text": "„Ich hatte diesmal Pech mit der Aufgabenstellung.“",
+          "kategorie": "Zufall"
+        }
+      ],
+      "erklaerung": "Folie 9 (Stein 2017, S. 108).",
+      "folie": "9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f30",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne jeden Attribuierungsstil seiner Kombination aus den beiden Dimensionen zu.",
+      "kategorien": [
+        "intern und stabil",
+        "intern und variabel",
+        "extern und stabil",
+        "extern und variabel"
+      ],
+      "elemente": [
+        {
+          "text": "Begabung",
+          "kategorie": "intern und stabil"
+        },
+        {
+          "text": "Anstrengung",
+          "kategorie": "intern und variabel"
+        },
+        {
+          "text": "Aufgabenschwierigkeit",
+          "kategorie": "extern und stabil"
+        },
+        {
+          "text": "Zufall",
+          "kategorie": "extern und variabel"
+        }
+      ],
+      "erklaerung": "Folie 9: Zeilen = interne/externe Faktoren, Spalten = stabile/variable Ursachen.",
+      "folie": "9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f31",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Welcher Attribuierungsstil ist laut Dozent aus pädagogischer Sicht am vorteilhaftesten und deshalb zu fördern?",
+      "optionen": [
+        "Begabung",
+        "Anstrengung",
+        "Aufgabenschwierigkeit",
+        "Zufall"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Video [20:15]–[21:11]: Anstrengung (intern, variabel) ist pädagogisch am vorteilhaftesten, weil die Lernenden darüber selbst Erfolge bewirken können. Begabung, Aufgabenschwierigkeit und Zufall führen eher dazu, dass man sich gar nicht erst anstrengt.",
+      "folie": "9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f32",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum Fähigkeitsselbstkonzept treffen zu?",
+      "optionen": [
+        "Zwischen Leistungen und Fähigkeitsselbstkonzept besteht eine Wechselwirkung.",
+        "Bei einem hohen Fähigkeitsselbstkonzept können laut Studien auch die Leistungen, z. B. in Prüfungen, besser sein.",
+        "Ein Satz wie „Du kannst das eh nicht“ spornt an und stärkt das Fähigkeitsselbstkonzept.",
+        "Das Fähigkeitsselbstkonzept ist angeboren und pädagogisch nicht beeinflussbar."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Richtig sind 1 und 2 (Folie 8; Video [17:21]). Falsch: Der Satz „Du kannst das eh nicht“ zerstört laut Dozent das Fähigkeitsselbstkonzept [17:48]; und eine positive Entwicklung des Fähigkeitsselbstkonzepts soll gefördert werden [17:39] – es ist also beeinflussbar.",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f33",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter intrinsischer Motivation? Nenne ein Beispiel.",
+      "antwort": "Intrinsische Motivation meint innere Anreize, z. B. eigenes Interesse. Beispiel aus dem Video: Ein Kind versteht selbst, warum es andere nicht schlagen soll (weil die anderen es dann auch nicht schlagen), und hat so ein eigenes Interesse an diesem Verhalten.",
+      "erklaerung": "Folie 10; Video [21:31].",
+      "folie": "10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f34",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter extrinsischer Motivation, und was passiert, wenn die Verstärkung wegfällt?",
+      "antwort": "Extrinsische Motivation meint äußere Anreize, z. B. Belohnungen (wie bei der operanten Konditionierung). „Bei Wegfallen der Verstärkung wird das Verhalten nicht mehr ausgeführt, da es in sich nicht als belohnend erlebt wird.“",
+      "erklaerung": "Folie 10; Video [21:39]–[22:28].",
+      "folie": "10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f35",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht man unter dem Korrumpierungseffekt? Nenne das Beispiel des Dozenten.",
+      "antwort": "Korrumpierungseffekt: Abschwächung einer intrinsischen Motivation durch extrinsische Anreize. Beispiel: Eine Lehrerin sagt „Jetzt lernen wir das, damit ihr in der Klausur erfolgreich seid“ – damit kann sie vorhandenes eigenes Interesse an der Sache zerstören oder abschwächen, weil extrinsischer Druck aufgebaut wird.",
+      "erklaerung": "Folie 10; Video [23:37]–[24:17].",
+      "folie": "10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f36",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Korrumpierungseffekt: Abschwächung einer [[intrinsischen]] Motivation durch [[extrinsische]] Anreize",
+      "erklaerung": "Folie 10.",
+      "folie": "10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f37",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen treffen laut Folie und Video zu?",
+      "optionen": [
+        "„Bei Wegfallen der Verstärkung wird das Verhalten nicht mehr ausgeführt, da es in sich nicht als belohnend erlebt wird.“",
+        "„Langfristiger Lernerfolg und Lernfreude wird nur über intrinsische Motivation sichergestellt.“",
+        "Belohnungen sind eine Form der intrinsischen Motivation.",
+        "Der Satz „Jetzt lernen wir das, damit ihr in der Klausur erfolgreich seid“ kann kontraproduktiv sein.",
+        "Extrinsische Anreize verstärken eine vorhandene intrinsische Motivation immer."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Richtig sind 1, 2 und 4 (Folie 10; Video [23:37]). Falsch: Belohnungen sind extrinsisch (äußere Anreize); und der Korrumpierungseffekt zeigt gerade, dass extrinsische Anreize intrinsische Motivation abschwächen können.",
+      "folie": "10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f38",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu: intrinsisch oder extrinsisch motiviert?",
+      "kategorien": [
+        "intrinsische Motivation",
+        "extrinsische Motivation"
+      ],
+      "elemente": [
+        {
+          "text": "Ein Schüler liest die Schullektüre, weil ihn die Handlung interessiert.",
+          "kategorie": "intrinsische Motivation"
+        },
+        {
+          "text": "Ein Kind schlägt andere nicht, weil es selbst verstanden hat, dass die anderen es dann auch nicht schlagen.",
+          "kategorie": "intrinsische Motivation"
+        },
+        {
+          "text": "Eine Studentin beschäftigt sich mit Lerntheorien, weil sie das Thema spannend findet.",
+          "kategorie": "intrinsische Motivation"
+        },
+        {
+          "text": "Ein Schüler liest das Buch nur, weil der Inhalt in der nächsten Schulaufgabe drankommt.",
+          "kategorie": "extrinsische Motivation"
+        },
+        {
+          "text": "Ein Kind bekommt für jede gute Note Geld.",
+          "kategorie": "extrinsische Motivation"
+        },
+        {
+          "text": "Ein Schüler lernt nur, um Ärger mit der Lehrerin zu vermeiden.",
+          "kategorie": "extrinsische Motivation"
+        }
+      ],
+      "erklaerung": "Folie 10; Beispiele aus dem Video [21:52] und Stein 2024, S. 125.",
+      "folie": "10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f39",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter der Aufgeregtheitskomponente, und wie bewertet der Dozent sie?",
+      "antwort": "Die Aufgeregtheitskomponente ist das „Lampenfieber“. Der Dozent sieht sie zunächst positiv: Aufregung führt dazu, dass man sich besser vorbereitet, konzentrierter ist, Müdigkeit überwindet und gut auf Fragen antworten kann.",
+      "erklaerung": "Folie 11; Video [24:17]–[25:20].",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f40",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht man unter der Sorgenkomponente, und wozu kann sie führen?",
+      "antwort": "Die Sorgenkomponente umfasst sorgenvolle Gedanken, Selbstzweifel, Selbstabwertungen und Gedanken an die negativen Konsequenzen von Leistungsversagen. Sie kann zu Vermeidungsreaktionen führen, z. B. sich krankmelden statt zur Prüfung zu gehen – teils unbewusst, indem der Körper z. B. Bauchschmerzen erzeugt.",
+      "erklaerung": "Folie 11; Video [25:20]–[26:09].",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f41",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Sorgenkomponente: sorgenvolle Gedanken, [[Selbstzweifel]], Selbstabwertungen und Gedanken an die [[negativen Konsequenzen]] von Leistungsversagen > [[Vermeidungsreaktionen]]",
+      "erklaerung": "Folie 11.",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f42",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Lern- und Prüfungsängsten treffen zu?",
+      "optionen": [
+        "Lampenfieber kann zunächst positiv sein, weil es zu besserer Vorbereitung und mehr Konzentration führt.",
+        "Vermeidungsreaktionen können auch unbewusst entstehen, z. B. durch Bauchschmerzen.",
+        "Jede Form von Aufregung vor Prüfungen ist schädlich und muss vollständig beseitigt werden.",
+        "Bei sehr starker Angst empfiehlt der Dozent zunächst die Studienberatung, gegebenenfalls auch therapeutische Beratung und Begleitung.",
+        "Vermeidungsreaktionen gehören zur Aufgeregtheitskomponente."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Richtig sind 1, 2 und 4 (Video [24:17]–[26:52]). Falsch: Lampenfieber ist laut Dozent zunächst positiv – Ziel ist, dass sich Angst wieder „auf der Ebene des Lampenfiebers“ bewegt; Vermeidungsreaktionen gehören laut Folie zur Sorgenkomponente.",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f43",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man unter Didaktik? Nenne die drei Bestimmungen der Folie.",
+      "antwort": "Didaktik ist die Lehre vom Lehren und Lernen; sie ist wissenschaftliche Reflexion von organisierten Lehr- und Lernprozessen und zielt auf die Verbesserung von Lehr- und Lernprozessen in der Praxis.",
+      "erklaerung": "Folie 12; Video [27:24]–[27:45].",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f44",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Didaktik: Lehre vom [[Lehren und Lernen]] · wissenschaftliche [[Reflexion]] von organisierten Lehr- und Lernprozessen · [[Verbesserung]] von Lehr- und Lernprozessen in der Praxis",
+      "erklaerung": "Folie 12.",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f45",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Nenne die acht Grundfragen der Didaktik in der Reihenfolge der Folie mit ihren Erläuterungen.",
+      "antwort": "1. Was? Welche Inhalte sollen erarbeitet werden? 2. Wie? Mit welchen Methoden soll die Auseinandersetzung mit den Inhalten erfolgen? 3. Wozu? Welche Ziele verfolge ich dabei? 4. Warum? Welche Begründungen sind für meine Planungen und Vorhaben maßgeblich? 5. Wem? Wer sind meine Adressat*innen? 6. Wo? In welcher Umgebung finden die Lehr- und Lernprozesse statt? 7. Wann? Zu welcher Tages- oder Jahreszeit findet die Arbeit statt? 8. Wer? Welche Rollen nehmen die Akteur*innen in den Lehr- und Lernprozessen ein?",
+      "erklaerung": "Folie 12 (Stein 2017, S. 110f.). Reihenfolge merken: Was – Wie – Wozu – Warum – Wem – Wo – Wann – Wer.",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f46",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Erläuterungen der passenden Grundfrage zu.",
+      "kategorien": [
+        "Was?",
+        "Wie?",
+        "Wozu?",
+        "Warum?",
+        "Wem?",
+        "Wo?",
+        "Wann?",
+        "Wer?"
+      ],
+      "elemente": [
+        {
+          "text": "Welche Inhalte sollen erarbeitet werden?",
+          "kategorie": "Was?"
+        },
+        {
+          "text": "Mit welchen Methoden soll die Auseinandersetzung mit den Inhalten erfolgen?",
+          "kategorie": "Wie?"
+        },
+        {
+          "text": "Welche Ziele verfolge ich dabei?",
+          "kategorie": "Wozu?"
+        },
+        {
+          "text": "Welche Begründungen sind für meine Planungen und Vorhaben maßgeblich?",
+          "kategorie": "Warum?"
+        },
+        {
+          "text": "Wer sind meine Adressat*innen?",
+          "kategorie": "Wem?"
+        },
+        {
+          "text": "In welcher Umgebung finden die Lehr- und Lernprozesse statt?",
+          "kategorie": "Wo?"
+        },
+        {
+          "text": "Zu welcher Tages- oder Jahreszeit findet die Arbeit statt?",
+          "kategorie": "Wann?"
+        },
+        {
+          "text": "Welche Rollen nehmen die Akteur*innen in den Lehr- und Lernprozessen ein?",
+          "kategorie": "Wer?"
+        }
+      ],
+      "erklaerung": "Folie 12. Häufige Verwechslung: Wozu (Ziele) – Warum (Begründungen); Wem (Adressat*innen) – Wer (Rollen).",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f47",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "„Vorsicht mit dem Begriff der Vermittlung!“ – Welche Aussagen treffen laut Dozent zu?",
+      "optionen": [
+        "Aus konstruktivistischer Sicht kann eine lehrende Person nichts direkt auf eine lernende Person übertragen.",
+        "Lernen beruht immer auf eigenen Konstruktionen und Aneignungsprozessen.",
+        "Kompetenzvermittlung ist eigentlich nicht möglich.",
+        "Der Begriff ist in jedem Fall falsch, auch bei der Weitergabe bestimmter Fakten in einer Einführung.",
+        "Der Begriff kommt in den Quellen (bei Stein) im Zusammenhang mit den acht Fragen nicht vor."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Richtig sind 1, 2 und 3 (Video [30:07]–[30:50]). Falsch: Bei der Weitergabe bestimmter Fakten passt der Begriff laut Dozent tatsächlich [47:04]; und er weist ausdrücklich darauf hin, dass der Begriff bei Stein im Zusammenhang mit den acht Fragen vorkommt [31:00].",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f48",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Aussagen zu allgemeiner Didaktik und Fachdidaktik treffen zu?",
+      "optionen": [
+        "Fachdidaktiken beziehen sich auf ein bestimmtes Fach, z. B. Englisch oder Sachunterricht.",
+        "Die allgemeine Didaktik fragt fachübergreifend und nicht nur schulbezogen, wie Lehr-Lern-Prozesse gestaltet werden können.",
+        "Die allgemeine Didaktik bezieht sich ausschließlich auf die Schule."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Video [27:45]–[28:33]. Falsch ist 3: Die allgemeine Didaktik ist ausdrücklich nicht nur schulbezogen.",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f49",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche vier didaktischen Ebenen unterscheidet die Folie, und was ist jeweils gemeint?",
+      "antwort": "Die intrapersonale Ebene (Beachtung der Lerngeschichte des Individuums und seines entwicklungspsychologischen Stands), die mikrosoziale Ebene (Beleuchtung der Interaktionsstrukturen und der Beziehungen in sozialen Gruppen wie Familien und Schulklassen), die institutionelle Ebene (Bildungseinrichtungen, wie Schulen oder etwa Volkshochschulen) und die makrosoziale Ebene (gesellschaftliche Dimensionen von Bildung).",
+      "erklaerung": "Folie 13 (Stein 2017, S. 111); Video [31:21]–[32:35].",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f50",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Aspekte der passenden didaktischen Ebene zu.",
+      "kategorien": [
+        "intrapersonale Ebene",
+        "mikrosoziale Ebene",
+        "institutionelle Ebene",
+        "makrosoziale Ebene"
+      ],
+      "elemente": [
+        {
+          "text": "Vorwissen und Entwicklungsstand einer Schülerin",
+          "kategorie": "intrapersonale Ebene"
+        },
+        {
+          "text": "Lerngeschichte eines Kindes",
+          "kategorie": "intrapersonale Ebene"
+        },
+        {
+          "text": "Beziehungen und Störungen in der Interaktion innerhalb einer Schulklasse",
+          "kategorie": "mikrosoziale Ebene"
+        },
+        {
+          "text": "Interaktionsstrukturen in einer Familie",
+          "kategorie": "mikrosoziale Ebene"
+        },
+        {
+          "text": "Lernklima und Atmosphäre einer Volkshochschule",
+          "kategorie": "institutionelle Ebene"
+        },
+        {
+          "text": "ob Bildung in einer Gesellschaft als etwas für alle Relevantes anerkannt wird",
+          "kategorie": "makrosoziale Ebene"
+        }
+      ],
+      "erklaerung": "Folie 13; Video [31:33]–[32:22]. Schulklasse = mikrosozial, Schule = institutionell.",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f51",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht man unter der kritisch-konstruktiven Didaktik (Klafki)? Erkläre beide Wortteile.",
+      "antwort": "Kritisch heißt sie, weil über die Art und Weise des Arbeitens Selbstbestimmung, Mitbestimmung und Solidarität der Lernenden gefördert werden sollen – für Klafki die Hauptziele von Bildung. Konstruktiv heißt sie, weil sie so angelegt ist, dass sich aus den Lernprozessen eine Handlungspraxis ergibt und Handlungsoptionen aufgezeigt werden (Praxisbezug).",
+      "erklaerung": "Video [33:24]–[34:12]; Gudjons/Traub 2016, S. 243.",
+      "folie": "14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f52",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Nenne die sieben Aspekte des Perspektivenschemas zur Gestaltung von Lehr-Lern-Prozessen nach Klafki mit ihrer Leitfrage.",
+      "antwort": "Gegenwartsbedeutung: Ist das Thema für die Lebenswelt wichtig? · Zukunftsbedeutung: Ist das Thema nicht nur Eintagsfliege? · Exemplarität: Stellt das Thema ein gutes Beispiel für dieses Problem dar? · Thematische Struktur: Welche Lernziele sind aufzustellen? · Darstellbarkeit: Welche Unterrichtsformen und Methoden nutze ich? · Lehr-Lern-Prozessstruktur: Welche Lernhilfen etc. nutze ich? · Überprüfbarkeit: Ist das Thema bei den Adressat/innen gut vermittelt worden? (Der Dozent würde fragen: Sind die Lernziele erreicht worden?)",
+      "erklaerung": "Folie 15 (Stein 2017, S. 112); Video [34:23]–[36:52].",
+      "folie": "15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f53",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Leitfragen dem passenden Aspekt des Perspektivenschemas zu.",
+      "kategorien": [
+        "Gegenwartsbedeutung",
+        "Zukunftsbedeutung",
+        "Exemplarität",
+        "Thematische Struktur",
+        "Darstellbarkeit",
+        "Lehr-Lern-Prozessstruktur",
+        "Überprüfbarkeit"
+      ],
+      "elemente": [
+        {
+          "text": "Ist das Thema für die Lebenswelt wichtig?",
+          "kategorie": "Gegenwartsbedeutung"
+        },
+        {
+          "text": "Ist das Thema nicht nur Eintagsfliege?",
+          "kategorie": "Zukunftsbedeutung"
+        },
+        {
+          "text": "Stellt das Thema ein gutes Beispiel für dieses Problem dar?",
+          "kategorie": "Exemplarität"
+        },
+        {
+          "text": "Welche Lernziele sind aufzustellen?",
+          "kategorie": "Thematische Struktur"
+        },
+        {
+          "text": "Welche Unterrichtsformen und Methoden nutze ich?",
+          "kategorie": "Darstellbarkeit"
+        },
+        {
+          "text": "Welche Lernhilfen etc. nutze ich?",
+          "kategorie": "Lehr-Lern-Prozessstruktur"
+        },
+        {
+          "text": "Ist das Thema bei den Adressat/innen gut vermittelt worden?",
+          "kategorie": "Überprüfbarkeit"
+        }
+      ],
+      "erklaerung": "Folie 15.",
+      "folie": "15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f54",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur kritisch-konstruktiven Didaktik treffen zu?",
+      "optionen": [
+        "„Kritisch“ heißt: Selbstbestimmung, Mitbestimmung und Solidarität der Lernenden sollen gefördert werden.",
+        "„Konstruktiv“ heißt: Aus den Lernprozessen soll sich eine Handlungspraxis ergeben; Handlungsoptionen werden aufgezeigt.",
+        "„Konstruktiv“ bedeutet, dass Klafkis Modell auf dem Konstruktivismus beruht.",
+        "Bei der Überprüfbarkeit würde der Dozent statt „gut vermittelt“ eher fragen, ob die Lernziele erreicht worden sind."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Richtig sind 1, 2 und 4 (Video [33:24]–[34:12], [36:44]). Falsch ist 3: „Konstruktiv“ meint bei Klafki den Praxis- und Handlungsbezug, nicht den Konstruktivismus.",
+      "folie": "14–15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f55",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Was kennzeichnet die lehrtheoretische Didaktik („Hamburger Modell“)? Nenne die Merkmale der Folie und das besonders Spezifische laut Dozent.",
+      "antwort": "Emanzipatorischer Anspruch; Intentionen des Unterrichts: Kompetenz, Autonomie und Solidarität; Sach-, Gefühls- und Sozialerfahrungen; vier didaktische Fragen (Was soll gelernt/gelehrt werden? – Wer lernt hier etwas, mit wem als Lehrer? – Auf welche Weise … mit welchen Vermittlungsvariablen? – War der Unterricht erfolgreich?); institutionelle Bedingungen und gesellschaftliche Rahmenbedingungen. Besonders spezifisch ist laut Dozent der stärkere Blick auf die institutionellen Bedingungen (was ist in der Institution überhaupt möglich?) und die gesellschaftlichen Rahmenbedingungen; das Modell kommt noch stärker aus dem schulischen Zusammenhang.",
+      "erklaerung": "Folie 16; Video [37:13]–[39:21].",
+      "folie": "16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f56",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "text": "Lehrtheoretische Didaktik: Intentionen des Unterrichts: [[Kompetenz]], [[Autonomie]] und [[Solidarität]]; Sach-, [[Gefühls-]] und Sozialerfahrungen",
+      "erklaerung": "Folie 16. Nicht verwechseln mit Klafki (Selbstbestimmung, Mitbestimmung, Solidarität).",
+      "folie": "16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f57",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche gehören zu den vier didaktischen Fragen des Hamburger Modells?",
+      "optionen": [
+        "Was soll gelernt/gelehrt werden? (Inhalte und Ziele)",
+        "Wer lernt hier etwas, mit wem als Lehrer?",
+        "Ist das Thema nicht nur Eintagsfliege?",
+        "Auf welche Weise wird das, was für Menschen mit dieser Ausgangslage als Ziel ermittelt wurde, am besten erreicht – mit welchen Vermittlungsvariablen? (Methoden, Sozialformen, Medien)",
+        "War der Unterricht erfolgreich? (Erfolgskontrolle, Evaluation)",
+        "Zu welcher Tages- oder Jahreszeit findet die Arbeit statt?"
+      ],
+      "richtig": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "erklaerung": "Folie 16. Option 3 gehört zu Klafkis Perspektivenschema (Zukunftsbedeutung), Option 6 zu den acht Grundfragen der Didaktik (Wann?).",
+      "folie": "16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f58",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht man unter konstruktivistischer Didaktik? Nenne die Grundsätze von Folie 17.",
+      "antwort": "Lernen ist nicht machbar. Lernen ist bloß anregbar. – Lernen kann nur jeder für sich; von außen zwar angestoßen, vollzieht jeder seinen Lernprozess für sich selbst. – Nicht Bilder einer Außenwelt werden beim Lernen direkt aufgenommen und verinnerlicht, sondern von außen lösen Reize in Lernenden Energieprozesse aus, durch die subjektives Wissen gestaltet wird und eine eigene Wirklichkeit entsteht. – Lernen findet immer in sozialen Kontexten und durch Interaktionen statt. – Selbsttätigkeit > Ermöglichungsdidaktik statt Belehrungsdidaktik.",
+      "erklaerung": "Folie 17 (Gudjons & Traub 2016, S. 251); Video [39:39]–[42:39].",
+      "folie": "17",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f59",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Lernen ist nicht [[machbar]]. Lernen ist bloß [[anregbar]]. … [[Selbsttätigkeit]] > [[Ermöglichungsdidaktik]] statt Belehrungsdidaktik",
+      "erklaerung": "Folie 17.",
+      "folie": "17",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f60",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Grundsätze konstruktivistischen Unterrichts nennt Folie 18?",
+      "optionen": [
+        "Orientierung an komplexen, lebens- und berufsnahen, ganzheitlich zu betrachtenden Problembereichen",
+        "Fehler sind erlaubt, ja bedeutsam, weil ihre Besprechung und Korrektur Verständnis fördernd wirkt.",
+        "Die Evaluation richtet sich allein auf die Lernprodukte.",
+        "Gefühle und persönliche Identifikation sind bedeutsam und müssen einbezogen werden.",
+        "Durch kollektives Lernen (z. B. in Gruppen) erst wird die individuelle Interpretation und Sinngebung überdacht und neu strukturiert.",
+        "Vorerfahrungen und Interessen der Lernenden spielen für die Lerninhalte keine Rolle."
+      ],
+      "richtig": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "erklaerung": "Richtig sind 1, 2, 4 und 5 (Folie 18). Falsch: Die Evaluation richtet sich laut Folie „nicht allein auf die Lernprodukte, sondern auch auf die Fortschritte im Lernprozess, auf Methoden und Lernstrategien“; Vorerfahrungen und Interessen der Lernenden sind für die Lerninhalte wichtig.",
+      "folie": "18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f61",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht man unter dem wissensbasierten Konstruktivismus? Erkläre mit dem Beispiel des Dozenten.",
+      "antwort": "Der wissensbasierte Konstruktivismus hebt den Widerspruch zwischen Instruktion (Anleitung von außen) und Konstruktion (eigene Konstruktion) auf: Jede*r braucht ihre*seine eigenen Lernwege; der Weg zur Autonomie führt über die Anleitung; die Lernmethoden müssen den Fähigkeiten der Schüler*innen angepasst werden. Beispiel: Würde man Studierenden nur sagen „Es gibt Lerntheorien, finden Sie mal heraus, was das ist“, fehlte die Orientierung. Deshalb braucht es auch Vorlesungen bzw. Frontalphasen für Überblick und Fakten – danach Vertiefung in Gruppen- und Einzelarbeit.",
+      "erklaerung": "Folie 20 (Gudjons & Traub 2016, S. 256); Video [46:14]–[48:15].",
+      "folie": "20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f62",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "text": "Wissensbasierter Konstruktivismus: Aufhebung des Widerspruchs zwischen [[Instruktion]] und [[Konstruktion]]. Jede*r braucht ihre*seine eigenen [[Lernwege]]. Der Weg zur Autonomie führt über die [[Anleitung]].",
+      "erklaerung": "Folie 20.",
+      "folie": "20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f63",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Merkmale der passenden Unterrichtsform zu.",
+      "kategorien": [
+        "Frontalunterricht",
+        "Gruppenarbeit / Partnerarbeit",
+        "Einzelarbeit"
+      ],
+      "elemente": [
+        {
+          "text": "lehrerzentriert, meist sprachgestützt, thematisch gerichtet",
+          "kategorie": "Frontalunterricht"
+        },
+        {
+          "text": "auch für Großgruppen geeignet; rationelle Unterrichtsform",
+          "kategorie": "Frontalunterricht"
+        },
+        {
+          "text": "kaum Individualisierung, Nivellierung auf gleichem Lernniveau und Lerntempo",
+          "kategorie": "Frontalunterricht"
+        },
+        {
+          "text": "Einstieg ins Thema; Input von Fakten",
+          "kategorie": "Frontalunterricht"
+        },
+        {
+          "text": "Gefahr, dass einige arbeiten, andere sich ausklinken",
+          "kategorie": "Gruppenarbeit / Partnerarbeit"
+        },
+        {
+          "text": "Problem der Benotung von Gruppenleistungen",
+          "kategorie": "Gruppenarbeit / Partnerarbeit"
+        },
+        {
+          "text": "eigenes Gruppenlerntempo",
+          "kategorie": "Gruppenarbeit / Partnerarbeit"
+        },
+        {
+          "text": "Stillarbeit des Einzelnen mit Materialien (Texten, PC: programmierter Unterricht)",
+          "kategorie": "Einzelarbeit"
+        },
+        {
+          "text": "korrigierende Anleitung durch die Lehrkraft fehlt",
+          "kategorie": "Einzelarbeit"
+        },
+        {
+          "text": "vertiefende Erarbeitung eines Themas und Überleitung zur Hausaufgabe",
+          "kategorie": "Einzelarbeit"
+        }
+      ],
+      "erklaerung": "Folie 19 (Stein 2017, S. 112). „Entdeckendes Lernen“, „Selbstständigkeit“ und „kaum soziales Lernen“ stehen bei mehreren Formen und sind deshalb nicht aufgeführt.",
+      "folie": "19",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f64",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Unterrichtsformen nennt Folie 21 als „neuere Unterrichtsformen“?",
+      "optionen": [
+        "Offener Unterricht",
+        "Freiarbeit",
+        "Frontalunterricht",
+        "Projektunterricht",
+        "Handlungsorientierter Unterricht",
+        "Programmierter Unterricht"
+      ],
+      "richtig": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "erklaerung": "Folie 21 (Gudjons & Traub 2016, S. 257ff.). Frontalunterricht ist die klassische Form, mit der die neueren Formen verglichen werden; programmierter Unterricht steht auf Folie 19 als Beispiel für Einzelarbeit.",
+      "folie": "21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f65",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen treffen laut Folien und Video zu?",
+      "optionen": [
+        "Konstruktivistisch betrachtet sind Gruppen- und Einzelarbeit sinnvoller als Frontalunterricht.",
+        "Der wissensbasierte Konstruktivismus hält Instruktion für überflüssig.",
+        "Laut Dozent braucht es auch Vorlesungen bzw. Frontalphasen, um Überblick und Orientierung zu geben.",
+        "Die Lernmethoden müssen den Fähigkeiten der Schüler*innen angepasst werden."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Richtig sind 1, 3 und 4 (Video [46:06], [46:45]–[47:19]; Folie 20). Falsch ist 2: Der wissensbasierte Konstruktivismus hebt den Widerspruch auf – Anleitung bleibt nötig („Der Weg zur Autonomie führt über die Anleitung“).",
+      "folie": "19–20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f66",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche zwei Funktionen der Leistungsfeststellung nennt die Folie? Nenne je ein Beispiel.",
+      "antwort": "Eine gesellschaftliche Funktion der Selektion und Platzierung von Personen im gesellschaftlichen Gefüge nach ihren Kompetenzen (z. B. Entscheidung über die Schulform, Auswahl für ein Studium, Vergabe eines Stipendiums) und eine pädagogische, informatorische Funktion, nämlich Rückmeldung über den Lernfortschritt zu bieten (z. B. „Wo stehe ich?“ für die Lernenden, „Wo muss ich stärker unterstützen?“ für die Lehrkraft).",
+      "erklaerung": "Folie 22 (Stein 2017, S. 113f.); Video [49:21]–[50:53].",
+      "folie": "22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f67",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Funktion der Leistungsfeststellung: eine gesellschaftliche Funktion der [[Selektion]] und [[Platzierung]] von Personen im gesellschaftlichen Gefüge nach ihren Kompetenzen; pädagogische, [[informatorische]] Funktion, nämlich [[Rückmeldung]] über den Lernfortschritt zu bieten",
+      "erklaerung": "Folie 22.",
+      "folie": "22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f68",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Welche drei Bezugsnormen werden unterschieden, und was wird jeweils verglichen?",
+      "antwort": "Individuelle Bezugsnorm: Vergleich der Leistung einer Person mit ihrem eigenen früheren Stand. Soziale Bezugsnorm: Vergleich einer lernenden Person mit anderen Lernenden (z. B. der Klasse). Kriterienorientierte Bezugsnorm: Vergleich mit einem vorher festgelegten Leistungsniveau, das erreicht werden soll.",
+      "erklaerung": "Folie 22; Video [51:28]–[51:54]; Stein 2024, S. 129.",
+      "folie": "22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f69",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Situationen der passenden Bezugsnorm zu.",
+      "kategorien": [
+        "individuelle Bezugsnorm",
+        "soziale Bezugsnorm",
+        "kriterienorientierte Bezugsnorm"
+      ],
+      "elemente": [
+        {
+          "text": "Die Lehrerin vergleicht Lenas Diktat mit Lenas Diktaten aus dem letzten Halbjahr.",
+          "kategorie": "individuelle Bezugsnorm"
+        },
+        {
+          "text": "Ein Schüler wird gelobt, weil er sich gegenüber seinem letzten Test deutlich verbessert hat.",
+          "kategorie": "individuelle Bezugsnorm"
+        },
+        {
+          "text": "Die Note richtet sich danach, wie Tim im Vergleich zu seiner Klasse abschneidet.",
+          "kategorie": "soziale Bezugsnorm"
+        },
+        {
+          "text": "Der Notenschnitt der Jahrgangsstufe dient als Maßstab.",
+          "kategorie": "soziale Bezugsnorm"
+        },
+        {
+          "text": "Wer mindestens die vorher festgelegte Punktzahl erreicht, hat das Lernziel erreicht.",
+          "kategorie": "kriterienorientierte Bezugsnorm"
+        }
+      ],
+      "erklaerung": "Folie 22; Video [51:28]–[51:54]; Stein 2024, S. 129.",
+      "folie": "22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f70",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Beispiele der passenden Funktion der Leistungsfeststellung zu.",
+      "kategorien": [
+        "gesellschaftliche Funktion (Selektion und Platzierung)",
+        "pädagogische, informatorische Funktion (Rückmeldung)"
+      ],
+      "elemente": [
+        {
+          "text": "Entscheidung, wer auf das Gymnasium wechseln kann",
+          "kategorie": "gesellschaftliche Funktion (Selektion und Platzierung)"
+        },
+        {
+          "text": "Vergabe eines Stipendiums",
+          "kategorie": "gesellschaftliche Funktion (Selektion und Platzierung)"
+        },
+        {
+          "text": "Auswahl, wer für ein bestimmtes Studium geeignet ist",
+          "kategorie": "gesellschaftliche Funktion (Selektion und Platzierung)"
+        },
+        {
+          "text": "Eine Schülerin erfährt, wo sie im Lernprozess steht.",
+          "kategorie": "pädagogische, informatorische Funktion (Rückmeldung)"
+        },
+        {
+          "text": "Die Lehrkraft erkennt, wo sie stärker unterstützen muss.",
+          "kategorie": "pädagogische, informatorische Funktion (Rückmeldung)"
+        }
+      ],
+      "erklaerung": "Folie 22; Video [49:21]–[50:53].",
+      "folie": "22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f71",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur Leistungsfeststellung treffen zu?",
+      "optionen": [
+        "Leistungsfeststellung kann schriftlich (Klausuren, Tests …) oder mündlich („Abfragen“, Unterrichtsbeiträge …) erfolgen.",
+        "Wichtig ist eine dynamische Betrachtung des Lernfortschritts – nicht nur das Endprodukt.",
+        "Als Probleme bei der Leistungsbewertung nennt die Folie soziale Stereotypien, Vorurteile, Sympathien, aber auch Reihungseffekte.",
+        "Ein Reihungseffekt liegt z. B. vor, wenn eine Arbeit direkt nach einer besonders guten Arbeit strenger bewertet wird.",
+        "Wenn die Lehrkraft eine Schülerin sympathisch findet, wird die Bewertung dadurch objektiver."
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Richtig sind 1–4 (Folie 22; Video [52:14]). Falsch ist 5: Gerade Sympathien sind laut Folie ein Problem der Leistungsbewertung; Leistungsfeststellung muss sehr reflektiert erfolgen [52:41].",
+      "folie": "22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f72",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Ordne die Merkmale dem passenden didaktischen Modell zu.",
+      "kategorien": [
+        "kritisch-konstruktive Didaktik (Klafki)",
+        "lehrtheoretische Didaktik („Hamburger Modell“)",
+        "konstruktivistische Didaktik"
+      ],
+      "elemente": [
+        {
+          "text": "Perspektivenschema mit Gegenwartsbedeutung, Zukunftsbedeutung und Exemplarität",
+          "kategorie": "kritisch-konstruktive Didaktik (Klafki)"
+        },
+        {
+          "text": "„kritisch“ = Selbstbestimmung, Mitbestimmung und Solidarität fördern",
+          "kategorie": "kritisch-konstruktive Didaktik (Klafki)"
+        },
+        {
+          "text": "Intentionen des Unterrichts: Kompetenz, Autonomie und Solidarität",
+          "kategorie": "lehrtheoretische Didaktik („Hamburger Modell“)"
+        },
+        {
+          "text": "Sach-, Gefühls- und Sozialerfahrungen",
+          "kategorie": "lehrtheoretische Didaktik („Hamburger Modell“)"
+        },
+        {
+          "text": "besonderer Blick auf institutionelle Bedingungen und gesellschaftliche Rahmenbedingungen",
+          "kategorie": "lehrtheoretische Didaktik („Hamburger Modell“)"
+        },
+        {
+          "text": "Lernen ist nicht machbar. Lernen ist bloß anregbar.",
+          "kategorie": "konstruktivistische Didaktik"
+        },
+        {
+          "text": "Selbsttätigkeit > Ermöglichungsdidaktik statt Belehrungsdidaktik",
+          "kategorie": "konstruktivistische Didaktik"
+        },
+        {
+          "text": "Fehler sind erlaubt, ja bedeutsam.",
+          "kategorie": "konstruktivistische Didaktik"
+        }
+      ],
+      "erklaerung": "Folien 14–18; Video [33:24]–[45:43]. Der emanzipatorische Anspruch ist eine Gemeinsamkeit von Klafki und Hamburger Modell und deshalb nicht aufgeführt.",
+      "folie": "14–18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f73",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Du planst für eine 7. Klasse eine Unterrichtseinheit zur Prozentrechnung. Prüfe das Thema mit Klafkis Perspektivenschema (alle sieben Aspekte).",
+      "musterloesung": "Gegenwartsbedeutung: Prozente begegnen den Kindern im Alltag – Rabatte beim Einkaufen, Akkustand am Handy, Statistiken in Nachrichten. Zukunftsbedeutung: kein Eintagsfliegen-Thema – später nötig für Zinsen, Kredite, Lohnabrechnung, Wahlergebnisse und Statistik. Exemplarität: Prozentrechnung steht beispielhaft für proportionales Denken und das Vergleichen von Anteilen. Thematische Struktur: Lernziele z. B. „Die Schüler*innen können Grundwert, Prozentwert und Prozentsatz unterscheiden und berechnen“ und „… Rabattangebote kritisch vergleichen“. Darstellbarkeit: Einstieg frontal mit Prospekten (Überblick), dann Partner- oder Gruppenarbeit mit echten Angeboten. Lehr-Lern-Prozessstruktur: Lernhilfen wie Hunderterfeld, Prozentstreifen, gestufte Hilfekarten, Erklärvideo. Überprüfbarkeit: Sind die Lernziele erreicht? – z. B. kurzer Test und eine Anwendungsaufgabe („Welches Angebot ist günstiger?“), dazu Blick auf den Lernfortschritt.",
+      "bewertungspunkte": [
+        "Begründungsaspekte: Gegenwartsbedeutung, Zukunftsbedeutung, Exemplarität jeweils mit passendem Inhalt",
+        "Thematische Struktur mit formuliertem Lernziel",
+        "Darstellbarkeit (Unterrichtsformen/Methoden) und Lehr-Lern-Prozessstruktur (Lernhilfen) unterschieden",
+        "Überprüfbarkeit als Frage, ob die Lernziele erreicht wurden"
+      ],
+      "punkte": 4,
+      "erklaerung": "Transfer (selbst erarbeitet) mit Folie 15, Video [34:23]–[37:00] und Gudjons/Traub 2016, S. 243–247.",
+      "folie": "15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f74",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Nach einer schlechten Mathearbeit sagt Mia (Klasse 8): „Ich bin einfach zu dumm für Mathe, das werde ich nie kapieren.“ Ordne die Äußerung mit den Begriffen der Sitzung ein und beschreibe, wie die Lehrkraft reagieren sollte.",
+      "musterloesung": "Einordnung: Mia attribuiert ihren Misserfolg auf Begabung (intern und stabil) – genau das Beispiel der Folie („Ich bin zu dumm dazu; ich werde das nie kapieren.“). Das deutet auf ein geringes Fähigkeitsselbstkonzept hin; beide sind variable Personenfaktoren. Risiko: Sie strengt sich gar nicht mehr an, weil sie glaubt, keinen Einfluss zu haben (Wechselwirkung von Leistung und Selbstkonzept). Reaktion der Lehrkraft: auf keinen Fall „Du kannst das eh nicht“ bestätigen; die Attribuierung auf Anstrengung fördern („Bei den Aufgaben, die du geübt hast, hast du Punkte geholt – mit Übung schaffst du auch die anderen“); Fortschritte sichtbar machen, z. B. mit der individuellen Bezugsnorm (Vergleich mit Mias früheren Leistungen); intrinsische Motivation über Interesse und Alltagsbezug stärken statt nur Druck über Noten (Korrumpierungseffekt vermeiden); ein positives Lernumfeld, in dem Fehler dazugehören. Bei starker Prüfungsangst (Sorgenkomponente, Vermeidung) an Beratung weitervermitteln.",
+      "bewertungspunkte": [
+        "Attribuierung auf Begabung (intern, stabil) bzw. geringes Fähigkeitsselbstkonzept erkannt",
+        "Folge: keine Anstrengung mehr / Wechselwirkung mit Leistung",
+        "Reaktion: Attribuierung auf Anstrengung fördern, keine abwertende Rückmeldung",
+        "weitere passende Maßnahme: individuelle Bezugsnorm, intrinsische Motivation, Fehlerkultur oder Beratung"
+      ],
+      "punkte": 4,
+      "erklaerung": "Transfer (selbst erarbeitet) mit Folien 8–11 und 22; Video [17:48], [20:15]–[21:11], [26:09].",
+      "folie": "8–11, 22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f75",
+      "baustein": "kernaussage",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Erkläre, warum der Dozent „Vorsicht mit dem Begriff der Vermittlung!“ mahnt, und nenne die Ausnahme, die er selbst macht.",
+      "musterloesung": "Aus der Perspektive des Konstruktivismus ist Vermittlung eigentlich nicht möglich: Eine lehrende Person kann nichts direkt auf eine lernende Person übertragen; Lernen besteht immer aus eigenen Konstruktionen und Aneignungsprozessen. Spätestens bei Kompetenzen zeigt sich, dass Kompetenzvermittlung nicht möglich ist. Deshalb soll man den Begriff möglichst aus dem Wortschatz streichen oder nur sehr vorsichtig und reflektiert verwenden – auch wenn er in der Literatur (bei Stein zu den acht Fragen) vorkommt. Ausnahme: Bei einer Einführung oder einem Überblick „bestimmte Fakten zu vermitteln“ – dort passt der Begriff laut Dozent tatsächlich.",
+      "bewertungspunkte": [
+        "keine direkte Übertragung möglich (Konstruktivismus, eigene Konstruktion/Aneignung)",
+        "Kompetenzvermittlung nicht möglich",
+        "Ausnahme: Weitergabe bestimmter Fakten bei Überblick/Einführung"
+      ],
+      "punkte": 3,
+      "erklaerung": "Folie 12; Video [30:07]–[31:12], [47:04].",
+      "folie": "12",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Die Unterscheidung formale Bildung – non-formale Bildung – informelles Lernen hält der Dozent „an dieser Stelle noch ganz wichtig“ (Video [00:58]); die vier Merkmale der Tabelle (Lernort, Institutionalisierungsgrad, Zertifizierung, Zielgerichtetheit) sicher zuordnen (Folie 3).",
+    "Auch in formalen Kontexten wird informell gelernt – „Lernen in informellen Kontexten bzw. Settings“; das zu sehen ist laut Dozent „vor allen Dingen auch nochmal wichtig“ (Video [05:22]; Folie 4).",
+    "Hemmende Lernfaktoren gehören zur Lernplanung: Wer weiß, welche bei ihm oder ihr häufig auftreten, kann das Lernen danach gestalten (Video [14:21]). Proaktiv und retroaktiv nicht vertauschen (Folie 6).",
+    "Pädagogisch am vorteilhaftesten und zu fördern ist die Attribuierung auf Anstrengung (intern, variabel); Begabung, Aufgabenschwierigkeit und Zufall sind problematisch (Video [20:15]–[21:11]; Folie 9).",
+    "„Langfristiger Lernerfolg und Lernfreude wird nur über intrinsische Motivation sichergestellt.“ – Korrumpierungseffekt beachten (Folie 10; Video [22:41], [23:37]).",
+    "„Vorsicht mit dem Begriff der Vermittlung!“ – der Dozent möchte dafür ausdrücklich sensibilisieren und kündigt an, beim Thema Kompetenzen darauf zurückzukommen (Folie 12; Video [30:07]–[31:12]).",
+    "Selbsttätigkeit steht in der konstruktivistischen Didaktik „im Zentrum“ – Ermöglichungsdidaktik statt Belehrungsdidaktik (Video [41:46]–[42:17]; Folie 17).",
+    "Bei jeder Leistungsfeststellung ist „wichtig“, nicht nur das Endprodukt, sondern auch den tatsächlichen Lernfortschritt zu erheben – dynamische Betrachtung (Folie 22; Video [51:07]); Leistungsfeststellung muss sehr reflektiert vorbereitet und durchgeführt werden (Video [52:41]).",
+    "Die acht Grundfragen, die vier didaktischen Ebenen, das Perspektivenschema und die drei Bezugsnormen sind Listen mit festem Wortlaut – in der Klausur gibt es keine Teilpunkte, deshalb Wortlaut und Zuordnung sicher lernen (selbst abgeleitet aus dem Klausurformat)."
+  ],
+  "offene_fragen": [
+    "Präsenzsitzung ewb001.2 am 10.11.2026: Folien noch nicht vorhanden – nachtragen, sobald sie in Stud.IP stehen.",
+    "Die Abbildungsfolien 7, 9, 15 und 19 (Personenfaktoren, Attribuierungsstile, Perspektivenschema, Unterrichtsformen) enthalten viele Details – werden die Tabellen (z. B. Vor- und Nachteile der Unterrichtsformen) in der Klausur im Einzelnen abgefragt? Ggf. in der Präsenzsitzung oder Fragestunde klären.",
+    "Welche Auflage von Stein gilt für die Klausur – 2017 (Inhaltsfolien) oder 2024 (Selbststudium)? Inhaltlich gleich, aber andere Seitenzahlen und teils andere Formulierungen (z. B. acht Grundfragen nach Kron et al. 2024 mit „vermitteln“)."
+  ],
+  "auffaelligkeiten": [
+    "Folie 3 (Tabelle formale / non-formale Bildung / informelles Lernen) hat keine Quellenangabe; Overwien (2005) und Schugurensky (2000) stehen nur in der Literaturliste (Folie 25) und werden auf keiner Inhaltsfolie zitiert.",
+    "Folie 25: Titel Düx/Sass (2005) „… in Settings des freiwilligen Engagement“ – vermutlich Tippfehler für „Engagements“ (das Zitat auf Folie 4 schreibt „des freiwilligen Engagements“).",
+    "Folie 25: Schugurensky-Link „abgerufen am: 9. November 2022“ – Folien und Video stammen aus einem früheren Semester.",
+    "Selbststudium (Folie 23): Stein 2024, S. 120–131 liegt nicht im Ordner Sitzung_05, sondern als ganzes Kapitel 5 (S. 104–131) in Sitzung_04 (04_Stein2024_Lernen.pdf). Die Inhaltsfolien zitieren dagegen Stein 2017 (3. Aufl.) – andere Seitenzahlen (z. B. hemmende Lernfaktoren 2017 S. 106 → 2024 S. 121, Leistungsfeststellung 2017 S. 113 f. → 2024 S. 128 f.).",
+    "Folie 12: Die Grundfragen 1 und 2 lauten auf der Folie „Welche Inhalte sollen erarbeitet werden?“ und „Mit welchen Methoden soll die Auseinandersetzung mit den Inhalten erfolgen?“ – bei Stein 2024 (S. 126, zitiert nach Kron et al. 2024): „Welche Inhalte muss ich vermitteln?“ und „Mit welchen Methoden […] organisiere ich die Vermittlung?“. Die Folie vermeidet also bewusst „Vermittlung“.",
+    "Folie 12 nennt als Quelle auch Gudjons & Traub 2016, S. 239 – dort steht nur die Bestimmung von Didaktik („wissenschaftliche Reflexion von organisierten Lehr- und Lernprozessen“, wörtlich „Lehrkunst“), nicht die acht Grundfragen.",
+    "Trotz „Vorsicht mit dem Begriff der Vermittlung!“ (Folie 12) stehen auf Folie 15 („Ist das Thema bei den Adressat/innen gut vermittelt worden?“) und Folie 16 („Vermittlungsvariablen“, wörtlich aus Gudjons/Traub 2016, S. 249) Vermittlungsbegriffe; den ersten kommentiert der Dozent im Video [36:30].",
+    "Folie 15: Der Kasten heißt „Darstellbarkeit“; die Transkript-Zusammenfassung nennt ihn „Zugänglichkeit / Darstellung“, Gudjons/Traub (2016, S. 246) „Bestimmung von Zugangs- und Darstellungsmöglichkeiten“. Klafkis Schema bei Gudjons/Traub (Abb. 26) enthält zusätzlich eine vorangestellte Bedingungsanalyse, die auf der Folie fehlt.",
+    "Folie 14 nennt „Die kritisch-konstruktive Didaktik (Klafki)“; Gudjons/Traub (2016, S. 241) führen als noch aktuell die „bildungstheoretische Didaktik“ auf, deren Weiterentwicklung die kritisch-konstruktive ist (S. 242). Folie 16 nennt keinen Vertreter – laut Gudjons/Traub (S. 247) Wolfgang Schulz (Vorläufer: „Berliner Modell“ von Heimann/Otto/Schulz).",
+    "Folie 17 weicht leicht vom Originaltext ab: „direkt aufgenommen“ (Gudjons/Traub 2016, S. 251: „aufgenommen“) und „für sich selbst“ (Original: „für sich selber“); „Ermöglichungsdidaktik statt Belehrungsdidaktik“ steht nicht bei Gudjons/Traub, sondern ist eine Ergänzung des Dozenten (vgl. Einheit 04, Folie 20).",
+    "Folie 20: „den Fähigkeiten der Schüler*innen angepasst“ – Original (Gudjons/Traub 2016, S. 256): „den Schülerfähigkeiten angepasst“; dort heißt es, die Kontroverse sei durch drei Einsichten „überwunden“.",
+    "Folie 21 endet mit „…“; Gudjons/Traub (S. 257–260) nennen zusätzlich u. a. Freinet-Pädagogik, entdeckendes Lernen, Sandwich-Prinzip und Epochenunterricht. Das „forschende Lernen“ ergänzt der Dozent nur mündlich (Video [48:45]).",
+    "Folie 6 / Video: Das Beispiel des Dozenten zur proaktiven Hemmung (zu schnell zur nächsten Lerntheorie) unterscheidet sich vom Beispiel bei Stein 2024 (Tab. 17: erst Französisch-, dann Englischvokabeln – die englischen werden schlecht behalten); gleiche Bedeutung.",
+    "Video [20:05]: Beispiel für Zufall „Ich hatte Pech, das war nicht mein Tag“ – Folie 9: „Ich hatte diesmal Pech mit der Aufgabenstellung.“ Gelernt wird der Folienwortlaut.",
+    "Video [03:14]: „ca. 80 Prozent“ informelles Lernen wird nur mündlich mit „verschiedene Studien“ belegt, ohne Quellenangabe.",
+    "Transkript-Zusammenfassung (Hinweis zu den Folien): spricht von „drei Folien“ ohne Fließtext, nennt dann aber vier (Folien 7, 9, 15, 19).",
+    "Folie 2 (älterer Ablaufplan): Termin 4 „Begriffsklärung, Lernen, Konditionierung, …“ ohne „Lehren und Lernen“ und „Systemtheorie“ (anders als der Ablaufplan WiSe 2026/27); Termin 5 ist in beiden Plänen gleich."
+  ]
+}

@@ -60,7 +60,7 @@
     "Jeden Freitag erscheint ein Aufgabenblatt: Teil A zur Selbstkontrolle (kurze Musterlösungen Anfang der Folgewoche), Teil B zur gemeinsamen Besprechung im Seminar.",
     "Das Seminar ist freiwillig (keine Anwesenheitspflicht) und der Ort für Fragen zur Vorlesung und zu den Aufgaben.",
     "Die Klausur dauert 90 Minuten; die Aufgabenformate sind ähnlich wie auf den Übungszetteln.",
-    "Klausurtermine (Vorschlag): 08.02.2027 und 29.03.2027, jeweils 14–16 Uhr; wer den 2. Termin als Erstversuch wählt, kann erst im folgenden Sommersemester wiederholen."
+    "Klausurtermine (Vorschlag): 08.02.2027 und 22.03.2027, jeweils 14–16 Uhr (2. Termin laut korrigierter Folie 5; vorher 29.03.); wer den 2. Termin als Erstversuch wählt, kann erst im folgenden Sommersemester wiederholen."
   ],
   "erklaerung": [
     {
@@ -72,7 +72,7 @@
     {
       "titel": "Klausur",
       "folien": "5",
-      "text": "- Prüfungsform: **Klausur**, Schreibzeit **90 Minuten**\n- Anmeldung über **QISPOS** – ohne Anmeldung keine Teilnahme (laut Folie „ab Juni“, das ist vermutlich veraltet)\n- 1. Termin (Vorschlag): **Montag, 08.02.2027, 14–16 Uhr**\n- 2. Termin (Vorschlag): **Montag, 29.03.2027, 14–16 Uhr**\n- Du darfst frei wählen, welcher Termin dein erster Versuch ist. Wer nicht besteht, muss spätestens zu den nächsten regulären Prüfungsterminen wiederholen (RPO §25 (3)). Wählst du den 2. Termin als Erstversuch, ist eine Wiederholung erst im folgenden Sommersemester möglich.\n- **Aufgabenformate ähnlich wie die Aufgaben auf den Übungszetteln.**\n\nDazu: Website des Akademischen Prüfungsamtes BACS und Rahmenprüfungsordnung der Uni Vechta.\n\n**Kurz erklärt:** Für die Vorbereitung heißt das: Die Klausuraufgaben ähneln den Aufgaben auf den Übungszetteln. Wer jedes Blatt selbst durchrechnet, übt genau die Aufgabenformate der Klausur.",
+      "text": "- Prüfungsform: **Klausur**, Schreibzeit **90 Minuten**\n- Anmeldung über **QISPOS** – ohne Anmeldung keine Teilnahme (laut korrigierter Folie 5: „ab Dezember“; die alte Fassung sagte „ab Juni“)\n- 1. Termin (Vorschlag): **Montag, 08.02.2027, 14–16 Uhr**\n- 2. Termin (Vorschlag): **Montag, 22.03.2027, 14–16 Uhr** (korrigierte Folie 5; vorher 29.03.2027)\n- Du darfst frei wählen, welcher Termin dein erster Versuch ist. Wer nicht besteht, muss spätestens zu den nächsten regulären Prüfungsterminen wiederholen (RPO §25 (3)). Wählst du den 2. Termin als Erstversuch, ist eine Wiederholung erst im folgenden Sommersemester möglich.\n- **Aufgabenformate ähnlich wie die Aufgaben auf den Übungszetteln.**\n\nDazu: Website des Akademischen Prüfungsamtes BACS und Rahmenprüfungsordnung der Uni Vechta.\n\n**Kurz erklärt:** Für die Vorbereitung heißt das: Die Klausuraufgaben ähneln den Aufgaben auf den Übungszetteln. Wer jedes Blatt selbst durchrechnet, übt genau die Aufgabenformate der Klausur.",
       "beispiel": ""
     },
     {
@@ -174,7 +174,7 @@
       "format": "mc",
       "niveau": "verstehen",
       "schwierigkeit": 2,
-      "frage": "Was passiert, wenn du den 2. Klausurtermin (29.03.2027) als ersten Versuch wählst und nicht bestehst?",
+      "frage": "Was passiert, wenn du den 2. Klausurtermin (22.03.2027) als ersten Versuch wählst und nicht bestehst?",
       "optionen": [
         "Eine Wiederholung ist erst im folgenden Sommersemester möglich.",
         "Du kannst sofort im April wiederholen.",

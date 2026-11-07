@@ -8,13 +8,13 @@
     "dauer_min": 90,
     "termine": [
       "2027-02-08",
-      "2027-03-29"
+      "2027-03-22"
     ],
     "hinweise": [
-      "Termine laut Handout Kapitel 0 noch als Vorschlag, jeweils 14–16 Uhr",
+      "Termine laut Handout Kapitel 0 (Folie 5 korrigiert) noch als Vorschlag, jeweils 14–16 Uhr; 2. Termin 22.03.2027 (vorher 29.03.2027)",
       "Aufgabenformate ähnlich wie die Aufgaben auf den Übungszetteln (Kapitel 0, Folie 5)",
       "Wer den 2. Termin als Erstversuch wählt, kann erst im folgenden Sommersemester wiederholen (RPO §25 (3))",
-      "QISPOS-Anmeldung ab Dezember 2026 (Nadine, 01.11.2026; genaues Datum noch offen)"
+      "QISPOS-Anmeldung ab Dezember 2026 (bestätigt durch korrigierte Folie 5 von Kapitel 0; genaues Datum noch offen)"
     ]
   },
   "teilmodule": [
@@ -421,6 +421,29 @@
       "status": "verarbeitet",
       "sitzung": "mab005.2_2026-11-09",
       "hinweis": "vollständig gelöst (07.11.); Statistik-Definitionen als Ergänzung nach Kütting/Sauer, mit Folien abgleichen"
+    },
+    {
+      "pfad": "mab005.1/Sitzung_01/VL_Kapitel0_mab005_Handout_(Folie_5_korrigiert).pdf",
+      "geaendert": "2026-10-19",
+      "art": "Handout (korrigiert)",
+      "status": "verarbeitet",
+      "sitzung": "mab005.1_2026-10-12",
+      "hinweis": "Folie 5: QISPOS ab Dezember, 2. Termin 22.03.2027 statt 29.03. – übernommen 07.11."
+    },
+    {
+      "pfad": "mab005.1/VL_Kapitel1_mab005_Handout_StudIP-Fassung.pdf",
+      "geaendert": "2026-10-11",
+      "art": "Handout (Original)",
+      "status": "verarbeitet",
+      "hinweis": "identisch mit der bisherigen Kapitel-1-Datei (dort nur Nadines Notiz auf Folie 15)"
+    },
+    {
+      "pfad": "mab005.1/VL_Kapitel1_mab005_Handout_mit_Anmerkungen.pdf",
+      "geaendert": "2026-11-05",
+      "art": "Handout mit Tafelanschrieben",
+      "status": "verarbeitet",
+      "sitzung": "mab005.1_2026-10-19",
+      "hinweis": "Abgleich 07.11.: alle Lösungen stimmen; Ergänzungen zu Folie 20, 25, 31, 35 eingetragen"
     }
   ]
 }

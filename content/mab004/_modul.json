@@ -43,7 +43,8 @@
         "mab004.2_2026-10-27",
         "mab004.1_2026-10-27",
         "mab004.2_2026-11-03",
-        "mab004.1_2026-11-03"
+        "mab004.1_2026-11-03",
+        "mab004.2_2026-11-10"
       ]
     },
     {
@@ -53,7 +54,8 @@
     {
       "text": "Algorithmen formulieren, als Programmablaufplan oder Struktogramm darstellen und einfache Algorithmen programmieren (z. B. VBA, Scratch).",
       "abgedeckt_in": [
-        "mab004.2_2026-10-13"
+        "mab004.2_2026-10-13",
+        "mab004.2_2026-11-10"
       ]
     },
     {
@@ -66,7 +68,8 @@
         "mab004.1_2026-10-13",
         "mab004.1_2026-10-20",
         "mab004.2_2026-10-27",
-        "mab004.1_2026-11-03"
+        "mab004.1_2026-11-03",
+        "mab004.2_2026-11-10"
       ]
     },
     {
@@ -76,7 +79,8 @@
         "mab004.1_2026-10-20",
         "mab004.2_2026-10-13",
         "mab004.2_2026-10-20",
-        "mab004.2_2026-10-27"
+        "mab004.2_2026-10-27",
+        "mab004.2_2026-11-10"
       ]
     },
     {
@@ -85,7 +89,8 @@
         "mab004.1_2026-10-13",
         "mab004.2_2026-10-13",
         "mab004.2_2026-10-20",
-        "mab004.1_2026-11-03"
+        "mab004.1_2026-11-03",
+        "mab004.2_2026-11-10"
       ]
     }
   ],
@@ -107,7 +112,8 @@
     "mab004.2_2026-10-27",
     "mab004.1_2026-10-27",
     "mab004.1_2026-11-03",
-    "mab004.2_2026-11-03"
+    "mab004.2_2026-11-03",
+    "mab004.2_2026-11-10"
   ],
   "klausurstil": {
     "quellen": [],
@@ -335,6 +341,62 @@
       "geaendert": "2026-11-01",
       "art": "Grundlagenliteratur (eBook)",
       "status": "später"
+    },
+    {
+      "pfad": "mab004.2/Sitzung_05/Blatt_5.pdf",
+      "geaendert": "2026-10-30",
+      "art": "Übungsblatt",
+      "status": "verarbeitet",
+      "sitzung": "mab004.2_2026-11-10"
+    },
+    {
+      "pfad": "mab004.2/Sitzung_05/Preiskalk_Computerhändler.xlsx",
+      "geaendert": "2026-10-30",
+      "art": "Excel-Datei G1",
+      "status": "verarbeitet",
+      "sitzung": "mab004.2_2026-11-10"
+    },
+    {
+      "pfad": "mab004.2/Sitzung_05/Rabatt_Rechnung.xlsx",
+      "geaendert": "2026-10-30",
+      "art": "Excel-Datei Ü3",
+      "status": "verarbeitet",
+      "sitzung": "mab004.2_2026-11-10"
+    },
+    {
+      "pfad": "mab004.2/Sitzung_05/Heron.pdf",
+      "geaendert": "2026-10-30",
+      "art": "Vorlage G2",
+      "status": "verarbeitet",
+      "sitzung": "mab004.2_2026-11-10"
+    },
+    {
+      "pfad": "mab004.2/Sitzung_05/Intervallhalbierung.pdf",
+      "geaendert": "2026-10-30",
+      "art": "Vorlage Ü5",
+      "status": "verarbeitet",
+      "sitzung": "mab004.2_2026-11-10"
+    },
+    {
+      "pfad": "mab004.2/Sitzung_05/Notenspiegel.pdf",
+      "geaendert": "2026-10-30",
+      "art": "Vorlage Ü2",
+      "status": "verarbeitet",
+      "sitzung": "mab004.2_2026-11-10"
+    },
+    {
+      "pfad": "mab004.2/Sitzung_05/Befragung_Getränke.pdf",
+      "geaendert": "2026-10-30",
+      "art": "Vorlage Ü4",
+      "status": "verarbeitet",
+      "sitzung": "mab004.2_2026-11-10"
+    },
+    {
+      "pfad": "mab004.2/Sitzung_05/summe_produkt_usw.pdf",
+      "geaendert": "2026-10-30",
+      "art": "Vorlage Ü6",
+      "status": "verarbeitet",
+      "sitzung": "mab004.2_2026-11-10"
     }
   ],
   "hinweise_material": [
@@ -417,5 +479,9 @@
       "stand": "2026-11-01",
       "hinweis": "Grundlage der Selbstlern-Anleitung VL 4 (Fußzeile); ISBN 978-3-86645-875-8"
     }
+  ],
+  "auffaelligkeiten": [
+    "Blatt 5: Tutorium bespricht laut Blatt Übungsaufgabe 4, laut Ankündigung (03.11.) Nr. 5.",
+    "Datei „Excel Befehlsübersicht“ (Blatt 5, Merke + Ü3 d) liegt nicht in Stud.IP."
   ]
 }

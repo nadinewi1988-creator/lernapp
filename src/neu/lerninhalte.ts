@@ -63,6 +63,7 @@ const esc = (t: string) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 const FORMEL = '\u0000F';
 function formelnRaus(t: string): { t: string; f: string[] } {
   const f: string[] = [];
+  t = t.replace(/(?<!!)\[([^\]\n]+)\]\((\/dateien\/[\w./-]+)\)/g, (_: string, x: string, u: string) => { f.push('<a class="lt-link" href="' + u + '" target="_blank" rel="noopener" download>' + esc(x) + '</a>'); return FORMEL + (f.length - 1) + '\u0000'; });
   t = t.replace(/`([^`\n]+)`/g, (_: string, x: string) => { f.push('<code class="lt-code">' + esc(x) + '</code>'); return FORMEL + (f.length - 1) + '\u0000'; });
   const put = (tex: string, block: boolean) => { f.push(katex.renderToString(tex, { throwOnError: false, displayMode: block, strict: false, output: 'html' })); return FORMEL + (f.length - 1) + '\u0000'; };
   t = t.replace(/\$\$([\s\S]+?)\$\$/g, (_, x) => put(x.trim(), true));

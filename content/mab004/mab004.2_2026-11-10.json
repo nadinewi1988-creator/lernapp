@@ -1,0 +1,583 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "mab004",
+  "teilmodul": "mab004.2",
+  "datum": "2026-11-10",
+  "sitzung_nr": 5,
+  "sitzung_id": "3dcc0127-b30c-44f5-ab27-b9b29790c856",
+  "thema": "Seminar 5 Tabellenkalkulation (Blatt 5)",
+  "thema_in_app": "",
+  "stand": "geprueft",
+  "quellen": [
+    {
+      "datei": "mab004.2/Sitzung_05/Blatt_5.pdf",
+      "art": "Übungsblatt",
+      "seiten": "1–6"
+    },
+    {
+      "datei": "mab004.2/Sitzung_05/Preiskalk_Computerhändler.xlsx",
+      "art": "Excel-Datei zu G1",
+      "seiten": "–"
+    },
+    {
+      "datei": "mab004.2/Sitzung_05/Rabatt_Rechnung.xlsx",
+      "art": "Excel-Datei zu Ü3",
+      "seiten": "–"
+    },
+    {
+      "datei": "mab004.2/Sitzung_05/Heron.pdf, Intervallhalbierung.pdf, Notenspiegel.pdf, Befragung_Getränke.pdf, summe_produkt_usw.pdf",
+      "art": "Vorlagen",
+      "seiten": "je 1–2"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Formeln in einer Kalkulation lesen, erklären und ergänzen; erkennen, warum feste Zahlen statt Formeln zu falschen Ergebnissen führen.",
+      "art": "abgeleitet",
+      "quelle": "G1, Ü3",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03",
+        "f04",
+        "f14"
+      ],
+      "erklaerung_abschnitt": "Formeln statt fester Zahlen – Kalkulieren mit Excel"
+    },
+    {
+      "text": "Abhängigkeiten zwischen Variablen als gerichteten Graphen darstellen, Variablen einteilen und in eine Tabelle mit Zellnamen übertragen.",
+      "art": "abgeleitet",
+      "quelle": "G3",
+      "fragen": [
+        "f08",
+        "f09",
+        "f10"
+      ],
+      "erklaerung_abschnitt": "Formeln statt fester Zahlen – Kalkulieren mit Excel"
+    },
+    {
+      "text": "Heron-Verfahren und Intervallhalbierung in Excel umsetzen (relative/absolute Bezüge, WENN, Abbruch mit Epsilon) und ihre Effizienz vergleichen.",
+      "art": "abgeleitet",
+      "quelle": "G2, Ü5",
+      "fragen": [
+        "f05",
+        "f06",
+        "f07",
+        "f18",
+        "f19",
+        "f20"
+      ],
+      "erklaerung_abschnitt": "Heron und Intervallhalbierung als Tabelle"
+    },
+    {
+      "text": "Daten mit MITTELWERT, ABS, WENN und relativen Häufigkeiten auswerten, Formatieren und Runden begründet wählen und passende Diagramme auswählen.",
+      "art": "abgeleitet",
+      "quelle": "Ü2, Ü4, Ü6",
+      "fragen": [
+        "f12",
+        "f13",
+        "f15",
+        "f16",
+        "f17",
+        "f21"
+      ],
+      "erklaerung_abschnitt": "Statistik mit Excel – Notenspiegel und Befragung"
+    },
+    {
+      "text": "Tabellenkalkulation erklären, Vorzüge und Einsatzmöglichkeiten nennen und den Einsatz im Mathematikunterricht der Sek I begründen.",
+      "art": "abgeleitet",
+      "quelle": "Ü1, Vernetzungsimpuls",
+      "fragen": [
+        "f11",
+        "f22"
+      ],
+      "erklaerung_abschnitt": "Worum es in Seminar 5 geht"
+    }
+  ],
+  "kurzfassung": [
+    "Blatt 5 übt VL 4 (Excel): Kalkulationen, Statistik und die Näherungsverfahren aus VL 3 als Tabelle.",
+    "Feste Zahlen statt Formeln rechnen nicht mit – das Ergebnis wird falsch, ohne Fehlermeldung (Computerhändler).",
+    "Ein gerichteter Graph zeigt, welche Variable welche beeinflusst; daraus wird die Tabelle mit sprechenden Zellnamen (Klassenfest).",
+    "Heron ist deutlich effizienter als die Intervallhalbierung: für dieselbe Genauigkeit 3–5 statt 13–36 Schritte.",
+    "\\$ hält feste Zellen (Zahl, Epsilon, n, Durchschnitt) beim Kopieren fest; WENN setzt Regeln wie Rabatt oder „bestanden“ um.",
+    "Relative Häufigkeiten formatieren, nicht runden – sonst stimmt die Summe 100 % nicht mehr."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Worum es in Seminar 5 geht",
+      "folien": "Blatt 5",
+      "text": "Seminar 5 übt die Excel-Werkzeuge aus **VL 4** an echten Aufgaben: Kalkulation (Computerhändler, Klassenfest, Rechnung mit Rabatt), Statistik (Notenspiegel, Getränke-Befragung) und die **Näherungsverfahren aus VL 3** (Heron, Intervallhalbierung) als Tabelle.\n\nDie Lösungen aller Aufgaben stehen in der Hausaufgabe „Übungsblatt 5“ (PDF und App). Zum Vergleichen gibt es eine **Excel-Musterlösung** mit einem Tabellenblatt je Aufgabe: [Excel-Musterlösung herunterladen](/dateien/mab004/S05_2026-11-10_Uebungsblatt-5_Excel-Musterloesung.xlsx) – sie liegt auch in mab004.2/Sitzung_05.\n\n**Kurz erklärt:** Auf dem Blatt kommen immer wieder dieselben vier Ideen vor: (1) **Formeln statt fester Zahlen**, damit alles mitrechnet; (2) **\\$ für feste Bezüge** beim Kopieren; (3) **WENN** für Entscheidungen; (4) **sprechende Namen und Spuren**, damit man sieht, was wovon abhängt."
+    },
+    {
+      "titel": "Formeln statt fester Zahlen – Kalkulieren mit Excel",
+      "folien": "G1, G3, Ü3",
+      "text": "**Idee:** Eine Kalkulation ist eine **Kette von Abhängigkeiten**: Kosten → Gesamtkosten, Einkaufspreis → Verkaufspreis → Einnahmen → Gewinn. Jede Stufe ist eine Formel, die auf die vorherige zeigt.\n\n- Steht irgendwo eine **feste Zahl statt einer Formel** (wie C17 und C21 in der Datei des Computerhändlers), rechnet diese Stelle nicht mit – das Ergebnis ist dann falsch, **ohne Fehlermeldung** (G1 d).\n- Der **gerichtete Graph** (G3) ist der Bauplan: Jeder Pfeil wird zu einem Zellbezug in einer Formel. **Unabhängige** Größen gibt man ein, **abhängige** berechnet Excel, die **Zielgröße** steht am Ende.\n- **WENN** setzt Regeln um, z. B. „ab 10 Stück 3 % Rabatt“: `=WENN(A4>9;A4*C4*0,97;A4*C4)` (Ü3).\n\n![Gerichteter Graph zum Klassenfest](/dateien/mab004/mab004.2_S05_Blatt5_03_G3-Graph-Klassenfest_Loesung.png)\n\n**Kurz erklärt:** Wer alles über Formeln verbindet, kann „Was wäre, wenn …?“ durchspielen – eine Zahl ändern, und Gewinn oder Kosten pro Person passen sich sofort an (Gewinn 5000 € in G1 f, Kosten ≤ 2,50 € in G3).\n\n**Prüfungsfalle:** Prozent als Faktor: 20 % Aufschlag = mal $1{,}2$, 3 % Rabatt = mal $0{,}97$."
+    },
+    {
+      "titel": "Heron und Intervallhalbierung als Tabelle",
+      "folien": "G2, Ü5",
+      "text": "**Idee:** Ein Näherungsverfahren wiederholt immer denselben Rechenschritt. In Excel schreibt man ihn **einmal** in eine Zeile und zieht ihn nach unten – jede Zeile ist ein Iterationsschritt.\n\n- **Heron:** `=(B5+$B$1/B5)/2` – der vorherige Wert wandert mit, die Zahl a (`$B$1`) bleibt fest.\n- **Intervallhalbierung:** `=WENN(G8<$B$2;D8;B8)` (neue untere Grenze) und `=WENN(G8<$B$2;C8;D8)` (neue obere Grenze).\n- **Abbruch:** `=ABS(neu-alt)` und der Vergleich `=…<$B$2` liefern WAHR, sobald sich der Wert kaum noch ändert.\n\n| Epsilon | √131 Intervallhalbierung | √131 Heron |\n|---|---|---|\n| 0,001 | 13 Schritte | 3 Schritte |\n| 0,0000001 | 26 Schritte | 4 Schritte |\n\n**Kurz erklärt:** Die Intervallhalbierung halbiert den Abstand pro Schritt – für jede Dezimalstelle mehr braucht sie 3–4 Schritte. Heron verdoppelt ungefähr die richtigen Stellen pro Schritt. Deshalb programmiert man in Geräten Heron (bzw. verwandte Verfahren).\n\n**So erkennst du es in der Klausur:** „Gib die Formel in Zeile … an, die man nach unten ziehen kann“ → auf \\$ bei allen festen Zellen (Zahl, Epsilon, Startwerte) achten."
+    },
+    {
+      "titel": "Statistik mit Excel – Notenspiegel und Befragung",
+      "folien": "Ü2, Ü4",
+      "text": "- **Notenspiegel:** `MITTELWERT` für den Durchschnitt, `=ABS(B2-$B$13)` für den Abstand, `WENN` für „bestanden“ und eine **verschachtelte WENN-Formel** für das Notenwort (sechs Prüfungen nacheinander).\n- **Befragung:** relative Häufigkeit `=B2/$B$9` – mit \\$, weil alle durch dasselbe n geteilt werden. **Formatieren statt runden**, sonst ergibt die Summe 101 % statt 100 %.\n- **Diagramm wählen:** Säulen, um ähnlich große Werte zu vergleichen; Kreis, um Anteile am Ganzen zu zeigen.\n\n![Säulen- und Kreisdiagramm der absoluten Häufigkeiten](/dateien/mab004/mab004.2_S05_Blatt5_07_U4-Diagramme_Loesung.png)\n\n**Prüfungsfalle:** Beim Sortieren immer **alle** zusammengehörigen Spalten markieren, sonst gehören die Noten plötzlich zu anderen Schülern."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Gerichteter Graph",
+      "wortlaut": "Ergänzung (auf dem Blatt nur genannt): Darstellung aus Knoten (hier Variablen) und Pfeilen; ein Pfeil von A nach B heißt „A beeinflusst B direkt“.",
+      "erklaerung": "Bauplan einer Kalkulation: Jeder Pfeil wird zu einem Zellbezug in der Formel der Zielzelle.",
+      "folie": "G3a"
+    },
+    {
+      "begriff": "Unabhängige und abhängige Variable",
+      "wortlaut": "Ergänzung (selbst erarbeitet): Unabhängige Variablen werden festgelegt (Eingabe), abhängige werden aus anderen berechnet.",
+      "erklaerung": "In Excel: unabhängige Variablen sind Eingabezellen, abhängige Variablen Formelzellen; die letzte berechnete Größe ist die Zielgröße.",
+      "folie": "G3b"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Übungsblatt 5 (Grundlagenaufgaben 1–4, Übungsaufgaben 1–6, Vernetzungsimpuls)",
+      "text": "Übungsblatt 5 – alle Aufgaben im Wortlaut (Lösungen unter „Lösung / Ausarbeitung“, als PDF und als Excel-Musterlösung):\n\n*Vorbemerkung: „Dieses Übungsblatt enthält Grundlagenaufgaben zur Bearbeitung im 5. Seminar und Übungsaufgaben zur Vorbereitung auf die Klausur. Aufgabe 4 der Übungsaufgaben wird ausführlich im Tutorium besprochen. Die Grundlagenaufgaben dienen der Nachbereitung der Vorlesung 4 und zur Vorbereitung auf die Übungsaufgaben auf diesem Blatt. Die Inhalte der Übungsaufgaben beziehen sich auf Vorlesung 4.“*\n\n*Merke: „Eine Übersicht über die benötigten Befehle finden Sie auf dem Aufgabenblatt zu Vorlesung 4 und in der Datei Excel Befehlsübersicht.“*\n\n## Grundlagenaufgaben\n\n*„Bringen Sie zum Seminar ein Gerät mit, auf dem eine Tabellenkalkulationssoftware verfügbar ist.“ – „Nutzen Sie überall dort wo es möglich ist Formeln zur automatischen Berechnung.“ – „Gestalten Sie die Tabellen ansprechend (Linien, Schriftart, …).“*\n\n**Grundlagenaufgabe 1:** *„Herr Merker will ein Computergeschäft eröffnen und kalkuliert deshalb seinen möglichen Gewinn. Die dazu notwendigen Größen notiert er in Form von Tabellen. Er erstellt je eine Tabelle für die Ausgaben (Kosten) und für die Einnahmen (siehe Abbildung). Die Berechnung der Einnahmen in Zelle C19 aus den verschiedenen Angaben erfolgt mithilfe der Formel, die in der Bearbeitungsleiste zu sehen ist. Die Ermittlung der Einnahmen übernimmt also das Tabellenkalkulationsprogramm. Herr Merker muss hier nicht selbst rechnen. So besteht keine Gefahr, dass er sich verrechnet.“*\n\n- a) *„Erläutern Sie die Formel in der Zelle C19 (siehe Bearbeitungszeile).“*\n- b) *„Welche Formeln könnten in den Zellen C11, C17 und C21 stehen.“*\n- c) *„Öffnen Sie die Datei Preiskalk_Computerhändler. Welche Formel steht in Zelle C11? Passt das zu Ihren Überlegungen?“*\n- d) *„Verändern Sie den Einkaufspreis in Zelle C15 in 1500,00 und beobachten Sie die Zellen C17 und C21. Was passiert? Was würden Sie erwarten?“*\n- e) *„Tragen Sie in die Zellen C17 und C21 passende Formeln ein. Ändern Sie den Wert in Zelle C15 wieder zurück in 1300,00.“*\n- f) *„Tragen Sie in die Tabellen Werte für einzelne Positionen ein. Überlegen (kalkulieren) Sie wie z. B. ein Gewinn von 5000 Euro (statt 3600 wie in der Abbildung) erzielt werden kann.“*\n- g) *„Fügen Sie im Bereich monatliche Kosten leere Zeilen ein: Eine Zeile (oder mehrere Zeilen) markieren und im Menü EINFÜGEN - ZEILEN wählen. Tragen Sie weitere Ausgaben ein - z, B. für Versicherungsprämien, Kosten wegen Ladendiebstahls, Nachlässe für Restposten und ähnliches. Es können z. B. Verdienstspanne, der Anteil verkaufter Geräte, die Kosten für Mitarbeiter oder die Werbungskosten geändert werden. Speichern Sie die Datei.“*\n\n**Grundlagenaufgabe 2:** *„Erstellen Sie mit Excel eine Datei zur näherungsweisen Berechnung eines Wurzelwertes mithilfe des Heron-Verfahrens analog zu Heron.pdf.“*\n- *„Setzen Sie überall dort, wo Excel automatische Berechnungen durchführen soll, Formeln ein. Insbesondere auch zur Berechnung der Näherungswert mit dem Heron-Verfahren, die mithilfe des Heronverfahrens berechnet wurden. Der Wert x0 kann als Startwert vorgegeben werden.“*\n- *„In der Spalte abs. Abstand soll der Abstand vom aktuell berechneten Näherungswert zum zuvor berechneten Näherungswert ausgegeben werden.“*\n- *„In der Spalte abs. Abstand < Epsilon soll in Abhängigkeit zu einem zuvor festgelegten Epsilon entschieden werden, ob der ermittelte absolute Abstand kleiner als der Epsilonwert ist.“*\n- *„Testen Sie das Verfahren, indem Sie auch aus anderen Zahlen die Wurzel ziehen. Denken Sie dabei daran auch die Startwerte anzupassen.“*\n\n**Grundlagenaufgabe 3:** *„Planen Sie die Kosten eines Klassenfestes. Es sollen für alle Bratwürste und Kartoffelsalat gekauft werden - Getränke bringt jede∗r selbst mit. Folgende Variablen sind zu berücksichtigen: Preis für 1 kg Kartoffelsalat · Anzahl Bratwürste · Gesamtmenge Kartoffelsalat · Bratwürste pro Person · Kosten pro Person · Anzahl Personen · Gesamtkosten · Kosten für Bratwürste · Preis einer Packung Bratwürste · Anzahl der Bratwürste pro Packung · Anzahl der Packungen Bratwürste · Kartoffelsalat pro Person · Kosten für Kartoffelsalat“*\n- a) *„Welche Variablen beeinflussen direkt welche anderen? Erstellen Sie einen sogenannten gerichteten Graphen, indem Sie die Variablen auf einem Blatt anordnen und mit Pfeilen kennzeichnen, welche Variable direkt welche andere Variable beeinflusst.“*\n- b) *„Welche Eigenschaften können die Variablen haben? Beschreiben Sie diese mit passenden Fachbegriffen. Notieren Sie für jede Variable den passenden Begriff.“*\n- c) *„Übertragen Sie den Graphen wie folgt in eine Tabellenkalkulation: Wählen Sie für jeden Variablennamen eine Zelle in die Sie den vollständigen Namen der Variablen schreiben. Unter dieser Zelle benötigen Sie eine weitere Zelle, der Sie im Namenfeld einen kurzen, aber passenden, Namen geben. Tragen Sie in diese Zellen (mit den neuen Zellennamen) einen passenden Wert oder eine passende Formel ein. Nutzen Sie in den Formeln die zuvor vergebenen Bezeichnungen. Lassen Sie für einige Zellen die Spur anzeigen. Welche Zellen wählen Sie dafür aus? Warum? Stellen Sie ein mögliches Szenario ein, das dazu führt, dass die Kosten pro Person 2,50 Euro nicht übersteigen.“*\n\n**Grundlagenaufgabe 4:** *„Bei Bedarf: Vorstellung und Besprechung einzelner Übungsaufgaben von Übungsblatt 4. Sonst: Ausgewählte Übungsaufgaben bearbeiten.“*\n\n## Übungsaufgaben\n\n*„Die Übungsaufgaben dienen der Nachbereitung der Vorlesung 4 und der Vorbereitung auf die Klausur. Zur Besprechung ausgewählter Aufgaben im Seminar, sprechen Sie Ihre Seminarleitung an und stellen Sie Ihre vorbereiteten Lösungen oder Lösungsansätze vor.“*\n\n**Übungsaufgabe 1:** a) *„Erklären Sie die Bezeichnung Tabellenkalkulationsprogramm und erläutern Sie die Vorzüge.“* b) *„Erläutern Sie an Beispielen, wo Sie sich den sinnvollen Einsatz eines Tabellenkalkulationsprogramms vorstellen können.“*\n\n**Übungsaufgabe 2:** *„Erstellen Sie mit Excel eine Datei analog zu Notenspiegel.pdf. Lassen Sie für drei ausgewählte Zellen in Abstand zum Notendurchschnitt die Spuren anzeigen, um die Abhängigkeit der Formeln von den Zellen sichtbar zu machen.“*\n\n**Übungsaufgabe 3:** *„Bei einem Computerhersteller werden Tabellen zur Rechnungserstellung verwandt, in denen nur noch die Anzahl der Artikel eingegeben werden muss. Beim Eintragen der Anzahlen in den einzelnen Zellen sollen die Gesamtpreise in der letzten Spalte erscheinen (siehe Abbildung).“*\n- a) *„Ein Einzelhändler macht folgende Bestellung: 20 Mainboard Asus · 5 Mainboard Gigabyte · 15 Festplatte IBM 60 GB · 15 Festplatte Seagate 80 GB · 25 Drucker · 12 Scanner · 20 AGP-Grafikkarte 64 MB. Öffnen Sie die Datei Rabatt_Rechnung.xlsx und tragen Sie die Anzahlen in die Tabelle ein.“*\n- b) *„Ermitteln Sie die Gesamtpreise unter Verwendung einer entsprechenden Formel und testen Sie diese durch Änderung der Anzahlen.“*\n- c) *„Lassen Sie in Zelle D11 die Gesamtsumme berechnen.“*\n- d) *„Ab der Anzahl 10 bei einem bestellten Artikel gewährt der Computerhersteller einen Rabatt von 3 %. Passen Sie Ihre Formeln für den Gesamtpreis entsprechend an. Verwenden Sie die WENN-Funktion (Hinweise dazu finden Sie auf Seite 18 in der Datei Excel Befehlsübersicht.pdf): =WENN(A...>9;Dann_Wert;Sonst_Wert). Als Dann_Wert ist die Formel zur Berechnung des Gesamtpreises für Anzahlen ab 10 einzugeben und als Sonst_Wert die Formel für Anzahlen kleiner als 10.“*\n\n**Übungsaufgabe 4:** *„Erstellen Sie mit Excel eine Datei analog zu Befragung Getränke.pdf. – Lassen Sie die relative Häufigkeit automatisch berechnen. Nutzen Sie in der Formel den \\$-Operator sinnvoll. – Erläutern Sie, ob Sie die relativen Häufigkeiten formatieren oder runden. – Lassen Sie die abgebildeten Diagramme erstellen. – Welches Diagramm halten Sie hier für geeigneter?“*\n\n**Übungsaufgabe 5:** a) *„Erstellen Sie mit Excel eine Datei analog zu Intervallhalbierung.pdf“* (Allgemeine Hinweise: Spalte abs. Abstand zum zuvor berechneten Näherungswert; Spalte abs. Abstand < Epsilon; *„Testen Sie die Verfahren, indem Sie auch aus anderen Zahlen die Wurzel ziehen. Denken Sie dabei daran auch die Startwerte anzupassen.“*; *„Setzen Sie das Dollarzeichen sinnvoll ein.“*) b) *„Vergleichen Sie das Verfahren mit dem Heron-Verfahren (Grundlagenaufgabe 2). Was sagt der Wahrheitswert (experimentieren Sie mit verschiedenen Epsilonwerten) in der letzten Spalte über die Effizienz der Verfahren aus. Welches der Verfahren würden Sie zum Wurzelziehen in einem digitalen Gerät programmieren?“*\n\n**Übungsaufgabe 6:** *„Betrachten Sie die Datei summe produkt usw.pdf. Ergänzen Sie Ihre Datei zu Aufgabe 6 aus der Vorlesung 4 (Excel zum Selbstlernen) um die weiteren Zeilen. Nutzen Sie auch hier für die Formeln einen zuvor definierten Zellennamen und setzen Sie überall dort, wo Excel automatische Berechnungen durchführen soll, Formeln ein. Überlegen Sie, welche Werte berechnet werden sollten.“*\n\n**Vernetzungsimpuls „Mathe vernetzen“:** *„Welche Gründe könnten Sie sich vorstellen, ein Verfahren zum Wurzelziehen mit SuS in der Sek 1 mit Excel nachzustellen? Wenn man Verfahren zum Wurzelziehen im Unterricht der Sek 1 thematisieren würde, dann wäre ein möglicher Zeitpunkt bei der Einführung zum Wurzelziehen im Unterricht. Welche weiteren Zeitpunkte in der Sek 1 können Sie sich vorstellen? Welche Kompetenzen könnten aus Ihrer Sicht dabei gefördert werden?“*",
+      "quelle": "Übungsblatt 5 + Zusatzdateien (Stud.IP 30.10.2026)",
+      "loesung": "*Vorbemerkung des Blatts: „Dieses Übungsblatt enthält Grundlagenaufgaben zur Bearbeitung im 5. Seminar und Übungsaufgaben zur Vorbereitung auf die Klausur. Aufgabe 4 der Übungsaufgaben wird ausführlich im Tutorium besprochen. Die Grundlagenaufgaben dienen der Nachbereitung der Vorlesung 4 und zur Vorbereitung auf die Übungsaufgaben auf diesem Blatt.“* Alle Tabellen gibt es fertig zum Vergleichen in der **Excel-Musterlösung** (Datei `S05_2026-11-10_Uebungsblatt-5_Excel-Musterloesung.xlsx` in Sitzung_05, ein Tabellenblatt je Aufgabe).\n\n### Das brauchst du für dieses Blatt (aus Vorlesung 3 und 4)\n\n> **Formel:** *„Jede Formel beginnt mit einem Gleichheitszeichen und wird mit der Eingabetaste abgeschlossen.“* (VL 4, S. 2). Rechenzeichen: `+` `-` `*` (mal) `/` (geteilt) `^` (hoch).\n\n> **Relativer und absoluter Bezug:** Ohne \\$ wandert ein Zellbezug beim Kopieren mit (`B5` → `B6`). *„Das \\$-Zeichen vor einem Spalten- oder Zeilenbezeichner bewirkt, dass sich die entsprechende Spalte oder Zeile beim Kopieren nicht verändert.“* (VL 4, S. 8) – `$B$1` bleibt immer `$B$1`.\n\n> **Funktionen (VL 4, S. 7–9):** `SUMME(…)` addiert · `MITTELWERT(…)` Durchschnitt · `ABS(Zahl)` Betrag (Zahl ohne Vorzeichen) · `RUNDEN(Zahl;Stellen)` rundet kaufmännisch · `WENN(Prüfung;Dann_Wert;Sonst_Wert)` entscheidet; Text in „…“. Ein Vergleich wie `=C6<$B$2` liefert direkt **WAHR** oder **FALSCH**.\n\n> **Zellnamen (VL 4, S. 3–4):** Im Namenfeld kann eine Zelle (oder eine ganze Zeile) einen Namen bekommen; Formeln können dann `=Länge*Breite` statt `=B2*B3` heißen. Bei benannten Zeilen steht `@` davor.\n\n> **Heron-Verfahren (VL 3, Folie 48–50):** $x_{i+1} = \\frac{x_i + \\frac{a}{x_i}}{2}$ – Mittelwert aus Schätzung und „a geteilt durch Schätzung“.\n\n> **Intervallhalbierung (VL 3, Folie 42–47):** Mitte $m = \\frac{a+b}{2}$; ist $m^2$ kleiner als die Zahl, wird m die neue untere Grenze a, sonst die neue obere Grenze b.\n\n---neue-seite---\n\n## Grundlagenaufgaben\n\n### Grundlagenaufgabe 1\n\n**Grundlagenaufgabe 1 (Text):** *„Herr Merker will ein Computergeschäft eröffnen und kalkuliert deshalb seinen möglichen Gewinn. … Die Berechnung der Einnahmen in Zelle C19 aus den verschiedenen Angaben erfolgt mithilfe der Formel, die in der Bearbeitungsleiste zu sehen ist.“*\n\n![Abbildung des Blatts (Datei Preiskalk_Computerhändler): Kosten oben, Einnahmen unten, in C19 die Formel =C18*(C17-C15)](/dateien/mab004/mab004.2_S05_Blatt5_01_G1-Preiskalkulation-Vorlage.png)\n\n**Grundlagenaufgabe 1a:** *„Erläutern Sie die Formel in der Zelle C19 (siehe Bearbeitungszeile).“*\n\n**Antwort:** `=C18*(C17-C15)` heißt **Stückzahl · (Verkaufspreis − Einkaufspreis)**.\n- Die Klammer wird zuerst gerechnet: Das ist, was Herr Merker **an einem Computer verdient**: $1560 - 1300 = 260$ €.\n- Mal 30 verkaufte Stück: $30 \\cdot 260 = 7800$ €.\n\n„Einnahmen“ meint hier also den Rohgewinn aus dem Verkauf, nicht den Umsatz (der wäre $30 \\cdot 1560 = 46\\,800$ €).\n\n**Grundlagenaufgabe 1b:** *„Welche Formeln könnten in den Zellen C11, C17 und C21 stehen.“*\n\n**Antwort:**\n- **C11:** `=SUMME(C5:C10)` → $1100 + 450 + 300 + 750 + 340 + 1200 = 4140$ (alle Kosten zusammenzählen).\n- **C17:** `=C15*(1+C16/100)` → $1300 \\cdot 1{,}2 = 1560$ (20 % Aufschlag heißt mal $1{,}2$; gleichwertig `=C15+C15*C16/100`).\n- **C21:** `=C19-C11` → $7800 - 4140 = 3660$ (Gewinn = Einnahmen − Kosten).\n\n**Grundlagenaufgabe 1c:** *„Öffnen Sie die Datei Preiskalk_Computerhändler. Welche Formel steht in Zelle C11? Passt das zu Ihren Überlegungen?“*\n\n**Antwort:** In C11 steht `=SUMME(C5:C10)` (im englischen Excel `=SUM(C5:C10)`). Das passt zu b).\n\n**Grundlagenaufgabe 1d:** *„Verändern Sie den Einkaufspreis in Zelle C15 in 1500,00 und beobachten Sie die Zellen C17 und C21. Was passiert? Was würden Sie erwarten?“*\n\n**Antwort:**\n- **Was passiert:** C17 bleibt **1560**, C21 bleibt **3660** – nur C19 ändert sich auf $30 \\cdot (1560 - 1500) = 1800$.\n- **Erwartet:** Verkaufspreis $1500 \\cdot 1{,}2 = 1800$, Einnahmen $30 \\cdot 300 = 9000$, Gewinn $9000 - 4140 = 4860$.\n- **Grund:** In C17 und C21 stehen in der Datei **feste Zahlen statt Formeln** – sie rechnen nicht mit. Die Tabelle zeigt jetzt einen falschen Gewinn, ohne dass es auffällt.\n\n**Grundlagenaufgabe 1e:** *„Tragen Sie in die Zellen C17 und C21 passende Formeln ein. Ändern Sie den Wert in Zelle C15 wieder zurück in 1300,00.“*\n\n**Antwort:** C17: `=C15*(1+C16/100)`, C21: `=C19-C11`. Probe: Mit 1500 zeigt C21 jetzt **4860**; zurück auf 1300 wieder **3660**.\n\n**Grundlagenaufgabe 1f:** *„Tragen Sie in die Tabellen Werte für einzelne Positionen ein. Überlegen (kalkulieren) Sie wie z. B. ein Gewinn von 5000 Euro (statt 3600 wie in der Abbildung) erzielt werden kann.“*\n\n**Antwort** *(selbst erarbeitet)*: Gesucht sind Einnahmen von $5000 + 4140 = 9140$ €.\n\n| Szenario | Änderung | Gewinn |\n|---|---|---|\n| mehr verkaufen | Stückzahl 36: $36 \\cdot 260 = 9360$ | **5220 €** |\n| höherer Aufschlag | Verdienstspanne 23,5 %: Preis 1605,50, $30 \\cdot 305{,}50 = 9165$ | **5025 €** |\n| sparen + mehr verkaufen | Werbung 0, Stückzahl 33: $8580 - 3840$ | 4740 € (reicht noch nicht) |\n\nStückzahl: $9140 : 260 \\approx 35{,}2$ → mindestens **36** Computer.\n\n**Grundlagenaufgabe 1g:** *„Fügen Sie im Bereich monatliche Kosten leere Zeilen ein … Tragen Sie weitere Ausgaben ein … Speichern Sie die Datei.“*\n\n**Antwort:** Zeile 10 (Gehalt) markieren → Rechtsklick „Zellen einfügen“ bzw. Registerkarte **Start** – Gruppe **Zellen** – **Einfügen** – Blattzeilen einfügen (den Menüpunkt „EINFÜGEN – ZEILEN“ gibt es nur im alten Excel). Beispiel *(eigene Werte)*: Versicherung 120 €, Ladendiebstahl 80 €, Nachlässe Restposten 150 € → Gesamtkosten **4490 €**, Gewinn $7800 - 4490 =$ **3310 €**.\n\n**Prüfungsfalle:** Zeilen **innerhalb** des Summenbereichs einfügen (über Zeile 10) – dann erweitert Excel `=SUMME(C5:C10)` selbst. Unter C10 eingefügte Zeilen liegen außerhalb der Summe – falsche Gesamtkosten ohne Fehlermeldung.\n\n### Grundlagenaufgabe 2\n\n**Grundlagenaufgabe 2:** *„Erstellen Sie mit Excel eine Datei zur näherungsweisen Berechnung eines Wurzelwertes mithilfe des Heron-Verfahrens analog zu Heron.pdf.“* (Hinweise siehe oben.)\n\n![Vorlage Heron.pdf: Wurzel aus 2, Epsilon 0,0000001, Startwert 10](/dateien/mab004/mab004.2_S05_Blatt5_02_G2-Heron-Vorlage.png)\n\n**Antwort:**\n\n| | A | B | C | D |\n|---|---|---|---|---|\n| 1 | Wurzel aus | **2** | | |\n| 2 | Epsilon | **0,0000001** | | |\n| 4 | i | xi | abs. Abstand | abs. Abstand < Epsilon |\n| 5 | 0 | **10** (Startwert) | | |\n| 6 | `=A5+1` | `=(B5+$B$1/B5)/2` | `=ABS(B6-B5)` | `=C6<$B$2` |\n| 7–12 | Zeile 6 nach unten ziehen | | | |\n\n- **B6** ist die Heron-Formel: `B5` (vorheriger Wert) wandert mit, `$B$1` (die Zahl a) bleibt fest.\n- **C6:** Betrag des Abstands zum vorherigen Näherungswert.\n- **D6:** Vergleich – Excel schreibt **WAHR** oder **FALSCH** (kein WENN nötig).\n\nErgebnis (wie Heron.pdf, nachgerechnet): 5,1 → 2,74607843 → 1,73719487 → 1,44423809 → 1,41452566 → 1,4142136 → **1,41421356**; erst bei **i = 7** ist der Abstand $0{,}00000003 < 0{,}0000001$ → **WAHR**.\n\n**Test mit anderen Zahlen** *(selbst gerechnet)*: √131 mit Startwert 10: 11,55 → 11,44599567 → 11,44552315 → 11,44552314, WAHR schon bei **i = 4**. Startwert anpassen = eine Zahl nehmen, deren Quadrat in der Nähe liegt (für 131: 11 oder 12, denn $11^2 = 121$, $12^2 = 144$). **Nie 0** als Startwert – dann teilt Excel durch 0 (**#DIV/0!**).\n\n**Kurz erklärt:** Der Abstand wird zum **vorherigen** Wert gemessen, nicht zur echten Wurzel – die kennt der Rechner ja nicht. Er hört auf, wenn sich die Zahlen kaum noch ändern.\n\n### Grundlagenaufgabe 3\n\n**Grundlagenaufgabe 3a:** *„Welche Variablen beeinflussen direkt welche anderen? Erstellen Sie einen sogenannten gerichteten Graphen …“*\n\n**Antwort:**\n\n![Lösung: gerichteter Graph – grün = unabhängig (Eingabe), gelb = abhängig (Zwischenergebnis), rot = Zielgröße](/dateien/mab004/mab004.2_S05_Blatt5_03_G3-Graph-Klassenfest_Loesung.png)\n\n- Anzahl Personen + Bratwürste pro Person → Anzahl Bratwürste\n- Anzahl Bratwürste + Bratwürste pro Packung → Anzahl der Packungen\n- Anzahl der Packungen + Preis einer Packung → Kosten für Bratwürste\n- Anzahl Personen + Kartoffelsalat pro Person → Gesamtmenge Kartoffelsalat\n- Gesamtmenge + Preis für 1 kg → Kosten für Kartoffelsalat\n- Kosten Bratwürste + Kosten Kartoffelsalat → Gesamtkosten\n- Gesamtkosten + Anzahl Personen → Kosten pro Person\n\n**Grundlagenaufgabe 3b:** *„Welche Eigenschaften können die Variablen haben? Beschreiben Sie diese mit passenden Fachbegriffen. Notieren Sie für jede Variable den passenden Begriff.“*\n\n**Antwort** ⚠ *(selbst erarbeitet – auf dem Blatt keine Vorgabe)*:\n\n| Begriff | Bedeutung | Variablen |\n|---|---|---|\n| **unabhängig** (Eingabe, Parameter) | wird festgelegt, kein Pfeil führt hinein | Anzahl Personen, Bratwürste pro Person, Bratwürste pro Packung, Preis einer Packung, Kartoffelsalat pro Person, Preis für 1 kg |\n| **abhängig** (Zwischenergebnis) | wird berechnet und beeinflusst weitere | Anzahl Bratwürste, Anzahl der Packungen, Kosten Bratwürste, Gesamtmenge Kartoffelsalat, Kosten Kartoffelsalat, Gesamtkosten |\n| **Zielgröße** (Ausgabe) | wird berechnet, beeinflusst nichts mehr | Kosten pro Person |\n\nAußerdem nach **Art der Zahl**: **ganzzahlig** (Personen, Würste, Packungen) oder **Dezimalzahl** (Preise, kg, Kosten).\n\n**Grundlagenaufgabe 3c:** *„Übertragen Sie den Graphen wie folgt in eine Tabellenkalkulation: …“*\n\n**Antwort:**\n\n| voller Name | Kurzname | Wert / Formel |\n|---|---|---|\n| Anzahl Personen | `Personen` | 25 |\n| Bratwürste pro Person | `WurstProPerson` | 2 |\n| Anzahl Bratwürste | `Wuerste` | `=Personen*WurstProPerson` |\n| Anzahl der Bratwürste pro Packung | `ProPackung` | 10 |\n| Anzahl der Packungen | `Packungen` | `=AUFRUNDEN(Wuerste/ProPackung;0)` |\n| Preis einer Packung | `PreisPackung` | 4,99 |\n| Kosten für Bratwürste | `KostenWurst` | `=Packungen*PreisPackung` |\n| Kartoffelsalat pro Person (kg) | `SalatProPerson` | 0,2 |\n| Gesamtmenge Kartoffelsalat | `SalatGesamt` | `=Personen*SalatProPerson` |\n| Preis für 1 kg | `PreisKg` | 3,99 |\n| Kosten für Kartoffelsalat | `KostenSalat` | `=SalatGesamt*PreisKg` |\n| Gesamtkosten | `Gesamt` | `=KostenWurst+KostenSalat` |\n| Kosten pro Person | `ProPerson` | `=Gesamt/Personen` |\n\n`AUFRUNDEN` (Ergänzung) rundet immer nach oben – es gibt keine halbe Packung. Kurznamen ohne Leerzeichen und Umlaute.\n\n**Spur:** „Spur zum Vorgänger“ mehrmals auf **Kosten pro Person** – der ganze Graph erscheint rückwärts. „Spur zum **Nachfolger**“ auf **Anzahl Personen** – sie beeinflusst drei Größen direkt. Grund: Zellen am Ende bzw. Anfang langer Ketten zeigen die meisten Abhängigkeiten.\n\n**Szenario ≤ 2,50 € pro Person** *(selbst erarbeitet)*: 25 Personen, 2 Würste pro Person, 10er-Packung 4,99 €, 0,2 kg Salat zu 3,99 €/kg → 50 Würste, 5 Packungen = 24,95 €; 5 kg Salat = 19,95 €; Gesamt 44,90 € → $\\frac{44{,}90}{25} \\approx$ **1,80 € pro Person** ✓ (zum Vergleich: 3 Würste, 5er-Packung 3,99 €, 0,25 kg zu 4,99 € → 3,64 € pro Person).\n\n### Grundlagenaufgabe 4\n\n**Grundlagenaufgabe 4:** *„Bei Bedarf: Vorstellung und Besprechung einzelner Übungsaufgaben von Übungsblatt 4. Sonst: Ausgewählte Übungsaufgaben bearbeiten.“*\n\n**Antwort:** Keine eigene Aufgabe – Lösungen zu Blatt 4 siehe Hausaufgabe „Übungsblatt 4“ (Sitzung 03.11.).\n\n## Übungsaufgaben\n\n### Übungsaufgabe 1\n\n**Übungsaufgabe 1a:** *„Erklären Sie die Bezeichnung Tabellenkalkulationsprogramm und erläutern Sie die Vorzüge.“*\n\n**Antwort:** **Tabelle** – Daten in Zeilen und Spalten, jede Zelle hat eine Adresse; **Kalkulation** – das Programm rechnet selbst mit Formeln und Funktionen; **Programm** – Software. Laut VL 4: *„eine Software für die interaktive Eingabe und Verarbeitung von numerischen und alphanumerischen Daten in Tabellenform“*, meist mit Diagrammen.\n\nVorzüge: automatisch und fehlerfrei rechnen · sofort neu rechnen bei jeder Änderung („Was wäre, wenn …?“) · Formeln einmal schreiben und kopieren · viele Daten sortieren, zählen, Durchschnitt bilden · Diagramme direkt aus den Zahlen · Formeln durchschaubar machen (Formeln anzeigen, Spur, Zellnamen).\n\n**Übungsaufgabe 1b:** *„Erläutern Sie an Beispielen, wo Sie sich den sinnvollen Einsatz eines Tabellenkalkulationsprogramms vorstellen können.“*\n\n**Antwort** *(selbst erarbeitet)*: **Unterricht:** Näherungsverfahren (Heron, Intervallhalbierung), Zinsrechnung, Funktionstabellen mit Graph, Umfragen auswerten, Zufallsexperimente simulieren · **Lehrkraft:** Notenliste mit Durchschnitt, Klassenkasse, Klassenfahrt kalkulieren · **Alltag/Beruf:** Haushaltsbuch, Rechnungen mit Rabatt, Preiskalkulation. Faustregel: lohnt sich, wenn dieselbe Rechnung oft vorkommt oder man Werte ausprobieren will.\n\n### Übungsaufgabe 2\n\n**Übungsaufgabe 2:** *„Erstellen Sie mit Excel eine Datei analog zu Notenspiegel.pdf. Lassen Sie für drei ausgewählte Zellen in Abstand zum Notendurchschnitt die Spuren anzeigen, um die Abhängigkeit der Formeln von den Zellen sichtbar zu machen.“*\n\n![Vorlage Notenspiegel.pdf](/dateien/mab004/mab004.2_S05_Blatt5_04_U2-Notenspiegel-Vorlage.png)\n\n**Antwort** (Schüler in Zeile 2 bis 11, Durchschnitt in B13):\n- Abstand C2: `=ABS(B2-$B$13)` · bestanden D2: `=WENN(B2>4;\"nicht bestanden\";\"bestanden\")`\n- Notenwort E2: `=WENN(B2=1;\"Sehr gut\";WENN(B2=2;\"gut\";WENN(B2=3;\"befriedigend\";WENN(B2=4;\"ausreichend\";WENN(B2=5;\"mangelhaft\";\"ungenügend\")))))`\n- Durchschnitt B13: `=MITTELWERT(B2:B11)` → $\\frac{31}{10} = 3{,}1$\n\n| Schüler | Note | Abstand | bestanden? | Notenwort |\n|---|---|---|---|---|\n| Edgar | 4 | 0,9 | bestanden | ausreichend |\n| Alexander | 3 | 0,1 | bestanden | befriedigend |\n| Nathan | 5 | 1,9 | nicht bestanden | mangelhaft |\n| Kathrin | 2 | 1,1 | bestanden | gut |\n| Jessica | 2 | 1,1 | bestanden | gut |\n| Michael | 3 | 0,1 | bestanden | befriedigend |\n| Sabrina | 3 | 0,1 | bestanden | befriedigend |\n| Manuel | 1 | 2,1 | bestanden | Sehr gut |\n| Sandra | 2 | 1,1 | bestanden | gut |\n| Tanja | 6 | 2,9 | nicht bestanden | ungenügend |\n\n**Sortierte Tabelle:** Namen und Noten kopieren, „Inhalte einfügen → Werte“, beide Spalten markieren, Registerkarte **Daten** – **Sortieren** A–Z: Alexander 3, Edgar 4, Jessica 2, Kathrin 2, Manuel 1, Michael 3, Nathan 5, Sabrina 3, Sandra 2, Tanja 6.\n\n**Spuren** z. B. für C2, C5, C9 (Formeln – Spur zum Vorgänger): Jeder Pfeil kommt von der eigenen Note **und** immer von B13 – alle Abstände hängen vom einen Durchschnitt ab (Wirkung von `$B$13`).\n\n**Prüfungsfalle Sortieren:** immer Name **und** Note markieren, sonst werden die Noten falschen Schülern zugeordnet.\n\n### Übungsaufgabe 3\n\n**Übungsaufgabe 3:** *„Bei einem Computerhersteller werden Tabellen zur Rechnungserstellung verwandt …“*\n\n![Abbildung des Blatts (Datei Rabatt_Rechnung.xlsx)](/dateien/mab004/mab004.2_S05_Blatt5_05_U3-Rabatt-Vorlage.png)\n\n**Übungsaufgabe 3a:** *„… Öffnen Sie die Datei Rabatt_Rechnung.xlsx und tragen Sie die Anzahlen in die Tabelle ein.“*\n\n**Antwort:** A4 bis A10: 20, 5, 15, 15, 25, 12, 20.\n\n**Übungsaufgabe 3b:** *„Ermitteln Sie die Gesamtpreise unter Verwendung einer entsprechenden Formel und testen Sie diese durch Änderung der Anzahlen.“*\n\n**Antwort:** D4: `=A4*C4` (Anzahl · Einzelpreis), bis D10 ziehen. Test: A5 auf 6 → D5 von 680 € auf 816 €.\n\n**Übungsaufgabe 3c:** *„Lassen Sie in Zelle D11 die Gesamtsumme berechnen.“*\n\n**Antwort:** D11: `=SUMME(D4:D10)` → **19 932,00 €** (ohne Rabatt).\n\n**Übungsaufgabe 3d:** *„Ab der Anzahl 10 bei einem bestellten Artikel gewährt der Computerhersteller einen Rabatt von 3 %. … Verwenden Sie die WENN-Funktion …“*\n\n**Antwort:** D4: `=WENN(A4>9;A4*C4*0,97;A4*C4)`, bis D10 ziehen. „Ab 10“ = „größer als 9“; 3 % weniger = mal $0{,}97$.\n\n| Anzahl | Artikel | Einzelpreis | Gesamtpreis |\n|---|---|---|---|\n| 20 | Mainboard Asus | 86,00 € | 1 668,40 € |\n| 5 | Mainboard Gigabyte | 136,00 € | 680,00 € (kein Rabatt) |\n| 15 | Festplatte IBM 60 GB | 174,00 € | 2 531,70 € |\n| 15 | Festplatte Seagate 80 GB | 220,00 € | 3 201,00 € |\n| 25 | Drucker | 230,00 € | 5 577,50 € |\n| 12 | Scanner | 106,00 € | 1 233,84 € |\n| 20 | AGP-Grafikkarte 64 MB | 230,00 € | 4 462,00 € |\n| | | **Summe D11** | **19 354,44 €** |\n\nErsparnis $19\\,932 - 19\\,354{,}44 = 577{,}56$ €. *Ergänzung:* Rabatt in eigene Zelle (F1 = 3 %) und `=WENN(A4>9;A4*C4*(1-$F$1);A4*C4)` – dann muss bei einer Rabattänderung nur F1 geändert werden.\n\n### Übungsaufgabe 4\n\n**Übungsaufgabe 4:** *„Erstellen Sie mit Excel eine Datei analog zu Befragung Getränke.pdf. …“*\n\n![Vorlage Befragung_Getränke.pdf](/dateien/mab004/mab004.2_S05_Blatt5_06_U4-Befragung-Vorlage.png)\n\n**„Lassen Sie die relative Häufigkeit automatisch berechnen. Nutzen Sie in der Formel den \\$-Operator sinnvoll.“** – C2: `=B2/$B$9`, bis C7 ziehen. `B2` wandert mit (jedes Getränk), `$B$9` (n = 400) bleibt fest. Ohne \\$ stünde in C3 `=B3/B10` → **#DIV/0!**. Ergebnis: 17,50 %, 32,00 %, 17,25 %, 14,50 %, 18,50 %, 0,25 % (Summe 100 %).\n\n**„Erläutern Sie, ob Sie die relativen Häufigkeiten formatieren oder runden.“** – **Formatieren** (Prozent, 2 Nachkommastellen): Excel rechnet mit den vollständigen Werten weiter, die Summe bleibt genau 100 %. Auf ganze Prozent **gerundet** ergäbe sich $18 + 32 + 17 + 15 + 19 + 0 = 101\\,\\%$.\n\n**„Lassen Sie die abgebildeten Diagramme erstellen.“** – A1:B7 markieren → Einfügen → Säule bzw. Kreis; beim Kreis Datenbeschriftungen mit Rubrikenname, Wert und Prozentsatz. Beide Diagramme der Vorlage zeigen die **absoluten** Häufigkeiten.\n\n![Lösung: Säulen- und Kreisdiagramm der absoluten Häufigkeiten](/dateien/mab004/mab004.2_S05_Blatt5_07_U4-Diagramme_Loesung.png)\n\n**„Welches Diagramm halten Sie hier für geeigneter?“** *(selbst erarbeitet)* – Das **Säulendiagramm**: Kakao (70), Saft (69) und Tee (74) sind fast gleich groß; das sieht man an Säulen sofort, im Kreis kaum, und „nichts“ (1) ist im Kreis nur ein Strich. Das Kreisdiagramm passt, wenn der **Anteil am Ganzen** betont werden soll („ein Drittel trinkt Milch“). Beides ist mit Begründung vertretbar.\n\n### Übungsaufgabe 5\n\n**Übungsaufgabe 5a:** *„Erstellen Sie mit Excel eine Datei analog zu Intervallhalbierung.pdf“*\n\n![Vorlage Intervallhalbierung.pdf: Wurzel aus 131, Startintervall 10 bis 20, Epsilon 0,001](/dateien/mab004/mab004.2_S05_Blatt5_08_U5-Intervallhalbierung-Vorlage.png)\n\n**Antwort:** Eingaben B2 Zahl 131, B3 a = 10, B4 b = 20, L4 Epsilon 0,001; Ausgabe L2: `=H28` (nach 20 Schritten).\n\n| Spalte | Zeile 8 (Iteration 0) | Zeile 9 (dann bis Zeile 28 ziehen) |\n|---|---|---|\n| A Iteration | 0 | `=A8+1` |\n| B a | `=$B$3` | `=WENN(G8<$B$2;D8;B8)` |\n| C b | `=$B$4` | `=WENN(G8<$B$2;C8;D8)` |\n| D m=(a+b)/2 | `=(B8+C8)/2` | `=(B9+C9)/2` |\n| E a², F b², G m² | `=B8^2`, `=C8^2`, `=D8^2` | ebenso |\n| H Näherungswert | `=D8` | `=D9` |\n| I abs. Abstand | – | `=ABS(H9-H8)` |\n| J abs. Abstand < Epsilon | – | `=I9<$L$4` |\n\n\\$ nur bei Zellen, die für alle Zeilen gleich sind (Zahl, Startwerte, Epsilon). Ergebnis wie Vorlage: Näherungswert **11,44552708**, WAHR ab **Iteration 13** (0,000610). Für andere Zahlen gilt: $a^2 <$ Zahl $< b^2$, z. B. √2 mit a = 1, b = 2.\n\n**Übungsaufgabe 5b:** *„Vergleichen Sie das Verfahren mit dem Heron-Verfahren (Grundlagenaufgabe 2). Was sagt der Wahrheitswert … über die Effizienz der Verfahren aus. Welches der Verfahren würden Sie zum Wurzelziehen in einem digitalen Gerät programmieren?“*\n\n**Antwort** – Schritte bis zum ersten WAHR *(selbst gerechnet)*:\n\n| Epsilon | √131 Intervallh. (10–20) | √131 Heron (10) | √2 Intervallh. (1–2) | √2 Heron (10) |\n|---|---|---|---|---|\n| 0,1 | 6 | 3 | 3 | 5 |\n| 0,001 | 13 | 3 | 9 | 6 |\n| 0,00001 | 19 | 4 | 16 | 7 |\n| 0,0000001 | 26 | 4 | 23 | 7 |\n| 0,0000000001 | 36 | 5 | 33 | 8 |\n\nIntervallhalbierung: je weitere Dezimalstelle etwa 3–4 Schritte mehr (der Abstand halbiert sich nur). Heron: noch mehr Genauigkeit kostet kaum Schritte (die Zahl der richtigen Stellen verdoppelt sich etwa pro Schritt). **Heron ist deutlich effizienter** und wäre die Wahl für ein digitales Gerät: weniger Schritte, weniger Rechenzeit, einfache Rechenschritte. Die Intervallhalbierung ist leichter zu verstehen und braucht ein passendes Startintervall.\n\n**Prüfungsfalle:** „Abstand < Epsilon“ heißt nur, dass sich der Wert kaum noch ändert – nicht automatisch, dass der Fehler zur echten Wurzel so klein ist (bei der Intervallhalbierung ist er aber höchstens so groß, weil die Wurzel im Intervall liegt).\n\n### Übungsaufgabe 6\n\n**Übungsaufgabe 6:** *„Betrachten Sie die Datei summe produkt usw.pdf. Ergänzen Sie Ihre Datei zu Aufgabe 6 aus der Vorlesung 4 …“*\n\n![Vorlage summe_produkt_usw.pdf](/dateien/mab004/mab004.2_S05_Blatt5_09_U6-Summe-Produkt-Vorlage.png)\n\n**Antwort:** Gemeint ist die Tabelle aus **VL 4, Teil 6** (Formatieren oder Runden). Eingegeben werden Summand1/2, Minuend, Subtrahend, Faktor1/2, Dividend, Divisor; jede Eingabezeile (B:G) bekommt einen Namen. Berechnet werden:\n- Summe `=@Summand1+@Summand2` · Differenz `=@Minuend-@Subtrahend` · Produkt `=@Faktor1*@Faktor2`\n- Quotient `=@Dividend/@Divisor` (Zeile heißt `Quotient`)\n- Quotient formatiert `=@Quotient` (2 Nachkommastellen formatiert, Zeile `QuotFormatiert`) · gerundet `=RUNDEN(@Quotient;2)` (Zeile `QuotGerundet`)\n- Abstand `=@QuotFormatiert-@QuotGerundet` (8 Nachkommastellen)\n\nErgebnisse wie Vorlage, z. B. Summen 8,3456 · 25,3214456 · 10,5555556 · 11,5559944 · 16 · 18; Produkte 340,2 · 3,23 · 12 · 260 · 23349 · **396** (fehlt in der Vorlage). Negativer Abstand (−0,00209302 bei $\\frac{543}{43} = 12{,}627\\ldots$): Hier wurde **aufgerundet**, der gespeicherte Wert ist kleiner als der gerundete; die Vorlage rechnet ohne ABS. Namen nicht wie Zelladressen oder Funktionen wählen (deshalb „QuotGerundet“ statt „Runden“).\n\n### Vernetzungsimpuls „Mathe vernetzen“\n\n**Frage 1:** *„Welche Gründe könnten Sie sich vorstellen, ein Verfahren zum Wurzelziehen mit SuS in der Sek 1 mit Excel nachzustellen?“*\n\n**Antwort** *(selbst erarbeitet)*: Der Taschenrechner wird durchschaubar (keine Black Box) · irrationale Zahlen erleben (√2 hört nie auf) · viele Schritte ohne Rechenaufwand, Kopf frei fürs Verstehen · experimentieren (Startwert, Epsilon, Verfahren vergleichen) · Variablen und Terme üben · erste Algorithmen (wiederholen, Bedingung, Abbruch).\n\n**Frage 2:** *„Welche weiteren Zeitpunkte in der Sek 1 können Sie sich vorstellen?“*\n\n**Antwort:** Irrationale Zahlen / Zahlbereichserweiterung (Kl. 8/9) · Satz des Pythagoras (Kl. 9) · quadratische Funktionen und Gleichungen, Nullstellen mit Intervallhalbierung (Kl. 9/10) · Einführung der Tabellenkalkulation (Kl. 7/8) · Wiederholung/Projekt Mathematik–Informatik.\n\n**Frage 3:** *„Welche Kompetenzen könnten aus Ihrer Sicht dabei gefördert werden?“*\n\n**Antwort:** Prozessbezogen (KC Niedersachsen): mit symbolischen, formalen und technischen Elementen umgehen · Probleme mathematisch lösen · mathematisch argumentieren · mathematische Darstellungen verwenden · kommunizieren. Inhaltlich: Zahlen und Operationen (Wurzeln, irrationale Zahlen), Variablen und Terme, algorithmisches Denken.",
+      "loesungsweg": "Erst ein Block mit allen benötigten Regeln (Formel, relativer/absoluter Bezug, Funktionen, Zellnamen, Heron, Intervallhalbierung), dann jede Teilaufgabe der Reihe nach: Aufgabentext im Wortlaut, Formeln mit Erklärung, Ergebnis. Alle Tabellen zusätzlich als Excel-Musterlösung (S05_2026-11-10_Uebungsblatt-5_Excel-Musterloesung.xlsx), mit LibreOffice nachgerechnet.",
+      "frist": "2026-11-10",
+      "im_kalender": true,
+      "fuer_sitzung": "mab004.2_2026-11-10",
+      "kalender_id": "1bf87eb1-ecec-4825-ba61-8350654acf16",
+      "pdf": "/dateien/mab004/S05_2026-11-10_Hausaufgabe_Uebungsblatt-5_Loesungen.pdf"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "aufgabe",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was berechnet `=C18*(C17-C15)`, wenn C18 die Stückzahl, C17 der Verkaufspreis und C15 der Einkaufspreis ist?",
+      "antwort": "Stückzahl · Gewinn pro Stück (Verkaufspreis − Einkaufspreis), hier $30 \\cdot 260 = 7800$ €. Die Klammer wird zuerst gerechnet.",
+      "erklaerung": "Blatt 5, G1 a.",
+      "folie": "G1a",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Gib Formeln für den Verkaufspreis (Einkaufspreis C15, Verdienstspanne in % C16) und den Gewinn (Einnahmen C19, Gesamtkosten C11) an.",
+      "musterloesung": "`=C15*(1+C16/100)` bzw. `=C15+C15*C16/100`; Gewinn `=C19-C11`.",
+      "bewertungspunkte": [
+        "Aufschlag als (1 + p/100)",
+        "Gewinn = Einnahmen − Kosten"
+      ],
+      "punkte": 2,
+      "erklaerung": "Blatt 5, G1 b/e.",
+      "folie": "G1b",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "In C17 steht die feste Zahl 1560 statt einer Formel. Was passiert, wenn der Einkaufspreis C15 auf 1500 geändert wird?",
+      "optionen": [
+        "C17 bleibt 1560 – der Gewinn wird falsch, ohne Fehlermeldung.",
+        "Excel meldet #WERT!.",
+        "C17 passt sich automatisch an.",
+        "Excel rechnet C17 beim Speichern neu."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Feste Zahlen rechnen nicht mit – genau das zeigt G1 d.",
+      "folie": "G1d",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Worauf musst du achten, wenn du in eine Kostenliste mit `=SUMME(C5:C10)` neue Zeilen einfügst?",
+      "antwort": "Die Zeilen innerhalb des Bereichs einfügen (über der letzten Zeile C10), dann erweitert Excel den Bereich selbst. Unterhalb eingefügte Zeilen liegen außerhalb der Summe.",
+      "erklaerung": "Blatt 5, G1 g – Prüfungsfalle.",
+      "folie": "G1g",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Heron in Excel: In B1 steht die Zahl a, in B2 Epsilon, in B5 der Startwert. Welche Formeln stehen in B6 (Näherung), C6 (abs. Abstand) und D6 (< Epsilon), damit man sie nach unten ziehen kann?",
+      "musterloesung": "B6 `=(B5+$B$1/B5)/2`, C6 `=ABS(B6-B5)`, D6 `=C6<$B$2`.",
+      "bewertungspunkte": [
+        "Heron-Formel",
+        "`$B$1` fest",
+        "ABS zum vorherigen Wert",
+        "Vergleich mit `$B$2`"
+      ],
+      "punkte": 4,
+      "erklaerung": "Blatt 5, G2.",
+      "folie": "G2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum misst die Spalte „abs. Abstand“ den Abstand zum vorherigen Näherungswert und nicht zur echten Wurzel? (mehrere richtig)",
+      "optionen": [
+        "Die echte Wurzel ist dem Rechner nicht bekannt.",
+        "Kleine Änderungen zeigen, dass das Verfahren kaum noch etwas verbessert.",
+        "Der Abstand zur echten Wurzel ist immer genau gleich groß.",
+        "So kann man ein Abbruchkriterium ohne den exakten Wert formulieren."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Blatt 5, G2 – der Abstand zur echten Wurzel ist im Allgemeinen nicht gleich dem Abstand zweier Näherungen.",
+      "folie": "G2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Warum darf beim Heron-Verfahren der Startwert nicht 0 sein?",
+      "antwort": "Dann wird durch 0 geteilt ($\\frac{a}{x_0}$) – Excel zeigt #DIV/0!.",
+      "erklaerung": "Blatt 5, G2 (selbst erarbeitet).",
+      "folie": "G2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Variablen des Klassenfests zu.",
+      "kategorien": [
+        "unabhängig (Eingabe)",
+        "abhängig (Zwischenergebnis)",
+        "Zielgröße"
+      ],
+      "elemente": [
+        {
+          "text": "Anzahl Personen",
+          "kategorie": "unabhängig (Eingabe)"
+        },
+        {
+          "text": "Preis einer Packung Bratwürste",
+          "kategorie": "unabhängig (Eingabe)"
+        },
+        {
+          "text": "Anzahl der Packungen Bratwürste",
+          "kategorie": "abhängig (Zwischenergebnis)"
+        },
+        {
+          "text": "Gesamtkosten",
+          "kategorie": "abhängig (Zwischenergebnis)"
+        },
+        {
+          "text": "Kosten pro Person",
+          "kategorie": "Zielgröße"
+        }
+      ],
+      "erklaerung": "Blatt 5, G3 b (Einteilung selbst erarbeitet).",
+      "folie": "G3b",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Die Zellen heißen `Wuerste` und `ProPackung`. Gib eine Formel für die Anzahl der Packungen an und begründe die Wahl der Funktion.",
+      "musterloesung": "`=AUFRUNDEN(Wuerste/ProPackung;0)` – es gibt keine halben Packungen, also muss immer nach oben gerundet werden (52 Würste in 10er-Packungen → 6 Packungen).",
+      "bewertungspunkte": [
+        "Division durch ProPackung",
+        "AUFRUNDEN / nach oben",
+        "Begründung ganze Packungen"
+      ],
+      "punkte": 3,
+      "erklaerung": "Blatt 5, G3 c (AUFRUNDEN ist Ergänzung).",
+      "folie": "G3c",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "transfer",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Für welche Zellen würdest du beim Klassenfest die Spur anzeigen lassen – und warum?",
+      "antwort": "„Kosten pro Person“ mit Spur zum Vorgänger (zeigt die ganze Kette rückwärts) und „Anzahl Personen“ mit Spur zum Nachfolger (beeinflusst drei Größen). Zellen am Anfang/Ende langer Ketten zeigen die meisten Abhängigkeiten.",
+      "erklaerung": "Blatt 5, G3 c.",
+      "folie": "G3c",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Erkläre die Bezeichnung Tabellenkalkulationsprogramm und nenne drei Vorzüge.",
+      "musterloesung": "Tabelle = Daten in Zeilen/Spalten mit Zelladressen; Kalkulation = das Programm rechnet mit Formeln; Programm = Software. Vorzüge z. B.: automatisch und fehlerfrei rechnen, sofortige Neuberechnung bei Änderungen (Was-wäre-wenn), Formeln kopieren, Diagramme, große Datenmengen sortieren/auswerten.",
+      "bewertungspunkte": [
+        "Wortbestandteile erklärt",
+        "drei Vorzüge"
+      ],
+      "punkte": 4,
+      "erklaerung": "Blatt 5, Ü1 a.",
+      "folie": "Ü1a",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Notenspiegel: Noten in B2:B11, Durchschnitt in B13. Gib die Formeln für den Durchschnitt, den Abstand in C2 und „bestanden/nicht bestanden“ in D2 an (nicht bestanden bei Note > 4).",
+      "musterloesung": "B13 `=MITTELWERT(B2:B11)`; C2 `=ABS(B2-$B$13)`; D2 `=WENN(B2>4;\"nicht bestanden\";\"bestanden\")`.",
+      "bewertungspunkte": [
+        "MITTELWERT",
+        "ABS mit `$B$1`3",
+        "WENN mit Text in Anführungszeichen"
+      ],
+      "punkte": 3,
+      "erklaerung": "Blatt 5, Ü2.",
+      "folie": "Ü2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Du lässt für C2, C5 und C9 (`=ABS(B…-$B$13)`) die Spur zum Vorgänger anzeigen. Was siehst du?",
+      "optionen": [
+        "Jeweils Pfeile von der eigenen Note und von B13.",
+        "Nur Pfeile von B13.",
+        "Pfeile von allen Noten B2:B11 zu jeder Zelle.",
+        "Keine Pfeile, weil ABS eine Funktion ist."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Jede Abstandsformel benutzt die eigene Note und den einen Durchschnitt in B13.",
+      "folie": "Ü2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Rechnung: Anzahl in A4, Einzelpreis in C4. Ab 10 Stück gibt es 3 % Rabatt. Gib die Formel für den Gesamtpreis in D4 an und berechne ihn für 20 Mainboards zu 86 €.",
+      "musterloesung": "`=WENN(A4>9;A4*C4*0,97;A4*C4)`; $20 \\cdot 86 = 1720$, davon 97 %: $1720 \\cdot 0{,}97 = 1668{,}40$ €.",
+      "bewertungspunkte": [
+        "Prüfung A4>9",
+        "Dann-Wert mit 0,97",
+        "Sonst-Wert ohne Rabatt",
+        "1668,40 €"
+      ],
+      "punkte": 4,
+      "erklaerung": "Blatt 5, Ü3 d.",
+      "folie": "Ü3d",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Relative Häufigkeit in C2: `=B2/$B$9` (n in B9). Was passiert, wenn man das \\$ weglässt und die Formel bis C7 zieht?",
+      "optionen": [
+        "In C3 steht =B3/B10 – B10 ist leer, Ergebnis #DIV/0!.",
+        "Nichts – Excel merkt sich n automatisch.",
+        "Alle Werte werden 100 %.",
+        "Excel meldet #NAME?."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Ohne $ wandert der Bezug auf n mit.",
+      "folie": "Ü4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Sollte man relative Häufigkeiten formatieren oder runden? Begründe.",
+      "antwort": "Formatieren: Excel rechnet mit den vollständigen Werten weiter, die Summe bleibt 100 %. Gerundet auf ganze Prozent ergibt sich hier 101 %.",
+      "erklaerung": "Blatt 5, Ü4.",
+      "folie": "Ü4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welches Diagramm passt besser?",
+      "kategorien": [
+        "Säulendiagramm",
+        "Kreisdiagramm"
+      ],
+      "elemente": [
+        {
+          "text": "fast gleich große Werte genau vergleichen",
+          "kategorie": "Säulendiagramm"
+        },
+        {
+          "text": "Anteil am Ganzen zeigen (z. B. ein Drittel trinkt Milch)",
+          "kategorie": "Kreisdiagramm"
+        },
+        {
+          "text": "sehr kleiner Wert (1 von 400) noch erkennbar",
+          "kategorie": "Säulendiagramm"
+        }
+      ],
+      "erklaerung": "Blatt 5, Ü4 (selbst erarbeitet).",
+      "folie": "Ü4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Intervallhalbierung in Excel: In Zeile 8 stehen a (B8), b (C8), m (D8) und m² (G8), die Zahl steht in B2. Welche Formeln stehen in B9 und C9?",
+      "musterloesung": "B9 `=WENN(G8<$B$2;D8;B8)`, C9 `=WENN(G8<$B$2;C8;D8)` – ist m² kleiner als die Zahl, wird m die neue untere Grenze, sonst die neue obere.",
+      "bewertungspunkte": [
+        "WENN mit m² < Zahl",
+        "B9 richtig",
+        "C9 richtig",
+        "`$B$2` fest"
+      ],
+      "punkte": 4,
+      "erklaerung": "Blatt 5, Ü5 a.",
+      "folie": "Ü5a",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was zeigt das Experiment mit verschiedenen Epsilon-Werten? (mehrere richtig)",
+      "optionen": [
+        "Bei der Intervallhalbierung kostet jede weitere Dezimalstelle etwa 3–4 Schritte mehr.",
+        "Heron braucht für mehr Genauigkeit kaum zusätzliche Schritte.",
+        "Beide Verfahren sind gleich effizient.",
+        "Für ein digitales Gerät eignet sich Heron besser."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Blatt 5, Ü5 b: z. B. √131, Epsilon 0,0000001: Intervallhalbierung 26 Schritte, Heron 4.",
+      "folie": "Ü5b",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Bedingung müssen die Startwerte a und b bei der Intervallhalbierung erfüllen? Gib ein Beispiel für √2.",
+      "antwort": "$a^2 <$ Zahl $< b^2$, damit die Wurzel im Intervall liegt – für √2 z. B. a = 1, b = 2 ($1 < 2 < 4$).",
+      "erklaerung": "Blatt 5, Ü5 a.",
+      "folie": "Ü5a",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum ist in summe_produkt_usw der Abstand „formatiert − gerundet“ bei $\\frac{543}{43}$ negativ?",
+      "optionen": [
+        "Weil auf 12,63 aufgerundet wurde – der gespeicherte Wert 12,627… ist kleiner.",
+        "Weil 543 durch 43 nicht geht.",
+        "Weil Excel falsch rundet.",
+        "Weil die Zeile keinen Namen hat."
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Blatt 5, Ü6 – ohne ABS wird die Differenz bei Aufrundung negativ.",
+      "folie": "Ü6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f22",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Nenne zwei Gründe, ein Verfahren zum Wurzelziehen in der Sek I mit Excel nachzustellen, und eine Kompetenz, die dabei gefördert wird.",
+      "musterloesung": "Gründe z. B.: Taschenrechner wird durchschaubar; irrationale Zahlen erlebbar (√2 endet nie); viele Schritte ohne Rechenaufwand; Experimentieren mit Startwert/Epsilon; Einstieg ins algorithmische Denken. Kompetenz z. B.: mit symbolischen, formalen und technischen Elementen umgehen / Probleme lösen / argumentieren.",
+      "bewertungspunkte": [
+        "zwei Gründe",
+        "eine Kompetenz (KC)"
+      ],
+      "punkte": 3,
+      "erklaerung": "Blatt 5, Vernetzungsimpuls (selbst erarbeitet).",
+      "folie": "Vernetzung",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Laut Blatt dienen die Übungsaufgaben der Vorbereitung auf die Klausur; die Klausur orientiert sich sehr nah an den Übungsaufgaben (VL 1, Folie 6).",
+    "Typische Fehlerquellen: fehlendes \\$ beim Kopieren, feste Zahlen statt Formeln, Zeilen außerhalb des SUMME-Bereichs eingefügt, Text in WENN ohne Anführungszeichen."
+  ],
+  "auffaelligkeiten": [
+    "Blatt: „Aufgabe 4 der Übungsaufgaben wird ausführlich im Tutorium besprochen“ – Ankündigung der Tutorin (03.11.) nennt Übungsaufgabe Nr. 5.",
+    "Merke-Kasten und Ü3 d verweisen auf die Datei „Excel Befehlsübersicht“ (Seite 18) – liegt nicht in Stud.IP.",
+    "G1 f: „statt 3600 wie in der Abbildung“ – Abbildung und Datei zeigen 3660.",
+    "Rabatt_Rechnung.xlsx: „Festplatte Seagate 80 MB“, auf dem Blatt „80 GB“.",
+    "Ü6: „Aufgabe 6 aus der Vorlesung 4“ – in VL 4 gibt es keine nummerierte Aufgabe 6, gemeint ist wohl Teil 6 (Formatieren oder Runden).",
+    "summe_produkt_usw.pdf: letztes Produkt fehlt (44 · 9 = 396).",
+    "G1 g: Menüpunkt „EINFÜGEN – ZEILEN“ gibt es nur im alten Excel (heute Start – Zellen – Einfügen bzw. Rechtsklick)."
+  ],
+  "offene_fragen": [
+    "G3 b: Welche Fachbegriffe sind gemeint (unabhängig/abhängig/Zielgröße oder Eingabe/Ausgabe/Hilfsvariable, ggf. Datentypen)? So angenommen: unabhängig – abhängig – Zielgröße, zusätzlich ganzzahlig/Dezimalzahl.",
+    "Ü4: Sollen die Diagramme wie in der Vorlage die absoluten Häufigkeiten zeigen (so gemacht) oder die relativen?"
+  ]
+}

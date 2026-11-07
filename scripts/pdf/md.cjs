@@ -6,6 +6,7 @@ const esc = (t) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, 
 const FORMEL = '\u0000F';
 function formelnRaus(t) {
   const f = [];
+  t = t.replace(/(?<!!)\[([^\]\n]+)\]\((\/dateien\/[\w./-]+)\)/g, (_, x, u) => { f.push('<a class="lt-link" href="' + u + '" target="_blank" rel="noopener" download>' + esc(x) + '</a>'); return FORMEL + (f.length - 1) + '\u0000'; });
   t = t.replace(/`([^`\n]+)`/g, (_, x) => { f.push('<code class="lt-code">' + esc(x) + '</code>'); return FORMEL + (f.length - 1) + '\u0000'; });
   const put = (tex, block) => {
     try { katex.renderToString(tex, { throwOnError: true, displayMode: block, strict: false }); } catch (e) { fehler.push(tex + ' → ' + e.message); }

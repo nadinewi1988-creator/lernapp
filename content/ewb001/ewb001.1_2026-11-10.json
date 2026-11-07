@@ -1,0 +1,1549 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb001",
+  "teilmodul": "ewb001.1",
+  "datum": "2026-11-10",
+  "sitzung_nr": 5,
+  "sitzung_id": "",
+  "thema": "Sozialisation II – Sozialisationstheorien: Struktur-Funktionalismus (Parsons) und Symbolischer Interaktionismus (Goffman)",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Asynchrone Courseware-Einheit 5 (Folien + eingesprochenes Video, 93 Min., aus einem früheren Semester), vorab aufbereitet am 07.11.2026. Die Präsenz am 10.11. ist der Gastvortrag „Balu und Du“ (Volker Hülsmann; Mentoring-Projekt, in dem Erwachsene ein Grundschulkind ein Jahr lang begleiten, anrechenbar als Praktikum/Leistungsnachweis) – freiwillig, daher keine Lerninhalte dazu. Die Fragestunde „Sozialisation und Sozialisationstheorien“ ist am 24.11. (Hausaufgaben h01, h02 sowie h01/h02 aus S04).",
+  "quellen": [
+    {
+      "datei": "ewb001.1/Sitzung_05/ewb001.1_5__Sitzung_Sozialisation_II.pdf",
+      "art": "Folien",
+      "seiten": "1–48"
+    },
+    {
+      "datei": "ewb001.1/Sitzung_05/ewb001.1_5__Sitzung_Transkript_Zusammenfassung.docx",
+      "art": "Transkript des eingesprochenen Videos (93 Min.)",
+      "seiten": ""
+    },
+    {
+      "datei": "ewb001.1/Sitzung_05/5_Lernzielkontrolle_Sozialisation_II_Theorien_Parsons_Goffman.pptx",
+      "art": "Lernzielkontrolle „Wer wird Millionär“ (15 Fragen, Lösung per Animation markiert)",
+      "seiten": "1–18"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Du kannst Parsons’ Verständnis von Modernisierung als zunehmende Differenzierung und Arbeitsteilung erklären, traditionelle und moderne Gesellschaft unterscheiden und Parsons’ Bewertung samt Gegenargumenten darstellen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 4–8; Video",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03",
+        "f04",
+        "f05",
+        "z01",
+        "z03",
+        "z04",
+        "z05",
+        "z06"
+      ],
+      "erklaerung_abschnitt": "Struktur-Funktionalismus: Modernisierung und Arbeitsteilung"
+    },
+    {
+      "text": "Du kannst erklären, wie Parsons Sozialisationsinstanzen über Struktur und Funktion beschreibt, und daraus den Namen der Theorie ableiten.",
+      "art": "abgeleitet",
+      "quelle": "Folien 9–10; Video",
+      "fragen": [
+        "f06",
+        "f07",
+        "f08",
+        "z07"
+      ],
+      "erklaerung_abschnitt": "Sozialisationsinstanzen: Struktur und Funktion"
+    },
+    {
+      "text": "Du kannst Sozialisation und Rolle nach Parsons definieren, Position und Rolle unterscheiden und Fälle wie Melissa A. struktur-funktionalistisch analysieren.",
+      "art": "abgeleitet",
+      "quelle": "Folien 11–16; Video",
+      "fragen": [
+        "f09",
+        "f10",
+        "f11",
+        "f12",
+        "f13",
+        "z02",
+        "z08"
+      ],
+      "erklaerung_abschnitt": "Sozialisation, Position und Rolle bei Parsons"
+    },
+    {
+      "text": "Du kannst Goffmans Kritik an Parsons und seine drei Thesen zur Rollenaushandlung wiedergeben und role making und role taking unterscheiden.",
+      "art": "abgeleitet",
+      "quelle": "Folien 17–20; Video",
+      "fragen": [
+        "f14",
+        "f15",
+        "f16",
+        "f17",
+        "f18",
+        "f19",
+        "z09",
+        "z10",
+        "z11"
+      ],
+      "erklaerung_abschnitt": "Symbolischer Interaktionismus: Kritik an Parsons und Rollenaushandlung"
+    },
+    {
+      "text": "Du kannst Frustrationstoleranz, Ambiguitätstoleranz und Rollendistanz erklären und auf Lehrkräfte und pädagogische Fachkräfte anwenden.",
+      "art": "abgeleitet",
+      "quelle": "Folien 21–23, 43; Video",
+      "fragen": [
+        "f20",
+        "f21",
+        "f22",
+        "f23",
+        "z12",
+        "z13"
+      ],
+      "erklaerung_abschnitt": "Frustrationstoleranz, Ambiguitätstoleranz, Rollendistanz"
+    },
+    {
+      "text": "Du kannst Goffmans Sozialisationsbegriff und die Theatermetapher (Vorderbühne, Hinterbühne, Ensemble) erklären und mit Beispielen belegen.",
+      "art": "abgeleitet",
+      "quelle": "Folien 24–31; Video",
+      "fragen": [
+        "f24",
+        "f25",
+        "f26",
+        "f27",
+        "f28",
+        "z15"
+      ],
+      "erklaerung_abschnitt": "Gesellschaft als Theaterbühne: Vorderbühne, Hinterbühne, Ensemble"
+    },
+    {
+      "text": "Du kannst beschreiben, wie Individuen nach Goffman Situationen definieren, zentrierte und nicht-zentrierte Interaktion unterscheiden und die Fassade (Bühnenbild, persönliche Fassade, Erscheinung, Verhalten) erläutern.",
+      "art": "abgeleitet",
+      "quelle": "Folien 32–36; Video",
+      "fragen": [
+        "f29",
+        "f30",
+        "f31",
+        "f32",
+        "f33",
+        "f34",
+        "z14"
+      ],
+      "erklaerung_abschnitt": "Interaktion und Fassade"
+    },
+    {
+      "text": "Du kannst Parsons und Goffman vergleichen und pädagogische Fälle (Dennis und Melina, Schulklasse) mit dem Symbolischen Interaktionismus analysieren.",
+      "art": "abgeleitet",
+      "quelle": "Folien 37–41; Video",
+      "fragen": [
+        "f35",
+        "f36",
+        "f37"
+      ],
+      "erklaerung_abschnitt": "Anwendung: Schule, Fallbeispiel Dennis und Melina, Vergleich Parsons – Goffman"
+    }
+  ],
+  "kurzfassung": [
+    "Parsons (Struktur-Funktionalismus): Modernisierung = Prozess der zunehmenden Differenzierung und Arbeitsteilung; von der traditionellen Hausgemeinschaft („alle Personen alle Aufgaben“) zur hochspezialisierten, zertifizierten modernen Gesellschaft.",
+    "Parsons ist fortschrittsoptimistisch: Arbeitsteilung fördert Integration und Individualisierung; Gegenargumente: individualisiertes Scheitern, gläserne Decken.",
+    "Sozialisationsinstanzen werden durch Struktur (Aufbau) und Funktion (Aufgabe) definiert – daher der Name; Familie = mindestens zwei Personen aus mindestens zwei Generationen.",
+    "Sozialisation (Parsons) = Hineinwachsen in die Gesellschaft durch Übernahme von zunehmend mehr Rollen; Rollen = Erwartungen an Inhaber*innen von Positionen; Position (juristisch) ≠ Rolle (Erwartungen).",
+    "Goffman (Symbolischer Interaktionismus) kritisiert das passive Hineinwachsen: Rollen sind nicht starr, nicht an Positionen gebunden und werden sozial definiert – ausgehandelt in role making und role taking.",
+    "Um Rollen auszuspielen, braucht man Frustrationstoleranz, Ambiguitätstoleranz und Rollendistanz.",
+    "Gesellschaft als Theaterbühne: Vorderbühne (offiziell, Rolle) und Hinterbühne (inoffiziell, aus der Rolle fallen); Ensemble mit gegenseitiger Abhängigkeit und Vertraulichkeit.",
+    "Interaktion: Situation definieren; nicht-zentriert (wahrnehmen, sich ausrichten) vs. zentriert (miteinander handeln); Fassade = Bühnenbild + persönliche Fassade (Erscheinung, Verhalten)."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Überblick: Zwei Theorien der Sozialisation",
+      "text": "**Gliederung (Folien 2–3):** Theorien der Sozialisation – **Struktur-Funktionalismus (Parsons)** und **Symbolischer Interaktionismus (Goffman)**. Laut Video ist das der dritte und letzte Teil des Bereichs „Sozialisation“; in der Vorsitzung kamen schon Theorien aus dem Anlage-Umwelt-Diskurs dran, z. B. Bronfenbrenners ökologische Systemtheorie [00:18–00:42]. Bezugstext: Stein (2017), S. 27/28 (Parsons) und S. 29/30 (Goffman).\n\n**Wozu so viele Theorien? [00:52–01:21]** Praxis ist vielfältig, es gibt keine Patentrezepte. Theorien geben Hilfestellungen, um viele mögliche Situationen zu reflektieren, wissenschaftlich abgestützt zu betrachten und dann zu handeln. Darum gibt es zu jeder Theorie ein Alltagsbeispiel und ein pädagogisches Fallbeispiel.\n\n**Talcott Parsons (1902–1979; Folie 4):** laut Video [03:07–04:24] einer der führenden US-amerikanischen Soziologen, Professor an der Harvard University; sprach fließend Deutsch, studierte zwei Jahre in Heidelberg und promovierte über die deutsche Soziologie; starb 1979 auf einer Deutschlandreise in München (Anlass: 50. Jahrestag seiner Promotion). Die Dozentin nennt die Verbindung nach Deutschland als gute Merkhilfe.\n\n**Kurz erklärt:** Beide Theorien beantworten dieselbe Frage: **Wie wächst ein Mensch in seine Rollen hinein?** Parsons sagt: Die Gesellschaft gibt die Rollen vor, man übernimmt sie. Goffman sagt: Rollen werden im Miteinander ausgehandelt – wie auf einer Theaterbühne. Beispiel Schule: Ob eine Schülerin „die Fleißige“ ist, weil die Schule das erwartet (Parsons), oder weil sie diese Rolle mit Klasse und Lehrkraft aushandelt (Goffman).\n\n**So erkennst du es in der Klausur:** Parsons = **Struktur-Funktionalismus**, Goffman = **Symbolischer Interaktionismus** – nicht verwechseln.",
+      "beispiel": "",
+      "folien": "1–4"
+    },
+    {
+      "titel": "Struktur-Funktionalismus: Modernisierung und Arbeitsteilung",
+      "text": "> **Folie 5:** Prozess der Modernisierung = Prozess der zunehmenden Differenzierung und Arbeitsteilung (Parsons, 1985; 1986)\n\nLaut Video [04:36–05:16] ist dieser Prozess **nicht abgeschlossen**, er geht in Moderne, Postmoderne und „Post-Postmoderne“ weiter. Folge: Die Menschen sind in der Arbeitswelt immer mehr **aufeinander angewiesen** (Zuarbeit, Abnahme und Weiterverarbeitung von Produkten).\n\n| Traditionelle Gesellschaft (Folie 6) | Moderne und postmoderne Gesellschaft (Folie 7) |\n| --- | --- |\n| bäuerliche oder ständische Hausgemeinschaft | hochspezialisierte Fertigkeiten und Fähigkeiten |\n| alle Personen alle Aufgaben (Parsons, 1985, 1986; Stein, 2017, S. 27/28) | formale Ausbildungen in den hochspezialisierten Bildungseinrichtungen |\n| Video: Familie, Privates und Berufliches nicht zu trennen; Aufgaben nur in quantitativ unterschiedlichen Anteilen; keine qualitativ unterschiedlichen Kindheitsphasen – Kinder werden wie kleine Erwachsene in die Arbeit der Eltern hineinsozialisiert [05:28–07:30] | → Individualisierung und Integration · → Kein verbindlicher Sinn und keine verbindlichen Deutungen des Lebens · → Eigenständige Erarbeitung des Lebensstils (Parsons, 1985; 1986; Welsch, 1993; Beck, 1996; Stein, 2017, S. 27/28) |\n\nVideo [07:53]: Die Fertigkeiten allein nützen wenig – sie müssen durch **Zertifikate** und formale Qualifikationen nachgewiesen werden.\n\n**Bewertung (Video [08:12–12:18]):**\n- *Kritiker* befürchten ein **Auseinanderbrechen der Gesellschaft**: Man versteht kaum, was der andere tut, und fällt jemand aus, können andere seine Aufgaben nicht einfach übernehmen.\n- *Parsons* ist **fortschrittsoptimistisch** [15:44]: Die hohe Arbeitsteilung fördert die **Integration** (jeder ist auf Zuarbeit anderer angewiesen) und die **Individualisierung** und persönliche Zufriedenheit – die Gesellschaft ist offener und flexibler, man wählt den Beruf nach Kompetenzen, Interessen und Motiven statt nach Zunft, Gilde oder Eltern [10:30–11:10]. Schulbeispiel [08:58–10:22]: Die Grundschule baut auf dem Elementarbereich auf (Papier schneiden, kleben, Grundfarben), arbeitet mit Jugendhilfe, Beratung und Schulsozialarbeit zusammen und gibt Kompetenzen an weiterführende Schulen weiter.\n- *Gegenargumente der Dozentin:* Sinn und Lebensstil müssen selbst erarbeitet werden; Scheitern und sogar Depressionen werden **individualisiert** (Studien aus den USA) [11:10–11:49]. Es ist ein **Trugschluss**, dass jeder alles werden kann – es gibt Benachteiligungen und gläserne Decken, z. B. für Menschen mit Migrationshintergrund oder aus sozioökonomisch schlechter gestellten Gruppen [11:58–12:18].\n\n**Beispiele (Folie 8):** **Bildungssystem: Schule und Hochschule** – jedes Jahr neue Studiengänge, statt „Geschichte“ z. B. ein Master „Globalisierungsprozesse der Spätantike“; Gegenbewegung: Ruf nach mehr Generalist*innen [12:50–13:57]. **Gesundheitssystem** – immer spezialisiertere Fachärzt*innen; Gegenbewegung: erst zum Hausarzt als Generalisten, Wunsch nach ganzheitlicher Behandlung [14:05–15:20].\n\n{{aufgabe a01}}\n\n**Kurz erklärt:** Früher machte in einer Bauernfamilie jeder alles – auch Kinder halfen auf dem Feld. Heute ist die Arbeit stark aufgeteilt, jeder ist Spezialist und braucht ein Zeugnis dafür. Parsons findet das gut: Weil alle aufeinander angewiesen sind, hält die Gesellschaft zusammen, und jeder kann seinen Weg selbst wählen. Die Kehrseite: Wer scheitert, gibt sich selbst die Schuld, und nicht alle haben die gleichen Chancen. Beispiel Schule: Eine Grundschullehrkraft ist auf die Vorarbeit der Kita angewiesen und liefert selbst der weiterführenden Schule zu.\n\n**Prüfungsfalle:** Nach Parsons führt die Arbeitsteilung **zur Integration** – das „Auseinanderbrechen der Gesellschaft“ ist die Befürchtung der **Kritiker**, nicht Parsons’ Position.\n\n**Typische Klausurfrage:** „Wie stand Parsons dem Prozess der Modernisierung gegenüber?“ → **positiv**, weil der Einzelne immer mehr gemäß seinen eigenen Kompetenzen und Interessen leben kann (Lernzielkontrolle 5, Frage 3).",
+      "beispiel": "",
+      "folien": "5–8"
+    },
+    {
+      "titel": "Sozialisationsinstanzen: Struktur und Funktion",
+      "text": "> **Folie 9:** Sozialisationsinstanz wird definiert (Parsons, 1985; 2005; Stein, 2017):\n> - durch ihre **Struktur** (etwa den Aufbau)\n> - durch ihre **Funktion** (etwa Aufgabe in der Gesellschaft)\n\nDie Grafik auf Folie 9 zeigt das Individuum in der Mitte, umgeben von Schule/Beruf, Freundeskreis, Familie, Medien u. a. – eingebettet in die Umwelt.\n\n**Daher der Name (Video [16:20–16:56]):** Weil Parsons Struktur und Funktion der Instanzen so betont, heißt seine Theorie **Struktur-Funktionalismus**. Die Dozentin erklärt das ausdrücklich, „weil das immer schwer zu merken ist“ [02:49].\n\n| | Familie | Schule | Betrieb |\n| --- | --- | --- | --- |\n| **Struktur** | Mindestens zwei Personen aus mindestens zwei Generationen | Aufbau des Schulsystems (Dreigliedrigkeit…) | Betriebsgröße etc. |\n| **Funktion** | Gewährung von Schutz und Intimität etc. | Qualifikation, Selektion etc. | Erwirtschaftung von Kapital und Gütern etc. |\n\n(Stein, 2017, S. 28; Folie 10)\n\n**Ergänzungen aus dem Video:**\n- **Familie** [17:12–18:36]: Eine alleinerziehende Mutter mit Kind ist eine Familie, ebenso ein Großelternpaar mit Tochter, Schwiegersohn und drei Enkeln. Ein **Ehepaar** (ohne Kinder) ist **keine** Familie – es fehlen die zwei Generationen. Funktion außerdem: Privatheit, Rückzugsraum, emotionaler Rückhalt, grundlegende Fähigkeiten vermitteln (laufen, sprechen, allein essen).\n- **Schule** [18:45–20:19]: Struktur z. B. Kulturhoheit der Länder (16 Untersysteme), nach gemeinsamer Grundschulzeit (bis Klasse 4 oder 6) meist drei- oder viergliedrig. Funktion nach **Helmut Fend**: leistungsbezogen **selektieren und platzieren** (Allokationsfunktion) und sozial auf ein regelgeleitetes Zusammenleben vorbereiten, in die bestehende Kultur hineinerziehen (**Enkulturation**).\n- **Betrieb/Universität** [20:33–21:18]: Struktur z. B. kleines/mittelständisches Unternehmen, Großunternehmen, Global Player; bei der Uni Zahl der Fakultäten, Mitarbeitenden, Studierenden. Funktion: Kapital und Güter erwirtschaften; bei der Uni auch Humankapital, kulturelle Produkte, Individuation und Bildung des Einzelnen.\n\n**Kurz erklärt:** Parsons beschreibt jede Sozialisationsinstanz mit zwei Fragen: **Wie ist sie aufgebaut?** (Struktur) und **Wozu ist sie da?** (Funktion). Daraus erklärt sich der Name der Theorie. Beispiel: Die Schule ist in Niedersachsen nach der Grundschule gegliedert (Struktur) und soll qualifizieren und auswählen (Funktion) – deshalb gibt es Noten und Abschlüsse.\n\n**Prüfungsfalle:** Ein **Ehepaar ohne Kinder ist nach Parsons keine Familie** (Kriterium: mindestens zwei Generationen). Und: Parsons beschreibt Instanzen durch **Funktion und Struktur** – nicht durch „Dynamik“, „Form“ oder „Systemeigenschaften“ (Lernzielkontrolle 5, Frage 7).",
+      "beispiel": "",
+      "folien": "9–10"
+    },
+    {
+      "titel": "Sozialisation, Position und Rolle bei Parsons",
+      "text": "> **Sozialisation-Definition bei Parsons (2005; Folie 11):**\n> **Sozialisation** = Hineinwachsen in die Gesellschaft im Sinne einer Übernahme von zunehmend mehr Rollen\n> **Rollen** = Erwartungen, welche die Gesellschaft an die Inhaber*innen bestimmter Positionen stellt (z. B. an Schüler*innen, junge Arbeitnehmer*innen oder Eltern)\n> **Achtung: Unterschied Position - Rolle**\n\nVideo [21:28–22:06]: gemeint ist eine zunehmend modernisierte, differenzierte und arbeitsteilige Gesellschaft; das Hineinwachsen geschieht über die Sozialisationsinstanzen.\n\n**Position vs. Rolle (Video [22:43–25:11])** – werden oft verwechselt, sind aber zu unterscheiden:\n\n| Position | Rolle |\n| --- | --- |\n| juristisch (streng) definiert | die damit verknüpften Erwartungen – individuell, subjektiv zugeschrieben |\n| Mit der Geburt eines Kindes hat eine Frau die Position *Mutter*; mit der Einschreibung die Position *Studierende*. | Gibt die leibliche Mutter das Kind gleich nach der Geburt zur Adoption frei, hat sie die Position Mutter, füllt die **Rolle** Mutter aber nicht aus – das tun die Adoptiveltern. |\n\n**Rollenerwartungen können divergieren** [24:44–25:02]: An die Position *Studierende* richten die Eltern z. B. die Erwartung, systematisch zu lernen und einen guten Abschluss zu machen; die Studierende selbst erwartet vielleicht, sich vom Elternhaus abzukoppeln und mehr Freiheiten zu haben. Populärwissenschaftlich heißt es, mehr als etwa sieben Rollen könne man nicht aktiv ausfüllen – das hängt aber davon ab, wie anspruchsvoll die Erwartungen sind (zahlendes Vereinsmitglied vs. Schatzmeister oder Bürgermeisterkandidat) [25:38–26:39].\n\n{{aufgabe a02}}\n\n**Alltagsbeispiel (Folie 14):** Ein junger Mensch übernimmt etwa mit dem Eintritt ins Berufsleben und mit dem Eintreten in die Ehe und der Familiengründung bestimmte Positionen, die mit Rollenerwartungen verknüpft sind, etwa Pünktlichkeit und Loyalität, Leistungsstreben und hohe Motivation bei der Erfüllung der Arbeitsaufgaben im Betrieb, geteilte Freizeitbeschäftigungen, Intimität und Fürsorglichkeit in Partnerschaft und Familie. Video [29:45–30:07]: Diese Rollenerwartungen können **in Konflikt treten**, weil Beruf und Partnerschaft Zeit und Kompetenzen fordern – dann muss man abwägen.\n\n**Fallbeispiel Pädagogik (Folie 15):** Melissa A. beginnt eine Ausbildung zur Damenschneiderin. Wiederholt kommt sie in die Arbeit zu spät. Als die Ausbilderin sie nach einem Arbeitstag auffordert, die Stoff- und Fadenreste zusammenzukehren und anschließend den Herstellungsraum noch zu wischen, rastet Melissa aus: „Ich bin doch nicht deine Putzfrau! Mach‘ doch deinen Dreck allein!“ Melissa verliert das Ausbildungsverhältnis und ist nun seit 17 Monaten ohne Ausbildungsvertrag. Video [30:37–31:07]: Melissa interessiert sich sehr für Mode, arbeitet gekaufte Stücke um und hat ihr Brautkleid selbst genäht.\n\n{{aufgabe a03}}\n\n**Kurz erklärt:** Die **Position** ist der „Platz“, den du formal hast (Schülerin, Mutter, Azubi). Die **Rolle** ist das, was andere – und du selbst – von jemandem auf diesem Platz erwarten. Sozialisation heißt bei Parsons: Man übernimmt im Laufe des Lebens immer mehr solcher Rollen. Probleme entstehen, wenn verschiedene Erwartungen an dieselbe Position nicht zusammenpassen. Beispiel Schule: Eine Referendarin hat die Position Lehrkraft; die Schulleitung erwartet Pünktlichkeit bei Konferenzen, die Eltern ständige Erreichbarkeit – ein Rollenkonflikt.\n\n**Prüfungsfalle:** **Position ≠ Rolle.** Die Position ist juristisch-formal festgelegt, die Rolle ist die mit der Position verknüpfte Erwartung – nicht umgekehrt (Lernzielkontrolle 5, Frage 8).\n\n**Typische Klausurfrage:** Laut Video [32:40] kann der Fall Melissa „zum Beispiel auch Aufgabe dann in der Klausur sein“: Positionen und Rollen benennen, den Konflikt zeigen, Struktur und Funktion der Arbeitstätigkeit einordnen und mit Parsons erklären und lösen.",
+      "beispiel": "",
+      "folien": "11–16"
+    },
+    {
+      "titel": "Symbolischer Interaktionismus: Kritik an Parsons und Rollenaushandlung",
+      "text": "**Erving Goffman (1922–1982; Folie 17):** laut Video [33:34–35:11] Kanadier, wie Parsons Professor für Soziologie; erst Chemie (zu trocken), dann zum Film nach Hollywood – dort interessierte ihn der Unterschied zwischen der **Persönlichkeit** eines Menschen und der **Rolle**, die er spielt; danach Soziologiestudium, zuletzt Professor in Berkeley. Seine Theorie erlangte Kultstatus; er starb mit 60 Jahren.\n\n> **Folie 18:** Kritik an der struktur-funktionalen Theorie: zu passives Hineinwachsen in die statischen Rollen der Gesellschaft (Goffman, 1969; Stein, 2017, S. 29/30)\n> Theorie eines aktiven Prozesses der Rollenaushandlung:\n> a. Rollen sind nicht automatisch starr festgelegt\n> b. Rollen sind nicht an bestimmte Positionen gebunden\n> c. Rollen unterliegen einem sozialen Definitionsprozess\n\n**Beispiele der Dozentin:**\n- **a) – totale Institution** [36:41–38:49]: Selbst im Gefängnis oder in der Psychiatrie ist die Rolle nicht völlig festgelegt. Ein Gefangener kann sich verweigern (Arbeitseinsätze, gute Führung) und so Hafterleichterungen verspielen – oder mitarbeiten (Kronzeuge, Amnesty-Gruppe, Berufsausbildung) und sich für einen positiven Haftverlauf empfehlen.\n- **b) – Banker** [38:57–39:46]: Ein Bankangestellter kann heute auch mit bunter Frisur und Tattoos auftreten; umgekehrt können sich Erwerbslose oder Studierende wie Banker kleiden.\n- **c) – Schulklasse** [39:58–40:31]: Ob Schüler*innen mit der Lehrkraft kooperieren oder in Konflikt gehen, sie mobben und auflaufen lassen, ob jemand Klassenclown, Anführer oder Schulverweigerer ist, wird sozial ausgehandelt.\n\n**Role making und role taking (Folien 19–20):**\n\n| | role making | role taking |\n| --- | --- | --- |\n| Folie 19 | Interaktionspartner*innen übernehmen wechselseitig die Perspektive des*der anderen Interaktionspartner*in, spielen Rollenverhalten aus | Interaktionspartner*innen bieten dem anderen Rollen an, die diese*r annehmen oder auch verweigern kann |\n| Folie 20 | Interaktionspartner*innen spielen Rollenverhalten aus | Interaktionspartner*innen nehmen Rollen an oder verweigern |\n\n> **Folie 20:** Sozialisation ist ein bidirektionaler Prozess: role making ⇄ role taking (Goffman, 1969; Stein, 2017, S. 29/30)\n\nLaut Video [40:51–41:47]: Im **role making** spielt man Rollenverhalten aus, übernimmt die Perspektive des anderen und **bietet** ihm so eine Rolle an. Im nachgeschalteten **role taking** kann man die angebotene Rolle (1) genau so **annehmen**, (2) komplett **ablehnen** oder (3) **mit Modifikationen annehmen**. Der Prozess ist bidirektional und **nie abgeschlossen** [44:44–45:52].\n\n**WG-Beispiel [42:08–44:15]:** Ein Mitbewohner bietet im role making die Rolle „meine neue Freundin“ an (viel Zeit zusammen, Zimmer zusammenlegen, Eltern besuchen). Role taking: annehmen („Ich empfinde das genauso“), ablehnen („Wie kommst du darauf?“) oder modifiziert annehmen („Prinzipiell ja, aber es geht mir zu schnell“). Auch in der Beziehung wird später nachgesteuert. Alltagsbeispiele: Bei jedem Einkauf und Restaurantbesuch werden einem Rollen angeboten [44:24–44:34].\n\n**Kurz erklärt:** Goffman wirft Parsons vor, den Menschen zu passiv zu sehen – als würde man einfach in fertige Rollen „hineinwachsen“. Für Goffman werden Rollen **ausgehandelt**: Einer macht ein Rollenangebot (role making), der andere nimmt es an, lehnt ab oder verändert es (role taking). Beispiel Schule: Die Lehrkraft bietet einem neuen Schüler die Rolle „Klassensprecher-Kandidat“ an; er kann zusagen, ablehnen oder sagen: „Nur als Stellvertreter.“\n\n**Prüfungsfalle:** Folie 19 formuliert role taking als „bieten dem anderen Rollen an“, Folie 20 und das Video ordnen das **Anbieten dem role making** und das **Annehmen oder Verweigern dem role taking** zu. Merke für die Klausur: **making = ausspielen/anbieten, taking = annehmen/verweigern/modifizieren** (siehe Auffälligkeiten). Und: Goffman kritisiert **beides** – Rollen zu starr festgelegt **und** Rollen und Positionen können auseinandergehen (Lernzielkontrolle 5, Fragen 9 und 10).",
+      "beispiel": "",
+      "folien": "17–20"
+    },
+    {
+      "titel": "Frustrationstoleranz, Ambiguitätstoleranz, Rollendistanz",
+      "text": "> **Folie 21 – Nötig sind…**\n> 1. **Frustrationstoleranz**, da viele Rollen wenig befriedigend sind\n> 2. **Ambiguitätstoleranz**, da viele Rollen nicht klar definiert sind\n> 3. **Rollendistanz**, da es bedeutsam ist, Rollen nicht unkritisch zu übernehmen, sondern in kritischer Distanz zur Rolle zu gehen\n> (Goffman, 1969; Stein, 2017, S. 29/30)\n\n**Beispiel Jugendamt (Video [46:00–50:22]):**\n- *Frustrationstoleranz:* Man liebt die Beratung von Pflegeeltern, muss aber viel dokumentieren, Anträge ausfüllen, Eingaben machen – ein wenig befriedigender, aber wichtiger Rollenaspekt.\n- *Ambiguitätstoleranz:* Ambiguität = Zweideutigkeit. Rollen sind unklar, Zuständigkeiten überlappen – bei Kindesmisshandlung fühlt man sich fast wie bei den Ermittlungsbehörden, bei weinenden Eltern ist die Grenze zur Psychotherapie fließend: „Gehört das noch zu meiner Rolle oder muss ich abgeben?“\n- *Rollendistanz:* Die Person darf nicht ganz in der Rolle aufgehen – wie ein Schauspieler nicht mit seiner Rolle identisch ist. Professionelle Distanz: sich auch als Partner*in, Elternteil, Vereinsmitglied sehen (Bezug zur Sitzung Menschenbild und professionelle Ethik).\n\n{{aufgabe a04}}\n\n**Kurz erklärt:** Jede Rolle hat Teile, die keinen Spaß machen (→ **Frustrationstoleranz**), Teile, die unklar sind (→ **Ambiguitätstoleranz**), und man sollte sich nicht völlig mit ihr gleichsetzen (→ **Rollendistanz**). Beispiel Schule: Eine Lehrkraft korrigiert stundenlang Klassenarbeiten (Frust), ist mal Wissensvermittlerin, mal Seelsorgerin, mal „Polizistin“ (Ambiguität) und hinterfragt, ob sie Kinder wirklich nur aussortieren will (Rollendistanz).\n\n**So erkennst du es in der Klausur:**\n- „wenig befriedigend“, Verwaltung, Korrigieren → **Frustrationstoleranz**\n- „unklar definiert“, viele Rollen gleichzeitig, „eher Bewährungshelfer“ → **Ambiguitätstoleranz**\n- „nicht unkritisch übernehmen“, „in Distanz gehen“ → **Rollendistanz**\n\nLaut Video [90:19–91:02] wird dieselbe Frage am Ende als Übungsaufgabe gestellt (Hausaufgabe h01) – die Dreierliste kommt in der Sitzung zweimal vor.",
+      "beispiel": "",
+      "folien": "21–23"
+    },
+    {
+      "titel": "Gesellschaft als Theaterbühne: Vorderbühne, Hinterbühne, Ensemble",
+      "text": "> **Folie 24:**\n> - Gesellschaft wird erst aufgrund gemeinsam geschaffener Rollenmuster definiert\n> - Sozialisation vollzieht sich über die selbst gestalteten und übernommenen Rollen\n> (Goffman, 1969; Stein, 2017, S. 29/30)\n\nVideo [53:55–54:38]: Man gestaltet im role making immer mehr Rollen selbst und bietet sie an und übernimmt im role taking im Laufe des Lebens immer mehr Rollen. Die Gesellschaft ist eine große Bühne mit einem gemeinsamen Spielplan.\n\n**Folie 25:** Goffman vergleicht in seinem Buch „Wir alle spielen Theater“ (1969) die **Gesellschaft mit einer Theaterbühne** und die **Gesellschaftsmitglieder mit einem Ensemble**, das unterschiedliche Rollen einnimmt und wechselseitig interpretiert. Die Dozentin empfiehlt das Buch ausdrücklich (Ausschnitte eingescannt, ganzes Buch in der Bibliothek) [55:17–55:37, 59:48]. Auf der Bühne laufen gleichzeitig und nacheinander viele Stücke [56:00].\n\n**Beispiel „Vorlesung“ [56:21–59:37]:** Die Dozentin hat die Rolle der Vortragenden ausgehandelt, die Studierenden sind Rezipient*innen und Mitdiskutierende; die Erwartungen sind wechselseitig (Präsentation, Literaturtipps – mitarbeiten, nachfragen, Tutorium besuchen). Bei einem Referat werden die Rollen getauscht; niemand ist nur passiver Zuschauer. Zwei Studierende, die am Handy schreiben, spielen auf einer Nebenbühne das Stück „Ich kommuniziere mit meiner Schwester“.\n\n**Gesellschaft als Theaterbühne (Folie 26):**\n\n| Vorderbühne | Hinterbühne |\n| --- | --- |\n| Ort des „offiziellen“ Geschehens | Ort des „inoffiziellen“ Geschehens |\n| Beobachtung durch andere Personen | unbeobachtete Momente |\n| Ausspielen der Rolle | fällt aus der Rolle |\n\nVideo [60:06–62:10]: Die Hinterbühne ist auch Ort der **Vorbereitung und Nachbereitung**. Beispiele: Theater (Aufführung vs. Proben, Zoff, Lampenfieber, schlechte Kritiken) und Party (gut gelaunte Gastgeber im Wohnzimmer vs. Chaos und Gefauche in der Küche). Die Hinterbühne ist nicht „das Schlechte“, sondern das inoffizielle Geschehen, das man **braucht**, damit der Auftritt auf der Vorderbühne gelingt.\n\n{{aufgabe a05}}\n\nVideo [63:22–64:18; 66:41–67:09]: Die Theorie hilft in der Beratung, **hinter die Rollenfassade** zu blicken. Was auf der Hinterbühne passiert, wird Lehrkräften und Berater*innen oft verschwiegen; es soll vorsichtig aufgedeckt und in einem geschützten Raum „auf die Vorderbühne“ geholt werden. Beispiel: der Jugendliche, der sich als Macher, Anführer oder toller Rapper zeigt und auf der Hinterbühne Ängste, Probleme mit den Eltern und Selbstwertprobleme hat.\n\n**Das Ensemble (Folie 30):**\n> - Ensemble = Jede Gruppe von Individuen, die gemeinsam eine Rolle / Situation aufbauen\n> - Mitglieder einer Gruppe (=Ensemble) sind meist soweit in ihrem Spiel aufeinander abgestimmt, dass keine offensichtlichen Widersprüche auftauchen\n\n**Merkmale (Folie 31; Goffman, 2010):**\n\n| Gegenseitige Abhängigkeit | „Vertraulichkeit“ |\n| --- | --- |\n| Jedes Mitglied muss sich auf den anderen verlassen können, so dass die Darstellung als Gemeinschaftswerk klappt. Gegenseitige Abhängigkeit kann auch die unterschiedlichen strukturellen und sozialen Spaltungen überbrücken. | Ensemblemitglieder können untereinander nicht die gleiche Fassade aufrechterhalten wie vor dem Publikum → Sie sind gezwungen sich als „Eingeweihte“ zu betrachten, es entsteht Vertraulichkeit. |\n\nVideo [69:25–71:45]: Beim Referat überspielt das Ensemble einen Hänger (Zuhörende bleiben sitzen, die Dozentin hilft). Die Problemfamilie (Eltern, zwei Kinder, Großmutter) hält das Stück „heile Familie“ aufrecht, obwohl die Mutter alkoholabhängig und der Vater gewalttätig ist – gegenseitige Abhängigkeit bis zur **Koabhängigkeit**. Ensembles gibt es nicht nur unter Vertrauten: **Jede** Interaktion ist ein Theaterstück, auch mit Fremden (neue WG, Verein, nach dem Weg fragen).\n\n**Kurz erklärt:** Für Goffman ist das Leben ein Theater. Auf der **Vorderbühne** spielen wir unsere Rolle vor Publikum, auf der **Hinterbühne** bereiten wir uns vor, erholen uns und dürfen aus der Rolle fallen. Wer zusammen ein „Stück“ aufführt, ist ein **Ensemble** und hält zusammen. Beispiel Schule: Beim Elternsprechtag zeigt eine Familie „Familienidylle“ (Vorderbühne); zu Hause gibt es Streit (Hinterbühne). Als Lehrkraft solltest du wissen, dass hinter der Fassade mehr stecken kann.\n\n**Prüfungsfalle:** Bei der „Vertraulichkeit“ halten die Ensemblemitglieder untereinander **nicht** dieselbe Fassade aufrecht wie vor dem Publikum – genau deshalb werden sie zu „Eingeweihten“.",
+      "beispiel": "",
+      "folien": "24–31"
+    },
+    {
+      "titel": "Interaktion und Fassade",
+      "text": "> **Die Interaktion (Folie 32):**\n> - Individuen bemühen sich, die Situation zu definieren, d.h. herauszufinden, was sie in der Situation erwartet und was sie in der Situation von ihrem*r Interaktionspartner*in erwarten können.\n> - sie bemühen sich Infos über ihre*n Interaktionspartner*in herauszufinden (Status, Fähigkeiten, Glaubwürdigkeit etc.)\n> (Goffman, 1969; 2005; Stein, 2017, S. 29/30)\n\nVideo [71:54–72:26]: Man definiert die Situation durch role making und role taking und schließt – gerade bei Fremden – aus Auftreten, Habitus und Kleidung (persönliche Fassade) auf das Gegenüber. Wer nach dem Weg fragt, wählt eine Person, die ortskundig und seriös wirkt [72:26–73:07].\n\n**Die Interaktion (Goffman, 2005; Folie 33):**\n\n| nicht-zentrierte Interaktion | zentrierte Interaktion |\n| --- | --- |\n| mindestens zwei Akteur*innen nehmen einander wahr | Akteur*innen handeln nicht nur aufeinander bezogen, sondern miteinander |\n| auf Grund dessen findet eine Ausrichtung des eigenen Verhaltens statt | Vermittlung eines bestimmten Bildes |\n\nVideo [74:27–76:05]: Bei der nicht-zentrierten Interaktion tritt man **nicht in direkte Kommunikation**. Beispiel Bushaltestelle in einer fremden Stadt: Wer die anderen beobachtet (Automat? Kauf im Bus? Abstempeln?) und sich danach richtet, ist in einer **nicht-zentrierten** Interaktion; wer direkt jemanden fragt, in einer **zentrierten**.\n\n> **Ziele der einzelnen Person (Folie 34):**\n> - durch ihr Verhalten und Ausdruck die Situation zu definieren\n> - das Verhalten der anderen ihr gegenüber zu kontrollieren\n\nVideo [76:13–76:55]: Durch Bühnenbild, Fassade, Gestik, Mimik und Sprechen gestaltet man die Situation so, dass man im role making die eigene bevorzugte Rolle ausspielen kann und die anderen im role taking mitspielen.\n\n**Die Fassade (Folie 35; Goffman, 1969; Stein, 2017, S. 29/30):**\n- **„Bühnenbild“** = szenische Komponente des Ausdrucksrepertoires: Möbelstücke, Dekoration, Requisiten und Kulissen etc. für das Handeln\n- **„Persönliche Fassade“** = Ausdrucksmittel, das wir am stärksten mit dem*r Darsteller*in selbst in Verbindung bringen: Kleidung, Geschlecht, Alter, Rang, Größe, Haltung, Gestik\n- Trennung in **Erscheinung** = Teile der persönlichen Fassade, die über den Sozialstatus des Einzelnen informieren, und **Verhalten** = Teile der persönlichen Fassade, die die Rolle anzeigen, die der*die Einzelne in der Interaktion zu spielen beabsichtigt\n\nMerksatz (Video [77:25]): Der Einzelne ist **Bühnenbildner und Maskenbildner seiner Person**. Eine Feier festlich oder poppig dekorieren = Bühnenbild; Kleidung, Schmuck, Frisur, Make-up = persönliche Fassade [77:35–78:26]. Lehrkräfte im dreiteiligen Anzug oder Kostüm vermitteln bei gleichem Inhalt ein anderes Rollenverständnis als im Hoodie [78:36–79:15]. Experiment [73:07–74:17]: Bei einem gespielten Notfall im Bahnhof wurden Personen mit Arztköfferchen oder Arztkittel häufiger um Hilfe gebeten – von der Fassade wird auf Kompetenz geschlossen.\n\n**Fassadengestaltungen Jugendlicher in ihrem Zimmer (Folie 36):** zwei ganz unterschiedlich eingerichtete Jugendzimmer – jedes Zimmer ist ein Bühnenbild, das zeigt, wie die Person ihre Rollen ausspielen will [80:11–80:53].\n\n**Kurz erklärt:** In jeder Begegnung klären wir zuerst: Was wird hier von mir erwartet, wer ist mein Gegenüber? Dafür lesen wir die **Fassade** der anderen – ihre Umgebung (Bühnenbild) und ihr Auftreten (persönliche Fassade). Gleichzeitig gestalten wir unsere eigene Fassade, um die Situation in unserem Sinn zu lenken. Beispiel Schule: Eine Lehrkraft, die am ersten Schultag den Raum mit Schülerarbeiten schmückt (Bühnenbild) und sich zugewandt hinsetzt (Verhalten), definiert die Situation anders als jemand, der hinterm Pult steht.\n\n**Prüfungsfalle:** **Erscheinung** informiert über den **Sozialstatus**, **Verhalten** zeigt die **Rolle**, die man spielen will – nicht vertauschen. **Nicht-zentriert** = nur wahrnehmen und sich danach ausrichten; **zentriert** = miteinander handeln.",
+      "beispiel": "",
+      "folien": "32–36"
+    },
+    {
+      "titel": "Anwendung: Schule, Fallbeispiel Dennis und Melina, Vergleich Parsons – Goffman",
+      "text": "**Beispiel (Folie 37):** Auch in stärker institutionalisierten Kontexten wie der Schule entscheidet der*die Schüler*in, ob er*sie in der Klasse die Rolle des*der revolutionären, intellektuellen Aufrührers*in, des Klassenclowns oder des*der angepassten Mitläufers*in übernimmt. Video [81:43–82:49]: weitere Rollen – Linksorientierte, Leseratte, wer mobbt; Schüler*innen können von dominanteren anderen auch in Rollen **gedrängt** werden. Pädagogische Aufgabe: diese Fassaden aufbrechen und die Person **hinter der Rolle** sehen.\n\n**Fallbeispiel Pädagogik (Folie 38):** Dennis I. und Melina I. sind seit zwei Jahren verheiratet und haben einen drei Monate alten Sohn. Seit der Geburt gibt es ständig Schwierigkeiten, erzählen die beiden in der Beratungsstelle. Dennis I. hatte versprochen, sich gleichberechtigt zu beteiligen, jetzt aber stürzt er sich noch mehr in die Arbeit. Dennis verteidigt sich: „Ich tue alles, um die Familie zu ernähren und abends schlägt mir nur Undank entgegen!“\n\n{{aufgabe a06}}\n\n**‚Learning by viewing‘ (Folien 40–41):** Erklärvideo „Erving Goffman: Wir alle spielen Theater“ (Universität Rostock, ca. 4 Min.; Link auf der Folie). Kernpunkte [85:31–89:19]: Goffmans Ansatz heißt **Dramaturgie** (dramaturgischer Ansatz); jeder spielt je nach Situation viele Rollen (**Rollenwechsel**), mit der Rolle ändert sich die persönliche Fassade (Wortwahl, Auftreten, Erscheinungsbild); Zuschauer können zugleich Darsteller sein; Restaurant: Gastraum = Vorderbühne, Küche = Hinterbühne des Kellners; man spielt nicht, um zu täuschen, sondern um im Spiel zu bleiben (**Image-Pflege**); „Wir spielen nicht nur viele Rollen, wir sind viele Rollen.“\n\n**Parsons und Goffman im Vergleich** (Zusammenstellung aus Folien und Video):\n\n| | Parsons: Struktur-Funktionalismus | Goffman: Symbolischer Interaktionismus |\n| --- | --- | --- |\n| Name | Instanzen werden über **Struktur** und **Funktion** beschrieben | Rollen werden in **symbolischer Interaktion** ausgehandelt |\n| Sozialisation | Hineinwachsen in die Gesellschaft im Sinne einer Übernahme von zunehmend mehr Rollen | vollzieht sich über die selbst gestalteten und übernommenen Rollen |\n| Gesellschaft | modernisiert sich durch Differenzierung und Arbeitsteilung | wird erst aufgrund gemeinsam geschaffener Rollenmuster definiert |\n| Rollen | Erwartungen der Gesellschaft an Inhaber*innen von Positionen | nicht starr festgelegt, nicht an Positionen gebunden, sozialer Definitionsprozess |\n| Mensch | eher passiv (Kritik Goffmans) | aktiv – role making und role taking |\n| Begriffspaare | Position – Rolle; Struktur – Funktion | role making – role taking; Vorderbühne – Hinterbühne; zentriert – nicht-zentriert; Erscheinung – Verhalten |\n| Fallbeispiel | Melissa A. (divergierende Rollenerwartungen an eine Position) | Dennis und Melina (Rollenaushandlung nach der Geburt) |\n\n**Kurz erklärt:** Beide Fälle kannst du mit dem passenden „Werkzeug“ lösen: Bei **Melissa** fragst du mit Parsons: Welche Position, welche Erwartungen, wo prallen sie aufeinander? Bei **Dennis und Melina** fragst du mit Goffman: Welche Rollen bieten sie einander an, was wird angenommen oder abgelehnt, was spielt sich auf Vorder- und Hinterbühne ab? Beispiel Schule: Der „Klassenclown“ hat diese Rolle nicht einfach übernommen – er hat sie ausgehandelt, vielleicht weil ihm keine bessere Rolle angeboten wurde.\n\n**So erkennst du es in der Klausur:** Stichwörter **Position, Struktur, Funktion, Arbeitsteilung** → Parsons. Stichwörter **aushandeln, role making/taking, Bühne, Ensemble, Fassade** → Goffman.",
+      "beispiel": "",
+      "folien": "37–41"
+    },
+    {
+      "titel": "Abschluss, Übung, Reflexion und Literatur",
+      "text": "- **Abschluss (Folie 42):** Welche Punkte aus der heutigen Veranstaltung finden Sie persönlich bedeutsam? – laut Video [89:30–90:09] zwei oder drei Kernsätze notieren, die dein späteres professionelles Handeln beeinflussen werden.\n\n{{aufgabe a07}}\n\n- **Übungsaufgabe (Folie 43):** Frustrationstoleranz, Ambiguitätstoleranz und Rollendistanz für eine pädagogische Fachkraft in der Jugendarbeit → **Hausaufgabe h01** (fällig 24.11., Fragestunde Sozialisation).\n- **Reflexion (Folie 44):** eigene Positionen und Rollen mit ihren Erwartungen → **Hausaufgabe h02** (fällig 24.11.).\n- Laut Video [90:28–91:02] werden beide Aufgaben in den Tutorien bzw. gemeinsam mit der Dozentin besprochen.\n\n**Literatur (Folien 45–46):** Beck 1996 · Goffman 1969 (Wir alle spielen Theater) · Goffman 2005 (Rede-Weisen) · Goffman 2010 (Stigma) · Parsons 1985 · Parsons 1986 · Parsons 2005 · Stein 2017 · Welsch 1993.\n\n**Weiterführende Literatur → Sozialisation (Folie 47):** Abels & König 2010 · Andresen & Hurrelmann 2010 · Hurrelmann, Bauer, Grundmann & Walper 2015 · Hurrelmann & Ulich 1999 · Rosa, Strecker & Kottmann 2007. Außerdem verweist die Dozentin auf die Literaturliste in den Organisationshinweisen [92:04–92:13].",
+      "beispiel": "",
+      "folien": "42–48"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Modernisierung (Parsons)",
+      "wortlaut": "Prozess der Modernisierung = Prozess der zunehmenden Differenzierung und Arbeitsteilung (Parsons, 1985; 1986)",
+      "erklaerung": "Die Gesellschaft teilt Arbeit immer weiter auf; dadurch werden alle stärker aufeinander angewiesen. Der Prozess ist laut Video nicht abgeschlossen.",
+      "folie": "5"
+    },
+    {
+      "begriff": "Traditionelle Gesellschaft (Parsons)",
+      "wortlaut": "Traditionelle Gesellschaft: • bäuerliche oder ständische Hausgemeinschaft • alle Personen alle Aufgaben (Parsons, 1985, 1986; Stein, 2017, S. 27/28)",
+      "erklaerung": "Familie und Arbeit sind nicht getrennt; Aufgaben unterscheiden sich nur in der Menge, Kinder arbeiten wie kleine Erwachsene mit (Video).",
+      "folie": "6"
+    },
+    {
+      "begriff": "Moderne und postmoderne Gesellschaft (Parsons)",
+      "wortlaut": "Moderne und postmoderne Gesellschaft: • hochspezialisierte Fertigkeiten und Fähigkeiten • formale Ausbildungen in den hochspezialisierten Bildungseinrichtungen → Individualisierung und Integration → Kein verbindlicher Sinn und keine verbindlichen Deutungen des Lebens → Eigenständige Erarbeitung des Lebensstils (Parsons, 1985; 1986; Welsch, 1993; Beck, 1996; Stein, 2017, S. 27/28)",
+      "erklaerung": "Spezialisierte, zertifizierte Arbeit; jeder muss seinen Lebensstil und Sinn selbst finden.",
+      "folie": "7"
+    },
+    {
+      "begriff": "Sozialisationsinstanz (Parsons: Struktur und Funktion)",
+      "wortlaut": "Sozialisationsinstanz wird definiert (Parsons, 1985; 2005; Stein, 2017): • durch ihre Struktur (etwa den Aufbau) • durch ihre Funktion (etwa Aufgabe in der Gesellschaft)",
+      "erklaerung": "Daher der Name Struktur-Funktionalismus. Familie: Struktur mindestens zwei Personen aus mindestens zwei Generationen, Funktion Schutz und Intimität; Schule: Aufbau des Schulsystems, Qualifikation und Selektion; Betrieb: Betriebsgröße, Erwirtschaftung von Kapital und Gütern (Folie 10).",
+      "folie": "9–10"
+    },
+    {
+      "begriff": "Sozialisation (Parsons 2005)",
+      "wortlaut": "Sozialisation = Hineinwachsen in die Gesellschaft im Sinne einer Übernahme von zunehmend mehr Rollen",
+      "erklaerung": "Man wächst über die Sozialisationsinstanzen in eine arbeitsteilige Gesellschaft hinein und übernimmt dabei immer mehr Rollen.",
+      "folie": "11"
+    },
+    {
+      "begriff": "Rolle und Position (Parsons 2005)",
+      "wortlaut": "Rollen = Erwartungen, welche die Gesellschaft an die Inhaber*innen bestimmter Positionen stellt (z. B. an Schüler*innen, junge Arbeitnehmer*innen oder Eltern) Achtung: Unterschied Position - Rolle",
+      "erklaerung": "Position = juristisch-formal (z. B. Mutter durch Geburt, Studierende durch Einschreibung); Rolle = die damit verknüpften, individuell und subjektiv zugeschriebenen Erwartungen. Eine Position zu haben heißt nicht, die Rolle auszufüllen (Adoptionsbeispiel, Video).",
+      "folie": "11"
+    },
+    {
+      "begriff": "Symbolischer Interaktionismus (Goffman): Rollenaushandlung",
+      "wortlaut": "Kritik an der struktur-funktionalen Theorie: zu passives Hineinwachsen in die statischen Rollen der Gesellschaft (Goffman, 1969; Stein, 2017, S. 29/30) Theorie eines aktiven Prozesses der Rollenaushandlung: a. Rollen sind nicht automatisch starr festgelegt b. Rollen sind nicht an bestimmte Positionen gebunden c. Rollen unterliegen einem sozialen Definitionsprozess",
+      "erklaerung": "Rollen werden in der Interaktion ausgehandelt, nicht einfach übernommen.",
+      "folie": "18"
+    },
+    {
+      "begriff": "role making / role taking",
+      "wortlaut": "role making: Interaktionspartner*innen übernehmen wechselseitig die Perspektive des*der anderen Interaktionspartner*in, spielen Rollenverhalten aus · role taking: Interaktionspartner*innen bieten dem anderen Rollen an, die diese*r annehmen oder auch verweigern kann (Folie 19) · Sozialisation ist ein bidirektionaler Prozess: role making – Interaktionspartner*innen spielen Rollenverhalten aus; role taking – Interaktionspartner*innen nehmen Rollen an oder verweigern (Folie 20)",
+      "erklaerung": "Video: Im role making spielt man Rollenverhalten aus und bietet dem anderen eine Rolle an; im role taking nimmt man sie an, lehnt sie ab oder nimmt sie modifiziert an. Achtung: Folie 19 ordnet das Anbieten dem role taking zu.",
+      "folie": "19–20"
+    },
+    {
+      "begriff": "Frustrationstoleranz · Ambiguitätstoleranz · Rollendistanz",
+      "wortlaut": "Nötig sind… 1. Frustrationstoleranz, da viele Rollen wenig befriedigend sind 2. Ambiguitätstoleranz, da viele Rollen nicht klar definiert sind 3. Rollendistanz, da es bedeutsam ist, Rollen nicht unkritisch zu übernehmen, sondern in kritischer Distanz zur Rolle zu gehen (Goffman, 1969; Stein, 2017, S. 29/30)",
+      "erklaerung": "Die drei Fähigkeiten, die man nach Goffman braucht, um Rollen gut auszuspielen; Ambiguität = Zweideutigkeit (Video).",
+      "folie": "21"
+    },
+    {
+      "begriff": "Sozialisation (Goffman)",
+      "wortlaut": "• Gesellschaft wird erst aufgrund gemeinsam geschaffener Rollenmuster definiert • Sozialisation vollzieht sich über die selbst gestalteten und übernommenen Rollen (Goffman, 1969; Stein, 2017, S. 29/30)",
+      "erklaerung": "Gegenstück zu Parsons: Die Gesellschaft entsteht erst aus den ausgehandelten Rollenmustern.",
+      "folie": "24"
+    },
+    {
+      "begriff": "Gesellschaft als Theaterbühne: Vorderbühne / Hinterbühne",
+      "wortlaut": "Goffman vergleicht in seinem Buch „Wir alle spielen Theater“ (1969) • Gesellschaft mit einer Theaterbühne, • Gesellschaftsmitglieder mit einem Ensemble, das unterschiedliche Rollen einnimmt und wechselseitig interpretiert · Vorderbühne: Ort des „offiziellen“ Geschehens, Beobachtung durch andere Personen, Ausspielen der Rolle · Hinterbühne: Ort des „inoffiziellen“ Geschehens, unbeobachtete Momente, fällt aus der Rolle",
+      "erklaerung": "Die Hinterbühne ist auch Ort der Vor- und Nachbereitung und wird gebraucht, damit der Auftritt auf der Vorderbühne gelingt (Video).",
+      "folie": "25–26"
+    },
+    {
+      "begriff": "Ensemble (Goffman)",
+      "wortlaut": "Ensemble = Jede Gruppe von Individuen, die gemeinsam eine Rolle / Situation aufbauen · Mitglieder einer Gruppe (=Ensemble) sind meist soweit in ihrem Spiel aufeinander abgestimmt, dass keine offensichtlichen Widersprüche auftauchen · Gegenseitige Abhängigkeit: Jedes Mitglied muss sich auf den anderen verlassen können, so dass die Darstellung als Gemeinschaftswerk klappt. · „Vertraulichkeit“: Ensemblemitglieder können untereinander nicht die gleiche Fassade aufrechterhalten wie vor dem Publikum → Sie sind gezwungen sich als „Eingeweihte“ zu betrachten, es entsteht Vertraulichkeit.",
+      "erklaerung": "Wer gemeinsam ein „Stück“ aufführt, hält zusammen – z. B. die Familie, die nach außen „heile Familie“ spielt.",
+      "folie": "30–31"
+    },
+    {
+      "begriff": "Interaktion: Situation definieren · zentrierte / nicht-zentrierte Interaktion",
+      "wortlaut": "Individuen bemühen sich, die Situation zu definieren, d.h. herauszufinden, was sie in der Situation erwartet und was sie in der Situation von ihrem*r Interaktionspartner*in erwarten können. · nicht-zentrierte Interaktion: mindestens zwei Akteur*innen nehmen einander wahr; auf Grund dessen findet eine Ausrichtung des eigenen Verhaltens statt · zentrierte Interaktion: Akteur*innen handeln nicht nur aufeinander bezogen, sondern miteinander; Vermittlung eines bestimmten Bildes (Goffman, 2005)",
+      "erklaerung": "Bushaltestelle: andere beobachten = nicht-zentriert; jemanden direkt fragen = zentriert (Video).",
+      "folie": "32–33"
+    },
+    {
+      "begriff": "Fassade: Bühnenbild · persönliche Fassade · Erscheinung · Verhalten",
+      "wortlaut": "„Bühnenbild“ = szenische Komponente des Ausdrucksrepertoires (Möbelstücke, Dekoration, Requisiten und Kulissen etc. für das Handeln) · „Persönliche Fassade“ = Ausdrucksmittel, das wir am stärksten mit dem*r Darsteller*in selbst in Verbindung bringen (Kleidung, Geschlecht, Alter, Rang, Größe, Haltung, Gestik) · Trennung in Erscheinung: Teile der persönlichen Fassade, die über den Sozialstatus des Einzelnen informieren · Verhalten: Teile der persönlichen Fassade, die die Rolle anzeigen, die der*die Einzelne in der Interaktion zu spielen beabsichtigt",
+      "erklaerung": "„Wir alle sind Bühnenbildner und Maskenbildner unserer Person“ (Video).",
+      "folie": "35"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "Arbeitsauftrag (im Video gestellt): Überlegen Sie, wo Sie in Ihrem persönlichen Umfeld – etwa an der Uni – zunehmende weitere Spezialisierungen beobachten, ob Sie das prinzipiell für gut befinden und was Stärken und Schwächen dieser Spezialisierung sind. Sehen Sie das so positiv wie Parsons oder eher kritisch?",
+      "quelle": "Video [15:20–15:53] zu Folie 8",
+      "loesung": "*Selbst erarbeitet – keine offizielle Lösung; Argumente aus dem Video.*\n\n**Arbeitsauftrag:** *„… wo Sie in Ihrem persönlichen Umfeld solche zunehmenden weiteren Spezialisierungen beobachten … und was Stärken und Schwächen dieser Spezialisierung sind.“*\n\n**Antwort (Beispiel):**\n- **Beobachtung an der Uni:** Lehramt wird in viele Teilstudiengänge, Module und Teilmodule zerlegt (z. B. ewb001.1 und ewb001.2); es gibt sehr spezielle Studiengänge (Video: Master „Globalisierungsprozesse der Spätantike“). In der Schule: Förderschullehrkräfte, Schulsozialarbeit, Beratungslehrkräfte, DaZ-Lehrkräfte – jede Aufgabe hat eigene Fachleute.\n- **Stärken (Parsons):** mehr **Integration**, weil alle aufeinander angewiesen sind; mehr **Individualisierung** und Zufriedenheit, weil man nach eigenen Kompetenzen und Interessen wählen kann; hohe Qualität durch Spezialwissen.\n- **Schwächen (Kritik/Dozentin):** Man versteht kaum noch, was die anderen tun; fällt jemand aus, kann ihn niemand ersetzen; Sinn und Lebensweg müssen selbst erarbeitet werden, Scheitern wird individualisiert; nicht alle haben die gleichen Chancen (gläserne Decken).\n- **Gegenbewegung:** Ruf nach Generalist*innen (Hausarzt-Prinzip, ganzheitliche Betrachtung) – in der Schule z. B. die Klassenleitung, die den Überblick über ein Kind behält.\n- **Eigene Bewertung (Beispiel):** Spezialisierung ist nützlich, braucht aber Personen, die die Teile zusammenführen – sonst „zerfällt“ das Kind in Zuständigkeiten.",
+      "loesungsweg": "Beispiele aus dem eigenen Umfeld sammeln, dann Parsons’ Pro-Argumente (Integration, Individualisierung) und die Gegenargumente aus dem Video [08:12–12:18] gegenüberstellen, zum Schluss Stellung nehmen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "Arbeitsauftrag: Notieren Sie alle Positionen und damit verknüpften Rollen, die Sie gegenwärtig inne haben!",
+      "quelle": "Folie 12 (Beispiel-Mindmap Folie 13)",
+      "loesung": "*Lösung nach dem Video [25:19–28:03] und der Mindmap auf Folie 13; persönliche Antwort – hier ein Beispiel.*\n\n**Arbeitsauftrag:** *„Notieren Sie alle Positionen und damit verknüpften Rollen, die Sie gegenwärtig inne haben!“*\n\n**Antwort:** Die Beispiel-Mindmap (Folie 13) stellt „ICH“ in die Mitte, außen die Positionen: Frau, Elternsprecherin, Schwester, Tochter, Ehefrau, Freundin, Mitarbeiterin, Vereinsmitglied, Mutter, Vorgesetzte – jeweils mit Rollenerwartungen, z. B. als Ehefrau „kollegiale Partnerin“ und „Geliebte“, als Tochter unterschiedliche Erwartungen von Vater und Mutter.\n\nSo kannst du es als Tabelle notieren (Beispiel einer Lehramtsstudentin):\n\n| Position (juristisch-formal) | Rollenerwartungen (von wem?) |\n| --- | --- |\n| Studierende (Einschreibung) | Eltern: systematisch lernen, guter Abschluss · selbst: Selbstständigkeit, Freiheit |\n| Mutter | Kinder: Zuwendung, Fürsorge · Schule: Elternabende, Hausaufgaben begleiten |\n| Arbeitnehmerin | Vorgesetzte: Pünktlichkeit, Loyalität, Leistung |\n| Partnerin | Partner: Zeit, Intimität, geteilte Freizeit |\n| Vereinsmitglied | Verein: Mitgliedsbeitrag zahlen (wenige Erwartungen) |\n\n**Worauf es ankommt:** Position und Rolle trennen (Position = formal, Rolle = Erwartungen) und zeigen, dass Erwartungen von verschiedenen Seiten **divergieren** können.",
+      "loesungsweg": "Erst alle Positionen auflisten (formal: Geburt, Einschreibung, Vertrag, Mitgliedschaft), dann je Position fragen: Wer erwartet was von mir? Abschließend Konflikte zwischen den Erwartungen markieren.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "text": "Arbeitsauftrag: Schildern Sie, welches Problem Melissa nach dem Struktur-Funktionalismus hat und wie man ihr helfen könnte.",
+      "quelle": "Folie 16 (Fall Folie 15)",
+      "loesung": "*Problembeschreibung nach dem Video [31:40–33:00]; Lösungsvorschläge selbst erarbeitet.*\n\n**Arbeitsauftrag:** *„Schildern Sie, welches Problem Melissa nach dem Struktur-Funktionalismus hat und wie man ihr helfen könnte.“*\n\n**Antwort:**\n1. **Position:** Melissa hat die Position *Auszubildende zur Damenschneiderin* (Ausbildungsvertrag). Die Ausbilderin hat die Position *Ausbilderin*.\n2. **Sozialisationsinstanz Betrieb:** *Struktur* – Ausbildungsbetrieb mit Hierarchie (Ausbilderin – Auszubildende); *Funktion* – Güter herstellen und qualifizieren, d. h. von Grund auf ausbilden.\n3. **Divergierende Rollenerwartungen an dieselbe Position:**\n   - *Melissa* erwartet, früh selbstständig zu arbeiten, zu designen, individualisiert und ganzheitlich zu arbeiten (sie näht gern, hat ihr Brautkleid selbst genäht).\n   - *Die Ausbilderin* erwartet, dass Melissa „von der Pike auf“ lernt, pünktlich ist und auch Vor- und Nachbereitung wie Aufräumen und Putzen übernimmt.\n4. **Problem:** Melissa hat die **Position** angenommen, füllt aber die **Rolle** (Pünktlichkeit, Aufräumen als Teil der Ausbildung) nicht aus, weil ihre eigenen Erwartungen an die Rolle anders sind. Der Rollenkonflikt eskaliert („Ich bin doch nicht deine Putzfrau!“) – sie verliert den Ausbildungsplatz. Nach Parsons ist Sozialisation die Übernahme von immer mehr Rollen; dieser Schritt in die Arbeitswelt ist misslungen.\n5. **Hilfe (selbst erarbeitet):** In der Beratung die Rollenerwartungen der Position Auszubildende offenlegen (Was gehört zur Funktion einer Ausbildung? Warum gehören Aufräumen und Pünktlichkeit dazu?); Melissas eigene Erwartungen ernst nehmen und einen Weg zeigen, wie sie später dahin kommt (Gesellenprüfung, Meisterin, Design); neuen Ausbildungsplatz suchen und ggf. ausbildungsbegleitende Hilfe bzw. Mediation mit der Ausbilderin vereinbaren.",
+      "loesungsweg": "Nach dem Raster der Dozentin [32:40]: Positionen benennen → Rollenerwartungen beider Seiten → Konflikt → Struktur und Funktion der Instanz Betrieb → Erklärung mit Parsons → Hilfe.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "text": "Arbeitsauftrag: Schildern Sie, was etwa\n• Frustrationstoleranz,\n• Ambiguitätstoleranz und\n• Rollendistanz\nfür eine Lehrkraft oder eine pädagogische Fachkraft im Jugendbereich darstellen kann!",
+      "quelle": "Folie 22 (Collage Folie 23)",
+      "loesung": "*Lösung nach dem Video [51:20–53:46].*\n\n**Arbeitsauftrag:** *„Schildern Sie, was etwa Frustrationstoleranz, Ambiguitätstoleranz und Rollendistanz für eine Lehrkraft oder eine pädagogische Fachkraft im Jugendbereich darstellen kann!“*\n\n**Antwort:**\n- **Frustrationstoleranz:** Neben den eigentlichen pädagogischen Aufgaben mit den jungen Menschen fallen viele Verwaltungsaufgaben, Korrekturaufgaben und lästige Gespräche mit vorgesetzten Behörden an. Diese Rollenteile werden oft als wenig befriedigend erlebt – man muss sie trotzdem ausfüllen.\n- **Ambiguitätstoleranz:** Die Rollen sind unklar definiert: Man ist Wissensvermittler*in, aber auch Erzieher*in, Elternersatz, Coach, Motivator, Psycholog*in, Seelsorger*in – manche fühlen sich eher als Bewährungshelfer*in. Die Collage (Folie 23) zeigt die Lehrkraft auch als Aufpasserin/Polizistin, Clown oder Dompteurin, die die Kinder bei Laune hält.\n- **Rollendistanz:** Die Lehrkraft übernimmt die an sie gestellten Rollen – z. B. Wissensvermittlung, Selektion von Schüler*innen für bestimmte Positionen – nicht unkritisch, sondern geht in professionelle Distanz und reflektiert ihre eigenen Vorstellungen, Wünsche, ihre Persönlichkeit und ihr Menschenbild in Beziehung zu ihrer Rolle.\n\nDie richtige Balance dieser Rollenerwartungen zu finden, erfordert alle drei Fähigkeiten [53:37–53:46].",
+      "loesungsweg": "Jede der drei Fähigkeiten mit ihrer Begründung von Folie 21 verbinden (wenig befriedigend – unklar definiert – nicht unkritisch übernehmen) und ein konkretes Beispiel aus dem Berufsalltag zuordnen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a05",
+      "art": "Aufgabe auf Folie",
+      "text": "Arbeitsauftrag: Bringen Sie jeweils Beispiele für die Situation der Vorderbühne und der Hinterbühne\n- im studentischen Leben an der Uni\n- in einer Problemfamilie",
+      "quelle": "Folie 27 (Lösungen Folien 28–29)",
+      "loesung": "*Lösung nach den Folien 28–29 und dem Video [64:27–67:09].*\n\n**Arbeitsauftrag:** *„Bringen Sie jeweils Beispiele für die Situation der Vorderbühne und der Hinterbühne im studentischen Leben an der Uni und in einer Problemfamilie.“*\n\n**Antwort:**\n\n| | Vorderbühne | Hinterbühne |\n| --- | --- | --- |\n| **Studentisches Leben (Folie 28)** | **„Das perfekte Referat“** – gut gelaunt, kompetent vorbereitet, ansprechende PowerPoint mit Bildern und Text | **Psychische Probleme, Lernstress, Nervosität, Vorbereitungsdruck**; Video: chaotische Vorbereitung, depressive Verstimmungen, Lampenfieber, Angst vor dem Sprechen vor der Gruppe, Zeitnot, Probleme in Partnerschaft, mit den Eltern oder im Nebenjob |\n| **Problemfamilie (Folie 29)** | **„Familienidylle“** – heile Welt beim Elternsprechtag oder Schulsommerfest: Eltern verstehen sich scheinbar gut, strahlen, Kinder wohlerzogen und offensichtlich geliebt | **Streit und Zank, Alkoholismus, Vernachlässigung**; Video: Auseinandersetzungen in den eigenen vier Wänden, psychische Probleme, Partnerschaftskonflikte, missbräuchliche Strukturen, sexuelle Übergriffe, Suchtproblematiken |\n\n**Bedeutung für die Praxis:** Was auf der Hinterbühne geschieht, wird Lehrkräften und Berater*innen oft verschwiegen; es soll im Gespräch vorsichtig aufgedeckt und in einem geschützten Raum „auf die Vorderbühne“ geholt werden, um Lösungen zu finden.",
+      "loesungsweg": "Vorderbühne = offizielles Geschehen unter Beobachtung (Rolle wird ausgespielt); Hinterbühne = inoffiziell, unbeobachtet, Vor- und Nachbereitung, aus der Rolle fallen. Für jede Situation je ein Beispiel zuordnen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a06",
+      "art": "Aufgabe auf Folie",
+      "text": "Arbeitsauftrag: Schildern Sie, welches Problem Dennis und Melina nach dem Symbolischen Interaktionismus haben und wie man ihnen helfen könnte.",
+      "quelle": "Folie 39 (Fall Folie 38); Leitfragen Video [83:48–84:41]",
+      "loesung": "*Selbst erarbeitet – keine offizielle Lösung; gegliedert nach den Leitfragen der Dozentin im Video.*\n\n**Arbeitsauftrag:** *„Schildern Sie, welches Problem Dennis und Melina nach dem Symbolischen Interaktionismus haben und wie man ihnen helfen könnte.“*\n\n**Antwort:**\n1. **Beschreiben – wie definieren beide ihre Rollen?** Durch die Geburt des Sohnes müssen die Rollen *Vater* und *Mutter* neu ausgehandelt werden; Rollen sind nach Goffman nicht automatisch festgelegt. Dennis definiert seine Rolle als „Ernährer“ und spielt sie aus, indem er sich in die Arbeit stürzt. Melina erwartet die versprochene **gleichberechtigte** Beteiligung an Kind und Haushalt.\n2. **Erklären – role making und role taking:** Vor der Geburt hat Dennis im role making die Rolle „gleichberechtigter Vater“ angeboten, Melina hat sie angenommen (role taking). Jetzt spielt Dennis ein anderes Rollenverhalten aus (role making: Ernährer); Melina **verweigert** diese Rolle bzw. ihre eigene Gegenrolle als allein zuständige Mutter (role taking: ablehnen) – Dennis erlebt das als „Undank“. Der Aushandlungsprozess ist nicht abgeschlossen, sondern festgefahren; beide brauchen **Ambiguitätstoleranz** (die neuen Rollen sind unklar) und **Frustrationstoleranz** (Nachtdienste, Haushalt sind wenig befriedigend). Möglicherweise spielt die Familie nach außen (Vorderbühne) „junges Familienglück“, während auf der Hinterbühne Streit herrscht.\n3. **Vorhersagen:** Ohne neue Aushandlung verfestigen sich die Rollen (er immer mehr Arbeit, sie immer mehr allein zuständig), die Konflikte nehmen zu.\n4. **Helfen (Handlungswissen):** In der Beratung die Hinterbühne auf die Vorderbühne holen: Beide schildern, welche Rolle sie sich selbst und dem anderen zuschreiben. Dann neue Rollenangebote machen (role making) und **modifiziert annehmen** (role taking), z. B. feste Zeiten, in denen Dennis das Kind übernimmt, Elternzeitmonate, Aufgabenplan. Dennis braucht **Rollendistanz** zur Ernährerrolle (er ist nicht nur Arbeitnehmer, sondern auch Vater und Partner). Vereinbarte Rollen regelmäßig überprüfen – Sozialisation ist nie abgeschlossen.",
+      "loesungsweg": "Leitfragen der Dozentin abarbeiten: Rollen definieren → role making/role taking (angenommen, abgelehnt, modifiziert) → mit den Aufgaben der wissenschaftlichen Pädagogik beschreiben, erklären, vorhersagen, Handlungswissen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a07",
+      "art": "Aufgabe auf Folie",
+      "text": "Abschluss: Welche Punkte aus der heutigen Veranstaltung finden Sie persönlich bedeutsam?",
+      "quelle": "Folie 42",
+      "loesung": "*Persönliche Reflexion – Beispiellösung (Dozentin: zwei oder drei Kernsätze notieren).*\n\n**Aufgabe:** *„Welche Punkte aus der heutigen Veranstaltung finden Sie persönlich bedeutsam?“*\n\n**Antwort (Beispiel):**\n1. Eine Position zu haben heißt noch nicht, die Rolle auszufüllen – viele Konflikte entstehen, weil Erwartungen an dieselbe Position auseinandergehen.\n2. Rollen werden ausgehandelt: Auch Schüler*innen entscheiden mit, ob sie Klassenclown oder Mitläufer*in sind – und können in Rollen gedrängt werden.\n3. Hinter der Vorderbühne einer „heilen Familie“ oder eines „coolen“ Jugendlichen kann viel stecken – als Lehrkraft lohnt der Blick hinter die Fassade.",
+      "loesungsweg": "Zwei oder drei Sätze auswählen, die dein späteres professionelles Handeln beeinflussen werden.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Hausaufgabe S05: Übung Frustrationstoleranz, Ambiguitätstoleranz und Rollendistanz",
+      "text": "Übungsaufgabe: Schildern Sie, was etwa Frustrationstoleranz, Ambiguitätstoleranz und Rollendistanz für eine pädagogische Fachkraft in der Jugendarbeit darstellen kann!\n\nTeilaufgaben:\n1. Was kann Frustrationstoleranz für eine pädagogische Fachkraft in der Jugendarbeit darstellen?\n2. Was kann Ambiguitätstoleranz für eine pädagogische Fachkraft in der Jugendarbeit darstellen?\n3. Was kann Rollendistanz für eine pädagogische Fachkraft in der Jugendarbeit darstellen?",
+      "quelle": "Folie 43 (vgl. Folien 21–23)",
+      "loesung": "> **Grundlage (Folie 21; Goffman, 1969; Stein, 2017, S. 29/30):** Um eine Rolle auszuspielen, sind nötig: 1. **Frustrationstoleranz**, da viele Rollen wenig befriedigend sind; 2. **Ambiguitätstoleranz**, da viele Rollen nicht klar definiert sind; 3. **Rollendistanz**, da es bedeutsam ist, Rollen nicht unkritisch zu übernehmen, sondern in kritischer Distanz zur Rolle zu gehen.\n\nHintergrund: Nach Goffman sind Rollen nicht starr festgelegt, sondern werden im role making und role taking ausgehandelt. Wer eine Rolle gut ausspielen will, braucht dafür diese drei Fähigkeiten. Die Aufgabe ist dieselbe wie der Arbeitsauftrag auf Folie 22 – dort für Lehrkräfte, hier für die **Jugendarbeit** (z. B. im Haus der Jugend, bei Jugendfreizeiten).\n\n**Aufgabe 1:** *„Was kann Frustrationstoleranz für eine pädagogische Fachkraft in der Jugendarbeit darstellen?“*\n\n**Antwort:** Frustrationstoleranz ist nötig, **da viele Rollen wenig befriedigend sind**. Eine Fachkraft in der Jugendarbeit hat den Beruf meist wegen der Arbeit mit den Jugendlichen gewählt. Zur selben Position gehören aber auch Rollenteile, die wenig Freude machen:\n- Verwaltung und Dokumentation: Anträge für Fördermittel, Abrechnungen von Freizeiten, Berichte, Statistiken (Video: Verwaltungsaufgaben, lästige Gespräche mit vorgesetzten Behörden [51:20–51:48]; Jugendamt-Beispiel: dokumentieren, Anträge ausfüllen, Eingaben machen [46:59]).\n- Angebote, die kaum angenommen werden; Jugendliche, die nicht kommen oder Regeln brechen; Abendtermine.\nFrustrationstoleranz heißt, diese Rollenaspekte als wichtigen Teil der Rolle anzuerkennen und auszufüllen, ohne die Motivation für die eigentliche pädagogische Arbeit zu verlieren.\n\n**Aufgabe 2:** *„Was kann Ambiguitätstoleranz für eine pädagogische Fachkraft in der Jugendarbeit darstellen?“*\n\n**Antwort:** Ambiguitätstoleranz ist nötig, **da viele Rollen nicht klar definiert sind** (Ambiguität = Zweideutigkeit; Video [47:31–47:53]). Die Fachkraft ist für die Jugendlichen gleichzeitig:\n- Freizeitgestalterin und „Kumpel“, aber auch Aufpasserin, die Hausregeln durchsetzt,\n- Ansprechpartnerin bei Problemen (fast wie Therapeutin oder Seelsorgerin), Coach, Motivator, manchmal Elternersatz,\n- bei Verdacht auf Kindeswohlgefährdung Teil eines Schutzauftrags (Video: Gefühl, „fast bei den Ermittlungsbehörden“ zu sein [48:01–48:21]).\nDie Zuständigkeiten überlappen mit anderen Positionen (Jugendamt, Schule, Beratungsstelle, Therapie). Ambiguitätstoleranz heißt, diese Unklarheit auszuhalten und immer wieder abzuwägen: „Gehört das noch zu meiner Rolle oder muss ich an jemand anderen abgeben?“ (Video [48:41–49:00]).\n\n**Aufgabe 3:** *„Was kann Rollendistanz für eine pädagogische Fachkraft in der Jugendarbeit darstellen?“*\n\n**Antwort:** Rollendistanz ist nötig, **da es bedeutsam ist, Rollen nicht unkritisch zu übernehmen, sondern in kritischer Distanz zur Rolle zu gehen**.\n- Die Fachkraft soll **nicht ganz in ihrer Rolle aufgehen**; es muss eine Persönlichkeit jenseits der Rolle bleiben – so wie ein Schauspieler nicht mit seiner Rolle identisch ist (Video [49:22–49:41]). Sie definiert sich nicht nur über die Arbeit, sondern auch als Partner*in, Elternteil, Vereinsmitglied (Video [50:12–50:22]).\n- Sie übernimmt Erwartungen von Träger, Politik oder Eltern nicht ungeprüft (z. B. „Sorgen Sie dafür, dass die Jugendlichen von der Straße sind“), sondern prüft sie an ihrem eigenen **Menschenbild** und ihrer professionellen Ethik (Video [52:37–52:58] zur Lehrkraft).\n- **Professionelle Distanz** zu den Jugendlichen: nah und zugewandt sein, aber nicht „beste Freundin“ werden; Probleme der Jugendlichen nicht mit nach Hause nehmen.\n\n**Fazit:** Die richtige Balance zwischen den vielen Rollenerwartungen zu finden, erfordert alle drei Fähigkeiten (Video [53:37–53:46]).",
+      "loesungsweg": "Die drei Begriffe mit ihrer Begründung von Folie 21 wiedergeben und jeweils mit Beispielen aus der Jugendarbeit füllen; die Musterlösung der Dozentin für Lehrkräfte (Video [51:20–53:46]) und das Jugendamt-Beispiel [46:00–50:22] übertragen.",
+      "frist": "2026-11-24",
+      "im_kalender": true,
+      "fuer_sitzung": "ewb001.1_2026-11-24",
+      "kalender_id": "4bc0f1b4-9a78-48e0-9f45-d8e7f8722bc5",
+      "pdf": "/dateien/ewb001/S07_2026-11-24_Hausaufgabe_Uebung_Frustrations-Ambiguitaetstoleranz-Rollendistanz.pdf"
+    },
+    {
+      "id": "h02",
+      "art": "Hausaufgabe",
+      "titel": "Hausaufgabe S05: Reflexion „Positionen und Rollen, die ich gegenwärtig einnehme“",
+      "text": "Reflexion: Überlegen Sie, welche\n- Positionen und welche\n- Rollen Sie gegenwärtig einnehmen und mit welchen Erwartungen diese verknüpft sind!\n\nTeilaufgaben:\n1. Welche Positionen nehmen Sie gegenwärtig ein?\n2. Welche Rollen sind mit diesen Positionen verknüpft, und mit welchen Erwartungen?",
+      "quelle": "Folie 44 (vgl. Folien 11–13)",
+      "loesung": "*Persönliche Reflexion – hier eine Beispiellösung nach dem Muster der Mindmap auf Folie 13. Deine eigene Antwort trägst du nach diesem Raster ein.*\n\n> **Grundlage (Folie 11; Parsons, 2005):** Rollen = Erwartungen, welche die Gesellschaft an die Inhaber*innen bestimmter Positionen stellt. **Achtung: Unterschied Position – Rolle.** Die **Position** ist juristisch-formal festgelegt (z. B. durch Geburt eines Kindes, Einschreibung, Arbeitsvertrag); die **Rolle** ist die Gesamtheit der damit verknüpften, individuell und subjektiv zugeschriebenen Erwartungen (Video [22:43–25:11]).\n\n**Aufgabe 1:** *„Welche Positionen nehmen Sie gegenwärtig ein?“*\n\n**Antwort (Beispiel):** Studierende (Lehramt, Uni Vechta) · Mutter · Tochter · Partnerin · Arbeitnehmerin (Teilzeit) · Mitbewohnerin in einer WG · Vereinsmitglied. Die Mindmap der Dozentin (Folie 13) nennt außerdem: Frau, Elternsprecherin, Schwester, Ehefrau, Freundin, Mitarbeiterin, Vorgesetzte.\n\n**Aufgabe 2:** *„Welche Rollen sind mit diesen Positionen verknüpft, und mit welchen Erwartungen?“*\n\n**Antwort (Beispiel):**\n\n| Position | Rollenerwartungen | Wer erwartet das? |\n| --- | --- | --- |\n| Studierende | Lernstoff systematisch aneignen, Prüfungen bestehen, guter Abschluss; Vorlesungen nacharbeiten, Tutorium besuchen | Eltern, Dozierende (Video [24:06–24:26; 58:12–58:21]) |\n| | Selbstständigkeit, neue Freiheiten | du selbst (Video [24:44–25:02]) |\n| Mutter | Fürsorge, Zuwendung, Zeit, Organisation des Familienalltags, Elternabende | Kinder, Schule/Kita, Gesellschaft |\n| Arbeitnehmerin | Pünktlichkeit, Loyalität, Leistungsstreben, hohe Motivation (Folie 14) | Vorgesetzte, Kolleg*innen |\n| Partnerin | Intimität, Fürsorglichkeit, geteilte Freizeitbeschäftigungen (Folie 14) | Partner |\n| Tochter | z. B. regelmäßiger Kontakt, Unterstützung – von Vater und Mutter evtl. unterschiedlich (Folie 13) | Eltern |\n| Mitbewohnerin | Rücksicht, Putzplan einhalten | Mitbewohnerin |\n| Vereinsmitglied | Mitgliedsbeitrag zahlen – sonst kaum Erwartungen (Video [25:52–26:21]) | Verein |\n\n**Reflexion:**\n- **Rollenkonflikte:** Erwartungen an verschiedene Positionen können in Konflikt treten, weil Beruf, Studium und Familie Zeit und Kompetenzen fordern – dann ist ein Abwägen notwendig (Video [29:58–30:07]). Auch an **eine** Position können divergierende Erwartungen gerichtet sein (Studierende: Eltern vs. du selbst).\n- **Mit Goffman weitergedacht:** Diese Rollen sind nicht starr – du handelst sie im role making und role taking aus (z. B. Aufgabenverteilung in Familie oder WG) und brauchst Frustrationstoleranz, Ambiguitätstoleranz und Rollendistanz.",
+      "loesungsweg": "Erst Positionen nach formalem Kriterium sammeln (Geburt, Einschreibung, Vertrag, Mitgliedschaft), dann je Position die Erwartungen und ihre Absender notieren, zum Schluss Konflikte zwischen den Erwartungen markieren und mit Parsons (Position – Rolle) und Goffman (Aushandlung) einordnen.",
+      "frist": "2026-11-24",
+      "im_kalender": true,
+      "fuer_sitzung": "ewb001.1_2026-11-24",
+      "kalender_id": "29364a92-ef96-4e77-bbba-c5c917ecbc11",
+      "pdf": "/dateien/ewb001/S07_2026-11-24_Hausaufgabe_Reflexion_Positionen-und-Rollen.pdf"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie beschreibt Parsons den Prozess der Modernisierung, und welche Folge hat er für die Menschen in der Arbeitswelt?",
+      "antwort": "Der Prozess der Modernisierung ist ein Prozess der zunehmenden Differenzierung und Arbeitsteilung (Parsons, 1985; 1986). Folge: Die Menschen sind immer mehr aufeinander angewiesen – auf andere, die ihnen zuarbeiten und ihr Produkt oder ihre Dienstleistung abnehmen und weiterverarbeiten. Der Prozess ist nicht abgeschlossen, sondern setzt sich in Moderne und Postmoderne fort.",
+      "erklaerung": "Folie 5; Video [04:36–05:16].",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Prozess der Modernisierung = Prozess der zunehmenden [[Differenzierung]] und [[Arbeitsteilung]] (Parsons, 1985; 1986).",
+      "erklaerung": "Folie 5.",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Worin unterscheiden sich nach Parsons die traditionelle und die moderne bzw. postmoderne Gesellschaft?",
+      "antwort": "Traditionelle Gesellschaft: bäuerliche oder ständische Hausgemeinschaft; alle Personen übernehmen alle Aufgaben (nur in quantitativ unterschiedlichen Anteilen); Familie und Beruf sind nicht getrennt; Kinder werden wie kleine Erwachsene in die Arbeit der Eltern hineinsozialisiert. Moderne und postmoderne Gesellschaft: hochspezialisierte Fertigkeiten und Fähigkeiten, formale Ausbildungen in hochspezialisierten Bildungseinrichtungen (Zertifikate); Folgen: Individualisierung und Integration, kein verbindlicher Sinn und keine verbindlichen Deutungen des Lebens, eigenständige Erarbeitung des Lebensstils.",
+      "erklaerung": "Folien 6–7; Video [05:28–08:03].",
+      "folie": "6–7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Ordne die Merkmale der passenden Gesellschaftsform nach Parsons zu.",
+      "kategorien": [
+        "Traditionelle Gesellschaft",
+        "Moderne und postmoderne Gesellschaft"
+      ],
+      "elemente": [
+        {
+          "text": "bäuerliche oder ständische Hausgemeinschaft",
+          "kategorie": "Traditionelle Gesellschaft"
+        },
+        {
+          "text": "alle Personen alle Aufgaben",
+          "kategorie": "Traditionelle Gesellschaft"
+        },
+        {
+          "text": "Familie, Privates und Berufliches sind nicht zu trennen",
+          "kategorie": "Traditionelle Gesellschaft"
+        },
+        {
+          "text": "Kinder werden wie kleine Erwachsene in die Arbeit der Eltern hineinsozialisiert",
+          "kategorie": "Traditionelle Gesellschaft"
+        },
+        {
+          "text": "hochspezialisierte Fertigkeiten und Fähigkeiten",
+          "kategorie": "Moderne und postmoderne Gesellschaft"
+        },
+        {
+          "text": "formale Ausbildungen in den hochspezialisierten Bildungseinrichtungen",
+          "kategorie": "Moderne und postmoderne Gesellschaft"
+        },
+        {
+          "text": "kein verbindlicher Sinn und keine verbindlichen Deutungen des Lebens",
+          "kategorie": "Moderne und postmoderne Gesellschaft"
+        },
+        {
+          "text": "eigenständige Erarbeitung des Lebensstils",
+          "kategorie": "Moderne und postmoderne Gesellschaft"
+        }
+      ],
+      "erklaerung": "Folien 6–7; Video [05:38–07:30].",
+      "folie": "6–7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Parsons’ Bewertung der zunehmenden Arbeitsteilung treffen laut Vorlesung zu?",
+      "optionen": [
+        "Parsons ist fortschrittsoptimistisch und begrüßt den Prozess.",
+        "Nach Parsons trägt die hohe Arbeitsteilung zur Integration der Gesellschaft bei, weil der Einzelne auf andere angewiesen ist.",
+        "Nach Parsons führt die hohe Arbeitsteilung zu einem Auseinanderbrechen der Gesellschaft.",
+        "Nach Parsons trägt die Arbeitsteilung zur Individualisierung und persönlichen Zufriedenheit bei.",
+        "Nach Parsons ist der Prozess der Modernisierung heute abgeschlossen."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Video [08:12–10:58, 15:44]: Das Auseinanderbrechen befürchten die Kritiker; der Prozess ist laut Video nicht abgeschlossen [04:45, 12:29].",
+      "folie": "5–8; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wodurch wird eine Sozialisationsinstanz nach Parsons definiert, und woher hat der Struktur-Funktionalismus seinen Namen?",
+      "antwort": "Eine Sozialisationsinstanz wird definiert durch ihre Struktur (etwa den Aufbau) und durch ihre Funktion (etwa Aufgabe in der Gesellschaft). Weil Parsons Struktur und Funktion der Instanzen so betont, heißt seine Theorie Struktur-Funktionalismus.",
+      "erklaerung": "Folie 9; Video [16:20–16:56].",
+      "folie": "9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu: Beschreibt das Merkmal die Struktur oder die Funktion der Sozialisationsinstanz?",
+      "kategorien": [
+        "Struktur",
+        "Funktion"
+      ],
+      "elemente": [
+        {
+          "text": "Familie: mindestens zwei Personen aus mindestens zwei Generationen",
+          "kategorie": "Struktur"
+        },
+        {
+          "text": "Familie: Gewährung von Schutz und Intimität",
+          "kategorie": "Funktion"
+        },
+        {
+          "text": "Schule: Aufbau des Schulsystems (Dreigliedrigkeit…)",
+          "kategorie": "Struktur"
+        },
+        {
+          "text": "Schule: Qualifikation, Selektion",
+          "kategorie": "Funktion"
+        },
+        {
+          "text": "Schule: Kulturhoheit der Länder mit 16 Untersystemen",
+          "kategorie": "Struktur"
+        },
+        {
+          "text": "Betrieb: Betriebsgröße",
+          "kategorie": "Struktur"
+        },
+        {
+          "text": "Betrieb: Erwirtschaftung von Kapital und Gütern",
+          "kategorie": "Funktion"
+        }
+      ],
+      "erklaerung": "Folie 10 (Stein 2017, S. 28); Kulturhoheit: Video [18:55].",
+      "folie": "10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Konstellationen sind nach der Struktur-Definition von Parsons eine Familie?",
+      "optionen": [
+        "eine alleinerziehende Mutter mit Kind",
+        "ein Großelternpaar mit Tochter, Schwiegersohn und drei Enkeln",
+        "ein Ehepaar ohne Kinder",
+        "zwei gleichaltrige Freundinnen, die zusammenwohnen"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Struktur der Familie: mindestens zwei Personen aus mindestens zwei Generationen (Folie 10). Ein Ehepaar ist keine Familie, weil die zwei Generationen fehlen (Video [17:43–18:08]).",
+      "folie": "10; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie definiert Parsons (2005) Sozialisation und Rollen?",
+      "antwort": "Sozialisation = Hineinwachsen in die Gesellschaft im Sinne einer Übernahme von zunehmend mehr Rollen. Rollen = Erwartungen, welche die Gesellschaft an die Inhaber*innen bestimmter Positionen stellt (z. B. an Schüler*innen, junge Arbeitnehmer*innen oder Eltern).",
+      "erklaerung": "Folie 11 – wörtlich auf der Folie.",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Sozialisation = Hineinwachsen in die Gesellschaft im Sinne einer Übernahme von zunehmend mehr [[Rollen]]. Rollen = [[Erwartungen]], welche die Gesellschaft an die Inhaber*innen bestimmter [[Positionen]] stellt.",
+      "erklaerung": "Folie 11 (Parsons 2005).",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Worin unterscheiden sich Position und Rolle? Erläutere mit dem Beispiel aus der Vorlesung.",
+      "antwort": "Die Position ist juristisch-formal definiert (z. B. hat eine Frau mit der Geburt eines Kindes die Position Mutter, mit der Einschreibung hat man die Position Studierende). Die Rolle ist die Gesamtheit der mit der Position verknüpften, individuell und subjektiv zugeschriebenen Erwartungen. Eine Position zu haben heißt nicht, die Rolle auszufüllen: Gibt eine leibliche Mutter ihr Kind gleich nach der Geburt zur Adoption frei, hat sie die Position Mutter, füllt die Rolle Mutter aber nicht aus – das tun die Adoptiveltern.",
+      "erklaerung": "Folie 11 („Achtung: Unterschied Position - Rolle“); Video [22:43–23:49].",
+      "folie": "11; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Position und Rolle treffen laut Vorlesung zu?",
+      "optionen": [
+        "Die Position ist juristisch-formal festgelegt, z. B. Mutter ab der Geburt des Kindes.",
+        "Die Rolle umfasst die mit der Position verknüpften Erwartungen.",
+        "Wer eine Position innehat, füllt automatisch auch die zugehörige Rolle aus.",
+        "Eine leibliche Mutter, die ihr Kind direkt nach der Geburt zur Adoption freigibt, hat die Position Mutter, füllt aber die Rolle Mutter nicht aus.",
+        "An eine Position werden immer einheitliche Rollenerwartungen gerichtet."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Video [22:43–25:11]: Rollenerwartungen können divergieren (Eltern vs. Studierende selbst).",
+      "folie": "11; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Melissa A. beginnt eine Ausbildung zur Damenschneiderin, kommt wiederholt zu spät und rastet aus, als sie nach Arbeitsende Stoffreste zusammenkehren und den Raum wischen soll („Ich bin doch nicht deine Putzfrau!“). Sie verliert den Ausbildungsplatz. Erkläre ihr Problem nach dem Struktur-Funktionalismus und zeige, wie man ihr helfen könnte.",
+      "musterloesung": "Position: Auszubildende zur Damenschneiderin. Instanz Betrieb mit Struktur (Ausbildungsbetrieb mit Ausbilderin und Auszubildender) und Funktion (Güter herstellen, von Grund auf qualifizieren). An dieselbe Position prallen divergierende Rollenerwartungen: Melissa erwartet, früh selbstständig zu arbeiten, zu designen und individualisiert zu arbeiten; die Ausbilderin erwartet, dass sie von der Pike auf lernt, pünktlich ist und Vor- und Nachbereitung wie Aufräumen übernimmt. Melissa hat die Position, füllt die Rolle aber nicht aus – der Rollenkonflikt eskaliert, die Übernahme der neuen Rolle (Sozialisation nach Parsons) misslingt. Hilfe: Rollenerwartungen der Position offenlegen und begründen, Melissas Erwartungen ernst nehmen und Perspektiven aufzeigen, neuen Ausbildungsplatz und Begleitung organisieren.",
+      "bewertungspunkte": [
+        "Position benannt (Auszubildende)",
+        "divergierende Rollenerwartungen beider Seiten",
+        "Unterschied Position – Rolle bzw. Konflikt erklärt",
+        "Struktur und Funktion der Instanz Betrieb",
+        "sinnvolle Hilfe abgeleitet"
+      ],
+      "punkte": 5,
+      "erklaerung": "Arbeitsauftrag Folie 16; laut Video [32:40] mögliche Klausuraufgabe.",
+      "folie": "15–16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Kritik übt Goffman an der struktur-funktionalen Theorie, und welche Theorie setzt er mit welchen drei Thesen dagegen?",
+      "antwort": "Kritik: zu passives Hineinwachsen in die statischen Rollen der Gesellschaft. Dagegen: Theorie eines aktiven Prozesses der Rollenaushandlung: a. Rollen sind nicht automatisch starr festgelegt, b. Rollen sind nicht an bestimmte Positionen gebunden, c. Rollen unterliegen einem sozialen Definitionsprozess.",
+      "erklaerung": "Folie 18 (Goffman 1969; Stein 2017, S. 29/30).",
+      "folie": "18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Goffman kritisiert ein zu [[passives]] Hineinwachsen in die statischen Rollen der Gesellschaft. Seine Thesen: Rollen sind nicht automatisch [[starr festgelegt]]; Rollen sind nicht an bestimmte [[Positionen]] gebunden; Rollen unterliegen einem sozialen [[Definitionsprozess]].",
+      "erklaerung": "Folie 18.",
+      "folie": "18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Beispiele aus der Vorlesung belegen Goffmans These, dass Rollen nicht starr festgelegt bzw. nicht an Positionen gebunden sind?",
+      "optionen": [
+        "Ein Gefangener hat selbst in der „totalen Institution“ Gefängnis einen großen Aushandlungsspielraum, wie er seine Rolle ausfüllt.",
+        "Ein Bankangestellter kann heute auch mit bunt gefärbter Frisur und Tattoos auftreten.",
+        "Studierende oder Erwerbslose können sich habituell wie Banker kleiden.",
+        "Eine Familie besteht aus mindestens zwei Personen aus mindestens zwei Generationen."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Video [36:41–39:46]. Die Familiendefinition gehört zu Parsons (Struktur, Folie 10).",
+      "folie": "18; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu: role making oder role taking? (nach Folie 20 und Video)",
+      "kategorien": [
+        "role making",
+        "role taking"
+      ],
+      "elemente": [
+        {
+          "text": "Interaktionspartner*innen spielen Rollenverhalten aus",
+          "kategorie": "role making"
+        },
+        {
+          "text": "Interaktionspartner*innen nehmen Rollen an oder verweigern",
+          "kategorie": "role taking"
+        },
+        {
+          "text": "Ein Mitbewohner bietet dir die Rolle „meine neue Freundin“ an.",
+          "kategorie": "role making"
+        },
+        {
+          "text": "Du sagst: „Prinzipiell ja, aber es geht mir zu schnell.“",
+          "kategorie": "role taking"
+        },
+        {
+          "text": "Du lehnst die angebotene Rolle komplett ab.",
+          "kategorie": "role taking"
+        }
+      ],
+      "erklaerung": "Folie 20; WG-Beispiel Video [42:08–44:15]. Achtung: Folie 19 formuliert das Anbieten beim role taking – siehe Auffälligkeiten.",
+      "folie": "19–20; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was bedeuten role making und role taking, und welche drei Möglichkeiten hat man beim role taking?",
+      "antwort": "Role making: Interaktionspartner*innen spielen Rollenverhalten aus (und bieten dem Gegenüber damit eine Rolle an). Role taking: Interaktionspartner*innen nehmen Rollen an oder verweigern. Laut Video kann man eine angebotene Rolle genau so annehmen, komplett ablehnen oder mit Modifikationen annehmen. Sozialisation ist dabei ein bidirektionaler Prozess, der nie abgeschlossen ist.",
+      "erklaerung": "Folien 19–20; Video [40:51–41:47, 44:44].",
+      "folie": "19–20; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum Symbolischen Interaktionismus (Goffman) treffen zu?",
+      "optionen": [
+        "Sozialisation ist ein bidirektionaler Prozess aus role making und role taking.",
+        "Gesellschaft wird erst aufgrund gemeinsam geschaffener Rollenmuster definiert.",
+        "Rollen sind automatisch starr festgelegt.",
+        "Der Prozess der Rollenaushandlung ist nie abgeschlossen.",
+        "Goffman baut seine Theorie ohne Kritik auf der Theorie von Parsons auf."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folien 18, 20, 24; Video [44:44–45:52].",
+      "folie": "18–24",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche drei Fähigkeiten sind nach Goffman nötig, um Rollen auszuspielen, und warum?",
+      "antwort": "1. Frustrationstoleranz, da viele Rollen wenig befriedigend sind. 2. Ambiguitätstoleranz, da viele Rollen nicht klar definiert sind. 3. Rollendistanz, da es bedeutsam ist, Rollen nicht unkritisch zu übernehmen, sondern in kritischer Distanz zur Rolle zu gehen.",
+      "erklaerung": "Folie 21 – wörtlich.",
+      "folie": "21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "1. [[Frustrationstoleranz]], da viele Rollen wenig befriedigend sind. 2. [[Ambiguitätstoleranz]], da viele Rollen nicht klar definiert sind. 3. [[Rollendistanz]], da es bedeutsam ist, Rollen nicht unkritisch zu übernehmen, sondern in kritischer Distanz zur Rolle zu gehen.",
+      "erklaerung": "Folie 21.",
+      "folie": "21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f22",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Situationen der Fähigkeit zu, die nach Goffman gefragt ist.",
+      "kategorien": [
+        "Frustrationstoleranz",
+        "Ambiguitätstoleranz",
+        "Rollendistanz"
+      ],
+      "elemente": [
+        {
+          "text": "Eine Lehrkraft muss neben dem Unterricht viele Verwaltungs- und Korrekturaufgaben erledigen.",
+          "kategorie": "Frustrationstoleranz"
+        },
+        {
+          "text": "Eine Jugendamtsmitarbeiterin muss viel dokumentieren und Anträge ausfüllen.",
+          "kategorie": "Frustrationstoleranz"
+        },
+        {
+          "text": "Eine Lehrkraft ist zugleich Wissensvermittlerin, Elternersatz, Coach und Seelsorgerin.",
+          "kategorie": "Ambiguitätstoleranz"
+        },
+        {
+          "text": "Im Jugendamt ist die Grenze zur Psychotherapie fließend: Gehört das noch zu meiner Rolle?",
+          "kategorie": "Ambiguitätstoleranz"
+        },
+        {
+          "text": "Eine Lehrkraft übernimmt die Selektion von Schüler*innen nicht unkritisch und reflektiert ihr Menschenbild.",
+          "kategorie": "Rollendistanz"
+        },
+        {
+          "text": "Eine Fachkraft definiert sich nicht nur über ihre Rolle im Beruf, sondern auch als Partnerin und Vereinsmitglied.",
+          "kategorie": "Rollendistanz"
+        }
+      ],
+      "erklaerung": "Folien 21–23; Video [46:00–53:46].",
+      "folie": "21–23; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f23",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Schildern Sie, was etwa Frustrationstoleranz, Ambiguitätstoleranz und Rollendistanz für eine pädagogische Fachkraft in der Jugendarbeit darstellen kann!",
+      "musterloesung": "Frustrationstoleranz (viele Rollen sind wenig befriedigend): Neben der Arbeit mit Jugendlichen fallen Verwaltung, Dokumentation, Anträge, Abrechnungen und lästige Gespräche mit Behörden an, die ausgefüllt werden müssen. Ambiguitätstoleranz (viele Rollen sind nicht klar definiert): Die Fachkraft ist zugleich Freizeitgestalterin, Aufpasserin, Coach, Ansprechpartnerin bei Problemen, fast Therapeutin oder Elternersatz; Zuständigkeiten überlappen, sie muss abwägen, was zu ihrer Rolle gehört. Rollendistanz (Rollen nicht unkritisch übernehmen): Sie geht nicht ganz in der Rolle auf, wahrt professionelle Distanz, prüft Erwartungen an ihrem Menschenbild und definiert sich auch über andere Rollen.",
+      "bewertungspunkte": [
+        "Frustrationstoleranz mit Begründung und Beispiel",
+        "Ambiguitätstoleranz mit Begründung und Beispiel",
+        "Rollendistanz mit Begründung und Beispiel"
+      ],
+      "punkte": 3,
+      "erklaerung": "Übungsaufgabe Folie 43 (Hausaufgabe h01); Musterlösung für Lehrkräfte im Video [51:20–53:46].",
+      "folie": "21–23, 43",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f24",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Wie vollzieht sich Sozialisation nach Goffman, und womit vergleicht er Gesellschaft und Gesellschaftsmitglieder?",
+      "antwort": "Gesellschaft wird erst aufgrund gemeinsam geschaffener Rollenmuster definiert; Sozialisation vollzieht sich über die selbst gestalteten und übernommenen Rollen (role making und role taking). In „Wir alle spielen Theater“ (1969) vergleicht Goffman die Gesellschaft mit einer Theaterbühne und die Gesellschaftsmitglieder mit einem Ensemble, das unterschiedliche Rollen einnimmt und wechselseitig interpretiert.",
+      "erklaerung": "Folien 24–25; Video [53:55–56:10].",
+      "folie": "24–25",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f25",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wodurch unterscheiden sich nach Goffman Vorderbühne und Hinterbühne?",
+      "antwort": "Vorderbühne: Ort des „offiziellen“ Geschehens, Beobachtung durch andere Personen, Ausspielen der Rolle. Hinterbühne: Ort des „inoffiziellen“ Geschehens, unbeobachtete Momente, man fällt aus der Rolle; laut Video auch Ort der Vor- und Nachbereitung, der gebraucht wird, damit der Auftritt auf der Vorderbühne gelingt.",
+      "erklaerung": "Folie 26; Video [60:06–62:10].",
+      "folie": "26",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f26",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu: Vorderbühne oder Hinterbühne?",
+      "kategorien": [
+        "Vorderbühne",
+        "Hinterbühne"
+      ],
+      "elemente": [
+        {
+          "text": "Ort des „offiziellen“ Geschehens",
+          "kategorie": "Vorderbühne"
+        },
+        {
+          "text": "Beobachtung durch andere Personen",
+          "kategorie": "Vorderbühne"
+        },
+        {
+          "text": "unbeobachtete Momente",
+          "kategorie": "Hinterbühne"
+        },
+        {
+          "text": "fällt aus der Rolle",
+          "kategorie": "Hinterbühne"
+        },
+        {
+          "text": "„Das perfekte Referat“",
+          "kategorie": "Vorderbühne"
+        },
+        {
+          "text": "Lernstress, Nervosität, Vorbereitungsdruck",
+          "kategorie": "Hinterbühne"
+        },
+        {
+          "text": "„Familienidylle“ beim Schulsommerfest",
+          "kategorie": "Vorderbühne"
+        },
+        {
+          "text": "Streit und Zank, Alkoholismus, Vernachlässigung",
+          "kategorie": "Hinterbühne"
+        },
+        {
+          "text": "Für den Kellner: die Küche",
+          "kategorie": "Hinterbühne"
+        }
+      ],
+      "erklaerung": "Folien 26–29; Restaurant-Beispiel aus dem Erklärvideo [87:54–88:04].",
+      "folie": "26–29",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f27",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Was ist nach Goffman ein Ensemble, und durch welche zwei Merkmale ist es gekennzeichnet?",
+      "antwort": "Ensemble = jede Gruppe von Individuen, die gemeinsam eine Rolle / Situation aufbauen; die Mitglieder sind meist so weit aufeinander abgestimmt, dass keine offensichtlichen Widersprüche auftauchen. Merkmale: gegenseitige Abhängigkeit (jedes Mitglied muss sich auf den anderen verlassen können, damit die Darstellung als Gemeinschaftswerk klappt; kann auch strukturelle und soziale Spaltungen überbrücken) und „Vertraulichkeit“ (untereinander können die Mitglieder nicht die gleiche Fassade aufrechterhalten wie vor dem Publikum, sie müssen sich als „Eingeweihte“ betrachten).",
+      "erklaerung": "Folien 30–31.",
+      "folie": "30–31",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f28",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum Ensemble nach Goffman treffen zu?",
+      "optionen": [
+        "Ensemble = jede Gruppe von Individuen, die gemeinsam eine Rolle / Situation aufbauen",
+        "Gegenseitige Abhängigkeit: Jedes Mitglied muss sich auf den anderen verlassen können, so dass die Darstellung als Gemeinschaftswerk klappt.",
+        "„Vertraulichkeit“: Ensemblemitglieder halten untereinander die gleiche Fassade aufrecht wie vor dem Publikum.",
+        "Ein Ensemble bilden nur Menschen, die sich schon lange kennen.",
+        "Gegenseitige Abhängigkeit kann auch die unterschiedlichen strukturellen und sozialen Spaltungen überbrücken."
+      ],
+      "richtig": [
+        0,
+        1,
+        4
+      ],
+      "erklaerung": "Folien 30–31; laut Video [71:05–71:45] ist jede Interaktion, auch mit Fremden, ein Theaterstück.",
+      "folie": "30–31",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f29",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Worum bemühen sich Individuen in einer Interaktion nach Goffman, und wie unterscheiden sich zentrierte und nicht-zentrierte Interaktion?",
+      "antwort": "Individuen bemühen sich, die Situation zu definieren, d. h. herauszufinden, was sie in der Situation erwartet und was sie von ihrem*r Interaktionspartner*in erwarten können, und Infos über ihre*n Interaktionspartner*in herauszufinden (Status, Fähigkeiten, Glaubwürdigkeit). Nicht-zentrierte Interaktion: mindestens zwei Akteur*innen nehmen einander wahr, auf Grund dessen findet eine Ausrichtung des eigenen Verhaltens statt (ohne direkte Kommunikation). Zentrierte Interaktion: die Akteur*innen handeln nicht nur aufeinander bezogen, sondern miteinander; Vermittlung eines bestimmten Bildes.",
+      "erklaerung": "Folien 32–33; Video [74:27–76:05].",
+      "folie": "32–33",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f30",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu: nicht-zentrierte oder zentrierte Interaktion?",
+      "kategorien": [
+        "nicht-zentrierte Interaktion",
+        "zentrierte Interaktion"
+      ],
+      "elemente": [
+        {
+          "text": "mindestens zwei Akteur*innen nehmen einander wahr",
+          "kategorie": "nicht-zentrierte Interaktion"
+        },
+        {
+          "text": "auf Grund dessen findet eine Ausrichtung des eigenen Verhaltens statt",
+          "kategorie": "nicht-zentrierte Interaktion"
+        },
+        {
+          "text": "Akteur*innen handeln nicht nur aufeinander bezogen, sondern miteinander",
+          "kategorie": "zentrierte Interaktion"
+        },
+        {
+          "text": "Vermittlung eines bestimmten Bildes",
+          "kategorie": "zentrierte Interaktion"
+        },
+        {
+          "text": "An der Bushaltestelle beobachtest du, wie die anderen ihre Fahrkarte kaufen, und machst es nach.",
+          "kategorie": "nicht-zentrierte Interaktion"
+        },
+        {
+          "text": "Du gehst direkt auf eine Person zu und fragst, wo es Fahrkarten gibt.",
+          "kategorie": "zentrierte Interaktion"
+        }
+      ],
+      "erklaerung": "Folie 33 (Goffman 2005); Bushaltestellen-Beispiel Video [75:05–76:05].",
+      "folie": "33; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f31",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Ziele der einzelnen Person nennt Goffman (Folie 34)?",
+      "optionen": [
+        "durch ihr Verhalten und Ausdruck die Situation zu definieren",
+        "das Verhalten der anderen ihr gegenüber zu kontrollieren",
+        "die eigene Position juristisch abzusichern",
+        "möglichst passiv in vorgegebene Rollen hineinzuwachsen"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Folie 34.",
+      "folie": "34",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f32",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was versteht Goffman unter „Bühnenbild“ und „persönlicher Fassade“, und wie wird die persönliche Fassade unterteilt?",
+      "antwort": "Bühnenbild = szenische Komponente des Ausdrucksrepertoires: Möbelstücke, Dekoration, Requisiten und Kulissen etc. für das Handeln. Persönliche Fassade = Ausdrucksmittel, das wir am stärksten mit dem*r Darsteller*in selbst in Verbindung bringen: Kleidung, Geschlecht, Alter, Rang, Größe, Haltung, Gestik. Sie wird getrennt in Erscheinung (Teile, die über den Sozialstatus des Einzelnen informieren) und Verhalten (Teile, die die Rolle anzeigen, die der*die Einzelne in der Interaktion zu spielen beabsichtigt).",
+      "erklaerung": "Folie 35; Merksatz: „Wir alle sind Bühnenbildner und Maskenbildner unserer Person“ (Video [77:25]).",
+      "folie": "35",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f33",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "text": "Die persönliche Fassade wird getrennt in [[Erscheinung]] – Teile der persönlichen Fassade, die über den [[Sozialstatus]] des Einzelnen informieren – und [[Verhalten]] – Teile der persönlichen Fassade, die die [[Rolle]] anzeigen, die der*die Einzelne in der Interaktion zu spielen beabsichtigt.",
+      "erklaerung": "Folie 35.",
+      "folie": "35",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f34",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu: Bühnenbild oder persönliche Fassade?",
+      "kategorien": [
+        "Bühnenbild",
+        "Persönliche Fassade"
+      ],
+      "elemente": [
+        {
+          "text": "Möbelstücke und Dekoration",
+          "kategorie": "Bühnenbild"
+        },
+        {
+          "text": "Requisiten und Kulissen",
+          "kategorie": "Bühnenbild"
+        },
+        {
+          "text": "Eine Feier festlich oder poppig dekorieren",
+          "kategorie": "Bühnenbild"
+        },
+        {
+          "text": "Kleidung, Haltung, Gestik",
+          "kategorie": "Persönliche Fassade"
+        },
+        {
+          "text": "Geschlecht, Alter, Rang, Größe",
+          "kategorie": "Persönliche Fassade"
+        },
+        {
+          "text": "Frisur, Schmuck und Make-up",
+          "kategorie": "Persönliche Fassade"
+        }
+      ],
+      "erklaerung": "Folie 35; Feier und Maskenbildnerei: Video [77:35–78:26].",
+      "folie": "35; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f35",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu: Parsons oder Goffman?",
+      "kategorien": [
+        "Parsons (Struktur-Funktionalismus)",
+        "Goffman (Symbolischer Interaktionismus)"
+      ],
+      "elemente": [
+        {
+          "text": "Sozialisation = Hineinwachsen in die Gesellschaft im Sinne einer Übernahme von zunehmend mehr Rollen",
+          "kategorie": "Parsons (Struktur-Funktionalismus)"
+        },
+        {
+          "text": "Sozialisation vollzieht sich über die selbst gestalteten und übernommenen Rollen",
+          "kategorie": "Goffman (Symbolischer Interaktionismus)"
+        },
+        {
+          "text": "Sozialisationsinstanz wird durch Struktur und Funktion definiert",
+          "kategorie": "Parsons (Struktur-Funktionalismus)"
+        },
+        {
+          "text": "Prozess der Modernisierung = Prozess der zunehmenden Differenzierung und Arbeitsteilung",
+          "kategorie": "Parsons (Struktur-Funktionalismus)"
+        },
+        {
+          "text": "Rollen sind nicht an bestimmte Positionen gebunden",
+          "kategorie": "Goffman (Symbolischer Interaktionismus)"
+        },
+        {
+          "text": "role making und role taking",
+          "kategorie": "Goffman (Symbolischer Interaktionismus)"
+        },
+        {
+          "text": "Vorderbühne und Hinterbühne",
+          "kategorie": "Goffman (Symbolischer Interaktionismus)"
+        },
+        {
+          "text": "US-Amerikaner, Harvard, Promotion über die deutsche Soziologie (1902–1979)",
+          "kategorie": "Parsons (Struktur-Funktionalismus)"
+        },
+        {
+          "text": "Kanadier, erst Chemie, dann Hollywood, dann Soziologie, zuletzt Berkeley (1922–1982)",
+          "kategorie": "Goffman (Symbolischer Interaktionismus)"
+        },
+        {
+          "text": "Fallbeispiel Melissa A.",
+          "kategorie": "Parsons (Struktur-Funktionalismus)"
+        },
+        {
+          "text": "Fallbeispiel Dennis und Melina",
+          "kategorie": "Goffman (Symbolischer Interaktionismus)"
+        }
+      ],
+      "erklaerung": "Folien 4–39; Biografien laut Video [03:07–04:24, 33:34–35:11].",
+      "folie": "4–39",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f36",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Dennis und Melina sind seit zwei Jahren verheiratet und haben einen drei Monate alten Sohn. Dennis hatte versprochen, sich gleichberechtigt zu beteiligen, stürzt sich aber noch mehr in die Arbeit: „Ich tue alles, um die Familie zu ernähren und abends schlägt mir nur Undank entgegen!“ Schildere ihr Problem nach dem Symbolischen Interaktionismus und wie man ihnen helfen könnte.",
+      "musterloesung": "Durch die Geburt müssen die Rollen Vater und Mutter neu ausgehandelt werden – Rollen sind nach Goffman nicht starr festgelegt. Dennis spielt im role making die Rolle „Ernährer“ aus; Melina hatte die zuvor angebotene Rolle „gleichberechtigter Vater“ angenommen und verweigert nun im role taking die neue Rollenverteilung. Die Aushandlung ist festgefahren, beide definieren die Situation unterschiedlich; ggf. spielt das Paar nach außen (Vorderbühne) „junges Familienglück“. Hilfe: in der Beratung die Hinterbühne aufdecken, beide ihre Rollenerwartungen formulieren lassen, neue Rollenangebote machen und modifiziert annehmen (z. B. feste Betreuungszeiten), Dennis zu Rollendistanz zur Ernährerrolle verhelfen, Frustrations- und Ambiguitätstoleranz stärken; die Aushandlung ist nie abgeschlossen und sollte regelmäßig überprüft werden.",
+      "bewertungspunkte": [
+        "Rollen neu auszuhandeln (nicht starr festgelegt)",
+        "role making von Dennis / role taking (Verweigerung) von Melina",
+        "weitere Goffman-Begriffe (Vorder-/Hinterbühne, Toleranzen, Rollendistanz)",
+        "konkrete Hilfe über neue Rollenaushandlung"
+      ],
+      "punkte": 4,
+      "erklaerung": "Arbeitsauftrag Folie 39; Leitfragen Video [83:48–84:41]; Lösung selbst erarbeitet.",
+      "folie": "38–39",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f37",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "In deiner 6. Klasse spielt Ben ständig den Klassenclown; nach außen wirkt er immer gut gelaunt. Erkläre Bens Verhalten mit Goffmans Symbolischem Interaktionismus und leite ab, wie du als Lehrkraft reagieren kannst.",
+      "musterloesung": "Nach Goffman entscheidet der Schüler auch in der Institution Schule mit, welche Rolle er übernimmt (Folie 37); Rollen werden im role making und role taking mit Mitschüler*innen und Lehrkraft ausgehandelt, er kann von dominanteren Mitschüler*innen auch in die Rolle gedrängt worden sein. Der Klassenunterricht ist die Vorderbühne, auf der er die Rolle ausspielt und über seine persönliche Fassade (Verhalten) zeigt, welche Rolle er spielen will; die Klasse als Ensemble stützt das Stück. Auf der Hinterbühne können Ängste, Probleme mit den Eltern oder Selbstwertprobleme liegen. Als Lehrkraft: hinter die Fassade blicken, im geschützten Einzelgespräch die Hinterbühne vorsichtig zur Sprache bringen, Ben andere Rollen anbieten (role making, z. B. Verantwortung für eine Aufgabe), die er annehmen oder modifizieren kann, und selbst Rollendistanz wahren (nicht nur als „Polizistin“ reagieren).",
+      "bewertungspunkte": [
+        "Rolle ausgehandelt bzw. gedrängt (role making/role taking)",
+        "Vorderbühne/Hinterbühne bzw. Fassade angewendet",
+        "Person hinter der Rolle sehen",
+        "konkrete pädagogische Handlung (neues Rollenangebot, Gespräch)"
+      ],
+      "punkte": 4,
+      "erklaerung": "Transfer zu Folie 37 und Video [81:43–82:49, 63:41–64:18].",
+      "folie": "26, 35, 37",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z01",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welchen Beruf hatte Parsons?",
+      "optionen": [
+        "A Er war Professor für Psychologie mit Schwerpunkt Sozialpsychologie",
+        "B Er war Professor für Erziehungswissenschaften",
+        "C Er war Professor für Soziologie mit Schwerpunkt soziologische Theorien",
+        "D Er war Professor für Sozialwissenschaften und Angewandte Sozialforschung"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Lernzielkontrolle 5, Frage 1 (offizielle Lösung per Animation): C. Laut Video [03:07–03:16] US-amerikanischer Soziologe und Professor an der Harvard University.",
+      "folie": "LZK 5 · 50 € · F4; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z02",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie fasste Parsons den Prozess der Sozialisation?",
+      "optionen": [
+        "A Das Individuum übernimmt immer mehr Rollen, die als Erwartungen definiert sind.",
+        "B A, C und D sind richtig.",
+        "C Es werden immer mehr Positionen bekleidet, die mit Rollenerwartungen belegt sind.",
+        "D In der hoch arbeitsteiligen Gesellschaft sind die Rollen sozialisatorisch gesprochen vielfältiger als in traditionellen Gesellschaf-ten mit klareren Rollenerwartungen."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Lernzielkontrolle 5, Frage 2 (offizielle Lösung per Animation): B. Sozialisation = Übernahme von zunehmend mehr Rollen (Folie 11); C und D gelten laut offizieller Lösung ebenfalls.",
+      "folie": "LZK 5 · 100 € · F11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z03",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie stand Parsons dem sozialen Prozess der Modernisierung gegenüber…",
+      "optionen": [
+        "A Positiv, da der einzelne immer mehr gemäß seinen eigenen Kompetenzen und Interessen leben kann",
+        "B Negativ, da die Welt für den einzelnen undurchsichtiger und unwägbarer wird",
+        "C Positiv, da der einzelne durch soziale Interaktion zunehmend lernfähiger wird",
+        "D Negativ, da die Risiken der modernen Welt steigen"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Lernzielkontrolle 5, Frage 3 (offizielle Lösung per Animation): A. Parsons war fortschrittsoptimistisch (Video [10:30–11:10, 15:44]).",
+      "folie": "LZK 5 · 200 € · F7; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z04",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Der Prozess der Modernisierung stellt sich dar als Prozess der …",
+      "optionen": [
+        "A stärkeren Integration divergierender Prozesse",
+        "B aktiven Passung zwischen Mensch und Umweltsystem",
+        "C zunehmenden Differenzierung und Arbeitsteilung",
+        "D stärkeren Entdifferenzierung"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Lernzielkontrolle 5, Frage 4 (offizielle Lösung per Animation): C. Folie 5 wörtlich.",
+      "folie": "LZK 5 · 300 € · F5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z05",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Aus der Parsonschen Theorie kann man ableiten, dass die sogenannte Entdeckung der Jugend in folgender Epoche stattfand…",
+      "optionen": [
+        "A im Mittelalter, da hier die Gesellschaft noch holistisch in Verbindung des Lebens mit der Arbeitswelt war.",
+        "B In den 1960er Jahren mit den Jugendrevolten und dem Aufbegehren gegen die Obrigkeit.",
+        "C in der Antike, da hier ein besonderer Jugendkult basierend auf die Einheit von Körper, Geist und Seele einsetzte.",
+        "D In der Industrialisierung, da die Gesellschaft hier arbeitsteiliger wird und bestimmte Qualifikationen gebraucht werden."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Lernzielkontrolle 5, Frage 5 (offizielle Lösung per Animation): D. Nicht ausdrücklich auf Folien oder im Video; abgeleitet aus dem Übergang von der traditionellen (keine eigenen Kindheitsphasen) zur arbeitsteiligen Gesellschaft mit formalen Ausbildungen.",
+      "folie": "LZK 5 · 500 € · F6–7 (abgeleitet)",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z06",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum glaubte Parsons, dass formale Ausbildungen in hochspezialisierten Bildungseinrichtungen zu einer sozialen Integration beitragen?",
+      "optionen": [
+        "A Weil dadurch alle stärker aufeinander angewiesen sind, etwa durch Zuarbeit",
+        "B Weil durch das oft dehumane moderne Leben die Menschen wieder stärker zusammenrücken",
+        "C Weil die Gesellschaft dadurch altershomogener in Einzelgruppen wird, was Verständnis begünstigt",
+        "D Weil die Individualität zu einer größeren Zufriedenheit und damit Integration führt"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Lernzielkontrolle 5, Frage 6 (offizielle Lösung per Animation): A. Video [08:34–08:47]: Integration, weil der Einzelne darauf angewiesen ist, dass andere ihm zuarbeiten.",
+      "folie": "LZK 5 · 1000 € · F7; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z07",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Sozialisationsinstanzen können bei Parsons beschrieben werden durch…",
+      "optionen": [
+        "A Struktur und Dynamik",
+        "B Systemeigenschaften und Struktur",
+        "C Funktion und Struktur",
+        "D Form und Struktur"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Lernzielkontrolle 5, Frage 7 (offizielle Lösung per Animation): C. Folie 9 – daher der Name Struktur-Funktionalismus.",
+      "folie": "LZK 5 · 2000 € · F9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z08",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was ist der Unterschied zwischen Position und Rolle?",
+      "optionen": [
+        "A Die Position ist juristisch-funktional festgelegt; die Rolle die mit der Position verknüpfte Erwartung",
+        "B Rollen sind juristisch-funktional festgelegt; die Position entspricht der damit verknüpften Erwartung",
+        "C Beides wird synonym gebraucht",
+        "D Positionen können häufiger eingenommen werden als Rollen"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Lernzielkontrolle 5, Frage 8 (offizielle Lösung per Animation): A. Folie 11 und Video [22:43–25:11].",
+      "folie": "LZK 5 · 4000 € · F11; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z09",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Wie stand Erving Goffman zur Theorie von Talcott Parsons?",
+      "optionen": [
+        "A Er kritisierte, dass Rollen noch enger an Positionen gebunden seien als von Parsons postuliert.",
+        "B Er kritisierte, dass die Rollen zu starr festgelegt seien.",
+        "C Er kritisierte, dass die Rollen zu starr festgelegt seien und Rollen und Positionen auseinander gehen könnten.",
+        "D Er baute seine Theorie ohne Kritik auf die Theorie Parsons auf."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Lernzielkontrolle 5, Frage 9 (offizielle Lösung per Animation): C. Folie 18: Thesen a und b. B ist unvollständig.",
+      "folie": "LZK 5 · 8000 € · F18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z10",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was sah Goffman anders als in der Theorie von Parsons, besonders bezogen auf Positionen und Rollen?",
+      "optionen": [
+        "A dass Rollen nicht starr festgelegt sind, sondern durch den Sozialisationsprozess ab der Kindheit festgeschrieben sind",
+        "B dass Rollen nicht automatisch starr festgelegt sind und die Anzahl an Rollen unbegrenzt sei",
+        "C dass Rollen nicht an bestimmte Positionen gebunden sind und Positionen häufig schon sozial vererbt werden",
+        "D dass Rollen nicht automatisch starr festgelegt sind und nicht an bestimmte Positionen gebunden sind"
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Lernzielkontrolle 5, Frage 10 (offizielle Lösung per Animation): D. Folie 18 wörtlich (a und b).",
+      "folie": "LZK 5 · 16.000 € · F18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z11",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Rollen werden bei Goffman geschaffen durch den Prozess von …",
+      "optionen": [
+        "A Trial and error",
+        "B Role making und role taking",
+        "C Cogito ergo sum",
+        "D Role faking und role taking"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Lernzielkontrolle 5, Frage 11 (offizielle Lösung per Animation): B. Folien 19–20.",
+      "folie": "LZK 5 · 32.000 € · F19–20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z12",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Welche der geschilderten Situationen ist ein Beispiel für Rollendistanz für eine Lehrkraft im Sinne Goffmans?",
+      "optionen": [
+        "A Neben den pädagogischen Aufgaben fallen auch viele Verwaltungsaufgaben, etc. an, die oftmals als wenig befriedigend erlebt werden.",
+        "B Die Rollen sind unklar definiert, die Lehrkraft ist gleichzeitig Elternersatz, Bildungsmoderator, Coach, etc.",
+        "C Viele Rollen sind außerhalb der eigentlichen Arbeit am Schüler*in angesiedelt, wie Elternarbeit etc.",
+        "D Die Lehrkraft muss aufpassen, die an sie gestellten Rollenerwartungen nicht unkritisch zu übernehmen, sondern sollte stets in Distanz hierzu gehen."
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Lernzielkontrolle 5, Frage 12 (offizielle Lösung per Animation): D. A = Frustrationstoleranz, B = Ambiguitätstoleranz, D = Rollendistanz (Folie 21; Video [51:20–52:58]).",
+      "folie": "LZK 5 · 68.000 € · F21–23",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z13",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Was wäre eine Situation, in der Sie Ambiguitätstoleranz brauchen?",
+      "optionen": [
+        "A Wenn Sie sich manchmal fragen, ob Sie hier wirklich als Lehrkraft angestellt sind oder nicht doch als Bewährungshelfer…",
+        "B Wenn Sie sich manchmal fragen, warum Ihnen niemand vorher sagte, dass man als Lehrkraft ständig korrigieren muss…",
+        "C Sie denken, dass der Kollege aus dem Fach Biologie wohl noch seinen Laborkittel im Urlaub trägt…",
+        "D Sie sich fragen, ob der Direktor wirklich denkt, dass die Heinrich-Heine-Oberschule der Nabel der Welt ist…"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Lernzielkontrolle 5, Frage 13 (offizielle Lösung per Animation): A. Unklar definierte Rolle; Video [52:27]: „ich fühle mich hier eigentlich mehr als Bewährungshelferin“. B wäre Frustrationstoleranz.",
+      "folie": "LZK 5 · 125.000 € · F21–23; Video",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z14",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Individuen bemühen sich Situationen zu definieren über…?",
+      "optionen": [
+        "A Zentrierte und nicht zentrierte Interaktion",
+        "B Role making und Arbeitsteilung",
+        "C Das systematische Imitieren von hochgestellten Personen",
+        "D Den Versuch, das Gleichgewicht der Systeme herzustellen"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Lernzielkontrolle 5, Frage 14 (offizielle Lösung per Animation): A. Folien 32–33 (Die Interaktion). B mischt Goffman und Parsons, D gehört zu Bronfenbrenner (S04).",
+      "folie": "LZK 5 · 500.000 € · F32–33",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "z15",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Was wäre ein Beispiel für die sogenannte Hinterbühne, die Goffman in seinem Buch „Wir alle spielen Theater“ beschreibt?",
+      "optionen": [
+        "A Eine Familie vertuscht hektisch, dass sie im Wald illegal Gartenabfälle entsorgt hat und gibt auf die Nachfrage des Försters an, dort Pilze zu sammeln.",
+        "B Eine Studierende trägt getönte Tagescreme auf, um zu verdecken, dass sie noch die ganze Nacht brauchte, um das Referat vorzubereiten.",
+        "C A, B und D sind alles Beispiele für Arbeiten auf der Hinterbühne, um das Theaterstück der Vorderbühne zu stützen.",
+        "D Eine Lehrerin bringt eine selbst gebastelte Handpuppe zum Erstleseunterricht mit, die sie in der Woche zuvor genäht hat."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Lernzielkontrolle 5, Frage 15 (offizielle Lösung per Animation): C. Hinterbühne = inoffizielles Geschehen, auch Vor- und Nachbereitung, das gebraucht wird, um das Stück auf der Vorderbühne gelingen zu lassen (Video [60:18–62:10]).",
+      "folie": "LZK 5 · 1.000.000 € · F26–29",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Fall Melissa A.: „So was könnte zum Beispiel auch Aufgabe dann in der Klausur sein“ – Positionen, Rollen, Konflikt, Struktur und Funktion benennen und mit Parsons erklären/lösen (Video [32:40–33:00]).",
+    "Warum die Theorien so heißen, erklärt die Dozentin ausdrücklich, weil es schwer zu merken ist: Struktur-Funktionalismus = Instanzen über Struktur und Funktion (Video [02:49–02:57, 16:47–16:56]).",
+    "Position und Rolle „werden oft verwechselt, sind aber zu unterscheiden“ – Folie 11 mit „Achtung: Unterschied Position - Rolle“ (Video [22:43]).",
+    "Frustrationstoleranz, Ambiguitätstoleranz, Rollendistanz werden zweimal als Aufgabe gestellt (Folien 22 und 43) – mit je einem pädagogischen Beispiel parat haben (Video [50:31–53:46, 90:19]).",
+    "Die Dozentin empfiehlt Goffmans „Wir alle spielen Theater“ (1969) wiederholt zur Lektüre (Video [02:39–02:49, 55:27–55:37, 59:48]).",
+    "Klausur ewb001: 15 SC/MC-Fragen je Teilmodul plus offene bzw. Lückentextfragen (_modul.json) – die Fallbeispiele Melissa und Dennis/Melina eignen sich als offene Fragen."
+  ],
+  "offene_fragen": [
+    "Fragestunde Sozialisation am 24.11.: Hausaufgaben h01 und h02 besprechen (laut altem Video in den Tutorien bzw. synchronen Sitzungen).",
+    "Folie 19 ordnet „bieten dem anderen Rollen an“ dem role taking zu, Folie 20 und Video dem role making – in der Fragestunde klären, welche Formulierung in der Klausur gilt.",
+    "Lernzielkontrolle Frage 14: Lösung „Zentrierte und nicht zentrierte Interaktion“ als Weg, Situationen zu definieren, steht so nicht auf den Folien (Folie 32 nennt Erwartungen und Infos über das Gegenüber; Video [71:54]: über role making und role taking) – ggf. nachfragen.",
+    "Lernzielkontrolle Frage 5 (Entdeckung der Jugend in der Industrialisierung) wird in Folien und Video nicht behandelt – evtl. in Stein 2017, S. 27/28 nachlesen.",
+    "Kurzskript (Zusammenfassung_ewb001.1_Stein_end.pdf, laut S04 S. 8 „Theorien Parsons und Goffman“) lag nicht vor und ist nicht eingearbeitet."
+  ],
+  "auffaelligkeiten": [
+    "Folie 19 vs. Folie 20/Video: role taking wird auf Folie 19 als „bieten dem anderen Rollen an“ beschrieben, im Video [41:00–41:21] gehört das Anbieten zum role making. Ergänzung (nicht aus der Vorlesung): In der Soziologie (G. H. Mead) meint role taking üblicherweise die Perspektivübernahme – Folie 19 ordnet die Perspektivübernahme dagegen dem role making zu.",
+    "Lernzielkontrolle: Gewinnstufe „68.000-EURO-Frage“ – richtig wäre 64.000 €.",
+    "Lernzielkontrolle Frage 2, Antwort D: Trennstrich „Gesellschaf-ten“ (manuelle Silbentrennung) und doppelte Leerzeichen; Frage 5: „Parsonschen“ (korrekt: Parsons’schen); Frage 9, Antwort D: „Theorie Parsons“ (korrekt: Theorie Parsons’); Frage 6: doppeltes Leerzeichen „in  hochspezialisierten“; Frage 10: doppelte Leerzeichen „dass  Rollen“ (Leerzeichen hier normalisiert).",
+    "Lernzielkontrolle Frage 1: „Schwerpunkt soziologische Theorien“ und Frage 2, Antwort D (Rollen vielfältiger als in traditionellen Gesellschaften) gehen über Folien und Video hinaus; laut offizieller Lösung gelten A, C und D bei Frage 2.",
+    "Lernzielkontrolle Frage 15: offizielle Lösung C zählt auch die getönte Tagescreme (eigentlich Gestaltung der persönlichen Fassade) und das Nähen der Handpuppe (Vorbereitung) zur Hinterbühne.",
+    "Folie 11: „Sozialisation-Definition“ (korrekt: Sozialisations-Definition); Folien 6 und 10: „Stein, 2017,S.“ ohne Leerzeichen; Folie 12: „inne haben“ (korrekt: innehaben); Folie 45: „Beck. U.“ (korrekt: Beck, U.).",
+    "Folie 22 fragt nach „Lehrkraft oder pädagogische Fachkraft im Jugendbereich“, die Übungsaufgabe Folie 43 nur nach „pädagogische Fachkraft in der Jugendarbeit“.",
+    "Folie 30 zitiert für das Ensemble Goffman 1969, Folie 31 Goffman 2010 („Stigma“).",
+    "Folie 41 wiederholt Folie 40 (Learning by viewing); Link „abgerufen am 21.10.21“.",
+    "Video: Aufzeichnung aus einem digitalen Semester („nächste Woche digital wieder mit dabei“ [92:48]); Übungen sollen in Tutorien/synchronen Sitzungen besprochen werden – maßgeblich sind die Termine im Ablaufplan.",
+    "Video [84:24]: Die Dozentin sagt beim Fall Dennis und Melina „nach dem Struktur-Funktionalismus“ – Folie 39 verlangt den Symbolischen Interaktionismus (Versprecher).",
+    "Video [19:41]: Fends erste Schulfunktion im Transkript unverständlich („Die Funktion ‚Leider‘“); gemeint ist das Selektieren und Platzieren (Allokationsfunktion), auf Folie 10 „Qualifikation, Selektion etc.“.",
+    "Video [04:05–04:14]: Parsons sei „relativ jung“ gestorben – er wurde 76/77 Jahre alt (1902–1979)."
+  ]
+}

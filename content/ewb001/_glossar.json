@@ -689,6 +689,119 @@
       "erklaerung": "Weil sich Wissen nicht direkt übertragen lässt, gestalten Lehrende Lernräume, in denen sich jede*r Inhalte im eigenen Tempo und auf eigene Art erschließt.",
       "quelle": "ewb001.2_2026-11-03 · Folie 20",
       "abweichungen": []
+    },
+    {
+      "begriff": "Modernisierung (Parsons)",
+      "wortlaut": "Prozess der Modernisierung = Prozess der zunehmenden Differenzierung und Arbeitsteilung (Parsons, 1985; 1986)",
+      "erklaerung": "Die Gesellschaft teilt Arbeit immer weiter auf; dadurch werden alle stärker aufeinander angewiesen. Der Prozess ist laut Video nicht abgeschlossen.",
+      "quelle": "ewb001.1_2026-11-10 · Folie 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Traditionelle Gesellschaft (Parsons)",
+      "wortlaut": "Traditionelle Gesellschaft: • bäuerliche oder ständische Hausgemeinschaft • alle Personen alle Aufgaben (Parsons, 1985, 1986; Stein, 2017, S. 27/28)",
+      "erklaerung": "Familie und Arbeit sind nicht getrennt; Aufgaben unterscheiden sich nur in der Menge, Kinder arbeiten wie kleine Erwachsene mit (Video).",
+      "quelle": "ewb001.1_2026-11-10 · Folie 6",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Moderne und postmoderne Gesellschaft (Parsons)",
+      "wortlaut": "Moderne und postmoderne Gesellschaft: • hochspezialisierte Fertigkeiten und Fähigkeiten • formale Ausbildungen in den hochspezialisierten Bildungseinrichtungen → Individualisierung und Integration → Kein verbindlicher Sinn und keine verbindlichen Deutungen des Lebens → Eigenständige Erarbeitung des Lebensstils (Parsons, 1985; 1986; Welsch, 1993; Beck, 1996; Stein, 2017, S. 27/28)",
+      "erklaerung": "Spezialisierte, zertifizierte Arbeit; jeder muss seinen Lebensstil und Sinn selbst finden.",
+      "quelle": "ewb001.1_2026-11-10 · Folie 7",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Sozialisationsinstanz (Parsons: Struktur und Funktion)",
+      "wortlaut": "Sozialisationsinstanz wird definiert (Parsons, 1985; 2005; Stein, 2017): • durch ihre Struktur (etwa den Aufbau) • durch ihre Funktion (etwa Aufgabe in der Gesellschaft)",
+      "erklaerung": "Daher der Name Struktur-Funktionalismus. Familie: Struktur mindestens zwei Personen aus mindestens zwei Generationen, Funktion Schutz und Intimität; Schule: Aufbau des Schulsystems, Qualifikation und Selektion; Betrieb: Betriebsgröße, Erwirtschaftung von Kapital und Gütern (Folie 10).",
+      "quelle": "ewb001.1_2026-11-10 · Folie 9–10",
+      "abweichungen": [
+        {
+          "quelle": "ewb001.1_2026-11-03 · Folie 46",
+          "hinweis": "Eintrag „Sozialisationsinstanzen“ (Stein 2017, S. 23): „Vermittlung der gesellschaftlichen Wirklichkeit in Interaktion und Kommunikation“ – Familie, Schule, Universität/Beruf. Parsons definiert die Instanz dagegen über Struktur und Funktion."
+        }
+      ]
+    },
+    {
+      "begriff": "Sozialisation (Parsons 2005)",
+      "wortlaut": "Sozialisation = Hineinwachsen in die Gesellschaft im Sinne einer Übernahme von zunehmend mehr Rollen",
+      "erklaerung": "Man wächst über die Sozialisationsinstanzen in eine arbeitsteilige Gesellschaft hinein und übernimmt dabei immer mehr Rollen.",
+      "quelle": "ewb001.1_2026-11-10 · Folie 11",
+      "abweichungen": [
+        {
+          "quelle": "ewb001.1_2026-11-03 · Folie 5–6",
+          "hinweis": "Stein 2017: Auseinandersetzung zwischen Individuum und Gesellschaft, Persönlichkeitswerdung in Auseinandersetzung mit materieller, sozialer und institutioneller Umwelt; außerdem Rieckmann (ewb001.2_2026-10-13 · Folie 18). Parsons: Übernahme von zunehmend mehr Rollen; Goffman: siehe „Sozialisation (Goffman)“."
+        }
+      ]
+    },
+    {
+      "begriff": "Rolle und Position (Parsons 2005)",
+      "wortlaut": "Rollen = Erwartungen, welche die Gesellschaft an die Inhaber*innen bestimmter Positionen stellt (z. B. an Schüler*innen, junge Arbeitnehmer*innen oder Eltern) Achtung: Unterschied Position - Rolle",
+      "erklaerung": "Position = juristisch-formal (z. B. Mutter durch Geburt, Studierende durch Einschreibung); Rolle = die damit verknüpften, individuell und subjektiv zugeschriebenen Erwartungen. Eine Position zu haben heißt nicht, die Rolle auszufüllen (Adoptionsbeispiel, Video).",
+      "quelle": "ewb001.1_2026-11-10 · Folie 11",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Symbolischer Interaktionismus (Goffman): Rollenaushandlung",
+      "wortlaut": "Kritik an der struktur-funktionalen Theorie: zu passives Hineinwachsen in die statischen Rollen der Gesellschaft (Goffman, 1969; Stein, 2017, S. 29/30) Theorie eines aktiven Prozesses der Rollenaushandlung: a. Rollen sind nicht automatisch starr festgelegt b. Rollen sind nicht an bestimmte Positionen gebunden c. Rollen unterliegen einem sozialen Definitionsprozess",
+      "erklaerung": "Rollen werden in der Interaktion ausgehandelt, nicht einfach übernommen.",
+      "quelle": "ewb001.1_2026-11-10 · Folie 18",
+      "abweichungen": []
+    },
+    {
+      "begriff": "role making / role taking",
+      "wortlaut": "role making: Interaktionspartner*innen übernehmen wechselseitig die Perspektive des*der anderen Interaktionspartner*in, spielen Rollenverhalten aus · role taking: Interaktionspartner*innen bieten dem anderen Rollen an, die diese*r annehmen oder auch verweigern kann (Folie 19) · Sozialisation ist ein bidirektionaler Prozess: role making – Interaktionspartner*innen spielen Rollenverhalten aus; role taking – Interaktionspartner*innen nehmen Rollen an oder verweigern (Folie 20)",
+      "erklaerung": "Video: Im role making spielt man Rollenverhalten aus und bietet dem anderen eine Rolle an; im role taking nimmt man sie an, lehnt sie ab oder nimmt sie modifiziert an. Achtung: Folie 19 ordnet das Anbieten dem role taking zu.",
+      "quelle": "ewb001.1_2026-11-10 · Folie 19–20",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Frustrationstoleranz · Ambiguitätstoleranz · Rollendistanz",
+      "wortlaut": "Nötig sind… 1. Frustrationstoleranz, da viele Rollen wenig befriedigend sind 2. Ambiguitätstoleranz, da viele Rollen nicht klar definiert sind 3. Rollendistanz, da es bedeutsam ist, Rollen nicht unkritisch zu übernehmen, sondern in kritischer Distanz zur Rolle zu gehen (Goffman, 1969; Stein, 2017, S. 29/30)",
+      "erklaerung": "Die drei Fähigkeiten, die man nach Goffman braucht, um Rollen gut auszuspielen; Ambiguität = Zweideutigkeit (Video).",
+      "quelle": "ewb001.1_2026-11-10 · Folie 21",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Sozialisation (Goffman)",
+      "wortlaut": "• Gesellschaft wird erst aufgrund gemeinsam geschaffener Rollenmuster definiert • Sozialisation vollzieht sich über die selbst gestalteten und übernommenen Rollen (Goffman, 1969; Stein, 2017, S. 29/30)",
+      "erklaerung": "Gegenstück zu Parsons: Die Gesellschaft entsteht erst aus den ausgehandelten Rollenmustern.",
+      "quelle": "ewb001.1_2026-11-10 · Folie 24",
+      "abweichungen": [
+        {
+          "quelle": "ewb001.1_2026-11-03 · Folie 5–6",
+          "hinweis": "Stein 2017 und Parsons 2005 (siehe „Sozialisation (Parsons 2005)“) definieren Sozialisation anders; bei Goffman entsteht die Gesellschaft erst aus gemeinsam geschaffenen Rollenmustern."
+        }
+      ]
+    },
+    {
+      "begriff": "Gesellschaft als Theaterbühne: Vorderbühne / Hinterbühne",
+      "wortlaut": "Goffman vergleicht in seinem Buch „Wir alle spielen Theater“ (1969) • Gesellschaft mit einer Theaterbühne, • Gesellschaftsmitglieder mit einem Ensemble, das unterschiedliche Rollen einnimmt und wechselseitig interpretiert · Vorderbühne: Ort des „offiziellen“ Geschehens, Beobachtung durch andere Personen, Ausspielen der Rolle · Hinterbühne: Ort des „inoffiziellen“ Geschehens, unbeobachtete Momente, fällt aus der Rolle",
+      "erklaerung": "Die Hinterbühne ist auch Ort der Vor- und Nachbereitung und wird gebraucht, damit der Auftritt auf der Vorderbühne gelingt (Video).",
+      "quelle": "ewb001.1_2026-11-10 · Folie 25–26",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Ensemble (Goffman)",
+      "wortlaut": "Ensemble = Jede Gruppe von Individuen, die gemeinsam eine Rolle / Situation aufbauen · Mitglieder einer Gruppe (=Ensemble) sind meist soweit in ihrem Spiel aufeinander abgestimmt, dass keine offensichtlichen Widersprüche auftauchen · Gegenseitige Abhängigkeit: Jedes Mitglied muss sich auf den anderen verlassen können, so dass die Darstellung als Gemeinschaftswerk klappt. · „Vertraulichkeit“: Ensemblemitglieder können untereinander nicht die gleiche Fassade aufrechterhalten wie vor dem Publikum → Sie sind gezwungen sich als „Eingeweihte“ zu betrachten, es entsteht Vertraulichkeit.",
+      "erklaerung": "Wer gemeinsam ein „Stück“ aufführt, hält zusammen – z. B. die Familie, die nach außen „heile Familie“ spielt.",
+      "quelle": "ewb001.1_2026-11-10 · Folie 30–31",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Interaktion: Situation definieren · zentrierte / nicht-zentrierte Interaktion",
+      "wortlaut": "Individuen bemühen sich, die Situation zu definieren, d.h. herauszufinden, was sie in der Situation erwartet und was sie in der Situation von ihrem*r Interaktionspartner*in erwarten können. · nicht-zentrierte Interaktion: mindestens zwei Akteur*innen nehmen einander wahr; auf Grund dessen findet eine Ausrichtung des eigenen Verhaltens statt · zentrierte Interaktion: Akteur*innen handeln nicht nur aufeinander bezogen, sondern miteinander; Vermittlung eines bestimmten Bildes (Goffman, 2005)",
+      "erklaerung": "Bushaltestelle: andere beobachten = nicht-zentriert; jemanden direkt fragen = zentriert (Video).",
+      "quelle": "ewb001.1_2026-11-10 · Folie 32–33",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Fassade: Bühnenbild · persönliche Fassade · Erscheinung · Verhalten",
+      "wortlaut": "„Bühnenbild“ = szenische Komponente des Ausdrucksrepertoires (Möbelstücke, Dekoration, Requisiten und Kulissen etc. für das Handeln) · „Persönliche Fassade“ = Ausdrucksmittel, das wir am stärksten mit dem*r Darsteller*in selbst in Verbindung bringen (Kleidung, Geschlecht, Alter, Rang, Größe, Haltung, Gestik) · Trennung in Erscheinung: Teile der persönlichen Fassade, die über den Sozialstatus des Einzelnen informieren · Verhalten: Teile der persönlichen Fassade, die die Rolle anzeigen, die der*die Einzelne in der Interaktion zu spielen beabsichtigt",
+      "erklaerung": "„Wir alle sind Bühnenbildner und Maskenbildner unserer Person“ (Video).",
+      "quelle": "ewb001.1_2026-11-10 · Folie 35",
+      "abweichungen": []
     }
   ]
 }

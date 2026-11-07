@@ -95,7 +95,8 @@
     "ewb001.1_2026-11-03",
     "ewb001.2_2026-11-03",
     "ewb001_2026-10-30",
-    "ewb001_2026-11-06"
+    "ewb001_2026-11-06",
+    "ewb001.1_2026-11-10"
   ],
   "klausurstil": {
     "quellen": [
@@ -633,6 +634,34 @@
       "art": "Arbeitsblatt",
       "status": "verarbeitet",
       "sitzung": "ewb001_2026-11-06"
+    },
+    {
+      "pfad": "ewb001.1/Sitzung_05/ewb001.1_5__Sitzung_Sozialisation_II.pdf",
+      "geaendert": "2026-11-07",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.1_2026-11-10"
+    },
+    {
+      "pfad": "ewb001.1/Sitzung_05/ewb001.1_5__Sitzung_Transkript_Zusammenfassung.docx",
+      "geaendert": "2026-11-07",
+      "art": "Transkript",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.1_2026-11-10"
+    },
+    {
+      "pfad": "ewb001.1/Sitzung_05/5_Lernzielkontrolle_Sozialisation_II_Theorien_Parsons_Goffman.pptx",
+      "geaendert": "2026-11-07",
+      "art": "Lernzielkontrolle",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.1_2026-11-10"
+    },
+    {
+      "pfad": "ewb001.1/Sitzung_05/ewb001.1_5__Sitzung_Sozialisation_II-1.mp4",
+      "geaendert": "2026-11-07",
+      "art": "Video (über Transkript)",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.1_2026-11-10"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "thema": "Lernen I – Begriffsklärung, Lehren und Lernen, Konditionierung, Soziales Lernen, Kognitivismus, Konstruktivismus, Systemtheorie",
   "thema_in_app": "war schon da",
   "stand": "geprueft",
-  "hinweis": "Courseware-Einheit 04 (Folien + eingesprochenes Video aus einem früheren Semester, 38 Min.), vorab aufbereitet am 01.11.2026. Laut Ankündigung von Prof. Rieckmann (Stud.IP, 28.10.2026) bis zur Präsenzsitzung am 03.11.2026 das Video und gerne auch die Literatur ansehen – ausgearbeitet in der Hausaufgabe h01 aus S03. Die Folien der Präsenzsitzung am 03.11. liegen noch nicht vor und werden nachgetragen.",
+  "hinweis": "Courseware-Einheit 04 (Folien + eingesprochenes Video aus einem früheren Semester, 38 Min.), vorab aufbereitet am 01.11.2026. Laut Ankündigung von Prof. Rieckmann (Stud.IP, 28.10.2026) bis zur Präsenzsitzung am 03.11.2026 das Video und gerne auch die Literatur ansehen – ausgearbeitet in der Hausaufgabe h01 aus S03. Zusätzlich eingearbeitet am 07.11.2026: die Präsenzsitzung am 03.11.2026 (Folien 2–21: Ziele, Gruppenarbeit „Fahrrad fahren“, Vergleichstabelle der Lerntheorien, fünf Lehr-Lern-Situationen, KI-Übung zum Konstruktivismus, Reflexion; Folien 23–39 wiederholen Einheit 04).",
   "quellen": [
     {
       "datei": "ewb001.2/Sitzung_04/04_ewb001.2_Lernen_I.pdf",
@@ -39,6 +39,11 @@
       "datei": "ewb001.2/Sitzung_04/04_Metzinger2022_Denkt_die_Person_oder_das_Gehirn.pdf",
       "art": "Zusatztext Einheit 04 (Forschung & Lehre 5/22)",
       "seiten": "353–354"
+    },
+    {
+      "datei": "ewb001.2/Sitzung_04/04_ewb001.2_Lernen_I_Präsenzsitzung.pdf",
+      "art": "Folien Präsenzsitzung 03.11.2026 (Stud.IP) – zusätzlich eingearbeitet am 07.11.2026",
+      "seiten": "1–42 (neu: 2–21; 23–39 = Folienspeicher = Einheit 04, Folien 4–20)"
     }
   ],
   "lernziele": [
@@ -129,6 +134,49 @@
         "f31"
       ],
       "erklaerung_abschnitt": "Die Lerntheorien im Vergleich"
+    },
+    {
+      "text": "den Begriff „Lernen“ erläutern und zentrale Merkmale benennen",
+      "art": "vorgegeben",
+      "quelle": "Präsenzfolie 6",
+      "fragen": [
+        "f01",
+        "p01"
+      ],
+      "erklaerung_abschnitt": "Präsenzsitzung 03.11.2026 (Folien)"
+    },
+    {
+      "text": "zentrale Lerntheorien unterscheiden",
+      "art": "vorgegeben",
+      "quelle": "Präsenzfolie 6",
+      "fragen": [
+        "p02",
+        "p03",
+        "p07"
+      ],
+      "erklaerung_abschnitt": "Präsenzsitzung 03.11.2026 (Folien)"
+    },
+    {
+      "text": "Alltagsbeispiele den jeweiligen Theorien zuordnen",
+      "art": "vorgegeben",
+      "quelle": "Präsenzfolie 6",
+      "fragen": [
+        "p04",
+        "p05",
+        "p08"
+      ],
+      "erklaerung_abschnitt": "Präsenzsitzung 03.11.2026 (Folien)"
+    },
+    {
+      "text": "die Rolle von Lehrenden und Lernenden in verschiedenen Lerntheorien vergleichen",
+      "art": "vorgegeben",
+      "quelle": "Präsenzfolie 6",
+      "fragen": [
+        "p02",
+        "p03",
+        "p06"
+      ],
+      "erklaerung_abschnitt": "Präsenzsitzung 03.11.2026 (Folien)"
     }
   ],
   "kurzfassung": [
@@ -205,6 +253,12 @@
       "folien": "21–23",
       "beispiel": "",
       "text": "**Folie 21 – Selbststudium:**\n- Gudjons, Herbert & Traub, Silke (2016): Kapitel 8: Lernen. In: dies.: Pädagogisches Grundwissen. Bad Heilbrunn: Klinkhardt, **S. 219–238** – liegt in `ewb001.2/Sitzung_04`.\n- Stein, Margit (2024): Kapitel 5: Lernen. In: dies.: Allgemeine Pädagogik. 4., überarbeitete Auflage. München: Ernst Reinhardt, **S. 104–119** – liegt in `ewb001.2/Sitzung_04`.\n\nLaut Video [36:12] stellen beide Kapitel die Lerntheorien ausführlicher dar, mit weiteren Beispielen; bei Stein gibt es mehr zur Hirnforschung. Beide Texte und die Zusatztexte von **Beck (2022)** und **Metzinger (2022)** sind in der **Hausaufgabe h01 aus S03** ausgearbeitet.\n\n**Folie 23 – Literatur:** Krüger (2012), Ludwig (2020), Stein (2017).\n\n> **Hinweis:** Die Folien und das Video zitieren Stein **2017** (3. Aufl.) – die Selbststudiums-Folie nennt Stein **2024** (4. Aufl.). Die Seitenzahlen unterscheiden sich (z. B. Lernbegriff 2017: S. 89 f., 2024: S. 104 f.)."
+    },
+    {
+      "titel": "Präsenzsitzung 03.11.2026 (Folien)",
+      "folien": "Präsenz 2–21",
+      "beispiel": "",
+      "text": "*Zusätzlich eingearbeitet am 07.11.2026 aus den Folien der Präsenzsitzung vom 03.11.2026 (Stud.IP). Die Abschnitte oben bleiben unverändert. Die Präsenzfolien 23–39 („Folienspeicher“) wiederholen die Folien 4–20 der Courseware-Einheit 04 wortgleich und werden hier nicht noch einmal aufgeführt.*\n\n### Organisatorisches (Präsenzfolien 2–6)\n- Präsenzfolie 2: „Generelle Fragen“ (Platz für Organisatorisches, keine Inhalte).\n- Präsenzfolien 3–4 zeigen den Ablaufplan. Termin 4 heißt dort „Lernen I – Begriffsklärung, Lernen, Konditionierung, Soziales Lernen, Kognitivismus, Konstruktivismus“ – **ohne** „Lehren und Lernen“ und „Systemtheorie“. Termin 6 (Bildung) nennt neu auch **Bildungstheorien**.\n- Selbststudium zu heute (Präsenzfolie 5): Gudjons & Traub (2016), Kap. 8, S. 219–238, und Stein (2024), Kap. 5, S. 104–119 – ausgearbeitet in Hausaufgabe h01 aus S03.\n\n### Ziele der Sitzung (Präsenzfolie 6)\nNach der heutigen Sitzung können Sie …\n- den Begriff „Lernen“ erläutern und zentrale Merkmale benennen,\n- zentrale Lerntheorien unterscheiden,\n- Alltagsbeispiele den jeweiligen Theorien zuordnen,\n- die Rolle von Lehrenden und Lernenden in verschiedenen Lerntheorien vergleichen.\n\n### Einstieg: Was bedeutet Lernen für Sie? (Präsenzfolien 8–9)\n{{aufgabe a02}}\n\nPräsenzfolie 9 wiederholt danach die Begriffsklärung aus Einheit 04 (Folie 4): Aneignen von Kenntnissen oder Wissen bzw. Erwerb von Kompetenzen · „alle erfahrungsbedingten, auch unbewussten und nicht geplanten Veränderungen der Verhaltensmöglichkeiten von Organismen“ (Stein 2017, S. 89 f.) · bewusstes und unbewusstes Lernen.\n\n### Anwendung und Vergleich der Lerntheorien (Präsenzfolien 10–12)\nGruppenarbeit: Jede Gruppe übernimmt eine Lerntheorie (1 Konditionierung · 2 Soziales Lernen · 3 Kognitivismus · 4 Konstruktivismus) und erklärt damit 15 Minuten lang dieselbe Situation.\n\n{{aufgabe a03}}\n\n{{aufgabe a04}}\n\n**Vergleich der Lerntheorien (Präsenzfolie 12) – neu gegenüber Einheit 04:**\n\n| Lerntheorie | Wer steuert das Lernen? | Rolle der Lernenden | Wissen entsteht durch … |\n| --- | --- | --- | --- |\n| Konditionierung | Umweltreize / Verstärkung | Reagieren | Erfahrung von Konsequenzen |\n| Soziales Lernen | Modelle / Beobachtung | Nachahmung & Selbststeuerung | Beobachtung & Motivation |\n| Kognitivismus | Lehrende & Lernende | Informationsverarbeitung | Denken, Strukturieren |\n| Konstruktivismus | Lernende selbst | Eigenaktivität | Konstruktion von Bedeutung |\n\n**Kurz erklärt:** Lies die Tabelle von oben nach unten: Die Steuerung wandert **von außen nach innen** – von der Umwelt (Reize, Verstärker) über Vorbilder und das Zusammenspiel von Lehrenden und Lernenden bis zu den Lernenden selbst. Genauso wird die Rolle der Lernenden immer aktiver: vom bloßen *Reagieren* zur *Eigenaktivität*.\n\n**Prüfungsfalle:** Beim **Kognitivismus** steuern laut Präsenzfolie 12 **Lehrende und Lernende** gemeinsam – nicht die Lehrenden allein. Und beim sozialen Lernen gehört neben der Nachahmung auch die **Selbststeuerung** dazu.\n\n### Beispiele für Lehr-Lern-Situationen (Präsenzfolien 13–18)\nDer Dozent zeigt fünf Situationen (laut Folie „Erstellt unter Verwendung von ChatGPT-3.5“). Sie lassen sich je einer Lerntheorie zuordnen:\n\n{{aufgabe a05}}\n\n{{aufgabe a06}}\n\n### Übung: Konstruktivismus praktisch erleben (Präsenzfolie 19)\n{{aufgabe a07}}\n\n### Reflexion und Abschluss (Präsenzfolien 20–21)\n{{aufgabe a08}}\n\n**Fazit (Präsenzfolie 21):** Lernen ist kein einheitlicher Prozess, sondern ein vielschichtiges Phänomen. Jede Theorie öffnet eine andere Perspektive – keine erklärt alles.\n\n**Ausblick:** Nächste Sitzung → Lernstrategien und Didaktik (Lernen II, 10.11.).\n\n**So erkennst du es in der Klausur:** Bei Fallbeispielen auf die Signalwörter achten – *Belohnung, Sterne, Strafe* → operante Konditionierung · *automatische Reaktion auf ein Signal (Musik, Klingel)* → klassische Konditionierung · *Vorbild, beobachten, nachmachen* → soziales Lernen · *Denkstrategien, Problemlösen, Struktur, Feedback* → Kognitivismus · *eigene Hypothesen, keine richtige Antwort, Vielfalt der Perspektiven* → Konstruktivismus."
     }
   ],
   "definitionen": [
@@ -352,6 +406,83 @@
       "frist": "",
       "im_kalender": false,
       "folie": "16"
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "folie": "Präsenz 8",
+      "text": "Einstieg: Was bedeutet Lernen für Sie?\n• Frage: Wann haben Sie zuletzt bewusst etwas gelernt?\n• Nachbar:innengespräch (1 Minute)\n• Diskussion im Plenum: Was gehört zum Lernen – und was nicht?",
+      "quelle": "Präsenzfolie 8; Lösung selbst erarbeitet mit der Begriffsklärung von Präsenzfolie 9 (= Einheit 04, Folie 4)",
+      "loesung": "*Persönliche Antwort – Beispiel, selbst erarbeitet:* Zuletzt bewusst gelernt habe ich für die Lernzielkontrolle in ewb001.1 die Fachbegriffe zur Sozialisation (bewusst, geplant, mit Karteikarten).\n\n**Was gehört zum Lernen?**\n- bewusstes, geplantes Lernen (Vokabeln, Formeln, für eine Klausur) – Aneignen von Kenntnissen bzw. Erwerb von Kompetenzen\n- **auch unbewusstes und nicht geplantes Lernen**: Gewohnheiten, Ängste, Vorlieben, Dialekt, Verhalten, das man sich bei anderen abschaut\n- Lernen verändert die **Verhaltensmöglichkeiten** – man muss das Gelernte nicht sofort zeigen\n\n**Was gehört nicht dazu?**\n- Veränderungen, die **nicht durch Erfahrung** entstehen: Reifung und Wachstum (z. B. Stimmbruch), angeborene Reflexe, Müdigkeit, Krankheit, Wirkung von Medikamenten oder Alkohol\n\nMaßstab ist die Definition nach Stein (2017, S. 89 f.): „alle **erfahrungsbedingten**, auch unbewussten und nicht geplanten Veränderungen der Verhaltensmöglichkeiten von Organismen“.",
+      "loesungsweg": "Eigene Erfahrung nennen, dann mit den Schlüsselwörtern der Definition (erfahrungsbedingt – unbewusst – nicht geplant – Verhaltensmöglichkeiten) prüfen, was dazugehört und was nicht.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "folie": "Präsenz 10–11",
+      "text": "Anwendung und Vergleich der Lerntheorien\nSituation: Ein Kind lernt Fahrrad zu fahren.\n\nIhre Aufgabe (je Gruppe eine Lerntheorie: Konditionierung, Soziales Lernen, Kognitivismus, Konstruktivismus; 15 Minuten):\n• Wie erklärt Ihre Theorie diesen Lernprozess?\n• Welche Rolle spielen Lehrende, Lernende, Umwelt?\n• Was gilt als Lernerfolg?\n• Welche zentralen Begriffe sind relevant?\n→ Notieren Sie 3–4 Stichpunkte für die Kurzvorstellung.",
+      "quelle": "Präsenzfolien 10–11; Lösung selbst erarbeitet mit Einheit 04 (Folien 4–20) und Präsenzfolie 12",
+      "loesung": "**1 Konditionierung**\n- *Erklärung:* Das Kind lernt durch die **Konsequenzen** seines Verhaltens (operant): Gelingt ein Stück, folgt Lob und das gute Gefühl des Fahrens (positive Verstärkung); fällt es hin, tut das weh (Bestrafung). Gelungene Bewegungen werden häufiger, misslungene seltener (Formung / „Shaping“ in kleinen Schritten, z. B. erst Laufrad, dann Stützräder). Klassisch: Wer einmal schmerzhaft gestürzt ist, kann mit dem Anblick einer bestimmten Stelle Angst verknüpfen.\n- *Rollen:* Lehrende (Eltern) setzen Verstärker (Lob, Belohnung); Lernende **reagieren**; die Umwelt liefert Reize und Konsequenzen (Stürze, Erfolg).\n- *Lernerfolg:* sichtbares Verhalten – das Kind fährt zuverlässig ohne Hilfe.\n- *Begriffe:* Verstärkung (positiv/negativ), Bestrafung, Verstärker (sozial: Lob), Reiz–Reaktion, Extinktion.\n\n**2 Soziales Lernen**\n- *Erklärung:* Das Kind **beobachtet** Eltern, Geschwister oder andere Kinder beim Fahren (Modell) und sieht, dass sie Spaß haben und gelobt werden (stellvertretende Verstärkung). Vier Phasen: Aufmerksamkeit → Behalten → motorische Reproduktion (selbst probieren) → Motivation.\n- *Rollen:* Lehrende sind **Vorbilder**, die vormachen; Lernende ahmen nach und steuern sich selbst; die Umwelt bietet Modelle (Geschwister, Freundeskreis).\n- *Lernerfolg:* Das beobachtete Verhalten kann selbst ausgeführt werden – und das Kind will es auch zeigen.\n- *Begriffe:* Modell-, Nachahmungs-, Beobachtungslernen; Aneignungs- und Ausführungsphase; Motivation.\n\n**3 Kognitivismus**\n- *Erklärung:* Das Kind **verarbeitet Informationen**: Es versteht Erklärungen („in die Pedale treten, nach vorn schauen, zum Bremsen Rücktritt“), baut daraus ein inneres Bild auf und verknüpft es mit Vorwissen (z. B. Gleichgewicht vom Laufrad). Aus deklarativem Wissen („so geht Bremsen“) wird durch Üben prozedurales Wissen (Ausführungswissen).\n- *Rollen:* Lehrende und Lernende steuern gemeinsam: Lehrende strukturieren und erklären in Teilschritten, Lernende denken mit und verarbeiten.\n- *Lernerfolg:* Das Wissen ist in die kognitiven Strukturen eingefügt und gespeichert – das Kind kann es abrufen und anwenden (auch auf ein anderes Fahrrad).\n- *Begriffe:* Informationsverarbeitung, Gedächtnisspeicherung, kognitive Strukturen, deklaratives / prozedurales Wissen.\n\n**4 Konstruktivismus**\n- *Erklärung:* Jedes Kind **konstruiert selbst**, wie sich Gleichgewicht „anfühlt“ – das kann ihm niemand übertragen. Es probiert eigenständig aus; ein Wackeln oder Umkippen stört das bisherige Gleichgewichtsgefühl (**Perturbation**) und löst neues Lernen aus. Jedes Kind findet einen eigenen Lernweg und ein eigenes Tempo.\n- *Rollen:* Lernende sind **aktive Konstrukteur:innen**; Lehrende gestalten nur eine anregende, sichere Umgebung (Ermöglichungsdidaktik statt Belehrungsdidaktik); die Umwelt bietet Erfahrungsräume.\n- *Lernerfolg:* nicht vorhersagbar und individuell – das Kind hat eine eigene, für sich tragfähige Bedeutung bzw. Fähigkeit konstruiert.\n- *Begriffe:* Konstruktion, Eigenaktivität, Perturbation, Autopoiesis, Ermöglichungsdidaktik, individuelle Lernwege.",
+      "loesungsweg": "Für jede Theorie die Zeile aus Präsenzfolie 12 nehmen (wer steuert – Rolle der Lernenden – Wissen entsteht durch …) und mit den Fachbegriffen aus Einheit 04 auf das Fahrradfahren übertragen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "folie": "Präsenz 11",
+      "text": "Gemeinsamkeiten und Unterschiede herausarbeiten: Welche Theorie beschreibt Lernen am umfassendsten – und warum?",
+      "quelle": "Präsenzfolie 11; Lösung selbst erarbeitet mit Präsenzfolien 12 und 21 sowie Stein 2024, S. 130",
+      "loesung": "**Gemeinsamkeiten:** Alle vier Theorien erklären, wie sich durch **Erfahrung** Verhalten bzw. Wissen dauerhaft verändert. Alle sehen eine Rolle der Umwelt – sie gewichten sie nur verschieden.\n\n**Unterschiede (Präsenzfolie 12):**\n- *Wer steuert?* Umweltreize/Verstärkung → Modelle/Beobachtung → Lehrende & Lernende → Lernende selbst\n- *Rolle der Lernenden:* Reagieren → Nachahmung & Selbststeuerung → Informationsverarbeitung → Eigenaktivität\n- *Wissen entsteht durch:* Erfahrung von Konsequenzen → Beobachtung & Motivation → Denken, Strukturieren → Konstruktion von Bedeutung\n- Die Konditionierung schaut nur auf beobachtbares Verhalten (Mensch als „black box“), Kognitivismus und Konstruktivismus auf das, was im Kopf passiert.\n\n**Welche ist am umfassendsten?** *Eigene Begründung, Beispiel:* Am umfassendsten ist der **Konstruktivismus**, weil er erklären kann, warum dasselbe Angebot bei jedem anders ankommt, und weil er auch die Gefühle, das Vorwissen und die eigenen Wege der Lernenden berücksichtigt. Er erklärt aber schlecht unbewusste, automatische Lernvorgänge (z. B. Angst nach einem Sturz) – die erklärt die Konditionierung besser.\n\nDeshalb lautet das Fazit des Dozenten (Präsenzfolie 21): **Keine Theorie erklärt alles** – jede öffnet eine andere Perspektive. Stein (2024, S. 130) sieht es genauso: Behavioristische Theorien erklären eher unbewusste und emotionale Lernprozesse, das Modelllernen soziale, kognitive Theorien bewusst beabsichtigte Lernprozesse wie in der Schule.",
+      "loesungsweg": "Tabelle von Präsenzfolie 12 Spalte für Spalte vergleichen; dann eine Theorie wählen, begründen und eine Grenze nennen; mit dem Fazit „keine erklärt alles“ abschließen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a05",
+      "art": "Aufgabe auf Folie",
+      "folie": "Präsenz 13–18",
+      "text": "Beispiele für Lehr-Lern-Situationen: Welche Lerntheorie steckt jeweils dahinter?\n(1) Mathematikunterricht in der Mittelstufe: Die Lehrkraft denkt bei einem komplexen Problem laut über Strategien nach, die Schüler:innen denken mit, stellen Fragen und lösen dann ähnliche Probleme selbstständig; die Lehrkraft gibt individuelles Feedback (Präsenzfolie 13).\n(2) Kindergarten mit „Belohnungstafel“: Für positives Verhalten (Aufräumen, Teilen, Hören auf Anweisungen) gibt es einen Stern; die Kinder wiederholen diese Verhaltensweisen, um mehr Sterne zu sammeln (Präsenzfolie 14).\n(3) Sozialpädagogische Einrichtung: Andere Kinder beobachten Yeliz beim Basteln und Zeichnen und imitieren – ohne Steuerung durch eine Pädagogin – ihre Techniken und Ideen (Präsenzfolie 16).\n(4) Grundschulklasse: Jeden Morgen läuft beruhigende Musik; nach einigen Wochen werden die Kinder ruhig und konzentriert, sobald die Musik beginnt (Präsenzfolie 17).\n(5) Soziologie-Vorlesung: Gruppen entwickeln eigene Hypothesen zu einer komplexen Fragestellung; der Lehrende gibt keine „richtige Antwort“ vor, fördert die Vielfalt der Perspektiven; später eigene Forschungsprojekte (Präsenzfolie 18).",
+      "quelle": "Präsenzfolien 13–18 (die Folien nennen die Theorien nicht); Zuordnung selbst erarbeitet mit Einheit 04 und Präsenzfolie 12",
+      "loesung": "| Situation | Lerntheorie | Begründung |\n| --- | --- | --- |\n| (1) Mathe – lautes Denken | **Kognitivismus** | Es geht um Denkstrategien und Problemlösen, also Informationsverarbeitung; Lehrende und Lernende steuern gemeinsam; Feedback hilft beim Strukturieren. (Das laute Vordenken hat auch etwas von Modelllernen.) |\n| (2) Belohnungstafel | **Instrumentelle / operante Konditionierung** | Erwünschtes Verhalten wird durch einen Verstärker (Stern) häufiger – „Formung und Erhöhung der Auftretenswahrscheinlichkeit eines bestimmten Verhaltens durch Verstärkung“. |\n| (3) Yeliz | **Soziales Lernen (Modelllernen, Bandura)** | Die Kinder beobachten ein Modell (Aufmerksamkeit, Behalten) und probieren es selbst (motorische Reproduktion); Motivation durch Interesse an Yeliz’ Kunstwerken. |\n| (4) Musik am Morgen | **Klassische Konditionierung** | Die zunächst neutrale Musik wird immer wieder mit dem ruhigen Unterrichtsbeginn gekoppelt (Kontiguität) und löst schließlich selbst die Reaktion „ruhig werden“ aus (konditionierter Reiz → konditionierte Reaktion). |\n| (5) Soziologie-Vorlesung | **Konstruktivismus** | Studierende konstruieren eigene Bedeutungen und Hypothesen, keine vordefinierte Wahrheit, Vielfalt der Perspektiven, Lehrende ermöglichen statt belehren (Ermöglichungsdidaktik). |",
+      "loesungsweg": "Auf die Signalwörter achten: Belohnung → operant; automatische Reaktion auf ein Signal → klassisch; beobachten und nachmachen → Modelllernen; Denkstrategien → Kognitivismus; eigene Hypothesen, keine richtige Antwort → Konstruktivismus.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a06",
+      "art": "Aufgabe auf Folie",
+      "folie": "Präsenz 15",
+      "text": "Belohnungstafel im Kindergarten (Präsenzfolie 14): Was könnte an diesem Belohnungssystem problematisch sein?",
+      "quelle": "Präsenzfolie 15 (Stichpunkte des Dozenten); Erläuterungen selbst erarbeitet",
+      "loesung": "Stichpunkte des Dozenten (Präsenzfolie 15), erläutert:\n- **Extrinsische Motivation:** Die Kinder räumen auf, *um* Sterne zu bekommen – nicht, weil sie den Sinn sehen.\n- **Abhängigkeit von Belohnungen:** Ohne Stern kein Verhalten; fällt die Belohnung weg, kann das Verhalten wieder verschwinden (Extinktion).\n- **Verzerrte Wahrnehmung der Werte:** Teilen und Helfen erscheinen als „Geschäft“ statt als Wert an sich.\n- **Ungerechtigkeitsgefühl:** Kinder vergleichen ihre Sterne; wer weniger hat (oder es schwerer hat), fühlt sich benachteiligt oder bloßgestellt.\n- **Langfristige Wirksamkeit:** Ob das Verhalten dauerhaft bleibt, ist fraglich.\n\n**Lösungsvorschlag des Dozenten:** Belohnungssysteme bewusst gestalten, positive Verhaltensweisen auch ohne Belohnungen betonen und **intrinsische Motivation fördern**. Gelegentliches Lob, das nicht mit materiellen Belohnungen verbunden ist, kann zu einer gesunden Balance beitragen.\n\n*Verbindung zu Einheit 04:* Lob ist ein **sozialer Verstärker**; nach Folie 9 führt **unregelmäßige** Verstärkung zu dauerhafterer Verhaltensänderung als eine Belohnung bei jedem Mal.",
+      "loesungsweg": "Die fünf Stichpunkte der Folie nennen und jeweils kurz am Kindergartenbeispiel erklären; dann die Empfehlung (intrinsische Motivation, nicht-materielles Lob) ergänzen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a07",
+      "art": "Aufgabe auf Folie",
+      "folie": "Präsenz 19",
+      "text": "Übung: Konstruktivismus praktisch erleben (10 Minuten)\n• Öffnen Sie HAWKI (https://hawki.uni-vechta.de), ChatGPT oder ein anderes KI-Tool.\n• Stellen Sie eine offene Frage zum Konstruktivismus, z. B.: Welche Rolle spielt die Lernumgebung im Konstruktivismus? Wie erklärt der Konstruktivismus Motivation beim Lernen?\n• Lesen Sie die Antwort und reflektieren Sie: Was daran ist konstruktivistisch gedacht? Wo erkennen Sie mögliche Missverständnisse oder Grenzen?\n• Tauschen Sie sich kurz mit Ihrer Nachbarin / Ihrem Nachbarn aus.\nZiel: Konstruktivistisches Denken anwenden und erfahren – Lernen durch eigene Bedeutungskonstruktion.",
+      "quelle": "Präsenzfolie 19; Lösung selbst erarbeitet (Beispielantwort einer KI zusammengefasst und reflektiert mit Einheit 04, Folien 17–20)",
+      "loesung": "*Beispiel, selbst erarbeitet. Frage an die KI:* „Welche Rolle spielt die Lernumgebung im Konstruktivismus?“\n\n**Typische Antwort (zusammengefasst):** Die Lernumgebung soll anregend, problemorientiert und möglichst realitätsnah sein; sie bietet Material, Zeit und Raum für eigenes Ausprobieren, Austausch in Gruppen und verschiedene Zugänge. Lehrende sind Lernbegleiter:innen, nicht Wissensvermittler.\n\n**Was ist konstruktivistisch gedacht?**\n- Lernende konstruieren ihr Wissen selbst (aktive Konstrukteur:innen ihrer Wirklichkeit).\n- Lehrende **ermöglichen** statt zu belehren (Ermöglichungsdidaktik statt Belehrungsdidaktik).\n- Individuelle Lernwege, Lernzugänge und Einstellungen werden berücksichtigt.\n- Herausfordernde Probleme wirken als **Perturbation** und lösen Lernen aus.\n\n**Mögliche Missverständnisse oder Grenzen:**\n- „Die richtige Lernumgebung führt zum gewünschten Ergebnis“ – das widerspricht dem Konstruktivismus: Die Ergebnisse von Lernprozessen sind **nicht vorhersagbar**.\n- Konstruktivismus heißt nicht „alles ist beliebig“ oder „Lehrende sind überflüssig“ – Struktur, Rückmeldung und Wissen bleiben wichtig.\n- Die KI-Antwort ist selbst nur ein Angebot: Was ich daraus mache, konstruiere ich selbst – genau das ist die Pointe der Übung. Zugleich kann die KI Fehler enthalten und nennt oft keine Quellen; sie muss mit der Literatur (Stein, Gudjons/Traub) abgeglichen werden.",
+      "loesungsweg": "Eine offene Frage stellen, die Antwort mit den vier pädagogischen Implikationen des Konstruktivismus (Einheit 04, Folie 20) abgleichen und gezielt nach Widersprüchen (Vorhersagbarkeit, Rolle der Lehrenden) suchen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a08",
+      "art": "Aufgabe auf Folie",
+      "folie": "Präsenz 20",
+      "text": "Reflexion – Diskussionsfragen:\n• Welche Theorie passt am besten zu Ihrer eigenen Lernerfahrung?\n• Wo ergänzen sich die Theorien?\n• Welche hat für heutige Bildung die größte Relevanz?",
+      "quelle": "Präsenzfolie 20; Lösung selbst erarbeitet (persönliche Stellungnahme) mit Präsenzfolie 21 und Stein 2024, S. 130",
+      "loesung": "*Persönliche Stellungnahme – Beispiel, selbst erarbeitet:*\n\n**Eigene Lernerfahrung:** Am besten passt der **Kognitivismus**: Im Studium lerne ich, indem ich Inhalte strukturiere, mit Vorwissen verknüpfe und wiederhole (z. B. Lernfragen und Zusammenfassungen). Im Alltag erkenne ich aber auch Konditionierung (Handy-Benachrichtigungen) und Modelllernen (Unterrichtsstil von Lehrkräften, die ich mir abschaue).\n\n**Wo ergänzen sich die Theorien?** Konditionierung erklärt eher unbewusste und emotionale Lernprozesse (z. B. Prüfungsangst), Modelllernen soziale Lernprozesse (Vorbilder), kognitive Theorien bewusst beabsichtigtes Lernen wie in der Schule (Stein 2024, S. 130). Im Unterricht wirken sie oft gleichzeitig: Lob (Verstärker) + Vormachen (Modell) + Erklären in Schritten (Kognitivismus) + eigenes Erkunden (Konstruktivismus).\n\n**Größte Relevanz für heutige Bildung:** am ehesten der **Konstruktivismus** – heterogene Klassen, individuelle Lernwege, Kompetenzorientierung und selbstständiges Lernen (auch mit KI-Tools) setzen voraus, dass Lernende ihr Wissen aktiv aufbauen. Aber: Laut Fazit (Präsenzfolie 21) erklärt keine Theorie alles.",
+      "loesungsweg": "Jede der drei Fragen mit einem eigenen Beispiel beantworten; für „ergänzen“ die Arbeitsteilung nach Stein 2024 nutzen; mit dem Fazit „keine erklärt alles“ schließen.",
+      "frist": "",
+      "im_kalender": false
     }
   ],
   "fragen": [
@@ -1060,6 +1191,223 @@
       "erklaerung": "Video [30:05]–[31:44] (nicht auf den Folien).",
       "folie": "18–19",
       "pruefungsrelevant": false
+    },
+    {
+      "id": "p01",
+      "baustein": "definition",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Einstieg der Präsenzsitzung: „Was gehört zum Lernen – und was nicht?“ Welche Veränderungen sind nach Stein (2017) Lernen?",
+      "optionen": [
+        "Ein Kind gewöhnt sich unbemerkt den Dialekt seiner Freunde an.",
+        "Ein Jugendlicher kommt in den Stimmbruch.",
+        "Eine Studentin paukt Vokabeln für eine Klausur.",
+        "Nach einem Hundebiss hat ein Kind Angst vor Hunden.",
+        "Nach zwei Gläsern Wein reagiert jemand langsamer."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Lernen = „alle erfahrungsbedingten, auch unbewussten und nicht geplanten Veränderungen der Verhaltensmöglichkeiten“ (Präsenzfolie 9). Stimmbruch (Reifung) und Alkoholwirkung sind nicht erfahrungsbedingt.",
+      "folie": "Präsenz 8–9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "p02",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Präsenzfolie 12: Wer steuert das Lernen? Ordne zu.",
+      "kategorien": [
+        "Konditionierung",
+        "Soziales Lernen",
+        "Kognitivismus",
+        "Konstruktivismus"
+      ],
+      "elemente": [
+        {
+          "text": "Umweltreize / Verstärkung",
+          "kategorie": "Konditionierung"
+        },
+        {
+          "text": "Modelle / Beobachtung",
+          "kategorie": "Soziales Lernen"
+        },
+        {
+          "text": "Lehrende & Lernende",
+          "kategorie": "Kognitivismus"
+        },
+        {
+          "text": "Lernende selbst",
+          "kategorie": "Konstruktivismus"
+        }
+      ],
+      "erklaerung": "Vergleich der Lerntheorien, Präsenzfolie 12 – Spalte „Wer steuert das Lernen?“.",
+      "folie": "Präsenz 12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "p03",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Präsenzfolie 12: Ordne die Rolle der Lernenden und die Art, wie Wissen entsteht, der Lerntheorie zu.",
+      "kategorien": [
+        "Konditionierung",
+        "Soziales Lernen",
+        "Kognitivismus",
+        "Konstruktivismus"
+      ],
+      "elemente": [
+        {
+          "text": "Rolle: Reagieren",
+          "kategorie": "Konditionierung"
+        },
+        {
+          "text": "Wissen durch Erfahrung von Konsequenzen",
+          "kategorie": "Konditionierung"
+        },
+        {
+          "text": "Rolle: Nachahmung & Selbststeuerung",
+          "kategorie": "Soziales Lernen"
+        },
+        {
+          "text": "Wissen durch Beobachtung & Motivation",
+          "kategorie": "Soziales Lernen"
+        },
+        {
+          "text": "Rolle: Informationsverarbeitung",
+          "kategorie": "Kognitivismus"
+        },
+        {
+          "text": "Wissen durch Denken, Strukturieren",
+          "kategorie": "Kognitivismus"
+        },
+        {
+          "text": "Rolle: Eigenaktivität",
+          "kategorie": "Konstruktivismus"
+        },
+        {
+          "text": "Wissen durch Konstruktion von Bedeutung",
+          "kategorie": "Konstruktivismus"
+        }
+      ],
+      "erklaerung": "Präsenzfolie 12 – Spalten „Rolle der Lernenden“ und „Wissen entsteht durch …“.",
+      "folie": "Präsenz 12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "p04",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Lerntheorie steckt hinter den Lehr-Lern-Situationen der Präsenzsitzung?",
+      "kategorien": [
+        "Klassische Konditionierung",
+        "Operante Konditionierung",
+        "Soziales Lernen",
+        "Kognitivismus",
+        "Konstruktivismus"
+      ],
+      "elemente": [
+        {
+          "text": "Nach einigen Wochen werden die Kinder ruhig, sobald die morgendliche Musik beginnt.",
+          "kategorie": "Klassische Konditionierung"
+        },
+        {
+          "text": "Für Aufräumen und Teilen gibt es einen Stern auf der Belohnungstafel.",
+          "kategorie": "Operante Konditionierung"
+        },
+        {
+          "text": "Kinder beobachten Yeliz beim Basteln und ahmen ihre Techniken nach.",
+          "kategorie": "Soziales Lernen"
+        },
+        {
+          "text": "Die Lehrkraft denkt laut über Lösungsstrategien nach, die Klasse denkt mit und löst dann ähnliche Probleme.",
+          "kategorie": "Kognitivismus"
+        },
+        {
+          "text": "Studierende entwickeln eigene Hypothesen; es gibt keine vordefinierte „richtige Antwort“.",
+          "kategorie": "Konstruktivismus"
+        }
+      ],
+      "erklaerung": "Präsenzfolien 13–18; die Folien nennen die Theorien nicht – Zuordnung über die Signalwörter (siehe Aufgabe a05).",
+      "folie": "Präsenz 13–18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "p05",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Belohnungstafel im Kindergarten: Welche Probleme nennt der Dozent auf Präsenzfolie 15?",
+      "optionen": [
+        "Extrinsische Motivation",
+        "Abhängigkeit von Belohnungen",
+        "Verzerrte Wahrnehmung der Werte",
+        "Ungerechtigkeitsgefühl",
+        "Langfristige Wirksamkeit",
+        "Zu hoher Zeitaufwand für die Erzieher:innen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Präsenzfolie 15 nennt fünf Punkte; der Zeitaufwand gehört nicht dazu. Empfehlung: intrinsische Motivation fördern, gelegentliches nicht-materielles Lob.",
+      "folie": "Präsenz 15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "p06",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Ein Kind lernt Fahrrad zu fahren. Erkläre diesen Lernprozess aus Sicht der Konditionierung und des Konstruktivismus. Gehe jeweils auf die Rolle von Lehrenden und Lernenden und auf den Lernerfolg ein.",
+      "musterloesung": "Konditionierung: Das Kind lernt durch Konsequenzen – Lob und das gute Gefühl beim Fahren verstärken gelungene Bewegungen (positive Verstärkung), Stürze wirken als Bestrafung. Lehrende setzen Verstärker, Lernende reagieren, die Umwelt liefert Reize und Konsequenzen. Lernerfolg ist das sichtbare Verhalten: das Kind fährt ohne Hilfe. Konstruktivismus: Das Kind konstruiert sein Gleichgewichtsgefühl selbst; Wackeln oder Umkippen stört das bisherige Gefühl (Perturbation) und löst Lernen aus. Lernende sind aktive Konstrukteur:innen, Lehrende gestalten nur eine anregende, sichere Umgebung (Ermöglichungsdidaktik). Lernerfolg ist individuell und nicht vorhersagbar – jedes Kind findet seinen eigenen Weg und sein eigenes Tempo.",
+      "bewertungspunkte": [
+        "Konditionierung: Verstärkung/Bestrafung, Lernende reagieren",
+        "Konditionierung: Lernerfolg = beobachtbares Verhalten",
+        "Konstruktivismus: Eigenaktivität, Perturbation, Ermöglichungsdidaktik",
+        "Konstruktivismus: Lernerfolg individuell, nicht vorhersagbar"
+      ],
+      "punkte": 4,
+      "erklaerung": "Gruppenarbeit Präsenzfolien 10–11; Lösung mit Präsenzfolie 12 und Einheit 04 (siehe Aufgabe a03).",
+      "folie": "Präsenz 10–12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "p07",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Fazit: Lernen ist kein [[einheitlicher]] Prozess, sondern ein vielschichtiges Phänomen. Jede Theorie öffnet eine andere [[Perspektive]] – keine erklärt [[alles]].",
+      "erklaerung": "Präsenzfolie 21.",
+      "folie": "Präsenz 21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "p08",
+      "baustein": "transfer",
+      "format": "frage",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Die Musik am Morgen beruhigt die Klasse (Präsenzfolie 17). Benenne mit den Fachbegriffen der klassischen Konditionierung: unkonditionierter Reiz, neutraler/konditionierter Reiz und konditionierte Reaktion.",
+      "antwort": "Unkonditionierter Reiz: die ruhige Situation des Unterrichtsbeginns (Hinsetzen, Bücher herausholen), die von sich aus Ruhe auslöst. Neutraler Reiz: die Musik – sie wird über Wochen immer zeitgleich damit gekoppelt (Kontiguität) und wird so zum konditionierten Reiz. Konditionierte Reaktion: Die Kinder werden ruhig und konzentriert, sobald die Musik erklingt – auch wenn sie vorher aufgeregt waren.",
+      "erklaerung": "Selbst erarbeitete Zuordnung (die Folie nennt die Begriffe nicht) mit Einheit 04, Folien 6–8. Bleibt die Kopplung aus, kann die Reaktion wieder verschwinden (Extinktion).",
+      "folie": "Präsenz 17",
+      "pruefungsrelevant": true
     }
   ],
   "pruefungshinweise": [
@@ -1069,12 +1417,11 @@
     "In der Definition der instrumentellen Konditionierung fehlt die Bestrafung – Bestrafung und Konditionierung sind laut Dozent nicht Mittel der ersten Wahl (Video [13:50]–[14:40]).",
     "Vier Phasen des Modelllernens in Reihenfolge und Zuordnung zu Aneignungs- und Ausführungsphase (Folie 12).",
     "Unterschied Kognitivismus – Konstruktivismus: in Stein (2017) sehr nah beieinander, der Konstruktivismus betont die individuelle Konstruktion der eigenen Wirklichkeit (Video [24:10]).",
-    "Pädagogische Implikationen des Konstruktivismus (Folie 20) – werden in Lernen II bei der konstruktivistischen Didaktik vertieft (Video [33:13])."
+    "Pädagogische Implikationen des Konstruktivismus (Folie 20) – werden in Lernen II bei der konstruktivistischen Didaktik vertieft (Video [33:13]).",
+    "Präsenzsitzung: Vergleichstabelle der Lerntheorien (Präsenzfolie 12) – wer steuert, Rolle der Lernenden, wie Wissen entsteht – sicher wiedergeben können.",
+    "Präsenzsitzung: Alltagsbeispiele (Belohnungstafel, Musik, Vorbild, lautes Denken, eigene Hypothesen) einer Lerntheorie zuordnen und begründen (Präsenzfolien 13–18)."
   ],
-  "offene_fragen": [
-    "Präsenzsitzung ewb001.2 am 03.11.2026: Folien noch nicht vorhanden – nachtragen, sobald sie in Stud.IP stehen.",
-    "Der Ablaufplan WiSe 2026/27 nennt für den 03.11. zusätzlich „Lehren und Lernen“ und „Systemtheorie“; die Folien der Einheit 04 haben dazu keinen eigenen Abschnitt (Systemtheorie nur indirekt über Autopoiesis, Folie 18). Kommt das in der Präsenzsitzung?"
-  ],
+  "offene_fragen": [],
   "auffaelligkeiten": [
     "Ablaufplan WiSe 2026/27 (03.11.): „Lernen I – Begriffsklärung, Lehren und Lernen, Konditionierung, Soziales Lernen, Kognitivismus, Konstruktivismus, Systemtheorie“; Folie 3 (älterer Ablaufplan): „Begriffsklärung, Lernen, Konditionierung, Soziales Lernen, Kognitivismus, Konstruktivismus“ – ohne „Lehren und Lernen“ und „Systemtheorie“.",
     "Folie 9: Tippfehler „Konseqenz“ (statt „Konsequenz“).",
@@ -1082,6 +1429,10 @@
     "Folien und Video zitieren Stein 2017 (3. Aufl.), die Selbststudiums-Folie 21 Stein 2024 (4. Aufl., S. 104–119) – andere Seitenzahlen.",
     "Stein 2024, Merksatz S. 110: „Herstellung neuer Reiz-Reaktions-Verbindungen, die ursprünglich nicht miteinander in Zusammenhang standen“ – Folie 8 (wie Stein-Fließtext S. 109): „Verknüpfung von Reizen mit Reaktionen …“. Gelernt wird der Folienwortlaut.",
     "Negative Verstärkung unterschiedlich formuliert: Folie 9 „Ausbleiben einer negativen Konsequenz“, Stein 2024 (Tab. 12) „Wegnahme eines unangenehmen Reizes“, Gudjons/Traub 2016 (S. 223) „Entzug einer unangenehmen Konsequenz“ – gleiche Bedeutung.",
-    "Folien 16 und 17 (Kippbild, Karikatur) ohne Titel und Quellenangabe."
+    "Folien 16 und 17 (Kippbild, Karikatur) ohne Titel und Quellenangabe.",
+    "Präsenzfolie 4: Auch der Ablaufplan der Präsenzfolien nennt für Termin 4 kein „Lehren und Lernen“ und keine „Systemtheorie“ (anders als der Ablaufplan WiSe 2026/27 in Stud.IP); in der Präsenzsitzung kam beides nicht als eigener Abschnitt vor. Für Termin 6 nennt Präsenzfolie 4 zusätzlich „Bildungstheorien“.",
+    "Präsenzfolie 3: Termin 3 mit „Phänomenologische Pädagogik“ und ohne „Reflexive EW“ – anders als Folie 3 der Einheit 04 („… Postmoderne Ansätze, Reflexive EW“, ohne Phänomenologie).",
+    "Präsenzfolien 13, 14, 16, 17, 18: Die Fallbeispiele sind laut Folie „Erstellt unter Verwendung von ChatGPT-3.5“; die Folien sagen nicht, welche Lerntheorie jeweils gemeint ist (Zuordnung in Aufgabe a05 selbst erarbeitet).",
+    "Präsenzfolie 28 (= Einheit 04, Folie 9): Tippfehler „Konseqenz“ auch im Folienspeicher."
   ]
 }

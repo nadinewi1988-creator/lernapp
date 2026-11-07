@@ -609,6 +609,14 @@
       "status": "verarbeitet",
       "sitzung": "ewb001_2026-10-23",
       "hinweis": "zusätzlich eingearbeitet 01.11.2026"
+    },
+    {
+      "pfad": "ewb001.2/Sitzung_04/04_ewb001.2_Lernen_I_Präsenzsitzung.pdf",
+      "geaendert": "2026-11-07",
+      "art": "Folien Präsenz",
+      "status": "verarbeitet",
+      "sitzung": "ewb001.2_2026-11-03",
+      "hinweis": "zusätzlich eingearbeitet 07.11.2026 (Abschnitt „Präsenzsitzung 03.11.2026 (Folien)“, Aufgaben a02–a08, Fragen p01–p08, eigene PDF …_Ergaenzung-Praesenzfolien.pdf)"
     }
   ]
 }

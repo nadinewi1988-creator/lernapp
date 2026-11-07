@@ -77,7 +77,8 @@
     "mab005.2_2026-10-26",
     "mab005.2_2026-11-02",
     "mab005.1_2026-11-02",
-    "mab005.1_2026-11-09"
+    "mab005.1_2026-11-09",
+    "mab005.2_2026-11-09"
   ],
   "literatur": [
     {
@@ -412,6 +413,14 @@
       "status": "verarbeitet",
       "sitzung": "mab005.2_2026-11-02",
       "hinweis": "Kontrolle 02.11.: alles stimmt"
+    },
+    {
+      "pfad": "mab005.2/Sitzung_05/Aufgabenblatt05_V1.pdf",
+      "geaendert": "2026-11-05",
+      "art": "Übungsblatt",
+      "status": "verarbeitet",
+      "sitzung": "mab005.2_2026-11-09",
+      "hinweis": "vollständig gelöst (07.11.); Statistik-Definitionen als Ergänzung nach Kütting/Sauer, mit Folien abgleichen"
     }
   ]
 }

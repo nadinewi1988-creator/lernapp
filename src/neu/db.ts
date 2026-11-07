@@ -19,7 +19,14 @@ export interface KarteInhalt { vorne: string; hinten?: string; optionen?: string
 export interface Karte { id: string; modul_id: string | null; teilmodul_id: string | null; sitzung_id: string | null; format: string; inhalt: KarteInhalt; bild_pfad: string | null; geloescht: boolean; erstellt: string }
 export interface Wiederholung { frage_ref: string; stand: string; stufe: number; faellig: string | null }
 export interface Antwort { frage_ref: string; ergebnis: string; zeitpunkt: string; teilmodul_id: string | null }
-export interface Einstellungen { user_id: string; bafoeg_grenze: number }
+export interface Einstellungen { user_id: string; bafoeg_grenze: number; benachrichtigungen?: Record<string, unknown> }
+
+/** Veranstaltungen, die nicht in Anwesenheit/Statistik zählen (z. B. freiwillige Tutorien, die Nadine wegen der Arbeit nicht besuchen kann).
+ *  Gespeichert in einstellungen.benachrichtigungen.ohne_statistik (Liste von veranstaltung_id), gesetzt über window.lernapp.statistikAus(). */
+export function ohneStatistik(stand: { einstellungen: Einstellungen | null }): Set<string> {
+  const l = stand.einstellungen?.benachrichtigungen?.ohne_statistik;
+  return new Set(Array.isArray(l) ? (l as string[]) : []);
+}
 
 export interface Studienstand {
   studiengangId: string;

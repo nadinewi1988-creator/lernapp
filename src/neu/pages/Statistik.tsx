@@ -1,4 +1,5 @@
 import type { Studienstand } from '../db';
+import { ohneStatistik } from '../db';
 import { heuteIso, aktuellesSemester } from '../pruefungslogik';
 import { parseIso, plusTage } from '../data/kalender';
 import { C, Karten, kartenAus } from './Karten';
@@ -14,7 +15,8 @@ export function anwesenheitVon(stand: Studienstand, mk: string) {
   const H = heuteIso();
   const va = Object.fromEntries(stand.veranstaltungen.map((v) => [v.id, v.teilmodul_id]));
   const tm = Object.fromEntries(stand.teilmodule.map((t) => [t.id, t.kuerzel]));
-  const alle = stand.sitzungen.filter((x) => x.datum <= H && (tm[va[x.veranstaltung_id]] ?? '').slice(0, 6) === mk);
+  const ohne = ohneStatistik(stand);
+  const alle = stand.sitzungen.filter((x) => x.datum <= H && !ohne.has(x.veranstaltung_id) && (tm[va[x.veranstaltung_id]] ?? '').slice(0, 6) === mk);
   const l = alle.filter((x) => x.status === 'findet_statt'), aus = alle.filter((x) => x.status === 'ausgefallen').length;
   const da = l.filter((x) => x.anwesenheit === 'ja').length, weg = l.filter((x) => x.anwesenheit === 'nein').length;
   return { n: l.length, da, weg, offen: l.length - da - weg, aus };

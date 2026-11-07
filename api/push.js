@@ -31,16 +31,18 @@ async function nachrichtMorgen(db, uid) {
 
 async function nachrichtWoche(db, uid) {
   const h = tag(), ab = plus(h, -6), bis = plus(h, 7);
-  const [lz, an, si, ei] = await Promise.all([
+  const [lz, an, si, ei, es] = await Promise.all([
     db.from('lernzeit').select('art,sekunden').eq('user_id', uid).gte('datum', ab).lte('datum', h),
     db.from('antworten').select('ergebnis').eq('user_id', uid).gte('zeitpunkt', ab + 'T00:00:00Z'),
-    db.from('sitzungen').select('anwesenheit,status').eq('user_id', uid).gte('datum', ab).lte('datum', h),
+    db.from('sitzungen').select('anwesenheit,status,veranstaltung_id').eq('user_id', uid).gte('datum', ab).lte('datum', h),
     db.from('eintraege').select('art').eq('user_id', uid).eq('erledigt', false).in('art', ['hausaufgabe', 'frist']).gt('datum', h).lte('datum', bis),
+    db.from('einstellungen').select('benachrichtigungen').eq('user_id', uid).maybeSingle(),
   ]);
+  const ohne = new Set(es.data?.benachrichtigungen?.ohne_statistik ?? []); // Veranstaltungen ohne Statistik (z. B. Tutorien)
   const lern = (lz.data ?? []).filter((x) => x.art !== 'lerntext').reduce((s, x) => s + x.sekunden, 0);
   const lese = (lz.data ?? []).filter((x) => x.art === 'lerntext').reduce((s, x) => s + x.sekunden, 0);
   const a = an.data ?? [], r = a.filter((x) => x.ergebnis === 'richtig').length;
-  const st = (si.data ?? []).filter((x) => x.status === 'findet_statt'), da = st.filter((x) => x.anwesenheit === 'ja').length, offen = st.filter((x) => x.anwesenheit === 'offen').length;
+  const st = (si.data ?? []).filter((x) => x.status === 'findet_statt' && !ohne.has(x.veranstaltung_id)), da = st.filter((x) => x.anwesenheit === 'ja').length, offen = st.filter((x) => x.anwesenheit === 'offen').length;
   const teile = ['Lernzeit: ' + zeit(lern) + (lese ? ' · Lesezeit: ' + zeit(lese) : '')];
   if (a.length) teile.push(a.length + ' Antworten · ' + Math.round((r / a.length) * 100) + ' % richtig');
   if (st.length) teile.push('Anwesend: ' + da + ' von ' + st.length + (offen ? ' (' + offen + ' ohne Angabe)' : ''));

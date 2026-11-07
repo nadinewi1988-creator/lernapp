@@ -6,7 +6,7 @@ import { sicherungHerunterladen, sicherungAutomatisch } from './sicherung';
  * Es wird nur mit Nadines eigener Anmeldung geschrieben; nichts wird gelöscht.
  */
 import { supabase } from '../supabase';
-import { ladeStudienstand } from './db';
+import { ladeStudienstand, ohneStatistik } from './db';
 
 const jetzt = () => new Date().toISOString();
 const hhmm = (t: string | null | undefined) => (t ? String(t).slice(0, 5) : null);
@@ -21,7 +21,7 @@ async function teilId(kuerzel: string) {
 export function wochencheckBereitstellen(nachAenderung: () => void) {
   const api = {
     version: 1,
-    hilfe: 'ueberblick() · sitzungAendern(id, {datum, von, bis, raum, status, entfall_grund, thema, material}) · sicherung() · sitzungNeu({veranstaltung_id, datum, von, bis, raum, thema}) · veranstaltungNeu({teil, titel, kurz, wochentag, von, bis, raum}) · eintrag({id?, art, titel, datum, zeit?, teil?, notiz?, erledigt?}) · pruefungstermin({modul, art, datum?, zeit?, anmeldung_ab?, anmeldung_bis?, abmeldung_bis?}) · gesehen() · gesehenErgaenzen([...])',
+    hilfe: 'ueberblick() · sitzungAendern(id, {datum, von, bis, raum, status, entfall_grund, thema, material}) · sicherung() · sitzungNeu({veranstaltung_id, datum, von, bis, raum, thema}) · veranstaltungNeu({teil, titel, kurz, wochentag, von, bis, raum}) · statistikAus(veranstaltung_id, aus=true) · eintrag({id?, art, titel, datum, zeit?, teil?, notiz?, erledigt?}) · pruefungstermin({modul, art, datum?, zeit?, anmeldung_ab?, anmeldung_bis?, abmeldung_bis?}) · gesehen() · gesehenErgaenzen([...])',
     /** Alles, was der Abgleich braucht – kompakt. */
     /** Sicherung als Datei herunterladen (Sonntags-Wochencheck) und zusätzlich in Supabase Storage ablegen */
     async sicherung() { const d = await sicherungHerunterladen(); const s2 = await sicherungAutomatisch(true); return { datei: d, storage: s2 }; },
@@ -32,7 +32,7 @@ export function wochencheckBereitstellen(nachAenderung: () => void) {
       const va = Object.fromEntries(st.veranstaltungen.map((v) => [v.id, v]));
       return {
         heute: new Date().toISOString().slice(0, 10),
-        veranstaltungen: st.veranstaltungen.map((v) => ({ id: v.id, teil: tm[v.teilmodul_id], titel: v.titel, kurz: v.kurz, wochentag: v.wochentag, von: v.von, bis: v.bis, raum: v.raum, rhythmus: v.rhythmus })),
+        veranstaltungen: st.veranstaltungen.map((v) => ({ id: v.id, teil: tm[v.teilmodul_id], titel: v.titel, kurz: v.kurz, wochentag: v.wochentag, von: v.von, bis: v.bis, raum: v.raum, rhythmus: v.rhythmus, ohne_statistik: ohneStatistik(st).has(v.id) })),
         sitzungen: st.sitzungen.map((s) => ({ id: s.id, veranstaltung_id: s.veranstaltung_id, teil: tm[va[s.veranstaltung_id]?.teilmodul_id], kurz: va[s.veranstaltung_id]?.kurz, datum: s.datum, von: s.von, bis: s.bis, raum: s.raum, status: s.status, thema: s.thema, anwesenheit: s.anwesenheit, abwesend_grund: s.abwesend_grund ?? null, material: s.material ?? null })),
         eintraege: st.eintraege.filter((e) => e.art !== 'privat').map((e) => ({ id: e.id, art: e.art, titel: e.titel, datum: e.datum, zeit: e.zeit, teil: (e.teilmodul_id && tm[e.teilmodul_id]) || (e.modul_id && md[e.modul_id]) || null, notiz: e.notiz, erledigt: e.erledigt })),
         pruefungstermine: st.termine.map((t) => { const p = st.pruefungen.find((x) => x.id === t.pruefung_id); return { id: t.id, modul: p ? md[p.modul_id] : null, art: t.art, datum: t.datum, zeit: hhmm(t.zeit), anmeldung_ab: t.anmeldung_ab, anmeldung_bis: t.anmeldung_bis, abmeldung_bis: t.abmeldung_bis, quelle: t.quelle }; }),
@@ -52,6 +52,15 @@ export function wochencheckBereitstellen(nachAenderung: () => void) {
       const t = await teilId(v.teil);
       const r = pruef(await supabase.from('veranstaltungen').insert({ teilmodul_id: t.id, titel: v.titel, kurz: v.kurz ?? null, wochentag: v.wochentag ?? null, von: v.von ?? null, bis: v.bis ?? null, raum: v.raum ?? null, rhythmus: v.rhythmus ?? 'einzeltermine' }).select('id').single()) as { id: string };
       nachAenderung(); return r.id;
+    },
+    /** Veranstaltung aus Anwesenheit/Statistik herausnehmen (aus=true) oder wieder aufnehmen (aus=false), z. B. freiwillige Tutorien. */
+    async statistikAus(veranstaltung_id: string, aus = true) {
+      const { data } = await supabase.from('einstellungen').select('benachrichtigungen').maybeSingle();
+      const b = ((data as { benachrichtigungen?: Record<string, unknown> } | null)?.benachrichtigungen) ?? {};
+      const l = new Set(Array.isArray(b.ohne_statistik) ? (b.ohne_statistik as string[]) : []);
+      if (aus) l.add(veranstaltung_id); else l.delete(veranstaltung_id);
+      pruef(await supabase.from('einstellungen').upsert({ benachrichtigungen: { ...b, ohne_statistik: [...l] }, geaendert: jetzt() }));
+      nachAenderung(); return [...l];
     },
     /** Neuer Eintrag (ohne id) oder Änderung (mit id). art: hausaufgabe | todo | frist | termin */
     async eintrag(e: { id?: string; art: string; titel: string; datum: string; zeit?: string | null; teil?: string | null; notiz?: string | null; erledigt?: boolean }) {

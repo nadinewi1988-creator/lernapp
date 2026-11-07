@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import type { Studienstand, Sitzung, KEintrag } from '../db';
-import { aendereSitzung, speichereEintrag, loescheEintrag } from '../db';
+import { aendereSitzung, speichereEintrag, loescheEintrag, ohneStatistik } from '../db';
 import { kartenOeffnen } from './Karten';
 import { hausaufgabeZuEintrag, HausaufgabeKasten } from '../Hausaufgabe';
 import { useKlapp } from '../klapp';
@@ -185,7 +185,7 @@ export function Kalender({ stand, neuLaden }: Props) {
       const s = e.s!, a = att(s), done = a === 'weg' && isDone(s), miss = a === 'weg', aus = a === 'aus', f = farbe(s.modul);
       return { key: s.id, ...pos, hoehe: e.b - e.a - 4, bg: f[1], fg: f[0], rand: rgba(f[0], 0.35), opazitaet: aus ? 0.45 : done ? 0.6 : 1, modul: s.modul, kurz: s.kurz,
         meta: aus ? ausText(s) : s.von + '–' + s.bis + (e.n! > 1 ? '' : ' · ' + s.raum), metaLang: aus ? ausText(s) : s.von + '–' + s.bis + ' · ' + s.raum,
-        punkt: miss && !done, haken: (miss && done) || a === 'da', frage: a === null && isPast(s), deko: aus ? 'line-through' : 'none',
+        punkt: miss && !done, haken: (miss && done) || a === 'da', frage: a === null && isPast(s) && !ohneStatistik(stand).has(s.roh.veranstaltung_id), deko: aus ? 'line-through' : 'none',
         titel: s.modul + ' · ' + s.titel + ' · ' + s.von + '–' + s.bis + ' · ' + s.raum + (s.thema ? ' · ' + s.thema : ''), oeffne: () => setSitzung(s.id) };
     });
     const istHeute = d === HEUTE;

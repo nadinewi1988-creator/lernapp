@@ -1,6 +1,6 @@
 import { Fragment, useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import type { Studienstand, Sitzung } from '../db';
-import { setzeGelesen, setzeGelernt, speichereLernzeit, lernzeitZuruecksetzen, antwortenZuruecksetzen } from '../db';
+import { setzeGelesen, setzeGelernt, speichereLernzeit, lernzeitZuruecksetzen, antwortenZuruecksetzen, ohneStatistik } from '../db';
 import { kartenAus, istFaellig, kartenOeffnen } from './Karten';
 import { auswerten, heuteIso, nachFach, aktuellesSemester, type Eintrag } from '../pruefungslogik';
 import { parseIso, plusTage, entfallGrund } from '../data/kalender';
@@ -23,7 +23,7 @@ const TAG_WORT = ['montags', 'dienstags', 'mittwochs', 'donnerstags', 'freitags'
 const istTut = (s: string) => /Tutorium|eÜbung/.test(s);
 const themaTitel = (t: string | null | undefined, ersatz = 'Thema der Sitzung …') => (t && !/^\d\d:\d\d/.test(t) ? t.replace(/^\d\d /, '') : ersatz);
 const ARTNAME: Record<string, string> = { Vorlesung: 'Vorlesung', Seminar: 'Seminar', 'Übung': 'Seminar', Tutorium: 'Tutorium', 'eÜbung': 'eÜbung' };
-const SF: Record<string, [string, string, string]> = { aus: ['ausgefallen', '#f0f0eb', '#6b6f76'], da: ['anwesend', '#e3f2e8', '#2f7a4b'], weg: ['nachholen', '#fcecee', '#b4475a'], nach: ['nachgeholt', '#e3f2e8', '#2f7a4b'], frage: ['?', '#f0f0eb', '#6b6f76'], kommt: ['kommt', '#f7f7f4', '#9a9ea5'] };
+const SF: Record<string, [string, string, string]> = { aus: ['ausgefallen', '#f0f0eb', '#6b6f76'], da: ['anwesend', '#e3f2e8', '#2f7a4b'], weg: ['nachholen', '#fcecee', '#b4475a'], nach: ['nachgeholt', '#e3f2e8', '#2f7a4b'], frage: ['?', '#f0f0eb', '#6b6f76'], kommt: ['kommt', '#f7f7f4', '#9a9ea5'], frei: ['freiwillig', '#f7f7f4', '#9a9ea5'] };
 const lies = <T,>(k: string, d: T): T => { try { const v = localStorage.getItem('mod-' + k); return v ? JSON.parse(v) : d; } catch { return d; } };
 const merke = (k: string, v: unknown) => { try { localStorage.setItem('mod-' + k, JSON.stringify(v)); } catch { /* egal */ } };
 
@@ -145,7 +145,8 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   const alleFragen: LFEintrag[] = LSITZ.flatMap((s) => s.fragen.map((f) => ({ s, f })));
   const wdRef = Object.fromEntries(stand.wiederholung.map((w) => [w.frage_ref, w]));
   const faelligZuerst = (l: LFEintrag[]) => { const h = heuteIso(); const r = (e: LFEintrag) => { const w = wdRef[frageRef(e.s, e.f)]; return !w ? 1 : w.faellig && w.faellig <= h ? 0 : 2; }; return [...l].sort((a2, b2) => r(a2) - r(b2)); };
-  const status = (x: S) => (x.s.status !== 'findet_statt' ? 'aus' : x.s.anwesenheit === 'ja' ? 'da' : x.s.anwesenheit === 'nein' ? (x.s.nachgearbeitet ? 'nach' : 'weg') : x.s.datum < HEUTE || (x.s.datum === HEUTE && (x.s.von ?? '00:00') <= new Date().toTimeString().slice(0, 5)) ? 'frage' : 'kommt');
+  const OHNE_ST = ohneStatistik(stand);
+  const status = (x: S) => (x.s.status !== 'findet_statt' ? 'aus' : x.s.anwesenheit === 'ja' ? 'da' : OHNE_ST.has(x.vid) ? (x.s.datum <= HEUTE ? 'frei' : 'kommt') : x.s.anwesenheit === 'nein' ? (x.s.nachgearbeitet ? 'nach' : 'weg') : x.s.datum < HEUTE || (x.s.datum === HEUTE && (x.s.von ?? '00:00') <= new Date().toTimeString().slice(0, 5)) ? 'frage' : 'kommt');
   const ss = istAkt ? SESS : [];
   const freiwillig = stand.teilmodule.filter((t) => t.freiwillig && t.kuerzel === kuerzel && !stand.veranstaltungen.some((v) => v.teilmodul_id === t.id));
   const gruppenIds = [...new Set(ss.map((x) => x.vid))].sort((x, y) => { const ax = ss.find((q) => q.vid === x)!, ay = ss.find((q) => q.vid === y)!; return (istTut(ax.titel) ? 1 : 0) - (istTut(ay.titel) ? 1 : 0) || ax.k.localeCompare(ay.k); });
@@ -387,7 +388,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                   <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{gel} von {statt} gelernt{statt ? ' · ' + Math.round(rows.filter((r) => r.st !== 'kommt' && !ohneMat(r.x)).reduce((x, r) => x + r.fp.pct, 0) / statt) + ' %' : ''}</span>
                 </button>
                 {offen && <div style={{ display: 'flex', flexDirection: 'column', padding: '0 14px 6px' }}>
-                  {liste.map((r) => { const t = r.g ? ['gelernt', '#e3f2e8', '#2f7a4b'] : r.st === 'aus' ? ['ausgefallen', '#f0f0eb', '#6b6f76'] : r.st === 'nach' ? ['nachgeholt', '#e3f2e8', '#2f7a4b'] : r.st === 'weg' ? ['nachholen', '#fcecee', '#b4475a'] : r.st === 'kommt' ? ['kommt', '#f7f7f4', '#9a9ea5'] : r.st === 'da' ? ['anwesend', '#e3f2e8', '#2f7a4b'] : ['? Anwesenheit', '#f0f0eb', '#6b6f76'];
+                  {liste.map((r) => { const t = r.g ? ['gelernt', '#e3f2e8', '#2f7a4b'] : r.st === 'frei' ? ['freiwillig', '#f7f7f4', '#9a9ea5'] : r.st === 'aus' ? ['ausgefallen', '#f0f0eb', '#6b6f76'] : r.st === 'nach' ? ['nachgeholt', '#e3f2e8', '#2f7a4b'] : r.st === 'weg' ? ['nachholen', '#fcecee', '#b4475a'] : r.st === 'kommt' ? ['kommt', '#f7f7f4', '#9a9ea5'] : r.st === 'da' ? ['anwesend', '#e3f2e8', '#2f7a4b'] : ['? Anwesenheit', '#f0f0eb', '#6b6f76'];
                     const haZeilen = hausaufgabenFuer(r.x.k, r.x.s.datum).map((ha) => ({ ha, txt: 'Hausaufgabe fällig' }));
                     return (<Fragment key={r.x.s.id}>
                       <button type="button" onClick={() => ltOeffnen(r.x)} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '10px 0', border: 0, borderTop: '1px solid #f0f0eb', background: 'transparent', color: 'var(--ink)', textAlign: 'left', cursor: 'pointer', opacity: r.st === 'kommt' ? 0.6 : 1 }}>
@@ -422,7 +423,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
 
       {tab === 'statistik' && <>
         {(() => {
-          const verg = SESS.filter((x) => x.s.datum <= HEUTE && x.s.status !== 'entfaellt');
+          const verg = SESS.filter((x) => x.s.datum <= HEUTE && x.s.status !== 'entfaellt' && !OHNE_ST.has(x.vid));
           const zaehl = (l: S[]) => { const st = l.filter((x) => x.s.status === 'findet_statt'); return { da: st.filter((x) => x.s.anwesenheit === 'ja').length, weg: st.filter((x) => x.s.anwesenheit === 'nein').length, offen: st.filter((x) => x.s.anwesenheit !== 'ja' && x.s.anwesenheit !== 'nein').length, aus: l.length - st.length, n: st.length }; };
           const ges = zaehl(verg), quote = ges.da + ges.weg ? Math.round(ges.da / (ges.da + ges.weg) * 100) : null;
           const gruppen = [...new Set(verg.map((x) => x.vid))].map((vid) => verg.filter((x) => x.vid === vid)).sort((a2, b2) => (a2[0].art === 'Tutorium' ? 1 : 0) - (b2[0].art === 'Tutorium' ? 1 : 0) || a2[0].k.localeCompare(b2[0].k));

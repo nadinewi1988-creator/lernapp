@@ -1,6 +1,6 @@
 import { useMemo, useState, type CSSProperties } from 'react';
 import type { Studienstand, Sitzung, KEintrag } from '../db';
-import { aendereSitzung, speichereEintrag } from '../db';
+import { aendereSitzung, speichereEintrag, ohneStatistik } from '../db';
 import { kartenAus, istFaellig, kartenOeffnen } from './Karten';
 import { useKlapp } from '../klapp';
 import { anwesenheitVon, AnwBalken } from './Statistik';
@@ -100,7 +100,8 @@ export function Dashboard({ stand, neuLaden }: Props) {
   // ---------- Nachholen ----------
   const aktMods = a.aktListe.map((e) => e.modul.kuerzel).filter((k) => HLF[k]).sort((x, y) => nachFach({ kuerzel: x }, { kuerzel: y }));
   const NH: Record<string, { s: Sitzung; k: string; titel: string; zeile: string; kopfArt: string }[]> = Object.fromEntries(aktMods.map((k) => [k, []]));
-  sitz.filter((s) => s.status === 'findet_statt' && s.anwesenheit === 'nein').sort((x, y) => (x.datum + kuerzelVon(x)).localeCompare(y.datum + kuerzelVon(y))).forEach((s) => {
+  const ohneSt = ohneStatistik(stand);
+  sitz.filter((s) => s.status === 'findet_statt' && s.anwesenheit === 'nein' && !ohneSt.has(s.veranstaltung_id)).sort((x, y) => (x.datum + kuerzelVon(x)).localeCompare(y.datum + kuerzelVon(y))).forEach((s) => {
     const k = kuerzelVon(s), m = k.slice(0, 6); if (!NH[m]) return;
     const v = va[s.veranstaltung_id], t = tm[v?.teilmodul_id], gr = /\(Gruppe ([A-Z0-9]+)\)/.exec(v?.titel ?? '');
     const art = ART_KURZ[t?.art ?? ''] ?? t?.art ?? '';

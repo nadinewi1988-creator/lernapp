@@ -8,7 +8,7 @@
   "thema": "Menschenbilder der Pädagogik (Hobbes, Locke, Rousseau) und Auswirkungen auf das Handeln",
   "thema_in_app": "war schon da",
   "stand": "geprueft",
-  "hinweis": "Asynchrone Courseware-Einheit 3 (Folien + eingesprochenes Video aus einem früheren Semester). Die Präsenz am 27.10. ist Compasito Teil II – freiwillig und nicht prüfungsrelevant, daher keine Lerninhalte dazu.",
+  "hinweis": "Asynchrone Courseware-Einheit 3 (Folien + eingesprochenes Video aus einem früheren Semester). Die Präsenz am 27.10. ist Compasito Teil II – freiwillig und nicht prüfungsrelevant, daher keine Lerninhalte dazu. Zusätzlich eingearbeitet am 07.11.2026: Übungsblatt „Übungen zu Pädagogik als Wissenschaft und Menschenbilder der Pädagogik“ (Impuls, Fälle Lina und Alex, drei Situationen „Wer entscheidet?“) – Aufgaben a04–a09, Fragen u01–u07.",
   "quellen": [
     {
       "datei": "ewb001.1/Sitzung_03/ewb001.1_3__Sitzung_Menschenbilder.pdf",
@@ -34,6 +34,11 @@
       "datei": "ewb001.1/4._Literatur/Klein_Das_Gute_im_Kind_sehen_und_danach_handeln.pdf",
       "art": "Literatur (Reflexion Folie 78, Hausaufgabe h02)",
       "seiten": "568–574"
+    },
+    {
+      "datei": "ewb001.1/Sitzung_03/ewb001_Übungen_Pädagogik_und_Menschenbild_Studierende.docx",
+      "art": "Übungsblatt „Übungen zu Pädagogik als Wissenschaft und Menschenbilder der Pädagogik“ (Stud.IP) – zusätzlich eingearbeitet am 07.11.2026",
+      "seiten": ""
     }
   ],
   "lernziele": [
@@ -130,6 +135,20 @@
         "z15"
       ],
       "erklaerung_abschnitt": "Pädagogische Anthropologie: Dimensionen, Bedürfnisse, Aufgaben"
+    },
+    {
+      "text": "Du kannst die fünf Aufgaben der Pädagogik (beobachten, interpretieren, erklären, vorhersagen, Handlungswissen) auf einen Fall anwenden und dabei das eigene Menschenbild sowie Bedürfnisse und Rechte von Kindern und Jugendlichen berücksichtigen.",
+      "art": "abgeleitet",
+      "quelle": "Übungsblatt",
+      "fragen": [
+        "u01",
+        "u02",
+        "u03",
+        "u04",
+        "u05",
+        "u07"
+      ],
+      "erklaerung_abschnitt": "Übungen: Pädagogik als Wissenschaft und Menschenbilder (Fälle Lina und Alex, drei Situationen)"
     }
   ],
   "kurzfassung": [
@@ -189,6 +208,12 @@
       "text": "- **Abschlussfrage (Folie 55):** zwei oder drei Kernsätze notieren:\n\n{{aufgabe a03}}\n\n- **Übungsaufgabe (Folie 56):** kindgerechte Schule → Hausaufgabe h01 (fällig 03.11.).\n- **Reflexion (Folie 78):** Klein, F. (2020). Das Gute im Kind sehen und mit ihm handeln → Hausaufgabe h02 (fällig 03.11.). Der Text liegt in `ewb001.1/4._Literatur`.\n\n**Literatur der Sitzung (Folien 79–80):** Ariès 1978 · Engelke 1998 · Hobbes 1994 · Hamann 1993 · Herriger 1995 · Klein 2020 · Locke 2013 · Postman 1987 · Prengel 2013 · Rousseau 1762/1971 · Schilling 2000 · Stein 2017. In deinem Ordner liegen dazu: Klein 2020, Ariès (Auszug), Rousseau „Emile“ (Auszug), Hintergrundinformationen zu Émile, Kraft „Rousseaus Emile“, Reckahner Reflexionen (Broschüre), Prengel „Destruktive Beziehungen“, Stein 2017.\n\n**Weiterführende Literatur (Folien 81–82)** zur Geschichte der Pädagogik und Kindheit, u. a. Böhm 2013, Reble 2016, Tenorth (Klassiker der Pädagogik).",
       "beispiel": "",
       "folien": "55–82"
+    },
+    {
+      "titel": "Übungen: Pädagogik als Wissenschaft und Menschenbilder (Fälle Lina und Alex, drei Situationen)",
+      "folien": "Übungsblatt",
+      "beispiel": "",
+      "text": "*Zusätzlich eingearbeitet am 07.11.2026 aus dem neuen Übungsblatt „Übungen zu Pädagogik als Wissenschaft und Menschenbilder der Pädagogik“ (Stud.IP, Ordner Sitzung 3). Die Abschnitte oben bleiben unverändert.*\n\nDas Blatt verbindet zwei Sitzungen: die **fünf Aufgaben der Pädagogik nach Stein** aus S02 (beobachten – interpretieren – erklären – vorhersagen – Handlungswissen) und die **Menschenbilder** dieser Sitzung (Hobbes, Rousseau, Locke; Reckahner Reflexionen; Bedürfnisse). Neu ist der Blick auf **Rechte** und **Beteiligung** von Kindern und Jugendlichen – auch außerhalb der Schule (Ganztag, Jugendtreff, Ferienfreizeit).\n\n### Impuls: Klarere Konsequenzen?\n{{aufgabe a04}}\n\n### Fall A: Lina im Ganztag\n{{aufgabe a05}}\n\n### Fall B: Alex im Jugendtreff (anstelle von Fall A)\n{{aufgabe a06}}\n\n### Wer entscheidet? Drei Situationen\nZu jeder Situation stehen drei Antworten zur Wahl: **1** Das Kind bzw. die Jugendlichen sollen entscheiden · **2** Kinder bzw. Jugendliche und Erwachsene sollen gemeinsam entscheiden · **3** Die verantwortlichen Erwachsenen sollen entscheiden und ihre Entscheidung begründen. Geprüft wird jeweils: Welches Bild vom Kind wird sichtbar? Welche Interessen, Bedürfnisse und Rechte sind berührt?\n\n{{aufgabe a07}}\n\n{{aufgabe a08}}\n\n{{aufgabe a09}}\n\n**Kurz erklärt:** Die Übungen zeigen, wie schnell aus einer Beobachtung ein Urteil über die **Person** wird („keine Lust“, „nutzt uns aus“, „schüchtern“). Das Fünf-Schritte-Vorgehen bremst diesen Kurzschluss: erst beschreiben, dann vorsichtig deuten („Möglicherweise …“), Ursachen prüfen, eine Wenn-dann-Annahme bilden und erst dann handeln – und das Handeln überprüfen. Hinter vorschnellen Urteilen steckt oft ein **Hobbes-Bild** (das Kind muss durch Konsequenzen gebändigt werden); die Reckahner Reflexionen verlangen dagegen, den **subjektiven Sinn** des Verhaltens zu beachten.\n\n**Prüfungsfalle:** Beteiligung heißt nicht, dass immer die Mehrheit entscheidet. Grundrechte einzelner (z. B. nicht ausgeschlossen zu werden) stehen **nicht** zur Abstimmung (Situation 3) – hier entscheiden die verantwortlichen Erwachsenen und begründen es."
     }
   ],
   "definitionen": [
@@ -299,6 +324,72 @@
       "fuer_sitzung": "ewb001.1_2026-11-03",
       "kalender_id": "0cf94f69-79d6-41d2-bdb2-6941a18d18c0",
       "pdf": "/dateien/ewb001/S04_2026-11-03_Hausaufgabe_Reflexion_Klein-2020_Das-Gute-im-Kind_Manifest.pdf"
+    },
+    {
+      "id": "a04",
+      "art": "Übungsaufgabe",
+      "folie": "Übungsblatt",
+      "text": "Impuls: „Wenn ein Kind wiederholt eine Aufgabe nicht beginnt, braucht es vor allem klarere Konsequenzen.“\nSie können hier an ein Kind denken in der Schule oder im außerschulischen Bereich.\nAbstimmung: 1 = stimme zu, 2 = unentschieden, 3 = stimme nicht zu. Austausch zu zweit; Anhören von zwei unterschiedlichen Begründungen im Plenum.\n• Welche Annahme über das Kind steckt in Ihrem Urteil? (Hobbes, Rousseau, Locke)\n• Welche Information fehlt Ihnen?\n• Wie würden Sie diese Informationen einholen?",
+      "quelle": "Übungsblatt „Übungen zu Pädagogik als Wissenschaft und Menschenbilder der Pädagogik“; Lösung selbst erarbeitet mit den Folien 38–46 dieser Sitzung",
+      "loesung": "**Meine Abstimmung: 3 = stimme nicht zu** *(begründete Beispielposition, selbst erarbeitet).*\n\n**Welche Annahme steckt im Urteil?**\n- Wer **zustimmt**, sieht das Kind eher mit **Hobbes**: Es verweigert aus Unwillen oder Bequemlichkeit und muss durch Regeln und Strafen dazu gebracht werden. Auch ein behavioristischer **Locke**-Gedanke passt: Verhalten wird durch Konsequenzen geformt.\n- Wer **nicht zustimmt**, sieht das Kind eher mit **Rousseau** (es will eigentlich lernen; etwas in der Situation hindert es) oder mit **Locke** im weiten Sinn (das Verhalten ist durch Erfahrungen entstanden, z. B. Misserfolge – also müssen sich die Erfahrungen ändern, nicht nur die Strafen).\n- Mein Urteil: Das wiederholte Nicht-Beginnen hat einen **subjektiven Sinn** für das Kind (Reckahner Reflexion 5). Konsequenzen allein ändern die Ursache nicht.\n\n**Welche Information fehlt?**\n- Versteht das Kind die Aufgabe? Ist sie zu schwer oder zu leicht?\n- Wann und bei welchen Aufgaben tritt es auf (Fach, Uhrzeit, nach dem Essen, in der Gruppe)?\n- Wie geht es dem Kind gerade (müde, hungrig, Sorgen, Streit, Konzentrationsschwierigkeiten, Lese-/Rechenschwäche)?\n- Was sagt das Kind selbst? Was beobachten Eltern und andere Fachkräfte?\n\n**Wie würde ich die Informationen einholen?**\n- Das Kind **beobachten** (wann, wie oft, was passiert davor) und das Beobachtete aufschreiben.\n- Mit dem Kind **ein offenes Gespräch** führen – unter vier Augen, nicht vor der Gruppe („Was ist für dich gerade schwierig?“).\n- Im Team und mit den Eltern sprechen, ggf. Lehrkräfte bzw. Schulsozialarbeit einbeziehen.\n- Eine kleine Veränderung ausprobieren (z. B. erste Teilaufgabe gemeinsam beginnen) und schauen, was sich ändert.",
+      "loesungsweg": "Erst abstimmen und begründen, dann das eigene Urteil einem der drei Menschenbilder zuordnen; fehlende Informationen über Aufgabe, Situation, Befinden und Sicht des Kindes sammeln; Wege nennen (beobachten, fragen, im Team austauschen).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a05",
+      "art": "Übungsaufgabe",
+      "folie": "Übungsblatt",
+      "text": "Fall Lina im Ganztag\nLina ist neun Jahre alt und besucht den Ganztag einer Grundschule. Nach dem Unterricht und dem Mittagessen beginnt die Lernzeit. Während der ersten zehn Minuten steht sie dreimal auf, schaut auf das Blatt eines anderen Kindes und radiert mehrmals an ihrer ersten Aufgabe. Dann schiebt sie ihr Arbeitsblatt weg und sagt: „Mach ich nicht. Ist mir zu blöd.“\nEine pädagogische Fachkraft antwortet vor der Gruppe: „Du hast schon wieder mal keine Lust. Wenn du jetzt nicht anfängst, fällt für dich heute die Bewegungszeit aus.“ Nachher im Kollegium sagt ein Kollege: „Lina stört durch ihre mangelnde Motivation alle.“ Eine Kollegin sagt später: „Wir wissen doch noch gar nicht, was hier gerade los ist.“\n\n• Welches Bild vom Kind zeigt sich in den beiden Aussagen der Fachkräfte?\n• Welche Bedürfnisse und Rechte sollten bei der Entscheidung berücksichtigt werden?\n\nArbeiten Sie zu dritt (sechs Minuten). Formulieren Sie zu jedem Schritt einen kurzen Satz oder wenige Stichworte. Markieren Sie Vermutungen ausdrücklich als Vermutungen. Sie müssen keine eindeutige Ursache finden.\n1 Beobachten und beschreiben: Was ist tatsächlich zu sehen oder zu hören? Nennen Sie zwei Angaben ohne Zuschreibung einer Eigenschaft.\n2 Interpretieren: Welche Bedeutung könnte das Verhalten für Lina haben? Beginnen Sie mit „Möglicherweise …“.\n3 Erklären: Nennen Sie zwei unterschiedliche mögliche Ursachen oder Bedingungen. Welche offene Frage an Lina könnte helfen, diese zu prüfen?\n4 Vorhersagen: Wählen Sie eine mögliche Unterstützung. Was erwarten Sie unter welcher Annahme? Formulieren Sie einen Wenn-dann-Satz.\n5 Handeln und überprüfen: Was würden Sie jetzt wörtlich zu Lina sagen? Woran würden Sie anschließend prüfen, ob Ihre Unterstützung hilfreich war?",
+      "quelle": "Übungsblatt, Fall A; Lösung selbst erarbeitet mit S02 (fünf Aufgaben nach Stein 2017, S. 13) und den Folien 38–54 dieser Sitzung; Kinderrechte als Ergänzung",
+      "loesung": "**Bild vom Kind in den beiden Aussagen**\n- *Fachkraft* („Du hast schon wieder mal keine Lust … fällt die Bewegungszeit aus“): Lina ist unwillig und muss durch Strafe dazu gebracht werden → **Hobbes-Bild** (Wille muss gebrochen, Verhalten kontrolliert werden). Die Aussage fällt **vor der Gruppe** und schreibt Lina eine dauerhafte Eigenschaft zu („schon wieder mal“) – nach den Reckahner Reflexionen ist das **herabsetzend** (unzulässig, Nr. 9) statt wertschätzend (Nr. 1).\n- *Kollege* („Lina stört durch ihre mangelnde Motivation alle“): Das Problem liegt allein **in Lina**; sie wird als Störfaktor für die Gruppe gesehen – ebenfalls ein defizitorientiertes, eher hobbesianisches Bild. Beobachtung und Interpretation werden vermischt.\n- *Kollegin* („Wir wissen doch noch gar nicht, was hier gerade los ist“): offenes, fragendes Bild – Lina hat Gründe für ihr Verhalten, die man erst verstehen muss (Reckahner Reflexion 5: subjektiver Sinn).\n\n**Bedürfnisse und Rechte**\n- *Bedürfnisse* (Dimensionen der pädagogischen Anthropologie, Folien 51–54): **Körper** – Bewegung und Erholung nach Unterricht und Mittagessen (gerade die Bewegungszeit soll gestrichen werden!); **Kopf** – Lernen in passendem Schwierigkeitsgrad; **Emotion** – Erfolgserlebnisse, sich angenommen fühlen; **Sozietät** – Anerkennung und Zugehörigkeit zur Gruppe, nicht bloßgestellt werden; **Handlung** – etwas Autonomie (z. B. Reihenfolge der Aufgaben wählen).\n- *Rechte* *UN-Kinderrechtskonvention – Ergänzung, nicht aus den Unterlagen der Sitzung*: Recht auf **Ruhe, Freizeit und Spiel** (Art. 31 – Bewegungszeit nicht als Strafmittel entziehen) · Recht, **gehört zu werden** (Art. 12) · Schutz vor **Herabwürdigung** (Art. 16 Ehre; Art. 19 Schutz auch vor seelischer Gewalt) · Vorrang des **Kindeswohls** (Art. 3) · Recht auf **Bildung** und angemessene Förderung (Art. 28/29).\n\n**Die fünf Schritte**\n\n| Schritt | Lösung |\n| --- | --- |\n| 1 Beobachten und beschreiben | Lina steht in den ersten zehn Minuten **dreimal auf**. Sie **radiert mehrmals** an ihrer ersten Aufgabe und schaut auf das Blatt eines anderen Kindes. Dann schiebt sie das Blatt weg und sagt: „Mach ich nicht. Ist mir zu blöd.“ *(Nicht: „Sie hat keine Lust“ – das wäre schon eine Zuschreibung.)* |\n| 2 Interpretieren | *Vermutung:* **Möglicherweise** ist die erste Aufgabe für Lina zu schwer, sie ist unsicher und will verbergen, dass sie es nicht kann („zu blöd“ als Schutz vor dem Gefühl, selbst „zu blöd“ zu sein). *Alternative Vermutung:* Möglicherweise ist sie nach Unterricht und Mittagessen erschöpft und unruhig. |\n| 3 Erklären | *Mögliche Ursachen (Vermutungen):* (a) **Überforderung** – Lücken im Stoff oder eine Lese-/Rechenschwierigkeit; das Radieren und der Blick zum Nachbarn sprechen dafür. (b) **Bedingungen der Lernzeit** – nach einem langen Schultag ohne Bewegungspause fehlt die Konzentration; oder etwas belastet sie (Streit in der Pause, Sorgen zu Hause). *Offene Frage an Lina:* „Was ist bei dieser Aufgabe gerade schwierig für dich?“ bzw. „Wie geht es dir gerade?“ |\n| 4 Vorhersagen | **Wenn** die Aufgabe für Lina zu schwer ist **und** ich die erste Teilaufgabe gemeinsam mit ihr beginne (bzw. ihr eine Hilfekarte gebe), **dann** erwarte ich, dass sie weniger radiert, sitzen bleibt und mindestens die erste Aufgabe allein zu Ende bringt. *(Unter der Annahme „Erschöpfung“: Wenn sie vor der Lernzeit fünf Minuten Bewegung hat, dann kann sie sich besser konzentrieren.)* |\n| 5 Handeln und überprüfen | *Wörtlich, ruhig und unter vier Augen:* „Lina, ich sehe, dass du schon ein paarmal an der ersten Aufgabe radiert hast. Magst du mir zeigen, wo es hakt? Dann machen wir die erste zusammen.“ *Überprüfen:* Beginnt sie die Aufgabe? Wie lange arbeitet sie am Stück? Wie oft steht sie auf? Kurzes Nachgespräch mit Lina („Hat dir das geholfen?“); Beobachtung über mehrere Tage festhalten und im Team besprechen. |\n\n**Zur Strafe der Fachkraft:** Das Streichen der Bewegungszeit nimmt Lina genau das, was sie zur Erholung braucht, und beschämt sie vor der Gruppe – es behandelt das Symptom, nicht die Ursache.",
+      "loesungsweg": "Erst die Aussagen der Fachkräfte einem Menschenbild zuordnen und mit den Reckahner Reflexionen bewerten; Bedürfnisse über die sechs Dimensionen sammeln, Rechte über die Kinderrechte; dann die fünf Schritte: beschreiben ohne Eigenschaft → „Möglicherweise …“ → zwei Ursachen + offene Frage → Wenn-dann-Satz → wörtlicher Satz + Prüfkriterium.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a06",
+      "art": "Übungsaufgabe",
+      "folie": "Übungsblatt",
+      "text": "Fall Alex im Jugendtreff (anstelle von Fall A, nicht zusätzlich)\nAlex ist 14 Jahre alt und besucht einen offenen Jugendtreff. Beim wöchentlichen Kochangebot hat Alex an zwei Terminen Teller und Besteck stehen lassen und sich zu den anderen in die Sitzecke gesetzt. Heute sagt die Fachkraft: „Wir räumen gemeinsam auf.“ Alex antwortet: „Ich habe gekocht. Jetzt sind die anderen dran.“ Eine andere Person aus der Gruppe erwidert: „Wir haben aber letzte Woche deinen Teil mitgemacht.“\nIm Team sagt eine Fachkraft: „Alex nutzt uns aus. Wer nicht aufräumt, darf nächste Woche nicht mitkochen.“ Eine Kollegin fragt: „Haben wir eigentlich gemeinsam geklärt, was als faire Aufgabenverteilung gilt?“\n\n• Welche Vorstellung von Jugendlichen liegt der Aussage „Alex nutzt uns aus“ zugrunde?\n• Wie verbinden Sie Verantwortung für die Gruppe mit Beteiligung und Zugehörigkeit? Was würden Sie von Jugendlichen hier erwarten?\n\nArbeiten Sie zu dritt (sechs Minuten).\n1 Beobachten und beschreiben: Welche Handlungen und Aussagen sind berichtet? Was wissen Sie noch nicht über die bisherigen Absprachen?\n2 Interpretieren: Welche Bedeutung könnte Alex der eigenen Beteiligung beim Kochen geben? Formulieren Sie eine vorläufige Deutung.\n3 Erklären: Entwickeln Sie zwei mögliche Erklärungen für den Konflikt. Beziehen Sie die Organisation des Angebots ein. Was möchten Sie Alex und die Gruppe fragen?\n4 Vorhersagen: Welche Wirkung erwarten Sie von einer konkreten Änderung der Aufgabenverteilung? Unter welcher Bedingung könnte sie helfen?\n5 Handeln und überprüfen: Formulieren Sie einen ersten Gesprächssatz. Wie können Alex und die anderen Jugendlichen eine faire Vereinbarung prüfen und bei Bedarf ändern?",
+      "quelle": "Übungsblatt, Fall B; Lösung selbst erarbeitet mit S02 (fünf Aufgaben nach Stein) und den Folien 38–54 dieser Sitzung; Kinderrechte als Ergänzung",
+      "loesung": "**Vorstellung hinter „Alex nutzt uns aus“**\nJugendliche werden als **berechnend und egoistisch** gesehen – sie nutzen andere aus, wenn man sie lässt; also braucht es Sanktionen („darf nicht mitkochen“). Das entspricht dem **Hobbes-Bild** (homo homini lupus). Die Aussage macht aus zwei Beobachtungen eine feste Eigenschaft der Person und droht mit **Ausschluss** – die Reckahner Reflexionen nennen ausgrenzende Reaktionen auf Verhalten unzulässig (Nr. 9) und fordern, die dauerhafte Zugehörigkeit aller zu stärken (Nr. 4).\n\n**Verantwortung, Beteiligung und Zugehörigkeit verbinden**\n- Regeln, die die Jugendlichen **gemeinsam aushandeln**, werden eher als fair erlebt und eingehalten (Beteiligung; *UN-Kinderrechtskonvention – Ergänzung, nicht aus den Unterlagen der Sitzung*: Art. 12 Recht auf Gehör, Art. 15 Versammlungsfreiheit/Mitbestimmung).\n- Verantwortung für die Gruppe gehört dazu – aber **ohne den Ausschluss** aus dem Angebot als Druckmittel; Alex bleibt Teil der Gruppe.\n- *Erwartung an Jugendliche (14 J.):* dass sie sich an der Aushandlung beteiligen, die vereinbarten Aufgaben übernehmen, ihre Sicht offen sagen und die Sicht der anderen anhören. Mit 14 können sie Verantwortung für ihren Teil übernehmen und Fairness selbst mitgestalten.\n\n**Die fünf Schritte**\n\n| Schritt | Lösung |\n| --- | --- |\n| 1 Beobachten und beschreiben | Alex hat an **zwei Terminen** Teller und Besteck stehen lassen und sich in die Sitzecke gesetzt. Heute sagt Alex: „Ich habe gekocht. Jetzt sind die anderen dran.“ Eine andere Person sagt: „Wir haben aber letzte Woche deinen Teil mitgemacht.“ *Noch unbekannt:* Gibt es überhaupt eine **Absprache**, wer kocht und wer aufräumt? Wurde sie mit allen vereinbart? Hat Alex an den beiden Terminen ebenfalls gekocht? |\n| 2 Interpretieren | *Vorläufige Deutung:* Alex sieht **Kochen und Aufräumen als Arbeitsteilung**: Wer kocht, hat seinen Beitrag geleistet. Das Kochen bedeutet für Alex vielleicht Verantwortung und Anerkennung („ich habe etwas für alle gemacht“). |\n| 3 Erklären | (a) **Organisation:** Es gibt **keine geklärte Aufgabenverteilung** – jede*r hat eine eigene Vorstellung von Fairness („wer kocht, räumt nicht auf“ vs. „alle räumen gemeinsam auf“). (b) **Gruppendynamik:** Aufräumen gilt als lästig und uncool; in der Sitzecke ist die Gruppe zusammen – Alex will dazugehören und nicht als Einzige*r abwaschen. *Fragen:* an Alex: „Wie hast du die Aufteilung verstanden?“; an die Gruppe: „Was wäre für euch eine faire Verteilung von Kochen und Aufräumen?“ |\n| 4 Vorhersagen | **Wenn** die Gruppe einen **gemeinsam erstellten Dienstplan** einführt (wer kocht, wer deckt, wer räumt ab – im Wechsel), **dann** erwarte ich weniger Streit und dass Alex seinen Teil übernimmt – **unter der Bedingung**, dass alle (auch Alex) an der Aushandlung beteiligt sind und die Regel für alle gleich gilt. Wird der Plan nur von den Fachkräften vorgegeben, hilft er wahrscheinlich weniger. |\n| 5 Handeln und überprüfen | *Erster Gesprächssatz:* „Alex, du hast heute gekocht, danke dafür. Ich glaube, wir haben nie richtig geklärt, wer was übernimmt – lass uns das nachher alle zusammen festlegen.“ *Prüfen und ändern:* Die Vereinbarung wird aufgeschrieben und aufgehängt; nach drei bis vier Terminen gibt es eine kurze Runde („Klappt das? Ist es fair?“); wenn nötig, ändern die Jugendlichen den Plan gemeinsam. |",
+      "loesungsweg": "Die Teamaussage einem Menschenbild zuordnen und mit den Reckahner Reflexionen (Zugehörigkeit, kein Ausgrenzen) bewerten; dann die fünf Schritte – dabei ausdrücklich die Organisation des Angebots (fehlende Absprache) als mögliche Ursache prüfen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a07",
+      "art": "Übungsaufgabe",
+      "folie": "Übungsblatt",
+      "text": "Situation 1 – Das freiwillige Theaterangebot\nIm Ganztag wird eine freiwillige Theater-AG angeboten. Kim, zehn Jahre, möchte stattdessen in den ebenfalls betreuten offenen Spielbereich. Eine Fachkraft sagt: „Kim ist so schüchtern. Gerade deshalb wäre Theater wichtig.“\nWer entscheidet, ob Kim teilnimmt? Wann unterstützt pädagogische Ermutigung die Selbstbestimmung, und wann ersetzt sie diese?\n(1 = das Kind entscheidet · 2 = Kind und Erwachsene gemeinsam · 3 = die verantwortlichen Erwachsenen entscheiden und begründen.) Prüfen Sie: Welches Bild vom Kind wird sichtbar? Welche Interessen, Bedürfnisse und Rechte sind berührt?",
+      "quelle": "Übungsblatt, Situation 1; Lösung selbst erarbeitet",
+      "loesung": "**Wer entscheidet? → 1: Kim entscheidet.** Die AG ist **freiwillig**, und der offene Spielbereich ist ebenfalls betreut – es gibt keinen Grund für die Erwachsenen, über Kim hinweg zu entscheiden.\n\n**Bild vom Kind:** Die Fachkraft sieht Kim über eine **Eigenschaft** („so schüchtern“) als defizitär und als Objekt der Förderung, das sie „verbessern“ will – sie weiß besser als Kim, was gut für Kim ist. Dahinter steht eher ein **Locke-Bild** (das Kind wird durch Erziehung geformt). Das Gegenbild: Kim als Subjekt, das selbst weiß, was ihm*ihr jetzt guttut.\n\n**Interessen, Bedürfnisse, Rechte:** Kims Interesse am freien Spiel; Bedürfnis nach **Autonomie** (Dimension Handlung) und Erholung (Körper); möglicherweise auch nach Ruhe und Sicherheit. Rechte *UN-Kinderrechtskonvention – Ergänzung, nicht aus den Unterlagen der Sitzung*: Art. 12 (Meinung des Kindes berücksichtigen), Art. 31 (Freizeit und Spiel, freiwillige Teilnahme am kulturellen Leben). Interesse der Fachkraft: Kim fördern.\n\n**Ermutigung unterstützt Selbstbestimmung**, wenn sie ein **Angebot** bleibt: Kim erfährt, was in der AG passiert, darf zuschauen oder einmal schnuppern, kann jederzeit Nein sagen – und das Nein wird ohne Druck und ohne Enttäuschung akzeptiert. **Sie ersetzt Selbstbestimmung**, wenn Kim überredet, unter Druck gesetzt oder gegen den eigenen Willen eingeteilt wird („gerade deshalb“), wenn die Schüchternheit vor anderen thematisiert wird oder wenn das Nein nicht zählt.",
+      "loesungsweg": "Freiwilligkeit des Angebots und Kims Willen als Ausgangspunkt nehmen; das Bild vom Kind aus der Aussage „so schüchtern“ ableiten; Ermutigung (Angebot, Nein bleibt möglich) von Überredung (Druck, Nein zählt nicht) abgrenzen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a08",
+      "art": "Übungsaufgabe",
+      "folie": "Übungsblatt",
+      "text": "Situation 2 – Der Raum im Jugendtreff\nDie Jugendlichen eines Treffs haben 300 Euro für ihren Gemeinschaftsraum zur Verfügung. Einige möchten eine Musikanlage, andere einen ruhigen Bereich mit Sitzkissen. Das Geld reicht nur für eine der beiden Anschaffungen. Die Fachkräfte haben zugesagt, dass beide Optionen innerhalb des Budgets und der Sicherheitsregeln möglich sind.\nWer entscheidet über die Anschaffung? Wie würden Sie dafür sorgen, dass auch leise Stimmen und die unterlegene Gruppe berücksichtigt werden?\n(1 = die Jugendlichen entscheiden · 2 = Jugendliche und Erwachsene gemeinsam · 3 = die verantwortlichen Erwachsenen entscheiden und begründen.) Prüfen Sie: Welches Bild vom Kind wird sichtbar? Welche Interessen, Bedürfnisse und Rechte sind berührt?",
+      "quelle": "Übungsblatt, Situation 2; Lösung selbst erarbeitet",
+      "loesung": "**Wer entscheidet? → 1: Die Jugendlichen entscheiden.** Es ist ihr Raum und ihr Budget, und die Erwachsenen haben den Rahmen (Budget, Sicherheitsregeln) bereits geklärt – beide Optionen sind zulässig. Die Fachkräfte **moderieren** den Prozess, entscheiden aber nicht mit.\n\n**Bild vom Kind:** Jugendliche als **kompetente, verantwortliche Mitglieder** einer Gemeinschaft, die über ihre eigenen Angelegenheiten entscheiden können (positives Menschenbild; Beteiligung).\n\n**Interessen, Bedürfnisse, Rechte:** zwei legitime Interessen – Musik/Aktion und Ruhe/Rückzug (Bedürfnisse aus den Dimensionen Körper/Erholung, Emotion/Erlebnisse, Sozietät). Rechte *UN-Kinderrechtskonvention – Ergänzung, nicht aus den Unterlagen der Sitzung*: Art. 12 (Beteiligung), Art. 13 (Meinungsfreiheit), Art. 31 (Freizeit, Spiel, Erholung).\n\n**Leise Stimmen und die unterlegene Gruppe berücksichtigen:**\n- Vorher **beide Seiten ihre Gründe vorstellen** lassen; nicht nur die Lautesten reden lassen (Redeliste, Kleingruppen, Moderation).\n- **Geheime Abstimmung** (Zettel, Online-Umfrage), damit niemand unter Gruppendruck steht.\n- Nach Kompromissen suchen: z. B. kleinere Anlage mit Kopfhörern plus einige Sitzkissen, feste **Ruhezeiten** bzw. eine ruhige Ecke, Spenden oder ein Fest, um die zweite Anschaffung später zu finanzieren, **Reihenfolge** festlegen (dieses Jahr A, nächstes Jahr B).\n- Die unterlegene Gruppe bekommt etwas Verbindliches (z. B. Mitsprache bei den Musikzeiten).\n- Nach einigen Wochen gemeinsam prüfen, ob die Lösung für alle passt.",
+      "loesungsweg": "Prüfen, wer den Rahmen gesetzt hat (Erwachsene: Budget und Sicherheit) und wer innerhalb dieses Rahmens betroffen ist (Jugendliche) → die Jugendlichen entscheiden; dann Verfahren für faire Beteiligung (Gründe anhören, geheime Wahl, Kompromiss, Überprüfung) nennen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a09",
+      "art": "Übungsaufgabe",
+      "folie": "Übungsblatt",
+      "text": "Situation 3 – Die Abstimmung im Gruppenchat\nIn einer Ferienfreizeit wird im Gruppenchat über Emil, zwölf Jahre, abgestimmt: Darf Emil am nächsten Tag beim Gruppenspiel mitmachen? Die Mehrheit stimmt dagegen. Emil zeigt einer Betreuungsperson den Chat und sagt, dass er deshalb nicht mehr mitfahren möchte.\nDarf die Gruppe diese Frage per Mehrheit entscheiden? Was muss die Betreuungsperson unmittelbar tun, und worüber kann anschließend gemeinsam beraten werden?\n(1 = die Jugendlichen entscheiden · 2 = Jugendliche und Erwachsene gemeinsam · 3 = die verantwortlichen Erwachsenen entscheiden und begründen.) Prüfen Sie: Welches Bild vom Kind wird sichtbar? Welche Interessen, Bedürfnisse und Rechte sind berührt?",
+      "quelle": "Übungsblatt, Situation 3; Lösung selbst erarbeitet",
+      "loesung": "**Darf die Gruppe per Mehrheit entscheiden? → Nein. Hier gilt 3: Die verantwortlichen Erwachsenen entscheiden und begründen ihre Entscheidung.** Ob ein Kind dazugehören darf, ist **keine Frage für eine Mehrheitsabstimmung** – der Ausschluss einer einzelnen Person verletzt deren Rechte und Würde. Beteiligung findet ihre Grenze dort, wo Rechte anderer verletzt werden; die Erwachsenen haben die **Schutzpflicht**.\n\n**Bild vom Kind:** Die Gruppe behandelt Emil als jemanden, über den man verfügen kann – er wird zum Objekt einer Abstimmung. Emil selbst wird als **verletzlich** sichtbar: Der Ausschluss trifft ihn so sehr, dass er nicht mehr mitfahren will. (Auch die Gruppe ist nicht einfach „böse“ – möglicherweise steckt ein Konflikt dahinter, der geklärt werden muss.)\n\n**Interessen, Bedürfnisse, Rechte:** Emils Bedürfnis nach **Zugehörigkeit, Anerkennung und Sicherheit** (Dimensionen Sozietät, Emotion). Rechte *UN-Kinderrechtskonvention – Ergänzung, nicht aus den Unterlagen der Sitzung*: Art. 2 (Schutz vor Diskriminierung), Art. 16 (Schutz der Ehre), Art. 19 (Schutz vor seelischer Gewalt – Mobbing), Art. 31 (Teilhabe an Spiel und Freizeit). Interessen der Gruppe: vermutlich ein ungelöster Konflikt mit Emil.\n\n**Was die Betreuungsperson unmittelbar tun muss:**\n- Emil **ernst nehmen und schützen**: zuhören, ihm sagen, dass das nicht in Ordnung ist und er selbstverständlich mitspielen darf.\n- Die Abstimmung **für ungültig erklären** und klarstellen: Über die Teilnahme einzelner wird nicht abgestimmt – alle gehören dazu (Reckahner Reflexionen Nr. 4 und 10: Zugehörigkeit stärken, Verletzungen zwischen Kindern nicht ignorieren).\n- Den Chat sichern, das Team und die Leitung informieren, ggf. die Eltern.\n\n**Worüber anschließend gemeinsam beraten werden kann (2: gemeinsam):**\n- Was ist der eigentliche Konflikt mit Emil? (Gespräche mit Emil und den Beteiligten, ggf. Streitschlichtung)\n- **Regeln für den Gruppenchat** und für Abstimmungen: Worüber darf die Gruppe abstimmen (Spiele, Programm) – und worüber nicht (Ausschluss von Personen)?\n- Wie die Gruppe so gestaltet wird, dass sich alle zugehörig fühlen.",
+      "loesungsweg": "Unterscheiden: Worüber darf eine Gruppe abstimmen (Sachfragen) und worüber nicht (Rechte und Zugehörigkeit einzelner)? Zuerst Schutz (sofort handeln, Abstimmung aufheben), dann gemeinsame Aufarbeitung (Konflikt, Chatregeln).",
+      "frist": "",
+      "im_kalender": false
     }
   ],
   "fragen": [
@@ -1133,6 +1224,187 @@
       "erklaerung": "Lernzielkontrolle 3, Lösung C. Kette: Dimensionen → Bedürfnisse → Aufgaben der Pädagogik (Folie 51).",
       "folie": "LZK 3 · 1.000.000 € · F51",
       "pruefungsrelevant": true
+    },
+    {
+      "id": "u01",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Fall Lina: Welche Angaben sind reine **Beobachtungen** (Schritt 1) ohne Zuschreibung einer Eigenschaft?",
+      "optionen": [
+        "Lina steht in den ersten zehn Minuten dreimal auf.",
+        "Lina hat keine Lust.",
+        "Lina radiert mehrmals an ihrer ersten Aufgabe.",
+        "Lina stört durch ihre mangelnde Motivation alle.",
+        "Lina sagt: „Mach ich nicht. Ist mir zu blöd.“",
+        "Lina ist überfordert."
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "„Keine Lust“ und „mangelnde Motivation“ sind Zuschreibungen; „überfordert“ ist eine Interpretation bzw. Vermutung (Schritt 2/3).",
+      "folie": "Übungsblatt",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "u02",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Fall Lina: Ordne die Sätze den fünf Schritten zu.",
+      "kategorien": [
+        "Beobachten und beschreiben",
+        "Interpretieren",
+        "Erklären",
+        "Vorhersagen",
+        "Handeln und überprüfen"
+      ],
+      "elemente": [
+        {
+          "text": "Lina schiebt ihr Arbeitsblatt weg.",
+          "kategorie": "Beobachten und beschreiben"
+        },
+        {
+          "text": "Möglicherweise will Lina verbergen, dass sie die Aufgabe nicht versteht.",
+          "kategorie": "Interpretieren"
+        },
+        {
+          "text": "Ursache könnte eine Rechenschwierigkeit oder Erschöpfung nach dem langen Schultag sein.",
+          "kategorie": "Erklären"
+        },
+        {
+          "text": "Wenn wir die erste Teilaufgabe gemeinsam beginnen, dann arbeitet sie danach allein weiter.",
+          "kategorie": "Vorhersagen"
+        },
+        {
+          "text": "„Magst du mir zeigen, wo es hakt?“ – danach beobachten, ob sie die Aufgabe beginnt.",
+          "kategorie": "Handeln und überprüfen"
+        }
+      ],
+      "erklaerung": "Die fünf Aufgaben der Pädagogik nach Stein (S02) als Vorgehen im Einzelfall.",
+      "folie": "Übungsblatt",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "u03",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welches Menschenbild steckt am ehesten hinter den Aussagen der Fachkräfte?",
+      "kategorien": [
+        "Hobbes",
+        "Rousseau",
+        "Locke"
+      ],
+      "elemente": [
+        {
+          "text": "„Alex nutzt uns aus. Wer nicht aufräumt, darf nächste Woche nicht mitkochen.“",
+          "kategorie": "Hobbes"
+        },
+        {
+          "text": "„Wenn du jetzt nicht anfängst, fällt für dich heute die Bewegungszeit aus.“",
+          "kategorie": "Hobbes"
+        },
+        {
+          "text": "„Kinder wollen von sich aus lernen – wir müssen nur herausfinden, was Lina hindert.“",
+          "kategorie": "Rousseau"
+        },
+        {
+          "text": "„Lina hat durch viele Misserfolge gelernt, Aufgaben zu vermeiden – also braucht sie neue Erfahrungen.“",
+          "kategorie": "Locke"
+        }
+      ],
+      "erklaerung": "Hobbes: Kind muss durch Strafe/Kontrolle gebändigt werden. Rousseau: von Natur aus gut. Locke: durch Erfahrungen geprägt (tabula rasa). Selbst erarbeitete Zuordnung zum Übungsblatt.",
+      "folie": "Übungsblatt; Folien 38–41",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "u04",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Wer entscheidet? Ordne die Situationen des Übungsblatts der passenden Entscheidungsform zu.",
+      "kategorien": [
+        "Das Kind / die Jugendlichen entscheiden",
+        "Die verantwortlichen Erwachsenen entscheiden und begründen"
+      ],
+      "elemente": [
+        {
+          "text": "Kim (10) möchte statt der freiwilligen Theater-AG in den betreuten Spielbereich.",
+          "kategorie": "Das Kind / die Jugendlichen entscheiden"
+        },
+        {
+          "text": "Die Jugendlichen wählen mit ihrem Budget zwischen Musikanlage und Sitzkissen.",
+          "kategorie": "Das Kind / die Jugendlichen entscheiden"
+        },
+        {
+          "text": "Im Gruppenchat wird abgestimmt, ob Emil (12) beim Gruppenspiel mitmachen darf.",
+          "kategorie": "Die verantwortlichen Erwachsenen entscheiden und begründen"
+        }
+      ],
+      "erklaerung": "Freiwillige Angebote und eigene Angelegenheiten innerhalb eines geklärten Rahmens: Kinder/Jugendliche entscheiden. Ausschluss einer Person: keine Mehrheitsfrage – Schutzpflicht der Erwachsenen (selbst erarbeitete Lösung).",
+      "folie": "Übungsblatt",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "u05",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Nimm Stellung zum Impuls: „Wenn ein Kind wiederholt eine Aufgabe nicht beginnt, braucht es vor allem klarere Konsequenzen.“ Beziehe ein Menschenbild und die Reckahner Reflexionen ein.",
+      "musterloesung": "Die Aussage beruht eher auf einem Hobbes-Bild: Das Kind gilt als unwillig und muss durch Konsequenzen gebändigt werden. Sie übersieht, dass das Verhalten einen subjektiven Sinn haben kann (Reckahner Reflexion 5), z. B. Überforderung, Erschöpfung oder Sorgen. Konsequenzen allein ändern die Ursache nicht und können beschämen (unzulässig: herabsetzende Reaktionen, Nr. 9). Pädagogisch sinnvoller ist das Vorgehen in fünf Schritten: beobachten, vorsichtig deuten, Ursachen prüfen (z. B. das Kind fragen), eine Wenn-dann-Annahme bilden, handeln und überprüfen. Klare Absprachen können dazugehören, aber nicht „vor allem“.",
+      "bewertungspunkte": [
+        "Menschenbild benannt (Hobbes) und begründet",
+        "subjektiver Sinn / Ursachen statt nur Konsequenzen",
+        "Reckahner Reflexionen korrekt einbezogen",
+        "alternatives Vorgehen (fünf Schritte, Informationen einholen)"
+      ],
+      "punkte": 4,
+      "erklaerung": "Impuls des Übungsblatts; Lösung selbst erarbeitet (siehe Aufgabe a04).",
+      "folie": "Übungsblatt",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "u06",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Situation 1 (Kim und die Theater-AG): Wann **ersetzt** pädagogische Ermutigung die Selbstbestimmung, statt sie zu unterstützen?",
+      "optionen": [
+        "Kim wird so lange überredet, bis Kim nachgibt.",
+        "Kim darf einmal zuschauen und dann selbst entscheiden.",
+        "Kim wird gegen den eigenen Willen in die AG eingeteilt, „weil es gut für Kim ist“.",
+        "Die Fachkraft erzählt, was in der AG passiert, und akzeptiert ein Nein.",
+        "Kims Schüchternheit wird vor der Gruppe als Grund genannt."
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Ermutigung bleibt ein Angebot, solange ein Nein ohne Druck möglich ist; Überreden, Einteilen gegen den Willen und Bloßstellen ersetzen Kims Entscheidung (selbst erarbeitete Lösung).",
+      "folie": "Übungsblatt",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "u07",
+      "baustein": "transfer",
+      "format": "frage",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Situation 3: Was muss die Betreuungsperson unmittelbar tun, nachdem Emil den Chat zeigt?",
+      "antwort": "Emil zuhören, ihn ernst nehmen und schützen; klarstellen, dass er mitspielen darf und über den Ausschluss einzelner nicht abgestimmt wird (Abstimmung ungültig); den Chat sichern und Team/Leitung (ggf. Eltern) informieren. Erst danach gemeinsam beraten: den Konflikt klären und Regeln für Chat und Abstimmungen vereinbaren.",
+      "erklaerung": "Selbst erarbeitete Lösung zum Übungsblatt; Reckahner Reflexionen Nr. 4 (Zugehörigkeit stärken) und Nr. 10 (Verletzungen zwischen Kindern nicht ignorieren).",
+      "folie": "Übungsblatt",
+      "pruefungsrelevant": true
     }
   ],
   "pruefungshinweise": [
@@ -1140,7 +1412,8 @@
     "Die Kette Menschenbild → Gesellschaftsbild → Handlungsweise an Thomas von Aquin, Vives und Klumker mit Lebensdaten sicher können (Video).",
     "Hobbes, Rousseau und Locke samt Lebensdaten und Zuordnung zu typischen Lehrkraftaussagen sind der klausurrelevante Kern (Video).",
     "Die Tabelle „Dreigliedrigkeit der Menschenbilder“ muss nicht auswendig gelernt werden; wichtig ist Kopf – Herz – Hand bzw. kognitiv – affektiv – psychomotorisch (Video).",
-    "Die Kette Dimensionen → Bedürfnisse → Aufgaben der Pädagogik ist als Struktur klausurrelevant (Video)."
+    "Die Kette Dimensionen → Bedürfnisse → Aufgaben der Pädagogik ist als Struktur klausurrelevant (Video).",
+    "Übungsblatt: Einen Fall in den fünf Schritten nach Stein bearbeiten (Beobachtung ohne Zuschreibung, Vermutungen als Vermutungen kennzeichnen) und Aussagen von Fachkräften einem Menschenbild zuordnen."
   ],
   "offene_fragen": [
     "Übung Folie 42 (Hobbes/Rousseau/Locke in Lehrkraftaussagen): Die Dozentin gibt keine Auflösung – die Zuordnung ist selbst erarbeitet; ggf. in der Fragestunde am 03.11. oder im Tutorium nachfragen (besonders Aussage D).",
@@ -1153,6 +1426,9 @@
     "Literaturangabe Klein 2020: auf den Folien „S. 568-575“, der Artikel im Ordner endet auf S. 574; der Dateiname lautet „…danach_handeln“, der Titel „… mit ihm handeln“.",
     "LZK 3: „Philipp Ariès“ statt Philippe; „Der Trias“ statt „Die Trias“; „geschossener Raum“ statt „geschlossener“; „im Sinnen Piagets“; die 500-€-Frage ist als Frage mit Fragezeichen formuliert, obwohl sie eine Aussage ist.",
     "LZK 3 fragt Inhalte ab, die nicht auf den Folien stehen: Locke-Zitat (2000 €), tabula rasa als Vorläufer der Konditionierung (8000 €), Montessori (16.000 € als Distraktor, 500.000 €).",
-    "Transkript: Unsicherheit „Zwiebelgesellschaft“ (ca. 19:34) ist durch Folie 16 geklärt – die Grafik der Ständegesellschaft hat Zwiebelform."
+    "Transkript: Unsicherheit „Zwiebelgesellschaft“ (ca. 19:34) ist durch Folie 16 geklärt – die Grafik der Ständegesellschaft hat Zwiebelform.",
+    "Übungsblatt (docx im Stud.IP-Ordner Sitzung 3): ohne Datum und ohne Angabe, in welcher Präsenz es bearbeitet wird; es verbindet S02 (fünf Aufgaben) und S03 (Menschenbilder) und passt damit zur Fragestunde „Einführung in die Erziehungswissenschaft und Menschenbilder“ am 03.11. – Zuordnung zu S03 nach dem Ablageordner.",
+    "Übungsblatt: Fall B ist „anstelle von Fall A, nicht zusätzlich“ zu bearbeiten und verweist auf ein „reguläres Arbeitsblatt“ – gemeint ist offenbar Fall A (Lina). Beide Fälle sind hier ausgearbeitet.",
+    "Übungsblatt: Die Kinderrechte (UN-Kinderrechtskonvention) werden gefragt („Rechte“), stehen aber nicht auf den Folien der Sitzung 3; die Artikelangaben in den Lösungen sind eine Ergänzung."
   ]
 }

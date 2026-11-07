@@ -1,0 +1,868 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Kalender</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#f7f7f4}
+a{color:#1f2328}a:hover{color:#000}
+@media (max-width: 900px) {
+  .listen { grid-template-columns: 1fr !important; }
+}
+
+.nur-klein { display: none !important; }
+@media (max-width: 700px) {
+  .nur-gross { display: none !important; }
+  .nur-klein { display: inline-flex !important; }
+  .seitenleiste { display: none !important; }
+  .inhalt { padding: 16px 16px 100px !important; gap: 14px !important; }
+  .untennav { display: grid !important; }
+  .inhalt h1 { font-size: 22px !important; }
+  .kopf { align-items: flex-start !important; }
+  .kopf > div:last-child { flex-wrap: nowrap !important; gap: 4px !important; }
+  .woche-gross { display: none !important; }
+  .woche-klein { display: flex !important; }
+  .kopf button { min-height: 36px !important; font-size: 13px !important; }
+  .kopf button[aria-label] { width: 36px !important; height: 36px !important; }
+  .kopf .neu-knopf { padding: 0 10px !important; white-space: nowrap; }
+  .zeilen { grid-template-columns: 1fr !important; gap: 4px !important; }
+  .zeilen > div { margin-bottom: 8px; }
+  .listen section { padding: 12px !important; }
+}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #f7f7f4; color: #1f2328; font-family: Nunito, system-ui, sans-serif; display: flex; flex-wrap: wrap; align-items: flex-start">
+
+  <nav class="seitenleiste" aria-label="Hauptnavigation" style="flex: 1 1 200px; max-width: 240px; box-sizing: border-box; padding: 28px 16px; display: flex; flex-direction: column; gap: 4px">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0 12px 24px">
+      <div style="width: 32px; height: 32px; border-radius: 10px; background: #ffffff; border: 1px solid #e6e6e0; box-sizing: border-box; display: flex; align-items: center; justify-content: center">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1f2328" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 7l10-4 10 4-10 4z"></path><path d="M6 9v5c0 1.7 2.7 3 6 3s6-1.3 6-3V9"></path></svg>
+      </div>
+      <div>
+        <div style="font-weight: 800; font-size: 17px">Lernapp</div>
+        <div style="font-size: 12px; color: #6b6f76">WiSe 26/27</div>
+        <div style="font-size: 12px; color: #6b6f76">3. Fachsemester</div>
+      </div>
+    </div>
+    <a href="Main.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: #4b5563; font-weight: 600; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="2"></rect><rect x="14" y="3" width="7" height="5" rx="2"></rect><rect x="14" y="12" width="7" height="9" rx="2"></rect><rect x="3" y="16" width="7" height="5" rx="2"></rect></svg>
+      Dashboard
+    </a>
+    <a href="Kalender.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 1px 2px rgba(0,0,0,0.06); font-weight: 700; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>
+      Kalender
+    </a>
+    <a href="Module.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: #4b5563; font-weight: 600; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 5a2 2 0 012-2h13v16H6a2 2 0 00-2 2z"></path><path d="M4 19V5"></path></svg>
+      Module
+    </a>
+    <a href="Pruefungen.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: #4b5563; font-weight: 600; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z"></path><path d="M14 3v6h6M9 15l2 2 4-4"></path></svg>
+      Prüfungen
+    </a>
+    <a href="Karten.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: #4b5563; font-weight: 600; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="6" width="14" height="14" rx="2"></rect><path d="M7 3h12a2 2 0 012 2v12"></path></svg>
+      Eigene Karten
+    </a>
+  </nav>
+
+
+  <main class="inhalt" style="flex: 999 1 560px; min-width: 0; box-sizing: border-box; padding: 28px 32px 48px; display: flex; flex-direction: column; gap: 18px; max-width: 1180px">
+
+    <header class="kopf" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px">
+      <div>
+        <h1 style="margin: 0; font-size: 30px; font-weight: 800">{{wocheTitel}}</h1>
+        <div style="font-size: 14px; color: #6b6f76; font-weight: 600; margin-top: 2px">{{wocheDatum}}</div>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center">
+        <button type="button" onClick="{{zurueck}}" aria-label="Vorige Woche" style="width: 40px; height: 40px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 18px; color: #1f2328; cursor: pointer">‹</button>
+        <button type="button" onClick="{{heute}}" style="min-height: 40px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 14px; font-weight: 700; color: #1f2328; cursor: pointer">Heute</button>
+        <button type="button" onClick="{{weiter}}" aria-label="Nächste Woche" style="width: 40px; height: 40px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 18px; color: #1f2328; cursor: pointer">›</button>
+        <button type="button" onClick="{{neuerEintrag}}" class="neu-knopf" style="min-height: 40px; padding: 0 16px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 14px; font-weight: 800; color: #1f2328; cursor: pointer">+ Eintrag</button>
+      </div>
+    </header>
+
+    <section class="zeilen" style="display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 14px 16px; align-items: center; padding: 12px 16px; background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px">
+      <span style="display: flex; flex-direction: column; gap: 2px; align-self: start; padding-top: 22px"><span style="font-size: 12px; font-weight: 800; letter-spacing: 0.06em; color: #6b6f76">KLAUSUREN</span><span style="font-size: 12px; color: #6b6f76; white-space: nowrap">{{klausurHinweis}}</span></span>
+      <div style="display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: flex-start">
+        <sc-for list="{{klausurTage}}" as="t" hint-placeholder-count="5">
+          <span style="display: inline-flex; align-items: flex-start; gap: 8px">
+            <span style="display: inline-flex; flex-direction: column; gap: 3px; align-items: center">
+              <span style="font-size: 11px; font-weight: 800; color: #6b6f76">{{t.datum}}</span>
+              <sc-for list="{{t.eintraege}}" as="k" hint-placeholder-count="1">
+                <button type="button" onClick="{{k.oeffne}}" title="{{k.titel}}" style="display: inline-flex; align-items: center; gap: 6px; border: 0; border-radius: 999px; padding: 4px 11px; font-family: inherit; font-size: 13px; background: {{k.bg}}; color: #1f2328; cursor: pointer"><b style="color: {{k.fg}}">{{k.modul}}</b>{{k.zusatz}}</button>
+              </sc-for>
+            </span>
+            <span style="display: inline-flex; flex-direction: column; gap: 3px; align-items: flex-start"><span aria-hidden="true" style="font-size: 11px; font-weight: 800; visibility: hidden">00.00.</span><span style="display: inline-flex; align-items: center; padding: 4px 0; font-size: 13px; line-height: normal"><span style="color: #b8bcc2; font-weight: 800">→</span></span></span>
+          </span>
+        </sc-for>
+        <span style="display: inline-flex; flex-direction: column; gap: 3px"><span aria-hidden="true" style="font-size: 11px; font-weight: 800; visibility: hidden">00.00.</span><span style="display: inline-flex; align-items: center; padding: 4px 11px; border-radius: 999px; font-size: 13px; font-weight: 800; background: #ffffff; border: 1.5px solid #5aa36f; box-sizing: border-box; color: #2f7a4b">geschafft :-)</span></span>
+      </div>
+      <span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 12px; font-weight: 800; letter-spacing: 0.06em; color: #6b6f76">HAUSAUFGABEN</span><span style="font-size: 12px; color: #6b6f76">nächste 7 Tage</span></span>
+      <div style="display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center">
+        <sc-for list="{{hausaufgaben}}" as="h" hint-placeholder-count="2">
+          <button type="button" onClick="{{h.oeffne}}" title="{{h.titel}}" style="display: inline-flex; align-items: center; gap: 6px; border: 0; border-radius: 999px; padding: 4px 11px; font-family: inherit; font-size: 13px; background: {{h.bg}}; color: #1f2328; cursor: pointer"><span style="color: {{h.datumFarbe}}; font-weight: {{h.datumGewicht}}">{{h.datum}}</span> <b style="color: {{h.fg}}">{{h.modul}}</b> <span style="max-width: 24ch; overflow: hidden; text-overflow: ellipsis; white-space: nowrap">{{h.kurz}}</span></button>
+        </sc-for>
+        <sc-if value="{{keineHa}}" hint-placeholder-val="{{false}}"><span style="font-size: 13px; color: #6b6f76">{{keineHaText}}</span></sc-if>
+        <sc-if value="{{haMehr}}" hint-placeholder-val="{{false}}"><button type="button" onClick="{{haMehrUm}}" style="border: 1px dashed #d8d8d0; border-radius: 999px; padding: 4px 11px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #6b6f76; cursor: pointer">{{haMehrText}}</button></sc-if>
+        <sc-if value="{{haWeniger}}" hint-placeholder-val="{{false}}"><button type="button" onClick="{{haMehrUm}}" style="border: 0; background: none; padding: 4px 6px; font-family: inherit; font-size: 13px; font-weight: 700; color: #6b6f76; text-decoration: underline; cursor: pointer">nur nächste 7 Tage</button></sc-if>
+      </div>
+    </section>
+
+    <section class="woche-klein" style="display: none; flex-direction: column; gap: 10px">
+      <div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 3px">
+        <sc-for list="{{tagWahl}}" as="w" hint-placeholder-count="7">
+          <button type="button" onClick="{{w.waehle}}" style="display: flex; flex-direction: column; align-items: center; gap: 1px; padding: 6px 0; border-radius: 12px; font-family: inherit; cursor: pointer; background: {{w.bg}}; border: {{w.rand}}; color: #1f2328">
+            <span style="font-size: 11px; font-weight: 800; letter-spacing: 0.05em; color: {{w.tagFarbe}}">{{w.tag}}</span>
+            <span style="font-size: 16px; font-weight: 800">{{w.zahl}}</span>
+            <span style="width: 5px; height: 5px; border-radius: 50%; background: {{w.punkt}}"></span>
+          </button>
+        </sc-for>
+      </div>
+      <div onTouchStart="{{wischStart}}" onTouchEnd="{{wischEnde}}" style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 14px; overflow: hidden">
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 12px; border-bottom: 1px solid #e6e6e0">
+          <button type="button" onClick="{{tagZurueck}}" aria-label="Voriger Tag" style="width: 32px; height: 32px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 16px; color: #1f2328; cursor: pointer">‹</button>
+          <span style="font-size: 15px; font-weight: 800">{{tagName}}</span>
+          <button type="button" onClick="{{tagWeiter}}" aria-label="Nächster Tag" style="width: 32px; height: 32px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 16px; color: #1f2328; cursor: pointer">›</button>
+        </div>
+        <sc-if value="{{tagHatChips}}" hint-placeholder-val="{{false}}">
+          <div style="padding: 8px 12px; border-bottom: 1px solid #e6e6e0; display: flex; flex-direction: column; gap: 4px">
+            <sc-for list="{{tagStreifen.chips}}" as="c" hint-placeholder-count="1">
+              <button type="button" onClick="{{c.oeffne}}" title="{{c.titel}}" style="border: 0; border-radius: 6px; padding: 5px 8px; font-family: inherit; font-size: 13px; text-align: left; line-height: 1.25; width: 100%; cursor: pointer; background: {{c.bg}}; color: {{c.fg}}; font-weight: {{c.gewicht}}; text-decoration: {{c.deko}}; opacity: {{c.opazitaet}}">{{c.text}}</button>
+            </sc-for>
+          </div>
+        </sc-if>
+        <div style="display: grid; grid-template-columns: 44px minmax(0, 1fr); padding-top: 10px">
+          <div>
+            <sc-for list="{{stunden}}" as="s" hint-placeholder-count="12">
+              <div style="height: 60px; font-size: 11px; color: #6b6f76; text-align: right; padding-right: 6px; transform: translateY(-0.65em); visibility: {{s.sicht}}">{{s.text}}</div>
+            </sc-for>
+          </div>
+          <div style="position: relative; height: 960px; border-left: 1px solid #f0f0eb; background-image: linear-gradient(#f0f0eb 1px, transparent 1px); background-size: 100% 60px">
+            <sc-for list="{{tagSpalte.termine}}" as="ev" hint-placeholder-count="2">
+              <button type="button" onClick="{{ev.oeffne}}" title="{{ev.titel}}" style="position: absolute; top: {{ev.top}}; height: {{ev.hoehe}}; left: {{ev.links}}; width: {{ev.breite}}; box-sizing: border-box; border: 0; border-radius: 8px; padding: 6px 8px; text-align: left; overflow: hidden; display: flex; flex-direction: column; gap: 2px; font-family: inherit; font-size: 13px; line-height: 1.25; cursor: pointer; color: #1f2328; background: {{ev.bg}}; box-shadow: inset 3px 0 0 {{ev.rand}}; opacity: {{ev.opazitaet}}">
+                <span style="display: flex; align-items: center; gap: 5px; white-space: nowrap; font-size: 11px; font-weight: 800; color: {{ev.fg}}">{{ev.modul}}
+                  <sc-if value="{{ev.punkt}}" hint-placeholder-val="{{false}}"><span title="noch nachholen" style="width: 7px; height: 7px; border-radius: 50%; background: {{ev.punktFarbe}}; flex: none"></span></sc-if>
+                  <sc-if value="{{ev.haken}}" hint-placeholder-val="{{false}}"><span title="erledigt" style="font-size: 12px; line-height: 1">✓</span></sc-if>
+                  <sc-if value="{{ev.frage}}" hint-placeholder-val="{{false}}"><span title="Anwesenheit noch nicht angegeben" style="display: inline-grid; place-items: center; width: 15px; height: 15px; border-radius: 50%; background: #ffffff; color: #6b6f76; font-size: 10px; font-weight: 800; box-shadow: 0 0 0 1px #e6e6e0">?</span></sc-if>
+                </span>
+                <span style="text-decoration: {{ev.deko}}; font-weight: 800; overflow: hidden; text-overflow: ellipsis; white-space: nowrap">{{ev.kurz}}</span>
+                <span style="color: #6b6f76; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{ev.metaLang}}</span>
+              </button>
+            </sc-for>
+            <sc-if value="{{tagSpalte.jetzt}}" hint-placeholder-val="{{false}}">
+              <div style="position: absolute; left: 0; right: 0; top: {{tagSpalte.jetztTop}}; height: 2px; background: #e5484d; z-index: 3"></div>
+            </sc-if>
+            <sc-if value="{{tagFrei}}" hint-placeholder-val="{{false}}">
+              <div style="position: absolute; top: 40px; left: 0; right: 0; text-align: center; font-size: 14px; color: #6b6f76">Keine Veranstaltungen an diesem Tag.</div>
+            </sc-if>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 10px">
+      <div class="woche-gross" style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 14px; overflow-x: auto">
+        <div style="min-width: 900px; display: grid; grid-template-columns: 52px repeat(5, minmax(0, 1fr)) repeat(2, minmax(0, 0.8fr))">
+          <div></div>
+          <sc-for list="{{koepfe}}" as="d" hint-placeholder-count="7">
+            <div style="padding: 10px 10px 8px; border-left: 1px solid #f0f0eb; display: flex; align-items: baseline; gap: 6px; background: {{d.bg}}">
+              <span style="font-size: 13px; color: #6b6f76; font-weight: 800; letter-spacing: 0.05em">{{d.tag}}</span>
+              <span style="font-size: 13px; font-weight: 800; padding: 0 8px; border-radius: 999px; background: {{d.zahlBg}}; color: {{d.zahlFg}}">{{d.zahl}}</span>
+            </div>
+          </sc-for>
+          <div style="border-bottom: 1px solid #e6e6e0"></div>
+          <sc-for list="{{streifen}}" as="st" hint-placeholder-count="7">
+            <div style="border-left: 1px solid #f0f0eb; border-bottom: 1px solid #e6e6e0; padding: 0 6px 8px; display: flex; flex-direction: column; gap: 3px; min-height: 12px; background: {{st.bg}}">
+              <sc-for list="{{st.chips}}" as="c" hint-placeholder-count="1">
+                <button type="button" onClick="{{c.oeffne}}" title="{{c.titel}}" style="border: 0; border-radius: 6px; padding: 3px 7px; font-family: inherit; font-size: 12px; text-align: left; line-height: 1.25; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; cursor: pointer; background: {{c.bg}}; color: {{c.fg}}; font-weight: {{c.gewicht}}; text-decoration: {{c.deko}}; opacity: {{c.opazitaet}}">{{c.text}}</button>
+              </sc-for>
+            </div>
+          </sc-for>
+          <div>
+            <sc-for list="{{stunden}}" as="s" hint-placeholder-count="12">
+              <div style="height: 60px; font-size: 11px; color: #6b6f76; text-align: right; padding-right: 8px; transform: translateY(-0.65em); visibility: {{s.sicht}}">{{s.text}}</div>
+            </sc-for>
+          </div>
+          <sc-for list="{{spalten}}" as="col" hint-placeholder-count="7">
+            <div style="position: relative; height: 960px; border-left: 1px solid #f0f0eb; background-color: {{col.bg}}; background-image: linear-gradient(#f0f0eb 1px, transparent 1px); background-size: 100% 60px">
+              <sc-for list="{{col.termine}}" as="ev" hint-placeholder-count="2">
+                <button type="button" onClick="{{ev.oeffne}}" title="{{ev.titel}}" style="position: absolute; top: {{ev.top}}; height: {{ev.hoehe}}; left: {{ev.links}}; width: {{ev.breite}}; box-sizing: border-box; border: 0; border-radius: 8px; padding: 6px 8px; text-align: left; overflow: hidden; display: flex; flex-direction: column; gap: 2px; font-family: inherit; font-size: 12px; line-height: 1.25; cursor: pointer; color: #1f2328; background: {{ev.bg}}; box-shadow: inset 3px 0 0 {{ev.rand}}; opacity: {{ev.opazitaet}}">
+                  <span style="display: flex; align-items: center; gap: 5px; white-space: nowrap; font-size: 11px; font-weight: 800; color: {{ev.fg}}">{{ev.modul}}
+                    <sc-if value="{{ev.punkt}}" hint-placeholder-val="{{false}}"><span title="noch nachholen" style="width: 7px; height: 7px; border-radius: 50%; background: {{ev.punktFarbe}}; flex: none"></span></sc-if>
+                    <sc-if value="{{ev.haken}}" hint-placeholder-val="{{false}}"><span title="erledigt" style="font-size: 12px; line-height: 1">✓</span></sc-if>
+                    <sc-if value="{{ev.frage}}" hint-placeholder-val="{{false}}"><span title="Anwesenheit noch nicht angegeben" style="display: inline-grid; place-items: center; width: 15px; height: 15px; border-radius: 50%; background: #ffffff; color: #6b6f76; font-size: 10px; font-weight: 800; box-shadow: 0 0 0 1px #e6e6e0">?</span></sc-if>
+                  </span>
+                  <span style="text-decoration: {{ev.deko}}; font-weight: 800; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word">{{ev.kurz}}</span>
+                  <span style="color: #6b6f76; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{ev.meta}}</span>
+                </button>
+              </sc-for>
+              <sc-if value="{{col.jetzt}}" hint-placeholder-val="{{false}}">
+                <div style="position: absolute; left: 0; right: 0; top: {{col.jetztTop}}; height: 2px; background: #e5484d; z-index: 3"></div>
+              </sc-if>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; color: #6b6f76">
+        <sc-for list="{{legende}}" as="l" hint-placeholder-count="6">
+          <span style="display: inline-flex; align-items: center; gap: 6px"><i style="width: 14px; height: 14px; border-radius: 3px; display: inline-block; background: {{l.bg}}; box-shadow: inset 0 0 0 1.5px {{l.rand}}"></i><b style="color: #1f2328">{{l.modul}}</b> {{l.name}}</span>
+        </sc-for>
+        <span style="display: inline-flex; align-items: center; gap: 6px"><i style="width: 14px; height: 14px; border-radius: 3px; display: inline-block; background: repeating-linear-gradient(135deg, #eef1f5 0 6px, #e3e8ef 6px 12px); box-shadow: inset 0 0 0 1.5px rgba(61,74,92,0.45)"></i><b style="color: #1f2328">Privat</b></span>
+        <span style="display: inline-flex; align-items: center; gap: 6px"><i style="width: 14px; height: 14px; border-radius: 3px; display: inline-block; background: #fff0e5; box-shadow: inset 0 0 0 1.5px rgba(179,92,30,0.4)"></i><b style="color: #1f2328">Feiertag</b></span>
+        <span style="display: inline-flex; align-items: center; gap: 6px"><i style="width: 14px; height: 14px; border-radius: 3px; display: inline-block; background: #f3efe6; box-shadow: inset 0 0 0 1.5px rgba(122,106,79,0.4)"></i><b style="color: #1f2328">Ferien</b></span>
+        <span style="display: inline-flex; align-items: center; gap: 6px"><i style="width: 14px; height: 14px; border-radius: 3px; display: inline-block; background: #e8ecef; box-shadow: inset 0 0 0 1.5px rgba(63,81,96,0.4)"></i><b style="color: #1f2328">Uni-Termin</b></span>
+        <span style="display: inline-flex; align-items: center; gap: 6px"><i style="width: 14px; height: 14px; border-radius: 3px; display: inline-block; background: #e3f2e8; box-shadow: inset 0 0 0 1.5px rgba(47,122,75,0.4)"></i><b style="color: #1f2328">Praktikum</b></span>
+        <span style="display: inline-flex; align-items: center; gap: 6px"><i style="width: 10px; height: 10px; border-radius: 50%; display: inline-block; background: #e07a88"></i>noch nachholen</span>
+        <span style="display: inline-flex; align-items: center; gap: 6px"><i style="width: 14px; height: 14px; border-radius: 50%; display: inline-grid; place-items: center; background: #ffffff; box-shadow: 0 0 0 1px #e6e6e0; font-style: normal; font-size: 10px; font-weight: 800">?</i>Anwesenheit noch nicht angegeben</span>
+      </div>
+    </section>
+
+    <div class="listen" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; align-items: start">
+      <section style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0">
+        <button type="button" onClick="{{nhKarteUm}}" style="display: flex; justify-content: space-between; align-items: baseline; gap: 8px; border: 0; background: transparent; padding: 0; font-family: inherit; color: #1f2328; cursor: pointer; text-align: left">
+          <h2 style="margin: 0; font-size: 17px; font-weight: 800"><span style="display: inline-block; width: 1.1em; color: #6b6f76">{{nhKartePfeil}}</span>Nachholen</h2>
+          <span style="font-size: 13px; color: #6b6f76">{{nhZaehler}}</span>
+        </button>
+        <sc-if value="{{nhKarteOffen}}" hint-placeholder-val="{{true}}">
+        <div style="display: flex; flex-direction: column; gap: 10px">
+        <div style="height: 6px; border-radius: 3px; background: #f0f0eb; overflow: hidden"><div style="height: 100%; border-radius: 3px; background: #2f7a4b; width: {{nhBreite}}"></div></div>
+        <sc-for list="{{nhGruppen}}" as="g" hint-placeholder-count="6">
+          <div style="display: flex; flex-direction: column">
+            <button type="button" onClick="{{g.umschalten}}" style="display: flex; justify-content: space-between; align-items: center; min-height: 34px; padding: 0 4px; border: 0; background: transparent; font-family: inherit; font-size: 12px; font-weight: 800; letter-spacing: 0.06em; color: #6b6f76; cursor: pointer">
+              <span><span style="display: inline-block; width: 1em">{{g.pfeil}}</span><span style="color: {{g.fg}}">{{g.modul}}</span></span><span>{{g.zahl}}</span>
+            </button>
+            <sc-if value="{{g.offen}}" hint-placeholder-val="{{true}}">
+              <div style="display: flex; flex-direction: column">
+                <sc-for list="{{g.liste}}" as="x" hint-placeholder-count="3">
+                  <label style="display: flex; gap: 10px; align-items: flex-start; padding: 5px 4px; border-radius: 8px; cursor: pointer">
+                    <input type="checkbox" checked="{{x.erledigt}}" onChange="{{x.umschalten}}" aria-label="nachgearbeitet" style="width: 18px; height: 18px; margin: 2px 0 0; accent-color: #4f8f80; flex: none">
+                    <span style="min-width: 0; display: flex; flex-direction: column; gap: 1px; font-size: 14px; text-decoration: {{x.deko}}; color: {{x.farbe}}">
+                      <span><span style="display: inline-block; min-width: 4.8em; color: #6b6f76">{{x.datum}}</span>{{x.text}}</span>
+                      <small style="color: #6b6f76; font-size: 12px">{{x.thema}}</small>
+                    </span>
+                  </label>
+                </sc-for>
+              </div>
+            </sc-if>
+          </div>
+        </sc-for>
+        <sc-if value="{{nhAlles}}" hint-placeholder-val="{{false}}"><div style="font-size: 14px; color: #6b6f76; padding: 6px 4px">Alles nachgeholt.</div></sc-if>
+        <sc-if value="{{nhHatErl}}" hint-placeholder-val="{{false}}">
+          <button type="button" onClick="{{nhErlUmschalten}}" style="align-self: flex-start; border: 0; background: none; padding: 4px; font-family: inherit; font-size: 13px; color: #6b6f76; text-decoration: underline; text-underline-offset: 3px; cursor: pointer">{{nhErlText}}</button>
+        </sc-if>
+        </div>
+        </sc-if>
+      </section>
+
+      <section style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0">
+        <button type="button" onClick="{{afKarteUm}}" style="display: flex; justify-content: space-between; align-items: baseline; gap: 8px; border: 0; background: transparent; padding: 0; font-family: inherit; color: #1f2328; cursor: pointer; text-align: left">
+          <h2 style="margin: 0; font-size: 17px; font-weight: 800"><span style="display: inline-block; width: 1.1em; color: #6b6f76">{{afKartePfeil}}</span>Aufgaben &amp; Fristen</h2>
+          <span style="font-size: 13px; color: #6b6f76">{{aufgabenZaehler}}</span>
+        </button>
+        <sc-if value="{{afKarteOffen}}" hint-placeholder-val="{{true}}">
+        <div style="display: flex; flex-direction: column; gap: 10px">
+        <sc-for list="{{gruppen}}" as="g" hint-placeholder-count="3">
+          <div style="display: flex; flex-direction: column">
+            <button type="button" onClick="{{g.umschalten}}" style="display: flex; justify-content: space-between; align-items: center; min-height: 34px; padding: 0 4px; border: 0; background: transparent; font-family: inherit; font-size: 12px; font-weight: 800; letter-spacing: 0.06em; color: {{g.farbe}}; cursor: pointer">
+              <span><span style="display: inline-block; width: 1em">{{g.pfeil}}</span>{{g.name}}</span><span style="color: #6b6f76">{{g.zahl}}</span>
+            </button>
+            <sc-if value="{{g.offen}}" hint-placeholder-val="{{true}}">
+              <div style="display: flex; flex-direction: column">
+                <sc-for list="{{g.liste}}" as="a" hint-placeholder-count="3">
+                  <div style="display: flex; gap: 10px; align-items: flex-start; padding: 6px 4px; border-radius: 8px">
+                    <input type="checkbox" checked="{{a.erledigt}}" onChange="{{a.umschalten}}" aria-label="erledigt" style="width: 18px; height: 18px; margin: 2px 0 0; accent-color: #4f8f80; flex: none">
+                    <span style="min-width: 0; flex: 1; display: flex; flex-direction: column; gap: 2px">
+                      <button type="button" onClick="{{a.oeffne}}" style="border: 0; background: none; padding: 0; text-align: left; font-family: inherit; font-size: 14px; font-weight: 800; color: {{a.farbe}}; text-decoration: {{a.deko}}; cursor: pointer">{{a.titel}}</button>
+                      <span style="font-size: 12px; color: #6b6f76"><span style="display: inline-block; font-size: 11px; font-weight: 800; padding: 1px 6px; border-radius: 4px; margin-right: 4px; background: {{a.tagBg}}; color: {{a.tagFg}}">{{a.tag}}</span>{{a.info}}</span>
+                    </span>
+                  </div>
+                </sc-for>
+              </div>
+            </sc-if>
+          </div>
+        </sc-for>
+        <button type="button" onClick="{{erlUmschalten}}" style="align-self: flex-start; border: 0; background: none; padding: 4px; font-family: inherit; font-size: 13px; color: #6b6f76; text-decoration: underline; text-underline-offset: 3px; cursor: pointer">{{erlText}}</button>
+        </div>
+        </sc-if>
+      </section>
+    </div>
+    <div style="font-size: 12px; color: #6b6f76">Termine aus Stud.IP, Stand 23.10.2026. Häkchen und eigene Einträge werden in der App gespeichert.</div>
+  </main>
+
+
+  <sc-if value="{{sOffen}}" hint-placeholder-val="{{false}}">
+    <div style="position: fixed; inset: 0; background: rgba(31, 35, 40, 0.35); display: flex; align-items: center; justify-content: center; padding: 12px; z-index: 20">
+      <div role="dialog" aria-label="Sitzung" style="width: 100%; max-width: 460px; max-height: calc(100vh - 24px); overflow-y: auto; background: #ffffff; border-radius: 16px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.18)">
+        <div style="font-size: 13px; font-weight: 800; color: {{s.fg}}">{{s.modul}}</div>
+        <h2 style="margin: -6px 0 0; font-size: 18px; font-weight: 800">{{s.titel}}</h2>
+        <div style="display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; font-size: 14px">
+          <span style="color: #6b6f76">Termin</span><span>{{s.termin}}</span>
+          <span style="color: #6b6f76">Raum</span><span>{{s.raum}}</span>
+          <span style="color: #6b6f76; align-self: center">Thema</span><input type="text" value="{{s.themaWert}}" onChange="{{s.setzeThema}}" placeholder="Thema eintragen …" style="border: 1px solid #e6e6e0; background: #f7f7f4; border-radius: 8px; padding: 6px 8px; font-family: inherit; font-size: 14px; color: #1f2328; min-width: 0">
+        </div>
+        <div style="font-size: 13px; color: #6b6f76; font-weight: 800">Warst du da?</div>
+        <div style="display: flex; background: #f7f7f4; border-radius: 10px; padding: 3px; gap: 3px">
+          <button type="button" onClick="{{s.setzeDa}}" style="flex: 1; border: 0; border-radius: 8px; padding: 9px 10px; font-family: inherit; font-weight: 800; cursor: pointer; background: {{s.daBg}}; color: {{s.daFg}}; box-shadow: {{s.daSchatten}}">Anwesend</button>
+          <button type="button" onClick="{{s.setzeWeg}}" style="flex: 1; border: 0; border-radius: 8px; padding: 9px 10px; font-family: inherit; font-weight: 800; cursor: pointer; background: {{s.wegBg}}; color: {{s.wegFg}}; box-shadow: {{s.wegSchatten}}">Nicht anwesend</button>
+          <button type="button" onClick="{{s.setzeAus}}" style="flex: 1; border: 0; border-radius: 8px; padding: 9px 10px; font-family: inherit; font-weight: 800; cursor: pointer; background: {{s.ausBg}}; color: {{s.ausFg}}; box-shadow: {{s.ausSchatten}}">Ausgefallen</button>
+        </div>
+        <sc-if value="{{s.istWeg}}" hint-placeholder-val="{{false}}">
+          <label style="display: flex; gap: 10px; align-items: center; padding: 10px 12px; border-radius: 10px; background: #f7f7f4; font-size: 14px; cursor: pointer">
+            <input type="checkbox" checked="{{s.nachgearbeitet}}" onChange="{{s.umschaltenNach}}" style="width: 18px; height: 18px; accent-color: #4f8f80">Nachgearbeitet (steht unter „Nachholen“)
+          </label>
+        </sc-if>
+        <div style="display: flex; justify-content: flex-end; gap: 8px; flex-wrap: wrap">
+          <a href="Module.dc.html" class="nur-gross" onClick="{{s.lernstoff}}" style="min-height: 40px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-size: 14px; font-weight: 700; color: #1f2328; text-decoration: none; display: inline-flex; align-items: center; margin-right: auto">Lernstoff →</a><a href="ModuleHandy.dc.html" class="nur-klein" onClick="{{s.lernstoff}}" style="min-height: 40px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-size: 14px; font-weight: 700; color: #1f2328; text-decoration: none; display: inline-flex; align-items: center; margin-right: auto">Lernstoff →</a>
+          <a href="Karten.dc.html" class="nur-gross" onClick="{{s.karte}}" style="min-height: 40px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-size: 14px; font-weight: 700; color: #1f2328; text-decoration: none; display: inline-flex; align-items: center">+ Karte</a><a href="KartenHandy.dc.html" class="nur-klein" onClick="{{s.karte}}" style="min-height: 40px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-size: 14px; font-weight: 700; color: #1f2328; text-decoration: none; display: inline-flex; align-items: center">+ Karte</a>
+          <button type="button" onClick="{{s.hausaufgabe}}" style="min-height: 40px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 14px; font-weight: 700; cursor: pointer">Hausaufgabe anlegen</button>
+          <button type="button" onClick="{{sZu}}" style="min-height: 40px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 14px; font-weight: 800; cursor: pointer">Schließen</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{piOffen}}" hint-placeholder-val="{{false}}">
+    <div style="position: fixed; inset: 0; background: rgba(31, 35, 40, 0.35); display: flex; align-items: center; justify-content: center; padding: 12px; z-index: 30">
+      <div role="dialog" aria-label="Prüfungstermin" style="width: 100%; max-width: 440px; background: #ffffff; border-radius: 16px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; gap: 10px; box-shadow: 0 20px 50px rgba(0,0,0,0.18)">
+        <div style="font-size: 13px; font-weight: 800; color: {{pi.fg}}">{{pi.modul}} · Prüfungstermin</div>
+        <h2 style="margin: 0; font-size: 18px; font-weight: 800">{{pi.titel}}</h2>
+        <div style="font-size: 15px">{{pi.datum}}</div>
+        <sc-if value="{{pi.hinweis}}" hint-placeholder-val="{{false}}"><div style="font-size: 13px; color: #2f7a4b">{{pi.hinweis}}</div></sc-if>
+        <div style="font-size: 13px; color: #6b6f76">Prüfungstermine, Anmelde- und Abmeldefristen pflegst du nur auf der Prüfungsseite – Kalender und Dashboard übernehmen sie automatisch.</div>
+        <div style="display: flex; justify-content: flex-end; gap: 8px; flex-wrap: wrap">
+          <a href="Pruefungen.dc.html" class="nur-gross" style="min-height: 40px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 14px; font-weight: 700; color: #1f2328; text-decoration: none; display: inline-flex; align-items: center; cursor: pointer">Auf der Prüfungsseite ändern →</a><a href="PruefungenHandy.dc.html" class="nur-klein" style="min-height: 40px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 14px; font-weight: 700; color: #1f2328; text-decoration: none; display: inline-flex; align-items: center; cursor: pointer">Auf der Prüfungsseite ändern →</a>
+          <button type="button" onClick="{{piZu}}" style="min-height: 40px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 14px; font-weight: 700; color: #1f2328; text-decoration: none; display: inline-flex; align-items: center; cursor: pointer">Schließen</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{eOffen}}" hint-placeholder-val="{{false}}">
+    <div style="position: fixed; inset: 0; background: rgba(31, 35, 40, 0.35); display: flex; align-items: center; justify-content: center; padding: 12px; z-index: 20">
+      <div role="dialog" aria-label="Eintrag" style="width: 100%; max-width: 460px; max-height: calc(100vh - 24px); overflow-y: auto; background: #ffffff; border-radius: 16px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.18)">
+        <h2 style="margin: 0; font-size: 18px; font-weight: 800">{{eTitel}}</h2>
+        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px">
+          <label style="grid-column: 1 / -1; display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #6b6f76; font-weight: 800">Titel<input type="text" value="{{e.titel}}" onChange="{{eSet.titel}}" placeholder="z. B. Übungsblatt 2 bearbeiten" style="border: 1px solid #e6e6e0; background: #f7f7f4; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 15px; color: #1f2328"></label>
+          <label style="display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #6b6f76; font-weight: 800">Art
+            <select value="{{e.art}}" onChange="{{eSet.art}}" style="border: 1px solid #e6e6e0; background: #f7f7f4; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 15px; color: #1f2328">
+              <option value="hausaufgabe">Hausaufgabe</option><option value="todo">To-do</option><option value="frist">Frist</option><option value="termin">Termin</option><option value="privat">Privat</option>
+            </select>
+          </label>
+          <sc-if value="{{eNichtPrivat}}" hint-placeholder-val="{{true}}">
+          <label style="display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #6b6f76; font-weight: 800">Modul
+            <select value="{{e.modul}}" onChange="{{eSet.modul}}" style="border: 1px solid #e6e6e0; background: #f7f7f4; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 15px; color: #1f2328">
+              <option value="">–</option><option value="mab004.1">mab004.1</option><option value="mab004.2">mab004.2</option><option value="mab005.1">mab005.1</option><option value="mab005.2">mab005.2</option><option value="pkb003.1">pkb003.1</option><option value="pkb003.2">pkb003.2</option><option value="pkb003.3">pkb003.3</option><option value="ewb001.1">ewb001.1</option><option value="ewb001.2">ewb001.2</option><option value="ewb002.1">ewb002.1</option><option value="ewb002.2">ewb002.2</option><option value="pyb005.1">pyb005.1</option><option value="pyb005.2">pyb005.2</option><option value="pyb005">pyb005 · eÜbung</option><option value="mab004">mab004 · Tutorium (freiwillig)</option><option value="ewb001">ewb001 · Tutorium (freiwillig)</option><option value="ewb002">ewb002 · Tutorium (freiwillig)</option>
+            </select>
+          </label>
+          </sc-if>
+          <label style="display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #6b6f76; font-weight: 800">Datum<input type="date" value="{{e.datum}}" onChange="{{eSet.datum}}" style="border: 1px solid #e6e6e0; background: #f7f7f4; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 15px; color: #1f2328"></label>
+          <sc-if value="{{eIstPrivat}}" hint-placeholder-val="{{false}}">
+            <label style="grid-column: 1 / -1; display: flex; gap: 10px; align-items: center; padding: 10px 12px; border-radius: 10px; background: #f7f7f4; font-size: 14px; color: #1f2328; cursor: pointer"><input type="checkbox" checked="{{e.ganztag}}" onChange="{{eGanztag}}" style="width: 18px; height: 18px; accent-color: #4f8f80">Ganztägig (z. B. Urlaub, mehrere Tage in Vechta)</label>
+          </sc-if>
+          <sc-if value="{{eWdhSicht}}" hint-placeholder-val="{{false}}">
+            <div style="grid-column: 1 / -1; display: flex; flex-direction: column; gap: 8px; padding: 10px 12px; border-radius: 10px; background: #f7f7f4">
+              <label style="display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #6b6f76; font-weight: 800">Wiederholen
+                <select value="{{e.wdh}}" onChange="{{eSet.wdh}}" style="border: 1px solid #e6e6e0; background: #ffffff; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 15px; color: #1f2328">
+                  <option value="">nicht wiederholen</option><option value="w1">jede Woche</option><option value="w2">alle 2 Wochen</option>
+                </select>
+              </label>
+              <sc-if value="{{eWdhAktiv}}" hint-placeholder-val="{{false}}">
+                <div style="display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #6b6f76; font-weight: 800">an diesen Tagen
+                  <div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px">
+                    <sc-for list="{{eTage}}" as="w" hint-placeholder-count="7">
+                      <button type="button" onClick="{{w.umschalten}}" style="min-height: 36px; border-radius: 8px; border: 1.5px solid {{w.rand}}; background: {{w.bg}}; font-family: inherit; font-size: 13px; font-weight: 800; color: {{w.fg}}; cursor: pointer">{{w.name}}</button>
+                    </sc-for>
+                  </div>
+                </div>
+                <label style="display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #6b6f76; font-weight: 800">bis einschließlich<input type="date" value="{{e.wdhBis}}" onChange="{{eSet.wdhBis}}" style="border: 1px solid #e6e6e0; background: #ffffff; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 15px; color: #1f2328"></label>
+                <span style="font-size: 12px; color: #6b6f76; font-weight: 400">Ohne Enddatum läuft die Wiederholung bis Semesterende (31.03.2027). Ein Tipp auf einen Termin öffnet die ganze Serie.</span>
+              </sc-if>
+            </div>
+          </sc-if>
+          <sc-if value="{{eZeitSicht}}" hint-placeholder-val="{{true}}">
+          <label style="display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #6b6f76; font-weight: 800">{{eZeitLabel}}<input type="time" value="{{e.zeit}}" onChange="{{eSet.zeit}}" style="border: 1px solid #e6e6e0; background: #f7f7f4; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 15px; color: #1f2328"></label>
+          </sc-if>
+          <sc-if value="{{eEndeSicht}}" hint-placeholder-val="{{false}}">
+            <label style="display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #6b6f76; font-weight: 800">Ende<input type="time" value="{{e.bis}}" onChange="{{eSet.bis}}" style="border: 1px solid #e6e6e0; background: #f7f7f4; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 15px; color: #1f2328"></label>
+          </sc-if>
+          <sc-if value="{{eBisDatumSicht}}" hint-placeholder-val="{{false}}">
+            <label style="display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #6b6f76; font-weight: 800">bis einschließlich (optional)<input type="date" value="{{e.bisDatum}}" onChange="{{eSet.bisDatum}}" style="border: 1px solid #e6e6e0; background: #f7f7f4; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 15px; color: #1f2328"></label>
+          </sc-if>
+
+          <label style="grid-column: 1 / -1; display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #6b6f76; font-weight: 800">Notiz<textarea value="{{e.notiz}}" onChange="{{eSet.notiz}}" rows="3" style="border: 1px solid #e6e6e0; background: #f7f7f4; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 15px; color: #1f2328; resize: vertical"></textarea></label>
+          <sc-if value="{{eBestehend}}" hint-placeholder-val="{{false}}">
+            <label style="grid-column: 1 / -1; display: flex; gap: 10px; align-items: center; padding: 10px 12px; border-radius: 10px; background: #f7f7f4; font-size: 14px; cursor: pointer"><input type="checkbox" checked="{{e.erledigt}}" onChange="{{eErledigt}}" style="width: 18px; height: 18px; accent-color: #4f8f80">Erledigt</label>
+          </sc-if>
+        </div>
+        <sc-if value="{{eFehler}}" hint-placeholder-val="{{false}}"><div style="font-size: 13px; color: #c42b2b">{{eFehlerText}}</div></sc-if>
+        <sc-if value="{{eSerie}}" hint-placeholder-val="{{false}}">
+          <div style="display: flex; flex-direction: column; gap: 6px; padding: 10px 12px; border-radius: 10px; background: #f7f7f4; font-size: 13px">
+            <sc-if value="{{eKannAuslassen}}" hint-placeholder-val="{{false}}">
+              <button type="button" onClick="{{eAuslassen}}" style="align-self: flex-start; min-height: 36px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer">{{eAuslassenText}}</button>
+            </sc-if>
+            <sc-if value="{{eHatAusnahmen}}" hint-placeholder-val="{{false}}">
+              <span style="color: #6b6f76">Ausgelassen: {{eAusnahmenText}} · <button type="button" onClick="{{eAusnahmenWeg}}" style="border: 0; background: none; padding: 0; font-family: inherit; font-size: 13px; color: #6b6f76; text-decoration: underline; cursor: pointer">alle wiederherstellen</button></span>
+            </sc-if>
+          </div>
+        </sc-if>
+        <div style="display: flex; justify-content: flex-end; gap: 8px; flex-wrap: wrap">
+          <sc-if value="{{eBestehend}}" hint-placeholder-val="{{false}}">
+            <button type="button" onClick="{{eLoeschen}}" style="min-height: 40px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 14px; font-weight: 700; color: #c42b2b; cursor: pointer; margin-right: auto">{{eLoeschText}}</button>
+          </sc-if>
+          <button type="button" onClick="{{eZu}}" style="min-height: 40px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 14px; font-weight: 700; cursor: pointer">Abbrechen</button>
+          <button type="button" onClick="{{eOk}}" style="min-height: 40px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 14px; font-weight: 800; cursor: pointer">Speichern</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <nav class="untennav" aria-label="Hauptnavigation" style="display: none; position: fixed; left: 0; right: 0; bottom: 0; height: 76px; background: #ffffff; border-top: 1px solid #e6e6e0; grid-template-columns: repeat(5, minmax(0, 1fr)); padding-bottom: 8px; box-sizing: border-box; z-index: 5">
+    <a href="Handy.dc.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 600; text-decoration: none; color: #6b6f76">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="2"></rect><rect x="14" y="3" width="7" height="5" rx="2"></rect><rect x="14" y="12" width="7" height="9" rx="2"></rect><rect x="3" y="16" width="7" height="5" rx="2"></rect></svg>
+      Dashboard
+    </a>
+    <a href="KalenderHandy.dc.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 800; text-decoration: none; color: #1f2328">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>
+      Kalender
+    </a>
+    <a href="ModuleHandy.dc.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 600; text-decoration: none; color: #6b6f76">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 5a2 2 0 012-2h13v16H6a2 2 0 00-2 2z"></path><path d="M4 19V5"></path></svg>
+      Module
+    </a>
+    <a href="PruefungenHandy.dc.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 600; text-decoration: none; color: #6b6f76">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z"></path><path d="M14 3v6h6M9 15l2 2 4-4"></path></svg>
+      Prüfungen
+    </a>
+    <a href="KartenHandy.dc.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 600; text-decoration: none; color: #6b6f76">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="6" width="14" height="14" rx="2"></rect><path d="M7 3h12a2 2 0 012 2v12"></path></svg>
+      Karten
+    </a>
+  </nav>
+</div>
+</x-dc>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1600}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    var E = [
+      ['ank-ewb001-einheiten', 'hausaufgabe', '2026-10-27', '14:00', 'ewb001.2', 'Courseware-Einheit 03 vorbereiten (Video + Literatur)', 'Ankündigung Rieckmann vom 21.10.: Einheit 03 bis zur Präsenzsitzung ewb001.2 am 27.10.', false],
+      ['ank-ewb001-klausuraufgaben', 'todo', '2026-10-30', '', 'ewb001.2', 'Beispiel-Klausuraufgaben unter „Aufgaben“ ansehen', 'Ankündigung Rieckmann vom 13.10.', false],
+      ['ank-mab004-tutorium', 'termin', '2026-11-09', '', 'mab004.1', 'Erstes Tutorium (VL-Woche 5, Termin folgt)', 'Eine selbst gewählte Übungsaufgabe vorher bearbeiten.', false],
+      ['ank-mab004-umfrage', 'todo', '2026-10-26', '', 'mab004.1', 'Umfrage zur Tutoriumsterminfindung ausfüllen', '', true],
+      ['emvl0iynjse9v', 'hausaufgabe', '2026-11-12', '', 'pkb003.3', 'Präsentation zu Max Webers Bürokratiemodell', '', false],
+      ['fr-ewb001-anm', 'frist', '2026-12-31', '', 'ewb001.1', 'Anmeldeschluss QISPOS ewb001 (Abmeldung bis 22.01.)', '', false],
+      ['fr-pkb003-ha', 'frist', '2027-03-15', '', 'pkb003.3', 'Abgabe Hausarbeit pkb003', '45.000–55.000 Zeichen inkl. Leerzeichen.', false],
+      ['fr-pyb005-anm', 'frist', '2027-01-31', '', 'pyb005', 'Anmeldeschluss QISPOS pyb005 (Rücktritt bis 05.02.)', '', false],
+      ['fr-pyb005-lv', 'frist', '2026-10-26', '', 'pyb005', 'In ALLE pyb005-Veranstaltungen eingetragen? (Prüfungsvoraussetzung)', '', false],
+      ['hw-ewb001-anm', 'todo', '2026-10-27', '', 'ewb001.1', 'QISPOS-Anmeldung ewb001 (14.10.–31.12., Abmeldung bis 22.01.)', '', false],
+      ['hw-pkb0033-ha', 'todo', '2026-11-12', '', 'pkb003.3', 'Sprechstunde für Hausarbeit pkb003.3 vereinbaren', '', false],
+      ['hw-pyb005-anm', 'todo', '2026-11-02', '', 'pyb005', 'QISPOS-Anmeldung pyb005 (01.11.–31.01., Rücktritt bis 05.02.)', '', false],
+      ['pr-ewb001-1', 'pruefung', '2027-02-02', '13:00', 'ewb001.1', 'Klausur ewb001 (Ersttermin), Einlass ab 12 Uhr', 'Online-Klausur vor Ort: Laptop/Tablet + Ausweis.', false],
+      ['pr-ewb001-2', 'pruefung', '2027-03-30', '13:00', 'ewb001.1', 'Klausur ewb001 (Zweittermin)', '', false],
+      ['pr-ewb002-1', 'pruefung', '2027-02-04', '12:00', 'ewb002.1', 'Klausur ewb002 (Ersttermin), voraussichtlich 12 Uhr', '', false],
+      ['pr-ewb002-2', 'pruefung', '2027-03-18', '12:00', 'ewb002.1', 'Klausur ewb002 (Zweittermin)', '', false],
+      ['pr-mab004-1', 'pruefung', '2027-02-02', '08:00', 'mab004.1', 'Klausur mab004 (Ersttermin) 8–10 Uhr', '', false],
+      ['pr-mab004-2', 'pruefung', '2027-03-16', '08:00', 'mab004.1', 'Klausur mab004 (Zweittermin) 8–10 Uhr', '', false],
+      ['pr-mab005-1', 'pruefung', '2027-02-08', '14:00', 'mab005.1', 'Klausur mab005 (Ersttermin) 14–16 Uhr', '', false],
+      ['pr-mab005-2', 'pruefung', '2027-03-29', '14:00', 'mab005.1', 'Klausur mab005 (Zweittermin) 14–16 Uhr', '', false],
+      ['pr-pyb005-1', 'pruefung', '2027-02-09', '10:00', 'pyb005', 'Klausur pyb005 (Ersttermin) 10–15 Uhr', '30 MC-Fragen.', false],
+      ['pr-pyb005-2', 'pruefung', '2027-03-16', '10:00', 'pyb005', 'Klausur pyb005 (Zweittermin)', '', false],
+      ['todo-mab004-anm', 'todo', '2026-11-23', '', 'mab004.1', 'QISPOS-Anmeldung mab004 (ab 23.11.)', '', false],
+      ['asp-frist-klaeren', 'todo', '2026-11-02', '', '', 'ASP 2027 (30.08.–08.10.): Anmeldefrist beim Praktikumsbüro erfragen', 'praktikum.bacs@uni-vechta.de · 04441 15-380. Laut Uni: spätere Anmeldungen werden bei der Schulzuordnung nicht berücksichtigt; erweitertes Führungszeugnis rechtzeitig beantragen (3–5 Wochen).', false],
+      ['bafoeg-grenze', 'todo', '2026-11-16', '', '', 'BAföG: Grenze für den Leistungsnachweis beim Akademischen Prüfungsamt bestätigen lassen', 'In der App ist 90 CP bis Ende 4. Semester eingestellt (änderbar unter Prüfungen › BAföG). Datum frei gewählt.', false],
+      ['profil-wahl', 'todo', '2027-03-01', '', '', 'Profilmodul fürs SoSe 27 wählen („Schule und Unterricht“ oder „Bildung und Erziehung“)', 'Vor der Stud.IP-Eintragung fürs Sommersemester entscheiden. Datum geschätzt – bitte prüfen, sobald die Eintragungsfristen bekannt sind.', false],
+      ['fz-asp', 'frist', '2027-07-12', '', 'asp001', 'Erweitertes Führungszeugnis fürs ASP beantragen (muss am 30.08. vorliegen)', 'Bearbeitung dauert laut Uni 3–5 Wochen; Antrag beim Bürgerbüro, ggf. mit Bescheinigung der Uni. Datum = ca. 7 Wochen vor ASP-Beginn.', false],
+      ['mab009-wahl', 'todo', '2027-09-15', '', 'mab009', 'Wahl für das 5. Semester: mab009 oder mab010 (Uni empfiehlt mab009 für den M.Ed. HRS)', 'Vor der Stud.IP-Eintragung fürs WiSe 27/28 entscheiden. Datum geschätzt – bitte prüfen.', false],
+      ['bafoeg-fb5', 'frist', '2027-10-01', '', '', 'BAföG: Leistungsnachweis (Formblatt 5) zu Beginn des 5. Fachsemesters einreichen', 'Formblatt 5 vom Akademischen Prüfungsamt ausstellen lassen und mit dem Weiterförderungsantrag beim BAföG-Amt einreichen. Genaues Datum mit dem BAföG-Amt klären.', false],
+      ['uni-rm-sose27', 'frist', '2027-02-15', '', '', 'Rückmeldung SoSe 27: Semesterbeitrag überweisen (15.01.–15.02.2027)', 'Betrag für SoSe 27 noch nicht veröffentlicht (WiSe 26/27: 456,36 €). Quelle: uni-vechta.de › Semesterbeitrag.', false],
+      ['uni-rm-wise2728', 'frist', '2027-08-15', '', '', 'Rückmeldung WiSe 27/28: Semesterbeitrag überweisen (15.07.–15.08.2027)', 'Quelle: uni-vechta.de › Semesterbeitrag.', false]
+    ].map(function (x) { return { id: x[0], art: x[1], datum: x[2], zeit: x[3], modul: x[4], titel: x[5], notiz: x[6], erledigt: x[7] }; });
+    this.state = {
+      woche: (function () { var d = new Date(); d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); })(),
+      eintraege: E,
+      marks: { 'ewb001-t_2026-10-16': { ausgefallen: true }, 'ewb001-t_2026-10-23': { anwesend: true }, 'pkb003-3_2026-10-22': { anwesend: true }, 'pyb005-e_2026-10-22': { anwesend: false } },
+      sitzung: null, eintrag: null, foldN: {}, foldA: {}, zeigeErl: false, zeigeErlN: false, tag: null, nhKarte: false, afKarte: false
+    };
+    this._baueSitzungen();
+  }
+  _baueSitzungen() {
+    function pad(n) { return String(n).padStart(2, '0'); }
+    function iso(d) { return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
+    function parse(s) { var p = s.split('-').map(Number); return new Date(p[0], p[1] - 1, p[2]); }
+    function addDays(d, n) { var x = new Date(d); x.setDate(x.getDate() + n); return x; }
+    function dm(s) { var p = s.split('.'); return (p[1] === '01' ? '2027' : '2026') + '-' + p[1] + '-' + p[0]; }
+    var WEEKS = [], d;
+    for (d = parse('2026-10-12'); d <= parse('2026-12-14'); d = addDays(d, 7)) WEEKS.push(iso(d));
+    for (d = parse('2027-01-04'); d <= parse('2027-01-25'); d = addDays(d, 7)) WEEKS.push(iso(d));
+    function weekly(wd) { return WEEKS.map(function (m) { return iso(addDays(parse(m), wd)); }); }
+    var COURSES = [
+      { id: 'mab004-1', modul: 'mab004.1', titel: 'Mathematik in den digitalen Medien I', kurz: 'Digitale Medien I · VL', wd: 1, von: '08:00', bis: '10:00', raum: 'B1' },
+      { id: 'mab004-2', modul: 'mab004.2', titel: 'Mathematik in den digitalen Medien II (Gruppe A)', kurz: 'Digitale Medien II · Gr. A', wd: 1, von: '10:00', bis: '12:00', raum: 'J11' },
+      { id: 'mab005-1', modul: 'mab005.1', titel: 'Wahrscheinlichkeitsrechnung I', kurz: 'Wahrscheinlichkeitsrechnung I · VL', wd: 0, von: '14:00', bis: '16:00', raum: 'B1', themen: { '2026-10-12': 'Kapitel 0 (Organisatorisches) und Einstieg Kapitel 1', '2026-10-19': 'Kapitel 1, Stand danach: bis Folie 32 von 54', '2026-10-26': 'Kapitel 1 ab Folie 33' } },
+      { id: 'mab005-2', modul: 'mab005.2', titel: 'Wahrscheinlichkeitsrechnung II (Gruppe C)', kurz: 'Wahrscheinlichkeitsr. II · Gr. C', wd: 0, von: '18:00', bis: '20:00', raum: 'E033', themen: { '2026-10-12': 'Aufgabenblatt 01', '2026-10-19': 'Aufgabenblatt 02' } },
+      { id: 'pkb003-1', modul: 'pkb003.1', titel: 'Politische Ordnung: Das politische System der Bundesrepublik', kurz: 'Politische Ordnung', wd: 1, von: '12:00', bis: '14:00', raum: 'E137b' },
+      { id: 'pkb003-2', modul: 'pkb003.2', titel: 'Wirtschaft und Soziales: Wirtschaft und Gesellschaft der Bundesrepublik', kurz: 'Wirtschaft und Soziales', wd: 0, von: '12:00', bis: '14:00', raum: 'E137b' },
+      { id: 'pkb003-3', modul: 'pkb003.3', titel: 'Verwaltung: Einführung in die öffentliche Verwaltung', kurz: 'Verwaltung (14-täglich)', von: '14:00', bis: '18:00', raum: 'B1', dates: ['22.10', '12.11', '19.11', '03.12', '17.12', '14.01', '28.01'].map(dm) },
+      { id: 'ewb001-a', modul: 'ewb001.1', titel: 'Einführung in die Erziehungswissenschaften (Gruppe B)', kurz: 'Einführung Erziehungswiss. · Gr. B', wd: 1, von: '18:00', bis: '20:00', raum: 'Q016' },
+      { id: 'ewb001-b', modul: 'ewb001.2', titel: 'Kompetenzorientiertes Lehren und Lernen (Gruppe B)', kurz: 'Kompetenzorient. Lehren · Gr. B', wd: 1, von: '14:00', bis: '16:00', raum: 'Q016' },
+      { id: 'ewb001-t', modul: 'ewb001', titel: 'Tutorium ewb001 (Gruppe 3)', kurz: 'Tutorium ewb001', wd: 4, von: '10:15', bis: '11:45', raum: 'digital' },
+      { id: 'ewb002-v', modul: 'ewb002.1', titel: 'Wissenschaftstheoretische und methodische Grundlagen der empirischen Bildungsforschung (Gruppe A)', kurz: 'Empirische Bildungsforschung · VL', wd: 2, von: '10:00', bis: '12:00', raum: 'F144 (gr. Aula)', raumAus: { '2026-12-02': 'B1' } },
+      { id: 'ewb002-m', modul: 'ewb002.2', titel: 'Methoden der empirischen Bildungsforschung in Anwendung und Praxis (Gruppe M)', kurz: 'Methoden emp. Bildungsf. · Gr. M', wd: 1, von: '14:00', bis: '16:00', raum: 'R005' },
+      { id: 'pyb005-v', modul: 'pyb005.1', titel: 'Grundlagen der Pädagogischen Psychologie für Bildung und Erziehung', kurz: 'Päd. Psychologie · VL', sessions: [
+        ['2026-10-14', '10:00', '12:00', 'Q016', '01 Grundlegende Studieneinführung'],
+        ['2026-10-21', '10:00', '14:00', 'B1', '02 Zentrale psychologische Paradigmen und Grundlagen psychologischer Forschung'],
+        ['2026-10-28', '10:00', '14:00', 'Q016, ab 12 Uhr B1', '03 Grundlagen der Entwicklungspsychologie I+II'],
+        ['2026-11-04', '10:00', '14:00', 'Q016, ab 12 Uhr B1', '04 Grundlagen der Lernpsychologie I+II'],
+        ['2026-11-11', '10:00', '12:00', 'digital', '05 Kognition – Emotion – Motivation – Verhalten'],
+        ['2026-11-25', '10:00', '14:00', 'B1', '06 Grundlagen der Sozialpsychologie I+II'],
+        ['2026-12-02', '10:00', '12:00', 'digital', '07 Neuro- und biopsychologische Grundlagen'],
+        ['2026-12-16', '10:00', '12:00', 'B1', '08 Grundlagen der differentiellen Psychologie'],
+        ['2027-01-06', '10:00', '12:00', 'digital', ''],
+        ['2027-01-27', '10:00', '12:00', 'B1', '09 Abschlussbesprechung']] },
+      { id: 'pyb005-e', modul: 'pyb005', titel: 'Vertiefende eÜbung (Gruppe B)', kurz: 'Päd. Psychologie · eÜbung', wd: 3, von: '12:00', bis: '14:00', raum: 'digital', themen: {
+        '2026-10-15': '01 Grundlegende Studieneinführung', '2026-10-22': '02 Zentrale psychologische Paradigmen und Grundlagen psychologischer Forschung',
+        '2026-10-29': '03 Grundlagen der Entwicklungspsychologie I+II', '2026-11-05': '04 Grundlagen der Lernpsychologie I+II',
+        '2026-11-12': '05 Kognition – Emotion – Motivation – Verhalten', '2026-11-26': '06 Grundlagen der Sozialpsychologie I+II',
+        '2026-12-03': '07 Neuro- und biopsychologische Grundlagen', '2026-12-17': '08 Grundlagen der differentiellen Psychologie', '2027-01-28': '09 Abschlussbesprechung' } },
+      { id: 'pyb005-s', modul: 'pyb005.2', titel: 'Vertiefende Thematiken für Handlungsfelder der Bildung und Erziehung (Gruppe D)', kurz: 'Päd. Psychologie · Seminar Gr. D', wd: 0, von: '16:00', bis: '18:00', raum: 'Q113', themenListe: [
+        '01 Einführung', '02 Zentrale Paradigmen', '03 Ausgewählte Aspekte psychologischer Forschung', '04 Entwicklungspsychologische Aspekte I', '05 Entwicklungspsychologische Aspekte II',
+        '06 Lernpsychologische Aspekte I', '07 Lernpsychologische Aspekte II', '08 Kognition – Emotion – Motivation – Verhalten I', '09 Kognition – Emotion – Motivation – Verhalten II',
+        '10 Sozialpsychologische Aspekte I', '11 Sozialpsychologische Aspekte II', '12 Neuro- und biopsychologische Aspekte', '13 Differentiell-psychologische Aspekte', '14 Abschlussbesprechung'] }
+    ];
+    var SESS = [];
+    COURSES.forEach(function (c) {
+      if (c.sessions) { c.sessions.forEach(function (x) { SESS.push({ c: c, date: x[0], von: x[1], bis: x[2], raum: x[3], thema: x[4] }); }); return; }
+      var ds = c.dates || weekly(c.wd);
+      ds.forEach(function (dd, i) { SESS.push({ c: c, date: dd, von: c.von, bis: c.bis, raum: (c.raumAus && c.raumAus[dd]) || c.raum, thema: (c.themen && c.themen[dd]) || (c.themenListe && c.themenListe[i]) || '' }); });
+    });
+    var EXACT = ['mab005-2', 'pyb005-v', 'ewb001-t'];
+    function shiftT(t, m) { var p = t.split(':').map(Number); var x = p[0] * 60 + p[1] + m; return pad(Math.floor(x / 60)) + ':' + pad(x % 60); }
+    SESS.forEach(function (s) { s.key = s.c.id + '_' + s.date; if (EXACT.indexOf(s.c.id) < 0) { s.von = shiftT(s.von, 15); s.bis = shiftT(s.bis, -15); } });
+    this._SESS = SESS; this._WEEKS = WEEKS;
+  }
+  componentDidMount() {
+    var self = this; this._teilen();
+    function hole() { try { var q = JSON.parse(window.sessionStorage.getItem('lernapp-eintrag-queue') || '[]'); if (!q.length) return; window.sessionStorage.setItem('lernapp-eintrag-queue', '[]'); var ids = q.map(function (x) { return x.id; }); self.setState({ eintraege: self.state.eintraege.filter(function (y) { return ids.indexOf(y.id) < 0; }).concat(q) }); } catch (e) {} }
+    hole(); this._q = setInterval(hole, 1000);
+    function stP() { try { var v = window.sessionStorage.getItem('lernapp-studienstand') || '' ; if (v !== self._stS) { self._stS = v; self.setState({ stTick: Date.now() }); } } catch (e) {} }
+    stP(); setInterval(stP, 1500);
+  }
+  componentWillUnmount() { clearInterval(this._q); }
+  componentDidUpdate() { this._teilen(); }
+  _teilen() { try { window.sessionStorage.setItem('lernapp-kalender', JSON.stringify({ marks: this.state.marks, eintraege: this.state.eintraege })); } catch (e) {} }
+  renderVals() {
+    var self = this, S = this.state, SESS = this._SESS, WEEKS = this._WEEKS;
+    var HEUTE = (function () { var d = new Date(); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); })();
+    var C = { mab004: ['#5f80b5', '#eaf1fc'], mab005: ['#4f8f80', '#e6f5f0'], pkb003: ['#b46b80', '#fbebef'], ewb001: ['#6d9156', '#edf5e5'], ewb002: ['#b5845a', '#fcf0e4'], pyb005: ['#8a77b5', '#f1edfa'] };
+    var NAMEN = { mab004: 'Mathematik in den digitalen Medien', mab005: 'Wahrscheinlichkeitsrechnung', pkb003: 'Systemanalyse', ewb001: 'Grundlagen und Grundbegriffe der Erziehungswissenschaften', ewb002: 'Methoden der empirischen Bildungsforschung', pyb005: 'Grundlagen der Pädagogischen Psychologie für Bildung und Erziehung' };
+    var MODS = ['mab004', 'mab005', 'pkb003', 'ewb001', 'ewb002', 'pyb005'];
+    var ARTEN = { hausaufgabe: 'Hausaufgabe', todo: 'To-do', frist: 'Frist', pruefung: 'Prüfung', termin: 'Termin', privat: 'Privat' };
+    var TAG = { hausaufgabe: ['#fdf1d6', '#8a5a12'], todo: ['#f0f0eb', '#6b6f76'], frist: ['#fde9e9', '#c42b2b'], pruefung: ['#fde9e9', '#c42b2b'], termin: ['#f0f0eb', '#6b6f76'], privat: ['#e3e8ef', '#3d4a5c'] };
+    var DAYN = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'];
+    var MON = ['Jan', 'Feb', 'März', 'Apr', 'Mai', 'Juni', 'Juli', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'];
+    function pad(n) { return String(n).padStart(2, '0'); }
+    function iso(d) { return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
+    function parse(s) { var p = s.split('-').map(Number); return new Date(p[0], p[1] - 1, p[2]); }
+    function addDays(d, n) { var x = new Date(d); x.setDate(x.getDate() + n); return x; }
+    function fmtD(s) { var d = parse(s); return DAYN[(d.getDay() + 6) % 7] + ' ' + pad(d.getDate()) + '.' + pad(d.getMonth() + 1) + '.'; }
+    function toMin(t) { var p = t.split(':').map(Number); return p[0] * 60 + p[1]; }
+    function modKey(m) { m = (m || '').slice(0, 6); return MODS.indexOf(m) >= 0 ? m : ''; }
+    function farbe(m) { return C[modKey(m)] || ['#6b6f76', '#f0f0eb']; }
+    function rgba(hex, a) { var n = parseInt(hex.slice(1), 16); return 'rgba(' + (n >> 16) + ',' + ((n >> 8) & 255) + ',' + (n & 255) + ',' + a + ')'; }
+    function mondayOf(s) { var d = parse(s); return iso(addDays(d, -((d.getDay() + 6) % 7))); }
+    var marks = S.marks, entries = S.eintraege;
+    (function () { var STv = {}; try { STv = (JSON.parse(window.sessionStorage.getItem('lernapp-studienstand') || '{}') || {}).naechste || {}; } catch (e) {}
+      entries = entries.map(function (e) { if (e.art !== 'pruefung') return e; var m = (e.modul || '').slice(0, 6), n = STv[m]; if (!n || !n.iso) return e;
+        var gleich = S.eintraege.some(function (x) { return x.art === 'pruefung' && (x.modul || '').slice(0, 6) === m && x.datum === n.iso; }); if (gleich) return e;
+        var zweit = /Zweittermin/i.test(e.titel); if ((n.versuch > 1) === zweit) return Object.assign({}, e, { datum: n.iso, _geaendert: true }); return e; }); })();
+    SESS.forEach(function (s) { if (s._t0 === undefined) s._t0 = s.thema; var mm = marks[s.key]; s.thema = (mm && mm.thema !== undefined) ? mm.thema : s._t0; });
+    var PRIV_BG = 'repeating-linear-gradient(135deg, #eef1f5 0 6px, #e3e8ef 6px 12px)';
+    function amTag(e, d) {
+      if ((e.ausnahmen || []).indexOf(d) >= 0) return false;
+      if (e.art === 'privat' && e.wdh && (e.tage || []).length) {
+        var ende = e.wdhBis || '2027-03-31';
+        if (d < e.datum || d > ende) return false;
+        var wd = (parse(d).getDay() + 6) % 7;
+        if (e.tage.indexOf(wd) < 0) return false;
+        if (e.wdh === 'w2') { var w0 = Math.floor((parse(mondayOf(d)) - parse(mondayOf(e.datum))) / (7 * 864e5)); if (w0 % 2 !== 0) return false; }
+        return true;
+      }
+      return e.datum === d;
+    }
+    function imRaster(e) { return e.art === 'privat' && !e.ganztag && e.zeit && toMin(e.zeit) >= 360 && toMin(e.zeit) < 1320; }
+    var aufgabenListe = entries.filter(function (e) { return e.art !== 'privat'; });
+    function entfallGrund(dIso) {
+      var y = parseInt(dIso.slice(0, 4), 10);
+      function ost(y) { var a = y % 19, b = Math.floor(y / 100), c = y % 100, d = Math.floor(b / 4), e = b % 4, f = Math.floor((b + 8) / 25), g = Math.floor((b - f + 1) / 3), h = (19 * a + b - d - g + 15) % 30, i = Math.floor(c / 4), k = c % 4, l = (32 + 2 * e + 2 * i - h - k) % 7, m = Math.floor((a + 11 * h + 22 * l) / 451), mo = Math.floor((h + l - 7 * m + 114) / 31), da = ((h + l - 7 * m + 114) % 31) + 1; return new Date(y, mo - 1, da); }
+      function iz(dt) { return dt.getFullYear() + '-' + String(dt.getMonth() + 1).padStart(2, '0') + '-' + String(dt.getDate()).padStart(2, '0'); }
+      function plus(dt, n) { var x = new Date(dt); x.setDate(x.getDate() + n); return x; }
+      var o = ost(y), ft = {};
+      ft[y + '-01-01'] = 'Neujahr'; ft[iz(plus(o, -2))] = 'Karfreitag'; ft[iz(plus(o, 1))] = 'Ostermontag'; ft[y + '-05-01'] = 'Tag der Arbeit'; ft[iz(plus(o, 39))] = 'Christi Himmelfahrt'; ft[iz(plus(o, 50))] = 'Pfingstmontag'; ft[y + '-10-03'] = 'Tag der Deutschen Einheit'; ft[y + '-10-31'] = 'Reformationstag'; ft[y + '-12-25'] = '1. Weihnachtstag'; ft[y + '-12-26'] = '2. Weihnachtstag';
+      if (ft[dIso]) return 'Feiertag (' + ft[dIso] + ')';
+      var FREI = [['vorlesungsfreie Zeit', '2026-12-21', '2027-01-03'], ['Exkursionstage', '2027-05-18', '2027-05-22'], ['vorlesungsfreie Zeit', '2027-12-23', '2028-01-09'], ['Exkursionstage', '2028-06-06', '2028-06-10']];
+      for (var q = 0; q < FREI.length; q++) if (dIso >= FREI[q][1] && dIso <= FREI[q][2]) return FREI[q][0];
+      return '';
+    }
+    function att(s) { var m = marks[s.key] || {}; if (m.ausgefallen || entfallGrund(s.date)) return 'aus'; if (m.anwesend === true) return 'da'; if (m.anwesend === false) return 'weg'; return (s.date >= '2026-10-12' && s.date <= '2026-10-21') ? 'weg' : null; }
+    function isDone(s) { return !!(marks[s.key] && marks[s.key].nachgearbeitet); }
+    var jetzt = new Date(), jetztMin = jetzt.getHours() * 60 + jetzt.getMinutes();
+    function isPast(s) { if (s.date < HEUTE) return true; if (s.date > HEUTE) return false; return toMin(s.bis) <= jetztMin; }
+    function setMark(key, patch) { var m = Object.assign({}, S.marks); m[key] = Object.assign({}, m[key] || {}, patch); self.setState({ marks: m }); }
+    function oeffneEintrag(e) { if (e && (e.art === 'pruefung' || (e.art === 'frist' && /Abgabe/i.test(e.titel || '')))) { self.setState({ pInfo: e, sitzung: null }); return; } self.setState({ eintrag: Object.assign({ titel: '', art: 'hausaufgabe', modul: '', datum: HEUTE, zeit: '', notiz: '', erledigt: false }, e, { _armed: false, _fehler: '' }), sitzung: null }); }
+    var R = {};
+
+    // Woche
+    var ws = parse(S.woche), tage = [0, 1, 2, 3, 4, 5, 6].map(function (i) { return iso(addDays(ws, i)); });
+    var wi = WEEKS.indexOf(S.woche), ende = addDays(ws, 6);
+    R.wocheTitel = wi >= 0 ? 'Vorlesungswoche ' + (wi + 1) + ' von ' + WEEKS.length : 'Vorlesungsfrei';
+    R.wocheDatum = ws.getDate() + '. ' + (ws.getMonth() !== ende.getMonth() ? MON[ws.getMonth()] + ' ' : '') + '– ' + ende.getDate() + '. ' + MON[ende.getMonth()] + ' ' + ende.getFullYear();
+    R.zurueck = function () { self.setState({ woche: iso(addDays(parse(S.woche), -7)), tag: 0 }); };
+    R.weiter = function () { self.setState({ woche: iso(addDays(parse(S.woche), 7)), tag: 0 }); };
+    R.heute = function () { self.setState({ woche: mondayOf(HEUTE), tag: null }); };
+    R.neuerEintrag = function () { oeffneEintrag({}); };
+    R.koepfe = tage.map(function (d, i) { var h = d === HEUTE; return { tag: DAYN[i].toUpperCase(), zahl: String(parse(d).getDate()), bg: h ? '#fffaf0' : (i > 4 ? '#fafaf7' : 'transparent'), zahlBg: h ? '#1f2328' : 'transparent', zahlFg: h ? '#ffffff' : '#1f2328' }; });
+    function ostern(y) { var a = y % 19, b = Math.floor(y / 100), c = y % 100, d = Math.floor(b / 4), e = b % 4, f = Math.floor((b + 8) / 25), g = Math.floor((b - f + 1) / 3), h = (19 * a + b - d - g + 15) % 30, i = Math.floor(c / 4), k = c % 4, l = (32 + 2 * e + 2 * i - h - k) % 7, m = Math.floor((a + 11 * h + 22 * l) / 451), mo = Math.floor((h + l - 7 * m + 114) / 31), da = ((h + l - 7 * m + 114) % 31) + 1; return new Date(y, mo - 1, da); }
+    var FT = {};
+    [2026, 2027, 2028].forEach(function (y) {
+      var o = ostern(y);
+      [[y + '-01-01', 'Neujahr'], [iso(addDays(o, -2)), 'Karfreitag'], [iso(addDays(o, 1)), 'Ostermontag'], [y + '-05-01', 'Tag der Arbeit'], [iso(addDays(o, 39)), 'Christi Himmelfahrt'], [iso(addDays(o, 50)), 'Pfingstmontag'], [y + '-10-03', 'Tag der Deutschen Einheit'], [y + '-10-31', 'Reformationstag'], [y + '-12-25', '1. Weihnachtstag'], [y + '-12-26', '2. Weihnachtstag']].forEach(function (x) { FT[x[0]] = x[1]; });
+    });
+    var FERIEN = [['Sommerferien', '2026-07-02', '2026-08-12'], ['Herbstferien', '2026-10-12', '2026-10-24'], ['Weihnachtsferien', '2026-12-23', '2027-01-09'], ['Halbjahresferien', '2027-02-01', '2027-02-02'], ['Osterferien', '2027-03-22', '2027-04-03'], ['Ferientag', '2027-05-07', '2027-05-07'], ['Ferientag', '2027-05-18', '2027-05-18'], ['Sommerferien', '2027-07-08', '2027-08-18'], ['Herbstferien', '2027-10-16', '2027-10-30'], ['Weihnachtsferien', '2027-12-23', '2028-01-08'], ['Halbjahresferien', '2028-01-31', '2028-02-01'], ['Osterferien', '2028-04-10', '2028-04-22'], ['Ferientag', '2028-05-26', '2028-05-26'], ['Ferientag', '2028-06-06', '2028-06-06'], ['Sommerferien', '2028-07-20', '2028-08-30']];
+    var UNI = [['vorlesungsfrei (Weihnachten)', '2026-12-21', '2027-01-03'], ['letzter Vorlesungstag', '2027-01-30', '2027-01-30'], ['Semesterende WiSe 26/27', '2027-03-31', '2027-03-31'], ['Semesterbeginn SoSe 27', '2027-04-01', '2027-04-01'], ['Vorlesungsbeginn SoSe 27', '2027-04-05', '2027-04-05'], ['Exkursionstage – keine regulären Veranstaltungen', '2027-05-18', '2027-05-22'], ['letzter Vorlesungstag', '2027-07-17', '2027-07-17'], ['Vorlesungsbeginn WiSe 27/28', '2027-10-11', '2027-10-11'], ['vorlesungsfrei (Weihnachten)', '2027-12-23', '2028-01-09'], ['letzter Vorlesungstag', '2028-01-29', '2028-01-29']];
+    function uniAm(d) { return UNI.filter(function (f) { return d >= f[1] && d <= f[2]; }); }
+    function ferienAm(d) { return FERIEN.filter(function (f) { return d >= f[1] && d <= f[2]; })[0]; }
+    function fmtKurz(s) { var x = parse(s); return pad(x.getDate()) + '.' + pad(x.getMonth() + 1) + '.'; }
+    R.streifen = tage.map(function (d, di) {
+      var extra = [];
+      if (FT[d]) extra.push({ text: FT[d], titel: 'Feiertag in Niedersachsen: ' + FT[d], bg: '#fff0e5', fg: '#b35c1e', gewicht: '800', deko: 'none', opazitaet: '1', oeffne: function () {} });
+      if (d >= '2027-08-30' && d <= '2027-10-08') extra.push({ text: (d === '2027-08-30' || di === 0) ? 'ASP – Allgemeines Schulpraktikum (bis 08.10.)' : '↳ ASP', titel: 'Praktikumszeit ASP: 30.08.–08.10.2027 (Uni Vechta, Veranstaltungszeiten 2026/27)', bg: '#e3f2e8', fg: '#2f7a4b', gewicht: '800', deko: 'none', opazitaet: '1', oeffne: function () {} });
+      uniAm(d).forEach(function (u) { extra.push({ text: (d === u[1] || di === 0) ? 'Uni · ' + u[0] : '↳ Uni · ' + u[0].replace(/ \(.*\)| – .*/, ''), titel: 'Semestertermin Uni Vechta: ' + u[0] + (u[1] !== u[2] ? ' (' + fmtKurz(u[1]) + '–' + fmtKurz(u[2]) + ')' : ''), bg: '#e8ecef', fg: '#3f5160', gewicht: '700', deko: 'none', opazitaet: '1', oeffne: function () {} }); });
+      var fe = ferienAm(d);
+      if (fe) extra.push({ text: (d === fe[1] || di === 0) ? 'Ferien · ' + fe[0] : 'Ferien', titel: 'Ferien Niedersachsen: ' + fe[0] + ' (' + fmtKurz(fe[1]) + '–' + fmtKurz(fe[2]) + ')', bg: '#f3efe6', fg: '#7a6a4f', gewicht: '600', deko: 'none', opazitaet: '1', oeffne: function () {} });
+      var mehr = entries.filter(function (e) { return e.art === 'privat' && e.ganztag && e.bisDatum && e.datum < d && e.bisDatum >= d; }).map(function (e) {
+        return { text: (di === 0 ? '' : '↳ ') + e.titel + (di === 0 ? ' (bis ' + fmtKurz(e.bisDatum) + ')' : ''), titel: 'Privat · ' + e.titel + ' · ' + fmtKurz(e.datum) + '–' + fmtKurz(e.bisDatum), bg: PRIV_BG, fg: '#3d4a5c', gewicht: '600', deko: 'none', opazitaet: '1', oeffne: function () { oeffneEintrag(e); } };
+      });
+      var ch = entries.filter(function (e) { return amTag(e, d) && !imRaster(e) && !e.erledigt; }).sort(function (a, b) { return (a.zeit || '').localeCompare(b.zeit || ''); }).map(function (e) {
+        var t = TAG[e.art] || TAG.todo;
+        return { text: (e.ganztag ? '' : (e.zeit ? e.zeit + ' ' : '')) + e.titel + (e.ganztag && e.bisDatum ? ' (bis ' + fmtKurz(e.bisDatum) + ')' : ''), titel: ARTEN[e.art] + (e.modul ? ' · ' + e.modul : '') + ' · ' + e.titel, bg: e.art === 'privat' ? PRIV_BG : t[0], fg: t[1], gewicht: (e.art === 'frist' || e.art === 'pruefung') ? '800' : '600', deko: e.erledigt ? 'line-through' : 'none', opazitaet: e.erledigt ? '0.55' : '1', oeffne: function () { oeffneEintrag(Object.assign({}, e, { _klick: d })); } };
+      });
+      return { bg: d === HEUTE ? '#fffaf0' : 'transparent', chips: extra.concat(mehr, ch) };
+    });
+    R.stunden = []; for (var h = 6; h < 22; h++) R.stunden.push({ text: h + ':00', sicht: h === 6 ? 'hidden' : 'visible' });
+    R.spalten = tage.map(function (d) {
+      var evs = SESS.filter(function (s) { return s.date === d; }).map(function (s) { return { s: s, a: toMin(s.von), b: toMin(s.bis) }; }).concat(entries.filter(function (e) { return amTag(e, d) && imRaster(e); }).map(function (e) { var a = toMin(e.zeit), b = e.bis && toMin(e.bis) > a ? Math.min(toMin(e.bis), 1320) : Math.min(a + 60, 1320); return { p: e, a: a, b: b }; })).sort(function (x, y) { return x.a - y.a || y.b - x.b; });
+      var cluster = [], cEnd = -1, clusters = [];
+      evs.forEach(function (e) { if (e.a >= cEnd && cluster.length) { clusters.push(cluster); cluster = []; } cluster.push(e); cEnd = Math.max(cEnd, e.b); }); if (cluster.length) clusters.push(cluster);
+      clusters.forEach(function (cl) { var lanes = []; cl.forEach(function (e) { var l = lanes.findIndex(function (x) { return x <= e.a; }); if (l < 0) { l = lanes.length; lanes.push(0); } lanes[l] = e.b; e.lane = l; }); cl.forEach(function (e) { e.n = lanes.length; }); });
+      var termine = evs.map(function (e) {
+        if (e.p) {
+          var p = e.p, zt = p.zeit + (p.bis ? '–' + p.bis : '');
+          return { top: ((e.a / 60 - 6) * 60 + 2) + 'px', hoehe: Math.max((e.b - e.a) - 4, 26) + 'px', links: 'calc(' + (e.lane / e.n * 100) + '% + 3px)', breite: 'calc(' + (100 / e.n) + '% - 6px)',
+            bg: PRIV_BG, fg: '#3d4a5c', rand: 'rgba(61,74,92,0.55)', opazitaet: p.erledigt ? '0.6' : '1', modul: 'Privat', kurz: p.titel, meta: zt, metaLang: zt + (p.notiz ? ' · ' + p.notiz : ''),
+            punkt: false, punktFarbe: '', haken: false, frage: false, deko: 'none', titel: 'Privat · ' + p.titel + ' · ' + zt, oeffne: function () { oeffneEintrag(Object.assign({}, p, { _klick: d })); } };
+        }
+        var s = e.s, a = att(s), done = a === 'weg' && isDone(s), miss = a === 'weg', aus = a === 'aus', f = farbe(s.c.modul);
+        return {
+          top: ((e.a / 60 - 6) * 60 + 2) + 'px', hoehe: ((e.b - e.a) - 4) + 'px',
+          links: 'calc(' + (e.lane / e.n * 100) + '% + 3px)', breite: 'calc(' + (100 / e.n) + '% - 6px)',
+          bg: f[1], fg: f[0], rand: rgba(f[0], 0.35), opazitaet: aus ? '0.45' : (done ? '0.6' : '1'),
+          modul: s.c.modul, kurz: s.c.kurz, meta: aus ? (entfallGrund(s.date) ? 'entfällt – ' + entfallGrund(s.date) : 'ausgefallen') : s.von + '–' + s.bis + (e.n > 1 ? '' : ' · ' + s.raum),
+          punkt: miss && !done, punktFarbe: '#e07a88', haken: (miss && done) || a === 'da', frage: a === null && isPast(s), deko: aus ? 'line-through' : 'none',
+          titel: s.c.modul + ' · ' + s.c.titel + ' · ' + s.von + '–' + s.bis + ' · ' + s.raum + (s.thema ? ' · ' + s.thema : ''),
+          metaLang: aus ? (entfallGrund(s.date) ? 'entfällt – ' + entfallGrund(s.date) : 'ausgefallen') : s.von + '–' + s.bis + ' · ' + s.raum,
+          oeffne: function () { self.setState({ sitzung: s.key, eintrag: null }); }
+        };
+      });
+      var istHeute = d === HEUTE;
+      return { bg: istHeute ? '#fffaf0' : 'transparent', termine: termine, jetzt: istHeute && jetztMin > 360 && jetztMin < 1320, jetztTop: ((jetztMin / 60 - 6) * 60) + 'px' };
+    });
+    // Tagesansicht (Handy)
+    var hi = tage.indexOf(HEUTE), ti = S.tag !== null ? S.tag : (hi >= 0 ? hi : 0);
+    function geheTag(n) {
+      var z = ti + n;
+      if (z < 0) self.setState({ woche: iso(addDays(parse(S.woche), -7)), tag: 6 });
+      else if (z > 6) self.setState({ woche: iso(addDays(parse(S.woche), 7)), tag: 0 });
+      else self.setState({ tag: z });
+    }
+    R.tagWahl = tage.map(function (d, i) {
+      var akt = i === ti;
+      return { tag: DAYN[i].toUpperCase(), zahl: String(parse(d).getDate()), bg: akt ? '#ffffff' : 'transparent', rand: akt ? '1.5px solid #1f2328' : '1.5px solid transparent',
+        tagFarbe: d === HEUTE ? '#e5484d' : '#6b6f76', punkt: SESS.some(function (s) { return s.date === d; }) ? '#b8bcc2' : 'transparent',
+        waehle: function () { self.setState({ tag: i }); } };
+    });
+    var td = parse(tage[ti]);
+    R.tagName = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag'][ti] + ', ' + td.getDate() + '. ' + MON[td.getMonth()] + (tage[ti] === HEUTE ? ' · heute' : '');
+    R.tagSpalte = R.spalten[ti];
+    R.tagStreifen = R.streifen[ti];
+    R.tagHatChips = R.tagStreifen.chips.length > 0;
+    R.tagFrei = R.tagSpalte.termine.length === 0;
+    R.tagZurueck = function () { geheTag(-1); };
+    R.tagWeiter = function () { geheTag(1); };
+    R.wischStart = function (ev) { try { self._wx = ev.touches[0].clientX; self._wy = ev.touches[0].clientY; } catch (e) {} };
+    R.wischEnde = function (ev) {
+      try { var dx = ev.changedTouches[0].clientX - self._wx, dy = ev.changedTouches[0].clientY - self._wy; if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) geheTag(dx < 0 ? 1 : -1); } catch (e) {}
+    };
+    R.legende = MODS.map(function (m) { return { modul: m, name: NAMEN[m], bg: C[m][1], rand: rgba(C[m][0], 0.45) }; });
+
+    // Klausuren + Hausaufgaben
+    var STn = {}; try { STn = (JSON.parse(window.sessionStorage.getItem('lernapp-studienstand') || '{}') || {}).naechste || {}; } catch (e) {}
+    var klAlle = entries.filter(function (e) { return (e.art === 'pruefung' || (e.art === 'frist' && /Abgabe/i.test(e.titel))) && !e.erledigt && e.datum >= HEUTE; });
+    var klMod = {}; klAlle.forEach(function (e) { var m = modKey(e.modul) || e.modul; (klMod[m] = klMod[m] || []).push(e); });
+    var kl = []; Object.keys(klMod).forEach(function (m) { var n = STn[m], ls = klMod[m].sort(function (a, b) { return (a.datum + (a.zeit || '')).localeCompare(b.datum + (b.zeit || '')); });
+      if (n && n.erledigt) return; var pick = null;
+      if (n && n.iso) pick = ls.filter(function (e) { return e.datum === n.iso; })[0];
+      if (n && n.iso && !pick && n.iso >= HEUTE) { var basis = ls.filter(function (e) { return !/Zweittermin/i.test(e.titel); })[0] || ls[0] || { art: 'pruefung', modul: m, titel: 'Prüfung ' + m }; pick = Object.assign({}, basis, { id: (basis.id || m) + '-neu', datum: n.iso, zeit: '', titel: basis.titel + ' (Termin geändert)' }); }
+      if (!pick) pick = ls.filter(function (e) { return !/Zweittermin/i.test(e.titel); })[0] || (n && n.versuch > 1 ? ls[0] : null);
+      if (pick) kl.push(Object.assign({}, pick, { _versuch: n && n.versuch > 1 ? n.versuch : 0 })); });
+    Object.keys(STn).forEach(function (m) { var n = STn[m]; if (klMod[m] || !n || n.erledigt || !n.iso || n.iso < HEUTE || MODS.indexOf(m) < 0) return; kl.push({ id: 'pr-' + m + '-st', art: 'pruefung', datum: n.iso, zeit: '', modul: m, titel: 'Prüfung ' + m, _versuch: n.versuch > 1 ? n.versuch : 0 }); });
+    kl.sort(function (a, b) { return (a.datum + (a.zeit || '')).localeCompare(b.datum + (b.zeit || '')); });
+    R.klausuren = kl.map(function (e) { var f = farbe(e.modul), d = parse(e.datum); return { datum: pad(d.getDate()) + '.' + pad(d.getMonth() + 1) + '.', modul: modKey(e.modul) || e.modul, zusatz: (e._versuch ? ' · ' + e._versuch + '. Versuch' : ''), fg: f[0], bg: f[1], titel: e.titel, oeffne: function () { self.setState({ woche: mondayOf(e.datum) }); oeffneEintrag(e); } }; });
+    R.klausurTage = (function () { var out = []; R.klausuren.forEach(function (k) { var g = out[out.length - 1]; if (g && g.datum === k.datum) g.eintraege.push(k); else out.push({ datum: k.datum, eintraege: [k] }); }); return out; })();
+    R.klausurHinweis = kl.length ? 'nächste in ' + Math.round((parse(kl[0].datum) - parse(HEUTE)) / 864e5) + ' Tagen' : 'Noch keine Termine eingetragen.';
+    var ha = entries.filter(function (e) { return e.art === 'hausaufgabe' && !e.erledigt; }).sort(function (a, b) { return (a.datum + (a.zeit || '')).localeCompare(b.datum + (b.zeit || '')); });
+    var bis7 = (function () { var d = parse(HEUTE); d.setDate(d.getDate() + 7); return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); })();
+    var haAlle = ha; if (!S.haAlle) ha = ha.filter(function (e) { return e.datum <= bis7; });
+    R.haMehr = !S.haAlle && haAlle.length > ha.length; R.haMehrText = '+ ' + (haAlle.length - ha.length) + ' später'; R.haWeniger = !!S.haAlle && haAlle.some(function (e) { return e.datum > bis7; });
+    R.haMehrUm = function () { self.setState({ haAlle: !self.state.haAlle }); };
+    R.hausaufgaben = ha.map(function (e) { var f = farbe(e.modul), d = parse(e.datum), spaet = e.datum < HEUTE; return { datum: pad(d.getDate()) + '.' + pad(d.getMonth() + 1) + '.', modul: modKey(e.modul), kurz: e.titel, fg: f[0], bg: f[1], titel: e.titel, datumFarbe: spaet ? '#c42b2b' : '#1f2328', datumGewicht: spaet ? '800' : '400', oeffne: function () { oeffneEintrag(e); } }; });
+    R.keineHa = ha.length === 0; R.keineHaText = haAlle.length ? 'In den nächsten 7 Tagen nichts fällig.' : 'Keine offenen Hausaufgaben.';
+
+    // Nachholen
+    var miss = SESS.filter(function (s) { return att(s) === 'weg'; }).sort(function (a, b) { return (a.date + a.von).localeCompare(b.date + b.von); });
+    var nDone = miss.filter(isDone).length;
+    R.nhZaehler = nDone + ' von ' + miss.length + ' erledigt';
+    R.nhBreite = (miss.length ? Math.round(nDone / miss.length * 100) : 0) + '%';
+    var gr = {};
+    miss.forEach(function (s) { var k = s.c.modul.split('.')[0]; (gr[k] = gr[k] || []).push(s); });
+    R.nhGruppen = Object.keys(gr).sort(function (a, b) { return MODS.indexOf(a) - MODS.indexOf(b); }).filter(function (k) {
+      return S.zeigeErlN || gr[k].filter(isDone).length < gr[k].length;
+    }).map(function (k) {
+      var arr = gr[k], dn = arr.filter(isDone).length;
+      var offen = (k in S.foldN) ? S.foldN[k] : dn < arr.length;
+      return {
+        modul: k, fg: C[k][0], zahl: dn + '/' + arr.length, pfeil: offen ? '▾' : '▸', offen: offen,
+        umschalten: function () { var f = Object.assign({}, S.foldN); f[k] = !offen; self.setState({ foldN: f }); },
+        liste: arr.filter(function (s) { return S.zeigeErlN || !isDone(s); }).map(function (s) {
+          var dd = isDone(s);
+          return { datum: fmtD(s.date), text: s.c.modul + ' · ' + s.c.kurz.replace(/ · .*/, ''), thema: s.thema, erledigt: dd, deko: dd ? 'line-through' : 'none', farbe: dd ? '#6b6f76' : '#1f2328',
+            umschalten: function () { setMark(s.key, { nachgearbeitet: !dd }); } };
+        })
+      };
+    });
+    R.nhAlles = miss.length > 0 && R.nhGruppen.length === 0;
+    R.nhHatErl = nDone > 0;
+    R.nhErlText = S.zeigeErlN ? 'Erledigte ausblenden' : (nDone === 1 ? '1 erledigte anzeigen' : nDone + ' erledigte anzeigen');
+    R.nhErlUmschalten = function () { self.setState({ zeigeErlN: !S.zeigeErlN }); };
+
+    // Aufgaben & Fristen
+    var wEnde = iso(addDays(parse(mondayOf(HEUTE)), 6)), in4w = iso(addDays(parse(HEUTE), 28));
+    R.aufgabenZaehler = aufgabenListe.filter(function (e) { return !e.erledigt; }).length + ' offen';
+    var liste = aufgabenListe.filter(function (e) { return S.zeigeErl || !e.erledigt; }).sort(function (a, b) { return (a.datum + (a.zeit || '')).localeCompare(b.datum + (b.zeit || '')); });
+    var BUCK = [['Überfällig', function (e) { return e.datum < HEUTE && !e.erledigt; }], ['Diese Woche', function (e) { return e.datum >= HEUTE && e.datum <= wEnde; }], ['Nächste 4 Wochen', function (e) { return e.datum > wEnde && e.datum <= in4w; }], ['Später', function (e) { return e.datum > in4w; }], ['Erledigt', function (e) { return e.erledigt && e.datum < HEUTE; }]];
+    var STANDARD = { 'Später': false, 'Erledigt': false };
+    R.gruppen = BUCK.map(function (b) {
+      var arr = liste.filter(b[1]); if (!arr.length) return null;
+      var name = b[0], offen = (name in S.foldA) ? S.foldA[name] : STANDARD[name] !== false;
+      return {
+        name: name.toUpperCase(), zahl: String(arr.length), farbe: name === 'Überfällig' ? '#c42b2b' : '#6b6f76', pfeil: offen ? '▾' : '▸', offen: offen,
+        umschalten: function () { var f = Object.assign({}, S.foldA); f[name] = !offen; self.setState({ foldA: f }); },
+        liste: arr.map(function (e) {
+          var t = TAG[e.art] || TAG.todo;
+          return { titel: e.titel, erledigt: !!e.erledigt, farbe: e.erledigt ? '#6b6f76' : '#1f2328', deko: e.erledigt ? 'line-through' : 'none', tag: ARTEN[e.art], tagBg: t[0], tagFg: t[1],
+            info: fmtD(e.datum) + (e.zeit ? ' ' + e.zeit : '') + (e.modul ? ' · ' + e.modul : ''),
+            oeffne: function () { oeffneEintrag(e); },
+            umschalten: function () { self.setState({ eintraege: S.eintraege.map(function (x) { return x.id === e.id ? Object.assign({}, x, { erledigt: !x.erledigt }) : x; }) }); } };
+        })
+      };
+    }).filter(Boolean);
+    R.nhKarteOffen = S.nhKarte; R.nhKartePfeil = S.nhKarte ? '▾' : '▸'; R.nhKarteUm = function () { self.setState({ nhKarte: !S.nhKarte }); };
+    R.afKarteOffen = S.afKarte; R.afKartePfeil = S.afKarte ? '▾' : '▸'; R.afKarteUm = function () { self.setState({ afKarte: !S.afKarte }); };
+    R.erlText = S.zeigeErl ? 'Erledigte ausblenden' : 'Erledigte anzeigen';
+    R.erlUmschalten = function () { self.setState({ zeigeErl: !S.zeigeErl }); };
+
+    // Sitzungs-Dialog
+    var sk = S.sitzung, ss = sk ? SESS.filter(function (x) { return x.key === sk; })[0] : null;
+    var PI = S.pInfo; R.piOffen = !!PI; R.piZu = function () { self.setState({ pInfo: null }); };
+    R.pi = PI ? { titel: PI.titel, datum: fmtD(PI.datum) + PI.datum.slice(0, 4) + (PI.zeit ? ', ' + PI.zeit + ' Uhr' : ''), modul: (PI.modul || '').slice(0, 6), fg: farbe(PI.modul || '')[0], hinweis: PI._geaendert ? 'Termin wurde auf der Prüfungsseite geändert.' : '' } : { titel: '', datum: '', modul: '', fg: '#1f2328', hinweis: '' };
+    R.sOffen = !!ss;
+    R.sZu = function () { self.setState({ sitzung: null }); };
+    if (ss) {
+      var a = att(ss), f = farbe(ss.c.modul);
+      R.s = {
+        modul: ss.c.modul, fg: f[0], titel: ss.c.titel, termin: fmtD(ss.date) + ', ' + ss.von + '–' + ss.bis + ' Uhr', raum: ss.raum, thema: ss.thema || '–',
+        daBg: a === 'da' ? '#ffffff' : 'transparent', daFg: a === 'da' ? '#1f2328' : '#6b6f76', daSchatten: a === 'da' ? '0 1px 2px rgba(0,0,0,0.12)' : 'none',
+        wegBg: a === 'weg' ? '#ffffff' : 'transparent', wegFg: a === 'weg' ? '#e07a88' : '#6b6f76', wegSchatten: a === 'weg' ? '0 1px 2px rgba(0,0,0,0.12)' : 'none',
+        ausBg: a === 'aus' ? '#ffffff' : 'transparent', ausFg: a === 'aus' ? '#1f2328' : '#6b6f76', ausSchatten: a === 'aus' ? '0 1px 2px rgba(0,0,0,0.12)' : 'none',
+        setzeAus: function () { setMark(ss.key, { ausgefallen: true, anwesend: undefined }); },
+        themaWert: ss.thema || '', setzeThema: function (ev) { setMark(ss.key, { thema: ev.target.value }); },
+        istWeg: a === 'weg', nachgearbeitet: isDone(ss),
+        setzeDa: function () { setMark(ss.key, { anwesend: true, ausgefallen: false }); },
+        setzeWeg: function () { setMark(ss.key, { anwesend: false, ausgefallen: false }); },
+        umschaltenNach: function () { setMark(ss.key, { nachgearbeitet: !isDone(ss) }); },
+        hausaufgabe: function () { oeffneEintrag({ datum: ss.date, art: 'hausaufgabe', modul: ss.c.modul }); },
+        karte: function () { try { window.sessionStorage.setItem('lernapp-karten-oeffnen', JSON.stringify({ modul: ss.c.modul.slice(0, 6), teil: ss.c.modul, sitzung: ss.key, aktion: 'neu' })); } catch (e) {} },
+        lernstoff: function () { try { window.sessionStorage.setItem('lernapp-modul-oeffnen', JSON.stringify({ k: ss.c.modul.slice(0, 6), tab: 'lernen', teil: ss.c.modul, datum: ss.date })); } catch (e) {} }
+      };
+    } else { R.s = { karte: function () {}, lernstoff: function () {}, modul: '', fg: '#1f2328', titel: '', termin: '', raum: '', thema: '', daBg: '', daFg: '', daSchatten: '', wegBg: '', wegFg: '', wegSchatten: '', themaWert: '', setzeThema: function () {}, ausBg: '', ausFg: '', ausSchatten: '', setzeAus: function () {}, istWeg: false, nachgearbeitet: false, setzeDa: function () {}, setzeWeg: function () {}, umschaltenNach: function () {}, hausaufgabe: function () {} }; }
+
+    // Eintrags-Dialog
+    var ed = S.eintrag;
+    R.eOffen = !!ed;
+    R.e = ed || { titel: '', art: 'hausaufgabe', modul: '', datum: '', zeit: '', bis: '', bisDatum: '', ganztag: false, notiz: '', erledigt: false };
+    R.eIstPrivat = !!(ed && ed.art === 'privat'); R.eNichtPrivat = !R.eIstPrivat;
+    R.eZeitLabel = R.eIstPrivat ? 'Beginn' : 'Uhrzeit (optional)';
+    var gzt = !!(ed && ed.art === 'privat' && ed.ganztag);
+    R.eZeitSicht = !gzt; R.eEndeSicht = R.eIstPrivat && !gzt; R.eBisDatumSicht = gzt;
+    R.eWdhSicht = R.eIstPrivat && !gzt;
+    R.eWdhAktiv = R.eWdhSicht && !!(ed && ed.wdh);
+    R.eTage = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'].map(function (n, i) {
+      var an = !!(ed && (ed.tage || []).indexOf(i) >= 0);
+      return { name: n, bg: an ? '#ffffff' : 'transparent', rand: an ? '#1f2328' : '#e6e6e0', fg: an ? '#1f2328' : '#6b6f76',
+        umschalten: function () { var tg = (S.eintrag.tage || []).slice(); var p = tg.indexOf(i); if (p >= 0) tg.splice(p, 1); else tg.push(i); tg.sort(); self.setState({ eintrag: Object.assign({}, S.eintrag, { tage: tg }) }); } };
+    });
+    R.eGanztag = function () { self.setState({ eintrag: Object.assign({}, S.eintrag, { ganztag: !S.eintrag.ganztag }) }); };
+    R.eBestehend = !!(ed && ed.id);
+    R.eTitel = R.eBestehend ? 'Eintrag bearbeiten' : 'Neuer Eintrag';
+    R.eFehler = !!(ed && ed._fehler); R.eFehlerText = ed ? ed._fehler : '';
+    R.eLoeschText = ed && ed._armed ? 'Wirklich löschen?' : 'Löschen';
+    R.eSerie = !!(ed && ed.id && ed.art === 'privat' && ed.wdh);
+    R.eKannAuslassen = R.eSerie && !!ed._klick;
+    R.eAuslassenText = ed && ed._klick ? 'Nur diesen Termin auslassen (' + fmtD(ed._klick) + ')' : '';
+    var ausn = (ed && ed.ausnahmen) || [];
+    R.eHatAusnahmen = R.eSerie && ausn.length > 0;
+    R.eAusnahmenText = ausn.slice().sort().map(function (x) { return fmtD(x); }).join(', ');
+    R.eAuslassen = function () { var x = S.eintrag; var a = (x.ausnahmen || []).concat([x._klick]); self.setState({ eintrag: null, eintraege: S.eintraege.map(function (y) { return y.id === x.id ? Object.assign({}, y, { ausnahmen: a }) : y; }) }); };
+    R.eAusnahmenWeg = function () { var x = S.eintrag; self.setState({ eintrag: Object.assign({}, x, { ausnahmen: [] }), eintraege: S.eintraege.map(function (y) { return y.id === x.id ? Object.assign({}, y, { ausnahmen: [] }) : y; }) }); };
+    R.eSet = {};
+    ['titel', 'art', 'modul', 'datum', 'zeit', 'bis', 'bisDatum', 'notiz', 'wdh', 'wdhBis'].forEach(function (k) { R.eSet[k] = function (ev) { var n = Object.assign({}, S.eintrag); n[k] = ev.target.value; if (k === 'wdh' && ev.target.value && !(n.tage || []).length && n.datum) n.tage = [(parse(n.datum).getDay() + 6) % 7]; self.setState({ eintrag: n }); }; });
+    R.eErledigt = function () { self.setState({ eintrag: Object.assign({}, S.eintrag, { erledigt: !S.eintrag.erledigt }) }); };
+    R.eZu = function () { self.setState({ eintrag: null }); };
+    R.eLoeschen = function () {
+      if (!S.eintrag._armed) { self.setState({ eintrag: Object.assign({}, S.eintrag, { _armed: true }) }); return; }
+      var id = S.eintrag.id; self.setState({ eintrag: null, eintraege: S.eintraege.filter(function (x) { return x.id !== id; }) });
+    };
+    R.eOk = function () {
+      var x = S.eintrag;
+      if (!x.titel || !x.titel.trim()) { self.setState({ eintrag: Object.assign({}, x, { _fehler: 'Bitte einen Titel eingeben.' }) }); return; }
+      if (!x.datum) { self.setState({ eintrag: Object.assign({}, x, { _fehler: 'Bitte ein Datum wählen.' }) }); return; }
+      if (x.art === 'privat' && x.wdh && !x.ganztag && !(x.tage || []).length) { self.setState({ eintrag: Object.assign({}, x, { _fehler: 'Bitte mindestens einen Wochentag wählen.' }) }); return; }
+      if (x.art === 'privat' && x.ganztag && x.bisDatum && x.bisDatum < x.datum) { self.setState({ eintrag: Object.assign({}, x, { _fehler: 'Das Enddatum liegt vor dem Startdatum.' }) }); return; }
+      var body = { id: x.id || ('e' + Date.now().toString(36)), art: x.art, datum: x.datum, zeit: (x.art === 'privat' && x.ganztag) ? '' : (x.zeit || ''), bis: (x.art === 'privat' && !x.ganztag) ? (x.bis || '') : '', ganztag: !!(x.art === 'privat' && x.ganztag), bisDatum: (x.art === 'privat' && x.ganztag && x.bisDatum && x.bisDatum > x.datum) ? x.bisDatum : '', wdh: (x.art === 'privat' && !x.ganztag) ? (x.wdh || '') : '', tage: (x.art === 'privat' && !x.ganztag && x.wdh) ? (x.tage || []) : [], wdhBis: (x.art === 'privat' && !x.ganztag && x.wdh) ? (x.wdhBis || '') : '', modul: x.art === 'privat' ? '' : (x.modul || ''), titel: x.titel.trim(), notiz: x.notiz || '', erledigt: !!x.erledigt, ausnahmen: x.ausnahmen || [] };
+      var neu = S.eintraege.filter(function (y) { return y.id !== body.id; }).concat([body]);
+      self.setState({ eintraege: neu, eintrag: null });
+    };
+    return R;
+  }
+}
+</script>
+</body>
+</html>

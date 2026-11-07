@@ -1,0 +1,273 @@
+{
+ "stand": "2026-10-23",
+ "quelle": "Artifact-Datenbank https://claude.ai/artifact/RW16ydmGL8mCh7Ps9mY6Kn",
+ "eintraege": [
+  {
+   "id": "ank-ewb001-einheiten",
+   "art": "hausaufgabe",
+   "datum": "2026-10-27",
+   "erledigt": false,
+   "modul": "ewb001.2",
+   "notiz": "Ankündigung Rieckmann vom 21.10.: Einheit 03 bis zur Präsenzsitzung ewb001.2 am 27.10. Die Einheiten 01+02 waren für den 20.10. dran und stehen unter „Nachholen“. Alles auch unter Dateien.",
+   "titel": "Courseware-Einheit 03 vorbereiten (Video + Literatur)",
+   "zeit": "14:00"
+  },
+  {
+   "id": "ank-ewb001-klausuraufgaben",
+   "art": "todo",
+   "datum": "2026-10-30",
+   "erledigt": false,
+   "modul": "ewb001.2",
+   "notiz": "Ankündigung Rieckmann vom 13.10.",
+   "titel": "Beispiel-Klausuraufgaben unter „Aufgaben“ ansehen",
+   "zeit": ""
+  },
+  {
+   "id": "ank-mab004-tutorium",
+   "art": "termin",
+   "datum": "2026-11-09",
+   "erledigt": false,
+   "modul": "mab004.1",
+   "notiz": "Eine selbst gewählte Übungsaufgabe vorher bearbeiten. Termin wird per Ankündigung bekannt gegeben.",
+   "titel": "Erstes Tutorium (VL-Woche 5, Termin folgt)",
+   "zeit": ""
+  },
+  {
+   "id": "ank-mab004-umfrage",
+   "art": "todo",
+   "datum": "2026-10-26",
+   "erledigt": true,
+   "modul": "mab004.1",
+   "notiz": "Link in der Ankündigung von Marje Eggeling vom 14.10. (ursprünglicher Link funktioniert wieder, Ankündigung 22.10.). Teilnahme ist keine Anwesenheitspflicht.",
+   "titel": "Umfrage zur Tutoriumsterminfindung ausfüllen",
+   "zeit": ""
+  },
+  {
+   "id": "emvl0iynjse9v",
+   "art": "hausaufgabe",
+   "datum": "2026-11-12",
+   "erledigt": false,
+   "modul": "pkb003.3",
+   "notiz": "",
+   "titel": "Präsentation zu Max Webers Bürokratiemodell",
+   "zeit": ""
+  },
+  {
+   "id": "fr-ewb001-anm",
+   "art": "frist",
+   "datum": "2026-12-31",
+   "erledigt": false,
+   "modul": "ewb001.1",
+   "notiz": "Anmeldefrist 14.10.–31.12.26, 24 Uhr. Selbst anmelden und prüfen, ob die Klausur in QISPOS erscheint. Abmeldung bis 22.01.27.",
+   "titel": "Anmeldeschluss QISPOS ewb001 (Abmeldung bis 22.01.)",
+   "zeit": ""
+  },
+  {
+   "id": "fr-pkb003-ha",
+   "art": "frist",
+   "datum": "2027-03-15",
+   "erledigt": false,
+   "modul": "pkb003.3",
+   "notiz": "Umfang i. d. R. 45.000–55.000 Zeichen inkl. Leerzeichen (ohne Deckblatt, Verzeichnisse, Anhang); Zeichenzahl angeben. Thema vorher in der Sprechstunde vereinbaren.",
+   "titel": "Abgabe Hausarbeit pkb003",
+   "zeit": ""
+  },
+  {
+   "id": "fr-pyb005-anm",
+   "art": "frist",
+   "datum": "2027-01-31",
+   "erledigt": false,
+   "modul": "pyb005",
+   "notiz": "Anmeldung 01.11.26 – 31.01.27, Rücktritt bis 05.02.27.",
+   "titel": "Anmeldeschluss QISPOS pyb005 (Rücktritt bis 05.02.)",
+   "zeit": ""
+  },
+  {
+   "id": "fr-pyb005-lv",
+   "art": "frist",
+   "datum": "2026-10-26",
+   "erledigt": false,
+   "modul": "pyb005",
+   "notiz": "VL pyb005.1, Seminar pyb005.2 und eÜbung – laut Stud.IP bist du in allen drei. Nur kurz bestätigen.",
+   "titel": "In ALLE pyb005-Veranstaltungen eingetragen? (Prüfungsvoraussetzung)",
+   "zeit": ""
+  },
+  {
+   "id": "hw-ewb001-anm",
+   "art": "todo",
+   "datum": "2026-10-27",
+   "erledigt": false,
+   "modul": "ewb001.1",
+   "notiz": "Anmeldung 14.10.26 – 31.12.26, 24 Uhr. Abmeldung bis 22.01.27. Selbst anmelden und prüfen, ob die Klausur in QISPOS erscheint.",
+   "titel": "QISPOS-Anmeldung ewb001 (14.10.–31.12., Abmeldung bis 22.01.)",
+   "zeit": ""
+  },
+  {
+   "id": "hw-pkb0033-ha",
+   "art": "todo",
+   "datum": "2026-11-12",
+   "erledigt": false,
+   "modul": "pkb003.3",
+   "notiz": "Prüfungsform Hausarbeit (45.000–55.000 Zeichen). Vorab 10-Min-Präsentation (PPP/Poster) + 5 Min Austausch; Entwurf jeweils bis Dienstagabend vor der Sitzung an die Dozentin.",
+   "titel": "Sprechstunde für Hausarbeit pkb003.3 vereinbaren",
+   "zeit": ""
+  },
+  {
+   "id": "hw-pyb005-anm",
+   "art": "todo",
+   "datum": "2026-11-02",
+   "erledigt": false,
+   "modul": "pyb005",
+   "notiz": "Zeitraum 01.11.2026–31.01.2027, Rücktritt bis 05.02.2027.",
+   "titel": "QISPOS-Anmeldung pyb005 (01.11.–31.01., Rücktritt bis 05.02.)",
+   "zeit": ""
+  },
+  {
+   "id": "pr-ewb001-1",
+   "art": "pruefung",
+   "datum": "2027-02-02",
+   "erledigt": false,
+   "modul": "ewb001.1",
+   "notiz": "Anmeldung QISPOS: 14.10.26 – 31.12.26 (24 Uhr) · Abmeldung bis 22.01.27.\nOnline-Klausur vor Ort über Stud.IP-Aufgaben: Laptop/Tablet mit Internet + Ausweis mitbringen. Raum nach Nachname (Q015 A–D, Q016 E–K, B1 L–R, F144 S–Z). Zweittermin 30.03.2027, 13 Uhr.",
+   "titel": "Klausur ewb001 (Ersttermin), Einlass ab 12 Uhr",
+   "zeit": "13:00"
+  },
+  {
+   "id": "pr-ewb001-2",
+   "art": "pruefung",
+   "datum": "2027-03-30",
+   "erledigt": false,
+   "modul": "ewb001.1",
+   "notiz": "Eigene Anmeldung nötig: QISPOS 14.02.27 – 15.03.27 · Abmeldung bis 27.03.27. Nachteilsausgleich/Familienverantwortung bis 25.03.27 an margit.stein@uni-vechta.de. Erster Termin wird dringend empfohlen.",
+   "titel": "Klausur ewb001 (Zweittermin)",
+   "zeit": "13:00"
+  },
+  {
+   "id": "pr-ewb002-1",
+   "art": "pruefung",
+   "datum": "2027-02-04",
+   "erledigt": false,
+   "modul": "ewb002.1",
+   "notiz": "Anmeldung QISPOS: ab Januar 2027, genauer Zeitraum und Abmeldefrist noch nicht bekannt.\nPräsenzklausur, überwiegend offene Fragen, bestanden ab 50 %. Ort folgt. Zweittermin 18.03.2027.",
+   "titel": "Klausur ewb002 (Ersttermin), voraussichtlich 12 Uhr",
+   "zeit": "12:00"
+  },
+  {
+   "id": "pr-ewb002-2",
+   "art": "pruefung",
+   "datum": "2027-03-18",
+   "erledigt": false,
+   "modul": "ewb002.1",
+   "notiz": "Anmeldung QISPOS ab Mitte/Ende Februar 2027, genauer Zeitraum noch nicht bekannt.",
+   "titel": "Klausur ewb002 (Zweittermin)",
+   "zeit": "12:00"
+  },
+  {
+   "id": "pr-mab004-1",
+   "art": "pruefung",
+   "datum": "2027-02-02",
+   "erledigt": false,
+   "modul": "mab004.1",
+   "notiz": "Anmeldung QISPOS: ab 23.11.2026 (laut QISPOS, Ende noch nicht bekannt). Prüferin Rosenwinkel.\nSchwerpunkt: Fragen zur Programmierung. Zweittermin 16.03.2027, 8–10 Uhr. Quelle: VL1-Folien.",
+   "titel": "Klausur mab004 (Ersttermin) 8–10 Uhr",
+   "zeit": "08:00"
+  },
+  {
+   "id": "pr-mab004-2",
+   "art": "pruefung",
+   "datum": "2027-03-16",
+   "erledigt": false,
+   "modul": "mab004.1",
+   "notiz": "Nur falls Ersttermin nicht genutzt.",
+   "titel": "Klausur mab004 (Zweittermin) 8–10 Uhr",
+   "zeit": "08:00"
+  },
+  {
+   "id": "pr-mab005-1",
+   "art": "pruefung",
+   "datum": "2027-02-08",
+   "erledigt": false,
+   "modul": "mab005.1",
+   "notiz": "Anmeldung QISPOS: Zeitraum noch nicht bekannt (im Handout steht nur „ab Juni“, vermutlich veraltet).\nNoch als Vorschlag angegeben (Handout Kapitel 0). 90 Minuten, Aufgabenformate ähnlich den Übungszetteln. Wer den 2. Termin als Erstversuch wählt, kann erst im folgenden Sommersemester wiederholen.",
+   "titel": "Klausur mab005 (Ersttermin) 14–16 Uhr",
+   "zeit": "14:00"
+  },
+  {
+   "id": "pr-mab005-2",
+   "art": "pruefung",
+   "datum": "2027-03-29",
+   "erledigt": false,
+   "modul": "mab005.1",
+   "notiz": "Noch als Vorschlag angegeben.",
+   "titel": "Klausur mab005 (Zweittermin) 14–16 Uhr",
+   "zeit": "14:00"
+  },
+  {
+   "id": "pr-pyb005-1",
+   "art": "pruefung",
+   "datum": "2027-02-09",
+   "erledigt": false,
+   "modul": "pyb005",
+   "notiz": "Anmeldung QISPOS: 01.11.26 – 31.01.27 · Rücktritt bis 05.02.27.\nPräsenzklausur, 30 MC-Fragen, alle Veranstaltungen prüfungsrelevant. Zweittermin 16.03.2027. eProbeklausur am 27.01.",
+   "titel": "Klausur pyb005 (Ersttermin) 10–15 Uhr",
+   "zeit": "10:00"
+  },
+  {
+   "id": "pr-pyb005-2",
+   "art": "pruefung",
+   "datum": "2027-03-16",
+   "erledigt": false,
+   "modul": "pyb005",
+   "notiz": "Freie Wahl zwischen Erst- und Zweittermin. Für den Zweittermin ist eine neue Anmeldung nötig, Zeitraum noch nicht bekannt.",
+   "titel": "Klausur pyb005 (Zweittermin)",
+   "zeit": "10:00"
+  },
+  {
+   "id": "todo-mab004-anm",
+   "art": "todo",
+   "datum": "2026-11-23",
+   "erledigt": false,
+   "modul": "mab004.1",
+   "notiz": "Anmeldebeginn laut QISPOS 23.11.2026. Klausur 02.02.2027, 8–10 Uhr.",
+   "titel": "QISPOS-Anmeldung mab004 (ab 23.11.)",
+   "zeit": ""
+  }
+ ],
+ "sitzungen": [
+  {
+   "id": "ewb001-t_2026-10-23",
+   "anwesend": true,
+   "geaendert": "2026-10-23T14:18:06.939Z"
+  },
+  {
+   "id": "mab004-1_2026-10-13",
+   "geaendert": "2026-10-23T14:00:24.629Z",
+   "nachgearbeitet": false
+  },
+  {
+   "id": "mab004-1_2026-10-20",
+   "geaendert": "2026-10-23T13:55:30.308Z",
+   "nachgearbeitet": false
+  },
+  {
+   "id": "mab004-2_2026-10-13",
+   "geaendert": "2026-10-23T13:55:29.853Z",
+   "nachgearbeitet": false
+  },
+  {
+   "id": "mab004-2_2026-10-20",
+   "geaendert": "2026-10-23T13:55:28.664Z",
+   "nachgearbeitet": false
+  },
+  {
+   "id": "pkb003-3_2026-10-22",
+   "anwesend": true,
+   "geaendert": "2026-10-23T14:17:31.146Z"
+  },
+  {
+   "id": "pyb005-e_2026-10-22",
+   "anwesend": false,
+   "geaendert": "2026-10-23T14:17:35.963Z"
+  }
+ ]
+}

@@ -1,0 +1,494 @@
+<title>Studienkalender WiSe 26/27</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap">
+<style>
+/* Layout: Kopf mit Wochennavigation und Klausurleiste, darunter der Wochenplan in voller Breite, darunter zwei Spalten: Nachholen | Aufgaben & Fristen */
+:root{
+  --bg:#f7f7f4; --surface:#ffffff; --line:#e6e6e0; --line-soft:#f0f0eb; --fg:#1f2328; --muted:#6b6f76; --accent:#1f2328;
+  --mab004:#5f80b5; --mab004-bg:#eaf1fc;
+  --mab005:#4f8f80; --mab005-bg:#e6f5f0;
+  --pkb003:#b46b80; --pkb003-bg:#fbebef;
+  --ewb001:#6d9156; --ewb001-bg:#edf5e5;
+  --ewb002:#b5845a; --ewb002-bg:#fcf0e4;
+  --pyb005:#8a77b5; --pyb005-bg:#f1edfa;
+  --ma:#2f62c9; --ma-bg:#ebf1fc;
+  --po:#cc3d55; --po-bg:#fcecef;
+  --bw:#1f8a7a; --bw-bg:#e5f4f1;
+  --catch:#e07a88; --catch-bg:#fcecee;
+  --hw:#4b5563; --hw-bg:#eef0f3;
+  --due:#c42b2b; --due-bg:#fde9e9;
+  --today:#fffaf0; --now:#e5484d;
+  --font:"Nunito","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#151719; --surface:#1d2023; --line:#2e3236; --line-soft:#25292c; --fg:#ecedee; --muted:#9ba1a6; --accent:#ecedee;
+  --ma:#8db2f5; --ma-bg:#1d2a40; --po:#f08a9b; --po-bg:#3a2329; --bw:#6fd0c0; --bw-bg:#1a3330;
+  --catch:#ff7a8a; --catch-bg:#3d2026; --hw:#c3c8cf; --hw-bg:#2a2e33;
+  --mab004:#8db2f5; --mab004-bg:#1d2a40; --mab005:#6fcde0; --mab005-bg:#163238; --pkb003:#f08a9b; --pkb003-bg:#3a2329;
+  --ewb001:#7fd49a; --ewb001-bg:#1b3323; --ewb002:#f3a766; --ewb002-bg:#3a2814; --pyb005:#e895d2; --pyb005-bg:#3a2034; --due:#f28b8b; --due-bg:#3d2020; --today:#22241f; --now:#ff6b6f; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#151719; --surface:#1d2023; --line:#2e3236; --line-soft:#25292c; --fg:#ecedee; --muted:#9ba1a6; --accent:#ecedee;
+  --ma:#8db2f5; --ma-bg:#1d2a40; --po:#f08a9b; --po-bg:#3a2329; --bw:#6fd0c0; --bw-bg:#1a3330;
+  --catch:#ff7a8a; --catch-bg:#3d2026; --hw:#c3c8cf; --hw-bg:#2a2e33;
+  --mab004:#8db2f5; --mab004-bg:#1d2a40; --mab005:#6fcde0; --mab005-bg:#163238; --pkb003:#f08a9b; --pkb003-bg:#3a2329;
+  --ewb001:#7fd49a; --ewb001-bg:#1b3323; --ewb002:#f3a766; --ewb002-bg:#3a2814; --pyb005:#e895d2; --pyb005-bg:#3a2034; --due:#f28b8b; --due-bg:#3d2020; --today:#22241f; --now:#ff6b6f; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);font-size:15px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 48px}
+.wrap{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+h1,h2{margin:0;text-wrap:balance;font-weight:700}
+h1{font-size:1.45rem;letter-spacing:-.01em}
+h2{font-size:1rem}
+.muted{color:var(--muted)}
+.tnum{font-variant-numeric:tabular-nums}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--ma);outline-offset:2px}
+
+/* Kopf */
+header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px}
+.title{display:flex;flex-direction:column;gap:2px}
+.sub{color:var(--muted);font-size:.92rem}
+.nav{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 14px;min-height:36px}
+.btn:hover{border-color:var(--muted)}
+.btn.icon{width:36px;padding:0;display:inline-grid;place-items:center;font-size:1.1rem}
+.btn.primary{background:var(--fg);border-color:var(--fg);color:var(--bg);font-weight:700}
+
+/* Klausurleiste */
+.exams{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px}
+.exam{flex:none;display:flex;flex-direction:column;gap:1px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 12px;min-width:132px;text-align:left}
+.exam:hover{border-color:var(--muted)}
+.exam .d{font-weight:700}
+.exam .n{font-size:.82rem;color:var(--muted)}
+.exam .left{font-size:.75rem;color:var(--due);font-weight:700}
+.exams-label{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700}
+
+/* Woche */
+.cal{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow-x:auto}
+.week{min-width:760px;display:grid;grid-template-columns:52px repeat(5,minmax(0,1fr))}
+.dhead{padding:10px 10px 8px;border-left:1px solid var(--line-soft);display:flex;align-items:baseline;gap:6px}
+.dhead .dn{font-size:.85rem;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.05em}
+.dhead .dd{font-size:.85rem;font-weight:700}
+.dhead.is-today .dd{background:var(--fg);color:var(--bg);border-radius:999px;padding:0 8px}
+.strip{border-left:1px solid var(--line-soft);border-bottom:1px solid var(--line);padding:0 6px 8px;display:flex;flex-direction:column;gap:3px;min-height:12px}
+.corner{border-bottom:1px solid var(--line)}
+.corner.top{border-bottom:0}
+.hours div{height:var(--hour);font-size:.72rem;color:var(--muted);text-align:right;padding-right:8px;transform:translateY(-.65em)}
+.hours div:first-child{visibility:hidden}
+.day{position:relative;border-left:1px solid var(--line-soft);background-image:linear-gradient(var(--line-soft) 1px,transparent 1px);background-size:100% var(--hour)}
+.day.is-today,.dhead.is-today,.strip.is-today{background-color:var(--today)}
+.ev{position:absolute;border:0;border-radius:8px;padding:6px 8px;text-align:left;overflow:hidden;display:flex;flex-direction:column;gap:2px;
+  background:var(--c-bg);box-shadow:inset 3px 0 0 var(--c);font-size:.78rem;line-height:1.25;min-width:0}
+.ev{box-shadow:inset 3px 0 0 color-mix(in srgb,var(--c) 30%,var(--c-bg))}
+.ev:hover{box-shadow:inset 3px 0 0 color-mix(in srgb,var(--c) 30%,var(--c-bg)),0 0 0 1px color-mix(in srgb,var(--c) 40%,transparent)}
+.ev .q{display:inline-grid;place-items:center;width:15px;height:15px;border-radius:50%;background:var(--surface);color:var(--muted);font-size:.66rem;font-weight:800;box-shadow:0 0 0 1px var(--line)}
+.ev .ok{color:var(--c);font-size:.75rem;line-height:1}
+.toprows{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:10px 14px;align-items:center}
+.rowc{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;min-width:0}
+.pill .pt{max-width:24ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pill.late .pd{color:var(--due);font-weight:700}
+.exams{display:flex;gap:6px;flex-wrap:wrap}
+.pill{display:inline-flex;align-items:center;gap:6px;border:0;border-radius:999px;padding:4px 11px;font-size:.8rem;background:var(--c-bg);color:var(--fg)}
+.pill b{color:var(--c)}
+.pill:hover{box-shadow:0 0 0 1px color-mix(in srgb,var(--c) 45%,transparent)}
+.examnote{font-size:.8rem;color:var(--muted)}
+.seg{display:flex;background:var(--bg);border-radius:10px;padding:3px;gap:3px}
+.seg button{flex:1;border:0;background:none;border-radius:8px;padding:8px 10px;font-weight:700;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--fg);box-shadow:0 1px 2px color-mix(in srgb,#000 12%,transparent)}
+.seg button.no[aria-pressed="true"]{color:var(--catch)}
+.fieldlabel{font-size:.8rem;color:var(--muted);font-weight:700}
+.ev.ma{--c:var(--ma);--c-bg:var(--ma-bg)} .ev.po{--c:var(--po);--c-bg:var(--po-bg)} .ev.bw{--c:var(--bw);--c-bg:var(--bw-bg)}
+.ev .code{color:var(--c);font-weight:700;font-size:.72rem;display:flex;align-items:center;gap:5px;white-space:nowrap}
+.ev .t{font-weight:700;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;hyphens:auto;-webkit-hyphens:auto;overflow-wrap:break-word}
+.ev .m{color:var(--muted);font-size:.72rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ev .dot{width:7px;height:7px;border-radius:50%;background:var(--catch);flex:none}
+.ev.done .dot{background:var(--bw)}
+.ev.done{opacity:.6}
+.ev.narrow{padding:6px 6px}
+.ev.narrow .t{-webkit-line-clamp:2}
+.nowline{position:absolute;left:0;right:0;height:2px;background:var(--now);z-index:3}
+.nowline::before{content:"";position:absolute;left:-4px;top:-3px;width:8px;height:8px;border-radius:50%;background:var(--now)}
+.chip{border:0;border-radius:6px;padding:3px 7px;font-size:.74rem;text-align:left;line-height:1.25;width:100%;background:var(--k-bg);color:var(--k);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.k-hausaufgabe{--k:var(--hw);--k-bg:var(--hw-bg)} .k-frist,.k-pruefung{--k:var(--due);--k-bg:var(--due-bg)}
+.k-todo{--k:var(--muted);--k-bg:var(--line-soft)}
+.k-nachholen{--k:var(--catch);--k-bg:var(--catch-bg)} .k-termin{--k:var(--muted);--k-bg:var(--line-soft)}
+.chip.k-pruefung,.chip.k-frist{font-weight:700}
+.chip.erledigt{text-decoration:line-through;opacity:.55}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.8rem;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:10px;height:10px;border-radius:3px;display:inline-block}
+
+/* Listen unten */
+.lists{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:start}
+@media (max-width:820px){.lists{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.panel-head{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.count{font-size:.85rem;color:var(--muted)}
+.bar{height:6px;border-radius:3px;background:var(--line-soft);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--ewb001);border-radius:3px;transition:width .3s}
+.group{display:flex;flex-direction:column;gap:2px}
+.group-h{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700;padding:6px 4px 2px;display:flex;justify-content:space-between}
+details.fold>summary{cursor:pointer;list-style:none;border-radius:6px}
+details.fold>summary::-webkit-details-marker{display:none}
+details.fold>summary>span:first-child::before{content:"›";display:inline-block;width:1em;transition:transform .15s;font-size:1rem;line-height:1}
+details.fold[open]>summary>span:first-child::before{transform:rotate(90deg)}
+details.fold>summary:hover{background:var(--bg)}
+.list{display:flex;flex-direction:column;margin:0;padding:0;list-style:none}
+.list li{display:flex;gap:10px;align-items:flex-start;padding:7px 4px;border-radius:8px}
+.list li:hover{background:var(--bg)}
+.list input[type=checkbox]{width:18px;height:18px;margin-top:2px;accent-color:var(--fg);flex:none}
+.list .txt{min-width:0;flex:1;font-size:.9rem;display:flex;flex-direction:column;gap:1px}
+.list .txt .ti{font-weight:700;border:0;background:none;padding:0;text-align:left}
+.list .txt small{color:var(--muted);font-size:.8rem}
+.list .lt .dt{display:inline-block;min-width:4.6em;margin-right:.4em;color:var(--muted)}
+#catchList .list li{padding:4px 4px}
+#catchList{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:4px 16px}
+.list .done .ti,.list .done .lt{text-decoration:line-through;color:var(--muted)}
+.tag{display:inline-block;font-size:.68rem;font-weight:700;padding:1px 6px;border-radius:4px;background:var(--k-bg);color:var(--k);margin-right:4px}
+.late{color:var(--due)!important;font-weight:700}
+.empty{font-size:.88rem;color:var(--muted);padding:6px 4px}
+.textbtn{border:0;background:none;color:var(--muted);padding:4px;font-size:.85rem;text-decoration:underline;text-underline-offset:3px;align-self:flex-start}
+.note{font-size:.8rem;color:var(--muted)}
+
+/* Dialog */
+.overlay{position:fixed;inset:0;background:color-mix(in srgb,#000 35%,transparent);display:flex;align-items:center;justify-content:center;z-index:20;
+  padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.dialog{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px;width:min(460px,100%);max-height:100%;overflow:auto;display:flex;flex-direction:column;gap:14px}
+.dialog .eyebrow{font-size:.78rem;font-weight:700;color:var(--c,var(--muted))}
+.form{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.form label{display:flex;flex-direction:column;gap:4px;font-size:.8rem;color:var(--muted);font-weight:700;min-width:0}
+.form .full{grid-column:1/-1}
+.form input,.form select,.form textarea{border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:8px;font-weight:400;min-width:0;width:100%}
+.row{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:.92rem;margin:0}
+.kv dt{color:var(--muted)} .kv dd{margin:0}
+.toggle{display:flex;gap:10px;align-items:center;padding:10px 12px;border-radius:10px;background:var(--bg)}
+.toggle input{width:18px;height:18px;accent-color:var(--fg)}
+.status{font-size:.82rem;color:var(--muted)}
+.danger{color:var(--due)}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap" lang="de">
+  <header>
+    <div class="title">
+      <h1>Studienkalender WiSe 26/27</h1>
+      <div class="sub tnum" id="weeklabel"></div>
+    </div>
+    <div class="nav">
+      <button class="btn icon" id="prev" aria-label="Vorige Woche">‹</button>
+      <button class="btn" id="today">Heute</button>
+      <button class="btn icon" id="next" aria-label="Nächste Woche">›</button>
+      <button class="btn primary" id="addBtn">+ Eintrag</button>
+    </div>
+  </header>
+
+  <div class="toprows">
+    <span class="exams-label">Klausuren</span>
+    <div class="rowc"><div class="exams" id="exams"></div><span class="examnote tnum" id="examnote"></span></div>
+    <span class="exams-label">Hausaufgaben</span>
+    <div class="rowc"><div class="exams" id="hw"></div></div>
+  </div>
+
+  <section style="display:flex;flex-direction:column;gap:10px">
+    <div class="cal"><div class="week" id="week"></div></div>
+    <div class="legend" id="legend"></div>
+  </section>
+
+  <div class="lists">
+    <div class="panel">
+      <div class="panel-head"><h2>Nachholen</h2><span class="count tnum" id="catchCount"></span></div>
+      <div class="bar"><i id="catchBar" style="width:0"></i></div>
+      <div id="catchList"></div>
+      <button class="textbtn" id="showDoneCatch" type="button" hidden></button>
+    </div>
+    <div class="panel">
+      <div class="panel-head"><h2>Aufgaben &amp; Fristen</h2><span class="count tnum" id="taskCount"></span></div>
+      <div id="taskList"></div>
+      <button class="textbtn" id="showDone" type="button">Erledigte anzeigen</button>
+    </div>
+  </div>
+  <div class="note" id="dbNote">Termine aus Stud.IP, Stand 23.10.2026. Häkchen und eigene Einträge werden gespeichert.</div>
+</div>
+
+<div class="overlay" id="ov" hidden>
+  <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="dlgTitle" id="dlg"></div>
+</div>
+
+<script>
+(()=>{
+const pad=n=>String(n).padStart(2,'0');
+const iso=d=>d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
+const parse=s=>{const[y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d)};
+const addDays=(d,n)=>{const x=new Date(d);x.setDate(x.getDate()+n);return x};
+const dm=s=>{const[d,m]=s.split('.');return (m==='01'?'2027':'2026')+'-'+m+'-'+d};
+const WEEKS=[];for(let d=parse('2026-10-12');d<=parse('2026-12-14');d=addDays(d,7))WEEKS.push(iso(d));
+for(let d=parse('2027-01-04');d<=parse('2027-01-25');d=addDays(d,7))WEEKS.push(iso(d));
+const weekly=wd=>WEEKS.map(m=>iso(addDays(parse(m),wd)));
+
+const COURSES=[
+ {id:'mab004-1',modul:'mab004.1',titel:'Mathematik in den digitalen Medien I',kurz:'Digitale Medien I · VL',fach:'ma',wd:1,von:'08:00',bis:'10:00',raum:'B1'},
+ {id:'mab004-2',modul:'mab004.2',titel:'Mathematik in den digitalen Medien II (Gruppe A)',kurz:'Digitale Medien II · Gr. A',fach:'ma',wd:1,von:'10:00',bis:'12:00',raum:'J11'},
+ {id:'mab005-1',modul:'mab005.1',titel:'Wahrscheinlichkeitsrechnung I',kurz:'Wahrscheinlichkeitsrechnung I · VL',fach:'ma',wd:0,von:'14:00',bis:'16:00',raum:'B1',themen:{'2026-10-12':'Kapitel 0 (Organisatorisches) und Einstieg Kapitel 1','2026-10-19':'Kapitel 1, Stand danach: bis Folie 32 von 54','2026-10-26':'Kapitel 1 ab Folie 33'}},
+ {id:'mab005-2',modul:'mab005.2',titel:'Wahrscheinlichkeitsrechnung II (Gruppe C)',kurz:'Wahrscheinlichkeitsr. II · Gr. C',fach:'ma',wd:0,von:'18:00',bis:'20:00',raum:'E033',themen:{'2026-10-12':'Aufgabenblatt 01','2026-10-19':'Aufgabenblatt 02'}},
+ {id:'pkb003-1',modul:'pkb003.1',titel:'Politische Ordnung: Das politische System der Bundesrepublik',kurz:'Politische Ordnung',fach:'po',wd:1,von:'12:00',bis:'14:00',raum:'E137b'},
+ {id:'pkb003-2',modul:'pkb003.2',titel:'Wirtschaft und Soziales: Wirtschaft und Gesellschaft der Bundesrepublik',kurz:'Wirtschaft und Soziales',fach:'po',wd:0,von:'12:00',bis:'14:00',raum:'E137b'},
+ {id:'pkb003-3',modul:'pkb003.3',titel:'Verwaltung: Einführung in die öffentliche Verwaltung',kurz:'Verwaltung (14-täglich)',fach:'po',von:'14:00',bis:'18:00',raum:'B1',dates:['22.10','12.11','19.11','03.12','17.12','14.01','28.01'].map(dm)},
+ {id:'ewb001-a',modul:'ewb001.1',titel:'Einführung in die Erziehungswissenschaften (Gruppe B)',kurz:'Einführung Erziehungswiss. · Gr. B',fach:'bw',wd:1,von:'18:00',bis:'20:00',raum:'Q016'},
+ {id:'ewb001-b',modul:'ewb001.2',titel:'Kompetenzorientiertes Lehren und Lernen (Gruppe B)',kurz:'Kompetenzorient. Lehren · Gr. B',fach:'bw',wd:1,von:'14:00',bis:'16:00',raum:'Q016'},
+ {id:'ewb001-t',modul:'ewb001',titel:'Tutorium ewb001 (Gruppe 3)',kurz:'Tutorium ewb001',fach:'bw',wd:4,von:'10:15',bis:'11:45',raum:'digital'},
+ {id:'ewb002-v',modul:'ewb002.1',titel:'Wissenschaftstheoretische und methodische Grundlagen der empirischen Bildungsforschung (Gruppe A)',kurz:'Empirische Bildungsforschung · VL',fach:'bw',wd:2,von:'10:00',bis:'12:00',raum:'F144 (gr. Aula)',raumAus:{'2026-12-02':'B1'}},
+ {id:'ewb002-m',modul:'ewb002.2',titel:'Methoden der empirischen Bildungsforschung in Anwendung und Praxis (Gruppe M)',kurz:'Methoden emp. Bildungsf. · Gr. M',fach:'bw',wd:1,von:'14:00',bis:'16:00',raum:'R005'},
+ {id:'pyb005-v',modul:'pyb005.1',titel:'Grundlagen der Pädagogischen Psychologie für Bildung und Erziehung',kurz:'Päd. Psychologie · VL',fach:'bw',sessions:[
+   ['2026-10-14','10:00','12:00','Q016','01 Grundlegende Studieneinführung'],
+   ['2026-10-21','10:00','14:00','B1','02 Zentrale psychologische Paradigmen und Grundlagen psychologischer Forschung'],
+   ['2026-10-28','10:00','14:00','Q016, ab 12 Uhr B1','03 Grundlagen der Entwicklungspsychologie I+II'],
+   ['2026-11-04','10:00','14:00','Q016, ab 12 Uhr B1','04 Grundlagen der Lernpsychologie I+II'],
+   ['2026-11-11','10:00','12:00','digital','05 Kognition – Emotion – Motivation – Verhalten'],
+   ['2026-11-25','10:00','14:00','B1','06 Grundlagen der Sozialpsychologie I+II'],
+   ['2026-12-02','10:00','12:00','digital','07 Neuro- und biopsychologische Grundlagen'],
+   ['2026-12-16','10:00','12:00','B1','08 Grundlagen der differentiellen Psychologie'],
+   ['2027-01-06','10:00','12:00','digital',''],
+   ['2027-01-27','10:00','12:00','B1','09 Abschlussbesprechung']]},
+ {id:'pyb005-e',modul:'pyb005',titel:'Vertiefende eÜbung (Gruppe B)',kurz:'Päd. Psychologie · eÜbung',fach:'bw',wd:3,von:'12:00',bis:'14:00',raum:'digital',themen:{
+   '2026-10-15':'01 Grundlegende Studieneinführung','2026-10-22':'02 Zentrale psychologische Paradigmen und Grundlagen psychologischer Forschung',
+   '2026-10-29':'03 Grundlagen der Entwicklungspsychologie I+II','2026-11-05':'04 Grundlagen der Lernpsychologie I+II',
+   '2026-11-12':'05 Kognition – Emotion – Motivation – Verhalten','2026-11-26':'06 Grundlagen der Sozialpsychologie I+II',
+   '2026-12-03':'07 Neuro- und biopsychologische Grundlagen','2026-12-17':'08 Grundlagen der differentiellen Psychologie','2027-01-28':'09 Abschlussbesprechung'}},
+ {id:'pyb005-s',modul:'pyb005.2',titel:'Vertiefende Thematiken für Handlungsfelder der Bildung und Erziehung (Gruppe D)',kurz:'Päd. Psychologie · Seminar Gr. D',fach:'bw',wd:0,von:'16:00',bis:'18:00',raum:'Q113',themenListe:[
+   '01 Einführung','02 Zentrale Paradigmen','03 Ausgewählte Aspekte psychologischer Forschung','04 Entwicklungspsychologische Aspekte I','05 Entwicklungspsychologische Aspekte II',
+   '06 Lernpsychologische Aspekte I','07 Lernpsychologische Aspekte II','08 Kognition – Emotion – Motivation – Verhalten I','09 Kognition – Emotion – Motivation – Verhalten II',
+   '10 Sozialpsychologische Aspekte I','11 Sozialpsychologische Aspekte II','12 Neuro- und biopsychologische Aspekte','13 Differentiell-psychologische Aspekte','14 Abschlussbesprechung']},
+];
+
+const SESS=[];
+COURSES.forEach(c=>{
+  if(c.sessions){c.sessions.forEach(([d,v,b,r,t])=>SESS.push({c,date:d,von:v,bis:b,raum:r,thema:t}));return}
+  const ds=c.dates||weekly(c.wd);
+  ds.forEach((d,i)=>SESS.push({c,date:d,von:c.von,bis:c.bis,raum:(c.raumAus&&c.raumAus[d])||c.raum,
+    thema:(c.themen&&c.themen[d])||(c.themenListe&&c.themenListe[i])||''}));
+});
+// Akademisches Viertel: Beginn :15, Ende :45 (außer mab005.2, pyb005.1 und dem ewb001-Tutorium)
+const EXACT=['mab005-2','pyb005-v','ewb001-t'];
+const shiftT=(t,m)=>{let [h,mm]=t.split(':').map(Number);let x=h*60+mm+m;return pad(Math.floor(x/60))+':'+pad(x%60)};
+SESS.forEach(s=>{s.key=s.c.id+'_'+s.date;if(!EXACT.includes(s.c.id)){s.von=shiftT(s.von,15);s.bis=shiftT(s.bis,-15)}});
+const MISS_FROM='2026-10-12',MISS_TO='2026-10-21';
+const isMissed=s=>s.date>=MISS_FROM&&s.date<=MISS_TO;
+// Anwesenheit: ausdrücklich markiert, sonst gilt 12.–21.10. als nicht anwesend
+const att=s=>{const m=marks[s.key]||{};if(m.anwesend===true)return 'da';if(m.anwesend===false)return 'weg';return isMissed(s)?'weg':null};
+const isPast=s=>{if(s.date<todayIso)return true;if(s.date>todayIso)return false;const n=new Date();return toMin(s.bis)<=n.getHours()*60+n.getMinutes()};
+const isDone=s=>!!(marks[s.key]&&marks[s.key].nachgearbeitet);
+const MODULE_OPTS=['','mab004.1','mab004.2','mab005.1','mab005.2','pkb003.1','pkb003.2','pkb003.3','ewb001.1','ewb001.2','ewb002.1','ewb002.2','pyb005','pyb005.1','pyb005.2','Sonstiges'];
+const ARTEN={hausaufgabe:'Hausaufgabe',todo:'To-do',frist:'Frist',pruefung:'Prüfung',nachholen:'Nachholen',termin:'Termin'};
+const toMin=t=>{const[h,m]=t.split(':').map(Number);return h*60+m};
+const DAYN=['Mo','Di','Mi','Do','Fr','Sa','So'];
+const MON=['Jan','Feb','März','Apr','Mai','Juni','Juli','Aug','Sep','Okt','Nov','Dez'];
+const fmtD=s=>{const d=parse(s);return DAYN[(d.getDay()+6)%7]+' '+pad(d.getDate())+'.'+pad(d.getMonth()+1)+'.'};
+const MODS=['mab004','mab005','pkb003','ewb001','ewb002','pyb005'];
+const NAMES={mab004:'Mathe in digitalen Medien',mab005:'Wahrscheinlichkeitsrechnung',pkb003:'Politisches System BRD',ewb001:'Einführung Erziehungswiss.',ewb002:'Empirische Bildungsforschung',pyb005:'Päd. Psychologie'};
+const modKey=m=>{m=(m||'').slice(0,6);return MODS.includes(m)?m:''};
+const mc=m=>{const k=modKey(m);return k?'var(--'+k+')':'var(--muted)'};
+const mcBg=m=>{const k=modKey(m);return k?'var(--'+k+'-bg)':'var(--line-soft)'};
+
+let entries=[],marks={},db=null,canWrite=true,showDone=false,showDoneCatch=false;
+const todayIso=iso(new Date());
+const mondayOf=d=>iso(addDays(d,-((d.getDay()+6)%7)));
+let weekStart=(()=>{let m=mondayOf(new Date());if(m<'2026-10-12')m='2026-10-12';return m})();
+
+const $=id=>document.getElementById(id);
+const el=(tag,cls,txt)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e};
+
+// ---------- Klausurleiste ----------
+function renderExams(){
+  const box=$('exams');box.innerHTML='';$('examnote').textContent='';
+  const list=entries.filter(e=>(e.art==='pruefung'||(e.art==='frist'&&/Abgabe/i.test(e.titel)))&&!/Zweittermin/i.test(e.titel)&&!e.erledigt&&e.datum>=todayIso)
+    .sort((a,b)=>(a.datum+(a.zeit||'')).localeCompare(b.datum+(b.zeit||'')));
+  if(!list.length){box.append(el('span','examnote','Noch keine Termine eingetragen.'));return}
+  list.forEach(e=>{const b=el('button','pill tnum');b.type='button';b.style.setProperty('--c',mc(e.modul));b.style.setProperty('--c-bg',mcBg(e.modul));
+    const d=parse(e.datum);b.append(document.createTextNode(pad(d.getDate())+'.'+pad(d.getMonth()+1)+'.'),el('b',null,modKey(e.modul)||e.modul));
+    if(e.art==='frist')b.append(document.createTextNode('Abgabe'));
+    b.title=e.titel+' · '+fmtD(e.datum)+(e.zeit?' '+e.zeit:'');
+    b.onclick=()=>{weekStart=mondayOf(d);renderWeek();openEntry(e)};box.append(b)});
+  const days=Math.round((parse(list[0].datum)-parse(todayIso))/864e5);
+  $('examnote').textContent='erste in '+days+' Tagen';
+}
+
+// ---------- Woche ----------
+const H0=8,H1=20,HOUR=60;
+function renderWeek(){
+  const w=$('week');w.innerHTML='';w.style.setProperty('--hour',HOUR+'px');
+  const ws=parse(weekStart),days=[...Array(5)].map((_,i)=>iso(addDays(ws,i)));
+  const wi=WEEKS.indexOf(weekStart),end=addDays(ws,4);
+  $('weeklabel').textContent=(wi>=0?'Vorlesungswoche '+(wi+1):'Vorlesungsfrei')+' · '+ws.getDate()+'. '+(ws.getMonth()!==end.getMonth()?MON[ws.getMonth()]+' ':'')+'– '+end.getDate()+'. '+MON[end.getMonth()]+' '+end.getFullYear();
+  w.append(el('div','corner top'));
+  days.forEach((d,i)=>{const h=el('div','dhead'+(d===todayIso?' is-today':''));h.append(el('span','dn',DAYN[i]),el('span','dd tnum',String(parse(d).getDate())));w.append(h)});
+  w.append(el('div','corner'));
+  days.forEach(d=>{const s=el('div','strip'+(d===todayIso?' is-today':''));
+    entries.filter(e=>e.datum===d).sort((a,b)=>(a.zeit||'').localeCompare(b.zeit||'')).forEach(e=>{
+      const c=el('button','chip k-'+e.art+(e.erledigt?' erledigt':''),(e.zeit?e.zeit+' ':'')+e.titel);c.type='button';c.title=ARTEN[e.art]+(e.modul?' · '+e.modul:'')+' · '+e.titel;
+      c.onclick=()=>openEntry(e);s.append(c)});
+    w.append(s)});
+  const hrs=el('div','hours');for(let h=H0;h<H1;h++)hrs.append(el('div','tnum',h+':00'));w.append(hrs);
+  days.forEach(d=>{
+    const col=el('div','day'+(d===todayIso?' is-today':''));col.style.height=((H1-H0)*HOUR)+'px';
+    const evs=SESS.filter(s=>s.date===d).map(s=>({s,a:toMin(s.von),b:toMin(s.bis)})).sort((x,y)=>x.a-y.a||y.b-x.b);
+    let cluster=[],cEnd=-1;const clusters=[];
+    evs.forEach(e=>{if(e.a>=cEnd&&cluster.length){clusters.push(cluster);cluster=[]}cluster.push(e);cEnd=Math.max(cEnd,e.b)});if(cluster.length)clusters.push(cluster);
+    clusters.forEach(cl=>{const lanes=[];cl.forEach(e=>{let l=lanes.findIndex(x=>x<=e.a);if(l<0){l=lanes.length;lanes.push(0)}lanes[l]=e.b;e.lane=l});cl.forEach(e=>{e.n=lanes.length})});
+    evs.forEach(e=>{
+      const s=e.s,a=att(s),done=a==='weg'&&isDone(s),miss=a==='weg';
+      const bt=el('button','ev'+(done?' done':'')+(e.n>1?' narrow':''));bt.type='button';bt.style.setProperty('--c',mc(s.c.modul));bt.style.setProperty('--c-bg',mcBg(s.c.modul));
+      bt.style.top=((e.a/60-H0)*HOUR+2)+'px';bt.style.height=((e.b-e.a)/60*HOUR-4)+'px';
+      bt.style.left='calc('+(e.lane/e.n*100)+'% + 3px)';bt.style.width='calc('+(100/e.n)+'% - 6px)';
+      const code=el('span','code');code.append(document.createTextNode(s.c.modul));
+      if(miss&&!done){const dot=el('span','dot');dot.title='noch nachholen';code.append(dot)}
+      else if(miss&&done){const ok=el('span','ok','✓');ok.title='nachgeholt';code.append(ok)}
+      else if(a==='da'){const ok=el('span','ok','✓');ok.title='anwesend';code.append(ok)}
+      else if(a===null&&isPast(s)){const q=el('span','q','?');q.title='Anwesenheit noch nicht angegeben';code.append(q)}
+      bt.append(code,el('span','t',s.c.kurz),el('span','m tnum',s.von+'–'+s.bis+(e.n>1?'':' · '+s.raum)));
+      bt.title=s.c.modul+' · '+s.c.titel+' · '+s.von+'–'+s.bis+' · '+s.raum+(s.thema?' · '+s.thema:'');
+      bt.onclick=()=>openSession(s);col.append(bt)});
+    if(d===todayIso){const n=new Date(),m=n.getHours()*60+n.getMinutes();if(m>H0*60&&m<H1*60){const l=el('div','nowline');l.style.top=((m/60-H0)*HOUR)+'px';col.append(l)}}
+    w.append(col)});
+}
+
+// ---------- Listen ----------
+function checkRow(id,checked,label,onchange){const cb=el('input');cb.type='checkbox';cb.checked=!!checked;cb.disabled=!canWrite;cb.id=id;cb.setAttribute('aria-label',label);cb.onchange=()=>onchange(cb.checked);return cb}
+function renderLists(){
+  // Nachholen, gruppiert nach Modul
+  const miss=SESS.filter(s=>att(s)==='weg').sort((a,b)=>(a.date+a.von).localeCompare(b.date+b.von));
+  const nDone=miss.filter(isDone).length;
+  $('catchCount').textContent=nDone+' von '+miss.length+' erledigt';$('catchBar').style.width=(miss.length?nDone/miss.length*100:0)+'%';
+  const cl=$('catchList');cl.innerHTML='';
+  const groups={};
+  miss.forEach(s=>{const k=s.c.modul.split('.')[0];(groups[k]=groups[k]||[]).push(s)});
+  Object.keys(groups).sort((a,b)=>MODS.indexOf(a)-MODS.indexOf(b)).forEach(k=>{
+    const arr=groups[k];const dn=arr.filter(isDone).length;const fk='n_'+k;if(!showDoneCatch&&dn===arr.length)return;
+    const g=el('details','group fold');g.open=(fk in folds)?folds[fk]:dn<arr.length;g.addEventListener('toggle',()=>setFold(fk,g.open));
+    const gh=el('summary','group-h');const nm=el('span',null,k);nm.style.color=mc(k);gh.append(nm,el('span','tnum',dn+'/'+arr.length));g.append(gh);
+    const ul=el('ul','list');
+    arr.filter(s=>showDoneCatch||!isDone(s)).forEach(s=>{const d=isDone(s);const li=el('li',d?'done':'');
+      const cb=checkRow('m_'+s.key,d,'Nachgearbeitet: '+s.c.modul,v=>setMark(s.key,{nachgearbeitet:v}));
+      const t=el('label','txt');t.htmlFor=cb.id;const lt=el('span','lt');lt.append(el('span','tnum dt',fmtD(s.date)),document.createTextNode(s.c.modul+' · '+s.c.kurz.replace(/ · .*/,'')));t.append(lt);if(s.thema)t.append(el('small',null,s.thema));
+      li.append(cb,t);ul.append(li)});
+    g.append(ul);cl.append(g)});
+  if(!cl.children.length)cl.append(el('div','empty',miss.length?'Alles nachgeholt.':'Nichts nachzuholen.'));
+  const sdc=$('showDoneCatch');sdc.hidden=!nDone;sdc.textContent=showDoneCatch?'Erledigte ausblenden':(nDone===1?'1 erledigte anzeigen':nDone+' erledigte anzeigen');
+
+  // Aufgaben & Fristen, gruppiert nach Zeit
+  const tl=$('taskList');tl.innerHTML='';
+  const ws=parse(mondayOf(new Date())),weekEnd=iso(addDays(ws,6)),in4w=iso(addDays(new Date(),28));
+  const open=entries.filter(e=>!e.erledigt);
+  $('taskCount').textContent=open.length+' offen';
+  const list=entries.filter(e=>showDone||!e.erledigt).sort((a,b)=>(a.datum+(a.zeit||'')).localeCompare(b.datum+(b.zeit||'')));
+  const buckets=[['Überfällig',e=>e.datum<todayIso&&!e.erledigt],['Diese Woche',e=>e.datum>=todayIso&&e.datum<=weekEnd],['Nächste 4 Wochen',e=>e.datum>weekEnd&&e.datum<=in4w],['Später',e=>e.datum>in4w],['Erledigt',e=>e.erledigt&&e.datum<todayIso]];
+  let any=false;
+  buckets.forEach(([name,f])=>{const arr=list.filter(f);if(!arr.length)return;any=true;
+    const g=el('details','group fold');g.open=foldOpen(name);g.addEventListener('toggle',()=>setFold(name,g.open));const gh=el('summary','group-h');const nm=el('span',null,name);if(name==='Überfällig')nm.classList.add('late');gh.append(nm,el('span','tnum',String(arr.length)));g.append(gh);
+    const ul=el('ul','list');
+    arr.forEach(e=>{const li=el('li',e.erledigt?'done':'');
+      const cb=checkRow('e_'+e.id,e.erledigt,'Erledigt: '+e.titel,v=>saveEntry({...e,erledigt:v}));
+      const t=el('div','txt');const b=el('button','ti',e.titel);b.type='button';b.onclick=()=>openEntry(e);
+      const sm=el('small','tnum');const tg=el('span','tag k-'+e.art,ARTEN[e.art]);sm.append(tg,document.createTextNode(fmtD(e.datum)+(e.zeit?' '+e.zeit:'')+(e.modul?' · '+e.modul:'')));
+      t.append(b,sm);li.append(cb,t);ul.append(li)});
+    g.append(ul);tl.append(g)});
+  if(!any)tl.append(el('div','empty','Keine offenen Aufgaben. Mit „+ Eintrag“ legst du Hausaufgaben, Fristen oder Prüfungen an.'));
+  $('showDone').textContent=showDone?'Erledigte ausblenden':'Erledigte anzeigen';
+}
+function renderHw(){
+  const box=$('hw');box.innerHTML='';
+  const list=entries.filter(e=>e.art==='hausaufgabe'&&!e.erledigt).sort((a,b)=>(a.datum+(a.zeit||'')).localeCompare(b.datum+(b.zeit||'')));
+  if(!list.length){box.append(el('span','examnote','Keine offenen Hausaufgaben.'));return}
+  list.forEach(e=>{const b=el('button','pill tnum'+(e.datum<todayIso?' late':''));b.type='button';b.style.setProperty('--c',mc(e.modul));b.style.setProperty('--c-bg',mcBg(e.modul));
+    const d=parse(e.datum);b.append(el('span','pd',pad(d.getDate())+'.'+pad(d.getMonth()+1)+'.'));if(modKey(e.modul))b.append(el('b',null,modKey(e.modul)));b.append(el('span','pt',e.titel));
+    b.title=e.titel+' · '+fmtD(e.datum)+(e.datum<todayIso?' · überfällig':'');
+    b.onclick=()=>openEntry(e);box.append(b)});
+}
+function render(){renderExams();renderHw();renderWeek();renderLists()}
+const FOLD_DEFAULT={'Später':false,'Erledigt':false};let folds={};try{folds=JSON.parse(localStorage.getItem('folds')||'{}')}catch(e){}
+function foldOpen(n){return n in folds?folds[n]:(FOLD_DEFAULT[n]!==false)}
+function setFold(n,v){if(folds[n]===v)return;folds={...folds,[n]:v};try{localStorage.setItem('folds',JSON.stringify(folds))}catch(e){}}
+const lg=$('legend');MODS.forEach(m=>{const sp=el('span');const sw=el('i','sw');sw.style.background='var(--'+m+'-bg)';sw.style.boxShadow='inset 0 0 0 1.5px color-mix(in srgb,var(--'+m+') 45%,transparent)';sw.style.width='14px';sw.style.height='14px';sp.append(sw,el('b',null,m),document.createTextNode(' '+NAMES[m]));lg.append(sp)});{const sp=el('span');const sw=el('i','sw');sw.style.cssText='background:var(--catch);border-radius:50%';sp.append(sw,document.createTextNode('noch nachholen'));lg.append(sp)}{const sp=el('span');const q=el('i','sw');q.style.cssText='width:14px;height:14px;border-radius:50%;background:var(--surface);box-shadow:0 0 0 1px var(--line);font-style:normal;font-size:.62rem;font-weight:800;display:inline-grid;place-items:center';q.textContent='?';sp.append(q,document.createTextNode('Anwesenheit noch nicht angegeben'));lg.append(sp)}
+
+// ---------- Dialoge ----------
+const ov=$('ov'),dlg=$('dlg');
+function close(){ov.hidden=true;dlg.innerHTML=''}
+ov.addEventListener('click',e=>{if(e.target===ov)close()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!ov.hidden)close()});
+function openSession(s){
+  dlg.innerHTML='';dlg.style.setProperty('--c',mc(s.c.modul));
+  const eb=el('div','eyebrow',s.c.modul);const h=el('h2',null,s.c.titel);h.id='dlgTitle';
+  const kv=el('dl','kv');[['Termin',fmtD(s.date)+', '+s.von+'–'+s.bis+' Uhr'],['Raum',s.raum],['Thema',s.thema||'–']].forEach(([k,v])=>kv.append(el('dt',null,k),el('dd','tnum',v)));
+  dlg.append(eb,h,kv);
+  const a=att(s);
+  dlg.append(el('div','fieldlabel','Warst du da?'));
+  const seg=el('div','seg');seg.setAttribute('role','group');
+  [['da','Anwesend',''],['weg','Nicht anwesend','no']].forEach(([v,lab,cls])=>{const b=el('button',cls,lab);b.type='button';b.disabled=!canWrite;b.setAttribute('aria-pressed',String(a===v));
+    b.onclick=async()=>{await setMark(s.key,{anwesend:v==='da'});openSession(s)};seg.append(b)});
+  dlg.append(seg);
+  if(a==='weg'){const tg=el('label','toggle');const cb=el('input');cb.type='checkbox';cb.id='dlgMark';cb.checked=isDone(s);cb.disabled=!canWrite;
+    cb.onchange=()=>setMark(s.key,{nachgearbeitet:cb.checked});tg.append(cb,el('span',null,'Nachgearbeitet (steht unter „Nachholen“)'));dlg.append(tg)}
+  const row=el('div','row');const add=el('button','btn','Hausaufgabe anlegen');add.type='button';
+  add.onclick=()=>openEntry({datum:s.date,art:'hausaufgabe',modul:s.c.modul,titel:'',notiz:''});
+  const cx=el('button','btn primary','Schließen');cx.type='button';cx.onclick=close;row.append(add,cx);dlg.append(row);
+  ov.hidden=false;cx.focus();
+}
+function openEntry(e){
+  const isNew=!e.id;dlg.innerHTML='';dlg.style.setProperty('--c',mc(e.modul));
+  const h=el('h2',null,isNew?'Neuer Eintrag':'Eintrag bearbeiten');h.id='dlgTitle';dlg.append(h);
+  const f=el('form','form');
+  const mk=(lab,node,full)=>{const l=el('label',full?'full':'',lab);l.append(node);f.append(l);return node};
+  const titel=mk('Titel',Object.assign(el('input'),{id:'fTitel',value:e.titel||'',placeholder:'z. B. Übungsblatt 2 bearbeiten'}),true);
+  const art=mk('Art',el('select'));art.id='fArt';Object.entries(ARTEN).forEach(([k,v])=>{const o=el('option',null,v);o.value=k;art.append(o)});art.value=e.art||'hausaufgabe';
+  const modul=mk('Modul',el('select'));modul.id='fModul';MODULE_OPTS.forEach(m=>{const o=el('option',null,m||'–');o.value=m;modul.append(o)});modul.value=e.modul||'';
+  const datum=mk('Datum',Object.assign(el('input'),{id:'fDatum',type:'date',value:e.datum||todayIso}));
+  const zeit=mk('Uhrzeit (optional)',Object.assign(el('input'),{id:'fZeit',type:'time',value:e.zeit||''}));
+  const notiz=mk('Notiz',Object.assign(el('textarea'),{id:'fNotiz',rows:4,value:e.notiz||''}),true);
+  let done=null;if(!isNew){const dl=el('label','full toggle');dl.style.flexDirection='row';done=el('input');done.type='checkbox';done.id='fDone';done.checked=!!e.erledigt;dl.append(done,el('span',null,'Erledigt'));f.append(dl)}
+  const st=el('div','status full');f.append(st);
+  const row=el('div','row full');
+  if(!isNew){const del=el('button','btn danger','Löschen');del.type='button';let armed=false;
+    del.onclick=async()=>{if(!armed){armed=true;del.textContent='Wirklich löschen?';return}await removeEntry(e);close()};row.append(del)}
+  const cx=el('button','btn','Abbrechen');cx.type='button';cx.onclick=close;
+  const ok=el('button','btn primary','Speichern');ok.type='submit';ok.disabled=!canWrite;row.append(cx,ok);f.append(row);
+  f.onsubmit=async ev=>{ev.preventDefault();if(!titel.value.trim()){st.textContent='Bitte einen Titel eingeben.';titel.focus();return}
+    if(!datum.value){st.textContent='Bitte ein Datum wählen.';return}
+    ok.disabled=true;st.textContent='Speichert …';
+    const r=await saveEntry({id:e.id,titel:titel.value.trim(),art:art.value,modul:modul.value,datum:datum.value,zeit:zeit.value,notiz:notiz.value.trim(),erledigt:done?done.checked:false});
+    if(r)close();else{st.textContent='Speichern hat nicht geklappt. Bitte später noch einmal versuchen.';ok.disabled=false}};
+  if(!canWrite)st.textContent='In dieser Ansicht kann nichts gespeichert werden.';
+  dlg.append(f);ov.hidden=false;titel.focus();
+}
+
+// ---------- Speichern ----------
+async function setMark(key,patch){const next={...(marks[key]||{}),...patch};delete next.geaendert;marks={...marks,[key]:next};render();
+  if(!db)return;try{await db.collection('sitzungen').doc(key).set({...next,geaendert:new Date().toISOString()})}catch(err){handleErr(err)}}
+async function saveEntry(e){
+  const id=e.id||('e'+Date.now().toString(36)+Math.random().toString(36).slice(2,6));
+  const body={datum:e.datum,zeit:e.zeit||'',art:e.art,modul:e.modul||'',titel:e.titel,notiz:e.notiz||'',erledigt:!!e.erledigt};
+  const i=entries.findIndex(x=>x.id===id);const next=[...entries];if(i>=0)next[i]={id,...body};else next.push({id,...body});entries=next;render();
+  if(!db)return true;try{await db.collection('eintraege').doc(id).set(body);return true}catch(err){handleErr(err);return false}
+}
+async function removeEntry(e){entries=entries.filter(x=>x.id!==e.id);render();if(db)try{await db.collection('eintraege').doc(e.id).delete()}catch(err){handleErr(err)}}
+function handleErr(err){if(err&&err.code==='invalid_argument'){canWrite=false;$('dbNote').textContent='Du kannst diesen Kalender ansehen, aber nichts ändern.';render()}
+  else $('dbNote').textContent='Eine Änderung konnte nicht gespeichert werden. Bitte Seite neu laden.'}
+
+$('prev').onclick=()=>{weekStart=iso(addDays(parse(weekStart),-7));renderWeek()};
+$('next').onclick=()=>{weekStart=iso(addDays(parse(weekStart),7));renderWeek()};
+$('today').onclick=()=>{weekStart=mondayOf(new Date());renderWeek()};
+$('addBtn').onclick=()=>openEntry({});
+$('showDone').onclick=()=>{showDone=!showDone;renderLists()};
+$('showDoneCatch').onclick=()=>{showDoneCatch=!showDoneCatch;renderLists()};
+render();
+
+(async()=>{
+  try{db=window.claude&&await window.claude.use('db')}catch(e){db=null}
+  if(!db){canWrite=false;$('dbNote').textContent='Speichern ist in dieser Ansicht nicht verfügbar. Du siehst nur den Stundenplan.';$('addBtn').hidden=true;render();return}
+  try{const u=await window.claude.use('user');const c=u&&await u.can('data.write');if(c===false){canWrite=false;$('addBtn').hidden=true;$('dbNote').textContent='Du kannst diesen Kalender ansehen, aber nichts ändern.'}}catch(e){}
+  db.collection('eintraege').onSnapshot(s=>{entries=s.docs.map(d=>({id:d.id,...d.data()}));render()},handleErr);
+  db.collection('sitzungen').onSnapshot(s=>{const m={};s.docs.forEach(d=>{m[d.id]=d.data()});marks=m;render()},handleErr);
+})();
+})();
+</script>

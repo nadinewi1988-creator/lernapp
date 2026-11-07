@@ -1,0 +1,680 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Lernapp Dashboard</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#f7f7f4}
+a{color:#1f2328}a:hover{color:#000}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #f7f7f4; color: #1f2328; font-family: Nunito, system-ui, sans-serif; display: flex; flex-wrap: wrap; align-items: flex-start">
+
+  <nav aria-label="Hauptnavigation" style="flex: 1 1 200px; max-width: 240px; box-sizing: border-box; padding: 28px 16px; display: flex; flex-direction: column; gap: 4px">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0 12px 24px">
+      <div style="width: 32px; height: 32px; border-radius: 10px; background: #ffffff; border: 1px solid #e6e6e0; box-sizing: border-box; display: flex; align-items: center; justify-content: center">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1f2328" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 7l10-4 10 4-10 4z"></path><path d="M6 9v5c0 1.7 2.7 3 6 3s6-1.3 6-3V9"></path></svg>
+      </div>
+      <div>
+        <div style="font-weight: 800; font-size: 17px">Lernapp</div>
+        <div style="font-size: 12px; color: #6b6f76">WiSe 26/27</div>
+        <div style="font-size: 12px; color: #6b6f76">3. Fachsemester</div>
+      </div>
+    </div>
+    <a href="#" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 1px 2px rgba(0,0,0,0.06); font-weight: 700; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="2"></rect><rect x="14" y="3" width="7" height="5" rx="2"></rect><rect x="14" y="12" width="7" height="9" rx="2"></rect><rect x="3" y="16" width="7" height="5" rx="2"></rect></svg>
+      Dashboard
+    </a>
+    <a href="Kalender.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: #4b5563; font-weight: 600; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>
+      Kalender
+    </a>
+    <a href="Module.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: #4b5563; font-weight: 600; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 5a2 2 0 012-2h13v16H6a2 2 0 00-2 2z"></path><path d="M4 19V5"></path></svg>
+      Module
+    </a>
+    <a href="Pruefungen.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: #4b5563; font-weight: 600; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z"></path><path d="M14 3v6h6M9 15l2 2 4-4"></path></svg>
+      Prüfungen
+    </a>
+    <a href="Karten.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: #4b5563; font-weight: 600; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="6" width="14" height="14" rx="2"></rect><path d="M7 3h12a2 2 0 012 2v12"></path></svg>
+      Eigene Karten
+    </a>
+  </nav>
+
+  <main style="flex: 999 1 560px; min-width: 0; box-sizing: border-box; padding: 28px 32px 48px; display: flex; flex-direction: column; gap: 20px; max-width: 1120px">
+
+    <header style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 12px">
+      <div>
+        <h1 style="margin: 0; font-size: 30px; font-weight: 800">{{datumTitel}}</h1>
+        <div style="font-size: 14px; color: #6b6f76; font-weight: 600; margin-top: 2px">{{vlWoche}}</div>
+      </div>
+      <button type="button" onClick="{{eOeffnen}}" style="min-height: 44px; padding: 0 18px; border: 0; border-radius: 999px; background: #ffffff; color: #1f2328; border: 1px solid #e6e6e0; font-family: inherit; font-weight: 700; font-size: 15px; cursor: pointer">+ Eintrag</button>
+    </header>
+
+    <section aria-label="Klausuren" style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 8px; padding: 12px 16px; background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px">
+      <span style="display: inline-flex; flex-direction: column; gap: 3px; align-items: flex-start; margin-right: 6px"><span aria-hidden="true" style="font-size: 11px; font-weight: 800; visibility: hidden">00.00.</span><span style="display: inline-flex; align-items: center; padding: 4px 0; font-size: 12px; line-height: normal"><span style="font-weight: 800; letter-spacing: 0.06em; color: #6b6f76">KLAUSUREN</span></span><span style="font-size: 12px; color: #6b6f76; white-space: nowrap">{{ersteIn}}</span></span>
+      <sc-for list="{{klausurTage}}" as="t" hint-placeholder-count="5">
+        <span style="display: inline-flex; align-items: flex-start; gap: 8px">
+          <span style="display: inline-flex; flex-direction: column; gap: 3px; align-items: center">
+            <span style="font-size: 11px; font-weight: 800; color: #6b6f76">{{t.datum}}</span>
+            <sc-for list="{{t.eintraege}}" as="k" hint-placeholder-count="1">
+              <span style="display: inline-flex; gap: 6px; align-items: baseline; padding: 4px 10px; border-radius: 999px; font-size: 13px; background: {{k.bg}}; color: #1f2328"><b style="color: {{k.fg}}">{{k.modul}}</b>{{k.zusatz}}</span>
+            </sc-for>
+          </span>
+          <span style="display: inline-flex; flex-direction: column; gap: 3px; align-items: flex-start"><span aria-hidden="true" style="font-size: 11px; font-weight: 800; visibility: hidden">00.00.</span><span style="display: inline-flex; align-items: center; padding: 4px 0; font-size: 13px; line-height: normal"><span style="color: #b8bcc2; font-weight: 800">→</span></span></span>
+        </span>
+      </sc-for>
+      <span style="display: inline-flex; flex-direction: column; gap: 3px"><span aria-hidden="true" style="font-size: 11px; font-weight: 800; visibility: hidden">00.00.</span><span style="display: inline-flex; align-items: center; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 800; background: #ffffff; border: 1.5px solid #5aa36f; box-sizing: border-box; color: #2f7a4b">geschafft :-)</span></span>
+
+    </section>
+
+    <section aria-label="Studienstand" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px">
+      <a href="Pruefungen.dc.html" style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 4px; text-decoration: none; color: #1f2328">
+        <span style="font-size: 13px; color: #6b6f76; font-weight: 700">Notenschnitt</span>
+        <span style="font-size: 26px; font-weight: 800; line-height: 1.2">{{st.schnitt}}</span>
+        <span style="font-size: 13px; color: #6b6f76">Mathe {{st.mathe}} · Politik {{st.politik}} · Profil {{st.profil}}</span>
+      </a>
+      <a href="Pruefungen.dc.html" style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 4px; text-decoration: none; color: #1f2328">
+        <span style="font-size: 13px; color: #6b6f76; font-weight: 700">Dieses Semester</span>
+        <span style="font-size: 20px; font-weight: 800; line-height: 1.2; margin-top: 4px">{{st.dieses}} Prüfungen</span>
+        <span style="font-size: 13px; color: #6b6f76">{{ersteAm}}</span>
+      </a>
+      <a href="Pruefungen.dc.html" style="grid-column: span 2; min-width: 0; background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 10px; text-decoration: none; color: #1f2328">
+        <span style="display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap">
+          <span style="font-size: 13px; color: #6b6f76; font-weight: 700">Credit Points</span>
+          <span style="font-size: 13px; color: #6b6f76"><b style="color: #1f2328; font-size: 15px">{{st.gesamt}} von 180 CP</b> · noch {{st.offen}} offen</span>
+        </span>
+        <span style="display: block; height: 8px; border-radius: 999px; background: #f0f0eb; overflow: hidden"><span style="display: block; height: 100%; border-radius: 999px; background: #4f8f80; width: {{st.breite}}"></span></span>
+        <span style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; font-size: 12px; color: #4b5563">
+          <sc-for list="{{st.bereiche}}" as="b" hint-placeholder-count="5"><span><b>{{b.kurz}}</b><br>{{b.text}}</span></sc-for>
+        </span>
+      </a>
+    </section>
+
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px">
+
+      <section style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 20px; padding: 20px; display: flex; flex-direction: column; gap: 14px">
+        <h2 style="margin: 0; font-size: 17px; font-weight: 800">Heute</h2>
+        <sc-for list="{{heuteHinweise}}" as="h" hint-placeholder-count="1">
+          <div style="padding: 8px 12px; border-radius: 12px; font-size: 13px; font-weight: 800; background: {{h.bg}}; color: {{h.fg}}">{{h.text}}</div>
+        </sc-for>
+        <sc-if value="{{heuteFrei}}" hint-placeholder-val="{{false}}">
+          <div style="padding: 12px; border-radius: 14px; background: #f7f7f4; font-size: 14px; color: #4b5563">Heute keine Veranstaltungen – genieß den Tag.</div>
+        </sc-if>
+        <sc-for list="{{heuteListe}}" as="p" hint-placeholder-count="1">
+        <div style="display: flex; gap: 12px; align-items: center; padding: 12px; border-radius: 14px; background: {{p.bg}}; opacity: {{p.opazitaet}}">
+          <div style="font-size: 13px; font-weight: 700; color: #4b5563; width: 48px">{{p.zeit}}</div>
+          <div style="flex: 1; min-width: 0">
+            <div style="font-size: 12px; font-weight: 800; color: {{p.fg}}">{{p.label}}</div>
+            <div style="font-weight: 700; font-size: 15px">{{p.titel}}</div>
+            <div style="font-size: 13px; color: #6b6f76">{{p.info}}</div>
+          </div>
+        </div>
+        </sc-for>
+      </section>
+
+
+      <section style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 20px; padding: 20px; display: flex; flex-direction: column; gap: 10px">
+        <h2 style="margin: 0 0 4px; font-size: 17px; font-weight: 800">Aufgaben &amp; Fristen</h2>
+        <div style="font-size: 12px; color: #6b6f76; margin-top: -2px">„Erinnerung“ = automatisch aus deinen Prüfungsfristen</div>
+        <sc-for list="{{aufgaben}}" as="a" hint-placeholder-count="5">
+          <label style="display: flex; gap: 12px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid #f0f0eb; cursor: pointer">
+            <input type="checkbox" style="width: 20px; height: 20px; margin: 2px 0 0; accent-color: #4f8f80">
+            <span style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px">
+              <span style="font-weight: 700; font-size: 14px">{{a.titel}}</span>
+              <span style="display: flex; gap: 6px; align-items: center; font-size: 12px; color: #6b6f76">
+                <span style="padding: 1px 8px; border-radius: 999px; font-weight: 700; background: {{a.tagBg}}; color: {{a.tagFg}}">{{a.tag}}</span>
+                {{a.datum}} · <b style="color: {{a.fg}}">{{a.modul}}</b>
+              </span>
+            </span>
+          </label>
+        </sc-for>
+        <a href="#" style="font-size: 13px; font-weight: 700; color: #6b6f76; text-decoration: none; margin-top: 4px">Alle im Kalender →</a>
+      </section>
+
+      <section style="background: #ffffff; color: #1f2328; border: 1.5px solid {{hl.rand}}; border-radius: 20px; padding: 20px; display: flex; flex-direction: column; gap: 14px">
+        <h2 style="margin: 0; font-size: 17px; font-weight: 800">Heute lernen</h2>
+        <div style="font-size: 13px; color: #6b6f76">{{hl.vorschlag}}</div>
+        <div style="background: {{hl.bg}}; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 6px">
+          <div style="font-size: 12px; font-weight: 800; color: {{hl.fg}}">{{hl.kopf}}</div>
+          <div style="font-size: 18px; font-weight: 800">{{hl.titel}}</div>
+          <div style="font-size: 13px; color: #4b5563">Verstehen → Üben → Prüfen</div>
+        </div>
+        <button type="button" onClick="{{nhStart}}" style="display: flex; align-items: center; justify-content: center; min-height: 46px; border: 0; border-radius: 999px; background: {{hl.btnBg}}; color: {{hl.btnFg}}; font-family: inherit; font-size: 15px; font-weight: 800; cursor: pointer">{{hl.knopf}}</button>
+        <sc-if value="{{hl.hatAlt}}" hint-placeholder-val="{{true}}"><a href="{{hl.altLink}}" onClick="{{hl.altOeffne}}" style="align-self: center; padding: 6px 10px; border-radius: 10px; color: #4b5563; font-size: 13px; font-weight: 700; text-decoration: none">{{hl.altText}}</a></sc-if>
+        <div style="border-top: 1px solid #f0f0eb; padding-top: 12px; display: flex; flex-direction: column; gap: 6px">
+          <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px">
+            <span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 13px; font-weight: 800">Eigene Karten</span><span style="font-size: 12px; color: #6b6f76">{{kl.faellig}}</span></span>
+            <sc-if value="{{kl.hat}}" hint-placeholder-val="{{true}}"><a href="Karten.dc.html" onClick="{{kl.ueben}}" style="flex: 0 0 auto; min-height: 32px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-size: 13px; font-weight: 800; color: #1f2328; text-decoration: none; display: inline-flex; align-items: center">Üben</a></sc-if>
+          </div>
+          <span style="font-size: 12px; color: #6b6f76">{{kl.zeit}}</span>
+        </div>
+        <div style="border-top: 1px solid #f0f0eb; padding-top: 12px; display: flex; flex-direction: column; gap: 8px">
+          <div style="display: flex; justify-content: space-between; align-items: baseline">
+            <span style="font-size: 13px; font-weight: 800">Nachholen gesamt</span>
+            <span style="font-size: 12px; color: #6b6f76">{{nhGesamt}}</span>
+          </div>
+          <div style="height: 6px; border-radius: 999px; background: #f0f0eb; overflow: hidden"><div style="height: 100%; width: {{nhBreite}}; background: #2f7a4b; border-radius: 999px"></div></div>
+          <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px">
+            <sc-for list="{{nachholen}}" as="n" hint-placeholder-count="6">
+              <button type="button" onClick="{{n.oeffne}}" style="display: flex; justify-content: space-between; align-items: center; min-height: 32px; padding: 5px 8px; border: 0; border-radius: 10px; background: {{n.bg}}; font-family: inherit; font-size: 12px; cursor: pointer">
+                <b style="color: {{n.fg}}">{{n.modul}}</b><span style="color: #4b5563">{{n.zahl}}</span>
+              </button>
+            </sc-for>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 20px">
+
+
+      <section style="display: flex; flex-direction: column; gap: 12px">
+        <div style="display: flex; justify-content: space-between; align-items: baseline">
+          <h2 style="margin: 0; font-size: 17px; font-weight: 800">Meine Module</h2>
+          <a href="Module.dc.html" style="font-size: 13px; font-weight: 700; color: #6b6f76; text-decoration: none">Alle →</a>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px">
+          <sc-for list="{{module}}" as="m" hint-placeholder-count="6">
+            <a href="{{m.link}}" onClick="{{m.oeffne}}" style="display: flex; flex-direction: column; gap: 8px; padding: 16px; border-radius: 18px; background: {{m.bg}}; text-decoration: none; color: #1f2328; min-height: 128px; box-sizing: border-box">
+              <div style="display: flex; justify-content: space-between; align-items: baseline">
+                <b style="color: {{m.fg}}; font-size: 14px">{{m.id}}</b>
+                <span style="font-size: 12px; color: #4b5563; font-weight: 700">{{m.pruefung}}</span>
+              </div>
+              <div style="font-weight: 800; font-size: 15px; line-height: 1.25">{{m.name}}</div>
+              <div style="margin-top: auto; font-size: 12px; color: #4b5563">{{m.inhalt}}</div>
+              <div style="display: flex; flex-direction: column; gap: 4px">
+                <div style="height: 6px; border-radius: 999px; background: rgba(255,255,255,0.75); overflow: hidden"><div style="height: 100%; border-radius: 999px; background: {{m.fg}}; width: {{m.fortBreite}}"></div></div>
+                <div style="font-size: 11px; font-weight: 700; color: {{m.fortFarbe}}">{{m.fortText}}</div>
+              </div>
+            </a>
+          </sc-for>
+        </div>
+      </section>
+      <section style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 18px; padding: 16px; display: flex; flex-direction: column; gap: 10px">
+        <h2 style="margin: 0; font-size: 17px; font-weight: 800">{{wr.titel}}</h2>
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px">
+          <div style="background: #f7f7f4; border-radius: 12px; padding: 10px; display: flex; flex-direction: column"><span style="font-size: 12px; font-weight: 800; color: #6b6f76">Lernzeit</span><span style="font-size: 18px; font-weight: 800">{{wr.zeit}}</span></div>
+          <div style="background: #f7f7f4; border-radius: 12px; padding: 10px; display: flex; flex-direction: column"><span style="font-size: 12px; font-weight: 800; color: #6b6f76">Karten geübt</span><span style="font-size: 18px; font-weight: 800">{{wr.karten}}</span></div>
+          <div style="background: #f7f7f4; border-radius: 12px; padding: 10px; display: flex; flex-direction: column"><span style="font-size: 12px; font-weight: 800; color: #6b6f76">Nachholen</span><span style="font-size: 18px; font-weight: 800">{{wr.nachholen}}</span></div>
+        </div>
+        <span style="font-size: 13px; color: #4b5563">{{wr.meist}}</span>
+        <span style="font-size: 13px; color: #4b5563">{{wr.wenig}}</span>
+        <span style="font-size: 12px; color: #6b6f76">{{wr.hinweis}}</span>
+      </section>
+    </div>
+  </main>
+
+  <sc-if value="{{nhOffen}}" hint-placeholder-val="{{false}}">
+    <div style="position: fixed; inset: 0; background: rgba(31, 35, 40, 0.35); display: flex; align-items: center; justify-content: center; padding: 12px; z-index: 20">
+      <div role="dialog" aria-label="Nachholen" style="width: 100%; max-width: 540px; max-height: calc(100vh - 24px); overflow-y: auto; background: #ffffff; border-radius: 20px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; gap: 10px; box-shadow: 0 20px 50px rgba(0,0,0,0.18); font-family: Nunito, system-ui, sans-serif; color: #1f2328">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px">
+          <div>
+            <div style="font-size: 12px; font-weight: 800; letter-spacing: 0.06em; color: #6b6f76">NACHHOLEN</div>
+            <h2 style="margin: 2px 0 0; font-size: 18px; font-weight: 800; color: {{nhFg}}">{{nhTitel}}</h2>
+          </div>
+          <span style="padding: 4px 10px; border-radius: 999px; background: {{nhBg}}; font-size: 12px; font-weight: 800; white-space: nowrap">{{nhZaehler}}</span>
+        </div>
+        <div>
+          <sc-for list="{{nhOffeneListe}}" as="x" hint-placeholder-count="4">
+            <div style="display: flex; gap: 10px; align-items: flex-start; padding: 10px 0; border-bottom: 1px solid #f0f0eb">
+              <input type="checkbox" checked="{{x.erledigt}}" onChange="{{x.toggle}}" aria-label="nachgearbeitet" style="width: 20px; height: 20px; margin: 2px 0 0; accent-color: #4f8f80; flex: 0 0 auto">
+              <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px">
+                <div style="font-size: 12px; color: #6b6f76">{{x.datum}} · <b style="color: {{x.fg}}">{{x.modul}}</b> · {{x.thema}}</div>
+                <div style="font-size: 14px; font-weight: 700; line-height: 1.3">{{x.titel}}</div>
+              </div>
+              <a href="{{x.lernLink}}" onClick="{{x.lernen}}" style="flex: 0 0 auto; padding: 6px 10px; border-radius: 10px; background: #f7f7f4; font-size: 12px; font-weight: 700; color: #1f2328; text-decoration: none; white-space: nowrap">Lernstoff →</a>
+            </div>
+          </sc-for>
+        </div>
+        <sc-if value="{{nhAllesErledigt}}" hint-placeholder-val="{{false}}">
+          <div style="padding: 14px; border-radius: 12px; background: #e3f2e8; color: #2f7a4b; font-weight: 800; text-align: center">Alles nachgeholt – stark!</div>
+        </sc-if>
+        <sc-if value="{{nhHatErl}}" hint-placeholder-val="{{false}}">
+          <button type="button" onClick="{{nhToggleErl}}" style="align-self: flex-start; min-height: 36px; padding: 0 10px; border: 0; background: transparent; font-family: inherit; font-size: 13px; font-weight: 700; color: #6b6f76; cursor: pointer">{{nhErlText}}</button>
+        </sc-if>
+        <sc-if value="{{nhZeigeErl}}" hint-placeholder-val="{{false}}">
+          <div style="opacity: 0.6">
+            <sc-for list="{{nhErlListe}}" as="x" hint-placeholder-count="1">
+            <div style="display: flex; gap: 10px; align-items: flex-start; padding: 10px 0; border-bottom: 1px solid #f0f0eb">
+              <input type="checkbox" checked="{{x.erledigt}}" onChange="{{x.toggle}}" aria-label="nachgearbeitet" style="width: 20px; height: 20px; margin: 2px 0 0; accent-color: #4f8f80; flex: 0 0 auto">
+              <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px">
+                <div style="font-size: 12px; color: #6b6f76">{{x.datum}} · <b style="color: {{x.fg}}">{{x.modul}}</b> · {{x.thema}}</div>
+                <div style="font-size: 14px; font-weight: 700; line-height: 1.3; text-decoration: line-through">{{x.titel}}</div>
+              </div>
+              <a href="{{x.lernLink}}" onClick="{{x.lernen}}" style="flex: 0 0 auto; padding: 6px 10px; border-radius: 10px; background: #f7f7f4; font-size: 12px; font-weight: 700; color: #1f2328; text-decoration: none; white-space: nowrap">Lernstoff →</a>
+            </div>
+            </sc-for>
+          </div>
+        </sc-if>
+        <div style="display: flex; justify-content: flex-end">
+          <button type="button" onClick="{{nhZu}}" style="min-height: 44px; padding: 0 20px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-weight: 700; font-size: 15px; cursor: pointer">Schließen</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{eOffen}}" hint-placeholder-val="{{false}}">
+    <div style="position: fixed; inset: 0; background: rgba(31, 35, 40, 0.35); display: flex; align-items: center; justify-content: center; padding: 12px; z-index: 20">
+      <div role="dialog" aria-label="Eintrag hinzufügen" style="width: 100%; max-width: 480px; max-height: calc(100vh - 24px); overflow-y: auto; background: #ffffff; border-radius: 20px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.18); font-family: Nunito, system-ui, sans-serif; color: #1f2328">
+        <h2 style="margin: 0; font-size: 20px; font-weight: 800">Eintrag hinzufügen</h2>
+        <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">Titel<input type="text" value="{{e.titel}}" onChange="{{eSet.titel}}" placeholder="z. B. Aufgabenblatt 03 bearbeiten" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"></label>
+        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px">
+          <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">Art
+            <select value="{{e.art}}" onChange="{{eSet.art}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%">
+              <option value="hausaufgabe">Hausaufgabe</option><option value="todo">To-do</option><option value="frist">Frist</option><option value="termin">Termin</option><option value="privat">Privat</option>
+            </select>
+          </label>
+          <sc-if value="{{eNichtPrivat}}" hint-placeholder-val="{{true}}"><label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">Modul
+            <select value="{{e.modul}}" onChange="{{eSet.modul}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"><option value="mab004.1">mab004.1</option><option value="mab004.2">mab004.2</option><option value="mab005.1">mab005.1</option><option value="mab005.2">mab005.2</option><option value="pkb003.1">pkb003.1</option><option value="pkb003.2">pkb003.2</option><option value="pkb003.3">pkb003.3</option><option value="ewb001.1">ewb001.1</option><option value="ewb001.2">ewb001.2</option><option value="ewb002.1">ewb002.1</option><option value="ewb002.2">ewb002.2</option><option value="pyb005.1">pyb005.1</option><option value="pyb005.2">pyb005.2</option><option value="pyb005">pyb005 · eÜbung</option><option value="mab004">mab004 · Tutorium (freiwillig)</option><option value="ewb001">ewb001 · Tutorium (freiwillig)</option><option value="ewb002">ewb002 · Tutorium (freiwillig)</option></select>
+          </label></sc-if>
+          <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">Datum<input type="date" value="{{e.datum}}" onChange="{{eSet.datum}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"></label>
+          <sc-if value="{{eAllgZeit}}" hint-placeholder-val="{{true}}"><label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">Uhrzeit (optional)<input type="time" value="{{e.zeit}}" onChange="{{eSet.zeit}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"></label></sc-if>
+        </div>
+        <sc-if value="{{eIstPrivat}}" hint-placeholder-val="{{false}}">
+          <div style="display: flex; flex-direction: column; gap: 10px; padding: 12px; border-radius: 12px; background: #f7f7f4">
+            <label style="display: flex; gap: 10px; align-items: center; font-size: 14px; cursor: pointer"><input type="checkbox" checked="{{e.ganztag}}" onChange="{{eGanztag}}" style="width: 18px; height: 18px; accent-color: #4f8f80">Ganztägig (z. B. Urlaub, mehrere Tage in Vechta)</label>
+            <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px">
+              <sc-if value="{{eZeitSicht}}" hint-placeholder-val="{{true}}">
+                <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">Beginn<input type="time" value="{{e.zeit}}" onChange="{{eSet.zeit}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"></label>
+                <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">Ende<input type="time" value="{{e.bis}}" onChange="{{eSet.bis}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"></label>
+              </sc-if>
+              <sc-if value="{{eGanztagAn}}" hint-placeholder-val="{{false}}">
+                <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700; grid-column: 1 / -1">bis einschließlich (optional)<input type="date" value="{{e.bisDatum}}" onChange="{{eSet.bisDatum}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"></label>
+              </sc-if>
+            </div>
+            <sc-if value="{{eZeitSicht}}" hint-placeholder-val="{{true}}">
+              <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">Wiederholen
+                <select value="{{e.wdh}}" onChange="{{eSet.wdh}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"><option value="">nicht wiederholen</option><option value="w1">jede Woche</option><option value="w2">alle 2 Wochen</option></select>
+              </label>
+              <sc-if value="{{eWdhAktiv}}" hint-placeholder-val="{{false}}">
+                <div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px">
+                  <sc-for list="{{eTage}}" as="w" hint-placeholder-count="7">
+                    <button type="button" onClick="{{w.umschalten}}" style="min-height: 36px; border-radius: 8px; border: 1.5px solid {{w.rand}}; background: {{w.bg}}; font-family: inherit; font-size: 13px; font-weight: 800; color: {{w.fg}}; cursor: pointer">{{w.name}}</button>
+                  </sc-for>
+                </div>
+                <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">bis einschließlich (ohne Datum: Semesterende)<input type="date" value="{{e.wdhBis}}" onChange="{{eSet.wdhBis}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"></label>
+              </sc-if>
+            </sc-if>
+          </div>
+        </sc-if>
+        <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">Notiz (optional)<textarea value="{{e.notiz}}" onChange="{{eSet.notiz}}" rows="3" style="min-height: 80px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%; padding: 10px 12px; resize: vertical"></textarea></label>
+        <sc-if value="{{eFehler}}" hint-placeholder-val="{{false}}"><div style="font-size: 13px; color: #c42b2b">{{eFehlerText}}</div></sc-if>
+        <div style="font-size: 13px; color: #6b6f76">Der Eintrag erscheint sofort im Kalender und – außer private Termine – unter „Aufgaben &amp; Fristen“. Prüfungen und ihre Termine pflegst du auf der Prüfungsseite.</div>
+        <div style="display: flex; justify-content: flex-end; gap: 8px">
+          <button type="button" onClick="{{eZu}}" style="min-height: 44px; padding: 0 18px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-weight: 700; font-size: 15px; cursor: pointer">Abbrechen</button>
+          <button type="button" onClick="{{eOk}}" style="min-height: 44px; padding: 0 18px; border: 0; border-radius: 999px; background: #ffffff; color: #1f2328; border: 1px solid #e6e6e0; font-family: inherit; font-weight: 800; font-size: 15px; cursor: pointer">Speichern</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1040}}'>
+var LZEIT = {
+  heute: function (off) { var d = new Date(); d.setDate(d.getDate() - (off || 0)); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); },
+  lies: function () {
+    try { var v = window.sessionStorage.getItem('lernapp-lernzeit'); if (v) return JSON.parse(v); } catch (e) {}
+    var d = {}; function s(off, teil, k, l) { var t = LZEIT.heute(off); d[t] = d[t] || {}; d[t][teil] = { karten: k, lesen: l }; }
+    s(1, 'pyb005.1', 900, 1200); s(2, 'ewb001.1', 600, 1500); s(2, 'mab005.1', 0, 1800); s(5, 'ewb002.1', 420, 0); s(9, 'pkb003.1', 0, 1200); s(9, 'mab005.1', 300, 0); s(3, 'mab004.1', 0, 900);
+    LZEIT.schreib(d); return d;
+  },
+  schreib: function (d) { try { window.sessionStorage.setItem('lernapp-lernzeit', JSON.stringify(d)); } catch (e) {} },
+  plus: function (teil, art, sek) { var d = LZEIT.lies(), t = LZEIT.heute(); d[t] = d[t] || {}; d[t][teil] = d[t][teil] || { karten: 0, lesen: 0 }; d[t][teil][art] = (d[t][teil][art] || 0) + sek; LZEIT.schreib(d); },
+  wochenStart: function () { var d = new Date(), w = (d.getDay() + 6) % 7; return LZEIT.heute(w); },
+  summe: function (filt) {
+    var d = LZEIT.lies(), h = LZEIT.heute(), ws = LZEIT.wochenStart(), r = { ges: 0, woche: 0, heute: 0, karten: 0, lesen: 0, teil: {}, modul: {} };
+    Object.keys(d).forEach(function (dat) { Object.keys(d[dat]).forEach(function (teil) { if (filt && teil.indexOf(filt) !== 0) return; var x = d[dat][teil], n = (x.karten || 0) + (x.lesen || 0);
+      r.ges += n; r.karten += x.karten || 0; r.lesen += x.lesen || 0; if (dat >= ws) r.woche += n; if (dat === h) r.heute += n;
+      r.teil[teil] = (r.teil[teil] || 0) + n; var m = teil.slice(0, 6); r.modul[m] = (r.modul[m] || 0) + n; }); });
+    return r;
+  },
+  fmt: function (sek) { var m = Math.round(sek / 60); if (m < 60) return m + ' Min.'; return Math.floor(m / 60) + ' Std.' + (m % 60 ? ' ' + (m % 60) + ' Min.' : ''); },
+  aktiv: function (self) {
+    self._akt = Date.now();
+    try { ['mousemove', 'keydown', 'pointerdown', 'scroll', 'touchstart', 'wheel'].forEach(function (ev) { document.addEventListener(ev, function () { self._akt = Date.now(); }, { passive: true, capture: true }); }); } catch (e) {}
+  },
+  istAktiv: function (self) { var sichtbar = true; try { sichtbar = document.visibilityState !== 'hidden'; } catch (e) {} return sichtbar && Date.now() - (self._akt || 0) < 60000; }
+};
+
+class Component extends DCLogic {
+  constructor(props) { super(props); this._baueSitzungen(); this.state = { nhModul: null, nhErledigt: {}, nhZeigeErl: false, st: null, eintraege: [], eDialog: null }; }
+  _baueSitzungen() {
+    function pad(n) { return String(n).padStart(2, '0'); }
+    function iso(d) { return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
+    function parse(s) { var p = s.split('-').map(Number); return new Date(p[0], p[1] - 1, p[2]); }
+    function addDays(d, n) { var x = new Date(d); x.setDate(x.getDate() + n); return x; }
+    function dm(s) { var p = s.split('.'); return (p[1] === '01' ? '2027' : '2026') + '-' + p[1] + '-' + p[0]; }
+    var WEEKS = [], d;
+    for (d = parse('2026-10-12'); d <= parse('2026-12-14'); d = addDays(d, 7)) WEEKS.push(iso(d));
+    for (d = parse('2027-01-04'); d <= parse('2027-01-25'); d = addDays(d, 7)) WEEKS.push(iso(d));
+    function weekly(wd) { return WEEKS.map(function (m) { return iso(addDays(parse(m), wd)); }); }
+    var COURSES = [
+      { id: 'mab004-1', modul: 'mab004.1', titel: 'Mathematik in den digitalen Medien I', kurz: 'Digitale Medien I · VL', wd: 1, von: '08:00', bis: '10:00', raum: 'B1' },
+      { id: 'mab004-2', modul: 'mab004.2', titel: 'Mathematik in den digitalen Medien II (Gruppe A)', kurz: 'Digitale Medien II · Gr. A', wd: 1, von: '10:00', bis: '12:00', raum: 'J11' },
+      { id: 'mab005-1', modul: 'mab005.1', titel: 'Wahrscheinlichkeitsrechnung I', kurz: 'Wahrscheinlichkeitsrechnung I · VL', wd: 0, von: '14:00', bis: '16:00', raum: 'B1', themen: { '2026-10-12': 'Kapitel 0 (Organisatorisches) und Einstieg Kapitel 1', '2026-10-19': 'Kapitel 1, Stand danach: bis Folie 32 von 54', '2026-10-26': 'Kapitel 1 ab Folie 33' } },
+      { id: 'mab005-2', modul: 'mab005.2', titel: 'Wahrscheinlichkeitsrechnung II (Gruppe C)', kurz: 'Wahrscheinlichkeitsr. II · Gr. C', wd: 0, von: '18:00', bis: '20:00', raum: 'E033', themen: { '2026-10-12': 'Aufgabenblatt 01', '2026-10-19': 'Aufgabenblatt 02' } },
+      { id: 'pkb003-1', modul: 'pkb003.1', titel: 'Politische Ordnung: Das politische System der Bundesrepublik', kurz: 'Politische Ordnung', wd: 1, von: '12:00', bis: '14:00', raum: 'E137b' },
+      { id: 'pkb003-2', modul: 'pkb003.2', titel: 'Wirtschaft und Soziales: Wirtschaft und Gesellschaft der Bundesrepublik', kurz: 'Wirtschaft und Soziales', wd: 0, von: '12:00', bis: '14:00', raum: 'E137b' },
+      { id: 'pkb003-3', modul: 'pkb003.3', titel: 'Verwaltung: Einführung in die öffentliche Verwaltung', kurz: 'Verwaltung (14-täglich)', von: '14:00', bis: '18:00', raum: 'B1', dates: ['22.10', '12.11', '19.11', '03.12', '17.12', '14.01', '28.01'].map(dm) },
+      { id: 'ewb001-a', modul: 'ewb001.1', titel: 'Einführung in die Erziehungswissenschaften (Gruppe B)', kurz: 'Einführung Erziehungswiss. · Gr. B', wd: 1, von: '18:00', bis: '20:00', raum: 'Q016' },
+      { id: 'ewb001-b', modul: 'ewb001.2', titel: 'Kompetenzorientiertes Lehren und Lernen (Gruppe B)', kurz: 'Kompetenzorient. Lehren · Gr. B', wd: 1, von: '14:00', bis: '16:00', raum: 'Q016' },
+      { id: 'ewb001-t', modul: 'ewb001', titel: 'Tutorium ewb001 (Gruppe 3)', kurz: 'Tutorium ewb001', wd: 4, von: '10:15', bis: '11:45', raum: 'digital' },
+      { id: 'ewb002-v', modul: 'ewb002.1', titel: 'Wissenschaftstheoretische und methodische Grundlagen der empirischen Bildungsforschung (Gruppe A)', kurz: 'Empirische Bildungsforschung · VL', wd: 2, von: '10:00', bis: '12:00', raum: 'F144 (gr. Aula)', raumAus: { '2026-12-02': 'B1' } },
+      { id: 'ewb002-m', modul: 'ewb002.2', titel: 'Methoden der empirischen Bildungsforschung in Anwendung und Praxis (Gruppe M)', kurz: 'Methoden emp. Bildungsf. · Gr. M', wd: 1, von: '14:00', bis: '16:00', raum: 'R005' },
+      { id: 'pyb005-v', modul: 'pyb005.1', titel: 'Grundlagen der Pädagogischen Psychologie für Bildung und Erziehung', kurz: 'Päd. Psychologie · VL', sessions: [
+        ['2026-10-14', '10:00', '12:00', 'Q016', '01 Grundlegende Studieneinführung'],
+        ['2026-10-21', '10:00', '14:00', 'B1', '02 Zentrale psychologische Paradigmen und Grundlagen psychologischer Forschung'],
+        ['2026-10-28', '10:00', '14:00', 'Q016, ab 12 Uhr B1', '03 Grundlagen der Entwicklungspsychologie I+II'],
+        ['2026-11-04', '10:00', '14:00', 'Q016, ab 12 Uhr B1', '04 Grundlagen der Lernpsychologie I+II'],
+        ['2026-11-11', '10:00', '12:00', 'digital', '05 Kognition – Emotion – Motivation – Verhalten'],
+        ['2026-11-25', '10:00', '14:00', 'B1', '06 Grundlagen der Sozialpsychologie I+II'],
+        ['2026-12-02', '10:00', '12:00', 'digital', '07 Neuro- und biopsychologische Grundlagen'],
+        ['2026-12-16', '10:00', '12:00', 'B1', '08 Grundlagen der differentiellen Psychologie'],
+        ['2027-01-06', '10:00', '12:00', 'digital', ''],
+        ['2027-01-27', '10:00', '12:00', 'B1', '09 Abschlussbesprechung']] },
+      { id: 'pyb005-e', modul: 'pyb005', titel: 'Vertiefende eÜbung (Gruppe B)', kurz: 'Päd. Psychologie · eÜbung', wd: 3, von: '12:00', bis: '14:00', raum: 'digital', themen: {
+        '2026-10-15': '01 Grundlegende Studieneinführung', '2026-10-22': '02 Zentrale psychologische Paradigmen und Grundlagen psychologischer Forschung',
+        '2026-10-29': '03 Grundlagen der Entwicklungspsychologie I+II', '2026-11-05': '04 Grundlagen der Lernpsychologie I+II',
+        '2026-11-12': '05 Kognition – Emotion – Motivation – Verhalten', '2026-11-26': '06 Grundlagen der Sozialpsychologie I+II',
+        '2026-12-03': '07 Neuro- und biopsychologische Grundlagen', '2026-12-17': '08 Grundlagen der differentiellen Psychologie', '2027-01-28': '09 Abschlussbesprechung' } },
+      { id: 'pyb005-s', modul: 'pyb005.2', titel: 'Vertiefende Thematiken für Handlungsfelder der Bildung und Erziehung (Gruppe D)', kurz: 'Päd. Psychologie · Seminar Gr. D', wd: 0, von: '16:00', bis: '18:00', raum: 'Q113', themenListe: [
+        '01 Einführung', '02 Zentrale Paradigmen', '03 Ausgewählte Aspekte psychologischer Forschung', '04 Entwicklungspsychologische Aspekte I', '05 Entwicklungspsychologische Aspekte II',
+        '06 Lernpsychologische Aspekte I', '07 Lernpsychologische Aspekte II', '08 Kognition – Emotion – Motivation – Verhalten I', '09 Kognition – Emotion – Motivation – Verhalten II',
+        '10 Sozialpsychologische Aspekte I', '11 Sozialpsychologische Aspekte II', '12 Neuro- und biopsychologische Aspekte', '13 Differentiell-psychologische Aspekte', '14 Abschlussbesprechung'] }
+    ];
+    var SESS = [];
+    COURSES.forEach(function (c) {
+      if (c.sessions) { c.sessions.forEach(function (x) { SESS.push({ c: c, date: x[0], von: x[1], bis: x[2], raum: x[3], thema: x[4] }); }); return; }
+      var ds = c.dates || weekly(c.wd);
+      ds.forEach(function (dd, i) { SESS.push({ c: c, date: dd, von: c.von, bis: c.bis, raum: (c.raumAus && c.raumAus[dd]) || c.raum, thema: (c.themen && c.themen[dd]) || (c.themenListe && c.themenListe[i]) || '' }); });
+    });
+    var EXACT = ['mab005-2', 'pyb005-v', 'ewb001-t'];
+    function shiftT(t, m) { var p = t.split(':').map(Number); var x = p[0] * 60 + p[1] + m; return pad(Math.floor(x / 60)) + ':' + pad(x % 60); }
+    SESS.forEach(function (s) { s.key = s.c.id + '_' + s.date; if (EXACT.indexOf(s.c.id) < 0) { s.von = shiftT(s.von, 15); s.bis = shiftT(s.bis, -15); } });
+    this._SESS = SESS; this._WEEKS = WEEKS;
+  }
+  componentDidMount() {
+    var self = this;
+    function lesen() { try { var v = window.sessionStorage.getItem('lernapp-studienstand'); if (v && v !== self._letzter) { self._letzter = v; self.setState({ st: JSON.parse(v) }); } } catch (e) {} }
+    function lesenKal() { try { var v = window.sessionStorage.getItem('lernapp-kalender'); if (v && v !== self._letzterKal) { self._letzterKal = v; self.setState({ kal: JSON.parse(v) }); } } catch (e) {} }
+    function lesenK() { try { var v = (window.sessionStorage.getItem('lernapp-karten') || '') + (window.sessionStorage.getItem('lernapp-lernzeit') || ''); if (v !== self._letzterK) { self._letzterK = v; self.setState({ kTick: Date.now() }); } } catch (e) {} }
+    lesenK(); setInterval(lesenK, 1500);
+    lesenKal(); setInterval(lesenKal, 1000);
+    lesen();
+    this._uhr = setInterval(lesen, 1000);
+  }
+  componentWillUnmount() { clearInterval(this._uhr); }
+
+  renderVals() {
+    var C = {
+      mab004: ['#5f80b5', '#eaf1fc'], mab005: ['#4f8f80', '#e6f5f0'], pkb003: ['#b46b80', '#fbebef'],
+      ewb001: ['#6d9156', '#edf5e5'], ewb002: ['#b5845a', '#fcf0e4'], pyb005: ['#8a77b5', '#f1edfa']
+    };
+    function c(m, o) { var k = m.slice(0, 6); o.fg = C[k][0]; o.bg = C[k][1]; return o; }
+    var tags = {
+      Frist: ['#fde9e9', '#c42b2b'], Hausaufgabe: ['#fdf1d6', '#8a5a12'], 'To-do': ['#eef0f3', '#4b5563'], Erinnerung: ['#e6f5f0', '#2f6f60']
+    };
+    function t(o) { o.tagBg = tags[o.tag][0]; o.tagFg = tags[o.tag][1]; return c(o.modul, o); }
+    function ord(a, b) {
+      function rang(x) { var k = (x.modul || x.id || '').slice(0, 3); return k === 'mab' ? 0 : k === 'pkb' ? 1 : 2; }
+      var ra = rang(a), rb = rang(b);
+      if (ra !== rb) return ra - rb;
+      var ka = a.modul || a.id, kb = b.modul || b.id;
+      return ka < kb ? -1 : ka > kb ? 1 : 0;
+    }
+    var r = {
+      klausuren: [
+        c('mab004', { datum: '02.02.', modul: 'mab004', zusatz: '' }),
+        c('ewb001', { datum: '02.02.', modul: 'ewb001', zusatz: '' }),
+        c('ewb002', { datum: '04.02.', modul: 'ewb002', zusatz: '' }),
+        c('mab005', { datum: '08.02.', modul: 'mab005', zusatz: '' }),
+        c('pyb005', { datum: '09.02.', modul: 'pyb005', zusatz: '' }),
+        c('pkb003', { datum: '15.03.', modul: 'pkb003', zusatz: ' Abgabe' })
+      ],
+      montag: [
+        c('pkb003', { zeit: '12:15', modul: 'pkb003.2', titel: 'Wirtschaft und Soziales' }),
+        c('mab005', { zeit: '14:15', modul: 'mab005.1', titel: 'Wahrscheinlichkeitsrechnung I' }),
+        c('pyb005', { zeit: '16:15', modul: 'pyb005.2', titel: 'Vertiefende Thematiken' }),
+        c('mab005', { zeit: '18:00', modul: 'mab005.2', titel: 'Wahrscheinlichkeitsrechnung II' })
+      ],
+      aufgaben: [
+        t({ tag: 'Frist', datum: 'Mo 26.10.', modul: 'pyb005', titel: 'In alle pyb005-Veranstaltungen eingetragen?' }),
+        t({ tag: 'Hausaufgabe', datum: 'Di 27.10.', modul: 'ewb001.2', titel: 'Courseware-Einheit 03 vorbereiten' }),
+        t({ tag: 'To-do', datum: 'Di 27.10.', modul: 'ewb001.1', titel: 'QISPOS-Anmeldung ewb001' }),
+        t({ tag: 'To-do', datum: 'Fr 30.10.', modul: 'ewb001.2', titel: 'Beispiel-Klausuraufgaben ansehen' }),
+        t({ tag: 'Erinnerung', datum: 'So 01.11.', modul: 'pyb005', titel: 'Anmeldung öffnet – anmelden bis 31.01.' })
+      ],
+      nachholen: [
+        c('mab004', { modul: 'mab004', text: 'VL 1–2, Seminar 1–2', zahl: '0/4' }),
+        c('mab005', { modul: 'mab005', text: 'VL 1–2, Übung 1–2', zahl: '0/4' }),
+        c('pkb003', { modul: 'pkb003', text: 'Politische Ordnung, Wirtschaft', zahl: '0/4' }),
+        c('pyb005', { modul: 'pyb005', text: 'VL, Seminar, eÜbung', zahl: '0/6' }),
+        c('ewb001', { modul: 'ewb001', text: 'ewb001.1, ewb001.2', zahl: '0/4' }),
+        c('ewb002', { modul: 'ewb002', text: 'ewb002.1, ewb002.2', zahl: '0/4' })
+      ],
+      module: [
+        c('mab004', { id: 'mab004', name: 'Mathematik in den digitalen Medien', pruefung: 'Klausur 02.02.', inhalt: 'Noch keine Lerninhalte' }),
+        c('mab005', { id: 'mab005', name: 'Wahrscheinlichkeitsrechnung', pruefung: 'Klausur 08.02.', inhalt: 'Noch keine Lerninhalte' }),
+        c('pkb003', { id: 'pkb003', name: 'Systemanalyse', pruefung: 'Abgabe 15.03.', inhalt: 'Hausarbeit + Präsentation 12.11.' }),
+        c('ewb001', { id: 'ewb001', name: 'Grundlagen und Grundbegriffe der Erziehungswissenschaften', pruefung: 'Klausur 02.02.', inhalt: 'Noch keine Lerninhalte' }),
+        c('ewb002', { id: 'ewb002', name: 'Methoden der empirischen Bildungsforschung', pruefung: 'Klausur 04.02.', inhalt: 'Noch keine Lerninhalte' }),
+        c('pyb005', { id: 'pyb005', name: 'Grundlagen der Pädagogischen Psychologie für Bildung und Erziehung', pruefung: 'Klausur 09.02.', inhalt: 'Noch keine Lerninhalte' })
+      ]
+    };
+
+
+    var self = this;
+    var HEUTE = (function () { var d = new Date(); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); })();
+    var KAL0 = (self.state.kal && self.state.kal.eintraege) || [];
+    var KAL = KAL0.concat((self.state.eintraege || []).filter(function (e) { return !KAL0.some(function (k) { return k.id === e.id; }); }));
+    var privHeute = KAL.filter(function (e) { if (e.art !== 'privat') return false; if ((e.ausnahmen || []).indexOf(HEUTE) >= 0) return false; if (e.wdh && (e.tage || []).length) { if (HEUTE < e.datum || HEUTE > (e.wdhBis || '2027-03-31')) return false; var hd = new Date(HEUTE + 'T12:00:00'), wd = (hd.getDay() + 6) % 7; if (e.tage.indexOf(wd) < 0) return false; if (e.wdh === 'w2') { var d0 = new Date(e.datum + 'T12:00:00'); d0.setDate(d0.getDate() - ((d0.getDay() + 6) % 7)); var h0 = new Date(hd); h0.setDate(h0.getDate() - wd); if (Math.round((h0 - d0) / (7 * 864e5)) % 2 !== 0) return false; } return true; } return e.datum === HEUTE || (e.ganztag && e.bisDatum && e.datum <= HEUTE && e.bisDatum >= HEUTE); }).sort(function (a, b) { return (a.zeit || '').localeCompare(b.zeit || ''); }).map(function (e) {
+      return { zeit: e.zeit || 'ganzt.', titel: e.titel, info: e.ganztag && e.bisDatum ? 'ganztägig bis ' + e.bisDatum.split('-').reverse().slice(0, 2).join('.') + '.' : (e.bis ? 'bis ' + e.bis : (e.notiz || '')), bg: 'repeating-linear-gradient(135deg, #eef1f5 0 6px, #e3e8ef 6px 12px)', vor: !!e.zeit && e.zeit < '10:15' };
+    });
+    var privVor = privHeute.filter(function (p) { return p.vor; }), privNach = privHeute.filter(function (p) { return !p.vor; });
+    var ST = self.state.st || {};
+    var HD = new Date(), WTN = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'], MONN = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
+    r.datumTitel = WTN[HD.getDay()] + ', ' + HD.getDate() + '. ' + MONN[HD.getMonth()];
+    var mo = new Date(HD); mo.setDate(mo.getDate() - ((mo.getDay() + 6) % 7));
+    var moIso = mo.getFullYear() + '-' + String(mo.getMonth() + 1).padStart(2, '0') + '-' + String(mo.getDate()).padStart(2, '0');
+    var wi = this._WEEKS.indexOf(moIso);
+    r.vlWoche = wi >= 0 ? 'Vorlesungswoche ' + (wi + 1) + ' von ' + this._WEEKS.length : 'Vorlesungsfreie Zeit';
+    var NXA = ((self.state.st || {}).naechste) || null, zielIso = '2027-02-02';
+    if (NXA) { var isos = Object.keys(NXA).map(function (k) { return NXA[k].iso; }).filter(Boolean).sort(); zielIso = isos[0] || ''; }
+    r.ersteIn = zielIso ? 'nächste in ' + Math.round((new Date(+zielIso.slice(0, 4), +zielIso.slice(5, 7) - 1, +zielIso.slice(8, 10)) - new Date(HD.getFullYear(), HD.getMonth(), HD.getDate())) / 864e5) + ' Tagen' : 'alle geschrieben';
+    (function () {
+      var DEF = { mab004: '2027-02-02', ewb001: '2027-02-02', ewb002: '2027-02-04', mab005: '2027-02-08', pyb005: '2027-02-09', pkb003: '2027-03-15' };
+      function dm(iso) { return iso.slice(8, 10) + '.' + iso.slice(5, 7) + '.'; }
+      function info(k) { var n = NXA && NXA[k]; if (!n) return { iso: DEF[k], text: dm(DEF[k]), zus: '' }; if (n.erledigt) return null; if (!n.iso) return { iso: '9999', text: 'offen', zus: n.versuch > 1 ? ' · ' + n.versuch + '. Versuch' : '' }; return { iso: n.iso, text: dm(n.iso), zus: n.versuch > 1 ? ' · ' + n.versuch + '. Versuch' : '' }; }
+      r.klausuren = r.klausuren.map(function (x) { var i = info(x.modul); if (!i) return null; x.datum = i.text; x.zusatz = i.zus; x._iso = i.iso; return x; }).filter(Boolean).sort(function (a, b) { var TZ = { mab004: '08', ewb001: '13' }; return a._iso.localeCompare(b._iso) || (TZ[a.modul] || '10').localeCompare(TZ[b.modul] || '10'); });
+      r.module.forEach(function (m) { var i = info(m.id); var art = m.id === 'pkb003' ? 'Abgabe ' : 'Klausur '; m.pruefung = i ? art + i.text + i.zus : 'bestanden'; if (m.datum !== undefined) m.datum = i ? i.text : '✓'; });
+      r.ersteAm = zielIso ? 'nächste am ' + zielIso.slice(8, 10) + '.' + zielIso.slice(5, 7) + '.' + zielIso.slice(0, 4) : 'alle geschrieben';
+      function klTage(list) { var out = []; list.forEach(function (k) { var g = out[out.length - 1]; if (g && g.datum === k.datum) g.eintraege.push(k); else out.push({ datum: k.datum, eintraege: [k] }); }); return out; }
+      r.klausurTage = klTage(r.klausuren);
+      var nk = r.klausuren.filter(function (x) { return x._iso !== '9999'; })[0]; r._naechsteK = nk ? nk.modul : '';
+      if (nk) { r.ersteAm = 'nächste am ' + nk._iso.slice(8, 10) + '.' + nk._iso.slice(5, 7) + '.' + nk._iso.slice(0, 4); r.ersteIn = 'nächste in ' + Math.round((new Date(+nk._iso.slice(0, 4), +nk._iso.slice(5, 7) - 1, +nk._iso.slice(8, 10)) - new Date(HD.getFullYear(), HD.getMonth(), HD.getDate())) / 864e5) + ' Tagen'; }
+    })();
+    var FARB = { mab004: ['#5f80b5', '#eaf1fc'], mab005: ['#4f8f80', '#e6f5f0'], pkb003: ['#b46b80', '#fbebef'], ewb001: ['#6d9156', '#edf5e5'], ewb002: ['#b5845a', '#fcf0e4'], pyb005: ['#8a77b5', '#f1edfa'] };
+    var KM = (self.state.kal && self.state.kal.marks) || { 'ewb001-t_2026-10-16': { ausgefallen: true }, 'ewb001-t_2026-10-23': { anwesend: true }, 'pkb003-3_2026-10-22': { anwesend: true }, 'pyb005-e_2026-10-22': { anwesend: false } };
+    function entfallGrund(dIso) {
+      var y = parseInt(dIso.slice(0, 4), 10);
+      function ost(y) { var a = y % 19, b = Math.floor(y / 100), c = y % 100, d = Math.floor(b / 4), e = b % 4, f = Math.floor((b + 8) / 25), g = Math.floor((b - f + 1) / 3), h = (19 * a + b - d - g + 15) % 30, i = Math.floor(c / 4), k = c % 4, l = (32 + 2 * e + 2 * i - h - k) % 7, m = Math.floor((a + 11 * h + 22 * l) / 451), mo = Math.floor((h + l - 7 * m + 114) / 31), da = ((h + l - 7 * m + 114) % 31) + 1; return new Date(y, mo - 1, da); }
+      function iz(dt) { return dt.getFullYear() + '-' + String(dt.getMonth() + 1).padStart(2, '0') + '-' + String(dt.getDate()).padStart(2, '0'); }
+      function plus(dt, n) { var x = new Date(dt); x.setDate(x.getDate() + n); return x; }
+      var o = ost(y), ft = {};
+      ft[y + '-01-01'] = 'Neujahr'; ft[iz(plus(o, -2))] = 'Karfreitag'; ft[iz(plus(o, 1))] = 'Ostermontag'; ft[y + '-05-01'] = 'Tag der Arbeit'; ft[iz(plus(o, 39))] = 'Christi Himmelfahrt'; ft[iz(plus(o, 50))] = 'Pfingstmontag'; ft[y + '-10-03'] = 'Tag der Deutschen Einheit'; ft[y + '-10-31'] = 'Reformationstag'; ft[y + '-12-25'] = '1. Weihnachtstag'; ft[y + '-12-26'] = '2. Weihnachtstag';
+      if (ft[dIso]) return 'Feiertag (' + ft[dIso] + ')';
+      var FREI = [['vorlesungsfreie Zeit', '2026-12-21', '2027-01-03'], ['Exkursionstage', '2027-05-18', '2027-05-22'], ['vorlesungsfreie Zeit', '2027-12-23', '2028-01-09'], ['Exkursionstage', '2028-06-06', '2028-06-10']];
+      for (var q = 0; q < FREI.length; q++) if (dIso >= FREI[q][1] && dIso <= FREI[q][2]) return FREI[q][0];
+      return '';
+    }
+    var heuteS = this._SESS.filter(function (s) { return s.date === HEUTE; }).map(function (s) {
+      var f = FARB[s.c.modul.slice(0, 6)] || ['#6b6f76', '#f0f0eb'], m = KM[s.key] || {};
+      return { sort: s.von, zeit: s.von, label: s.c.modul + (m.anwesend === true ? ' ✓' : ''), fg: f[0], bg: f[1], titel: s.c.kurz, info: entfallGrund(s.date) ? 'entfällt – ' + entfallGrund(s.date) : (m.ausgefallen ? 'ausgefallen' : 'bis ' + s.bis + ' · ' + s.raum), opazitaet: (m.ausgefallen || entfallGrund(s.date)) ? '0.5' : '1' };
+    });
+    var heuteP = privHeute.map(function (p) { return { sort: p.zeit === 'ganzt.' ? '00:00' : p.zeit, zeit: p.zeit, label: 'Privat', fg: '#3d4a5c', bg: p.bg, titel: p.titel, info: p.info, opazitaet: '1' }; });
+    r.heuteListe = heuteS.concat(heuteP).sort(function (a, b) { return a.sort.localeCompare(b.sort); });
+    r.heuteFrei = heuteS.length === 0;
+    var HH = [];
+    (function () {
+      var eg = entfallGrund(HEUTE);
+      if (/^Feiertag/.test(eg)) HH.push({ text: eg.replace(/^Feiertag \((.*)\)$/, 'Feiertag · $1'), bg: '#fff0e5', fg: '#b35c1e' });
+      var FER = [['Sommerferien', '2026-07-02', '2026-08-12'], ['Herbstferien', '2026-10-12', '2026-10-24'], ['Weihnachtsferien', '2026-12-23', '2027-01-09'], ['Halbjahresferien', '2027-02-01', '2027-02-02'], ['Osterferien', '2027-03-22', '2027-04-03'], ['Ferientag', '2027-05-07', '2027-05-07'], ['Ferientag', '2027-05-18', '2027-05-18'], ['Sommerferien', '2027-07-08', '2027-08-18'], ['Herbstferien', '2027-10-16', '2027-10-30'], ['Weihnachtsferien', '2027-12-23', '2028-01-08'], ['Halbjahresferien', '2028-01-31', '2028-02-01'], ['Osterferien', '2028-04-10', '2028-04-22'], ['Sommerferien', '2028-07-20', '2028-08-30']];
+      FER.forEach(function (f) { if (HEUTE >= f[1] && HEUTE <= f[2]) HH.push({ text: 'Ferien · ' + f[0] + (HEUTE === f[2] && f[1] !== f[2] ? ' (letzter Tag)' : (HEUTE === f[1] && f[1] !== f[2] ? ' (erster Tag)' : '')), bg: '#f3efe6', fg: '#7a6a4f' }); });
+      var UNIH = [['vorlesungsfreie Zeit (Weihnachten)', '2026-12-21', '2027-01-03'], ['letzter Vorlesungstag', '2027-01-30', '2027-01-30'], ['Vorlesungsbeginn SoSe 27', '2027-04-05', '2027-04-05'], ['Exkursionstage – keine regulären Veranstaltungen', '2027-05-18', '2027-05-22'], ['letzter Vorlesungstag', '2027-07-17', '2027-07-17'], ['Vorlesungsbeginn WiSe 27/28', '2027-10-11', '2027-10-11'], ['vorlesungsfreie Zeit (Weihnachten)', '2027-12-23', '2028-01-09']];
+      UNIH.forEach(function (u) { if (HEUTE >= u[1] && HEUTE <= u[2]) HH.push({ text: 'Uni · ' + u[0], bg: '#e8ecef', fg: '#3f5160' }); });
+      if (HEUTE >= '2027-08-30' && HEUTE <= '2027-10-08') { var w = Math.floor((new Date(+HEUTE.slice(0, 4), +HEUTE.slice(5, 7) - 1, +HEUTE.slice(8, 10)) - new Date(2027, 7, 30)) / (7 * 864e5)) + 1; HH.push({ text: 'ASP · Woche ' + w + ' von 6', bg: '#e3f2e8', fg: '#2f7a4b' }); }
+    })();
+    r.heuteHinweise = HH;
+    r.st = {
+      schnitt: ST.schnitt || '–', mathe: ST.mathe || '–', politik: ST.politik || '–', profil: ST.profil || '–',
+      dieses: ST.dieses !== undefined ? ST.dieses : 6, tage: String(Math.round((new Date(2027, 1, 2) - new Date()) / 864e5)), gesamt: ST.gesamt || 0, offen: ST.offen !== undefined ? ST.offen : 180, breite: ST.breite || '0%',
+      bereiche: ST.bereiche || [{ kurz: 'Mathe', text: '0 / 60' }, { kurz: 'Politik', text: '0 / 60' }, { kurz: 'Profil', text: '0 / 35' }, { kurz: 'Praktika', text: '0 / 15' }, { kurz: 'BA-Arbeit', text: '0 / 10' }]
+    };
+    var WT2 = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
+    function isoAus(txt) { var m = /(\d{2})\.(\d{2})\./.exec(txt); if (!m) return '9999'; var mo = parseInt(m[2], 10); return (mo >= 10 ? '2026' : '2027') + '-' + m[2] + '-' + m[1]; }
+    var ARTN = { hausaufgabe: 'Hausaufgabe', todo: 'To-do', frist: 'Frist', pruefung: 'Prüfung', termin: 'Termin', privat: 'Privat' };
+    tags['Prüfung'] = ['#fde9e9', '#c42b2b']; tags['Termin'] = ['#eef0f3', '#4b5563'];
+    var neueE = (self.state.eintraege || []).filter(function (e) { return e.art !== 'privat'; }).map(function (e) {
+      var d = e.datum ? WT2[new Date(e.datum + 'T12:00:00').getDay()] + ' ' + e.datum.split('-')[2] + '.' + e.datum.split('-')[1] + '.' : 'ohne Datum';
+      return t({ tag: ARTN[e.art], datum: d + (e.zeit ? ', ' + e.zeit : ''), modul: e.modul, titel: e.titel || '(ohne Titel)', iso: e.datum || '9999', neu: true });
+    });
+    r.aufgaben = r.aufgaben.map(function (a) { a.iso = a.iso || isoAus(a.datum); return a; }).concat(neueE).sort(function (a, b) { return a.iso < b.iso ? -1 : a.iso > b.iso ? 1 : 0; });
+    var ED = self.state.eDialog;
+    r.eOffen = !!ED;
+    r.e = ED || { titel: '', art: 'hausaufgabe', modul: 'mab004.1', datum: '', zeit: '', bis: '', notiz: '', ganztag: false, bisDatum: '', wdh: '', wdhBis: '' };
+    r.eIstPrivat = !!(ED && ED.art === 'privat'); r.eNichtPrivat = !r.eIstPrivat;
+    r.eGanztagAn = r.eIstPrivat && !!ED.ganztag; r.eZeitSicht = !r.eGanztagAn; r.eAllgZeit = !r.eIstPrivat;
+    r.eWdhAktiv = r.eIstPrivat && !ED.ganztag && !!ED.wdh;
+    r.eFehler = !!(ED && ED._fehler); r.eFehlerText = ED ? (ED._fehler || '') : '';
+    r.eTage = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'].map(function (n, i) {
+      var an = !!(ED && (ED.tage || []).indexOf(i) >= 0);
+      return { name: n, bg: an ? '#ffffff' : 'transparent', rand: an ? '#1f2328' : '#e6e6e0', fg: an ? '#1f2328' : '#6b6f76',
+        umschalten: function () { var tg = (self.state.eDialog.tage || []).slice(); var p = tg.indexOf(i); if (p >= 0) tg.splice(p, 1); else tg.push(i); tg.sort(); self.setState({ eDialog: Object.assign({}, self.state.eDialog, { tage: tg }) }); } };
+    });
+    r.eGanztag = function () { self.setState({ eDialog: Object.assign({}, self.state.eDialog, { ganztag: !self.state.eDialog.ganztag }) }); };
+    r.eSet = {};
+    ['titel', 'art', 'modul', 'datum', 'zeit', 'bis', 'bisDatum', 'notiz', 'wdh', 'wdhBis'].forEach(function (k) { r.eSet[k] = function (ev) { var n = Object.assign({}, self.state.eDialog); n[k] = ev.target.value; if (k === 'wdh' && ev.target.value && !(n.tage || []).length && n.datum) n.tage = [(new Date(n.datum + 'T12:00:00').getDay() + 6) % 7]; self.setState({ eDialog: n }); }; });
+    r.eOeffnen = function () { self.setState({ eDialog: { titel: '', art: 'hausaufgabe', modul: 'mab004.1', datum: '', zeit: '', bis: '', notiz: '', ganztag: false, bisDatum: '', wdh: '', wdhBis: '', tage: [] } }); };
+    r.eZu = function () { self.setState({ eDialog: null }); };
+    r.eOk = function () {
+      var x = self.state.eDialog, fehl = function (m) { self.setState({ eDialog: Object.assign({}, x, { _fehler: m }) }); };
+      if (!x.titel || !x.titel.trim()) return fehl('Bitte einen Titel eingeben.');
+      if (!x.datum) return fehl('Bitte ein Datum wählen.');
+      var pv = x.art === 'privat';
+      if (pv && x.wdh && !x.ganztag && !(x.tage || []).length) return fehl('Bitte mindestens einen Wochentag wählen.');
+      var body = { id: 'd' + Date.now().toString(36), art: x.art, datum: x.datum, zeit: (pv && x.ganztag) ? '' : (x.zeit || ''), bis: (pv && !x.ganztag) ? (x.bis || '') : '', ganztag: !!(pv && x.ganztag), bisDatum: (pv && x.ganztag && x.bisDatum > x.datum) ? x.bisDatum : '', wdh: (pv && !x.ganztag) ? (x.wdh || '') : '', tage: (pv && !x.ganztag && x.wdh) ? (x.tage || []) : [], wdhBis: (pv && !x.ganztag && x.wdh) ? (x.wdhBis || '') : '', modul: pv ? '' : (x.modul || ''), titel: x.titel.trim(), notiz: x.notiz || '', erledigt: false };
+      try { var q = JSON.parse(window.sessionStorage.getItem('lernapp-eintrag-queue') || '[]'); q.push(body); window.sessionStorage.setItem('lernapp-eintrag-queue', JSON.stringify(q)); } catch (e) {}
+      self.setState({ eintraege: (self.state.eintraege || []).concat([body]), eDialog: null });
+    };
+    var KAx = []; try { KAx = JSON.parse(window.sessionStorage.getItem('lernapp-karten') || '[]'); } catch (e) {}
+    var heuteK = (function () { var d = new Date(); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); })();
+    var AKTm = ['mab004', 'mab005', 'pkb003', 'ewb001', 'ewb002', 'pyb005'];
+    var fae = KAx.filter(function (k) { return AKTm.indexOf(k.teil.slice(0, 6)) >= 0 && (!k.faellig || k.faellig <= heuteK); });
+    var lzW = LZEIT.summe('');
+    r.kl = { faellig: fae.length ? fae.length + (fae.length === 1 ? ' Karte heute fällig' : ' Karten heute fällig') : 'Heute keine Karten fällig', hat: fae.length > 0, zeit: 'Lernzeit diese Woche: ' + LZEIT.fmt(lzW.woche) + ' · heute ' + LZEIT.fmt(lzW.heute),
+      ueben: function () { try { window.sessionStorage.setItem('lernapp-karten-oeffnen', JSON.stringify({ aktion: 'faellig' })); } catch (e) {} } };
+    var FORT = { ewb001: 0, ewb002: 0 }; try { var LSx = JSON.parse(window.sessionStorage.getItem('lernapp-lernstand') || 'null'); if (LSx) FORT = LSx; } catch (e) {}
+    r.module = r.module.map(function (m) {
+      var f = FORT[m.id];
+      var hat = typeof f === 'number';
+      return Object.assign({}, m, { link: 'Module.dc.html', oeffne: function () { try { window.sessionStorage.setItem('lernapp-modul-oeffnen', m.id); } catch (e) {} }, fortText: hat ? f + ' % gelernt' : '', fortBreite: (hat ? f : 0) + '%', fortFarbe: hat ? '#4b5563' : '#9a9da3' });
+    });
+    var self = this;
+    var KMn = (self.state.kal && self.state.kal.marks) || { 'ewb001-t_2026-10-16': { ausgefallen: true }, 'ewb001-t_2026-10-23': { anwesend: true }, 'pkb003-3_2026-10-22': { anwesend: true }, 'pyb005-e_2026-10-22': { anwesend: false } };
+    var ARTD = { 'mab004-1': 'Vorlesung', 'mab004-2': 'Seminar', 'mab005-1': 'Vorlesung', 'mab005-2': 'Seminar', 'pkb003-1': 'Seminar', 'pkb003-2': 'Seminar', 'pkb003-3': 'Seminar', 'ewb001-a': 'Vorlesung', 'ewb001-b': 'Vorlesung', 'ewb001-t': 'Tutorium', 'ewb002-v': 'Vorlesung', 'ewb002-m': 'Seminar', 'pyb005-v': 'Vorlesung', 'pyb005-s': 'Seminar', 'pyb005-e': 'eÜbung' };
+    var NH = { mab004: [], mab005: [], pkb003: [], ewb001: [], ewb002: [], pyb005: [] };
+    this._SESS.forEach(function (s) { if (s._t0 === undefined) s._t0 = s.thema; var mm = KMn[s.key]; s.thema = (mm && mm.thema !== undefined) ? mm.thema : s._t0; });
+    this._SESS.forEach(function (s) {
+      var m = KMn[s.key] || {};
+      if (m.ausgefallen || entfallGrund(s.date) || m.anwesend === true) return;
+      if (!(m.anwesend === false || (s.date >= '2026-10-12' && s.date <= '2026-10-21'))) return;
+      var k = s.c.modul.slice(0, 6); if (!NH[k]) return;
+      NH[k].push([s.date, s.c.modul, s.c.titel.replace(/ \(Gruppe [A-Z0-9]+\)/, ''), (ARTD[s.c.id] || '') + (/Gruppe/.test(s.c.titel) ? ', Gruppe ' + s.c.titel.replace(/.*\(Gruppe ([A-Z0-9]+)\).*/, '$1') : '') + (s.thema ? ' · ' + s.thema : ''), s.key, !!m.nachgearbeitet]);
+    });
+    Object.keys(NH).forEach(function (k) { NH[k].sort(function (a, b) { return (a[0] + a[1]).localeCompare(b[0] + b[1]); }); });
+    var ER = self.state.nhErledigt || {};
+    var WT = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
+    function nhKey(m, x) { return m + '_' + x[0] + '_' + x[1]; }
+    function nhDatum(iso) { var d = iso.split('-'); return WT[new Date(iso + 'T12:00:00').getDay()] + ' ' + d[2] + '.' + d[1] + '.'; }
+    var nhGes = 0, nhErl = 0;
+    Object.keys(NH).forEach(function (m) { NH[m].forEach(function (x) { nhGes++; if (ER[nhKey(m, x)] || x[5]) nhErl++; }); });
+    r.nachholen = r.nachholen.map(function (n) {
+      var l = NH[n.modul] || [];
+      var e = l.filter(function (x) { return ER[nhKey(n.modul, x)] || x[5]; }).length;
+      return Object.assign({}, n, { zahl: e + '/' + l.length, oeffne: function () { self.setState({ nhModul: n.modul, nhZeigeErl: false }); } });
+    });
+    r.nhGesamt = nhErl + ' von ' + nhGes + ' erledigt';
+    (function () {
+      var lzD = LZEIT.lies(), ws = LZEIT.wochenStart(), proM = {}, ges = 0;
+      Object.keys(lzD).forEach(function (dat) { if (dat < ws) return; Object.keys(lzD[dat]).forEach(function (t) { var x = lzD[dat][t], n = (x.karten || 0) + (x.lesen || 0); ges += n; proM[t.slice(0, 6)] = (proM[t.slice(0, 6)] || 0) + n; }); });
+      var geuebt = KAx.filter(function (k) { return k.stat && k.stat.zuletzt && k.stat.zuletzt >= ws; }).length;
+      var top = Object.keys(proM).sort(function (a, b) { return proM[b] - proM[a]; }), wenig = AKTm.filter(function (m) { return !proM[m]; });
+      var d0 = new Date(ws + 'T12:00:00'), wt = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
+      r.wr = { titel: 'Deine Woche · ' + wt[d0.getDay()] + ' ' + String(d0.getDate()).padStart(2, '0') + '.' + String(d0.getMonth() + 1).padStart(2, '0') + '. bis heute',
+        zeit: LZEIT.fmt(ges), karten: String(geuebt), nachholen: (nhGes - nhErl) + ' offen',
+        meist: top.length ? 'Am meisten gelernt: ' + top.slice(0, 2).map(function (m) { return m + ' (' + LZEIT.fmt(proM[m]) + ')'; }).join(', ') : 'Diese Woche noch nichts gelernt.',
+        wenig: wenig.length ? 'Noch gar nicht dran: ' + wenig.join(', ') : 'Alle Module waren diese Woche dran – stark!',
+        hinweis: 'Sonntags als Rückblick – in der App zusätzlich als Benachrichtigung.' };
+    })();
+
+    r.nhBreite = (nhGes ? Math.round(nhErl / nhGes * 100) : 0) + '%';
+    var PD = { mab004: '2027-02-02 08', ewb001: '2027-02-02 13', ewb002: '2027-02-04', mab005: '2027-02-08', pyb005: '2027-02-09', pkb003: '2027-03-15' };
+    var HLF = { mab004: ['#5f80b5', '#eaf1fc', '#dbe6f7', '#3f5f93'], mab005: ['#4f8f80', '#e6f5f0', '#d3ece5', '#2f6f60'], pkb003: ['#b46b80', '#fbebef', '#f5d9e1', '#8a4458'], ewb001: ['#6d9156', '#edf5e5', '#dcebd0', '#4b6c38'], ewb002: ['#b5845a', '#fcf0e4', '#f3e1cf', '#82593a'], pyb005: ['#8a77b5', '#f1edfa', '#e4ddf5', '#5d4b8c'] };
+    var rang = Object.keys(NH).map(function (k) { return { k: k, offen: NH[k].filter(function (x) { return !(ER[nhKey(k, x)] || x[5]); }) }; }).filter(function (x) { return x.offen.length; })
+      .sort(function (a, b) { return (b.offen.length - a.offen.length) || PD[a.k].localeCompare(PD[b.k]); });
+    var top = rang[0], alt = rang[1];
+    if (top) {
+      var x0 = top.offen[0], hf = HLF[top.k];
+      r.hl = { knopf: 'Nachholen starten', link: '#', altLink: '#', unter: 'am meisten nachzuholen (' + top.offen.length + ')', vorschlag: 'Vorschlag: In ' + top.k + ' ist am meisten nachzuholen – ' + top.offen.length + (top.offen.length === 1 ? ' Sitzung.' : ' Sitzungen.'), kopf: x0[1] + ' · ' + x0[3].split(' · ')[0].split(',')[0] + ' vom ' + nhDatum(x0[0]).slice(3) + (x0[3].indexOf(' · ') > 0 ? ' · ' + x0[3].split(' · ').slice(1).join(' · ') : ''), kurz: x0[1] + ' · ' + x0[3].split(',')[0].split(' · ')[0] + ' ' + nhDatum(x0[0]).slice(3), titel: x0[2], fg: hf[0], bg: hf[1], rand: hf[2], btnBg: hf[2], btnFg: hf[3], anzahl: String(top.offen.length), hatAlt: !!alt, altText: alt ? 'oder: ' + alt.k + ' – ' + alt.offen.length + ' offen →' : '', altOeffne: function () { if (alt) self.setState({ nhModul: alt.k, nhZeigeErl: false }); } };
+    } else {
+      var NKm = r._naechsteK || 'mab004', NKx = r.module.filter(function (x) { return x.id === NKm; })[0] || { name: '', pruefung: '' }, hfN = HLF[NKm] || ['#2f7a4b', '#e3f2e8', '#cfe8d8'];
+      r.hl = { vorschlag: 'Alles nachgeholt – stark! Weiter nach Lernplan: als Nächstes ist ' + NKm + ' dran (' + NKx.pruefung + ').', kopf: NKm + ' · Lernplan', kurz: NKm + ' · Lernplan', unter: 'alles nachgeholt – weiter nach Lernplan', titel: NKx.name, fg: hfN[0], bg: hfN[1], rand: hfN[2], btnBg: hfN[2], btnFg: hfN[0], anzahl: '0',
+        knopf: 'Zum Lernplan', hatAlt: true, altText: 'Lernplan von ' + NKm + ' öffnen →', altLink: 'Module.dc.html', link: 'Module.dc.html',
+        altOeffne: function () { try { window.sessionStorage.setItem('lernapp-modul-oeffnen', JSON.stringify({ k: NKm, tab: 'uebersicht' })); } catch (e) {} } };
+    }
+
+    r.nhStart = function () { if (top) self.setState({ nhModul: top.k, nhZeigeErl: false }); else r.hl.altOeffne(); };
+    var dm = self.state.nhModul;
+    r.nhOffen = !!dm;
+    r.nhZu = function () { self.setState({ nhModul: null }); };
+    if (dm) {
+      var farbe = C[dm];
+      var name = ((r.module || []).filter(function (m) { return m.id === dm; })[0] || {}).name || '';
+      var alle = NH[dm].map(function (x) {
+        var k = nhKey(dm, x);
+        return { datum: nhDatum(x[0]), modul: x[1], titel: x[2], thema: x[3], erledigt: !!(ER[k] || x[5]), fg: farbe[0],
+          toggle: function () { var n = Object.assign({}, self.state.nhErledigt); n[k] = !n[k]; self.setState({ nhErledigt: n }); },
+          lernLink: 'Module.dc.html', lernen: function () { try { window.sessionStorage.setItem('lernapp-modul-oeffnen', JSON.stringify({ k: dm, tab: 'lernen', teil: x[1], datum: x[0] })); } catch (e) {} } };
+      });
+      var offen = alle.filter(function (x) { return !x.erledigt; });
+      var fertig = alle.filter(function (x) { return x.erledigt; });
+      r.nhTitel = dm + ' · ' + name; r.nhFg = farbe[0]; r.nhBg = farbe[1];
+      r.nhZaehler = fertig.length + ' von ' + alle.length + ' erledigt';
+      r.nhOffeneListe = offen; r.nhErlListe = fertig;
+      r.nhAllesErledigt = offen.length === 0;
+      r.nhHatErl = fertig.length > 0;
+      r.nhZeigeErl = !!self.state.nhZeigeErl;
+      r.nhErlText = self.state.nhZeigeErl ? 'Erledigte ausblenden' : fertig.length + (fertig.length === 1 ? ' erledigte anzeigen' : ' erledigte anzeigen');
+      r.nhToggleErl = function () { self.setState({ nhZeigeErl: !self.state.nhZeigeErl }); };
+    } else {
+      r.nhTitel = ''; r.nhFg = '#1f2328'; r.nhBg = '#ffffff'; r.nhZaehler = ''; r.nhOffeneListe = []; r.nhErlListe = [];
+      r.nhAllesErledigt = false; r.nhHatErl = false; r.nhZeigeErl = false; r.nhErlText = ''; r.nhToggleErl = function () {};
+    }
+    ['nachholen', 'module'].forEach(function (k) { if (r[k]) r[k].sort(ord); });
+
+    return r;
+  }
+}
+</script>
+</body>
+</html>

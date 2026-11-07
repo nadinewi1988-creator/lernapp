@@ -1,0 +1,165 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "Handy.dc.html": {
+      "h": 1500,
+      "is_interactive": true,
+      "page": "handy",
+      "title": "Dashboard – Handy",
+      "w": 390,
+      "x": 0,
+      "y": 0
+    },
+    "Ipad.dc.html": {
+      "expand": "fill",
+      "h": 1000,
+      "is_interactive": true,
+      "page": "ipad",
+      "title": "Dashboard – iPad (quer)",
+      "w": 1180,
+      "x": 0,
+      "y": 0
+    },
+    "Kalender.dc.html": {
+      "expand": "fill",
+      "h": 1950,
+      "is_interactive": true,
+      "page": "kalender",
+      "title": "Kalender – Laptop & iPad",
+      "w": 1280,
+      "x": 0,
+      "y": 0
+    },
+    "KalenderHandy.dc.html": {
+      "h": 2600,
+      "is_interactive": true,
+      "page": "kalender",
+      "title": "Kalender – Handy",
+      "w": 390,
+      "x": 1360,
+      "y": 0
+    },
+    "Main.dc.html": {
+      "expand": "fill",
+      "h": 1040,
+      "is_interactive": true,
+      "page": "laptop",
+      "title": "Dashboard – Laptop & Mac mini",
+      "w": 1280,
+      "x": 0,
+      "y": 0
+    },
+    "Module.dc.html": {
+      "expand": "fill",
+      "h": 1500,
+      "is_interactive": true,
+      "page": "module",
+      "title": "Module – Laptop & iPad",
+      "w": 1280,
+      "x": 227,
+      "y": 12
+    },
+    "ModuleHandy.dc.html": {
+      "h": 1800,
+      "is_interactive": true,
+      "page": "module",
+      "title": "Module – Handy",
+      "w": 390,
+      "x": 1565,
+      "y": 0
+    },
+    "Pruefungen.dc.html": {
+      "expand": "fill",
+      "h": 1400,
+      "is_interactive": true,
+      "page": "pruefungen",
+      "title": "Prüfungen – Laptop & iPad",
+      "w": 1280,
+      "x": 0,
+      "y": 0
+    },
+    "PruefungenHandy.dc.html": {
+      "h": 2600,
+      "is_interactive": true,
+      "page": "pruefungen",
+      "title": "Prüfungen – Handy",
+      "w": 390,
+      "x": 1360,
+      "y": 0
+    },
+    "Karten.dc.html": {
+      "expand": "fill",
+      "h": 1200,
+      "title": "Eigene Karten – Laptop & iPad",
+      "w": 1280,
+      "x": 0,
+      "y": 0,
+      "page": "karten",
+      "is_interactive": true
+    },
+    "KartenHandy.dc.html": {
+      "h": 1700,
+      "title": "Eigene Karten – Handy",
+      "w": 390,
+      "x": 1360,
+      "y": 0,
+      "page": "karten",
+      "is_interactive": true
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-10-23T14:45:00Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "file": "Main.dc.html",
+    "view": "focused"
+  },
+  "notes": {},
+  "order": [
+    "Main.dc.html",
+    "Ipad.dc.html",
+    "Handy.dc.html",
+    "Pruefungen.dc.html",
+    "PruefungenHandy.dc.html",
+    "Kalender.dc.html",
+    "KalenderHandy.dc.html",
+    "Module.dc.html",
+    "ModuleHandy.dc.html",
+    "Karten.dc.html",
+    "KartenHandy.dc.html"
+  ],
+  "pages": [
+    {
+      "id": "laptop",
+      "name": "Dashboard – Laptop"
+    },
+    {
+      "id": "ipad",
+      "name": "Dashboard – iPad"
+    },
+    {
+      "id": "handy",
+      "name": "Dashboard – Handy"
+    },
+    {
+      "id": "kalender",
+      "name": "Kalender"
+    },
+    {
+      "id": "module",
+      "name": "Module"
+    },
+    {
+      "id": "pruefungen",
+      "name": "Prüfungen"
+    },
+    {
+      "id": "karten",
+      "name": "Eigene Karten"
+    }
+  ],
+  "title": "Lernapp Dashboard – Entwurf"
+}

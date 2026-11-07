@@ -1,0 +1,864 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Prüfungen</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#f7f7f4}
+a{color:#1f2328}a:hover{color:#000}
+
+.nur-klein { display: none !important; }
+@media (max-width: 700px) {
+  .nur-gross { display: none !important; }
+  .nur-klein { display: inline-block !important; }
+  .seitenleiste { display: none !important; }
+  .inhalt { padding: 16px 16px 100px !important; }
+  .untennav { display: grid !important; }
+  .kacheln { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  .tabs { align-self: stretch !important; overflow-x: auto; }
+  .tabs button { flex: 1 0 auto; padding: 0 12px !important; }
+  .termin-kopf { display: none !important; }
+  .termin-zeile { grid-template-columns: 1fr !important; gap: 4px !important; }
+  .mobil-label { display: inline !important; }
+  .knoepfe { flex: 1 1 100% !important; justify-content: flex-start !important; }
+  .modulzeile-text { flex-basis: 100% !important; order: 2; }
+  .inhalt h1 { font-size: 22px !important; }
+  .inhalt [style*="gap: 20px"] { gap: 12px !important; }
+  .inhalt section, .kacheln > div { padding: 12px !important; border-radius: 14px !important; }
+  .kacheln [style*="font-size: 26px"] { font-size: 18px !important; }
+  .inhalt [style*="font-size: 17px"] { font-size: 15px !important; }
+  .inhalt [style*="font-size: 15px"] { font-size: 14px !important; }
+  .inhalt [style*="min-height: 60px"] { min-height: 48px !important; padding: 0 12px !important; }
+  .inhalt [style*="font-size: 30px"] { font-size: 22px !important; }
+  .nur-gross { display: none !important; }
+  .nur-klein { display: inline !important; }
+  .kopf { flex-wrap: nowrap !important; align-items: center !important; }
+  .neu-knopf { min-height: 40px !important; padding: 0 14px !important; font-size: 13px !important; white-space: nowrap; }
+  .tabs { overflow: visible !important; padding: 3px !important; gap: 2px !important; }
+  .tabs button { flex: 1 1 0 !important; min-width: 0; min-height: 36px !important; padding: 0 4px !important; font-size: 12px !important; white-space: nowrap; }
+  .kacheln [style*="font-size: 26px"] { font-size: 16px !important; }
+  .sem-kopf { gap: 4px 8px !important; padding: 10px 12px !important; }
+  .sem-info { margin-left: 22px !important; flex-basis: 100%; font-size: 12px !important; }
+  .knoepfe { order: 3; }
+  .schilder { flex-direction: row !important; flex-basis: auto !important; flex-wrap: wrap; }
+  section[aria-label="Credit Points"] > div:last-child { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #f7f7f4; color: #1f2328; font-family: Nunito, system-ui, sans-serif; display: flex; flex-wrap: wrap; align-items: flex-start">
+
+  <nav class="seitenleiste" aria-label="Hauptnavigation" style="flex: 1 1 200px; max-width: 240px; box-sizing: border-box; padding: 28px 16px; display: flex; flex-direction: column; gap: 4px">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0 12px 24px">
+      <div style="width: 32px; height: 32px; border-radius: 10px; background: #ffffff; border: 1px solid #e6e6e0; box-sizing: border-box; display: flex; align-items: center; justify-content: center">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1f2328" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 7l10-4 10 4-10 4z"></path><path d="M6 9v5c0 1.7 2.7 3 6 3s6-1.3 6-3V9"></path></svg>
+      </div>
+      <div>
+        <div style="font-weight: 800; font-size: 17px">Lernapp</div>
+        <div style="font-size: 12px; color: #6b6f76">WiSe 26/27</div>
+        <div style="font-size: 12px; color: #6b6f76">3. Fachsemester</div>
+      </div>
+    </div>
+    <a href="Main.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: #4b5563; font-weight: 600; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="2"></rect><rect x="14" y="3" width="7" height="5" rx="2"></rect><rect x="14" y="12" width="7" height="9" rx="2"></rect><rect x="3" y="16" width="7" height="5" rx="2"></rect></svg>
+      Dashboard
+    </a>
+    <a href="Kalender.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: #4b5563; font-weight: 600; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>
+      Kalender
+    </a>
+    <a href="Module.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: #4b5563; font-weight: 600; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 5a2 2 0 012-2h13v16H6a2 2 0 00-2 2z"></path><path d="M4 19V5"></path></svg>
+      Module
+    </a>
+    <a href="Pruefungen.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 1px 2px rgba(0,0,0,0.06); font-weight: 700; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z"></path><path d="M14 3v6h6M9 15l2 2 4-4"></path></svg>
+      Prüfungen
+    </a>
+    <div style="display: flex; flex-direction: column; gap: 2px; padding-left: 30px; margin-bottom: 4px">
+      <button type="button" onClick="{{zeigePruef}}" style="text-align: left; min-height: 40px; padding: 0 12px; border: 0; border-radius: 10px; background: {{navPruefBg}}; font-family: inherit; font-size: 14px; font-weight: {{navPruefGewicht}}; color: #1f2328; cursor: pointer">Meine Prüfungen</button>
+      <button type="button" onClick="{{zeigeBafoeg}}" style="text-align: left; min-height: 40px; padding: 0 12px; border: 0; border-radius: 10px; background: {{navBafoegBg}}; font-family: inherit; font-size: 14px; font-weight: {{navBafoegGewicht}}; color: #1f2328; cursor: pointer">BAföG</button>
+      <button type="button" onClick="{{zeigeOrdn}}" style="text-align: left; min-height: 40px; padding: 0 12px; border: 0; border-radius: 10px; background: {{navOrdnBg}}; font-family: inherit; font-size: 14px; font-weight: {{navOrdnGewicht}}; color: #1f2328; cursor: pointer">Regeln &amp; Ordnungen</button>
+    </div>
+    <a href="Karten.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: #4b5563; font-weight: 600; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="6" width="14" height="14" rx="2"></rect><path d="M7 3h12a2 2 0 012 2v12"></path></svg>
+      Eigene Karten
+    </a>
+  </nav>
+
+  <main class="inhalt" style="flex: 999 1 560px; min-width: 0; box-sizing: border-box; padding: 28px 32px 48px; display: flex; flex-direction: column; gap: 20px; max-width: 1120px">
+    <header class="kopf" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 12px">
+      <div>
+        <div class="nur-gross" style="font-size: 14px; color: #6b6f76; font-weight: 600">Bachelor Combined Studies · Mathematik + Politikwissenschaft · Lehramtsoption Haupt- und Realschule</div>
+        <h1 style="margin: 4px 0 0; font-size: 30px; font-weight: 800">Prüfungen</h1>
+      </div>
+      <button class="neu-knopf" type="button" onClick="{{neuOeffnen}}" style="min-height: 44px; padding: 0 18px; border: 0; border-radius: 999px; background: #ffffff; color: #1f2328; border: 1px solid #e6e6e0; font-family: inherit; font-weight: 700; font-size: 15px; cursor: pointer">+ Prüfung</button>
+    </header>
+
+    <div class="tabs" role="tablist" style="display: flex; gap: 6px; padding: 4px; background: #ecece6; border-radius: 999px; align-self: flex-start">
+      <button type="button" role="tab" onClick="{{zeigePruef}}" style="min-height: 40px; padding: 0 18px; border: 0; border-radius: 999px; background: {{tabPruefBg}}; font-family: inherit; font-size: 14px; font-weight: 800; color: #1f2328; cursor: pointer">Meine Prüfungen</button>
+      <button type="button" role="tab" onClick="{{zeigeBafoeg}}" style="min-height: 40px; padding: 0 18px; border: 0; border-radius: 999px; background: {{tabBafoegBg}}; font-family: inherit; font-size: 14px; font-weight: 800; color: #1f2328; cursor: pointer">BAföG</button>
+      <button type="button" role="tab" onClick="{{zeigeOrdn}}" style="min-height: 40px; padding: 0 18px; border: 0; border-radius: 999px; background: {{tabOrdnBg}}; font-family: inherit; font-size: 14px; font-weight: 800; color: #1f2328; cursor: pointer">Regeln &amp; Ordnungen</button>
+    </div>
+
+    <sc-if value="{{tabPruef}}" hint-placeholder-val="{{true}}">
+      <div style="display: flex; flex-direction: column; gap: 20px">
+    <section aria-label="Nächste Fristen" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 12px 16px; background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px">
+      <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 800; letter-spacing: 0.06em; color: #6b6f76; margin-right: 6px">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0112 0c0 7 3 9 3 9H3s3-2 3-9"></path><path d="M10.3 21a1.94 1.94 0 003.4 0"></path></svg>
+        NÄCHSTE FRISTEN
+      </span>
+      <sc-for list="{{naechsteFristen}}" as="n" hint-placeholder-count="2">
+        <span style="padding: 4px 10px; border-radius: 999px; font-size: 13px; background: {{n.bg}}"><b style="color: {{n.fg}}">{{n.modul}}</b> {{n.text}}</span>
+      </sc-for>
+      <span class="nur-gross" style="font-size: 12px; color: #6b6f76; margin-left: auto">erscheinen automatisch auch im Dashboard</span>
+    </section>
+    <section class="kacheln" aria-label="Überblick" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px">
+      <sc-for list="{{kacheln}}" as="k" hint-placeholder-count="4">
+      <div style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 4px">
+        <div style="font-size: 13px; color: #6b6f76; font-weight: 700">{{k.label}}</div>
+        <div style="font-size: 26px; font-weight: 800; line-height: 1.2">{{k.wert}}</div>
+        <div style="font-size: 13px; color: #6b6f76">{{k.info}}</div>
+      </div>
+      </sc-for>
+    </section>
+
+    <section aria-label="Credit Points" style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 20px; padding: 20px; display: flex; flex-direction: column; gap: 12px">
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px">
+        <h2 style="margin: 0; font-size: 17px; font-weight: 800">Credit Points</h2>
+        <span style="font-size: 15px"><b>{{cpGesamt}} von 180 CP</b> <span style="color: #6b6f76">· noch {{cpOffen}} offen · pkb002 (8 CP) wartet auf Ergebnis</span></span>
+      </div>
+      <div style="height: 10px; border-radius: 999px; background: #f0f0eb; overflow: hidden">
+        <div style="width: {{cpBreite}}; height: 100%; background: #4f8f80; border-radius: 999px"></div>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px">
+        <sc-for list="{{bereiche}}" as="b" hint-placeholder-count="5">
+          <div style="display: flex; flex-direction: column; gap: 6px">
+            <div style="display: flex; justify-content: space-between; font-size: 13px"><b><span class="nur-gross">{{b.name}}</span><span class="nur-klein" style="display: none">{{b.kurz}}</span></b><span style="color: #6b6f76">{{b.text}}</span></div>
+            <div style="height: 6px; border-radius: 999px; background: #f0f0eb; overflow: hidden"><div style="height: 100%; border-radius: 999px; background: {{b.farbe}}; width: {{b.breite}}"></div></div>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <sc-if value="{{bafoegWarnen}}" hint-placeholder-val="{{false}}">
+      <button type="button" onClick="{{zeigeBafoeg}}" style="display: flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 16px; border: 0; border-radius: 14px; background: {{bafoegBg}}; color: {{bafoegFg}}; font-family: inherit; font-size: 14px; font-weight: 800; cursor: pointer; text-align: left">BAföG-Check: {{bafoegStatus}} →</button>
+    </sc-if>
+
+    <sc-for list="{{semester}}" as="s" hint-placeholder-count="4">
+      <section style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 20px; overflow: hidden">
+        <button class="sem-kopf" type="button" onClick="{{s.toggle}}" aria-expanded="{{s.offenText}}" style="width: 100%; display: flex; flex-wrap: wrap; align-items: center; gap: 12px; min-height: 60px; padding: 0 20px; border: 0; background: #ffffff; font-family: inherit; color: #1f2328; cursor: pointer; text-align: left">
+          <span style="font-size: 14px; color: #6b6f76; width: 14px">{{s.pfeil}}</span>
+          <span style="font-size: 17px; font-weight: 800; white-space: nowrap">{{s.titel}}</span>
+          <span style="font-size: 13px; color: #6b6f76; white-space: nowrap">{{s.zeitraum}}</span>
+          <span style="padding: 2px 10px; border-radius: 999px; background: #f0f0eb; font-size: 13px; font-weight: 800; white-space: nowrap; color: {{s.cpFarbe}}">{{s.cpText}}</span>
+          <span class="sem-info" style="margin-left: auto; font-size: 13px; color: #6b6f76; font-weight: 700">{{s.zusammenfassung}}</span>
+        </button>
+        <sc-if value="{{s.offen}}" hint-placeholder-val="{{true}}">
+          <div style="padding: 0 20px 12px">
+            <sc-for list="{{s.items}}" as="p" hint-placeholder-count="4">
+              <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px; padding: 14px 0; border-top: 1px solid #f0f0eb">
+                <a href="Module.dc.html" class="nur-gross" onClick="{{p.zumModul}}" title="Modul öffnen" style="flex: 0 0 72px; padding: 4px 0; border-radius: 10px; text-align: center; font-weight: 800; font-size: 13px; background: {{p.bg}}; color: {{p.fg}}; text-decoration: none">{{p.modul}}</a><a href="ModuleHandy.dc.html" class="nur-klein" onClick="{{p.zumModul}}" title="Modul öffnen" style="flex: 0 0 72px; padding: 4px 0; border-radius: 10px; text-align: center; font-weight: 800; font-size: 13px; background: {{p.bg}}; color: {{p.fg}}; text-decoration: none">{{p.modul}}</a>
+                <div class="modulzeile-text" style="flex: 1 1 300px; min-width: 0; display: flex; flex-direction: column; gap: 2px">
+                  <div style="font-weight: 700; font-size: 15px">{{p.name}}</div>
+                  <div style="font-size: 13px; color: #6b6f76">{{p.detail}}</div>
+                  <sc-if value="{{p.hatVoraus}}" hint-placeholder-val="{{false}}">
+                    <div style="margin-top: 6px; display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #4b5563">
+                      <sc-for list="{{p.voraus}}" as="v" hint-placeholder-count="1">
+                        <label style="display: flex; gap: 8px; align-items: center; cursor: pointer"><input type="checkbox" defaultChecked="{{v.erledigt}}" style="width: 18px; height: 18px; margin: 0; accent-color: #4f8f80">{{v.text}}</label>
+                      </sc-for>
+                    </div>
+                  </sc-if>
+                  <sc-if value="{{p.hatVersuche}}" hint-placeholder-val="{{false}}">
+                    <div style="margin-top: 4px; display: flex; flex-direction: column; gap: 2px; font-size: 13px">
+                      <sc-for list="{{p.versuche}}" as="v" hint-placeholder-count="2">
+                        <div><b>{{v.nr}}</b> · {{v.datum}} · <span style="font-weight: 700; color: {{v.farbe}}">{{v.ergebnis}}</span></div>
+                      </sc-for>
+                    </div>
+                  </sc-if>
+                  <sc-if value="{{p.hatTermine}}" hint-placeholder-val="{{false}}">
+                    <div style="margin-top: 8px; background: #f7f7f4; border-radius: 12px; padding: 8px 12px; display: flex; flex-direction: column; gap: 4px; font-size: 13px">
+                      <div class="termin-kopf" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; font-size: 11px; font-weight: 800; letter-spacing: 0.05em; color: #6b6f76">
+                        <span>TERMIN</span><span>ANMELDUNG</span><span>ABMELDUNG / RÜCKTRITT</span>
+                      </div>
+                      <sc-for list="{{p.termine}}" as="t" hint-placeholder-count="2">
+                        <div class="termin-zeile" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; padding: 6px 0; border-top: 1px solid #ecece6">
+                          <span><b>{{t.art}}</b><br>{{t.datum}}</span>
+                          <span style="color: {{t.anFarbe}}; display: flex; flex-direction: column; align-items: flex-start; gap: 4px"><span><span class="mobil-label" style="display: none; color: #6b6f76; font-weight: 700">Anmeldung: </span>{{t.an}}</span>
+                            <sc-if value="{{t.hatHinweis}}" hint-placeholder-val="{{false}}"><span style="padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 800; background: {{t.hinweisBg}}; color: {{t.hinweisFg}}">{{t.hinweis}}</span></sc-if>
+                          </span>
+                          <span style="color: {{t.abFarbe}}"><span class="mobil-label" style="display: none; color: #6b6f76; font-weight: 700">Abmeldung: </span>{{t.ab}}</span>
+                        </div>
+                      </sc-for>
+                      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; padding-top: 6px; border-top: 1px solid #ecece6; font-size: 12px; color: #6b6f76">
+                        <span>{{p.stand}}</span>
+                        <button type="button" onClick="{{p.termineBearbeiten}}" style="min-height: 32px; padding: 0 10px; border: 1px solid #e6e6e0; border-radius: 8px; background: #ffffff; font-family: inherit; font-size: 12px; font-weight: 700; color: #4b5563; cursor: pointer">Termine bearbeiten</button>
+                      </div>
+                    </div>
+                  </sc-if>
+                </div>
+                <span class="schilder" style="flex: 0 0 140px; display: flex; flex-direction: column; align-items: flex-start; gap: 6px">
+                  <span style="padding: 3px 10px; border-radius: 999px; font-size: 12px; font-weight: 800; background: {{p.statusBg}}; color: {{p.statusFg}}; white-space: nowrap">{{p.status}}</span>
+                  <sc-if value="{{p.hrs}}" hint-placeholder-val="{{false}}">
+                    <span title="{{p.hrsGrund}}" style="padding: 3px 10px; border-radius: 999px; font-size: 12px; font-weight: 800; background: #fff6d6; color: #7a5a00; white-space: nowrap">Lehramt HRS</span>
+                  </sc-if>
+                  <sc-if value="{{p.hatSeit}}" hint-placeholder-val="{{false}}"><span style="padding: 4px 10px; border-radius: 12px; font-size: 12px; font-weight: 700; line-height: 1.3; background: #f0f0eb; color: #4b5563">{{p.seit}}</span></sc-if>
+                </span>
+                <span class="knoepfe" style="flex: 0 1 260px; display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; align-items: center">
+                  <sc-if value="{{p.kannVerschieben}}" hint-placeholder-val="{{false}}">
+                    <button type="button" onClick="{{p.verschieben}}" style="min-height: 36px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 10px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #4b5563; cursor: pointer">Verschieben</button>
+                  </sc-if>
+                  <sc-if value="{{p.noteFehlt}}" hint-placeholder-val="{{false}}">
+              <button type="button" onClick="{{p.noteOeffnen}}" style="min-height: 36px; padding: 0 12px; border: 1px dashed #c9ccd1; border-radius: 10px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #4b5563; cursor: pointer">Note eintragen</button>
+                  </sc-if>
+                  <sc-if value="{{p.hatNote}}" hint-placeholder-val="{{false}}">
+                    <button type="button" onClick="{{p.noteOeffnen}}" title="Versuch hinzufügen oder ändern" style="min-height: 36px; padding: 0 12px; border: 0; border-radius: 10px; background: transparent; font-family: inherit; font-size: 18px; font-weight: 800; color: #1f2328; cursor: pointer">{{p.note}}</button>
+                  </sc-if>
+                </span>
+              </div>
+            </sc-for>
+          </div>
+        </sc-if>
+      </section>
+    </sc-for>
+
+      </div>
+    </sc-if>
+
+    <sc-if value="{{tabBafoeg}}" hint-placeholder-val="{{false}}">
+      <div style="display: flex; flex-direction: column; gap: 20px">
+    <section aria-label="BAföG-Check" style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 20px; padding: 20px; display: flex; flex-direction: column; gap: 12px">
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px">
+        <h2 style="margin: 0; font-size: 17px; font-weight: 800">BAföG-Check</h2>
+        <span style="font-size: 13px; color: #6b6f76">Leistungsnachweis (Formblatt 5) zu Beginn des 5. Fachsemesters · WiSe 27/28</span>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center">
+        <span style="padding: 6px 12px; border-radius: 12px; font-size: 14px; font-weight: 800; background: {{bafoegBg}}; color: {{bafoegFg}}">{{bafoegStatus}}</span>
+        <label style="display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: #4b5563; margin-left: auto">
+          Grenze laut Prüfungsamt
+          <input type="number" value="{{bafoegGrenze}}" onChange="{{setzeGrenze}}" min="0" max="180" style="width: 72px; min-height: 40px; border: 1px solid #e6e6e0; border-radius: 10px; padding: 0 10px; font-family: inherit; font-size: 15px; font-weight: 700">
+          CP
+        </label>
+      </div>
+      <div style="position: relative; height: 14px; border-radius: 999px; background: #f0f0eb">
+        <div style="position: absolute; left: 0; top: 0; bottom: 0; width: {{bafoegPlanBreite}}; border-radius: 999px; background: #cfe6dd"></div>
+        <div style="position: absolute; left: 0; top: 0; bottom: 0; width: {{bafoegIstBreite}}; border-radius: 999px; background: #4f8f80"></div>
+        <div style="position: absolute; top: -5px; bottom: -5px; left: {{bafoegGrenzeLinks}}; width: 3px; border-radius: 2px; background: #1f2328"></div>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 16px; font-size: 13px; color: #4b5563">
+        <span><span style="display: inline-block; width: 10px; height: 10px; border-radius: 3px; background: #4f8f80; margin-right: 6px"></span>erreicht <b>{{bafoegIst}} CP</b></span>
+        <span><span style="display: inline-block; width: 10px; height: 10px; border-radius: 3px; background: #cfe6dd; margin-right: 6px"></span>bis Ende 4. Semester möglich <b>{{bafoegPlan}} CP</b></span>
+        <span><span style="display: inline-block; width: 3px; height: 12px; background: #1f2328; margin-right: 6px; vertical-align: -1px"></span>Grenze <b>{{bafoegGrenze}} CP</b></span>
+      </div>
+      <div style="font-size: 13px; color: #6b6f76; line-height: 1.45">{{bafoegHinweis}} Mit einem Kind unter 14 Jahren kann die Vorlage auf Antrag verschoben werden (§ 15 Abs. 3 BAföG).</div>
+    </section>
+
+      </div>
+    </sc-if>
+
+    <sc-if value="{{tabOrdn}}" hint-placeholder-val="{{false}}">
+      <div style="display: flex; flex-direction: column; gap: 20px">
+    <section style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 20px; overflow: hidden">
+      <button type="button" onClick="{{toggleRegeln}}" style="width: 100%; display: flex; align-items: center; gap: 12px; min-height: 60px; padding: 0 20px; border: 0; background: #ffffff; font-family: inherit; color: #1f2328; cursor: pointer; text-align: left">
+        <span style="font-size: 14px; color: #6b6f76; width: 14px">{{regelnPfeil}}</span>
+        <span style="font-size: 17px; font-weight: 800">Regeln auf einen Blick</span>
+        <span style="font-size: 13px; color: #6b6f76">Rahmenprüfungsordnung 14/2026 + Prüfungsordnung BACS 15/2024</span>
+      </button>
+      <sc-if value="{{regelnOffen}}" hint-placeholder-val="{{true}}">
+        <div style="padding: 0 20px 18px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px">
+          <sc-for list="{{regeln}}" as="r" hint-placeholder-count="6">
+            <div style="background: #f7f7f4; border-radius: 14px; padding: 14px; display: flex; flex-direction: column; gap: 4px">
+              <div style="font-weight: 800; font-size: 14px">{{r.titel}}</div>
+              <div style="font-size: 13px; color: #4b5563; line-height: 1.45">{{r.text}}</div>
+              <div style="font-size: 11px; color: #6b6f76; font-weight: 700">{{r.quelle}}</div>
+            </div>
+          </sc-for>
+        </div>
+      </sc-if>
+    </section>
+
+    <section style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 20px; padding: 20px; display: flex; flex-direction: column; gap: 10px">
+      <h2 style="margin: 0; font-size: 17px; font-weight: 800">Ordnungen &amp; Studienverlaufspläne</h2>
+      <div style="font-size: 13px; color: #6b6f76">Die Modulbeschreibungen liegen jeweils im Modul selbst. ewb001, ewb002, ewb013 und pyb005 gehören zum Profilierungsbereich.</div>
+      <sc-for list="{{dokumente}}" as="d" hint-placeholder-count="4">
+        <a href="{{d.url}}" style="display: flex; align-items: center; gap: 12px; min-height: 48px; padding: 0 14px; border-radius: 12px; background: #f7f7f4; text-decoration: none">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6b6f76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z"></path><path d="M14 3v6h6"></path></svg>
+          <span style="flex: 1; font-weight: 700; font-size: 14px">{{d.titel}}</span>
+          <span style="font-size: 12px; color: #6b6f76">{{d.info}}</span>
+        </a>
+      </sc-for>
+    </section>
+      </div>
+    </sc-if>
+  </main>
+
+  <sc-if value="{{dialogOffen}}" hint-placeholder-val="{{false}}">
+    <div style="position: fixed; inset: 0; background: rgba(31, 35, 40, 0.35); display: flex; align-items: center; justify-content: center; padding: 16px; z-index: 10">
+      <div role="dialog" aria-label="Prüfung verschieben" style="width: 100%; max-width: 460px; background: #ffffff; border-radius: 20px; padding: 24px; box-sizing: border-box; display: flex; flex-direction: column; gap: 14px; box-shadow: 0 20px 50px rgba(0,0,0,0.18)">
+        <div>
+          <h2 style="margin: 0; font-size: 20px; font-weight: 800">Prüfung verschieben</h2>
+          <div style="font-size: 14px; color: #4b5563; margin-top: 4px">{{dialogTitel}}</div>
+        </div>
+        <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">
+          In welches Semester?
+          <select value="{{dialogZiel}}" onChange="{{waehleZiel}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff">
+            <option value="s4">4. Semester · SoSe 27</option>
+            <option value="s5">5. Semester · WiSe 27/28</option>
+            <option value="s6">6. Semester · SoSe 28</option>
+          </select>
+        </label>
+        <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">
+          Welcher Termin?
+          <select value="{{dialogTermin}}" onChange="{{waehleTermin}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff">
+            <option>Ersttermin</option>
+            <option>Zweittermin</option>
+            <option>Termin noch nicht bekannt</option>
+          </select>
+        </label>
+        <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">
+          Grund (optional)
+          <input type="text" value="{{dialogGrund}}" onChange="{{tippeGrund}}" placeholder="z. B. zu viele Klausuren in einer Woche" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px">
+        </label>
+        <div style="background: #fdf1e2; color: #7a4a10; border-radius: 12px; padding: 12px; font-size: 13px; line-height: 1.45">
+          <b>Abmeldung nicht vergessen:</b> {{dialogAbmeldung}}. Wer angemeldet bleibt und nicht erscheint, bekommt „nicht bestanden“ (RPO § 27).
+        </div>
+        <div style="font-size: 13px; color: #6b6f76; line-height: 1.45">Die Prüfung bleibt im 3. Semester als „Verschoben“ sichtbar und erscheint im gewählten Semester als geplant. Die CP-Übersicht passt sich an.</div>
+        <div style="display: flex; justify-content: flex-end; gap: 8px">
+          <button type="button" onClick="{{dialogZu}}" style="min-height: 44px; padding: 0 18px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-weight: 700; font-size: 15px; cursor: pointer">Abbrechen</button>
+          <button type="button" onClick="{{dialogOk}}" style="min-height: 44px; padding: 0 18px; border: 0; border-radius: 999px; background: #ffffff; color: #1f2328; border: 1px solid #e6e6e0; font-family: inherit; font-weight: 700; font-size: 15px; cursor: pointer">Verschieben</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{noteOffen}}" hint-placeholder-val="{{false}}">
+    <div style="position: fixed; inset: 0; background: rgba(31, 35, 40, 0.35); display: flex; align-items: center; justify-content: center; padding: 16px; z-index: 10">
+      <div role="dialog" aria-label="Note eintragen" style="width: 100%; max-width: 420px; background: #ffffff; border-radius: 20px; padding: 24px; box-sizing: border-box; display: flex; flex-direction: column; gap: 14px; box-shadow: 0 20px 50px rgba(0,0,0,0.18)">
+        <div>
+          <h2 style="margin: 0; font-size: 20px; font-weight: 800">Note eintragen</h2>
+          <div style="font-size: 14px; color: #4b5563; margin-top: 4px">{{noteTitel}}</div>
+        </div>
+        <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">
+          Versuch
+          <select value="{{noteVersuch}}" onChange="{{waehleVersuch}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff">
+            <option value="1">1. Versuch</option>
+            <option value="2">2. Versuch (1. Wiederholung)</option>
+            <option value="3">3. Versuch (2. Wiederholung)</option>
+          </select>
+        </label>
+        <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">
+          Note
+          <select value="{{noteWert}}" onChange="{{waehleNote}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff">
+            <option>1,0</option><option>1,3</option><option>1,7</option><option>2,0</option><option>2,3</option><option>2,7</option><option>3,0</option><option>3,3</option><option>3,7</option><option>4,0</option>
+            <option value="5,0">5,0 – nicht bestanden</option>
+            <option value="ub">unbenotet – bestanden</option>
+          </select>
+        </label>
+        <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">
+          Datum der Prüfung
+          <input type="date" value="{{noteDatum}}" onChange="{{waehleDatum}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px">
+        </label>
+        <div style="font-size: 13px; color: #6b6f76; line-height: 1.45">Bei 5,0 wird der Versuch als „nicht bestanden“ gespeichert und du kannst den nächsten Versuch eintragen. „Unbenotet“ zählt für die CP, aber nicht für den Schnitt – genau wie Fehlversuche.</div>
+        <div style="display: flex; justify-content: flex-end; gap: 8px">
+          <button type="button" onClick="{{noteZu}}" style="min-height: 44px; padding: 0 18px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-weight: 700; font-size: 15px; cursor: pointer">Abbrechen</button>
+          <button type="button" onClick="{{noteOk}}" style="min-height: 44px; padding: 0 18px; border: 0; border-radius: 999px; background: #ffffff; color: #1f2328; border: 1px solid #e6e6e0; font-family: inherit; font-weight: 700; font-size: 15px; cursor: pointer">Speichern</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{editOffen}}" hint-placeholder-val="{{false}}">
+    <div style="position: fixed; inset: 0; background: rgba(31, 35, 40, 0.35); display: flex; align-items: center; justify-content: center; padding: 16px; z-index: 10">
+      <div role="dialog" aria-label="Termine bearbeiten" style="width: 100%; max-width: 480px; max-height: calc(100vh - 32px); overflow-y: auto; background: #ffffff; border-radius: 20px; padding: 24px; box-sizing: border-box; display: flex; flex-direction: column; gap: 14px; box-shadow: 0 20px 50px rgba(0,0,0,0.18)">
+        <div>
+          <h2 style="margin: 0; font-size: 20px; font-weight: 800">Termine bearbeiten</h2>
+          <div style="font-size: 14px; color: #4b5563; margin-top: 4px">{{editTitel}}</div>
+        </div>
+        <sc-for list="{{editFelder}}" as="e" hint-placeholder-count="2">
+          <fieldset style="border: 1px solid #e6e6e0; border-radius: 14px; padding: 12px 14px; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px">
+            <legend style="font-size: 14px; font-weight: 800; padding: 0 6px">{{e.art}}</legend>
+            <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700; grid-column: 1 / -1">Prüfungstag<input type="date" value="{{e.datum}}" onChange="{{e.setDatum}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"></label>
+            <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">Anmeldung ab<input type="date" value="{{e.anVon}}" onChange="{{e.setAnVon}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"></label>
+            <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">Anmeldung bis<input type="date" value="{{e.anBis}}" onChange="{{e.setAnBis}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"></label>
+            <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700; grid-column: 1 / -1">Abmeldung / Rücktritt bis<input type="date" value="{{e.abBis}}" onChange="{{e.setAbBis}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"></label>
+          </fieldset>
+        </sc-for>
+        <div style="font-size: 13px; color: #6b6f76; line-height: 1.45">Leere Felder gelten als „noch offen“. Die Erinnerungen und Fristen-Schilder passen sich automatisch an. Der Stud.IP-Wochencheck darf deine Änderungen nur überschreiben, wenn die Uni etwas Neues veröffentlicht – du bekommst dann einen Hinweis.</div>
+        <div style="display: flex; justify-content: flex-end; gap: 8px">
+          <button type="button" onClick="{{editZu}}" style="min-height: 44px; padding: 0 18px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-weight: 700; font-size: 15px; cursor: pointer">Abbrechen</button>
+          <button type="button" onClick="{{editOk}}" style="min-height: 44px; padding: 0 18px; border: 0; border-radius: 999px; background: #ffffff; color: #1f2328; border: 1px solid #e6e6e0; font-family: inherit; font-weight: 700; font-size: 15px; cursor: pointer">Speichern</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{neuOffen}}" hint-placeholder-val="{{false}}">
+    <div style="position: fixed; inset: 0; background: rgba(31, 35, 40, 0.35); display: flex; align-items: center; justify-content: center; padding: 16px; z-index: 10">
+      <div role="dialog" aria-label="Prüfung hinzufügen" style="width: 100%; max-width: 480px; max-height: calc(100vh - 32px); overflow-y: auto; background: #ffffff; border-radius: 20px; padding: 24px; box-sizing: border-box; display: flex; flex-direction: column; gap: 14px; box-shadow: 0 20px 50px rgba(0,0,0,0.18)">
+        <h2 style="margin: 0; font-size: 20px; font-weight: 800">Prüfung hinzufügen</h2>
+        <div style="display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 10px">
+          <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">Kürzel<input type="text" value="{{neu.modul}}" onChange="{{neuSet.modul}}" placeholder="mab006" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"></label>
+          <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">Genaue Modulbezeichnung<input type="text" value="{{neu.name}}" onChange="{{neuSet.name}}" placeholder="laut Modulbeschreibung" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"></label>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px">
+          <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">Semester
+            <select value="{{neu.sem}}" onChange="{{neuSet.sem}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%">
+              <option value="s1">1. Semester</option><option value="s2">2. Semester</option><option value="s3">3. Semester</option>
+              <option value="s4">4. Semester</option><option value="s5">5. Semester</option><option value="s6">6. Semester</option>
+            </select>
+          </label>
+          <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">CP<input type="number" min="0" max="30" value="{{neu.cp}}" onChange="{{neuSet.cp}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"></label>
+          <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">Prüfungsform<input type="text" value="{{neu.form}}" onChange="{{neuSet.form}}" placeholder="Klausur, Hausarbeit …" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"></label>
+          <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700">Prüfungstag (falls bekannt)<input type="date" value="{{neu.datum}}" onChange="{{neuSet.datum}}" style="min-height: 44px; border: 1px solid #e6e6e0; border-radius: 12px; padding: 0 12px; font-family: inherit; font-size: 15px; background: #ffffff; box-sizing: border-box; width: 100%"></label>
+        </div>
+        <div style="font-size: 13px; color: #6b6f76; line-height: 1.45">Anmelde- und Abmeldefristen trägst du danach über „Termine bearbeiten“ ein. Die Prüfung wird automatisch nach Mathe → Politik → Rest einsortiert.</div>
+        <div style="display: flex; justify-content: flex-end; gap: 8px">
+          <button type="button" onClick="{{neuZu}}" style="min-height: 44px; padding: 0 18px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-weight: 700; font-size: 15px; cursor: pointer">Abbrechen</button>
+          <button type="button" onClick="{{neuOk}}" style="min-height: 44px; padding: 0 18px; border: 0; border-radius: 999px; background: #ffffff; color: #1f2328; border: 1px solid #e6e6e0; font-family: inherit; font-weight: 700; font-size: 15px; cursor: pointer">Speichern</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <nav class="untennav" aria-label="Hauptnavigation" style="display: none; position: fixed; left: 0; right: 0; bottom: 0; height: 76px; background: #ffffff; border-top: 1px solid #e6e6e0; grid-template-columns: repeat(5, minmax(0, 1fr)); padding-bottom: 8px; box-sizing: border-box; z-index: 5">
+    <a href="Handy.dc.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 600; text-decoration: none; color: #6b6f76">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="2"></rect><rect x="14" y="3" width="7" height="5" rx="2"></rect><rect x="14" y="12" width="7" height="9" rx="2"></rect><rect x="3" y="16" width="7" height="5" rx="2"></rect></svg>
+      Dashboard
+    </a>
+    <a href="KalenderHandy.dc.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 600; text-decoration: none; color: #6b6f76">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>
+      Kalender
+    </a>
+    <a href="ModuleHandy.dc.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 600; text-decoration: none; color: #6b6f76">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 5a2 2 0 012-2h13v16H6a2 2 0 00-2 2z"></path><path d="M4 19V5"></path></svg>
+      Module
+    </a>
+    <a href="PruefungenHandy.dc.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 800; text-decoration: none; color: #1f2328">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z"></path><path d="M14 3v6h6M9 15l2 2 4-4"></path></svg>
+      Prüfungen
+    </a>
+    <a href="KartenHandy.dc.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 600; text-decoration: none; color: #6b6f76">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="6" width="14" height="14" rx="2"></rect><path d="M7 3h12a2 2 0 012 2v12"></path></svg>
+      Karten
+    </a>
+  </nav>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1400}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { offen: { s1: false, s2: false, s3: true, s4: false, s5: false, s6: false }, regeln: true, tab: 'pruef', grenze: 90, termEdits: {}, editDialog: null, neuDialog: null, neue: [], dialog: null, verschoben: {}, noten: {}, noteDialog: null };
+  }
+  componentDidMount() { this._teilen(); }
+  componentDidUpdate() { this._teilen(); }
+  _teilen() { try { if (this._stand) window.sessionStorage.setItem('lernapp-studienstand', JSON.stringify(this._stand)); } catch (e) {} }
+  renderVals() {
+    var self = this;
+    var C = {
+      mab004: ['#5f80b5', '#eaf1fc'], mab005: ['#4f8f80', '#e6f5f0'], pkb003: ['#b46b80', '#fbebef'],
+      ewb001: ['#6d9156', '#edf5e5'], ewb002: ['#b5845a', '#fcf0e4'], pyb005: ['#8a77b5', '#f1edfa']
+    };
+    var S = {
+      'Bestanden': ['#e3f2e8', '#2f7a4b'],
+      'Geplant': ['#eef0f3', '#4b5563'],
+      'Verschoben': ['#fdf1e2', '#9a5b14'],
+      'Ergebnis offen': ['#f1edfa', '#6a58a0'],
+      'Nicht bestanden': ['#fde9e9', '#c42b2b']
+    };
+    var HEUTE = (function () { var d = new Date(); d.setHours(12, 0, 0, 0); return d; })();
+    var fristen = [];
+    function tage(iso) { return Math.round((new Date(iso + 'T12:00:00') - HEUTE) / 86400000); }
+    function kurz(iso) { var d = iso.split('-'); return d[2] + '.' + d[1] + '.'; }
+    function fristHinweis(t, modul) {
+      var h = null;
+      if (t.anVon && tage(t.anVon) > 0) {
+        var n = tage(t.anVon);
+        h = { text: 'Anmeldung öffnet in ' + n + (n === 1 ? ' Tag' : ' Tagen'), bg: '#eef0f3', fg: '#4b5563' };
+        if (n <= 14) fristen.push({ tage: n, modul: modul, text: 'Anmeldung öffnet am ' + kurz(t.anVon) + ' (' + t.art + ')' });
+      } else if (t.anBis && tage(t.anBis) >= 0) {
+        var r = tage(t.anBis);
+        h = { text: 'Anmeldung offen · noch ' + r + ' Tage', bg: r <= 3 ? '#fde9e9' : '#e3f2e8', fg: r <= 3 ? '#c42b2b' : '#2f7a4b' };
+        fristen.push({ tage: r, modul: modul, text: 'Anmeldung offen bis ' + kurz(t.anBis) + ' (' + t.art + ')' });
+      } else if (t.abBis && tage(t.abBis) >= 0 && tage(t.abBis) <= 14) {
+        var a = tage(t.abBis);
+        h = { text: 'Abmeldung noch ' + a + ' Tage', bg: '#fdf1e2', fg: '#9a5b14' };
+        fristen.push({ tage: a, modul: modul, text: 'Abmeldung bis ' + kurz(t.abBis) });
+      }
+      return h;
+    }
+    var TE = self.state.termEdits || {};
+    var WT = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
+    function lang(iso) { var d = iso.split('-'); return d[2] + '.' + d[1] + '.' + d[0]; }
+    function mitTag(iso) { return WT[new Date(iso + 'T12:00:00').getDay()] + ' ' + lang(iso); }
+    function zuIso(text) { var m = /(\d{2})\.(\d{2})\.(\d{4})/.exec(text || ''); return m ? m[3] + '-' + m[2] + '-' + m[1] : ''; }
+    function mitEdit(t, e) {
+      var n = Object.assign({}, t, { anVon: e.anVon || undefined, anBis: e.anBis || undefined, abBis: e.abBis || undefined });
+      n.datum = e.datum ? mitTag(e.datum) : 'noch offen';
+      n.an = e.anVon && e.anBis ? lang(e.anVon) + '–' + lang(e.anBis) : e.anVon ? 'ab ' + lang(e.anVon) + ' (Ende noch offen)' : e.anBis ? 'bis ' + lang(e.anBis) : 'noch offen';
+      n.ab = e.abBis ? 'bis ' + lang(e.abBis) : 'noch offen';
+      return n;
+    }
+    function p(o) {
+      var te = TE[o.modul];
+      if (te && o.termine) o.termine = o.termine.map(function (t) { return te[t.art] ? mitEdit(t, te[t.art]) : t; });
+      o.stand = te ? 'von dir geändert am 23.10.2026' : 'Stand 23.10.2026 · aus Stud.IP/QISPOS';
+      o.termineBearbeiten = function () {
+        var felder = {};
+        (o.termine || []).forEach(function (t) {
+          var alt = (te && te[t.art]) || {};
+          felder[t.art] = { datum: alt.datum !== undefined ? alt.datum : zuIso(t.datum), anVon: alt.anVon !== undefined ? alt.anVon : (t.anVon || ''), anBis: alt.anBis !== undefined ? alt.anBis : (t.anBis || ''), abBis: alt.abBis !== undefined ? alt.abBis : (t.abBis || '') };
+        });
+        self.setState({ editDialog: { modul: o.modul, titel: o.modul + ' · ' + o.name, arten: (o.termine || []).map(function (t) { return t.art; }), felder: felder } });
+      };
+      var c = C[o.modul] || ['#4b5563', '#eef0f3'];
+      o.fg = c[0]; o.bg = c[1];
+      o.statusBg = S[o.status][0]; o.statusFg = S[o.status][1];
+      o.termine = (o.termine || []).map(function (t) {
+        var h = fristHinweis(t, o.modul);
+        t.hatHinweis = !!h; t.hinweis = h ? h.text : ''; t.hinweisBg = h ? h.bg : ''; t.hinweisFg = h ? h.fg : '';
+        t.anFarbe = /offen|bekannt/.test(t.an) ? '#9a5b14' : '#1f2328';
+        t.abFarbe = /offen|bekannt/.test(t.ab) ? '#9a5b14' : '#1f2328';
+        return t;
+      });
+      o.hatTermine = o.termine.length > 0;
+      o.voraus = o.voraus || []; o.hatVoraus = o.voraus.length > 0;
+      o.hatNote = !!o.note;
+      var HRS = { ewb001: 'Empfohlen für den Zugang zum M.Ed. Haupt- und Realschule', ewb002: 'Empfohlen für den Zugang zum M.Ed. Haupt- und Realschule', ewb013: 'Empfohlen für den Zugang zum M.Ed. Haupt- und Realschule', pyb005: 'Empfohlen für den Zugang zum M.Ed. Haupt- und Realschule', mab012: 'Wahlpflicht-Empfehlung für Haupt- und Realschule', asp001: 'Schulpraktikum für die Lehramtsoption', opb001: 'Pflichtpraktikum' };
+      o.hrs = !!HRS[o.modul]; o.hrsGrund = HRS[o.modul] || '';
+      if (o.cp) o.detail = o.detail + ' · ' + o.cp + ' CP';
+      o.versuche = (o.versuche || []).map(function (v) { v.farbe = v.ergebnis === 'bestanden' ? '#2f7a4b' : '#c42b2b'; return v; });
+      o.hatVersuche = o.versuche.length > 0;
+      o.noteFehlt = !o.note && o.status !== 'Verschoben' && !o.ohneNote;
+      return o;
+    }
+    function ord(a, b) {
+      function rang(x) { var k = (x.modul || x.id || '').slice(0, 3); return k === 'mab' ? 0 : k === 'pkb' ? 1 : 2; }
+      var ra = rang(a), rb = rang(b);
+      if (ra !== rb) return ra - rb;
+      var ka = a.modul || a.id, kb = b.modul || b.id;
+      return ka < kb ? -1 : ka > kb ? 1 : 0;
+    }
+    function ord2(a, b) { return ord({ modul: a }, { modul: b }); }
+    var NAMEN = { s4: '4. Semester', s5: '5. Semester', s6: '6. Semester' };
+    var umzug = [];
+    var bafoegPlan = 0;
+    var NOTEN = self.state.noten || {};
+    var benotet = [];
+    var extraCP = { Mathematik: 0, Politikwissenschaft: 0, Profilierungsbereich: 0, Praktika: 0, Bachelorarbeit: 0 };
+    var extraBestanden = 0;
+    function fach(m) { var k = m.slice(0, 3); return k === 'mab' ? 'Mathematik' : k === 'pkb' ? 'Politikwissenschaft' : (k === 'asp' || k === 'opb') ? 'Praktika' : k === 'btb' ? 'Bachelorarbeit' : 'Profilierungsbereich'; }
+    var V = self.state.verschoben || {};
+    var VERS = [], BEST = [], NEXT = {};
+    var heuteIso = (function () { var d = new Date(); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); })();
+    function sem(id, titel, zeitraum, zusammenfassung, items) {
+      if (id === 's3') {
+        items.forEach(function (i) {
+          var v = V[i.modul];
+          if (!v) return;
+          var neu = Object.assign({}, i, {
+            status: 'Geplant', statusBg: S['Geplant'][0], statusFg: S['Geplant'][1],
+            detail: 'aus dem 3. Semester verschoben · ' + v.termin + (v.grund ? ' · Grund: ' + v.grund : '') + (i.cp ? ' · ' + i.cp + ' CP' : ''),
+            termine: [], hatTermine: false, noteFehlt: true
+          });
+          umzug.push({ ziel: v.ziel, item: neu });
+          i.status = 'Verschoben'; i.statusBg = S['Verschoben'][0]; i.statusFg = S['Verschoben'][1];
+          i.detail = 'verschoben → ' + NAMEN[v.ziel] + ' (' + v.termin + ')' + (i.cp ? ' · ' + i.cp + ' CP' : '');
+          i.termine = []; i.hatTermine = false; i.noteFehlt = false;
+        });
+      }
+      umzug.forEach(function (u) { if (u.ziel === id) items.push(u.item); });
+      (self.state.neue || []).forEach(function (x) {
+        if (x.sem !== id) return;
+        var cp = parseInt(x.cp, 10) || 0;
+        items.push(p({ modul: x.modul || 'neu', name: x.name || '[Modulbezeichnung]', detail: x.form || 'Prüfungsform offen', cp: cp || undefined,
+          status: (id === 's1' || id === 's2') ? 'Ergebnis offen' : 'Geplant',
+          termine: [{ art: 'Ersttermin', datum: x.datum ? mitTag(x.datum) : 'noch offen', an: 'noch offen', ab: 'noch offen' }] }));
+      });
+      items.sort(ord);
+      items.forEach(function (i) {
+        i.kannVerschieben = i.status === 'Geplant' && id === 's3';
+        i.zumModul = function () { try { window.sessionStorage.setItem('lernapp-modul-oeffnen', i.modul); } catch (e) {} };
+        i.verschieben = function () { self.setState({ dialog: { modul: i.modul, titel: i.modul + ' · ' + i.name, ab: (i.termine && i.termine[0] && i.termine[0].ab) || 'noch offen', ziel: 's4', termin: 'Ersttermin', grund: '' } }); };
+      });
+      items.forEach(function (i) {
+        var key = id + '_' + i.modul;
+        var liste = (NOTEN[key] || []).slice().sort(function (x, y) { return x.versuch - y.versuch; });
+        i.noteOeffnen = function () { self.setState({ noteDialog: { key: key, titel: i.modul + ' · ' + i.name, versuch: String(liste.length + 1), wert: '1,0', datum: '' } }); };
+        if (!liste.length) return;
+        var warBestanden = i.status === 'Bestanden';
+        i.versuche = liste.map(function (v) {
+          var ok = v.wert !== '5,0';
+          var ub = v.wert === 'ub';
+          return { nr: v.versuch + '. Versuch', datum: v.datum ? v.datum.split('-').reverse().join('.') : 'ohne Datum', ergebnis: ok ? (ub ? 'bestanden (unbenotet)' : 'bestanden (' + v.wert + ')') : 'nicht bestanden (5,0)', farbe: ok ? '#2f7a4b' : '#c42b2b' };
+        });
+        i.hatVersuche = true;
+        var bestanden = liste.filter(function (v) { return v.wert !== '5,0'; })[0];
+        if (bestanden) {
+          i.status = 'Bestanden'; i.note = bestanden.wert === 'ub' ? 'unbenotet' : bestanden.wert; i.hatNote = true; i.noteFehlt = false;
+          if (!warBestanden) { if (i.cp) extraCP[fach(i.modul)] += i.cp; extraBestanden += 1; }
+          if (i.cp && bestanden.wert !== 'ub') benotet.push({ fach: fach(i.modul), cp: i.cp, wert: parseFloat(bestanden.wert.replace(',', '.')) });
+        } else {
+          i.status = 'Nicht bestanden'; i.hatNote = false; i.noteFehlt = true;
+          i.detail = i.detail + ' · ' + (liste.length >= 3 ? 'endgültig nicht bestanden' : 'nächster Versuch spätestens zum nächsten regulären Termin – selbst anmelden');
+          if (warBestanden) { if (i.cp) extraCP[fach(i.modul)] -= i.cp; extraBestanden -= 1; }
+        }
+        i.statusBg = S[i.status][0]; i.statusFg = S[i.status][1];
+        i.kannVerschieben = false;
+      });
+      if (id === 's1' || id === 's2' || id === 's3' || id === 's4') items.forEach(function (i) { if (i.cp && (i.status === 'Geplant' || i.status === 'Ergebnis offen')) bafoegPlan += i.cp; });
+      var cpSoll = 0, cpIst = 0;
+      items.forEach(function (i) { if (i.cp) { cpSoll += i.cp; if (i.status === 'Bestanden') cpIst += i.cp; } });
+      var z = {};
+      items.forEach(function (i) {
+        if (i.status === 'Verschoben' || !i.termine || !i.termine.length) return;
+        var vs = (NOTEN[id + '_' + i.modul] || []).slice().sort(function (x, y) { return x.versuch - y.versuch; });
+        if (vs.some(function (v) { return v.wert !== '5,0'; })) { NEXT[i.modul] = { erledigt: true }; return; }
+        if (vs.length >= 3) { NEXT[i.modul] = { erledigt: true, endgueltig: true }; return; }
+        var ts = i.termine.map(function (x) { return { art: x.art, iso: zuIso(x.datum) }; }).filter(function (x) { return x.iso; }).sort(function (a, b) { return a.iso.localeCompare(b.iso); });
+        var nr = vs.length + 1, ab = vs.length ? (vs[vs.length - 1].datum || ts[0] && ts[0].iso || heuteIso) : '';
+        var ziel = vs.length ? ts.filter(function (x) { return x.iso > ab && x.iso >= heuteIso; })[0] : ts.filter(function (x) { return x.iso >= heuteIso; })[0];
+        if (!vs.length && !ziel) return;
+        NEXT[i.modul] = ziel ? { iso: ziel.iso, art: ziel.art, versuch: nr } : { iso: '', art: '', versuch: nr };
+      });
+      items.forEach(function (i) {
+        i.hatSeit = false; i.seit = '';
+        if (i.status !== 'Ergebnis offen' && i.status !== 'Geplant') return;
+        var quelle = (i.termine && i.termine[0] && i.termine[0].datum) || '';
+        var mg = /(?:geschrieben am|Klausur am) (\d\d)\.(\d\d)\.(\d{4})/.exec(i.detail || '') || /(\d\d)\.(\d\d)\.(\d{4})/.exec(quelle);
+        if (!mg) return;
+        var pd = new Date(+mg[3], +mg[2] - 1, +mg[1], 12), tage = Math.floor((HEUTE - pd) / 864e5);
+        if (tage < 0) return;
+        i.hatSeit = true; i.seit = tage === 0 ? 'heute geschrieben · Note fehlt' : 'geschrieben vor ' + (tage === 1 ? '1 Tag' : tage + ' Tagen') + ' – Note fehlt';
+      });
+      items.forEach(function (i) { z[i.status] = (z[i.status] || 0) + 1; if (i.status === 'Verschoben') VERS.push(i.modul); if (i.status === 'Bestanden') BEST.push(i.modul); });
+      var teile = [];
+      [['Bestanden', 'bestanden'], ['Geplant', 'geplant'], ['Ergebnis offen', 'Ergebnis offen'], ['Verschoben', 'verschoben']].forEach(function (k) { if (z[k[0]]) teile.push(z[k[0]] + ' ' + k[1]); });
+      zusammenfassung = (id === 's3' ? 'aktuell · ' : '') + teile.join(' · ');
+      var offen = !!self.state.offen[id];
+      return {
+        cpText: cpIst + ' von ' + cpSoll + ' CP', cpFarbe: cpIst === cpSoll ? '#2f7a4b' : '#4b5563',
+        titel: titel, zeitraum: zeitraum, zusammenfassung: zusammenfassung, items: items,
+        offen: offen, offenText: offen ? 'true' : 'false', pfeil: offen ? '▾' : '▸',
+        toggle: function () {
+          var n = Object.assign({}, self.state.offen); n[id] = !offen; self.setState({ offen: n });
+        }
+      };
+    }
+    var offenR = !!self.state.regeln;
+    var R = {
+      dialogOffen: !!self.state.dialog,
+      dialogTitel: self.state.dialog ? self.state.dialog.titel : '',
+      dialogAbmeldung: self.state.dialog ? 'Abmeldung ' + self.state.dialog.ab.replace(/^bis /, 'bis ') + ' (sonst spätestens 3 Tage vor dem Termin)' : '',
+      dialogZu: function () { self.setState({ dialog: null }); },
+      dialogZiel: self.state.dialog ? self.state.dialog.ziel : 's4',
+      dialogTermin: self.state.dialog ? self.state.dialog.termin : 'Ersttermin',
+      dialogGrund: self.state.dialog ? self.state.dialog.grund : '',
+      waehleZiel: function (e) { self.setState({ dialog: Object.assign({}, self.state.dialog, { ziel: e.target.value }) }); },
+      waehleTermin: function (e) { self.setState({ dialog: Object.assign({}, self.state.dialog, { termin: e.target.value }) }); },
+      tippeGrund: function (e) { self.setState({ dialog: Object.assign({}, self.state.dialog, { grund: e.target.value }) }); },
+      dialogOk: function () {
+        var d = self.state.dialog;
+        var vs = Object.assign({}, self.state.verschoben); vs[d.modul] = { ziel: d.ziel, termin: d.termin, grund: d.grund };
+        var of = Object.assign({}, self.state.offen); of[d.ziel] = true;
+        self.setState({ verschoben: vs, offen: of, dialog: null });
+      },
+      noteOffen: !!self.state.noteDialog,
+      noteTitel: self.state.noteDialog ? self.state.noteDialog.titel : '',
+      noteWert: self.state.noteDialog ? self.state.noteDialog.wert : '1,0',
+      noteVersuch: self.state.noteDialog ? self.state.noteDialog.versuch : '1',
+      waehleVersuch: function (e) { self.setState({ noteDialog: Object.assign({}, self.state.noteDialog, { versuch: e.target.value }) }); },
+      noteDatum: self.state.noteDialog ? self.state.noteDialog.datum : '',
+      waehleNote: function (e) { self.setState({ noteDialog: Object.assign({}, self.state.noteDialog, { wert: e.target.value }) }); },
+      waehleDatum: function (e) { self.setState({ noteDialog: Object.assign({}, self.state.noteDialog, { datum: e.target.value }) }); },
+      noteZu: function () { self.setState({ noteDialog: null }); },
+      noteOk: function () {
+        var d = self.state.noteDialog;
+        var ns = Object.assign({}, self.state.noten);
+        var l = (ns[d.key] || []).filter(function (v) { return String(v.versuch) !== String(d.versuch); });
+        l.push({ versuch: parseInt(d.versuch, 10), wert: d.wert, datum: d.datum });
+        ns[d.key] = l;
+        self.setState({ noten: ns, noteDialog: null });
+      },
+      editOffen: !!self.state.editDialog,
+      editTitel: self.state.editDialog ? self.state.editDialog.titel : '',
+      editFelder: self.state.editDialog ? self.state.editDialog.arten.map(function (art) {
+        var d = self.state.editDialog, w = d.felder[art];
+        function setter(feld) { return function (ev) { var nf = Object.assign({}, d.felder); nf[art] = Object.assign({}, nf[art]); nf[art][feld] = ev.target.value; self.setState({ editDialog: Object.assign({}, d, { felder: nf }) }); }; }
+        return { art: art, datum: w.datum, anVon: w.anVon, anBis: w.anBis, abBis: w.abBis, setDatum: setter('datum'), setAnVon: setter('anVon'), setAnBis: setter('anBis'), setAbBis: setter('abBis') };
+      }) : [],
+      editZu: function () { self.setState({ editDialog: null }); },
+      editOk: function () { var d = self.state.editDialog; var t = Object.assign({}, self.state.termEdits); t[d.modul] = d.felder; self.setState({ termEdits: t, editDialog: null }); },
+      neuOffen: !!self.state.neuDialog,
+      neu: self.state.neuDialog || { modul: '', name: '', sem: 's4', cp: '', form: '', datum: '' },
+      neuSet: (function () {
+        var o = {};
+        ['modul', 'name', 'sem', 'cp', 'form', 'datum'].forEach(function (k) { o[k] = function (ev) { var n = Object.assign({}, self.state.neuDialog); n[k] = ev.target.value; self.setState({ neuDialog: n }); }; });
+        return o;
+      })(),
+      neuOeffnen: function () { self.setState({ neuDialog: { modul: '', name: '', sem: 's4', cp: '', form: '', datum: '' } }); },
+      neuZu: function () { self.setState({ neuDialog: null }); },
+      neuOk: function () {
+        var d = self.state.neuDialog;
+        var of = Object.assign({}, self.state.offen); of[d.sem] = true;
+        self.setState({ neue: (self.state.neue || []).concat([d]), neuDialog: null, offen: of, tab: 'pruef' });
+      },
+      anzVerschoben: 3 + Object.keys(V).length,
+      anzDieses: 6 - Object.keys(V).length,
+      tabPruef: self.state.tab === 'pruef',
+      tabOrdn: self.state.tab === 'ordn',
+      tabBafoeg: self.state.tab === 'bafoeg',
+      zeigeBafoeg: function () { self.setState({ tab: 'bafoeg' }); },
+      tabBafoegBg: self.state.tab === 'bafoeg' ? '#ffffff' : 'transparent',
+      navBafoegBg: self.state.tab === 'bafoeg' ? '#ecece6' : 'transparent',
+      navBafoegGewicht: self.state.tab === 'bafoeg' ? '800' : '600',
+      zeigePruef: function () { self.setState({ tab: 'pruef' }); },
+      zeigeOrdn: function () { self.setState({ tab: 'ordn' }); },
+      tabPruefBg: self.state.tab === 'pruef' ? '#ffffff' : 'transparent',
+      tabOrdnBg: self.state.tab === 'ordn' ? '#ffffff' : 'transparent',
+      navPruefBg: self.state.tab === 'pruef' ? '#ecece6' : 'transparent',
+      navOrdnBg: self.state.tab === 'ordn' ? '#ecece6' : 'transparent',
+      navPruefGewicht: self.state.tab === 'pruef' ? '800' : '600',
+      navOrdnGewicht: self.state.tab === 'ordn' ? '800' : '600',
+      regelnOffen: offenR,
+      regelnPfeil: offenR ? '▾' : '▸',
+      toggleRegeln: function () { self.setState({ regeln: !offenR }); },
+      bereiche: [
+        { name: 'Mathematik', text: '13 / 60', breite: '22%', farbe: '#5f80b5' },
+        { name: 'Politikwissenschaft', text: '6 / 60', breite: '10%', farbe: '#b46b80' },
+        { name: 'Profilierungsbereich', text: '14 / 35', breite: '40%', farbe: '#6d9156' },
+        { name: 'Praktika', text: '6 / 15', breite: '40%', farbe: '#b5845a' },
+        { name: 'Bachelorarbeit', text: '0 / 10', breite: '0%', farbe: '#8a77b5' }
+      ],
+      regeln: [
+        { titel: '3 Versuche pro Prüfung', text: 'Eine nicht bestandene Modulprüfung kann zweimal wiederholt werden. Die 2. Wiederholung ist in der Regel mündlich (20 Min.). Danach ist sie endgültig nicht bestanden – bei Pflichtmodulen endet damit der Prüfungsanspruch.', quelle: 'RPO § 25 Abs. 1, § 26' },
+        { titel: 'Wann wiederholen?', text: 'Die 1. Wiederholung spätestens zum nächsten regulären Prüfungstermin. Für die 2. Wiederholung meldest du dich über das Prüfungsamt an – keine automatische Anmeldung.', quelle: 'RPO § 25 Abs. 3 und 5' },
+        { titel: 'Keine Notenverbesserung', text: 'Eine bestandene Prüfung darf nicht wiederholt werden, um die Note zu verbessern. Einen Freiversuch gibt es nicht.', quelle: 'RPO § 25 Abs. 2' },
+        { titel: 'Abmelden', text: 'Spätestens 3 Tage vor dem Prüfungstermin, sofern für die Prüfung nichts anderes angegeben ist (z. B. ewb001: bis 22.01.). Danach nur Rücktritt aus wichtigem Grund.', quelle: 'RPO § 16 Abs. 4' },
+        { titel: 'Krank am Prüfungstag', text: 'Sofort schriftlich melden (E-Mail vom Uni-Account reicht) und ärztliches Attest innerhalb von 5 Werktagen. Beim letzten Versuch ist ein amtsärztliches Attest nötig. Sonst gilt die Prüfung als nicht bestanden.', quelle: 'RPO § 27' },
+        { titel: 'Familienaufgaben', text: 'Wer ein Kind unter 14 Jahren betreut, kann auf Antrag Prüfungen in anderer Form, zu anderen Terminen oder mit anderen Fristen ablegen.', quelle: 'RPO § 30 Abs. 4' },
+        { titel: 'Noten', text: '1,0–4,0 bestanden, 5,0 nicht bestanden. Gesamtnote: nach CP gewichtetes Mittel, nur die erste Nachkommastelle zählt, es wird nicht gerundet (2,48 → 2,4).', quelle: 'RPO § 22, § 23 · PO BACS § 10' },
+        { titel: 'Gesamtnote BACS', text: 'Mathematik 60 CP · Politikwissenschaft 60 CP · Profilierungsbereich 35 CP · Praktikumsbericht 6 CP · Bachelorarbeit 10 CP mit Faktor 1,5. Unbenotete Module zählen nicht.', quelle: 'PO BACS § 9, § 10' }
+      ],
+      semester: [
+        sem('s1', '1. Semester', 'WiSe 25/26', '3 bestanden · 2 verschoben', [
+          p({ modul: 'mab001', name: 'Grundstrukturen der Mathematik', detail: 'Klausur oder Portfolio', cp: 7, status: 'Ergebnis offen' }),
+          p({ modul: 'pkb001', name: 'Einführung in die Politikwissenschaft', detail: 'Klausur', cp: 6, status: 'Ergebnis offen' }),
+          p({ modul: 'ewb001', name: 'Grundlagen und Grundbegriffe der Erziehungswissenschaften', detail: 'nicht geschrieben → nachgeholt im 3. Semester, Klausur 02.02.2027', cp: 6, status: 'Verschoben' }),
+          p({ modul: 'ewb002', name: 'Methoden der empirischen Bildungsforschung', detail: 'nicht geschrieben → nachgeholt im 3. Semester, Klausur 04.02.2027', cp: 5, status: 'Verschoben' }),
+          p({ modul: 'opb001', name: 'Orientierungspraktikum (OP)', detail: 'Portfolio, nur bestanden/nicht bestanden', cp: 6, status: 'Ergebnis offen' })
+        ]),
+        sem('s2', '2. Semester', 'SoSe 26', '3 bestanden · 1 Ergebnis offen · 1 verschoben', [
+          p({ modul: 'mab002', name: 'Grundlagen des Lernens und Lehrens von Mathematik', detail: 'Klausur am 07.09.2026', cp: 6, status: 'Ergebnis offen' }),
+          p({ modul: 'mab003', name: 'Geometrie', detail: 'nicht geschrieben → verschoben ins 4. Semester', cp: 6, status: 'Verschoben' }),
+          p({ modul: 'pkb002', name: 'Globalisierung und Internationale Beziehungen', detail: 'Ersttermin 21.07. nicht genutzt → geschrieben am 28.09.2026 (zählt als Erstversuch)', cp: 8, status: 'Ergebnis offen' }),
+          p({ modul: 'ewb013', name: 'Allgemeine Didaktik und Unterrichtsforschung', detail: 'Klausur', cp: 8, status: 'Ergebnis offen' }),
+          p({ modul: 'pbb133', name: 'Kaufmännische Grundlagen für die Unternehmenspraxis und Gründung', detail: 'Profilierungsbereich · angerechnet aus der Ausbildung, ohne Note', cp: 6, status: 'Ergebnis offen' })
+        ]),
+        sem('s3', '3. Semester', 'WiSe 26/27', '6 geplant', [
+          p({ modul: 'mab004', name: 'Mathematik in den digitalen Medien', detail: 'Klausur, 8–10 Uhr', cp: 5, status: 'Geplant', termine: [
+            { art: 'Ersttermin', datum: 'Di 02.02.2027', an: 'ab 23.11.2026 (Ende noch offen)', ab: 'noch offen', anVon: '2026-11-23' },
+            { art: 'Zweittermin', datum: 'Di 16.03.2027', an: 'noch offen', ab: 'noch offen' } ] }),
+          p({ modul: 'mab005', name: 'Wahrscheinlichkeitsrechnung', detail: 'Klausur, 90 Min., 14–16 Uhr (Termine noch als Vorschlag)', cp: 6, status: 'Geplant', termine: [
+            { art: 'Ersttermin', datum: 'Mo 08.02.2027', an: 'noch nicht bekannt', ab: 'noch offen' },
+            { art: 'Zweittermin', datum: 'Mo 29.03.2027', an: 'noch nicht bekannt', ab: 'noch offen' } ] }),
+          p({ modul: 'pkb003', name: 'Systemanalyse', detail: 'Hausarbeit (45.000–55.000 Zeichen) · freiwillige Präsentation am 12.11.', cp: 10, status: 'Geplant', voraus: [ { text: 'Thema in der Sprechstunde vereinbart', erledigt: true } ], termine: [
+            { art: 'Abgabe', datum: 'Mo 15.03.2027', an: 'Thema in der Sprechstunde vereinbaren', ab: 'noch offen' } ] }),
+          p({ modul: 'ewb001', name: 'Grundlagen und Grundbegriffe der Erziehungswissenschaften', detail: 'Online-Klausur vor Ort, 13 Uhr (Einlass 12 Uhr)', cp: 6, status: 'Geplant', voraus: [ { text: 'Am Prüfungstag mitbringen: Laptop/Tablet mit Internet + Ausweis', erledigt: false } ], termine: [
+            { art: 'Ersttermin', datum: 'Di 02.02.2027', an: '14.10.–31.12.2026, 24 Uhr', ab: 'bis 22.01.2027', anVon: '2026-10-14', anBis: '2026-12-31', abBis: '2027-01-22' },
+            { art: 'Zweittermin', datum: 'Di 30.03.2027', an: '14.02.–15.03.2027 (neu anmelden)', ab: 'bis 27.03.2027', anVon: '2027-02-14', anBis: '2027-03-15', abBis: '2027-03-27' } ] }),
+          p({ modul: 'ewb002', name: 'Methoden der empirischen Bildungsforschung', detail: 'Präsenzklausur, ca. 12 Uhr, überwiegend offene Fragen', cp: 5, status: 'Geplant', termine: [
+            { art: 'Ersttermin', datum: 'Do 04.02.2027', an: 'ab Januar 2027 (noch nicht bekannt)', ab: 'noch offen' },
+            { art: 'Zweittermin', datum: 'Do 18.03.2027', an: 'ab Mitte/Ende Februar (noch nicht bekannt)', ab: 'noch offen' } ] }),
+          p({ modul: 'pyb005', name: 'Grundlagen der Pädagogischen Psychologie für Bildung und Erziehung', detail: 'Klausur, 30 MC-Fragen, 10–15 Uhr', cp: 6, status: 'Geplant', voraus: [ { text: 'In alle pyb005-Veranstaltungen eingetragen (Prüfungsvoraussetzung, bis 26.10.)', erledigt: true } ], termine: [
+            { art: 'Ersttermin', datum: 'Di 09.02.2027', an: '01.11.2026–31.01.2027', ab: 'Rücktritt bis 05.02.2027', anVon: '2026-11-01', anBis: '2027-01-31', abBis: '2027-02-05' },
+            { art: 'Zweittermin', datum: 'Di 16.03.2027', an: 'neu anmelden, Zeitraum noch nicht bekannt', ab: 'noch offen' } ] })
+        ]),
+        sem('s4', '4. Semester', 'SoSe 27', 'laut Studienverlaufsplan', [
+          p({ modul: 'mab003', name: 'Geometrie', detail: 'Klausur · aus dem 2. Semester verschoben', cp: 6, status: 'Geplant' }),
+          p({ modul: 'mab006', name: 'Zahlbereiche und Funktionen', detail: 'Klausur', cp: 6, status: 'Geplant' }),
+          p({ modul: 'mab007', name: 'Einführung in spezifische mathematikdidaktische Themen', detail: 'Portfolio', cp: 6, status: 'Geplant' }),
+          p({ modul: 'pkb004', name: 'Europäische Integration', detail: 'Hausarbeit', cp: 6, status: 'Geplant' }),
+          p({ modul: 'asp001', name: 'Allgemeines Schulpraktikum (ASP)', detail: 'empfohlen im 4. Semester · benoteter Praktikumsbericht zählt mit 6 CP in die Gesamtnote', cp: 9, status: 'Geplant' }),
+          p({ modul: 'pbx', name: 'Ein Modul aus den Profilen „Schule und Unterricht“ oder „Bildung und Erziehung“', detail: 'Profilierungsbereich · für Mathematik/Politikwissenschaft im 4. Semester empfohlen · Modul noch wählen', cp: 5, status: 'Geplant' })
+        ]),
+        sem('s5', '5. Semester', 'WiSe 27/28', 'laut Studienverlaufsplan', [
+          p({ modul: 'mab008', name: 'Digitale Medien in der Mathematik', detail: 'Klausur oder Portfolio oder Hausarbeit', cp: 6, status: 'Geplant' }),
+          p({ modul: 'mab009', name: 'Spezialgebiete der Mathematik', detail: 'Wahlpflichtbereich I: mab009 oder mab010 · Portfolio', cp: 6, status: 'Geplant' }),
+          p({ modul: 'pkb005', name: 'Wissenschaftstheorie', detail: 'Klausur', cp: 8, status: 'Geplant' }),
+          p({ modul: 'pkb006', name: 'Politische Theorie', detail: 'Klausur', cp: 8, status: 'Geplant' })
+        ]),
+        sem('s6', '6. Semester', 'SoSe 28', 'laut Studienverlaufsplan', [
+          p({ modul: 'mab012', name: 'Schulmathematik der Sekundarstufe I aus fachwissenschaftlicher Perspektive', detail: 'Wahlpflichtbereich II · Empfehlung für Haupt- und Realschule (statt mab011)', cp: 6, status: 'Geplant' }),
+          p({ modul: 'pkb007', name: 'Politische Bildung', detail: 'Referat oder Hausarbeit', cp: 8, status: 'Geplant' }),
+          p({ modul: 'pkb008', name: 'Kolloquium zur Demokratieforschung und -vermittlung', detail: 'Referat', cp: 6, status: 'Geplant' }),
+          p({ modul: 'btb001', name: 'Bachelorarbeit', detail: 'zählt mit Faktor 1,5 in die Gesamtnote', cp: 10, status: 'Geplant' })
+        ])
+      ],
+      dokumente: [
+        { titel: 'Rahmenprüfungsordnung (Amtliches Mitteilungsblatt 14/2026)', info: 'gilt seit 09.09.2026', url: 'https://www.uni-vechta.de/fileadmin/user_upload/Amtliche_Mitteilungsblaetter/Jahrgang_2026/14-26_Rahmenpruefungsordnung.pdf' },
+        { titel: 'Prüfungsordnung Bachelor Combined Studies (2024)', info: 'gilt ab WiSe 24/25', url: 'https://www.uni-vechta.de/fileadmin/user_upload/Zentrale_Studienberatung_Career_Service/01_DC_Studienprogramme/BACS_Allgemeine_Ordnungen_und_Anlagen/BACS_allgemein_Studienbeginn_ab_WiSe_2024_25/15_2024_BACS_Pruefungsordnung.pdf' },
+        { titel: 'Studienverlaufspläne mit und ohne Lehramtsoption', info: 'allgemein', url: 'https://www.uni-vechta.de/fileadmin/user_upload/Zentrale_Studienberatung_Career_Service/01_DC_Studienprogramme/BACS_Allgemeine_Ordnungen_und_Anlagen/BACS_allgemein_Studienbeginn_ab_WiSe_2024_25/15_2024_BACS_Studienverlaufsplaene_mit_und_ohne_Lehramtsoption.pdf' },
+        { titel: 'Studienverlaufsplan Mathematik', info: 'Teilstudiengang', url: 'https://www.uni-vechta.de/fileadmin/user_upload/Zentrale_Studienberatung_Career_Service/01_DC_Studienprogramme/BACS_Faecher/BACS_Mathematik/MA_Studienbeginn_ab_WiSe_2024_25/15_2024_BACS_Mathematik_Studienverlaufsplan.pdf' },
+        { titel: 'Studienverlaufsplan Politikwissenschaft', info: 'Teilstudiengang', url: 'https://www.uni-vechta.de/fileadmin/user_upload/Zentrale_Studienberatung_Career_Service/01_DC_Studienprogramme/BACS_Faecher/BACS_Politikwissenschaft/PK_Studienbeginn_ab_WiSe_2024_25/15_2024_BACS_Politikwissenschaft_Studienverlaufsplaene.pdf' }
+      ]
+    };
+    var basis = { Mathematik: 0, Politikwissenschaft: 0, Profilierungsbereich: 0, Praktika: 0, Bachelorarbeit: 0 };
+    var maxi = { Mathematik: 60, Politikwissenschaft: 60, Profilierungsbereich: 35, Praktika: 15, Bachelorarbeit: 10 };
+    var gesamt = 0;
+    R.bereiche = R.bereiche.map(function (b) {
+      var v = basis[b.name] + extraCP[b.name]; gesamt += v;
+      return Object.assign({}, b, { kurz: { Mathematik: 'Mathe', Politikwissenschaft: 'Politik', Profilierungsbereich: 'Profil', Praktika: 'Praktika', Bachelorarbeit: 'BA-Arbeit' }[b.name], text: v + ' / ' + maxi[b.name], breite: Math.min(100, Math.round(v / maxi[b.name] * 100)) + '%' });
+    });
+    R.cpGesamt = gesamt; R.cpOffen = 180 - gesamt; R.cpBreite = Math.round(gesamt / 180 * 100) + '%';
+    R.anzBestanden = extraBestanden;
+    function abschneiden(x, stellen) { var f = Math.pow(10, stellen); return (Math.floor(x * f + 1e-9) / f).toFixed(stellen).replace('.', ','); }
+    var proFach = {};
+    benotet.forEach(function (b) { var g = proFach[b.fach] || (proFach[b.fach] = { s: 0, c: 0 }); g.s += b.wert * b.cp; g.c += b.cp; });
+    function fn(name) { var g = proFach[name]; return g ? abschneiden(g.s / g.c, 1) : '–'; }
+    R.schnittMathe = fn('Mathematik'); R.schnittPolitik = fn('Politikwissenschaft'); R.schnittProfil = fn('Profilierungsbereich');
+    var gew = { Mathematik: 60, Politikwissenschaft: 60, Profilierungsbereich: 35, Praktika: 6, Bachelorarbeit: 15 };
+    var gs = 0, gc = 0;
+    Object.keys(proFach).forEach(function (k) { var g = proFach[k]; gs += (g.s / g.c) * gew[k]; gc += gew[k]; });
+    R.schnittGesamt = gc ? abschneiden(gs / gc, 1) : '–';
+    var vl = VERS.filter(function (m, ix) { return VERS.indexOf(m) === ix && BEST.indexOf(m) < 0; }).sort(ord2);
+    R.anzVerschoben = vl.length;
+    R.naechsteFristen = fristen.sort(function (a, b) { return a.tage - b.tage; }).map(function (x) {
+      var c = C[x.modul] || ['#4b5563', '#eef0f3'];
+      return { modul: x.modul, text: x.text, fg: c[0], bg: c[1] };
+    });
+    var grenze = parseInt(self.state.grenze, 10) || 0;
+    var plan = gesamt + bafoegPlan;
+    R.bafoegGrenze = grenze; R.bafoegIst = gesamt; R.bafoegPlan = plan;
+    R.setzeGrenze = function (e) { self.setState({ grenze: e.target.value }); };
+    R.bafoegIstBreite = Math.round(gesamt / 180 * 100) + '%';
+    R.bafoegPlanBreite = Math.min(100, Math.round(plan / 180 * 100)) + '%';
+    R.bafoegGrenzeLinks = 'calc(' + Math.round(grenze / 180 * 100) + '% - 1px)';
+    if (gesamt >= grenze) { R.bafoegStatus = 'Grenze erreicht ✓'; R.bafoegBg = '#e3f2e8'; R.bafoegFg = '#2f7a4b'; R.bafoegHinweis = 'Du hast die Grenze schon erreicht.'; }
+    else if (plan - grenze >= 15) { R.bafoegStatus = 'Auf Kurs · noch ' + (grenze - gesamt) + ' CP bis zur Grenze'; R.bafoegBg = '#e3f2e8'; R.bafoegFg = '#2f7a4b'; R.bafoegHinweis = 'Wenn alle geplanten Prüfungen bis Ende des 4. Semesters klappen, liegst du ' + (plan - grenze) + ' CP über der Grenze.'; }
+    else if (plan >= grenze) { R.bafoegStatus = 'Knapp · Puffer nur ' + (plan - grenze) + ' CP'; R.bafoegBg = '#fdf1e2'; R.bafoegFg = '#9a5b14'; R.bafoegHinweis = 'Jede weitere Verschiebung oder nicht bestandene Prüfung kann dich unter die Grenze bringen.'; }
+    else { R.bafoegStatus = 'Gefährdet · es fehlen ' + (grenze - plan) + ' CP'; R.bafoegBg = '#fde9e9'; R.bafoegFg = '#c42b2b'; R.bafoegHinweis = 'Selbst wenn alles Geplante klappt, reicht es nicht – frühzeitig mit dem BAföG-Amt sprechen.'; }
+    R.bafoegWarnen = gesamt < grenze && plan - grenze < 15;
+    R.kacheln = [
+      { label: 'Bestanden', wert: R.anzBestanden + ' Module', info: gesamt + ' von 180 CP' },
+      { label: 'Notenschnitt', wert: R.schnittGesamt, info: 'Mathe ' + R.schnittMathe + ' · Politik ' + R.schnittPolitik + ' · Profil ' + R.schnittProfil },
+      { label: 'Dieses Semester', wert: R.anzDieses + ' Prüfungen', info: 'erste am 02.02.2027' },
+      { label: 'Verschoben', wert: vl.length ? vl.length + (vl.length === 1 ? ' Modul' : ' Module') : 'Keine', info: vl.length ? vl.join(', ') : 'alles nachgeholt' }
+    ];
+    self._stand = {
+      schnitt: R.schnittGesamt, mathe: R.schnittMathe, politik: R.schnittPolitik, profil: R.schnittProfil,
+      dieses: R.anzDieses, gesamt: R.cpGesamt, offen: R.cpOffen, breite: R.cpBreite,
+      bereiche: R.bereiche.map(function (b) { return { kurz: b.kurz, text: b.text }; }),
+      naechste: NEXT
+    };
+    return R;
+  }
+}
+</script>
+</body>
+</html>

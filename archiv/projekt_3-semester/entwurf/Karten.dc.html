@@ -1,0 +1,1088 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Eigene Karten</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#f7f7f4}
+a{color:#1f2328}a:hover{color:#000}
+@media (max-width: 700px) {
+  .seitenleiste { display: none !important; }
+  .inhalt { padding: 16px 16px 100px !important; gap: 14px !important; }
+  .untennav { display: grid !important; }
+  .inhalt h1 { font-size: 22px !important; }
+  .kopf { flex-wrap: nowrap !important; align-items: center !important; }
+  .neu-knopf { min-height: 40px !important; padding: 0 14px !important; font-size: 13px !important; white-space: nowrap; }
+  .tabs { align-self: stretch !important; }
+  .tabs button { flex: 1 1 0; }
+  .kacheln { grid-template-columns: 1fr !important; }
+  .karten { grid-template-columns: 1fr !important; }
+  .zuord-kats { grid-template-columns: 1fr !important; }
+}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #f7f7f4; color: #1f2328; font-family: Nunito, system-ui, sans-serif; display: flex; flex-wrap: wrap; align-items: flex-start">
+
+  <nav class="seitenleiste" aria-label="Hauptnavigation" style="flex: 1 1 200px; max-width: 240px; box-sizing: border-box; padding: 28px 16px; display: flex; flex-direction: column; gap: 4px">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0 12px 24px">
+      <div style="width: 32px; height: 32px; border-radius: 10px; background: #ffffff; border: 1px solid #e6e6e0; box-sizing: border-box; display: flex; align-items: center; justify-content: center">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1f2328" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 7l10-4 10 4-10 4z"></path><path d="M6 9v5c0 1.7 2.7 3 6 3s6-1.3 6-3V9"></path></svg>
+      </div>
+      <div>
+        <div style="font-weight: 800; font-size: 17px">Lernapp</div>
+        <div style="font-size: 12px; color: #6b6f76">WiSe 26/27</div>
+        <div style="font-size: 12px; color: #6b6f76">3. Fachsemester</div>
+      </div>
+    </div>
+    <a href="Main.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: #4b5563; font-weight: 600; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="2"></rect><rect x="14" y="3" width="7" height="5" rx="2"></rect><rect x="14" y="12" width="7" height="9" rx="2"></rect><rect x="3" y="16" width="7" height="5" rx="2"></rect></svg>
+      Dashboard
+    </a>
+    <a href="Kalender.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: #4b5563; font-weight: 600; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>
+      Kalender
+    </a>
+    <a href="Module.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: #4b5563; font-weight: 600; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 5a2 2 0 012-2h13v16H6a2 2 0 00-2 2z"></path><path d="M4 19V5"></path></svg>
+      Module
+    </a>
+    <a href="Pruefungen.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; color: #4b5563; font-weight: 600; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z"></path><path d="M14 3v6h6M9 15l2 2 4-4"></path></svg>
+      Prüfungen
+    </a>
+    <a href="Karten.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 1px 2px rgba(0,0,0,0.06); font-weight: 700; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="6" width="14" height="14" rx="2"></rect><path d="M7 3h12a2 2 0 012 2v12"></path></svg>
+      Eigene Karten
+    </a>
+    <div style="display: flex; flex-direction: column; gap: 2px; padding-left: 30px; margin-bottom: 4px">
+      <sc-for list="{{tabs}}" as="t" hint-placeholder-count="2">
+        <button type="button" onClick="{{t.waehle}}" style="text-align: left; min-height: 38px; padding: 0 12px; border: 0; border-radius: 10px; background: {{t.bg}}; font-family: inherit; font-size: 14px; font-weight: 700; color: #1f2328; cursor: pointer">{{t.name}}</button>
+      </sc-for>
+    </div>
+  </nav>
+
+
+  <main class="inhalt" style="flex: 999 1 560px; min-width: 0; box-sizing: border-box; padding: 28px 32px 48px; display: flex; flex-direction: column; gap: 18px; max-width: 1180px">
+    <header class="kopf" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 12px">
+      <div>
+        <h1 style="margin: 0; font-size: 30px; font-weight: 800">Eigene Karten</h1>
+        <div style="font-size: 14px; color: #6b6f76; font-weight: 600; margin-top: 2px">{{kopfInfo}}</div>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center">
+      <button type="button" onClick="{{ioOeffnen}}" style="min-height: 44px; padding: 0 16px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 14px; font-weight: 700; color: #1f2328; cursor: pointer">Import / Export</button>
+      <button type="button" onClick="{{neu}}" class="neu-knopf" style="min-height: 44px; padding: 0 18px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 15px; font-weight: 800; color: #1f2328; cursor: pointer">+ Karte</button>
+      </div>
+    </header>
+
+    <div class="tabs" role="tablist" style="align-self: flex-start; display: flex; gap: 3px; padding: 3px; background: #efefea; border-radius: 999px">
+      <sc-for list="{{tabs}}" as="t" hint-placeholder-count="2">
+        <button type="button" role="tab" onClick="{{t.waehle}}" style="min-height: 40px; padding: 0 16px; border: 0; border-radius: 999px; background: {{t.bg}}; box-shadow: {{t.schatten}}; font-family: inherit; font-size: 14px; font-weight: 800; color: #1f2328; cursor: pointer">{{t.name}}</button>
+      </sc-for>
+    </div>
+
+    <div class="chips" style="display: flex; flex-wrap: wrap; gap: 6px">
+      <sc-for list="{{modulChips}}" as="m" hint-placeholder-count="7">
+        <button type="button" onClick="{{m.waehle}}" style="min-height: 34px; padding: 0 12px; border-radius: 999px; border: 1.5px solid {{m.rand}}; background: {{m.bg}}; font-family: inherit; font-size: 13px; font-weight: 800; color: {{m.fg}}; cursor: pointer">{{m.name}} <span style="font-weight: 600; color: #6b6f76">{{m.zahl}}</span></button>
+      </sc-for>
+    </div>
+
+    <sc-if value="{{tabKarten}}" hint-placeholder-val="{{true}}">
+    <sc-if value="{{hatSitzFilter}}" hint-placeholder-val="{{false}}">
+      <div style="display: flex; flex-direction: column; gap: 6px">
+        <div style="display: flex; flex-wrap: wrap; gap: 6px">
+          <sc-for list="{{sitzChips}}" as="s" hint-placeholder-count="4">
+            <button type="button" onClick="{{s.waehle}}" title="{{s.titel}}" style="min-height: 32px; padding: 0 10px; border-radius: 10px; border: 1.5px solid {{s.rand}}; background: {{s.bg}}; font-family: inherit; font-size: 12px; font-weight: 700; color: #1f2328; cursor: pointer">{{s.name}} <span style="font-weight: 600; color: #6b6f76">{{s.zahl}}</span></button>
+          </sc-for>
+        </div>
+        <span style="font-size: 12px; color: #6b6f76">{{sitzInfo}}</span>
+      </div>
+    </sc-if>
+
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px">
+      <span style="font-size: 13px; font-weight: 800; color: #6b6f76">Übungsmodus</span>
+      <div style="display: flex; gap: 3px; padding: 3px; background: #efefea; border-radius: 999px">
+        <sc-for list="{{modi}}" as="m" hint-placeholder-count="2">
+          <button type="button" onClick="{{m.waehle}}" style="min-height: 34px; padding: 0 14px; border: 0; border-radius: 999px; background: {{m.bg}}; box-shadow: {{m.schatten}}; font-family: inherit; font-size: 13px; font-weight: 800; color: #1f2328; cursor: pointer">{{m.name}}</button>
+        </sc-for>
+      </div>
+      <span style="font-size: 12px; color: #6b6f76">{{modusInfo}}</span>
+    </div>
+    <div style="font-size: 12px; color: #6b6f76">Wiederholung mit Abständen: richtig → nach 1, 3, 7, 14, 30, 60 Tagen wieder · teilweise oder falsch → morgen wieder.</div>
+
+    <div class="kacheln" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px">
+      <sc-for list="{{uebKacheln}}" as="u" hint-placeholder-count="3">
+        <div style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 6px">
+          <span style="font-size: 15px; font-weight: 800">{{u.titel}}</span>
+          <span style="font-size: 13px; color: #6b6f76">{{u.text}}</span>
+          <button type="button" onClick="{{u.start}}" style="align-self: flex-start; margin-top: auto; min-height: 36px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 800; color: #1f2328; cursor: pointer; opacity: {{u.opazitaet}}">{{u.knopf}}</button>
+        </div>
+      </sc-for>
+    </div>
+
+    <section style="display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; justify-content: space-between; align-items: baseline">
+        <h2 style="margin: 0; font-size: 17px; font-weight: 800">{{listeTitel}}</h2>
+        <span style="display: flex; align-items: center; gap: 10px"><span style="font-size: 13px; color: #6b6f76">{{listeInfo}}</span><button type="button" onClick="{{auswahlUm}}" style="min-height: 34px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer">{{auswahlKnopf}}</button></span>
+      </div>
+      <sc-if value="{{leer}}" hint-placeholder-val="{{false}}">
+        <div style="background: #ffffff; border: 1px dashed #d8d8d0; border-radius: 16px; padding: 20px; font-size: 14px; color: #6b6f76">{{leerText}}</div>
+      </sc-if>
+      <sc-if value="{{amAktiv}}" hint-placeholder-val="{{false}}">
+        <div style="position: sticky; top: 8px; z-index: 5; background: #ffffff; border: 1.5px solid #1f2328; border-radius: 14px; padding: 10px 12px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; box-shadow: 0 6px 18px rgba(0,0,0,0.08)">
+          <span style="font-size: 13px; font-weight: 800; margin-right: auto">{{amInfo}}</span>
+          <button type="button" onClick="{{amAlle}}" style="min-height: 34px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer">{{amAlleText}}</button>
+          <sc-if value="{{amHatSel}}" hint-placeholder-val="{{false}}">
+            <button type="button" onClick="{{amKeine}}" style="min-height: 34px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer">Auswahl aufheben</button>
+            <button type="button" onClick="{{amUeben}}" style="min-height: 34px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer">Üben</button>
+            <button type="button" onClick="{{amVerschieben}}" style="min-height: 34px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer">Verschieben …</button>
+            <button type="button" onClick="{{amKopieren}}" style="min-height: 34px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer">Kopieren</button>
+            <button type="button" onClick="{{amLoeschen}}" style="min-height: 34px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer; color: #c42b2b">{{amLoeschText}}</button>
+          </sc-if>
+        </div>
+      </sc-if>
+      <sc-if value="{{hatAuswahl}}" hint-placeholder-val="{{false}}"><div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 13px; color: #4b5563">{{auswahlInfo}}<button type="button" onClick="{{auswahlWeg}}" style="border: 0; background: none; padding: 0; font-family: inherit; font-size: 13px; font-weight: 700; color: #4b5563; text-decoration: underline; cursor: pointer">Auswahl aufheben</button></div></sc-if>
+      <sc-if value="{{hatKeineAuswahl}}" hint-placeholder-val="{{false}}"><div style="font-size: 13px; color: #6b6f76">{{auswahlInfo}}</div></sc-if>
+      <sc-for list="{{gruppen}}" as="g" hint-placeholder-count="3">
+        <div style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px; overflow: hidden">
+          <div onClick="{{g.umschalten}}" style="display: flex; align-items: center; gap: 10px; padding: 12px 14px; cursor: pointer; box-shadow: inset 4px 0 0 {{g.fg}}">
+            <sc-if value="{{g.hatHaken}}" hint-placeholder-val="{{true}}"><button type="button" onClick="{{g.hakenUm}}" aria-label="zum Üben auswählen" style="width: 24px; height: 24px; flex: none; border-radius: 6px; border: 1.5px solid {{g.hakenRand}}; background: {{g.hakenBg}}; color: #ffffff; font-family: inherit; font-weight: 800; font-size: 13px; cursor: pointer; padding: 0">{{g.haken}}</button></sc-if>
+            <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px">
+              <span style="font-size: 14px; font-weight: 800; color: {{g.fg}}">{{g.titel}}</span>
+              <span style="font-size: 13px; color: #4b5563; overflow: hidden; text-overflow: ellipsis; white-space: nowrap">{{g.sub}}</span>
+              <div style="display: flex; align-items: center; gap: 8px; font-size: 12px; color: #6b6f76"><div style="width: 90px; height: 6px; border-radius: 3px; background: #f0f0eb; overflow: hidden"><div style="height: 100%; width: {{g.breite}}; background: {{g.fg}}"></div></div>{{g.zahl}}</div>
+            </div>
+            <button type="button" onClick="{{g.ueben}}" style="min-height: 34px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 800; color: #1f2328; cursor: pointer">Üben</button>
+            <span style="font-size: 12px; color: #6b6f76">{{g.pfeil}}</span>
+          </div>
+          <sc-if value="{{g.offen}}" hint-placeholder-val="{{false}}">
+            <div style="padding: 0 14px 14px">
+      <div class="karten" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px">
+              <sc-for list="{{g.karten}}" as="k" hint-placeholder-count="6">
+                <button type="button" onClick="{{k.bearbeiten}}" style="display: flex; flex-direction: column; gap: 10px; text-align: left; padding: 14px; border: 1.5px solid {{k.rand}}; border-radius: 14px; background: #ffffff; box-shadow: inset 4px 0 0 {{k.fg}}; font-family: inherit; color: #1f2328; cursor: pointer; min-height: 130px">
+                  <span style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center">
+                    <sc-if value="{{k.waehlbar}}" hint-placeholder-val="{{false}}"><span style="width: 20px; height: 20px; border-radius: 6px; border: 1.5px solid {{k.hakenRand}}; background: {{k.hakenBg}}; color: #ffffff; font-size: 12px; font-weight: 800; display: inline-grid; place-items: center">{{k.haken}}</span></sc-if>
+                  <b style="font-size: 12px; color: {{k.fg}}">{{k.teil}}</b>
+                    <span style="font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 999px; background: #f0f0eb; color: #4b5563">{{k.format}}</span>
+                    <span style="margin-left: auto; font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 999px; background: {{k.standBg}}; color: {{k.standFg}}">{{k.stand}}</span>
+                  </span>
+                  <span style="font-size: 15px; font-weight: 700; line-height: 1.35">{{k.vorne}}</span>
+                  <span style="margin-top: auto; font-size: 12px; color: #6b6f76">{{k.info}}</span>
+                </button>
+              </sc-for>
+            </div>
+            </div>
+          </sc-if>
+        </div>
+      </sc-for>
+    </section>
+    </sc-if>
+
+    <sc-if value="{{tabStat}}" hint-placeholder-val="{{false}}">
+      <h2 style="margin: 0; font-size: 17px; font-weight: 800">{{stat.titel}}</h2>
+      <div class="kacheln" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px">
+        <div style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 12px; font-weight: 800; color: #6b6f76">Antworten gesamt</span><span style="font-size: 26px; font-weight: 800">{{stat.ges}}</span></div>
+        <div style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 12px; font-weight: 800; color: #6b6f76">Trefferquote</span><span style="font-size: 26px; font-weight: 800; color: #2f7a4b">{{stat.quote}}</span></div>
+        <div style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 12px; font-weight: 800; color: #6b6f76">Teilweise richtig</span><span style="font-size: 26px; font-weight: 800; color: #a3580b">{{stat.teil}}</span></div>
+        <div style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 12px; font-weight: 800; color: #6b6f76">{{stat.nieText}}</span><span style="font-size: 26px; font-weight: 800">{{stat.nie}}</span>
+          <sc-if value="{{stat.hatNie}}" hint-placeholder-val="{{true}}"><button type="button" onClick="{{stat.nieUeben}}" style="align-self: flex-start; min-height: 30px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 12px; font-weight: 800; color: #1f2328; cursor: pointer">Jetzt üben</button></sc-if></div>
+      </div>
+      <section style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 10px">
+        <h3 style="margin: 0; font-size: 15px; font-weight: 800">Lernzeit</h3>
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px">
+          <div style="background: #f7f7f4; border-radius: 12px; padding: 10px; display: flex; flex-direction: column"><span style="font-size: 12px; font-weight: 800; color: #6b6f76">Heute</span><span style="font-size: 20px; font-weight: 800">{{lz.heute}}</span></div>
+          <div style="background: #f7f7f4; border-radius: 12px; padding: 10px; display: flex; flex-direction: column"><span style="font-size: 12px; font-weight: 800; color: #6b6f76">Diese Woche</span><span style="font-size: 20px; font-weight: 800">{{lz.woche}}</span></div>
+          <div style="background: #f7f7f4; border-radius: 12px; padding: 10px; display: flex; flex-direction: column"><span style="font-size: 12px; font-weight: 800; color: #6b6f76">Gesamt</span><span style="font-size: 20px; font-weight: 800">{{lz.ges}}</span></div>
+        </div>
+        <span style="font-size: 13px; color: #4b5563">{{lz.split}}</span>
+        <span style="font-size: 13px; font-weight: 800; color: #6b6f76">{{lz.teilTitel}}</span>
+        <sc-for list="{{lz.zeilen}}" as="x" hint-placeholder-count="4">
+          <div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 10px; align-items: center">
+            <span style="font-size: 13px; font-weight: 700; color: {{x.fg}}; overflow: hidden; text-overflow: ellipsis; white-space: nowrap">{{x.name}}</span>
+            <span style="font-size: 13px; font-weight: 800">{{x.zeit}}</span>
+            <div style="grid-column: 1 / -1; height: 6px; border-radius: 3px; background: #f0f0eb; overflow: hidden"><div style="height: 100%; width: {{x.breite}}; background: {{x.fg}}"></div></div>
+          </div>
+        </sc-for>
+        <span style="font-size: 12px; color: #6b6f76">Gezählt wird nur aktives Lernen: Karten üben und Lerntexte lesen. Karten anlegen oder bearbeiten und Herumklicken zählen nicht. Nach 1 Minute ohne Eingabe oder wenn die App im Hintergrund ist, stoppt die Uhr.</span>
+      </section>
+      <div style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 8px">
+        <div style="display: flex; height: 12px; border-radius: 6px; overflow: hidden; background: #f0f0eb"><div style="width: {{stat.rB}}; background: #5aa36f"></div><div style="width: {{stat.tB}}; background: #e3a548"></div><div style="width: {{stat.fB}}; background: #d06a6a"></div></div>
+        <span style="font-size: 13px; color: #4b5563">{{stat.legende}}</span>
+      </div>
+      <sc-if value="{{stat.hatModule}}" hint-placeholder-val="{{true}}">
+        <section style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 10px">
+<div onClick="{{SO.modulUm}}" style="display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; cursor: pointer"><h3 style="margin: 0; font-size: 15px; font-weight: 800">Nach Modul</h3><span style="font-size: 12px; color: #6b6f76">{{SO.modulPfeil}}</span></div>
+          <sc-if value="{{SO.modul}}" hint-placeholder-val="{{false}}">
+          <sc-for list="{{stat.module}}" as="x" hint-placeholder-count="6">
+            <button type="button" onClick="{{x.waehle}}" style="display: grid; grid-template-columns: 70px 1fr; gap: 10px; align-items: center; border: 0; background: none; padding: 0; font-family: inherit; text-align: left; cursor: pointer">
+              <b style="font-size: 13px; color: {{x.fg}}">{{x.name}}</b>
+              <span style="display: flex; flex-direction: column; gap: 4px"><span style="display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: #f0f0eb"><span style="width: {{x.rB}}; background: #5aa36f"></span><span style="width: {{x.tB}}; background: #e3a548"></span><span style="width: {{x.fB}}; background: #d06a6a"></span></span><span style="font-size: 12px; color: #6b6f76">{{x.info}}</span></span>
+            </button>
+          </sc-for>
+          </sc-if>
+        </section>
+      </sc-if>
+      <sc-if value="{{stat.hatSchwer}}" hint-placeholder-val="{{true}}">
+        <section style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 10px">
+  <div onClick="{{SO.schwerUm}}" style="display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; cursor: pointer">
+            <h3 style="margin: 0; font-size: 15px; font-weight: 800">Am häufigsten falsch <span style="font-weight: 600; font-size: 13px; color: #6b6f76">{{stat.schwerInfo}}</span></h3>
+            <span style="display: flex; align-items: center; gap: 10px"><button type="button" onClick="{{stat.schwerUeben}}" style="min-height: 32px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 800; color: #1f2328; cursor: pointer">Diese gezielt üben</button><span style="font-size: 12px; color: #6b6f76">{{SO.schwerPfeil}}</span></span>
+          </div>
+          <sc-if value="{{SO.schwer}}" hint-placeholder-val="{{false}}">
+          <sc-for list="{{stat.schwer}}" as="z" hint-placeholder-count="3">
+            <button type="button" onClick="{{z.bearbeiten}}" style="display: flex; flex-direction: column; gap: 4px; border: 0; border-top: 1px solid #f0f0eb; background: none; padding: 8px 0 0; font-family: inherit; text-align: left; color: #1f2328; cursor: pointer">
+              <span style="font-size: 14px; font-weight: 700"><b style="font-size: 12px; color: {{z.fg}}">{{z.teil}}</b> · {{z.vorne}}</span>
+              <span style="font-size: 12px; color: #6b6f76">✓ {{z.r}} · ◐ {{z.t}} · ✗ {{z.f}} · {{z.zuletzt}}</span>
+            </button>
+          </sc-for>
+          </sc-if>
+        </section>
+      </sc-if>
+      <section style="background: #ffffff; border: 1px solid #e6e6e0; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 8px">
+<div onClick="{{SO.alleUm}}" style="display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; cursor: pointer"><h3 style="margin: 0; font-size: 15px; font-weight: 800">Alle Karten <span style="font-weight: 600; font-size: 13px; color: #6b6f76">{{stat.alleInfo}}</span></h3><span style="font-size: 12px; color: #6b6f76">{{SO.allePfeil}}</span></div>
+        <sc-if value="{{SO.alle}}" hint-placeholder-val="{{false}}">
+        <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center">
+          <input type="search" value="{{stat.suche}}" onInput="{{stat.sucheSetzen}}" onChange="{{stat.sucheSetzen}}" placeholder="Karte suchen …" style="flex: 1 1 180px; min-width: 0; border: 1px solid #e6e6e0; background: #f7f7f4; border-radius: 999px; padding: 8px 14px; font-family: inherit; font-size: 14px; color: #1f2328">
+          <select value="{{stat.sortWert}}" onChange="{{stat.sortSetzen}}" style="border: 1px solid #e6e6e0; background: #ffffff; border-radius: 999px; padding: 8px 12px; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328">
+            <sc-for list="{{stat.sortierung}}" as="o" hint-placeholder-count="4"><option value="{{o.wert}}" selected="{{o.gewaehlt}}">{{o.name}}</option></sc-for>
+          </select>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center">
+          <div style="display: flex; flex-wrap: wrap; gap: 3px; padding: 3px; background: #efefea; border-radius: 999px">
+            <sc-for list="{{stat.filter}}" as="f" hint-placeholder-count="4">
+              <button type="button" onClick="{{f.waehle}}" style="min-height: 30px; padding: 0 12px; border: 0; border-radius: 999px; background: {{f.bg}}; box-shadow: {{f.schatten}}; font-family: inherit; font-size: 12px; font-weight: 800; color: #1f2328; cursor: pointer">{{f.name}}</button>
+            </sc-for>
+          </div>
+          <sc-if value="{{stat.hatTreffer}}" hint-placeholder-val="{{false}}"><span style="font-size: 12px; color: #6b6f76">{{stat.trefferInfo}}</span></sc-if>
+          <button type="button" onClick="{{stat.gefUeben}}" style="margin-left: auto; min-height: 30px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 12px; font-weight: 800; color: #1f2328; cursor: pointer">{{stat.gefUebenText}}</button>
+        </div>
+        <sc-if value="{{stat.keineTreffer}}" hint-placeholder-val="{{false}}"><span style="font-size: 13px; color: #6b6f76">Keine Karten gefunden.</span></sc-if>
+        <div style="display: flex; flex-direction: column">
+          <sc-for list="{{stat.alle}}" as="z" hint-placeholder-count="8">
+            <button type="button" onClick="{{z.bearbeiten}}" title="✓ {{z.r}} · ◐ {{z.t}} · ✗ {{z.f}} · {{z.mal}} · {{z.zuletzt}}" style="display: grid; grid-template-columns: 64px minmax(0, 1fr) 64px 40px; gap: 10px; align-items: center; border: 0; border-top: 1px solid #f0f0eb; background: none; padding: 7px 0; font-family: inherit; text-align: left; color: #1f2328; cursor: pointer">
+              <b style="font-size: 12px; color: {{z.fg}}">{{z.teil}}</b>
+              <span style="display: flex; flex-direction: column; min-width: 0"><span style="font-size: 13px; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap">{{z.vorne}}</span><span style="font-size: 11px; color: #6b6f76; overflow: hidden; text-overflow: ellipsis; white-space: nowrap">✓ {{z.r}} ◐ {{z.t}} ✗ {{z.f}} · {{z.zuletzt}}</span></span>
+              <span style="display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: #f0f0eb"><span style="width: {{z.rB}}; background: #5aa36f"></span><span style="width: {{z.tB}}; background: #e3a548"></span><span style="width: {{z.fB}}; background: #d06a6a"></span></span>
+              <span style="font-size: 13px; font-weight: 800; text-align: right">{{z.quote}}</span>
+            </button>
+          </sc-for>
+        </div>
+        <sc-if value="{{stat.mehr}}" hint-placeholder-val="{{false}}"><button type="button" onClick="{{stat.mehrZeigen}}" style="align-self: center; min-height: 32px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer">{{stat.mehrText}}</button></sc-if>
+        </sc-if>
+      </section>
+      <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center">
+        <button type="button" onClick="{{RS.karten}}" style="min-height: 32px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; cursor: pointer; color: {{RS.kartenFarbe}}">{{RS.kartenText}}</button>
+        <button type="button" onClick="{{RS.zeit}}" style="min-height: 32px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; cursor: pointer; color: {{RS.zeitFarbe}}">{{RS.zeitText}}</button>
+        <span style="font-size: 12px; color: #6b6f76">{{RS.info}}</span>
+      </div>
+      <div style="font-size: 12px; color: #6b6f76">✓ richtig · ◐ teilweise richtig (z. B. 2 von 3 Lücken) · ✗ falsch bzw. „Noch unsicher“. Im Entwurf mit Beispielwerten; deine Übungen zählen live mit.</div>
+    </sc-if>
+    <div style="font-size: 12px; color: #6b6f76">Deine Karten werden in der App geräteübergreifend gespeichert (Supabase). Im Entwurf sind es Beispielkarten mit Platzhaltertext.</div>
+  </main>
+
+  <sc-if value="{{dOffen}}" hint-placeholder-val="{{false}}">
+    <div style="position: fixed; inset: 0; background: rgba(31, 35, 40, 0.35); display: flex; align-items: center; justify-content: center; padding: 12px; z-index: 20">
+      <div role="dialog" aria-label="Karte" style="width: 100%; max-width: 520px; max-height: calc(100vh - 24px); overflow-y: auto; background: #ffffff; border-radius: 16px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.18)">
+        <h2 style="margin: 0; font-size: 18px; font-weight: 800">{{dTitel}}</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 3px; padding: 3px; background: #efefea; border-radius: 12px">
+          <sc-for list="{{formate}}" as="f" hint-placeholder-count="5">
+            <button type="button" onClick="{{f.waehle}}" style="flex: 1 1 auto; min-height: 38px; padding: 0 10px; border: 0; border-radius: 10px; background: {{f.bg}}; box-shadow: {{f.schatten}}; font-family: inherit; font-size: 12px; font-weight: 800; color: #1f2328; cursor: pointer">{{f.name}}</button>
+          </sc-for>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #6b6f76; font-weight: 800">Modul
+          <div style="display: flex; flex-wrap: wrap; gap: 6px">
+            <sc-for list="{{dModule}}" as="o" hint-placeholder-count="6">
+              <button type="button" onClick="{{o.waehle}}" style="min-height: 32px; padding: 0 12px; border-radius: 999px; border: 1.5px solid {{o.rand}}; background: {{o.bg}}; font-family: inherit; font-size: 13px; font-weight: 800; color: {{o.fg}}; cursor: pointer">{{o.name}}</button>
+            </sc-for>
+          </div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #6b6f76; font-weight: 800">Bereich
+          <div style="display: flex; flex-wrap: wrap; gap: 6px">
+            <sc-for list="{{dBereiche}}" as="o" hint-placeholder-count="3">
+              <button type="button" onClick="{{o.waehle}}" title="{{o.titel}}" style="min-height: 32px; padding: 0 12px; border-radius: 10px; border: 1.5px solid {{o.rand}}; background: {{o.bg}}; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer; text-align: left">{{o.name}}</button>
+            </sc-for>
+          </div>
+        </div>
+        <sc-if value="{{dHatSitzungen}}" hint-placeholder-val="{{true}}">
+          <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #6b6f76; font-weight: 800">Sitzung (optional)
+            <div style="display: flex; flex-wrap: wrap; gap: 6px">
+              <sc-for list="{{dSitzungen}}" as="o" hint-placeholder-count="5">
+                <button type="button" onClick="{{o.waehle}}" title="{{o.titel}}" style="min-height: 30px; padding: 0 10px; border-radius: 8px; border: 1.5px solid {{o.rand}}; background: {{o.bg}}; font-family: inherit; font-size: 12px; font-weight: 700; color: #1f2328; cursor: pointer; opacity: {{o.opazitaet}}">{{o.name}}</button>
+              </sc-for>
+            </div>
+            <span style="font-size: 12px; font-weight: 400">{{dSitzungInfo}}</span>
+          </div>
+        </sc-if>
+        <sc-if value="{{matheSicht}}" hint-placeholder-val="{{false}}">
+          <div style="display: flex; flex-direction: column; gap: 6px; padding: 10px; border-radius: 10px; background: #eef1f6">
+            <span style="font-size: 12px; font-weight: 800; color: #3f5f93">Mathe-Symbole · fügt in „{{feldName}}“ ein</span>
+            <span style="font-size: 11px; color: #3f5f93">In der App kommen die Zeichen aus der Symbolliste der mab-Module und wachsen mit jeder aufbereiteten Sitzung.</span>
+            <div style="display: flex; flex-wrap: wrap; gap: 4px">
+              <sc-for list="{{symbole}}" as="y" hint-placeholder-count="24">
+                <button type="button" onClick="{{y.einfuegen}}" title="{{y.titel}}" style="min-width: 34px; height: 34px; padding: 0 6px; border: 1px solid #d5dcea; border-radius: 8px; background: #ffffff; font-family: 'Cambria Math', 'STIX Two Math', serif; font-size: 16px; color: #1f2328; cursor: pointer">{{y.z}}</button>
+              </sc-for>
+            </div>
+          </div>
+        </sc-if>
+        <label style="display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #6b6f76; font-weight: 800">{{vorneLabel}}<textarea value="{{d.vorne}}" onFocus="{{fokusVorne}}" onChange="{{dSet.vorne}}" rows="3" placeholder="{{vornePlatzhalter}}" style="border: 1px solid #e6e6e0; background: #f7f7f4; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 15px; color: #1f2328; resize: vertical"></textarea></label>
+        <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #6b6f76; font-weight: 800">Bild (optional)
+          <sc-if value="{{dHatBild}}" hint-placeholder-val="{{false}}">
+            <img src="{{dBild}}" alt="Bild der Karte" style="max-width: 100%; max-height: 200px; object-fit: contain; align-self: flex-start; border-radius: 8px; border: 1px solid #e6e6e0">
+          </sc-if>
+          <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center">
+            <label style="display: inline-flex; align-items: center; min-height: 34px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer">Bild auswählen …<input type="file" accept="image/*" onChange="{{dBildSetzen}}" style="display: none"></label>
+            <sc-if value="{{dHatBild}}" hint-placeholder-val="{{false}}"><button type="button" onClick="{{dBildWeg}}" style="min-height: 34px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer; color: #c42b2b">Bild entfernen</button></sc-if>
+            <span style="font-size: 12px; font-weight: 400">z. B. Foto einer Folie, Grafik oder Tabelle – erscheint beim Üben auf der Vorderseite.</span>
+          </div>
+        </div>
+        <sc-if value="{{istFrage}}" hint-placeholder-val="{{true}}">
+          <label style="display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #6b6f76; font-weight: 800">Antwort (Rückseite)<textarea value="{{d.hinten}}" onFocus="{{fokusHinten}}" onChange="{{dSet.hinten}}" rows="3" style="border: 1px solid #e6e6e0; background: #f7f7f4; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 15px; color: #1f2328; resize: vertical"></textarea></label>
+        </sc-if>
+        <sc-if value="{{istMC}}" hint-placeholder-val="{{false}}">
+          <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #6b6f76; font-weight: 800">Antwortmöglichkeiten – Kreis antippen = richtig (auch mehrere)
+            <sc-for list="{{mcFelder}}" as="o" hint-placeholder-count="4">
+              <div style="display: flex; gap: 8px; align-items: center">
+                <button type="button" onClick="{{o.richtigSetzen}}" aria-label="als richtig markieren" style="width: 28px; height: 28px; flex: none; border-radius: 50%; border: 1.5px solid {{o.rand}}; background: {{o.bg}}; color: #ffffff; font-family: inherit; font-weight: 800; cursor: pointer">{{o.haken}}</button>
+                <input type="text" value="{{o.text}}" onChange="{{o.setzen}}" placeholder="{{o.platz}}" style="flex: 1; min-width: 0; border: 1px solid #e6e6e0; background: #f7f7f4; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 15px; color: #1f2328">
+              </div>
+            </sc-for>
+            <sc-if value="{{mcKannPlus}}" hint-placeholder-val="{{true}}"><button type="button" onClick="{{mcPlus}}" style="align-self: flex-start; border: 0; background: none; padding: 2px 0; font-family: inherit; font-size: 13px; font-weight: 700; color: #4b5563; text-decoration: underline; cursor: pointer">+ Antwort (bis zu 6)</button></sc-if>
+            <span style="font-size: 12px; font-weight: 400">Leere Felder werden beim Üben nicht angezeigt.</span>
+          </div>
+        </sc-if>
+        <sc-if value="{{istOffen}}" hint-placeholder-val="{{false}}">
+          <label style="display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #6b6f76; font-weight: 800">Musterlösung / Bewertungspunkte<textarea value="{{d.hinten}}" onFocus="{{fokusHinten}}" onChange="{{dSet.hinten}}" rows="4" style="border: 1px solid #e6e6e0; background: #f7f7f4; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 15px; color: #1f2328; resize: vertical"></textarea></label>
+          <div style="font-size: 12px; color: #6b6f76">Beim Üben schreibst du deine Antwort frei – die KI vergleicht sie mit der Musterlösung und gibt dir Rückmeldung.</div>
+        </sc-if>
+        <sc-if value="{{istLuecke}}" hint-placeholder-val="{{false}}">
+          <div style="font-size: 12px; color: #6b6f76">Lücken in eckige Doppelklammern setzen, z. B.: Die [[Reliabilität]] beschreibt die Zuverlässigkeit einer Messung.</div>
+        </sc-if>
+        <sc-if value="{{istZuord}}" hint-placeholder-val="{{false}}">
+          <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #6b6f76; font-weight: 800">Kategorien
+            <sc-for list="{{zKats}}" as="z" hint-placeholder-count="2">
+              <div style="display: flex; gap: 6px; align-items: center">
+                <span style="width: 22px; height: 22px; flex: none; border-radius: 6px; display: grid; place-items: center; font-size: 12px; font-weight: 800; background: {{z.bg}}; color: {{z.fg}}">{{z.buchstabe}}</span>
+                <input type="text" value="{{z.text}}" onChange="{{z.setzen}}" placeholder="z. B. quantitativer Forschungsansatz" style="flex: 1; min-width: 0; border: 1px solid #e6e6e0; background: #f7f7f4; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 15px; color: #1f2328">
+                <button type="button" onClick="{{z.weg}}" aria-label="entfernen" style="width: 32px; height: 32px; border: 1px solid #e6e6e0; border-radius: 8px; background: #ffffff; font-family: inherit; color: #6b6f76; cursor: pointer">×</button>
+              </div>
+            </sc-for>
+            <button type="button" onClick="{{zKatPlus}}" style="align-self: flex-start; border: 0; background: none; padding: 2px 0; font-family: inherit; font-size: 13px; font-weight: 700; color: #4b5563; text-decoration: underline; cursor: pointer">+ Kategorie</button>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #6b6f76; font-weight: 800">Elemente – jeweils die richtige Kategorie antippen
+            <sc-for list="{{zElemente}}" as="z" hint-placeholder-count="3">
+              <div style="display: flex; flex-direction: column; gap: 4px; padding: 8px; border-radius: 10px; background: #f7f7f4">
+                <div style="display: flex; gap: 6px; align-items: center">
+                  <input type="text" value="{{z.text}}" onChange="{{z.setzen}}" placeholder="Beschreibung …" style="flex: 1; min-width: 0; border: 1px solid #e6e6e0; background: #ffffff; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 15px; color: #1f2328">
+                  <button type="button" onClick="{{z.weg}}" aria-label="entfernen" style="width: 32px; height: 32px; border: 1px solid #e6e6e0; border-radius: 8px; background: #ffffff; font-family: inherit; color: #6b6f76; cursor: pointer">×</button>
+                </div>
+                <div style="display: flex; flex-wrap: wrap; gap: 4px">
+                  <sc-for list="{{z.kats}}" as="q" hint-placeholder-count="2">
+                    <button type="button" onClick="{{q.waehle}}" style="min-height: 28px; padding: 0 10px; border-radius: 999px; border: 1.5px solid {{q.rand}}; background: {{q.bg}}; font-family: inherit; font-size: 12px; font-weight: 700; color: {{q.fg}}; cursor: pointer">{{q.name}}</button>
+                  </sc-for>
+                </div>
+              </div>
+            </sc-for>
+            <button type="button" onClick="{{zElPlus}}" style="align-self: flex-start; border: 0; background: none; padding: 2px 0; font-family: inherit; font-size: 13px; font-weight: 700; color: #4b5563; text-decoration: underline; cursor: pointer">+ Element</button>
+          </div>
+          <div style="font-size: 12px; color: #6b6f76">Beim Üben werden die Elemente gemischt; du tippst ein Element und dann die passende Kategorie an oder ziehst es hinein.</div>
+        </sc-if>
+        <sc-if value="{{dFehler}}" hint-placeholder-val="{{false}}"><div style="font-size: 13px; color: #c42b2b">{{dFehlerText}}</div></sc-if>
+        <div style="display: flex; justify-content: flex-end; gap: 8px; flex-wrap: wrap">
+          <sc-if value="{{dBestehend}}" hint-placeholder-val="{{false}}">
+            <button type="button" onClick="{{dLoeschen}}" style="min-height: 40px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 14px; font-weight: 700; color: #c42b2b; cursor: pointer; margin-right: auto">{{dLoeschText}}</button>
+          </sc-if>
+          <sc-if value="{{dBestehend}}" hint-placeholder-val="{{false}}"><button type="button" onClick="{{dKopie}}" style="min-height: 40px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 14px; font-weight: 700; cursor: pointer">Kopieren</button></sc-if>
+          <button type="button" onClick="{{dZu}}" style="min-height: 40px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 14px; font-weight: 700; cursor: pointer">Abbrechen</button>
+          <button type="button" onClick="{{dOk}}" style="min-height: 40px; padding: 0 14px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 14px; font-weight: 800; cursor: pointer">Speichern</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{vsOffen}}" hint-placeholder-val="{{false}}">
+    <div style="position: fixed; inset: 0; background: rgba(31, 35, 40, 0.35); display: flex; align-items: center; justify-content: center; padding: 12px; z-index: 20">
+      <div role="dialog" aria-label="Verschieben" style="width: 100%; max-width: 520px; max-height: calc(100vh - 24px); overflow-y: auto; background: #ffffff; border-radius: 16px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.18)">
+        <h2 style="margin: 0; font-size: 18px; font-weight: 800">{{vsTitel}}</h2>
+        <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #6b6f76; font-weight: 800">Modul
+          <div style="display: flex; flex-wrap: wrap; gap: 6px"><sc-for list="{{vs.module}}" as="o" hint-placeholder-count="6"><button type="button" onClick="{{o.waehle}}" style="min-height: 32px; padding: 0 12px; border-radius: 999px; border: 1.5px solid {{o.rand}}; background: {{o.bg}}; font-family: inherit; font-size: 13px; font-weight: 800; color: {{o.fg}}; cursor: pointer">{{o.name}}</button></sc-for></div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #6b6f76; font-weight: 800">Bereich
+          <div style="display: flex; flex-wrap: wrap; gap: 6px"><sc-for list="{{vs.bereiche}}" as="o" hint-placeholder-count="3"><button type="button" onClick="{{o.waehle}}" style="min-height: 32px; padding: 0 12px; border-radius: 10px; border: 1.5px solid {{o.rand}}; background: {{o.bg}}; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer; text-align: left">{{o.name}}</button></sc-for></div>
+        </div>
+        <sc-if value="{{vs.hatSitz}}" hint-placeholder-val="{{true}}">
+          <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #6b6f76; font-weight: 800">Sitzung (optional)
+            <div style="display: flex; flex-wrap: wrap; gap: 6px"><sc-for list="{{vs.sitzungen}}" as="o" hint-placeholder-count="5"><button type="button" onClick="{{o.waehle}}" title="{{o.titel}}" style="min-height: 30px; padding: 0 10px; border-radius: 8px; border: 1.5px solid {{o.rand}}; background: {{o.bg}}; font-family: inherit; font-size: 12px; font-weight: 700; color: #1f2328; cursor: pointer; opacity: {{o.opazitaet}}">{{o.name}}</button></sc-for></div>
+          </div>
+        </sc-if>
+        <div style="font-size: 12px; color: #6b6f76">Stand, Statistik und Wiederholungstermine bleiben erhalten.</div>
+        <div style="display: flex; justify-content: flex-end; gap: 8px">
+          <button type="button" onClick="{{vsZu}}" style="min-height: 34px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer">Abbrechen</button>
+          <button type="button" onClick="{{vsOk}}" style="min-height: 34px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer; font-weight: 800">Verschieben</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ioOffen}}" hint-placeholder-val="{{false}}">
+    <div style="position: fixed; inset: 0; background: rgba(31, 35, 40, 0.35); display: flex; align-items: center; justify-content: center; padding: 12px; z-index: 20">
+      <div role="dialog" aria-label="Import und Export" style="width: 100%; max-width: 520px; max-height: calc(100vh - 24px); overflow-y: auto; background: #ffffff; border-radius: 16px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.18)">
+        <h2 style="margin: 0; font-size: 18px; font-weight: 800">Import / Export</h2>
+        <div style="align-self: flex-start; display: flex; gap: 3px; padding: 3px; background: #efefea; border-radius: 999px">
+          <sc-for list="{{ioTabs}}" as="t" hint-placeholder-count="2"><button type="button" onClick="{{t.waehle}}" style="min-height: 34px; padding: 0 14px; border: 0; border-radius: 999px; background: {{t.bg}}; box-shadow: {{t.schatten}}; font-family: inherit; font-size: 13px; font-weight: 800; color: #1f2328; cursor: pointer">{{t.name}}</button></sc-for>
+        </div>
+        <sc-if value="{{ioImport}}" hint-placeholder-val="{{true}}">
+        <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #6b6f76; font-weight: 800">Modul
+          <div style="display: flex; flex-wrap: wrap; gap: 6px"><sc-for list="{{io.module}}" as="o" hint-placeholder-count="6"><button type="button" onClick="{{o.waehle}}" style="min-height: 32px; padding: 0 12px; border-radius: 999px; border: 1.5px solid {{o.rand}}; background: {{o.bg}}; font-family: inherit; font-size: 13px; font-weight: 800; color: {{o.fg}}; cursor: pointer">{{o.name}}</button></sc-for></div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #6b6f76; font-weight: 800">Bereich
+          <div style="display: flex; flex-wrap: wrap; gap: 6px"><sc-for list="{{io.bereiche}}" as="o" hint-placeholder-count="3"><button type="button" onClick="{{o.waehle}}" style="min-height: 32px; padding: 0 12px; border-radius: 10px; border: 1.5px solid {{o.rand}}; background: {{o.bg}}; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer; text-align: left">{{o.name}}</button></sc-for></div>
+        </div>
+        <sc-if value="{{io.hatSitz}}" hint-placeholder-val="{{true}}">
+          <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #6b6f76; font-weight: 800">Sitzung (optional)
+            <div style="display: flex; flex-wrap: wrap; gap: 6px"><sc-for list="{{io.sitzungen}}" as="o" hint-placeholder-count="5"><button type="button" onClick="{{o.waehle}}" title="{{o.titel}}" style="min-height: 30px; padding: 0 10px; border-radius: 8px; border: 1.5px solid {{o.rand}}; background: {{o.bg}}; font-family: inherit; font-size: 12px; font-weight: 700; color: #1f2328; cursor: pointer; opacity: {{o.opazitaet}}">{{o.name}}</button></sc-for></div>
+          </div>
+        </sc-if>
+          <label style="display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #6b6f76; font-weight: 800">Karten einfügen
+            <textarea value="{{ioText}}" onInput="{{ioTextSetzen}}" onChange="{{ioTextSetzen}}" rows="7" placeholder="Eine Karte pro Zeile: Frage ; Antwort&#10;z. B. Was ist Reliabilität? ; Zuverlässigkeit einer Messung&#10;oder Lückentext: Die [[Validität]] beschreibt …" style="border: 1px solid #e6e6e0; background: #f7f7f4; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 14px; color: #1f2328; resize: vertical"></textarea>
+          </label>
+          <div style="font-size: 12px; color: #6b6f76">Aus Excel/Numbers kopierte Tabellen (Spalte 1 Frage, Spalte 2 Antwort) gehen auch. {{ioVorschau}}</div>
+          <div style="font-size: 12px; color: #6b6f76; border: 1px dashed #d8d8d0; border-radius: 10px; padding: 8px 10px">Gedacht für Karten, die du schon woanders hast (z. B. aus einer Tabelle). Aus der alten Lernapp wird nichts übernommen.</div>
+          <div style="display: flex; justify-content: flex-end; gap: 8px">
+            <button type="button" onClick="{{ioZu}}" style="min-height: 34px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer">Abbrechen</button>
+            <sc-if value="{{ioKannImport}}" hint-placeholder-val="{{false}}"><button type="button" onClick="{{ioImportieren}}" style="min-height: 34px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer; font-weight: 800">{{ioImportText}}</button></sc-if>
+          </div>
+        </sc-if>
+        <sc-if value="{{ioExport}}" hint-placeholder-val="{{false}}">
+          <div style="font-size: 13px; color: #4b5563">{{ioExportInfo}}</div>
+          <a href="{{ioCsv}}" download="{{ioDatei}}.csv" style="min-height: 34px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; align-self: flex-start">Als Tabelle herunterladen (CSV, für Excel)</a>
+          <a href="{{ioJson}}" download="{{ioDatei}}.json" style="min-height: 34px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; align-self: flex-start">Komplett-Sicherung herunterladen (JSON)</a>
+          <div style="font-size: 12px; color: #6b6f76">In der App kommt eine Gesamtsicherung (Karten, Noten, Kalender, Lernzeit) unter Einstellungen dazu.</div>
+          <div style="display: flex; justify-content: flex-end"><button type="button" onClick="{{ioZu}}" style="min-height: 34px; padding: 0 12px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 13px; font-weight: 700; color: #1f2328; cursor: pointer">Schließen</button></div>
+        </sc-if>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{uOffen}}" hint-placeholder-val="{{false}}">
+    <div style="position: fixed; inset: 0; background: rgba(31, 35, 40, 0.35); display: flex; align-items: center; justify-content: center; padding: 12px; z-index: 20">
+      <div role="dialog" aria-label="Üben" style="width: 100%; max-width: 560px; max-height: calc(100vh - 24px); overflow-y: auto; background: #ffffff; border-radius: 16px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; gap: 14px; box-shadow: 0 20px 50px rgba(0,0,0,0.18)">
+        <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px">
+          <span style="font-size: 13px; font-weight: 800; color: #6b6f76">{{u.zaehler}}</span>
+          <button type="button" onClick="{{uZu}}" style="border: 0; background: none; font-family: inherit; font-size: 14px; font-weight: 700; color: #6b6f76; cursor: pointer">Beenden</button>
+        </div>
+        <div style="height: 6px; border-radius: 3px; background: #f0f0eb; overflow: hidden"><div style="height: 100%; background: {{u.fg}}; width: {{u.breite}}"></div></div>
+        <sc-if value="{{uLaeuft}}" hint-placeholder-val="{{true}}">
+          <div style="background: {{u.bg}}; border-radius: 14px; padding: 18px; display: flex; flex-direction: column; gap: 8px; min-height: 120px">
+            <span style="font-size: 12px; font-weight: 800; color: {{u.fg}}">{{u.kopf}}</span>
+            <span style="font-size: 18px; font-weight: 800; line-height: 1.35">{{u.vorne}}</span>
+            <sc-if value="{{u.hatBild}}" hint-placeholder-val="{{false}}"><img src="{{u.bild}}" alt="Bild zur Frage" style="max-width: 100%; max-height: 280px; object-fit: contain; align-self: center; border-radius: 10px; background: #ffffff"></sc-if>
+          </div>
+          <sc-if value="{{u.istMC}}" hint-placeholder-val="{{false}}">
+            <div style="display: flex; flex-direction: column; gap: 6px">
+              <span style="font-size: 12px; font-weight: 700; color: #6b6f76">{{u.mcHinweis}}</span>
+              <sc-for list="{{u.optionen}}" as="o" hint-placeholder-count="4">
+                <button type="button" onClick="{{o.waehle}}" style="text-align: left; min-height: 44px; padding: 8px 12px; border-radius: 10px; border: 1.5px solid {{o.rand}}; background: {{o.bg}}; font-family: inherit; font-size: 14px; color: #1f2328; cursor: pointer">{{o.text}}</button>
+              </sc-for>
+            </div>
+          </sc-if>
+          <sc-if value="{{u.istZuord}}" hint-placeholder-val="{{false}}">
+            <div style="display: flex; flex-direction: column; gap: 8px">
+              <sc-if value="{{u.hatFrei}}" hint-placeholder-val="{{true}}">
+                <div style="display: flex; flex-wrap: wrap; gap: 6px; padding: 10px; border: 1.5px dashed #d8d8d0; border-radius: 12px">
+                  <sc-for list="{{u.frei}}" as="e" hint-placeholder-count="4">
+                    <button type="button" draggable="true" onDragStart="{{e.dragStart}}" onClick="{{e.waehle}}" style="cursor: grab; text-align: left; padding: 8px 10px; border-radius: 10px; border: 1.5px solid {{e.rand}}; background: #ffffff; font-family: inherit; font-size: 14px; color: #1f2328; cursor: pointer">{{e.text}}</button>
+                  </sc-for>
+                </div>
+              </sc-if>
+              <div class="zuord-kats" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 8px">
+                <sc-for list="{{u.kats}}" as="k" hint-placeholder-count="2">
+                  <div onClick="{{k.ablegen}}" onDragOver="{{k.dragOver}}" onDrop="{{k.drop}}" style="display: flex; flex-direction: column; gap: 6px; padding: 10px; border-radius: 12px; border: 1.5px solid {{k.rand}}; background: {{k.bg}}; min-height: 90px; cursor: {{k.zeiger}}">
+                    <span style="font-size: 13px; font-weight: 800; color: #1f2328">{{k.name}} <span style="font-weight: 600; color: #6b6f76">{{k.hinweis}}</span></span>
+                    <sc-for list="{{k.elemente}}" as="e" hint-placeholder-count="2">
+                      <button type="button" onClick="{{e.zurueck}}" style="text-align: left; padding: 6px 8px; border-radius: 8px; border: 1.5px solid {{e.rand}}; background: {{e.bg}}; font-family: inherit; font-size: 13px; color: #1f2328; cursor: pointer">{{e.text}}</button>
+                    </sc-for>
+                  </div>
+                </sc-for>
+              </div>
+            </div>
+          </sc-if>
+          <sc-if value="{{u.istLuecke}}" hint-placeholder-val="{{false}}">
+            <div style="display: flex; flex-direction: column; gap: 6px">
+              <sc-for list="{{u.luecken}}" as="l" hint-placeholder-count="2">
+                <label style="display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 800; color: #6b6f76">({{l.nr}})
+                  <input type="text" data-luecke="{{l.idx}}" value="{{l.wert}}" onChange="{{l.setzen}}" onInput="{{l.setzen}}" placeholder="{{l.platz}}" style="flex: 1; min-width: 0; border: 1.5px solid {{l.rand}}; background: {{l.bg}}; border-radius: 8px; padding: 8px; font-family: inherit; font-size: 15px; color: #1f2328">
+                  <sc-if value="{{l.zeigeLoesung}}" hint-placeholder-val="{{false}}"><span style="font-size: 13px; color: #2f7a4b; white-space: nowrap">✓ {{l.loesung}}</span></sc-if>
+                </label>
+              </sc-for>
+            </div>
+          </sc-if>
+          <sc-if value="{{u.istOffen}}" hint-placeholder-val="{{false}}">
+            <textarea value="{{u.eingabe}}" onChange="{{u.setzeEingabe}}" onInput="{{u.setzeEingabe}}" rows="3" placeholder="{{u.eingabePlatz}}" style="border: 1px solid #e6e6e0; background: #f7f7f4; border-radius: 8px; padding: 10px; font-family: inherit; font-size: 15px; color: #1f2328; resize: vertical"></textarea>
+          </sc-if>
+          <sc-if value="{{u.zeigeAufdecken}}" hint-placeholder-val="{{true}}">
+            <button type="button" onClick="{{u.aufdecken}}" style="align-self: center; min-height: 44px; padding: 0 20px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 15px; font-weight: 800; color: #1f2328; cursor: pointer">{{u.aufdeckenText}}</button>
+          </sc-if>
+          <sc-if value="{{u.aufgedeckt}}" hint-placeholder-val="{{false}}">
+            <div style="border: 1px solid #e6e6e0; border-radius: 14px; padding: 14px; display: flex; flex-direction: column; gap: 6px">
+              <sc-if value="{{u.zeigeEigene}}" hint-placeholder-val="{{false}}"><span style="font-size: 12px; font-weight: 800; color: #6b6f76">Deine Antwort</span><span style="font-size: 15px; line-height: 1.45; padding-bottom: 6px; border-bottom: 1px solid #f0f0eb">{{u.eigene}}</span></sc-if>
+              <span style="font-size: 12px; font-weight: 800; color: #6b6f76">{{u.loesungLabel}}</span>
+              <span style="font-size: 15px; line-height: 1.45">{{u.loesung}}</span>
+              <sc-if value="{{u.kiHinweis}}" hint-placeholder-val="{{false}}"><span style="font-size: 12px; color: #6b6f76; border-top: 1px solid #f0f0eb; padding-top: 6px">In der App bewertet hier die KI deine Antwort und zeigt, was gefehlt hat.</span></sc-if>
+            </div>
+            <sc-if value="{{u.zeigeBeide}}" hint-placeholder-val="{{false}}">
+            <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px">
+                <button type="button" onClick="{{u.unsicher}}" style="min-height: 46px; border: 1px solid #e6e6e0; border-radius: 999px; background: #fff3e0; font-family: inherit; font-size: 15px; font-weight: 800; color: #a3580b; cursor: pointer">Noch unsicher</button>
+                <button type="button" onClick="{{u.sicher}}" style="min-height: 46px; border: 1px solid #e6e6e0; border-radius: 999px; background: #e3f2e8; font-family: inherit; font-size: 15px; font-weight: 800; color: #2f7a4b; cursor: pointer">Wusste ich</button>
+              </div>
+            </sc-if>
+            <span style="font-size: 12px; color: #6b6f76; text-align: center">{{u.wdhInfo}}</span>
+            <sc-if value="{{u.zeigeWeiterRichtig}}" hint-placeholder-val="{{false}}">
+              <button type="button" onClick="{{u.weiterRichtig}}" style="min-height: 46px; border: 1px solid #e6e6e0; border-radius: 999px; background: #e3f2e8; font-family: inherit; font-size: 15px; font-weight: 800; color: #2f7a4b; cursor: pointer">Richtig – weiter</button>
+            </sc-if>
+            <sc-if value="{{u.zeigeWeiterFalsch}}" hint-placeholder-val="{{false}}">
+              <button type="button" onClick="{{u.weiterFalsch}}" style="min-height: 46px; border: 1px solid #e6e6e0; border-radius: 999px; background: #fff3e0; font-family: inherit; font-size: 15px; font-weight: 800; color: #a3580b; cursor: pointer">Weiter <span style="font-weight: 600">(kommt wieder)</span></button>
+              <button type="button" onClick="{{u.alsGewusst}}" style="align-self: center; border: 0; background: none; padding: 2px 0; font-family: inherit; font-size: 13px; font-weight: 700; color: #6b6f76; text-decoration: underline; cursor: pointer">War nur ein Tippfehler – als gewusst zählen</button>
+            </sc-if>
+          </sc-if>
+        </sc-if>
+        <sc-if value="{{uFertig}}" hint-placeholder-val="{{false}}">
+          <div style="text-align: center; display: flex; flex-direction: column; gap: 6px; padding: 12px 0">
+            <span style="font-size: 20px; font-weight: 800">Geschafft!</span>
+            <span style="font-size: 14px; color: #6b6f76">{{u.ergebnis}}</span>
+          </div>
+          <button type="button" onClick="{{uZu}}" style="align-self: center; min-height: 44px; padding: 0 20px; border: 1px solid #e6e6e0; border-radius: 999px; background: #ffffff; font-family: inherit; font-size: 15px; font-weight: 800; color: #1f2328; cursor: pointer">Fertig</button>
+        </sc-if>
+      </div>
+    </div>
+  </sc-if>
+
+
+  <nav class="untennav" aria-label="Hauptnavigation" style="display: none; position: fixed; left: 0; right: 0; bottom: 0; height: 76px; background: #ffffff; border-top: 1px solid #e6e6e0; grid-template-columns: repeat(5, minmax(0, 1fr)); padding-bottom: 8px; box-sizing: border-box; z-index: 5">
+    <a href="Handy.dc.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 600; text-decoration: none; color: #6b6f76">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="2"></rect><rect x="14" y="3" width="7" height="5" rx="2"></rect><rect x="14" y="12" width="7" height="9" rx="2"></rect><rect x="3" y="16" width="7" height="5" rx="2"></rect></svg>
+      Dashboard
+    </a>
+    <a href="KalenderHandy.dc.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 600; text-decoration: none; color: #6b6f76">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>
+      Kalender
+    </a>
+    <a href="ModuleHandy.dc.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 600; text-decoration: none; color: #6b6f76">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 5a2 2 0 012-2h13v16H6a2 2 0 00-2 2z"></path><path d="M4 19V5"></path></svg>
+      Module
+    </a>
+    <a href="PruefungenHandy.dc.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 600; text-decoration: none; color: #6b6f76">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z"></path><path d="M14 3v6h6M9 15l2 2 4-4"></path></svg>
+      Prüfungen
+    </a>
+    <a href="KartenHandy.dc.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 800; text-decoration: none; color: #1f2328">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="6" width="14" height="14" rx="2"></rect><path d="M7 3h12a2 2 0 012 2v12"></path></svg>
+      Karten
+    </a>
+  </nav>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1200}}'>
+var WDH = {
+  STUFEN: [1, 3, 7, 14, 30, 60],
+  plus: function (iso, tage) { var d = new Date(iso + 'T12:00:00'); d.setDate(d.getDate() + tage); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); },
+  heute: function () { var d = new Date(); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); },
+  naechste: function (k, erg) { var st = k.stufe || 0, h = WDH.heute();
+    if (erg === 'r') { var s2 = Math.min(st + 1, WDH.STUFEN.length); return { stufe: s2, faellig: WDH.plus(h, WDH.STUFEN[s2 - 1]) }; }
+    if (erg === 't') { var s3 = Math.max(st - 1, 0); return { stufe: s3, faellig: WDH.plus(h, 1) }; }
+    return { stufe: 0, faellig: WDH.plus(h, 1) }; },
+  istFaellig: function (k) { return !k.faellig || k.faellig <= WDH.heute(); },
+  tage: function (a, b) { return Math.round((new Date(b + 'T12:00:00') - new Date(a + 'T12:00:00')) / 864e5); },
+  text: function (k) { if (!k.faellig) return 'neu · heute fällig'; var h = WDH.heute(); if (k.faellig < h) return 'überfällig seit ' + WDH.tage(k.faellig, h) + (WDH.tage(k.faellig, h) === 1 ? ' Tag' : ' Tagen'); if (k.faellig === h) return 'heute fällig';
+    var n = WDH.tage(h, k.faellig); return n === 1 ? 'morgen fällig' : 'fällig in ' + n + ' Tagen'; }
+};
+var LZEIT = {
+  heute: function (off) { var d = new Date(); d.setDate(d.getDate() - (off || 0)); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); },
+  lies: function () {
+    try { var v = window.sessionStorage.getItem('lernapp-lernzeit'); if (v) return JSON.parse(v); } catch (e) {}
+    var d = {}; function s(off, teil, k, l) { var t = LZEIT.heute(off); d[t] = d[t] || {}; d[t][teil] = { karten: k, lesen: l }; }
+    s(1, 'pyb005.1', 900, 1200); s(2, 'ewb001.1', 600, 1500); s(2, 'mab005.1', 0, 1800); s(5, 'ewb002.1', 420, 0); s(9, 'pkb003.1', 0, 1200); s(9, 'mab005.1', 300, 0); s(3, 'mab004.1', 0, 900);
+    LZEIT.schreib(d); return d;
+  },
+  schreib: function (d) { try { window.sessionStorage.setItem('lernapp-lernzeit', JSON.stringify(d)); } catch (e) {} },
+  plus: function (teil, art, sek) { var d = LZEIT.lies(), t = LZEIT.heute(); d[t] = d[t] || {}; d[t][teil] = d[t][teil] || { karten: 0, lesen: 0 }; d[t][teil][art] = (d[t][teil][art] || 0) + sek; LZEIT.schreib(d); },
+  reset: function (prefix) { var d = LZEIT.lies(); Object.keys(d).forEach(function (dat) { Object.keys(d[dat]).forEach(function (t) { if (!prefix || t.indexOf(prefix) === 0) delete d[dat][t]; }); }); LZEIT.schreib(d); },
+  wochenStart: function () { var d = new Date(), w = (d.getDay() + 6) % 7; return LZEIT.heute(w); },
+  summe: function (filt) {
+    var d = LZEIT.lies(), h = LZEIT.heute(), ws = LZEIT.wochenStart(), r = { ges: 0, woche: 0, heute: 0, karten: 0, lesen: 0, teil: {}, modul: {} };
+    Object.keys(d).forEach(function (dat) { Object.keys(d[dat]).forEach(function (teil) { if (filt && teil.indexOf(filt) !== 0) return; var x = d[dat][teil], n = (x.karten || 0) + (x.lesen || 0);
+      r.ges += n; r.karten += x.karten || 0; r.lesen += x.lesen || 0; if (dat >= ws) r.woche += n; if (dat === h) r.heute += n;
+      r.teil[teil] = (r.teil[teil] || 0) + n; var m = teil.slice(0, 6); r.modul[m] = (r.modul[m] || 0) + n; }); });
+    return r;
+  },
+  fmt: function (sek) { var m = Math.round(sek / 60); if (m < 60) return m + ' Min.'; return Math.floor(m / 60) + ' Std.' + (m % 60 ? ' ' + (m % 60) + ' Min.' : ''); },
+  aktiv: function (self) {
+    self._akt = Date.now();
+    try { ['mousemove', 'keydown', 'pointerdown', 'scroll', 'touchstart', 'wheel'].forEach(function (ev) { document.addEventListener(ev, function () { self._akt = Date.now(); }, { passive: true, capture: true }); }); } catch (e) {}
+  },
+  istAktiv: function (self) { var sichtbar = true; try { sichtbar = document.visibilityState !== 'hidden'; } catch (e) {} return sichtbar && Date.now() - (self._akt || 0) < 60000; }
+};
+
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    var K = [
+      ['k1', 'ewb001.1', 'frage', 'Beispielfrage: Was versteht man unter … ?', 'Beispielantwort: …', null, null, 'unsicher'],
+      ['k2', 'ewb001.2', 'mc', 'Beispielfrage mit Auswahl: Welche Aussagen treffen zu? (mehrere richtig)', '', ['Antwort A', 'Antwort B', 'Antwort C', 'Antwort D'], [1, 3], 'neu'],
+      ['k3', 'ewb002.1', 'luecke', 'Beispiel: Die [[Objektivität]] ist eines der drei Gütekriterien.', '', null, null, 'sicher'],
+      ['k4', 'pyb005.1', 'offen', 'Beispielaufgabe: Erläutere in eigenen Worten …', 'Musterlösung: Punkt 1 … Punkt 2 … Punkt 3 …', null, null, 'neu'],
+      ['k5', 'mab005.1', 'frage', 'Beispielfrage: Wie lautet die Definition von … ?', 'Beispielantwort: …', null, null, 'neu'],
+      ['k6', 'pkb003.1', 'frage', 'Beispielfrage: Welche Rolle spielt … im politischen System?', 'Beispielantwort: …', null, null, 'sicher'],
+      ['a1', 'pkb002.1', 'frage', 'Beispielfrage aus dem 2. Semester: …', 'Beispielantwort: …', null, null, 'sicher'],
+      ['a2', 'pkb002.2', 'mc', 'Beispielfrage mit Auswahl (2. Semester)', '', ['Antwort A', 'Antwort B', 'Antwort C'], 0, 'sicher'],
+      ['a3', 'mab002.1', 'offen', 'Beispielaufgabe (2. Semester): Begründe …', 'Musterlösung: …', null, null, 'unsicher']
+    ].map(function (x) { return { id: x[0], teil: x[1], format: x[2], vorne: x[3], hinten: x[4], optionen: x[5] || ['', '', '', ''], richtig: x[6] === null ? [0] : x[6], stand: x[7], kategorien: ['', ''], elemente: [] }; });
+    K.push({ id: 'k7', teil: 'pyb005.1', sitzung: 'pyb005-v_2026-10-21', format: 'zuordnung', vorne: 'Ordnen Sie die Beschreibungen dem entsprechenden Forschungsansatz korrekt zu.', hinten: '', optionen: ['', '', '', ''], richtig: 0, stand: 'neu',
+      kategorien: ['quantitativer Forschungsansatz', 'qualitativer Forschungsansatz'],
+      elemente: [['Umsetzung insb. mittels Experimenten oder standardisierten Fragebögen', 0], ['Umsetzung u. a. mittels leitfadengestützter Interviews, Gruppendiskussionen oder teilnehmender Beobachtung', 1], ['zielt darauf ab, Hypothesen über Ursache-Wirkungszusammenhänge zu überprüfen', 0], ['Datenauswertung ist auf das Beschreiben und Verstehen ausgerichtet', 1], ['Verwendung statistischer Verfahren im Rahmen der Datenauswertung', 0], ['zielt darauf ab, relativ offen formulierte Forschungsfragen zu untersuchen', 1], ['dient bspw. als Grundlage für die Entwicklung von Theorien', 1], ['Ergebnisse sollen von einer Stichprobe auf die Grundgesamtheit übertragen werden', 0]].map(function (e) { return { text: e[0], kat: e[1] }; }) });
+    K.push({ id: 'k8', teil: 'mab005.1', format: 'frage', vorne: 'Beispiel mit Symbolen: Wie lautet P(A ∪ B) für beliebige Ereignisse A, B?', hinten: 'P(A ∪ B) = P(A) + P(B) − P(A ∩ B)', optionen: ['', '', '', ''], richtig: 0, stand: 'neu', kategorien: ['', ''], elemente: [] });
+    K.forEach(function (x) { if (typeof x.richtig === 'number') x.richtig = [x.richtig]; });
+    var DEMO = { k1: [1, 0, 2, '2026-10-22'], k2: [2, 1, 1, '2026-10-23'], k3: [3, 0, 0, '2026-10-23'], k5: [4, 0, 0, '2026-10-21'], k7: [0, 2, 1, '2026-10-23'], a1: [5, 0, 1, '2026-06-30'], a2: [2, 0, 3, '2026-07-02'] };
+    K.forEach(function (x) { var d = DEMO[x.id]; x.stat = d ? { r: d[0], t: d[1], f: d[2], zuletzt: d[3] } : { r: 0, t: 0, f: 0, zuletzt: '' }; if (d) { x.stufe = d[2] ? 0 : Math.min(d[0], 6); x.faellig = WDH.plus(d[3], x.stufe ? WDH.STUFEN[x.stufe - 1] : 1); } });
+    this.state = { tab: 'aktuell', modul: 'alle', karten: K, dialog: null, ueben: null, modus: 'anfaenger' };
+    this._baueSitzungen();
+  }
+  _merke() { try { window.sessionStorage.setItem('lernapp-karten', JSON.stringify(this.state.karten.map(function (k) { return { id: k.id, teil: k.teil, sitzung: k.sitzung || '', stand: k.stand, format: k.format, stat: k.stat || null, faellig: k.faellig || '', vorne: String(k.vorne || '').replace(/\[\[(.+?)\]\]/g, '_____').slice(0, 90) }; }))); } catch (e) {} }
+  componentDidMount() {
+    var self = this; this._merke(); LZEIT.aktiv(self); LZEIT.lies();
+    this._lzUhr = setInterval(function () { var U = self.state.ueben; if (!U || U.i >= U.ids.length || !LZEIT.istAktiv(self)) return; var k = self.state.karten.filter(function (y) { return y.id === U.ids[U.i]; })[0]; if (k) LZEIT.plus(k.teil, 'karten', 5); }, 5000);
+    try { document.addEventListener('keydown', function (ev) { if (self._enter) self._enter(ev); }); } catch (e) {}
+    function pruefe() { try { var lz = window.sessionStorage.getItem('lernapp-lernzeit'); if (lz !== self._lzS) { self._lzS = lz; self.setState({ lzTick: Date.now() }); } } catch (e) {} try { var rs = window.sessionStorage.getItem('lernapp-karten-reset'); if (rs) { window.sessionStorage.removeItem('lernapp-karten-reset'); self._statReset(JSON.parse(rs).modul || ''); } } catch (e) {} try { var v = window.sessionStorage.getItem('lernapp-karten-oeffnen'); if (!v) return; window.sessionStorage.removeItem('lernapp-karten-oeffnen'); var z = JSON.parse(v); if (self._oeffne) self._oeffne(z); } catch (e) {} }
+    pruefe(); this._uhr = setInterval(pruefe, 700);
+  }
+  componentDidUpdate() { this._merke(); }
+  _statReset(mod) { this.setState({ karten: this.state.karten.map(function (k) { return !mod || k.teil.indexOf(mod) === 0 ? Object.assign({}, k, { stat: { r: 0, t: 0, f: 0, zuletzt: '' } }) : k; }), resetArm: null }); }
+  _baueSitzungen() {
+    function pad(n) { return String(n).padStart(2, '0'); }
+    function iso(d) { return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
+    function parse(s) { var p = s.split('-').map(Number); return new Date(p[0], p[1] - 1, p[2]); }
+    function addDays(d, n) { var x = new Date(d); x.setDate(x.getDate() + n); return x; }
+    function dm(s) { var p = s.split('.'); return (p[1] === '01' ? '2027' : '2026') + '-' + p[1] + '-' + p[0]; }
+    var WEEKS = [], d;
+    for (d = parse('2026-10-12'); d <= parse('2026-12-14'); d = addDays(d, 7)) WEEKS.push(iso(d));
+    for (d = parse('2027-01-04'); d <= parse('2027-01-25'); d = addDays(d, 7)) WEEKS.push(iso(d));
+    function weekly(wd) { return WEEKS.map(function (m) { return iso(addDays(parse(m), wd)); }); }
+    var COURSES = [
+      { id: 'mab004-1', modul: 'mab004.1', titel: 'Mathematik in den digitalen Medien I', kurz: 'Digitale Medien I · VL', wd: 1, von: '08:00', bis: '10:00', raum: 'B1' },
+      { id: 'mab004-2', modul: 'mab004.2', titel: 'Mathematik in den digitalen Medien II (Gruppe A)', kurz: 'Digitale Medien II · Gr. A', wd: 1, von: '10:00', bis: '12:00', raum: 'J11' },
+      { id: 'mab005-1', modul: 'mab005.1', titel: 'Wahrscheinlichkeitsrechnung I', kurz: 'Wahrscheinlichkeitsrechnung I · VL', wd: 0, von: '14:00', bis: '16:00', raum: 'B1', themen: { '2026-10-12': 'Kapitel 0 (Organisatorisches) und Einstieg Kapitel 1', '2026-10-19': 'Kapitel 1, Stand danach: bis Folie 32 von 54', '2026-10-26': 'Kapitel 1 ab Folie 33' } },
+      { id: 'mab005-2', modul: 'mab005.2', titel: 'Wahrscheinlichkeitsrechnung II (Gruppe C)', kurz: 'Wahrscheinlichkeitsr. II · Gr. C', wd: 0, von: '18:00', bis: '20:00', raum: 'E033', themen: { '2026-10-12': 'Aufgabenblatt 01', '2026-10-19': 'Aufgabenblatt 02' } },
+      { id: 'pkb003-1', modul: 'pkb003.1', titel: 'Politische Ordnung: Das politische System der Bundesrepublik', kurz: 'Politische Ordnung', wd: 1, von: '12:00', bis: '14:00', raum: 'E137b' },
+      { id: 'pkb003-2', modul: 'pkb003.2', titel: 'Wirtschaft und Soziales: Wirtschaft und Gesellschaft der Bundesrepublik', kurz: 'Wirtschaft und Soziales', wd: 0, von: '12:00', bis: '14:00', raum: 'E137b' },
+      { id: 'pkb003-3', modul: 'pkb003.3', titel: 'Verwaltung: Einführung in die öffentliche Verwaltung', kurz: 'Verwaltung (14-täglich)', von: '14:00', bis: '18:00', raum: 'B1', dates: ['22.10', '12.11', '19.11', '03.12', '17.12', '14.01', '28.01'].map(dm) },
+      { id: 'ewb001-a', modul: 'ewb001.1', titel: 'Einführung in die Erziehungswissenschaften (Gruppe B)', kurz: 'Einführung Erziehungswiss. · Gr. B', wd: 1, von: '18:00', bis: '20:00', raum: 'Q016' },
+      { id: 'ewb001-b', modul: 'ewb001.2', titel: 'Kompetenzorientiertes Lehren und Lernen (Gruppe B)', kurz: 'Kompetenzorient. Lehren · Gr. B', wd: 1, von: '14:00', bis: '16:00', raum: 'Q016' },
+      { id: 'ewb001-t', modul: 'ewb001', titel: 'Tutorium ewb001 (Gruppe 3)', kurz: 'Tutorium ewb001', wd: 4, von: '10:15', bis: '11:45', raum: 'digital' },
+      { id: 'ewb002-v', modul: 'ewb002.1', titel: 'Wissenschaftstheoretische und methodische Grundlagen der empirischen Bildungsforschung (Gruppe A)', kurz: 'Empirische Bildungsforschung · VL', wd: 2, von: '10:00', bis: '12:00', raum: 'F144 (gr. Aula)', raumAus: { '2026-12-02': 'B1' } },
+      { id: 'ewb002-m', modul: 'ewb002.2', titel: 'Methoden der empirischen Bildungsforschung in Anwendung und Praxis (Gruppe M)', kurz: 'Methoden emp. Bildungsf. · Gr. M', wd: 1, von: '14:00', bis: '16:00', raum: 'R005' },
+      { id: 'pyb005-v', modul: 'pyb005.1', titel: 'Grundlagen der Pädagogischen Psychologie für Bildung und Erziehung', kurz: 'Päd. Psychologie · VL', sessions: [
+        ['2026-10-14', '10:00', '12:00', 'Q016', '01 Grundlegende Studieneinführung'],
+        ['2026-10-21', '10:00', '14:00', 'B1', '02 Zentrale psychologische Paradigmen und Grundlagen psychologischer Forschung'],
+        ['2026-10-28', '10:00', '14:00', 'Q016, ab 12 Uhr B1', '03 Grundlagen der Entwicklungspsychologie I+II'],
+        ['2026-11-04', '10:00', '14:00', 'Q016, ab 12 Uhr B1', '04 Grundlagen der Lernpsychologie I+II'],
+        ['2026-11-11', '10:00', '12:00', 'digital', '05 Kognition – Emotion – Motivation – Verhalten'],
+        ['2026-11-25', '10:00', '14:00', 'B1', '06 Grundlagen der Sozialpsychologie I+II'],
+        ['2026-12-02', '10:00', '12:00', 'digital', '07 Neuro- und biopsychologische Grundlagen'],
+        ['2026-12-16', '10:00', '12:00', 'B1', '08 Grundlagen der differentiellen Psychologie'],
+        ['2027-01-06', '10:00', '12:00', 'digital', ''],
+        ['2027-01-27', '10:00', '12:00', 'B1', '09 Abschlussbesprechung']] },
+      { id: 'pyb005-e', modul: 'pyb005', titel: 'Vertiefende eÜbung (Gruppe B)', kurz: 'Päd. Psychologie · eÜbung', wd: 3, von: '12:00', bis: '14:00', raum: 'digital', themen: {
+        '2026-10-15': '01 Grundlegende Studieneinführung', '2026-10-22': '02 Zentrale psychologische Paradigmen und Grundlagen psychologischer Forschung',
+        '2026-10-29': '03 Grundlagen der Entwicklungspsychologie I+II', '2026-11-05': '04 Grundlagen der Lernpsychologie I+II',
+        '2026-11-12': '05 Kognition – Emotion – Motivation – Verhalten', '2026-11-26': '06 Grundlagen der Sozialpsychologie I+II',
+        '2026-12-03': '07 Neuro- und biopsychologische Grundlagen', '2026-12-17': '08 Grundlagen der differentiellen Psychologie', '2027-01-28': '09 Abschlussbesprechung' } },
+      { id: 'pyb005-s', modul: 'pyb005.2', titel: 'Vertiefende Thematiken für Handlungsfelder der Bildung und Erziehung (Gruppe D)', kurz: 'Päd. Psychologie · Seminar Gr. D', wd: 0, von: '16:00', bis: '18:00', raum: 'Q113', themenListe: [
+        '01 Einführung', '02 Zentrale Paradigmen', '03 Ausgewählte Aspekte psychologischer Forschung', '04 Entwicklungspsychologische Aspekte I', '05 Entwicklungspsychologische Aspekte II',
+        '06 Lernpsychologische Aspekte I', '07 Lernpsychologische Aspekte II', '08 Kognition – Emotion – Motivation – Verhalten I', '09 Kognition – Emotion – Motivation – Verhalten II',
+        '10 Sozialpsychologische Aspekte I', '11 Sozialpsychologische Aspekte II', '12 Neuro- und biopsychologische Aspekte', '13 Differentiell-psychologische Aspekte', '14 Abschlussbesprechung'] }
+    ];
+    var SESS = [];
+    COURSES.forEach(function (c) {
+      if (c.sessions) { c.sessions.forEach(function (x) { SESS.push({ c: c, date: x[0], von: x[1], bis: x[2], raum: x[3], thema: x[4] }); }); return; }
+      var ds = c.dates || weekly(c.wd);
+      ds.forEach(function (dd, i) { SESS.push({ c: c, date: dd, von: c.von, bis: c.bis, raum: (c.raumAus && c.raumAus[dd]) || c.raum, thema: (c.themen && c.themen[dd]) || (c.themenListe && c.themenListe[i]) || '' }); });
+    });
+    var EXACT = ['mab005-2', 'pyb005-v', 'ewb001-t'];
+    function shiftT(t, m) { var p = t.split(':').map(Number); var x = p[0] * 60 + p[1] + m; return pad(Math.floor(x / 60)) + ':' + pad(x % 60); }
+    SESS.forEach(function (s) { s.key = s.c.id + '_' + s.date; if (EXACT.indexOf(s.c.id) < 0) { s.von = shiftT(s.von, 15); s.bis = shiftT(s.bis, -15); } });
+    this._SESS = SESS; this._WEEKS = WEEKS;
+  }
+  renderVals() {
+    var self = this, S = this.state, R = {};
+    var C = { mab004: ['#5f80b5', '#eaf1fc'], mab005: ['#4f8f80', '#e6f5f0'], pkb003: ['#b46b80', '#fbebef'], ewb001: ['#6d9156', '#edf5e5'], ewb002: ['#b5845a', '#fcf0e4'], pyb005: ['#8a77b5', '#f1edfa'] };
+    var FACH = { mab: ['#8195b8', '#eef1f6'], pkb: ['#a98592', '#f6eff1'], x: ['#8a9683', '#f0f3ee'] };
+    var AKT = ['mab004', 'mab005', 'pkb003', 'ewb001', 'ewb002', 'pyb005'];
+    var TEILE = [['mab004.1', 'Mathematik in den digitalen Medien I'], ['mab004.2', 'Mathematik in den digitalen Medien II'], ['mab004', 'Tutorium mab004'], ['mab005.1', 'Wahrscheinlichkeitsrechnung I'], ['mab005.2', 'Wahrscheinlichkeitsrechnung II'], ['pkb003.1', 'Politische Ordnung'], ['pkb003.2', 'Wirtschaft und Soziales'], ['pkb003.3', 'Verwaltung'], ['ewb001.1', 'Einführung in die Erziehungswissenschaften'], ['ewb001.2', 'Kompetenzorientiertes Lehren und Lernen'], ['ewb001', 'Tutorium ewb001'], ['ewb002.1', 'Wiss.-theoretische und methodische Grundlagen'], ['ewb002.2', 'Methoden in Anwendung und Praxis'], ['ewb002', 'Tutorium ewb002'], ['pyb005.1', 'Grundlagen der Päd. Psychologie (VL)'], ['pyb005.2', 'Vertiefende Thematiken (Seminar)'], ['pyb005', 'Vertiefende eÜbung']];
+    var FORM = { frage: 'Frage → Antwort', mc: 'Multiple Choice', offen: 'Offene Aufgabe (KI)', luecke: 'Lückentext', zuordnung: 'Zuordnung' };
+    var FKURZ = { frage: 'Frage', mc: 'Multiple Choice', offen: 'Offen · KI', luecke: 'Lückentext', zuordnung: 'Zuordnung' };
+    var STAND = { neu: ['neu', '#f0f0eb', '#6b6f76'], unsicher: ['unsicher', '#fff3e0', '#a3580b'], sicher: ['sicher', '#e3f2e8', '#2f7a4b'] };
+    function mk(teil) { return teil.slice(0, 6); }
+    var SEL = S.sel || {}, AM = !!S.auswahlModus;
+    var SESS = this._SESS, WTK = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
+    function fmtS(iso) { var d = new Date(iso + 'T12:00:00'); return WTK[d.getDay()] + ' ' + String(d.getDate()).padStart(2, '0') + '.' + String(d.getMonth() + 1).padStart(2, '0') + '.'; }
+    function sitzVon(teil) { return SESS.filter(function (s) { return s.c.modul === teil; }).sort(function (a, b) { return (a.date + a.von).localeCompare(b.date + b.von); }); }
+    function sitzLabel(key) { var s = SESS.filter(function (x) { return x.key === key; })[0]; if (!s) return ''; var arr = sitzVon(s.c.modul).filter(function (x) { return x.c.id === s.c.id; }); return 'Sitzung ' + (arr.indexOf(s) + 1) + ' · ' + fmtS(s.date); }
+    function farbe(teil) { var m = mk(teil); return C[m] || FACH[m.slice(0, 3)] || FACH.x; }
+    function istAkt(k) { return AKT.indexOf(mk(k.teil)) >= 0; }
+    function lueckeVerdeckt(t) { return t.replace(/\[\[(.+?)\]\]/g, '_____'); }
+    function lueckeOffen(t) { return t.replace(/\[\[(.+?)\]\]/g, '$1'); }
+
+    var imTab = S.karten.filter(function (k) { return S.tab === 'archiv' ? !istAkt(k) : istAkt(k); });
+    var mods = []; imTab.forEach(function (k) { if (mods.indexOf(mk(k.teil)) < 0) mods.push(mk(k.teil)); });
+    if (S.tab !== 'archiv') mods = AKT.slice();
+    var auswahl = S.modul === 'alle' || mods.indexOf(S.modul) < 0 ? 'alle' : S.modul;
+    var imModul = imTab.filter(function (k) { return auswahl === 'alle' || mk(k.teil) === auswahl; });
+    var SF = auswahl === 'alle' ? [] : (S.sitzFilter || []).filter(function (x) { return imModul.some(function (k) { return (k.sitzung || '') === x; }); });
+    var liste = SF.length ? imModul.filter(function (k) { return SF.indexOf(k.sitzung || '') >= 0; }) : imModul;
+    var sKeys = {}; imModul.forEach(function (k) { sKeys[k.sitzung || ''] = (sKeys[k.sitzung || ''] || 0) + 1; });
+    R.hatSitzFilter = false;
+    function sfSetz(v) { self.setState({ sitzFilter: v }); }
+    R.sitzChips = [{ name: 'Alle Sitzungen', zahl: String(imModul.length), bg: '#ffffff', rand: !SF.length ? '#1f2328' : '#e6e6e0', titel: '', waehle: function () { sfSetz([]); } }].concat(
+      Object.keys(sKeys).filter(function (x) { return x; }).sort(function (a, b) { var sa = SESS.filter(function (s) { return s.key === a; })[0], sb = SESS.filter(function (s) { return s.key === b; })[0]; return ((sa ? sa.c.modul + sa.date : a)).localeCompare(sb ? sb.c.modul + sb.date : b); }).map(function (x) {
+        var s = SESS.filter(function (y) { return y.key === x; })[0], a = SF.indexOf(x) >= 0;
+        return { name: (s ? s.c.modul + ' · ' : '') + sitzLabel(x).replace('Sitzung ', 'S'), zahl: String(sKeys[x]), titel: s && s.thema ? s.thema : '', bg: a ? farbe(s ? s.c.modul : auswahl)[1] : '#ffffff', rand: a ? farbe(s ? s.c.modul : auswahl)[0] : '#e6e6e0',
+          waehle: function () { var v = SF.slice(), p = v.indexOf(x); if (p >= 0) v.splice(p, 1); else v.push(x); sfSetz(v); } };
+      })).concat(sKeys[''] ? [{ name: 'ohne Sitzung', zahl: String(sKeys['']), titel: '', bg: SF.indexOf('') >= 0 ? '#efefea' : '#ffffff', rand: SF.indexOf('') >= 0 ? '#1f2328' : '#e6e6e0', waehle: function () { var v = SF.slice(), p = v.indexOf(''); if (p >= 0) v.splice(p, 1); else v.push(''); sfSetz(v); } }] : []);
+    R.sitzInfo = SF.length ? 'Geübt werden nur die Karten der gewählten Sitzungen (' + liste.length + ').' : 'Sitzungen antippen, um nur deren Karten zu üben (mehrere möglich).';
+
+    R.kopfInfo = S.karten.length + ' Karten · ' + S.karten.filter(function (k) { return istAkt(k) && WDH.istFaellig(k); }).length + ' heute fällig';
+    R.tabs = [['aktuell', 'Aktuelles Semester'], ['statistik', 'Statistik'], ['archiv', 'Archiv']].map(function (x) { var a = S.tab === x[0]; return { name: x[1], bg: a ? '#ffffff' : 'transparent', schatten: a ? '0 1px 2px rgba(0,0,0,0.08)' : 'none', waehle: function () { self.setState({ tab: x[0], modul: 'alle', resetArm: null }); } }; });
+    R.modulChips = [{ k: 'alle', name: 'Alle', zahl: String(imTab.length), fg: '#1f2328', rand: auswahl === 'alle' ? '#1f2328' : '#e6e6e0', bg: '#ffffff', waehle: function () { self.setState({ modul: 'alle', sitzFilter: [] }); } }].concat(mods.map(function (m) {
+      var f = C[m] || FACH[m.slice(0, 3)] || FACH.x, a = auswahl === m;
+      return { name: m, zahl: String(imTab.filter(function (k) { return mk(k.teil) === m; }).length), fg: f[0], bg: a ? f[1] : '#ffffff', rand: a ? f[0] : '#e6e6e0', waehle: function () { self.setState({ modul: m, sitzFilter: [] }); } };
+    }));
+    function starten(arr) { if (!arr.length) return; self.setState({ ueben: { ids: arr.map(function (k) { return k.id; }), i: 0, auf: false, wahl: null, eingabe: '', sicher: 0, unsicher: 0, zu: {}, sel: null, luecken: {}, profi: self.state.modus === 'profi' } }); }
+    R.modi = [['anfaenger', 'Anfänger'], ['profi', 'Profi']].map(function (m) { var a = (S.modus || 'anfaenger') === m[0]; return { name: m[1], bg: a ? '#ffffff' : 'transparent', schatten: a ? '0 1px 2px rgba(0,0,0,0.08)' : 'none', waehle: function () { self.setState({ modus: m[0] }); } }; });
+    R.modusInfo = S.modus === 'profi' ? 'Wie in der Prüfung: keine Hinweise, bei Multiple Choice immer selbst „Prüfen“.' : 'Mit Hilfen: Hinweis, wie viele Antworten richtig sind, und Anfangsbuchstabe bei Lücken.';
+    var faellig = liste.filter(function (k) { return WDH.istFaellig(k); }).sort(function (a, b) { var h = WDH.heute(); return (a.faellig || h).localeCompare(b.faellig || h); }), unsicher = liste.filter(function (k) { return k.stand === 'unsicher'; });
+    var spaeter = liste.filter(function (k) { return !WDH.istFaellig(k); }).sort(function (a, b) { return a.faellig.localeCompare(b.faellig); }), naechsteF = spaeter.length ? WDH.text(spaeter[0]).replace(' fällig', '').replace('fällig ', '') : '';
+    R.uebKacheln = [
+      { titel: 'Fällige üben', text: faellig.length ? faellig.length + (faellig.length === 1 ? ' Karte' : ' Karten') + ' heute fällig – überfällige zuerst' : 'Heute nichts fällig' + (naechsteF ? ' · nächste ' + naechsteF : ''), knopf: 'Starten', opazitaet: faellig.length ? '1' : '0.45', start: function () { starten(faellig); } },
+      { titel: 'Nur unsichere', text: unsicher.length + ' Karten, die du noch nicht sicher weißt', knopf: 'Starten', opazitaet: unsicher.length ? '1' : '0.45', start: function () { starten(unsicher); } },
+      { titel: 'Alle durchgehen', text: liste.length + (liste.length === 1 ? ' Karte' : ' Karten') + ' in gemischter Reihenfolge', knopf: 'Starten', opazitaet: liste.length ? '1' : '0.45', start: function () { starten(liste.slice().sort(function () { return Math.random() - 0.5; })); } }
+    ];
+    R.listeTitel = auswahl === 'alle' ? (S.tab === 'aktuell' ? 'Alle Karten · WiSe 26/27' : 'Archiv · frühere Semester') : 'Karten · ' + auswahl + (SF.length ? ' · ' + SF.length + (SF.length === 1 ? ' Sitzung' : ' Sitzungen') : '');
+    R.listeInfo = liste.length + (liste.length === 1 ? ' Karte' : ' Karten');
+    R.leer = liste.length === 0;
+    var MODNAME = { mab004: 'Mathematik in den digitalen Medien', mab005: 'Wahrscheinlichkeitsrechnung', pkb003: 'Systemanalyse', ewb001: 'Grundlagen und Grundbegriffe der Erziehungswissenschaften', ewb002: 'Methoden der empirischen Bildungsforschung', pyb005: 'Grundlagen der Pädagogischen Psychologie für Bildung und Erziehung' };
+    var GO = S.grpOffen || {};
+    function grpSetz(id) { var o = Object.assign({}, S.grpOffen || {}); o[id] = !istOffen(id); self.setState({ grpOffen: o }); }
+    function istOffen(id) { return GO[id] !== undefined ? GO[id] : false; }
+    function grpVals(id, titel, sub, ks, fg, hatHaken) {
+      var si = ks.filter(function (k) { return k.stand === 'sicher'; }).length, p = ks.length ? Math.round(si / ks.length * 100) : 0, an = SF.indexOf(id) >= 0;
+      return { titel: titel, sub: sub, zahl: ks.length + (ks.length === 1 ? ' Karte' : ' Karten') + ' · ' + si + ' sicher', breite: p + '%', fg: fg, offen: istOffen(id), pfeil: istOffen(id) ? '▾' : '▸', umschalten: function () { grpSetz(id); },
+        hatHaken: hatHaken, haken: an ? '✓' : '', hakenBg: an ? fg : '#ffffff', hakenRand: an ? fg : '#c9ccd1',
+        hakenUm: function (ev) { try { ev.stopPropagation(); } catch (x) {} var v = SF.slice(), q = v.indexOf(id); if (q >= 0) v.splice(q, 1); else v.push(id); self.setState({ sitzFilter: v }); },
+        ueben: function (ev) { try { ev.stopPropagation(); } catch (x) {} starten(ks.slice().sort(function (a, b) { return (a.stand === 'unsicher' ? 0 : a.stand === 'neu' ? 1 : 2) - (b.stand === 'unsicher' ? 0 : b.stand === 'neu' ? 1 : 2); })); },
+        karten: ks.map(KV) };
+    }
+    if (auswahl === 'alle') {
+      R.gruppen = mods.map(function (mo) { var ks = imModul.filter(function (k) { return mk(k.teil) === mo; }); return ks.length ? grpVals('m:' + mo, mo, (MODNAME[mo] || ''), ks, (C[mo] || FACH[mo.slice(0, 3)] || FACH.x)[0], false) : null; }).filter(Boolean);
+    } else {
+      var gk = Object.keys(sKeys).filter(function (x) { return x; }).map(function (x) { return { x: x, s: SESS.filter(function (y) { return y.key === x; })[0] }; })
+        .sort(function (a, b) { var ka = a.s ? (a.s.c.modul.indexOf('.') > 0 ? '0' : '1') + a.s.c.modul + a.s.date : '2'; var kb = b.s ? (b.s.c.modul.indexOf('.') > 0 ? '0' : '1') + b.s.c.modul + b.s.date : '2'; return ka.localeCompare(kb); });
+      R.gruppen = gk.map(function (g) { var ks = imModul.filter(function (k) { return k.sitzung === g.x; }); return grpVals(g.x, (g.s ? g.s.c.modul + ' · ' : '') + sitzLabel(g.x).replace('Sitzung ', 'S'), g.s ? (g.s.thema || 'Thema folgt') + (g.s.c.modul.indexOf('.') < 0 ? ' · ' + g.s.c.kurz : '') : '', ks, farbe(g.s ? g.s.c.modul : auswahl)[0], true); });
+      if (sKeys['']) R.gruppen.push(grpVals('', 'ohne Sitzung', 'Karten, die keiner Sitzung zugeordnet sind', imModul.filter(function (k) { return !k.sitzung; }), '#6b6f76', true));
+    }
+    R.auswahlInfo = auswahl !== 'alle' ? (SF.length ? 'Übungen gelten für ' + SF.length + (SF.length === 1 ? ' abgehakte Sitzung' : ' abgehakte Sitzungen') + ' (' + liste.length + (liste.length === 1 ? ' Karte' : ' Karten') + '). ' : 'Sitzungen abhaken, um nur deren Karten zu üben – oder direkt „Üben“ an einer Sitzung.') : '';
+    R.hatAuswahl = SF.length > 0; R.hatKeineAuswahl = auswahl !== 'alle' && !SF.length && R.gruppen.length > 0; R.auswahlWeg = function () { self.setState({ sitzFilter: [] }); };
+
+    // Statistik
+    var TN = {}; (function () { var TT = [['mab004.1', 'Mathematik in den digitalen Medien I'], ['mab004.2', 'Mathematik in den digitalen Medien II'], ['mab004', 'Tutorium mab004'], ['mab005.1', 'Wahrscheinlichkeitsrechnung I'], ['mab005.2', 'Wahrscheinlichkeitsrechnung II'], ['pkb003.1', 'Politische Ordnung'], ['pkb003.2', 'Wirtschaft und Soziales'], ['pkb003.3', 'Verwaltung'], ['ewb001.1', 'Einführung in die Erziehungswissenschaften'], ['ewb001.2', 'Kompetenzorientiertes Lehren und Lernen'], ['ewb001', 'Tutorium ewb001'], ['ewb002.1', 'Wiss.-theoretische und methodische Grundlagen'], ['ewb002.2', 'Methoden in Anwendung und Praxis'], ['ewb002', 'Tutorium ewb002'], ['pyb005.1', 'Grundlagen der Päd. Psychologie (VL)'], ['pyb005.2', 'Vertiefende Thematiken (Seminar)'], ['pyb005', 'Vertiefende eÜbung']]; TT.forEach(function (x) { TN[x[0]] = x[1]; }); })();
+    var lz = LZEIT.summe(auswahl === 'alle' ? '' : auswahl), lzMax = 1;
+    var lzEint = (auswahl === 'alle' ? mods.map(function (mo) { return [mo, lz.modul[mo] || 0, mo]; }) : Object.keys(lz.teil).sort().map(function (t) { return [t, lz.teil[t], TN[t] ? t + ' · ' + TN[t] : t]; }));
+    lzEint.forEach(function (x) { if (x[1] > lzMax) lzMax = x[1]; });
+    R.lz = { ges: LZEIT.fmt(lz.ges), woche: LZEIT.fmt(lz.woche), heute: LZEIT.fmt(lz.heute), split: 'davon Karten üben ' + LZEIT.fmt(lz.karten) + ' · Lerntexte lesen ' + LZEIT.fmt(lz.lesen), teilTitel: auswahl === 'alle' ? 'Lernzeit nach Modul' : 'Lernzeit nach Bereich',
+      zeilen: lzEint.map(function (x) { return { name: x[2], fg: farbe(x[0].indexOf('.') > 0 ? x[0] : x[0] + '.1')[0], zeit: x[1] ? LZEIT.fmt(x[1]) : '–', breite: Math.round(x[1] / lzMax * 100) + '%' }; }) };
+    R.tabStat = S.tab === 'statistik'; R.tabKarten = !R.tabStat;
+    var ST = imModul, sum = { r: 0, t: 0, f: 0 }; ST.forEach(function (k) { var s = k.stat || {}; sum.r += s.r || 0; sum.t += s.t || 0; sum.f += s.f || 0; });
+    var ges = sum.r + sum.t + sum.f, nie = ST.filter(function (k) { var s = k.stat || {}; return !(s.r || s.t || s.f); });
+    function pz(n) { return ges ? Math.round(n / ges * 100) : 0; }
+    R.stat = { titel: auswahl === 'alle' ? 'Statistik · alle Module (WiSe 26/27)' : 'Statistik · ' + auswahl, ges: String(ges), quote: pz(sum.r) + ' %', teil: String(sum.t), nie: String(nie.length), nieText: nie.length === 1 ? 'Karte noch nie geübt' : 'Karten noch nie geübt',
+      rB: pz(sum.r) + '%', tB: pz(sum.t) + '%', fB: pz(sum.f) + '%', legende: '✓ richtig ' + sum.r + ' · ◐ teilweise ' + sum.t + ' · ✗ falsch ' + sum.f, hatNie: nie.length > 0, nieUeben: function () { starten(nie); } };
+    function fq(k) { var s = k.stat || {}, n = (s.r || 0) + (s.t || 0) + (s.f || 0); return n ? ((s.f || 0) + (s.t || 0) * 0.5) / n : -1; }
+    function zeile(k) { var s = k.stat || {}, n = (s.r || 0) + (s.t || 0) + (s.f || 0), f = farbe(k.teil), q = n ? Math.round((s.r || 0) / n * 100) : 0;
+      var zl = s.zuletzt ? fmtS(s.zuletzt) : 'noch nie';
+      return { teil: k.teil, fg: f[0], vorne: (k.format === 'luecke' ? lueckeVerdeckt(k.vorne) : k.vorne), r: String(s.r || 0), t: String(s.t || 0), f: String(s.f || 0), quote: n ? q + ' %' : '–', zuletzt: 'zuletzt: ' + zl, mal: n + '× geübt',
+        rB: n ? Math.round((s.r || 0) / n * 100) + '%' : '0%', tB: n ? Math.round((s.t || 0) / n * 100) + '%' : '0%', fB: n ? Math.round((s.f || 0) / n * 100) + '%' : '0%', bearbeiten: KV(k).bearbeiten }; }
+    var schwer = ST.filter(function (k) { return fq(k) > 0; }).sort(function (a, b) { return fq(b) - fq(a); });
+    R.stat.hatSchwer = schwer.length > 0; R.stat.schwer = schwer.slice(0, 5).map(zeile); R.stat.schwerUeben = function (ev) { try { ev.stopPropagation(); } catch (e) {} starten(schwer.slice(0, 10)); };
+    var sSort = S.statSort || 'schwach', sFil = S.statFil || 'alle', sSu = (S.statSuche || '').trim().toLowerCase(), sZahl = S.statZahl || 20;
+    function quoteV(k) { var s = k.stat || {}, n = (s.r || 0) + (s.t || 0) + (s.f || 0); return n ? (s.r || 0) / n : -1; }
+    var gef = ST.filter(function (k) { var q = quoteV(k); if (sFil === 'schwach' && !(q >= 0 && q < 0.6)) return false; if (sFil === 'nie' && q >= 0) return false; if (sFil === 'unsicher' && k.stand !== 'unsicher') return false;
+      if (sSu && (k.vorne + ' ' + (k.hinten || '') + ' ' + k.teil).toLowerCase().indexOf(sSu) < 0) return false; return true; });
+    gef.sort(function (a, b) { if (sSort === 'zuletzt') return ((b.stat || {}).zuletzt || '').localeCompare((a.stat || {}).zuletzt || ''); if (sSort === 'oft') { var na = (a.stat || {}), nb = (b.stat || {}); return ((nb.r || 0) + (nb.t || 0) + (nb.f || 0)) - ((na.r || 0) + (na.t || 0) + (na.f || 0)); } if (sSort === 'modul') return a.teil.localeCompare(b.teil); return fq(b) - fq(a); });
+    R.stat.alle = gef.slice(0, sZahl).map(zeile);
+    R.stat.mehr = gef.length > sZahl; R.stat.mehrText = 'Weitere ' + Math.min(20, gef.length - sZahl) + ' anzeigen (' + (gef.length - sZahl) + ' übrig)'; R.stat.mehrZeigen = function () { self.setState({ statZahl: sZahl + 20 }); };
+    R.stat.trefferInfo = gef.length === ST.length ? '' : gef.length + ' von ' + ST.length + ' Karten'; R.stat.hatTreffer = gef.length !== ST.length; R.stat.keineTreffer = gef.length === 0;
+    R.stat.suche = S.statSuche || ''; R.stat.sucheSetzen = function (ev) { self.setState({ statSuche: ev.target.value, statZahl: 20 }); };
+    R.stat.filter = [['alle', 'Alle'], ['schwach', 'Unter 60 %'], ['unsicher', 'Unsicher'], ['nie', 'Nie geübt']].map(function (x) { var a = sFil === x[0]; return { name: x[1], bg: a ? '#ffffff' : 'transparent', schatten: a ? '0 1px 2px rgba(0,0,0,0.08)' : 'none', waehle: function () { self.setState({ statFil: x[0], statZahl: 20 }); } }; });
+    R.stat.sortierung = [['schwach', 'Schwächste zuerst'], ['zuletzt', 'Zuletzt geübt'], ['oft', 'Am meisten geübt'], ['modul', 'Nach Teilmodul']].map(function (x) { return { wert: x[0], name: x[1], gewaehlt: sSort === x[0] }; });
+    R.stat.sortSetzen = function (ev) { self.setState({ statSort: ev.target.value }); }; R.stat.sortWert = sSort;
+    R.stat.gefUeben = function () { starten(gef); }; R.stat.gefUebenText = gef.length + (gef.length === 1 ? ' Karte üben' : ' Karten üben');
+    R.stat.hatModule = auswahl === 'alle';
+    var SO = S.statOffen || {};
+    R.SO = {}; ['modul', 'schwer', 'alle'].forEach(function (x) { R.SO[x] = !!SO[x]; R.SO[x + 'Pfeil'] = SO[x] ? '▾' : '▸'; R.SO[x + 'Um'] = function () { var o = Object.assign({}, self.state.statOffen || {}); o[x] = !o[x]; self.setState({ statOffen: o }); }; });
+    R.stat.schwerInfo = schwer.length + (schwer.length === 1 ? ' Karte' : ' Karten'); R.stat.alleInfo = ST.length + (ST.length === 1 ? ' Karte' : ' Karten');
+    var arm = S.resetArm, wo = auswahl === 'alle' ? 'aller Module' : 'von ' + auswahl, pre = auswahl === 'alle' ? '' : auswahl;
+    R.RS = { kartenText: arm === 'karten' ? 'Wirklich zurücksetzen?' : 'Karten-Ergebnisse zurücksetzen', kartenFarbe: arm === 'karten' ? '#c42b2b' : '#1f2328',
+      zeitText: arm === 'zeit' ? 'Wirklich zurücksetzen?' : 'Lernzeit zurücksetzen', zeitFarbe: arm === 'zeit' ? '#c42b2b' : '#1f2328',
+      info: arm ? 'Betrifft ' + (arm === 'karten' ? 'die Ergebnisse (✓ ◐ ✗)' : 'die Lernzeit') + ' ' + wo + '. Zum Bestätigen noch einmal tippen.' : 'Der Stand deiner Karten (neu/unsicher/sicher) bleibt erhalten.',
+      karten: function () { if (S.resetArm !== 'karten') { self.setState({ resetArm: 'karten' }); return; } self._statReset(pre); },
+      zeit: function () { if (S.resetArm !== 'zeit') { self.setState({ resetArm: 'zeit' }); return; } LZEIT.reset(pre); self.setState({ resetArm: null, lzTick: Date.now() }); } };
+    R.stat.module = mods.map(function (mo) { var ks = ST.filter(function (k) { return mk(k.teil) === mo; }), x = { r: 0, t: 0, f: 0 }; ks.forEach(function (k) { var s = k.stat || {}; x.r += s.r || 0; x.t += s.t || 0; x.f += s.f || 0; }); var n = x.r + x.t + x.f, f = C[mo] || FACH[mo.slice(0, 3)] || FACH.x;
+      return { name: mo, fg: f[0], info: n ? Math.round(x.r / n * 100) + ' % richtig · ' + n + ' Antworten' : (ks.length ? 'noch nicht geübt' : 'keine Karten'), rB: n ? Math.round(x.r / n * 100) + '%' : '0%', tB: n ? Math.round(x.t / n * 100) + '%' : '0%', fB: n ? Math.round(x.f / n * 100) + '%' : '0%', waehle: function () { self.setState({ modul: mo }); } }; });
+    R.leerText = S.tab === 'aktuell' ? 'Noch keine Karten für dieses Modul. Tippe auf „+ Karte“, um die erste anzulegen.' : 'Im Archiv liegen noch keine Karten.';
+    function KV(k) {
+      var f = farbe(k.teil), st = STAND[k.stand];
+      return { teil: k.teil, fg: f[0], format: FKURZ[k.format], vorne: k.format === 'luecke' ? lueckeVerdeckt(k.vorne) : k.vorne, stand: st[0], standBg: st[1], standFg: st[2],
+        info: WDH.text(k) + ' · ' + (k.bild ? '🖼 ' : '') + (k.sitzung ? sitzLabel(k.sitzung) + ' · ' : '') + (k.format === 'mc' ? k.optionen.filter(Boolean).length + ' Antwortmöglichkeiten' + (k.richtig.length > 1 ? ', ' + k.richtig.length + ' richtig' : '') : (k.format === 'offen' ? 'mit Musterlösung · KI-Rückmeldung' : (k.format === 'luecke' ? (k.vorne.match(/\[\[/g) || []).length + ' Lücke(n)' : (k.format === 'zuordnung' ? k.elemente.length + ' Elemente · ' + k.kategorien.filter(Boolean).length + ' Kategorien' : 'Tippen zum Bearbeiten')))),
+        waehlbar: AM, haken: SEL[k.id] ? '✓' : '', hakenBg: SEL[k.id] ? farbe(k.teil)[0] : '#ffffff', hakenRand: SEL[k.id] ? farbe(k.teil)[0] : '#c9ccd1', rand: SEL[k.id] ? farbe(k.teil)[0] : '#e6e6e0',
+        bearbeiten: function () { if (self.state.auswahlModus) { var s2 = Object.assign({}, self.state.sel || {}); if (s2[k.id]) delete s2[k.id]; else s2[k.id] = true; self.setState({ sel: s2, selArm: false }); return; } self.setState({ dialog: Object.assign({}, k, { bild: k.bild || '', optionen: k.optionen.slice(), richtig: k.richtig.slice(), kategorien: (k.kategorien || ['', '']).slice(), elemente: (k.elemente || []).map(function (e) { return Object.assign({}, e); }), _armed: false, _fehler: '', _feld: 'vorne' }) }); } };
+    }
+    R.karten = liste.map(KV);
+    // Verwalten
+    function heuteIsoV() { var d = new Date(); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
+    function neueId() { return 'k' + Date.now().toString(36) + Math.floor(Math.random() * 1e4).toString(36); }
+    var selIds = Object.keys(SEL).filter(function (id) { return S.karten.some(function (k) { return k.id === id; }); });
+    R.auswahlKnopf = AM ? 'Fertig' : 'Auswählen';
+    R.auswahlUm = function () { self.setState({ auswahlModus: !self.state.auswahlModus, sel: {}, selArm: false }); };
+    R.amAktiv = AM; R.amHatSel = AM && selIds.length > 0;
+    R.amInfo = AM ? (selIds.length ? selIds.length + (selIds.length === 1 ? ' Karte ausgewählt' : ' Karten ausgewählt') : 'Karten antippen, um sie auszuwählen') : '';
+    R.amAlle = function () { var s2 = {}; liste.forEach(function (k) { s2[k.id] = true; }); self.setState({ sel: s2 }); };
+    R.amAlleText = 'Alle ' + liste.length + ' auswählen';
+    R.amKeine = function () { self.setState({ sel: {}, selArm: false }); };
+    R.amUeben = function () { starten(S.karten.filter(function (k) { return SEL[k.id]; })); };
+    R.amKopieren = function () { var neu = S.karten.filter(function (k) { return SEL[k.id]; }).map(function (k) { return Object.assign({}, k, { id: neueId(), stand: 'neu', stat: { r: 0, t: 0, f: 0, zuletzt: '' }, stufe: 0, faellig: '', vorne: k.vorne }); }); self.setState({ karten: S.karten.concat(neu), sel: {} }); };
+    R.amLoeschText = S.selArm ? 'Wirklich löschen?' : 'Löschen';
+    R.amLoeschen = function () { if (!self.state.selArm) { self.setState({ selArm: true }); return; } self.setState({ karten: S.karten.filter(function (k) { return !SEL[k.id]; }), sel: {}, selArm: false }); };
+    R.amVerschieben = function () { var erste = S.karten.filter(function (k) { return SEL[k.id]; })[0]; self.setState({ vs: { teil: erste ? erste.teil : 'ewb001.1', sitzung: '' } }); };
+    function zielChips(z, setz) {
+      var zm = mk(z.teil), ms = AKT.slice(); if (ms.indexOf(zm) < 0) ms.unshift(zm);
+      var ber2 = TEILE.filter(function (x) { return x[0].indexOf(zm) === 0; }); if (!ber2.length) ber2 = [[z.teil, 'Archiv']];
+      ber2.sort(function (a, b) { var ta = /Tutorium|eÜbung/.test(a[1]) ? 1 : 0, tb = /Tutorium|eÜbung/.test(b[1]) ? 1 : 0; return (ta - tb) || a[0].localeCompare(b[0]); });
+      var sz2 = sitzVon(z.teil);
+      return {
+        module: ms.map(function (mo) { var f = C[mo] || FACH[mo.slice(0, 3)] || FACH.x, a = mo === zm; return { name: mo, fg: f[0], bg: a ? f[1] : '#ffffff', rand: a ? f[0] : '#e6e6e0', waehle: function () { var er = TEILE.filter(function (x) { return x[0].indexOf(mo) === 0; })[0]; setz({ teil: er ? er[0] : mo, sitzung: '' }); } }; }),
+        bereiche: ber2.map(function (x) { var a = x[0] === z.teil, f = farbe(x[0]); return { name: (x[0].indexOf('.') > 0 ? x[0].slice(7) + ' · ' : '') + x[1], bg: a ? f[1] : '#ffffff', rand: a ? f[0] : '#e6e6e0', waehle: function () { setz({ teil: x[0], sitzung: '' }); } }; }),
+        hatSitz: sz2.length > 0,
+        sitzungen: [{ name: 'keine bestimmte', bg: !z.sitzung ? '#ffffff' : 'transparent', rand: !z.sitzung ? '#1f2328' : '#e6e6e0', opazitaet: '1', titel: '', waehle: function () { setz({ sitzung: '' }); } }].concat(sz2.map(function (s, i) { var a = z.sitzung === s.key, nr = sz2.filter(function (x) { return x.c.id === s.c.id; }).indexOf(s) + 1;
+          return { name: nr + ' · ' + fmtS(s.date).slice(3), titel: (s.thema || 'Thema folgt'), bg: a ? farbe(z.teil)[1] : '#ffffff', rand: a ? farbe(z.teil)[0] : '#e6e6e0', opazitaet: s.date > heuteIsoV() ? '0.6' : '1', waehle: function () { setz({ sitzung: s.key }); } }; }))
+      };
+    }
+    R.vsOffen = !!S.vs; R.vs = S.vs ? zielChips(S.vs, function (p) { self.setState({ vs: Object.assign({}, self.state.vs, p) }); }) : { module: [], bereiche: [], sitzungen: [], hatSitz: false };
+    R.vsTitel = selIds.length + (selIds.length === 1 ? ' Karte verschieben' : ' Karten verschieben');
+    R.vsZu = function () { self.setState({ vs: null }); };
+    R.vsOk = function () { var z = self.state.vs; self.setState({ karten: S.karten.map(function (k) { return SEL[k.id] ? Object.assign({}, k, { teil: z.teil, sitzung: z.sitzung || '' }) : k; }), vs: null, sel: {} }); };
+    // Import / Export
+    var IO = S.io; R.ioOffen = !!IO; R.ioOeffnen = function () { self.setState({ io: { tab: 'import', teil: auswahl !== 'alle' && C[auswahl] ? auswahl + '.1' : 'ewb001.1', sitzung: '', text: '' } }); };
+    R.ioZu = function () { self.setState({ io: null }); };
+    R.ioTabs = [['import', 'Importieren'], ['export', 'Exportieren']].map(function (x) { var a = IO && IO.tab === x[0]; return { name: x[1], bg: a ? '#ffffff' : 'transparent', schatten: a ? '0 1px 2px rgba(0,0,0,0.08)' : 'none', waehle: function () { self.setState({ io: Object.assign({}, self.state.io, { tab: x[0] }) }); } }; });
+    R.ioImport = !!IO && IO.tab === 'import'; R.ioExport = !!IO && IO.tab === 'export';
+    function parse(text) { return String(text || '').split(/\r?\n/).map(function (z) { return z.trim(); }).filter(Boolean).map(function (z) {
+        var teile = z.indexOf('\t') >= 0 ? z.split('\t') : z.split(';'); var v = (teile[0] || '').trim(), h = teile.slice(1).join(';').trim();
+        if (/^(frage|vorderseite)$/i.test(v)) return null;
+        if (!h && /\[\[.+?\]\]/.test(v)) return { format: 'luecke', vorne: v, hinten: '' };
+        if (!h) return { fehler: z }; return { format: 'frage', vorne: v, hinten: h }; }).filter(Boolean); }
+    var P = IO ? parse(IO.text) : [], ok = P.filter(function (x) { return !x.fehler; }), bad = P.filter(function (x) { return x.fehler; });
+    R.io = IO ? zielChips(IO, function (p) { self.setState({ io: Object.assign({}, self.state.io, p) }); }) : { module: [], bereiche: [], sitzungen: [], hatSitz: false };
+    R.ioText = IO ? IO.text : ''; R.ioTextSetzen = function (ev) { self.setState({ io: Object.assign({}, self.state.io, { text: ev.target.value }) }); };
+    R.ioVorschau = !IO || !IO.text.trim() ? 'Noch nichts eingefügt.' : ok.length + (ok.length === 1 ? ' Karte erkannt' : ' Karten erkannt') + (bad.length ? ' · ' + bad.length + ' Zeile(n) ohne Antwort werden übersprungen' : '') + '.';
+    R.ioKannImport = ok.length > 0; R.ioImportText = ok.length + (ok.length === 1 ? ' Karte importieren' : ' Karten importieren');
+    R.ioImportieren = function () { var z = self.state.io; var neu = ok.map(function (x) { return { id: neueId(), teil: z.teil, sitzung: z.sitzung || '', format: x.format, vorne: x.vorne, hinten: x.hinten, optionen: ['', '', '', ''], richtig: [0], kategorien: ['', ''], elemente: [], stand: 'neu', stat: { r: 0, t: 0, f: 0, zuletzt: '' }, stufe: 0, faellig: '' }; }); self.setState({ karten: S.karten.concat(neu), io: null, modul: mk(z.teil) }); };
+    if (IO && IO.tab === 'export') {
+      var q = function (s) { s = String(s == null ? '' : s); return /[;"\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; };
+      var zeilen = [['Teilmodul', 'Sitzung', 'Format', 'Vorderseite', 'Rückseite/Lösung', 'Stand', 'nächste Wiederholung', 'richtig', 'teilweise', 'falsch']].concat(S.karten.map(function (k) { var s = k.stat || {}; return [k.teil, k.sitzung ? sitzLabel(k.sitzung) : '', FORM[k.format], k.vorne, k.format === 'mc' ? k.richtig.map(function (r) { return k.optionen[r]; }).join(' | ') : (k.hinten || ''), k.stand, k.faellig || 'heute', s.r || 0, s.t || 0, s.f || 0]; }));
+      R.ioCsv = 'data:text/csv;charset=utf-8,' + encodeURIComponent('﻿' + zeilen.map(function (z) { return z.map(q).join(';'); }).join('\n'));
+      R.ioJson = 'data:application/json;charset=utf-8,' + encodeURIComponent(JSON.stringify({ app: 'Lernapp', art: 'Karten-Sicherung', stand: heuteIsoV(), karten: S.karten.map(function (k) { var x = Object.assign({}, k); delete x.bild; return x; }) }, null, 1));
+      R.ioDatei = 'lernapp-karten-' + heuteIsoV(); R.ioExportInfo = S.karten.length + ' Karten (alle Semester). Bilder sind in der Sicherung nicht enthalten – in der App liegen sie getrennt im Speicher.';
+    } else { R.ioCsv = '#'; R.ioJson = '#'; R.ioDatei = 'lernapp-karten'; R.ioExportInfo = ''; }
+
+    // Dialog
+    var D = S.dialog;
+    R.dOffen = !!D;
+    R.d = D || { teil: 'ewb001.1', format: 'frage', vorne: '', hinten: '', optionen: ['', '', '', ''], richtig: [0], sitzung: '' };
+    R.neu = function (vor) { vor = vor && vor.teil ? vor : {}; self.setState({ dialog: { id: '', teil: vor.teil || (auswahl !== 'alle' && C[auswahl] ? auswahl + '.1' : 'ewb001.1'), bild: '', format: 'frage', vorne: '', hinten: '', optionen: ['', '', '', ''], richtig: [0], sitzung: vor.sitzung || '', stand: 'neu', kategorien: ['', ''], elemente: [{ text: '', kat: null }, { text: '', kat: null }], _fehler: '', _feld: 'vorne' } }); };
+    self._oeffne = function (z) {
+      if (z.aktion === 'faellig') { var fk = S.karten.filter(function (k) { return istAkt(k) && WDH.istFaellig(k); }).sort(function (a, b) { var h = WDH.heute(); return (a.faellig || h).localeCompare(b.faellig || h); }); self.setState({ tab: 'aktuell', modul: 'alle', dialog: null, sitzFilter: [] }); if (fk.length) starten(fk); return; }
+      var mod = z.modul, ks = S.karten.filter(function (k) { return mk(k.teil) === mod && (!z.sitzung || k.sitzung === z.sitzung); });
+      if (z.aktion === 'neu') { var sz0 = SESS.filter(function (s) { return s.key === z.sitzung; })[0]; var erstT = z.teil || (sz0 && sz0.c.modul) || (SESS.filter(function (s) { return s.c.modul.indexOf(mod) === 0; }).map(function (s) { return s.c.modul; }).sort()[0]) || mod + '.1'; self.setState({ tab: 'aktuell', modul: mod, ueben: null }); R.neu({ teil: erstT, sitzung: z.sitzung || '' }); return; }
+      self.setState({ tab: 'aktuell', modul: mod, dialog: null, sitzFilter: z.sitzung ? [z.sitzung] : [] });
+      if (ks.length) starten(ks.slice().sort(function (a, b) { return (a.stand === 'unsicher' ? 0 : a.stand === 'neu' ? 1 : 2) - (b.stand === 'unsicher' ? 0 : b.stand === 'neu' ? 1 : 2); }));
+    };
+    R.dTitel = D && D.id ? 'Karte bearbeiten' : (D && D._kopie ? 'Kopie der Karte – anpassen und speichern' : 'Neue Karte');
+    R.dBestehend = !!(D && D.id);
+    R.formate = ['frage', 'mc', 'offen', 'luecke', 'zuordnung'].map(function (f) { var a = R.d.format === f; return { name: FORM[f].replace(' (KI)', ''), bg: a ? '#ffffff' : 'transparent', schatten: a ? '0 1px 2px rgba(0,0,0,0.08)' : 'none', waehle: function () { self.setState({ dialog: Object.assign({}, S.dialog, { format: f }) }); } }; });
+    function dSetz(p) { self.setState({ dialog: Object.assign({}, S.dialog, p) }); }
+    var dMod = mk(R.d.teil), modsD = AKT.slice(); if (modsD.indexOf(dMod) < 0) modsD.unshift(dMod);
+    R.dModule = modsD.map(function (m) { var f = C[m] || FACH[m.slice(0, 3)] || FACH.x, a = m === dMod; return { name: m, fg: f[0], bg: a ? f[1] : '#ffffff', rand: a ? f[0] : '#e6e6e0', waehle: function () { var erste = TEILE.filter(function (x) { return x[0].indexOf(m) === 0; })[0]; dSetz({ teil: erste ? erste[0] : m, sitzung: '' }); } }; });
+    var ber = TEILE.filter(function (x) { return x[0].indexOf(dMod) === 0; }); if (!ber.length) ber = [[R.d.teil, 'Archiv']];
+    ber.sort(function (a, b) { var ta = /Tutorium|eÜbung/.test(a[1]) ? 1 : 0, tb = /Tutorium|eÜbung/.test(b[1]) ? 1 : 0; return (ta - tb) || a[0].localeCompare(b[0]); });
+    R.dBereiche = ber.map(function (x) { var a = x[0] === R.d.teil, f = farbe(x[0]); return { name: (x[0].indexOf('.') > 0 ? x[0].slice(7) + ' · ' : '') + x[1], titel: x[0], bg: a ? f[1] : '#ffffff', rand: a ? f[0] : '#e6e6e0', waehle: function () { dSetz({ teil: x[0], sitzung: '' }); } }; });
+    var sz = sitzVon(R.d.teil), heuteIso = (function () { var d = new Date(); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); })();
+    R.dHatSitzungen = sz.length > 0;
+    var grpIds = {}; sz.forEach(function (s) { grpIds[s.c.id] = true; }); var mehrGr = Object.keys(grpIds).length > 1;
+    R.dSitzungen = [{ name: 'keine bestimmte', titel: '', bg: !R.d.sitzung ? '#ffffff' : 'transparent', rand: !R.d.sitzung ? '#1f2328' : '#e6e6e0', opazitaet: '1', waehle: function () { dSetz({ sitzung: '' }); } }].concat(sz.map(function (s) {
+      var a = R.d.sitzung === s.key, nr = sz.filter(function (x) { return x.c.id === s.c.id; }).indexOf(s) + 1;
+      return { name: (mehrGr ? s.c.kurz.split(' · ').pop() + ' ' : '') + nr + ' · ' + fmtS(s.date).slice(3), titel: (s.thema || 'Thema folgt') + ' (' + fmtS(s.date) + ')', bg: a ? farbe(R.d.teil)[1] : '#ffffff', rand: a ? farbe(R.d.teil)[0] : '#e6e6e0', opazitaet: s.date > heuteIso ? '0.6' : '1', waehle: function () { dSetz({ sitzung: s.key }); } };
+    }));
+    var gewS = SESS.filter(function (s) { return s.key === R.d.sitzung; })[0];
+    R.dSitzungInfo = gewS ? 'Thema: ' + (gewS.thema || 'folgt') + ' – die Karte erscheint dann auch im Modul unter „Lernen“ bei dieser Sitzung.' : 'Ordne die Karte einer Sitzung zu, damit du sie gezielt mit der Sitzung üben kannst.';
+    var SYM = [['²', 'hoch 2'], ['³', 'hoch 3'], ['ⁿ', 'hoch n'], ['√', 'Wurzel'], ['∛', 'dritte Wurzel'], ['π', 'Pi'], ['∞', 'unendlich'], ['±', 'plus/minus'], ['·', 'mal'], ['÷', 'geteilt'], ['≠', 'ungleich'], ['≈', 'ungefähr'], ['≤', 'kleiner gleich'], ['≥', 'größer gleich'], ['∑', 'Summe'], ['∏', 'Produkt'], ['∫', 'Integral'], ['∈', 'Element von'], ['∉', 'nicht Element'], ['⊂', 'Teilmenge'], ['⊆', 'Teilmenge oder gleich'], ['∪', 'Vereinigung'], ['∩', 'Schnitt'], ['∅', 'leere Menge'], ['ℕ', 'natürliche Zahlen'], ['ℤ', 'ganze Zahlen'], ['ℚ', 'rationale Zahlen'], ['ℝ', 'reelle Zahlen'], ['→', 'Pfeil'], ['⇒', 'daraus folgt'], ['⇔', 'genau dann'], ['∀', 'für alle'], ['∃', 'es gibt'], ['¬', 'nicht'], ['∧', 'und'], ['∨', 'oder'], ['α', 'alpha'], ['β', 'beta'], ['γ', 'gamma'], ['Δ', 'Delta'], ['μ', 'mü'], ['σ', 'sigma'], ['₁', 'Index 1'], ['₂', 'Index 2'], ['ₙ', 'Index n'], ['½', 'ein halb'], ['°', 'Grad'], ['∠', 'Winkel'], ['⊥', 'senkrecht'], ['∥', 'parallel'], ['△', 'Dreieck'], ['≅', 'kongruent'], ['∼', 'ähnlich']];
+    var feld = (D && D._feld) || 'vorne';
+    R.matheSicht = dMod.indexOf('mab') === 0;
+    R.feldName = feld === 'vorne' ? (R.d.format === 'luecke' ? 'Text mit Lücken' : (R.d.format === 'offen' || R.d.format === 'zuordnung' ? 'Aufgabe' : 'Frage')) : (R.d.format === 'offen' ? 'Musterlösung' : 'Antwort');
+    R.symbole = SYM.map(function (y) { return { z: y[0], titel: y[1], einfuegen: function () { var n = Object.assign({}, S.dialog); var fe = n._feld || 'vorne'; n[fe] = (n[fe] || '') + y[0]; self.setState({ dialog: n }); } }; });
+    R.fokusVorne = function () { if (S.dialog && S.dialog._feld !== 'vorne') dSetz({ _feld: 'vorne' }); };
+    R.fokusHinten = function () { if (S.dialog && S.dialog._feld !== 'hinten') dSetz({ _feld: 'hinten' }); };
+    var KF = [['#eaf1fc', '#3f5f93'], ['#fcf0e4', '#82593a'], ['#e6f5f0', '#2f6f60'], ['#f1edfa', '#5d4b8c'], ['#fbebef', '#8a4458']];
+    R.zKats = (R.d.kategorien || []).map(function (k, i) { return { text: k, buchstabe: String.fromCharCode(65 + i), bg: KF[i % 5][0], fg: KF[i % 5][1],
+      setzen: function (ev) { var a = S.dialog.kategorien.slice(); a[i] = ev.target.value; dSetz({ kategorien: a }); },
+      weg: function () { if (S.dialog.kategorien.length <= 2) return; var a = S.dialog.kategorien.slice(); a.splice(i, 1); dSetz({ kategorien: a, elemente: S.dialog.elemente.map(function (e) { return Object.assign({}, e, { kat: e.kat === i ? null : (e.kat > i ? e.kat - 1 : e.kat) }); }) }); } }; });
+    R.zKatPlus = function () { dSetz({ kategorien: S.dialog.kategorien.concat(['']) }); };
+    R.zElemente = (R.d.elemente || []).map(function (e, i) { return { text: e.text,
+      setzen: function (ev) { var a = S.dialog.elemente.map(function (x) { return Object.assign({}, x); }); a[i].text = ev.target.value; dSetz({ elemente: a }); },
+      weg: function () { var a = S.dialog.elemente.slice(); a.splice(i, 1); dSetz({ elemente: a }); },
+      kats: (R.d.kategorien || []).map(function (k, ki) { var an = e.kat === ki; return { name: String.fromCharCode(65 + ki) + (k ? ' · ' + (k.length > 22 ? k.slice(0, 22) + '…' : k) : ''), bg: an ? KF[ki % 5][0] : '#ffffff', fg: an ? KF[ki % 5][1] : '#6b6f76', rand: an ? KF[ki % 5][1] : '#e6e6e0',
+        waehle: function () { var a = S.dialog.elemente.map(function (x) { return Object.assign({}, x); }); a[i].kat = ki; dSetz({ elemente: a }); } }; }) }; });
+    R.zElPlus = function () { dSetz({ elemente: S.dialog.elemente.concat([{ text: '', kat: null }]) }); };
+    R.istFrage = R.d.format === 'frage'; R.istMC = R.d.format === 'mc'; R.istOffen = R.d.format === 'offen'; R.istLuecke = R.d.format === 'luecke'; R.istZuord = R.d.format === 'zuordnung';
+    R.vorneLabel = R.istLuecke ? 'Text mit Lücken' : (R.istOffen || R.istZuord ? 'Aufgabe' : 'Frage (Vorderseite)');
+    R.vornePlatzhalter = R.istLuecke ? 'z. B. Die [[Reliabilität]] beschreibt …' : 'Was möchtest du abfragen?';
+    R.dSet = {};
+    ['teil', 'vorne', 'hinten'].forEach(function (k) { R.dSet[k] = function (ev) { var n = Object.assign({}, S.dialog); n[k] = ev.target.value; self.setState({ dialog: n }); }; });
+    R.mcFelder = R.d.optionen.map(function (o, i) {
+      var r = (R.d.richtig || []).indexOf(i) >= 0;
+      return { text: o, platz: 'Antwort ' + String.fromCharCode(65 + i) + (i >= 2 ? ' (optional)' : ''), haken: r ? '✓' : '', bg: r ? '#2f7a4b' : '#ffffff', rand: r ? '#2f7a4b' : '#c9ccd1',
+        setzen: function (ev) { var op = S.dialog.optionen.slice(); op[i] = ev.target.value; self.setState({ dialog: Object.assign({}, S.dialog, { optionen: op }) }); },
+        richtigSetzen: function () { var rr = (S.dialog.richtig || []).slice(), p = rr.indexOf(i); if (p >= 0) rr.splice(p, 1); else rr.push(i); rr.sort(); self.setState({ dialog: Object.assign({}, S.dialog, { richtig: rr }) }); } };
+    });
+    R.mcKannPlus = R.d.optionen.length < 6;
+    R.mcPlus = function () { if (S.dialog.optionen.length >= 6) return; self.setState({ dialog: Object.assign({}, S.dialog, { optionen: S.dialog.optionen.concat(['']) }) }); };
+    R.dHatBild = !!R.d.bild; R.dBild = R.d.bild || '';
+    R.dBildWeg = function () { self.setState({ dialog: Object.assign({}, S.dialog, { bild: '' }) }); };
+    R.dBildSetzen = function (ev) {
+      var f = ev && ev.target && ev.target.files && ev.target.files[0]; if (!f) return;
+      var rd = new FileReader();
+      rd.onload = function () { var url = rd.result, img = new Image();
+        img.onload = function () { try { var m = 1200, s = Math.min(1, m / Math.max(img.width, img.height)), cv = document.createElement('canvas'); cv.width = Math.round(img.width * s); cv.height = Math.round(img.height * s); cv.getContext('2d').drawImage(img, 0, 0, cv.width, cv.height); url = cv.toDataURL('image/jpeg', 0.85); } catch (e) {} self.setState({ dialog: Object.assign({}, self.state.dialog, { bild: url }) }); };
+        img.onerror = function () { self.setState({ dialog: Object.assign({}, self.state.dialog, { bild: url }) }); };
+        img.src = url; };
+      rd.readAsDataURL(f); try { ev.target.value = ''; } catch (e) {}
+    };
+    R.dFehler = !!(D && D._fehler); R.dFehlerText = D ? D._fehler || '' : '';
+    R.dLoeschText = D && D._armed ? 'Wirklich löschen?' : 'Löschen';
+    R.dZu = function () { self.setState({ dialog: null }); };
+    R.dKopie = function () { var x = self.state.dialog; self.setState({ dialog: Object.assign({}, x, { id: '', stand: 'neu', stat: { r: 0, t: 0, f: 0, zuletzt: '' }, stufe: 0, faellig: '', _armed: false, _kopie: true }) }); };
+    R.dLoeschen = function () { if (!S.dialog._armed) { self.setState({ dialog: Object.assign({}, S.dialog, { _armed: true }) }); return; } var id = S.dialog.id; self.setState({ dialog: null, karten: S.karten.filter(function (k) { return k.id !== id; }) }); };
+    R.dOk = function () {
+      var x = S.dialog, fehl = function (m) { self.setState({ dialog: Object.assign({}, x, { _fehler: m }) }); };
+      if (!x.vorne.trim()) return fehl('Bitte die Vorderseite ausfüllen.');
+      if (x.format === 'luecke' && !/\[\[.+?\]\]/.test(x.vorne)) return fehl('Bitte mindestens eine Lücke mit [[…]] markieren.');
+      if (x.format === 'mc' && x.optionen.filter(function (o) { return o.trim(); }).length < 2) return fehl('Bitte mindestens zwei Antwortmöglichkeiten eintragen.');
+      if (x.format === 'mc' && !(x.richtig || []).length) return fehl('Bitte mindestens eine richtige Antwort markieren.');
+      if (x.format === 'mc' && x.richtig.some(function (r) { return !x.optionen[r].trim(); })) return fehl('Eine als richtig markierte Antwort ist leer.');
+      if (x.format === 'zuordnung') { if (x.kategorien.filter(function (k) { return k.trim(); }).length < 2) return fehl('Bitte mindestens zwei Kategorien benennen.'); var el = x.elemente.filter(function (e) { return e.text.trim(); }); if (el.length < 2) return fehl('Bitte mindestens zwei Elemente eintragen.'); if (el.some(function (e) { return e.kat === null || e.kat === undefined; })) return fehl('Bitte jedem Element eine Kategorie zuordnen.'); }
+      var body = { id: x.id || 'k' + Date.now().toString(36), teil: x.teil, format: x.format, vorne: x.vorne.trim(), hinten: x.hinten || '', bild: x.bild || '', optionen: x.optionen, richtig: x.richtig, sitzung: x.sitzung || '', stand: x.stand || 'neu', stufe: x.stufe || 0, faellig: x.faellig || '', kategorien: x.kategorien, elemente: x.elemente.filter(function (e) { return e.text.trim(); }) };
+      self.setState({ dialog: null, karten: S.karten.filter(function (k) { return k.id !== body.id; }).concat([body]) });
+    };
+
+    // Üben
+    var U = S.ueben;
+    R.uOffen = !!U;
+    R.uZu = function () { self.setState({ ueben: null }); };
+    R.u = { wdhInfo: '', eingabePlatz: '', zeigeEigene: false, eigene: '', hatBild: false, bild: '', zeigeBeide: false, zeigeWeiterRichtig: false, zeigeWeiterFalsch: false, weiterRichtig: function () {}, weiterFalsch: function () {}, alsGewusst: function () {}, istLuecke: false, luecken: [], mcHinweis: '', istZuord: false, hatFrei: false, frei: [], kats: [], zaehler: '', breite: '0%', fg: '#1f2328', bg: '#f7f7f4', kopf: '', vorne: '', istMC: false, istOffen: false, optionen: [], eingabe: '', setzeEingabe: function () {}, zeigeAufdecken: false, aufdeckenText: '', aufdecken: function () {}, aufgedeckt: false, loesungLabel: '', loesung: '', kiHinweis: false, unsicher: function () {}, sicher: function () {}, ergebnis: '' };
+    R.uLaeuft = false; R.uFertig = false; self._enter = null;
+    if (U) {
+      var n = U.ids.length, fertig = U.i >= n;
+      R.uLaeuft = !fertig; R.uFertig = fertig;
+      R.u.zaehler = fertig ? n + ' von ' + n + ' Karten' : 'Karte ' + (U.i + 1) + ' von ' + n;
+      R.u.breite = Math.round(Math.min(U.i, n) / n * 100) + '%';
+      R.u.ergebnis = U.sicher + ' sicher · ' + U.unsicher + ' noch unsicher – unsichere Karten kommen beim nächsten Mal zuerst.';
+      if (!fertig) {
+        var k = S.karten.filter(function (y) { return y.id === U.ids[U.i]; })[0], f = farbe(k.teil);
+        function weiter(stand, erg) { erg = erg || (stand === 'sicher' ? 'r' : 'f'); var heuteS = (function () { var d = new Date(); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); })(); var neuK = S.karten.map(function (y) { if (y.id !== k.id) return y; var st = Object.assign({ r: 0, t: 0, f: 0 }, y.stat || {}); st[erg] = (st[erg] || 0) + 1; st.zuletzt = heuteS; return Object.assign({}, y, { stand: stand, stat: st }, WDH.naechste(y, erg)); }); var u2 = Object.assign({}, U, { i: U.i + 1, auf: false, wahl: null, eingabe: '', zu: {}, sel: null, luecken: {} }); u2[stand] = (U[stand] || 0) + 1; self.setState({ karten: neuK, ueben: u2 }); }
+        R.u.fg = f[0]; R.u.bg = f[1]; R.u.kopf = k.teil + ' · ' + FORM[k.format] + (k.sitzung ? ' · ' + sitzLabel(k.sitzung) : ''); R.u.hatBild = !!k.bild; R.u.bild = k.bild || ''; var PROFI = !!U.profi;
+        var nrL = 0; R.u.vorne = k.format === 'luecke' ? k.vorne.replace(/\[\[(.+?)\]\]/g, function () { nrL++; return '(' + nrL + ') _____'; }) : k.vorne;
+        R.u.istMC = k.format === 'mc'; R.u.istOffen = k.format === 'offen' || k.format === 'frage'; R.u.eingabePlatz = k.format === 'frage' ? 'Deine Antwort (optional) …' : 'Deine Antwort …'; R.u.zeigeEigene = !!U.auf && k.format === 'frage' && !!(U.eingabe || '').trim(); R.u.eigene = U.eingabe || ''; R.u.istLuecke = k.format === 'luecke';
+        R.u.luecken = (k.vorne.match(/\[\[(.+?)\]\]/g) || []).map(function (g, i) { var w = (U.luecken || {})[i] || '', ok = w.trim().toLowerCase() === g.slice(2, -2).trim().toLowerCase();
+          return { nr: String(i + 1), idx: String(i), platz: PROFI ? 'Lücke ' + (i + 1) + ' ausfüllen …' : 'beginnt mit „' + g.slice(2, 3).toUpperCase() + '…“', wert: w, bg: U.auf ? (ok ? '#e3f2e8' : '#fde9e9') : '#f7f7f4', rand: U.auf ? (ok ? '#2f7a4b' : '#c42b2b') : '#e6e6e0', zeigeLoesung: !!U.auf && !ok, loesung: g.slice(2, -2),
+            setzen: function (ev) { var l = Object.assign({}, S.ueben.luecken || {}); l[i] = ev.target.value; self.setState({ ueben: Object.assign({}, S.ueben, { luecken: l }) }); } }; });
+        R.u.eingabe = U.eingabe || '';
+        R.u.setzeEingabe = function (ev) { self.setState({ ueben: Object.assign({}, S.ueben, { eingabe: ev.target.value }) }); };
+        R.u.optionen = k.format === 'mc' ? k.optionen.map(function (o, i) { return { o: o, i: i }; }).filter(function (x) { return x.o; }).map(function (x) {
+          var gew = (U.wahl || []).indexOf(x.i) >= 0, richtig = k.richtig.indexOf(x.i) >= 0, zeigen = U.auf;
+          return { text: x.o, bg: zeigen && richtig ? '#e3f2e8' : (zeigen && gew ? '#fde9e9' : '#ffffff'), rand: zeigen && richtig ? '#2f7a4b' : (zeigen && gew ? '#c42b2b' : (gew ? '#1f2328' : '#e6e6e0')),
+            waehle: function () { if (S.ueben.auf) return; var w = (S.ueben.wahl || []).slice(), p = w.indexOf(x.i); var einzeln = k.richtig.length === 1 && !PROFI; if (einzeln) w = [x.i]; else if (p >= 0) w.splice(p, 1); else w.push(x.i); self.setState({ ueben: Object.assign({}, S.ueben, { wahl: w, auf: einzeln }) }); } };
+        }) : [];
+        R.u.istZuord = k.format === 'zuordnung';
+        if (R.u.istZuord) {
+          var ZU = U.zu || {}, reihe = k.elemente.map(function (e, i) { return i; }).sort(function (a, b) { var h = function (n) { var s = 0, str = k.id + n; for (var q = 0; q < str.length; q++) s = (s * 31 + str.charCodeAt(q)) % 997; return s; }; return h(a) - h(b); });
+          function uSetz(p) { self.setState({ ueben: Object.assign({}, S.ueben, p) }); }
+          R.u.frei = reihe.filter(function (i) { return ZU[i] === undefined; }).map(function (i) { return { text: k.elemente[i].text, rand: U.sel === i ? '#1f2328' : '#e6e6e0', waehle: function () { if (!S.ueben.auf) uSetz({ sel: S.ueben.sel === i ? null : i }); }, dragStart: function (ev) { try { ev.dataTransfer.setData('text/plain', String(i)); } catch (e) {} } }; });
+          R.u.hatFrei = R.u.frei.length > 0;
+          R.u.kats = k.kategorien.map(function (kn, ki) {
+            var aktiv = U.sel !== null && U.sel !== undefined && !U.auf;
+            function lege(s) { if (s === null || s === undefined || S.ueben.auf) return; var z = Object.assign({}, S.ueben.zu); z[s] = ki; uSetz({ zu: z, sel: null }); }
+            return { name: kn, hinweis: aktiv ? '– hier antippen' : '', bg: aktiv ? '#ffffff' : '#f7f7f4', rand: aktiv ? '#1f2328' : '#e6e6e0', zeiger: aktiv ? 'pointer' : 'default',
+              ablegen: function () { lege(S.ueben.sel); },
+              dragOver: function (ev) { try { ev.preventDefault(); } catch (e) {} },
+              drop: function (ev) { try { ev.preventDefault(); var v = ev.dataTransfer.getData('text/plain'); if (v !== '') lege(parseInt(v, 10)); } catch (e) {} },
+              elemente: reihe.filter(function (i) { return ZU[i] === ki; }).map(function (i) { var ok = k.elemente[i].kat === ki;
+                return { text: k.elemente[i].text, bg: U.auf ? (ok ? '#e3f2e8' : '#fde9e9') : '#ffffff', rand: U.auf ? (ok ? '#2f7a4b' : '#c42b2b') : '#e6e6e0', zurueck: function (ev) { try { ev.stopPropagation(); } catch (e) {} if (S.ueben.auf) return; var z = Object.assign({}, S.ueben.zu); delete z[i]; uSetz({ zu: z, sel: null }); } }; }) };
+          });
+        }
+        R.u.zeigeAufdecken = !U.auf && (k.format !== 'mc' || k.richtig.length > 1 || PROFI);
+        R.u.mcHinweis = k.format === 'mc' && !PROFI ? (k.richtig.length > 1 ? 'Mehrere Antworten sind richtig – alle passenden antippen, dann „Prüfen“.' : 'Eine Antwort ist richtig.') : '';
+        R.u.aufdeckenText = (k.format === 'frage' && (U.eingabe || '').trim()) || k.format === 'offen' || k.format === 'zuordnung' || k.format === 'mc' || k.format === 'luecke' ? 'Prüfen' : (k.format === 'luecke' ? 'Lösung zeigen' : 'Antwort zeigen');
+        R.u.aufdecken = function () { self.setState({ ueben: Object.assign({}, S.ueben, { auf: true }) }); };
+        R.u.aufgedeckt = !!U.auf;
+        var wahlOk = k.format === 'mc' && (U.wahl || []).slice().sort().join() === k.richtig.slice().sort().join();
+        var LU = (k.vorne.match(/\[\[(.+?)\]\]/g) || []).map(function (g) { return g.slice(2, -2); }), luOk = LU.filter(function (g, i) { return ((U.luecken || {})[i] || '').trim().toLowerCase() === g.trim().toLowerCase(); }).length;
+        var zRichtig = k.format === 'zuordnung' ? k.elemente.filter(function (e, i) { return (U.zu || {})[i] === e.kat; }).length : 0;
+        R.u.loesungLabel = k.format === 'zuordnung' ? zRichtig + ' von ' + k.elemente.length + ' richtig zugeordnet' : k.format === 'luecke' ? luOk + ' von ' + LU.length + ' Lücken richtig' : k.format === 'mc' ? (wahlOk ? 'Richtig!' : (k.richtig.length > 1 ? 'Nicht ganz – richtig sind:' : 'Leider falsch – richtig ist:')) : (k.format === 'offen' ? 'Musterlösung' : (k.format === 'luecke' ? 'Vollständiger Text' : 'Antwort'));
+        R.u.loesung = k.format === 'zuordnung' ? (zRichtig === k.elemente.length ? 'Alles richtig!' : 'Rot markierte Elemente gehören in eine andere Kategorie.') : k.format === 'mc' ? k.richtig.map(function (r) { return k.optionen[r]; }).join(' · ') : (k.format === 'luecke' ? lueckeOffen(k.vorne) : k.hinten);
+        R.u.kiHinweis = k.format === 'offen';
+        R.u.sicher = function () { weiter('sicher'); };
+        R.u.unsicher = function () { weiter('unsicher'); };
+        function norm(s) { return String(s || '').toLowerCase().replace(/[.,;:!?„“"'()\-–]/g, ' ').replace(/\s+/g, ' ').trim(); }
+        var getippt = k.format === 'frage' && !!(U.eingabe || '').trim(), frOk = getippt && norm(U.eingabe) === norm(k.hinten);
+        var teilwV = (k.format === 'luecke' && luOk > 0) || (k.format === 'zuordnung' && zRichtig > 0) || (k.format === 'mc' && (U.wahl || []).some(function (w) { return k.richtig.indexOf(w) >= 0; }));
+        var objektiv = frOk || k.format === 'mc' || k.format === 'luecke' || k.format === 'zuordnung';
+        var alles = frOk ? true : k.format === 'mc' ? wahlOk : k.format === 'luecke' ? luOk === LU.length : k.format === 'zuordnung' ? zRichtig === k.elemente.length : false;
+        R.u.zeigeBeide = !!U.auf && !objektiv;
+        function inT(erg) { var n = WDH.naechste(k, erg), t = WDH.tage(WDH.heute(), n.faellig); return t === 1 ? 'morgen' : 'in ' + t + ' Tagen'; }
+        R.u.wdhInfo = !U.auf ? '' : (!objektiv ? 'Nächste Wiederholung: „Wusste ich“ → ' + inT('r') + ' · „Noch unsicher“ → ' + inT('f') : (alles ? 'Kommt wieder ' + inT('r') + '.' : 'Kommt ' + inT(teilwV ? 't' : 'f') + ' wieder.'));
+        if (getippt && !frOk) R.u.kiHinweis = true;
+        if (k.format === 'frage' && U.auf) R.u.loesungLabel = !getippt ? 'Antwort' : (frOk ? 'Richtig!' : 'Vergleiche mit der richtigen Antwort');
+        R.u.zeigeWeiterRichtig = !!U.auf && objektiv && alles;
+        R.u.zeigeWeiterFalsch = !!U.auf && objektiv && !alles;
+        var teilw = (k.format === 'luecke' && luOk > 0) || (k.format === 'zuordnung' && zRichtig > 0) || (k.format === 'mc' && (U.wahl || []).some(function (w) { return k.richtig.indexOf(w) >= 0; }));
+        R.u.weiterRichtig = function () { weiter('sicher', 'r'); }; R.u.weiterFalsch = function () { weiter('unsicher', teilw ? 't' : 'f'); }; R.u.alsGewusst = function () { weiter('sicher'); };
+        self._enter = function (ev) {
+          if (!ev || ev.key !== 'Enter' || ev.shiftKey) return;
+          var t = ev.target || {}, tag = (t.tagName || '').toUpperCase(); if (tag === 'TEXTAREA' && k.format !== 'frage') return;
+          try { ev.preventDefault(); } catch (e) {}
+          var Uj = self.state.ueben; if (!Uj) return;
+          if (!Uj.auf) { var p = { auf: true }; if (tag === 'TEXTAREA') p.eingabe = t.value; var li = t.getAttribute ? t.getAttribute('data-luecke') : null; if (li !== null && li !== undefined && li !== '') { var l = Object.assign({}, Uj.luecken || {}); l[parseInt(li, 10)] = t.value; p.luecken = l; } self.setState({ ueben: Object.assign({}, Uj, p) }); return; }
+          if (objektiv) {
+            if (R.u.zeigeWeiterRichtig) weiter('sicher', 'r'); else weiter('unsicher', teilw ? 't' : 'f');
+          }
+        };
+      }
+    }
+    return R;
+  }
+}
+</script>
+</body>
+</html>

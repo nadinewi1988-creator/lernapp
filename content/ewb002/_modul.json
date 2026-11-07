@@ -143,7 +143,7 @@
       "nr": 4,
       "datum": "2026-11-03",
       "thema": "Untersuchungsplanung und Auswahlverfahren",
-      "hinweis": "vorläufig aus den Folien WS 25/26 aufbereitet (T04 WS 26/27 noch nicht in Stud.IP, Stand 01.11.2026)"
+      "hinweis": "Folien T04 WS 26/27 (Stud.IP 03.11.), am 07.11. abgeglichen (zuerst vorläufig aus WS 25/26)"
     },
     {
       "teilmodul": "ewb002.2",
@@ -232,7 +232,7 @@
       "nr": 4,
       "datum": "2026-11-05",
       "thema": "Messtheorie: Operationalisierung, Messen, Skalenniveaus",
-      "hinweis": "live-online ab 8:15 (Brodowy, Ankündigung Stud.IP 29.10.2026); vorläufig aus den Folien WS 25/26 aufbereitet"
+      "hinweis": "live-online ab 8:15 (Brodowy); Folien WS 26/27 = WS 25/26 (abgeglichen 07.11.); Bildschirmaufnahme ab 8:37 als Nachbereitung eingearbeitet"
     }
   ],
   "vl_plan_ws2526": {
@@ -363,8 +363,8 @@
     "Seminar S02, Folie 12: „Suche Sie“ statt „Suchen Sie“",
     "Seminar S03, Folie 4: „Wies-baden“",
     "VL S03: Folien 9–10 identisch; „Rahtjen“ (Folien 9, 17); Satz auf Folie 14 bricht ab; Link auf Folie 18 abgeschnitten",
-    "Seminar S04 (WS 25/26-Folien): Folie 12 „5. Arbeitsphase III“ statt „6.“; Folie 8 „standardisierten Fragebogen“ (Fragebögen) – mit T04 WS 26/27 prüfen",
-    "VL S04 (WS 25/26-Folien): „Reflektion“ (F9), „Neandertals“ (F10–12); Geschlecht F17–19/24 dreistufig, F21 nur Mann/Frau; F21 Spalte „Zulässige Transformationen“ enthält Relationen; F24 Stevens 1951 vs. Tausendpfund 1946; F25 „Mittel“ in Zeile Verhältnis statt Intervall, „Significanztests“ – mit Folien WS 26/27 prüfen"
+    "Seminar S04: Folie 3 „Lei-ragen“ (Schriftfehler in T04 WS 26/27); „5. Arbeitsphase III“ ist in T04 WS 26/27 korrigiert („6.“); Folie 9 „standardisierten Fragebogen“ (Fragebögen) unverändert",
+    "VL S04 (WS 25/26-Folien): „Reflektion“ (F9), „Neandertals“ (F10–12); Geschlecht F17–19/24 dreistufig, F21 nur Mann/Frau; F21 Spalte „Zulässige Transformationen“ enthält Relationen; F24 Stevens 1951 vs. Tausendpfund 1946; F25 „Mittel“ in Zeile Verhältnis statt Intervall, „Significanztests“ – in den Folien WS 26/27 unverändert"
   ],
   "besonderheiten": [
     "Im WS 26/27 fand die Moduleinführung nur in den Seminaren statt (Mail Prof. Zimmer, 13.10.2026); keine eigene VL-Einführung",
@@ -457,7 +457,7 @@
       "art": "Folien",
       "status": "verarbeitet",
       "sitzung": "ewb002.2_2026-11-03",
-      "hinweis": "Folien WS 25/26 – vorläufig, bis T04 WS 26/27 in Stud.IP ist (01.11.2026)"
+      "hinweis": "Folien WS 25/26 – Grundlage der vorläufigen Fassung (01.11.2026); am 07.11. mit T04 WS 26/27 abgeglichen"
     },
     {
       "pfad": "../ewb002 - WS 25:26/1. ewb002.1/Vorlesung_ewb002/04_ewb002vor_Op_Mess_Skalenniveaus_wise25_26.pdf",
@@ -465,7 +465,39 @@
       "art": "Folien",
       "status": "verarbeitet",
       "sitzung": "ewb002.1_2026-11-05",
-      "hinweis": "Folien WS 25/26 – vorläufig, bis die VL-Folien 04 WS 26/27 in Stud.IP sind (01.11.2026); dazu Tutorium-Aufgabenblatt 2 und Klausur-Aufgabe 8 WS 25/26 als Übungen"
+      "hinweis": "Folien WS 25/26 – Grundlage der vorläufigen Fassung (01.11.2026); WS 26/27 inhaltlich gleich (07.11.)"
+    },
+    {
+      "pfad": "ewb002.2/Sitzung_04/T04_ewb002.2_Untersuchungsplanung_und_Auswahlverfahren.pdf",
+      "geaendert": "2026-11-03",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "ewb002.2_2026-11-03",
+      "hinweis": "abgeglichen 07.11.2026: neu Folie 4 (Häder-Phasen), Folie 6 Schulhund-Beispiele, Folie 8 NDR-Video; ab Folie 4 eine Nummer weiter"
+    },
+    {
+      "pfad": "ewb002.1/Sitzung_04/04_ewb002vor_Op_Mess_Skalenniveaus_wise26_27.pdf",
+      "geaendert": "2026-11-03",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "ewb002.1_2026-11-05",
+      "hinweis": "abgeglichen 07.11.2026: inhaltlich gleich WS 25/26, nur VL-Plan (Folie 3/32) und Reihenfolge Folie 31/32"
+    },
+    {
+      "pfad": "ewb002.1/Aufnahmen_Transkripte/ScreenRecording_11-05-2026 08-37-11_1.mp4",
+      "geaendert": "2026-11-07",
+      "art": "Aufnahme",
+      "status": "verarbeitet",
+      "sitzung": "ewb002.1_2026-11-05",
+      "hinweis": "Teil 1 (19 Min., ab 8:37, Folien 7–16), Transkript 2026-11-05_ewb002.1_Teil1_Transkript.txt; Nachbereitung 07.11."
+    },
+    {
+      "pfad": "ewb002.1/Aufnahmen_Transkripte/ScreenRecording_11-05-2026 08-56-56_1.mp4",
+      "geaendert": "2026-11-07",
+      "art": "Aufnahme",
+      "status": "verarbeitet",
+      "sitzung": "ewb002.1_2026-11-05",
+      "hinweis": "Teil 2 (45 Min., ab 8:57, Folien 20–30), Transkript 2026-11-05_ewb002.1_Teil2_Transkript.txt; Nachbereitung 07.11."
     }
   ],
   "hausaufgaben": [
@@ -475,7 +507,8 @@
       "gestellt_in": "ewb002.1_2026-10-21",
       "fuer_sitzung": "ewb002.2_2026-10-27",
       "kalender_id": "24a4f0ba-4a77-41bf-a64d-223ea244bde9",
-      "pdf": "/dateien/ewb002/S03_2026-10-27_Hausaufgabe_Textvorbereitung_Raithel-Tausendpfund-Haeder_Leitfragen.pdf"
+      "pdf": "/dateien/ewb002/S03_2026-10-27_Hausaufgabe_Textvorbereitung_Raithel-Tausendpfund-Haeder_Leitfragen.pdf",
+      "hinweis": "Leitfragen mit den Folien WS 26/27 abgeglichen – unverändert (07.11.)"
     },
     {
       "id": "h02",

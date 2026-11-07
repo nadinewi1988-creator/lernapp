@@ -8,11 +8,11 @@
   "thema": "Messtheorie: Operationalisierung, Messen, Skalenniveaus",
   "thema_in_app": "war schon da",
   "stand": "geprueft",
-  "hinweis": "Vorläufig aufbereitet aus den Folien des WS 25/26 (04_ewb002vor_Op_Mess_Skalenniveaus_wise25_26.pdf), weil die Folien für WS 26/27 noch nicht in Stud.IP sind (Stand 01.11.2026). Die VL-Folien 02 und 03 waren im WS 26/27 bis auf Kleinigkeiten identisch – nach Upload abgleichen. Live-online-Vorlesung (Vertretung Brodowy), ab 05.11.2026 Beginn 8:15 Uhr.",
+  "hinweis": "Abgeglichen mit den Folien WS 26/27 (04_ewb002vor_Op_Mess_Skalenniveaus_wise26_27.pdf, Stud.IP 03.11.2026) am 07.11.2026: Der Inhalt ist wortgleich mit der vorläufigen Fassung aus dem WS 25/26. Geändert sind nur der Vorlesungsplan (Folien 3 und 32) und die Reihenfolge der letzten beiden Folien (Folie 31 jetzt „Ihre weiteren Fragen“, Folie 32 der Vorlesungsplan). Live-online-Vorlesung (Vertretung Brodowy), Beginn 8:15 Uhr.",
   "quellen": [
     {
-      "datei": "ewb002 - WS 25:26/1. ewb002.1/Vorlesung_ewb002/04_ewb002vor_Op_Mess_Skalenniveaus_wise25_26.pdf",
-      "art": "Folien WS 25/26 (vorläufig – WS-26/27-Folien noch nicht in Stud.IP, Stand 01.11.2026)",
+      "datei": "ewb002.1/Sitzung_04/04_ewb002vor_Op_Mess_Skalenniveaus_wise26_27.pdf",
+      "art": "Folien WS 26/27",
       "seiten": "1–32"
     },
     {
@@ -29,6 +29,16 @@
       "datei": "Literatur/Tausendpfund_2018_Quantitative-Methoden-Politikwissenschaft.pdf",
       "art": "Literaturempfehlung (Hausaufgabe h01)",
       "seiten": "107–137"
+    },
+    {
+      "datei": "../ewb002 - WS 25:26/1. ewb002.1/Vorlesung_ewb002/04_ewb002vor_Op_Mess_Skalenniveaus_wise25_26.pdf",
+      "art": "Folien WS 25/26 (Grundlage der vorläufigen Fassung vom 01.11.2026, inhaltlich gleich)",
+      "seiten": "1–32"
+    },
+    {
+      "datei": "ewb002.1/Aufnahmen_Transkripte/ScreenRecording_11-05-2026 08-37-11_1.mp4 und …08-56-56_1.mp4 (Transkripte 2026-11-05_ewb002.1_Teil1/Teil2_Transkript.txt)",
+      "art": "Bildschirmaufnahme der Online-Vorlesung (Nachbereitung)",
+      "seiten": "Teil 1 19 Min. (ab 8:37, Folien 7–16), Teil 2 45 Min. (ab 8:57, Folien 20–30)"
     }
   ],
   "lernziele": [
@@ -61,7 +71,8 @@
         "f11",
         "f12",
         "f13",
-        "f30"
+        "f30",
+        "n06"
       ],
       "erklaerung_abschnitt": "Empirisches und numerisches Relativ"
     },
@@ -92,7 +103,10 @@
         "f23",
         "f31",
         "f32",
-        "f35"
+        "f35",
+        "n01",
+        "n02",
+        "n03"
       ],
       "erklaerung_abschnitt": "Skalenniveaus und zulässige Transformationen"
     },
@@ -103,7 +117,9 @@
       "fragen": [
         "f24",
         "f25",
-        "f26"
+        "f26",
+        "n04",
+        "n05"
       ],
       "erklaerung_abschnitt": "Ausblick: Skalenniveau und angemessene Statistiken"
     }
@@ -123,7 +139,7 @@
     {
       "titel": "Hinweis und Einordnung",
       "folien": "1–3",
-      "text": "> **Vorläufige Fassung:** Vorläufig aufbereitet aus den Folien des WS 25/26 (04_ewb002vor_Op_Mess_Skalenniveaus_wise25_26.pdf), weil die Folien für WS 26/27 noch nicht in Stud.IP sind (Stand 01.11.2026). Die VL-Folien 02 und 03 waren im WS 26/27 bis auf Kleinigkeiten identisch – nach Upload abgleichen.\n\n**Worum geht es heute?** Die Vorlesung beantwortet eine der Leitfragen des Moduls (Folie 2): *„Was heißt es, wissenschaftlich etwas zu messen bzw. zu erfassen? Und wie geht es?“* Sie baut direkt auf Sitzung 02 auf: Dort hast du gelernt, was **Variablen** sind (Merkmale von Merkmalsträgern) und welche **Eigenschaften ihre Ausprägungen** haben können (stetig/diskret, dichotom/polytom, disjunkt, erschöpfend). Heute geht es darum, wie man aus einem abstrakten Begriff überhaupt eine messbare Variable macht und **welche Zahlen man ihr sinnvoll geben darf**.\n\nDer Vorlesungsplan (Folie 3) stellt das Thema im WS 25/26 in KW 45 als Sitzung 04 vor; im WS 26/27 ist „Messtheorie: Operationalisierung, Messen, Skalenniveaus“ ebenfalls Sitzung 04 (Folie 3 der VL vom 29.10.2026).\n\n**Kurz erklärt:** Der rote Faden der Sitzung hat drei Schritte: **(1) Operationalisieren** – einen Begriff beobachtbar machen; **(2) Messen** – den beobachteten Ausprägungen Zahlen zuordnen, und zwar so, dass die Zahlen die echten Beziehungen widerspiegeln; **(3) Skalenniveau** – daraus folgt, welche Rechnungen mit diesen Zahlen erlaubt sind. Dieser dritte Schritt ist die Brücke zur Statistik im Dezember (Folie 25)."
+      "text": "> **Abgeglichen mit den Folien WS 26/27 (07.11.2026):** Die Folien sind inhaltlich wortgleich mit der vorläufigen Fassung (Folien WS 25/26). Geändert sind nur der Vorlesungsplan (Folie 3) und die Reihenfolge der letzten beiden Folien.\n\n**Worum geht es heute?** Die Vorlesung beantwortet eine der Leitfragen des Moduls (Folie 2): *„Was heißt es, wissenschaftlich etwas zu messen bzw. zu erfassen? Und wie geht es?“* Sie baut direkt auf Sitzung 02 auf: Dort hast du gelernt, was **Variablen** sind (Merkmale von Merkmalsträgern) und welche **Eigenschaften ihre Ausprägungen** haben können (stetig/diskret, dichotom/polytom, disjunkt, erschöpfend). Heute geht es darum, wie man aus einem abstrakten Begriff überhaupt eine messbare Variable macht und **welche Zahlen man ihr sinnvoll geben darf**.\n\nDer Vorlesungsplan (Folie 3) führt „Messtheorie: Operationalisierung, Messen, Skalenniveaus“ als Sitzung 04 in KW 45.\n\n**Kurz erklärt:** Der rote Faden der Sitzung hat drei Schritte: **(1) Operationalisieren** – einen Begriff beobachtbar machen; **(2) Messen** – den beobachteten Ausprägungen Zahlen zuordnen, und zwar so, dass die Zahlen die echten Beziehungen widerspiegeln; **(3) Skalenniveau** – daraus folgt, welche Rechnungen mit diesen Zahlen erlaubt sind. Dieser dritte Schritt ist die Brücke zur Statistik im Dezember (Folie 25)."
     },
     {
       "titel": "Operationalisieren: vom Konstrukt zur Variablen",
@@ -183,12 +199,18 @@
     {
       "titel": "Vorbereitung aufs Seminar und Ausblick",
       "folien": "26–32",
-      "text": "**Folien 26–32:** Fragen-Folie; „Inhaltseinheit im Seminar dazu in der nächsten Woche“ (Seminar S05 „Messtheorie“ am Di 10.11.2026).\n\n**Vorbereitung (Folie 28):** Literaturempfehlung Tausendpfund, M. (2018): *Quantitative Methoden in der Politikwissenschaft. Eine Einführung.* Springer: Wiesbaden. Kap. 7 Operationalisierung (S. 107–137). „Bitte arbeiten Sie zur Vorbereitung auf die nächste Seminareinheit die Vorlesungsfolien, lesen Sie den Textauszug und bringen Sie Ihre Fragen zum Seminar mit.“\n\n**Leitfragen (Folie 29):** 1. Was ist mit dem Begriff Operationalisierung gemeint? 2. Wie wird Messen definiert? 3. Wie werden die in dem Text genannten Skalenniveaus charakterisiert? → als **Hausaufgabe h01** vollständig ausgearbeitet (eigene PDF).\n\nDer Text liegt vollständig im Ordner `Literatur/` (Tausendpfund_2018_Quantitative-Methoden-Politikwissenschaft.pdf). Folie 30–31: Ausblick auf die nächste Woche mit dem Vorlesungsplan (Sitzung 05: Datenerhebung). Folie 32: Weitere Fragen und Anmerkungen in Präsenz oder im Forum der Vorlesung auf Stud.IP."
+      "text": "**Folien 26–32:** Fragen-Folie; „Inhaltseinheit im Seminar dazu in der nächsten Woche“ (Seminar S05 „Messtheorie“ am Di 10.11.2026).\n\n**Vorbereitung (Folie 28):** Literaturempfehlung Tausendpfund, M. (2018): *Quantitative Methoden in der Politikwissenschaft. Eine Einführung.* Springer: Wiesbaden. Kap. 7 Operationalisierung (S. 107–137). „Bitte arbeiten Sie zur Vorbereitung auf die nächste Seminareinheit die Vorlesungsfolien, lesen Sie den Textauszug und bringen Sie Ihre Fragen zum Seminar mit.“\n\n**Leitfragen (Folie 29):** 1. Was ist mit dem Begriff Operationalisierung gemeint? 2. Wie wird Messen definiert? 3. Wie werden die in dem Text genannten Skalenniveaus charakterisiert? → als **Hausaufgabe h01** vollständig ausgearbeitet (eigene PDF).\n\nDer Text liegt vollständig im Ordner `Literatur/` (Tausendpfund_2018_Quantitative-Methoden-Politikwissenschaft.pdf). Folie 30: Ausblick auf die nächste Woche (Sitzung 05: Datenerhebung). Folie 31: Weitere Fragen und Anmerkungen in Präsenz oder im Forum der Vorlesung auf Stud.IP. Folie 32: Vorlesungsplan WS 26/27."
     },
     {
       "titel": "Übungsaufgaben aus dem WS 25/26 (Tutorium und Klausur)",
       "folien": "",
       "text": "Zusätzliche Übung zum Thema aus Nadines Unterlagen des WS 25/26: **Tutorium-Aufgabenblatt 2** „Operationalisierung, Messen, Skalenniveaus“ und **Aufgabe 8 der Klausur WS 25/26** (Gedächtnisprotokoll). Alle Lösungen sind **selbst erarbeitet** (keine offiziellen Lösungen vorhanden).\n\n{{aufgabe a04}}\n\n{{aufgabe a05}}\n\n{{aufgabe a06}}\n\n{{aufgabe a07}}\n\n{{aufgabe a08}}\n\n{{aufgabe a09}}"
+    },
+    {
+      "titel": "Nachbereitung (Aufnahme vom 05.11.2026)",
+      "nachbereitung": true,
+      "folien": "7–25",
+      "text": "**Quelle:** zwei Bildschirmaufnahmen der Online-Vorlesung (Vertretung Herr Brodowy). **Teil 1** beginnt um 8:37 Uhr bei Folie 7, **Teil 2** um 8:57 Uhr bei Folie 20. Zeitmarken: „T1 [MM:SS]“ = Minute in Teil 1, „T2 [MM:SS]“ = Minute in Teil 2. **Nicht aufgenommen:** der Anfang der Vorlesung (8:15–8:37 Uhr, Folien 1–6) und ein kurzes Stück zwischen den beiden Teilen (etwa Folien 17–19, rund 3 Minuten). Für diese Folien bleibt der Lerntext oben die einzige Quelle.\n\n## Folie 7: Das Pfaddiagramm (Statusmodell über Generationen)\nT1 [00:00–01:52] Brodowy erklärt das Diagramm so: Der **berufliche Status und der Bildungsgrad der Eltern** wirken auf den **Bildungsgrad der Person** (des Kindes). Der Bildungsgrad der Person wirkt wiederum auf ihren **beruflichen Status**. Zur Messung nennt er für den **Bildungsgrad**: höchster allgemeinbildender Schulabschluss, danach Ausbildungsberuf bzw. Studium (höchster akademischer Grad); für den **beruflichen Status**: Position oder Einkommen. Danach stellt sich die Frage, was „Messen“ eigentlich bedeutet.\n\n**Kurz erklärt:** Das ist genau die Operationalisierung, die du in Aufgabe a01 gemacht hast: Aus dem Konstrukt „Bildungsgrad“ werden messbare Indikatoren (Schulabschluss, Ausbildung, Studium). Die Pfeile zeigen, welche Variable auf welche wirkt – also unabhängige → abhängige Variable.\n\n## Folien 8–11: Messen im Alltag und das Stöcke-Beispiel\nT1 [02:20–04:40] **Messen kennst du schon aus dem Alltag:** Lineal im Mathematikunterricht, Schallpegelmesser bei Konzerten, Waage beim Kochen, Strich am Türrahmen oder Zollstock beim Messen von Kindern. Immer geht es darum, den **Ausprägungsgrad eines Attributs** zu bestimmen und ihm **nach bestimmten Regeln Zahlen zuzuordnen**. Schwieriger wird es bei **subjektiven Dingen** – Stärke von Empfindungen, Gefühlen, Meinungen. Deshalb fragt die Wissenschaft nicht nur, **wie** man misst, sondern auch, **was** man überhaupt messen kann und **was die Messergebnisse bedeuten**.\n\nT1 [05:08–08:52] Beim **Stöcke-Beispiel** betont er die vier Regeln für die Zahlen: Längere Stöcke bekommen **größere Zahlen**, gleich lange Stöcke **die gleiche Zahl**, es gibt **keine negativen Längen** und damit keine negativen Zahlen, und legt man zwei Stöcke **aneinander**, bekommt das Ganze die **Summe** der beiden Zahlen. Ziel: **Die Welt der Zahlen hat die gleiche Struktur wie die Welt der Objekte – nur dann spricht man von Messen.** Messen ist also eine Abbildung der Objekte in die reellen Zahlen, bei der die empirischen Relationen **vollständig erhalten** bleiben.\n\n## Folie 13: Kann man Empfindungen messen?\nT1 [09:48–11:12] Die **Campbell-Kommission** (1938/1940) kam zu einem negativen Ergebnis. Ihre Begründung: Die einzige bekannte Form des Quantifizierens beruhte auf dem **Aneinanderlegen** von Objekten – und psychologische oder gesellschaftswissenschaftliche Größen kann man nicht aneinanderlegen. **Aus heutiger Sicht** sind diese klassischen Messstrukturen für solche Größen tatsächlich ungeeignet. Seit den **1960er-Jahren** gibt es aber **Alternativen** (die axiomatische Messtheorie). Deshalb ist Messen **auch in den Gesellschafts- und Verhaltenswissenschaften** möglich – Meinungsbilder und Einstellungsmessungen in Studien sind ganz alltäglich.\n\n**Kurz erklärt:** Gefühle kann man nicht wie Stöcke aneinanderlegen. Man kann aber prüfen, ob die **Beziehungen** zwischen den Antworten (z. B. „mehr“, „weniger“) zu den Beziehungen zwischen den Zahlen passen – dann ist es trotzdem eine Messung, nur eben auf einem bestimmten Skalenniveau.\n\n## Folien 14–16: Homomorphe Abbildung und die drei Probleme\nT1 [11:40–16:20] Wiederholung des Kerns: Messen ist eine **strukturerhaltende („homomorphe“) Abbildung** eines empirischen in ein numerisches Relativ – die empirischen Relationen bleiben in den Zahlen erhalten. Die **Messtheorie** fragt, unter welchen Bedingungen Messen möglich ist; diese Bedingungen sind als **Axiome** formuliert (ein solches Axiomensystem heißt auch **Messstruktur**). Bei jedem konkreten Fall stellen sich die **drei Probleme des Messens**: (1) **Repräsentation** – ist Messung überhaupt möglich? (gelöst durch Axiome und den mathematischen Beweis, das **Repräsentationstheorem**), (2) **Eindeutigkeit** – gibt es mehrere passende Zahlenzuordnungen, und wie hängen sie zusammen? (**zulässige Transformationen**), (3) **Bedeutsamkeit** von Aussagen. Als Beispiel nennt er Prof. Zimmers Folie zum **Geschlecht** als polytomes Merkmal (männlich, weiblich, divers).\n\n## Folie 20: Bedeutsamkeit am Temperaturbeispiel\nT2 [00:00–03:44] Er betont vorweg: Man sollte schon **früh bei der Planung** einer empirischen Forschung festlegen, welche **statistische Auswertung** man später machen will – denn sie hängt vom Skalenniveau ab. Dann das Beispiel: Eine Aussage ist empirisch **bedeutsam**, wenn ihr **Wahrheitswert** bei allen zulässigen Umrechnungen gleich bleibt. **15 °C und 30 °C** sind in Fahrenheit **59 °F und 86 °F** – das ist **nicht** doppelt so viel. „Heute ist es doppelt so warm wie gestern“ ist also **nicht bedeutsam**, weil °C und °F **Intervallskalen** mit **willkürlichem Nullpunkt** sind (bei °C der Gefrierpunkt des Wassers). Bedeutsam ist dagegen: „Heute ist es **um 15 Grad** wärmer als gestern.“\n\n## Folie 21: Die Skalenniveaus – wie Brodowy sie erklärt\nT2 [04:12–16:20]\n- **Grundregel:** Was auf einem **niedrigeren** Skalenniveau möglich ist, ist auf einem **höheren** immer auch möglich. Neben den vier Niveaus der Folie gibt es noch die **Absolutskala** (höchstes Niveau, steht nicht in der Tabelle).\n- **Nominalskala:** nur **gleich / verschieden**. Beispiele: **Geschlecht**, **Automarken** („Wer hat die gleiche Marke?“).\n- **Ordinalskala:** zusätzlich eine **Rangordnung**. Beispiele: **Selbsteinschätzung der Gesundheit** von 1 = sehr schlecht bis 5 = sehr gut, **Schulnoten**. Man darf **nicht** sagen „5 ist fünfmal besser als 1“, denn die **Abstände sind nicht gleich** – verschiedene Personen schätzen den Abstand zwischen 4 und 5 und zwischen 1 und 2 ganz unterschiedlich ein.\n- **Intervallskala:** zusätzlich **gleiche Abstände**, Aussagen über **Differenzen** sind möglich – aber keine über Verhältnisse. Beispiel: Temperatur in °C bzw. °F.\n- **Verhältnis- bzw. Ratioskala:** zusätzlich Aussagen über **Verhältnisse**. Beispiel: **Einkommen** – 8.000 Schweizer Franken im Monat sind **doppelt so viel** wie 4.000; natürlicher Nullpunkt = gar kein Einkommen.\n- **Mitmach-Übung (T2 [10:16–12:36]):** 1.000 € in Dänische Kronen umrechnen, dann 2.000 € – man bekommt (bis auf Rundung und Kursschwankung) **genau doppelt so viele** Kronen. Bei Geld bleibt „doppelt so viel“ also bei der Umrechnung erhalten – **ganz anders als bei °C → °F**.\n\n**Prüfungshinweis von Brodowy (T2 [13:04–16:20]):** Er findet den Begriff **„Verhältnisskala“** hilfreicher als „Ratioskala“. Ihm fällt auf, dass sich die meisten nur den **natürlichen Nullpunkt** merken. Das ist richtig, aber man soll sich **vor allem** merken: **Auf der Verhältnisskala sind Aussagen über Verhältnisse möglich** („doppelt so viel“). Bei der Begründung des Skalenniveaus also **immer beides** nennen.\n\n## Folie 22: Lösung der Aufgabe zu Beispiel 1 (Maus / Tablet), in der Vorlesung besprochen\nT2 [16:48–29:52] Die Studierenden haben die Aufgabe im Chat gelöst; Brodowy hat bestätigt:\n- **Unabhängige Variable:** das **Eingabegerät** mit den Ausprägungen „Tablet und Stift“ und „Maus“ → **nominal**. **Merksatz:** *Wenn bei einer Variablen keine Rangordnung möglich ist, ist sie nominalskaliert* – Maus ist nicht „höher“ als Tablet.\n- **Abhängige Variablen:** Reaktionszeit, Anspannung der Unterarmmuskulatur, Befinden.\n- **Reaktionszeit in Millisekunden** → **Verhältnisskala** als **höchstmögliches** Skalenniveau: natürlicher Nullpunkt (0 ms) **und** Verhältnisaussagen sind sinnvoll (10 ms sind doppelt so viel wie 5 ms – wie beim Laufen: 40 Sekunden sind doppelt so lange wie 20 Sekunden).\n- **Befinden auf der grafischen Skala:** Er nimmt eine Skala von **1 (sehr schlecht) bis 5 (sehr gut)** an → **ordinal**, wie die Selbsteinschätzung der Gesundheit.\n- **Muskelanspannung (EMG):** „ein bisschen schwierig“. Nach seiner Recherche ist das **Rohsignal** eines EMG **intervallskaliert**, **abgeleitete EMG-Parameter** gelten als **verhältnisskaliert**. Das erwartet er aber **nicht** von jedem, weil man dafür wissen muss, wie eine EMG-Messung funktioniert.\n\n**Abgleich mit unserer Lösung (a02):** Unabhängige Variable, Reaktionszeit und Befinden stimmen mit der Lösung oben überein (Befinden dort „streng genommen ordinal“). **Abweichung:** Bei der Muskelanspannung steht oben „Verhältnisskala“. Laut Vorlesung ist das nur für **abgeleitete** EMG-Werte richtig, das **Rohsignal** ist intervallskaliert. Die Lösung oben bleibt unverändert stehen, diese Ergänzung gilt zusätzlich.\n\n## Folie 23: Lösung der Aufgabe zu Beispiel 2 (Selbstregulation), in der Vorlesung besprochen\nT2 [30:20–34:32] **Unabhängige Variable:** Selbstregulation; **abhängige Variable:** Arbeitszufriedenheit. Das Skalenniveau „**kommt darauf an, wie man misst**“: Werden beide mit Fragebogen-Selbsteinschätzungen auf einer Skala von **1 bis 5** erfasst („Wie hoch ist Ihre Arbeitszufriedenheit? 1 = ganz niedrig, 5 = sehr hoch“), sind sie **ordinalskaliert**. Das passt zu unserer Lösung a03 (einzelne Antworten ordinal). Den Gesamtwert über mehrere Fragen als intervallskaliert zu behandeln, hat Brodowy nicht angesprochen.\n\n## Folien 24–25: Zusammenfassung und Brücke zur Statistik\nT2 [34:32–39:40] Zusammenfassung wie auf Folie 24 (Messen = Zuordnung von Zahlen zu Objekten nach Regeln, homomorphe Abbildung, drei Probleme). Dann der Ausblick auf die Statistik:\n- **Lagemaße (zentrale Tendenz):** **Modus** = häufigster Wert, am einfachsten zu bestimmen; **Median** = 50 % liegen darüber, 50 % darunter (Beispiel „Medianeinkommen“ in den Medien); **arithmetisches Mittel** = Durchschnitt (z. B. Durchschnittseinkommen). Das **geometrische Mittel** kommt in den Seminaren **nicht** vor.\n- **Beispiel Geschlecht:** Ein arithmetisches Mittel ist sinnlos, ein Median auch (dafür bräuchte man eine Rangordnung) – nur der **Modus** geht.\n- **Streuungsmaße:** **Perzentile**, **Interquartilsabstand**, **Varianz** – was man berechnen darf, hängt vom Skalenniveau ab.\n- **Signifikanztests:** **χ²-Test** (sprich: Chi-Quadrat) bei **nominalskalierten** Variablen. Der **t-Test** vergleicht **arithmetische Mittel** – man braucht also Daten, für die man ein arithmetisches Mittel berechnen darf.\n\n**Prüfungshinweis (T2 [41:04–42:00], Antwort auf eine Chatfrage):** Im Seminar kommen Modus, Median und arithmetisches Mittel **vor**, das geometrische Mittel **nicht**. Der **Interquartilsabstand** spielt eine Rolle, die Signifikanztests „größtenteils“ auch. Alles wird in den Statistik-Sitzungen noch genauer behandelt.\n\n**Hinweis zum Schluss (T2 [42:28–43:52]):** Brodowy stellt „immer wieder fest“, dass die **Skalenniveaus nicht so schnell von allen verstanden** werden. Er rät deshalb dringend, die **Literatur** (Tausendpfund 2018, Kap. 7) mit den **Leitfragen** zu lesen – das ist die Hausaufgabe h01 für das Seminar am 10.11.\n\n**Kurz erklärt:** Die ganze Sitzung läuft auf eine Frage hinaus: **Was darf ich mit meinen Zahlen machen?** Das Skalenniveau entscheidet, welche Aussagen bedeutsam sind (doppelt so warm? doppelt so viel Geld?) und welche Statistik erlaubt ist (Modus, Median, Mittelwert; χ²-Test oder t-Test). Deshalb soll man es schon bei der Planung bedenken.\n\n**Prüfungsfalle:** Bei der Begründung „Verhältnisskala“ **nur** den natürlichen Nullpunkt zu nennen, reicht laut Brodowy nicht – immer auch sagen, dass **Verhältnisaussagen** sinnvoll sind (mit Beispiel: „10 ms sind doppelt so lang wie 5 ms“). Und bei Fragebogen-Skalen (1–5) ist die vorsichtige Antwort **ordinal**."
     }
   ],
   "definitionen": [
@@ -1133,18 +1155,126 @@
       "text": "Eine Verhältnisskala hat zusätzlich zu gleichen Abständen einen natürlichen [[Nullpunkt]].",
       "erklaerung": "Folie 21: „Es gibt einen natürlichen Nullpunkt in dieser Skala: CHF 0“.",
       "folie": "21"
+    },
+    {
+      "id": "n01",
+      "baustein": "kernaussage",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Woran erkennst du, dass eine Variable verhältnisskaliert (ratioskaliert) ist? Erkläre es am Beispiel Einkommen und grenze es von der Temperatur in °C ab.",
+      "musterloesung": "Verhältnisskala: gleiche Abstände, natürlicher Nullpunkt (0 = gar kein Einkommen) und vor allem sind Aussagen über Verhältnisse sinnvoll: 8.000 Franken sind doppelt so viel wie 4.000; das bleibt auch bei der Umrechnung in eine andere Währung so (1.000 € → x Kronen, 2.000 € → 2x Kronen). Temperatur in °C ist nur intervallskaliert: Nullpunkt willkürlich (Gefrierpunkt), 30 °C sind nicht doppelt so warm wie 15 °C – in Fahrenheit 86 °F und 59 °F. Bedeutsam ist nur die Differenz („um 15 Grad wärmer“).",
+      "bewertungspunkte": [
+        "natürlicher Nullpunkt beim Einkommen",
+        "Verhältnisaussagen sinnvoll (doppelt so viel), bleibt bei Umrechnung erhalten",
+        "°C: willkürlicher Nullpunkt, keine Verhältnisaussagen (Umrechnung °F), nur Differenzen"
+      ],
+      "punkte": 3,
+      "erklaerung": "Nachbereitung Aufnahme 05.11., T2 [09:20–16:20], Folien 20–21. Brodowy: nicht nur den Nullpunkt, vor allem die Verhältnisaussagen nennen.",
+      "folie": "20–21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n02",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Variablen aus Beispiel 1 (Maus/Tablet) ihrem Skalenniveau zu – so, wie es in der Vorlesung besprochen wurde.",
+      "kategorien": [
+        "nominal",
+        "ordinal",
+        "Verhältnisskala"
+      ],
+      "elemente": [
+        {
+          "text": "Eingabegerät (Tablet und Stift / Maus)",
+          "kategorie": "nominal"
+        },
+        {
+          "text": "Befinden auf einer Skala von 1 = sehr schlecht bis 5 = sehr gut",
+          "kategorie": "ordinal"
+        },
+        {
+          "text": "Reaktionszeit in Millisekunden",
+          "kategorie": "Verhältnisskala"
+        }
+      ],
+      "erklaerung": "Nachbereitung Aufnahme 05.11., T2 [16:48–28:00], Folie 22. Eingabegerät: keine Rangordnung → nominal. Befinden 1–5: Rangordnung, aber keine gleichen Abstände → ordinal. Reaktionszeit: natürlicher Nullpunkt 0 ms, 10 ms doppelt so lang wie 5 ms → Verhältnisskala.",
+      "folie": "22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n03",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Merksatz aus der Vorlesung: Ist bei einer Variablen keine [[Rangordnung]] möglich, dann ist sie [[nominal]]skaliert.",
+      "erklaerung": "Nachbereitung Aufnahme 05.11., T2 [20:32]. Beispiel: Maus ist nicht „höher“ als Tablet.",
+      "folie": "22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n04",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Für eine Variable mit den Ausprägungen „männlich“, „weiblich“, „divers“: Welche Lagemaße darf man sinnvoll bestimmen?",
+      "optionen": [
+        "Modus",
+        "Median",
+        "Arithmetisches Mittel",
+        "Geometrisches Mittel"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Nachbereitung Aufnahme 05.11., T2 [38:16]: Geschlecht ist nominal. Nur der Modus (häufigster Wert) geht. Für den Median bräuchte man eine Rangordnung, für das arithmetische Mittel gleiche Abstände – beides gibt es hier nicht.",
+      "folie": "25",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n05",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum soll man schon bei der Planung einer empirischen Untersuchung an das Skalenniveau denken?",
+      "antwort": "Weil das Skalenniveau bestimmt, welche Aussagen bedeutsam sind und welche statistischen Auswertungen später erlaubt sind (z. B. arithmetisches Mittel und t-Test nur bei metrischen Daten, bei nominalen Daten nur Modus bzw. χ²-Test). Misst man zu grob, kann man die geplante Auswertung nachher nicht machen.",
+      "erklaerung": "Nachbereitung Aufnahme 05.11., T2 [00:00] und [36:24–39:40], Folien 20 und 25.",
+      "folie": "20, 25",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "n06",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum kam die Campbell-Kommission (1938/1940) zu dem Ergebnis, dass man Empfindungen nicht messen kann – und warum gilt das heute nicht mehr?",
+      "antwort": "Die einzige damals bekannte Form der Quantifizierung beruhte auf dem Aneinanderlegen von Objekten (wie bei Stöcken); psychologische oder gesellschaftswissenschaftliche Größen kann man nicht aneinanderlegen. Seit den 1960er-Jahren gibt es mit der axiomatischen Messtheorie Alternativen: Messen heißt, dass die empirischen Relationen in den Zahlen erhalten bleiben (homomorphe Abbildung). Deshalb ist Messen auch in den Gesellschafts- und Verhaltenswissenschaften möglich.",
+      "erklaerung": "Nachbereitung Aufnahme 05.11., T1 [09:48–11:12], Folie 13.",
+      "folie": "13",
+      "pruefungsrelevant": false
     }
   ],
   "pruefungshinweise": [
     "Folie 25: „Wichtige Information!! Schlägt die Brücke zur Verwendung von verschiedenen statistischen Kennwerten …“ – Zuordnung Skalenniveau → Modus/Median/Mittelwert, Perzentile/Varianz, χ²-Test/t-Test.",
     "Klausur WS 25/26, Aufgabe 8: höchstmögliches Skalenniveau für Variablen angeben und begründen (Pflegestufe, Frauenanteil, Blutgruppe) – typischer Aufgabentyp.",
     "Tutorium WS 25/26, Aufgabenblatt 2: Konstrukt/Operationalisierung/Indikator definieren, Hypothese operationalisieren, Messen definieren, drei Probleme des Messens, empirisches/numerisches Relativ, Skalenniveaus bestimmen.",
-    "Bedeutsamkeit am Temperaturbeispiel (Folie 20) – „doppelt so warm“ ist bei °C nicht bedeutsam; mit Umrechnung nach °F begründen."
+    "Bedeutsamkeit am Temperaturbeispiel (Folie 20) – „doppelt so warm“ ist bei °C nicht bedeutsam; mit Umrechnung nach °F begründen.",
+    "(Aufnahme) Verhältnisskala: nicht nur den natürlichen Nullpunkt nennen, sondern vor allem, dass Aussagen über Verhältnisse möglich sind („doppelt so viel“) – Brodowy findet „Verhältnisskala“ als Begriff einprägsamer als „Ratioskala“ (T2 [13:04–16:20]).",
+    "(Aufnahme) Merksatz: Ist bei einer Variablen keine Rangordnung möglich, ist sie nominalskaliert (T2 [20:32]).",
+    "(Aufnahme) Seminar/Statistik: Modus, Median und arithmetisches Mittel kommen vor, das geometrische Mittel nicht; Interquartilsabstand spielt eine Rolle; Signifikanztests größtenteils (T2 [41:04]).",
+    "(Aufnahme) Skalenniveaus werden laut Brodowy oft nicht schnell verstanden – Tausendpfund (2018) Kap. 7 mit den Leitfragen lesen (T2 [42:28])."
   ],
   "offene_fragen": [
-    "Vorläufig aufbereitet aus den Folien des WS 25/26 (04_ewb002vor_Op_Mess_Skalenniveaus_wise25_26.pdf), weil die Folien für WS 26/27 noch nicht in Stud.IP sind (Stand 01.11.2026). Die VL-Folien 02 und 03 waren im WS 26/27 bis auf Kleinigkeiten identisch – nach Upload abgleichen.",
-    "Folie 22: Wie sah die „graphische Skala“ für das Befinden aus (abgestufte Kästchen/Gesichter oder durchgehende Linie)? Davon hängt ab, ob ordinal oder (pseudo-)intervallskaliert die erwartete Antwort ist.",
-    "Folie 21: Die Spalte heißt „Zulässige Transformationen“, zeigt aber die Relationen (=, <, Differenzen, Verhältnisse). Sollen in der Klausur auch die Transformationen selbst (z. B. positiv linear bei Intervall) genannt werden?"
+    "Folie 22: Wie sah die „graphische Skala“ für das Befinden aus (abgestufte Kästchen/Gesichter oder durchgehende Linie)? Davon hängt ab, ob ordinal oder (pseudo-)intervallskaliert die erwartete Antwort ist. – Nachbereitung 05.11.: Brodowy nimmt eine Skala 1–5 an und sagt „ordinal“ (T2 [27:32–28:00]).",
+    "Folie 21: Die Spalte heißt „Zulässige Transformationen“, zeigt aber die Relationen (=, <, Differenzen, Verhältnisse). Sollen in der Klausur auch die Transformationen selbst (z. B. positiv linear bei Intervall) genannt werden?",
+    "Folie 22, Muskelanspannung (EMG): Lösung a02 sagt „Verhältnisskala“, laut Vorlesung (T2 [28:56–29:52]) ist das Rohsignal intervallskaliert und nur abgeleitete EMG-Parameter sind verhältnisskaliert – Brodowy erwartet das aber nicht von allen. Ggf. im Seminar 10.11. nachfragen.",
+    "Aufnahme 05.11.: Anfang der Vorlesung (8:15–8:37, Folien 1–6) und ca. 3 Minuten zwischen den Teilen (etwa Folien 17–19) fehlen."
   ],
   "auffaelligkeiten": [
     "Grundlage sind die Folien des WS 25/26 – alle Folienangaben nach Upload der WS-26/27-Folien prüfen.",

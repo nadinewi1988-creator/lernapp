@@ -8,12 +8,12 @@
   "thema": "Untersuchungsplanung und Auswahlverfahren",
   "thema_in_app": "war schon da",
   "stand": "geprueft",
-  "hinweis": "Vorläufig aufbereitet aus den Folien des WS 25/26 (04_ewb002.2_Untersuchungsplanung_und_Auswahlverfahren.pdf), weil die Folien T04 für WS 26/27 noch nicht in Stud.IP sind (Stand 01.11.2026) – abgleichen, sobald sie hochgeladen sind. Die Leitfragen der Sitzung (Folie 3) sind dieselben wie in der Hausaufgabe h01 aus VL S03 (29.10.2026) – die ausführlichen Antworten stehen dort. Diese Sitzung enthält die Arbeitsphasen (Folien 4–12); alle Lösungen sind selbst erarbeitet.",
+  "hinweis": "Abgeglichen mit den Folien T04 des WS 26/27 (Stud.IP 03.11.2026) am 07.11.2026. Gegenüber der vorläufigen Fassung (Folien WS 25/26) neu: Folie 4 (fünf Phasen einer Untersuchung nach Häder 2019, S. 75), andere Beispiele auf Folie 6 (Schulhund statt Smartboards/digitale Medien), anderes Video auf Folie 8 (NDR: Smartphones in der Schule statt SWR: Handyverbot); alle Folien ab Folie 4 rücken dadurch eine Nummer weiter. Alles andere ist wortgleich. Die Leitfragen (Folie 3) sind dieselben wie in der Hausaufgabe h01 aus VL S03 (29.10.2026). Alle Lösungen sind selbst erarbeitet.",
   "quellen": [
     {
-      "datei": "ewb002 - WS 25:26/2. ewb002.2/Seminar_ewb002/04_ewb002.2_Untersuchungsplanung_und_Auswahlverfahren.pdf",
-      "art": "Folien WS 25/26 (vorläufig – Folien T04 WS 26/27 noch nicht in Stud.IP)",
-      "seiten": "1–13"
+      "datei": "ewb002.2/Sitzung_04/T04_ewb002.2_Untersuchungsplanung_und_Auswahlverfahren.pdf",
+      "art": "Folien WS 26/27",
+      "seiten": "1–14"
     },
     {
       "datei": "Literatur/Tachtsoglou-Koenig_2017_Statistik-fuer-Erziehungswissenschaftler.pdf",
@@ -24,13 +24,18 @@
       "datei": "Literatur/Haeder_2019_Empirische-Sozialforschung.pdf",
       "art": "Literatur zu den Leitfragen (Folie 3), Kap. 4/4.1 – ausgearbeitet in Hausaufgabe h01 aus VL S03",
       "seiten": "73–83"
+    },
+    {
+      "datei": "../ewb002 - WS 25:26/2. ewb002.2/Seminar_ewb002/04_ewb002.2_Untersuchungsplanung_und_Auswahlverfahren.pdf",
+      "art": "Folien WS 25/26 (Grundlage der vorläufigen Fassung vom 01.11.2026)",
+      "seiten": "1–13"
     }
   ],
   "lernziele": [
     {
       "text": "Du kannst für ein Forschungsvorhaben begründen, ob ein quantitatives, ein qualitatives oder ein Mixed-Methods-Design angemessen ist.",
       "art": "abgeleitet",
-      "quelle": "Folien 4–5",
+      "quelle": "Folien 5–6",
       "fragen": [
         "f13",
         "f14"
@@ -40,7 +45,7 @@
     {
       "text": "Du kannst Grundgesamtheit, Auswahlgesamtheit und Stichprobe unterscheiden und für ein Fallbeispiel die Grundgesamtheit genau definieren.",
       "art": "abgeleitet",
-      "quelle": "Folien 3, 9, 10",
+      "quelle": "Folien 3, 10, 11",
       "fragen": [
         "f02",
         "f03",
@@ -66,7 +71,7 @@
     {
       "text": "Du kannst für ein Fallbeispiel ein passendes Auswahlverfahren auswählen, begründen und beschreiben.",
       "art": "abgeleitet",
-      "quelle": "Folien 8–9",
+      "quelle": "Folien 9–10",
       "fragen": [
         "f16",
         "f17",
@@ -77,7 +82,7 @@
     {
       "text": "Du kannst Auswahlverfahren aus Umfragen kritisch beurteilen und sagen, auf wen sich die Ergebnisse verallgemeinern lassen.",
       "art": "abgeleitet",
-      "quelle": "Folien 6–7, 10–12",
+      "quelle": "Folien 7–8, 11–13",
       "fragen": [
         "f11",
         "f12",
@@ -87,10 +92,21 @@
         "f21"
       ],
       "erklaerung_abschnitt": "Arbeitsphase III: Befragung in der Mensa"
+    },
+    {
+      "text": "Du kannst die fünf Phasen einer Untersuchung nach Häder nennen und Arbeitsschritte zuordnen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 4",
+      "fragen": [
+        "f25",
+        "f26"
+      ],
+      "erklaerung_abschnitt": "Die fünf Phasen einer Untersuchung (Häder)"
     }
   ],
   "kurzfassung": [
     "Ob man quantitativ, qualitativ oder mit Mixed Methods forscht, entscheidet die Fragestellung: Zusammenhänge messen und prüfen → quantitativ; Erleben und Sichtweisen verstehen → qualitativ.",
+    "Eine Untersuchung läuft nach Häder (2019) in fünf Phasen: Projektplan, Design mit Erhebungsinstrumenten, Erhebung im Feld, Auswertung, Dokumentation und Publikation (Folie 4).",
     "Die Grundgesamtheit sind alle Einheiten, über die man etwas aussagen will; die Stichprobe ist die Teilmenge, die man tatsächlich untersucht; die Auswahlgesamtheit sind alle, die überhaupt eine Chance haben, in die Stichprobe zu kommen.",
     "Nur bei zufallsgesteuerten Auswahlverfahren (einfache, systematische, geschichtete Zufallsstichprobe, Klumpenstichprobe, mehrstufige Zufallsstichprobe) darf man mit Inferenzstatistik von der Stichprobe auf die Grundgesamtheit schließen.",
     "Nicht-zufallsgesteuerte Auswahlen – willkürlich (z. B. Straßen- oder Mensa-Umfrage) oder bewusst (extreme Fälle, Schneeball, Quota) – sind günstig und gut für erste Ideen, erlauben aber keine verallgemeinernden Aussagen.",
@@ -99,9 +115,9 @@
   ],
   "erklaerung": [
     {
-      "titel": "Hinweis: vorläufige Aufbereitung",
+      "titel": "Hinweis: abgeglichen mit den Folien WS 26/27",
       "folien": "",
-      "text": "**Vorläufig aufbereitet aus den Folien des WS 25/26 (04_ewb002.2_Untersuchungsplanung_und_Auswahlverfahren.pdf), weil die Folien T04 für WS 26/27 noch nicht in Stud.IP sind (Stand 01.11.2026) – abgleichen, sobald sie hochgeladen sind.**\n\nDie Folien der WS-25/26-Sitzung passen zum Thema in der App und zum Vorlesungsplan WS 26/27 (VL 03 „Untersuchungsplanung und Auswahlverfahren“). Sobald die echten Folien T04 da sind, wird abgeglichen – Abweichungen kommen dann als Ergänzung dazu, nichts wird ersetzt.\n\n**Zur Vorbereitung:** Die Hausaufgabe h01 aus der VL vom 29.10.2026 (Textvorbereitung Häder 2019 / Tachtsoglou/König 2017 – 3 Leitfragen) ist für diese Sitzung fällig. Ihre Leitfragen sind genau die Leitfragen auf Folie 3 dieser Sitzung."
+      "text": "**Abgeglichen mit den Folien T04 des WS 26/27 (Stud.IP 03.11.2026) am 07.11.2026.**\n\n**Was ist neu gegenüber der vorläufigen Fassung?**\n- **Folie 4 (neu):** Tabelle der fünf Phasen einer Untersuchung nach Häder (2019, S. 75) – eigener Abschnitt unten.\n- **Folie 6:** Die beiden Beispiele drehen sich jetzt um einen **Schulhund** (vorher: Smartboards bzw. digitale Medien). Aufgabe und Lösung sind angepasst.\n- **Folie 8:** Anderes Video – NDR-Beitrag „Ganz ohne Smartphone: Fünftklässler vermissen nichts“ (vorher: SWR-Umfrage zum Handyverbot). Aufgabe und Lösung sind angepasst.\n- **Folie 13:** Überschrift heißt jetzt richtig „6. Arbeitsphase III“.\n- Alle Folien ab Folie 4 rücken eine Nummer weiter (Folienangaben angepasst).\n\n**Zur Vorbereitung:** Die Hausaufgabe h01 aus der VL vom 29.10.2026 (Textvorbereitung Häder 2019 / Tachtsoglou/König 2017 – 3 Leitfragen) war für diese Sitzung fällig. Ihre Leitfragen sind genau die Leitfragen auf Folie 3."
     },
     {
       "titel": "Das Handwerkszeug: Grundgesamtheit, Stichprobe, Auswahlverfahren",
@@ -109,34 +125,39 @@
       "text": "**Leitfragen und Literatur (Folie 3):**\n1. Welche Phasen gibt es laut Häder in einem Forschungsprozess?\n2. Was ist mit zufallsgesteuerten Auswahlverfahren gemeint?\n3. Was ist mit nicht-zufallsgesteuerten Auswahlverfahren gemeint?\n\nLiteratur: Häder (2019), Kap. 4/4.1 (S. 73–83) und Tachtsoglou/König (2017), Kap. 10.1–10.5 (S. 258–270). Beide liegen in deinem Ordner `Literatur/`. Die ausführlichen Antworten stehen in der Hausaufgabe h01 (VL S03). Hier das Wichtigste, das du für die Arbeitsphasen brauchst:\n\n### Die drei Grundbegriffe\n- **Grundgesamtheit** (auch **Population**): alle Einheiten (meist Personen), über die man etwas aussagen will – z. B. alle 15-Jährigen, die in Deutschland zur Schule gehen (PISA 2012) (Tachtsoglou/König 2017, S. 259).\n- **Stichprobe**: die Teilmenge der Grundgesamtheit, die man wirklich untersucht. Sie wird **vor** der Untersuchung **nach bestimmten Regeln** gewonnen (S. 259).\n- **Auswahlgesamtheit**: alle Einheiten, die **tatsächlich eine Chance haben**, in die Stichprobe zu kommen – z. B. alle, die auf der Liste stehen, aus der man zieht (S. 260 f.).\n\nFehlen auf der Liste Personen, die eigentlich zur Grundgesamtheit gehören, heißt das **Undercoverage** (Untererfassung). Stehen dort Personen, die gar nicht dazugehören, heißt das **Overcoverage** (Übererfassung) (S. 261).\n\nWerden **alle** Einheiten der Grundgesamtheit untersucht, ist das eine **Vollerhebung**. Dann braucht man keine schließende Statistik – aber Vollerhebungen sind oft sehr teuer (Beispiel: Volkszählung 1987, etwa eine Milliarde DM) (S. 259).\n\n### Zufallsgesteuerte Auswahlverfahren (S. 262–266)\nHier entscheidet **nur der Zufall**, wer in die Stichprobe kommt. Die Chance, gezogen zu werden, ist für jedes Element **bekannt und gleich** (S. 270). Nur dann darf man mit **Inferenzstatistik** (schließende Statistik – „von der Stichprobe auf die Grundgesamtheit schließen“, kommt im Dezember) arbeiten (S. 262).\n\n| Verfahren | So geht's | Beispiel aus dem Buch |\n| --- | --- | --- |\n| einfache Zufallsstichprobe | aus einer vollständigen Liste zufällig ziehen; alle haben dieselbe Chance | Würfel: jede Zahl hat die Chance $p = \\frac{1}{6}$ |\n| systematische Zufallsstichprobe | Liste ordnen, eine Startzahl zufällig auslosen, dann jedes $k$-te Element nehmen | 1000 Schüler∗innen, $n = 50$ → jede 20. Person |\n| geschichtete Zufallsstichprobe | Grundgesamtheit in Schichten teilen (z. B. Bundesland), aus **jeder** Schicht zufällig ziehen | PISA 2012: 16 Länder + berufliche Schulen + Förder-/Sonderschulen |\n| Klumpenstichprobe | einige Gruppen (Klumpen, z. B. Schulen) zufällig ziehen und **alle** darin untersuchen | alle Zehntklässler∗innen in zufällig gezogenen Kölner Gymnasien |\n| mehrstufige Zufallsstichprobe | in mehreren Schritten zufällig ziehen | PISA: erst Schulen, dann Schüler∗innen in diesen Schulen |\n\nEinfache und systematische Zufallsstichprobe heißen **einfache** Verfahren, die anderen drei **komplexe** Verfahren (S. 262, 264).\n\n**Die Rechnung bei der systematischen Zufallsstichprobe:** Man teilt die Größe der Grundgesamtheit $N$ (sprich: groß N) durch die gewünschte Stichprobengröße $n$ (klein n). Das Ergebnis $k$ ist der **Abstand** zwischen zwei gezogenen Personen:\n$$k = \\frac{N}{n} = \\frac{1000}{50} = 20$$\nDann lost man eine Startzahl zwischen 1 und 20 aus, z. B. 7. Gezogen werden die Plätze 7, 27, 47, 67 … – also immer 20 weiter (S. 263 f.).\n\n### Nicht-zufallsgesteuerte Auswahlverfahren (S. 266–268)\nHier spielt der Zufall **keine** Rolle. Schlüsse auf die Grundgesamtheit sind deshalb nicht möglich bzw. erschwert.\n- **willkürliche Auswahl** („aufs Geratewohl“, ad hoc, Gelegenheitsstichprobe): Wer befragt wird, entscheidet die befragende Person spontan, ohne Plan – z. B. Befragung in der Fußgängerzone.\n- **bewusste Auswahl** („nach Gutdünken“): nach einem Plan mit angebbaren Kriterien, aber nicht zufällig – z. B. **Auswahl extremer Fälle**, **Schneeball-Verfahren** (eine Person nennt weitere ähnliche Personen; gut für kleine Minderheiten), **Quota-Verfahren** (Interviewer müssen Quoten einhalten, z. B. Geschlecht, Wohnort; innerhalb der Quote wählen sie selbst aus).\n\nVorteil: oft **billiger** und gut für **explorative** Zwecke (erste Ideen, Hypothesen gewinnen). Geprüft werden sollten die Hypothesen aber mit Zufallsstichproben (S. 268).\n\n### Wann ist eine Stichprobe „repräsentativ“? (S. 268 f.)\nDrei Kriterien: **(1)** eine genaue Beschreibung der Grundgesamtheit, **(2)** eine zufallsgesteuerte Ziehung, **(3)** eine hohe **Rücklaufquote** (Anteil der gezogenen Personen, die wirklich mitmachen). Gefährlich sind vor allem **systematische Ausfälle**: wenn gerade die fehlen, um die es inhaltlich geht – z. B. Schulschwänzer∗innen, die am Befragungstag nicht in der Schule sind.\n\n**Kurz erklärt:** Stell dir die Grundgesamtheit als großen Topf Suppe vor und die Stichprobe als Löffel zum Probieren. Damit der Löffel nach der ganzen Suppe schmeckt, muss man **umrühren** – das ist der Zufall. Wer nur oben abschöpft (die Leute, die gerade in der Mensa sitzen), schmeckt nur die oberste Schicht. Deshalb hängt alles daran, **wie** ausgewählt wird – nicht daran, wie viele man fragt. Und bevor man auswählt, muss man genau wissen, **welche** Suppe man probieren will: Die Grundgesamtheit wird immer zuerst festgelegt.\n\n**Prüfungsfalle:** „Zufällig getroffen“ ist **keine** Zufallsauswahl, sondern eine willkürliche Auswahl. Und eine **Vollerhebung** ist keine Stichprobe – ihre Ergebnisse gelten aber auch nur für genau die befragte Gruppe.\n\n**Typische Klausurfrage:** „Definieren Sie die Grundgesamtheit und begründen Sie ein geeignetes Auswahlverfahren.“ → Grundgesamtheit möglichst genau abgrenzen (wer, wo, wann), Verfahren benennen, sagen, warum es passt (Liste vorhanden? Größe? Kosten?), und kurz beschreiben, wie man praktisch vorgeht."
     },
     {
-      "titel": "Untersuchungsplanung: quantitativ, qualitativ oder beides?",
-      "folien": "4–5",
-      "text": "**Folie 4:** Bei der Untersuchungsplanung muss man auch entscheiden:\n1. Ist für das Forschungsvorhaben ein **quantitatives** Forschungsdesign angemessen?\n2. Oder soll **qualitativ** geforscht werden?\n3. Oder wäre es am besten, **qualitative und quantitative Methoden** zu kombinieren (**Mixed Methods**)?\n\nDie Folie verlangt, für zwei Beispiele (Folie 5) gute Argumente **für** die eigene Entscheidung und **gegen** die anderen Möglichkeiten zu sammeln.\n\n**Zur Erinnerung aus der VL vom 29.10.2026:** Quantitativ = **standardisiert**, „Erklären“, Hypothesen prüfen, viele Fälle, vergleichbare Zahlen. Qualitativ = **nicht standardisiert**, „Verstehen“, offen für Unerwartetes, wenige Fälle, Sichtweisen und Erleben. Mixed Methods = Kombination beider.\n\n{{aufgabe a01}}\n\n**Kurz erklärt:** Die Entscheidung folgt immer aus der **Fragestellung** – nicht aus Vorlieben. Ein guter Trick ist, auf das **Verb** und die **Art der Antwort** zu achten: Geht es um einen **Zusammenhang** zwischen zwei messbaren Größen („hängt X mit Y zusammen?“), braucht man Zahlen von vielen Personen → quantitativ. Geht es darum, **wie** Menschen etwas **erleben**, deuten oder empfinden, braucht man offene Gespräche → qualitativ. Mixed Methods lohnt sich, wenn eine Methode allein eine wichtige Seite der Frage nicht erfasst (z. B. Zahlen zeigen *dass*, Interviews erklären *warum*).\n\n**So erkennst du es in der Klausur:** Signalwörter quantitativ: *Zusammenhang, Einfluss, Wirkung, Leistung, wie viele, wie häufig*. Signalwörter qualitativ: *erleben, Sichtweise, Deutung, wie gehen … um, Erfahrungen*.\n\n**Prüfungsfalle:** Mixed Methods ist **nicht automatisch** die beste Antwort. Man muss begründen, was die zweite Methode **zusätzlich** bringt – sonst ist es nur mehr Aufwand."
+      "titel": "Die fünf Phasen einer Untersuchung (Häder)",
+      "folien": "4",
+      "text": "**Folie 4** zeigt eine Tabelle aus Häder (2019, S. 75). Danach läuft eine empirische Untersuchung in **fünf Phasen** ab:\n\n| Phase | Was passiert (Wortlaut Folie) |\n|---|---|\n| **Erste Phase** | Die Erstellung des **Projektplanes**. Hier kann im Ergebnis je nach Art des Projekts eine Antragstellung an eine Forschungsförderungseinrichtung oder eine Bewerbung auf eine Ausschreibung oder auch ein Konzept für eine Graduierungsarbeit als Zwischenprodukt vorgelegt werden |\n| **Zweite Phase** | Die Ausarbeitung des **Designs** der Untersuchung einschließlich der dazu benötigten **Erhebungsinstrumente**. Dazu sind die zuvor im Projektplan entwickelten Vorstellungen zu präzisieren und die entsprechenden Instrumente zu erarbeiten |\n| **Dritte Phase** | Die **Erhebung der Daten im Feld**. Diese Phase endet beispielsweise bei quantitativen Studien mit der Erstellung eines maschinenlesbaren Datensatzes |\n| **Vierte Phase** | Die **Auswertung** der Untersuchung, hierzu zählen die Anfertigung von Tabellen, Übersichten, statistischen Berechnungen, grafischen Darstellungen und ähnlichen Materialien |\n| **Fünfte Phase** | Die **Dokumentation** der benutzten Methodik und die **Publikation** der Befunde wie etwa in Form von Aufsätzen in Zeitschriften und Sammelbänden bildet den Abschluss des Projekts |\n\n**Kurz erklärt:** Man kann sich die fünf Phasen als **Planen → Werkzeuge bauen → Daten sammeln → Daten auswerten → Ergebnisse aufschreiben** merken. Jede Phase baut auf der vorigen auf: Ohne klaren Plan weiß man nicht, welche Fragen der Fragebogen braucht; ohne fertiges Instrument kann man nicht ins Feld; ohne Daten gibt es nichts auszuwerten. Ein Beispiel aus der Schule: Eine Lehrerin will wissen, wie zufrieden die Eltern mit dem Ganztag sind. Sie schreibt erst auf, was genau sie wissen will und wen sie fragt (1), entwickelt den Elternfragebogen (2), verteilt und sammelt ihn ein und tippt die Antworten in eine Tabelle (3), zählt und vergleicht die Antworten (4) und stellt die Ergebnisse im Schulvorstand vor (5).\n\n**Wo gehören die Auswahlverfahren hin?** Die Entscheidung, **wen** man befragt (Grundgesamtheit, Stichprobe, Auswahlverfahren), fällt bei der **Planung** – im Projektplan und spätestens beim Design (Phasen 1 und 2). Genau darum geht es in den Arbeitsphasen dieser Sitzung.\n\n**Typische Klausurfrage:** „Nennen Sie die Phasen eines Forschungsprozesses nach Häder und ordnen Sie den folgenden Arbeitsschritt einer Phase zu.“ → Alle fünf Phasen in der richtigen Reihenfolge nennen und kurz sagen, was in jeder passiert.\n\n**Prüfungsfalle:** Das **Erhebungsinstrument** (z. B. der Fragebogen) wird in der **zweiten** Phase entwickelt – nicht erst bei der Erhebung (dritte Phase). Und der **maschinenlesbare Datensatz** (die Daten im Computer) ist das Ende der **dritten** Phase, nicht schon Teil der Auswertung.\n\n*Ausführlich zu Häders Phasen: Hausaufgabe h01 aus der VL vom 29.10.2026 (Leitfrage 1).*"
     },
     {
-      "titel": "Umfrage zum Handyverbot an Schulen (Video)",
-      "folien": "6–7",
-      "text": "**Folie 7:** Video des SWR (SWR Aktuell, Studio Heilbronn): „Umfrage: Was denken Schüler über ein Handyverbot an Schulen?“ (https://www.swr.de/swraktuell/baden-wuerttemberg/heilbronn/umfrage-handyverbot-an-schulen-100.html). Fragen dazu:\n1. **Die Stichprobe:** Ist die Auswahl der Befragten dieser Umfrage sinnvoll?\n2. **Die Grundgesamtheit / Generalisierbarkeit der Ergebnisse:** Auf welche Personen können die Ergebnisse dieser Umfrage bezogen werden?\n\n**Generalisierbarkeit** (auch Verallgemeinerbarkeit) heißt: Darf man das Ergebnis über die befragten Personen hinaus auf eine größere Gruppe übertragen?\n\n{{aufgabe a02}}\n\n**Kurz erklärt:** Eine „Umfrage“ in den Medien ist meist eine **Straßenumfrage**: Ein Reporter spricht an, wer gerade da ist und reden mag. Das ist eine **willkürliche Auswahl** – bunt und anschaulich, aber man weiß nicht, für wen die Antworten stehen. Wer schüchtern ist, gerade keine Zeit hat oder an einer anderen Schule ist, kommt nicht vor. Solche Beiträge zeigen **Beispiele für Meinungen**, nicht **die** Meinung der Schüler∗innen.\n\n**Prüfungsfalle:** Auch viele Befragte machen eine willkürliche Auswahl nicht besser. Entscheidend ist das **Verfahren**, nicht die Anzahl."
+      "titel": "Untersuchungsplanung: quantitativ, qualitativ oder beides?",
+      "folien": "5–6",
+      "text": "**Folie 5:** Bei der Untersuchungsplanung muss man auch entscheiden:\n1. Ist für das Forschungsvorhaben ein **quantitatives** Forschungsdesign angemessen?\n2. Oder soll **qualitativ** geforscht werden?\n3. Oder wäre es am besten, **qualitative und quantitative Methoden** zu kombinieren (**Mixed Methods**)?\n\nDie Folie verlangt, für zwei Beispiele (Folie 6: beide zum Thema **Schulhund**) gute Argumente **für** die eigene Entscheidung und **gegen** die anderen Möglichkeiten zu sammeln.\n\n**Zur Erinnerung aus der VL vom 29.10.2026:** Quantitativ = **standardisiert**, „Erklären“, Hypothesen prüfen, viele Fälle, vergleichbare Zahlen. Qualitativ = **nicht standardisiert**, „Verstehen“, offen für Unerwartetes, wenige Fälle, Sichtweisen und Erleben. Mixed Methods = Kombination beider.\n\n{{aufgabe a01}}\n\n**Kurz erklärt:** Die Entscheidung folgt immer aus der **Fragestellung** – nicht aus Vorlieben. Ein guter Trick ist, auf das **Verb** und die **Art der Antwort** zu achten: Geht es um einen **Zusammenhang** zwischen zwei messbaren Größen („hängt X mit Y zusammen?“), braucht man Zahlen von vielen Personen → quantitativ. Geht es darum, **wie** Menschen etwas **erleben**, deuten oder empfinden, braucht man offene Gespräche → qualitativ. Mixed Methods lohnt sich, wenn eine Methode allein eine wichtige Seite der Frage nicht erfasst (z. B. Zahlen zeigen *dass*, Interviews erklären *warum*).\n\n**So erkennst du es in der Klausur:** Signalwörter quantitativ: *Zusammenhang, Einfluss, Wirkung, Leistung, wie viele, wie häufig*. Signalwörter qualitativ: *erleben, Sichtweise, Deutung, wie gehen … um, Erfahrungen*.\n\n**Prüfungsfalle:** Mixed Methods ist **nicht automatisch** die beste Antwort. Man muss begründen, was die zweite Methode **zusätzlich** bringt – sonst ist es nur mehr Aufwand."
+    },
+    {
+      "titel": "Umfrage zum Thema Smartphones in der Schule (Video)",
+      "folien": "7–8",
+      "text": "**Folie 8:** Video des NDR (Schleswig-Holstein): „Ganz ohne Smartphone: Fünftklässler vermissen nichts“ (https://www.ndr.de/nachrichten/schleswig-holstein/ganz-ohne-smartphone-fuenftklaessler-vermissen-nichts,handy-216.html). Fragen dazu:\n1. **Die Stichprobe:** Ist die Auswahl der Befragten dieser Umfrage sinnvoll?\n2. **Die Grundgesamtheit / Generalisierbarkeit der Ergebnisse:** Auf welche Personen können die Ergebnisse dieser Umfrage bezogen werden?\n\n**Generalisierbarkeit** (auch Verallgemeinerbarkeit) heißt: Darf man das Ergebnis über die befragten Personen hinaus auf eine größere Gruppe übertragen?\n\n{{aufgabe a02}}\n\n**Kurz erklärt:** Ein Fernsehbeitrag wie dieser zeigt meist **eine** Schule oder Klasse, und das Team befragt die Kinder, die gerade da sind und reden mögen. Das ist eine **willkürliche Auswahl** – bunt und anschaulich, aber man weiß nicht, für wen die Antworten stehen. Wer schüchtern ist, gerade keine Zeit hat oder an einer anderen Schule ist (oder in einem anderen Bundesland), kommt nicht vor. Solche Beiträge zeigen **Beispiele für Meinungen**, nicht **die** Meinung der Schüler∗innen.\n\n**Prüfungsfalle:** Auch viele Befragte machen eine willkürliche Auswahl nicht besser. Entscheidend ist das **Verfahren**, nicht die Anzahl."
     },
     {
       "titel": "Arbeitsphase I: Masterarbeit und Promotion",
-      "folien": "8–9",
-      "text": "**Ausgangslage (Folie 8):** In zwei Qualifizierungsarbeiten geht es um das Handyverbot an Schulen. Für eine **Masterarbeit** und für eine **Promotion** (Doktorarbeit) sollen Jugendliche befragt werden – **persönlich**, im direkten Austausch und mit **standardisierten** Fragebogen (alle bekommen dieselben Fragen mit festen Antwortmöglichkeiten). Für die Kontaktaufnahme werden **Listen mit Telefonnummern** der Jugendlichen ausgehändigt.\n\n**Folie 9 – Aufgaben:**\n1. Definieren Sie die jeweilige Grundgesamtheit.\n2. Welches Auswahlverfahren sollte jeweils angewendet werden?\n3. Begründen Sie jeweils, warum sich dieses Auswahlverfahren anbietet.\n4. Beschreiben Sie jeweils das Auswahlverfahren.\n\n- **Masterarbeit:** Von Interesse sind die Sichtweisen von Jugendlichen **einer neunten Klasse einer Realschule** in Köln.\n- **Promotion:** Von Interesse sind die Sichtweisen von Jugendlichen **der zehnten Klassen der Realschulen** in Köln.\n\n{{aufgabe a03}}\n\n**Kurz erklärt:** Der Unterschied steckt in den kleinen Wörtern: „**einer** neunten Klasse **einer** Realschule“ ist eine einzige Klasse – etwa 25 bis 30 Jugendliche. Die kann man **alle** befragen (Vollerhebung). „**Der** zehnten Klassen **der** Realschulen in Köln“ sind alle Zehntklässler∗innen aller Kölner Realschulen – zu viele, um alle persönlich zu befragen. Hier braucht man eine **Zufallsstichprobe**, damit die Ergebnisse für alle Kölner Realschul-Zehntklässler∗innen gelten. Die Telefonliste ist dafür ideal: Sie ist die **Auswahlgesamtheit**, aus der man per Zufall ziehen kann.\n\n**Typische Klausurfrage:** Genau dieser Aufbau (Grundgesamtheit – Verfahren – Begründung – Beschreibung) ist Klausurstil. Immer alle vier Teile beantworten!"
+      "folien": "9–10",
+      "text": "**Ausgangslage (Folie 9):** In zwei Qualifizierungsarbeiten geht es um das Handyverbot an Schulen. Für eine **Masterarbeit** und für eine **Promotion** (Doktorarbeit) sollen Jugendliche befragt werden – **persönlich**, im direkten Austausch und mit **standardisierten** Fragebogen (alle bekommen dieselben Fragen mit festen Antwortmöglichkeiten). Für die Kontaktaufnahme werden **Listen mit Telefonnummern** der Jugendlichen ausgehändigt.\n\n**Folie 10 – Aufgaben:**\n1. Definieren Sie die jeweilige Grundgesamtheit.\n2. Welches Auswahlverfahren sollte jeweils angewendet werden?\n3. Begründen Sie jeweils, warum sich dieses Auswahlverfahren anbietet.\n4. Beschreiben Sie jeweils das Auswahlverfahren.\n\n- **Masterarbeit:** Von Interesse sind die Sichtweisen von Jugendlichen **einer neunten Klasse einer Realschule** in Köln.\n- **Promotion:** Von Interesse sind die Sichtweisen von Jugendlichen **der zehnten Klassen der Realschulen** in Köln.\n\n{{aufgabe a03}}\n\n**Kurz erklärt:** Der Unterschied steckt in den kleinen Wörtern: „**einer** neunten Klasse **einer** Realschule“ ist eine einzige Klasse – etwa 25 bis 30 Jugendliche. Die kann man **alle** befragen (Vollerhebung). „**Der** zehnten Klassen **der** Realschulen in Köln“ sind alle Zehntklässler∗innen aller Kölner Realschulen – zu viele, um alle persönlich zu befragen. Hier braucht man eine **Zufallsstichprobe**, damit die Ergebnisse für alle Kölner Realschul-Zehntklässler∗innen gelten. Die Telefonliste ist dafür ideal: Sie ist die **Auswahlgesamtheit**, aus der man per Zufall ziehen kann.\n\n**Typische Klausurfrage:** Genau dieser Aufbau (Grundgesamtheit – Verfahren – Begründung – Beschreibung) ist Klausurstil. Immer alle vier Teile beantworten!"
     },
     {
       "titel": "Arbeitsphase II: Handyverbot an Universitäten",
-      "folien": "10–11",
-      "text": "**Folie 10:** Nun ist das **Handyverbot an Universitäten** von Interesse. Im Fokus sind die Sichtweisen der Personen, die sich in Deutschland an einer Universität im **ersten Semester eines Bachelorstudiums** befinden.\n1. Wer zählt hier zur Grundgesamtheit?\n2. Wie beurteilen Sie die Beispiele auf der nächsten Folie hinsichtlich des Auswahlverfahrens der Stichprobe?\n\n**Folie 11:**\n- **Beispiel 1:** In einer Fernsehsendung wird an einem Vormittag gefragt, ob ein Handyverbot an Universitäten eingeführt werden soll. Eine Telefonnummer wird angezeigt; per Anruf kann man dafür oder dagegen abstimmen.\n- **Beispiel 2:** Die größten wissenschaftlichen Einrichtungen in Deutschland **außerhalb** der Universitäten befragen **alle** dort beschäftigten studentischen Hilfskräfte, ob ein Handyverbot an Universitäten eingeführt werden soll.\n\n{{aufgabe a04}}\n\n**Kurz erklärt:** Beide Beispiele haben dasselbe Grundproblem: Die Menschen, die tatsächlich antworten können (**Auswahlgesamtheit**), sind **nicht** die Menschen, um die es geht (**Grundgesamtheit**). Beim Fernsehanruf bestimmen die Zuschauer∗innen selbst, ob sie mitmachen (**Selbstselektion**) – das ist eine willkürliche Auswahl. Bei den Hilfskräften wird zwar „alle“ gefragt, aber eben alle aus der **falschen Gruppe**. Eine Vollerhebung der falschen Gruppe hilft nicht weiter.\n\n**Prüfungsfalle:** „Alle wurden befragt“ klingt gut – prüfe aber immer, **wer** „alle“ sind. Passt diese Gruppe nicht zur Grundgesamtheit, ist das Ergebnis trotzdem nicht verallgemeinerbar."
+      "folien": "11–12",
+      "text": "**Folie 11:** Nun ist das **Handyverbot an Universitäten** von Interesse. Im Fokus sind die Sichtweisen der Personen, die sich in Deutschland an einer Universität im **ersten Semester eines Bachelorstudiums** befinden.\n1. Wer zählt hier zur Grundgesamtheit?\n2. Wie beurteilen Sie die Beispiele auf der nächsten Folie hinsichtlich des Auswahlverfahrens der Stichprobe?\n\n**Folie 12:**\n- **Beispiel 1:** In einer Fernsehsendung wird an einem Vormittag gefragt, ob ein Handyverbot an Universitäten eingeführt werden soll. Eine Telefonnummer wird angezeigt; per Anruf kann man dafür oder dagegen abstimmen.\n- **Beispiel 2:** Die größten wissenschaftlichen Einrichtungen in Deutschland **außerhalb** der Universitäten befragen **alle** dort beschäftigten studentischen Hilfskräfte, ob ein Handyverbot an Universitäten eingeführt werden soll.\n\n{{aufgabe a04}}\n\n**Kurz erklärt:** Beide Beispiele haben dasselbe Grundproblem: Die Menschen, die tatsächlich antworten können (**Auswahlgesamtheit**), sind **nicht** die Menschen, um die es geht (**Grundgesamtheit**). Beim Fernsehanruf bestimmen die Zuschauer∗innen selbst, ob sie mitmachen (**Selbstselektion**) – das ist eine willkürliche Auswahl. Bei den Hilfskräften wird zwar „alle“ gefragt, aber eben alle aus der **falschen Gruppe**. Eine Vollerhebung der falschen Gruppe hilft nicht weiter.\n\n**Prüfungsfalle:** „Alle wurden befragt“ klingt gut – prüfe aber immer, **wer** „alle“ sind. Passt diese Gruppe nicht zur Grundgesamtheit, ist das Ergebnis trotzdem nicht verallgemeinerbar."
     },
     {
       "titel": "Arbeitsphase III: Befragung in der Mensa",
-      "folien": "12",
-      "text": "**Folie 12:** Im Rahmen einer Bachelorarbeit soll ein Meinungsbild zur **Handynutzung an der Universität Vechta** erfasst werden. Von Interesse ist die Meinung **aller**, die an der Universität Vechta studieren – egal ob im Bachelor- oder Masterstudium. Für die Befragung sollen an **mehreren Tagen in der Mensa** Personen angesprochen und mit einem **standardisierten Fragebogen** befragt werden. *Wie beurteilen Sie das Auswahlverfahren?*\n\n{{aufgabe a05}}\n\n**Kurz erklärt:** Das ist genau das Beispiel, das auch in der VL vom 29.10.2026 fiel: Wer nur in der Mensa fragt, erwischt nie die, die nicht in die Mensa gehen – das Ergebnis sagt dann etwas über Mensagänger∗innen, nicht über alle Studierenden. Mehrere Tage helfen ein bisschen (mehr verschiedene Leute), ändern aber nichts am Grundproblem: **Nicht jede∗r Studierende hat dieselbe Chance**, gefragt zu werden.\n\n**So erkennst du es in der Klausur:** Frage dich bei jedem Auswahlverfahren: *Hat wirklich jede Person der Grundgesamtheit dieselbe (bekannte) Chance, ausgewählt zu werden?* Wenn nein → keine Zufallsauswahl → Ergebnisse nicht verallgemeinerbar."
+      "folien": "13",
+      "text": "**Folie 13:** Im Rahmen einer Bachelorarbeit soll ein Meinungsbild zur **Handynutzung an der Universität Vechta** erfasst werden. Von Interesse ist die Meinung **aller**, die an der Universität Vechta studieren – egal ob im Bachelor- oder Masterstudium. Für die Befragung sollen an **mehreren Tagen in der Mensa** Personen angesprochen und mit einem **standardisierten Fragebogen** befragt werden. *Wie beurteilen Sie das Auswahlverfahren?*\n\n{{aufgabe a05}}\n\n**Kurz erklärt:** Das ist genau das Beispiel, das auch in der VL vom 29.10.2026 fiel: Wer nur in der Mensa fragt, erwischt nie die, die nicht in die Mensa gehen – das Ergebnis sagt dann etwas über Mensagänger∗innen, nicht über alle Studierenden. Mehrere Tage helfen ein bisschen (mehr verschiedene Leute), ändern aber nichts am Grundproblem: **Nicht jede∗r Studierende hat dieselbe Chance**, gefragt zu werden.\n\n**So erkennst du es in der Klausur:** Frage dich bei jedem Auswahlverfahren: *Hat wirklich jede Person der Grundgesamtheit dieselbe (bekannte) Chance, ausgewählt zu werden?* Wenn nein → keine Zufallsauswahl → Ergebnisse nicht verallgemeinerbar."
     },
     {
       "titel": "Ausblick",
-      "folien": "13",
-      "text": "**Nächstes Thema (Seminar S05, 10.11.2026):** Messtheorie: Operationalisierung, Messen, Skalenniveaus. „Beachten Sie die hierfür relevante Literatur auf der Literaturliste!“ (Folie 13).\n\nDie passende Vorlesung dazu ist am Do 05.11.2026 (8:15 Uhr, online). Was du für das Seminar lesen sollst, steht in der Regel auf den letzten Folien der Vorlesung (Leitfragen).\n\n**Kurz erklärt:** Heute ging es darum, **wen** man befragt. Nächste Woche geht es darum, **wie man misst**: Wie macht man aus einem Begriff wie „Einstellung zum Handyverbot“ eine messbare Frage (Operationalisierung), und welche Rechenarten erlauben die Antworten (Skalenniveau)?"
+      "folien": "14",
+      "text": "**Nächstes Thema (Seminar S05, 10.11.2026):** Messtheorie: Operationalisierung, Messen, Skalenniveaus. „Beachten Sie die hierfür relevante Literatur auf der Literaturliste!“ (Folie 14).\n\nDie passende Vorlesung dazu ist am Do 05.11.2026 (8:15 Uhr, online). Was du für das Seminar lesen sollst, steht in der Regel auf den letzten Folien der Vorlesung (Leitfragen).\n\n**Kurz erklärt:** Heute ging es darum, **wen** man befragt. Nächste Woche geht es darum, **wie man misst**: Wie macht man aus einem Begriff wie „Einstellung zum Handyverbot“ eine messbare Frage (Operationalisierung), und welche Rechenarten erlauben die Antworten (Skalenniveau)?"
     }
   ],
   "definitionen": [
@@ -228,16 +249,16 @@
       "begriff": "Generalisierbarkeit",
       "wortlaut": "Die Grundgesamtheit / Generalisierbarkeit der Ergebnisse: Auf welche Personen können die Ergebnisse dieser Umfrage bezogen werden?",
       "erklaerung": "Auch Verallgemeinerbarkeit: ob und auf welche Gruppe man Ergebnisse über die Befragten hinaus übertragen darf. Das hängt vom Auswahlverfahren ab: nur Zufallsauswahl erlaubt den Schluss auf die Grundgesamtheit.",
-      "folie": "7"
+      "folie": "8"
     }
   ],
   "aufgaben": [
     {
       "id": "a01",
       "art": "Aufgabe auf Folie",
-      "text": "Bei der Untersuchungsplanung muss auch Folgendes in die Überlegungen einbezogen werden:\n1. Ist für das Forschungsvorhaben ein quantitatives Forschungsdesign angemessen?\n2. Oder soll im Rahmen der geplanten Studie qualitativ geforscht werden?\n3. Oder wäre es am besten, wenn bei der Umsetzung der Forschung sowohl qualitative Methoden als auch quantitative Methoden zum Einsatz kommen?\n\nSchauen Sie sich die Beispiele auf der folgenden Folie an. Wie würden Sie sich jeweils in Hinsicht auf diese drei Fragen entscheiden? Bitte sammeln Sie gute Argumente für Ihre Entscheidung (und gegen die anderen Möglichkeiten).\n\n**Beispiel 1:** In einer Studie soll der Zusammenhang zwischen der Nutzung von Smartboards im Unterricht und den Leistungen im Fach Deutsch im neunten Jahrgang eines Gymnasiums untersucht werden.\n\n**Beispiel 2:** Ein Forschungsvorhaben richtet den Fokus darauf, wie Jugendliche aus einer achten Klasse einer Realschule das Lernen mit digitalen Medien erleben.",
-      "quelle": "Folien 4–5",
-      "loesung": "*Selbst erarbeitet.*\n\n**Beispiel 1 (Smartboards und Deutschleistungen): quantitativ.**\n- **Dafür:** Gefragt ist nach einem **Zusammenhang** zwischen zwei Variablen: der Nutzung von Smartboards (unabhängige Variable, z. B. Stunden pro Woche) und den Leistungen in Deutsch (abhängige Variable, z. B. Noten oder Testpunkte). Beides lässt sich **messen und in Zahlen ausdrücken**. Man kann vorab eine Hypothese formulieren („Je häufiger Smartboards genutzt werden, desto besser sind die Leistungen“) und sie **statistisch prüfen** – typisch quantitativ (deduktiv, hypothesenprüfend, standardisiert).\n- Der ganze **neunte Jahrgang** liefert genug Fälle für einen Vergleich; bei einem Gymnasium kann man den Jahrgang sogar komplett erfassen.\n- **Gegen qualitativ:** Interviews mit wenigen Personen zeigen nicht, ob ein **Zusammenhang** über viele Schüler∗innen hinweg besteht; die Ergebnisse wären nicht vergleichbar.\n- **Gegen Mixed Methods (als Pflicht):** Für die Frage nach dem Zusammenhang reicht das quantitative Design. **Möglich als Ergänzung:** Interviews mit Lehrkräften oder Beobachtungen, *wie* die Smartboards eingesetzt werden – das könnte erklären, *warum* ein Zusammenhang besteht oder fehlt. Das wäre aber eine Erweiterung der Frage.\n- **Beachten:** Ein Zusammenhang ist noch kein Beweis für eine Ursache (z. B. könnten Klassen mit Smartboards auch andere Lehrkräfte haben).\n\n**Beispiel 2 (Erleben des Lernens mit digitalen Medien): qualitativ.**\n- **Dafür:** Es geht darum, **wie** Jugendliche etwas **erleben** – also um subjektive Sichtweisen, Gefühle und Deutungen. Das will man **verstehen**, nicht messen. Dazu passen offene, **nicht standardisierte** Verfahren wie Leitfadeninterviews oder Gruppendiskussionen, in denen die Jugendlichen in eigenen Worten erzählen.\n- Die Untersuchungsgruppe ist **eine** Klasse – also wenige Fälle, die man genau betrachten kann (Einzelfallorientierung).\n- **Offenheit:** Man weiß vorher nicht, welche Erfahrungen genannt werden; ein Fragebogen mit festen Antworten würde Unerwartetes ausblenden.\n- **Gegen quantitativ:** Ein Fragebogen könnte nur vorgegebene Kategorien abfragen („Wie gern lernst du mit Tablets? 1–5“) und das eigentliche **Erleben** kaum erfassen. Verallgemeinerung auf viele Schüler∗innen ist hier gar nicht das Ziel.\n- **Mixed Methods denkbar:** z. B. erst ein kurzer Fragebogen zur Nutzungshäufigkeit, dann Interviews mit ausgewählten Jugendlichen (Vertiefung). Für die Kernfrage „wie erleben sie …“ bleibt aber der qualitative Teil entscheidend.",
+      "text": "Bei der Untersuchungsplanung muss auch Folgendes in die Überlegungen einbezogen werden:\n1. Ist für das Forschungsvorhaben ein quantitatives Forschungsdesign angemessen?\n2. Oder soll im Rahmen der geplanten Studie qualitativ geforscht werden?\n3. Oder wäre es am besten, wenn bei der Umsetzung der Forschung sowohl qualitative Methoden als auch quantitative Methoden zum Einsatz kommen?\n\nSchauen Sie sich die Beispiele auf der folgenden Folie an. Wie würden Sie sich jeweils in Hinsicht auf diese drei Fragen entscheiden? Bitte sammeln Sie gute Argumente für Ihre Entscheidung (und gegen die anderen Möglichkeiten).\n\n**Beispiel 1:** In einer Studie soll der Zusammenhang zwischen einem Schulhund im Unterricht und den Leistungen im Fach Mathematik im neunten Jahrgang eines Gymnasiums untersucht werden.\n\n**Beispiel 2:** Ein Forschungsvorhaben richtet den Fokus darauf, wie Kinder aus einer vierten Klasse einer Grundschule das Lernen mit einem Schulhund im Unterricht erleben.",
+      "quelle": "Folien 5–6",
+      "loesung": "*Selbst erarbeitet.*\n\n**Beispiel 1 (Schulhund und Mathematikleistungen, 9. Jahrgang Gymnasium): quantitativ.**\n- **Dafür:** Gefragt ist nach einem **Zusammenhang** zwischen zwei Variablen: ob ein Schulhund im Unterricht dabei ist (unabhängige Variable, z. B. Klassen mit / ohne Schulhund oder Stunden pro Woche mit Hund) und den Leistungen in Mathematik (abhängige Variable, z. B. Noten oder Testpunkte). Beides lässt sich **messen und in Zahlen ausdrücken**. Man kann vorab eine Hypothese formulieren („Klassen mit Schulhund erzielen bessere Mathematikleistungen als Klassen ohne Schulhund“) und sie **statistisch prüfen** – typisch quantitativ (hypothesenprüfend, standardisiert).\n- Der ganze **neunte Jahrgang** liefert genug Fälle für einen Vergleich, z. B. Klassen mit und ohne Hund.\n- **Gegen qualitativ:** Interviews mit wenigen Personen zeigen nicht, ob ein **Zusammenhang** über viele Schüler∗innen hinweg besteht; die Ergebnisse wären nicht vergleichbar.\n- **Gegen Mixed Methods (als Pflicht):** Für die Frage nach dem Zusammenhang reicht das quantitative Design. **Möglich als Ergänzung:** Beobachtungen oder Interviews, *wie* der Hund den Unterricht verändert (Ruhe, Motivation) – das könnte erklären, *warum* ein Zusammenhang besteht oder fehlt.\n- **Beachten:** Ein Zusammenhang ist noch kein Beweis für eine Ursache (z. B. könnten Klassen mit Schulhund auch andere Lehrkräfte oder kleinere Gruppen haben).\n\n**Beispiel 2 (Erleben des Lernens mit Schulhund, 4. Klasse Grundschule): qualitativ.**\n- **Dafür:** Es geht darum, **wie** Kinder etwas **erleben** – also um subjektive Sichtweisen, Gefühle und Deutungen. Das will man **verstehen**, nicht messen. Dazu passen offene, **nicht standardisierte** Verfahren wie kindgerechte Leitfadeninterviews, Gruppengespräche oder Malen und Erzählen lassen.\n- Die Untersuchungsgruppe ist **eine** Klasse – also wenige Fälle, die man genau betrachten kann.\n- **Offenheit:** Man weiß vorher nicht, was die Kinder erzählen (z. B. „ich traue mich mehr, laut vorzulesen“); ein Fragebogen mit festen Antworten würde Unerwartetes ausblenden – und ist für Grundschulkinder auch schwer auszufüllen.\n- **Gegen quantitativ:** Ein Fragebogen könnte nur vorgegebene Kategorien abfragen („Wie gern lernst du mit dem Hund? 1–5“) und das eigentliche **Erleben** kaum erfassen. Verallgemeinerung auf viele Kinder ist hier gar nicht das Ziel.\n- **Mixed Methods denkbar:** z. B. zusätzlich eine kurze Strichliste, wie oft der Hund in der Woche dabei ist. Für die Kernfrage „wie erleben sie …“ bleibt aber der qualitative Teil entscheidend.",
       "loesungsweg": "Je Beispiel prüfen: Geht es um einen messbaren Zusammenhang (→ quantitativ) oder um Erleben/Sichtweisen (→ qualitativ)? Dann Argumente gegen die anderen Möglichkeiten sammeln und sagen, ob eine Kombination echten Zusatznutzen hätte.",
       "frist": "",
       "im_kalender": false
@@ -245,9 +266,9 @@
     {
       "id": "a02",
       "art": "Aufgabe auf Folie",
-      "text": "Schauen Sie sich das Video an: https://www.swr.de/swraktuell/baden-wuerttemberg/heilbronn/umfrage-handyverbot-an-schulen-100.html\n1. Die Stichprobe: Ist die Auswahl der Befragten dieser Umfrage sinnvoll?\n2. Die Grundgesamtheit / Generalisierbarkeit der Ergebnisse: Auf welche Personen können die Ergebnisse dieser Umfrage bezogen werden?",
-      "quelle": "Folie 7",
-      "loesung": "*Selbst erarbeitet.* ⚠ Das Video selbst konnte nicht angesehen werden. Die Lösung geht vom Titelbild auf Folie 6 aus: einzelne Schüler∗innen, die vor der Kamera befragt werden (Straßenumfrage). Bitte beim Ansehen prüfen.\n\n**1. Ist die Auswahl der Befragten sinnvoll?**\n**Für eine wissenschaftliche Aussage: nein.** Die Reporter∗innen sprechen an, wer gerade da ist und bereit ist, vor der Kamera zu reden. Das ist eine **willkürliche Auswahl** (Auswahl „aufs Geratewohl“, Gelegenheitsstichprobe): Es gibt keinen Auswahlplan und keinen Zufall; wer befragt wird, liegt im Ermessen der Befragenden (Tachtsoglou/König 2017, S. 266 f.). Es werden nur **sehr wenige** Personen gezeigt, vermutlich an **einem** Ort. Wer schüchtern ist, keine Zeit hat oder eine andere Schule besucht, kommt nicht vor. Außerdem wählt die Redaktion beim Schneiden aus, welche Antworten gesendet werden.\n**Für einen journalistischen Beitrag: ja, als Stimmungsbild.** Er zeigt anschaulich, welche Meinungen es *gibt* – aber nicht, wie *verbreitet* sie sind.\n\n**2. Auf welche Personen können die Ergebnisse bezogen werden?**\nStreng genommen **nur auf die befragten Personen selbst**. Eine Grundgesamtheit ist nicht festgelegt, und die Befragten wurden nicht zufällig ausgewählt. Deshalb darf man die Aussagen **nicht verallgemeinern** – weder auf alle Schüler∗innen dieser Schule noch auf die Schüler∗innen in Heilbronn, Baden-Württemberg oder Deutschland. Inferenzstatistik ist mit willkürlichen Stichproben nicht möglich (Tachtsoglou/König 2017, S. 267).",
+      "text": "Schauen Sie sich das Video an: https://www.ndr.de/nachrichten/schleswig-holstein/ganz-ohne-smartphone-fuenftklaessler-vermissen-nichts,handy-216.html\n1. Die Stichprobe: Ist die Auswahl der Befragten dieser Umfrage sinnvoll?\n2. Die Grundgesamtheit / Generalisierbarkeit der Ergebnisse: Auf welche Personen können die Ergebnisse dieser Umfrage bezogen werden?",
+      "quelle": "Folie 8",
+      "loesung": "*Selbst erarbeitet.* ⚠ Das Video selbst konnte nicht angesehen werden (die NDR-Seite ist für Claude gesperrt). Die Lösung geht vom Titel aus: Fünftklässler∗innen (vermutlich **einer** Schule bzw. Klasse in Schleswig-Holstein), die ohne Smartphone auskommen und dazu befragt werden. Bitte beim Ansehen prüfen.\n\n**1. Ist die Auswahl der Befragten sinnvoll?**\n**Für eine wissenschaftliche Aussage: nein.** Befragt werden die Kinder, die das Fernsehteam an **einer** Schule antrifft und die vor der Kamera reden möchten. Das ist eine **willkürliche Auswahl** (Gelegenheitsstichprobe): Es gibt keinen Auswahlplan und keinen Zufall; wer befragt wird, liegt im Ermessen der Befragenden (Tachtsoglou/König 2017, S. 266 f.). Es kommen nur **sehr wenige** Kinder zu Wort. Außerdem ist die Schule vermutlich bewusst ausgesucht, weil sie das Smartphone-Verbot schon umsetzt – sie ist also nicht „typisch“. Und die Redaktion wählt beim Schneiden aus, welche Antworten gesendet werden (der Titel „vermissen nichts“ spricht dafür, dass eher zustimmende Stimmen gezeigt werden).\n**Für einen journalistischen Beitrag: ja, als Stimmungsbild.** Er zeigt anschaulich, wie Kinder an dieser Schule das Smartphone-Verbot erleben – aber nicht, wie *verbreitet* diese Sicht ist.\n\n**2. Auf welche Personen können die Ergebnisse bezogen werden?**\nStreng genommen **nur auf die befragten Kinder selbst**. Eine Grundgesamtheit ist nicht festgelegt, und die Befragten wurden nicht zufällig ausgewählt. Deshalb darf man die Aussagen **nicht verallgemeinern** – weder auf alle Fünftklässler∗innen dieser Schule noch auf alle Fünftklässler∗innen in Schleswig-Holstein oder Deutschland. Inferenzstatistik (Schlüsse von der Stichprobe auf die Grundgesamtheit) ist mit willkürlichen Stichproben nicht möglich (Tachtsoglou/König 2017, S. 267).",
       "loesungsweg": "Auswahlverfahren benennen (willkürlich, nicht zufällig) → Folge: keine Generalisierbarkeit; Ergebnisse gelten nur für die Befragten.",
       "frist": "",
       "im_kalender": false
@@ -256,8 +277,8 @@
       "id": "a03",
       "art": "Aufgabe auf Folie",
       "text": "In zwei Qualifizierungsarbeiten wird jeweils der Fokus auf das Handyverbot an Schulen gerichtet. So sollen sowohl für eine Masterarbeit als auch für eine Promotion Jugendliche zu diesem Thema befragt werden. Beide Befragungen sollen persönlich, im direkten Austausch und mit standardisierten Fragebogen durchgeführt werden. Für die Kontaktaufnahme werden Listen mit Telefonnummern der Jugendlichen ausgehändigt.\n\n1. Definieren Sie die jeweilige Grundgesamtheit.\n2. Welches Auswahlverfahren sollte jeweils angewendet werden?\n3. Begründen Sie jeweils, warum sich dieses Auswahlverfahren anbietet.\n4. Beschreiben Sie jeweils das Auswahlverfahren.\n\n**Masterarbeit:** In der Arbeit sind zu dem Thema die Sichtweisen von Jugendlichen einer neunten Klasse einer Realschule in Köln von Interesse.\n**Promotion:** In der Arbeit sind zu dem Thema die Sichtweisen von Jugendlichen der zehnten Klassen der Realschulen in Köln von Interesse.",
-      "quelle": "Folien 8–9",
-      "loesung": "*Selbst erarbeitet.*\n\n#### Masterarbeit\n**1. Grundgesamtheit:** alle Jugendlichen (Schüler∗innen) der **einen** ausgewählten neunten Klasse einer bestimmten Realschule in Köln – zum Zeitpunkt der Befragung. Das sind ungefähr 25 bis 30 Personen.\n\n**2. Auswahlverfahren:** **Vollerhebung** – alle Jugendlichen dieser Klasse werden befragt; es wird keine Stichprobe gezogen.\n\n**3. Begründung:**\n- Die Grundgesamtheit ist **klein** und **vollständig bekannt** (die Telefonliste enthält alle Jugendlichen der Klasse).\n- Alle persönlich zu befragen ist mit vertretbarem Aufwand machbar – für eine Masterarbeit realistisch.\n- Bei einer Vollerhebung gibt es keinen Fehler durch die Auswahl; man braucht keine Inferenzstatistik, die Ergebnisse lassen sich direkt beschreiben (Tachtsoglou/König 2017, S. 259).\n- Eine Stichprobe aus 25 bis 30 Personen wäre so klein, dass jede einzelne fehlende Person das Ergebnis stark verändern würde.\n- **Grenze:** Die Ergebnisse gelten nur für **diese eine Klasse** – nicht für andere Klassen oder Schulen.\n\n**4. Beschreibung:** Alle Jugendlichen auf der Telefonliste werden angerufen, über die Studie informiert und um einen Termin gebeten. Da es um Minderjährige geht, wird vorher die Einwilligung der Eltern bzw. Erziehungsberechtigten und ggf. die Genehmigung der Schule eingeholt (vgl. VL 29.10.2026, Folie 13: Genehmigungen/Einwilligungen). Dann werden alle persönlich mit dem standardisierten Fragebogen befragt. Ziel ist eine **möglichst hohe Rücklaufquote**; wer am ersten Termin fehlt, bekommt einen zweiten Termin, damit es keine systematischen Ausfälle gibt (S. 269).\n\n#### Promotion\n**1. Grundgesamtheit:** alle Jugendlichen, die zum Zeitpunkt der Befragung die **zehnten Klassen aller Realschulen in Köln** besuchen.\n\n**2. Auswahlverfahren:** eine **Zufallsstichprobe** aus der Telefonliste – am einfachsten als **systematische Zufallsstichprobe** (oder einfache Zufallsstichprobe). Möglich wäre auch eine **geschichtete Zufallsstichprobe** mit den Schulen als Schichten, damit jede Kölner Realschule vertreten ist.\n\n**3. Begründung:**\n- Die Grundgesamtheit ist **groß** (viele Schulen, mehrere Klassen je Schule); alle **persönlich** zu befragen wäre zu teuer und zeitaufwendig – auch für eine Promotion.\n- Bei einer Promotion sollen die Ergebnisse auf **alle** Kölner Realschul-Zehntklässler∗innen übertragbar sein. Das geht nur mit einer **zufallsgesteuerten** Auswahl, weil nur sie Inferenzstatistik erlaubt (Tachtsoglou/König 2017, S. 262).\n- Für eine Zufallsstichprobe braucht man eine **vollständige Liste** aller Elemente – genau die liegt mit den Telefonlisten vor (S. 263). Sie ist die **Auswahlgesamtheit**.\n\n**4. Beschreibung (systematische Zufallsstichprobe):**\n1. Alle Jugendlichen auf den Listen in **eine** Liste schreiben und nach einem Kriterium sortieren (z. B. alphabetisch).\n2. Die Stichprobengröße $n$ festlegen und den Abstand $k$ berechnen: $k = \\frac{N}{n}$. *Erfundenes Rechenbeispiel:* $N = 2400$ Jugendliche, gewünscht $n = 300$ → $k = \\frac{2400}{300} = 8$.\n3. Eine Startzahl zwischen 1 und $k$ zufällig auslosen (z. B. 5) und dann jede $k$-te Person nehmen: Platz 5, 13, 21, 29 … (S. 263 f.).\n4. Die gezogenen Jugendlichen anrufen, Einwilligung der Eltern einholen, Termine vereinbaren und persönlich mit dem standardisierten Fragebogen befragen.\n5. Auf eine hohe **Rücklaufquote** achten und Ausfälle dokumentieren; prüfen, ob die Liste vollständig und aktuell ist (sonst Under- oder Overcoverage) (S. 261, 268 f.).\n\n**Alternative:** eine **Klumpenstichprobe** – zufällig mehrere Kölner Realschulen (oder zehnte Klassen) ziehen und dort **alle** Zehntklässler∗innen befragen. Das spart Wege, weil man immer eine ganze Klasse vor Ort hat. Nachteil: Sind die Klassen in sich sehr ähnlich und untereinander sehr verschieden (z. B. je nach Stadtteil), wird die Stichprobe schlechter (S. 265 f.). Weil die Telefonlisten aller Jugendlichen vorliegen, ist die systematische Zufallsstichprobe hier die bessere Wahl.",
+      "quelle": "Folien 9–10",
+      "loesung": "*Selbst erarbeitet.*\n\n#### Masterarbeit\n**1. Grundgesamtheit:** alle Jugendlichen (Schüler∗innen) der **einen** ausgewählten neunten Klasse einer bestimmten Realschule in Köln – zum Zeitpunkt der Befragung. Das sind ungefähr 25 bis 30 Personen.\n\n**2. Auswahlverfahren:** **Vollerhebung** – alle Jugendlichen dieser Klasse werden befragt; es wird keine Stichprobe gezogen.\n\n**3. Begründung:**\n- Die Grundgesamtheit ist **klein** und **vollständig bekannt** (die Telefonliste enthält alle Jugendlichen der Klasse).\n- Alle persönlich zu befragen ist mit vertretbarem Aufwand machbar – für eine Masterarbeit realistisch.\n- Bei einer Vollerhebung gibt es keinen Fehler durch die Auswahl; man braucht keine Inferenzstatistik, die Ergebnisse lassen sich direkt beschreiben (Tachtsoglou/König 2017, S. 259).\n- Eine Stichprobe aus 25 bis 30 Personen wäre so klein, dass jede einzelne fehlende Person das Ergebnis stark verändern würde.\n- **Grenze:** Die Ergebnisse gelten nur für **diese eine Klasse** – nicht für andere Klassen oder Schulen.\n\n**4. Beschreibung:** Alle Jugendlichen auf der Telefonliste werden angerufen, über die Studie informiert und um einen Termin gebeten. Da es um Minderjährige geht, wird vorher die Einwilligung der Eltern bzw. Erziehungsberechtigten und ggf. die Genehmigung der Schule eingeholt (vgl. VL 29.10.2026, Folie 14: Genehmigungen/Einwilligungen). Dann werden alle persönlich mit dem standardisierten Fragebogen befragt. Ziel ist eine **möglichst hohe Rücklaufquote**; wer am ersten Termin fehlt, bekommt einen zweiten Termin, damit es keine systematischen Ausfälle gibt (S. 269).\n\n#### Promotion\n**1. Grundgesamtheit:** alle Jugendlichen, die zum Zeitpunkt der Befragung die **zehnten Klassen aller Realschulen in Köln** besuchen.\n\n**2. Auswahlverfahren:** eine **Zufallsstichprobe** aus der Telefonliste – am einfachsten als **systematische Zufallsstichprobe** (oder einfache Zufallsstichprobe). Möglich wäre auch eine **geschichtete Zufallsstichprobe** mit den Schulen als Schichten, damit jede Kölner Realschule vertreten ist.\n\n**3. Begründung:**\n- Die Grundgesamtheit ist **groß** (viele Schulen, mehrere Klassen je Schule); alle **persönlich** zu befragen wäre zu teuer und zeitaufwendig – auch für eine Promotion.\n- Bei einer Promotion sollen die Ergebnisse auf **alle** Kölner Realschul-Zehntklässler∗innen übertragbar sein. Das geht nur mit einer **zufallsgesteuerten** Auswahl, weil nur sie Inferenzstatistik erlaubt (Tachtsoglou/König 2017, S. 262).\n- Für eine Zufallsstichprobe braucht man eine **vollständige Liste** aller Elemente – genau die liegt mit den Telefonlisten vor (S. 263). Sie ist die **Auswahlgesamtheit**.\n\n**4. Beschreibung (systematische Zufallsstichprobe):**\n1. Alle Jugendlichen auf den Listen in **eine** Liste schreiben und nach einem Kriterium sortieren (z. B. alphabetisch).\n2. Die Stichprobengröße $n$ festlegen und den Abstand $k$ berechnen: $k = \\frac{N}{n}$. *Erfundenes Rechenbeispiel:* $N = 2400$ Jugendliche, gewünscht $n = 300$ → $k = \\frac{2400}{300} = 8$.\n3. Eine Startzahl zwischen 1 und $k$ zufällig auslosen (z. B. 5) und dann jede $k$-te Person nehmen: Platz 5, 13, 21, 29 … (S. 263 f.).\n4. Die gezogenen Jugendlichen anrufen, Einwilligung der Eltern einholen, Termine vereinbaren und persönlich mit dem standardisierten Fragebogen befragen.\n5. Auf eine hohe **Rücklaufquote** achten und Ausfälle dokumentieren; prüfen, ob die Liste vollständig und aktuell ist (sonst Under- oder Overcoverage) (S. 261, 268 f.).\n\n**Alternative:** eine **Klumpenstichprobe** – zufällig mehrere Kölner Realschulen (oder zehnte Klassen) ziehen und dort **alle** Zehntklässler∗innen befragen. Das spart Wege, weil man immer eine ganze Klasse vor Ort hat. Nachteil: Sind die Klassen in sich sehr ähnlich und untereinander sehr verschieden (z. B. je nach Stadtteil), wird die Stichprobe schlechter (S. 265 f.). Weil die Telefonlisten aller Jugendlichen vorliegen, ist die systematische Zufallsstichprobe hier die bessere Wahl.",
       "loesungsweg": "Je Arbeit: (1) Grundgesamtheit wörtlich aus der Aufgabe ableiten und genau abgrenzen; (2) Größe und Liste prüfen – klein und bekannt → Vollerhebung, groß mit vollständiger Liste → Zufallsstichprobe; (3) Begründung über Aufwand und Generalisierbarkeit; (4) praktische Schritte beschreiben.",
       "frist": "",
       "im_kalender": false
@@ -266,7 +287,7 @@
       "id": "a04",
       "art": "Aufgabe auf Folie",
       "text": "Nun ist das Thema Handyverbot an Universitäten von Interesse. Im Fokus sind die Sichtweisen der Personen, die sich in Deutschland an einer Universität im ersten Semester eines Bachelorstudiums befinden.\n1. Wer zählt hier zur Grundgesamtheit?\n2. Wie beurteilen Sie die Beispiele auf der nächsten Folie hinsichtlich des Auswahlverfahrens der Stichprobe?\n\n**Beispiel 1:** In einer Fernsehsendung wird an einem Vormittag danach gefragt, ob ein Handyverbot an Universitäten eingeführt werden soll. Eine Telefonnummer wird angezeigt und es lässt sich per Anruf für oder gegen das Handyverbot abstimmen.\n**Beispiel 2:** Die größten wissenschaftlichen Einrichtungen in Deutschland außerhalb der Universitäten befragen alle in diesen Einrichtungen beschäftigten studentischen Hilfskräfte danach, ob ein Handyverbot an Universitäten eingeführt werden soll.",
-      "quelle": "Folien 10–11",
+      "quelle": "Folien 11–12",
       "loesung": "*Selbst erarbeitet.*\n\n**1. Grundgesamtheit:** alle Personen, die zum Zeitpunkt der Befragung an einer **Universität in Deutschland** im **ersten Semester** eines **Bachelorstudiums** eingeschrieben sind. **Nicht** dazu gehören: Studierende in höheren Semestern, Masterstudierende, Studierende an Fachhochschulen bzw. Hochschulen für angewandte Wissenschaften (die Folie sagt ausdrücklich „Universität“) und Personen, die gar nicht studieren.\n\n**2. Beurteilung der Beispiele:**\n\n**Beispiel 1 (Telefonabstimmung im Fernsehen): ungeeignet.**\n- Es ist eine **nicht-zufallsgesteuerte, willkürliche** Auswahl: Die Teilnehmenden wählen sich **selbst** aus (wer zuschaut und Lust hat anzurufen).\n- **Undercoverage:** Die meisten Erstsemester sitzen vormittags in Lehrveranstaltungen oder schauen dieses Programm nicht – sie haben kaum eine Chance, teilzunehmen.\n- **Overcoverage:** Anrufen kann **jede** Person, auch Nicht-Studierende, Eltern, Rentner∗innen – sie gehören nicht zur Grundgesamtheit, werden aber mitgezählt. Oft kann man sogar **mehrfach** anrufen.\n- Wer anruft, hat meist eine starke Meinung – die Ergebnisse sind deshalb verzerrt.\n- **Ergebnis:** keine Aussage über Erstsemester möglich.\n\n**Beispiel 2 (alle studentischen Hilfskräfte außeruniversitärer Einrichtungen): ungeeignet.**\n- Es ist eine **Vollerhebung – aber einer anderen Gruppe**. Die Auswahlgesamtheit (studentische Hilfskräfte an großen Forschungseinrichtungen außerhalb der Universitäten) passt nicht zur Grundgesamtheit.\n- **Undercoverage:** Fast alle Erstsemester fehlen – sie arbeiten in der Regel (noch) nicht als Hilfskraft an solchen Einrichtungen.\n- **Overcoverage:** Hilfskräfte sind meist in **höheren** Semestern oder im **Master**, manche studieren an Fachhochschulen – sie gehören nicht zur Grundgesamtheit.\n- Die Gruppe ist zudem besonders (z. B. wissenschaftsnah, berufstätig) und kann andere Ansichten haben als typische Erstsemester.\n- Es ist **keine Zufallsauswahl** aus der Grundgesamtheit; eher eine bewusste Auswahl nach einem für die Frage unpassenden Kriterium.\n- **Ergebnis:** Die Antworten gelten nur für diese Hilfskräfte, nicht für Erstsemester.",
       "loesungsweg": "Grundgesamtheit genau abgrenzen (wer gehört dazu, wer nicht). Dann je Beispiel: Wer kann tatsächlich teilnehmen (Auswahlgesamtheit)? Wer fehlt (Undercoverage), wer ist zu viel dabei (Overcoverage)? Ist die Auswahl zufällig?",
       "frist": "",
@@ -276,7 +297,7 @@
       "id": "a05",
       "art": "Aufgabe auf Folie",
       "text": "Im Rahmen einer Bachelorarbeit soll ein Meinungsbild zur Handynutzung an der Universität Vechta erfasst werden. Von Interesse ist die Meinung von denjenigen, die an der Universität Vechta studieren. Es spielt keine Rolle, ob sich die Personen im Bachelorstudium oder im Masterstudium befinden. So soll das Ergebnis die Sichtweisen aller dort studierenden Personen widerspiegeln. Für die Befragung sollen an mehreren Tagen in der Mensa Personen angesprochen und dann mit einem standardisierten Fragebogen befragt werden.\nWie beurteilen Sie das Auswahlverfahren?",
-      "quelle": "Folie 12",
+      "quelle": "Folie 13",
       "loesung": "*Selbst erarbeitet.*\n\n**Grundgesamtheit:** alle Personen, die (zum Zeitpunkt der Befragung) an der Universität Vechta studieren – Bachelor und Master.\n\n**Das Auswahlverfahren ist für das Ziel ungeeignet.**\n- Das Ansprechen in der Mensa ist eine **willkürliche Auswahl** (Gelegenheitsstichprobe, „Auswahl nach Verfügbarkeit“): Wer gefragt wird, entscheidet die befragende Person vor Ort; es gibt keinen Zufall und keine Liste (Tachtsoglou/König 2017, S. 266 f.; VL 29.10.2026: „nicht gleichzusetzen mit einer Zufallsauswahl!“).\n- **Nicht alle haben dieselbe Chance:** Studierende, die selten oder nie in die Mensa gehen, fehlen – z. B. Pendler∗innen, Studierende mit Kindern oder Job, Teilzeit- und Online-Studierende, Studierende in Praktikumsphasen (**Undercoverage**). Gerade diese Gruppen könnten eine andere Meinung zur Handynutzung haben → **systematische Verzerrung**.\n- In der Mensa sind auch **Nicht-Studierende** (Beschäftigte, Gäste) – sie müssten über eine Eingangsfrage aussortiert werden (**Overcoverage**).\n- Die befragende Person spricht eher Menschen an, die zugänglich wirken oder allein sitzen; wer in Eile ist, lehnt ab.\n- **Positiv:** Mehrere Tage erhöhen die Zahl und die Vielfalt der Befragten, und der **standardisierte Fragebogen** macht die Antworten vergleichbar. Das Grundproblem (keine Zufallsauswahl) bleibt aber.\n\n**Folge:** Das Ergebnis spiegelt **nicht** „die Sichtweisen aller dort studierenden Personen“ wider, sondern nur die der befragten Mensagänger∗innen. Für eine explorative Vorstudie wäre es brauchbar.\n\n**Besser:** eine **Zufallsstichprobe** aus der Liste aller Immatrikulierten (z. B. über die Studierendenverwaltung, unter Beachtung des Datenschutzes): einfache oder systematische Zufallsstichprobe, Einladung per E-Mail zur Befragung, mehrfach erinnern für eine hohe Rücklaufquote. Alternativ eine **Vollerhebung** über den Uni-Mailverteiler – dann aber auf die Rücklaufquote und systematische Ausfälle achten.",
       "loesungsweg": "Grundgesamtheit festlegen → prüfen, ob jede Person dieselbe Chance hat (nein: willkürliche Auswahl) → Folgen benennen (Under-/Overcoverage, Verzerrung, keine Generalisierbarkeit) → Positives würdigen → besseres Verfahren vorschlagen.",
       "frist": "",
@@ -518,11 +539,11 @@
       ],
       "elemente": [
         {
-          "text": "Zusammenhang zwischen Smartboard-Nutzung und Deutschleistungen im 9. Jahrgang",
+          "text": "Zusammenhang zwischen Schulhund im Unterricht und Mathematikleistungen im 9. Jahrgang",
           "kategorie": "eher quantitativ"
         },
         {
-          "text": "Wie erleben Achtklässler∗innen das Lernen mit digitalen Medien?",
+          "text": "Wie erleben Viertklässler∗innen das Lernen mit einem Schulhund?",
           "kategorie": "eher qualitativ"
         },
         {
@@ -534,8 +555,8 @@
           "kategorie": "eher qualitativ"
         }
       ],
-      "erklaerung": "Folien 4–5. Zusammenhang, Anzahl, Häufigkeit → messen und prüfen (quantitativ). Erleben, Erfahrungen → verstehen (qualitativ). Die Beispiele 3 und 4 sind selbst erstellt.",
-      "folie": "4–5",
+      "erklaerung": "Folien 5–6. Zusammenhang, Anzahl, Häufigkeit → messen und prüfen (quantitativ). Erleben, Erfahrungen → verstehen (qualitativ). Die Beispiele 3 und 4 sind selbst erstellt.",
+      "folie": "5–6",
       "pruefungsrelevant": true
     },
     {
@@ -544,16 +565,16 @@
       "format": "offen",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "In einer Studie soll der Zusammenhang zwischen der Nutzung von Smartboards im Unterricht und den Leistungen im Fach Deutsch im neunten Jahrgang eines Gymnasiums untersucht werden. Welches Forschungsdesign ist angemessen? Begründe deine Entscheidung und nenne ein Argument gegen die anderen Möglichkeiten.",
-      "musterloesung": "Quantitativ: Gefragt ist nach einem Zusammenhang zwischen zwei messbaren Variablen (Nutzung = unabhängige, Deutschleistung = abhängige Variable). Man kann eine Hypothese vorab formulieren und mit standardisierten Daten vieler Schüler∗innen statistisch prüfen. Gegen qualitativ: Interviews mit wenigen Personen zeigen keinen Zusammenhang über viele Fälle. Mixed Methods nur als Ergänzung sinnvoll (z. B. Interviews, wie die Smartboards eingesetzt werden), für die Kernfrage nicht nötig.",
+      "frage": "In einer Studie soll der Zusammenhang zwischen einem Schulhund im Unterricht und den Leistungen im Fach Mathematik im neunten Jahrgang eines Gymnasiums untersucht werden. Welches Forschungsdesign ist angemessen? Begründe deine Entscheidung und nenne ein Argument gegen die anderen Möglichkeiten.",
+      "musterloesung": "Quantitativ: Gefragt ist nach einem Zusammenhang zwischen zwei messbaren Variablen (Schulhund ja/nein bzw. Häufigkeit = unabhängige, Mathematikleistung = abhängige Variable). Man kann eine Hypothese vorab formulieren und mit standardisierten Daten vieler Schüler∗innen statistisch prüfen. Gegen qualitativ: Interviews mit wenigen Personen zeigen keinen Zusammenhang über viele Fälle. Mixed Methods nur als Ergänzung sinnvoll (z. B. Beobachtung, wie der Hund den Unterricht verändert), für die Kernfrage nicht nötig.",
       "bewertungspunkte": [
         "Entscheidung: quantitativ",
         "Begründung: Zusammenhang zweier messbarer Variablen / Hypothese prüfen / standardisiert, viele Fälle",
         "Argument gegen qualitativ oder gegen Mixed Methods"
       ],
       "punkte": 3,
-      "erklaerung": "Aufgabe auf Folien 4–5, Beispiel 1 (selbst erarbeitet).",
-      "folie": "5",
+      "erklaerung": "Aufgabe auf Folien 5–6, Beispiel 1 (selbst erarbeitet).",
+      "folie": "6",
       "pruefungsrelevant": true
     },
     {
@@ -562,16 +583,16 @@
       "format": "offen",
       "niveau": "anwenden",
       "schwierigkeit": 2,
-      "frage": "Ein Fernsehsender zeigt eine Straßenumfrage, in der einige Schüler∗innen ihre Meinung zum Handyverbot an Schulen sagen. Ist die Auswahl der Befragten sinnvoll, und auf wen lassen sich die Ergebnisse beziehen?",
-      "musterloesung": "Es ist eine willkürliche Auswahl (Gelegenheitsstichprobe): Befragt wird, wer gerade da ist und reden möchte; es gibt keinen Zufall und keinen Auswahlplan. Für eine wissenschaftliche Aussage ist das nicht sinnvoll, als journalistisches Stimmungsbild schon. Die Ergebnisse gelten nur für die befragten Personen; eine Verallgemeinerung auf alle Schüler∗innen ist nicht möglich.",
+      "frage": "Ein Fernsehbeitrag zeigt Fünftklässler∗innen einer Schule, die ohne Smartphone auskommen und sagen, dass sie nichts vermissen. Ist die Auswahl der Befragten sinnvoll, und auf wen lassen sich die Ergebnisse beziehen?",
+      "musterloesung": "Es ist eine willkürliche Auswahl (Gelegenheitsstichprobe): Befragt wird, wer gerade da ist und reden möchte, an einer einzelnen, vermutlich bewusst ausgesuchten Schule; es gibt keinen Zufall und keinen Auswahlplan. Für eine wissenschaftliche Aussage ist das nicht sinnvoll, als journalistisches Stimmungsbild schon. Die Ergebnisse gelten nur für die befragten Kinder; eine Verallgemeinerung auf alle Fünftklässler∗innen ist nicht möglich.",
       "bewertungspunkte": [
         "willkürliche Auswahl / keine Zufallsauswahl",
         "nicht sinnvoll für verallgemeinernde Aussagen (ggf. Stimmungsbild)",
         "Ergebnisse gelten nur für die Befragten"
       ],
       "punkte": 3,
-      "erklaerung": "Aufgabe auf Folie 7 (selbst erarbeitet).",
-      "folie": "7",
+      "erklaerung": "Aufgabe auf Folie 8 (selbst erarbeitet).",
+      "folie": "8",
       "pruefungsrelevant": true
     },
     {
@@ -589,8 +610,8 @@
         "Beschreibung des Vorgehens"
       ],
       "punkte": 4,
-      "erklaerung": "Aufgabe auf Folie 9, Masterarbeit (selbst erarbeitet).",
-      "folie": "9",
+      "erklaerung": "Aufgabe auf Folie 10, Masterarbeit (selbst erarbeitet).",
+      "folie": "10",
       "pruefungsrelevant": true
     },
     {
@@ -608,8 +629,8 @@
         "Beschreibung des Ziehens (Startzahl, Abstand k)"
       ],
       "punkte": 4,
-      "erklaerung": "Aufgabe auf Folie 9, Promotion (selbst erarbeitet). Eine Klumpenstichprobe (ganze Klassen/Schulen zufällig ziehen) ist ebenfalls vertretbar, wenn sie begründet wird.",
-      "folie": "9",
+      "erklaerung": "Aufgabe auf Folie 10, Promotion (selbst erarbeitet). Eine Klumpenstichprobe (ganze Klassen/Schulen zufällig ziehen) ist ebenfalls vertretbar, wenn sie begründet wird.",
+      "folie": "10",
       "pruefungsrelevant": true
     },
     {
@@ -620,8 +641,8 @@
       "schwierigkeit": 2,
       "frage": "Im Fokus einer Studie sind die Sichtweisen der Personen, die sich in Deutschland an einer Universität im ersten Semester eines Bachelorstudiums befinden. Wer gehört zur Grundgesamtheit – und wer ausdrücklich nicht?",
       "antwort": "Dazu gehören alle Personen, die an einer Universität in Deutschland im ersten Semester eines Bachelorstudiums eingeschrieben sind. Nicht dazu gehören Studierende höherer Semester, Masterstudierende, Studierende an Fachhochschulen/Hochschulen für angewandte Wissenschaften und Nicht-Studierende.",
-      "erklaerung": "Folie 10 (selbst erarbeitet). Die Grundgesamtheit immer so genau wie möglich nach den Merkmalen der Frage abgrenzen.",
-      "folie": "10",
+      "erklaerung": "Folie 11 (selbst erarbeitet). Die Grundgesamtheit immer so genau wie möglich nach den Merkmalen der Frage abgrenzen.",
+      "folie": "11",
       "pruefungsrelevant": true
     },
     {
@@ -642,8 +663,8 @@
         1,
         2
       ],
-      "erklaerung": "Folie 11, Beispiel 1 (selbst erarbeitet). Die Zahl der Anrufe ändert nichts daran, dass keine Zufallsauswahl vorliegt und die Auswahlgesamtheit nicht zur Grundgesamtheit passt.",
-      "folie": "11",
+      "erklaerung": "Folie 12, Beispiel 1 (selbst erarbeitet). Die Zahl der Anrufe ändert nichts daran, dass keine Zufallsauswahl vorliegt und die Auswahlgesamtheit nicht zur Grundgesamtheit passt.",
+      "folie": "12",
       "pruefungsrelevant": true
     },
     {
@@ -664,8 +685,8 @@
         2,
         3
       ],
-      "erklaerung": "Folie 11, Beispiel 2 (selbst erarbeitet). Es ist zwar eine Vollerhebung – aber der Hilfskräfte, also einer anderen Gruppe, nicht der Grundgesamtheit.",
-      "folie": "11",
+      "erklaerung": "Folie 12, Beispiel 2 (selbst erarbeitet). Es ist zwar eine Vollerhebung – aber der Hilfskräfte, also einer anderen Gruppe, nicht der Grundgesamtheit.",
+      "folie": "12",
       "pruefungsrelevant": true
     },
     {
@@ -683,8 +704,8 @@
         "besseres Verfahren genannt"
       ],
       "punkte": 4,
-      "erklaerung": "Aufgabe auf Folie 12 (selbst erarbeitet); vgl. VL 29.10.2026 [55:03–59:31].",
-      "folie": "12",
+      "erklaerung": "Aufgabe auf Folie 13 (selbst erarbeitet); vgl. VL 29.10.2026 [55:03–59:31].",
+      "folie": "13",
       "pruefungsrelevant": true
     },
     {
@@ -703,7 +724,7 @@
       ],
       "punkte": 4,
       "erklaerung": "Selbst erstellte Transferaufgabe nach Tachtsoglou/König 2017, S. 265 f. (Klumpenstichprobe, wenn Informationen über gruppierte Elemente leichter verfügbar sind).",
-      "folie": "8–9",
+      "folie": "9–10",
       "pruefungsrelevant": true
     },
     {
@@ -728,17 +749,67 @@
       "erklaerung": "Tachtsoglou/König 2017, S. 268.",
       "folie": "3",
       "pruefungsrelevant": false
+    },
+    {
+      "id": "f25",
+      "baustein": "kernaussage",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Arbeitsschritte den Phasen einer Untersuchung nach Häder (2019) zu.",
+      "kategorien": [
+        "Erste Phase (Projektplan)",
+        "Zweite Phase (Design und Instrumente)",
+        "Dritte Phase (Erhebung im Feld)",
+        "Vierte Phase (Auswertung)",
+        "Fünfte Phase (Dokumentation und Publikation)"
+      ],
+      "elemente": [
+        {
+          "text": "Antrag an eine Forschungsförderungseinrichtung schreiben",
+          "kategorie": "Erste Phase (Projektplan)"
+        },
+        {
+          "text": "Den Fragebogen entwickeln",
+          "kategorie": "Zweite Phase (Design und Instrumente)"
+        },
+        {
+          "text": "Die Befragung durchführen und einen maschinenlesbaren Datensatz erstellen",
+          "kategorie": "Dritte Phase (Erhebung im Feld)"
+        },
+        {
+          "text": "Tabellen und statistische Berechnungen anfertigen",
+          "kategorie": "Vierte Phase (Auswertung)"
+        },
+        {
+          "text": "Die Befunde in einem Zeitschriftenaufsatz veröffentlichen",
+          "kategorie": "Fünfte Phase (Dokumentation und Publikation)"
+        }
+      ],
+      "erklaerung": "Folie 4 (Häder 2019, S. 75): Planen → Instrumente bauen → Daten sammeln → auswerten → veröffentlichen. Der Fragebogen entsteht schon in Phase 2, der Datensatz schließt Phase 3 ab.",
+      "folie": "4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f26",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Nenne die fünf Phasen einer empirischen Untersuchung nach Häder (2019) in der richtigen Reihenfolge.",
+      "antwort": "1. Erstellung des Projektplanes, 2. Ausarbeitung des Designs einschließlich der Erhebungsinstrumente, 3. Erhebung der Daten im Feld, 4. Auswertung, 5. Dokumentation der Methodik und Publikation der Befunde.",
+      "erklaerung": "Folie 4 (Häder 2019, S. 75).",
+      "folie": "4",
+      "pruefungsrelevant": true
     }
   ],
   "pruefungshinweise": [
-    "Klausur WS 25/26 (Gedächtnisprotokoll): Vorteile von Mixed Methods, Vertiefungsmodell – Folien 4–5 sind gute Übung dafür.",
+    "Klausur WS 25/26 (Gedächtnisprotokoll): Vorteile von Mixed Methods, Vertiefungsmodell – Folien 5–6 sind gute Übung dafür.",
     "VL S03 [83:41]: „Das sollten Sie unbedingt lesen“ – Auswahlverfahren: Vollerhebung, Zufallsauswahl, willkürliche Auswahl (Tachtsoglou/König).",
     "Prüfungsfalle aus der VL: Auswahl nach Verfügbarkeit (z. B. wen ich auf dem Campus treffe) ist **keine** Zufallsauswahl."
   ],
   "offene_fragen": [
-    "Vorläufig aufbereitet aus den Folien des WS 25/26 (04_ewb002.2_Untersuchungsplanung_und_Auswahlverfahren.pdf), weil die Folien T04 für WS 26/27 noch nicht in Stud.IP sind (Stand 01.11.2026) – abgleichen, sobald sie hochgeladen sind.",
-    "Folie 7: Das SWR-Video zur Umfrage „Handyverbot an Schulen“ konnte nicht angesehen werden. Die Lösung zu Aufgabe a02 geht vom Titelbild aus (Straßenumfrage mit einzelnen Schüler∗innen) – im Seminar prüfen, wie die Befragten tatsächlich ausgewählt wurden.",
-    "Folie 9 (Arbeitsphase I, Promotion): Ist eine Zufallsstichprobe aus der Telefonliste gemeint oder eine Klumpenstichprobe (ganze Klassen/Schulen)? Unsere Lösung nennt die systematische Zufallsstichprobe und die Klumpenstichprobe als Alternative.",
-    "Folie 12: Überschrift „5. Arbeitsphase III“, laut Inhaltsfolie 2 müsste es „6. Arbeitsphase III“ heißen."
+    "Folie 8: Das NDR-Video „Ganz ohne Smartphone: Fünftklässler vermissen nichts“ konnte nicht angesehen werden (Seite für Claude gesperrt). Die Lösung zu Aufgabe a02 geht vom Titel aus – beim Ansehen prüfen, wer wie befragt wurde.",
+    "Folie 10 (Arbeitsphase I, Promotion): Ist eine Zufallsstichprobe aus der Telefonliste gemeint oder eine Klumpenstichprobe (ganze Klassen/Schulen)? Unsere Lösung nennt die systematische Zufallsstichprobe und die Klumpenstichprobe als Alternative."
   ]
 }

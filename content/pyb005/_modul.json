@@ -89,7 +89,10 @@
     "pyb005_2026-10-22",
     "pyb005.2_2026-10-26",
     "pyb005.1_2026-10-28",
-    "pyb005_2026-10-29"
+    "pyb005_2026-10-29",
+    "pyb005.2_2026-11-02",
+    "pyb005.1_2026-11-04",
+    "pyb005_2026-11-05"
   ],
   "literatur": [
     {
@@ -350,6 +353,48 @@
       "geaendert": "2026-11-01",
       "art": "Literatur (eBook SpringerLink, 523 S.)",
       "status": "später"
+    },
+    {
+      "pfad": "pyb005.2/Sitzung_04/pyb005.2_Sitzung_04_Gruppe_D.pdf",
+      "geaendert": "2026-11-07",
+      "art": "Folien Seminar S04 (21 S.)",
+      "status": "verarbeitet",
+      "sitzung": "pyb005.2_2026-11-02"
+    },
+    {
+      "pfad": "pyb005.1/Sitzung_04/pyb005_Sitzung_4.pdf",
+      "geaendert": "2026-11-07",
+      "art": "Folien VL S04 (87 S.)",
+      "status": "verarbeitet",
+      "sitzung": "pyb005.1_2026-11-04"
+    },
+    {
+      "pfad": "pyb005_Lernmodule_S04.zip",
+      "geaendert": "2026-11-07",
+      "art": "Audios der Lernmodule 4.1–4.6 (33 mp3)",
+      "status": "verarbeitet",
+      "sitzung": "pyb005.1_2026-11-04"
+    },
+    {
+      "pfad": "pyb005.1/Sitzung_04/Lernmodule_S04_Transkripte.pdf",
+      "geaendert": "2026-11-07",
+      "art": "Infotexte + Audio-Transkripte der Lernmodule 4.1–4.6 (erstellt)",
+      "status": "verarbeitet",
+      "sitzung": "pyb005.1_2026-11-04"
+    },
+    {
+      "pfad": "Stud.IP › eÜbung › Courseware › 4. Sitzung (Test 18166, 20 Aufgaben, Selbsttest bis 31.03.2027)",
+      "geaendert": "2026-11-07",
+      "art": "Courseware-Übungstest (Wortlaut)",
+      "status": "verarbeitet",
+      "sitzung": "pyb005_2026-11-05"
+    },
+    {
+      "pfad": "pyb005.1/Sitzung_02/pyb005_Sitzung_2_StudIP-Fassung.pdf",
+      "geaendert": "2026-11-07",
+      "art": "Folien VL S02 erneut aus Stud.IP geladen – textgleich mit pyb005_Sitzung_2.pdf (101 S., gleiches Erstelldatum)",
+      "status": "verarbeitet",
+      "sitzung": "pyb005.1_2026-10-21"
     }
   ]
 }

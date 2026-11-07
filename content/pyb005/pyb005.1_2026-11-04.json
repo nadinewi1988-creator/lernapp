@@ -1,0 +1,1773 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pyb005",
+  "teilmodul": "pyb005.1",
+  "datum": "2026-11-04",
+  "sitzung_nr": 4,
+  "sitzung_id": "",
+  "thema": "04 Grundlagen der Lernpsychologie I+II",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Grundlage: Foliensatz (87 S.) und die sechs Stud.IP-Lernmodule 4.1–4.6 mit 33 Audio-Erklärungen von Prof. Schweer (automatisch transkribiert) und Infotexten. Nadine war nicht in der Vorlesung; eine Aufnahme gibt es nicht. Folienangaben = Seiten der PDF pyb005_Sitzung_4.pdf. Die Übungsaufgaben der eÜbung stehen im Teilmodul eÜbung (05.11.).",
+  "quellen": [
+    {
+      "datei": "pyb005.1/Sitzung_04/pyb005_Sitzung_4.pdf",
+      "art": "Folien",
+      "seiten": "1–87"
+    },
+    {
+      "datei": "Stud.IP › Vorlesung › Lernmodule 4.1–4.6",
+      "art": "Lernmodule (H5P) mit 33 Audios und 16 Infotexten",
+      "seiten": ""
+    },
+    {
+      "datei": "pyb005.1/Sitzung_04/Lernmodule_S04_Transkripte.pdf",
+      "art": "Infotexte und Audio-Transkripte (erstellt)",
+      "seiten": ""
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "… den Lernbegriff definieren können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 3",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03",
+        "f04"
+      ],
+      "erklaerung_abschnitt": "Der Lernprozess und der Lernbegriff"
+    },
+    {
+      "text": "… die Grundannahmen des Behaviorismus beschreiben und nachvollziehen können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 3",
+      "fragen": [
+        "f05",
+        "f06",
+        "f07",
+        "f08"
+      ],
+      "erklaerung_abschnitt": "Das behavioristische Menschenbild und das Black-Box-Prinzip"
+    },
+    {
+      "text": "… zentrale Elemente der klassischen Konditionierung zuordnen und erläutern können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 3",
+      "fragen": [
+        "f09",
+        "f10",
+        "f12",
+        "f13",
+        "f14",
+        "f16"
+      ],
+      "erklaerung_abschnitt": "Schema der klassischen Konditionierung"
+    },
+    {
+      "text": "… das Schema der klassischen Konditionierung auf Anwendungsbeispiele übertragen können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 3",
+      "fragen": [
+        "f11",
+        "f15",
+        "f35"
+      ],
+      "erklaerung_abschnitt": "Schema der klassischen Konditionierung"
+    },
+    {
+      "text": "… die zentralen Prinzipien und Begriffe der operanten Konditionierung nach Skinner und Thorndike verstehen und erklären können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 3",
+      "fragen": [
+        "f18",
+        "f19",
+        "f20",
+        "f21",
+        "f22",
+        "f23",
+        "f24",
+        "f25",
+        "f26",
+        "f27",
+        "f32"
+      ],
+      "erklaerung_abschnitt": "Verstärkung und Bestrafung"
+    },
+    {
+      "text": "… die Voraussetzungen für die Wirksamkeit des operanten Konditionierens benennen und erläutern können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 3",
+      "fragen": [
+        "f28"
+      ],
+      "erklaerung_abschnitt": "Verstärkungspläne, Verstärkerarten und Wirksamkeitsbedingungen"
+    },
+    {
+      "text": "… die thematisierten Methoden zum Verhaltensaufbau und Verhaltensabbau skizzieren können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 4",
+      "fragen": [
+        "f29",
+        "f31"
+      ],
+      "erklaerung_abschnitt": "Verhaltensmodifikation: Aufbau und Abbau von Verhalten"
+    },
+    {
+      "text": "… die Chancen und Grenzen der klassischen und operanten Konditionierung reflektieren können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 4",
+      "fragen": [
+        "f17",
+        "f30",
+        "f33",
+        "f34"
+      ],
+      "erklaerung_abschnitt": "Grenzen der operanten Konditionierung und Skinners Erbe"
+    },
+    {
+      "text": "… den Ablauf des „Bobo-Doll“-Experiments nach Bandura (1965) beschreiben und die zentralen Versuchsergebnisse erläutern können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 4",
+      "fragen": [
+        "f40"
+      ],
+      "erklaerung_abschnitt": "Das Bobo-Doll-Experiment (Bandura, 1965)"
+    },
+    {
+      "text": "… den Lernvorgang nach Bandura anhand des Vier-Komponenten-Modells erklären können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 4",
+      "fragen": [
+        "f37",
+        "f38",
+        "f39"
+      ],
+      "erklaerung_abschnitt": "Banduras sozial-kognitive Lerntheorie und das Vier-Komponenten-Modell"
+    },
+    {
+      "text": "… die Lerneffekte der sozial-kognitiven Lerntheorie beschreiben und deren Wirkung beispielhaft darstellen können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 4",
+      "fragen": [
+        "f41",
+        "f42"
+      ],
+      "erklaerung_abschnitt": "Reziproker Determinismus und Lerneffekte nach Bandura und Walters"
+    },
+    {
+      "text": "… die Entstehung von prosozialem und antisozialem Verhalten im Zusammenhang mit dem Beobachtungslernen nach Bandura aufzeigen können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 5",
+      "fragen": [
+        "f36",
+        "f43",
+        "f44"
+      ],
+      "erklaerung_abschnitt": "Modelllernen, prosoziales/antisoziales Verhalten und Kritik"
+    },
+    {
+      "text": "… den Zusammenhang zwischen Gestaltpsychologie und dem Lernen durch Einsicht erläutern können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 5",
+      "fragen": [
+        "f45",
+        "f46"
+      ],
+      "erklaerung_abschnitt": "Gestaltpsychologie und Gestaltgesetze"
+    },
+    {
+      "text": "… die Phasen des Lernens durch Einsicht unterscheiden und voneinander abgrenzen können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 5",
+      "fragen": [
+        "f47",
+        "f48"
+      ],
+      "erklaerung_abschnitt": "Lernen durch Einsicht (Köhler)"
+    },
+    {
+      "text": "… die Bedeutung des Lernens durch Einsicht in Hinblick auf Transferleistungen beschreiben können.",
+      "art": "vorgegeben",
+      "quelle": "Folie 5",
+      "fragen": [
+        "f49"
+      ],
+      "erklaerung_abschnitt": "Lernen durch Einsicht (Köhler)"
+    }
+  ],
+  "kurzfassung": [
+    "Lernen = erfahrungsbasierte, relativ dauerhafte Veränderung der Verhaltensdisposition; selbst nicht beobachtbar; Lernen ≠ Performanz; Reifung, Müdigkeit, Krankheit sind kein Lernen.",
+    "Drei Lernformen: assoziativ (Konditionierung), nicht assoziativ (Habituation), Modelllernen (Beobachtung). Zwei Hauptströmungen: behavioristisch vs. kognitiv.",
+    "Behaviorismus: exogenistisch (Umwelt formt den Menschen), Black-Box-Prinzip – nur Reiz und Reaktion zählen.",
+    "Klassische Konditionierung (Pawlow): NS wird durch Paarung mit dem US zum CS, der die CR auslöst; Phänomene Akquisition, Extinktion, Spontanerholung; Generalisierung/Diskrimination; höhere Ordnung.",
+    "Operante Konditionierung (Thorndike, Skinner): Lernen aus Konsequenzen; positive/negative Verstärkung (Verhalten ↑), positive (direkte)/negative (indirekte) Bestrafung (Verhalten ↓).",
+    "Kontinuierliche Verstärkung → schneller Lernanstieg; partielle → löschungsresistenter (partieller Verstärkungseffekt). Wirksamkeit: Kontingenz, Kontiguität, Reihenfolge, Wiederholung.",
+    "Verhaltensmodifikation: Shaping, Chaining, Prompting, Bestrafung, Extinktion, Time-Out.",
+    "Zwei-Faktoren-Theorie: Angst klassisch erworben, Vermeidung negativ verstärkt.",
+    "Bandura: Modelllernen ohne Black Box; Vier-Komponenten-Modell (Aufmerksamkeit, Gedächtnis | Motorik, Motivation); Bobo-Doll: Akquisition unabhängig, Performanz abhängig von Konsequenzen; Lerneffekte modellierend, enthemmend, hemmend, auslösend.",
+    "Gestaltpsychologie: Das Ganze ist anders als die Summe seiner Teile; Gestaltgesetze Nähe, Ähnlichkeit, Geschlossenheit, Kontinuität, Prägnanz.",
+    "Lernen durch Einsicht (Köhler): plötzliche Wahrnehmung von Beziehungen; sechs Phasen bis zur Übertragung; erhöht die Transferleistung."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Organisatorisches: Klausuranmeldung über QISPOS",
+      "folien": "2",
+      "text": "| | Ersttermin | Zweittermin |\n|---|---|---|\n| Datum | **09.02.2027**, 10–15 Uhr | **16.03.2027**, 10–15 Uhr |\n| Anmeldezeitraum (QISPOS) | **01.11.2026–31.01.2027** | 22.02.–07.03.2027 |\n| Abmeldung (QISPOS) | bis 05.02.2027 | bis 12.03.2027 |\n\nAnmeldungen sind **nur im angegebenen Zeitraum** möglich; nachträglich wird niemand mehr aufgenommen."
+    },
+    {
+      "titel": "Der Lernprozess und der Lernbegriff",
+      "folien": "7–9",
+      "text": "**Der Lernprozess (Folie 7, nach Lefrançois, 2015):**\n\n| Erfahrung | → Lernen | → Verhaltensänderung |\n|---|---|---|\n| Kontakt mit, Teilnahme an, Umgang mit **externalen oder internalen Ereignissen**, für die der Organismus sensitiv ist | alle **relativ dauerhaften Veränderungen des Potentials für Verhalten**, die aus Erfahrung resultieren – **nicht** durch Müdigkeit, Reifung, Drogengebrauch, Verletzung oder Krankheit verursacht | tatsächliche oder potenziell **beobachtbare** Veränderung infolge von Erfahrung; liefert den **Beleg**, dass Lernen stattgefunden hat |\n\n„Lernen ist ein **interaktiver Prozess** zwischen dem Individuum und seiner Umwelt […].“ (Schweer & Schulte-Pelkum, 2017, S. 130)\n\n**Definition (Folie 8):** „Lernen ist eine auf **Erfahrung** basierende, **dauerhafte Veränderung in der Verhaltensdisposition** eines Individuums.“ (Rinck & Becker, 2020, S. 114)\n\n**Merkmale (Folie 8–9):**\n- Lernen **beruht auf Erfahrung**.\n- Lernen bewirkt eine Veränderung von **Verhalten oder Verhaltenspotentialen**.\n- **Lernen selbst ist nicht beobachtbar**, nur das veränderte Verhalten.\n- Gelerntes muss sich nicht sofort im Verhalten zeigen → Unterscheidung **Lernen vs. Performanz (Ausführung)**: Eine Person kann Gelerntes nicht zeigen **können** oder nicht zeigen **wollen**.\n- Die Veränderung ist **verhältnismäßig dauerhaft** (mit Messer und Gabel essen); Teile können aber **verlernt** werden – schulisches Wissen scheint weniger zeitstabil. Mit **Hinweisreizen** kann Wissen wieder verfügbar gemacht werden, sonst muss es neu gelernt werden.\n\n**Kurz erklärt:** Lernen ist das, was „im Kopf“ passiert, wenn Erfahrung etwas dauerhaft verändert – man sieht es nicht direkt, sondern nur am Verhalten. Wer müde ist, betrunken oder einfach älter geworden (Reifung), verhält sich auch anders – das ist aber **kein** Lernen. *Beispiel Performanz:* Ein Kind weiß genau, wie man „Bitte“ sagt, tut es im Trotz aber nicht – gelernt ist es trotzdem.\n\n**Prüfungsfalle:** Veränderungen durch **Reifung**, Müdigkeit, Drogen, Verletzung oder Krankheit sind **kein Lernen**. Und: Lernen ist **nicht direkt beobachtbar**."
+    },
+    {
+      "titel": "Unterscheidung von Lernprozessen",
+      "folien": "10",
+      "text": "Lernprozesse werden häufig in **experimentellen Studien** untersucht. Drei Formen:\n\n| Form | Beschreibung | Beispiele |\n|---|---|---|\n| **assoziatives Lernen** | Ereignisse, Reize und Verhaltensweisen werden als **zusammengehörig** wahrgenommen und interpretiert | klassische und operante Konditionierung |\n| **nicht assoziatives Lernen** | Verhaltensänderung durch die **Wiederholung eines Reizes oder einer Reaktion** | **Habituation** (Gewöhnung) |\n| **Modelllernen** | Erwerb mentaler Informationen **ohne unmittelbare eigene Erfahrung**, durch **Beobachtung** | soziales Lernen, Imitationslernen, kognitives Lernen |\n\n(Bak, 2019; Myers & DeWall, 2023)\n\n**Kurz erklärt:** *Habituation* heißt: Man gewöhnt sich an einen wiederholten Reiz und reagiert immer schwächer – z. B. hört man das Ticken einer Uhr nach einer Weile nicht mehr. Da wird nichts miteinander verknüpft, deshalb „nicht assoziativ“."
+    },
+    {
+      "titel": "Paradigmatische Ansätze der Lernpsychologie",
+      "folien": "11–12",
+      "text": "Zwei **Hauptströmungen** (Folie 11):\n\n| behavioristischer Ansatz | kognitiver Ansatz |\n|---|---|\n| u. a. **klassische und operante Konditionierung** | u. a. **sozial-kognitive Lerntheorie**, **Lernen durch Einsicht**, neuropsychologische Prozesse |\n| das **beobachtbare und messbare Verhalten** steht im Vordergrund | **Kognitionen und Emotionen** werden in den Lernprozess einbezogen |\n| Ziel: **Vorhersage und Kontrolle** von Verhalten | die sozial-kognitive Lerntheorie **kombiniert** kognitive Prozesse mit behavioristischen Elementen |\n\nDie moderne Lernpsychologie ist „stärker an **differentiellen Effekten** interessiert, [sie] versucht, verschiedene theoretische Positionen zu **verbinden**, und bemüht sich um einen starken **Anwendungsbezug**“ (Winkel et al., 2006, S. 28).\n\nLaut Audio (4.1): Der behavioristische Ansatz befasst sich vor allem mit der Beziehung zwischen **Reizen, Reaktionen und Konsequenzen**. Die moderne Lernpsychologie fragt, wie sich **Menschen darin unterscheiden**, wie sie lernen und welche Effekte bei ihnen zustande kommen („differentiell“ = auf Unterschiede zwischen Personen bezogen).\n\nFolie 12 zeigt eine Übersicht der Lerntheorien (Steinebach et al., 2016, S. 26) als Abbildung."
+    },
+    {
+      "titel": "Das behavioristische Menschenbild und das Black-Box-Prinzip",
+      "folien": "13–15",
+      "text": "**Watson-Zitat (Folie 13):** „Gib mir ein Dutzend gesunde wohlgeformte Kinder […], und ich garantiere, dass ich jedes beliebige nehmen kann und es ganz nach meiner Wahl zu jeder Art von Spezialisten ausbilden kann – Arzt, Rechtsanwalt, Künstler, Lagerverwalter und, ja, sogar zum Bettler und Dieb, und zwar **ganz unabhängig von seinen Talenten, Schwächen, Tendenzen, Fähigkeiten, Begabungen** […].“ (Watson, 1930, S. 104) – Die Folie weist darauf hin, dass der Begriff „Rasse“ im Zitat aus heutiger wissenschaftlicher Sicht keinen Bestand hat.\n\nLaut Audio (4.1): Der Behaviorismus **bestreitet nicht**, dass es anlagebedingte Faktoren gibt – sie haben für die Prägung der Persönlichkeit aber **weniger Bedeutung**; entscheidend sind die **Lerneinflüsse aus der Umwelt**.\n\n**Anlage vs. Umwelt (Folie 14):**\n- Annahme: Das Individuum wird **im Wesentlichen von seiner Umwelt geformt** → **exogenistisches Entwicklungsmodell**: „Die Entwicklung wird völlig unter Kontrolle externer Einflussfaktoren gesehen.“ (Montada et al., 2018, S. 32)\n- **Zwei Forderungen Watsons:** Psychologie als **objektive Wissenschaft**; Analyse des Verhaltens **weitgehend ohne Bezug auf innere Prozesse**.\n- Infotext im Lernmodul („objektive Psychologie“): Watson: „Die psychologische Forschung sollte untersuchen, wie Organismen auf Reize in ihrer Umgebung reagieren.“ – „Das Ziel der Theorie ist die **Vorhersage und Kontrolle** des Verhaltens. **Introspektion** steht nicht im Mittelpunkt der Methodik der Psychologie.“ (Watson, 1913, zit. n. Myers & DeWall, 2023, S. 319)\n\n**Black-Box-Prinzip (Folie 15):**\n- Der Behaviorismus befasst sich mit dem **beobachtbaren und messbaren Verhalten** und mit der Frage, wie es sich durch **Reize steuern** lässt.\n- **Innere Prozesse, Kognitionen und Emotionen** werden **ausgeklammert**, weil sie nicht objektiv beobachtbar und nur dem eigenen Bewusstsein zugänglich sind.\n- Das innere Erleben ist eine **Black Box**: **Reiz (S, stimulus) → Mensch (Black Box) → Reaktion (R, response)**.\n- Verhaltenssteuerung über **Verstärkungs- und Vermeidungslernen**.\n\n**Kurz erklärt:** Für Behavioristen ist der Mensch wie ein Automat mit undurchsichtigem Gehäuse: Man sieht, was hineingeht (Reiz) und was herauskommt (Verhalten). Was drinnen passiert (Gedanken, Gefühle), interessiert nicht, weil man es nicht messen kann. *Introspektion* = Selbstbeobachtung der eigenen Gedanken – genau die lehnt Watson als Methode ab.\n\n**Prüfungsfalle:** *Exogenistisch* = Entwicklung von **außen** gesteuert (Umwelt). Gegenteil: *endogenistisch* (Anlage/Reifung). Behaviorismus = exogenistisch."
+    },
+    {
+      "titel": "Klassische Konditionierung: Pawlows Modell und Reflexe",
+      "folien": "17–18",
+      "text": "**Definition (Folie 17):** „Die klassische Konditionierung ist ein Lernprozess, in dessen Verlauf ein **zuvor neutraler Reiz** mit einem anderen Reiz (der ein Verhalten auslöst) durch **wiederholtes gemeinsames Auftreten assoziiert** wird.“ (Becker-Carus & Wendt, 2017, S. 296)\n\nLaut Audio (4.2): Ein **Zufallsbefund**: Pawlow untersuchte eigentlich die **Verdauung** von Hunden. Er gab ihnen Fleischpulver und merkte, dass sie schon Speichel produzierten, wenn sie nur den **Assistenten sahen** oder seine **Schritte hörten**. Daraus entstand das berühmte Experiment: Futter (**US**) löst Speichelfluss (**UR**) aus; ein **Ton** (NS) wird wiederholt mit dem Futter dargeboten und löst schließlich allein Speichelfluss aus (**CS → CR**). „Unkonditioniert“ bedeutet immer: Die Reiz-Reaktions-Verbindung **muss nicht gelernt werden**.\n\n**Grundlage sind Reflexe (Folie 18):** „Ein Reflex ist eine **ungelernte Reaktion** […], die in natürlicher Weise durch spezifische Stimuli hervorgerufen wird, die für den Organismus **biologisch relevant** sind.“ (Gerrig, 2018, S. 218)\n- Reflexe = unbeabsichtigte, ungelernte Verhaltensweisen = bereits existierende **Stimulus-Reaktions-Einheiten**.\n- Beispiele: Rückzugs-, Husten-, Nies-, Lidschluss-, Fluchtreflex, sexuelle Erregung.\n- Klassische Konditionierung wird auch bezeichnet als **Lernen durch Stimulus-Substitution** und **Signallernen**.\n\n**Kurz erklärt:** *Stimulus-Substitution* = Ein Reiz „ersetzt“ den anderen: Der Ton übernimmt die Wirkung des Futters. *Signallernen* = Der Ton wird zum **Signal**, dass gleich Futter kommt."
+    },
+    {
+      "titel": "Schema der klassischen Konditionierung",
+      "folien": "19–20",
+      "text": "| Phase | Was passiert? |\n|---|---|\n| **Ausgangssituation** | feste, unwillkürliche Verbindung **US → UR** (unbedingter Reflex); der spätere CS ist noch ein **neutraler Stimulus (NS)** |\n| **Lernphase** | **US wird wiederholt zusammen mit dem CS** dargeboten |\n| **Testphase** | **nur der CS** wird dargeboten |\n\n- Die **konditionierte Reaktion (CR) gilt als ausgebildet**, wenn auf den CS allein eine **ähnliche Reaktion** eintritt wie zuvor auf den US.\n- Ein ausgebildeter konditionierter Reflex (CS → CR) kann wieder **gelöscht** werden (**Extinktion**), wenn der CS **wiederholt ohne US** dargeboten wird.\n\n(Hoffmann, 2017; Myers & DeWall, 2023)\n\n| Abkürzung | Bedeutung | Pawlow |\n|---|---|---|\n| **US** | unbedingter/unkonditionierter Stimulus – löst ohne Lernen eine Reaktion aus | Futter |\n| **UR** | unbedingte/unkonditionierte Reaktion – ungelernt | Speichelfluss auf Futter |\n| **NS** | neutraler Stimulus – löst keine spezifische Reaktion aus | Ton vor dem Lernen |\n| **CS** | konditionierter Stimulus – zuvor neutral, löst nach dem Lernen die CR aus | Ton nach dem Lernen |\n| **CR** | konditionierte Reaktion – gelernte Reaktion auf den CS | Speichelfluss auf den Ton |\n\n**Kurz erklärt:** UR und CR sind oft **dasselbe Verhalten** (Speichelfluss) – der Unterschied ist nur, **wodurch** es ausgelöst wird: durch den US (ungelernt) oder den CS (gelernt).\n\n**So erkennst du es in der Klausur:** Frage dich zuerst: Was löst **ohne Lernen** etwas aus? → US. Was war vorher **egal** und wirkt jetzt? → CS. Das Lebewesen selbst ist **nie** ein Reiz."
+    },
+    {
+      "titel": "Zentrale Phänomene: Erwerb, Löschung, Spontanerholung",
+      "folien": "21",
+      "text": "| Phänomen | Beschreibung (Infotexte Lernmodul 4.2) |\n|---|---|\n| **Erwerb (Akquisition)** | Bildung einer Assoziation zwischen Stimulus und Reaktion durch eine gewisse Anzahl **wiederholter CS-US-Paarungen in zeitlicher Kontiguität** (Nähe) |\n| **Löschung (Extinktion)** | **Verschwinden** einer CR, wenn dem CS **kein US mehr folgt** |\n| **Spontanerholung** | **Wiederauftreten** der zuvor erloschenen CR **nach einer Ruhephase** |\n\n**Variationen der Kontiguität** (zeitliche Nähe von CS und US; Infotext, Abb. Becker-Carus & Wendt, 2017, S. 299):\n\n| Muster | zeitliche Abfolge | Beispiel |\n|---|---|---|\n| **Simultankonditionierung** | CS und US annähernd **gleichzeitig** | Ton und Futter gleichzeitig |\n| **verzögerte Konditionierung** | CS beginnt **früher** als der US (und dauert an) | Ton geht dem Futter voraus |\n| **Spurenkonditionierung** | CS beginnt früher und **hört vor dem US auf** | Ton ist aus, bevor das Futter kommt |\n| **Rückwärtskonditionierung** | CS **erst nach** dem US | Futter, dann Ton |\n\n**Kurz erklärt:** Extinktion heißt **nicht**, dass das Gelernte ganz weg ist – sonst könnte es nach einer Pause nicht spontan zurückkehren (Spontanerholung). Es wird eher „überlagert“."
+    },
+    {
+      "titel": "Reizgeneralisierung, Reizdiskrimination und Konditionierung höherer Ordnung",
+      "folien": "22–23",
+      "text": "| **Reizgeneralisierung** | **Reizdiskrimination** |\n|---|---|\n| **ähnliche Reaktion** auf eine Vielzahl verschiedener, **verwandter** Stimuli | **unterschiedliche Reaktionen** auf verwandte, aber **klar unterscheidbare** Stimuli |\n| Beispiel: Neben dem Glockenton löst auch eine **Klingel** den Speichelfluss aus. | Beispiel: Ein **Flötenton** löst keinen Speichelfluss aus, der bekannte **Glockenton** schon. |\n\n(Gerrig, 2018; Myers & DeWall, 2023)\n\n**Konditionierung höherer (zweiter) Ordnung (Folie 23):**\n- Ein **gefestigter CS (CS1)** kann die **Funktion des US übernehmen**.\n- Ein zunächst neutraler Reiz (**CS2**) wird **mit dem CS1 gepaart** und löst dann **ohne Darbietung des US** die CR aus.\n\nLaut Audio (4.2): Ein Hund speichelt bereits auf einen Ton. Nun wird **Licht** mit dem Ton gepaart – **aber nie mit Futter**. Trotzdem lernt der Hund, auf das Licht zu speicheln.\n\n**Kurz erklärt:** Generalisierung ist ein „zu weites“ Reagieren (alle Klingeln), Diskrimination ein „genaues Unterscheiden“ (nur diese eine Glocke). Bei der höheren Ordnung entsteht eine **Kette**: Musik → Kopfhörer → Tasche."
+    },
+    {
+      "titel": "Grenzen der klassischen Konditionierung",
+      "folien": "24",
+      "text": "Kritikpunkte (Folie 24, ergänzt laut Audio 4.2):\n\n| Kritik | Erläuterung (Audio) |\n|---|---|\n| **mechanistische Auffassung des Lernens** | Lernen gilt als von außen steuerbar; geeignete Umweltbedingungen sollen automatisch gewünschtes Verhalten bewirken – die **Heterogenität** der Menschen wird vernachlässigt |\n| **fehlende Erklärung für neu auftretendes Verhalten** | nur bestehende Reiz-Reaktions-Verbindungen werden gestärkt; **keine neuen Verhaltensweisen** |\n| **keine Generalisierbarkeit** | Befunde lassen sich häufig nicht replizieren, v. a. bei der Induktion von Emotionen |\n| **alternative Sichtweisen** | Kognitionswissenschaftler:innen nehmen bei Versuchspersonen **Erwartungen** an; Behavioristen lehnen dieses kognitive Konstrukt ab |\n| **begrenzte praktische Bedeutung** | die scheinbar beliebige Veränderbarkeit (v. a. bei Heranwachsenden) wird durch **heterogene Erziehungsergebnisse** in Frage gestellt |\n\nIm Audio wird zusätzlich die **begrenzte Anwendbarkeit** genannt: Für die vielfältigen Verhaltensoptionen eines Menschen braucht es weitere Lernprinzipien.\n\n**Aber:** Pawlow und andere Behavioristen gaben **wichtige Impulse** für die experimentelle Forschung – auch im Hinblick auf die Bedeutung der **Objektivität** im Forschungsprozess (Urhahne, 2025)."
+    },
+    {
+      "titel": "Operantes Konditionieren und Thorndikes Effektgesetz",
+      "folien": "26–28",
+      "text": "**Definition (Folie 26):** „Operantes Konditionieren ist das **Lernen von Verhaltenskonsequenzen**: Wenn wir lernen, welches Verhalten in welchen Situationen positive Folgen hat, können wir das Verhalten in Zukunft häufiger zeigen.“ (Rinck & Becker, 2020, S. 119)\n- beeinflusst wird die **Wahrscheinlichkeit des Auftretens** einer Verhaltensweise\n- durch **Belohnung und Bestrafung** lernt der Organismus den Zusammenhang zwischen Verhalten und Konsequenzen\n- der Organismus nutzt das eigene Verhalten als **Instrument**, um Konsequenzen zu erreichen oder zu vermeiden → synonym: **instrumentelle Konditionierung**\n- Infotext 4.3: „operant“, weil Verhaltensweisen als **Operationen zur Veränderung der inneren und äußeren Realität** verstanden werden; findet u. a. in **Erziehung und Arbeitsleben** statt (z. B. Feedback). „Durch die operante Konditionierung lernen wir […], eine Reaktion (unser Verhalten) und deren Folgen in Verbindung zu bringen […].“ (Myers & DeWall, 2023, S. 318)\n\n**Thorndikes Effektgesetz (1898, Folie 27–28):**\n- **Katzen** in Problemkäfigen konnten sich durch Bedienen einer Mechanik befreien und ans **Futter** vor dem Käfig gelangen.\n- Über die Durchgänge führten sie die nötige Reaktion **immer schneller** aus, bis sie sie sofort zeigten.\n- Verhalten wird durch **Versuch und Irrtum** geleitet; beibehalten werden die Reaktionen, auf die **unmittelbar eine positive Konsequenz** folgt → **Lernen am Erfolg**.\n- Zwei Grundprinzipien: Verhalten mit **angenehmen** Konsequenzen (Verstärker, Belohnung) tritt **häufiger** auf; Verhalten mit **unangenehmen** Konsequenzen (Bestrafung) **seltener**.\n\n**Kurz erklärt:** Der Unterschied zur klassischen Konditionierung: Dort passiert dem Lebewesen etwas (Reiz → Reflex). Hier **tut** das Lebewesen etwas und erlebt die **Folgen** – und richtet sein künftiges Verhalten danach."
+    },
+    {
+      "titel": "Skinners experimentelle Analyse des Verhaltens",
+      "folien": "29–31",
+      "text": "**Bestandteile des Paradigmas (Folie 29):**\n- der Reaktion **vorausgehende diskriminative Reize** (Hinweisreize, z. B. ein Licht),\n- auf diskriminative Reize **folgende Verstärker**,\n- **Verhaltenskontingenzen** = eindeutige Zusammenhänge zwischen Reaktion und Konsequenz.\n\n**Skinner-Box (Folie 30–31):** Ratte in einem Käfig mit **Hebel**; unter bestimmten Bedingungen (z. B. Lichtreiz) gibt es für das Drücken automatisch **Futter**; Messapparaturen erfassen die Reaktionen.\n\nVersuchsablauf:\n1. Futterspende zunächst **aus** → **Referenzniveau** (zufällige Hebeldrücke) messen.\n2. Futterspende **an** → Futter als **positiver Verstärker** → starker **Anstieg** der Hebeldrücke.\n3. Futterspende wieder **aus** → Hebeldrücke nehmen ab → **Extinktion** auch bei operant konditionierten Reaktionen.\n4. Nach der Extinktion ist auch eine **Spontanerholung** zu beobachten."
+    },
+    {
+      "titel": "Verstärkung und Bestrafung",
+      "folien": "32–34",
+      "text": "**Verstärkung** = Reize, die die Wahrscheinlichkeit einer vorangegangenen Reaktion **erhöhen** (Folie 32):\n- **positive Verstärkung:** auf das Verhalten folgt ein **angenehmer Reiz** (Essen, Lob, angenehmer Körperkontakt, Geld).\n- **negative Verstärkung:** **aversive Reize werden entfernt oder verringert** – z. B. Verstummen eines unangenehmen Tons nach dem erwünschten Verhalten (laut Audio auch: Abschalten eines Elektroschocks im Tierexperiment).\n\n**Bestrafung** = Reize, die die Wahrscheinlichkeit einer vorangegangenen Reaktion **verringern** (Folie 33):\n- **positive (direkte) Bestrafung:** ein **aversiver Reiz folgt** (z. B. Schimpfen).\n- **negative (indirekte) Bestrafung:** ein **angenehmer Reiz wird entfernt** (z. B. Wegnehmen von Gütern oder Privilegien – **Fernsehverbot**).\n\n**Übersicht (Folie 34, Schweer & Schulte-Pelkum, 2017, S. 140):**\n\n| | Reiz wird **hinzugefügt** („positiv“) | Reiz wird **entfernt** („negativ“) |\n|---|---|---|\n| **angenehmer** Reiz | **positive Verstärkung** → Verhalten ↑ | **indirekte (negative) Bestrafung** → Verhalten ↓ |\n| **unangenehmer** Reiz | **direkte (positive) Bestrafung** → Verhalten ↓ | **negative Verstärkung** → Verhalten ↑ |\n\nInfotext 4.3: „Negative Verstärkung ist **nicht mit Bestrafung zu verwechseln**, denn bei der negativen Verstärkung wird ein bestrafendes (aversives) Ereignis **entfernt**, sie hat daher positive Wirkung.“\n\n**Kurz erklärt:** „Positiv/negativ“ ist hier **Mathe, nicht Moral**: plus = etwas kommt dazu, minus = etwas wird weggenommen. „Verstärkung/Bestrafung“ sagt, ob das Verhalten **häufiger oder seltener** wird. *Beispiele:* Gurt anlegen → Piepen hört auf (negative Verstärkung); heiße Herdplatte → Schmerz (positive Bestrafung); Handyverbot nach Lügen (negative Bestrafung).\n\n**Prüfungsfalle:** **Negative Verstärkung ist keine Strafe** – sie macht Verhalten **häufiger**!"
+    },
+    {
+      "titel": "Reizgeneralisierung und -diskrimination beim operanten Konditionieren",
+      "folien": "35",
+      "text": "- Auch beim operanten Konditionieren **generalisieren** Organismen unter bestimmten Bedingungen das Gelernte.\n- **Diskriminationstraining** wirkt dem entgegen: **Selektive Verstärkung** lässt den Organismus auch zwischen sehr ähnlichen Reizen unterscheiden.\n- Beispiel Skinner-Box: Futter gibt es nur, wenn das **Lämpchen leuchtet** → die Ratte drückt bald nur noch bei Licht. Das Licht ist ein **diskriminativer Reiz**.\n- Organismen lernen also nicht nur **welche** Reaktion, sondern auch **wann** sie ausgeführt werden soll."
+    },
+    {
+      "titel": "Verstärkungspläne, Verstärkerarten und Wirksamkeitsbedingungen",
+      "folien": "36–38",
+      "text": "**Verstärkungspläne (Folie 36):**\n\n| **kontinuierliche Verstärkung** | **partielle (intermittierende) Verstärkung** |\n|---|---|\n| **jedes Mal**, wenn die Reaktion gezeigt wird, wird verstärkt | Verstärkung in **(un-)regelmäßigen Abständen** |\n| **schneller Lernanstieg** | **langsamerer** Lernanstieg |\n| **anfällig für Extinktion**, wenn die Verstärkung ausbleibt (Spontanerholung möglich) | **löschungsresistenter** |\n\nDie hohe Löschungsresistenz der partiellen Verstärkung heißt **partieller Verstärkungseffekt**.\n\n**Verstärkerarten (Folie 37, Schweer & Schulte-Pelkum, 2017, S. 144):**\n\n| Verstärkerart | Beispiel |\n|---|---|\n| **essbare** Verstärker | Süßigkeiten |\n| **soziale** Verstärker | Lob, Lächeln, Beifall, Zärtlichkeit |\n| **Token** (symbolisch) | Münzen, Wertmarken zum Eintauschen |\n| **visuelle und akustische Reize** (symbolisch) | Stempel, Noten, Signalgeräusche im Computerspiel |\n\n**Voraussetzungen für die Wirksamkeit (Folie 38; Infotexte 4.3):**\n- **Kontingenz:** Verstärkung/Bestrafung **ausschließlich als Folge** des zu beeinflussenden Verhaltens (eindeutiger Zusammenhang).\n- **Kontiguität:** **zeitliche Nähe** zwischen Verhalten und Konsequenz.\n- **Einhalten der Reihenfolge:** **erst Verhalten, dann Konsequenz**.\n- **häufige Wiederholungen:** Festigung der erlernten Reaktion.\n- Verstärkungspläne legen **Häufigkeit und Regelmäßigkeit** der Konsequenzen fest.\n\n**Kurz erklärt:** Warum ist partielle Verstärkung so „zäh“? Wer nie weiß, wann die nächste Belohnung kommt (wie beim Spielautomaten), merkt nicht so schnell, dass gar keine mehr kommt – und macht weiter.\n\n**Prüfungsfalle:** **Kontingenz** (Zusammenhang) und **Kontiguität** (zeitliche Nähe) nicht verwechseln."
+    },
+    {
+      "titel": "Verhaltensmodifikation: Aufbau und Abbau von Verhalten",
+      "folien": "39–40",
+      "text": "| Methode | Beschreibung | Beispiel |\n|---|---|---|\n| **Verstärkung** | Darbietung eines angenehmen Reizes oder Entzug eines aversiven Reizes als Konsequenz | Lob |\n| **Shaping** (Verhaltensformung) | **schrittweise Annäherung** an eine Zielreaktion: Reaktionen, die in die gewünschte Richtung gehen, werden verstärkt; besonders wichtig im **Schulunterricht** (Myers & DeWall, 2023) | Ratte wird schon fürs **Schnuppern am Hebel** belohnt |\n| **Chaining** (Verkettung) | vorhandene Verhaltensweisen werden in **fester Abfolge** zu einer neuen Handlungskette verbunden; jedes Glied ist **diskriminativer Reiz** für das nächste | Schlafengehen: Umziehen → Zähneputzen → ins Bett |\n| **Prompting** | **verbale oder verhaltensmäßige Hilfestellung**, die die Aufmerksamkeit auf das gewünschte Verhalten lenkt | Erinnern an Regeln, Vormachen |\n| **Bestrafung** | Darbietung eines aversiven oder Entzug eines angenehmen Reizes | Schimpfen, Fernsehverbot |\n| **Extinktion** | Wegfallen eines Verhaltens nach **Entzug der Verstärkung** (Löschung) | Störungen ignorieren |\n| **Time-Out** | **Auszeitmethode** bei schweren Verstößen im pädagogischen Kontext | kurz aus der Gruppe nehmen |\n\n(Bak, 2019; Lefrançois, 2015; Myers & DeWall, 2023; Rinck & Becker, 2020)\n\n**Kurz erklärt:** Shaping = „Schritt für Schritt hin zum Ziel“ (ein Verhalten wird geformt); Chaining = „mehrere Schritte zu einer Kette“ (vorhandene Teile werden verbunden); Prompting = „Anstupsen“ (Hilfe/Erinnerung)."
+    },
+    {
+      "titel": "Grenzen der operanten Konditionierung und Skinners Erbe",
+      "folien": "41–43",
+      "text": "**Kritik (Folie 41, erläutert im Audio 4.3):**\n\n| Kritik | Erläuterung |\n|---|---|\n| **Einflussnahme auf die Lernkultur** | Verstärker = Belohnung/Bestrafung; **individuelle Bedürfnisse, Wünsche, Ziele** der Lernenden spielen keine Rolle |\n| **ethische Probleme** | Ursachen des Verhaltens werden in der Umwelt gesehen, nicht im Menschen; gezielte Manipulation kann Menschen zur **„Marionette“** machen → Einsatz nur nach Abwägung von Notwendigkeit und Nutzen |\n| **geringe Konditionierbarkeit** | Wirkung von Verstärkern ist **uneinheitlich**; Bestrafung kann sogar zu **stärkerem Fehlverhalten** führen |\n| **Zurückweisung alternativer Erklärungen** | **kognitive Konstrukte** (z. B. Ziele) bleiben unbeachtet – erst die **kognitive Wende** (1970er) änderte das |\n| **ohne Belohnung lernen** | Lernen findet auch ohne Verstärkung statt |\n\n„Operante Konditionierung ist das Mittel der Wahl, um neues Verhalten zu erwerben […]. Allerdings kann **nur Verhalten verstärkt werden, das auch auftritt**.“ (Rinck & Becker, 2020, S. 122)\n\n**Skinners Erbe (Folie 42–43):** „Guter Unterricht erfordert zwei Dinge. Den Schüler:innen muss **umgehend gesagt** werden, ob sie etwas richtig oder falsch machen. Und wenn sie es richtig machen, muss ihnen gezeigt werden, **welcher Schritt als nächster** folgt.“ (Skinner, 1989) – Beispiel **goldene Sterne** fürs fehlerfreie Diktat: Belohnt werden nur die Begabten; besser wäre es, **alle für schrittweise Verbesserungen** zu belohnen (**Shaping**, Myers & DeWall, 2023, S. 330).\n\nLaut Audio (4.3): Skinners Sicht, dass Verhalten nur das Resultat äußerer Einflüsse sei, ist aus heutiger Sicht **begrenzt**. Auf den Vorwurf, seine Theorie verletze die Würde des Menschen, antwortete er sinngemäß: Verhalten wird ohnehin von äußeren Einflüssen kontrolliert – warum diese nicht **zugunsten** der Menschen einsetzen? Wäre es nicht menschlicher, **Verstärker statt Strafen** einzusetzen?"
+    },
+    {
+      "titel": "Klassische vs. operante Konditionierung und die Zwei-Faktoren-Theorie",
+      "folien": "45–47",
+      "text": "**Vergleich (Folie 45):** „Operante Konditionierung fokussiert vor allem auf die **Konsequenzen** von Verhalten, während klassische Konditionierung stärker die **Entstehungsbedingungen** des Verhaltens betrachtet. Bei der klassischen Konditionierung geht es um die **Assoziation von zwei Reizen**, bei der operanten Konditionierung hingegen um die **Assoziation von Handlung und Konsequenz**.“ (Rinck & Becker, 2020, S. 123)\n\n| | klassisch | operant |\n|---|---|---|\n| verknüpft wird | Reiz + Reiz | Verhalten + Konsequenz |\n| Verhalten | **reflexhaft**, ausgelöst | **aktiv**, „gewählt“ |\n| Blick auf | Entstehungsbedingungen | Konsequenzen |\n| Vertreter | Pawlow, Watson | Thorndike, Skinner |\n\n**Zwei-Faktoren-Theorie (Mowrer & Mowrer, 1947; Folie 46–47):** Verbindung beider Formen.\n1. **Phase – klassisch:** Der Organismus erlernt **emotionale Reaktionen**, z. B. Erwerb einer **Phobie** (Angst vor Menschenmengen; im Audio: Angst in vollen Hörsälen).\n2. **Phase – operant:** Die Emotion wird zum **Auslöser für instrumentelles Verhalten**: Die Person **vermeidet** die Situation; weil die Angst dann nachlässt, wird das **Vermeidungsverhalten negativ verstärkt** → die Phobie verfestigt sich.\n\n**Kurz erklärt:** Erst lernt man die Angst (klassisch), dann lernt man, ihr auszuweichen (operant). Weil das Ausweichen sofort Erleichterung bringt, macht man es immer wieder – und merkt nie, dass die Situation eigentlich harmlos ist."
+    },
+    {
+      "titel": "Aktueller Befund: störendes Schülerverhalten (Peras et al., 2024)",
+      "folien": "48–50",
+      "text": "**Anlass:** Störendes Verhalten ist eines der größten Probleme im Lehrberuf. Untersucht wird, ob **positive Verstärkung und negative Bestrafung** störendes Verhalten mindern – als Ergänzung **proaktiver Maßnahmen** (Regeln und Erwartungen, Routinen, Zeitmanagement).\n\n**Methode:** **Experiment**, quantitativ; philippinische Schüler:innen der **6. Klasse**, **N = 24**, 11–12 Jahre.\n- **Vor-Interventionsphase** (1 Monat, 5 Stunden): Beobachtung störenden Verhaltens.\n- **Intervention** (1 Monat, 5 Stunden): **positive Verstärkung** – Snacks und Schulmaterial für positives Verhalten; **negative Bestrafung** – nach dreimaligem unangemessenem Verhalten **kein Zugang zur Belohnung**.\n- **Nach-Interventionsphase** (1 Monat, 5 Stunden): erneute Beobachtung, Vergleich.\n\n**Ergebnisse:** störende Vorkommnisse sanken von **1105** auf **711**. Positive Verstärkung kann motivieren, Regeln zu befolgen (auch prosoziales Verhalten); in einzelnen Fällen wirkte auch negative Bestrafung. „When the intentions are good, operant conditioning can improve individual and public health.“ (Mandriota, 2021, zit. n. Peras et al., 2024)\n\n**Kurz erklärt:** Der Entzug der Belohnung ist **negative Bestrafung** (etwas Angenehmes wird weggenommen) – nicht negative Verstärkung."
+    },
+    {
+      "titel": "Alltag: emotionale Konditionierung durch Werbung",
+      "folien": "51–52",
+      "text": "Selbstreflexion (Folie 51): Werden wir im Alltag unbewusst konditioniert?\n\n**Emotionale Konditionierung (Folie 52):**\n- Lernvorgang, durch den eine **emotionale Reaktion auf einen bisher neutralen Reiz** hervorgerufen wird.\n- Ein neutraler Reiz (**Markenname** eines Softdrinks) wird wiederholt mit einem **emotionalen Reiz** (Bild einer Eisbärenfamilie im Schnee) gekoppelt.\n- Nach genug Wiederholungen löst der Markenname allein die Emotion aus.\n- Besonders häufig auf **gesättigten Märkten**; folgt den Prinzipien der **klassischen** Konditionierung.\n- Synonyme: **emotionale, evaluative oder affektive** Konditionierung.\n\n**Kurz erklärt:** Schema: Eisbärenfamilie (US) → warmes Gefühl (UR); Marke (NS → CS) → warmes Gefühl (CR)."
+    },
+    {
+      "titel": "Soziales Lernen und der Wechsel zur sozial-kognitiven Lerntheorie",
+      "folien": "54–55",
+      "text": "**Soziales Lernen (Folie 54):**\n- als **Prozess** des Lernens: ein Prozess, an dem **soziale Interaktion** beteiligt ist,\n- als **Produkt** des Lernens: **Wissen über Verhaltensweisen, die sozial angemessen/akzeptiert** sind,\n- Lernen durch **Beobachten und Interagieren**,\n- soziales Lernen ist **keine spezielle Form** des Lernens; es laufen vergleichbare **assoziative Prozesse** ab wie beim nichtsozialen Lernen.\n- Infotext 4.5: Sozial akzeptierte Verhaltensweisen unterscheiden sich je nach **Kultur, Altersgruppe, Geschlecht**; erlernt in **Sozialisationsinstanzen** (Familie, Schule, Medien), die Sitten, Werte, Gewohnheiten und Überzeugungen vermitteln.\n\n**Paradigmatischer Wechsel (Folie 55):** Klassische und operante Konditionierung können nicht erklären, welche Rolle **Denkvorgänge** und die **Beobachtung anderer** für das Lernen spielen. Antworten suchen die **sozial-kognitive Lerntheorie (Bandura)** und das **Lernen durch Einsicht (Köhler)**.\n\n**Kurz erklärt:** *Prozess* = soziales Lernen passiert gerade (verhandeln, beobachten, nachmachen). *Produkt* = das Ergebnis, das man schon „hat“ (man **weiß**, wie man sich verhält)."
+    },
+    {
+      "titel": "Banduras sozial-kognitive Lerntheorie und das Vier-Komponenten-Modell",
+      "folien": "56–58",
+      "text": "**Grundlagen (Folie 56–57):**\n- Bandura **verzichtet auf das Black-Box-Prinzip**.\n- Soziales Lernen ist eine **Theorie der Imitation** – synonym **Beobachtungslernen** oder **Modelllernen**.\n- abgeleitet aus der **Triebreduktionstheorie (Miller & Dollard)** und **Skinners operanter Konditionierung**.\n- Lernen durch **beobachtete Erfahrung**: „Welche Konsequenzen hat ein bestimmtes Verhalten für die ausführende Person?“\n- **Neu** gegenüber dem Behaviorismus: die **Berücksichtigung kognitiver Prozesse**.\n- Lernen durch **stellvertretende Erfahrungen** (Beobachtung) und **symbolische Erfahrungen** (z. B. Instruktionen).\n- Modelle sind **Menschen** oder **symbolische Verhaltensmuster** (Bücher, Anleitungen, Religionen, Medien).\n\n**Vier-Komponenten-Modell (Folie 58; Definitionen aus dem Infotext nach Lohaus et al., 2024, S. 24):**\n\n| Phase | Komponente | Bedeutung |\n|---|---|---|\n| **Aneignung (Akquisition)** | 1. **Aufmerksamkeitsprozesse** | Der Beobachter muss seine Aufmerksamkeit auf das Modell und sein Verhalten richten. |\n| | 2. **Gedächtnisprozesse** (Behalten) | Der Beobachter muss das Verhalten des Modells im Gedächtnis speichern. |\n| **Ausführung (Performanz)** | 3. **motorische Reproduktionsprozesse** | Der Beobachter muss motorisch in der Lage sein, das Verhalten zu reproduzieren. |\n| | 4. **Verstärkungs- und Motivationsprozesse** | Der Beobachter muss motiviert sein, das Verhalten selbst zu zeigen. |\n\nDas Beobachtungslernen basiert grundlegend auf **kognitiven Prozessen**.\n\n**Kurz erklärt:** Merkhilfe „**A-G-M-M**“: **A**ufpassen, **G**edächtnis, **M**otorik, **M**otivation. Die ersten beiden = lernen (Akquisition), die letzten beiden = zeigen (Performanz)."
+    },
+    {
+      "titel": "Das Bobo-Doll-Experiment (Bandura, 1965)",
+      "folien": "59–61",
+      "text": "**Frage** (Audio 4.5): Lernen Kinder aggressives Verhalten durch **Nachahmung**? Welche kognitiven Prozesse liegen dem Beobachtungslernen zugrunde?\n\n**Durchführung (Folie 60):** Kinder sahen eine von drei Filmvarianten, in denen ein Erwachsener eine Plastikpuppe schlägt und tritt:\n- **Variante A:** keine Konsequenzen,\n- **Variante B:** der Täter wird **gelobt und belohnt**,\n- **Variante C:** der Täter wird **getadelt und ermahnt**.\n\nDanach wurden die Kinder in einem Raum mit Spielzeug und der Puppe beobachtet.\n\n**Ergebnisse (Folie 61):**\n- Kinder der **A- und B-Gruppe** zeigten **deutlich häufiger** aggressives Verhalten als die **C-Gruppe**.\n- Mit **Belohnungsangebot** zur Nachahmung zeigten **alle drei Gruppen** aggressives Verhalten.\n- ➔ Alle Kinder haben das Verhalten **unabhängig von den Konsequenzen angeeignet** (Akquisition).\n- ➔ Die **Bereitschaft zur Performanz** hängt von den **eigenen und modellbezogenen Verstärkungsbedingungen** ab.\n\n**Kurz erklärt:** Auch die C-Kinder hatten die Schläge gelernt – sie haben sie nur nicht gezeigt, weil das Modell bestraft wurde. Sobald es sich lohnte, zeigten sie es. Das ist der Unterschied zwischen **Lernen** und **Ausführen**.\n\n**Prüfungsfalle:** Nicht „die C-Gruppe hat nichts gelernt“ – sie hat gelernt, aber nicht ausgeführt."
+    },
+    {
+      "titel": "Reziproker Determinismus und Lerneffekte nach Bandura und Walters",
+      "folien": "62–63",
+      "text": "**Reziproker Determinismus (Folie 62):** Bandura betont die **aktive Rolle** des Kindes. Verhalten, innere Kognitionen und Umwelt **beeinflussen sich wechselseitig**: Kinder werden von ihrer Umgebung beeinflusst und beeinflussen sie zugleich.\n\n**Lerneffekte (Folie 63; Bandura, 1969; Walters, 1963):**\n\n| Effekt | Beschreibung | Beispiel |\n|---|---|---|\n| **modellierender Effekt** | **neue** Verhaltensweisen werden erlernt, die vorher nicht im Repertoire waren | neue Gitarrentechnik übernehmen |\n| **enthemmender Effekt** | ein **vorhandenes** Verhalten wird **häufiger** (Modell wird verstärkt bzw. nicht bestraft) | stiller Student meldet sich öfter, nachdem eine Kommilitonin gelobt wurde |\n| **hemmender Effekt** | ein vorhandenes Verhalten tritt **seltener** auf, weil das Modell **bestraft** wird | Kind nimmt keine Spielsachen mehr weg, nachdem ein anderes Kind ermahnt wurde |\n| **auslösender Effekt** | Verhalten zeigt sich **unmittelbar nach der Beobachtung**, ist **weder neu noch genau imitiert** | Gähnen in der Gruppe |\n\nLaut Audio (4.5): Beim auslösenden Effekt werden Verhaltensmuster nachgeahmt, ohne dass sie neu sind oder **spezifische Konsequenzen erwartet** werden.\n\n**So erkennst du es in der Klausur:** Ist das Verhalten **neu**? → modellierend. Vorhanden und wird **häufiger**? → enthemmend. Vorhanden und wird **seltener**? → hemmend. Nur **sofort ausgelöst**, ohne Lernen? → auslösend."
+    },
+    {
+      "titel": "Modelllernen, prosoziales/antisoziales Verhalten und Kritik",
+      "folien": "64–67",
+      "text": "**Modellfunktion (Folie 64):**\n- **Erzieher:innen, Lehrkräfte und Führungskräfte** sind zentrale Modelle.\n- Kinder und Jugendliche orientieren sich auch an **Gleichaltrigen**, Mitarbeitende an **Kolleg:innen**, die als **attraktiv** gelten (z. B. informelle Führungsrolle) – deren Verhalten kann pädagogischen Zielen **widersprechen**.\n- Die meisten Studien befassen sich mit **antisozialem** Modelllernen (Gewalt in Medien, über Generationen weitergegebener Missbrauch).\n- Prosoziale Modelle: **Gandhi, Martin Luther King jr., Albert Schweitzer** – mit hoher **Konsistenz** ihres Verhaltens.\n\n**Sozialisation und Normen (Folie 65–66):**\n- **Sozialisationsbedingungen** (Kultur, Familiendynamik, Peergroup) beeinflussen die Vermittlung und Verinnerlichung von **Normen**.\n- Vorbilder wirken besonders, wenn sie **selbst tun**, was sie vermitteln wollen (Obst und Gemüse essen).\n- Normen und Regeln werden über **Beobachtungslernen** und die **Konsequenzen** vermittelt → beeinflusst aggressives vs. prosoziales Verhalten; Beobachtungslernen ist **(mit)verantwortlich für antisoziales Verhalten**.\n- **Prosoziales** Verhalten kann z. B. durch **positive Rückmeldung** bei Nachahmung anerzogen werden.\n- Kinder werden **selektiver** in dem, was sie nachahmen; durch Eigenlob, Selbstanklage und Feedback entwickeln sie einen **persönlichen Standard**.\n\n**Kritik an der sozial-kognitiven Lerntheorie (Folie 67, Audio 4.5):**\n\n| Kritik | Erläuterung |\n|---|---|\n| **Breite der Theorie** | unklar, inwieweit **eigenständige Lernprinzipien** abgebildet sind; Entstehung von Kompetenzen nur ungenau erklärt |\n| **ethische Probleme** | im Bobo-Doll-Experiment wurde Kindern **aggressives Verhalten gezeigt** |\n| **mangelnde Berücksichtigung von Emotionen** | gerade beim Erwerb aggressiven Verhaltens |\n| **Vernachlässigung genetischer Unterschiede** | Entwicklungsursprünge der Persönlichkeit werden nicht betrachtet |\n\nLaut Audio: Trotzdem war Bandura – wie Pawlow und Skinner – ein **Pionier**: Er zeigte die Bedeutung des Lernens und die Wirkung von **Vorbildern**. Lehr- und Führungskräfte sind dabei **bewusste und unbewusste Modelle**."
+    },
+    {
+      "titel": "Gestaltpsychologie und Gestaltgesetze",
+      "folien": "69–74",
+      "text": "**Gestaltpsychologie (Folie 69–70):**\n- entstand **zu Beginn des 20. Jahrhunderts**; begründet von **Wertheimer, Koffka, Köhler und Lewin** in deutschsprachigen „Schulen“.\n- befasst sich mit der **ganzheitlichen Wahrnehmung** von Objekten.\n- formuliert **Gestaltgesetze** = allgemeingültige Prinzipien der Wahrnehmungsorganisation; gelten bis heute und **schon bei Säuglingen**.\n- **„Das Ganze ist anders als die Summe seiner Teile.“** Wahrnehmung ist **nicht** das Resultat einer **Addition** elementarer Teilchen.\n- Der Mensch **strebt nach der „guten Gestalt“**.\n- Wahrnehmung von Strukturen bedeutet, **Einsicht** zu erlangen; dafür sind **höhere geistige Prozesse** ausschlaggebend.\n- ➔ „**kognitive Wende**“ vom Behaviorismus zum Kognitivismus.\n\n**Scheinkonturen (Folie 71):** Wir sehen Würfelkanten oder Kreise, die im Reizmuster **gar nicht vorhanden** sind.\n\n**Gestaltgesetze (Folie 72; Infotexte 4.6):**\n\n| Gesetz | Bedeutung |\n|---|---|\n| **Nähe** | Objekte in **enger räumlicher Nähe** werden als zusammengehörig gesehen (setzt sich sogar gegen die gewohnte Leserichtung durch) |\n| **Prägnanz** („Gesetz der guten Gestalt“) | optische Reize werden in **möglichst einfachen Gestalten** abgebildet |\n| **Geschlossenheit** | **unvollständige** Objekte werden als **vollständig** gesehen (z. B. Kanizsa-Dreieck) |\n| **Kontinuität** („Gesetz der guten Fortsetzung“) | Objekte werden als **kontinuierlich** (durchlaufend) gesehen |\n| **Ähnlichkeit** | **ähnliche** Objekte werden als zusammengehörig erlebt |\n\n**Kippfiguren (Folie 73):** Zeichnungen mit **mindestens zwei Deutungen**; was wir sehen, wird auch von **sozialen Faktoren** (Werten, Normen) beeinflusst. Laut Audio: Sie zeigen, dass Wahrnehmung **nicht vollständig** von den äußeren Reizen bestimmt wird.\n\n**Alltagsrelevanz (Folie 74):** Wahrnehmungsverzerrungen entstehen durch unterschiedliche **Aufmerksamkeits- und Interpretationsweisen**; Täuschungen können **alle Sinne** betreffen; die Unterscheidung **Figur–Grund** lenkt die Aufmerksamkeit; Scheinkonturen helfen, Objekte schneller zu erkennen."
+    },
+    {
+      "titel": "Lernen durch Einsicht (Köhler)",
+      "folien": "75–80",
+      "text": "**Definition (Folie 75):** „Einsicht ist die **plötzliche Wahrnehmung von Beziehungen** zwischen den Elementen einer Problemsituation.“ (Edelmann, 1994, zit. n. Schweer & Schulte-Pelkum, 2017, S. 161)\n- Nach **Köhler** ist einsichtsvolles Denken eine Form des **relationalen Denkens**.\n- gehört zu den **kognitiven Lerntheorien**.\n\n**Sechs Phasen nach Köhler (1925; Folie 76):**\n\n| Phase | Beschreibung |\n|---|---|\n| 1. **Auftauchen eines Problems** | ein Ziel wird durch ein Problem zunächst verhindert |\n| 2. **Probierverhalten** | bekannte, bewährte Strategien werden angewendet – führen aber nicht zum Ziel |\n| 3. **Umstrukturierung** | alternative Strategien werden **durchdacht** (nicht unbedingt ausgeführt) |\n| 4. **Einsicht und Lösung** | eine gedachte Strategie erscheint erfolgversprechend → **„Aha-Erlebnis“** |\n| 5. **Anwendung** | Handlung setzt ein; bei Erfolg beibehalten |\n| 6. **Übertragung** | **Lerntransfer**: Lösung wird auf ähnliche Probleme angewendet |\n\n**Zwei-Seile-Problem (Maier, 1931; Folie 77):** Zwei Seile hängen von der Decke, man erreicht nicht beide gleichzeitig. Lösung: **Zange** an ein Seil knoten, es **pendeln** lassen, das zweite Seil zur Mitte ziehen und das pendelnde Seil abfangen. (Die Zange wird **umgedeutet** – vom Werkzeug zum Gewicht.)\n\n**Praxisbeispiele (Folie 78):** „3 × 5“ = „5 + 5 + 5“; ein Klavierschüler kann eine Passage erst nach dem **ganzen Stück** nachspielen; „alle Substantive werden großgeschrieben“.\n\n**Nicht nur beim Menschen (Folie 79):** Köhlers **Schimpansen** nutzten durch Einsicht Werkzeuge; später auch bei **Krähenvögeln** nachgewiesen.\n\n**Fazit (Folie 80; Audio 4.6):**\n- **Chance:** Einsicht liefert die **augenblickliche Lösung** eines Problems und **erhöht die Transferleistung** (Übertragung auf strukturell ähnliche Situationen). Jede verbale Wissensvermittlung zielt auf Einsicht – Lernende sollen **verstehen**, nicht durch Versuch und Irrtum lernen.\n- **Herausforderung:** Einsicht **tritt eventuell nicht ein**.\n\n**Kurz erklärt:** Bei Thorndikes Katzen (Versuch und Irrtum) wird die Lösung **langsam** besser. Bei Einsicht kommt sie **plötzlich** – man „sieht“ auf einmal den Zusammenhang.\n\n**Prüfungsfalle:** Wahlloses Ausprobieren bis zum Zufallstreffer = **Versuch und Irrtum** (Thorndike), nicht Einsicht. Nachmachen = **Modelllernen**, nicht Einsicht."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Lernen",
+      "wortlaut": "Lernen ist eine auf Erfahrung basierende, dauerhafte Veränderung in der Verhaltensdisposition eines Individuums. (Rinck & Becker, 2020, S. 114)",
+      "erklaerung": "Erfahrungsbedingte, relativ dauerhafte Veränderung des Verhaltens(-potenzials) – nicht durch Reifung, Müdigkeit, Drogen, Krankheit.",
+      "folie": "8"
+    },
+    {
+      "begriff": "Performanz",
+      "wortlaut": "Unterscheidung zwischen Lernen und Performanz (Ausführung); es besteht die Möglichkeit, dass Gelerntes von einer Person nicht gezeigt werden kann oder will (Folie 8)",
+      "erklaerung": "Das Zeigen des Gelernten im Verhalten.",
+      "folie": "8"
+    },
+    {
+      "begriff": "assoziatives Lernen",
+      "wortlaut": "Form des Lernens, bei der u.a. Ereignisse, Reize und Verhaltensweisen als zusammengehörig wahrgenommen und interpretiert werden (u.a. klassische und operante Konditionierung) (Folie 10)",
+      "erklaerung": "Lernen durch Verknüpfung.",
+      "folie": "10"
+    },
+    {
+      "begriff": "nicht assoziatives Lernen",
+      "wortlaut": "Form des Lernens, bei der eine Änderung des Verhaltens durch die Wiederholung eines Reizes oder einer Reaktion erreicht wird (u.a. Habituation) (Folie 10)",
+      "erklaerung": "z. B. Gewöhnung an ein Geräusch.",
+      "folie": "10"
+    },
+    {
+      "begriff": "Modelllernen",
+      "wortlaut": "Erwerb von mentalen Informationen, bei dem etwas ohne unmittelbare eigene Erfahrung, sondern durch Beobachtung erlernt wird (u.a. soziales Lernen, Imitationslernen, kognitives Lernen) (Folie 10)",
+      "erklaerung": "Lernen durch Beobachten anderer.",
+      "folie": "10"
+    },
+    {
+      "begriff": "exogenistisches Entwicklungsmodell",
+      "wortlaut": "„Die Entwicklung wird völlig unter Kontrolle externer Einflussfaktoren gesehen.“ (Montada et al., 2018, S. 32)",
+      "erklaerung": "Umwelt formt den Menschen – Sicht des Behaviorismus.",
+      "folie": "14"
+    },
+    {
+      "begriff": "Black-Box-Prinzip",
+      "wortlaut": "innere Prozesse, Kognitionen und Emotionen werden dabei ausgeklammert, da sie nicht objektiv beobachtbar sind und lediglich dem eigenen Bewusstsein zugänglich sind; das innere Erleben des Menschen wird als Black-Box dargestellt (Folie 15)",
+      "erklaerung": "Nur Reiz und Reaktion zählen, das Innere bleibt unberücksichtigt.",
+      "folie": "15"
+    },
+    {
+      "begriff": "klassische Konditionierung",
+      "wortlaut": "„Die klassische Konditionierung ist ein Lernprozess, in dessen Verlauf ein zuvor neutraler Reiz mit einem anderen Reiz (der ein Verhalten auslöst) durch wiederholtes gemeinsames Auftreten assoziiert wird.“ (Becker-Carus & Wendt, 2017, S. 296)",
+      "erklaerung": "Auch: Signallernen, Lernen durch Stimulus-Substitution.",
+      "folie": "17"
+    },
+    {
+      "begriff": "Reflex",
+      "wortlaut": "„Ein Reflex ist eine ungelernte Reaktion […], die in natürlicher Weise durch spezifische Stimuli hervorgerufen wird, die für den Organismus biologisch relevant sind.“ (Gerrig, 2018, S. 218)",
+      "erklaerung": "Basis der klassischen Konditionierung.",
+      "folie": "18"
+    },
+    {
+      "begriff": "Akquisition (klassisch)",
+      "wortlaut": "Bildung einer Assoziation zwischen Stimulus und Reaktion durch eine gewisse Anzahl von wiederholten CS-US Paarungen in zeitlicher Kontiguität (Infotext 4.2)",
+      "erklaerung": "Erwerb der CR.",
+      "folie": "21"
+    },
+    {
+      "begriff": "Extinktion",
+      "wortlaut": "Verschwinden einer konditionierten Reaktion (CR), wenn dem konditionierten Reiz (CS) kein unkonditionierter Reiz (US) mehr folgt (Infotext 4.2)",
+      "erklaerung": "Löschung; operant: Wegfallen eines Verhaltens nach Entzug der Verstärkung.",
+      "folie": "21"
+    },
+    {
+      "begriff": "Spontanerholung",
+      "wortlaut": "Wiederauftreten der zuvor erloschenen konditionierten Reaktion (CR) nach einer Ruhephase (Infotext 4.2)",
+      "erklaerung": "Gelöschtes kehrt nach einer Pause zurück.",
+      "folie": "21"
+    },
+    {
+      "begriff": "Reizgeneralisierung",
+      "wortlaut": "ähnliche Reaktion auf eine Vielzahl verschiedener, verwandter Stimuli (Folie 22)",
+      "erklaerung": "Glocke und Klingel lösen Speichelfluss aus.",
+      "folie": "22"
+    },
+    {
+      "begriff": "Reizdiskrimination",
+      "wortlaut": "unterschiedliche Reaktionen auf verwandte, aber klar unterscheidbare Stimuli (Folie 22)",
+      "erklaerung": "Nur der Glockenton, nicht der Flötenton.",
+      "folie": "22"
+    },
+    {
+      "begriff": "Konditionierung höherer Ordnung",
+      "wortlaut": "ein gefestigter konditionierter Reiz (CS 1) kann die Funktion des unkonditionierten Reizes (US) übernehmen; der zunächst neutrale Reiz (CS 2) wird mit dem CS 1 gepaart und löst ohne Darbietung des US die CR aus (Folie 23)",
+      "erklaerung": "Kette von konditionierten Reizen.",
+      "folie": "23"
+    },
+    {
+      "begriff": "operantes Konditionieren",
+      "wortlaut": "„Operantes Konditionieren ist das Lernen von Verhaltenskonsequenzen: Wenn wir lernen, welches Verhalten in welchen Situationen positive Folgen hat, können wir das Verhalten in Zukunft häufiger zeigen.“ (Rinck & Becker, 2020, S. 119)",
+      "erklaerung": "Synonym: instrumentelle Konditionierung.",
+      "folie": "26"
+    },
+    {
+      "begriff": "Effektgesetz (Thorndike)",
+      "wortlaut": "Verhaltensweisen, auf die angenehme Konsequenzen folgen, treten zunehmend häufiger auf; Verhaltensweisen, auf die unangenehme Konsequenzen folgen, treten zunehmend seltener auf (Folie 28)",
+      "erklaerung": "Lernen am Erfolg, Versuch und Irrtum.",
+      "folie": "27–28"
+    },
+    {
+      "begriff": "positive Verstärkung",
+      "wortlaut": "auf das gezeigte Verhalten folgt ein angenehmer Reiz, dieser erhöht die Auftretenswahrscheinlichkeit des besagten Verhaltens (Folie 32)",
+      "erklaerung": "Angenehmes kommt dazu → Verhalten ↑.",
+      "folie": "32"
+    },
+    {
+      "begriff": "negative Verstärkung",
+      "wortlaut": "aversive Reize, die auf eine Reaktion folgend entfernt oder verringert werden, erhöhen die Wahrscheinlichkeit des Auftretens dieser Reaktion (Folie 32)",
+      "erklaerung": "Unangenehmes fällt weg → Verhalten ↑. Keine Strafe!",
+      "folie": "32"
+    },
+    {
+      "begriff": "positive (direkte) Bestrafung",
+      "wortlaut": "aversive Reize, die auf eine Reaktion folgen, senken die Wahrscheinlichkeit des Auftretens dieser Reaktion (Folie 33)",
+      "erklaerung": "Unangenehmes kommt dazu → Verhalten ↓.",
+      "folie": "33"
+    },
+    {
+      "begriff": "negative (indirekte) Bestrafung",
+      "wortlaut": "angenehme Reize, die auf eine Reaktion folgend entfernt oder verringert werden, senken die Wahrscheinlichkeit des Auftretens dieser Reaktion (Folie 33)",
+      "erklaerung": "Angenehmes wird weggenommen → Verhalten ↓.",
+      "folie": "33"
+    },
+    {
+      "begriff": "partieller Verstärkungseffekt",
+      "wortlaut": "das Phänomen der hohen Löschungsresistenz der partiellen Verstärkung wird als partieller Verstärkungseffekt bezeichnet (Folie 36)",
+      "erklaerung": "Unregelmäßig verstärktes Verhalten hält länger.",
+      "folie": "36"
+    },
+    {
+      "begriff": "Kontingenz",
+      "wortlaut": "Darbietung von Verstärkung/Bestrafung ausschließlich als Folge des zu beeinflussenden Verhaltens; Zusammenhang zwischen Verhaltensreaktion und Konsequenz (Infotext 4.3)",
+      "erklaerung": "Eindeutiger Zusammenhang.",
+      "folie": "38"
+    },
+    {
+      "begriff": "Kontiguität",
+      "wortlaut": "zeitliche Nähe zwischen Verhalten und Konsequenz (Infotext 4.3)",
+      "erklaerung": "Konsequenz folgt sofort.",
+      "folie": "38"
+    },
+    {
+      "begriff": "Shaping",
+      "wortlaut": "schrittweise Annäherung an eine erwünschte Zielreaktion; Verstärkung von Reaktionen, die in die gewünschte Richtung gehen, bis schlussendlich die Zielreaktion ausgeführt wird (Folie 39)",
+      "erklaerung": "Verhaltensformung.",
+      "folie": "39"
+    },
+    {
+      "begriff": "Chaining",
+      "wortlaut": "Verknüpfung von Reaktionssequenzen; einzelne, schon existierende Verhaltensweisen werden zu einer neuen Kette von Handlungen verbunden (Folie 39)",
+      "erklaerung": "Verkettung in fester Abfolge.",
+      "folie": "39"
+    },
+    {
+      "begriff": "Prompting",
+      "wortlaut": "verbale oder verhaltensmäßige Hilfestellungen, welche die Aufmerksamkeit auf das gewünschte Verhalten lenken sollen (Folie 40)",
+      "erklaerung": "Erinnern, Vormachen.",
+      "folie": "40"
+    },
+    {
+      "begriff": "Zwei-Faktoren-Theorie",
+      "wortlaut": "Verbindung klassischen und operanten Konditionierens: 1. Phase: als Folge klassischer Konditionierung erlernt der Organismus emotionale Reaktionen; 2. Phase: emotionale Zustände führen zu Auslösern für instrumentelles Verhalten (Folie 46)",
+      "erklaerung": "Angst erwerben (klassisch), Vermeidung negativ verstärkt (operant) – Mowrer & Mowrer (1947).",
+      "folie": "46–47"
+    },
+    {
+      "begriff": "emotionale Konditionierung",
+      "wortlaut": "Lernvorgang, durch den eine emotionale Reaktion auf einen bisher als neutral empfundenen Reiz hervorgerufen wird (Folie 52)",
+      "erklaerung": "Synonym: evaluative/affektive Konditionierung; Werbung.",
+      "folie": "52"
+    },
+    {
+      "begriff": "soziales Lernen",
+      "wortlaut": "soziales Lernen kann als Prozess des Lernens oder als Produkt des Lernens aufgefasst werden; Prozess: Prozess, an dem soziale Interaktion beteiligt ist; Produkt: Wissen über Verhaltensweisen, die sozial angemessen/akzeptiert sind (Folie 54)",
+      "erklaerung": "Lernen durch Beobachten und Interagieren.",
+      "folie": "54"
+    },
+    {
+      "begriff": "reziproker Determinismus",
+      "wortlaut": "die interagierenden Einflüsse zwischen dem Verhalten und der inneren Kognition der Kinder und ihrer Umwelt (Folie 62)",
+      "erklaerung": "Kind ↔ Umwelt beeinflussen sich wechselseitig.",
+      "folie": "62"
+    },
+    {
+      "begriff": "Einsicht",
+      "wortlaut": "„Einsicht ist die plötzliche Wahrnehmung von Beziehungen zwischen den Elementen einer Problemsituation.“ (Edelmann, 1994, zit. n. Schweer & Schulte-Pelkum, 2017, S. 161)",
+      "erklaerung": "Aha-Erlebnis; Köhler: relationales Denken.",
+      "folie": "75"
+    },
+    {
+      "begriff": "Kippfigur",
+      "wortlaut": "Kippfiguren sind zeichnerische Gebilde, deren optische Reizkonfiguration mindestens zwei verschiedene Deutungen zulässt (Folie 73)",
+      "erklaerung": "z. B. Vase/zwei Gesichter.",
+      "folie": "73"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie definieren Rinck & Becker (2020) Lernen?",
+      "antwort": "Lernen ist eine auf Erfahrung basierende, dauerhafte Veränderung in der Verhaltensdisposition eines Individuums.",
+      "erklaerung": "Folie 8.",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Veränderungen sind im Sinne des Lernbegriffs **kein** Lernen? (mehrere richtig)",
+      "optionen": [
+        "Ein Kind kann nach einer Erkältung schlechter hören.",
+        "Ein Jugendlicher wächst in einem Jahr 8 cm.",
+        "Ein Kind kann nach mehreren Übungen mit Messer und Gabel essen.",
+        "Eine Studentin reagiert nach einer durchwachten Nacht langsamer."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Lernen beruht auf Erfahrung; Veränderungen durch Krankheit, Reifung oder Müdigkeit sind ausgenommen (Folie 7).",
+      "folie": "7–9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum Lernbegriff sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Lernen ist direkt beobachtbar.",
+        "Gelerntes muss sich nicht sofort im Verhalten zeigen.",
+        "Man unterscheidet Lernen und Performanz.",
+        "Gelerntes kann nicht wieder verlernt werden."
+      ],
+      "richtig": [
+        1,
+        2
+      ],
+      "erklaerung": "Nur das veränderte Verhalten ist beobachtbar; Teile können verlernt und über Hinweisreize wieder verfügbar gemacht werden (Folie 8–9).",
+      "folie": "8–9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Form von Lernprozess liegt vor?",
+      "kategorien": [
+        "assoziatives Lernen",
+        "nicht assoziatives Lernen",
+        "Modelllernen"
+      ],
+      "elemente": [
+        {
+          "text": "Ein Hund speichelt beim Klang der Futterdose.",
+          "kategorie": "assoziatives Lernen"
+        },
+        {
+          "text": "Man hört das Ticken der Wanduhr nach einer Weile nicht mehr.",
+          "kategorie": "nicht assoziatives Lernen"
+        },
+        {
+          "text": "Ein Kind schaut seiner Schwester beim Schleifebinden zu und kann es danach.",
+          "kategorie": "Modelllernen"
+        },
+        {
+          "text": "Ein Kind räumt öfter auf, seit es dafür gelobt wird.",
+          "kategorie": "assoziatives Lernen"
+        }
+      ],
+      "erklaerung": "Assoziativ = Verknüpfung (klassisch/operant); nicht assoziativ = Habituation; Modelllernen = Beobachtung (Folie 10).",
+      "folie": "10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Behavioristischer oder kognitiver Ansatz?",
+      "kategorien": [
+        "behavioristisch",
+        "kognitiv"
+      ],
+      "elemente": [
+        {
+          "text": "klassische und operante Konditionierung",
+          "kategorie": "behavioristisch"
+        },
+        {
+          "text": "Ziel: Vorhersage und Kontrolle von Verhalten",
+          "kategorie": "behavioristisch"
+        },
+        {
+          "text": "Kognitionen und Emotionen werden einbezogen",
+          "kategorie": "kognitiv"
+        },
+        {
+          "text": "Lernen durch Einsicht",
+          "kategorie": "kognitiv"
+        },
+        {
+          "text": "sozial-kognitive Lerntheorie",
+          "kategorie": "kognitiv"
+        }
+      ],
+      "erklaerung": "Folie 11. Die sozial-kognitive Lerntheorie kombiniert kognitive Prozesse mit behavioristischen Elementen, gehört aber zum kognitiven Ansatz.",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen entsprechen dem Behaviorismus? (mehrere richtig)",
+      "optionen": [
+        "Der Mensch wird im Wesentlichen durch seine Umwelt geformt.",
+        "Innere Prozesse werden ausgeklammert, weil sie nicht objektiv beobachtbar sind.",
+        "Introspektion ist die zentrale Methode.",
+        "Watson forderte Psychologie als objektive Wissenschaft."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 13–15 und Infotext 4.1: Introspektion steht gerade nicht im Mittelpunkt.",
+      "folie": "13–15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Im Behaviorismus wird das innere Erleben als [[Black Box]] dargestellt: Ein [[Reiz]] (S) trifft auf den Menschen und führt zu einer [[Reaktion]] (R). Entwicklung wird nach dem [[exogenistischen]] Modell vollständig durch externe Einflüsse erklärt.",
+      "erklaerung": "Folie 14–15.",
+      "folie": "14–15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was sagt das Watson-Zitat über das Menschenbild des Behaviorismus aus?",
+      "optionen": [
+        "Anlagen bestimmen den Beruf eines Menschen.",
+        "Durch gezielte Umweltgestaltung kann aus jedem Kind jede Art von Spezialist werden.",
+        "Kinder lernen vor allem durch Einsicht.",
+        "Kinder entwickeln sich in festen Stufen."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Folie 13: „ganz unabhängig von seinen Talenten … Begabungen“. Laut Audio werden Anlagen nicht bestritten, aber für weniger bedeutsam gehalten.",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Bezeichnungen gibt es für die klassische Konditionierung? (mehrere richtig)",
+      "optionen": [
+        "Signallernen",
+        "Lernen durch Stimulus-Substitution",
+        "instrumentelle Konditionierung",
+        "Lernen am Erfolg"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Folie 18. Instrumentelle Konditionierung = operant; Lernen am Erfolg = Thorndike.",
+      "folie": "18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Pawlows Hund: Ordne zu.",
+      "kategorien": [
+        "US",
+        "UR",
+        "NS",
+        "CS",
+        "CR"
+      ],
+      "elemente": [
+        {
+          "text": "Futter",
+          "kategorie": "US"
+        },
+        {
+          "text": "Speichelfluss auf das Futter",
+          "kategorie": "UR"
+        },
+        {
+          "text": "Ton vor der Lernphase",
+          "kategorie": "NS"
+        },
+        {
+          "text": "Ton nach der Lernphase",
+          "kategorie": "CS"
+        },
+        {
+          "text": "Speichelfluss auf den Ton",
+          "kategorie": "CR"
+        }
+      ],
+      "erklaerung": "Folie 17–20 und Audio 4.2.",
+      "folie": "17–20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ein Kind wurde mehrmals beim Zahnarzt schmerzhaft behandelt. Inzwischen bekommt es schon beim Geruch der Praxis Herzklopfen. Welche Aussagen sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Die schmerzhafte Behandlung ist der unkonditionierte Reiz.",
+        "Der Praxisgeruch ist der konditionierte Reiz.",
+        "Das Herzklopfen beim Geruch ist die konditionierte Reaktion.",
+        "Das Kind ist der unkonditionierte Reiz."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Schmerzhafte Behandlung (US) → Angst/Herzklopfen (UR); Geruch (NS → CS) → Herzklopfen (CR). Das Kind ist der lernende Organismus.",
+      "folie": "19–20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Wann gilt die konditionierte Reaktion als ausgebildet?",
+      "optionen": [
+        "wenn US und CS gleichzeitig eine Reaktion auslösen",
+        "wenn auf den CS allein eine ähnliche Reaktion eintritt wie zuvor auf den US",
+        "wenn der US keine Reaktion mehr auslöst",
+        "nach genau zehn Paarungen"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Folie 20 (Testphase: nur der CS wird dargeboten).",
+      "folie": "19–20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welches Phänomen der klassischen Konditionierung liegt vor?",
+      "kategorien": [
+        "Akquisition",
+        "Extinktion",
+        "Spontanerholung"
+      ],
+      "elemente": [
+        {
+          "text": "Der Ton wird immer wieder mit Futter gepaart, bis der Hund auf den Ton speichelt.",
+          "kategorie": "Akquisition"
+        },
+        {
+          "text": "Der Ton erklingt wiederholt ohne Futter; der Speichelfluss verschwindet.",
+          "kategorie": "Extinktion"
+        },
+        {
+          "text": "Nach einer Pause speichelt der Hund beim Ton plötzlich wieder.",
+          "kategorie": "Spontanerholung"
+        }
+      ],
+      "erklaerung": "Folie 21 und Infotexte 4.2.",
+      "folie": "21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Variante der Kontiguität liegt vor?",
+      "kategorien": [
+        "Simultankonditionierung",
+        "verzögerte Konditionierung",
+        "Spurenkonditionierung",
+        "Rückwärtskonditionierung"
+      ],
+      "elemente": [
+        {
+          "text": "Ton und Futter beginnen gleichzeitig.",
+          "kategorie": "Simultankonditionierung"
+        },
+        {
+          "text": "Der Ton beginnt vor dem Futter und läuft weiter, bis das Futter kommt.",
+          "kategorie": "verzögerte Konditionierung"
+        },
+        {
+          "text": "Der Ton ist schon aus, wenn das Futter kommt.",
+          "kategorie": "Spurenkonditionierung"
+        },
+        {
+          "text": "Erst kommt das Futter, dann der Ton.",
+          "kategorie": "Rückwärtskonditionierung"
+        }
+      ],
+      "erklaerung": "Infotext 4.2 (Abb. Becker-Carus & Wendt, 2017, S. 299).",
+      "folie": "21",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f15",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Ein Kind hat Angst vor dem Nachbarshund entwickelt und fürchtet sich nun vor allen Hunden. Welches Phänomen liegt vor?",
+      "optionen": [
+        "Reizdiskrimination",
+        "Reizgeneralisierung",
+        "Spontanerholung",
+        "Extinktion"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Ähnliche Reaktion auf verwandte Reize = Generalisierung (Folie 22).",
+      "folie": "22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur Konditionierung höherer Ordnung sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Ein gefestigter CS1 übernimmt die Funktion des US.",
+        "Der CS2 wird mit dem US gepaart.",
+        "Der CS2 löst die CR aus, ohne dass der US dargeboten wird.",
+        "Sie ist nur bei Menschen möglich."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Folie 23; Audio: Licht wird mit dem Ton gepaart, nie mit Futter.",
+      "folie": "23",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Kritikpunkte an der klassischen Konditionierung nennt die Vorlesung? (mehrere richtig)",
+      "optionen": [
+        "mechanistische Auffassung des Lernens",
+        "fehlende Erklärung für neu auftretendes Verhalten",
+        "zu starke Betonung von Emotionen und Gedanken",
+        "begrenzte praktische Bedeutung"
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 24. Der Behaviorismus klammert Gedanken gerade aus.",
+      "folie": "24",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur operanten Konditionierung sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Sie wird auch instrumentelle Konditionierung genannt.",
+        "Gelernt wird der Zusammenhang zwischen Verhalten und Konsequenz.",
+        "Grundlage sind angeborene Reflexe.",
+        "Beeinflusst wird die Auftretenswahrscheinlichkeit eines Verhaltens."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 26. Reflexe sind Grundlage der klassischen Konditionierung.",
+      "folie": "26",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was zeigte Thorndikes Katzenexperiment?",
+      "optionen": [
+        "Katzen lernten durch plötzliche Einsicht.",
+        "Katzen lernten durch Versuch und Irrtum; erfolgreiche Reaktionen wurden immer schneller ausgeführt.",
+        "Katzen lernten durch Beobachtung anderer Katzen.",
+        "Katzen speichelten beim Anblick des Käfigs."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Folie 27: Lernen am Erfolg, Effektgesetz.",
+      "folie": "27–28",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Welche Bestandteile hat Skinners Paradigma der operanten Konditionierung? (mehrere richtig)",
+      "optionen": [
+        "vorausgehende diskriminative Reize",
+        "folgende Verstärker",
+        "Verhaltenskontingenzen",
+        "unkonditionierte Reflexe"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 29.",
+      "folie": "29",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was passiert in der Skinner-Box, wenn die Futterspende nach der Lernphase abgeschaltet wird?",
+      "optionen": [
+        "Die Ratte drückt den Hebel häufiger.",
+        "Die Häufigkeit des Hebeldrückens nimmt ab (Extinktion); später ist Spontanerholung möglich.",
+        "Das Verhalten bleibt dauerhaft gleich.",
+        "Die Ratte lernt eine neue Reaktion durch Einsicht."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Folie 31.",
+      "folie": "30–31",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f22",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welches Prinzip der operanten Konditionierung liegt vor?",
+      "kategorien": [
+        "positive Verstärkung",
+        "negative Verstärkung",
+        "positive (direkte) Bestrafung",
+        "negative (indirekte) Bestrafung"
+      ],
+      "elemente": [
+        {
+          "text": "Ein Kind bekommt für das Aufräumen ein Lob.",
+          "kategorie": "positive Verstärkung"
+        },
+        {
+          "text": "Eine Schülerin räumt ihr Zimmer auf – das Genörgel der Eltern hört auf; sie räumt künftig öfter auf.",
+          "kategorie": "negative Verstärkung"
+        },
+        {
+          "text": "Ein Schüler wird für Zwischenrufe vor der Klasse ermahnt.",
+          "kategorie": "positive (direkte) Bestrafung"
+        },
+        {
+          "text": "Eine Jugendliche bekommt nach dem Zuspätkommen eine Woche Handyverbot.",
+          "kategorie": "negative (indirekte) Bestrafung"
+        }
+      ],
+      "erklaerung": "Positiv = hinzufügen, negativ = wegnehmen; Verstärkung = häufiger, Bestrafung = seltener (Folie 34).",
+      "folie": "32–34",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f23",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Welche Aussage zur negativen Verstärkung ist richtig?",
+      "optionen": [
+        "Sie ist eine Form der Bestrafung.",
+        "Ein aversiver Reiz wird entfernt; das Verhalten wird häufiger.",
+        "Ein angenehmer Reiz wird entfernt; das Verhalten wird seltener.",
+        "Sie senkt die Auftretenswahrscheinlichkeit des Verhaltens."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Infotext 4.3: nicht mit Bestrafung zu verwechseln.",
+      "folie": "32",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f24",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "text": "Verstärkung [[erhöht]] die Auftretenswahrscheinlichkeit eines Verhaltens, Bestrafung [[senkt]] sie. „Positiv“ bedeutet, dass ein Reiz [[hinzugefügt]] wird, „negativ“, dass ein Reiz [[entfernt]] wird.",
+      "erklaerung": "Folie 32–34.",
+      "folie": "32–34",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f25",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "In der Skinner-Box gibt es nur Futter, wenn ein Lämpchen leuchtet. Bald drückt die Ratte nur noch bei Licht. Welche Aussagen sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Das Licht ist ein diskriminativer Reiz.",
+        "Es handelt sich um Reizgeneralisierung.",
+        "Die Ratte lernt, wann die Reaktion ausgeführt werden soll.",
+        "Das Ergebnis entsteht durch selektive Verstärkung."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Folie 35: Diskriminationstraining.",
+      "folie": "35",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f26",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Verstärkungsplänen sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Kontinuierliche Verstärkung führt zu einem schnellen Lernanstieg.",
+        "Partiell verstärktes Verhalten ist löschungsresistenter.",
+        "Kontinuierlich verstärktes Verhalten ist löschungsresistenter.",
+        "Die hohe Löschungsresistenz partieller Verstärkung heißt partieller Verstärkungseffekt."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 36.",
+      "folie": "36",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f27",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Welche Verstärkerart liegt vor?",
+      "kategorien": [
+        "essbarer Verstärker",
+        "sozialer Verstärker",
+        "Token",
+        "visueller/akustischer Reiz"
+      ],
+      "elemente": [
+        {
+          "text": "Gummibärchen",
+          "kategorie": "essbarer Verstärker"
+        },
+        {
+          "text": "ein anerkennendes Lächeln",
+          "kategorie": "sozialer Verstärker"
+        },
+        {
+          "text": "Wertmarken, die gegen einen Ausflug getauscht werden",
+          "kategorie": "Token"
+        },
+        {
+          "text": "ein Stempel im Heft",
+          "kategorie": "visueller/akustischer Reiz"
+        }
+      ],
+      "erklaerung": "Folie 37 (Schweer & Schulte-Pelkum, 2017, S. 144).",
+      "folie": "37",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f28",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Voraussetzung für wirksames operantes Konditionieren: Was ist gemeint?",
+      "kategorien": [
+        "Kontingenz",
+        "Kontiguität",
+        "Einhalten der Reihenfolge",
+        "häufige Wiederholungen"
+      ],
+      "elemente": [
+        {
+          "text": "Die Konsequenz folgt nur auf genau dieses Verhalten.",
+          "kategorie": "Kontingenz"
+        },
+        {
+          "text": "Die Konsequenz folgt zeitlich unmittelbar.",
+          "kategorie": "Kontiguität"
+        },
+        {
+          "text": "Erst kommt das Verhalten, dann die Konsequenz.",
+          "kategorie": "Einhalten der Reihenfolge"
+        },
+        {
+          "text": "Die Reaktion wird oft geübt und verstärkt.",
+          "kategorie": "häufige Wiederholungen"
+        }
+      ],
+      "erklaerung": "Folie 38 und Infotexte 4.3.",
+      "folie": "38",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f29",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Methode der Verhaltensmodifikation liegt vor?",
+      "kategorien": [
+        "Shaping",
+        "Chaining",
+        "Prompting",
+        "Time-Out"
+      ],
+      "elemente": [
+        {
+          "text": "Ein Kind wird erst für einen Buchstaben, dann für ein Wort, dann für einen Satz gelobt.",
+          "kategorie": "Shaping"
+        },
+        {
+          "text": "Jacke aufhängen, Schuhe ausziehen, Hände waschen werden als feste Abfolge eingeübt.",
+          "kategorie": "Chaining"
+        },
+        {
+          "text": "Die Lehrkraft erinnert vor der Gruppenarbeit an die Gesprächsregeln.",
+          "kategorie": "Prompting"
+        },
+        {
+          "text": "Ein Kind wird nach einem schweren Regelverstoß kurz aus der Gruppe genommen.",
+          "kategorie": "Time-Out"
+        }
+      ],
+      "erklaerung": "Folie 39–40.",
+      "folie": "39–40",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f30",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Kritikpunkte an der operanten Konditionierung werden genannt? (mehrere richtig)",
+      "optionen": [
+        "ethische Probleme (Gefahr der Manipulation)",
+        "geringe Konditionierbarkeit von Verhalten",
+        "Zurückweisung alternativer, kognitiver Erklärungen",
+        "Sie kann kein Verhalten verstärken, das häufig auftritt."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 41. Rinck & Becker: Es kann nur Verhalten verstärkt werden, das auch **auftritt**.",
+      "folie": "41",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f31",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Was empfiehlt Skinners Erbe für die Lehrkraft mit den goldenen Sternen?",
+      "optionen": [
+        "nur fehlerfreie Diktate belohnen",
+        "alle Kinder für schrittweise Verbesserungen belohnen",
+        "gar keine Verstärker einsetzen",
+        "Fehler konsequent bestrafen"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Folie 43: Shaping statt Belohnung nur für die Begabten.",
+      "folie": "42–43",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f32",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Klassische oder operante Konditionierung?",
+      "kategorien": [
+        "klassisch",
+        "operant"
+      ],
+      "elemente": [
+        {
+          "text": "Assoziation von zwei Reizen",
+          "kategorie": "klassisch"
+        },
+        {
+          "text": "Assoziation von Handlung und Konsequenz",
+          "kategorie": "operant"
+        },
+        {
+          "text": "betrachtet vor allem die Entstehungsbedingungen von Verhalten",
+          "kategorie": "klassisch"
+        },
+        {
+          "text": "betrachtet vor allem die Konsequenzen von Verhalten",
+          "kategorie": "operant"
+        },
+        {
+          "text": "Thorndike und Skinner",
+          "kategorie": "operant"
+        },
+        {
+          "text": "Pawlow",
+          "kategorie": "klassisch"
+        }
+      ],
+      "erklaerung": "Folie 45 (Rinck & Becker, 2020, S. 123).",
+      "folie": "45",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f33",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Eine Studentin hatte einmal eine Panikattacke im vollen Hörsaal und meidet seitdem große Vorlesungen. Welche Aussagen passen zur Zwei-Faktoren-Theorie? (mehrere richtig)",
+      "optionen": [
+        "Die Angst vor dem vollen Hörsaal wurde klassisch konditioniert.",
+        "Das Vermeiden wird negativ verstärkt, weil die Angst ausbleibt.",
+        "Das Vermeiden wird positiv bestraft.",
+        "Durch die Vermeidung verfestigt sich die Angst."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 46–47; Audio 4.4 nennt genau das Beispiel „Angst in vollen Hörsälen“.",
+      "folie": "46–47",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f34",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur Studie von Peras et al. (2024) sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Es handelte sich um ein Experiment mit 24 Schüler:innen.",
+        "Eingesetzt wurden positive Verstärkung und negative Bestrafung.",
+        "Störendes Verhalten sank von 1105 auf 711 Vorkommnisse.",
+        "Die Schüler:innen wurden für störendes Verhalten körperlich bestraft."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 48–50. Negative Bestrafung = Entzug der Belohnung nach dreimaligem Fehlverhalten.",
+      "folie": "48–50",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f35",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Werbung koppelt einen Markennamen wiederholt mit Bildern einer Eisbärenfamilie. Welche Aussagen sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Es handelt sich um emotionale Konditionierung.",
+        "Sie folgt den Prinzipien der klassischen Konditionierung.",
+        "Der Markenname ist am Ende der konditionierte Reiz.",
+        "Sie folgt den Prinzipien der operanten Konditionierung."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 52.",
+      "folie": "52",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f36",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Prozess oder Produkt sozialen Lernens?",
+      "kategorien": [
+        "Prozess",
+        "Produkt"
+      ],
+      "elemente": [
+        {
+          "text": "Kinder handeln beim Spielen gemeinsam Regeln aus.",
+          "kategorie": "Prozess"
+        },
+        {
+          "text": "Ein Praktikant weiß, dass man im Team per Du ist.",
+          "kategorie": "Produkt"
+        },
+        {
+          "text": "Eine Schülerin beobachtet, wie ihre Freundin einen Streit schlichtet.",
+          "kategorie": "Prozess"
+        },
+        {
+          "text": "Ein Kind kennt die Tischregeln seiner Familie.",
+          "kategorie": "Produkt"
+        }
+      ],
+      "erklaerung": "Folie 54: Prozess = soziale Interaktion; Produkt = Wissen über sozial angemessenes Verhalten.",
+      "folie": "54",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f37",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Banduras sozial-kognitiver Lerntheorie sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Bandura verzichtet auf das Black-Box-Prinzip.",
+        "Sie wird auch Beobachtungs- oder Modelllernen genannt.",
+        "Neu gegenüber dem Behaviorismus ist die Berücksichtigung kognitiver Prozesse.",
+        "Als Modelle kommen nur reale Personen infrage."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 56–57: Modelle können auch symbolisch sein (Bücher, Medien, Anleitungen).",
+      "folie": "56–57",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f38",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Vier-Komponenten-Modell: Die Aneignungsphase ([[Akquisition]]) umfasst [[Aufmerksamkeitsprozesse]] und [[Gedächtnisprozesse]]; die Ausführungsphase ([[Performanz]]) umfasst [[motorische Reproduktionsprozesse]] und Verstärkungs- und [[Motivationsprozesse]].",
+      "erklaerung": "Folie 58.",
+      "folie": "58",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f39",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 1,
+      "frage": "Ein Kind sieht, wie der große Bruder einen Rückwärtssalto macht, schafft ihn aber selbst nicht. Welche Komponente fehlt?",
+      "optionen": [
+        "Aufmerksamkeit",
+        "Gedächtnis",
+        "motorische Reproduktion",
+        "keine – es hat nichts gelernt"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Folie 58 / Infotext 4.5: Der Beobachter muss motorisch in der Lage sein, das Verhalten zu reproduzieren.",
+      "folie": "58",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f40",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Ergebnisse brachte das Bobo-Doll-Experiment? (mehrere richtig)",
+      "optionen": [
+        "Kinder der Gruppen A und B verhielten sich häufiger aggressiv als Kinder der Gruppe C.",
+        "Kinder der Gruppe C hatten das aggressive Verhalten nicht gelernt.",
+        "Mit Belohnungsangebot zeigten Kinder aller Gruppen aggressives Verhalten.",
+        "Die Performanz hängt von den Verstärkungsbedingungen ab."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Folie 61: Aneignung unabhängig von Konsequenzen, Ausführung abhängig.",
+      "folie": "60–61",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f41",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welcher Lerneffekt nach Bandura und Walters liegt vor?",
+      "kategorien": [
+        "modellierender Effekt",
+        "enthemmender Effekt",
+        "hemmender Effekt",
+        "auslösender Effekt"
+      ],
+      "elemente": [
+        {
+          "text": "Ein Kind lernt durch ein Video einen völlig neuen Tanzschritt.",
+          "kategorie": "modellierender Effekt"
+        },
+        {
+          "text": "Eine Schülerin flucht öfter, nachdem ein beliebter Mitschüler fürs Fluchen nicht ermahnt wurde.",
+          "kategorie": "enthemmender Effekt"
+        },
+        {
+          "text": "Ein Junge schreibt nicht mehr ab, seit ein Mitschüler dabei erwischt und bestraft wurde.",
+          "kategorie": "hemmender Effekt"
+        },
+        {
+          "text": "Alle schauen nach oben, weil eine Person nach oben schaut.",
+          "kategorie": "auslösender Effekt"
+        }
+      ],
+      "erklaerung": "Folie 63.",
+      "folie": "63",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f42",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht Bandura unter reziprokem Determinismus?",
+      "optionen": [
+        "Die Umwelt bestimmt das Kind vollständig.",
+        "Verhalten, Kognition und Umwelt beeinflussen sich wechselseitig; das Kind ist aktiv.",
+        "Die Gene bestimmen das Verhalten.",
+        "Lernen geschieht nur durch Belohnung."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Folie 62.",
+      "folie": "62",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f43",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum Modelllernen und prosozialem/antisozialem Verhalten sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Die meisten Studien befassen sich mit antisozialem Verhalten.",
+        "Vorbilder wirken besonders, wenn sie selbst tun, was sie vermitteln wollen.",
+        "Prosoziales Verhalten kann nicht anerzogen werden.",
+        "Auch attraktive Gleichaltrige können Modelle sein."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 64–66: Prosoziales Verhalten kann z. B. durch positive Rückmeldungen anerzogen werden.",
+      "folie": "64–66",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f44",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Kritikpunkte an Banduras Theorie nennt die Vorlesung? (mehrere richtig)",
+      "optionen": [
+        "mangelnde Berücksichtigung von Emotionen",
+        "Vernachlässigung genetischer Unterschiede",
+        "ethische Probleme",
+        "Sie klammert kognitive Prozesse aus."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Folie 67 (plus Breite der Theorie). Kognitive Prozesse sind gerade ihr Kern.",
+      "folie": "67",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f45",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur Gestaltpsychologie sind richtig? (mehrere richtig)",
+      "optionen": [
+        "„Das Ganze ist anders als die Summe seiner Teile.“",
+        "Gestaltgesetze gelten schon bei Säuglingen.",
+        "Sie gehört zum Behaviorismus.",
+        "Sie steht für die kognitive Wende."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 69–70.",
+      "folie": "69–70",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f46",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welches Gestaltgesetz liegt vor?",
+      "kategorien": [
+        "Nähe",
+        "Ähnlichkeit",
+        "Geschlossenheit",
+        "Kontinuität",
+        "Prägnanz"
+      ],
+      "elemente": [
+        {
+          "text": "Drei eng beieinander stehende Bäume wirken wie eine Baumgruppe.",
+          "kategorie": "Nähe"
+        },
+        {
+          "text": "Alle Kinder mit roten Mützen werden als eine Gruppe gesehen.",
+          "kategorie": "Ähnlichkeit"
+        },
+        {
+          "text": "Ein unvollständig gezeichneter Kreis wird als Kreis gesehen.",
+          "kategorie": "Geschlossenheit"
+        },
+        {
+          "text": "Punkte, die eine geschwungene Kurve bilden, werden als eine durchlaufende Kurve gesehen.",
+          "kategorie": "Kontinuität"
+        },
+        {
+          "text": "In einem verschnörkelten Muster erkennt man sofort ein einfaches Herz.",
+          "kategorie": "Prägnanz"
+        }
+      ],
+      "erklaerung": "Folie 72 und Infotexte 4.6.",
+      "folie": "72",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f47",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Phasen des Lernens durch Einsicht (Köhler) dem Zwei-Seile-Problem zu.",
+      "kategorien": [
+        "Auftauchen eines Problems",
+        "Probierverhalten",
+        "Umstrukturierung",
+        "Einsicht und Lösung",
+        "Übertragung"
+      ],
+      "elemente": [
+        {
+          "text": "Die Person erreicht nicht beide Seile gleichzeitig.",
+          "kategorie": "Auftauchen eines Problems"
+        },
+        {
+          "text": "Sie streckt sich, so weit sie kann – vergeblich.",
+          "kategorie": "Probierverhalten"
+        },
+        {
+          "text": "Sie überlegt, wozu Zange, Stuhl oder Nägel dienen könnten.",
+          "kategorie": "Umstrukturierung"
+        },
+        {
+          "text": "„Aha – mit der Zange als Gewicht kann ich das Seil pendeln lassen!“",
+          "kategorie": "Einsicht und Lösung"
+        },
+        {
+          "text": "Später nutzt sie das Pendelprinzip bei einem ähnlichen Problem.",
+          "kategorie": "Übertragung"
+        }
+      ],
+      "erklaerung": "Folie 76–77. Die Phase „Anwendung“ (Ausführen der Lösung) fehlt hier.",
+      "folie": "76–77",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f48",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Beispiele zeigen Lernen durch Einsicht? (mehrere richtig)",
+      "optionen": [
+        "Eine Schülerin erkennt, dass 3 × 5 dasselbe ist wie 5 + 5 + 5.",
+        "Ein Kind probiert wahllos Schlüssel, bis einer passt.",
+        "Ein Schimpanse stapelt Kisten, um an eine Banane zu kommen.",
+        "Ein Kind macht seinem Vater das Rasieren nach."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Folie 78–79. Wahlloses Probieren = Versuch und Irrtum; Nachmachen = Modelllernen.",
+      "folie": "75–79",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f49",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was ist laut Fazit die Chance, was die Herausforderung beim Lernen durch Einsicht?",
+      "optionen": [
+        "Chance: augenblickliche Lösung; Herausforderung: Einsicht tritt eventuell nicht ein",
+        "Chance: keine Denkprozesse nötig; Herausforderung: langsamer Lernanstieg",
+        "Chance: hohe Löschungsresistenz; Herausforderung: ethische Probleme",
+        "Chance: Lernen ohne Erfahrung; Herausforderung: Spontanerholung"
+      ],
+      "richtig": [
+        0
+      ],
+      "erklaerung": "Folie 80; Audio 4.6 ergänzt: Einsicht erhöht die Transferleistung.",
+      "folie": "80",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Klausur: 30 MC-Fragen, oft als Fallvignette – Zuordnung von US/UR/CS/CR und der vier operanten Prinzipien an Beispielen ist sehr wahrscheinlich.",
+    "Die eÜbung (05.11.) fragt genau diese Inhalte ab: Behaviorismus, US/UR/NS/CS/CR, Verstärkung/Bestrafung, Verstärkungspläne, Shaping/Chaining/Prompting, Bobo-Doll, Lerneffekte, Gestaltgesetze, Einsicht.",
+    "Typische Fallen: negative Verstärkung ≠ Bestrafung; Kontingenz ≠ Kontiguität; partielle Verstärkung ist löschungsresistenter; Bandura verzichtet auf das Black-Box-Prinzip; Akquisition unabhängig, Performanz abhängig von Konsequenzen.",
+    "Schweer & Schulte-Pelkum (2017), Bd. 1, Kap. 3 (Lernen) hat MC-Fragen mit offizieller Lösung zu dieser Sitzung (siehe Buchfragen Kap. 3 in der App)."
+  ],
+  "offene_fragen": [
+    "Folie 26 zitiert „Rink & Becker, 2020“, sonst „Rinck & Becker“ – vermutlich Tippfehler.",
+    "Folie 46 zitiert „Edelmann & Wittmann, 2019“, das Literaturverzeichnis nennt Edelmann & Wittmann (2023).",
+    "Folie 69 schreibt „Boegner & Lüdmann, 2023“ – gemeint ist Boeger & Lüdmann (2023).",
+    "Zu den Folien 27–31 (Thorndike, Skinner-Box) und 39–40 (Verhaltensmodifikation) gibt es im Lernmodul kein Audio."
+  ]
+}

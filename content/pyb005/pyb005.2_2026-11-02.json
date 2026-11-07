@@ -1,0 +1,607 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pyb005",
+  "teilmodul": "pyb005.2",
+  "datum": "2026-11-02",
+  "sitzung_nr": 4,
+  "sitzung_id": "",
+  "thema": "04 Ausgewählte entwicklungspsychologische Aspekte I",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Nadine war in dieser Sitzung nicht da; es gibt keine Aufnahme. Alle Lösungen der Folienaufgaben sind **selbst erarbeitet** aus den Folien, der Vorlesung S03 und den Textvorbereitungen (Lohaus et al., 2024, S. 45–49; Boeger & Lüdmann, 2023, S. 19–25 – siehe Hausaufgaben h01/h02 der Sitzung vom 26.10.). Was im Seminar tatsächlich besprochen wurde, ist nicht bekannt.",
+  "quellen": [
+    {
+      "datei": "pyb005.2/Sitzung_04/pyb005.2_Sitzung_04_Gruppe_D.pdf",
+      "art": "Folien",
+      "seiten": "1–21"
+    },
+    {
+      "datei": "Literatur/Lohaus-Vierhaus-Lemola_2024_Entwicklungspsychologie-des-Kindes-und-Jugendalters.pdf",
+      "art": "Textgrundlage",
+      "seiten": "45–49; 270–278 (für S05)"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "… dem Gegenstandsbereich der Entwicklungspsychologie",
+      "art": "vorgegeben",
+      "quelle": "Folie 2",
+      "fragen": [
+        "f01"
+      ],
+      "erklaerung_abschnitt": "Einstieg: Gegenstandsbereich der Entwicklungspsychologie"
+    },
+    {
+      "text": "… dem bioökologischen Modell von Bronfenbrenner",
+      "art": "vorgegeben",
+      "quelle": "Folie 2",
+      "fragen": [
+        "f02",
+        "f03",
+        "f04",
+        "f05"
+      ],
+      "erklaerung_abschnitt": "Das bioökologische Modell nach Bronfenbrenner"
+    },
+    {
+      "text": "… dem Konzept der Entwicklungsaufgaben nach Havighurst",
+      "art": "vorgegeben",
+      "quelle": "Folie 2",
+      "fragen": [
+        "f06",
+        "f07",
+        "f08"
+      ],
+      "erklaerung_abschnitt": "Entwicklungsaufgaben nach Havighurst"
+    },
+    {
+      "text": "… Schutzfaktoren bzw. risikomildernden Bedingungen in der kindlichen Entwicklung",
+      "art": "vorgegeben",
+      "quelle": "Folie 2",
+      "fragen": [
+        "f09",
+        "f10",
+        "f11",
+        "f12",
+        "f13"
+      ],
+      "erklaerung_abschnitt": "Schutzfaktoren, Resilienz und risikomildernde Bedingungen"
+    }
+  ],
+  "kurzfassung": [
+    "Entwicklung verläuft individuell und über die ganze Lebensspanne – mit Gewinnen und Verlusten (Beispiel Abiturjubiläum).",
+    "Bronfenbrenners bioökologisches Modell: Das Kind steht im Zentrum von Mikro-, Meso-, Exo-, Makro- und Chronosystem; jede Ebene wirkt, Beziehungen im Mikrosystem sind bidirektional.",
+    "Mesosystem = Verbindung zwischen Mikrosystemen (kein eigener Ort); Exosystem = Bereich ohne eigene Beteiligung, der indirekt wirkt.",
+    "Entwicklungsaufgaben (Havighurst) sind alterstypische Anforderungen aus Reifung, Gesellschaft und eigenen Zielen; sie sind zeit- und kulturgebunden.",
+    "Schutzfaktoren mindern bei Belastung das Risiko von Störungen (Pufferfunktion), wirken kontextabhängig und garantieren nichts.",
+    "Resilienz = Fähigkeit, Belastungen besser als andere unbeschadet zu bewältigen; dynamisches Konzept.",
+    "Risikomildernde Bedingungen liegen beim Kind, in der Familie und im sozialen Umfeld.",
+    "Für S05: Erziehungsstile nach Baumrind (Lenkung × Responsivität) – Lohaus et al. (2024), S. 270–278."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Einstieg: Gegenstandsbereich der Entwicklungspsychologie",
+      "folien": "5",
+      "text": "Die Folie zeigt ein Zitat über ein **30-jähriges Abiturjubiläum** (Montada et al., 2018): Manche haben sich kaum verändert, andere sehr; manche sind geworden, was sie wollten, andere gingen ganz unerwartete Wege; manche „Begabten“ waren weniger erfolgreich als erwartet.\n\nDie Aufgabe verknüpft das mit der Vorlesung (S03, Folien 7–10):\n- **Entwicklung** = relativ überdauernde, aufeinander bezogene **intraindividuelle Veränderungen** des Erlebens und Verhaltens über die Zeit (Lohaus et al., 2024, S. 4).\n- Bestandteile: **Geordnetheit**, **Gerichtetheit** (Gewinne *und* Verluste), **Längerfristigkeit**, **Veränderungen über die gesamte Lebensspanne**.\n- Gegenstand: intraindividuelle Veränderungen **und** interindividuelle Unterschiede, immer im Bezug zur Umgebung.\n\n**Kurz erklärt:** Das Jubiläum zeigt im Kleinen, worum es der Entwicklungspsychologie geht: Menschen verändern sich auch als Erwachsene noch, und zwar sehr unterschiedlich. Die spannende Frage ist **warum** – und das führt direkt zu den Kontexten (Bronfenbrenner) und den Anforderungen (Entwicklungsaufgaben), um die es in dieser Sitzung geht.\n\nLösung: Aufgabe a01."
+    },
+    {
+      "titel": "Das bioökologische Modell nach Bronfenbrenner",
+      "folien": "6–8",
+      "text": "**Grundidee (Folie 7):** Die Umwelt ist „ein Satz verschachtelter Strukturen, jede innerhalb der nächsten, wie bei russischen Puppen“ (Bronfenbrenner, 1979, zit. n. Siegler et al., 2021, S. 385). Im **Zentrum** steht das Kind mit seinen individuellen Merkmalen (Gene, Geschlecht, Alter, Temperament, Gesundheit, Intelligenz …) – deshalb „**bio**ökologisch“.\n\n**Fünf Systemebenen:**\n\n| Ebene | Bedeutung | Beispiel |\n|---|---|---|\n| **Mikrosystem** | unmittelbare Lebensbereiche mit **direkter Interaktion** | Familie, Schule, Freundeskreis |\n| **Mesosystem** | **Wechselbeziehungen zwischen** Mikrosystemen | Elterngespräch mit der Lehrkraft |\n| **Exosystem** | Bereiche **ohne eigene Beteiligung**, die indirekt wirken | Arbeitsplatz der Eltern |\n| **Makrosystem** | **Kultur**, Werte, Gesetze, gesellschaftliche Rahmenbedingungen | Bildungsstandards, Schulpflicht |\n| **Chronosystem** | **zeitliche** Veränderungen aller Ebenen | Schulwechsel, Scheidung, Digitalisierung |\n\n**Kernaussagen (Folie 8):**\n- **Jede Ebene** wirkt sich auf die Entwicklung des Kindes aus.\n- **Alle Beziehungen im Mikrosystem sind bidirektional** – das Kind wird beeinflusst und beeinflusst selbst (z. B. ein schwieriges Temperament verändert das Verhalten der Eltern).\n- ➔ Kindliche Entwicklung kann erst verstanden werden, wenn die **Komplexität der kindlichen Lebensumwelt** in den Blick genommen wird.\n\nDie Abbildung auf Folie 8 (Siegler et al., 2021, S. 386) zeigt die Ebenen als konzentrische Kreise um das Kind.\n\n**Kurz erklärt:** Stell dir das Kind als innerste Matrjoschka-Puppe vor. Die Puppen direkt drumherum sind die Orte, an denen es selbst ist (Mikro). Wie gut diese Orte zusammenarbeiten, ist das Meso. Weiter außen liegen Orte, an denen das Kind nie ist, die aber trotzdem durchschlagen (Exo, z. B. der Chef der Mutter), dann die ganze Gesellschaft (Makro). Und alles verändert sich mit der Zeit (Chrono).\n\n**Prüfungsfalle:** Das **Mesosystem ist kein Ort**, sondern die *Verbindung* zwischen Orten. Und: Ob etwas Mikro- oder Exosystem ist, hängt von der **Perspektive** ab – der Arbeitsplatz ist für die Mutter Mikrosystem, für das Kind Exosystem.\n\nLösungen: Aufgaben a02 (Systemebenen) und a03 (Fall Lena)."
+    },
+    {
+      "titel": "Entwicklungsaufgaben nach Havighurst",
+      "folien": "10–12",
+      "text": "**Was ist eine Entwicklungsaufgabe?** Eine **prototypische Anforderung**, die in einer bestimmten Lebensphase ansteht (Boeger & Lüdmann, 2023, S. 20). Sie entsteht aus drei **Quellen**: **körperliche Reifung**, **gesellschaftliche Erwartungen** und **individuelle Ziele/Werte**.\n\n**Folgen der Bewältigung:** Gelingen → Zufriedenheit, erleichtert spätere Aufgaben. Misslingen → Unzufriedenheit, Missbilligung durch die Gesellschaft, Schwierigkeiten bei späteren Aufgaben.\n\n**Zeitgebundenheit:** Havighursts Liste (USA, Mitte des 20. Jh.) spiegelt die Normen seiner Zeit (Ehe, Familiengründung, geschlechtstypische Rollen). Entwicklungsaufgaben sind **kultur- und zeitabhängig** und müssen immer wieder neu formuliert werden.\n\n**Aufgabe vs. Stufe:** Eine Entwicklungs*aufgabe* ist eine Anforderung, die aktiv bewältigt wird und gelingen oder misslingen kann. Eine Entwicklungs*stufe* (z. B. Piaget) beschreibt ein erreichtes Niveau in einer festen Reihenfolge.\n\n**Am Fall Lena (Folie 12):** In der mittleren Kindheit stehen u. a. der Erwerb der **Kulturtechniken** (Lesen, Schreiben, Rechnen) und **Selbstständigkeit** an. Das Lernprogramm ist eine *konkrete Anforderung* aus dem Umfeld, in der diese allgemeine Aufgabe sichtbar wird.\n\n**Kurz erklärt:** Entwicklungsaufgaben sind wie die „Level“, die fast jeder in einem bestimmten Alter spielen muss: Laufen lernen, Lesen lernen, sich von den Eltern lösen, einen Beruf finden. Wer ein Level schafft, hat es beim nächsten leichter.\n\n**Prüfungsfalle:** Entwicklungsaufgaben sind **nicht universell und nicht starr** – sie hängen von Kultur und Zeit ab, und Menschen gestalten sie **aktiv** mit.\n\nAusführlich: Hausaufgabe h02 der Sitzung vom 26.10.; Lösungen hier: a04, a05."
+    },
+    {
+      "titel": "Schutzfaktoren, Resilienz und risikomildernde Bedingungen",
+      "folien": "13–15",
+      "text": "**Schutzfaktoren (Folie 13):** „Schutzfaktoren bezeichnen Faktoren, die die Auftretenswahrscheinlichkeit von Störungen beim Vorliegen von Belastungen vermindern, indem sie zur Entwicklung von Ressourcen beitragen bzw. eine solche Entwicklung erleichtern.“ (Eschenbeck & Knauf, 2018, S. 35)\n\n**Wie wirken Schutzfaktoren? (Folie 14)**\n- **„Pufferfunktion“** – sie federn die Wirkung einer Belastung ab,\n- **abhängig vom jeweiligen Risiko und Lebenskontext**,\n- **garantieren keinen bestimmten Entwicklungsverlauf**.\n\n**Resilienz** (engl. *resilience* = Elastizität, Unverwüstlichkeit): „die Fähigkeit eines Kindes, besser als andere Kinder unbeschadet mit den Folgen belastender Lebensereignisse oder -umstände umgehen und Bewältigungskompetenzen entwickeln zu können“ (Scheithauer et al., 2022, S. 503). ➔ **Resilienz als dynamisches Konzept**: keine angeborene, feste Eigenschaft, sondern veränderlich und abhängig von Situation und Zeit.\n\n**Risikomildernde Bedingungen (Folie 15):**\n\n| kindbezogene Faktoren und Resilienzfaktoren | familiäre Schutzfaktoren | Schutzfaktoren im sozialen Umfeld |\n|---|---|---|\n| positives Selbstwertgefühl und Selbstwirksamkeit | stabile emotionale Beziehung zu einer Bezugsperson | soziale Unterstützung und positive Rollenmodelle |\n| positives Sozialverhalten und Sprachkompetenzen | offenes, unterstützendes Erziehungsklima | positive Freundschafts- und Gleichaltrigenbeziehungen |\n| aktives, flexibles Bewältigen und sich distanzieren können | familiärer Zusammenhalt und unterstützende Geschwister | positive Schul- oder Arbeitserfahrungen |\n| planvolles Verhalten, Selbsthilfe und Kontrollüberzeugungen | Orientierung geben und zugleich Entfaltung ermöglichen | wertschätzendes Umfeld |\n\n(eigene Darstellung der Dozentinnen nach Scheithauer et al., 2022, und Lohaus et al., 2024)\n\n**Kurz erklärt:** Ein Schutzfaktor ist wie ein Airbag: Im Alltag merkt man nichts von ihm – er wirkt erst, wenn es „kracht“, also wenn eine Belastung da ist. Resilienz ist das Ergebnis: Ein Kind kommt trotz Belastung gut durch. Weil Resilienz dynamisch ist, kann ein Kind in einer Lebensphase resilient sein und in einer anderen nicht.\n\n**Prüfungsfalle:** Ein Schutzfaktor ist **nicht einfach das Gegenteil eines Risikofaktors** und wirkt **nur bei Belastung** (Pufferfunktion). Außerdem garantieren Schutzfaktoren **keinen** positiven Verlauf. *Familiäre Schutzfaktoren* vs. *Umfeld*: Geschwister gehören zur **Familie**, Freundschaften und Schule zum **sozialen Umfeld**.\n\nLösung: Aufgabe a06."
+    },
+    {
+      "titel": "Zusammenfassung",
+      "folien": "16",
+      "text": "**Entwicklung im Zusammenspiel von Anforderungen und Kontexten:**\n- Entwicklung verläuft **individuell** und über die **gesamte Lebensspanne**.\n- Entwicklungsaufgaben entstehen aus **biologischen Veränderungen**, **gesellschaftlichen Erwartungen** und **individuellen Zielen**.\n- Ihre Bewältigung findet in **miteinander verbundenen Lebenskontexten** statt (Bronfenbrenner).\n- **Risikomildernde Bedingungen** können Belastungen **abpuffern**; ihre Wirkung hängt von **Risiko und Kontext** ab.\n- **Pädagogisches Handeln** kann Ressourcen, Beziehungen und unterstützende Rahmenbedingungen stärken.\n\n**Kurz erklärt:** Die drei Bausteine der Sitzung greifen ineinander: *Was* muss ein Kind schaffen? (Entwicklungsaufgaben) – *Wo* muss es das schaffen? (Bronfenbrenners Systeme) – *Was hilft ihm dabei?* (Schutzfaktoren). Pädagogische Fachkräfte können vor allem an den Kontexten und den Schutzfaktoren ansetzen."
+    },
+    {
+      "titel": "Zur nächsten Sitzung (09.11.): Erziehungsstile nach Baumrind",
+      "folien": "17–18",
+      "text": "**Textgrundlage:** Lohaus, Vierhaus & Lemola (2024), **S. 270–278 (Kap. 15.2)**.\n\n**Leitfrage:** Worin unterscheiden sich die Erziehungsstile nach Baumrind, und welche Konsequenzen können die jeweiligen Erziehungsstile für den weiteren Entwicklungsverlauf von Kindern haben?\n\n**Kurzüberblick** (ausführlich in Hausaufgabe h01):\n\n| | niedrige Lenkung | hohe Lenkung |\n|---|---|---|\n| **hohe Responsivität** | permissiv | autoritativ |\n| **niedrige Responsivität** | vernachlässigend | autoritär |\n\nDer **autoritative** Stil gilt als förderlich (intellektuelle und soziale Kompetenz, Selbstkontrolle); autoritär, vernachlässigend oder permissiv erzogene Kinder zeigen häufiger Defizite in sozialer Kompetenz, Aggression und mangelnde Impulskontrolle (S. 273)."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Entwicklung",
+      "wortlaut": "Entwicklung bezieht sich auf relativ überdauernde und aufeinander bezogene intraindividuelle Veränderungen des Erlebens und Verhaltens über die Zeit hinweg. (Lohaus et al., 2024, S. 4 – aus der Vorlesung S03)",
+      "erklaerung": "Geordnete, längerfristige Veränderung innerhalb einer Person über die ganze Lebensspanne.",
+      "folie": "5"
+    },
+    {
+      "begriff": "Bioökologisches Modell (Bronfenbrenner)",
+      "wortlaut": "Bronfenbrenner begreift die Umwelt als „einen Satz verschachtelter Strukturen, jede innerhalb der nächsten, wie bei russischen Puppen“ (1979, S. 3). (Siegler et al., 2021, S. 385)",
+      "erklaerung": "Das Kind mit seinen Merkmalen steht im Zentrum von fünf ineinander geschachtelten Umweltebenen.",
+      "folie": "7"
+    },
+    {
+      "begriff": "Mikrosystem",
+      "wortlaut": "Lebensbereiche, in denen Menschen leicht direkte Interaktionen mit anderen aufnehmen können (Lohaus et al., 2024, S. 46)",
+      "erklaerung": "Familie, Schule, Freundeskreis – Orte, an denen das Kind selbst ist.",
+      "folie": "7"
+    },
+    {
+      "begriff": "Mesosystem",
+      "wortlaut": "Wechselbeziehungen zwischen unterschiedlichen Lebensbereichen (Mikrosystemen) (Lohaus et al., 2024, S. 46)",
+      "erklaerung": "Die Verbindung zwischen zwei Mikrosystemen, z. B. Eltern – Lehrkraft.",
+      "folie": "7"
+    },
+    {
+      "begriff": "Exosystem",
+      "wortlaut": "Lebensbereiche, an denen eine Person nicht unmittelbar beteiligt ist, die jedoch Einfluss auf die eigenen Lebensbereiche einer Person nehmen (Lohaus et al., 2024, S. 46)",
+      "erklaerung": "z. B. Arbeitsplatz der Eltern – wirkt indirekt auf das Kind.",
+      "folie": "7"
+    },
+    {
+      "begriff": "Makrosystem",
+      "wortlaut": "übergeordnete kulturelle und gesellschaftliche Einflüsse (Lohaus et al., 2024, S. 46; sinngemäß)",
+      "erklaerung": "Werte, Gesetze, Bildungsstandards einer Gesellschaft.",
+      "folie": "7"
+    },
+    {
+      "begriff": "Chronosystem",
+      "wortlaut": "Veränderung aller Systemebenen über die Zeit (Lohaus et al., 2024, S. 46; sinngemäß)",
+      "erklaerung": "Zeitliche Dimension: Übergänge, Lebensereignisse, gesellschaftlicher Wandel.",
+      "folie": "7"
+    },
+    {
+      "begriff": "Entwicklungsaufgabe",
+      "wortlaut": "Unter einer Entwicklungsaufgabe werden prototypische Anforderungen oder Lernaufgaben verstanden, die in einer bestimmten Lebensphase zu bewältigen sind. (Boeger & Lüdmann, 2023, S. 20)",
+      "erklaerung": "Alterstypische Anforderung aus Reifung, Gesellschaft und eigenen Zielen.",
+      "folie": "11"
+    },
+    {
+      "begriff": "Schutzfaktoren",
+      "wortlaut": "Schutzfaktoren bezeichnen Faktoren, die die Auftretenswahrscheinlichkeit von Störungen beim Vorliegen von Belastungen vermindern, indem sie zur Entwicklung von Ressourcen beitragen bzw. eine solche Entwicklung erleichtern. (Eschenbeck & Knauf, 2018, S. 35)",
+      "erklaerung": "Wirken als Puffer – nur wenn eine Belastung vorliegt.",
+      "folie": "13"
+    },
+    {
+      "begriff": "Resilienz",
+      "wortlaut": "Resilienz (engl. resilience = Elastizität, Unverwüstlichkeit) […] im Entwicklungskontext umschreibt er die Fähigkeit eines Kindes, besser als andere Kinder unbeschadet mit den Folgen belastender Lebensereignisse oder -umstände umgehen und Bewältigungskompetenzen entwickeln zu können. (Scheithauer et al., 2022, S. 503)",
+      "erklaerung": "Psychische Widerstandskraft; dynamisch, nicht angeboren-fest.",
+      "folie": "14"
+    },
+    {
+      "begriff": "Erziehungsstil",
+      "wortlaut": "Die Gesamtheit der bewussten und unbewussten Verhaltensweisen, die im Rahmen der elterlichen Sozialisation auftreten, wird als Erziehungsstil bezeichnet. (Lohaus et al., 2024, S. 272)",
+      "erklaerung": "Nach Baumrind beschrieben über Lenkung und Responsivität.",
+      "folie": "18"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 5",
+      "text": "„Bei einem Treffen zum 30-jährigen Abiturjubiläum sehen sich Personen wieder, die sich seit Jahren und Jahrzehnten nicht gesehen haben. Manche wirken kaum verändert; andere erkennt man kaum wieder. Manche sind genau das geworden, was sie schon damals werden wollten; andere haben einen ganz unerwarteten Lebensweg eingeschlagen. Einige, denen man es nicht zutraute, feiern beruflich große Erfolge; andere, die als besonders begabt galten, waren weitaus weniger erfolgreich als angenommen.“ (Montada et al., 2018, S. 27)\n\n- Inwiefern spiegeln sich die Kennzeichen des Entwicklungsbegriffs in dem Beispiel wider?\n- Welche entwicklungspsychologischen Fragestellungen lassen sich aus diesem Beispiel ableiten?",
+      "loesung": "**1. Kennzeichen des Entwicklungsbegriffs im Beispiel** (Bestandteile aus der Vorlesung S03, Folie 8):\n\n| Kennzeichen | Hinweis im Beispiel |\n|---|---|\n| **Veränderungen über die Lebensspanne** | Die Personen sind rund 48 Jahre alt – Entwicklung hört nach der Schulzeit nicht auf, sondern geht im Erwachsenenalter weiter. |\n| **Längerfristigkeit** | Es geht um Veränderungen über 30 Jahre, nicht um kurzfristige Schwankungen. |\n| **Gerichtetheit / Gewinne und Verluste** | „feiern beruflich große Erfolge“ (Gewinn) vs. „weitaus weniger erfolgreich als angenommen“ (Verlust gegenüber der Erwartung). |\n| **Geordnetheit, aber nicht starr** | Manche sind geworden, was sie werden wollten (Kontinuität); andere haben einen „ganz unerwarteten Lebensweg“ – Entwicklung folgt keinem festen Plan. |\n| **intraindividuelle Veränderung und interindividuelle Unterschiede** | „Manche wirken kaum verändert; andere erkennt man kaum wieder“ – jede Person hat sich in sich verändert, und die Personen unterscheiden sich darin stark. |\n\n**2. Mögliche Fragestellungen:**\n- Warum verlaufen die Entwicklungen von Menschen mit ähnlichem Start (gleicher Jahrgang, gleiche Schule) so unterschiedlich? (**interindividuelle Unterschiede**)\n- Wie stabil sind Merkmale wie Persönlichkeit oder Begabung über die Lebensspanne? (**Stabilität vs. Veränderung**)\n- Welche Rolle spielen **Anlage und Umwelt** – z. B. Begabung vs. Familie, Studium, Beruf, Zufälle?\n- Lässt sich Lebenserfolg aus Merkmalen in der Schulzeit **vorhersagen** (Prognose)? Warum irrten sich die Erwartungen bei „besonders Begabten“?\n- Welche **Kontexte** (Familie, Arbeitsplatz, gesellschaftlicher Wandel) haben die Wege beeinflusst? → Überleitung zu Bronfenbrenner.",
+      "loesungsweg": "Selbst erarbeitet (keine Aufnahme): Bestandteile des Entwicklungsbegriffs und Aufgaben der Entwicklungspsychologie aus der Vorlesung S03 (28.10., Folien 7–10) auf das Zitat angewendet."
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 7",
+      "text": "„Bronfenbrenner begreift die Umwelt als „einen Satz verschachtelter Strukturen, jede innerhalb der nächsten, wie bei russischen Puppen“ (1979, S. 3). […] Das Kind als Individuum mit seiner besonderen Konstellation von Merkmalen und Eigenschaften (Genen, Geschlecht, Alter, Temperament, Gesundheit, Intelligenz, körperlicher Attraktivität und so weiter) befindet sich im Zentrum der verschiedenen Einflussebenen.“ (Siegler et al., 2021, S. 385)\n\nWelche Systemebenen werden im Modell unterschieden?",
+      "loesung": "Fünf Systemebenen (Folie 7; Lohaus et al., 2024, S. 46):\n\n| Ebene | Was gehört dazu? | Beispiel |\n|---|---|---|\n| **Mikrosystem** | Lebensbereiche, in denen das Kind **selbst** direkt mit anderen interagiert | Familie, Kita/Schule, Freundeskreis |\n| **Mesosystem** | **Verbindungen zwischen** den Mikrosystemen des Kindes | Austausch Eltern – Lehrkraft |\n| **Exosystem** | Bereiche, an denen das Kind **nicht selbst beteiligt** ist, die aber indirekt wirken | Arbeitsplatz der Eltern, Freunde der Eltern |\n| **Makrosystem** | übergreifender **kultureller und gesellschaftlicher** Rahmen | Werte, Gesetze, Bildungsstandards |\n| **Chronosystem** | **zeitliche** Veränderungen aller Ebenen | Schuleintritt, Scheidung, gesellschaftlicher Wandel |\n\nIm Zentrum steht das Kind mit seinen **eigenen Merkmalen** (Gene, Temperament, Gesundheit …) – deshalb „**bio**ökologisch“.",
+      "loesungsweg": "Aus der Textvorbereitung S04 (Lohaus et al., 2024, S. 46) und Folie 8."
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 9",
+      "text": "Inwiefern kommen die verschiedenen Systemebene des bioökologischen Modells von Bronfenbrenner im Beispiel zum Ausdruck?\n\nLena ist acht Jahre alt und besucht die dritte Klasse. In der Schule arbeitet sie direkt mit ihrer Lehrerin und ihren Mitschüler:innen zusammen. Seit Beginn des Schuljahres nutzt die Klasse ein neues Lernprogramm, bei dem die Kinder viele Aufgaben selbstständig bearbeiten. Lena beginnt häufig mit der Bearbeitung der Aufgaben, unterbricht diese jedoch wiederholt und bearbeitet viele Aufgaben nicht vollständig. Nach der Schule wird Lena häufig von ihrer Großmutter betreut. Ihre Eltern arbeiten beide in Vollzeit. Der Arbeitgeber eines Elternteils hat vor einigen Monaten die Arbeitszeiten verändert; dadurch kann dieser Elternteil Lena an mehreren Nachmittagen nicht mehr bei den Hausaufgaben unterstützen. Lenas Lehrerin und ihre Eltern haben sich bereits zu einem Gespräch getroffen. Sie haben dabei festgestellt, dass Lena zu Hause und in der Schule unterschiedliche Formen der Unterstützung erhält. Die Großmutter war an dem Gespräch nicht beteiligt, obwohl sie häufig von der Hausaufgabenbetreuung überfordert ist.\nDas Lernprogramm wurde von der Schule eingeführt, um die landesweiten Bildungsstandards umzusetzen. Diese betonen selbstständiges Lernen und verbindliche Leistungsanforderungen für Grundschulkinder.",
+      "loesung": "| Ebene | Hinweis im Fall |\n|---|---|\n| **Individuum (Zentrum)** | Lena, 8 Jahre; beginnt Aufgaben, unterbricht sie aber oft und beendet viele nicht (Konzentration, Selbststeuerung). |\n| **Mikrosysteme** | **Schule**: direkte Zusammenarbeit mit Lehrerin und Mitschüler:innen; **Familie**: Eltern; **Betreuung durch die Großmutter** nach der Schule. |\n| **Mesosystem** | Gespräch **Lehrerin – Eltern**: Sie stellen fest, dass Lena zu Hause und in der Schule **unterschiedlich unterstützt** wird (wenig abgestimmt). Die Verbindung **Schule – Großmutter** fehlt: Sie war nicht beteiligt, obwohl sie überfordert ist → schwaches Mesosystem. |\n| **Exosystem** | **Arbeitgeber** eines Elternteils ändert die Arbeitszeiten → Lena ist dort nicht beteiligt, verliert aber Hausaufgabenhilfe (indirekter Einfluss). Auch die Entscheidung der **Schulleitung**, das Lernprogramm einzuführen, fällt ohne Lena. |\n| **Makrosystem** | **landesweite Bildungsstandards**: betonen selbstständiges Lernen und verbindliche Leistungsanforderungen; gesellschaftliche Norm, dass beide Eltern Vollzeit arbeiten. |\n| **Chronosystem** | Veränderungen über die Zeit: **neues Schuljahr** mit neuem Lernprogramm; Arbeitszeitänderung **vor einigen Monaten**; Lena ist in der **3. Klasse** (Übergang zu höheren Anforderungen). |\n\n**Wechselwirkung:** Das Makrosystem (Standards) wirkt über die Schule (Lernprogramm) bis in Lenas Alltag; das Exosystem (Arbeitszeiten) verändert ihr Mikrosystem Familie. Weil die Mikrosysteme schlecht verbunden sind (Mesosystem), verstärken sich die Schwierigkeiten.\n\n**Prüfungsfalle:** Die Großmutter selbst ist Teil eines **Mikrosystems** (Lena interagiert direkt mit ihr). Nur die *fehlende Verbindung* Großmutter – Schule betrifft das **Mesosystem**. Der Arbeitsplatz der Eltern ist **Exosystem**, nicht Mikrosystem, weil Lena dort nicht selbst ist.",
+      "loesungsweg": "Selbst erarbeitet (keine Aufnahme): jede Information im Fall der Ebene zugeordnet, auf der Lena direkt oder nur indirekt beteiligt ist."
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 11",
+      "text": "Partneraustausch zur Vorwissensaktivierung\n\n- Was versteht Havighurst unter einer Entwicklungsaufgabe?\n- Aus welchen Quellen können Entwicklungsaufgaben entstehen?\n- Inwiefern sind die von Havighurst beschriebenen Entwicklungsaufgaben durch die gesellschaftlichen Vorstellungen seiner Zeit geprägt?\n- Woran unterscheidet sich eine Entwicklungsaufgabe von einer Entwicklungsstufe?",
+      "loesung": "**1. Entwicklungsaufgabe:** „prototypische Anforderungen oder Lernaufgaben […], die in einer bestimmten Lebensphase zu bewältigen sind“ (Boeger & Lüdmann, 2023, S. 20). Gelingt die Bewältigung, führt das zu Zufriedenheit und erleichtert spätere Aufgaben; misslingt sie, drohen Unzufriedenheit, gesellschaftliche Missbilligung und Schwierigkeiten bei späteren Aufgaben (Havighurst).\n\n**2. Drei Quellen:**\n- **biologische Veränderungen / körperliche Reifung** (z. B. Laufen lernen, Pubertät),\n- **gesellschaftliche Erwartungen** und kulturelle Normen (z. B. Lesen lernen in der Schule),\n- **individuelle Ziele und Werte** der Person selbst (z. B. Berufswahl).\n\n**3. Zeitgebundenheit:** Havighurst formulierte seine Aufgaben in den **1940er/50er-Jahren in den USA**. Sie spiegeln die damalige Mittelschicht-Norm: z. B. eine **Ehe** eingehen, eine Familie gründen, eine **geschlechtstypische Rolle** übernehmen. Heute sind Lebensformen vielfältiger (Partnerschaft ohne Ehe, gleichgeschlechtliche Paare, Patchwork, spätere Elternschaft, digitale Kompetenzen). Entwicklungsaufgaben sind daher **kultur- und zeitabhängig**.\n\n**4. Aufgabe vs. Stufe:**\n\n| Entwicklungs**aufgabe** | Entwicklungs**stufe** |\n|---|---|\n| eine **Anforderung**, die in einer Lebensphase ansteht | ein **Zustand/Niveau**, das erreicht wird (z. B. Piagets Stufen) |\n| kann gelingen oder misslingen; Person ist **aktiv** an der Bewältigung beteiligt | folgt in festgelegter, meist universeller **Reihenfolge** |\n| mehrere Aufgaben gleichzeitig, kultur- und zeitabhängig | qualitativ unterschiedliche Denk- bzw. Funktionsweise je Stufe |\n\nKurz: Die Aufgabe ist das **„Was muss ich jetzt schaffen?“**, die Stufe das **„Wo stehe ich?“**. Die Bewältigung einer Aufgabe kann dazu führen, dass eine weitere Entwicklungsstufe erreicht wird (Boeger & Lüdmann, 2023, S. 20).",
+      "loesungsweg": "Aus der Textvorbereitung S04 (Boeger & Lüdmann, 2023, S. 19–25) und Vorlesung S03 (Stufenmodelle) zusammengestellt; Folie nennt zusätzlich Scheithauer et al. (2022), nicht vorliegend."
+    },
+    {
+      "id": "a05",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 12",
+      "text": "Entwicklungsaufgaben am Beispiel von Lena (8 Jahre: Schwierigkeiten mit Konzentration und Unterrichtsanforderungen; Eltern arbeiten Vollzeit, wenig Unterstützung bei Hausaufgaben; Großmutter betreut Lena nach der Schule, moderne Lernmethoden überfordern sie; neues Lernprogramm fordert selbstständiges Lernen; neue Bildungsstandards erhöhen den Leistungsdruck)\n\n- Welche Entwicklungsaufgabe könnte in der aktuellen Lebensphase bedeutsam sein?\n  - Welche Hinweise im Fall sprechen dafür?\n  - Was lässt sich aus dem Fall nicht sicher schließen?\n- Worin unterscheidet sich die Entwicklungsaufgabe von einer konkreten Anforderung der Schule oder des Umfelds?",
+      "loesung": "**Bedeutsame Entwicklungsaufgabe (mittlere Kindheit, ca. 6–12 Jahre):** Nach Havighurst u. a. **grundlegende Fertigkeiten im Lesen, Schreiben und Rechnen** erwerben und – damit verbunden – **Selbstständigkeit / persönliche Unabhängigkeit** entwickeln (allgemein: Lernen lernen, Anstrengung und Ausdauer zeigen). Möglich ist auch: mit **Gleichaltrigen auskommen** lernen.\n\n**Hinweise im Fall:** 3. Klasse; Lena beginnt Aufgaben, unterbricht sie aber und bringt viele nicht zu Ende → **selbstständiges, ausdauerndes Arbeiten** ist noch nicht gefestigt; Lernprogramm verlangt genau diese Selbststeuerung.\n\n**Nicht sicher zu schließen:**\n- **warum** Lena abbricht (Überforderung? Unterforderung? Konzentrationsproblem? Motivation? Müdigkeit?),\n- ob eine **Störung** (z. B. Aufmerksamkeitsproblem) vorliegt – dafür bräuchte es Diagnostik,\n- wie Lena sich **in anderen Bereichen** entwickelt (Freundschaften, Wohlbefinden),\n- wie stark sie selbst die Situation als belastend erlebt.\n\n**Aufgabe vs. konkrete Anforderung:**\n\n| Entwicklungsaufgabe | konkrete Anforderung |\n|---|---|\n| **allgemein und alterstypisch** – betrifft fast alle Kinder dieser Lebensphase | **situativ** – entsteht aus einem bestimmten Kontext |\n| längerfristig, über Jahre | kurzfristig, an Ort und Zeit gebunden |\n| z. B. „Selbstständig lernen und Kulturtechniken erwerben“ | z. B. „Im neuen Lernprogramm Aufgabenpakete allein abschließen“ oder „Hausaufgaben mit der Großmutter erledigen“ |\n\nDie konkrete Anforderung ist also die **Form**, in der die Entwicklungsaufgabe im Alltag (Mikro- und Makrosystem) an Lena herangetragen wird.",
+      "loesungsweg": "Selbst erarbeitet (keine Aufnahme): Havighursts Aufgaben der mittleren Kindheit (Boeger & Lüdmann, 2023) auf die Stichpunkte der Folie angewendet."
+    },
+    {
+      "id": "a06",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 13",
+      "text": "Worin können in diesem Zusammenhang Schutzfaktoren bestehen?\n\n„Schutzfaktoren bezeichnen Faktoren, die die Auftretenswahrscheinlichkeit von Störungen beim Vorliegen von Belastungen vermindern, indem sie zur Entwicklung von Ressourcen beitragen bzw. eine solche Entwicklung erleichtern.“ (Eschenbeck & Knauf, 2018, S. 35; s. a. Rönnau-Böse et al., 2022)\n\n- Welche Personen, Beziehungen oder Bedingungen könnten Lena dabei unterstützen, mit den schulischen Anforderungen umzugehen? Woran machen Sie Ihre Einschätzung im Fall fest?",
+      "loesung": "Gegliedert nach den drei Bereichen von Folie 15:\n\n| Bereich | mögliche Schutzfaktoren für Lena | Anhaltspunkt im Fall |\n|---|---|---|\n| **kindbezogen** | Lena **beginnt** Aufgaben – sie hat also Lernbereitschaft; kann über Erfolgserlebnisse **Selbstwirksamkeit** aufbauen; planvolles Arbeiten (Aufgaben in kleine Schritte teilen) einüben | „beginnt häufig mit der Bearbeitung der Aufgaben“ |\n| **familiär** | **stabile Beziehung** zur Großmutter, die sie regelmäßig betreut; Eltern, die sich kümmern und zum Gespräch mit der Lehrerin gehen; feste Hausaufgabenzeiten an Tagen mit Elternteil | Großmutter betreut „häufig“; Eltern waren beim Gespräch |\n| **soziales Umfeld** | **Lehrerin**, die mit den Eltern im Austausch steht; **Mitschüler:innen** (Lernpartnerschaften); Hausaufgabenhilfe/Ganztag; **Einbeziehen der Großmutter** in die Absprachen (Mesosystem stärken) | „arbeitet direkt mit ihrer Lehrerin und ihren Mitschüler:innen“; Gespräch Lehrerin – Eltern |\n\n**Wichtig:** Ob etwas ein Schutzfaktor ist, zeigt sich erst, wenn eine **Belastung** vorliegt – hier die erhöhten Anforderungen und die wegfallende Unterstützung. Die Großmutter ist z. B. eine **Ressource** (Beziehung, Zeit), aber gleichzeitig **überfordert** – damit sie schützend wirken kann, braucht sie selbst Unterstützung (Information über das Lernprogramm).",
+      "loesungsweg": "Selbst erarbeitet (keine Aufnahme): Definition auf Folie 13 und Übersicht risikomildernder Bedingungen (Folie 15) auf den Fall Lena angewendet."
+    },
+    {
+      "id": "h01",
+      "art": "Hausaufgabe",
+      "titel": "Textvorbereitung S05: Lohaus, Vierhaus & Lemola (2024) – Leitfrage Erziehungsstile",
+      "text": "Lohaus, A., Vierhaus, M., & Lemola, S. (2024). *Entwicklungspsychologie des Kindes- und Jugendalters für Bachelor* (5. Aufl.). Springer. S. 270–278 (Kap. 15.2 „Familiäre Beziehungen in der Kindheit“).\n\n1. Worin unterscheiden sich die Erziehungsstile nach Baumrind, und welche Konsequenzen können die jeweiligen Erziehungsstile für den weiteren Entwicklungsverlauf von Kindern haben?\n\nModul pyb005.2 – Pädagogische Psychologie, Seminar Gruppe D · Sitzung Mo 09.11.2026 · Thema: ausgewählte entwicklungspsychologische Aspekte II",
+      "quelle": "Folie 18",
+      "loesung": "### Einordnung: Bindung und Erziehungsverhalten\n\nKap. 15.2 beginnt mit der **Bindung** (S. 270–272): Eine sichere Bindung hängt mit prosozialem, sozial kompetentem Verhalten zusammen, eine desorganisiert-desorientierte Bindung mit aggressivem und später delinquentem Verhalten. Danach fragt der Text, ob die frühe Bindung allein entscheidend ist. Manche Forscher sagen: Auch die **fortdauernde Beziehung** zu den Eltern zählt. Als „wahrscheinlichste Lösung“ gilt, dass die **Kombination aus Bindungsqualität und Erziehungsverhalten** entscheidend ist (S. 272).\n\n**Definition Erziehungsstil:** „Die Gesamtheit der bewussten und unbewussten Verhaltensweisen, die im Rahmen der elterlichen Sozialisation auftreten, wird als Erziehungsstil bezeichnet.“ (S. 272)\n\n### Leitfrage 1\n\n**Leitfrage 1:** *„Worin unterscheiden sich die Erziehungsstile nach Baumrind, und welche Konsequenzen können die jeweiligen Erziehungsstile für den weiteren Entwicklungsverlauf von Kindern haben?“*\n\n**Antwort:**\n\n#### a) Die zwei Dimensionen\n\nBaumrind (1971) unterscheidet vier Erziehungsstile anhand von **zwei Verhaltensdimensionen** (S. 272):\n\n- **Lenkung** = das Ausmaß der elterlichen **Anforderungen** an das Kind und der elterlichen **Kontrolle**.\n- **Responsivität** = das Ausmaß an elterlicher **Wärme**, **sozialer Unterstützung** und **Akzeptanz**.\n\n*In eigenen Worten:* Lenkung heißt „Wie viel verlangen und kontrollieren die Eltern?“, Responsivität heißt „Wie warm und zugewandt gehen sie auf das Kind ein?“. Jeder Stil ergibt sich daraus, ob die Eltern auf beiden Dimensionen hoch oder niedrig liegen.\n\n| | **niedrige Lenkung** | **hohe Lenkung** |\n|---|---|---|\n| **hohe Responsivität** | permissiv | **autoritativ** |\n| **niedrige Responsivität** | vernachlässigend | autoritär |\n\n(Tab. 15.2, S. 272)\n\n#### b) Die vier Stile im Einzelnen\n\nDer Text stellt die Stile als zwei Gegensatzpaare vor (S. 273):\n\n**Autoritativ vs. vernachlässigend** (beide Dimensionen gleich hoch bzw. gleich niedrig):\n\n- **Autoritativ** (auch **demokratisch**; hohe Lenkung + hohe Responsivität): Die Eltern verhalten sich „äußerst kindzentriert“. Sie haben **hohe Erwartungen**, setzen **Regeln** und achten auf deren Einhaltung – aber „in einem warmherzigen und offen-kommunikativen Kontext“ (S. 273).\n- **Vernachlässigend** (niedrige Lenkung + niedrige Responsivität): **geringes Interesse und Engagement** in der Eltern-Kind-Interaktion; das emotionale Klima ist „sehr distanziert oder gar zurückweisend“ (S. 273).\n\n**Permissiv vs. autoritär** (eine Dimension hoch, die andere niedrig):\n\n- **Permissiv** (hohe Responsivität + niedrige Lenkung): **hohe Toleranz** gegenüber dem kindlichen Verhalten; die Eltern halten sich bei Lenkung, Regeln und Anforderungen **stark zurück** (S. 273).\n- **Autoritär** (hohe Lenkung + niedrige Responsivität): Die elterliche Autorität „darf nicht hinterfragt“ werden; **strenge Regeln** müssen eingehalten werden. Sonst greifen die Eltern zu **Strafen**, die „mitunter psychische oder physische Gewalt beinhalten“ (S. 273).\n\n**Kurz erklärt:** Der Unterschied zwischen *autoritativ* und *autoritär* liegt nicht in den Regeln – beide Stile verlangen viel. Er liegt in der **Wärme**: Autoritative Eltern erklären, hören zu und sind zugewandt; autoritäre Eltern setzen Regeln ohne Begründung und mit Strafen durch. *Beispiel:* Ein Kind will abends länger fernsehen. Autoritativ: „Nein, morgen ist Schule – lass uns am Wochenende zusammen einen Film schauen.“ Autoritär: „Nein, weil ich es sage. Noch ein Wort und das Handy ist weg.“ Permissiv: „Na gut, wenn du unbedingt willst.“ Vernachlässigend: Es interessiert die Eltern nicht, was das Kind abends macht.\n\n**Prüfungsfalle:** *Autoritativ* und *autoritär* klingen fast gleich. Merkhilfe: autoritativ ist das längere Wort – es hat „mehr“: Lenkung **und** Wärme; autoritär hat nur die Lenkung. Außerdem: *Permissiv* ist **nicht** dasselbe wie *vernachlässigend* – permissive Eltern sind warm und zugewandt, sie stellen nur kaum Anforderungen.\n\n#### c) Konsequenzen für den weiteren Entwicklungsverlauf\n\n**Autoritativer Stil – förderlich:** Als „wesentliches Ergebnis vieler Studien“ stellt ein autoritativer Erziehungsstil „in vieler Hinsicht einen förderlichen Einflussfaktor“ dar (Pinquart 2017; Walper et al. 2017; S. 273). Die Kinder zeigen\n\n- ein hohes Maß an **intellektueller Kompetenz**,\n- ein hohes Maß an **sozialer Kompetenz** und\n- **Selbstkontrolle** (S. 273).\n\n**Autoritärer, vernachlässigender und permissiver Stil – ungünstiger:** Kinder, die so erzogen werden, zeigen „mit einer größeren Häufigkeit“\n\n- **Defizite in der sozialen Kompetenz**,\n- mehr **aggressives Verhalten** und\n- **mangelnde Impulskontrolle** (S. 273).\n\nDer Text nennt diese Folgen für alle drei Stile gemeinsam; er ordnet sie nicht einzeln zu.\n\n**Weitere Folge im Kapitel – Geschwisterbeziehung:** Eine sichere Eltern-Kind-Bindung und ein **autoritativer** Stil bieten gute Voraussetzungen für **positive Interaktionen zwischen Geschwistern**; ein **autoritärer oder vernachlässigender** Stil hängt eher mit gegenteiligen Effekten zusammen (S. 277).\n\n#### d) Einschränkung: Wirkt Erziehung nur in eine Richtung?\n\nDer Text betont, dass der Einfluss **wechselseitig** ist (S. 273 f.):\n\n- Elternverhalten fördert oder vermindert kindliches Verhalten – aber **umgekehrt beeinflusst auch das Kind das Elternverhalten**.\n- Die meisten Studien sind **korrelativ und querschnittlich** angelegt und können deshalb **nichts über die Wirkrichtung** sagen.\n- **Kontrollsystemmodell** (Bell & Harper, 1977): Eltern und Kinder regulieren sich gegenseitig. Überschreitet das Verhalten des einen eine **Toleranzschwelle** des anderen, löst es eine **Kontrollreaktion** aus (Beispiel Joana, S. 274: Joana lügt → Vater verhängt Hausarrest → Joana verweigert sich und bleibt weg).\n- Studien zeigen: Der Effekt des Kindes auf die Eltern ist **nicht signifikant kleiner** als der Elterneffekt (S. 274).\n\n*Bedeutung für die Leitfrage:* Wenn Kinder mit autoritär erzogenen Eltern aggressiver sind, kann das **auch** daran liegen, dass ein schwieriges Kind strengere Reaktionen der Eltern auslöst. Die Befunde sind Zusammenhänge, kein sicherer Beweis für Ursache und Wirkung.\n\n**Ergänzend – elterliches Monitoring** (S. 274): **Monitoring** = Informiertheit der Eltern über Aufenthaltsort, Aktivitäten und Befinden des Kindes. Unzureichendes Monitoring hängt mit antisozialem und delinquentem Verhalten, Kontakt zu devianten Gleichaltrigen, Substanzmissbrauch und schlechten Schulleistungen zusammen. Wichtigste Quelle ist aber **nicht strenge Kontrolle**, sondern die **Bereitschaft des Kindes, sich mitzuteilen** (Stattin & Kerr, 2000) – und diese hängt wahrscheinlich mit einer sicheren Bindung zusammen.\n\n### Fachbegriffe\n\n- **Erziehungsstil** – Gesamtheit der bewussten und unbewussten elterlichen Verhaltensweisen in der Sozialisation.\n- **Lenkung** – Anforderungen und Kontrolle.\n- **Responsivität** – Wärme, soziale Unterstützung, Akzeptanz.\n- **autoritativ / autoritär / permissiv / vernachlässigend** – die vier Stile nach Baumrind (1971).\n- **Kontrollsystemmodell** – wechselseitige Regulation von Eltern und Kind über Toleranzschwellen und Kontrollreaktionen.\n- **Bidirektionalität** – Einfluss in beide Richtungen (Eltern ↔ Kind).\n- **Monitoring** – elterliche Informiertheit über Aufenthalt, Aktivitäten und Befinden des Kindes.\n\n### Mögliche Diskussionsfragen fürs Seminar\n\n*(Eigene Ergänzung, nicht aus dem Text)*\n\n- Lassen sich die Dimensionen Lenkung und Responsivität auf Lehrkräfte bzw. Erzieher:innen übertragen („autoritativer Unterrichtsstil“)?\n- Wie könnte eine pädagogische Fachkraft mit Eltern sprechen, deren Stil eher autoritär oder vernachlässigend wirkt – ohne sie zu verurteilen?\n- Was bedeutet die Bidirektionalität für die Bewertung von Eltern, deren Kind ein schwieriges Temperament hat?",
+      "loesungsweg": "Text S. 270–278 gelesen; Schwerpunkt S. 272–274 (Erziehungsverhalten, Tab. 15.2, Befunde, wechselseitige Einflussnahme, Monitoring) und S. 277 (Geschwister). Seitenzählung: Buchseite = PDF-Seite − 3.",
+      "frist": "2026-11-09",
+      "im_kalender": true,
+      "fuer_sitzung": "pyb005.2_2026-11-09",
+      "kalender_id": "f6630f37-af10-4e26-967a-7a05134a6a3b",
+      "pdf": "/dateien/pyb005/S05_2026-11-09_Hausaufgabe_Textvorbereitung_Lohaus-Vierhaus-Lemola_Erziehungsstile.pdf"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Kennzeichen des Entwicklungsbegriffs zeigen sich im Beispiel des Abiturjubiläums? (mehrere richtig)",
+      "optionen": [
+        "Entwicklung findet auch im Erwachsenenalter statt.",
+        "Entwicklung umfasst Gewinne und Verluste.",
+        "Entwicklung verläuft bei allen Menschen nach demselben festen Plan.",
+        "Menschen unterscheiden sich in ihren Entwicklungsverläufen."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Lebensspanne, Gerichtetheit (Gewinne/Verluste) und interindividuelle Unterschiede. Geordnetheit heißt gerade nicht, dass alle nach demselben starren Plan verlaufen.",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Bronfenbrenners Systemebenen von innen nach außen: [[Mikrosystem]] → [[Mesosystem]] → [[Exosystem]] → [[Makrosystem]]; die zeitliche Dimension heißt [[Chronosystem]].",
+      "erklaerung": "Fünf Ebenen, wie russische Puppen ineinander geschachtelt.",
+      "folie": "7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Fall Lena: Welcher Systemebene gehört die Information an?",
+      "kategorien": [
+        "Mikrosystem",
+        "Mesosystem",
+        "Exosystem",
+        "Makrosystem",
+        "Chronosystem"
+      ],
+      "elemente": [
+        {
+          "text": "Lena arbeitet in der Schule direkt mit Lehrerin und Mitschüler:innen.",
+          "kategorie": "Mikrosystem"
+        },
+        {
+          "text": "Lehrerin und Eltern treffen sich zum Gespräch.",
+          "kategorie": "Mesosystem"
+        },
+        {
+          "text": "Der Arbeitgeber eines Elternteils ändert die Arbeitszeiten.",
+          "kategorie": "Exosystem"
+        },
+        {
+          "text": "Landesweite Bildungsstandards betonen selbstständiges Lernen.",
+          "kategorie": "Makrosystem"
+        },
+        {
+          "text": "Lenas Lage verändert sich über die Zeit: neues Schuljahr, neue Arbeitszeiten vor einigen Monaten.",
+          "kategorie": "Chronosystem"
+        }
+      ],
+      "erklaerung": "Direkt beteiligt → Mikro; Verbindung zweier Mikrosysteme → Meso; nicht beteiligt, aber indirekt betroffen → Exo; Gesellschaft/Kultur → Makro; Veränderung über die Zeit → Chrono. ",
+      "folie": "9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zum bioökologischen Modell sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Alle Beziehungen im Mikrosystem sind bidirektional.",
+        "Nur das Mikrosystem wirkt sich auf die Entwicklung aus.",
+        "Das Kind mit seinen individuellen Merkmalen steht im Zentrum.",
+        "Das Mesosystem ist ein eigener Lebensort des Kindes."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Jede Ebene wirkt (Folie 8). Das Mesosystem ist kein Ort, sondern die Verbindung zwischen Mikrosystemen.",
+      "folie": "7–8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Für ein Kind ist der Arbeitsplatz seiner Mutter …",
+      "optionen": [
+        "ein Mikrosystem.",
+        "ein Mesosystem.",
+        "ein Exosystem.",
+        "ein Makrosystem."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Das Kind ist dort nicht selbst beteiligt, wird aber indirekt beeinflusst. Für die Mutter selbst wäre der Arbeitsplatz ein Mikrosystem.",
+      "folie": "7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist eine Entwicklungsaufgabe, und aus welchen drei Quellen kann sie entstehen?",
+      "antwort": "Eine prototypische Anforderung oder Lernaufgabe, die in einer bestimmten Lebensphase zu bewältigen ist (Boeger & Lüdmann, 2023). Quellen: körperliche Reifung / biologische Veränderungen, gesellschaftliche Erwartungen, individuelle Ziele und Werte.",
+      "erklaerung": "Folie 11 und Zusammenfassung Folie 16.",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu Havighursts Entwicklungsaufgaben sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Sie sind durch die gesellschaftlichen Vorstellungen seiner Zeit geprägt.",
+        "Sie gelten unverändert für alle Kulturen und Epochen.",
+        "Eine gelungene Bewältigung erleichtert spätere Aufgaben.",
+        "Eine Entwicklungsaufgabe ist dasselbe wie eine Entwicklungsstufe."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Entwicklungsaufgaben sind kultur- und zeitabhängig (z. B. Ehe, Geschlechterrollen). Eine Aufgabe ist eine Anforderung, eine Stufe ein erreichtes Niveau.",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Entwicklungsaufgabe oder konkrete Anforderung des Umfelds?",
+      "kategorien": [
+        "Entwicklungsaufgabe",
+        "konkrete Anforderung"
+      ],
+      "elemente": [
+        {
+          "text": "Kulturtechniken (Lesen, Schreiben, Rechnen) erwerben",
+          "kategorie": "Entwicklungsaufgabe"
+        },
+        {
+          "text": "Selbstständigkeit entwickeln",
+          "kategorie": "Entwicklungsaufgabe"
+        },
+        {
+          "text": "Aufgabenpakete im neuen Lernprogramm allein abschließen",
+          "kategorie": "konkrete Anforderung"
+        },
+        {
+          "text": "Hausaufgaben am Nachmittag mit der Großmutter erledigen",
+          "kategorie": "konkrete Anforderung"
+        }
+      ],
+      "erklaerung": "Entwicklungsaufgaben sind allgemein und alterstypisch; konkrete Anforderungen sind situativ und kontextgebunden – sie sind die Form, in der die Aufgabe im Alltag auftritt.",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Schutzfaktoren vermindern die [[Auftretenswahrscheinlichkeit]] von Störungen beim Vorliegen von [[Belastungen]], indem sie zur Entwicklung von [[Ressourcen]] beitragen.",
+      "erklaerung": "Definition nach Eschenbeck & Knauf (2018, S. 35).",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur Wirkung von Schutzfaktoren sind richtig? (mehrere richtig)",
+      "optionen": [
+        "Sie haben eine Pufferfunktion.",
+        "Ihre Wirkung hängt vom jeweiligen Risiko und Lebenskontext ab.",
+        "Sie garantieren eine positive Entwicklung.",
+        "Sie wirken unabhängig davon, ob eine Belastung vorliegt."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Folie 14: Pufferfunktion, kontextabhängig, garantieren keinen bestimmten Entwicklungsverlauf; Schutzfaktoren entfalten ihre Wirkung beim Vorliegen von Belastungen.",
+      "folie": "14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was bedeutet es, Resilienz als dynamisches Konzept zu verstehen?",
+      "optionen": [
+        "Resilienz ist eine angeborene, unveränderliche Eigenschaft.",
+        "Resilienz kann sich je nach Situation, Lebensphase und Kontext verändern.",
+        "Resilienz bedeutet, dass ein Kind keinerlei Belastungen erlebt.",
+        "Resilienz ist nur im Erwachsenenalter messbar."
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Dynamisch = veränderlich; ein Kind kann in einer Situation resilient sein, in einer anderen nicht.",
+      "folie": "14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordne die risikomildernden Bedingungen den Bereichen zu.",
+      "kategorien": [
+        "kindbezogen",
+        "familiär",
+        "soziales Umfeld"
+      ],
+      "elemente": [
+        {
+          "text": "positives Selbstwertgefühl und Selbstwirksamkeit",
+          "kategorie": "kindbezogen"
+        },
+        {
+          "text": "planvolles Verhalten und Kontrollüberzeugungen",
+          "kategorie": "kindbezogen"
+        },
+        {
+          "text": "stabile emotionale Beziehung zu einer Bezugsperson",
+          "kategorie": "familiär"
+        },
+        {
+          "text": "unterstützende Geschwister",
+          "kategorie": "familiär"
+        },
+        {
+          "text": "positive Freundschafts- und Gleichaltrigenbeziehungen",
+          "kategorie": "soziales Umfeld"
+        },
+        {
+          "text": "positive Schulerfahrungen",
+          "kategorie": "soziales Umfeld"
+        }
+      ],
+      "erklaerung": "Übersicht Folie 15 (nach Scheithauer et al., 2022, und Lohaus et al., 2024). Achtung: Geschwister = Familie, Freundschaften = Umfeld.",
+      "folie": "15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Faktoren aus dem Fall Lena könnten als Schutzfaktoren wirken? (mehrere richtig)",
+      "optionen": [
+        "die regelmäßige Betreuung durch die Großmutter",
+        "der Austausch zwischen Lehrerin und Eltern",
+        "die veränderten Arbeitszeiten eines Elternteils",
+        "die Zusammenarbeit mit Mitschüler:innen"
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Beziehung zur Großmutter (familiär), Austausch Schule – Eltern und Peers (Umfeld). Die Arbeitszeitänderung ist eine zusätzliche Belastung.",
+      "folie": "13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Erziehungsstile nach Baumrind: Welcher Stil liegt vor?",
+      "kategorien": [
+        "autoritativ",
+        "autoritär",
+        "permissiv",
+        "vernachlässigend"
+      ],
+      "elemente": [
+        {
+          "text": "hohe Lenkung, hohe Responsivität",
+          "kategorie": "autoritativ"
+        },
+        {
+          "text": "hohe Lenkung, niedrige Responsivität",
+          "kategorie": "autoritär"
+        },
+        {
+          "text": "niedrige Lenkung, hohe Responsivität",
+          "kategorie": "permissiv"
+        },
+        {
+          "text": "niedrige Lenkung, niedrige Responsivität",
+          "kategorie": "vernachlässigend"
+        }
+      ],
+      "erklaerung": "Tab. 15.2 (Lohaus et al., 2024, S. 272) – Vorbereitung auf Sitzung 5.",
+      "folie": "18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zu den Folgen der Erziehungsstile sind laut Lohaus et al. (2024) richtig? (mehrere richtig)",
+      "optionen": [
+        "Ein autoritativer Stil geht mit hoher intellektueller und sozialer Kompetenz sowie Selbstkontrolle einher.",
+        "Permissiv erzogene Kinder zeigen besonders hohe Impulskontrolle.",
+        "Autoritär, vernachlässigend oder permissiv erzogene Kinder zeigen häufiger aggressives Verhalten.",
+        "Die Befunde belegen eindeutig, dass nur die Eltern das Kind beeinflussen."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "S. 273. Die Studien sind meist korrelativ; der Einfluss ist bidirektional (Kontrollsystemmodell, S. 273 f.).",
+      "folie": "18",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Klausur: 30 MC-Fragen mit Fallbeispielen und oft mehreren richtigen Antworten – Systemebenen nach Bronfenbrenner lassen sich gut an Fällen abfragen (Fall Lena als Muster).",
+    "Typische Verwechslungen: Meso- vs. Exosystem; Entwicklungsaufgabe vs. Entwicklungsstufe; autoritativ vs. autoritär."
+  ],
+  "offene_fragen": [
+    "Keine Aufnahme: Wie wurden die Folienaufgaben im Seminar tatsächlich gelöst? Ggf. Kommiliton:innen fragen.",
+    "Folie 11 und 14 zitieren Scheithauer et al. (2022) und Feldmann (2025) – beide Bücher liegen nicht vor (siehe fehlende Literatur)."
+  ]
+}

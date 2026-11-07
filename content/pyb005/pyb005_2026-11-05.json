@@ -1,0 +1,524 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "pyb005",
+  "teilmodul": "pyb005",
+  "datum": "2026-11-05",
+  "sitzung_nr": 4,
+  "sitzung_id": "",
+  "thema": "04 Grundlagen der Lernpsychologie I+II",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Der Übungstest der eÜbung (Gruppe B) aus der Stud.IP-Courseware im Originalwortlaut (20 Aufgaben, Selbsttest, offen bis 31.03.2027). Die Lösungen sind selbst erarbeitet (mit den VL-Folien S04 und den Lernmodulen 4.1–4.6 geprüft) – eine offizielle Auswertung gibt es erst nach dem Abschicken. Ausführliche Erklärungen: VL-Sitzung 04.11.",
+  "quellen": [
+    {
+      "datei": "Stud.IP › eÜbung (Gruppe B) › Courseware › 4. Sitzung › Übungsaufgaben „4. Sitzung: Grundlagen der Lernpsychologie I+II“",
+      "art": "Übungstest (20 Aufgaben)",
+      "seiten": ""
+    },
+    {
+      "datei": "pyb005.1/Sitzung_04/pyb005_Sitzung_4.pdf",
+      "art": "VL-Folien (Lösungsgrundlage)",
+      "seiten": "11–80"
+    }
+  ],
+  "lernziele": [],
+  "kurzfassung": [
+    "Übungstest „4. Sitzung: Grundlagen der Lernpsychologie I+II“ mit 20 Aufgaben: Behaviorismus, klassische Konditionierung (US/UR/NS/CS/CR, Generalisierung/Diskrimination, höhere Ordnung), operante Konditionierung (Verstärkung/Bestrafung, Verstärkungspläne, Shaping/Chaining/Prompting), Bandura (Bobo-Doll, Lerneffekte), Gestaltpsychologie und Lernen durch Einsicht.",
+    "Die vier Fälle der operanten Konditionierung: positiv = etwas wird hinzugefügt, negativ = etwas wird entfernt; Verstärkung = Verhalten wird häufiger, Bestrafung = seltener.",
+    "Aufgabenformate wie in der Klausur: Multiple/Single Choice, Zuordnung, Lückentext."
+  ],
+  "erklaerung": [],
+  "definitionen": [],
+  "aufgaben": [],
+  "fragen": [
+    {
+      "id": "t1a1",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen sind im Sinne des Behaviorismus korrekt?",
+      "optionen": [
+        "Der Mensch ist im Wesentlichen durch seine Umwelt formbar.",
+        "Behaviorist:innen schreiben der genetischen Ausstattung keine wesentliche Rolle für die Persönlichkeitsentwicklung des Menschen zu.",
+        "Bei der Analyse von Verhalten im Rahmen des Behaviorismus, liegt der Fokus auf den inneren Denkprozessen.",
+        "Neben der klassischen und der operanten Konditionierung spielt im Behaviorismus auch das Lernen durch Einsicht eine zentrale Rolle."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Richtig: Im Behaviorismus wird das Individuum „im Wesentlichen von seiner Umwelt geformt“ (**exogenistisches** Entwicklungsmodell, Folie 14); Watsons „Dutzend gesunde Kinder“ soll er „ganz unabhängig von seinen Talenten … Begabungen“ zu jedem Beruf ausbilden können (Folie 13) – Anlagen spielen also keine wesentliche Rolle. Falsch: Innere Prozesse werden gerade **ausgeklammert** (Black-Box-Prinzip, Folie 15). Lernen durch Einsicht gehört zum **kognitiven** Ansatz, nicht zum Behaviorismus (Folie 11). Selbst erarbeitet.",
+      "folie": "Test · A1 · VL Folie 11, 13–15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a2",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Die klassische Konditionierung wird auch bezeichnet als …",
+      "optionen": [
+        "… Lernen durch Stimulus-Substitution.",
+        "… Lernen am Modell.",
+        "… Signallernen.",
+        "… Beobachtungslernen."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Folie 18: „klassische Konditionierung wird auch bezeichnet als: Lernen durch **Stimulus-Substitution**, **Signallernen**“. Lernen am Modell und Beobachtungslernen sind Banduras sozial-kognitive Lerntheorie (Folie 56). Selbst erarbeitet.",
+      "folie": "Test · A2 · VL Folie 18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a3",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordnen Sie den Begriffen die richtige Beschreibung zu.",
+      "kategorien": [
+        "unbedingter/unkonditionierter Reiz/Stimulus (US)",
+        "unbedingte/unkonditionierte Reaktion (UR)",
+        "neutraler Reiz (NS)",
+        "konditionierter Reiz (CS)",
+        "konditionierte Reaktion (CR)"
+      ],
+      "elemente": [
+        {
+          "text": "ein Reiz, der automatisch - in der Regel auf der Basis eines Reflexes - eine Reaktion auslöst, ohne vorherige Konditionierung",
+          "kategorie": "unbedingter/unkonditionierter Reiz/Stimulus (US)"
+        },
+        {
+          "text": "die ursprüngliche (nicht gelernte) Reaktion auf den unkonditionierten Reiz, die als Grundlage für die Ausbildung einer konditionierten Reaktion auf einen zuvor neutralen Reiz eingesetzt wird",
+          "kategorie": "unbedingte/unkonditionierte Reaktion (UR)"
+        },
+        {
+          "text": "ein Reiz, der keine spezifische Reaktion auslöst",
+          "kategorie": "neutraler Reiz (NS)"
+        },
+        {
+          "text": "ein zuvor neutraler Reiz, der infolge der Assoziation mit einem unkonditionierten Reiz mit der Zeit eine konditionierte Reaktion auslöst",
+          "kategorie": "konditionierter Reiz (CS)"
+        },
+        {
+          "text": "eine erlernte Reaktion auf einen zuvor neutralen, nun konditionierten Reiz, die aufgrund der wiederholten Assoziation zwischen neutralem und unkonditioniertem Reiz entsteht",
+          "kategorie": "konditionierte Reaktion (CR)"
+        }
+      ],
+      "erklaerung": "Schema der klassischen Konditionierung (Folie 19–20): **US → UR** ist eine feste, unwillkürliche (Reflex-)Verbindung; der NS wird durch wiederholte Paarung mit dem US zum **CS**, der allein die **CR** auslöst. Merkhilfe: „un-“ = ungelernt, „konditioniert“ = gelernt. Selbst erarbeitet.",
+      "folie": "Test · A3 · VL Folie 19–20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a4",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Eine Mutter verabschiedet sich von ihrem einjährigen Kind und übergibt es der Großmutter. Das Kind beginnt zu weinen, weil es sich von der Mutter nicht trennen will. Nach einigen ähnlich verlaufenden Situationen weint das Kind bereits, wenn es die Großmutter nur sieht, auch wenn die Mutter gar nicht die Absicht hat, sich von dem Kind zu trennen. Welche Aussagen sind im Sinne der klassischen Konditionierung korrekt?",
+      "optionen": [
+        "Die Großmutter wird zum konditionierten Reiz.",
+        "Das Weinen beim Anblick der Großmutter stellt die konditionierte Reaktion dar.",
+        "Das Weinen bei der Trennung der Mutter stellt die unbedingte/unkonditionierte Reaktion dar.",
+        "Das Kind stellt den unbedingten/unkonditionierten Reiz dar."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Zuordnung: **US** = Trennung von der Mutter; **UR** = Weinen bei der Trennung; **NS → CS** = Großmutter (wird wiederholt mit der Trennung gepaart); **CR** = Weinen beim bloßen Anblick der Großmutter. Das Kind ist der Organismus, der lernt – kein Reiz. Selbst erarbeitet.",
+      "folie": "Test · A4 · VL Folie 19–20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a5",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Wählen Sie die korrekte Antwort aus! Ein Kind reagiert auf das Klingeln seiner eigenen Fahrradklingel mit Freude, nicht jedoch auf das ähnliche Klingeln anderer Fahrradklingeln.",
+      "optionen": [
+        "Reizgeneralisierung",
+        "Reizdiskrimination"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "**Reizdiskrimination** = unterschiedliche Reaktionen auf verwandte, aber klar unterscheidbare Reize (Folie 22; Beispiel dort: Flötenton vs. Glockenton). Bei Reizgeneralisierung würde das Kind auf alle ähnlichen Klingeln mit Freude reagieren. Selbst erarbeitet.",
+      "folie": "Test · A5 · VL Folie 22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a6",
+      "baustein": "aufgabe",
+      "format": "luecke",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "text": "Ziehen Sie die korrekten Begriffe in die Lücken. (Auswahl: 2× CR · 2× CS1 · 2× CS2 · UR · US; US = unkonditionierter Reiz/Stimulus, CS = konditionierter Reiz/Stimulus, UR = unkonditionierte Reaktion, CR = konditionierte Reaktion)\n**Phase 1: klassische Konditionierung erster Ordnung**\nEin Jugendlicher bekommt jedes Mal ein angenehmes Gefühl [[(UR)]], wenn er seine Lieblingsmusik hört [[(US)]].\nNach mehreren Wiederholungen löst bereits der Anblick der Kopfhörer [[(CS1)]], mit denen er die Musik hört, dieses angenehme Gefühl [[(CR)]] aus.\n**Phase 2: klassische Konditionierung zweiter Ordnung**\nNun wird ein weiterer, zuvor neutraler Reiz eingeführt: eine bestimmte Tasche, in der die Kopfhörer immer transportiert werden [[(CS2)]].\nDer Jugendliche sieht häufig zuerst die Tasche [[(CS2)]], bevor er die Kopfhörer [[(CS1)]] herausnimmt und schließlich Musik hört.\nMit der Zeit reicht schon der Anblick der Tasche, um ein leichtes angenehmes Gefühl [[(CR)]] auszulösen – ohne dass Kopfhörer oder Musik vorhanden sind.",
+      "erklaerung": "Phase 1: Musik (**US**) löst das angenehme Gefühl (**UR**) aus; die Kopfhörer werden durch Paarung zum **CS1**, der das Gefühl als **CR** auslöst. Phase 2 (Konditionierung höherer Ordnung, Folie 23): Der gefestigte CS1 (Kopfhörer) übernimmt die Rolle des US; die Tasche wird mit ihm gepaart und zum **CS2**, der ohne Musik die CR auslöst. Die Lücke hinter „transportiert werden“ gehört zur Tasche (CS2). Selbst erarbeitet.",
+      "folie": "Test · A6 · VL Folie 19–23",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a7",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Auf welchem Prinzip der operanten Konditionierung beruht das folgende Beispiel? Durch das Anlegen des Sicherheitsgurtes im Auto verstummt ein unangenehmes akustisches Signal.",
+      "optionen": [
+        "positive Verstärkung",
+        "negative Verstärkung",
+        "positive (direkte) Bestrafung",
+        "negative (indirekte) Bestrafung"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Ein **unangenehmer Reiz wird entfernt** → das Verhalten (Anschnallen) wird häufiger → **negative Verstärkung**. Folie 32 nennt genau dieses Beispiel: „Verstummen eines unangenehmen Tons nach Ausführung einer erwünschten Verhaltensreaktion“. Selbst erarbeitet.",
+      "folie": "Test · A7 · VL Folie 32, 34",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a8",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Auf welchem Prinzip der operanten Konditionierung beruht das folgende Beispiel? Anna versucht durch Angeberei, ihre Freunde zu beeindrucken, diese wenden sich jedoch immer weiter von ihr ab und wollen keine Zeit mehr mit ihr verbringen. Später wird sie sogar von einer Party ausgeladen; in Folge dessen unterlässt Anna die Angeberei.",
+      "optionen": [
+        "positive Verstärkung",
+        "negative Verstärkung",
+        "positive (direkte) Bestrafung",
+        "negative (indirekte) Bestrafung"
+      ],
+      "richtig": [
+        3
+      ],
+      "erklaerung": "Etwas **Angenehmes wird entzogen** (Zeit mit den Freunden, Partyeinladung) → das Verhalten (Angeberei) wird seltener → **negative (indirekte) Bestrafung** (Folie 33–34). Selbst erarbeitet.",
+      "folie": "Test · A8 · VL Folie 33–34",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a9",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Auf welchem Prinzip der operanten Konditionierung beruht das folgende Beispiel? Ein Kind fasst auf die heiße Herdplatte, verbrennt sich die Finger und lernt so, die Herdplatte künftig nicht mehr zu berühren.",
+      "optionen": [
+        "positive Verstärkung",
+        "negative Verstärkung",
+        "positive (direkte) Bestrafung",
+        "negative (indirekte) Bestrafung"
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Ein **unangenehmer Reiz folgt** (Schmerz) → das Verhalten wird seltener → **positive (direkte) Bestrafung** (Folie 33–34). „Positiv“ heißt hier *hinzufügen*, nicht „gut“. Selbst erarbeitet.",
+      "folie": "Test · A9 · VL Folie 33–34",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a10",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordnen Sie die Maßnahmen zur Verhaltensmodifikation den Beispielen zu.",
+      "kategorien": [
+        "Shaping",
+        "Prompting",
+        "Chaining"
+      ],
+      "elemente": [
+        {
+          "text": "Eine Lehrkraft lobt zunächst bereits das Sitzenbleiben, dann das Aufschreiben erster Wörter und schließlich das vollständige Schreiben eines Satzes.",
+          "kategorie": "Shaping"
+        },
+        {
+          "text": "Ein Kind wird beim Zähneputzen zunächst durch die Erinnerung „Jetzt bist du dran“ unterstützt.",
+          "kategorie": "Prompting"
+        },
+        {
+          "text": "Die Schritte „Hände waschen, Handtuch nehmen, Hände abtrocknen“ werden als feste Abfolge eingeübt.",
+          "kategorie": "Chaining"
+        }
+      ],
+      "erklaerung": "**Shaping** = schrittweise Annäherung, Verstärkung von Reaktionen in die gewünschte Richtung (Folie 39); **Chaining** = Verkettung vorhandener Verhaltensweisen in fester Abfolge (Folie 39); **Prompting** = verbale oder verhaltensmäßige Hilfestellung, z. B. Erinnerung an Regeln (Folie 40). In Stud.IP stehen die Beispiele als Ziele und die Begriffe als Elemente – hier umgedreht dargestellt. Selbst erarbeitet.",
+      "folie": "Test · A10 · VL Folie 39–40",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a11",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Ordnen Sie die Begriffe „klassische Konditionierung“ und „operante Konditionierung“ den richtigen Beschreibungen zu.",
+      "kategorien": [
+        "klassische Konditionierung",
+        "operante Konditionierung"
+      ],
+      "elemente": [
+        {
+          "text": "Lernen als eine Assoziation zwischen zwei Reizen",
+          "kategorie": "klassische Konditionierung"
+        },
+        {
+          "text": "Lernen als eine Assoziation von Handlung und Konsequenz",
+          "kategorie": "operante Konditionierung"
+        }
+      ],
+      "erklaerung": "Rinck & Becker (2020, S. 123) auf Folie 45: „Bei der klassischen Konditionierung geht es um die Assoziation von **zwei Reizen**, bei der operanten Konditionierung hingegen um die Assoziation von **Handlung und Konsequenz**.“ Selbst erarbeitet.",
+      "folie": "Test · A11 · VL Folie 45",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a12",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen in Bezug auf unterschiedliche Verstärkungspläne sind korrekt?",
+      "optionen": [
+        "Bleibt die Verstärkung aus, so ist ein Verhalten, das im Rahmen der kontinuierlichen Verstärkung erlernt wurde, löschungsresistenter als ein Verhalten, das im Rahmen der partiellen Verstärkung erlernt wurde.",
+        "Jede korrekte Reaktion mit einer Wahrscheinlichkeit von 20% zu verstärken, ist ein Beispiel für eine partielle Verstärkung.",
+        "Exakt jede dritte korrekte Reaktion zu verstärken, ist ein Beispiel für eine partielle Verstärkung.",
+        "Im Rahmen der kontinuierlichen Verstärkung erfolgt der Lernanstieg schneller als im Rahmen der partiellen Verstärkung."
+      ],
+      "richtig": [
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Folie 36: **Kontinuierlich** = jede Reaktion wird verstärkt → **schneller Lernanstieg**, aber anfällig für Extinktion. **Partiell** = Verstärkung in (un-)regelmäßigen Abständen → langsamerer Anstieg, aber **löschungsresistenter** (partieller Verstärkungseffekt). „Mit 20 % Wahrscheinlichkeit“ (unregelmäßig) und „jede dritte“ (regelmäßig) sind beides partielle Verstärkung. Die erste Aussage vertauscht die Löschungsresistenz. Selbst erarbeitet.",
+      "folie": "Test · A12 · VL Folie 36",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a13",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordnen Sie zu, ob in den Beispielen der Prozess des sozialen Lernens oder das Produkt des sozialen Lernens im Vordergrund steht.",
+      "kategorien": [
+        "Prozess des sozialen Lernens",
+        "Produkt des sozialen Lernens"
+      ],
+      "elemente": [
+        {
+          "text": "Eine Mitarbeiterin kennt die ungeschriebenen Regeln ihres Teams, etwa welche Kommunikationsformen als höflich gelten.",
+          "kategorie": "Produkt des sozialen Lernens"
+        },
+        {
+          "text": "Zwei Kinder entwickeln im gemeinsamen Spiel Regeln, indem sie miteinander verhandeln und ihr Verhalten im Austausch anpassen.",
+          "kategorie": "Prozess des sozialen Lernens"
+        },
+        {
+          "text": "Ein Jugendlicher beobachtet, wie andere in Konfliktsituationen ruhig bleiben und konstruktiv reagieren, und versucht, sein Verhalten daran anzupassen.",
+          "kategorie": "Prozess des sozialen Lernens"
+        },
+        {
+          "text": "Ein Jugendlicher weiß, welche Kleidung in seiner Clique üblich ist, und orientiert sich an diesem Kleidungsstil.",
+          "kategorie": "Produkt des sozialen Lernens"
+        }
+      ],
+      "erklaerung": "Folie 54: **Prozess** = Lernen, an dem soziale Interaktion beteiligt ist (verhandeln, beobachten, anpassen – es *passiert* gerade); **Produkt** = **Wissen** über sozial angemessene Verhaltensweisen (jemand *kennt/weiß* schon etwas). Signalwörter: „kennt“, „weiß“ → Produkt; „entwickeln“, „beobachtet und versucht“ → Prozess. Selbst erarbeitet.",
+      "folie": "Test · A13 · VL Folie 54",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a14",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Die sozial-kognitive Lerntheorie nach Bandura fokussiert das sogenannte Black-Box-Prinzip.",
+      "optionen": [
+        "wahr",
+        "falsch"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Falsch: „Bandura **verzichtet** bei der sozial-kognitiven Lerntheorie auf das sog. Black-Box-Prinzip“ (Folie 56) – er bezieht gerade kognitive Prozesse ein (Folie 57). Das Black-Box-Prinzip gehört zum Behaviorismus (Folie 15). Selbst erarbeitet.",
+      "folie": "Test · A14 · VL Folie 15, 56",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a15",
+      "baustein": "aufgabe",
+      "format": "luecke",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "text": "Wählen Sie den jeweils korrekten Begriff aus. (Auswahl Lücke 1: den Varianten A und B / der Varinate A / der Variante B · Lücke 2: der Varianten A und C / der Variante C · Lücke 3: abhängig / unabhängig · Lücke 4: Akquisition / Performanz)\nIm Bobo-Doll-Experiment sahen Kinder jeweils eine von drei Filmvarianten, in denen ein Erwachsener aggressiv gegen eine Plastikpuppe vorging. In Variante A hatte das Verhalten keine Konsequenzen, in Variante B wurde der Täter belohnt, und in Variante C wurde er getadelt. Die Beobachtung zeigte, dass Kinder aus [[den Varianten A und B]] häufiger aggressiv gegenüber der Puppe handelten als Kinder [[der Variante C]]. Wurden alle Kinder jedoch mit dem Angebot einer Belohnung zur Nachahmung aufgefordert, zeigten Kinder aller drei Gruppen aggressives Verhalten. Daraus folgt, dass sich Kinder das Verhalten [[unabhängig]] von den Konsequenzen aneignen, die [[Performanz]] jedoch von den wahrgenommenen Verstärkungsbedingungen abhängt.",
+      "erklaerung": "Folie 61: Kinder der **A- und B-Gruppe** zeigen deutlich häufiger aggressives Verhalten als die **C-Gruppe**; mit Belohnungsangebot zeigen alle Gruppen Aggression → **Aneignung (Akquisition) unabhängig** von Konsequenzen, **Performanz** (Ausführung) abhängig von den Verstärkungsbedingungen. (Tippfehler „Varinate“ steht so in Stud.IP.) Selbst erarbeitet.",
+      "folie": "Test · A15 · VL Folie 58, 60–61",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a16",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordnen Sie den Lerneffekten gemäß Bandura und Walters die jeweils korrekte Beschreibung zu.",
+      "kategorien": [
+        "modellierender Effekt",
+        "enthemmender Effekt",
+        "hemmender Effekt",
+        "auslösender Effekt"
+      ],
+      "elemente": [
+        {
+          "text": "Ein völlig neues Verhalten wird durch Beobachtungslernen übernommen.",
+          "kategorie": "modellierender Effekt"
+        },
+        {
+          "text": "Ein vorhandenes Verhalten wird häufiger, weil ein Modell für eben jenes Verhalten eine Verstärkung oder keine Bestrafung erhält.",
+          "kategorie": "enthemmender Effekt"
+        },
+        {
+          "text": "Ein vorhandenes Verhalten wird seltener, weil ein Modell für eben jenes Verhalten bestraft wird.",
+          "kategorie": "hemmender Effekt"
+        },
+        {
+          "text": "Ein Verhalten tritt unmittelbar nach der Beobachtung eines Modells auf, ohne dass dabei ein neues Verhalten entsteht oder ein bestehendes Verhalten in seiner Häufigkeit verändert wird. Das Verhalten war bereits im Repertoire vorhanden – es wurde nur durch die Beobachtung aktiviert (kein Lernen im engeren Sinne).",
+          "kategorie": "auslösender Effekt"
+        }
+      ],
+      "erklaerung": "Folie 63: **modellierend** = Verhalten war vorher nicht im Repertoire; **enthemmend** = verfügbares Verhalten wird durch Beobachtung enthemmt (häufiger); **hemmend** = vorhandenes Verhalten tritt seltener auf, wenn das Modell bestraft wird; **auslösend** = Verhalten wird unmittelbar nach der Beobachtung manifest, ist weder neu noch genau imitiert. Selbst erarbeitet.",
+      "folie": "Test · A16 · VL Folie 63",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a17",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordnen Sie den Lerneffekten gemäß Bandura und Walters das jeweils passende Beispiele zu.",
+      "kategorien": [
+        "modellierender Effekt",
+        "enthemmender Effekt",
+        "hemmender Effekt",
+        "auslösender Effekt"
+      ],
+      "elemente": [
+        {
+          "text": "Eine Schülerin sieht zum ersten Mal, wie ein Mitschüler mit einer bestimmten Fingertechnik besonders schnell auf der Gitarre spielt. Sie hat dieses Bewegungsmuster noch nie zuvor genutzt. Nach der Beobachtung probiert sie es selbst aus und übernimmt die Technik.",
+          "kategorie": "modellierender Effekt"
+        },
+        {
+          "text": "Ein Student meldet sich im Seminar normalerweise nur selten zu Wort. Als er beobachtet, dass eine Kommilitonin für einen Diskussionsbeitrag von der Dozentin ausdrücklich gelobt wird, beteiligt er sich in den folgenden Sitzungen deutlich häufiger an Diskussionen.",
+          "kategorie": "enthemmender Effekt"
+        },
+        {
+          "text": "Ein Kind hat schon häufiger ungefragt Spielsachen anderer Kinder genommen. Nachdem es sieht, wie ein anderes Kind dafür streng zurechtgewiesen wird, unterlässt es dieses Verhalten zukünftig.",
+          "kategorie": "hemmender Effekt"
+        },
+        {
+          "text": "In einer Gruppe gähnt eine Person. Kurz darauf gähnen mehrere andere ebenfalls.",
+          "kategorie": "auslösender Effekt"
+        }
+      ],
+      "erklaerung": "Gitarrentechnik „noch nie zuvor genutzt“ → neu → **modellierend**; der Student meldet sich schon (selten) und tut es nach dem Lob des Modells häufiger → **enthemmend**; das Kind unterlässt ein vorhandenes Verhalten, weil das Modell bestraft wird → **hemmend**; Gähnen ist vorhanden, wird nur unmittelbar ausgelöst → **auslösend** (Folie 63). Selbst erarbeitet.",
+      "folie": "Test · A17 · VL Folie 63",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a18",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur Gestaltpsychologie sind korrekt?",
+      "optionen": [
+        "Die Gestaltpsychologie geht davon aus, dass die Wahrnehmung das Resultat einer Addition elementarer Teilchen im visuellen Feld sind.",
+        "Erst im Laufe des Lebens bildet sich die Wahrnehmung entsprechend der Gestaltgesetze aus.",
+        "Die Gestaltpsychologie geht davon aus, dass der Mensch nach der \"guten Gestalt\" strebt.",
+        "Die Gestaltpsychologie ordnet sich den behavioristischen Reiz-Reaktions-Theorien zu."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Richtig nur: Streben nach der „**guten Gestalt**“ (Folie 70). Falsch: Wahrnehmung ist gerade **nicht** das Resultat einer Addition (Folie 70: „Das Ganze ist anders als die Summe seiner Teile“); die Gestaltgesetze kommen **schon bei Säuglingen** zur Anwendung (Folie 69); die Gestaltpsychologie steht für die „kognitive Wende“ **weg** vom Behaviorismus (Folie 70). Selbst erarbeitet.",
+      "folie": "Test · A18 · VL Folie 69–70",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a19",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Ordnen Sie die Gestaltgesetze dem passenden Beispiel zu.",
+      "kategorien": [
+        "Gesetz der Nähe",
+        "Gesetz der Ähnlichkeit",
+        "Gesetz der Kontinuität",
+        "Gesetz der Prägnanz",
+        "Gesetz der Geschlossenheit"
+      ],
+      "elemente": [
+        {
+          "text": "Bei einer Menükarte werden Speisen, die direkt untereinander stehen, als zusammengehörige Rubrik wahrgenommen, obwohl keine Überschrift vorhanden ist.",
+          "kategorie": "Gesetz der Nähe"
+        },
+        {
+          "text": "Die Besucher eines Fußballstadions, die in denselben Farben gekleidet sind, werden als zusammengehörig wahrgenommen.",
+          "kategorie": "Gesetz der Ähnlichkeit"
+        },
+        {
+          "text": "Punkte, die in einer Linie angeordnet sind, werden als zusammenhängende Linie wahrgenommen, obwohl sie einzeln stehen.",
+          "kategorie": "Gesetz der Kontinuität"
+        },
+        {
+          "text": "Beim Betrachten eines komplexen Logos wird spontan eine einfache Grundform (ein Kreis oder ein Dreieck) erkannt, obwohl das Design viele Details enthält.",
+          "kategorie": "Gesetz der Prägnanz"
+        },
+        {
+          "text": "Eine Strichzeichnung eines Quadrats hat an einer Seite eine kleine Lücke. Dennoch wird die Form als geschlossenes Quadrat wahrgenommen.",
+          "kategorie": "Gesetz der Geschlossenheit"
+        }
+      ],
+      "erklaerung": "Folie 72 zeigt die fünf Gesetze nur als Bilder. **Nähe**: räumlich nahe Elemente gehören zusammen; **Ähnlichkeit**: gleich aussehende (Farbe, Form) gehören zusammen; **Kontinuität**: Elemente auf einer durchgehenden Linie/Kurve werden als Einheit gesehen; **Prägnanz**: wir sehen die einfachste, „gute“ Gestalt; **Geschlossenheit**: Lücken werden zu einer geschlossenen Form ergänzt. In Stud.IP stehen die Beispiele als Ziele und die Gesetze als Elemente – hier umgedreht dargestellt. Selbst erarbeitet.",
+      "folie": "Test · A19 · VL Folie 72",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t1a20",
+      "baustein": "aufgabe",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen stellen Beispiele für Lernen durch Einsicht dar?",
+      "optionen": [
+        "Ein Kind probiert beim Puzzlespiel wahllos mehrere Teile aus, bis irgendwann ein Teil zufällig passt.",
+        "Michael beobachtet, wie Hannes das Klettergerüst hochklettert und ahmt sein Verhalten nach.",
+        "Eine Studentin löst ein mathematisches Problem, nachdem sie zuvor mehrere erfolglose Lösungsversuche unternommen hat und plötzlich eine neue Struktur im Problem erkennt.",
+        "Eine Person lernt, den Computer zu bedienen, indem sie Schritt für Schritt die Anleitung befolgt."
+      ],
+      "richtig": [
+        2
+      ],
+      "erklaerung": "Einsicht = „plötzliche Wahrnehmung von Beziehungen zwischen den Elementen einer Problemsituation“ (Folie 75); typisch: Probierverhalten ohne Erfolg → Umstrukturierung → „Aha-Erlebnis“ (Folie 76) – genau das beschreibt die Studentin. Wahlloses Ausprobieren bis zum Zufallstreffer = Versuch und Irrtum (Thorndike, Folie 27); Nachahmen = Modelllernen (Bandura); Schritt-für-Schritt-Anleitung = Lernen durch Instruktion, ohne plötzliche Einsicht. Selbst erarbeitet.",
+      "folie": "Test · A20 · VL Folie 27, 75–76",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Typische Fallen: negative Verstärkung ≠ Bestrafung; partielle Verstärkung ist löschungsresistenter, kontinuierliche führt zu schnellerem Lernanstieg; Bandura verzichtet auf das Black-Box-Prinzip; Akquisition unabhängig, Performanz abhängig von Konsequenzen."
+  ],
+  "offene_fragen": [
+    "t1a4: Weinen bei der Trennung ist kein Reflex im engen Sinn – im Test ist es trotzdem als UR gemeint (Trennung = US). Nach dem Abschicken mit der Stud.IP-Auswertung abgleichen.",
+    "t1a6: Die Lücke hinter „transportiert werden“ ist der Tasche (CS2) zugeordnet – nach dem Abschicken abgleichen."
+  ]
+}

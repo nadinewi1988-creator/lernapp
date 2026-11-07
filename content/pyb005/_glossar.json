@@ -1020,6 +1020,314 @@
       "erklaerung": "Hilfe geben und schrittweise zurücknehmen.",
       "quelle": "pyb005.1_2026-10-28 · Folie 62",
       "abweichungen": []
+    },
+    {
+      "begriff": "Entwicklung",
+      "wortlaut": "Entwicklung bezieht sich auf relativ überdauernde und aufeinander bezogene intraindividuelle Veränderungen des Erlebens und Verhaltens über die Zeit hinweg. (Lohaus et al., 2024, S. 4 – aus der Vorlesung S03)",
+      "erklaerung": "Geordnete, längerfristige Veränderung innerhalb einer Person über die ganze Lebensspanne.",
+      "quelle": "pyb005.2_2026-11-02 · Folie 5",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Bioökologisches Modell (Bronfenbrenner)",
+      "wortlaut": "Bronfenbrenner begreift die Umwelt als „einen Satz verschachtelter Strukturen, jede innerhalb der nächsten, wie bei russischen Puppen“ (1979, S. 3). (Siegler et al., 2021, S. 385)",
+      "erklaerung": "Das Kind mit seinen Merkmalen steht im Zentrum von fünf ineinander geschachtelten Umweltebenen.",
+      "quelle": "pyb005.2_2026-11-02 · Folie 7",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Mikrosystem",
+      "wortlaut": "Lebensbereiche, in denen Menschen leicht direkte Interaktionen mit anderen aufnehmen können (Lohaus et al., 2024, S. 46)",
+      "erklaerung": "Familie, Schule, Freundeskreis – Orte, an denen das Kind selbst ist.",
+      "quelle": "pyb005.2_2026-11-02 · Folie 7",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Mesosystem",
+      "wortlaut": "Wechselbeziehungen zwischen unterschiedlichen Lebensbereichen (Mikrosystemen) (Lohaus et al., 2024, S. 46)",
+      "erklaerung": "Die Verbindung zwischen zwei Mikrosystemen, z. B. Eltern – Lehrkraft.",
+      "quelle": "pyb005.2_2026-11-02 · Folie 7",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Exosystem",
+      "wortlaut": "Lebensbereiche, an denen eine Person nicht unmittelbar beteiligt ist, die jedoch Einfluss auf die eigenen Lebensbereiche einer Person nehmen (Lohaus et al., 2024, S. 46)",
+      "erklaerung": "z. B. Arbeitsplatz der Eltern – wirkt indirekt auf das Kind.",
+      "quelle": "pyb005.2_2026-11-02 · Folie 7",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Makrosystem",
+      "wortlaut": "übergeordnete kulturelle und gesellschaftliche Einflüsse (Lohaus et al., 2024, S. 46; sinngemäß)",
+      "erklaerung": "Werte, Gesetze, Bildungsstandards einer Gesellschaft.",
+      "quelle": "pyb005.2_2026-11-02 · Folie 7",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Chronosystem",
+      "wortlaut": "Veränderung aller Systemebenen über die Zeit (Lohaus et al., 2024, S. 46; sinngemäß)",
+      "erklaerung": "Zeitliche Dimension: Übergänge, Lebensereignisse, gesellschaftlicher Wandel.",
+      "quelle": "pyb005.2_2026-11-02 · Folie 7",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Entwicklungsaufgabe",
+      "wortlaut": "Unter einer Entwicklungsaufgabe werden prototypische Anforderungen oder Lernaufgaben verstanden, die in einer bestimmten Lebensphase zu bewältigen sind. (Boeger & Lüdmann, 2023, S. 20)",
+      "erklaerung": "Alterstypische Anforderung aus Reifung, Gesellschaft und eigenen Zielen.",
+      "quelle": "pyb005.2_2026-11-02 · Folie 11",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Schutzfaktoren",
+      "wortlaut": "Schutzfaktoren bezeichnen Faktoren, die die Auftretenswahrscheinlichkeit von Störungen beim Vorliegen von Belastungen vermindern, indem sie zur Entwicklung von Ressourcen beitragen bzw. eine solche Entwicklung erleichtern. (Eschenbeck & Knauf, 2018, S. 35)",
+      "erklaerung": "Wirken als Puffer – nur wenn eine Belastung vorliegt.",
+      "quelle": "pyb005.2_2026-11-02 · Folie 13",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Resilienz",
+      "wortlaut": "Resilienz (engl. resilience = Elastizität, Unverwüstlichkeit) […] im Entwicklungskontext umschreibt er die Fähigkeit eines Kindes, besser als andere Kinder unbeschadet mit den Folgen belastender Lebensereignisse oder -umstände umgehen und Bewältigungskompetenzen entwickeln zu können. (Scheithauer et al., 2022, S. 503)",
+      "erklaerung": "Psychische Widerstandskraft; dynamisch, nicht angeboren-fest.",
+      "quelle": "pyb005.2_2026-11-02 · Folie 14",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Erziehungsstil",
+      "wortlaut": "Die Gesamtheit der bewussten und unbewussten Verhaltensweisen, die im Rahmen der elterlichen Sozialisation auftreten, wird als Erziehungsstil bezeichnet. (Lohaus et al., 2024, S. 272)",
+      "erklaerung": "Nach Baumrind beschrieben über Lenkung und Responsivität.",
+      "quelle": "pyb005.2_2026-11-02 · Folie 18",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Lernen",
+      "wortlaut": "Lernen ist eine auf Erfahrung basierende, dauerhafte Veränderung in der Verhaltensdisposition eines Individuums. (Rinck & Becker, 2020, S. 114)",
+      "erklaerung": "Erfahrungsbedingte, relativ dauerhafte Veränderung des Verhaltens(-potenzials) – nicht durch Reifung, Müdigkeit, Drogen, Krankheit.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Performanz",
+      "wortlaut": "Unterscheidung zwischen Lernen und Performanz (Ausführung); es besteht die Möglichkeit, dass Gelerntes von einer Person nicht gezeigt werden kann oder will (Folie 8)",
+      "erklaerung": "Das Zeigen des Gelernten im Verhalten.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 8",
+      "abweichungen": []
+    },
+    {
+      "begriff": "assoziatives Lernen",
+      "wortlaut": "Form des Lernens, bei der u.a. Ereignisse, Reize und Verhaltensweisen als zusammengehörig wahrgenommen und interpretiert werden (u.a. klassische und operante Konditionierung) (Folie 10)",
+      "erklaerung": "Lernen durch Verknüpfung.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 10",
+      "abweichungen": []
+    },
+    {
+      "begriff": "nicht assoziatives Lernen",
+      "wortlaut": "Form des Lernens, bei der eine Änderung des Verhaltens durch die Wiederholung eines Reizes oder einer Reaktion erreicht wird (u.a. Habituation) (Folie 10)",
+      "erklaerung": "z. B. Gewöhnung an ein Geräusch.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 10",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Modelllernen",
+      "wortlaut": "Erwerb von mentalen Informationen, bei dem etwas ohne unmittelbare eigene Erfahrung, sondern durch Beobachtung erlernt wird (u.a. soziales Lernen, Imitationslernen, kognitives Lernen) (Folie 10)",
+      "erklaerung": "Lernen durch Beobachten anderer.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 10",
+      "abweichungen": []
+    },
+    {
+      "begriff": "exogenistisches Entwicklungsmodell",
+      "wortlaut": "„Die Entwicklung wird völlig unter Kontrolle externer Einflussfaktoren gesehen.“ (Montada et al., 2018, S. 32)",
+      "erklaerung": "Umwelt formt den Menschen – Sicht des Behaviorismus.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 14",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Black-Box-Prinzip",
+      "wortlaut": "innere Prozesse, Kognitionen und Emotionen werden dabei ausgeklammert, da sie nicht objektiv beobachtbar sind und lediglich dem eigenen Bewusstsein zugänglich sind; das innere Erleben des Menschen wird als Black-Box dargestellt (Folie 15)",
+      "erklaerung": "Nur Reiz und Reaktion zählen, das Innere bleibt unberücksichtigt.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 15",
+      "abweichungen": []
+    },
+    {
+      "begriff": "klassische Konditionierung",
+      "wortlaut": "„Die klassische Konditionierung ist ein Lernprozess, in dessen Verlauf ein zuvor neutraler Reiz mit einem anderen Reiz (der ein Verhalten auslöst) durch wiederholtes gemeinsames Auftreten assoziiert wird.“ (Becker-Carus & Wendt, 2017, S. 296)",
+      "erklaerung": "Auch: Signallernen, Lernen durch Stimulus-Substitution.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 17",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Reflex",
+      "wortlaut": "„Ein Reflex ist eine ungelernte Reaktion […], die in natürlicher Weise durch spezifische Stimuli hervorgerufen wird, die für den Organismus biologisch relevant sind.“ (Gerrig, 2018, S. 218)",
+      "erklaerung": "Basis der klassischen Konditionierung.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 18",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Akquisition (klassisch)",
+      "wortlaut": "Bildung einer Assoziation zwischen Stimulus und Reaktion durch eine gewisse Anzahl von wiederholten CS-US Paarungen in zeitlicher Kontiguität (Infotext 4.2)",
+      "erklaerung": "Erwerb der CR.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 21",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Extinktion",
+      "wortlaut": "Verschwinden einer konditionierten Reaktion (CR), wenn dem konditionierten Reiz (CS) kein unkonditionierter Reiz (US) mehr folgt (Infotext 4.2)",
+      "erklaerung": "Löschung; operant: Wegfallen eines Verhaltens nach Entzug der Verstärkung.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 21",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Spontanerholung",
+      "wortlaut": "Wiederauftreten der zuvor erloschenen konditionierten Reaktion (CR) nach einer Ruhephase (Infotext 4.2)",
+      "erklaerung": "Gelöschtes kehrt nach einer Pause zurück.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 21",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Reizgeneralisierung",
+      "wortlaut": "ähnliche Reaktion auf eine Vielzahl verschiedener, verwandter Stimuli (Folie 22)",
+      "erklaerung": "Glocke und Klingel lösen Speichelfluss aus.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 22",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Reizdiskrimination",
+      "wortlaut": "unterschiedliche Reaktionen auf verwandte, aber klar unterscheidbare Stimuli (Folie 22)",
+      "erklaerung": "Nur der Glockenton, nicht der Flötenton.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 22",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Konditionierung höherer Ordnung",
+      "wortlaut": "ein gefestigter konditionierter Reiz (CS 1) kann die Funktion des unkonditionierten Reizes (US) übernehmen; der zunächst neutrale Reiz (CS 2) wird mit dem CS 1 gepaart und löst ohne Darbietung des US die CR aus (Folie 23)",
+      "erklaerung": "Kette von konditionierten Reizen.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 23",
+      "abweichungen": []
+    },
+    {
+      "begriff": "operantes Konditionieren",
+      "wortlaut": "„Operantes Konditionieren ist das Lernen von Verhaltenskonsequenzen: Wenn wir lernen, welches Verhalten in welchen Situationen positive Folgen hat, können wir das Verhalten in Zukunft häufiger zeigen.“ (Rinck & Becker, 2020, S. 119)",
+      "erklaerung": "Synonym: instrumentelle Konditionierung.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 26",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Effektgesetz (Thorndike)",
+      "wortlaut": "Verhaltensweisen, auf die angenehme Konsequenzen folgen, treten zunehmend häufiger auf; Verhaltensweisen, auf die unangenehme Konsequenzen folgen, treten zunehmend seltener auf (Folie 28)",
+      "erklaerung": "Lernen am Erfolg, Versuch und Irrtum.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 27–28",
+      "abweichungen": []
+    },
+    {
+      "begriff": "positive Verstärkung",
+      "wortlaut": "auf das gezeigte Verhalten folgt ein angenehmer Reiz, dieser erhöht die Auftretenswahrscheinlichkeit des besagten Verhaltens (Folie 32)",
+      "erklaerung": "Angenehmes kommt dazu → Verhalten ↑.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 32",
+      "abweichungen": []
+    },
+    {
+      "begriff": "negative Verstärkung",
+      "wortlaut": "aversive Reize, die auf eine Reaktion folgend entfernt oder verringert werden, erhöhen die Wahrscheinlichkeit des Auftretens dieser Reaktion (Folie 32)",
+      "erklaerung": "Unangenehmes fällt weg → Verhalten ↑. Keine Strafe!",
+      "quelle": "pyb005.1_2026-11-04 · Folie 32",
+      "abweichungen": []
+    },
+    {
+      "begriff": "positive (direkte) Bestrafung",
+      "wortlaut": "aversive Reize, die auf eine Reaktion folgen, senken die Wahrscheinlichkeit des Auftretens dieser Reaktion (Folie 33)",
+      "erklaerung": "Unangenehmes kommt dazu → Verhalten ↓.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 33",
+      "abweichungen": []
+    },
+    {
+      "begriff": "negative (indirekte) Bestrafung",
+      "wortlaut": "angenehme Reize, die auf eine Reaktion folgend entfernt oder verringert werden, senken die Wahrscheinlichkeit des Auftretens dieser Reaktion (Folie 33)",
+      "erklaerung": "Angenehmes wird weggenommen → Verhalten ↓.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 33",
+      "abweichungen": []
+    },
+    {
+      "begriff": "partieller Verstärkungseffekt",
+      "wortlaut": "das Phänomen der hohen Löschungsresistenz der partiellen Verstärkung wird als partieller Verstärkungseffekt bezeichnet (Folie 36)",
+      "erklaerung": "Unregelmäßig verstärktes Verhalten hält länger.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 36",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kontingenz",
+      "wortlaut": "Darbietung von Verstärkung/Bestrafung ausschließlich als Folge des zu beeinflussenden Verhaltens; Zusammenhang zwischen Verhaltensreaktion und Konsequenz (Infotext 4.3)",
+      "erklaerung": "Eindeutiger Zusammenhang.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 38",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kontiguität",
+      "wortlaut": "zeitliche Nähe zwischen Verhalten und Konsequenz (Infotext 4.3)",
+      "erklaerung": "Konsequenz folgt sofort.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 38",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Shaping",
+      "wortlaut": "schrittweise Annäherung an eine erwünschte Zielreaktion; Verstärkung von Reaktionen, die in die gewünschte Richtung gehen, bis schlussendlich die Zielreaktion ausgeführt wird (Folie 39)",
+      "erklaerung": "Verhaltensformung.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 39",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Chaining",
+      "wortlaut": "Verknüpfung von Reaktionssequenzen; einzelne, schon existierende Verhaltensweisen werden zu einer neuen Kette von Handlungen verbunden (Folie 39)",
+      "erklaerung": "Verkettung in fester Abfolge.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 39",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Prompting",
+      "wortlaut": "verbale oder verhaltensmäßige Hilfestellungen, welche die Aufmerksamkeit auf das gewünschte Verhalten lenken sollen (Folie 40)",
+      "erklaerung": "Erinnern, Vormachen.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 40",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Zwei-Faktoren-Theorie",
+      "wortlaut": "Verbindung klassischen und operanten Konditionierens: 1. Phase: als Folge klassischer Konditionierung erlernt der Organismus emotionale Reaktionen; 2. Phase: emotionale Zustände führen zu Auslösern für instrumentelles Verhalten (Folie 46)",
+      "erklaerung": "Angst erwerben (klassisch), Vermeidung negativ verstärkt (operant) – Mowrer & Mowrer (1947).",
+      "quelle": "pyb005.1_2026-11-04 · Folie 46–47",
+      "abweichungen": []
+    },
+    {
+      "begriff": "emotionale Konditionierung",
+      "wortlaut": "Lernvorgang, durch den eine emotionale Reaktion auf einen bisher als neutral empfundenen Reiz hervorgerufen wird (Folie 52)",
+      "erklaerung": "Synonym: evaluative/affektive Konditionierung; Werbung.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 52",
+      "abweichungen": []
+    },
+    {
+      "begriff": "soziales Lernen",
+      "wortlaut": "soziales Lernen kann als Prozess des Lernens oder als Produkt des Lernens aufgefasst werden; Prozess: Prozess, an dem soziale Interaktion beteiligt ist; Produkt: Wissen über Verhaltensweisen, die sozial angemessen/akzeptiert sind (Folie 54)",
+      "erklaerung": "Lernen durch Beobachten und Interagieren.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 54",
+      "abweichungen": []
+    },
+    {
+      "begriff": "reziproker Determinismus",
+      "wortlaut": "die interagierenden Einflüsse zwischen dem Verhalten und der inneren Kognition der Kinder und ihrer Umwelt (Folie 62)",
+      "erklaerung": "Kind ↔ Umwelt beeinflussen sich wechselseitig.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 62",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Einsicht",
+      "wortlaut": "„Einsicht ist die plötzliche Wahrnehmung von Beziehungen zwischen den Elementen einer Problemsituation.“ (Edelmann, 1994, zit. n. Schweer & Schulte-Pelkum, 2017, S. 161)",
+      "erklaerung": "Aha-Erlebnis; Köhler: relationales Denken.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 75",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kippfigur",
+      "wortlaut": "Kippfiguren sind zeichnerische Gebilde, deren optische Reizkonfiguration mindestens zwei verschiedene Deutungen zulässt (Folie 73)",
+      "erklaerung": "z. B. Vase/zwei Gesichter.",
+      "quelle": "pyb005.1_2026-11-04 · Folie 73",
+      "abweichungen": []
     }
   ]
 }

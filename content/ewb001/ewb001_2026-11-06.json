@@ -1,0 +1,637 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "ewb001",
+  "teilmodul": "ewb001",
+  "datum": "2026-11-06",
+  "sitzung_nr": 3,
+  "sitzung_id": "",
+  "thema": "3. Sitzung: Theoretische Strömungen der Erziehungswissenschaft (Arbeitsblatt Rieckmann 2 & 3)",
+  "thema_in_app": "eingetragen",
+  "stand": "geprueft",
+  "hinweis": "Freiwilliges Tutorium (Tutor: Dennis Hoffmann) zu den ewb001.2-Vorlesungen 2 und 3 „Theoretische Strömungen der Erziehungswissenschaft I und II“ (Prof. Rieckmann, ewb001.2 S02 und S03). Grundlage ist nur das Kernblatt (9 Seiten, unausgefüllt) – keine Zusammenfassung, kein Lernzettel, keine Aufnahme. Alle Lösungen sind selbst erarbeitet mit den Vorlesungsunterlagen und Gudjons/Traub 2016, Kap. 2 (Selbststudium S02/S03). Das Zusatzblatt zum Tutorium S2 (Menschenbilder) ist Hausaufgabe h01 der Tutoriumssitzung vom 30.10.",
+  "quellen": [
+    {
+      "datei": "Tutorium/Sitzung_03/TUTORIUM_EWB001.2_RIECKMANN_·_ARBEITSBLATT_-_2+3._SITZUNG_·_Theoretische_Strömungen.pdf",
+      "art": "Arbeitsblatt (Kernblatt) Tutorium 2 & 3 zu ewb001.2",
+      "seiten": "1–9"
+    },
+    {
+      "datei": "ewb001.2/Sitzung_02/02_Gudjons_Traub2016_Pädagogisches_Grundwissen_Kapitel_2_Richtungen_der_Erziehungswissenschaft.pdf",
+      "art": "Literatur (Selbststudium ewb001.2 S02/S03) – für die Lösungen zu 1.1, 2.1, 3.1–3.3, 4.1–4.2",
+      "seiten": "29–41"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Objekttheorie und Metatheorie unterscheiden",
+      "art": "vorgegeben",
+      "quelle": "Kernblatt S. 1",
+      "fragen": [
+        "t01"
+      ],
+      "erklaerung_abschnitt": "1 Brillen & geisteswissenschaftliche EW"
+    },
+    {
+      "text": "die geisteswissenschaftliche, empirische und kritische Erziehungswissenschaft vergleichen",
+      "art": "vorgegeben",
+      "quelle": "Kernblatt S. 1",
+      "fragen": [
+        "t02",
+        "t03",
+        "t13"
+      ],
+      "erklaerung_abschnitt": "5 Abschluss: vom Brillenkasten zum Fall"
+    },
+    {
+      "text": "Falsifikation, Ideologiekritik und Technologiedefizit erklären",
+      "art": "vorgegeben",
+      "quelle": "Kernblatt S. 1",
+      "fragen": [
+        "t04",
+        "t06",
+        "t09",
+        "t11"
+      ],
+      "erklaerung_abschnitt": "2 Empirische Erziehungswissenschaft"
+    },
+    {
+      "text": "weitere Strömungen an typischen Aussagen erkennen",
+      "art": "vorgegeben",
+      "quelle": "Kernblatt S. 1",
+      "fragen": [
+        "t10",
+        "t12",
+        "t14"
+      ],
+      "erklaerung_abschnitt": "4 Weitere Richtungen"
+    }
+  ],
+  "kurzfassung": [
+    "Es gibt nicht „die eine“ Erziehungswissenschaft, sondern verschiedene Brillen (Teppich von unten: Fäden, von oben: Muster) – die Hauptrichtungen sind Metatheorien.",
+    "Geisteswissenschaftlich: verstehen (Dilthey: „Die Natur erklären wir, das Seelenleben verstehen wir“), Primat der Praxis, Geschichtlichkeit, Hermeneutik, pädagogischer Bezug, Bildungsbegriff.",
+    "Empirisch (kritisch-rational): erklären und vorhersagen; Popper: Falsifikation – eine Hypothese gilt vorläufig, solange sie Widerlegungsversuchen standhält; Brezinka: Erziehungswissenschaft – Philosophie der Erziehung – Praktische Pädagogik.",
+    "Kritisch: Positivismusstreit, Emanzipationspostulat (Mündigkeit), Ideologiekritik – wem nützt eine Erziehung?",
+    "Ab etwa 1975 Theorienpluralismus: sechs weitere Brillen, u. a. Technologiedefizit (Systemtheorie) und drei feministische Argumentationslinien."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Worum es im Tutorium ging",
+      "folien": "",
+      "beispiel": "",
+      "text": "Das Tutorium wiederholt die ewb001.2-Vorlesungen **2 und 3** von Prof. Rieckmann: **Theoretische Strömungen der Erziehungswissenschaft I und II** (ewb001.2 S02 am 20.10. und S03 am 27.10.2026). Grundlage ist das Kernblatt des Tutors (9 Seiten); eine Zusammenfassung oder Aufnahme liegt nicht vor.\n\n**Lernziele (Kernblatt S. 1):** Nach dem Tutorium kannst du … Objekttheorie und Metatheorie unterscheiden · die geisteswissenschaftliche, empirische und kritische Erziehungswissenschaft vergleichen · Falsifikation, Ideologiekritik und Technologiedefizit erklären · weitere Strömungen an typischen Aussagen erkennen.\n\nAufgabentypen: **V** Verstehen (wiedergeben, erklären) · **A** Anwenden (auf einen Fall übertragen) · **W** Weiterdenken (verknüpfen, Stellung nehmen).\n\n{{aufgabe a00}}\n\n**Kurz erklärt:** Der rote Faden des Blatts: Es gibt nicht „die eine“ Erziehungswissenschaft, sondern verschiedene **Brillen**. Die geisteswissenschaftliche will **verstehen**, die empirische **messen, erklären und vorhersagen**, die kritische fragt, **wem** eine Erziehung nützt. Seit etwa 1975 kommen viele weitere Brillen hinzu."
+    },
+    {
+      "titel": "1 Brillen & geisteswissenschaftliche EW",
+      "folien": "Kernblatt S. 2–3",
+      "beispiel": "",
+      "text": "➜ *Roter Faden:* Es gibt nicht „die eine“ Erziehungswissenschaft – sondern verschiedene Brillen.\n\n{{aufgabe a01}}\n\n{{aufgabe a02}}\n\n{{aufgabe a03}}\n\n**Kurz erklärt:** Eine **Metatheorie** schaut auf das Forschen selbst – die drei Hauptrichtungen sind solche Metatheorien. Die geisteswissenschaftliche Pädagogik (Dilthey, Nohl) will Erziehung **verstehen** wie einen Text (Hermeneutik), geht von der Praxis aus (Primat der Praxis) und betont Geschichte, pädagogischen Bezug und Bildung.\n\n**Prüfungsfalle:** „Die Natur **erklären** wir, das Seelenleben **verstehen** wir“ – nicht umgekehrt."
+    },
+    {
+      "titel": "2 Empirische Erziehungswissenschaft",
+      "folien": "Kernblatt S. 4–5",
+      "beispiel": "",
+      "text": "➜ *Roter Faden:* Verstehen reicht nicht – die empirische EW will messen, erklären und vorhersagen.\n\n{{aufgabe a04}}\n\n{{aufgabe a05}}\n\n{{aufgabe a06}}\n\n**Kurz erklärt:** Die kritisch-rationale (empirische) EW stellt Hypothesen auf und versucht, sie zu **widerlegen** (Popper: Falsifikation). Was standhält, gilt vorläufig. Brezinka nennt nur das Wissen über Wirkungszusammenhänge „Erziehungswissenschaft“ – Ziel- und Wertfragen gehören zur Philosophie der Erziehung, Handlungsanweisungen zur Praktischen Pädagogik. Was mit den Ergebnissen geschieht (**Verwertungszusammenhang**), sieht sie nicht als ihre Aufgabe – genau das kritisiert die kritische EW.\n\n**Prüfungsfalle:** Kritischer Rationalismus (Popper) gehört zur **empirischen** EW, nicht zur kritischen."
+    },
+    {
+      "titel": "3 Kritische Erziehungswissenschaft",
+      "folien": "Kernblatt S. 6",
+      "beispiel": "",
+      "text": "➜ *Roter Faden:* Messen reicht nicht – wem nützt eine bestimmte Erziehung eigentlich?\n\n{{aufgabe a07}}\n\n{{aufgabe a08}}\n\n**Kurz erklärt:** Die kritische EW (Frankfurter Schule; Klafki, Mollenhauer) wirft der empirischen Forschung im **Positivismusstreit** vor, sie nehme das Gegebene einfach hin und frage nicht, wem ihre Ergebnisse dienen. Ihr Ziel ist **Mündigkeit** (Emanzipationspostulat), ihre Methode die **Ideologiekritik**: Rechtfertigungen, die Machtverhältnisse stützen („Arbeiterkinder sind eben nicht fürs Gymnasium gemacht“), werden aufgedeckt."
+    },
+    {
+      "titel": "4 Weitere Richtungen",
+      "folien": "Kernblatt S. 7–8",
+      "beispiel": "",
+      "text": "➜ *Roter Faden:* Seit etwa 1975 herrscht Theorienpluralismus – viele weitere Brillen.\n\n{{aufgabe a09}}\n\n{{aufgabe a10}}\n\n{{aufgabe a11}}\n\n**Kurz erklärt:** Die sechs weiteren Brillen erkennst du an ihren Schlüsselwörtern: Bedingungen/Prinzipien (transzendental-kritisch) · Produktionsverhältnisse/Befreiung (historisch-materialistisch) · Erleben/Lebenswelt (phänomenologisch) · eigenes System/nur Angebote (systemtheoretisch) · Geschlecht/Benachteiligung (feministisch) · Vielfalt/Normalität hinterfragen (postmodern)."
+    },
+    {
+      "titel": "5 Abschluss: vom Brillenkasten zum Fall",
+      "folien": "Kernblatt S. 9",
+      "beispiel": "",
+      "text": "➜ *Roter Faden:* Von der einen Brille zum ganzen Brillenkasten.\n\n{{aufgabe a12}}\n\n{{aufgabe a13}}\n\n**Kurz erklärt:** Dasselbe Kind kann man messen (empirisch), verstehen (geisteswissenschaftlich) oder als Folge eines ungerechten Systems sehen (kritisch). Jede Brille zeigt etwas anderes – zusammen ergeben sie ein vollständigeres Bild."
+    }
+  ],
+  "definitionen": [],
+  "aufgaben": [
+    {
+      "id": "a00",
+      "art": "Aufgabe auf Folie",
+      "text": "Einstieg – Ein Kind, drei Blicke (3 Min., W · Weiterdenken)\n\nFall: Ein Kind arbeitet im Unterricht seit Wochen nicht mehr mit. Ihr sollt herausfinden, warum.\nWas würdet ihr als Erstes tun? Notiert einen Satz. In Aufgabe 9.1 schauen wir, welche „Brille“ ihr dabei aufhattet.",
+      "quelle": "Kernblatt S. 1 · Einstieg · Lösung selbst erarbeitet",
+      "loesung": "*Persönliche Antwort – Beispiel:* „Ich würde zuerst mit dem Kind sprechen und versuchen zu verstehen, was in seinem Leben gerade los ist.“\n\n*Auflösung in Aufgabe 9.1:* Wer zuerst **verstehen** will (Gespräch, Lebensgeschichte), trägt die **geisteswissenschaftliche** Brille. Wer zuerst **beobachten, messen, testen** will, trägt die **empirische**. Wer zuerst fragt, ob **Schule und Gesellschaft** ungerecht sind (z. B. Herkunft, Selektion), trägt die **kritische** Brille.",
+      "loesungsweg": "Spontan einen Satz notieren und am Ende (9.1) mit den drei Brillen vergleichen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 1.1 – Objekttheorie oder Metatheorie? (4 Min., A · Anwenden)\n\nKreuzt an: O = Objekttheorie (inhaltliche Forschung) · M = Metatheorie („Theorie über die Theorien“)\na) Eine Studie untersucht, wie gut Wochenplanarbeit an einer Grundschule funktioniert.\nb) Ein Aufsatz fragt, ob man Unterricht überhaupt messen kann – oder ob man ihn verstehen muss.\nc) Eine Forscherin vergleicht, mit welchem Wissenschaftsverständnis Nohl und Brezinka arbeiten.\nd) Eine Lehrerin erhebt, wie viele Kinder ihrer Klasse ein eigenes Smartphone besitzen.\n\nWas soll das Bild vom Teppich zeigen, den man von unten und von oben betrachtet?",
+      "quelle": "Kernblatt S. 2 · Aufgabe 1.1 · selbst erarbeitet mit ewb001.2 S02 (Folien 3–17) (Folie 3) und Gudjons/Traub 2016, Kap. 2, S. 29",
+      "loesung": "| Forschungsfrage | Lösung |\n| --- | --- |\n| a) Wochenplanarbeit an einer Grundschule | **O** – es geht um den Gegenstand selbst (wie funktioniert Wochenplanarbeit?) |\n| b) Kann man Unterricht messen oder muss man ihn verstehen? | **M** – Frage nach dem Wissenschaftsverständnis (empirisch vs. geisteswissenschaftlich) |\n| c) Wissenschaftsverständnis von Nohl und Brezinka | **M** – Blick auf das Forschen selbst (geisteswissenschaftlich vs. kritisch-rational) |\n| d) Smartphones in der Klasse | **O** – inhaltliche Erhebung über den Gegenstand |\n\n**Teppich:** Gudjons/Traub (2016, S. 29): „Wer einen Teppich von unten betrachtet, sieht ein Gewirr von Fäden. Wer ihn von oben betrachtet, sieht Muster.“ Das Bild zeigt: **Es kommt auf Ausgangspunkt und Perspektive an** – davon hängen auch die Ergebnisse wissenschaftlichen Denkens ab. Dieselbe Erziehungswirklichkeit sieht je nach Richtung (Brille) anders aus; deshalb gibt es nicht „die eine“ Erziehungswissenschaft.",
+      "loesungsweg": "Fragt die Forschung „Wie ist der Gegenstand?“ → Objekttheorie. Fragt sie „Wie, wozu, mit welchem Wissenschaftsverständnis wird geforscht?“ → Metatheorie.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 2.1 – Erklären oder Verstehen? (5 Min., V · Verstehen)\n\na) Ergänzt das Zitat von Wilhelm Dilthey, dem Begründer der Geisteswissenschaften: „Die Natur ________ wir, das Seelenleben ________ wir.“\nb) Muss man das Phänomen eher erklären (E) oder verstehen (V)?\n– Wasser gefriert bei Kälte zu Eis.\n– Ein Schüler ist seit Wochen unkonzentriert.\n– Ein Mädchen weigert sich plötzlich, im Sportunterricht mitzumachen.\n– Ein Metalllöffel wird im heißen Tee warm.",
+      "quelle": "Kernblatt S. 2 · Aufgabe 2.1 · selbst erarbeitet mit ewb001.2 S02 (Folien 3–17) (Folie 5) und Gudjons/Traub 2016, Kap. 2, S. 31",
+      "loesung": "**a)** „Die Natur **erklären** wir, das Seelenleben **verstehen** wir.“ (Dilthey; Gudjons/Traub 2016, S. 31)\n\n**b)**\n\n| Phänomen | Lösung |\n| --- | --- |\n| Wasser gefriert bei Kälte zu Eis. | **E** – Naturvorgang, physikalisches Gesetz |\n| Ein Schüler ist seit Wochen unkonzentriert. | **V** – menschliches Erleben; Sinn und Bedeutung für den Schüler erfassen |\n| Ein Mädchen weigert sich plötzlich, im Sport mitzumachen. | **V** – Handeln mit subjektivem Sinn (Scham, Konflikt, Krankheit …) |\n| Ein Metalllöffel wird im heißen Tee warm. | **E** – Naturvorgang (Wärmeleitung) |\n\n*Hinweis:* Die empirische EW würde auch beim Schüler versuchen zu **erklären** (Ursachen messen) – die Aufgabe fragt nach der geisteswissenschaftlichen Sicht Diltheys.",
+      "loesungsweg": "Naturvorgänge folgen Gesetzen → erklären; menschliches Handeln hat Sinn und Bedeutung → verstehen (Hermeneutik).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 2.2 – Fünf Grundannahmen (6 Min., A · Anwenden)\n\nWelche Grundannahme der geisteswissenschaftlichen Pädagogik steckt in der Aussage einer Lehrerin? (Primat der Praxis · Geschichtlichkeit · Hermeneutik · pädagogischer Bezug · Bildungsbegriff)\na) „Ich lese alte Schulordnungen, um zu verstehen, warum wir heute so unterrichten.“\nb) „Zwischen mir und meinem Schüler besteht ein besonderes Verhältnis – um seiner selbst willen.“\nc) „Erst gab es den Unterricht, dann die Theorie – und die muss mir im Klassenzimmer helfen.“\nd) „Ich will nicht nur messen, warum Ali stört, sondern seine Geschichte verstehen.“\ne) „Meine Schüler*innen sollen sich die Welt aneignen und weiterentwickeln – nicht nur Fakten lernen.“",
+      "quelle": "Kernblatt S. 3 · Aufgabe 2.2 · selbst erarbeitet mit ewb001.2 S02 (Folien 3–17) (Folien 5–7)",
+      "loesung": "| Aussage | Grundannahme |\n| --- | --- |\n| a) alte Schulordnungen lesen | **Geschichtlichkeit** – systematische Analyse und Verstehen der Geschichte |\n| b) besonderes Verhältnis um seiner selbst willen | **pädagogischer Bezug** – Verhältnis von Erziehenden und zu Erziehenden (Autorität und Vertrauen) |\n| c) erst Unterricht, dann Theorie, die helfen muss | **Primat der Praxis** – Theorie geht aus der Praxis hervor und dient ihr |\n| d) Alis Geschichte verstehen statt nur messen | **Hermeneutik** – Verstehen und Auslegen als Methode |\n| e) Welt aneignen und weiterentwickeln | **Bildungsbegriff** – nicht nur Übernahme des Vorgegebenen, sondern produktive Aneignung und Weiterentwicklung der Welt |\n\n*Abgleich mit der Vorlesung:* Die Folien nennen als Grundannahmen Primat der Praxis, Geschichtlichkeit und Eigenständigkeit/Autonomie der Erziehung (Folie 6); Bildungsbegriff und pädagogischer Bezug sind dort „inhaltliche Grundfragen“ (Folie 7), die Hermeneutik ist die Methode (Folie 5). Der Tutor fasst alles als „fünf Grundannahmen“ zusammen.",
+      "loesungsweg": "Auf Schlüsselwörter achten: alt/Geschichte → Geschichtlichkeit · Verhältnis → pädagogischer Bezug · erst Praxis → Primat der Praxis · verstehen statt messen → Hermeneutik · Welt aneignen → Bildungsbegriff.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 3.1 – Verifikation oder Falsifikation? (6 Min., V · Verstehen)\n\na) Ergänzt die drei Erkenntnisprogramme (Kernidee): Positivismus · Neopositivismus (logischer Empirismus) · Kritischer Rationalismus (Popper)\n\nHypothese: Eine Forscherin vermutet: „Wochenplanarbeit verbessert bei allen Kindern die Leseleistung.“\nb) Wie geht sie nach dem Kritischen Rationalismus vor – und wann gilt ihre Hypothese als „wahr“? (Tipp: Bestätigen reicht Popper nicht.)",
+      "quelle": "Kernblatt S. 4 · Aufgabe 3.1 · selbst erarbeitet mit ewb001.2 S02 (Folien 3–17) (Folie 9) und Gudjons/Traub 2016, Kap. 2, S. 37",
+      "loesung": "**a)**\n\n| Programm | Kernidee |\n| --- | --- |\n| Positivismus | Quelle der Erkenntnis ist die **Erfahrung** (des Gegebenen, Tatsächlichen); Abgrenzung von normativen Fragen (**Wertfreiheit**) |\n| Neopositivismus (logischer Empirismus) | **Verifikation** als Forschungsziel – eine Hypothese soll als wahr erwiesen werden |\n| Kritischer Rationalismus (Popper) | **Falsifikation** als Forschungsziel – eine Hypothese soll widerlegt werden; solange das nicht gelingt, gilt sie vorläufig |\n\n**b)** Die Forscherin formuliert die Hypothese genau (Begriffe definieren und messbar machen: Was ist „Wochenplanarbeit“, wie wird „Leseleistung“ gemessen?) und leitet daraus prüfbare Wenn-dann-Aussagen ab. Dann sucht sie gezielt nach Fällen, die die Hypothese **widerlegen** könnten – z. B. Klassen oder Kinder, bei denen die Leseleistung trotz Wochenplanarbeit nicht besser wird. Da sie „bei **allen** Kindern“ behauptet, würde schon ein gut belegtes Gegenbeispiel sie widerlegen.\n\n**Wann „wahr“?** Nie endgültig. Als (vorläufig) wahr kann gelten, „was bisherigen Widerlegungsversuchen standgehalten hat“ (Gudjons/Traub 2016, S. 37). Noch so viele bestätigende Fälle beweisen die Hypothese nicht – deshalb reicht Popper das Bestätigen nicht.",
+      "loesungsweg": "Programme über ihr Forschungsziel unterscheiden (Erfahrung/Wertfreiheit – Verifikation – Falsifikation); bei b) die Allaussage „bei allen Kindern“ beachten: ein Gegenbeispiel genügt zur Widerlegung.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a05",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 3.2 – Brezinkas drei Theorietypen (5 Min., A · Anwenden)\n\nKreuzt an: EW = Erziehungswissenschaft · PH = Philosophie der Erziehung · PP = Praktische Pädagogik\na) „Kinder mit Ganztagsangebot erreichen im Schnitt bessere Leseleistungen.“\nb) „Was ist überhaupt ein gelungenes Leben, auf das Schule vorbereiten soll?“\nc) „Beginnt jede Stunde mit einer fünfminütigen Wiederholung.“\nd) „Warum brechen Jugendliche aus armen Familien häufiger die Schule ab?“\ne) „Darf Schule Kinder überhaupt zu bestimmten Werten erziehen?“",
+      "quelle": "Kernblatt S. 5 · Aufgabe 3.2 · selbst erarbeitet mit Gudjons/Traub 2016, Kap. 2, S. 35–36 (nicht auf den Vorlesungsfolien)",
+      "loesung": "| Aussage | Lösung | Warum |\n| --- | --- | --- |\n| a) Ganztag → bessere Leseleistungen | **EW** | empirische Aussage über einen Wirkungszusammenhang („was ist der Fall?“) |\n| b) Was ist ein gelungenes Leben? | **PH** | Ziel- und Sinnfrage |\n| c) Beginnt jede Stunde mit einer Wiederholung. | **PP** | Handlungsanweisung – normative Theorie, die zum Handeln befähigt |\n| d) Warum brechen arme Jugendliche häufiger ab? | **EW** | Erklärung von Ursachen („warum ist etwas der Fall?“) |\n| e) Darf Schule zu Werten erziehen? | **PH** | moralische bzw. ethische Grundsatzfrage |\n\n**Hintergrund (Gudjons/Traub 2016, S. 35 f.):** Brezinka behält die Bezeichnung „Wissenschaft“ der **Erziehungswissenschaft** vor: Sie informiert über Wirkungszusammenhänge, gibt aber keine Vorschriften. Die **Philosophie der Erziehung** bearbeitet Ziele, moralische und erkenntnistheoretische Fragen. Die **Praktische Pädagogik** ist „eine für das Handeln taugliche oder eine zum Handeln befähigende normative Theorie der Erziehung“.",
+      "loesungsweg": "Beschreibt/erklärt die Aussage, was ist → EW. Fragt sie nach Zielen, Sinn, Werten → PH. Sagt sie, was man tun soll → PP.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a06",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 3.3 – Der Forschungskreislauf (4 Min., V · Verstehen)\n\nErgänzt die vier Schritte nach dem Kritischen Rationalismus (Kreislauf 1 → 2 → 3 → 4 → 1; bei Schritt 2 und 3 steht „im …“) und kreuzt an, wohin der Verwertungszusammenhang gehört (gehört zur Wissenschaft / gehört nicht mehr dazu).",
+      "quelle": "Kernblatt S. 5 · Aufgabe 3.3 · selbst erarbeitet mit Gudjons/Traub 2016, Kap. 2, S. 37 (Krumm 2004; nicht auf den Vorlesungsfolien)",
+      "loesung": "| Schritt | Lösung |\n| --- | --- |\n| 1 | **Problemsituation 1** – ein offenes Problem, formuliert von einem bestimmten Vorverständnis her |\n| 2 | **Vorläufige Theorie** (Problemlösungsvorschlag, Hypothese) – im **Entdeckungszusammenhang** |\n| 3 | **Prüfung der Theorie** auf Fehler und Fehlerausmerzung (Falsifikationsversuche) – im **Begründungszusammenhang** |\n| 4 | **Problemsituation 2** – die neu gefasste Theorie wirft neue Probleme auf; der Kreislauf beginnt von vorn |\n\n**Verwertungszusammenhang:** ☑ **gehört nicht mehr dazu** – „Der Verwertungszusammenhang von wissenschaftlichen Forschungen ist nicht mehr Verantwortungsbereich der Wissenschaft“ (Gudjons/Traub 2016, S. 37). Genau das wird kritisiert: „Gleichgültigkeit gegenüber dem Verwertungszusammenhang“ (VL ewb001.2 S02, Folie 11).\n\nPopper: „Wissenschaft geht von offenen Problemen aus und endet mit offenen Problemen.“",
+      "loesungsweg": "Kreislauf = Problem → Hypothese (Entdeckung) → Prüfung (Begründung) → neues Problem; die Verwertung liegt außerhalb der Wissenschaft (und ist deshalb ein Kritikpunkt).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a07",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 4.1 – Positivismusstreit und Mündigkeit (4 Min., V · Verstehen)\n\na) Was warf die Kritische Theorie (Frankfurter Schule) der empirisch-positivistischen Wissenschaft vor?\nb) Was ist nach dem Emanzipationspostulat der eigentliche Zweck von Erziehung und Bildung?",
+      "quelle": "Kernblatt S. 6 · Aufgabe 4.1 · selbst erarbeitet mit ewb001.2 S02 (Folien 3–17) (Folien 12–13) und Gudjons/Traub 2016, Kap. 2, S. 39–40",
+      "loesung": "**a)** Im **Positivismusstreit** (Mitte der 1960er Jahre) warf die Kritische Theorie der empirisch-positivistischen Wissenschaft u. a. vor (Gudjons/Traub 2016, S. 39):\n- Sie nimmt das **Gegebene** einfach hin – aber wer entscheidet, was gegeben und gültig ist?\n- Sie betrachtet die soziale Wirklichkeit als bloßes **Objekt** und reflektiert nicht, dass sie selbst Teil der Gesellschaft ist (Subjekt-Objekt-Trennung).\n- Hinter der scheinbar wertfreien, technischen Rationalität („Sachzwänge“) verbergen sich **Parteinahmen**.\n- Ihr Wirklichkeitsverständnis ist **dogmatisch** (nur Messbares zählt) und **konservativ** – sie fragt nicht, wie ein gutes Leben und eine gute Erziehung aussehen sollten.\n- Kurz: **fehlender Gesellschaftsbezug** und **Gleichgültigkeit gegenüber dem Verwertungszusammenhang** (wem nützen die Ergebnisse?).\n\n**b)** Nach dem **Emanzipationspostulat** ist die **Mündigkeit des Subjekts** der Zweck von Erziehung und Bildung; Aufklärung, Vernunft, Emanzipation und Selbstbestimmung sind die erkenntnisleitenden Interessen (VL ewb001.2 S02, Folie 13).",
+      "loesungsweg": "a) Kritikpunkte am Positivismus über das Stichwort „wem nützt es?“ bündeln; b) Folienwortlaut Folie 13: Mündigkeit des Subjekts.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a08",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 4.2 – Ideologiekritik (6 Min., A · Anwenden)\n\nAussage: Bei der Schullaufbahnempfehlung sagt ein Lehrer: „Kinder aus Arbeiterfamilien sind eben nicht fürs Gymnasium gemacht.“\na) Warum ist das eine Ideologie im Sinne der Kritischen Erziehungswissenschaft?\nb) Wessen Interessen dient die Aussage – und was würde Ideologiekritik tun?",
+      "quelle": "Kernblatt S. 6 · Aufgabe 4.2 · selbst erarbeitet mit Gudjons/Traub 2016, Kap. 2, S. 41 (Ideologiebegriff) und ewb001.2 S02 (Folien 3–17) (Folie 13)",
+      "loesung": "**a)** Ideologien sind „von Herrschaftsinteressen gesteuerte Rechtfertigungslehren“ mit dem Charakter **falschen Bewusstseins**, das gesellschaftlich bedingt ist und **bestehende Machtverhältnisse stützt und rechtfertigt** (Gudjons/Traub 2016, S. 41). Die Aussage stellt ein gesellschaftlich gemachtes Ergebnis (Bildungsbenachteiligung) als **natürliche Eigenschaft** der Kinder dar („eben nicht gemacht“) – sie verschleiert, dass Herkunft, fehlende Förderung und Selektion im Schulsystem die Ursachen sind.\n\n**b)** Die Aussage dient den Interessen der **bessergestellten Schichten**: Ihre Kinder behalten die Gymnasialplätze und damit Vorteile bei Abschlüssen, Berufen und Einkommen – die soziale Ungleichheit wird **reproduziert**, und das Schulsystem muss sich nicht ändern.\n\n**Ideologiekritik würde** die Aussage aufdecken und hinterfragen: Woher kommt die Behauptung? Wem nützt sie? Was zeigen Daten (z. B. dass Arbeiterkinder bei gleicher Leistung seltener eine Gymnasialempfehlung bekommen)? Ziel ist **Aufklärung** der Beteiligten (Lehrkräfte, Eltern, Kinder) und eine **Veränderung der Praxis** – faire Empfehlungen, Förderung, mehr Durchlässigkeit –, damit Mündigkeit und Emanzipation aller Kinder möglich werden.",
+      "loesungsweg": "Ideologie = als „natürlich“ ausgegebene Rechtfertigung, die Machtverhältnisse stützt; fragen: wem nützt es? – dann aufdecken, prüfen, Praxis verändern.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a09",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 5.1 – Sechs weitere Brillen (5 Min., A · Anwenden)\n\nWelche Richtung spricht? TK = transzendental-kritisch · HM = historisch-materialistisch · Ph = phänomenologisch · Sy = systemtheoretisch · Fe = feministisch · Po = postmodern\na) „Ich spiele mit den Kindern im Sandkasten, um zu erleben, wie sie ihre Welt wahrnehmen.“\nb) „Ob ein Schüler lernt, entscheidet sein eigenes System. Ich kann nur Angebote machen.“\nc) „Die Berufsschule bildet nur aus, damit die Fabrik läuft. Bildung sollte befreien.“\nd) „Warum werden Jungen im Matheunterricht häufiger drangenommen als Mädchen?“\ne) „Zuerst müssen wir klären, unter welchen Bedingungen pädagogische Aussagen überhaupt begründet sein können.“\nf) „Es gibt nicht die eine richtige Familienform. Pädagogik muss Vielfalt anerkennen.“",
+      "quelle": "Kernblatt S. 7 · Aufgabe 5.1 · selbst erarbeitet mit ewb001.2 S03 (Courseware-Einheit 03 und Präsenzfolien)",
+      "loesung": "| Aussage | Lösung | Schlüsselwort |\n| --- | --- | --- |\n| a) im Sandkasten erleben, wie Kinder ihre Welt wahrnehmen | **Ph** | unmittelbare Anschauung, Erfahrung, Lebenswelt |\n| b) eigenes System, nur Angebote | **Sy** | selbstreferentielles System, Technologiedefizit |\n| c) Ausbildung für die Fabrik, Bildung soll befreien | **HM** | Bildung als Produkt der Produktionsverhältnisse; Bildung zur Befreiung |\n| d) Jungen häufiger drangenommen | **Fe** | geschlechtsspezifische Benachteiligung |\n| e) Bedingungen begründeter pädagogischer Aussagen | **TK** | Erfassen der Bedingungen pädagogischen Handelns und pädagogischer Aussagen |\n| f) Vielfalt der Familienformen | **Po** | Pluralität, Anerkennung des Differenten, Dekonstruktion von Normalität |",
+      "loesungsweg": "Kernidee jeder Richtung aus Präsenzfolie 9 (S03) mit der Aussage abgleichen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a10",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 6.1 – Das Technologiedefizit (2 Min., V · Verstehen)\n\nEine Lehrerin erklärt die Bruchrechnung so gut sie kann – trotzdem verstehen es nicht alle. Was meint die Systemtheorie (Luhmann) mit „Technologiedefizit“?",
+      "quelle": "Kernblatt S. 7 · Aufgabe 6.1 · selbst erarbeitet mit ewb001.2 S03 (Courseware-Einheit 03 und Präsenzfolien)",
+      "loesung": "Mit **Technologiedefizit** meint Luhmann: Es gibt **keine direkte Einflussnahme** der Erziehenden auf die Lernenden – Erziehung kann nicht wie eine Technik sicher bewirken, was sie will. Lernende sind **selbstreferentielle, autopoietische Systeme**: Ihr Bewusstsein kann keinen unmittelbaren Kontakt zur Umwelt (z. B. zur Lehrerin) aufnehmen, sondern nur mit sich selbst operieren. Die Lehrerin kann die Bruchrechnung also nur als **Kommunikationsangebot** machen; ob und wie ein Kind daran anschließt und versteht, entscheidet sein eigenes System. Deshalb verstehen trotz bester Erklärung nicht alle.",
+      "loesungsweg": "Stichworte aus S03: selbstreferentiell/autopoietisch → keine direkte Einflussnahme → nur Angebote.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a11",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 7.1 – Drei feministische Argumentationslinien (3 Min., V · Verstehen)\n\nKreuzt an: B = Benachteiligungsansatz · D = differenztheoretischer Ansatz · K = Geschlecht als soziale Konstruktion\na) „Mädchen müssen in MINT-Fächern gezielt gefördert werden, damit sie gleiche Chancen haben.“\nb) „Weibliche Lebensweisen haben einen eigenen Wert und sollten nicht an männlichen gemessen werden.“\nc) „‚Typisch Junge‘ ist keine Natur – wir machen es durch Zuschreibungen dazu (doing gender).“",
+      "quelle": "Kernblatt S. 8 · Aufgabe 7.1 · selbst erarbeitet mit ewb001.2 S03 (Courseware-Einheit 03 und Präsenzfolien)",
+      "loesung": "| Aussage | Lösung |\n| --- | --- |\n| a) Mädchen in MINT gezielt fördern | **B** – Fokus auf Benachteiligung, Gleichstellung als Ziel |\n| b) eigener Wert weiblicher Lebensweisen | **D** – Hervorhebung der Differenzen, eigener Wert weiblicher Lebensformen |\n| c) „Typisch Junge“ durch Zuschreibungen | **K** – Geschlecht als soziale Konstruktion (doing gender) |",
+      "loesungsweg": "Gleichstellung → B · Eigenwert des Unterschieds → D · gemacht durch Zuschreibung → K.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a12",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 8.1 – Die drei Hauptrichtungen im Vergleich (4 Min., V · Verstehen)\n\nErgänzt die leeren Felder der Tabelle (Spalten: geisteswissenschaftlich · empirisch (kritisch-rational) · kritisch; Zeilen: Methode · Ziel · Primat · Namen). Vorgegeben sind: Methode empirisch „Erklären & Prognose“; Ziel geisteswissenschaftlich „geschichtlich-pädagogischen Sinn erfassen“; Primat kritisch „der gesellschaftlichen Analyse“; Namen geisteswissenschaftlich „Dilthey, Nohl, Flitner, Litt“.",
+      "quelle": "Kernblatt S. 9 · Aufgabe 8.1 · selbst erarbeitet mit ewb001.2 S02 (Folien 3–17) und Gudjons/Traub 2016, Kap. 2",
+      "loesung": "| | Geisteswissenschaftlich | Empirisch (kritisch-rational) | Kritisch |\n| --- | --- | --- | --- |\n| **Methode** | **Verstehen / Hermeneutik** (Auslegen, Interpretieren) | Erklären & Prognose *(vorgegeben)* | **Ideologiekritik**, Verknüpfung hermeneutischer und empirischer Verfahren, Aktionsforschung |\n| **Ziel** | geschichtlich-pädagogischen Sinn erfassen *(vorgegeben)* | **gesetzesartiges (nomologisches) Wissen über Wirkungszusammenhänge**; Hypothesen prüfen (Falsifikation), wertfrei | **Emanzipation / Mündigkeit** – Aufklärung und Veränderung der Erziehungspraxis und der Gesellschaft |\n| **Primat** | **der Praxis** (vor der Theorie) | **der Empirie / der (prüfbaren) Theorie** – Begründungszusammenhang, Wertfreiheit | der gesellschaftlichen Analyse *(vorgegeben)*; Theorie und Praxis gleichrangig |\n| **Namen** | Dilthey, Nohl, Flitner, Litt *(vorgegeben)* | **Popper** (Kritischer Rationalismus), **Brezinka**, Roth, Fend | **Klafki, Mollenhauer, Blankertz, Lempert** (Bezug: Adorno, Habermas – Frankfurter Schule) |\n\n*Hinweis:* Für „Primat“ in der empirischen Spalte gibt es keinen festen Folienwortlaut – die Formulierung ist selbst erarbeitet. Wichtig ist der Kontrast: Primat der Praxis (geisteswissenschaftlich) – Gleichrangigkeit von Theorie und Praxis (kritisch, Folie 13).",
+      "loesungsweg": "Je Spalte die Kurzformel nehmen: verstehen – erklären – verändern/emanzipieren; daraus Methode, Ziel und Vorrang ableiten; Namen von den Folien 5, 9, 12 der VL S02.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a13",
+      "art": "Aufgabe auf Folie",
+      "text": "Aufgabe 9.1 – Zurück zum Kind (4 Min. + Plenum, W · Weiterdenken)\n\nFall: Eine Psychologin beobachtet das Kind und misst sein Verhalten mit Tests. Ein Sozialarbeiter führt lange Gespräche und will seine Lebensgeschichte verstehen. Eine Gesellschaftskritikerin fragt, ob das ungerechte Schulsystem das Problem ist.\na) Welche Brille trägt wer? (Psychologin / Sozialarbeiter / Gesellschaftskritikerin)\nb) Warum spricht man heute eher von Theorienpluralismus als von „der“ Erziehungswissenschaft? Vergleicht auch mit eurer Antwort aus der Einstiegsaufgabe.",
+      "quelle": "Kernblatt S. 9 · Aufgabe 9.1 · selbst erarbeitet mit ewb001.2 S02 (Folien 3–17) und ewb001.2 S03 (Courseware-Einheit 03 und Präsenzfolien)",
+      "loesung": "**a)**\n- **Psychologin:** **empirische** Brille – beobachten, messen, testen; erklären und vorhersagen.\n- **Sozialarbeiter:** **geisteswissenschaftliche** Brille – verstehen (Hermeneutik), Lebensgeschichte (Geschichtlichkeit), Beziehung (pädagogischer Bezug).\n- **Gesellschaftskritikerin:** **kritische** Brille – Gesellschafts- und Ideologiekritik: Liegt das Problem im ungerechten Schulsystem? Wem nützt es?\n\n**b)** Seit etwa **1975** gibt es nicht mehr drei große Lager, sondern viele Richtungen nebeneinander (transzendental-kritisch, historisch-materialistisch, phänomenologisch, systemtheoretisch, feministisch, postmodern u. a.) – **Theorienpluralismus**. Keine Richtung kann die Erziehungswirklichkeit allein vollständig erfassen; jede ist eine **Brille**, die bestimmte Aspekte sichtbar macht und andere ausblendet (Präsenzfolie 17 der S03: „Keine erklärt alles – aber zusammen zeigen sie die Vielfalt pädagogischen Denkens“). Die Paradigmen nähern sich einander an und werden **integrativ genutzt** (Gudjons/Traub 2016, S. 29).\n\n*Vergleich mit dem Einstieg (Beispiel):* Wer im Einstieg „mit dem Kind sprechen und verstehen“ notiert hat, trug die geisteswissenschaftliche Brille – dabei würden Tests (empirisch) und der Blick aufs Schulsystem (kritisch) wichtige weitere Aspekte zeigen. Am meisten erfährt man, wenn man mehrere Brillen kombiniert.",
+      "loesungsweg": "a) über die Tätigkeit zuordnen: messen → empirisch, verstehen → geisteswissenschaftlich, System kritisieren → kritisch; b) Theorienpluralismus ab 1975 + Brillen-Bild + eigene Einstiegsantwort.",
+      "frist": "",
+      "im_kalender": false
+    }
+  ],
+  "fragen": [
+    {
+      "id": "t01",
+      "baustein": "definition",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Objekttheorie oder Metatheorie?",
+      "kategorien": [
+        "Objekttheorie",
+        "Metatheorie"
+      ],
+      "elemente": [
+        {
+          "text": "Wie gut funktioniert Wochenplanarbeit an einer Grundschule?",
+          "kategorie": "Objekttheorie"
+        },
+        {
+          "text": "Kann man Unterricht messen – oder muss man ihn verstehen?",
+          "kategorie": "Metatheorie"
+        },
+        {
+          "text": "Mit welchem Wissenschaftsverständnis arbeiten Nohl und Brezinka?",
+          "kategorie": "Metatheorie"
+        },
+        {
+          "text": "Wie viele Kinder der Klasse besitzen ein Smartphone?",
+          "kategorie": "Objekttheorie"
+        }
+      ],
+      "erklaerung": "Kernblatt 1.1; VL ewb001.2 S02, Folie 3.",
+      "folie": "Kernblatt 1.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t02",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Dilthey: „Die Natur [[erklären]] wir, das Seelenleben [[verstehen]] wir.“",
+      "erklaerung": "Kernblatt 2.1; Gudjons/Traub 2016, S. 31.",
+      "folie": "Kernblatt 2.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t03",
+      "baustein": "aufgabe",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Grundannahme der geisteswissenschaftlichen Pädagogik steckt in der Aussage?",
+      "kategorien": [
+        "Primat der Praxis",
+        "Geschichtlichkeit",
+        "Hermeneutik",
+        "pädagogischer Bezug",
+        "Bildungsbegriff"
+      ],
+      "elemente": [
+        {
+          "text": "„Erst gab es den Unterricht, dann die Theorie – und die muss mir helfen.“",
+          "kategorie": "Primat der Praxis"
+        },
+        {
+          "text": "„Ich lese alte Schulordnungen, um zu verstehen, warum wir heute so unterrichten.“",
+          "kategorie": "Geschichtlichkeit"
+        },
+        {
+          "text": "„Ich will nicht nur messen, warum Ali stört, sondern seine Geschichte verstehen.“",
+          "kategorie": "Hermeneutik"
+        },
+        {
+          "text": "„Zwischen mir und meinem Schüler besteht ein besonderes Verhältnis.“",
+          "kategorie": "pädagogischer Bezug"
+        },
+        {
+          "text": "„Meine Schüler*innen sollen sich die Welt aneignen und weiterentwickeln.“",
+          "kategorie": "Bildungsbegriff"
+        }
+      ],
+      "erklaerung": "Kernblatt 2.2; VL ewb001.2 S02, Folien 5–7.",
+      "folie": "Kernblatt 2.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t04",
+      "baustein": "transfer",
+      "format": "frage",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Hypothese: „Wochenplanarbeit verbessert bei allen Kindern die Leseleistung.“ Wie geht eine Forscherin nach dem Kritischen Rationalismus vor, und wann gilt die Hypothese als „wahr“?",
+      "antwort": "Sie macht die Begriffe messbar und sucht gezielt nach Gegenbeispielen, die die Hypothese widerlegen könnten (Falsifikation) – bei einer Allaussage („alle Kinder“) genügt ein gut belegtes Gegenbeispiel. Endgültig wahr ist die Hypothese nie; sie gilt vorläufig als wahr, solange sie allen Widerlegungsversuchen standhält. Bestätigungen allein reichen Popper nicht.",
+      "erklaerung": "Kernblatt 3.1; VL S02, Folie 9; Gudjons/Traub 2016, S. 37.",
+      "folie": "Kernblatt 3.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t05",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Brezinkas drei Theorietypen: Ordne zu.",
+      "kategorien": [
+        "Erziehungswissenschaft",
+        "Philosophie der Erziehung",
+        "Praktische Pädagogik"
+      ],
+      "elemente": [
+        {
+          "text": "„Kinder mit Ganztagsangebot erreichen im Schnitt bessere Leseleistungen.“",
+          "kategorie": "Erziehungswissenschaft"
+        },
+        {
+          "text": "„Warum brechen Jugendliche aus armen Familien häufiger die Schule ab?“",
+          "kategorie": "Erziehungswissenschaft"
+        },
+        {
+          "text": "„Was ist überhaupt ein gelungenes Leben, auf das Schule vorbereiten soll?“",
+          "kategorie": "Philosophie der Erziehung"
+        },
+        {
+          "text": "„Darf Schule Kinder überhaupt zu bestimmten Werten erziehen?“",
+          "kategorie": "Philosophie der Erziehung"
+        },
+        {
+          "text": "„Beginnt jede Stunde mit einer fünfminütigen Wiederholung.“",
+          "kategorie": "Praktische Pädagogik"
+        }
+      ],
+      "erklaerung": "Kernblatt 3.2; Gudjons/Traub 2016, S. 35 f. (nicht auf den Vorlesungsfolien).",
+      "folie": "Kernblatt 3.2",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "t06",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Forschungskreislauf nach dem Kritischen Rationalismus: Welche Aussagen stimmen?",
+      "optionen": [
+        "Der Kreislauf beginnt mit einer Problemsituation.",
+        "Die vorläufige Theorie entsteht im Entdeckungszusammenhang.",
+        "Die Prüfung der Theorie gehört zum Begründungszusammenhang.",
+        "Der Verwertungszusammenhang gehört zum Verantwortungsbereich der Wissenschaft.",
+        "Am Ende steht eine endgültig bewiesene Theorie."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Kernblatt 3.3; Gudjons/Traub 2016, S. 37 f.: Problemsituation 1 → vorläufige Theorie → Prüfung/Fehlerausmerzung → Problemsituation 2. Der Verwertungszusammenhang ist nicht mehr Verantwortungsbereich der Wissenschaft; „Wissenschaft geht von offenen Problemen aus und endet mit offenen Problemen“ (Popper).",
+      "folie": "Kernblatt 3.3",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "t07",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was warf die Kritische Theorie im Positivismusstreit der empirisch-positivistischen Wissenschaft vor?",
+      "optionen": [
+        "Sie nimmt das Gegebene hin, ohne zu fragen, wer es gesetzt hat.",
+        "Sie reflektiert nicht, dass sie selbst Teil der Gesellschaft ist.",
+        "Sie ist gleichgültig gegenüber dem Verwertungszusammenhang ihrer Ergebnisse.",
+        "Sie verwendet zu wenige Zahlen und Statistiken.",
+        "Hinter ihrer scheinbaren Wertfreiheit verbergen sich Parteinahmen."
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Kernblatt 4.1; Gudjons/Traub 2016, S. 39; VL S02, Folie 11 (Kritik: fehlender Gesellschaftsbezug, Gleichgültigkeit gegenüber dem Verwertungszusammenhang).",
+      "folie": "Kernblatt 4.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t08",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist nach dem Emanzipationspostulat der kritischen EW der Zweck von Erziehung und Bildung?",
+      "antwort": "Die Mündigkeit des Subjekts; Aufklärung, Vernunft, Emanzipation und Selbstbestimmung sind die erkenntnisleitenden Interessen der Erziehungswissenschaft.",
+      "erklaerung": "Kernblatt 4.1 b; VL ewb001.2 S02, Folie 13.",
+      "folie": "Kernblatt 4.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t09",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Ein Lehrer sagt bei der Schullaufbahnempfehlung: „Kinder aus Arbeiterfamilien sind eben nicht fürs Gymnasium gemacht.“ Erkläre, warum das eine Ideologie im Sinne der kritischen EW ist, wem sie dient und was Ideologiekritik tun würde.",
+      "musterloesung": "Ideologien sind von Herrschaftsinteressen gesteuerte Rechtfertigungslehren (falsches Bewusstsein), die bestehende Machtverhältnisse stützen. Die Aussage stellt gesellschaftlich erzeugte Bildungsbenachteiligung als natürliche Eigenschaft der Kinder dar und verschleiert Herkunft und Selektion als Ursachen. Sie dient den bessergestellten Schichten, deren Kinder Gymnasialplätze und Vorteile behalten; Ungleichheit wird reproduziert. Ideologiekritik deckt die Aussage auf, fragt nach ihrem Nutzen, prüft sie an Daten und zielt auf Aufklärung und Veränderung der Praxis (faire Empfehlungen, Förderung) im Sinne der Mündigkeit aller.",
+      "bewertungspunkte": [
+        "Ideologiebegriff (Rechtfertigung, stützt Machtverhältnisse)",
+        "Naturalisierung gesellschaftlicher Ungleichheit erkannt",
+        "Nutznießer benannt",
+        "Ideologiekritik: aufdecken, aufklären, Praxis verändern"
+      ],
+      "punkte": 4,
+      "erklaerung": "Kernblatt 4.2; Gudjons/Traub 2016, S. 41.",
+      "folie": "Kernblatt 4.2",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t10",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welche Richtung spricht?",
+      "kategorien": [
+        "transzendental-kritisch",
+        "historisch-materialistisch",
+        "phänomenologisch",
+        "systemtheoretisch",
+        "feministisch",
+        "postmodern"
+      ],
+      "elemente": [
+        {
+          "text": "„Ich spiele im Sandkasten, um zu erleben, wie Kinder ihre Welt wahrnehmen.“",
+          "kategorie": "phänomenologisch"
+        },
+        {
+          "text": "„Ob ein Schüler lernt, entscheidet sein eigenes System. Ich kann nur Angebote machen.“",
+          "kategorie": "systemtheoretisch"
+        },
+        {
+          "text": "„Die Berufsschule bildet nur aus, damit die Fabrik läuft. Bildung sollte befreien.“",
+          "kategorie": "historisch-materialistisch"
+        },
+        {
+          "text": "„Warum werden Jungen in Mathe häufiger drangenommen als Mädchen?“",
+          "kategorie": "feministisch"
+        },
+        {
+          "text": "„Unter welchen Bedingungen können pädagogische Aussagen überhaupt begründet sein?“",
+          "kategorie": "transzendental-kritisch"
+        },
+        {
+          "text": "„Es gibt nicht die eine richtige Familienform.“",
+          "kategorie": "postmodern"
+        }
+      ],
+      "erklaerung": "Kernblatt 5.1; VL ewb001.2 S03 (Präsenzfolie 9).",
+      "folie": "Kernblatt 5.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t11",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Eine Lehrerin erklärt die Bruchrechnung so gut sie kann – trotzdem verstehen es nicht alle. Was meint Luhmann mit „Technologiedefizit“?",
+      "antwort": "Es gibt keine direkte Einflussnahme der Erziehenden auf die Lernenden. Lernende sind selbstreferentielle (autopoietische) Systeme; die Lehrerin kann nur Kommunikationsangebote machen – ob und wie ein Kind daran anschließt, entscheidet sein eigenes System.",
+      "erklaerung": "Kernblatt 6.1; VL ewb001.2 S03.",
+      "folie": "Kernblatt 6.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t12",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Drei feministische Argumentationslinien: Ordne zu.",
+      "kategorien": [
+        "Benachteiligungsansatz",
+        "differenztheoretischer Ansatz",
+        "Geschlecht als soziale Konstruktion"
+      ],
+      "elemente": [
+        {
+          "text": "„Mädchen müssen in MINT-Fächern gezielt gefördert werden.“",
+          "kategorie": "Benachteiligungsansatz"
+        },
+        {
+          "text": "„Weibliche Lebensweisen haben einen eigenen Wert.“",
+          "kategorie": "differenztheoretischer Ansatz"
+        },
+        {
+          "text": "„‚Typisch Junge‘ machen wir durch Zuschreibungen (doing gender).“",
+          "kategorie": "Geschlecht als soziale Konstruktion"
+        }
+      ],
+      "erklaerung": "Kernblatt 7.1; VL ewb001.2 S03.",
+      "folie": "Kernblatt 7.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t13",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Die drei Hauptrichtungen: Ordne Methode, Ziel und Primat zu.",
+      "kategorien": [
+        "Geisteswissenschaftliche EW",
+        "Empirische EW",
+        "Kritische EW"
+      ],
+      "elemente": [
+        {
+          "text": "Verstehen / Hermeneutik",
+          "kategorie": "Geisteswissenschaftliche EW"
+        },
+        {
+          "text": "geschichtlich-pädagogischen Sinn erfassen",
+          "kategorie": "Geisteswissenschaftliche EW"
+        },
+        {
+          "text": "Primat der Praxis",
+          "kategorie": "Geisteswissenschaftliche EW"
+        },
+        {
+          "text": "Erklären & Prognose",
+          "kategorie": "Empirische EW"
+        },
+        {
+          "text": "Hypothesen prüfen (Falsifikation)",
+          "kategorie": "Empirische EW"
+        },
+        {
+          "text": "Popper, Brezinka",
+          "kategorie": "Empirische EW"
+        },
+        {
+          "text": "Ideologiekritik",
+          "kategorie": "Kritische EW"
+        },
+        {
+          "text": "Primat der gesellschaftlichen Analyse",
+          "kategorie": "Kritische EW"
+        },
+        {
+          "text": "Klafki, Mollenhauer",
+          "kategorie": "Kritische EW"
+        }
+      ],
+      "erklaerung": "Kernblatt 8.1; VL ewb001.2 S02.",
+      "folie": "Kernblatt 8.1",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "t14",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum spricht man heute eher von Theorienpluralismus als von „der“ Erziehungswissenschaft?",
+      "antwort": "Seit etwa 1975 gibt es neben den drei Hauptrichtungen viele weitere (transzendental-kritisch, historisch-materialistisch, phänomenologisch, systemtheoretisch, feministisch, postmodern u. a.). Jede ist eine Brille, die bestimmte Aspekte sichtbar macht und andere ausblendet; keine erklärt alles. Die Richtungen nähern sich einander an und werden integrativ genutzt.",
+      "erklaerung": "Kernblatt 9.1 b; VL ewb001.2 S02/S03; Gudjons/Traub 2016, S. 29.",
+      "folie": "Kernblatt 9.1",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Kernblatt-Lernziele = Kern der Vorlesungen ewb001.2 S02/S03: Objekt-/Metatheorie, Vergleich der drei Hauptrichtungen, Falsifikation, Ideologiekritik, Technologiedefizit, weitere Strömungen an Aussagen erkennen.",
+    "Kritischer Rationalismus (Popper, Falsifikation) gehört zur empirischen EW – nicht zur kritischen."
+  ],
+  "offene_fragen": [
+    "Aufgabe 8.1: Welchen Begriff erwartet der Tutor in der Zeile „Primat“ für die empirische EW? (Auf den Folien nicht festgelegt – hier „der Empirie / der prüfbaren Theorie“.) Ggf. im nächsten Tutorium nachfragen."
+  ],
+  "auffaelligkeiten": [
+    "Kopfzeile „Tutorium 2 & 3“: Das Blatt deckt die ewb001.2-Vorlesungen 2 und 3 ab und wurde laut App am 06.11. (Tutoriumssitzung 3) bearbeitet; die Tutoriumssitzung 2 (30.10.) behandelte ewb001.1 (Menschenbilder).",
+    "Aufgabe 2.2 spricht von „fünf Grundannahmen“ (Primat der Praxis, Geschichtlichkeit, Hermeneutik, pädagogischer Bezug, Bildungsbegriff); die Vorlesungsfolien trennen wissenschaftstheoretische Grundannahmen (Folie 6: Primat der Praxis, Geschichtlichkeit, Eigenständigkeit/Autonomie der Erziehung) und inhaltliche Grundfragen (Folie 7: Bildungsbegriff, pädagogischer Bezug).",
+    "Aufgabe 8.1 nennt bei den Namen der geisteswissenschaftlichen EW Dilthey, Nohl, Flitner, Litt – die Vorlesungsfolie 5 nennt Nohl, Flitner, Spranger, Litt, Weniger, Blochmann; Dilthey ist dort Bezugspunkt, nicht Vertreter.",
+    "Aufgaben 3.2 (Brezinkas Theorietypen) und 3.3 (Forschungskreislauf) stehen nicht auf den Vorlesungsfolien, sondern in Gudjons/Traub 2016, S. 35–37 (Selbststudium)."
+  ]
+}

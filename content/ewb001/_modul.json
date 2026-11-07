@@ -94,7 +94,8 @@
     "ewb001.2_2026-10-27",
     "ewb001.1_2026-11-03",
     "ewb001.2_2026-11-03",
-    "ewb001_2026-10-30"
+    "ewb001_2026-10-30",
+    "ewb001_2026-11-06"
   ],
   "klausurstil": {
     "quellen": [
@@ -625,6 +626,13 @@
       "status": "verarbeitet",
       "sitzung": "ewb001.1_2026-10-27",
       "hinweis": "zusätzlich eingearbeitet 07.11.2026 (Abschnitt „Übungen: Pädagogik als Wissenschaft und Menschenbilder“, Aufgaben a04–a09, Fragen u01–u07, eigene PDF …_Ergaenzung-Uebungen-Faelle-Lina-Alex.pdf)"
+    },
+    {
+      "pfad": "Tutorium/Sitzung_03/TUTORIUM_EWB001.2_RIECKMANN_·_ARBEITSBLATT_-_2+3._SITZUNG_·_Theoretische_Strömungen.pdf",
+      "geaendert": "2026-11-07",
+      "art": "Arbeitsblatt",
+      "status": "verarbeitet",
+      "sitzung": "ewb001_2026-11-06"
     }
   ]
 }

@@ -69,7 +69,8 @@
         "f01",
         "f02",
         "f03",
-        "f17"
+        "f17",
+        "f19"
       ],
       "erklaerung_abschnitt": "Wiederholung: Formatieren, Runden, ABS, \\$ und WENN"
     }
@@ -91,7 +92,7 @@
     {
       "titel": "Wiederholung: Formatieren, Runden, ABS, \\$ und WENN",
       "folien": "2–7",
-      "text": "**Formatieren vs. Runden (Folie 3):** *„Formatieren: Die Zahl wird auf zwei Nachkommastellen gerundet dargestellt! Intern wird aber mit einem genaueren Wert (Mantissenlänge 15) weitergerechnet. Runden mit der RUNDEN-Funktion: Auch intern wird mit nur zwei Nachkommastellen weitergerechnet.“*\n\nDie „Mantissenlänge 15“ ist genau das $l$ aus VL 2/3: Excel speichert Zahlen als Fließkommazahlen mit 15 Stellen.\n\n{{aufgabe a01}}\n\n{{aufgabe a02}}\n\n**Kurz erklärt:** Diese Folien wiederholen VL 4 und Blatt 5 – das sind typische Klausurfragen: Ergebnis einer Formel angeben, Fehler finden und begründen, Wirkung in eigenen Worten beschreiben."
+      "text": "{{aufgabe a09}}\n\n**Formatieren vs. Runden (Folie 3):** *„Formatieren: Die Zahl wird auf zwei Nachkommastellen gerundet dargestellt! Intern wird aber mit einem genaueren Wert (Mantissenlänge 15) weitergerechnet. Runden mit der RUNDEN-Funktion: Auch intern wird mit nur zwei Nachkommastellen weitergerechnet.“*\n\nDie „Mantissenlänge 15“ ist genau das $l$ aus VL 2/3: Excel speichert Zahlen als Fließkommazahlen mit 15 Stellen.\n\n{{aufgabe a01}}\n\n{{aufgabe a02}}\n\n**Kurz erklärt:** Diese Folien wiederholen VL 4 und Blatt 5 – das sind typische Klausurfragen: Ergebnis einer Formel angeben, Fehler finden und begründen, Wirkung in eigenen Worten beschreiben."
     },
     {
       "titel": "Excel im Unterricht: Würfelsimulation und Zahlenmauern",
@@ -186,6 +187,14 @@
     }
   ],
   "aufgaben": [
+    {
+      "id": "a09",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 2",
+      "text": "*„Unterschied Runden auf zwei Nachkommastellen mit der entsprechenden Excelfunktion und Formatieren auf zwei Nachkommastellen.“* – *„Erstellen Sie folgende Tabelle. Lassen Sie die Quotienten sowie den Abstand (Quotient formatiert zu Quotient gerundet) automatisch berechnen.“* (Tabelle: Dividend 54, Divisor 6,3, Quotient 8,57142857, Quotient formatiert 8,57, Quotient gerundet 8,57, Abstand 0,00142857; Kasten: *„Quotient formatiert: Auf zwei Nachkommastellen formatierter Wert. Quotient gerundet: Mit der Funktion RUNDEN ermittelte Wert.“*)",
+      "loesung": "Dieselbe Tabelle wie in VL 4, Teil 6 (dort ausführlich) – Werte in Spalte B:\n\n| | A | B (Eingabe) | angezeigt |\n|---|---|---|---|\n| 1 | Dividend | 54 | 54 |\n| 2 | Divisor | 6,3 | 6,3 |\n| 3 | Quotient | `=B1/B2` | 8,57142857 |\n| 4 | Quotient formatiert | `=B3`, über Start – Zahl auf 2 Nachkommastellen formatiert | 8,57 |\n| 5 | Quotient gerundet | `=RUNDEN(B3;2)` | 8,57 |\n| 6 | Abstand | `=ABS(B4-B5)` (oder `=B4-B5`) | 0,00142857 |\n\nRechnung: $\\frac{54}{6{,}3} = 8{,}571428\\ldots$; formatiert wird nur **8,57 angezeigt**, gespeichert bleibt $8{,}571428\\ldots$; RUNDEN speichert wirklich $8{,}57$. Abstand: $8{,}571428\\ldots - 8{,}57 = 0{,}001428\\ldots$\n\n**Unterschied (Antwort von Folie 3):** *„Formatieren: Die Zahl wird auf zwei Nachkommastellen gerundet dargestellt! Intern wird aber mit einem genaueren Wert (Mantissenlänge 15) weitergerechnet. Runden mit der RUNDEN-Funktion: Auch intern wird mit nur zwei Nachkommastellen weitergerechnet.“* – deshalb ist der Abstand nicht 0, obwohl beide Zellen „8,57“ zeigen.",
+      "loesungsweg": "Siehe VL 4 (03.11.), Aufgaben zu Teil 6, und Blatt 5, Ü6 (Excel-Musterlösung, Blatt „Ue6 Summe Produkt“)."
+    },
     {
       "id": "a01",
       "art": "Aufgabe auf Folie",
@@ -578,6 +587,23 @@
       "punkte": 4,
       "erklaerung": "Transfer zu Folie 30–42.",
       "folie": "30–42",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Dividend 54 in B1, Divisor 6,3 in B2. Gib die Formeln für Quotient (B3), Quotient formatiert (B4), Quotient gerundet auf 2 Stellen (B5) und Abstand (B6) an und erkläre, warum der Abstand nicht 0 ist.",
+      "musterloesung": "B3 `=B1/B2`, B4 `=B3` (auf 2 Nachkommastellen formatiert), B5 `=RUNDEN(B3;2)`, B6 `=ABS(B4-B5)` → 0,00142857. Formatieren ändert nur die Anzeige (intern 8,571428…), RUNDEN speichert wirklich 8,57.",
+      "bewertungspunkte": [
+        "vier Formeln",
+        "Begründung Anzeige vs. gespeicherter Wert"
+      ],
+      "punkte": 3,
+      "erklaerung": "Folie 2–3.",
+      "folie": "2",
       "pruefungsrelevant": true
     }
   ],

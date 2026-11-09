@@ -1,0 +1,599 @@
+{
+  "schema": "lernapp-sitzung/2",
+  "modul": "mab004",
+  "teilmodul": "mab004.1",
+  "datum": "2026-11-10",
+  "sitzung_nr": 5,
+  "sitzung_id": "130c703d-1246-49d4-91ae-045cd379aefe",
+  "thema": "VL5 Formale Sprachen",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "hinweis": "Vor der Vorlesung vorbereitet (09.11.2026) aus den Folien und dem Arbeitsblatt. Lösungen der Folienaufgaben teils selbst erarbeitet (⚠) – nach der VL abgleichen.",
+  "quellen": [
+    {
+      "datei": "mab004.1/Sitzung_05/mab004-V5.pdf",
+      "art": "Folien",
+      "seiten": "1–44"
+    },
+    {
+      "datei": "mab004.1/Sitzung_05/Begriffe zu Syntax und Semantik.pdf",
+      "art": "Arbeitsblatt",
+      "seiten": "1–2"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Die Bestandteile einer natürlichen und einer formalen Sprache (Alphabet, Wortmenge, Sprache, Syntax, Semantik, Kontext und Mehrdeutigkeit) erklären und zuordnen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 14–29, Arbeitsblatt",
+      "fragen": [
+        "f04",
+        "f05",
+        "f06",
+        "f07",
+        "f11",
+        "f12"
+      ],
+      "erklaerung_abschnitt": "Formale Sprachen: Alphabet, Wortmenge, Sprache"
+    },
+    {
+      "text": "Syntaxfehler, Semantikfehler und logische Fehler unterscheiden und Beispiele aus Mathematik und Excel einordnen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 30–42",
+      "fragen": [
+        "f08",
+        "f09",
+        "f10",
+        "f13",
+        "f14",
+        "f16",
+        "f18"
+      ],
+      "erklaerung_abschnitt": "Syntaxfehler und Semantikfehler"
+    },
+    {
+      "text": "Beschreiben, wie ein Programm vom Quellcode in Maschinencode übersetzt wird (lexikalische, syntaktische, semantische Analyse).",
+      "art": "abgeleitet",
+      "quelle": "Folie 41–43",
+      "fragen": [
+        "f15",
+        "f16"
+      ],
+      "erklaerung_abschnitt": "Syntax und Semantik in Programmiersprachen"
+    },
+    {
+      "text": "Excel-Inhalte aus VL 4 wiederholen: Formatieren vs. Runden, ABS, \\$, WENN; Excel-Simulationen im Unterricht einordnen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 2–9",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03",
+        "f17"
+      ],
+      "erklaerung_abschnitt": "Wiederholung: Formatieren, Runden, ABS, \\$ und WENN"
+    }
+  ],
+  "kurzfassung": [
+    "Damit eine Zeichenfolge interpretiert werden kann, müssen die Zeichen bekannt sein, die Regeln eingehalten werden und die Zeichenfolge eine Bedeutung haben (Folie 12).",
+    "Formale Sprache: Alphabet $A$ (Zeichen) → Wortmenge $A^*$ (alle Zeichenfolgen) → Sprache $L \\subseteq A^*$ (nur regelgerechte Wörter).",
+    "Syntax = Regeln der Schreibweise (Bedeutung unerheblich); Semantik = Bedeutung und Sinnzusammenhang.",
+    "Syntaxfehler: Schreibweise nicht definiert (fehlende Klammer, `=Summe(`). Semantikfehler: richtig geschrieben, aber nicht auswertbar (Division durch 0, arcsin(2), #WERT!).",
+    "Logische Fehler (inhaltlich falsche Aussagen) sind weder Syntax- noch Semantikfehler – kein Computer findet sie beim Übersetzen.",
+    "Mehrdeutigkeit gibt es in natürlichen Sprachen, in formalen Sprachen darf es sie nicht geben."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Hinweis zur Sitzung",
+      "folien": "1",
+      "text": "Diese Sitzung ist **vor der Vorlesung vorbereitet** (aus den Folien „mab004-V5.pdf“, 44 Folien, und dem Arbeitsblatt „Begriffe zu Syntax und Semantik“). Lösungen der Folienaufgaben sind teils **selbst erarbeitet** (⚠ markiert) – in der VL mit den Antworten der Dozentin vergleichen.\n\nDie Folien tragen noch das Datum **11.11.2025 / Wintersemester 2025/26** (Vorjahresfassung)."
+    },
+    {
+      "titel": "Wiederholung: Formatieren, Runden, ABS, \\$ und WENN",
+      "folien": "2–7",
+      "text": "**Formatieren vs. Runden (Folie 3):** *„Formatieren: Die Zahl wird auf zwei Nachkommastellen gerundet dargestellt! Intern wird aber mit einem genaueren Wert (Mantissenlänge 15) weitergerechnet. Runden mit der RUNDEN-Funktion: Auch intern wird mit nur zwei Nachkommastellen weitergerechnet.“*\n\nDie „Mantissenlänge 15“ ist genau das $l$ aus VL 2/3: Excel speichert Zahlen als Fließkommazahlen mit 15 Stellen.\n\n{{aufgabe a01}}\n\n{{aufgabe a02}}\n\n**Kurz erklärt:** Diese Folien wiederholen VL 4 und Blatt 5 – das sind typische Klausurfragen: Ergebnis einer Formel angeben, Fehler finden und begründen, Wirkung in eigenen Worten beschreiben."
+    },
+    {
+      "titel": "Excel im Unterricht: Würfelsimulation und Zahlenmauern",
+      "folien": "8–9",
+      "text": "![Folie 8: Simulation eines einstufigen Zufallsexperiments – Würfeln mit einem Würfel (neuer Wurf mit F9)](/dateien/mab004/mab004.1_S05_VL5_01_Folie8_Wuerfelsimulation.png)\n\n**Folie 8:** Excel würfelt (Zufallszahl 1–6), zählt mit, wie oft jede Zahl fällt (absolute und relative Häufigkeit), und zeigt Kreis- und Säulendiagramm. Mit der Taste **F9** wird neu gewürfelt; in C7 zählt ein „Zähler“ die Würfe. Quelle laut Folie: *Rink, R.: „Excel & Co. – ‚Erst mit der Hand, dann mit dem Computer‘“, in: Schreiber/Rink/Ladel (Hrsg.) (2017): Digitale Medien im Mathematikunterricht der Primarstufe, WTM Verlag.*\n\n![Folie 9: Zahlenmauern und Datei – Optionen – Formeln: Berechnung „Manuell“, iterative Berechnung aktiviert](/dateien/mab004/mab004.1_S05_VL5_02_Folie9_Zahlenmauern-Optionen.png)\n\n**Folie 9:** Eine Datei mit **Zahlenmauern** (aus derselben Quelle) und der Weg **Datei – Optionen – Formeln**: Dort ist die Arbeitsmappenberechnung auf **„Manuell“** gestellt (roter Pfeil) und **„Iterative Berechnung aktivieren“** angehakt (maximale Iterationszahl 1).\n\n**Kurz erklärt** ⚠ *(Deutung, Ergänzung)*: Bei „Manuell“ rechnet Excel erst neu, wenn man **F9** drückt – so ändert sich der Würfel nicht bei jeder Eingabe, sondern nur auf Knopfdruck. Die **iterative Berechnung** erlaubt eine Formel, die sich auf sich selbst bezieht (Zirkelbezug) – so kann ein Zähler bei jedem F9 um 1 hochzählen. Ohne diese Einstellung meldet Excel einen Zirkelbezug-Fehler.\n\n**Für den Unterricht:** Erst mit der Hand würfeln und zählen, dann mit dem Computer viele Würfe simulieren – so sehen Kinder, dass sich die relativen Häufigkeiten bei vielen Würfen um $\\frac{1}{6} \\approx 16{,}7\\,\\%$ einpendeln."
+    },
+    {
+      "titel": "Syntax und Semantik – warum eine Formel „verstanden“ wird",
+      "folien": "10–13",
+      "text": "**Folie 11:** $(a + b) \\cdot (a - b) = a^2 - b^2$ – die 3. binomische Formel (richtig).\n\n**Folie 12:** $(a + b) \\cdot (a - b) = a^2 + b^2\\ ?$ – um diese Aussage überhaupt beurteilen zu können, braucht man: *„Interpretation setzt voraus: $a, b \\in \\mathbb{R}$ – 1. Zeichen bekannt 2. Zeichenfolge folgt Regeln 3. Zeichenfolge hat eine Bedeutung“*.\n\n**Folie 13:** *„Ist das nur ein Problem der Sprache der Mathematik?“* – der Satz *„Aüch die ntrliche sprache!muss an besrimte Regeln halten sich?.,“* hat bekannte Zeichen, verletzt aber die Regeln – *„Trotzdem verstehen wir den Sinn! Könnte ein Computer das auch?“*\n\n**Kurz erklärt:** Die drei Bedingungen aus Folie 12 sind der rote Faden der ganzen Vorlesung: **1. Zeichen bekannt** = Alphabet, **2. Regeln eingehalten** = Syntax, **3. Bedeutung** = Semantik. Menschen können Regelverstöße oft „wegdenken“, ein Computer nicht – er braucht eine **formale Sprache** ohne Fehler und ohne Mehrdeutigkeit.\n\n**Typische Klausurfrage:** „Welche Voraussetzungen müssen erfüllt sein, damit eine Zeichenfolge interpretiert werden kann?“ → die drei Punkte von Folie 12."
+    },
+    {
+      "titel": "Natürliche Sprachen",
+      "folien": "14–21",
+      "text": "Eine natürliche Sprache (z. B. Deutsch) ist gekennzeichnet durch:\n\n- **Alphabet:** die Grundmenge aller Zeichen (Buchstaben).\n- **Wortmenge:** alle Wörter, die man aus dem Alphabet bilden *kann* – auch sinnlose wie „xqzt“.\n- **Sprache:** die Teilmenge der Wortmenge, deren Wörter und Sätze den Regeln folgen.\n- **Syntax (Grammatik):** Regeln, welche Wörter dazugehören und wie man sie zu Sätzen verbindet – *„Die Bedeutung der Wörter oder des Satzes ist dabei unerheblich!“* (Folie 18).\n- **Semantik:** gibt den Wörtern eine **Bedeutung** und legt Sinnzusammenhänge fest.\n- **Kontext und Mehrdeutigkeit:** *„Syntaktisch und semantisch korrekte Formulierungen können dennoch unterschiedlich ausgelegt werden. Witze basieren häufig auf Mehrdeutigkeit.“* (Folie 20)\n\n{{aufgabe a03}}\n\n{{aufgabe a04}}\n\n**Kurz erklärt:** Man kann es sich wie Stufen vorstellen: Alphabet (Bausteine) → Wortmenge (alles Mögliche) → Sprache (nur das Regelgerechte). Syntax prüft die *Form*, Semantik den *Sinn*. Ein Satz wie „Grüne Ideen schlafen wütend“ ist grammatisch richtig (Syntax ok), aber sinnlos (Semantik nicht ok) *(Beispiel ergänzt)*."
+    },
+    {
+      "titel": "Formale Sprachen: Alphabet, Wortmenge, Sprache",
+      "folien": "22–29",
+      "text": "Eine **formale Sprache** ist eine künstlich festgelegte Sprache, z. B. die Schreibweise von Zahlen, die Sprache der Mathematik, Excel-Formeln oder Programmiersprachen.\n\n- **Alphabet $A$:** *„Eine nichtleere Menge $A$. Die Elemente eines Alphabets heißen Buchstaben oder Zeichen.“* Beispiele (Folie 24): $A_{röm} = \\{I, V, X, L, C, D, M\\}$, $A_{10} = \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\\}$.\n- **Wortmenge $A^*$** (sprich: „A Stern“): *„Menge aller Zeichenfolgen bzw. Wörter, die aus dem zur Sprache gehörenden Alphabet gebildet werden können.“* Beispiele (Folie 26): $A^*_{röm} = \\{XXXXX, XLI, IIIV, XVV, LM, XC, DD, IIXM, \\ldots\\}$ – darunter auch Unsinn wie IIIV.\n- **Formale Sprache $L$:** *„Teilmenge $L$ der Wortmenge $A^*$.“* Nur die regelgerechten Wörter, z. B. $L_{röm} = \\{III, IV, XV, MCM, XXII, \\ldots\\}$ und $L_{10} = \\{1, 2, 3, 55, 11121, \\ldots\\}$ (Folie 29).\n- **Syntax:** *„Legt spezielle Regeln fest, welche Elemente in L liegen.“* – auch hier ist die Bedeutung unerheblich (Folie 28).\n\n**Kurz erklärt:** $L \\subseteq A^* $ – die Sprache ist immer nur ein Teil aller möglichen Zeichenketten. Bei römischen Zahlen ist „XLI“ (41) in $L$, „IIIV“ dagegen nur in $A^*$, weil es gegen die Regeln verstößt. Bei Dezimalzahlen ist „0000001“ in $A^*_{10}$, aber nicht in $L_{10}$ (keine führenden Nullen).\n\n**Prüfungsfalle:** Wortmenge ≠ Sprache. Die Wortmenge enthält **alle** Kombinationen, die Sprache nur die **erlaubten**."
+    },
+    {
+      "titel": "Syntaxfehler und Semantikfehler",
+      "folien": "30–38",
+      "text": "> **Syntaxfehler** (Arbeitsblatt): *„… bedeutet, dass ein von der Schreibweise her nicht definierter Ausdruck eingegeben wurde.“* Beispiele (Folie 32): *„fehlende geschlossene Klammer · Buchstaben innerhalb einer Zahl · zwei Rechenoperatoren nebeneinander · u. ä.“*\n\n> **Semantikfehler** (Folie 36): *„Semantikfehler entstehen, wenn ein Ausdruck nicht interpretiert werden kann. In der Sprache der Mathematik bedeutet das, dass zwar eine verständliche Rechenanweisung gegeben wurde, diese aber kein Ergebnis liefert.“* Beispiele: *„Division durch Null, arcsin(2), Quadratwurzel aus einer negativen Zahl innerhalb der reellen Zahlen, Variable nicht definiert und damit nicht bekannt, u. ä.“*\n\n**Mehrdeutigkeit** (Folie 37) darf es in formalen Sprachen nicht geben.\n\n{{aufgabe a06}}\n\n{{aufgabe a07}}\n\n**Kurz erklärt – drei Prüfungen nacheinander:**\n1. **Syntax:** Ist es richtig *geschrieben*? (Klammern, Zeichen, Reihenfolge)\n2. **Semantik:** Kann man es *auswerten*? (alle Variablen bekannt, keine verbotene Rechnung wie $\\frac{5}{0}$ oder $\\sqrt{-4}$ in $\\mathbb{R}$)\n3. **Inhalt:** Ist die Aussage *wahr*? – Das ist keine Frage von Syntax oder Semantik (Folie 42: logischer Fehler).\n\n**Prüfungsfalle:** $\\arcsin(2)$ ist ein Semantikfehler, kein Syntaxfehler – richtig geschrieben, aber der Sinus wird nie 2, also gibt es kein Ergebnis."
+    },
+    {
+      "titel": "Beispiel Excel: Syntax- oder Semantikfehler?",
+      "folien": "39–40",
+      "text": "**Folie 39 – Excel als formale Sprache:** *Alphabet:* Menge gültiger Zeichen $A_{Excel} = \\{3, =, :, A, \\ldots\\}$ · *Formale Sprache:* $L = \\{$`=Runden()`, `A12`, …$\\}$ · *Syntax:* Regeln, wie Wörter verknüpft werden – `=Summe(A2;B3)`, aber **nicht** `=Summe(A2,B3)` · *Semantik:* *„Nur syntaktisch richtige Anweisungen können entsprechend ihrer Definition interpretiert werden.“* · *Kontext und Mehrdeutigkeit:* *„Darf es in formalen Sprachen nicht geben.“* · Beispiel: `=A1/0` *„ist auch in Excel nicht definiert, es folgt ein Semantikfehler.“*\n\n{{aufgabe a08}}\n\n**Kurz erklärt:** In Excel erkennst du den Unterschied so: Bei einem **Syntaxfehler** nimmt Excel die Eingabe gar nicht an (Fehlerfenster). Bei einem **Semantikfehler** steht nach Enter eine Fehlermeldung *in der Zelle* (#DIV/0!, #WERT!, #NAME? – siehe Fehlertabelle aus VL 4).\n\n**Prüfungsfalle:** Im deutschen Excel trennt das **Semikolon** die Argumente, das Komma ist das Dezimalzeichen – `=Summe(A2,B3)` ist deshalb falsch."
+    },
+    {
+      "titel": "Syntax und Semantik in Programmiersprachen",
+      "folien": "41–43",
+      "text": "*„Mithilfe einer Programmiersprache werden Computer angewiesen aus Eingabedaten die Ausgabedaten zu generieren.“* Beispiele: Java, Pascal, Basic, **VBA** (kommt ab Woche 9), C++.\n\n![Folie 42: vom Quellcode zum Maschinencode](/dateien/mab004/mab004.1_S05_VL5_04_Folie42_Uebersetzung-Programm.png)\n\n**Vom Quellcode zum Maschinencode (Folie 42):**\n1. **Quellcode** – das geschriebene Programm (z. B. `for (int i = 1; i < 5; i++) summe = summe + i;`).\n2. **Lexikalische Analyse** – *„Der Quelltext wird in seine Bestandteile zerlegt.“*\n3. **Syntaktische Analyse** – *„Ist die Abfolge der erkannten Wörter in Ordnung?“*\n4. **Semantische Analyse** – *„Passen die Programmteile sinnvoll zusammen?“*\n5. **Maschinencode-Erzeugung** – *„Das Programm wird in Maschinensprache umgesetzt.“* → Maschinencode (0 und 1).\n\nKasten auf Folie 42: *„Es geht nicht um inhaltliche Fehler (logische Fehler). Der folgende Ausdruck ist für $a, b \\in \\mathbb{R}$ syntaktisch und semantisch korrekt. Auch wenn die Aussage an sich falsch ist!“* $(a + b) \\cdot (a - b) = a^2 + b^2\\ ?$\n\n**Beispiele (Folie 43):** Erkennung einer gültigen E-Mail-Adresse; Verarbeitung arithmetischer Ausdrücke durch ein CAS (Computer-Algebra-System), z. B. $\\sin(3x + 5y \\cdot e^x)$. *„Nur syntaktisch und semantisch korrekte Eingaben können von einer Maschine verarbeitet werden!“*\n\n**Kurz erklärt:** Ein Programm wird wie ein Satz geprüft – erst in Wörter zerlegt, dann auf Grammatik (Syntax), dann auf Sinn (Semantik) – und erst danach in Nullen und Einsen übersetzt. Einen **logischen Fehler** findet dabei niemand: Das Programm läuft, rechnet aber Falsches. Beispiel E-Mail: „name@uni-vechta.de“ ist syntaktisch gültig, „name@@uni“ nicht *(Beispiel ergänzt)*.\n\n**Typische Klausurfrage:** „Unterscheiden Sie Syntaxfehler, Semantikfehler und logische Fehler an je einem Beispiel.“"
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Alphabet",
+      "wortlaut": "Eine nichtleere Menge $A$. Die Elemente eines Alphabets heißen Buchstaben oder Zeichen. (natürliche Sprache: Grundmenge aller Zeichen, aus denen Wörter gebildet werden können. Ihre Elemente heißen Buchstaben.)",
+      "erklaerung": "Der „Zeichenvorrat“, z. B. $A_{10} = \\{0, \\ldots, 9\\}$ oder $A_{röm} = \\{I, V, X, L, C, D, M\\}$.",
+      "folie": "Arbeitsblatt; Folie 23–24"
+    },
+    {
+      "begriff": "Wortmenge $A^*$",
+      "wortlaut": "Menge aller Zeichenfolgen bzw. Wörter, die aus dem zur Sprache gehörenden Alphabet gebildet werden können.",
+      "erklaerung": "Alle denkbaren Zeichenketten, auch unsinnige (IIIV, 0000001).",
+      "folie": "Arbeitsblatt; Folie 25–26"
+    },
+    {
+      "begriff": "Formale Sprache $L$",
+      "wortlaut": "Teilmenge $L$ der Wortmenge $A^*$. Die Elemente (Wörter) der formalen Sprache folgen syntaktischen und semantischen Regeln der formalen Sprache.",
+      "erklaerung": "Nur die regelgerechten Wörter, z. B. $L_{röm} = \\{III, IV, XV, \\ldots\\}$.",
+      "folie": "Arbeitsblatt; Folie 27, 29"
+    },
+    {
+      "begriff": "Syntax",
+      "wortlaut": "Legt spezielle Regeln fest, welche Elemente in L liegen. (natürliche Sprache: … welche Wörter zur Sprache gehören und wie Wörter zu verknüpfen sind …) Die Bedeutung der Wörter oder des Satzes ist dabei unerheblich!",
+      "erklaerung": "Die „Grammatik“ – prüft nur die Schreibweise.",
+      "folie": "Arbeitsblatt; Folie 18, 28"
+    },
+    {
+      "begriff": "Semantik",
+      "wortlaut": "Weist Wörtern eine Bedeutung zu und definiert die Sinnzusammenhänge, nach deren Regeln die Bausteine der Sprache verknüpft werden müssen, um verwertbare Informationen zu beschreiben.",
+      "erklaerung": "Der „Sinn“ – kann man dem Ausdruck eine Bedeutung geben und ihn auswerten?",
+      "folie": "Arbeitsblatt; Folie 19, 33"
+    },
+    {
+      "begriff": "Kontext und Mehrdeutigkeit",
+      "wortlaut": "Syntaktisch und semantisch korrekte Formulierungen können dennoch unterschiedlich ausgelegt werden. – Sollte es in einer formalen Sprache nicht geben!",
+      "erklaerung": "In natürlicher Sprache normal (Witze, „treffen“), in formalen Sprachen verboten.",
+      "folie": "Arbeitsblatt; Folie 20, 37, 39"
+    },
+    {
+      "begriff": "Syntaxfehler",
+      "wortlaut": "Syntaxfehler bedeutet, dass ein von der Schreibweise her nicht definierter Ausdruck eingegeben wurde.",
+      "erklaerung": "z. B. fehlende Klammer, Buchstabe in einer Zahl, zwei Rechenzeichen nebeneinander, `=Summe(`.",
+      "folie": "Arbeitsblatt; Folie 32"
+    },
+    {
+      "begriff": "Semantikfehler",
+      "wortlaut": "Semantikfehler entstehen, wenn ein Ausdruck nicht interpretiert werden kann. In der Sprache der Mathematik bedeutet das, dass zwar eine verständliche Rechenanweisung gegeben wurde, diese aber kein Ergebnis liefert.",
+      "erklaerung": "z. B. Division durch 0, arcsin(2), $\\sqrt{-4}$ in $\\mathbb{R}$, nicht definierte Variable; in Excel #DIV/0!, #WERT!.",
+      "folie": "Arbeitsblatt; Folie 36"
+    },
+    {
+      "begriff": "Logischer Fehler",
+      "wortlaut": "Es geht nicht um inhaltliche Fehler (logische Fehler). Der folgende Ausdruck ist für a, b ∈ ℝ syntaktisch und semantisch korrekt. Auch wenn die Aussage an sich falsch ist!",
+      "erklaerung": "Richtig geschrieben und auswertbar, aber inhaltlich falsch, z. B. $(a + b)(a - b) = a^2 + b^2$.",
+      "folie": "Folie 42"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 4–5",
+      "text": "(Bild: Notentabelle aus VL 4, in E14 steht `=ABS(C14-$C$17)`, C13 Manuel 1, C14 Kathrin 2, C17 Durchschnittsnote 3,1)\n1. *„Was wird in Zelle E14 stehen?“*\n2. *„Was erscheint in der Zelle, wenn der Befehl =ABS(C13-C17) lauten würde?“*\n3. *„Was wird mit der Funktion ABS(Zahl) berechnet?“*\n4. *„Was bewirkt das Dollarzeichen?“*",
+      "loesung": "1. In E14 steht das Ergebnis $|2 - 3{,}1| = |-1{,}1| =$ **1,1** (Abstand von Kathrins Note zur Durchschnittsnote).\n2. `=ABS(C13-C17)` rechnet mit **Manuels** Note: $|1 - 3{,}1| =$ **2,1**. ⚠ Falls gemeint ist, dass diese Formel ohne \\$ nach unten kopiert wird: Dann würde aus C17 in der nächsten Zeile C18 (leer = 0) – falsche Werte ohne Fehlermeldung.\n3. Den **Betrag** (Absolutwert): die Zahl ohne Vorzeichen, also immer ≥ 0, z. B. $|-1{,}1| = 1{,}1$.\n4. Es hält Spalte bzw. Zeile beim Kopieren **fest** (absoluter Bezug): `$C$17` bleibt `$C$17`, während `C14` mitwandert.",
+      "loesungsweg": "Wiederholung VL 4, Teil 8 (S. 8)."
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 6–7",
+      "text": "*„In Zelle E5 ist folgende Formel eingetragen: =WENN(B2=1; \"Sehr gut\";WENN(B2=2; \"gut\";WENN(B2=3;befriedigend;WENN(B2=4; \"ausreichend\")))) 1. Finden Sie den Fehler in dieser Formel. Wie können Sie diesen beheben? Begründen Sie! 2. Beschreiben Sie die Auswirkung der korrigierten Formel mit eigenen Worten: Wenn in der Zelle B2 der Wert 1 steht, dann…“*",
+      "loesung": "1. Bei *befriedigend* fehlen die **Anführungszeichen**. Text muss in Excel in „…“ stehen; ohne sie sucht Excel einen Zellnamen „befriedigend“, den es nicht gibt → **#NAME?**. Behebung: `\"befriedigend\"` (Folie 7 zeigt die korrigierte Formel).\n2. Wenn in B2 der Wert 1 steht, dann erscheint in E5 „Sehr gut“. Sonst wird geprüft, ob 2 drinsteht – dann „gut“; sonst ob 3 – dann „befriedigend“; sonst ob 4 – dann „ausreichend“. Steht etwas anderes in B2 (z. B. 5 oder 6), fehlt ein Sonst-Wert, und Excel zeigt **FALSCH**.",
+      "loesungsweg": "Wiederholung VL 4, S. 9 (Blatt 5, Ü2)."
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 14–20, Arbeitsblatt „Begriffe zu Syntax und Semantik“ S. 1",
+      "text": "*„Ordnen Sie die Begriffe auf dem Arbeitsblatt Natürliche Sprachen zu: Alphabet · Wortmenge · Syntax (Grammatik) · Semantik · Sprache · Kontext und Mehrdeutigkeit“*",
+      "loesung": "| Begriff | Beschreibung auf dem Arbeitsblatt |\n|---|---|\n| **Sprache** | Teilmenge der Wortmenge. Die Elemente (Wörter und Sätze) folgen syntaktischen und semantischen Regeln der Sprache. |\n| **Semantik** | Weist Wörtern eine Bedeutung zu und definiert die Sinnzusammenhänge … |\n| **Alphabet** | Grundmenge aller Zeichen, aus denen Wörter gebildet werden können. Ihre Elemente heißen Buchstaben. |\n| **Kontext und Mehrdeutigkeit** | Syntaktisch und semantisch korrekte Formulierungen können dennoch unterschiedlich ausgelegt werden. |\n| **Wortmenge** | Die Menge aller Wörter, die aus dem zur Sprache gehörenden Alphabet gebildet werden können. |\n| **Syntax (Grammatik)** | Legt spezielle Regeln fest, welche Wörter zur Sprache gehören und wie Wörter zu verknüpfen sind … |\n\n(Reihenfolge wie auf dem Arbeitsblatt von oben nach unten. „Kontext und Mehrdeutigkeit“ ist durch Folie 20 bestätigt; die übrigen Zuordnungen selbst erarbeitet – in der VL mitschreiben.)",
+      "loesungsweg": "Schlüsselwörter: „Teilmenge der Wortmenge“ → Sprache; „Bedeutung“ → Semantik; „Grundmenge aller Zeichen“ → Alphabet; „alle Wörter … gebildet“ → Wortmenge; „Regeln … verknüpfen“ → Syntax."
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 21",
+      "text": "Deutsch: *„Der Jäger trifft das Reh. / Der Jäger trifft den Jäger. / Der Schütze trifft das Ziel. / Der Schütze trifft den Jäger.“* – Google-Übersetzer: *„The hunter takes the deer. / The hunter meets the hunter. / The shooter hits the target. / The shooter hits the hunter. ?“* (Was fällt auf?)",
+      "loesung": "„treffen“ ist **mehrdeutig**: *begegnen* (meet) oder *mit einem Schuss treffen* (hit). Der Übersetzer entscheidet aus dem **Kontext** – „Jäger trifft Jäger“ wird zu „meets“, „Schütze trifft Jäger“ zu „hits“. Beim letzten Satz ist unklar, was gemeint ist (das „?“): Ein Mensch würde nachfragen oder aus der Situation schließen, ein Programm muss raten. *(selbst erarbeitet)*",
+      "loesungsweg": "Beispiel zu „Kontext und Mehrdeutigkeit“ – in natürlichen Sprachen normal, in formalen Sprachen verboten."
+    },
+    {
+      "id": "a05",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 22–36, Arbeitsblatt S. 2",
+      "text": "*„Ordnen Sie die folgenden Begriffe den Lücken auf dem Arbeitsblatt Formale Sprachen zu: Alphabet · Wortmenge · Syntax · Semantik · Sprache · Kontext und Mehrdeutigkeit · Syntaxfehler · Semantikfehler“*",
+      "loesung": "| Begriff | Beschreibung auf dem Arbeitsblatt |\n|---|---|\n| **Syntax** | Legt spezielle Regeln fest, welche Elemente in L liegen. |\n| **Wortmenge** $A^*$ | Menge aller Zeichenfolgen bzw. Wörter, die aus dem zur Sprache gehörenden Alphabet gebildet werden können. |\n| **Kontext und Mehrdeutigkeit** | Sollte es in einer formalen Sprache nicht geben! |\n| **Semantik** | Weist Wörtern eine Bedeutung zu und definiert die Sinnzusammenhänge … |\n| **(formale) Sprache** $L$ | Teilmenge $L$ der Wortmenge $A^*$. Die Elemente (Wörter) der formalen Sprache folgen syntaktischen und semantischen Regeln der formalen Sprache. |\n| **Alphabet** $A$ | Eine nichtleere Menge $A$. Die Elemente eines Alphabets heißen Buchstaben oder Zeichen. |\n\nLücken unten: ***Syntaxfehler*** *bedeutet, dass ein von der Schreibweise her nicht definierter Ausdruck eingegeben wurde.* – ***Semantikfehler*** *entstehen, wenn ein Ausdruck nicht interpretiert werden kann.* (Semantikfehler wörtlich Folie 36; „Kontext und Mehrdeutigkeit … darf es in formalen Sprachen nicht geben“ Folie 39.)",
+      "loesungsweg": "Wie beim Arbeitsblatt Natürliche Sprachen; neu sind die Zeichen $A$, $A^*$ und $L$ und die beiden Fehlerarten."
+    },
+    {
+      "id": "a06",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 30–31, 34–35",
+      "text": "*„Syntaktisch korrekt?“* (Folie 30) $(a + b) \\cdot (a - b) = a^2 + 2ab + b^2$ – (Folie 31) $(a + b) \\cdot (a - b = a^2 - b^2$ – *„Semantisch korrekt? Kann die Aussage interpretiert werden?“* (Folie 34) $(a + b) \\cdot (a - b) = a^2 + 2ab + b^2$ mit $a, b \\in \\mathbb{R}$ – (Folie 35) $x^2 - x = 0$",
+      "loesung": "- **Folie 30:** syntaktisch **korrekt** – alle Zeichen bekannt, Klammern vollständig, Rechenzeichen richtig gesetzt. (Dass die Gleichung *falsch* ist, spielt für die Syntax keine Rolle.)\n- **Folie 31:** syntaktisch **nicht korrekt** – nach $(a - b$ fehlt die schließende Klammer → **Syntaxfehler**.\n- **Folie 34:** semantisch **korrekt** – mit $a, b \\in \\mathbb{R}$ hat jedes Zeichen eine Bedeutung, die Aussage kann interpretiert werden. Sie ist nur inhaltlich **falsch** (richtig wäre $a^2 - b^2$): ein *logischer Fehler*, kein Semantikfehler (Folie 42).\n- **Folie 35:** ⚠ Ohne Angabe, welche Zahlen $x$ sein darf, ist $x$ **nicht definiert** – nach Folie 36 („Variable nicht definiert und damit nicht bekannt“) kann die Aussage so nicht interpretiert werden. Mit z. B. $x \\in \\mathbb{R}$ wäre es eine sinnvolle Gleichung (Lösungen $x = 0$ und $x = 1$). *(Deutung selbst erarbeitet – in der VL auf die Antwort achten)*",
+      "loesungsweg": "Syntax: nur Schreibweise prüfen. Semantik: Kann man dem Ausdruck eine Bedeutung geben (alle Variablen definiert, Rechnung ausführbar)? Wahr/falsch ist eine dritte Frage."
+    },
+    {
+      "id": "a07",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 38",
+      "text": "*„Jetzt sind Sie dran… Syntax- oder Semantikfehler?“* $23 \\cdot 0 = 12$ – $\\forall a \\in \\mathbb{N}\\ \\exists b \\in \\mathbb{N}: 12a - 6b4 = 120$",
+      "loesung": "- $23 \\cdot 0 = 12$: ⚠ **keins von beiden** – die Schreibweise stimmt (kein Syntaxfehler), und der Ausdruck lässt sich interpretieren (kein Semantikfehler). Die Aussage ist nur **falsch** ($23 \\cdot 0 = 0$), also ein logischer/inhaltlicher Fehler (vgl. Folie 42). Falls die Uni nur zwischen den beiden Fehlern unterscheiden lässt, wäre „Semantik“ die naheliegende Wahl – bitte in der VL klären.\n- $\\forall a \\in \\mathbb{N}\\ \\exists b \\in \\mathbb{N}: 12a - 6b4 = 120$: **Syntaxfehler** – in „6b4“ steht ein Buchstabe mitten in einer Zahl bzw. fehlt ein Rechenzeichen zwischen $b$ und $4$ (Folie 32: „Buchstaben innerhalb einer Zahl“). Lesehilfe: $\\forall$ = „für alle“, $\\exists$ = „es gibt“.",
+      "loesungsweg": "Erst Schreibweise prüfen (Syntax), dann Interpretierbarkeit (Semantik), zuletzt wahr/falsch."
+    },
+    {
+      "id": "a08",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 40",
+      "text": "*„Syntax- oder Semantikfehler? In Zelle D1 wird eingegeben: 1. =A5+A1 2. =9:2 3. =Summe( 4. =C1+C2 5. =C1/B2 6. =A2=A1“* (Tabelle: A1 17, B1 Acht, C1 =A1, A2 6, C2 =B1)",
+      "loesung": "![Folie 40: die Tabelle zur Aufgabe](/dateien/mab004/mab004.1_S05_VL5_03_Folie40_Excel-Syntax-oder-Semantik.png)\n\nWerte: C1 zeigt 17, C2 zeigt den Text „Acht“, B2 und A5 sind leer.\n\n| Eingabe in D1 | Ergebnis | Einordnung |\n|---|---|---|\n| `=A5+A1` | 17 (leere Zelle zählt als 0) | **kein Fehler** |\n| `=9:2` | #WERT! | ⚠ **Semantikfehler** in Excel: `9:2` ist dort ein *Bereich* (Zeilen 2 bis 9) und kein Rechenausdruck – die Schreibweise ist erlaubt, aber kein Zahlenwert. Mathematisch gedacht („9 geteilt durch 2“) wäre es ein **Syntaxfehler**, weil Excel `/` und nicht `:` für die Division benutzt. |\n| `=Summe(` | Excel meldet ein Problem mit der Formel | **Syntaxfehler** (schließende Klammer fehlt) |\n| `=C1+C2` | #WERT! | **Semantikfehler** (17 + Text „Acht“ lässt sich nicht berechnen) |\n| `=C1/B2` | #DIV/0! | **Semantikfehler** (B2 leer → Division durch 0) |\n| `=A2=A1` | FALSCH | **kein Fehler** – Vergleich „ist 6 gleich 17?“ |",
+      "loesungsweg": "Syntaxfehler: Excel nimmt die Formel gar nicht an. Semantikfehler: Excel nimmt sie an, kann sie aber nicht auswerten (#WERT!, #DIV/0!, #NAME? …). ⚠ Zeile 2 hängt davon ab, ob man ‚9:2‘ als Excel-Bereich oder als gemeinte Division liest."
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Was ist der Unterschied zwischen Formatieren und Runden mit der RUNDEN-Funktion in Excel?",
+      "antwort": "Formatieren zeigt die Zahl nur gerundet an, intern wird mit dem genaueren Wert (Mantissenlänge 15) weitergerechnet. Mit RUNDEN wird auch intern nur mit den gerundeten Stellen weitergerechnet.",
+      "erklaerung": "Folie 3.",
+      "folie": "3",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "In E14 steht `=ABS(C14-$C$17)`, C14 = 2, C17 = 3,1. Was steht in E14, und was bewirkt das \\$?",
+      "musterloesung": "1,1 ($|2 - 3{,}1|$). Das \\$ hält Spalte und Zeile beim Kopieren fest, C17 bleibt also beim Kopieren erhalten.",
+      "bewertungspunkte": [
+        "1,1",
+        "Betrag erklärt",
+        "$ = fester Bezug"
+      ],
+      "punkte": 3,
+      "erklaerung": "Folie 4–5.",
+      "folie": "4–5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "aufgabe",
+      "format": "frage",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Welcher Fehler steckt in `=WENN(B2=1;\"Sehr gut\";WENN(B2=2;\"gut\";WENN(B2=3;befriedigend;WENN(B2=4;\"ausreichend\"))))` und wie behebt man ihn?",
+      "antwort": "Bei befriedigend fehlen die Anführungszeichen (Text) – Excel zeigt #NAME?. Behebung: \"befriedigend\".",
+      "erklaerung": "Folie 6–7.",
+      "folie": "6–7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche drei Voraussetzungen nennt die Vorlesung dafür, dass eine Zeichenfolge interpretiert werden kann?",
+      "antwort": "1. Zeichen bekannt, 2. Zeichenfolge folgt Regeln, 3. Zeichenfolge hat eine Bedeutung.",
+      "erklaerung": "Folie 12.",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Beschreibungen den Begriffen zu (formale Sprache).",
+      "kategorien": [
+        "Alphabet",
+        "Wortmenge",
+        "Sprache",
+        "Syntax",
+        "Semantik"
+      ],
+      "elemente": [
+        {
+          "text": "eine nichtleere Menge A, deren Elemente Zeichen heißen",
+          "kategorie": "Alphabet"
+        },
+        {
+          "text": "Menge aller Zeichenfolgen aus dem Alphabet",
+          "kategorie": "Wortmenge"
+        },
+        {
+          "text": "Teilmenge L der Wortmenge A*",
+          "kategorie": "Sprache"
+        },
+        {
+          "text": "legt Regeln fest, welche Elemente in L liegen",
+          "kategorie": "Syntax"
+        },
+        {
+          "text": "weist Wörtern eine Bedeutung zu",
+          "kategorie": "Semantik"
+        }
+      ],
+      "erklaerung": "Arbeitsblatt S. 2.",
+      "folie": "22–33",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Die Elemente eines [[Alphabets]] heißen Buchstaben oder Zeichen.",
+      "erklaerung": "Arbeitsblatt.",
+      "folie": "23",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen über $A^*$ und $L$ stimmen? (mehrere richtig)",
+      "optionen": [
+        "$L$ ist eine Teilmenge von $A^*$.",
+        "„IIIV“ liegt in $A^*_{röm}$, aber nicht in $L_{röm}$.",
+        "Jedes Wort aus $A^*$ gehört zur Sprache $L$.",
+        "$A^*$ enthält alle Zeichenfolgen, die man aus dem Alphabet bilden kann."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 25–29: L ⊆ A*; nur regelgerechte Wörter gehören zur Sprache.",
+      "folie": "25–29",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist ein Syntaxfehler? Nenne zwei Beispiele aus der Mathematik.",
+      "antwort": "Ein von der Schreibweise her nicht definierter Ausdruck, z. B. fehlende geschlossene Klammer, Buchstabe innerhalb einer Zahl, zwei Rechenoperatoren nebeneinander.",
+      "erklaerung": "Arbeitsblatt; Folie 32.",
+      "folie": "32",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wann entsteht ein Semantikfehler? Nenne zwei Beispiele.",
+      "antwort": "Wenn ein Ausdruck nicht interpretiert werden kann – eine verständliche Rechenanweisung liefert kein Ergebnis, z. B. Division durch Null, arcsin(2), Wurzel aus einer negativen Zahl in ℝ, nicht definierte Variable.",
+      "erklaerung": "Folie 36.",
+      "folie": "36",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Syntaxfehler, Semantikfehler oder logischer Fehler?",
+      "kategorien": [
+        "Syntaxfehler",
+        "Semantikfehler",
+        "logischer Fehler"
+      ],
+      "elemente": [
+        {
+          "text": "$(a + b) \\cdot (a - b = a^2 - b^2$",
+          "kategorie": "Syntaxfehler"
+        },
+        {
+          "text": "$\\arcsin(2)$",
+          "kategorie": "Semantikfehler"
+        },
+        {
+          "text": "$\\frac{5}{0}$",
+          "kategorie": "Semantikfehler"
+        },
+        {
+          "text": "$(a + b) \\cdot (a - b) = a^2 + b^2$ mit $a, b \\in \\mathbb{R}$",
+          "kategorie": "logischer Fehler"
+        },
+        {
+          "text": "$12a - 6b4 = 120$",
+          "kategorie": "Syntaxfehler"
+        }
+      ],
+      "erklaerung": "Folie 31–42.",
+      "folie": "31–42",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was gilt für Kontext und Mehrdeutigkeit?",
+      "optionen": [
+        "In natürlichen Sprachen kommt Mehrdeutigkeit vor (z. B. in Witzen).",
+        "In formalen Sprachen darf es keine Mehrdeutigkeit geben.",
+        "In formalen Sprachen ist Mehrdeutigkeit erwünscht.",
+        "Syntaktisch und semantisch korrekte Sätze können nie mehrdeutig sein."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Folie 20, 37, 39.",
+      "folie": "20, 37",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "transfer",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum übersetzt der Google-Übersetzer „Der Jäger trifft den Jäger“ mit „meets“, aber „Der Schütze trifft den Jäger“ mit „hits“?",
+      "antwort": "„treffen“ ist mehrdeutig (begegnen oder mit einem Schuss treffen); das Programm wählt die Bedeutung aus dem Kontext (Jäger/Schütze) – beim letzten Satz bleibt unklar, was gemeint ist.",
+      "erklaerung": "Folie 21 (selbst erarbeitet).",
+      "folie": "21",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f13",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Eingabe in Excel (A1 = 17, C1 = 17, C2 = Text „Acht“, B2 leer): Welche Art Fehler?",
+      "kategorien": [
+        "Syntaxfehler",
+        "Semantikfehler",
+        "kein Fehler"
+      ],
+      "elemente": [
+        {
+          "text": "`=Summe(`",
+          "kategorie": "Syntaxfehler"
+        },
+        {
+          "text": "`=C1+C2`",
+          "kategorie": "Semantikfehler"
+        },
+        {
+          "text": "`=C1/B2`",
+          "kategorie": "Semantikfehler"
+        },
+        {
+          "text": "`=A2=A1`",
+          "kategorie": "kein Fehler"
+        }
+      ],
+      "erklaerung": "Folie 40.",
+      "folie": "40",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Warum ist `=Summe(A2,B3)` im deutschen Excel falsch?",
+      "antwort": "Im deutschen Excel werden Argumente mit Semikolon getrennt (`=Summe(A2;B3)`); das Komma ist das Dezimalzeichen – Verstoß gegen die Syntax.",
+      "erklaerung": "Folie 39.",
+      "folie": "39",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Nenne die Schritte vom Quellcode zum Maschinencode und was in jedem Schritt geprüft wird.",
+      "musterloesung": "Lexikalische Analyse (Quelltext in Bestandteile zerlegen) → syntaktische Analyse (Abfolge der Wörter in Ordnung?) → semantische Analyse (passen die Programmteile sinnvoll zusammen?) → Maschinencode-Erzeugung (Umsetzung in Maschinensprache).",
+      "bewertungspunkte": [
+        "vier Schritte in richtiger Reihenfolge",
+        "jeweils Aufgabe"
+      ],
+      "punkte": 4,
+      "erklaerung": "Folie 42.",
+      "folie": "42",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum findet die semantische Analyse beim Übersetzen eines Programms keinen logischen Fehler?",
+      "antwort": "Weil ein logischer Fehler syntaktisch und semantisch korrekt ist – die Anweisung ist auswertbar, nur inhaltlich falsch (z. B. (a+b)(a−b) = a² + b²).",
+      "erklaerung": "Folie 42.",
+      "folie": "42",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "transfer",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Wozu stellt man in Excel unter Datei – Optionen – Formeln die Berechnung auf „Manuell“ (Würfelsimulation)?",
+      "antwort": "Dann rechnet Excel erst nach Drücken von F9 neu – ein neuer Wurf entsteht nur auf Knopfdruck; zusammen mit der iterativen Berechnung kann ein Zähler die Würfe mitzählen.",
+      "erklaerung": "Folie 8–9 (Deutung ergänzt).",
+      "folie": "8–9",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f18",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 3,
+      "frage": "Unterscheide Syntaxfehler, Semantikfehler und logischen Fehler an je einem eigenen Beispiel (Mathematik oder Excel).",
+      "musterloesung": "z. B. Syntaxfehler: `=Summe(` oder „3 + · 4“; Semantikfehler: `=A1/0` bzw. $\\sqrt{-4}$ in ℝ; logischer Fehler: $(a+b)^2 = a^2 + b^2$ – richtig geschrieben und auswertbar, aber falsch.",
+      "bewertungspunkte": [
+        "Syntax: Schreibweise",
+        "Semantik: nicht auswertbar",
+        "logisch: auswertbar, aber falsch",
+        "je ein passendes Beispiel"
+      ],
+      "punkte": 4,
+      "erklaerung": "Transfer zu Folie 30–42.",
+      "folie": "30–42",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Folie 4–7 wiederholen VL 4 im Stil von Klausurfragen (Ergebnis einer Formel angeben, Fehler finden und begründen, Wirkung beschreiben).",
+    "Unterscheidung Syntaxfehler – Semantikfehler – logischer Fehler mit Beispielen (Folie 30–42)."
+  ],
+  "auffaelligkeiten": [
+    "Folien tragen noch Datum 11.11.2025 und „Wintersemester 2025/26“ (Vorjahresfassung); das Arbeitsblatt ist auf WiSe 2026/27 datiert.",
+    "Folie 39: Ankündigung „Kontext und Mehrdeutigkeit – darf es in formalen Sprachen nicht geben“, Arbeitsblatt: „Sollte es … nicht geben!“ – gleiche Aussage, unterschiedlich stark formuliert."
+  ],
+  "offene_fragen": [
+    "Folie 38: Ist $23 \\cdot 0 = 12$ ein Semantikfehler oder (wie hier angenommen) gar kein Syntax-/Semantikfehler, sondern ein logischer Fehler?",
+    "Folie 35: Wie wird $x^2 - x = 0$ bewertet – Semantikfehler, weil $x$ nicht definiert ist?",
+    "Folie 40, Nr. 2 (`=9:2`): Syntaxfehler (gemeinte Division) oder Semantikfehler (Excel liest einen Bereich, #WERT!)?",
+    "Folie 4, Frage 2: Bezieht sich „=ABS(C13-C17)“ auf das Kopieren ohne \\$ oder nur auf das Ergebnis (2,1)?",
+    "Folie 8–9: Wofür genau stehen „Manuell“ und „Iterative Berechnung“ (Zähler der Würfe) – in der VL nachfragen."
+  ]
+}

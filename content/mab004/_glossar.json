@@ -414,6 +414,69 @@
       "erklaerung": "Absolute Häufigkeit = Anzahl (z. B. 70); relative Häufigkeit = Anteil an allen n Befragten, $\\frac{70}{400} = 17{,}50\\,\\%$. Begriffe ergänzt, nicht aus dem Material.",
       "quelle": "mab004.1_2026-11-03 · S. 6",
       "abweichungen": []
+    },
+    {
+      "begriff": "Alphabet",
+      "wortlaut": "Eine nichtleere Menge $A$. Die Elemente eines Alphabets heißen Buchstaben oder Zeichen. (natürliche Sprache: Grundmenge aller Zeichen, aus denen Wörter gebildet werden können. Ihre Elemente heißen Buchstaben.)",
+      "erklaerung": "Der „Zeichenvorrat“, z. B. $A_{10} = \\{0, \\ldots, 9\\}$ oder $A_{röm} = \\{I, V, X, L, C, D, M\\}$.",
+      "quelle": "mab004.1_2026-11-10 · Arbeitsblatt; Folie 23–24",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Wortmenge $A^*$",
+      "wortlaut": "Menge aller Zeichenfolgen bzw. Wörter, die aus dem zur Sprache gehörenden Alphabet gebildet werden können.",
+      "erklaerung": "Alle denkbaren Zeichenketten, auch unsinnige (IIIV, 0000001).",
+      "quelle": "mab004.1_2026-11-10 · Arbeitsblatt; Folie 25–26",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Formale Sprache $L$",
+      "wortlaut": "Teilmenge $L$ der Wortmenge $A^*$. Die Elemente (Wörter) der formalen Sprache folgen syntaktischen und semantischen Regeln der formalen Sprache.",
+      "erklaerung": "Nur die regelgerechten Wörter, z. B. $L_{röm} = \\{III, IV, XV, \\ldots\\}$.",
+      "quelle": "mab004.1_2026-11-10 · Arbeitsblatt; Folie 27, 29",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Syntax",
+      "wortlaut": "Legt spezielle Regeln fest, welche Elemente in L liegen. (natürliche Sprache: … welche Wörter zur Sprache gehören und wie Wörter zu verknüpfen sind …) Die Bedeutung der Wörter oder des Satzes ist dabei unerheblich!",
+      "erklaerung": "Die „Grammatik“ – prüft nur die Schreibweise.",
+      "quelle": "mab004.1_2026-11-10 · Arbeitsblatt; Folie 18, 28",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Semantik",
+      "wortlaut": "Weist Wörtern eine Bedeutung zu und definiert die Sinnzusammenhänge, nach deren Regeln die Bausteine der Sprache verknüpft werden müssen, um verwertbare Informationen zu beschreiben.",
+      "erklaerung": "Der „Sinn“ – kann man dem Ausdruck eine Bedeutung geben und ihn auswerten?",
+      "quelle": "mab004.1_2026-11-10 · Arbeitsblatt; Folie 19, 33",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Kontext und Mehrdeutigkeit",
+      "wortlaut": "Syntaktisch und semantisch korrekte Formulierungen können dennoch unterschiedlich ausgelegt werden. – Sollte es in einer formalen Sprache nicht geben!",
+      "erklaerung": "In natürlicher Sprache normal (Witze, „treffen“), in formalen Sprachen verboten.",
+      "quelle": "mab004.1_2026-11-10 · Arbeitsblatt; Folie 20, 37, 39",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Syntaxfehler",
+      "wortlaut": "Syntaxfehler bedeutet, dass ein von der Schreibweise her nicht definierter Ausdruck eingegeben wurde.",
+      "erklaerung": "z. B. fehlende Klammer, Buchstabe in einer Zahl, zwei Rechenzeichen nebeneinander, `=Summe(`.",
+      "quelle": "mab004.1_2026-11-10 · Arbeitsblatt; Folie 32",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Semantikfehler",
+      "wortlaut": "Semantikfehler entstehen, wenn ein Ausdruck nicht interpretiert werden kann. In der Sprache der Mathematik bedeutet das, dass zwar eine verständliche Rechenanweisung gegeben wurde, diese aber kein Ergebnis liefert.",
+      "erklaerung": "z. B. Division durch 0, arcsin(2), $\\sqrt{-4}$ in $\\mathbb{R}$, nicht definierte Variable; in Excel #DIV/0!, #WERT!.",
+      "quelle": "mab004.1_2026-11-10 · Arbeitsblatt; Folie 36",
+      "abweichungen": []
+    },
+    {
+      "begriff": "Logischer Fehler",
+      "wortlaut": "Es geht nicht um inhaltliche Fehler (logische Fehler). Der folgende Ausdruck ist für a, b ∈ ℝ syntaktisch und semantisch korrekt. Auch wenn die Aussage an sich falsch ist!",
+      "erklaerung": "Richtig geschrieben und auswertbar, aber inhaltlich falsch, z. B. $(a + b)(a - b) = a^2 + b^2$.",
+      "quelle": "mab004.1_2026-11-10 · Folie 42",
+      "abweichungen": []
     }
   ]
 }

@@ -976,6 +976,46 @@
         "mab005"
       ],
       "erste_quelle": "mab005.1_2026-11-09 · Kap. 2, Folie 29"
+    },
+    {
+      "zeichen": "∀",
+      "latex": "\\forall",
+      "bedeutung": "für alle",
+      "gelesen": "für alle a …",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-11-10 · Folie 38"
+    },
+    {
+      "zeichen": "∃",
+      "latex": "\\exists",
+      "bedeutung": "es gibt (mindestens ein)",
+      "gelesen": "es gibt ein b …",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-11-10 · Folie 38"
+    },
+    {
+      "zeichen": "A*",
+      "latex": "A^*",
+      "bedeutung": "Wortmenge: alle Zeichenfolgen aus dem Alphabet A",
+      "gelesen": "A Stern",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-11-10 · Folie 25–27"
+    },
+    {
+      "zeichen": "L",
+      "latex": "L",
+      "bedeutung": "formale Sprache (Teilmenge von A*)",
+      "gelesen": "L",
+      "module": [
+        "mab004"
+      ],
+      "erste_quelle": "mab004.1_2026-11-10 · Folie 25–27"
     }
   ]
 }

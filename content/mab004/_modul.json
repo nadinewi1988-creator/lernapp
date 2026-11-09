@@ -49,13 +49,16 @@
     },
     {
       "text": "Elementare Datentypen und Grundlagen der strukturierten Programmierung kennen.",
-      "abgedeckt_in": []
+      "abgedeckt_in": [
+        "mab004.1_2026-11-10"
+      ]
     },
     {
       "text": "Algorithmen formulieren, als Programmablaufplan oder Struktogramm darstellen und einfache Algorithmen programmieren (z. B. VBA, Scratch).",
       "abgedeckt_in": [
         "mab004.2_2026-10-13",
-        "mab004.2_2026-11-10"
+        "mab004.2_2026-11-10",
+        "mab004.1_2026-11-10"
       ]
     },
     {
@@ -80,7 +83,8 @@
         "mab004.2_2026-10-13",
         "mab004.2_2026-10-20",
         "mab004.2_2026-10-27",
-        "mab004.2_2026-11-10"
+        "mab004.2_2026-11-10",
+        "mab004.1_2026-11-10"
       ]
     },
     {
@@ -113,7 +117,8 @@
     "mab004.1_2026-10-27",
     "mab004.1_2026-11-03",
     "mab004.2_2026-11-03",
-    "mab004.2_2026-11-10"
+    "mab004.2_2026-11-10",
+    "mab004.1_2026-11-10"
   ],
   "klausurstil": {
     "quellen": [],
@@ -397,6 +402,27 @@
       "art": "Vorlage Ü6",
       "status": "verarbeitet",
       "sitzung": "mab004.2_2026-11-10"
+    },
+    {
+      "pfad": "mab004.1/Sitzung_05/mab004-V5.pdf",
+      "geaendert": "2026-11-02",
+      "art": "Folien",
+      "status": "verarbeitet",
+      "sitzung": "mab004.1_2026-11-10"
+    },
+    {
+      "pfad": "mab004.1/Sitzung_05/Begriffe zu Syntax und Semantik.pdf",
+      "geaendert": "2026-11-02",
+      "art": "Arbeitsblatt",
+      "status": "verarbeitet",
+      "sitzung": "mab004.1_2026-11-10"
+    },
+    {
+      "pfad": "mab004.2/Sitzung_05/Excel Befehlsübersicht.pdf",
+      "geaendert": "2026-11-09",
+      "art": "Excel-Befehlsübersicht (Stud.IP 09.11.2026; Blatt 5 verweist darauf)",
+      "status": "später",
+      "sitzung": "mab004.2_2026-11-10"
     }
   ],
   "hinweise_material": [
@@ -478,10 +504,33 @@
       "vorhanden": false,
       "stand": "2026-11-01",
       "hinweis": "Grundlage der Selbstlern-Anleitung VL 4 (Fußzeile); ISBN 978-3-86645-875-8"
+    },
+    {
+      "eintrag": "Müller/Weichert (2015): Vorkurs Informatik, 4. Aufl.",
+      "vorhanden": false,
+      "stand": "2026-11-09",
+      "hinweis": "genannt in VL 5 (Folie 8/9 bzw. 44)"
+    },
+    {
+      "eintrag": "Rechenberg (2000): Was ist Informatik?, 3. Aufl.",
+      "vorhanden": false,
+      "stand": "2026-11-09",
+      "hinweis": "genannt in VL 5 (Folie 8/9 bzw. 44)"
+    },
+    {
+      "eintrag": "Weigand/Weth (2002): Computer im Mathematikunterricht",
+      "vorhanden": false,
+      "stand": "2026-11-09",
+      "hinweis": "genannt in VL 5 (Folie 8/9 bzw. 44)"
+    },
+    {
+      "eintrag": "Rink (2017): Excel & Co. – in Schreiber/Rink/Ladel (Hrsg.): Digitale Medien im Mathematikunterricht der Primarstufe",
+      "vorhanden": false,
+      "stand": "2026-11-09",
+      "hinweis": "genannt in VL 5 (Folie 8/9 bzw. 44)"
     }
   ],
   "auffaelligkeiten": [
-    "Blatt 5: Tutorium bespricht laut Blatt Übungsaufgabe 4, laut Ankündigung (03.11.) Nr. 5.",
-    "Datei „Excel Befehlsübersicht“ (Blatt 5, Merke + Ü3 d) liegt nicht in Stud.IP."
+    "Blatt 5: Tutorium bespricht laut Blatt Übungsaufgabe 4, laut Ankündigung (03.11.) Nr. 5."
   ]
 }

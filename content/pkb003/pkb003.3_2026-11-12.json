@@ -1,728 +1,728 @@
 {
- "schema": "lernapp-sitzung/2",
- "modul": "pkb003",
- "teilmodul": "pkb003.3",
- "datum": "2026-11-12",
- "sitzung_nr": 2,
- "sitzung_id": "",
- "thema": "Öffentliche Verwaltung gestern und heute: Begriff und Gegenstand II · Entwicklungslinien und Reformprozesse I",
- "thema_in_app": "war schon da",
- "stand": "geprueft",
- "quellen": [
-  {
-   "datei": "pkb003.3/Aufnahmen_Transkripte/2026-11-12_pkb003.3_Teil1_Transkript.txt",
-   "art": "Aufnahme der Sitzung, Teil 1 (Referate, Diskussion, Input der Dozentin) – Transkript",
-   "seiten": "ganze Aufnahme"
-  },
-  {
-   "datei": "pkb003.3/Aufnahmen_Transkripte/2026-11-12_pkb003.3_Teil2_Transkript.txt",
-   "art": "Aufnahme der Sitzung, Teil 2 (Fallbeispiel Wassergesetz, Abschlussrunde) – Transkript",
-   "seiten": "ganze Aufnahme"
-  },
-  {
-   "datei": "pkb003.3/Sitzung_02/pkb003.3_2026-11-12_Praesentation_Weber-Buerokratiemodell_Vortrag.pptx",
-   "art": "Eigenes Referat (Nadine Winkelmann)",
-   "seiten": "Folie 1–12"
-  },
-  {
-   "datei": "Literatur/Moeltgen-Sicking-Winter_2018_Verwaltung-und-Verwaltungswissenschaft.pdf",
-   "art": "Grundlage Referat 1",
-   "seiten": "Kap. 2.1, S. 67–76"
-  }
- ],
- "lernziele": [
-  {
-   "text": "Webers Unterscheidung von Macht und Herrschaft sowie die drei Typen legitimer Herrschaft erklären.",
-   "art": "abgeleitet",
-   "quelle": "Referat Folie 4–5",
-   "fragen": [
-    "f01",
-    "f02",
-    "f03",
-    "f04"
-   ],
-   "erklaerung_abschnitt": "Referat 1: Max Webers Bürokratiemodell (Nadine Winkelmann)"
-  },
-  {
-   "text": "Die fünf Merkmale der Bürokratie und das Hierarchieprinzip nennen und an einem Beispiel aus der Kommunalverwaltung erläutern.",
-   "art": "abgeleitet",
-   "quelle": "Referat Folie 6–8",
-   "fragen": [
-    "f05",
-    "f06",
-    "f07",
-    "f09",
-    "f22"
-   ],
-   "erklaerung_abschnitt": "Referat 1: Max Webers Bürokratiemodell (Nadine Winkelmann)"
-  },
-  {
-   "text": "Kritik und Grenzen des Bürokratiemodells darstellen.",
-   "art": "abgeleitet",
-   "quelle": "Referat Folie 9",
-   "fragen": [
-    "f08",
-    "f22"
-   ],
-   "erklaerung_abschnitt": "Referat 1: Max Webers Bürokratiemodell (Nadine Winkelmann)"
-  },
-  {
-   "text": "Die doppelte Rolle der Kommunen (eigener/übertragener Wirkungskreis, Rechts-/Fachaufsicht, Dualismus/Monismus, Konnexität) erklären.",
-   "art": "abgeleitet",
-   "quelle": "Referat 2",
-   "fragen": [
-    "f11",
-    "f12",
-    "f13",
-    "f14",
-    "f15",
-    "f23"
-   ],
-   "erklaerung_abschnitt": "Referat 2: Die doppelte Rolle der Kommunen"
-  },
-  {
-   "text": "Die Verwaltung in der horizontalen und vertikalen Gewaltenteilung verorten.",
-   "art": "abgeleitet",
-   "quelle": "Input der Dozentin",
-   "fragen": [
-    "f16",
-    "f17",
-    "f21"
-   ],
-   "erklaerung_abschnitt": "Input der Dozentin: Gewaltenteilung horizontal und vertikal"
-  },
-  {
-   "text": "Government und Governance unterscheiden und den Policy-Zyklus beschreiben.",
-   "art": "abgeleitet",
-   "quelle": "Input der Dozentin",
-   "fragen": [
-    "f18",
-    "f19",
-    "f20"
-   ],
-   "erklaerung_abschnitt": "Exkurs: Politikbegriff, Government und Governance"
-  }
- ],
- "kurzfassung": [
-  "Weber unterscheidet Macht (Durchsetzung gegen Widerstreben) und Herrschaft (freiwilliger Gehorsam); dauerhaft ist Herrschaft nur mit Legitimität – traditional, charismatisch oder legal.",
-  "Bürokratie ist die Umsetzung legaler Herrschaft; ihre fünf Merkmale (Stelle, Kompetenzen/Hierarchie, Regelbindung, Aktenmäßigkeit, Fachpersonal) prägen die Verwaltung bis heute.",
-  "Kommunen haben eine doppelte Rolle: Selbstverwaltung (eigener Wirkungskreis, Rechtsaufsicht) und staatlicher Vollzug (übertragener Wirkungskreis, Fachaufsicht); Niedersachsen ist dualistisch, NRW monistisch.",
-  "Nach dem Konnexitätsprinzip trägt die Kosten, wer eine Aufgabe überträgt (Nds.: Art. 57 Abs. 4 NV).",
-  "Gewaltenteilung ist horizontal und vertikal; die Exekutive teilt sich in Regierung (Gubernative) und Verwaltung (Administration).",
-  "Der Bund dominiert die Gesetzgebung, Länder und Kommunen den Vollzug – über den Vollzug gestaltet Verwaltung Politik mit.",
-  "Government steuert über staatliche Institutionen, Governance bezieht Netzwerke und Gesellschaft ein; der Policy-Zyklus beschreibt Politik als Kreislauf."
- ],
- "erklaerung": [
-  {
-   "titel": "Organisatorisches",
-   "folien": "Aufnahme T1 [T1 00:14–05:00], T2 [T2 73:36–79:00]",
-   "text": "*Diese Sitzung wird aus der Aufnahme aufbereitet (Teil 1 = T1, Teil 2 = T2). Die Folien der Dozentin zur Sitzung liegen noch nicht vor – Inhalte ihres Inputs stehen hier so, wie sie sie mündlich erklärt hat.*\n\n- **Ersatztermin** für den 05.11.2026; Raum N09. Anwesend waren sechs bis sieben Studierende – ab fünf Teilnehmenden darf ein Lehrauftrag durchgeführt werden, das Seminar findet also weiter statt [T1 00:14].\n- **Fachspezifische Bibliotheksführung:** Dr.in Rieken hat mit der Bibliothek gesprochen; die Führung ist auch für eine kleine Gruppe möglich. Geplant ist sie **innerhalb einer Seminarsitzung**, voraussichtlich am **03.12.2026**. Ob es klappt und wo man sich trifft, sagt sie in der nächsten Sitzung [T1 01:10–03:15; T2 76:01].\n- **Hinweis der Dozentin:** Digitale Mitschnitte von Lehrveranstaltungen sind nicht erlaubt (Rundmail des Präsidiums) [T1 03:44].\n- **Präsentationen heute:** Nadine Winkelmann (Max Webers Bürokratiemodell) und zwei Kommilitonen (Die doppelte Rolle der Kommunen). Frau Brinkmann ist krank, ihr Referat wird verschoben [T1 00:41; T2 73:36].\n- **Nächste Sitzung (19.11.2026):** Niemand präsentiert. Die Dozentin bot weitere Präsentationsthemen an, z. B. noch einmal **Begriffsklärung** oder **Privatisierung auf kommunaler Ebene** [T2 75:09].\n- **Wissenschaftliches Arbeiten:** Die Dozentin möchte das Thema (für die Hausarbeiten) noch in einer Sitzung aufgreifen, etwa anderthalb Stunden – ein Extra-Termin außerhalb des Seminars ist für die Gruppe nicht machbar [T2 76:01–77:00].\n- **Raum:** Wenn nichts anderes kommt, trifft man sich wieder im gewohnten Raum. Der heutige Raum war kalt; die Dozentin prüft, ob er dauerhaft frei ist [T2 77:00–78:57]."
-  },
-  {
-   "titel": "Referat 1: Max Webers Bürokratiemodell (Nadine Winkelmann)",
-   "folien": "Präsentation Folie 1–12; Aufnahme [T1 07:05–24:20]",
-   "text": "**Leitfrage des Referats:** *Warum ist ein Modell, das vor rund 100 Jahren entstanden ist, bis heute ein wichtiger Bezugspunkt für die öffentliche Verwaltung?* Grundlage: Möltgen-Sicking/Winter (2018), Kap. 2.1, S. 67–76.\n\n### Wer war Max Weber?\n- 1864–1920, Soziologe, Jurist und Ökonom; Mitbegründer der Deutschen Gesellschaft für Soziologie (1909); Hauptwerk „Wirtschaft und Gesellschaft“ (posthum 1922). Sein Bürokratiemodell gilt als klassischer Ansatz der Management- und Organisationslehre.\n- **Leitidee: Rationalisierung** – Menschen lösen sich von religiösen Vorstellungen und wenden sich sachlichen, rationalen Aspekten zu. Drei Ebenen:\n  1. **Weltbilder:** Die Religion tritt zurück, die moderne Wissenschaft wird zum „neuen Gott“.\n  2. **Institutionen:** Statt Einzelpersonen und Verwandtschaft entstehen rationale Organisationen – losgelöst vom Einzelnen.\n  3. **Praktische Lebensführung:** Mit Verzögerung wird auch das Privatleben vernunftorientiert geführt.\n\n### Macht und Herrschaft\n| | Macht | Herrschaft |\n|---|---|---|\n| Definition (Weber 2005, S. 38) | „jede Chance, innerhalb einer sozialen Beziehung den eigenen Willen auch gegen Widerstreben durchzusetzen, gleichviel worauf diese Chance beruht“ | „die Chance, für einen Befehl bestimmten Inhalts bei angebbaren Personen Gehorsam zu finden“ |\n| Dauer | situativ | dauerhaft |\n| Grundlage | Machtmittel (z. B. Drohung) – kann Beliebiges erzwingen | freiwilliger Gehorsam, braucht Legitimität |\n| Reichweite | brüchig, wenn die Machtmittel wegfallen | auf bestimmte Bereiche und Personen beschränkt |\n\n**Beispiel (Möltgen-Sicking/Winter):** Beschäftigte folgen beruflichen Anweisungen ihrer Vorgesetzten selbstverständlich. Will die Leitung aber ins Privatleben eingreifen, braucht sie Druckmittel – dann ist es Macht, nicht mehr Herrschaft.\n\n### Drei Typen legitimer Herrschaft\n| Typ | Legitimität durch | Beispiel | Schwäche/Stärke |\n|---|---|---|---|\n| traditional | Glauben an Heiligkeit und überkommene Traditionen | Erbmonarchie | Neuerungen untergraben die Legitimität |\n| charismatisch | besondere Ausstrahlung und Glaube an die Unfehlbarkeit | Alexander der Große | muss sich ständig neu beweisen |\n| legal (bürokratisch) | Satzung – verfasstes, rational geschaffenes Recht | Bürokratiemodell | dauerhaft und sachbezogen |\n\n### Die fünf Merkmale der Bürokratie\n1. **Stellen als Bausteine** – Trennung von Person und Position; es ist egal, wer die Aufgabe erledigt (damals eine echte Neuerung).\n2. **Feste Amtskompetenzen und klare Amtshierarchie** – Über- und Unterordnung mit Weisungsbefugnissen; geringer Entscheidungsspielraum des Einzelnen.\n3. **Regelbindung und Unpersönlichkeit** – „sine ira et studio“, ohne Zorn und Eifer. „Eifer“ meint hier nicht Fleiß, sondern sich nicht persönlich zu ereifern [T1 13:38].\n4. **Aktenmäßigkeit** – Verwaltung ist stets schriftlich; was zählt, steht in der Akte; Entscheidungen bleiben nachweisbar und gerichtlich überprüfbar.\n5. **Qualifiziertes, loyales Fachpersonal** – Ausbildung, Berufsbeamtentum, festes Gehalt in Geld, meist mit Pension.\n\n### Hierarchieprinzip\nVerwaltung als lückenlose Pyramide (historisches Vorbild: Militär): oben die demokratisch legitimierte Spitze (z. B. Bürgermeister/in), darunter Fachbereiche/Ämter, unten die Sachbearbeitung; Weisungen laufen von oben nach unten. Nur durch die lückenlose Kette erhält jede Stelle ihre demokratische Legitimation. Aufgaben werden nach vier Regeln verteilt: nach **Sachaufgaben**, nach **Raum**, nach **Adressatenkreisen**, nach **Teilaktivitäten**.\n\n### Beispiel: Hundeanmeldung in einer Kommunalverwaltung\nAlle fünf Merkmale stecken darin: Frau M. hat es mit einer **Stelle** zu tun; **zwei Ämter** sind zuständig (Steueramt setzt die Hundesteuer fest; Ordnungsamt prüft Chip, Haftpflichtversicherung mit ausreichender Deckung, Eintrag im Nds. Hunderegister, Sachkunde); fehlt etwas, wird in der Praxis bis zu dreimal erinnert, dann übernimmt eine höher eingruppierte Stelle (ggf. Bußgeld); die Steuerhöhe steht in der **Hundesteuersatzung** – jede Gemeinde legt sie selbst fest, gilt aber für alle gleich; wer nicht anmeldet, wird von Amts wegen angemeldet, wer nicht zahlt, gemahnt und notfalls vollstreckt; es entstehen **mindestens zwei Akten**; bearbeitet von **ausgebildetem Personal**.\n\n### Kritik und Grenzen\n- **Weber selbst** sah die Gefahr, dass Beschäftigte „zu hörigen Instrumenten einer Maschine degradiert“ werden (Paulic 2016, S. 71).\n- **Theorie ≠ Praxis:** Laut Möltgen-Sicking/Winter läuft Verwaltung selten so distanziert und regelgebunden ab. *Eigene Einschätzung im Referat:* In der eigenen Verwaltung läuft es genau so regelgebunden ab [T1 20:15].\n- **Mülleimer-Modell** (Cohen/March/Olsen 1972): Entscheidungen entstehen oft zufällig – untersucht wurden allerdings Universitäten.\n- **Neues Steuerungsmodell** (1990er, deutsche Version des New Public Management): wollte sich vom weberianischen Modell verabschieden – das Ziel wurde nicht erreicht.\n\n### Fazit\nBürokratie ist bei Weber kein Schimpfwort, sondern die Umsetzung legaler Herrschaft – dauerhaft und sachbezogen. Ihre Merkmale prägen die Verwaltung bis heute. In der Theorie schlüssig, in der Praxis oft anders.\n\n**Kurz erklärt:** Weber fragt nicht „Ist Bürokratie gut?“, sondern „Warum gehorchen Menschen dauerhaft?“. Seine Antwort: weil sie die Ordnung für rechtmäßig halten. In der Moderne ist das die Rechtsordnung – und die Bürokratie ist die Organisation, die dieses Recht unpersönlich, schriftlich und durch Fachleute umsetzt. Deshalb ist sie berechenbar und gleich für alle.\n\n**Prüfungsfalle:** Macht und Herrschaft nicht verwechseln: Macht wirkt *gegen* den Willen (Machtmittel), Herrschaft beruht auf *freiwilligem* Gehorsam und braucht Legitimität.\n\n**Typische Hausarbeitsfrage:** „Inwiefern ist Webers Bürokratiemodell heute noch aktuell?“ – Merkmale an einem Praxisbeispiel zeigen, Kritik (Weber selbst, Praxis, Gegenmodelle) einbeziehen, abwägen."
-  },
-  {
-   "titel": "Diskussion zum Referat: Bürokratie im Alltag, Stellen und Stellenplan",
-   "folien": "Aufnahme [T1 24:20–40:00]",
-   "text": "**Bürokratie im Alltag (Beiträge der Gruppe):**\n- Krankenkasse: Jeder Schritt ist dokumentiert, Anträge müssen exakt stimmen – wer Fehler macht, ist „zum Teil selbst schuld“.\n- Arztpraxis/Krankenhaus: Dokumentation, damit alle Beteiligten Bescheid wissen.\n- **Gleichbehandlung vor dem Gesetz**, z. B. BAföG – für jede Person gelten die gleichen Regeln.\n- **Zuständigkeit:** „Dafür bin ich nicht zuständig, ich leite Sie weiter“ – in Ämtern und auch an der Uni (Prüfungsanmeldung, Immatrikulation). Aus Sicht der Verwaltung ist das auch **rechtliche Absicherung**: Wer sich ohne Zuständigkeit äußert, kann dafür verantwortlich gemacht werden [T1 27:30–29:57].\n\n**Frage der Dozentin: „Was sind eigentlich Stellen?“** [T1 30:06]\n- Jeder Arbeitsplatz in der öffentlichen Verwaltung hat eine **Stellenbeschreibung**: alle Tätigkeiten, Kommunikationspartner, anzuwendende Gesetze, sogar der Kundenkontakt.\n- Nach ihr richtet sich die **Eingruppierung** (Entgeltgruppe) – und damit das Gehalt. Sie schützt auch die Beschäftigten: Aufgaben über der Entgeltgruppe muss man ohne Neubewertung der Stelle nicht übernehmen.\n\n**Ergänzung der Dozentin – Stellenplan im Lehramt** [T1 31:58–33:53]:\n- Lehrkräfte sind in Niedersachsen in der Regel verbeamtet; für Beamte gibt es den **Stellenplan** (einsehbar im Haushaltsplan des Landes).\n- Der Stellenplan folgt einer **Pyramide**: oben eine Leitungsstelle (Schulleitung), darunter A15-Stellen, breiter die **A14-Stellen** (in Niedersachsen meist Funktionsstellen), ganz breit **A13 = Eingangsamt** – inzwischen für GHR, Gymnasium und berufsbildende Schulen.\n- Für die eigene Laufbahn ist das wichtig: Welche Entwicklungsmöglichkeiten gibt es, und wie kommt man dorthin?\n\n**Grenzen des Stellenplans (Beitrag Nadine)** [T1 33:53–35:41]: Bei unvorhersehbaren Lagen (Beispiel: Ausländerbehörde bei Beginn des Ukraine-Kriegs) kann die Verwaltung nicht schnell Personal einstellen – „die Stelle steht nicht im Haushaltsplan“. Der Haushalt wird zwei bis drei Jahre im Voraus geplant; ein Grund für lange Bearbeitungszeiten.\n\n**Ergänzung der Dozentin – Universität** [T1 35:55–36:55]: Die Uni hat einen Stellenplan für Beamte **und** ein Gesamtbudget für das Personal. Daraus ergibt sich mehr Flexibilität als in der Kommune – solange das Geld da ist.\n\n**Vorwurf oder Kompliment?** Die Dozentin: Regeln schützen (Gleichbehandlung), engen aber auch ein („Korsett“) – also **sowohl als auch** (Ambivalenz). Die These „Verwaltung = pure Bürokratie“ aus Sitzung 1 war bewusst zugespitzt formuliert. Abschluss: „Max Weber wird uns wieder begegnen.“ [T1 38:32–40:00]\n\n**Kurz erklärt:** Die Stelle ist Webers erstes Merkmal in der Praxis: Nicht die Person, sondern die beschriebene Stelle bestimmt Aufgaben, Zuständigkeit und Bezahlung. Der Stellenplan überträgt das Hierarchieprinzip (Pyramide) auf den Haushalt."
-  },
-  {
-   "titel": "Referat 2: Die doppelte Rolle der Kommunen",
-   "folien": "Aufnahme [T1 41:27–52:23] (Folien der Referenten liegen nicht vor)",
-   "text": "**Grundidee:** Kommunen stehen in einem Spagat – sie sind **Ort der lokalen Selbstverwaltung** (Bürger gestalten ihr Umfeld demokratisch) und zugleich **„verlängerter Arm“ von Bund und Land**, der staatliche Vorgaben ausführt.\n\n### Verfassungsrechtliches Fundament\n**Art. 28 Abs. 2 GG** garantiert die kommunale Selbstverwaltung: Gemeinden dürfen alle Angelegenheiten der örtlichen Gemeinschaft in eigener Verantwortung regeln. Bund und Länder dürfen sie nicht einfach abschaffen („Lebensversicherung der Kommunen“).\n\n### Zwei Wirkungskreise (in Niedersachsen)\n| | eigener Wirkungskreis | übertragener Wirkungskreis |\n|---|---|---|\n| Entscheidung | Kommune entscheidet über das **Ob** und **Wie** (z. B. Müllabfuhr: selbst oder durch ein privates Unternehmen) | Kommune führt Aufgaben von Bund/Land aus (z. B. Meldewesen, Ausweise, Kfz-Zulassung) |\n| Aufsicht | **Rechtsaufsicht**: Land prüft nur die **Rechtmäßigkeit** | **Fachaufsicht**: Prüfung von **Rechtmäßigkeit und Zweckmäßigkeit**, Weisungen per Erlass möglich |\n| Freiheit | politische Gestaltung | keine politische Freiheit |\n\nWarum überträgt der Staat Aufgaben? Es wäre teuer und ineffizient, für jede Aufgabe eigene staatliche Stellen in jedem Kreis aufzubauen – die Rathäuser mit ihrem Personal sind schon da.\n\n### Dualismus und Monismus\n- **Dualistisches System** (z. B. **Niedersachsen**, Bayern): strikte rechtliche Trennung – die Kommune setzt je nach Aufgabe „einen anderen Hut auf“ (Selbstverwaltungskörperschaft oder staatlicher Vollzug). Grundlage in Niedersachsen: Niedersächsisches Kommunalverfassungsgesetz (NKomVG).\n- **Monistisches System** (z. B. **NRW**, Schleswig-Holstein): Alles, was die Kommune tut, ist kommunale Aufgabe – einen übertragenen Wirkungskreis gibt es nicht. Staatliche Aufgaben werden als **Pflichtaufgaben zur Erfüllung nach Weisung** eingegliedert; der Staat sichert sich dort ein Weisungsrecht.\n\n### Spannungsfeld und Konnexitätsprinzip\n- Immer mehr übertragene Aufgaben verdrängen die eigentlichen, freiwilligen Aufgaben (Kultur, Freizeit: Theater, Schwimmbad) – dafür fehlt oft das Geld.\n- **Konnexitätsprinzip:** Wer eine Aufgabe überträgt, muss auch die Kosten tragen („Wer bestellt, bezahlt“). In Niedersachsen verankert in **Art. 57 Abs. 4 der Niedersächsischen Verfassung**.\n- Fazit der Referenten: Die doppelte Rolle ist notwendig, aber konfliktgeladen; Streitpunkt ist vor allem die Finanzierung.\n\n### Diskussionsfragen der Referenten\n1. Machen steigende Pflichtaufgaben von Bund und Ländern die Kommunalpolitik überflüssig?\n2. Sollte Niedersachsen das dualistische Modell zugunsten des monistischen aufgeben?\n\n**Kurz erklärt:** Der eigene Wirkungskreis ist Demokratie vor Ort (der Rat entscheidet), der übertragene Wirkungskreis ist Verwaltung im Auftrag des Staates. Daran hängt, wie weit das Land hineinregieren darf: nur „Ist das rechtmäßig?“ (Rechtsaufsicht) oder auch „Ist das zweckmäßig?“ (Fachaufsicht).\n\n**Prüfungsfalle:** Rechtsaufsicht ≠ Fachaufsicht. Die Fachaufsicht geht weiter (auch Zweckmäßigkeit, Weisungen)."
-  },
-  {
-   "titel": "Diskussion zum Referat 2: Wird Kommunalpolitik überflüssig?",
-   "folien": "Aufnahme [T1 53:03–69:45]",
-   "text": "- **Beschäftigte entscheiden nicht politisch:** Wer in der Verwaltung arbeitet, führt aus – ob ein Schwimmbad bleibt, entscheidet der Stadtrat (Beitrag Nadine) [T1 53:11].\n- **Ohne Übertragung** müsste man z. B. für einen Reisepass womöglich zu einer zentralen Stelle (etwa nach Berlin) – Bürgernähe spricht für die Übertragung; viele Menschen wollen eine reale Ansprechperson vor Ort [T1 54:28; 58:00].\n- **Geld als Kern:** Kommunalpolitik braucht Geld für freiwillige Aufgaben; Einnahmen kommen z. B. über die Hundesteuer (Beispiel: Erhöhung von 80 € auf 110 € ärgert Hundehalter, kann aber Kulturprojekte finanzieren) [T1 56:41].\n- **Nicht überflüssig**, aber der Spielraum ist klein (geschätzt 5–10 % des Budgets) [T1 59:47].\n- **Dozentin:** Das ist eine ganz aktuelle Debatte – zuletzt beklagten die Ministerpräsidenten (auch Niedersachsens), dass der Bund ständig neue Aufgaben überträgt; das setzt sich bis zur kommunalen Ebene fort. Die Antwort kann positiv sein: Entscheidend ist nicht die Prozentzahl, sondern **dass** es diese Möglichkeit gibt (Art. 28 GG) [T1 60:53–62:27].\n- **Unterschiede zwischen Gemeinden:** Beispiel Lingen – viele Investitionen (Schwimmbad, Schulen, Weihnachtsmarkt), auch dank Gewerbesteuer. Die Dozentin: Budgets sind sehr unterschiedlich – auch eine Frage der **Gerechtigkeit** und Vergleichbarkeit [T1 62:50–65:33].\n- **Dualismus oder Monismus?** Pro Monismus: Kommune entscheidet selbst, nur Rechtsaufsicht, keine Unklarheit, welchen „Hut“ der Bürgermeister trägt. Contra: Im jetzigen System greift das Konnexitätsprinzip klarer; landesweit einheitliche Regeln (Baugenehmigung, Wahlen, Katastrophenschutz); auch im Monismus zieht das Land „über Hintertüren“ die Fäden; neutrale Verwaltung bei heiklen Einzelfällen [T1 65:58–67:21].\n- **Hinweis der Dozentin zur Quellenarbeit:** Bei Pro- und Contra-Argumenten fragte sie nach der **Quelle** und ob sie neutral formuliert sind – Argumente sollen zunächst für sich stehen [T1 67:41].\n- Abschluss der Dozentin: „Alle stöhnen über Bürokratie“ – damit schließt sich der Kreis zum ersten Referat [T1 69:14]."
-  },
-  {
-   "titel": "Hausaufgabe aus Sitzung 1 (Exzerpt) – übersprungen",
-   "folien": "Aufnahme [T1 70:34–71:20]",
-   "text": "Die Hausaufgabe aus Sitzung 1 (Exzerpt Möltgen-Sicking/Winter, S. 57–65, Kontrolle der Verwaltung) wurde **nicht besprochen**, weil kaum jemand sie vorliegen hatte. Die Dozentin will **später noch einmal darauf zurückkommen** – die Ausarbeitung aus Sitzung 1 bereithalten. Am Ende der Sitzung fragte sie, ob es sinnvoll ist, die heute nicht bearbeiteten Aufgaben erneut aufzurufen [T2 73:58]."
-  },
-  {
-   "titel": "Input der Dozentin: Gewaltenteilung horizontal und vertikal",
-   "folien": "Aufnahme [T1 72:09–81:52] (Übersicht der Dozentin)",
-   "text": "**Wiederholung:** Gewaltenteilung ist ein existenzielles Moment der **Rechtsstaatlichkeit**. Horizontal: Legislative, Exekutive, Judikative. Eine **vollständige Trennung gibt es nicht** – auch in Deutschland verschwimmen die Gewalten. Konsens ist, die Verwaltung der **vollziehenden Gewalt** (Exekutive) zuzuordnen [T1 72:23–74:17].\n\n**Erweiterung:** Die Exekutive wird ausdifferenziert in\n- **Regierung (Gubernative)** – wird ordnungsgebend, gestaltend tätig;\n- **Verwaltung (Administration)** – führt aus (vollziehende Gewalt im engeren Sinn) [T1 74:37–75:28].\n\n**Zweidimensional – wie eine Matrix** [T1 75:36]: Zur horizontalen kommt die **vertikale Gewaltenteilung** durch den **Föderalismus** (Grundgesetz).\n\n| | Legislative | Exekutive | Judikative |\n|---|---|---|---|\n| Bund | Bundestag, Bundesrat | Bundesregierung, Bundesverwaltung | Gerichte des Bundes |\n| Länder | Landesparlamente | Landesregierung, Landesverwaltung | Gerichte der Länder |\n| *(Kommunen – gestrichelt)* | | Kommunalverwaltung | |\n\n**Warum gestrichelt?** Kommunen bilden zwar administrativ eine eigene Organisationsebene, **staatsrechtlich gehören sie zu den Ländern** – sie haben keine eigene staatsrechtliche Verankerung als dritte Ebene [T1 77:07].\n\n**Merkmal des deutschen Föderalismus** [T1 77:47–80:09]:\n- Bei der **Gesetzgebung** liegt das **Übergewicht beim Bund** (er gibt den Ton an).\n- Beim **Vollzug** ist es **umgekehrt**: wenig eigene Bundesverwaltung; den Großteil vollziehen die **Länder** – und dort besonders die **Kommunen**.\n\n**Warum das wichtig ist** [T1 80:09–81:13]: Wer viel vollzieht und auf den Vollzug Einfluss nehmen kann, **gestaltet Politik mit** – Verwaltung ist nicht nur „ausführend“. Das knüpft an die Leitfrage des Seminars an: *Wie politisch ist Verwaltung?*\n\n**Kurz erklärt:** Horizontal = Aufgabenteilung zwischen Parlament, Regierung/Verwaltung und Gerichten. Vertikal = Teilung zwischen Bund und Ländern. In Deutschland macht vor allem der Bund die Gesetze, aber Länder und Kommunen setzen sie um – das gibt der Verwaltung vor Ort großen Einfluss.\n\n**Prüfungsfalle:** Kommunen sind **keine dritte staatliche Ebene** neben Bund und Ländern – staatsrechtlich sind sie Teil der Länder."
-  },
-  {
-   "titel": "Exkurs: Politikbegriff, Government und Governance",
-   "folien": "Aufnahme [T1 81:52–87:57]",
-   "text": "**Dreigestaltiger Politikbegriff** (aus dem Englischen):\n- **Polity** – der Rahmen: Institutionen, Verfassung, formal festgelegter Gesetzgebungsprozess.\n- **Politics** – der Prozess: wie Politik gemacht wird (Akteure, Interessen, Aushandlung).\n- **Policy** – der Inhalt: die politische Entscheidung, z. B. ein Gesetz.\n*(Ergänzung zur Einordnung, nicht wörtlich aus der Sitzung: Polity = Form, Politics = Prozess, Policy = Inhalt.)*\n\n**Government** [T1 82:48–84:17]: Steuerung durch die **formal vorgesehenen Institutionen** – die Regierung (Gubernative), Minister und ihre nachgeordnete Verwaltung bringen Gesetzesideen ein; betrifft Polity und Politics.\n\n**Governance** [T1 84:17–87:35]: neuere Entwicklung – **mehr Menschen werden einbezogen** (Netzwerkbildung, gesellschaftliche Beteiligung), nicht nur die „grauen Kammern“. Ziel: qualitativ bessere Gesetze. Beispiele: Beteiligung bei Bebauungsplänen; **Reallabore** (auch an der Uni Vechta), in denen Betroffene gemeinsam an Lösungen arbeiten. Gelingt das gut, spricht man von **Good Governance**.\n\nDas Ergebnis ist in beiden Fällen eine **Policy** – sie kommt nur auf unterschiedlichen Wegen zustande: mit oder ohne breite Beteiligung. Für das politisch-administrative System ist das eine neuere Erscheinung (Staatsmodernisierung).\n\n**Kurz erklärt:** Government = der Staat steuert über seine Institutionen. Governance = der Staat steuert gemeinsam mit Gesellschaft, Verbänden und Fachleuten in Netzwerken."
-  },
-  {
-   "titel": "Policy-Zyklus und Beteiligung",
-   "folien": "Aufnahme [T1 87:57–100:41] (Abbildung der Dozentin)",
-   "text": "**Phasen des Policy-Zyklus** (wie von der Folie vorgelesen):\n1. Problemwahrnehmung\n2. Vorabschätzung von Handlungsalternativen\n3. Programmbildung\n4. Entscheidung\n5. Programmvollzug\n6. Wirkungskontrolle\n7. Handlungskorrektur / Lernen\n8. Termination (Beendigung)\n\nDie Dozentin vergleicht ihn mit einem **Qualitätszirkel**: Problem analysieren → Möglichkeiten abschätzen → Programm bilden und entscheiden → umsetzen → prüfen, ob das Ziel erreicht wurde (**Evaluation**) → ggf. umsteuern. Durch eine Problemverschiebung kann der Zirkel neu beginnen [T1 90:16–91:29].\n\n**Wann soll beteiligt werden (Governance)?** Diskussion [T1 91:29–98:34]:\n- **Spätestens bei der Programmbildung**, eher schon bei der **Vorabschätzung von Handlungsalternativen** (Netzwerk mit Fachleuten).\n- „Von Anfang an“ – Gegenargument: Man muss erst sehen, dass es ein Problem gibt. Kompromiss der Dozentin: von Anfang an **offen sein für Problemhinweise**, für die Bearbeitung dann gezielt die passenden Konstellationen wählen.\n- **Programmvollzug:** Fachleute sollten für Rückfragen und neu auftretende Probleme ansprechbar bleiben (Beitrag Nadine).\n- **Dozentin:** Man kann das nicht von vornherein durchbuchstabieren. Unter **Effizienzgesichtspunkten** genau überlegen, wer wann beteiligt wird; **agiles Vorgehen** ist wichtig, notfalls gegensteuern.\n\n**Bezug zum Lehramt** [T1 98:34–100:41]: Auch Schulgestaltung ist ein politischer Prozess. Schüler/innen und Studierende kritisieren, nicht eingebunden zu werden, obwohl Entscheidungen ihr Leben betreffen (aktuelle Proteste).\n\n**Kurz erklärt:** Der Policy-Zyklus zeigt Politik als Kreislauf. Die Verwaltung ist besonders beim **Programmvollzug** und bei der **Wirkungskontrolle** gefragt – also genau dort, wo laut Input vorher in Deutschland vor allem Länder und Kommunen tätig sind."
-  },
-  {
-   "titel": "Fallbeispiel: Novelle des Niedersächsischen Wassergesetzes",
-   "folien": "Aufnahme Teil 2 [T2 00:16–61:35] (Handout/Presseinformation der Dozentin – liegt noch nicht vor)",
-   "text": "*Grundlage war eine Presseinformation zum neuen Niedersächsischen Wassergesetz, die die Dozentin ausgeteilt hat. Sie liegt noch nicht vor; die Inhalte stehen hier so, wie sie in der Besprechung genannt wurden.*\n\n**Aufgabe 1:** *„Ordnen Sie die unterschiedlichen Akteure anhand der weitergehenden Differenzierung der Gewaltenteilung der vergangenen und heutigen Sitzung der jeweiligen staatlichen Gewalt zu.“* [T2 27:04]\n\n| Akteur | Zuordnung |\n|---|---|\n| Umweltminister Christian Meyer (stellt den ersten Entwurf vor) | Exekutive – **Regierung (Gubernative)** |\n| Landeskabinett (beschließt den finalen Entwurf, Dezember 2025, bringt ihn in den Landtag ein) | Exekutive – Regierung, mit Verbindung zur Legislative |\n| Niedersächsischer Landtag, Fraktionen (Regierungsfraktionen SPD und Grüne; Opposition CDU und AfD) | **Legislative** |\n| Landkreise und kreisfreie Städte (Vollzug) | Exekutive – **Verwaltung (Administration)**, kommunale Ebene |\n| Wasser- und Naturschutzverbände | keine staatliche Gewalt – **Interessengruppen**; im Sinne von Governance Teil der **Netzwerkbildung** (früh beteiligt) |\n| Landwirtschaft, Industrie | keine staatliche Gewalt – **Betroffene/Adressaten** |\n| Kommunale Wasserversorger | kommunale Ebene, Aufgabe übertragen – häufig inzwischen **unternehmerisch** organisiert |\n| EU | im Text nicht genannt, wirkt aber mit – **Mehrebenensystem** |\n\nHinweis der Dozentin: Bei den Grünen durften früher Fraktionsmitglieder kein Regierungsamt haben (strikte Trennung); heute sitzt Meyer (Grüne) in der Regierung – die Fraktionen bleiben aber klar Legislative [T2 34:57].\n\n**Aufgabe 2: Welche Konsequenzen entstehen für wen?** [T2 39:01]\n- **Land:** Gestaltungsspielraum im Rahmen von Bundes- und EU-Recht (Bund setzt den Rahmen).\n- **Kommunen:** hoher neuer Arbeitsaufwand – Gesetz verstehen, Verfahren (z. B. Planfeststellungs- und Plangenehmigungsverfahren) überarbeiten, viele Nachfragen von Betroffenen (z. B. Landwirten) beantworten (Beitrag Nadine) [T2 41:19].\n- **Inhaltlicher Spielraum für Gemeinden:** z. B. ein **„Klimafaktor“ bei der Entnahmegenehmigung** – Ausgleich zwischen industriell genutztem Wasser (Beispiel Geflügelschlachtung in Lohne) und Grundversorgung der Bevölkerung [T2 45:39–46:51].\n- **Wasserversorger** können erstmals Gebühren **nach Verbrauch staffeln** (günstiger Grundtarif für Familien, Belohnung für sparsamen Verbrauch). Kritik aus der Gruppe: für Familien eher Wunschdenken; Dozentin: adressiert sind vor allem Großverbraucher [T2 55:16–57:53].\n\n**„Ist das ein modernes Gesetz?“** [T2 47:12–61:13]\n- Die Gruppe tut sich mit „modern“ schwer (Modebegriff; Wasser- und Klimaprobleme sind nicht neu).\n- Die Dozentin lenkt auf die **Steuerung**: Neben zentralen Regeln setzt das Gesetz stark auf **Freiwilligkeit mit Anreizen** (und Sanktionen in anderen Fällen) – im Vergleich zu Webers Regelsteuerung eine andere Steuerungsform. Mit Bewertungsperspektive: **Good Governance**? Es gab Beteiligung (Verbände), private Bürger/innen wurden aber offenbar nicht einbezogen (Beitrag Nadine) [T2 59:20].\n- Zu jeder Politik gehört **Kommunikation** (Politikmarketing): Manche Adressaten werden genannt, andere nicht.\n\n**Kurz erklärt:** Das Fallbeispiel wendet den Input an: Wer macht das Gesetz (Legislative), wer bereitet vor (Gubernative), wer setzt um (Administration, vor allem Kommunen) – und wer ist als Verband oder Betroffener beteiligt (Governance)?"
-  },
-  {
-   "titel": "Abschlussrunde: Was habe ich gelernt?",
-   "folien": "Aufnahme Teil 2 [T2 61:43–73:36]",
-   "text": "Aufgabe: notieren, was man gelernt hat, was irritiert hat und wo das Interesse geweckt wurde (5 Minuten).\n- Unterschied Dualismus/Monismus zwischen den Bundesländern war vielen neu (auch Nadine: in der Verwaltungsausbildung nicht behandelt).\n- Nadine: Bei Gesetzentwürfen nimmt sie schnell eine kritische, eher negative Haltung ein (Blick auf die Arbeit, die entsteht) [T2 67:08].\n- Andere: wie komplex Verwaltung ist; dass Gewaltenteilung in der Praxis eher **Verschränkung** als strikte Trennung ist; wie lange ein Gesetzgebungsverfahren dauert (Entwurf Sommer 2025, Beschluss Juni 2026, Teile treten erst 2027 in Kraft).\n- **Tipp der Dozentin: Gesetzesfolgenabschätzung** – jedem Gesetz liegt ein Papier bei: wer betroffen ist, was es kostet, welche Konsequenzen es hat. Lohnt sich anzusehen [T2 68:50].\n- **Effizienz:** Lange Verfahren mit vielen Beteiligten bergen das Risiko, dass sich die Welt inzwischen verändert hat – gute Organisation ist wichtig [T2 72:01].\n- **Hinweis zur Literatur:** Die Autoren des Lehrbuchs (Möltgen-Sicking/Winter) kommen aus **Nordrhein-Westfalen**; ihre Beispiele stammen von dort und treffen für Niedersachsen nicht immer zu. Für das wissenschaftliche Arbeiten heißt das: genau prüfen, welche Quellen man auswählt [T2 72:31–73:36]."
-  }
- ],
- "definitionen": [
-  {
-   "begriff": "Macht (Weber)",
-   "wortlaut": "„jede Chance, innerhalb einer sozialen Beziehung den eigenen Willen auch gegen Widerstreben durchzusetzen, gleichviel worauf diese Chance beruht“ (Weber 2005, S. 38, zit. n. Möltgen-Sicking/Winter 2018, S. 69)",
-   "erklaerung": "Macht wirkt gegen den Willen anderer und stützt sich auf Machtmittel (z. B. Drohung); sie ist situativ und brüchig.",
-   "folie": "Referat Folie 4"
-  },
-  {
-   "begriff": "Herrschaft (Weber)",
-   "wortlaut": "„die Chance, für einen Befehl bestimmten Inhalts bei angebbaren Personen Gehorsam zu finden“ (Weber 2005, S. 38, zit. n. Möltgen-Sicking/Winter 2018, S. 69)",
-   "erklaerung": "Herrschaft beruht auf freiwilligem Gehorsam, ist dauerhaft, aber auf bestimmte Bereiche und Personen begrenzt; sie braucht Legitimität.",
-   "folie": "Referat Folie 4"
-  },
-  {
-   "begriff": "Legale (bürokratische) Herrschaft",
-   "wortlaut": "Legitimität durch Satzung – verfasstes Recht, rational geschaffen, unabhängig von Religion oder Tradition",
-   "erklaerung": "Man gehorcht dem Recht, nicht einer Person oder Tradition. Ihre Umsetzung ist das Bürokratiemodell; Stärke: dauerhaft und sachbezogen.",
-   "folie": "Referat Folie 5"
-  },
-  {
-   "begriff": "Bürokratie (Merkmale nach Weber)",
-   "wortlaut": "Stellen als Bausteine; feste Amtskompetenzen, klare Amtshierarchie; Regelbindung und Unpersönlichkeit; Aktenmäßigkeit; qualifiziertes, loyales Fachpersonal",
-   "erklaerung": "Die fünf Merkmale machen Verwaltung berechenbar, unpersönlich und überprüfbar.",
-   "folie": "Referat Folie 6"
-  },
-  {
-   "begriff": "sine ira et studio",
-   "wortlaut": "„ohne Zorn und Eifer“ – unpersönlich und regelgebunden",
-   "erklaerung": "Beschäftigte arbeiten ohne persönliche Gefühle für oder gegen jemanden; „Eifer“ meint nicht Fleiß, sondern sich persönlich zu ereifern.",
-   "folie": "Referat Folie 6"
-  },
-  {
-   "begriff": "Stellenbeschreibung",
-   "wortlaut": "",
-   "erklaerung": "Beschreibt für jeden Arbeitsplatz in der öffentlichen Verwaltung alle Tätigkeiten, Zuständigkeiten und anzuwendenden Gesetze; danach richtet sich die Eingruppierung (Entgeltgruppe).",
-   "folie": "Aufnahme T1 30:21"
-  },
-  {
-   "begriff": "Stellenplan",
-   "wortlaut": "",
-   "erklaerung": "Teil des Haushaltsplans, der die Planstellen für Beamte festlegt; folgt einer Pyramide (im Lehramt: Schulleitung – A15 – A14 – A13 als Eingangsamt).",
-   "folie": "Aufnahme T1 32:10"
-  },
-  {
-   "begriff": "Kommunale Selbstverwaltung (Art. 28 Abs. 2 GG)",
-   "wortlaut": "Recht der Gemeinden, alle Angelegenheiten der örtlichen Gemeinschaft in eigener Verantwortung zu regeln (nach Referat 2)",
-   "erklaerung": "Verfassungsrechtliche Garantie – Bund und Länder dürfen die Selbstverwaltung nicht abschaffen.",
-   "folie": "Aufnahme T1 42:23"
-  },
-  {
-   "begriff": "Eigener und übertragener Wirkungskreis",
-   "wortlaut": "",
-   "erklaerung": "Eigener Wirkungskreis: Kommune entscheidet über Ob und Wie (Rechtsaufsicht). Übertragener Wirkungskreis: Kommune führt staatliche Aufgaben aus (Fachaufsicht).",
-   "folie": "Aufnahme T1 43:11–44:55"
-  },
-  {
-   "begriff": "Rechtsaufsicht / Fachaufsicht",
-   "wortlaut": "",
-   "erklaerung": "Rechtsaufsicht prüft nur die Rechtmäßigkeit; Fachaufsicht prüft Rechtmäßigkeit und Zweckmäßigkeit und kann Weisungen erteilen.",
-   "folie": "Aufnahme T1 43:48; 44:33"
-  },
-  {
-   "begriff": "Dualistisches / monistisches System",
-   "wortlaut": "",
-   "erklaerung": "Dualismus (z. B. Niedersachsen, Bayern): strikte Trennung von eigenem und übertragenem Wirkungskreis. Monismus (z. B. NRW, Schleswig-Holstein): alles ist kommunale Aufgabe; staatliche Aufgaben als Pflichtaufgaben zur Erfüllung nach Weisung.",
-   "folie": "Aufnahme T1 44:58–47:00"
-  },
-  {
-   "begriff": "Konnexitätsprinzip",
-   "wortlaut": "Wer eine Aufgabe beschließt oder überträgt, muss auch die Kosten tragen (nach Referat 2)",
-   "erklaerung": "„Wer bestellt, bezahlt“ – in Niedersachsen in Art. 57 Abs. 4 der Niedersächsischen Verfassung verankert.",
-   "folie": "Aufnahme T1 48:33–49:38"
-  },
-  {
-   "begriff": "Vertikale Gewaltenteilung",
-   "wortlaut": "",
-   "erklaerung": "Teilung der Staatsgewalt zwischen Bund und Ländern (Föderalismus); ergänzt die horizontale Teilung in Legislative, Exekutive, Judikative zu einer Matrix.",
-   "folie": "Aufnahme T1 75:36"
-  },
-  {
-   "begriff": "Gubernative / Administration",
-   "wortlaut": "",
-   "erklaerung": "Ausdifferenzierung der Exekutive: Gubernative = Regierung (gestaltend, ordnungsgebend); Administration = Verwaltung (ausführend).",
-   "folie": "Aufnahme T1 74:37"
-  },
-  {
-   "begriff": "Government / Governance",
-   "wortlaut": "",
-   "erklaerung": "Government: Steuerung durch die formal vorgesehenen staatlichen Institutionen. Governance: Steuerung unter Einbeziehung weiterer Akteure (Netzwerke, gesellschaftliche Beteiligung); gelungen = Good Governance.",
-   "folie": "Aufnahme T1 82:48–87:35"
-  },
-  {
-   "begriff": "Policy-Zyklus",
-   "wortlaut": "Problemwahrnehmung – Vorabschätzung von Handlungsalternativen – Programmbildung – Entscheidung – Programmvollzug – Wirkungskontrolle – Handlungskorrektur/Lernen – Termination",
-   "erklaerung": "Modell, das Politik als Kreislauf beschreibt; ähnlich einem Qualitätszirkel.",
-   "folie": "Aufnahme T1 88:58"
-  },
-  {
-   "begriff": "Gesetzesfolgenabschätzung",
-   "wortlaut": "",
-   "erklaerung": "Papier, das einem Gesetz beigefügt ist: wer betroffen ist, was es kostet und welche Konsequenzen es hat.",
-   "folie": "Aufnahme T2 68:50"
-  }
- ],
- "aufgaben": [],
- "fragen": [
-  {
-   "id": "f01",
-   "baustein": "definition",
-   "format": "frage",
-   "niveau": "wissen",
-   "schwierigkeit": 1,
-   "frage": "Wie definiert Max Weber Macht?",
-   "antwort": "„jede Chance, innerhalb einer sozialen Beziehung den eigenen Willen auch gegen Widerstreben durchzusetzen, gleichviel worauf diese Chance beruht“ (Weber 2005, S. 38).",
-   "erklaerung": "Kern: gegen den Willen anderer, gestützt auf Machtmittel.",
-   "folie": "Referat Folie 4",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f02",
-   "baustein": "definition",
-   "format": "frage",
-   "niveau": "wissen",
-   "schwierigkeit": 1,
-   "frage": "Wie definiert Max Weber Herrschaft?",
-   "antwort": "„die Chance, für einen Befehl bestimmten Inhalts bei angebbaren Personen Gehorsam zu finden“ (Weber 2005, S. 38).",
-   "erklaerung": "Kern: freiwilliger Gehorsam, dauerhaft, begrenzt auf Bereiche und Personen.",
-   "folie": "Referat Folie 4",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f03",
-   "baustein": "vergleich",
-   "format": "zuordnung",
-   "niveau": "verstehen",
-   "schwierigkeit": 2,
-   "frage": "Ordne die Eigenschaften Macht oder Herrschaft zu.",
-   "kategorien": [
-    "Macht",
-    "Herrschaft"
-   ],
-   "elemente": [
+  "schema": "lernapp-sitzung/2",
+  "modul": "pkb003",
+  "teilmodul": "pkb003.3",
+  "datum": "2026-11-12",
+  "sitzung_nr": 2,
+  "sitzung_id": "",
+  "thema": "Öffentliche Verwaltung gestern und heute: Begriff und Gegenstand II · Entwicklungslinien und Reformprozesse I",
+  "thema_in_app": "war schon da",
+  "stand": "geprueft",
+  "quellen": [
     {
-     "text": "situativ",
-     "kategorie": "Macht"
+      "datei": "pkb003.3/Aufnahmen_Transkripte/2026-11-12_pkb003.3_Teil1_Transkript.txt",
+      "art": "Aufnahme der Sitzung, Teil 1 (Referate, Diskussion, Input der Dozentin) – Transkript",
+      "seiten": "ganze Aufnahme"
     },
     {
-     "text": "abhängig von Machtmitteln (z. B. Drohung)",
-     "kategorie": "Macht"
+      "datei": "pkb003.3/Aufnahmen_Transkripte/2026-11-12_pkb003.3_Teil2_Transkript.txt",
+      "art": "Aufnahme der Sitzung, Teil 2 (Fallbeispiel Wassergesetz, Abschlussrunde) – Transkript",
+      "seiten": "ganze Aufnahme"
     },
     {
-     "text": "kann Beliebiges erzwingen",
-     "kategorie": "Macht"
+      "datei": "pkb003.3/Sitzung_02/pkb003.3_2026-11-12_Praesentation_Weber-Buerokratiemodell_Vortrag.pptx",
+      "art": "Eigenes Referat (Nadine Winkelmann)",
+      "seiten": "Folie 1–12"
     },
     {
-     "text": "beruht auf freiwilligem Gehorsam",
-     "kategorie": "Herrschaft"
-    },
-    {
-     "text": "braucht Legitimität, um dauerhaft zu sein",
-     "kategorie": "Herrschaft"
-    },
-    {
-     "text": "auf bestimmte Bereiche und Personen beschränkt",
-     "kategorie": "Herrschaft"
+      "datei": "Literatur/Moeltgen-Sicking-Winter_2018_Verwaltung-und-Verwaltungswissenschaft.pdf",
+      "art": "Grundlage Referat 1",
+      "seiten": "Kap. 2.1, S. 67–76"
     }
-   ],
-   "erklaerung": "Macht wirkt gegen den Willen, Herrschaft beruht auf Zustimmung.",
-   "folie": "Referat Folie 4",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f04",
-   "baustein": "vergleich",
-   "format": "zuordnung",
-   "niveau": "verstehen",
-   "schwierigkeit": 2,
-   "frage": "Ordne die Aussagen dem passenden Typ legitimer Herrschaft zu.",
-   "kategorien": [
-    "traditional",
-    "charismatisch",
-    "legal"
-   ],
-   "elemente": [
+  ],
+  "lernziele": [
     {
-     "text": "Erbmonarchie",
-     "kategorie": "traditional"
+      "text": "Webers Unterscheidung von Macht und Herrschaft sowie die drei Typen legitimer Herrschaft erklären.",
+      "art": "abgeleitet",
+      "quelle": "Referat Folie 4–5",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03",
+        "f04"
+      ],
+      "erklaerung_abschnitt": "Referat 1: Max Webers Bürokratiemodell (Nadine Winkelmann)"
     },
     {
-     "text": "Neuerungen untergraben die Legitimität",
-     "kategorie": "traditional"
+      "text": "Die fünf Merkmale der Bürokratie und das Hierarchieprinzip nennen und an einem Beispiel aus der Kommunalverwaltung erläutern.",
+      "art": "abgeleitet",
+      "quelle": "Referat Folie 6–8",
+      "fragen": [
+        "f05",
+        "f06",
+        "f07",
+        "f09",
+        "f22"
+      ],
+      "erklaerung_abschnitt": "Referat 1: Max Webers Bürokratiemodell (Nadine Winkelmann)"
     },
     {
-     "text": "Alexander der Große",
-     "kategorie": "charismatisch"
+      "text": "Kritik und Grenzen des Bürokratiemodells darstellen.",
+      "art": "abgeleitet",
+      "quelle": "Referat Folie 9",
+      "fragen": [
+        "f08",
+        "f22"
+      ],
+      "erklaerung_abschnitt": "Referat 1: Max Webers Bürokratiemodell (Nadine Winkelmann)"
     },
     {
-     "text": "muss sich ständig neu beweisen",
-     "kategorie": "charismatisch"
+      "text": "Die doppelte Rolle der Kommunen (eigener/übertragener Wirkungskreis, Rechts-/Fachaufsicht, Dualismus/Monismus, Konnexität) erklären.",
+      "art": "abgeleitet",
+      "quelle": "Referat 2",
+      "fragen": [
+        "f11",
+        "f12",
+        "f13",
+        "f14",
+        "f15",
+        "f23"
+      ],
+      "erklaerung_abschnitt": "Referat 2: Die doppelte Rolle der Kommunen"
     },
     {
-     "text": "Satzung – rational geschaffenes Recht",
-     "kategorie": "legal"
+      "text": "Die Verwaltung in der horizontalen und vertikalen Gewaltenteilung verorten.",
+      "art": "abgeleitet",
+      "quelle": "Input der Dozentin",
+      "fragen": [
+        "f16",
+        "f17",
+        "f21"
+      ],
+      "erklaerung_abschnitt": "Input der Dozentin: Gewaltenteilung horizontal und vertikal"
     },
     {
-     "text": "dauerhaft und sachbezogen",
-     "kategorie": "legal"
+      "text": "Government und Governance unterscheiden und den Policy-Zyklus beschreiben.",
+      "art": "abgeleitet",
+      "quelle": "Input der Dozentin",
+      "fragen": [
+        "f18",
+        "f19",
+        "f20"
+      ],
+      "erklaerung_abschnitt": "Exkurs: Politikbegriff, Government und Governance"
     }
-   ],
-   "erklaerung": "Tradition – Person – Recht als Grundlage der Legitimität.",
-   "folie": "Referat Folie 5",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f05",
-   "baustein": "kernaussage",
-   "format": "mc",
-   "niveau": "wissen",
-   "schwierigkeit": 1,
-   "frage": "Welche Merkmale gehören zu Webers Bürokratiemodell? (mehrere richtig)",
-   "optionen": [
-    "Stellen als Bausteine – Trennung von Person und Position",
-    "Aktenmäßigkeit",
-    "Entscheidungen nach persönlichem Ermessen der Leitung",
-    "Regelbindung und Unpersönlichkeit",
-    "Qualifiziertes, loyales Fachpersonal"
-   ],
-   "richtig": [
-    0,
-    1,
-    3,
-    4
-   ],
-   "erklaerung": "Die fünf Merkmale: Stellen, feste Amtskompetenzen/Hierarchie, Regelbindung/Unpersönlichkeit, Aktenmäßigkeit, Fachpersonal. Persönliches Ermessen widerspricht der Unpersönlichkeit.",
-   "folie": "Referat Folie 6",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f06",
-   "baustein": "definition",
-   "format": "luecke",
-   "niveau": "wissen",
-   "schwierigkeit": 1,
-   "text": "Beschäftigte sollen ihr Amt „sine ira et studio“ ausüben, also ohne [[Zorn]] und [[Eifer]].",
-   "erklaerung": "„Eifer“ meint hier nicht Fleiß, sondern sich persönlich zu ereifern.",
-   "folie": "Referat Folie 6",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f07",
-   "baustein": "kernaussage",
-   "format": "mc",
-   "niveau": "verstehen",
-   "schwierigkeit": 2,
-   "frage": "Was gilt für das Hierarchieprinzip nach Möltgen-Sicking/Winter? (mehrere richtig)",
-   "optionen": [
-    "Die Verwaltung ist wie eine lückenlose Pyramide aufgebaut.",
-    "Historisches Vorbild ist das Militär.",
-    "Weisungen laufen von unten nach oben.",
-    "Die Spitze ist demokratisch legitimiert (Wahl)."
-   ],
-   "richtig": [
-    0,
-    1,
-    3
-   ],
-   "erklaerung": "Weisungen laufen von oben nach unten; die lückenlose Kette vermittelt jeder Stelle demokratische Legitimation.",
-   "folie": "Referat Folie 7",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f08",
-   "baustein": "kernaussage",
-   "format": "frage",
-   "niveau": "verstehen",
-   "schwierigkeit": 2,
-   "frage": "Nenne drei Kritikpunkte bzw. Grenzen von Webers Bürokratiemodell.",
-   "antwort": "Weber selbst warnt, Beschäftigte könnten „zu hörigen Instrumenten einer Maschine degradiert“ werden (Paulic 2016, S. 71); in der Praxis läuft Verwaltung selten so distanziert und regelgebunden ab; Gegenmodell Mülleimer-Modell (Cohen/March/Olsen 1972); das Neue Steuerungsmodell wollte sich vom weberianischen Modell verabschieden (erfolglos).",
-   "erklaerung": "Drei der vier genannten Punkte reichen.",
-   "folie": "Referat Folie 9",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f09",
-   "baustein": "kernaussage",
-   "format": "frage",
-   "niveau": "verstehen",
-   "schwierigkeit": 2,
-   "frage": "Was ist eine Stellenbeschreibung, und wofür ist sie wichtig?",
-   "antwort": "Sie beschreibt alle Tätigkeiten eines Arbeitsplatzes (inkl. Kommunikationspartner, Gesetze, Kundenkontakt). Nach ihr richtet sich die Eingruppierung und damit das Gehalt; sie schützt Beschäftigte vor Aufgaben, die ihre Eingruppierung übersteigen.",
-   "erklaerung": "Praxisbezug zum ersten Bürokratiemerkmal „Stelle“.",
-   "folie": "Aufnahme T1 30:21",
-   "pruefungsrelevant": false
-  },
-  {
-   "id": "f10",
-   "baustein": "kernaussage",
-   "format": "mc",
-   "niveau": "wissen",
-   "schwierigkeit": 1,
-   "frage": "Was gilt laut Dozentin für den Stellenplan im niedersächsischen Lehramt? (mehrere richtig)",
-   "optionen": [
-    "Er folgt einer Pyramide.",
-    "A13 ist das Eingangsamt.",
-    "A14-Stellen sind meist Funktionsstellen.",
-    "Es gibt gleich viele A13- und A15-Stellen."
-   ],
-   "richtig": [
-    0,
-    1,
-    2
-   ],
-   "erklaerung": "Die Pyramide wird nach oben schmaler – die meisten Stellen sind A13.",
-   "folie": "Aufnahme T1 32:10–33:53",
-   "pruefungsrelevant": false
-  },
-  {
-   "id": "f11",
-   "baustein": "definition",
-   "format": "frage",
-   "niveau": "wissen",
-   "schwierigkeit": 1,
-   "frage": "Was garantiert Art. 28 Abs. 2 GG?",
-   "antwort": "Die kommunale Selbstverwaltung: Gemeinden dürfen alle Angelegenheiten der örtlichen Gemeinschaft in eigener Verantwortung regeln.",
-   "erklaerung": "„Lebensversicherung der Kommunen“.",
-   "folie": "Aufnahme T1 42:23",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f12",
-   "baustein": "vergleich",
-   "format": "zuordnung",
-   "niveau": "verstehen",
-   "schwierigkeit": 2,
-   "frage": "Ordne zu: eigener oder übertragener Wirkungskreis?",
-   "kategorien": [
-    "eigener Wirkungskreis",
-    "übertragener Wirkungskreis"
-   ],
-   "elemente": [
+  ],
+  "kurzfassung": [
+    "Weber unterscheidet Macht (Durchsetzung gegen Widerstreben) und Herrschaft (freiwilliger Gehorsam); dauerhaft ist Herrschaft nur mit Legitimität – traditional, charismatisch oder legal.",
+    "Bürokratie ist die Umsetzung legaler Herrschaft; ihre fünf Merkmale (Stelle, Kompetenzen/Hierarchie, Regelbindung, Aktenmäßigkeit, Fachpersonal) prägen die Verwaltung bis heute.",
+    "Kommunen haben eine doppelte Rolle: Selbstverwaltung (eigener Wirkungskreis, Rechtsaufsicht) und staatlicher Vollzug (übertragener Wirkungskreis, Fachaufsicht); Niedersachsen ist dualistisch, NRW monistisch.",
+    "Nach dem Konnexitätsprinzip trägt die Kosten, wer eine Aufgabe überträgt (Nds.: Art. 57 Abs. 4 NV).",
+    "Gewaltenteilung ist horizontal und vertikal; die Exekutive teilt sich in Regierung (Gubernative) und Verwaltung (Administration).",
+    "Der Bund dominiert die Gesetzgebung, Länder und Kommunen den Vollzug – über den Vollzug gestaltet Verwaltung Politik mit.",
+    "Government steuert über staatliche Institutionen, Governance bezieht Netzwerke und Gesellschaft ein; der Policy-Zyklus beschreibt Politik als Kreislauf."
+  ],
+  "erklaerung": [
     {
-     "text": "Kommune entscheidet über Ob und Wie",
-     "kategorie": "eigener Wirkungskreis"
+      "titel": "Organisatorisches",
+      "folien": "Aufnahme T1 [T1 00:14–05:00], T2 [T2 73:36–79:00]",
+      "text": "*Diese Sitzung wird aus der Aufnahme aufbereitet (Teil 1 = T1, Teil 2 = T2). Die Folien der Dozentin zur Sitzung liegen noch nicht vor – Inhalte ihres Inputs stehen hier so, wie sie sie mündlich erklärt hat.*\n\n- **Ersatztermin** für den 05.11.2026; Raum N09. Anwesend waren sechs bis sieben Studierende – ab fünf Teilnehmenden darf ein Lehrauftrag durchgeführt werden, das Seminar findet also weiter statt [T1 00:14].\n- **Fachspezifische Bibliotheksführung:** Dr.in Rieken hat mit der Bibliothek gesprochen; die Führung ist auch für eine kleine Gruppe möglich. Geplant ist sie **innerhalb einer Seminarsitzung**, voraussichtlich am **03.12.2026**. Ob es klappt und wo man sich trifft, sagt sie in der nächsten Sitzung [T1 01:10–03:15; T2 76:01].\n- **Hinweis der Dozentin:** Digitale Mitschnitte von Lehrveranstaltungen sind nicht erlaubt (Rundmail des Präsidiums) [T1 03:44].\n- **Präsentationen heute:** Nadine Winkelmann (Max Webers Bürokratiemodell) und zwei Kommilitonen (Die doppelte Rolle der Kommunen). Frau Brinkmann ist krank, ihr Referat wird verschoben [T1 00:41; T2 73:36].\n- **Nächste Sitzung (19.11.2026):** Niemand präsentiert. Die Dozentin bot weitere Präsentationsthemen an, z. B. noch einmal **Begriffsklärung** oder **Privatisierung auf kommunaler Ebene** [T2 75:09].\n- **Wissenschaftliches Arbeiten:** Die Dozentin möchte das Thema (für die Hausarbeiten) noch in einer Sitzung aufgreifen, etwa anderthalb Stunden – ein Extra-Termin außerhalb des Seminars ist für die Gruppe nicht machbar [T2 76:01–77:00].\n- **Raum:** Wenn nichts anderes kommt, trifft man sich wieder im gewohnten Raum. Der heutige Raum war kalt; die Dozentin prüft, ob er dauerhaft frei ist [T2 77:00–78:57]."
     },
     {
-     "text": "Rechtsaufsicht",
-     "kategorie": "eigener Wirkungskreis"
+      "titel": "Referat 1: Max Webers Bürokratiemodell (Nadine Winkelmann)",
+      "folien": "Präsentation Folie 1–12; Aufnahme [T1 07:05–24:20]",
+      "text": "**Leitfrage des Referats:** *Warum ist ein Modell, das vor rund 100 Jahren entstanden ist, bis heute ein wichtiger Bezugspunkt für die öffentliche Verwaltung?* Grundlage: Möltgen-Sicking/Winter (2018), Kap. 2.1, S. 67–76.\n\n### Wer war Max Weber?\n- 1864–1920, Soziologe, Jurist und Ökonom; Mitbegründer der Deutschen Gesellschaft für Soziologie (1909); Hauptwerk „Wirtschaft und Gesellschaft“ (posthum 1922). Sein Bürokratiemodell gilt als klassischer Ansatz der Management- und Organisationslehre.\n- **Leitidee: Rationalisierung** – Menschen lösen sich von religiösen Vorstellungen und wenden sich sachlichen, rationalen Aspekten zu. Drei Ebenen:\n  1. **Weltbilder:** Die Religion tritt zurück, die moderne Wissenschaft wird zum „neuen Gott“.\n  2. **Institutionen:** Statt Einzelpersonen und Verwandtschaft entstehen rationale Organisationen – losgelöst vom Einzelnen.\n  3. **Praktische Lebensführung:** Mit Verzögerung wird auch das Privatleben vernunftorientiert geführt.\n\n### Macht und Herrschaft\n| | Macht | Herrschaft |\n|---|---|---|\n| Definition (Weber 2005, S. 38) | „jede Chance, innerhalb einer sozialen Beziehung den eigenen Willen auch gegen Widerstreben durchzusetzen, gleichviel worauf diese Chance beruht“ | „die Chance, für einen Befehl bestimmten Inhalts bei angebbaren Personen Gehorsam zu finden“ |\n| Dauer | situativ | dauerhaft |\n| Grundlage | Machtmittel (z. B. Drohung) – kann Beliebiges erzwingen | freiwilliger Gehorsam, braucht Legitimität |\n| Reichweite | brüchig, wenn die Machtmittel wegfallen | auf bestimmte Bereiche und Personen beschränkt |\n\n**Beispiel (Möltgen-Sicking/Winter):** Beschäftigte folgen beruflichen Anweisungen ihrer Vorgesetzten selbstverständlich. Will die Leitung aber ins Privatleben eingreifen, braucht sie Druckmittel – dann ist es Macht, nicht mehr Herrschaft.\n\n### Drei Typen legitimer Herrschaft\n| Typ | Legitimität durch | Beispiel | Schwäche/Stärke |\n|---|---|---|---|\n| traditional | Glauben an Heiligkeit und überkommene Traditionen | Erbmonarchie | Neuerungen untergraben die Legitimität |\n| charismatisch | besondere Ausstrahlung und Glaube an die Unfehlbarkeit | Alexander der Große | muss sich ständig neu beweisen |\n| legal (bürokratisch) | Satzung – verfasstes, rational geschaffenes Recht | Bürokratiemodell | dauerhaft und sachbezogen |\n\n### Die fünf Merkmale der Bürokratie\n1. **Stellen als Bausteine** – Trennung von Person und Position; es ist egal, wer die Aufgabe erledigt (damals eine echte Neuerung).\n2. **Feste Amtskompetenzen und klare Amtshierarchie** – Über- und Unterordnung mit Weisungsbefugnissen; geringer Entscheidungsspielraum des Einzelnen.\n3. **Regelbindung und Unpersönlichkeit** – „sine ira et studio“, ohne Zorn und Eifer. „Eifer“ meint hier nicht Fleiß, sondern sich nicht persönlich zu ereifern [T1 13:38].\n4. **Aktenmäßigkeit** – Verwaltung ist stets schriftlich; was zählt, steht in der Akte; Entscheidungen bleiben nachweisbar und gerichtlich überprüfbar.\n5. **Qualifiziertes, loyales Fachpersonal** – Ausbildung, Berufsbeamtentum, festes Gehalt in Geld, meist mit Pension.\n\n### Hierarchieprinzip\nVerwaltung als lückenlose Pyramide (historisches Vorbild: Militär): oben die demokratisch legitimierte Spitze (z. B. Bürgermeister/in), darunter Fachbereiche/Ämter, unten die Sachbearbeitung; Weisungen laufen von oben nach unten. Nur durch die lückenlose Kette erhält jede Stelle ihre demokratische Legitimation. Aufgaben werden nach vier Regeln verteilt: nach **Sachaufgaben**, nach **Raum**, nach **Adressatenkreisen**, nach **Teilaktivitäten**.\n\n### Beispiel: Hundeanmeldung in einer Kommunalverwaltung\nAlle fünf Merkmale stecken darin: Frau M. hat es mit einer **Stelle** zu tun; **zwei Ämter** sind zuständig (Steueramt setzt die Hundesteuer fest; Ordnungsamt prüft Chip, Haftpflichtversicherung mit ausreichender Deckung, Eintrag im Nds. Hunderegister, Sachkunde); fehlt etwas, wird in der Praxis bis zu dreimal erinnert, dann übernimmt eine höher eingruppierte Stelle (ggf. Bußgeld); die Steuerhöhe steht in der **Hundesteuersatzung** – jede Gemeinde legt sie selbst fest, gilt aber für alle gleich; wer nicht anmeldet, wird von Amts wegen angemeldet, wer nicht zahlt, gemahnt und notfalls vollstreckt; es entstehen **mindestens zwei Akten**; bearbeitet von **ausgebildetem Personal**.\n\n### Kritik und Grenzen\n- **Weber selbst** sah die Gefahr, dass Beschäftigte „zu hörigen Instrumenten einer Maschine degradiert“ werden (Paulic 2016, S. 71).\n- **Theorie ≠ Praxis:** Laut Möltgen-Sicking/Winter läuft Verwaltung selten so distanziert und regelgebunden ab. *Eigene Einschätzung im Referat:* In der eigenen Verwaltung läuft es genau so regelgebunden ab [T1 20:15].\n- **Mülleimer-Modell** (Cohen/March/Olsen 1972): Entscheidungen entstehen oft zufällig – untersucht wurden allerdings Universitäten.\n- **Neues Steuerungsmodell** (1990er, deutsche Version des New Public Management): wollte sich vom weberianischen Modell verabschieden – das Ziel wurde nicht erreicht.\n\n### Fazit\nBürokratie ist bei Weber kein Schimpfwort, sondern die Umsetzung legaler Herrschaft – dauerhaft und sachbezogen. Ihre Merkmale prägen die Verwaltung bis heute. In der Theorie schlüssig, in der Praxis oft anders.\n\n**Kurz erklärt:** Weber fragt nicht „Ist Bürokratie gut?“, sondern „Warum gehorchen Menschen dauerhaft?“. Seine Antwort: weil sie die Ordnung für rechtmäßig halten. In der Moderne ist das die Rechtsordnung – und die Bürokratie ist die Organisation, die dieses Recht unpersönlich, schriftlich und durch Fachleute umsetzt. Deshalb ist sie berechenbar und gleich für alle.\n\n**Prüfungsfalle:** Macht und Herrschaft nicht verwechseln: Macht wirkt *gegen* den Willen (Machtmittel), Herrschaft beruht auf *freiwilligem* Gehorsam und braucht Legitimität.\n\n**Typische Hausarbeitsfrage:** „Inwiefern ist Webers Bürokratiemodell heute noch aktuell?“ – Merkmale an einem Praxisbeispiel zeigen, Kritik (Weber selbst, Praxis, Gegenmodelle) einbeziehen, abwägen."
     },
     {
-     "text": "Müllabfuhr selbst oder durch Privatunternehmen",
-     "kategorie": "eigener Wirkungskreis"
+      "titel": "Diskussion zum Referat: Bürokratie im Alltag, Stellen und Stellenplan",
+      "folien": "Aufnahme [T1 24:20–40:00]",
+      "text": "**Bürokratie im Alltag (Beiträge der Gruppe):**\n- Krankenkasse: Jeder Schritt ist dokumentiert, Anträge müssen exakt stimmen – wer Fehler macht, ist „zum Teil selbst schuld“.\n- Arztpraxis/Krankenhaus: Dokumentation, damit alle Beteiligten Bescheid wissen.\n- **Gleichbehandlung vor dem Gesetz**, z. B. BAföG – für jede Person gelten die gleichen Regeln.\n- **Zuständigkeit:** „Dafür bin ich nicht zuständig, ich leite Sie weiter“ – in Ämtern und auch an der Uni (Prüfungsanmeldung, Immatrikulation). Aus Sicht der Verwaltung ist das auch **rechtliche Absicherung**: Wer sich ohne Zuständigkeit äußert, kann dafür verantwortlich gemacht werden [T1 27:30–29:57].\n\n**Frage der Dozentin: „Was sind eigentlich Stellen?“** [T1 30:06]\n- Jeder Arbeitsplatz in der öffentlichen Verwaltung hat eine **Stellenbeschreibung**: alle Tätigkeiten, Kommunikationspartner, anzuwendende Gesetze, sogar der Kundenkontakt.\n- Nach ihr richtet sich die **Eingruppierung** (Entgeltgruppe) – und damit das Gehalt. Sie schützt auch die Beschäftigten: Aufgaben über der Entgeltgruppe muss man ohne Neubewertung der Stelle nicht übernehmen.\n\n**Ergänzung der Dozentin – Stellenplan im Lehramt** [T1 31:58–33:53]:\n- Lehrkräfte sind in Niedersachsen in der Regel verbeamtet; für Beamte gibt es den **Stellenplan** (einsehbar im Haushaltsplan des Landes).\n- Der Stellenplan folgt einer **Pyramide**: oben eine Leitungsstelle (Schulleitung), darunter A15-Stellen, breiter die **A14-Stellen** (in Niedersachsen meist Funktionsstellen), ganz breit **A13 = Eingangsamt** – inzwischen für GHR, Gymnasium und berufsbildende Schulen.\n- Für die eigene Laufbahn ist das wichtig: Welche Entwicklungsmöglichkeiten gibt es, und wie kommt man dorthin?\n\n**Grenzen des Stellenplans (Beitrag Nadine)** [T1 33:53–35:41]: Bei unvorhersehbaren Lagen (Beispiel: Ausländerbehörde bei Beginn des Ukraine-Kriegs) kann die Verwaltung nicht schnell Personal einstellen – „die Stelle steht nicht im Haushaltsplan“. Der Haushalt wird zwei bis drei Jahre im Voraus geplant; ein Grund für lange Bearbeitungszeiten.\n\n**Ergänzung der Dozentin – Universität** [T1 35:55–36:55]: Die Uni hat einen Stellenplan für Beamte **und** ein Gesamtbudget für das Personal. Daraus ergibt sich mehr Flexibilität als in der Kommune – solange das Geld da ist.\n\n**Vorwurf oder Kompliment?** Die Dozentin: Regeln schützen (Gleichbehandlung), engen aber auch ein („Korsett“) – also **sowohl als auch** (Ambivalenz). Die These „Verwaltung = pure Bürokratie“ aus Sitzung 1 war bewusst zugespitzt formuliert. Abschluss: „Max Weber wird uns wieder begegnen.“ [T1 38:32–40:00]\n\n**Kurz erklärt:** Die Stelle ist Webers erstes Merkmal in der Praxis: Nicht die Person, sondern die beschriebene Stelle bestimmt Aufgaben, Zuständigkeit und Bezahlung. Der Stellenplan überträgt das Hierarchieprinzip (Pyramide) auf den Haushalt."
     },
     {
-     "text": "Fachaufsicht mit Weisungen",
-     "kategorie": "übertragener Wirkungskreis"
+      "titel": "Referat 2: Die doppelte Rolle der Kommunen",
+      "folien": "Aufnahme [T1 41:27–52:23] (Folien der Referenten liegen nicht vor)",
+      "text": "**Grundidee:** Kommunen stehen in einem Spagat – sie sind **Ort der lokalen Selbstverwaltung** (Bürger gestalten ihr Umfeld demokratisch) und zugleich **„verlängerter Arm“ von Bund und Land**, der staatliche Vorgaben ausführt.\n\n### Verfassungsrechtliches Fundament\n**Art. 28 Abs. 2 GG** garantiert die kommunale Selbstverwaltung: Gemeinden dürfen alle Angelegenheiten der örtlichen Gemeinschaft in eigener Verantwortung regeln. Bund und Länder dürfen sie nicht einfach abschaffen („Lebensversicherung der Kommunen“).\n\n### Zwei Wirkungskreise (in Niedersachsen)\n| | eigener Wirkungskreis | übertragener Wirkungskreis |\n|---|---|---|\n| Entscheidung | Kommune entscheidet über das **Ob** und **Wie** (z. B. Müllabfuhr: selbst oder durch ein privates Unternehmen) | Kommune führt Aufgaben von Bund/Land aus (z. B. Meldewesen, Ausweise, Kfz-Zulassung) |\n| Aufsicht | **Rechtsaufsicht**: Land prüft nur die **Rechtmäßigkeit** | **Fachaufsicht**: Prüfung von **Rechtmäßigkeit und Zweckmäßigkeit**, Weisungen per Erlass möglich |\n| Freiheit | politische Gestaltung | keine politische Freiheit |\n\nWarum überträgt der Staat Aufgaben? Es wäre teuer und ineffizient, für jede Aufgabe eigene staatliche Stellen in jedem Kreis aufzubauen – die Rathäuser mit ihrem Personal sind schon da.\n\n### Dualismus und Monismus\n- **Dualistisches System** (z. B. **Niedersachsen**, Bayern): strikte rechtliche Trennung – die Kommune setzt je nach Aufgabe „einen anderen Hut auf“ (Selbstverwaltungskörperschaft oder staatlicher Vollzug). Grundlage in Niedersachsen: Niedersächsisches Kommunalverfassungsgesetz (NKomVG).\n- **Monistisches System** (z. B. **NRW**, Schleswig-Holstein): Alles, was die Kommune tut, ist kommunale Aufgabe – einen übertragenen Wirkungskreis gibt es nicht. Staatliche Aufgaben werden als **Pflichtaufgaben zur Erfüllung nach Weisung** eingegliedert; der Staat sichert sich dort ein Weisungsrecht.\n\n### Spannungsfeld und Konnexitätsprinzip\n- Immer mehr übertragene Aufgaben verdrängen die eigentlichen, freiwilligen Aufgaben (Kultur, Freizeit: Theater, Schwimmbad) – dafür fehlt oft das Geld.\n- **Konnexitätsprinzip:** Wer eine Aufgabe überträgt, muss auch die Kosten tragen („Wer bestellt, bezahlt“). In Niedersachsen verankert in **Art. 57 Abs. 4 der Niedersächsischen Verfassung**.\n- Fazit der Referenten: Die doppelte Rolle ist notwendig, aber konfliktgeladen; Streitpunkt ist vor allem die Finanzierung.\n\n### Diskussionsfragen der Referenten\n1. Machen steigende Pflichtaufgaben von Bund und Ländern die Kommunalpolitik überflüssig?\n2. Sollte Niedersachsen das dualistische Modell zugunsten des monistischen aufgeben?\n\n**Kurz erklärt:** Der eigene Wirkungskreis ist Demokratie vor Ort (der Rat entscheidet), der übertragene Wirkungskreis ist Verwaltung im Auftrag des Staates. Daran hängt, wie weit das Land hineinregieren darf: nur „Ist das rechtmäßig?“ (Rechtsaufsicht) oder auch „Ist das zweckmäßig?“ (Fachaufsicht).\n\n**Prüfungsfalle:** Rechtsaufsicht ≠ Fachaufsicht. Die Fachaufsicht geht weiter (auch Zweckmäßigkeit, Weisungen)."
     },
     {
-     "text": "Meldewesen, Ausweise, Kfz-Zulassung",
-     "kategorie": "übertragener Wirkungskreis"
+      "titel": "Diskussion zum Referat 2: Wird Kommunalpolitik überflüssig?",
+      "folien": "Aufnahme [T1 53:03–69:45]",
+      "text": "- **Beschäftigte entscheiden nicht politisch:** Wer in der Verwaltung arbeitet, führt aus – ob ein Schwimmbad bleibt, entscheidet der Stadtrat (Beitrag Nadine) [T1 53:11].\n- **Ohne Übertragung** müsste man z. B. für einen Reisepass womöglich zu einer zentralen Stelle (etwa nach Berlin) – Bürgernähe spricht für die Übertragung; viele Menschen wollen eine reale Ansprechperson vor Ort [T1 54:28; 58:00].\n- **Geld als Kern:** Kommunalpolitik braucht Geld für freiwillige Aufgaben; Einnahmen kommen z. B. über die Hundesteuer (Beispiel: Erhöhung von 80 € auf 110 € ärgert Hundehalter, kann aber Kulturprojekte finanzieren) [T1 56:41].\n- **Nicht überflüssig**, aber der Spielraum ist klein (geschätzt 5–10 % des Budgets) [T1 59:47].\n- **Dozentin:** Das ist eine ganz aktuelle Debatte – zuletzt beklagten die Ministerpräsidenten (auch Niedersachsens), dass der Bund ständig neue Aufgaben überträgt; das setzt sich bis zur kommunalen Ebene fort. Die Antwort kann positiv sein: Entscheidend ist nicht die Prozentzahl, sondern **dass** es diese Möglichkeit gibt (Art. 28 GG) [T1 60:53–62:27].\n- **Unterschiede zwischen Gemeinden:** Beispiel Lingen – viele Investitionen (Schwimmbad, Schulen, Weihnachtsmarkt), auch dank Gewerbesteuer. Die Dozentin: Budgets sind sehr unterschiedlich – auch eine Frage der **Gerechtigkeit** und Vergleichbarkeit [T1 62:50–65:33].\n- **Dualismus oder Monismus?** Pro Monismus: Kommune entscheidet selbst, nur Rechtsaufsicht, keine Unklarheit, welchen „Hut“ der Bürgermeister trägt. Contra: Im jetzigen System greift das Konnexitätsprinzip klarer; landesweit einheitliche Regeln (Baugenehmigung, Wahlen, Katastrophenschutz); auch im Monismus zieht das Land „über Hintertüren“ die Fäden; neutrale Verwaltung bei heiklen Einzelfällen [T1 65:58–67:21].\n- **Hinweis der Dozentin zur Quellenarbeit:** Bei Pro- und Contra-Argumenten fragte sie nach der **Quelle** und ob sie neutral formuliert sind – Argumente sollen zunächst für sich stehen [T1 67:41].\n- Abschluss der Dozentin: „Alle stöhnen über Bürokratie“ – damit schließt sich der Kreis zum ersten Referat [T1 69:14]."
     },
     {
-     "text": "keine politische Freiheit",
-     "kategorie": "übertragener Wirkungskreis"
+      "titel": "Hausaufgabe aus Sitzung 1 (Exzerpt) – übersprungen",
+      "folien": "Aufnahme [T1 70:34–71:20]",
+      "text": "Die Hausaufgabe aus Sitzung 1 (Exzerpt Möltgen-Sicking/Winter, S. 57–65, Kontrolle der Verwaltung) wurde **nicht besprochen**, weil kaum jemand sie vorliegen hatte. Die Dozentin will **später noch einmal darauf zurückkommen** – die Ausarbeitung aus Sitzung 1 bereithalten. Am Ende der Sitzung fragte sie, ob es sinnvoll ist, die heute nicht bearbeiteten Aufgaben erneut aufzurufen [T2 73:58]."
+    },
+    {
+      "titel": "Input der Dozentin: Gewaltenteilung horizontal und vertikal",
+      "folien": "Aufnahme [T1 72:09–81:52] (Übersicht der Dozentin)",
+      "text": "**Wiederholung:** Gewaltenteilung ist ein existenzielles Moment der **Rechtsstaatlichkeit**. Horizontal: Legislative, Exekutive, Judikative. Eine **vollständige Trennung gibt es nicht** – auch in Deutschland verschwimmen die Gewalten. Konsens ist, die Verwaltung der **vollziehenden Gewalt** (Exekutive) zuzuordnen [T1 72:23–74:17].\n\n**Erweiterung:** Die Exekutive wird ausdifferenziert in\n- **Regierung (Gubernative)** – wird ordnungsgebend, gestaltend tätig;\n- **Verwaltung (Administration)** – führt aus (vollziehende Gewalt im engeren Sinn) [T1 74:37–75:28].\n\n**Zweidimensional – wie eine Matrix** [T1 75:36]: Zur horizontalen kommt die **vertikale Gewaltenteilung** durch den **Föderalismus** (Grundgesetz).\n\n| | Legislative | Exekutive | Judikative |\n|---|---|---|---|\n| Bund | Bundestag, Bundesrat | Bundesregierung, Bundesverwaltung | Gerichte des Bundes |\n| Länder | Landesparlamente | Landesregierung, Landesverwaltung | Gerichte der Länder |\n| *(Kommunen – gestrichelt)* | | Kommunalverwaltung | |\n\n**Warum gestrichelt?** Kommunen bilden zwar administrativ eine eigene Organisationsebene, **staatsrechtlich gehören sie zu den Ländern** – sie haben keine eigene staatsrechtliche Verankerung als dritte Ebene [T1 77:07].\n\n**Merkmal des deutschen Föderalismus** [T1 77:47–80:09]:\n- Bei der **Gesetzgebung** liegt das **Übergewicht beim Bund** (er gibt den Ton an).\n- Beim **Vollzug** ist es **umgekehrt**: wenig eigene Bundesverwaltung; den Großteil vollziehen die **Länder** – und dort besonders die **Kommunen**.\n\n**Warum das wichtig ist** [T1 80:09–81:13]: Wer viel vollzieht und auf den Vollzug Einfluss nehmen kann, **gestaltet Politik mit** – Verwaltung ist nicht nur „ausführend“. Das knüpft an die Leitfrage des Seminars an: *Wie politisch ist Verwaltung?*\n\n**Kurz erklärt:** Horizontal = Aufgabenteilung zwischen Parlament, Regierung/Verwaltung und Gerichten. Vertikal = Teilung zwischen Bund und Ländern. In Deutschland macht vor allem der Bund die Gesetze, aber Länder und Kommunen setzen sie um – das gibt der Verwaltung vor Ort großen Einfluss.\n\n**Prüfungsfalle:** Kommunen sind **keine dritte staatliche Ebene** neben Bund und Ländern – staatsrechtlich sind sie Teil der Länder."
+    },
+    {
+      "titel": "Exkurs: Politikbegriff, Government und Governance",
+      "folien": "Aufnahme [T1 81:52–87:57]",
+      "text": "**Dreigestaltiger Politikbegriff** (aus dem Englischen):\n- **Polity** – der Rahmen: Institutionen, Verfassung, formal festgelegter Gesetzgebungsprozess.\n- **Politics** – der Prozess: wie Politik gemacht wird (Akteure, Interessen, Aushandlung).\n- **Policy** – der Inhalt: die politische Entscheidung, z. B. ein Gesetz.\n*(Ergänzung zur Einordnung, nicht wörtlich aus der Sitzung: Polity = Form, Politics = Prozess, Policy = Inhalt.)*\n\n**Government** [T1 82:48–84:17]: Steuerung durch die **formal vorgesehenen Institutionen** – die Regierung (Gubernative), Minister und ihre nachgeordnete Verwaltung bringen Gesetzesideen ein; betrifft Polity und Politics.\n\n**Governance** [T1 84:17–87:35]: neuere Entwicklung – **mehr Menschen werden einbezogen** (Netzwerkbildung, gesellschaftliche Beteiligung), nicht nur die „grauen Kammern“. Ziel: qualitativ bessere Gesetze. Beispiele: Beteiligung bei Bebauungsplänen; **Reallabore** (auch an der Uni Vechta), in denen Betroffene gemeinsam an Lösungen arbeiten. Gelingt das gut, spricht man von **Good Governance**.\n\nDas Ergebnis ist in beiden Fällen eine **Policy** – sie kommt nur auf unterschiedlichen Wegen zustande: mit oder ohne breite Beteiligung. Für das politisch-administrative System ist das eine neuere Erscheinung (Staatsmodernisierung).\n\n**Kurz erklärt:** Government = der Staat steuert über seine Institutionen. Governance = der Staat steuert gemeinsam mit Gesellschaft, Verbänden und Fachleuten in Netzwerken."
+    },
+    {
+      "titel": "Policy-Zyklus und Beteiligung",
+      "folien": "Aufnahme [T1 87:57–100:41] (Abbildung der Dozentin)",
+      "text": "**Phasen des Policy-Zyklus** (wie von der Folie vorgelesen):\n1. Problemwahrnehmung\n2. Vorabschätzung von Handlungsalternativen\n3. Programmbildung\n4. Entscheidung\n5. Programmvollzug\n6. Wirkungskontrolle\n7. Handlungskorrektur / Lernen\n8. Termination (Beendigung)\n\nDie Dozentin vergleicht ihn mit einem **Qualitätszirkel**: Problem analysieren → Möglichkeiten abschätzen → Programm bilden und entscheiden → umsetzen → prüfen, ob das Ziel erreicht wurde (**Evaluation**) → ggf. umsteuern. Durch eine Problemverschiebung kann der Zirkel neu beginnen [T1 90:16–91:29].\n\n**Wann soll beteiligt werden (Governance)?** Diskussion [T1 91:29–98:34]:\n- **Spätestens bei der Programmbildung**, eher schon bei der **Vorabschätzung von Handlungsalternativen** (Netzwerk mit Fachleuten).\n- „Von Anfang an“ – Gegenargument: Man muss erst sehen, dass es ein Problem gibt. Kompromiss der Dozentin: von Anfang an **offen sein für Problemhinweise**, für die Bearbeitung dann gezielt die passenden Konstellationen wählen.\n- **Programmvollzug:** Fachleute sollten für Rückfragen und neu auftretende Probleme ansprechbar bleiben (Beitrag Nadine).\n- **Dozentin:** Man kann das nicht von vornherein durchbuchstabieren. Unter **Effizienzgesichtspunkten** genau überlegen, wer wann beteiligt wird; **agiles Vorgehen** ist wichtig, notfalls gegensteuern.\n\n**Bezug zum Lehramt** [T1 98:34–100:41]: Auch Schulgestaltung ist ein politischer Prozess. Schüler/innen und Studierende kritisieren, nicht eingebunden zu werden, obwohl Entscheidungen ihr Leben betreffen (aktuelle Proteste).\n\n**Kurz erklärt:** Der Policy-Zyklus zeigt Politik als Kreislauf. Die Verwaltung ist besonders beim **Programmvollzug** und bei der **Wirkungskontrolle** gefragt – also genau dort, wo laut Input vorher in Deutschland vor allem Länder und Kommunen tätig sind."
+    },
+    {
+      "titel": "Fallbeispiel: Novelle des Niedersächsischen Wassergesetzes",
+      "folien": "Aufnahme Teil 2 [T2 00:16–61:35] (Handout/Presseinformation der Dozentin – liegt noch nicht vor)",
+      "text": "*Grundlage war eine Presseinformation zum neuen Niedersächsischen Wassergesetz, die die Dozentin ausgeteilt hat. Sie liegt noch nicht vor; die Inhalte stehen hier so, wie sie in der Besprechung genannt wurden.*\n\n**Aufgabe 1:** *„Ordnen Sie die unterschiedlichen Akteure anhand der weitergehenden Differenzierung der Gewaltenteilung der vergangenen und heutigen Sitzung der jeweiligen staatlichen Gewalt zu.“* [T2 27:04]\n\n| Akteur | Zuordnung |\n|---|---|\n| Umweltminister Christian Meyer (stellt den ersten Entwurf vor) | Exekutive – **Regierung (Gubernative)** |\n| Landeskabinett (beschließt den finalen Entwurf, Dezember 2025, bringt ihn in den Landtag ein) | Exekutive – Regierung, mit Verbindung zur Legislative |\n| Niedersächsischer Landtag, Fraktionen (Regierungsfraktionen SPD und Grüne; Opposition CDU und AfD) | **Legislative** |\n| Landkreise und kreisfreie Städte (Vollzug) | Exekutive – **Verwaltung (Administration)**, kommunale Ebene |\n| Wasser- und Naturschutzverbände | keine staatliche Gewalt – **Interessengruppen**; im Sinne von Governance Teil der **Netzwerkbildung** (früh beteiligt) |\n| Landwirtschaft, Industrie | keine staatliche Gewalt – **Betroffene/Adressaten** |\n| Kommunale Wasserversorger | kommunale Ebene, Aufgabe übertragen – häufig inzwischen **unternehmerisch** organisiert |\n| EU | im Text nicht genannt, wirkt aber mit – **Mehrebenensystem** |\n\nHinweis der Dozentin: Bei den Grünen durften früher Fraktionsmitglieder kein Regierungsamt haben (strikte Trennung); heute sitzt Meyer (Grüne) in der Regierung – die Fraktionen bleiben aber klar Legislative [T2 34:57].\n\n**Aufgabe 2: Welche Konsequenzen entstehen für wen?** [T2 39:01]\n- **Land:** Gestaltungsspielraum im Rahmen von Bundes- und EU-Recht (Bund setzt den Rahmen).\n- **Kommunen:** hoher neuer Arbeitsaufwand – Gesetz verstehen, Verfahren (z. B. Planfeststellungs- und Plangenehmigungsverfahren) überarbeiten, viele Nachfragen von Betroffenen (z. B. Landwirten) beantworten (Beitrag Nadine) [T2 41:19].\n- **Inhaltlicher Spielraum für Gemeinden:** z. B. ein **„Klimafaktor“ bei der Entnahmegenehmigung** – Ausgleich zwischen industriell genutztem Wasser (Beispiel Geflügelschlachtung in Lohne) und Grundversorgung der Bevölkerung [T2 45:39–46:51].\n- **Wasserversorger** können erstmals Gebühren **nach Verbrauch staffeln** (günstiger Grundtarif für Familien, Belohnung für sparsamen Verbrauch). Kritik aus der Gruppe: für Familien eher Wunschdenken; Dozentin: adressiert sind vor allem Großverbraucher [T2 55:16–57:53].\n\n**„Ist das ein modernes Gesetz?“** [T2 47:12–61:13]\n- Die Gruppe tut sich mit „modern“ schwer (Modebegriff; Wasser- und Klimaprobleme sind nicht neu).\n- Die Dozentin lenkt auf die **Steuerung**: Neben zentralen Regeln setzt das Gesetz stark auf **Freiwilligkeit mit Anreizen** (und Sanktionen in anderen Fällen) – im Vergleich zu Webers Regelsteuerung eine andere Steuerungsform. Mit Bewertungsperspektive: **Good Governance**? Es gab Beteiligung (Verbände), private Bürger/innen wurden aber offenbar nicht einbezogen (Beitrag Nadine) [T2 59:20].\n- Zu jeder Politik gehört **Kommunikation** (Politikmarketing): Manche Adressaten werden genannt, andere nicht.\n\n**Kurz erklärt:** Das Fallbeispiel wendet den Input an: Wer macht das Gesetz (Legislative), wer bereitet vor (Gubernative), wer setzt um (Administration, vor allem Kommunen) – und wer ist als Verband oder Betroffener beteiligt (Governance)?"
+    },
+    {
+      "titel": "Abschlussrunde: Was habe ich gelernt?",
+      "folien": "Aufnahme Teil 2 [T2 61:43–73:36]",
+      "text": "Aufgabe: notieren, was man gelernt hat, was irritiert hat und wo das Interesse geweckt wurde (5 Minuten).\n- Unterschied Dualismus/Monismus zwischen den Bundesländern war vielen neu (auch Nadine: in der Verwaltungsausbildung nicht behandelt).\n- Nadine: Bei Gesetzentwürfen nimmt sie schnell eine kritische, eher negative Haltung ein (Blick auf die Arbeit, die entsteht) [T2 67:08].\n- Andere: wie komplex Verwaltung ist; dass Gewaltenteilung in der Praxis eher **Verschränkung** als strikte Trennung ist; wie lange ein Gesetzgebungsverfahren dauert (Entwurf Sommer 2025, Beschluss Juni 2026, Teile treten erst 2027 in Kraft).\n- **Tipp der Dozentin: Gesetzesfolgenabschätzung** – jedem Gesetz liegt ein Papier bei: wer betroffen ist, was es kostet, welche Konsequenzen es hat. Lohnt sich anzusehen [T2 68:50].\n- **Effizienz:** Lange Verfahren mit vielen Beteiligten bergen das Risiko, dass sich die Welt inzwischen verändert hat – gute Organisation ist wichtig [T2 72:01].\n- **Hinweis zur Literatur:** Die Autoren des Lehrbuchs (Möltgen-Sicking/Winter) kommen aus **Nordrhein-Westfalen**; ihre Beispiele stammen von dort und treffen für Niedersachsen nicht immer zu. Für das wissenschaftliche Arbeiten heißt das: genau prüfen, welche Quellen man auswählt [T2 72:31–73:36]."
     }
-   ],
-   "erklaerung": "Eigener Wirkungskreis = Selbstverwaltung; übertragener = staatlicher Vollzug.",
-   "folie": "Aufnahme T1 43:11–44:55",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f13",
-   "baustein": "definition",
-   "format": "frage",
-   "niveau": "verstehen",
-   "schwierigkeit": 2,
-   "frage": "Worin unterscheiden sich Rechtsaufsicht und Fachaufsicht?",
-   "antwort": "Die Rechtsaufsicht prüft nur die Rechtmäßigkeit; die Fachaufsicht prüft Rechtmäßigkeit und Zweckmäßigkeit und kann detaillierte Weisungen erteilen.",
-   "erklaerung": "Prüfungsfalle: Die Fachaufsicht geht weiter.",
-   "folie": "Aufnahme T1 43:48; 44:33",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f14",
-   "baustein": "vergleich",
-   "format": "mc",
-   "niveau": "verstehen",
-   "schwierigkeit": 2,
-   "frage": "Was gilt für das monistische System? (mehrere richtig)",
-   "optionen": [
-    "Es gibt keinen übertragenen Wirkungskreis.",
-    "Staatliche Aufgaben werden als Pflichtaufgaben zur Erfüllung nach Weisung eingegliedert.",
-    "Niedersachsen arbeitet monistisch.",
-    "Beispiele sind NRW und Schleswig-Holstein."
-   ],
-   "richtig": [
-    0,
-    1,
-    3
-   ],
-   "erklaerung": "Niedersachsen (wie Bayern) ist dualistisch.",
-   "folie": "Aufnahme T1 44:58–47:00",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f15",
-   "baustein": "definition",
-   "format": "luecke",
-   "niveau": "wissen",
-   "schwierigkeit": 1,
-   "text": "Nach dem [[Konnexitätsprinzip]] muss, wer eine Aufgabe überträgt, auch die Kosten tragen; in Niedersachsen steht es in Art. 57 Abs. 4 der Niedersächsischen Verfassung.",
-   "erklaerung": "„Wer bestellt, bezahlt.“",
-   "folie": "Aufnahme T1 48:33",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f16",
-   "baustein": "kernaussage",
-   "format": "mc",
-   "niveau": "verstehen",
-   "schwierigkeit": 2,
-   "frage": "Was gilt laut Dozentin für den deutschen Föderalismus? (mehrere richtig)",
-   "optionen": [
-    "Bei der Gesetzgebung liegt das Übergewicht beim Bund.",
-    "Beim Vollzug dominieren Länder und Kommunen.",
-    "Kommunen sind staatsrechtlich eine eigene dritte Ebene.",
-    "Wer viel vollzieht, kann Politik mitgestalten."
-   ],
-   "richtig": [
-    0,
-    1,
-    3
-   ],
-   "erklaerung": "Kommunen gehören staatsrechtlich zu den Ländern (in der Übersicht gestrichelt).",
-   "folie": "Aufnahme T1 77:07–80:49",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f17",
-   "baustein": "definition",
-   "format": "frage",
-   "niveau": "wissen",
-   "schwierigkeit": 1,
-   "frage": "In welche zwei Bereiche wird die Exekutive ausdifferenziert?",
-   "antwort": "Regierung (Gubernative) und Verwaltung (Administration).",
-   "erklaerung": "Die Regierung gestaltet, die Verwaltung führt aus.",
-   "folie": "Aufnahme T1 74:37",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f18",
-   "baustein": "vergleich",
-   "format": "frage",
-   "niveau": "verstehen",
-   "schwierigkeit": 2,
-   "frage": "Unterscheide Government und Governance.",
-   "antwort": "Government: Steuerung über die formal vorgesehenen Institutionen (Regierung, Ministerien, Verwaltung). Governance: Steuerung unter Einbeziehung weiterer Akteure – Netzwerke, gesellschaftliche Beteiligung (z. B. Reallabore); gelungen = Good Governance. Ergebnis ist in beiden Fällen eine Policy.",
-   "erklaerung": "Unterschied ist der Weg, nicht das Ergebnis.",
-   "folie": "Aufnahme T1 82:48–87:35",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f19",
-   "baustein": "definition",
-   "format": "luecke",
-   "niveau": "wissen",
-   "schwierigkeit": 1,
-   "text": "Der dreigestaltige Politikbegriff unterscheidet [[Polity]] (Rahmen), [[Politics]] (Prozess) und [[Policy]] (Inhalt).",
-   "erklaerung": "Ergänzende Einordnung zum Exkurs der Dozentin.",
-   "folie": "Aufnahme T1 82:10",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f20",
-   "baustein": "kernaussage",
-   "format": "frage",
-   "niveau": "wissen",
-   "schwierigkeit": 2,
-   "frage": "Nenne die Phasen des Policy-Zyklus.",
-   "antwort": "Problemwahrnehmung – Vorabschätzung von Handlungsalternativen – Programmbildung – Entscheidung – Programmvollzug – Wirkungskontrolle – Handlungskorrektur/Lernen – Termination.",
-   "erklaerung": "Ähnlich einem Qualitätszirkel; kann durch Problemverschiebung neu beginnen.",
-   "folie": "Aufnahme T1 88:58",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f21",
-   "baustein": "aufgabe",
-   "format": "offen",
-   "niveau": "anwenden",
-   "schwierigkeit": 3,
-   "frage": "Ordne die Akteure der Novelle des Niedersächsischen Wassergesetzes der jeweiligen staatlichen Gewalt zu (Umweltminister, Landeskabinett, Landtagsfraktionen, Landkreise/kreisfreie Städte, Wasser- und Naturschutzverbände, Landwirtschaft).",
-   "musterloesung": "Umweltminister und Landeskabinett: Exekutive – Regierung (Gubernative). Landtagsfraktionen: Legislative. Landkreise/kreisfreie Städte: Exekutive – Verwaltung (Administration) auf kommunaler Ebene. Verbände: keine staatliche Gewalt, Interessengruppen – im Sinne von Governance Teil der Netzwerkbildung. Landwirtschaft: keine staatliche Gewalt, Betroffene/Adressaten.",
-   "bewertungspunkte": [
-    "Minister/Kabinett = Regierung/Gubernative",
-    "Fraktionen = Legislative",
-    "Landkreise/Städte = Verwaltung/Administration",
-    "Verbände = keine Gewalt, Governance/Netzwerk",
-    "Landwirtschaft = Betroffene"
-   ],
-   "punkte": 5,
-   "erklaerung": "Anwendung der horizontalen und vertikalen Gewaltenteilung.",
-   "folie": "Aufnahme T2 27:04–38:33",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f22",
-   "baustein": "transfer",
-   "format": "offen",
-   "niveau": "anwenden",
-   "schwierigkeit": 3,
-   "frage": "Inwiefern ist Webers Bürokratiemodell heute noch ein Bezugspunkt für die Verwaltung? Begründe an einem Beispiel und nenne Grenzen.",
-   "musterloesung": "Webers Merkmale (Stelle, Zuständigkeit/Hierarchie, Regelbindung, Aktenmäßigkeit, Fachpersonal) prägen die Verwaltung bis heute – z. B. bei der Hundeanmeldung: Stelle statt Person, zwei zuständige Ämter, Hundesteuersatzung gleich für alle, zwei Akten, ausgebildetes Personal. Selbst das Neue Steuerungsmodell konnte sich nicht davon lösen. Grenzen: Weber warnt selbst vor Entmenschlichung; Praxis läuft oft anders; Gegenmodelle (Mülleimer-Modell); neue Steuerungsformen wie Anreize und Governance (Wassergesetz).",
-   "bewertungspunkte": [
-    "Merkmale benannt",
-    "Praxisbeispiel",
-    "Neues Steuerungsmodell als Beleg",
-    "mindestens zwei Grenzen",
-    "eigenes Urteil"
-   ],
-   "punkte": 5,
-   "erklaerung": "Verbindet Referat 1 mit dem Fallbeispiel.",
-   "folie": "Referat Folie 2–10",
-   "pruefungsrelevant": true
-  },
-  {
-   "id": "f23",
-   "baustein": "transfer",
-   "format": "offen",
-   "niveau": "anwenden",
-   "schwierigkeit": 3,
-   "frage": "Machen steigende Pflichtaufgaben von Bund und Ländern die Kommunalpolitik überflüssig? Nimm Stellung.",
-   "musterloesung": "Nein, aber sie engen sie ein: Übertragene Aufgaben binden Personal und Geld, der Spielraum für freiwillige Aufgaben (Kultur, Schwimmbad) sinkt. Das Konnexitätsprinzip soll schützen, die Finanzierung bleibt Streitpunkt. Entscheidend ist laut Dozentin, dass die Möglichkeit zur Selbstverwaltung (Art. 28 Abs. 2 GG) besteht – nicht ihr Prozentanteil. Zudem unterscheiden sich Gemeinden stark (Budget, Engagement des Rates) – auch eine Gerechtigkeitsfrage.",
-   "bewertungspunkte": [
-    "Einengung durch Pflichtaufgaben",
-    "Konnexitätsprinzip",
-    "Art. 28 Abs. 2 GG als Garantie",
-    "Unterschiede zwischen Gemeinden",
-    "Urteil"
-   ],
-   "punkte": 5,
-   "erklaerung": "Diskussionsfrage aus Referat 2.",
-   "folie": "Aufnahme T1 52:23–65:33",
-   "pruefungsrelevant": true
-  }
- ],
- "pruefungshinweise": [
-  "(Aufnahme) Hausarbeit: Das Lehrbuch Möltgen-Sicking/Winter nutzt Beispiele aus NRW – für Niedersachsen nicht immer zutreffend; Quellenauswahl bewusst treffen [T2 72:31].",
-  "(Aufnahme) Bei Pro- und Contra-Argumenten fragt die Dozentin nach Quelle und Neutralität [T1 67:41].",
-  "(Aufnahme) Leitfrage des Seminars bleibt „Wie politisch ist Verwaltung?“ – Antwort aus dieser Sitzung: über den Vollzug gestaltet Verwaltung Politik mit [T1 80:09].",
-  "(Aufnahme) Tipp: Gesetzesfolgenabschätzung eines Gesetzes ansehen [T2 68:50]."
- ],
- "offene_fragen": [
-  "Folien der Dozentin zur Sitzung (Matrix der Gewaltenteilung, Government/Governance, Policy-Zyklus) und die Presseinformation zum Niedersächsischen Wassergesetz fehlen noch – aus Stud.IP holen und Inhalte abgleichen.",
-  "Raum für die nächste Sitzung: in der Aufnahme schlecht verständlich („ganz normal wieder in …“) – mit Stud.IP abgleichen.",
-  "Bibliotheksführung voraussichtlich am 03.12.2026 – Bestätigung in der nächsten Sitzung.",
-  "Exzerpt-Hausaufgabe (Möltgen-Sicking/Winter S. 57–65) wurde nicht besprochen – bereithalten, die Dozentin kommt evtl. darauf zurück."
- ]
+  ],
+  "definitionen": [
+    {
+      "begriff": "Macht (Weber)",
+      "wortlaut": "„jede Chance, innerhalb einer sozialen Beziehung den eigenen Willen auch gegen Widerstreben durchzusetzen, gleichviel worauf diese Chance beruht“ (Weber 2005, S. 38, zit. n. Möltgen-Sicking/Winter 2018, S. 69)",
+      "erklaerung": "Macht wirkt gegen den Willen anderer und stützt sich auf Machtmittel (z. B. Drohung); sie ist situativ und brüchig.",
+      "folie": "Referat Folie 4"
+    },
+    {
+      "begriff": "Herrschaft (Weber)",
+      "wortlaut": "„die Chance, für einen Befehl bestimmten Inhalts bei angebbaren Personen Gehorsam zu finden“ (Weber 2005, S. 38, zit. n. Möltgen-Sicking/Winter 2018, S. 69)",
+      "erklaerung": "Herrschaft beruht auf freiwilligem Gehorsam, ist dauerhaft, aber auf bestimmte Bereiche und Personen begrenzt; sie braucht Legitimität.",
+      "folie": "Referat Folie 4"
+    },
+    {
+      "begriff": "Legale (bürokratische) Herrschaft",
+      "wortlaut": "Legitimität durch Satzung – verfasstes Recht, rational geschaffen, unabhängig von Religion oder Tradition",
+      "erklaerung": "Man gehorcht dem Recht, nicht einer Person oder Tradition. Ihre Umsetzung ist das Bürokratiemodell; Stärke: dauerhaft und sachbezogen.",
+      "folie": "Referat Folie 5"
+    },
+    {
+      "begriff": "Bürokratie (Merkmale nach Weber)",
+      "wortlaut": "Stellen als Bausteine; feste Amtskompetenzen, klare Amtshierarchie; Regelbindung und Unpersönlichkeit; Aktenmäßigkeit; qualifiziertes, loyales Fachpersonal",
+      "erklaerung": "Die fünf Merkmale machen Verwaltung berechenbar, unpersönlich und überprüfbar.",
+      "folie": "Referat Folie 6"
+    },
+    {
+      "begriff": "sine ira et studio",
+      "wortlaut": "„ohne Zorn und Eifer“ – unpersönlich und regelgebunden",
+      "erklaerung": "Beschäftigte arbeiten ohne persönliche Gefühle für oder gegen jemanden; „Eifer“ meint nicht Fleiß, sondern sich persönlich zu ereifern.",
+      "folie": "Referat Folie 6"
+    },
+    {
+      "begriff": "Stellenbeschreibung",
+      "wortlaut": "",
+      "erklaerung": "Beschreibt für jeden Arbeitsplatz in der öffentlichen Verwaltung alle Tätigkeiten, Zuständigkeiten und anzuwendenden Gesetze; danach richtet sich die Eingruppierung (Entgeltgruppe).",
+      "folie": "Aufnahme T1 30:21"
+    },
+    {
+      "begriff": "Stellenplan",
+      "wortlaut": "",
+      "erklaerung": "Teil des Haushaltsplans, der die Planstellen für Beamte festlegt; folgt einer Pyramide (im Lehramt: Schulleitung – A15 – A14 – A13 als Eingangsamt).",
+      "folie": "Aufnahme T1 32:10"
+    },
+    {
+      "begriff": "Kommunale Selbstverwaltung (Art. 28 Abs. 2 GG)",
+      "wortlaut": "Recht der Gemeinden, alle Angelegenheiten der örtlichen Gemeinschaft in eigener Verantwortung zu regeln (nach Referat 2)",
+      "erklaerung": "Verfassungsrechtliche Garantie – Bund und Länder dürfen die Selbstverwaltung nicht abschaffen.",
+      "folie": "Aufnahme T1 42:23"
+    },
+    {
+      "begriff": "Eigener und übertragener Wirkungskreis",
+      "wortlaut": "",
+      "erklaerung": "Eigener Wirkungskreis: Kommune entscheidet über Ob und Wie (Rechtsaufsicht). Übertragener Wirkungskreis: Kommune führt staatliche Aufgaben aus (Fachaufsicht).",
+      "folie": "Aufnahme T1 43:11–44:55"
+    },
+    {
+      "begriff": "Rechtsaufsicht / Fachaufsicht",
+      "wortlaut": "",
+      "erklaerung": "Rechtsaufsicht prüft nur die Rechtmäßigkeit; Fachaufsicht prüft Rechtmäßigkeit und Zweckmäßigkeit und kann Weisungen erteilen.",
+      "folie": "Aufnahme T1 43:48; 44:33"
+    },
+    {
+      "begriff": "Dualistisches / monistisches System",
+      "wortlaut": "",
+      "erklaerung": "Dualismus (z. B. Niedersachsen, Bayern): strikte Trennung von eigenem und übertragenem Wirkungskreis. Monismus (z. B. NRW, Schleswig-Holstein): alles ist kommunale Aufgabe; staatliche Aufgaben als Pflichtaufgaben zur Erfüllung nach Weisung.",
+      "folie": "Aufnahme T1 44:58–47:00"
+    },
+    {
+      "begriff": "Konnexitätsprinzip",
+      "wortlaut": "Wer eine Aufgabe beschließt oder überträgt, muss auch die Kosten tragen (nach Referat 2)",
+      "erklaerung": "„Wer bestellt, bezahlt“ – in Niedersachsen in Art. 57 Abs. 4 der Niedersächsischen Verfassung verankert.",
+      "folie": "Aufnahme T1 48:33–49:38"
+    },
+    {
+      "begriff": "Vertikale Gewaltenteilung",
+      "wortlaut": "",
+      "erklaerung": "Teilung der Staatsgewalt zwischen Bund und Ländern (Föderalismus); ergänzt die horizontale Teilung in Legislative, Exekutive, Judikative zu einer Matrix.",
+      "folie": "Aufnahme T1 75:36"
+    },
+    {
+      "begriff": "Gubernative / Administration",
+      "wortlaut": "",
+      "erklaerung": "Ausdifferenzierung der Exekutive: Gubernative = Regierung (gestaltend, ordnungsgebend); Administration = Verwaltung (ausführend).",
+      "folie": "Aufnahme T1 74:37"
+    },
+    {
+      "begriff": "Government / Governance",
+      "wortlaut": "",
+      "erklaerung": "Government: Steuerung durch die formal vorgesehenen staatlichen Institutionen. Governance: Steuerung unter Einbeziehung weiterer Akteure (Netzwerke, gesellschaftliche Beteiligung); gelungen = Good Governance.",
+      "folie": "Aufnahme T1 82:48–87:35"
+    },
+    {
+      "begriff": "Policy-Zyklus",
+      "wortlaut": "Problemwahrnehmung – Vorabschätzung von Handlungsalternativen – Programmbildung – Entscheidung – Programmvollzug – Wirkungskontrolle – Handlungskorrektur/Lernen – Termination",
+      "erklaerung": "Modell, das Politik als Kreislauf beschreibt; ähnlich einem Qualitätszirkel.",
+      "folie": "Aufnahme T1 88:58"
+    },
+    {
+      "begriff": "Gesetzesfolgenabschätzung",
+      "wortlaut": "",
+      "erklaerung": "Papier, das einem Gesetz beigefügt ist: wer betroffen ist, was es kostet und welche Konsequenzen es hat.",
+      "folie": "Aufnahme T2 68:50"
+    }
+  ],
+  "aufgaben": [],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie definiert Max Weber Macht?",
+      "antwort": "„jede Chance, innerhalb einer sozialen Beziehung den eigenen Willen auch gegen Widerstreben durchzusetzen, gleichviel worauf diese Chance beruht“ (Weber 2005, S. 38).",
+      "erklaerung": "Kern: gegen den Willen anderer, gestützt auf Machtmittel.",
+      "folie": "Referat Folie 4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie definiert Max Weber Herrschaft?",
+      "antwort": "„die Chance, für einen Befehl bestimmten Inhalts bei angebbaren Personen Gehorsam zu finden“ (Weber 2005, S. 38).",
+      "erklaerung": "Kern: freiwilliger Gehorsam, dauerhaft, begrenzt auf Bereiche und Personen.",
+      "folie": "Referat Folie 4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Eigenschaften Macht oder Herrschaft zu.",
+      "kategorien": [
+        "Macht",
+        "Herrschaft"
+      ],
+      "elemente": [
+        {
+          "text": "situativ",
+          "kategorie": "Macht"
+        },
+        {
+          "text": "abhängig von Machtmitteln (z. B. Drohung)",
+          "kategorie": "Macht"
+        },
+        {
+          "text": "kann Beliebiges erzwingen",
+          "kategorie": "Macht"
+        },
+        {
+          "text": "beruht auf freiwilligem Gehorsam",
+          "kategorie": "Herrschaft"
+        },
+        {
+          "text": "braucht Legitimität, um dauerhaft zu sein",
+          "kategorie": "Herrschaft"
+        },
+        {
+          "text": "auf bestimmte Bereiche und Personen beschränkt",
+          "kategorie": "Herrschaft"
+        }
+      ],
+      "erklaerung": "Macht wirkt gegen den Willen, Herrschaft beruht auf Zustimmung.",
+      "folie": "Referat Folie 4",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Aussagen dem passenden Typ legitimer Herrschaft zu.",
+      "kategorien": [
+        "traditional",
+        "charismatisch",
+        "legal"
+      ],
+      "elemente": [
+        {
+          "text": "Erbmonarchie",
+          "kategorie": "traditional"
+        },
+        {
+          "text": "Neuerungen untergraben die Legitimität",
+          "kategorie": "traditional"
+        },
+        {
+          "text": "Alexander der Große",
+          "kategorie": "charismatisch"
+        },
+        {
+          "text": "muss sich ständig neu beweisen",
+          "kategorie": "charismatisch"
+        },
+        {
+          "text": "Satzung – rational geschaffenes Recht",
+          "kategorie": "legal"
+        },
+        {
+          "text": "dauerhaft und sachbezogen",
+          "kategorie": "legal"
+        }
+      ],
+      "erklaerung": "Tradition – Person – Recht als Grundlage der Legitimität.",
+      "folie": "Referat Folie 5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Merkmale gehören zu Webers Bürokratiemodell? (mehrere richtig)",
+      "optionen": [
+        "Stellen als Bausteine – Trennung von Person und Position",
+        "Aktenmäßigkeit",
+        "Entscheidungen nach persönlichem Ermessen der Leitung",
+        "Regelbindung und Unpersönlichkeit",
+        "Qualifiziertes, loyales Fachpersonal"
+      ],
+      "richtig": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "erklaerung": "Die fünf Merkmale: Stellen, feste Amtskompetenzen/Hierarchie, Regelbindung/Unpersönlichkeit, Aktenmäßigkeit, Fachpersonal. Persönliches Ermessen widerspricht der Unpersönlichkeit.",
+      "folie": "Referat Folie 6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Beschäftigte sollen ihr Amt „sine ira et studio“ ausüben, also ohne [[Zorn]] und [[Eifer]].",
+      "erklaerung": "„Eifer“ meint hier nicht Fleiß, sondern sich persönlich zu ereifern.",
+      "folie": "Referat Folie 6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was gilt für das Hierarchieprinzip nach Möltgen-Sicking/Winter? (mehrere richtig)",
+      "optionen": [
+        "Die Verwaltung ist wie eine lückenlose Pyramide aufgebaut.",
+        "Historisches Vorbild ist das Militär.",
+        "Weisungen laufen von unten nach oben.",
+        "Die Spitze ist demokratisch legitimiert (Wahl)."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Weisungen laufen von oben nach unten; die lückenlose Kette vermittelt jeder Stelle demokratische Legitimation.",
+      "folie": "Referat Folie 7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Nenne drei Kritikpunkte bzw. Grenzen von Webers Bürokratiemodell.",
+      "antwort": "Weber selbst warnt, Beschäftigte könnten „zu hörigen Instrumenten einer Maschine degradiert“ werden (Paulic 2016, S. 71); in der Praxis läuft Verwaltung selten so distanziert und regelgebunden ab; Gegenmodell Mülleimer-Modell (Cohen/March/Olsen 1972); das Neue Steuerungsmodell wollte sich vom weberianischen Modell verabschieden (erfolglos).",
+      "erklaerung": "Drei der vier genannten Punkte reichen.",
+      "folie": "Referat Folie 9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was ist eine Stellenbeschreibung, und wofür ist sie wichtig?",
+      "antwort": "Sie beschreibt alle Tätigkeiten eines Arbeitsplatzes (inkl. Kommunikationspartner, Gesetze, Kundenkontakt). Nach ihr richtet sich die Eingruppierung und damit das Gehalt; sie schützt Beschäftigte vor Aufgaben, die ihre Eingruppierung übersteigen.",
+      "erklaerung": "Praxisbezug zum ersten Bürokratiemerkmal „Stelle“.",
+      "folie": "Aufnahme T1 30:21",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f10",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was gilt laut Dozentin für den Stellenplan im niedersächsischen Lehramt? (mehrere richtig)",
+      "optionen": [
+        "Er folgt einer Pyramide.",
+        "A13 ist das Eingangsamt.",
+        "A14-Stellen sind meist Funktionsstellen.",
+        "Es gibt gleich viele A13- und A15-Stellen."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Die Pyramide wird nach oben schmaler – die meisten Stellen sind A13.",
+      "folie": "Aufnahme T1 32:10–33:53",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f11",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was garantiert Art. 28 Abs. 2 GG?",
+      "antwort": "Die kommunale Selbstverwaltung: Gemeinden dürfen alle Angelegenheiten der örtlichen Gemeinschaft in eigener Verantwortung regeln.",
+      "erklaerung": "„Lebensversicherung der Kommunen“.",
+      "folie": "Aufnahme T1 42:23",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu: eigener oder übertragener Wirkungskreis?",
+      "kategorien": [
+        "eigener Wirkungskreis",
+        "übertragener Wirkungskreis"
+      ],
+      "elemente": [
+        {
+          "text": "Kommune entscheidet über Ob und Wie",
+          "kategorie": "eigener Wirkungskreis"
+        },
+        {
+          "text": "Rechtsaufsicht",
+          "kategorie": "eigener Wirkungskreis"
+        },
+        {
+          "text": "Müllabfuhr selbst oder durch Privatunternehmen",
+          "kategorie": "eigener Wirkungskreis"
+        },
+        {
+          "text": "Fachaufsicht mit Weisungen",
+          "kategorie": "übertragener Wirkungskreis"
+        },
+        {
+          "text": "Meldewesen, Ausweise, Kfz-Zulassung",
+          "kategorie": "übertragener Wirkungskreis"
+        },
+        {
+          "text": "keine politische Freiheit",
+          "kategorie": "übertragener Wirkungskreis"
+        }
+      ],
+      "erklaerung": "Eigener Wirkungskreis = Selbstverwaltung; übertragener = staatlicher Vollzug.",
+      "folie": "Aufnahme T1 43:11–44:55",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Worin unterscheiden sich Rechtsaufsicht und Fachaufsicht?",
+      "antwort": "Die Rechtsaufsicht prüft nur die Rechtmäßigkeit; die Fachaufsicht prüft Rechtmäßigkeit und Zweckmäßigkeit und kann detaillierte Weisungen erteilen.",
+      "erklaerung": "Prüfungsfalle: Die Fachaufsicht geht weiter.",
+      "folie": "Aufnahme T1 43:48; 44:33",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "vergleich",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was gilt für das monistische System? (mehrere richtig)",
+      "optionen": [
+        "Es gibt keinen übertragenen Wirkungskreis.",
+        "Staatliche Aufgaben werden als Pflichtaufgaben zur Erfüllung nach Weisung eingegliedert.",
+        "Niedersachsen arbeitet monistisch.",
+        "Beispiele sind NRW und Schleswig-Holstein."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Niedersachsen (wie Bayern) ist dualistisch.",
+      "folie": "Aufnahme T1 44:58–47:00",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Nach dem [[Konnexitätsprinzip]] muss, wer eine Aufgabe überträgt, auch die Kosten tragen; in Niedersachsen steht es in Art. 57 Abs. 4 der Niedersächsischen Verfassung.",
+      "erklaerung": "„Wer bestellt, bezahlt.“",
+      "folie": "Aufnahme T1 48:33",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was gilt laut Dozentin für den deutschen Föderalismus? (mehrere richtig)",
+      "optionen": [
+        "Bei der Gesetzgebung liegt das Übergewicht beim Bund.",
+        "Beim Vollzug dominieren Länder und Kommunen.",
+        "Kommunen sind staatsrechtlich eine eigene dritte Ebene.",
+        "Wer viel vollzieht, kann Politik mitgestalten."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Kommunen gehören staatsrechtlich zu den Ländern (in der Übersicht gestrichelt).",
+      "folie": "Aufnahme T1 77:07–80:49",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "In welche zwei Bereiche wird die Exekutive ausdifferenziert?",
+      "antwort": "Regierung (Gubernative) und Verwaltung (Administration).",
+      "erklaerung": "Die Regierung gestaltet, die Verwaltung führt aus.",
+      "folie": "Aufnahme T1 74:37",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "vergleich",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Unterscheide Government und Governance.",
+      "antwort": "Government: Steuerung über die formal vorgesehenen Institutionen (Regierung, Ministerien, Verwaltung). Governance: Steuerung unter Einbeziehung weiterer Akteure – Netzwerke, gesellschaftliche Beteiligung (z. B. Reallabore); gelungen = Good Governance. Ergebnis ist in beiden Fällen eine Policy.",
+      "erklaerung": "Unterschied ist der Weg, nicht das Ergebnis.",
+      "folie": "Aufnahme T1 82:48–87:35",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Der dreigestaltige Politikbegriff unterscheidet [[Polity]] (Rahmen), [[Politics]] (Prozess) und [[Policy]] (Inhalt).",
+      "erklaerung": "Ergänzende Einordnung zum Exkurs der Dozentin.",
+      "folie": "Aufnahme T1 82:10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Nenne die Phasen des Policy-Zyklus.",
+      "antwort": "Problemwahrnehmung – Vorabschätzung von Handlungsalternativen – Programmbildung – Entscheidung – Programmvollzug – Wirkungskontrolle – Handlungskorrektur/Lernen – Termination.",
+      "erklaerung": "Ähnlich einem Qualitätszirkel; kann durch Problemverschiebung neu beginnen.",
+      "folie": "Aufnahme T1 88:58",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Ordne die Akteure der Novelle des Niedersächsischen Wassergesetzes der jeweiligen staatlichen Gewalt zu (Umweltminister, Landeskabinett, Landtagsfraktionen, Landkreise/kreisfreie Städte, Wasser- und Naturschutzverbände, Landwirtschaft).",
+      "musterloesung": "Umweltminister und Landeskabinett: Exekutive – Regierung (Gubernative). Landtagsfraktionen: Legislative. Landkreise/kreisfreie Städte: Exekutive – Verwaltung (Administration) auf kommunaler Ebene. Verbände: keine staatliche Gewalt, Interessengruppen – im Sinne von Governance Teil der Netzwerkbildung. Landwirtschaft: keine staatliche Gewalt, Betroffene/Adressaten.",
+      "bewertungspunkte": [
+        "Minister/Kabinett = Regierung/Gubernative",
+        "Fraktionen = Legislative",
+        "Landkreise/Städte = Verwaltung/Administration",
+        "Verbände = keine Gewalt, Governance/Netzwerk",
+        "Landwirtschaft = Betroffene"
+      ],
+      "punkte": 5,
+      "erklaerung": "Anwendung der horizontalen und vertikalen Gewaltenteilung.",
+      "folie": "Aufnahme T2 27:04–38:33",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f22",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Inwiefern ist Webers Bürokratiemodell heute noch ein Bezugspunkt für die Verwaltung? Begründe an einem Beispiel und nenne Grenzen.",
+      "musterloesung": "Webers Merkmale (Stelle, Zuständigkeit/Hierarchie, Regelbindung, Aktenmäßigkeit, Fachpersonal) prägen die Verwaltung bis heute – z. B. bei der Hundeanmeldung: Stelle statt Person, zwei zuständige Ämter, Hundesteuersatzung gleich für alle, zwei Akten, ausgebildetes Personal. Selbst das Neue Steuerungsmodell konnte sich nicht davon lösen. Grenzen: Weber warnt selbst vor Entmenschlichung; Praxis läuft oft anders; Gegenmodelle (Mülleimer-Modell); neue Steuerungsformen wie Anreize und Governance (Wassergesetz).",
+      "bewertungspunkte": [
+        "Merkmale benannt",
+        "Praxisbeispiel",
+        "Neues Steuerungsmodell als Beleg",
+        "mindestens zwei Grenzen",
+        "eigenes Urteil"
+      ],
+      "punkte": 5,
+      "erklaerung": "Verbindet Referat 1 mit dem Fallbeispiel.",
+      "folie": "Referat Folie 2–10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f23",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Machen steigende Pflichtaufgaben von Bund und Ländern die Kommunalpolitik überflüssig? Nimm Stellung.",
+      "musterloesung": "Nein, aber sie engen sie ein: Übertragene Aufgaben binden Personal und Geld, der Spielraum für freiwillige Aufgaben (Kultur, Schwimmbad) sinkt. Das Konnexitätsprinzip soll schützen, die Finanzierung bleibt Streitpunkt. Entscheidend ist laut Dozentin, dass die Möglichkeit zur Selbstverwaltung (Art. 28 Abs. 2 GG) besteht – nicht ihr Prozentanteil. Zudem unterscheiden sich Gemeinden stark (Budget, Engagement des Rates) – auch eine Gerechtigkeitsfrage.",
+      "bewertungspunkte": [
+        "Einengung durch Pflichtaufgaben",
+        "Konnexitätsprinzip",
+        "Art. 28 Abs. 2 GG als Garantie",
+        "Unterschiede zwischen Gemeinden",
+        "Urteil"
+      ],
+      "punkte": 5,
+      "erklaerung": "Diskussionsfrage aus Referat 2.",
+      "folie": "Aufnahme T1 52:23–65:33",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "(Aufnahme) Hausarbeit: Das Lehrbuch Möltgen-Sicking/Winter nutzt Beispiele aus NRW – für Niedersachsen nicht immer zutreffend; Quellenauswahl bewusst treffen [T2 72:31].",
+    "(Aufnahme) Bei Pro- und Contra-Argumenten fragt die Dozentin nach Quelle und Neutralität [T1 67:41].",
+    "(Aufnahme) Leitfrage des Seminars bleibt „Wie politisch ist Verwaltung?“ – Antwort aus dieser Sitzung: über den Vollzug gestaltet Verwaltung Politik mit [T1 80:09].",
+    "(Aufnahme) Tipp: Gesetzesfolgenabschätzung eines Gesetzes ansehen [T2 68:50]."
+  ],
+  "offene_fragen": [
+    "Folien der Dozentin zur Sitzung (Matrix der Gewaltenteilung, Government/Governance, Policy-Zyklus) und die Presseinformation zum Niedersächsischen Wassergesetz fehlen noch – aus Stud.IP holen und Inhalte abgleichen.",
+    "Raum für die nächste Sitzung: in der Aufnahme schlecht verständlich („ganz normal wieder in …“) – mit Stud.IP abgleichen.",
+    "Bibliotheksführung voraussichtlich am 03.12.2026 – Bestätigung in der nächsten Sitzung.",
+    "Exzerpt-Hausaufgabe (Möltgen-Sicking/Winter S. 57–65) wurde nicht besprochen – bereithalten, die Dozentin kommt evtl. darauf zurück."
+  ]
 }

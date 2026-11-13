@@ -14,7 +14,8 @@
       "Termine laut Handout Kapitel 0 (Folie 5 korrigiert) noch als Vorschlag, jeweils 14–16 Uhr; 2. Termin 22.03.2027 (vorher 29.03.2027)",
       "Aufgabenformate ähnlich wie die Aufgaben auf den Übungszetteln (Kapitel 0, Folie 5)",
       "Wer den 2. Termin als Erstversuch wählt, kann erst im folgenden Sommersemester wiederholen (RPO §25 (3))",
-      "QISPOS-Anmeldung ab Dezember 2026 (bestätigt durch korrigierte Folie 5 von Kapitel 0; genaues Datum noch offen)"
+      "QISPOS-Anmeldung ab Dezember 2026 (bestätigt durch korrigierte Folie 5 von Kapitel 0; genaues Datum noch offen)",
+      "Klausur ohne Taschenrechner – Beispiele von Hand rechenbar (Vorlesung 09.11., Aufnahme [82:36])"
     ]
   },
   "teilmodule": [
@@ -46,7 +47,8 @@
       "abgedeckt_in": [
         "mab005.1_2026-10-26",
         "mab005.1_2026-11-02",
-        "mab005.2_2026-11-02"
+        "mab005.2_2026-11-02",
+        "mab005.1_kapitel-3"
       ]
     },
     {
@@ -113,34 +115,34 @@
     "Handouts enthalten Lückenfolien (Beispiele, Beweisskizzen), die in der Vorlesung ausgefüllt werden – Lösungen in den Sitzungsdateien als „selbst erarbeitet“ gekennzeichnet",
     "Aufgabenblätter: Teil A zur Selbstkontrolle (kurze Lösungen in Stud.IP), Teil B im Seminar – jedes Blatt ist eine Hausaufgabe (Schema 5f)",
     "Ordner „mab005 - studydrive“: fremde Lösungen älterer Blätter, nicht als Grundlage verwenden",
-    "Schreibweisen der Uni (Symbole, Begriffe, Aufbau von Lösungen) verbindlich nach Projektdokument claude/mab005_schreibweisen.md – bei neuen Folien/Blättern fortschreiben (Nadine, 02.11.2026)"
+    "Schreibweisen der Uni (Symbole, Begriffe, Aufbau von Lösungen) verbindlich nach Projektdokument claude/mab005_schreibweisen.md – bei neuen Folien/Blättern fortschreiben (Nadine, 02.11.2026)",
+    "Seit 13.11.2026 (Nadine): mab005.1 wird je Vorlesungskapitel aufbereitet (content/mab005/kapitel/mab005.1_kapitel-<n>.json, Schema lernapp-kapitel/1, App-Ansicht „Nach Kapiteln“) – keine Kapitel vermischen. Ordner mab005/ nach Kapiteln sortiert: „Kapitel <n> – <Titel>/“, „Aufgabenblätter/Blatt 0x/“, „Altklausuren/“, „Literatur/“, „_Archiv/“ (alte Fassungen, Sitzungs-Lesefassungen, Studydrive). Kapitel 0 ohne Lernfragen."
   ],
   "auffaelligkeiten": [
     "Kapitel 0, Folie 5: Prüfungsanmeldung „ab Juni über QISPOS“ ist veraltet – laut Nadine (01.11.2026) ist die QISPOS-Anmeldung ab Dezember 2026",
     "Blatt 03, A.1c: Ass wird zu den Bildkarten gezählt (Bube, Dame, König, Ass)",
     "Kapitel 2, Folie 10: Beweis von Satz 2.1.3 (5) zitiert „Satz 1.4.6(6)“ – gemeint ist der Additionssatz Satz 1.4.7 (6)",
-    "Kapitel 2, Folie 31: „auf mehr als drei Ereignisse verallgemeinern“ – vermutlich „mehr als zwei“"
+    "Kapitel 2, Folie 31: „auf mehr als drei Ereignisse verallgemeinern“ – vermutlich „mehr als zwei“",
+    "Kapitel 3, Folie 10: Stabdiagramm mit falschen Häufigkeiten bei 3,1/3,2 – in der Vorlesung am 09.11. bemerkt"
   ],
-  "offene_fragen": [
-    "Bis zu welcher Folie von Kapitel 1 kam die VL am 12.10.?"
-  ],
+  "offene_fragen": [],
   "dateien": [
     {
-      "pfad": "Altklausur mab005.docx.pdf",
+      "pfad": "Altklausuren/Altklausur mab005.docx.pdf",
       "geaendert": "2026-04-16",
       "art": "Altklausur",
       "status": "später",
       "hinweis": "für klausurstil auswerten"
     },
     {
-      "pfad": "Altklausur Stochastik.pdf",
+      "pfad": "Altklausuren/Altklausur Stochastik.pdf",
       "geaendert": "2026-06-14",
       "art": "Altklausur",
       "status": "später",
       "hinweis": "für klausurstil auswerten; benutzt „Merkmalraum“ statt „Ergebnisraum“"
     },
     {
-      "pfad": "mab005.1/VL_Kapitel0_mab005_Handout.pdf",
+      "pfad": "Kapitel 0 – Organisatorisches/VL_Kapitel0_mab005_Handout.pdf",
       "geaendert": "2026-10-22",
       "art": "Folien",
       "status": "verarbeitet",
@@ -148,7 +150,7 @@
       "hinweis": "Folie 1–6"
     },
     {
-      "pfad": "mab005.1/VL_Kapitel1_mab005_Handout.pdf",
+      "pfad": "(nicht mehr im Ordner – Inhalt identisch mit der Fassung mit Anmerkungen)",
       "geaendert": "2026-10-23",
       "art": "Folien",
       "status": "verarbeitet",
@@ -156,7 +158,7 @@
       "hinweis": "Folie 1–32 → Sitzung 19.10.; Folie 33–54 → Sitzung 26.10. (vor der VL vorbereitet, Folienbereich nach der VL bestätigen)"
     },
     {
-      "pfad": "mab005.1/26.10.26.m4a",
+      "pfad": "Kapitel 1 – Wahrscheinlichkeitsmodelle/26.10.26.m4a",
       "geaendert": "2026-10-27",
       "art": "Sprachmemo (Aufnahme Vorlesung, 93 Min.)",
       "status": "verarbeitet",
@@ -164,7 +166,7 @@
       "hinweis": "am 27.10.2026 im mab005-Chat transkribiert; Ergänzungen in der App unter „Aus der Vorlesung“. Laut Aufnahme: 19.10. bis Folie 28, 26.10. Folie 29–50, Folie 51–54 folgen am 02.11. (Umbau der Folienbereiche war vorgeschlagen). Rohtranskript liegt nicht im Ordner. Nachgetragen am 31.10.2026."
     },
     {
-      "pfad": "mab005.2/Aufgabenblatt01_V1-2.pdf",
+      "pfad": "Aufgabenblätter/Blatt 01/Aufgabenblatt01_V1-2.pdf",
       "geaendert": "2026-10-22",
       "art": "Übungsblatt",
       "status": "verarbeitet",
@@ -172,7 +174,7 @@
       "hinweis": "Hausaufgabe h01"
     },
     {
-      "pfad": "mab005.2/Aufgabenblatt01_TeilA_Lösungen.pdf",
+      "pfad": "Aufgabenblätter/Blatt 01/Aufgabenblatt01_TeilA_Lösungen.pdf",
       "geaendert": "2026-10-22",
       "art": "Lösungen Teil A",
       "status": "verarbeitet",
@@ -180,7 +182,7 @@
       "hinweis": "Kontrolle"
     },
     {
-      "pfad": "mab005.2/Aufgabenblatt02_V1-2.pdf",
+      "pfad": "Aufgabenblätter/Blatt 02/Aufgabenblatt02_V1-2.pdf",
       "geaendert": "2026-10-22",
       "art": "Übungsblatt",
       "status": "verarbeitet",
@@ -188,7 +190,7 @@
       "hinweis": "Hausaufgabe h01"
     },
     {
-      "pfad": "mab005.2/Aufgabenblatt02_TeilA_Lösungen.pdf",
+      "pfad": "Aufgabenblätter/Blatt 02/Aufgabenblatt02_TeilA_Lösungen.pdf",
       "geaendert": "2026-10-22",
       "art": "Lösungen Teil A",
       "status": "verarbeitet",
@@ -196,7 +198,7 @@
       "hinweis": "Kontrolle"
     },
     {
-      "pfad": "mab005.2/Aufgabenblatt03_V1.pdf",
+      "pfad": "Aufgabenblätter/Blatt 03/Aufgabenblatt03_V1.pdf",
       "geaendert": "2026-10-24",
       "art": "Übungsblatt",
       "status": "verarbeitet",
@@ -204,147 +206,147 @@
       "hinweis": "Hausaufgabe h01; Teil A selbst gelöst – Abgleich mit Uni-Kurzlösung, sobald veröffentlicht"
     },
     {
-      "pfad": "mab005 - studydrive/Mab005 Lösung Ab1 .pdf",
+      "pfad": "_Archiv/mab005 - studydrive/Mab005 Lösung Ab1 .pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/mab005 Lösung Ab10.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/mab005 Lösung Ab10.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/mab005 Lösung Ab11.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/mab005 Lösung Ab11.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/mab005 lösung Ab12.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/mab005 lösung Ab12.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/mab005 Lösung Ab13.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/mab005 Lösung Ab13.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/mab005 Lösung Ab2 .pdf",
+      "pfad": "_Archiv/mab005 - studydrive/mab005 Lösung Ab2 .pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/mab005 Lösung Ab3.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/mab005 Lösung Ab3.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/mab005 Lösung Ab4.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/mab005 Lösung Ab4.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/mab005 Lösung Ab5.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/mab005 Lösung Ab5.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/mab005 Lösung Ab6.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/mab005 Lösung Ab6.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/mab005 Lösung Ab8.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/mab005 Lösung Ab8.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/mab005 Lösung Ab9.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/mab005 Lösung Ab9.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/Mab005 Lösungen AB 10.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/Mab005 Lösungen AB 10.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/Mab005 Lösungen AB 11.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/Mab005 Lösungen AB 11.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/Mab005 Lösungen AB 12.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/Mab005 Lösungen AB 12.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/Mab005 Lösungen AB 5.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/Mab005 Lösungen AB 5.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/Mab005 Lösungen AB 6.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/Mab005 Lösungen AB 6.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/Mab005 Lösungen AB 8.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/Mab005 Lösungen AB 8.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/Mab005 Lösungen AB 9.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/Mab005 Lösungen AB 9.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005 - studydrive/mab005 Lösungen Ab7.pdf",
+      "pfad": "_Archiv/mab005 - studydrive/mab005 Lösungen Ab7.pdf",
       "geaendert": "2026-10-02",
       "art": "Lösungen (Studydrive, fremd)",
       "status": "übersprungen",
       "hinweis": "von irgendeiner/einem Studierenden, ältere Blätter – nicht verlassen (Nadine, 25.10.2026)"
     },
     {
-      "pfad": "mab005.2/Sitzung_04/Aufgabenblatt04_V1.pdf",
+      "pfad": "Aufgabenblätter/Blatt 04/Aufgabenblatt04_V1.pdf",
       "geaendert": "2026-11-01",
       "art": "Übungsblatt",
       "status": "verarbeitet",
@@ -352,7 +354,7 @@
       "hinweis": "Hausaufgabe h01; Stud.IP 01.11.2026; schon Stoff von Kapitel 2 (Folien noch nicht veröffentlicht) – Definitionen als Ergänzung, nach der VL angleichen; Teil A selbst gelöst, Abgleich mit Uni-Kurzlösung, sobald veröffentlicht"
     },
     {
-      "pfad": "mab005.1/Sitzung_04/VL_Kapitel2_mab005_Handout.pdf",
+      "pfad": "Kapitel 2 – Bedingte Wahrscheinlichkeit und Unabhängigkeit/VL_Kapitel2_mab005_Handout.pdf",
       "geaendert": "2026-11-02",
       "art": "Folien",
       "status": "verarbeitet",
@@ -360,7 +362,7 @@
       "hinweis": "Kapitel 2 (32 Folien): Folie 1–21 → Sitzung 02.11. (laut Nadine); Folie 22–32 → Sitzung 09.11. (vorbereitet, nach der VL bestätigen)"
     },
     {
-      "pfad": "mab005.1/Sitzung_04/Kapitel 2 Stand 02.11.2026.pdf",
+      "pfad": "Kapitel 2 – Bedingte Wahrscheinlichkeit und Unabhängigkeit/Kapitel 2 Stand 02.11.2026.pdf",
       "geaendert": "2026-11-02",
       "art": "Folien mit Nadines Mitschrift",
       "status": "verarbeitet",
@@ -368,7 +370,7 @@
       "hinweis": "Mitschrift Folie 5–21 geprüft: alles richtig bis auf Folie 21 („Auto hinter Tor 3“ nicht gegeben; P(M₂|T₂) → P(M₁|T₂)) und Folie 16 („38“ = 3/8)"
     },
     {
-      "pfad": "mab005.1/Sitzung_04/Bildschirmfoto 2026-11-02 um 16.25.22.png (… 16.26.12.png, 7 Bilder)",
+      "pfad": "Kapitel 1 – Wahrscheinlichkeitsmodelle/Fotos Folie 48–54 (Tafel 02.11.)/ (7 Bilder)",
       "geaendert": "2026-11-02",
       "art": "Fotos Kapitel 1, Folie 48–54 mit Mitschrift",
       "status": "verarbeitet",
@@ -376,7 +378,7 @@
       "hinweis": "Beispiel 1.5.2 und 1.5.5 (Tafel), Zusammenfassung, Literatur"
     },
     {
-      "pfad": "mab005.1/Sitzung_04/02.11.26 - mab005.1.m4a",
+      "pfad": "Kapitel 2 – Bedingte Wahrscheinlichkeit und Unabhängigkeit/02.11.26 - mab005.1.m4a",
       "geaendert": "2026-11-02",
       "art": "Sprachmemo (Aufnahme Vorlesung, 99 Min.)",
       "status": "verarbeitet",
@@ -384,7 +386,7 @@
       "hinweis": "am 02.11.2026 transkribiert; als Nachbereitung eingearbeitet (Abschnitt „Nachbereitung (Aufnahme vom 02.11.2026)“, Fragen n01–n03, eigene PDF). Transkript liegt daneben. Dozent lädt Kapitel 1 mit Anmerkungen neu hoch."
     },
     {
-      "pfad": "mab005.1/Kapitel 1.pdf",
+      "pfad": "Kapitel 1 – Wahrscheinlichkeitsmodelle/Kapitel 1_von Lotta.pdf",
       "geaendert": "2026-10-27",
       "art": "Mitschrift Kapitel 1 (Kommilitonin/Kommilitone)",
       "status": "verarbeitet",
@@ -392,14 +394,14 @@
       "hinweis": "Quelle für Folie 35 und 45 (Sitzung 26.10.)"
     },
     {
-      "pfad": "mab005.1/MAB005.1.pdf",
+      "pfad": "_Archiv/unklar/MAB005.1.pdf",
       "geaendert": "2026-10-26",
       "art": "unklar (62 Seiten vom iPhone)",
       "status": "später",
       "hinweis": "Inhalt mit Nadine klären"
     },
     {
-      "pfad": "mab005.2/Sitzung_03/Aufgabenblatt03_TeilA_Lösungen.pdf",
+      "pfad": "Aufgabenblätter/Blatt 03/Aufgabenblatt03_TeilA_Lösungen.pdf",
       "geaendert": "2026-10-26",
       "art": "Lösungen Teil A",
       "status": "verarbeitet",
@@ -407,7 +409,7 @@
       "hinweis": "Kontrolle (27.10.)"
     },
     {
-      "pfad": "mab005.2/Sitzung_04/Aufgabenblatt04_TeilA_Lösungen.pdf",
+      "pfad": "Aufgabenblätter/Blatt 04/Aufgabenblatt04_TeilA_Lösungen.pdf",
       "geaendert": "2026-11-02",
       "art": "Lösungen Teil A",
       "status": "verarbeitet",
@@ -415,7 +417,7 @@
       "hinweis": "Kontrolle 02.11.: alles stimmt"
     },
     {
-      "pfad": "mab005.2/Sitzung_05/Aufgabenblatt05_V1.pdf",
+      "pfad": "Aufgabenblätter/Blatt 05/Aufgabenblatt05_V1.pdf",
       "geaendert": "2026-11-05",
       "art": "Übungsblatt",
       "status": "verarbeitet",
@@ -423,7 +425,7 @@
       "hinweis": "vollständig gelöst (07.11.); Statistik-Definitionen als Ergänzung nach Kütting/Sauer, mit Folien abgleichen"
     },
     {
-      "pfad": "mab005.1/Sitzung_01/VL_Kapitel0_mab005_Handout_(Folie_5_korrigiert).pdf",
+      "pfad": "Kapitel 0 – Organisatorisches/VL_Kapitel0_mab005_Handout_(Folie_5_korrigiert).pdf",
       "geaendert": "2026-10-19",
       "art": "Handout (korrigiert)",
       "status": "verarbeitet",
@@ -431,19 +433,51 @@
       "hinweis": "Folie 5: QISPOS ab Dezember, 2. Termin 22.03.2027 statt 29.03. – übernommen 07.11."
     },
     {
-      "pfad": "mab005.1/VL_Kapitel1_mab005_Handout_StudIP-Fassung.pdf",
+      "pfad": "(nicht mehr im Ordner – identisch mit der Fassung mit Anmerkungen)",
       "geaendert": "2026-10-11",
       "art": "Handout (Original)",
       "status": "verarbeitet",
       "hinweis": "identisch mit der bisherigen Kapitel-1-Datei (dort nur Nadines Notiz auf Folie 15)"
     },
     {
-      "pfad": "mab005.1/VL_Kapitel1_mab005_Handout_mit_Anmerkungen.pdf",
+      "pfad": "Kapitel 1 – Wahrscheinlichkeitsmodelle/VL_Kapitel1_mab005_Handout_mit_Anmerkungen.pdf",
       "geaendert": "2026-11-05",
       "art": "Handout mit Tafelanschrieben",
       "status": "verarbeitet",
       "sitzung": "mab005.1_2026-10-19",
       "hinweis": "Abgleich 07.11.: alle Lösungen stimmen; Ergänzungen zu Folie 20, 25, 31, 35 eingetragen"
+    },
+    {
+      "pfad": "Kapitel 3 – Statistische Grundlagen/VL_Kapitel3_mab005_Handout_von mir.pdf",
+      "geaendert": "2026-11-13",
+      "art": "Folien Kapitel 3 mit Nadines Notizen",
+      "status": "verarbeitet",
+      "sitzung": "mab005.1_2026-11-09",
+      "hinweis": "Kapitel-Aufbereitung kapitel/mab005.1_kapitel-3.json; Original-Handout nicht mehr im Ordner"
+    },
+    {
+      "pfad": "Kapitel 2 – Bedingte Wahrscheinlichkeit und Unabhängigkeit/09.11.26 - mab005.1.m4a",
+      "geaendert": "2026-11-13",
+      "art": "Sprachmemo (Aufnahme Vorlesung, 94 Min.)",
+      "status": "verarbeitet",
+      "sitzung": "mab005.1_2026-11-09",
+      "hinweis": "transkribiert 13.11.2026 (Transkript daneben); Kapitel 2 Folie 22–32 und Kapitel 3 – eingearbeitet in Kapitel 2 und 3"
+    },
+    {
+      "pfad": "Aufgabenblätter/Blatt 05/09.11.26 - mab005.2.m4a",
+      "geaendert": "2026-11-13",
+      "art": "Sprachmemo (Aufnahme Seminar 09.11.)",
+      "status": "später",
+      "sitzung": "mab005.2_2026-11-09",
+      "hinweis": "noch nicht transkribiert"
+    },
+    {
+      "pfad": "Aufgabenblätter/Blatt 05/Aufgabenblatt05_TeilA_Lösungen.pdf",
+      "geaendert": "2026-11-05",
+      "art": "Lösungen Teil A",
+      "status": "verarbeitet",
+      "sitzung": "mab005.2_2026-11-09",
+      "hinweis": "Abgleich 13.11.: stimmt"
     }
   ]
 }

@@ -1,0 +1,811 @@
+{
+  "schema": "lernapp-kapitel/1",
+  "modul": "mab005",
+  "teilmodul": "mab005.1",
+  "kapitel": 3,
+  "thema": "Kapitel 3: Statistische Grundlagen",
+  "datum": "",
+  "sitzung_nr": 0,
+  "sitzung_id": "",
+  "stand": "entwurf",
+  "hinweis": "Kapitel-Aufbereitung (Nadine, 13.11.2026): ganzes Kapitel 3 (Vorlesung 09.11.2026). Folie 1–22 ausführlich besprochen, Folie 23–26 (Lineare Regression) laut Aufnahme nur kurz gezeigt („mal gesehen haben“); danach geht es mit Kapitel 4 weiter.",
+  "sitzungen": [
+    "mab005.1_2026-11-09"
+  ],
+  "ersetzt_sitzungen": [
+    "mab005.1_2026-11-09"
+  ],
+  "quellen": [
+    {
+      "datei": "Kapitel 3 – Statistische Grundlagen/VL_Kapitel3_mab005_Handout_von mir.pdf",
+      "art": "Folien mit deinen Markierungen und Notizen (09.11.)",
+      "seiten": "1–29"
+    },
+    {
+      "datei": "Kapitel 2 – Bedingte Wahrscheinlichkeit und Unabhängigkeit/09.11.26 - mab005.1.m4a",
+      "art": "Aufnahme Vorlesung 09.11.",
+      "seiten": "–"
+    },
+    {
+      "datei": "Hübner (2009): Stochastik, S. 1–4, 6–9",
+      "art": "Literatur (Folie 2)",
+      "seiten": "fehlt im Ordner"
+    },
+    {
+      "datei": "Kütting/Sauer (2011): Elementare Stochastik, S. 1–60",
+      "art": "Literatur (Folie 2, „verstärkt“)",
+      "seiten": "fehlt im Ordner"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Statistik und Wahrscheinlichkeitsrechnung als Teile der Stochastik unterscheiden.",
+      "art": "abgeleitet",
+      "quelle": "Folie 5",
+      "fragen": [
+        "f01",
+        "f24"
+      ],
+      "erklaerung_abschnitt": "Was ist Statistik?"
+    },
+    {
+      "text": "Merkmal und Ausprägung erklären und Merkmale als nominal-, ordinal- oder metrischskaliert einordnen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 6–7",
+      "fragen": [
+        "f02",
+        "f03",
+        "f04",
+        "f23"
+      ],
+      "erklaerung_abschnitt": "Arten von Merkmalen (Skalenniveaus)"
+    },
+    {
+      "text": "Einen Datensatz $\\mathbf{x}$ und seine Ordnungsstatistik $\\mathbf{x}_{[\\,]}$ angeben und darstellen (Stab-, Balkendiagramm, Häufigkeitstabelle).",
+      "art": "abgeleitet",
+      "quelle": "Folie 8–12",
+      "fragen": [
+        "f05",
+        "f06",
+        "f07",
+        "f08",
+        "f09"
+      ],
+      "erklaerung_abschnitt": "Datensatz und Ordnungsstatistik"
+    },
+    {
+      "text": "Mittelwert, Median, Modalwert und Quantile berechnen und angeben, für welche Merkmale sie zulässig sind.",
+      "art": "abgeleitet",
+      "quelle": "Folie 14–19",
+      "fragen": [
+        "f10",
+        "f11",
+        "f12",
+        "f13",
+        "f14",
+        "f15",
+        "f16",
+        "f17",
+        "f18",
+        "f19"
+      ],
+      "erklaerung_abschnitt": "Mittelwert"
+    },
+    {
+      "text": "Begründen, warum die mittlere Abweichung ungeeignet ist, und die Streuung auf beide Arten berechnen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 20–22",
+      "fragen": [
+        "f20",
+        "f21",
+        "f22"
+      ],
+      "erklaerung_abschnitt": "Streuung"
+    },
+    {
+      "text": "Die Idee der Regressionsgerade beschreiben (laut Vorlesung nur „mal gesehen haben“).",
+      "art": "abgeleitet",
+      "quelle": "Folie 23–26",
+      "fragen": [
+        "f25"
+      ],
+      "erklaerung_abschnitt": "Lineare Regression (nur kurz gezeigt)"
+    }
+  ],
+  "kurzfassung": [
+    "Stochastik = Wahrscheinlichkeitsrechnung + Statistik; mab005 behandelt nur **beschreibende** Statistik.",
+    "Merkmal = untersuchte Eigenschaft, Ausprägung = möglicher Wert; alle Ausprägungen entsprechen einem Ergebnisraum $\\Omega$.",
+    "Skalenniveaus: nominal (nur gleich/ungleich), ordinal (Reihenfolge), metrisch (Reihenfolge und Abstände); metrisch weiter diskret oder stetig.",
+    "Datensatz $\\mathbf{x} := (x_1; \\ldots; x_n)$; Ordnungsstatistik $\\mathbf{x}_{[\\,]} := (x_{[1]}; \\ldots; x_{[n]})$ = aufsteigend geordnet (nur ordinal/metrisch).",
+    "Darstellung: Stabdiagramm (je Wert), Balkendiagramm und Häufigkeitstabelle (Klassen $A_k = [k; k + 0{,}5[$, Häufigkeit $H_n(A_k)$).",
+    "Mittelwert $\\bar{x} := \\frac{1}{n} \\sum_{i=1}^{n} x_i$ (nur metrisch); Median $\\tilde{x}$ = Mitte der Ordnungsstatistik (wenigstens ordinal, robust gegen Ausreißer); Modalwert = häufigster Wert (auch nominal, nicht eindeutig).",
+    "$p\\%$-Quantil $u_{p\\%}$: $\\frac{np}{100} \\notin \\mathbb{N}$ → $x_{[\\lfloor \\frac{np}{100} \\rfloor + 1]}$, sonst Mittel aus $x_{[\\frac{np}{100}]}$ und $x_{[\\frac{np}{100}+1]}$; $\\tilde{x} = u_{50\\%}$, Quartile $u_{25\\%}$, $u_{75\\%}$.",
+    "Die mittlere gerichtete Abweichung $\\frac{1}{n} \\sum (x_i - \\bar{x})$ ist immer 0 (Satz 3.2.9) – darum Streuung $s_{\\mathbf{x}} := \\sqrt{\\frac{1}{n} \\sum (x_i - \\bar{x})^2} = \\sqrt{\\frac{1}{n} \\sum x_i^2 - \\bar{x}^2}$ (nur metrisch)."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Was ist Statistik?",
+      "folien": "1–5",
+      "text": "Textgrundlage laut Folie 2: **Hübner 2009, S. 1–4, 6–9** und **Kütting/Sauer 2011, S. 1–60** (verstärkt). Kapitel 3 hat drei Teile: 1. Grundbegriffe, 2. Kennzahlen eines Datensatzes, 3. Lineare Regression (Folie 3). Bis Folie 22 sind Teil 1 und 2 dran gewesen.\n\n**Idee in Alltagssprache:** Bisher haben wir mit einem fertigen Modell gerechnet: Wir wussten, dass ein Würfel fair ist, und haben daraus Wahrscheinlichkeiten bestimmt. Die Statistik geht den umgekehrten Weg. Sie schaut sich **echte Daten** an (z. B. 30 gewogene Schulranzen) und fragt: Was sagen diese Daten aus?\n\n**Folie 5 (wörtlich zusammengefasst):**\n- Der Begriff *Statistik* hat **zwei Bedeutungen**: die **mathematische Disziplin** und das **Zahlenmaterial aus einer Datenerhebung**.\n- **Beschreibende Statistik:** Feststellung/Beschreibung des Ist-Zustandes.\n- **Stochastik** ist der Oberbegriff für **Wahrscheinlichkeitsrechnung** und **Statistik**.\n- Die Wahrscheinlichkeitsrechnung untersucht die Formalisierung und Modellierung zufallsbehafteter Vorgänge; die Statistik beschäftigt sich mit **Rückschlüssen auf das zugrundeliegende Modell** auf Basis von Beobachtungen/erhobenen Daten.\n\n> **Hinweis aus der Vorlesung (deine Notiz, Folie 5):** „Gehen nicht auf schließende Statistik ein!“ – In mab005 kommt nur die **beschreibende** Statistik dran.\n\n**Kurz erklärt:** Wahrscheinlichkeitsrechnung: Modell → Daten („Wie oft *wird* eine 6 fallen?“). Statistik: Daten → Modell („Ist dieser Würfel fair, wenn bei 600 Würfen 140-mal die 6 kam?“). Beides zusammen heißt Stochastik. *Beschreibend* heißt: Man fasst nur zusammen, was gemessen wurde (Mittelwert, Diagramm). *Schließend* hieße: Man zieht Schlüsse über die Stichprobe hinaus – das lassen wir weg.\n\n**Prüfungsfalle:** Stochastik ist **nicht** dasselbe wie Statistik – Stochastik ist der Oberbegriff."
+    },
+    {
+      "titel": "Merkmal und Ausprägung",
+      "folien": "6",
+      "text": "> **Folie 6:** Bei einer statistischen Erhebung verstehen wir unter dem Begriff **Merkmal** die untersuchte Eigenschaft und unter **Ausprägung** mögliche Werte der untersuchten Eigenschaft. Die Gesamtheit aller möglichen Ausprägungen eines Merkmals lässt sich durch den Ergebnisraum eines Wahrscheinlichkeitsmodells modellieren, die einzelnen Ausprägungen entsprechen dann den Ergebnissen.\n\nBeispiel von der Folie: Merkmal (natürliche) **Haarfarbe** mit den Ausprägungen blond, braun, schwarz, rot und sonstige, also $\\Omega = \\{\\text{blond}, \\text{braun}, \\text{schwarz}, \\text{rot}, \\text{sonstige}\\}$.\n\n**Aber:** Bei einer Erhebung sind möglicherweise **nicht alle** möglichen Ausprägungen im Voraus bekannt!\n\n**Kurz erklärt:** Merkmal = die *Frage* („Welche Haarfarbe?“), Ausprägung = eine mögliche *Antwort* („blond“). Hier schließt sich der Kreis zu Kapitel 1: Die Liste aller Ausprägungen ist wie ein Ergebnisraum $\\Omega$, eine einzelne Ausprägung wie ein Ergebnis $\\omega$. Deshalb gibt es bei der Haarfarbe auch die Ausprägung „sonstige“ – damit jede mögliche Antwort irgendwo hinpasst.\n\n**Prüfungsfalle:** „Haarfarbe“ ist das Merkmal, „blond“ eine Ausprägung – nicht verwechseln."
+    },
+    {
+      "titel": "Arten von Merkmalen (Skalenniveaus)",
+      "folien": "7",
+      "text": "Merkmale werden in drei Typen unterschieden (Folie 7):\n\n| Typ | was man mit den Ausprägungen machen kann | Beispiele (Folie) |\n|---|---|---|\n| **nominalskaliert** | nur kategorielle Unterscheidung: „gleich“ oder „ungleich“ | Staatsangehörigkeit, Beruf |\n| **ordinalskaliert** | zusätzlich eine **Reihenfolge**: „folgt vor/nach“, „ist besser/schlechter“, „ist größer/kleiner“ – aber **Abstände nicht mathematisch interpretierbar** | Leistungsnoten (sehr gut, gut, …), Handelsklassen von Obst |\n| **metrischskaliert** | Reihenfolge **und** Abstände mathematisch interpretierbar | Einkommen, Körpergröße, Gewicht |\n\nMetrischskalierte Merkmale werden weiter in **diskrete** und **stetige** Merkmale unterschieden (analog zu den Begriffen beim Wahrscheinlichkeitsraum).\n\n**Kurz erklärt:** Die drei Stufen bauen aufeinander auf – jede Stufe kann alles, was die vorige kann, und etwas mehr:\n1. **nominal:** nur Namen/Schubladen. „Deutsch“ ist nicht „größer“ als „Französisch“.\n2. **ordinal:** Schubladen mit Reihenfolge. „Sehr gut“ ist besser als „gut“ – aber ist der Abstand von 1 nach 2 gleich dem von 4 nach 5? Das kann man nicht sagen.\n3. **metrisch:** echte Messwerte. 4 kg sind genau 1 kg mehr als 3 kg; man kann sinnvoll addieren und subtrahieren.\n\n**Diskret** = einzelne, abzählbare Werte (Anzahl Geschwister); **stetig** = jeder Zwischenwert möglich (Körpergröße).\n\n**So erkennst du es in der Klausur:** Frag dich: Kann ich die Ausprägungen ordnen? (nein → nominal) Kann ich sinnvoll Differenzen bilden? (nein → ordinal, ja → metrisch).\n\n**Prüfungsfalle:** Schulnoten werden zwar mit Zahlen geschrieben, sind aber nur **ordinalskaliert** – die Abstände sind nicht mathematisch interpretierbar."
+    },
+    {
+      "titel": "Datensatz und Ordnungsstatistik",
+      "folien": "8–9",
+      "text": "> **Definition 3.1.1 (Datensatz):** Die aus einer Beobachtung oder Messung aufgezeichneten Daten werden **Datensatz** genannt und mit $\\mathbf{x} := (x_1; x_2; \\ldots; x_n)$ bezeichnet. Dabei heißen die $x_i$ **Werte** des Datensatzes. Ist der Datensatz aufgrund einer gezielten Teil-Erhebung entstanden, spricht man auch von einer **Stichprobe**.\n\n*Deine Notiz:* $(x_1; x_2; \\ldots; x_n)$ ist ein **$n$-Tupel** – eine geordnete Liste mit $n$ Einträgen. Achtung Schreibweise: Das $\\mathbf{x}$ für den ganzen Datensatz ist **fett**, die einzelnen Werte $x_i$ sind normal geschrieben; getrennt wird mit **Semikolon** (wegen der Dezimalkommas).\n\n> **Definition 3.1.2 (Ordnungsstatistik):** Bezüglich eines Datensatzes $\\mathbf{x}$ heißt der **geordnete Datensatz**, bezeichnet mit $\\mathbf{x}_{[\\,]} := (x_{[1]}; x_{[2]}; \\ldots; x_{[n]})$, **Ordnungsstatistik** zu $\\mathbf{x}$.\n\nEine Ordnungsstatistik kann es nur für **ordinal- oder metrischskalierte** Merkmale geben. Wird nicht explizit etwas anderes gefordert, ist die Ordnungsstatistik **aufsteigend** bezüglich $<$ geordnet.\n\n**Kurz erklärt:** $x_{[1]}$ (sprich: „x in eckigen Klammern 1“) ist der **kleinste** Wert, $x_{[n]}$ der **größte**. Unterschied: $x_1$ ist der **zuerst gemessene** Wert, $x_{[1]}$ der **kleinste**. Ordnen kann man nur, wenn es eine Reihenfolge gibt – darum geht das bei nominalen Merkmalen (Staatsangehörigkeit) nicht.\n\n**Beispiel 3.1.3** – der Datensatz, mit dem das ganze Kapitel arbeitet:\n\n{{aufgabe a01}}\n\n**Prüfungsfalle:** $x_3$ und $x_{[3]}$ sind meist verschiedene Zahlen. Im Beispiel ist $x_3 = 3{,}5$ (dritter Ranzen), aber $x_{[3]} = 3{,}1$ (drittkleinster Wert)."
+    },
+    {
+      "titel": "Darstellung von Datensätzen",
+      "folien": "10–12",
+      "text": "Beispiel 3.1.4 zeigt den Datensatz aus 3.1.3 auf drei Arten:\n\n- **Stabdiagramm (Folie 10):** Ausgehend von jedem beobachteten Wert $x_i$ wird eine Linie gezogen, deren Länge der (absoluten) **Häufigkeit** des Wertes im Datensatz entspricht.\n- **Säulen- bzw. Balkendiagramm (Folie 11):** wie das Stabdiagramm, aber die Werte werden in **Klassen** zusammengefasst. Die Höhe eines Balkens entspricht der absoluten Häufigkeit der Messwerte in dieser Klasse. Im Beispiel: Intervalle der Länge $0{,}5$, beginnend mit $[3; 3{,}5[$.\n- **Häufigkeitstabelle (Folie 12):** Die Werte können ebenfalls in Klassen zusammengefasst werden.\n\n{{aufgabe a02}}\n\n**Kurz erklärt:** Beim Stabdiagramm bekommt **jeder einzelne Wert** einen Stab – bei vielen verschiedenen Werten wird das unübersichtlich. Beim Balkendiagramm packt man benachbarte Werte in eine **Klasse** (eine „Schublade“, z. B. alle Gewichte von 3 bis unter 3,5 kg) und zählt pro Klasse. $[k; k + 0{,}5[$ heißt: $k$ gehört dazu, $k + 0{,}5$ nicht mehr – so landet jeder Wert in **genau einer** Klasse.\n\n> **Auffälligkeit (Folie 10):** Laut Datensatz kommt $3{,}1$ **zweimal** und $3{,}2$ **dreimal** vor. Du hast im Stabdiagramm an dieser Stelle etwas eingezeichnet (roter Punkt bei $3{,}1$ auf Höhe 2, Strich bis 3) – das passt zu diesen Häufigkeiten.\n\n**Prüfungsfalle:** Die Klassen müssen lückenlos und überschneidungsfrei sein – darum ist eine Seite offen ($[3; 3{,}5[$). Wäre $3{,}5$ in zwei Klassen, würde es doppelt gezählt."
+    },
+    {
+      "titel": "Kennzahlen eines Datensatzes – wozu?",
+      "folien": "13–14",
+      "text": "**Folie 14:** Stab-, Balkendiagramm und Tabelle enthalten fast alle Informationen – für eine **schnelle Beurteilung** sind sie zu unübersichtlich. Stattdessen beschreibt man einen Datensatz mit geeigneten **Kennzahlen**: „mittlere“ Werte (**Lageparameter**) und die Schwankung um diese mittleren Werte (**Streuungsparameter**). Auch die absolute und relative Häufigkeit aus Kapitel 1 sind solche Kennzahlen.\n\n**Kurz erklärt:** Eine Kennzahl presst den ganzen Datensatz in **eine Zahl**. Lageparameter sagen „Wo liegen die Daten ungefähr?“ (Mittelwert, Median, Modalwert, Quantile). Streuungsparameter sagen „Wie weit liegen sie auseinander?“ (Streuung). Zwei Klassen können denselben Mittelwert haben, aber in einer liegen alle Ranzen bei 4 kg, in der anderen zwischen 1 und 7 kg – das zeigt erst die Streuung."
+    },
+    {
+      "titel": "Mittelwert",
+      "folien": "15",
+      "text": "> **Definition 3.2.1 (Mittelwert):** Der **Mittelwert** $\\bar{x}$ eines Datensatzes $\\mathbf{x}$ ist das **arithmetische Mittel** der Werte $x_i$, d. h. $$\\bar{x} := \\frac{1}{n} \\sum_{i=1}^{n} x_i .$$\n\n*Vorgelesen:* $\\bar{x}$ – „x quer“. $\\sum_{i=1}^{n} x_i$ – „Summe der $x_i$ für $i$ von 1 bis $n$“, also $x_1 + x_2 + \\ldots + x_n$.\n\n{{aufgabe a03}}\n\n**Folie 15:** Der Mittelwert kann **nur für metrischskalierte** Merkmale gebildet werden! Andere Mittelwerte sind denkbar (z. B. das geometrische Mittel $\\sqrt[n]{\\prod_{i=1}^{n} x_i}$); in dieser Veranstaltung steht **„Mittelwert“ immer für das arithmetische Mittel**.\n\n**Kurz erklärt:** Alles zusammenzählen und durch die Anzahl teilen – der bekannte „Durchschnitt“. Nur metrisch, weil man dafür **addieren** muss; „sehr gut + befriedigend“ ergibt keinen Sinn.\n\n**Prüfungsfalle:** In der Uni-Schreibweise das Ergebnis als **Bruch** angeben ($\\frac{319}{75}$) und gerundet mit $\\approx$ ($\\approx 4{,}25$) – nicht „$= 4{,}25$“."
+    },
+    {
+      "titel": "Median",
+      "folien": "16",
+      "text": "> **Definition 3.2.3 (Median):** Der **Median** $\\tilde{x}$ eines Datensatzes $\\mathbf{x}$ der Länge $n$ ist der mittlere Wert der Ordnungsstatistik $\\mathbf{x}_{[\\,]}$, wenn $n$ ungerade ist, bzw. das arithmetische Mittel der beiden mittleren Werte der Ordnungsstatistik, wenn $n$ gerade ist; d. h.\n> $$\\tilde{x} := \\begin{cases} x_{[\\frac{n+1}{2}]} & \\text{, falls } n \\text{ ungerade} \\\\ \\frac{1}{2}\\left(x_{[\\frac{n}{2}]} + x_{[\\frac{n}{2}+1]}\\right) & \\text{, falls } n \\text{ gerade} \\end{cases}$$\n\n*Vorgelesen:* $\\tilde{x}$ – „x Schlange“ (Tilde).\n\n{{aufgabe a04}}\n\n**Folie 16:** Der Median kann nur für **wenigstens ordinalskalierte** Merkmale gebildet werden; muss ein arithmetisches Mittel gebildet werden (gerades $n$), braucht man sogar ein **metrischskaliertes** Merkmal.\n\n**Kurz erklärt:** Der Median ist der Wert **in der Mitte**, wenn man alle Werte der Größe nach aufreiht – links und rechts davon liegen gleich viele. Bei 5 Werten ist es der 3., bei 6 Werten liegt die Mitte zwischen dem 3. und 4. Wert, also nimmt man deren Mittel. Vorteil (Zusammenfassung Folie 28): Der Median ist gegenüber einzelnen **Ausreißern stabiler** als der Mittelwert. Zahlenbeispiel: $(1; 2; 3; 4; 100)$ hat Mittelwert $22$, aber Median $3$.\n\n**Prüfungsfalle:** Vor dem Median **immer erst ordnen** (Ordnungsstatistik) – der Median ist nicht der mittlere Wert der ungeordneten Liste."
+    },
+    {
+      "titel": "Modalwert",
+      "folien": "17",
+      "text": "> **Definition 3.2.5 (Modalwert):** Ein Wert $x_k$ eines Datensatzes $\\mathbf{x}$ mit der **größten absoluten Häufigkeit**, d. h. $H_n(\\{x_k\\}) \\geq H_n(\\{x_i\\})$ für alle $1 \\leq i \\leq n$, heißt **Modalwert** von $\\mathbf{x}$.\n\n{{aufgabe a05}}\n\n**Folie 17 (von dir rot markiert):** Modalwerte lassen sich **immer** bestimmen, auch für nur **nominalskalierte** Merkmale; aber Modalwerte müssen **nicht eindeutig** sein (verschiedene Werte können mit derselben größten absoluten Häufigkeit auftauchen)!\n\n**Kurz erklärt:** Der Modalwert ist der Wert, der **am häufigsten** vorkommt. Man muss dafür nur zählen – darum geht er sogar bei Staatsangehörigkeiten. $H_n(\\{x_k\\})$ ist die absolute Häufigkeit aus Kapitel 1 (Def. 1.4.2): wie oft $x_k$ unter den $n$ Werten vorkommt. Beispiel mit zwei Modalwerten: $(1; 1; 2; 3; 3)$ – sowohl $1$ als auch $3$.\n\n**Prüfungsfalle:** Es heißt „**ein** Modalwert“, nicht „der“ – es kann mehrere geben."
+    },
+    {
+      "titel": "Quantile",
+      "folien": "18–19",
+      "text": "*Deine Notiz:* Quantile sind eine **Verallgemeinerung des Medians**.\n\n> **Definition 3.2.7 (Quantile):** Das **$p\\%$-Quantil** $u_{p\\%}$ eines Datensatzes $\\mathbf{x}$ hat die Eigenschaft, dass in der Ordnungsstatistik $\\mathbf{x}_{[\\,]}$ links (bzw. rechts) von $u_{p\\%}$ höchstens $p\\%$ (bzw. $(100 - p)\\%$) der Daten liegen. Es wird definiert durch\n> $$u_{p\\%} := \\begin{cases} x_{[\\lfloor \\frac{np}{100} \\rfloor + 1]} & \\text{, falls } \\frac{np}{100} \\notin \\mathbb{N} \\\\ \\frac{1}{2}\\left(x_{[\\frac{np}{100}]} + x_{[\\frac{np}{100}+1]}\\right) & \\text{, falls } \\frac{np}{100} \\in \\mathbb{N} \\end{cases}$$\n> Für $u_{25\\%}$ bzw. $u_{75\\%}$ spricht man auch vom **unteren** bzw. **oberen Quartil**.\n\nFür eine reelle Zahl $a$ bezeichnet $\\lfloor a \\rfloor$ die **größte ganze Zahl, die kleiner oder gleich $a$** ist (abrunden): $\\lfloor 7{,}5 \\rfloor = 7$, $\\lfloor 7 \\rfloor = 7$. Quantile verallgemeinern den Median: $\\tilde{x} = u_{50\\%}$. Sie haben dieselben Anforderungen wie der Median (wenigstens ordinalskaliert).\n\n**Kurz erklärt – so rechnest du:**\n1. Ordnungsstatistik aufschreiben.\n2. $\\frac{np}{100}$ ausrechnen – das ist „$p\\%$ von $n$“, also wie viele Werte links liegen dürfen.\n3. **Keine natürliche Zahl** (Komma-Zahl)? → abrunden, $+1$, diesen Wert nehmen.\n4. **Natürliche Zahl?** → Mittel aus diesem Wert und dem nächsten (genau wie beim Median mit geradem $n$).\n\n**Zu deinem „?“ beim Fall $\\frac{np}{100} \\in \\mathbb{N}$:** Dann liegt die Grenze **genau zwischen** zwei Werten. Beispiel Median ($p = 50$) mit $n = 30$: $\\frac{30 \\cdot 50}{100} = 15 \\in \\mathbb{N}$, also $u_{50\\%} = \\frac{1}{2}(x_{[15]} + x_{[16]})$ – das ist genau die Median-Formel für gerades $n$. Links von dieser Grenze liegen 15 Werte = $50\\%$, rechts auch. Ist $\\frac{np}{100}$ dagegen z. B. $7{,}5$, kann die Grenze nicht „zwischen“ liegen; man nimmt den 8. Wert, dann liegen links nur 7 Werte ($< 7{,}5$).\n\n**Beispiel 3.2.8** (Folie 19):\n\n{{aufgabe a06}}\n\n**Prüfungsfalle:** $\\lfloor \\cdot \\rfloor$ heißt **abrunden**, nicht runden: $\\lfloor 7{,}9 \\rfloor = 7$. Und das „$+1$“ nicht vergessen."
+    },
+    {
+      "titel": "Mittlere Abweichung vom Mittelwert",
+      "folien": "20",
+      "text": "**Folie 20:** Für die Schwankung um den Mittelwert scheint es zunächst sinnvoll, die mittlere Abweichung der Messwerte $x_i$ vom Mittelwert $\\bar{x}$ zu bestimmen. Dieser Ansatz ist jedoch **nicht sinnvoll**:\n\n> **Satz 3.2.9:** Für jeden beliebigen Datensatz $\\mathbf{x}$ gilt für die mittlere (gerichtete) Abweichung der Messwerte $x_i$ vom Mittelwert $\\bar{x}$, dass $$\\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x}) = 0 .$$\n\nBeweis laut Folie: „Folgt unmittelbar aus $\\bar{x} = \\frac{1}{n} \\sum_{i=1}^{n} \\bar{x}$. (Übung AB5)“\n\n{{aufgabe a07}}\n\n**Kurz erklärt:** „Gerichtet“ heißt: mit Vorzeichen. Werte über dem Mittelwert haben positive, Werte darunter negative Abweichungen – und die heben sich **immer genau auf**. Zahlenbeispiel $(2; 4; 9)$: $\\bar{x} = 5$, Abweichungen $-3$, $-1$, $+4$, Summe $0$. Die mittlere gerichtete Abweichung ist also immer 0 und sagt nichts über die Schwankung."
+    },
+    {
+      "titel": "Streuung",
+      "folien": "21–22",
+      "text": "> **Definition 3.2.10 (Streuung):** Die **Streuung** $s_{\\mathbf{x}}$ eines Datensatzes $\\mathbf{x}$ ist die quadratisch gemittelte Abweichung der Messwerte $x_i$ vom Mittelwert $\\bar{x}$, also $$s_{\\mathbf{x}} := \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})^2} .$$\n\nDa die Streuung vom Mittelwert abhängt, lässt sie sich nur für **metrischskalierte** Merkmale bilden!\n\n> **Satz 3.2.11:** Für die Streuung eines Datensatzes $\\mathbf{x}$ gilt $$s_{\\mathbf{x}} = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} x_i^2 - \\bar{x}^2} .$$ *(Deine Notiz: „für Praxis besser geeignet!“)*\n\n**Kurz erklärt:** Damit sich positive und negative Abweichungen nicht aufheben (Satz 3.2.9), **quadriert** man sie – Quadrate sind nie negativ. Dann mittelt man und zieht am Ende die **Wurzel**, damit die Einheit wieder stimmt (kg statt kg²). Die Formel aus Satz 3.2.11 ist praktischer, weil man nicht jede einzelne Abweichung ausrechnen muss: „Mittelwert der Quadrate minus Quadrat des Mittelwerts“, dann Wurzel. Zahlenbeispiel $(2; 4; 9)$: $\\bar{x} = 5$; Definition: $\\sqrt{\\frac{1}{3}(9 + 1 + 16)} = \\sqrt{\\frac{26}{3}} \\approx 2{,}94$; Satz 3.2.11: $\\sqrt{\\frac{1}{3}(4 + 16 + 81) - 25} = \\sqrt{\\frac{101}{3} - \\frac{75}{3}} = \\sqrt{\\frac{26}{3}}$ – gleiches Ergebnis.\n\n**Beispiel 3.2.12** (Folie 22):\n\n{{aufgabe a08}}\n\n**Prüfungsfalle:** Bei Satz 3.2.11 wird $\\bar{x}^2$ **nach** dem Mitteln abgezogen – nicht in die Summe hineinziehen. Und: Die Uni teilt durch $n$ (nicht durch $n - 1$ wie manche Taschenrechner)."
+    },
+    {
+      "titel": "Lineare Regression (nur kurz gezeigt)",
+      "folien": "23–26",
+      "text": "> **Hinweis aus der Vorlesung (Aufnahme 09.11.):** Die lineare Regression wurde am Ende nur **kurz gezeigt**. Laut Dozent ist sie „nichts, was für uns so zentral ist“ – man sollte sie „mal gesehen haben“. In zwei bis drei Wochen kommt dazu eine Aufgabe in Teil A eines Blatts.\n\n**Folie 24:** Häufig werden Daten zu **mehreren Merkmalen** gleichzeitig erhoben, um Zusammenhänge zu untersuchen. Für zwei Merkmale ergibt sich ein **zweidimensionaler Datensatz** $\\mathbf{z} = ((x_1, y_1); (x_2, y_2); \\ldots; (x_n, y_n))$, darstellbar als Punkte im Koordinatensystem. Vermutet man einen **linearen Zusammenhang**, fragt man nach der „**Regressionsgerade**“. Ansatz: Minimierung der Summe der Abstandsquadrate. (Beispiel 3.3.1: $x_i$ = Schulranzengewichte aus Beispiel 3.1.3, $y_i$ = Volumina der Ranzen.)\n\n> **Satz 3.3.2:** Für einen zweidimensionalen Datensatz $\\mathbf{z} = ((x_1, y_1); (x_2, y_2); \\ldots; (x_n, y_n))$ mit $s_{\\mathbf{x}} \\neq 0$ minimiert die **Regressionsgerade** $$y = a^* + b^* x$$ mit $$a^* = \\bar{y} - b^* \\bar{x} \\quad \\text{und} \\quad b^* = \\frac{s_{\\mathbf{xy}}}{(s_{\\mathbf{x}})^2}, \\quad \\text{wobei} \\quad s_{\\mathbf{xy}} = \\frac{1}{n} \\sum_{i=1}^{n} x_i y_i - \\bar{x}\\bar{y},$$ die Summe der $y$-Abstandsquadrate $\\sum_{i=1}^{n} \\left(y_i - (a + b x_i)\\right)^2$.\n\nMit anderen Worten (Folie 25): Unter allen linearen Funktionen $f(x) = a + bx$ ist die mit $a = a^*$ und $b = b^*$ diejenige, für die die Summe der quadrierten Abstände zwischen gemessenem $y_i$ und berechnetem $f(x_i)$ **kleinstmöglich** ist.\n\n**Beispiel 3.3.3 (Folie 26):** Für die 30 Paare (Gewicht; Volumen) ergibt sich $a^* \\approx 2{,}97$ und $b^* \\approx 2{,}89$ (selbst nachgerechnet: $\\bar{x} = \\frac{319}{75}$, $\\bar{y} \\approx 15{,}27$, $s_{\\mathbf{xy}} \\approx 2{,}35$, $(s_{\\mathbf{x}})^2 \\approx 0{,}81$). Achtung Schreibweise: Weil die Zahlen Dezimalkommas haben, steht **im Paar ein Semikolon**: $(4{,}3; 15{,}2)$.\n\n**Kurz erklärt:** Man legt eine Gerade so durch die Punktwolke, dass die senkrechten Abstände der Punkte zur Geraden – quadriert und addiert – möglichst klein sind. Quadriert wird aus demselben Grund wie bei der Streuung: damit sich Abstände nach oben und unten nicht aufheben. $b^*$ ist die Steigung: Im Beispiel wächst das Volumen um etwa 2,89 Liter pro Kilogramm. **Aus der Vorlesung [86:20]:** Die Gerade ist die *bestmögliche Schätzung* – sie muss nicht der „wahre“ Zusammenhang sein (Messwerte können verzerrt sein); das reicht schon in die schließende Statistik hinein."
+    },
+    {
+      "titel": "Zusammenfassung Kapitel 3",
+      "folien": "27–29",
+      "text": "Die Zusammenfassung (Folie 27–28) in Stichpunkten:\n\n- Statistik + Wahrscheinlichkeitsrechnung = **Stochastik**. Die Statistik befasst sich mit Erhebung, Darstellung und Auswertung von Daten.\n- Ein Merkmal lässt sich durch den **Ergebnisraum** eines Wahrscheinlichkeitsraums modellieren; die Ausprägungen sind die Ergebnisse.\n- **nominal** (nur kategorielle Unterscheidung), **ordinal** (Reihenfolge), **metrisch** (Reihenfolge und Abstände/Summen/Differenzen interpretierbar).\n- Datensatz $\\mathbf{x} = (x_1; \\ldots; x_n)$, Ordnungsstatistik $\\mathbf{x}_{[\\,]} = (x_{[1]}; \\ldots; x_{[n]})$ (wenigstens ordinal).\n- Darstellung: Stab-, Balkendiagramm, Häufigkeitstabelle – Werte evtl. in Klassen.\n- **Kennzahlen** komprimieren gezielt Informationen: Häufigkeiten, Lageparameter (Mittelwert, Median, Modalwert, Quantile), Streuungsparameter (Streuung).\n- **Mittelwert** nur metrisch; **Median** teilt den geordneten Datensatz in zwei gleich große Hälften, wenigstens ordinal, **stabiler gegen Ausreißer**; **Modalwert** auch nominal, nicht zwingend eindeutig; **Quantile** verallgemeinern den Median ($\\tilde{x} = u_{50\\%}$).\n- Mittlere gerichtete Abweichung ungeeignet → **Streuung** $s_{\\mathbf{x}}$, nur metrisch, zwei Formeln.\n- **Regressionsgerade** $f(x) = a^* + b^* x$ minimiert die Summe der quadrierten Abstände.\n\nFolie 29: Literatur Hübner (2009) und Kütting/Sauer (2011). **Aus der Vorlesung [35:28]:** Kapitel 3 orientiert sich viel stärker an **Kütting/Sauer** – zum Nachlesen lieber dort schauen."
+    },
+    {
+      "titel": "Aus der Vorlesung: mündliche Ergänzungen (Aufnahme 09.11.2026)",
+      "folien": "1–26",
+      "nachbereitung": true,
+      "text": "Was der Dozent am 09.11. zu Kapitel 3 mündlich ergänzt hat (Aufnahme, automatisch transkribiert, sinngemäß):\n\n- [35:28] Kapitel 3 orientiert sich **stärker an Kütting/Sauer** als an Hübner – dort ist es „besser und ausführlicher“.\n- [35:56] Die **lineare Regression** ist „nichts Zentrales“, man sollte sie nur „mal gesehen haben“; sie kommt in ein paar Wochen in einem Teil A dran. Heute zentral: **Grundbegriffe und Kennzahlen**.\n- [36:24] „Statistik“ heißt auch einfach ein **Datensatz** oder dessen Darstellung (z. B. „die Statistik“ in den Nachrichten).\n- [37:48] **Schließende Statistik** (aus Daten das Wahrscheinlichkeitsmodell schätzen, Hochrechnungen bei Wahlen) wird **nicht** behandelt.\n- [41:04] Merkmal ↔ Ergebnisraum ist „das **Bindeglied** zwischen Statistik und Wahrscheinlichkeitsrechnung“. „Sonstige“ braucht man, weil man vorher nicht alle Ausprägungen kennt (Beispiel: Nationalitäten auf einem Konzert, ein Mensch über 3 m).\n- [45:16] **Noten** als 1, 2, 3 … zu behandeln und Abstände zu bilden, ist „eigentlich mehr so hingemogelt“ – Noten sind **ordinal**. Ebenso Handelsklassen: „Was soll Klasse 2 minus Klasse 3 sein?“\n- [49:56] Schreibweise Ordnungsstatistik: **eckige Klammern** am Datensatz bzw. im Index, „weil sich beim Umsortieren die Position ändern kann“.\n- [57:24] Im **Stabdiagramm (Folie 10)** ist ein **Fehler auf der Folie** aufgefallen (Häufigkeiten bei 3,1 und 3,2) – das passt zu deiner Korrektur. Balkendiagramm und Tabelle stimmen (8 Werte in $[3; 3{,}5[$).\n- [57:52] Die **Klassenbreite** ist frei wählbar – ein Kompromiss zwischen Übersicht und Informationsverlust (eine Klasse von 3 bis 6 wäre zu grob, Breite 0,05 zu fein).\n- [66:44] Achtung beim Schreiben: **Mittelwert $\\bar{x}$ mit Strich**, **Median $\\tilde{x}$ mit Tilde** – nicht verwechseln.\n- [68:36] Median bei geradem $n$: Wegen des Mittelns braucht man streng genommen ein **metrisches** Merkmal; sind die beiden mittleren Werte gleich (wie hier $4{,}2$ und $4{,}2$), kann man ihn auch bei ordinalen Merkmalen angeben.\n- [69:04] Der Median ist **unempfindlicher gegenüber Ausreißern** (Beispiel: 20 Werte um 100 und ein Wert um 10 000) – das kommt in den Übungsaufgaben (Blatt 05, B.2).\n- [71:52] Beispiel für zwei Modalwerte: Käme $4{,}2$ auch viermal vor, wären $5{,}0$ und $4{,}2$ beide Modalwerte.\n- [74:12] Setzt man in die Quantil-Definition $p = 50$ ein, kommt **genau die Median-Definition** heraus ($\\frac{n}{2} \\notin \\mathbb{N}$: abrunden $+1$ = $\\frac{n+1}{2}$; $\\frac{n}{2} \\in \\mathbb{N}$: Mittel aus zwei Werten).\n- [79:48] Beim Quadrieren gehen **große Abstände viel stärker** ein als kleine.\n- [81:40] Satz 3.2.11 ist **weniger Rechenaufwand**: Man muss nicht jede Differenz $x_i - \\bar{x}$ bilden und quadrieren.\n- [82:36] **Klausur ohne Taschenrechner!** Deshalb kommen dort nur Beispiele, die man **von Hand** rechnen kann – keine 30- bis 50-elementigen Messreihen.\n- [83:32] Deutung der Streuung: Die meisten Ranzen liegen im Bereich **Mittelwert ± Streuung**, also etwa $4{,}25 \\pm 0{,}9$.\n- [87:16] Nächste Woche geht es mit **Kapitel 4** weiter. Zu Kapitel 2 kommt eine Fassung mit Anmerkungen in Stud.IP, zu Kapitel 3 nicht (es wurde nichts angeschrieben).\n\n**Kurz erklärt:** Für die Klausur heißt das: Definitionen und Rechenwege sicher können, mit kleinen Zahlen von Hand rechnen, und bei jeder Kennzahl zuerst das Skalenniveau prüfen."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Statistik / Stochastik",
+      "wortlaut": "Begriff Statistik wird in zwei Bedeutungen verwendet: Bezeichnung einer mathematischen Disziplin und Zahlenmaterial aus Datenerhebung. […] Stochastik als Oberbegriff fasst die mathematischen Disziplinen Wahrscheinlichkeitsrechnung und Statistik zusammen.",
+      "erklaerung": "Stochastik = Wahrscheinlichkeitsrechnung (vom Modell zu den Daten) + Statistik (von den Daten zurück zum Modell). In mab005 nur beschreibende Statistik.",
+      "folie": "5"
+    },
+    {
+      "begriff": "Merkmal, Ausprägung",
+      "wortlaut": "Bei einer statistischen Erhebung verstehen wir unter dem Begriff Merkmal die untersuchte Eigenschaft und unter Ausprägung mögliche Werte der untersuchten Eigenschaft.",
+      "erklaerung": "Merkmal = die Frage (Haarfarbe), Ausprägung = eine mögliche Antwort (blond). Alle Ausprägungen zusammen entsprechen einem Ergebnisraum $\\Omega$.",
+      "folie": "6"
+    },
+    {
+      "begriff": "nominalskaliert",
+      "wortlaut": "nominalskalierte Merkmale sind Merkmale, bei denen die Ausprägungen lediglich kategorielle Unterscheidung erlauben, also nur Vergleiche der Art „gleich“ oder „ungleich“ möglich sind.",
+      "erklaerung": "Nur Schubladen ohne Reihenfolge, z. B. Staatsangehörigkeit, Beruf.",
+      "folie": "7"
+    },
+    {
+      "begriff": "ordinalskaliert",
+      "wortlaut": "ordinalskalierte Merkmale sind Merkmale, deren Ausprägungen sich in eine Reihenfolge bringen lassen […]. Dabei sind aber Abstände zwischen den verschiedenen Ausprägungen nicht mathematisch interpretierbar.",
+      "erklaerung": "Reihenfolge ja, sinnvolle Abstände nein, z. B. Schulnoten, Handelsklassen von Obst.",
+      "folie": "7"
+    },
+    {
+      "begriff": "metrischskaliert",
+      "wortlaut": "metrischskalierte Merkmale sind Merkmale, deren Ausprägungen sich in eine Reihenfolge bringen lassen und bei denen Abstände mathematisch interpretierbar sind.",
+      "erklaerung": "Echte Messwerte, man kann sinnvoll addieren/subtrahieren, z. B. Einkommen, Körpergröße, Gewicht; weiter unterteilt in diskret und stetig.",
+      "folie": "7"
+    },
+    {
+      "begriff": "Datensatz",
+      "wortlaut": "Definition 3.1.1 (Datensatz) Die aus einer Beobachtung oder Messung aufgezeichneten Daten werden Datensatz genannt und mit $\\mathbf{x} := (x_1; x_2; \\ldots; x_n)$ bezeichnet. Dabei heißen die $x_i$ Werte des Datensatzes. Ist der Datensatz aufgrund einer gezielten Teil-Erhebung entstanden, spricht man auch von einer Stichprobe.",
+      "erklaerung": "Die Liste aller Messwerte als $n$-Tupel (fettes $\\mathbf{x}$, Trennung mit Semikolon). Stichprobe = nur ein Teil wurde gezielt erhoben.",
+      "folie": "8"
+    },
+    {
+      "begriff": "Ordnungsstatistik",
+      "wortlaut": "Definition 3.1.2 (Ordnungsstatistik) Bezüglich eines Datensatzes $\\mathbf{x}$ heißt der geordnete Datensatz, bezeichnet mit $\\mathbf{x}_{[\\,]} := (x_{[1]}; x_{[2]}; \\ldots; x_{[n]})$, Ordnungsstatistik zu $\\mathbf{x}$.",
+      "erklaerung": "Die Werte aufsteigend sortiert; $x_{[1]}$ ist der kleinste, $x_{[n]}$ der größte Wert. Nur bei ordinal- oder metrischskalierten Merkmalen möglich.",
+      "folie": "8"
+    },
+    {
+      "begriff": "Mittelwert",
+      "wortlaut": "Definition 3.2.1 (Mittelwert) Der Mittelwert $\\bar{x}$ eines Datensatzes $\\mathbf{x}$ ist das arithmetische Mittel der Werte $x_i$, d. h. $\\bar{x} := \\frac{1}{n} \\sum_{i=1}^{n} x_i$.",
+      "erklaerung": "Summe durch Anzahl („Durchschnitt“), sprich „x quer“. Nur für metrischskalierte Merkmale. Beispiel: $(2; 4; 9)$ hat $\\bar{x} = 5$.",
+      "folie": "15"
+    },
+    {
+      "begriff": "Median",
+      "wortlaut": "Definition 3.2.3 (Median) Der Median $\\tilde{x}$ eines Datensatzes $\\mathbf{x}$ der Länge $n$ ist der mittlere Wert der Ordnungsstatistik $\\mathbf{x}_{[\\,]}$, wenn $n$ ungerade ist, bzw. das arithmetische Mittel der beiden mittleren Werte der Ordnungsstatistik, wenn $n$ gerade ist.",
+      "erklaerung": "Der Wert in der Mitte der geordneten Liste, sprich „x Schlange“. Robust gegen Ausreißer. Wenigstens ordinalskaliert (bei geradem $n$ metrisch).",
+      "folie": "16"
+    },
+    {
+      "begriff": "Modalwert",
+      "wortlaut": "Definition 3.2.5 (Modalwert) Ein Wert $x_k$ eines Datensatzes $\\mathbf{x}$ mit der größten absoluten Häufigkeit, d. h. $H_n(\\{x_k\\}) \\geq H_n(\\{x_i\\})$ für alle $1 \\leq i \\leq n$, heißt Modalwert von $\\mathbf{x}$.",
+      "erklaerung": "Der häufigste Wert. Geht immer, auch nominal; muss nicht eindeutig sein.",
+      "folie": "17"
+    },
+    {
+      "begriff": "Quantil, Quartil",
+      "wortlaut": "Definition 3.2.7 (Quantile) Das $p\\%$-Quantil $u_{p\\%}$ eines Datensatzes $\\mathbf{x}$ hat die Eigenschaft, dass in der Ordnungsstatistik $\\mathbf{x}_{[\\,]}$ links (bzw. rechts) von $u_{p\\%}$ höchstens $p\\%$ (bzw. $(100 - p)\\%$) der Daten liegen. […] Für $u_{25\\%}$ bzw. $u_{75\\%}$ spricht man auch vom unteren bzw. oberen Quartil.",
+      "erklaerung": "Verallgemeinerung des Medians ($\\tilde{x} = u_{50\\%}$): Grenze, unter der höchstens $p\\%$ der Daten liegen. Rechnen über $\\frac{np}{100}$ (Komma → abrunden $+1$; ganze Zahl → Mittel zweier Werte).",
+      "folie": "18"
+    },
+    {
+      "begriff": "Streuung",
+      "wortlaut": "Definition 3.2.10 (Streuung) Die Streuung $s_{\\mathbf{x}}$ eines Datensatzes $\\mathbf{x}$ ist die quadratisch gemittelte Abweichung der Messwerte $x_i$ vom Mittelwert $\\bar{x}$, also $s_{\\mathbf{x}} := \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})^2}$.",
+      "erklaerung": "Wie weit die Werte im Mittel vom Mittelwert entfernt sind: Abweichungen quadrieren, mitteln, Wurzel. Nur metrisch. Praktischer: Satz 3.2.11.",
+      "folie": "21"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 9 (Beispiel 3.1.3)",
+      "text": "Beispiel 3.1.3: Die Messung des Gewichts der (gepackten) Schulranzen von 30 Kindern einer Grundschulklasse hat die folgenden Werte (in kg) ergeben:\n\n$\\mathbf{x} = (4{,}3; 4{,}8; 3{,}5; 5{,}0; 3{,}1; 3{,}8; 4{,}6; 3{,}0; 4{,}2; 4{,}5; 5{,}8; 3{,}2; 3{,}1; 5{,}0; 4{,}2; 4{,}9; 5{,}9; 3{,}6; 5{,}8; 5{,}4; 4{,}2; 3{,}8; 3{,}0; 4{,}0; 5{,}0; 3{,}2; 3{,}2; 3{,}3; 5{,}2; 5{,}0)$\n\nGib die dazugehörige Ordnungsstatistik an.",
+      "loesung": "$\\mathbf{x}_{[\\,]} = (3{,}0; 3{,}0; 3{,}1; 3{,}1; 3{,}2; 3{,}2; 3{,}2; 3{,}3; 3{,}5; 3{,}6; 3{,}8; 3{,}8; 4{,}0; 4{,}2; 4{,}2; 4{,}2; 4{,}3; 4{,}5; 4{,}6; 4{,}8; 4{,}9; 5{,}0; 5{,}0; 5{,}0; 5{,}0; 5{,}2; 5{,}4; 5{,}8; 5{,}8; 5{,}9)$",
+      "loesungsweg": "Lösung von der Folie. Die 30 Werte der Größe nach aufsteigend sortieren. Tipp: erst alle Werte mit 3,…, dann 4,…, dann 5,… herausschreiben und abhaken. Kontrolle: Es müssen wieder **30** Werte sein. Die weiteren Beispiele des Kapitels bauen auf diesem Datensatz auf."
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 12 (Beispiel 3.1.4)",
+      "text": "Beispiel 3.1.4 (Fortsetzung): Stelle den Datensatz aus Beispiel 3.1.3 mittels Häufigkeitstabelle dar. Teile dazu die Messwerte auf die Intervalle $A_k = [k; k + 0{,}5[$ (also $[3; 3{,}5[$, $[3{,}5; 4[$, …) auf.",
+      "loesung": "| $k$ | $3$ | $3{,}5$ | $4$ | $4{,}5$ | $5$ | $5{,}5$ |\n|---|---|---|---|---|---|---|\n| $H_n(A_k)$ | $8$ | $4$ | $5$ | $4$ | $6$ | $3$ |",
+      "loesungsweg": "Lösung von der Folie. In der Ordnungsstatistik abzählen: $[3; 3{,}5[$: 3,0; 3,0; 3,1; 3,1; 3,2; 3,2; 3,2; 3,3 → **8**. $[3{,}5; 4[$: 3,5; 3,6; 3,8; 3,8 → **4**. $[4; 4{,}5[$: 4,0; 4,2; 4,2; 4,2; 4,3 → **5**. $[4{,}5; 5[$: 4,5; 4,6; 4,8; 4,9 → **4**. $[5; 5{,}5[$: 5,0; 5,0; 5,0; 5,0; 5,2; 5,4 → **6**. $[5{,}5; 6[$: 5,8; 5,8; 5,9 → **3**. Kontrolle: $8 + 4 + 5 + 4 + 6 + 3 = 30$. $H_n(A_k)$ ist die absolute Häufigkeit (Def. 1.4.2) der Klasse $A_k$. Die Balkenhöhen im Balkendiagramm (Folie 11) sind genau diese Zahlen."
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 15 (Beispiel 3.2.2)",
+      "text": "Beispiel 3.2.2: Bestimme den Mittelwert des Datensatzes aus Beispiel 3.1.3.",
+      "loesung": "$\\bar{x} = \\frac{319}{75} \\approx 4{,}25$",
+      "loesungsweg": "Lösung von der Folie, Rechenweg selbst ergänzt.\n\nSumme aller 30 Werte: $\\sum_{i=1}^{30} x_i = 127{,}6$.\n\n$$\\bar{x} \\overset{\\text{Def. 3.2.1}}{=} \\frac{1}{30} \\cdot 127{,}6 = \\frac{127{,}6}{30} = \\frac{1276}{300} = \\frac{319}{75} \\approx 4{,}25$$\n\n(Kürzen durch 4: $\\frac{1276}{300} = \\frac{319}{75}$.) Ein Schulranzen wiegt im Mittel etwa 4,25 kg."
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 16 (Beispiel 3.2.4)",
+      "text": "Beispiel 3.2.4: Bestimme den Median des Datensatzes aus Beispiel 3.1.3 (mit $n = 30$).",
+      "loesung": "$\\tilde{x} = \\frac{1}{2}\\left(x_{[15]} + x_{[16]}\\right) = \\frac{1}{2}(4{,}2 + 4{,}2) = 4{,}2$",
+      "loesungsweg": "Lösung von der Folie. $n = 30$ ist **gerade**, also zweiter Fall der Definition: $\\frac{n}{2} = 15$ und $\\frac{n}{2} + 1 = 16$. In der Ordnungsstatistik (Beispiel 3.1.3) ist $x_{[15]} = 4{,}2$ und $x_{[16]} = 4{,}2$. Mittel: $4{,}2$."
+    },
+    {
+      "id": "a05",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 17 (Beispiel 3.2.6)",
+      "text": "Beispiel 3.2.6: Bestimme den Modalwert des Datensatzes aus Beispiel 3.1.3.",
+      "loesung": "Modalwert $5{,}0$, denn $H_n(\\{5{,}0\\}) = 4$ ist größer als die absolute Häufigkeit jedes anderen beobachteten Wertes.",
+      "loesungsweg": "Lösung von der Folie. Häufigkeiten aus der Ordnungsstatistik abzählen: $5{,}0$ kommt 4-mal vor; $3{,}2$ und $4{,}2$ je 3-mal; alle anderen höchstens 2-mal. Also ist $5{,}0$ der (hier eindeutige) Modalwert."
+    },
+    {
+      "id": "a06",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 19 (Beispiel 3.2.8)",
+      "text": "Beispiel 3.2.8: Bestimme für den Datensatz aus Beispiel 3.1.3 (mit $n = 30$) das untere und das obere Quartil.",
+      "loesung": "$u_{25\\%} = x_{[\\lfloor \\frac{750}{100} \\rfloor + 1]} = x_{[8]} = 3{,}3$ und $u_{75\\%} = x_{[\\lfloor \\frac{2250}{100} \\rfloor + 1]} = x_{[23]} = 5{,}0$",
+      "loesungsweg": "Lösung von der Folie.\n\n**Unteres Quartil** ($p = 25$): $\\frac{np}{100} = \\frac{30 \\cdot 25}{100} = \\frac{750}{100} = 7{,}5 \\notin \\mathbb{N}$ → erster Fall: $\\lfloor 7{,}5 \\rfloor + 1 = 7 + 1 = 8$, also $u_{25\\%} = x_{[8]} = 3{,}3$.\n\n**Oberes Quartil** ($p = 75$): $\\frac{30 \\cdot 75}{100} = \\frac{2250}{100} = 22{,}5 \\notin \\mathbb{N}$ → $\\lfloor 22{,}5 \\rfloor + 1 = 23$, also $u_{75\\%} = x_{[23]} = 5{,}0$.\n\n**Probe (Folie 19):** Links von $x_{[8]}$ liegen nur $7 < 7{,}5 = 25\\% \\cdot 30$ Werte, rechts davon nur $22 < 22{,}5 = 75\\% \\cdot 30$ Werte (für $x_{[23]}$ entsprechend umgekehrt)."
+    },
+    {
+      "id": "a07",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 20 (Beweis Satz 3.2.9, Übung AB5)",
+      "text": "Beweise Satz 3.2.9: Für jeden beliebigen Datensatz $\\mathbf{x}$ gilt $\\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x}) = 0$.",
+      "loesung": "Siehe Lösungsweg. ∎",
+      "loesungsweg": "Beweis (ausgeführt nach dem Hinweis auf der Folie; Teil von Blatt 05).\n\n**Voraussetzung:** $\\mathbf{x} = (x_1; \\ldots; x_n)$ ist ein Datensatz mit Mittelwert $\\bar{x} = \\frac{1}{n} \\sum_{i=1}^{n} x_i$.\n\n$$\\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x}) = \\frac{1}{n} \\sum_{i=1}^{n} x_i - \\frac{1}{n} \\sum_{i=1}^{n} \\bar{x} \\overset{\\text{Def. 3.2.1}}{=} \\bar{x} - \\frac{1}{n} \\cdot n \\cdot \\bar{x} = \\bar{x} - \\bar{x} = 0 .$$\n\n**Schritt für Schritt:** (1) Die Summe einer Differenz darf man in zwei Summen aufteilen. (2) Die erste ist nach Definition 3.2.1 genau $\\bar{x}$. (3) In der zweiten Summe steht $n$-mal dieselbe Zahl $\\bar{x}$, also $n \\cdot \\bar{x}$; mal $\\frac{1}{n}$ bleibt $\\bar{x}$ – das ist der Hinweis der Folie $\\bar{x} = \\frac{1}{n} \\sum_{i=1}^{n} \\bar{x}$. ∎"
+    },
+    {
+      "id": "a08",
+      "art": "Aufgabe auf Folie",
+      "quelle": "Folie 22 (Beispiel 3.2.12)",
+      "text": "Beispiel 3.2.12: Bestimme die Streuung des Datensatzes aus Beispiel 3.1.3 gemäß Definition und mit der alternativen Formel aus Satz 3.2.11.",
+      "loesung": "$s_{\\mathbf{x}} = \\sqrt{\\frac{9133}{11250}} \\approx 0{,}9$",
+      "loesungsweg": "Lösung von der Folie, Zwischenwerte selbst nachgerechnet.\n\n**Gemäß Definition 3.2.10:** $$s_{\\mathbf{x}} = \\sqrt{\\frac{1}{30} \\sum_{i=1}^{30} \\left(x_i - \\frac{319}{75}\\right)^2} = \\sqrt{\\frac{9133}{11250}} \\approx 0{,}9$$ (die Summe der 30 Abweichungsquadrate ist $\\frac{9133}{375} \\approx 24{,}35$).\n\n**Mit Satz 3.2.11:** $\\sum_{i=1}^{30} x_i^2 = 567{,}08$, also $\\frac{1}{30} \\cdot 567{,}08 = \\frac{14177}{750}$, und $\\bar{x}^2 = \\left(\\frac{319}{75}\\right)^2 = \\frac{101761}{5625}$:\n$$s_{\\mathbf{x}} = \\sqrt{\\frac{14177}{750} - \\frac{101761}{5625}} = \\sqrt{\\frac{9133}{11250}} \\approx 0{,}9$$\n(Hauptnenner 11250: $\\frac{14177}{750} = \\frac{212655}{11250}$, $\\frac{101761}{5625} = \\frac{203522}{11250}$, Differenz $\\frac{9133}{11250}$.) Beide Wege liefern dasselbe – die Gewichte schwanken im Mittel um etwa 0,9 kg um den Mittelwert."
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Aussagen zu Statistik und Stochastik stimmen (Folie 5)?",
+      "optionen": [
+        "Stochastik ist der Oberbegriff für Wahrscheinlichkeitsrechnung und Statistik.",
+        "Statistik bezeichnet eine mathematische Disziplin und Zahlenmaterial aus einer Datenerhebung.",
+        "Statistik ist der Oberbegriff für Stochastik und Wahrscheinlichkeitsrechnung.",
+        "Die Statistik zieht Rückschlüsse auf das zugrundeliegende Modell auf Basis von Daten.",
+        "In mab005 wird die schließende Statistik ausführlich behandelt."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Folie 5. Stochastik ist der Oberbegriff; schließende Statistik wird laut Vorlesung **nicht** behandelt.",
+      "folie": "5",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was versteht man bei einer statistischen Erhebung unter einem Merkmal und unter einer Ausprägung?",
+      "antwort": "Merkmal: die untersuchte Eigenschaft. Ausprägung: mögliche Werte der untersuchten Eigenschaft. (Die Gesamtheit der Ausprägungen lässt sich durch einen Ergebnisraum modellieren.)",
+      "erklaerung": "Folie 6, Beispiel Haarfarbe.",
+      "folie": "6",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Merkmale ihrem Skalenniveau zu.",
+      "kategorien": [
+        "nominalskaliert",
+        "ordinalskaliert",
+        "metrischskaliert"
+      ],
+      "elemente": [
+        {
+          "text": "Staatsangehörigkeit",
+          "kategorie": "nominalskaliert"
+        },
+        {
+          "text": "Beruf",
+          "kategorie": "nominalskaliert"
+        },
+        {
+          "text": "Leistungsnoten (sehr gut, gut, …)",
+          "kategorie": "ordinalskaliert"
+        },
+        {
+          "text": "Handelsklassen von Obst",
+          "kategorie": "ordinalskaliert"
+        },
+        {
+          "text": "Einkommen",
+          "kategorie": "metrischskaliert"
+        },
+        {
+          "text": "Körpergröße",
+          "kategorie": "metrischskaliert"
+        },
+        {
+          "text": "Gewicht eines Schulranzens",
+          "kategorie": "metrischskaliert"
+        }
+      ],
+      "erklaerung": "Beispiele von Folie 7 bzw. Beispiel 3.1.3.",
+      "folie": "7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Bei ordinalskalierten Merkmalen lassen sich die Ausprägungen in eine [[Reihenfolge]] bringen, aber die [[Abstände]] sind nicht mathematisch interpretierbar.",
+      "erklaerung": "Folie 7.",
+      "folie": "7",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist ein Datensatz, wie wird er geschrieben, und wann spricht man von einer Stichprobe (Definition 3.1.1)?",
+      "antwort": "Die aus einer Beobachtung oder Messung aufgezeichneten Daten, geschrieben $\\mathbf{x} := (x_1; x_2; \\ldots; x_n)$; die $x_i$ heißen Werte. Entstand er durch eine gezielte Teil-Erhebung, heißt er auch Stichprobe.",
+      "erklaerung": "Definition 3.1.1, Folie 8.",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was ist die Ordnungsstatistik $\\mathbf{x}_{[\\,]}$ zu einem Datensatz $\\mathbf{x}$, und für welche Merkmale gibt es sie?",
+      "antwort": "Der (aufsteigend) geordnete Datensatz $\\mathbf{x}_{[\\,]} := (x_{[1]}; x_{[2]}; \\ldots; x_{[n]})$. Es gibt sie nur für ordinal- oder metrischskalierte Merkmale.",
+      "erklaerung": "Definition 3.1.2, Folie 8.",
+      "folie": "8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Datensatz aus Beispiel 3.1.3 (Schulranzen). Welche Aussagen stimmen?",
+      "optionen": [
+        "$x_3 = 3{,}5$",
+        "$x_{[3]} = 3{,}1$",
+        "$x_3 = x_{[3]}$",
+        "$x_{[1]} = 3{,}0$ und $x_{[30]} = 5{,}9$"
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "$x_3$ ist der dritte gemessene Wert (3,5), $x_{[3]}$ der drittkleinste (3,1).",
+      "folie": "8–9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu: Welche Darstellung ist gemeint?",
+      "kategorien": [
+        "Stabdiagramm",
+        "Balkendiagramm",
+        "Häufigkeitstabelle"
+      ],
+      "elemente": [
+        {
+          "text": "zu jedem beobachteten Wert eine Linie, Länge = absolute Häufigkeit",
+          "kategorie": "Stabdiagramm"
+        },
+        {
+          "text": "Werte in Klassen zusammengefasst, Höhe = Häufigkeit der Klasse",
+          "kategorie": "Balkendiagramm"
+        },
+        {
+          "text": "Zeile k und Zeile $H_n(A_k)$",
+          "kategorie": "Häufigkeitstabelle"
+        }
+      ],
+      "erklaerung": "Beispiel 3.1.4, Folie 10–12.",
+      "folie": "10–12",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f09",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Teile den Datensatz $\\mathbf{x} = (3{,}1; 4{,}4; 3{,}6; 4{,}0; 3{,}4; 4{,}9; 3{,}9)$ auf die Klassen $A_k = [k; k + 0{,}5[$ mit $k \\in \\{3; 3{,}5; 4; 4{,}5\\}$ auf und gib die Häufigkeitstabelle an.",
+      "musterloesung": "$[3; 3{,}5[$: 3,1; 3,4 → 2. $[3{,}5; 4[$: 3,6; 3,9 → 2. $[4; 4{,}5[$: 4,0; 4,4 → 2. $[4{,}5; 5[$: 4,9 → 1. Tabelle: $k$: 3 | 3,5 | 4 | 4,5; $H_n(A_k)$: 2 | 2 | 2 | 1 (Summe 7).",
+      "bewertungspunkte": [
+        "4,0 richtig in $[4; 4{,}5[$ (linke Grenze gehört dazu)",
+        "alle Häufigkeiten richtig",
+        "Summe 7 = n"
+      ],
+      "punkte": 3,
+      "erklaerung": "Neue Rechnung nach Beispiel 3.1.4 (Folie 12).",
+      "folie": "12",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f10",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 1,
+      "frage": "Wozu braucht man Kennzahlen eines Datensatzes, und welche zwei Arten gibt es?",
+      "antwort": "Diagramme und Tabellen sind für eine schnelle Beurteilung zu unübersichtlich. Kennzahlen fassen gezielt bestimmte Informationen zusammen: Lageparameter („mittlere“ Werte) und Streuungsparameter (Schwankung um diese Werte).",
+      "erklaerung": "Folie 14.",
+      "folie": "14",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f11",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie ist der Mittelwert $\\bar{x}$ eines Datensatzes definiert (Definition 3.2.1), und für welche Merkmale darf man ihn bilden?",
+      "antwort": "$\\bar{x} := \\frac{1}{n} \\sum_{i=1}^{n} x_i$ (arithmetisches Mittel); nur für metrischskalierte Merkmale.",
+      "erklaerung": "Definition 3.2.1, Folie 15.",
+      "folie": "15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie ist der Median $\\tilde{x}$ eines Datensatzes der Länge $n$ definiert (Definition 3.2.3)?",
+      "antwort": "$\\tilde{x} := x_{[\\frac{n+1}{2}]}$, falls $n$ ungerade; $\\tilde{x} := \\frac{1}{2}(x_{[\\frac{n}{2}]} + x_{[\\frac{n}{2}+1]})$, falls $n$ gerade – also der mittlere Wert bzw. das Mittel der beiden mittleren Werte der Ordnungsstatistik.",
+      "erklaerung": "Definition 3.2.3, Folie 16.",
+      "folie": "16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Was ist ein Modalwert (Definition 3.2.5)? Ist er immer eindeutig?",
+      "antwort": "Ein Wert $x_k$ mit der größten absoluten Häufigkeit, d. h. $H_n(\\{x_k\\}) \\geq H_n(\\{x_i\\})$ für alle $1 \\leq i \\leq n$. Nicht unbedingt eindeutig – mehrere Werte können gleich oft am häufigsten vorkommen.",
+      "erklaerung": "Definition 3.2.5, Folie 17.",
+      "folie": "17",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu: Welches Skalenniveau braucht man mindestens?",
+      "kategorien": [
+        "nominal reicht",
+        "wenigstens ordinal",
+        "metrisch nötig"
+      ],
+      "elemente": [
+        {
+          "text": "Modalwert",
+          "kategorie": "nominal reicht"
+        },
+        {
+          "text": "Median (n ungerade)",
+          "kategorie": "wenigstens ordinal"
+        },
+        {
+          "text": "Quantile (ohne Mittelbildung)",
+          "kategorie": "wenigstens ordinal"
+        },
+        {
+          "text": "Ordnungsstatistik",
+          "kategorie": "wenigstens ordinal"
+        },
+        {
+          "text": "Mittelwert",
+          "kategorie": "metrisch nötig"
+        },
+        {
+          "text": "Streuung",
+          "kategorie": "metrisch nötig"
+        }
+      ],
+      "erklaerung": "Folie 8, 15–18, 21. Faustregel: zählen → nominal, ordnen → ordinal, rechnen (addieren) → metrisch.",
+      "folie": "8, 15–21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Datensatz $(1; 2; 3; 4; 100)$. Welche Aussagen stimmen?",
+      "optionen": [
+        "$\\bar{x} = 22$",
+        "$\\tilde{x} = 3$",
+        "Der Median ist hier stabiler gegenüber dem Ausreißer 100 als der Mittelwert.",
+        "$\\tilde{x} = 22$"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "$\\bar{x} = \\frac{110}{5} = 22$; geordnet ist der 3. Wert $3$. Zusammenfassung Folie 28: Der Median ist gegenüber Ausreißern stabiler.",
+      "folie": "15–16, 28",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie ist das $p\\%$-Quantil $u_{p\\%}$ definiert (Definition 3.2.7), und was sind Quartile?",
+      "antwort": "Links (bzw. rechts) von $u_{p\\%}$ liegen höchstens $p\\%$ (bzw. $(100 - p)\\%$) der Daten. $u_{p\\%} := x_{[\\lfloor \\frac{np}{100} \\rfloor + 1]}$, falls $\\frac{np}{100} \\notin \\mathbb{N}$; $u_{p\\%} := \\frac{1}{2}(x_{[\\frac{np}{100}]} + x_{[\\frac{np}{100}+1]})$, falls $\\frac{np}{100} \\in \\mathbb{N}$. $u_{25\\%}$ ist das untere, $u_{75\\%}$ das obere Quartil.",
+      "erklaerung": "Definition 3.2.7, Folie 18.",
+      "folie": "18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "kernaussage",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "Quantile verallgemeinern den Median: Es gilt x̃ = u[[50]]%.",
+      "erklaerung": "Folie 18.",
+      "folie": "18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Bestimme für den Datensatz aus Beispiel 3.1.3 ($n = 30$) das untere und das obere Quartil mit Rechenweg.",
+      "musterloesung": "$\\frac{30 \\cdot 25}{100} = 7{,}5 \\notin \\mathbb{N}$ → $u_{25\\%} = x_{[\\lfloor 7{,}5 \\rfloor + 1]} = x_{[8]} = 3{,}3$. $\\frac{30 \\cdot 75}{100} = 22{,}5 \\notin \\mathbb{N}$ → $u_{75\\%} = x_{[23]} = 5{,}0$.",
+      "bewertungspunkte": [
+        "$\\frac{np}{100}$ jeweils richtig",
+        "Fallunterscheidung $\\notin \\mathbb{N}$ erkannt",
+        "Abrunden $+1$: Index 8 bzw. 23",
+        "Werte 3,3 und 5,0 aus der Ordnungsstatistik"
+      ],
+      "punkte": 4,
+      "erklaerung": "Beispiel 3.2.8, Folie 19.",
+      "folie": "19",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f19",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Datensatz $\\mathbf{x} = (7; 2; 9; 4; 4; 6; 1; 8)$. Bestimme Ordnungsstatistik, $\\bar{x}$, $\\tilde{x}$, den Modalwert und $u_{25\\%}$.",
+      "musterloesung": "$\\mathbf{x}_{[\\,]} = (1; 2; 4; 4; 6; 7; 8; 9)$, $n = 8$. $\\bar{x} = \\frac{41}{8} \\approx 5{,}13$. $n$ gerade: $\\tilde{x} = \\frac{1}{2}(x_{[4]} + x_{[5]}) = \\frac{1}{2}(4 + 6) = 5$. Modalwert $4$ (zweimal). $\\frac{8 \\cdot 25}{100} = 2 \\in \\mathbb{N}$ → $u_{25\\%} = \\frac{1}{2}(x_{[2]} + x_{[3]}) = \\frac{1}{2}(2 + 4) = 3$.",
+      "bewertungspunkte": [
+        "Ordnungsstatistik",
+        "$\\bar{x} = \\frac{41}{8}$",
+        "$\\tilde{x} = 5$",
+        "Modalwert 4",
+        "$u_{25\\%} = 3$ über den Fall $\\in \\mathbb{N}$"
+      ],
+      "punkte": 5,
+      "erklaerung": "Transfer mit allen Lageparametern; zeigt auch den Quantil-Fall $\\frac{np}{100} \\in \\mathbb{N}$ (dein „?“ auf Folie 18).",
+      "folie": "15–18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f20",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum ist die mittlere (gerichtete) Abweichung vom Mittelwert als Schwankungsmaß ungeeignet (Satz 3.2.9)? Begründe kurz.",
+      "antwort": "Weil sie für jeden Datensatz 0 ist: $\\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x}) = \\frac{1}{n} \\sum x_i - \\frac{1}{n} \\cdot n \\bar{x} = \\bar{x} - \\bar{x} = 0$. Positive und negative Abweichungen heben sich auf.",
+      "erklaerung": "Satz 3.2.9, Folie 20 (Beweis: Übung AB5).",
+      "folie": "20",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f21",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie ist die Streuung $s_{\\mathbf{x}}$ definiert (Definition 3.2.10), und welche zweite Formel liefert Satz 3.2.11?",
+      "antwort": "$s_{\\mathbf{x}} := \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\bar{x})^2}$ (quadratisch gemittelte Abweichung vom Mittelwert). Satz 3.2.11: $s_{\\mathbf{x}} = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} x_i^2 - \\bar{x}^2}$. Nur für metrischskalierte Merkmale.",
+      "erklaerung": "Definition 3.2.10 und Satz 3.2.11, Folie 21–22.",
+      "folie": "21–22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f22",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Berechne die Streuung von $\\mathbf{x} = (2; 4; 9)$ einmal nach Definition 3.2.10 und einmal mit Satz 3.2.11.",
+      "musterloesung": "$\\bar{x} = 5$. Definition: $\\sqrt{\\frac{1}{3}((-3)^2 + (-1)^2 + 4^2)} = \\sqrt{\\frac{26}{3}} \\approx 2{,}94$. Satz 3.2.11: $\\sqrt{\\frac{1}{3}(4 + 16 + 81) - 5^2} = \\sqrt{\\frac{101}{3} - \\frac{75}{3}} = \\sqrt{\\frac{26}{3}} \\approx 2{,}94$.",
+      "bewertungspunkte": [
+        "$\\bar{x} = 5$",
+        "Abweichungsquadrate 9, 1, 16",
+        "Quadrate 4, 16, 81 und $\\bar{x}^2 = 25$",
+        "beide Male $\\sqrt{\\frac{26}{3}}$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Neue Rechnung nach Beispiel 3.2.12.",
+      "folie": "21–22",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f23",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "In einer Klasse wird nach der Lieblingsfarbe und nach der Mathenote gefragt. Welche Kennzahlen (Mittelwert, Median, Modalwert) darf man jeweils bilden? Begründe mit dem Skalenniveau.",
+      "musterloesung": "Lieblingsfarbe ist nominalskaliert → nur Modalwert. Mathenote ist ordinalskaliert → Modalwert und Median (bei ungeradem $n$; bei geradem $n$ müsste man mitteln, das setzt eigentlich metrisch voraus). Einen Mittelwert („Notendurchschnitt“) darf man streng genommen nicht bilden, weil die Abstände zwischen Noten nicht mathematisch interpretierbar sind.",
+      "bewertungspunkte": [
+        "Farbe nominal → Modalwert",
+        "Note ordinal → Median, Modalwert",
+        "Mittelwert für Noten streng genommen nicht zulässig, Begründung Abstände"
+      ],
+      "punkte": 3,
+      "erklaerung": "Transfer Schule; Folie 7, 15–17.",
+      "folie": "7, 15–17",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f24",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Welche Aussagen zur Klausur und zu Kapitel 3 hat der Dozent am 09.11. gemacht?",
+      "optionen": [
+        "Die Klausur wird ohne Taschenrechner geschrieben.",
+        "In der Klausur kommen nur Datensätze, die man von Hand rechnen kann.",
+        "Die lineare Regression ist zentral und wird ausführlich geübt.",
+        "Schließende Statistik wird nicht behandelt.",
+        "Zum Nachlesen ist für Kapitel 3 Kütting/Sauer besser geeignet als Hübner."
+      ],
+      "richtig": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "erklaerung": "Aufnahme 09.11. [82:36], [35:28], [35:56], [37:48]. Die Regression soll man nur „mal gesehen haben“.",
+      "folie": "2, 5, 21–26",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f25",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Was leistet die Regressionsgerade $y = a^* + b^* x$ aus Satz 3.3.2?",
+      "antwort": "Für einen zweidimensionalen Datensatz $\\mathbf{z} = ((x_1, y_1); \\ldots; (x_n, y_n))$ mit $s_{\\mathbf{x}} \\neq 0$ ist sie unter allen linearen Funktionen $f(x) = a + bx$ diejenige, für die die Summe der quadrierten Abstände $\\sum_{i=1}^{n} (y_i - (a + b x_i))^2$ kleinstmöglich ist. Dabei $b^* = \\frac{s_{\\mathbf{xy}}}{(s_{\\mathbf{x}})^2}$, $a^* = \\bar{y} - b^* \\bar{x}$.",
+      "erklaerung": "Satz 3.3.2, Folie 25 – laut Vorlesung nur „mal gesehen haben“.",
+      "folie": "25",
+      "pruefungsrelevant": false
+    }
+  ],
+  "pruefungshinweise": [
+    "Schließende Statistik wird nicht behandelt (Vorlesung 09.11., deine Notiz auf Folie 5).",
+    "Die Klausuraufgaben sind ähnlich wie die Aufgaben auf den Übungszetteln (Kapitel 0, Folie 5) – zu Kapitel 3 passt Blatt 05.",
+    "(Aufnahme 09.11.) **Klausur ohne Taschenrechner** – Beispiele so, dass man sie von Hand rechnen kann [82:36].",
+    "(Aufnahme 09.11.) Mittelwert $\\bar{x}$ (Strich) und Median $\\tilde{x}$ (Tilde) nicht verwechseln [66:44]."
+  ],
+  "offene_fragen": [
+    "Folie 10 (Stabdiagramm): Häufigkeiten bei 3,1 und 3,2 auf der Folie falsch – in der Vorlesung bemerkt [57:24]; korrigierte Folie in Stud.IP abwarten."
+  ]
+}

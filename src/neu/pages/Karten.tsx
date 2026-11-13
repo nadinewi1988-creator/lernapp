@@ -573,7 +573,7 @@ export function Karten({ stand, unter, gehe, neuLaden, nurStatistik }: Props) {
         const U = ueben, n = U.ids.length, fertig = U.i >= n, k = aktKarte;
         const set = (p: Partial<U>) => setUeben({ ...U, ...p });
         return (
-        <div className="dialog-hg" onClick={(ev) => { if (ev.target === ev.currentTarget) uebenBeenden(); }} style={{ zIndex: 20 }}>
+        <div className="dialog-hg ueben-hg" style={{ zIndex: 20 }}>
           <div role="dialog" aria-label="Üben" className="dialog" style={{ maxWidth: 560, gap: 14 }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8 }}>
               <span style={{ fontSize: 13, fontWeight: 800, color: 'var(--ink-3)' }}>{fertig ? n + ' von ' + n + ' Karten' : 'Karte ' + (U.i + 1) + ' von ' + n}</span>

@@ -84,7 +84,7 @@ export function Lernfragen({ titel, liste, stand, farbe, onClose, neuLaden }: { 
   const anz = { r: protokoll.filter((x) => x === 'r').length, t: protokoll.filter((x) => x === 't').length, f: protokoll.filter((x) => x === 'f').length };
 
   return (
-    <div className="dialog-hg" onClick={(ev) => { if (ev.target === ev.currentTarget) schliessen(); }} style={{ zIndex: 30 }}>
+    <div className="dialog-hg ueben-hg" style={{ zIndex: 30 }}>
       <div role="dialog" aria-label="Lernfragen" className="dialog" style={{ maxWidth: 640, gap: 14 }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: 8, alignItems: 'baseline', flexWrap: 'wrap' }}>
           <span style={{ fontSize: 13, fontWeight: 800, color: farbe[0] }}>{titel}</span>

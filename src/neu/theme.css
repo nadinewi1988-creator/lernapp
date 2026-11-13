@@ -218,3 +218,8 @@ section[aria-label="Credit Points"] { container-type: inline-size; }
 
 /* lange Wörter (z. B. Wahrscheinlichkeitsrechnung) sauber trennen statt überlaufen */
 .trennen { hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; }
+
+/* Übungsmodus (Lernfragen, Eigene Karten üben) – ruhiger Vollbild-Fokus statt schwebendem Fenster (Nadine, 13.11.2026) */
+.dialog-hg.ueben-hg { background: var(--paper, #f7f7f4); align-items: flex-start; padding: max(24px, 6vh) 16px 24px; overflow-y: auto; }
+.dialog-hg.ueben-hg > .dialog { max-width: 720px; max-height: none; overflow: visible; box-shadow: none; border: 1px solid var(--line, #e6e6e0); border-radius: 20px; padding: 28px; }
+@media (max-width: 560px) { .dialog-hg.ueben-hg { padding: 0; } .dialog-hg.ueben-hg > .dialog { border: 0; border-radius: 0; min-height: 100%; padding: 20px 16px; } }

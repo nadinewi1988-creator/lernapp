@@ -24,7 +24,7 @@ const SEITEN: { id: Seite; name: string; kurz: string; icon: ReactNode }[] = [
   { id: 'statistik', name: 'Statistik', kurz: 'Statistik', icon: <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M4 20h16" /><path d="M7 16v-5M12 16V6M17 16v-8" /></svg> },
 ];
 export const UNTER: Partial<Record<Seite, { id: string; name: string }[]>> = {
-  pruefungen: [{ id: 'meine', name: 'Meine Prüfungen' }, { id: 'bafoeg', name: 'BAföG' }, { id: 'regeln', name: 'Regeln & Ordnungen' }],
+  pruefungen: [{ id: 'meine', name: 'Meine Prüfungen' }, { id: 'rechner', name: 'Notenrechner' }, { id: 'bafoeg', name: 'BAföG' }, { id: 'regeln', name: 'Regeln & Ordnungen' }],
   karten: [{ id: 'aktuell', name: 'Aktuelles Semester' }, { id: 'archiv', name: 'Archiv' }],
   statistik: [{ id: 'uebersicht', name: 'Übersicht' }, { id: 'karten', name: 'Eigene Karten' }],
 };

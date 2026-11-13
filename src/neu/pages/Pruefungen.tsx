@@ -52,7 +52,7 @@ export function Pruefungen({ stand, unter, gehe, neuLaden }: Props) {
         <button className="knopf gross" style={{ fontWeight: 700 }} onClick={() => setNeuD({ kuerzel: '', name: '', cp: '', form: '', semester_id: a.akt?.id ?? '', datum: '' })}>+ Prüfung</button>
       </header>
       <div className="umschalter">
-        {[['meine', 'Meine Prüfungen'], ['bafoeg', 'BAföG'], ['regeln', 'Regeln & Ordnungen']].map(([id, n]) => <button key={id} className={tab === id ? 'aktiv' : ''} onClick={() => gehe(id)}>{n}</button>)}
+        {[['meine', 'Meine Prüfungen'], ['rechner', 'Notenrechner'], ['bafoeg', 'BAföG'], ['regeln', 'Regeln & Ordnungen']].map(([id, n]) => <button key={id} className={tab === id ? 'aktiv' : ''} onClick={() => gehe(id)}>{n}</button>)}
       </div>
 
       {tab === 'meine' && (
@@ -158,6 +158,7 @@ export function Pruefungen({ stand, unter, gehe, neuLaden }: Props) {
         );
       })()}
 
+      {tab === 'rechner' && <Notenrechner stand={stand} />}
       {tab === 'regeln' && <RegelnSeite />}
 
       {/* ---------- Dialoge ---------- */}
@@ -378,6 +379,68 @@ function RegelnSeite() {
           </a>
         ))}
       </section>
+    </>
+  );
+}
+
+/** Notenrechner (Nadine, 13.11.2026): Noten für noch offene Prüfungen ausprobieren – nur zum Spielen, wird nicht gespeichert
+ *  (bleibt erhalten, solange die App offen ist). Rechnet mit derselben Logik wie der echte Schnitt (auswerten). */
+function Notenrechner({ stand }: { stand: Studienstand }) {
+  const [probe, setProbe] = useKlapp<Record<string, string>>('notenrechner', {});
+  const [semOffen, setSemOffen] = useKlapp<Record<string, boolean>>('notenrechner-sem', {});
+  const a = auswerten(stand);
+  const UNBENOTET = ['opb001', 'pbb133'];
+  const gesehen = new Set<string>();
+  const gruppen = a.proSemester.map((ps) => ({ ps, liste: ps.liste.filter((e) => !e.imUrsprung && !e.bestanden && !UNBENOTET.includes(e.modul.kuerzel) && e.status !== 'Endgültig nicht bestanden' && !gesehen.has(e.pruefung.id) && (gesehen.add(e.pruefung.id), true)) })).filter((g) => g.liste.length);
+  const virtuell: Versuch[] = Object.entries(probe).filter(([, w]) => w).map(([pid, w]) => ({ id: 'probe-' + pid, pruefung_id: pid, nr: stand.versuche.filter((v) => v.pruefung_id === pid).length + 1, note: parseFloat(w.replace(',', '.')), unbenotet: false, datum: null }));
+  const b = auswerten({ ...stand, versuche: [...stand.versuche, ...virtuell] });
+  const anzahl = virtuell.length;
+  const nt = (x: number | null) => (x === null ? '–' : noteText(x));
+  const diff = (alt: number | null, neu: number | null) => { if (alt === null || neu === null || Math.abs(alt - neu) < 0.001) return null; const d = neu - alt; return <span style={{ fontSize: 12, fontWeight: 800, color: d < 0 ? '#2f7a4b' : '#c42b2b', marginLeft: 6 }}>{d < 0 ? '▲ besser' : '▼ schlechter'}</span>; };
+  const zeile = (name: string, alt: number | null, neu: number | null, gross = false) => (
+    <div style={{ display: 'flex', alignItems: 'baseline', gap: 8, padding: '6px 0', borderTop: gross ? 0 : '1px solid #f0f0eb' }}>
+      <span style={{ flex: 1, fontSize: gross ? 15 : 14, fontWeight: gross ? 800 : 600 }}>{name}</span>
+      <span style={{ fontSize: gross ? 15 : 14, color: 'var(--ink-3)' }}>{nt(alt)}</span>
+      <span style={{ color: 'var(--ink-3)' }}>→</span>
+      <span style={{ fontSize: gross ? 22 : 15, fontWeight: 800, minWidth: 34, textAlign: 'right' }}>{nt(neu)}</span>
+      <span style={{ minWidth: 84 }}>{diff(alt, neu)}</span>
+    </div>);
+  return (
+    <>
+      <section className="karte" style={{ borderRadius: 20, padding: 20, display: 'flex', flexDirection: 'column', gap: 4 }}>
+        <div style={{ display: 'flex', alignItems: 'baseline', gap: 8, flexWrap: 'wrap', marginBottom: 6 }}>
+          <h2 style={{ margin: 0, fontSize: 18 }}>Was wäre, wenn …?</h2>
+          <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>{anzahl ? anzahl + (anzahl === 1 ? ' Note ausprobiert' : ' Noten ausprobiert') : 'Wähle unten Noten für offene Prüfungen'} · jetzt → mit Probe-Noten</span>
+          {anzahl > 0 && <button className="link-knopf" style={{ marginLeft: 'auto' }} onClick={() => setProbe({})}>Alle zurücksetzen</button>}
+        </div>
+        {zeile('Notenschnitt gesamt', a.noten.gesamt, b.noten.gesamt, true)}
+        {zeile('Mathe', a.noten.mathe, b.noten.mathe)}
+        {zeile('Politik', a.noten.politik, b.noten.politik)}
+        {zeile('Profil', a.noten.profil, b.noten.profil)}
+        {zeile('Praktika', a.noten.praktika, b.noten.praktika)}
+        <div style={{ fontSize: 12, color: 'var(--ink-3)', marginTop: 6 }}>Nur zum Ausprobieren – nichts davon wird gespeichert oder als Note eingetragen. Gewichtet nach CP wie der echte Schnitt.</div>
+      </section>
+      {gruppen.map(({ ps, liste }) => {
+        const auf = semOffen[ps.semester.id] ?? false, gewaehlt = liste.filter((e) => probe[e.pruefung.id]).length;
+        return (
+          <section key={ps.semester.id} className="karte" style={{ borderRadius: 20, padding: 0, overflow: 'hidden' }}>
+            <button type="button" onClick={() => setSemOffen({ ...semOffen, [ps.semester.id]: !auf })} style={{ width: '100%', display: 'flex', alignItems: 'center', gap: 10, padding: '14px 20px', border: 0, background: 'transparent', cursor: 'pointer', textAlign: 'left', color: 'var(--ink)' }}>
+              <span style={{ color: 'var(--ink-3)' }}>{auf ? '▾' : '▸'}</span>
+              <b style={{ fontSize: 15 }}>{ps.semester.fachsemester}. Semester · {ps.semester.bezeichnung}</b>
+              <span style={{ marginLeft: 'auto', fontSize: 13, color: 'var(--ink-3)' }}>{liste.length} offen{gewaehlt ? ' · ' + gewaehlt + ' ausprobiert' : ''}</span>
+            </button>
+            {auf && liste.map((e) => { const [ffg, fbg] = farbe(e.modul.kuerzel); return (
+              <div key={e.pruefung.id} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '10px 20px', borderTop: '1px solid #f0f0eb' }}>
+                <span style={{ padding: '3px 9px', borderRadius: 999, fontSize: 12, fontWeight: 800, background: fbg, color: ffg }}>{e.modul.kuerzel}</span>
+                <span className="trennen" style={{ flex: 1, minWidth: 0, fontSize: 14 }}>{e.modul.name}<span style={{ color: 'var(--ink-3)', fontSize: 12 }}> · {e.modul.cp} CP</span></span>
+                <select value={probe[e.pruefung.id] ?? ''} onChange={(ev) => setProbe({ ...probe, [e.pruefung.id]: ev.target.value })} style={{ border: '1px solid var(--line)', borderRadius: 8, padding: '6px 8px', fontSize: 15, background: probe[e.pruefung.id] ? '#eef6f1' : 'var(--paper)', fontWeight: probe[e.pruefung.id] ? 800 : 400 }}>
+                  <option value="">–</option>
+                  {NOTEN.filter((n) => n !== '5,0').map((n) => <option key={n} value={n}>{n}</option>)}
+                </select>
+              </div>); })}
+          </section>);
+      })}
+      {!gruppen.length && <div className="karte" style={{ padding: 20 }}>Keine offenen benoteten Prüfungen.</div>}
     </>
   );
 }

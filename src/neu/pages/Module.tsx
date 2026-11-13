@@ -6,7 +6,7 @@ import { auswerten, heuteIso, nachFach, aktuellesSemester, type Eintrag } from '
 import { parseIso, plusTage, entfallGrund } from '../data/kalender';
 import { useKlapp } from '../klapp';
 import { BESCHREIBUNGEN } from '../data/modulbeschreibungen';
-import { inhaltZu, sitzungenVon, glossarVon, symboleVon, frageRef, mdHtml, mdInline, literaturStatus, literaturStand, literaturAbgeglichen, aufgabenNachAbschnitt } from '../lerninhalte';
+import { inhaltZu, sitzungenVon, kapitelVon, kapitelNachDatei, kapitelFuerSitzung, glossarVon, symboleVon, frageRef, mdHtml, mdInline, literaturStatus, literaturStand, literaturAbgeglichen, aufgabenNachAbschnitt } from '../lerninhalte';
 import { sitzungsFortschritt, hatMaterial } from '../lernfortschritt';
 import { hausaufgabenFuer, HausaufgabeFenster, type HA } from '../Hausaufgabe';
 import { Lernfragen, type LFEintrag } from './Lernfragen';
@@ -107,7 +107,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   const [ltOffen, setLtOffen] = useKlapp<Record<string, boolean>>('mod-lerntext', {});
   const [lernFilter, setLernFilter] = useState<string>(() => lies('filter', 'alle'));
   const [haDlg, setHaDlg] = useState<HA | null>(null);
-  const [lt, setLt] = useState<null | { sid: string; kopf: string; titel: string; ausf: boolean; begr: boolean; aufg: boolean }>(null);
+  const [lt, setLt] = useState<null | { sid: string; kopf: string; titel: string; ausf: boolean; begr: boolean; aufg: boolean; kap?: string }>(null);
   const [lokalGel, setLokalGel] = useState<Record<string, boolean>>({});
   const [glossar, setGlossar] = useState<null | { suche: string }>(null);
   const [glOrd, setGlOrd] = useKlapp<string>('mod-begriffe-ordnung', 'sitzung');
@@ -143,6 +143,8 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   const inhaltVon = (x: S) => inhaltZu(x.s.id, x.k, x.s.datum);
   const GLOSSAR = glossarVon(kuerzel), SYMBOLE = symboleVon(kuerzel), LSITZ = sitzungenVon(kuerzel);
   const alleFragen: LFEintrag[] = LSITZ.flatMap((s) => s.fragen.map((f) => ({ s, f })));
+  const KAPS = kapitelVon(kuerzel);
+  const kapOeffnen = (k: (typeof KAPS)[number]) => setLt({ sid: 'kap:' + k.datei, kap: k.datei, kopf: k.teilmodul + ' · Kapitel ' + k.kapitel, titel: k.thema.replace(/^Kapitel \d+:\s*/, ''), ausf: false, begr: false, aufg: false });
   const wdRef = Object.fromEntries(stand.wiederholung.map((w) => [w.frage_ref, w]));
   const faelligZuerst = (l: LFEintrag[]) => { const h = heuteIso(); const r = (e: LFEintrag) => { const w = wdRef[frageRef(e.s, e.f)]; return !w ? 1 : w.faellig && w.faellig <= h ? 0 : 2; }; return [...l].sort((a2, b2) => r(a2) - r(b2)); };
   const OHNE_ST = ohneStatistik(stand);
@@ -175,7 +177,8 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   const flush = () => { const z = zaehler.current; if (!z || z.sek < 5) return; const basis = stand.lernzeit.find((l) => l.datum === HEUTE && l.teilmodul_id === z.tid && l.art === 'lerntext')?.sekunden ?? 0; const neu = basis + z.sek; zaehler.current = { sek: 0, tid: z.tid }; speichereLernzeit({ datum: HEUTE, teilmodul_id: z.tid, art: 'lerntext', sekunden: neu }).then(neuLaden).catch(() => {}); };
   useEffect(() => {
     if (!lt) { flush(); return; }
-    const tid = SESS.find((x) => x.s.id === lt.sid)?.tid; if (!tid) return;
+    const kapT = lt.kap ? kapitelNachDatei(lt.kap)?.teilmodul : undefined; // Kapitel: Lesezeit zählt beim Teilmodul
+    const tid = kapT ? stand.teilmodule.find((t) => t.kuerzel === kapT)?.id : SESS.find((x) => x.s.id === lt.sid)?.tid; if (!tid) return;
     zaehler.current = { sek: zaehler.current?.tid === tid ? zaehler.current.sek : 0, tid };
     const x = SESS.find((y) => y.s.id === lt.sid), hatInhalt = !!(x && inhaltZu(x.s.id, x.k, x.s.datum)), schonGelesen = stand.lernstand.some((l) => l.sitzung_id === lt.sid && l.gelesen);
     let lese = 0, gemeldet = schonGelesen || !hatInhalt;
@@ -364,6 +367,24 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
             <button type="button" onClick={() => setHinweis(true)} style={{ ...klein, alignSelf: 'flex-start', marginTop: 'auto' }}>Starten</button>
           </div>
         </div>
+        {KAPS.length > 0 && <section style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 16, padding: 16, display: 'flex', flexDirection: 'column', gap: 6 }}>
+          <h2 style={{ margin: '0 0 4px', fontSize: 17, fontWeight: 800 }}>Nach Kapiteln</h2>
+          <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>Jedes Kapitel an einem Stück – egal, in welcher Sitzung es dran war.</span>
+          {KAPS.map((k) => { const sich = k.fragen.filter((q) => wdRef[frageRef(k, q)]?.stand === 'sicher').length, pct = k.fragen.length ? Math.round(sich / k.fragen.length * 100) : 0; return (
+            <button key={k.datei} type="button" onClick={() => kapOeffnen(k)} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '10px 0', border: 0, borderTop: '1px solid #f0f0eb', background: 'transparent', color: 'var(--ink)', textAlign: 'left', cursor: 'pointer' }}>
+              <span style={{ width: 26, height: 26, flex: 'none', borderRadius: '50%', display: 'grid', placeItems: 'center', fontSize: 12, fontWeight: 800, background: pct >= 100 ? f[0] : f[1], color: pct >= 100 ? '#fff' : f[0] }}>{k.kapitel}</span>
+              <span style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column', gap: 1 }}>
+                <span style={{ fontSize: 14, fontWeight: 700 }}>{k.thema.replace(/^Kapitel \d+:\s*/, '')}</span>
+                <span style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
+                  <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{k.teilmodul} · Kapitel {k.kapitel}</span>
+                  {k.stand !== 'geprueft' && <span style={{ fontSize: 10, fontWeight: 800, padding: '1px 6px', borderRadius: 999, border: '1px dashed #d8d8d0', color: '#9a9ea5' }}>Entwurf</span>}
+                  <span style={{ width: 64, height: 5, borderRadius: 3, background: '#f0f0eb', overflow: 'hidden' }}><span style={{ display: 'block', height: '100%', width: pct + '%', background: f[0] }} /></span>
+                  <span style={{ fontSize: 11, color: 'var(--ink-3)' }}>{sich}/{k.fragen.length} Fragen sicher</span>
+                </span>
+              </span>
+              <span style={{ color: '#9a9ea5' }}>›</span>
+            </button>); })}
+        </section>}
         <section style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 16, padding: 16, display: 'flex', flexDirection: 'column', gap: 6 }}>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: 8, marginBottom: 4 }}>
             <h2 style={{ margin: 0, fontSize: 17, fontWeight: 800 }}>Nach Sitzungen</h2>
@@ -514,7 +535,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
           <div role="dialog" aria-label="Lerntext" className="dialog" style={{ maxWidth: 620, gap: 14 }}>
             <div style={{ fontSize: 13, fontWeight: 800, color: f[0] }}>{lt.kopf}</div>
             <h2 style={{ margin: '-8px 0 0', fontSize: 20 }}>{lt.titel}</h2>
-            {(() => { const xS = SESS.find((q) => q.s.id === lt.sid); const LI = xS ? inhaltVon(xS) : null; if (!LI && xS && ohneMat(xS)) return <div style={{ fontSize: 14, color: 'var(--ink-2)', background: '#f0f0eb', borderRadius: 12, padding: '12px 14px' }}>{status(xS) === 'aus' ? 'Diese Sitzung ist ausgefallen. Dazu' : 'Zu dieser Sitzung'} gibt es keine Materialien – sie wird nicht aufbereitet und zählt nicht zum Lernfortschritt. (Änderbar im Sitzungsfenster: „Gibt es Material?“)</div>; if (!LI) return <>
+            {(() => { const xS = SESS.find((q) => q.s.id === lt.sid); const LI = lt.kap ? kapitelNachDatei(lt.kap) : xS ? inhaltVon(xS) : null; if (!LI && xS && ohneMat(xS)) return <div style={{ fontSize: 14, color: 'var(--ink-2)', background: '#f0f0eb', borderRadius: 12, padding: '12px 14px' }}>{status(xS) === 'aus' ? 'Diese Sitzung ist ausgefallen. Dazu' : 'Zu dieser Sitzung'} gibt es keine Materialien – sie wird nicht aufbereitet und zählt nicht zum Lernfortschritt. (Änderbar im Sitzungsfenster: „Gibt es Material?“)</div>; if (!LI) return <>
             <span style={{ alignSelf: 'flex-start', fontSize: 11, fontWeight: 800, padding: '2px 8px', borderRadius: 999, border: '1px dashed #d8d8d0', background: '#fff', color: '#9a9ea5' }}>noch nicht aufbereitet</span>
               <div style={{ fontSize: 13, color: 'var(--ink-3)', border: '1px dashed #d8d8d0', borderRadius: 10, padding: '8px 10px' }}>Diese Sitzung ist noch nicht aufbereitet – im Modul-Chat mit deinen Unterlagen (Schema in claude/lerninhalte_schema.md). Bis dahin zeigt das Fenster den Aufbau.</div>
               <div style={{ border: '1px solid var(--line)', borderRadius: 12, padding: '12px 14px', display: 'flex', flexDirection: 'column', gap: 6 }}>
@@ -546,7 +567,9 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
               const AN = aufgabenNachAbschnitt(LI);
               const textMitAufgaben = (t: string) => t.split(/\n*\{\{aufgabe (\w+)\}\}\n*/).map((x, i) => i % 2 ? (LI.aufgaben.find((q) => q.id === x) ?? '') : x).filter((x) => x !== '');
               const fol = (t?: string) => t ? <span style={{ fontSize: 11, fontWeight: 700, color: 'var(--ink-3)' }}>{LI.teilmodul.endsWith('.1') ? 'Folie ' : ''}{t}</span> : null;
+              const imKap = !lt.kap ? kapitelFuerSitzung(LI.datei) : [];
               return <>
+                {imKap.map((k) => <button key={k.datei} type="button" onClick={() => kapOeffnen(k)} style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 12px', border: '1px solid ' + f[0], borderRadius: 12, background: f[1], color: 'var(--ink)', fontSize: 13, fontWeight: 700, textAlign: 'left', cursor: 'pointer' }}><span style={{ flex: 1 }}>Der Stoff dieser Sitzung steht jetzt zusammenhängend in <b>Kapitel {k.kapitel}</b> – dort lernen und üben.</span><span>öffnen ›</span></button>)}
                 {LI.pruefungshinweise.length > 0 && <div style={{ background: '#fde9e9', borderRadius: 12, padding: '10px 14px', display: 'flex', flexDirection: 'column', gap: 4 }}><b style={{ fontSize: 14, color: '#c42b2b' }}>Prüfungshinweise</b>{LI.pruefungshinweise.map((p) => <span key={p} style={{ fontSize: 13 }} dangerouslySetInnerHTML={{ __html: mdInline(p) }} />)}</div>}
                 <div style={{ border: '1px solid var(--line)', borderRadius: 12, padding: '12px 14px', display: 'flex', flexDirection: 'column', gap: 6 }}>
                   <b style={{ fontSize: 14 }}>Lernziele</b>
@@ -573,13 +596,13 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                 <div style={{ fontSize: 12, color: 'var(--ink-3)' }}>Quellen: {LI.quellen.map((q) => q.datei.split('/').pop() + ' (' + q.seiten + ')').join(' · ')} · „Ergänzung“ = nicht aus der Vorlesung</div>
               </>; })()}
             {hinweis && <div style={{ fontSize: 13, color: 'var(--ink-3)', border: '1px dashed #d8d8d0', borderRadius: 10, padding: '8px 10px' }}>Die Lernfragen entstehen im Modul-Chat aus deinen Unterlagen zu dieser Sitzung (Definitionen, Kernaussagen, Aufgaben, Lernziele) – deine eigenen Karteikarten übst du daneben.</div>}
-            <label style={{ display: 'flex', gap: 10, alignItems: 'center', padding: '10px 12px', borderRadius: 10, background: 'var(--paper)', fontSize: 14, cursor: 'pointer' }}>
+            {!lt.kap && <label style={{ display: 'flex', gap: 10, alignItems: 'center', padding: '10px 12px', borderRadius: 10, background: 'var(--paper)', fontSize: 14, cursor: 'pointer' }}>
               <input type="checkbox" checked={gelernt(lt.sid)} onChange={() => umschaltenGelernt(lt.sid)} style={{ width: 18, height: 18, accentColor: '#4f8f80' }} />Als gelernt markieren
-            </label>
+            </label>}
             <div style={{ display: 'flex', justifyContent: 'flex-end', gap: 8, flexWrap: 'wrap' }}>
-              {(() => { const xS = SESS.find((q) => q.s.id === lt.sid); const LI = xS ? inhaltVon(xS) : null; return <button type="button" onClick={() => { if (LI && LI.fragen.length) setLf({ titel: LI.teilmodul + ' · ' + lt.titel, liste: LI.fragen.map((q) => ({ s: LI, f: q })) }); else setHinweis(true); }} style={LI ? { ...klein, background: f[0], borderColor: f[0], color: '#fff' } : klein}>Lernfragen üben{LI ? ' (' + LI.fragen.length + ')' : ''}</button>; })()}
-              {(() => { const n = KK.filter((k) => k.sitzungId === lt.sid).length; return n ? <button type="button" onClick={() => { setLt(null); kartenOeffnen({ aktion: 'ueben', modul: kuerzel, sitzung: lt.sid }); }} style={klein}>Karteikarten üben ({n})</button> : <span title="Noch keine Karten zu dieser Sitzung" style={{ ...klein, opacity: 0.45, cursor: 'default' }}>Karteikarten üben (0)</span>; })()}
-              <button type="button" onClick={() => { setLt(null); kartenOeffnen({ aktion: 'neu', modul: kuerzel, sitzung: lt.sid }); }} style={klein}>+ Karte zu dieser Sitzung</button>
+              {(() => { const xS = SESS.find((q) => q.s.id === lt.sid); const LI = lt.kap ? kapitelNachDatei(lt.kap) : xS ? inhaltVon(xS) : null; return <button type="button" onClick={() => { if (LI && LI.fragen.length) setLf({ titel: LI.teilmodul + ' · ' + lt.titel, liste: LI.fragen.map((q) => ({ s: LI, f: q })) }); else setHinweis(true); }} style={LI ? { ...klein, background: f[0], borderColor: f[0], color: '#fff' } : klein}>Lernfragen üben{LI ? ' (' + LI.fragen.length + ')' : ''}</button>; })()}
+              {!lt.kap && (() => { const n = KK.filter((k) => k.sitzungId === lt.sid).length; return n ? <button type="button" onClick={() => { setLt(null); kartenOeffnen({ aktion: 'ueben', modul: kuerzel, sitzung: lt.sid }); }} style={klein}>Karteikarten üben ({n})</button> : <span title="Noch keine Karten zu dieser Sitzung" style={{ ...klein, opacity: 0.45, cursor: 'default' }}>Karteikarten üben (0)</span>; })()}
+              {!lt.kap && <button type="button" onClick={() => { setLt(null); kartenOeffnen({ aktion: 'neu', modul: kuerzel, sitzung: lt.sid }); }} style={klein}>+ Karte zu dieser Sitzung</button>}
               <button type="button" onClick={() => { setLt(null); setHinweis(false); }} style={klein}>Schließen</button>
             </div>
           </div>
@@ -705,7 +728,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
                     {auf && ss.map((x) => { const sich = x.fragen.filter((q) => wdRef[frageRef(x, q)]?.stand === 'sicher').length; return (
                       <label key={x.datei} style={{ display: 'flex', gap: 10, alignItems: 'center', padding: '8px 12px 8px 40px', borderTop: '1px solid #f0f0eb', cursor: 'pointer' }}>
                         <input type="checkbox" checked={!!lfWahl[x.datei]} onChange={() => setLfWahl({ ...lfWahl, [x.datei]: !lfWahl[x.datei] })} style={{ width: 18, height: 18, accentColor: f[0], flex: '0 0 auto' }} />
-                        <span style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column' }}><span className="trennen" style={{ fontSize: 14, fontWeight: 700 }}>{x.sitzung_nr ? 'S' + x.sitzung_nr + ' · ' : ''}{x.thema}</span><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{x.buch ? '' : fmtD(x.datum) + ' · '}{x.fragen.length} Fragen · {sich} sicher</span></span>
+                        <span style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column' }}><span className="trennen" style={{ fontSize: 14, fontWeight: 700 }}>{x.sitzung_nr ? 'S' + x.sitzung_nr + ' · ' : ''}{x.thema}</span><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{x.buch || x.kapitel !== undefined ? '' : fmtD(x.datum) + ' · '}{x.fragen.length} Fragen · {sich} sicher</span></span>
                       </label>); })}
                   </div>); })}
             </div>

@@ -24,6 +24,10 @@ export interface LSitzung {
   datei: string; // Dateiname ohne .json, für die Fragen-IDs
   /** Fragenpool aus einem Buch (keine Kalendersitzung): Buchangabe; erscheint nur unter Lernfragen, als eigene Gruppe vor eÜbung/Tutorium */
   buch?: string;
+  /** Kapitel-Aufbereitung (schema lernapp-kapitel/1): Kapitelnummer; datum ist dann leer */
+  kapitel?: number;
+  /** nur Kapitel: Sitzungsdateien, deren Inhalt vollständig in diesem Kapitel steht (ihre Fragen zählen dann nur noch hier) */
+  ersetzt_sitzungen?: string[];
 }
 export interface LGlossar { modul: string; eintraege: { begriff: string; wortlaut: string; erklaerung: string; quelle: string }[] }
 export interface LSymbol { zeichen: string; latex: string; bedeutung: string; gelesen: string; module: string[]; erste_quelle: string }
@@ -31,6 +35,7 @@ export interface LSymbol { zeichen: string; latex: string; bedeutung: string; ge
 const DATEIEN = import.meta.glob('/content/**/*.json', { eager: true, import: 'default' }) as Record<string, unknown>;
 
 const SITZUNGEN: LSitzung[] = [];
+const KAPITEL: LSitzung[] = [];
 const GLOSSARE: Record<string, LGlossar> = {};
 let SYMBOLE: LSymbol[] = [];
 /** Literatur aus der Modulbeschreibung, die in Nadines Modulordner liegt (Feld `literatur` in _modul.json, gepflegt von den Modul-Chats) */
@@ -40,6 +45,7 @@ for (const [pfad, inhalt] of Object.entries(DATEIEN)) {
   const name = pfad.split('/').pop()!.replace(/\.json$/, '');
   const d = inhalt as { schema?: string };
   if (d.schema === 'lernapp-sitzung/2') SITZUNGEN.push({ ...(inhalt as LSitzung), datei: name });
+  else if (d.schema === 'lernapp-kapitel/1') KAPITEL.push({ ...(inhalt as LSitzung), datei: name });
   else if (d.schema === 'lernapp-glossar/2') { const g = inhalt as LGlossar; GLOSSARE[g.modul] = g; }
   else if (d.schema === 'lernapp-symbole/2') SYMBOLE = (inhalt as { symbole: LSymbol[] }).symbole;
   else if (d.schema === 'lernapp-modul/2') { const m = inhalt as { modul: string; literatur?: LLiteratur[] }; if (m.literatur) LITERATUR[m.modul] = m.literatur; }
@@ -51,7 +57,17 @@ export function inhaltZu(sid: string, teil: string, datum: string): LSitzung | n
 }
 /** Alle Sitzungsdateien (z. B. für Hausaufgaben-Verknüpfungen). */
 export const alleSitzungen = () => SITZUNGEN;
-export const sitzungenVon = (modul: string) => SITZUNGEN.filter((s) => s.modul === modul).sort((a, b) => (a.datum + a.teilmodul).localeCompare(b.datum + b.teilmodul));
+const ERSETZT = new Set(KAPITEL.flatMap((k) => k.ersetzt_sitzungen ?? []));
+/** Lerninhalte eines Moduls für Lernfragen, Begriffe usw.: Kapitel-Aufbereitungen + alle Sitzungen, die nicht vollständig in einem Kapitel stehen. */
+export const sitzungenVon = (modul: string) => [
+  ...kapitelVon(modul),
+  ...SITZUNGEN.filter((s) => s.modul === modul && !ERSETZT.has(s.datei)).sort((a, b) => (a.datum + a.teilmodul).localeCompare(b.datum + b.teilmodul)),
+];
+/** Kapitel-Aufbereitungen eines Moduls (z. B. mab005: eine Lerneinheit je Vorlesungskapitel). */
+export const kapitelVon = (modul: string) => KAPITEL.filter((k) => k.modul === modul).sort((a, b) => (a.kapitel ?? 0) - (b.kapitel ?? 0));
+export const kapitelNachDatei = (datei: string) => KAPITEL.find((k) => k.datei === datei) ?? null;
+/** In welchem Kapitel steht der Inhalt dieser Sitzungsdatei jetzt? */
+export const kapitelFuerSitzung = (datei: string) => KAPITEL.filter((k) => (k.ersetzt_sitzungen ?? []).includes(datei));
 export const glossarVon = (modul: string) => GLOSSARE[modul]?.eintraege ?? [];
 export const symboleVon = (modul: string) => SYMBOLE.filter((s) => s.module.includes(modul));
 export const frageRef = (s: LSitzung, f: LFrage) => 'lf:' + s.datei + '#' + f.id;

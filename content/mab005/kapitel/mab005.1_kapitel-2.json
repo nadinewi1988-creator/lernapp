@@ -1,0 +1,944 @@
+{
+  "schema": "lernapp-kapitel/1",
+  "modul": "mab005",
+  "teilmodul": "mab005.1",
+  "kapitel": 2,
+  "thema": "Kapitel 2: Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit",
+  "datum": "",
+  "sitzung_nr": 0,
+  "sitzung_id": "",
+  "stand": "entwurf",
+  "hinweis": "Kapitel-Aufbereitung (Nadine, 13.11.2026): ganzes Kapitel 2 (Folie 1–32), nur Kapitel 2. Zusammengeführt aus den Sitzungen 02.11. (Folie 1–21) und 09.11.2026 (Folie 22–32).",
+  "sitzungen": [
+    "mab005.1_2026-11-02",
+    "mab005.1_2026-11-09"
+  ],
+  "ersetzt_sitzungen": [
+    "mab005.1_2026-11-02",
+    "mab005.1_2026-11-09"
+  ],
+  "quellen": [
+    {
+      "datei": "Kapitel 2 – Bedingte Wahrscheinlichkeit und Unabhängigkeit/VL_Kapitel2_mab005_Handout.pdf",
+      "art": "Folien",
+      "seiten": "1–32"
+    },
+    {
+      "datei": "Kapitel 2 – Bedingte Wahrscheinlichkeit und Unabhängigkeit/Kapitel 2 Stand 02.11.2026.pdf",
+      "art": "Folien mit deiner Mitschrift",
+      "seiten": "5–21"
+    },
+    {
+      "datei": "Kapitel 2 – Bedingte Wahrscheinlichkeit und Unabhängigkeit/02.11.26 - mab005.1.m4a",
+      "art": "Aufnahme Vorlesung 02.11.",
+      "seiten": "–"
+    },
+    {
+      "datei": "Kapitel 2 – Bedingte Wahrscheinlichkeit und Unabhängigkeit/09.11.26 - mab005.1.m4a",
+      "art": "Aufnahme Vorlesung 09.11.",
+      "seiten": "–"
+    },
+    {
+      "datei": "Hübner (2009): Stochastik, S. 27–29",
+      "art": "Literatur (Folie 2)",
+      "seiten": "fehlt im Ordner"
+    }
+  ],
+  "lernziele": [
+    {
+      "text": "Die bedingte Wahrscheinlichkeit $P(A \\mid B)$ definieren, mit Venn-Diagrammen veranschaulichen und berechnen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 5–9",
+      "fragen": [
+        "f01",
+        "f02",
+        "f03",
+        "f20"
+      ],
+      "erklaerung_abschnitt": "Wahrscheinlichkeit unter einer Bedingung – Beispiel 2.1.1 (Kapitel 2, Folie 1–8)"
+    },
+    {
+      "text": "Die Sonderfälle bedingter Wahrscheinlichkeiten (Satz 2.1.3) nennen und begründen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 10",
+      "fragen": [
+        "f04",
+        "f05"
+      ],
+      "erklaerung_abschnitt": "Definition 2.1.2 und Sonderfälle (Kapitel 2, Folie 9–10)"
+    },
+    {
+      "text": "Multiplikationssatz und Verkettungsregel angeben, beweisen und in Baumdiagrammen (Pfadregel) anwenden.",
+      "art": "abgeleitet",
+      "quelle": "Folie 12–16",
+      "fragen": [
+        "f07",
+        "f08",
+        "f09",
+        "f10",
+        "f11"
+      ],
+      "erklaerung_abschnitt": "Multiplikationssatz und Verkettungsregel (Kapitel 2, Folie 14–16)"
+    },
+    {
+      "text": "Mit der Formel der totalen Wahrscheinlichkeit und der Bayes-Umkehr-Formel rechnen (z. B. Gesichtserkennung, Ziegenproblem).",
+      "art": "abgeleitet",
+      "quelle": "Folie 11, 17–21",
+      "fragen": [
+        "f06",
+        "f12",
+        "f13",
+        "f14",
+        "f15",
+        "f16",
+        "f17",
+        "f18",
+        "f19",
+        "f21"
+      ],
+      "erklaerung_abschnitt": "Bayes-Umkehr-Formel und Ziegenproblem (Kapitel 2, Folie 19–21)"
+    },
+    {
+      "text": "Stochastische Unabhängigkeit zweier Ereignisse definieren und nachprüfen; Unabhängigkeit von Disjunktheit unterscheiden.",
+      "art": "abgeleitet",
+      "quelle": "Folie 23",
+      "fragen": [
+        "f22",
+        "f23",
+        "f29",
+        "f30",
+        "f31"
+      ],
+      "erklaerung_abschnitt": "Stochastische Unabhängigkeit – Definition und Beispiel (Kapitel 2, Folie 22–23)"
+    },
+    {
+      "text": "Die Kriterien für Unabhängigkeit (Satz 2.2.3–2.2.6) nennen und beweisen.",
+      "art": "abgeleitet",
+      "quelle": "Folie 24–28",
+      "fragen": [
+        "f24",
+        "f25",
+        "f26",
+        "f32"
+      ],
+      "erklaerung_abschnitt": "Kriterien für stochastische Unabhängigkeit (Kapitel 2, Folie 24–28)"
+    },
+    {
+      "text": "Die Unabhängigkeit mehrerer Ereignisse prüfen und erklären, warum paarweise Unabhängigkeit nicht genügt.",
+      "art": "abgeleitet",
+      "quelle": "Folie 29–31",
+      "fragen": [
+        "f27",
+        "f28"
+      ],
+      "erklaerung_abschnitt": "Unabhängigkeit von mehr als zwei Ereignissen (Kapitel 2, Folie 29–30)"
+    }
+  ],
+  "kurzfassung": [
+    "Bedingte Wahrscheinlichkeit: $P(A \\mid B) := \\frac{P(A \\cap B)}{P(B)}$ für $P(B) > 0$, sonst $:= 0$ – anschaulich die Wahrscheinlichkeit von $A$, wenn der Ergebnisraum auf $B$ eingeschränkt wird.",
+    "$P(A \\mid B)$ beschreibt nur einen formalen, keinen zeitlichen oder ursächlichen Zusammenhang; und $P(A \\mid B)$ ist im Allgemeinen nicht $P(B \\mid A)$.",
+    "Multiplikationssatz $P(A \\cap B) = P(B) \\cdot P(A \\mid B)$ bzw. Verkettungsregel = Pfadregel im Baumdiagramm.",
+    "Formel der totalen Wahrscheinlichkeit: $P(A) = \\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)$ für eine disjunkte Zerlegung $(B_i)_{i \\in I}$ – alle Pfade zu $A$ addieren.",
+    "Bayes-Umkehr-Formel: $P(B_k \\mid A) = \\frac{P(B_k) \\cdot P(A \\mid B_k)}{\\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)}$ – Anteil eines Pfades an allen Pfaden zu $A$ (Gesichtserkennung ≈ 0,155; Ziegenproblem: Wechseln gewinnt mit $\\frac{2}{3}$).",
+    "$A$ und $B$ heißen stochastisch unabhängig, wenn $P(A \\cap B) = P(A) \\cdot P(B)$ (Definition 2.2.1).",
+    "Gleichwertig: $P(A \\mid B) = P(A)$ für $P(B) > 0$ (Satz 2.2.3) bzw. $P(A \\mid B) = P(A \\mid \\bar{B})$ für $0 < P(B) < 1$ (Satz 2.2.6).",
+    "Mit $A$, $B$ sind auch $\\bar{A}$, $B$ und $A$, $\\bar{B}$ unabhängig (Satz 2.2.4); von allen Ereignissen unabhängig sind genau die mit $P(B) = 0$ oder $1$ (Satz 2.2.5).",
+    "Unabhängig ist nicht disjunkt: Disjunkte Ereignisse mit positiver Wahrscheinlichkeit sind abhängig.",
+    "Mehrere Ereignisse: Für jede endliche Auswahl muss die Produktformel gelten; paarweise Unabhängigkeit reicht nicht (Beispiel 2.2.8)."
+  ],
+  "erklaerung": [
+    {
+      "titel": "Wahrscheinlichkeit unter einer Bedingung – Beispiel 2.1.1",
+      "folien": "1–8",
+      "text": "**Idee in Alltagssprache:** Oft weiß man schon etwas über den Ausgang, bevor man nach einer Wahrscheinlichkeit fragt. Beispiel: Jemand hat einen zehnseitigen Würfel geworfen und verrät nur: „Es ist eine Primzahl.“ Wie wahrscheinlich ist es jetzt, dass die Zahl ungerade ist? Man muss nicht mehr alle 10 Zahlen betrachten, sondern **nur noch die Primzahlen**. Das ist die **bedingte Wahrscheinlichkeit**.\n\nKapitel 2 hat zwei Teile (Folie 3): **1. Bedingte Wahrscheinlichkeit** (heute, Folie 4–21) und **2. Stochastische Unabhängigkeit** (Folie 22–31). Textgrundlage: **Hübner 2009, S. 27–29** (Folie 2).\n\n**Beispiel 2.1.1** (Folie 5–8, Lösung laut Mitschrift):\n\n{{aufgabe a01}}\n\n![Venn-Diagramme zu Beispiel 2.1.1: 1) A unter allen 10 Zahlen, 2) A ∩ B unter allen 10 Zahlen, 3) A ∩ B nur unter den Zahlen in B](/dateien/mab005/Kap2_Bsp2-1-1_Venn.svg)\n\n*Kurz erklärt:* Der Unterschied zwischen 2) und 3) ist der **Nenner**: Bei $P(A \\cap B)$ teilt man durch alle 10 Ergebnisse, bei $P(A \\mid B)$ nur durch die 4 Ergebnisse in $B$. Die Bedingung **verkleinert den Ergebnisraum** auf $B$.\n\n**Prüfungsfalle:** $P(A \\cap B)$ („A **und** B“) und $P(A \\mid B)$ („A, **wenn schon** B“) haben denselben Zähler – aber verschiedene Nenner. Hier: $\\frac{3}{10}$ gegenüber $\\frac{3}{4}$.",
+      "beispiel": "Fairer Würfel (6 Seiten), $B$ = „gerade“ $= \\{2, 4, 6\\}$, $A$ = „größer als 3“ $= \\{4, 5, 6\\}$: $P(A \\cap B) = \\frac{2}{6}$, aber $P(A \\mid B) = \\frac{2}{3}$ – von den drei geraden Zahlen sind zwei größer als 3."
+    },
+    {
+      "titel": "Definition 2.1.2 und Sonderfälle",
+      "folien": "9–10",
+      "text": "Aus Beispiel 2.1.1 (Folie 8) liest man die allgemeine Formel ab: $P(A \\mid B) = \\frac{|A \\cap B|}{|B|} = \\frac{|A \\cap B| / |\\Omega|}{|B| / |\\Omega|} = \\frac{P(A \\cap B)}{P(B)}$.\n\n> **Definition 2.1.2 (Bedingte Wahrscheinlichkeit):** Seien $A$, $B$ Ereignisse in $\\Omega$ und sei $P(B) > 0$. Dann heißt\n> $$P(A \\mid B) := \\frac{P(A \\cap B)}{P(B)}$$\n> die **bedingte Wahrscheinlichkeit** von $A$ unter der Bedingung $B$. Für $P(B) = 0$ wird stattdessen $P(A \\mid B) := 0$ gesetzt.\n\n**Die Definition vorgelesen:**\n- $P(A \\mid B)$ – sprich: „P von A unter der Bedingung B“ (oder kurz „P von A gegeben B“). Der senkrechte Strich heißt „unter der Bedingung“.\n- $:=$ heißt „wird definiert als“.\n- **Warum $P(B) > 0$?** Durch $0$ darf man nicht teilen. Für den Fall $P(B) = 0$ legt die Vorlesung einfach $P(A \\mid B) := 0$ fest (in deiner Mitschrift: „Sonderfall“). Laut Zusammenfassung (Folie 31) ist das nur ein formaler Randfall – andere Festlegungen wären auch denkbar.\n\n**Wichtig (Folie 9 unten):** Wie eine Implikation $A \\Rightarrow B$ beschreibt auch $P(A \\mid B)$ nur einen **formalen** Zusammenhang. „Unter der Bedingung $B$“ heißt **nicht**, dass $B$ zeitlich vorher passiert oder $A$ verursacht.\n\n**Satz 2.1.3 (Sonderfälle, Folie 10):** Für Ereignisse $A$ und $B$ mit $P(B) > 0$ gilt\n1. $P(A \\mid B) = \\frac{P(A)}{P(B)}$, wenn $A \\subseteq B$;\n2. $P(A \\mid B) = 1$, wenn $B \\subseteq A$;\n3. $P(A \\mid B) = 0$, wenn $A \\cap B = \\emptyset$;\n4. $P(A \\mid B) = 0$, wenn $P(A) = 0$;\n5. $P(A \\mid B) = P(A)$, wenn $P(B) = 1$.\n\n**Beweis** (5 von der Folie, 1–4 „folgen unmittelbar“ – hier ausgeschrieben, selbst erarbeitet):\n1. $A \\subseteq B$ ⇒ $A \\cap B = A$ ⇒ $P(A \\mid B) = \\frac{P(A)}{P(B)}$.\n2. $B \\subseteq A$ ⇒ $A \\cap B = B$ ⇒ $P(A \\mid B) = \\frac{P(B)}{P(B)} = 1$.\n3. $A \\cap B = \\emptyset$ ⇒ $P(A \\cap B) = P(\\emptyset) = 0$ (Nulltreue, Satz 1.4.6 (2′)) ⇒ $P(A \\mid B) = \\frac{0}{P(B)} = 0$.\n4. $A \\cap B \\subseteq A$ ⇒ $0 \\le P(A \\cap B) \\le P(A) = 0$ (Nichtnegativität, Monotonie) ⇒ $P(A \\cap B) = 0$ ⇒ $P(A \\mid B) = 0$.\n5. (Folie) Wegen $B \\subseteq A \\cup B$ und $P(B) = 1$ ist $1 = P(B) \\le P(A \\cup B) \\le 1$, also $P(A \\cup B) = 1$. Dann\n$$P(A \\mid B) \\overset{\\text{Def. 2.1.2}}{=} \\frac{P(A \\cap B)}{1} = P(A) + P(B) - P(A \\cup B) = P(A) + 1 - 1 = P(A). \\quad \\blacksquare$$\nIm zweiten Schritt wird der **Additionssatz** $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$ nach $P(A \\cap B)$ umgestellt (deine Mitschrift: „ursprünglich …“). ⚠ Die Folie nennt dafür „Satz 1.4.6(6)“ – in Kapitel 1 ist der Additionssatz aber **Satz 1.4.7 (6)** (Folie 44).\n\n*Kurz erklärt:* (2) Ist $B$ ganz in $A$ enthalten, tritt mit $B$ immer auch $A$ ein – also Wahrscheinlichkeit 1. (3) Schließen sich $A$ und $B$ aus, kann $A$ nicht eintreten, wenn $B$ schon eingetreten ist – also 0. (5) Ein sicheres Ereignis $B$ liefert keine Information, also ändert sich nichts.",
+      "beispiel": "Fairer Würfel, $B$ = „gerade“ $= \\{2, 4, 6\\}$: Für $A = \\{2\\} \\subseteq B$ ist $P(A \\mid B) = \\frac{1/6}{1/2} = \\frac{1}{3}$ (Fall 1). Für $A = \\{1, 3\\}$ ist $A \\cap B = \\emptyset$, also $P(A \\mid B) = 0$ (Fall 3)."
+    },
+    {
+      "titel": "Beispiele 2.1.4 und 2.1.5",
+      "folien": "11–13",
+      "text": "Zwei Beispiele zeigen, wie man bedingte Wahrscheinlichkeiten in Anwendungen ausrechnet – einmal mit absoluten Zahlen, einmal mit einem Baumdiagramm.\n\n**Beispiel 2.1.4** (Folie 11, Lösung laut Mitschrift):\n\n{{aufgabe a02}}\n\n**Beispiel 2.1.5** (Folie 12–13, Lösung laut Mitschrift):\n\n{{aufgabe a03}}\n\n**Kurz erklärt:** In 2.1.5 rechnet man nicht $P(B \\mid A)$ aus $P(A \\cap B)$ aus, sondern **umgekehrt**: $P(B \\mid A)$ kennt man aus der Situation („nach einer roten sind noch 9 Kugeln da, davon 6 blau“), und daraus folgt $P(A \\cap B)$. Genau das ist der Multiplikationssatz (nächste Folie).\n\n**Prüfungsfalle (2.1.4):** 90 % „Trefferquote“ klingt gut – trotzdem ist nur etwa **jede 6. gemeldete Person** wirklich gesucht. Grund: Es gibt sehr viel mehr nicht gesuchte Personen (980) als gesuchte (20); 10 % Fehlalarm von 980 sind 98 Personen und damit viel mehr als die 18 richtigen Meldungen. Man darf $P(\\text{gemeldet} \\mid \\text{gefahndet}) = 0{,}9$ nicht mit $P(\\text{gefahndet} \\mid \\text{gemeldet}) \\approx 0{,}155$ verwechseln.",
+      "beispiel": "Urne mit 4 roten und 6 blauen Kugeln, zwei ohne Zurücklegen: $P(\\text{beide rot}) = \\frac{4}{10} \\cdot \\frac{3}{9} = \\frac{12}{90} = \\frac{2}{15}$."
+    },
+    {
+      "titel": "Multiplikationssatz und Verkettungsregel",
+      "folien": "14–16",
+      "text": "> **Satz 2.1.6 (Multiplikationssatz):** Für je zwei beliebige Ereignisse $A$, $B$ gilt die Formel\n> $$P(A \\cap B) = P(B) \\cdot P(A \\mid B).$$\n\n**Beweis (Folie 14):** Ist $P(B) > 0$, folgt aus Definition 2.1.2: $P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)} \\iff P(A \\mid B) \\cdot P(B) = P(A \\cap B)$ (beide Seiten mal $P(B)$). Ist $P(B) = 0$, dann ist wegen $A \\cap B \\subseteq B$ (Monotonie, Nichtnegativität) $0 \\le P(A \\cap B) \\le P(B) = 0$, also $P(A \\cap B) = 0 = 0 \\cdot P(A \\mid B) = P(B) \\cdot P(A \\mid B)$. $\\blacksquare$\nHinweis der Folie: Im Fall $P(B) = 0$ hängt der Beweis **nicht** davon ab, wie man $P(A \\mid B)$ festgelegt hat.\n\n*Kurz erklärt* (deine Mitschrift: „→ Pfadregel“): Im Baumdiagramm steht am ersten Ast $P(B)$, am zweiten Ast $P(A \\mid B)$. Die Wahrscheinlichkeit, **beide** Äste entlangzugehen, ist das Produkt. $\\iff$ heißt „genau dann, wenn“ (beide Aussagen sind gleichwertig).\n\n> **Satz 2.1.7 (Verkettungsregel):** Für je drei Ereignisse $A$, $B$, $C$ gilt die Formel\n> $$P(A \\cap B \\cap C) = P(C) \\cdot P(B \\mid C) \\cdot P(A \\mid B \\cap C).$$\n\n**Beweis (Folie 15):** zweimal den Multiplikationssatz anwenden:\n$$P(A \\cap B \\cap C) = P\\big(A \\cap (B \\cap C)\\big) \\overset{2.1.6}{=} P(B \\cap C) \\cdot P(A \\mid B \\cap C) \\overset{2.1.6}{=} P(C) \\cdot P(B \\mid C) \\cdot P(A \\mid B \\cap C). \\quad \\blacksquare$$\nAnaloge Formeln gelten für jede endliche Anzahl geschnittener Ereignisse. Deine Mitschrift: „Baumdiagramm hier mit 3 Stufen“.\n\n**Beispiel 2.1.8** (Folie 16, Lösung laut Mitschrift, ergänzt):\n\n{{aufgabe a04}}\n\n**Prüfungsfalle:** Die Reihenfolge der Faktoren ist egal ($P(B) \\cdot P(A \\mid B) = P(A \\mid B) \\cdot P(B)$) – aber **nicht** die Reihenfolge im Strich: $P(A \\mid B)$ ist etwas anderes als $P(B \\mid A)$. Im Baum gehört an den zweiten Ast immer „zweites Ereignis **unter der Bedingung** des ersten“.",
+      "beispiel": "Drei Münzwürfe, Wahrscheinlichkeit für dreimal Wappen: $\\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{8}$ – die Verkettungsregel mit $P(B \\mid C) = P(A \\mid B \\cap C) = \\frac{1}{2}$, weil die Münze kein Gedächtnis hat."
+    },
+    {
+      "titel": "Zerlegung und Formel der totalen Wahrscheinlichkeit",
+      "folien": "17–18",
+      "text": "**Idee in Alltagssprache:** Will man $P(C)$ in Beispiel 2.1.8 wissen, zerlegt man in Fälle („erst rot, dann rot“, „erst rot, dann blau“ …), rechnet jeden Fall mit dem Baum aus und **addiert**. Damit das stimmt, müssen die Fälle zusammen alles abdecken und dürfen sich nicht überschneiden.\n\n> **Definition 2.1.9 (Zerlegung):** Gilt für Mengen $B_i$ mit $i \\in I$, dass $\\Omega = \\bigcup_{i \\in I} B_i$, dann heißt $(B_i)_{i \\in I}$ **Zerlegung** von $\\Omega$. Gilt sogar $\\Omega = \\dot{\\bigcup}_{i \\in I} B_i$, so heißt $(B_i)_{i \\in I}$ **disjunkte Zerlegung** von $\\Omega$. Ist die Indexmenge $I$ endlich oder abzählbar, so spricht man entsprechend von einer **endlichen Zerlegung** bzw. **abzählbaren Zerlegung** von $\\Omega$.\n\n**Vorgelesen:** $I$ ist eine **Indexmenge** – eine Menge von „Hausnummern“ für die Teile, z. B. $I = \\{1, 2, 3\\}$. $(B_i)_{i \\in I}$ heißt „die Familie der Mengen $B_i$ mit $i$ aus $I$“. $\\dot{\\bigcup}$ (Vereinigung mit Punkt) heißt: Die Teile sind paarweise disjunkt.\nBeispiel: $B$ und $\\bar{B}$ bilden immer eine disjunkte Zerlegung von $\\Omega$; beim Würfel z. B. $\\{1, 2\\}$, $\\{3, 4\\}$, $\\{5, 6\\}$.\n\n> **Satz 2.1.10 (Formel der totalen Wahrscheinlichkeit):** Ist $(B_i)_{i \\in I}$ eine abzählbare, disjunkte Zerlegung von $\\Omega$, dann gilt:\n> $$P(A) = \\sum_{i \\in I} P(A \\cap B_i) = \\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)$$\n\n**Beweis (Folie 18):** $A = \\dot{\\bigcup}_{i \\in I} (A \\cap B_i)$, also mit endlicher Additivität bzw. σ-Additivität (Satz 1.4.6 (3n), (3′)) $P(A) = \\sum_{i \\in I} P(A \\cap B_i)$, und mit dem Multiplikationssatz 2.1.6 $= \\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)$. $\\blacksquare$\n\n*Kurz erklärt:* $\\sum_{i \\in I}$ heißt „Summe über alle $i$ aus $I$“. Im Baumdiagramm: **Alle Pfade, die zu $A$ führen, multiplizieren (Pfadregel) und dann addieren (Summenregel).** Das hat deine Mitschrift auf Folie 16 mit „jeweils addieren“ markiert.\n\n**Typische Klausurfrage:** „Berechnen Sie $P(\\ldots)$“ in einem zweistufigen Experiment, bei dem nur die Wahrscheinlichkeiten der ersten Stufe und die bedingten der zweiten Stufe gegeben sind → Baum zeichnen, Formel der totalen Wahrscheinlichkeit.",
+      "beispiel": "Beispiel 2.1.5: $P(B)$ = „zweite Kugel blau“ $= P(A) \\cdot P(B \\mid A) + P(\\bar{A}) \\cdot P(B \\mid \\bar{A}) = \\frac{4}{10} \\cdot \\frac{6}{9} + \\frac{6}{10} \\cdot \\frac{5}{9} = \\frac{24 + 30}{90} = \\frac{54}{90} = \\frac{3}{5}$ – genauso groß wie beim ersten Zug."
+    },
+    {
+      "titel": "Bayes-Umkehr-Formel und Ziegenproblem",
+      "folien": "19–21",
+      "text": "**Idee in Alltagssprache:** Oft kennt man die Wahrscheinlichkeiten „vorwärts“ (Wie oft wird eine gesuchte Person gemeldet?), will aber „rückwärts“ wissen (Wie wahrscheinlich ist eine gemeldete Person wirklich gesucht?). Die **Bayes-Umkehr-Formel** dreht die Bedingung um.\n\n> **Satz 2.1.11 (Bayes-Umkehr-Formel):** Ist $(B_i)_{i \\in I}$ eine abzählbare, disjunkte Zerlegung von $\\Omega$, dann gilt für alle $k \\in I$ und Ereignisse $A$ mit $P(A) > 0$:\n> $$P(B_k \\mid A) = \\frac{P(B_k) \\cdot P(A \\mid B_k)}{\\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)}$$\n\n**Beweis:** Übung (AB4) – das ist **Aufgabe B.1 auf Blatt 04**, vollständig gelöst in der Hausaufgabe „Übungsblatt 04“ (Seminar 02.11.). Kurz: Zähler = Multiplikationssatz, Nenner = Formel der totalen Wahrscheinlichkeit.\n\n*Kurz erklärt:* Zähler = „der eine Pfad über $B_k$ nach $A$“, Nenner = „alle Pfade nach $A$“. Also: **Anteil des einen Pfades an allen Pfaden, die zu $A$ führen.** Beispiel 2.1.4 ist genau so: $\\frac{18}{18 + 98}$.\n\n**Beispiel 2.1.12 – Ziegenproblem / Monty-Hall-Problem** (Folie 20–21, Lösung laut Mitschrift):\n\n{{aufgabe a05}}\n\n![Baumdiagramm zum Ziegenproblem: erst steht das Auto hinter Tor 1, 2 oder 3 (je 1/3), dann öffnet der Moderator ein Tor](/dateien/mab005/Kap2_Bsp2-1-12_Ziegen_Baum.svg)\n\n**Prüfungsfalle:** Viele denken „zwei Tore übrig, also je $\\frac{1}{2}$“. Falsch – die Information des Moderators ist **nicht** symmetrisch: Er darf das Tor der Kandidatin nie öffnen und nie das Auto zeigen. Wechseln verdoppelt die Gewinnchance von $\\frac{1}{3}$ auf $\\frac{2}{3}$. (Folie 21: Aus Symmetriegründen gilt das für jede Kombination aus gewähltem und geöffnetem Tor.)",
+      "beispiel": "Schnelltest: 2 % krank, Kranke zu 90 % positiv, Gesunde zu 5 % positiv. $P(\\text{krank} \\mid \\text{positiv}) = \\frac{0{,}02 \\cdot 0{,}9}{0{,}02 \\cdot 0{,}9 + 0{,}98 \\cdot 0{,}05} = \\frac{0{,}018}{0{,}067} \\approx 0{,}27$."
+    },
+    {
+      "titel": "Stochastische Unabhängigkeit – Definition und Beispiel",
+      "folien": "22–23",
+      "text": "**Idee in Alltagssprache:** Zwei Ereignisse sind **unabhängig**, wenn das eine nichts über das andere verrät. Wirft man eine Münze und einen Würfel, sagt die Münze nichts über die Augenzahl. Mathematisch: Die Wahrscheinlichkeit, dass **beide** eintreten, ist einfach das **Produkt** der einzelnen Wahrscheinlichkeiten.\n\nDas ist der zweite Teil von Kapitel 2 (Folie 22: „2 Stochastische Unabhängigkeit“).\n\n> **Definition 2.2.1 (Stochastische Unabhängigkeit):** Zwei Ereignisse $A$ und $B$ heißen **stochastisch unabhängig** (bzgl. $P$), wenn gilt\n> $$P(A \\cap B) = P(A) \\cdot P(B)$$\n\n**Vorgelesen:** „bzgl. $P$“ heißt „bezüglich $P$“: Ob zwei Ereignisse unabhängig sind, hängt vom Wahrscheinlichkeitsmaß ab – mit einem gezinkten Würfel kann sich das ändern.\n\n**Beispiel 2.2.2** (Folie 23 – Lösung steht auf der Folie):\n\n{{aufgabe a06}}\n\n*Kurz erklärt:* Unabhängigkeit ist **keine** Eigenschaft, die man „sieht“ – man muss sie **nachrechnen**. Im Beispiel liegen $B$ = „größer 4“ und $C$ = „größer 3“ ganz ähnlich, trotzdem ist $A$ von $B$ unabhängig, von $C$ aber nicht.\n\n**Prüfungsfalle:** **Unabhängig ist nicht disjunkt!** Disjunkte Ereignisse mit $P(A) > 0$ und $P(B) > 0$ sind sogar immer **ab**hängig: $P(A \\cap B) = 0$, aber $P(A) \\cdot P(B) > 0$. Wenn $A$ eintritt, weiß man nämlich sicher, dass $B$ **nicht** eintritt.",
+      "beispiel": "Münze und Würfel: $A$ = „Wappen“, $B$ = „Sechs“. $P(A \\cap B) = \\frac{1}{12} = \\frac{1}{2} \\cdot \\frac{1}{6} = P(A) \\cdot P(B)$ – unabhängig."
+    },
+    {
+      "titel": "Kriterien für stochastische Unabhängigkeit",
+      "folien": "24–28",
+      "text": "Statt mit der Produktformel kann man Unabhängigkeit auch mit **bedingten Wahrscheinlichkeiten** prüfen. Die Beweise, die hier fehlen („Übung (AB4)“), stehen vollständig in der Lösung zu **Blatt 04, Aufgabe B.2**.\n\n> **Satz 2.2.3:** Seien $A$ und $B$ zwei Ereignisse mit $P(B) > 0$. Dann sind $A$ und $B$ genau dann stochastisch unabhängig, wenn\n> $$P(A \\mid B) = P(A).$$\n\n**Beweis (Folie 24):** „⇐“: Ist $P(A \\mid B) = P(A)$, dann nach dem Multiplikationssatz $P(A \\cap B) = P(B) \\cdot P(A \\mid B) = P(B) \\cdot P(A)$ – also unabhängig nach Definition 2.2.1. „⇒“: Übung (AB4) = **Blatt 04, B.2a**: $P(A \\mid B) = \\frac{P(A) \\cdot P(B)}{P(B)} = P(A)$.\nFolie 24 betont: $P(B) > 0$ braucht man nur für „unabhängig ⇒ $P(A \\mid B) = P(A)$“; die Gegenrichtung stimmt auch für $P(B) = 0$.\n\n*Kurz erklärt:* „Genau dann, wenn“ ($\\iff$) heißt: Beide Richtungen gelten. $P(A \\mid B) = P(A)$ sagt: Das Wissen „$B$ ist eingetreten“ ändert die Wahrscheinlichkeit von $A$ **nicht**.\n\n> **Satz 2.2.4:** Sind zwei Ereignisse $A$ und $B$ stochastisch unabhängig, dann sind auch $\\bar{A}$ und $B$ (bzw. $A$ und $\\bar{B}$) stochastisch unabhängig.\n\n**Beweis:** Übung (AB4) = **Blatt 04, B.2b**: $P(A \\cap \\bar{B}) = P(A) - P(A \\cap B) = P(A) - P(A) \\cdot P(B) = P(A) \\cdot (1 - P(B)) = P(A) \\cdot P(\\bar{B})$.\n\n> **Satz 2.2.5:** Für jedes Ereignis $B$ sind die folgenden Aussagen äquivalent:\n> 1. $B$ ist von jedem Ereignis $A$ stochastisch unabhängig.\n> 2. $B$ ist von seinem Gegenereignis $\\bar{B}$ stochastisch unabhängig.\n> 3. Es gilt $P(B) = 0$ oder $P(B) = 1$.\n\n**Beweis (Folie 26):** (1) ⇒ (2): Mit „jedes Ereignis“ ist insbesondere $\\bar{B}$ gemeint. (2) ⇒ (3):\n$$0 \\overset{\\text{Satz 1.4.6 (2′)}}{=} P(\\emptyset) = P(B \\cap \\bar{B}) \\overset{\\text{Def. 2.2.1}}{=} P(B) \\cdot P(\\bar{B}) \\overset{\\text{Satz 1.4.7 (4)}}{=} P(B) \\cdot (1 - P(B)),$$\nalso $P(B) = 0$ oder $P(B) = 1$ (ein Produkt ist nur 0, wenn ein Faktor 0 ist). (3) ⇒ (1): Übung (AB4) = **Blatt 04, B.2c**.\n\n*Kurz erklärt:* „Äquivalent“ heißt: Alle drei Aussagen sind gleichwertig – gilt eine, gelten alle. Nur ein (fast) unmögliches oder (fast) sicheres Ereignis ist von allem unabhängig – es verrät nichts.\n\n> **Satz 2.2.6:** Seien $A$ und $B$ zwei Ereignisse mit $0 < P(B) < 1$. Dann sind $A$ und $B$ genau dann stochastisch unabhängig, wenn\n> $$P(A \\mid B) = P(A \\mid \\bar{B}).$$\n\n**Beweis (Folie 27–28):** „⇒“: Mit $A$, $B$ sind nach Satz 2.2.4 auch $A$, $\\bar{B}$ unabhängig; wegen $P(B) < 1$ ist $P(\\bar{B}) > 0$. Mit Satz 2.2.3 zweimal: $P(A \\mid B) = P(A) = P(A \\mid \\bar{B})$.\n„⇐“: Wegen $\\Omega = B \\,\\dot\\cup\\, \\bar{B}$ (totale Wahrscheinlichkeit, Multiplikationssatz, Gegenereignis):\n$$P(A) = P(A \\cap B) + P(A \\cap \\bar{B}) = P(B) \\cdot P(A \\mid B) + P(\\bar{B}) \\cdot P(A \\mid \\bar{B})$$\n$$= P(B) \\cdot P(A \\mid B) + P(\\bar{B}) \\cdot P(A \\mid B) = \\big(P(B) + P(\\bar{B})\\big) \\cdot P(A \\mid B) = 1 \\cdot P(A \\mid B).$$\nAus $P(A) = P(A \\mid B)$ folgt mit Satz 2.2.3 die Unabhängigkeit. $\\blacksquare$ (Für diese Richtung braucht man $0 < P(B) < 1$ nicht.)\n\n*Kurz erklärt:* $A$ tritt „mit $B$“ genauso oft ein wie „ohne $B$“ – dann hat $B$ offenbar keinen Einfluss.\n\n**Typische Klausurfrage:** „Prüfen Sie, ob $A$ und $B$ stochastisch unabhängig sind.“ → $P(A)$, $P(B)$, $P(A \\cap B)$ ausrechnen und $P(A \\cap B)$ mit $P(A) \\cdot P(B)$ vergleichen – oder $P(A \\mid B)$ mit $P(A)$.",
+      "beispiel": "Vierfeldertafel: 30 % der Schüler sind im Chor, 40 % im Sport, 12 % in beidem. $0{,}3 \\cdot 0{,}4 = 0{,}12$ – unabhängig. Probe: $P(\\text{Chor} \\mid \\text{Sport}) = \\frac{0{,}12}{0{,}4} = 0{,}3 = P(\\text{Chor})$."
+    },
+    {
+      "titel": "Unabhängigkeit von mehr als zwei Ereignissen",
+      "folien": "29–30",
+      "text": "> **Definition 2.2.7 (Stochastische Unabhängigkeit abzählbar vieler Ereignisse):** Ein abzählbares System von Ereignissen $A_i$ mit $i \\in I$ heißt stochastisch unabhängig, wenn für jede endliche Teilmenge $\\{i_1, i_2, \\ldots, i_k\\}$ von $I$ gilt\n> $$P\\left(\\bigcap_{j=1}^{k} A_{i_j}\\right) = \\prod_{j=1}^{k} P(A_{i_j})$$\n\n**Vorgelesen:** $\\bigcap_{j=1}^{k}$ heißt „Schnitt von $j = 1$ bis $k$“ (alle diese Ereignisse treten ein), $\\prod_{j=1}^{k}$ (großes Pi) heißt „**Produkt** von $j = 1$ bis $k$“ – wie $\\sum$, nur mit Malnehmen. $A_{i_j}$ ist das $j$-te ausgewählte Ereignis.\nFür drei Ereignisse $A$, $B$, $C$ heißt das: **alle vier** Gleichungen müssen gelten:\n$$P(A \\cap B) = P(A) P(B), \\quad P(A \\cap C) = P(A) P(C), \\quad P(B \\cap C) = P(B) P(C), \\quad P(A \\cap B \\cap C) = P(A) P(B) P(C).$$\n\n**Beispiel 2.2.8** (Folie 30, Lückenfolie – Lösung in der Vorlesung am 09.11. so bestätigt):\n\n{{aufgabe a07}}\n\n**Prüfungsfalle (Folie 31):** Aus **paarweiser** Unabhängigkeit folgt **nicht** automatisch die Unabhängigkeit des ganzen Systems – genau das zeigt Beispiel 2.2.8. Man muss auch den Schnitt aller drei prüfen.",
+      "beispiel": "Dreimal Münzwurf, $A_j$ = „Wappen im $j$-ten Wurf“: $P(A_1 \\cap A_2 \\cap A_3) = \\frac{1}{8} = \\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2}$, ebenso für jedes Paar – das System ist stochastisch unabhängig."
+    },
+    {
+      "titel": "Zusammenfassung Kapitel 2 (Folie 31–32)",
+      "folien": "31–32",
+      "text": "Die Zusammenfassung der Folie in einfachen Worten:\n- $P(A \\mid B)$ = Wahrscheinlichkeit von $A$, wenn $B$ auf jeden Fall eintritt; für $P(B) > 0$ ist $P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)}$ (Ergebnisraum auf $B$ einschränken). $P(B) = 0$ ist nur ein formaler Randfall ($:= 0$).\n- **Multiplikationssatz** $P(A \\cap B) = P(B) \\cdot P(A \\mid B)$, verallgemeinert: **Verkettungsregel**. **Baumdiagramme** eignen sich gut für geschnittene Ereignisse und bedingte Wahrscheinlichkeiten.\n- Kennt man alle $P(B_i)$ und $P(A \\mid B_i)$ für eine disjunkte Zerlegung, liefert die **Formel der totalen Wahrscheinlichkeit** $P(A)$ und die **Bayes-Umkehr-Formel** $P(B_k \\mid A)$ (falls $P(A) > 0$).\n- **Stochastisch unabhängig**: $P(A \\cap B) = P(A) \\cdot P(B)$; gleichwertig $P(A \\mid B) = P(A)$ bzw. $P(A \\mid B) = P(A \\mid \\bar{B})$.\n- Für mehr als zwei Ereignisse: Aus **paarweiser** Unabhängigkeit folgt **nicht** zwingend die Unabhängigkeit aller zusammen!\n\nLiteratur (Folie 32): Hübner (2009), Stochastik.\n\n⚠ Folie 31 sagt, der Multiplikationssatz lasse sich „auf mehr als drei Ereignisse“ verallgemeinern – gemeint ist wohl „mehr als zwei“ (die Verkettungsregel 2.1.7 ist schon der Fall mit drei).",
+      "beispiel": ""
+    },
+    {
+      "titel": "Aus der Vorlesung: mündliche Ergänzungen (Aufnahme 02.11.2026)",
+      "folien": "1–21",
+      "nachbereitung": true,
+      "text": "**Bedingte Wahrscheinlichkeit (Folie 5–10)**\n- [32:40] Bei $P(A \\mid B)$ wird der Ergebnisraum $\\Omega$ auf die Teilmenge $B$ **eingeschränkt**: „Alles, was außerhalb von $B$ liegt, kann gar nicht eintreten.“ Innerhalb von $B$ bleiben alle Ergebnisse gleich wahrscheinlich – darum $\\frac{3}{4}$.\n- [34:32] Der Weg zur Formel: Den Bruch $\\frac{3}{4}$ mit $\\frac{1}{10}$ erweitern ergibt $\\frac{3/10}{4/10} = \\frac{P(A \\cap B)}{P(B)}$. [38:16] Rückwärts gelesen: $P(B) = \\frac{4}{10}$, davon tritt in $\\frac{3}{4}$ der Fälle auch $A$ ein, zusammen $\\frac{4}{10} \\cdot \\frac{3}{4} = \\frac{3}{10}$ – „die Wahrscheinlichkeit der Bedingung wird herausdividiert“.\n- [40:08] Zum Sonderfall $P(B) = 0$: Das ist wie eine Implikation mit falscher Voraussetzung – man **muss** irgendeinen Wert festlegen; man könnte auch $P(A)$ oder $1$ nehmen. Die Vorlesung nimmt $0$. [70:56] Im Beweis des Multiplikationssatzes sieht man, warum das egal ist: Es reicht, dass $P(A \\mid B)$ **irgendein fester Wert** ist, denn $0 \\cdot (\\text{fester Wert}) = 0$.\n- [41:32] Betont: „unter der Bedingung $B$“ heißt **nicht**, dass $B$ die Ursache von $A$ ist oder zeitlich vorher passiert – nur ein formaler, rechnerischer Zusammenhang.\n- [43:24] Satz 2.1.3: Fall 1–3 folgen direkt aus der Definition, Fall 4 mit Nulltreue und Monotonie („nach unten durch 0, nach oben abschätzen“), Fall 5 wurde ausführlich gezeigt. [46:12] Dabei wird der Additionssatz „andersherum“ benutzt (umgestellt nach $P(A \\cap B)$).\n\n**Gesichtserkennung (Folie 11)**\n- [51:48]–[56:00] Gleiche Rechnung wie in der Mitschrift: $\\frac{18}{116} \\approx 0{,}155$ und $\\frac{98}{116} \\approx 0{,}845$. Der Dozent: „Das müssen Sie nicht im Kopf ausrechnen.“\n- [56:28] **Rückführung auf die Realsituation (wichtig):** 90 % Erkennung und nur 10 % Fehlalarm *klingen* gut – trotzdem sind etwa **84,5 % der gemeldeten Personen völlig unbescholten**. Für die Polizei bedeutet das viel unnötige Arbeit. Man muss Modellergebnisse also immer zurück auf die reale Situation übertragen und bewerten.\n\n**Urne und Baumdiagramm (Folie 12–16)**\n- [58:48] Der Dozent bestätigt: Auf Folie 12 muss es „**Kugel**“ statt „Zahl“ heißen (Überbleibsel aus einem anderen Beispiel).\n- [60:12] Wäre im ersten Zug blau gezogen worden, wäre $P(B \\mid \\bar{A}) = \\frac{5}{9}$ – „dafür sind bedingte Wahrscheinlichkeiten da: Zwischenzustände in mehrstufigen Experimenten modellieren“.\n- [68:36] Den Multiplikationssatz hat er im Beispiel „andersherum“ benutzt ($P(A) \\cdot P(B \\mid A)$) – die Reihenfolge der Ereignisse ist für die Formel egal.\n- [74:40] **Praxistipp:** Bei mehrstufigen Baumdiagrammen **von der letzten Stufe her zeichnen** – erst die Endknoten (z. B. 8 oder 16) untereinander setzen, dann nach links verzweigen. So reicht der Platz.\n- [78:52] $P(C)$: Alle Pfade nehmen, bei denen zuletzt blau gezogen wird (der 2., 4., 6. und 8. Pfad). $C$ **zerfällt in vier disjunkte Teile**, deren Wahrscheinlichkeiten addiert werden – das ist die Idee der Formel der totalen Wahrscheinlichkeit.\n\n**Totale Wahrscheinlichkeit und Bayes (Folie 17–19)**\n- [83:04] Den Beweis von Satz 2.1.10 hat der Dozent aus Zeitgründen übersprungen – „in Ruhe selbst durchlesen“.\n- [83:32] Die **Bayes-Umkehr-Formel „sollten Sie einmal gesehen haben, weil sie für die Übung relevant ist“**: Man vertauscht Ereignis und Bedingung. [84:28] Beispiel: Weiß man, was im **zweiten** Zug gezogen wurde, kann man berechnen, wie wahrscheinlich im **ersten** Zug rot war – wieder: kein zeitlicher oder ursächlicher Zusammenhang nötig. Die Herleitung ist Übungsaufgabe (Blatt 04, B.1).\n\n**Ziegenproblem (Folie 20–21)**\n- [86:48] Handabstimmung im Hörsaal: einige für Wechseln, einige für Bleiben, einige „egal“.\n- [90:32] Kernargument für $P(M_1 \\mid T_3) = 1$: Der Moderator öffnet **nie** das Tor der Kandidatin und **nie** das Tor mit dem Auto – bleibt nur Tor 1.\n- [95:12] Deutung: Aus Sicht der Kandidatin steht das Auto nur mit $\\frac{1}{3}$ hinter ihrem Tor, mit $\\frac{2}{3}$ hinter Tor 3 – Wechseln **verdoppelt** die Gewinnchance.\n\n**Organisatorisches**\n- [84:56], [96:36] **Stochastische Unabhängigkeit** wurde nicht mehr geschafft. Die Aufgaben dazu auf dem Aufgabenblatt werden **in die nächste Woche** mitgenommen (Blatt 04, B.2 → Seminar 09.11.).\n\n*Kurz erklärt:* Die Vorlesung hat zwei Dinge besonders betont: (1) Bedingen heißt **Ergebnisraum einschränken**, nicht „Ursache“. (2) Rechenergebnisse immer **zurück in die Wirklichkeit übersetzen** – wie bei der Gesichtserkennung, wo ein „guter“ Test trotzdem vor allem Unschuldige meldet.\n\n**Prüfungsfalle:** Bei „weder Bernoulli noch Laplace“ reicht es nicht, nur „mehr als zwei Ausgänge“ zu nennen – man muss **auch** begründen, warum es kein Laplace-Experiment ist (ungleiche Wahrscheinlichkeiten **oder** unendlich viele Ausgänge)."
+    },
+    {
+      "titel": "Aus der Vorlesung: mündliche Ergänzungen (Aufnahme 09.11.2026)",
+      "folien": "22–32",
+      "nachbereitung": true,
+      "text": "Was der Dozent am 09.11. zum Rest von Kapitel 2 mündlich ergänzt hat (Aufnahme, automatisch transkribiert, sinngemäß):\n\n- [03:16] **Definition 2.2.1** gilt immer **bezüglich eines konkreten W-Maßes $P$**: Unabhängig heißt nur, dass das gleichzeitige Eintreten so wahrscheinlich ist wie das Produkt der Einzelwahrscheinlichkeiten.\n- [05:08] **Beispiel 2.2.2** wurde genau wie auf der Folie gerechnet: $A$ und $B$ unabhängig ($\\frac{1}{6} = \\frac{1}{2} \\cdot \\frac{1}{3}$), $A$ und $C$ nicht ($\\frac{1}{3} \\neq \\frac{1}{4}$).\n- [07:00] **Warum weitere Kriterien?** Meist will man die Produktformel $P(A \\cap B) = P(A) \\cdot P(B)$ **benutzen** und muss dafür vorher wissen, dass $A$ und $B$ unabhängig sind. Deshalb die Kriterien aus Satz 2.2.3–2.2.6.\n- [07:56] **Satz 2.2.3:** „Die Wahrscheinlichkeit für das Eintreten von $A$ hängt nicht von $B$ ab.“ Wichtig: nur für $P(B) > 0$. Die Richtung „$P(A \\mid B) = P(A)$ ⇒ unabhängig“ wurde mit dem **Multiplikationssatz** gezeigt; die Gegenrichtung ist **Übung** (Blatt 04, B.2).\n- [12:36] **Satz 2.2.5:** Die drei Aussagen sind **äquivalent** – gilt eine, gelten alle. Man zeigt das im Ring: (1) ⇒ (2) ⇒ (3) ⇒ (1). (1) ⇒ (2) ist „trivial“: Wenn $B$ von **jedem** Ereignis unabhängig ist, dann auch von $\\bar{B}$. (2) ⇒ (3) an der Tafel: $B \\cap \\bar{B} = \\emptyset$, also $0 = P(B) \\cdot (1 - P(B))$ – ein Produkt ist nur 0, wenn ein Faktor 0 ist, also $P(B) = 0$ oder $P(B) = 1$. (3) ⇒ (1) ist **Übung**.\n- [17:44] **Satz 2.2.6** an der Tafel in beide Richtungen bewiesen (wie auf Folie 27–28). Für „⇐“ wird $\\Omega = B \\,\\dot\\cup\\, \\bar{B}$ als disjunkte Zerlegung benutzt (Formel der totalen Wahrscheinlichkeit) und $P(B) + P(\\bar{B}) = 1$ ausgeklammert.\n- [23:20] **Prüfungsfalle aus der Vorlesung:** „Stochastisch unabhängig“ heißt **nicht**, dass in der Realsituation **kein kausaler Zusammenhang** besteht. Es bezeichnet **nur den formalen Zusammenhang** $P(A \\cap B) = P(A) \\cdot P(B)$.\n- [26:08] **Mehr als zwei Ereignisse (Def. 2.2.7):** wie beim Multiplikationssatz → Verkettungsregel. Die Produktformel muss für **jede endliche Teilauswahl** gelten, nicht nur für den Schnitt aller.\n- [27:04] **Beispiel 2.2.8** an der Tafel: $P(A) = P(B) = P(C) = \\frac{1}{2}$; „Summe gerade“ heißt: zwei gerade oder zwei ungerade Zahlen. $A \\cap B$: $3 \\cdot 3 = 9$ von 36 Paaren, also $\\frac{1}{4}$ – ebenso $A \\cap C$ und $B \\cap C$. Aber [33:36] wenn $A$ und $B$ eintreten, tritt $C$ **automatisch** ein: $P(A \\cap B \\cap C) = \\frac{1}{4} \\neq \\frac{1}{8}$. Also paarweise unabhängig, aber nicht unabhängig.\n- [34:04] Es gibt auch umgekehrte Beispiele: Die Produktformel gilt für alle drei zusammen, aber **paarweise nicht**. Deshalb immer **jede** Teilauswahl prüfen.\n- [34:32] Fazit des Dozenten: Stochastische Unabhängigkeit ist „letztendlich einfach nur ein Werkzeug“, um die Wahrscheinlichkeit für das gleichzeitige Eintreten über ein Produkt zu berechnen. Vertieft wird es in den Übungsaufgaben.\n\n**Kurz erklärt:** Für die Klausur zählt die Definition $P(A \\cap B) = P(A) \\cdot P(B)$ – nicht das Bauchgefühl „die haben nichts miteinander zu tun“. Bei drei Ereignissen vier Gleichungen prüfen: drei Paare **und** alle drei zusammen."
+    }
+  ],
+  "definitionen": [
+    {
+      "begriff": "Bedingte Wahrscheinlichkeit",
+      "wortlaut": "Definition 2.1.2 (Bedingte Wahrscheinlichkeit) Seien $A$, $B$ Ereignisse in $\\Omega$ und sei $P(B) > 0$. Dann heißt $P(A \\mid B) := \\frac{P(A \\cap B)}{P(B)}$ die bedingte Wahrscheinlichkeit von $A$ unter der Bedingung $B$. Für $P(B) = 0$ wird stattdessen $P(A \\mid B) := 0$ gesetzt.",
+      "erklaerung": "Die Wahrscheinlichkeit von $A$, wenn man schon weiß, dass $B$ eingetreten ist – man schränkt den Ergebnisraum auf $B$ ein. Sprich: „P von A unter der Bedingung B“. Beispiel zehnseitiger Würfel: $P(\\text{ungerade} \\mid \\text{Primzahl}) = \\frac{3}{4}$ (3 der 4 Primzahlen 2, 3, 5, 7 sind ungerade). Kein zeitlicher oder ursächlicher Zusammenhang nötig.",
+      "folie": "9"
+    },
+    {
+      "begriff": "Multiplikationssatz",
+      "wortlaut": "Satz 2.1.6 (Multiplikationssatz) Für je zwei beliebige Ereignisse $A$, $B$ gilt die Formel $P(A \\cap B) = P(B) \\cdot P(A \\mid B)$.",
+      "erklaerung": "Die umgestellte Definition der bedingten Wahrscheinlichkeit – gilt auch für $P(B) = 0$. Im Baumdiagramm die Pfadregel: Wahrscheinlichkeiten entlang eines Pfades multiplizieren. Beispiel: erst rot ($\\frac{4}{10}$), dann blau ($\\frac{6}{9}$): $\\frac{4}{10} \\cdot \\frac{6}{9} = \\frac{4}{15}$.",
+      "folie": "14"
+    },
+    {
+      "begriff": "Verkettungsregel",
+      "wortlaut": "Satz 2.1.7 (Verkettungsregel) Für je drei Ereignisse $A$, $B$, $C$ gilt die Formel $P(A \\cap B \\cap C) = P(C) \\cdot P(B \\mid C) \\cdot P(A \\mid B \\cap C)$.",
+      "erklaerung": "Der Multiplikationssatz für drei (und analog mehr) Ereignisse – die Pfadregel bei einem Baum mit drei Stufen. Beweis: zweimal den Multiplikationssatz anwenden.",
+      "folie": "15"
+    },
+    {
+      "begriff": "Zerlegung, disjunkte Zerlegung",
+      "wortlaut": "Definition 2.1.9 (Zerlegung) Gilt für Mengen $B_i$ mit $i \\in I$, dass $\\Omega = \\bigcup_{i \\in I} B_i$, dann heißt $(B_i)_{i \\in I}$ Zerlegung von $\\Omega$. Gilt sogar $\\Omega = \\dot{\\bigcup}_{i \\in I} B_i$, so heißt $(B_i)_{i \\in I}$ disjunkte Zerlegung von $\\Omega$. Ist die Indexmenge $I$ endlich oder abzählbar, so spricht man entsprechend von einer endlichen Zerlegung bzw. abzählbaren Zerlegung von $\\Omega$.",
+      "erklaerung": "Eine Aufteilung von $\\Omega$ in Teile, die zusammen alles abdecken; bei „disjunkt“ überschneiden sich die Teile nicht. Beispiel: $B$ und $\\bar{B}$; beim Würfel $\\{1, 2\\}$, $\\{3, 4\\}$, $\\{5, 6\\}$. $I$ ist die Indexmenge („Hausnummern“ der Teile).",
+      "folie": "17"
+    },
+    {
+      "begriff": "Formel der totalen Wahrscheinlichkeit",
+      "wortlaut": "Satz 2.1.10 (Formel der totalen Wahrscheinlichkeit) Ist $(B_i)_{i \\in I}$ eine abzählbare, disjunkte Zerlegung von $\\Omega$, dann gilt: $P(A) = \\sum_{i \\in I} P(A \\cap B_i) = \\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)$",
+      "erklaerung": "Man berechnet $P(A)$, indem man nach Fällen $B_i$ aufteilt: je Fall $P(B_i) \\cdot P(A \\mid B_i)$, dann addieren. Im Baumdiagramm: alle Pfade zu $A$ multiplizieren und addieren. Beispiel: $P(\\text{2. Kugel blau}) = \\frac{4}{10} \\cdot \\frac{6}{9} + \\frac{6}{10} \\cdot \\frac{5}{9} = \\frac{3}{5}$.",
+      "folie": "18"
+    },
+    {
+      "begriff": "Bayes-Umkehr-Formel",
+      "wortlaut": "Satz 2.1.11 (Bayes-Umkehr-Formel) Ist $(B_i)_{i \\in I}$ eine abzählbare, disjunkte Zerlegung von $\\Omega$, dann gilt für alle $k \\in I$ und Ereignisse $A$ mit $P(A) > 0$: $P(B_k \\mid A) = \\frac{P(B_k) \\cdot P(A \\mid B_k)}{\\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)}$",
+      "erklaerung": "Dreht die Bedingung um: aus $P(A \\mid B_k)$ wird $P(B_k \\mid A)$. Zähler = der eine Pfad über $B_k$ nach $A$, Nenner = alle Pfade nach $A$. Beispiel Gesichtserkennung: $P(\\text{gefahndet} \\mid \\text{gemeldet}) = \\frac{18}{18 + 98} \\approx 0{,}155$.",
+      "folie": "19"
+    },
+    {
+      "begriff": "Stochastische Unabhängigkeit",
+      "wortlaut": "Definition 2.2.1 (Stochastische Unabhängigkeit) Zwei Ereignisse $A$ und $B$ heißen stochastisch unabhängig (bzgl. $P$), wenn gilt $P(A \\cap B) = P(A) \\cdot P(B)$",
+      "erklaerung": "Das eine Ereignis verrät nichts über das andere; die Wahrscheinlichkeit für „beide“ ist das Produkt. Gleichwertig (für $P(B) > 0$): $P(A \\mid B) = P(A)$. Beispiel Würfel: „gerade“ und „größer 4“ sind unabhängig ($\\frac{1}{6} = \\frac{1}{2} \\cdot \\frac{1}{3}$). Nicht verwechseln mit disjunkt!",
+      "folie": "23"
+    },
+    {
+      "begriff": "Stochastische Unabhängigkeit abzählbar vieler Ereignisse",
+      "wortlaut": "Definition 2.2.7 (Stochastische Unabhängigkeit abzählbar vieler Ereignisse) Ein abzählbares System von Ereignissen $A_i$ mit $i \\in I$ heißt stochastisch unabhängig, wenn für jede endliche Teilmenge $\\{i_1, i_2, \\ldots, i_k\\}$ von $I$ gilt $P\\left(\\bigcap_{j=1}^{k} A_{i_j}\\right) = \\prod_{j=1}^{k} P(A_{i_j})$",
+      "erklaerung": "Für jede Auswahl endlich vieler Ereignisse muss „Wahrscheinlichkeit, dass alle eintreten“ = Produkt der Einzelwahrscheinlichkeiten sein. Bei drei Ereignissen: drei Paar-Gleichungen und eine Dreier-Gleichung. Paarweise Unabhängigkeit allein reicht nicht (Beispiel 2.2.8).",
+      "folie": "29"
+    }
+  ],
+  "aufgaben": [
+    {
+      "id": "a01",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 2.1.1: Betrachtet wird das Laplace-Experiment „Einmaliges Werfen eines fairen, zehnseitigen Würfels“, also $\\Omega = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$, $\\mathcal{A} = \\mathfrak{P}(\\Omega)$ und $P(A) = \\frac{|A|}{|\\Omega|}$ für alle $A \\in \\mathcal{A}$. Betrachtet werden die folgenden Ereignisse: $A$: Die gewürfelte Zahl ist ungerade. $B$: Die gewürfelte Zahl ist eine Primzahl. Veranschaulichen Sie mithilfe von Venn-Diagrammen die folgenden Wahrscheinlichkeiten und bestimmen Sie diese: 1. $P(A)$: Die Wahrscheinlichkeit, dass Ereignis $A$ eintritt. 2. $P(A \\cap B)$: Die Wahrscheinlichkeit, dass die Ereignisse $A$ und $B$ beide eintreten. 3. $P(A \\mid B)$: Die Wahrscheinlichkeit, dass Ereignis $A$ eintritt, unter der Annahme, dass Ereignis $B$ auf jeden Fall eintritt.",
+      "quelle": "Folie 5–8",
+      "loesung": "$A = \\{1, 3, 5, 7, 9\\}$, $|A| = 5$; $B = \\{2, 3, 5, 7\\}$ (Primzahlen bis 10), $|B| = 4$; $A \\cap B = \\{3, 5, 7\\}$.\n\n1. $P(A) = \\frac{|A|}{|\\Omega|} = \\frac{5}{10} = \\frac{1}{2}$.\n2. $P(A \\cap B) = \\frac{|A \\cap B|}{|\\Omega|} = \\frac{|\\{3, 5, 7\\}|}{10} = \\frac{3}{10}$.\n3. $P(A \\mid B) = \\frac{3}{4} = \\frac{3/10}{4/10} = \\frac{|A \\cap B| / |\\Omega|}{|B| / |\\Omega|} = \\frac{P(A \\cap B)}{P(B)}$.",
+      "loesungsweg": "Lösung laut Mitschrift (Folie 5–8), geprüft – alles richtig, auch die Einordnung der Zahlen im Venn-Diagramm (1 und 9 nur in $A$, 3, 5, 7 in $A \\cap B$, 2 nur in $B$, 4, 6, 8, 10 außerhalb). Bei 3) weiß man: $B$ ist eingetreten. Dann gibt es nur noch 4 mögliche Zahlen (2, 3, 5, 7), davon sind 3 ungerade. Erweitert man Zähler und Nenner mit $\\frac{1}{10}$, sieht man die allgemeine Formel $\\frac{P(A \\cap B)}{P(B)}$ (→ Definition 2.1.2). Hinweis: 1 ist **keine** Primzahl (eine Primzahl hat genau zwei Teiler).",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a02",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 2.1.4: Bei einem (fiktiven) Testlauf einer mit Gesichtserkennungssoftware ausgestatteten Kamera wurden in einem öffentlichen Bereich 1000 Personen erfasst und mit Fahndungsfotos in einer Datenbank abgeglichen. Im Falle eines Treffers wurden die entsprechenden Personen mit Aufenthaltsort und Uhrzeit der Polizei gemeldet. Ein nachträglicher manueller Abgleich ergab, dass 90 % der gefahndeten Personen korrekt gemeldet wurden und nicht gefahndete Personen lediglich in 10 % der Fälle irrtümlicherweise gemeldet wurden. Unter den erfassten 1000 Personen befanden sich insgesamt 20 Personen, nach denen gefahndet wurde. Mit welcher Wahrscheinlichkeit wurde nach einer zufällig ausgewählten, gemeldeten Person auch tatsächlich gefahndet? $P(\\text{gefahndet} \\mid \\text{gemeldet}) =$ ?, $P(\\text{nicht gefahndet} \\mid \\text{gemeldet}) =$ ?",
+      "quelle": "Folie 11",
+      "loesung": "Gefahndet: 20 Personen, davon $90\\,\\%$ gemeldet: $0{,}9 \\cdot 20 = 18$. Nicht gefahndet: $1000 - 20 = 980$ Personen, davon $10\\,\\%$ gemeldet: $0{,}1 \\cdot 980 = 98$. Gemeldet insgesamt: $18 + 98 = 116$.\n\n![Baumdiagramm Beispiel 2.1.4: 20 gefahndet (18 gemeldet), 980 nicht gefahndet (98 gemeldet)](/dateien/mab005/Kap2_Bsp2-1-4_Baum.svg)\n\n$$P(\\text{gefahndet} \\mid \\text{gemeldet}) = \\frac{P(\\text{gefahndet und gemeldet})}{P(\\text{gemeldet})} = \\frac{18/1000}{116/1000} = \\frac{18}{116} = \\frac{9}{58} \\approx 0{,}155$$\n$$P(\\text{nicht gefahndet} \\mid \\text{gemeldet}) = \\frac{98/1000}{116/1000} = \\frac{98}{116} = \\frac{49}{58} \\approx 0{,}845$$\n\n**Ergebnis:** Nur etwa **15,5 %** der gemeldeten Personen werden tatsächlich gesucht; rund 84,5 % der Meldungen sind Fehlalarme. (Probe: $0{,}155 + 0{,}845 = 1$.)",
+      "loesungsweg": "Lösung laut Mitschrift (Folie 11), geprüft – richtig. Der Bruch $\\frac{18/1000}{116/1000}$: Die $1000$ kürzt sich weg (in der Mitschrift durchgestrichen). Gekürzt: $\\frac{18}{116} = \\frac{9}{58}$ (Zähler und Nenner durch 2). Das ist schon die Bayes-Formel (Satz 2.1.11) in Zahlen.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a03",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 2.1.5: Aus einer Urne mit vier roten und sechs blauen Kugeln werden ohne Zurücklegen zwei Kugeln gezogen. Betrachtet werden die folgenden Ereignisse: $A$: Die erste gezogene Zahl ist rot. $B$: Die zweite gezogene Zahl ist blau. Wie groß ist die Wahrscheinlichkeit, dass $A$ und $B$ beide eintreten? $P(A) =$ ?, $P(B \\mid A) =$ ?, $P(A \\cap B) =$ ?",
+      "quelle": "Folie 12–13",
+      "loesung": "$P(A) = \\frac{4}{10}$ (zuerst rot: 4 rote von 10 Kugeln).\n\n$P(B \\mid A) = \\frac{6}{9}$ (dann blau: nach einer roten sind noch 9 Kugeln da, davon 6 blau).\n\n$P(A \\cap B) = \\frac{4}{10} \\cdot \\frac{6}{9} = \\frac{24}{90} = \\frac{4}{15}$.\n\nBegründung: $P(B \\mid A) = \\frac{P(B \\cap A)}{P(A)} \\iff P(A) \\cdot P(B \\mid A) = P(A \\cap B)$.\n\n![Baumdiagramm Beispiel 2.1.5: zwei Züge ohne Zurücklegen](/dateien/mab005/Kap2_Bsp2-1-5_Baum.svg)\n\nIm Baum (Folie 13): erster Zug $P(A) = \\frac{4}{10}$, $P(\\bar{A}) = \\frac{6}{10}$; zweiter Zug nach rot $P(\\bar{B} \\mid A) = \\frac{3}{9}$, $P(B \\mid A) = \\frac{6}{9}$; nach blau $P(\\bar{B} \\mid \\bar{A}) = \\frac{4}{9}$, $P(B \\mid \\bar{A}) = \\frac{5}{9}$.",
+      "loesungsweg": "Lösung laut Mitschrift (Folie 12–13), geprüft – alles richtig, auch alle vier Zweige im Baum. Auf der Folie steht „gezogene **Zahl**“ – gemeint ist „Kugel“ (in deiner Mitschrift schon verbessert). Gekürzt: $\\frac{24}{90} = \\frac{4}{15}$ (durch 6). $\\bar{B}$ heißt hier „zweite Kugel ist **rot**“.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a04",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 2.1.8: Es wird erneut Beispiel 2.1.5 aufgegriffen; es wird eine dritte Kugel (ohne Zurücklegen) gezogen und zusätzlich Ereignis $C$ betrachtet. $C$: Die dritte gezogene Kugel ist blau. Analysieren Sie die Wahrscheinlichkeiten für das Eintreten der verschiedenen Kombinationen von $A$, $B$ und $C$ mit einem Baumdiagramm. Wie könnte man $P(C)$ berechnen?",
+      "quelle": "Folie 16",
+      "loesung": "![Baumdiagramm Beispiel 2.1.8: drei Züge ohne Zurücklegen, alle 8 Pfade mit Wahrscheinlichkeit](/dateien/mab005/Kap2_Bsp2-1-8_Baum.svg)\n\nDritter Zug (8 Kugeln übrig), je nachdem, was vorher gezogen wurde:\n\n| bisher gezogen | übrig | $P(\\bar{C} \\mid \\ldots)$ (rot) | $P(C \\mid \\ldots)$ (blau) |\n|---|---|---|---|\n| rot, rot ($A \\cap \\bar{B}$) | 2 rot, 6 blau | $\\frac{2}{8}$ | $\\frac{6}{8}$ |\n| rot, blau ($A \\cap B$) | 3 rot, 5 blau | $\\frac{3}{8}$ | $\\frac{5}{8}$ |\n| blau, rot ($\\bar{A} \\cap \\bar{B}$) | 3 rot, 5 blau | $\\frac{3}{8}$ | $\\frac{5}{8}$ |\n| blau, blau ($\\bar{A} \\cap B$) | 4 rot, 4 blau | $\\frac{4}{8} = \\frac{1}{2}$ | $\\frac{4}{8} = \\frac{1}{2}$ |\n\n**$P(C)$:** Alle Pfade, die mit $C$ enden, mit der Verkettungsregel ausrechnen und addieren (Formel der totalen Wahrscheinlichkeit):\n$$P(C) = P(A \\cap \\bar{B} \\cap C) + P(A \\cap B \\cap C) + P(\\bar{A} \\cap \\bar{B} \\cap C) + P(\\bar{A} \\cap B \\cap C)$$\n$$= \\frac{4}{10} \\cdot \\frac{3}{9} \\cdot \\frac{6}{8} + \\frac{4}{10} \\cdot \\frac{6}{9} \\cdot \\frac{5}{8} + \\frac{6}{10} \\cdot \\frac{4}{9} \\cdot \\frac{5}{8} + \\frac{6}{10} \\cdot \\frac{5}{9} \\cdot \\frac{4}{8}$$\n$$= \\frac{72 + 120 + 120 + 120}{720} = \\frac{432}{720} = \\frac{3}{5}$$\n\n**Ergebnis:** $P(C) = \\frac{3}{5} = 0{,}6$ – genauso groß wie die Wahrscheinlichkeit, beim **ersten** Zug blau zu ziehen ($\\frac{6}{10}$).",
+      "loesungsweg": "Baum laut Mitschrift (Folie 16), geprüft – alle Wahrscheinlichkeiten und Beschriftungen stimmen. Kleinigkeit: Beim Ast $\\bar{A} \\cap \\bar{B} \\to \\bar{C}$ steht in der Mitschrift „38“ – gemeint ist $\\frac{3}{8}$. Die Rechnung für $P(C)$ war in der Mitschrift nur begonnen („$P(C) = P(A \\cap \\bar{B} \\cap C) + \\ldots$“) – hier zu Ende gerechnet (selbst erarbeitet). Hauptnenner: $10 \\cdot 9 \\cdot 8 = 720$. Gekürzt: $\\frac{432}{720} = \\frac{3}{5}$ (durch 144). Dass $P(C) = P(\\text{1. Kugel blau})$ ist, ist kein Zufall: Ohne Information über die vorherigen Züge ist jede Position gleich – Symmetrie.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a05",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 2.1.12 (Ziegenproblem / Monty-Hall-Problem): Bei einer Spielshow wird mit gleicher Wahrscheinlichkeit hinter einem von drei Toren ein Auto versteckt, hinter den anderen beiden Toren stehen Nieten (in Form von Ziegen). Das Spiel läuft wie folgt ab: 1. Die Kandidatin wählt eines der Tore 1, 2 oder 3 aus. 2. Der Moderator (der weiß, hinter welchem Tor das Auto steht), öffnet (im Zweifel mit gleicher Wahrscheinlichkeit) eines der beiden anderen Tore, hinter dem eine Ziege steht. 3. Anschließend fragt der Moderator die Kandidatin, ob sie ihre Entscheidung auf das andere, noch verschlossene Tor ändern möchte. 4. Das endgültig gewählte Tor wird nun geöffnet und die Kandidatin gewinnt, was hinter diesem Tor steht. Die Kandidatin wählt zunächst Tor 2, der Moderator lässt daraufhin Tor 1 öffnen. Liegt es nun im Interesse der Kandidatin, von Tor 2 zu Tor 3 zu wechseln? (Es bezeichne $T_i$ das Ereignis „Das Auto steht hinter Tor $i$“ und $M_i$ das Ereignis „Der Moderator öffnet Tor $i$“ für $i \\in \\{1, 2, 3\\}$.)",
+      "quelle": "Folie 20–21",
+      "loesung": "**Vorher (Auto zufällig):** $P(T_1) = P(T_2) = P(T_3) = \\frac{1}{3}$.\n\n**Was macht der Moderator?** (Kandidatin hat Tor 2 gewählt.)\n- $P(M_1 \\mid T_1) = 0$ – hinter Tor 1 steht das Auto, das öffnet er nie.\n- $P(M_1 \\mid T_2) = \\frac{1}{2}$ – Auto hinter dem Tor der Kandidatin: Er kann Tor 1 oder Tor 3 öffnen, beide gleich wahrscheinlich.\n- $P(M_1 \\mid T_3) = 1$ – Auto hinter Tor 3, Tor 2 ist gewählt: Er **muss** Tor 1 öffnen.\n\n**Formel der totalen Wahrscheinlichkeit** ($T_1, T_2, T_3$ ist eine disjunkte Zerlegung von $\\Omega$):\n$$P(M_1) = P(T_1) \\cdot P(M_1 \\mid T_1) + P(T_2) \\cdot P(M_1 \\mid T_2) + P(T_3) \\cdot P(M_1 \\mid T_3) = \\frac{1}{3} \\cdot 0 + \\frac{1}{3} \\cdot \\frac{1}{2} + \\frac{1}{3} \\cdot 1 = \\frac{1}{2}$$\n\n**Bayes-Umkehr-Formel:**\n$$P(T_2 \\mid M_1) = \\frac{P(T_2 \\cap M_1)}{P(M_1)} = \\frac{P(T_2) \\cdot P(M_1 \\mid T_2)}{P(M_1)} = \\frac{\\frac{1}{3} \\cdot \\frac{1}{2}}{\\frac{1}{2}} = \\frac{1}{3}$$\n$$P(T_3 \\mid M_1) = \\frac{P(T_3) \\cdot P(M_1 \\mid T_3)}{P(M_1)} = \\frac{\\frac{1}{3} \\cdot 1}{\\frac{1}{2}} = \\frac{2}{3}$$\n\n**Ergebnis:** Ja, **wechseln lohnt sich**: Bleibt sie bei Tor 2, gewinnt sie mit $\\frac{1}{3}$, wechselt sie zu Tor 3, mit $\\frac{2}{3}$. Aus Symmetriegründen gilt das für jede Kombination aus gewähltem und geöffnetem Tor.",
+      "loesungsweg": "Lösung laut Mitschrift (Folie 21), geprüft – alle Zahlen richtig ($\\frac{1}{3}$, $0$, $\\frac{1}{2}$, $1$, $P(M_1) = \\frac{1}{2}$, $\\frac{1}{3}$, $\\frac{2}{3}$). **Zwei Stellen in der Mitschrift korrigieren:** (1) Oben steht „Auto hinter Tor 3“ – das ist **nicht** gegeben, wo das Auto steht, weiß die Kandidatin nicht; gegeben ist: Kandidatin wählt Tor 2, Moderator öffnet Tor 1. (2) In der Zeile für $P(M_1)$ steht „$P(T_2) \\cdot P(M_2 \\mid T_2)$“ – richtig ist $P(M_1 \\mid T_2)$ (der Wert $\\frac{1}{2}$ stimmt). Der Moderator „verrät“ etwas: Er wählt sein Tor abhängig davon, wo das Auto steht – deshalb ändern sich die Wahrscheinlichkeiten nicht gleichmäßig.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a06",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 2.2.2: Beim einmaligen Wurf eines fairen, sechsseitigen Würfels mit den Ereignissen $A$: „Augenzahl ist gerade“, $B$: „Augenzahl ist größer 4“ und $C$: „Augenzahl ist größer 3“ gilt: $P(A \\cap B) = \\frac{1}{6} = \\frac{1}{2} \\cdot \\frac{1}{3} = P(A) \\cdot P(B)$, $P(A \\cap C) = \\frac{1}{3} \\neq \\frac{1}{2} \\cdot \\frac{1}{2} = P(A) \\cdot P(C)$. Die Ereignisse $A$ und $B$ sind stochastisch unabhängig, die Ereignisse $A$ und $C$ hingegen nicht.",
+      "quelle": "Folie 23",
+      "loesung": "$A = \\{2, 4, 6\\}$, $B = \\{5, 6\\}$, $C = \\{4, 5, 6\\}$.\n\n- $A \\cap B = \\{6\\}$: $P(A \\cap B) = \\frac{1}{6}$ und $P(A) \\cdot P(B) = \\frac{3}{6} \\cdot \\frac{2}{6} = \\frac{1}{2} \\cdot \\frac{1}{3} = \\frac{1}{6}$ – gleich, also **unabhängig**.\n- $A \\cap C = \\{4, 6\\}$: $P(A \\cap C) = \\frac{2}{6} = \\frac{1}{3}$, aber $P(A) \\cdot P(C) = \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4}$ – verschieden, also **nicht unabhängig**.\n\nMit bedingten Wahrscheinlichkeiten: $P(A \\mid B) = \\frac{1/6}{2/6} = \\frac{1}{2} = P(A)$ ✓, aber $P(A \\mid C) = \\frac{1/3}{1/2} = \\frac{2}{3} \\neq \\frac{1}{2}$.",
+      "loesungsweg": "Lösung steht auf der Folie; Mengen und Probe mit $P(A \\mid \\cdot)$ ergänzt (Satz 2.2.3). Anschaulich: Unter den Zahlen größer 4 (5, 6) ist die Hälfte gerade – wie insgesamt. Unter den Zahlen größer 3 (4, 5, 6) sind aber zwei von drei gerade – mehr als insgesamt.",
+      "frist": "",
+      "im_kalender": false
+    },
+    {
+      "id": "a07",
+      "art": "Aufgabe auf Folie",
+      "text": "Beispiel 2.2.8: Betrachtet wird der zweifache Wurf eines fairen Würfels mit $\\Omega = \\{1, 2, 3, 4, 5, 6\\}^2$ und die folgenden Ereignisse: $A$: Die Augenzahl des ersten Wurfes ist gerade. $B$: Die Augenzahl des zweiten Wurfes ist gerade. $C$: Die Summe der geworfenen Augenzahlen ist gerade. Prüfen Sie, ob $A$, $B$, $C$ stochastisch unabhängig sind. $P(A) =$, $P(B) =$, $P(C) =$, $P(A \\cap B) =$, $P(A \\cap C) =$, $P(B \\cap C) =$, $P(A \\cap B \\cap C) =$",
+      "quelle": "Folie 30",
+      "loesung": "$|\\Omega| = 6 \\cdot 6 = 36$, Laplace-Experiment. Je Wurf sind 3 von 6 Zahlen gerade.\n\n- $P(A) = \\frac{3 \\cdot 6}{36} = \\frac{1}{2}$, $P(B) = \\frac{6 \\cdot 3}{36} = \\frac{1}{2}$.\n- $C$: Die Summe ist gerade, wenn **beide** Zahlen gerade oder **beide** ungerade sind: $3 \\cdot 3 + 3 \\cdot 3 = 18$ Paare, $P(C) = \\frac{18}{36} = \\frac{1}{2}$.\n- $A \\cap B$: beide gerade, $3 \\cdot 3 = 9$ Paare: $P(A \\cap B) = \\frac{9}{36} = \\frac{1}{4} = \\frac{1}{2} \\cdot \\frac{1}{2}$ ✓\n- $A \\cap C$: erste gerade **und** Summe gerade ⇒ auch die zweite ist gerade, also $A \\cap C = A \\cap B$: $P(A \\cap C) = \\frac{1}{4} = \\frac{1}{2} \\cdot \\frac{1}{2}$ ✓\n- $B \\cap C$: ebenso $= A \\cap B$: $P(B \\cap C) = \\frac{1}{4}$ ✓\n- $A \\cap B \\cap C$: beide gerade (dann ist die Summe automatisch gerade): $P(A \\cap B \\cap C) = \\frac{9}{36} = \\frac{1}{4}$, aber $P(A) \\cdot P(B) \\cdot P(C) = \\frac{1}{8}$ ✗\n\n**Ergebnis:** $A$, $B$, $C$ sind **paarweise** stochastisch unabhängig, aber als System **nicht** stochastisch unabhängig, weil $P(A \\cap B \\cap C) = \\frac{1}{4} \\neq \\frac{1}{8}$.",
+      "loesungsweg": "Selbst erarbeitet (Lückenfolie). Nach Definition 2.2.7 müssen für drei Ereignisse alle drei Paar-Gleichungen **und** die Gleichung für den Schnitt aller drei gelten. Anschaulich: Kennt man $A$ und $B$ (beide Würfe gerade), weiß man $C$ sicher – also verraten $A$ und $B$ **zusammen** etwas über $C$, auch wenn jedes allein nichts verrät. Zähltipp: „erste gerade“ = 3 Möglichkeiten für den ersten Wurf mal 6 für den zweiten.",
+      "frist": "",
+      "im_kalender": false
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie ist die bedingte Wahrscheinlichkeit $P(A \\mid B)$ definiert (Definition 2.1.2), auch für den Fall $P(B) = 0$?",
+      "antwort": "Für $P(B) > 0$: $P(A \\mid B) := \\frac{P(A \\cap B)}{P(B)}$. Für $P(B) = 0$ wird $P(A \\mid B) := 0$ gesetzt.",
+      "erklaerung": "Definition 2.1.2, Folie 9. Anschaulich: Einschränkung des Ergebnisraums auf $B$.",
+      "folie": "9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f02",
+      "baustein": "definition",
+      "format": "luecke",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "text": "P(A | B) heißt die [[bedingte Wahrscheinlichkeit]] von A unter der [[Bedingung]] B.",
+      "erklaerung": "Definition 2.1.2.",
+      "folie": "9",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f03",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Zehnseitiger fairer Würfel, $A$: „ungerade“, $B$: „Primzahl“. Bestimme $P(A)$, $P(A \\cap B)$ und $P(A \\mid B)$.",
+      "musterloesung": "$A = \\{1, 3, 5, 7, 9\\}$, $B = \\{2, 3, 5, 7\\}$, $A \\cap B = \\{3, 5, 7\\}$. $P(A) = \\frac{5}{10} = \\frac{1}{2}$, $P(A \\cap B) = \\frac{3}{10}$, $P(A \\mid B) = \\frac{3/10}{4/10} = \\frac{3}{4}$.",
+      "bewertungspunkte": [
+        "$A$ und $B$ als Mengen (1 ist keine Primzahl)",
+        "$P(A) = \\frac{1}{2}$",
+        "$P(A \\cap B) = \\frac{3}{10}$",
+        "$P(A \\mid B) = \\frac{3}{4}$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Beispiel 2.1.1, Folie 5–8.",
+      "folie": "5–8",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f04",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur bedingten Wahrscheinlichkeit (Folie 9–10) stimmen?",
+      "optionen": [
+        "$P(A \\mid B)$ beschreibt immer einen zeitlichen oder ursächlichen Zusammenhang: $B$ passiert vor $A$.",
+        "Ist $B \\subseteq A$ und $P(B) > 0$, dann ist $P(A \\mid B) = 1$.",
+        "Ist $A \\cap B = \\emptyset$ und $P(B) > 0$, dann ist $P(A \\mid B) = 0$.",
+        "Ist $P(B) = 1$, dann ist $P(A \\mid B) = P(A)$.",
+        "Für $P(B) = 0$ ist $P(A \\mid B)$ in der Vorlesung nicht festgelegt."
+      ],
+      "richtig": [
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Satz 2.1.3 (2), (3), (5). Folie 9: nur formaler Zusammenhang, nicht zeitlich oder ursächlich. Für $P(B) = 0$ setzt die Vorlesung $P(A \\mid B) := 0$.",
+      "folie": "9–10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f05",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Beweise Satz 2.1.3 (5): Für Ereignisse $A$, $B$ mit $P(B) = 1$ gilt $P(A \\mid B) = P(A)$.",
+      "musterloesung": "Wegen $B \\subseteq A \\cup B$ (Monotonie) und $P \\le 1$: $1 = P(B) \\le P(A \\cup B) \\le 1$, also $P(A \\cup B) = 1$. Mit Def. 2.1.2 und dem Additionssatz: $P(A \\mid B) = \\frac{P(A \\cap B)}{1} = P(A) + P(B) - P(A \\cup B) = P(A) + 1 - 1 = P(A)$. $\\blacksquare$",
+      "bewertungspunkte": [
+        "$P(A \\cup B) = 1$ mit Monotonie begründet",
+        "Definition 2.1.2 mit $P(B) = 1$",
+        "Additionssatz nach $P(A \\cap B)$ umgestellt",
+        "Ergebnis $P(A)$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Beweis Folie 10. Die Folie zitiert „Satz 1.4.6(6)“ – gemeint ist der Additionssatz, in Kapitel 1 Satz 1.4.7 (6).",
+      "folie": "10",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f06",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Gesichtserkennung (Beispiel 2.1.4): 1000 Personen, 20 davon gesucht. Gesuchte werden zu 90 % gemeldet, nicht Gesuchte zu 10 %. Wie wahrscheinlich ist eine gemeldete Person tatsächlich gesucht?",
+      "musterloesung": "Gesucht und gemeldet: $0{,}9 \\cdot 20 = 18$. Nicht gesucht, aber gemeldet: $0{,}1 \\cdot 980 = 98$. Gemeldet: 116. $P(\\text{gefahndet} \\mid \\text{gemeldet}) = \\frac{18}{116} = \\frac{9}{58} \\approx 0{,}155$.",
+      "bewertungspunkte": [
+        "18 richtig Gemeldete",
+        "98 Fehlalarme",
+        "116 Gemeldete insgesamt",
+        "$\\approx 0{,}155$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Beispiel 2.1.4, Folie 11.",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f07",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Urne mit 4 roten und 6 blauen Kugeln, zwei Züge ohne Zurücklegen. $A$: „1. Kugel rot“, $B$: „2. Kugel blau“. Berechne $P(A)$, $P(B \\mid A)$ und $P(A \\cap B)$.",
+      "musterloesung": "$P(A) = \\frac{4}{10}$, $P(B \\mid A) = \\frac{6}{9}$, $P(A \\cap B) = \\frac{4}{10} \\cdot \\frac{6}{9} = \\frac{24}{90} = \\frac{4}{15}$.",
+      "bewertungspunkte": [
+        "$P(A) = \\frac{4}{10}$",
+        "$P(B \\mid A) = \\frac{6}{9}$ (9 Kugeln übrig)",
+        "Multiplikationssatz",
+        "$\\frac{4}{15}$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Beispiel 2.1.5, Folie 12–13.",
+      "folie": "12–13",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f08",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wie lautet der Multiplikationssatz (Satz 2.1.6), und wie sieht man ihn im Baumdiagramm?",
+      "antwort": "Für je zwei beliebige Ereignisse $A$, $B$: $P(A \\cap B) = P(B) \\cdot P(A \\mid B)$. Im Baumdiagramm ist das die Pfadregel: Wahrscheinlichkeiten entlang eines Pfades werden multipliziert.",
+      "erklaerung": "Satz 2.1.6, Folie 14.",
+      "folie": "14",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f09",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Beweise den Multiplikationssatz $P(A \\cap B) = P(B) \\cdot P(A \\mid B)$ – auch für den Fall $P(B) = 0$.",
+      "musterloesung": "$P(B) > 0$: Aus Def. 2.1.2 $P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)}$, mal $P(B)$. $P(B) = 0$: $A \\cap B \\subseteq B$, also $0 \\le P(A \\cap B) \\le P(B) = 0$ (Monotonie, Nichtnegativität), d. h. $P(A \\cap B) = 0 = 0 \\cdot P(A \\mid B) = P(B) \\cdot P(A \\mid B)$. $\\blacksquare$",
+      "bewertungspunkte": [
+        "Fallunterscheidung",
+        "Fall $P(B) > 0$ über die Definition",
+        "Fall $P(B) = 0$ über Monotonie und Nichtnegativität"
+      ],
+      "punkte": 3,
+      "erklaerung": "Beweis Folie 14.",
+      "folie": "14",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f10",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie lautet die Verkettungsregel (Satz 2.1.7)?",
+      "antwort": "Für je drei Ereignisse $A$, $B$, $C$: $P(A \\cap B \\cap C) = P(C) \\cdot P(B \\mid C) \\cdot P(A \\mid B \\cap C)$.",
+      "erklaerung": "Satz 2.1.7, Folie 15; Beweis durch zweimaliges Anwenden des Multiplikationssatzes.",
+      "folie": "15",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f11",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Urne mit 4 roten und 6 blauen Kugeln, drei Züge ohne Zurücklegen. Berechne $P(C)$ für $C$: „die dritte Kugel ist blau“.",
+      "musterloesung": "Alle Pfade mit blauer dritter Kugel: rot-rot-blau $\\frac{4}{10} \\cdot \\frac{3}{9} \\cdot \\frac{6}{8}$, rot-blau-blau $\\frac{4}{10} \\cdot \\frac{6}{9} \\cdot \\frac{5}{8}$, blau-rot-blau $\\frac{6}{10} \\cdot \\frac{4}{9} \\cdot \\frac{5}{8}$, blau-blau-blau $\\frac{6}{10} \\cdot \\frac{5}{9} \\cdot \\frac{4}{8}$. Summe: $\\frac{72 + 120 + 120 + 120}{720} = \\frac{432}{720} = \\frac{3}{5}$.",
+      "bewertungspunkte": [
+        "vier Pfade erkannt",
+        "Pfade mit Verkettungsregel multipliziert",
+        "addiert (totale Wahrscheinlichkeit)",
+        "$\\frac{3}{5}$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Beispiel 2.1.8, Folie 16.",
+      "folie": "16",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f12",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Was ist eine disjunkte Zerlegung von $\\Omega$ (Definition 2.1.9)?",
+      "antwort": "Eine Familie von Mengen $(B_i)_{i \\in I}$ mit $\\Omega = \\dot{\\bigcup}_{i \\in I} B_i$ – die $B_i$ ergeben zusammen $\\Omega$ und sind paarweise disjunkt. (Ohne „disjunkt“: nur $\\Omega = \\bigcup_{i \\in I} B_i$.) Ist $I$ endlich bzw. abzählbar: endliche bzw. abzählbare Zerlegung.",
+      "erklaerung": "Definition 2.1.9, Folie 17.",
+      "folie": "17",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f13",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie lautet die Formel der totalen Wahrscheinlichkeit (Satz 2.1.10)?",
+      "antwort": "Ist $(B_i)_{i \\in I}$ eine abzählbare, disjunkte Zerlegung von $\\Omega$, dann gilt $P(A) = \\sum_{i \\in I} P(A \\cap B_i) = \\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)$.",
+      "erklaerung": "Satz 2.1.10, Folie 18. Beweis: Additivität/σ-Additivität + Multiplikationssatz.",
+      "folie": "18",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f14",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wie lautet die Bayes-Umkehr-Formel (Satz 2.1.11)?",
+      "antwort": "Ist $(B_i)_{i \\in I}$ eine abzählbare, disjunkte Zerlegung von $\\Omega$, dann gilt für alle $k \\in I$ und Ereignisse $A$ mit $P(A) > 0$: $P(B_k \\mid A) = \\frac{P(B_k) \\cdot P(A \\mid B_k)}{\\sum_{i \\in I} P(B_i) \\cdot P(A \\mid B_i)}$.",
+      "erklaerung": "Satz 2.1.11, Folie 19; Beweis = Blatt 04, B.1.",
+      "folie": "19",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f15",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Ziegenproblem: Die Kandidatin wählt Tor 2, der Moderator öffnet Tor 1. Berechne $P(M_1)$, $P(T_2 \\mid M_1)$ und $P(T_3 \\mid M_1)$. Soll sie wechseln?",
+      "musterloesung": "$P(T_i) = \\frac{1}{3}$; $P(M_1 \\mid T_1) = 0$, $P(M_1 \\mid T_2) = \\frac{1}{2}$, $P(M_1 \\mid T_3) = 1$. $P(M_1) = \\frac{1}{3} \\cdot 0 + \\frac{1}{3} \\cdot \\frac{1}{2} + \\frac{1}{3} \\cdot 1 = \\frac{1}{2}$. $P(T_2 \\mid M_1) = \\frac{\\frac{1}{3} \\cdot \\frac{1}{2}}{\\frac{1}{2}} = \\frac{1}{3}$, $P(T_3 \\mid M_1) = \\frac{\\frac{1}{3} \\cdot 1}{\\frac{1}{2}} = \\frac{2}{3}$. Wechseln lohnt sich.",
+      "bewertungspunkte": [
+        "bedingte Wahrscheinlichkeiten des Moderators",
+        "$P(M_1) = \\frac{1}{2}$ (totale W.)",
+        "$P(T_2 \\mid M_1) = \\frac{1}{3}$",
+        "$P(T_3 \\mid M_1) = \\frac{2}{3}$, Entscheidung wechseln"
+      ],
+      "punkte": 4,
+      "erklaerung": "Beispiel 2.1.12, Folie 20–21.",
+      "folie": "20–21",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f16",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Formeln ihrem Namen zu.",
+      "kategorien": [
+        "Definition 2.1.2",
+        "Multiplikationssatz",
+        "Verkettungsregel",
+        "totale Wahrscheinlichkeit",
+        "Bayes-Umkehr-Formel"
+      ],
+      "elemente": [
+        {
+          "text": "P(A | B) = P(A ∩ B) / P(B)",
+          "kategorie": "Definition 2.1.2"
+        },
+        {
+          "text": "P(A ∩ B) = P(B) · P(A | B)",
+          "kategorie": "Multiplikationssatz"
+        },
+        {
+          "text": "P(A ∩ B ∩ C) = P(C) · P(B | C) · P(A | B ∩ C)",
+          "kategorie": "Verkettungsregel"
+        },
+        {
+          "text": "P(A) = Σ P(Bᵢ) · P(A | Bᵢ)",
+          "kategorie": "totale Wahrscheinlichkeit"
+        },
+        {
+          "text": "P(Bₖ | A) = P(Bₖ) · P(A | Bₖ) / Σ P(Bᵢ) · P(A | Bᵢ)",
+          "kategorie": "Bayes-Umkehr-Formel"
+        }
+      ],
+      "erklaerung": "Folie 9, 14, 15, 18, 19.",
+      "folie": "9–19",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f17",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Gesichtserkennung: $P(\\text{gemeldet} \\mid \\text{gefahndet}) = 0{,}9$. Welche Aussagen stimmen?",
+      "optionen": [
+        "Dann ist auch $P(\\text{gefahndet} \\mid \\text{gemeldet}) = 0{,}9$.",
+        "$P(\\text{gefahndet} \\mid \\text{gemeldet})$ ist hier viel kleiner, weil es viel mehr nicht gesuchte als gesuchte Personen gibt.",
+        "Um $P(\\text{gefahndet} \\mid \\text{gemeldet})$ zu berechnen, braucht man auch den Anteil der Gesuchten und die Fehlalarmquote.",
+        "Die Bayes-Umkehr-Formel dreht die Bedingung um."
+      ],
+      "richtig": [
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Beispiel 2.1.4 und Satz 2.1.11: Ergebnis ≈ 0,155. Typische Fehlvorstellung: die beiden bedingten Wahrscheinlichkeiten verwechseln.",
+      "folie": "11, 19",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f18",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "In einer Klasse sind 60 % Mädchen. 50 % der Mädchen und 30 % der Jungen spielen ein Instrument. Ein zufällig gewähltes Kind spielt ein Instrument. Wie wahrscheinlich ist es ein Mädchen?",
+      "musterloesung": "$M$ = Mädchen, $I$ = Instrument. $P(I) = 0{,}6 \\cdot 0{,}5 + 0{,}4 \\cdot 0{,}3 = 0{,}30 + 0{,}12 = 0{,}42$. $P(M \\mid I) = \\frac{0{,}30}{0{,}42} = \\frac{5}{7} \\approx 0{,}714$.",
+      "bewertungspunkte": [
+        "Zerlegung Mädchen/Junge",
+        "$P(I) = 0{,}42$ mit totaler Wahrscheinlichkeit",
+        "Bayes",
+        "$\\frac{5}{7}$"
+      ],
+      "punkte": 4,
+      "erklaerung": "Neue Rechnung nach dem Muster von Beispiel 2.1.4 / Satz 2.1.11 – passt als Aufgabe für den Mathematikunterricht (Vierfeldertafel oder Baum).",
+      "folie": "18–19",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f19",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ein Schüler sagt beim Ziegenproblem: „Es sind noch zwei Tore zu, also ist es egal, ob ich wechsle – 50 zu 50.“ Erkläre ihm in einfachen Worten, warum das nicht stimmt.",
+      "musterloesung": "Am Anfang trifft man das Auto nur mit $\\frac{1}{3}$. Daran ändert der Moderator nichts, denn er öffnet immer eine Ziege und nie das gewählte Tor. In den anderen $\\frac{2}{3}$ der Fälle steht das Auto hinter einem der beiden anderen Tore – und der Moderator zeigt, hinter welchem es **nicht** steht. Wer wechselt, gewinnt also in diesen $\\frac{2}{3}$ der Fälle. Die zwei Tore sind nicht gleich wahrscheinlich, weil der Moderator sein Wissen benutzt.",
+      "bewertungspunkte": [
+        "erste Wahl trifft nur mit 1/3",
+        "Moderator öffnet nie das Auto und nie das gewählte Tor",
+        "Wechseln gewinnt mit 2/3",
+        "Information ist nicht symmetrisch"
+      ],
+      "punkte": 4,
+      "erklaerung": "Typische Fehlvorstellung zum Zufall (Kompetenzziel der Modulbeschreibung), Beispiel 2.1.12.",
+      "folie": "20–21",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f20",
+      "baustein": "kernaussage",
+      "format": "frage",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Warum ist es nach der Vorlesung egal, welchen Wert man für $P(A \\mid B)$ im Fall $P(B) = 0$ festlegt?",
+      "antwort": "Man muss nur **irgendeinen festen Wert** festlegen (die Vorlesung nimmt 0, möglich wären auch $P(A)$ oder 1). Im Multiplikationssatz steht dann $P(A \\cap B) = 0 = 0 \\cdot P(A \\mid B)$ – null mal ein fester Wert ist immer null. Es ist ein formaler Randfall wie eine Implikation mit falscher Voraussetzung.",
+      "erklaerung": "Nachbereitung [40:08], [70:56].",
+      "folie": "9, 14",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f21",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Gesichtserkennung: 90 % der Gesuchten werden erkannt, nur 10 % der Nicht-Gesuchten falsch gemeldet, unter 1000 Personen sind 20 gesucht. Bewerte das Ergebnis $P(\\text{gefahndet} \\mid \\text{gemeldet}) \\approx 0{,}155$ für die reale Situation.",
+      "musterloesung": "Etwa 84,5 % der gemeldeten Personen werden gar nicht gesucht. Obwohl die Kennzahlen (90 %, 10 %) gut klingen, meldet die Kamera vor allem Unschuldige, weil es sehr viel mehr Nicht-Gesuchte (980) als Gesuchte (20) gibt. Für die Polizei bedeutet das viel unnötige Arbeit; für die Betroffenen ungerechtfertigte Kontrollen. Modellergebnisse muss man deshalb immer auf die Realsituation zurückübertragen.",
+      "bewertungspunkte": [
+        "84,5 % Fehlmeldungen genannt",
+        "Grund: sehr viel mehr Nicht-Gesuchte",
+        "Folgen in der Realität (Polizei, Betroffene)"
+      ],
+      "punkte": 3,
+      "erklaerung": "Nachbereitung [56:28] – „Rückführung der Modellinformation in die Realsituation“.",
+      "folie": "11",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f22",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 1,
+      "frage": "Wann heißen zwei Ereignisse $A$ und $B$ stochastisch unabhängig (Definition 2.2.1)?",
+      "antwort": "Wenn $P(A \\cap B) = P(A) \\cdot P(B)$ gilt.",
+      "erklaerung": "Definition 2.2.1, Folie 23.",
+      "folie": "23",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f23",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Fairer Würfel, $A$: „gerade“, $B$: „größer 4“, $C$: „größer 3“. Prüfe, ob $A$ und $B$ bzw. $A$ und $C$ stochastisch unabhängig sind.",
+      "musterloesung": "$P(A \\cap B) = P(\\{6\\}) = \\frac{1}{6} = \\frac{1}{2} \\cdot \\frac{1}{3}$ – unabhängig. $P(A \\cap C) = P(\\{4, 6\\}) = \\frac{1}{3} \\neq \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4}$ – nicht unabhängig.",
+      "bewertungspunkte": [
+        "Mengen $A$, $B$, $C$",
+        "$A$, $B$: Produktformel erfüllt",
+        "$A$, $C$: $\\frac{1}{3} \\neq \\frac{1}{4}$"
+      ],
+      "punkte": 3,
+      "erklaerung": "Beispiel 2.2.2, Folie 23.",
+      "folie": "23",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f24",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen über stochastische Unabhängigkeit stimmen?",
+      "optionen": [
+        "Disjunkte Ereignisse mit positiver Wahrscheinlichkeit sind stochastisch unabhängig.",
+        "Für $P(B) > 0$ gilt: $A$, $B$ unabhängig $\\iff$ $P(A \\mid B) = P(A)$.",
+        "Sind $A$, $B$ unabhängig, dann auch $A$ und $\\bar{B}$.",
+        "Für $0 < P(B) < 1$ gilt: $A$, $B$ unabhängig $\\iff$ $P(A \\mid B) = P(A \\mid \\bar{B})$.",
+        "Aus paarweiser Unabhängigkeit von $A$, $B$, $C$ folgt immer, dass $A$, $B$, $C$ stochastisch unabhängig sind."
+      ],
+      "richtig": [
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Satz 2.2.3, 2.2.4, 2.2.6. Disjunkt mit positiven Wahrscheinlichkeiten: $P(A \\cap B) = 0 \\neq P(A) P(B)$ – abhängig. Paarweise reicht nicht (Beispiel 2.2.8, Folie 31).",
+      "folie": "24–31",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f25",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Beweise Satz 2.2.3: Für $P(B) > 0$ sind $A$ und $B$ genau dann stochastisch unabhängig, wenn $P(A \\mid B) = P(A)$.",
+      "musterloesung": "„⇒“: $P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{P(A) \\cdot P(B)}{P(B)} = P(A)$. „⇐“: Multiplikationssatz: $P(A \\cap B) = P(B) \\cdot P(A \\mid B) = P(B) \\cdot P(A)$, also unabhängig. $\\blacksquare$",
+      "bewertungspunkte": [
+        "beide Richtungen",
+        "„⇒“ mit Definition 2.1.2 und Kürzen",
+        "„⇐“ mit Multiplikationssatz"
+      ],
+      "punkte": 4,
+      "erklaerung": "Folie 24 und Blatt 04, B.2a.",
+      "folie": "24",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f26",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Zeige (Satz 2.2.5, (2) ⇒ (3)): Ist $B$ von seinem Gegenereignis $\\bar{B}$ stochastisch unabhängig, dann ist $P(B) = 0$ oder $P(B) = 1$.",
+      "musterloesung": "$0 = P(\\emptyset) = P(B \\cap \\bar{B}) = P(B) \\cdot P(\\bar{B}) = P(B) \\cdot (1 - P(B))$. Ein Produkt ist nur 0, wenn ein Faktor 0 ist: $P(B) = 0$ oder $1 - P(B) = 0$, also $P(B) = 1$. $\\blacksquare$",
+      "bewertungspunkte": [
+        "$B \\cap \\bar{B} = \\emptyset$, Nulltreue",
+        "Unabhängigkeit eingesetzt",
+        "$P(\\bar{B}) = 1 - P(B)$",
+        "Schluss aus dem Produkt"
+      ],
+      "punkte": 4,
+      "erklaerung": "Beweis Folie 26.",
+      "folie": "26",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f27",
+      "baustein": "definition",
+      "format": "frage",
+      "niveau": "wissen",
+      "schwierigkeit": 2,
+      "frage": "Wann ist ein System von drei Ereignissen $A$, $B$, $C$ stochastisch unabhängig (Definition 2.2.7)?",
+      "antwort": "Wenn für jede endliche Auswahl die Wahrscheinlichkeit des Schnitts das Produkt der Einzelwahrscheinlichkeiten ist: $P(A \\cap B) = P(A) P(B)$, $P(A \\cap C) = P(A) P(C)$, $P(B \\cap C) = P(B) P(C)$ **und** $P(A \\cap B \\cap C) = P(A) P(B) P(C)$.",
+      "erklaerung": "Definition 2.2.7, Folie 29.",
+      "folie": "29",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f28",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 3,
+      "frage": "Zweimal würfeln. $A$: „erster Wurf gerade“, $B$: „zweiter Wurf gerade“, $C$: „Summe gerade“. Sind $A$, $B$, $C$ stochastisch unabhängig?",
+      "musterloesung": "$P(A) = P(B) = P(C) = \\frac{1}{2}$; $P(A \\cap B) = P(A \\cap C) = P(B \\cap C) = \\frac{9}{36} = \\frac{1}{4}$ – paarweise unabhängig. Aber $P(A \\cap B \\cap C) = \\frac{1}{4} \\neq \\frac{1}{8}$ – das System ist nicht stochastisch unabhängig.",
+      "bewertungspunkte": [
+        "Einzelwahrscheinlichkeiten $\\frac{1}{2}$ (auch $C$!)",
+        "Paarschnitte $\\frac{1}{4}$",
+        "Dreierschnitt $\\frac{1}{4}$",
+        "Schluss: paarweise, aber nicht insgesamt unabhängig"
+      ],
+      "punkte": 4,
+      "erklaerung": "Beispiel 2.2.8, Folie 30.",
+      "folie": "30",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f29",
+      "baustein": "vergleich",
+      "format": "zuordnung",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu: Sind die Ereignisse beim einmaligen fairen Würfelwurf stochastisch unabhängig?",
+      "kategorien": [
+        "unabhängig",
+        "nicht unabhängig"
+      ],
+      "elemente": [
+        {
+          "text": "„gerade“ und „größer 4“",
+          "kategorie": "unabhängig"
+        },
+        {
+          "text": "„gerade“ und „größer 3“",
+          "kategorie": "nicht unabhängig"
+        },
+        {
+          "text": "„gerade“ und „ungerade“",
+          "kategorie": "nicht unabhängig"
+        },
+        {
+          "text": "„gerade“ und Ω (sicheres Ereignis)",
+          "kategorie": "unabhängig"
+        },
+        {
+          "text": "„kleiner 3“ und „gerade“",
+          "kategorie": "unabhängig"
+        }
+      ],
+      "erklaerung": "Produktformel prüfen: $\\{2\\}$: $\\frac{1}{6} = \\frac{1}{3} \\cdot \\frac{1}{2}$ (kleiner 3 und gerade) ✓; gerade/ungerade sind disjunkt ⇒ abhängig; $\\Omega$ hat $P = 1$ (Satz 2.2.5).",
+      "folie": "23–26",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f30",
+      "baustein": "transfer",
+      "format": "offen",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Eine Schülerin sagt: „Wenn zwei Ereignisse nichts gemeinsam haben, sind sie unabhängig.“ Was antwortest du?",
+      "musterloesung": "Das stimmt nicht. „Nichts gemeinsam“ heißt disjunkt: $A \\cap B = \\emptyset$. Haben beide eine positive Wahrscheinlichkeit, ist $P(A \\cap B) = 0$, aber $P(A) \\cdot P(B) > 0$ – sie sind also **abhängig**. Anschaulich: Wenn $A$ eintritt, weiß man sicher, dass $B$ nicht eintritt – $A$ verrät also sehr viel über $B$.",
+      "bewertungspunkte": [
+        "disjunkt ≠ unabhängig",
+        "Produktformel verletzt",
+        "anschauliche Begründung"
+      ],
+      "punkte": 3,
+      "erklaerung": "Typische Fehlvorstellung (Kompetenzziel „Fehlvorstellungen zum Zufall“).",
+      "folie": "23",
+      "pruefungsrelevant": false
+    },
+    {
+      "id": "f31",
+      "baustein": "kernaussage",
+      "format": "mc",
+      "niveau": "verstehen",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen zur stochastischen Unabhängigkeit stimmen (Vorlesung 09.11.)?",
+      "optionen": [
+        "Stochastisch unabhängig heißt, dass in der Realsituation kein kausaler Zusammenhang besteht.",
+        "Stochastische Unabhängigkeit bezeichnet nur den formalen Zusammenhang $P(A \\cap B) = P(A) \\cdot P(B)$.",
+        "Bei drei Ereignissen reicht es, die Produktformel für alle drei zusammen zu prüfen.",
+        "Paarweise unabhängige Ereignisse müssen nicht stochastisch unabhängig sein.",
+        "Unabhängigkeit ist immer bezüglich eines konkreten W-Maßes $P$ definiert."
+      ],
+      "richtig": [
+        1,
+        3,
+        4
+      ],
+      "erklaerung": "Aufnahme 09.11. [23:20], [34:04], [03:16]: Unabhängigkeit ist ein rein formaler Begriff bzgl. $P$; für mehrere Ereignisse muss die Produktformel für **jede** endliche Teilauswahl gelten (Def. 2.2.7, Bsp. 2.2.8).",
+      "folie": "23, 29–30",
+      "pruefungsrelevant": true
+    },
+    {
+      "id": "f32",
+      "baustein": "aufgabe",
+      "format": "offen",
+      "niveau": "anwenden",
+      "schwierigkeit": 2,
+      "frage": "Zeige die Richtung (2) ⇒ (3) aus Satz 2.2.5: Ist $B$ von $\\bar{B}$ stochastisch unabhängig, dann ist $P(B) = 0$ oder $P(B) = 1$.",
+      "musterloesung": "Wegen $B \\cap \\bar{B} = \\emptyset$ gilt $0 = P(\\emptyset) = P(B \\cap \\bar{B}) \\overset{\\text{Def. 2.2.1}}{=} P(B) \\cdot P(\\bar{B}) = P(B) \\cdot (1 - P(B))$. Ein Produkt ist nur 0, wenn ein Faktor 0 ist: $P(B) = 0$ oder $1 - P(B) = 0$, also $P(B) = 1$. $\\blacksquare$",
+      "bewertungspunkte": [
+        "$B \\cap \\bar{B} = \\emptyset$, also Wahrscheinlichkeit 0",
+        "Produktformel aus der Unabhängigkeit",
+        "$P(\\bar{B}) = 1 - P(B)$",
+        "Satz vom Nullprodukt, beide Fälle"
+      ],
+      "punkte": 4,
+      "erklaerung": "Tafelbeweis 09.11. [14:28]–[17:16]; Satz 2.2.5, Folie 26.",
+      "folie": "26",
+      "pruefungsrelevant": true
+    }
+  ],
+  "pruefungshinweise": [
+    "Die Klausuraufgaben sind ähnlich wie die Aufgaben auf den Übungszetteln (Kapitel 0, Folie 5) – zu Kapitel 2 passen Blatt 04 und 05.",
+    "(Aufnahme) Die Bayes-Umkehr-Formel „sollten Sie einmal gesehen haben, weil sie für die Übung relevant ist“ [83:32].",
+    "(Aufnahme) Modellergebnisse immer auf die Realsituation zurückübertragen und bewerten (Gesichtserkennung) [56:28].",
+    "Die Beweise zu Satz 2.2.3 („⇒“), 2.2.4 und 2.2.5 ((3) ⇒ (1)) sind Aufgabe B.2 auf Blatt 04 – klausurtypisch.",
+    "(Aufnahme 09.11.) Stochastisch unabhängig ≠ „kein kausaler Zusammenhang“ – es ist nur der formale Zusammenhang $P(A \\cap B) = P(A) \\cdot P(B)$ [23:20]."
+  ],
+  "offene_fragen": [
+    "Kapitel 2, Folie 10: Der Beweis von Satz 2.1.3 (5) zitiert „Satz 1.4.6(6)“ – gemeint ist der Additionssatz, in Kapitel 1 Satz 1.4.7 (6) (Folie 44).",
+    "Folie 31: „auf mehr als drei Ereignisse verallgemeinern“ – gemeint vermutlich „mehr als zwei“."
+  ]
+}

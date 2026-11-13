@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
+import { lueckeRichtig, lueckeUmfeld } from '../luecke';
 import type { Studienstand } from '../db';
 import { speichereAntwort, speichereLernzeit } from '../db';
 import { gradeAnswer } from '../../lib/api';
@@ -15,7 +16,6 @@ function naechste(stufe: number, erg: 'r' | 't' | 'f') {
   if (erg === 't') return { stufe: Math.max(stufe - 1, 0), faellig: plusTage(h, 1) };
   return { stufe: 0, faellig: plusTage(h, 1) };
 }
-const norm = (s: string) => String(s || '').toLowerCase().replace(/[.,;:!?„“"'()\-–]/g, ' ').replace(/\s+/g, ' ').trim();
 const FORM: Record<string, string> = { frage: 'Frage', mc: 'Multiple Choice', luecke: 'Lückentext', zuordnung: 'Zuordnung', offen: 'Offene Aufgabe' };
 const ERG: Record<'r' | 't' | 'f', [string, string, string]> = { r: ['Richtig', '#e3f2e8', '#2f7a4b'], t: ['Teilweise', '#fff3e0', '#a3580b'], f: ['Noch nicht', '#fcecee', '#b4475a'] };
 
@@ -47,7 +47,7 @@ export function Lernfragen({ titel, liste, stand, farbe, onClose, neuLaden }: { 
   function pruefen() {
     const f = e.f; setGeprueft(true);
     if (f.format === 'mc') { const soll = [...(f.richtig ?? [])].sort().join(','), ist = [...antwort.mc].sort().join(','); speichern(soll === ist ? 'r' : antwort.mc.some((x) => f.richtig?.includes(x)) ? 't' : 'f'); }
-    else if (f.format === 'luecke') { const soll = [...(f.text ?? '').matchAll(/\[\[(.+?)\]\]/g)].map((m) => m[1]); const ok = soll.filter((s, k) => norm(antwort.luecken[k] ?? '') === norm(s)).length; speichern(ok === soll.length ? 'r' : ok > 0 ? 't' : 'f'); }
+    else if (f.format === 'luecke') { const soll = [...(f.text ?? '').matchAll(/\[\[(.+?)\]\]/g)].map((m) => m[1]); const ok = soll.filter((s, k) => { const u = lueckeUmfeld(f.text ?? '', k); return lueckeRichtig(antwort.luecken[k] ?? '', s, u.vor, u.nach); }).length; speichern(ok === soll.length ? 'r' : ok > 0 ? 't' : 'f'); }
     else if (f.format === 'zuordnung') { const el = f.elemente ?? []; const ok = el.filter((x, k) => antwort.zuord[k] === x.kategorie).length; speichern(ok === el.length ? 'r' : ok >= el.length / 2 ? 't' : 'f'); }
   }
   function weiter() { setI(i + 1); setGeprueft(false); setErg(null); setKi(null); setAntwort({ mc: [], luecken: [], zuord: {}, text: '' }); }
@@ -119,7 +119,7 @@ export function Lernfragen({ titel, liste, stand, farbe, onClose, neuLaden }: { 
           </div>}
 
           {e.f.format === 'luecke' && (() => { let k = -1; const teile = (e.f.text ?? '').split(/(\[\[.+?\]\])/);
-            return <div style={{ fontSize: 16, lineHeight: 2.2 }}>{teile.map((t, j) => { const m = /^\[\[(.+?)\]\]$/.exec(t); if (!m) return <span key={j} dangerouslySetInnerHTML={H(t)} />; k++; const idx = k; const richtig = norm(antwort.luecken[idx] ?? '') === norm(m[1]);
+            return <div style={{ fontSize: 16, lineHeight: 2.2 }}>{teile.map((t, j) => { const m = /^\[\[(.+?)\]\]$/.exec(t); if (!m) return <span key={j} dangerouslySetInnerHTML={H(t)} />; k++; const idx = k; const um = lueckeUmfeld(e.f.text ?? '', idx); const richtig = lueckeRichtig(antwort.luecken[idx] ?? '', m[1], um.vor, um.nach);
               return geprueft ? <b key={j} style={{ padding: '2px 6px', borderRadius: 6, background: richtig ? '#e3f2e8' : '#fcecee', color: richtig ? '#2f7a4b' : '#b4475a' }}>{richtig ? m[1] : (antwort.luecken[idx] ? antwort.luecken[idx] + ' → ' : '') + m[1]}</b>
                 : <input key={j} aria-label={'Lücke ' + (idx + 1)} value={antwort.luecken[idx] ?? ''} onChange={(ev) => { const l = [...antwort.luecken]; l[idx] = ev.target.value; setAntwort({ ...antwort, luecken: l }); }} style={{ width: Math.max(6, m[1].length + 2) + 'ch', border: 0, borderBottom: '2px solid ' + farbe[0], background: farbe[1], borderRadius: 4, padding: '2px 6px', fontSize: 15, color: 'var(--ink)' }} />; })}</div>; })()}
 

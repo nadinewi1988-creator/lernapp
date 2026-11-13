@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties, type DragEvent } from 'react';
+import { lueckeRichtig, lueckeUmfeld } from '../luecke';
 import type { Studienstand, Karte, KarteNeu } from '../db';
 import { speichereKarte, speichereKarten, karteAusblenden, kartenVerschieben, speichereAntwort, antwortenZuruecksetzen, bildHochladen, bildUrl, speichereLernzeit, lernzeitZuruecksetzen } from '../db';
 import { heuteIso, aktuellesSemester } from '../pruefungslogik';
@@ -201,7 +202,7 @@ export function Karten({ stand, unter, gehe, neuLaden, nurStatistik }: Props) {
     const k = aktKarte, U = ueben;
     const wahlOk = k.format === 'mc' && U.wahl.slice().sort().join() === k.richtig.slice().sort().join();
     const LU = (k.vorne.match(/\[\[(.+?)\]\]/g) || []).map((g) => g.slice(2, -2));
-    const luOk = LU.filter((g, i) => (U.luecken[i] || '').trim().toLowerCase() === g.trim().toLowerCase()).length;
+    const luOk = LU.filter((g, i) => { const u = lueckeUmfeld(k.vorne, i); return lueckeRichtig(U.luecken[i] || '', g, u.vor, u.nach); }).length;
     const zRichtig = k.format === 'zuordnung' ? k.elemente.filter((e, i) => U.zu[i] === e.kat).length : 0;
     const getippt = k.format === 'frage' && !!U.eingabe.trim(), frOk = getippt && norm(U.eingabe) === norm(k.hinten);
     const kiOk = k.format === 'offen' && ki?.id === k.id && !ki.lade && !ki.fehler && ki.pct !== undefined, kiLaedt = k.format === 'offen' && ki?.id === k.id && ki.lade;
@@ -613,7 +614,7 @@ export function Karten({ stand, unter, gehe, neuLaden, nurStatistik }: Props) {
                   </div>
                 </div>}
                 {k.format === 'luecke' && <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-                  {bew.LU.map((g, i) => { const w = U.luecken[i] || '', okL = w.trim().toLowerCase() === g.trim().toLowerCase(); return (
+                  {bew.LU.map((g, i) => { const w = U.luecken[i] || '', okL = (() => { const u = lueckeUmfeld(k.vorne, i); return lueckeRichtig(w, g, u.vor, u.nach); })(); return (
                     <label key={i} style={{ display: 'flex', alignItems: 'center', gap: 8, fontSize: 14, fontWeight: 800, color: 'var(--ink-3)' }}>({i + 1})
                       <input type="text" autoFocus={i === 0} value={w} onChange={(ev) => set({ luecken: { ...U.luecken, [i]: ev.target.value } })} placeholder={PROFI ? 'Lücke ' + (i + 1) + ' ausfüllen …' : 'beginnt mit „' + g.slice(0, 1).toUpperCase() + '…“'} style={{ flex: 1, minWidth: 0, border: '1.5px solid ' + (U.auf ? (okL ? '#2f7a4b' : '#c42b2b') : 'var(--line)'), background: U.auf ? (okL ? '#e3f2e8' : '#fde9e9') : 'var(--paper)', borderRadius: 8, padding: 8, fontSize: 15, color: 'var(--ink)' }} />
                       {U.auf && !okL && <span style={{ fontSize: 13, color: '#2f7a4b', whiteSpace: 'nowrap' }}>✓ {g}</span>}

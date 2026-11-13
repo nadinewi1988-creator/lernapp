@@ -115,6 +115,8 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   const [glOffen, setGlOffen] = useKlapp<Record<string, boolean>>('mod-begriffe-offen', {});
   const [hinweis, setHinweis] = useState(false);
   const [lf, setLf] = useState<null | { titel: string; liste: LFEintrag[] }>(null);
+  // Lernfragen aus dem Lerntext: Lerntext solange ausblenden (ruhiger, Nadine 13.11.) und nach „Beenden“ wieder öffnen
+  const [ltZurueck, setLtZurueck] = useState<typeof lt>(null);
   const [lfWahl, setLfWahl] = useState<null | Record<string, boolean>>(null);
   const [lfWahlOffen, setLfWahlOffen] = useKlapp<Record<string, boolean>>('mod-lfwahl-offen', {});
   const [loesung, setLoesung] = useKlapp<Record<string, boolean>>('mod-loesung', {});
@@ -600,7 +602,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
               <input type="checkbox" checked={gelernt(lt.sid)} onChange={() => umschaltenGelernt(lt.sid)} style={{ width: 18, height: 18, accentColor: '#4f8f80' }} />Als gelernt markieren
             </label>}
             <div style={{ display: 'flex', justifyContent: 'flex-end', gap: 8, flexWrap: 'wrap' }}>
-              {(() => { const xS = SESS.find((q) => q.s.id === lt.sid); const LI = lt.kap ? kapitelNachDatei(lt.kap) : xS ? inhaltVon(xS) : null; return <button type="button" onClick={() => { if (LI && LI.fragen.length) setLf({ titel: LI.teilmodul + ' · ' + lt.titel, liste: LI.fragen.map((q) => ({ s: LI, f: q })) }); else setHinweis(true); }} style={LI ? { ...klein, background: f[0], borderColor: f[0], color: '#fff' } : klein}>Lernfragen üben{LI ? ' (' + LI.fragen.length + ')' : ''}</button>; })()}
+              {(() => { const xS = SESS.find((q) => q.s.id === lt.sid); const LI = lt.kap ? kapitelNachDatei(lt.kap) : xS ? inhaltVon(xS) : null; return <button type="button" onClick={() => { if (LI && LI.fragen.length) { setLtZurueck(lt); setLt(null); setLf({ titel: LI.teilmodul + ' · ' + lt.titel, liste: LI.fragen.map((q) => ({ s: LI, f: q })) }); } else setHinweis(true); }} style={LI ? { ...klein, background: f[0], borderColor: f[0], color: '#fff' } : klein}>Lernfragen üben{LI ? ' (' + LI.fragen.length + ')' : ''}</button>; })()}
               {!lt.kap && (() => { const n = KK.filter((k) => k.sitzungId === lt.sid).length; return n ? <button type="button" onClick={() => { setLt(null); kartenOeffnen({ aktion: 'ueben', modul: kuerzel, sitzung: lt.sid }); }} style={klein}>Karteikarten üben ({n})</button> : <span title="Noch keine Karten zu dieser Sitzung" style={{ ...klein, opacity: 0.45, cursor: 'default' }}>Karteikarten üben (0)</span>; })()}
               {!lt.kap && <button type="button" onClick={() => { setLt(null); kartenOeffnen({ aktion: 'neu', modul: kuerzel, sitzung: lt.sid }); }} style={klein}>+ Karte zu dieser Sitzung</button>}
               <button type="button" onClick={() => { setLt(null); setHinweis(false); }} style={klein}>Schließen</button>
@@ -738,7 +740,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
             </div>
           </div>
         </div>); })()}
-      {lf && <Lernfragen titel={lf.titel} liste={lf.liste} stand={stand} farbe={f} onClose={() => setLf(null)} neuLaden={neuLaden} />}
+      {lf && <Lernfragen titel={lf.titel} liste={lf.liste} stand={stand} farbe={f} onClose={() => { setLf(null); if (ltZurueck) { setLt(ltZurueck); setLtZurueck(null); } }} neuLaden={neuLaden} />}
     </>
   );
 }

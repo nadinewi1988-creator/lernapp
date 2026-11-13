@@ -46,9 +46,9 @@ function einfuegen(el: Eingabe | null, z: string) {
 
 export function Zeichenleiste({ modul, feld, farbe }: { modul: string; feld: React.MutableRefObject<Eingabe | null>; farbe?: string }) {
   const [auf, setAuf] = useKlapp<boolean>('zeichenleiste', false);
-  const eigene = symboleVon(modul).map((s) => s.zeichen).filter((z) => z && z.length <= 4 && !/[\\$]/.test(z));
-  const alle = new Set(GRUND.flatMap(([, l]) => l));
-  const gruppen: [string, string[]][] = [...(eigene.some((z) => !alle.has(z)) ? [['Aus dem Modul', [...new Set(eigene)].filter((z) => !alle.has(z))] as [string, string[]]] : []), ...GRUND];
+  const eigene = symboleVon(modul).map((s) => s.zeichen).filter((z) => z && [...z].length <= 14 && !/[\\$]/.test(z)).map((z) => z.replace('…', '▮'));
+  // „Modul“ = ALLE Zeichen, die in diesem Modul vorkommen (auch wenn sie zusätzlich in einer anderen Gruppe stehen) – damit man nicht hin und her springen muss
+  const gruppen: [string, string[]][] = [...(eigene.length ? [['Aus dem Modul', [...new Set(eigene)]] as [string, string[]]] : []), ...GRUND];
   const [gr, setGr] = useKlapp<string>('zeichenleiste-gruppe', '');
   const aktiv = gruppen.find(([n]) => n === gr) ?? gruppen[0];
   const kurz = (n: string) => (n === 'Aus dem Modul' ? 'Modul' : n);
@@ -62,8 +62,8 @@ export function Zeichenleiste({ modul, feld, farbe }: { modul: string; feld: Rea
         <div style={{ display: 'flex', gap: 2, overflowX: 'auto' }}>
           {gruppen.map(([n]) => <button key={n} type="button" onMouseDown={keinFokus} onClick={() => setGr(n)} style={{ border: 0, borderRadius: 8, padding: '4px 10px', fontSize: 12, fontWeight: 800, whiteSpace: 'nowrap', cursor: 'pointer', background: aktiv[0] === n ? '#fff' : 'transparent', color: aktiv[0] === n ? (farbe ?? 'var(--ink)') : 'var(--ink-3)', boxShadow: aktiv[0] === n ? '0 1px 2px rgba(0,0,0,.06)' : 'none' }}>{kurz(n)}</button>)}
         </div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(' + (aktiv[0] === 'Vorlagen' ? 64 : 40) + 'px, 1fr))', gap: 2 }}>
-          {aktiv[1].map((z) => <button key={z} type="button" title={TITEL[z] ?? LABEL[z] ?? z} onMouseDown={keinFokus} onClick={() => einfuegen(feld.current, z)} style={{ height: 38, border: 0, borderRadius: 8, background: 'transparent', fontSize: 18, color: 'var(--ink)', cursor: 'pointer', fontFamily: 'inherit', whiteSpace: 'nowrap', padding: '0 4px' }} onMouseEnter={(ev) => { ev.currentTarget.style.background = '#fff'; }} onMouseLeave={(ev) => { ev.currentTarget.style.background = 'transparent'; }}>{LABEL[z] ?? z}</button>)}
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 2 }}>
+          {aktiv[1].map((z) => <button key={z} type="button" title={TITEL[z] ?? LABEL[z] ?? z} onMouseDown={keinFokus} onClick={() => einfuegen(feld.current, z)} style={{ minWidth: 40, height: 38, border: 0, borderRadius: 8, background: 'transparent', fontSize: 18, color: 'var(--ink)', cursor: 'pointer', fontFamily: 'inherit', whiteSpace: 'nowrap', padding: '0 4px' }} onMouseEnter={(ev) => { ev.currentTarget.style.background = '#fff'; }} onMouseLeave={(ev) => { ev.currentTarget.style.background = 'transparent'; }}>{LABEL[z] ?? z.replace('▮', '…')}</button>)}
         </div>
       </div>}
     </div>

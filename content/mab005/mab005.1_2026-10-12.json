@@ -26,32 +26,21 @@
       "text": "Den Ablauf des Moduls beschreiben: Vorlesung, Seminar, wöchentliche Aufgabenblätter mit Teil A (Selbstkontrolle) und Teil B (Besprechung im Seminar).",
       "art": "abgeleitet",
       "quelle": "Folie 2–4",
-      "fragen": [
-        "f01",
-        "f02",
-        "f03"
-      ],
+      "fragen": [],
       "erklaerung_abschnitt": "So läuft das Modul"
     },
     {
       "text": "Den Rahmen der Modulprüfung kennen (Form, Dauer, Termine, Wiederholung, Aufgabenformate).",
       "art": "abgeleitet",
       "quelle": "Folie 5",
-      "fragen": [
-        "f04",
-        "f05",
-        "f06",
-        "f08"
-      ],
+      "fragen": [],
       "erklaerung_abschnitt": "Klausur"
     },
     {
       "text": "Die Grundlagenliteratur des Moduls nennen.",
       "art": "abgeleitet",
       "quelle": "Folie 6",
-      "fragen": [
-        "f07"
-      ],
+      "fragen": [],
       "erklaerung_abschnitt": "Literatur"
     }
   ],
@@ -84,156 +73,12 @@
   ],
   "definitionen": [],
   "aufgaben": [],
-  "fragen": [
-    {
-      "id": "f01",
-      "baustein": "vergleich",
-      "format": "zuordnung",
-      "niveau": "wissen",
-      "schwierigkeit": 1,
-      "frage": "Ordne zu: Was gilt für Teil A, was für Teil B der Aufgabenblätter?",
-      "kategorien": [
-        "Teil A",
-        "Teil B"
-      ],
-      "elemente": [
-        {
-          "text": "zur Selbstkontrolle",
-          "kategorie": "Teil A"
-        },
-        {
-          "text": "kurze Musterlösungen zu Beginn der Folgewoche in Stud.IP",
-          "kategorie": "Teil A"
-        },
-        {
-          "text": "wird nicht ausführlich besprochen",
-          "kategorie": "Teil A"
-        },
-        {
-          "text": "wird im Seminar bearbeitet",
-          "kategorie": "Teil B"
-        },
-        {
-          "text": "wird gemeinsam besprochen",
-          "kategorie": "Teil B"
-        }
-      ],
-      "erklaerung": "Folie 4: Teil A eigenverantwortlich mit kurzen Musterlösungen, Teil B im Seminar gemeinsam.",
-      "folie": "4",
-      "pruefungsrelevant": false
-    },
-    {
-      "id": "f02",
-      "baustein": "kernaussage",
-      "format": "luecke",
-      "niveau": "wissen",
-      "schwierigkeit": 1,
-      "text": "Jeden [[Freitag]] wird ein Aufgabenblatt in Stud.IP hochgeladen.",
-      "erklaerung": "Folie 3.",
-      "folie": "3",
-      "pruefungsrelevant": false
-    },
-    {
-      "id": "f03",
-      "baustein": "kernaussage",
-      "format": "mc",
-      "niveau": "wissen",
-      "schwierigkeit": 1,
-      "frage": "Welche Aussagen zum Seminar stimmen?",
-      "optionen": [
-        "Es gibt keine Anwesenheitspflicht.",
-        "Im Seminar werden Aufgaben der Übungsblätter bearbeitet und besprochen.",
-        "Teil A wird im Seminar ausführlich besprochen.",
-        "Man kann dort Fragen zur Vorlesung stellen.",
-        "Die Teilnahme ist Voraussetzung für die Klausur."
-      ],
-      "richtig": [
-        0,
-        1,
-        3
-      ],
-      "erklaerung": "Folie 3–4: freiwillig, Übungsblätter, Fragen erwünscht. Teil A wird gerade nicht ausführlich besprochen; eine Teilnahmepflicht für die Klausur gibt es nicht.",
-      "folie": "3–4",
-      "pruefungsrelevant": false
-    },
-    {
-      "id": "f04",
-      "baustein": "kernaussage",
-      "format": "frage",
-      "niveau": "wissen",
-      "schwierigkeit": 1,
-      "frage": "Wie lange dauert die mab005-Klausur und welche Aufgabenformate kommen dran?",
-      "antwort": "90 Minuten Schreibzeit; die Aufgabenformate sind ähnlich wie die Aufgaben auf den Übungszetteln.",
-      "erklaerung": "Folie 5.",
-      "folie": "5",
-      "pruefungsrelevant": true
-    },
-    {
-      "id": "f05",
-      "baustein": "kernaussage",
-      "format": "mc",
-      "niveau": "verstehen",
-      "schwierigkeit": 2,
-      "frage": "Was passiert, wenn du den 2. Klausurtermin (22.03.2027) als ersten Versuch wählst und nicht bestehst?",
-      "optionen": [
-        "Eine Wiederholung ist erst im folgenden Sommersemester möglich.",
-        "Du kannst sofort im April wiederholen.",
-        "Der Versuch zählt nicht.",
-        "Du musst das ganze Modul neu belegen."
-      ],
-      "richtig": [
-        0
-      ],
-      "erklaerung": "Folie 5: Wiederholung spätestens zu den nächsten regulären Terminen (RPO §25 (3)) – nach dem 2. Termin ist das erst das Sommersemester.",
-      "folie": "5",
-      "pruefungsrelevant": false
-    },
-    {
-      "id": "f06",
-      "baustein": "kernaussage",
-      "format": "luecke",
-      "niveau": "wissen",
-      "schwierigkeit": 1,
-      "text": "Die Aufgabenformate der Klausur sind ähnlich wie die Aufgaben auf den [[Übungszetteln]].",
-      "erklaerung": "Folie 5 – deshalb sind die Aufgabenblätter die beste Klausurvorbereitung.",
-      "folie": "5",
-      "pruefungsrelevant": true
-    },
-    {
-      "id": "f07",
-      "baustein": "kernaussage",
-      "format": "frage",
-      "niveau": "wissen",
-      "schwierigkeit": 1,
-      "frage": "Welche zwei Bücher sind die Grundlagenliteratur in mab005?",
-      "antwort": "Hübner (2009): Stochastik. Eine anwendungsorientierte Einführung … und Kütting/Sauer (2011): Elementare Stochastik.",
-      "erklaerung": "Folie 6.",
-      "folie": "6",
-      "pruefungsrelevant": false
-    },
-    {
-      "id": "f08",
-      "baustein": "transfer",
-      "format": "offen",
-      "niveau": "anwenden",
-      "schwierigkeit": 2,
-      "frage": "Die Klausuraufgaben sind „ähnlich wie die Aufgaben auf den Übungszetteln“. Wie nutzt du Teil A und Teil B der Blätter sinnvoll für die Klausurvorbereitung?",
-      "musterloesung": "Teil A selbst lösen und mit den kurzen Musterlösungen aus Stud.IP vergleichen; Unklarheiten im Seminar fragen. Teil B möglichst vor dem Seminar versuchen und in der Besprechung den vollständigen Lösungsweg mitschreiben. Vor der Klausur alle Blätter wiederholen, weil die Klausuraufgaben ähnlich aufgebaut sind.",
-      "bewertungspunkte": [
-        "Teil A selbst lösen und mit Musterlösung vergleichen",
-        "Teil B vorbereiten und Besprechung nutzen",
-        "Blätter als Klausurvorbereitung wiederholen"
-      ],
-      "punkte": 3,
-      "erklaerung": "Folie 4–5.",
-      "folie": "4–5",
-      "pruefungsrelevant": false
-    }
-  ],
+  "fragen": [],
   "pruefungshinweise": [
     "Klausur 90 Minuten, Aufgabenformate ähnlich wie die Aufgaben auf den Übungszetteln. (Folie 5)"
   ],
   "offene_fragen": [
     "Bis zu welcher Folie von Kapitel 1 kam die Vorlesung am 12.10.? (Bis dahin ist Kapitel 1 komplett der Sitzung vom 19.10. zugeordnet.)"
-  ]
+  ],
+  "hinweis_fragen": "Keine Lernfragen zu Kapitel 0 (Organisatorisches) – Nadine, 13.11.2026."
 }

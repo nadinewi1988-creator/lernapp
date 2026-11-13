@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties, type DragEvent } from 'react';
+import { Zeichenleiste, useLetztesFeld } from '../Zeichenleiste';
 import { lueckeRichtig, lueckeUmfeld } from '../luecke';
 import type { Studienstand, Karte, KarteNeu } from '../db';
 import { speichereKarte, speichereKarten, karteAusblenden, kartenVerschieben, speichereAntwort, antwortenZuruecksetzen, bildHochladen, bildUrl, speichereLernzeit, lernzeitZuruecksetzen } from '../db';
@@ -65,6 +66,7 @@ type Dlg = { id: string; teilId: string | null; sitzungId: string | null; format
 type U = { ids: string[]; i: number; auf: boolean; wahl: number[]; eingabe: string; sicher: number; unsicher: number; zu: Record<number, number>; sel: number | null; luecken: Record<number, string>; profi: boolean };
 
 export function Karten({ stand, unter, gehe, neuLaden, nurStatistik }: Props) {
+  const feldMerker = useLetztesFeld();
   const HEUTE = heuteIso();
   const tab = nurStatistik ? 'statistik' : unter === 'archiv' ? 'archiv' : 'aktuell';
   const akt = aktuellesSemester(stand.semester);
@@ -574,7 +576,7 @@ export function Karten({ stand, unter, gehe, neuLaden, nurStatistik }: Props) {
         const set = (p: Partial<U>) => setUeben({ ...U, ...p });
         return (
         <div className="dialog-hg ueben-hg" style={{ zIndex: 20 }}>
-          <div role="dialog" aria-label="Üben" className="dialog" style={{ maxWidth: 560, gap: 14 }}>
+          <div role="dialog" aria-label="Üben" className="dialog" onFocusCapture={feldMerker.onFocusCapture} style={{ maxWidth: 560, gap: 14 }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8 }}>
               <span style={{ fontSize: 13, fontWeight: 800, color: 'var(--ink-3)' }}>{fertig ? n + ' von ' + n + ' Karten' : 'Karte ' + (U.i + 1) + ' von ' + n}</span>
               <button type="button" onClick={uebenBeenden} style={{ border: 0, background: 'none', fontSize: 14, fontWeight: 700, color: 'var(--ink-3)', cursor: 'pointer' }}>Beenden</button>
@@ -621,6 +623,7 @@ export function Karten({ stand, unter, gehe, neuLaden, nurStatistik }: Props) {
                     </label>); })}
                 </div>}
                 {(k.format === 'offen' || k.format === 'frage') && !U.auf && <textarea autoFocus value={U.eingabe} onChange={(ev) => set({ eingabe: ev.target.value })} rows={3} placeholder={k.format === 'frage' ? 'Deine Antwort (optional) …' : 'Deine Antwort …'} style={{ ...feld, padding: 10, resize: 'vertical' }} />}
+                {['offen', 'frage', 'luecke'].includes(k.format) && !U.auf && <Zeichenleiste modul={k.mk} feld={feldMerker.ref} />}
                 {zeigeAufdecken && <button type="button" onClick={() => set({ auf: true })} style={{ alignSelf: 'center', minHeight: 44, padding: '0 20px', border: '1px solid var(--line)', borderRadius: 999, background: '#fff', fontSize: 15, fontWeight: 800, color: 'var(--ink)', cursor: 'pointer' }}>{aufText}</button>}
                 {U.auf && <>
                   <div style={{ border: '1px solid var(--line)', borderRadius: 14, padding: 14, display: 'flex', flexDirection: 'column', gap: 6 }}>

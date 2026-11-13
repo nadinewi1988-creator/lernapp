@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
+import { Zeichenleiste, useLetztesFeld } from '../Zeichenleiste';
 import { lueckeRichtig, lueckeUmfeld } from '../luecke';
 import type { Studienstand } from '../db';
 import { speichereAntwort, speichereLernzeit } from '../db';
@@ -24,6 +25,7 @@ export interface LFEintrag { s: LSitzung; f: LFrage }
 export function Lernfragen({ titel, liste, stand, farbe, onClose, neuLaden }: { titel: string; liste: LFEintrag[]; stand: Studienstand; farbe: [string, string]; onClose: () => void; neuLaden: () => Promise<void> }) {
   const wd = useMemo(() => Object.fromEntries(stand.wiederholung.map((w) => [w.frage_ref, w])), [stand.wiederholung]);
   const [i, setI] = useState(0);
+  const feldMerker = useLetztesFeld();
   const [antwort, setAntwort] = useState<{ mc: number[]; luecken: string[]; zuord: Record<number, string>; text: string }>({ mc: [], luecken: [], zuord: {}, text: '' });
   const [geprueft, setGeprueft] = useState(false);
   const [erg, setErg] = useState<null | 'r' | 't' | 'f'>(null);
@@ -85,7 +87,7 @@ export function Lernfragen({ titel, liste, stand, farbe, onClose, neuLaden }: { 
 
   return (
     <div className="dialog-hg ueben-hg" style={{ zIndex: 30 }}>
-      <div role="dialog" aria-label="Lernfragen" className="dialog" style={{ maxWidth: 640, gap: 14 }}>
+      <div role="dialog" aria-label="Lernfragen" className="dialog" onFocusCapture={feldMerker.onFocusCapture} style={{ maxWidth: 640, gap: 14 }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: 8, alignItems: 'baseline', flexWrap: 'wrap' }}>
           <span style={{ fontSize: 13, fontWeight: 800, color: farbe[0] }}>{titel}</span>
           <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{fertig ? 'fertig' : 'Frage ' + (i + 1) + ' von ' + liste.length}</span>
@@ -134,6 +136,7 @@ export function Lernfragen({ titel, liste, stand, farbe, onClose, neuLaden }: { 
           </div>}
 
           {(e.f.format === 'frage' || e.f.format === 'offen') && !geprueft && <textarea value={antwort.text} onChange={(ev) => setAntwort({ ...antwort, text: ev.target.value })} rows={e.f.format === 'offen' ? 5 : 3} placeholder="Deine Antwort (optional) – mit Antwort bewertet die KI, sonst aufdecken und selbst bewerten" style={{ border: '1px solid var(--line)', borderRadius: 12, padding: 10, fontSize: 14, background: 'var(--paper)', color: 'var(--ink)', resize: 'vertical' }} />}
+          {['frage', 'offen', 'luecke'].includes(e.f.format) && !geprueft && <Zeichenleiste modul={e.s.modul} feld={feldMerker.ref} farbe={farbe[0]} />}
           {(e.f.format === 'frage' || e.f.format === 'offen') && geprueft && <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
             {antwort.text && <div style={{ fontSize: 13, color: 'var(--ink-2)', borderLeft: '3px solid var(--line)', paddingLeft: 10, whiteSpace: 'pre-wrap' }}><b>Deine Antwort:</b> {antwort.text}</div>}
             <div style={{ background: farbe[1], borderRadius: 12, padding: 12, fontSize: 14, lineHeight: 1.5 }}><b>{e.f.format === 'offen' ? 'Musterlösung' : 'Antwort'}:</b> <span dangerouslySetInnerHTML={H(e.f.format === 'offen' ? e.f.musterloesung : e.f.antwort)} /></div>

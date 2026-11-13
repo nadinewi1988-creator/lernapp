@@ -145,6 +145,14 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   const inhaltVon = (x: S) => inhaltZu(x.s.id, x.k, x.s.datum);
   const GLOSSAR = glossarVon(kuerzel), SYMBOLE = symboleVon(kuerzel), LSITZ = sitzungenVon(kuerzel);
   const alleFragen: LFEintrag[] = LSITZ.flatMap((s) => s.fragen.map((f) => ({ s, f })));
+  // Symbole lernen (Nadine, 13.11.2026): je Symbol eine Frage „Was bedeutet … und wie spricht man es aus?“ (KI-Bewertung möglich)
+  const symId = (t: string) => { let h = 0; for (const c of t) h = (h * 31 + c.codePointAt(0)!) >>> 0; return 'sym' + h.toString(36); };
+  const symFragen: LFEintrag[] = SYMBOLE.map((y) => ({
+    s: { datei: 'symbole_' + kuerzel, teilmodul: kuerzel, datum: '', modul: kuerzel } as unknown as LFEintrag['s'],
+    f: { id: symId(y.latex || y.zeichen), baustein: 'definition', format: 'frage', niveau: 'wissen', schwierigkeit: 1,
+      frage: 'Was bedeutet ' + (y.latex ? '$' + y.latex + '$' : '„' + y.zeichen + '“') + ' – und wie spricht man es aus?',
+      antwort: 'Bedeutung: ' + y.bedeutung + (y.gelesen ? '\n\nGesprochen: „' + y.gelesen + '“' : ''), erklaerung: y.erste_quelle ? 'Zuerst in ' + y.erste_quelle : '' } as unknown as LFEintrag['f'],
+  }));
   const KAPS = kapitelVon(kuerzel);
   const kapOeffnen = (k: (typeof KAPS)[number]) => setLt({ sid: 'kap:' + k.datei, kap: k.datei, kopf: k.teilmodul + ' · Kapitel ' + k.kapitel, titel: k.thema.replace(/^Kapitel \d+:\s*/, ''), ausf: false, begr: false, aufg: false });
   const wdRef = Object.fromEntries(stand.wiederholung.map((w) => [w.frage_ref, w]));
@@ -349,8 +357,11 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
           <div style={{ background: f[1], borderRadius: 16, padding: 16, display: 'flex', flexDirection: 'column', gap: 6 }}>
             <span style={{ fontSize: 15, fontWeight: 800 }}>Begriffe</span>
             <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>{GLOSSAR.length} Begriffe{kuerzel.startsWith('mab') ? ' · ' + SYMBOLE.length + ' Symbole' : ''}</span>
-            <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>Alle Definitionen des Moduls – Wortlaut aus den Unterlagen und Erklärung.</span>
-            <button type="button" onClick={() => setGlossar({ suche: '' })} style={{ ...klein, alignSelf: 'flex-start', marginTop: 'auto' }}>Öffnen</button>
+            <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>Alle Definitionen des Moduls – Wortlaut aus den Unterlagen und Erklärung.{symFragen.length ? ' Symbole: Bedeutung und wie man sie ausspricht.' : ''}</span>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, marginTop: 'auto' }}>
+              <button type="button" onClick={() => setGlossar({ suche: '' })} style={klein}>Öffnen</button>
+              {symFragen.length > 0 && <button type="button" onClick={() => setLf({ titel: kuerzel + ' · Symbole', liste: faelligZuerst([...symFragen].sort(() => Math.random() - 0.5)) })} style={klein}>Symbole üben ({symFragen.length})</button>}
+            </div>
           </div>
           {(() => { const h = heuteIso(), stF = (e: LFEintrag) => wdRef[frageRef(e.s, e.f)], fae = alleFragen.filter((e) => { const w = stF(e); return !w || !w.faellig || w.faellig <= h; }), sich = alleFragen.filter((e) => stF(e)?.stand === 'sicher').length, pct = alleFragen.length ? Math.round(sich / alleFragen.length * 100) : 0; return (
           <div style={{ background: f[1], borderRadius: 16, padding: 16, display: 'flex', flexDirection: 'column', gap: 6 }}>

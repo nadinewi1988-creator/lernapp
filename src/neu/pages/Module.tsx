@@ -147,7 +147,10 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
   const alleFragen: LFEintrag[] = LSITZ.flatMap((s) => s.fragen.map((f) => ({ s, f })));
   // Symbole lernen (Nadine, 13.11.2026): je Symbol eine Frage „Was bedeutet … und wie spricht man es aus?“ (KI-Bewertung möglich)
   const symId = (t: string) => { let h = 0; for (const c of t) h = (h * 31 + c.codePointAt(0)!) >>> 0; return 'sym' + h.toString(36); };
-  const symFragen: LFEintrag[] = SYMBOLE.map((y) => ({
+  // Reihenfolge wie auf den Folien (Nadine, 14.11.): erst Zeichen aus früheren Modulen (Grundlagen), dann nach Sitzung (Datum, Teilmodul) und Foliennummer
+  const symSchluessel = (q: string | undefined, i: number) => { const t = String(q ?? ''); const [d = ''] = t.split(' · '); const fremd = !d.startsWith(kuerzel) ? 0 : 1; const dat = (d.match(/\d{4}-\d{2}-\d{2}/) ?? [''])[0]; const fo = parseInt((t.match(/Folie\s*(\d+)/) ?? ['', '9999'])[1], 10); return [fremd, dat, d, fo, i] as const; };
+  const symSortiert = SYMBOLE.map((y, i) => ({ y, k: symSchluessel(y.erste_quelle, i) })).sort((a, b) => { for (let j = 0; j < 5; j++) { const x = a.k[j], z = b.k[j]; if (x !== z) return x < z ? -1 : 1; } return 0; }).map((v) => v.y);
+  const symFragen: LFEintrag[] = symSortiert.map((y) => ({
     s: { datei: 'symbole_' + kuerzel, teilmodul: kuerzel, datum: '', modul: kuerzel } as unknown as LFEintrag['s'],
     f: { id: symId(y.latex || y.zeichen), baustein: 'definition', format: 'frage', niveau: 'wissen', schwierigkeit: 1,
       frage: 'Was bedeutet ' + (y.latex ? '$' + y.latex + '$' : '„' + y.zeichen + '“') + ' – und wie spricht man es aus?',
@@ -360,7 +363,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
             <span style={{ fontSize: 13, color: 'var(--ink-2)' }}>Alle Definitionen des Moduls – Wortlaut aus den Unterlagen und Erklärung.{symFragen.length ? ' Symbole: Bedeutung und wie man sie ausspricht.' : ''}</span>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, marginTop: 'auto' }}>
               <button type="button" onClick={() => setGlossar({ suche: '' })} style={klein}>Öffnen</button>
-              {symFragen.length > 0 && <button type="button" onClick={() => setLf({ titel: kuerzel + ' · Symbole', liste: faelligZuerst([...symFragen].sort(() => Math.random() - 0.5)) })} style={klein}>Symbole üben ({symFragen.length})</button>}
+              {symFragen.length > 0 && <button type="button" onClick={() => setLf({ titel: kuerzel + ' · Symbole (Reihenfolge wie auf den Folien)', liste: symFragen })} style={klein}>Symbole üben ({symFragen.length})</button>}
             </div>
           </div>
           {(() => { const h = heuteIso(), stF = (e: LFEintrag) => wdRef[frageRef(e.s, e.f)], fae = alleFragen.filter((e) => { const w = stF(e); return !w || !w.faellig || w.faellig <= h; }), sich = alleFragen.filter((e) => stF(e)?.stand === 'sicher').length, pct = alleFragen.length ? Math.round(sich / alleFragen.length * 100) : 0; return (
@@ -710,7 +713,7 @@ function ModulDetail({ stand, a, kuerzel, tab, gehe, neuLaden }: { stand: Studie
               </>;
             })()}
             {kuerzel.startsWith('mab') && <><button type="button" onClick={() => setGlOffen({ ...glOffen, [kuerzel + ':symbole']: !glOffen[kuerzel + ':symbole'] })} style={{ display: 'flex', alignItems: 'baseline', gap: 8, padding: '10px 0 4px', border: 0, borderTop: '1px solid var(--line)', background: 'none', textAlign: 'left', cursor: 'pointer', color: 'var(--ink)' }}><span style={{ width: '1em', color: 'var(--ink-3)', fontSize: 12 }}>{glOffen[kuerzel + ':symbole'] ? '▾' : '▸'}</span><b style={{ flex: 1, fontSize: 14 }}>Symbole</b><span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{SYMBOLE.length} Zeichen</span></button>{!glOffen[kuerzel + ':symbole'] ? null : SYMBOLE.length === 0 ? <div style={{ fontSize: 13, color: 'var(--ink-3)', border: '1px dashed #d8d8d0', borderRadius: 10, padding: '10px 12px' }}>Die Symbolliste wird mit den ersten aufbereiteten mab-Sitzungen angelegt.</div>
-              : <div style={{ display: 'flex', flexDirection: 'column' }}>{SYMBOLE.map((y) => <div key={y.zeichen} style={{ display: 'grid', gridTemplateColumns: '5.5em minmax(0, 1fr)', gap: 10, padding: '7px 0', borderTop: '1px solid #f0f0eb', fontSize: 13 }}><b style={{ fontSize: 16, color: f[0] }} dangerouslySetInnerHTML={{ __html: y.latex ? mdInline('$' + y.latex + '$') : mdInline(y.zeichen) }} /><span><span dangerouslySetInnerHTML={{ __html: mdInline(y.bedeutung) }} />{y.gelesen ? <span style={{ color: 'var(--ink-3)' }}> · gelesen: {y.gelesen}</span> : null}</span></div>)}</div>}</>}
+              : <div style={{ display: 'flex', flexDirection: 'column' }}>{symSortiert.map((y) => <div key={y.zeichen} style={{ display: 'grid', gridTemplateColumns: '5.5em minmax(0, 1fr)', gap: 10, padding: '7px 0', borderTop: '1px solid #f0f0eb', fontSize: 13 }}><b style={{ fontSize: 16, color: f[0] }} dangerouslySetInnerHTML={{ __html: y.latex ? mdInline('$' + y.latex + '$') : mdInline(y.zeichen) }} /><span><span dangerouslySetInnerHTML={{ __html: mdInline(y.bedeutung) }} />{y.gelesen ? <span style={{ color: 'var(--ink-3)' }}> · gelesen: {y.gelesen}</span> : null}</span></div>)}</div>}</>}
             <div style={{ display: 'flex', justifyContent: 'flex-end' }}><button type="button" onClick={() => setGlossar(null)} style={klein}>Schließen</button></div>
           </div>
         </div>
